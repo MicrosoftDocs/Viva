@@ -75,7 +75,7 @@ tools:
       url: /viva/engage/overview
 
     # Card
-    - title: Microsoft Viva Pulse (Private Preview)
+    - title: Microsoft Viva Pulse (Public Preview)
       imageSrc: media/logos/VivaPulse32px.png
       url: /viva/learning/
 
