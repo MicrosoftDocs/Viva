@@ -18,6 +18,9 @@ audience: Admin
 
 # Insights - Advanced
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 These research-based behavioral insights show how your organization gets work done. Select a specific business outcome to see how your business is doing now and what actions you can take to help drive change.
 
 ![Advanced insights home page image.](../images/wpa/use/insights.png)

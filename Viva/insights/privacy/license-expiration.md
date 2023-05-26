@@ -18,6 +18,10 @@ audience: Admin
 
 # Data retention policy
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 How long does Microsoft Viva Insights in the advanced insights app and in Teams retain the data that's collected? The answer depends on the state of the Viva Insights user licenses:
 
 * [Data retention for active tenants](#data-retention-for-active-tenants)

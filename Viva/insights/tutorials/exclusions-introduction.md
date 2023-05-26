@@ -18,6 +18,11 @@ audience: Admin
 
 # Analyst settings for advanced insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+
 As an analyst of Microsoft Viva Insights, you can use the Analyst settings in the advanced insights app to set up meeting and attendee exclusion rules for data analysis purposes.
 
 You can use Query designer to measure work-related calendar collaboration. For this type of analysis, you want to make sure the queried data is applicable. That is, you want to include only participation in meetings that reflect actual work-related collaboration and exclude unrelated events from the data.

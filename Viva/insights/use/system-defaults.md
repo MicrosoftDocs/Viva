@@ -18,6 +18,10 @@ audience: Admin
 
 # System defaults
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 In **System defaults** for the advanced insights app in Microsoft Viva Insights, you can configure the following:
 
 * [Default time zone](#default-time-zone)

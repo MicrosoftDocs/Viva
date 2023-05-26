@@ -20,6 +20,10 @@ audience: Admin
 
 # Advanced insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The advanced insights app that's available with Microsoft Viva Insights gives analysts (often at the behest of business leaders) unprecedented insights about how people spend their time and who they spend it with. These insights empower leaders to drive strategies for sales, employee engagement, and productivity initiatives.
 
 Analysts can explore organizational data with advanced insights and dive deeper into their company's behavioral metrics with the Query designer.

@@ -14,6 +14,10 @@ audience: Admin
 
 # Manager insights in Teams
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights provides personalized recommendations to help you and your team do your best work. The app brings personal insights and manager insights in a unified experience, so that you have access to insights in your flow of work in Teams, the tool that you are already using for communicating with your team.
 
 ![My team page in Teams.](./images/my-team-page.png)

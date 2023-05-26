@@ -18,6 +18,9 @@ audience: Admin
 
 # Week in the life
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **Week in the life** summarizes weekly collaboration in the organization. You can use these metrics as a starting point to explore more in-depth metrics and reports. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
 ![Week in the life.](../images/wpa/use/wl-summary.png)

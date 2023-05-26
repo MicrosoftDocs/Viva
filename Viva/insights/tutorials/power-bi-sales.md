@@ -14,6 +14,9 @@ audience: Admin
 
 # Sales effectiveness
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
 
 Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.

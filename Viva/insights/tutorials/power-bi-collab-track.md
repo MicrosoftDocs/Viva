@@ -18,6 +18,10 @@ audience: Admin
 
 # Ways of working tracker
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Power BI Ways of working tracker uses Viva Insights data to help you, as an analyst track changes in collaboration over time and helps you target opportunities to improve employee wellbeing, meeting culture, and manager effectiveness.
 
 This dashboard helps you track how collaboration is affecting the key performance indicators (KPIs) for employees by answering the following business questions.
