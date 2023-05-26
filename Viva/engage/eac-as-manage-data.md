@@ -27,7 +27,7 @@ search.appverid:
 As an Engage admin, you need to export data to manage users and content. This article explains the different options that can help you manage usage, compliance, and discovery.
 
 >[!NOTE]
->To migrate data between Viva Engage tenants [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
+>To migrate data between Viva Engage tenants, [learn about migrating content](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
 
 | **Use this data export method** | **For this purpose** |
 |---|---|
