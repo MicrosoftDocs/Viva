@@ -233,7 +233,7 @@ Finally, add the author.
 
 1. Follow the initial steps to create a column.
 2. Choose **Multiple lines of text**.
-3. Name the column `ContentAuthor.`
+3. Name the column `ContentAuthor`.
 4. Add the author or authors of the content.
 
 ### Add a display name
