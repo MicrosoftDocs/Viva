@@ -77,12 +77,12 @@ tools:
     # Card
     - title: Microsoft Viva Pulse (Public Preview)
       imageSrc: media/logos/VivaPulse32px.png
-      url: /viva/learning/
+      url: /viva/pulse/introduction-to-viva-pulse
 
     # Card
     - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
-      url: /viva/pulse/introduction-to-viva-pulse
+      url: /viva/experience-role
 
 # additionalContent section (optional)
 # Card with summary style
