@@ -61,7 +61,7 @@ Only Global admins have permission to manage which integrations are available fo
     :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization drop down."::: 
 1. Select Create or Join organization.
     :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the dropdown.":::  
-1. From the Create or Join organizations page, select the Viva Goals admin portal in the top right corner.
+1. From the Create or Join organizations page, select the Viva Goals admin portal option in the top right corner.
     :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page.":::
 1. Select the integrations settings for your tenant and select save. If you choose the option for Selected integrations are available, select the integrations you want to manage and select save.  
     :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integration available for your tenant.":::
