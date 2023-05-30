@@ -23,13 +23,13 @@ search.appverid:
 
 ## Set up licensing for Viva Engage
 
-If a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
+If a user is enabled for Yammer, they're also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
 
 _Learn more: [Manage Yammer licenses in Office 365](/yammer/manage-yammer-users/manage-yammer-licenses-in-office-365)_
 
 ## Configure and review privacy and security settings
 
-The Yammer admininstrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
+The Yammer administrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
 
 _Learn more: [Overview of security & compliance for Yammer](/yammer/manage-security-and-compliance/security-and-compliance)_
 
@@ -66,7 +66,7 @@ Customizing the Viva Engage app is perfect for companies that have given their n
  
  ## Configure your Yammer network
  
-Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and secure your enviornment.
+Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and secure your environment.
 
 _Learn more: [Yammer & Viva Engage Adoption](https://aka.ms/VivaEngage/Resources)_
 
