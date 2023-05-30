@@ -18,6 +18,10 @@ audience: Admin
 
 # Meeting exclusion rule limitation for large meetings
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 To remove particular meetings or classes of meetings from analysis, you can create custom meeting exclusion rules in Microsoft Viva Insights, as described in [Meeting exclusion rules](/viva/insights/tutorials/meeting-exclusions-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). One of the classes of meetings that you can remove from analysis is large meetings. By default, the filter value for meeting size is 250. This means that, in the default meeting exclusion rule, all meetings that have 250 or more participants will be excluded. 
 
 In one of the steps for creating a custom meeting exclusion rule, you can change the filter value to a number other than 250.

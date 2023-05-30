@@ -19,6 +19,9 @@ audience: Admin
 
 # Activate Viva Insights licenses
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You can only activate additional Microsoft Viva Insights licenses for a Microsoft 365 or an Microsoft 365 tenant with an activation code from Microsoft.
 
 The task of activating licenses has two parts. Each part requires a different Azure Active Directory role:

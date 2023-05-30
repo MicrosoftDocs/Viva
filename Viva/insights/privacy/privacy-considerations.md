@@ -18,6 +18,10 @@ audience: Admin
 
 # Privacy considerations for Viva Insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights admins need to consider the following while deciding what privacy settings to use in the different Viva Insights apps.
 
 ## Minimum group size

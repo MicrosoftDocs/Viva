@@ -18,6 +18,9 @@ audience: Admin
 
 # Leader and manager settings
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 As the Microsoft Viva Insights Administrator, you can use **Leader & manager settings** to configure the following.
 
 * **Privacy settings** - Applies exclusively to the outcome data that leaders see in the Viva Insights app in Microsoft Teams. Use the **Tenant minimum group size** setting to set the minimum number of people in a group, which must be at least five, before **Insights Business Leaders** can see any data in **My organization**.

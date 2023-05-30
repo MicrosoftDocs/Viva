@@ -18,6 +18,10 @@ audience: Admin
 
 # Behavior patterns for Glint
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 >[!Note]
 >This dashboard currently only supports Glint reports that are in English. For example, if you are a customer with data in Japanese, export the Glint report in English before you upload it to PBI. If you encounter errors even with the report exported in English, delete and then manually type in the column headers in English.
 
