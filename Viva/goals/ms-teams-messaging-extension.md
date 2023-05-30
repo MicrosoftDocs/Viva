@@ -31,7 +31,7 @@ The message extension can search for OKRs and Initiatives in any organization yo
 
 From here, you can select the organization you want to search within. 
 
-:::image type="content" source="../media/goals/switch-org/select-org-dropdown.png" alt-text="Screenshot of selecting the orgnaization from a dropdown list." lightbox="../media/goals/switch-org/select-org-dropdown.png":::
+:::image type="content" source="../media/goals/switch-org/select-org-dropdown.png" alt-text="Screenshot of selecting the organization from a dropdown list." lightbox="../media/goals/switch-org/select-org-dropdown.png":::
 
 ## Share OKR updates in Microsoft Teams chats
 
