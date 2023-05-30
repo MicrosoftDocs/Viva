@@ -2,6 +2,20 @@
 
 
 
+## Week of May 15, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/15/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 5/15/2023 | [Meeting query](/viva/insights/advanced/analyst/meeting-query) | modified |
+| 5/17/2023 | [Partitions in Viva Insights](/viva/insights/advanced/admin/partitions) | added |
+| 5/17/2023 | [Partitions in Viva Insights](/viva/insights/advanced/analyst/partitions-analyst) | added |
+| 5/17/2023 | [Configure check-in reminders and notifications](/viva/goals/check-in-reminders) | modified |
+| 5/18/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | added |
+| 5/19/2023 | [Custom metrics in Viva Insights](/viva/insights/advanced/analyst/custom-metrics) | modified |
+
+
 ## Week of May 08, 2023
 
 
@@ -158,39 +172,3 @@
 | 4/20/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
 | 4/21/2023 | [Automate query data exports](/viva/solutions/automate-exports) | modified |
 | 4/21/2023 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
-
-
-## Week of April 10, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/10/2023 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
-| 4/10/2023 | [Manage and set up campaigns in Microsoft Viva Engage](/viva/engage/campaigns) | modified |
-| 4/10/2023 | [Answers admin scenarios in Viva](/viva/engage/eac-answers-admin-scenarios) | modified |
-| 4/10/2023 | [Answers in Viva: Frequently asked questions (FAQ)](/viva/engage/eac-answers-faq) | modified |
-| 4/10/2023 | [Overview and setup of Answers in Viva](/viva/engage/eac-answers-overview-setup) | modified |
-| 4/10/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
-| 4/10/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
-| 4/10/2023 | [Viva Engage admin center: Frequently asked questions (FAQ)](/viva/engage/eac-faq) | modified |
-| 4/10/2023 | [Set up the Viva Engage admin center](/viva/engage/eac-get-started) | modified |
-| 4/10/2023 | [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
-| 4/10/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
-| 4/10/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
-| 4/10/2023 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
-| 4/10/2023 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
-| 4/10/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
-| 4/10/2023 | [Metric rules in Viva Insights](/viva/insights/advanced/analyst/metric-rules) | modified |
-| 4/11/2023 | [Viva Goals Admin Portal](/viva/goals/viva-goals-admin-portal) | modified |
-| 4/12/2023 | [Microsoft Viva Topics overview](/viva/topics/topic-experiences-overview) | modified |
-| 4/12/2023 | [Viva Goals regional support](/viva/goals/viva-goals-language-support) | modified |
-| 4/13/2023 | [IT admin-led trials](/viva/goals/it-admin-trials) | added |
-| 4/13/2023 | [Self-service trials](/viva/goals/self-service-trials) | added |
-| 4/13/2023 | [Trials check list](/viva/goals/trials-checklist) | added |
-| 4/13/2023 | [Start a trial overview](/viva/goals/viva-goals-trials) | added |
-| 4/13/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
-| 4/13/2023 | [Advanced insights metric descriptions](/viva/insights/advanced/reference/metrics) | modified |
-| 4/14/2023 | [Viva Insights Outlook add-in reference](/viva/insights/personal/reference/add-in-reporting-details) | added |
-| 4/14/2023 | [How Viva Insights automatically books your time](/viva/insights/personal/reference/automatic-time-booking) | added |
-| 4/14/2023 | [Meeting and communications in Viva Insights reference](/viva/insights/personal/reference/insight-calculations) | added |
-| 4/14/2023 | [Null values after filtering Teams channel metrics](/viva/insights/tutorials/null-value-interaction-type) | added |
