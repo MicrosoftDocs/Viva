@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Troubleshoot your Viva Engage network for Native Mode for Microsoft 365"
 description: "Troubleshoot issues with your Viva Engage network in Native Mode for Microsoft 365."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin
