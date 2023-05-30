@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin

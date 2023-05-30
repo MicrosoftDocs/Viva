@@ -1,6 +1,6 @@
 ---
 ms.date: 07/04/2022
-title: Share OKR updates in chats
+title: Microsoft Teams Extension
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -21,7 +21,19 @@ search.appverid:
 description: "Learn how you can use the messaging extension to share your OKR updates in your Microsoft Teams chats"
 ---
 
-# Share OKR updates in Microsoft Teams chats
+# Microsoft Teams Extension
+
+## How to switch organizations
+
+The message extension can search for OKRs and Initiatives in any organization you are part of. (see organizations). To switch your active organization, click on ‘More Options’ in the top right corner of the message extension, and choose ‘Switch organization’.  
+
+:::image type="content" source="../media/goals/switch-org/switch-org.png" alt-text="Screenshot of selecting the switch organization option in MS Teams." lightbox="../media/goals/switch-org/switch-org.png":::
+
+From here, you can select the organization you want to search within. 
+
+:::image type="content" source="../media/goals/switch-org/select-org-dropdown.png" alt-text="Screenshot of selecting the organization from a dropdown list." lightbox="../media/goals/switch-org/select-org-dropdown.png":::
+
+## Share OKR updates in Microsoft Teams chats
 
 You can surface specific OKRs and initiatives within your Teams chats to add more context to your conversations. You can discuss progress, proactively identify and resolve blockers, and use Viva Goals to focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
 
