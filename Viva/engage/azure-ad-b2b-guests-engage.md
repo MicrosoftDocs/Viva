@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Work with AzureAD-B2B guests in Viva Engage communities"
 description: "Learn about working with Azure Active Directory-B2B guests in Viva Engage communities."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin
