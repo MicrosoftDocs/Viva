@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Viva Engage and Microsoft 365 Groups"
 description: "Viva Engage communities can access Microsoft 365 services, including a SharePoint Online team site and document library, OneNote notebook, plan in Planner, and Power BI workspace."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin

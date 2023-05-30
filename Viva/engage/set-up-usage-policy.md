@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Set up a Viva Engage usage policy"
 description: "Create a usage policy that users must accept before using Viva Engage."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin
