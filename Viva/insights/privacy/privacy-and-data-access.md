@@ -21,6 +21,10 @@ audience: Admin
 
 # Privacy and data access
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Being aware of employees' rights is a key component to ensuring a successful program using Microsoft Viva Insights. It's important to consider ever-changing laws and regulations about employer-employee relationships, privacy, personal data, and company policies, before using the Viva Insights web features.
 
 Viva Insights doesn't encode any specific policy. Instead, it gives control to the administrators to configure the product to be consistent with applicable laws, regulations, and company policies. Your organization chooses what data to use in the app.

@@ -19,6 +19,10 @@ audience: Admin
 
 # Advanced insights language support and guidelines
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The user interface for the advanced insights app in Microsoft Viva Insights is currently available in the languages listed in [Supported languages](#supported-languages).
 
 The advanced insights app automatically uses your language identifier (language and region) setting, as specified in one of the following sources:

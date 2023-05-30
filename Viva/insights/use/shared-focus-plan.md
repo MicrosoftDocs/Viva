@@ -16,7 +16,11 @@ audience: Admin
 
 # Shared focus plan
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 _**Note**: This is currently only available through a targeted release._
+
 
 A focus plan helps you automatically block uninterrupted time for top-priority work for up to four hours every day. As an individual, you can schedule a personal focus plan through [Quiet time](../personal/teams/quiet-time.md) in the Microsoft Viva Insights app in Microsoft Teams.
 

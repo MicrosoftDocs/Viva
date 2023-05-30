@@ -18,6 +18,10 @@ audience: Admin
 
 # View, download, and export query results
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+
 **Role** - The Analyst role for the advanced insights app is required to view, download, or export query results
   
 In the advanced insights app, the **Analyze** > **Query designer** > **Results** > **All results** page lists all the results available for your organization.

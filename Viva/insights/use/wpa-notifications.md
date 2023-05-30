@@ -19,6 +19,10 @@ audience: Analyst
 
 # Notifications and What's new
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The ribbon at the top of every page in the advanced insights app with Microsoft Viva Insights offers several choices, including options to provide feedback; view information about your tenant, role, and session; and to view documentation.
 
 It also lets you view notifications and learn What's new in Viva Insights, as described in the following sections. 

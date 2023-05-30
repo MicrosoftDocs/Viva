@@ -18,6 +18,9 @@ audience: Admin
 
 # Viva Insights audit logs
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Microsoft 365 audit logs are generated and accessed in the Microsoft 365 portal. As an Exchange admin, you can access these logs to audit or track general user activities and actions, such as to see who accessed, tried to access, or modified data.
 
 These logs include an audit section for activity within the advanced insights app that's available with Microsoft Viva Insights, which typically includes sensitive data. You can monitor and track your organizational data for all user actions to ensure compliance with your organization's privacy and security policies.

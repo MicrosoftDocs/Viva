@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for focused work
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Having scheduled, uninterrupted time to focus on deep work provides employees an opportunity to master difficult tasks and produce results at an elite level, in terms of quality and speed.
 
 ## Why it matters

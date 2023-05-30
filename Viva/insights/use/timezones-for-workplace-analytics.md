@@ -21,6 +21,10 @@ audience: Admin
 
 # Time zones for Viva Insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The default time zone in Microsoft Viva Insights is Pacific Standard Time. The following lists the other time zones that you can  use.
 
 When you prepare organizational data for upload to Viva Insights, use the following time zone names (the TimeZone attribute) exactly as they appear:

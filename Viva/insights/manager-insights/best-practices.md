@@ -16,6 +16,9 @@ author: madehmer
 # Viva Insights best practices
 
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 <ul class="panelContent cardsY">
     <li>
         <a href="./coaching.md">
