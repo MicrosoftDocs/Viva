@@ -32,7 +32,9 @@ Don’t have time to create a home site from scratch? Consider using [the Landin
 [Learn more about how Viva Connections and home sites work together to create employee experiences.](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together)
 
 > [!NOTE]
-> Only SharePoint admins can set sites as a home site.
+> SharePoint home sites can now only be created and managed in your Microsoft 365 admin center. You'll need to be a global admin to create a home site.
+
+>[!NOTE]
 > A home site is not required for the [latest release of the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/new-experiences-for-viva-connections-are-now-rolling-out/ba-p/3729071).
 > [Learn more about the new experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/see-what-you-can-do-in-the-viva-connections-desktop-experience-e1f53887-f3cc-4ec4-bdbd-2e2f673089b6).
 
@@ -40,7 +42,7 @@ Don’t have time to create a home site from scratch? Consider using [the Landin
 
 The web parts used here pair well with home sites, however web parts can be swapped or left out. Decide what is best for your organization and adjust the layout as needed.
 
-The guidance here will help you design the home site and customize web parts, but you'll need to provide your own content. 
+The guidance here will help you design the home site and customize web parts, but you'll need to provide your own content.
 
 A home site needs site navigation that is organized well, highlights popular resources and portals, and is relevant to the entire organization. This design guidance doesn't specifically talk about how to design site navigation. Get more guidance on [how to think about links in home site navigation](/sharepoint/information-architecture-models-examples) and [in the global navigation](sharepoint-app-bar.md).
 
