@@ -2,7 +2,7 @@
 title: "Manage data in the Viva Engage admin center"
 description: "Describes where and how admins can manage data in the Viva Engage admin center."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: mamiejohnson
 author: Starshine89
 manager: dmillerdyson
 ms.date: 05/19/2023
