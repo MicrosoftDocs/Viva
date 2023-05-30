@@ -2,6 +2,14 @@
 
 
 
+## Week of May 22, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/25/2023 | [Managing Viva Goals members](/viva/goals/managing-team-members) | added |
+
+
 ## Week of May 15, 2023
 
 
@@ -119,56 +127,3 @@
 | 4/28/2023 | [Organization insights FAQs](/viva/insights/org-team-insights/org-insights-faqs) | modified |
 | 4/28/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
 | 4/28/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-
-
-## Week of April 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/19/2023 | [Microsoft Viva Compliance](/viva/viva-compliance) | added |
-| 4/19/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | added |
-| 4/19/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | added |
-| 4/19/2023 | [Microsoft Viva Privacy, Security, and Compliance](/viva/microsoft-viva-security) | modified |
-| 4/19/2023 | [Learn more about Microsoft Viva apps](/viva/discover-more-about-each-viva-module) | modified |
-| 4/19/2023 | [Combine Microsoft Viva apps to support popular business scenarios](/viva/learn-how-to-combine-modules) | modified |
-| 4/20/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
-| 4/20/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
-| 4/20/2023 | Personal insights introduction | removed |
-| 4/20/2023 | Privacy guide for personal insights | removed |
-| 4/20/2023 | Focus plan for Viva Insights | removed |
-| 4/20/2023 | Focus with Viva Insights | removed |
-| 4/20/2023 | Mindfulness content in Viva Insights | removed |
-| 4/20/2023 | Viva Insights Home tab in Teams and on the web | removed |
-| 4/20/2023 | Inspiration library in the Viva Insights app | removed |
-| 4/20/2023 | Viva Insights app introduction | removed |
-| 4/20/2023 | Meeting category insights in Viva Insights | removed |
-| 4/20/2023 | Meeting effectiveness surveys in Viva Insights | removed |
-| 4/20/2023 | Meeting habits in Viva Insights | removed |
-| 4/20/2023 | Network in Viva Insights | removed |
-| 4/20/2023 | Praise with Viva Insights | removed |
-| 4/20/2023 | Privacy guide for personal insights in the Viva Insights app | removed |
-| 4/20/2023 | Productivity tab in Viva Insights | removed |
-| 4/20/2023 | Quiet time in Viva Insights | removed |
-| 4/20/2023 | Reflect with Viva Insights | removed |
-| 4/20/2023 | Schedule send suggestions in Teams chat | removed |
-| 4/20/2023 | Configure Viva Insights settings | removed |
-| 4/20/2023 | Shared focus plan | removed |
-| 4/20/2023 | Shared meeting plan in Viva Insights | removed |
-| 4/20/2023 | Shared no-meeting day plan | removed |
-| 4/20/2023 | Suggested tasks in Viva Insights | removed |
-| 4/20/2023 | Teamwork tab in Viva Insights | removed |
-| 4/20/2023 | Time management features in Viva Insights | removed |
-| 4/20/2023 | Virtual commute with Viva Insights | removed |
-| 4/20/2023 | Discover and pin the Viva Insights app | removed |
-| 4/20/2023 | Wellbeing tab in Viva Insights | removed |
-| 4/20/2023 | About Viva Insights Outlook add-in | removed |
-| 4/20/2023 | Viva Insights digest emails | removed |
-| 4/20/2023 | Inline suggestions in Outlook | removed |
-| 4/20/2023 | Schedule send with Viva Insights | removed |
-| 4/20/2023 | Use Microsoft Viva Insights in Outlook | removed |
-| 4/20/2023 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
-| 4/20/2023 | [Manage topic visibility in Microsoft Viva Topics](/viva/topics/topic-experiences-knowledge-rules) | modified |
-| 4/20/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
-| 4/21/2023 | [Automate query data exports](/viva/solutions/automate-exports) | modified |
-| 4/21/2023 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
