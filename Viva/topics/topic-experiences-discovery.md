@@ -55,8 +55,11 @@ To choose sites for topic discovery
     - **No sites**: Topics won't be automatically generated or updated with SharePoint content. Existing topics remain in the topic center.
 
     ![Screenshot of SharePoint topic sources user interface.](../media/k-manage-select-topic-source.png)
-   
+
 3. Select **Save**.
+
+>[!NOTE]
+>Encrypted files won't be used for topic discovery.
 
 ## Exclude topics by name
 
