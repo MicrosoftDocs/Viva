@@ -3,7 +3,7 @@ ms.date: 08/12/2022
 title: "Set up Viva Engage"
 description: "Setting up Viva Engage"
 ms.reviewer: ethli
-ms.author: v-jebizie
+ms.author: mamiejohnson
 author: v-jebizie
 manager: dmillerdyson
 audience: Admin
