@@ -18,6 +18,10 @@ audience: Admin
 
 # Microsoft Teams insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 As employees shift to remote work and to digital only collaboration, Viva Insights can help you stay on track and make data-driven decisions that can help your employees do their best work.
 
 The Power BI Microsoft Teams insights dashboard directionally highlights where a shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.

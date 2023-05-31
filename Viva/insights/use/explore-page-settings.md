@@ -19,6 +19,9 @@ audience: Admin
 
 # Settings and filters for Explore the stats
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You can select **Settings and filters** to view **Page settings** on the right side of an Explore the stats page in Viva Insights. You can use these settings to change the date range, the way to group time investors (a grouping of employees that is used in queries), and the filter for active, inactive, or all employees.
 
 ![Settings and filters.](../images/wpa/use/settings-and-filters-2.png)

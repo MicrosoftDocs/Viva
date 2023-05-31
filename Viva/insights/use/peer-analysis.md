@@ -18,6 +18,9 @@ audience: Admin
 
 # Peer analysis in Advanced insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Peer analyses help you find answers to the question: How do the most effective people&mdash;the best performing people in a company&mdash;collaborate differently than their peers? (Note: In this article, we’ll refer to these people as the _reference group_, and the people we compare them with&mdash;their peers&mdash;as the _other group_.)
 
 The immediate goal of this kind of analysis is to help you discover the unique workplace-collaboration traits that help these people succeed. The larger goal is to use these insights to spread these behaviors so that the peers of the reference group, and others in the company, can benefit from them.  

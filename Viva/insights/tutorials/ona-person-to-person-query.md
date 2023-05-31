@@ -18,6 +18,10 @@ search.appverid:
 
 # Network person-to-person queries
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Successful employees and teams use their networks to get work done effectively. Measuring network attributes tells you what network resources employees can access. Network size is just one attribute of a collaborative network. Network connections have other qualities that tell us more about the type of working relationship and what benefit it might present to the employee and team.
 
 You can use the Organizational network analysis (ONA) queries to qualify a network connection between two people as a **strong tie**, a **diverse tie**, or neither.

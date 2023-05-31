@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Viva Engage admin key concepts"
 description: "Key concepts for planning how to administer your new Viva Engage network."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin

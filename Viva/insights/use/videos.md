@@ -19,6 +19,10 @@ audience: Admin
 
 # Viva Insights videos
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Microsoft Viva Insights documentation has a number of videos that help explain concepts or describe procedural steps. To find the current videos, refer to the following sections:
 
 ## Setup
