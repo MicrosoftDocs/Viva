@@ -85,7 +85,7 @@ Learn more about the platforms used to access Viva Connections.
 
 - **Microsoft Teams desktop:** Usage in the Teams app for desktop or web.
 - **Microsoft Teams mobile:** Usage in the Teams app for mobile.
-- **SharePoint:** Views in SharePoint are limited to the Dashboard and Feed web parts viewed on the web. .
+- **SharePoint:** Views in SharePoint are limited to the Dashboard and Feed web parts viewed on the web. 
 
 
 ## How to to disable analytics features
