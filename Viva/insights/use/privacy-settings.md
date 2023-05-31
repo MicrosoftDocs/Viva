@@ -18,6 +18,10 @@ audience: Admin
 
 # Privacy settings and exclusions
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+
 As the Viva Insights admin, you use privacy settings to determine what data your organization wants to exclude from analysis and what data can be visible in [Query designer](/viva/insights/Tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Explore the stats](/viva/insights/Use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Watch the [Privacy video](#privacy-video) to learn more about how Viva Insights keeps personal data private.
 
 You can use privacy settings to:
