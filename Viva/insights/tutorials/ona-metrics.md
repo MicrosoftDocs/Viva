@@ -18,6 +18,10 @@ search.appverid:
 
 # Network query metrics
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The [Network person query](/viva/insights/tutorials/ona-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) and [Network person-to-person query](/viva/insights/tutorials/ona-person-to-person-query?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) use a number of connectivity metrics to help analysts investigate the effects and value of relationships within and beyond groups.
 
 These connectivity relationships are of two broad types, _influence_ and _ties_. People in a company can have varying amounts of influence over their coworkers. Because influencers can act as change agents, identifying them can help leaders implement change. Ties reflect connections between people including, _diverse_ and _strong_. Identifying these ties can help you determine aspects such as, team alignment and potential for the flow of information and ideas.

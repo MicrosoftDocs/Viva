@@ -14,6 +14,9 @@ audience: Admin
 
 # Manager insights rollout
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 When you're ready to roll out manager insights to your organization, do the following to introduce and educate managers on how to use Microsoft Viva Insights and advanced insights to better understand their team collaboration habits and to apply them to better support their teams.
 
 >[!Note]
