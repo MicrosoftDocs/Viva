@@ -35,7 +35,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Wellbeing - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiNTcwNGQwMTctYWUwYy00MjAwLThlM2YtYTIwMWI4ZGEwZTg0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiZGM3NmEyYTAtMjlmNC00ZDg0LTkyYTItYmVmNjM3OGVlYzE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
@@ -45,17 +45,17 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 1.	In the Viva Insights analyst experience, select **Analysis**.
 2.	Under Power BI templates, navigate to **Viva Insights with Glint** and select **Start analysis**. 
-[!INCLUDE [Setup steps](includes/setup-steps.md)]
+[!INCLUDE [Setup steps](includes/setup-steps-glint.md)]
 
 ## Report settings
 
 |Setting|Description|
 |-------|-----------|
-|View report by| Set the primary group-by attribute for all report pages. You can change this attribute at any time and all report pages will group values by the new attribute. <!--what are the cases you'd ever want to group by something other than Organization, like a question or the client_uuid?-->
-|Filter by| Select a category you want to filter your report by: <ul><li> client_uuid <li>Organization<li>One of the survey's questions <li>survey_cycle_id<li> survey_cycle_title <!--same as above. Also, what is the uuid, cycle id, and cycle title? Will these be the category name for everyone-->
-|Filter value|Filter by a value in the category you selected above. For example, if you selected "Organization" above, you could set "Engineering" here. You'll only see data from the Engineering organization, so setting filters lowers the **People included in this report** count. <!--what are the numerals for the Q values? Are the Q values actually categories, and each number is the question number?-->
+|View report by| Set the primary group-by attribute for all report pages. You can change this attribute at any time and all report pages will group values by the new attribute. 
+|Filter by| Select a category you want to filter your report by: <ul><li> Organization<li>One of the survey's questions 
+|Filter value|Filter by a value in the category you selected above. For example, if you selected "Organization" above, you could set "Engineering" here. You'll only see data from the Engineering organization, so setting filters lowers the **People included in this report** count.
 |Include| Choose whether you want this report to include: <ul><li>Weeks that people are probably out of office, like holiday weeks. These weeks have lower levels of collaboration than others. <li>Employees who collaborate fewer than hours per week. These employees are unlikely to be knowledge workers, or they don’t use Outlook or Teams.
-|Preferred report language|In later releases, you'll be able to pick your report’s language. For this private preview, the report is only available in English. <!--verify when this will change. After private preview?-->
+|Preferred report language|In later releases, you'll be able to pick your report’s language. For this private preview, the report is only available in English.
 
 ### People included in this report 
 
