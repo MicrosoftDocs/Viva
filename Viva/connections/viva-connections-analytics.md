@@ -1,5 +1,5 @@
 ---
-ms.date: 3/2/2023
+ms.date: 5/30/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: hokavian
@@ -23,7 +23,7 @@ search.appverid:
 - SPO160
 - MET150f
 ms.custom: intro-overview
-description: "Learn how to use Viva Connections experience by using Viva Connections analytics."
+description: "View usage data for Viva Connections to learn more about usage trends."
 ---
 
 # View usage data for Viva Connections
@@ -67,17 +67,17 @@ The usage report contains three separate tabs and sheets of data. Learn more abo
 
 Learn more about usage data for unique users, engaged users, and the total visits. The data on this sheet includes activity for desktop, web, and mobile usage regardless of the platform.
 
-- **Unique active users:** Total number of individual viewers across all Viva Connections platforms. This includes viewers who open the app and view the experience.
-- **Unique engaged users:** Total number of individual viewers who interact with Viva Connections experiences. This includes viewers who engage with a dashboard card, a post in the feed, or a link in resources.
-- **Total visits:** Total number of individual visits, aggregated across Viva Connections platforms.
+- **Unique users:** Total number of individual viewers across all Viva Connections apps and devices.
+- **Engaged users:** Total number of individual viewers who interact with Viva Connections components.
+- **Total visits:** Total number of all visits, aggregated across Viva Connections apps, devices, and components.
 
 ### Sheet 2: Usage by experience
 
 Learn more about the components users engage with across Viva Connections experience. The data on this sheet includes activity for desktop, web, and mobile usage. It also includes the Viva Connections [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [Feed](/viva/connections/use-feed-web-part-for-viva-connections) web parts.
 
-- **Dashboard:** The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
-- **Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
-- **Resources:** The Resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
+- **Dashboard:** The dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
+- **Feed:** The feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
+- **Resources:** The resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
  
 ### Sheet 3: Usage by platform
 
@@ -85,7 +85,7 @@ Learn more about the platforms used to access Viva Connections.
 
 - **Microsoft Teams desktop:** Usage in the Teams app for desktop or web.
 - **Microsoft Teams mobile:** Usage in the Teams app for mobile.
-- **SharePoint:** Usage with the Dashboard, Feed, and Resources in the SharePoint app for desktop, web, and mobile.
+- **SharePoint:** Views in SharePoint are limited to the Dashboard and Feed web parts viewed on the web. 
 
 
 ## How to to disable analytics features
