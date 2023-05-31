@@ -16,6 +16,8 @@ audience: Admin
 ---
 # Glint with Viva Insights report
 
+*Applies to: private preview customers only*
+
 The **Viva Insights with Glint** shows how Glint survey questions and Viva Insights metrics are related. 
 
 With this report, you can:
@@ -107,7 +109,7 @@ Get an overview about the survey you're analyzing:
 * Name
 * When it was opened and closed
 * How many questions it has
-* When correlation with Viva Insights data took place (for example, 01/04/2023 - 04/02/2023). <!--would like more information about this-->
+* When correlation with Viva Insights data took place (that is, 90 days before and after the survey close date). 
 
 #### Questions with strong relationship
 
