@@ -39,7 +39,10 @@ This article lists error messages for Viva Insights. We've broken these errors o
 
 | Error message | Details |Solution| Resources
 |--- | --- |---|---|
-|
+|Oops! Something's wrong and we can't render this page right now. Please try again later.| You might not have a license or the right role assigned to access this page.|Contact your Microsoft 365 admin to make sure you have the right license and role assigned.|[Question 4, FAQ](faq.md#q4-our-admin-assigned-the-required-licenses-why-cant-insights-analysts-access-the-advanced-insights-app) <br><br>[Assign licenses](../setup-maint/assign-licenses.md)<br><br>[Assign roles](../setup-maint/assign-user-roles.md)<br><br>[Feature access](../setup-maint/user-roles.md#feature-access) 
+|0% of insights using organizational data are available due to missing or low-quality data fields|You haven't added data to the advanced insights app, and the quality of data from Azure Active Directory is too low. | Add organizational data to the advanced insights app to increase this percentage and unlock different insights.| [Upload organizational data](../admin/upload-org-data-first.md)<br><br>[Data quality](../analyst/data-quality-analyst-experience.md)
+|Another upload or delete action is currently underway. To continue, wait for that action to be completed.| You or another admin have added data to the advanced insights app, and it's still processing.|Either wait a few hours for the data to finish processing and refresh the page, or cancel the update and start a new one.| [Upload organizational data](../admin/upload-org-data-first.md)
+|Submission for upload failed. If you already have an upload or delete action in progress, wait for it to finish. Otherwise, please try again.|Something caused your upload to fail. |If you don't have another upload in progress, check your file for errors and try uploading it again. If another upload is in progress, wait until it's done processing. Contact our [support team](/microsoft-365/admin/get-help-support#online-support) for help if you keep getting this error.| [Upload organizational data](../admin/upload-org-data-first.md)<br><br> [Support](/microsoft-365/admin/get-help-support#online-support)
 
 
 ## Workplace Analytics
