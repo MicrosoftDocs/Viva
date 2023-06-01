@@ -22,6 +22,10 @@ audience: Admin
 
 # De-identification of personal data
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 To keep from disclosing personal data, Microsoft Viva Insights de-identifies an individual's data through the use of pseudonymization and other techniques, such as aggregation.
 
 The following [illustrative example](#illustrative-example) describes how Viva Insights secures information in query results. For more examples of how various types of data are de-identified, see **Examples** in [Types of data for analysis](data-protection-considerations.md#types-of-data-used-in-analysis).
