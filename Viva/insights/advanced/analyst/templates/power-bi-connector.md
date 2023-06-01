@@ -35,14 +35,18 @@ audience: Admin
     1. Set advanced parameters (optional).
         1. In Schema type, select:
             1. **Pivoted (Default)** to load organizational attributes as individual columns. Here's an example:
+            
             |PersonId|MetricDate|Collaboration hours|Organization|SupervisorIndicator|
             |---------|---------|--------|------|--------|
             |A|5/7/2023|23.6|Finance|Manager|
-            1. **Unpivoted** to load organizational attributes as key-value pairs.Here's an example:
+
+            2. **Unpivoted** to load organizational attributes as key-value pairs. Here's an example:
+            
             |PersonId|MetricDate|Collaboration hours|AttributeName|AttributeValue|
             |---------|---------|--------|------|--------|
             |A|5/7/2023|23.6|Organization|Finance|
             |A|5/7/2023|23.6|SupervisorIndicator|Manager|
+
     1. In Data granularity, select:
         1. **Aggregated data (default)** to push queries to the database to get aggregated results in Power BI.
         1. **Row-level data** to load the raw query results into Power BI. <!--would like more of an explanation on the difference between these options-->
