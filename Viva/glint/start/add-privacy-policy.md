@@ -48,14 +48,14 @@ If admin choose to insert the link to your company’s privacy statement, employ
 2. **Glint website navigation bar:** From the top navigation bar of Glint website, select the **question mark** symbol and then **Privacy** from the dropdown menu to view the Microsoft Privacy Statement.
 
 >[!NOTE]
-> Microsoft privacy statement will always display in all Glint email footers and login screen all the time.
+> Microsoft's privacy statement will display in all Viva Glint email footers and login screens.
 
 ## To use the Microsoft Privacy Statement
 
 If an admin doesn't insert the link to your company’s privacy statement, the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) link displays as the default privacy statement in every location a policy is expected. 
 
 >[!NOTE]
-> Microsoft privacy statement will always display in all Glint email footers and login screen all the time.
+> Microsoft's privacy statement will display in all Viva Glint email footers and login screens.
 
 ## To summarize: Where will employees have access to a privacy policy?
 
