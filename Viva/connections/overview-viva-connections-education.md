@@ -28,7 +28,7 @@ Microsoft Viva Connections for Education is your gateway to a modern faculty, st
 
 ![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
-Use the [quick guide to set up Viva Connections](/viva/connections/viva-connections-setup-guide) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
+Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
 
 **Viva Connections is:**
 
@@ -290,7 +290,7 @@ There are several options to learn more about how to get Viva Connections for yo
 >
 | **Option** | **Description** | **Time to complete** |
 |-----|-----|-----|
-| **[Quick guide](/viva/connections/viva-connections-setup-guide)** | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
+| **[Quick guide](set-up-admin-center.md)** | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
 | **[Plan, build, and launch guidance](/viva/connections/viva-connections-setup-overview)** | Get more detailed guidance that focus on tasks in the plan, build, and launch phases. | 30 minutes |
 | **[Learning path](/training/paths/viva-connections-get-started/)** | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings. | Two hours |
 >

@@ -4,7 +4,7 @@ title: "Approval workflows"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: <TBD>
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH

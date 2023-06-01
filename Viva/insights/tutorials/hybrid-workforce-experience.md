@@ -20,6 +20,10 @@ audience: Admin
 
 # Hybrid workforce experience dashboard
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 ## Introduction
 
 As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI dashboard helps them understand how hybrid work affects employees differently. The dashboard identifies opportunities to improve the experience of employees working in the following ways:

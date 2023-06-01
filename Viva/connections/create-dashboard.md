@@ -241,11 +241,12 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
    :::image type="content" alt-text="This screenshot is of the card toolbox section that displays third party cards." source="../media/connections/third-party-card-toolbox.png":::
 
-1. While in edit-mode, select **+ Add** card from the dashboard.
-2. You see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
-3. Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
-4. You'll receive an email to confirm if your request has been approved or denied.
-5. Once your request has been approved, refresh the page, and you see the new card display in the toolbox.
+1.	While in edit-mode, select **+ Add** card from the dashboard.
+2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
+3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
+4.	You'll receive an email to confirm if your request has been approved or denied.
+5.	Once your request has been approved, refresh the page  and you’ll see the new card display in the toolbox.
+
 
 #### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 
@@ -411,7 +412,7 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
       ![Audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 
-- Cards that targeted to a specific group will display.
+- Cards that are targeted to a specific group will display.
 - When one or more audiences are selected, cards that *don't* have audience targeting applied will also display.
 - If no audiences are targeted, only cards that *aren't* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
 - If you aren't part of one of the audiences you've selected, you'll only see cards that aren't audience targeted. If none are audience targeted, you won't see any cards.
@@ -457,6 +458,6 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 
 ## More resources
 
-[Step-by-step guide to setting up Viva Connections](viva-connections-setup-guide.md)
+[Step-by-step guide to setting up Viva Connections](set-up-admin-center.md)
 
 [Learn more about how to plan a dashboard](plan-viva-connections.md#step-1-plan-for-viva-connections)
