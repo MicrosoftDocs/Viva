@@ -23,7 +23,7 @@ ms.custom: intro-get-started
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS:
 description: "Learn how to set up Viva Connections in the Microsoft 365 admin center"
 ---
 

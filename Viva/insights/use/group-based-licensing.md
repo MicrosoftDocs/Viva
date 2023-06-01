@@ -18,6 +18,9 @@ audience: Admin
 
 # Assign group-based licenses for Advanced insights
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 To use group-based licensing to assign Advanced insights app licenses, see [Group-based licensing](/azure/active-directory/enterprise-users/licensing-groups-assign).
 
  <!-- FORMERLY HERE: NOW OUTDATED AS OF AUGUST 2021. 
