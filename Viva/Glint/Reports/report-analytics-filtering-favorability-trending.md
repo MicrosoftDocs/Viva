@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-# Learn Viva Glint reporting terminology 
+# Make the most of Viva Glint reporting features
 
 The following terms will help you understand Viva Glint People Science terms and ensure that you get the most useful information from all your Viva Glint reports. 
 
