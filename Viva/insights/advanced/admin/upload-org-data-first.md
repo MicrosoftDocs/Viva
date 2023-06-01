@@ -41,6 +41,9 @@ After the data successfully validates and processes, the overall data-upload tas
 
 To upload your .csv file, follow these steps:
 
+1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
+1. Under **Add-on Plan**, select **Manage privacy, data, and manager settings in Advanced Insights**.
+1. Select **Organizational data** from the Menu.
 1. In the **Organizational data** page, select **.csv upload**.
      :::image type="content" source="../images/admin-data-hub.png" alt-text="Screenshot that shows the Organizational data page hub." lightbox="../images/admin-data-hub.png":::
 
