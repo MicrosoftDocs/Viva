@@ -90,19 +90,15 @@ Select the **Nudge #** to enable, disable, or preview. The corresponding slide
 
 ### Advanced 
 
-The following items can be enabled, disabled, or customized:  
+Social proof can be enabled, disabled, or customized:  
 
-- Social Proof: Manage by choosing one of the following: 
+- Manage by choosing one of the following: 
    - Include full names of teammates and aggregated data. For example, *Natalie Morris, Jacob Madsen, and 12 others are committed to Recognition*. 
    - Include only anonymized, aggregated data. As above but doesn't include names. For example, *14 others in your organization are committed to Recognition*.
    - Off: Disables this feature  
 
    > [!NOTE]
    >Social Proof doesn't disclose that a user is working on a goal if the recipient doesn’t have the permission to see that goal.
-
-- Unsubscribed Users: Managers can unsubscribe from Nudges. To view managers who have and to resubscribe them: 
-   - Select **View and Resubscribe**.
-   - Follow on-screen guidance to download a list of unsubscribed users and then select a user to resubscribe or batch resubscribe all users. Users won't be notified that they've been resubscribed; they'll begin receiving Nudge notifications again.
 
 ### Enabled programs 
 
