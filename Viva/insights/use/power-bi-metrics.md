@@ -18,6 +18,9 @@ audience: Admin
 
 # Power BI Connector metrics
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The following base metrics are imported from Viva Insights into Power BI through the Power BI Connector. These base metrics are imported when you only enter a Partition Identifier and not any Query Names or Query Identifiers. For details, see [Connect through the Power BI Connector](View-download-and-export-query-results.md#connect-through-the-power-bi-connector). [Customized](/viva/insights/tutorials/customize-a-metric?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) or calculated metrics that are not available in Viva Insights as base metrics, show as **Not applicable** in the Viva Insights metric column.
 
 |Power BI Connector metric |Viva Insights metric |Definition |Data type |

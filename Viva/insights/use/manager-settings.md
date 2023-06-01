@@ -19,6 +19,9 @@ audience: Admin
 # Manager settings
 
 >[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+>[!Important]
 >Manager settings only control **Group insights** within **My team** in the Viva Insights app in Teams. To set up or disable the **My team** page, see [Admin tasks](../org-team-insights/team-insights.md#admin-tasks).
 
 As an admin for Microsoft Viva Insights, you can set up and edit **Manager settings** to allow all measured people managers or a specified group of managers access to aggregated collaboration insights about their team.
