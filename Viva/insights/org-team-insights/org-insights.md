@@ -171,9 +171,12 @@ You’ll see a **Teamwork insights for your organization** section at the top of
 
 ## Show details 
 
-If you want to dive deeper into an insight, select **Show details** on the insight card.
+>[!Note]
+>The features in this section are still rolling out to customers.
 
-You'll arrive at a report page, which gives you more information about the metric that your insight's based on. 
+If you want to dive deeper into an insight, select **Show details** on the insight card. You'll arrive at a report page, which gives you more information about the metric that your insight's based on.
+
+:::image type="content" source="images/org-insights-report-page.png" alt-text="Screenshot that shows the L2 report page in the Viva Insights app."lightbox="images/org-insights-report-page-expanded.png":::
 
 Here's what you can do on each report page:
 
@@ -183,7 +186,7 @@ Here's what you can do on each report page:
 
 Depending on the metric, view an average count, hours, rate, or size here. For example, if you were viewing information about uninterrupted focus hours, you'd see how many hours on average people in your organization kept for focus time without interruptions every week.
 
-This number includes everyone in your organization or your company, depending on how your [scope toggle](#using-organization-insights) is set. 
+This number includes everyone in your reporting hierarchy or your company, depending on how your [scope toggle](#using-organization-insights) is set. 
 
 #### Peer organizations
 
@@ -195,15 +198,15 @@ Below the weekly averages for your organization and peer organizations, find out
 
 ### Suggested actions
 
-The report suggests an action related to the metric you're viewing. For example, if you were viewing details for **Long and large meeting hours**, the report might suggest starting a no-meeting day with your team to block out days for individual work.
+The report suggests an action related to the metric you're viewing. Let's say you were viewing details for **Long and large meeting hours**. The report might suggest starting a no-meeting day with your team to block out days for individual work.
 
-Select the button, like **Set up plan**, to implement the action. Viva Insights then guides you through a setup process in the Viva Insights app.
+To get started, select the button, like **Set up plan**. Viva Insights then guides you through a setup process in the Viva Insights app.
 
 You can also copy a link to the insight or share through a Teams chat here.
 
 ### Trend graph
 
-Learn how your selected metric averages have changed over time. <!--what does the dropdown have? It starts with 1 week average--> View a four-month distribution of averages for:
+Learn how your selected metric averages have changed over time. View a four-month distribution of averages for:
 
 * Your whole organization (that is, your company).
 * Peer organizations.
@@ -213,15 +216,15 @@ When you first open the report page, only three lines load on the trend graph: *
 
 To add more organizations to your trend graph, select the eye icon under **Show trend**. The trend graph only supports 50 organizations.
 
-You can sort by any of the headers in the **Groups within your organization** table. For example, to sort by **Active count** (people who were active on Teams or Outlook for that week) rather than **Weekly average**, select the **Active count** header.
+You can sort by any of the headers in the **Groups within your organization** table. For example, to sort by the number of people who were active on Teams or Outlook for that week, select the **Active count** header.
 
 ### Snapshot from last week
 
-View an insight about employees related to this report's metric. For example, if you're viewing the **Long and large meeting hours** report page, you might learn that 80% of employees spend more than half of their meeting time in expensive meetings.
+View an insight about employees related to this report's metric. Let's say you're viewing the **Long and large meeting hours** report page. Through this snapshot, you might learn that 80% of employees spend more than half of their meeting time in expensive meetings.
 
 ### Percentage of your organization
 
-See a distribution of employees related to this report's metric. For example, if you're viewing the **Uninterrupted focus hours** report page, find out what percentage of employees in your organization get 0-10, 10-20, 20-40, and 40 or more uninterrupted focus hours per week. <!--is this an all-time average or just from last week?-->
+See a distribution of employees related to this report's metric. For example, on **Uninterrupted focus hours** report page, find out what percentage of employees in your organization get 0-10, 10-20, 20-40, and 40 or more uninterrupted focus hours per week. 
 
 ### How it's calculated and Why it matters
 
@@ -229,7 +232,7 @@ Learn how Viva Insights calculates the metric this report focuses on, and why it
 
 ### Related insights
 
-Browse insights about other metrics related to the one you're viewing on this page. For example, for **Long and large meeting hours**, you might find **After-hours collaboration hours**, **Daily active hours**, or **Collaboration hours** here. Use the arrows in this section's top-right to scroll through all related insights.
+Browse insights about other metrics related to the one you're viewing on this page. If you're viewing **Long and large meeting hours**, you might find **Join on time rate**, **Multitasking hours**, or **Recurring meeting hours** here. Use the arrows in this section's top-right to scroll through all related insights.
 
 ## Related information
 
