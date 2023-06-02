@@ -67,7 +67,7 @@ Only Global admins have permission to manage which integrations are available fo
     :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integration available for your tenant.":::
 
 > [!NOTE]
-> Selecting None available or deselecting integrations that were previously available will disable any existing connections in your tenant.
+> Selecting **All integrations disabled** or deselecting integrations that were previously enabled will disable any existing connections associated with the integration in your tenant. 
 
 ## Integrations Overview
 

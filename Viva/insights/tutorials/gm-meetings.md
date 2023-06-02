@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for manager meetings
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Meetings are critical for businesses to succeed and many people spend most of their time in them. However, at the same time many people say the meetings they attend are ineffective and a waste of their time. Creating effective meetings through the use of agendas, meetings roles, and many other tactics can ensure that something that is done so frequently can also bring value with it.
 
 ## Why it matters
