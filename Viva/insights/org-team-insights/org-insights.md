@@ -187,7 +187,7 @@ This number includes everyone in your organization or your company, depending on
 
 #### Peer organizations
 
-View this metric's average for peer organizations--that is, groups near your own group in your company's reporting hierarchy. Read more about peer organizations in [Helpful terms](#helpful-terms).
+View this metric's average for peer organizations—that is, groups near your own group in your company's reporting hierarchy. Read more about peer organizations in [Helpful terms](#helpful-terms).
 
 #### Higher or lower than previous weeks
 
@@ -203,7 +203,33 @@ You can also copy a link to the insight or share through a Teams chat here.
 
 ### Trend graph
 
-Learn how your selected metric averages have changed over time. 
+Learn how your selected metric averages have changed over time. <!--what does the dropdown have? It starts with 1 week average--> View a four-month distribution of averages for:
+
+* Your whole organization (that is, your company).
+* Peer organizations.
+* Groups within your organization (that is, different reporting hierarchies within your company).
+
+When you first open the report page, only three lines load on the trend graph: **Your whole organization**, **Peer organizations**, and the reporting hierarchy you're part of (for example, **Emily Braun's organization**).
+
+To add more organizations to your trend graph, select the eye icon under **Show trend**. The trend graph only supports 50 organizations.
+
+You can sort by any of the headers in the **Groups within your organization** table. For example, to sort by **Active count** (people who were active on Teams or Outlook for that week) rather than **Weekly average**, select the **Active count** header.
+
+### Snapshot from last week
+
+View an insight about employees related to this report's metric. For example, if you're viewing the **Long and large meeting hours** report page, you might learn that 80% of employees spend more than half of their meeting time in expensive meetings.
+
+### Percentage of your organization
+
+See a distribution of employees related to this report's metric. For example, if you're viewing the **Uninterrupted focus hours** report page, find out what percentage of employees in your organization get 0-10, 10-20, 20-40, and 40 or more uninterrupted focus hours per week. <!--is this an all-time average or just from last week?-->
+
+### How it's calculated and Why it matters
+
+Learn how Viva Insights calculates the metric this report focuses on, and why it's important to pay attention to this metric. For a list of metrics related to organization insights, jump to [Metric definitions](#metric-definitions).
+
+### Related insights
+
+Browse insights about other metrics related to the one you're viewing on this page. For example, for **Long and large meeting hours**, you might find **After-hours collaboration hours**, **Daily active hours**, or **Collaboration hours** here. Use the arrows in this section's top-right to scroll through all related insights.
 
 ## Related information
 
