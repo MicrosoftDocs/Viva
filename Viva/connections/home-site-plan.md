@@ -42,7 +42,7 @@ A SharePoint home site provides a customized landing experience that reflects th
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 
-If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center.](set-up-admin-center.md).
+If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
 
 **Use a SharePoint home site to:**
 
