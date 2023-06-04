@@ -20,7 +20,7 @@ search.appverid: MET150
 > [!NOTE]
 > This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
 
-The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you are the Microsoft 365 Global admin or Viva Pulse admin, you will see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
+The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you are the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
 
 ## Privacy and confidentiality
 
@@ -32,19 +32,19 @@ All Pulses require a minimum number of responses before authors can view unattri
 
 1. In the **Manage** tab, go to the **Privacy** tab.
 2. Under the **Minimum number of responses required to see feedback** section,  you can select a value between 3 and 25 using either the carrot or typing in the value.
-3. The value will be auto-saved.
+3. The value is auto-saved.
 
 ### Customized privacy policy link
 
-You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change will be reflected in the common navigation header (top right ellipses). When the user clicks on **Privacy**, they will be taken to your company’s privacy policy. To customize the privacy statement:
+You can add your company’s privacy policy to be shown in the app in place of the Microsoft privacy statement. This change is reflected in the common navigation header (top right ellipses). When the user clicks on **Privacy**, they are taken to your company’s privacy policy. To customize the privacy statement:
 
 1. In the **Manage** tab, go to the **Privacy** tab.
 2. Under the **Customize privacy policy statement** section, in the text box labeled **Link to privacy policy statement**, type or paste a link to your company’s privacy statement to be shown in the app in place of the Microsoft privacy statement.
-3. The value will be auto-saved.
+3. The value is auto-saved.
 
 ### Diagnostic data
 
-There are two types of data that we collect: Required Diagnostic Data (RDD) and Optional Diagnostic Data (ODD). By default, ODD and RDD will be enabled. As an Admin, you can go into the Admin Center in the Viva Pulse app and de-enable the collection of diagnostic data. Once collection of diagnostic data has been de-enabled, previously collected data for the tenant will still be available, but additional data will no longer be collected.
+There are two types of data that we collect: Required Diagnostic Data (RDD) and Optional Diagnostic Data (ODD). By default, ODD and RDD are enabled. As an Admin, you can go into the Admin Center in the Viva Pulse app and de-enable the collection of diagnostic data. Once collection of diagnostic data has been de-enabled, previously collected data for the tenant is still available, but additional data is no longer collected.
 
 * Required Diagnostic Data: Telemetry collected to help us make product improvements and provide enhanced information to help us detect, diagnose, and remediate issues.
 * Optional Diagnostic Data: Telemetry gathered to ensure the customers are secure, up to date, and performing as expected.
@@ -54,7 +54,7 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 1. From the **Manage** tab, go to the **Privacy** tab.
 2. Navigate to the **Required diagnostic data** and **Optional diagnostic data** section.
 3. To turn off data collection for either Required Diagnostic Data or Optional Diagnostic Data, use the toggles associated with **Required Diagnostic Data** or **Optional Diagnostic Data**.
-4. The update will be auto-saved.
+4. The update is auto-saved.
 
 ## Customization
 
@@ -62,7 +62,7 @@ Customization is turned on by default, but as an admin, you can control whether 
 
 1. In the **Manage** tab, go to the **Customization** tab.
 2. To turn off or turn on customization, use the toggles associated with **Stock Questions** and **New Questions**.
-3. The update will be auto-saved.
+3. The update is auto-saved.
 
 ## Notifications
 
@@ -70,7 +70,7 @@ An employee’s ability to manage their email notifications preferences is defau
 
 1. In the **Manage** tab, navigate to the **Notifications** tab.
 2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
-3. The update will be auto-saved.
+3. The update is auto-saved.
 
 ## Viva resources
 
@@ -78,14 +78,14 @@ Viva Pulse reports show recommended learning content for users to learn more abo
 
 1. In the **Manage** tab, go to the **Viva Resources** tab.
 2. To turn on or turn off Viva Learning videos, use the toggle associated with **Viva Learning**.
-3. The update will be auto-saved.
+3. The update is auto-saved.
 
 ## Delete user data
 
-As an admin, you can delete a user’s past Pulse requests and responses on the user’s behalf. Deletion of a user’s data is a hard deletion, and no record of the user’s data will remain. You can only delete one user’s data at a time, and there is no limit as to how many times a user’s data can be deleted. To delete a user’s data:
+As an admin, you can delete a user’s past Pulse requests and responses on the user’s behalf. Deletion of a user’s data is a hard deletion, and no record of the user’s data remains. You can only delete one user’s data at a time, and there is no limit as to how many times a user’s data can be deleted. To delete a user’s data:
 
 1. In the **Manage** tab, navigate to the **Delete user data** tab.
 2. Search for the user that requested their data be deleted by using the search bar and select that user in the populated options.
 3. Select **Delete user data**.
 4. Select **Delete user data** again in the confirmation box.
-5. You will receive a message that says **Pulse data record pending deletion**. Deletions can take up to a few minutes.
+5. You receive a message that says **Pulse data record pending deletion**. Deletions can take up to a few minutes.
