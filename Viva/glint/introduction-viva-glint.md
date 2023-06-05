@@ -37,8 +37,3 @@ With Viva Glint you can:
 - Predict opportunities and risk to business outcomes
 - Review data driven feedback to study employee success drivers
 - Translate insights into action and track the feedback progress
-
-## Related topics
-
-- [Four stages of Viva Glint program](start/four-stages-glint-program.md)
-- [Viva Glint Survey pages setup](program-types-templates.md)
