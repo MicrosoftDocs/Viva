@@ -26,11 +26,11 @@ The following settings are optional and are not required to be completed before 
 
 To allow access to Viva Pulse or to block specific users from using Viva Pulse, you can create a custom app permission policy. You can only control access to Viva Pulse for the Teams experience. You cannot control access for the web experience.
 
-For more information, see [Manage app permission policies in Teams](https://learn.microsoft.com/microsoftteams/teams-app-permission-policies).
+For more information, see [Manage app permission policies in Teams](/microsoftteams/teams-app-permission-policies).
 
 ## Install the Viva Pulse app using an app setup policy
 
-You can choose to deploy and pin the Viva Pulse app for all users or for specific departments through a [Teams app setup policy](https://learn.microsoft.com/microsoftteams/teams-app-setup-policies).
+You can choose to deploy and pin the Viva Pulse app for all users or for specific departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies).
 
 To install apps using an app setup policy, follow these steps:
 
@@ -41,7 +41,7 @@ To install apps using an app setup policy, follow these steps:
 5. In the **Add installed apps** pane, search for the apps that you’d like to install for users. You can also filter apps by app permission policy.
 6. Select **Add**.
 
-For more information, see [Learn more about installing apps in Teams](https://learn.microsoft.com/microsoftteams/teams-app-setup-policies#install-apps).
+For more information, see [Learn more about installing apps in Teams](/microsoftteams/teams-app-setup-policies#install-apps).
 
 ## Pin Viva Pulse in Microsoft Teams
 
