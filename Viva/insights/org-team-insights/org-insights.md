@@ -176,7 +176,7 @@ You’ll see a **Teamwork insights for your organization** section at the top of
 
 If you want to dive deeper into an insight, select **Show details** on the insight card. You'll arrive at a report page, which gives you more information about the metric that your insight's based on.
 
-:::image type="content" source="images/org-insights-report-page.png" alt-text="Screenshot that shows the L2 report page in the Viva Insights app."lightbox="images/org-insights-report-page-expanded.png":::
+:::image type="content" source="images/org-insights-report-page-1.png" alt-text="Screenshot that shows the L2 report page in the Viva Insights app."lightbox="images/org-insights-report-page-expanded-1.png":::
 
 Here's what you can do on each report page:
 
@@ -214,7 +214,7 @@ Learn how your selected metric averages have changed over time. View a four-mont
 
 When you first open the report page, only three lines load on the trend graph: **Your whole organization**, **Peer organizations**, and the reporting hierarchy you're part of (for example, **Emily Braun's organization**).
 
-To add more organizations to your trend graph, select the eye icon under **Show trend**. The trend graph only supports 50 organizations.
+To add more organizations to your trend graph, select the eye icon under **Show trend**. The trend graph only supports 20 organizations. To protect individual privacy, we don't show organizational insights if your organization is smaller than the minimum group size.
 
 You can sort by any of the headers in the **Groups within your organization** table. For example, to sort by the number of people who were active on Teams or Outlook for that week, select the **Active count** header.
 
