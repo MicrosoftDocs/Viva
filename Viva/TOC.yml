@@ -37,6 +37,8 @@ items:
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Insights
     href: insights/introduction.md
+  - name: Microsoft Viva Pulse
+    href: pulse/introduction-to-viva-pulse.md
   - name: Microsoft Viva Learning
     href: learning/overview-viva-learning.md
   - name: Microsoft Viva Topics
