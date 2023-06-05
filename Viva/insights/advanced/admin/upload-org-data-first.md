@@ -193,9 +193,7 @@ The following field rules apply to characters in field values:
 
 ##### Error messages
 
-When you select the **Download issues** option, you'll get a .csv output of errors. For each row that has an error, you'll get an error message.
-
-Here are messages you might get:
+When you select the **Download issues** option, you'll get a .csv output of errors. Here are the messages you might get for each row:
 
 |Field|Data type|Message|Example
 |----------|-------|-----|---|
