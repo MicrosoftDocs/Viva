@@ -24,7 +24,7 @@ search.appverid: MET150
 
 You need to have the Microsoft 365 Global Admin role assigned to you to enable Viva Pulse Public Preview for your organization. You need Microsoft Teams deployed for your organization to use Viva Pulse in Microsoft Teams. Viva Pulse is also available as a web experience for which users will not need a Microsoft Teams application.
 
-You also need to execute a script in PowerShell for users in your tenant to receive Teams Activity Feed notifications.
+You also need to execute a script in PowerShell for users in your tenant to receive Teams Activity feed notifications.
 
 ## Enable Viva Pulse Public Preview
 
@@ -39,7 +39,7 @@ Note that if a user installs the app from the Teams apps store, but Public Previ
 
 ## Enable Teams Activity feed notifications  
 
-Viva Pulse leverages the Teams Activity feed as one delivery method for notifications. As an Admin, you need to execute a script in PowerShell for these notifications to appear in your user’s Teams app. After the script is executed successfully, users will receive Teams Activity feed notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
+Viva Pulse leverages the Teams Activity feed as one delivery method for notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear in your user’s Teams app. After the script is executed successfully, users will receive Teams Activity feed notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
 
 Enable Teams Activity feed notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
 

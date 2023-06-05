@@ -23,3 +23,5 @@ items:
       href: setup-admin-access/set-up-in-app-pulse-experience.md
     - name: Access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
+- name: Troubleshoot and resolve error messages
+  href: troubleshoot-and-resolve-error-messages.md
