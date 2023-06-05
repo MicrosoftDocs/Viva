@@ -76,7 +76,7 @@ tools:
 
     # Card
     - title: Microsoft Viva Pulse (Public Preview)
-      imageSrc: media/logos/VivaPulse32px.png
+      imageSrc: media/logos/pulse-logo.svg
       url: /viva/pulse/introduction-to-viva-pulse
 
     # Card
