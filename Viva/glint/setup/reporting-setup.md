@@ -84,3 +84,7 @@ Select the desired **PowerPoint Export** template.
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
 To complete this page, select the right-facing arrow to **Save & Continue**.
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

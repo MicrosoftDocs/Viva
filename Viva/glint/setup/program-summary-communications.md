@@ -53,3 +53,7 @@ Setting up notifications and providing translations to your programs happen in t
        >Reporting Access configured on the Reporting page must manually be switched to "Live Access" at least 48 hours before the scheduled Survey End notification date. Survey End notification will not be delivered if access is not switched over.
    3. If desired, select the **pencil** symbol to edit the Survey End Notification. Make the necessary changes and repeat the process for each extra language being used.
    4. Select **Save Changes** and then **X** to close the slider panel.
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

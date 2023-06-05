@@ -80,3 +80,7 @@ You can add questions to specific question cycles by selecting the corresponding
 
 >[!TIP]
 > Do not edit our standard survey items. Item edits may impact language translations and the item's intention, which would affect the accuracy of the benchmark tied to the question. Custom items are not mapped to external benchmarks.
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
