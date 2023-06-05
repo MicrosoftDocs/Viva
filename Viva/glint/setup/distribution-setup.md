@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
 ms.collection:  
-- m365initiative-viva-goals
+- m365initiative-viva
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
@@ -44,3 +44,6 @@ Select the pencil symbol to **Modify Distribution Lists**.
    > [!CAUTION]
    > Modifying a Distribution List will affect any programs using it.      
 
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

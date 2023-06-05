@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
 ms.collection:  
-- m365initiative-viva-goals
+- m365initiative-viva
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
@@ -37,3 +37,7 @@ The Program Setup page is the first configuration page within Program Summary. I
 1. **Enable Team Conversations** is enabled by default. **NO** disables the feature for the program. For more information, see Team Conversations. 
 1. When Team Conversations is enabled, **Enable Team Conversations Sharing** is enabled by default. **NO** disables managers from sharing this read-only version of Team Conversations.  
 1. Select the right-facing arrow symbol to **Save and continue**. 
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

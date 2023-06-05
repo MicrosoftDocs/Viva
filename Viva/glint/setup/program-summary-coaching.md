@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
 ms.collection:  
-- m365initiative-viva-goals
+- m365initiative-viva
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
@@ -39,4 +39,8 @@ Two additional coaching sections need to be set up for managers with Team Conver
 - Team Conversations presentation guidance 
 - Team Conversations resource guidance  
 
-Refer to [Team Conversations Coaching Page](https://www.microsoft.com) for setup of these two sections. 
+Refer to [Team Conversations Coaching Page](https://www.microsoft.com) for setup of these two sections.
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

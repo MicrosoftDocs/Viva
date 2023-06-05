@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
 ms.collection:  
-- m365initiative-viva-goals
+- m365initiative-viva
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
@@ -53,4 +53,8 @@ Choose the cadence for your program. This determines your launch date(s) and how
    > [!NOTE]
    > Response window refers to the number of days the survey is open to responders and is not related to Team Conversations.
  
-6. Select the right-facing arrow symbol to **Save & Continue**.   
+6. Select the right-facing arrow symbol to **Save & Continue**.  
+
+## Related topics
+
+[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
