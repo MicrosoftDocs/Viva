@@ -36,8 +36,8 @@ There are four steps for making language translations:
 Follow these steps: 
 
 1. Navigate to the appropriate survey program. 
-2. From the Actions dropdown menu and select **Export Program Content**. 
-3. Choose if you will export email content, survey content, or both.  
+2. From the Actions dropdown menu and, select **Export Program Content**. 
+3. Choose if you'll export email content, survey content, or both.  
 4. Select the languages you would like to export from the Languages to include section. Default text will already be included in addition to whatever additional languages are chosen. 
 5. Select **Generate CSV**. 
 6. From the file generated, make translations to import back into Viva Glint. 
@@ -65,7 +65,7 @@ If you are using Glint standard survey items, translations are already available
 
 To make language translations or edits for items in the Question Library: 
 
-1. From the Question Library filter the questions for export. 
+1. From the Question Library filter, the questions for export. 
 2. Select **Export Questions** from the *Actions* dropdown menu. 
 3. Choose the language(s) to include from the search box in the *Choose Which Language to Export window*. 
 4. Select your export format. 
@@ -107,7 +107,7 @@ From the file that has been generated, use a translator to make exact changes to
 
 **Don’ts:** 
 
-- Don’t edit, translate, or delete any bracketed text. Do not edit macros.  
+- Don’t edit, translate, or delete any bracketed text. Don't edit macros.  
 - Don’t make visual, formatting, or other stylistic changes unless it improves clarity. Changes should never alter the meaning conveyed in the original English text. 
 - Don’t add personal comments. ` 
 - Don’t add new or additional columns or remove columns.  
@@ -166,3 +166,45 @@ The following language codes must be used:
 |Hindi      |hi_IN    |
 |Hungarian      |hu_HU    |
 |Hungarian      |hu_HU    |
+|Icelandic      |is_IS    |
+|Indonesian      |in_ID    |
+|Italian       |it_IT    |
+|Japanese         |ja_JP    |
+|Kannada         |kn_IN    |
+|Kazakh          |kk_KZ     |
+|Khmer           |km_KH |
+|Korean         |ko_KR |
+|Laotian         |lo_LA |
+|Laotian         |lo_LA |
+|Latvian  |lv_LV |
+|Lithuanian |lt_LT| 
+|Malagasy|mg_MG |
+|Malay |ms_MY |
+|Marathi |mr_IN |
+|Mongolian |mn |
+|Northern Sotho |ns_ZA|
+|Norwegian |no_NO |
+|Polish |pl_PL |
+|Portuguese  (Brazil)|pt_BR |
+|Portuguese (Portugal) |pt_PT | 
+|Punjabi |pa_IN |
+|Romanian |ro_RO |
+|Russian | ru_RU |
+|Serbian |sr_RS|
+|Sinhala |si_LK |
+|Slovak  |sk_SK |
+|Slovenian |sl_SI |
+|Spanish (European) |es_ES |
+|Spanish (Latin American) |es_US 
+|Swahili |sw_KE |
+|Swedish |sv_SE |
+|Tagalog|tl_PH |
+|Tamil |ta_IN |
+|Thai |th_TH |
+|Turkish |tr_TR |
+|Ukrainian |uk_UA |
+|Urdu | ur_IN|
+|Vietnamese |vi_VN |
+|Welsh |ey_GB|
+|Xhosa| xh_ZA |
+|Zulu |zy_ZA |
