@@ -45,7 +45,7 @@ SharePoint news that's published from [organizational news sites](/SharePoint/or
     
 2. **Posts in Viva Engage communities**
 
-Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/viva-engage-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
+Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
 In addition to All Company Viva Engage posts, you'll also see the following activity from Viva Engage in the Feed:
 
