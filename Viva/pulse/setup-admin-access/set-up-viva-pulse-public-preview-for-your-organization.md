@@ -41,7 +41,7 @@ Note that if a user installs the app from the Teams apps store, but Public Previ
 
 Viva Pulse leverages the Teams Activity feed as one delivery method for notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear in your user’s Teams app. After the script is executed successfully, users will receive Teams Activity feed notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
 
-Enable Teams Activity feed notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
+Enable Teams Activity feed notifications for your tenant and ensure you have [PowerShell installed](https://learn.microsoft.com/powershell/scripting/install/installing-powershell-on-windows):
 
 1. Connect to the target tenant in PowerShell\
 `Connect-AzureAD -TenantId "[TENANT-ID]"`\
