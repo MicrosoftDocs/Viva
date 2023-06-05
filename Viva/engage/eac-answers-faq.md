@@ -32,7 +32,7 @@ These users receive notifications to questions or answers where they're mentione
 
 **Where can I access resources for Answers adoption practices?**
 
-See [Viva Engage Adoption](https://adoption.microsoft.com/viva/engage/).
+See [Viva Engage Adoption](https://adoption.microsoft.com/yammer/).
 
 **Are posted questions visible to everyone in my company?**
 

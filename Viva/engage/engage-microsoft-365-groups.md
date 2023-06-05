@@ -234,4 +234,4 @@ Changes to connected communities can take up to 24 hours to take effect througho
 
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-[Export data from Viva Engage Enterprise](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data)
+[Export data from Viva Engage](/viva/engage/manage-security-and-compliance/export-viva-engage-data)

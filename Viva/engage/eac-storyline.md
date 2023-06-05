@@ -114,7 +114,7 @@ To delete files associated with a post from the **VivaEngage** library:
 ## Frequently asked questions
 
 ### Why isn’t storyline available in our organization? 
-Storyline is only supported in Viva Engage enterprise networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Viva Engage Basic network, storyline isn't available to your organization.
+Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Viva Engage Basic network, storyline isn't available to your organization.
 
 ### Who can see storyline content? 
 Storyline content is visible to any internal user who has access to Viva Engage. Guests can't see storyline content.  

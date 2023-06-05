@@ -55,7 +55,7 @@ Answers is enabled by default for customers that meet the following technical re
 
     Learn more about Viva Engage Topics migration to Viva Topics:
     - [Viva Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
-    - [Viva Topics experience in Viva Engage](https://support.microsoft.com/topic/viva-topics-experience-in-viva-engage-8e85bc0d-086e-49a2-974b-39f60129257d)
+    - [Viva Topics experience in Viva Engage](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
 
 3. **Set up the Viva Engage app**
 
@@ -74,7 +74,7 @@ Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compl
 
 **GDPR information**
 
-For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage Enterprise](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise).
+For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-).
 
 ## Enable Answers  
 

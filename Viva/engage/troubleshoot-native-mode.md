@@ -51,7 +51,7 @@ The downloadable Alignment Report provides information about the quantity and us
 
 - *Native Mode doesn't support network-level guests*: For greater network security, guests can't be given access to an entire Viva Engage network. The downloadable Alignment Report provides information about the quantity and activity of guests in your network.
 
-- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or in the [EU geo](/viva/engage/manage-security-and-compliance/manage-data-compliance). This feature isn't compatible with the Azure B2B guest model, so it's not supported in Native Mode networks.
+- *External participants*: Viva Engage currently allows users to add external participants to individual threads. This feature isn't available for Viva Engage networks that are in Native Mode or in the [EU geo](/viva/engage/manage-security-and-compliance/manage-data-compliance). This feature isn't compatible with the Azure B2B guest model, so it's not supported in Native Mode networks.
 
 - *File uploads in Viva Engage Private messages*: To be in Native Mode, all files uploaded in Viva Engage must be stored in SharePoint. Because Viva Engage private messages don't store files in SharePoint or OneDrive for Business, the Alignment Tool deletes any previously uploaded private message files. Users can no longer upload files in private messages. The downloadable Alignment Report provides information about the quantity of files previously uploaded in private messages.
 
@@ -209,7 +209,7 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
 
 ### Why aren't external participants in individual conversations supported in Native Mode?
 
- This feature isn't currently compatible with the Azure B2B guest model. This feature isn't available for Viva Engage Enterprise networks that are in Native Mode or the [EU geo](/viva/engage/manage-security-and-compliance/manage-data-compliance).
+ This feature isn't currently compatible with the Azure B2B guest model. This feature isn't available for Viva Engage  networks that are in Native Mode or the [EU geo](/viva/engage/manage-security-and-compliance/manage-data-compliance).
 
 ## Groups
 
