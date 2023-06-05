@@ -24,11 +24,11 @@ search.appverid: MET150
 
 Service documentation: [Microsoft Viva Pulse overview](../introduction-to-viva-pulse.md)
 
-Capability summary: Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what is working well and which areas to focus on over time.  
+Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what is working well and which areas to focus on over time.  
 
 ## Multi-geo capabilities in Viva Pulse
 
-Multi-geo capabilities for Viva Pulse are limited to two regions, West US and EU, for data stored at rest which constitutes metadata for the Pulses authored, Pulses responded to, and reports generated for those Pulses. The Pulse instances and the responses are stored in Microsoft Forms, where the data residency for Forms becomes applicable.
+Multi-geo capabilities for Viva Pulse are limited to two regions, West US and EU, for data stored at rest which constitutes metadata for the Pulses authored and responded to, as well as reports generated for those Pulses. The Pulse instances and the responses are stored in Microsoft Forms, where the data residency for Forms becomes applicable.
 
 **West US data residency**
 
