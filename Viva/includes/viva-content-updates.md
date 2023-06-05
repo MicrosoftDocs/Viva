@@ -2,6 +2,29 @@
 
 
 
+## Week of May 29, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/30/2023 | [Microsoft Teams Extension](/viva/goals/ms-teams-messaging-extension) | modified |
+| 5/30/2023 | [Enable Integrations in Viva Goals](/viva/goals/vg-integrations-administration-overview) | modified |
+| 5/31/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 5/31/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
+| 5/31/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 5/31/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
+| 5/31/2023 | [Get notifications in Microsoft Teams about activity in Viva Goals](/viva/goals/ms-teams-notifications) | added |
+| 6/2/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
+
+
+## Week of May 22, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/25/2023 | [Managing Viva Goals members](/viva/goals/managing-team-members) | added |
+
+
 ## Week of May 15, 2023
 
 
@@ -97,78 +120,3 @@
 | 5/5/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
 | 5/5/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
 | 5/5/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
-
-
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/24/2023 | [Advanced Deployment Guides for Microsoft Viva](/viva/deployment-guides-for-microsoft-viva) | added |
-| 4/24/2023 | [Introduction to Power BI templates in Microsoft Viva Insights](/viva/insights/advanced/analyst/templates/introduction-to-templates) | modified |
-| 4/24/2023 | [Complex organizations and Viva Insights](/viva/solutions/complex-organization-insights) | modified |
-| 4/24/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
-| 4/24/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | modified |
-| 4/25/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | added |
-| 4/25/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
-| 4/25/2023 | [Viva Insights metric improvements](/viva/insights/advanced/reference/metric-improvements) | modified |
-| 4/26/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | added |
-| 4/26/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-| 4/27/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-| 4/28/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
-| 4/28/2023 | [Organization insights FAQs](/viva/insights/org-team-insights/org-insights-faqs) | modified |
-| 4/28/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
-| 4/28/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-
-
-## Week of April 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/19/2023 | [Microsoft Viva Compliance](/viva/viva-compliance) | added |
-| 4/19/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | added |
-| 4/19/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | added |
-| 4/19/2023 | [Microsoft Viva Privacy, Security, and Compliance](/viva/microsoft-viva-security) | modified |
-| 4/19/2023 | [Learn more about Microsoft Viva apps](/viva/discover-more-about-each-viva-module) | modified |
-| 4/19/2023 | [Combine Microsoft Viva apps to support popular business scenarios](/viva/learn-how-to-combine-modules) | modified |
-| 4/20/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
-| 4/20/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
-| 4/20/2023 | Personal insights introduction | removed |
-| 4/20/2023 | Privacy guide for personal insights | removed |
-| 4/20/2023 | Focus plan for Viva Insights | removed |
-| 4/20/2023 | Focus with Viva Insights | removed |
-| 4/20/2023 | Mindfulness content in Viva Insights | removed |
-| 4/20/2023 | Viva Insights Home tab in Teams and on the web | removed |
-| 4/20/2023 | Inspiration library in the Viva Insights app | removed |
-| 4/20/2023 | Viva Insights app introduction | removed |
-| 4/20/2023 | Meeting category insights in Viva Insights | removed |
-| 4/20/2023 | Meeting effectiveness surveys in Viva Insights | removed |
-| 4/20/2023 | Meeting habits in Viva Insights | removed |
-| 4/20/2023 | Network in Viva Insights | removed |
-| 4/20/2023 | Praise with Viva Insights | removed |
-| 4/20/2023 | Privacy guide for personal insights in the Viva Insights app | removed |
-| 4/20/2023 | Productivity tab in Viva Insights | removed |
-| 4/20/2023 | Quiet time in Viva Insights | removed |
-| 4/20/2023 | Reflect with Viva Insights | removed |
-| 4/20/2023 | Schedule send suggestions in Teams chat | removed |
-| 4/20/2023 | Configure Viva Insights settings | removed |
-| 4/20/2023 | Shared focus plan | removed |
-| 4/20/2023 | Shared meeting plan in Viva Insights | removed |
-| 4/20/2023 | Shared no-meeting day plan | removed |
-| 4/20/2023 | Suggested tasks in Viva Insights | removed |
-| 4/20/2023 | Teamwork tab in Viva Insights | removed |
-| 4/20/2023 | Time management features in Viva Insights | removed |
-| 4/20/2023 | Virtual commute with Viva Insights | removed |
-| 4/20/2023 | Discover and pin the Viva Insights app | removed |
-| 4/20/2023 | Wellbeing tab in Viva Insights | removed |
-| 4/20/2023 | About Viva Insights Outlook add-in | removed |
-| 4/20/2023 | Viva Insights digest emails | removed |
-| 4/20/2023 | Inline suggestions in Outlook | removed |
-| 4/20/2023 | Schedule send with Viva Insights | removed |
-| 4/20/2023 | Use Microsoft Viva Insights in Outlook | removed |
-| 4/20/2023 | [Manage topic discovery in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery) | modified |
-| 4/20/2023 | [Manage topic visibility in Microsoft Viva Topics](/viva/topics/topic-experiences-knowledge-rules) | modified |
-| 4/20/2023 | [Manage topic permissions in Microsoft Viva Topics](/viva/topics/topic-experiences-user-permissions) | modified |
-| 4/21/2023 | [Automate query data exports](/viva/solutions/automate-exports) | modified |
-| 4/21/2023 | [Plans and environments for personal insights](/viva/insights/personal/overview/plans-environments) | modified |
