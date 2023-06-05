@@ -13,35 +13,41 @@ ms.service: viva
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Introduction to Microsoft Viva Pulse
 
 > [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Private Preview program to access it. Features are subject to change.
+> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
 
 Microsoft Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
 
-## Get started
+![Viva Pulse Homepage](../media/pulse/viva-pulse-homepage.png)
 
-The resources in this section will help you learn more about Viva Pulse and how it can help you.
+## Roles
 
-| If you're looking for this information | Go to this resource |
-| ----------- | ----------- |
-| Learn about Viva Pulse roles | [Viva Pulse roles](./get-started/roles-in-viva-pulse.md) |
-| Learn about privacy and data protection | [Viva Pulse privacy and data protection](./get-started/privacy-and-data-protection.md) |
-| Request team feedback in Viva Pulse | [Request feedback for end users](./request-feedback/create-pulse.md) |
-| Provide manager feedback in Viva Pulse | [Provide feedback for end users](./provide-feedback/respond-to-pulse.md) |
-| View and share feedback results in Viva Pulse | [View and share feedback results for end users](./view-and-share-feedback-results/view-and-share-feedback-author.md) |
+For Viva Pulse in the Microsoft 365 environment, users can have one or more of the following roles:
+* Feedback author
+* Feedback provider
+* Viva Pulse admin
 
-## Setup and administration
+### Feedback author
 
-The resources in this section will help the administrator in your organization setup and configure Viva Pulse in your Microsoft 365 environment.
+Feedback authors are users in your organization who can send Pulse requests to their direct reports, team members, or other users in the organization. Authors can request feedback from the available research-backed  templates and can leverage the following options to personalize the Pulse to their team’s needs:
 
-| If you're looking for this information | Go to this resource |
-| ----------- | ----------- |
-| Learn how to set up Viva Pulse in the Teams admin center | [Set up Viva Pulse in the Teams admin center](./setup-admin-access/set-up-pulse-in-teams-admin-center.md) |
-| Learn how to set up Viva Pulse for your organization | [Set up Viva Pulse for your organization](./setup-admin-access/set-up-pulse-for-your-organization.md) |
-| Learn how to set up the in-app Viva Pulse experience | [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md) |
-| Learn how to access Viva Pulse via Microsoft Teams or web | [Access Viva Pulse via Microsoft Teams or web](./setup-admin-access/access-pulse-via-teams-or-web.md) |
+* If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md).
+* If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md).
+
+Work in progress is automatically saved as updates are made, so if an author isn’t ready to send their Pulse yet, they can come back to it later.
+
+Authors can view the feedback results of their Pulse request once it closes and meets the minimum number of responses required. Authors can also share the report to facilitate team conversations.
+
+To send a Pulse request, a user must be assigned a Viva Pulse or a Viva Suite license by their Microsoft 365 administrator. Note that feedback authors must also be assigned a Microsoft Forms license.
+
+### Feedback provider
+
+Feedback providers are the users in an organization who receive a Pulse request. Pulse requests can be received by users if they are part of your organization’s Azure Active Directory tenant. They have the critical role of responding to Pulse requests and providing the feedback needed to power the aggregate reporting and insights for the author.
+
+### Viva Pulse admin
+
+Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).
