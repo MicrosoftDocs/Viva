@@ -1,6 +1,6 @@
 ---
 title: Understand Viva Glint programs and cycles 
-description: "Glint built a Microsoft Teams application, which enables employees to receive and reply to survey notifications directly from Teams."
+description: "Once a Viva Glint program is set up, future surveys are edited at the individual cycle (survey) level."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
