@@ -2,6 +2,21 @@
 
 
 
+## Week of May 29, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/30/2023 | [Microsoft Teams Extension](/viva/goals/ms-teams-messaging-extension) | modified |
+| 5/30/2023 | [Enable Integrations in Viva Goals](/viva/goals/vg-integrations-administration-overview) | modified |
+| 5/31/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 5/31/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
+| 5/31/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 5/31/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
+| 5/31/2023 | [Get notifications in Microsoft Teams about activity in Viva Goals](/viva/goals/ms-teams-notifications) | added |
+| 6/2/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
+
+
 ## Week of May 22, 2023
 
 
@@ -105,25 +120,3 @@
 | 5/5/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
 | 5/5/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
 | 5/5/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
-
-
-## Week of April 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 4/24/2023 | [Advanced Deployment Guides for Microsoft Viva](/viva/deployment-guides-for-microsoft-viva) | added |
-| 4/24/2023 | [Introduction to Power BI templates in Microsoft Viva Insights](/viva/insights/advanced/analyst/templates/introduction-to-templates) | modified |
-| 4/24/2023 | [Complex organizations and Viva Insights](/viva/solutions/complex-organization-insights) | modified |
-| 4/24/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
-| 4/24/2023 | [Understand how security works in Microsoft Viva](/viva/viva-security) | modified |
-| 4/25/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | added |
-| 4/25/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
-| 4/25/2023 | [Viva Insights metric improvements](/viva/insights/advanced/reference/metric-improvements) | modified |
-| 4/26/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | added |
-| 4/26/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-| 4/27/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
-| 4/28/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
-| 4/28/2023 | [Organization insights FAQs](/viva/insights/org-team-insights/org-insights-faqs) | modified |
-| 4/28/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
-| 4/28/2023 | [Manage topics in the topic center in Microsoft Viva Topics](/viva/topics/manage-topics) | modified |
