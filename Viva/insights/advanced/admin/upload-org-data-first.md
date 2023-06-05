@@ -43,7 +43,7 @@ To upload your .csv file, follow these steps:
 
 1. Open the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) admin experience.
 1. On the **Data hub** page, go to the **.csv upload** card on the right side of the screen, below **Data source**.
-    :::image type="content" source="../images/admin-data-upload-start.png" alt-text="Screenshot that shows Prepare and upload data option.":::
+    :::image type="content" source="../images/admin-data-upload-start.png" alt-text="Screenshot that shows .csv upload tile and Start option.":::
 1. Select **Start**.
 1. Under **Step 1 of 2: Prepare and upload**:
     1. Enter an **Upload name**.
