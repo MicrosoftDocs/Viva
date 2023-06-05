@@ -44,6 +44,10 @@ This article lists error messages for Viva Insights. We've broken these errors o
 |Another upload or delete action is currently underway. To continue, wait for that action to be completed.| You or another admin have added data to the advanced insights app, and it's still processing.|Either wait a few hours for the data to finish processing and refresh the page, or cancel the update and start a new one.| [Upload organizational data](../admin/upload-org-data-first.md)
 |Submission for upload failed. If you already have an upload or delete action in progress, wait for it to finish. Otherwise, please try again.|Something caused your upload to fail. |If you don't have another upload in progress, check your file for errors and try uploading it again. If another upload is in progress, wait until it's done processing. Contact our [support team](/microsoft-365/admin/get-help-support#online-support) for help if you keep getting this error.| [Upload organizational data](../admin/upload-org-data-first.md)<br><br> [Support](/microsoft-365/admin/get-help-support#online-support)
 
+If your data takes days or weeks to process, contact our [support team](/microsoft-365/admin/get-help-support#online-support) for help. If your Microsoft 365 admin just assigned licenses, keep in mind that it can take up to five days for data to become available.
+
+For specific validation errors related to your data file, refer to our [data upload documentation](../admin/upload-org-data-first.md#error-messages).
+
 
 ## Workplace Analytics
 
