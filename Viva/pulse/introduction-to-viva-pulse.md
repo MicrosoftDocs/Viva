@@ -35,8 +35,8 @@ For Viva Pulse in the Microsoft 365 environment, users can have one or more of t
 
 Feedback authors are users in your organization who can send Pulse requests to their direct reports, team members, or other users in the organization. Authors can request feedback from the available research-backed  templates and can leverage the following options to personalize the Pulse to their team’s needs:
 
-* If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md).
-* If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience.md).
+* If adding new questions is enabled for your organization, authors can add their own questions to any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience#customization).
+* If editing stock questions is enabled for your organization, authors can update, reorder, or delete the provided questions in any of the templates. For more information, see [Set up the in-app Viva Pulse experience](./setup-admin-access/set-up-in-app-pulse-experience#customization).
 
 Work in progress is automatically saved as updates are made, so if an author isn’t ready to send their Pulse yet, they can come back to it later.
 
