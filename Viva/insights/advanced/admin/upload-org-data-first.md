@@ -55,7 +55,7 @@ To upload your .csv file, follow these steps:
     * Not open in a different program when you begin the upload process.
     * Not larger than 1 GB.
 
-    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows Prepare and upload data option.":::
+       :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows Prepare and upload data option.":::
 
 >[!Note]
 > To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv template** link.
