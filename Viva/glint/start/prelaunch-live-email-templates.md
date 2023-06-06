@@ -1,5 +1,5 @@
 ---
-title: Communicate pre-launch and live Viva Glint program information using email templates 
+title: Communicate prelaunch and live Viva Glint program information using email templates 
 description: "Use Viva Glint email templates to communicate survey expectations and results planning to all your stakeholders."
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -18,18 +18,18 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-# Communicate pre-launch and live Viva Glint program information using email templates
+# Communicate prelaunch and live Viva Glint program information using email templates
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
 
-Use the pre-launch and live templates below to customize and send to the people in your organization to prepare them to participate in Viva Glint survey programs. The templates are for guidance only and assume a six-week launch which may be longer than your timeline. Align your communications as appropriate. 
+Use the prelaunch and live templates below to customize and send to the people in your organization to prepare them to participate in Viva Glint survey programs. The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate. 
 
-Sample communications are not generated in the Viva Glint platform. 
+Sample communications aren't generated in the Viva Glint platform. 
 
-A variety of templates are available: 
+Various templates are available: 
 
-- Pre-survey templates for introducing various audiences to the Viva Glint survey process 
-- Pre-survey templates for various times prior to survey launch 
+- Presurvey templates for introducing various audiences to the Viva Glint survey process 
+- Presurvey templates for various times prior to survey launch 
 - Templates to provide leaders to training access 
 - Survey reminder for when your survey is live 
 
@@ -57,12 +57,12 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
-|Upcoming survey  | Senior and Human Resources (HR) leadership  |6 weeks prior to launch |
-|Upcoming survey  | Senior and HR leadership |3 weeks prior to launch |
+|Upcoming survey  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
+|Upcoming survey  | Senior and HR leadership |three weeks prior to launch |
 
 ## Email templates for managers, HRBPs, and other company leaders 
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
-|Upcoming survey  | Human Resources Business Partners (HRBPs)   |4 weeks prior to launch  |
-|Engagement training and resources for upcoming survey  | HRBPs  |2 weeks prior to launch |
+|Upcoming survey  | Human Resources Business Partners (HRBPs)   |four weeks prior to launch  |
+|Engagement training and resources for upcoming survey  | HRBPs  |two weeks prior to launch |
