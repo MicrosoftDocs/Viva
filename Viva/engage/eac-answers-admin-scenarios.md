@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 06/05/2023
+ms.date: 06/06/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -63,14 +63,14 @@ As an Answers admin, Engage admin, or Global admin, you can provide guidance to 
 1. Enter the content specific to your organization.
 1. Select **Save and publish** to allow all Answers users access to the information panel content.
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of how the information panel looks to end users.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of the info panel editing options.":::
 
 ### Reset the information panel  
 
 1. Select the edit icon from the top left corner of the information panel.
 1. Select **Reset** from the bottom-left corner.  
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot of how the information panel looks to end users.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::
 
 ## Manage topics in Answers
 
