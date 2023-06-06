@@ -15,14 +15,7 @@ audience: Admin
 
 # Error messages: Viva Insights
 
-This article lists error messages for Viva Insights. We've broken these errors out by app and task:
-
-* [Advanced insights](#advanced-insights)
-    * [Sign-in and page access](#sign-in-and-page-access)
-    * [Data upload](#data-upload)
-* [Workplace Analytics (legacy app)](#workplace-analytics)
-* [Viva Insights app in Teams and on the web](#viva-insights-app-in-teams-and-on-the-web)
-
+This article lists error messages for Viva Insights.
 
 ## Advanced insights
 
