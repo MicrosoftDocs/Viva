@@ -99,6 +99,36 @@ Only a Microsoft 365 Global admin can change Answers state of enablement. Here's
 >[!NOTE]
 > If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers.
 
+## Show Viva Engage Experience
+
+Answers resides within Viva Engage. Organizations that aren't ready to begin using all the Viva Engage features can choose to enter an Answers-focused experience and hide other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers. 
+
+For this feature to be available, the network is required to have two or fewer Engage communities. Only a Microsoft 365 Global admin can change Viva Engage state of enablement. 
+
+1. Go to the Viva Engage Teams app. 
+
+2. Select the ellipses button from the top right navigation bar to expose admin options. 
+
+3. Select **Admin** to navigate to the Viva Engage admin center.
+
+:::image type="content" source="/media/engage/admin/admin-entrypoint.png#lightbox" alt-text="Screenshot of entry point to the admin center."::: 
+
+4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
+
+:::image type="content" source="/media/engage/admin/answers-eac.png#lightbox" alt-text="Screenshot showing how to get to Answers options."::: 
+
+5. In Answers feature management, you can switch **Show Engage Experience** on or off for your organization. 
+
+:::image type="content" source="/media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing how to get to Answers options.":::
+
+The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
+
+:::image type="content" source="/media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot showing how to get to Answers options."::: 
+
+> [!NOTE]
+> If the Viva Engage Experience is hidden, the backing group will respect the data retention policies set by your organization. The admin can still [export](/rest/api/yammmer/network-data-export.md) and manage their data.  
+
+
 ## See also
 
 [Answers admin scenarios in Viva](/viva/engage/eac-answers-admin-scenarios)
