@@ -77,6 +77,6 @@ If you’ve made edits at the cycle level and your survey is unlinked from the p
 > - Cycle-level edits will not be retained at the program level for future surveys. Edit both accordingly. 
 
 >[!TIP]
-> The Approved button on that page must be toggled to **YES**. Make future survey changes at the program level, in between cycles. This will ensure it's always cleared what text, questions and communications schedule will be associated with the upcoming survey.
+> Make future survey changes at the program level, in between cycles. This will ensure its always clear what text, questions and communications schedule will be associated with the upcoming survey.
 
  
