@@ -33,7 +33,7 @@ If you need help with choosing a survey, [learn about survey types here](https:/
 
 ## Program Summary setup
 
-In the Program Summary section, there can be up to seven pages to be set up. Not all pages are needed for all programs. Only necessary for the program you have chosen will be available. Pages for setup can include:
+In the Program Summary section, there can be up to seven pages to be set up. Not all pages are needed for all programs. Only necessary pages for the program you have chosen will be available. Pages for setup can include:
 
 - [Program Summary: Program Setup](program-set-up.md)
 - [Program Summary: Distribution](set-up-distribution-lists.md)
