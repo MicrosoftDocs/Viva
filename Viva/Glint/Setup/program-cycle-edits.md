@@ -36,7 +36,7 @@ Setting up your first Viva Glint program in the manner suggested is the most eff
 
 ## Edit a program vs. a single survey (cycle) 
 
-Once an entire program (pulse) has been set up, future surveys are edited at the program level in the Program Summary section of the admin dashboard. For example, if you want to set up a series and avoid major adjustments to each survey, edit at the program level. If untouched, the same survey emails, text, and questions are repeated with each cycle in the program. However, you might choose to edit a single survey, or cycle, in ways that won't affect future cycles in the program. 
+Once an entire program (pulse) has been set up, future surveys are edited at the program level in the [Program Summary](https://www.microsoft.com/) section of the admin dashboard. For example, if you want to set up a series and avoid major adjustments to each survey, edit at the program level. If untouched, the same survey emails, text, and questions are repeated with each cycle in the program. However, you might choose to edit a single survey, or cycle, in ways that won't affect future cycles in the program. 
 
 >[!TIP]
 > Carefully consider edits at the program level which affect all future surveys. 
@@ -46,7 +46,7 @@ Once an entire program (pulse) has been set up, future surveys are edited at the
 - If a survey is live, and you want to adjust the schedule or add email reminders, then you need to make edits at the cycle level.  
 - If you want email communication to be unique to one survey, and you don’t want it to affect emails programmed for subsequent surveys, you can do so at the cycle level.  
 
-For other changes needed to a live survey, read Make changes to a live Viva Glint survey. 
+For other changes needed to a live survey, read [Make changes to a live Viva Glint survey](https://www.microsoft.com/). 
 
 >[!TIP]
 > Between surveys, you can continue to edit email communications at the program level. 

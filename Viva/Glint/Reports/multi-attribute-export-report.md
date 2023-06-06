@@ -1,6 +1,6 @@
 ---
 title: Multi-Attribute Export Report 
-description: ""
+description: "Using the Multi-Attribute Export report, admins can deep dive into survey scores and view results of combinations for up to three attributes."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
