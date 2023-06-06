@@ -49,32 +49,32 @@ The following table shows the actions available to users and admins.
 
 ## Update information panel
 
-### **Provide guidance using the information panel**
+### Provide guidance using the information panel
 As an Answers admin, Engage admin, or Global admin, you can provide guidance to employees on how to use Answers in your organization using the information panel. The information panel is only visible to administrators in its default state. Once an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
 
 **Admin view**
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the Answers info panel with guidelines option.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
 
 **End user view**
-:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the Answers info panel looks to end users.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Edit the information panel
 1. Select the edit icon from the top left corner of the information panel.
 1. Enter the content specific to your organization.
 1. Select **Save and publish** to allow all Answers users access to the information panel content.
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of how the Answers info panel looks to end users.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Reset the information panel  
 
 1. Select the edit icon from the top left corner of the information panel.
 1. Select **Reset** from the bottom-left corner.  
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot of how the Answers info panel looks to end users.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ## Manage topics in Answers
 
-### **Feature topics in Answers**
+### Feature topics in Answers
 
 As an Answers admin, you can feature a topic or create a topic from the topic browse page. When you feature topics, you curate Viva Topics to be promoted for use in Answers.
 
@@ -92,7 +92,7 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 >[!NOTE]
 > The title and summary of all Viva Topics that are featured in Answers are visible to all licensed users who have access to Answers.
 
-### **Review pending topics suggested by employees**
+### Review pending topics suggested by employees
 
 To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a  **Needs Review** tab on the topic browse page, which is only visible to them. It displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
 
