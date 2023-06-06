@@ -44,7 +44,6 @@ The following table shows the actions available to users and admins.
 |**Remove topic from Answers**| | | |✓|✓|
 |**Approve suggested topics**| | | |✓|✓|
 |**Enable answers**| | | | |✓|
-|**Show Engage Experience**| | | | |✓|
 |**Enable badges**| | |✓| |✓|
 
 ## Update information panel
