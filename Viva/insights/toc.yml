@@ -118,6 +118,8 @@ items:
             href: advanced/analyst/metric-rules.md       
         - name: Reference
           items:
+          - name: Error messages
+            href: advanced/reference/errors.md
           - name: FAQ
             href: advanced/reference/faq.md
           - name: Glossary
