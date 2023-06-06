@@ -57,6 +57,7 @@ To modify which integrations are available in your organization, select the enab
 Only Global admins have permission to manage which integrations are available for the tenant. 
 
 1. Log in to your Viva Goals account. 
+
 1. Select the organization from the navigation panel on the left.
    
    :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization." lightbox="../media/goals/admin-controls/navigation-pane.png"::: 
