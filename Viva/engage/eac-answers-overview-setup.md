@@ -126,7 +126,7 @@ The Viva Engage Experience can't be hidden if Answers is turned off, or if the t
 :::image type="content" source="/media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot showing how to get to Answers options."::: 
 
 > [!NOTE]
-> If the Viva Engage Experience is hidden, the backing group will respect the data retention policies set by your organization. The admin can still [export](/rest/api/yammmer/network-data-export.md) and manage their data.  
+> If the Viva Engage Experience is hidden, the backing group will respect the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).  
 
 
 ## See also
