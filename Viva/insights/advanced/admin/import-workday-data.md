@@ -50,6 +50,9 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 
 When you connect Workday to Viva Insights, Workday sends over a set of predefined source columns. These columns are mapped to Viva Insights data fields. You can't change these predefined fields right now, but you'll be able to in the future.
 
+>[!Note]
+>Viva Insights doesn't import the HourlyRate or OnsiteDays fields from Workday.
+
 ## Validation
 
 After you connect Workday to Viva Insights, the advanced insights app starts validating your Workday data.
@@ -128,10 +131,7 @@ Some field values need to follow specific formatting, as described in this table
 |**PersonId** | Valid email address| `gc@contoso.com`
 |**ManagerId** | Valid email address |`gc@contoso.com`
 |**Layer** | Numbers only | `5`
-| **HourlyRate** (refer to note below) | <li>Numbers only <li>Double| `23.75`
 
->[!Note]
->The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
 
 ##### Rules for characters in field values
 
