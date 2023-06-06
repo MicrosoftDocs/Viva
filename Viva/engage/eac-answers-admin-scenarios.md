@@ -2,10 +2,10 @@
 title: "Answers admin scenarios in Viva"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/15/2023
+ms.date: 06/05/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,11 +39,32 @@ The following table shows the actions available to users and admins.
 |**Mark best answer**| | ✓ (own posts)|✓|✓|✓|
 |**See global insights**| | |✓|✓|✓|
 |**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|
+|**Update information panel**| | |✓|✓|✓|
 |**Feature topics**| | | |✓|✓|
 |**Remove topic from Answers**| | | |✓|✓|
 |**Approve suggested topics**| | | |✓|✓|
 |**Enable answers**| | | | |✓|
+|**Show Engage Experience**| | | | |✓|
 |**Enable badges**| | |✓| |✓|
+
+## Update information panel
+
+### **Provide guidance using the information panel**
+As an Answers admin, Engage admin, or Global admin, you can provide guidance to employees on how to use Answers in your organization using the information panel. The information panel is only visible to administrators in its default state. Once an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
+
+**Admin view**
+
+**End user view**
+
+### Edit the information panel
+1. Select the edit icon from the top left corner of the information panel.
+1. Enter the content specific to your organization.
+1. Select **Save and publish** to allow all Answers users access to the information panel content.
+
+### Reset the information panel  
+
+1. Select the edit icon from the top left corner of the information panel.
+1. Select **Reset** from the bottom-left corner.  
 
 ## Manage topics in Answers
 
