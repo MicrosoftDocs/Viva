@@ -61,7 +61,7 @@ You can edit or delete an existing configured provider directly from **Manage pr
 > [!NOTE]
 > If you delete all learning providers, the Viva Learning Teams app will be empty.
 
-![Image of the Manage Providers options inside Viva Learning](../media/learning/admin-tab-manage-providers.png) 
+![Screenshot that shows the Manage Providers options inside Viva Learning.](../media/learning/admin-tab-manage-providers.png) 
 
 1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://vivalearning.microsoft.com).
 
@@ -101,4 +101,4 @@ The **My Learning** tab helps users take control of their learning journey. User
 
 To create a set of featured content that will show up for your users, select **Create featured set** in the top left corner. 
 
-![Image of the create feature set within Viva Learning](../media/learning/feature-set.png)
+![Screenshot of the create feature set within Viva Learning.](../media/learning/feature-set.png)
