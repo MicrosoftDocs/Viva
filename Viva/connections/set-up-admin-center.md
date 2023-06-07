@@ -205,7 +205,7 @@ Users who have already designated audiences for their experiences can use the fo
 2. Select the **Audience** tab from the settings panel.
 3. Select **Edit audience**.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/designate-audiences.png" alt-text="Screenshot of the screen on which you can designate audiences to experiences." lightbox="../media/connections/set-up-admin-center/designate-audiences.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
 5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
@@ -216,8 +216,6 @@ Users who have already designated audiences for their experiences can use the fo
 > If filtering by Microsoft 365 group and license options, only audiences who belong to both will be associated. For example, an administrator may want to create a distinct experience for a subset of all the frontline workers.
 
 6. Select **Save** when you're done.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
    The audiences will display here under **Groups** and can be edited in the future.
 
@@ -246,6 +244,8 @@ If the example organization creates another experience scoped to a subset of the
 3. Select **Save** when you're done.
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
+
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
 ### Step 5: Configure the dashboard
 
