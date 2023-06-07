@@ -8,7 +8,7 @@ ms.collection:
 
 ## [Get Viva Connections]()
 
-### [Viva Connections quick guide](set-up-admin-center.md)
+### [Set up Viva Connections in the admin center](set-up-admin-center.md)
 
 ### [Overview of how to set up Viva Connections]()
 

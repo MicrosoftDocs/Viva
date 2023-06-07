@@ -179,14 +179,11 @@ Assign two or more owners to each experience so that they'll have full access to
 1. After creating your Connection experiences, select the experience to assign owners to it.
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
 3. Select **Add**.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png" alt-text="Screenshot of the screen on which you can add permissions to owners of experiences." lightbox="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png":::
-
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
 5. Select **Add** after you've finished entering the names.
 6. If you want to add more owners later, select **+ Add owners** under the **Permissions** tab.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/add-additional-owners.png" alt-text="Screenshot of the screen on which you can add more owners to an experience." lightbox="../media/connections/set-up-admin-center/add-additional-owners.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png" alt-text="Screenshot of the screen on which you can add permissions to owners of experiences." lightbox="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png":::
 
 ### Step 3: Designate audiences
 
@@ -234,11 +231,11 @@ If your organization has multiple experiences, some audiences may belong to more
 
 :::image type="content" source="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png" alt-text="Screenshot of the screen that describes how ordering works with multiple experiences." lightbox="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png":::
 
-In this example (in the screenshot), there are two Connections experiences for an organization. Both “Relecloud” experiences have been enabled and can be seen by viewers.
+In this example (in the screenshot), there are two Connections experiences for an organization. Both experiences have been enabled and can be seen by viewers.
 
-The experience named **Relecloud – FLW** is scoped to frontline workers at the organization who also belong to the “Relecloud” experience, but this experience also provides the specific information relevant to the frontline workers. The **Relecloud** experience is targeted to all employees at the organization and provides information targeted to everyone.
+The experience named **Contoso 123** is scoped to workers at the organization who are members of the CM (Contoso Members) group. The **comm1** experience is targeted to all employees at the organization and provides information targeted to everyone.
 
-Since the frontline workers belong to more than one experience, the **Relecloud – FLW** experience should be ordered to come before the experience set to the **Everyone** audience. By ordering the scoped experience first, you create a rule that prioritizes displaying this experience over the default experience for users who belong to more than one experience.
+Since the CM workers belong to more than one experience, the **Contoso 123** experience should be ordered to come before the experience set to the **Everyone** audience. By ordering the scoped experience first, you create a rule that prioritizes displaying this experience over the default experience for users who belong to more than one experience.
 
 If the example organization creates another experience scoped to a subset of the audience, they'll need to reorder experiences again to ensure the most scoped experiences are prioritized over the default experience.
 
@@ -264,8 +261,6 @@ Enable each Viva Connections experience to make it visible to your audience.
    :::image type="content" source="../media/connections/set-up-admin-center/edit-status-option.png" alt-text="Screenshot of the screen on which you can edit the status to enable the experience." lightbox="../media/connections/set-up-admin-center/edit-status-option.png":::
 
 3. Select the **Enable experience** checkbox, and then select **Save**.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png" alt-text="Screenshot of the screen on which you enable the experience and save the setting." lightbox="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png":::
 
 If you need to update the experience, you can also return it to **Draft** status and hide it from viewers.
 
@@ -295,9 +290,7 @@ Learn more about [Adding the Viva Connections app in the Teams Admin Center](add
 
 ### Options in the settings panel
 
-The following screenshot provides an overview of the settings available in the settings panel:
-
-:::image type="content" source="../media/connections/set-up-admin-center/settings-overview.png" alt-text="Screenshot with an overview of the settings in the settings panel." lightbox="../media/connections/set-up-admin-center/settings-overview.png":::
+The following settings are available in the settings panel:
 
 1. **Open in Teams**: Open this experience in the Teams app.
 2. **Analytics**: Download data for overall traffic, usage, and usage by platform for the selected experience in an Excel spreadsheet (Learn more about [Usage data for Viva Connections](viva-connections-analytics.md)).
@@ -331,8 +324,6 @@ The following screenshot provides an overview of the settings available in the s
    :::image type="content" source="../media/connections/set-up-admin-center/deleting-experience.png" alt-text="Screenshot of the screen on which you can delete a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/deleting-experience.png":::
 
 3. A confirmation screen will display. Select **Delete** to remove the experience.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/completing-deletion-of-experience.png" alt-text="Screenshot of the screen on which you can click the final option to complete deletion of a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/completing-deletion-of-experience.png":::
 
 ### Add a SharePoint home site after setting up a Connections experience
 
