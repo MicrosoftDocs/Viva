@@ -46,7 +46,7 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 
 Setting up Viva Connections only takes a few steps but there are some considerations to think through with other stakeholders at your organization before getting started:
 
-- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with Dashboard cards targeted to specific audiences (i.e. Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (e.g. separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience will need to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
+- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (i.e. Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (e.g. separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience will need to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
 
 - **Decide which audiences should be associated with each experience**: You can create more than one Connections experiences if your organization has a need for different employee experiences for distinct audiences. Decide which experiences should be associated with specific audiences. You’ll want to consider the order of experiences that should be seen for audiences that may belong to more than one experience.
 
@@ -84,7 +84,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 
 Admins will be able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
 
-> **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the Dashboard, resource, and overall Viva home experience is hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
+> **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the dashboard, resources, and overall Viva home experience are hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
 <br>
 <br>
 > **B. Build from an existing intranet portal**: This option is ideal for organizations that already have a SharePoint communications site and would like to use their own content, or would like to add an intranet portal that includes Connections components that can easily be extended to the Web. This option creates a new Connections experience and automatically designates the communications site as a home site (intranet portal) that displays navigational elements, and shares permissions.
@@ -151,9 +151,9 @@ PowerShell functionality will be limited initially as follows:
 | **Remove-SPOHomeSite** | This won't be supported initially for multiple home sites customers, but the MAC will support this operation. Users attempting to use the cmdlet will receive an error message and be redirected to the MAC. |
 >
 
-#### When to use a separate experience vs Dashboard card level targeting
+#### When to use a separate experience vs dashboard card-level targeting
 
-Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your Dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
+Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
 
 ##### Scenarios for creating additional Viva Connections experiences
 
@@ -161,14 +161,14 @@ Depending on the size of your organization and the information to communicate, y
 - Not wanting employees to have to visit the experience of another subsidiary.
 - International legal entities that need control over the content.
 - Presenting international content in a different language that won't overlap with existing content (for example, English experience, Spanish experience, and so on).
-- Content specific to frontline workers (for example, Dashboard and resources with the frontline worker focus such as tasks, shifts, approvals, and top news).
+- Content specific to frontline workers (for example, dashboard and resources with the frontline worker focus such as tasks, shifts, approvals, and top news).
 
 If creating multiple experiences, make sure you don't have any overlap with your content authors, content plan, or audience groups. Overlap will require you to manually manage the content across each experience.
 
 ##### Scenarios for card-level targeting and end-user personalization
 
 - Creating a mix of corporate- and department-specific content (for example, centralized HR or corporate communications).
-- Decluttering the Dashboard to prevent cards from appearing to employees who wouldn't use them frequently.
+- Decluttering the dashboard to prevent cards from appearing to employees who wouldn't use them frequently.
 
 When you're using card-level targeting, consider testing your dashboard with different audience groups to ensure your audiences are seeing the content you want them to.
 
