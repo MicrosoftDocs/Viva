@@ -34,7 +34,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 > - This experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating 3 experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating three experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 
@@ -363,11 +363,12 @@ Follow these instructions if your organization already has custom Connections da
 > You'll need SharePoint admin permissions or higher to complete the following steps.
 
 1. Keep the new home site in **Draft mode** until content has been copied to the home site in SharePoint.
+2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
+3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
+
 
   :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
 
-2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
-3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
 4. Copy content in the navigation column in the Resources section to global navigation in SharePoint. Go to **Global navigation > Enable** and then customize the navigational links. These links will automatically populate the navigation column in the Resources section of the Connections experience.
 5. After all the content you want to preserve has been copied to the home site in SharePoint, navigate back to the Connections experience in the MAC and turn the **Draft mode** toggle off and then select **Save**.
 
