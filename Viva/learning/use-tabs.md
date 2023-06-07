@@ -51,7 +51,7 @@ The following features are accessible by the listed admin roles:
 
 
 You can configure providers using **Manage providers** in Viva Learning Admin. The **Add providers** list displays the available providers for configuration. 
-Once a provider is configured it will appear in the **Configured providers** list. 
+Once a provider is configured, it appears in the **Configured providers** list. 
 
 Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](/exchange/permissions/role-group-members.md) to Learn how to assign roles. 
 
@@ -69,17 +69,17 @@ You can edit or delete an existing configured provider directly from **Manage pr
   
 1. Select **Add Provider**. 
 
-1. Select the provider you want to configure and click **Next**. 
+1. Select the provider you want to configure and select **Next**. 
 
-1. Add provider configurations as applicable and select **Save**. This will add the provider in the **Configured providers** list. 
+1. Add provider configurations as applicable and select **Save**. This adds the provider in the **Configured providers** list. 
 
 You can track the current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view:
 
  - **Sync status** and **timestamp**: Check the current sync status (success/failed/in progress) of catalog, learner records, and catalog permissions.  
     
- - **Manual sync trigger**: Trigger the sync manually for a delta/full sync. Once a full sync is triggered, the sync status will be updated accordingly. 
+ - **Manual sync trigger**: Trigger the sync manually for a delta/full sync. Once a full sync is triggered, the sync status is updated accordingly. 
 
- - **Export log**: Admins can refer to the export log file for a details about successful and failed sync cycles. 
+ - **Export log**: Admins can refer to the export log file for a detail about successful and failed sync cycles. 
 
 > [!NOTE]
 > The sync status, sync time stamp and export logs are only currently available for catalog sync for all providers. 
@@ -87,15 +87,15 @@ You can track the current sync status, last successful sync time, next scheduled
 
 ## How content shows up in the My Learning page
 
-The **My Learning** tab helps users take control of their learning journey. Users will be able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.
+The **My Learning** tab helps users take control of their learning journey. Users are able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.
 
-- **Recommended to you**: Recommendations from your peers will show up here.
+- **Recommended to you**: Recommendations from your peers show up here.
 
 - **Bookmarks**: Content bookmarked by the user will be shown here.
 
-- **Recently viewed**: The user's 20 most recently viewed items will be shown under this tab. The most recently viewed item is shown first.
+- **Recently viewed**: The user's 20 most recently viewed items are shown under this tab. The most recently viewed item is shown first.
 
-- **Completed**: Courses completed by the user will show under this tab.
+- **Completed**: Courses completed by the user show under this tab.
 
 ## Feature sets
 
