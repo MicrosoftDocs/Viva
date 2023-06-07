@@ -53,7 +53,7 @@ The following features are accessible by the listed admin roles:
 You can configure providers using **Manage providers** in Viva Learning Admin. The **Add providers** list displays the available providers for configuration. 
 Once a provider is configured it will appear in the **Configured providers** list. 
 
-Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](https://learn.microsoft.com/exchange/permissions/role-group-members) to Learn how to assign roles. 
+Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](/exchange/permissions/role-group-members.md) to Learn how to assign roles. 
 
 
 You can edit or delete an existing configured provider directly from **Manage providers**. 
@@ -63,22 +63,23 @@ You can edit or delete an existing configured provider directly from **Manage pr
 
 ![Image of the Manage Providers options inside Viva Learning](../media/learning/admin-tab-manage-providers.png) 
 
-Open Viva Learning App in Teams or go to the Viva Learning Web App https://vivalearning.microsoft.com/ 
+1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://vivalearning.microsoft.com).
 
-Go to the Admin tab in Viva Learning and click on Manage Providers on the left menu. Select Add Provider 
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. 
+  
+1. Select **Add Provider**. 
 
-Select the provider you want to configure and click Next. 
+1. Select the provider you want to configure and click **Next**. 
 
-Add provider configurations as applicable and select save. This will add the provider in Configured providers list. 
+1. Add provider configurations as applicable and select **Save**. This will add the provider in the **Configured providers** list. 
 
-You can track the current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view: 
+You can track the current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view:
 
-Sync status and timestamp: Check the current sync status (success/failed/in progress) of catalog, learner records, and catalog permissions.  
+ - **Sync status** and **timestamp**: Check the current sync status (success/failed/in progress) of catalog, learner records, and catalog permissions.  
+    
+ - **Manual sync trigger**: Trigger the sync manually for a delta/full sync. Once a full sync is triggered, the sync status will be updated accordingly. 
 
-
-Manual sync trigger: Trigger the sync manually for a delta/full sync. Once a full sync is triggered, the sync status will be updated accordingly. 
-
-Export log: Admins can refer to the export log file for a details about successful and failed sync cycles. 
+ - **Export log**: Admins can refer to the export log file for a details about successful and failed sync cycles. 
 
 > [!NOTE]
 > The sync status, sync time stamp and export logs are only currently available for catalog sync for all providers. 
