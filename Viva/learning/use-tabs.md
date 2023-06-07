@@ -81,7 +81,7 @@ The **My Learning** tab helps users take control of their learning journey. User
 
 - **Completed**: Courses completed by the user will show under this tab.
 
-## Featue sets
+## Feature sets
 
 To create a set of featured content that will show up for your users, select **Create featured set** in the top left corner. 
 
