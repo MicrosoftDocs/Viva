@@ -22,9 +22,9 @@ ms.date: 04/28/2023
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
 
-Use the results rollout templates below to customize and send to the people in your organization to prepare them to act on feedback from your Viva Glint programs. The templates are for guidance only and assume a six-week launch which may be longer than your timeline.Align your communications as appropriate. 
+Use the results rollout templates below to customize and send to the people in your organization to prepare them to act on feedback from your Viva Glint programs. The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate.  
 
-Sample communications are not generated in the Viva Glint platform. 
+Sample communications aren't generated in the Viva Glint platform. 
 
 The following are hyperlinks to email templates that Microsoft Viva Glint recommends sending to your people post-survey close. 
 
