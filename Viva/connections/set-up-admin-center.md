@@ -351,7 +351,7 @@ The organization would need to create a new experience, this time building their
 
 If your organization doesn’t have any custom Connections content in Teams yet, you do not need to manually copy content. Instead, you can **Save** the home site and enable the experience.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site-small.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
 
 3. For organizations who have already set up dashboard and navigation content in Teams, keep the home site in **Draft mode** until the content has been copied to the home site in SharePoint.
 
