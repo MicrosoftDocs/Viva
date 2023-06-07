@@ -54,7 +54,6 @@ You can configure providers using **Manage providers** in Viva Learning Admin. T
 Once a provider is configured, it appears in the **Configured providers** list. 
 
 Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](https://learn.microsoft.com/exchange/permissions/role-group-members) to Learn how to assign roles. 
-Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](/exchange/permissions/role-group-members) to Learn how to assign roles. 
 
 
 You can edit or delete an existing configured provider directly from **Manage providers**. 
