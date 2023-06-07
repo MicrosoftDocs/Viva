@@ -111,7 +111,7 @@ For this feature to be available, the network is required to have two or fewer E
 
 3. Select **Admin** to navigate to the Viva Engage admin center.
 
-:::image type="content" source="/media/engage/admin/admin-entrypoint.png#lightbox" alt-text="Screenshot of entry point to the admin center."::: 
+:::image type="content" source="/media/engage/admin/admin-entry-point.png#lightbox" alt-text="Screenshot of entry point to the admin center."::: 
 
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
 
