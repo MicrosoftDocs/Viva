@@ -1,5 +1,5 @@
 ---
-ms.date: 05/16/2023
+ms.date: 06/07/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -84,7 +84,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 
 Admins will be able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
 
-> **A. Creating a Connections experience**: The option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the Dashboard, resource, and overall Viva home experience is hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
+> **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the Dashboard, resource, and overall Viva home experience is hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
 <br>
 <br>
 > **B. Build from an existing intranet portal**: This option is ideal for organizations that already have a SharePoint communications site and would like to use their own content, or would like to add an intranet portal that includes Connections components that can easily be extended to the Web. This option creates a new Connections experience and automatically designates the communications site as a home site (intranet portal) that displays navigational elements, and shares permissions.
@@ -250,7 +250,11 @@ If the example organization creates another experience scoped to a subset of the
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
-### Step 5: Enable the experience
+### Step 5: Configure the dashboard
+
+Follow the [steps to create the dashboard](create-dashboard.md) to choose what your users will see when they open Viva Connections.
+
+### Step 6: Enable the experience
 
 Enable each Viva Connections experience to make it visible to your audience.
 
