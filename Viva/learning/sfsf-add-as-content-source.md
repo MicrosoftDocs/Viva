@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/26/2023
+ms.date: 06/08/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -30,7 +30,7 @@ This article shows you how to configure SAP SuccessFactors as a third-party Lear
 There are two major integration stages for which admins require specific permissions.  
 
 1. Viva Learning Admin Interface:  
-    [Getting access to Viva Learning Admin access](/viva/learning/set-up-viva-learning.md)
+    [Getting access to Viva Learning Admin access](/viva/learning/set-up-viva-learning#set-up-viva-learning)
 
     Admins can manage their Viva Learning content from within the Viva Learning app in Teams. Refer to [Manage content in the admin tab](/viva/learning/use-tabs#managing-providers) for more information.
 
@@ -46,11 +46,11 @@ There are two major integration stages for which admins require specific permiss
 
 2. Select **Add Provider**.  
 
-![Image of the **Manage providers** dashboard with the list of configured privders and the option to add a provider](../media/learning/sfsf-onboarding-0.png)
+![Screenshot of the **Manage providers** dashboard with the list of configured privders and the option to add a provider](../media/learning/sfsf-onboarding-0.png)
 
 3. Select **SAP SuccessFactors** from the Provider list and select **Next**.
 
-![Image of the select provider configuration option with a list of providers. SAP SuccessFactors is selected](../media/learning/sfsf-onboarding-1.png)
+![Screenshot of the select provider configuration option with a list of providers. SAP SuccessFactors is selected](../media/learning/sfsf-onboarding-1.png)
 
 
 4. Enter the following details to generate PGP keys: 
@@ -58,17 +58,17 @@ There are two major integration stages for which admins require specific permiss
     -  Email id (Key Owner email id)
     - Key Passphrase (Password)  
 
-![Image of the Create PGP keys screen requesting information on name, email id, and key passphrase.](../media/learning/sfsf-onboarding-2.png)
+![Screenshot the Create PGP keys screen requesting information on name, email id, and key passphrase.](../media/learning/sfsf-onboarding-2.png)
 
 5. Select **Create**. PGP key pairs are now generated.  
 
-![Image of the copy PGP keys screen with the option to copy private and public PGP keys](../media/learning/sfsf-onboarding-copy-pgp-keys.png)
+![Screenshot of the copy PGP keys screen with the option to copy private and public PGP keys](../media/learning/sfsf-onboarding-copy-pgp-keys.png)
 
 6. Copy the Private key and Public Key individually and save it for later reference. **This is important as public key will not be saved within Viva Learning due to security reasons.** Select **Next**. 
 
 7. Viva Learning generates the partner configuration that needs to be updated in SuccessFactors Portal. Copy the configuration. 
 
-![Image of the SuccessFactors partner configuration screen with the configuration values and the option to copy them](../media/learning/sfsf-onboarding-4.png)
+![Screenshot of the SuccessFactors partner configuration screen with the configuration values and the option to copy them](../media/learning/sfsf-onboarding-4.png)
 
 ## Configure in your SuccessFactors portal
 
@@ -77,14 +77,14 @@ There are two major integration stages for which admins require specific permiss
 
 1. Enter "Learning Administration" in the search bar on the SAP SuccessFactors portal, and then select the enter key.
 
-   ![Image of SAP SuccessFactors Portal where you search for Learning Administration.](../media/learning/SFSF-admin-center-page.png)
+   ![Screenshot of SAP SuccessFactors Portal where you search for Learning Administration.](../media/learning/SFSF-admin-center-page.png)
 
 1. Get the required workflows to edit the PARTNER_EXTRACT configuration located at **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
-   ![Image of System Configuration meny with option section in PARTNER_EXTRACT.](../media/learning/sfsf-system-config-partner-extract.png)
+   ![Screenshot of System Configuration meny with option section in PARTNER_EXTRACT.](../media/learning/sfsf-system-config-partner-extract.png)
 
 1. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you need the **Edit System Configuration** workflow permission in SuccessFactors.
-![Image of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted.](../media/learning/SFSF-system-config-highlighted-1.png)   
+![Screenshot of SAP SuccessFactors Learning System Configuration screen with partner extract field highlighted.](../media/learning/SFSF-system-config-highlighted-1.png)   
 
 4. If #Partner1 isn't already used, update the copied Partner configuration from Viva Learning in System Configuration as shown below:
 
@@ -115,11 +115,11 @@ There are two major integration stages for which admins require specific permiss
 
 7. Check **I have followed the above steps** and select **Next**.
 
-![Image of the checkbox indicating that you have followed the above steps.](../media/learning/sfsf-onboarding-5.png)
+![Screenshot of the checkbox indicating that you have followed the above steps.](../media/learning/sfsf-onboarding-5.png)
 
 8. Fill in the configuration details:
 
-![Image of the final successfactors configuration screen](../media/learning/sfsf-onboarding-config-4.png)
+![Screenshot of the final successfactors configuration screen](../media/learning/sfsf-onboarding-config-4.png)
 
    - **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
 
@@ -129,7 +129,7 @@ There are two major integration stages for which admins require specific permiss
 
    - **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
 
-     :::image type="content" source="../media/learning/sfsf-system-config-highlighted3.png" alt-text="Image of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field." lightbox="../media/learning/sfsf-system-config-highlighted3.png":::
+     :::image type="content" source="../media/learning/sfsf-system-config-highlighted3.png" alt-text="Screenshot of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field." lightbox="../media/learning/sfsf-system-config-highlighted3.png":::
 
    - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
@@ -143,9 +143,9 @@ There are two major integration stages for which admins require specific permiss
 
    - **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
 
-      ![Image of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
+      ![Screenshot of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
 
-      ![Image of the version settings pane.](../media/learning/sf-1.png)
+      ![Screenshot of the version settings pane.](../media/learning/sf-1.png)
 
 9. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning. 
 
@@ -190,6 +190,6 @@ The following table lists error codes and messages, when they're displayed, and 
 |---|---|---|
 |USR_ERROR_SF_INITIAL_PACKAGE_NOT_FOUND| No new content ingested as the required package wasn't found in the SuccessFactors SFTP server.| Make sure that the SuccessFactors package is available. It may take up to seven working days to generate this package the first time you sync. If you can't find the package, contact your SuccessFactors support team.| 
 |USR_ERROR_SF_DELTA_PACKAGE_NOT_FOUND | No new content was ingested as the required package wasn't found in the SuccessFactors SFTP server. | Make sure that SF package is available in the configured folder path on your SF portal. If you can't find the package, contact your SuccessFactors support team.|
-|USR_ERROR_SF_COMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the compressed package size exceeded 2 GB.|Contact [Microsoft customer support](/viva/learning/help-support.md) for more details.|
+|USR_ERROR_SF_COMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the compressed package size exceeded 2 GB.|Contact [Microsoft customer support](/viva/learning/help-support#) for more details.|
 |USR_ERROR_SF_UNCOMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the uncompressed package size exceeded 25 GB. |Contact Microsoft customer support for more details.|
 |PGP Keypair validation failed |Possible reasons for this failure - Incorrect values entered for fields - SF Public Key, SF Private Key, SF Private Key Pass Phrase. |Navigate to the **SuccessFactors Provider** and select **Edit** under **…** and **Renew Keys**. Copy the Partner configuration and paste it in the SuccessFactors Portal. Save the configuration. Create ticket with the SuccessFactors support team to generate new package|
