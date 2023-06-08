@@ -1,5 +1,5 @@
 ---
-ms.date: 3/2/2023
+ms.date: 5/30/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: hokavian
@@ -23,7 +23,7 @@ search.appverid:
 - SPO160
 - MET150f
 ms.custom: intro-overview
-description: "Learn how to use Viva Connections experience by using Viva Connections analytics."
+description: "View usage data for Viva Connections to learn more about usage trends."
 ---
 
 # View usage data for Viva Connections
@@ -32,7 +32,6 @@ Understand how and when users engage with components of the Viva Connections exp
 
 
 > [!NOTE]
-> - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
@@ -67,9 +66,9 @@ The usage report contains three separate tabs and sheets of data. Learn more abo
 
 Learn more about usage data for unique users, engaged users, and the total visits. The data on this sheet includes activity for desktop, web, and mobile usage regardless of the platform.
 
-- **Unique active users:** Total number of individual viewers across all Viva Connections platforms. This includes viewers who open the app and view the experience.
-- **Unique engaged users:** Total number of individual viewers who interact with Viva Connections experiences. This includes viewers who engage with a dashboard card, a post in the feed, or a link in resources.
-- **Total visits:** Total number of individual visits, aggregated across Viva Connections platforms.
+- **Unique users:** Total number of individual viewers across all Viva Connections apps and devices.
+- **Engaged users:** Total number of individual viewers who interact with Viva Connections components.
+- **Total visits:** Total number of all visits, aggregated across Viva Connections apps, devices, and components.
 
 ### Sheet 2: Usage by experience
 
@@ -85,7 +84,7 @@ Learn more about the platforms used to access Viva Connections.
 
 - **Microsoft Teams desktop:** Usage in the Teams app for desktop or web.
 - **Microsoft Teams mobile:** Usage in the Teams app for mobile.
-- **SharePoint:** Usage with the Dashboard, Feed, and Resources in the SharePoint app for desktop, web, and mobile.
+- **SharePoint:** Views in SharePoint are limited to the Dashboard and Feed web parts viewed on the web. 
 
 
 ## How to to disable analytics features
