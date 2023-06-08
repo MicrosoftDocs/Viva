@@ -8,6 +8,8 @@ items:
         href: advanced/privacy/privacy.md
       - name: Environment requirements    
         href: advanced/setup-maint/environment-requirements.md
+      - name: Error messages
+        href: advanced/reference/errors.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
       - name: Support

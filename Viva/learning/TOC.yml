@@ -43,8 +43,6 @@
           href: configure-cornerstone-content-source.md
         - name: Saba
           href: configure-saba-content-source.md
-        - name: Workday
-          href: configure-workday-content-source.md
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:

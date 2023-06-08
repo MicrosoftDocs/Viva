@@ -18,6 +18,10 @@ audience: Admin
 
 # Peer comparison queries 
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The peer comparison query in Microsoft Viva Insights can help you analyze the workplace collaboration behavior in your organization. You use this type of query to compare the collaboration behavior of one or more peer groups with a select number of individuals.
 
 You use a peer comparison query to identify people who compare in particular ways against other people. As you build the query, you identify the individuals of interest, the groups to compare them with, the comparison metrics, and a period of time for which to query data. Note that while you are querying about individuals, they are not identified in the output; results show only PersonIds.

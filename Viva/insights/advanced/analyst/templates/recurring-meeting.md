@@ -32,7 +32,12 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 <iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiODNjZmZhNTktOTI1NS00NjRkLThkZTQtYzEyNTNhNzkzMWUyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
-[!INCLUDE [Prerequisites](includes/prerequisites.md)]
+## Prerequisites
+
+Before you can run the queries and populate the report in Power BI, you’ll need to:
+
+* Be assigned the role of **Insights Analyst** in Viva Insights.
+* Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
@@ -73,11 +78,16 @@ Use this page to filter the groups you identified on the **Overview** page. For 
 >[!Note]
 >The default value for the **Filter by scheduler’s** dropdown is “Organization.” To filter by other organizational attributes—that is, pieces of descriptive information about the meeting scheduler—you’d need to add those attributes in while you’re building your query. Refer to step 6 above.
 
-The **Meeting series title** field might be blank if your organization is suppressing all email subject lines and meeting titles. If **Meeting series title** is blank, you can still see other fields, like **Scheduler** and associated metrics. Contact your Insights Administrator if you need to view **Meeting series titl**e. 
-
 After you set your filters, explore quality and quantity metrics for each meeting series. All metrics, except meeting count and cost, are averages of meetings that happen between the **Start and end date**. 
 
 When you hover over **Scheduler**, you'll see organizational attributes of the individual who scheduled the meeting, but not who that individual is. This information can help you contact the scheduling organization so you can make changes to the meeting series or provide recommendations about it.
+
+#### About blank or "unknown" values
+
+The **Meeting series title** field might be blank if your organization is suppressing all email subject lines and meeting titles. If **Meeting series title** is blank, you can still see other fields, like **Scheduler** and associated metrics. Contact your Insights Administrator if you need to view **Meeting series title**. 
+
+If "Unknown" appears as the **Scheduler**, the scheduler has no organizational attributes. This might be because the organizational data file your admin uploaded has incomplete data, or the scheduler doesn't have a Viva Insights license.
+
 
 ### Take action
 
@@ -103,4 +113,5 @@ To find the **Settings** page, select the **Settings** link in the top-right cor
 |**Search meeting series name**| Filter which meetings appear in your report based on a keyword in their titles. For example, if you only want to include meetings that have “monthly” in the title, you’d add “monthly” as a keyword in the search bar here. <br><br>If the meeting organizer modifies the title, the report uses the most recent title for the meeting series name. The report allows one keyword at a time.|
 |**Don’t include in the report**|Select the check box to leave out meetings that are probably blocks on people’s calendars. These blocks might be no-meeting days or similar events where people accept the invitation, but no one joined the meeting on Teams for the entire series. Deselect this box to include all meetings.
 
+  
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]

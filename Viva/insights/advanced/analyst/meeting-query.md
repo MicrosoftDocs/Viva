@@ -22,16 +22,19 @@ audience: Admin
 
 ## Overview
 
-To run a meeting query, you'll follow five basic steps. Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
-
->[!Note]
->If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
+To run a meeting query, you'll follow five basic steps:
 
 1. Set up your query.
 1. Add metrics.
 1. Add conditions and condition groups.
 1. Add meeting and organizer attributes.
 1. Run your query.
+
+Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
+
+>[!Note]
+>If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
+
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
@@ -90,9 +93,7 @@ You can pick from seven meeting-related metrics, which we've broken into two cat
 ||Number of attendees who didn’t join the meeting on time|Number of attendees who joined a Teams meeting after five minutes past the scheduled start time
 || Number of chats send during the meeting| Number of Teams chats attendees sent during a meeting |
 || Number of emails send during the meeting|Number of emails attendees sent during a meeting |
-|**ONA metrics**|Strong ties| Strong ties represent connections with people that are part of a person’s inner working group who work together regularly. It measures the number of colleagues who are connected to the person and who are also connected to many of the person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) 
-||Diverse ties|Diverse ties represent people with whom a person interacts less frequently, such as acquaintances. It measures the number of colleagues who are connected to the person but not connected to many of the person’s other colleagues. Diverse ties offer good sources of new and varied information from across the company. (Interactions are based on emails, meetings, and Teams calls and chats.) 
-||Internal network size|The number of people within the organization with whom the person has had a reciprocal interaction in a 4-week span. A reciprocal interaction occurs between A & B when both A has reached out to B and B has reached out to A.
+
 
 #### About the Select metrics pane
 
@@ -114,6 +115,8 @@ To learn more about a metric, hover over its information icon.
 
     >[!Note]
     >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
+    >
+    > To learn more about filters, refer to our [Filters](filters.md) article.
 
 ### Predefined filters
 
@@ -246,8 +249,8 @@ Here’s how you might do that:
     1. Download the .csv output file: Select the CSV icon from the **Downloads** column. If you want to connect the query to another file, like a Power BI visualization, you can select the copy link icon.
     1. **Edit**, **Edit query name**, **Clone**, **Favorite**, or **Delete** the query: Select the ellipses to the right of the **Downloads** column, then select the appropriate choice. 
 
-    > [!Caution]
-    > Editing queries overwrites existing results. If you want to keep your query’s results, use the **Clone** feature—which creates an identical copy of the query—instead.
+    >[!Caution]
+    >Editing queries overwrites existing results. If you want to keep your query’s results, use the **Clone** feature—which creates an identical copy of the query—instead.
 
     >[!Note]
     > Only the analyst who originally ran the query can **Edit query name**, **Edit**, or **Delete** the query. Other analysts in the organization can **View**, **Clone**, and **Favorite** the query.

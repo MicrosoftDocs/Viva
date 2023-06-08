@@ -18,6 +18,9 @@ audience: Admin
 
 # External collaboration
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **External collaboration** shows a summary of your employees' network patterns with people outside the company. You can use this to understand how certain groups of people within your company spend their time interacting with people in external domains. Interaction with external domains typically implies collaboration with customers, business partners, or suppliers.  
 
 >[!Note]

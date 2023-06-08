@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/14/2022
+ms.date: 06/1/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -16,7 +16,7 @@ ms.collection:
   - Tier1
 localization_priority: medium
 description: Learn how to configure Workday as a learning content source for Microsoft Viva Learning.
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure Workday as a content source for Microsoft Viva Learning
