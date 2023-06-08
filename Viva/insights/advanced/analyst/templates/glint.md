@@ -82,7 +82,7 @@ Understanding these relationships can help you better contextualize your Viva In
 
 We've selected a list of Glint survey questions and Viva Insights metrics that could potentially be related. We curated this list from our entire set of Viva Insights metrics. To help create this list, we drew from academic literature and validated correlations between a sample set of Glint and Viva Insights data pairs.
 
-To arrive at the correlations you see in your report, we use the Pearson correlation coefficient (r) between each pair: survey question responses and data from a Viva Insights metric. Correlations fit within a scale from -1 to 1:
+To arrive at the correlations you see in your report, we use the Pearson correlation coefficient (r) between each pair: survey question responses and data from a Viva Insights behavior metric. Correlations fit within a scale from -1 to 1:
 
 ***-1*** *indicates a perfect negative linear relationship*—that is, as one variable increases, the other decreases. For example, the behavior metric **After-hours collaboration** might show high after-hours work time, and all respondents report they don't feel like their company encourages a work-life balance. So, as after-hours work goes up, how employees rate their work-life balance goes down. If you're looking at a -1 correlation on a graph, the data points would form a diagonal line from the top of the y axis to the bottom of the x axis.
 
