@@ -80,13 +80,17 @@ Understanding these relationships can help you better contextualize your Viva In
 
 #### How we calculate correlations and determine relationships
 
-We've selected a list of Glint survey questions and Viva Insights metrics that could potentially be related. We curated this list from our entire set of Viva Insights metrics. To help create this list, we drew from academic literature and validated correlations between Glint and Viva Insights data pairs.
+We've selected a list of Glint survey questions and Viva Insights metrics that could potentially be related. We curated this list from our entire set of Viva Insights metrics. To help create this list, we drew from academic literature and validated correlations between a sample set of Glint and Viva Insights data pairs.
 
 To arrive at the correlations you see in your report, we use the Pearson correlation coefficient (r) between each pair: survey question responses and data from a Viva Insights metric. Correlations fit within a scale from -1 to 1:
 
-* **-1** indicates a perfect negative linear relationship. For example, the data in Viva Insights might show high manager 1:1 time, but all respondents report they don't feel coached by their manager. If you're looking at a -1 correlation on a graph, the data points would form a diagonal line from the top of the y axis to the bottom of the x axis.
-* **0** indicates no relationship. For example, the data in Viva Insights might show varied manager 1:1 time, and respondents give varying answers when asked whether they feel coached by their manager. If you're looking at a 0 correlation on a graph, there wouldn't be a discernable pattern between the data points. 
-* **1** indicates a perfect positive linear relationship. For example, the data in Viva Insights might show high manager 1:1 time, and all respondents report that they feel coached by their manager. If you're looking at a 1 correlation on a graph, the data points would form a diagonal line from the bottom of the x axis to the top of the y axis.
+***-1*** *indicates a perfect negative linear relationship*—that is, as one variable increases, the other decreases. For example, the behavior metric **After-hours collaboration** might show high after-hours work time, and all respondents report they don't feel like their company encourages a work-life balance. So, as after-hours work goes up, how employees rate their work-life balance goes down. If you're looking at a -1 correlation on a graph, the data points would form a diagonal line from the top of the y axis to the bottom of the x axis.
+
+***0*** *indicates no relationship.* For example, the behavior metric **Uninterrupted hours** might show varied uninterrupted hours, and respondents give varying answers when asked whether they have time to dedicate to learning at work. If you're looking at a 0 correlation on a graph, there wouldn't be a discernable pattern between the data points.
+
+***1*** *indicates a perfect positive linear relationship*—that is, as one variable increases, the other increases. For example, the behavior metric **Meeting and call hours with manager 1:1** might show high manager 1:1 time, and all respondents report that they feel coached by their manager. So, as manager 1:1 time goes up, how employees rate feeling coached also goes up. If you're looking at a 1 correlation on a graph, the data points would form a diagonal line from the bottom of the x axis to the top of the y axis.
+Using these correlations, we determine whether a linear relationship between a Glint survey question and a Viva Insights metric is strong, moderate, weak, or if there's no relationship.
+
 
 Using these correlations, we determine whether a relationship between a Glint survey question and a Viva Insights metric is strong, moderate, weak, or if there's no relationship.
 
