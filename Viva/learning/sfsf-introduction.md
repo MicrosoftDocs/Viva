@@ -40,9 +40,9 @@ The SAP SuccessFactors integration with Viva Learning involves 4 stages:
 There are two major integration stages for which admins require specific permissions.  
 
 1. Viva Learning Admin Interface:  
-    [Getting access to Viva Learning Admin access](https://learn.microsoft.com/viva/learning/set-up-viva-learning)
+    [Getting access to Viva Learning Admin access](/viva/learning/set-up-viva-learning)
 
-    Admins can manage their Viva Learning content from within the Viva Learning app in Teams. Refer to [Manage content in the admin tab](https://learn.microsoft.com/viva/learning/use-tabs#managing-providers) for more information.
+    Admins can manage their Viva Learning content from within the Viva Learning app in Teams. Refer to [Manage content in the admin tab](/viva/learning/use-tabs#managing-providers) for more information.
 
 2. SAP SuccessFactors Learning: 
 
