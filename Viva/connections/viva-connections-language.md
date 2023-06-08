@@ -94,8 +94,6 @@ The dashboard is intended to enable quick access to content and tasks from vario
 > [!NOTE]
 > For [custom cards on the dashboard](/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts), ask your card developer to include content localized in English language.
 
-   ![Image of where to specify the language for a card.](../media/connections/vc-language-card.png) <!--daisy-->
-
 ### For organizations using just Viva Connections
 
 1. Navigate to the Viva Connections app in Teams.
