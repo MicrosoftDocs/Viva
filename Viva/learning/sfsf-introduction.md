@@ -34,10 +34,8 @@ Admins need the following permissions:
 
 ## Workflow 
 
-The SAP SuccessFactors integration with Viva Learning involves 4 stages: 
 
-
-There are two major integration stages for which admins require specific permissions.  
+There are two major integration stages for which admins require specific permissions:
 
 1. Viva Learning Admin Interface:  
     [Getting access to Viva Learning Admin access](/viva/learning/set-up-viva-learning)
