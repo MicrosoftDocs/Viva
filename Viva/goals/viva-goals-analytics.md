@@ -143,4 +143,4 @@ By default, the metric calculations include the data of all subteams in the team
 
 By default data of the archived teams isn't included in metric calculations and neither are the teams shown in drilldown view. To change that checks the ‘Include archived teams’ checkbox. 
 
-:::image type="content" source="../media/goals/analytics-images/filters-archived team.png" alt-text="Screenshot of using the archived team filter." lightbox="../media/goals/analytics-images/filters-archived team.png":::
+:::image type="content" source="../media/goals/analytics-images/filters-archived-team.png" alt-text="Screenshot of using the archived team filter." lightbox="../media/goals/analytics-images/filters-archived-team.png":::
