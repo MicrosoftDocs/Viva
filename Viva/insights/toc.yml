@@ -90,6 +90,8 @@ items:
               href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
+            - name: Connect your data to Power BI through the Power BI connector
+              href: advanced/analyst/power-bi-connector.md   
             - name: Query results FAQs
               href: advanced/analyst/query-results-faq.md   
           - name: Templates
