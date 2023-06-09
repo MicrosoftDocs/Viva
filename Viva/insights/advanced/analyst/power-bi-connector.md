@@ -49,56 +49,57 @@ To connect your Viva Insights data to Power BI through the [Power BI connector](
             |A|5/7/2023|23.6|Organization|Finance|
             |A|5/7/2023|23.6|SupervisorIndicator|Manager|
 
+
     1. In Data granularity, select:
-        1. **Aggregated data (default)** to push queries to the Viva Insights service to get aggregated results in Power BI.
-        1. **Row-level data** to load the raw query results into Power BI. 
-        >[!Note]
-        >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes).
-    2. Select a **Data connectivity** mode:
-        1. **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data.
-        1. **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data.
-        >[!Note]
-        >Learn more about these modes later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes).
-    1. Select **OK**.
-1.	If you're prompted to sign in, select **Sign in**. Then, enter your credentials and select **Connect**.
-1. In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
+        1. **Aggregated data (default)** to push queries to the Viva Insights service to get aggregated results in Power BI. 
+        1. **Row-level data** to load the raw query results into Power BI.  
+        >[!Note] 
+        >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
+    2. Select a **Data connectivity** mode: 
+        1. **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data. 
+        1. **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data. 
+        >[!Note] 
+        >Learn more about these modes later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
+    1. Select **OK**. 
+1.	If you're prompted to sign in, select **Sign in**. Then, enter your credentials and select **Connect**. 
+1. In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI. 
 
-## About data granularity and data connectivity modes
+## About data granularity and data connectivity modes 
 
-### Data granularity
+### Data granularity 
 
-With the **Data granularity** advanced parameter, choose whether you want to:
+With the **Data granularity** advanced parameter, choose whether you want to: 
 
-* Load raw query results from Viva Insights into Power BI (**Row-level data**). With this option, all calculations and summaries happen within Power BI itself.
-* Have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI (**Aggregated data**). With this option, no calculations happen within Power BI—they happen in the Viva Insights service. 
+* Load raw query results from Viva Insights into Power BI (**Row-level data**). With this option, all calculations and summaries happen within Power BI itself. 
+* Have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI (**Aggregated data**). With this option, no calculations happen within Power BI—they happen in the Viva Insights service.  
 
-#### Aggregated data
+#### Aggregated data 
 
-When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings.
+When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings. 
 
-Consider using **Aggregated data** when:
+Consider using **Aggregated data** when: 
 
-* You plan to share your report with others and want to enforce privacy rules by default.
-* You plan to use simple aggregations, like averages.
+* You plan to share your report with others and want to enforce privacy rules by default. 
+* You plan to use simple aggregations, like averages. 
 
 >[!Important]
->If you select **Aggregated data** as the **Data granularity** and **Import** as the **Data Connectivity mode**, you'll need to summarize the data in Power Query. You can group by any attribute you want here—for example, Organization, LevelDesignation, or FunctionType. 
+>If you select **Aggregated data** as the **Data granularity** and **Import** as the **Data Connectivity mode**, you'll need to summarize the data in Power Query. You can group by any attribute you want here—for example, Organization, LevelDesignation, or FunctionType.  
 >
->If you don’t summarize in Power Query, Power BI will try to import raw query results into Power BI. However, you’ll get an empty table because the Power BI Connector will enforce privacy rules from the advanced insights app. If you want to import raw query results, use **Row-level data** as the **Data granularity** instead.
+>If you don’t summarize in Power Query, Power BI will try to import raw query results into Power BI. However, you’ll get an empty table because the Power BI Connector will enforce privacy rules from the advanced insights app. If you want to import raw query results, use **Row-level data** as the **Data granularity** instead. 
 
-#### Row-level data
+#### Row-level data 
 
-When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules. You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size.
+When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules. You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size. 
 
-Consider using **Row-level data** when:
+Consider using **Row-level data** when: 
 
-* You're doing exploratory analysis and want to have access to row-level data in Power BI.
-* You won’t share the report with others, or you make sure to manually apply privacy rules before you share.
-* You need to use complex aggregations with multiple filters and conditions.
-* You need to support complex transformations.
-
->[!Note]
->When using **Row-level data** granularity, select **Import** for the **Data connectivity mode**. **DirectQuery** imports raw query results every time Power BI renders a visual, which creates a bad experience for you and your report's users.
-
+* You're doing exploratory analysis and want to have access to row-level data in Power BI. 
+* You won’t share the report with others, or you make sure to manually apply privacy rules before you share. 
+* You need to use complex aggregations with multiple filters and conditions. 
+* You need to support complex transformations. 
+  
+>[!Note] 
+>When using **Row-level data** granularity, select **Import** for the **Data connectivity mode**. **DirectQuery** imports raw query results every time Power BI renders a visual, which creates a bad experience for you and your report's users. 
+ 
 
 
