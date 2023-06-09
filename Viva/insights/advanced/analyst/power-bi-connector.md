@@ -70,8 +70,8 @@ To connect your Viva Insights data to Power BI through the [Power BI connector](
 
 With the **Data granularity** advanced parameter, choose whether you want to: 
 
-* Load raw query results from Viva Insights into Power BI (**Row-level data**). With this option, all calculations and summaries happen within Power BI itself. 
-* Have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI (**Aggregated data**). With this option, no calculations happen within Power BI—they happen in the Viva Insights service.  
+* Load raw query results from Viva Insights into Power BI (**Row-level data**).
+* Have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI (**Aggregated data**).
 
 #### Aggregated data 
 
