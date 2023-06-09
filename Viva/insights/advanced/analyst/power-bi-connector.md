@@ -32,38 +32,42 @@ To connect your Viva Insights data to Power BI using the [Power BI connector](/c
 1. In Power BI Desktop's **Connect to Viva Insights Data** window:
     1. Enter the partition identifier.
     1. Enter the query identifier.
-        >[!Note]
-        >Query name isn't supported right now.
-    1. Set advanced parameters (optional).
-        1. In Schema type, select:
-            * **Pivoted (Default)** to load organizational attributes as individual columns. Here's an example of how your results would load with this option:
-            
-                |PersonId|MetricDate|Collaboration hours|Organization|SupervisorIndicator|
-                |---------|---------|--------|------|--------|
-                |A|5/7/2023|23.6|Finance|Manager|
-
-            * **Unpivoted** to load organizational attributes as key-value pairs. Here's an example of how your results would load with this option:
-            
-                |PersonId|MetricDate|Collaboration hours|AttributeName|AttributeValue|
-                |---------|---------|--------|------|--------|
-                |A|5/7/2023|23.6|Organization|Finance|
-                |A|5/7/2023|23.6|SupervisorIndicator|Manager|
-
-        >[!Important]
-        >The **Unpivoted** option is only supported for **Aggregated data** data granularity.
         
-    1. In Data granularity, select:
-        * **Aggregated data (default)** to have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI. 
-        * **Row-level data** to load raw query results from Viva Insights into Power BI.  
-            >[!Note] 
-            >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
-    2. Select a **Data connectivity** mode: 
-        * **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data. 
-        * **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data. 
-            >[!Note] 
-            >Learn more about these modes later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
+       >[!Note]
+       >Query name isn't supported right now.
+        
+    1. Set advanced parameters (optional).
+       1. In Schema type, select from two options:
+           * **Pivoted (Default)** to load organizational attributes as individual columns. Here's an example of how your results would load with this option:
+           
+               |PersonId|MetricDate|Collaboration hours|Organization|SupervisorIndicator|
+               |---------|---------|--------|------|--------|
+               |A|5/7/2023|23.6|Finance|Manager|
+           
+           * **Unpivoted** to load organizational attributes as key-value pairs. Here's an example of how your results would load with this option:
+           
+               |PersonId|MetricDate|Collaboration hours|AttributeName|AttributeValue|
+               |---------|---------|--------|------|--------|
+               |A|5/7/2023|23.6|Organization|Finance|
+               |A|5/7/2023|23.6|SupervisorIndicator|Manager|
+       
+       >[!Important]
+       >The **Unpivoted** option is only supported for **Aggregated data** data granularity.
+       
+       1. In Data granularity, select from these options:
+         * **Aggregated data (default)** to have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI. 
+         * **Row-level data** to load raw query results from Viva Insights into Power BI.  
+              >[!Note] 
+              >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
+    1. Select a **Data connectivity** mode: 
+       * **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data. 
+       * **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data. 
+    
+         >[!Note] 
+         >Learn more about these modes later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
+    
     1. Select **OK**. 
-1.	If you're prompted to sign in, select **Sign in**. Then, enter your credentials and select **Connect**. 
+       If you're prompted to sign in, select **Sign in**. Enter your credentials and select **Connect**.
 1. In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI. 
 
 ## About data granularity and data connectivity modes 
@@ -103,5 +107,3 @@ Consider using **Row-level data** when:
 >[!Note] 
 >When using **Row-level data** granularity, select **Import** for the **Data connectivity mode**. **DirectQuery** imports raw query results every time Power BI renders a visual, which creates a bad experience for you and your report's users. 
  
-
-
