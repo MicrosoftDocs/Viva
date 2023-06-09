@@ -27,7 +27,7 @@ description: "Overview of how to plan, build, and launch Microsoft Viva Connecti
 
 > [!NOTE]
 >
-> - The Viva Connections admin center experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023.
+> - The Viva Connections admin center experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences. Users with a basic Microsoft 365 subscription (E license) are limited to creating 3 experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
@@ -36,8 +36,8 @@ Use [Viva Connections](viva-connections-overview.md) to create experiences that 
 
 > [!NOTE]
 >
-> - This experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023.
-> - After June 2023, the ability to set a home site will move from the SharePoint Admin Center (SPAC) to the Viva Connections admin center.
+> - This experience is rolling out to private preview customers now and is expected become generally available to all customers by the end of July 2023.
+> - In the latest release, the ability to set a home site will move from the SharePoint Admin Center (SPAC) to the Viva Connections admin center.
 
 - Use this guide to prepare your organization for Viva Connections through the [planning](plan-viva-connections.md), [building](build-viva-connections.md), and [launching](launch-viva-connections.md) phases.
 - Review the different roles and activities in each phase.

@@ -31,7 +31,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 
 > [!NOTE]
 >
-> - This experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023.
+> - This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
 > - Viva Connections does not have any requirements to get started.
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating three experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
@@ -52,7 +52,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 
 - **Think about who should have owner permissions to each experience**: [Owners have full permissions to edit the experience](edit-viva-home.md) and manage access for others. As a best practice, it’s recommended that each experience has a minimum of two owners assigned to it.
 
-- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections experience. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your Connections experience. You’ll want to pick a name that aligns with your organization’s brand and target audience, and one that’s also meaningful and recognizable to viewers.
+- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You’ll want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
 
 > [!NOTE]
 > Currently the app icon and name can be managed only at a tenant level. Organizations with multiple experiences will not see individual names and icons for each one in Teams.
