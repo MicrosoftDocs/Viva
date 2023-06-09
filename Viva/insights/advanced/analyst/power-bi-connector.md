@@ -31,9 +31,9 @@ To connect your Viva Insights data to Power BI through the [Power BI connector](
     1. Select **Link** to get the partition and query identifiers.
 1. In Power BI Desktop's **Connect to Viva Insights Data** window:
     1. Enter the partition identifier.
+    1. Enter the query identifier.
         >[!Note]
         >Query name isn't supported right now.
-    1. Enter the query identifier.
     1. Set advanced parameters (optional).
         1. In Schema type, select:
             1. **Pivoted (Default)** to load organizational attributes as individual columns. Here's an example of how your results would load with this option:
@@ -49,10 +49,12 @@ To connect your Viva Insights data to Power BI through the [Power BI connector](
             |A|5/7/2023|23.6|Organization|Finance|
             |A|5/7/2023|23.6|SupervisorIndicator|Manager|
 
-
+        >[!Important]
+        >The **Unpivoted** option is only supported for **Aggregated data** data granularity.
+        
     1. In Data granularity, select:
-        1. **Aggregated data (default)** to push queries to the Viva Insights service to get aggregated results in Power BI. 
-        1. **Row-level data** to load the raw query results into Power BI.  
+        1. **Aggregated data (default)** to have Power BI use the Viva Insights service to summarize data, and then return that summarized data to you in Power BI. 
+        1. **Row-level data** to load raw query results from Viva Insights into Power BI.  
         >[!Note] 
         >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
     2. Select a **Data connectivity** mode: 
