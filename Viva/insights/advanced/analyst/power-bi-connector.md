@@ -59,15 +59,15 @@ To connect your Viva Insights data to Power BI using the [Power BI connector](/c
          * **Row-level data** to load raw query results from Viva Insights into Power BI.  
               >[!Note] 
               >Learn more about aggregated and row-level data later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
-    1. Select a **Data connectivity** mode: 
-       * **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data. 
-       * **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data. 
+       1. Select a **Data connectivity** mode: 
+          * **Import** – This mode brings a copy of your query results into Power BI Desktop. As you create or interact with visualizations, Power BI Desktop uses these copied results. To see underlying data changes after the initial import or the most recent refresh, you'll need to import the full dataset again to refresh the data. 
+          * **DirectQuery** – This mode doesn't import any query results into Power BI Desktop. You can select columns to appear in the Power BI Desktop **Fields** list. As you create or interact with visualizations, Power BI Desktop uses your results as they appear in Viva Insights, so you're always viewing current data. 
     
          >[!Note] 
          >Learn more about these modes later, in [About data granularity and data connectivity mode](#about-data-granularity-and-data-connectivity-modes). 
     
-    1. Select **OK**. 
-       If you're prompted to sign in, select **Sign in**. Enter your credentials and select **Connect**.
+1. Select **OK**. 
+   If you're prompted to sign in, select **Sign in**. Enter your credentials and select **Connect**.
 1. In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI. 
 
 ## About data granularity and data connectivity modes 
