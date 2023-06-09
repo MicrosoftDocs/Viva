@@ -124,8 +124,6 @@ The data export contains the following files:
 |**VivaTopicApplications.csv** <br/> | For any topic applied to a post, lists information about each application for the date range specified (if any). <br/> |
 |**VivaTopicCurationStateLogs.csv** <br/> | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. <br/>|
 |**VivaTopics.csv** <br/>| Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.<br/>|
-|**AMA** <br/>| |
-|**Leadership** <br/>| |
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
@@ -172,8 +170,6 @@ The data export contains the following files:
 |**VivaTopicApplications.csv** <br/> | For any topic applied to a post, lists information about each application for the date range specified (if any). <br/> |
 |**VivaTopicCurationStateLogs.csv** <br/> | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. <br/>|
 |**VivaTopics.csv** <br/>| Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.<br/>|
-|**AMA** <br/>| |
-|**Leadership** <br/>| |
 | **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:<br>
