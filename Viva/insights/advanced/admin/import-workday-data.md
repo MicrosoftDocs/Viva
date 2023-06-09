@@ -52,24 +52,23 @@ When you connect Workday to Viva Insights, Workday sends over a set of predefine
 
 #### How Workday data corresponds to Viva Insights fields
 
-|Workday field|Viva Insights field|
-|------------|--------------------|
-|`worker.workerData.personalData.contactData.emailAddressData`|PersonId|
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|ManagerId|
-|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|Organization
-|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate|
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|LevelDesignation
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
-|(No mapping from Workday)|HourlyRate|
-|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|HireDate
-|(No mapping from Workday)|SupervisorIndicator
-|(No mapping from Workday)|OnsiteDays|
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location
+|Workday field|Viva Insights field|Data type|Notes
+|------------|--------------------|----|----|
+|`worker.workerData.personalData.contactData.emailAddressData`|PersonId|Email|This needs to be a valid email address that follows this format: `tim@contoso.com`
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|ManagerId|Email|Make sure this field contains valid email addresses that follow this format: `tim@contoso.com`
+|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|Organization|String
+|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate|DateTime|Make sure this field follows the MM/DD/YYYY format, like `01/15/2023`. If you don’t enter a value here, Viva Insights will assign the date of upload.
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|LevelDesignation|String
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType|String
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer|Integer|Make sure this field only contains numbers
+|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|HireDate|DateTime
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location|String
 
 
 >[!Note]
->Viva Insights doesn't import the HourlyRate or OnsiteDays fields from Workday.
+>Viva Insights doesn't import fields for HourlyRate, SupervisorIndicator, or OnsiteDays from Workday.
+>
+>For more information about field values and formatting requirements, refer to [Guidelines for correcting errors in data](#guidelines-for-correcting-errors-in-data).
 
 ## Validation
 
@@ -127,24 +126,6 @@ All field header or column names need to:
 * Begin with a letter (not a number).
 * Only contain alphanumeric characters (letters and numbers, for example, **Date1**). 
 * Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*). You’ll get an error if your column name contains a formula.
-
-##### Rules for field values
-
-All rows need to contain the following fields:
-
-|Field | Format |Example
-|------|--------|------|
-|**EffectiveDate** *| MM/DD/YYYY | `01/15/2023`
-|**PersonId** | Valid email address| `gc@contoso.com`
-|**ManagerId** | Valid email address |`gc@contoso.com`
-|**Layer** | Numbers only | `5`
-
->[!Note]
->*If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
-
-
-
-
 
 ##### Rules for characters in field values
 
