@@ -50,19 +50,19 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 
 When you connect Workday to Viva Insights, Workday sends over a set of predefined source columns. These columns are mapped to Viva Insights data fields. You can't change these predefined fields right now, but you'll be able to in the future.
 
-#### How Workday data corresponds to Viva Insights fields
+#### How Viva Insights fields correspond to Workday data
 
-|Workday field|Viva Insights field|Data type|Notes
+|Viva Insights field|Workday field|Data type|Formatting notes
 |------------|--------------------|----|----|
-|`worker.workerData.personalData.contactData.emailAddressData`|PersonId|Email|This needs to be a valid email address that follows this format: `tim@contoso.com`
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|ManagerId|Email|Make sure this field contains valid email addresses that follow this format: `tim@contoso.com`
-|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|Organization|String
-|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate|DateTime|Make sure this field follows the MM/DD/YYYY format, like `01/15/2023`. If you don’t enter a value here, Viva Insights will assign the date of upload.
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|LevelDesignation|String
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType|String
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer|Integer|Make sure this field only contains numbers
-|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|HireDate|DateTime
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location|String
+|PersonId|`worker.workerData.personalData.contactData.emailAddressData`|Email| Use valid email addresses that follow this format: `gerry@contoso.com`
+|ManagerId|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|Email|Use valid email addresses that follow this format: `gerry@contoso.com`
+|Organization|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|String
+|EffectiveDate|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|DateTime| Follow the MM/DD/YYYY format, like `01/15/2023`. If there aren't values here, Viva Insights will assign the date of upload.
+|LevelDesignation|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|String
+|FunctionType|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|String
+|Layer|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Integer|Only use numbers
+|HireDate|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|DateTime
+|Location|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|String
 
 
 >[!Note]
