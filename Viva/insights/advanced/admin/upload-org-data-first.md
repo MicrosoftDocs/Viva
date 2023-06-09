@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 06/05/2023
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: lilyolason
@@ -28,32 +28,34 @@ This article talks about the second option: uploading a .csv file.
 
 ## Workflow
 
-After you prepare the source data, the uploading process follows these steps, which are described in the following sections:
+After you prepare the source data, you'll follow these steps:
 
 1. You upload the .csv file.
 1. You map fields.
 1. The app validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. The app processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
 
-After the data successfully validates and processes, the overall data-upload task is complete.
+After the data successfully validates and processes, you're done with the overall data-upload task.
 
 ## File upload
 
 To upload your .csv file, follow these steps:
 
-1. In the **Organizational data** page, select **.csv upload**.
-     :::image type="content" source="../images/admin-data-hub.png" alt-text="Screenshot that shows the Organizational data page hub." lightbox="../images/admin-data-hub.png":::
-
-1. Enter an **Upload name**.
-1. Under **Upload file**, select the .csv file you want to upload. 
+1. Open the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) admin experience.
+1. On the **Data hub** page, go to the **.csv upload** card on the right side of the screen, below **Data source**.
+    :::image type="content" source="../images/admin-data-upload-start.png" alt-text="Screenshot that shows .csv upload tile and Start option.":::
+1. Select **Start**.
+1. Under **Step 1 of 2: Prepare and upload**:
+    1. Enter an **Upload name**.
+    1. Under **Upload file**, select the .csv file you want to upload. 
     
     Make sure that the .csv file is:
 
-    * UTF-8 encoded
-    * Not open in a different program when you begin the upload process
-    * Not larger than 1 GB
+    * UTF-8 encoded.
+    * Not open in a different program when you begin the upload process.
+    * Not larger than 1 GB.
 
-    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows Prepare and upload data option.":::
+       :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows Prepare and upload data option.":::
 
 >[!Note]
 > To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv template** link.
@@ -62,22 +64,24 @@ To upload your .csv file, follow these steps:
 
 ## Field mapping
 
-After you upload your file, you’ll see the field mapping page. To view insights from your data, you need to map fields (columns) from your .csv file to field names that the app recognizes.
+After you upload your file, you’ll see the **Step 2 of 2: Mapping** page. To view insights from your data, you need to map fields (columns) from your .csv file to field names that the app recognizes.
 
 There are two types of fields: *System default* and *Custom*.
 
 ### System default (required or optional)
 
-System default fields can be either *required*—which are **PersonId**, **ManagerId**, and **Organization**—or *optional*. These fields represent attributes that Viva Insights knows and uses in specific calculations beyond grouping and filtering.
+System default fields can be either *required*—which are **PersonId**, **ManagerId**, and **Organization**—or *Reserved optional*. These fields represent attributes that Viva Insights knows and uses in specific calculations beyond grouping and filtering.
 
 >[!Important]
 > Every required field needs to have a valid, non-null value in every row. You need to map all required Viva Insights values, even if the column headers in your .csv files don’t exactly match the Viva Insights value name.
 
-Optional fields are commonly encountered system fields that the app suggests for use. You don’t need to map optional fields if your organization doesn’t have data for them.
+Optional fields are commonly encountered system fields that the app suggests to use. You don’t need to map optional fields if your organization doesn’t have data for them.
 
-To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label and optional attributes have an “Optional” label.
+To find out whether a field is required or optional, refer to the **Viva attributes** section to the right of the mapping list. Required attributes have a “Required” label below the field name, while optional attributes have a “Reserved optional” label.
 
-:::image type="content" source="../images/admin-attributes1.png" alt-text="Screenshot that shows Viva attributes and the mapped and unmapped fields.":::
+If you need a field's definition, hover over the information **(i)** icon.
+
+:::image type="content" source="../images/admin-data-upload-mapping.png" alt-text="Screenshot that shows Viva attributes and a field definition.":::
 
 ### Custom
 
@@ -92,28 +96,21 @@ Follow the steps below to map your .csv data to Viva Insights attributes.
 
 1. For each required Viva Insights field:
     1. Find the corresponding column header under **Source column name**. To prevent a validation error later, make sure this column is the right data type.
-    2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step a. 
-     
-    :::image type="content" source="../images/admin-map.png" alt-text="Screenshot that shows mapping Viva attributes." lightbox="../images/admin-map.png":::
-
-    >[!Tip]
-    > Hover over an attribute name to read its description.
-    >  :::image type="content" source="../images/admin-hover-attribute.png" alt-text="Screenshot that shows hovering over an attribute.":::
-
+    2. Under the **Map to Viva Insights field** column, open the dropdown list and select the Viva Insights attribute that corresponds with the column header you identified in step 1a. 
 2. Repeat steps 1a and 1b for custom and optional fields.
-    * To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
-        >[!Important]
-        >Don't upload **TimeZone** as a column. You'll get an error.
+
+    To add a custom field, just include it as a column in your data file. The app will automatically assign it a name and map it. For this release of Viva Insights, all custom attributes are assigned a default name and can only be classified as **String** data types.
+
+    >[!Important]
+    >Don't upload **TimeZone** as a column. You'll get an error.
 
 1. After you’ve completed mapping your attributes, select the **Next** button in the bottom left of the screen.
 
-After you map fields, the app validates and processes your data as described in the following sections. If validation and processing are successful, your input to the upload process is complete.
+After you map fields, the app validates and processes your data as described in the following sections. If validation and processing succeed, you're done with your part in the upload process.
 
 ## Validation
 
 After you’ve mapped attributes, the app starts validating your data.  
-
-:::image type="content" source="../images/admin-validate.png" alt-text="Screenshot that shows validation in progress.":::
 
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
@@ -135,8 +132,6 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
 
-:::image type="content" source="../images/admin-status-success.png" alt-text="Screenshot that shows successful processing.":::
-
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
@@ -151,8 +146,6 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
 
-:::image type="content" source="../images/admin-status-process-failed.png" alt-text="Screenshot that shows Processing failed.":::
-
 Select **Edit or start new upload**. This button lets you begin the upload process again.
 
 >[!Note]
@@ -161,8 +154,6 @@ Select **Edit or start new upload**. This button lets you begin the upload proce
 ### Validation fails
 
 If data validation fails, you’ll see a new screen with a “Validation failed” error and some information about the failure. You can select the **Cancel upload** button if you don’t want to proceed with the upload process.
-
-<!--screenshot - confirm with RB-->
 
 Before you make changes in the source file and try the upload again, you can select **Download issues**. This log file describes the problems in your data that might have caused the validation errors. Use this information to decide what to do next—fix the source data or change your mapping settings.
 
@@ -198,7 +189,21 @@ The following field rules apply to characters in field values:
 
 * Double-byte characters, such as Japanese characters, are permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values. 
+* “New line” (\n) characters are not permitted in field values.
+
+##### Error messages
+
+When you select the **Download issues** option, you'll get a .csv output of errors. Here are the messages you might get for each row:
+
+|Field|Data type|Message|Example
+|----------|-------|-----|---|
+|<ul><li>PersonId <li> Manager Id| Email|Invalid {field name} value. {Field name} should follow the form `employee@contoso.com`.|Invalid PersonId value. PersonId should follow the form `employee@contoso.com`.
+|<ul><li> Organization <li> LevelDesignation <li> FunctionType <li> SupervisorIndicator <li> OnsiteDays <li> Location|String|Missing {field name} value. Include {Field name} in all rows.|Missing Organization value. Include Organization in all rows.
+|<ul><li> EffectiveDate <li> HireDate|DateTime| Invalid {field name} value. {Field name} value should follow the MM/DD/YYYY format.| Invalid HireDate value. HireDate value should follow the MM/DD/YYYY format.
+|<ul><li> HourlyRate|Double|Invalid {field name} value. {Field name} should be a double of the form 23.75.|Invalid HourlyRate value. HourlyRate should be a double of the form 23.75.
+|<ul><li>Layer|Integer|Invalid {field name} value. {Field name} should be an integer.|Invalid Layer value. Layer should be an integer.
+
+
 
 ## Related topic
 
