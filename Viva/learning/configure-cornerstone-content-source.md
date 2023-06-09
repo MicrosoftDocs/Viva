@@ -91,5 +91,5 @@ By checking this checkbox, you're allowing Viva Learning to fetch user informati
 - LastName
 - Email
 
->[!NOTE]
-> Viva Learning does not currently support the "Events and Sessions" content type from Cornerstone.     
+> [!NOTE]
+> Viva Learning does not currently support the "Events and Sessions" content type from Cornerstone.
