@@ -32,7 +32,6 @@ Understand how and when users engage with components of the Viva Connections exp
 
 
 > [!NOTE]
-> - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.

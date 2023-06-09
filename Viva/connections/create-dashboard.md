@@ -170,9 +170,13 @@ You can choose the **Card designer** option to design your own card that include
 5. Enter a title for your card in the **Title** text box.
 6. Enter a URL in the **Icon** text box. This URL is the icon's location.
 7. Select a template type from one of the following options in the **Template type** drop-down list:
-    - **Text**: Provides you with the option to add only a heading.
-    - **Text and image**: Provides you with the option to add a heading and an image.
-    - **Text and description**: Provides you with the option to add your own heading and a description, but without an image option.
+    - **Text**: Provides you the option to add only a heading.
+    - **Text and image**: Provides you the option to add a heading and an image.
+    - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
+
+> [!NOTE]
+> You may provide alternative text (alt text) as descriptive text which conveys the meaning and context of a visual item in a digital setting, such as on an app or web page. [Learn more about alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2). 
+
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
    >[!NOTE]

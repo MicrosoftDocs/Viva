@@ -6,6 +6,31 @@
         "redirect_document_id": true
       },
       {
+        "source_path": "viva/pulse/get-started/roles-in-viva-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/provide-feedback/respond-to-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/provide-feedback/view-feedback-provided.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/request-feedback/create-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/request-feedback/view-sent-pulses.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
         "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
         "redirect_document_id": true
@@ -26,9 +51,29 @@
         "redirect_document_id": true
       },
       {
+        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-for-your-organization.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
         "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-feedback-author.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
       },            
       {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",

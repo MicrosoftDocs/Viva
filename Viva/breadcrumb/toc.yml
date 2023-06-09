@@ -11,7 +11,10 @@
     items:
     - name: Viva Insights
       tocHref: /viva/insights
-      topicHref: /viva/insights/index 
+      topicHref: /viva/insights/index
+    - name: Viva Pulse
+      tocHref: /viva/pulse
+      topicHref: /viva/pulse/introduction-to-viva-pulse       
     - name: Viva Connections
       tocHref: /viva/connections/
       topicHref: /viva/connections/viva-connections-overview
