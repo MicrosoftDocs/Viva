@@ -51,7 +51,7 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
-|Upcoming survey  | 1 - 2 weeks prior to launch |
+|[Upcoming survey] | 1 - 2 weeks prior to launch |
 
 ## Email templates for senior leaders 
 
