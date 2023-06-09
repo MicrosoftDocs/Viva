@@ -128,11 +128,11 @@ There are two types of knowledge to include in the knowledge base:
 
 2. **Tacit**: Tacit knowledge refers to the knowledge, skills, and abilities an individual gains through experience that resides in their mind. Tacit knowledge can be difficult to put into words or otherwise communicate. Tacit knowledge often surfaces in conversations or answers to specific questions. [Viva Engage](https://support.microsoft.com/office/what-is-yammer-1b0f3b3e-89ee-4b66-aac5-30def12f287c), an enterprise social network in Microsoft 365, provides a platform for capturing and sharing the tacit knowledge of experts through its [question and best answer feature](https://support.microsoft.com/office/use-questions-and-answers-in-a-viva-engage-community-a4f1b722-d1bf-42be-a592-7288c7c0b895), conversations, and [polling](https://support.microsoft.com/office/create-polls-praise-announcements-and-questions-in-viva-engage-4b30c7e0-f915-4c69-9582-ccbbd09a516b) capability to seek opinions on relevant topics.  
 
-   ![Image showing a question and tacit knowledge sharing on Viva Engage.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
+   ![Screenshot showing a question and tacit knowledge sharing on Viva Engage.](../media/knowledge-management/topics-tacit-knowledge-yammer-km.png)
 
    Use the [Viva Engage conversations web part](https://support.microsoft.com/office/use-a-yammer-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da#conversations) to bring tacit knowledge into relevant topic pages.
 
-   ![Image showing a Viva Engage conversation along a topic page.](../media/knowledge-management/topics-viva-engage-conversation-km.png)
+   ![Screenshot showing a Viva Engage conversation along a topic page.](../media/knowledge-management/topics-viva-engage-conversation-km.png)
 
 Specific scenarios of Viva Topics can require unique properties appended to a topics page. For example, product-based topic pages can include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ), and product specifications. [Web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content. 
 
