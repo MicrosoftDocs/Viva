@@ -15,9 +15,9 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Connect through the Power BI Connector
+# Connect to Viva Insights using the Power BI Connector
 
-To connect your Viva Insights data to Power BI through the [Power BI connector](/connectors/powerbi/), follow these steps:
+To connect your Viva Insights data to Power BI using the [Power BI connector](/connectors/powerbi/), follow these steps:
 
 1. In Power BI Desktop:
     1. Select **Get Data** in the ribbon.
