@@ -212,8 +212,6 @@ items:
         href: /viva/insights/tutorials/wpa-r-package
       - name: Zoom integration
         href: /viva/insights/Use/zoom
-      - name: Qualtrics integration
-        href: /viva/insights/Use/qualtrics
       - name: Workspace Collaboration Optimizer
         href: /viva/insights/Use/wsplan
     - name: Notifications 
