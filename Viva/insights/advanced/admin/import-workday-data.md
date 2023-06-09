@@ -50,6 +50,24 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 
 When you connect Workday to Viva Insights, Workday sends over a set of predefined source columns. These columns are mapped to Viva Insights data fields. You can't change these predefined fields right now, but you'll be able to in the future.
 
+#### How Workday data corresponds to Viva Insights fields
+
+|Workday field|Viva Insights field|
+|------------|--------------------|
+|`worker.workerData.personalData.contactData.emailAddressData`|PersonId|
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|ManagerId|
+|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|Organization
+|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate|
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|LevelDesignation
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
+|(No mapping from Workday)|HourlyRate|
+|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|HireDate
+|(No mapping from Workday)|SupervisorIndicator
+|(No mapping from Workday)|OnsiteDays|
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location
+
+
 >[!Note]
 >Viva Insights doesn't import the HourlyRate or OnsiteDays fields from Workday.
 
@@ -114,23 +132,18 @@ All field header or column names need to:
 
 All rows need to contain the following fields:
 
-* **PersonId**
-* **ManagerId** (unless the import is an update for existing employees only) 
-* **Organization** (unless the import is an update for existing employees only)
-* **EffectiveDate** 
-
-    >[!Note]
-    >If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
-
-Some field values need to follow specific formatting, as described in this table:
-
 |Field | Format |Example
 |------|--------|------|
-|**EffectiveDate** | MM/DD/YYYY | `01/15/2023`
-|**HireDate** | MM/DD/YYYY | `01/15/2023`
+|**EffectiveDate** *| MM/DD/YYYY | `01/15/2023`
 |**PersonId** | Valid email address| `gc@contoso.com`
 |**ManagerId** | Valid email address |`gc@contoso.com`
 |**Layer** | Numbers only | `5`
+
+>[!Note]
+>*If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
+
+
+
 
 
 ##### Rules for characters in field values
