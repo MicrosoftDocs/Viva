@@ -124,7 +124,7 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 
 As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
-1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provide an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
 For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics) .
 
