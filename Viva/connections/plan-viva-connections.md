@@ -28,7 +28,7 @@ description: "Plan Microsoft Viva Connections for your organization"
 > [!NOTE]
 >
 > - This experience is rolling out to private preview customers now and is expected become generally available to all customers by the end of July 2023.
-> - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
+> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 
