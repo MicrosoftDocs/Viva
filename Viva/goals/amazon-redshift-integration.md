@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals 
+- vg-integration 
 search.appverid:
 - MET150
 description: "Sync data updates from Amazon Redshift with Viva Goals to update OKR progress"
