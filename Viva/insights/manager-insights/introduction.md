@@ -18,6 +18,10 @@ audience: Admin
 
 # Manager insights introduction
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Managers like you can discover key insights about your team’s collaboration effectiveness and employee experience in the Microsoft Viva Insights app and in Advanced insights.
 
 Managers who are assigned licenses can view their team's [organization trends](../org-team-insights/org-insights.md) within the Viva Insights app.

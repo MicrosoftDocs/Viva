@@ -80,6 +80,14 @@ When a user selects someone’s name or picture in Outlook or other Office web a
 
 Users can choose whether to show or hide suggested topics on their profile card by opening their own card and choosing Settings. Suggested topics may still appear elsewhere in Microsoft 365, such as topic pages and search results.
 
+### Feed
+
+Users can access Feed by opening a new tab in their Edge browser and looking for Microsoft Feed. Feed can also be viewed by going to Office.com and selecting the Feed icon on the left rail.
+
+When a SharePoint object that is already associated with a Topic is shown in Feed items, users will be shown a corresponding Topic pill. Note that only those SharePoint objects that are already associated with an existing Viva Topic are highlighted with a Topic Pill. The number of Topic pills that show up may vary depending on how many qualifying SharePoint objects are present in a user's Feed.
+
+Viva Topics pills can be seen in the feed by Microsoft 365 users who have active Viva Topics licenses. Feed relies on the same access control mechanisms as Topics, and users are only shown Topic pills that they have permission to access. Users with active licenses may not see any Topic pills in their feed if none of the SharePoint objects in their feed are already associated with Topics.
+
 ### Topic center
 
 Users can see topics in their organization to which they have a connection on the [topic center home page](topic-center-overview.md#home-page).

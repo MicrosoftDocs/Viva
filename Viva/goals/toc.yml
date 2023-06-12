@@ -38,6 +38,8 @@ items:
       href: inviting-and-removing-a-user.md
     - name: Create and Edit Teams
       href: create-and-edit-teams-and-subteams.md
+    - name: Managing Viva Goals members 
+      href: managing-team-members.md  
     - name: Configure help and support for your organization
       href: configure-support.md
     - name: Configure Your OKR Model in Viva Goals
@@ -72,7 +74,9 @@ items:
           href: configure-ms-teams-integration.md
         - name: Use Viva Goals in Microsoft Teams
           href: use-ms-teams-integration.md
-        - name: Share OKR updates in chats
+        - name: Notifications in Microsoft Teams
+          href: ms-teams-notifications.md
+        - name: Microsoft Teams Extension
           href: ms-teams-messaging-extension.md
 - name: Integrations
   items:

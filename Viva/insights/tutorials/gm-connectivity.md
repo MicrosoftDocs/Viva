@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for community connectivity
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Teams provides a shared work environment that strengthens connectivity and boosts productivity. By utilizing asynchronous technology, people can post, share, and collaborate across time zones and projects. 
 
 When fully utilized, platforms, such as Teams can encourage organic communities to grow, both those for work (Project xyz) and those outside of work (Working moms, cooks, Local sports fans, and so on).

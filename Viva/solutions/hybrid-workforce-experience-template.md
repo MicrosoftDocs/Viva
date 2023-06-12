@@ -21,6 +21,9 @@ audience: Admin
 
 # Step 2. Use the automated OnsiteDays template
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](/viva/insights/advanced/introduction-to-advanced-insights.md).
+
 In this step of the Hybrid workforce experience report OnsiteDays solution, you'll:
 
 > [!div class="checklist"]

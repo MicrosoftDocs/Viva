@@ -10,8 +10,12 @@ items:
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
-      - name: Support
-        href: get-insights-support.md  
+      - name: Support 
+        items:
+        - name: Error messages
+          href: advanced/reference/errors.md
+        - name: Get support for Viva Insights
+          href: get-insights-support.md  
       - name: Personal insights
         items:
         - name: Teams FAQ
@@ -86,6 +90,8 @@ items:
               href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
+            - name: Connect your data to Power BI using the Power BI connector
+              href: advanced/analyst/power-bi-connector.md   
             - name: Query results FAQs
               href: advanced/analyst/query-results-faq.md   
           - name: Templates
