@@ -115,7 +115,7 @@ For some metrics, it's highly valuable to see values for objectives and KRs sepa
 - **Automated OKRs** – Automated objectives (Total and %), Automated KRs (Total and %)  
 - **Average OKRs per owner** – Average objectives per owner (Total), Average KRs per owner (Total) 
 
-Besides the metric values for the above metrics, you'll see a split icon. Hover over the icon to see corresponding Objective and KR metrics. 
+Besides the metric values for the above metrics, you see a split icon. Hover over the icon to see corresponding Objective and KR metrics. 
 
 :::image type="content" source="../media/goals/analytics-images/9-okr-breakup-main.png" alt-text="Screenshot of the tooltip that appears when hovering." lightbox="../media/goals/analytics-images/9-okr-breakup-main.png":::
 
@@ -123,7 +123,7 @@ In the drilldown view, you can select the split icon, and it opens subcolumns to
 
 :::image type="content" source="../media/goals/analytics-images/8-okr-breakup-drilldown.png" alt-text="Screenshot of opening subcolumns to view additional metric information." lightbox="../media/goals/analytics-images/8-okr-breakup-drilldown.png":::
 
-### Using the Tag Filter  
+### Using the tag filter  
 
 You can also filter metric values by applying a tag filter. This enables slicing the analytics report by various parameters (enabled with tags) like lines of business, key themes, committed vs not etc. and take informed decisions.  
 
@@ -132,3 +132,15 @@ Because tags apply to OKRs, only metrics that have a context of OKRs get updated
 To learn more about how to create and use tags, visit [Viva Goals Tags](tags.md).
 
 :::image type="content" source="../media/goals/analytics-images/10-tag-filter.png" alt-text="Screenshot of filtering tabs." lightbox="../media/goals/analytics-images/10-tag-filter.png":::
+
+### Using the subteam filter 
+
+By default, the metric calculations include the data of all subteams in the team’s hierarchy. To see the metric values for the team excluding the subteam data, uncheck ‘Include subteam data’ checkbox. 
+
+:::image type="content" source="../media/goals/analytics-images/filters-subteam.png" alt-text="Screenshot of selecting the subteams filter." lightbox="../media/goals/analytics-images/filters-subteam.png":::
+
+### Using the archived team filter 
+
+By default data of the archived teams isn't included in metric calculations and neither are the teams shown in drilldown view. To change that checks the ‘Include archived teams’ checkbox. 
+
+:::image type="content" source="../media/goals/analytics-images/filters-archived-team.png" alt-text="Screenshot of using the archived team filter." lightbox="../media/goals/analytics-images/filters-archived-team.png":::
