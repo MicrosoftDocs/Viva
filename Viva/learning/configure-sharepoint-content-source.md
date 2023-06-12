@@ -287,7 +287,7 @@ Knowledge admins can access their organization's Learning App Content Repository
 [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements.
 
 
-The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned, aka your default geo. 
+The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned (your default geo). 
 
 Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements. 
 
