@@ -1,5 +1,5 @@
 ---
-ms.date: 04/07/2022
+ms.date: 04/07/2023
 title: "Microsoft Viva for the hybrid workplace: Leadership communications"
 ms.reviewer: 
 ms.author: loreenl
