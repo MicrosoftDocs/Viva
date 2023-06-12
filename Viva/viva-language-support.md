@@ -1,5 +1,5 @@
 ---
-ms.date: 11/30/2021
+ms.date: 11/30/2022
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: loreenl
