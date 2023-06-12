@@ -1,5 +1,5 @@
 ---
-ms.date: 05/09/2023
+ms.date: 06/12/2023
 title: Adoption resources for Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -28,7 +28,7 @@ Use these adoption resources and other information to spark ideas about how to h
 |---------|---------|---------|
 |[Viva Topics Scenario Catalog](https://download.microsoft.com/download/d/2/e/d2e894dd-c360-4edd-9c83-8e41787afda1/Viva-Topics-Scenario-Catalogue.pdf) |Knowledge-sharing scenarios to help you get inspired and get started quickly applying Viva Topics to achieve your organization's goals. |
 |[Viva Topics Adoption Guide](https://adoption.microsoft.com/files/viva/topics/Microsoft-Viva-Topics-adoption-guide.pdf)          |Step-by-step guide to help your organization through the adoption journey — from planning to scaling — and realize the full value of Viva Topics.    |
-|[Viva Topics Pilot Guide](https://www.microsoft.com/download/details.aspx?id=105182) |Guide to running a Viva Topics pilot. |
+|[Viva Topics Pilot Guide](https://www.microsoft.com/download/details.aspx?id=105182) |Guide to running a Viva Topics pilot for your organization. |
 |[Viva Topics Communication Asset Samples](https://download.microsoft.com/download/d/2/e/d2e894dd-c360-4edd-9c83-8e41787afda1/Viva-Topics-Communication-Asset-Samples.pptx)     |Customizable collection of Viva Topics communication asset samples you can use to help increase awareness of Viva Topics within your organization.   |
 
 ## Other resources
