@@ -89,8 +89,6 @@ To arrive at the correlations you see in your report, we use the Pearson correla
 ***0*** *indicates no relationship.* For example, the behavior metric **Uninterrupted hours** might show varied uninterrupted hours, and respondents give varying answers when asked whether they have time to dedicate to learning at work. If you're looking at a 0 correlation on a graph, there wouldn't be a discernable pattern between the data points.
 
 ***1*** *indicates a perfect positive linear relationship*—that is, as one variable increases, the other increases. For example, the behavior metric **Meeting and call hours with manager 1:1** might show high manager 1:1 time, and all respondents report that they feel coached by their manager. So, as manager 1:1 time goes up, how employees rate feeling coached also goes up. If you're looking at a 1 correlation on a graph, the data points would form a diagonal line from the bottom of the x axis to the top of the y axis.
-Using these correlations, we determine whether a linear relationship between a Glint survey question and a Viva Insights metric is strong, moderate, weak, or if there's no relationship.
-
 
 Using these correlations, we determine whether a relationship between a Glint survey question and a Viva Insights metric is strong, moderate, weak, or if there's no relationship.
 
