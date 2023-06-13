@@ -45,7 +45,7 @@ In Native Mode for Microsoft 365, all Yammer files must be stored in SharePoint.
 - Unnamed files will be named according to the following format: "Yammer File", "Yammer File (2)", "Yammer File (3)", and so on.
 - Files with names starting with \~$ will have the leading tilde removed, for example: "~$Yammer File" will be renamed to "$Yammer File".
 - Files with names containing _vti_ anywhere in the name will have it replaced with - vti-, for example: "Yammer_vti_File" will be renamed to "Yammer-vti-File".
-- Files named .lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini will have "__file" appended to the name, for example: "COM0" will be renamed to "COM0_file". 
+- Files named. lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini will have "__file" appended to the name, for example: "COM0" will be renamed to "COM0_file". 
 
 ## Before running the tools
 
@@ -57,7 +57,7 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 - If third-party APIs are used to upload files, use the [latest version of Upload files into Yammer groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions will be blocked and the file upload won’t work.
 
-- Notify users that this migration is going to happen, and that files in Yammer private messages will be deleted, and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions are not copied. The follower count isn't copied. Users can no longer mark files as official.
+- Notify users that this migration is going to happen, and that files in Yammer private messages will be deleted, and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions aren't copied. The follower count isn't copied. Users can no longer mark files as official.
 
 ## Admin step-by-step experience
 
@@ -72,8 +72,8 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 4. Authorize and run the Tool.
 
-   - SLA - up to 30 days for networks with < 100 K files
-   - SLA - up to 45 days for networks with > 100 K files
+   - SLA - up to 30 days for networks with < 100-K files
+   - SLA - up to 45 days for networks with > 100-K files
 
 5. Once Microsoft 365 Alignment Tool has completed, review the Error Report and determine if other steps are necessary before your network can be in Native Mode for Microsoft 365.
 
@@ -94,7 +94,7 @@ If a group has been deleted, all the files from that group will be deleted and n
 
 - All group files will be [stored in SharePoint](https://go.microsoft.com/fwlink/?linkid=2111253), providing a consistent file management experience.
 
-- File search can happen from SharePoint and Yammer. Yammer searches the first 5000 characters of files in Azure cloud storage as well as the title and author, but only searches the title and author of files stored in SharePoint.
+- File search can happen from SharePoint and Yammer. Yammer searches the first 5000 characters of files in Azure cloud storage and the title and author, but only searches the title and author of files stored in SharePoint.
 
 > [!NOTE]
 > If you receive an error code during the alignment process for Native Mode, you can refer to the [Error Codes section in the Troubleshooting Native Mode topic](../troubleshoot-problems/troubleshoot-native-mode.md#error-codes) for more information.

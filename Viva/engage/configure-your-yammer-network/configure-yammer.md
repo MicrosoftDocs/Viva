@@ -29,7 +29,9 @@ To access the Yammer network configuration tools:
   
 - In Microsoft 365 or Office 365, go to **Admin** \> **Yammer** \> **Configuration**.
 
-- Or, in Yammer, click the Yammer settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png) and go to **Network Admin** \> **Configuration**.
+- Or, in Yammer, click the Yammer settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: and go to **Network Admin** \> **Configuration**.
+
+9704ce70-56ce-43f7-96c6-f253b0413d40.png
 
 ## Set the Yammer network name
 
@@ -143,4 +145,5 @@ When this setting is **ON**, and when members from your home network are invited
 
 To turn this setting to **ON**, go to **Network** settings and select **External Networks** and select the “Require admin approval for members to join other companies' external groups or external networks" to **ON**.
 
-![Screenshot of external networks.](../media/yammer-configure-network-external-settings.png)
+:::image type="content" source="../../media/yammer-configure-network-external-settings.png" alt-text="Screenshot of external networks.":::
+

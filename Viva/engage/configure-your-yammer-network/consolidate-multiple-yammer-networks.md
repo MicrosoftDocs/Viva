@@ -34,7 +34,7 @@ Here are the basic steps:
 |[Step 1: Plan](consolidate-multiple-yammer-networks.md#Plan) <br/> |Identify the Yammer networks to consolidate, identify data to export and upload, plan any needed changes to group structure and membership in the primary network, and plan communication with your users.  <br/> |
 |[Step 2: Export content from primary networks](consolidate-multiple-yammer-networks.md#Export) <br/> |IMPORTANT: Migration only migrates users, not content. <br/>Export all content from secondary Yammer networks that you might want to access later, as there won't be any way to access the content otherwise. No-one can access the secondary network after the migration begins. |
 |[Step 3: Communicate with all users before the migration](consolidate-multiple-yammer-networks.md#Precommunicate) <br/> |Use the sample communication below to let everyone on the secondary networks know the purpose of the change, the timing, what information will be kept, and the group structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining.  <br/> |
-|[Step 4: Perform the network migration](consolidate-multiple-yammer-networks.md#self-service) <br/> |Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Yammer network into the primary Yammer network, and turns off the secondary network. It does not migrate any conversations or files.  <br/> |
+|[Step 4: Perform the network migration](consolidate-multiple-yammer-networks.md#self-service) <br/> |Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Yammer network into the primary Yammer network, and turns off the secondary network. It doesn't migrate any conversations or files.  <br/> |
 |[Step 5: Make primary network changes](consolidate-multiple-yammer-networks.md#parentchanges) <br/> |Adjust the structure of your primary Yammer network so it meets the needs of users who will be joining it. Create groups, invite members to the groups, and upload files that you exported.  <br/> |
 |[Step 6: Communicate with all users after the migration](consolidate-multiple-yammer-networks.md#aftercommunicate) <br/> |Let everyone know the consolidated Yammer network is ready to use.  <br/> |
   
@@ -46,13 +46,13 @@ For more information, see [FAQ: Consolidating multiple Yammer networks](faq-cons
 
   - If a user exists in a primary and secondary network, the user's account in the primary network will remain and if needed, will be promoted from a guest account to a regular account. The account in the secondary network will be deleted.
 
-- Groups, conversations, and files are not migrated. If you want any of this content from your secondary network, you must export it and upload it.
+- Groups, conversations, and files aren't migrated. If you want any of this content from your secondary network, you must export it and upload it.
 
 - After a migration completes, no-one can access the secondary Yammer network.
 
 - Only users with the global admin role in Office 365 can perform network consolidation.
 
-- The primary and secondary Yammer networks must be on verified domains in one Office 365 tenant. Consolidating Yammer networks across Office 365 tenants is not supported.
+- The primary and secondary Yammer networks must be on verified domains in one Office 365 tenant. Consolidating Yammer networks across Office 365 tenants isn't supported.
 
 - The secondary networks can be either Yammer Basic or Yammer Enterprise, but the primary network must be Yammer Enterprise.
 
@@ -86,7 +86,7 @@ Here are the main questions to ask during the planning step:
 
     If you plan to use this exported information to upload data or set up groups in your primary network, you'll need to:
     1. Identify who can help you upload data. Someone from your secondary network will need to identify content that is important going forward and map it to where it needs to go in the parent network.  
-    2. Once you determine what content is important, identify the skillset required to bring the content into your primary network. If there is a small amount of data, it can be done manually. But if you have a lot of content in the secondary network, you will need someone comfortable using Windows PowerShell and the Yammer API. You may need to find a third-party to help you.
+    2. Once you determine what content is important, identify the skill set required to bring the content into your primary network. If there's a small amount of data, it can be done manually. But if you have a lot of content in the secondary network, you'll need someone comfortable using Windows PowerShell and the Yammer API. You may need to find a third-party to help you.
         - If you need to create new groups with specific people from the secondary network, or adding users from your secondary network to existing groups in your primary network, for each group, you'll need to create .csv files with the group members to invite.
             - If you have just a few groups to add or modify, you can create these lists before migration (see Create a .csv file with emails for a group), and then for each group, invite members from your primary network after migration.
             - If you have many groups, you'll need a person who can use PowerShell and the Yammer API to generate the group membership changes from your secondary network before migration, and to set up the groups in your parent network.
@@ -100,9 +100,9 @@ For information about how to export all Yammer data for a secondary network, see
   
 - Exported files can be uploaded to the primary network. You'll need to create a mapping between the file name and the location for the file in your primary network.
 
-- Group names and group memberships are not migrated. You can use the exported lists of groups and users to help you create appropriate groups in the primary network.
+- Group names and group memberships aren't migrated. You can use the exported lists of groups and users to help you create appropriate groups in the primary network.
 
-- Conversations are not migrated, so secondary network users must save any needed data from conversations.
+- Conversations aren't migrated, so secondary network users must save any needed data from conversations.
 
 ## Step 3: Communicate with all users before the migration
 
@@ -110,11 +110,11 @@ For information about how to export all Yammer data for a secondary network, see
 
 Use the sample communication below to let everyone on the secondary networks know the purpose of the change, the timing, what information will be kept, and the group structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining.
 
-To communicate with all users on a network, you can use the Yammer **All Company** group, or, to contact people by email, for Yammer Enterprise, you can export the Yammer users list. For instructions, see [Export data from Yammer Enterprise](../manage-security-and-compliance/export-yammer-enterprise-data.md). For Yammer Basic, there is not a way to get all email addresses. In both Yammer Enterprise and Yammer Basic, you can get all email addresses in a specific group. For instructions, see [Export Yammer group members to a .csv file](https://support.office.com/article/export-yammer-group-members-to-a-csv-file-201a78fd-67b8-42c3-9247-79e79f92b535).
+To communicate with all users on a network, you can use the Yammer **All Company** group, or, to contact people by email, for Yammer Enterprise, you can export the Yammer users list. For instructions, see [Export data from Yammer Enterprise](../manage-security-and-compliance/export-yammer-enterprise-data.md). For Yammer Basic, there isn't a way to get all email addresses. In both Yammer Enterprise and Yammer Basic, you can get all email addresses in a specific group. For instructions, see [Export Yammer group members to a .csv file](https://support.office.com/article/export-yammer-group-members-to-a-csv-file-201a78fd-67b8-42c3-9247-79e79f92b535).
   
 ### Sample pre-migration communication to people currently using secondary Yammer networks
 
-[Contoso.com] is consolidating all our Yammer networks so that we can all communicate more easily with each other. We will start this migration on [date]. When the migration is complete, when you access Yammer using your regular work email address, you will go directly to the new consolidated Yammer network.  <br/> **Important tasks to do before [date]** <br/>  The consolidation does not move your Yammer content from [Contoso_sub1.com] to the [Contoso.com] Yammer network. You must save any files and conversations you want to keep.  <br/> **Save files** <br/>  In Yammer, click the Settings icon, and then click **Files**. Use the **My Files** section to find your files.  <br/>  Next to each file you want to save, click the down arrow, and then click **Download**.  <br/>  Choose a location, and then click **Save**.  <br/> **Save data from private conversations** <br/>  In Yammer, click your Inbox, and then click **Private Messages**.  <br/>  Click a message and review the content of the conversation, and copy and paste any needed information into a file.  <br/> **Down time** <br/>  Please do not use the [Contoso.com] Yammer network from [date] to [date]. We'll be adding groups and group files from the [Contoso.sub] network. You'll get another email from us when everything is ready to use.  <br/>
+[Contoso.com] is consolidating all our Yammer networks so that we can all communicate more easily with each other. We will start this migration on [date]. When the migration is complete, when you access Yammer using your regular work email address, you'll go directly to the new consolidated Yammer network.  <br/> **Important tasks to do before [date]** <br/>  The consolidation doesn't move your Yammer content from [Contoso_sub1.com] to the [Contoso.com] Yammer network. You must save any files and conversations you want to keep.  <br/> **Save files** <br/>  In Yammer, select the Settings icon, and then select **Files**. Use the **My Files** section to find your files.  <br/>  Next to each file you want to save, select the down arrow, and then select **Download**.  <br/>  Choose a location, and then select **Save**.  <br/> **Save data from private conversations** <br/>  In Yammer, select your Inbox, and then select **Private Messages**.  <br/>  Select a message and review the content of the conversation, and copy and paste any needed information into a file.  <br/> **Down time** <br/>  Please don't use the [Contoso.com] Yammer network from [date] to [date]. We'll be adding groups and group files from the [Contoso.sub] network. You'll get another email from us when everything is ready to use.  <br/>
 
 ### Sample message for people currently using the primary Yammer network
 
@@ -127,7 +127,7 @@ We're excited to announce that all of [Contoso] users from [Contoso_sub1] and [C
 > [!IMPORTANT]
 > Before you start, be sure you have exported data from the secondary networks and communicated with users!
   
-The network migration has three steps that you will be guided through. Multiple network migrations can be started back-to-back, without waiting for the previous ones to finish. Start from the primary network (the network into which you want to migrate the other networks).
+The network migration has three steps that you'll be guided through. Multiple network migrations can be started back-to-back, without waiting for the previous ones to finish. Start from the primary network (the network into which you want to migrate the other networks).
   
 ### Run the Network Migration tool
 
@@ -135,29 +135,31 @@ The network migration has three steps that you will be guided through. Multiple 
 
 2. Choose **Network Migration**.
 
-    ![Network Migration menu item for Yammer Admins.](../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png)
+   :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text=" Network Migration menu item for Yammer Admins.":::
+
   
     You start on the page with the title **Step 1 of 3 - Check/Add Verified Domains**. This page lists the verified domains that have already been added to the Office 365 tenant for this Yammer network. If you don't see the network you want, follow the link to Office 365 to [add additional verified domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611), and then return to this page.
 
-    ![Screen shot of Step 1 of 3 - Check/Add Verified Domains before migrating a Yammer network.](../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png)
+    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screen shot of Step 1 of 3 - Check/Add Verified Domains before migrating a Yammer network.":::
   
 3. When you have added all of the verified domains you want, choose **Next**.
 
-    You are now on the **Step 2 of 3 - Choose a Yammer Network to Migrate** page. This page lists all the networks that are eligible for migration. Remember, all of the domains of a Yammer network that you want to migrate must be added as verified domains on Office 365. Only the verified domains for Yammer networks are listed on the page. If you don't see the network you're looking for, choose the **Previous** button and add the verified domains.
+    You're now on the **Step 2 of 3 - Choose a Yammer Network to Migrate** page. This page lists all the networks that are eligible for migration. Remember, all of the domains of a Yammer network that you want to migrate must be added as verified domains on Office 365. Only the verified domains for Yammer networks are listed on the page. If you don't see the network you're looking for, choose the **Previous** button and add the verified domains.
 
-    ![Screen shot of Step 2 of 3 - Choose a Yammer Network to Migrate.](../media/3a975838-6d80-4dd1-9b3e-14f157820773.png)
+   :::image type="content" source="../../media/3a975838-6d80-4dd1-9b3e-14f157820773.png" alt-text=" Screen shot of Step 2 of 3 - Choose a Yammer Network to Migrate.":::
   
 4. On the **Step 2 of 3 - Choose a Yammer Network to Migrate** page, select the secondary Yammer network that you want to migrate into this network, and then choose **Next**.
 
-5. You reach the page with title **Step 3 of 3 - Export Data &amp; Start Migration**. This page gives you information about the network you are about to migrate, such as network name and number of messages, so that you can confirm if it is the right network. Note that only  *active*  and  *pending users*  will be migrated. All other content is permanently deleted.
+5. You reach the page with title **Step 3 of 3 - Export Data &amp; Start Migration**. This page gives you information about the network you're about to migrate, such as network name and number of messages, so that you can confirm if it is the right network. Note that only  *active*  and  *pending users*  will be migrated. All other content is permanently deleted.
 
-    ![Screen shot of Step 3 of 3 - Export Data &amp; Start Migration.](../media/8de9e6e7-d172-44bc-808c-ec72f34f09e2.png)
-  
-6. When you have exported the data you want, and you are ready to begin the migration, choose **Start Migration**.
+    :::image type="content" source="../../media/8de9e6e7-d172-44bc-808c-ec72f34f09e2.png" alt-text="Screen shot of Step 3 of 3 - Export Data &amp; Start Migration.":::
+
+
+6. When you have exported the data you want, and you're ready to begin the migration, choose **Start Migration**.
 
     A confirmation dialog box appears.
 
-    ![Screen shot of dialog box to Confirm that you want to migrate a Yammer network.](../media/4b93a2e6-9dc4-409c-99cb-2ab7dc225679.png)
+    :::image type="content" source="../../media/4b93a2e6-9dc4-409c-99cb-2ab7dc225679.png" alt-text="Screen shot of dialog box to Confirm that you want to migrate a Yammer network.":::
   
 7. In the **Are you absolutely sure you want to migrate the network?** box, under **I confirm the network migration of** _Network Name_, enter the name of the network you want to migrate to confirm it, and then choose **Migrate**.
 
@@ -167,17 +169,17 @@ The network migration has three steps that you will be guided through. Multiple 
   
 8. On the **Status of network migrations** page, you can view the status for the migration. It lists the domains associated with the networks being migrated, the person who initiated the migration, the start and completed dates and times for the migration, and the status of the migration. You can see details about the network, such as the number of active users, the number of messages, and the external networks.
 
-    ![Screen shot showing the Status of network migrations - Yammer network migration is running.](../media/05c6da77-091b-48fc-8d08-4455454d4c87.png)
+    :::image type="content" source="../../media/05c6da77-091b-48fc-8d08-4455454d4c87.png" alt-text="Screen shot showing the Status of network migrations - Yammer network migration is running.":::
   
-9. Note that multiple network migrations can be started back-to-back, without waiting for the previous ones to finish. So, you can start the next migration immediately by going through the wizard again.
+9. Multiple network migrations can be started back-to-back, without waiting for the previous ones to finish. So, you can start the next migration immediately by going through the wizard again.
 
 ### View status of network migration
 
 The network migration process works as shown in the following illustration.
   
-![Flowchart showing that first you migrate the domains from the secondary Yammer network and decommission the network, and then migrate users and external networks in parallel.](../media/00d177ba-3be3-45eb-9341-a00abf7b295c.png)
+:::image type="content" source="../../media/00d177ba-3be3-45eb-9341-a00abf7b295c.png" alt-text="Flowchart showing that first you migrate the domains from the secondary Yammer network and decommission the network, and then migrate users and external networks in parallel.":::
   
-In step 1, the domains from the secondary network are migrated and the secondary network is decommissioned. Then in step 2, the active and pending users and external networks are migrated in parallel. Even if a subset of users or external networks is not migrated, the migration itself will continue and finish, and more details/errors can be found on the status page.
+In step 1, the domains from the secondary network are migrated and the secondary network is decommissioned. Then in step 2, the active and pending users and external networks are migrated in parallel. Even if a subset of users or external networks isn't migrated, the migration itself will continue and finish, and more details/errors can be found on the status page.
   
 The migration status page can show the following error messages.
   

@@ -20,21 +20,21 @@ description: Answers to frequently asked questions about consolidating multiple 
 
 # FAQ: Consolidating multiple Yammer networks
 
-Here are answers to frequently asked questions about consolidating multiple Yammer networks. This article only applies to you if you have multiple email domains in your Microsoft 365 tenant and those email domains are spread across two or more Yammer networks. This consolidation does not apply to external networks.
+Here are answers to frequently asked questions about consolidating multiple Yammer networks. This article only applies to you if you have multiple email domains in your Microsoft 365 tenant and those email domains are spread across two or more Yammer networks. This consolidation doesn't apply to external networks.
 
 **Q: How do I know if I have multiple Yammer networks associated with one tenant?**
 
-A: As a Yammer network admin, click the Yammer Settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png), and then click **Network Migration**.
+A: As a Yammer network admin, select the Yammer Settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then select **Network Migration**.
 
 You’ll see two lists of domains. If you see domains on the bottom list, then you have multiple Yammer networks and you must consolidate all of them until all the domains show in the list on the top.
 
 Here's what the network migration page looks like when you need to consolidate Yammer networks.
 
-![Network migration page showing multiple networks that need to be consolidated.](../media/yam_needsconsolidation.png)
+:::image type="content" source="../../media/yam_needsconsolidation.png" alt-text="Network migration page showing multiple networks that need to be consolidated.":::
 
 Here's what the network migration page looks like if you don't need to consolidate Yammer networks.
 
-![Network migration page showing just one network, and no networks that need to be consolidated.](../media/yam_consolidated.png)
+:::image type="content" source="../../media/yam_consolidated.png" alt-text="Network migration page showing just one network, and no networks that need to be consolidated.":::
 
 **Q: How do I consolidate my Yammer networks?**
 
@@ -43,7 +43,7 @@ A: For steps to consolidate your networks, see [Network migration - Consolidate 
 > [!IMPORTANT]
 > We strongly encourage you to be proactive and consolidate the networks yourself.
 
-When networks are consolidated, only users are migrated. Groups and data from the secondary networks are not migrated. When you consolidate your networks yourself, you can make sure you pick the right primary network. If you wait for Yammer to automatically consolidate the networks, the primary network selected may not be the one you wanted to have as the primary one. Consolidating your own networks also gives you the chance to export data from the secondary networks.
+When networks are consolidated, only users are migrated. Groups and data from the secondary networks aren't migrated. When you consolidate your networks yourself, you can make sure you pick the right primary network. If you wait for Yammer to automatically consolidate the networks, the primary network selected may not be the one you wanted to have as the primary one. Consolidating your own networks also gives you the chance to export data from the secondary networks.
 
 **Q: Why is Yammer asking customers to do this?**  
 
@@ -61,7 +61,7 @@ A: There are both short-term and long term benefits:
 
     - Seamlessly manage Yammer from Microsoft 365: admins can manage the Yammer service from Microsoft 365 in the same way they currently manage other Microsoft 365 services. For example, admins can manage the lifecycle of all Yammer users and domains centrally in Microsoft 365.
 
-    - Suite connected groups: by integrating tightly with the Microsoft 365 suite, a new group created in Yammer can be a Microsoft 365 group. Therefore, features such as dynamic group membership will now be available to admins. Note that you need to [Enforce Microsoft 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users in order to use connected groups.
+    - Suite connected groups: by integrating tightly with the Microsoft 365 suite, a new group created in Yammer can be a Microsoft 365 group. Therefore, features such as dynamic group membership will now be available to admins. You need to [Enforce Microsoft 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users in order to use connected groups.
 
 - Immediate benefits for end users
 
@@ -77,11 +77,11 @@ A: There are both short-term and long term benefits:
 
 A: The actual technical process of consolidating Yammer networks takes minutes, so there won’t be any down time.
 
-- **Users from secondary networks**: After the process is completed users from the secondary networks will log in and land in the primary network. When users from a secondary network land in the primary network, they’ll use the same user name, and their profile data will be exactly the same as it was in the secondary network. However, these users won’t find their existing groups or messages in the primary network, and they any following relationships that were established in the secondary network are not preserved.
+- **Users from secondary networks**: After the process is completed users from the secondary networks will log in and land in the primary network. When users from a secondary network land in the primary network, they’ll use the same user name, and their profile data will be exactly the same as it was in the secondary network. However, these users won’t find their existing groups or messages in the primary network, and they any following relationships that were established in the secondary network aren't preserved.
 
-    Because users from the secondary networks will land in an existing, active Yammer network that is not the one they are used to seeing, we suggest that the admins manage these users’ expectations so that they are aware of why they are landing in a different, existing network, and that their previous content and groups have not been migrated. Sample notification text can be found in [Network migration - Consolidate multiple Yammer networks](consolidate-multiple-yammer-networks.md).
+    Because users from the secondary networks will land in an existing, active Yammer network that isn't the one they're used to seeing, we suggest that the admins manage these users’ expectations so that they're aware of why they're landing in a different, existing network, and that their previous content and groups haven't been migrated. Sample notification text can be found in [Network migration - Consolidate multiple Yammer networks](consolidate-multiple-yammer-networks.md).
 
-- **Users from the primary network**: Users from the primary network will not see any changes to their network other than seeing new users that are now part of the same Yammer network.
+- **Users from the primary network**: Users from the primary network won't see any changes to their network other than seeing new users that are now part of the same Yammer network.
 
 **Q: How can I keep groups of employees segmented?**
 
@@ -113,7 +113,7 @@ A: If you're not already a verified admin of the secondary network:
 
 **Q: What happens when you add a domain to your Microsoft 365 tenant associated with a Yammer Basic network?**
 
-A: In Yammer, having multiple primary networks is not supported. If you add an [external domain with a Yammer Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Microsoft 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your M365 tenant. The basic network is then queued for deletion.
+A: In Yammer, having multiple primary networks isn't supported. If you add an [external domain with a Yammer Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Microsoft 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your Microsoft 365 tenant. The basic network is then queued for deletion.
   
 ## Related articles
 

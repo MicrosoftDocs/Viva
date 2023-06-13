@@ -30,9 +30,9 @@ When Storyline is enabled in your organization, you'll see the following changes
 Configuration and management of Storyline is straightforward. Yammer Network and Verified admins can manage Storyline for their organizations by selecting the **Manage Storyline** link that is behind the gear icon on Yammer.com, and behind the ellipsis in the global header for the Viva Engage app. 
 
 ## Enabling Storyline
-Once you have entered the Manage Storyline screen, you will see the toggle which controls the availability of Storyline within your organization. When you enable Storyline in your organization, it becomes available to all internal users who have access to Yammer and Viva Engage. All internal users will have their own Storyline feed on their profile pages and will be able to see, react, and respond to others’ Storyline posts. Guests won't have their own Storyline, and won't be able to see or engage with Storyline content from your internal users who do.
+Once you have entered the Manage Storyline screen, you'll see the toggle which controls the availability of Storyline within your organization. When you enable Storyline in your organization, it becomes available to all internal users who have access to Yammer and Viva Engage. All internal users will have their own Storyline feed on their profile pages and will be able to see, react, and respond to others’ Storyline posts. Guests won't have their own Storyline, and won't be able to see or engage with Storyline content from your internal users who do.
 
-When you disable Storyline, it removes the Storylines tab from all user profile pages and removes the Storylines landing page. Disabling Storyline prevents new Storyline conversations from being started, but does not delete any conversations that were posted prior to Storyline being disabled. Previously posted Storyline content can still be accessed through search and the Yammer Inbox by the people who participated in the Storyline conversation. Users who didn't participate in the conversation won't have access after Storyline has been disabled. Storyline content will continue to be available through network data export and will be available through eDiscovery for networks that are in native mode.
+When you disable Storyline, it removes the Storylines tab from all user profile pages and removes the Storylines landing page. Disabling Storyline prevents new Storyline conversations from being started, but doesn't delete any conversations that were posted prior to Storyline being disabled. Previously posted Storyline content can still be accessed through search and the Yammer Inbox by the people who participated in the Storyline conversation. Users who didn't participate in the conversation won't have access after Storyline has been disabled. Storyline content will continue to be available through network data export and will be available through eDiscovery for networks that are in native mode.
 
 ## Advanced Settings
 
@@ -40,7 +40,7 @@ Storyline supports additional controls for admins who wish to customize their co
 
 ### Set default notification channels for Storyline posts
 
-Storyline, in its default configuration, notifies followers via Teams, Email, and Yammer, when a person they are following posts to their Storyline. Network and Verified admins can override the network default with custom defaults for their organization. If you customize this for your network, it will change what default notifications are selected when a user follows someone. Users can always change from the default selections to their personal preferences for notifications for each person they follow.  
+Storyline, in its default configuration, notifies followers via Teams, Email, and Yammer, when a person they're following posts to their Storyline. Network and Verified admins can override the network default with custom defaults for their organization. If you customize this for your network, it will change what default notifications are selected when a user follows someone. Users can always change from the default selections to their personal preferences for notifications for each person they follow.  
  
 The system default selections for notifications include:
 
@@ -72,7 +72,7 @@ Storyline is built on the same content and conversation platform as community me
 * Storylines supports the same “[Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting)” feature available for community conversations
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy
 
-In addition to the capabilities listed above, Storyline also features a feed that includes all Storyline posts sorted by the date the Storyline conversation was started. To access this feed, go to the Storyline landing page. While on the feed, click the filter icon in the upper right corner of the feed to switch the filter to **All**. 
+In addition to the capabilities listed above, Storyline also features a feed that includes all Storyline posts sorted by the date the Storyline conversation was started. To access this feed, go to the Storyline landing page. While on the feed, select the filter icon in the upper right corner of the feed to switch the filter to **All**. 
 
 #### Security, compliance, and governance for files uploaded to Storyline posts and stories
 
@@ -82,7 +82,7 @@ When users are deleted—for example when an individual leaves the company—the
 
 ## File storage for Storyline
 
-Files attached to Storyline posts, and videos or photos shared as stories, are stored in a hidden library in the author’s OneDrive. While there is no entry point to this location in the user experience (UX) of Microsoft 365, you can access it with a URL resembling the following example: https://tenantname-my.sharepoint.com/personal/**useridentifier/VivaEngage/Attachments/Storyline**
+Files attached to Storyline posts, and videos or photos shared as stories, are stored in a hidden library in the author’s OneDrive. While there's no entry point to this location in the user experience (UX) of Microsoft 365, you can access it with a URL resembling the following example: https://tenantname-my.sharepoint.com/personal/**useridentifier/VivaEngage/Attachments/Storyline**
 
 You can determine the precise URL for a user's Storyline folder by following these steps:
 
@@ -95,7 +95,7 @@ You can determine the precise URL for a user's Storyline folder by following the
 
 ### Managing files uploaded to Storyline posts and stories 
 
-Edit documents and rich media uploaded to posts using the Storyline interface. We strongly discourage you from managing (adding, replacing, or deleting) documents and rich media directly in OneDrive, as you will risk breaking the front-end experience of posts and stories in your Storyline.  
+Edit documents and rich media uploaded to posts using the Storyline interface. We strongly discourage you from managing (adding, replacing, or deleting) documents and rich media directly in OneDrive, as you'll risk breaking the front-end experience of posts and stories in your Storyline.  
 
 If you wish to delete files associated with a post or story from the **VivaEngage** library:
 1. Remove the file from the associated post. From any post, the author or an admin can select the ellipsis (...) menu and choose **Edit**.  
@@ -121,5 +121,5 @@ We plan to add the capability of limiting who gets their own Storyline shortly a
 ### How do I delete custom cover photos that are uploaded to a person’s Storyline?
 When the preview features toggle is in the ON position, uploaded cover photos can be deleted by the user themselves, or by Network and Verified Admins, by going to the user profile page and choosing the delete option under **Update cover photo**.
 
-If you want to delete a previously uploaded cover photo when the preview toggle is in the OFF position, you will need to temporarily opt in to the preview so you can access the delete cover photo option as discussed above.
+If you want to delete a previously uploaded cover photo when the preview toggle is in the OFF position, you'll need to temporarily opt in to the preview so you can access the delete cover photo option as discussed above.
   

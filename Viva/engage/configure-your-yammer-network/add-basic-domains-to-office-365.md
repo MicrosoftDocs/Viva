@@ -19,9 +19,9 @@ description: "Learn what happens when you add a domain to your Office 365 tenant
 
 # Add Yammer basic domains to your Office 365 tenant
 
-Beginning December 2019, we are changing what happens when a domain associated with a basic (free) Yammer network is added to your Office 365 tenant. Multiple primary networks will no longer be supported.
+Beginning December 2019, we're changing what happens when a domain associated with a basic (free) Yammer network is added to your Office 365 tenant. Multiple primary networks will no longer be supported.
 
-We will start with a gradual roll out and complete the process by the end of the year. This affects only new accounts as existing ones have already been migrated.
+We'll start with a gradual roll-out and complete the process by the end of the year. This affects only new accounts as existing ones have already been migrated.
 
 We recommend that you consolidate previously migrated basic networks into a single primary network for your tenant in order to move Yammer into a supported state for your tenant.
 
@@ -33,7 +33,8 @@ Below is a set of actions we immediately take after you add a domain. Also, ther
 
 - Remove all users—from the network formerly associated with the added domain—so they can access the primary network for your Office 365 tenant if permitted to do so based on your Yammer licensing.
 
-  ![yammer-network-settings.png.](../media/kb/yammer-network-settings.PNG)
+  
+    :::image type="content" source="../../media/kb/Yammer-network-settings.PNG" alt-text="Screenshot of the yammer network settings.":::
 
 - Enable the network formerly associated with the added domain to allow for data export.
 
@@ -41,11 +42,11 @@ Below is a set of actions we immediately take after you add a domain. Also, ther
 
 - Disable the network formerly associated with the added domain 30 days from the date you added the domain to your Office 365 tenant.
 
-- Queue the network formerly associated with the added domain for deletion in an additional 30 days. At that time, we will delete the network, including all the data that was in the network formerly associated with the added domain.
+- Queue the network formerly associated with the added domain for deletion in an additional 30 days. At that time, we'll delete the network, including all the data that was in the network formerly associated with the added domain.
 
 **To preserve data from the network formerly associated with your domain**:
 
-1. Click Settings ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png) in the home Yammer network of your Office 365 tenant.
+1. Select Settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: in the home Yammer network of your Office 365 tenant.
 
 2. Choose the network formerly associated with your domain from the list of available networks.
 
