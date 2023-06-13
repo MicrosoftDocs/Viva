@@ -41,18 +41,18 @@ Security, Privacy, and Compliance are core principles at Microsoft. We value, pr
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
-|[Survey results and next steps](#)  | One day post survey close  |
+|[Survey results and next steps](#survey-results-and-next-steps-for-managers)  | One day post survey close  |
 |Survey results and next steps   | 3 - 4 days post survey close  |
-|Company-wide progress update    | Week four and week eight after survey closes   |
-|Company-wide progress update and next survey communication   | 10 weeks post-survey or 2 weeks prior to the next survey    |
+|[Company-wide progress update](#company-wide-progress-update)    | Week four and week eight after survey closes   |
+|[Company-wide progress update and next survey communication](#company-wide-progress-update-and-next-survey-communication)   | 10 weeks post-survey or 2 weeks prior to the next survey    |
 
 ## Email templates for managers 
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
-|Survey results and next steps  | One day post survey close  |
-|Results rollout progress update   | Week four and Week eight after survey closes  |
-|Survey results and conversations    | 5 - 7 days after survey closes   |
+|[Survey results and next steps](#survey-results-and-next-steps-for-all-employees-–-3-4-days-post-survey-close) | One day post survey close |
+|[Results rollout progress update](#results-rollout-progress-update)   | Week four and Week eight after survey closes  |
+|[Survey results and conversations](#survey-results-and-conversations-for-managers-and-hrbps)    | 5 - 7 days after survey closes   |
 
 ## Email templates for Human Resources Business Partners (HRBPs) 
 
@@ -61,12 +61,12 @@ Security, Privacy, and Compliance are core principles at Microsoft. We value, pr
 |[Survey results and conversations](#survey-results-and-conversations-for-managers-and-hrbps)   | 5 - 7 days after survey closes   |
 |[Survey support and next steps](#hr-survey-support-and-next-steps)   | 3 - 12 weeks after survey closes   |
 
-## Survey results and next steps for all employees 
+## Survey results and next steps for all employees – 1 day post survey close
 
-To: All employees 
-From: **[First and Last name]**, CEO 
-Subject: **[Name]** Survey results and next steps 
-Date: **[Day 1 post-survey close]** 
+**To**: All employees 
+**From**: **[First and Last name]**, CEO 
+**Subject**: **[Name]** Survey results and next steps 
+**Date**: **[Day 1 post-survey close]** 
 
 Dear **[First name]**, 
 
@@ -83,7 +83,7 @@ Contact your manager or your HR business partner if you have any questions.
 **[Salutation]**, 
 **[Name]** 
 
-## Survey results and next steps for all employees 
+## Survey results and next steps for all employees – 3-4 days post survey close 
 
 **To**: All Employees​ 
 **From**: [First and Last name], CEO​ 
@@ -212,8 +212,8 @@ The ACT conversation tools within Viva Glint help you work together on areas t
 
 |**Summary of​ Company-Level Actions​**| **Summary of Business Unit Actions**|
 |-----------|-----------|
-|- **[High-level finding company #1]**​ | - **High-level finding about BU #1**|​  
-|- **[High-level finding company #2]**​ | - **High-level finding about BU #2** |​  
+|**[High-level finding company #1]**​ | **High-level finding about BU #1**|​  
+|**[High-level finding company #2]**​ | **High-level finding about BU #2** |​  
  
 **Take Action** ​ 
 
@@ -255,8 +255,8 @@ Keep in mind the company and business unit commitments and align as appropriat
 
 |**Summary of​ Company-Level Actions​**| **Summary of Business Unit Actions**|
 |-----------|-----------|
-|- **[High-level finding company #1]**​ | - **High-level finding about BU #1**|​  
-|- **[High-level finding company #2]**​ | - **High-level finding about BU #2** |​  
+|**[High-level finding company #1]**​ |**High-level finding about BU #1**|​  
+|**[High-level finding company #2]**​ |**High-level finding about BU #2** |​  
 
 **Action Taking** ​ 
 Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure its long-term success. ​ 
