@@ -137,7 +137,7 @@ If you just want to see how a partition was set up, and you don’t want to edit
 
 1. Select the ellipses (**…**) under **Actions**.
 1. Select **Edit**. 
-1. Make changes to the settings described in steps 3-6 in [How to create a partition and assign analysts access](#how-to-create-a-partition-and-assign-analyst-access). 
+1. Make changes to the settings described in steps 3-6 in [How to create a partition and assign analysts access](#how-to-create-a-partition-and-assign-analysts-access). 
 1. When you’re done making changes, select the **Finish** button in the screen’s top-right corner.
 
 ## How to delete a partition
