@@ -11,7 +11,7 @@ ms.topic: article
 ms.service: yammer
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
-search.appverid: 
+search.appverid:     
 - MET150
 - YAE150
 ms.assetid: a9a25f87-e643-41ce-9630-b74d10e40b1a
@@ -31,11 +31,11 @@ The processes outlined in the documentation explain how to run eDiscovery search
 
 ## eDiscovery
 
-![screenshot showing eDiscovery in Yammer.](../media/kb/yam-ediscovery.png)
+:::image type="content" source="../../media/kb/yam-ediscovery.png" alt-text="screenshot showing eDiscovery in Yammer.":::
 
 ## eDiscovery (Premium)
 
-![screenshot showing eDiscovery (Premium) in Yammer.](../media/yammer-advanced-ediscovery.png)
+:::image type="content" source="../../media/yammer-advanced-ediscovery.png" alt-text="screenshot showing eDiscovery (Premium) in Yammer.":::
 
 > [!NOTE]
 > You do not need to select Yammer messages as the Type to ensure Yammer messages will be included in your results. This option allows you to filter so that your results only include Yammer messages.

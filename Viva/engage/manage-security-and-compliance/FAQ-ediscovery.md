@@ -75,17 +75,17 @@ A: You can search group mailboxes for messages and SharePoint sites for files. Y
 
 **Q: How do I search all files in Yammer for my entire organization??**
 
-A: From the search workflow, click **Next** until you get to the Non-custodial locations screen. In the second section of this screen, you will see “Yammer sites” alongside “SharePoint sites” and other options. Flip the switch for **Select all** to access Yammer files for the entire network.
+A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Yammer sites” alongside “SharePoint sites” and other options. Flip the switch for **Select all** to access Yammer files for the entire network.
 
 **Q: How do I search for files within specific groups?**
 
-A: From the search workflow, click **Next** until you get to the Non-custodial locations screen. In the second section of this screen, you will see “Yammer sites” alongside “SharePoint sites” and other options. To search for the files within specific groups, select **Choose sites** to open the Edit locations screen. Select **Choose sites**, then type the URL for the SharePoint site associated with the group you want to search. The search results will not be limited to the Files that have been uploaded through Yammer, but will include all Files added to that SharePoint site from any source.
+A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Yammer sites” alongside “SharePoint sites” and other options. To search for the files within specific groups, select **Choose sites** to open the Edit locations screen. Select **Choose sites**, then type the URL for the SharePoint site associated with the group you want to search. The search results won't be limited to the Files that have been uploaded through Yammer, but will include all Files added to that SharePoint site from any source.
 
 ## User Scenarios
 
 **Q: When are messages and files subject to a litigation hold?**
 
-A: Messages and files are subject to a hold when the location they are stored (for example, custodian of the message or file in eDiscovery (Premium), or the Exchange Online Mailbox or SharePoint Online site where the message or file in eDiscovery), is on hold.
+A: Messages and files are subject to a hold when the location they're stored (for example, custodian of the message or file in eDiscovery (Premium), or the Exchange Online Mailbox or SharePoint Online site where the message or file in eDiscovery), is on hold.
 
 **Q: What happens to a message when it is subject to a litigation hold?**
 
@@ -95,7 +95,7 @@ A: Messages subject to a hold will be treated as follows during the hold:
 
 - *Delete*: Custodians will no longer see the message in Yammer, but the message will be discoverable in the Security & Compliance Center.
 
-- *Edit*: Custodians will only see the most recent version of the message in Yammer, but each version of the message generated during the hold will be discoverable (historical versions pre-dating the hold are not held).
+- *Edit*: Custodians will only see the most recent version of the message in Yammer, but each version of the message generated during the hold will be discoverable (historical versions pre-dating the hold aren't held).
 
 - *Move*: Custodians will only see the message in its new group in Yammer, but the message will be discoverable in all groups where it existed during the hold.
 
@@ -107,7 +107,7 @@ A: In the absence of a hold, messages will be treated as follows:
 
 **User Actions:**
 
-- *Delete*: Message is removed from all mailboxes and is placed in a recoverable items folder where it will stay for less than 30 days before being fully deleted. It is discoverable while in recoverable items, but once it is deleted from that folder, it is no longer discoverable.
+- *Delete*: Message is removed from all mailboxes and is placed in a recoverable items folder where it will stay for less than 30 days before being fully deleted. It's discoverable while in recoverable items, but once it's deleted from that folder, it's no longer discoverable.
 
 - *Edit*: Only the current version is discoverable.
 
@@ -121,7 +121,7 @@ A: Files subject to a hold will be treated as follows during the hold:
 
 **User Actions:**
 
-- *Delete*: Message is removed from all mailboxes and is placed in a recoverable items folder where it will stay for less than 30 days before being fully deleted. It is discoverable while in recoverable items, but once it is deleted from that folder, it is no longer discoverable.
+- *Delete*: Message is removed from all mailboxes and is placed in a recoverable items folder where it will stay for less than 30 days before being fully deleted. It's discoverable while in recoverable items, but once it's deleted from that folder, it's no longer discoverable.
 
 - *Edit*: Only the current version is discoverable.
 
@@ -163,19 +163,19 @@ A: Polls are discoverable for the author and anyone who has voted. The Poll resu
 
 **Q: Are Q&A messages discoverable?**
 
-A: Yes. Questions have a special message type that can be filtered on. eDiscovery does not record which answer was marked the best answer.
+A: Yes. Questions have a special message type that can be filtered on. eDiscovery doesn't record which answer was marked the best answer.
 
 **Q: Are GIFs in messages discoverable?**
 
-A: If the GIF is an attachment to a message, it will be discoverable the same as any other attachment. If a GIF is present from a hyperlink, the hyperlink and the GIF will be displayed in the Security and Compliance Center results. In the case of a hyperlink, the GIF displayed will be whatever is associated with that link at the time it is being viewed. If the owner of the GIF content changes the content at that link, the changed content will be shown (both in Yammer and in eDiscovery).  
+A: If the GIF is an attachment to a message, it will be discoverable the same as any other attachment. If a GIF is present from a hyperlink, the hyperlink and the GIF will be displayed in the Security and Compliance Center results. In the case of a hyperlink, the GIF displayed will be whatever is associated with that link at the time it's being viewed. If the owner of the GIF content changes the content at that link, the changed content will be shown (both in Yammer and in eDiscovery).  
 
 **Q: Are system messages discoverable?**
 
-A: Messages that are generated by the system and not a user (such as, notifications about a user being added to a group) are not discoverable on their own. If a user replies to a system message, the system message will be shown as a part of the conversation when eDiscovery (Premium) (E5) returns the user-generated reply in search results or a working set. In eDiscovery (E3), only the user-generated reply will be discoverable.
+A: Messages that are generated by the system and not a user (such as, notifications about a user being added to a group) aren't discoverable on their own. If a user replies to a system message, the system message will be shown as a part of the conversation when eDiscovery (Premium) (E5) returns the user-generated reply in search results or a working set. In eDiscovery (E3), only the user-generated reply will be discoverable.
 
 **Q: What happens when a user leaves the company and their mailbox is deleted?**
 
-A: If the user is on hold, all their discoverable content will be stored until the hold is released. Once the user mailbox has been deleted, they are no longer a custodian.
+A: If the user is on hold, all their discoverable content will be stored until the hold is released. Once the user mailbox has been deleted, they're no longer a custodian.
 If the user has messages in a group, those messages will still be discoverable in the group mailbox.
 
 **Q: What happens to private messages when all people on the message have their mailboxes deleted?**
@@ -184,11 +184,11 @@ A: When all users in a conversation have their mailboxes deleted, the message wi
 
 **Q: Is rich text formatting of a message captured when a message is discovered?**
 
-A: Yes. Rich text formatting will be visible in the search results when a message is discovered. This includes emojis, which should show up in eDiscovery the same way they are displayed in Yammer.
+A: Yes. Rich text formatting will be visible in the search results when a message is discovered. This includes emojis, which should show up in eDiscovery the same way they're displayed in Yammer.
 
 **Q: What happens when a group is renamed?**
 
-A: When a group is renamed, you will only be able to discover the group using its new name. All messages and files in the group continue to be discoverable.
+A: When a group is renamed, you'll only be able to discover the group using its new name. All messages and files in the group continue to be discoverable.
 
 **Q: Is Yammer content in external networks discoverable in the Security and Compliance Center?**
 
@@ -200,11 +200,11 @@ A: Yes.
 
 **Q: What happens if a user is removed from a private conversation?**
 
-A: Once a user is removed from a private conversation, they are no longer a custodian of any messages in that conversation unless their mailbox is on hold.
+A: Once a user is removed from a private conversation, they're no longer a custodian of any messages in that conversation unless their mailbox is on hold.
 
 **Q: What happens if a user is removed from a private group?**
 
-A: Once a user is removed from a private group, they will still be considered a custodian of the messages they are CC’ed on, but not any other messages in the group.
+A: Once a user is removed from a private group, they'll still be considered a custodian of the messages they're CC’ed on, but not any other messages in the group.
 
 **Q: What happens when a user is added to an existing private message conversation?**
 
@@ -212,7 +212,7 @@ A: When a user is added to an existing private message conversation, they become
 
 **Q: What happens if someone is CC’ed in a message and then the CC is removed?**
 
-A: If a user is CC’ed in a message and then the CC  is removed, they will no longer have access to that message unless it is public.
+A: If a user is CC’ed in a message and then the CC  is removed, they'll no longer have access to that message unless it's public.
 
 > [!NOTE]
 > CC is often referred to as @mention.
