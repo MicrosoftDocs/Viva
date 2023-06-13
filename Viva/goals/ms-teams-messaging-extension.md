@@ -15,7 +15,8 @@ ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- vg-integration  
 search.appverid:
 - MET150
 description: "Learn how you can use the messaging extension to share your OKR updates in your Microsoft Teams chats"
