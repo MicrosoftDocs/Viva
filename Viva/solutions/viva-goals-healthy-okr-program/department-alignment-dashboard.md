@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Learn how to make a Viva Goals dashboard for aligning your department."

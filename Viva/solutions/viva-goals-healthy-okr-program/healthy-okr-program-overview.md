@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Lear how to run a healthy OKR program with Viva Goals."

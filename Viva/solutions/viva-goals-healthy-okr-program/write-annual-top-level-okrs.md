@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Learn how to write annual OKRs at the top level of your organization using the 5 Ps."

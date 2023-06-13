@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:
   - m365initiative-viva-goals
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Learn how to set KR types while creating your Key Results"

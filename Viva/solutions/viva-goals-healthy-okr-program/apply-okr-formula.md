@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "How to apply the OKR framework and formulas to your own OKRs in order to create healthy OKRs."

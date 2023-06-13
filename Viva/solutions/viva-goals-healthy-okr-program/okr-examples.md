@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Examples of Objectives, Key Results, and Initiatives across a business."
