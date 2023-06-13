@@ -55,18 +55,18 @@ For the full list of features, see [Overview of live events](yammer-live-events.
 
 2. Share the event from Yammer.
 
-   ![Screenshot showing shareing the event.](../media/yam-live-event-share-screen.png)
+      :::image type="content" source="../../media/yam-live-event-share-screen.png" alt-text=" Screenshot showing sharing the event.":::
 
 3. When it's time to go live, produce/present from Teams as usual.
 
-   ![screenshot showing producing a Yammer live event.](../media/yam-open-teams-app.png)
-   ![screnshot showing joining a Yammer live event.](../media/yam-teams-join.png)
-   ![screenshot showing previewing a live event.](../media/yam-pre-live.png)
+   :::image type="content" source="../../media/yam-open-teams-app.png" alt-text="screenshot showing producing a Yammer live event.":::
+   :::image type="content" source="../../media/yam-teams-join.png" alt-text="screenshot showing joining a Yammer live event.":::
+   :::image type="content" source="../../media/yam-pre-live.png" alt-text="screenshot showing previewing a live event.":::
 
 4. See the event LIVE in Yammer! All attendees can view this event directly from Yammer.
 
-   ![Screenshot showing viewing a live event in Yammer.](../media/yam-attendee-experience.png)
-
+     :::image type="content" source="../../media/yam-attendee-experience.png" alt-text="  Screenshot showing viewing a live event in Yammer.":::
+    
 ### What is the difference between this feature and what is available in GA today?
 
 The main benefit of this feature is that all attendees can view a Teams-produced event in Yammer. We've worked with Teams and Stream to make this available for our Yammer customers. Now, event organizers can schedule their event in Yammer, produce it using Teams, but view it in Yammer.
@@ -89,7 +89,7 @@ Only Yammer admins in connected communities.
 
 You get access to all the advanced analytics available via Stream.
 
-![Screenshot showing live event analytics.](../media/yam-analytics.png)
+:::image type="content" source="../../media/yam-analytics.png" alt-text="Screenshot showing live event analytics.":::
 
 Event producers can see the total number of watchers when the event is live. When the event is completed, the producer can see the total number of views across the lifetime of the video subject to the view count algorithm.
 

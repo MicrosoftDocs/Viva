@@ -58,7 +58,7 @@ To improve the Office 365 sign-in experience for Yammer, use the Auto-accelerati
      connect-AzureAD [-tenantID | -tenantDomain] <tenant name>
      ```
 
-    ![Example sign-in using admin credentials.](../media/7f7c2ac7-b7dc-4ee1-b5c6-32b3c2ae6dc1.jpg)
+    :::image type="content" source="../../media/7f7c2ac7-b7dc-4ee1-b5c6-32b3c2ae6dc1.jpg" alt-text="Screenshot showing an example sign-in using admin credentials.":::
   
 2. Check that no policy of the same name exists already.
     
@@ -86,16 +86,16 @@ To improve the Office 365 sign-in experience for Yammer, use the Auto-accelerati
     ```powershell
     get-AzureADPolicy
     ```
-    ![Example output of new policy.](../media/622b3fcc-ed8b-4941-85be-e045b153607e.jpg)
+    :::image type="content" source="../../media/622b3fcc-ed8b-4941-85be-e045b153607e.jpg" alt-text="Screenshot showing an example output of new policy.":::
 
 5. Note **ObjectId** of servicePrincipal for Yammer application (Redirect output to a text file for easy search). The AppDisplayName would be "Office 365 Yammer" with AppID of 00000005-00000ff1-ce00-000000000000 
     
     ```powershell
     Get-AzureADServicePrincipal -All $true | fl > output.txt
     ```
-    ![Command line for redirecting output to a text file.](../media/31fee97b-75a2-498e-b404-c925f018615f.jpg)
+    :::image type="content" source="../../media/31fee97b-75a2-498e-b404-c925f018615f.jpg" alt-text="Screenshot of Command line for redirecting output to a text file.":::
 
-    ![Example of output to a text file.](../media/063f131c-413a-4372-8b11-e79a41e421b2.jpg)
+    :::image type="content" source="../../media/063f131c-413a-4372-8b11-e79a41e421b2.jpg" alt-text="Screenshot of an example of output to a text file.":::
   
 6. Finally, Add the policy for Yammer service.
     
@@ -103,7 +103,7 @@ To improve the Office 365 sign-in experience for Yammer, use the Auto-accelerati
       Add-AzureADServicePrincipalPolicy -ID <ObjectID of the Service Principal copied from #5> -RefObjectId <ObjectId of the Policy copied from #4>
       ```
 
-    ![Command line for adding the policy for Yammer service.](../media/3547246b-9d0f-4f97-9910-14c9559bf2fa.jpg)
+    :::image type="content" source="../../media/3547246b-9d0f-4f97-9910-14c9559bf2fa.jpg" alt-text="Screenshot of Command line for adding the policy for Yammer service.":::
   
 ## List of commands in order
 
