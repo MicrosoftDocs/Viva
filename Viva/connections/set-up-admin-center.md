@@ -34,7 +34,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 > - This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users with a Microsoft Viva Suite or Viva Communities and Connections subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 
@@ -76,7 +76,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 > [!NOTE]
 >
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
-> - A Microsoft Viva Suite or Viva Communities and Connections license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - A Microsoft Viva Suite license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global admin permissions, SharePoint admin permissions, or higher to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
