@@ -45,11 +45,11 @@ Control where people can access Yammer from, set password policies, control exte
   
 ## Configure security settings for all external networks
 
-1. In Microsoft 365 or Office 365, go to **Admin** \> **Yammer** \ **External Networks**. Or, in Yammer, click your home network Yammer settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png) , and then go to **Network Admin** \> **External Networks**.
+1. In Microsoft 365 or Office 365, go to **Admin** \> **Yammer** \ **External Networks**. Or, in Yammer, click your home network Yammer settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: , and then go to **Network Admin** \> **External Networks**.
 
 2. Click **External Networks**.
 
-    ![Screenshot that shows a list of available external network settings.](../media/yammer-security-external-network-settings.png)
+    :::image type="content" source="../../media/yammer-security-external-network-settings.png" alt-text="Screenshot that shows a list of available external network settings.":::
   
 3. Select ways to limit access to all external networks:
 

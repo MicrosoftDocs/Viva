@@ -33,11 +33,11 @@ The processes outlined in the above documentation explain how to run eDiscovery 
 
 ## eDiscovery
 
-![eDiscovery in Yammer.](../media/kb/yam-ediscovery.png)
+:::image type="content" source="../../media/kb/yam-ediscovery.png" alt-text="Screenshot of the eDiscovery in Yammer.":::
 
 ## eDiscovery (Premium)
 
-![yam-advanced-ediscovery.](../media/yammer-advanced-ediscovery.png)
+:::image type="content" source="../../media/yammer-advanced-ediscovery.png" alt-text="Screenshot of the yam-advanced-ediscovery.":::
 
 > [!NOTE]
 > You do not need to select Yammer messages as the Type to ensure Yammer messages will be included in your results. This option allows you to filter so that your results only include Yammer messages.

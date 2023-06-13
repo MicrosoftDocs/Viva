@@ -48,7 +48,7 @@ Use the Yammer file ID from the export to go directly to the file in Yammer and 
 
 1. In the data export, find the URL for the message in the **gdpr_delete_url** column. The URL will have this syntax: **https&#58;//www&#46;yammer&#46;com**/*network_name*/**#**/**Threads**/**show?threadId=** *thread_id*. For example, http&#58;//www&#46;yammer&#46;com/contosomkt&#46;onmicrosoft&#46;com/#/threads/show?threadID=135893.
   
-2. In the message, click the **More** icon ![More icon (...).](../media/d9378a9a-fb0a-4313-96e5-bc6c9f1d5827.png), and then click **GDPR Hard Delete**.
+2. In the message, click the **More** icon :::image type="icon" source="../../media/d9378a9a-fb0a-4313-96e5-bc6c9f1d5827.png" border="false":::, and then click **GDPR Hard Delete**.
 
 **To locate and delete a specific Yammer file stored in Yammer or SharePoint:**
 
@@ -74,7 +74,7 @@ Use the Yammer file ID from the export to go directly to the file in Yammer and 
 
 There is some user data that is not included in an export.
 
-To find this data for a user, go to Yammer settings ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png) \> **People**, and click the name of the user.
+To find this data for a user, go to Yammer settings :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: \> **People**, and click the name of the user.
   
 The following table shows how to change or delete this data if needed.
   
@@ -91,7 +91,7 @@ The following table shows how to change or delete this data if needed.
 
 A user can edit their own profile. Administrators can't change the user profile or settings.
   
-- The user can click the Yammer settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png), and then click **Edit Settings**.
+- The user can click the Yammer settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then click **Edit Settings**.
 
 - Select the tab for the change you want to make:
 
@@ -112,7 +112,7 @@ A user can edit their own profile. Administrators can't change the user profile 
 
 1. In the group, select **Members**.
 
-2. Select the Settings icon ![Yammer settings icon.](../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png) next to the user's name.
+2. Select the Settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: next to the user's name.
 
 3. Select **Remove from group**.
 
@@ -154,7 +154,7 @@ As an admin, you can erase a user from your home network and from any external n
 
 2. Enter an existing user's name. After you select the user, the options for removal are displayed.
 
-    ![After you select a name, the remove user options are displayed.](../media/a48da79c-7f5f-479b-8b75-a3e67285c141.png)
+    :::image type="content" source="../../media/a48da79c-7f5f-479b-8b75-a3e67285c141.png" alt-text="Screenshot that shows After  selecting a name, the remove user options are displayed.":::
 
     - If you want to delete all of a user's messages before you erase the user:
 
@@ -169,8 +169,9 @@ As an admin, you can erase a user from your home network and from any external n
 
            This option marks the user as deactivated. The deactivated user is listed on the **Remove Users** page. Within 14 days, you can reactivate the user.
 
-           ![Deactivated user list.](../media/162b43ed-acd1-4085-8073-b43845c30999.png)
-  
+              :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
+
+       
            After 14 days, a message is sent to all the networks admins and verified admins informing them the user has been deleted.
 
         2. Click **Submit**.
