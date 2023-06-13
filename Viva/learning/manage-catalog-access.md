@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/28/2022
+ms.date: 06/13/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -44,7 +44,7 @@ Use the Viva Learning permissions to restrict access to one or more learning obj
 
 ![Image of the catalog permissions navigation screen under the admin tab.](../media/learning/catalog-access-permissions-1-landing-page.png)
 
-When viewing permissions, you'll see the **title** of a learning object, the **provider** or source, and the associated **access** type and **permission source**.
+When viewing permissions, you see the **title** of a learning object, the **provider** or source, and the associated **access** type and **permission source**.
 
 There are two types of access: 
 
@@ -61,17 +61,18 @@ There are two types of permission sources:
 #### Add Permissions
 You can select **Add permission** to create a new permission.
 
-![Image of the highlighted Add permissions button.](../media/learning/catalog-access-permissions-2-add-permissions.png)
+![Screenshot of the highlighted Add permissions button.](../media/learning/catalog-access-permissions-2-add-permissions.png)
 
 You can search and choose a maximum of 10 courses on which to apply permissions.
 
-![Image of a popup window that lists options for adding new permissions.](../media/learning/catalog-access-permissions-3-add-new-permissions.png)
+![Screenshot of a popup window that lists options for adding new permissions.](../media/learning/catalog-access-permissions-3-add-new-permissions.png)
 
-You then need to choose which user groups can access the course. Refer to the support documentation to learn more about [Microsoft 365 Groups](https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+You can choose an existing Microsoft 365 group or Mail Enabled Security group. Refer to the support documentation to learn more about [Microsoft 365 groups](support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and [Mail Enabled Security groups](learn.microsoft.com/Exchange/recipients/mail-enabled-security-groups)
+
 
 #### Permission Actions
 
-![Image displaying the various actions users can perform with permissions, including view, edit, and delete.](../media/learning/catalog-access-permissions-4-permissions-actions.png)
+![Screenshot displaying the various actions users can perform with permissions, including view, edit, and delete.](../media/learning/catalog-access-permissions-4-permissions-actions.png)
 
 For learning objects with permissions created in Viva Learning, you have the following options.
 
