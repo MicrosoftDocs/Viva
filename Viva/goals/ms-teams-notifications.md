@@ -16,6 +16,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to receive notifications about activity from Viva Goals in Microsoft Teams."

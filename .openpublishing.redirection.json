@@ -1091,6 +1091,11 @@
       {
         "source_path": "viva/connections/add-viva-connections-app.md",
         "redirect_url": "/viva/connections/set-up-admin-center",
+        "redirect_document_id":false
+      },
+      {
+        "source_path": "viva/insights/use/qualtrics.md",
+        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
         "redirect_document_id": false
       }
                                                                           

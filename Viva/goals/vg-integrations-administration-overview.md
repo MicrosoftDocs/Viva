@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 - highpri
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn about integration administration with Viva Goals."
