@@ -16,6 +16,7 @@ ms.collection:
   - Tier1
 localization_priority: medium
 description: Learn how to configure EdCast as a learning content source for Microsoft Viva Learning.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure EdCast as a content source for Microsoft Viva Learning
