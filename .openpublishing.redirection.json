@@ -1084,6 +1084,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/insights/use/qualtrics.md",
+        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/solutions/align-loose-vs-tight.md",
         "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight.md",
         "redirect_document_id": false
