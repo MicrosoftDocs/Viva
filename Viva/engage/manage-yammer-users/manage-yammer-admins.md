@@ -37,7 +37,7 @@ Below are the available roles, their purpose, and the actions that can be perfor
    
 You grant and change most admin roles in the Yammer admin center. In the following screenshot, Debra Berger is a Verified Admin, Diego Siciliani is a Network Admin, and Megan Bowen is a Global Administrator.
   
-![Screenshot showing the list of admins.](../media/52935d22-dd99-418d-b0e7-9ba70c357042.png)
+:::image type="content" source="../../media/52935d22-dd99-418d-b0e7-9ba70c357042.png" alt-text="Screenshot showing the list of admins.":::
   
 <a name="bmk_global"> </a>
 ## Global Administrator (Azure Active Directory)
