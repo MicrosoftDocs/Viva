@@ -81,5 +81,38 @@ Thank you for your commitment to making **[Company name]** a place where people�
 Contact your manager or your HR business partner if you have any questions. 
 
 **[Salutation]**, 
-
 **[Name]** 
+
+## Survey results and next steps for all employees 
+
+**To**: All Employees​ 
+**From**: [First and Last name], CEO​ 
+**Subject**: Survey results and next steps​ 
+**Date**: [3-4 days post survey close]​ 
+
+Dear [First name],​ 
+Thank you again to the over [#] employees who provided input through the [Name] Survey. Today I would like to share our company-level results and the steps we will take to respond to your feedback. Hearing directly from you makes us a stronger organization and helps us ensure that our actions and decisions align with the success of our people, the power of our business. ​ 
+
+Your feedback *overall*:​ 
+
+- [High-level finding about company #1]​ 
+- [High-level finding about company #2]​ 
+
+What you said we do well as an organization:​ 
+
+- [Top strength #1]​ 
+- [Top strength #2]​ 
+
+What you said we need to do better as an organization:​ 
+
+- [Top improvement area  #1]​ 
+- [Top improvement area  #2]​ 
+
+From your feedback, the senior leadership team has aligned on taking action to improve **[Focus Area]**. **[Discuss why chosen - e.g., high impact on engagement, etc., and who will own it, next steps, etc.]**​ **
+
+Over the next week, leaders in your organization will share results with you and involve you in choosing focus areas for your individual teams. Your voice has allowed us to celebrate where we excel as a company and challenges us to rethink how we can work to make the best decisions for our employees, our customers, and our business.​ 
+
+**[Salutation]**, 
+**[Name]**
+
+ 
