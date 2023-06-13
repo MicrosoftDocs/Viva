@@ -44,6 +44,3 @@ Select the pencil symbol to **Modify Distribution Lists**.
    > [!CAUTION]
    > Modifying a Distribution List will affect any programs using it.      
 
-## Related topics
-
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
