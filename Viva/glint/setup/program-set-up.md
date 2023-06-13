@@ -18,7 +18,6 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-
 # Program setup in Program Summary
 
 The Program Setup page is the first configuration page within Program Summary. It allows you to define the basics of your program.
