@@ -74,5 +74,5 @@ Viva Pulse is currently available in English only. Support for additional langua
 
 Content added by users (such as when feedback providers enter responses for open-ended questions) is displayed in the language in which it was entered.
 
-Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages)
+Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
 
