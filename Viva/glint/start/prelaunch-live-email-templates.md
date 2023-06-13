@@ -51,30 +51,30 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
-|[Upcoming survey] | 1 - 2 weeks prior to launch |
+|[Upcoming survey](#email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
 
 ## Email templates for senior leaders 
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
-|Upcoming survey  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
-|Upcoming survey  | Senior and HR leadership |three weeks prior to launch |
+|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
+|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
 
 ## Email templates for managers, HRBPs, and other company leaders 
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
-|Upcoming survey  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
-|Engagement training and resources for upcoming survey  | HRBPs  |Two weeks prior to launch |
-|Upcoming survey  |Managers, other leadership   |One week prior to launch  |
-|Survey reminder   |Managers, other leadership   |During survey window   |
+|[Upcoming survey](#engagement-and-upcoming-survey-for-hrbps)  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
+|[Engagement training and resources for upcoming survey](#engagement-training-for-hrbps)  | HRBPs  |Two weeks prior to launch |
+|[Upcoming survey](#engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
+|[Survey reminder](#survey-reminder)   |Managers, other leadership   |During survey window   |
 
 ## Email templates for customer stakeholders 
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
-|Vision, strategy, and design prep | Five weeks prior to launch    |
-|Discovery Workbook prep  | Five weeks prior to launch    |
+|[Vision, strategy, and design prep](#vision-strategy-and-design-preparation) | Five weeks prior to launch    |
+|[Discovery Workbook prep](#discovery-workbook-preparation)  | Five weeks prior to launch    |
 
 ## Engagement and Upcoming Survey for All Employees 
 
@@ -321,7 +321,7 @@ I'm available to support you throughout this process. Reach out with questions.
 **[Name]** 
 
 
-**Discovery workbook preparation** 
+## Discovery workbook preparation 
 
 **To**: Customer stakeholders participating in Vision, Strategy & Design Planning 
 
