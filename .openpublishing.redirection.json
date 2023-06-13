@@ -1082,7 +1082,93 @@
         "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
         "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-loose-vs-tight.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-overview.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-recommendations.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/apply-okr-formula.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-okrs-overview.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-recommendations.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-okrs-overview.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-recommendations.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/close-recommendations.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/department-alignment-dashboard.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/healthy-okr-program-overview.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/kr-types.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/kr-types.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/leadership-strategy-dashboard.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/okr-examples.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/okr-examples.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/organization-visibility-dashboard.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rhythm-of-business-overview.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rob-recommendations.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/rob-recommendations.md",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/team-execution-dashboard.md",
+        "redirect_url": "Viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard.md",
+        "redirect_document_id": false
       }
+      
                                                                           
     ]
 }
