@@ -223,7 +223,7 @@ Here’s what that means in practice:
 
 When creating queries, analysts can only see and use the data that you’ve added to a partition. For example, let’s say you created several partitions based on time zone, only assigned two analysts to each, and didn’t assign any analysts to multiple partitions. When creating a query, an analyst assigned to the Europe/Warsaw partition couldn’t see or pick from any data from employees in the Asia/Bangkok partition. If an analyst ran a Power BI query, their downloaded Power BI report would also only contain the data from their assigned partition.
 
-Also, analysts can only work with the attributes you add to their partition. For example, if you didn’t include **LevelDesignation** in a partition, an analyst couldn’t see or use that attribute in their queries. Their queries then couldn’t contain any information about employees’ seniority level within the company, like “Director.”
+Also, analysts can only work with the attributes you add to their partition. For example, if you didn’t include **LevelDesignation** in a partition, an analyst couldn’t see or use that attribute in their queries. Their queries then couldn’t contain any information about employees’ seniority level within the company, like “Director.”  
 
 ### Metric rules
 
