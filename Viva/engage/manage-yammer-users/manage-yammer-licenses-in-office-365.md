@@ -29,7 +29,7 @@ You need to be an Office 365 global administrator or user management administrat
   
 Only users with a Yammer license will see a Yammer tile in the Office 365 app launcher. 
   
-![Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.](../media/33a074a6-6141-4293-89b2-17c0845c7020.png)
+:::image type="content" source="../../media/33a074a6-6141-4293-89b2-17c0845c7020.png" alt-text="Screenshot of Assign licenses section of Microsoft 365 admin center with Yammer Enterprise license available to assign.":::
   
 ## Manage Yammer licenses in the Microsoft 365 admin center
 
@@ -106,11 +106,11 @@ If you are ready to block users who don't have Yammer licenses, follow these ste
     
 3. After the **Enforce Office 365 identity in Yammer** checkbox is selected, the **Block Office 365 users without Yammer licenses** checkbox will be available. Select the **Block Office 365 users without Yammer licenses** checkbox and then choose **Save**.
     
-    ![Screenshot of Block Office 365 users without Yammer licenses checkbox in Yammer Security Settings.](../media/b29af1f2-cc46-42da-88d9-a9c4fc0ab1be.png)
+    :::image type="content" source="../../media/b29af1f2-cc46-42da-88d9-a9c4fc0ab1be.png" alt-text="Screenshot of Block Office 365 users without Yammer licenses checkbox in Yammer Security Settings.":::
   
 4. You see a confirmation message that asks if you are ready to start blocking Office 365 users without Yammer licenses.
     
-    ![Screenshot of confirmation dialog box to start blocking users without Yammer licenses.](../media/1b6605a6-e84e-4f5f-9f66-78baeac5b50a.png)
+    :::image type="content" source="../../media/1b6605a6-e84e-4f5f-9f66-78baeac5b50a.png" alt-text="Screenshot of confirmation dialog box to start blocking users without Yammer licenses.":::
   
     The confirmation message shows the number of active users on the Yammer network. Make sure all the current Yammer users have Yammer licenses. For more details, see [How to audit Yammer users in networks connected to Office 365](audit-users-connected-to-office-365.md).
     
