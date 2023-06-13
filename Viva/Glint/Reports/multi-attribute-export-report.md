@@ -1,5 +1,5 @@
 ---
-title: Multi-Attribute Export Report 
+title: Use Viva Glint's Multi-Attribute Export report for admins 
 description: "Using the Multi-Attribute Export report, admins can deep dive into survey scores and view results of combinations for up to three attributes."
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 04/28/2023
 ---
 
-# Multi-Attribute Export Report 
+# Use Viva Glint's Multi-Attribute Export report for admins 
 
 Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both engagement-type surveys and employee lifecycle surveys. 
 
@@ -27,9 +27,8 @@ Admins can deep dive into survey scores and view results of combinations for up 
 
 Available only to admins: 
 
-1. Select the Configure symbol. 
-2. Select **Reports**. 
-3. Select the **Multi-Attribute Export** report tile. 
+1. Select **Reports** from the navigation menu bar.
+2. Select the **Multi-Attribute Export** report tile. 
 
 ## Select up to three attributes to generate the Multi-Attribute Export file 
 
