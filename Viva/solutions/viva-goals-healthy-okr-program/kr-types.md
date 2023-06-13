@@ -78,11 +78,11 @@ For example, "Measure baseline customer retention rate", can be tracked during a
     
 6. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
 
-        :::image type="content" source="../../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the target should dropdown." lightbox="../../media/goals/target-should-dropdown.png":::
+    :::image type="content" source="../../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the target should dropdown." lightbox="../../media/goals/target-should-dropdown.png":::
     
 8. Depending on the KR type, enter the target values and select **Create**.
 
-        :::image type="content" source="../../media/goals/create-kr-button.png" alt-text="Screenshot that shows the create button to save your changes and create your Key Result." lightbox="../../media/goals/create-kr-button.png":::
+    :::image type="content" source="../../media/goals/create-kr-button.png" alt-text="Screenshot that shows the create button to save your changes and create your Key Result." lightbox="../../media/goals/create-kr-button.png":::
 
 ## Progress and Status Calculation: 
 Progress and status calculations in Viva Goals vary depending on the key result categories—regular KR types and control KR types.  
