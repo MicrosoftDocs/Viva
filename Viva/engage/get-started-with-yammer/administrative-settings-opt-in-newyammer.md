@@ -21,13 +21,13 @@ description: "Learn more about the admin settings to control user opt-in for new
 
 Global admins and verified network admins can now control participation in new Yammer for your organization. Please note that only one of these settings can be selected at a time. You can go back and forth between these options, but we strongly recommend understanding what selecting and unselecting each setting entails before making that choice.
 
-![Administrative Opt-In Settings for New Yammer](../media/yammer-admin-toggle.jpg)
+:::image type="content" source="../../media/yammer-admin-toggle.jpg" alt-text="Screenshot of the Administrative Opt-In Settings for New Yammer":::
 
 ## Enable the new Yammer as default
 
 This option is the default setting for your organization. This option ensures users in your organization are able to see the **New Yammer** toggle to opt into new Yammer from the classic Yammer experience, and users who have never tried the new experience would automatically be switched to new Yammer. 
 
-![New Yammer Opt-in Toggle.](../media/yammer-optin-admin-settings.png)
+:::image type="content" source="../../media/yammer-optin-admin-settings.png" alt-text="Screenshot of the new Yammer Opt-in Toggle.":::
 
 Users can choose to opt-out of this new experience and go back to classic Yammer at any point.
 

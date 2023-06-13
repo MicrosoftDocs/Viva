@@ -33,14 +33,14 @@ If your organization is ready to start inviting guests to Yammer communities, th
 Yammer network admins need to enable guest access on their networks from **Yammer network admin settings > Security settings > External Messaging**.
 
 > [!div class="mx-imgBorder"]
-> ![Yammer admin panel external user settings.](../media/yammer-adminpanel-externalusers-allowdeny.png)
+> :::image type="content" source="../../media/yammer-adminpanel-externalusers-allowdeny.png" alt-text="Yammer admin panel external user settings.":::
 
 This setting is a Yammer network-wide setting. Enabling guest access here allows community admins to add guests to any Yammer community in the network. You can control guest access to individual Yammer communities by using sensitivity labels.
 
 
 External collaboration is a key ingredient for the success of any organization. Yammer guests allow you to call in experts, such as consultants or vendors, from outside your organization. Users can invite guests to a community and quickly start a rich conversation by sharing access to community resources like files. This ease-of-use makes external collaboration one of the most used features in Yammer today.
 
-![Yammer business-to-business guest support.](../media/yammer-b2b-azure-guests.png)
+:::image type="content" source="../../media/yammer-b2b-azure-guests.png" alt-text="Screenshot of the Yammer business-to-business guest support. ":::
 
 This setting is a Yammer network-wide setting. Enabling guest access lets community admins add guests to any Yammer community in the network. You can control guest access to individual Yammer communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
@@ -55,25 +55,25 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 2.	The guest receives a welcome email message. This message includes information about the Yammer community and Yammer network to which the user is being invited, and the name of the community admin inviting the guest. The guest must accept the invitation by selecting **Go To Community** in the email message before accessing the Yammer community.
 
-    ![Yammer AAD B2B external message.](../media/yammer-aad-b2b-external-message.png)
+    :::image type="content" source="../../media/yammer-aad-b2b-external-message.png" alt-text="Screenshot of the Yammer AAD B2B external message.":::
 
 3.	By visiting the **Go to Community** link, the guest accepts the invitation. After a guest accepts the invitation, they can participate in the Yammer community.
 
 4. Network switcher located in the suite header can be used to switch between the home Yammer network, any Yammer networks the user is a guest in and External networks.
 
-    ![Screenshot of globe icon for switching networks.](../media/yammer-aad-b2b-external-globe.png)
+    :::image type="content" source="../../media/yammer-aad-b2b-external-globe.png" alt-text="Screenshot of globe icon for switching networks.":::
 
 5.	Everyone in the Yammer community can identify easily who is a guest. An External badge appears next to the guest in Yammer community posts, comments, community membership page, and search results. The Yammer community with guests will have a Globe icon next to it. 
 
-    ![Screenshot showing a post from an external user.](../media/yammer-aad-b2b-externaluser-post.png)
+    :::image type="content" source="../../media/yammer-aad-b2b-externaluser-post.png" alt-text="Screenshot showing a post from an external user.":::
 
     The Yammer community with guests will have a Globe icon next to it.
 
-    ![Screenshot showing external community with a globe icon.](../media/yammer-aad-b2b-external-globe.png)
+    :::image type="content" source="../../media/yammer-aad-b2b-external-globe.png" alt-text="Screenshot showing external community with a globe icon.":::
 
 6. Guests can leave the Yammer community at any time by hovering over the Joined button in the community header.
 
-     ![Screenshot showing the button to leave an external community.](../media/yammer-aad-b2b-external-community-leave.png)
+     :::image type="content" source="../../media/yammer-aad-b2b-external-community-leave.png" alt-text="Screenshot showing the button to leave an external community.":::
 
     > [!NOTE]
     > Leaving the Yammer community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.
