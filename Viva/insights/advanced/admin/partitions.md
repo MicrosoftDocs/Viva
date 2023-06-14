@@ -54,7 +54,7 @@ Most of the settings that you work with as an admin are only available at the te
 |------------|----------------|
 |Privacy settings|Customized metrics|
 |Manager settings|Metric rules|
-|Data upload| |
+|Data upload|Custom queries, Power BI template queries, and query results |
 
 In other words, what analysts create in their partitions stay within their partitions. What you set as an admin (unless you’re setting up a partition) applies across your organization. For more information about partition-level actions, refer to How analysts use partitions.
 
@@ -85,7 +85,7 @@ If analysts were assigned their analyst role after your organization started usi
 
 To assign an analyst access to the global partition, select **Global partition** on the **Partitions** page in the advanced insights app. Then, follow step 6 below.
 
-## How to create a partition and assign analyst access
+## How to create a partition and assign analysts access
 
 Create as many partitions as you want by following these steps:
 
@@ -105,13 +105,12 @@ Create as many partitions as you want by following these steps:
 5. Add employee attributes.
 
     >[!Important]
-    >You can’t remove required attributes, which appear as gray tags here. When you add new attributes to your organizational data, they won’t add themselves to your existing partitions. In this release, you’re not able to edit partitions to add new attributes, but you’ll be able to in later releases. 
+    >You can’t remove required attributes, which appear as gray tags here. When you add new attributes to your organizational data, they won’t add themselves to your existing partitions. 
     >
     >Learn more about attributes a little later in this article.
 6.	Pick which analysts you want to assign to work in this partition. The analysts you assign here can create queries based on employee data you defined in step 4.
 
     >[!Note]
-    >For now, you can only add analysts when you first set up the partition. In later releases, you’ll be able to add new analysts later.
     >You can assign analysts to any number of partitions.
     
 Your new partition won’t immediately appear in the partition switcher—you’ll need to refresh the page.
@@ -130,6 +129,90 @@ As we mentioned earlier, you’ll notice a few required attributes in **Select a
 |**PopulationType**|System - SMTP address|
 |**TimeZone**|System – Outlook/Exchange settings|
 
+## How to view a partition
+
+If you just want to see how a partition was set up, and you don’t want to edit anything, select the partition’s name on the All partitions page. View filters, attributes, and analysts with access.
+
+## How to edit a partition
+
+1. Select the ellipses (**…**) under **Actions**.
+1. Select **Edit**. 
+1. Make changes to the settings described in steps 3-6 in [How to create a partition and assign analysts access](#how-to-create-a-partition-and-assign-analysts-access). 
+1. When you’re done making changes, select the **Finish** button in the screen’s top-right corner.
+
+## How to delete a partition
+
+1. Select the ellipses (…) under **Actions**.
+1. Select **Delete**. 
+1. Confirm you really want to delete this partition by selecting **Delete** on the pop-up warning.
+
+>[!Caution]
+>When you delete a partition, all assigned analysts will lose their access to it.
+
+## About partition-related errors
+
+### During data updates
+
+You might get partition-related errors when you add, replace, or delete organizational data in the advanced insights app. These messages begin with the header, “You must edit or delete partitions to proceed.”
+
+### When you delete fields used in partitions
+
+If you delete fields or replace existing organizational data on the Organizational data page, you might get a message about partitions and data fields (“It looks like some partitions are using the fields you want to delete…”). This error tells you that fields in your existing data are used in partitions, either in filters or as organizational attributes. The partition can’t continue to work without these fields.
+
+Here’s an example. Let’s say you try to delete the **Function_type** field from your organizational data. However, one of your partitions, **Sales_Partition**, uses the **Function_type** field in a filter or as an organizational attribute. **Sales_Partition** can’t work without this field, so the advanced insights app shows you an error message:
+
+:::image type="content" source="../images/admin-partition-error-field-delete.png" alt-text="Screenshot of an error for partitions using fields you want to delete. It includes a table that shows Selected field and Partition columns.":::
+ 
+### When your upload is missing fields used in partitions
+
+You’ll get a similar error when you replace all your organizational data, but your new file doesn’t contain attributes used to create a partition:
+
+:::image type="content" source="../images/admin-partition-error-missing-fields.png" alt-text="Screenshot of an error for partitions using fields missing from an upload. It contains a table with Selected field and Partition columns.":::
+ 
+### Resolution
+
+To resolve these errors, you’ll need to either:
+
+* Edit your partition to remove these missing attributes. 
+* Delete the partition altogether.
+* Add these fields back into your data file.
+
+
+Then, try uploading your file again. 
+
+### During partition edits
+
+#### When you delete attributes used in auto-refresh queries
+
+If you try to remove an attribute from a partition, but that attribute is also used in an auto-refresh query, the advanced insights app will show you a message. That message lets you know that certain queries will stop working if you proceed with deleting. 
+
+Here’s an example. Let’s say you go to edit your **Sales_Partition**, and you try to remove the **Sales_quota** attribute. Several analysts in this partition have been running auto-refresh queries that use **Sales_quota**. When you go to delete this field, you’ll get a list of which queries will stop auto-refreshing if you select **Proceed**:
+
+:::image type="content" source="../images/admin-partition-error-auto-refresh-queries.png" alt-text="Screenshot of an error for deleting fields used in an auto-refresh query. It contains a table with Selected field and Auto-refresh query columns.":::
+
+## About navigation
+
+Navigation in the advanced insights app looks a bit different depending on whether you’re an admin, an analyst, or both, and whether you’re in the global partition.
+
+
+|Page| Admin| Analyst| Dual (admin and analyst)|
+|----|------|--------|-------------------------|
+|**Analysis**| |All partitions – *landing page*| All partitions – *landing page*|
+**Query results**| |All partitions| All partitions
+**Metric rules** | |All partitions| All partitions
+**Metric library**| | All partitions | All partitions
+**Data hub (admin version)** | Global partition only – *landing page* | |Global partition only
+**Data hub (analyst version)**| |Global partition only	
+**Organizational data (admin version)**	|Global partition only|	|	Global partition only
+**Organizational data (analyst version)**| | Global partition only	
+**Survey data**|Global partition only | Global partition only| Global partition only
+**Video demos**| All partitions|All partitions|	All partitions
+**Contact admin**|	| All partitions|All partitions
+**Partitions**	|Global partition only|	| Global partition only
+**Privacy settings**|Global partition only|	| Global partition only
+**Manager settings**|Global partition only|	| Global partition only
+
+
 ## How analysts use partitions
 
 As we discussed earlier, analysts assigned to a partition only see and use the data contained in that partition. What they create in their partition stays in that partition, and only other analysts assigned to that partition can view their work.
@@ -140,7 +223,7 @@ Here’s what that means in practice:
 
 When creating queries, analysts can only see and use the data that you’ve added to a partition. For example, let’s say you created several partitions based on time zone, only assigned two analysts to each, and didn’t assign any analysts to multiple partitions. When creating a query, an analyst assigned to the Europe/Warsaw partition couldn’t see or pick from any data from employees in the Asia/Bangkok partition. If an analyst ran a Power BI query, their downloaded Power BI report would also only contain the data from their assigned partition.
 
-Also, analysts can only work with the attributes you add to their partition. For example, if you didn’t include **LevelDesignation** in a partition, an analyst couldn’t see or use that attribute in their queries. Their queries then couldn’t contain any information about employees’ seniority level within the company, like “Director.”
+Also, analysts can only work with the attributes you add to their partition. For example, if you didn’t include **LevelDesignation** in a partition, an analyst couldn’t see or use that attribute in their queries. Their queries then couldn’t contain any information about employees’ seniority level within the company, like “Director.”  
 
 ### Metric rules
 
@@ -152,16 +235,6 @@ Metrics that analysts create in one partition don’t transfer to other partitio
 
 ### About the partition switcher
 
-If you assign an analyst to multiple partitions, they’ll use the partition switcher to move between their assigned partitions.
+If you assign an analyst to multiple partitions, they’ll use the partition switcher to move between their assigned partitions. The partition switcher is available to analysts as soon as you create your first partition.
 
-We explain more about analyst functionality in our analyst document, Partitions in Viva Insights for analysts.
-
-## About upcoming features
-
-During this private preview release, you’re able to create partitions and add analysts to the global partition. As we mentioned earlier, we’re working on a few upcoming features that give you greater control over your existing partitions:
-
-* Read partition – View, but don’t edit, an existing partition.
-* Edit partition – Change how your partition is set up, and which analysts can access it.
-* Manage access – Add or remove analyst access from a partition without editing the entire partition.
-* Delete partition – Remove your partition completely.
-
+We explain more about analyst functionality in our analyst document, [Partitions in Viva Insights for analysts](../analyst/partitions-analyst.md).

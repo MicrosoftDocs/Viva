@@ -263,6 +263,8 @@ There are several options to learn more about how to get Viva Connections for yo
 
 ## More resources
 
+[View the Viva Connections community hub](https://techcommunity.microsoft.com/t5/viva-connections/ct-p/VivaConnection).
+
 [Learn how to plan, build, and launch a home site](home-site-plan.md)
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)

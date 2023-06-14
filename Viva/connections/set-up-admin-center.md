@@ -1,5 +1,5 @@
 ---
-ms.date: 06/07/2023
+ms.date: 06/14/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
