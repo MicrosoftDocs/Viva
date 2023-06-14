@@ -39,4 +39,4 @@ As you move through your program setup, select the **Survey Coach light bulb sym
 
 ## Use Viva Glint's Tooltips
 
-Tooltips are available throughout the setup for guidance on how to complete each field or to provide additional information to understand how your decisions during setup will impact reporting or other areas of the program. Tooltips will show as pencil symbols, question mark symbols, and appear as *Learn more*.
+Tooltips are available throughout the setup for guidance on how to complete each field or to provide additional information to understand how your decisions during setup impact reporting or other areas of the program. Tooltips show as pencil symbols, question mark symbols, and appear as *Learn more*.
