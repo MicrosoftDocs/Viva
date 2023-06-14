@@ -67,7 +67,7 @@ You can search and choose a maximum of 10 courses on which to apply permissions.
 
 ![Screenshot of a popup window that lists options for adding new permissions.](../media/learning/catalog-access-permissions-3-add-new-permissions.png)
 
-You can choose an existing Microsoft 365 group or Mail Enabled Security group. Refer to the support documentation to learn more about [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and [Mail Enabled Security groups](https://learn.microsoft.com/exchange/recipients/mail-enabled-security-groups)
+You can choose an existing Microsoft 365 group or Mail Enabled Security group. Refer to the support documentation to learn more about [Microsoft 365 groups](https://support.microsoft.com/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) and [Mail Enabled Security groups](/exchange/recipients/mail-enabled-security-groups)
 
 
 #### Permission Actions
