@@ -37,6 +37,7 @@ Admins can assign specific reports for distinct roles.
 | Manager Report | Displays a *direct* or *role up hierarchy* view of all managers within a specific Manager/HRBP hierarchy. | Admins and managers |
 | Response Rate Report | Provides a deep dive into survey response rates across hierarchies and key demographics. Displays trends and benchmark comparisons. | All |
 | Team Summary | Captures employee feedback as an easy-to-use, insightful experience, designed to empower managers to approach feedback with a growth mindset, understand the unique strengths and opportunities that drive team engagement, and to encourage the next steps in sharing results and seeking team input on Focus Areas. | All |
+|Multi-Attribute Export|Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both engagement-type surveys and employee lifecycle surveys. | Admins|
 
 ## Choose reporting access level
 
