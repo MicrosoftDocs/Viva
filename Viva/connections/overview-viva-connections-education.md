@@ -47,7 +47,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 
 ## Components to Viva Connections
 
-Viva Connections is comprised of three primary components - the dashboard, the feed, and resources. Components display slightly differently between desktop and mobile devices.
+Viva Connections is composed of three primary components - the dashboard, the feed, and resources. Components display slightly differently between desktop and mobile devices.
 
 >
 | Component                  | Description                 |
@@ -239,7 +239,7 @@ A tailored experience is one in which content is automatically displayed accordi
 | **Home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
 | **Dashboard** | Curated | Author selects cards to show and uses Azure AD groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
 | **Feed** | Tailored | Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview). |
-| **Resources** | Curated | Using Azure AD groups, menu items in the global navigation can be targeted to specific audiences. |
+| **Resources** | Curated |Target menu items in the global navigation to specific audiences by using Azure AD groups, m. |
 >
 
 ## Branding

@@ -76,7 +76,7 @@ Broadly, [Viva Connections](viva-connections-overview.md) has four components th
 
 The dashboard is intended to enable quick access to content and tasks from various sources including intranet content, line-of-business applications, HR tools, frontline worker tools, and other internal or third-party applications.
 
-### For organizations using an intrantet portal (SharePoint home site)
+### For organizations using an intranet portal (SharePoint home site)
 
 > [!NOTE]
 > The latest release of Viva Connections doesn't require you to have a home site. [Learn how to choose a dashboard language without a home site](#for-organizations-using-just-viva-connections).
