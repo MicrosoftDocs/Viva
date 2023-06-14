@@ -1,5 +1,5 @@
 ---
-ms.date: 05/16/2023
+ms.date: 06/14/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -31,10 +31,10 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 
 > [!NOTE]
 >
-> - This experience is rolling out to private preview customers now and will become generally available to all customers by the end of June 2023.
-> - You must have an Enterprise (E) or Frontline (F) license type to create multiple Viva Connection experiences.
+> - This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
+> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating 3 experiences. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 
@@ -46,13 +46,13 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 
 Setting up Viva Connections only takes a few steps but there are some considerations to think through with other stakeholders at your organization before getting started:
 
-- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with Dashboard cards targeted to specific audiences (i.e. Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (e.g. separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience will need to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
+- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (i.e. Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (e.g. separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience will need to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
 
 - **Decide which audiences should be associated with each experience**: You can create more than one Connections experiences if your organization has a need for different employee experiences for distinct audiences. Decide which experiences should be associated with specific audiences. You’ll want to consider the order of experiences that should be seen for audiences that may belong to more than one experience.
 
 - **Think about who should have owner permissions to each experience**: [Owners have full permissions to edit the experience](edit-viva-home.md) and manage access for others. As a best practice, it’s recommended that each experience has a minimum of two owners assigned to it.
 
-- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections experience. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your Connections experience. You’ll want to pick a name that aligns with your organization’s brand and target audience, and one that’s also meaningful and recognizable to viewers.
+- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You’ll want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
 
 > [!NOTE]
 > Currently the app icon and name can be managed only at a tenant level. Organizations with multiple experiences will not see individual names and icons for each one in Teams.
@@ -76,7 +76,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 > [!NOTE]
 >
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
-> - A Microsoft Viva Suite license is required to create three or more Viva Connections experiences. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - A Microsoft Viva Suite license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global admin permissions, SharePoint admin permissions, or higher to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
@@ -84,7 +84,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 
 Admins will be able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
 
-> **A. Creating a Connections experience**: The option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the Dashboard, resource, and overall Viva home experience is hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
+> **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the dashboard, resources, and overall Viva home experience are hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
 <br>
 <br>
 > **B. Build from an existing intranet portal**: This option is ideal for organizations that already have a SharePoint communications site and would like to use their own content, or would like to add an intranet portal that includes Connections components that can easily be extended to the Web. This option creates a new Connections experience and automatically designates the communications site as a home site (intranet portal) that displays navigational elements, and shares permissions.
@@ -151,9 +151,9 @@ PowerShell functionality will be limited initially as follows:
 | **Remove-SPOHomeSite** | This won't be supported initially for multiple home sites customers, but the MAC will support this operation. Users attempting to use the cmdlet will receive an error message and be redirected to the MAC. |
 >
 
-#### When to use a separate experience vs Dashboard card level targeting
+#### When to use a separate experience vs dashboard card-level targeting
 
-Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your Dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
+Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
 
 ##### Scenarios for creating additional Viva Connections experiences
 
@@ -161,14 +161,14 @@ Depending on the size of your organization and the information to communicate, y
 - Not wanting employees to have to visit the experience of another subsidiary.
 - International legal entities that need control over the content.
 - Presenting international content in a different language that won't overlap with existing content (for example, English experience, Spanish experience, and so on).
-- Content specific to frontline workers (for example, Dashboard and resources with the frontline worker focus such as tasks, shifts, approvals, and top news).
+- Content specific to frontline workers (for example, dashboard and resources with the frontline worker focus such as tasks, shifts, approvals, and top news).
 
 If creating multiple experiences, make sure you don't have any overlap with your content authors, content plan, or audience groups. Overlap will require you to manually manage the content across each experience.
 
 ##### Scenarios for card-level targeting and end-user personalization
 
 - Creating a mix of corporate- and department-specific content (for example, centralized HR or corporate communications).
-- Decluttering the Dashboard to prevent cards from appearing to employees who wouldn't use them frequently.
+- Decluttering the dashboard to prevent cards from appearing to employees who wouldn't use them frequently.
 
 When you're using card-level targeting, consider testing your dashboard with different audience groups to ensure your audiences are seeing the content you want them to.
 
@@ -179,14 +179,11 @@ Assign two or more owners to each experience so that they'll have full access to
 1. After creating your Connection experiences, select the experience to assign owners to it.
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
 3. Select **Add**.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png" alt-text="Screenshot of the screen on which you can add permissions to owners of experiences." lightbox="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png":::
-
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
 5. Select **Add** after you've finished entering the names.
 6. If you want to add more owners later, select **+ Add owners** under the **Permissions** tab.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/add-additional-owners.png" alt-text="Screenshot of the screen on which you can add more owners to an experience." lightbox="../media/connections/set-up-admin-center/add-additional-owners.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png" alt-text="Screenshot of the screen on which you can add permissions to owners of experiences." lightbox="../media/connections/set-up-admin-center/add-permissions-to-assigned-owners.png":::
 
 ### Step 3: Designate audiences
 
@@ -208,7 +205,7 @@ Users who have already designated audiences for their experiences can use the fo
 2. Select the **Audience** tab from the settings panel.
 3. Select **Edit audience**.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/designate-audiences.png" alt-text="Screenshot of the screen on which you can designate audiences to experiences." lightbox="../media/connections/set-up-admin-center/designate-audiences.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
 5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
@@ -219,8 +216,6 @@ Users who have already designated audiences for their experiences can use the fo
 > If filtering by Microsoft 365 group and license options, only audiences who belong to both will be associated. For example, an administrator may want to create a distinct experience for a subset of all the frontline workers.
 
 6. Select **Save** when you're done.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
    The audiences will display here under **Groups** and can be edited in the future.
 
@@ -234,11 +229,11 @@ If your organization has multiple experiences, some audiences may belong to more
 
 :::image type="content" source="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png" alt-text="Screenshot of the screen that describes how ordering works with multiple experiences." lightbox="../media/connections/set-up-admin-center/how-ordering-works-with-multiple-experiences.png":::
 
-In this example (in the screenshot), there are two Connections experiences for an organization. Both “Relecloud” experiences have been enabled and can be seen by viewers.
+In this example (in the screenshot), there are two Connections experiences for an organization. Both experiences have been enabled and can be seen by viewers.
 
-The experience named **Relecloud – FLW** is scoped to frontline workers at the organization who also belong to the “Relecloud” experience, but this experience also provides the specific information relevant to the frontline workers. The **Relecloud** experience is targeted to all employees at the organization and provides information targeted to everyone.
+The experience named **Contoso 123** is scoped to workers at the organization who are members of the CM (Contoso Members) group. The **comm1** experience is targeted to all employees at the organization and provides information targeted to everyone.
 
-Since the frontline workers belong to more than one experience, the **Relecloud – FLW** experience should be ordered to come before the experience set to the **Everyone** audience. By ordering the scoped experience first, you create a rule that prioritizes displaying this experience over the default experience for users who belong to more than one experience.
+Since the CM workers belong to more than one experience, the **Contoso 123** experience should be ordered to come before the experience set to the **Everyone** audience. By ordering the scoped experience first, you create a rule that prioritizes displaying this experience over the default experience for users who belong to more than one experience.
 
 If the example organization creates another experience scoped to a subset of the audience, they'll need to reorder experiences again to ensure the most scoped experiences are prioritized over the default experience.
 
@@ -250,7 +245,13 @@ If the example organization creates another experience scoped to a subset of the
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
-### Step 5: Enable the experience
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
+
+### Step 5: Configure the dashboard
+
+Follow the [steps to create the dashboard](create-dashboard.md) to choose what your users will see when they open Viva Connections.
+
+### Step 6: Enable the experience
 
 Enable each Viva Connections experience to make it visible to your audience.
 
@@ -260,8 +261,6 @@ Enable each Viva Connections experience to make it visible to your audience.
    :::image type="content" source="../media/connections/set-up-admin-center/edit-status-option.png" alt-text="Screenshot of the screen on which you can edit the status to enable the experience." lightbox="../media/connections/set-up-admin-center/edit-status-option.png":::
 
 3. Select the **Enable experience** checkbox, and then select **Save**.
-
-   :::image type="content" source="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png" alt-text="Screenshot of the screen on which you enable the experience and save the setting." lightbox="../media/connections/set-up-admin-center/enabling-experience-saving-setting.png":::
 
 If you need to update the experience, you can also return it to **Draft** status and hide it from viewers.
 
@@ -291,9 +290,7 @@ Learn more about [Adding the Viva Connections app in the Teams Admin Center](add
 
 ### Options in the settings panel
 
-The following screenshot provides an overview of the settings available in the settings panel:
-
-:::image type="content" source="../media/connections/set-up-admin-center/settings-overview.png" alt-text="Screenshot with an overview of the settings in the settings panel." lightbox="../media/connections/set-up-admin-center/settings-overview.png":::
+The following settings are available in the settings panel:
 
 1. **Open in Teams**: Open this experience in the Teams app.
 2. **Analytics**: Download data for overall traffic, usage, and usage by platform for the selected experience in an Excel spreadsheet (Learn more about [Usage data for Viva Connections](viva-connections-analytics.md)).
@@ -328,8 +325,6 @@ The following screenshot provides an overview of the settings available in the s
 
 3. A confirmation screen will display. Select **Delete** to remove the experience.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/completing-deletion-of-experience.png" alt-text="Screenshot of the screen on which you can click the final option to complete deletion of a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/completing-deletion-of-experience.png":::
-
 ### Add a SharePoint home site after setting up a Connections experience
 
   :::image type="content" source="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png" alt-text="Screenshot showing an example of a SharePoint home site after set up." lightbox="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png":::
@@ -356,7 +351,7 @@ The organization would need to create a new experience, this time building their
 
 If your organization doesn’t have any custom Connections content in Teams yet, you do not need to manually copy content. Instead, you can **Save** the home site and enable the experience.
 
-   :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site-small.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
 
 3. For organizations who have already set up dashboard and navigation content in Teams, keep the home site in **Draft mode** until the content has been copied to the home site in SharePoint.
 
@@ -368,11 +363,12 @@ Follow these instructions if your organization already has custom Connections da
 > You'll need SharePoint admin permissions or higher to complete the following steps.
 
 1. Keep the new home site in **Draft mode** until content has been copied to the home site in SharePoint.
-
-  :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings.png":::
-
 2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
 3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
+
+
+  :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
+
 4. Copy content in the navigation column in the Resources section to global navigation in SharePoint. Go to **Global navigation > Enable** and then customize the navigational links. These links will automatically populate the navigation column in the Resources section of the Connections experience.
 5. After all the content you want to preserve has been copied to the home site in SharePoint, navigate back to the Connections experience in the MAC and turn the **Draft mode** toggle off and then select **Save**.
 
