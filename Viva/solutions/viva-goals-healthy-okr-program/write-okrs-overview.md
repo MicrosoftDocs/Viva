@@ -204,9 +204,9 @@ Now that you’ve seen the “why” around writing great OKRs, see the step-by-
 Objectives and Key Results, along with Initiatives, act like a compass to direct you toward your goals. Learning to write great OKRs is an iterative process, so we strongly urge focusing on progress over perfection. To get up to speed quickly, it’s far more important to make initial progress, enter those into the system, and build on them, rather than get hung up trying to craft the perfect metric.
 
 - **Objectives** should be clear, concise, and inspirational, and limited to just 3-5. To get started, follow the formula Verb + what you’re going to do + so that / in order to
-- **Key Results**are how the team will measure results, and should also be limited to 3-5. They are the measurable outcomes which contribute to the achievement of an objective.
+- **Key Results** are how the team will measure results, and should also be limited to 3-5. They are the measurable outcomes which contribute to the achievement of an objective.
 - **Initiatives** are actions that help the team achieve outcomes; the focused efforts that will help you define the path to impact for each OKR.
 
-There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to do list.
+There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to-do list.
 
 But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals. The answer is almost always “less is more” and scaling back to do a few things great vs. 50 things just ok.

@@ -94,7 +94,7 @@ The Objectives they might set are:
 
 They also might add a third Objective around diversity and inclusion. 
 
-Lastly, perhaps it has become more apparent that taking data-driven approaches to challenges has paid significant dividends for the company. Let’s assume that Acme has an internal research and insights department, that was the source of the compensation data used by the People department.  
+Lastly, perhaps it has become more apparent that taking data-driven approaches to challenges has paid significant dividends for the company. Let’s assume that Acme has an internal research and insights department that was the source of the compensation data used by the People department.  
 
 The leads of both departments meet and decide that they need a diversity and inclusion study to inform their hiring decisions. Thus, they might make an Objective to share this goal through the multiple alignment feature. This would be an example of cross-functional alignment. 
 

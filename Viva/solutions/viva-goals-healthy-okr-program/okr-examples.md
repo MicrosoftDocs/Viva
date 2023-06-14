@@ -76,7 +76,7 @@ description: "Examples of Objectives, Key Results, and Initiatives across a busi
 
 **Initiative:** Develop a social media campaign 
 
-**Initiative:** Develop a NPS survey  
+**Initiative:** Develop an NPS survey  
 
 ### Example 2  
 
@@ -155,7 +155,7 @@ description: "Examples of Objectives, Key Results, and Initiatives across a busi
 
 **Objective:** Decrease cash burn QoQ in order to keep the company financially stable 
 
-**Key Result:** Consolidate internal work tools to decrease monthly spend from $12,000 to $8,000  
+**Key Result:** Consolidate internal work tools to decrease monthly spending from $12,000 to $8,000  
 
 **Key Result:** Increase employees working full time from home from 20% to 50% of workforce  
 
@@ -239,7 +239,7 @@ description: "Examples of Objectives, Key Results, and Initiatives across a busi
 
 **Key Result:** Reduce number of support tickets from 120/month to 30/month 
 
-**Key Result:** Reduce number of steps in check out process from 9 to 6  
+**Key Result:** Reduce number of steps in check-out process from 9 to 6  
 
 **Key Result:** Increase user time spent on site from 2:37 per session to 3:45 per session  
 

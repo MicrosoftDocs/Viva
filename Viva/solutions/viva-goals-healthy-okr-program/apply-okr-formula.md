@@ -73,7 +73,7 @@ After confirming your objectives and key results follow their respective formula
 > - **Adaptability**: Can we track if we were successful? 
 > - **Growth**: Is it propelling the business forward?
 
-What we realize when comparing these key results to our benefits is that we're lacking in alignment and haven't included one of our stakeholders- product. We're going to have difficulty increasing our product market share in Latin America if we don't have a product that appeals to that market. So we add a key result around growing a Spanish language version of the product
+What we realize when comparing these key results to our benefits is that we're lacking in alignment and haven't included one of our stakeholders: product. We're going to have difficulty increasing our product market share in Latin America if we don't have a product that appeals to that market. So we add a key result around growing a Spanish language version of the product.
 
 1. Increase new product sales from $100k to $ 1.5 m (Sales)  
 1. Increase social media views from 5,000 to 15,000 (Marketing)  
