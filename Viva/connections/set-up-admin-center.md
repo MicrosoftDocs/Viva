@@ -372,6 +372,56 @@ Follow these instructions if your organization already has custom Connections da
 4. Copy content in the navigation column in the Resources section to global navigation in SharePoint. Go to **Global navigation > Enable** and then customize the navigational links. These links will automatically populate the navigation column in the Resources section of the Connections experience.
 5. After all the content you want to preserve has been copied to the home site in SharePoint, navigate back to the Connections experience in the MAC and turn the **Draft mode** toggle off and then select **Save**.
 
+## Frequently Asked Questions
+
+### I already have a home site but I haven’t set up a Connections dashboard yet. Where do I get started to set up a Connections experience?
+
+If you already have a home site, you'll be able to see it in your Microsoft 365 admin center under **Setup > Microsoft Viva > Viva Connections> Create and manage Connections experiences**. To add a dashboard, visit the site as site admin, owner, or member, and select **Manage Viva Connections** from the settings menu.
+
+### Will I be able to customize the Viva Connections app name and icon in Teams for each experience that I create?
+
+You can only choose one icon and app name regardless of how many experiences you set up, so you'll need to choose an icon and name that make sense to your entire organization. All of your users will see the same name and icon, but when they select the app icon, they'll land on their targeted experience.
+
+### I already have dashboard set up with card-level audience targeting. Will that change?
+
+Card-level audience targeting will continue to be supported. This type of targeting is ideal for targeting a subset of cards for departmental scenarios where the majority of cards are still common across the organization.
+
+### I'm looking to set up additional home sites but not ready yet to deploy Viva Connections. What are my options?
+
+Viva Connections and home site administration are being combined in the Microsoft 365 admin center. If you only want to set up an additional home site, choose the option to set up Connections by building from an intranet portal. This option will designate the intranet portal as the home site. Enable the experience so the home site can be accessed by others. Each additional home site comes with the default Viva Connections dashboard content, so it’s simple to set up Viva Connections. You have the option to set up Viva Connections later and pin the app in Teams for your users.
+
+### Will the license requirements be enforced as soon as the feature is released?
+
+Initially, the feature will display a message on the admin UI stating that all the users will require the license when you set up more than one Viva Connections experience. Upcoming updates will enforce the license requirement at the end-user level. You'll receive additional communication when the license enforcement begins.
+
+### I would like my employees to access more than one Viva Connections experience in Teams. Is that supported?
+
+In Teams, employees will only be able to see the experience that they are targeted to. If the employees are targeted to more than one experience, they will see the one with the highest rank order. On the web, employees will still be able to access more than one home site based on the site access permissions. The multiple experiences feature is designed for subsidiaries and conglomerates who have non-overlapping content for their employees such that employees don’t need to access more than one experience.  
+
+### Can content authors (operators) access more than one experience for updating the content?
+
+Yes, content authors can update intranet-portal-based Viva Connections experiences directly through the web as long as they have the required permissions. Additionally, if a content author has Owner or Member permissions to the Connections experience in Teams, they'll be able to switch among the different experiences that they have the permission to edit. To do this, they'll be able to select **Switch Experience** in the overflow menu.
+
+### I just changed the status or the rank order of an experience. How soon will the changes take effect for the users?
+
+It may take up to 24 hours for changes to fully propagate. Consider this timing when you plan to make changes.
+
+### My current home site is set up on the SharePoint root site. Now I want to set up additional home sites. How do I ensure that the employees targeted to the new home site don’t see the news posts from the existing home site (root site)?
+
+If your home site is set up on the root site, all your employees should have access to the root site for SharePoint access. This means that if some of your employees are targeted to a new home site, they may still see content in their feed from the existing home site (root site). To avoid this, it is recommended to not use root site as a home site if you plan to set up multiple home sites. Alternatively, you can decide to publish content on the existing home site (root site) that is broadly applicable to everyone.
+
+### I would like to restore my original setup. How do I get back to my original setup?
+
+Assuming you already had a single experience set up when you added additional experiences, you can take the following steps to restore your original setup:
+
+1. Change the audience to **Everyone in the organization** for your original experience and change the rank order to one. This will start serving this experience to everyone.
+
+2. Either change the status of new experiences to draft or delete them from the experiences list.
+
+### I don't see any experience listed in the Viva Connections experience list. However, I still see a dashboard experience in the Viva Connections app in Teams. Why am I seeing this experience?
+
+Viva Connections offers a default out-of-the-box experience without any initial setup. This experience shows tailored out-of-the-box dashboard cards to information workers and frontline workers. When a SharePoint admin edits the experience for the first time, a special site container gets created to host the customization, which then becomes visible in the Viva Connections experiences list in the Microsoft 365 admin center as **Viva Home**. Refer to [Customize and edit the Viva Connections home experience](edit-viva-home.md) for more information about editing the out-of-the-box experience.
+
 ## Related Articles
 
 - [Overview: Viva Connections](viva-connections-overview.md)
