@@ -84,7 +84,7 @@ When using the default time period:
 
 - The *latest data point* on the Trend Graph will be any surveys received during the past 90 days. 
 - The *next point* is 90 days before the first data point (180 days - 91 days before today). 
-- The *following point is 90 days before the second data point (270 days - 181 days before today), and the data points continue in this manner.  
+- The *following point* is 90 days before the second data point (270 days - 181 days before today), and the data points continue in this manner.  
 - The date displayed when hovering over data points is considered Day 1 of that range, meaning that the most recent data point will have a date of 90 days before today's date (the date, which is being studied). This date is not capped by the actual survey launch date. 
 - If a custom date range (x date to y date) is selected, the trend shows for the same number of days selected. For example, if you select the last 30 days, trend shows for the previous 30 days. 
 
