@@ -69,7 +69,11 @@
         - name: Manage academies in Viva Learning  
           href: academy.md
         - name: Advanced Searching within Viva Learning
-          href: advanced-search.md   
+          href: advanced-search.md  
+        - name: Overview of language in Viva Learning
+          href: language-overview.md  
+        - name: Language preferences in Viva Learning 
+          href: language-preferences.md    
     - name: Troubleshoot
       items:
         - name: Learning management systems
