@@ -35,11 +35,11 @@ The group admin can add guests to the group. In public external groups, others i
   
 External groups look different than internal Yammer groups, so you can easily distinguish which groups have external participants. The group header for an external group shows that other networks are participating in the group.
   
-![Screenshot of a Yammer group header, with a globe icon that shows that it is an external group.](../media/99bb31d5-4557-4abe-bfc3-74d9d377ac69.png)
+:::image type="content" source="../../media/99bb31d5-4557-4abe-bfc3-74d9d377ac69.png" alt-text="Screenshot of a Yammer group header, with a globe icon that shows that it is an external group.":::
   
 External groups are marked with a globe icon in the left navigation.
   
-![Yammer navigation bar showing an External Groups section.](../media/de2688e8-0ee9-485d-a7c3-cf0a15f623ef.png)
+:::image type="content" source="../../media/de2688e8-0ee9-485d-a7c3-cf0a15f623ef.png" alt-text="Screenshot of Yammer navigation bar showing an External Groups section.":::
   
 Users invited to participate in an external group hosted on a different network are required to accept the invitation before being able to view any content in the group.
 
@@ -54,7 +54,7 @@ When you create a group, you can decide if it is an internal or external group. 
     
     The **Create A New Group** dialog box opens. If your network allows external groups, you'll see options to create an Internal Group or External Group: 
     
-    ![Screenshot showing that you can choose to create an Internal or External group.](../media/387fcf4f-79e9-427a-845b-54e00caf1a43.png)
+    :::image type="content" source="../../media/387fcf4f-79e9-427a-845b-54e00caf1a43.png" alt-text="Screenshot showing that you can choose to create an Internal or External group.":::
   
 2. Select **External Group**.
     
@@ -91,7 +91,7 @@ When you communicate with outside partners, suppliers, or customers, you want to
     >The data export reflects the current view of the network. For example, if a user was added, but then removed before the report was created, that user won't appear in the report.
   
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of an example data export file.](../media/90261f3d-0629-4fb6-bb42-33ed7eb3e99a.png)
+    > :::image type="content" source="../../media/90261f3d-0629-4fb6-bb42-33ed7eb3e99a.png" alt-text="Screenshot of an example data export file.":::
   
     Column **D** (external_participants) lists the users in other networks that participate in threads in your network, along with their name, email address, and the network ID of the Yammer network they belong to.
 
