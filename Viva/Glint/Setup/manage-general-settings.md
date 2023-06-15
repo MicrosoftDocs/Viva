@@ -29,11 +29,11 @@ Once you have designated your General Settings, they're valid for all your Viva 
 For each setting option, you'll see a short description so you can feel confident about the choices you make. There are seven sections which require input: 
 
 - [Company information](#set-up-the-company-information-section) 
-- Communications 
-- Reporting 
-- Engage Survey Details 
-- Features 
-- Technical Configuration 
+- [Communications](#set-up-the-communications-section) 
+- [Reporting](#set-up-the-reporting-section) 
+- [Engage Survey Details](#set-up-the-engage-survey-details-section) 
+- [Features](#set-up-the-features-section) 
+- [Technical Configuration](#set-up-the-technical-configuration-section) 
 - [Translations](#set-up-the-translations-section) 
 
 >[!NOTE]
