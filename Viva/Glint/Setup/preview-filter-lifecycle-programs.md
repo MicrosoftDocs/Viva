@@ -41,7 +41,6 @@ Once your program is approved, you can preview the survey to test the user exper
 
 >[!TIP]
 > When reviewing the introduction and summary for each item, ensure that:
- 
 > - Rating scale is as expected (1-5 or 1-7) 
 > - Rating scale labels are written as expected (Strongly Disagree/Strongly Agree)
 > - Comments are available 
