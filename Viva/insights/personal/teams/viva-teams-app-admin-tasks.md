@@ -88,9 +88,13 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 #### To configure survey sampling rate  
 
-As the admin, you can configure the percentage of meetings that get surveyed. The default sampling rate is 15%. You can now configure this sampling rate to any value between 10% and 70% via PowerShell Cmd.  
+As the admin, you can configure the percentage of meetings that get surveyed. The default sampling rate is 15%. You can configure this sampling rate to any value between 10% and 70% through the Set-DefaultTenantMyAnalyticsFeatureConfig PowerShell cmdlet. Run the following command and change the `Meeting-Effectiveness-Survey-Sampling-Rate -SamplingRate` value, which is set at `0.2` in this example:
 
-Please see further details in Set-DefaultTenantMyAnalyticsFeatureConfig (ExchangePowerShell) | Microsoft Learn  
+```powershell
+Set-DefaultTenantMyAnalyticsFeatureConfig -Feature Meeting-Effectiveness-Survey-Sampling-Rate -SamplingRate 0.2
+```
+To learn more about this cmdlet, go to: [Set-DefaultTenantMyAnalyticsFeatureConfig (ExchangePowerShell)](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig?view=exchange-ps#example-3). 
+
 
 ### User-level configuration
 
