@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2021
+ms.date: 06/15/2023
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
 author: lilyolason
@@ -85,6 +85,12 @@ As the admin, use the following steps to change the setting for meeting effectiv
 
 >[!Note]
 >After you change the survey setting in the admin center, it will take up to 24 hours for the new setting change to take effect.
+
+#### To configure survey sampling rate  
+
+As the admin, you can configure the percentage of meetings that get surveyed. The default sampling rate is 15%. You can now configure this sampling rate to any value between 10% and 70% via PowerShell Cmd.  
+
+Please see further details in Set-DefaultTenantMyAnalyticsFeatureConfig (ExchangePowerShell) | Microsoft Learn  
 
 ### User-level configuration
 
