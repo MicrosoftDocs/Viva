@@ -82,6 +82,6 @@ Spaces and pages not mentioned above aren't impacted by this setting.
 
 Updates to this setting reflects immediately to all users of Viva Learning after editing.
 
-> [!NOTE]:
+> [!NOTE]
 > If the **Learning Content in Default and User-selected Languages** is switched off, users may experience Viva Learning with no learning content.
 Sharepoint objects and learning paths created by admins may also not be visible to the user as the user-chosen language may be different from the language of creation.
