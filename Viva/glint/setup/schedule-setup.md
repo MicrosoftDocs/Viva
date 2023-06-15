@@ -55,6 +55,3 @@ Choose the cadence for your program. This determines your launch date(s) and how
  
 6. Select the right-facing arrow symbol to **Save & Continue**.  
 
-## Related topics
-
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

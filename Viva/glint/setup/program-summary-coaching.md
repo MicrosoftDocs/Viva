@@ -41,6 +41,3 @@ Two additional coaching sections need to be set up for managers with Team Conver
 
 Refer to [Team Conversations Coaching Page](https://www.microsoft.com) for setup of these two sections.
 
-## Related topics
-
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)

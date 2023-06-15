@@ -37,6 +37,4 @@ The Program Setup page is the first configuration page within Program Summary. I
 1. When Team Conversations is enabled, **Enable Team Conversations Sharing** is enabled by default. **NO** disables managers from sharing this read-only version of Team Conversations.  
 1. Select the right-facing arrow symbol to **Save and continue**. 
 
-## Related topics
 
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
