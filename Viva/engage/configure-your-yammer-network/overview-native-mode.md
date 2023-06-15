@@ -14,10 +14,10 @@ ms.custom: Adm_Yammer
 search.appverid: 
 - MOE150
 - MET150
-description: "Learn about Native Mode for Microsoft 365."
+description: "In this article, you can learn about Native Mode for Microsoft 365."
 ---
 
-# Overview of Native Mode
+# Overview of Native Mode for Microsoft 365
 
 As of January 2020, all new Yammer Enterprise networks start in Native Mode.
 
