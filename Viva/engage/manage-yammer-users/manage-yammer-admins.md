@@ -55,7 +55,7 @@ The Yammer Administrator role is assigned in Azure Active Directory. Any user as
 
 | Function <br/> | Details <br/> |
 |:-----|:-----|
-|**Tasks** <br/> |All the tasks a Yammer Verified Admin can perform. <p>For instructions on typical tasks for Yammer Verified Admins, see [Yammer admin help](../index.yml).   |
+|**Tasks** <br/> |All the tasks a Yammer Verified Admin can perform. <p>For instructions on typical tasks for Yammer Verified Admins, see [Yammer admin help](../overview.md).   |
 |**Who can give this role to others** <br/> | Another user with the role of Global Administrator or Privileged Role Administrator.       |
 |**How is the Yammer Administrator role added or removed?** <br/> | **To assign a new Yammer Administrator, see:** [Assign admin roles for adding the role in Azure Active Directory](/microsoft-365/admin/add-users/assign-admin-roles).  |
 
@@ -64,7 +64,7 @@ The Yammer Administrator role is assigned in Azure Active Directory. Any user as
 
 | Function <br/> | Details <br/> |
 |:-----|:-----|
-|**Tasks** <br/> |All the tasks a Network Admin can do, and:    <br/><br>  Assign verified and network admin roles. Manage content policies, including monitor keywords, data retention, security settings, and reading data in private groups.<br/><br>  Export data <br/><br>  Perform integrations with other tools <br/><br> For instructions on typical tasks for  Verified Admins, see [Yammer admin help](../index.yml).|
+|**Tasks** <br/> |All the tasks a Network Admin can do, and:    <br/><br>  Assign verified and network admin roles. Manage content policies, including monitor keywords, data retention, security settings, and reading data in private groups.<br/><br>  Export data <br/><br>  Perform integrations with other tools <br/><br> For instructions on typical tasks for  Verified Admins, see [Yammer admin help](../overview.md).|
 |**Who can give this role to others** <br/> | A Global Administrator, Yammer Administrator, or Yammer Verified Admin.       |
 |**How is the Yammer Verified Admin role added or removed without granting the user Global Administrator or Yammer Administrator role in Azure Active Directory?** <br/> | **To assign a new Verified Admin:** <br> In the **Appoint Additional Admins** section, search their name, select **Make this user an admin**, and click **Submit**. Find the user in the Current Admins list, and click **Grant Verified Admin**. <br/><br>**To promote an existing Network Admin to Verified Admin:** <br>In the Yammer admin center, click **Admins**. If the user is already a network admin, their name will show up in the Current Admins list. Select **Grant Verified Admin**. <br/><br> **To change a Verified Admin  to Network Admin:** <br> In the Yammer admin center, click **Admins**. In the **Current Admins** section, in the row for the admin, click **Revoke Verified Admin**. <br/><br> **To remove all admin roles from a Verified Admin:** <br> In the Yammer admin center, click **Admins**. In the Current Admins section, in the row for the admin, click **Remove**. <br/> |
 
@@ -73,7 +73,7 @@ The Yammer Administrator role is assigned in Azure Active Directory. Any user as
 
 | Function <br/> | Details <br/> |
 |:-----|:-----|
-|**Tasks** <br/> | Configure network settings, including logo and colors, usage policy, what's included in user profiles. <p>  Manage internal users, outside guests, and unlisted groups<p>  Grant and revoke the Network Admin role <br/><br> For instructions on typical tasks for  Verified Admins, see [Yammer admin help](../index.yml). |
+|**Tasks** <br/> | Configure network settings, including logo and colors, usage policy, what's included in user profiles. <p>  Manage internal users, outside guests, and unlisted groups<p>  Grant and revoke the Network Admin role <br/><br> For instructions on typical tasks for  Verified Admins, see [Yammer admin help](../overview.md). |
 |**Who can give this role to others** <br/> | A Global Administrator, Yammer administrator, Yammer Verified Admin, or Yammer Newtwork Admin.       |
 |**How is the Yammer Administrator role added or removed?** <br/> |  **To assign a new Yammer Network Admin:** <br> In the Yammer Admin Center, click **Admins**. In the **Appoint Additional Admins** section, enter the user's name. Select **Make this user an admin**, and click **Submit**.  <br/><br> **To remove a Network Admin:** <br> In the Yammer admin center, click **Admins**. Select the user's name, and click **Remove**. <br/>  |
 

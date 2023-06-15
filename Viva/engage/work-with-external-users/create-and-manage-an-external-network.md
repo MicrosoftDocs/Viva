@@ -63,7 +63,7 @@ External networks are essentially their own networks: each has its own admin cen
 
 3. Click **Create Network**.
 
-   The top bar of your network shows that you're now in the external network. The settings icon for the external network ![Settings icon for an external network.](../media/e1f84edf-4842-4732-89b2-f7e46e4c94e1.png) has a blue circle in it.
+   The top bar of your network shows that you're now in the external network. The settings icon for the external network :::image type="icon" source="../../media/e1f84edf-4842-4732-89b2-f7e46e4c94e1.png" border="false"::: has a blue circle in it.
 
    :::image type="content" source="../../media/ea784fcd-2b12-4b4e-b9f7-20b8726b7a3b.png" alt-text="Screenshot showing top navigation for an external Yammer network.":::
   
