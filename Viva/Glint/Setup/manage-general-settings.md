@@ -1,6 +1,6 @@
 ---
 title: Admin management of the General Settings feature in Viva Glint 
-description: "Once a Viva Glint program is set up, future surveys are edited at the individual cycle (survey) level."
+description: "Global details supporting all of your programs are defined and managed in this feature."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen

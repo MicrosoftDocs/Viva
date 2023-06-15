@@ -1,6 +1,6 @@
 ---
 title: Preview and filter Employee Lifecycle programs 
-description: "Glint built a Microsoft Teams application, which enables employees to receive and reply to survey notifications directly from Teams."
+description: "Once your Viva Glint Employee Lifecycle program is set up, take these steps to set it live or edit it."
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
