@@ -93,8 +93,6 @@ As the admin, you can configure the percentage of meetings that get surveyed. Th
 ```powershell
 Set-DefaultTenantMyAnalyticsFeatureConfig -Feature Meeting-Effectiveness-Survey-Sampling-Rate -SamplingRate 0.2
 ```
-To learn more about this cmdlet, go to: . 
-
 
 ### User-level configuration
 
