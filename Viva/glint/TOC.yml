@@ -276,6 +276,9 @@
           href: reports/broader-team-insights.md
         - name: Boarder Team Insights
           href:
+          items:
+          - name: How BTI works for managers of Small Teams
+            href: 
         - name: Cross Program Intelligence
           href:
         - name: Use the Manager Concierge dashboard
