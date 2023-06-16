@@ -94,7 +94,7 @@ You can also view the parent objective that a particular objective is aligned to
 
 5. As an OKR owner, to make edits to an OKR or an initiative inline, select the edit icon next to the title, owner, type, and time period information in the list.
 
-6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a initiative.
+6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or an initiative.
 
 ## Quick view 
 
