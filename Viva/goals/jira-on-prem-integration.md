@@ -47,7 +47,7 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
     1. You will need to use the **Account UUID** and **Access token** in the Jira configuration after you install the **Microsoft Viva Goals for JIRA** app from the Atlassian Marketplace. 
     1. Switch to Jira Server or Data Center to install and configure **Microsoft Viva Goals for JIRA.**
 
-## How to install and setup Microsoft Viva Goals for JIRA from the Atlassian Marketplace
+## How to install and set up Microsoft Viva Goals for JIRA from the Atlassian Marketplace
 
 1. As a Jira Server or Data Center administrator, search for **Microsoft Viva Goals for JIRA** app from the "Find new Apps" page in JIRA.
 1. Click on the install button against the app and follow the steps in the confirm app installation popup. 
