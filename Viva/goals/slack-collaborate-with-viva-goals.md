@@ -30,6 +30,9 @@ Within the Viva Goals app, users now have the following capabilities within Slac
 - **Check-in** - Users can make check-ins to their OKRs and initiatives.
 - **Manage OKRs** - Users can create new OKRs or make edits to existing ones
 
+> [!IMPORTANT]
+> Slack is currently not supported for customers in the EU Data Boundary. We're working on this and will be available in the next 2-3 months.
+
 ## Configuring Viva Goals app for Slack 
 
 To link your Slack workspace with Viva Goals, navigate to Admin > Integrations > Slack in your Viva Goals account. Click on **Add to Slack**. Next, select the workplace from the top right corner of the page, and click on **Authorize**. 
