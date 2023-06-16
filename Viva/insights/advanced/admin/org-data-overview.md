@@ -1,5 +1,5 @@
 ---
-ms.date: 05/03/2023
+ms.date: 06/16/2023
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: lilyolason
@@ -19,7 +19,7 @@ In this article, we discuss:
 
 * The value of organizational data for analysts.
 * The two types of organizational data that the advanced insights app can use.
-* The **Organizational data** page in the app's admin experience.
+* The **Data hub** and **Organizational data** pages in the app's admin experience.
 
 ## About organizational data
 
@@ -91,7 +91,7 @@ To learn how to set up and structure an organizational data .csv file, refer to 
 
 To check on your organizational data quality, and to add new data to the advanced insights app, use the **Data hub** and **Organizational data** pages.
 
-## Data hub
+### Data hub
 
 **Data hub** is your admin landing page in the advanced insights app. You'll see a few sections here: 
 
@@ -99,7 +99,7 @@ To check on your organizational data quality, and to add new data to the advance
 * Missing or low-quality insights and data fields
 * Data source
 
-### Data quality
+#### Data quality
 
 View the number of:
 
@@ -114,11 +114,11 @@ You can also see, as a donut chart, the percentage of insights displayed based o
 
 Get the names of missing insights and missing data fields summarized in **Data quality**. To find out more about a missing insight, select its name from the **Missing or low-quality insights** column. The **Missing or low-quality data fields** column then highlights which data fields are associated with the selected insight—that is, which data fields you should include in your upload. A **Description** column provides details about the metric you selected. 
  
-### Data source
+#### Data source
 
 View your current data source, or switch to a new one. Active sources have a green checkmark beneath their description, labeled "Active." 
 
-#### Changing the active data source
+##### Changing the active data source
 
 If you want to manually upload organizational data using a .csv file, instead of using the default Azure Active Directory (Azure AD) data source, navigate to **.csv upload** beneath **Other available data sources**. Then select the **Start** button to begin a manual upload.
 
