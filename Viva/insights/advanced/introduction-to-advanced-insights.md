@@ -1,5 +1,4 @@
 ---
-
 ms.date: 06/14/2023
 title: Introduction to advanced insights
 description: Get familiar with the new advanced insights app from Microsoft Viva Insights 
@@ -101,11 +100,11 @@ For a tour of the **Organizational data** page, refer to [Organizational data ov
 
 #### Manager settings
 
-In **[Manager settings](./setup-maint/manager-settings.md)** , control who can see [organization insights](../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web. Organization insights show managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
+In **[Manager settings](./setup-maint/manager-settings.md)**, control who can see [organization insights](../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web. Organization insights show managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
 
 #### Privacy settings
 
-Use [**Privacy settings**](setup-maint/setup.md#customize-privacy-settings) to set the minimum group size, prevent sensitive keywords from appearing in any place that uses Viva Insights data, and allow end-users to opt out. To learn more about how Viva Insights keeps personal data private, refer to [Privacy](./privacy/privacy.md).
+Use [**Privacy settings**](setup-maint/setup.md#customize-privacy-settings) to set the minimum group size, prevent sensitive keywords from appearing in any place that uses Viva Insights data, and allow end users to opt out of personal insights and person queries. To learn more about how Viva Insights keeps personal data private, refer to [Privacy](./privacy/privacy.md).
 
 ## Related topics
 
