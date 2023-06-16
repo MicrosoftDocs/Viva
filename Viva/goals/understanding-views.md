@@ -23,7 +23,7 @@ description: "Learn about the customizable views to easily surface OKRs and init
 
 When you log in to your Viva Goals account, you can view all the information on your objectives and key results (OKRs) page. Use the different views to access your OKRs in different ways for different purposes.
 
-To login to Viva Goals, visit: https://goals.microsoft.com/
+To log in to Viva Goals, visit: https://goals.microsoft.com/
 
 ## What views are available in Viva Goals? 
 
@@ -90,9 +90,9 @@ You can also view the parent objective that a particular objective is aligned to
 
 3. Select the check-in icon or select the progress bar for an OKR/initiative to initiate and make a check-in. Learn more about check-ins.
 
-4. Add a key result or a initiative under an objective from the (`...`) more options menu on the row.
+4. Add a key result or an initiative under an objective from the (`...`) more options menu on the row.
 
-5. As an OKR owner, to make edits to an OKR or a initiative inline, select the edit icon next to the title, owner, type, and time period information in the list.
+5. As an OKR owner, to make edits to an OKR or an initiative inline, select the edit icon next to the title, owner, type, and time period information in the list.
 
 6. Select the more options (`...`) icon on the list-view row to perform additional actions like close, postpone, edit alignment and more on an OKR or a initiative.
 
