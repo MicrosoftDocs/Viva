@@ -1,5 +1,5 @@
 ---
-ms.date: 03/09/2023
+ms.date: 06/16/2023
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: lilyolason
@@ -184,7 +184,7 @@ The following levels of permission provide access to the Viva Insights data:
 
 Advanced insights, like other products that work with sensitive data (for example, HR systems) isn't meant for the general workforce. Rather, its users are expected to have training on how to handle sensitive information. Training should be specific to your organization. Suggested topics might include your organization’s HR policies, employee privacy policy, how to handle and store sensitive data, and insider trading. 
 
-An Insights Analyst can access information within advanced insights. People assigned this role can run query data with meeting and email information—which falls under the category of non-identifying data—for analysis. However, if you choose to provide personal data, the analyst can discern whose metrics are being computed. So, it's important that these analysts are provided the requisite training before they're given access to Viva Insights. Additionally, Viva Insights logs all queries that analysts author, which allows you to audit them for consistency with your organizational policies and any DPIA that you completed. 
+An Insights Analyst can access information within advanced insights. People assigned this role can run query data with meeting and email information—which falls under the category of non-identifying data—for analysis. However, if you choose to provide personal data, the analyst can discern whose metrics are being computed. So, it's important that these analysts are provided the requisite training before they're given access to Viva Insights. Additionally, Viva Insights logs all queries that analysts author, which allows you to audit them for consistency with your organizational policies and any data protection impact assessments (DPIA) that you completed. 
 
 The tenant administrator provisions the Insights Analyst role. 
 
@@ -268,7 +268,7 @@ To the extent your organization is subject to GDPR, planning your analysis is a 
 
 ### Data protection impact assessments (DPIA) 
 
-Your legal or HR personnel can advise on whether a DPIA is warranted to determine whether the projects benefits outweigh the potential risks. 
+Your legal or HR personnel can advise on whether a DPIA is warranted to determine whether the project's benefits outweigh the potential risks. 
 
 The degree of privacy risk to employees and other users in your organization is largely within your control. That risk depends primarily on the organizational dataset that you'll import into Viva Insights and how you'll use that data. 
 
