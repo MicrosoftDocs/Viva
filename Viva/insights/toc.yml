@@ -26,6 +26,8 @@ items:
           items: 
             - name: Introduction
               href: personal/overview/mya-for-admins.md
+            - name: Admin tasks for personal insights
+              href: personal/teams/viva-teams-app-admin-tasks.md
             - name: Deployment guide
               href: personal/setup/deployment-guide.md
             - name: Setup
