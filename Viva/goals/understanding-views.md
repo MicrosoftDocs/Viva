@@ -78,7 +78,7 @@ You can also view the parent objective that a particular objective is aligned to
 - **Group by** - The grouping option lets you streamline your OKR and initiative view even further. You can group your OKR or initiative list in the following categories:
 
     - Time period
-    - Entity
+    - Team
     - Owner
     - Status
 
