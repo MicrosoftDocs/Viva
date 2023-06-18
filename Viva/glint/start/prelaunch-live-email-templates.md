@@ -88,9 +88,9 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 
 Dear **[First Name]**, 
 
-On **[Date]**, we will launch a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. Together, we'll take consistent and deliberate action to create positive change based on your input. 
+On **[Date]**, we'll launch a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. Together, we'll take consistent and deliberate action to create positive change based on your input. 
 
-At **[Company Name]**, we strive to meet ambitious targets that help us stand out in the marketplace and distinguish us as an exemplary employer. To achieve these objectives, we focus on innovation and operational efficiency **[adjust based on company focus areas]** and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, and expend extra effort toward their performance. Positive behaviors will make a difference to our business. 
+At **[Company Name]**, we strive to meet ambitious targets that help us stand out in the marketplace and distinguish us as an exemplary employer. To achieve these objectives, we focus on innovation and operational efficiency **[adjust based on company focus areas]** and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, and expend extra effort toward their performance. Positive behaviors make a difference to our business. 
 
 **[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about your happiness at work is paramount to the success of any organization. Watch for a survey invitation and additional details in the days ahead.
 
@@ -114,11 +114,11 @@ Dear **[First Name]**,
 
 Employee engagement is a key focus of our executive team. **[Update your company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, see a connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 
-Our **[Name]** Survey will be live from **[date-date]** and will help us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
+Our **[Name]** Survey is live from **[date-date]** and will help us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
 
 **[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
 
-You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You are essential to creating an environment where people feel heard and empowered to help drive success. 
+You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You're essential to creating an environment where people feel heard and empowered to help drive success. 
 
 Take these actions to help support your organization, managers, and employees before, during and after the **[Name]** Survey: 
 
@@ -127,7 +127,7 @@ Take these actions to help support your organization, managers, and employees be
 - Take ownership of your results and use them as a catalyst for ongoing conversations with your team about what needs to be solved, who can help, and actions that drive forward progress. Hold your managers accountable for doing the same. 
 - Model best practices. 
 
-Human Resources is here to support you throughout this process. Please reach out with questions. 
+Human Resources is here to support you throughout this process. Reach out with questions. 
 
 **[Salutation]**, 
 
@@ -211,7 +211,7 @@ As a reminder, **[Company Name]**’s [Name] Survey is scheduled for **[Date]**.
 
 You play a significant role in the process, from emphasizing the survey's importance to empowering your managers to act. You are a thought partner for your managers when it comes to business and people's success. Look for opportunities to build manager capability and facilitate team connections to drive improvements. 
 
-We are here to support you throughout this process. Please reach out with questions. 
+We're here to support you throughout this process. Reach out with questions. 
 
 **[Salutation]**, 
 
