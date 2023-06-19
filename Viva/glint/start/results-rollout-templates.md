@@ -236,8 +236,8 @@ The ACT conversation tools within Viva Glint help you work together on areas t
 
 |Summary of​ Company-Level Actions​|Summary of Business Unit Actions|
 |-----------|-----------|
-| **High-level finding company #1**​ | **High-level finding about BU #1**|​  
-| **High-level finding company #2**​ | **High-level finding about BU #2** |​ 
+| High-level finding company #1​ | High-level finding about BU #1|​  
+| High-level finding company #2| High-level finding about BU #2|​ 
   
 **Take Action** ​ 
 
@@ -283,8 +283,8 @@ Keep in mind the company and business unit commitments and align as appropriat
 
 |Summary of​ Company-Level Actions​| Summary of Business Unit Actions|
 |-----------|-----------|
-| **High-level finding company #1**​ |**High-level finding about BU #1**|​  
-| **High-level finding company #2**​ |**High-level finding about BU #2** |​  
+| High-level finding company #1​ |High-level finding about BU #1|​  
+| High-level finding company #2|High-level finding about BU #2|​  
 
 **Action Taking** ​ 
 Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure its long-term success. ​ 
