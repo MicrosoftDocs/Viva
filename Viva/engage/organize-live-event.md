@@ -1,14 +1,15 @@
 ---
-title: "Organize a Microsoft Teams powered live event in Viva Engage"
-f1.keywords:
-- NOCSH
+ms.date: 06/19/2023
+title: "Organize a Viva Engage live event"
+description: "Learn what's needed for group admins to host live video events for Viva Engage users."
+ms.reviewer:ethli
+title: "Organize a live event in Viva Engage"
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 05/31/2023
 audience: Admin
 ms.topic: overview
-ms.service: yammer
+ms.service: viva
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 ms.collection:
@@ -17,17 +18,11 @@ ms.collection:
 - highpri
 search.appverid:
 - MET150
-- MOP150
-- MOE150
-- MEW150
-- MED150
-ms.assetid: 4ece0ee2-c268-4636-bf2a-16e454befe57
-description: "Learn what's needed for group admins to host live video events for Viva Engage users."
 ---
+
 # Organize a Microsoft Teams powered live event in Viva Engage 
 
-> Viva Engage has partnered with Teams to provide the best technology for running your live event. Microsoft Viva Engage uses Microsoft Teams to process and record video for all live events. To understand how Viva Engage and Teams work together, see 
-[Overview of live events](/microsoftteams/teams-live-events/what-are-teams-live-events).
+> Viva Engage has partnered with Teams to provide the best technology for running your live event. Microsoft Viva Engage uses Microsoft Teams to process and record video for all live events. To understand how Viva Engage and Teams work together, see [Overview of live events](/microsoftteams/teams-live-events/what-are-teams-live-events).
 >
 > This article provides guidance for Viva Engage group admins to produce the best live event experiences for their groups and communities. If you're planning a large event (up to 100,000 attendees), the Microsoft 365 live events assistance team can give you the best options for your live event. [Learn more about this program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
 >
