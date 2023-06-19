@@ -234,7 +234,7 @@ The ACT conversation tools within Viva Glint help you work together on areas t
 
 **Planned Actions Summaries**
 
-|**Summary of​ Company-Level Actions​**|**Summary of Business Unit Actions**|
+|Summary of​ Company-Level Actions​|Summary of Business Unit Actions|
 |-----------|-----------|
 | **High-level finding company #1**​ | **High-level finding about BU #1**|​  
 | **High-level finding company #2**​ | **High-level finding about BU #2** |​ 
@@ -281,7 +281,7 @@ Following the meeting, you should have chosen one to two focus areas for action 
 
 Keep in mind the company and business unit commitments and align as appropriate.​ ​ 
 
-|**Summary of​ Company-Level Actions​**| **Summary of Business Unit Actions**|
+|Summary of​ Company-Level Actions​| Summary of Business Unit Actions|
 |-----------|-----------|
 | **High-level finding company #1**​ |**High-level finding about BU #1**|​  
 | **High-level finding company #2**​ |**High-level finding about BU #2** |​  
