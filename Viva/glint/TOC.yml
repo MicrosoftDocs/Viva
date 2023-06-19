@@ -91,14 +91,14 @@
           href: setup/set-up-user-roles.md
           items:
           - name: Import and export User Roles
-            href: setup/import-export-user-roles.md
-          - name: Delete user data from Viva Glint
-            href: setup/delete-user-data.md                
+            href: setup/import-export-user-roles.md               
         - name: Use the People page to view employee information
           href: setup/people-page.md
           items:
           - name: Export of employee data and raw survey responses
             href:
+          - name: Delete user data from Viva Glint
+            href: setup/delete-user-data.md 
         - name: Set up and use Distribution lists in Viva Glint
           href: setup/set-up-distribution-lists.md
           items:
