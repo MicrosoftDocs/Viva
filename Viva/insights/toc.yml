@@ -18,7 +18,7 @@ items:
           href: get-insights-support.md  
       - name: Personal insights
         items:
-        - name: Teams FAQ
+        - name: Personal insights app in Teams and web FAQ
           href: personal/teams/faq.md                      
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
