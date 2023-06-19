@@ -27,6 +27,8 @@ description: "Learn how to use audience targeting in Viva Connections to persona
 
 Learn more about the ways audience targeting can be used to make sure the right audiences see the right content in [Viva Connections](viva-connections-overview.md). Audience targeting can be applied to the three components that make up Viva Connections – the dashboard, the Feed, and the Resources.
 
+You can make sure that your content is seen by the right people by using audience targeting within your Viva Connections experience, which is detailed in this article. You can also create separate Viva Connections experiences for different audiences. [Learn about the difference between audience targeting and different experiences](set-up-admin-center.md#when-to-use-a-separate-experience-vs-dashboard-card-level-targeting).
+
 > [!NOTE]
 >
 > - Audience targeting filters content but is not meant to manage permissions, access, or secure confidential content.
