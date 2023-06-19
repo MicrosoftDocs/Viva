@@ -22,7 +22,7 @@ audience: Admin, user
 
 *Applies to: people with a premium Viva Insights subscription and one or more people directly reporting to them*
 
-Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find team meeting habits on the [Productivity](../personal/teams/productivity.md) tab
+Find insights and suggested actions based on your personal habits as a manager throughout the Microsoft Viva Insights app in Teams and on the web. In addition to providing information about how teams are built, this article gives a quick overview about insights you'll find about team meeting habits on the [Productivity](../personal/teams/productivity.md) tab.
 
 Throughout this document, we'll link you to where you can find more detailed information.
 
@@ -44,8 +44,8 @@ Team insights and its features (as described on this page) are available users
 
 Refer to these articles to install, pin, and configure the app in Teams:
 
-* [Install and pin the app](../personal/teams/viva-teams-app-install.md)
-* [Configure the app](../personal/teams/settings.md)
+* [Install and pin the app](https://support.microsoft.com/topic/discover-and-pin-the-viva-insights-app-3b8db3ff-17b7-4d41-b2eb-f593530abfc7)
+* [Configure the app](https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5)
 
 ## About teams
 
