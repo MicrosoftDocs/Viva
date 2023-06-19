@@ -245,7 +245,7 @@ If the example organization creates another experience scoped to a subset of the
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
-   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen that shows order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
 ### Step 5: Configure the dashboard
 

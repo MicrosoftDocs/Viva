@@ -174,6 +174,7 @@ The dashboard should focus on the most important tasks. Tasks that are specific 
 
 >
 | Information workers   | Frontline workers  |
+|-----------------------|--------------------|
 | ![Image of the Viva Connections dashboard designed for frontline workers.](../media/connections/dashboard-information-worker.png) |  ![Image of the Viva Connections dashboard designed for information workers.](../media/connections/dashboard-frontline.png) |
 >
 #### Content for planning Dashboards
