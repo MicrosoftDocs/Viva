@@ -168,7 +168,7 @@ Here’s how you might do that:
    1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
    1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
    1. **More settings**: You want this query to be grouped by month, not week. Select **More settings**, then change **Group by to Month**.
-2. Add metrics.
+1. Add metrics.
    1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
    1. Because you want to add metrics about collaboration after hours, expand the **After hours collaboration** metric category. 
    1. Select the **After hours email hours** and **After hours instant messages** metrics.
