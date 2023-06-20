@@ -20,9 +20,7 @@ items:
     - name: Assign a Viva Pulse admin in the Microsoft 365 admin center
       href: setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md
     - name: Manage, install, and pin Viva Pulse in the Teams admin center
-      href: setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center.md
-    - name: Set up Viva Pulse Public Preview for your organization
-      href: setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md      
+      href: setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center.md     
     - name: Set up the in-app Viva Pulse experience
       href: setup-admin-access/set-up-in-app-pulse-experience.md
     - name: Access Viva Pulse in Microsoft Teams or web

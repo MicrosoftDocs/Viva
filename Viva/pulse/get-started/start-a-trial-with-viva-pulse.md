@@ -34,7 +34,7 @@ How to sign up for a trial in the [Microsoft 365 admin center](https://admin.m
 5. Select **Get free trial**.
 6. Follow the remaining wizard steps to confirm the trial.
 
-You can also sign up for the trial from the [Microsoft Viva trial site](https://www.microsoft.com/en-us/microsoft-viva/trial).
+You can also sign up for the trial from the [Microsoft Viva trial site](https://www.microsoft.com/microsoft-viva/trial).
 
 These admin-led trials are available worldwide. They are not available for Microsoft 365 Government customers.
 
@@ -67,4 +67,4 @@ To ensure continuity of service, you must purchase the required number of licens
 
 You must move users from your free trial subscription to the new subscription **before your 90-day grace period ends**. By doing this, you keep your data, accounts, and configuration. Otherwise, that information is deleted.
 
-To learn more about Microsoft trials and subscriptions, please visit [Try or buy a Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide).
+To learn more about Microsoft trials and subscriptions, please visit [Try or buy a Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365).
