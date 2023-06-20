@@ -1,6 +1,6 @@
 ---
 
-ms.date: 07/15/2022
+ms.date: 06/20/2023
 title: Assign licenses overview
 description: Get an overview about assigning licenses to Microsoft Viva Insights users 
 author: lilyolason
@@ -76,24 +76,11 @@ For a user to appear in query results, two things need to happen:
 
 Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios, and whether the user would be included in query results:
 
-
-
-
-Query time period
-	Query run date  
-	Is the user included in query results?
-
-January 1 through March 31
-	March 31 
-	Yes
-
-January 1 through March 31
-	April 2
-	No
-
-January 1 to June 30 
-	June 30  
-	No
+|Query time period| Query run date| Is the user included in query results?|
+|-----------------|-------------|-----|
+|January 1 through March 31|March 31 |Yes
+|January 1 through March 31|April 2|No|
+|January 1 to June 30|June 30|No
 
 Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
 
