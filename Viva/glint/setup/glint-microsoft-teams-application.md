@@ -67,7 +67,7 @@ Without having to apply an active survey - which might affect response rates - a
 5. Select **Preview Survey**.   
 
 >[!NOTE]
-> ou will not receive the Teams preview unless you are certain that you have enabled Microsoft Teams in the Communications section of General Settings. 
+> You will not receive the Teams preview unless you are certain that you have enabled Microsoft Teams in the Communications section of General Settings. 
 
 ## Export a list of Glint enabled users for Microsoft Teams 
 
