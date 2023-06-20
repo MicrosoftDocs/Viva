@@ -46,7 +46,7 @@ In the **Analysis** page's **Query setup** section, you define some basic inform
       
    1. Optional – Type a **Description**.
    
-    1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+   1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
 
        Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
        
