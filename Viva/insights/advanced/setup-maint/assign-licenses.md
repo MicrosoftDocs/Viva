@@ -76,13 +76,13 @@ For a user to appear in query results, two things need to happen:
 
 * The analyst needs to run a query while a user is licensed.
 
-Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios, and whether the user would be included in query results:
+Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios and whether the user would be included in query results:
 
 |Query time period| Query run date| Is the user included in query results?|
 |-----------------|-------------|-----|
-|January 1 through March 31|March 31 |Yes
+|January 1 through March 31|March 31 |Yes |
 |January 1 through March 31|April 2|No|
-|January 1 to June 30|June 30|No
+|January 1 to June 30|June 30|No |
 
 ## Related topics
 
