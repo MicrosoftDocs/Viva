@@ -44,7 +44,7 @@ In the **Analysis** page's **Query setup** section, you define some basic inform
       >[!Note]
       >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
       
-    1. Optional – Type a **Description**.
+   1. Optional – Type a **Description**.
    
     1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
 
