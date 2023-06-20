@@ -17,9 +17,6 @@ search.appverid: MET150
 
 # Prerequisites and admin roles
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
-
 ## Prerequisites
 
 You will need to have Microsoft Teams deployed for your organization to use Viva Pulse in Microsoft Teams. Viva Pulse will also be available as a web experience for which users will not need a Microsoft Teams application.

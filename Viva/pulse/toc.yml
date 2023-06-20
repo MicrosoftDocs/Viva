@@ -3,6 +3,10 @@ items:
   href: introduction-to-viva-pulse.md
 - name: Get started with Viva Pulse
   items:
+    - name: Licensing requirements
+      href: get-started/licensing-requirements.md
+    - name: Start a trial with Viva Pulse
+      href: get-started/start-a-trial-with-viva-pulse.md      
     - name: Privacy and data protection
       href: get-started/privacy-and-data-protection.md
     - name: Data residency for Viva Pulse

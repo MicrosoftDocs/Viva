@@ -17,9 +17,6 @@ search.appverid: MET150
 
 # Introduction to Microsoft Viva Pulse
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
-
 Microsoft Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
 
 ![Viva Pulse Homepage](../media/pulse/viva-pulse-homepage.png)

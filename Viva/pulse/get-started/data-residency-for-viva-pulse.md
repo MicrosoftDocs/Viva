@@ -17,9 +17,6 @@ search.appverid: MET150
 
 # Data residency for Viva Pulse
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](../setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
-
 ## Summary
 
 Service documentation: [Microsoft Viva Pulse overview](../introduction-to-viva-pulse.md)

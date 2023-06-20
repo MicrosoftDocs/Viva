@@ -17,9 +17,6 @@ search.appverid: MET150
 
 # Set up the in-app Viva Pulse experience
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
-
 The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
 
 ## Privacy and confidentiality
@@ -88,4 +85,6 @@ As an admin, you can delete a user’s past Pulse requests and responses on the 
 2. Search for the user that requested their data be deleted by using the search bar and select that user in the populated options.
 3. Select **Delete user data**.
 4. Select **Delete user data** again in the confirmation box.
-5. You receive a message that says **Pulse data record pending deletion**. Deletions can take up to a few minutes.
+5. You will see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
+6. Once the deletion is successful, the status of the deletion will change to **‘Deleted’**.
+7. If the deletion was unsuccessful, then the status of the deletion will change to **‘Not Deleted’**. In this instance, please try the deletion again.

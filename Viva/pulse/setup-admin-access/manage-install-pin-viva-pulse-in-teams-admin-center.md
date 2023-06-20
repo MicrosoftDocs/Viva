@@ -17,9 +17,6 @@ search.appverid: MET150
 
 # Manage, install, and pin Viva Pulse in the Teams admin center
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
-
 The following settings are optional and are not required to be completed before users in the organization can start using Viva Pulse. You must be a Microsoft 365 Global Admin or a Teams Admin for the following tasks.
 
 ## Control access to Viva Pulse
