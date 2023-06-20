@@ -40,3 +40,11 @@ A3. If you don't see results for a meeting organizer, then that organizer has op
 
 A4. Your admin might have suppressed certain sensitive keywords. If a meeting title contained one of those keywords, then query results don't show that meeting title.
 
+### Q5. Why isn't a user showing up in query results?
+
+Licensing might be a factor. For a user to appear in query results, two things need to happen:
+
+* The user needs to be licensed during the entire length of the query’s time period.
+* The analyst needs to run a query while a user is licensed.
+
+If you have questions about user licensing, contact your Microsoft 365 admin and your Insights Administrator.
