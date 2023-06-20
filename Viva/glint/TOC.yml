@@ -95,7 +95,7 @@
         - name: Use the People page to view employee information
           href: setup/people-page.md
           items:
-          - name: Export of employee data and raw survey responses
+          - name: Raw data requests and handling
             href:
           - name: Delete user data from Viva Glint
             href: setup/delete-user-data.md 
