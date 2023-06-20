@@ -1,11 +1,11 @@
 ---
-ms.date: 06/19/2023
 title: "Organize a Viva Engage live event"
 description: "Learn what's needed for group admins to host live video events for Viva Engage users."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
+ms.date: 06/19/2023
 audience: Admin
 ms.topic: overview
 ms.service: viva
