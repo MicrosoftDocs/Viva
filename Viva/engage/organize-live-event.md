@@ -2,8 +2,7 @@
 ms.date: 06/19/2023
 title: "Organize a Viva Engage live event"
 description: "Learn what's needed for group admins to host live video events for Viva Engage users."
-ms.reviewer:ethli
-title: "Organize a live event in Viva Engage"
+ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
@@ -77,7 +76,7 @@ For more information, see [Enforce Office 365 identity for Viva Engage users](/y
 
 
 ## Configure video and permissions in advance
-Before you can create a live event, you need to configure video, community, and user permissions. You'll want to add users, update video permissions, and change a community from private to public. Permissions take up to two hours to propagate across Teams and Viva Engage. 
+Before you can create a live event, you need to configure video, community, and user permissions. These tasks include adding users, updating video permissions, and changing a community from private to public. Permissions take up to two hours to propagate across Teams and Viva Engage. 
 
 We recommend that you configure these settings at least 24 hours in advance to allow time to test and adjust your settings.   
 
@@ -91,8 +90,7 @@ Enlist helpers for the key roles: organizer, presenter, and attendee. If you pro
 
 You can prevent the creation of live events produced in teams, live events produced with other tools, or both.
 
-- To prevent creation of live events produced in Teams, remove permissions in Teams for live event scheduling. 
-Users who are unlicensed and unauthorized to create a live event in Teams won't have the produce in Teams option if they try to create a live event in Viva Engage.
+- To prevent creation of live events produced in Teams, remove permissions in Teams for live event scheduling. That way, unlicensed and unauthorized users won't have the produce in Teams option if they try to create a live event in Viva Engage.
 
 ## FAQ
 
@@ -157,7 +155,7 @@ Send a meeting invite in Outlook or Microsoft Teams containing the link.
 
 [Organize a live event in Viva Engage](https://support.office.com/article/organize-a-live-event-in-yammer-105dd7af-9caf-4a5e-8a44-56d203e96551)
 
-[Microsoft Teams live events overview](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a)
+[Microsoft Teams lives events overview](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a)
 
 [Get help producing a live event](https://support.office.com/article/0cedb557-cbe4-40d3-8147-112633f087eb)
 
