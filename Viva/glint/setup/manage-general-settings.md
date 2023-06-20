@@ -114,7 +114,7 @@ In this section you will:
 - Enable or disable program templates and Focus Area visibility and privacy settings. 
 - Set limits for the number of survey cycles that will show on a dashboard.  
 - Set maximum participation numbers for programs. 
-- 
+  
 Edit the following: 
 
 |**Field**| **Definition and notes**|
