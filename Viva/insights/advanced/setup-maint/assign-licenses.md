@@ -1,6 +1,6 @@
 ---
 
-ms.date: 07/15/2022
+ms.date: 06/20/2023
 title: Assign licenses overview
 description: Get an overview about assigning licenses to Microsoft Viva Insights users 
 author: lilyolason
@@ -61,12 +61,28 @@ If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you
 
 ## Appearance of newly licensed users
 
-The data that the advanced insights app with Viva Insights uses is refreshed once a week, on Sunday. The new data is then processed, which appears one day later, on Monday. This data includes the data records for licensed users. So, if you add a user license on a Tuesday, that person won't show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
+The advanced insights app with Viva Insights uses data that is refreshed once a week on Sunday. The new data is then processed and appears one day later, on Monday. This data includes the data records for licensed users. So, if you add a user license on a Tuesday, that person won't show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
-* When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
+* The user's activities appear in the results of [queries](../analyst/person-query.md) analysts run.
 
-Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
+Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle completes on the following Monday.
+
+### When users appear in query results
+
+For a user to appear in query results, two things need to happen:
+
+* The user needs to be licensed during the entire length of the query’s time period.
+
+* The analyst needs to run a query while a user is licensed.
+
+Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios and whether the user would be included in query results:
+
+|Query time period| Query run date| Is the user included in query results?|
+|-----------------|-------------|-----|
+|January 1 through March 31|March 31 |Yes |
+|January 1 through March 31|April 2|No|
+|January 1 to June 30|June 30|No |
 
 ## Related topics
 
