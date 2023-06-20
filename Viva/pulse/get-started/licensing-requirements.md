@@ -19,10 +19,10 @@ search.appverid: MET150
 
 To send a pulse, you must have a license to one of the following:
 
-1. **Viva Pulse Standalone:** A license to the Viva Pulse Standalone allows users to access Viva Pulse, and only Viva Pulse. Users with a license to the Viva Pulse Standalone will not be able to use any other Viva apps within the Viva Suite.
-2. **Viva Insights Bundle:** A license to the Viva Insights Bundle allows users to access Viva Pulse, Viva Insights, and Viva Glint. Users with a license to the Viva Insights Bundle will not be able to use any other Viva apps within the Viva Suite.
-3. **Viva Suite:** Viva Pulse will be part of the Viva Suite. A license to the Viva Suite allows users access to all applications that are part of the Viva Suite, including Viva Pulse. To learn more about the Viva apps within the Viva Suite, visit [Employee experience and engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva).
-4. **Viva Pulse Admin-led Trial:** The Viva Pulse Admin-led Trial allows Global Admins or Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users will be able to use the full functionality of Viva Pulse.
+1. **Viva Pulse Standalone**: A license to the Viva Pulse Standalone allows users to access Viva Pulse, and only Viva Pulse. Users with a license to the Viva Pulse Standalone cannot use any other Viva apps within the Viva Suite.
+2. **Viva Insights Bundle**: A license to the Viva Insights Bundle allows users to access Viva Pulse, Viva Insights, and Viva Glint. Users with a license to the Viva Insights Bundle cannot use any other Viva apps within the Viva Suite.
+3. **Viva Suite**: Viva Pulse will be part of the Viva Suite. A license to the Viva Suite allows users access to all applications that are part of the Viva Suite, including Viva Pulse. To learn more about the Viva apps within the Viva Suite, visit [Employee experience and engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva).
+4. **Viva Pulse Admin-led Trial**: The Viva Pulse Admin-led Trial allows Global Admins or Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users can use the full functionality of Viva Pulse.
 
 > [!IMPORTANT]
 > Additionally, a user must have an active license to Microsoft Forms to create and send a Pulse request. A user does not need a license to respond to a Pulse request.
