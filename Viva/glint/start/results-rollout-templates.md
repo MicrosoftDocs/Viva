@@ -234,10 +234,11 @@ The ACT conversation tools within Viva Glint help you work together on areas t
 
 **Planned Actions Summaries**
 
-|Summary of​ Company-Level Actions​|Summary of Business Unit Actions|
-|-----------|-----------|
-| High-level finding company #1​ | High-level finding about BU #1|​  
-| High-level finding company #2| High-level finding about BU #2|​ 
+|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
+|----|----|
+|High-level finding company #1​|High-level finding about BU #1|
+|High-level finding company #2|High-level finding about BU #2|
+
   
 **Take Action** ​ 
 
@@ -271,20 +272,20 @@ By now, you should have accessed your **[Name]** Survey results and scheduled 
 **ACT framework**​ 
 How do you effectively share **[Name]** Survey results and involve your team to prioritize Focus Areas and identify solutions? Use Viva Glint’s ACT Conversation Guide to help you prepare and facilitate your discussion:​ 
 
-- **A**cknowledge where we are​ 
-- **C**ollaborate on where we want to go​ 
-- **T**ake one step forward​ 
+- **Acknowledge** where we are​ 
+- **Collaborate** on where we want to go​ 
+- **Take** one step forward​ 
 
 Following the meeting, you should have chosen one to two focus areas for action taking (we recommend just one). Leverage the Viva Glint platform for suggested action plans and involve your team in developing solutions.​ 
 
 **Company and business unit actions**​ 
 
-Keep in mind the company and business unit commitments and align as appropriate.​ ​ 
+Keep in mind the company and business unit commitments and align as appropriate.​ ​
 
-|Summary of​ Company-Level Actions​| Summary of Business Unit Actions|
-|-----------|-----------|
-| High-level finding company #1​ |High-level finding about BU #1|​  
-| High-level finding company #2|High-level finding about BU #2|​  
+|Summary of​ Company-Level Actions|Summary of Business Unit Actions|
+|----|----|
+|High-level finding company #1​|High-level finding about BU #1|
+|High-level finding company #2|High-level finding about BU #2|
 
 **Action Taking** ​ 
 Acting is the largest scale missed opportunity most organizations face. Employees who don't believe action is taken are more likely to report being disengaged compared to those who believe action will be taken. Acting in a focused way can ensure its long-term success. ​ 
