@@ -61,12 +61,12 @@ If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you
 
 ## Appearance of newly licensed users
 
-The data that the advanced insights app with Viva Insights uses is refreshed once a week, on Sunday. The new data is then processed, which appears one day later, on Monday. This data includes the data records for licensed users. So, if you add a user license on a Tuesday, that person won't show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
+The advanced insights app with Viva Insights uses data that is refreshed once a week on Sunday. The new data is then processed and appears one day later, on Monday. This data includes the data records for licensed users. So, if you add a user license on a Tuesday, that person won't show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
-* When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
+* The user's activities appear in the results of [queries](../analyst/person-query.md) analysts run.
 
-Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
+Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle completes on the following Monday.
 
 ### When users appear in query results
 
