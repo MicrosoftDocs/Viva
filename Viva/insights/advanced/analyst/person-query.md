@@ -40,17 +40,13 @@ In the **Analysis** page's **Query setup** section, you define some basic inform
 
     1. Optional – Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
     1. Optional – Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
-    :::image type="content" source="../images/person-query-timeperiod.png" alt-text="Time period dropdown.":::
-    :::image type="content" source="../images/person-query-timeperiod-datepicker.png" alt-text="Time period with date pickers highlighted.":::
     1. Optional – Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
-        :::image type="content" source="../images/person-query-auto-refresh1.png" alt-text="Time period with Auto-Refresh highlighted.":::
     >[!Note]
     >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
 
     4. Optional – Type a **Description**.
 
     1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
-        :::image type="content" source="../images/more-settings.png" alt-text="Description box with More Settings button highlighted.":::
         Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
     >[!Note]
     > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
@@ -71,8 +67,6 @@ Metrics are criteria used to measure the productivity and wellbeing of employees
 
 In the **Select metrics** pane, metrics are grouped by *metric category*. Expand the categories to see which metrics they contain. Let’s say you were looking for the **After-hours scheduled call hours** and **After-hours chat hours** metrics in our earlier example. You’d find them in the **After-hours collaboration** metric category.
 
-:::image type="content" source="../images/person-query-select-metrics-pane.png" alt-text="Add metrics pane with After-hours collaboration metric category expanded":::
-
 ###### Filters, keyword search, and more information
 
 There are a few other ways you can find metrics to include in your query. You can filter by type (for example, **Activity count metrics** or **Meeting metrics**) on the left side of the pane, or use the search bar to find metrics by keyword. If you're working with [Power BI templates](./templates/introduction-to-templates.md), use **Filter by Power BI templates** to pick metrics used in particular reports.
@@ -87,8 +81,6 @@ Here’s how you add metrics to your query:
 
 3. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
-    :::image type="content" source="../images/person-query-add-metrics.png" alt-text="Select metrics section, with 'Add metrics' button highlighted":::
-
 4. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described earlier (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**.
 
     The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
@@ -97,13 +89,15 @@ Here’s how you add metrics to your query:
 
 ### Employees
 
-Once you determine what you want to know about employees, you select which employees you want to include in your query. In **Select which employees you want to include in the query**, define the employees you want to analyze through *conditions* and *condition groups*.
+After you decide what you want to know about employees, select which employees you want to include in your query. In **Select which employees you want to include in the query**, define the employees you want to analyze through *conditions* and *condition groups*.
 
 #### About conditions and condition groups
 
 A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal Contoso.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
 
 :::image type="content" source="../images/person-query-condition-group.png" alt-text="Condition group":::
+
+To learn more about filters and conditions, refer to our [Filters](filters.md) article.
 
 ##### Is Active
 
@@ -141,11 +135,10 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 6.	Select the **Select attributes** button, then:
     1. On the right pane, use the checklist to make selections.
     1. When you're done picking attributes, select the **Add to query** button.
-        :::image type="content" source="../images/person-query-select-attributes.png" alt-text="Select employee attributes section, with 'Select attributes' button highlighted":::
+    
     Attributes appear as tags in the box about the **Select attributes** button.
 
     > [!Note]
-    >
     > If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
 
 ## Running the query

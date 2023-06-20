@@ -68,8 +68,6 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 2. Select the **Add metrics** button, then pick metrics from the resulting **Select metrics** pane. When you're done picking metrics, select **Add to query**.
 
-    :::image type="content" source="../images/meeting-query-metric-pane-small.png" alt-text="Screenshot of the Select metrics pane, with metric categories expanded to show available metrics, and an Add to query button." lightbox="../images/meeting-query-metric-pane-expanded.png":::
-
     The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
 
     :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle."lightbox="../images/meeting-query-sample-metrics1.png":::
@@ -174,7 +172,6 @@ To move a condition or condition group, select the six-dot icon to the right, th
 4.	Select the **Select attributes** button, then:
     1. On the right pane, use the checklist to make selections.
     1. When you're done picking attributes, select the **Add to query** button.
-        :::image type="content" source="../images/meeting-query-add-attributes1.png" alt-text="Screenshot that shows the attributes pane with three attributes selected and the Add to query button highlighted.":::
     
     Attributes appear as tags in the box above the **Select attributes** button.
 
@@ -204,8 +201,6 @@ If an attribute appears as a *yellow* tag with a warning icon, that means the at
 ## Run the query
 
 5.	Select the **Run** button in the screen’s upper right.
-
-    :::image type="content" source="../images/run-button.png" alt-text="Screenshot that shows the Run button.":::
 
 ### To access your query results
 
