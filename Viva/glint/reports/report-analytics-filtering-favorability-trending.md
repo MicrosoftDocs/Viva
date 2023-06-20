@@ -146,6 +146,6 @@ Why not to use aggregate groupings in surveys:
 >[!CAUTION]
 > Trend is considered unreliable when it is not measuring “apples to apples” - when there are differences in the items that appear in an aggregate between the new cycle and the same aggregate in the previous cycle. Trend will be shown when at least one item is identical in the same aggregate in two cycles, but unless all items are identical, the aggregate trend is not measuring a consistent group of items and is not as reliable as single item trend data.
 
-**Additional Resources** 
+## Additional Resources
 
 [Aggregate trending examples](https://www.microsoft.com/) 
