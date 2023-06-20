@@ -18,9 +18,14 @@ audience: Admin
 # Create a custom meeting query
 
 >[!Tip]
-> You can download sample results, go through a **Show me how** explanation, and watch a how-to video about meeting queries. Select these options just above **Query setup**.
+> You can download sample results, go through a **Show me how** explanation and watch a how-to video about meeting queries. Select these options just above **Query setup**.
 
 ## Overview
+
+Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
+
+>[!Note]
+>If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
 
 To run a meeting query, you'll follow five basic steps:
 
@@ -29,12 +34,6 @@ To run a meeting query, you'll follow five basic steps:
 1. Add conditions and condition groups.
 1. Add meeting and organizer attributes.
 1. Run your query.
-
-Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
-
->[!Note]
->If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
-
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
