@@ -66,6 +66,8 @@ The data that the advanced insights app with Viva Insights uses is refreshed onc
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
 * When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
 
+Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
+
 ### When users appear in query results
 
 For a user to appear in query results, two things need to happen:
@@ -81,8 +83,6 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 |January 1 through March 31|March 31 |Yes
 |January 1 through March 31|April 2|No|
 |January 1 to June 30|June 30|No
-
-Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
 
 ## Related topics
 
