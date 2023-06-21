@@ -1230,22 +1230,22 @@
       },
       {
         "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
-        "redirect_url": "viva/insights/advanced/setup-maint/assign-user-roles",
+        "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/advanced/setup-maint/maintenance.md",
-        "redirect_url": "viva/insights/advanced/setup-maint/setup-overview",
+        "redirect_url": "/viva/insights/advanced/setup-maint/setup-overview",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/advanced/setup-maint/setup.md",
-        "redirect_url": "viva/insights/advanced/setup-maint/privacy-settings",
+        "redirect_url": "/viva/insights/advanced/setup-maint/privacy-settings",
         "redirect_document_id": false
       },
       {
         "source_path": "viva/insights/personal/setup/configure.md",
-        "redirect_url": "viva/insights/advanced/setup-maint/configure-personal-insights",
+        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights",
         "redirect_document_id": false
       }
       
