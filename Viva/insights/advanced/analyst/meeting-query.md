@@ -48,11 +48,7 @@ In this article, we talk about how to complete each of these steps, and also giv
    1. Name your query (optional). Queries are assigned a default name, which follows this format: "Activity," user ID, date, and time. Make sure the name is unique.
    1. Select a **Time period** (optional). This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
 
-      :::image type="content" source="../images/custom-date-picker.png" alt-text="Screenshot that shows the Time period field with date-picker button highlighted and selectable calendar expanded.":::
-
    1. Set the query to automatically update by selecting the **Auto-Refresh** box (optional). When you select the auto-refresh option, your query automatically runs and computes a new result every day. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
-
-      :::image type="content" source="../images/hover-auto-refresh.png" alt-text="Screenshot that shows the Time period field with Auto-Refresh box.":::
 
    1. Optional: Type a **Description**.
    
@@ -163,6 +159,7 @@ Duration| Meeting| Numerical value in the 00:00 format | Duration > 30:00|
 ### To move and delete conditions and condition groups
 
 To move a condition or condition group, take the following actions:
+
 1. Select the six-dot icon to the right.
 1. Drag the six-dot icon above or below other conditions or groups.
   
@@ -181,8 +178,6 @@ To delete a condition or condition group, select the trashcan icon to the right.
 1. When you're done picking attributes, select the **Add to query** button.
     
    Attributes appear as tags in the box above the **Select attributes** button.
-
-   :::image type="content" source="../images/meeting-query-attribute-tags.png" alt-text="Screenshot of the attribute section of query building, with tags of selected attributes in a box below." lightbox="../images/meeting-query-attribute-tags.png":::
 
 ### About meeting and organizer attributes
 
@@ -226,15 +221,11 @@ Let’s say you wanted to run a meeting query to find out how often attendees ar
    1. **Auto-Refresh**: You just want to have this run once, so leave the **Auto-Refresh** box deselected.
    1. **Description**: Other analysts in your organization might want to know more about this query, so give it a brief description.
       
-      :::image type="content" source="../images/meeting-query-sample-setup.png" alt-text="Screenshot of the Query setup section filled out with sample information." lightbox="../images/meeting-query-sample-setup.png":::
-      
 1. Add metrics.
    1. Under **Select metrics for what you want to know about your meetings**, select the **Add metrics** button.
    1. You want to know how many hours attendees spend in these meetings, so select "Attendee meeting hours" from the **Meeting impact metrics** category. 
    1. You want to know how many attendees are multitasking, so select "Number of attendees multitasking" from the **Meeting quality metrics** category.
    1. When you're done picking metrics, select the **Add to query** button. Your metrics appear as tags back in the query editor.
-
-      :::image type="content" source="../images/meeting-query-sample-metrics1.png" alt-text="Screenshot of the select metrics section of the query building process, with selected metrics as tags in a box below the section header and subtitle." lightbox="../images/meeting-query-sample-metrics1.png":::
 
 1. Specify the meetings and employees you want to analyze.
    1. Under **Select which meetings employees you want to include in the query**,  select **Add condition**.
@@ -248,8 +239,6 @@ Let’s say you wanted to run a meeting query to find out how often attendees ar
     1. Because you want to know how big each meeting is, select **Participant count** from the right pane, under the **Meetings** category.
     1. You also want to know how many multitaskers are supervisors. In the organizational data you upload to Viva Insights, you include an indicator of whether someone is a supervisor. Select that attribute under the **Organizational data** button.
     1. Select the **Add to query** button.
-
-       :::image type="content" source="../images/meeting-query-attribute-tags1.png" alt-text="Screenshot that shows selected attributes as tags in the box below the attributes section of the query builder."lightbox="../images/meeting-query-attribute-tags1.png":::
 
 1. Select the **Run** button on the upper right of the screen to run the query.
 1. After the query successfully runs, find the results on the **Query results** page. You can take these actions from the Query results page:

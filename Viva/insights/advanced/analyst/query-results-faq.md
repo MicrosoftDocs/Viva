@@ -42,9 +42,6 @@ A4. Your admin might have suppressed certain sensitive keywords. If a meeting ti
 
 ### Q5. Why isn't a user showing up in query results?
 
-Licensing might be a factor. For a user to appear in query results, two things need to happen:
-
-* The user needs to be licensed during the entire length of the query’s time period.
-* The analyst needs to run a query while a user is licensed.
+Licensing might be a factor. For a user to appear in query results, that user needs to have a license at the time the query is run.
 
 If you have questions about user licensing, contact your Microsoft 365 admin and your Insights Administrator.

@@ -35,11 +35,11 @@ The assignment of licenses affects the measured population that is shown in **Or
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, see [Environment requirements](/viva/insights/Setup/Environment-Requirements?toc=/viva/insights/advanced/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-### Subscription status
+## Subscription status
 
 Microsoft 365 users might want to find out whether their collaboration data is being processed. First, they should know that the advanced insights app with Viva Insights processes data only for users who've been assigned licenses. Next, they can determine whether they have a license with the following steps.
 
-#### Confirm an assigned license
+### Confirm an assigned license
 
 **Role** - Microsoft 365 user
 
@@ -70,19 +70,15 @@ Azure AD is the single source of truth for licensing statuses. After a user lice
 
 ### When users appear in query results
 
-For a user to appear in query results, two things need to happen:
-
-* The user needs to be licensed during the entire length of the query’s time period.
-
-* The analyst needs to run a query while a user is licensed.
+For a user to appear in query results, that user needs to have a license at the time the query is run.
 
 Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios and whether the user would be included in query results:
 
 |Query time period| Query run date| Is the user included in query results?|
 |-----------------|-------------|-----|
-|January 1 through March 31|March 31 |Yes |
-|January 1 through March 31|April 2|No|
-|January 1 to June 30|June 30|No |
+|January 1 through March 31|March 31 |**Yes.** The user was licensed at the time the query was run. |
+|January 1 through March 31|April 2|**No.** The user wasn't licensed at the time the query was run.|
+|December 1 through March 31 |March 31|**Yes.** The user was licensed at the time the query was run, even though they didn't have a license for the first month of the time period. |
 
 ## Related topics
 
