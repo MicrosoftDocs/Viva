@@ -18,6 +18,9 @@ audience: Admin
 
 # Understand and interpret query output
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 After you run a query in the advanced insights app, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
 
 ![.csv file download.](../images/WpA/Use/qd-results-download.png)

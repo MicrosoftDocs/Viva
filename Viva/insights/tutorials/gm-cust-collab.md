@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for customer collaboration
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 It is common knowledge that spending time with customers helps you better anticipate their needs and develop products and services that create value. However, many companies fail to implement effective collaboration practices with their customers.
 
 ## Why it matters

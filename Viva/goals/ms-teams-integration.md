@@ -16,6 +16,7 @@ ms.collection:
 - Strat_SP_modern
 - M365-collaboration
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how you can collaborate with Viva Goals from within Microsoft Teams"

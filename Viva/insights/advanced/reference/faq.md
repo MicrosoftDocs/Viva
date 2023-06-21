@@ -221,6 +221,13 @@ A2. You probably opened the .csv file as-is. For Excel to show the data correctl
 
 A3. You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated.
 
+### Error screens 
+
+#### Q1. I'm getting an error screen when I try to access advanced insights. Why?
+
+We've compiled a few error screens you might get in our [error reference document](errors.md), along with what might be causing them.
+
+
 ## Community and learning
 
 ##### Q1. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?

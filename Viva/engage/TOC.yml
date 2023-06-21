@@ -32,7 +32,7 @@
           href: set-up-usage-policy.md
         - name: Access the Viva Engage admin center
           href: eac-as-access-eac.md 
-        - name: Manage data in the Viva Engage admin center
+        - name: Export data in the Viva Engage admin center
           href: eac-as-manage-data.md 
         - name: Report a conversation in Viva Engage overview
           href: report-conversation-overview.md

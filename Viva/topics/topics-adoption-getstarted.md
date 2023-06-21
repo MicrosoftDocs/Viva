@@ -167,7 +167,7 @@ Build a champion network in your organization. Champions are important because t
 
 You can recruit champions from different roles – Knowledge Managers and subject-matter experts.
 
-Lots of champion networks use Yammer as their platform. In Yammer, people can post questions and get answers, and share success stories. It's hard to get the word out alone, so you can rely on the network of people throughout your company to offer advice to their peers and show how their team is using Viva Topics so other teams can think about their own scenarios.
+Lots of champion networks use Viva Engage as their platform. In Viva Engage, people can post questions and get answers, and share success stories. It's hard to get the word out alone, so you can rely on the network of people throughout your company to offer advice to their peers and show how their team is using Viva Topics so other teams can think about their own scenarios.
 
 Some organizations are using hackathons (formal or informal, virtual or in person) to gather groups of people to work on a specific project. For example, you could gather your subject-matter experts and have them work together to curate a set of topic pages.
 
@@ -175,7 +175,7 @@ Think about how you can recognize your champions. Reward their activities, give 
 
 Now that you're ready to roll out, you want to make sure that you're encouraging ongoing engagement.
 
-- Maintain active Yammer groups for your champions.
+- Maintain active Viva Engage groups for your champions.
 - Share success stories.
 - Periodically host engagement events to share stories or introduce new features.
 - Set challenges for people and run competitions.

@@ -18,6 +18,9 @@ audience: Admin
 
 # Advanced insights charts
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) data in the advanced insights app summarizes your organizational data into visual charts. The following describes these charts and information about how to use them:
 
 * [Chart types](#chart-types) describes the primary chart types.
