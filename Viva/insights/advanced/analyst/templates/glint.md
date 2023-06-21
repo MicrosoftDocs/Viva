@@ -18,7 +18,7 @@ audience: Admin
 
 *Applies to: private preview customers only*
 
-The **Viva Insights with Glint** shows how Glint survey questions and Viva Insights metrics are related. 
+The **Viva Insights with Glint** shows how [Glint survey questions and Viva Insights metrics](#viva-insights-metrics-and-glint-survey-categories) are related. 
 
 With this report, you can:
 
@@ -68,7 +68,7 @@ To protect privacy, this report doesn't show groups with fewer than ten people. 
 This report shows two main pieces of information:
 
 * The Glint score, which is how your organization responded, on average, to a particular question on the Glint survey.
-* The correlation, which is the relationship between the Glint score and a Viva Insights metric. Metrics provide productivity information about your organization's employees--for example, **Collaboration hours** or **Manager coaching hours 1:1**.
+* The correlation, which is the relationship between the Glint score and a Viva Insights metric. Metrics provide productivity information about your organization's employees--for example, **Collaboration hours** or **Manager coaching hours 1:1**. Refer to [Viva Insights metrics and Glint survey categories](#viva-insights-metrics-and-glint-survey-categories) to see how we've mapped metrics and question categories.
 
 ### About correlations and relationships
 
