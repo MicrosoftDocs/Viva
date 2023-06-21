@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -176,6 +177,10 @@ You can choose the **Card designer** option to design your own card that include
     - **Text**: Provides you the option to add only a heading.
     - **Text and image**: Provides you the option to add a heading and an image.
     - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
+
+> [!NOTE]
+> You may provide alternative text (alt text) as descriptive text which conveys the meaning and context of a visual item in a digital setting, such as on an app or web page. [Learn more about alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2). 
+
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
    >[!NOTE]
@@ -484,4 +489,3 @@ For some cards, you will use links to URLs. Depending on the location of the con
 [Step-by-step guide to setting up Viva Connections](viva-connections-setup-guide.md)
 
 [Learn more about how to plan a dashboard](plan-viva-connections.md#step-2-plan-for-viva-connections)
-

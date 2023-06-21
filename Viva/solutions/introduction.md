@@ -11,10 +11,11 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
-- highpri
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - highpri
+  - Tier1
 manager: scott.ruble
 audience: Admin
 ---
@@ -38,4 +39,3 @@ Microsoft Viva Accelerators can help you create foundation applications and work
 ## Help and feedback
 
 To give feedback about or get support for setting up and using these solutions, email the Microsoft Viva Solutions team at [vivasolutionsext@microsoft.com](mailto:vivasolutionsext@microsoft.com).
-

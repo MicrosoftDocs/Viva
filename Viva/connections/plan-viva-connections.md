@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -260,5 +261,3 @@ Generally, Viva Connections needs minimal ongoing maintenance once it's set up. 
 
 ## Next, build and customize Viva Connections for your organization
 After you meet requirements (for customers who want a home site), have a plan for the dashboard, and are prepared to help users adopt Viva Connections, it's time to [move on to the build phase](build-viva-connections.md). 
-
-

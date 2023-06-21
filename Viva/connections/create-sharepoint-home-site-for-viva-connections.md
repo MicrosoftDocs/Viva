@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -126,4 +127,3 @@ Once you’ve set a communication site as a home site, you'll be able to [enable
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
 [Plan, build, and launch Microsoft Viva Connections for your organization](plan-viva-connections.md)
-

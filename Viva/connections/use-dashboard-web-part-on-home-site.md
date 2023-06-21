@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections 
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -92,6 +93,3 @@ Once in **edit** mode, perform the following steps:
 <br>
 
 [Set up and launch Viva Connections](viva-connections-setup-guide.md)
-
-
-

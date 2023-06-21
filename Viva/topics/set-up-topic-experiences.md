@@ -7,9 +7,10 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -28,16 +29,6 @@ You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva
 
 > [!IMPORTANT]
 > If you have configured SharePoint to [require managed devices](/sharepoint/control-access-from-unmanaged-devices), you must set up Topics from a managed device.
-
-## Video demonstration
-
-This video shows the process for setting up Topics in Microsoft 365.
-
-<br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
-
-<br>
 
 ## Assign licenses
 

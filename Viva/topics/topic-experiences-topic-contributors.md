@@ -7,14 +7,15 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 localization_priority: Normal
 description: Learn how to contribute to topics in Viva Topics
-
 ---
 
 # Topic contributors: Share knowledge and expertise in Microsoft Viva Topics
@@ -167,5 +168,3 @@ Help colleagues curate topics effectively by:
 - Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 Users need the **Who can create or edit topics permissions** link to be able to edit and create new topics. If colleagues are unable to edit or create topics, they can reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
-
-

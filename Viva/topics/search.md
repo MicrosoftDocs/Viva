@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -63,4 +65,3 @@ Bookmarks and topics typically have high engagement due to them being premium fe
 ## See also
 
 [Viva Topics overview](topic-experiences-overview.md)
-

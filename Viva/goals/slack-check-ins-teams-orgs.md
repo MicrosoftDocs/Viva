@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: Check-in reminders and OKR updates
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to check in on your OKRs in Viva Goals with Slack"

@@ -11,14 +11,18 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: helayne
 audience: Admin
 ---
 
 # Integrate Slack data with Viva Insights
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](/viva/insights/advanced/introduction-to-advanced-insights.md).
 
 You can join Viva Insights query data with collaboration data from a third-party tool. In this article, we use Slack as an example of an end-to-end pipeline for Viva Insights data and a third-party data set. For additional instructions on how to use Viva Insights, refer to the [Viva Insights training resources](/training/browse/?products=m365%2Cviva-insights&expanded=viva).
   
@@ -263,4 +267,3 @@ We don't recommend setting triggers more frequently than daily. You can also set
 Once you’ve joined Viva Insights data and a third-party data set—like Slack’s—you can populate reports and visualizations to see this information in new ways. One example might be modifying the [Viva Insights Ways of working template](/Viva/insights/tutorials/power-bi-collab-assess) with a new visual, as pictured below.
 
 :::image type="content" source="./images/ways-of-working-vis.png" alt-text="Power BI report with graphs titled 'Ways of Working Assessment with Slack (inc. new view for Slack activity)'.":::
-

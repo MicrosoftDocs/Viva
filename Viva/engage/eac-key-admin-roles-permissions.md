@@ -3,9 +3,9 @@ title: "Key admin roles and permissions in Viva Engage"
 description: "Describes roles and permissions for admins in Viva Engage."
 ms.reviewer: ethli
 ms.author: mamiejohnson
-author: mamiepjohnson
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/13/2023
+ms.date: 05/11/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -47,9 +47,9 @@ The following table shows the range of actions available to Engage and Global ad
 |Permissions for Engage admin and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
 |------------|-------|-------|
 |**Manage corporate communicators**: <br> Assign or remove users as a corporate communicator  |✓ |✓ |
-|**Manage tenant and user permissions** through Yammer |✓ |✓ |
+|**Manage tenant and user permissions** |✓ |✓ |
 |**Manage data and compliance**: <br> Manage network and user data; **GDPR** delete |✓ |✓ |
-|**Manage leaders and their audiences**: <br> Assign leaders in your organization; identify audiences for the leaders identified |✓ |✓ |
+|**Manage leaders and their audiences**: <br> Assign leaders in your organization; identify audiences for the leaders identified | |✓ |
 |**Configure stories and storylines**: <br>enable storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓ |✓ |
 |**Manage sentiment analysis and other feature specific analytics**: <br> Configure level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |✓ |
 |**Add, view, and manage campaigns**: <br>create and manage campaigns; access campaign analytics dashboard|  |✓ |

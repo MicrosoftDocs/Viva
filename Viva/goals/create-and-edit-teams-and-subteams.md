@@ -3,7 +3,7 @@ ms.date: 04/05/2022
 title: Create and edit teams and subteams
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

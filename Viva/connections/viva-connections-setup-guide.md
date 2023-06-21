@@ -12,12 +12,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- intro-get-started
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-get-started
+  - highpri
+  - Tier1
 ms.custom: intro-get-started
 search.appverid:
 - SPO160
@@ -80,7 +81,13 @@ The Viva Connections app creates a custom app in Microsoft Teams. Your organizat
 Teams administrator (or higher) permissions are required.
 
 ### Step 3: Assign owners and members 
-Decide who should get access to editing elements of the landing experience. Assign at least 2 owners and a few members. If you are setting Viva Connections up for the first time, only owners of the SharePoint root site will be able to edit. When the home experience is edited for the first time, a SharePoint site on the backend will get created. You’ll want to assign (at least two) owners and members from this site to give permissions to others so they can edit the experience for the rest of the organization. [Learn more about what each role can do](edit-viva-home.md#manage-permissions).
+Decide who should get access to editing elements of the landing experience. Assign at least 2 owners and a few members. If you are setting Viva Connections up for the first time, only owners of the SharePoint root site will be able to edit. 
+
+When the Viva Connections is edited for the first time, a SharePoint site on the backend will get created when there isn't a home site. You’ll want to assign (at least two) owners and members from this site to give permissions to others so they can edit the experience for the rest of the organization. [Learn more about what each role can do](edit-viva-home.md#manage-permissions).
+
+> [!NOTE]
+> When Viva Connections is edited for the first time, a SharePoint site on the backend will get created when there isn't a home site.
+
 
 **Get started**
 1. Navigate to the Viva Connections app in Teams. 

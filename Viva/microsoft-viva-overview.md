@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 11/14/2022
+ms.date: 6/12/2023
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom: intro-overview
-ms.collection:  
-- M365-collaboration
-- M365initiative-viva
+ms.collection:
+  - M365-collaboration
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"
@@ -35,7 +36,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 
 | Experience | App  | App |
 |:-------:|-------------|------|
-|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Improve employee productivity and well-being through data-driven insights and recommendations.|
+|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|
 |**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.||
 |**Growth**|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) <br> Use AI to automatically organize content and expertise across your systems and teams.|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources|
 |**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||

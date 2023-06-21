@@ -7,9 +7,10 @@ manager: pamgreen
 audience: enabler, admin
 ms.topic: article
 ms.custom: intro-get-started
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -54,5 +55,3 @@ Topic pages provide the full detail on a topic and can be curated by anyone desi
 [Manage topics](manage-topics.md)</br>
 [Use Microsoft Search to find topic](search.md)</br>
 [Security Trimming](topic-experiences-security-trimming.md)
-
-

@@ -1,7 +1,7 @@
 ---
 title: "Learn more about Microsoft Viva apps"
 ms.reviewer: loreenl
-ms.author:  hokavian
+ms.author: hokavian
 author: Holland-ODSP
 manager: pamgreen
 ms.date: 12/16/2022
@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom:
-ms.collection:  
-- M365initiative-viva
-- m365solution-overview
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - m365solution-overview
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn about each Viva app in detail"

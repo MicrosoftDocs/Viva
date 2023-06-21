@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -166,4 +168,3 @@ When you set up topic experiences, you'll need the following items as you go thr
 [Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)
-

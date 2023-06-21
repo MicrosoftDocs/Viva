@@ -1,5 +1,5 @@
 ---
-ms.date: 04/07/2022
+ms.date: 04/07/2023
 title: "Microsoft Viva for the hybrid workplace: Onboarding employees who are new or changing roles"
 ms.reviewer: 
 ms.author: loreenl
@@ -11,8 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
+ms.collection:
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can engage your employees in a hybrid workplace with Microsoft Viva."

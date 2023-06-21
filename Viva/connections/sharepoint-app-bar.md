@@ -13,9 +13,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -277,4 +278,3 @@ Temporarily disable the SharePoint app bar:
 - Learn more about [planning](/sharepoint/planning-hub-sites) and [creating hub sites](/sharepoint/create-hub-site)
 - Learn more about [navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience)
 - Learn more about [sharing and permissions in SharePoint](/sharepoint/modern-experience-sharing-permissions)
-

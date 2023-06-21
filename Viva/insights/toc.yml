@@ -10,11 +10,15 @@ items:
         href: advanced/setup-maint/environment-requirements.md
       - name: Setup introduction
         href: advanced/setup-maint/setup-overview.md
-      - name: Support
-        href: get-insights-support.md  
+      - name: Support 
+        items:
+        - name: Error messages
+          href: advanced/reference/errors.md
+        - name: Get support for Viva Insights
+          href: get-insights-support.md  
       - name: Personal insights
         items:
-        - name: Teams FAQ
+        - name: Personal insights app in Teams and web FAQ
           href: personal/teams/faq.md                      
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
@@ -22,6 +26,8 @@ items:
           items: 
             - name: Introduction
               href: personal/overview/mya-for-admins.md
+            - name: Admin tasks for personal insights
+              href: personal/teams/viva-teams-app-admin-tasks.md
             - name: Deployment guide
               href: personal/setup/deployment-guide.md
             - name: Setup
@@ -86,6 +92,8 @@ items:
               href: advanced/analyst/meeting-query.md  
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
+            - name: Connect your data to Power BI using the Power BI connector
+              href: advanced/analyst/power-bi-connector.md   
             - name: Query results FAQs
               href: advanced/analyst/query-results-faq.md   
           - name: Templates
@@ -100,6 +108,8 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md  
+            - name: Recurring meeting audit
+              href: advanced/analyst/templates/recurring-meeting.md
             - name: Ways of working
               href: advanced/analyst/templates/ways-of-working.md            
             - name: Wellbeing - balance and flexibility

@@ -1,5 +1,5 @@
 ---
-ms.date: 3/2/2023
+ms.date: 5/30/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: hokavian
@@ -12,27 +12,26 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- intro-overview
-- highpri 
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-overview
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150f
 ms.custom: intro-overview
-description: "Learn how to use Viva Connections experience by using Viva Connections analytics."
+description: "View usage data for Viva Connections to learn more about usage trends."
 ---
 
 # View usage data for Viva Connections
 
 Understand how and when users engage with components of the Viva Connections experience by using Viva Connections analytics. Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data. To view usage data for Viva Connections, select the **Settings** gear :::image type="icon" source="../media/vc-analytics-error-setting.png"::: and then click **Manage Viva Connections**.
 
 > [!NOTE]
-> - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
@@ -41,11 +40,21 @@ People with site member (or higher) permissions to your organization’s [home s
 
 ## How to access the report
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) can view usage data.
+People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) or Viva Connections app in Teams can view usage data. 
 
-| Component | Description |
-| :------------------- | :------------------- |
-| :::image type="content" source="../media/manage-vc-panel.png" alt-text="Screenshot that shows the Manage Viva Connections."::: | 1. Navigate to your organization’s home site.<br><br> 2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png"::: icon.<br><br> 3. Then, select **Manage Viva Connections**.<br><br> 4. Next, go to the **Analytics** section and select **Download report**. |
+### To view usage data for Viva Connections from a SharePoint home site:
+
+1. Navigate to your organization’s home site. 
+2. Select the **Settings** :::image type="icon" source="../media/vc-analytics-error-setting.png"::: icon.
+3. Then, select **Manage Viva Connections**.
+4. Next, go to the **Analytics** section and select **Download report**.
+
+### To view usage data for Viva Connections from Teams:
+
+1. Navigate to your organization’s Viva Connections app in Teams. 
+2. Select the ellipsis in the top-right corner.
+3. Then, select **Download analytics**.
+
 
 ## What’s in the usage report
 
@@ -57,17 +66,17 @@ The usage report contains three separate tabs and sheets of data. Learn more abo
 
 Learn more about usage data for unique users, engaged users, and the total visits. The data on this sheet includes activity for desktop, web, and mobile usage regardless of the platform.
 
-- **Unique active users:** Total number of individual viewers across all Viva Connections platforms. This includes viewers who open the app and view the experience.
-- **Unique engaged users:** Total number of individual viewers who interact with Viva Connections experiences. This includes viewers who engage with a dashboard card, a post in the feed, or a link in resources.
-- **Total visits:** Total number of individual visits, aggregated across Viva Connections platforms.
+- **Unique users:** Total number of individual viewers across all Viva Connections apps and devices.
+- **Engaged users:** Total number of individual viewers who interact with Viva Connections components.
+- **Total visits:** Total number of all visits, aggregated across Viva Connections apps, devices, and components.
 
 ### Sheet 2: Usage by experience
 
 Learn more about the components users engage with across Viva Connections experience. The data on this sheet includes activity for desktop, web, and mobile usage. It also includes the Viva Connections [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [Feed](/viva/connections/use-feed-web-part-for-viva-connections) web parts.
 
-- **Dashboard:** The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
-- **Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
-- **Resources:** The Resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
+- **Dashboard:** The dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
+- **Feed:** The feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
+- **Resources:** The resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
  
 ### Sheet 3: Usage by platform
 
@@ -75,7 +84,7 @@ Learn more about the platforms used to access Viva Connections.
 
 - **Microsoft Teams desktop:** Usage in the Teams app for desktop or web.
 - **Microsoft Teams mobile:** Usage in the Teams app for mobile.
-- **SharePoint:** Usage with the Dashboard, Feed, and Resources in the SharePoint app for desktop, web, and mobile.
+- **SharePoint:** Views in SharePoint are limited to the Dashboard and Feed web parts viewed on the web. 
 
 
 ## How to to disable analytics features
@@ -135,4 +144,3 @@ You may get the following message: "Viva Connections usage data has been disable
 [Overview: Viva Connections](/viva/connections/viva-connections-overview)
 
 [Getting started with Microsoft Viva](/viva/getting-started-with-microsoft-viva)
-

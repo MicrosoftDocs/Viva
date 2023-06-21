@@ -13,9 +13,10 @@ metadata:
   ms.topic: hub-page # Required
   author: loreenl #Required; your GitHub user alias, with correct capitalization.
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
+  ms.date: 05/02/2023 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
-
+  ms.collection:
+    - Tier1
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
@@ -26,51 +27,62 @@ highlightedContent:
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
-    - title: Microsoft Viva blog
+    - title: Microsoft Viva community
       itemType: whats-new
-      url: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog
+      url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Introducing Microsoft Viva
       itemType: overview
       url: https://www.microsoft.com/microsoft-viva/overview
     # Card
-    - title: Using Microsoft Viva
+    - title: Microsoft Viva overview
       itemType: video
-      url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-P97FRm0LZ3Y6xQrlpkW4r
+      url: https://www.youtube.com/watch?v=J3qCWxKVfFA
 
 # tools section (optional)
 tools:
   title: Get started with Microsoft Viva
   items:
     # Card
-    - title: Microsoft Viva Topics
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: media/logos/topics-launch-c-64.svg
-      url: /viva/topics/
+    - title: Microsoft Viva Connections
+      imageSrc: media/logos/connections-launch-c-64.svg
+      url: /viva/connections/viva-connections-overview
+      
     # Card
     - title: Microsoft Viva Insights
       imageSrc: media/logos/insights-launch-c-64.svg
       url: /viva/insights/introduction
-    # Card
-    - title: Microsoft Viva Connections
-      imageSrc: media/logos/connections-launch-c-64.svg
-      url: /viva/connections/viva-connections-overview
+
     # Card
     - title: Microsoft Viva Learning
       imageSrc: media/logos/learning-launch-c-64.svg
       url: /viva/learning/
+      
+    # Card
+    - title: Microsoft Viva Topics
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: media/logos/topics-launch-c-64.svg
+      url: /viva/topics/
+
     # Card
     - title: Microsoft Viva Goals
       imageSrc: media/logos/goals-launch-c-64.svg
       url: /viva/goals/intro-to-ms-viva-goals
+
     # Card
     - title: Microsoft Viva Engage
       imageSrc: media/logos/engage-launch-c-64.svg
       url: /viva/engage/overview
+
+    # Card
+    - title: Microsoft Viva Pulse (Public Preview)
+      imageSrc: media/logos/pulse-logo.svg
+      url: /viva/pulse/introduction-to-viva-pulse
+
     # Card
     - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
-      url: /Viva/sales/introduction
+      url: /viva/experience-role
 
 # additionalContent section (optional)
 # Card with summary style

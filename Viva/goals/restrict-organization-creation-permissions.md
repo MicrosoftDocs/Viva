@@ -3,7 +3,7 @@ ms.date: 07/13/2022
 title: Restrict organization creation permissions
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

@@ -29,7 +29,7 @@ When you’re ready to start working with an organizational data file, the follo
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
+* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
 * [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ### Identify trends that you want to analyze
@@ -104,7 +104,7 @@ To upload this missing data, the admin can follow these steps:
 1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
 1. Open the .csv file.
 1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
-1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md)] for more information.
+1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md) for more information.
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
@@ -215,7 +215,7 @@ This section contains information about the attributes that you use in the organ
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
 |**OnsiteDays**| The average number of days per week an employee works from the company’s main worksite. OnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| String | `4` |Reserved|
 |**Location** | An employee’s office location.| String | `Burbank` | Reserved|
-| **My_Custom_attribute**<br> (example: **Parking_space**)| An attribute you create | String | `15D` | N/A (custom)<sup>4</sup>
+| **My_Custom_attribute**<br> (example: **Campus**)| An attribute you create | String | `West` | N/A (custom)<sup>4</sup>
 
 <sup> 1. You need to include required fields. Each required field needs non-blank values for each row.  </sup>
 
@@ -268,15 +268,17 @@ All field header or column names need to:
 
 The field values in data rows need to comply with the following formatting rules:
 
-* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
-* The required PersonId and ManagerId field values must be a valid email address (for example, `gc@contoso.com`)
-* The required Layer field values must contain numbers only
-* The required HourlyRate field values must contain numbers only, which the app assumes is in US dollars for calculations and data analysis
+* The required **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format
+* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`)
+* The required **Layer** field values need to contain numbers only
+* The required **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis
 
 ## Rules for characters in field values
 
-The following field rules apply to characters in field values:
+Here are some rules about characters in field values:
 
-* Double-byte characters, such as Japanese characters, *are* permitted in the field values.
 * The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line" (\n) characters are *not* permitted in field values.
+* “New line” (\n) characters are not permitted in field values.
+
+>[!Note]
+>You can use double-byte characters, such as Japanese characters, in the field values.

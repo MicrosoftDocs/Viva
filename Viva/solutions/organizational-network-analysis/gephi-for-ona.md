@@ -11,14 +11,18 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-insights
-ms.collection: 
-- M365-analytics
-- viva-insights
+ms.collection:
+  - M365-analytics
+  - viva-insights
+  - Tier1
 manager: helayne
 audience: Admin
 ---
 
 # Organizational network analysis with Gephi
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](/viva/insights/advanced/introduction-to-advanced-insights.md).
 
 Gephi is an open-source network analysis software that enables users to create customized network analysis measures and maps.
 

@@ -7,14 +7,15 @@ manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 ms.localizationpriority: medium
 description: Learn how to exclude topics to prevent them from being discovered in Viva Topics.
-
 ---
 
 # Restrict access to topics in Microsoft Viva Topics
@@ -47,7 +48,3 @@ Removed topics can later be added back as viewable topics if needed.
 ## See also
 
 [Security trimming in Viva Topics](topic-experiences-security-trimming.md)
-
-
-
-

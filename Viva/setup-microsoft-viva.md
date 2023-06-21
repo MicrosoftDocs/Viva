@@ -11,10 +11,11 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365-collaboration
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365-collaboration
+  - M365initiative-viva
+  - highpri
+  - Tier1
 ms.custom: intro-overview
 search.appverid:
 - MET150
@@ -121,4 +122,3 @@ The Viva Engage app is installed in Teams, but not yet available to set up from 
 [Learn how to set it up](/viva/engage/setup)
 
 [More information about Viva Engage](/viva/engage/overview)
-

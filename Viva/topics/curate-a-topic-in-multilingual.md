@@ -7,14 +7,15 @@ manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
 description: Learn how to curate topics in multiple languages using the Multilingual feature in Microsoft Viva Topics.
-
 ---
 
 # Curate Multilingual topics in Microsoft Viva Topics
@@ -79,4 +80,3 @@ The topic user's preferred language in their tenant will determine the language 
 Languages can be changed or updated through settings in the apps.
 
 ![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
-

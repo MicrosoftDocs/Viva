@@ -11,9 +11,10 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 
@@ -162,4 +163,3 @@ You need to be a Microsoft 365 administrator to deploy and install the Viva Sale
 |**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using. |
 
 For more information on these and other roles, see [Install Viva Sales](/viva/sales/install-viva-sales).
-

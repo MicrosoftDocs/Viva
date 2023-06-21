@@ -1,72 +1,104 @@
 ---
-title: Manage content in the admin tab
+title: Manage providers in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/23/2021
+ms.date: 06/07/2023
 audience: admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: Learn how to configure and view content in the Admin and My Learning tabs in Viva Learning.
 ---
 
-# Manage content in the admin tab
+# Manage providers in Viva Learning
 
-You can manage some of your Viva Learning content from within the app in Teams. Use the **Admin** tab to control Viva Learning configurations and different features. This requires knowledge manager access.  
+You can configure providers from **Manage Providers** in Viva Learning Admin. 
+
+The **Add Provider** list shows you the available providers for configuration. Once a provider is confirmed, it appears on the **Configured Providers** list. 
+
+
 
 > [!NOTE]
-> Features in the Admin tab require a Viva Suite or Viva Learning license.
-
+> Features in the Viva Learning Admin tab require both:
+> - Viva Suite or Viva Learning license
+> - Global admin, knowledge admin, or knowledge manage role
+  
 Review this article to [Learn how to assign roles](/exchange/permissions/role-group-members).
 
 To create a set of featured content that will show up for your users, select the **Create featured set** in the top left corner.
 
-![Screenshot shows the feature set inside the new admin tab for Viva Learning.](../media/learning/new-admin-tab.png)
 
 ## Managing Providers
 
-Navigate to **manage providers** for a detailed view of all configured learning providers and to manage the learning providers and respective offerings. Refer to [Manage learning management systems](../learning/configure-lms.md) and [Add other content providers](../learning/configure-other-content-sources.md) for more information.
+Navigate to **Manage Providers** for a detailed view of all configured learning providers and to manage the learning providers and respective offerings. Refer to [Manage learning management systems](../learning/configure-lms.md) and [Add other content providers](../learning/configure-other-content-sources.md) for more information.
 
 The following features are accessible by the listed admin roles: 
 
-**Manage Providers**: global admin, knowledge admin, knowledge manager
+**Manage Providers**: global admin, knowledge admin, knowledge manager (read only)
 **Admin Tab**: global admin, knowledge admin, knowledge manager 
 
-Once an admin configures a learning source on the M365 Admin center, the configured provider is reflected immediately in the **manage providers** section in the Viva Learning admin tab. 
+
+### Manage Providers Configuration 
 
 
-:::image type="content" source="../media/learning/admin-tab-manage-providers.png" alt-text="Screenshot shows the manage providers options inside the new admin tab for Viva Learning." lightbox="../media/learning/admin-tab-manage-providers.png":::
+You can configure providers using **Manage providers** in Viva Learning Admin. The **Add providers** list displays the available providers for configuration. 
+Once a provider is configured, it appears in the **Configured providers** list. 
 
->[!NOTE]
-> Set up the learning provider and manage content sources for Microsoft Viva Learning in the Microsoft 365 Admin center.
+Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](/exchange/permissions/role-group-members) to Learn how to assign roles. 
 
 
-Track the current sync status, last successful sync time, ingestion logs, and trigger full sync for each component in the expanded view:
+You can edit or delete an existing configured provider directly from **Manage providers**. 
 
-- **Sync status and timestamp**: Check the current sync status (success/failed/in progress) of content, learner record sync, and catalog permissions sync for a specific source. Admins can see the sync status and sync completion timestamp for the following:
-    - **Content sync:** Content sync, sync status, and sync status are available for all providers (LMS, 3P, Global, and SharePoint).
-    - **Learning record sync**: LRS status and sync completion timestamp are currently only available for SAP SuccessFactors. We will be extending this to Saba and Cornerstone in upcoming releases.
+> [!NOTE]
+> If you delete all learning providers, the Viva Learning Teams app will be empty.
 
-- **Manual sync trigger**: Trigger the full sync manually for SuccessFactors (content, LRS) and Workday (content). Once a full sync is triggered, the current sync status will be updated accordingly.
+![Screenshot that shows the Manage Providers options inside Viva Learning.](../media/learning/admin-tab-manage-providers.png) 
 
-- **Export log**: Admins can refer to the **export log file** for a summary of details successful or failed content ingestion for LMS, 3Ps, and SharePoint. Export logs are not yet available for LRS and catalog permissions sync.
+1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://vivalearning.microsoft.com).
+
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. 
+  
+1. Select **Add Provider**. 
+
+1. Select the provider you want to configure and select **Next**. 
+
+1. Add provider configurations as applicable and select **Save**. This adds the provider in the **Configured providers** list. 
+
+You can track the current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view:
+
+ - **Sync status** and **timestamp**: Check the current sync status (success/failed/in progress) of catalog, learner records, and catalog permissions.  
+    
+ - **Manual sync trigger**: Trigger the sync manually for a delta/full sync. Once a full sync is triggered, the sync status is updated accordingly. 
+
+ - **Export log**: Admins can refer to the export log file for a detail about successful and failed sync cycles. 
+
+> [!NOTE]
+> The sync status, sync time stamp and export logs are only currently available for catalog sync for all providers. 
+>Sync status and sync timestamp for learner records are only available for SAP SuccessFactor. Manual sync trigger is only available for catalog in SharePoint and SAP SuccessFactor.
 
 ## How content shows up in the My Learning page
 
-The **My Learning** tab helps users take control of their learning journey. Users will be able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.
+The **My Learning** tab helps users take control of their learning journey. Users are able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.
 
-- **Recommended to you**: Recommendations from your peers will show up here.
+- **Recommended to you**: Recommendations from your peers show up here.
 
 - **Bookmarks**: Content bookmarked by the user will be shown here.
 
-- **Recently viewed**: The user's 20 most recently viewed items will be shown under this tab. The most recently viewed item is shown first.
+- **Recently viewed**: The user's 20 most recently viewed items are shown under this tab. The most recently viewed item is shown first.
 
-- **Completed**: Courses completed by the user will show under this tab.
+- **Completed**: Courses completed by the user show under this tab.
+
+## Feature sets
+
+To create a set of featured content that will show up for your users, select **Create featured set** in the top left corner. 
+
+![Screenshot of the create feature set within Viva Learning.](../media/learning/feature-set.png)

@@ -3,7 +3,7 @@ ms.date: 10/31/2022
 title: Slack troubleshooting and support
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to get support with the Viva Goals Slack Integration"

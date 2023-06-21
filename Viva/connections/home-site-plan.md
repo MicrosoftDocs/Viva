@@ -13,12 +13,13 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: medium
-ms.collection:  
-- Strat_SP_admin
-- M365-collaboration
-- m365solution-scenario
-- m365solution-spintranet
-- m365initiative-viva-connections  F
+ms.collection:
+  - Strat_SP_admin
+  - M365-collaboration
+  - m365solution-scenario
+  - m365solution-spintranet
+  - m365initiative-viva-connections  F
+  - Tier1
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -185,4 +186,3 @@ At this time, each organization can have only one home site.
 Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book 
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
-

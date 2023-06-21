@@ -3,7 +3,7 @@ ms.date: 03/30/2023
 title: Viva Goals Setup and Administration Deployment Guide
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
