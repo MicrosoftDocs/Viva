@@ -44,20 +44,19 @@
         - name: Viva Glint Glossary
           href:         
    - name: Setup and administration
-     items: 
-     - name: Admin management of the General Settings feature in VIva Glint
-       href: setup/manage-general-settings.md
-       items:     
-        - name: Configure SFTP IP addresses in Viva Glint
-          href: setup/configure-sftp.md
-        - name: Set up the Allowed List to enable Viva Glint email delivery
-          href:
-        - name: Login into a survey with attributes - without SSO or email
-          href:
-        - name: Implement Single Sign On for Viva Glint
-          href:
-        - name: Manage language translations
-          href: setup/language-translations.md            
+     items:    
+     - name: Configure SFTP IP addresses in Viva Glint
+       href: setup/configure-sftp.md
+     - name: Create a SSH key pair for SFTP
+       href: 
+     - name: Set up the Allowed List to enable Viva Glint email delivery
+       href:
+     - name: Set up attribute-based survey access
+       href:
+     - name: Access Viva Glint with Azure Active Directory
+       href:
+     - name: Manage language translations
+       href: setup/language-translations.md            
      - name: Prepare and upload your employee data
        href: 
        items:
@@ -75,18 +74,11 @@
           href: setup/upload-employee-attributes.md
         - name: Understand file upload errors and warning in Viva Glint 
           href: setup/error-messages.md
-     - name: Prepare your data for a HRIS migration
-       href: 
-       items:           
-        - name: Migrate to a new HRIS
-          href:
-        - name: Data Review and Testing for HRIS Migration
-          href:
-     - name: Platform settings
+     - name: Platform features and settings
        href: 
        items:
-        - name: AAD GENERAL DISCUSSION
-          href:
+        - name: Admin management of the General Settings feature in VIva Glint
+          href: setup/manage-general-settings.md
         - name: Set up Viva Glint User Roles
           href: setup/set-up-user-roles.md
           items:
