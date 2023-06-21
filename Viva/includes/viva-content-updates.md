@@ -2,6 +2,46 @@
 
 
 
+## Week of June 12, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/12/2023 | [Answers admin scenarios in Viva](/viva/engage/eac-answers-admin-scenarios) | modified |
+| 6/12/2023 | [Overview and setup of Answers in Viva](/viva/engage/eac-answers-overview-setup) | modified |
+| 6/12/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 6/12/2023 | [Export topics created in Viva Engage with PowerShell](/viva/topics/export-topics-powershell) | modified |
+| 6/13/2023 | [Microsoft Viva language support](/viva/viva-language-support) | modified |
+| 6/13/2023 | [Partitions in Viva Insights](/viva/insights/advanced/admin/partitions) | modified |
+| 6/14/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
+| 6/14/2023 | [Define KR Types in Viva Goals](/viva/solutions/viva-goals-healthy-okr-program/kr-types) | renamed |
+| 6/14/2023 | [Power BI Integration](/viva/goals/power-bi-integration) | modified |
+| 6/14/2023 | [Manage Catalog Access](/viva/learning/manage-catalog-access) | modified |
+| 6/14/2023 | [Microsoft Viva solution center](/viva/solutions/solutions) | modified |
+| 6/15/2023 | [Use Viva Glint's Multi-Attribute Export report for admins](/viva/glint/reports/multi-attribute-export-report) | added |
+| 6/15/2023 | [Make the most of Viva Glint reporting features](/viva/glint/reports/report-analytics-filtering-favorability-trending) | added |
+| 6/15/2023 | [Configure SFTP IP addresses in Viva Glint](/viva/glint/setup/configure-sftp) | added |
+| 6/15/2023 | [Use the Glint Microsoft Teams Application](/viva/glint/setup/glint-microsoft-teams-application) | added |
+| 6/15/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | added |
+| 6/15/2023 | [Preview and filter Employee Lifecycle programs](/viva/glint/setup/preview-filter-lifecycle-programs) | added |
+| 6/15/2023 | [Understand Viva Glint programs and cycles](/viva/glint/setup/program-cycle-edits) | added |
+| 6/15/2023 | [Communicate results rollout plans for Viva Glint programs using email templates](/viva/glint/start/results-rollout-templates) | added |
+| 6/15/2023 | [Overview of language in Viva Language](/viva/learning/language-overview) | added |
+| 6/15/2023 | [Language preferences in Viva Learning](/viva/learning/language-preferences) | added |
+| 6/16/2023 | Use Viva Glint's Multi-Attribute Export report for admins | removed |
+| 6/16/2023 | Make the most of Viva Glint reporting features | removed |
+| 6/16/2023 | Configure SFTP IP addresses in Viva Glint | removed |
+| 6/16/2023 | Use the Glint Microsoft Teams Application | removed |
+| 6/16/2023 | Admin management of the General Settings feature in Viva Glint | removed |
+| 6/16/2023 | Preview and filter Employee Lifecycle programs | removed |
+| 6/16/2023 | Understand Viva Glint programs and cycles | removed |
+| 6/16/2023 | Communicate results rollout plans for Viva Glint programs using email templates | removed |
+| 6/16/2023 | [Admin tasks for the Viva Insights app](/viva/insights/personal/teams/viva-teams-app-admin-tasks) | modified |
+| 6/16/2023 | [Understanding views in Viva Goals](/viva/goals/understanding-views) | modified |
+| 6/16/2023 | [Organizational data overview](/viva/insights/advanced/admin/org-data-overview) | modified |
+| 6/16/2023 | [Introduction to advanced insights](/viva/insights/advanced/introduction-to-advanced-insights) | modified |
+
+
 ## Week of June 05, 2023
 
 
@@ -75,47 +115,3 @@
 | 5/17/2023 | [Configure check-in reminders and notifications](/viva/goals/check-in-reminders) | modified |
 | 5/18/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | added |
 | 5/19/2023 | [Custom metrics in Viva Insights](/viva/insights/advanced/analyst/custom-metrics) | modified |
-
-
-## Week of May 08, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/8/2023 | [Manage Academies in Viva Learning](/viva/learning/academy) | added |
-| 5/8/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
-| 5/8/2023 | Employee experience Power BI template from Organization trends | removed |
-| 5/8/2023 | Employee wellbeing in Viva Insights | removed |
-| 5/8/2023 | Manager connection in Viva Insights | removed |
-| 5/8/2023 | Changes to Viva Insights manager features | removed |
-| 5/8/2023 | Meeting effectiveness in Viva Insights | removed |
-| 5/8/2023 | FAQ for My organization insights | removed |
-| 5/8/2023 | Organization trends | removed |
-| 5/8/2023 | Setup for manager and leader insights | removed |
-| 5/8/2023 | Shared no-meeting day plan | removed |
-| 5/8/2023 | FAQ for Teamwork habits | removed |
-| 5/8/2023 | Teamwork habits in Viva Insights | removed |
-| 5/8/2023 | [Manage academies in Viva Learning](/viva/learning/academy) | modified |
-| 5/8/2023 | Effective meetings in Viva Insights | removed |
-| 5/8/2023 | Focus mode in Viva Insights | removed |
-| 5/8/2023 | Inspiration library with Viva Insights | removed |
-| 5/8/2023 | Personal insights introduction | removed |
-| 5/8/2023 | Shared meeting plan in Viva Insights | removed |
-| 5/8/2023 | Viva Insights Headspace | removed |
-| 5/8/2023 | Viva Insights Home page in Teams | removed |
-| 5/8/2023 | Praise with Viva Insights | removed |
-| 5/8/2023 | Protect time with Viva Insights | removed |
-| 5/8/2023 | Reflect with Viva Insights | removed |
-| 5/8/2023 | Stay connected with Viva Insights | removed |
-| 5/8/2023 | Virtual commute with Viva Insights | removed |
-| 5/8/2023 | FAQ for Viva Insights in Teams | removed |
-| 5/8/2023 | Configure Viva Insights | removed |
-| 5/8/2023 | Viva Insights app | removed |
-| 5/9/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
-| 5/9/2023 | [Custom embed URL widget](/viva/goals/custom-url-widget) | modified |
-| 5/9/2023 | [Inviting and removing a user](/viva/goals/inviting-and-removing-a-user) | modified |
-| 5/9/2023 | [OKR Program Analytics](/viva/goals/viva-goals-analytics) | modified |
-| 5/9/2023 | [Adoption resources for Microsoft Viva Topics](/viva/topics/adoption-resources) | modified |
-| 5/10/2023 | [Export topics created in Viva Engage with PowerShell](/viva/topics/export-topics-powershell) | added |
-| 5/12/2023 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | modified |
-| 5/12/2023 | [Impact explorer Power BI report](/viva/insights/advanced/analyst/templates/impact-explorer) | added |
