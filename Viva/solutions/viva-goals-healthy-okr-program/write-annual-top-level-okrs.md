@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Learn how to write annual OKRs at the top level of your organization using the 5 Ps."
@@ -178,7 +179,7 @@ Let’s see a few more business examples, and paint the before and after picture
 
 ## Summary
 
-Writing annual, Organization-level Objectives is a crucial part of the OKR process. Objectives should be actionable, aspirational, and meaningful, and should outline the story you wish to tell to describe your accomplishments for the year.
+Writing annual, Organization-level Objectives is a crucial part of the OKR process. Objectives should be actionable, aspirational, and meaningful, and should outline the story you wish to describe your accomplishments for the year.
 
 As a guide, consider the following five areas to focus your Objectives: 
 

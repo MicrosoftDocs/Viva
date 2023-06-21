@@ -43,15 +43,15 @@ For further detail about privacy and organization insights, refer to our [privac
 
 Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see when you open your Viva Insights app:
 
-:::image type="complex" source="images/org-insights-all2.png" alt-text="Screenshot that shows the organization insights section." lightbox="images/org-insights-all2.png":::
-   Screenshot of the "Your organization insights" section in the Viva Insights app. The image shows three insight cards. From left to right: "Uninterrupted focus hours," which is the largest, "Multitasking hours," and "Meeting hours." Elements of the organization insights section are labeled with numbers 1-5, which correspond to feature description labels below. 1 is the scope selector, currently labeled "Your company," in the top right corner. The rest of the labels are on the "Uninterrupted focus hours" insight card. 2 is the indicators, placed next to the text, "0.3 hours per person last week." 3 is the "Show details" link next to the "Set up plan" button at the bottom left of the card. 4 is the share button at the bottom right of the card. 5 is the "Set up plan" button.
+:::image type="complex" source="images/org-insight.png" alt-text="Screenshot that shows the organization insights section." lightbox="images/org-insight-expanded.png":::
+   Screenshot of the "Your organization insights" section in the Viva Insights app. The image shows two insight cards: "Meeting hours," and "After-hours collaboration hours." Elements of the organization insights section are labeled with numbers 1-5, which correspond to feature description labels below. 1 is the scope selector, currently labeled "Your organization," in the top-left corner. The rest of the labels are on the "Uninterrupted focus hours" insight card. 2 is the indicators, placed next to the text, "6.8 hours per person last week." 3 is the "Show details" link next to the "Set up plan" button at the bottom left of the card. 4 is the ellipses at the bottom right of the card. 5 is the "Set up plan" button.
 :::image-end:::
 
 Let's take a look at how to use these features:
 
 1. **Scope information** 
 
-     At the top-right of any page or section with organization insights, an indicator shows how many people the insights are measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use this toggle to view insights for either your reporting organization or for the entire company.
+     At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use these buttons to view insights for either your reporting organization or for the entire company.
 
     The measured group reflects people who:
 
@@ -59,7 +59,7 @@ Let's take a look at how to use these features:
     * Have a Viva Insights subscription (that is, a premium license) applied to their account.
     * During the week that the insight is generated for, were active in Outlook or Teams.
 
-    People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope. Select the tooltip on the toggle to view this criteria while you're viewing insights.
+    People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope.
 
 1. **Indicators**
 
@@ -67,7 +67,7 @@ Let's take a look at how to use these features:
 
 1. **Details**
 
-   **Insight details** is your jumping-off point to explore context about your measured results. When you select **Show details**, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
+   **Insight details** is your jumping-off point to explore context about your measured results. When you select **Show details**, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions. Learn more about insight details later in this article, in [Show details](#show-details).
 
     >[!Note] 
     >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
@@ -93,7 +93,7 @@ Let's take a look at how to use these features:
 
     Here's an example:
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, you can set up a [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
 
 ## Insights per tab
 
@@ -142,7 +142,7 @@ On the insight card, view the current week's average measure, the difference fro
    Screenshot of the "uninterrupted focus hours" organizational insight on the Wellbeing tab. The title of the page reads, "Uninterrupted focus hours - is there time for individual work?", with an information icon to the right. Below the title is a numerical indicator of "13.0 hours per person last week" with a text denoting an increase by 1.6 hours. To the right of the indicator is a line graph with months on the X axis and hours, increasing in intervals of 10, on the Y axis. Below the indicator and graph, there's a label with the text, "A shared focus plan invites your team to protect time to get work done." Below the text is a "Set up plan" button and "Show details" link. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
 :::image-end:::
 
-To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight [details](#show-details) page. Viva Insights then takes you through the feature setup process.
+To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight [details](#show-details) page. You'll then go through the feature setup process.
 
 You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
 
@@ -161,7 +161,7 @@ Each day, an insight related to one of the following topics appears at the top o
 
 On the insight cards, view the current week's calculation result and the change over time for your organization or the group of people who report to you directly or indirectly.
 
-Some insight cards also provide recommended actions. For example, to help your team improve their meeting effectiveness, you can choose to set up a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.  
+Some insight cards also provide recommended actions. For example, to help your team improve their meeting effectiveness, you can choose to set up a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. You'll then go through the feature setup process.  
 
 :::image type="content" source="../personal/teams/images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
 
@@ -200,7 +200,7 @@ Below the weekly averages for your organization and peer organizations, find out
 
 The report suggests an action related to the metric you're viewing. Let's say you were viewing details for **Long and large meeting hours**. The report might suggest starting a no-meeting day with your team to block out days for individual work.
 
-To get started, select the button, like **Set up plan**. Viva Insights then guides you through a setup process in the Viva Insights app.
+Similar to the main tab pages, select the button—like **Set up plan**—to get started. You'll then go through a feature setup process.
 
 You can also copy a link to the insight or share through a Teams chat here.
 
