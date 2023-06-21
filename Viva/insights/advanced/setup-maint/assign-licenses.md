@@ -41,7 +41,7 @@ Before you can assign licenses, the Microsoft 365 global admin, the Viva Insight
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
 
- People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is).
+ People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). Viva Insights processes data only for people assigned a license. 
 
 ## Assign licenses
 
@@ -68,6 +68,18 @@ The data that the advanced insights app uses refreshes once a week, on Sunday. T
 * When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
 
 The Microsoft admin center and Azure Active Directory (AD) tell you whether a user is licensed. After a user is assigned a license, that user shows up in Azure AD and the Microsoft admin center, but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
+
+### When users show up in query results
+
+For a user to appear in query results, that user needs to have a license at the time the query is run.
+
+Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios and whether the user would be included in query results:
+
+|Query time period| Query run date| Is the user included in query results?|
+|-----------------|-------------|-----|	
+|January 1 through March 31|March 31 |**Yes.** The user was licensed at the time the query was run. |	
+|January 1 through March 31|April 2|**No.** The user wasn't licensed at the time the query was run.|	
+|December 1 through March 31 |March 31|**Yes.** The user was licensed at the time the query was run, even though they didn't have a license for the first month of the time period. |
 
 ## Next steps
 
