@@ -1,5 +1,5 @@
 ---
-title: Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center
+title: Manage content sources for Viva Learning 
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 description: Learn how to configure and manage learning content sources for Microsoft Viva Learning in the Microsoft 365 admin center.
 ---
 
-# Manage content sources for Microsoft Viva Learning in the Microsoft 365 admin center
+# Manage content sources for Viva Learning 
 
 The administrators for the Microsoft 365 admin center—either by themselves or by assigning the knowledge admin role to selected individuals in your organization—can manage settings related to Viva Learning and can configure the learning content sources.
 
@@ -78,9 +78,9 @@ You must be a Microsoft 365 global administrator or knowledge admin to perform t
 
 To configure settings for learning content sources in Viva Learning, follow these steps:
 
-1. In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
+1. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu.
 
-2. On the **Org settings** page, on the **Services** tab, select **Viva Learning**.
+2. Select **Add Provider**  
 
     ![Settings page in the Microsoft 365 admin center showing the Learning app listed.](../media/learning/clcs-services.png)
 
