@@ -14,6 +14,7 @@ search.appverid:
 manager: anirudhbajaj
 audience: Admin
 ---
+
 # Glint with Viva Insights report
 
 *Applies to: private preview customers only*
@@ -80,7 +81,7 @@ Understanding these relationships can help you better contextualize your Viva In
 
 #### How we calculate correlations and determine relationships
 
-We've selected [a list of Glint survey questions and Viva Insights metrics]((#viva-insights-metrics-and-glint-survey-categories)) that could potentially be related. We curated this list from our entire set of Viva Insights metrics. To help create this list, we drew from academic literature and validated correlations between a sample set of Glint and Viva Insights data pairs.
+We've selected [a list of Glint survey questions and Viva Insights metrics](#viva-insights-metrics-and-glint-survey-categories) that could potentially be related. We curated this list from our entire set of Viva Insights metrics. To help create this list, we drew from academic literature and validated correlations between a sample set of Glint and Viva Insights data pairs.
 
 To arrive at the correlations you see in your report, we use the Pearson correlation coefficient (r) between each pair: survey question responses and data from a Viva Insights behavior metric. Correlations fit within a scale from -1 to 1:
 
