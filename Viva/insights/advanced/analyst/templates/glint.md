@@ -141,10 +141,25 @@ View Viva Insights data for the **Behavior metric** you selected, before and aft
 #### Question response sentiments
 
 Compare data for your selected metric with how favorably respondents answered your selected survey question. For example, if you picked "Uninterrupted hours" as your metric and "I feel supported to work in the way that is best for me in terms of when and where I work" as your survey question,
-the graph would show you the average uninterrupted hours by those who responded favorably, unfavorably, and neutrally. Select **Open chart breakdown** to view the total number of responses, and three separate graphs: metric data for those who responded favorably, unfavorably, and neutrally. <!--do we have a breakpoint between these three?-->
+the graph would show you the average uninterrupted hours by those who responded favorably, unfavorably, and neutrally. Select **Open chart breakdown** to view the total number of responses, and three separate graphs: metric data for those who responded favorably, unfavorably, and neutrally. 
 
 ### Glossary
 
 Get definitions for all the metrics used in this report. To view definitions for all metrics in Viva Insights, refer to our [metric definition article](../../reference/metrics.md).
+
+## Viva Insights metrics and Glint survey categories
+
+The Power BI report supports a subset of Viva Insights metrics per Glint survey question category. We mapped metrics to Glint categories based on data and research done by our team.
+
+|Question category| Viva Insights metrics|
+|-----------------|----------------------|
+|Clarity|<ul><li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>After-hours collaboration hours<li> Uninterrupted hours
+|Empowerment| <ul><li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>After-hours collaboration hours<li>Uninterrupted hours
+|Wellbeing|<ul><li>After-hours collaboration hours<li>Uninterrupted hours<li>Active connected hours<li>Meeting hours<li>Meetings<li>Collaboration span<li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate
+|Connection|<ul><li>Internal network size<li>Diverse ties<li>Strong ties<li>Collaboration hours<li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>Meeting hours
+|Engagement|<ul><li>Meeting and call hours with manager 1:1<li>Meeting and call hours with skip level 1:1<li>Co-attendance rate<li>Internal network size<li>Strong ties<li>Diverse ties<li>Multitasking hours
+|Growth|No related Viva Insights metric available
+|Purpose|No related Viva Insights metric available
+
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
