@@ -57,20 +57,20 @@ landingContent:
             url: viva-leadership-communications.md
 
   # Card
-  - title: Run a healthy OKR program with Viva Goals
+  - title: Discover goal-setting best practices with Viva Goals
     linkLists:
       - linkListType: overview
         links:
           - text: Write OKRs Overview
-            url: write-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/write-okrs-overview.md
           - text: Align OKRs Overview
-            url: align-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/align-okrs-overview.md
           - text: Check-in OKRs Overview
-            url: check-in-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
           - text: Close OKRs Overview
-            url: close-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/close-okrs-overview.md
           - text: Rhythm of Business Overview
-            url: rhythm-of-business-overview.md  
+            url: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md  
  
 
   # Card

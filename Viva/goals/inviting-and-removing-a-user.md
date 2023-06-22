@@ -131,3 +131,6 @@ Admins can’t delete users who currently own any objective. To delete those use
 1. **Manager updates made in Azure AD are not reflected in Viva Goals. Why?**
     1. The changes made in Azure AD are pushed to Viva Goals only after the corresponding users sign out and sign-in to Viva Goals. Until then, the updates won't reflect in Viva Goals. To resolve, sign out and then log back in to Viva Goals.
 
+1. **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
+    1. When users are deleted from Azure AD, they're not deleted/deactivated in Viva Goals immediately. In the Azure portal, when a user is deleted, it is in a soft-deleted phase for a 30-day period. During this period, the admin has the possibility to retrieve the account. If the account isn't retrieved for 30 days, it's then permanently deleted from Azure, and we get an update to delete/deactivate the same in Viva Goals.
+

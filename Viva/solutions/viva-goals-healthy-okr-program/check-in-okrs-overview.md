@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Learn how to check in on Objectives, Key Results, and Initiatives for a healthy OKR program."
@@ -96,10 +97,10 @@ Using integrations has several advantages:
 - All data is brought in from a single source of truth, eliminating redundancy.
 - Users can stay in the flow of work with tools they're already using, avoiding time switching back and forth.
 
-Viva Goals supports a broad range of third-party integrations. See a comprehensive list of supported integrations here: [Viva Goals integrations overview](../goals/integrations-overview.md).
+Viva Goals supports a broad range of third-party integrations. See a comprehensive list of supported integrations here: [Viva Goals integrations overview](../../goals/integrations-overview.md).
 
 > [!IMPORTANT]
-> Integrations must first be set up be an administrator, but then individual users can configure the connection to their OKR. For more information: [Viva Goals Integrations Administration Overview](../goals/vg-integrations-administration-overview.md).
+> Integrations must first be set up by an administrator, but then individual users can configure the connection to their OKR. For more information: [Viva Goals Integrations Administration Overview](../../goals/vg-integrations-administration-overview.md).
 
 ## Check-in OKRs with Viva Goals
 

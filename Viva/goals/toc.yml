@@ -1,17 +1,14 @@
 items:
-- name: Introduction to Viva Goals
-  href: intro-to-ms-viva-goals.md
 - name: Get Started with Microsoft Viva Goals
   items:
+    - name: Introduction to Viva Goals
+      href: intro-to-ms-viva-goals.md
     - name: Get to Know OKRs
       href: get-to-know-okrs.md
-    - name: Understand Organizations and Teams
-      href: understand-orgs-and-teams.md
-    - name: Define Your Team
-      href: define-your-team.md
     - name: Determine Your Rollout Plan
       href: determine-your-rollout-plan.md
-    - name: Start a trial with Viva Goals
+  
+    - name: Viva Goals trials
       items:
       - name: Start a Trial Overview
         href: viva-goals-trials.md
@@ -22,52 +19,84 @@ items:
       - name: Trial Checklist
         href: trials-checklist.md
 
-- name: Setup and Administration
+- name: Setup and administrations for Viva Goals
   items:
     - name: Viva Goals Setup and Administration Deployment Guide
       href: viva-goals-deployment-guide.md
-    - name: Viva Goals Admin Portal
-      href: viva-goals-admin-portal.md
-    - name: Navigate the Admin Dashboard
-      href: navigate-admin-dashboard.md
-    - name: Log in, Create, and Join Organizations in Viva Goals
-      href: log-in-create-and-join-organizations.md
-    - name: Restrict Organization Creation Permissions
-      href: restrict-organization-creation-permissions.md
-    - name: Invite and Remove Users in Viva Goals
-      href: inviting-and-removing-a-user.md
-    - name: Create and Edit Teams
-      href: create-and-edit-teams-and-subteams.md
-    - name: Managing Viva Goals members 
-      href: managing-team-members.md  
-    - name: Configure help and support for your organization
-      href: configure-support.md
-    - name: Configure Your OKR Model in Viva Goals
-      href: configure-okr-model.md
-    - name: Configure your OKR creation permissions in Viva Goals
-      href: configure-okr-create-permissions.md
-    - name: Configure your OKR edit permissions in Viva Goals
-      href: edit-permissions.md
-    - name: Renaming Initiatives
-      href: renaming-initiatives.md
-    - name: Import OKRs and Initiatives/Projects with Viva Goals
-      href: import-okrs-projects.md
-    - name: Manage OKR Time Periods
-      href: managing-okr-time-periods.md
-    - name: Configure check-in reminders and notifications
-      href: check-in-reminders.md
-    - name: OKR Program Analytics
-      href: viva-goals-analytics.md
-    - name: Custom Embed URL Widget
-      href: custom-url-widget.md
-    - name: Roles and Permissions in Viva Goals
-      href: roles-permissions-in-viva-goals.md
-    - name: Viva Goals security, privacy, and compliance
-      href: vg-privacy-and-security.md  
-    - name: Viva Goals language and region support
-      href: viva-goals-language-support.md
-- name: MS Teams
-  items:
+    
+    - name: Administration
+      items:
+      - name: Viva Goals Admin Portal
+        href: viva-goals-admin-portal.md
+      - name: Navigate the Admin Dashboard
+        href: navigate-admin-dashboard.md
+      - name: Viva Goals language and region support
+        href: viva-goals-language-support.md
+      - name: Viva Goals security, privacy, and compliance
+        href: vg-privacy-and-security.md 
+      - name: OKR Program Analytics
+        href: viva-goals-analytics.md
+      
+    - name: Setup
+      items: 
+      - name: Permissions
+        items:
+        - name: Roles and Permissions in Viva Goals
+          href: roles-permissions-in-viva-goals.md
+        - name: Configure your OKR creation permissions in Viva Goals
+          href: configure-okr-create-permissions.md
+        - name: Configure your OKR edit permissions in Viva Goals
+          href: edit-permissions.md
+      
+      - name: Organization setup
+        items:
+        - name: Understand Organizations and Teams
+          href: understand-orgs-and-teams.md
+        - name: Log in, Create, and Join Organizations in Viva Goals
+          href: log-in-create-and-join-organizations.md
+        - name: Restrict Organization Creation Permissions
+          href: restrict-organization-creation-permissions.md
+        - name: Configure help and support for your organization
+          href: configure-support.md
+        - name: Configure check-in reminders and notifications
+          href: check-in-reminders.md
+        - name: Configure Your OKR Model in Viva Goals
+          href: configure-okr-model.md
+        - name: Managing Viva Goals members 
+          href: managing-team-members.md
+
+      - name: Team setup
+        items:
+        - name: Define Your Team
+          href: define-your-team.md
+        - name: Create and Edit Teams
+          href: create-and-edit-teams-and-subteams.md
+
+      - name: User setup
+        items:
+        - name: Invite and Remove Users in Viva Goals
+          href: inviting-and-removing-a-user.md
+        
+      - name: OKRs and initiatives
+        items: 
+        - name: Manage OKR Time Periods
+          href: managing-okr-time-periods.md
+        - name: Import OKRs and Initiatives/Projects with Viva Goals
+          href: import-okrs-projects.md
+        - name: Renaming Initiatives
+          href: renaming-initiatives.md
+        - name: Custom Embed URL Widget
+          href: custom-url-widget.md
+        
+    - name: Integrations
+      items: 
+      - name: Viva Goals Integrations Administration Overview
+        href: vg-integrations-administration-overview.md
+      - name: Viva Goals integrations overview
+        href: integrations-overview.md    
+      
+      - name: MS Teams
+        items:
         - name: Collaborate with Viva Goals in MS Teams
           href: ms-teams-integration.md
         - name: Add the Viva Goals app to MS Teams
@@ -78,14 +107,22 @@ items:
           href: ms-teams-notifications.md
         - name: Microsoft Teams Extension
           href: ms-teams-messaging-extension.md
-- name: Integrations
-  items:
-    - name: Viva Goals Integrations Administration Overview
-      href: vg-integrations-administration-overview.md
-    - name: Viva Goals integrations overview
-      href: integrations-overview.md
-    - name: Viva Goals Integrations
-      items:
+      
+      - name: Slack
+        items:
+          - name: Collaborate with Viva Goals in Slack 
+            href: slack-collaborate-with-viva-goals.md
+          - name: Check-in reminders and OKR updates
+            href: slack-check-ins-teams-orgs.md
+          - name: Share OKR summary via Slack
+            href: slack-share-okr-summary.md
+          - name: OKR Digest
+            href: slack-okr-digest.md
+          - name: Slack troubleshooting and support
+            href: slack-support.md
+      
+      - name: Data integrations
+        items:
         - name: Azure Data Explorer Integration
           href: azure-data-explorer-integration.md
         - name: Azure DevOps Extension
@@ -140,18 +177,6 @@ items:
           href: power-bi-integration.md
         - name: Salesforce Integration
           href: salesforce-integration.md
-        - name: Slack
-          items:
-            - name: Collaborate with Viva Goals in Slack 
-              href: slack-collaborate-with-viva-goals.md
-            - name: Check-in reminders and OKR updates
-              href: slack-check-ins-teams-orgs.md
-            - name: Share OKR summary via Slack
-              href: slack-share-okr-summary.md
-            - name: OKR Digest
-              href: slack-okr-digest.md
-            - name: Slack troubleshooting and support
-              href: slack-support.md
         - name: Smartsheet Integration
           href: smartsheet-integration.md
         - name: Snowflake Integration
