@@ -24,13 +24,13 @@ search.appverid:
 
 In Native Mode for Microsoft 365, all Viva Engage files must be stored in SharePoint. Having one consistent location for files makes them easier to access for both end users and admins.
 
-## What happens to files in private messages when you run the Native Mode Alignment Tool ("Tool")?
+## What happens to files in private messages when you run the Native Mode Alignment Tool?
 
 - Users are no longer able to upload files to Private messages. Link sharing is still available.
 
 - All files in Private messages are deleted.
 
-## What happens to Group files when you run the Native Mode Alignment Tool ("Tool")?
+## What happens to Group files when you run the Native Mode Alignment Tool?
 
 - Group files that are in Azure are copied to SharePoint Document Library (SDL) for the group.
 - After group files are successfully copied to SharePoint, we delete the non-SharePoint version of the files.
@@ -58,13 +58,13 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 - Update to the latest versions of Viva Engage Android, Viva Engage iOS, and Viva Engage Desktop apps. Older versions will have issues uploading files to SharePoint.
 
-- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions will be blocked and the file upload won’t work.
+- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](/rest/api/yammer/upload-files-into-yammer-groups). The previous versions will be blocked and the file upload won’t work.
 
 - Notify users that this migration is going to happen, and that files in Viva Engage private messages will be deleted, and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions are not copied. The follower count isn't copied. Users can no longer mark files as official.
 
 ## Admin step-by-step experience
 
-1. Export all files. Learn more about how to [Export data in Viva Engage admin center](eac-as-manage-data.md).
+1. Export all files. Learn more about how to [Export data in the Viva Engage admin center](eac-as-manage-data.md).
 
 2. Start the **Microsoft 365 Alignment Tool**.
 

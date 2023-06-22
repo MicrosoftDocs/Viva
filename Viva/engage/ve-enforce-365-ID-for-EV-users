@@ -116,7 +116,7 @@ You must be a global administrator on Office 365 who was synchronized to Viva En
 <a name="StopEnforcing"> </a>
 
 > [!IMPORTANT]
-> You can only stop enforcing Office 365 identities in Viva Engage when you are in the temporary 7-day enforcement period. 
+> You can only stop enforcing Office 365 identities in Viva Engage during the temporary 7-day enforcement period. 
   
 When you stop enforcing Office 365 identities in Viva Engage:
   
