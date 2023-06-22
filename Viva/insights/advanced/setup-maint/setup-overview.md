@@ -17,7 +17,7 @@ audience: Admin
 
 # Viva Insights setup checklist
 
-This setup checklist, along with related articles, helps coordinate tasks between the Microsoft 365 global admin, Exchange admin, Privileged Role Administrator, Insights Administrator, and the Teams Service Administrator to get Viva Insights rolled out in your organization. After completing all tasks below, you'll have Viva Insights set up for end users, managers and leaders, and admins and analysts.
+This setup checklist, along with related articles, helps coordinate tasks between the Microsoft 365 global admin, Exchange Online admin, Privileged Role Administrator, Insights Administrator, and the Teams Service Administrator to get Viva Insights rolled out in your organization. After completing all tasks below, you'll have Viva Insights set up for end users, managers and leaders, and admins and analysts.
 
 :::image type="content" source="../images/setup-flow.png" alt-text="Image alt text." lightbox="../images/setup-flow.png":::
 
