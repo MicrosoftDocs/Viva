@@ -19,7 +19,7 @@ audience: Admin
 
 ![insights admin](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
 
-:::image type="content" source="../images/setup-vi-settings.png" alt-text="Image alt text." lightbox="../images/setup-vi-settings.png":::
+:::image type="content" source="../images/setup-vi-settings-1.png" alt-text="Image alt text." lightbox="../images/setup-vi-settings-1.png":::
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page. 
 

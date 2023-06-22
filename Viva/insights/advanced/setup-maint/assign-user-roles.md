@@ -18,7 +18,7 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
 
-:::image type="content" source="../images/setup-roles.png" alt-text="Image alt text." lightbox="../images/setup-roles.png":::
+:::image type="content" source="../images/setup-roles-1.png" alt-text="Image alt text." lightbox="../images/setup-roles-1.png":::
 
 >[!Note]
 >This article covers how to assign the Insights Administrator, Insights Analyst, and Insights Business Leader roles to users.

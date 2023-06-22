@@ -21,7 +21,7 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Exchange Online admin*
 
-:::image type="content" source="../../advanced/images/setup-app-default.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-app-default.png":::
+:::image type="content" source="../../advanced/images/setup-app-default-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-app-default-1.png":::
 
 To configure settings for personal insights, you have a few options:
 

@@ -19,7 +19,7 @@ audience: Admin
 
 ![insights admin](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
 
-:::image type="content" source="../images/setup-upload.png" alt-text="Image alt text." lightbox="../images/setup-upload.png":::
+:::image type="content" source="../images/setup-upload-1.png" alt-text="Image alt text." lightbox="../images/setup-upload-1.png":::
 
 Now that you've set up the advanced insights app, you're ready to start bringing in data so analysts can run analyses and leaders can view organization insights.
 

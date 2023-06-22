@@ -19,7 +19,7 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin*
 
-:::image type="content" source="../images/setup-licenses.png" alt-text="Image alt text." lightbox="../images/setup-licenses.png":::
+:::image type="content" source="../images/setup-licenses-1.png" alt-text="Image alt text." lightbox="../images/setup-licenses-1.png":::
 
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
@@ -41,7 +41,9 @@ Before you can assign licenses, the Microsoft 365 global admin, the Viva Insight
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
 
- People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). Viva Insights processes data only for people assigned a license. 
+ People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). 
+
+For more information on licensing and user configuration, refer to [Configure personal insights](configure-personal-insights.md).
 
 ## Assign licenses
 
@@ -80,6 +82,7 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 |January 1 through March 31|March 31 |**Yes.** The user was licensed at the time the query was run. |	
 |January 1 through March 31|April 2|**No.** The user wasn't licensed at the time the query was run.|	
 |December 1 through March 31 |March 31|**Yes.** The user was licensed at the time the query was run, even though they didn't have a license for the first month of the time period. |
+
 
 ## Next steps
 
