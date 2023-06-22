@@ -17,7 +17,7 @@ audience: Admin
 
 # Install the Viva Insights app in Teams
 
-![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange admin*
+![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
 
 :::image type="content" source="../images/setup-teams-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-teams-1.png":::
 
