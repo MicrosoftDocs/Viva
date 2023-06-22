@@ -2,7 +2,7 @@
 title: "Manage data in the Viva Engage admin center"
 description: "Describes where and how admins can manage data in the Viva Engage admin center."
 ms.reviewer: ethli
-ms.author: mamiejohnson
+ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
 ms.date: 05/19/2023
@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 ---
 
-# Manage data in the Viva Engage admin center
+# Export data in the Viva Engage admin center
 
-## Manage Data
+## Export Data
 
-As an Engage admin, you need to export data to manage users and content. This article explains the different options that can help you manage usage, compliance, and discovery.
+As an Engage admin, you need to export data to manage users and content. This article explains the different options you have to manage usage, compliance, and discovery.
 
 >[!NOTE]
 >To migrate data between Viva Engage tenants, [learn about migrating content](/viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365).
@@ -69,6 +69,7 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | Parameters of the export |
 | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Key admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
+| **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
 | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
 | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
@@ -120,6 +121,9 @@ The data export contains the following files:
 | **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. <br> |
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
 | **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+|**VivaTopicApplications.csv** <br/> | For any topic applied to a post, lists information about each application for the date range specified (if any). <br/> |
+|**VivaTopicCurationStateLogs.csv** <br/> | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. <br/>|
+|**VivaTopics.csv** <br/>| Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.<br/>|
 | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. <br> <br>Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
@@ -156,13 +160,16 @@ The data export contains the following files:
 |---|---|
 | **log.txt** | Summarizes the number of entries in each .csv file and lists any errors that occur during the export. |
 | **request.txt** | Parameters used for the export |
-| **Broadcast.csv** | Included if the user posted a live event video. Lists the network ID, group ID and name, title, description, links to the video, and additional information about the video. <br>Video content is excluded from the export. The video is saved in the OneDrive of the user who started the recording. To edit metadata or delete the video, you can open the video in Microsoft Stream admin mode. For more information,, see [Admin capabilities in Microsoft Stream](/stream/manage-content-permissions) and [Office 365 Data Subject Requests for the GDPR, Stream](/microsoft-365/compliance/gdpr-dsr-office365) |
+| **Broadcast.csv** | Included if the user posted a live event video. Lists the network ID, group ID and name, title, description, links to the video, and additional information about the video. <br>Video content is excluded from the export. The video is saved in the OneDrive of the user who started the recording. To edit metadata or delete the video, you can open the video in Microsoft Stream admin mode. For more information, see [Admin capabilities in Microsoft Stream](/stream/manage-content-permissions) and [Office 365 Data Subject Requests for the GDPR, Stream](/microsoft-365/compliance/gdpr-dsr-office365) |
 | **Files.csv** | Lists all files added or modified by the user from Viva Engage. **Properties include:** account ID, type of file, name, description, and path to the file, along with metadata including the group it was posted in. The storage_path column shows whether the file is stored in Viva Engage or SharePoint. <br> Files that are stored in Viva Engage are exported in their native format to the **Files** folder of the zip file. Files that are stored in SharePoint aren't exported. <br> To identify files in the **Files** folder, use the file_ID and path columns. To go directly to a file, see [Delete specific messages or files](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). <br> <br>To download files stored in SharePoint, use the download_url column. If SharePoint files have no Azure AD tokens, [you must create an Azure AD app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, find files stored in SharePoint for a specific date range with a [Content Search in Office 365](/office365/securitycompliance/content-search). <br>Always delete stored files from Viva Engage to erase the file and metadata in both SharePoint and Viva Engage. Deleting a file from SharePoint retains the metadata in Viva Engage. |
 | **Groups.csv** | Lists all groups created or modified by the user. **Properties include:**  group ID, name, description, privacy status, whether internal or external, creation date, updated date, and a link to the group. <br>Additional information includes the aggregated total number of polls the user voted on, and the polls the user created. |
 | **LikedMessages.csv** | Lists all messages liked by the user.**Properties include:**  message ID, thread ID, group ID, group name, privacy status, sender ID, name and email, the full body of the message, attachments*, and creation and deletion information. A list of polls you created are also provided. For announcements, includes the title of the announcement. Along with attachments, this Open Graph Object information is exported: ID, URL, title, and description. |
 | **Messages.csv** | Lists all messages sent or modified by the user. **Properties include:** message ID, thread ID, group ID, group name, privacy status, sender ID, name and email, the full body of the message, attachments*, creation and deletion information. Also provides a list of polls the user created and titles of any posted announcements. <br>\*Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
 | **BestReplyMessages.csv** | Lists all messages marked as best reply by the user. **Properties include:** message ID, thread ID, group ID, group name, privacy status, sender ID, name and email address, the full body of the message, IDs for attachments, creation and deletion information. |
 | **Topics.csv** | Lists all topics created by the user during the specified date range, including creation information and a link to the topic. |
+|**VivaTopicApplications.csv** <br/> | For any topic applied to a post, lists information about each application for the date range specified (if any). <br/> |
+|**VivaTopicCurationStateLogs.csv** <br/> | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. <br/>|
+|**VivaTopics.csv** <br/>| Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.<br/>|
 | **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:<br>
@@ -175,6 +182,10 @@ This data export doesn't include:<br>
 
 >[!NOTE]
 >Data for the user’s skin tone selection is excluded from exported data. However, you can access the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
+
+## Export topics created in Viva Engage with PowerShell
+
+Using PowerShell, you can export topics created by a user in Viva Engage (also known as Lite Topics) to a .csv file. Topics created before enabling integration with Viva Engage are included. For more information, see [Export topics created in Viva Engage with PowerShell](/viva/topics/export-topics-powershell).
 
 ## Troubleshoot data export
 

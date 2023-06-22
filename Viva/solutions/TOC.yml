@@ -33,57 +33,57 @@
   - name: Run a healthy OKR program with Viva Goals
     items:
     - name: Healthy OKR Program Overview
-      href: healthy-okr-program-overview.md
+      href: ./viva-goals-healthy-okr-program/healthy-okr-program-overview.md
     - name: Write OKRs and Initiatives
       items:
       - name: Write OKRs Overview
-        href: write-okrs-overview.md
+        href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
       - name: Write OKRs Recommendations
-        href: write-okrs-recommendations.md
+        href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
       - name: OKR Examples
-        href: okr-examples.md
+        href: ./viva-goals-healthy-okr-program/okr-examples.md
       - name: Apply the OKR Formula
-        href: apply-okr-formula.md
+        href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
       - name: Write annual, organizational OKRs using the 5 Ps
-        href: write-annual-top-level-okrs.md
+        href: ./viva-goals-healthy-okr-program/write-annual-top-level-okrs.md
       - name: Define KR Types
-        href: kr-types.md
+        href: ./viva-goals-healthy-okr-program/kr-types.md
     - name: Align OKRs and Initiatives
       items:
       - name: Align OKRs Overview
-        href: align-okrs-overview.md
+        href: ./viva-goals-healthy-okr-program/align-okrs-overview.md
       - name: Align OKRs Recommendations
-        href: align-okrs-recommendations.md
+        href: ./viva-goals-healthy-okr-program/align-okrs-recommendations.md
       - name: Tight vs Loose Alignment
-        href: align-loose-vs-tight.md
+        href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
     - name: Check-in OKRs and Initiatives
       items:
       - name: Check-in OKRs Overview
-        href: check-in-okrs-overview.md
+        href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
       - name: Check-in OKRs Recommendations
-        href: check-in-recommendations.md
+        href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
     - name: Close OKRs and Initiatives
       items:
       - name: Close OKRs Overview
-        href: close-okrs-overview.md
+        href: ./viva-goals-healthy-okr-program/close-okrs-overview.md
       - name: Close OKRs Recommendations
-        href: close-recommendations.md
+        href: ./viva-goals-healthy-okr-program/close-recommendations.md
     - name: Rhythm of Business
       items:
       - name: Rhythm of Business Overview
-        href: rhythm-of-business-overview.md
+        href: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md
       - name: Rhythm of Business Recommendations
-        href: rob-recommendations.md
+        href: ./viva-goals-healthy-okr-program/rob-recommendations.md
       - name: Review Dashboard Templates
         items:
         - name: Leadership Strategy Dashboard
-          href: leadership-strategy-dashboard.md
+          href: ./viva-goals-healthy-okr-program/leadership-strategy-dashboard.md
         - name: Organization Visibility Dashboard
-          href: organization-visibility-dashboard.md
+          href: ./viva-goals-healthy-okr-program/organization-visibility-dashboard.md
         - name: Departmental Alignment Dashboard
-          href: department-alignment-dashboard.md
+          href: ./viva-goals-healthy-okr-program/department-alignment-dashboard.md
         - name: Team Execution Dashboard
-          href: team-execution-dashboard.md
+          href: ./viva-goals-healthy-okr-program/team-execution-dashboard.md
 
 
   - name: Microsoft Viva Accelerators

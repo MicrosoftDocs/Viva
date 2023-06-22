@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals 
+- vg-integration 
 search.appverid:
 - MET150
 description: "With Viva Goals and Azure DevOps, you can automatically track progress of initiatives and key results in Viva Goals while ensuring that everyone using Azure DevOps has transparency to how their work items connect to the bigger picture. "

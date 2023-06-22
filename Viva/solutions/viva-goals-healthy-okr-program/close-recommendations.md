@@ -16,6 +16,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - vg-bestpractice
 search.appverid:
 - MET150
 description: "Recommendations for closing on Objectives, Key Results, and Initiatives for a healthy OKR program."
