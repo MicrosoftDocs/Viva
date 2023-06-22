@@ -4,7 +4,7 @@ title: Usage and engagement metrics in Viva Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
-ms.reviewer: cjtan
+ms.reviewer: mithunas
 audience: admin
 ms.topic: article
 ms.service: viva
