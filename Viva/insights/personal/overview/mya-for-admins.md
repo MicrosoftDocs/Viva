@@ -29,7 +29,7 @@ Viva Insights can help participants strengthen their work relationships, have mo
 
 ## You and your users are in charge
 
-* As the admin, you control the configuration of how your users start using Viva Insights. See [Configure personal insights](../setup/configure.md) for details.
+* As the admin, you control the configuration of how your users start using Viva Insights. See [Configure personal insights](../../advanced/setup-maint/configure-personal-insights.md) for details.
 * Users can opt in or out from the start. See [Opt out](../use/opt-out-of-mya.md) for details.
 * Users can opt out of digest emails. See [Opt out of digests](../use/email-digests-3.md#opt-out-of-digests) for details.
 * Users can opt out of the Insights Outlook add-in. See [Opt out of the Insights Outlook add-in](../use/add-in.md#to-opt-in-and-opt-out) for details.
