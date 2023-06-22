@@ -20,44 +20,39 @@ landingContent:
 # Start card title with a verb
 
   # Card 
-  - title: Set up all of Viva Insights
+  - title: Learn about Viva Insights
     linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Setup steps
-            url: setup-overview.md
       - linkListType: concept
         links:
           - text: Introduction to Viva Insights
             url: ../../introduction.md
           - text: Service description for personal insights
             url: ../../personal/overview/mya-service-description.md
-          - text: Plans and environments
-            url: ../../personal/overview/plans-environments.md
+          - text: Environment requirements
+            url: environment-requirements.md
   
   
    # Card 
-  - title: Assign licenses and roles, set app defaults 
+  - title: Set up core Viva Insights (no premium features)
     linkLists:
       - linkListType: quickstart
         links:
-          - text: Assign licenses - Microsoft 365 admin or Privileged Role Administrator
-            url: assign-licenses.md
-          - text: Assign roles - Microsoft 365 admin or Privileged Role Administrator
-            url: assign-user-roles.md
-          - text: Set up app defaults - Microsoft 365 global admin or Exchange Online admin
+          - text: Configure optional settings for the app in Teams - Teams Service Administrator
+            url: teams-admin-setup.md
+          - text: Set up personal insights app defaults - Microsoft 365 global admin or Exchange Online admin
             url: configure-personal-insights.md  
-      - linkListType: concept
-        links:
-          - text: Learn about roles
-            url: user-roles.md        
+      
   
 
   # Card
-  - title: Configure manager and privacy settings, upload data
+  - title: Set up all of Viva Insights (core and premium features)
     linkLists:
       - linkListType: quickstart
         links:
+          - text: Assign licenses
+            url: assign-licenses.md
+          - text: Assign roles
+            url: assign-user-roles.md
           - text: Configure manager and leader permissions - Insights Administrator
             url: manager-settings.md
           - text: Customize Viva Insights privacy settings - Insights Administrator
@@ -66,6 +61,8 @@ landingContent:
             url: upload-data.md   
       - linkListType: concept
         links:
+          - text: Learn about roles
+            url: user-roles.md
           - text: Learn about organization insights
             url: ../../org-team-insights/org-insights.md
           - text: Read the organization and advanced insights technical privacy guide
@@ -78,13 +75,3 @@ landingContent:
             url: ../admin/org-data-overview.md  
 
 
-  # Card
-  - title: Configure the Viva Insights app in Teams
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Configure optional settings for the app in Teams
-            url: teams-admin-setup.md
-
-
-  # Card (Optional; Remove if not applicable.)
