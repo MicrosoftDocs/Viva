@@ -1227,6 +1227,11 @@
         "source_path": "Viva/Glint/start/results-rollout-templates.md",
         "redirect_url": "/viva/",
         "redirect_document_id": false
-      }                                                                   
+      },
+      {
+        "source_path": "Viva/solutions/data-lakes/microsoft-graph-data-connect.md",
+        "redirect_url": "/previous-version/viva/solutions/data-lakes/microsoft-graph-data-connect",
+        "redirect_document_id": false
+      }
     ]
 }
