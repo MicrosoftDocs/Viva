@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 09/16/2021
 title: Viva Insights personal insights introduction
 description: Personal insights introduction for Microsoft Viva Insights 
