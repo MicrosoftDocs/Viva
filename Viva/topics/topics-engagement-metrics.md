@@ -1,5 +1,5 @@
 ---
-ms.date: 04/27/2023
+ms.date: 06/21/2023
 title: Usage and engagement metrics in Viva Topics
 ms.author: daisyfeller
 author: daisyfell
