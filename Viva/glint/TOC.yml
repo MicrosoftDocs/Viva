@@ -21,6 +21,8 @@
           href: start/gdpr-special-categories.md
         - name: How Viva Glint's reporting policies protect survey takers confidentiality and privacy
           href:
+        - name: Raw data requests and handling
+          href:
         - name: Why surveys are confidential rather than anonymous
           href: start/confidential-not-anonymous.md
      - name: Viva Glint basics
@@ -137,7 +139,7 @@
         - name: Set up Program Summary for Viva Glint engagement type surveys
           href: 
           items:
-          - name: Set up Program Summary for Viva-Glint Engagement-type surveys
+          - name: Program setup in Program Summary
             href: setup/program-set-up.md
           - name: Set up and use Distribution Lists in Viva Glint
             href: setup/set-up-distribution-lists.md
@@ -166,6 +168,8 @@
           href: 
           items:
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
+            href: 
+          - name: Preview and filter Employee Lifecycyle programs
             href: setup/preview-filter-lifecycle-programs.md
         - name: Create Viva Glint Onboarding and Exit survey programs
           href: setup/create-onboarding-exit-surveys.md
