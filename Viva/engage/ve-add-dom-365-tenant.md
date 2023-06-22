@@ -26,7 +26,7 @@ We recommend that you consolidate previously migrated basic (free) networks into
 
 If you add an external domain with a Basic network to your Office 365 tenant, we must *disassociate* the domain from the basic network in order to *associate* that domain with the primary network for your O365 tenant. **The basic network is then queued for deletion.**
 
-Below is a set of actions we immediately take after you add a domain. Also, there’s a set of steps you can take to preserve the data from the network before we delete it.
+Following is a set of actions we immediately take after you add a domain. Also, there’s a set of steps you can take to preserve the data from the network before we delete it.
 
 **Microsoft will**:
 
@@ -46,7 +46,7 @@ Below is a set of actions we immediately take after you add a domain. Also, ther
 
 2. Choose the network formerly associated with your domain from the list of available networks.
 
-3. Export the data for the network formerly associated with your domain. For instructions, see [Export data from Viva Engage](eac-as-manage-data.md). None of the data from your Basic Network will be migrated to your Viva Engage network for your Office 365 tenant.
+3. Export the data for the network formerly associated with your domain. For instructions, see [Export data from Viva Engage](eac-as-manage-data.md). None of the data from your Basic Network is migrated to your Viva Engage network for your Office 365 tenant.
 
 >[!NOTE]
 > If you don't want to access or download content from the network formerly associated with the added domain, no action is required. **The network formerly associated with the added domain—-including all data in such a network—-will be automatically deleted.**
