@@ -31,12 +31,12 @@ In this solution:
 - Learn how to create, manage, and maintain a learning culture over time.
 - Discover other Viva experiences to help with your organization's learning goals.
 
-Step 1: Identify your learning needs.
-Step 2: Get Viva Learning.
-Step 3: Choose content providers.
-Step 4: Distribute and promote courses.
-Step 5: Create a learning culture.
-Step 6: Consider adding additional Viva experiences.
+Step 1: Identify your learning needs.<p>
+Step 2: Get Viva Learning.<p>
+Step 3: Choose content providers.<p>
+Step 4: Distribute and promote courses.<p>
+Step 5: Create a learning culture.<p>
+Step 6: Consider adding additional Viva experiences.<p>
 
 ## Step 1: Define learning needs and goals for your organization
 
