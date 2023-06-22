@@ -1,10 +1,10 @@
 ---
-ms.date: 07/15/2022
+ms.date: 04/05/2023
 title: Viva Insights setup overview
-description: Get an overview of setup required for Viva Insights
+description: Get an overview of Viva Insights setup tasks
 author: lilyolason
 ms.author: v-lilyolason
-ms.topic: article
+ms.topic: checklist
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva 
@@ -15,29 +15,31 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Viva Insights setup overview
+# Viva Insights setup checklist
 
-Depending on the insights you want to see and which features they need, the setup process for Microsoft Viva Insights varies. This article gives a quick overview of the different types of insights available in Viva Insights and what you need to do to get things up and running.
+This setup checklist, along with related articles, helps coordinate tasks between the Microsoft 365 global admin, the Insights Administrator, and the Teams Service Administrator to get Viva Insights rolled out in your organization. After completing all tasks below, you'll have Viva Insights set up for end users, managers and leaders, and admins and analysts.
 
-## Personal insights
+:::image type="content" source="../images/setup-flow.png" alt-text="Image alt text." lightbox="../images/setup-flow.png":::
 
-Your admin needs to set up Viva Insights for personal insights before you can start using the different personal insights apps that are available. For details, refer to the [Admin guide for personal insights](/viva/insights/personal/overview/mya-for-admins).
 
-## Team insights
 
-Team insights are available to people with a premium Viva Insights subscription and one or more people directly reporting to them.
+## Setup tasks
 
-You can access team insights throughout the Viva Insights app on the web or in Teams. To access through Teams, you'll need to set up the Viva Insights app in Teams. For details about setting up the app, refer to  [Install, pin, and configure the app](../../personal/teams/viva-teams-app-install.md). For more information about team insights, refer to [Team insights](../../org-team-insights/team-insights.md).
+>[!div class="checklist"]
+>
+>* Assign Viva Suite/Insights licenses (Microsoft 365 global admin or Exchange admin)
+>* Assign admin and analyst roles (Microsoft 365 global admin or Privileged Role Administrator)
+>* Assign manager and leader permissions (Insights Administrator)
+>* Optional – Manage Viva Insights app defaults (Microsoft 365 admin)
+>* Optional – Set up and deploy the Teams app (Teams Service Administrator)
+>* Customize Viva Insights settings (Insights Administrator)
+>* Add organizational data to the advanced insights app (Insights Administrator) 
 
-## Organization insights
+## Next steps
 
-Organization insights throughout the Viva Insights app in Teams and web offer more features to people who've been enabled as managers. Before you can start using organization insights, your admin needs to:
+Advance to the next article to learn how to assign Viva Suite and Insights licenses to your population. 
+> [!div class="nextstepaction"]
+> [Assign licenses](assign-licenses.md)
 
-* Enable you as a manager, which they can do through the **advanced insights app > [Manager settings](./manager-settings.md)**.
-
-* Get the Viva Insights app set up in Teams so you can view insights there. For details, refer to  [Install, pin, and configure the app](../../personal/teams/viva-teams-app-install.md). In addition to in Teams, you can also see the Viva Insights app on the web. For more information about organization insights, refer to [Organization insights](../../org-team-insights/org-insights.md).
-
-## Advanced insights
-
-Before you can use Viva Insights' advanced analysis tools, your admin needs to complete the required steps in [Set up advanced insights](./setup.md). These steps include assigning licenses.
+*Applies to: Microsoft 365 global admin*
 
