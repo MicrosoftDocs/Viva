@@ -430,4 +430,4 @@ Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature dig
 > [!div class="nextstepaction"]
 > [Set up the Viva Insights app in Teams](teams-admin-setup.md)
 
-*Applies to: Teams Service Administrator*
+*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*

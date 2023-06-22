@@ -193,6 +193,6 @@ People in your organization don't receive *any* notifications about meeting effe
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Customize Viva Insights settings](privacy-settings.md)
+> [Customize Viva Insights privacy settings](privacy-settings.md)
 
 *Applies to: Insights Administrator*

@@ -108,6 +108,7 @@ Minimum group size helps protect individual privacy. Because it’s easier to gu
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Set up Viva Insights app defaults](configure-personal-insights.md)
+> [Configure personal insights
+](configure-personal-insights.md)
 
 *Applies to: Microsoft 365 global admin, Exchange admin, Insights Administrator*

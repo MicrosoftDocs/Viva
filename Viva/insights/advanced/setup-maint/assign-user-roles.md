@@ -117,10 +117,3 @@ Manager isn't technically a role that can be assigned. The Insights admin can en
 > [Assign manager and leader permissions](./manager-settings.md)
 
 *Applies to: Insights Administrator*
-
-## Related topics
-
-* [Roles in Viva Insights](../../use/user-roles.md)
-* [Manager settings](./manager-settings.md)
-* [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
-

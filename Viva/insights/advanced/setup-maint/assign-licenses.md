@@ -78,11 +78,10 @@ For a user to appear in query results, that user needs to have a license at the 
 Let's say an employee was licensed from January 1 through March 31. Here are three different scenarios and whether the user would be included in query results:
 
 |Query time period| Query run date| Is the user included in query results?|
-|-----------------|-------------|-----|	
-|January 1 through March 31|March 31 |**Yes.** The user was licensed at the time the query was run. |	
-|January 1 through March 31|April 2|**No.** The user wasn't licensed at the time the query was run.|	
-|December 1 through March 31 |March 31|**Yes.** The user was licensed at the time the query was run, even though they didn't have a license for the first month of the time period. |
-
+|-----------------|-------------|-----|
+|January 1 through March 31|March 31 |**Yes.** The user was licensed at the time the query was run. |
+|January 1 through March 31|April 2|**No.** The user wasn't licensed at the time the query was run.|
+|December 1 through March 31 |March 31|**Yes.** The user was licensed at the time the query was run, even though they didn't have a license for the first month of the time period.|
 
 ## Next steps
 
@@ -91,7 +90,4 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 
 *Applies to: Microsoft 365 global admin or Privileged Role Administrator*
 
-## Related topics
-
-[About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
 
