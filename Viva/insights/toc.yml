@@ -132,6 +132,8 @@ items:
             href: advanced/reference/glossary.md
           - name: Metric definitions
             href: advanced/reference/metrics.md
+          - name: Supported languages
+            href: advanced/reference/supported-languages.md  
 
 
  
