@@ -123,7 +123,7 @@ For this feature to be available, the network is required to have two or fewer E
     :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
-> If the Viva Engage Experience is hidden, the backing group will respect the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).  
+> If the Viva Engage Experience is hidden, the backing group will respect the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).  
 
 ## See also
 
