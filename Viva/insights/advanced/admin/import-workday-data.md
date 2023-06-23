@@ -52,22 +52,25 @@ When you connect Workday to Viva Insights, Workday sends over a set of predefine
 
 #### How Viva Insights fields correspond to Workday data
 
+Scroll through this table to learn which Viva Insights data field corresponds to which Workday data field, which data type the Viva Insights field needs to be, and whether the Viva Insights field has any special formatting requirements.
+
 |Viva Insights field|Workday field|Data type|Formatting notes
 |------------|--------------------|----|----|
-|PersonId|`worker.workerData.personalData.contactData.emailAddressData`|Email| Use valid email addresses that follow this format: `gerry@contoso.com`
+|PersonId|`responseData.worker.workerData.personalData.contactData.emailAddressData`|Email| Use valid email addresses that follow this format: `gerry@contoso.com`
 |ManagerId|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID derived with responseData.worker.workerData.workerID`|Email|Use valid email addresses that follow this format: `gerry@contoso.com`
-|Organization|`worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|String
-|EffectiveDate|`worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|DateTime| Follow the MM/DD/YYYY format, like `01/15/2023`. If there aren't values here, Viva Insights will assign the date of upload.
+|Organization|`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`|String
+|EffectiveDate|`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|DateTime| Follow the MM/DD/YYYY format, like `01/15/2023`. If there aren't values here, Viva Insights will assign the date of upload.
 |LevelDesignation|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|String
 |FunctionType|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|String
 |Layer|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Integer|Only use numbers
+|HourlyRate|No mapping from Workday
 |HireDate|`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|DateTime
+|SupervisorIndicator|No mapping from Workday
 |Location|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|String
+|OnsiteDays| No mapping from Workday
 
 
 >[!Note]
->Viva Insights doesn't import fields for HourlyRate, SupervisorIndicator, or OnsiteDays from Workday.
->
 >For more information about field values and formatting requirements, refer to [Guidelines for correcting errors in data](#guidelines-for-correcting-errors-in-data).
 
 ## Validation
