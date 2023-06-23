@@ -1087,7 +1087,146 @@
         "source_path": "viva/insights/use/qualtrics.md",
         "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
         "redirect_document_id": false
-      }
-                                                                          
+      },
+      {
+        "source_path": "viva/solutions/align-loose-vs-tight.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/apply-okr-formula.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/department-alignment-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/healthy-okr-program-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/kr-types.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/kr-types",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/leadership-strategy-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/okr-examples.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/okr-examples",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/organization-visibility-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rhythm-of-business-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rob-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rob-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/team-execution-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-annual-top-level-okrs.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-okrs-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Reports/multi-attribute-export-report.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Reports/report-analytics-filtering-favorability-trending.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/configure-sftp.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/glint-microsoft-teams-application.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/manage-general-settings.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/preview-filter-lifecycle-programs.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/program-cycle-edits.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/start/results-rollout-templates.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      }                                                                   
     ]
 }

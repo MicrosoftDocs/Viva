@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to add Viva Goals to Microsoft Teams to easily view, manage and share OKRs across your organization, without leaving Microsoft Teams."
