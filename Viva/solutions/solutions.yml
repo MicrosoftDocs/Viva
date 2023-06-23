@@ -81,7 +81,7 @@ landingContent:
           - text: Introduction
             url: introduction.md
           - text: Data lake solutions
-            url: ../solutions/data-lakes/viva-insights.md
+            url: /viva/solutions/data-lakes/viva-insights.md
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution
