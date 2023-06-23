@@ -21,6 +21,8 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 :::image type="content" source="../images/setup-flow.png" alt-text="Image alt text." lightbox="../images/setup-flow.png":::
 
+>[!Note]
+>This checklist helps admins set up *all* of Viva Insights, including premium and core features. If you just want to set up core features, refer to the [Deployment guide for personal insights](../../personal/setup/deployment-guide.md), [Configure personal insights defaults](configure-personal-insights.md), and [Configure Teams app settings](teams-admin-setup.md).
 
 
 ## Setup tasks

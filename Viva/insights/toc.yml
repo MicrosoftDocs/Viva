@@ -22,11 +22,13 @@ items:
           href: advanced/setup-maint/landing.yml
         - name: Setup how-to guide - core Viva Insights (no premium features)
           items:
+            - name: Deployment guide for personal insights
+              href: personal/setup/deployment-guide.md 
             - name: 1 - Configure personal insights defaults
               href: advanced/setup-maint/configure-personal-insights.md
             - name: 2 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
-        - name: Setup how-to guide - all of Viva Insights (premium + core features)
+        - name: Setup how-to guide - all of Viva Insights (premium and core features)
           items:
             - name: Setup checklist
               href: advanced/setup-maint/setup-overview.md
@@ -44,14 +46,12 @@ items:
               href: advanced/setup-maint/privacy-settings.md 
             - name: 7 - Upload organizational data 
               href: advanced/setup-maint/upload-data.md 
-        - name: About roles in Viva Insights
-          href: advanced/setup-maint/user-roles.md
-        - name: Transferring from Workplace Analytics
-          href: advanced/setup-maint/transferring-from-wpa.md 
-        - name: Deployment guide for personal insights
-          href: personal/setup/deployment-guide.md 
-        - name: Activity report
-          href: personal/overview/activity-report.md             
+            - name: About roles in Viva Insights
+              href: advanced/setup-maint/user-roles.md
+            - name: Transferring from Workplace Analytics
+              href: advanced/setup-maint/transferring-from-wpa.md 
+            - name: Activity report
+              href: personal/overview/activity-report.md             
       - name: Support
         href: get-insights-support.md  
       - name: Personal insights
