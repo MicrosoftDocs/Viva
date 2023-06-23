@@ -15,11 +15,11 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Install the Viva Insights app in Teams
+# Configure Teams app settings
 
-![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator*
+![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
 
-:::image type="content" source="../images/setup-teams.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-teams.png":::
+:::image type="content" source="../images/setup-teams-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-teams-1.png":::
 
 The Viva Insights app in Teams is deployed by default. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
@@ -193,6 +193,6 @@ People in your organization don't receive *any* notifications about meeting effe
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Customize Viva Insights settings](privacy-settings.md)
+> [Customize Viva Insights privacy settings](privacy-settings.md)
 
 *Applies to: Insights Administrator*

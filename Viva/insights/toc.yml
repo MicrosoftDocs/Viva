@@ -13,43 +13,41 @@ items:
       - name: Plans, environments, and service description    
         items: 
         - name: Environment requirements for Viva Insights
-          href: advanced/setup-maint/environment-requirements.md
+          href: advanced/setup-maint/environment-requirements.md  
         - name: Service description for personal insights
           href: personal/overview/mya-service-description.md
-        - name: Personal insights plans and environments
-          href: personal/overview/plans-environments.md  
       - name: Setup
-        href: advanced/setup-maint/landing.yml
-        displayName: Setup home
         items:
-          - name: Setup steps
-            items:
+        - name: Setup home
+          href: advanced/setup-maint/landing.yml
+        - name: Setup how-to guide
+          items:
             - name: Setup checklist
               href: advanced/setup-maint/setup-overview.md
             - name: 1 - Assign licenses
               href: advanced/setup-maint/assign-licenses.md
-            - name: 2 - Assign admin and analyst roles
+            - name: 2 - Assign roles
               href: advanced/setup-maint/assign-user-roles.md
             - name: 3 - Configure manager settings
               href: advanced/setup-maint/manager-settings.md
-            - name: 4 - Set Viva Insights app defaults
+            - name: 4 - Configure personal insights defaults
               href: advanced/setup-maint/configure-personal-insights.md
-            - name: 5 - Set up the Viva Insights app in Teams
+            - name: 5 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
             - name: 6 - Customize Viva Insights privacy settings 
               href: advanced/setup-maint/privacy-settings.md 
             - name: 7 - Upload organizational data 
               href: advanced/setup-maint/upload-data.md 
-          - name: About roles in Viva Insights
-            href: advanced/setup-maint/user-roles.md
-      - name: Personal insights
-        items:
-            - name: Admin guide for personal insights
-              href: personal/overview/mya-for-admins.md
-            - name: Deployment guide
-              href: personal/setup/deployment-guide.md 
-            - name: Activity report
-              href: personal/overview/activity-report.md             
+        - name: About roles in Viva Insights
+          href: advanced/setup-maint/user-roles.md
+        - name: Transferring from Workplace Analytics
+          href: advanced/setup-maint/transferring-from-wpa.md 
+        - name: Admin guide for personal insights
+          href: personal/overview/mya-for-admins.md
+        - name: Deployment guide for personal insights
+          href: personal/setup/deployment-guide.md 
+        - name: Activity report
+          href: personal/overview/activity-report.md             
       - name: Support
         href: get-insights-support.md  
       - name: Personal insights
