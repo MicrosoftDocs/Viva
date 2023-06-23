@@ -85,7 +85,7 @@ landingContent:
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution
-            url: complex-organization-insights.md  
+            url: Viva/solutions/complex-organization-insights.md  
   
   # Card
   - title: Incorporate learning into your organization
