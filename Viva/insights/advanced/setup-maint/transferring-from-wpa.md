@@ -63,7 +63,7 @@ For more information about roles in the advanced insights app—including which 
 
 In Workplace Analytics, Azure Active Directory Application Administrators would assign advanced insights roles to users in the Azure Active Directory admin center. Now, the Microsoft 365 global admin assigns all Viva Insights-related roles within the Microsoft admin center, unless your organization is using PIM.
 
-To learn how to assign roles, refer to [Assign roles for Viva Insights](user-roles.md).
+To learn how to assign roles, refer to [Assign roles](user-roles.md).
 
 ## Minimum group size
 

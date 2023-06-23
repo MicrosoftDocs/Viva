@@ -1,5 +1,5 @@
 ---
-ms.date: 09/16/2021
+ms.date: 06/23/2023
 title: Introduction to Viva Insights
 description: Learn about Microsoft Viva Insights
 ms.localizationpriority: medium 
@@ -12,10 +12,10 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-author: madehmer
+author: lilyolason
 ms.author: v-lilyolason
 ms.topic: overview
-manager: helayne
+manager: ablubetk
 audience: Admin, user
 ms.custom: intro-overview
 ---
@@ -34,8 +34,8 @@ Viva Insights includes a Microsoft Teams and web app, along with web features an
     >[!Important]
     >We're pausing sending Briefing emails starting January 15th, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](personal/use/add-in.md) or [Viva Insights app in Teams](personal/teams/home.md) for key functionality until this service resumes.
 * [**Team insights**](./org-team-insights/team-insights.md) - Team insights give much-needed visibility into work habits that might lead to burnout and stress. These habits include regular after-hours work, meeting overload, or too little focus time. Team members can use these insights to help their teams strike a balance between productivity and wellbeing. They can also learn how their habits impact their team while getting suggestions on how to foster team culture.
-* [**Organization insights**](./org-team-insights/org-insights.md) - Organization insights help qualifying managers and business leaders see how their work culture is affecting aspects of employee wellbeing and productivity. They can use the recommendations on the Outcomes page to see opportunities where a change could improve their business outcomes.
-* [**Advanced insights**](./advanced/introduction-to-advanced-insights.md) - Similar to organization insights, **Advanced insights** can also help business leaders address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. Leaders can see opportunities where a change in process could improve business outcomes and take steps to protect employee wellbeing.
+* [**Organization insights**](./org-team-insights/org-insights.md) - Organization insights help qualifying managers and business leaders see how their work culture is affecting aspects of employee wellbeing and productivity. They can use the recommendations on insights and report pages to see opportunities where a change could improve their business outcomes.
+* [**Advanced insights**](./advanced/introduction-to-advanced-insights.md) - Similar to organization insights, advanced insights can also help business leaders address critical questions about organizational resiliency and work culture with insight into how work impacts their people and their business. Leaders can see opportunities where a change in process could improve business outcomes and take steps to protect employee wellbeing.
 * [**Data privacy**](./advanced/privacy/privacy.md) - Learn how Viva Insights complies with applicable laws and regulations and how to protect and keep personal data private.
 
 ## Additional resources
