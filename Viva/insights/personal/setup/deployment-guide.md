@@ -1,6 +1,6 @@
 ---
 
-ms.date: 07/21/2020
+ms.date: 06/23/2023
 title: Personal insights deployment guide
 description: Guide for admins on deploying personal insights with Microsoft Viva Insights
 author: madehmer
@@ -17,21 +17,17 @@ audience: Admin
 
 ---
 
-# Deploy personal insights
+# Personal insights deployment guide
 
-Personal insights with Microsoft Viva Insights is an easy-to-deploy, out-of-the-box solution that helps you and your co-workers improve your personal productivity habits. It is available widely &mdash; to Microsoft 365 users with [these Service plans](../overview/plans-environments.md). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
+As an administrator, you benefit from knowing what Microsoft Viva Insights provides to its participants and what you can do to enable and enhance their experience.
 
 ## What is Viva Insights?
 
-To quickly learn about Viva Insights, checkout [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights).
+To quickly learn about Viva Insights, check out [Microsoft Viva Insights](https://www.microsoft.com/microsoft-viva/insights).
 
-### Business value of Viva Insights
+## Benefits of use
 
-More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
-
-Viva Insights is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time. 
-
-### Benefits of Viva Insights
+Viva Insights can help participants strengthen their work relationships, have more time to focus on important work, and improve their work-life balance. Viva Insights does this by showing users insights about their work habits. It derives these insights from Microsoft 365 data about emails, meetings, calls, and chats. .
 
 By using Viva Insights, you and your team can accomplish great things.
 
@@ -39,6 +35,30 @@ By using Viva Insights, you and your team can accomplish great things.
 * **Improve your relationships** – Increase your collaboration time, improve your team meetings, and grow your network.
 * **Get more focus time** – Find more time to eliminate distractions, stop multi-tasking, and focus on your core priorities.
 * **Improve your work-life balance** – Improve your work patterns and reduce the time you spend working for better work-life balance and overall wellbeing.
+
+### Business value of Viva Insights
+
+More people than ever feel they lack control over their time at work. Many teams spend 80-90% of their week sitting in meetings, sending emails, and talking on the phone. But 50% of meeting time is seen to be unproductive and almost half of employees report that their work interferes with their family life.
+
+Viva Insights is an extension of your Microsoft 365 client experience that helps you find opportunities to build better habits and get back in control of your time.
+
+## You and your users are in charge
+
+* As the admin, you control the configuration of how your users start using Viva Insights. See [Configure personal insights](../../advanced/setup-maint/configure-personal-insights.md) for details.
+* Users can opt in or out from the start, including for the [app](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f), [digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3), [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5), and the [Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d). See [Opt out](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967) for details.
+
+
+## Data privacy
+
+None of a user's personal information is shared with their co-workers or managers. Viva Insights adheres to compliance regulations, such as the GDPR. Also see the [Privacy guide for admins](privacy-guide-admins.md).
+
+## Granting access
+
+Soon after you assign licenses with a Microsoft Viva Insights service plan to users, they'll get access to personal insights elements, such as [Viva Insights in Teams and on the web](../teams/introduction.md), [digest emails](../use/email-digests-3.md), [inline suggestions in Outlook](../use/mya-notifications.md), the [Viva Insights Outlook add-in](../use/add-in.md), and a [Viva Insights welcome message](../use/mya-welcome-email.md).
+
+Access to these elements depends on the plan in place at your organization. For details, see [Access to Viva Insights elements](../../advanced/setup-maint/environment-requirements.md#access-to-viva-insights-elements).
+
+Personal insights with Microsoft Viva Insights is an easy-to-deploy, out-of-the-box solution that helps you and your co-workers improve your personal productivity habits. It is available widely &mdash; to Microsoft 365 users with [these service plans](../../advanced/setup-maint/environment-requirements.md#microsoft-365-plans). After licenses are assigned, the Viva Insights is turned **On** by default, although you can customize your deployment by [following the steps in this guide](#roll-out-viva-insights).
 
 ## Roll out Viva Insights 
 
@@ -52,12 +72,12 @@ You can deploy Viva Insights in your organization all at once or in phases. In e
 
 ### Preparatory steps
 
-It is easy to turn on Viva Insights for all users in your organization as it comes with your [Microsoft 365 subscription](./../overview/plans-environments.md). Here is a list of recommended but optional steps that your organization might consider.
+It's easy to turn on Viva Insights for all users in your organization, because it comes with your [Microsoft 365 subscription](../../advanced/setup-maint/environment-requirements.md). Here's a list of recommended, but optional, steps that your organization might consider before turning on Viva Insights:
 
 * **Create a communication plan** – Identify how your organization will effectively communicate with users during and after the rollout of Viva Insights. Make it easy for users to find information about Viva Insights. For example, use Yammer groups or SharePoint sites to help users learn about the benefits of using Viva Insights within their organization.
 * **Consider your stakeholders** – It may be important in your organization to identify and communicate with stakeholders ahead of rollout of Viva Insights. See [Include stakeholders](#include-stakeholders). 
 * **Consider running a pilot first** – Before scaling Viva Insights to your entire organization, you might want to consider [running a pilot rollout](#run-a-pilot-rollout) with a subset of users. Especially for large organizations, it is a natural step to test a broad rollout on a small scale first by conducting a pilot to validate user readiness, identify and mitigate issues, and help ensure a successful organization-wide implementation. 
-* **Security and Privacy** – Viva Insights is secure and built to protect user privacy. The [Privacy guide](./../overview/privacy-guide-users.md) describes how Viva Insights complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of Viva Insights.
+* **Security and Privacy** – Viva Insights is secure and built to protect user privacy. The [Privacy guide](../overview/privacy-guide-admins.md) describes how Viva Insights complies with privacy regulations. We recommended that you share this privacy guide with security and privacy teams to give them a better understanding of the privacy features of Viva Insights.
 * **Tie to existing initiative** – As you introduce Viva Insights, tie it to an existing initiative or training plan within your organization such as an employee wellbeing initiative. Avoid introducing it as a technology tool but rather as a habit-changing tool that is integrated with the organization’s values. 
 
 ### Include stakeholders
@@ -67,10 +87,10 @@ Identifying and notifying your key stakeholders before the welcome email is sent
 Here are some roles you might consider as part of the rollout project:
 
 * **Executive sponsor** Send welcome email about Viva Insights, ideally with quotes about their experience with the product.
-* **Security lead** – Reviews the [Privacy guide](../overview/privacy-guide-users.md) to learn about data security in Viva Insights.
+* **Security lead** – Reviews the [Privacy guide](../overview/privacy-guide-admins.md) to learn about data security in Viva Insights.
 * **Microsoft 365 admin** – Enables and disables Viva Insights access per business requirements; see [Rollout scenarios](#rollout-scenarios). 
-* **Support or Help desk lead** – Manages questions from users. Some helpful answers can be found in the [Viva Insights FAQs](./../overview/mya-faq.md).
-* **Training lead** – Runs a training workshop. The lead can start with [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) as a resource.
+* **Support or Help desk lead** – Manages questions from users. Some helpful answers can be found in the [personal insights FAQs](./../overview/mya-faq.md).
+* **Training lead** – Runs a training workshop about Viva Insights.
 
 ## Choose a rollout scenario
 
@@ -83,138 +103,24 @@ Select and complete one of the following scenarios:
 * [Default on](#default-on). For all users, all surfaces of Viva Insights are turned on by default. This is the default scenario.
 * [Default off](#default-off). Viva Insights is off by default; users can individually turn on some or all Viva Insights surfaces.
 * [Mixed deployment](#mixed-deployment). Some users are opted in and some users are opted out of all Viva Insights surfaces.
-* [Optional opt-in](#optional-opt-in). Some users have Viva Insights off by default and can opt themselves in later.
 
 #### Default on
 
-In this scenario, all surfaces of Viva Insights are turned on by default for all users. They will receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights app on the web, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
+In this scenario, all surfaces of Viva Insights are turned on by default for all users. They'll receive the welcome email and subsequent Viva digest emails and have access to the Viva Insights app on the web, the Viva Insights Outlook add-in, and inline suggestions in Outlook.
 
-##### Confirm the configuration
+Learn how to implement this rollout scenario in [Configure personal insights defaults](../../advanced/setup-maint/configure-personal-insights.md#to-enable-access-to-viva-insights-features).
 
-**Role** – Microsoft 365 admin
-
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
-1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-   :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
-1. In the resulting pane, select all elements to enable them.
-
-    :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled." lightbox="../../Images/MyA/setup/insights-settings-pane.png":::
-1. Select **Save changes**.
-
-You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
-
-1. In the left pane, expand **Settings** and then select **Org settings**.
-1. On the **Service** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**.
-1. In the resulting pane, select all elements to enable them.
-1. Select **Save changes**.
- 
 #### Default off
 
 In this scenario, Viva Insights is off by default but users can turn it on for themselves &mdash; either all features at once or individual features. Users do not receive Viva digest emails but they can opt in to each surface individually through their Viva Insights app in Teams or on the web.
 
-##### Set Viva Insights off by default
-
-**Role** – Microsoft 365 admin
-
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
-1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
-1. In the resulting pane, de-select all elements to disable them.
-1. Select **Save changes**.
-
-You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
-
-1. In the left pane, expand **Settings** and then select **Org settings**.
-1. On the **Service** tab, select **Microsoft Viva Insights (formerly MyAnalytics)**.
-1. In the resulting pane, de-select all elements to disable them.
-1. Select **Save changes**.
-
-After these settings are complete, users can open the Viva Insights app and [turn on Viva Insights features by themselves](../use/opt-out-of-mya.md).
+Learn how to implement this rollout scenario in [Configure personal insights defaults](../../advanced/setup-maint/configure-personal-insights.md#to-enable-access-to-viva-insights-features)
 
 #### Mixed deployment
 
 In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the digest emails, can open Viva Insights in Teams and the web, and see the Viva Insights add-in in Outlook. Those who start out as opted out see the default “off” page shown here, where they can use Settings to opt in to any of the Viva Insights surfaces.
 
-##### Set up mixed deployment
-
-**Role** – Microsoft 365 admin
-
-1. Turn off Viva Insights on all surfaces for all users. To do this, follow the steps in [Set Viva Insights off by default](#set-viva-insights-off-by-default).
-2. Use the following steps to change access to Viva Insights for multiple users. Do this by running a PowerShell script that iterates through the users, changing the value one user at a time. (Also see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).)
-3. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. This will become your input .csv file. For example:
-
-    ```
-    UserPrincipalName
-    ClaudeL@contoso.onmicrosoft.com
-    LynneB@contoso.onmicrosoft.com
-    ShawnM@contoso.onmicrosoft.com
-    ```
-
-4. Specify the location of the input .csv file, the output .csv file, and the value of PrivacyMode that you want to set for each user.
-Note: The output.csv file will contain the results of running this PowerShell script. For more information about possible values for PrivacyMode, see MyAnalyticsFeatureConfig / Parameters.
-
-    ```powershell
-    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
-    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
-    $privacyMode = "Opt-in"
-     
-    $users=Import-Csv $inFileName
-    ForEach ($user in $users)
-    {
-    $user.Userprincipalname
-    $upn=$user.UserPrincipalName
-    
-    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
-    }
-    ```
-
-5. Run the resulting commands at the Exchange Online PowerShell V2 module command prompt. For more information about the module, see [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2).
-
-This PowerShell script does the following:
-
-* Displays the user principal name for each user.
-* Sets the specified privacy mode for each user.
-* Creates a .csv file with all the users that were processed and shows their status.
-
-#### Optional opt-in
-
-In this scenario, some users have Viva Insights off by default and can opt themselves in; for some others, the service plan has been removed so they cannot opt in.
-
-While Viva Insights is not available to these users, their data contributes to the email-read statistics for other users. For example, when they receive a qualifying email and read it, Viva Insights includes that statistic in the read percentage that's shown to the sender. A user can choose to not contribute data by turning the Viva Insights toggle off in **Settings > Privacy** in the Viva Insights app.
-
-##### To set up optional opt-in
-
-This procedure is identical to [Set up mixed deployment](#set-up-mixed-deployment) with one important difference: Users are opted out to start with. In this procedure, the Microsoft 365 admin creates a .csv file that lists users who will start out as opted out but can choose to opt themselves in.
-
-**Role** – Microsoft 365 admin
-
-1. Follow steps 1 - 5 in [Set up mixed deployment](#set-up-mixed-deployment) and for step 4, use the following PowerShell command instead:
-
-    ```powershell
-    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
-    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
-    $privacyMode = "Opt-out"
-     
-    $users=Import-Csv $inFileName
-    ForEach ($user in $users)
-    {
-    $user.Userprincipalname
-    $upn=$user.UserPrincipalName
-    
-    Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
-    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName 
-    }
-    ```
-
-   This PowerShell script does the following:
-
-   * Displays the user principal name for each user.
-   * Sets the specified privacy mode for each user.
-   * Creates a .csv file with all the users that were processed and shows their status. 
-
-   After you complete these steps, users can later use their Viva Insights app to [opt themselves in](../use/opt-out-of-mya.md#if-i-opt-out-can-i-opt-back-in) if they so choose.
-
-2. To ensure that particular users are not able to opt themselves into Viva Insights, remove the Viva Insights service plan from those users.  
+Learn how to implement this rollout scenario in [Configure personal insights defaults](../../advanced/setup-maint/configure-personal-insights.md#set-privacymode-and-enable-or-disable-features-1).
 
 ## Run a pilot rollout
 
@@ -271,7 +177,7 @@ _Recommended:_ Consider grouping the pilot users into groups that correspond to 
 
 ### Train pilot participants
 
-Your organization can choose an internal person responsible for training the pilot users. The trainer can use [Introduction to Microsoft Viva Insights](/training/modules/workplace-analytics-ways-working-action/) as a resource
+Your organization can choose an internal person responsible for training the pilot users. 
 
 ### Conduct the pilot
 
@@ -300,20 +206,20 @@ After the pilot is complete, gather all feedback surveys, support tickets, and o
 
 ## Supporting documentation
 
-If users have questions about using Viva Insights, point them to the published [Viva Insights FAQs](./../overview/mya-faq.md) for answers.
+If users have questions about using Viva Insights, point them to the [personal insights FAQs](./../overview/mya-faq.md) for answers.
 
 ### Resources for stakeholders
 
-* [Privacy guide for Viva Insights admins](./../overview/privacy-guide-users.md). Use the Privacy guide to find answer to key questions about how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations.
+* [Privacy guide for Viva Insights admins](../overview/privacy-guide-admins.md). Use the Privacy guide to find answer to key questions about how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations.
 
 * See these descriptions of the Viva Insights surfaces:
 
-  * [Viva Insights app in Teams](../teams/home.md)
-  * [Viva Insights Home page](./../use/home-web.md)
-  * [Viva Insights Outlook add-in](./../use/add-in.md)
+  * [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f)
+  * [Viva Insights Home page](https://support.microsoft.com/topic/viva-insights-home-tab-6e7d28b2-6b0e-4367-9b52-1999a86eb391)
+  * [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d)
   * [Briefing emails](../Briefing/be-overview.md) **(paused)**
-  * [Digest emails](./../use/email-digests-3.md)
-  * [Inline suggestions in Outlook](./../use/mya-notifications.md)
+  * [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3)
+  * [Inline suggestions in Outlook](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
 
 
 

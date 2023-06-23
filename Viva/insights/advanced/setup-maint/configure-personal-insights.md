@@ -82,7 +82,7 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
 
 ### To enable access to Viva Insights features
 
-*Use for [Default on](../../personal/setup/deployment-guide.md#default-on) and Default off rollout scenarios, as explained in [Roll out personal insights](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
+*Use for [Default on](../../personal/setup/deployment-guide.md#default-on) and [Default off](../../personal/setup/deployment-guide.md#default-off) rollout scenarios, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
 
 1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
@@ -223,7 +223,7 @@ Running the following command disables the digest email for all users in the ten
 
 ##### Set `PrivacyMode` and enable or disable features
 
-*Use for the [Mixed deployment](../../personal/setup/deployment-guide.md#mixed-deployment) rollout scenario, as explained in [Roll out personal insights](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
+*Use for the [Mixed deployment](../../personal/setup/deployment-guide.md#mixed-deployment) rollout scenario, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
 
 * Command syntax – `PrivacyMode` and features: 
 
@@ -267,9 +267,9 @@ Configure Viva Insights by setting the `PrivacyMode` parameter. For information 
 
 ### User configuration settings
 
-#### About data processing and opt out
+#### About managing access and opt out
 
-Viva Insights has core features and premium features. Viva Insights doesn’t process any collaboration or productivity data for users without these service plans. If you don’t want Viva Insights to process a user’s data, don’t assign that user a service plan. 
+Viva Insights has core features and premium features. Access to features and types of data processing depends on a user's assigned service plan.
 
 As an admin, you have the ability to configure opt in/opt out behavior for end users. For premium plans, you can also [allow](privacy-settings.md) users to control what’s included in advanced and some aggregated insights. Then, users can choose to [opt out](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967) through their Viva Insights app in Teams or on the web. When users opt out of Viva Insights:
 
