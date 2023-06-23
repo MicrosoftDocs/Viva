@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
+- vg-integration
 search.appverid:
 - MET150
 
@@ -26,6 +27,9 @@ description: "Learn how to integrate your OKRs in Viva Goals with Jira servers a
 > Tenant administrator must enable Jira Server integration from [Viva Goals tenant settings](vg-integrations-administration-overview.md) before it is visible on Viva Goals integration section on your Viva Goals organization.
 
 Jira Server and Jira Data Center enables automatic tracking of OKR and Initiative progress in Viva Goals from Jira user-stories or Epics. Any updates on the linked Jira user stories, epics, or projects will automatically update the progress of linked Viva Goals KRs and Initiatives. This ensures your OKR process is not waiting on manual check-ins and any progress is updated real-time on Viva Goals.
+
+> [!IMPORTANT]
+> JIRA On-Prem is currently not supported for customers in the EU Data Boundary. We're working on this and will be available in the next 2-3 months.
 
 ## How to configure Jira Server or Data Center connection 
 
@@ -43,7 +47,7 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
     1. You will need to use the **Account UUID** and **Access token** in the Jira configuration after you install the **Microsoft Viva Goals for JIRA** app from the Atlassian Marketplace. 
     1. Switch to Jira Server or Data Center to install and configure **Microsoft Viva Goals for JIRA.**
 
-## How to install and setup Microsoft Viva Goals for JIRA from the Atlassian Marketplace
+## How to install and set up Microsoft Viva Goals for JIRA from the Atlassian Marketplace
 
 1. As a Jira Server or Data Center administrator, search for **Microsoft Viva Goals for JIRA** app from the "Find new Apps" page in JIRA.
 1. Click on the install button against the app and follow the steps in the confirm app installation popup. 

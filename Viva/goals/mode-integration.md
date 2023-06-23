@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Automate your OKR progress by connecting OKRs with Mode reports."

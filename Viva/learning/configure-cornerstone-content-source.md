@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 06/09/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -90,3 +90,6 @@ By checking this checkbox, you're allowing Viva Learning to fetch user informati
 - FirstName
 - LastName
 - Email
+
+> [!NOTE]
+> Viva Learning does not currently support the "Events and Sessions" content type from Cornerstone.

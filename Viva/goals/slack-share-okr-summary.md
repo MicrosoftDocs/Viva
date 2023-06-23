@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- vg-integration  
 search.appverid:
 - MET150
 description: "Learn how to share OKRs summaries in Slack with Viva Goals"

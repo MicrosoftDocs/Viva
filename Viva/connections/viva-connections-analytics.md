@@ -32,12 +32,12 @@ Understand how and when users engage with components of the Viva Connections exp
 
 
 > [!NOTE]
-> - This first release of Viva Connections analytics is only available to customers who have a SharePoint home site.
 > - Site member permissions (or higher) to your organization’s [home site](/sharepoint/home-site) are required to download and view usage analytics for Viva Connections. 
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
-> - Usage analytics data is aggregated and cannot be tracked to an individual user. 
+> - Usage analytics data is aggregated and cannot be tracked to an individual user.
+> - User activity reflected in the report will not include usage data collected in the last 60 minutes. 
 
 ## How to access the report
 
