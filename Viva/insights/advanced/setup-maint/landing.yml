@@ -74,8 +74,8 @@ landingContent:
             url: ../privacy/privacy.md 
           - text: Read the personal insights privacy guide for admins
             url: ../../personal/overview/privacy-guide-admins.md
-          - text: Learn about transferring from Workplace Analytics (temp)
-            url: ../../org-team-insights/org-insights.md
+          - text: Learn about transferring from Workplace Analytics
+            url: transferring-from-wpa.md
           - text: Learn about organizational data
             url: ../admin/org-data-overview.md  
 
