@@ -83,7 +83,7 @@ The following preconditions are to be fulfilled, prior to continuing with its an
 
 ### Organizational data
 
-Organizational data is a key requirement for Viva Insights and further advanced analysis. The organizational data relates to attributes such as employee's title, manager, group, level, and so on. The organizational data that is generally required is further described in [Viva Insights prepare organizational data](../insights/Use/organizational-data.md).
+Organizational data is a key requirement for Viva Insights and further advanced analysis. The organizational data relates to attributes such as employee's title, manager, group, level, and so on. The organizational data that is generally required is further described in [Viva Insights prepare organizational data](/viva/insights/use/organizational-data.md).
 
 To enable advanced analysis, the following schema can be used in the file that is uploaded into Viva Insights:
 
@@ -96,18 +96,18 @@ To enable advanced analysis, the following schema can be used in the file that i
 |PersonId    | Unique identifier for the employee record. This identifier can be the employee's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@contoso.com** is allowed; however, the format **<Name, Person> (person.name@contoso.com)** is not allowed.     |
 |ManagerId    |  Unique identifier for the employee’s manager, which is needed to correctly calculate metrics for time spent with managers and their direct reports. This identifier can be the manager's primary SMTP address or email alias. It must be in a simplified format that contains no spaces. For example,  the format **person.name@contoso.com** is allowed; however, the format **<Name, Person> (person.name@contoso.com)** is not allowed.      |
 |Organization    |    The internal organization that the employee belongs to. An employee’s organization will be specific to the individual needs and could be identified by the leader of the organization, or by another naming convention. This data is needed to correctly calculate metrics for redundancy and insularity.     |
-|FunctionType  |    The job function that the employee performs. This job function is specific to the organization. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.     |
+|FunctionType  |    The job function that the employee performs. This job function is specific to the organization. This data is used to filter and group reports, and for grouping of data in [Explore the stats](/viva/insights/use/explore-intro.md) features.     |
 |LevelDesignation    |      The employee’s level, which is represented as a string. This level is specific to the organization and can represent an employee’s experience or management level, or seniority within the organization. This data is needed to correctly calculate metrics for redundancy and insularity.   |
-|Layer     |      The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](../insights/Use/explore-intro.md) features.   |
-|SupervisorIndicator     |    The attribute used to view the habits of people managers or influencers in the organization in Power BI visualizations. This attribute powers the Overview table, the Workload charts that are generated when you use a [template](../insights/Tutorials/Power-bi-templates.md) that requires this attribute. This attribute indicates the manager status of each employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data. |
-|TimeZone     |    Time zone in which the employee works. This attribute must be one of the time zones in [Time zones for Workplace Analytics](../insights/Use/Timezones-for-workplace-analytics.md). If no time zone is mapped to for an employee, the system will use the default time zone, which is Pacific Standard Time.     |
+|Layer     |      The place where the employee is within the organizational hierarchy. Layer is represented as an integer and expressed as the distance the employee is from the top leader of the organization. For example, the CEO is at layer 0. This data is used to filter and group reports, and for grouping of data in [Explore the stats](/viva/insights/use/explore-intro.md) features.   |
+|SupervisorIndicator     |    The attribute used to view the habits of people managers or influencers in the organization in Power BI visualizations. This attribute powers the Overview table, the Workload charts that are generated when you use a [template](/viva/insights/tutorials/power-bi-templates.md) that requires this attribute. This attribute indicates the manager status of each employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers); however, if a different nomenclature is used in the file, you must update the Power BI chart filters accordingly. If you include SupervisorIndicator, you must also include the values **IC**, **Mngr**, or **Mngr+** in the organizational data. |
+|TimeZone     |    Time zone in which the employee works. This attribute must be one of the time zones in [Time zones for Workplace Analytics](/viva/insights/use/timezones-for-workplace-analytics.md). If no time zone is mapped to for an employee, the system will use the default time zone, which is Pacific Standard Time.     |
 |TenantInd     |    Unique name for the Tenant. For example, TenantA, TenantB, TenantC, and so on.     |
 |Location   |     Geographic region or other location detail.    |
 |HashId    |      Unique Hashed identifier for the employee. This attribute enables further advanced analysis on the Viva Insights query results.   |
 
 With the schema in the above table being used in the file, the analysis output from the uploaded file can be joined with other data sources (for example, sales data and zoom data) for an advanced analysis.
 
-Additional instructions for preparing organizational data for Viva Insights are available [here](../insights/Setup/Prepare-organizational-data.md). 
+Additional instructions for preparing organizational data for Viva Insights are available [here](/viva/insights/setup/Prepare-organizational-data.md). 
 
 **Example:  Sample of an organizational data file**
 
@@ -115,7 +115,7 @@ Additional instructions for preparing organizational data for Viva Insights are 
 
 ### Viva Insights Business Continuity dashboard
 
-Set up the [Business Continuity](../insights/Tutorials/power-bi-bc.md) dashboard for your tenant with the following modification:
+Set up the [Business Continuity](/viva/insights/tutorials/power-bi-bc.md) dashboard for your tenant with the following modification:
 
 -	In the **Organizational data** section of the **Business Continuity and Hourly Collaboration** report, add **HashId** and **TenantInd** columns to the list. More columns can be added for this report if needed, for analysis. The following shows what attributes to select:
     :::image type="content" source="images/organizational-data.png" alt-text="Screenshot of the Organizational data section of the Business Continuity and Hourly Collaboration report":::
@@ -129,7 +129,7 @@ For [Ad hoc with OData](#ad-hoc-using-odata-approach) and [Automated Data Pipeli
 
 You will also need an Azure subscription to host the data from the two tenants.
 
-1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](automate-exports.md) for each tenant.
+1. To register an application, accomplish Steps 1 to 5 in the [Automate Exports](/viva/solutions/automate-exports.md) for each tenant.
     1. To obtain a secret for the registered application, select **Certificates & secrets** from your newly registered application in Azure Active Directory.
         1. For Key authentication, select **New client** secret and in **Add a client** secret, enter a description, select when it expires, and select **Add**. In **Client** secrets, select the new secret value, and select the **Copy** icon to copy the value.
     2. Make a note of the Application ID and secret that are created for each tenant.
@@ -152,7 +152,7 @@ The case of using query data from Viva Insights from multiple tenants, the follo
 
 ### Ad hoc manual approach
 
-Viva Insights queries can be executed and the output can be [downloaded](../insights/Use/View-download-and-export-query-results.md) and further analyzed offline.
+Viva Insights queries can be executed and the output can be [downloaded](/viva/insights/use/view-download-and-export-query-results.md) and further analyzed offline.
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 There are no other pipeline setup requirements.
 
@@ -160,7 +160,7 @@ There are no other pipeline setup requirements.
 
 ### Ad hoc using OData approach
 
-Viva Insights queries can be scheduled to auto refresh and accessed via [OData links](../insights/Use/View-download-and-export-query-results.md) to provide further analysis or to be visualized in PowerBi reports. 
+Viva Insights queries can be scheduled to auto refresh and accessed via [OData links](/viva/insights/use/view-download-and-export-query-results.md) to provide further analysis or to be visualized in PowerBi reports. 
 This sample will be using the **Business Continuity** report listed in the **Requirements** section.
 There are no other pipeline setup requirements.
 
@@ -350,7 +350,7 @@ The Business Continuity PBI report file can be used as an example of the followi
 
 - A file that can be downloaded from Viva Insights and modified to support multiple tenants as data sources.
 
-To download the report, you can download the PBI template for the [Business Continuity](../insights/Tutorials/power-bi-bc.md) report you executed as part of the preconditions.
+To download the report, you can download the PBI template for the [Business Continuity](/viva/insights/tutorials/power-bi-bc.md) report you executed as part of the preconditions.
 
 Once you have downloaded the report and the data sources have been modified, the report can show visualizations across the two tenants. See the following for some example screenshots.
 
