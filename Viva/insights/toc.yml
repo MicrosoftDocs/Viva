@@ -16,10 +16,11 @@ items:
           href: advanced/setup-maint/environment-requirements.md  
         - name: Service description for personal insights
           href: personal/overview/mya-service-description.md
-      - name: Setup home
-        href: advanced/setup-maint/landing.yml
-        displayName: Setup home
+      - name: Setup
         items:
+        - name: Setup home
+          href: advanced/setup-maint/landing.yml
+          items:
           - name: Setup how-to guide
             items:
             - name: Setup checklist
