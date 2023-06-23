@@ -96,7 +96,7 @@
       - name: Data access automation
         href: automate-exports.md
       - name: Multitenant solution
-        href: viva/solutions/complex-organization-insights.md
+        href: complex-organization-insights.md
     - name: Engage and Retain Employees
       items:
       - name: Yume
