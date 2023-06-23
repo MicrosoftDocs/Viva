@@ -110,7 +110,7 @@ In the next sections, we'll describe how to configure your Hybrid workforce expe
 
 [Step 2. Use the automated OnsiteDays template](hybrid-workforce-experience-template.md)
 
-[Step 3. Use the Hybrid workforce experience Power BI template](../insights/Tutorials/hybrid-workforce-experience.md)
+[Step 3. Use the Hybrid workforce experience Power BI template](/viva/insights/tutorials/hybrid-workforce-experience.md)
 
 > [!div class="nextstepaction"]
 > [Next up: Prepare source files](hybrid-workforce-experience-source-files.md)
