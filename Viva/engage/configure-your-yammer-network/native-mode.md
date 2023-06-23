@@ -29,9 +29,9 @@ Native Mode has the following requirements:
 
 - All Yammer files must be [stored in SharePoint](https://go.microsoft.com/fwlink/?linkid=2111253).
 
-- Retention mode in Yammer is set to Archive.
+- Retention mode in Yammer is set to Archive. 
 
-- All users must be in Azure Active Directory ("AAD"). AAD enforces Office 365 identity and, any users who aren't mapped to the network, must be deleted.
+- All users must be in Azure Active Directory (Azure AD). Azure AD enforces Office 365 identity and, any users who aren't mapped to the network, must be deleted.
 
 - There can't be any unlisted private groups.
 

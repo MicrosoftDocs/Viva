@@ -32,7 +32,11 @@ For the best end-user and management experience, it's required that one Office 3
 
 A Yammer network represents people who are part of the same organization, and work together closely. A Yammer network acts as an organizational boundary and as a management entity. As Yammer becomes an integral part of Office 365, Yammer uses the associated Office 365 tenant as the organizational boundary and for managing key functions.
   
- **Yammer network as an organizational boundary** Only users who are part of the same organization can join the network, which provides trust between members of the network, so they can collaborate freely. As Yammer becomes an integral part of Office 365, the organizational boundary for Yammer and Office 365 become the same; all Office 365 users who are part of the same Office 365 tenant (with a Yammer subscription), can access Yammer. And when the organization grows, and a new domain is added to the Office 365 tenant, that domain is automatically synchronized to Yammer, enabling users of that domain to readily access Yammer.
+ **Yammer network as an organizational boundary** Only users who are part of the same organization can join the network, which provides trust between members of the network, so they can collaborate freely.
+ 
+As Yammer becomes an integral part of Office 365, the organizational boundary for Yammer and Office 365 become the same; all Office 365 users who are part of the same Office 365 tenant (with a Yammer subscription), can access Yammer.
+ 
+When the organization grows, and a new domain is added to the Office 365 tenant, that domain is automatically synchronized to Yammer, enabling users of that domain to readily access Yammer.
   
  **Yammer network as a management entity** All aspects of the Yammer service used to be managed at the network level, including identity, domain, and user management. As Yammer becomes an integral part of Office 365, key aspects of the Yammer service are managed in Office 365, including identity, domain, user, and license management. You get one common and powerful set of tools for Office 365 administrators to manage all Office 365 services, including Yammer. We recommend that Yammer Administrators only manage Yammer specific configurations (such as notification defaults or External network settings) at the network level.
   
@@ -146,7 +150,7 @@ Below is the list of key capabilities (related to managing Yammer in Office 365)
 
   - If the user's primary email matches a network, the user will be logged in to that network.
 
-  - Else, if the user's non-primary email matches the network, the user will be logged into that network. If there are more than one non-primary email matches, one of them will be chosen.
+  - Else, if the user's nonprimary email matches the network, the user will be logged into that network. If there are more than one nonprimary email matches, one of them will be chosen.
 
   - Else, if the user's UPN (User Principal Name, such as `user@domain.com`) matches the network, the user will be logged in to that network
 
