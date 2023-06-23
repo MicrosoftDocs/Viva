@@ -1232,6 +1232,11 @@
         "source_path": "Viva/solutions/data-lakes/microsoft-graph-data-connect.md",
         "redirect_url": "/previous-version/viva/solutions/data-lakes/microsoft-graph-data-connect",
         "redirect_document_id": false
+      },
+         {
+        "source_path": "Viva/solutions/data-lakes/viva-insights.md",
+        "redirect_url": "/previous-version/Viva/solutions/data-lakes/viva-insights.md",
+        "redirect_document_id": false
       }
     ]
 }
