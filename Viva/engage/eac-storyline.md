@@ -128,7 +128,7 @@ You can't prevent any internal user from seeing storyline content if they have a
 ### Can I control which users get their own storyline?  
 We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Yammer. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
-### How do I delete custom cover images that were uploaded to a persons storyline?
+### How do I delete custom cover images that were uploaded to a person's storyline?
 
 From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled. To do this, from the profile page of the user, hover over the profile header and select **Upload cover photo**. Then, delete or upload a new cover image, as needed.
 
