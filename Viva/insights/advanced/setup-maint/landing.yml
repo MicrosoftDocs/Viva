@@ -41,7 +41,10 @@ landingContent:
             url: configure-personal-insights.md          
           - text: Configure optional settings for the app in Teams - Teams Service Administrator
             url: teams-admin-setup.md
-      
+      - linkListType: concept
+        links:
+          - text: Deployment guide for personal insights
+            url: ../../personal/setup/deployment-guide.md      
 
   # Card
   - title: Set up all of Viva Insights (core and premium features)

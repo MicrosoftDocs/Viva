@@ -94,16 +94,6 @@ This metric is calculated based on a person's Outlook setting for when an [email
 
 Similarly, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
-## Assistance for people managers
-
-People managers often have hectic schedules and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
-
-All assistance for managers in Viva Insights relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
-
-Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
-
-Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their Viva Insights experience, and are not synchronized back to Azure AD.
-
 ## Privacy settings
 
 Personal insights in Viva Insights provides flexible and configurable controls that are designed to enable organizations and their members to address varying legal and policy needs regarding privacy and use of employee data. When enabling Personal insights in Viva Insights for the organization, admins can make the following choices:

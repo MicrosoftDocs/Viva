@@ -1252,6 +1252,11 @@
         "source_path": "viva/insights/personal/overview/plans-environments.md",
         "redirect_url": "/viva/insights/advanced/setup-maint/environment-requirements",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/mya-for-admins.md",
+        "redirect_url": "/viva/insights/personal/setup/deployment-guide",
+        "redirect_document_id": false
       }
       
 
