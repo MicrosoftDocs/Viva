@@ -1,6 +1,6 @@
 ---
 ms.date: 06/14/2023
-title: Assign roles for Viva Insights
+title: Assign roles
 description: Learn how to assign Insights Administrator, Insights Analyst, and Insights Business Leader roles to users in your organization
 author: lilyolason
 ms.author: v-lilyolason
@@ -14,7 +14,7 @@ search.appverid:
 manager: anirudhbajaj
 audience: Admin
 ---
-# Assign roles for Viva Insights
+# Assign roles
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
 
@@ -53,6 +53,8 @@ Alternatively, instead of following steps 1-4 above, you can add users from the 
 
 ### Assign roles with Azure Active Directory Privileged Identity Management
 
+*Applies to: Privileged Role Administrator*
+
 If your organization uses PIM, you might choose to assign roles in Azure Active Directory PIM rather than the Microsoft admin center. To learn how to assign roles through PIM, go to [Assign Azure AD roles in PIM - Microsoft Entra](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user). 
 
 Here are the role names to search for:
@@ -73,11 +75,15 @@ Within a few days of being assigned a Viva Insights role, Insights Administrator
 
 ### Assign roles in the Microsoft admin center
 
+*Applies to: Microsoft 365 global admin*
+
 You can also assign roles to groups, which means you're assigning access permissions associated with that role to the group. Any people assigned to that group automatically receive the same permissions.
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead. Then, assign a role to the selected group. For more details, refer to [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 
 ### Assign roles with Azure Active Directory Privileged Identity Management
+
+*Applies to: Privileged Role Administrator*
 
 Assigning roles to groups in PIM works the same way as assigning roles to groups in the Microsoft admin center. In PIM, select the group name you want to assign permissions to.
 
@@ -114,6 +120,6 @@ Manager isn't technically a role that can be assigned. The Insights admin can en
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Assign manager and leader permissions](./manager-settings.md)
+> [Configure manager settings](./manager-settings.md)
 
 *Applies to: Insights Administrator*

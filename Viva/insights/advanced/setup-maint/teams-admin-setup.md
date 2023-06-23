@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Install the Viva Insights app in Teams
+# Configure Teams app settings
 
 ![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
 

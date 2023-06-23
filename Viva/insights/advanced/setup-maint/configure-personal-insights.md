@@ -1,7 +1,7 @@
 ---
 
 ms.date: 06/20/2023
-title: Personal insights configuration for Microsoft 365 administrators
+title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: lilyolason
 ms.author: v-lilyolason
@@ -17,7 +17,7 @@ audience: Admin
 
 ---
 
-# Configure personal insights
+# Configure personal insights defaults
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Exchange Online admin*
 
@@ -428,6 +428,6 @@ Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature dig
    ```
 
 > [!div class="nextstepaction"]
-> [Set up the Viva Insights app in Teams](teams-admin-setup.md)
+> [Configure Teams app settings](teams-admin-setup.md)
 
 *Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*

@@ -18,6 +18,9 @@ audience: Admin
 
 # Transferring from Workplace Analytics to the advanced insights app
 
+>[!Note]
+>This document applies to customers who've moved from our legacy platform, Workplace Analytics, to the advanced insights app. 
+
 Welcome to the new advanced insights app! We’re excited to have you on board.
 
 We launched our new app to provide improved insights and data-analysis experiences. The updated platform uses new technology so that our calculations are faster and more comprehensive than before.
