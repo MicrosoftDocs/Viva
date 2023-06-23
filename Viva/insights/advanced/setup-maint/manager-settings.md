@@ -17,7 +17,7 @@ audience: Admin
 
 # Configure manager settings
 
-![insights admin](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
+![Graph of Viva Insights admin settings.](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
 
 :::image type="content" source="../images/setup-managers-1.png" alt-text="Image alt text." lightbox="../images/setup-managers-1.png":::
 
