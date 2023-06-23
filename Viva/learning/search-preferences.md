@@ -22,34 +22,40 @@ description: Manage your search settings in Viva Learning for users.
 
 Learning admins and knowledge admins with Viva Learning premium licenses can set search preference settings for a customized content experience for users in their organization. 
 
-## Prioritized provider
+> [!NOTE]
+> Search preference setting is under private preview. Please check with your support executive to participate in the private preview.
 
-Use the **Prioritized provider** settings to prioritize content based on providers spaces where users can search on Viva Learning.
+## Prioritize content by provider
 
-The setting is set to **None** by default. You can choose any one provider from the list of all available providers in the tenant. After confirming the provider selection, all content from the chosen provider is prioritized for Viva Learning users in your organization.
+Use the **Prioritized provider** settings to prioritize the content that users can search on Viva Learning.
 
-Prioritization is visible in the following Viva Learning spaces: 
+Here are some cases in which provider prioritization enhance the learning experience:
+
+- Creating proprietary learning content in your organization for users under a specific provider
+- Prioritizing content that is important for users 
+- Prioritizing a provider that is preferred by either admins or the majority of users
+
+### Setting details
+ 
+**Prioritized provider** is set to **None** by default. You can choose any one provider from the list of all available providers in the tenant. After confirming the provider selection, all content from the chosen provider is prioritized for Viva Learning users in your organization.
+
+Prioritization is visible in the following Viva Learning spaces:
 
 - Home page 
-    - **Browse by** section 
-    - **Interests** section 
-- **Search results** page 
-- all search options in the Admin tab and Learning collection
+    - **Browse by** section
+    - **Interests** section
+- **Search results** page
+- All search options in the Admin tab and the **Collections** tab in the **My Learning** page.
 - **Related courses** section in the Learning content details page 
 
-Updates to this setting are reflected immediately to all users and spaces. 
+Updates to this setting are reflected immediately to all users and spaces.
 
 > [!NOTE] 
-> - Provider-based content prioritization boosts the provider content when compared to no prioritization.  
-> - Provider-based content prioritization doesn't guarantee that the provider’s content is always visible to users. It also depends on user query and information (Title, Description, SkillTags and Keywords) available on Learning content. 
-> - Provider-based content prioritization is only applicable to Viva Learning spaces. Search in M365 surfaces isn't impacted by this setting.
+> - Provider-based content prioritization boosts the provider content when compared to no prioritization. 
+> - Provider-based content prioritization doesn't guarantee that the provider’s content is always visible to users. It also depends on user query and information available on the learning content, such as title, description, skill tags and keywords. 
+> - Provider-based content prioritization is only applicable to Viva Learning spaces. Search in Microsoft 365 surfaces isn't impacted by this setting.
 
+## Upcoming features
 
-### Guidelines for choosing a Provider 
+In future releases, we plan to enhance provider-based content prioritization with controls for levels of prioritization and the option to choose sub-sources within a provider. 
 
-As an admin, you can choose to prioritize a provider for any of these cases: 
-
-- Tenant creates proprietary Learning content for its users under this provider
-- Provider content is important for Viva Learning Users
-- Provider content is preferred by the Learning Admin
-- Provider content is preferred by Most of the employees
