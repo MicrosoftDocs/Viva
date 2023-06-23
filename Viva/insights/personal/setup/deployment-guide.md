@@ -50,7 +50,7 @@ Viva Insights is an extension of your Microsoft 365 client experience that helps
 
 ## Data privacy
 
-None of a user's personal information is shared with their co-workers or managers. Viva Insights adheres to compliance regulations, such as the GDPR. Also see the [Privacy guide for admins](privacy-guide-admins.md).
+None of a user's personal information is shared with their co-workers or managers. Viva Insights adheres to compliance regulations, such as the GDPR. Also see the [Privacy guide for admins](../overview/privacy-guide-admins.md).
 
 ## Granting access
 
