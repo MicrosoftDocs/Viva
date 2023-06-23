@@ -95,4 +95,4 @@ Now that you've created the **OnsiteDays** attributes, you're ready to use the H
 The next article guides you through running the required query in Viva Insights, then downloading and using the Power BI template. For more details on the data-upload process, you can refer to a [step-by-step guide](https://go.microsoft.com/fwlink/?linkid=2195632).
 
 > [!div class="nextstepaction"]
-> [Next up: Generate the Hybrid workforce experience Power BI report](../insights/Tutorials/hybrid-workforce-experience.md)
+> [Next up: Generate the Hybrid workforce experience Power BI report](/viva/insights/tutorials/hybrid-workforce-experience.md)
