@@ -18,6 +18,9 @@ audience: Admin
 
 # Prepare organizational data
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 This describes the value of organizational data for analysts and the steps of identifying, gathering, and structuring the data before you upload it.
 
 To learn more about the nature and use of organizational data, see [Use organizational data for more effective analysis](#use-organizational-data-for-more-effective-analysis). When you’re ready to start working with organizational data, the following sections describe how:

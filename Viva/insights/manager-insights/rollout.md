@@ -14,6 +14,9 @@ audience: Admin
 
 # Manager insights rollout
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 When you're ready to roll out manager insights to your organization, do the following to introduce and educate managers on how to use Microsoft Viva Insights and advanced insights to better understand their team collaboration habits and to apply them to better support their teams.
 
 >[!Note]
@@ -23,7 +26,7 @@ When you're ready to roll out manager insights to your organization, do the foll
 
 * **Introduce to managers** - Ask business leaders to introduce these new apps to their managers with this [sample email](https://download.microsoft.com/download/5/e/0/5e07aae0-d8ef-44e3-8ae0-3c448f5b8fe1/email-to-managers.docx). It's important that managers understand how to use these insights to best support their teams. Recruiting managers in teams that already support your organization, such as in IT, Training, Corporate communications, and Support, enables them to learn about them first, and then help others learn how to use them.
 
-* **Set up a communications channel** - Set up a communications channel with your managers to evangelize the apps and answer any questions that they might have. Consider using Teams, Yammer, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
+* **Set up a communications channel** - Set up a communications channel with your managers to evangelize the apps and answer any questions that they might have. Consider using Teams, Viva Engage, or an email distribution group. You can discuss strategic priorities for the organization, such as 1:1 coaching, meeting reductions, or Teams adoption.
 
 For comprehensive guidance on how to formally roll out manager insights to your team, see the [Manager insights rollout guide](https://download.microsoft.com/download/8/6/5/8654a87d-311a-4203-b702-2555b7a0656a/manager-insights-rollout.pdf).
 

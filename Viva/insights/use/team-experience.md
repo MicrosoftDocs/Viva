@@ -18,6 +18,10 @@ audience: Admin
 
 # Employee experience
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights has a **My team** page that shows manager's collaboration data about their team. The outcomes include data about **Employee experience**, which you can select in **My team** to see more details.
 
 ![Coaching and development outcome insight](../images/wpa/use/team-oinsight.png)

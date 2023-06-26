@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for cross-group collaboration
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Collaboration across groups improves business performance by helping companies experience the benefits of scale, uncover new ideas, and improve engagement. Employees who break down silos through collaboration are better able to foster innovation and inclusion.
 
 ## Why it matters

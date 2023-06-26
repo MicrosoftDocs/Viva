@@ -36,6 +36,9 @@ With this report, you can:
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Impact explorer** query in Viva Insights.
 
+[!INCLUDE [Demonstration](includes/demonstration.md)]
+
+<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiYjc1ZDhlN2QtZmRjMi00OTIwLWIxOGMtNWMwZWMyMDM3NmZmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 

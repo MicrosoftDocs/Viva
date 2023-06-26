@@ -40,7 +40,7 @@ To sign in to Viva Goals, visit https://goals.microsoft.com/.
 4. If your organization is public, you have the option of sharing a link to join your organization with users.
 
 > [!Note]
-> Ensure that all users are provisioned on your organization's Azure Active Directory account.
+> Ensure that all users are provisioned and the eligible ones are licensed to Viva Goals on your organization's Azure Active Directory account. You can learn more about assigning licenses in [this article](/azure/active-directory/fundamentals/license-users-groups).
 
 ## Add members via invitation from Viva Goals
 
@@ -130,4 +130,7 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 1. **Manager updates made in Azure AD are not reflected in Viva Goals. Why?**
     1. The changes made in Azure AD are pushed to Viva Goals only after the corresponding users sign out and sign-in to Viva Goals. Until then, the updates won't reflect in Viva Goals. To resolve, sign out and then log back in to Viva Goals.
+
+1. **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
+    1. When users are deleted from Azure AD, they're not deleted/deactivated in Viva Goals immediately. In the Azure portal, when a user is deleted, it is in a soft-deleted phase for a 30-day period. During this period, the admin has the possibility to retrieve the account. If the account isn't retrieved for 30 days, it's then permanently deleted from Azure, and we get an update to delete/deactivate the same in Viva Goals.
 

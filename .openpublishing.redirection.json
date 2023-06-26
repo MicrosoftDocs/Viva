@@ -6,6 +6,31 @@
         "redirect_document_id": true
       },
       {
+        "source_path": "viva/pulse/get-started/roles-in-viva-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/provide-feedback/respond-to-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/provide-feedback/view-feedback-provided.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/request-feedback/create-pulse.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/request-feedback/view-sent-pulses.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
         "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
         "redirect_document_id": true
@@ -26,9 +51,29 @@
         "redirect_document_id": true
       },
       {
+        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-for-your-organization.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
         "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
         "redirect_document_id": true
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-feedback-author.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
       },            
       {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
@@ -1037,7 +1082,190 @@
         "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
         "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
         "redirect_document_id": false
+      },
+      {
+
+        "source_path": "viva/topics/topic-experiences-Yammer.md",
+        "redirect_url": "/viva/topics/topic-experiences-viva-engage",
+        "redirect_document_id": false
+      },                                                                    
+      {
+        "source_path": "viva/insights/use/qualtrics.md",
+        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-loose-vs-tight.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/align-okrs-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/apply-okr-formula.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/check-in-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/close-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/department-alignment-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/healthy-okr-program-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/kr-types.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/kr-types",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/leadership-strategy-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/okr-examples.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/okr-examples",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/organization-visibility-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rhythm-of-business-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/rob-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rob-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/team-execution-dashboard.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-annual-top-level-okrs.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-okrs-overview.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/solutions/write-okrs-recommendations.md",
+        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-recommendations",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Reports/multi-attribute-export-report.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Reports/report-analytics-filtering-favorability-trending.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/configure-sftp.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/glint-microsoft-teams-application.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/manage-general-settings.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/preview-filter-lifecycle-programs.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/Setup/program-cycle-edits.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/Glint/start/results-rollout-templates.md",
+        "redirect_url": "/viva/",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/maintenance.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/setup-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/setup.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/privacy-settings",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/setup/configure.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/plans-environments.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/environment-requirements",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/mya-for-admins.md",
+        "redirect_url": "/viva/insights/personal/setup/deployment-guide",
+        "redirect_document_id": false
       }
-                                                                          
+      
+
+                                                                         
     ]
 }

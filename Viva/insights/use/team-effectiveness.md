@@ -18,6 +18,10 @@ audience: Admin
 
 # Team effectiveness
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights has a **My team** page that shows manager's collaboration data about their team. The outcomes include data about **Team effectiveness**, which you can select in **My team** to see more details.
 
 ![Team effectiveness](../images/wpa/use/team-effect.png)

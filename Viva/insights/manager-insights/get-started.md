@@ -18,6 +18,10 @@ audience: Admin
 
 # Get started with manager insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 As a people manager, confirm the following prerequisites. You can then sign in and see your team's data in Viva Insights.
 
 ## Prerequisites
