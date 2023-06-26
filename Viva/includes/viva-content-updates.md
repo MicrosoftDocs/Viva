@@ -2,6 +2,16 @@
 
 
 
+## Week of June 19, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 6/20/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
+| 6/21/2023 | [Meeting query](/viva/insights/advanced/analyst/meeting-query) | modified |
+| 6/21/2023 | [Assign licenses overview](/viva/insights/advanced/setup-maint/assign-licenses) | modified |
+
+
 ## Week of June 12, 2023
 
 
@@ -101,17 +111,3 @@
 | Published On |Topic title | Change |
 |------|------------|--------|
 | 5/25/2023 | [Managing Viva Goals members](/viva/goals/managing-team-members) | added |
-
-
-## Week of May 15, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/15/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
-| 5/15/2023 | [Meeting query](/viva/insights/advanced/analyst/meeting-query) | modified |
-| 5/17/2023 | [Partitions in Viva Insights](/viva/insights/advanced/admin/partitions) | added |
-| 5/17/2023 | [Partitions in Viva Insights](/viva/insights/advanced/analyst/partitions-analyst) | added |
-| 5/17/2023 | [Configure check-in reminders and notifications](/viva/goals/check-in-reminders) | modified |
-| 5/18/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | added |
-| 5/19/2023 | [Custom metrics in Viva Insights](/viva/insights/advanced/analyst/custom-metrics) | modified |

@@ -3,41 +3,65 @@ items:
   items:
     - name: Introducing Microsoft Viva Insights
       href: introduction.md
-      items:
+      items: 
       - name: Privacy and data protection
-        href: advanced/privacy/privacy.md
-      - name: Environment requirements    
-        href: advanced/setup-maint/environment-requirements.md
-      - name: Setup introduction
-        href: advanced/setup-maint/setup-overview.md
-      - name: Support 
         items:
-        - name: Error messages
-          href: advanced/reference/errors.md
-        - name: Get support for Viva Insights
-          href: get-insights-support.md  
+        - name: Technical privacy guide for organization insights and advanced insights
+          href: advanced/privacy/privacy.md
+        - name: Personal insights privacy guide for admins
+          href: personal/overview/privacy-guide-admins.md   
+      - name: Plans, environments, and service description    
+        items: 
+        - name: Environment requirements for Viva Insights
+          href: advanced/setup-maint/environment-requirements.md  
+        - name: Service description for personal insights
+          href: personal/overview/mya-service-description.md
+      - name: Setup
+        items:
+        - name: Setup home
+          href: advanced/setup-maint/landing.yml
+        - name: Setup how-to guide - core Viva Insights (no premium features)
+          items:
+            - name: Deployment guide for personal insights
+              href: personal/setup/deployment-guide.md 
+            - name: 1 - Configure personal insights defaults
+              href: advanced/setup-maint/configure-personal-insights.md
+            - name: 2 - Configure Teams app settings
+              href: advanced/setup-maint/teams-admin-setup.md
+        - name: Setup how-to guide - all of Viva Insights (premium and core features)
+          items:
+            - name: Setup checklist
+              href: advanced/setup-maint/setup-overview.md
+            - name: 1 - Assign licenses
+              href: advanced/setup-maint/assign-licenses.md
+            - name: 2 - Assign roles
+              href: advanced/setup-maint/assign-user-roles.md
+            - name: 3 - Configure manager settings
+              href: advanced/setup-maint/manager-settings.md
+            - name: 4 - Configure personal insights defaults
+              href: advanced/setup-maint/configure-personal-insights.md
+            - name: 5 - Configure Teams app settings
+              href: advanced/setup-maint/teams-admin-setup.md
+            - name: 6 - Customize Viva Insights privacy settings 
+              href: advanced/setup-maint/privacy-settings.md 
+            - name: 7 - Upload organizational data 
+              href: advanced/setup-maint/upload-data.md 
+            - name: About roles in Viva Insights
+              href: advanced/setup-maint/user-roles.md
+            - name: Transferring from Workplace Analytics
+              href: advanced/setup-maint/transferring-from-wpa.md 
+            - name: Activity report
+              href: personal/overview/activity-report.md             
+      - name: Support
+        href: get-insights-support.md  
       - name: Personal insights
         items:
-        - name: Personal insights app in Teams and web FAQ
+        - name: End-user documentation
+          href: https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73
+        - name: Teams FAQ
           href: personal/teams/faq.md                      
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
-        - name: Admin guide
-          items: 
-            - name: Introduction
-              href: personal/overview/mya-for-admins.md
-            - name: Admin tasks for personal insights
-              href: personal/teams/viva-teams-app-admin-tasks.md
-            - name: Deployment guide
-              href: personal/setup/deployment-guide.md
-            - name: Setup
-              href: personal/setup/configure.md
-            - name: Plans and environments
-              href: personal/overview/plans-environments.md
-            - name: Privacy guide for admins
-              href: personal/overview/privacy-guide-admins.md
-            - name: Activity report
-              href: personal/overview/activity-report.md
       - name: Team and organization insights
         items:
           - name: Team insights 
@@ -50,24 +74,6 @@ items:
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
-        - name: Setup and maintenance
-          items:
-          - name: Set up advanced insights
-            href: advanced/setup-maint/setup.md
-          - name: Maintenance
-            href: advanced/setup-maint/maintenance.md
-          - name: Roles and licenses
-            items: 
-            - name: Roles in Viva Insights
-              href: advanced/setup-maint/user-roles.md
-            - name: Assign admin roles
-              href: advanced/setup-maint/assign-admin-roles.md
-            - name: Assign user roles
-              href: advanced/setup-maint/assign-user-roles.md
-            - name: Assign licenses
-              href: advanced/setup-maint/assign-licenses.md
-          - name: Manager settings      
-            href: advanced/setup-maint/manager-settings.md
         - name: Admin
           items:
           - name: Organizational data overview
@@ -132,6 +138,8 @@ items:
             href: advanced/reference/glossary.md
           - name: Metric definitions
             href: advanced/reference/metrics.md
+          - name: Supported languages
+            href: advanced/reference/supported-languages.md  
 
 
  
