@@ -41,7 +41,6 @@ Use the [quick guide to set up Viva Connections](viva-connections-setup-guide.md
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
 
-
 **Viva Connections is:**
 - An employee experience app in Microsoft Teams that allows organizations to create unique experiences for different audiences like information workers and frontline workers.
 - A gateway to other Viva apps and services with the ability to curate specific content and tools by providing easy access to resources, tools, relevant news, and popular destinations.
@@ -261,6 +260,8 @@ There are several options to learn more about how to get Viva Connections for yo
 
 
 ## More resources
+
+[View the Viva Connections community hub](https://techcommunity.microsoft.com/t5/viva-connections/ct-p/VivaConnection).
 
 [Learn how to plan, build, and launch a home site](home-site-plan.md)
 
