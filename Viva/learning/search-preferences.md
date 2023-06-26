@@ -33,7 +33,7 @@ Here are some cases in which provider prioritization enhance the learning experi
 
 - Creating proprietary learning content in your organization for users under a specific provider
 - Prioritizing content that is important for users 
-- Prioritizing a provider that is preferred by either admins or the majority of users
+- Prioritizing a provider that is preferred by either admins or most users
 
 ### Setting details
  
@@ -57,5 +57,5 @@ Updates to this setting are reflected immediately to all users and spaces.
 
 ## Upcoming features
 
-In future releases, we plan to enhance provider-based content prioritization with controls for levels of prioritization and the option to choose sub-sources within a provider. 
+In future releases, we plan to enhance provider-based content prioritization with controls for levels of prioritization and the option to choose subsources within a provider. 
 
