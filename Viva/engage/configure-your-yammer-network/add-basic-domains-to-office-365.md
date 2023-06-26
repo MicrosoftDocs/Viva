@@ -1,11 +1,11 @@
 ---
-title: "Add Yammer basic domains to your Office 365 tenant"
+title: "Add Viva Engage domains to your Office 365 tenant"
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 02/28/2020
+ms.date: 06/28/2023
 audience: Admin
 ms.topic: article
 ms.service: yammer
