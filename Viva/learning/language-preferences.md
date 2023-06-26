@@ -20,7 +20,7 @@ description: Manage your language settings in Viva Learning for users across Tea
 
 # Language preference settings
 
-Manage Viva Learning language settings for users across Teams, the web app, and mobile. We recommend you set up all language settings as the initial step of Viva learning onboarding process or pilot phase.
+Manage Viva Learning language settings for users across Teams, the web app, and mobile. We recommend you set up all language settings as the initial step of Viva Learning onboarding process or pilot phase.
 
 
 > [!NOTE]
@@ -28,7 +28,7 @@ Manage Viva Learning language settings for users across Teams, the web app, and 
 
 ## Access
 
-Language preference settings is available for all tenants with Viva Learning (seeded or premium). Admins with tenant admin or knowledge admin roles will be able to view and edit the setting. 
+Admins with access to Admin Tab in Viva Learning will be able to view and edit the setting.
 
 ## Default language 
 
@@ -40,7 +40,7 @@ The default language is a required setting, with English (United States) as the 
 Some places where Default language is used: 
 
 - When tenants select the [second language setting](#displaying-content-in-default-and-user-selected-languages)
-Learners will see learning content from both display and default language
+Learners see learning content from both display and default language
 
 - Sharepoint object with a null/empty `ContentLanguage` field will be defaulted to default language.
 
@@ -50,9 +50,9 @@ Updates to default language setting are visible immediately to all users of Viva
 
 The default language is chosen based on any or all of these parameters:
 
-1. The language that majority of users prefer or use
+1. The language that most users prefer or use
 
-1. The language that majority of the learning content are created
+1. The language that most of the learning content is created
 
 1. The operating language of the tenant
 
@@ -80,7 +80,7 @@ When **Show Learning content in default and user-selected languages** is switche
 
 Spaces and pages not mentioned above aren't impacted by this setting.
 
-Updates to this setting reflects immediately to all users of Viva Learning after editing.
+Updates to this setting reflect immediately to all users of Viva Learning after editing.
 
 > [!NOTE]
 > If the **Show Learning Content in Default and User-selected Languages** is switched off, users may experience Viva Learning with no learning content.
