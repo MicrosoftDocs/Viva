@@ -50,14 +50,14 @@
         items:
         - name: Guide to OKRs
           href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
+        - name: Improve your OKR writing
+          href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
         - name: Write OKRs recommendations
           href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
+        - name: Defining Key Result Types in Viva Goals
+          href: ./viva-goals-healthy-okr-program/kr-types.md
         - name: OKR examples
           href: ./viva-goals-healthy-okr-program/okr-examples.md
-        - name: Apply the OKR formula
-          href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
-        - name: Define KR types
-          href: ./viva-goals-healthy-okr-program/kr-types.md
     
     - name: Collaborate with Viva Goals
       items:
