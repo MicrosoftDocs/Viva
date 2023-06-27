@@ -90,3 +90,4 @@ By checking this checkbox, you're allowing Viva Learning to fetch user informati
 - FirstName
 - LastName
 - Username
+
