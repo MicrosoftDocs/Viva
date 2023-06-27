@@ -94,23 +94,13 @@ This metric is calculated based on a person's Outlook setting for when an [email
 
 Similarly, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
-## Assistance for people managers
-
-People managers often have hectic schedules and it can be tough to stay in close contact with each team member. Viva Insights brings together all the information managers need to stay caught up and respond quickly to important requests.
-
-All assistance for managers in Viva Insights relies exclusively on information from the manager's own mailbox; managers do not receive any incremental information from team members' mailboxes that could be used for performance management. For example: managers can use this feature to review important unread emails in their inbox _from_ team members, but they cannot see whether team members have read emails that the manager has sent.
-
-Managers are identified by using Azure Active Directory. The feature is only available to users who have direct reports listed in Azure AD.
-
-Managers have the option to [edit their team list](../use/use-the-insights.md#to-edit-your-team-list) if they notice any inaccuracies. Any changes the manager makes are used only in their Viva Insights experience, and are not synchronized back to Azure AD.
-
 ## Privacy settings
 
 Personal insights in Viva Insights provides flexible and configurable controls that are designed to enable organizations and their members to address varying legal and policy needs regarding privacy and use of employee data. When enabling Personal insights in Viva Insights for the organization, admins can make the following choices:
 
 * **Determine which people have access to Viva Insights** &ndash; Admins can determine which people can access and use Viva Insights by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
+* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
 Note that if default settings are used, the following applies:
 
@@ -119,7 +109,7 @@ Note that if default settings are used, the following applies:
 
 ## Opt in or out
 
-Employees can opt themselves out of Viva Insights. Opting out causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../setup/configure.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
+Employees can opt themselves out of Viva Insights. Opting out causes them to lose access to the Viva Insights [elements](../use/mya-elements.md) and it also has [data-processing consequences](#data-processing-consequences). Admins can also [opt out employees](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level), but employees can override the admin setting and opt back in, as described in [How employees can opt in or out](#how-employees-opt-in-or-out).
 
 ### Data processing consequences
 
@@ -174,7 +164,7 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
       * Use PowerShell to opt employees out of Viva Insights.
 
          >[!Note]
-         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees opt in or out](#how-employees-opt-in-or-out)).
+         >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees opt in or out](#how-employees-opt-in-or-out)).
 
       * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
