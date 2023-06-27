@@ -35,7 +35,7 @@ search.appverid:
 
  If your organization has active guests, Azure Active Directory B2B guest functionality can be used for guests who reside in the same geographic area as the Viva Engage network. This includes US guests for US networks and EU guests for EU networks. Guests will need to be reinvited to your network.
 
-If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Azure Active Directory Portal. Learn more by visiting [Turn off Yammer access for Office 365 users ](/manage-yammer-users/turn-off-user-access) and [Manage Yammer licenses in Office 365](/manage-yammer-users/manage-yammer-licenses-in-office-365).
+If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Azure Active Directory Portal. Learn more by visiting [Manage Viva Engage licenses in Office 365](../manage-engage-licenses-microsoft-365.md).
 
 These feature equivalents are only available to networks in Native Mode. There's no feature equivalent to secret groups in Microsoft 365. All groups must be public or private.
 
@@ -44,7 +44,7 @@ These feature equivalents are only available to networks in Native Mode. There's
  ## What do you need to do to prepare?
  **If you would like to self-initiate your migration:**
 
- There's a [step-by-step guide](../native-mode-guide) to Native Mode migration. You can run an alignment report that will identify gaps in your current network alignment with Native Mode. It's critical that you back up your network’s data and communicate the migration to your users before running the Alignment tool mentioned in the guide. This is because some data may be deleted during the process.
+ There's a [step-by-step guide](../native-mode-guide.md) to Native Mode migration. You can run an alignment report that will identify gaps in your current network alignment with Native Mode. It's critical that you back up your network’s data and communicate the migration to your users before running the Alignment tool mentioned in the guide. This is because some data may be deleted during the process.
 
  **If you would like Microsoft to initiate your migration:**
 
