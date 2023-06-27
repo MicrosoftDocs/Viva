@@ -53,6 +53,7 @@ After you’ve got the right licensing in place, review additional requirements 
 |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
+|**Viva Glint**|SharePoint admin, Microsoft 365 Enterprise or global admin, service admin|
 
 ## Step 3: Get guidance on roles for each phase
 
@@ -109,6 +110,12 @@ Review the different roles in each phase before you start planning. Each app nee
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
 |- Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or the Microsoft commercial marketplace. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
+
+### Get guidance on Viva Glint
+
+|Coordinate and plan |Build and set up |Deploy and launch |
+|--------------------|-----------------|------------------|
+
 
 ## Step 4: How to get started
 

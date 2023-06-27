@@ -1,10 +1,10 @@
 ---
 title: "Getting started with Microsoft Viva"
 ms.reviewer: loreenl
-ms.author:  hokavian
-author: Holland-ODSP
+ms.author:  elizapo
+author: lizap
 manager: pamgreen
-ms.date: 12/13/2022
+ms.date: 06/26/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -66,6 +66,9 @@ Get [detailed descriptions of each Viva app](discover-more-about-each-viva-modul
 |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | - Connect people across the business to strengthen professional relationships and build social capital. <br>- Build communities that support diversity, shared interests, and business initiatives. <br>- Spark engagement between leaders and employees to amplify vision and shape culture. <br>- Exchange knowledge, find answers, and crowdsource ideas. <br>- Activate people to contribute their experience and expertise. |Microsoft Teams <br> Yammer |
 |:::image type="icon" source="media/logos/goals-launch-c-64.svg"::: <br> **Viva Goals** | - Create focused and motivated teams by aligning work to your organization's mission and priorities. <br> - Create and set OKRs (objectives and key results) for your organization. <br> - Work with OKRs for every team in your organization, including both hierarchical and cross-functional teams. <br> - Align projects to OKRs and track project outcomes. <br> - Surface OKRs in Microsoft Teams. | Microsoft Teams <br> Excel Online |
 |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br>**Viva Sales** | - Eliminate the need for manual data entry so your salespeople have more time to focus on selling. <br> - Integrate with your current CRM. <br> - Capture insights from your customer interactions in Microsoft 365. | Microsoft Teams <br> Outlook <br> Dynamics 365 Sales |
+|**Viva Glint**|- Use the principles of People Science to craft an employee engagement strategy tailored to meet your specific business goals.<br>- Leverage AI to create efficiencies in aggregating, understanding, and enhancing the actionability of employee feedback.<br>- Reduce time to action with AI driven efficiencies such as data collection, natural language processing, sentiment analysis, and predictive analysis.<br>- Support employees with personalized, relevant actions that maximize their employee experience.<br>- Gain immediate insights and leverage AI to understand strengths, risks, benchmarks, and comments in interactive, easy-to-use dashboards.<br>- Empower leaders and managers to have guided team conversations that drive change through personalized results and actionable recommendations.||
+|**Viva Pulse**|- list item|Integrations|
+
 
 ## Microsoft Viva license requirements
 
@@ -105,6 +108,8 @@ Find out how employees in your organization can use Viva apps, and give them gui
 |**Viva Engage** | Provides a place to connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions, sharing knowledge, attending virtual events, building social capital, and extending employee networks. |[Getting started with Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) |
 |**Viva Goals** | Makes it easy for employees to view objectives and key results (OKRs) that are relevant to both them and your broader organization. Employees can also add their own OKRs and submit them to managers for review. Employees who own OKRs can conduct check-ins to update progress. |[Viva Goals in Teams - Microsoft Support.](/viva/goals/use-ms-teams-integration) |
 |**Viva Sales** | Automates data entry into your CRM system so your sales people can focus on sales instead of spending their time on data entry. |[End user introduction to Viva Sales](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) |
+|**Viva Glint**|Helps HR leaders and admins understand how their people perceive work and ways to respond positively to influence the employee experience and business results by reducing turnover and improving productivity. Data provides employee trends, risks, and opportunities across the employee lifecycle. Managers learn to understand and support their employees’ unique work experience with personalized action plans and end users can share their employee experience in a secure, confidential manner and receive relevant and personalized support to maximize their employee experience.|Get started with Viva Glint|
+|**Viva Pulse**|Helps managers and team leads seek regular and confidential feedback on their team’s experience. Using People-Science backed templates and analytics, Viva Pulse will enable teams to use their voice so they can help managers pinpoint what's working well and which areas to focus on over time. Viva Pulse will also suggest learning and actions on relevant topics, making it easy for managers to address their team’s needs.| [Learn more about Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
 
 ## Learn about new Viva apps coming soon
 
@@ -114,7 +119,7 @@ These new Microsoft Viva apps are coming soon. Learn how you'll be able to  inco
 | :------------------- | :------------------- |:----------------|
 | **Viva Amplify**  | Viva Amplify will empower employee communication teams and leaders to elevate their messaging using a centralized communication process that offers writing guidance to help reach every part of the organization.| [Learn more about Viva Amplify](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
 | **Viva Answers**  | Viva Answers will match employee questions to the right answers and experts across the organization to help address open questions and put collective knowledge to work for all employees. Answers in Viva will also leverage AI to surface similar questions that have been answered, recommend topics and experts, and highlight top solutions.| [Learn more about Viva Answers](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
-| **Viva Pulse**  | Viva Pulse will help managers and team leads seek regular and confidential feedback on their team’s experience. Using People-Science backed templates and analytics, Viva Pulse will enable teams to use their voice so they can help managers pinpoint what's working well and which areas to focus on over time. Viva Pulse will also suggest learning and actions on relevant topics, making it easy for managers to address their team’s needs.| [Learn more about Viva Pulse](https://www.microsoft.com/microsoft-365/blog/2022/09/22/empower-and-energize-employees-with-microsoft-viva/) |
+
 
 
 ## Learn more

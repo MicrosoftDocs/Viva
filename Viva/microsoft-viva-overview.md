@@ -37,7 +37,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 | Experience | App  | App |
 |:-------:|-------------|------|
 |**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|
-|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.||
+|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br>**Viva Glint**<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.||
 |**Growth**|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) <br> Use AI to automatically organize content and expertise across your systems and teams.|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources|
 |**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
 |**Role-based**|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](#viva-sales) <br> Use Microsoft 365 and Teams to automatically capture, access, and register data into any CRM system. ||
@@ -76,6 +76,12 @@ This goal-setting and management solution aligns teams to your organization’s 
 This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. The app is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
 
 [Get more information on Viva Sales](/viva/sales/introduction)
+
+#### Viva Glint
+This "voice of the employee" solution helps organizations understand and improve employee engagement. Organizations get immediate visibility into the employee experience with org-wide surveys and recommended actions to drive business outcomes. Questions and action plans are based on people science to guide employee listening and engagement programs that support the employee experience. Leaders and managers can view results to understand wins and opportunities, compare performance against benchmarks and receive personalized suggestions for learning courses, conversation starters, and other actions that support positive business outcomes.
+
+[Get started with Viva Glint basics](https://go.microsoft.com/fwlink/?linkid=2230857)
+
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
