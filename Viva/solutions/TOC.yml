@@ -30,59 +30,73 @@
   - name: Incorporate learning into your organization
     href: incorporate-learning.md
 
-  - name: Run a healthy OKR program with Viva Goals
+  - name: Discover goal-setting best practices with Viva Goals
     items:
-    - name: Healthy OKR Program Overview
+    - name: Best practices for running a healthy Viva Goals program
       href: ./viva-goals-healthy-okr-program/healthy-okr-program-overview.md
-    - name: Write OKRs and Initiatives
+    
+    - name: Create goals and OKRs
       items:
-      - name: Write OKRs Overview
-        href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
-      - name: Write OKRs Recommendations
-        href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
-      - name: OKR Examples
-        href: ./viva-goals-healthy-okr-program/okr-examples.md
-      - name: Apply the OKR Formula
-        href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
-      - name: Write annual, organizational OKRs using the 5 Ps
-        href: ./viva-goals-healthy-okr-program/write-annual-top-level-okrs.md
-      - name: Define KR Types
-        href: ./viva-goals-healthy-okr-program/kr-types.md
-    - name: Align OKRs and Initiatives
+      - name: Writing great goals
+        items:
+        - name: Guide to great goal writing
+          href: ./viva-goals-healthy-okr-program/great-goal-writing.md
+        - name: Goal writing recommendations
+          href: ./viva-goals-healthy-okr-program/goal-writing-recommendations.md
+        - name: Write annual, organizational OKRs using the 5 Ps
+          href: ./viva-goals-healthy-okr-program/write-annual-top-level-okrs.md
+
+      - name: Using the OKR framework
+        items:
+        - name: Guide to OKRs
+          href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
+        - name: Write OKRs recommendations
+          href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
+        - name: OKR examples
+          href: ./viva-goals-healthy-okr-program/okr-examples.md
+        - name: Apply the OKR formula
+          href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
+        - name: Define KR types
+          href: ./viva-goals-healthy-okr-program/kr-types.md
+    
+    - name: Collaborate with Viva Goals
       items:
-      - name: Align OKRs Overview
+      - name: Align OKRs overview
         href: ./viva-goals-healthy-okr-program/align-okrs-overview.md
-      - name: Align OKRs Recommendations
+      - name: Align OKRs recommendations
         href: ./viva-goals-healthy-okr-program/align-okrs-recommendations.md
-      - name: Tight vs Loose Alignment
+      - name: Tight vs loose alignment
         href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
-    - name: Check-in OKRs and Initiatives
+    
+    - name: Check-in and track goals
       items:
       - name: Check-in OKRs Overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
       - name: Check-in OKRs Recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
-    - name: Close OKRs and Initiatives
+   
+    - name: Close and score goals
       items:
       - name: Close OKRs Overview
         href: ./viva-goals-healthy-okr-program/close-okrs-overview.md
       - name: Close OKRs Recommendations
         href: ./viva-goals-healthy-okr-program/close-recommendations.md
-    - name: Rhythm of Business
+    
+    - name: Business rhythms and dashboards
       items:
-      - name: Rhythm of Business Overview
+      - name: Business rhythms overview
         href: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md
-      - name: Rhythm of Business Recommendations
+      - name: Business rhythms recommendations
         href: ./viva-goals-healthy-okr-program/rob-recommendations.md
-      - name: Review Dashboard Templates
+      - name: Review dashboard templates
         items:
-        - name: Leadership Strategy Dashboard
+        - name: Leadership strategy dashboard
           href: ./viva-goals-healthy-okr-program/leadership-strategy-dashboard.md
-        - name: Organization Visibility Dashboard
+        - name: Organization visibility dashboard
           href: ./viva-goals-healthy-okr-program/organization-visibility-dashboard.md
-        - name: Departmental Alignment Dashboard
+        - name: Departmental alignment dashboard
           href: ./viva-goals-healthy-okr-program/department-alignment-dashboard.md
-        - name: Team Execution Dashboard
+        - name: Team execution dashboard
           href: ./viva-goals-healthy-okr-program/team-execution-dashboard.md
 
 
