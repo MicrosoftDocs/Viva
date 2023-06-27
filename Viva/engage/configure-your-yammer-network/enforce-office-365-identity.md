@@ -30,7 +30,7 @@ As Viva Engage becomes a core service for your organization, you'll want users t
 
 The following flowchart shows what happens when a user logs in to Viva Engage.
   
-:::image type="content" source="../media/engage/admin/enforce-o365-id.png" alt-text="Flowchart shows what happens when user signs in when Office 365 identity is enforced, they log in with their Office 365 identity.":::
+:::image type="content" source="../../media/engage/admin/enforce-o365-id.png" alt-text="Flowchart shows what happens when user signs in when Office 365 identity is enforced, they log in with their Office 365 identity.":::
   
 A user's sign-in experience when Office 365 identity is and isn't enforced for Viva Engage:
   
@@ -63,9 +63,7 @@ It takes just a few steps to start enforcing Office 365 identities in Viva Engag
     
 You must be a global administrator on Office 365 who was synchronized to Viva Engage on Office 365.
   
- If you're ready to enforce Office 365 identity in Viva Engage, follow these steps. 
-  
- **To start enforcing Office 365 identity in Viva Engage**
+### To start enforcing Office 365 identity in Viva Engage
   
 1. In the Yammer admin center, go to the **Network Admin** section, and choose **Security Settings**.
     
@@ -73,14 +71,14 @@ You must be a global administrator on Office 365 who was synchronized to Viva En
     
     You must be a global administrator to see this section. 
     
-    :::image type="content" source="../media/engage/admin/enforce-o365-settings.png" alt-text="Screenshot that shows the Enforce Office 365 identity in Viva Engage checkbox in the Viva Engage Security Setting page. You must be a global administrator to see this setting.":::
+    :::image type="content" source="../../media/engage/admin/enforce-o365-settings.png" alt-text="Screenshot that shows the Enforce Office 365 identity in Viva Engage checkbox in the Viva Engage Security Setting page. You must be a global administrator to see this setting.":::
   
 3. A confirmation message asks you to select the most appropriate level of enforcement: 
     
    - **Committed Enforcement**:  Choose this option if all of your Viva Engage users already have an Azure Active Directory (AAD) account. 
     
      > [!IMPORTANT]
-     > Once you save this change, you won't be able to undo it, and your users won't be able to log in using their Viva Engage usernames and passwords anymore. 
+     > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords. 
   
    - **Temporary 7-Day Enforcement**: Choose this option if you're testing the enforcement of Office 365 identity on your network, and may need to revert it back. Once you save this change, a temporary enforcement period of seven days begins, and your users are no longer able to sign in using their Viva Engage usernames and passwords. After seven days, your network is automatically committed to Office 365 Identity enforcement.
     
