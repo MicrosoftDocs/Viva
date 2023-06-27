@@ -40,14 +40,14 @@ search.appverid:
 > When setting up a live event, we recommend that you configure your video, community, and user permissions at least 24 hours before the event for the best experience. This includes such settings as adding users, updating video permissions, and changing a community from private to public. It can take up to two hours for certain changes to propagate across Microsoft Teams and Viva Engage. Allowing 24 hours or more can provide time for testing and adjusting if needed.
 
 - **Microsoft Teams QuickStart**
-> Use this method used to produce simple live events. All you need to have are the audio and video devices connected to the presenter’s computer. This setup is great when you've invited a remote presenter for the event. 
+Use this method used to produce simple live events. All you need to have are the audio and video devices connected to the presenter’s computer. This setup is great when you've invited a remote presenter for the event. 
     - Teams encodes the broadcast stream. 
     - Content shared from the presenter’s webcam and screen is shared across Teams. 
     - Attendees can view the event on Viva Engage. 
     - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced.
 
 - **Teams external app or device**
-> This type of production is best for large-scale events, such as executive town halls. Here, a single stream from a media mixer is broadcast to the audience. 
+This type of production is best for large-scale events, such as executive town halls. Here, a single stream from a media mixer is broadcast to the audience. 
     - Teams broadcasts the live event 
     - Requires an external encoder (app or device) to produce the event 
     - Attendees can view the event in Viva Engage. 
