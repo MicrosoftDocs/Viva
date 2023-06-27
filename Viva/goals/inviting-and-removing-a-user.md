@@ -63,6 +63,28 @@ Now, all the members in the group are eligible to sign in. The user record will 
 > [!Note] 
 > Every time a user is added to the AAD group, that user will automatically become eligible to log into Viva Goals. However, users will need to sign in at least once to appear under the **All Users** list.
 
+## How to add members to a team 
+
+Team owners and administrators can set up their team by adding team members. Members can be added to the team either by adding an Azure AD group (Microsoft 365 group, mail enabled security group or distribution group), or by adding individuals in your tenant. 
+
+To add members to your team, follow these steps: 
+
+1. Go to the **Team OKR** page. 
+1. Select the **Team Members** tab. 
+1. Select the **Add Members** button. 
+1. Start typing the name of the Azure AD group or the individual. The search tool will return results directly from Azure AD.  
+1. Select the group or the individual you want to add. 
+1. After selecting the required groups or individuals, click the Add Members button. The groups or individuals are added to the team as a members.
+
+When you set up a team, it's recommended that you add one or more team administrators to make sure that the team management isn't dependent on one person. 
+
+To assign team administrator permissions to a team member, follow these steps:
+
+Navigate to the **Team Members** tab. Search for the member in the search field. The search tool will return results directly from Azure AD. Next to the member you want to assign as the administrator, click on the more options dropdown. 
+
+- If the member has already been added to the team as part of a group or individually, the dropdown will provide the option to **Make admin**. Clicking on this option will assign this member as the team administrator. 
+- If the member has not been added to the team yet, the more options button will provide the option to **Add to team**. After adding the member, repeat the above process to assign this member as the team administrator. 
+
 ## Remove a user 
 
 To remove a user from your organization, an admin can deactivate or delete their account: Go to **Admin** > **Users**. Find the user you want to remove and select **Actions** > **Deactivate** or **Actions** > **Delete**. In either case, you'll no longer be billed for that user.
