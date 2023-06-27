@@ -3,8 +3,8 @@ title: "Manage Viva Engage data compliance"
 f1.keywords:
 - NOCSH
 ms.author: v-cdemaagd
-author: chrisdemaagd
-manager: pamgreen
+author: cedemaagd
+manager: dmillerdyson
 ms.date: 6/28/2023
 audience: Admin
 ms.topic: article
