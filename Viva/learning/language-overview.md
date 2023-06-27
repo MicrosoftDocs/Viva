@@ -119,4 +119,4 @@ The following spaces display content only based on user action or preference. Th
 
     The language of assignments is set as follows: **Display language** > **Default Language Setting** (private preview) > **English (US)**
     
-    The assignment is loaded in the display language. If the assignment isn't available in display language, then it's loaded in the default language set by the admin in the language preference page. If the assignment isn't available in the admin set default language, then Viva Learning falls back to English (US).
+    The assignment is loaded in the display language. If the assignment isn't available in display language, then it's loaded in the default language set by the admin in the language preference page. If the assignment isn't available in the admin set default language, then Viva Learning falls back to English (US).  We are working on including Default language in this fallback process. 
