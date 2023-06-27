@@ -109,7 +109,7 @@ Some learning content sources will be enabled by default. These learning sources
 - Microsoft 365 Training
 - Bring your own content
 
-The Bring your own content feature allows users in your organization to bring their own content from SharePoint into Viva Learning and share it with others. However, content brought in by end users isn't searchable.
+The **bring your own content** feature allows users in your organization to bring their own content from SharePoint into Viva Learning and share it with others. However, content brought in by end users isn't searchable.
 
 > [!NOTE]
 > For data that you copy to Viva Learning from a non-Microsoft service (learning provider or learning management system), you are not able to directly extract, correct, or delete that data in Viva Learning. We refresh the data you import from non-Microsoft providers promptly to reflect changes and deletions in the non-Microsoft source data.
@@ -136,16 +136,10 @@ Users can recommend content to each other in Viva Learning. Enable tracking to a
 
     ![Image of the enable tracking checkbox in the admin center.](../media/learning/manage-providers-admin-center.png)
 
-## Change your existing LMS instance
-
-To change your existing learning management system instance: 
-
-1.**Delete** the existing provider from **Manage providers**. 
-Once deleted, the data is removed immediately from app UX for end users. Underlying metadata (content, user metadata, LRS) is deleted in 3 days. 
-2. Enable the new provider by going to **Add providers** and configuring a new provider.
-
 
 ## Next step
 
 
 [Add SharePoint as a content source for Microsoft Viva Learning](configure-sharepoint-content-source.md)
+
+[Manage Providers](use-tabs.md)
