@@ -94,7 +94,7 @@ While most businesses do need to make money, this objective could be better. It�
 
 This objective is clearer, meaningful, follows the formula, and drives the business forward. 
 
-:::image type="content" source="../../media/goals/solutions-vg/okr-example-latin-america-1.png" alt-text="Screenshot of an example objective in Viva Goals" lightbox="../../media/goals/solutions-vg/okr-example-latin-america-1.png":::
+:::image type="content" source="../../media/goals/solutions-vg/okr-example-latin-america-1.png" alt-text="Screenshot of an example objective in Viva Goals." lightbox="../../media/goals/solutions-vg/okr-example-latin-america-1.png":::
 
 Now let’s look at three Key Results that span across Sales and Marketing.  
 
@@ -102,7 +102,7 @@ Now let’s look at three Key Results that span across Sales and Marketing.
 1. Increase social media views from 5,000 to 15,000 (Marketing)
 1. Increase qualified leads via web form from 50 to 3,000 (Marketing) 
 
-:::image type="content" source="../../media/goals/solutions-vg/okr-example-latin-america-2.png" alt-text="Screenshot of key results in Viva Goals" lightbox="../../media/goals/solutions-vg/okr-example-latin-america-2.png":::
+:::image type="content" source="../../media/goals/solutions-vg/okr-example-latin-america-2.png" alt-text="Screenshot of key results in Viva Goals." lightbox="../../media/goals/solutions-vg/okr-example-latin-america-2.png":::
 
 **Good Key Results:** These key results are good, since they're focused, measurable, and generally follow the formula.  
 

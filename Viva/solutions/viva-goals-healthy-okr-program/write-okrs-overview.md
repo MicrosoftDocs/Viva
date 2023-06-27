@@ -84,7 +84,7 @@ Here’s an easy way to tie that to the components of OKRs:
 
 "I will **OBJECTIVE** as measured by **KEY RESULTS** via **INITIATIVES.**"
 
-:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula.png" alt-text="Image of the OKR formula" lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula.png":::
+:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula.png" alt-text="Screenshot of the OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula.png":::
 
 From there, as you think about the goals you want to achieve, you can start by asking questions and using a formula. 
 
@@ -154,7 +154,7 @@ If we look at how our examples flow into our formula, it would look like this:
 
 "We will **deliver a must have produce in order to delight customers and grow out user base** as measured by **Increased NPS score from 80 to 90** via **Conducting market research initiative to identify customer delighters.**"
 
-:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png" alt-text="Image of a filled out OKR formula" lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png":::
+:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png" alt-text="Diagram of a filled out OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png":::
 
 ### Review and edit
 
