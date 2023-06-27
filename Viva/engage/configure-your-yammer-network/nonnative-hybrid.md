@@ -9,7 +9,8 @@ manager: dmillerdyson
 ms.date: 06/28/2023
 audience: Admin
 ms.topic: article
-ms.service: Viva
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
@@ -17,7 +18,7 @@ search.appverid:
 - YAE150
 ---
 
- # Non-Native and hybrid Viva Engage Nnetworks upgrades
+ # Non-Native and hybrid Viva Engage Network upgrades
 
  Non-Native and Hybrid Viva Engage Networks will be upgraded to [Native Mode](../overview-native-mode.md) to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network. **90% of Viva Engage networks are in Native Mode today, including our top 10 largest networks.**
 
@@ -34,7 +35,7 @@ search.appverid:
 
  If your organization has active guests, Azure Active Directory B2B guest functionality can be used for guests who reside in the same geographic area as the Viva Engage network. This includes US guests for US networks and EU guests for EU networks. Guests will need to be reinvited to your network.
 
-If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Azure Active Directory Portal. Learn more by visiting [Turn off Yammer access for Office 365 users ](./manage-yammer-users/turn-off-user-access) and [Manage Yammer licenses in Office 365](./manage-yammer-users/manage-yammer-licenses-in-office-365).
+If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Azure Active Directory Portal. Learn more by visiting [Turn off Yammer access for Office 365 users ](/manage-yammer-users/turn-off-user-access) and [Manage Yammer licenses in Office 365](/manage-yammer-users/manage-yammer-licenses-in-office-365).
 
 These feature equivalents are only available to networks in Native Mode. There's no feature equivalent to secret groups in Microsoft 365. All groups must be public or private.
 

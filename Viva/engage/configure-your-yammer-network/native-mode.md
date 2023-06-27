@@ -10,6 +10,7 @@ ms.date: 01/21/2020
 audience: Admin
 ms.topic: article
 ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
