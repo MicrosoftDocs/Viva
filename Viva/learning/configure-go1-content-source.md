@@ -52,16 +52,16 @@ First, you'll need to follow these steps to create an app in your Go1 Portal. Th
 
 Learn more about [how to create a private developer's app for Go1](https://help.go1.com/en/articles/4642648-integrate-with-the-go1-api).
 
-## Configure in your Microsoft 365 admin center
+## Configure in the Viva Learning Admin tab
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
+> [!NOTE]
+> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps..
 
 1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb)
 
 2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider** 
 
-3. Select Go1 from list and select **Next**. 
+3. Select **Go1** from list and select **Next**. 
 
 4. Add configuration details as applicable and select **Save**. This will add the provider in Configured providers list. 
 

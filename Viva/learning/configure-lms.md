@@ -23,7 +23,7 @@ description: Learn how to configure learning management systems as a learning co
 
 A growing set of learning management systems are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Learning management systems aren't enabled by default. To enable these sources, you'll need to [add them in the Microsoft 365 admin center](content-sources-365-admin-center.md#configure-settings-for-the-learning-content-sources) and follow the specific instructions shown in the following table.
+Learning management systems aren't enabled by default. To enable these sources, you'll need to add them in the Viva Learning Admin tab and follow the specific instructions shown in the following table.
 
 >[!NOTE]
 >You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
@@ -38,7 +38,7 @@ Learning management systems aren't enabled by default. To enable these sources, 
 |Cornerstone OnDemand |[Configure Cornerstone OnDemand as a content source](configure-cornerstone-content-source.md)         |
 |Saba    |[Configure Saba as a content source](configure-saba-content-source.md)         |
 |SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](configure-successfactors-content-source.md)         |
-| Workday   |[Configure Workday as a content source](configure-workday-content-source.md)         |
+
 
 >[!NOTE]
 >Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
@@ -131,6 +131,6 @@ These are the data extracted from the LMS for completion status.
 
 ## Content consumption for end users
 
-Once you've added a learning management system as a content source from the Microsoft 365 admin center, content from the LMS will flow to Viva Learning and will be visible to end users.
+Once you've added a learning management system as a content source, content from the LMS will flow to Viva Learning and will be visible to end users.
 
 Once a user chooses to play a course in Viva Learning, they will be directed to the LMS webpage and will need to enter the login credentials on the LMS sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).

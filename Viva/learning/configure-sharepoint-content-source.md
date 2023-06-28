@@ -64,14 +64,19 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 1. Select **SharePoint** from the Provider list and select **Next**.
 
 1. Under SharePoint, provide the site URL to the SharePoint site where you want Viva Learning to create a centralized repository. If your SharePoint site is new, you'll need to wait 1 hour after site creation to add it here. You must also be the owner of the SharePoint site.
-
-
-
-     If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), you can find your region or country at [Microsoft 365 Multi-geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). The **Viva Learning** panel also shows this information.
-
+1.  If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), you can find your region or country at [Microsoft 365 Multi-geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). The **Viva Learning** panel also shows this information.
 
 3. You can also update the display name in configuration flow. The display name is the organization or tenant name by default.  
-4. A SharePoint list is created automatically within the provided SharePoint site.
+
+>[!Note]
+>The owner of the added site URL can only update the display name
+
+>[!Note]
+>Display names for already ingested learning objects are updated after 24 hours.
+ 
+7.Once configured, SharePoint will start appearing automatically in configured providers list. You can track the sync status and export sync logs as well.
+
+8. A SharePoint list is created automatically within the provided SharePoint site.
 
      In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**.
 
@@ -97,7 +102,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
   > [!NOTE]
   > To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
->[!NOTE]
+> [!NOTE]
 > Viva Learning ingests up to 1000 items and files as learning objects.
 
 ### Folder URL document library curation
@@ -217,30 +222,6 @@ Finally, add the author.
 2. Choose **Multiple lines of text**.
 3. Name the column `ContentAuthor.`
 4. Add the author or authors of the content.
-
-### Add a display name
-
->[!NOTE]
-> The owner of the added site URL can only update the display name
-
->[!NOTE]
-> Display names for already ingested learning objects are updated after 24 hours.
-
-
-1. In the Viva Learning app, select the **Admin** tab. 
-1. Navigate to **Manage providers**.
-1. Look for the SharePoint provider and select the ellipses (**...**).
-1. Select **Edit**.
-
-![Screenshot of the edit option that can be accessed through manage providers.](../media/learning/sharepoint-display-name1.png)
-
-The display name is the organization or tenant name by default.
-
-5. Update display name.
-6. Select **Save**.
-
-![Image of a configured SharePoint display name with the option to save](../media/learning/sharepoint-display-name2.png)
-
 
 ### Provide your own organization's content
 

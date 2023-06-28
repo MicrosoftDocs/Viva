@@ -20,7 +20,7 @@ description: Learn how to configure Cornerstone OnDemand as a learning content s
 
 # Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Cornerstone OnDemand as a third-party learning content source in Viva Learning. First you'll need to enable Viva Learning and get your details from your Cornerstone Portal. Then you'll need to complete configuration in Viva Learning Admin.
+This article shows you how to configure Cornerstone OnDemand as a third-party learning content source in Viva Learning. First you'll need to enable Viva Learning and get your details from your Cornerstone Portal. Then you'll need to complete configuration in the Viva Learning Admin tab.
 You'll need a Microsoft Viva Suite or Viva Learning license to add Cornerstone OnDemand as a content source for your organization.
 
 >[!NOTE]
@@ -64,7 +64,7 @@ You'll need a Microsoft Viva Suite or Viva Learning license to add Cornerstone O
 
     ![Image of the Viva Learning integration toggle in the on position.](../media/learning/csod-10.png)
 
-## Configure within Viva Learning Admin 
+## Configure in the Viva Learning Admin tab
 
 1. Open **Viva Learning App** in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
 2. Go to the **Admin tab** in Viva Learning and select **Manage Providers** on the left menu. 
@@ -76,21 +76,24 @@ You'll need a Microsoft Viva Suite or Viva Learning license to add Cornerstone O
     3. **Client ID**: This is the Client ID gathered from Cornerstone portal in step 8.
     4. **Client Secret**: This is the Client Secret gathered from Cornerstone portal in step 8.
 
-    >[!NOTE]
-    >The display name is the name of the carousel under which Cornerstone learning content will appear for your organization in Viva Learning. If you don't enter a name, it will display the default name "Cornerstone OnDemand".
+    > [!NOTE]
+    > The display name is the name of the carousel under which Cornerstone learning content will appear for your organization in Viva Learning. If you don't enter a name, it will display the default name "Cornerstone OnDemand".
 
 4. Select **Save** to activate Cornerstone content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
 
 5. Once configured, Cornerstone will start appearing automatically in configured providers list. You can track the sync status and export sync log. 
 
-6. You can edit/delete the configuration directly from manage provider as well. 
+6. You can edit or delete the configuration directly from manage provider as well. 
 
 7. Guidance for Cornerstone Content Sync: To avoid confusion and potential issues with course visibility in Viva Learning, it is important to follow the correct procedure when setting up a Cornerstone provider for content sync:
      - If test environment credentials are used initially, and later the source path is edited to the production (prod) environment, courses from both environments may appear in Viva Learning. 
      - To ensure a seamless experience, it is recommended to add only a single instance of the desired environment. If both instances were added by mistake, it is advised to delete both and then set up the desired environment to prevent any confusion or unintended content duplication. 
 
->[!NOTE]
->Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+> [!NOTE]
+> Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+
+> [NOTE]
+> Content Type Limitation: Please note that Viva Learning does not currently support the "Events and Sessions" content type from Cornerstone LMS.
 
 ## Learner record sync
 
@@ -99,8 +102,7 @@ Check **Enable Learner Record Sync** to enable assignments and course completion
 >[!NOTE]
 >Ensure that user mappings between Cornerstone and AAD are accurately configured, linking each user's identity correctly. 
 
-
-
+>
 By enabling this, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced. Viva Learning fetches the following fields from the LMS:
 
 - FirstName

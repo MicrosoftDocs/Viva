@@ -1,10 +1,10 @@
 ---
 title: Add other content providers for Microsoft Viva Learning
 ms.author: chucked
-author: chuckedmonson
+author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 06/28/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -29,13 +29,13 @@ Some learning sources are enabled by default and available without a Viva Suite 
 - Microsoft Learn
 - Microsoft 365 Training
 
-Third-party content sources aren't enabled by default. To enable these sources, you'll need to add them in Viva Learning Admin and follow the specific instructions shown in the following table.
+Third-party content sources aren't enabled by default. To enable these sources, you'll need to [add them in the Viva Learning Admin tab](/viva/learning/use-tabs.md) and follow the specific instructions shown in the following table.
 
->[!NOTE]
->You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+> [!NOTE]
+> You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
->[!NOTE]
->It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal. It can also take 24 to 48 hours to hide content from LinkedIn Learning, Microsoft Learn and Microsoft 365 trainings from Viva Learning after you have disabled them in the admin portal.
+> [!NOTE]
+> It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal. It can also take 24 to 48 hours to hide content from LinkedIn Learning, Microsoft Learn and Microsoft 365 trainings from Viva Learning after you have disabled them in the admin portal.
 
 |Content provider  |Configuration instructions  |
 |---------|---------|
@@ -45,19 +45,19 @@ Third-party content sources aren't enabled by default. To enable these sources, 
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
 |Udacity    |[Configure Udacity as a content source](configure-udacity-content-source.md)    |
 |Udemy   |[Configure Udemy as a content source](configure-udemy-content-source.md)         |
-|Coursera    |Follow the steps below to add Coursera in your Microsoft 365 admin center.    |
-|edX    |Follow the steps below to add edX in your Microsoft 365 admin center.    |
-|Infosec    |Follow the steps below to add Infosec in your Microsoft 365 admin center.    |
-|Josh Bersin Academy    |Follow the steps below to add Josh Bersin Academy in your Microsoft 365 admin center.    |
-|Pluralsight    |Follow the steps below to add Pluralsight in your Microsoft 365 admin center.    |
+|Coursera    |Follow the steps below to add Coursera in the Viva Learning Admin tab   |
+|edX    |Follow the steps below to add edX in the Viva Learning Admin tab.    |
+|Infosec    |Follow the steps below to add Infosec in the Viva Learning Admin tab   |
+|Josh Bersin Academy    |Follow the steps below to add Josh Bersin Academy.    |
+|Pluralsight    |Follow the steps below to add Pluralsight in the Viva Learning Admin tab   |
 
  
 
 
 Refer to the details mentioned in [Manage providers in Viva Learning](/viva/learning/use-tabs.md) to configure any provider in Viva Learning Admin tab. 
 
->[!NOTE]
->Available content providers are subject to change. Depending on your organization, you may have access to more content providers than are listed here.
+> [!NOTE]
+> Available content providers are subject to change. Depending on your organization, you may have access to more content providers than are listed here.
 
 ## Dataflow architecture
 
@@ -105,6 +105,6 @@ The step-by-step content ingestion process is described below.
 
 ## Content consumption for end users
 
-Once you've added a content provider as a content source from the Microsoft 365 admin center, content from the provider will flow to Viva Learning and become visible to end users.
+Once you've added a content provider as a content source, content from the provider will flow to Viva Learning and become visible to end users.
 
 Once a user chooses to play a course in Viva Learning, they'll be directed to the content provider's webpage. They'll need to enter the sign-in credentials on the provider's sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 06/28/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -31,20 +31,25 @@ You'll need to reach out to your Skillsoft account team to enable Viva Learning 
 
 You can contact [Skillsoft Support](https://support.skillsoft.com/percipio/) for help with getting in touch with your account team. If you aren't yet a customer, you can [contact Skillsoft directly](https://www.skillsoft.com/about/contact-us) to discuss your options.
 
-## Configure in your Microsoft 365 admin center
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
+## Configure in the Viva Learning Admin
 
-1. Navigate to your [Microsoft 365 admin center](https://admin.microsoft.com) and sign in.
+> [!NOTE]
+> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps..
 
-2. Navigate to **Settings** > **Org settings**. Search for Viva Learning and enable Skillsoft from the options.
+1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb)
+
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider** 
+
+3. Select **Skillsoft** from list and select **Next**. 
 
 3. Fill in the configuration details you got from your Skillsoft account team.
 4.  Provide your region-specific information in **Data Center End Point URL**
     1. The US data center end point URL is: `api.percipio.com`
     1. The European data center end point URL is: `dew1-api.percipio.com`
 
-![Image of the highlighted field where you enter region-specific data center endpoint url.](../media/learning/skillsoft-data-center-end-point-url.png)
 
-5. Select **Save** to save the configuration details and complete the setup process.
+5. Select **Save** to save the configuration details and complete the setup process. This will add the provider in the **Configured Providers** list.
+1. You can track the current sync status, last successful sync time, next scheduled sync time, ingestion logs, and trigger full sync for each component in the expanded view.
+
+1. It may take up to 24 hours for the content to display in the Viva Learning app.
