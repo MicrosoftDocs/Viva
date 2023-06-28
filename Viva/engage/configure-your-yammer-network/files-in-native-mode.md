@@ -32,21 +32,21 @@ In Native Mode for Microsoft 365, all Viva Engage files must be stored in ShareP
 
 - Group files that are in Azure are copied to SharePoint Document Library (SDL) for the group.
 - After group files are successfully copied to SharePoint, we delete the non-SharePoint version of the files.
-- All files for groups that were previously deleted will be deleted.
-- New files will always be uploaded to SharePoint.
-- Non-SharePoint group files will be deleted *within 30 days* after the migration is completed.
-- For any group containing multiple files with the same name, the duplicate-named files will be appended with _X, where X is an increasing number for each duplicate named file (for example, file_1, file_2, file_3, and so on).
-- Viva Engage files that don't align with SharePoint naming standards will be renamed to meet requirements.
+- All files for groups that were previously deleted are deleted.
+- New files are uploaded to SharePoint.
+- Non-SharePoint group files are deleted *within 30 days* after the migration is completed.
+- For any group containing multiple files with the same name, the duplicate-named files are appended with _X, where X is an increasing number for each duplicate named file (for example, file_1, file_2, file_3, and so on).
+- Viva Engage files that don't align with SharePoint naming standards are renamed to meet requirements.
 
 ## File renaming rules
 
 - Characters not supported in SharePoint will be replaced with an underscore '_'.
-- Duplicate files or files with names that already exist in SharePoint will be renamed using the following format: filename_yammerFileID_extension.
-- Files with a blank space as the first or last character as well as files that end with a period will have those characters removed.
-- Unnamed files will be named according to the following format: "Viva Engage File", "Viva Engage File (2)", "Viva Engage File (3)", and so on.
-- Files with names starting with \~$ will have the leading tilde removed, for example: "~$Viva Engage File" will be renamed to "$Viva Engage File".
-- Files with names containing _vti_ anywhere in the name will have it replaced with - vti-, for example: "Viva_Engage_vti_File" will be renamed to "Viva-Engage-vti-File".
-- Files named. lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini will have "__file" appended to the name, for example: "COM0" will be renamed to "COM0_file". 
+- Duplicate files or files with names that already exist in SharePoint are renamed using the following format: filename_yammerFileID_extension.
+- Filenames with a blank space as the first or last character, or that end with a period, are edited to remove those characters.
+- Unnamed files are named according to the following format: "Viva Engage File", "Viva Engage File (2)", "Viva Engage File (3)", and so on.
+- Files with names starting with \~$ are renamed to remove the leading tilde, for example: "~$Viva Engage File" will be renamed to "$Viva Engage File".
+- Filenames containing _vti_ anywhere in the name are replaced with - vti-, for example: "Viva_Engage_vti_File" is renamed to "Viva-Engage-vti-File".
+- Files named. lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini are renamed to append "__file" to the name, for example: "COM0" will be renamed to "COM0_file". 
 
 ## Before running the tools
 
@@ -54,11 +54,11 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 - Export the files before running the Tool and save them in case anyone asks for them.
 
-- Update to the latest versions of Viva Engage Android, Viva Engage iOS, and Viva Engage Desktop apps, as older versions will have issues uploading files to SharePoint.
+- Update to the latest versions of Viva Engage Android, Viva Engage iOS, and Viva Engage Desktop apps, as older versions have issues uploading files to SharePoint.
 
-- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions will be blocked and the file upload won’t work.
+- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions are blocked and the file upload won’t work.
 
-- Notify users that this migration is going to happen, and that files in Viva Engage private messages will be deleted, and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions aren't copied. The follower count isn't copied. Users can no longer mark files as official.
+- Notify users in advance of the migration. Specifically, inform them that files in Viva Engage private messages will be deleted and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions aren't copied. The follower count isn't copied. Users can no longer mark files as official.
 
 ## Admin step-by-step experience
 
