@@ -37,8 +37,6 @@ Here are the basic steps:
 |[Step 4: Perform the network migration](consolidate-multiple-yammer-networks.md#self-service) <br/> |Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Yammer network into the primary Yammer network, and turns off the secondary network. It doesn't migrate any conversations or files.  <br/> |
 |[Step 5: Make primary network changes](consolidate-multiple-yammer-networks.md#parentchanges) <br/> |Adjust the structure of your primary Yammer network so it meets the needs of users who will be joining it. Create groups, invite members to the groups, and upload files that you exported.  <br/> |
 |[Step 6: Communicate with all users after the migration](consolidate-multiple-yammer-networks.md#aftercommunicate) <br/> |Let everyone know the consolidated Yammer network is ready to use.  <br/> |
-  
-For more information, see [FAQ: Consolidating multiple Yammer networks](faq-consolidate-multiple-yammer-networks.md).
 
 ### Important things to know as you get started
   
