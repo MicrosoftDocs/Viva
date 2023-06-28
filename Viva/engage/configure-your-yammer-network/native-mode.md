@@ -49,13 +49,13 @@ Native Mode has the following requirements:
 
 The Tool prepares your network for Native Mode by disabling some features and mitigating previously created instances of those features. Those changes include:
 
-- Any unlisted private groups in your network will be changed to private listed groups. Users will no longer be able to create unlisted private groups.
+- Any unlisted private groups in your network is changed to private listed groups. Users are unable to create unlisted private groups.
 
-- External groups in Viva Engage will no longer be supported, all external groups will be made internal only, and any external users in those groups will no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
+- External groups in Viva Engage are not supported. All external groups are made internal only, and any external users in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
 
-- Adds the Global admin to unconnected groups that either have no owners at all or that have no owner with Microsoft 365 Group creation rights. It doesn't add them to unconnected groups if the owner does have Microsoft 365 Group creation rights.
+- Adds the Global admin to unconnected groups that either have no owners at all or that have no owner with Microsoft 365 Group creation rights. It doesn't add them to unconnected groups if the owner does have Group creation rights.
 
-- Connects all unconnected Viva Engage groups after applying the changes mentioned in the previous three bulleted items above.
+- Connects all unconnected Viva Engage groups after applying the changes mentioned in the previous three bulleted items.
 
 - Prevents files from being uploaded in Viva Engage Private messages, and deletes all files previously uploaded in Viva Engage Private messages.
 
@@ -65,11 +65,11 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 - Disables support for adding guests to an individual thread. Guests who were previously added to individual threads will no longer have access.
 
-- Deletes all group messages and files for previously deleted groups. Going forward, group messages will be deleted consistent with your network's retention policy.
+- Deletes all group messages and files for previously deleted groups. Group messages are deleted consistent with your network's retention policy.
 
 - Locks your network into Native Mode.
 
-- Begins ingesting your data into the Security & Compliance Center to support eDiscovery.
+- Begins ingesting your data into the Security & Microsoft Purview compliance portal to support eDiscovery.
 
 >[!CAUTION]
 > Once you have started alignment through the Tool, the change is **irreversible**.
@@ -77,7 +77,7 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 ## While the tool is running
 
-- Group updates won't work on unconnected groups.
+- Unconnected groups don't receive Group updates.
 
 ## Related articles
 
