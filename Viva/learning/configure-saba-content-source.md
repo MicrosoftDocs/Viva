@@ -92,3 +92,4 @@ By enabling this, you're allowing Viva Learning to fetch user information, user 
 - FirstName
 - LastName
 - Username
+

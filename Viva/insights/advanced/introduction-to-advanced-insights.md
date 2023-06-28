@@ -1,6 +1,5 @@
 ---
-
-ms.date: 07/14/2022
+ms.date: 06/14/2023
 title: Introduction to advanced insights
 description: Get familiar with the new advanced insights app from Microsoft Viva Insights 
 author: lilyolason
@@ -29,7 +28,7 @@ audience: Admin
 >
 >*The link to documentation for the previous platform can be accessed in the legacy application.*
 
-Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets works done—for example, whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
+Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets work done—for example, whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 
 Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
 
@@ -43,7 +42,7 @@ Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwli
 
 #### Analysis
 
-As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a pre-defined Power BI query. 
+As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a predefined Power BI query. 
 
 ##### Query results
 
@@ -57,21 +56,18 @@ In **Query results**, you can:
 * **Edit** or **Delete** queries if you’re the analyst who originally ran them.
 * **Favorite** or **Clone** queries.
 * Filter by result types.
-* Mark a query as recurring.
 
-For more information about the **Query results** page, refer to [Access query results and modify existing queries](./analyst/query-results.md)
+For more information about the **Query results** page, refer to [Access query results and modify existing queries](./analyst/query-results.md).
 
 ##### Metric rules
 
-There is one default metric rule for this release of Viva Insights, called **Meeting exclusions**. This rule determines which meetings are excluded from collaboration metrics in Power BI templates, custom queries, and the Viva Insights app in Teams and on the web.
-
-While you can’t customize any metric rules in this release, you’ll be able to soon. For more information about metric rules in Viva Insights, refer to [Metric rules](./analyst/metric-rules.md).
+Create metric rules to leave out certain non-collaboration events from your analyses. Learn more in [Metric rules](../advanced/analyst/metric-rules.md).
 
 ##### Data quality
 
 You as an analyst might receive warning messages related to the quality of uploaded data.  
 
-Once you select **View data quality**, the app takes you to the **Organizational data** page, which provides a summary of missing or low-quality data and attribute-specific information.
+After you select **View data quality**, the app takes you to the **Organizational data** page, which provides a summary of missing or low-quality data and attribute-specific information.
 
 For information about data quality, refer to [Data quality in the analyst experience](./analyst/data-quality-analyst-experience.md).
 
@@ -89,20 +85,27 @@ We welcome your feedback on this new platform! Like in other Microsoft products,
 
 ### Admin
 
-The Admin experience in the advanced insights app contains four pages, which are summarized in the following sections.
+#### Data hub
+
+As an admin, use the **Data hub** to:
+
+* Get an overview of your data quality, including how many insights are available, how many are low-quality or missing, and how many days it's been since your data was last refreshed.
+* Manage your current data sources, including starting a new update or switching sources. To learn how to upload data into Viva Insights, refer to [Upload organizational data (first upload)](../advanced/admin/upload-org-data-first.md).
 
 #### Organizational data
 
-In the **Organizational data** page, you as an admin can check the quality of data that’s already been uploaded, check the status of existing data connections, and upload new data. To learn more about the **Organizational data** page and how to upload data into Viva Insights, refer to [Organizational data overview](../advanced/admin/org-data-overview.md). 
+On the **Organizational data** page, check your upload status, view your field mapping results, and download related errors.
+
+For a tour of the **Organizational data** page, refer to [Organizational data overview](../advanced/admin/org-data-overview.md#organizational-data-in-the-advanced-insights-app).
 
 #### Manager settings
 
-On the **[Manager settings](./setup-maint/manager-settings.md)** page, you can enable **Group insights** and control who can see them in the Viva Insights app in Teams and on the web. **Group insights** shows managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
+In **[Manager settings](./setup-maint/manager-settings.md)**, control who can see [organization insights](../org-team-insights/org-insights.md) in the Viva Insights app in Teams and on the web. Organization insights show managers aggregated wellbeing and productivity insights about their direct and indirect reports based on organizational hierarchy.
 
 #### Privacy settings
 
-Viva Insights admins can use **Privacy settings** to determine what data your organization wants to exclude from analysis and what data can be visible for advanced insights. To learn more about how Viva Insights keeps personal data private, refer to [Privacy](./privacy/privacy.md).
+Use [**Privacy settings**](setup-maint/setup.md#customize-privacy-settings) to set the minimum group size, prevent sensitive keywords from appearing in any place that uses Viva Insights data, and allow end users to opt out of personal insights and person queries. To learn more about how Viva Insights keeps personal data private, refer to [Privacy](./privacy/privacy.md).
 
 ## Related topics
 
-* [!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]
+ [!INCLUDE [Viva Insights community](../personal/includes/insights-community.md)]
