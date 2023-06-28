@@ -128,10 +128,20 @@ You can't prevent any internal user from seeing storyline content if they have a
 ### Can I control which users get their own storyline?  
 We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Yammer. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
-### How do I delete custom cover photos that were uploaded to a person’s storyline? 
-When the preview features toggle is turned on, the user or Network and Verified admin can delete uploaded cover photos. To do this, go to the user profile page and select **Delete** under **Update cover photo**.
+### How do I delete custom cover images that were uploaded to a person's storyline?
 
-To delete a previously uploaded cover photo when the preview toggle is turned off, you need to temporarily opt in to the preview so you can access the delete cover photo option.
+From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled. To do this, from the profile page of the user, hover over the profile header and select **Upload cover photo**. Then, delete or upload a new cover image, as needed.
+
+If the admin or the user isn't premium licensed, or the user no longer has their own storyline, previously uploaded photos must be deleted via API.
+
+From the API, Engage admins or verified admins can delete cover images for any user in their network via an API call. The URL has this syntax:
+
+`www.yammer.com/api/public/v1/user-profiles/user_id/cover-image`
+
+For example, to delete the cover images of a user with id 1234567890, the URL would be:
+
+`www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`
+
 
 ## See also
 

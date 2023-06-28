@@ -85,7 +85,7 @@ If you need a field's definition, hover over the information **(i)** icon.
 
 ### Custom
 
-Custom fields are optional attributes you can create. The following section, step 2a, explains mapping and naming a custom attribute.
+Custom fields are optional attributes you can create. The following section explains mapping and naming a custom attribute.
 
 #### To map fields
 
