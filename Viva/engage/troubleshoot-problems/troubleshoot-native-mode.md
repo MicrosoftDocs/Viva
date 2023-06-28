@@ -2,10 +2,10 @@
 title: "Troubleshoot your Yammer network for Native Mode for Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: v-jebizie
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 01/21/2020
+ms.date: 06/28/2023
 audience: Admin
 ms.topic: article
 ms.service: yammer
