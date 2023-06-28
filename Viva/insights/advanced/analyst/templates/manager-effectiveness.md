@@ -29,6 +29,8 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
+* Have **SupervisorIndicator**, the attribute that identifies managers, included as part of your organizational data.
+ 
 [!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
 
 1. In the Viva Insights analyst experience, select **Analysis**.
