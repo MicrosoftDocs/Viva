@@ -44,7 +44,7 @@ Once your domain is set up in Office 365, your Viva Engage network is automatica
 
 2. Verify that the domain you added in Office 365 has been added to Viva Engage.  
   
-    a. In Viva Engage, select the Viva Engage settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false"::: in the left nav, and select **Network Admin**.
+    a. In Viva Engage, select the Viva Engage settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png"::: in the left nav, and select **Network Admin**.
 
     :::image type="content" source="../../media/d1ec06fa-c2fb-4dcb-b21f-6dff1d20d6ad.png" alt-text="Viva Engage navigation, including Settings icon.":::
   
@@ -112,7 +112,7 @@ These additional networks could be free Viva Engage Basic networks created by em
 
 - Domain on Viva Engage network2: northwind.com
 
-This configuration is no longer supported as of October 16, 2018. For more information, see [Consolidate multiple Viva Engage networks](consolidate-multiple-viva engage-networks.md).
+This configuration is no longer supported as of October 16, 2018. For more information, see [Consolidate multiple Viva Engage networks](consolidate-multiple-yammer-networks.md).
 
 Beginning December 2019, if you add an [external domain with a Viva Engage Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Office 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your O365 tenant. The basic network is then queued for deletion.
 

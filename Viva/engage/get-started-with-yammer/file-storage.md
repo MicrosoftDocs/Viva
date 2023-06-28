@@ -56,7 +56,7 @@ Files are stored in SharePoint when they're uploaded to a Microsoft 365 connecte
 - Files that are attached to an email that is sent to a Microsoft 365 connected Viva Engage group.
 
  > [!NOTE]
- > Any policies configured on the SharePoint document library take precedent over the v upload admin configuration when a user tries to upload a file in a connected v community.
+ > Any policies configured on the SharePoint document library take precedent over the Viva Engage upload admin configuration when a user tries to upload a file in a connected Viva Engage community.
   
 Files will continue to be stored in Viva Engage cloud storage in the following instances:
 
@@ -98,7 +98,7 @@ Files that users upload in Microsoft 365 connected groups are saved in the **App
 
 The following table shows how each type of guest can access files uploaded in Viva Engage and stored in SharePoint.
 
-|**Type of user**|**Access to group files in Viva Engage**|**Access to group files in SharePoint**|
+| Type of user | Access to group files in Viva Engage | Access to group files in SharePoint |
 |----------|----------|----------|
 |**Conversation-level guest that is in your network**|**Private group**: Can view files that have been shared in the conversation, but can't upload files.<br/>**Public group**: Can view, edit, and upload files.|Conversation level guests can't access any files saved in SharePoint nor upload any files. If you want to enable access to specific files in the conversation, add them as an Azure B2B guest on the Office 365 tenant. File upload isn't permitted.|
 |**Network-level guest that is also an Azure B2B guest, and also a member of the group in Microsoft 365**|Can view, edit, and upload files.|These Azure B2B guests can view, upload, or edit files from the SharePoint Document library only. File access from Viva Engage isn't permitted.|
