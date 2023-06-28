@@ -53,7 +53,11 @@ items:
             - name: Activity report
               href: personal/overview/activity-report.md             
       - name: Support
-        href: get-insights-support.md  
+        items:
+        - name: Get Viva Insights support
+          href: get-insights-support.md
+        - name: Error reference
+          href: advanced/reference/errors.md    
       - name: Personal insights
         items:
         - name: End-user documentation
