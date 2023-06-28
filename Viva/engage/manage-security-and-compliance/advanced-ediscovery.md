@@ -51,7 +51,7 @@ We plan to continue updating the service over time to include more information n
 
 ## See also
 
-[Overview of eDiscovery in Yammer networks](overview-of-ediscovery.md)
+[Overview of eDiscovery in Viva Engage networks](../overview-of-ediscovery.md)
 
 [eDiscovery in Office 365](/office365/securitycompliance/ediscovery)
 

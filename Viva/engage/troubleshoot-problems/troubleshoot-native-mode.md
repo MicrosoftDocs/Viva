@@ -23,7 +23,7 @@ description: "Troubleshoot issues with your Yammer network in Native Mode for Mi
 
 ### What benefits are new to Native Mode?
 
-Networks in Native Mode can [perform eDiscovery](../configure-your-yammer-network/overview-native-mode.md) on their home Yammer network through the Security & Compliance Portal, just like they do for other Microsoft 365 and Office 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Yammer and within the Microsoft 365 ecosystem.
+Networks in Native Mode can [perform eDiscovery](../overview-native-mode.md) on their home Yammer network through the Security & Compliance Portal, just like they do for other Microsoft 365 and Office 365 products. In addition, administrators and users both benefit by having an experience that is more consistent within Yammer and within the Microsoft 365 ecosystem.
 
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
@@ -300,7 +300,7 @@ Yammer will continue to improve the Native Mode offering, so you can expect to s
 
 ## Related articles
 
-[Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md)
+[Overview of Native Mode](../overview-native-mode.md)
 
 [Configure your Yammer network for Native Mode for Microsoft 365](../configure-your-yammer-network/native-mode.md)
 

@@ -81,8 +81,8 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 ## Related articles
 
-[Overview of Native Mode](overview-native-mode.md)
+[Overview of Native Mode](../overview-native-mode.md)
 
 [Viva Engage files in Native Mode for Microsoft 365](files-in-native-mode.md)
 
-[Troubleshoot problems with Native Mode for Microsoft 365](../troubleshoot-problems/troubleshoot-native-mode.md)
+[Troubleshoot problems with Native Mode for Microsoft 365](../troubleshoot-native-mode.md)
