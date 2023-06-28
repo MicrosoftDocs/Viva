@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 09/16/2021
 title: Viva Insights personal insights introduction
 description: Personal insights introduction for Microsoft Viva Insights 
@@ -20,7 +21,7 @@ audience: user
 
 Microsoft Viva Insights provides personal insights into two of the key factors in personal productivity: how people spend their time and who they spend it with. You and your team can get these benefits after an administrator sets up Viva Insights within your organization.
 
-* [**Configuration**](../personal/setup/configure.md) &ndash; As an administrator, you can use this section to configure Viva Insights for users in your organization.
+* [**Configuration**](../advanced/setup-maint/configure-personal-insights.md) &ndash; As an administrator, you can use this section to configure Viva Insights for users in your organization.
 
 * [**Privacy guide**](../personal/overview/privacy-guide-users.md) &ndash; Learn about the ways Viva Insights gathers, uses, and protects your data, and how administrators can configure Viva Insights based on company policy.
   
