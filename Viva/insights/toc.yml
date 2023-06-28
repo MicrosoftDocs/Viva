@@ -20,7 +20,7 @@ items:
         items:
         - name: Setup home
           href: advanced/setup-maint/landing.yml
-        - name: Setup how-to guide - core Viva Insights (no premium features)
+        - name: How-to guide - set up core Viva Insights (no premium features)
           items:
             - name: Deployment guide for personal insights
               href: personal/setup/deployment-guide.md 
@@ -28,9 +28,9 @@ items:
               href: advanced/setup-maint/configure-personal-insights.md
             - name: 2 - Configure Teams app settings
               href: advanced/setup-maint/teams-admin-setup.md
-        - name: Setup how-to guide - all of Viva Insights (premium and core features)
+        - name: How-to guide - set up all of Viva Insights (premium and core features)
           items:
-            - name: Setup checklist
+            - name: Checklist
               href: advanced/setup-maint/setup-overview.md
             - name: 1 - Assign licenses
               href: advanced/setup-maint/assign-licenses.md
@@ -53,7 +53,11 @@ items:
             - name: Activity report
               href: personal/overview/activity-report.md             
       - name: Support
-        href: get-insights-support.md  
+        items:
+        - name: Get Viva Insights support
+          href: get-insights-support.md
+        - name: Error reference
+          href: advanced/reference/errors.md    
       - name: Personal insights
         items:
         - name: End-user documentation
