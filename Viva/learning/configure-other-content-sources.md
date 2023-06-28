@@ -29,7 +29,7 @@ Some learning sources are enabled by default and available without a Viva Suite 
 - Microsoft Learn
 - Microsoft 365 Training
 
-Third-party content sources aren't enabled by default. To enable these sources, you'll need to [add them in the Microsoft 365 admin center](content-sources-365-admin-center.md#configure-settings-for-the-learning-content-sources) and follow the specific instructions shown in the following table.
+Third-party content sources aren't enabled by default. To enable these sources, you'll need to add them in Viva Learning Admin and follow the specific instructions shown in the following table.
 
 >[!NOTE]
 >You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
@@ -51,10 +51,10 @@ Third-party content sources aren't enabled by default. To enable these sources, 
 |Josh Bersin Academy    |Follow the steps below to add Josh Bersin Academy in your Microsoft 365 admin center.    |
 |Pluralsight    |Follow the steps below to add Pluralsight in your Microsoft 365 admin center.    |
 
-1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and enable your chosen content provider or learning management system in the panel.
-3. Fill in your details.
-4. Select **Save**.
+ 
+
+
+Refer to the details mentioned in [Manage providers in Viva Learning](/viva/learning/use-tabs.md) to configure any provider in Viva Learning Admin tab. 
 
 >[!NOTE]
 >Available content providers are subject to change. Depending on your organization, you may have access to more content providers than are listed here.
