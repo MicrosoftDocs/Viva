@@ -112,7 +112,7 @@ You can also get to these settings in from the main [Microsoft 365 admin center]
 
 ### Command sequence
 
-For user configuration settings, you’ll use the [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) and [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) cmdlets. For tenant configuration settings, you’ll use the Set-DefaultTenantMyAnalyticsFeatureConfig and Get-DefaultTenantMyAnalyticsFeatureConfig cmdlets. Before you can use any of these cmdlets, you'll need to install a module and sign in to be authenticated. 
+For user configuration settings, you’ll use the [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) and [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) cmdlets. For tenant configuration settings, you’ll use the [Set-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig) and [Get-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/get-defaulttenantmyanalyticsfeatureconfig) cmdlets. Before you can use any of these cmdlets, you'll need to install a module and sign in to be authenticated. 
 
 1. [Connect to Exchange Online](#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 2. After you've signed in, you're ready to work with user and tenant configuration settings:
@@ -164,7 +164,7 @@ Configure Viva Insights by setting the `PrivacyMode` parameter. For information 
 |Parameter| Required| Description| Default value|
 |----------|---------|---------|------|
 |`PrivacyMode`| Yes| <ul><li>`Opt-out`: Viva Insights won't use any users’ data within the tenant to compute derived statistics for other users. Users won't see statistics in Viva Insights but can choose to opt in from the feature settings menu. <li> `Opt-in`: Viva Insights uses user data to compute derived statistics for other users in the tenant. Users can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.
-|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`<li>`All`
+|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`
 |`SamplingRate`|No|Value from `0.1` to `0.7`. The sampling rate you specify here is the percentage of meetings that get checked to receive a meeting effectiveness survey. For example, `0.1` indicates 10%.
 
 Also refer to [Parameters: Set-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig#parameters).
