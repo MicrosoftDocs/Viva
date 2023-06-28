@@ -131,11 +131,11 @@ For more information about Azure B2B guests, see [Guest access in an Azure Activ
 
     When a token refresh call fails, users will see:
 
-    - On the Viva Engage page for a connected group, Microsoft 365 Office 365 Resources will be grayed out
+    - On the Viva Engage page for a connected group, Microsoft 365 Office 365 Resources will be grayed out.
 
-    - File operations will fail
+    - File operations will fail.
 
-    - Viva Engage live events can't be created
+    - Viva Engage live events can't be created.
 
      For more information, see [A silent sign-in request was sent but no user is signed in](https://github.com/AzureAD/azure-activedirectory-library-for-js/wiki/FAQs#q6-aadsts50058-a-silent-sign-in-request-was-sent-but-no-user-is-signed-in).
 

@@ -54,11 +54,9 @@ Once your domain is set up in Office 365, your Viva Engage network is automatica
   
     c. In the **Step 1 of 3 - Check/Add Verified Domains** page, you'll see the list of domains on the Viva Engage network.
 
-    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screen shot of Step 1 of 3 - Check/Add Verified Domains before migrating a Viva Engage network.":::
+    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screenshot of Step 1 of 3 - Check/Add Verified Domains before migrating a Viva Engage network.":::
   
 ### Remove a domain from Viva Engage
-
-<a name="remove"></a>
 
 When you remove a domain from Office 365, the domain is immediately removed from Viva Engage. This means everyone with email addresses on the domain you remove is no longer able to access your Viva Engage network.
 
