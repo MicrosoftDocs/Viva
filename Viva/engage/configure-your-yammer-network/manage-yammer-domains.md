@@ -1,6 +1,6 @@
 ---
-title: "Manage Yammer domains in Office 365"
-description: "When you add or remove verified domains in Office 365, they are automatically added or removed from your Yammer network."
+title: "Manage Viva Engage domains in Office 365"
+description: "When you add or remove verified domains in Office 365, they are automatically added or removed from your Viva Engage network."
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
