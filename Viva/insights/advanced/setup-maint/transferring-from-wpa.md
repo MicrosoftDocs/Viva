@@ -75,7 +75,10 @@ This setting affects what managers and leaders see in organization insights. To 
 
 ## End user opt out
 
-On the **Privacy settings** page, admins can choose whether to turn on the  **End-user opt-out** control. When this control is on, users can choose to opt out of personal insights and having their metrics—which are always de-identified—appear in person query results.
+On the **Privacy settings** page, admins can choose whether to turn on the  **End-user opt-out** control. When this control is on, users can choose to opt out of having their metrics—which are always de-identified—appear in person query results.
+
+>[!Note]
+>Users can always [opt out](https://support.microsoft.com/topic/ecfd76f9-52ef-4882-9235-be1f59c25967) of personal insights.
 
 ## Keyword suppression
 
