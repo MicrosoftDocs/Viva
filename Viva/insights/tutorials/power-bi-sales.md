@@ -7,9 +7,10 @@ author: madehmer
 ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Sales effectiveness
