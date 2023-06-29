@@ -121,7 +121,7 @@ Learn how to [create and distribute SharePoint news](https://support.microsoft.c
 
 Use Viva Learning to train your employees on all of the great tools you've rolled out to them. [Get started with Viva Learning](/viva/learning/overview-viva-learning). Don't have Viva Learning set up yet? See [Introducing Microsoft Viva](/viva/learning/set-up-viva-learning).
 
-You can find adoptional resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
+You can find additional resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
 
 For Viva Topics, learn how to [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted).
 
