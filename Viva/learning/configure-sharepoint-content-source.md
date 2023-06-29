@@ -60,7 +60,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 1. Open Viva Learning App in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
 
-2. Go to the Admin tab in Viva Learning and click on Manage Providers on the left menu. Select **Add Provider**.
+2. Go to the Admin tab in Viva Learning and select on Manage Providers on the left menu. Select **Add Provider**.
 1. Select **SharePoint** from the Provider list and select **Next**.
 
 1. Under SharePoint, provide the site URL to the SharePoint site where you want Viva Learning to create a centralized repository. If your SharePoint site is new, you'll need to wait 1 hour after site creation to add it here. You must also be the owner of the SharePoint site.
@@ -96,8 +96,6 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
        ![Learning Content Repository page in SharePoint showing the updated information.](../media/learning/learning-sharepoint-configure7.png)
 
     In case you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestion.
-   
-       ![Error message in the New item panel saying that all uploaded folders need to be in the central location.](../media/learning/learning-sharepoint-configure-geo2.png)
 
   > [!NOTE]
   > To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
