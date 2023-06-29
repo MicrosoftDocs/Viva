@@ -51,7 +51,7 @@ For more information, see [SharePoint limits](/office365/servicedescriptions/sha
 
 ## Learning Service
 
-The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization's content within Viva Learning. All changes to content, including updated metadata and permissions, will also be applied in the Learning Service within 24 hours.
+The Learning Service uses the provided folder URLs to get metadata from all content stored in those folders. Within 24 hours of supplying the folder URL in the centralized repository, employees can search for and use your organization's content within Viva Learning. All changes to content, including updated metadata and permissions, appear in the Learning Service within 24 hours.
 
 ## Configure SharePoint as a source
 
@@ -97,7 +97,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
       If you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestion.
 
 > [!NOTE]
-> To allow for broader access to the Learning App Content Repository, a link to the list soon will be available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators will be required to grant access to the list. Access is specific to the list only and does not apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
+> To allow for broader access to the Learning App Content Repository, a link to the list is soon available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators are able to grant access to the list. Access is specific to the list only and doesn't apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
 > [!NOTE]
 > Viva Learning ingests up to 1000 items and files as learning objects.
@@ -110,24 +110,24 @@ Create a folder to store learning content for your organization.
 
 1. Enter a folder name.
 
-1. Select **Create**. The folder will now show up in your document library.
+1. Select **Create**. The folder displays in your document library.
 
 1. Upload files that you want to publish as learning content in this folder. Apply Microsoft 365 permissions to the folders that contain learning objects and to any items within the folders that have unique permissions. [Learn how to use permissions for learning content](sharepoint-permissions.md).
 ​
-1. To get the folder url, choose this folder and select **Copy link**.
+1. To get the folder URL, choose the folder and select **Copy link**.
 
 > [!IMPORTANT]
-> Users will only be able to view content in Viva Learning if you give them the correct permissions. [Configure permissions for SharePoint content](sharepoint-permissions.md).
+> Users are able to view content in Viva Learning with the correct permissions. See [Configure permissions for SharePoint content](sharepoint-permissions.md) for information.
 
 #### Add linked objects
 
-You can add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that will pull through into Viva Learning.
+Add links to both internal content from SharePoint and external content from sites such as YouTube or Vimeo that Viva Learning includes.
 
 > [!NOTE]
 > When users access the content from Viva Learning, they'll be taken to the URL of the content in their browser.
 
 > [!NOTE]
-> You need a Viva Suite or Viva Learning license to access linked objects in Viva Learning. Without a license, you can discover linked objects in Viva Learning, but can't consume them.
+> A Viva Suite or Viva Learning license is required to access linked objects in Viva Learning. Without a license, you can discover linked objects in Viva Learning, but can't consume them.
 
 1. In your folder, select **New** and then choose **Link**.
 
@@ -167,21 +167,21 @@ If a description column is already present, you can delete it and add a new one 
 1. Follow the initial steps to create a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentDescription`.
-1. Add custom descriptions for each item. If no description is supplied, Viva Learning will provide a default message that highlights the content as being from your own SharePoint library.
+1. Add custom descriptions for each item. If no description is supplied, Viva Learning provides a default message that highlights the content as being from your own SharePoint library.
 
 **Add the content title**:
 
-1. Follow the initial steps to create a column
+1. Follow the initial steps to create a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentTitle`.
-1. Add custom title for each item. If no title is supplied, Viva Learning will pick the file name as the title
+1. Add custom title for each item. If no title is supplied, Viva Learning picks the file name as the title.
 
 **Add the content format**: 
 
 1. Follow the initial steps to create a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentFormat`.
-1. Add format for each item. If no format is supplied, Viva Learning will pick the file type from the file extension like xlsx, docx, and so on.
+1. Add format for each item. If no format is supplied, Viva Learning picks the file type from the file extension like xlsx, docx, and so on.
 
 **Provide a thumbnail image**:
 
@@ -200,7 +200,7 @@ If a description column is already present, you can delete it and add a new one 
 1. Name the column `ContentDuration`.
 1. Provide the duration of the content in seconds.
 
-Next, add tags.
+**Add tags**:
 
 1. Follow the initial steps to create a column.
 1. Choose **Managed metadata**.
@@ -237,8 +237,8 @@ Knowledge admins can access their organization's Learning App Content Repository
    
 1. Choose **Delete** on the command bar, or select the ellipses and then select **Delete**.
 
->[!NOTE]
-> Content you delete from the Learning App Content Repository will take approximately 24 hours to be removed from Viva Learning.
+> [!NOTE]
+> Viva Learning takes approximately 24 hours to remove content you delete from the Learning App Content Repository.
 
 ## Multi-geo
 
