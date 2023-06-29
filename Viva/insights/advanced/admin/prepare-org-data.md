@@ -32,7 +32,7 @@ When you’re ready to start working with an organizational data file, the follo
 1. [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
 1. [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
-### Step 1 - identify trends that you want to analyze
+### Step 1 - Identify trends that you want to analyze
 
 To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
@@ -73,7 +73,7 @@ Most of these attributes are also found in HR information systems.
 
 Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
-### Step 2 - know what data to include
+### Step 2 - Know what data to include
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
@@ -108,7 +108,7 @@ To upload this missing data, the admin can follow these steps:
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
-### Step 3 - get an export of organizational data
+### Step 3 - Get an export of organizational data
 
 Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
@@ -123,11 +123,13 @@ After you get this data, you'll need to structure it for successful processing a
 
 ### Step 4 - Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
+After you’ve gotten your exported data, structure it into the correct format.
 
-The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
+#### Add required, reserved optional, and custom attributes
 
-#### Required attributes
+There are three types of attributes you can add in your organizational data file: required, reserved optional, and custom.
+
+##### Required
 
 Supply the following attributes as column headers, exactly as written below, in the .csv upload.
 
@@ -137,7 +139,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 * **ManagerId**
 * **Organization** (case sensitive)
 
-#### Reserved optional attributes
+##### Reserved optional
 
 The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
