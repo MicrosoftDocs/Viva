@@ -22,7 +22,7 @@ description: Learn how to configure Cornerstone OnDemand as a learning content s
 
 This article shows you how to configure Cornerstone OnDemand as a third-party learning content source in Viva Learning. First, enable Viva Learning and get your details from your Cornerstone Portal, and then configure the Viva Learning Admin tab.
 
-You'll need a Microsoft Viva Suite or Viva Learning license to add Cornerstone OnDemand as a content source for your organization.
+A Microsoft Viva Suite or Viva Learning license is required to add Cornerstone OnDemand as a content source for your organization.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Cornerstone OnDemand content and any associated services are subject to Cornerstone OnDemand's privacy and service terms.
