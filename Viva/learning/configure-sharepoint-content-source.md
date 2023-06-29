@@ -67,13 +67,15 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 To configure SharePoint as a learning content sources in for Viva Learning, follow these steps:
 
-1. In the left navigation of the Microsoft 365 admin center, go to **Settings** > **Org settings**.
+1. Open Viva Learning in Microsoft Teams, go to **Admin** > **Manage Providers**.
+<img width="1510" alt="image" src="https://github.com/MicrosoftDocs/Viva/assets/86094924/cab8c569-39b2-4880-9096-1cab51f2b9b3">
 
-2. On the **Org settings** page, on the **Services** tab, select **Viva Learning**.
 
-     ![Settings page in the Microsoft 365 admin center showing Viva Learning listed.](../media/learning/clcs-services.png)
+3. Click Add Provider, select Share Point and click Next.
+<img width="605" alt="image" src="https://github.com/MicrosoftDocs/Viva/assets/86094924/dc1b7523-c7e2-4f88-9473-28f6dcdf39f3">
 
-3. On the **Viva Learning** panel, under SharePoint, provide the site URL to the SharePoint site where you want Viva Learning to create a centralized repository. If your SharePoint site is new, you'll need to wait 1 hour after site creation to add it here. You must also be the owner of the SharePoint site.
+
+4. Set a Display name, provide the site URL to the SharePoint site where you want Viva Learning to create a centralized repository, click Save. If your SharePoint site is new, you'll need to wait 1 hour after site creation to add it here. You must also be the owner of the SharePoint site.
 
      ![Learning panel in the Microsoft 365 admin center showing SharePoint selected.](../media/learning/sharepoint-1.png)
 
@@ -81,13 +83,13 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 
      ![Learning panel in the Microsoft 365 admin center showing a message that the SharePoint URL must be in the central location.](../media/learning/sharepoint-2.png)
 
-4. A SharePoint list is created automatically within the provided SharePoint site.
+5. A SharePoint list is created automatically within the provided SharePoint site.
 
      In the left navigation of the SharePoint site, select **Site contents** > **Learning App Content Repository**.
 
      ![SharePoint list showing the Site contents navigation and the Learning App Content Repository section.](../media/learning/learning-sharepoint-configure4.png)
 
-5. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders. Read [Folder URL document library curation](#folder-url-document-library-curation) for details about how to create the content folders.
+6. On the **Learning App Content Repository** page, populate the SharePoint list with URLs to the learning content folders. Read [Folder URL document library curation](#folder-url-document-library-curation) for details about how to create the content folders.
 
    1. Select **New** to view the **New item** panel.
 
