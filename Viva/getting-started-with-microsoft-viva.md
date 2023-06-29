@@ -44,13 +44,12 @@ Viva apps can be used on their own or used together for a more cohesive employee
 
 Get guidance on how to prepare, plan, and [deploy all Viva apps](plan-for-all-viva-modules.md).
 
-![Image of the Viva logos stacked on top of eachother.](./media/combine-modules-2.png)
+![Image of the Viva logos stacked on top of each other.](./media/combine-modules-2.png)
 
 ### Discover how you can combine Viva apps
 
 Viva apps become more powerful if used together. Viva can help your organization meet popular business scenarios like onboarding and helping employees with wellness in the workplace. [Learn how to combine Viva apps.](learn-how-to-combine-modules.md)
 
-![Image of the Viva logos and descriptions.](./media/viva-individual.png)
 
 ### Learn more about individual Viva apps
 

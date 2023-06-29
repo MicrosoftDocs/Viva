@@ -124,6 +124,7 @@ The Viva Engage app is installed in Teams, but not yet available to set up from 
 [More information about Viva Engage](/viva/engage/overview)
 
 **Viva Glint**
+
 A "voice of the employee" - Helps organizations understand and improve employee engagement with immediate visibility into the employee experience.
 
 [Learn how to set it up using our planning tools.](https://go.microsoft.com/fwlink/?linkid=2238616)
