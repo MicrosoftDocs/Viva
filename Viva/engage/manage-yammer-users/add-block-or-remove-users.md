@@ -35,7 +35,7 @@ To get to the Yammer admin center to manage users:
 If you are enforcing Office 365 identity in your network, all Office 365 users that have a Yammer license are created as pending users in Yammer. If you are not enforcing Office 365 identity, users are not part of the Yammer network until they have selected the Yammer tile from Office 365 or signed in once to Yammer.
 
 > [!NOTE]
-> If your Yammer network is [in Native Mode](../configure-your-yammer-network/overview-native-mode.md), this action can be performed only in the [Azure Active Directory (Azure AD) User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal.
+> If your Yammer network is [in Native Mode](../overview-native-mode.md), this action can be performed only in the [Azure Active Directory (Azure AD) User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal.
 
 Only employees with a company email address can be invited from this screen. 
   
@@ -50,7 +50,7 @@ Only employees with a company email address can be invited from this screen.
  **Invite users in bulk just specifying their email address**
 
 > [!NOTE]
-> This is supported only in Classic Yammer. If your Yammer network is [in Native Mode](../configure-your-yammer-network/overview-native-mode.md), see [Bulk update users by importing a .CSV file](add-block-or-remove-users.md#BulkUpdateUsers).
+> This is supported only in Classic Yammer. If your Yammer network is [in Native Mode](../overview-native-mode.md), see [Bulk update users by importing a .CSV file](add-block-or-remove-users.md#BulkUpdateUsers).
   
 1. In the Yammer admin center, go to **Users** \> **Invite Users**.
     
@@ -93,7 +93,7 @@ For more information about guests, see [External Messaging FAQ](../work-with-ext
 You can deactivate or permanently remove users, including users, including active and pending users and guests.
 
 > [!NOTE]
-> If your Yammer network is [in Native Mode](../configure-your-yammer-network/overview-native-mode.md), the only reason to use the **Remove Users** page in the Yammer Admin portal is to process a [Data Subject Request for GDPR](../manage-security-and-compliance/gdpr-requests-in-yammer-enterprise.md). If you just want to remove a user from your Yammer Network, this action should be performed directly within the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+> If your Yammer network is [in Native Mode](../overview-native-mode.md), the only reason to use the **Remove Users** page in the Yammer Admin portal is to process a [Data Subject Request for GDPR](../manage-security-and-compliance/gdpr-requests-in-yammer-enterprise.md). If you just want to remove a user from your Yammer Network, this action should be performed directly within the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
 
 1. In the Yammer admin center, go to **Users** \> **Remove Users**.
     
@@ -155,7 +155,7 @@ To monitor activity and device usage for your entire Yammer network, see [Office
  Users with blocked email addresses cannot join your Yammer network unless you or another admin unblocks those addresses.
 
 > [!NOTE]
-> If your Yammer network is [in Native Mode](../configure-your-yammer-network/overview-native-mode.md), this action can be performed only in the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal.
+> If your Yammer network is [in Native Mode](../overview-native-mode.md), this action can be performed only in the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal.
   
 There are two ways to block users from Yammer:
   
@@ -194,7 +194,7 @@ Yammer occasionally sends email updates to users. When an employee's email addre
 ## Bulk update users by importing a .CSV file
 
 > [!NOTE]
-> If your Yammer network is [in Native Mode](../configure-your-yammer-network/overview-native-mode.md), this action can be performed only in the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal. 
+> If your Yammer network is [in Native Mode](../overview-native-mode.md), this action can be performed only in the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Yammer Admin portal. 
 
 Changes via bulk edit can take up to 24 hours to take effect throughout your network.
 

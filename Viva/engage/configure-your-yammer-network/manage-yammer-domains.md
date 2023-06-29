@@ -31,12 +31,9 @@ As the Office 365 administrator, you manage Viva Engage domains in Office 365 fr
 - It gets a little more complicated when you have a legacy Viva Engage network associated with one or more of your domains.
 
 ## Initial setup for your primary Viva Engage domain
-
 Once your domain is set up in Office 365, your Viva Engage network is automatically created. Your Viva Engage primary domain is based on the first custom domain name added to Office 365. So if your custom domain is contoso.com, you can access your Viva Engage network. If you don't have a custom domain name in Office 365, your Viva Engage network is created using your .onmicrosoft.com domain.
 
 ### Add an additional domain to Viva Engage
-
-<a name="add"></a>
 
 1. To add an additional domain to Viva Engage, add the domain in Office 365 by following the directions in [Add a domain to Office 365](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611). You must be a global administrator on Office 365 to perform these steps.
 
@@ -65,7 +62,6 @@ For instructions, follow the steps in [Remove a domain from Office 365](https://
 If you want to consolidate multiple domains into one Viva Engage network, see [Consolidate multiple Viva Engage networks](consolidate-multiple-yammer-networks.md).
 
 ## Change the network name displayed in the left navigation pane in Viva Engage
-
 To change the displayed network name shown below, change the **name** in the Office 365 Organization profile. This overrides the **Network Name** set in the Viva Engage Network admin. For steps, see [Change your organization's address, technical contact, and more](https://support.office.com/article/Change-your-organization-s-address-technical-contact-and-more-a36e5a52-4df2-479e-bb97-9e67b8483e10).
 
    :::image type="content" source="../../media/0a1125b1-74d2-4ea5-b8e4-6d52456a527e.jpg" alt-text="List of Viva Engage groups on the Viva Engage page.":::

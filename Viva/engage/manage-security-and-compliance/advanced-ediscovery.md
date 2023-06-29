@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Yammer supports both eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal.
 
-To use this functionality, your Yammer network will need to be in Native Mode. If your network was provisioned after January 9, 2020, you are already in Native Mode. If your network was provisioned *before* January 9, 2020, you will need to follow the steps in the [Native Mode Alignment Tool](../configure-your-yammer-network/overview-native-mode.md).
+To use this functionality, your Yammer network will need to be in Native Mode. If your network was provisioned after January 9, 2020, you are already in Native Mode. If your network was provisioned *before* January 9, 2020, you will need to follow the steps in the [Native Mode Alignment Tool](../overview-native-mode.md).
 
 You can learn more about eDiscovery in the [Microsoft Purview compliance portal](/microsoft-365/) and [eDiscovery (Premium)](advanced-ediscovery.md) (coming soon for Yammer).
 
@@ -51,7 +51,7 @@ We plan to continue updating the service over time to include more information n
 
 ## See also
 
-[Overview of eDiscovery in Yammer networks](overview-of-ediscovery.md)
+[Overview of eDiscovery in Viva Engage networks](../manage-security-and-compliance/overview-of-ediscovery.md)
 
 [eDiscovery in Office 365](/office365/securitycompliance/ediscovery)
 
