@@ -24,18 +24,38 @@ description: "Control who can access features in Microsoft Viva"
 
 # Control access to features in Viva
 
-One of the key tools you have to manage privacy and compliance across your organization is controlling who has access to what - to resources and apps. Viva uses Microsoft 365 users and groups to enable role-based authorization - you control which roles or groups or specific users can access which Viva apps and what they can do inside those apps. For example, someone with the knowledge manager role in Viva Topics can curate content, while someone with the user role consumes that content but can't change it.
+You can use access policies in Viva to control who can access different features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to your local regulatory and business requirements.  
 
-Feature access management in Viva lets you further fine tune access by granting or restricting access to specific features within Viva apps through the use of access policies. Imagine, for example, that a local works council has restricted the use of X in an area where you have employees. Your choice is either to not use the app at all or to disable that specific feature for users in that location. Features access management lets you do this.
+A permissioned admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
 
 > [!NOTE]
-> Not all features in all Viva apps support feature access management. And for those that do, restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
+> Only a subset of features in Viva apps support feature access management. And for those that do, restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
 
-You can use feature access management in the following Viva apps:
-- Viva Insights (specific features)
-- Others?
+## Features available for feature access management
+You can use feature access management to manage access to the following features: 
+|App|Feature|Who can control|
+|-|-|-|
+|Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|Global admin<br>Insights admin|
+||||
 
-## Create an access policy for a Viva feature
+
+
+## Requirements
+Before you can create an access policy in viva, you need the following:
+- A [supported version of Microsoft 365 or a Viva Suite license](https://www.microsoft.com/microsoft-viva/pricing)   
+- Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later 
+- User accounts created in or synchronized to Azure Active Directory 
+- Microsoft 365 groups and Azure AD security groups created in or synchronized to Azure AD. The membership type can be either dynamic or assigned. 
+- The Global Administrator role in Azure AD or [the role required for the specific app and feature](#features-available-for-feature-access-management). 
+
+> [!IMPORTANT] 
+> Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DDD plans.   
+
+
+## Create and manage access policies for Viva features
+
+### Create an access policy
+
 Use the following PowerShell cmdlet to create an access policy for a Viva feature:
 
 ```powershell
@@ -47,6 +67,33 @@ This example creates an access policy that restricts access to the Reflection fe
 ```powershell
 example cmd string
 ```
+### Manage access policies
+
+### Delete an access policy
+
+### Troubleshoot your access policies
+If you run into issues when creating or managing an access policy, ...
+
+## How access policies change the user experience
+Here's how access policies work in Viva: 
+
+- When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user. 
+- If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy configuration, then another check is made in X hours or when the user next logs in   . 
+- If the user is assigned a policy or is a member of an Azure AD group or Microsoft 365 group that is assigned a policy, then the appropriate policy setting is applied. A check is made again in X hours or when the user next logs in . 
+- If a user has multiple policies assigned to them for the same user, the most restrictive policy is applied, as described below. An assigned policy takes precedence over the default policy/ship state for the feature.  
+   - Features without user opt in/out preferences: feature is disabled, feature is enabled
+   - Features with user opt in/out preference: feature is disabled, feature is enabled, feature is enabled with user opt out on default (in latter case, user’s actioned opt in/out preference takes priority)   
+- If users are in nested groups and the parent group is targeted for policies, the users in the nested groups will receive the policies.  The nested groups and the users in those nested groups must be created in or synchronized to Azure AD. 
+
+## Additional information and best practices
+- Only user-based policy settings are available. 
+- As new user-based policy settings are made available for Viva, they will be automatically added to Viva feature access management for admins to set policies against
+- When a policy is created, the user’s experience will be updated to reflect the policy within X hours.    
+- When users are added/removed from an Azure AD or Microsoft 365 Group, it may take up to X hours for their Viva experience to reflect any resulting changes from the assigned policy as a result of group membership changes. 
+- When user identities in AAD are deleted, user data will be deleted from VFAM. If users identities are re-enabled during the soft-deleted period, the permissioned admin will need to reassign policies to the user. 
+- When groups in Azure AD and Microsoft 365 are deleted, they will be deleted from the stored policies.  If groups are re-enabled during the soft-deleted period, the permissioned admin will need to reassign policies to the groups. 
+
+   
 
 ## More resources
 
