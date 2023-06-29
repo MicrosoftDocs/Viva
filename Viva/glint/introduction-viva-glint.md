@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: viva glint, employee engagement, microsoft viva glint, organization health, viva glint history
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

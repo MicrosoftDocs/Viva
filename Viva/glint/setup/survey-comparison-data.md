@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: Benchmarks, global benchmark, internal benchmark, external benchmark, survey comparators, My Teams, Average Question
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

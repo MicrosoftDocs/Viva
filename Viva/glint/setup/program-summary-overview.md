@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: Distribution, survey setup, program setup, survey schedule, reporting, question setup, communications setup, coaching
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

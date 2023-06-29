@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: file upload, upload format, attribute header row, header row, add attributes, column headings
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article
