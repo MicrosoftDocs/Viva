@@ -40,7 +40,7 @@ To sign in to Viva Goals, visit https://goals.microsoft.com/.
 4. If your organization is public, you have the option of sharing a link to join your organization with users.
 
 > [!Note]
-> Ensure that all users are provisioned on your organization's Azure Active Directory account.
+> Ensure that all users are provisioned and the eligible ones are licensed to Viva Goals on your organization's Azure Active Directory account. You can learn more about assigning licenses in [this article](/azure/active-directory/fundamentals/license-users-groups).
 
 ## Add members via invitation from Viva Goals
 
@@ -62,6 +62,28 @@ Now, all the members in the group are eligible to sign in. The user record will 
 
 > [!Note] 
 > Every time a user is added to the AAD group, that user will automatically become eligible to log into Viva Goals. However, users will need to sign in at least once to appear under the **All Users** list.
+
+## How to add members to a team 
+
+Team owners and administrators can set up their team by adding team members. Members can be added to the team either by adding an Azure AD group (Microsoft 365 group, mail enabled security group or distribution group), or by adding individuals in your tenant. 
+
+To add members to your team, follow these steps: 
+
+1. Go to the **Team OKR** page. 
+1. Select the **Team Members** tab. 
+1. Select the **Add Members** button. 
+1. Start typing the name of the Azure AD group or the individual. The search tool returns results directly from Azure AD.  
+1. Select the group or the individual you want to add. 
+1. After selecting the required groups or individuals, select the Add Members button. The groups or individuals are added to the team as a member.
+
+When you set up a team, it's recommended that you add one or more team administrators to make sure that the team management isn't dependent on one person. 
+
+To assign team administrator permissions to a team member, follow these steps:
+
+Navigate to the **Team Members** tab. Search for the member in the search field. The search tool returns results directly from Azure AD. Next to the member you want to assign as the administrator, select on the more options dropdown. 
+
+- If the member has already been added to the team as part of a group or individually, the dropdown provides the option to **Make admin**. Clicking on this option assigns this member as the team administrator. 
+- If the member hasn't been added to the team yet, the more options button provides the option to **Add to team**. After adding the member, repeat the above process to assign this member as the team administrator. 
 
 ## Remove a user 
 
@@ -130,4 +152,7 @@ Admins can’t delete users who currently own any objective. To delete those use
 
 1. **Manager updates made in Azure AD are not reflected in Viva Goals. Why?**
     1. The changes made in Azure AD are pushed to Viva Goals only after the corresponding users sign out and sign-in to Viva Goals. Until then, the updates won't reflect in Viva Goals. To resolve, sign out and then log back in to Viva Goals.
+
+1. **If users are added to or removed from the group, will the list automatically reflect the change with the respective organization in Viva Goals?**
+    1. When users are deleted from Azure AD, they're not deleted/deactivated in Viva Goals immediately. In the Azure portal, when a user is deleted, it is in a soft-deleted phase for a 30-day period. During this period, the admin has the possibility to retrieve the account. If the account isn't retrieved for 30 days, it's then permanently deleted from Azure, and we get an update to delete/deactivate the same in Viva Goals.
 

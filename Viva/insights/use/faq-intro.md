@@ -22,6 +22,9 @@ audience: Admin
 
 # Viva Insights FAQ
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights includes Personal insights, Manager and team insights, Leader insights, and Advanced insights. Each set of insights has their own most frequently asked questions:
 
 * **Personal insights** - Depending on what you're using for your personal insights, see the applicable FAQ:

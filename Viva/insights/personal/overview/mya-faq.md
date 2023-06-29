@@ -239,8 +239,8 @@ The questions in this section are sorted into the following areas:
 
 You can manage the experience in two ways:
 
-* Configure access to Viva Insights elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level).
-* Turn Viva Insights access on or off for individual users. For details, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
+* Configure access to Viva Insights elements for your entire organization. For details, see [Configure access at the tenant level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-tenant-level).
+* Turn Viva Insights access on or off for individual users. For details, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
 #### Q2. How can I pilot Viva Insights to a subset of users?
 

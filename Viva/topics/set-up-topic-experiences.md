@@ -30,16 +30,6 @@ You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva
 > [!IMPORTANT]
 > If you have configured SharePoint to [require managed devices](/sharepoint/control-access-from-unmanaged-devices), you must set up Topics from a managed device.
 
-## Video demonstration
-
-This video shows the process for setting up Topics in Microsoft 365.
-
-<br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Li0E]  
-
-<br>
-
 ## Assign licenses
 
 You must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages and the topic center.

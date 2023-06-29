@@ -19,6 +19,10 @@ manager: helayne
 
 # Get support
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Support varies depending on what type of Microsoft Viva Insights you are using.
 
 |Channel |Description |How to access |
