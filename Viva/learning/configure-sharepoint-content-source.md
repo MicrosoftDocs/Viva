@@ -60,13 +60,13 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 1. Open Viva Learning App in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
 
-1. Go to the Admin tab in Viva Learning and select on Manage Providers on the left menu. Select **Add Provider**.
+1. Go to the Admin tab in Viva Learning and select Manage Providers on the left menu. Select **Add Provider**.
 
 1. Select **SharePoint** from the Provider list and select **Next**.
 
 1. Under SharePoint, provide the site URL to the SharePoint site where you want Viva Learning to create a centralized repository. If your SharePoint site is new, wait 1 hour after site creation to add it here. You must also be the owner of the SharePoint site.
 
-1.  If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), find your region or country at [Microsoft 365 Multi-geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). The **Viva Learning** panel also shows this information.
+1. If your organization uses [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo), find your region or country at [Microsoft 365 Multi-geo availability](/microsoft-365/enterprise/microsoft-365-multi-geo#microsoft-365-multi-geo-availability). The **Viva Learning** panel also shows this information.
 
 1. Update the display name in configuration flow. The display name is the organization or tenant name by default.  
 
