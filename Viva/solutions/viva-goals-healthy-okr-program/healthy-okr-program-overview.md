@@ -1,6 +1,6 @@
 ---
-ms.date: 02/08/2023
-title: "Run a healthy OKR program with Viva Goals Overview"
+ms.date: 06/26/2023
+title: "Best practices for running a healthy Viva Goals program"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -19,10 +19,10 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Lear how to run a healthy OKR program with Viva Goals."
+description: "Learn how to run a healthy OKR program with Viva Goals."
 ---
 
-# Run a healthy OKR program with Viva Goals
+# Best practices for running a healthy Viva Goals program
 
 Microsoft Viva Goals is a goal-setting solution that aligns teams to your organization’s strategic priorities to drive results and create a culture of engaged employees focused on achieving common goals. 
 

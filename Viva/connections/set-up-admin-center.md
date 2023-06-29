@@ -23,7 +23,7 @@ ms.custom: intro-get-started
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS:
 description: "Learn how to set up Viva Connections in the Microsoft 365 admin center"
 ---
 
@@ -245,7 +245,7 @@ If the example organization creates another experience scoped to a subset of the
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
-   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen that shows order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
 ### Step 5: Configure the dashboard
 
