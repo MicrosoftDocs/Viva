@@ -77,14 +77,12 @@ A Microsoft Viva Suite or Viva Learning license is required to add Cornerstone O
 
 1. Fill in the following required configuration details:
 
-   1. **Display Name**: This carousel lists the Cornerstone learning content for your organization in Viva Learning. If you don’t enter a name, the name “Cornerstone OnDemand” displays.
-
-      > [!NOTE]
-      > The display name is the name of the carousel that lists Cornerstone learning content for your organization in Viva Learning. If you don't enter a name, the default name "Cornerstone OnDemand" displays.
-
-   1. **Client's Host URL**: This is the Base URL gathered from Cornerstone portal in step 8. If the Base URL is "https://integration-stg.csod.com", then the Client’s Host URL is "integration-stg.csod.com".
-   1. **Client ID**: This is the Client ID gathered from Cornerstone portal in step 8.
-   1. **Client Secret**: This is the Client Secret gathered from Cornerstone portal in step 8.
+  1. **Display Name**: This carousel lists the Cornerstone learning content for your organization in Viva Learning. If you don’t enter a name, the name “Cornerstone OnDemand” displays.
+     > [!NOTE]
+     > The display name is the name of the carousel that lists Cornerstone learning content for your organization in Viva Learning. If you don't enter a name, the default name "Cornerstone OnDemand" displays.
+  1. **Client's Host URL**: This is the Base URL gathered from Cornerstone portal in step 8. If the Base URL is "https://integration-stg.csod.com", then the Client’s Host URL is "integration-stg.csod.com".
+  1. **Client ID**: This is the Client ID gathered from Cornerstone portal in step 8.
+  1. **Client Secret**: This is the Client Secret gathered from Cornerstone portal in step 8.
 
 1. Select **Save** to activate Cornerstone content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
    - Once configured, Cornerstone configured providers list Cornerstone automatically. You can track the sync status and export sync log. 
@@ -93,7 +91,7 @@ A Microsoft Viva Suite or Viva Learning license is required to add Cornerstone O
 > [!IMPORTANT]
 > **Guidance for Cornerstone Content Sync**: 
 > To avoid confusion and potential issues with course visibility in Viva Learning, follow the correct procedure when setting up a Cornerstone provider for content sync:
->   - If test environment credentials are used initially, and later the source path is edited to the production (prod) environment, courses from both environments may appear in Viva Learning. 
+>  - If test environment credentials are used initially, and later the source path is edited to the production (prod) environment, courses from both environments may appear in Viva Learning. 
 >  - To ensure a seamless experience, add only a single instance of the desired environment. If both instances are added, delete both and then set up the desired environment to prevent any confusion or unintended content duplication. 
 
 > [!NOTE]
