@@ -23,13 +23,13 @@ description: Learn how to configure learning management systems as a learning co
 
 A growing set of learning management systems are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Learning management systems aren't enabled by default. To enable these sources, you'll need to add them in the Viva Learning Admin tab and follow the specific instructions shown in the following table.
+Learning management systems aren't enabled by default. To enable these sources, add them to the Viva Learning Admin tab and follow the specific instructions shown in the following table.
 
 >[!NOTE]
->You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+>A Viva Learning or Viva Suite license is required to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
 >[!NOTE]
->It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal.
+>Sources you enable in the Viva Learning admin portal users may take 24 to 48 hours before becoming visible to users.
 
 ## Learning management systems
 
@@ -47,17 +47,15 @@ Learning management systems aren't enabled by default. To enable these sources, 
 
 The dataflow diagram illustrates how Viva Learning uses the LMS connector to ingest the learning content catalog and learner records (assignments and completion status). The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
 
-![Flow chart depicting the content ingestion process, which is explained in the paragraph below.](../media/learning/lms-dataflow.png)
-
-The step-by-step content ingestion process is explained below.
+:::image type="content" alt-text="Flow chart depicting the content ingestion process, which is explained in the paragraph below." source="../media/learning/lms-dataflow.png" lightbox="../media/learning/lms-dataflow.png":::
 
 1. **LMS** <br> Viva Learning requires two types of data from every LMS.
-    1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
-    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment table](#assignment-records). [View the completion table](#completion-status).
+   - **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
+   - **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment table](#assignment-records). [View the completion table](#completion-status).
 
-2. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning and displayed in Viva Learning.
+1. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterward, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning and displayed in Viva Learning.
 
-3. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning. <br> The **My learning** tab shows the user's assigned and completed courses, which are fetched from the LMS.
+1. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning. <br> The **My learning** tab shows the user's assigned and completed courses, which are fetched from the LMS.
 
 ### Content catalog
 
