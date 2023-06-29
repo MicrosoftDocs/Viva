@@ -1,10 +1,10 @@
 ---
 title: "Plan for all Viva apps"
 ms.reviewer: loreenl
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: elizapo
+author: lizap
 manager: pamgreen
-ms.date: 12/16/2022
+ms.date: 07/06/202
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -53,7 +53,7 @@ After you’ve got the right licensing in place, review additional requirements 
 |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> **Viva Engage** | No technical requirements besides licensing |
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
-|**Viva Glint**|SharePoint admin, Microsoft 365 Enterprise or global admin, service admin|
+|**Viva Glint**|SharePoint admin, Microsoft 365 global admin, service admin|
 
 ## Step 3: Get guidance on roles for each phase
 
@@ -115,7 +115,7 @@ Review the different roles in each phase before you start planning. Each app nee
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-
+|Work with your organization’s stakeholders and business partners to identify who does what to get Viva Glint set up, introduced, and adopted within your organization. Use [the Viva Glint Project Workbook](https://go.microsoft.com/fwlink/?linkid=2238616) for guidance. |The Microsoft 365 global admin assigns licenses, assigns roles, and configures app access.|After app access is set up, the Viva Glint admin can plan a rollout strategy for introducing Viva Glint to their organization using post-provisioning next steps, Viva Glint planning tools, and by introducing Viva Glint to your organization using this email template.|
 
 ## Step 4: How to get started
 

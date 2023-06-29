@@ -1,10 +1,10 @@
 ---
 title: "Admin roles and tasks in Microsoft Viva"
 ms.reviewer: 
-ms.author: loreenl
-author: LoreenLa
+ms.author: elizapo
+author: lizap
 manager: pamgreen
-ms.date: 02/07/2023
+ms.date: 07/06/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -163,3 +163,21 @@ You need to be a Microsoft 365 administrator to deploy and install the Viva Sale
 |**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using. |
 
 For more information on these and other roles, see [Install Viva Sales](/viva/sales/install-viva-sales).
+
+#### Viva Glint
+To set up and manage Viva Glint, you must be a [Microsoft 365 global admin](#microsoft-365-global-admin). 
+
+| Role         | What this role does in Viva |
+|--------------|-----------|
+|Global admin|If you're the person who purchased your Microsoft business subscription, you are the global admin. This means you have unlimited control over the products in your subscriptions and you can access most data.|
+|Viva Glint admin|Assign other admin roles to help manage the Viva Glint product. Admins can set up program settings and surveys, distribution lists, and reporting features, and support your managers in all aspects of action taking. Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.|
+|Managers|Have access to Viva Glint dashboards to view reporting and to develop action plans to build on their teams’ strengths and opportunities.|
+|HRBP|This role emphasizes the survey's importance to empower managers to act. HRBPs are thought partners for managers when it comes to business and people's success.| 
+|IT|Viva Glint suggests companies with IT departments rely on them for staging and maintaining the backend processes that power their programs.|
+|End user|Survey taker|
+
+#### Viva Pulse
+
+
+| Role         | What this role does in Viva |
+|--------------|-----------|

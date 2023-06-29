@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2023
+ms.date: 07/06/2023
 title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
@@ -122,3 +122,13 @@ The Viva Engage app is installed in Teams, but not yet available to set up from 
 [Learn how to set it up](/viva/engage/setup)
 
 [More information about Viva Engage](/viva/engage/overview)
+
+**Viva Glint**
+A "voice of the employee" - Helps organizations understand and improve employee engagement with immediate visibility into the employee experience.
+
+[Learn how to set it up using our planning tools.](https://go.microsoft.com/fwlink/?linkid=2238616)
+
+[More information about Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238526)
+
+
+**Viva Pulse**
