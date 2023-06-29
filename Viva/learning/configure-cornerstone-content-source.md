@@ -97,7 +97,7 @@ A Microsoft Viva Suite or Viva Learning license is required to add Cornerstone O
 > [!NOTE]
 > Currently, all the users within an organization can discover all the tenant-specific courses but are able to consume only the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
 
-> [NOTE]
+> [!NOTE]
 > Content Type Limitation: Viva Learning doesn't support the "Events and Sessions" content type from Cornerstone LMS.
 
 ## Learner record sync
