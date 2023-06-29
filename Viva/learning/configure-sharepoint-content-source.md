@@ -46,10 +46,10 @@ Viva Learning supports the following document types:
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 >[!NOTE]
-> You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
+> You can use either a Modern or Classic SharePoint site as a source for your learning materials. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
 >[!NOTE]
-> Ensure that the SharePoint site is a communication site. This functionality isn't compatible with team sites.
+> Ensure that the SharePoint site specified as the Learning Repository is a communication site. This functionality isn't compatible with team sites.
 
 
 ## Learning Service
@@ -287,7 +287,7 @@ Knowledge admins can access their organization's Learning App Content Repository
 [Microsoft 365 Multi-geo](/microsoft-365/enterprise/microsoft-365-multi-geo) is designed to meet data residency requirements.
 
 
-The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. 
+The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned (your default geo). 
 
 Folders linked to in the repository should also belong to the central location. Viva Learning has added this restriction to conform to data residency requirements. 
 
