@@ -12,7 +12,7 @@
        href: start/glint-order-teams.md
      - name: Third party notice
        href:
-     - name: Viva Glint Security, privacy, and compliance
+     - name: Microsoft Viva Glint privacy
        href:
        items:
         - name: Privacy policy requirement for every Microsoft Viva Glint program
@@ -31,10 +31,12 @@
           href: start/four-stages-glint-program.md
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
+        - name: People Science
+          href: 
      - name: Viva Glint Planning tools
        href: 
        items:
-        - name: Communication templates
+        - name: Use Viva Glint email templates to share survey expectations within your organization
           href:
           items:
           - name: Introduce survey taking to your employees
@@ -50,6 +52,8 @@
      - name: Configure SFTP IP addresses in Viva Glint
        href: setup/configure-sftp.md
      - name: Create a SSH key pair for SFTP
+       href:
+     - name: Add a public SSH key to Viva Glint
        href: 
      - name: Set up the Allowed List to enable Viva Glint email delivery
        href:
@@ -57,8 +61,12 @@
        href:
      - name: Access Viva Glint with Azure Active Directory
        href:
-     - name: Manage language translations
-       href: setup/language-translations.md            
+     - name: Add an external user to Viva Glint
+       href:
+     - name: Manage language translations in Viva Glint programs
+       href: setup/language-translations.md     
+     - name: Staging environment
+       href:        
      - name: Prepare and upload your employee data
        href: 
        items:
@@ -76,7 +84,7 @@
           href: setup/upload-employee-attributes.md
         - name: Understand file upload errors and warning in Viva Glint 
           href: setup/error-messages.md
-     - name: Platform features and settings
+     - name: Viva Glint features and settings
        href: 
        items:
         - name: Admin management of the General Settings feature in VIva Glint
@@ -106,7 +114,9 @@
           href:
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
-     - name: Program guidance
+        - name: Understand Advanced Configuration options in Viva Glint
+          href: 
+     - name: Best practices program guidance
        href: 
        items:          
         - name: Live versus Phased access for results
@@ -228,7 +238,7 @@
        items:
         - name: Make the most of reporting features
           href: reports/report-analytics-filtering-favorability-trending.md
-     - name: Dashboard experiences
+     - name: Dashboard experiences for Viva Glint roles
        href:
        items:
         - name: Use Viva Glint's Executive Summary dashboard
