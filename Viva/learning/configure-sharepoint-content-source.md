@@ -88,7 +88,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
    
    1. On the **New item** panel, in the **Title** field, add a directory name of your choice. In the **Folder URL** field, add the URL to the learning content folder. Select **Save**. [Learn how to to create the folder URL](#folder-url-document-library-curation).
    
-   [![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)](../media/learning/learning-sharepoint-configure6-big.png#lightbox)
+      [![New item panel in SharePoint showing the Title and Folder URL fields.](../media/learning/learning-sharepoint-configure6.png)](../media/learning/learning-sharepoint-configure6-big.png#lightbox)
 
    1. The **Learning App Content Repository** page is updated with the new learning content.
       
