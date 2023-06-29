@@ -7,9 +7,10 @@ author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Manager insights rollout
