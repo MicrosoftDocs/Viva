@@ -129,7 +129,7 @@ The file name needs contain only alphanumeric characters (letters and numbers), 
 
 #### Required attributes
 
-Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
+Supply the following attributes as column headers, exactly as written below, in the .csv upload.
 
 * **EffectiveDate**
     * Make sure the **EffectiveDate** column has values in all rows. If you don’t provide an **EffectiveDate** column in your upload, the date you uploaded the data becomes the default **EffectiveDate**.
@@ -137,7 +137,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 * **ManagerId**
 * **Organization** (case sensitive)
 
-### Reserved optional attributes
+#### Reserved optional attributes
 
 The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
@@ -173,7 +173,7 @@ PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Ar
 
 For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
 
-## Upload the organizational data file
+### Upload the organizational data file
 
 After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
 
@@ -181,11 +181,11 @@ If this is the first time that you'll upload organizational data, refer to [Uplo
 
 After your data has been successfully uploaded, the app performs additional validation and processing to complete provisioning.
 
-## How often to upload an organizational data .csv file
+#### How often to upload an organizational data .csv file
 
 It's recommended that you upload employee data at least once a month to keep data fresh and analysis relevant. Soon after an employee data upload has succeeded, the updated data becomes available for users to see as insights in the app.
 
-### Supplying data over a time period
+##### Supplying data over a time period
 
 <!--pending confirmation-->
 
@@ -225,60 +225,71 @@ This section contains information about the attributes that you use in the organ
 
 <sup> 4. You’re not required to include custom attributes. If you do add them, however, they can’t have the same name as any of the required or reserved attributes. </sup>
 
-## Attribute notes and recommendations
+### Attribute notes and recommendations
 
-### Some attributes exist only for a subset of the population
+#### Some attributes exist only for a subset of the population
 
 When choosing attributes to include, some attribute values might be populated for one organization but not others. For example, if the upload includes sales quota-attainment data that only applies to your sales organization, you can't use this data for filtering and grouping employees outside of sales.
 
-### Too many unique values
+#### Too many unique values
 
 Sometimes an attribute has too many unique values to use for grouping and filtering. For example, if a job function or code is too narrowly defined, it might not give you a useful view of the overall group. If an attribute has hundreds of unique values that result in a small population group per value, the attribute might not be useful.
 
-### Too few unique values
+#### Too few unique values
 
 Conversely, sometimes an attribute is too broadly defined for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute wouldn't be useful.
 
-### Redundant attributes
+#### Redundant attributes
 
 Some attributes might represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Because both represent the same information in a slightly different format, you’ll want to include only the one with the more "user friendly" name.
 
-### Line-of-business data
+#### Line-of-business data
 
 Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you'll want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
 
-## Valid values and formats
+### Valid values and formats
 
 When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
 
-### Rules for the file
+#### Rules for the file
 
 The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
-### Rules for field headers
+#### Rules for field headers
 
 All field header or column names need to: 
 
 * Begin with a letter (not a number).
 * Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &).
+* Contain a value.
+* Have no leading or trailing blank spaces or special characters.(non-alphanumeric, such as @, #, %, &).
+* Be unique.
+* Contain no reserved keywords.
 
-### Rules for field values
+After you upload your file, you can only map one column header to each Viva Insights data field.
 
-The field values in data rows need to comply with the following formatting rules:
+#### Rules for field values
 
-* The required **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format
-* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`)
-* The required **Layer** field values need to contain numbers only
-* The required **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis
+Field values need to be provided in the correct data type. Refer to [Attribute reference](#attribute-reference).
 
-## Rules for characters in field values
+##### Rules for characters in field values
 
-Here are some rules about characters in field values:
 
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values.
+* The character length of field values in rows can't exceed 128 KB, which is about 1024 x 128 characters.
+* “New line” (\n) characters aren't permitted in field values.
 
 >[!Note]
 >You can use double-byte characters, such as Japanese characters, in the field values.
+
+##### Rules for values in the ManagerId field
+
+Each PersonId needs to have a unique ManagerId. In other words, there can't be multiple managers for one person.
+
+There can't be loops where:
+
+* Managers and employees report to each other.
+* Managers report back to employees.
+* People report to themselves.
+
+
