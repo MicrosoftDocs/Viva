@@ -30,13 +30,25 @@ The first time you (the Insights Administrator) import survey results into Viva 
 1. The *Microsoft 365 admin* [installs the Glint app](#install-the-app) on the Azure portal. 
 1. You as the *Insights Administrator* ("Insights admin") [set up the import](#set-up-a-new-import-in-viva-insights) in the advanced insights app.
 
-### Register a new multitenant app in Azure
+### Generate the security certificate 
+
+*Applies to: survey source admin*
+
+To get data into Viva Insights, the Microsoft 365 admin needs to create and register an app in Azure. As the data source admin, you’ll need to help the Microsoft 365 admin register their app by giving them a security certificate.
+
+Here’s what to do: 
+
+1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate).
+2.	Send the generated certificate to the Microsoft 365 admin. 
+
+
+
+### Register a new single-tenant app in Azure
 
 *Applies to: survey source admin*
 
 >[!Note]
 >For more information about registering an app in Azure, refer to [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app#register-an-application).
-
 
 1. From the Microsoft admin center's left rail, select **All admin centers**. This option appears as the last one on the list.
 
@@ -51,8 +63,20 @@ The first time you (the Insights Administrator) import survey results into Viva 
         1. Under **Supported account types**, select the second option, **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**. 
         1. Select the **Register** button at the bottom of the screen.
 
-        :::image type="content" source="../images/admin-generic-survey-register-app-expanded.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-di-registration-3.png":::
+        :::image type="content" source="../images/admin-import-survey.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-import-survey.png":::
+1. Add a certificate:    
+    1. Select **Add a certificate or secret**.
 
+        :::image type="content" source="../images/admin-di-secret.png" alt-text="Application (client) ID":::
+
+    2. Select **Upload certificate**.
+    
+        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="ID and certificate/secret pane":::
+
+
+    3. Upload the certificate that the data source admin gave you and add a **Description**. Select the **Add** button.
+
+        :::image type="content" source="../images/admin-di-upload-cert-pane3.png" alt-text="Screenshot that shows the Upload certificate dialog box in Azure.":::
 ### Install the app
 
 *Applies to: Microsoft 365 admin*
@@ -62,7 +86,7 @@ In the Azure portal, install the app the survey source admin created. For direct
 
 ### Set up a new import in Viva Insights
 
-*Applies to: Insights admin*
+*Applies to: Insights Administrator*
 
 1. Set up a new import in one of two places: through the **Data hub** page or through the **Survey data** page. 
     1. Through **Data hub**:
@@ -70,7 +94,7 @@ In the Azure portal, install the app the survey source admin created. For direct
         1. Select **Start**.
     1. Through **Survey data**: 
         1. Next to **Select Survey data source**, select **Custom survey data import**.
-1. If your survey source tenant uses the default app ID, you'll notice the app ID prefilled in the **App ID** field. If your survey source tenant *doesn't* use the default app ID, enter the app ID from the app registration process. 
+1. Enter the app ID from the app registration process.
 
     >[!Note]
     >If you don't have this ID, contact your Microsoft 365 admin.
@@ -85,9 +109,9 @@ In the Azure portal, install the app the survey source admin created. For direct
 
 After the app is set up and the connection is ready in the advanced insights app, the survey source admin can push survey data to Viva Insights.
 
-1. In the survey app, set up an export to send survey data to Viva Insights after a specific survey closes.
-1. Set up a connection to Viva Insights, name it, select the specific survey, and add date ranges to share with Viva Insights.
-1. Select **Submit**.
+1.	In the survey app, set up an export to send survey data to Viva Insights after a specific survey closes.
+2.	Select the specific survey and add date ranges to share with Viva Insights.
+
 
 ## Validation
 
@@ -126,24 +150,20 @@ The data source admin might find the following section helpful to fix data error
 
 #### About errors in data
 
-*Applies to: data source admin*
+*Applies to: survey source admin*
 
 When any data row or column has an invalid value for any attribute, the entire import will fail until you fix the source data. After you fix the source data, you'll need to push the data again to Viva Insights.
 
 ##### Survey error reference
 
 You might get an error if the file:
-
 * Is empty
-* Is over 1GB
 * Isn't in .csv format
-* Contains duplicate column headers
-* Is missing a column header
-* Has a column header with invalid characters
+* Contains duplicate column headers (question labels)
+* Is missing a column header (question label)
+* Has a column header (question label) with invalid characters
 * Has a field value that exceeds 128KB
 * Has a field value that doesn't match the right data type (for example, integer instead of date)
-
-[Pending explanation of .csv files]
 
 You might also get an error if there's an issue with connection setup.
 
@@ -151,9 +171,9 @@ You might also get an error if there's an issue with connection setup.
 
 The **Data quality** tab shows you the following information for each imported survey:
 
-* Data fields - The question labels for your survey. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
-* Quality score - The percentage of measured employees who have a non-blank value for the specified data field. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
-* Last updated [Pending]
-* Employees with this field - [Pending] The number of measured employees and internal collaborators with a non-blank value for the data field.
-* Unique values - [Pending] The count of the unique attribute values included in the data. For example, 
+* **Data fields** – The question labels for your survey. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
+* **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
+* **Last updated** – When the survey was sent to Viva Insights.
+* **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the question label.
+
 
