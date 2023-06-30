@@ -67,7 +67,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 To configure SharePoint as a learning content sources in for Viva Learning, follow these steps:
 
-1. Open Viva Learning in Microsoft Teams, go to **Admin** > **Manage Providers**.
+1. Open Viva Learning in Microsoft Teams and go to **Admin** > **Manage Providers**.
 <img width="1510" alt="image" src="https://github.com/MicrosoftDocs/Viva/assets/86094924/cab8c569-39b2-4880-9096-1cab51f2b9b3">
 
 
