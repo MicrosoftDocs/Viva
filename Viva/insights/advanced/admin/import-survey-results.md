@@ -26,7 +26,7 @@ The first time you (the Insights Administrator) import survey results into Viva 
 
 ### Workflow
 
-1. The *survey source admin* [registers a multi-tenant application](#register-a-new-multitenant-app-in-azure) on the Azure Active Directory admin center.
+1. The *survey source admin* [registers a multi-tenant application](#register-a-new-single-tenant-app-in-azure) on the Azure Active Directory admin center.
 1. The *Microsoft 365 admin* [installs the Glint app](#install-the-app) on the Azure portal. 
 1. You as the *Insights Administrator* ("Insights admin") [set up the import](#set-up-a-new-import-in-viva-insights) in the advanced insights app.
 
