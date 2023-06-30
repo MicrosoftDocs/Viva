@@ -32,7 +32,11 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 * Username
 * Password
 
-## Set up your Workday connection
+## For the first import
+
+If this isn’t the first time you’re importing data from Workday, jump to [For subsequent imports](#for-subsequent-imports).
+
+### Set up your Workday connection
 
 *Applies to: Insights Administrator*
 
@@ -45,6 +49,24 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
     1. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
 1. Select the box under **Authorization status** to allow Workday to start sending data to Viva Insights.
 1. Select **Save**.
+
+## For subsequent imports
+
+If you’ve already set up your connection and imported a first set of data to Workday, follow these steps to update or replace your existing data:
+
+1.	In the advanced insights app's admin experience, go to either the **Data hub** or the **Organizational data** page.
+    * On the **Data hub** page, select **Start** under **Data source > Workday**.
+    * On the **Organizational data** page's **Data connection** tab, select **Manage data** sources. Then, select **Manage** under **Workday**.
+2.	Select one option:
+    * **Edit authorization or update refresh schedule**. With this option, you can:
+        * Allow or stop allowing Workday to send data to Viva Insights.
+        * Change the data refresh schedule.
+    * **Replace data**. With this option, you can:
+        * Overwrite all your existing organizational data with new data from Workday.
+        * Remove certain fields by importing data from Workday with fewer fields.
+Caution! Replace data permanently overwrites your existing data.
+3.	Select Next.
+
 
 ### How Workday sends data to Viva Insights
 
