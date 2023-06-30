@@ -67,11 +67,11 @@ Here’s what to do:
 1. Add a certificate:    
     1. Select **Add a certificate or secret**.
 
-        :::image type="content" source="../images/admin-di-secret.png" alt-text="Application (client) ID":::
+        :::image type="content" source="../images/admin-di-secret.png" alt-text="Screenshot of the Application (client) ID.":::
 
     2. Select **Upload certificate**.
     
-        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="ID and certificate/secret pane":::
+        :::image type="content" source="../images/admin-di-upload-cert.png" alt-text="Screenshot of the ID and certificate/secret pane.":::
 
 
     3. Upload the certificate that the data source admin gave you and add a **Description**. Select the **Add** button.
@@ -172,7 +172,7 @@ You might also get an error if there's an issue with connection setup.
 The **Data quality** tab shows you the following information for each imported survey:
 
 * **Data fields** – The question labels for your survey. When you create queries, you can filter and group employees in the organization by these data fields, so being familiar with them will give you insight into the types of queries to use for analysis.
-* **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's be difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
+* **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Last updated** – When the survey was sent to Viva Insights.
 * **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the question label.
 

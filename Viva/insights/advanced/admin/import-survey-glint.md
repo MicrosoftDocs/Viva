@@ -144,7 +144,7 @@ You might also get an error if there's an issue with connection setup.
 The **Data quality** tab shows you the following information for each imported survey:
 
 * **Question labels** – All the attributes provided by your organization in the organizational data upload file. When analysts run the Viva Insights with Glint Power BI query, they can filter and group employees in the organization by these question labels, so being familiar with them will give you insight into the types of queries to use for analysis.
-* **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's be difficult to determine how people collaborate across different characteristics. 
+* **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's difficult to determine how people collaborate across different characteristics. 
 * **Last updated** – When the survey was sent to Viva Insights.
 * **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the question label.
 * **Unique values** – The count of the unique attribute values included in the data. For example, if a Work-life balance question label contains response values from 1 to 5, its unique values count is five.
