@@ -29,8 +29,7 @@ The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
 All field header or column names need to: 
 
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
+* Only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported.
 * Contain a value.
 * Have no leading or trailing blank spaces or special characters.(non-alphanumeric, such as @, #, %, &). <!--confirming-->
 * Be unique.
@@ -83,9 +82,9 @@ Let’s say Dylan is Kris’s manager. The organizational data couldn’t show:
 
 Both of the following hierarchies would produce an error:
 
-:::image type="content" source="../images/admin-mgr-loops-1.png" alt-text="Screenshot that shows a manager hierarchy loop between three people.":::
+:::image type="content" source="../images/admin-mgr-loops-1-a.png" alt-text="Screenshot that shows a manager hierarchy loop between three people.":::
 
-:::image type="content" source="../images/admin-mgr-loops-2.png" alt-text="Screenshot that shows a manager hierarchy loop where one employee reports to themselves.":::
+:::image type="content" source="../images/admin-mgr-loops-2-a.png" alt-text="Screenshot that shows a manager hierarchy loop where one employee reports to themselves.":::
 
 
 ### Example .csv export file
