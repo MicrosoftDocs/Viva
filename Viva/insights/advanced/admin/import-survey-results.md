@@ -81,7 +81,7 @@ Here’s what to do:
 
 *Applies to: Microsoft 365 admin*
 
-In the Azure portal, install the app the survey source admin created. For directions, refer to this Azure article: [Add an enterprise application](/azure/active-directory/manage-apps/add-application-portal.md#add-an-enterprise-application).
+In the Azure portal, install the app the survey source admin created. For directions, refer to this Azure article: [Add an enterprise application](/azure/active-directory/manage-apps/add-application-portal#add-an-enterprise-application).
 
 
 ### Set up a new import in Viva Insights
