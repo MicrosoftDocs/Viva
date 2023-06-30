@@ -1,6 +1,6 @@
 ---
 ms.date: 06/30/2023
-title: Cross-collaboration: person-to-person query
+title: "Cross-collaboration: person-to-person query"
 description: Learn how to run a custom cross-collaboration query for collaboration between two individuals in your organization
 author: lilyolason
 ms.author: v-lilyolason
