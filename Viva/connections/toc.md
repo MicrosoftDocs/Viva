@@ -8,7 +8,7 @@ ms.collection:
 
 ## [Get Viva Connections]()
 
-### [Viva Connections quick guide](guide-to-setting-up-viva-connections.md)
+### [Set up Viva Connections in the admin center](set-up-admin-center.md)
 
 ### [Overview of how to set up Viva Connections]()
 
@@ -22,8 +22,6 @@ ms.collection:
 
 
 ## [Set up and administration]()
-
-### [Add the Viva Connections app](add-viva-connections-app.md)
 
 ### [Edit the desktop experience](edit-viva-home.md)
 

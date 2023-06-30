@@ -27,8 +27,8 @@ highlightedContent:
       url: viva-teams-app-install.md
     - title: Admin tasks
       itemType: deploy
-      url: viva-teams-app-admin-tasks.md
-    - title: Using the Viva Insights
+      url: ../../advanced/setup-maint/teams-admin-setup.md
+    - title: Using Viva Insights
       itemType: how-to-guide
       url: home.md
     - title: FAQ
