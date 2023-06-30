@@ -38,14 +38,15 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 4. In the **Attribute-based Survey Access** pane, turn on the **Enable when ready** toggle.
 5. If desired, edit the **Welcome text** or **Instruction text** fields by entering new text.
 6. Select **+ Add an attribute** and select attributes from the dropdown menu.
-
-> [!NOTE]
-> Complete attribute setup and employee data upload prior to selection for attributes to be available.
-
-1. Edit the **Placeholder text** that displays under each selected attribute.
-2. Confirm your edits in the **Preview** at the bottom of the pane.
-3. To edit translations after English edits, select each language from the **Language** dropdown menu and edit **Welcome text**, **Instruction text**, and **Placeholder text**.
-4. At the top of the pane, select **Save**.
+   > [!NOTE]
+   > Complete attribute setup and employee data upload prior to selection for attributes to be available.
+7. Edit the **Placeholder text** that displays under each selected attribute.
+8. Confirm your edits in the **Preview** at the bottom of the pane.
+9. To edit translations after English edits, select each language from the **Language** dropdown menu and edit **Welcome text**, **Instruction text**, and **Placeholder text**.
+10. At the top of the pane, select **Save**.
+11. Select the Configure symbol, then in Client Settings, choose **Advanced Configuration**.
+12. In the *Details* section, select the Whether to allow the users to look up questionnaires without a kiosk checkbox.
+13. Select **Save Changes** at the bottom of the Details page.
 
 ### Obtain the attribute-based survey access URL
 

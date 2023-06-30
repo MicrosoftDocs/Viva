@@ -34,6 +34,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 - LinkedIn Glint standalone customers
 - Existing Viva suite and LinkedIn Glint customer
 
+> [!NOTE]
+> A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
+
 ## Begin your Viva Glint provisioning experience
 
 Choose either the US or EU URL for Azure login to begin:

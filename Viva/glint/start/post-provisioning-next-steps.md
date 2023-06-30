@@ -21,7 +21,7 @@ ms.date: 04/21/2023
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
-- If you haven't already completed tenant provisioning, set up a Microsoft Viva tenant.
+- If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md)
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment.
 
 ## Add administrators to your Viva Glint instance
@@ -43,7 +43,7 @@ Glint recommends no more than 5 Viva Glint service administrators for your Viva 
 
 ### 1. Begin Viva Glint platform setup
 
-- [Implement Single Sign On (SSO](https://go.microsoft.com/fwlink/?linkid=2230921)
+- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2230921)
 - [Manage Allowed Lists](https://www.microsoft.com/en-us/?ql=3)
 - [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
