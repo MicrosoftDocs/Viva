@@ -42,14 +42,18 @@ Eliminate your talent gaps in digital technologies like data science, ML, cloud,
 
 You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
 
-## Configure in your Microsoft 365 admin center
+## Configure in the Viva Learning Admin tab
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
+After you've received the required configuration details from Udacity portal by using the previous steps, the tenant admin needs to configure Udacity as a learning source in the Viva Learning Admin tab.
 
-After you've received the required configuration details from Udemy portal by using the previous steps, the tenant admin needs to configure Udemy as a learning source in the Microsoft 365 admin center by using the following steps.
+> [!NOTE]
+> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps..
 
-1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Search for Viva Learning and enable Udacity in the panel.
+1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb)
+
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider** 
+
+3. Select **Udacity** from list and select **Next**. 
+
 3. Fill in the Udacity Customer Company ID you got from your Udacity Customer Success Manager or Implementation Specialist.
 4. Select **Save** to activate Udacity content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.

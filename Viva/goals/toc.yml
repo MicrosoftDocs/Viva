@@ -1,44 +1,44 @@
 items:
-- name: Get Started with Microsoft Viva Goals
+- name: Get started with Microsoft Viva Goals
   items:
     - name: Introduction to Viva Goals
       href: intro-to-ms-viva-goals.md
-    - name: Get to Know OKRs
+    - name: Get to know OKRs
       href: get-to-know-okrs.md
-    - name: Determine Your Rollout Plan
+    - name: Determine your rollout plan
       href: determine-your-rollout-plan.md
   
     - name: Viva Goals trials
       items:
-      - name: Start a Trial Overview
+      - name: Start a trial overview
         href: viva-goals-trials.md
-      - name: IT Admin-led Trials
+      - name: IT admin-led trials
         href: it-admin-trials.md
-      - name: Self-service Trials
+      - name: Self-service trials
         href: self-service-trials.md
-      - name: Trial Checklist
+      - name: Trial checklist
         href: trials-checklist.md
   
 - name: Administration
   items:
-    - name: Viva Goals Setup and Administration Deployment Guide
+    - name: Viva Goals setup and administration deployment guide
       href: viva-goals-deployment-guide.md
-    - name: Viva Goals Admin Portal
+    - name: Viva Goals admin portal
       href: viva-goals-admin-portal.md
-    - name: Navigate the Admin Dashboard
+    - name: Navigate the admin dashboard
       href: navigate-admin-dashboard.md
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
     - name: Viva Goals security, privacy, and compliance
       href: vg-privacy-and-security.md 
-    - name: OKR Program Analytics
+    - name: OKR program analytics
       href: viva-goals-analytics.md
     
 - name: Setup
   items: 
   - name: Permissions
     items:
-    - name: Roles and Permissions in Viva Goals
+    - name: Roles and permissions in Viva Goals
       href: roles-permissions-in-viva-goals.md
     - name: Configure your OKR creation permissions in Viva Goals
       href: configure-okr-create-permissions.md
@@ -47,47 +47,47 @@ items:
   
   - name: Organization setup
     items:
-    - name: Understand Organizations and Teams
+    - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
-    - name: Log in, Create, and Join Organizations in Viva Goals
+    - name: Log in, create, and join organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
-    - name: Restrict Organization Creation Permissions
+    - name: Restrict organization creation permissions
       href: restrict-organization-creation-permissions.md
     - name: Configure help and support for your organization
       href: configure-support.md
     - name: Configure check-in reminders and notifications
       href: check-in-reminders.md
-    - name: Configure Your OKR Model in Viva Goals
+    - name: Configure your OKR model in Viva Goals
       href: configure-okr-model.md
     - name: Managing Viva Goals members 
       href: managing-team-members.md
 
   - name: Team setup
     items:
-    - name: Define Your Team
+    - name: Define your team
       href: define-your-team.md
-    - name: Create and Edit Teams
+    - name: Create and edit teams
       href: create-and-edit-teams-and-subteams.md
 
   - name: User setup
     items:
-    - name: Invite and Remove Users in Viva Goals
+    - name: Invite and remove users in Viva Goals
       href: inviting-and-removing-a-user.md
     
   - name: OKRs and initiatives
     items: 
-    - name: Manage OKR Time Periods
+    - name: Manage OKR time periods
       href: managing-okr-time-periods.md
-    - name: Import OKRs and Initiatives/Projects with Viva Goals
+    - name: Import OKRs and initiatives with Viva Goals
       href: import-okrs-projects.md
-    - name: Renaming Initiatives
+    - name: Renaming initiatives
       href: renaming-initiatives.md
-    - name: Custom Embed URL Widget
+    - name: Custom embed URL widget
       href: custom-url-widget.md
       
   - name: Integrations
     items: 
-    - name: Viva Goals Integrations Administration Overview
+    - name: Viva Goals integrations administration overview
       href: vg-integrations-administration-overview.md
     - name: Viva Goals integrations overview
       href: integrations-overview.md    
@@ -102,7 +102,7 @@ items:
         href: use-ms-teams-integration.md
       - name: Notifications in Microsoft Teams
         href: ms-teams-notifications.md
-      - name: Microsoft Teams Extension
+      - name: Microsoft Teams extension
         href: ms-teams-messaging-extension.md
     
     - name: Slack
@@ -113,78 +113,78 @@ items:
           href: slack-check-ins-teams-orgs.md
         - name: Share OKR summary via Slack
           href: slack-share-okr-summary.md
-        - name: OKR Digest
+        - name: OKR digest
           href: slack-okr-digest.md
         - name: Slack troubleshooting and support
           href: slack-support.md
     
     - name: Data integrations
       items:
-      - name: Azure Data Explorer Integration
+      - name: Azure Data Explorer integration
         href: azure-data-explorer-integration.md
       - name: Azure DevOps Extension
         href: azure-devops-extension.md
       - name: Azure DevOps integration (ADO)
         href: azure-devops-integration.md
-      - name: Amazon RedShift Integration
+      - name: Amazon RedShift integration
         href: amazon-redShift-integration.md
-      - name: Asana Integration
+      - name: Asana integration
         href: asana-integration.md
-      - name: BigQuery Integration
+      - name: BigQuery integration
         href: bigquery-integration.md
-      - name: Box Integration
+      - name: Box integration
         href: box-integration.md
-      - name: Domo Integration
+      - name: Domo integration
         href: domo-integration.md
-      - name: Dynamics 365 Integration
+      - name: Dynamics 365 integration
         href: dynamics-365-integration.md
-      - name: Excel Online Integration
+      - name: Excel Online integration
         href: excel-online-integration.md
-      - name: Favro Integration
+      - name: Favro integration
         href: favro-generating-an-api-token.md
-      - name: GitHub Integration
+      - name: GitHub integration
         href: github-integration.md
-      - name: GitLab Integration
+      - name: GitLab integration
         href: gitlab-integration.md
-      - name: Google Sheets Integration
+      - name: Google Sheets integration
         href: gsheets-integration.md
-      - name: Hubspot Integration
+      - name: Hubspot integration
         href: hubspot-integration.md
-      - name: Jira Cloud Integration
+      - name: Jira Cloud integration
         href: jira-integration.md
-      - name: Jira Server and Data Center Integration
+      - name: Jira Server and Data Center integration
         href: jira-on-prem-integration.md
-      - name: Looker Integration
+      - name: Looker integration
         href: looker-integration.md
-      - name: Microsoft Planner Integration
+      - name: Microsoft Planner integration
         href: microsoft-planner-integration.md
-      - name: Mode Integration
+      - name: Mode integration
         href: mode-integration.md
-      - name: monday.com Integration
+      - name: monday.com integration
         href: monday.com-integration.md
-      - name: MS SQL Server Integration
+      - name: MS SQL Server integration
         href: ms-sql-server-integration.md
-      - name: MySQL Integration
+      - name: MySQL integration
         href: mysql-integration.md
-      - name: Planview Projectplace Integration
+      - name: Planview Projectplace integration
         href: planview-projectplace-integration.md
-      - name: PostgreSQL Integration
+      - name: PostgreSQL integration
         href: postgresql-integration.md
-      - name: Power BI Integration
+      - name: Power BI integration
         href: power-bi-integration.md
-      - name: Salesforce Integration
+      - name: Salesforce integration
         href: salesforce-integration.md
-      - name: Smartsheet Integration
+      - name: Smartsheet integration
         href: smartsheet-integration.md
-      - name: Snowflake Integration
+      - name: Snowflake integration
         href: snowflake-integration.md
-      - name: Tableau Integration
+      - name: Tableau integration
         href: tableau-integration.md
-      - name: Trello Integration
+      - name: Trello integration
         href: trello-integration.md 
-      - name: Zapier Integration
+      - name: Zapier integration
         href: zapier-integration.md 
-      - name: Zendesk Integration
+      - name: Zendesk integration
         href: zendesk-integration.md
        
  
