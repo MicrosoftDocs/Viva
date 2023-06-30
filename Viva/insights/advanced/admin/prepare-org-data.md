@@ -169,6 +169,8 @@ Custom attributes are any additional attributes you want to define to use in fil
 > * All dates should be in the MM/DD/YYYY format.
 > * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
+>[!Tip]
+>Go to our [File rules and validation errors](rules-validation-errors.md) article for more information about formatting your file.
 
 #### Example .csv export file
 
