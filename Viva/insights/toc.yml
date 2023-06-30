@@ -100,6 +100,11 @@ items:
               href: advanced/analyst/person-query.md
             - name: Create a meeting query
               href: advanced/analyst/meeting-query.md  
+            - name: Create cross-collaboration queries
+              href: cross-collaboration.md
+              items:
+              - name: Collaboration between two individuals (person-to-person query)
+                href: advanced/analyst/cross-collaboration-p2p.md  
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
