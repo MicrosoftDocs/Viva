@@ -26,11 +26,11 @@ To learn about organizational data in general, find out which data Azure Active 
 
 When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
-1. [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
-1. [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
-1. [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-1. [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
-1. [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
+1. [Identify trends that you want to analyze](#step-1---identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
+1. [Know what data to include](#step-2---know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
+1. [Get an export of organizational data](#step-3---get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
+1. [Structure the organizational data](#step-4---structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
+1. [Upload the organizational data file](#step-5---upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ### Step 1 - Identify trends that you want to analyze
 
