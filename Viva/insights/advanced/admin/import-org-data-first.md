@@ -174,7 +174,7 @@ Here are a few more details about these files and what they need to contain:
 
 ###### data.csv
 
-Add all fields you want to import in this file. Make sure you format it according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+Add all fields you want to import in this file. Make sure you format it according to our guidelines in [Prepare organizational data](prepare-org-data.md#step-4---structure-the-organizational-data).
 
 ###### metadata.json
 
