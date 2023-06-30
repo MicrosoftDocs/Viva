@@ -94,7 +94,7 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
 
 >[!Important]
->Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-appear-in-query-results).
+>Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
 
 
 ##### Notification of missing data

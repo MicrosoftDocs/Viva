@@ -30,7 +30,7 @@ Here's an example. An analyst might use organizational data to learn how people 
 Viva Insights automatically collects collaboration data from Microsoft 365. However, analyzing just this data would create an incomplete picture. It's organizational data that provides analysis context.
 
 >[!Important]
->Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-appear-in-query-results).
+>Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
 
 ## About data sources
 
