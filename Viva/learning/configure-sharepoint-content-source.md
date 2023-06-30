@@ -71,7 +71,7 @@ To configure SharePoint as a learning content sources in for Viva Learning, foll
 <img width="1510" alt="image" src="https://github.com/MicrosoftDocs/Viva/assets/86094924/cab8c569-39b2-4880-9096-1cab51f2b9b3">
 
 
-3. Click Add Provider, select Share Point and click Next.
+3. Select **Add Provider** > **Share Point** > **Next**.
 <img width="605" alt="image" src="https://github.com/MicrosoftDocs/Viva/assets/86094924/dc1b7523-c7e2-4f88-9473-28f6dcdf39f3">
 
 
