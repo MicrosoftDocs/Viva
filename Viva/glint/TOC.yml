@@ -46,7 +46,7 @@
    - name: Setup and administration
      items:
      - name: Set up Viva Glint SFTP
-       href: 
+       href: setup/setup-sftp.md
        items:  
         - name: Configure SFTP IP addresses in Viva Glint
           href: setup/configure-sftp.md
@@ -59,7 +59,7 @@
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
      - name: Access Viva Glint with Azure Active Directory
-       href:
+       href: setup/access-with-azure-ad.md
      - name: Add an external user to Viva Glint
        href:
      - name: Manage language translations in Viva Glint programs
@@ -74,7 +74,7 @@
         - name: Create your Employee Attribute Template
           href: setup/create-employee-attribute-template.md 
         - name: Set up attributes in Viva Glint
-          href:          
+          href: setup/set-up-attributes.md         
         - name: Create your Employee Attribute File
           href: setup/create-employee-attribute-file.md
         - name: Upload your employee attributes to Viva Glint
