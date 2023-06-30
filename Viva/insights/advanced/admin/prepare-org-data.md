@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 06/29/2023
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: lilyolason
@@ -169,59 +169,12 @@ Custom attributes are any additional attributes you want to define to use in fil
 > * All dates should be in the MM/DD/YYYY format.
 > * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
-#### Valid values and formats
-
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
-
-##### Rules for the file
-
-The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
-
-##### Rules for field headers
-
-All field header or column names need to: 
-
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Contain a value.
-* Have no leading or trailing blank spaces or special characters.(non-alphanumeric, such as @, #, %, &).
-* Be unique.
-* Contain no reserved keywords.
-
-Required fields need to have a value for every row.
-
-After you upload your file, you can only map one column header to each Viva Insights data field.
-
-##### Rules for field values
-
-Field values need to be provided in the correct data type. Refer to [Attribute reference](#attribute-reference).
-
-###### Rules for characters in field values
-
-
-* The character length of field values in rows can't exceed 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters aren't permitted in field values.
-
->[!Note]
->You can use double-byte characters, such as Japanese characters, in the field values.
-
-###### Rules for values in the ManagerId field
-
-Each PersonId needs to have a unique ManagerId. In other words, there can't be multiple managers for one person.
-
-There can't be loops where:
-
-* Managers and employees report to each other.
-* Managers report back to employees.
-* People report to themselves.
-
-For more information, see Attribute descriptions and data-coverage requirements.
 
 #### Example .csv export file
 
 Here's an example snippet of a valid .csv export file:
 
-PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest
+``PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest``
 
 For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
 
@@ -239,7 +192,6 @@ It's recommended that you upload employee data at least once a month to keep dat
 
 ##### Supplying data over a time period
 
-<!--pending confirmation-->
 
 By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file.
 
