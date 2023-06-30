@@ -34,7 +34,19 @@ All field header or column names need to:
 * Contain a value.
 * Have no leading or trailing blank spaces or special characters.(non-alphanumeric, such as @, #, %, &). <!--confirming-->
 * Be unique.
-* Contain no reserved keywords.
+* Contain no reserved keywords, which are:
+    *  PeopleHistoricalId
+    * StartDate
+    * EndDate
+    * Domain
+    * PopulationType
+    * TimeZone
+    * WorkdayStart
+    * WorkDayEnd
+    * WeekendDays
+    * InferredTeamSize
+    * ObjectId
+
 
 Required fields need to have a value for every row.
 
@@ -68,6 +80,13 @@ Let’s say Dylan is Kris’s manager. The organizational data couldn’t show:
 * Kris reporting to Dylan and also Dylan reporting back to Kris.
 * Dylan reporting to Kris.
 * Kris reporting to Kris.
+
+Both of the following hierarchies would produce an error:
+
+:::image type="content" source="../images/admin-mgr-loops-1.png" alt-text="Screenshot that shows a manager hierarchy loop between three people.":::
+
+:::image type="content" source="../images/admin-mgr-loops-2.png" alt-text="Screenshot that shows a manager hierarchy loop where one employee reports to themselves.":::
+
 
 ### Example .csv export file
 
