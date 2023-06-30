@@ -63,7 +63,7 @@ You can edit or delete an existing configured provider directly from **Manage pr
 
 ![Screenshot that shows the Manage Providers options inside Viva Learning.](../media/learning/admin-tab-manage-providers.png) 
 
-1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://vivalearning.microsoft.com).
+1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb).
 
 2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. 
   
