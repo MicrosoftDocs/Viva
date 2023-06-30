@@ -1,6 +1,6 @@
 ---
 ms.date: 06/29/2023
-title: Validation errors
+title: File rules and validation errors
 description: View errors and solutions for validation errors in the advanced insights app
 author: lilyolason
 ms.author: v-lilyolason
