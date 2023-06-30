@@ -133,4 +133,6 @@ Thank you for taking the time to share your thoughts with us. Your perspective h
 
 ## See also
 
+Join the discussion and see the latest events in the [Viva Topics Community](https://techcommunity.microsoft.com/t5/viva-topics/ct-p/Viva-Topics).
+
 [Use Microsoft Search to find topics in Viva Topics](./search.md)

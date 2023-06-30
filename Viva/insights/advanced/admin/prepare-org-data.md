@@ -29,7 +29,7 @@ When you’re ready to start working with an organizational data file, the follo
 * [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
 * [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
 * [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
+* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
 * [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
 ### Identify trends that you want to analyze
@@ -93,6 +93,10 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
 
+>[!Important]
+>Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
+
+
 ##### Notification of missing data
 
 If the app detects that data is missing for one or more licensed employees, it alerts admins through a pop-up notification in the top-right corner of the **Data connections** tab.
@@ -104,7 +108,7 @@ To upload this missing data, the admin can follow these steps:
 1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
 1. Open the .csv file.
 1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
-1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md)] for more information.
+1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md) for more information.
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 

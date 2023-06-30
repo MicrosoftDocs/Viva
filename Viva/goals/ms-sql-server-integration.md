@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Keep track of your OKR progress by automating key updates from your MS SQL server database."

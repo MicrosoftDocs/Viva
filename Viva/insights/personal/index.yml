@@ -29,7 +29,7 @@ highlightedContent:
       url: ./overview/privacy-guide-users.md
     - title: Setup
       itemType: deploy
-      url: ./setup/configure.md
+      url: ../advanced/setup-maint/configure-personal-insights.md
     - title: Using Viva Insights in Teams
       itemType: how-to-guide
       url: ./teams/introduction.md
