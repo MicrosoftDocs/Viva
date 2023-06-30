@@ -140,7 +140,7 @@ After you receive the “Success” status, you can select the view (eye) icon t
 
 #### Processing fails
 
-If processing fails, you’ll find a “Processing failed” status in the **Import history** table. If you want to try running the import again, have the survey source admin resend their survey data. If you’re still getting a “Processing failed” status, [file a support ticket with us](/microsoft-365/admin/get-help-support.md#online-support).
+If processing fails, you’ll find a “Processing failed” status in the **Import history** table. If you want to try running the import again, have the survey source admin resend their survey data. If you’re still getting a “Processing failed” status, [file a support ticket with us](/microsoft-365/admin/get-help-support#online-support).
 
 ### Validation fails
 
