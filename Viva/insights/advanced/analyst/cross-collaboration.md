@@ -1,7 +1,7 @@
 ---
 ms.date: 06/30/2023
 title: Cross-collaboration
-description: Learn how to run a custom cross-collaboration query for collaboration between two individuals in your organization
+description: Learn about cross-collaboration queries
 author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article

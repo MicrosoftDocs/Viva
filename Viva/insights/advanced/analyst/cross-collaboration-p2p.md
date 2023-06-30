@@ -77,19 +77,19 @@ Here’s how columns will appear in your results file:
 
 The first column identifies the primary collaborator in the pair by providing a de-identified ID number. This column appears automatically and is titled **PrimaryCollaborator_PersonId**. 
 
-![Screenshot](../images/analyst-xc-primary-collab-results.png)
+![Screenshot that shows results for the PrimaryCollaborator_PersonId column](../images/analyst-xc-primary-collab-results.png)
  
 The next columns describe the primary collaborator. The column names for these attributes are the organizational attributes you selected while you built the query, with the prefix **PrimaryCollaborator_**. In the graphic below, the analyst selected **FunctionType**, **LevelDesignation**, and **Organization** as their attributes:
 
-![Screenshot](../images/analyst-xc-primary-collab-results-attributes.png)
+![Screenshot that shows results for the PrimaryCollaborator attribute columns](../images/analyst-xc-primary-collab-results-attributes.png)
  
 The following column identifies the secondary collaborator in the pair. Like the first column in the file, this column appears automatically, is titled **SecondaryCollaborator_PersonId**, and provides a de-identified ID number to represent the secondary collaborator.
 
-![Screenshot](../images/analyst-xc-secondary-collab-results.png)
+![Screenshot that shows results for the SecondaryCollaborator_PersonID column](../images/analyst-xc-secondary-collab-results.png)
  
 Like for primary collaborators, the next columns describe the secondary collaborator by providing the attributes you picked earlier. The columns include the attribute names, with the prefix **SecondaryCollaborator_**. Here’s how these columns would appear if the analyst selected **FunctionType**, **LevelDesignation**, and **Organization** as their attributes:
 
-![Screenshot](../images/analyst-xc-secondary-collab-results-attributes.png)
+![Screenshot that shows results for the SecondaryCollaborator_PersonID attribute columns](../images/analyst-xc-secondary-collab-results-attributes.png)
  
 The last columns in the file give you the metric date and results—that is, scores and types—for the metrics you selected.
 The **MetricDate** column shows the start date of the aggregated output. This date will be the first day of the month that your data covers. The following columns show values for the metrics you added when you built the query. 
