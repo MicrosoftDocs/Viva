@@ -43,7 +43,7 @@
           href: ./viva-goals-healthy-okr-program/great-goal-writing.md
         - name: Goal writing recommendations
           href: ./viva-goals-healthy-okr-program/goal-writing-recommendations.md
-        - name: Write annual, organizational OKRs using the 5 Ps
+        - name: Write annual, organizational goals using the 5 Ps
           href: ./viva-goals-healthy-okr-program/write-annual-top-level-okrs.md
 
       - name: Using the OKR framework
@@ -70,16 +70,16 @@
     
     - name: Check-in and track goals
       items:
-      - name: Check-in OKRs Overview
+      - name: Check-in OKRs overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
-      - name: Check-in OKRs Recommendations
+      - name: Check-in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
    
     - name: Close and score goals
       items:
-      - name: Close OKRs Overview
+      - name: Close OKRs overview
         href: ./viva-goals-healthy-okr-program/close-okrs-overview.md
-      - name: Close OKRs Recommendations
+      - name: Close OKRs recommendations
         href: ./viva-goals-healthy-okr-program/close-recommendations.md
     
     - name: Business rhythms and dashboards
