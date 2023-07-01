@@ -126,9 +126,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
 *Applies to: Insights admin*
 
-1. Go to the **Organizational data** tab in the Viva Insights admin portal.
-
-1. Start the import from one of two places: the **Data hub** tab or the **Data connections** tab. 
+1. Start the import from one of two places: the **Data hub** page or the **Organizational data** page, under **Data connections**. 
 
     1. From **Data hub**:
     
