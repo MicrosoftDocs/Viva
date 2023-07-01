@@ -45,6 +45,7 @@ However, before you can run your app and start transferring data to Viva Insight
         1.	Exports it from their source system using a custom app based on our API, then, using the same app, imports the data to Viva Insights.
         2.	Exports it from their source system using a custom app based on our API, then, using our C# solution or PowerShell script, imports the data to Viva Insights.
 
+    :::image type="content" source="../images/admin-data-import-flow.png" alt-text=" Diagram of the workflow above."lightbox="../images/admin-data-import-flow-expanded.png":::
 
 1. Validation: Viva Insights validates your data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).)
 1. Processing: Viva Insights processes your data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).)
@@ -408,19 +409,6 @@ https://api.orginsights.viva.office.com/v1.0/scopes/<tenantId>//Hr/ingestions/{i
 [Response] 
 
 `200: File stream with errors, if any.`
-
-##### Run the DescriptiveDataUploadApp in the console
-
-Whenever it exports the zipped folder from your source system, have your custom export app automatically run the DescriptiveDataUploadApp. We created the DescriptiveDataUploadApp [on GitHub](https://github.com/microsoft/vivainsights_ingressupload) to transfer your data into Viva Insights. Clone this app to your machine by running the following command: `git clone https://github.com/microsoft/vivainsights_ingressupload.git.` 
-
-1.	For each export, have your custom export app run the DescriptiveDataUploadApp.
-2.	A console pops up requesting values. Add the following values:
-    1. AppID/ClientID. This ID is in the registered app information on the Azure portal under Application (client) ID.
-    1. Absolute path to the zipped folder. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip`.
-    1. Azure Active Directory tenant ID. This ID is also on the app's overview page under Directory (tenant) ID.
-    1. Certificate name. This name is configured in your registered application. If you haven’t created a certificate yet, refer to [How to create a self-signed certificate](/azure/active-directory/develop/howto-create-self-signed-certificate). After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal.
-    1. Scale unit. Enter this value: `novaprdwus2-02`.
-
 
 ##### Option 1: Use the Viva Insights HR data ingress API to build a custom import/export app 
 
