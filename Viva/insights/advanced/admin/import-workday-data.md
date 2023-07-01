@@ -64,7 +64,7 @@ If you’ve already set up your connection and imported a first set of data to W
     * **Replace data**. With this option, you can:
         * Overwrite all your existing organizational data with new data from Workday.
         * Remove certain fields by importing data from Workday with fewer fields.
-        >[!Caution!] **Replace data** permanently overwrites your existing data.
+        >[!Caution] **Replace data** permanently overwrites your existing data.
 3.	Select **Next**.
 
 ### Edit authorization or update refresh schedule
@@ -92,20 +92,20 @@ When you connect Workday to Viva Insights, Workday sends over a set of predefine
 
 Scroll through this table to learn which Viva Insights data field corresponds to which Workday data field, which data type the Viva Insights field needs to be, and whether the Viva Insights field has any special formatting requirements.
 
-|Workday field|Viva Insights field
-|----|----
-|`responseData.worker.workerData.personalData.contactData.emailAddressData`|	PersonId
-`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
-`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
-`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate` |  EffectiveDate
-`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
+|Workday field|Viva Insights field|
+|----|----|
+|`responseData.worker.workerData.personalData.contactData.emailAddressData`|PersonId
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
+|`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`	|Layer
-[No mapping from Workday]	| HourlyRate
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
+|[No mapping from Workday]	| HourlyRate
 `responseData.worker.workerData.employmentData.workerStatusData.hireDate`|	HireDate
-[No mapping from Workday]	|SupervisorIndicator
-[No mapping from Workday]	| OnsiteDays
-`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference` Location
+|[No mapping from Workday]	|SupervisorIndicator
+|[No mapping from Workday]	| OnsiteDays
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location
 
 
 ## Validation
@@ -153,9 +153,10 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: Workday admin*
 
-When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. Refer to File rules and validation errors for specific formatting rules that might help resolve errors you encounter.
+When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. Refer to [File rules and validation errors](rules) for specific formatting rules that might help resolve errors you encounter.
 
 Unless you’re updating data for existing employees, keep in mind that **PersonId**, **ManagerId**, **Organization**, and **EffectiveDate** are required for all rows. If you’re just updating data for existing employees, **PersonId** and **EffectiveDate** are required for all rows.
+
 
 
 ## Related topic
