@@ -64,7 +64,8 @@ If you’ve already set up your connection and imported a first set of data to W
     * **Replace data**. With this option, you can:
         * Overwrite all your existing organizational data with new data from Workday.
         * Remove certain fields by importing data from Workday with fewer fields.
-        >[!Caution] **Replace data** permanently overwrites your existing data.
+        >[!Caution] 
+        >**Replace data** permanently overwrites your existing data.
 3.	Select **Next**.
 
 ### Edit authorization or update refresh schedule
@@ -153,7 +154,7 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: Workday admin*
 
-When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. Refer to [File rules and validation errors](rules) for specific formatting rules that might help resolve errors you encounter.
+When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. Refer to [File rules and validation errors](rules-validation-errors.md) for specific formatting rules that might help resolve errors you encounter.
 
 Unless you’re updating data for existing employees, keep in mind that **PersonId**, **ManagerId**, **Organization**, and **EffectiveDate** are required for all rows. If you’re just updating data for existing employees, **PersonId** and **EffectiveDate** are required for all rows.
 
