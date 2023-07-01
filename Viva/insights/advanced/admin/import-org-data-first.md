@@ -64,7 +64,7 @@ Here’s what to do:
 1.	Create a certificate by following the instructions in this article: [Create a self-signed public certificate to authenticate your application](/azure/active-directory/develop/howto-create-self-signed-certificate)
 2.	Send the generated certificate to the Microsoft 365 admin.
 
-That’s it for now. If you want to get a head start on your next steps, follow the steps in [Export and import your data on a set frequency](#export-and-import-your-data-on-a-set-frequency).  
+That’s it for now. If you want to get a head start on your next steps, follow the steps in [Export your data on a set frequency](#export-your-data-on-a-set-frequency).  
 
 ### Register a new app in Azure
 
@@ -285,7 +285,7 @@ If Insights Administrator has removed the connector or, connector has not been s
 [Body] file content as multipart/form-data 
 
 
-Type: [Zip archive](/dotnet/api/system.io.compression.ziparchive?view=net-6.0) 
+Type: [Zip archive](/dotnet/api/system.io.compression.ziparchive) 
 
  
 
