@@ -175,8 +175,6 @@ After you review missing attributes:
 
 After you’ve mapped attributes, the app starts validating your data.  
 
-:::image type="content" source="../images/admin-validate.png" alt-text="Screenshot that shows validation in progress.":::
-
 In most cases, file validation should complete quickly. If your organizational data file is large, validation could take up to one or two minutes.
 
 After this phase completes, validation has either succeeded or failed. <!--Depending on the outcome, you’ll either receive a success notification or a failure notification in the top-right corner of the **Data connections** screen.-->
@@ -207,16 +205,12 @@ After you receive the “Success” status, you can:
 
 * Select the mapping icon to see the mapping settings for the workflow.
 
-:::image type="content" source="../images/admin-map-results.png" alt-text="Screenshot that shows mapping settings." lightbox="../images/admin-map-results.png":::
-
 > [!Note]
 > Each tenant can have only one upload in progress at a time. You need to complete the workflow of one data file, which means you either guide it to a successful validation and processing or abandon it, before you begin the workflow of the next data file. The status or stage of the upload workflow is shown on the **Data connections** tab.
 
 #### Processing fails
 
 If processing fails, you’ll see a failed status in the **Upload or delete in progress** table. Selecting the link in the status brings you to an explanation of the failure.
-
-:::image type="content" source="../images/admin-status-process-failed.png" alt-text="Screenshot that shows processing failed.":::
 
 Select **Edit or start new upload**. This button lets you do the following things for the data file you uploaded earlier:
 
@@ -235,37 +229,10 @@ Before you make changes in the source file and try the upload again, you can sel
 
 #### Guidelines for correcting errors in data
 
-This section contains help for correcting data in an uploaded source file that's causing validation errors.
-
 When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file (or you fix the attribute mapping).
 
-##### Rules for field headers
+To learn about formatting your file to prevent errors, refer to [File rules and validation errors](rules-validation-errors.md).
 
-All field header or column names must:
-
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
-
-##### Rules for field values
-
-The field values in data rows need to comply with the following formatting rules:
-
-* The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
-* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
-* The  **Layer** field values need to contain numbers only.
-* The  **HourlyRate** field values need to numbers only, which the app assumes is in US dollars for calculations and data analysis.
-
-> [!Note]
-> The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
-
-##### Rules for characters in field values
-
-The following field rules apply to characters in field values:
-
-* Double-byte characters, such as Japanese characters, are permitted in the field values.
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values.
 
 ## Related topic
 
