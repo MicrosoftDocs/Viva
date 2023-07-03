@@ -70,13 +70,13 @@ Dependent upon whether you have chosen to receive notification, one of the follo
 
 If your tenant can't be provided, you'll receive this message. Select **Request support** and a tab will open for Microsoft 365 support.
 
-:::image type="content" source="../../media/glint/start/tenant-issue.png" alt-text="Screenshot of Microsoft Viva Glint tenant facing an issue.":::
+:::image type="content" source="../../media/glint/start/tenant-issue.png" alt-text="Image of Microsoft Viva Glint tenant facing an issue.":::
 
 ## Your view as your tenant is being readied
 
 Dependent upon whether you’ve requested notification to be sent, you’ll receive one of the following messages: 
 
-:::image type="content" source="../../media/glint/start/tenant-ready.png" alt-text="Screenshot of Viva Glint tenant getting ready":::
+:::image type="content" source="../../media/glint/start/tenant-ready.png" alt-text="Image of Viva Glint tenant getting ready.":::
 
 ## Proceed to post-provisioning once your tenant is ready
 
@@ -84,7 +84,7 @@ Once you receive the email notification below (if you requested notification in 
 
 You can also choose to **Open Viva Glint** from this page:
 
-:::image type="content" source="../../media/glint/start/viva-glint-tenant.png" alt-text="Screenshot of Viva Glint tenant ready to use":::
+:::image type="content" source="../../media/glint/start/viva-glint-tenant.png" alt-text="Image of Viva Glint tenant ready to use.":::
 
 ## Use Microsoft FastTrack for more support 
 

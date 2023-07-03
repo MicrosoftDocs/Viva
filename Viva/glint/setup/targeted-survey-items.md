@@ -29,8 +29,8 @@ First, select the three dots to the right of the question text and select **Edit
 
 1. Select the question for targeting to activate the three vertical ellipses to the right of that question.  
 2. Select **Edit Targeting** to reveal the Targeting slider.
-   :::image type="content" source="../../media/glint/setup/edit-targeting.png" alt-text="Screenshot of Viva Glint's Questions page":::
-   :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Screenhsot of the targeting page of Viva Glint.":::
+   :::image type="content" source="../../media/glint/setup/edit-targeting.png" alt-text="Image of of Viva Glint's Questions page." lightbox="../../media/glint/setup/edit-targeting.png":::
+   :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Image of the targeting page of Viva Glint." lightbox="../../media/glint/setup/targeting-viva.png":::
 3. In the *Targeted lists included* section, if you have already set up your Distribution List, it will appear in a dropdown list from the Search bar. Select all the distribution lists or manually select only those you want to receive that survey item. More than one distribution list can be selected. As you select lists, they'll be added above the Search bar.
 4. Select **Save Changes**.
 
