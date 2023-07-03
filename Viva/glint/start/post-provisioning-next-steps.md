@@ -116,7 +116,7 @@ Within Microsoft Learn, admins are recommended to invest time in learning about 
 1. [Sign up for the](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/gh-p/Viva_Glint_Customer_User_Group)Viva Glint Customer Private User group. In this group you'll find customer-only content and a gated space to chat with your peers. Our team will review member requests and accept customers regularly.
 2. [Subscribe for updates to the Viva Glint Customer Private User Group blog](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/bg-p/Viva_Glint_Customer_User_Groupblog-board). Once you're a member of the private user group, subscribe to the blog to receive customer-only updates about product news, thought leadership content, upcoming events, and more.
 
-:::image type="content" source="../../media/glint/start/viva-community.png" alt-text="Image displaying the first look of Viva Glint community.":::
+:::image type="content" source="../../media/glint/start/viva-community.png" alt-text="Screenshot that displays the first look of Viva Glint community.":::
 
 ## Microsoft Viva Adoption
 
