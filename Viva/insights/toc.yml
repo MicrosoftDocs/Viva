@@ -88,6 +88,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: File rules and validation errors  
+            href: advanced/admin/rules-validation-errors.md
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
         - name: Analyst
