@@ -1,5 +1,5 @@
 ---
-title: Set up Viva Glint SFTP
+title: Set up Viva Glint Secure File Transfer Protocol
 description: Learn how to set up your Viva Glint SFTP instance.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 06/20/2023
 ---
 
-# Set up Viva Glint SFTP
+# Set up Viva Glint Secure File Transfer Protocol
 
 Secure File Transfer Protocol (SFTP) ensures efficient and secure transfer of data at a frequency that makes the most sense for your organization and is widely used across businesses to encrypt data in transit.
 
