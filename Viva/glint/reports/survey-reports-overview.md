@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager report, response rate, team summary, report access level
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

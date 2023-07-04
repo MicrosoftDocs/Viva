@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: Live access, phased access, BTI, broader team insights, aggregate indices, aggregate index 
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

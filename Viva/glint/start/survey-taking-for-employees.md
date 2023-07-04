@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: end user FAQs, survey taking troubleshooting, retaking surveys, new survey invite, resend survey invite 
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

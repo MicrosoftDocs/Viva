@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: managerial hierarchy, locational hierarchy, departmental hierarchy
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article
