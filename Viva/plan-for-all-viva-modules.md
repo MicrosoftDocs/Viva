@@ -52,7 +52,6 @@ After you’ve got the right licensing in place, review additional requirements 
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
 |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
-|:::image type="icon" source="media/logos/pulse-logo.svg"::: <br> **Viva Pulse** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
 

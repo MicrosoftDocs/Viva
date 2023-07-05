@@ -72,7 +72,7 @@ Jump to a section:
 [Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
 [Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
-[Viva Sales](/viva/microsoft-viva-admin-roles#viva-sales)
+[Viva Sales](/viva/microsoft-viva-admin-roles#viva-sales)<br>
 [Viva Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
 
 
@@ -152,11 +152,6 @@ For more information on the roles in Viva Learning, see [Admin roles and permiss
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
-### Viva Pulse
-
-
-| Role         | What this role does in Viva |
-|--------------|-----------|
 
 ### Viva Sales
 You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
