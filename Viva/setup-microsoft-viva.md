@@ -63,30 +63,6 @@ In this example you can:
 
 ### Set up each app
 
-**Viva Learning**
-
-Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.
-
-[Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)
-
-[More information about Viva Learning](/microsoft-365/learning)
-
-**Viva Insights**
-
-Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.
-
-[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)
-
-[More information about Viva Insights](/viva/insights/introduction)
-
-**Viva Topics**
-
-Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.
-
-[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)
-
-[More information about Viva Topics](/microsoft-365/knowledge/)
-
 **Viva Connections**
 
 Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.
@@ -94,22 +70,6 @@ Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a m
 [Learn how to set it up](/sharepoint/guide-to-setting-up-viva-connections)
 
 [More information about Viva Connections](/sharepoint/viva-connections-overview)
-
-**Viva Goals**
-
-Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
-
-[Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)
-
-[More information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
-
-**Viva Sales**
-
-Setup for Viva Sales is a bit different from other Viva apps. It requires you to install the Viva Sales app, which you can do from the Microsoft 365 admin center, but not yet from the Viva admin page.
-
-[Install the Viva Sales app](/viva/sales/install-viva-sales-individual-add-in-admin-center)
-
-[More information about Viva Sales](/viva/sales/introduction)
 
 **Viva Engage**
 
@@ -131,5 +91,44 @@ A "voice of the employee" - Helps organizations understand and improve employee 
 
 [More information about Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238526)
 
+**Viva Goals**
+
+Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
+
+[Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)
+
+[More information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
+
+**Viva Insights**
+
+Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.
+
+[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)
+
+[More information about Viva Insights](/viva/insights/introduction)
+
+**Viva Learning**
+
+Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.
+
+[Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)
+
+[More information about Viva Learning](/microsoft-365/learning)
 
 **Viva Pulse**
+
+**Viva Sales**
+
+Setup for Viva Sales is a bit different from other Viva apps. It requires you to install the Viva Sales app, which you can do from the Microsoft 365 admin center, but not yet from the Viva admin page.
+
+[Install the Viva Sales app](/viva/sales/install-viva-sales-individual-add-in-admin-center)
+
+[More information about Viva Sales](/viva/sales/introduction)
+
+**Viva Topics**
+
+Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.
+
+[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)
+
+[More information about Viva Topics](/microsoft-365/knowledge/)
