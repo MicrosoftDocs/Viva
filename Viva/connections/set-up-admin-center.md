@@ -331,7 +331,7 @@ The following settings are available in the settings panel:
 
 > [!IMPORTANT]
 >
-> - Organizations that are not Viva Suite subscribers are limited to creating three Viva Connections experiences.
+> - Organizations that are not Viva Suite subscribers are limited to creating one Viva Connections experience.
 > - Viva Suite subscribers are limited to creating a maximum of ten Viva Connections experiences.
 
 Connections and home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. [Learn more about how Connections and homes sites work together](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
