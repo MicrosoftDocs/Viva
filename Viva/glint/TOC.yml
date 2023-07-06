@@ -10,7 +10,7 @@
         - name: Set up a Microsoft Viva Glint tenant
           href: start/viva-glint-tenant-provision.md
         - name: Set up your Viva Glint instance
-          href: start/post-provisioning-next-step.md
+          href: start/post-provisioning-next-steps.md
         - name: Licensing Viva Glint
           href: start/glint-order-teams.md
         - name: Third party notice
@@ -23,9 +23,9 @@
         - name: Advanced privacy guide for data usage and survey item creation
           href: start/gdpr-special-categories.md
         - name: How Viva Glint's reporting policies protect survey takers confidentiality and privacy
-          href:
+          href: start/viva-glint-survey-privacy.md
         - name: Raw data requests and handling
-          href:
+          href: 
      - name: Viva Glint basics
        items:
         - name: Four stages of a Viva Glint programs
@@ -33,7 +33,7 @@
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: 
+          href: start/people-science-viva-glint.md
      - name: Use Viva Glint email templates to share survey expectations within your organization
        href: start/email-templates-survey-expectations.md
        items:
@@ -55,13 +55,13 @@
         - name: Add a public SSH key to Viva Glint
           href: setup/add-a-public-ssh-key.md
      - name: Set up the Allowed List to enable Viva Glint email delivery
-       href: 
+       href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
      - name: Access Viva Glint with Azure Active Directory
        href: setup/access-with-azure-ad.md
      - name: Add an external user to Viva Glint
-       href:
+       href: setup/add-external-user.md
      - name: Manage language translations in Viva Glint programs
        href: setup/language-translations.md           
      - name: Prepare and upload your employee data to Viva Glint
@@ -121,7 +121,7 @@
         - name: Understand Viva Glint programs and cycles 
           href: setup/program-cycle-edits.md
         - name: Understand Viva Glint survey access methods
-          href:
+          href: setup/understand-survey-access-methods.md
      - name: Preview demo data in reporting before your Viva Glint survey launches
        href: setup/preview-demo-reporting.md
        items: 
@@ -134,13 +134,12 @@
         - name: Recognize survey field character limits
           href: setup/survey-character-limits.md
         - name: Use Viva Glint's best practices to design your survey program
-          href:
+          href: setup/best-practice-setup-guidance.md
         - name: Sending/collecting sensitive Demographics
-          href:
+          href: 
         - name: Use the Glint Microsoft Teams application
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
-       href: 
        items: 
         - name: Set up Program Summary for Viva Glint engagement type surveys
           href: setup/program-summary-overview.md
@@ -172,9 +171,9 @@
         - name: Setting up Employee Lifecycle surveys
           items:
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
-            href: setup/preview-filter-lifecycle-programs.md
-          - name: Preview and filter Employee Lifecycle programs
             href: 
+          - name: Preview and filter Employee Lifecycle programs
+            href: setup/preview-filter-lifecycle-programs.md
         - name: Create Viva Glint Onboarding and Exit survey programs
           href: setup/create-onboarding-exit-surveys.md
         - name: Setting up Always On surveys
@@ -184,7 +183,6 @@
    - name: Reports
      items:
      - name: Viva Glint's survey reports
-       href: 
        items:
         - name: Viva Glint's survey reports overview
           href: reports/survey-reports-overview.md
@@ -200,7 +198,7 @@
         - name: Use Viva Glint's Focus Area Overview report
           href: reports/focus-area-overview-report.md
         - name: Heat Map report
-          href:
+          href: 
         - name: Use the Manager report in Viva Glint
           href: reports/manager-report.md
         - name: The Overall Results report recommended for Employee Lifecycle surveys
@@ -242,13 +240,13 @@
           href: reports/take-action-team-conversations.md
           items:
           - name: Admin setup for Team Conversations
-            href:
+            href: reports\team-conversations-administrator-setup.md
           - name: Managers and teams using Viva Glint Team Conversations
             href: reports/managers-sharing-team-conversations.md
           - name: Set up Viva Glint Team Conversations coaching for managers  
             href: reports/coaching-team-conversations.md
      - name: Create a Viva Glint Focus Area report
-       href:
+       href: 
    - name: Communicate and roll out your program
      items:
      - name: Communicate with Viva Glint Nudges
