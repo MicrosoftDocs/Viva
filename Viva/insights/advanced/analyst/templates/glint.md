@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/19/2023
 title: Viva Insights with Glint report
 description: Connect Glint and Viva Insights data to explore behaviors and take action
