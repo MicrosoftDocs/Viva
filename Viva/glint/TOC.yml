@@ -240,7 +240,7 @@
           href: reports/take-action-team-conversations.md
           items:
           - name: Admin setup for Team Conversations
-            href: reports\team-conversations-administrator-setup.md
+            href: reports/team-conversations-administrator-setup.md
           - name: Managers and teams using Viva Glint Team Conversations
             href: reports/managers-sharing-team-conversations.md
           - name: Set up Viva Glint Team Conversations coaching for managers  
