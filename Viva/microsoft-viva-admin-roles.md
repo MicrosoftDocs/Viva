@@ -69,6 +69,7 @@ Jump to a section:
 
 [Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
 [Viva Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
+[Viva Glint](#viva-glint)<br>
 [Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
 [Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
