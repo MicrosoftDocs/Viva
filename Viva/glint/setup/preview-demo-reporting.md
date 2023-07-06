@@ -1,5 +1,5 @@
 ---
-title: Preview demo data in reporting before your Viva Glint survey launches
+title: Preview pre-launch demo data in Viva Glint reporting
 description: For training purposes and to be sure reporting is as expected, admins can use demo data to preview reporting prior to a survey launch.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 05/05/2023
 ---
 
-# Preview demo data in reporting before your Viva Glint survey launches
+# Preview pre-launch demo data in Viva Glint reporting
 
 How will your employee attributes and potential survey responses look in Microsoft Viva Glint reporting? Previewing demo data enables leaders and program admins to familiarize themselves with our dashboard, understand how manager hierarchy and user file attributes appear in different reporting scenarios, and conduct manager training.
 
