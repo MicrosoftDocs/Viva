@@ -129,7 +129,3 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Recommended frequency** - Ad Hoc: Recommend timing be relevant to the person receiving the feedback (e.g. - send 360 when manager is new to role, or participating in a development program)
 - **Target groups for results** - Managers (Subjects)
 - **Feedback providers** - Departing employees
-
-## Related topics
-
-[Understand Viva Glint programs and cycles](setup/program-cycle-edits.md)
