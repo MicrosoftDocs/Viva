@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 04/25/2023
 title: Set up Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
