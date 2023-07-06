@@ -32,7 +32,11 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 * Username
 * Password
 
-## Set up your Workday connection
+## For the first import
+
+If this isn’t the first time you’re importing data from Workday, jump to [For subsequent imports](#for-subsequent-imports).
+
+### Set up your Workday connection
 
 *Applies to: Insights Administrator*
 
@@ -46,9 +50,64 @@ Before you can set up a connection between Workday and Viva Insights, you'll nee
 1. Select the box under **Authorization status** to allow Workday to start sending data to Viva Insights.
 1. Select **Save**.
 
+## For subsequent imports
+
+If you’ve already set up your connection and imported a first set of data to Workday, follow these steps to update or replace your existing data:
+
+1.	In the advanced insights app's admin experience, go to either the **Data hub** or the **Organizational data** page.
+    * On the **Data hub** page, select **Start** under **Data source > Workday**.
+    * On the **Organizational data** page's **Data connection** tab, select **Manage data** sources. Then, select **Manage** under **Workday**.
+2.	Select one option:
+    * **Edit authorization or update refresh schedule**. With this option, you can:
+        * Allow or stop allowing Workday to send data to Viva Insights.
+        * Change the data refresh schedule.
+    * **Replace data**. With this option, you can:
+        * Overwrite all your existing organizational data with new data from Workday.
+        * Remove certain fields by importing data from Workday with fewer fields.
+        >[!Caution] 
+        >**Replace data** permanently overwrites your existing data.
+3.	Select **Next**.
+
+### Edit authorization or update refresh schedule
+
+If you chose **Edit authorization or update refresh schedule**, you’ll arrive at the **Edit Workday connector** page.
+
+1.	Enter your workday credentials: tenant name, username, and password.
+2.	If you want to turn on or off Workday’s ability to send data to Viva Insights, select or deselect the checkbox.
+3.	If you want to update how often Workday data goes to Viva Insights, use the dropdown menu beneath **Update refresh schedule**.
+4.	Read the acknowledgement note and select **Accept**.
+
+### Replace data
+
+If you chose **Replace data**, a popup warning will appear: “Replacing data overwrites all previously ingested data. If your new import is missing any data fields, auto-refresh queries that use those missing fields will be disabled.” If you want to proceed, select **Confirm**.
+
+After you select **Confirm**, a new full refresh of your Workday data will start.
+
+## For all imports
+
 ### How Workday sends data to Viva Insights
 
 When you connect Workday to Viva Insights, Workday sends over a set of predefined source columns. These columns are mapped to Viva Insights data fields. You can't change these predefined fields right now, but you'll be able to in the future.
+
+#### How Viva Insights fields correspond to Workday data
+
+Scroll through this table to learn which Viva Insights data field corresponds to which Workday data field, which data type the Viva Insights field needs to be, and whether the Viva Insights field has any special formatting requirements.
+
+|Workday field|Viva Insights field|
+|----|----|
+|`responseData.worker.workerData.personalData.contactData.emailAddressData`|PersonId
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
+|`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
+|[No mapping from Workday]	| HourlyRate
+`responseData.worker.workerData.employmentData.workerStatusData.hireDate`|	HireDate
+|[No mapping from Workday]	|SupervisorIndicator
+|[No mapping from Workday]	| OnsiteDays
+|`responseData.worker.workerData.employmentData.workerJobData.positionData.businessSiteSummaryData.locationReference`|Location
+
 
 ## Validation
 
@@ -81,6 +140,10 @@ After you receive the “Success” status, you can:
 
 If processing fails, you’ll find a “Processing failed” status in the **Import history** table. For processing to succeed, the data source admin needs to correct errors and push the data to Viva Insights again. If you’ve corrected all errors and are still getting a “Processing failed” status, file a support ticket with us.
 
+>[!Note]
+>Processing failures are generally due to backend errors. If you’re seeing persistent processing failures and you’ve corrected the data in your import file, log a [support ticket](/microsoft-365/admin/get-help-support) with us.
+
+
 ### Validation fails
 
 If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the Workday admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the Workday admin so they know what to correct before sending the data again. 
@@ -91,57 +154,11 @@ The data source admin might find the following section helpful to fix data error
 
 *Applies to: Workday admin*
 
-When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. In this section, we go over some rules about the source file that might help resolve errors. For more information about preparing data, refer to [Prepare organizational data](prepare-org-data.md).
+When any data row or column has an invalid value for any attribute, the entire import will fail until the data source admin fixes the source data. Refer to [File rules and validation errors](rules-validation-errors.md) for specific formatting rules that might help resolve errors you encounter.
 
-##### Rules for the file
+Unless you’re updating data for existing employees, keep in mind that **PersonId**, **ManagerId**, **Organization**, and **EffectiveDate** are required for all rows. If you’re just updating data for existing employees, **PersonId** and **EffectiveDate** are required for all rows.
 
-The data file needs to be in the .csv format, and it can't be empty.
 
-##### Rules for field headers
-
-All field header or column names need to:
-
-* Contain a value.
-* Be unique—that is, two column names can’t be the same.
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**). 
-* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*). You’ll get an error if your column name contains a formula.
-
-##### Rules for field values
-
-All rows need to contain the following fields:
-
-* **PersonId**
-* **ManagerId** (unless the import is an update for existing employees only) 
-* **Organization** (unless the import is an update for existing employees only)
-* **EffectiveDate** 
-
-    >[!Note]
-    >If you don’t enter a value here, Viva Insights will assign the date of upload as the **EffectiveDate**.
-
-Some field values need to follow specific formatting, as described in this table:
-
-|Field | Format |Example
-|------|--------|------|
-|**EffectiveDate** | MM/DD/YYYY | `01/15/2023`
-|**HireDate** | MM/DD/YYYY | `01/15/2023`
-|**PersonId** | Valid email address| `gc@contoso.com`
-|**ManagerId** | Valid email address |`gc@contoso.com`
-|**Layer** | Numbers only | `5`
-| **HourlyRate** (refer to note below) | <li>Numbers only <li>Double| `23.75`
-
->[!Note]
->The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
-
-##### Rules for characters in field values
-
-Here are some rules about characters in field values:
-
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values.
-
->[!Note]
->You can use double-byte characters, such as Japanese characters, in the field values.
 
 ## Related topic
 
