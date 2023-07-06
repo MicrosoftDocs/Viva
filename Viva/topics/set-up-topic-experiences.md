@@ -62,15 +62,15 @@ To set up Topics
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then choose **Microsoft Viva**.
 
-![Screenshot of the Microsoft Viva setup card.](../media/viva-setup.png)
+   ![Screenshot of the Microsoft Viva setup card.](../media/viva-setup.png)
 
 2. Select **Viva Topics**.
 
-[![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
+   [![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
 
 3. This will take you to the Viva Topics admin page. Choose **Manage Viva Topics** to set up how topics will work for your organization.
 
-[![Screenshot of the Viva Topics page.](../media/knowledge-management/topics-admin-page.png)](../media/knowledge-management/topics-admin-page.png#lightbox)
+   [![Screenshot of the Viva Topics page.](../media/knowledge-management/topics-admin-page.png)](../media/knowledge-management/topics-admin-page.png#lightbox)
 
 ### Topic discovery
 
