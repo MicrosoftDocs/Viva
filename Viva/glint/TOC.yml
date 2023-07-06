@@ -10,7 +10,7 @@
         - name: Set up a Microsoft Viva Glint tenant
           href: start/viva-glint-tenant-provision.md
         - name: Set up your Viva Glint instance
-          href: start/post-provisioning-next-step.md
+          href: start/post-provisioning-next-steps.md
         - name: Licensing Viva Glint
           href: start/glint-order-teams.md
         - name: Third party notice
@@ -242,7 +242,7 @@
           href: reports/take-action-team-conversations.md
           items:
           - name: Admin setup for Team Conversations
-            href:
+            href: reports/team-conversations-administrator-setup.md
           - name: Managers and teams using Viva Glint Team Conversations
             href: reports/managers-sharing-team-conversations.md
           - name: Set up Viva Glint Team Conversations coaching for managers  

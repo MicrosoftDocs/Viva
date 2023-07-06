@@ -1,5 +1,5 @@
 ---
-title: Viva Glint features and settings
+title: Viva Glint program features and settings
 description: Follow Viva Glint guidance to make the most of your platform features and settings.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 04/10/2023
 ---
 
-# Viva Glint features and settings
+# Viva Glint program features and settings
 
 Microsoft Viva Glint offers multiple program types, reporting features, and guidance opportunities for acting on feedback. To make the most of this application designed to meet your business goals, use the following guidance while setting up your programs:
 
