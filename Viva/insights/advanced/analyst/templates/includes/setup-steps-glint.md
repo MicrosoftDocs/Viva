@@ -1,4 +1,13 @@
- 3. Under **Query setup**:
+---
+ms.date: 05/19/2023
+author: lilyolason
+ms.author: v-lilyolason
+ms.topic: include
+ms.service: viva 
+ms.subservice: viva-insights 
+--- 
+
+3. Under **Query setup**:
     
     1. Type a **Query name**.
     2. Type a **Description** (optional).   
