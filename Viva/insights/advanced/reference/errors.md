@@ -39,7 +39,7 @@ This article lists error messages for Viva Insights.
 
 If your data takes days or weeks to process, contact our [support team](/microsoft-365/admin/get-help-support#online-support) for help. If your Microsoft 365 admin just assigned licenses, keep in mind that it can take up to five days for data to become available.
 
-For specific validation errors related to your data file, refer to our [data upload documentation](../admin/upload-org-data-first.md#error-messages).
+For specific validation errors related to your data file, refer to our [data upload documentation](../admin/rules-validation-errors.md#validation-errors).
 
 
 ## Workplace Analytics

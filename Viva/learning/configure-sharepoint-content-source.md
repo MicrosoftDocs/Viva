@@ -94,7 +94,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
       
       ![Learning Content Repository page in SharePoint showing the updated information.](../media/learning/learning-sharepoint-configure7.png)
       
-      If you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for a detailed summary of successful and failed content ingestion.
+      If you encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers&preserve-view=true) for a detailed summary of successful and failed content ingestion.
 
 > [!NOTE]
 > To allow for broader access to the Learning App Content Repository, a link to the list is soon available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators are able to grant access to the list. Access is specific to the list only and doesn't apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
@@ -248,7 +248,7 @@ The site URL provided by the knowledge admin where the Learning App Content Repo
 
 Linked folders linked in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
 
-For encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers) for detailed summaries of successful and failed content ingestions.
+For encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers&preserve-view=true) for detailed summaries of successful and failed content ingestions.
 
 For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 
