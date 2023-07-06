@@ -73,7 +73,10 @@ For each employee, the following information is visible:
 For employees with User Roles in addition to Active Employee, the following editable information will also appear: 
 
 - Focus Area Access: Defines which people's data this user will see in Focus Area reports. Editable by selecting the pencil symbol.  
-- Survey Access: Defines which people's data this user can see in selected survey programs. Editable by selecting the pencil symbol. 
+- Survey Access: Defines which people's data this user can see in selected survey programs. Editable by selecting the pencil symbol.
+
+>[!CAUTION]
+> Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
 
 ## Use the Login As function 
 
