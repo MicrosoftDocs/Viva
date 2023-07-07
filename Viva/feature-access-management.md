@@ -56,17 +56,39 @@ Before you can create an access policy in viva, you need the following:
 
 ### Create an access policy
 
-Use the following PowerShell cmdlet to create an access policy for a Viva feature:
+Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) PowerShell cmdlet to create an access policy for a Viva feature.
 
-```powershell
-cmdlet name and syntax
-```
+1. Install Exchange Online PowerShell Version 3.2.0:
 
-This example creates an access policy that restricts access to the Reflection feature in Viva Insights. It does ....
+   ```PowerShell
+   Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.2.0
+   ```
 
-```powershell
-example cmd string
-```
+2. Connect to Exchange Online with admin credentials:
+
+   ```PowerShell
+   Connect-ExchangeOnline
+   ```
+
+3. Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
+
+4. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature?view=exchange-ps) cmdlet to see what features are available to manage using an access policy.  
+   
+   For example, to see which features are supported in Viva Insights, run the following:
+   ```powershell
+   Get-VivaModuleFeature -ModuleId VivaInsights
+   ```
+5. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to create a new access policy.
+
+   For example, run the following to create an access policy to control access to the Reflection feature in Viva Insights. 
+
+   ```powershell
+   Add-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name DisableFeatureForAll -IsFeatureEnabled $false -Everyone
+   ```
+   This example uses the *-Everyone* parameter to disabled Reflection for all users. If you want to disable the feature for a specific user or group of users, use the *-UserId* or *-GroupId* parameter instead.
+
+
+
 ### Manage access policies
 
 ### Delete an access policy
