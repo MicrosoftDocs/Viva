@@ -29,7 +29,7 @@ You can use access policies in Viva to control who can access different features
 > [!IMPORTANT]
 > You can have multiple access policies active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-work-in-viva) for more information.
 
-A permissioned admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
+An authorized admin (for example, a global admin) in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
 
 > [!NOTE]
 > Only a subset of features in Viva apps support feature access management. And for those that do, restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
@@ -116,7 +116,7 @@ Get-VivaModuleFeatureEnablement -ModuleId VivaInsights -FeatureId Reflection -Id
 
 ### Delete an access policy
 
-Use the **Remove-VivaModuleFeaturePolicy** to delete an access policy.
+Use the **Remove-VivaModuleFeaturePolicy** cmdlet to delete an access policy.
 
 For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running **Get-VivaModuleFeaturePolicy**. Then, run the following:
 
