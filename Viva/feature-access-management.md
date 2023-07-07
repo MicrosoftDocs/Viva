@@ -26,6 +26,9 @@ description: "Control who can access features in Microsoft Viva"
 
 You can use access policies in Viva to control who can access different features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to your local regulatory and business requirements.  
 
+> [!IMPORTANT]
+> You can have multiple access policies active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-change-the-user-experience) for more information.
+
 A permissioned admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
 
 > [!NOTE]
@@ -70,33 +73,57 @@ Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamo
    Connect-ExchangeOnline
    ```
 
-3. Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
+   Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
 
-4. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature?view=exchange-ps) cmdlet to see what features are available to manage using an access policy.  
+3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature?view=exchange-ps) cmdlet to see what features are available to manage using an access policy.  
    
    For example, to see which features are supported in Viva Insights, run the following:
    ```powershell
    Get-VivaModuleFeature -ModuleId VivaInsights
    ```
-5. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to create a new access policy.
+4. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to create a new access policy.
 
-   For example, run the following to create an access policy to control access to the Reflection feature in Viva Insights. 
+   For example, run the following to create an access policy, called *DisableFeatureForAll*, to restrict access to the Reflection feature in Viva Insights. 
 
    ```powershell
    Add-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name DisableFeatureForAll -IsFeatureEnabled $false -Everyone
    ```
-   This example uses the *-Everyone* parameter to disabled Reflection for all users. If you want to disable the feature for a specific user or group of users, use the *-UserId* or *-GroupId* parameter instead.
+   This example uses the *-Everyone* parameter to disable Reflection for all users. If you want to disable the feature for a specific user or group of users, use the *-UserId* or *-GroupId* parameter instead.
 
 
 
 ### Manage access policies
+You can update an access policy to change whether a feature is enabled or disabled, as well as to change who the policy applies to (everyone, a user, or a group). 
+
+For example, building on our last example, to enable the Reflection feature in Viva Insights for all users, run the following:
+
+```powershell
+Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name DisableFeatureForAll -IsFeatureEnabled $true -Everyone
+```
+
+> [!IMPORTANT]
+> Important: Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. 
+
+
+To check what features are disabled for a specific user or group, run the Get-VivaModuleFeatureEnablement cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
+
+For example:
+
+```powershell
+Get-VivaModuleFeatureEnablement -ModuleId VivaInsights -FeatureId Reflection -Identity user@contoso.com
+```
 
 ### Delete an access policy
 
-### Troubleshoot your access policies
-If you run into issues when creating or managing an access policy, ...
+Use the **Remove-VivaModuleFeaturePolicy** to delete an access policy.
 
-## How access policies change the user experience
+For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running **Get-VivaModuleFeaturePolicy**. Then, run the following:
+
+```powershell
+Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
+
+## How access policies work in Viva
 Here's how access policies work in Viva: 
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user. 
