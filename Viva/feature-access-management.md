@@ -27,7 +27,7 @@ description: "Control who can access features in Microsoft Viva"
 You can use access policies in Viva to control who can access different features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to your local regulatory and business requirements.  
 
 > [!IMPORTANT]
-> You can have multiple access policies active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-change-the-user-experience) for more information.
+> You can have multiple access policies active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-work-in-viva) for more information.
 
 A permissioned admin in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
 
@@ -35,11 +35,12 @@ A permissioned admin in your tenant can create, assign, and manage access polici
 > Only a subset of features in Viva apps support feature access management. And for those that do, restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
 
 ## Features available for feature access management
-You can use feature access management to manage access to the following features: 
+You can use feature access management to manage access to the following features:
+
 |App|Feature|Who can control|
 |-|-|-|
 |Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|Global admin<br>Insights admin|
-||||
+| | | |
 
 
 
