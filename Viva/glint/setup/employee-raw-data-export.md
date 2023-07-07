@@ -101,5 +101,5 @@ An admin can follow this procedure to export user data:
 6. A banner will appear indicating that your export has been sent successfully.
 7. The employee will receive an email with their Glint data attached in a .csv file.
 
->[!TIP] 
-> For information on how to support a DSR request to delete data, visit [https://go.microsoft.com/fwlink/?linkid=2236554](https://go.microsoft.com/fwlink/?linkid=2236554).
+>[!TIP]
+> For more information on how to support a request to delete data, visit [Delete user data from Viva Glint](https://go.microsoft.com/fwlink/?linkid=2236554).

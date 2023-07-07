@@ -35,7 +35,7 @@ The Microsoft Privacy Statement explains the personal data Microsoft processes, 
 
 Viva Glint allows your organization to present its own privacy policy to Viva Glint users. By adding your own privacy policy, you can provide more specific information to employees about how your organization handles their personal data, which may be necessary to meet your organization's compliance needs. Again, you should consult your legal, privacy, and HR teams to determine what privacy policy to include in Viva Glint.
 
-## Use your organization's privacy policy in Viva Glint
+## Use your organization's privacy policy in Viva Glint programs
 
 The setup for the privacy policy is self-serve from within the admin dashboard.
 
@@ -59,5 +59,5 @@ If your organization chose to add its privacy policy to Viva Glint, users can ac
 
 If your organization doesn't add its privacy statement to Viva Glint, a link to the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) will automatically be presented in Viva Glint's top navigation menu bar, survey headers, and survey introduction pages.
 
-**Note**
-The Microsoft Privacy Statement will display in all Viva Glint email footers and login screens.
+> [!NOTE]
+> The Microsoft Privacy Statement will display in all Viva Glint email footers and login screens.
