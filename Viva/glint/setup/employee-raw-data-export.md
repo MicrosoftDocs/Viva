@@ -95,7 +95,7 @@ An admin can follow this procedure to export user data:
    2. Individual attributes may be excluded from the export by deselecting them.
 4. Along with user attributes, in the slider window, there's the option to **Include raw survey responses**. Enable this feature to include the user's responses to current and closed surveys.
 
-   :::image type="content" source="../../media/glint/setup/glint-raw-data-responses.png" alt-text="Screenshot that displays Viva Glint dashboard.":::
+   :::image type="content" source="../../media/glint/setup/glint-raw-data-responses.png" alt-text="Screenshot that displays Viva Glint dashboard." lightbox="../../media/glint/setup/glint-raw-data-responses.png":::
 
 5. Select **Send.** This information will be sent to the employee email address on file. Check that this is correct before selecting **Send**.
 6. A banner will appear indicating that your export has been sent successfully.

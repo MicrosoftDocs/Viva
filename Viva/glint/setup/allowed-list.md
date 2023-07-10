@@ -20,7 +20,7 @@ ms.date: 05/22/2023
 
 # Set up your Allowed List for Viva Glint
 
-Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from[survey@glint.microsoft.com](mailto:survey@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
+Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [survey@glint.microsoft.com](mailto:survey@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
 ## Add email sender domains
 
