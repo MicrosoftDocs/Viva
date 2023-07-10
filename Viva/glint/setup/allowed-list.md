@@ -34,7 +34,7 @@ Viva Glint emails will come from one of the domains listed below. Add the follow
 
 ### Glint survey emails originate from:
 
-- US and EU: [**survey@glint.microsoft.com**](http://mail.us1.glintinc.com/)
+- US and EU: [**survey@glint.microsoft.com**](mailto:survey@glint.microsoft.com)
 
 ### Glint system emails (for example, file upload notifications) originate from:
 
