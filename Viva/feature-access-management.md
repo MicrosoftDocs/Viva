@@ -128,16 +128,16 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 Here's how access policies work in Viva: 
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user. 
-- If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy configuration, then the default enablement state for the feature is applied. 
+- If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy, then the default enablement state for the feature is applied. 
 - If the user is assigned a policy or is a member of an Azure AD group or Microsoft 365 group with an assigned policy, then the policy setting is applied. 
-- If a user has multiple policies assigned to them for the same feature, the most restrictive policy is applied, as described below. An assigned policy takes precedence over the default policy/enablement state for the feature. Here's the order of precedence
+- If a user has multiple policies assigned to them for the same feature, the most restrictive policy is applied, as described below. (Note that not all features include the ability for a user to opt out.) Here's the order of precedence:
    1. Feature is disabled by policy.
    2. Feature is enabled by policy.
    3. Feature is enabled, and the user can opt out.
    4. Default enablement state for the feature
 - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Azure AD. 
 - Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature.
-- When you add users to or remove them from an Azure AD or Microsoft 365 group, it can take **x** hours before changes to their feature access takes effect.
+- When you add users to or remove them from an Azure AD or Microsoft 365 group, it can take **x** hours before changes to their feature access take effect.
 
 ## Additional information and best practices
 - Only user-based policy settings are available. 
