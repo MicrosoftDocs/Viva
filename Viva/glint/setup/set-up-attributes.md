@@ -94,7 +94,7 @@ Review your attribute selections before you finalize your setup.
    - **Save attributes and discard employee data:** Save the attributes in your upload file header row - only -and discard any employee data included in the upload.
 
    > [!TIP]
-   > Viva Glint recommends the "Save attributes and discard employee data" option for initial setup to. prevent the upload of any unwanted test data and to allow you to set up your attributes in preparation for uploading finalized employee data via SFTP or a manual import.
+   > Viva Glint recommends the "Save attributes and discard employee data" option for initial setup to prevent the upload of any unwanted test data and to allow you to set up your attributes in preparation for uploading finalized employee data via SFTP or a manual import.
 
 2. Select **Save**.
 
@@ -102,7 +102,7 @@ Review your attribute selections before you finalize your setup.
 
 Use the guidance below to update your attribute setup to accept any attribute header row changes in your data files so that they continue to import.
 
-Edit attribute names
+### Edit attribute names
 
 > [!CAUTION]
 > Use this method if underlying data remains the same, but the field name has changed in your system. Do not repurpose attributes name labels, as this can create issues in reporting. Instead, create a new attribute.
@@ -116,7 +116,7 @@ Edit attribute names
 7. Select **Rename**.
 8. Select **Save Changes**.
 
-## Add new attributes
+### Add new attributes
 
 Use the guidance below to update your attribute setup to accept any attribute header row changes in your data files so that they continue to import.
 

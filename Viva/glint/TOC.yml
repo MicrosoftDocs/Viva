@@ -1,67 +1,58 @@
  items:
- - name: Microsoft Viva Glint 
-   items:
+ - name: Introduction to Microsoft Viva Glint
+   href: introduction-viva-glint.md
+   items: 
    - name: Get started with Viva Glint
-     href: introduction-viva-glint.md
      items:  
-     - name: Deploy Microsoft Viva Glint
-       href: start/deploy-viva-glint.md
-       items: 
-        - name: Set up a Microsoft Viva Glint tenant
-          href: start/viva-glint-tenant-provision.md
-        - name: Set up your Viva Glint instance
-          href: start/post-provisioning-next-steps.md
-        - name: Licensing Viva Glint
-          href: start/glint-order-teams.md
-        - name: Third party notice
-          href: start/third-party-notice.md
-     - name: Microsoft Viva Glint privacy
-       href: start/viva-glint-privacy.md
-       items:
-        - name: Privacy policy requirement for every Microsoft Viva Glint program
-          href: start/add-privacy-policy.md
-        - name: Advanced privacy guide for data usage and survey item creation
-          href: start/gdpr-special-categories.md
-        - name: How Viva Glint's reporting policies protect survey takers confidentiality and privacy
-          href:
-        - name: Raw data requests and handling
-          href:
      - name: Viva Glint basics
        items:
-        - name: Four stages of a Viva Glint programs
+        - name: Four stages of a Viva Glint program
           href: start/four-stages-glint-program.md
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: 
-     - name: Use Viva Glint email templates to share survey expectations within your organization
-       href: start/email-templates-survey-expectations.md
-       items:
-        - name: Introduce survey taking to your employees
-          href: start/survey-taking-for-employees.md
-        - name: Communicate pre-launch and live Viva Glint program information using email templates 
-          href: start/prelaunch-live-email-templates.md
-        - name: Communicate results rollout plans for Viva Glint programs using email templates
-          href: start/results-rollout-templates.md       
+          href: start/people-science-viva-glint.md     
    - name: Setup and administration
      items:
-     - name: Set up Viva Glint SFTP
+     - name: Deploy Microsoft Viva Glint
+       href: setup/deploy-viva-glint.md
+       items: 
+        - name: Set up a Microsoft Viva Glint tenant
+          href: setup/viva-glint-tenant-provision.md
+        - name: Set up your Viva Glint instance
+          href: setup/post-provisioning-next-steps.md
+        - name: Licensing Viva Glint
+          href: setup/glint-order-teams.md
+        - name: Third party notice
+          href: setup/third-party-notice.md
+     - name: Microsoft Viva Glint privacy
+       href: setup/viva-glint-privacy.md
+       items:
+        - name: Privacy policies in Microsoft Viva Glint
+          href: setup/add-privacy-policy.md
+        - name: Advanced privacy guide for data usage and survey item creation
+          href: setup/gdpr-special-categories.md
+        - name: How Viva Glint helps you protect your privacy 
+          href: setup/viva-glint-survey-privacy.md
+        - name: Access to Viva Glint raw survey responses
+          href: setup/employee-raw-data-export.md
+     - name: Set up Viva Glint Secure File Transfer Protocol
        href: setup/setup-sftp.md
        items:  
         - name: Configure SFTP IP addresses in Viva Glint
           href: setup/configure-sftp.md
-        - name: Create a SSH key pair for SFTP
+        - name: Create an SSH key pair for SFTP
           href: setup/ssh-key-pair.md
         - name: Add a public SSH key to Viva Glint
           href: setup/add-a-public-ssh-key.md
-     - name: Set up the Allowed List to enable Viva Glint email delivery
-       href: 
+     - name: Set up the Allowed List for Viva Glint
+       href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
      - name: Access Viva Glint with Azure Active Directory
        href: setup/access-with-azure-ad.md
-     - name: Add an external user to Viva Glint
-       href:
+     - name: Manage external users in Viva Glint
+       href: setup/add-external-user.md
      - name: Manage language translations in Viva Glint programs
        href: setup/language-translations.md           
      - name: Prepare and upload your employee data to Viva Glint
@@ -71,17 +62,17 @@
           href: setup/attribute-fundamentals.md
         - name: Viva Glint's organizational hierarchy fundamentals
           href: setup/hierarchy-fundamentals.md
-        - name: Create your Employee Attribute Template
+        - name: Create your Employee Attribute Template in Viva Glint
           href: setup/create-employee-attribute-template.md 
         - name: Set up attributes in Viva Glint
           href: setup/set-up-attributes.md         
-        - name: Create your Employee Attribute File
+        - name: Create your Employee Attribute File for Viva Glint
           href: setup/create-employee-attribute-file.md
         - name: Upload your employee attributes to Viva Glint
           href: setup/upload-employee-attributes.md
-        - name: Understand file upload errors and warning in Viva Glint 
+        - name: Understand file upload errors and warnings in Viva Glint 
           href: setup/error-messages.md
-     - name: Viva Glint features and settings
+     - name: Viva Glint program features and settings
        href: setup/platform-features-settings.md
        items:
         - name: Admin management of the General Settings feature in Viva Glint
@@ -109,40 +100,33 @@
           href: setup/benchmarks.md
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
-        - name: Understand Advanced Configuration options in Viva Glint
-          href: 
      - name: Best practices program guidance
        href: setup/best-practice-setup-guidance.md
        items:          
-        - name: Live versus Phased access for results
+        - name: Grant Live versus Phased access in Viva Glint reporting
           href: setup/live-versus-phased-access.md
         - name: Make changes to a live Viva Glint survey 
           href: setup/change-live-survey.md
         - name: Understand Viva Glint programs and cycles 
           href: setup/program-cycle-edits.md
         - name: Understand Viva Glint survey access methods
-          href:
-     - name: Preview demo data in reporting before your Viva Glint survey launches
+          href: setup/understand-survey-access-methods.md
+     - name: Preview pre-launch demo data in Viva Glint reporting
        href: setup/preview-demo-reporting.md
        items: 
-        - name: Targeting and excluding items in a Viva Glint survey
-          href: setup/targeted-survey-items.md
-        - name: Recommendations and FAQs for using Survey Coach
+        - name: Recommendations for using Viva Glint Survey Coach and Tooltips
           href: setup/survey-coach.md
-        - name: Choose your survey comparison data
+        - name: Choose your survey comparison data for Viva Glint reporting
           href: setup/survey-comparison-data.md
-        - name: Recognize survey field character limits
+        - name: Recognize survey field character limits in Viva Glint programs 
           href: setup/survey-character-limits.md
         - name: Use Viva Glint's best practices to design your survey program
-          href:
-        - name: Sending/collecting sensitive Demographics
-          href:
+          href: setup/best-practice-setup-guidance.md
         - name: Use the Glint Microsoft Teams application
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
-       href: 
        items: 
-        - name: Set up Program Summary for Viva Glint engagement type surveys
+        - name: Set up Program Summary for Viva Glint Engagement-type surveys
           href: setup/program-summary-overview.md
           items:
           - name: Program setup in Program Summary
@@ -151,7 +135,7 @@
             href: setup/set-up-distribution-lists.md
           - name: Set up Schedule page in Program Summary
             href: setup/schedule-setup.md
-          - name: Questions setup in Program Summary
+          - name: Questions set up in Program Summary
             href: setup/questions-setup.md
           - name: Reporting setup in Program Summary
             href: setup/reporting-setup.md
@@ -171,10 +155,8 @@
             href: setup/manager-effectiveness-survey.md
         - name: Setting up Employee Lifecycle surveys
           items:
-          - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
-            href: setup/preview-filter-lifecycle-programs.md
           - name: Preview and filter Employee Lifecycle programs
-            href: 
+            href: setup/preview-filter-lifecycle-programs.md
         - name: Create Viva Glint Onboarding and Exit survey programs
           href: setup/create-onboarding-exit-surveys.md
         - name: Setting up Always On surveys
@@ -184,27 +166,20 @@
    - name: Reports
      items:
      - name: Viva Glint's survey reports
-       href: 
        items:
         - name: Viva Glint's survey reports overview
           href: reports/survey-reports-overview.md
-        - name: Use the Alerts and Attrition Risk report
+        - name: Use the Viva Glint Alerts and Attrition Risk report 
           href: reports/alerts-report-attrition-risk.md
-        - name: Comments and Narrative Intelligence report
-          href:
         - name: Use the Viva Glint Driver Impact report
           href: reports/driver-impact-report.md
           items:
           - name: Use Viva Glint to act on Strengths and Opportunities
             href: reports/act-strengths-opportunities.md
         - name: Use Viva Glint's Focus Area Overview report
-          href: reports/focus-area-overview-report.md
-        - name: Heat Map report
-          href:
+          href: reports/focus-area-overview-report.md 
         - name: Use the Manager report in Viva Glint
           href: reports/manager-report.md
-        - name: The Overall Results report recommended for Employee Lifecycle surveys
-          href:
         - name: Multi-Attribute Export report
           href: reports/multi-attribute-export-report.md
         - name: Use the Viva Glint Response Rate report
@@ -225,10 +200,6 @@
         - name: Use Viva Glint's Broader Team Insights feature
           href: reports/broader-team-insights.md
           items:
-          - name: How BTI works for managers of Small Teams
-            href: 
-        - name: Use Viva Glint's cross-program intelligence
-          href:
         - name: Use the Manager Concierge dashboard in Viva Glint
           href: reports/manager-concierge-dashboard.md
         - name: The Team Summary dashboard in Viva Glint
@@ -236,7 +207,7 @@
           items:
           - name: Enable and manage the Team Summary dashboard
             href: reports/team-summary-enable-manage.md
-          - name: Managers using the Team Summary dashboard
+          - name: Managers using the Team Summary dashboard on Viva Glint
             href: reports/managers-use-team-summary-dashboard.md
         - name: Take action with Viva Glint Team Conversations
           href: reports/take-action-team-conversations.md
@@ -248,8 +219,17 @@
           - name: Set up Viva Glint Team Conversations coaching for managers  
             href: reports/coaching-team-conversations.md
      - name: Create a Viva Glint Focus Area report
-       href:
+       href: reports/focus-area-overview-report.md
    - name: Communicate and roll out your program
      items:
      - name: Communicate with Viva Glint Nudges
-       href: reports/communicate-with-nudges.md
+       href: communicate/communicate-with-nudges.md
+     - name: Use Viva Glint email templates to share survey expectations within your organization
+       href: communicate/email-templates-survey-expectations.md
+       items:
+        - name: Introduce Viva Glint survey taking to your employees
+          href: communicate/survey-taking-for-employees.md
+        - name: Communicate pre-launch and live Viva Glint program information using email templates 
+          href: communicate/prelaunch-live-email-templates.md
+        - name: Communicate results rollout plans for Viva Glint programs using email templates
+          href: communicate/results-rollout-templates.md 

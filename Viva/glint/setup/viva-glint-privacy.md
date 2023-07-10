@@ -23,10 +23,8 @@ Microsoft Viva provides privacy-protected, data-driven insights and recommendati
 
 For information specific to Viva Glint:
 
-[Learn about privacy policy requirements for every Microsoft Viva glint program](https://go.microsoft.com/fwlink/?linkid=2238336).
+[Learn about privacy policies in Microsoft Viva glint.](https://go.microsoft.com/fwlink/?linkid=2238336).
 
 [Read Viva Glint's advanced privacy guide for data usage and survey item creation.](https://go.microsoft.com/fwlink/?linkid=2230859)
 
-[Understand how Viva Glint handles raw data.](https://go.microsoft.com/fwlink/?linkid=2230875)
-
-[Understand why Viva Glint survey are confidential but not anonymous](https://go.microsoft.com/fwlink/?linkid=2238615)
+[Learn about access to Viva Glint raw survey responses.](https://go.microsoft.com/fwlink/?linkid=2230875)
