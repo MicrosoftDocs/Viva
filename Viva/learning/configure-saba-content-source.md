@@ -61,31 +61,33 @@ The account used for Saba setup must have the following security roles:
 
     ![Image of the API dashboard with the cursor hovering over the Generate button.](../media/learning/saba-b.png)
 
-## Configure in your Microsoft 365 admin center
-
-You'll need to complete the configuration in your Microsoft 365 admin center.
+## Configure in the Viva Learning Admin tab
 
 >[!NOTE]
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
-1. Log in to your [Microsoft 365 admin center](https://admin.microsoft.com).
-2. Navigate to **Settings**, then **Org settings**. Select Viva Learning and enable Saba Cloud from the panel.
+1. Open **Viva Learning App** in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
+2. Go to the **Admin tab** in Viva Learning and select **Manage Providers** on the left menu. 
+1. Select **Add Provider**. 
+1. Select **Saba** from the Provider list and select **Next**. 
 3. Fill in the details that you got from your Saba portal.
-    >[!NOTE]
-    >Display name is the name of the carousel under which Saba learning content will appear for users in your organization in Viva Learning. If you don't enter a new name, it will display the default name "Saba Cloud".
+    > [!NOTE]
+    > Display name is the name of the carousel under which Saba learning content will appear for users in your organization in Viva Learning. If you don't enter a new name, it will display the default name "Saba Cloud".
 4. Select **Save** to activate Saba Cloud content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in Viva Learning.
-
-> [!Note]
+5. Once configured, Saba will start appearing automatically in configured providers list. You can track the sync status and export sync log. 
+8. You can edit or delete the configuration directly from manage provider.
+ 
+> [!NOTE]
 > For Saba Cloud integration, you need to have a sabacloud.com domain in your Host URL. If you have a different domain name, you'll need to raise a support ticket to allow your domain name.
 
->[!NOTE]
->Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
+> [!NOTE]
+> Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
 
 ## Learner record sync
 
-Check the **Enable Learner Record Sync** checkbox to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
+Select **Enable Learner Record Sync** to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
 
-By checking this checkbox, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced. Viva Learning fetches the following fields from the LMS:
+By enabling this, you're allowing Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapping-related information is deduced. Viva Learning fetches the following fields from the LMS:
 
 - FirstName
 - LastName

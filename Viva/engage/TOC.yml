@@ -58,6 +58,8 @@
           href: eac-storyline.md
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
+        - name: Organize a Teams powered live event in Viva Engage
+          href: organize-live-event.md
      - name: Answers in Viva - Feature management
        items:   
         - name: Overview and setup of Answers in Viva Engage
