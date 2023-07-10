@@ -50,7 +50,7 @@ Before you can create an access policy in viva, you need the following:
 - Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later 
 - User accounts created in or synchronized to Azure Active Directory 
 - Microsoft 365 groups and Azure AD security groups created in or synchronized to Azure AD. The membership type can be either dynamic or assigned. 
-- The Global Administrator role in Azure AD or [the role required for the specific app and feature](#features-available-for-feature-access-management). 
+- The global administrator role in Azure AD or [the role required for the specific app and feature](#features-available-for-feature-access-management). 
 
 > [!IMPORTANT] 
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.   
@@ -128,20 +128,22 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 Here's how access policies work in Viva: 
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user. 
-- If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy configuration, then another check is made in X hours or when the user next logs in   . 
-- If the user is assigned a policy or is a member of an Azure AD group or Microsoft 365 group that is assigned a policy, then the appropriate policy setting is applied. A check is made again in X hours or when the user next logs in . 
-- If a user has multiple policies assigned to them for the same user, the most restrictive policy is applied, as described below. An assigned policy takes precedence over the default policy/ship state for the feature.  
-   - Features without user opt in/out preferences: feature is disabled, feature is enabled
-   - Features with user opt in/out preference: feature is disabled, feature is enabled, feature is enabled with user opt out on default (in latter case, user’s actioned opt in/out preference takes priority)   
-- If users are in nested groups and the parent group is targeted for policies, the users in the nested groups will receive the policies.  The nested groups and the users in those nested groups must be created in or synchronized to Azure AD. 
+- If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy configuration, then the default enablement state for the feature is applied. 
+- If the user is assigned a policy or is a member of an Azure AD group or Microsoft 365 group with an assigned policy, then the policy setting is applied. 
+- If a user has multiple policies assigned to them for the same feature, the most restrictive policy is applied, as described below. An assigned policy takes precedence over the default policy/enablement state for the feature. Here's the order of precedence
+   1. Feature is disabled by policy.
+   2. Feature is enabled by policy.
+   3. Feature is enabled, and the user can opt out.
+   4. Default enablement state for the feature
+- If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Azure AD. 
+- Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature.
+- When you add users to or remove them from an Azure AD or Microsoft 365 group, it can take **x** hours before changes to their feature access takes effect.
 
 ## Additional information and best practices
 - Only user-based policy settings are available. 
-- As new user-based policy settings are made available for Viva, they will be automatically added to Viva feature access management for admins to set policies against.
-- When a policy is created, the user’s experience will be updated to reflect the policy within X hours. 
-- When users are added/removed from an Azure AD or Microsoft 365 Group, it may take up to X hours for their Viva experience to reflect any resulting changes from the assigned policy as a result of group membership changes. 
-- When user identities in Azure AD are deleted, user data will be deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user. 
-- When groups in Azure AD and Microsoft 365 are deleted, they will be deleted from the stored policies.  If groups are re-enabled during the soft-deleted period, the permissioned admin will need to reassign policies to the groups. 
+- As new user-based policy settings are made available for Viva, they'll be automatically added to Viva feature access management for admins to set policies against.
+- When user identities in Azure AD are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user. 
+- When groups in Azure AD and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups. 
 
    
 
