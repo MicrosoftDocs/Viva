@@ -53,7 +53,7 @@ Before you can create an access policy in viva, you need the following:
 - The Global Administrator role in Azure AD or [the role required for the specific app and feature](#features-available-for-feature-access-management). 
 
 > [!IMPORTANT] 
-> Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DDD plans.   
+> Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.   
 
 
 ## Create and manage access policies for Viva features
@@ -103,10 +103,10 @@ Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Nam
 ```
 
 > [!IMPORTANT]
-> Important: Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. 
+> Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. 
 
 
-To check what features are disabled for a specific user or group, run the Get-VivaModuleFeatureEnablement cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
+To check what features are disabled for a specific user or group, run the [Get-VivaModuleFeatureEnablement](/powershell/module/exchange/get-vivamodulefeatureenablement?view=exchange-ps) cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
 
 For example:
 
@@ -116,9 +116,9 @@ Get-VivaModuleFeatureEnablement -ModuleId VivaInsights -FeatureId Reflection -Id
 
 ### Delete an access policy
 
-Use the **Remove-VivaModuleFeaturePolicy** cmdlet to delete an access policy.
+Use the [Remove-VivaModuleFeaturePolicy](/powershell/module/exchange/remove-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to delete an access policy.
 
-For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running **Get-VivaModuleFeaturePolicy**. Then, run the following:
+For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running [Get-VivaModuleFeaturePolicy](/powershell/module/exchange/get-vivamodulefeaturepolicy?view=exchange-ps). Then, run the following:
 
 ```powershell
 Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
@@ -137,10 +137,10 @@ Here's how access policies work in Viva:
 
 ## Additional information and best practices
 - Only user-based policy settings are available. 
-- As new user-based policy settings are made available for Viva, they will be automatically added to Viva feature access management for admins to set policies against
-- When a policy is created, the user’s experience will be updated to reflect the policy within X hours.    
+- As new user-based policy settings are made available for Viva, they will be automatically added to Viva feature access management for admins to set policies against.
+- When a policy is created, the user’s experience will be updated to reflect the policy within X hours. 
 - When users are added/removed from an Azure AD or Microsoft 365 Group, it may take up to X hours for their Viva experience to reflect any resulting changes from the assigned policy as a result of group membership changes. 
-- When user identities in AAD are deleted, user data will be deleted from VFAM. If users identities are re-enabled during the soft-deleted period, the permissioned admin will need to reassign policies to the user. 
+- When user identities in Azure AD are deleted, user data will be deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user. 
 - When groups in Azure AD and Microsoft 365 are deleted, they will be deleted from the stored policies.  If groups are re-enabled during the soft-deleted period, the permissioned admin will need to reassign policies to the groups. 
 
    
