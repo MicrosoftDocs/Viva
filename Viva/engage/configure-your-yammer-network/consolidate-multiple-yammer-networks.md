@@ -132,18 +132,18 @@ The network migration has three steps that you'll be guided through. Multiple ne
 
 2. Choose **Network Migration**.
 
-   :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text=" Network Migration menu item for Admins.":::
+   :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text="Screenshot of the Network Migration menu item for Admins.":::
 
   
     You start on the page with the title **Step 1 of 3 - Check/Add Verified Domains**. This page lists the verified domains that have already been added to the Office 365 tenant for this Viva Engage network. If you don't see the network you want, follow the link to Office 365 to [add additional verified domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611), and then return to this page.
 
-    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screen shot of Step 1 of 3 - Check/Add Verified Domains before migrating a Viva Engage network.":::
+    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screenshot of Step 1 of 3: Check/Add Verified Domains before migrating a Viva Engage network.":::
   
 3. When you have added all of the verified domains you want, choose **Next**.
 
     You're now on the **Step 2 of 3 - Choose a Viva Engage Network to Migrate** page. This page lists all the networks that are eligible for migration. Remember, all of the domains of a Viva Engage network that you want to migrate must be added as verified domains on Office 365. Only the verified domains for Viva Engage networks are listed on the page. If you don't see the network you're looking for, choose the **Previous** button and add the verified domains.
 
-   :::image type="content" source="../../media/3a975838-6d80-4dd1-9b3e-14f157820773.png" alt-text=" Screen shot of Step 2 of 3 - Choose a Viva Engage Network to Migrate.":::
+   :::image type="content" source="../../media/3a975838-6d80-4dd1-9b3e-14f157820773.png" alt-text="Screenshot of Step 2 of 3: Choose a Viva Engage Network to Migrate.":::
   
 4. On the **Step 2 of 3 - Choose a Viva Engage Network to Migrate** page, select the secondary Viva Engage network that you want to migrate into this network, and then choose **Next**.
 
@@ -156,7 +156,7 @@ The network migration has three steps that you'll be guided through. Multiple ne
 
     A confirmation dialog box appears.
 
-    :::image type="content" source="../../media/4b93a2e6-9dc4-409c-99cb-2ab7dc225679.png" alt-text="Screen shot of dialog box to Confirm that you want to migrate a Viva Engage network.":::
+    :::image type="content" source="../../media/4b93a2e6-9dc4-409c-99cb-2ab7dc225679.png" alt-text="Screenshot of dialog box to Confirm that you want to migrate a Viva Engage network.":::
   
 7. In the **Are you absolutely sure you want to migrate the network?** box, under **I confirm the network migration of** _Network Name_, enter the name of the network you want to migrate to confirm it, and then choose **Migrate**.
 
@@ -166,7 +166,7 @@ The network migration has three steps that you'll be guided through. Multiple ne
   
 8. On the **Status of network migrations** page, you can view the status for the migration. It lists the domains associated with the networks being migrated, the person who initiated the migration, the start and completed dates and times for the migration, and the status of the migration. You can see details about the network, such as the number of active users, the number of messages, and the external networks.
 
-    :::image type="content" source="../../media/05c6da77-091b-48fc-8d08-4455454d4c87.png" alt-text="Screen shot showing the Status of network migrations - Viva Engage network migration is running.":::
+    :::image type="content" source="../../media/05c6da77-091b-48fc-8d08-4455454d4c87.png" alt-text="Screenshot showing the Status of network migrations; Viva Engage network migration is running.":::
   
 9. Multiple network migrations can be started back-to-back, without waiting for the previous ones to finish. So, you can start the next migration immediately by going through the wizard again.
 
