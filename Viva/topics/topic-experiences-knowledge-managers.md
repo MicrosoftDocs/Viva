@@ -69,7 +69,7 @@ Knowledge managers can use the **Manage topics** page in the [topic center](topi
 
 To classify the suggested topic into the correct status, select the topic and choose the appropriate status.
 
-![Image showing where to find Confirm and Remove options in the Manage topics page.](../media/knowledge-management/topics-ellipses-selection.png)
+![Screenshot showing where to find Confirm and Remove options in the Manage topics page.](../media/knowledge-management/topics-ellipses-selection.png)
 
 **Confirm** the topic if it's relevant for the organization. **Remove** the topic if it isn't needed, no longer has any connections, or isn't valid.  
 
@@ -110,7 +110,7 @@ The **impressions** column displays the number of times a topic has been shown t
 
 Prioritization of topics for curation should also factor in demand levels for different types of knowledge in the organization. Make sure the topics being curated are in demand and will be used once published. Find topics for curation that are in high demand and that are currently being addressed in inefficient and nonscalable ways. For example, product experts are often asked random questions from salespeople and often answer the same question repeatedly through hard to scale mediums such as email or chat. In this example, product experts will be highly responsive to Viva Topics to scale their impact, minimize randomization, and gain more recognition as an expert in the organization.  
 
-![Chart showing knowledge demand and efficiency of supplying knowledge, as described in the above paragraph .](../media/knowledge-management/topic-knowledge-demand-efficiency-diagram-km.png)
+![Chart showing knowledge demand and efficiency of supplying knowledge, as described in the above paragraph.](../media/knowledge-management/topic-knowledge-demand-efficiency-diagram-km.png)
 
 ### Set quality standards for topics
 
@@ -128,7 +128,7 @@ There are two types of knowledge to include in the knowledge base:
 
 Specific scenarios of Viva Topics can require unique properties appended to a topics page. For example, product-based topic pages can include brand assets, SKU#, roadmap information, product news, frequently asked questions (FAQ), and product specifications. [Web parts](https://support.microsoft.com/office/using-web-parts-on-sharepoint-pages-336e8e92-3e2d-4298-ae01-d404bbe751e0) can be used on a topic page to bring in different types of content.
 
-![Image showing an example of a product-based topic page.](../media/knowledge-management/topic-page-unique-km.png)
+![Screenshot showing an example of a product-based topic page.](../media/knowledge-management/topic-page-unique-km.png)
 
 ## Get help from colleagues
 
