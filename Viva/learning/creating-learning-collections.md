@@ -26,6 +26,11 @@ A learning collection is a curation of learning objects or a sequence of learnin
 In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization.
 
 >[!NOTE]
+>Creating a collection requires a premium license for Microsoft Viva Suite.
+>You also need admin or knowledge manager permissions to create a collection in Viva Learning.
+
+
+>[!NOTE]
 >Learning collections are not supported on mobile. 
 
 ## Create a Learning collection
