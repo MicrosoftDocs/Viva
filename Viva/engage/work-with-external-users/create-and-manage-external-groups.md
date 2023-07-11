@@ -26,7 +26,7 @@ You can work with guests in Viva Engage if your network isn’t aligned to nativ
 This experience differs from working with the Viva Engage guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-yammer-community.md).
 
 >[!NOTE]
->Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../configure-your-yammer-network/overview-native-mode.md).
+>Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
 
 ## Create and manage external groups in Viva Engage
 
