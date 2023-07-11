@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: variables & Product text, attribute-based URL, survey access 
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

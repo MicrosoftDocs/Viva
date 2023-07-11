@@ -7,7 +7,7 @@ manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
 keywords: Thresholds, suppression, response rate, suppressed data, identifiable surveys
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

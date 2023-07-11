@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: Add administrators to Viva Glint, Viva Glint sites, Viva Glint learning paths and modules, training
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article

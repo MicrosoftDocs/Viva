@@ -8,7 +8,7 @@ audience: admin
 f1.keywords: NOCSH
 keywords: confidentiality, personal data, data privacy, privacy, trust, sensitive data
 ms.collection: 
- - M365initiative-viva
+ - m365initiative-viva
  - selfserve
 search-appverid: MET150
 ms.topic: article
