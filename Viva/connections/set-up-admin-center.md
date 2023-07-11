@@ -23,7 +23,7 @@ ms.custom: intro-get-started
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS:
 description: "Learn how to set up Viva Connections in the Microsoft 365 admin center"
 ---
 
@@ -245,7 +245,7 @@ If the example organization creates another experience scoped to a subset of the
   
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-of-experiences.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-of-experiences.png":::
 
-   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen on which you set the order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen that shows order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
 ### Step 5: Configure the dashboard
 
@@ -331,7 +331,7 @@ The following settings are available in the settings panel:
 
 > [!IMPORTANT]
 >
-> - Organizations that are not Viva Suite subscribers are limited to creating three Viva Connections experiences.
+> - Organizations that are not Viva Suite subscribers are limited to creating one Viva Connections experience.
 > - Viva Suite subscribers are limited to creating a maximum of ten Viva Connections experiences.
 
 Connections and home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. [Learn more about how Connections and homes sites work together](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).

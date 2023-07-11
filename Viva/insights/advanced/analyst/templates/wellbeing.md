@@ -25,7 +25,7 @@ With this report, you can visualize and explore the following top-level business
 * **Balance work and life** – Are employees able to protect personal time?
 * **Handle urgency** – Can employees manage unexpected demands and proactively shift some to planned work?
 * **Embrace flexibility** – Are employees adopting a flexible working schedule?
-* **Take breaks**  Are employees able to mindfully disconnect?
+* **Take breaks** – Are employees able to mindfully disconnect?
 * **Stay connected** – Are employees part of a community at work?
 
 Each report page includes a **Why this matters** interpretation, **recommended actions**, and **metric definitions**.

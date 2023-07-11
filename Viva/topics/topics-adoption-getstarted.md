@@ -189,3 +189,4 @@ When you're ready to roll out Viva Topics, you'll need to get people involved.
 - Drive the community and think about how you're going to engage them.
 - Then complete preparation steps. Some may be technical readiness, and some business readiness.
 - Finally, socialize and promote.
+- Join the discussion and see the latest events in the [Viva Topics Community](https://techcommunity.microsoft.com/t5/viva-topics-blog/the-journey-to-viva-topics-adoption-success-intro/ba-p/2976552).
