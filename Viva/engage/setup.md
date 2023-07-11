@@ -52,7 +52,7 @@ The Microsoft Teams admin can choose to deploy and pin the app for all users or 
 
  You can customize the appear for the following properties of the Viva Engage app in the Teams app store:
  - app name
- - app descrption 
+ - app description 
  - app icons
  - accent color
 
