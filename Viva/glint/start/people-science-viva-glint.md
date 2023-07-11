@@ -19,7 +19,7 @@ ms.date: 05/22/2023
 
 # How People Science works with Viva Glint
 
-The Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design to reimagine how Viva apps, such as Viva Glint, can deliver exceptional and impactful experiences in the workplace.
+The Microsoft Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design to reimagine how Viva apps, such as Viva Glint, can deliver exceptional and impactful experiences in the workplace.
 
 We bring unique points of view based on science-backed research, people-centric perspective, and deep understanding of customer needs to help organizations craft meaningful employee experiences. Our deep knowledge and extensive experience help us to create a product that will drive employee engagement and business results.
 

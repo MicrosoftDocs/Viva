@@ -21,7 +21,7 @@
           href: setup/viva-glint-tenant-provision.md
         - name: Set up your Viva Glint instance
           href: setup/post-provisioning-next-steps.md
-        - name: Licensing Viva Glint
+        - name: Viva Glint Licensing
           href: setup/glint-order-teams.md
         - name: Third party notice
           href: setup/third-party-notice.md

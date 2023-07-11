@@ -1,5 +1,5 @@
 ---
-title: Licensing Viva Glint
+title: Viva Glint Licensing
 description: Subscriptions are required for all Viva Glint programs. 
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -17,7 +17,7 @@ localization_priority: high pri
 ms.date: 05/22/2023
 ---
 
-# Licensing Viva Glint
+# Viva Glint Licensing
 
 Subscription plans of Viva suite or Viva Glint are required for using Microsoft Viva Glint. The total number of active licenses in your subscriptions should be greater than or equal to the number of active users in the app. 
 

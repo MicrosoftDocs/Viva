@@ -21,8 +21,7 @@ ms.date: 04/10/2023
 
 ## NOTICES AND INFORMATION
 
-> [!WARNING]
-> Do Not Translate or Localize
+*Do Not Translate or Localize*
 
 **HTML5 Shiv**   
 
