@@ -55,7 +55,7 @@ tools:
 
     # Card
     - title: Microsoft Viva Glint
-      imageSrc: media/logos/
+      imageSrc: media/logos/glint_launch_c_64.svg
       url: /viva/glint/introduction-viva-glint
 
     # Card
