@@ -27,7 +27,6 @@ In Viva Learning, you can curate your personal Learning collections using learni
 
 >[!NOTE]
 >Creating a collection requires a premium license for Microsoft Viva Suite.
->You also need admin or knowledge manager permissions to create a collection in Viva Learning.
 
 
 >[!NOTE]
