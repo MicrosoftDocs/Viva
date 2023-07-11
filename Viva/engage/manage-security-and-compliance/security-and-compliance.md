@@ -49,7 +49,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 |Comply with GDPR requirements.  <br/> |[Manage GDPR data subject requests in Viva Engage](gdpr-requests-in-yammer-enterprise.md) \* |
 |View compliance reports. Viva Engage is Tier-C compliant in the Office 365 Compliance Framework, which covers SOC 1, HIPAA, EU Model Clauses, IRAP, and (SEC) Rule 17a-4(f).  <br/> |[Compliance Framework Documentation for Office 365](/compliance/regulatory/offering-home)\* 
 |Control data retention policies, and view private messages if needed for discovery purposes.  <br/> |[Manage Viva Engage data compliance](manage-data-compliance.md) \*  <br/> |
-|Export data to review compliance issues  <br/> |[Export data from Viva Engage](../eac-as-manage-data.md) \* |
+|Export data to review compliance issues.  <br/> |[Export data from Viva Engage](../eac-as-manage-data.md) \* |
 |Track changes to users, admins, and groups.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md)\*  <br/>|
 
 ### Keep content appropriate and available to only those who should see it
@@ -57,14 +57,14 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 | Task <br/> | How To <br/> |
 |:-----|:-----|
 |Set up a usage policy to ensure only appropriate content is posted.  <br/> |[Set up a Viva Engage usage policy](../set-up-usage-policy.md) \*  <br/> |
-|Monitor keywords for unacceptable or inappropriate content so you can intervene if necessary.  <br/> |[Monitor Keywords](manage-data-compliance.md#MonitorKeywords)\*  <br/> [Monitor private content in Viva Engage](monitor-private-content.md)\* |
+|Monitor keywords for unacceptable or inappropriate content so you can intervene if necessary.  <br/> |[Monitor keywords](manage-data-compliance.md#MonitorKeywords)\* |
 
 ### Monitor usage
 
 | Task <br/> | How To <br/> |
 |:-----|:-----|
-|Monitor Viva Engage admin and user transactions.  <br/> |[Track Viva Engage Events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
-|Gain insight into how people in your organization use Viva Engage. Reports and APIs make information available to admins, and group insights and seen counts are available for community managers, group admins, and members.  <br/> |[Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)\*  <br/> [Office 365 Adoption content pack](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f)\*  <br/> [Microsoft Graph reporting APIs](https://go.microsoft.com/fwlink/?linkid=875445) <br/> [View group insights in Viva Engage](https://support.office.com/article/73f9fa6d-d442-4f25-9194-d5317c9328ab.aspx) |
+|Monitor Viva Engage admin and user transactions.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
+|Gain insight into how people in your organization use Viva Engage. Reports and APIs make information available to admins, and group insights and seen counts are available for community managers, group admins, and members.  <br/> |[Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)\*  <br/> [Office 365 Adoption content pack](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f)\*  <br/> [Microsoft Graph reporting APIs](https://go.microsoft.com/fwlink/?linkid=875445) <br/> [View community insights in Viva Engage](https://support.microsoft.com/en-us/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46?storagetype=live) |
 
 ### Stay organized and current with organizational changes
 
@@ -83,7 +83,7 @@ A: Only users with a valid and verified company email address can join your Viva
 
 ### Q: What endpoints need to be reachable for Viva Engage users?
 
-A: As of October 22, 2018, all Viva Engage users need to be able to access *.yammer.com. We recommend that you don't control access through a list of IP address ranges since they can change and create access problems for users. For information about the October 2018 change, see [Using hard-coded IP addresses isn't recommended](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
+A: As of October 22, 2018, all Viva Engage users need to be able to access **yammer.com**. We recommend against using a list of IP address ranges to control access since they can change and create access problems for users. For information about the October 2018 change, see [Using hard-coded IP addresses isn't recommended](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
 
 For complete Office 365 URL and IP address ranges info, see [Office 365 endpoints](/office365/enterprise/office-365-endpoints).
 
