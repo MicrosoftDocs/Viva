@@ -13,6 +13,7 @@ ms.collection:
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
+ms.subservice: viva-glint
 localization_priority: high pri
 ms.date: 04/21/2023
 ---
