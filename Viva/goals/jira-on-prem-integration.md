@@ -24,7 +24,8 @@ description: "Learn how to integrate your OKRs in Viva Goals with Jira servers a
 # Jira Server and Data Center Integration
 
 > [!NOTE]
-> Tenant administrator must enable Jira Server integration from [Viva Goals tenant settings](vg-integrations-administration-overview.md) before it is visible on Viva Goals integration section on your Viva Goals organization.
+> Tenant administrator must enable both Jira and Jira Server integration from [Viva Goals tenant settings](vg-integrations-administration-overview.md) before it is visible on Viva Goals integration section on your Viva Goals organization.
+> :::image type="content" source="../media/goals/jira-enable.png" alt-text="Enable Jira from the Viva Goals tenant settings page" lightbox="../media/goals/jira-enable.png":::
 
 Jira Server and Jira Data Center enables automatic tracking of OKR and Initiative progress in Viva Goals from Jira user-stories or Epics. Any updates on the linked Jira user stories, epics, or projects will automatically update the progress of linked Viva Goals KRs and Initiatives. This ensures your OKR process is not waiting on manual check-ins and any progress is updated real-time on Viva Goals.
 
