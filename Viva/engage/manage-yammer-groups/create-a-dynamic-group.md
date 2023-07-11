@@ -22,7 +22,7 @@ description: "Use dynamic groups in Viva Engage to easily manage group membershi
 
 # Create a dynamic group in Viva Engage
 
-Dynamic groups update automatically as people join, leave, or move within your organization, whenever the user's Azure Active Directory attributes are updated. Dynamic groups work well for large organizations where people change teams, roles, and locations often. Dynamic groups can be created based on a variety of attributes, including role, geography, and department.
+When a user's Azure Active Directory attributes are updated within your organization, dynamic groups update automatically. Dynamic groups work well for large organizations where people frequently change teams, roles, and locations. You can create dynamic groups based on various attributes, including role, geography, and department.
   
 ## Requirements
 
@@ -32,7 +32,7 @@ Dynamic groups update automatically as people join, leave, or move within your o
 |Your organization must have a license for Azure Active Directory Premium for each user added to at least one dynamic group.  <br/> |[Azure Active Directory pricing](https://go.microsoft.com/fwlink/?linkId=869572) <br/> |
 |The person setting up the groups must have permissions to update Azure Active Directory.  <br/> |[Built-in roles for Azure role-based access control](/azure/role-based-access-control/built-in-roles) <br/> |
 |Creating dynamic groups requires using PowerShell to change the associated Active Directory group to make it dynamic.  <br/> |[Manage Microsoft 365 Groups with PowerShell](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540) <br/> |
-|Only Microsoft 365 connected Viva Engage groups can be set up as dynamic groups. This means you must be enforcing Microsoft 365 or Office 365 identity in Viva Engage, and your Viva Engage network must have existing Microsoft 365 connected groups.  <br/> |[Enforce Office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md) <br/> [Join and create a community](https://support.microsoft.com/en-au/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4) <br/> |
+|Only Viva Engage groups that are connected to Microsoft 365 can be set up as dynamic groups. This means you must be enforcing Microsoft 365 or Office 365 identity in Viva Engage, and your Viva Engage network must have existing Microsoft 365 connected groups.  <br/> |[Enforce Office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md) <br/> [Join and create a community](https://support.microsoft.com/en-au/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4) <br/> |
 
 ## Create a dynamic group in Viva Engage
 
@@ -44,13 +44,13 @@ Dynamic groups update automatically as people join, leave, or move within your o
 
  **Q: Are there limits to the number of members in dynamic groups?**
   
-A: Yes. Dynamic groups in Viva Engage have a limit of 100K members. After 100K members, new members will not be synced to the group in Viva Engage.
+A: Yes. Dynamic groups in Viva Engage have a limit of 100 K members. After 100 K members, new members won't be synced to the group in Viva Engage.
   
  **Q: Do users experience any differences in Viva Engage when using a dynamic group?**
   
-A: Yes. Groups with dynamic membership do not have the **Join** and **Leave** buttons in the top navigation. Instead, users either see **Member** for dynamic groups to which they belong, or **Reserved** if they are not members of the group.
+A: Yes. Groups with dynamic membership don't have the **Join** and **Leave** buttons in the top navigation. Instead, users either see **Member** for dynamic groups to which they belong, or **Reserved** if they aren't members of the group.
 
 **Q: What is the difference between a Microsoft 365 connected group and a dynamic group?**
-A. For a Microsoft 365 connected group, group membership changes made in any Microsoft 365 app such as Outlook, are available in the group in Viva Engage. For a dynamic group, changes made in the group membership in Azure Active Directory (AAD) are available in the Viva Engage group.
+A. For a Microsoft 365 connected group, group membership changes made in any Microsoft 365 app such as Outlook, are available in the group in Viva Engage. For a dynamic group, changes made in the group membership in Azure Active Directory are available in the Viva Engage group.
 
-Typically large organizations use dynamic groups if they use AAD to track department membership, roles, and location, and have Microsoft 365 connected groups for each department, role, and location. Organizations that don't use AAD in this way typically don't use dynamic groups.
+Typically large organizations use dynamic groups if they use Azure Active Directory to track department membership, roles, and location, and have Microsoft 365 connected groups for each department, role, and location. Organizations that don't use Azure Active Directory in this way typically don't use dynamic groups.
