@@ -1,42 +1,37 @@
 ---
-title: "Rich text formatting for Yammer messages"
+title: "Rich text formatting for Viva Engage messages"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 9/23/2019
+ms.date: 7/11/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
 - MET150
 - MOE150
 - YAE150
-description: "Users can now format Yammer posts using bold, italic, bullets, numbered lists, and links. "
+description: "Users can now format Viva Engage posts using bold, italic, bullets, numbered lists, and links. "
 ---
 
-# Rich text formatting Yammer messages
+# Rich text formatting Viva Engage messages
  
-Beginning March 15, 2019, we are rolling out rich text formatting for Yammer posts. This includes bold, italic, links, bullets, and numbered lists.
+Beginning March 15, 2019, we offer rich text formatting for Viva Engage posts. Formatting options include bold, italic, links, bullets, and numbered lists.
 
-Composing messages with rich text formatting is only available on the web client and Yammer desktop.
+Composing messages with rich text formatting is only available on the web client and Viva Engage desktop.
 
-- Mobile Yammer apps will display formatted messages, but users can't edit those messages or format new messages from the mobile device.
+- Mobile Viva Engage apps display formatted messages, but users can't edit those messages or format new messages from the mobile device.
 
-- Composing and viewing formatted messages won't be available immediately on the Yammer SharePoint web part or Yammer tab in Teams. This functionality will be added later in 2019.
+- Composing and viewing formatted messages aren't available immediately on the Viva Engage SharePoint web part or Viva Engage tab in Teams. This functionality will be added later in 2019.
 
 ## How do I know if we have rich text available?
 
-If your organization has received this new feature, when you post a new message, here's what the bottom of the message looks like:
-
-:::image type="content" source="../../media/with-rich-text.png" alt-text="Screenshot of the Yammer message with rich text formatting.":::
-
-If you don't have rich text, here's what the bottom of the message looks like:
-
-:::image type="content" source="../../media/without-rich-text.png" alt-text="Screenshot of the Yammer message without rich text formatting.":::
+If your organization has received this new feature, when you post a new message, you'll find a menu at the bottom of your message with formatting options. If you don't have this feature, the area at the bottom of the message appears blank.
 
 ## Implications for export
 
