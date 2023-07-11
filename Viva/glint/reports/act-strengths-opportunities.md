@@ -39,6 +39,3 @@ Outcomes and comparisons used to calculate S&Os can be customized in either of t
 - Select **Settings** at the top right, to reveal the option to change outcomes and comparisons.
 - At the top of the Strengths and Opportunities section, select the hyperlinked words to change the outcome or comparison.
 
-## Additional resources
-
-[Managers using the Team Summary dashboard](https://microsoft.sharepoint.com/:w:/r/teams/PSTeam/*layouts/15/Doc.aspx?sourcedoc=%7B332F532D-7E1A-43B8-8ED9-C99F1D6F7582%7D&file=Managers%20using%20the%20Team%20Summary%20dashboard.docx&action=default&mobileredirect=true&share=IQEtUy8zGn64Q47ZyZ8db3WCAeyPv9pdmJdgLo1wINd13bk)

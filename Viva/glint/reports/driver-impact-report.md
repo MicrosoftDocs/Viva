@@ -119,6 +119,3 @@ Key points for managers with fewer than 20 respondents:
 - One manager's S&O may be different from other leaders within their organization.
 - If enabled, including Broader Team Insights (BTI) into conversations will provide understanding for what drives engagement closer to the manager's own level within the organization.
 
-## Additional resource
-
-[Act on Strengths & Opportunities](https://microsoft.sharepoint.com/:w:/t/PSTeam/ERjpde3XLkJKuUf7G61c0CsB9bZSFxv0fI99*mslsZFi0g?e=KLHOsg)
