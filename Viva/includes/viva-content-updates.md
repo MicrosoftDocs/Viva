@@ -2,6 +2,22 @@
 
 
 
+## Week of July 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/1/2023 | [File rules and validation errors](/viva/insights/advanced/admin/rules-validation-errors) | added |
+| 7/3/2023 | [Import organizational data (first import)](/viva/insights/advanced/admin/import-org-data-first) | modified |
+| 7/3/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
+| 7/3/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
+| 7/3/2023 | [Upload organizational data (first upload)](/viva/insights/advanced/admin/upload-org-data-first) | modified |
+| 7/3/2023 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
+| 7/5/2023 | [Viva Topics lightweight management in Viva Engage](/viva/topics/topics-lightweight-management) | added |
+| 7/6/2023 | [Viva Insights with Glint report](/viva/insights/advanced/analyst/templates/glint) | added |
+| 7/7/2023 | [Organize a Viva Engage live event](/viva/engage/organize-live-event) | added |
+
+
 ## Week of June 26, 2023
 
 
@@ -148,18 +164,3 @@
 | 6/9/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
 | 6/9/2023 | [Use the Power BI connector](/viva/insights/advanced/analyst/power-bi-connector) | added |
 | 6/9/2023 | Viva Insights and Qualtrics integration | removed |
-
-
-## Week of May 29, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 5/30/2023 | [Microsoft Teams Extension](/viva/goals/ms-teams-messaging-extension) | modified |
-| 5/30/2023 | [Enable Integrations in Viva Goals](/viva/goals/vg-integrations-administration-overview) | modified |
-| 5/31/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
-| 5/31/2023 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
-| 5/31/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
-| 5/31/2023 | [Viva Engage Admin center overview](/viva/engage/eac-overview) | modified |
-| 5/31/2023 | [Get notifications in Microsoft Teams about activity in Viva Goals](/viva/goals/ms-teams-notifications) | added |
-| 6/2/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
