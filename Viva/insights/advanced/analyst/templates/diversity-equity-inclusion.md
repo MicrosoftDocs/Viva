@@ -38,11 +38,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 
 <iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiYjc1ZDhlN2QtZmRjMi00OTIwLWIxOGMtNWMwZWMyMDM3NmZmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
 
-## Prerequisites
-Before you can run the queries and populate the report in Power BI, you’ll need to:
-
-* Be assigned the role of **Insights Analyst** in Viva Insights.
-* Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://powerbi.microsoft.com/en-us/getting-started-with-power-bi/) to download and install the latest version.
+[!INCLUDE [Prerequisites](includes/prerequisites.md)]
 * Confirm that your organizational data includes **Organization** and **HireDate**, as well as at least one attribute that represents whether an employee belongs to a diverse category.
 
 
