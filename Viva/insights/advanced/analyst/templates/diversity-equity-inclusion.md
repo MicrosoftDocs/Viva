@@ -89,7 +89,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 1. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.
     > [!IMPORTANT]
     > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
-:::image type="content" source="images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab":::
+:::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab":::
 
 
 
@@ -103,7 +103,7 @@ After the Diversity, equity and inclusion report is set up and populated with Vi
 |**Focus**|Sets the focus area for the diversity attribute above. For example, if you selected “Gender” as the default diversity attribute, you can select “Women” to see specific insights about women in the organization.|
 |**Favorable engagement attribute**|Identifies a particular engagement attribute as favorable. If you included an attribute that represents employee engagement results, you can select one or more values that represent “favorably engaged” employees. This affects how results are displayed on the Boost engagement page.|
 
-:::image type="content" source="images/analyst-pbi-dei-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
+:::image type="content" source="../../images/analyst-pbi-dei-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
 
 
 
@@ -115,7 +115,7 @@ Except for the first two pages, each report page follows a similar format: an ov
 
 On some pages, you can select **View multiple attributes** under a breakdown of the metric by organizational attribute. This allows you to select two attributes and view the results across the attributes. 
 
-:::image type="content" source="images/analyst-pbi-dei-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
+:::image type="content" source="../../images/analyst-pbi-dei-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
 
 
 #### Overview
