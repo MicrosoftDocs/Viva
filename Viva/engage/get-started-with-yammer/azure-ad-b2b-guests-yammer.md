@@ -145,6 +145,6 @@ A: Yes. AzureAD-B2B guests from another Geo can be invited to a Yammer network i
 
 [Yammer admin Help](./admin-key-concepts.md)
 
-[Native Mode for Microsoft 365 for Yammer](../configure-your-yammer-network/overview-native-mode.md)
+[Native Mode for Microsoft 365 for Yammer](../overview-native-mode.md)
 
 [Yammer Help and Support Center for end-users](https://support.office.com/yammer)
