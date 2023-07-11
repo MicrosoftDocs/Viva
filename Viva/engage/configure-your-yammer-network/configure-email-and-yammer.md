@@ -35,7 +35,7 @@ For information about when email notifications are sent, see [email and push not
   
 ## Initial setup: Follow Office 365 email best practices
 
-Follow the guidelines in [Microsoft 365 security best practices](/microsoft-365/admin/security-and-compliance/secure-your-business-data). If these configurations are not in place, users may be required to take additional steps to verify every message sent to Viva Engage by email.
+Follow the best security practises in [Microsoft 365 for Business](https://learn.microsoft.com/en-us/microsoft-365/business-premium/secure-your-business-data?view=o365-worldwide). If these configurations are not in place, users may be required to take additional steps to verify every message sent to Viva Engage by email.
   
 > [!NOTE]
 > These email setting changes must be done by your internal email administrator. Viva Engage admins and support can't help configure your mail systems.
