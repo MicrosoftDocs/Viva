@@ -38,7 +38,7 @@ To access the Viva Engage network configuration tools:
 ## Set the Viva Engage network name
 
 > [!IMPORTANT]
-> In Microsoft 365 or Office 365 Viva Engage networks, the name in the Microsoft 365 or Office 365 company profile overrides the **Network name** setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](../microsoft-365/admin/manage/change-address-contact-and-more?view=o365-worldwide)
+> In Microsoft 365 or Office 365 Viva Engage networks, the name in the Microsoft 365 or Office 365 company profile overrides the **Network name** setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
 
 - On the **Configuration** page, in the **Basics** section, specify the following:
 
@@ -73,7 +73,7 @@ To access the Viva Engage network configuration tools:
 
       - **Only allow people to upload and attach image or video files**: Limits attachments to images and videos. Viva Engage determines file type by extension.
 
-         Viva Engage uses Azure Media Services to make videos viewable within the network. For more information, see [Azure Media Services](https://azure.microsoft.com/en-us/products/media-services/).
+         Viva Engage uses Azure Media Services to make videos viewable within the network. For more information, see [Azure Media Services](https://azure.microsoft.com/products/media-services/).
 
       - **Don't allow anyone to upload or attach files**: This prevents people from uploading and attaching new files; however, existing attachments aren't be affected.
 
