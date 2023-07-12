@@ -25,7 +25,7 @@ Starting January 31, 2019, Yammer Enterprise users that try to log in using lega
 - After changing their password, these users will be able to access your Yammer network, and will have access to all their groups and data. 
 - After the AAD account is created for a user, admins can manage the user from the Microsoft 365 admin center.  
 
-As a Yammer admin, if you want to prevent these users who don’t have Office 365 licenses from accessing your Yammer network, you can choose to enforce Office 365 licenses. For instructions, see [Enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
+As a Yammer admin, if you want to prevent these users who don’t have Office 365 licenses from accessing your Yammer network, you can choose to enforce Office 365 licenses. For instructions, see [Enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
  
 ## Why is Yammer doing this? 
 
