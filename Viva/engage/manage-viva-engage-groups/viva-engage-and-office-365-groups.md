@@ -34,7 +34,7 @@ You can tell if a group in Yammer is a Microsoft 365 connected group when you se
 Microsoft 365 connected groups have many advantages over non-connected Yammer groups:
 
 - Access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, from within Yammer. Also includes integration with Power BI and Stream.
-- Create and host live events ([Live events in Yammer](../manage-viva-engage-groups/viva-engage-live-events.md))
+- Create and host live events ([Live events in Yammer](live-events.md))
 - Use Office 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
 - Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](../manage-viva-engage-groups/create-a-dynamic-group.md))
