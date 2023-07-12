@@ -35,6 +35,6 @@ If your organization has received this new feature, when you post a new message,
 
 ## Implications for export
 
-When you export formatted messages using [Export Network Data](../manage-security-and-compliance/export-yammer-enterprise-data.md) two columns for the message text are included in messages.csv and messageVersions.csv:
+When you export formatted messages using [Export Network Data](../manage-security-and-compliance/export-viva-engage-enterprise-data.md) two columns for the message text are included in messages.csv and messageVersions.csv:
 - **body**: includes the unformatted message text 
 - **html_body**: includes the message text formatted with HTML
