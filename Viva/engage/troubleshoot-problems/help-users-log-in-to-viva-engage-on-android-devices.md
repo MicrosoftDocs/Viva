@@ -9,7 +9,7 @@ ms.date: 7/12/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
-ms.service: viva-engage
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 search.appverid:
 - MET150
