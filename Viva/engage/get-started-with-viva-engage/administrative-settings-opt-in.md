@@ -58,7 +58,7 @@ A: In some situations, multiple Yammer networks are connected to a single Office
 
 ## Related articles
 
-[New Yammer FAQ](newyammer-faq.md)
+[New Yammer FAQ](viva-engage-faq.md)
 
 [Yammer Blog](https://techcommunity.microsoft.com/t5/yammer-blog/bg-p/YammerBlog)
 
