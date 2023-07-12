@@ -59,7 +59,7 @@ The differences between an All Company that is connected to a Microsoft 365 Grou
 
 - A connected All Company community creates a Microsoft 365 Group.
 - A connected All Company can have Live Events.
-- A connected All Company has [Microsoft 365 Resources](./yammer-and-office-365-groups.md).
+- A connected All Company has [Microsoft 365 Resources](./viva-engage-and-office-365-groups.md).
 
 The process for confirming that All Company is connected works the same as it does for any community. To do so, select the following settings in the Network Admin Settings.
 
