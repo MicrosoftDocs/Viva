@@ -45,7 +45,7 @@ Live events produced using Teams can now be scheduled and viewed in Yammer! This
 - Question and Answer + regular Yammer events feed is available.
 - All events are stored in Stream (and are searchable there, like any other live event).
 
-For the full list of features, see [Overview of live events](yammer-live-events.md).
+For the full list of features, see [Overview of live events](viva-engage-live-events.md).
 
 ## FAQ
 
@@ -118,7 +118,7 @@ Four (4) hours.
 
 | Feature | Produced using Teams | Produced using Encoder | More info |
 |----------|----------|----------|----------|
-|Analytics|Yes|Yes|See [Analytics about your live event in Microsoft Stream](/stream/live-event-overview). See [Monitor your event](../manage-security-and-compliance/track-yammer-events.md) for more information|
+|Analytics|Yes|Yes|See [Analytics about your live event in Microsoft Stream](/stream/live-event-overview). See [Monitor your event](../manage-security-and-compliance/track-viva-engage-events.md) for more information|
 |Schedule in Yammer|Yes|Yes|N/A|
 |Produce in Yammer|No|Yes|N/A|
 |Attendees view event in Yammer|Yes|Yes|N/A|
@@ -145,7 +145,7 @@ Four (4) hours.
 
 [Organize a live event in Yammer](https://support.office.com/article/organize-a-live-event-in-yammer-105dd7af-9caf-4a5e-8a44-56d203e96551)
 
-[Live events in Yammer](yammer-live-events.md)
+[Live events in Yammer](live-events.md)
 
 [Attend a live event in Yammer](https://support.microsoft.com/office/attend-a-live-event-in-new-yammer-41f1afe3-2a8e-4998-a25b-843d96791b10)
 
