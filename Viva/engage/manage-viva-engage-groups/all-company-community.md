@@ -83,7 +83,7 @@ For more information about the various SharePoint web parts and embed features, 
 
 [Is my Yammer community or group connected to Microsoft 365?](https://support.office.com/article/is-my-community-or-group-connected-to-microsoft-365-f592296f-4158-43d8-b711-d77c35db826e)
 
-[Yammer and Microsoft 365 Groups](./yammer-and-office-365-groups.md)
+[Yammer and Microsoft 365 Groups](viva-engage-and-office-365-groups.md)
 
 [Restrict All Company posts in Yammer](https://support.office.com/article/3219d2ae-db15-4c9f-9dd2-28559ae39a97)
 
