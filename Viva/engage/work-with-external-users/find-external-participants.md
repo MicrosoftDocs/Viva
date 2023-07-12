@@ -30,7 +30,7 @@ When you communicate with outside partners, suppliers, or customers, you want to
 
     You'll only see this option if you are a verified admin in the Yammer network.
 
-    For more information, see [Export Yammer Enterprise data](../manage-security-and-compliance/export-yammer-enterprise-data.md).
+    For more information, see [Export Yammer Enterprise data](../manage-security-and-compliance/export-viva-engage-enterprise-data.md).
 
 2. To identify **threads in your network that users from other networks participate in**, locate the export folder on your computer, and open the **MessageThreads.Outbound.csv** export file.
 
