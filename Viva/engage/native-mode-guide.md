@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
+ms.date: 7/12/2023
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
-ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
-manager: dmillerdyson
+ms.reviewer: auhosford
+ms.author: v-bvrana
+author: v-bvrana
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -26,10 +26,10 @@ Organizations that want to take advantage of the new compliance features in Viva
 - Simplify file administration through SharePoint.
 - Apply Microsoft 365 Group management policies.
 
-Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. Organizations that have networks that were created before that date need to use the Native Mode Alignment Tool to ensure that the network is fully backed by Microsoft 365 before they can access these new features.
+Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. You can use the Native Mode Alignment Tool to ensure that the network is fully backed by Microsoft 365 before accessing these new features.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
+> Automatic migration to Native Mode was announced 2022 for reasons of security, compliance, and M365 integration. For more information see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md).
 
 The following steps show you what you need to for the transition to Native Mode. For more information about what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](./overview-native-mode.md).
 
