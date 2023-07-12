@@ -104,7 +104,7 @@ items:
               href: advanced/analyst/meeting-query.md  
             - name: Create cross-collaboration queries
               href: advanced/analyst/cross-collaboration.md
-              name: Set primary and secondary collaborators
+            - name: Set primary and secondary collaborators
               href: advanced/analyst/collaborators.md
               items:
               - name: Collaboration between two individuals (person-to-person query)
