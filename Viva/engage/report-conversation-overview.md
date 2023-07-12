@@ -24,31 +24,27 @@ search.appverid:
 
 Viva Engage tenants have access to a feature that lets users in the network report conversations, comments, and replies in Viva Engage that don't follow guidelines or policies.
 
-Engage admins can enable users to report a conversation on their network from the Viva Engage admin center. Within the Viva Engage admin center, navigate to the "Setup & Configuration" tab and select "Configure Tenant". You will be redirected to the Yammer admin webpage, where you can access "Report a conversation" under "Content & Security" on the left panel.
-
-:::image type="content" source="../media/yammer-conversations-admin-report-conversations.png" alt-text="Screenshot showing Jammer reporting settings.":::
+Engage admins can enable users to report a conversation on their network from the Viva Engage admin center. In the Viva Engage admin center, navigate to the **Setup & Configuration** tab and select **Configure Tenant**. You'll be redirected to the Yammer admin webpage, where you can access **Report a conversation** under **Content & Security** on the left panel.
 
 ## Set up the conversation report feature
 
-:::image type="content" source="../media/yammer-conversations-full-admin-panel.png" alt-text="Screenshot showing Hammer reporting admin panel.":::
-
 After you enable conversations, enter information for the following two settings:
 
-- **Report recipient (an organization email address)** - The email address where reports will be sent.
-- **Pre-submission details or instructions for user** – This text is shown to users when they select **Report a Conversation**.
+- **Report recipient (an organization email address)** - The email address where reports are sent.
+- **Pre-submission details or instructions for user** – Text that users see when they select **Report a Conversation**.
 
-There’s also an optional **Post-submission instructions to user** setting. These instructions are shown to users after they submit a report on a conversation or comment.
+There’s also an optional **Post-submission instructions to user** setting. Users who submit a report on a conversation or comment receive these instructions.
 
 ## Report recipient
 
-You need to provide an organization email address where the reports will be sent.
+You must provide an organization email address where the reports are sent.
 
 > [!NOTE]
 > Viva Engage doesn't verify that the email address you enter is an organization email address. Make sure you enter a valid organization email address.
 
 ## Pre-submission details or instructions for user
 
-The text entered in this field is shown to end users when they start to submit a report so that they understand the process. You can enter a maximum of 1,500 characters.
+The text entered in this field appears when a user starts to submit a report to ensure they understand the process. You can enter a maximum of 1,500 characters.
 
 Some things you may want to include:
 
@@ -58,8 +54,6 @@ Some things you may want to include:
 - A link to company network usage guidelines
 
 The text you enter is displayed under the **Report Conversation** or **Report Comment** header when a user reports a conversation or comment. 
-
-:::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="Screenshot showing reporting a conversation.":::
 
 ## Post-submission instructions to user
 
@@ -80,7 +74,7 @@ When this feature is enabled, users accessing Viva Engage see the **Report Conve
 
 **Report Conversation option on conversation comment**
 
-Users will then see a right-panel pop-out with the custom message from the Engage admin and a required **Reason for Reporting** box.
+Users will see a right-panel pop-out with a custom message from the Engage admin and a required **Reason for Reporting** box.
 
 :::image type="content" source="../media/yammer-conversations-report-comment.png" alt-text="Screenshot showing reason for reporting box.":::
 

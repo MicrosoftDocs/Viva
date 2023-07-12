@@ -2,13 +2,14 @@
 title: "Manage your external network profile"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
 ms.date: 5/10/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -20,20 +21,17 @@ description: "Members of an external network can manage their personal informati
 ---
 
 # Manage your external network profile
-Each Microsoft Yammer external network is separate from the user's home network. 
+Each Microsoft Viva Engage external network is separate from the user's home network. 
 Users in an external network are responsible for managing their profiles and the amount of information they provide.  
 
 > [!IMPORTANT] 
 > Your profile is visible to all other participants within the external network. Additionally, profile information is shared between your external and home network accounts.   
 By participating in an external network, you agree to share this information about yourself
-with other participants in the external network. Be aware that profile information may also be 
-visible in other areas of Yammer or through the REST API.
+with other participants in the external network. Be aware that profile information may also be visible in other areas of Viva Engage or through the REST API.
 
 ## Update your user profile
 To change your profile, you must sign-in to the external network.
 After you sign in, the **Settings** icon contains a blue dot. 
-
-:::image type="content" source="../../media/ext-network-toolbar.png" alt-text="Screenshot of the settings icon in your external network for a blue dot.":::
 
 1. Select **Settings** > **Edit Settings**.
  
@@ -49,10 +47,10 @@ After you sign in, the **Settings** icon contains a blue dot.
   If you're unable to modify or save changes to your profile, your home tenant admin has disabled this feature.
 
 > [!NOTE] 
-> Yammer obfuscates the name in an email address with asterisks (***) but not the domain, which remains visible to others in the external network. APIs in the external network may not perform the same obfuscation.
+> Viva Engage uses asterisks to obfuscate the name in an email address. The domain remains visible to others in the external network. APIs in the external network may not perform the same obfuscation.
 
 ## Leave the external network
-You can leave a Yammer external network at any time and for any reason.
+You can leave a Viva Engage external network at any time and for any reason.
 
 1.	After logging in to the external network, select **Settings** > **Edit Settings**.
 
@@ -67,4 +65,4 @@ You can leave a Yammer external network at any time and for any reason.
 ### What happens after I leave the external network
 When you leave an external network, the network retains all of your posts along with your display name.  
 
-To have these posts removed by the admin, review [Manage data subject requests](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise).
+To have these posts removed by the admin, review [Manage data subject requests](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
