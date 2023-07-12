@@ -24,7 +24,7 @@ description: "Audit Viva Engage users: export a list of users, find the status o
 
 Your company's Viva Engage network might have users who no longer work for your company. Or, some Viva Engage users might be logging in with their email and password because they don't have a corresponding Office 365 account. In order to analyze such situations and take action, you can audit your Viva Engage users. This involves exporting the list of Viva Engage users, finding the status of these Viva Engage users in Office 365 by using Azure Active Directory Module for Windows PowerShell, and analyzing the results and taking action.
   
-In addition to auditing Viva Engage users, you may want to understand more about how the Viva Engage service can be seamlessly managed from Office 365. For details, see [Enforce Office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
+In addition to auditing Viva Engage users, you may want to understand more about how the Viva Engage service can be seamlessly managed from Office 365. For details, see [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
   
 ## Export the Viva Engage users list
 
@@ -124,4 +124,4 @@ Param(
     
 2. After you have completed these operations, we recommend that you run these steps again from the start to confirm all the users are now found in Office 365 and Azure AD.
     
-If you're enforcing Office 365 identity, then after a full audit you may want to consider logging off all current users, so that you can be sure that everyone is now logging in with their Office 365 credentials, and not using cached credentials. If you choose to do this, ensure that this is communicated to your users. More information in [Enforce Office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
+If you're enforcing Office 365 identity, then after a full audit you may want to consider logging off all current users, so that you can be sure that everyone is now logging in with their Office 365 credentials, and not using cached credentials. If you choose to do this, ensure that this is communicated to your users. More information in [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
