@@ -3,9 +3,9 @@ ms.date: 08/12/2022
 title: "Set up Viva Engage"
 description: "Setting up Viva Engage"
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: v-jebizie
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -42,7 +42,7 @@ _Learn more: [Overview of security & compliance for Yammer](/viva/engage/manage-
 
  3. Search for **Viva Engage**.
 
- 4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile. Or, select [Viva Engage here](https://aka.ms/VivaEngage/Install) to find and add the **Viva Engage** app. You can use the link (https://aka.ms/VivaEngage/Install) to share the app with others in your organization.
+ 4. Select the **Viva Engage** app, and then select **Add**. This will add the app to all your Teams clients, including mobile.
 
  **Note**: If you don't see **Viva Engage** in the available apps, check with your Teams admin. They might have renamed the app. 
  
@@ -54,7 +54,7 @@ The Microsoft Teams admin can choose to deploy and pin the app for all users or 
 
  You can customize the appear for the following properties of the Viva Engage app in the Teams app store:
  - app name
- - app descrption 
+ - app description 
  - app icons
  - accent color
 
@@ -64,9 +64,9 @@ Customizing the Viva Engage app is perfect for companies that have given their n
  
  _Learn more: [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app)_
  
- ## Configure your Yammer network
+ ## Configure your network
  
 Review the contents in the Yammer & Viva Engage Adoption site to help you get started, train and engage your organization, build champions, and secure your environment.
 
-_Learn more: [Yammer & Viva Engage Adoption](https://aka.ms/VivaEngage/Resources)_
+_Learn more: [Yammer & Viva Engage Adoption](https://adoption.microsoft.com/en-us/viva/engage/)_
 

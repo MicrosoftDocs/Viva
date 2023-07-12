@@ -1,0 +1,63 @@
+---
+title: "Configure email and Viva Engage"
+f1.keywords:
+- NOCSH
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
+ms.date: 7/10/2023
+audience: Admin
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-engage
+ms.localizationpriority: medium
+ms.custom: Adm_Yammer
+ms.collection:
+- enabler-strategic
+search.appverid: 
+- MOE150
+- MET150
+ms.assetid: bf4e2476-25da-4c39-9371-f23ee988995c
+description: "For email and Viva Engage to work together, email setup must match Office 365 best practices."
+---
+
+# Configure email and Viva Engage
+
+Viva Engage connects to email in several ways: Viva Engage alerts users to new activity in conversations they follow by email, and users can subscribe to groups in email and post to conversations and groups by email. To make this work smoothly in your organization:
+  
+- Email admins are responsible for setting up email correctly.
+
+- Viva Engage admins can customize the logo in email messages Viva Engage sends, and can require verification before users can post to Viva Engage by email.
+
+- Users can choose the types of notifications they receive.
+
+For information about when email notifications are sent, see [email and push notifications](https://support.office.com/article/93e530e0-189f-4768-8f28-7683d48cc996).
+  
+## Initial setup: Follow Office 365 email best practices
+
+Follow the best security practices in [Microsoft 365 for Business](/microsoft-365/business-premium/secure-your-business-data?view=o365-worldwide). If these configurations aren't in place, users may be required to take extra steps to verify every message sent to Viva Engage by email.
+  
+> [!NOTE]
+> These email setting changes must be done by your internal email administrator. Viva Engage admins and support can't help configure your mail systems.
+  
+- See [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) to find information about URL and IP Safe Recipients lists.
+
+- When using Viva Engage through an email client, it's recommended that SPF and/or DKIM is configured within your email system. For details, see Microsoft Defender for Office 365 documentation.
+
+## Email settings admins control
+
+Admins control the following settings:
+  
+- The logo on emails that Viva Engage sends to users.
+
+- Whether all users have to confirm messages posted by email. For more information, see [Configure your Viva Engage network](configure-viva-engage.md).
+
+## Email settings users control
+
+Users control what email notifications they receive.
+  
+Users can go to Viva Engage settings \> **Edit settings** \> **Notifications** and select which notifications to receive.
+  
+For more information, see [Viva Engage email and push notifications](https://support.office.com/article/93e530e0-189f-4768-8f28-7683d48cc996).
+
+
