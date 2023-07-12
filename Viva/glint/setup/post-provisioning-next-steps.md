@@ -80,7 +80,7 @@ Glint recommends no more than 5 Viva Glint service administrators for your Viva 
 The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
-- [Communicate prelaunch and live program information](prelaunch-live-email-templates.md)
+- [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
 - [Communicate results rollout plan](https://aka.ms/VivaGlintPostlaunchemailtemplates)
 
 ## What do I do if I need help?
