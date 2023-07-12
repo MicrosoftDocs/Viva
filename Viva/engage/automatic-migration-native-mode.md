@@ -29,29 +29,29 @@ Non-native and hybrid Viva Engage networks are being automatically upgraded to N
 
 ## Frequently asked questions
 
-### How will automatic migration work? 
+### How does automatic migration work? 
 
-Unlike manual migration, automatic migration requires very little advance preparation. The timeline is: 
+Unlike manual migration, automatic migration requires very little advance preparation. The timeline is:
 
-30 days before migration starts: You will receive a M365 Message Center post notifying you that you’ve been selected for automatic migration. 
+**30 days before migration starts:** You will receive a M365 Message Center post notifying you that you’ve been selected for automatic migration. 
 
-Day of migration start: You will receive a M365 Message Center post notifying you that migration has begun. 
+**Day of migration start:** You will receive a M365 Message Center post notifying you that migration has begun. 
 
-During migration: Migration will take between 1 and 30 days to complete in most cases. 
+**During migration:** Migration will take between 1 and 30 days to complete in most cases. 
 
-Once migration is complete: You will receive a M365 Message Center post notifying you that the migration is complete and that you have 90 days to perform a post-migration audit or export data, such as private message file attachments, that is not supported in Native Mode. 
+**Once migration is complete:** You will receive a M365 Message Center post notifying you that the migration is complete and that you have 90 days to perform a post-migration audit or export data, such as private message file attachments, that is not supported in Native Mode. 
 
 ### I don’t want to be automatically migrated. What can I do? 
 
 Native mode is fundamental to the integration of Viva Engage within M365 and all networks are being upgraded. Previously admins had to initiate the migration, but an improved automatic migration is now rolling out.  
 
-If you wish to control the migration, it may still be possible. Start the migration immediately by following the step-by-step guide available to help you.  
+If you wish to control the migration, it may still be possible. Start the migration immediately by following the [step-by-step guide](/Viva/engage/native-mode-guide.md).  
 
-### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When will it start and end? 
+### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When will it start and end?
 
 Your migration will begin 30 days after the date of the Message Center post. You will receive an additional Message Center post when your migration has begun. There is no admin action required to complete the migration and information about the migration will be provided when it completes.  
 
-Migration time is impacted by the volume of files which need to be migrated from legacy Yammer file storage to SharePoint Online storage. It is not possible to provide an estimate ahead of time due to the number of factors involved. 
+Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint Online storage. It is not possible to provide an estimate ahead of time due to the number of factors involved.
 
  ### I was planning to migrate manually, but the alignment report button is grayed out. How do I export the alignment report?
 
@@ -63,11 +63,11 @@ Exemptions were temporarily available to help customers plan their migrations in
 
  ### What information will be provided after the migration?
 
-All content from your network pre-migration will remain available for 90 days. This allows administrators to perform a post-migration audit to ensure completeness of data. Various reports on the migration will be available to administrators, covering deleted unmapped users, deleted files, deleted messages, copied files, and guests. 
+All content from your network pre-migration will remain available for 90 days. This allows administrators to perform a post-migration audit to ensure completeness of data. Various reports on the migration will be available to administrators, covering deleted unmapped users, deleted files, deleted messages, copied files, and guests.
 
 ### What is the impact to end users during the migration?
 
-Community guests need to be reinvited after migration is complete, but most end users are not impacted during migration. Azure AD B2B replaces the legacy Yammer external communities feature when a network is in native mode. See Work with Azure Active Directory-B2B guests in Yammer communities. 
+Community guests need to be reinvited after migration is complete, but most end users are not impacted during migration. Azure AD B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See Work with Azure Active Directory-B2B guests in Viva Engage communities. 
 
 ### The migration page says the migration is still in process, but we received a Message Center post stating the migration was complete. What is happening?
 
@@ -75,4 +75,4 @@ The Native Mode migration page will state that the migration is in process until
 
 ### I have more than one network associated with my tenant. Will you automatically migrate all of those networks into native mode? 
 
-No. Networks will be automatically consolidated soon. You will receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode.  The best way to ensure appropriate network consolidation is to perform it on your own. See Network migration - Consolidate multiple Yammer networks for information on how to consolidate your networks today.
+No. Networks will be automatically consolidated soon. You will receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode.  The best way to ensure appropriate network consolidation is to perform it on your own. See the Network migration - Consolidate multiple Viva Engage networks article for information on how to consolidate your networks.
