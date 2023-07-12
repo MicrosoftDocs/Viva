@@ -81,7 +81,7 @@ The following templates are examples you can use to communicate to your organiza
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate pre-launch and live program information](../communicate/prelaunch-live-email-templates.md)
-- [Communicate results rollout plan](../communicate/results-rollout-templates.md)
+- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
 ## What do I do if I need help?
 
