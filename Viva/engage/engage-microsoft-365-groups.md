@@ -1,10 +1,10 @@
 ---
-ms.date: 12/14/2022
+ms.date: 7/10/2023
 title: "Viva Engage and Microsoft 365 Groups"
 description: "Viva Engage communities can access Microsoft 365 services, including a SharePoint Online team site and document library, OneNote notebook, plan in Planner, and Power BI workspace."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
 audience: Admin
 f1.keywords:
@@ -33,12 +33,11 @@ You can tell that a community in Viva Engage is connected to Microsoft 365 Group
 Communities that are connected to Microsoft 365 have many advantages over communities that aren't connected:
 
 - From within Viva Engage, you can access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, and a plan in Planner. Microsoft 365 Groups also includes integration with services like Power BI and Stream.
-- Create and host live events. ([Live events in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events))
+- Create and host live events. ([Live events in Viva Engage](/viva/engage/manage-viva-engage-groups/live-events))
 - Use Microsoft 365 connectors to add apps to classic Viva Engage. ([Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
 - Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
-- Use data classification to create your own classifications of Microsoft 365 Groups, such as *unclassified*, *corporate confidential*, or *top secret*. ([Configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets))
 - See the group in the Global Address List in Outlook.
 - Monitor group usage through the Microsoft 365 groups activity report. ([Microsoft 365 Groups activity report](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40))
 - Create optional groups naming policies. ([Microsoft 365 Groups naming policy](/azure/active-directory/enterprise-users/groups-naming-policy))
@@ -182,9 +181,9 @@ A: Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engag
 
 A: Yes. Any Microsoft 365-connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group) for requirements and limitations.
   
-### Q: In a connected group, I see there are Viva Engage Files and a SharePoint Online Doc Library. Are these the same thing?
+### Q: In a connected group, I see there are Viva Engage files and a SharePoint Online Doc Library. Are these the same thing?
   
-A: No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Viva Engage messages or uploaded in a Viva Engage **Files** page are stored in Viva Engage cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
+A: No, these things are separate locations to store files. Members of the group have access to both locations. Files that are attached to Viva Engage messages or uploaded in a **Files** page are stored in Viva Engage cloud storage. Files that are uploaded directly to the group's SharePoint document library are stored in SharePoint.
 
 We recommend that you store content that needs the structure and management capabilities of SharePoint in the group document library. For easy sharing of images and documents or to stream videos in Viva Engage, we recommend that you continue to use the default Viva Engage cloud storage.
 
@@ -221,7 +220,6 @@ To find this information, you can do a data export and look in the groups.csv fi
 
 Changes to connected communities can take up to 24 hours to take effect throughout your network. Such changes include changes to group membership, permissions, name, and other settings.
 
-  
 ## Related articles
 
 [Use and manage resources in my Viva Engage community or group](https://support.office.com/article/44af9221-503a-4736-9571-ef1353546077)

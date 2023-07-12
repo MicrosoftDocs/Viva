@@ -4,13 +4,13 @@ ms.collection:
 ---
 # [Viva Connections]()
 
-## [Microsoft Viva Connections](viva-connections-overview.md)
+## [Viva Connections Overview](viva-connections-overview.md)
 
 ## [Get Viva Connections]()
 
 ### [Set up Viva Connections in the admin center](set-up-admin-center.md)
 
-### [Overview of how to set up Viva Connections]()
+### [Plan, Build, Launch]()
 
 #### [How to get started](viva-connections-setup-overview.md)
 
@@ -21,7 +21,7 @@ ms.collection:
 #### [Launch and maintain](launch-viva-connections.md)
 
 
-## [Set up and administration]()
+## [Administration]()
 
 ### [Edit the desktop experience](edit-viva-home.md)
 

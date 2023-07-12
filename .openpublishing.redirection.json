@@ -1273,9 +1273,11 @@
         "source_path": "viva/insights/personal/overview/mya-for-admins.md",
         "redirect_url": "/viva/insights/personal/setup/deployment-guide",
         "redirect_document_id": false
-      }
-      
-
-                                                                         
+      },
+      {
+        "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
+        "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
+        "redirect_document_id": false
+      }                                                        
     ]
 }
