@@ -33,7 +33,7 @@
         - name: Viva Engage Native Mode step-by-step guide
           href: native-mode-guide.md
         - name: Consolidate multiple networks
-          href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks 
+          href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks
         - name: Enforce Office 365 identity for Viva Engage user
           href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
         - name: Manage Viva Engage core user licenses in Microsoft 365
