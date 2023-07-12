@@ -41,23 +41,23 @@ This article describes the key concepts you should know, and key decisions you s
     
       - Group admins can configure and customize their groups, and manage day-to-day operations for their groups. 
     
-    For information on how to make someone an admin and a full list of who can do what, see [Manage Yammer admins](../manage-yammer-users/manage-yammer-admins.md). 
+    For information on how to make someone an admin and a full list of who can do what, see [Manage Yammer admins](../manage-viva-engage-users/manage-viva-engage-admins.md). 
     
 3. Set up your Yammer network to match your organizational goals: 
     
-      - [Configure](../configure-your-yammer-network/configure-yammer.md) and [customize](../configure-your-yammer-network/customize-the-look-of-yammer.md) your network. [Set up a usage policy](../manage-security-and-compliance/set-up-a-usage-policy.md) to keep conversations appropriate and useful. 
+      - [Configure](../configure-your-viva-engage-network/configure-viva-engage.md) and [customize](../configure-your-viva-engage-network/customize-the-look-of-viva-engage.md) your network. [Set up a usage policy](../manage-security-and-compliance/set-up-a-usage-policy.md) to keep conversations appropriate and useful. 
     
       - Review the [security and compliance features](../manage-security-and-compliance/security-and-compliance.md) and define your data retention and export plans. 
     
       - Make sure your domains are set up in Office 365 the way you want them. By default, your Yammer internal network can be accessed only by employees whose email addresses match the domains verified in Office 365. 
     
-        If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-yammer-network/manage-yammer-domains.md). 
+        If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-viva-engage-network/manage-viva-engage-domains.md). 
     
-        If your company has business units with different domains, Yammer can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To weigh these options and merge or create networks, see [Combine multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md)
+        If your company has business units with different domains, Yammer can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To weigh these options and merge or create networks, see [Combine multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md)
     
 4. Explore the options for managing user identity:
     
-      - Learn how [users are managed](../manage-yammer-users/office-365-sign-in.md), including how user profile data is used in Yammer. If you have Yammer users who aren't in Microsoft 365 or Office 365, you can manage them from within Yammer. See [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). You can also decide whether to [enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md). 
+      - Learn how [users are managed](../manage-viva-engage-users/office-365-sign-in.md), including how user profile data is used in Yammer. If you have Yammer users who aren't in Microsoft 365 or Office 365, you can manage them from within Yammer. See [Add, block, or remove Yammer users](../manage-viva-engage-users/add-block-or-remove-users.md). You can also decide whether to [enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md). 
     
       - Decide whether you'll use Yammer to collaborate with people outside your organization.
     
@@ -69,19 +69,19 @@ This article describes the key concepts you should know, and key decisions you s
     
       - To set up public or private groups, see [Create a group in Yammer](https://support.office.com/article/b407af4f-9a58-4b12-b43e-afbb1b07c889). Though anyone on Yammer can create groups, it is often helpful for the admin to set up groups for each department using a consistent group naming strategy, such as Sales Team, Marketing Team, etc. 
     
-      - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](../manage-yammer-groups/yammer-and-office-365-groups.md), you need to [enforce identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
+      - If you want to use groups that can use Microsoft 365 services, such as SharePoint Online, OneNote, and Planner, called [Microsoft 365 connected groups](../manage-viva-engage-groups/viva-engage-and-office-365-groups.md), you need to [enforce identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
     
       - Set up groups that include external users, called [external groups](../work-with-external-users/create-and-manage-external-groups.md).
     
-      - Decide if you want to use [dynamic groups](../manage-yammer-groups/create-a-dynamic-group.md) to keep membership current as people change roles in your company. 
+      - Decide if you want to use [dynamic groups](../manage-viva-engage-groups/create-a-dynamic-group.md) to keep membership current as people change roles in your company. 
     
 6. People are the core of the enterprise social network, so invite your team to get started on Yammer via the Yammer admin center. 
     
-    Users in Microsoft 365 plans that include Yammer automatically get a license to use Yammer Enterprise, but they may not be automatically added to your Yammer network. For information on how users are added to Yammer, see [Manage Yammer users across their lifecycle](../manage-yammer-users/manage-users-across-their-lifecycle.md).
+    Users in Microsoft 365 plans that include Yammer automatically get a license to use Yammer Enterprise, but they may not be automatically added to your Yammer network. For information on how users are added to Yammer, see [Manage Yammer users across their lifecycle](../manage-viva-engage-users/manage-users-across-their-lifecycle.md).
 
-    If your network is not enforcing Office 365 identity, to ensure that all your Office 365 users are on Yammer, use the Yammer admin center to add them. For more information, see [Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md). 
+    If your network is not enforcing Office 365 identity, to ensure that all your Office 365 users are on Yammer, use the Yammer admin center to add them. For more information, see [Add, block, or remove Yammer users](../manage-viva-engage-users/add-block-or-remove-users.md). 
     
-7. Understand mobile device options, and if needed create a policy for mobile Yammer use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-yammer-with-intune.md). 
+7. Understand mobile device options, and if needed create a policy for mobile Yammer use. For example, you might require that user's have passwords or other locks on their phones in order to use Yammer on their phone. You can monitor device usage through the Yammer admin center, and [manage Yammer devices by using Microsoft Intune](../manage-security-and-compliance/manage-viva-engage-with-intune.md). 
     
 8. Think through how you want to integrate Yammer with other apps, including SharePoint and Teams. 
     
@@ -129,7 +129,7 @@ For the most up-to-date information, see [Office mobile apps](https://go.microso
 
 A: It depends on whether you configure your Yammer network to enforce Office 365 identity.
   
-- If you select the option to enforce Office 365 identity, all users must have a Yammer license through Office 365. For more information, see [Enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md).
+- If you select the option to enforce Office 365 identity, all users must have a Yammer license through Office 365. For more information, see [Enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
     
 - If you do not choose to enforce Office 365 identity, users who are on the same email domain as your Yammer network but do not have Office 365 licenses can join the network by creating a Yammer account at https://www.yammer.com.
     
