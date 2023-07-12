@@ -19,6 +19,8 @@
        items: 
         - name: Set up a Microsoft Viva Glint tenant
           href: setup/viva-glint-tenant-provision.md
+        - name: Set up Employee Lifecycle Surveys
+          href: setup/program-summary-setup-lifecycle.md
         - name: Set up your Viva Glint instance
           href: setup/post-provisioning-next-steps.md
         - name: Viva Glint Licensing
