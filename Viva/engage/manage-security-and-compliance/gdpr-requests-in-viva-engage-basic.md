@@ -126,7 +126,7 @@ There is some user data that is not included in an export. The following table s
 |:-----|:-----|
 |**Type of data** <br/> |**How to change or delete it** <br/> |
 |Bookmarked messages, group membership, followed or following users, and followed topic  <br/> |For steps, see [Tips for staying organized in Yammer](https://support.office.com/article/40ae9666-75c0-4254-a84c-d87a9542f380.aspx).  <br/> |
-|User settings, including notification, application, and language settings  <br/> |For steps, see [Edit your profile and settings](gdpr-requests-in-yammer-basic.md#EditProfile).  <br/> |
+|User settings, including notification, application, and language settings  <br/> |For steps, see [Edit your profile and settings](gdpr-requests-in-viva-engage-basic.md#EditProfile).  <br/> |
    
 ## Remove an invited guest from a conversation
 <a name="InvitedGuest"> </a>
@@ -165,4 +165,4 @@ Users that have been inactive for 12 months are suspended for 14 days and notifi
   
 ## Related articles
 
-[Export data from Yammer Basic](export-yammer-basic-data.md)
+[Export data from Yammer Basic](export-viva-engage-basic-data.md)
