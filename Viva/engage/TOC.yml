@@ -95,7 +95,7 @@
         - name: Integrate Viva Engage with other applications
           href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
         - name: SharePoint enterprise social experience - Viva Engage and Newsfeed
-          href: 
+          href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
         - name: Include a Viva Engage feed in a SharePoint page
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
       - name: Enable rich text formatting
@@ -118,3 +118,6 @@
      items:
        - name: Troubleshoot your Viva Engage network for Native Mode for Microsoft 365
          href: troubleshoot-native-mode.md
+       - name: User sign-in issues on Android devices
+         href: /viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-device
+        
