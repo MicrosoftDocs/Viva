@@ -40,7 +40,7 @@ The concepts of data controller, data processor, and data subject originat
 
 The following illustration shows the central position of the data controller (your organization) between the data subject (left) and the data processor, Microsoft (on the right):
 
-:::image type="content" source="../../media/glint/start/data-entity.md.png" alt-text="Screenshot that displays the data entity of Viva Glint.":::
+:::image type="content" source="../../media/glint/start/data-entity.png" alt-text="Screenshot that displays the data entity of Viva Glint.":::
 
 ### Data controller
 
