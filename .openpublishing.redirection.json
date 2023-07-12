@@ -726,7 +726,7 @@
         "redirect_document_id": false
         },
       {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
-          "redirect_url": "/viva/connections/viva-connections-setup-guide",
+          "redirect_url": "/viva/connections/set-up-admin-center",
           "redirect_document_id": false
       },
       {"source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
@@ -1089,6 +1089,16 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/connections/viva-connections-setup-guide.md",
+        "redirect_url": "/viva/connections/set-up-admin-center",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/connections/add-viva-connections-app.md",
+        "redirect_url": "/viva/connections/set-up-admin-center",
+        "redirect_document_id":false
+      },
+      {
         "source_path": "viva/insights/use/qualtrics.md",
         "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
         "redirect_document_id": false
@@ -1232,6 +1242,39 @@
         "source_path": "Viva/Glint/start/results-rollout-templates.md",
         "redirect_url": "/viva/",
         "redirect_document_id": false
-      }                                                                   
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/maintenance.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/setup-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/advanced/setup-maint/setup.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/privacy-settings",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/setup/configure.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/plans-environments.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/environment-requirements",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/overview/mya-for-admins.md",
+        "redirect_url": "/viva/insights/personal/setup/deployment-guide",
+        "redirect_document_id": false
+      }
+      
+
+                                                                         
     ]
 }

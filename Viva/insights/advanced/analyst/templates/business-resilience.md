@@ -36,6 +36,8 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
+[!INCLUDE [Report setup and run query](includes/report-setup-run-query.md)]
+
 1. In the Viva Insights analyst experience, select **Analysis**.
 2. Under **Power BI templates**, navigate to **Business resilience** and select **Start analysis**. For more information about the Business resilience template before running your analysis, select **Learn more**.
 

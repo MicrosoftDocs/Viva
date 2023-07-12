@@ -1,6 +1,6 @@
 ---
-ms.date: 01/27/2023
-title: "Write annual, organizational OKRs using the 5 Ps"
+ms.date: 06/26/2023
+title: "Write annual, organizational goals using the 5 Ps"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -19,12 +19,15 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Learn how to write annual OKRs at the top level of your organization using the 5 Ps."
+description: "Learn how to write annual goals at the top level of your organization using the 5 Ps."
 ---
 
-# How to write annual, organizational OKRs using the “5 Ps”
+# How to write annual, organizational goals using the “5 Ps”
 
-When first starting out with OKRs, we recommend starting from the top with the senior leadership team. Their first mission is to map out annual, organizational objectives, dictating the most important 3-5 goals that the company wants to achieve in the coming year.  
+When implementing a goal-setting program, one of the most common approaches is to begin with the senior leadership team. Their first mission is to map out annual, organizational objectives, dictating the most important 3-5 goals that the company wants to achieve in the coming year.  
+
+> [!NOTE]
+> Throughout this article, we will use the term “objectives” to represent top-level goals.
 
 Senior leaders should set aside enough time to give these goals serious thought. After all, you're mapping the future direction of the company, below which every team member will align. This meeting isn't just another 11am meeting squeezed in on a Thursday before running to lunch. Companies often set aside a full day or more, including hosting the planning session outside the traditional office environment, at a team offsite. If the team is working remote, give executives plenty of notice to block off several hours for an interruption-free online meeting. 
 
@@ -44,7 +47,7 @@ Remember the ground rules for your Objectives:
 
 Ideally, they should also cover not just "the what", but also "the why". That’s why we like the formula: **verb + What you’re going to do + “so that” or “in order to”**
 
-If this is your first time implementing OKRs, or if you’re looking for some structure to build best practices, there are five broad categories to consider.
+If this is your first time implementing goals, or if you’re looking for some structure to build best practices, there are five broad categories to consider.
 
 We call these the 5 Ps: 
 
@@ -67,7 +70,7 @@ Let’s look at some bad examples first:
 > - **Objective**: Make more money 
 > - **Objective**: Make $10 million dollars 
 
-While the intention is right here, the phrase “Make more money” is too vague, and a bit too crass to be aspirational to your team. “Make $10 million dollars” also lacks the context necessary to be a great OKR. 
+While the intention is right here, the phrase “Make more money” is too vague, and a bit too crass to be aspirational to your team. “Make $10 million dollars” also lacks the context necessary to be a great goal. 
 
 Better example:  
 
@@ -102,7 +105,7 @@ This phrasing is better because it's aspirational and frames the product as some
 
 The third Objective is around your people. Your internal team of employees are one of your most valuable (and expensive) assets, so use this category to set goals around hiring, employee engagement, company culture, or business operations.  
 
-Sometimes writing these OKRs can be a challenge, because they often have less tangible metrics versus those in engineering or sales groups. 
+Sometimes writing these goals can be a challenge, because they often have less tangible metrics versus those in engineering or sales groups. 
 
 A bad example might be: 
 
@@ -162,24 +165,24 @@ Let’s look at a real world case study. Automaker Porsche was founded in 1931, 
 
 The decision to launch that vehicle wasn’t improving business as usual or refreshing their logo. It was aspirational and ambitious and dramatically changed the trajectory of the company. Many people certainly thought, “An SUV? Porsche is completely tarnishing their historic brand!” 
 
-And it’s true. One of the core benefits of OKRs is Focus. The risk is that you’ll be distracted from your core mission. But the payoff for moon shots can be dramatic. Each year since 2015, Porsche has sold as many SUVs as all their other sports cars combined in the US.  
+And it’s true. One of the core benefits of setting great goals is Focus. The risk is that you’ll be distracted from your core mission. But the payoff for moon shots can be dramatic. Each year since 2015, Porsche has sold as many SUVs as all their other sports cars combined in the US.  
 
 Let’s see a few more business examples, and paint the before and after picture for each: 
 
 > [!IMPORTANT]
 > 
-> **OKR**: Expand into the Latin American market in order to capture 15% market share from competitors </br>
+> **Goals**: Expand into the Latin American market in order to capture 15% market share from competitors </br>
 > **Desired result**: A stagnant company with lagging US sales boldly enters a brand new market and disrupts their competition 
 > 
-> **OKR**: Migrate our entire financial system to a modern, cloud-based platform to enable real-time data reporting </br>
+> **Goal**: Migrate our entire financial system to a modern, cloud-based platform to enable real-time data reporting </br>
 > **Desired result**: An old-school manufacturing company with outdated technology updates their IT systems to create efficiencies that will scale output and lead to faster decision-making 
 > 
-> **OKR**: Launch financial planning services in order to diversify away from the core business of tax preparation </br>
+> **Goal**: Launch financial planning services in order to diversify away from the core business of tax preparation </br>
 > **Desired result**: A medium-sized tax preparation company reliant on seasonal boom-or-bust revenue diversifies to offer high-margin financial planning services that provide recurring revenue 
 
 ## Summary
 
-Writing annual, Organization-level Objectives is a crucial part of the OKR process. Objectives should be actionable, aspirational, and meaningful, and should outline the story you wish to describe your accomplishments for the year.
+Writing annual, Organization-level Objectives is a crucial part of the goal setting process. Objectives should be actionable, aspirational, and meaningful, and should outline the story you wish to describe your accomplishments for the year.
 
 As a guide, consider the following five areas to focus your Objectives: 
 
