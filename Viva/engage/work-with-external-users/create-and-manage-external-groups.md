@@ -1,5 +1,5 @@
 ---
-title: "Work with external groups in Yammer networks not aligned to native mode"
+title: "Work with external groups in Viva Engage networks not aligned to native mode"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -23,7 +23,7 @@ description: "Learn about external groups in Viva Engage and how to opt out if y
 
 You can work with guests in Viva Engage if your network isn’t aligned to native mode by creating an external group. You can also limit and turn off collaboration in external groups.
 
-This experience differs from working with the Viva Engage guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-yammer-community.md).
+This experience differs from working with the Viva Engage guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-viva-engage-community.md).
 
 >[!NOTE]
 >Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
@@ -54,8 +54,6 @@ When you create a group, you can decide if it's an internal or external group. Y
 1. In Viva Engage, under the list of groups, select **Create Group**.
     
     The **Create A New Group** dialog box opens. If your network allows external groups, you'll see options to create an Internal Group or External Group: 
-    
-    :::image type="content" source="../../media/387fcf4f-79e9-427a-845b-54e00caf1a43.png" alt-text="Screenshot showing that you can choose to create an Internal or External group.":::
   
 2. Select **External Group**.
     
