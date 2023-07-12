@@ -4,7 +4,7 @@ title: "Automatic Native Mode migration and network consolidation"
 description: "Frequently asked questions about Native Mode for Viva Engage"
 ms.reviewer: auhosford
 ms.author: v-bvrana
-author: v-bvrana
+author: Starshine89
 manager: pamgreen
 audience: Admin
 f1.keywords:

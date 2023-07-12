@@ -4,7 +4,7 @@ title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ms.reviewer: auhosford
 ms.author: v-bvrana
-author: v-bvrana
+author: Starshine89
 manager: pamgreen
 audience: Admin
 f1.keywords:

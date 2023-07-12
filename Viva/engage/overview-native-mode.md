@@ -4,7 +4,7 @@ title: "Overview of Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: auhosford
 ms.author: v-bvrana
-author: v-bvrana
+author: Starshine89
 manager: pamgreen
 audience: Admin
 
