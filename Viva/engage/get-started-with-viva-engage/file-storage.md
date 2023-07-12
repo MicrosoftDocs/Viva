@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 6/28/2023
+ms.date: 7/12/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -23,7 +23,7 @@ search.appverid:
 
 Files uploaded to Viva Engage in Microsoft 365 connected Viva Engage groups are stored in the group's default SharePoint document library. These files can be accessed from within Viva Engage.
 
-For information about using Viva Engage files stored in SharePoint, see the following topics:
+For information about using Viva Engage files stored in SharePoint, see the following articles:
 
 - [Where are my Viva Engage files stored?](https://support.microsoft.com/en-us/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
@@ -58,7 +58,7 @@ Files are stored in SharePoint when they're uploaded to a Microsoft 365 connecte
  > [!NOTE]
  > Any policies configured on the SharePoint document library take precedent over the Viva Engage upload admin configuration when a user tries to upload a file in a connected Viva Engage community.
   
-Files will continue to be stored in Viva Engage cloud storage in the following instances:
+Files continue to be stored in Viva Engage cloud storage in the following instances:
 
 - If the Viva Engage network doesn't use Microsoft 365 connected groups. This includes:
 
@@ -89,10 +89,10 @@ Files will continue to be stored in Viva Engage cloud storage in the following i
   
 ## Where files are stored in SharePoint
 
-Files that users upload in Microsoft 365 connected groups are saved in the **Apps > Yammer** subfolder of the SharePoint document library for the Microsoft 365 connected group. The SharePoint document library can be accessed from Viva Engage under **Microsoft 365 Resources** or **Office 365 Resources** on the right side of a Microsoft 365 connected Viva Engage group, as well as through SharePoint itself.
+Files that users upload in Microsoft 365 connected groups are saved in the **Apps > Viva Engage** subfolder of the SharePoint document library for the Microsoft 365 connected group. The SharePoint document library can be accessed from Viva Engage under **Microsoft 365 Resources** or **Office 365 Resources** on the right side of a Microsoft 365 connected Viva Engage group, as well as through SharePoint itself.
 
  > [!NOTE]
- > We recommend that you do not delete, move, or rename files in the **Apps > Yammer** subfolder.
+ > We recommend that you do not delete, move, or rename files in the **Apps > Viva Engage** subfolder.
   
 ## Guest access to files
 
@@ -143,9 +143,9 @@ For more information about Azure B2B guests, see [Guest access in an Azure Activ
 
     - Ensure there aren’t any extensions that block or prevent reading of cookies, such as Ghostery.
 
-    - In Internet Explorer 11 or Edge, ensure protected mode is disabled for the trusted zone.
+    - In Internet Explorer 11 or Microsoft Edge, ensure protected mode is disabled for the trusted zone.
 
-        Yammer.com and related URLs should be a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-gb/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_yammer)
+        Include **yammer.com** and related URLs as a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-gb/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_yammer)
 
     - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, additional effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
 
