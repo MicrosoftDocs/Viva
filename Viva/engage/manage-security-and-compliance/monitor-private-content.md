@@ -1,14 +1,15 @@
 ---
-title: "Monitor private content in Yammer"
+title: "Monitor private content in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: ToniSFrench
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
 ms.date: 9/23/2019
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -16,14 +17,14 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: b5271fe7-62aa-4dc4-a1d7-b2b0bd23edae
-description: "Verified admins can monitor private conversations in Yammer."
+description: "Verified admins can monitor private conversations in Viva Engage."
 ---
 
-# Monitor private content in Yammer
+# Monitor private content in Viva Engage
 
-Private content in Yammer should be just that—private. However, sometimes there is a need for a verified admin to look into private messages or other content. For example, say you get a report that someone is harassing someone else on a private thread. You need to be able to make sure that members of the network are behaving according to your company's standards. 
+Private content in Viva Engage should be just that—private. However, sometimes there is a need for a verified admin to look into private messages or other content. For example, say you get a report that someone is harassing someone else on a private thread. You need to be able to make sure that members of the network are behaving according to your company's standards. 
   
-As the verified admin of a Yammer network, you can temporarily grant yourself access to private content to investigate issues, and you can then turn off access again to go back to default mode, where you can't read private content. Granting access to private content applies to the following types of content in Yammer:
+As the verified admin of a Viva Engage network, you can temporarily grant yourself access to private content to investigate issues, and you can then turn off access again to go back to default mode, where you can't read private content. Granting access to private content applies to the following types of content in Viva Engage:
   
 - Private messages
     
@@ -34,13 +35,13 @@ As the verified admin of a Yammer network, you can temporarily grant yourself ac
 - Profiles
     
 > [!NOTE]
-> If your Yammer network is associated with Microsoft 365 or Office 365, anyone who is a suite global admin is also a verified admin in Yammer. 
+> If your Viva Engage network is associated with Microsoft 365 or Office 365, anyone who is a suite global admin is also a verified admin in Viva Engage. 
   
- **Grant a verified admin access to private content on Yammer**
+ **Grant a verified admin access to private content on Viva Engage**
   
-1. Log on to Yammer as a verified admin.
+1. Sign in to Viva Engage as a verified admin.
     
-2. Go to **Settings** \> **Network Admin**.
+2. Go to **Settings** \> **Edit network admin settings**.
     
 3. Under **Content and Security**, select **Content Mode**.
     
@@ -52,9 +53,9 @@ When you are done investigating an issue, go back and set the network back to th
   
  **Make private content private again, even to a verified admin**
   
-1. Log on to Yammer as a verified admin.
+1. Log on to Viva Engage as a verified admin.
     
-2. Go to **Settings** \> **Network Admin**.
+2. Go to **Settings** \> **Edit network admin settings**.
     
 3. Under **Content and Security**, select **Content Mode**.
     
@@ -62,5 +63,5 @@ When you are done investigating an issue, go back and set the network back to th
     
 ## Related articles
 
-[Verified Admin Private Content Mode in Yammer (Yammer Developer Center)](https://go.microsoft.com/fwlink/?LinkId=780585)
+[Verified Admin Private Content Mode in Viva Engage (Viva Engage Developer Center)](https://go.microsoft.com/fwlink/?LinkId=780585)
 
