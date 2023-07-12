@@ -8,8 +8,7 @@ manager: pamgreen
 ms.date: 06/28/2023
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: yammer
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
