@@ -145,16 +145,17 @@ Your organization’s Viva Connections app can display a custom icon and label i
 
 ## Customize the banner image
 
-Change the banner image in the header and set the focal point for the image. The banner image only displays in the desktop app.
+Change the banner image in the header and set the focal point for the image. The banner image and focal point can only be set on the desktop app. 
+
+> [!NOTE]
+> - The greeting is automatically generated and cannot be customized.
+> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
+> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customized.
+>  -  The banner image and focal point will resize when viewed via the tablet and mobile app.
 
 1.	Start by selecting **Edit** and then select **Change image**.
 2.	Select the image you’d like to use and then select **Reposition**. 
 3.	Once you are satisfied with the focal point, select **Set focal point** and then **Save**. There is no draft state for the banner image. It will be displayed for all users when you select Save.
-
-> [!NOTE]
-> - The greeting is automatically generated and cannot be customed.
-> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
-> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customed. 
 
 ## Customize the dashboard
 
