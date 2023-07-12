@@ -22,7 +22,7 @@ search.appverid:
 ms.assetid: 008f940b-6bec-47fc-bcc6-9c6133467562
 ---
 
-# Enforce Office 365 identity for Viva users
+# Enforce Office 365 identity for Viva Engage users
 
 As Viva Engage becomes a core service for your organization, you'll want users to be able to log into it seamlessly, just like any other Office 365 service. Additionally, you'll probably want to maintain a single identity for all Office 365 users for easier user management. You can achieve both of these goals by enforcing Office 365 identity in Viva Engage. By enforcing Office 365 identity in Viva Engage and configuring password hash sync, pass-through authentication, or [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated) for Office 365, admins can achieve single sign-on (SSO) capabilities for all services in Office 365, including Viva Engage. 
   
