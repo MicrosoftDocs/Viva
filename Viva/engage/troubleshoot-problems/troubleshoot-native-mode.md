@@ -60,7 +60,7 @@ While new networks will start out in Native Mode beginning in January 2020, exis
 
 #### Are there more licensing requirements when moving to native mode?
 
-Native Mode doesn't require to have any other licensing requirements beyond those required for [Microsoft 365 and Office 365 plans that include Groups](../configure-your-yammer-network/yammer-and-office-365.md)
+Native Mode doesn't require to have any other licensing requirements beyond those required for [Microsoft 365 and Office 365 plans that include Groups](../configure-your-viva-engage-network/viva-engage-and-office-365.md)
 
 ### What features aren't supported in Native Mode and why aren't they supported?
 
@@ -302,10 +302,10 @@ Yammer will continue to improve the Native Mode offering, so you can expect to s
 
 [Overview of Native Mode](../overview-native-mode.md)
 
-[Configure your Yammer network for Native Mode for Microsoft 365](../configure-your-yammer-network/native-mode.md)
+[Configure your Yammer network for Native Mode for Microsoft 365](../configure-your-viva-engage-network/native-mode.md)
 
 [Microsoft 365 Security & Compliance Portal](https://go.microsoft.com/fwlink/?linkid=2111321)
 
 [Manage Yammer data compliance](../manage-security-and-compliance/manage-data-compliance.md)
 
-[Enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md)
+[Enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md)
