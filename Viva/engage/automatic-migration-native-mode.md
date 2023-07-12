@@ -21,11 +21,13 @@ search.appverid:
 ---
 
 # Automatic Native Mode migration and network consolidation
-## Frequently asked questions
+
 
 Non-native and hybrid Viva Engage networks are being automatically upgraded to Native Mode to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network.
 
- Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 will not be approved. Support requests for extensions of existing exemptions will not be approved. Please talk to your account team representative if you have further questions. 
+ Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 will not be approved. Support requests for extensions of existing exemptions will not be approved. Please talk to your account team representative if you have further questions.
+
+## Frequently asked questions
 
 ### How will automatic migration work? 
 
