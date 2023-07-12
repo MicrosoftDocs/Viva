@@ -40,11 +40,11 @@ After a user is connected and using Office 365 sign-in for Viva Engage, the user
   
 ## How do I enable Office 365 sign-in for Viva Engage?
 
-Viva Engage detects when an Azure AD account exists for a user and uses the Office 365 sign-in for Viva Engage. We strongly recommend that admins [Enforce Office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
+Viva Engage detects when an Azure AD account exists for a user and uses the Office 365 sign-in for Viva Engage. We strongly recommend that admins [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
   
 ## Enforce Office 365 sign-in for all users in the network
 
-You can choose to enforce Office 365 sign-in for Viva Engage for all users in the network, effectively disabling the legacy Viva Engage identity (where users sign in with email, password). After this is enforced, all users in the network will need to use Office 365 accounts for sign-in. For more information, see [Enforce office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
+You can choose to enforce Office 365 sign-in for Viva Engage for all users in the network, effectively disabling the legacy Viva Engage identity (where users sign in with email, password). After this is enforced, all users in the network will need to use Office 365 accounts for sign-in. For more information, see [Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
   
 ## Use Viva Engage with other Office 365 services
 
@@ -90,4 +90,4 @@ A: The Office 365 sign-in for Viva Engage automatically respects any Office 365 
     
 **Q: Can I combine Viva Engage networks in order to take advantage of Office 365 sign-in for Viva Engage?**
 
-A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md).
+A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md).

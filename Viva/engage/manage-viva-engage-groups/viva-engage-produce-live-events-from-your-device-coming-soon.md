@@ -45,7 +45,7 @@ Live events produced using Teams can now be scheduled and viewed in Yammer! This
 - Question and Answer + regular Yammer events feed is available.
 - All events are stored in Stream (and are searchable there, like any other live event).
 
-For the full list of features, see [Overview of live events](viva-engage-live-events.md).
+For the full list of features, see [Overview of live events](live-events.md).
 
 ## FAQ
 

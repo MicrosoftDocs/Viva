@@ -36,7 +36,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 |Manage users and maintain single identity for users across all of Office 365.  <br/> |[Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) \*  <br/> |
 |Provide secured access to Viva Engage on iOS and Android devices, and control device access to protect corporate data by using Microsoft Intune.  <br/> |[Manage Viva Engage with Microsoft Intune](manage-viva-engage-with-intune.md) \*  <br/> |
 |Use multiple levels of admin roles so you can assign the correct permissions to match employee's roles.  <br/> |[Manage Viva Engage admins](../manage-viva-engage-users/manage-viva-engage-admins.md) \*  <br/> |
-|Prevent or limit file uploads.|[Configure your Viva Engage network](../configure-your-viva-engage-network/configure-yammer.md) \*|
+|Prevent or limit file uploads.|[Configure your Viva Engage network](../configure-your-viva-engage-network/configure-viva-engage.md) \*|
 |Control external network access.  <br/> |[Manage Viva Engage security settings](viva-engage-security-settings.md) \*  <br/> |
 |Track changes to users, groups, and admins.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
 

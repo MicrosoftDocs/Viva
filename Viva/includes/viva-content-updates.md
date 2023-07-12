@@ -1,6 +1,4 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
-
 
 ## Week of July 03, 2023
 
@@ -164,3 +162,4 @@
 | 6/9/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
 | 6/9/2023 | [Use the Power BI connector](/viva/insights/advanced/analyst/power-bi-connector) | added |
 | 6/9/2023 | Viva Insights and Qualtrics integration | removed |
+

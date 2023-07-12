@@ -32,6 +32,6 @@ On the Yammer web app, you can further customize your network by uploading a com
 
 ## See also
 
-[Customize your Yammer community](customize-your-viva-engage-community.md)
+[Customize your Yammer community](customize-your-community.md)
 
 [Favorite communities](favorite-communities.md)
