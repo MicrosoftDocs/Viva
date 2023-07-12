@@ -35,14 +35,14 @@ For information about when email notifications are sent, see [email and push not
   
 ## Initial setup: Follow Office 365 email best practices
 
-Follow the best security practices in [Microsoft 365 for Business](/microsoft-365/business-premium/secure-your-business-data?view=o365-worldwide). If these configurations aren't in place, users may be required to take extra steps to verify every message sent to Viva Engage by email.
+Follow the best security practices in [Microsoft 365 for Business](/microsoft-365/business-premium/secure-your-business-data). If these configurations aren't in place, users may be required to take extra steps to verify every message sent to Viva Engage by email.
   
 > [!NOTE]
 > These email setting changes must be done by your internal email administrator. Viva Engage admins and support can't help configure your mail systems.
   
 - See [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) to find information about URL and IP Safe Recipients lists.
 
-- When using Viva Engage through an email client, it's recommended that SPF and/or DKIM is configured within your email system. For details, see Microsoft Defender for Office 365 documentation.
+- When using Viva Engage through an email client, we recommended configuring SPF and/or DKIM within your email system. For details, see [Microsoft Defender for Office 365 documentation](/microsoft-365/security/office-365-security).
 
 ## Email settings admins control
 
@@ -59,5 +59,3 @@ Users control what email notifications they receive.
 Users can go to Viva Engage settings \> **Edit settings** \> **Notifications** and select which notifications to receive.
   
 For more information, see [Viva Engage email and push notifications](https://support.office.com/article/93e530e0-189f-4768-8f28-7683d48cc996).
-
-
