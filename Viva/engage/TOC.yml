@@ -49,7 +49,7 @@
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
         - name: Work with AzureAD-B2B guests in Viva Engage communities
-          href: azure-ad-b2b-guests-engage.md        
+          href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
    - name: Privacy and security
