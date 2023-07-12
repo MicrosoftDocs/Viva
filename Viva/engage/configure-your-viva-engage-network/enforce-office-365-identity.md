@@ -166,4 +166,4 @@ A: Users will be signed out of their web and mobile sessions immediately and mus
   
 ### Q: How can I audit and clean up Viva Engage users when compared to Office 365 and Azure AD?
 
-A: You can audit Viva Engage users in networks connected to Office 365 and take appropriate actions based on it. See more information and examples in [How to audit Viva Engage users in networks connected to Office 365](../manage-yammer-users/audit-users-connected-to-office-365.md).
+A: You can audit Viva Engage users in networks connected to Office 365 and take appropriate actions based on it. See more information and examples in [How to audit Viva Engage users in networks connected to Office 365](../manage-viva-engage-users/audit-users-connected-to-office-365.md).

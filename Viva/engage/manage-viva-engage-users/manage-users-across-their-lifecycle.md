@@ -158,7 +158,7 @@ The process follows these steps:
     Similarly, when a user is deactivated in Yammer, that user becomes inactive in Yammer. After approximately 90 days, deactivated users are permanently removed, but their name, files, messages and activity data are retained. 
     
     > [!IMPORTANT]
-    > When you delete a user from Office 365 and this flows through to Yammer, the user's name, files, messages, and activity data remain in Yammer even though the user is deleted. For options that remove a user in a way that the user's name and data are also deleted from Yammer, see [Remove users](add-block-or-remove-users.md#RemoveUsers) and [Manage GDPR data subject requests in Yammer Enterprise](../manage-security-and-compliance/gdpr-requests-in-yammer-enterprise.md). 
+    > When you delete a user from Office 365 and this flows through to Yammer, the user's name, files, messages, and activity data remain in Yammer even though the user is deleted. For options that remove a user in a way that the user's name and data are also deleted from Yammer, see [Remove users](add-block-or-remove-users.md#RemoveUsers) and [Manage GDPR data subject requests in Yammer Enterprise](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md). 
   
 ## Restore a user
 
@@ -261,4 +261,4 @@ A: The users who log on to Yammer with Office 365 credentials can be managed in 
 
 [Change my profile settings](https://support.office.com/article/cb9b9f8b-391d-424b-b752-5e23619fadec)
 
-[Add, block, or remove Yammer users](../manage-yammer-users/add-block-or-remove-users.md)
+[Add, block, or remove Yammer users](../manage-viva-engage-users/add-block-or-remove-users.md)

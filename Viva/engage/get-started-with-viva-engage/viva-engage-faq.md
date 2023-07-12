@@ -141,14 +141,14 @@ There will be more updates to Yammer in the upcoming months. Refer to the [Micro
 
 **Q: How can I get new Yammer within my organization?**  
 
-A: Yammer global administrators and verified network admins can configure access to new Yammer through the Yammer admin portal. From there, they can enable the toggle to display in the suite header or enable new Yammer across their network. For more information about managing opt-in settings, see [Bring new Yammer to your organization](administrative-settings-opt-in-newyammer.md).
+A: Yammer global administrators and verified network admins can configure access to new Yammer through the Yammer admin portal. From there, they can enable the toggle to display in the suite header or enable new Yammer across their network. For more information about managing opt-in settings, see [Bring new Yammer to your organization](administrative-settings-opt-in.md).
 
 **Q: Where can I find resources to help with deploying the new Yammer within my organization?**
 
 A: The [Yammer Adoption Center](https://resources.techcommunity.microsoft.com/yammer/adoption/) includes materials to help you deploy new Yammer across your organization. This includes email templates for your internal announcement, Yammer tips and tricks, and a template for the new Community cover photos. There’s also a [Yammer end user guide](https://onedrive.live.com/view.aspx?resid=8D13E85F1CF91770!254&ithint=file%2cpptx&authkey=!ACrN15bnGCy_ZTs) to help your organization get up-to-speed quickly. 
 
 **Q: Can we opt out of new Yammer at any time?**
-A: Any users who have opted into the new Yammer experience will remain in that experience until they choose to go back to the classic experience. For more information about managing the available options, see [Bring new Yammer to your organization](administrative-settings-opt-in-newyammer.md).
+A: Any users who have opted into the new Yammer experience will remain in that experience until they choose to go back to the classic experience. For more information about managing the available options, see [Bring new Yammer to your organization](administrative-settings-opt-in.md).
 
 **Q: Will links automatically redirect to the new or classic Yammer depending on my user setting?**
 
@@ -176,7 +176,7 @@ A: All languages available in classic Yammer are available in new Yammer.
 
 ## Related articles
 
-[Bring new Yammer to your organization](administrative-settings-opt-in-newyammer.md)
+[Bring new Yammer to your organization](administrative-settings-opt-in.md)
 
 [Yammer Blog](https://techcommunity.microsoft.com/t5/yammer-blog/bg-p/YammerBlog)
 

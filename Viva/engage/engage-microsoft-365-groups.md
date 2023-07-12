@@ -36,7 +36,7 @@ Communities that are connected to Microsoft 365 have many advantages over commun
 - Create and host live events. ([Live events in Viva Engage](organize-live-event.md))
 - Use Microsoft 365 connectors to add apps. ([Add apps to Viva Engage](https://support.microsoft.com/en-us/office/add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
-- Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](./manage-yammer-groups/create-a-dynamic-group.md))
+- Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](./manage-viva-engage-groups/create-a-dynamic-group.md))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
 - See the group in the Global Address List in Outlook.
 - Monitor group usage through the Microsoft 365 groups activity report. ([Microsoft 365 Groups activity report](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40))
@@ -117,7 +117,7 @@ A: No. Groups created by people who are restricted from creating Microsoft 365 g
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365-connected Viva Engage groups work?
   
-A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple networks](./configure-your-yammer-network/consolidate-multiple-yammer-networks.md). This setup is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple networks](./configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md). This setup is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   

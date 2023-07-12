@@ -53,7 +53,7 @@ A: eDiscovery will put a copy of all Yammer messages into a hidden folder in the
 
 **Q: What is Native Mode?**
 
-A: In Native Mode, all Yammer users are in AAD, all groups are Microsoft 365 Groups, and all files are stored in SharePoint Online. As of November 2019, all new Yammer Networks start in Native Mode. Existing Yammer Networks can [migrate to Native Mode](../configure-your-yammer-network/native-mode.md).
+A: In Native Mode, all Yammer users are in AAD, all groups are Microsoft 365 Groups, and all files are stored in SharePoint Online. As of November 2019, all new Yammer Networks start in Native Mode. Existing Yammer Networks can [migrate to Native Mode](../configure-your-viva-engage-network/native-mode.md).
 
 ## Workflow
 

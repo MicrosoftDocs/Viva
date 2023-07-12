@@ -32,12 +32,12 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 
 | Task <br/> | How To <br/> |
 |:-----|:-----|
-|Set password policies and logical firewalls to control access to Viva Engage.  <br/> |[Manage Viva Engage security settings](yammer-security-settings.md) \*  <br/> |
-|Manage users and maintain single identity for users across all of Office 365.  <br/> |[Enforce office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md) \*  <br/> |
-|Provide secured access to Viva Engage on iOS and Android devices, and control device access to protect corporate data by using Microsoft Intune.  <br/> |[Manage Viva Engage with Microsoft Intune](manage-yammer-with-intune.md) \*  <br/> |
-|Use multiple levels of admin roles so you can assign the correct permissions to match employee's roles.  <br/> |[Manage Viva Engage admins](../manage-yammer-users/manage-yammer-admins.md) \*  <br/> |
-|Prevent or limit file uploads.|[Configure your Viva Engage network](../configure-your-yammer-network/configure-yammer.md) \*|
-|Control external network access.  <br/> |[Manage Viva Engage security settings](yammer-security-settings.md) \*  <br/> |
+|Set password policies and logical firewalls to control access to Viva Engage.  <br/> |[Manage Viva Engage security settings](viva-engage-security-settings.md) \*  <br/> |
+|Manage users and maintain single identity for users across all of Office 365.  <br/> |[Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) \*  <br/> |
+|Provide secured access to Viva Engage on iOS and Android devices, and control device access to protect corporate data by using Microsoft Intune.  <br/> |[Manage Viva Engage with Microsoft Intune](manage-viva-engage-with-intune.md) \*  <br/> |
+|Use multiple levels of admin roles so you can assign the correct permissions to match employee's roles.  <br/> |[Manage Viva Engage admins](../manage-viva-engage-users/manage-viva-engage-admins.md) \*  <br/> |
+|Prevent or limit file uploads.|[Configure your Viva Engage network](../configure-your-viva-engage-network/configure-yammer.md) \*|
+|Control external network access.  <br/> |[Manage Viva Engage security settings](viva-engage-security-settings.md) \*  <br/> |
 |Track changes to users, groups, and admins.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
 
 ## Compliance admin features
@@ -46,7 +46,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 
 | Task <br/> | How To <br/> |
 |:-----|:-----|
-|Comply with GDPR requirements.  <br/> |[Manage GDPR data subject requests in Viva Engage](gdpr-requests-in-yammer-enterprise.md) \* |
+|Comply with GDPR requirements.  <br/> |[Manage GDPR data subject requests in Viva Engage](gdpr-requests-in-viva-engage-enterprise.md) \* |
 |View compliance reports. Viva Engage is Tier-C compliant in the Office 365 Compliance Framework, which covers SOC 1, HIPAA, EU Model Clauses, IRAP, and (SEC) Rule 17a-4(f).  <br/> |[Compliance Framework Documentation for Office 365](/compliance/regulatory/offering-home)\* 
 |Control data retention policies, and view private messages if needed for discovery purposes.  <br/> |[Manage Viva Engage data compliance](manage-data-compliance.md) \*  <br/> |
 |Export data to review compliance issues.  <br/> |[Export data from Viva Engage](../eac-as-manage-data.md) \* |
@@ -71,7 +71,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 | Task <br/> | How To <br/> |
 |:-----|:-----|
 |Use Microsoft 365 group naming policies to enforce consistent group naming.  <br/> |[Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552)\*  <br/> |
-|For large organizations, use dynamic groups to update group membership automatically as people join, leave, or move within your organization.  <br/> |[Create a dynamic group in Viva Engage](../manage-yammer-groups/create-a-dynamic-group.md) \*  <br/> |
+|For large organizations, use dynamic groups to update group membership automatically as people join, leave, or move within your organization.  <br/> |[Create a dynamic group in Viva Engage](../manage-viva-engage-groups/create-a-dynamic-group.md) \*  <br/> |
 |Set expiration policies for Office 365 connected Viva Engage groups. When set, group owners are prompted to renew the groups if they still need them.  <br/> |[Microsoft 365 Group Expiration policy](https://support.office.com/article/8d253fe5-0e09-4b3c-8b5e-f48def064733.aspx)\*  <br/> |
 
 <a name="Security"> </a>
@@ -177,7 +177,7 @@ Viva Engage participates in the [Microsoft Online Services Bug Bounty](https://g
 
 ### Q: Can I enforce multifactor authentication?
 
-A: For Viva Engage Enterprise, if you enforce Office 365 identity in Viva Engage. For more information, see [Set up multi-factor authentication for Office 365 users](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6) and [Enforce office 365 identity for Viva Engage users](../configure-your-yammer-network/enforce-office-365-identity.md).
+A: For Viva Engage Enterprise, if you enforce Office 365 identity in Viva Engage. For more information, see [Set up multi-factor authentication for Office 365 users](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6) and [Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ### Q: How do I manage Viva Engage on mobile devices?
 
@@ -185,7 +185,7 @@ A: Viva Engage is available for major mobile platforms, including the iPhone, iP
 
 Viva Engage Enterprise offers session management capabilities so that a user or administrator can end any Viva Engage session on any device if needed.
 
-Viva Engage Enterprise devices can be managed with Microsoft Intune. For more information, see [Manage Viva Engage with Microsoft Intune](manage-yammer-with-intune.md).
+Viva Engage Enterprise devices can be managed with Microsoft Intune. For more information, see [Manage Viva Engage with Microsoft Intune](manage-viva-engage-with-intune.md).
 
 ### Q: How can I manage my users?
 

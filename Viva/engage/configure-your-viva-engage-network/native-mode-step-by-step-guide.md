@@ -26,11 +26,11 @@ Any network that was created after January 16, 2020 is already in Native Mode an
  > [!NOTE]
 > Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
 
-The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Yammer Network, see [Overview of Native Mode](../configure-your-yammer-network/native-mode.md).
+The following steps show you what actions to take before and during a transition to Native Mode. For more information on what Native Mode means for your Yammer Network, see [Overview of Native Mode](../configure-your-viva-engage-network/native-mode.md).
 
 ## 1. Initial Steps to access the Native Mode Alignment Tool
 
-Once you're ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Yammer Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md).
+Once you're ready to align your network to Native Mode, you’ll need to make sure that your Microsoft tenant has just one Yammer Network associated with it.  If you have more than one Yammer Network on your Microsoft tenant, you’ll first need to complete the steps listed in [Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md).
 
 After you have ensured that there's just one Yammer Network in your Microsoft tenant, you'll need to ensure that that network enforces Microsoft 365 Identity. Additional information on enforcing Identity can be found in [Enforce Microsoft 365 Identity](./enforce-office-365-identity.md).
 
@@ -78,11 +78,11 @@ When run, the Alignment Tool will attempt to map all unmapped users to an existi
   Exporting a large volume of content from your network is a multi-step process:
 
   1.	**Export message data** 
-          - We suggest exporting the message data using the [Network Data Export feature](../manage-security-and-compliance/export-yammer-enterprise-data.md#ExportNetworkData) within the Yammer Admin panel.
+          - We suggest exporting the message data using the [Network Data Export feature](../manage-security-and-compliance/export-viva-engage-enterprise-data.md#ExportNetworkData) within the Yammer Admin panel.
           - We suggest limiting your export to a maximum date range of two months at a time and excluding attachments. If you choose to include attachments, you may need to limit your date range significantly further (often just one week at a time) to prevent the system from encountering timeout errors.
 
   2. **Export files**
-        - We suggest exporting files separately from messages using the [Yammer file export API](../manage-security-and-compliance/export-yammer-enterprise-data.md#export-yammer-files-via-api).
+        - We suggest exporting files separately from messages using the [Yammer file export API](../manage-security-and-compliance/export-viva-engage-enterprise-data.md#export-yammer-files-via-api).
         - Using this API you can export all the files from a specified date range. This API supports concurrent requests (up to 6) and each request should be limited to a two-month date range. This will allow you to simultaneously export a full year of files in one API call.
 
 ## 5. Running the Alignment Tool for the first time

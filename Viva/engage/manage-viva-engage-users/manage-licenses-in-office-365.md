@@ -23,7 +23,7 @@ description: "Yammer is moving from a licensing model where the entire Office 36
 
 When you assign user licenses as part of a bundled Office 365 subscription plan such as Office 365 Enterprise E3, the Yammer license is automatically assigned to the user. You can remove or assign Yammer licenses for specific users in the Microsoft 365 admin center or by using Windows PowerShell cmdlets for Office 365.
   
-You can block users who don't have Yammer licenses from accessing Yammer by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-yammer-licenses-in-office-365.md#StartBlocking)).
+You can block users who don't have Yammer licenses from accessing Yammer by turning on the security setting **Block Office 365 users without Yammer licenses** (see [Start blocking users who don't have Yammer licenses](manage-licenses-in-office-365.md#StartBlocking)).
   
 You need to be an Office 365 global administrator or user management administrator to do the following operations.
   
@@ -90,7 +90,7 @@ Below are some example Windows PowerShell script snippets that you can use to ma
 
 It takes just a few steps to start blocking Office 365 users who don't have Yammer licenses. However, turning this setting on can accidentally disrupt users' access to Yammer. So before you begin, do the following to make sure your Yammer users can continue working smoothly:
   
-- **Make sure that you have turned on the setting to enforce Office 365 identity for Yammer users.** You can assign or unassign Yammer licenses only to Yammer users who are managed in Office 365. So, to block Office 365 users without Yammer licenses, it is required that all Yammer users are managed in Office 365. The setting **Block Office 365 users without Yammer licenses** can be turned on only when the [Enforce office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md) setting is turned on. 
+- **Make sure that you have turned on the setting to enforce Office 365 identity for Yammer users.** You can assign or unassign Yammer licenses only to Yammer users who are managed in Office 365. So, to block Office 365 users without Yammer licenses, it is required that all Yammer users are managed in Office 365. The setting **Block Office 365 users without Yammer licenses** can be turned on only when the [Enforce office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md) setting is turned on. 
     
 - **Make sure all current Yammer users have a Yammer license.** When you start blocking Office 365 users without Yammer licenses, any user without a Yammer license will be unable to access Yammer. So before you begin, make sure that all of your current Yammer users have Yammer licenses. One method to check this is to go to the **Export Users** page in Yammer and export all users. Then compare that list to the list of users in Office 365 and make any changes required. For more details, see the article [How to audit Yammer users in networks connected to Office 365](audit-users-connected-to-office-365.md).
     
@@ -135,7 +135,7 @@ A: Licenses are enforced only for users who sign-in with Office 365 identity.
   
 ### Q: What if I do not want anyone in my company to use legacy Yammer identity?
 
-A: You can [Enforce Office 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for all your Yammer users. 
+A: You can [Enforce Office 365 identity](../configure-your-viva-engage-network/enforce-office-365-identity.md) for all your Yammer users. 
   
 ### Q: How can I tell if all of my Yammer users have accounts in Office 365?
 

@@ -54,7 +54,7 @@ To access the Viva Engage network configuration tools:
 
 - On the **Configuration** page, in the **Email Settings** section, select whether to require users to confirm messages posted using email before posting.
 
-    For more information about email and Viva Engage, see [Configure email and Viva Engage](configure-email-and-yammer.md).
+    For more information about email and Viva Engage, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
 
 ## Restrict who can upload files and limit file formats
 

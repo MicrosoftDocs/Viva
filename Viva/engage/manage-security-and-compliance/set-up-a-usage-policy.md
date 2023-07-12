@@ -79,7 +79,7 @@ You can add a custom link to your organization's browser policy. The link will b
     
 ## Related articles
 
-[Manage Yammer security settings](yammer-security-settings.md)
+[Manage Yammer security settings](viva-engage-security-settings.md)
   
 [Overview of security and compliance in Yammer](security-and-compliance.md)
 

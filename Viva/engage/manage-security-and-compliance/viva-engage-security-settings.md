@@ -70,7 +70,7 @@ Control where people can access Viva Engage from, set password policies, control
 
 2. In the **Office 365 Identity Enforcement** section, select **Enforce Office 365 identity in Viva Engage**.
 
-    For information about this setting, see [Enforce Office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md)
+    For information about this setting, see [Enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md)
 
 ## Learn the status of Microsoft 365 Connected Groups
 

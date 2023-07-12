@@ -34,10 +34,10 @@ You can tell if a group in Yammer is a Microsoft 365 connected group when you se
 Microsoft 365 connected groups have many advantages over non-connected Yammer groups:
 
 - Access Microsoft 365 services, including a SharePoint Online team site and document library, a OneNote notebook, a plan in Planner, from within Yammer. Also includes integration with Power BI and Stream.
-- Create and host live events ([Live events in Yammer](../manage-yammer-groups/yammer-live-events.md))
+- Create and host live events ([Live events in Yammer](../manage-viva-engage-groups/viva-engage-live-events.md))
 - Use Office 365 connectors to add apps to classic Yammer ([Add apps to Yammer](https://support.office.com/article/Add-apps-to-Yammer-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 groups ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
-- Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](../manage-yammer-groups/create-a-dynamic-group.md))
+- Use dynamic groups to automatically update group membership from Azure Active Directory ([Create a dynamic group](../manage-viva-engage-groups/create-a-dynamic-group.md))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
 - Use data classification to create your own classifications of Microsoft 365 groups, such as unclassified, corporate confidential, or top secret. ([Configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets))
 - See the group in the Global Address List (GAL) in Outlook.
@@ -50,7 +50,7 @@ Microsoft 365 connected groups have many advantages over non-connected Yammer gr
 
 To use Microsoft 365 connected groups in Yammer, make sure your Yammer network meets the following requirements:
 
-- You must [enforce Office 365 identity](../configure-your-yammer-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Office 365 identity there is a seven-day trial period, after which the **Status** of your  **Office 365 Identity Enforcement** changes to **Committed**.
+- You must [enforce Office 365 identity](../configure-your-viva-engage-network/enforce-office-365-identity.md) for Yammer users. When you first enforce Office 365 identity there is a seven-day trial period, after which the **Status** of your  **Office 365 Identity Enforcement** changes to **Committed**.
 
 - Since October 16, 2018, all Yammer networks must be in a 1:1 network configuration. This means you have one Yammer network that is associated with one Office 365 tenant. This is required as of October 16, 2018. 
 
@@ -123,7 +123,7 @@ A: No. Groups created by people who you have restricted from creating Microsoft 
   
 ### Q: If I have multiple Yammer networks that are mapped to Microsoft 365, will the Microsoft 365 connected Yammer groups work?
   
-A: No. The Microsoft 365 connected Yammer groups experience will work only for Office 365 tenant that is associated with a single Yammer network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
+A: No. The Microsoft 365 connected Yammer groups experience will work only for Office 365 tenant that is associated with a single Yammer network. See [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md) for information on how to consolidate your Yammer networks. This  is required for all Yammer networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   
@@ -239,4 +239,4 @@ Changes to connected groups can take up to 24 hours to take effect throughout yo
 
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-[Export data from Yammer Enterprise](../manage-security-and-compliance/export-yammer-enterprise-data.md)
+[Export data from Yammer Enterprise](../manage-security-and-compliance/export-viva-engage-enterprise-data.md)

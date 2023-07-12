@@ -21,7 +21,7 @@ description: "Monitor your Viva Engage data with these features: keyword monitor
 
 # Manage Viva Engage data compliance
 
-As a Viva Engage admin, you can keep your users' Viva Engage posts appropriate and meet security and compliance requirements. You can set up alerts for content that matches keywords, set data retention policies, and if needed, you can view private content. You can also [export data from Viva Engage](export-yammer-enterprise-data.md).
+As a Viva Engage admin, you can keep your users' Viva Engage posts appropriate and meet security and compliance requirements. You can set up alerts for content that matches keywords, set data retention policies, and if needed, you can view private content. You can also [export data from Viva Engage](export-viva-engage-enterprise-data.md).
 
 <a name="MonitorKeywords"> </a> 
 ## Monitor Keywords

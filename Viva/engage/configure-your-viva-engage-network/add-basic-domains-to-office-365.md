@@ -49,15 +49,15 @@ Below is a set of actions we immediately take after you add a domain. Also, ther
 
 2. Choose the network formerly associated with your domain from the list of available networks.
 
-3. Export the data for the network formerly associated with your domain. For instructions, see [Export data from Yammer Enterprise](../manage-security-and-compliance/export-yammer-enterprise-data.md). None of the data from your Yammer Basic Network are migrated to your Yammer Enterprise network for your Office 365 tenant.
+3. Export the data for the network formerly associated with your domain. For instructions, see [Export data from Yammer Enterprise](../manage-security-and-compliance/export-viva-engage-enterprise-data.md). None of the data from your Yammer Basic Network are migrated to your Yammer Enterprise network for your Office 365 tenant.
 
 >[!NOTE]
 > If you do not want to access or download content from the network formerly associated with the added domain, you don’t need to do anything. **The network formerly associated with the added domain—including all data in such a network—will be automatically deleted.**
 
 ## Additional information
 
-- To learn what to do when a domain associated with a Basic Yammer network is added to your Office 365 tenant, see [Manage Yammer domains in Office 365](manage-yammer-domains.md).
+- To learn what to do when a domain associated with a Basic Yammer network is added to your Office 365 tenant, see [Manage Yammer domains in Office 365](manage-viva-engage-domains.md).
 
 ## Related articles
 
-[Network migration - Consolidate multiple Yammer networks](consolidate-multiple-yammer-networks.md)
+[Network migration - Consolidate multiple Yammer networks](consolidate-multiple-viva-engage-networks.md)

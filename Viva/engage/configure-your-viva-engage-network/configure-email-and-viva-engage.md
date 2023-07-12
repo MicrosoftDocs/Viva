@@ -50,7 +50,7 @@ Admins control the following settings:
   
 - The logo on emails that Viva Engage sends to users.
 
-- Whether all users have to confirm messages posted by email. For more information, see [Configure your Viva Engage network](configure-yammer.md).
+- Whether all users have to confirm messages posted by email. For more information, see [Configure your Viva Engage network](configure-viva-engage.md).
 
 ## Email settings users control
 

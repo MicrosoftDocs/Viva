@@ -36,6 +36,6 @@ Screenshot of :::image type="content" source="../../media/yam-group-header-mobil
 
 ## See also
 
-[Customize your Yammer community](customize-your-yammer-community.md)
+[Customize your Yammer community](customize-your-viva-engage-community.md)
 
 [Customize your network](customize-your-network.md)
