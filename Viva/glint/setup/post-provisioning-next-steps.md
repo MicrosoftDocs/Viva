@@ -75,7 +75,7 @@ In order for you, as the Global administrator, to assign service admins without 
 ### 1. Begin Viva Glint platform setup
 
 - [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2230921)
-- [Manage Allowed Lists](https://www.microsoft.com/en-us/?ql=3)
+- [Manage Allowed Lists](https://www.microsoft.com/?ql=3)
 - [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
@@ -151,7 +151,7 @@ Within Microsoft Learn, admins are recommended to invest time in learning about 
 
 ## Microsoft Viva Adoption
 
-Find resources to go from inspiration to execution. Adoption resources will give you the tools you need to implement Viva Glint. Our papers will guide you through some of the most pressing issues in the employee experience space. [Find resources to support your Viva Glint adoption here.](https://adoption.microsoft.com/en-us/viva/glint/)
+Find resources to go from inspiration to execution. Adoption resources will give you the tools you need to implement Viva Glint. Our papers will guide you through some of the most pressing issues in the employee experience space. [Find resources to support your Viva Glint adoption here.](https://adoption.microsoft.com/viva/glint/)
 
 ## Microsoft Viva Support
 
