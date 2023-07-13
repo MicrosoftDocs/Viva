@@ -22,7 +22,7 @@ ms.date: 04/21/2023
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
-- If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md)
+- If you haven't already completed tenant provisioning, set up a Microsoft Viva tenant.
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment.
 
 ## Add administrators to your Viva Glint instance
