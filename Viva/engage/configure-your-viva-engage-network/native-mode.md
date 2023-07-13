@@ -49,7 +49,7 @@ Native Mode has the following requirements:
 
 The Tool prepares your network for Native Mode by disabling some features and mitigating previously created instances of those features. Those changes include:
 
-- Any unlisted private groups in your network is changed to private listed groups. Users are unable to create unlisted private groups.
+- Any unlisted private groups in your network are changed to private listed groups. Users are unable to create unlisted private groups.
 
 - External groups in Viva Engage are not supported. All external groups are made internal only, and any external users in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
 
