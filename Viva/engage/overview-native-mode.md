@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
-title: "Overview of Native Mode for Microsoft 365"
+ms.date: 7/13/2023
+title: "Overview of Viva Engage in Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: ethli
-ms.author: dmillerdyson
-author: dmillerdyson
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Overview of Native Mode
+# Overview of Viva Engage in Native Mode for Microsoft 365 
 
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 

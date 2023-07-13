@@ -26,10 +26,10 @@
        href: eac-as-access-eac.md 
      - name: Network configuration
        items:
-        - name: Configure your network
+        - name: Configure your Viva Engage network
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
-        - name: Configure your network for Native Mode
-          href: /viva/engage/configure-your-viva-engage-network/native-mode
+        - name: Configure your Viva Engage network for Native Mode
+          href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
         - name: Viva Engage Native Mode step-by-step guide
           href: native-mode-guide.md
         - name: Network migration - Consolidate multiple networks
@@ -78,7 +78,7 @@
        items:   
         - name: Manage data compliance in Viva Engage
           href: /viva/engage/manage-security-and-compliance/manage-data-compliance
-        - name: Data residency
+        - name: Data residency for Viva Engage
           href: /viva/engage/manage-security-and-compliance/data-residency
         - name: Export Viva Engage Data
           href: eac-as-manage-data.md
@@ -118,7 +118,7 @@
         items:   
         - name: Set up Answers in Viva Engage
           href: eac-answers-overview-set-up.md
-        - name: Admin scenarios for Answers in Viva Engage
+        - name: Scenarios for Answers in Viva Engage
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md
