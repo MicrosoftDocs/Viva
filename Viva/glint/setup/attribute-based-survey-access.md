@@ -56,21 +56,3 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 3. At the top of the page, select **Copy survey link,** and then **Copy** in the dialog box.
 4. Optionally, use online tools to convert this link into a QR code or shortened link for easy participation on mobile devices.
 
-## Activate kiosk mode for attribute-based survey access
-
-Consider optional kiosk activation of public devices to ensure that users only participate on registered, shared devices. To activate kiosk mode:
-
-1. After Attribute-based Survey Access setup, from the admin dashboard select **Advanced Configuration.**
-2. Select **Surveys** and then the survey program.
-3. In *Kiosks* select **Create Kiosk.**
-4. In the *Create Kiosk* dialog, enter a **Device Name** (for example: Redmond Office).
-5. In the ***Create Kiosk*** dialog, enter 365 in the **Days Until Expiration** field.
-6. Select **Create.** Repeat for all devices.
-7. For each device, in **Kiosks**, make note of the **Device Name** and **Passcode**.
-8. Update the following URL, depending on your region, with company ID.
-   1. **US** : app.us1.glint.cloud.microsoft/companyid/kiosk
-   2. **EU:** app.eu1.glint.cloud.microsoft/companyid/kiosk
-9. For each device, enter the URL above.
-10. When prompted by a dialog, enter the Passcode in the *Kiosk Activation Code* field, and select **Enable Kiosk**.
-11. Repeat for all devices.
-12. Bookmark the survey landing page on each shared device for users to easily access the survey
