@@ -91,7 +91,7 @@ A: Privacy and security is really important to us, too. We've spent a long time 
   
 - **Clear UI warnings:** We've built warnings to ensure users are consciously aware before they add an external participant. When you add an external user to a conversation or reply to a conversation with an external participant, you'll see a clear warning in the UI. See [Add an external participant](add-external-participants.md#AddExternal).
     
-- **Disable external messaging:** We've created options for [verified admins](../manage-yammer-users/manage-yammer-admins.md) to turn off external collaboration.  See [Disable external messaging](disable-external-messaging.md).
+- **Disable external messaging:** We've created options for [verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) to turn off external collaboration.  See [Disable external messaging](disable-external-messaging.md).
     
 - **Remove users:** You can remove external participants from a conversation. Once removed, a user can't view that conversation anymore. Both network and group admins can remove users from conversations. See [Remove an external participant from a conversation](add-external-participants.md#RemoveExternal).
     
@@ -125,7 +125,7 @@ A: No. Because permissions restrict the audience to privileged members, external
   
 ### Q: Where does the data for external participants live?
 
-A: The conversation data is available to [verified admins](../manage-yammer-users/manage-yammer-admins.md) (by using data export) of any participant on the conversation. So if your employee is participating in a conversation on another network, because that conversation shows up in their inbox, it is available in your network's data export. For more information, see [Find external participants in a Viva Engage network](find-external-participants.md).
+A: The conversation data is available to [verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) (by using data export) of any participant on the conversation. So if your employee is participating in a conversation on another network, because that conversation shows up in their inbox, it is available in your network's data export. For more information, see [Find external participants in a Yammer network](find-external-participants.md).
   
 ### Q: When I add an external participant to a conversation do they enter my network?
 
@@ -133,7 +133,7 @@ A: No. External participants can only participate in conversations they have bee
   
 ### Q: What rights do verified admins have?
 
-A: [Verified admins](../manage-yammer-users/manage-yammer-admins.md) can remove all external participants from any conversation any time. They can also see which files and conversations are accessible to external users by using data export. For more information, see [Find external participants in a Viva Engage network.](find-external-participants.md)
+A: [Verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) can remove all external participants from any conversation any time. They can also see which files and conversations are accessible to external users by using data export. For more information, see [Find external participants in a Yammer network.](find-external-participants.md)
   
 ### Q: If I have keyword monitoring in place, will it apply to messages external participants post in my network?
 

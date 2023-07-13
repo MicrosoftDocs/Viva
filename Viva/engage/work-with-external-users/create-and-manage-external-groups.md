@@ -1,5 +1,5 @@
 ---
-title: "Work with external groups in Yammer networks not aligned to native mode"
+title: "Work with external groups in Viva Engage networks not aligned to native mode"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -54,8 +54,6 @@ When you create a group, you can decide if it's an internal or external group. Y
 1. In Viva Engage, under the list of groups, select **Create Group**.
     
     The **Create A New Group** dialog box opens. If your network allows external groups, you'll see options to create an Internal Group or External Group: 
-    
-    :::image type="content" source="../../media/387fcf4f-79e9-427a-845b-54e00caf1a43.png" alt-text="Screenshot showing that you can choose to create an Internal or External group.":::
   
 2. Select **External Group**.
     

@@ -61,7 +61,7 @@ Only employees with a company email address can be invited from this screen.
 - If you want to include other fields such as Job title and Full name, you can use bulk update. For instructions on formatting a .CSV file for bulk update, see [Bulk update users by importing a .CSV file](add-block-or-remove-users.md#BulkUpdateUsers).
   
     > [!NOTE]
-    > If your organization uses more than one internet domain for email addresses and you would like to add users from other domains to your network, consider performing a Yammer network consolidation. For more information, go to [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md). 
+    > If your organization uses more than one internet domain for email addresses and you would like to add users from other domains to your network, consider performing a Yammer network consolidation. For more information, go to [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md). 
   
 <a name="ManagePending"> </a>
 ## Manage pending users
@@ -178,7 +178,7 @@ There are two ways to block users from Yammer:
     
     1. In the Yammer admin center, go to **Users** \> **Block Users** and enter the email addresses of the users to block. 
     
-    2. In the Microsoft 365 admin center, remove the **Yammer** license for the user. For steps, see [Turn off Yammer access for Office 365 users](turn-off-user-access.md) and see [Manage Yammer licenses in Office 365](manage-viva-engage-licenses-in-office-365.md). 
+    2. In the Microsoft 365 admin center, remove the **Yammer** license for the user. For steps, see [Turn off Yammer access for Office 365 users](turn-off-user-access.md) and see [Manage Yammer licenses in Office 365](manage-licenses-in-office-365.md). 
     
 <a name="BouncedEmails"> </a>
 ## Bounced emails

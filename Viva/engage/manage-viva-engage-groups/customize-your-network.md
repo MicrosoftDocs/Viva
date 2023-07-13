@@ -2,13 +2,14 @@
 title: "Customize your network"
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 01/21/2020
+ms.date: 7/12/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -21,9 +22,9 @@ description: "Learn how to customize your network by adding a logo."
 
 # Customize your network
 
-On the Yammer web app, you can further customize your network by uploading a company logo.
+On the Viva Engage web app, you can further customize your network by uploading a company logo.
 
-1. As a network admin, navigate to the **Yammer network admin settings**.
+1. As a network admin, navigate to the **Viva Engage network admin settings**.
 2. Select the **Design** tab.
 3. To upload a company logo to display on the home feed of your network in both the web and mobile apps, upload a logo in the **Upload Network Logo** field.
 4. After you have uploaded a logo, make sure to select the **Display** logo on your network home feed.
@@ -32,6 +33,4 @@ On the Yammer web app, you can further customize your network by uploading a com
 
 ## See also
 
-[Customize your Yammer community](customize-your-viva-engage-community.md)
-
-[Favorite communities](favorite-communities.md)
+[Customize your Viva Engage community](customize-your-community.md)

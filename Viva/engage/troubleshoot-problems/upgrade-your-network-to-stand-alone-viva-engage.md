@@ -70,15 +70,15 @@ Most organizations have one primary domain for employee email addresses, so upgr
   
 ### Upgrade multiple networks
 
-If you have multiple Yammer networks, we recommend that you consolidate the smaller networks into your organization's primary network by performing a network migration (see [Network migration: Consolidate multiple Yammer networks](../configure-your-yammer-network/consolidate-multiple-yammer-networks.md)). Consolidating networks lets you:
+If you have multiple Yammer networks, we recommend that you consolidate the smaller networks into your organization's primary network by performing a network migration (see [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md)). Consolidating networks lets you:
   
 - **Reduce Yammer administration cost:** After the consolidation, you can manage one single Yammer service, rather than managing individual Yammer networks. 
     
 - **Reduce information silos in your organization:** Having a consolidated Yammer service that is shared by all your users empowers them to connect and work with everyone in your organization. 
     
-- **Allow Office 365 users to sign-in to Yammer easily:** Users can sign-in to Yammer with their Office 365 credentials, and easily access Yammer from the Office 365 app launcher. See [Office 365 sign-in for Yammer](../manage-yammer-users/office-365-sign-in.md).
+- **Allow Office 365 users to sign-in to Yammer easily:** Users can sign-in to Yammer with their Office 365 credentials, and easily access Yammer from the Office 365 app launcher. See [Office 365 sign-in for Yammer](../manage-viva-engage-users/office-365-sign-in.md).
     
-- **Seamlessly manage the Yammer service from Office 365:** After the consolidation, the management of Yammer service is simplified. For example, you can have a single sign-on solution when you [enforce office 365 identity for Yammer users](../configure-your-yammer-network/enforce-office-365-identity.md), and you can manage users and administrators centrally from Office 365 when you [manage Yammer users across their life cycle from Office 365](../manage-yammer-users/manage-users-across-their-lifecycle.md).
+- **Seamlessly manage the Yammer service from Office 365:** After the consolidation, the management of Yammer service is simplified. For example, you can have a single sign-on solution when you [enforce office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md), and you can manage users and administrators centrally from Office 365 when you [manage Yammer users across their life cycle from Office 365](../manage-viva-engage-users/manage-users-across-their-lifecycle.md).
     
 ### Upgrade one network and merge associated domains or pre-existing networks
 
@@ -114,6 +114,6 @@ Yammer provides a number of tools, templates, and support resources for planning
     
 ## Related articles
 
-[Pick your enterprise social network: Yammer or Newsfeed?](../integrate-yammer-with-other-apps/yammer-and-newsfeed.md)
+[Pick your enterprise social network: Yammer or Newsfeed?](../integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed.md)
   
 [Say hello to Yammer](https://support.office.com/article/02ac514e-cf1d-4060-9cde-6038ca812ede)

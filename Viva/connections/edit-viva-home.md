@@ -46,7 +46,7 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 **Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+**Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 
 **Resources:** [The Resources](viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
 
@@ -145,16 +145,17 @@ Your organization’s Viva Connections app can display a custom icon and label i
 
 ## Customize the banner image
 
-Change the banner image in the header and set the focal point for the image. The banner image only displays in the desktop app.
+Change the banner image in the header and set the focal point for the image. The banner image and focal point can only be set on the desktop app. 
+
+> [!NOTE]
+> - The greeting is automatically generated and cannot be customized.
+> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
+> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customized.
+>  -  The banner image and focal point will resize when viewed via the tablet and mobile app.
 
 1.	Start by selecting **Edit** and then select **Change image**.
 2.	Select the image you’d like to use and then select **Reposition**. 
 3.	Once you are satisfied with the focal point, select **Set focal point** and then **Save**. There is no draft state for the banner image. It will be displayed for all users when you select Save.
-
-> [!NOTE]
-> - The greeting is automatically generated and cannot be customed.
-> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
-> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customed. 
 
 ## Customize the dashboard
 
@@ -196,11 +197,11 @@ Editing Resources in the Viva Connections desktop experience will not have an im
 
 ## Learn more about how to influence content in the feed
 
-There’s no configuration required to get the Feed working in the desktop or mobile apps. Content in the Feed can’t be edited because content is aggregated from across your M365 environment. Content comes from three primary sources: organizational news published in SharePoint, posts in Yammer communities, and videos in Stream that are shared with the entire organization or targeted to user groups.
+There’s no configuration required to get the Feed working in the desktop or mobile apps. Content in the Feed can’t be edited because content is aggregated from across your M365 environment. Content comes from three primary sources: organizational news published in SharePoint, posts in Viva Engage communities, and videos in Stream that are shared with the entire organization or targeted to user groups.
 
 The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.md) displays the same content and can be added to other SharePoint sites. Content that is displayed in the Feed can’t be edited but the ranking can be influenced with the following actions: 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts from organizational news sites.
-- **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
+- **Highlight community discussions** - Feature posts in public Viva Engage communities that you’d like seen by the entire organization.
 - **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from impacts the ranking.
 - Learn more about [how content in the Feed is sourced and ranked](faqs-viva-connections-feed.md).
 

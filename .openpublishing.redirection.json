@@ -1084,6 +1084,12 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/topics/topic-experiences-Yammer.md",
+        "redirect_url": "/viva/topics/topic-experiences-viva-engage",
+        "redirect_document_id": false
+           
+      },
+      {  
         "source_path": "viva/connections/viva-connections-setup-guide.md",
         "redirect_url": "/viva/connections/set-up-admin-center",
         "redirect_document_id": false
@@ -1267,9 +1273,16 @@
         "source_path": "viva/insights/personal/overview/mya-for-admins.md",
         "redirect_url": "/viva/insights/personal/setup/deployment-guide",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
+        "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md",
+        "redirect_url": "/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks",
+        "redirect_document_id": false
       }
-      
-
-                                                                         
     ]
 }

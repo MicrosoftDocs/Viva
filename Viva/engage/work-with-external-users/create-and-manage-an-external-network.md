@@ -98,7 +98,7 @@ To get back to your home network, click the home network name at the end of the 
   
 2. In your external network, click the external network settings icon :::image type="icon" source="../../media/e1f84edf-4842-4732-89b2-f7e46e4c94e1.png" border="false":::.
 
-   Select **Network Admin** to configure and design your external network. For information on these settings, see [Configure your Yammer network](../configure-your-yammer-network/configure-yammer.md).
+   Select **Network Admin** to configure and design your external network. For information on these settings, see [Configure your Yammer network](../configure-your-viva-engage-network/configure-viva-engage.md).
 
     :::image type="content" source="../../media/afc2fe6a-f41d-4dc6-bce5-c59595997bcc.png" alt-text="Screenshot of the Admin menu for an external network.":::
   
@@ -129,4 +129,4 @@ When the Microsoft 365 tenant is deleted, all disabled external networks and con
 
 ## Related articles
 
-[Manage Yammer security settings](../manage-security-and-compliance/yammer-security-settings.md)
+[Manage Yammer security settings](../manage-security-and-compliance/viva-engage-security-settings.md)

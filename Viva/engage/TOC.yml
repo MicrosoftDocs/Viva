@@ -18,8 +18,6 @@
        href: admin-key-concepts.md
      - name: Overview of Native Mode
        href: overview-native-mode.md
-     - name: Automatic Native Mode migration and network consolidation
-       href: automatic-migration-native-mode.md
      - name: Key admin roles and permissions in Viva Engage
        href: eac-key-admin-roles-permissions.md 
      - name: Set up the Viva Engage admin center
@@ -28,26 +26,36 @@
        href: eac-as-access-eac.md 
      - name: Network configuration
        items:
-        - name: Configure your network
+        - name: Configure your Viva Engage network
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
+        - name: Configure your Viva Engage network for Native Mode
+          href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
         - name: Viva Engage Native Mode step-by-step guide
           href: native-mode-guide.md
-        - name: Consolidate multiple networks
-          href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks
-        - name: Enforce Office 365 identity for Viva Engage user
-          href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
-        - name: Manage Viva Engage core user licenses in Microsoft 365
-          href: manage-engage-licenses-microsoft-365.md
+        - name: Network migration - Consolidate multiple networks
+          href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
+        - name: Non-native and hybrid Viva Engage Network upgrades
+          href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
+        - name: Manage Viva Engage domains in Office 365
+          href: /viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains
+        - name: Configure Viva Engage and email
+          href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
+        - name: Customize the look of your network
+          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
+        - name: Files in Native Mode
+          href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
+        - name: File storage for Viva Engage
+          href: /viva/engage/get-started-with-viva-engage/file-storage
         - name: Set up Viva Engage usage policy
           href: set-up-usage-policy.md
-        - name: Troubleshoot your Viva Engage network for Native Mode for Microsoft 365
-          href: troubleshoot-native-mode.md
         - name: Overview of eDiscovery
           href: /viva/engage/manage-security-and-compliance/overview-of-ediscovery
      - name: Manage groups and users
        items:
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
+        - name: Manage Viva Engage admins
+          href: /viva/engage/manage-viva-engage-users/manage-viva-engage-admins
         - name: Work with AzureAD-B2B guests in Viva Engage communities
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
@@ -60,16 +68,22 @@
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
      - name: Manage Viva Engage with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
+     - name: Enforce Office 365 identity for Viva Engage user
+       href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
+     - name: Manage Viva Engage core user licenses in Microsoft 365
+       href: manage-engage-licenses-microsoft-365.md
      - name: Manage GDPR data subject requests in Viva Engage
        href: /viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise
      - name: Data management
        items:   
         - name: Manage data compliance in Viva Engage
           href: /viva/engage/manage-security-and-compliance/manage-data-compliance
-        - name: Data residency
+        - name: Data residency for Viva Engage
           href: /viva/engage/manage-security-and-compliance/data-residency
         - name: Export Viva Engage Data
           href: eac-as-manage-data.md
+        - name: Monitor private content
+          href: /viva/engage/manage-security-and-compliance/monitor-private-content
         - name: Audit users connected to Office 365
           href: /viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365
         - name: Track Viva Engage events in the Microsoft audit log
@@ -86,21 +100,32 @@
         href: badges.md
       - name: Manage and set up storylines in Viva Engage
         href: eac-storyline.md
-      - name: Integrate Viva Engage with other applications
-        href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
+      - name: Integration with Microsoft apps
+        items:   
+        - name: Integrate Viva Engage with other applications
+          href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
+        - name: SharePoint enterprise social experience - Viva Engage and Newsfeed
+          href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
+        - name: Include a Viva Engage feed in a SharePoint page
+          href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
       - name: Enable rich text formatting
         href: /viva/engage/get-started-with-viva-engage/rich-text-formatting
-      - name: Configure converstaion reporting
-        href: /viva/engage/manage-viva-engage-groups/configure-conversation-reporting
       - name: Report a conversation in Viva Engage
         href: report-conversation-overview.md    
       - name: View and manage analytics in Viva Engage
         href: analytics.md    
       - name: Answers in Viva
         items:   
-        - name: Overview and setup of Answers in Viva Engage
-          href: eac-answers-overview-setup.md
-        - name: Admin scenarios for Answers in Viva Engage
+        - name: Set up Answers in Viva Engage
+          href: eac-answers-overview-set-up.md
+        - name: Scenarios for Answers in Viva Engage
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md
+   - name: Troubleshoot issues
+     items:
+       - name: Troubleshoot your Viva Engage network for Native Mode for Microsoft 365
+         href: troubleshoot-native-mode.md
+       - name: User sign-in issues on Android devices
+         href: /viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices
+        
