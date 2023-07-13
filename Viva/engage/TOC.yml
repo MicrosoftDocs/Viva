@@ -124,7 +124,7 @@
           href: eac-answers-faq.md
    - name: Troubleshoot issues
      items:
-       - name: Troubleshoot your Viva Engage network for Native Mode for Microsoft 365
+       - name: Troubleshoot your Viva Engage network for problems with Native Mode
          href: troubleshoot-native-mode.md
        - name: User sign-in issues on Android devices
          href: /viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices
