@@ -100,7 +100,7 @@ Sharepoint objects and learning paths created by admins may also not be visible 
 
 Admins can set all the supported languages that the organization supports in Viva Learning. Available Language has two options to choose from:
 
-- All supported languages in Viva Learning -   selects [all languages supported by Viva Learning](https://learn.microsoft.com/viva/learning/viva-learning-supported-languages).
+- All supported languages in Viva Learning -   selects [all languages supported by Viva Learning](/viva/learning/viva-learning-supported-languages).
   - By default, this option is selected. Viva Learning default language chosen above can't be removed. 
 - A subset of specific languages - provides an option for the admin to select a specific list of languages.
 
