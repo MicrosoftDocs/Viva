@@ -2,7 +2,7 @@
 title: Integrate Viva Engage with other applications
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
 ms.date: 7/11/2023
@@ -20,7 +20,7 @@ ms.assetid: 37b730d6-99ad-43a2-967a-2eb52f48bdba
 description: "Learn about putting Viva Engage feeds in other applications, and using other applications with Viva Engage."
 ---
 
-# Integrate Viva Engage with other applications
+# Integrate Viva Engage with other Microsoft applications
 
 Viva Engage offers various integrations to help make other applications more mobile and social. 
   

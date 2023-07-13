@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 7/13/2023
+ms.date: 07/13/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -49,7 +49,7 @@ Native Mode has the following requirements:
 
 The Tool prepares your network for Native Mode by disabling some features and mitigating previously created instances of those features. Those changes include:
 
-- Any unlisted private groups in your network are changed to private listed groups. Users are unable to create unlisted private groups.
+- Any unlisted private groups in your network is changed to private listed groups. Users are unable to create unlisted private groups.
 
 - External groups in Viva Engage are not supported. All external groups are made internal only, and any external users in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
 
@@ -59,7 +59,7 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 - Prevents files from being uploaded in Viva Engage Private messages, and deletes all files previously uploaded in Viva Engage Private messages.
 
-- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in AAD.
+- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in Azure AD.
 
 - Disables support for guests in the network, and removes existing guests from the network, along with their associated Private messages and files.
 

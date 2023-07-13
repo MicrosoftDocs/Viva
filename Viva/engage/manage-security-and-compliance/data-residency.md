@@ -1,5 +1,5 @@
 ---
-title: "Data residency"
+title: "Data residency for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-cdemaagd
@@ -16,10 +16,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Data residency for Viva Engage Enterprise."
+description: "Data residency for Viva Engage"
 ---
 
-# Data residency
+# Data residency for Viva Engage
 Viva Engage offers local data residency to help meet data residency requirements. We commit to store message bodies and files attached to messages at rest within a specific geographical area (Geo). Viva Engage files are saved either in Viva Engage cloud storage, or for Microsoft 365 connected groups, some Viva Engage files are stored in SharePoint. Viva Engage files saved in SharePoint will be stored in SharePoint Online per your SharePoint Online data residency policy. Mobile push notifications require sending data to a third-party notification service (Apple or Google), which might be outside your Geo.
 
 Your Viva Engage Enterprise tenant is automatically created when you create your Office 365 tenant. For Office 365 Education subscribers, your tenant is associated with the US Geo. For all other Microsoft 365 or Office 365 subscribers, the country you enroll from determines the Geo your tenant is associated with. When you enroll from Europe or Africa your tenant is associated with the EU Geo and when you enroll from Australia, Asia, North America, or South America your tenant is associated with the US Geo.
