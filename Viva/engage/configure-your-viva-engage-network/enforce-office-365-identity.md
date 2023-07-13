@@ -90,7 +90,7 @@ You must be a global administrator on Office 365 who was synchronized to Viva En
     
    *Hi,* 
     
-   *This email is to let you know that [ORGANIZATION'S NAME] is making changes to the way we all access Viva Engage. If you're currently working on Viva Engage, then we may temporarily interrupt you by logging you out. It's necessary for us to securely setup Office 365 sign-in for Viva Engage.* 
+   *This email is to let you know that [ORGANIZATION'S NAME] is making changes to the way we all access Viva Engage. If you're currently working on Viva Engage, then we may temporarily interrupt you by logging you out. It's necessary for us to securely set up Office 365 sign-in for Viva Engage.* 
     
    *You can resume your work immediately by logging in to Viva Engage using your Office 365 username and password.*
     
