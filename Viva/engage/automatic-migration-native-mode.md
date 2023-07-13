@@ -24,33 +24,33 @@ search.appverid:
 
 Non-native and hybrid Viva Engage networks are being automatically upgraded to Native Mode to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network.
 
- Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 will not be approved. Support requests for extensions of existing exemptions will not be approved. Talk to your account team representative if you have further questions.
+ Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 won't be approved. Support requests for extensions of existing exemptions won't be approved. Talk to your account team representative if you have further questions.
 
 ## Frequently asked questions
 
 ### How does automatic migration work?
 
-Unlike manual migration, automatic migration requires very little advance preparation. The timeline is:
+Unlike manual migration, automatic migration requires little advance preparation. The timeline is:
 
 **30 days before migration starts:** You'll receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
 
 **Day of migration start:** You'll receive a Microsoft 365 Message Center post to notify you that migration has begun.
 
-**During migration:** Migration will take between 1 and 30 days to complete in most cases.
+**During migration:** Migration takes between 1 and 30 days to complete in most cases.
 
-**Once migration is complete:** You'll receive a Microsoft 365 Message Center post to notify you that the migration is complete and that you have 90 days to perform a post-migration audit or export data that is not supported in Native Mode (such as private message file attachments).
+**Once migration is complete:** You'll receive a Microsoft 365 Message Center post to notify you that the migration is complete. You'll have 90 days to perform a post-migration audit or export data not supported in Native Mode.
 
 ### I don’t want to be automatically migrated. What can I do?
 
-Native mode is fundamental to the integration of Viva Engage within Microsoft 365 and all networks are being upgraded. Previously, admins had to initiate the migration,but an improved automatic migration is now rolling out.  
+Native mode is fundamental to the integration of Viva Engage within Microsoft 365 and all networks are being upgraded. Previously, admins had to initiate the migration, but an improved automatic migration is now rolling out.  
 
 If you wish to control the migration, it may still be possible. Start the migration immediately by following the [step-by-step guide](/Viva/engage/native-mode-guide.md).  
 
 ### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When does it start and end?
 
-Your migration will begin 30 days after the date of the Message Center post. You will receive an additional Message Center post when your migration has begun. There is no admin action required to complete the migration and information about the migration will be provided when it completes.  
+Your migration begins 30 days after the date of the Message Center post. You'll receive an additional Message Center post when your migration begins. There is no admin action required to complete the migration. Information about the migration is provided when it completes.
 
-Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint storage. It is not possible to provide an estimate ahead of time due to the number of factors involved.
+Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint storage. It isn't possible to provide an estimate ahead of time due to the number of factors involved.
 
 ### I was planning to migrate manually, but the alignment report button is grayed out. How do I export the alignment report?
 
@@ -62,7 +62,7 @@ Exemptions were temporarily available to help customers plan their migrations in
 
 ### What information will be provided after the migration?
 
-All content from your network pre-migration will remain available for 90 days. This allows administrators to perform a post-migration audit to ensure completeness of data. Various reports on the migration will be available to administrators, covering deleted unmapped users, deleted files, deleted messages, copied files, and guests.
+All content from your network pre-migration remains available for 90 days. This allows administrators to perform a post-migration audit to ensure completeness of data. Various reports on the migration will be available to administrators, covering deleted unmapped users, deleted files, deleted messages, copied files, and guests.
 
 ### What is the impact to end users during the migration?
 
