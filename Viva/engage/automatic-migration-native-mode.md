@@ -24,7 +24,7 @@ search.appverid:
 
 Non-native and hybrid Viva Engage networks are being automatically upgraded to Native Mode to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network.
 
- Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 will not be approved. Support requests for extensions of existing exemptions will not be approved. Please talk to your account team representative if you have further questions.
+ Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 will not be approved. Support requests for extensions of existing exemptions will not be approved. Talk to your account team representative if you have further questions.
 
 ## Frequently asked questions
 
@@ -32,15 +32,15 @@ Non-native and hybrid Viva Engage networks are being automatically upgraded to N
 
 Unlike manual migration, automatic migration requires very little advance preparation. The timeline is:
 
-**30 days before migration starts:** You will receive a M365 Message Center post notifying you that you’ve been selected for automatic migration.
+**30 days before migration starts:** You will receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
 
-**Day of migration start:** You will receive a M365 Message Center post notifying you that migration has begun.
+**Day of migration start:** You will receive a Microsoft 365 Message Center post to notify you that migration has begun.
 
 **During migration:** Migration will take between 1 and 30 days to complete in most cases.
 
-**Once migration is complete:** You will receive a M365 Message Center post notifying you that the migration is complete and that you have 90 days to perform a post-migration audit or export data, such as private message file attachments, that is not supported in Native Mode. 
+**Once migration is complete:** You will receive a Microsoft 365 Message Center post to notify you that the migration is complete and that you have 90 days to perform a post-migration audit or export data that is not supported in Native Mode, such as private message file attachments.
 
-### I don’t want to be automatically migrated. What can I do? 
+### I don’t want to be automatically migrated. What can I do?
 
 Native mode is fundamental to the integration of Viva Engage within M365 and all networks are being upgraded. Previously admins had to initiate the migration, but an improved automatic migration is now rolling out.  
 
