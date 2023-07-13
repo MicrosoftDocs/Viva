@@ -44,7 +44,7 @@ Unlike manual migration, automatic migration requires little advance preparation
 
 Native mode is fundamental to the integration of Viva Engage within Microsoft 365 and all networks are being upgraded. Previously, admins had to initiate the migration, but an improved automatic migration is now rolling out.  
 
-If you wish to control the migration, it may still be possible. Start the migration immediately by following the [step-by-step guide](/Viva/engage/native-mode-guide.md).  
+If you wish to control the migration, it may still be possible. Start the migration immediately by following the [step-by-step guide](/Viva/engage/native-mode-guide).  
 
 ### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When does it start and end?
 
@@ -74,4 +74,4 @@ The Native Mode migration page will state that the migration is in process until
 
 ### I have more than one network associated with my Microsoft 365 tenant. Will you automatically migrate all of those networks into native mode?
 
-No. Networks will be automatically consolidated soon. You'll receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode. The best way to ensure appropriate network consolidation is to perform it on your own. For more information, see [Consolidate multiple Viva Engage networks](/Viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks.md).
+No. Networks will be automatically consolidated soon. You'll receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode. The best way to ensure appropriate network consolidation is to perform it on your own. For more information, see [Consolidate multiple Viva Engage networks](/Viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
