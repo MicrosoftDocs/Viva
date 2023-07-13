@@ -1205,6 +1205,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Viva/Glint/start/results-rollout-templates.md",
+        "redirect_url": "/viva/glint/communicate/results-rollout-templates",
+        "redirect_document_id": false
+      }
+      {
         "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
         "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
         "redirect_document_id": false
