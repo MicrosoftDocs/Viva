@@ -22,7 +22,7 @@ The **Onboarding and development** report helps leaders understand the onboard
 
 Because research shows it typically takes new employees 12 months to reach their full performance potential, this report focuses on the entire period a new hire is learning, connecting, and developing in their new role. Additionally, you can customize the definition of new hire to best fit your organization: whether it includes employees who recently joined the company or also employees who recently started out in a new role. You can also customize the number of months the new hire should be in the new role.
 
-This report has three sections, which each address different facets of the onboarding experience for new hires and those new in role. These sections help you answer the following business questions: 
+This report has three sections, which each address different facets of the onboarding experience for new hires and those new in the role. These sections help you answer the following business questions: 
 
 * **Coach with manager 1:1s**
     * Are new hires getting the 1:1 coaching and support from their managers that they need? 
@@ -53,7 +53,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the Viva Insights analyst experience, select **Analysis**.
 1. Under **Power BI templates**, navigate to **Onboarding and development** and select **Start analysis**. 
 
-[!INCLUDE [Setup steps](includes/setup-steps.md)]
+[!INCLUDE [Setup steps](includes/setup-steps-OnDev-report.md)]
 
 ## Report settings
 
@@ -131,18 +131,9 @@ Learn how new hires are negotiating and creating networks at work, and also whet
 
 Here are the visuals that this page shows:
 
-* Left card – Average internal network size, split by connections within groups and across groups
-* Middle chart – How sufficient manager coaching time (that is, 50 minutes or more per month) affects employees' average network size within groups and across groups
+* Left card – Average internal network size
+* Middle chart – How sufficient manager coaching time (that is, 50 minutes or more per month) affects employees' average network size
 * Top right chart – How the average internal network size is trending over time
-
-#### About connections within and between groups
-
-This report bases internal network size on the number of people a person had a reciprocal interaction within the past month. These interactions can happen within and across groups.
-
-Connections within groups are based on *strong ties*. A strong tie happens when two people frequently communicate and have several network connections in common. Strong ties usually indicate that two people are in the same workgroup or on the same team. 
-
-Connections across groups are based on *diverse ties*. A diverse tie happens when two people interact but don't have any common connections, or when two people interact for the first time. Diverse ties offer good sources of new and varied information from across the company.
-
 
 ### Glossary
 

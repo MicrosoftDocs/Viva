@@ -4,7 +4,7 @@ ms.reviewer:
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 07/06/2023
+ms.date: 07/13/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -43,7 +43,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
 - SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 - Teams - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
-- Viva Engage - Engage admin ([Yammer administrator](/azure/active-directory/roles/permissions-reference#yammer-administrator))
+- Viva Engage - Engage admin ([Viva Engage administrator](/azure/active-directory/roles/permissions-reference#viva-engage-administrator))
 - Answers in Viva Engage - Answers admin ([Knowledge manager](/azure/active-directory/roles/permissions-reference#knowledge-manager))
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
@@ -93,24 +93,24 @@ To learn about setup and administration for Connections, see [Guide to setting u
 ### Viva Engage
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Yammer administrators in AAD as Viva Engage is powered by Yammer technology. |
+|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in AAD as Viva Engage is powered by Viva Engage technology. |
 |**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. Find more information about assigning an [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
 
-For more information, see [Manage Yammer admins](/yammer/manage-yammer-users/manage-yammer-admins).
+For more information, see [Manage Viva Engage admins](/viva/engage/manage-viva-engage-users/manage-viva-engage-admins).
 
 ### Viva Glint
 To set up and manage Viva Glint, you must be a [Microsoft 365 global admin](#microsoft-365-global-admin). 
 
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|Global admin|If you're the person who purchased your Microsoft business subscription, you are the global admin. This means you have unlimited control over the products in your subscriptions and you can access most data.|
-|Viva Glint admin|Assign other admin roles to help manage the Viva Glint product. Admins can set up program settings and surveys, distribution lists, and reporting features, and support your managers in all aspects of action taking. Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.|
-|Managers|Have access to Viva Glint dashboards to view reporting and to develop action plans to build on their teams’ strengths and opportunities.|
-|HRBP|This role emphasizes the survey's importance to empower managers to act. HRBPs are thought partners for managers when it comes to business and people's success.| 
-|IT|Viva Glint suggests companies with IT departments rely on them for staging and maintaining the backend processes that power their programs.|
-|End user|Survey taker|
+|**Global admin**|If you're the person who purchased your Microsoft business subscription, you are the global admin. This means you have unlimited control over the products in your subscriptions and you can access most data.|
+|**Viva Glint admin**|Assign other admin roles to help manage the Viva Glint product. Admins can set up program settings and surveys, distribution lists, and reporting features, and support your managers in all aspects of action taking. Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.|
+|**Managers**|Have access to Viva Glint dashboards to view reporting and to develop action plans to build on their teams’ strengths and opportunities.|
+|**HRBP**|This role emphasizes the survey's importance to empower managers to act. HRBPs are thought partners for managers when it comes to business and people's success.| 
+|**IT**|Viva Glint suggests companies with IT departments rely on them for staging and maintaining the backend processes that power their programs.|
+|**End user**|Survey taker|
 
 ### Viva Goals
 Viva Goals has several different roles. Included here are roles that require specific permissions:
@@ -139,6 +139,7 @@ In Viva Insights, you can assign multiple roles to one person. For example, one 
 |**People manager**<br> Access enabled by Insights administrator through the Manager settings page in the advanced insights app|Can view organization trends in the Viva Insights app in Teams and on the web. |
 
 For more information on all the roles in Viva Insights see [Roles in Viva Insights](/viva/insights/advanced/setup-maint/user-roles).
+
 
 ### Viva Learning
 Viva Learning is by default available in Microsoft Teams with some content already available. To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
