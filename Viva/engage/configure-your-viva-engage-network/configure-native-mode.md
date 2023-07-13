@@ -59,7 +59,7 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 - Prevents files from being uploaded in Viva Engage Private messages, and deletes all files previously uploaded in Viva Engage Private messages.
 
-- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in AAD.
+- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in Azure AD.
 
 - Disables support for guests in the network, and removes existing guests from the network, along with their associated Private messages and files.
 
