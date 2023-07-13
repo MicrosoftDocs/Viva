@@ -70,7 +70,7 @@ Most organizations have one primary domain for employee email addresses, so upgr
   
 ### Upgrade multiple networks
 
-If you have multiple Yammer networks, we recommend that you consolidate the smaller networks into your organization's primary network by performing a network migration (see [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md)). Consolidating networks lets you:
+If you have multiple Yammer networks, we recommend that you consolidate the smaller networks into your organization's primary network by performing a network migration (see [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md)). Consolidating networks lets you:
   
 - **Reduce Yammer administration cost:** After the consolidation, you can manage one single Yammer service, rather than managing individual Yammer networks. 
     

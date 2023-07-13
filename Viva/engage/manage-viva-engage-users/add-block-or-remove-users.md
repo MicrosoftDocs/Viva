@@ -61,7 +61,7 @@ Only employees with a company email address can be invited from this screen.
 - If you want to include other fields such as Job title and Full name, you can use bulk update. For instructions on formatting a .CSV file for bulk update, see [Bulk update users by importing a .CSV file](add-block-or-remove-users.md#BulkUpdateUsers).
   
     > [!NOTE]
-    > If your organization uses more than one internet domain for email addresses and you would like to add users from other domains to your network, consider performing a Yammer network consolidation. For more information, go to [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md). 
+    > If your organization uses more than one internet domain for email addresses and you would like to add users from other domains to your network, consider performing a Yammer network consolidation. For more information, go to [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md). 
   
 <a name="ManagePending"> </a>
 ## Manage pending users
