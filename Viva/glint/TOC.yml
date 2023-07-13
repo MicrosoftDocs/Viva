@@ -25,8 +25,6 @@
           href: setup/glint-order-teams.md
         - name: Third party notice
           href: setup/third-party-notice.md
-     - name: Set up Employee Lifecycle Surveys
-       href: setup/program-summary-setup-lifecycle.md
      - name: Microsoft Viva Glint privacy
        href: setup/viva-glint-privacy.md
        items:
@@ -157,6 +155,8 @@
             href: setup/manager-effectiveness-survey.md
         - name: Setting up Employee Lifecycle surveys
           items:
+          - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
+            href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
             href: setup/preview-filter-lifecycle-programs.md
         - name: Create Viva Glint Onboarding and Exit survey programs
