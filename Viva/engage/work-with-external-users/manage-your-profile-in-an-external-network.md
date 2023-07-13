@@ -39,8 +39,8 @@ After you sign in, the **Settings** icon contains a blue dot.
 
     :::image type="content" source="../../media/ext-network-account-profile.png" alt-text="Screenshot showing locate profile settings in a tab under Account settings.":::
 
-  All information on this tab is visible to others in the network. 
-  Any changes you make here carry over to your home network profile.
+    All information on this tab is visible to others in the network. 
+    Any changes you make here carry over to your home network profile.
 
 3. Select **Save**.
 
