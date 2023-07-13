@@ -32,25 +32,25 @@ Non-native and hybrid Viva Engage networks are being automatically upgraded to N
 
 Unlike manual migration, automatic migration requires very little advance preparation. The timeline is:
 
-**30 days before migration starts:** You will receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
+**30 days before migration starts:** You'll receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
 
-**Day of migration start:** You will receive a Microsoft 365 Message Center post to notify you that migration has begun.
+**Day of migration start:** You'll receive a Microsoft 365 Message Center post to notify you that migration has begun.
 
 **During migration:** Migration will take between 1 and 30 days to complete in most cases.
 
-**Once migration is complete:** You will receive a Microsoft 365 Message Center post to notify you that the migration is complete and that you have 90 days to perform a post-migration audit or export data that is not supported in Native Mode, such as private message file attachments.
+**Once migration is complete:** You'll receive a Microsoft 365 Message Center post to notify you that the migration is complete and that you have 90 days to perform a post-migration audit or export data that is not supported in Native Mode (such as private message file attachments).
 
 ### I don’t want to be automatically migrated. What can I do?
 
-Native mode is fundamental to the integration of Viva Engage within M365 and all networks are being upgraded. Previously admins had to initiate the migration, but an improved automatic migration is now rolling out.  
+Native mode is fundamental to the integration of Viva Engage within Microsoft 365 and all networks are being upgraded. Previously, admins had to initiate the migration,but an improved automatic migration is now rolling out.  
 
 If you wish to control the migration, it may still be possible. Start the migration immediately by following the [step-by-step guide](/Viva/engage/native-mode-guide.md).  
 
-### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When will it start and end?
+### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When does it start and end?
 
 Your migration will begin 30 days after the date of the Message Center post. You will receive an additional Message Center post when your migration has begun. There is no admin action required to complete the migration and information about the migration will be provided when it completes.  
 
-Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint Online storage. It is not possible to provide an estimate ahead of time due to the number of factors involved.
+Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint storage. It is not possible to provide an estimate ahead of time due to the number of factors involved.
 
 ### I was planning to migrate manually, but the alignment report button is grayed out. How do I export the alignment report?
 
@@ -66,12 +66,12 @@ All content from your network pre-migration will remain available for 90 days. T
 
 ### What is the impact to end users during the migration?
 
-Community guests need to be reinvited after migration is complete, but most end users are not impacted during migration. Azure AD B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See Work with Azure Active Directory-B2B guests in Viva Engage communities.
+Community guests need to be reinvited after migration is complete, but most end users aren't impacted during migration. Azure AD B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See Work with Azure Active Directory-B2B guests in Viva Engage communities.
 
 ### The migration page says the migration is still in process, but we received a Message Center post stating the migration was complete. What is happening?
 
 The Native Mode migration page will state that the migration is in process until the end of the 90-day data retention period.
 
-### I have more than one network associated with my tenant. Will you automatically migrate all of those networks into native mode?
+### I have more than one network associated with my Microsoft 365 tenant. Will you automatically migrate all of those networks into native mode?
 
-No. Networks will be automatically consolidated soon. You will receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode.  The best way to ensure appropriate network consolidation is to perform it on your own. For more information, see [Consolidate multiple Viva Engage networks](/Viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks.md).
+No. Networks will be automatically consolidated soon. You'll receive a Message Center post indicating which network will remain after consolidation. The remaining network will then be migrated to Native Mode. The best way to ensure appropriate network consolidation is to perform it on your own. For more information, see [Consolidate multiple Viva Engage networks](/Viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks.md).
