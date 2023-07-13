@@ -5,10 +5,11 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 06/28/2023
+ms.date: 07/13/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
@@ -38,7 +39,7 @@ There are two methods of working with guests, depending on how your organization
 
 ## Learn more about guests and external networks
 
-The Viva Engage guests feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization. Viva Engage networks aligned to native mode use Azure Active Directory Business-Business (AzureAD-B2B), a secure, compliant external collaboration framework, to power guests To learn more about AzureAD-B2B guests in Viva Engage, visit [Work with Azure Active Directory-B2B guests in Viva Engage communities](../azure-ad-b2b-guests-engage.md).
+The Viva Engage guests feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization. Viva Engage networks aligned to native mode use Azure Active Directory Business-Business (AzureAD-B2B), a secure, compliant external collaboration framework, to power guests To learn more about AzureAD-B2B guests in Viva Engage, visit [Work with Azure Active Directory-B2B guests in Viva Engage communities](../get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage.md).
 
 To work with external users, if your organization isn’t using native mode, you can create an external group. You must create the group as an external group--you can't change an existing internal group to be an external group. To learn more about guests in non-native Viva Engage networks, visit [Work with external groups in Viva Engage networks not aligned to native mode](../work-with-external-users/create-and-manage-external-groups.md).
 
