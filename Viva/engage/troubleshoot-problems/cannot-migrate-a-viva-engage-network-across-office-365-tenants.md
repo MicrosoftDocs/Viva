@@ -32,4 +32,4 @@ This is expected behavior. Migrating Yammer networks across Office 365 tenants i
 
 ## More information
 
-You can consolidate multiple Yammer networks, when the domains are verified in the same tenant. For more information, see [Network migration - Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md).
+You can consolidate multiple Yammer networks, when the domains are verified in the same tenant. For more information, see [Network migration - Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md).
