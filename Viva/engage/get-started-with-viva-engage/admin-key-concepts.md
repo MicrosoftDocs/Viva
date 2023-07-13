@@ -53,7 +53,7 @@ This article describes the key concepts you should know, and key decisions you s
     
         If all your domains are verified, you're all set. For more information, see [Manage Yammer domains across their lifecycle](../configure-your-viva-engage-network/manage-viva-engage-domains.md). 
     
-        If your company has business units with different domains, Yammer can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To weigh these options and merge or create networks, see [Combine multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md)
+        If your company has business units with different domains, Yammer can help you join these into a consolidated network. You can also create external networks for each business unit, or a singular external network for all employees to access. To weigh these options and merge or create networks, see [Combine multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md)
     
 4. Explore the options for managing user identity:
     

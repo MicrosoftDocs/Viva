@@ -1238,6 +1238,11 @@
         "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
         "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
         "redirect_document_id": false
-      }                                                        
+      },
+      {
+        "source_path": "Viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md",
+        "redirect_url": "/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks",
+        "redirect_document_id": false
+      }
     ]
 }
