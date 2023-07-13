@@ -1,14 +1,15 @@
 ---
-title: "External messaging FAQ - Yammer"
+title: "External messaging FAQ - Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 9/23/2019
+ms.date: 7/11/2023
 audience: Admin
 ms.topic: reference
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -16,17 +17,17 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 35b59d6c-bb1c-4541-bf19-9f67d2f2b199
-description: "Find answers to questions about adding external participants to your Yammer network, including general questions or questions about permissions and security and questions about opting out of external messaging."
+description: "Find answers to questions about adding external participants to your Viva Engage network, including general questions or questions about permissions and security and questions about opting out of external messaging."
 ---
 
-# External messaging FAQ - Yammer
+# External messaging FAQ - Viva Engage
 
-You can include people outside of your Yammer network in your conversations and private messages that are posted in external groups. You add people as external participants, and they can reply to messages and posts in your Yammer network without having to join. 
+You can include people outside of your Viva Engage network in your conversations and private messages that are posted in external groups. You add people as external participants, and they can reply to messages and posts in your Viva Engage network without having to join. 
   
-Find answers to frequently asked questions about external participants in this article. Or see [Add external participants to your Yammer conversations](add-external-participants.md), [Create and manage external groups in Yammer](create-and-manage-external-groups.md), [Find external participants in a Yammer network](find-external-participants.md), and [Disable external messaging in a Yammer network](disable-external-messaging.md) for more information about working with external participants. 
+Find answers to frequently asked questions about external participants in this article. Or see [Add external participants to your Viva Engage conversations](add-external-participants.md), [Create and manage external groups in Viva Engage](create-and-manage-external-groups.md), [Find external participants in a Viva Engage network](find-external-participants.md), and [Disable external messaging in a Viva Engage network](disable-external-messaging.md) for more information about working with external participants. 
  
 >[!NOTE] 
->External messaging, including exernal networks, external groups, and external participants, is not available for Yammer Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md).
+>External messaging, including exernal networks, external groups, and external participants, is not available for Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md).
     
 ## General questions
 <a name="General"> </a>
@@ -35,43 +36,43 @@ Find answers to frequently asked questions about external participants in this a
 
 A: External networks are great for hosting external communities and managing long-term projects. The external participants feature is meant for one-off, short-term communications, which don't warrant the need of provisioning a new network.
   
-### Q: Can I invite external participants to my Yammer groups?
+### Q: Can I invite external participants to my Viva Engage groups?
 
-A: You can [create external groups in Yammer](create-and-manage-external-groups.md) and invite external participants to those groups. 
+A: You can [create external groups in Viva Engage](create-and-manage-external-groups.md) and invite external participants to those groups. 
   
 ### Q: What happens when I remove an external participant?
 
-A: When you remove someone from a Yammer conversation, it removes the entire conversation from their Yammer inbox, and they can no longer access it.
+A: When you remove someone from a Viva Engage conversation, it removes the entire conversation from their Viva Engage inbox, and they can no longer access it.
   
 The user that added the external participant can remove them from the conversation. In addition, both network and group admins can remove users from conversations.
   
 ### Q: What happens if I accidentally add an external participant to the conversation?
 
-A: Don't worry. Simply click **Remove Participant** on the system-generated comment announcing that participant has been added to the thread. For more information, see [Add external participants to your Yammer conversations](add-external-participants.md).
+A: Don't worry. Simply click **Remove Participant** on the system-generated comment announcing that participant has been added to the thread. For more information, see [Add external participants to your Viva Engage conversations](add-external-participants.md).
   
 ### Q: What happens if I select "Stop following in inbox" for an external message?
 
 A: The message is completely removed from your inbox.
   
-### Q: Will Yammer users who unsubscribe from email notifications receive an invitation when they have been added to a conversation?
+### Q: Will Viva Engage users who unsubscribe from email notifications receive an invitation when they have been added to a conversation?
 
 A: No.
   
-### Q: What if I add an external participant who is not a Yammer user?
+### Q: What if I add an external participant who is not a Viva Engage user?
 
-A: If you add someone and they are not a Yammer user, they will receive a copy of the message in their email inbox. They will also receive an invitation to join their Yammer network.
+A: If you add someone and they are not a Viva Engage user, they will receive a copy of the message in their email inbox. They will also receive an invitation to join their Viva Engage network.
   
-### Q: Can I add a user with a personal email address (like Hotmail or Gmail) to a Yammer conversation with External Messaging?
+### Q: Can I add a user with a personal email address (like Hotmail or Gmail) to a Viva Engage conversation with External Messaging?
 
 A: No. You must invite people using their company or work email address.
   
-### Q: Will pending Yammer users who have been added to a conversation receive an email to join Yammer?
+### Q: Will pending Viva Engage users who have been added to a conversation receive an email to join Viva Engage?
 
 A: Yes.
   
 ### Q: Can I see external participants in my type-ahead search box when I create or reply to a message?
 
-A: After an external participant has been added to a conversation, their name appears in the type-ahead search. Their name appears higher or lower on the suggested list depending on how frequently you communicate with that person on Yammer. Because of permission restrictions (which depend on the privacy settings of a group and whether the participant is internal or external), the type-ahead search experience varies. The following table explains the permissions and experience for type-ahead search with external participants:
+A: After an external participant has been added to a conversation, their name appears in the type-ahead search. Their name appears higher or lower on the suggested list depending on how frequently you communicate with that person on Viva Engage. Because of permission restrictions (which depend on the privacy settings of a group and whether the participant is internal or external), the type-ahead search experience varies. The following table explains the permissions and experience for type-ahead search with external participants:
   
 |**Situation**|**Experience for internal members**|**Experience for external participants**|
 |:-----|:-----|:-----|
@@ -94,9 +95,9 @@ A: Privacy and security is really important to us, too. We've spent a long time 
     
 - **Remove users:** You can remove external participants from a conversation. Once removed, a user can't view that conversation anymore. Both network and group admins can remove users from conversations. See [Remove an external participant from a conversation](add-external-participants.md#RemoveExternal).
     
-- **Data export:** Yammer verified admins can keep track of all conversations and files that include external participants and monitor conversations their users are having outside of your network. See [Find external participants in a Yammer network](find-external-participants.md).
+- **Data export:** Viva Engage verified admins can keep track of all conversations and files that include external participants and monitor conversations their users are having outside of your network. See [Find external participants in a Viva Engage network](find-external-participants.md).
     
-- **Keyword monitoring:** Yammer verified admins can set up keyword monitoring to alert admins of potential breaches. See [Monitor Keywords](../manage-security-and-compliance/manage-data-compliance.md#MonitorKeywords)
+- **Keyword monitoring:** Viva Engage verified admins can set up keyword monitoring to alert admins of potential breaches. See [Monitor Keywords](../manage-security-and-compliance/manage-data-compliance.md#MonitorKeywords)
     
 ### Q: When I add an external participant to a conversation, what can they see?
 
@@ -128,7 +129,7 @@ A: The conversation data is available to [verified admins](../manage-viva-engage
   
 ### Q: When I add an external participant to a conversation do they enter my network?
 
-A: No. External participants can only participate in conversations they have been explicitly invited to. They access these conversations via their Yammer inbox (on their network). They have no access to the rest of your network.
+A: No. External participants can only participate in conversations they have been explicitly invited to. They access these conversations via their Viva Engage inbox (on their network). They have no access to the rest of your network.
   
 ### Q: What rights do verified admins have?
 
@@ -141,10 +142,10 @@ Yes. Keyword monitoring applies to any posts in your network, including those fr
   
 ## Related articles
 
-[Add external participants to your Yammer conversations](add-external-participants.md)
+[Add external participants to your Viva Engage conversations](add-external-participants.md)
   
-[Create and manage external groups in Yammer](create-and-manage-external-groups.md)
+[Create and manage external groups in Viva Engage](create-and-manage-external-groups.md)
   
-[Find external participants in a Yammer network](find-external-participants.md)
+[Find external participants in a Viva Engage network](find-external-participants.md)
   
-[Disable external messaging in a Yammer network](disable-external-messaging.md)
+[Disable external messaging in a Viva Engage network](disable-external-messaging.md)
