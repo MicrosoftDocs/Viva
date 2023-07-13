@@ -60,4 +60,4 @@ Below is a set of actions we immediately take after you add a domain. Also, ther
 
 ## Related articles
 
-[Network migration - Consolidate multiple Yammer networks](consolidate-multiple-viva-engage-networks.md)
+[Network migration - Consolidate multiple Yammer networks](consolidate-multiple-networks.md)
