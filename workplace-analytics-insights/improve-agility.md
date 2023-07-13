@@ -7,9 +7,10 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Improve agility
