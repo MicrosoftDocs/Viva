@@ -20,6 +20,8 @@
        href: admin-key-concepts.md
      - name: Overview of Native Mode
        href: overview-native-mode.md
+     - name: Automatic Native Mode migration and network consolidation
+       href: automatic-migration-native-mode.md
      - name: Key admin roles and permissions in Viva Engage
        href: eac-key-admin-roles-permissions.md 
      - name: Set up the Viva Engage admin center
@@ -138,6 +140,8 @@
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
       - name: Enable rich text formatting
         href: /viva/engage/get-started-with-viva-engage/rich-text-formatting
+      - name: Configure conversation reporting
+        href: /viva/engage/manage-viva-engage-groups/configure-conversation-reporting
       - name: Report a conversation in Viva Engage
         href: report-conversation-overview.md    
       - name: View and manage analytics in Viva Engage
