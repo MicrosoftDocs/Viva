@@ -1,5 +1,5 @@
 ---
-ms.date: 07/06/2023
+ms.date: 07/14/2023
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: elizapo
@@ -68,8 +68,7 @@ Content added by users (such as when feedback providers enter responses for open
 
 Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
 
-
-## Viva Topics supported languages
+## Viva Topics
 **User interface**
 
 Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
@@ -77,4 +76,3 @@ Languages in the Viva Topics user interface are based on your organization's Mic
 **Languages available for processing topics**
 
 Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
-
