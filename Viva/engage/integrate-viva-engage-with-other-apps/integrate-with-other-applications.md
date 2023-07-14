@@ -25,7 +25,7 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 Viva Engage offers various integrations to help make other applications more mobile and social. 
   
 > [!TIP]
-> For many integrations, it is helpful to know [how to find a Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
+> For many integrations, you need to know [how to find a Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
   
 ## Viva Engage for SharePoint
 
@@ -41,17 +41,15 @@ You can [Add a Viva Engage feed to a Skype Meeting Broadcast](https://support.of
 
 ## Viva Engage Embed
 
- [Viva Engage Embed](/rest/api/yammer/embed-feed) delivers Viva Engage feeds to existing business applications, such as Skype for Business, the company intranet, CRM tools, or content management systems. 
+ [Viva Engage Embed](/rest/api/yammer/embed-feed) delivers Viva Engage feeds to existing business applications, such as your intranet, CRM tools, or content management systems. 
 
 ## Viva Engage Connect
 
-The [Viva Engage connector](/connectors/yammer/) is a host of social plug‐ins that gives you the flexibility to extend Viva Engage's social functionality across enterprise applications. 
+The [Viva Engage connector](/connectors/yammer/) is a host of social plugin that gives you the flexibility to extend Viva Engage's social functionality across enterprise applications. 
   
 ## Viva Engage and Flow
 
-[Microsoft Flow](/flow/) can be used with Viva Engage.  
-
-- For a list of Flow templates for connecting Flow and Viva Engage, see [Flow Viva Engage templates](https://flow.microsoft.com/connectors/shared_yammer/yammer/). Examples include using an RSS feed to send news to a Viva Engage group, posting to Viva Engage if new tweets match with a hashtag, posting to SharePoint when a message is posted in a group, posting to Viva Engage for a selected item or when a new item is posted in SharePoint, sending email when a new message is posted, and posting to Viva Engage from Facebook and Twitter.
+[Microsoft Flow](/flow/) can be used with Viva Engage to enable various scenarios. (See  [Flow Viva Engage templates](https://flow.microsoft.com/connectors/shared_yammer/yammer/). Some examples include: sending news through RSS feed to a Viva Engage group, posting tweets that match hashtags, sending email when a new message is posted, and posting to Viva Engage from Facebook and Twitter.
 
 - For other examples using Flow, see: 
     - [Create a knowledge-based community in Viva Engage by using QnA Maker and Flow](https://techcommunity.microsoft.com/t5/Yammer-Resources/Create-a-knowledge-based-community-in-Yammer-by-using-QnA-Maker/ta-p/393467)
