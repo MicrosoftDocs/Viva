@@ -16,7 +16,9 @@
      items:
      - name: Deploy Microsoft Viva Glint
        href: setup/deploy-viva-glint.md
-       items: 
+       items:
+        - name: Set up a Microsoft Viva Glint tenant 
+          href: setup/viva-glint-tenant-provision.md
         - name: Set up your Viva Glint instance
           href: setup/post-provisioning-next-steps.md
         - name: Viva Glint Licensing
