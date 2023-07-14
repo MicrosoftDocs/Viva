@@ -22,7 +22,7 @@ Successful employees and teams use collaboration networks to get work done effec
 
 ## About strong and diverse ties
 
-Some network connections represent significantly closer collaboration than a reciprocal interaction. When a network connection represents significantly closer collaboration time compared to other reciprocal interactions, Viva Insights classifies it as either a **strong tie** or as a **diverse tie**.
+Some network connections represent significantly closer collaboration than a reciprocal interaction. When a network connection represents more frequent collaboration time compared to other reciprocal interactions, Viva Insights classifies it as either a **strong tie** or as a **diverse tie**.
  
 The difference between strong ties and diverse ties is determined by how many other network connections the two individuals have in common.
 
