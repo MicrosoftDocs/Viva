@@ -25,7 +25,7 @@ description: "Learn about putting Viva Engage feeds in other applications, and u
 Viva Engage offers various integrations to help make other applications more mobile and social. 
   
 > [!TIP]
-> For many integrations, you need to know [how to find a Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
+> For many integrations, you need [the Viva Engage community or group's feedID](https://support.office.com/article/392aea9c-e622-4f5a-8f6a-26dafe970bcb). 
   
 ## Viva Engage for SharePoint
 
@@ -33,11 +33,7 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
   
 ## Viva Engage and Teams
 
-You can [Add a Viva Engage tab to a Teams channel](https://support.office.com/article/9fdca2b6-f03f-4632-87d1-e83b87b458b2).
-
-## Viva Engage and Skype for Business
-
-You can [Add a Viva Engage feed to a Skype Meeting Broadcast](https://support.office.com/article/0d92d1c4-4032-4b5b-bee4-cdeab1aea7c0), or use Skype for business from within Viva Engage.
+[Add a Viva Engage tab to a Teams channel](https://support.office.com/article/9fdca2b6-f03f-4632-87d1-e83b87b458b2).
 
 ## Viva Engage Embed
 
@@ -45,7 +41,7 @@ You can [Add a Viva Engage feed to a Skype Meeting Broadcast](https://support.of
 
 ## Viva Engage Connect
 
-The [Viva Engage connector](/connectors/yammer/) is a host of social plugin that gives you the flexibility to extend Viva Engage's social functionality across enterprise applications. 
+The [Viva Engage connector](/connectors/yammer/) hosts social plug-ins to extend Viva Engage's social functionality across enterprise applications. 
   
 ## Viva Engage and Flow
 
@@ -61,15 +57,15 @@ Integrate Viva Engage with Microsoft Dynamics CRM Online to add a social layer t
   
 ## Viva Engage for Salesforce.com
 
-The Viva Engage for Salesforce.com Integration automatically delivers your Salesforce CRM activity to Viva Engage in real‐time. You can track the progress of Salesforce objects like accounts, opportunities, leads, and campaigns within Viva Engage and instantly collaborate with coworkers from any department. For more information, see [Viva Engage and Salesforce.com Integration Sample Code Solution](https://go.microsoft.com/fwlink/?LinkId=525982).
+The Viva Engage for Salesforce.com Integration automatically delivers your Salesforce CRM activity to Viva Engage in real‐time. You can track the progress of Salesforce objects such as accounts, opportunities, leads, and campaigns within Viva Engage and instantly collaborate with coworkers from any department. For more information, see [Viva Engage and Salesforce.com Integration Sample Code Solution](https://go.microsoft.com/fwlink/?LinkId=525982).
   
 ## Custom apps using the Yammer APIs
 
-You can create your own applications using the data in Viva Engage, including creating tools to automate backing up data and deactivating users as they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application, and the export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
+Create your own applications using the data in Viva Engage, including automation tools for backing up data and deactivating users as they leave your company. The Yammer REST API provides an HTTP interface to features available in the Viva Engage Web Application. The export API provides a way to export Viva Engage data. Get information about the Yammer APIs in the [Yammer Developer documentation](https://developer.microsoft.com/yammer). 
   
 ### Viva Engage App directory
 
-Check out this comprehensive list of all Viva Engage apps in the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143).
+Review this comprehensive list of Viva Engage apps in the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143).
   
 ## Related articles
 
