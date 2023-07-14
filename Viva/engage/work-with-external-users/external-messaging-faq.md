@@ -1,5 +1,5 @@
 ---
-title: "External messaging FAQ - Viva Engage"
+title: "External messaging in Viva Engage - Frequently asked questions"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -24,7 +24,7 @@ description: "Find answers to questions about adding external participants to yo
 
 You can include people outside of your Viva Engage network in your conversations and private messages that are posted in external groups. You add people as external participants, and they can reply to messages and posts in your Viva Engage network without having to join. 
   
-Find answers to frequently asked questions about external participants in this article. Or see [Add external participants to your Viva Engage conversations](add-external-participants.md), [Create and manage external groups in Viva Engage](create-and-manage-external-groups.md), [Find external participants in a Viva Engage network](find-external-participants.md), and [Disable external messaging in a Viva Engage network](disable-external-messaging.md) for more information about working with external participants. 
+Find answers to frequently asked questions about external participants in this article.
  
 >[!NOTE] 
 >External messaging, including exernal networks, external groups, and external participants, is not available for Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md).
@@ -48,25 +48,25 @@ The user that added the external participant can remove them from the conversati
   
 ### Q: What happens if I accidentally add an external participant to the conversation?
 
-A: Don't worry. Simply select **Remove Participant** on the system-generated comment announcing that participant has been added to the thread. For more information, see [Add external participants to your Viva Engage conversations](add-external-participants.md).
+A: You can remove the external participant by selecting **Remove Participant** on the system-generated comment that announces that participant has been added to the thread. For more information, see [Add external participants to your Viva Engage conversations](add-external-participants.md).
   
 ### Q: What happens if I select "Stop following in inbox" for an external message?
 
 A: The message is removed from your inbox.
   
-### Q: Will Viva Engage users who unsubscribe from email notifications receive an invitation when they have been added to a conversation?
+### Q: Do Viva Engage users who unsubscribe from email notifications receive an invitation when they've been added to a conversation?
 
 A: No.
   
 ### Q: What if I add an external participant who isn't a Viva Engage user?
 
-A: If you add someone and they aren't a Viva Engage user, they'll receive a copy of the message in their email inbox. They'll also receive an invitation to join their Viva Engage network.
+A: If you add someone and they aren't a Viva Engage user, they receive a copy of the message in their email inbox. They also receive an invitation to join their Viva Engage network.
   
 ### Q: Can I add a user with a personal email address (like Hotmail or Gmail) to a Viva Engage conversation with External Messaging?
 
 A: No. You must invite people using their company or work email address.
   
-### Q: Will pending Viva Engage users who have been added to a conversation receive an email to join Viva Engage?
+### Q: Does a pending Viva Engage user who's been added to a conversation receive an email to join Viva Engage?
 
 A: Yes.
   
@@ -87,9 +87,9 @@ A: After an external participant has been added to a conversation, their name ap
 
 ### Q: How can I protect against risk and maintain our privacy?
 
-A: Privacy and security is important to us, too. We've invested in building tools to monitor and proactively protect your company's IP and employees. As part of External Messaging, we've built these security features:
+A: Privacy and security are important to us, too. We've invested in building tools to monitor and proactively protect your company's IP and employees. As part of External Messaging, we've built these security features:
   
-- **Clear UI warnings:** Warnings ensure that users are consciously aware before they add an external participant. When you add an external user to a conversation or reply to a conversation with an external participant, you'll see a clear warning in the UI. See [Add an external participant](add-external-participants.md#AddExternal).
+- **Clear UI warnings:** Warnings ensure that users are consciously aware before they add an external participant. When you add an external participant to a conversation or reply to a conversation with an external participant, a clear warning appears in the UI. See [Add an external participant](add-external-participants.md#AddExternal).
     
 - **Disable external messaging:** [Verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) can use these options to turn off external collaboration.  See [Disable external messaging](disable-external-messaging.md).
     
@@ -125,7 +125,7 @@ A: No. Because permissions restrict the audience to privileged members, external
   
 ### Q: Where does the data for external participants live?
 
-A: The conversation data is available to [verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) (by using data export) of any participant on the conversation. So if your employee is participating in a conversation on another network, because that conversation shows up in their inbox, it is available in your network's data export. For more information, see [Find external participants in a Yammer network](find-external-participants.md).
+A: The conversation data is available to [verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) (by using data export) of any participant on the conversation. So if your employee is participating in a conversation on another network, because that conversation shows up in their inbox, it's available in your network's data export. For more information, see [Find external participants in a Viva Engage network](find-external-participants.md).
   
 ### Q: When I add an external participant to a conversation do they enter my network?
 
@@ -133,9 +133,9 @@ A: No. External participants can only participate in conversations they have bee
   
 ### Q: What rights do verified admins have?
 
-A: [Verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) can remove all external participants from any conversation any time. They can also see which files and conversations are accessible to external users by using data export. For more information, see [Find external participants in a Yammer network.](find-external-participants.md)
+A: [Verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) can remove all external participants from any conversation any time. They can also see which files and conversations are accessible to external participants by using data export. For more information, see [Find external participants in a Viva Engage network.](find-external-participants.md)
   
-### Q: If I have keyword monitoring in place, will it apply to messages external participants post in my network?
+### Q: If I have keyword monitoring in place, does it apply to messages that external participants post in my network?
 
 Yes. Keyword monitoring applies to any posts in your network, including those from external participants.
 
