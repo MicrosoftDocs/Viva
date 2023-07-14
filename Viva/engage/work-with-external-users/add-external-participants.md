@@ -21,9 +21,9 @@ description: "Use Viva Engage's external messaging to communicate with outside p
 
 # Add external messaging participants to your Viva Engage conversations
 
-Sometimes you need to communicate with outside partners, suppliers, or customers. You can add external participants to conversations in Viva Engage so that you can work with the people you need to, even if they aren't in your Viva Engage network. For example, you can add external participants to a discussion or use instant messaging to get a quick response. External participants can view and download files that have been uploaded to the conversation, and upload files. You can see when a conversation includes an external participant, and remove the external participant when you need to. 
+Sometimes you need to communicate with outside partners, suppliers, or customers. You can include participants outside of your network to a conversation in Viva Engage so that you can work with the people you need to. For example, you can add an external participant to a discussion or use instant messaging to get a quick response. External participants can view and download files that have been uploaded to the conversation, and upload files. You can see when a conversation includes an external participant, and remove them when you need to. 
 
-If the external user belongs to an Office 365 Tenant, a Viva Engage Enterprise license is needed for the user. If the external user doesn't belong to an Office 365 Tenant, the user must have a valid work or school email account to participate as an external Viva Engage user. In this case, the email account must be an email address and account used to sign in to Office 365 for business for work or school (not a public account such as @hotmail.com, @outlook.com, @gmail.com, or @yahoo.com).
+If the external participant belongs to an Office 365 Tenant, you need to get a Viva Engage Enterprise license for the user. If the external participant doesn't belong to an Office 365 Tenant, they need a valid work or school email account. In this case, the email account must be an email address and account used to sign in to Office 365 for business for work or school (not a public account such as @hotmail.com, @outlook.com, @gmail.com, or @yahoo.com).
 
 >[!NOTE] 
 >This feature is not available for Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md) or in Viva Engage mobile apps.
@@ -84,9 +84,9 @@ Who can remove external participants?
     
 **Remove an external participant from a conversation**
   
-1. Within the comment announcing that an external participant has been added to the conversation, click **Remove Participants** for the member you would like to remove. 
+1. Within the comment announcing that an external participant has been added to the conversation, select **Remove Participants** for the member you would like to remove. 
   
-2. On the confirmation message "Are you sure you want to remove those people from the conversation?", choose **OK**.
+2. When prompted to confirm that you to remove people from the conversation, choose **OK**.
     
 Verified admins can find all external participants in a Network. See [Find external participants in a Viva Engage network](find-external-participants.md).
   
@@ -97,7 +97,7 @@ An external participant gets an email inviting them to Viva Engage. They can acc
   
 They also get an email with the body of the conversation or message. They can reply to the email to contribute to the discussion, or select the link to **Reply on Viva Engage**. If they choose to **Reply on Viva Engage**, they'll go to the Viva Engage registration page.
   
-If an external participants no longer wants to participate, they can unsubscribe from a conversation by using either:
+If an external participant no longer wants to participate, they can unsubscribe from a conversation by using either:
   
 - **Email:** choose the **Unsubscribe from this conversation** link in their email message. 
     
