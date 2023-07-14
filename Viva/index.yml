@@ -47,7 +47,7 @@ tools:
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
       url: /viva/connections/viva-connections-overview
-      
+
     # Card
     - title: Microsoft Viva Engage
       imageSrc: media/logos/engage-launch-c-64.svg
@@ -88,8 +88,6 @@ tools:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: media/logos/topics-launch-c-64.svg
       url: /viva/topics/
-
-
 
 
 # additionalContent section (optional)
