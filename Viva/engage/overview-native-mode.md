@@ -1,12 +1,13 @@
 ---
-ms.date: 12/14/2022
+ms.date: 7/12/2023
 title: "Overview of Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
-ms.reviewer: ethli
-ms.author: dmillerdyson
-author: dmillerdyson
-manager: dmillerdyson
+ms.reviewer: auhosford
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
+
 f1.keywords:
 - NOCSH
 ms.topic: article
@@ -24,15 +25,15 @@ search.appverid:
 
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 
-Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022.
+ > [!NOTE]
+> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022, and existing non-native networks are being automatically migrated to native mode. For more information, see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md)
+
+## Frequently asked questions
 
 In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
-
- > [!NOTE]
-> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Yammer site to Microsoft 365 and SharePoint Online, nothing is downloaded. The only consideration is the SharePoint Online quota if Yammer has been extensively used.
+> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. Nothing is downloaded. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
 
 A tenant must be in one of three modes:
 

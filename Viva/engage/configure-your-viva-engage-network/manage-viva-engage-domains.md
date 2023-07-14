@@ -59,7 +59,7 @@ When you remove a domain from Office 365, the domain is immediately removed from
 
 For instructions, follow the steps in [Remove a domain from Office 365](https://support.office.com/article/Remove-a-domain-from-Office-365-f09696b2-8c29-4588-a08b-b333da19810c).
 
-If you want to consolidate multiple domains into one Viva Engage network, see [Consolidate multiple Viva Engage networks](consolidate-multiple-viva-engage-networks.md).
+If you want to consolidate multiple domains into one Viva Engage network, see [Consolidate multiple Viva Engage networks](consolidate-multiple-networks.md).
 
 ## Change the network name displayed in the left navigation pane in Viva Engage
 To change the displayed network name shown below, change the **name** in the Office 365 Organization profile. This overrides the **Network Name** set in the Viva Engage Network admin. For steps, see [Change your organization's address, technical contact, and more](https://support.office.com/article/Change-your-organization-s-address-technical-contact-and-more-a36e5a52-4df2-479e-bb97-9e67b8483e10).
@@ -106,7 +106,7 @@ These additional networks could be free Viva Engage Basic networks created by em
 
 - Domain on Viva Engage network2: northwind.com
 
-This configuration is no longer supported as of October 16, 2018. For more information, see [Consolidate multiple Viva Engage networks](consolidate-multiple-viva-engage-networks.md).
+This configuration is no longer supported as of October 16, 2018. For more information, see [Consolidate multiple Viva Engage networks](consolidate-multiple-networks.md).
 
 Beginning December 2019, if you add an [external domain with a Viva Engage Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Office 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your O365 tenant. The basic network is then queued for deletion.
 

@@ -54,16 +54,16 @@ tools:
       url: /viva/engage/overview
 
     # Card
-    - title: Microsoft Viva Goals
-      imageSrc: media/logos/goals-launch-c-64.svg
-      url: /viva/goals/intro-to-ms-viva-goals
-
-    # Card
     - title: Microsoft Viva Glint
-      imageSrc: media/logos/glint-logo.png
+      imageSrc: media/logos/glint-launch-c-64.svg
       url: /viva/glint/introduction-viva-glint
 
     # Card
+    - title: Microsoft Viva Goals
+      imageSrc: media/logos/goals-launch-c-64.svg
+      url: /viva/goals/intro-to-ms-viva-goals
+      
+      # Card
     - title: Microsoft Viva Insights
       imageSrc: media/logos/insights-launch-c-64.svg
       url: /viva/insights/introduction
@@ -72,7 +72,7 @@ tools:
     - title: Microsoft Viva Learning
       imageSrc: media/logos/learning-launch-c-64.svg
       url: /viva/learning/
-      
+
     # Card
     - title: Microsoft Viva Pulse (Public Preview)
       imageSrc: media/logos/pulse-logo.svg
@@ -82,12 +82,13 @@ tools:
     - title: Microsoft Viva Sales
       imageSrc: media/logos/viva-logoicon.svg
       url: /viva/experience-role
-
+      
     # Card
     - title: Microsoft Viva Topics
       # imageSrc should be square in ratio with no whitespace
       imageSrc: media/logos/topics-launch-c-64.svg
       url: /viva/topics/
+
 
 # additionalContent section (optional)
 # Card with summary style
