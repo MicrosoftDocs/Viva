@@ -291,7 +291,10 @@ This rule applies to meetings, emails, and calls. Here's how the rule determines
 |------------------|---------|
 |Meeting| Isn't joined on Teams and meets at least one of the following conditions: <ul><li>Shows as anything other than "Busy" on participants' calendars <li>Has 1 or fewer people who accepted the invitation <li>Has anything other than "Accepted" or "Organizer" for the invitation response<li>Is canceled<li>Is 24 hours or longer
 |Email|Meets at least one of the following conditions: <ul> <li> Is an email sent to self <li>Is a non-collaboration email (refer to note below)
-|Call| Isn't scheduled and meets at least one of the following conditions: <ul><li>Is a voicemail<li>Is a missed call  
+|Call| Isn't scheduled and meets at least one of the following conditions: <ul><li>Is a voicemail<li>Is a missed call
+
+>[!Note]
+>A non-collaboration email doesn't warrant a reply, for example, an out-of-office auto-reply or an announcement message sent to a large audience.
 
 #### Replace collaboration exclusions as default
 

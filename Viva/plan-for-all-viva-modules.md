@@ -73,7 +73,7 @@ Review the different roles in each phase before you start planning. Each app nee
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|- Work with **stakeholders and your IT team** to identify how you can leverage your existing Viva Engage strategy in Viva Engage. | - [Set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. | - Work with community leaders and active users to promote Viva Engage.  <p> - Consult the [Viva Engage adoption resources](https://adoption.microsoft.com/viva-engage/) to help integrate Viva Engage communities on Viva Engage into your organization. |
+|- Work with **stakeholders and your IT team** to identify how you can leverage your existing Viva Engage strategy in Viva Engage. | - [Set up Viva Engage](https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) in Microsoft Teams. | - Work with community leaders and active users to promote Viva Engage.  <p> - Consult the Viva Engage adoption resources to help integrate Viva Engage communities on Viva Engage into your organization. |
 
 **If your organization is not using Viva Engage**
 

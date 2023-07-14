@@ -6,6 +6,8 @@
           href: where-to-find-topics.md
         - name: Viva Topics discovery and curation
           href: topic-experiences-discovery-curation.md
+        - name: Try Viva Topics in Viva Engage
+          href: topics-lightweight-management.md
         - name: Viva Topics roles
           items:
             - name: Overview
@@ -41,8 +43,8 @@
           href: topic-experiences-administration.md
         - name: Add the Topics app to Teams
           href: add-topics-app.md
-        - name: Viva Topics in Yammer
-          href: topic-experiences-yammer.md
+        - name: Viva Topics in Viva Engage
+          href: topic-experiences-viva-engage.md
        
     - name: Work with topics
       items:

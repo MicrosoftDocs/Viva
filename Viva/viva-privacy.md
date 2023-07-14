@@ -33,7 +33,7 @@ Microsoft is transparent about the specific policies, operational practices, and
 
 Privacy is built into all Microsoft Viva experiences. Microsoft Viva and the Viva apps adhere to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) and follow Microsoft's compliance with [General Data Protection Regulation](/compliance/regulatory/gdpr) and the [Microsoft EU Data Boundary](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb).
 
-Microsoft Viva inherits privacy features and settings from Microsoft 365, Teams, SharePoint, and Yammer, where applicable.
+Microsoft Viva inherits privacy features and settings from Microsoft 365, Teams, SharePoint, and Viva Engage, where applicable.
 
 In addition to the inherited controls, each Viva app has its own set of privacy controls that lets you customize the information you share. The following information describes how the Viva apps handle and store data, who can access it, and, if applicable, how you can manage it. 
 
@@ -43,7 +43,7 @@ Microsoft Viva and the Viva apps support compliance with [General Data Protectio
 Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
-- Viva Engage (Yammer): [Manage GDPR data subject requests in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Sales: [Responding to Data Subject Rights (DSR) requests for Microsoft Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide)
@@ -88,7 +88,7 @@ Each of the Viva apps collects and stores data in different ways, based on the i
 ### Viva Connections
 Privacy and security controls:
 - You control what content is available through the app.
-- Privacy settings inherited from SharePoint, Teams, Yammer/Viva
+- Privacy settings inherited from SharePoint, Teams, Viva Engage/Viva
 
 |What info is available?|Who can access it?|How is it managed?|
 |-|-|-|
@@ -98,12 +98,12 @@ For more information about Viva Connections, see [Overview of Viva Connections](
 
 ### Viva Engage
 Privacy and security controls:
-- Security and privacy settings are managed as a part of Yammer.
+- Security and privacy settings are managed as a part of Viva Engage.
 - Role-based access
 
 |What info is available?|Who can access it?|How is it managed?|
 |-|-|-|
-|Public announcements, private messages, posts, polls, and videos shared in communities, the inbox, and the Storyline.<br>User profiles (through Yammer)<br>Questions and answers<br>Rewards and recognition<br>Sentiment/usage analysis (personal analytics, audience analytics, campaign analytics, Answers analytics)|All users with a paid Microsoft or Office 365 subscription (as part of the Yammer license) and accessible through Microsoft Teams.<br><br>By default, private content is restricted to the participants in the content (for example, the sender and recipient of a private message); however, admins can be temporarily granted access to private content. (You'll need to manually remove this access as well.)|The Engage admin can setup and configure Yammer and Viva Engage through the Engage admin center (present in the Teams app).|
+|Public announcements, private messages, posts, polls, and videos shared in communities, the inbox, and the Storyline.<br>User profiles (through Viva Engage)<br>Questions and answers<br>Rewards and recognition<br>Sentiment/usage analysis (personal analytics, audience analytics, campaign analytics, Answers analytics)|All users with a paid Microsoft or Office 365 subscription (as part of the Viva Engage license) and accessible through Microsoft Teams.<br><br>By default, private content is restricted to the participants in the content (for example, the sender and recipient of a private message); however, admins can be temporarily granted access to private content. (You'll need to manually remove this access as well.)|The Engage admin can setup and configure Viva Engage through the Engage admin center (present in the Teams app).|
 
 For more information about privacy in Viva Engage, see [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
 

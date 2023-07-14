@@ -28,7 +28,7 @@ Microsoft Viva Connections for Education is your gateway to a modern faculty, st
 
 ![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
-Use the [quick guide to set up Viva Connections](/viva/connections/viva-connections-setup-guide) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
+Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](/viva/connections/plan-viva-connections).
 
 **Viva Connections is:**
 
@@ -47,7 +47,7 @@ Use the [quick guide to set up Viva Connections](/viva/connections/viva-connecti
 
 ## Components to Viva Connections
 
-Viva Connections is comprised of three primary components - the dashboard, the feed, and resources. Components display slightly differently between desktop and mobile devices.
+Viva Connections is composed of three primary components - the dashboard, the feed, and resources. Components display slightly differently between desktop and mobile devices.
 
 >
 | Component                  | Description                 |
@@ -158,7 +158,7 @@ In the Viva Connections app, users will see a personalized feed with relevant in
 
 ![Screenshot of the feed on the desktop](../media/connections/overview-viva-connections-education/feed-overview.png)
 
-The feed automatically balances fresh and engaging content with organizational communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using [SharePoint’s news boost feature](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) and Viva Engage's (formerly called Yammer) "Featured" options. The feed requires usage of modern SharePoint or Yammer communities, but the best experience is delivered when both are used together.
+The feed automatically balances fresh and engaging content with organizational communications to keep users interested, while also ensuring that they see the most important messages. Individual messages can be promoted to raise greater awareness among users by using [SharePoint’s news boost feature](https://support.microsoft.com/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) and Viva Engage's (formerly called Yammer) "Featured" options. The feed requires usage of modern SharePoint or Viva Engage communities, but the best experience is delivered when both are used together.
 
 ### Feed content sources
 
@@ -223,13 +223,13 @@ Viva Connections gives you and your content creators the tools for both curated 
 > [!NOTE] 
 > **[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)** is accomplished using Azure Active Directory (Azure AD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
 
-A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Yammer group memberships, popular content, and more. An example of tailored content is the feed.
+A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Viva Engage group memberships, popular content, and more. An example of tailored content is the feed.
 
 - **Home site (curated [optional])**: A home site isn't required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting content to specific audiences.
 
 - **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Azure AD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses Azure AD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard will look like across devices and audiences.
 
-- **Feed (tailored)**: The Viva Connections feed uses its own heuristics to tailor the feed for a user by bringing in the most relevant content for that user. It utilizes signals in the content created across the organization. Some of the signals used are Yammer group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The feed also supports promotional capabilities such as using [SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
+- **Feed (tailored)**: The Viva Connections feed uses its own heuristics to tailor the feed for a user by bringing in the most relevant content for that user. It utilizes signals in the content created across the organization. Some of the signals used are Viva Engage group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The feed also supports promotional capabilities such as using [SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 - **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Azure AD groups for targeting so that users in different groups will see relevant navigation items.
 
@@ -239,7 +239,7 @@ A tailored experience is one in which content is automatically displayed accordi
 | **Home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
 | **Dashboard** | Curated | Author selects cards to show and uses Azure AD groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
 | **Feed** | Tailored | Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview). |
-| **Resources** | Curated | Using Azure AD groups, menu items in the global navigation can be targeted to specific audiences. |
+| **Resources** | Curated | Target menu items in the global navigation to specific audiences by using Azure AD groups. |
 >
 
 ## Branding
@@ -290,7 +290,7 @@ There are several options to learn more about how to get Viva Connections for yo
 >
 | **Option** | **Description** | **Time to complete** |
 |-----|-----|-----|
-| **[Quick guide](/viva/connections/viva-connections-setup-guide)** | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
+| **[Quick guide](set-up-admin-center.md)** | Use the quick guide to get a high-level overview of how to get Viva Connections | 10 minutes |
 | **[Plan, build, and launch guidance](/viva/connections/viva-connections-setup-overview)** | Get more detailed guidance that focus on tasks in the plan, build, and launch phases. | 30 minutes |
 | **[Learning path](/training/paths/viva-connections-get-started/)** | Get in-depth guidance that includes fictitious business stories and examples. Complete knowledge checks to confirm learnings. | Two hours |
 >

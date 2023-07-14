@@ -226,17 +226,17 @@ Each app has its own technical requirements before it can be customized and shar
 - **Technical requirements:** 
     - Microsoft 365 E3 or E5 license 
     - Viva Suite or Viva Engage license  
-    - Yammer 
+    - Viva Engage 
 - **Impact on end users:** 
      - Connect and engage with leaders, colleagues, and communities
     - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks
 - **Admins and roles:** 
-    - Yammer Verified admin 
+    - Viva Engage Verified admin 
     - Microsoft Teams admin 
     - Community leaders and stakeholders from employee resource groups 
 - **Change management considerations:** 
     - Microsoft Teams adoption (if you aren't already using Teams) 
-    - Yammer adoption if your organization is new to Yammer 
+    - Viva Engage adoption if your organization is new to Viva Engage 
 
 ### Viva Goals 
 
@@ -284,7 +284,7 @@ Get more information about each app and how to get started.
 
 |Viva app  |Description |Getting started resources |
 |:---------:|---------|---------|
-|**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/viva-connections-setup-guide.md)|
+|**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/set-up-admin-center.md)|
 |**Viva Insights**    |Balance productivity and wellbeing – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.| [Overview](insights/introduction.md) <br> [Learn how to set it up](insights/advanced/setup-maint/setup-overview.md) |
 |**Viva Learning**|Accelerate skilling and growth – Your employees can easily discover and share everything from formal training courses to internal company resources.|   [Overview](learning/index.md) <br> [Learn how to set it up](learning/set-up-viva-learning.md) |
 |**Viva Topics** |Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results. |[Overview](topics/index.md) <br> [Learn how to set it up](topics/set-up-topic-experiences.md) |
