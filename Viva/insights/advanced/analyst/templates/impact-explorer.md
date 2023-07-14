@@ -17,8 +17,6 @@ audience: Admin
 
 # Impact explorer report
 
-*Applies to: private preview customers only*
-
 Using a template populated by Microsoft Viva Insights, the **Impact explorer** report estimates how taking actions facilitated by Viva Insights can positively impact your organization.
 
 >[!Note]
