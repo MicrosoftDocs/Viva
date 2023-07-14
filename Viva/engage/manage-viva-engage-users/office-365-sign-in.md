@@ -90,4 +90,4 @@ A: The Office 365 sign-in for Viva Engage automatically respects any Office 365 
     
 **Q: Can I combine Viva Engage networks in order to take advantage of Office 365 sign-in for Viva Engage?**
 
-A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md).
+A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md).
