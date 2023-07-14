@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 9/23/2019
+ms.date: 7/13/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -19,10 +19,9 @@ search.appverid:
 ms.assetid: f8fd6403-c8f3-4307-9230-65304d6000d9
 description: "Disable external messaging, with options for preventing external users in groups and conversations, and preventing users from joining a Viva Engage network in another organization."
 ---
-
 # Disable external messaging in a Viva Engage network
 
-By default for Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and Viva Engage groups, and members of your Viva Engage network can participate in another company's Viva Engage network if invited. If needed, you can turn off this external collaboration.
+For Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and Viva Engage groups. Also, members of your Viva Engage network can participate in another company's Viva Engage network, if invited. You can turn off this external collaboration, if needed.
 
 1. In the Viva Engage admin center, go to **Content and Security** \> **Security Settings**.
     

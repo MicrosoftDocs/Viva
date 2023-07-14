@@ -20,7 +20,7 @@ ms.assetid: 35b59d6c-bb1c-4541-bf19-9f67d2f2b199
 description: "Find answers to questions about adding external participants to your Viva Engage network, including general questions or questions about permissions and security and questions about opting out of external messaging."
 ---
 
-# External messaging FAQ - Viva Engage
+# External messaging in Viva Engage - Frequently asked questions
 
 You can include people outside of your Viva Engage network in your conversations and private messages that are posted in external groups. You add people as external participants, and they can reply to messages and posts in your Viva Engage network without having to join. 
   
@@ -48,19 +48,19 @@ The user that added the external participant can remove them from the conversati
   
 ### Q: What happens if I accidentally add an external participant to the conversation?
 
-A: Don't worry. Simply click **Remove Participant** on the system-generated comment announcing that participant has been added to the thread. For more information, see [Add external participants to your Viva Engage conversations](add-external-participants.md).
+A: Don't worry. Simply select **Remove Participant** on the system-generated comment announcing that participant has been added to the thread. For more information, see [Add external participants to your Viva Engage conversations](add-external-participants.md).
   
 ### Q: What happens if I select "Stop following in inbox" for an external message?
 
-A: The message is completely removed from your inbox.
+A: The message is removed from your inbox.
   
 ### Q: Will Viva Engage users who unsubscribe from email notifications receive an invitation when they have been added to a conversation?
 
 A: No.
   
-### Q: What if I add an external participant who is not a Viva Engage user?
+### Q: What if I add an external participant who isn't a Viva Engage user?
 
-A: If you add someone and they are not a Viva Engage user, they will receive a copy of the message in their email inbox. They will also receive an invitation to join their Viva Engage network.
+A: If you add someone and they aren't a Viva Engage user, they'll receive a copy of the message in their email inbox. They'll also receive an invitation to join their Viva Engage network.
   
 ### Q: Can I add a user with a personal email address (like Hotmail or Gmail) to a Viva Engage conversation with External Messaging?
 
@@ -87,11 +87,11 @@ A: After an external participant has been added to a conversation, their name ap
 
 ### Q: How can I protect against risk and maintain our privacy?
 
-A: Privacy and security is really important to us, too. We've spent a long time building tools to monitor and proactively protect your company's IP and employees. As part of External Messaging, we've built a number of security features:
+A: Privacy and security is important to us, too. We've invested in building tools to monitor and proactively protect your company's IP and employees. As part of External Messaging, we've built these security features:
   
-- **Clear UI warnings:** We've built warnings to ensure users are consciously aware before they add an external participant. When you add an external user to a conversation or reply to a conversation with an external participant, you'll see a clear warning in the UI. See [Add an external participant](add-external-participants.md#AddExternal).
+- **Clear UI warnings:** Warnings ensure that users are consciously aware before they add an external participant. When you add an external user to a conversation or reply to a conversation with an external participant, you'll see a clear warning in the UI. See [Add an external participant](add-external-participants.md#AddExternal).
     
-- **Disable external messaging:** We've created options for [verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) to turn off external collaboration.  See [Disable external messaging](disable-external-messaging.md).
+- **Disable external messaging:** [Verified admins](../manage-viva-engage-users/manage-viva-engage-admins.md) can use these options to turn off external collaboration.  See [Disable external messaging](disable-external-messaging.md).
     
 - **Remove users:** You can remove external participants from a conversation. Once removed, a user can't view that conversation anymore. Both network and group admins can remove users from conversations. See [Remove an external participant from a conversation](add-external-participants.md#RemoveExternal).
     

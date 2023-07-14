@@ -14,6 +14,8 @@
      items:
      - name: Viva Engage Admin center overview 
        href: eac-overview.md 
+     - name: Viva Engage Admin center - Frequently asked questions
+       href: eac-answers-faq.md
      - name: Viva Engage Admin key concepts
        href: admin-key-concepts.md
      - name: Overview of Native Mode
@@ -46,11 +48,7 @@
           href: /viva/engage/configure-your-viva-engage-network/files-in-native-mode
         - name: File storage for Viva Engage
           href: /viva/engage/get-started-with-viva-engage/file-storage
-        - name: Set up Viva Engage usage policy
-          href: set-up-usage-policy.md
-        - name: Overview of eDiscovery
-          href: /viva/engage/manage-security-and-compliance/overview-of-ediscovery
-     - name: Manage groups and users
+     - name: Manage Viva Engage groups
        items:
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
@@ -60,6 +58,32 @@
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
+     - name: Manage Viva Engage users
+       items:
+        - name: Set up Viva Engage usage policy
+          href: set-up-usage-policy.md
+        - name: Add, block, or remove users
+          href: /viva/engage/manage-viva-engage-users/add-block-or-remove-users
+        - name: Office 365 sign-in for Viva Engage
+          href: /viva/engage/manage-viva-engage-users/office-365-sign-in
+        - name: Improve Office 365 sign-in for Viva Engage with auto-acceleration policy
+          href: /viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in
+     - name: Work with external users
+       items:
+        - name: Work with external groups in Viva Engage networks not aligned to Native Mode
+          href: /viva/engage/work-with-external-users/create-and-manage-external-groups
+        - name: Collaborate with guests in a Viva Engage community
+          href: /viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community
+        - name: Find external participants
+          href: /viva/engage/work-with-external-users/find-external-participants
+        - name: Add external participants
+          href: /viva/engage/work-with-external-users/add-external-participants
+        - name: Disable external messaging in a Viva Engage network
+          href: /viva/engage/work-with-external-users/disable-external-messaging
+        - name: Manage your profile in an external network
+          href: /viva/engage/work-with-external-users/manage-your-profile-in-an-external-network
+        - name: External messaging in Viva Engage - Frequently asked questions
+          href: /viva/engage/work-with-external-users/external-messaging-faq
    - name: Privacy and security
      items:
      - name: Security and compliance overview
@@ -68,6 +92,10 @@
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
      - name: Manage Viva Engage with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
+     - name: Overview of eDiscovery
+       href: /viva/engage/manage-security-and-compliance/overview-of-ediscovery
+     - name: eDiscovery - Frequently asked questions
+       href: /viva/engage/manage-security-and-compliance/FAQ-ediscovery
      - name: Enforce Office 365 identity for Viva Engage user
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
      - name: Manage Viva Engage core user licenses in Microsoft 365
@@ -128,4 +156,8 @@
          href: troubleshoot-native-mode.md
        - name: User sign-in issues on Android devices
          href: /viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices
+       - name: Viva Engage update on Internet Explorer 11 retirement
+         href: /viva/engage/manage-viva-engage-users/internet-explorer-11-retirement
+       - name: Error when selecting the Viva Engage tile in Office 365
+         href: /viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365
         

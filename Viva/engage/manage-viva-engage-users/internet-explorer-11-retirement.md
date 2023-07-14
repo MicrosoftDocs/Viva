@@ -19,9 +19,9 @@ search.appverid:
 - MEW150
 - MED150
 ms.assetid: 4ece0ee2-c268-4636-bf2a-16e454befe57
-description: "Learn about the projected retirement of Internet Explorer coming in August 2021."
+description: "Learn about the retirement of Internet Explorer 11."
 ---
-# Viva Engage update on Internet Explorer 11 changes coming in August 2021
+# Viva Engage update on Internet Explorer 11 retirement
 
 As of August 2021, Viva Engage, along with other Microsoft 365 apps and services, retired support for Internet Explorer 11. With the advances in web technology over the years, Internet Explorer 11 no longer provides the best experience to our customers.
 

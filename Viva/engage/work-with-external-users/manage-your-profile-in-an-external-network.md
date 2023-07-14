@@ -52,7 +52,7 @@ After you sign in, the **Settings** icon contains a blue dot.
 ## Leave the external network
 You can leave a Viva Engage external network at any time and for any reason.
 
-1.	After logging in to the external network, select **Settings** > **Edit Settings**.
+1.	After signing in to the external network, select **Settings** > **Edit Settings**.
 
   
     :::image type="content" source="../../media/ext-network-settings.png" alt-text="Screenshot showing locate Network settings in a tab under Account settings.":::
