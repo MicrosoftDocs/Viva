@@ -3,7 +3,7 @@ title: Get started driving adoption of Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
-ms.date: 11/15/2021 
+ms.date: 07/13/2023 
 audience: admin
 ms.topic: article
 ms.custom: Adopt
@@ -61,19 +61,21 @@ To plan for adoption of Viva Topics, you need to:
 1. Plan your approach and target scenarios:
     - Think about defining and prioritizing the [scenarios](#target-scenarios).
     - Think about the [stakeholders](#identify-stakeholders) and project team members you need to have involved.  
-    - Figure out what business impact you want to drive towards and how you're going to [measure success](#create-a-success-plan).
+    - Determine your desired business results and how you're going to [measure success](#create-a-success-plan).
 
 2. Engage your organization:
-    - Identify the business groups and business teams that need to be involved and gain alignment across those and the scenarios that you're planning.
+    - Identify the business groups and business teams that need to be involved and align them with the scenarios that you're planning.
     - Start thinking about how to engage some early adopters to get critical, early feedback so you can iterate to get to the best solution.
-    - Start building the community and think about how Viva Topics can be used across your organization by these different groups.
+    - Start building the community and think about how different groups in your organization can use Viva Topics.
 
 3. Train your organization: Most people will intuitively understand the concept of topics and how topic cards compile relevant information, and understand and see the value. But you might want to create training that is tailored to your own culture and organization, to show how you want Viva Topics to be used. Some training resources:
     - [Knowledge & Content Services resource center](https://aka.ms/projectcortex). Includes overviews and feature information, recorded office hour videos and presentations, and information about partners and their offerings.
-    - Coming soon, training videos and help for end users.
+    - Share [training and user help content](https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332) with your users.
 
 4. [Build a champion network](#build-a-champion-network):
-    - You might have communities of practice or champion networks already in place. These are great ways to socialize and evangelize and get peers involved in helping each other. And they can share success stories which can be valuable. They can offer advice and generate excitement.
+    - You might have communities of practice or champion networks already in place. These networks are great ways to socialize and evangelize and get peers involved in helping each other. And they can share success stories, which can be valuable. They can offer advice and generate excitement.
+
+5. [View more resources on the adoption site](https://adoption.microsoft.com/viva/topics/).
 
 ### Target scenarios
 
@@ -85,7 +87,7 @@ Determine how you want to use Viva Topics in your organization so that you use t
 
 #### Example scenario for role onboarding
 
-An HR manager needs to provide information to new employees that will help them quickly onboard to the company and their teams. They want to point them to the correct resources, documents, and team members that they’ll need to onboard quickly and efficiently. They’re looking for a solution that allows the new employee to quickly find the information they need without having to search across multiple repositories or leave the applications they’re already using.
+An HR manager needs to provide information to new employees to help them quickly onboard to the company and their teams. They want to point them to the correct resources, documents, and team members that they’ll need to onboard quickly and efficiently. They’re looking for a solution that allows the new employee to quickly find the information they need without having to search across multiple repositories or leave the applications they’re already using.
 
 For example:
 
@@ -93,7 +95,7 @@ For example:
 - A colleague (Kim) who was in the role before Jordan created topic pages that can help out new employees and anyone else looking for that information.
 - Kim was an SME and had permissions to look at unconfirmed topic pages. Unconfirmed topic pages are great starting points for what the AI has discovered and created, and Kim was able to edit them to add expert resources, definitions, and pin other resources.
 - As Jordan reads through a new post on SharePoint, they see a topic highlight, and hover over it to quickly get a definition of the term and who to contact with more questions. Before, Jordan might have had to hunt around for this information and contact colleagues to see who to ask about something.
-- Exposing this information through topics can be powerful, because although this information may have been available before, it might have been siloed and hard to find. Bringing it into the applications that Jordan is using and helping them find these experts can also drive a sense of engagement and community. It can also help them feel more empowered when dealing with the new role.
+- Exposing this information through topics can be powerful. Although this information may have been available before, it might have been siloed and hard to find. Bringing it into the applications that Jordan is using and helping them find these experts can also drive a sense of engagement and community. It can also help them feel more empowered when dealing with the new role.
 
 When you automate this scenario, you can ensure that:
 
@@ -142,7 +144,7 @@ Identify the stakeholders for your project. The key roles are the Executive spon
 | Power Platform administrator| Configure Dataverse environment | IT department |
 | Search administrator or manager | Configure search settings | IT department |
 
-In a larger organization, you might also have multiple people in these roles, and you'll need to drive coordination amongst them. In a smaller company, a single person might perform several of these roles. Different roles might be more involved in different phases of the project. For example, Tenant administrators are more involved in setting up the features, while Subject-matter experts and Champions don't get involved until you start defining topics.
+In a larger organization, you might also have multiple people in these roles, and you'll need to drive coordination amongst them. In a smaller company, a single person might perform several of these roles. Different roles might be more involved in different phases of the project. For example, administrators are more involved in setting up the features, while subject-matter experts and champions don't get involved until you start defining topics.
  
 Though we recommend having each of these roles fulfilled throughout your rollout, you may find that you don't require them all to get started with your identified solution.
 
@@ -167,15 +169,15 @@ Build a champion network in your organization. Champions are important because t
 
 You can recruit champions from different roles – Knowledge Managers and subject-matter experts.
 
-Lots of champion networks use Yammer as their platform. In Yammer, people can post questions and get answers, and share success stories. It's hard to get the word out alone, so you can rely on the network of people throughout your company to offer advice to their peers and show how their team is using Viva Topics so other teams can think about their own scenarios.
+Lots of champion networks use Viva Engage as their platform. In Viva Engage, people can post questions and get answers, and share success stories. You can rely on the network of people throughout your company to offer advice to their peers and show how their team is using Viva Topics so other teams can think about their own scenarios.
 
 Some organizations are using hackathons (formal or informal, virtual or in person) to gather groups of people to work on a specific project. For example, you could gather your subject-matter experts and have them work together to curate a set of topic pages.
 
-Think about how you can recognize your champions. Reward their activities, give them some recognition, and generate a visible community feeling and engagement so that they feel like they're contributing to something and they're also getting something back from their investments.
+Think about how you can recognize your champions. Rewarding their activities, giving them recognition, and generating an engaging community can make employees feel like they're contributing to something important while getting something back from their investments.
 
 Now that you're ready to roll out, you want to make sure that you're encouraging ongoing engagement.
 
-- Maintain active Yammer groups for your champions.
+- Maintain active Viva Engage groups for your champions.
 - Share success stories.
 - Periodically host engagement events to share stories or introduce new features.
 - Set challenges for people and run competitions.

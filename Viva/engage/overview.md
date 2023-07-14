@@ -52,10 +52,10 @@ Generally, all features in Yammer.com are also in Viva Engage. However, there ar
 ## See also 
 End user documentation: [Getting started with Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 
-[Yammer administration documentation](/yammer/)
+[Viva Engage administration documentation](/yammer/)
 
-[Yammer adoption center](https://adoption.microsoft.com/yammer/)
+[Viva Engage adoption center](https://adoption.microsoft.com/viva/engage/)
 
-[Yammer help & learning](https://support.microsoft.com/yammer)
+[Viva Engage help & learning](https://support.microsoft.com/yammer)
 
 
