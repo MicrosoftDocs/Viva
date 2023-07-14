@@ -22,46 +22,110 @@ description: Learn how Viva Learning handles customer-facing reports.
 
 ## Introduction
 
-Analytics and reporting experience for Viva Learning is available in the Viva Learning admin tab. 
-This will enable organizations to get insights into how Viva Learning is used in their respective companies. We are actively working on adding more metrics in the report section to provide richer insights to the users.  
+Use the Viva Learning admin tab to access analytics and reporting experience for Viva Learning. 
+This feature enables organizations to get insights into how Viva Learning is used by their employees.
+
+ We're actively working on adding more metrics in the report section to provide richer insights in future releases.
 
 ## Data Protection
 
-Viva Learning follows GDPR guidelines for storing data 
+- Viva Learning follows GDPR guidelines for storing data.
 
-Viva Learning does not collect any PII (Personally Identifiable Information) data 
+- Viva Learning doesn't collect any personally identifiable information. 
 
-Since Viva Learning does not collect PII data all reports will be anonymous. Data cannot be directly linked to a user or device  
+-  All reports are anonymous. Data can't be directly linked to a user or device.  
 
-Data is stored in Viva Learning for a period of 6 months. Ideas stores the EUPI data for a period of 1 Year.  
+- Data is stored in Viva Learning for six months. Ideas stores the EUPI data for a year.  
 
-Viva learning metrics are not designed to enable evaluation, tracking, automated decision making, profiling, or monitoring. 
+- Viva Learning metrics aren't designed to enable evaluation, tracking, automated decision making, profiling, or monitoring.
 
 ## Prerequisites
 
 ### Permissions to access Viva Learning reports  
 
-By default, reporting is available for the following roles You can also manage access to reports through M365 groups.  
+Reporting is available for the following roles:
 
-Knowledge admin 
+- Knowledge admin
 
-Knowledge manager  
+- Knowledge manager  
 
-Global Administrator 
+- Global administrator
+
+You can also manage access to reports through Microsoft 365 groups.  
 
 ### Ensure telemetry is enabled in the MAC portal  
 
-In the M365 MAC portal ensure required diagnostic data and Optional diagnostic data fields are turned on. 
+In the Microsoft Admin Center, ensure that the required diagnostic data and optional diagnostic data fields are turned on. 
 
-## How to Access Reports 
+![Checked boxes in the MAC settings with Learning Record Sync and Diagnostics data options enabled](../media/learning/reports-telemetry-enabled-mac.png)
 
-Go to Viva Learning admin tab, in the left navigation select Reports.  
+## How to access reports 
 
-### Viva Learning Reporting Metrics 
+Go to Viva Learning admin tab and select **Reports**.  
+
+![The adoption view report indicating monthly active users and growth rate of adoption](../media/learning/reports-adoption.png)
+
+### Viva Learning reporting metrics 
 
 | Metric | Description 
-|:-----|:-----|
+|:-----|:----- |
 | Monthly Active Users | Total number of unique users who have launched the app in the last 30 days. |
-| Daily Active Users | Total no of unique users who have launched the app on that day |
-|Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, Playing content 
-|
+| Daily Active Users | Total no of unique users who have launched the app on that day. |
+| Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
+|Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month | 
+| Courses Played | Total number of courses played by learners in a month | 
+| Courses Bookmarked | Total number of courses bookmarked by learners in a month |
+| Learning Paths Viewed | Total number of learning paths viewed by learners in a month |
+| Learning Collection Created | Total number of learning collections created by learners in a month |
+| Learning Collection Viewed | Total number of learning collections viewed by learners in a month |
+|Courses shared | Total number of courses shared by learners in a month |
+| Courses Recommended | Total number of courses recommended by learners in a month |
+| Courses Rated | Total number of rating by learners in a month |
+
+## Export reports 
+
+Users can export all the available reports data into a single Excel file using the Export all reports option available at the top on Viva Learning admin reports page:
+
+1. Go to the Viva Learning admin tab and select **Reports**. 
+
+2. Select **Export all reports** to export all the available reports data.
+
+![The option to export all reports](../media/learning/reports-export-all.png)
+
+Individual reports data can be exported into an Excel file using the Export option available for each report. 
+
+1. Go to the Viva Learning admin tab and select **Reports**. 
+
+2. Select **Export** to export individual report data.
+
+![The option to export individual report](../media/learning/reports-export-individual.png)
+    
+## Data refresh rate 
+
+Daily Active Users (DAU) report data is updated daily. 
+Data for all other reports is updated monthly on the third of every month. 
+
+## FAQ 
+
+
+- **Why does Viva Learning collect telemetry data?**
+
+    To provide usage insights of Viva Learning to organizations. 
+
+- **Does Viva Learning capture any personally identifiable information (PII)?** 
+
+    We don't collect any PII data. The data collected for these reports can't be directly linked to a user or device.
+
+- **How does Viva Learning keep customers’ data safe?**  
+
+    Data is transmitted using SSL and access is highly restricted. It's only granted to Microsoft personnel who can demonstrate a valid business need (for example, to a product team to fix an issue).  
+
+- **Does Viva Learning follow GDPR guidelines for telemetry?** 
+
+    Yes, we follow GDPR guidelines for storing telemetry data   
+
+- **How often is data refreshed?** 
+
+    Daily Active Users (DAU) report data is updated daily. 
+    Data for all other reports is updated monthly.
+
