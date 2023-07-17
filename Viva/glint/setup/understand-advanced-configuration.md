@@ -76,7 +76,7 @@ View specifics about how data display in Viva Glint reporting and which features
 | **Scores should represent favorability scores by default** | Not recommended. Viva Glint recommends and displays average scores. |
 | **Comments privacy: minimum # of responders for search results** | Comments do not display for fewer question responses than this threshold. Viva Glint standard: 10 |
 | **Comments privacy: minimum # of responders for facet/grouping** | Comments do not display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
-| **driverImpactMinDifferenceFromBaseline** | In the Driver Impact report, the minimum difference from the item score for the entire company.Viva Glint standard: 5 |
+| **driverImpactMinDifferenceFromBaseline** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
 | **driverImpactMinSamples** | In the Driver Impact report, the minimum number of respondents to display results. Viva Glint standard: 20 |
 | **Exclude negative strengths and positive weaknesses?** | Exclude negative strengths and positive weaknesses for Driver Impact calculation. |
 | **Whether to allow the users to look up questionnaires without a kiosk** | Allow users to access attribute-based surveys without a registered kiosk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230745) |
