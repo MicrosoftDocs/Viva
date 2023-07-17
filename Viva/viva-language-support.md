@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2023
+ms.date: 07/18/2023
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: elizapo
@@ -21,7 +21,7 @@ description: "Learn about language support in Microsoft Viva"
 ---
 # Microsoft Viva language support
   
-The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in Viva Connections, Viva Learning, Viva Topics, and Viva Insights.
+The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in  the different Viva modules.
 
 
 ## Viva Connections
@@ -62,9 +62,9 @@ Viva Learning adapts to your organization's Microsoft 365 language preferences. 
 Learn more about [language support for Viva Learning](/viva/learning/viva-learning-supported-languages).
 
 ## Viva Pulse
-Viva Pulse is currently available in English only. Support for additional languages is coming soon.
+Viva Pulse supports 40 language translations for standard content and is available in most major languages used in Microsoft 365.
 
-Content added by users (such as when feedback providers enter responses for open-ended questions) is displayed in the language in which it was entered.
+Content added by users (such as when a feedback author adds or edits a question or when a feedback provider enters a response for an open-ended question) is displayed in the language in which it was entered.
 
 Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
 
