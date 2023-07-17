@@ -32,7 +32,7 @@
        items:
         - name: Configure your Viva Engage network
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
-        - name: Configure your Viva Engage network for Native Mode
+        - name: Requirements for setting up a Viva Engage network for Native Mode
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
         - name: Viva Engage Native Mode step-by-step guide
           href: native-mode-guide.md
