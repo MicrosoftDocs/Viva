@@ -1,6 +1,6 @@
 ---
 title: Understand Advanced Configuration options in Viva Glint
-description: For highly trained users, Viva Glint offers Advanced Configuration options which allow users to view and modify advanced platform settings and perform complex data updates.
+description: For highly trained users, Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen
@@ -20,7 +20,7 @@ ms.date: 07/17/2023
 
 # Understand Advanced Configuration options in Viva Glint
 
-For highly trained users, Microsoft Viva Glint offers Advanced Configuration options which allow users to view and modify advanced platform settings and perform complex data updates.
+For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 
 :::image type="content" source="../../media/glint/setup/understand-advanced-configuration.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
 
@@ -39,7 +39,7 @@ To access, a Global or Company admin must enable Advanced Configuration access o
 4. On the user's detail page, in **Company Admin: Advanced Configuration Access,** select the **pencil symbol** to edit.
 5. In the dialog, **turn on Advanced Configuration access** and select **Save**.
 
-After this enablement, when a user selects the **Configure** symbol, then goes to **Client Settings**, they will see **Advanced Configuration.**
+After this enablement, when a user selects the **Configure** symbol, then goes to **Client Settings**, they'll see **Advanced Configuration.**
 
 > [!NOTE]
 > A user may need to refresh or sign into Viva Glint again to seeAdvanced Configuration once enabled.
@@ -57,26 +57,26 @@ View specifics about how data display in Viva Glint reporting and which features
 | **Setting** | **Description** |
 | --- | --- |
 | **Disabled** | Disable site, leave unchecked |
-| **Auto Action Plans** | Enable auto-generation of action plans for eligible users |
+| **Auto Action Plans** | Enable autogeneration of action plans for eligible users |
 | **Logo URL** | No action needed, leave blank |
 | **Custom Surveys Enabled** | Advanced survey customization, no action required. |
-| **Confidentiality threshold (minSampleSize)** | Scores do not display for fewer responses than this threshold. Viva Glint standard: 5 |
+| **Confidentiality threshold (minSampleSize)** | Scores don't display for fewer responses than this threshold. Viva Glint standard: 5 |
 | **Suppression threshold (minGroupSize)** | To prevent guessing the scores of respondent groups with insufficient data, the next biggest group is suppressed until the total insufficient + suppressed = or exceeds this number. Viva Glint standard: 2 |
 | **No suppression parent team size threshold (noSuppressionParentTeamSize)** | Access results for teams that would have been suppressed for parent team respondents greater than or equal to this threshold. Viva Glint standard: 400 |
 | **Industry average eSat score** | Industry average for eSat |
 | **Industry average response rate** | Industry average for response rate |
-| **minSampleSizeSurveyStats** | Response rates do not display for groups smaller than this value. Viva Glint standard: 5 |
+| **minSampleSizeSurveyStats** | Response rates don't display for groups smaller than this value. Viva Glint standard: 5 |
 | **Rating questions scale** | Number of responses available on rating questions. Viva Glint standard: 5 |
 | **insightMinGroupSize** | In the Alerts report, minimum number of respondents for a group to be considered. Viva Glint standard: 20 |
 | **insightMinScoreDifference** | In the Alerts report, minimum difference from benchmark score for a group. Viva Glint standard: 8 |
 | **insightsMax** | In the Alerts report, the maximum number of alerts to display. Viva Glint standard: 2000 |
 | **InsightsMaxAttributesPerGroup** | In the Alerts report, the maximum number of attributes to combine for a group. Viva Glint standard: 2 |
 | **InsightsMaxLevels** | In the Alerts report, when hierarchies are selected, the maximum number of levels considered. Viva Glint standard: 3 |
-| **insightsPValue** | In the Alerts report, the statistical likelihood that results are not by chance and are significant. Viva Glint standard: .05 |
+| **insightsPValue** | In the Alerts report, the statistical likelihood that results aren't by chance and are significant. Viva Glint standard: .05 |
 | **Scores should represent favorability scores by default** | Not recommended. Viva Glint recommends and displays average scores. |
-| **Comments privacy: minimum # of responders for search results** | Comments do not display for fewer question responses than this threshold. Viva Glint standard: 10 |
-| **Comments privacy: minimum # of responders for facet/grouping** | Comments do not display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
-| **driverImpactMinDifferenceFromBaseline** | In the Driver Impact report, the minimum difference from the item score for the entire company.Viva Glint standard: 5 |
+| **Comments privacy: minimum # of responders for search results** | Comments don't display for fewer question responses than this threshold. Viva Glint standard: 10 |
+| **Comments privacy: minimum # of responders for facet/grouping** | Comments don't display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
+| **driverImpactMinDifferenceFromBaseline** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
 | **driverImpactMinSamples** | In the Driver Impact report, the minimum number of respondents to display results. Viva Glint standard: 20 |
 | **Exclude negative strengths and positive weaknesses?** | Exclude negative strengths and positive weaknesses for Driver Impact calculation. |
 | **Whether to allow the users to look up questionnaires without a kiosk** | Allow users to access attribute-based surveys without a registered kiosk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230745) |
@@ -88,7 +88,7 @@ View specifics about how data display in Viva Glint reporting and which features
 | **Always aggregate trending?** | Regardless of questions included trend question aggregates over time. Viva Glint standard: false |
 | **Community Access Enabled** | Enable access to the Viva Glint Community within the platform |
 | **Does the client have LinkedIn Learning LSEP license?** | Employees have unlimited access to all LinkedIn Learning content |
-| **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow up questions in surveys. Viva Glint standard: 15 |
+| **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow-up questions in surveys. Viva Glint standard: 15 |
 | **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that will see in-product feedback questions in their dashboard. Viva Glint standard: 10 |
 | **Enable Filter Suppression on Scores** | Disable users' ability to filter to teams whose scores are suppressed |
 | **Diversity Data Amendment (DDA) Signed?** | No action needed, leave blank |
@@ -110,7 +110,7 @@ For a simpler view of existing survey programs, from the admin dashboard, select
 - Frequency
 - Recurrence Rule
 
-Select a survey program to view additional details and options:
+Select a survey program to view more details and options:
 
 | **Setting** | Description |
 | --- | --- |
@@ -119,7 +119,7 @@ Select a survey program to view additional details and options:
 | **Domain** | No action needed, leave blank |
 | **Survey Trigger Type** | How surveys generate: Schedule, Event (example: Hire Date), User Initiated |
 | **Event Trigger Survey Questionnaire Shelf Life** | Days to complete survey |
-| **Generate DISABLED survey cycle in Self Serve** | True. Recurring/upcoming surveys do not enable until an admin enables them |
+| **Generate DISABLED survey cycle in Self Serve** | True. Recurring/upcoming surveys don't enable until an admin enables them |
 | **Resubmit Submit Enabled** | Allow users to resubmit their own surveys |
 | **Survey Type** | Recurring, On demand, Employee Lifecycle (ELC), or Always-On |
 | **Event Trigger Survey Minimum Pulsing Interval (Days)** | Minimum days before a user can be surveyed again |
