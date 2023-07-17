@@ -23,7 +23,7 @@ description: An overview about eDiscovery in Viva Engage.
 
 Viva Engage now supports both eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal.
 
-To use this functionality, your Viva Engage network will need to be in Native Mode. If your network was provisioned after January 9, 2020, you are already in Native Mode. If your network was provisioned *before* January 9, 2020, you will need to follow the steps in the [Overview of Native Mode](../overview-native-mode.md).
+To use this functionality, your Viva Engage network needs to be in Native Mode. If your network was provisioned after January 9, 2020, you're already in Native Mode. If your network was provisioned *before* January 9, 2020, you'll need to follow the steps in the [Overview of Native Mode](../overview-native-mode.md).
 
  > [!NOTE]
 > Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode.
