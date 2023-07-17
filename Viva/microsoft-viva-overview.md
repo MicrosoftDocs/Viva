@@ -77,7 +77,7 @@ Bring enterprise learning into the flow of work by connecting content from your 
 
 Empower leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
 
-[Get more information on Viva Pulse](/pulse/introduction-to-viva-pulse)
+[Get more information on Viva Pulse](pulse/introduction-to-viva-pulse)
 
 #### Viva Sales
 Help sellers work the way they want to without unnecessary context switching and manual data entry. This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
