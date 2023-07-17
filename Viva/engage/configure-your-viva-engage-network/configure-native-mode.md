@@ -1,6 +1,6 @@
 ---
-title: "Prepare a Viva Engage network for Native Mode for Microsoft 365"
-description: "Prepare your Viva Engage network for Native Mode for Microsoft 365."
+title: "Native Mode for Microsoft 365 requirements for a Viva Engage network"
+description: "Learn how to prepare your Viva Engage network for Native Mode for Microsoft 365."
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -18,9 +18,9 @@ search.appverid:
 - MET150
 ---
 
-# Configure your Viva Engage network for Native Mode for Microsoft 365
+# Setup requirements for Viva Engage in Native Mode for Microsoft 365
 
-## Requirements for Native Mode
+## Requirements 
 
 Native Mode has the following requirements:
 
