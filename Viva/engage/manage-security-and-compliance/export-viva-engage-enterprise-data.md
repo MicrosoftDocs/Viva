@@ -32,7 +32,7 @@ As a verified admin, you can export Yammer Enterprise data to monitor usage and 
 |[Export Yammer Files via API](export-viva-engage-enterprise-data.md#export-yammer-files-via-api) <br/> |Export Files stored in Yammer asynchronously. You can specify a date range, and choose whether to include files from external networks. <br/> |
    
 > [!NOTE]
-> Exported data can't be used for migrating content between Yammer networks. For migration information, see [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md). 
+> Exported data can't be used for migrating content between Yammer networks. For migration information, see [Network migration: Consolidate multiple Yammer networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md). 
   
 <a name="ExportUsers"> </a>
 ## Export user and admin list

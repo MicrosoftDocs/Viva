@@ -1,5 +1,5 @@
 ---
-ms.date: 03/13/2023
+ms.date: 07/06/2023
 title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
@@ -63,62 +63,13 @@ In this example you can:
 
 ### Set up each app
 
-**Viva Learning**
-
-Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.
-
-[Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)
-
-[More information about Viva Learning](/microsoft-365/learning)
-
-**Viva Insights**
-
-Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.
-
-[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)
-
-[More information about Viva Insights](/viva/insights/introduction)
-
-**Viva Topics**
-
-Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.
-
-[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)
-
-[More information about Viva Topics](/microsoft-365/knowledge/)
-
-**Viva Connections**
-
-Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.
-
-[Learn how to set it up](/sharepoint/guide-to-setting-up-viva-connections)
-
-[More information about Viva Connections](/sharepoint/viva-connections-overview)
-
-**Viva Goals**
-
-Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
-
-[Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)
-
-[More information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
-
-**Viva Sales**
-
-Setup for Viva Sales is a bit different from other Viva apps. It requires you to install the Viva Sales app, which you can do from the Microsoft 365 admin center, but not yet from the Viva admin page.
-
-[Install the Viva Sales app](/viva/sales/install-viva-sales-individual-add-in-admin-center)
-
-[More information about Viva Sales](/viva/sales/introduction)
-
-**Viva Engage**
-
-If your organization uses [Yammer](/yammer), and a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
-
-The Yammer administrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.
-
-The Viva Engage app is installed in Teams, but not yet available to set up from the Viva admin page.
-
-[Learn how to set it up](/viva/engage/setup)
-
-[More information about Viva Engage](/viva/engage/overview)
+|App|Description|Resources|
+|-|-|-|
+|**Viva Connections**|Inform, engage, and empower -- Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Learn how to set it up](/sharepoint/guide-to-setting-up-viva-connections)<br>[More information about Viva Connections](/sharepoint/viva-connections-overview)|
+|**Viva Engage**|If your organization uses [Yammer](/yammer), and a user is enabled for Yammer, they are also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.<br><br>The Yammer administrator can manage the content in Yammer and Viva Engage. Privacy and security controls from Yammer are shared with Viva Engage.<br><br>The Viva Engage app is installed in Teams, but not yet available to set up from the Viva admin page.|[Learn how to set it up](/viva/engage/setup)<br>[More information about Viva Engage](/viva/engage/overview)|
+|**Viva Glint**|A "voice of the employee" - Helps organizations understand and improve employee engagement with immediate visibility into the employee experience.|[Learn how to set it up using our planning tools.](https://go.microsoft.com/fwlink/?linkid=2238616)<br>[More information about Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238526)|
+|**Viva Goals**|Connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.|[Learn how to set it up](/viva/goals/log-in-create-and-join-organizations)<br>[More information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)|
+|**Viva Insights**|Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.|[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)<br>[More information about Viva Insights](/viva/insights/introduction)|
+|**Viva Learning**|Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.|[Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)<br>[More information about Viva Learning](/microsoft-365/learning)|
+|**Viva Sales**|Setup for Viva Sales is a bit different from other Viva apps. It requires you to install the Viva Sales app, which you can do from the Microsoft 365 admin center, but not yet from the Viva admin page.|[Install the Viva Sales app](/viva/sales/install-viva-sales-individual-add-in-admin-center)<br>[More information about Viva Sales](/viva/sales/introduction)|
+|**Viva Topics**|Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.|[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)<br>[More information about Viva Topics](/microsoft-365/knowledge/)|
