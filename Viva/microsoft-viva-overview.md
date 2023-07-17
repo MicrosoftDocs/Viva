@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 07/`7/2023
+ms.date: 07/17/2023
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
