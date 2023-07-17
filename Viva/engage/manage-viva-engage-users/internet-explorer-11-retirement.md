@@ -29,15 +29,15 @@ We recommend transitioning to the latest Microsoft Edge to take advantage of all
 
 ## What to expect from Viva Engage?
 
-Leading up to August 2021, we will provide multiple in-product messages to help users transition over to a new modern browser. In August 2021, users will no longer be able to access Viva Engage and all its integrations from Internet Explorer 11.
+Leading up to August 2021, we'll provide multiple in-product messages to help users transition over to a new modern browser. In August 2021, users will no longer be able to access Viva Engage and all its integrations from Internet Explorer 11.
 
-For customers using the embedded Viva Engage experience (Viva Engage Embed) on custom-built sites, we are working on updating Embed with the new Viva Engage experience, but this will only be available on Internet Explorer leading up to August 2021. To get the new Viva Engage Embed experience in August 2021, you will need to access the site from Microsoft Edge or another modern browser.
+For customers using the embedded Viva Engage experience (Viva Engage Embed) on custom-built sites, we're working on updating Embed with the new Viva Engage experience, but this will only be available on Internet Explorer leading up to August 2021. To get the new Viva Engage Embed experience in August 2021, you'll need to access the site from Microsoft Edge or another modern browser.
 
 Additionally, integrations that use Viva Engage APIs are best experienced in supported browsers. 
 
 ## How to prepare?
 
-We recommend that you communicate with your users about this change. If you have not already deployed Edge or allow users to access other modern browsers, we recommend that you do so. For technical documentation, see [Plan your deployment of Microsoft Edge](/deployedge/deploy-edge-plan-deployment).
+We recommend that you communicate with your users about this change. If you haven't already deployed Edge or allow users to access other modern browsers, we recommend that you do so. For technical documentation, see [Plan your deployment of Microsoft Edge](/deployedge/deploy-edge-plan-deployment).
 
 If you’re looking for help on how to plan, deploy, or adopt Microsoft Edge, Microsoft offers the [FastTrack program](/fasttrack/win-10-microsoft-edge-assistance-offered) for customers with 150 or more paid seats of Windows 10 Enterprise. To get started, submit a [Request for Assistance with FastTrack](/fasttrack/win-10-microsoft-edge-assistance-offered).
 
