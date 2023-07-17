@@ -20,9 +20,6 @@ ms.assetid: f886e916-fe64-41de-be52-38d458250fa5
 description: "Use the Viva Engage admin tools to set up your Viva Engage network. Covers options for configuration, design, admins, usage policy, external networks, and activity stream keys."
 ---
 
-
-
-
 # Configure your Viva Engage network
 
 Complete these basic network configuration tasks in the Viva Engage admin center before you invite users to use Viva Engage Enterprise so that all users get a consistent experience.

@@ -6,9 +6,7 @@ ms.collection:
 
 ## [Viva Connections Overview](viva-connections-overview.md)
 
-## [Get Viva Connections]()
-
-### [Set up Viva Connections in the admin center](set-up-admin-center.md)
+## [Set up Viva Connections in the admin center](set-up-admin-center.md)
 
 ### [Plan, Build, Launch]()
 
@@ -46,6 +44,8 @@ ms.collection:
 ### [Feed]()
 
 #### [Embed videos in the Viva Connections feed](video-news-links.md)
+
+#### [Viva Connections mobile News notifications](mobile-notifications-viva-connections.md)
 
 #### [Frequently asked questions about the feed](faqs-viva-connections-feed.md)
 

@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 7/13/2023
+ms.date: 07/13/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -51,19 +51,19 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 - Any unlisted private groups in your network are changed to private listed groups. Users are unable to create unlisted private groups.
 
-- External groups in Viva Engage are not supported. All external groups are made internal only, and any external users in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
+- External groups in Viva Engage aren't supported. All external groups are made internal only, and any guests in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
 
-- Adds the Global admin to unconnected groups that either have no owners at all or that have no owner with Microsoft 365 Group creation rights. It doesn't add them to unconnected groups if the owner does have Group creation rights.
+- Adds the Global admin to unconnected groups that either have no owner or the no owner has no permissions to create Microsoft 365 groups. It doesn't add them to unconnected groups if the owner has group creation rights.
 
 - Connects all unconnected Viva Engage groups after applying the changes mentioned in the previous three bulleted items.
 
 - Prevents files from being uploaded in Viva Engage Private messages, and deletes all files previously uploaded in Viva Engage Private messages.
 
-- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in AAD.
+- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in Azure AD.
 
 - Disables support for guests in the network, and removes existing guests from the network, along with their associated Private messages and files.
 
-- Disables support for adding guests to an individual thread. Guests who were previously added to individual threads will no longer have access.
+- Disables support for adding guests to an individual thread. Guests who were previously added to individual threads no longer have access.
 
 - Deletes all group messages and files for previously deleted groups. Group messages are deleted consistent with your network's retention policy.
 
