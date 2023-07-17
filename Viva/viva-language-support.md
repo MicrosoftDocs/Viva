@@ -62,7 +62,7 @@ Viva Learning adapts to your organization's Microsoft 365 language preferences. 
 Learn more about [language support for Viva Learning](/viva/learning/viva-learning-supported-languages).
 
 ## Viva Pulse
-Viva Pulse supports over 40 language translations for standard content and is available in most major languages used in Microsoft 365.
+Viva Pulse supports 40 language translations for standard content and is available in most major languages used in Microsoft 365.
 
 Content added by users (such as when a feedback author adds or edits a question or when a feedback provider enters a response for an open-ended question) is displayed in the language in which it was entered.
 
