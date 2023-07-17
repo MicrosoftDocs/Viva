@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 06/20/2023
+ms.date: 07/17/2023
 ---
 
 # Set up a Microsoft Viva Glint tenant

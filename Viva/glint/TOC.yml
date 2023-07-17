@@ -100,6 +100,8 @@
           href: setup/benchmarks.md
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
+        - name: Understand Advanced Configuration options in Viva Glint 
+          href: setup/understand-advanced-configuration.md
      - name: Best practices program guidance
        href: setup/best-practice-setup-guidance.md
        items:          
