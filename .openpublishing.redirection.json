@@ -1210,43 +1210,8 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "Viva/Glint/Reports/multi-attribute-export-report.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Reports/report-analytics-filtering-favorability-trending.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Setup/configure-sftp.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Setup/glint-microsoft-teams-application.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Setup/manage-general-settings.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Setup/preview-filter-lifecycle-programs.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/Setup/program-cycle-edits.md",
-        "redirect_url": "/viva/",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "Viva/Glint/start/results-rollout-templates.md",
-        "redirect_url": "/viva/",
+        "redirect_url": "/viva/glint/communicate/results-rollout-templates",
         "redirect_document_id": false
       },
       {
@@ -1283,6 +1248,11 @@
         "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
         "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
         "redirect_document_id": false
-      }                                                        
+      },
+      {
+        "source_path": "Viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md",
+        "redirect_url": "/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks",
+        "redirect_document_id": false
+      }
     ]
 }

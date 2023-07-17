@@ -61,6 +61,12 @@ Your organization's privacy and security settings from Microsoft Viva Engage are
 For more information about security in Viva Engage, see 
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
 
+### Viva Glint
+Microsoft Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. 
+
+This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory.
+Because of the potential sensitivity about how data could be used, Viva Glint uses role-based access to control who has access. [Learn about assigning roles for viewing feedback in reporting.](https://go.microsoft.com/fwlink/?linkid=2230740)
+
 ### Viva Goals
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
