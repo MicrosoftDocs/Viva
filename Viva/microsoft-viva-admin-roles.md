@@ -41,7 +41,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 - Viva Topics - [administrator for Topics](/viva/topics/topic-experiences-roles#viva-topics-admin) (must be SharePoint admin and Groups admin)
 - Viva Learning - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 - Viva Insights - [Insights Business Leader](/azure/active-directory/roles/permissions-reference#insights-business-leader), [Insights Administrator](/azure/active-directory/roles/permissions-reference#insights-administrator), and [Insights Analyst](/azure/active-directory/roles/permissions-reference#insights-analyst)
-- Viva Pulse - [Pulse admin](/pulse/setup-admin-access/prerequisites-and-admin-roles.md)
+- Viva Pulse - [Pulse admin](/pulse/setup-admin-access/prerequisites-and-admin-roles)
 - SharePoint - [SharePoint admin](/azure/active-directory/roles/permissions-reference#sharepoint-administrator)
 - Teams - [Teams admin](/azure/active-directory/roles/permissions-reference#teams-administrator)
 - Viva Engage - Engage admin ([Viva Engage administrator](/azure/active-directory/roles/permissions-reference#viva-engage-administrator))
