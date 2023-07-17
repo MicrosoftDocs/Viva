@@ -88,7 +88,7 @@ View specifics about how data display in Viva Glint reporting and which features
 | **Always aggregate trending?** | Regardless of questions included trend question aggregates over time. Viva Glint standard: false |
 | **Community Access Enabled** | Enable access to the Viva Glint Community within the platform |
 | **Does the client have LinkedIn Learning LSEP license?** | Employees have unlimited access to all LinkedIn Learning content |
-| **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow up questions in surveys. Viva Glint standard: 15 |
+| **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow-up questions in surveys. Viva Glint standard: 15 |
 | **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that will see in-product feedback questions in their dashboard. Viva Glint standard: 10 |
 | **Enable Filter Suppression on Scores** | Disable users' ability to filter to teams whose scores are suppressed |
 | **Diversity Data Amendment (DDA) Signed?** | No action needed, leave blank |
