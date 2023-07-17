@@ -1254,6 +1254,11 @@
         "redirect_url": "/viva/engage/eac-answers-overview-set-up",
       },
       {
+        "source_path": "Viva/engage/native-mode.md",
+        "redirect_url": "/viva/engage/configure-native-mode",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/engage/index.md",
         "redirect_url": "/viva/engage/overview",
         "redirect_document_id": false

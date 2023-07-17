@@ -1,5 +1,5 @@
 ---
-title: "Prepare a Viva Engage network for Native Mode for Microsoft 365"
+title: "Requirements for setting up a Viva Engage network to Native Mode for Microsoft 365"
 description: "Prepare your Viva Engage network for Native Mode for Microsoft 365."
 f1.keywords:
 - NOCSH
@@ -18,7 +18,7 @@ search.appverid:
 - MET150
 ---
 
-# Configure your Viva Engage network for Native Mode for Microsoft 365
+# Requirements for setting up a Viva Engage network for Native Mode for Microsoft 365
 
 ## Requirements for Native Mode
 
