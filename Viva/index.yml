@@ -74,7 +74,7 @@ tools:
       url: /viva/learning/
 
     # Card
-    - title: Microsoft Viva Pulse (Public Preview)
+    - title: Microsoft Viva Pulse
       imageSrc: media/logos/pulse-logo.svg
       url: /viva/pulse/introduction-to-viva-pulse
 
@@ -122,18 +122,22 @@ additionalContent:
           links:
           - text: Microsoft Viva help and learning
             url: https://support.microsoft.com/viva
-          - text: Viva Topics
-            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
           - text: Viva Connections
             url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
-          - text: Viva Learning
-            url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
-          - text: Viva Goals
-            url: https://go.microsoft.com/fwlink/?linkid=2193540
           - text: Viva Engage
             url: https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284
+          - text: Viva Goals
+            url: https://go.microsoft.com/fwlink/?linkid=2193540
+          - text: Viva Learning
+            url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
+          - text: Viva Pulse
+            url: https://support.microsoft.com/topic/introducing-viva-pulse-34c94efe-185d-480e-94a2-27e013a5204b
+
           - text: Viva Sales
             url: https://go.microsoft.com/fwlink/p/?linkid=2197685
+          - text: Viva Topics
+            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
+
         # Card
         - title: Learning paths
           links:

@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Troubleshoot problems with Native Mode for Microsoft 365
+# Troubleshoot your Viva Engage network for problems with Native Mode
 
 ## What is Native Mode?
 
