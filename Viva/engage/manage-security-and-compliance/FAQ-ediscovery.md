@@ -1,27 +1,28 @@
 ---
-title: "FAQ: eDiscovery in Yammer"
+title: "eDiscovery in Viva Engage - Frequently asked questions"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 11/25/2019
+ms.date: 7/13/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
 - MET150
 - YAE150
 ms.assetid: a9a25f87-e643-41ce-9630-b74d10e40b1a
-description: Answers to frequently asked questions about eDiscovery in Yammer.
+description: Answers to frequently asked questions about eDiscovery in Viva Engage.
 ROBOTS: NOINDEX, NOFOLLOW 
 ---
 
-# FAQ: eDiscovery in Yammer networks
+# eDiscovery in Viva Engage networks - Frequently asked questions
 
-Here are answers to frequently asked questions about eDiscovery in Yammer networks.
+Here are answers to frequently asked questions about eDiscovery in Viva Engage networks.
 
 ## General
 
@@ -31,13 +32,13 @@ A: Electronic Discovery (commonly referred to as “eDiscovery”) refers to the
 
 **Q: How does Security & Compliance Center for Microsoft 365 support eDiscovery?**
 
-A: Security and Compliance Center offers eDiscovery and eDiscovery (Premium), which you can use to search for content in Exchange Online mailboxes, Microsoft Teams, Yammer conversations, SharePoint Online content, and more. You can use eDiscovery cases in the Security and Compliance Center to identify, hold, and export content found in mailboxes and websites.
+A: Security and Compliance Center offers eDiscovery and eDiscovery (Premium), which you can use to search for content in Exchange Online mailboxes, Microsoft Teams, Viva Engage conversations, SharePoint Online content, and more. You can use eDiscovery cases in the Security and Compliance Center to identify, hold, and export content found in mailboxes and websites.
 
 See more information and examples about [eDiscovery](/office365/securitycompliance/ediscovery).
 
-**Q: How does Yammer support eDiscovery?**
+**Q: How does Viva Engage support eDiscovery?**
 
-A: Yammer supports eDiscovery (E3) and eDiscovery (Premium) (E5) in the Security and Compliance Center. Once a Yammer Enterprise network is in [Native Mode for Microsoft 365](../overview-native-mode.md), all messages and files are discoverable.
+A: Viva Engage supports eDiscovery (E3) and eDiscovery (Premium) (E5) in the Security and Compliance Center. Once a Viva Engage Enterprise network is in [Native Mode for Microsoft 365](../overview-native-mode.md), all messages and files are discoverable.
 
 **Q: What is eDiscovery (Premium) for Microsoft Purview?**
 
@@ -45,41 +46,41 @@ A: eDiscovery (Premium) (E5) builds on eDiscovery (E3) and helps you analyze uns
 
 See more advanced information about [eDiscovery in Microsoft 365](/office365/securitycompliance/office-365-advanced-ediscovery).
 
-**Q: Can users see that Yammer is storing their messages for eDiscovery?**
+**Q: Can users see that Viva Engage is storing their messages for eDiscovery?**
 
-A: eDiscovery will put a copy of all Yammer messages into a hidden folder in the user’s Exchange mailbox. If a user searches their mailbox for keywords contained in their Yammer messages, these messages will be visible in their mailbox.
+A: eDiscovery will put a copy of all Viva Engage messages into a hidden folder in the user’s Exchange mailbox. If a user searches their mailbox for keywords contained in their Viva Engage messages, these messages will be visible in their mailbox.
 
 ## Native Mode
 
 **Q: What is Native Mode?**
 
-A: In Native Mode, all Yammer users are in AAD, all groups are Microsoft 365 Groups, and all files are stored in SharePoint Online. As of November 2019, all new Yammer Networks start in Native Mode. Existing Yammer Networks can [migrate to Native Mode](../configure-your-viva-engage-network/native-mode.md).
+A: In Native Mode, all Viva Engage users are in AAD, all groups are Microsoft 365 Groups, and all files are stored in SharePoint Online. As of November 2019, all new Viva Engage Networks start in Native Mode. Existing Viva Engage Networks can [migrate to Native Mode](../configure-your-viva-engage-network/native-mode.md).
 
 ## Workflow
 
-**Q: How do I discover all Yammer messages where a custodian is a participant?**
+**Q: How do I discover all Viva Engage messages where a custodian is a participant?**
 
-A: eDiscovery (E3) has no pre-defined concept of a custodian. Within eDiscovery (Premium) (E5), you can define a custodian through the custodian workflow. To capture Yammer messages, select Exchange as a data source. Once the custodian is defined, you can select the custodian from within the search workflow and use the Type condition to select all Yammer message types.
+A: eDiscovery (E3) has no pre-defined concept of a custodian. Within eDiscovery (Premium) (E5), you can define a custodian through the custodian workflow. To capture Viva Engage messages, select Exchange as a data source. Once the custodian is defined, you can select the custodian from within the search workflow and use the Type condition to select all Viva Engage message types.
 
-**Q: How do I discover all messages and files in Yammer groups a custodian is a member of?**
+**Q: How do I discover all messages and files in Viva Engage groups a custodian is a member of?**
 
-A: eDiscovery (E3) has no pre-defined concept of a custodian. In eDiscovery (Premium) (E5), you can select other data sources from the Add Custodians workflow to select the Yammer groups of which the custodian is a member. Messages and files are available for discovery for all groups you select when the custodian is selected during search.  
+A: eDiscovery (E3) has no pre-defined concept of a custodian. In eDiscovery (Premium) (E5), you can select other data sources from the Add Custodians workflow to select the Viva Engage groups of which the custodian is a member. Messages and files are available for discovery for all groups you select when the custodian is selected during search.  
 
-**Q: How do I search for Yammer messages of a specific type?**
+**Q: How do I search for Viva Engage messages of a specific type?**
 
-A: On the Search criteria page of the search workflow within Microsoft 365 Security & Compliance center, select **Add conditions**. From the condition selector, choose **Type**, > **Add/Remove** more options. This action will bring up the advanced Type selection box where you can choose from the following Yammer Message Types: Yammer standard messages, Yammer praise messages, Yammer poll messages, Yammer question messages.
+A: On the Search criteria page of the search workflow within Microsoft 365 Security & Compliance center, select **Add conditions**. From the condition selector, choose **Type**, > **Add/Remove** more options. This action will bring up the advanced Type selection box where you can choose from the following Viva Engage Message Types: Viva Engage standard messages, Viva Engage praise messages, Viva Engage poll messages, Viva Engage question messages.
 
-**Q: How do I search for Yammer messages in non-custodial locations?**
+**Q: How do I search for Viva Engage messages in non-custodial locations?**
 
 A: You can search group mailboxes for messages and SharePoint sites for files. You can access these locations through the Non-Custodial locations page of the search workflow.
 
-**Q: How do I search all files in Yammer for my entire organization??**
+**Q: How do I search all files in Viva Engage for my entire organization??**
 
-A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Yammer sites” alongside “SharePoint sites” and other options. Flip the switch for **Select all** to access Yammer files for the entire network.
+A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Viva Engage sites” alongside “SharePoint sites” and other options. Flip the switch for **Select all** to access Viva Engage files for the entire network.
 
 **Q: How do I search for files within specific groups?**
 
-A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Yammer sites” alongside “SharePoint sites” and other options. To search for the files within specific groups, select **Choose sites** to open the Edit locations screen. Select **Choose sites**, then type the URL for the SharePoint site associated with the group you want to search. The search results won't be limited to the Files that have been uploaded through Yammer, but will include all Files added to that SharePoint site from any source.
+A: From the search workflow, select **Next** until you get to the Noncustodial locations screen. In the second section of this screen, you'll see “Viva Engage sites” alongside “SharePoint sites” and other options. To search for the files within specific groups, select **Choose sites** to open the Edit locations screen. Select **Choose sites**, then type the URL for the SharePoint site associated with the group you want to search. The search results won't be limited to the Files that have been uploaded through Viva Engage, but will include all Files added to that SharePoint site from any source.
 
 ## User Scenarios
 
@@ -93,11 +94,11 @@ A: Messages subject to a hold will be treated as follows during the hold:
 
 **User Actions:**
 
-- *Delete*: Custodians will no longer see the message in Yammer, but the message will be discoverable in the Security & Compliance Center.
+- *Delete*: Custodians will no longer see the message in Viva Engage, but the message will be discoverable in the Security & Compliance Center.
 
-- *Edit*: Custodians will only see the most recent version of the message in Yammer, but each version of the message generated during the hold will be discoverable (historical versions pre-dating the hold aren't held).
+- *Edit*: Custodians will only see the most recent version of the message in Viva Engage, but each version of the message generated during the hold will be discoverable (historical versions pre-dating the hold aren't held).
 
-- *Move*: Custodians will only see the message in its new group in Yammer, but the message will be discoverable in all groups where it existed during the hold.
+- *Move*: Custodians will only see the message in its new group in Viva Engage, but the message will be discoverable in all groups where it existed during the hold.
 
 - *React*: Custodians will only see the current state of reactions on a message, and only the current state of reactions is discoverable.
 
@@ -111,7 +112,7 @@ A: In the absence of a hold, messages will be treated as follows:
 
 - *Edit*: Only the current version is discoverable.
 
-- *Move*: The message is only discoverable in its current group in Yammer.
+- *Move*: The message is only discoverable in its current group in Viva Engage.
 
 - *React*: Only the current state of reactions to a message is discoverable.
 
@@ -125,7 +126,7 @@ A: Files subject to a hold will be treated as follows during the hold:
 
 - *Edit*: Only the current version is discoverable.
 
-- *Move*: The message is only discoverable in its current group in Yammer.
+- *Move*: The message is only discoverable in its current group in Viva Engage.
 
 - *React*: Only the current state of reactions to a message is discoverable.
 
@@ -167,7 +168,7 @@ A: Yes. Questions have a special message type that can be filtered on. eDiscover
 
 **Q: Are GIFs in messages discoverable?**
 
-A: If the GIF is an attachment to a message, it will be discoverable the same as any other attachment. If a GIF is present from a hyperlink, the hyperlink and the GIF will be displayed in the Security and Compliance Center results. In the case of a hyperlink, the GIF displayed will be whatever is associated with that link at the time it's being viewed. If the owner of the GIF content changes the content at that link, the changed content will be shown (both in Yammer and in eDiscovery).  
+A: If the GIF is an attachment to a message, it will be discoverable the same as any other attachment. If a GIF is present from a hyperlink, the hyperlink and the GIF will be displayed in the Security and Compliance Center results. In the case of a hyperlink, the GIF displayed will be whatever is associated with that link at the time it's being viewed. If the owner of the GIF content changes the content at that link, the changed content will be shown (both in Viva Engage and in eDiscovery).  
 
 **Q: Are system messages discoverable?**
 
@@ -184,17 +185,17 @@ A: When all users in a conversation have their mailboxes deleted, the message wi
 
 **Q: Is rich text formatting of a message captured when a message is discovered?**
 
-A: Yes. Rich text formatting will be visible in the search results when a message is discovered. This includes emojis, which should show up in eDiscovery the same way they're displayed in Yammer.
+A: Yes. Rich text formatting will be visible in the search results when a message is discovered. This includes emojis, which should show up in eDiscovery the same way they're displayed in Viva Engage.
 
 **Q: What happens when a group is renamed?**
 
 A: When a group is renamed, you'll only be able to discover the group using its new name. All messages and files in the group continue to be discoverable.
 
-**Q: Is Yammer content in external networks discoverable in the Security and Compliance Center?**
+**Q: Is Viva Engage content in external networks discoverable in the Security and Compliance Center?**
 
 A: No.
 
-**Q: Is Yammer content for users who have on-premise mailboxes discoverable in the Security and Compliance Center?**
+**Q: Is Viva Engage content for users who have on-premise mailboxes discoverable in the Security and Compliance Center?**
 
 A: Yes.
 

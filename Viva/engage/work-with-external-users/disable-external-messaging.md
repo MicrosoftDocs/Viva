@@ -1,14 +1,15 @@
 ---
-title: "Disable external messaging in a Yammer network"
+title: "Disable external messaging in a Viva Engage network"
 f1.keywords:
 - NOCSH
-ms.author: v-njeremy
-author: TeresaFG-writer
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 9/23/2019
+ms.date: 7/13/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:
@@ -16,14 +17,13 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: f8fd6403-c8f3-4307-9230-65304d6000d9
-description: "Disable external messaging, with options for preventing external users in groups and conversations, and preventing users from joining a Yammer network in another organization."
+description: "Disable external messaging, with options for preventing external users in groups and conversations, and preventing users from joining a Viva Engage network in another organization."
 ---
+# Disable external messaging in a Viva Engage network
 
-# Disable external messaging in a Yammer network
+For Viva Engage Enterprise networks in the US Geo, users can add external participants to their Viva Engage conversations and Viva Engage groups. Also, members of your Viva Engage network can participate in another company's Viva Engage network, if invited. You can turn off this external collaboration, if needed.
 
-By default for Yammer Enterprise networks in the US Geo, users can add external participants to their Yammer conversations and Yammer groups, and members of your Yammer network can participate in another company's Yammer network if invited. If needed, you can turn off this external collaboration.
-
-1. In the Yammer admin center, go to **Content and Security** \> **Security Settings**.
+1. In the Viva Engage admin center, go to **Content and Security** \> **Security Settings**.
     
 2. In the **External Messaging** section, select the option that makes sense for your organization: 
 
@@ -43,11 +43,11 @@ By default for Yammer Enterprise networks in the US Geo, users can add external 
 
 1. When you prevent users from being able to participate in other networks:
 
-    - Users are blocked from receiving invitations from Yammer networks on other domains.
+    - Users are blocked from receiving invitations from Viva Engage networks on other domains.
 
 2. When you disable external access to your groups and conversations:
 
-    - When a user tries to add an external participant in Yammer, the user receives an error message stating that they are unable to add external participants because it violates their company's policy. The user will not be allowed to post the message. 
+    - When a user tries to add an external participant in Viva Engage, the user receives an error message stating that they are unable to add external participants because it violates their company's policy. The user will not be allowed to post the message. 
 
     - Any current external participants are blocked from using external conversations or threads that they may have been participating in.
 
@@ -56,8 +56,8 @@ By default for Yammer Enterprise networks in the US Geo, users can add external 
  
 ## Related articles
 
-[Add external participants to your Yammer conversations](add-external-participants.md)
+[Add external participants to your Viva Engage conversations](add-external-participants.md)
   
-[Find external participants in a Yammer network](find-external-participants.md)
+[Find external participants in a Viva Engage network](find-external-participants.md)
   
-[External Yammer participants FAQ](external-messaging-faq.md)
+[External Viva Engage participants FAQ](external-messaging-faq.md)
