@@ -21,4 +21,4 @@ description: Learn which languages are supported for Viva Amplify.
 ---
 # Supported languages in Viva Amplify
   
-Viva Amplify is currently only available in English. Future releases will include support for more languages.
+Content coming soon

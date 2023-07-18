@@ -1,5 +1,5 @@
 ---
-title: Supported languages in Viva Amplify
+title: Roles in Viva Amplify
 ms.reviewer:
 ms.date: 07/18/2023
 ms.author: daisyfeller
@@ -17,8 +17,8 @@ ms.collection:
   - m365initiative-viva-amplify
   - Tier1
 ms.localizationpriority: medium
-description: Learn which languages are supported for Viva Amplify.
+description: Learn about admin and user roles and permissions in Microsoft Viva Amplify.
 ---
-# Supported languages in Viva Amplify
+# Roles in Viva Amplify
   
-Viva Amplify is currently only available in English. Future releases will include support for more languages.
+I'll fill this out later

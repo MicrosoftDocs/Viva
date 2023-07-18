@@ -1,5 +1,9 @@
 
     - name: Overview of Microsoft Viva Amplify
       href: overview-viva-amplify.md
+    - name: Set up Viva Amplify
+      href: set-up-viva-amplify.md
+    - name: Roles and permissions
+      href: viva-amplify-roles.md
     - name: Supported languages
       href: viva-amplify-supported-languages.md
