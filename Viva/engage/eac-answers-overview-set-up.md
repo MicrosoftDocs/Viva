@@ -2,10 +2,10 @@
 title: "Overview and setup of Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/13/2023
+ms.date: 07/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -42,7 +42,7 @@ Answers is enabled by default for customers that meet the following technical re
 
 1) **Migrated the Viva Engage network to Native Mode**
 
-    [Native Mode](/viva/engage/configure-your-viva-engage-network/overview-native-mode) is a state of a Viva Engage network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](/viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide) the network to Native Mode.
+    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
 2) **Migrated Viva Engage Topics to Viva Topics**
 
@@ -74,7 +74,7 @@ Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compl
 
 **GDPR information**
 
-For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-).
+For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Enable Answers  
 
