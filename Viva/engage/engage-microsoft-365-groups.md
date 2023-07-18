@@ -53,7 +53,7 @@ To use communities connected to Microsoft 365 Groups in Viva Engage, make sure y
 - Since October 16, 2018, all Viva Engage networks must be in a 1:1 network configuration. This means that you have one Viva Engage network that's associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/faq-consolidate-multiple-viva-engage-networks).
 
 >[!NOTE]
-> If you want to ensure that all of your communities are connected, align your network to Native Mode. To learn more, see [Overview of Native Mode](/viva/engage/configure-your-viva-engage-network/overview-native-mode).
+> If you want to ensure that all of your communities are connected, align your network to Native Mode. To learn more, see [Overview of Native Mode](overview-native-mode.md).
 
 Here's how the process works after your network becomes eligible for connected groups:
 
@@ -117,7 +117,7 @@ A: No. Groups created by people who are restricted from creating Microsoft 365 g
   
 ### Q: If I have multiple Viva Engage networks that are mapped to Microsoft 365, will the Microsoft 365-connected Viva Engage groups work?
   
-A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-yammer-networks). This setup is required for all Viva Engage networks as of October 16, 2018.
+A: No. The Microsoft 365-connected Viva Engage groups experience works only for a Microsoft 365 tenant that's associated with a single Viva Engage network. See [Network migration: Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md). This setup is required for all Viva Engage networks as of October 16, 2018.
   
 ### Q: I don't want my existing groups to get connected to Microsoft 365. Can I turn this off?
   
@@ -179,7 +179,7 @@ A: Yes. When a Microsoft 365 group is deleted because it expired, the Viva Engag
 
 ### Q: Can I have a Viva Engage community connected to Microsoft 365 Groups that uses  dynamic membership?
 
-A: Yes. Any Microsoft 365-connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group) for requirements and limitations.
+A: Yes. Any Microsoft 365-connected Viva Engage community can be converted to dynamic membership. See [Create a dynamic group](./manage-viva-engage-groups/create-a-dynamic-group.md) for requirements and limitations.
   
 ### Q: In a connected group, I see there are Viva Engage files and a SharePoint Online Doc Library. Are these the same thing?
   
@@ -232,4 +232,4 @@ Changes to connected communities can take up to 24 hours to take effect througho
 
 [Manage who can create Groups](/office365/admin/create-groups/manage-creation-of-groups)
 
-[Export data from Viva Engage](/viva/engage/manage-security-and-compliance/export-viva-engage-data)
+[Export data from Viva Engage](eac-as-manage-data.md)
