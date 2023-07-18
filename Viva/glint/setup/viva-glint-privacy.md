@@ -28,4 +28,6 @@ For information specific to Viva Glint:
 
 [Read Viva Glint's advanced privacy guide for data usage and survey item creation.](https://go.microsoft.com/fwlink/?linkid=2230859)
 
+[Lean how Viva Glint helps you protect your privacy](https://go.microsoft.com/fwlink/?linkid=2230922)
+
 [Learn about access to Viva Glint raw survey responses.](https://go.microsoft.com/fwlink/?linkid=2230875)
