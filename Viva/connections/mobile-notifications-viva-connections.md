@@ -25,8 +25,6 @@ description: "Learn how notifications are presented in Viva Connections mobile"
 
 # Viva Connections mobile News notifications
 
-![Screenshot showing news notification in the mobile view.](../media/connections/mobile-notifications-viva-connections/mobile-news-notifications.png)
-
 The Viva Connections mobile app delivers News notifications via Teams mobile and will link users to the Viva Connections app through the notification. This document describes when notifications are sent, and the conditions that need to be met for receiving notifications.
 
 ## When notifications are sent via Teams
