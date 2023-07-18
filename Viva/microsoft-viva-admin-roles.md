@@ -74,7 +74,6 @@ Jump to a section:
 [Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
 [Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
-[Viva Sales](/viva/microsoft-viva-admin-roles#viva-sales)<br>
 [Viva Topics](/viva/microsoft-viva-admin-roles#viva-topics)<br>
 
 
@@ -154,19 +153,6 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
 
 The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
-
-
-### Viva Sales
-You need to be a Microsoft 365 administrator to deploy and install the Viva Sales add-in for Outlook. You need to be a Teams administrator to deploy and install Viva Sales for Teams.
-
-| Role         | What this role does in Viva |
-|--------------|-----------|
-|**Microsoft 365 global admin** |Deploys and installs the Viva Sales add-in for Outlook. |
-|**Teams admin** <br>Assigned by Microsoft 365 admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
-|**CRM admin**<br>Assigned by Microsoft 365 global admin|Manages settings to customize information displayed for Viva Sales in Outlook and Teams. |
-|**CRM security role**|Viva Sales applies your organization's existing CRM access controls and user permissions. Users must have the correct permissions to view, update, and create records in their CRM systems from Viva Sales. Required roles depend on the system you are using. |
-
-For more information on these and other roles, see [Install Viva Sales](/viva/sales/install-viva-sales).
 
 ### Viva Topics
 

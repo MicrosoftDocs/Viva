@@ -27,9 +27,6 @@
     - name: Viva Goals
       tocHref: /viva/goals/
       topicHref: /viva/goals/intro-to-ms-viva-goals
-    - name: Viva Sales
-      tocHref: /viva/sales/
-      topicHref: /viva/sales/introduction
 
 - name: Docs
   tocHref: /

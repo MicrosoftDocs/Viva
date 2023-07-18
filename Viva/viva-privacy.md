@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 7/14/2023
+ms.date: 7/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -46,7 +46,6 @@ Additionally, see the following GDPR information for specific apps:
 - Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
-- Viva Sales: [Responding to Data Subject Rights (DSR) requests for Microsoft Dataverse customer data](/power-platform/admin/common-data-service-gdpr-dsr-guide)
 
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
@@ -65,7 +64,6 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Learning|Viva Learning doesn’t store any personal data since usage and consumption data is aggregated.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
 |Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/pulse/get-started/data-residency-for-viva-pulse.md)
-|Viva Sales|When Viva Sales is connected to Dynamics 365, Viva Sales data is stored with the Dynamics 365 Sales Dataverse instance.<br><br>When Viva Sales is connected to a non-Dynamics 365 CRM, a default Dataverse instance specific to Viva Sales is provided to your tenant. Viva Sales data is stored in the default instance in addition to your CRM.|[Data handling in Viva Sales](/viva/sales/data-handling)|
 |Viva Topics|Follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 
 For more information, see:
@@ -140,16 +138,6 @@ Privacy and security controls:
 
 For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
 
-### Viva Sales
-Viva Sales respects company security and privacy policies in sharing customer contact information, including CRM access controls and user permissions.
-
-For more information about data handling in Viva Sales, see [Data handling in Viva Sales](/viva/sales/data-handling).
-
-## More resources
-
-- [Microsoft Viva compliance](./viva-compliance.md)
-- [Microsoft Viva security](./microsoft-viva-security.md)
-- [Viva admin roles and tasks](./microsoft-viva-admin-roles.md)
 
 ### Viva Topics
 Privacy and security controls:
@@ -161,3 +149,9 @@ Privacy and security controls:
 |Topics are generated from documents and other content. Any topic metadata (such as names, descriptions, related people, and docs) follows the access permissions and other policies set up by the tenant. Topics maintains awareness of where topic metadata is inferred from, so only users who have permissions to see the original documents can see the corresponding topic metadata.<br><br>Users can curate topic pages in the knowledge center, and those topic pages follow general SharePoint policies.<br><br>Users can also rate the relevance of topics and various attributes. Feedback is used to reject or confirm topics and topic metadata inferred by AI, which helps ensure knowledge base quality for the enterprise.|Users only see content they already have access to (existing content permissions), with access dependent on the topic generated automatically or manually.|Admins specify which data sources to use to create topics (such as [SharePoint sites](topics/topic-experiences-discovery.md#select-sharepoint-topic-sources) and MS Graph connectors), which content to exclude from topic indexing based on [sensitivity labels](/microsoft-365/compliance/sensitivity-labels), [which people to exclude from topic indexing](topics/topic-experiences-discovery.md#exclude-people-from-being-suggested-for-topics-by-ai), who can view topics (in addition to the read permissions to topic metadata), who can contribute, and who can manage topics.|
 
 For more information about privacy in Viva Topics, see [Security and privacy in Microsoft Viva Topics](topics/topic-experiences-security-privacy.md)
+
+## More resources
+
+- [Microsoft Viva compliance](./viva-compliance.md)
+- [Microsoft Viva security](./microsoft-viva-security.md)
+- [Viva admin roles and tasks](./microsoft-viva-admin-roles.md)
