@@ -35,7 +35,7 @@ The Microsoft 365 Global admin has unlimited access to the organization’s sett
 
 ## Engage admin  
 
-The Engage admin can set up and configure Engage for your organization. They also manage data, network related settings, and the various core and premium features in the application. This role is assigned when you [add Yammer administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-yammer-administrator-role-is-now-available-in-azure/ba-p/3592577). Yammer Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
+The Engage admin can set up and configure Engage for your organization. They also manage data, network related settings, and the various core and premium features in the application. This role is assigned when you [add Viva Engage administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-viva-engage-administrator-role-is-now-available-in-azure/ba-p/3592577). Viva Engage Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
 
 >[!NOTE]
 > This admin role is assigned and modified by a Global admin through Azure AD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
@@ -86,7 +86,7 @@ The following table shows the actions available to a corporate communicator, Eng
 
 |Permissions for corporate communicators, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------|---------|-------|
-|**Identify leaders**: <br> manage their audience and delegates |✓|✓|
+|**Identify leaders**: <br> manage their audience and delegates | |✓|
 |**Create campaigns**| |✓|
 |**Manage campaigns via**: <br> publish active campaigns; end active campaigns; republish ended campaigns; delete campaigns | |✓|
 |**View campaign analytics**| |✓|

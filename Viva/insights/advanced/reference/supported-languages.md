@@ -95,4 +95,4 @@ If and when you are able to use the advanced insights app with _data_ that is in
 
 ## Related topics
 
-[Set up advanced insights](../setup-maint/setup.md)
+[Set up advanced insights](../setup-maint/setup-overview.md)

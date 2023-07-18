@@ -7,18 +7,16 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 06/02/2023
+ms.date: 07/12/2023
 ms.topic: article
 ms.service: viva
+ms.subservice: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
 search.appverid: MET150
 ---
 
 # Set up the in-app Viva Pulse experience
-
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
 
 The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
 
@@ -72,14 +70,6 @@ An employee’s ability to manage their email notifications preferences is defau
 2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
 3. The update is autosaved.
 
-## Viva resources
-
-Viva Pulse reports show recommended learning content for users to learn more about specific Pulse topics. These learning resources are sourced from LinkedIn Learning and can be viewed in the Viva Learning app. If your users aren't subscribed to LinkedIn Learning or don't use Viva Learning, they cannot access those resources, even though the resources are shown. For example, a learning video might be displayed, but it won't play for those users. In this case, you may want to disable the display of these learning resources. To make any learning resource configurations:
-
-1. In the **Manage** tab, go to the **Viva Resources** tab.
-2. To turn on or turn off Viva Learning videos, use the toggle associated with **Viva Learning**.
-3. The update is autosaved.
-
 ## Delete user data
 
 As an admin, you can delete a user’s past Pulse requests and responses on the user’s behalf. Deletion of a user’s data is a hard deletion, and no record of the user’s data remains. You can only delete one user’s data at a time, and there's no limit as to how many times a user’s data can be deleted. To delete a user’s data:
@@ -88,4 +78,6 @@ As an admin, you can delete a user’s past Pulse requests and responses on the 
 2. Search for the user that requested their data be deleted by using the search bar and select that user in the populated options.
 3. Select **Delete user data**.
 4. Select **Delete user data** again in the confirmation box.
-5. You receive a message that says **Pulse data record pending deletion**. Deletions can take up to a few minutes.
+5. You will see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
+6. Once the deletion is successful, the status of the deletion will change to **‘Deleted’**.
+7. If the deletion was unsuccessful, then the status of the deletion will change to **‘Not Deleted’**. In this instance, please try the deletion again.

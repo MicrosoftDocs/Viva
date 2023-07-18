@@ -35,13 +35,13 @@ Viva Connections is:
 
 * A branded app experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers.
 * A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources.
-* Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Yammer, and Stream.
+* Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Viva Engage, and Stream.
 
 [Learn more about Viva Connections](/viva/connections/viva-connections-overview) including how to set it up and deploy it to your organization.
 
 ## Viva Engage
 
-Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Yammer services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression.
+Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Viva Engage services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression.
 
 It features experiences for discovery of conversations, questions, and knowledge sharing happening across the organization, all within Teams Viva Engage app. Additionally, these conversations can be surfaced in the Viva Connections Feed.
 

@@ -1,11 +1,11 @@
 ---
-title: "Answers admin scenarios in Viva"
+title: "Scenarios for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 06/06/2023
+ms.date: 07/13/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Answers admin scenarios in Viva
+# Scenarios for Answers in Viva Engage
 
 Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the new role of *Answers admin*. The new role of Answers admin is designated by [adding Knowledge Managers in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
@@ -30,7 +30,7 @@ Administration of Answers is for the Microsoft 365 Global admin, the Engage admi
 
 The following table shows the actions available to users and admins.
 
-|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
+|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Viva Engage) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
@@ -148,7 +148,7 @@ The following metrics are available for Global Answers analytics:
 - **Top questions across your organization**: A table of the top questions with the most views, votes, reactions, and answers across your org.
 - **User engagement distribution**: A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).
 
-**Global time saved** shows the time saved across the organization. This total is based on Yammer research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
+**Global time saved** shows the time saved across the organization. This total is based on Viva Engage research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
 
 >[!NOTE]
 > Analytics aren't live. They're updated every 24 hours.

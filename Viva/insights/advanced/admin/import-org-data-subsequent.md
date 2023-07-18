@@ -90,7 +90,7 @@ Maybe you want to add an optional reserved attribute that wasn’t in your data 
 
 For the refresh types listed below, include the following fields in your data.csv file. Make sure you:
 
-* Format these fields according to our guidelines in [Prepare organizational data](prepare-org-data.md#structure-the-organizational-data).
+* Format these fields according to our guidelines in [Prepare organizational data](prepare-org-data.md#step-4---structure-the-organizational-data).
 * Remove any fields you're not including from your metadata.json file.
 * Keep both the data.csv and metadata.json files in the zipped folder you downloaded. When you run the DescriptiveDataUploadApp, you'll provide the zipped folder path. Viva Insights will then pull your data from this location.
 

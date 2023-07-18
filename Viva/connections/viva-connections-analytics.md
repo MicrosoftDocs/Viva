@@ -36,7 +36,7 @@ Understand how and when users engage with components of the Viva Connections exp
 > - Currently, up to 28 days of usage data (if available) can be downloaded in an Excel (.xlxs) format.
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. See below for details.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
-> - Usage analytics data is aggregated and cannot be tracked to an individual user. 
+> - Usage analytics data is aggregated and cannot be tracked to an individual user.
 
 ## How to access the report
 
@@ -74,9 +74,9 @@ Learn more about usage data for unique users, engaged users, and the total visit
 
 Learn more about the components users engage with across Viva Connections experience. The data on this sheet includes activity for desktop, web, and mobile usage. It also includes the Viva Connections [Dashboard](/viva/connections/use-dashboard-web-part-on-home-site) and [Feed](/viva/connections/use-feed-web-part-for-viva-connections) web parts.
 
-- **Dashboard:** The dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
-- **Feed:** The feed delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
-- **Resources:** The resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
+- **Dashboard:** The Dashboard is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. Data includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site).
+- **Feed:** The Feed delivers updates to the right people at the right time and is tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. Data includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections).
+- **Resources:** The Resources experience enables way finding across platforms. It uses navigation elements from the [SharePoint app bar](/viva/connections/sharepoint-app-bar). Data includes usage from the tab in the mobile app, the desktop app, but not the global navigation bar in SharePoint.
  
 ### Sheet 3: Usage by platform
 
