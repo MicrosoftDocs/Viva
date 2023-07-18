@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 07/01/2023
+ms.date: 07/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,20 +24,20 @@ description: "Control who can access features in Microsoft Viva"
 
 # Control access to features in Viva
 
-You can use access policies in Viva to control who can access different features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to your local regulatory and business requirements.  
+You can use access policies in Viva to manage which users can access specific features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.  
 
 > [!IMPORTANT]
-> You can have multiple access policies active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-work-in-viva) for more information.
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. See [How access policies work in Viva](#how-access-policies-work-in-viva) for more information.
 
-An authorized admin (for example, a global admin) in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features they're allowed to use. 
+An authorized admin (for example, a global admin) in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled. 
 
 > [!NOTE]
-> Only a subset of features in Viva apps support feature access management. And for those that do, restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
+> You can only disable a subset of features in Viva apps by using feature access management. Restricting the use of one feature might impact the functionality of other features in the app. Be sure to check the app documentation on the specific feature to understand the implications of disabling or enabling access to a feature.
 
 ## Features available for feature access management
 You can use feature access management to manage access to the following features:
 
-|App|Feature|Who can control|
+|App|Feature|Who can manage access|
 |-|-|-|
 |Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|Global admin<br>Insights admin|
 | | | |
@@ -62,10 +62,12 @@ Before you can create an access policy in viva, you need the following:
 
 Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) PowerShell cmdlet to create an access policy for a Viva feature.
 
+You can assign a maximum of 10 policies per feature. Each policy can be assigned to a maximum of 20 users or groups.
+
 1. Install Exchange Online PowerShell Version 3.2.0:
 
    ```PowerShell
-   Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.2.0
+   Install-Module -Name ExchangeOnlineManagement
    ```
 
 2. Connect to Exchange Online with admin credentials:
@@ -89,7 +91,7 @@ Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamo
    ```powershell
    Add-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name DisableFeatureForAll -IsFeatureEnabled $false -Everyone
    ```
-   This example uses the *-Everyone* parameter to disable Reflection for all users. If you want to disable the feature for a specific user or group of users, use the *-UserId* or *-GroupId* parameter instead.
+   This example uses the *-Everyone* parameter to disable Reflection for all users. If you want to disable the feature for a specific user or group of users, use the *-UserIds* or *-GroupIds* parameter instead.
 
 
 
@@ -137,15 +139,13 @@ Here's how access policies work in Viva:
    4. Default enablement state for the feature
 - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Azure AD. 
 - Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature.
-- When you add users to or remove them from an Azure AD or Microsoft 365 group, it can take **x** hours before changes to their feature access take effect.
+- When you add users to or remove them from an Azure AD or Microsoft 365 group, it can take 24 hours before changes to their feature access take effect.
 
 ## Additional information and best practices
 - Only user-based policy settings are available. 
-- As new user-based policy settings are made available for Viva, they'll be automatically added to Viva feature access management for admins to set policies against.
+- As new user-based policy settings are made available for Viva, they'll be added to Viva feature access management for admins to set policies against.
 - When user identities in Azure AD are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user. 
 - When groups in Azure AD and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups. 
-
-   
 
 ## More resources
 
