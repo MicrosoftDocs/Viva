@@ -18,7 +18,7 @@ search.appverid: MET150
 
 # Enable notifications for your organization  
 
-Viva Pulse leverages the email to deliver notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear. After the script is executed successfully, users will receive email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
+Viva Pulse leverages email to deliver notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear. After the script is executed successfully, users will receive email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
 
 Enable email notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
 
