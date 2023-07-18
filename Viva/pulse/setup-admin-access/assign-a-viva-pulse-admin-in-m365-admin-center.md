@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 06/05/2023
+ms.date: 07/12/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -17,9 +17,6 @@ search.appverid: MET150
 ---
 
 # Assign a Viva Pulse admin in the Microsoft 365 admin center
-
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change. As a reminder, all tenant and user data from Public Preview will be deleted on July 14, 2023.
 
 A Microsoft 365 Global Admin can set up and manage Viva Pulse and assign a user as a Viva Pulse admin.
 

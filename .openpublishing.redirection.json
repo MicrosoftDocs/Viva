@@ -61,6 +61,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "viva/pulse/setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      }, 
+      {
         "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
         "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
         "redirect_document_id": true
@@ -74,7 +79,7 @@
         "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
         "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
         "redirect_document_id": false
-      },            
+      },           
       {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
         "redirect_url": "/insights/viva-teams-app",

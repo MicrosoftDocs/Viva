@@ -30,8 +30,8 @@ SFTP is the most secure way to transfer employee information. The automated feed
 
 Use the following guidelines to set up your Viva Glint SFTP instance:
 
-[Configure SFTP](https://go.microsoft.com/fwlink/?linkid=2238339)IP addresses in Viva Glint
+[Configure SFTP IP addresses in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238339)
 
-[Create a](https://go.microsoft.com/fwlink/?linkid=2240226)SSH key pair for SFTP
+[Create an SSH key pair for SFTP](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 [Add a public SSH key to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2240179)
