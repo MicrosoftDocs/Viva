@@ -26,7 +26,7 @@ Enable email notifications for your tenant and ensure you have [PowerShell insta
 `Connect-AzureAD -TenantId "[TENANT-ID]"`\
 When prompted, login as the **Tenant Admin / Global Admin** for the tenant.
 2. Create the service principle\
-`New-AzureADServicePrincipal-AppId "56233257-15ee-4d3d-bdcd-9aa975244e4c" -DisplayName "[Viva Pulse (Preview)]"`
+`New-AzureADServicePrincipal-AppId "56233257-15ee-4d3d-bdcd-9aa975244e4c" -DisplayName "[Viva Pulse]"`
 3. Validate that the service principle is created\
 `Get-AzureADServicePrincipal -ObjectId <objectID>`\
 *where objectId = what you get back after running step (2)*\
