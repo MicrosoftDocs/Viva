@@ -88,15 +88,6 @@ You can turn off or turn on Viva Learning at the organization level on the Manag
 
 For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
 
-### Viva Sales
-Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. It uses Microsoft 365 and Teams to capture, access, and register data into your organization's existing Customer Relationship Management (CRM) system (Microsoft Dynamics 365, Salesforce, etc.). A Microsoft 365 administrator is needed to deploy and install the Viva Sales add-in for Outlook, and a Teams administrator to install Viva Sales for Teams and pin it as an app.  Learn more about [installing Viva Sales for Outlook](/viva/sales/install-viva-sales-individual-add-in-admin-center#microsoft-outlook), and how to [install Viva Sales for Microsoft Teams](/viva/sales/install-pin-viva-sales-teams). 
-
-There are more role requirements if you're using Microsoft Dynamics 365 as your CRM system, and permission requirements if you're using Salesforce as your CRM system. Learn more about [role requirements for Dynamics 365](/viva/sales/introduction#role-requirements) and [permissions required for Salesforce administrators](/viva/sales/install-viva-sales#permissions-required-for-salesforce-administrators).
-
-To support Viva Sales in Microsoft Outlook, Viva Sales uses Microsoft Graph, which includes a set of REST-based API calls that enable developers to interact with the Microsoft technologies used by your organization. To use these API calls, developers must have specific permissions to access any data they request. Admins control both the deployment of any Microsoft Graph application and permissions to access these applications. You can’t turn access to Microsoft Graph on or off globally in the Microsoft 365 Admin Center; instead you can achieve the same effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. For more information, see [Microsoft Graph and Microsoft Graph security API](/graph/security-concept-overview).
-
-To learn more about Viva Sales, see [Introduction to Viva Sales](/viva/sales/introduction).
-
 ### Viva Topics
 Viva Topics uses existing content security features in Microsoft 365, along with administrative controls, to control what AI-generated content is shown to users in your organization. What an individual can see in topics is determined by the combination of [Microsoft 365 security](/microsoft-365/security/) settings (permissions to sites, files, and folders) and [Topics admin settings](topics/topic-experiences-security-privacy.md).
  
