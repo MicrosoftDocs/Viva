@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 06/28/2023
+manager: pamgreen
+ms.date: 07/13/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -23,17 +23,17 @@ description: An overview about eDiscovery in Viva Engage.
 
 Viva Engage now supports both eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal.
 
-To use this functionality, your Viva Engage network will need to be in Native Mode. If your network was provisioned after January 9, 2020, you are already in Native Mode. If your network was provisioned *before* January 9, 2020, you will need to follow the steps in the [Overview of Native Mode](../overview-native-mode.md).
+To use this functionality, your Viva Engage network needs to be in Native Mode. If your network was provisioned after January 9, 2020, you're already in Native Mode. If your network was provisioned *before* January 9, 2020, you'll need to follow the steps in the [Overview of Native Mode](../overview-native-mode.md).
 
  > [!NOTE]
 > Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode.
 
 You can learn more about eDiscovery in the [Microsoft Purview compliance portal](/microsoft-365/compliance/).
 
-The processes outlined in the above documentation explain how to run eDiscovery searches on all your Microsoft content. While Viva Engage isn’t discussed explicitly in those documents, the same processes mentioned apply to Viva Engage content. When writing a search query in either eDiscovery or eDiscovery (Premium), you can filter on Viva Engage content specifically by selecting **Viva Engage Messages** as the *Type* of content.
+The processes outlined in the above documentation explain how to run eDiscovery searches on all your Microsoft content. While Viva Engage isn’t discussed explicitly in those documents, the same processes mentioned apply to Viva Engage content. When writing a search query in either eDiscovery or eDiscovery (Premium), you can filter on Viva Engage (or Yammer) content specifically by selecting **Viva Engage Messages** (or Yammer Messages) as the *Type* of content.
 
 > [!NOTE]
-> You do not need to select Viva Engage messages as the Type to ensure Viva Engage messages are included in your results. This option allows you to filter so that your results only include Viva Engage messages.
+> You don't need to select Yammer messages as the Type to ensure they're included in your results. This option allows you to filter your results to only include Yammer messages.
 
 When viewing Viva Engage content in the eDiscovery tools, you can expect the following information to be available:
 

@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 4/20/2023
+ms.date: 7/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -44,8 +44,8 @@ Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
 - Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage)
-- Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
+- Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
@@ -63,6 +63,7 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) or the United Kingdom is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](./goals/vg-privacy-and-security.md#viva-goals-data-residency)|
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Learning|Viva Learning doesn’t store any personal data since usage and consumption data is aggregated.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
+|Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/pulse/get-started/data-residency-for-viva-pulse.md)
 |Viva Topics|Follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 
 For more information, see:

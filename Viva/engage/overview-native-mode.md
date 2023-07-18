@@ -7,7 +7,6 @@ ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
 audience: Admin
-
 f1.keywords:
 - NOCSH
 ms.topic: article
@@ -21,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Overview of Native Mode
+# Overview of Viva Engage in Native Mode for Microsoft 365 
 
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 
