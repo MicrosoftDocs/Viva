@@ -1273,6 +1273,11 @@
         "source_path": "viva/engage/index.md",
         "redirect_url": "/viva/engage/overview",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/glint/index.md",
+        "redirect_url": "/viva/glint/introduction-viva-glint",
+        "redirect_document_id": false
       }
     ]
 }
