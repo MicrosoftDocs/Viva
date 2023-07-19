@@ -35,7 +35,7 @@ The following steps show you what you need to for the transition to Native Mode.
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
-To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md/configure-your-viva-engage-networks).
+To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
 Next, you need to make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
@@ -84,11 +84,11 @@ Use the report to identify the following information:
   It's a two-step process to export a large volume of content from your network:
 
   1.	**Export message data** 
-          - We suggest that you export message data by using the [Network Data Export feature](eac-as-manage-data#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
+          - We suggest that you export message data by using the [Network Data Export feature](eac-as-manage-data#export-tenant-data-by-date-range.md) in the Viva Engage Admin panel.
           - We suggest that you limit your export to a maximum date range of two months at a time and exclude attachments. If you include attachments, you may need to limit your date range significantly, such as to one week at a time, to prevent the system from encountering time-out errors.
 
   2. **Export files**
-        - We suggest that you export files separately from messages by using the [Viva Engage file export API](eac-as-manage-data#export-large-file-volumes-with-the-api). 
+        - We suggest that you export files separately from messages by using the [Viva Engage file export API](eac-as-manage-data#export-large-file-volumes-with-the-api.md). 
         - You can use this API to export all the files from a specified date range. The API supports up to six concurrent requests, and each request should be limited to a two-month period. This method enables you to simultaneously export a full year of files in a single API call.
 
 ## 5. Run the Alignment Tool for the first time
