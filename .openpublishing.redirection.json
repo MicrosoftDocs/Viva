@@ -1280,6 +1280,16 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "/Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
+        "redirect_url": "/Users/v-bvrana/Viva-pr/Viva/engage/eac-key-admin-roles-permissions",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365.md",
+        "redirect_url": "/viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/glint/index.md",
         "redirect_url": "/viva/glint/introduction-viva-glint",
         "redirect_document_id": false
