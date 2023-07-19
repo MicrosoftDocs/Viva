@@ -1285,8 +1285,8 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "Viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365.md",
-        "redirect_url": "/viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains",
+        "source_path": "/Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
+        "redirect_url": "/Viva/engage/manage-security-and-compliance/FAQ-ediscovery",
         "redirect_document_id": false
       },
       {
