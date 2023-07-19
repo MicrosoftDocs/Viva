@@ -1280,17 +1280,17 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "/Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
+        "source_path": "Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
         "redirect_url": "/Users/v-bvrana/Viva-pr/Viva/engage/eac-key-admin-roles-permissions",
         "redirect_document_id": false
       },
       {
-        "source_path": "/Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
+        "source_path": "Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
         "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
         "redirect_document_id": false
       },
       {
-        "source_path": "/Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
+        "source_path": "Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
         "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
         "redirect_document_id": false
       },
