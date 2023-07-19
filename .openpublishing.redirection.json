@@ -1286,7 +1286,12 @@
       },
       {
         "source_path": "/Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
-        "redirect_url": "/Viva/engage/manage-security-and-compliance/FAQ-ediscovery",
+        "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "/Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
+        "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
         "redirect_document_id": false
       },
       {
