@@ -59,7 +59,7 @@ By default, the Answers experience is enabled for customers that meet the follow
 
 3. **Set up the Viva Engage app**
 
-    We recommend that all organizations that want to use Answers install the Viva Engage app in Teams to get the best Answers experience. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
+    For the best Answers experience, we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
 
 ## Data storage, export, and compliance
 
@@ -72,9 +72,9 @@ Owners of the backing group should ensure that Answers remains compliant with ne
 
 Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
-**GDPR information**
+**General Data Protection Regulation (GDPR) information**
 
-For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Enable Answers  
 
