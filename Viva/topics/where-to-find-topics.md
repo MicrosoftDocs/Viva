@@ -35,7 +35,7 @@ Viva Topics are integrated throughout Microsoft 365 and other Viva apps.
 |[Teams](https://support.microsoft.com/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards, highlighted topics|
 |Outlook web |#Topics (web only), highlighted topics (web only), topic cards, Live person card (LPC), profile cards |
 |Bing Search |#Topics, Topic pages, Topic answer |
-|Yammer and Viva Engage |#Topics, Topic picker, Topic card |
+|Yammer and Viva Engage |Topic picker, Topic card |
 |[Office.com SharePoint search](search.md) |Topic answer |
 |Word, Excel, and PowerPoint |Search Topic answer |
 |[Viva Connections](viva-topics-card-viva-connections.md) |Dashboard cards |
