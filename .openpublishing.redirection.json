@@ -1278,6 +1278,16 @@
         "source_path": "viva/glint/index.md",
         "redirect_url": "/viva/glint/introduction-viva-glint",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/index.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/people-in-viva/index.md",
+        "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
+        "redirect_document_id": false
       }
     ]
 }
