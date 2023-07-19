@@ -88,7 +88,7 @@ Use the report to identify the following information:
           - We suggest that you limit your export to a maximum date range of two months at a time and exclude attachments. If you include attachments, you may need to limit your date range significantly, such as to one week at a time, to prevent the system from encountering time-out errors.
 
   2. **Export files**
-        - We suggest that you export files separately from messages by using the [Viva Engage file export API](eac-as-manage-data#export-large-file-volumes-with-the-api.md). 
+        - We suggest that you export files separately from messages by using the [Viva Engage file export API](/Viva/engage/eac-as-manage-data.md#export-large-file-volumes-with-the-api). 
         - You can use this API to export all the files from a specified date range. The API supports up to six concurrent requests, and each request should be limited to a two-month period. This method enables you to simultaneously export a full year of files in a single API call.
 
 ## 5. Run the Alignment Tool for the first time
