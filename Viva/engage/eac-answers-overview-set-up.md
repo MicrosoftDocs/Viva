@@ -63,7 +63,7 @@ By default, the Answers experience is enabled for customers that meet the follow
 
 ## Data storage, export, and compliance
 
-Answers has a backing group in Office 365 and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is autoprovisioned when the first question is posted or first the question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
+A group in Office 365 backs up Answers and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is autoprovisioned when the first question is posted or first the question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
 Owners of the backing group should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing group in Office 365. If the backing group is deleted, Answers won't be functional.
 
@@ -78,7 +78,7 @@ For a GDPR user data export, verified Viva Engage admins and Engage admins can f
 
 ## Enable Answers  
 
-Answers is enabled by default and visible to all users that have the Viva Engage Knowledge service plan assigned. Answers can be disabled and hidden from the Viva Engage Teams app. When disabled, Answers content can still be accessed through existing links, but users  can't contribute to threads or navigate the Answers experience.  
+All users that have the Viva Engage Knowledge service plan assigned can view Answers, as it's on by default. You can turn it off so it's hidden from the Viva Engage Teams app. However, users can still access Answers content through existing links, but they can't contribute to threads or navigate the Answers experience.  
 
 Only a Microsoft 365 Global admin can change Answers state of enablement. Here's how:
 
