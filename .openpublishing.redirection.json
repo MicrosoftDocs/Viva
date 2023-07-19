@@ -1286,7 +1286,7 @@
       },
       {
         "source_path": "viva/people-in-viva/index.md",
-        "redirect_url": "/viva/people-in-viva/introducing-org-explorer.md",
+        "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
         "redirect_document_id": false
       }
     ]
