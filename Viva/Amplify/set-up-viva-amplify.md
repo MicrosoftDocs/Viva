@@ -1,5 +1,5 @@
 ---
-title: Supported languages in Viva Amplify
+title: Set up Microsoft Viva Amplify
 ms.reviewer:
 ms.date: 07/18/2023
 ms.author: daisyfeller
@@ -19,6 +19,6 @@ ms.collection:
 ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Amplify.
 ---
-# Supported languages in Viva Amplify
+# Set up Microsoft Viva Amplify
   
 Content coming soon
