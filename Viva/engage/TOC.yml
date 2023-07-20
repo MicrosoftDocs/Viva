@@ -94,10 +94,6 @@
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
      - name: Manage Viva Engage with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
-     - name: Overview of eDiscovery
-       href: /viva/engage/manage-security-and-compliance/overview-of-ediscovery
-     - name: eDiscovery - Frequently asked questions
-       href: /viva/engage/manage-security-and-compliance/FAQ-ediscovery
      - name: Enforce Office 365 identity for Viva Engage user
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
      - name: Manage Viva Engage core user licenses in Microsoft 365
