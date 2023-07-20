@@ -105,7 +105,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 9. Select **Next** to review the details of your announcement.
 10. If the announcement is ready to send immediately, select the **Send announcement** option.
 
-    :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement.":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement."lightbox="../media/connections/announcements-viva-connections/announcement-review.png":::
 
 > [!NOTE]
 > Once an announcement has been sent, message details and end date can still be edited.
@@ -115,12 +115,12 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 1. Follow the steps to [create an announcement](#how-to-create-an-announcement) and then choose **More options**.
 2. Choose a date and time under **Schedule to send later**.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/announcement-send-later.png":::
 
-> [!NOTE]
->
-> - The end date can be up to two weeks from the original posting date.
-> - Scheduling is only available in half-hour increments (e.g. you could schedule a post to send at 10:30 but not 10:15).
+   > [!NOTE]
+   >
+   > - The end date can be up to two weeks from the original posting date.
+   > - Scheduling is only available in half-hour increments (e.g. you could schedule a post to send at 10:30 but not 10:15).
 
 3. Select **Next** to review the details of your announcement.
 
@@ -139,7 +139,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 You can view all announcements that are active, scheduled, saved as drafts, and expired from the **Announcements** page. 
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page showing the status of several announcements.":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page showing the status of several announcements."lightbox="../media/connections/announcements-viva-connections/announcements-page.png":::
 
 From here you can complete the following tasks:
 
@@ -153,7 +153,7 @@ Choose **+ New announcement** and follow the steps to [create an announcement](#
 
 1. From the **Announcements** page, select the **edit** (pencil) icon for the announcement you want to make changes to.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the edit announcement icon highlighted.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the edit announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/edit-announcement.png":::
 
 2. Make any desired changes in the **Announcement details** pane.
 3. Choose to send or schedule drafted announcements.
@@ -162,7 +162,7 @@ Choose **+ New announcement** and follow the steps to [create an announcement](#
 
 1. From your **Announcements** page, select the delete (trash can) icon for the announcement that you want to delete. Deleted announcements can’t be recovered.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/delete-announcement.png":::
 
 2. When prompted, choose **Yes, delete**.
 3. If the announcement was active, users will no longer be able to view it, but it may still be accessible through a Teams notification.
