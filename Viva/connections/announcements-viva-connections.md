@@ -28,7 +28,7 @@ description: "Use announcements in Viva Connections"
 
 Announcements allow you to create and share time-sensitive messages in Viva Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a tablet and mobile device.":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a tablet and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png":::
 
 > [!NOTE]
 >
@@ -39,7 +39,7 @@ Announcements allow you to create and share time-sensitive messages in Viva Conn
 
 ## When to use announcements
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-example.png" alt-text="Screenshot of an open announcement in Viva Connections mobile.":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcement-example.png" alt-text="Screenshot of an open announcement in Viva Connections mobile."lightbox="../media/connections/announcements-viva-connections/announcement-example.png":::
 
 Announcements are the best way to communicate targeted, time-sensitive information in the Viva Connections app.
 
@@ -71,11 +71,11 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 > [!NOTE]
 > Viva Connections announcement notifications being displayed in the Teams activity feed is scheduled for a future release.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of an Teams notification displayed on the lock-screen of a mobile device.":::
+:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of an Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png":::
 
 **In Viva Connections**: Announcements display towards the top of the Viva Connections experience where more details can be viewed.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-notification.png" alt-text="Screenshot of an open announcement in the Viva Connections mobile app.":::
+:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-notification.png" alt-text="Screenshot of an open announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-notification.png":::
 
 ## How to create an announcement
 
@@ -87,25 +87,25 @@ Announcements are the best way to communicate targeted, time-sensitive informati
     1. Select **Announcements** from the site navigation and then **+ New announcement**.
     1. Navigate to **Settings** > **Manage Viva Connections** > **Announcements** > **+ New announcement**.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-overview.png" alt-text="Screenshot of a SharePoint home site highlighting three options for starting a new announcement.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-overview.png" alt-text="Screenshot of a SharePoint home site highlighting three options for starting a new announcement."lightbox="../media/connections/announcements-viva-connections/create-announcement-overview.png":::
 
 2. Choose an icon and color that reflect the theme of the announcement.
 3. Add a title and message.
 4. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
 5. Select up to 10 audiences to distribute the announcement to. Audiences can be Azure Active Directory groups, Microsoft 365 Groups, or Microsoft Azure Active Directory dynamic groups.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::
 
 6. To add a link to more information, add a URL and label for the link under **More options**.
 7. To allow users to dismiss the announcement after viewing, toggle the **Allow users to dismiss** setting on under **More options**.
 8. To send the announcement later, enter a date and time under **Schedule to send later** under **More options**.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of additional options available in the announcement detail pane.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of additional options available in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
 
 9. Select **Next** to review the details of your announcement.
 10. If the announcement is ready to send immediately, select the **Send announcement** option.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement.":::
+    :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement.":::
 
 > [!NOTE]
 > Once an announcement has been sent, message details and end date can still be edited.
@@ -124,7 +124,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 3. Select **Next** to review the details of your announcement.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review pane after scheduling an announcement.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review pane after scheduling an announcement."lightbox="../media/connections/announcements-viva-connections/schedule-announcement.png":::
 
 4. If the announcement is ready to be scheduled, select **Schedule announcement** and the announcement will be sent at the scheduled time.
 5. The scheduled date and time can be edited anytime before the announcement has been sent.
@@ -153,7 +153,7 @@ Choose **+ New announcement** and follow the steps to [create an announcement](#
 
 1. From the **Announcements** page, select the **edit** (pencil) icon for the announcement you want to make changes to.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the edit announcement icon highlighted.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the edit announcement icon highlighted.":::
 
 2. Make any desired changes in the **Announcement details** pane.
 3. Choose to send or schedule drafted announcements.
@@ -162,7 +162,7 @@ Choose **+ New announcement** and follow the steps to [create an announcement](#
 
 1. From your **Announcements** page, select the delete (trash can) icon for the announcement that you want to delete. Deleted announcements can’t be recovered.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted.":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted.":::
 
 2. When prompted, choose **Yes, delete**.
 3. If the announcement was active, users will no longer be able to view it, but it may still be accessible through a Teams notification.
