@@ -108,7 +108,7 @@ items:
                 href: advanced/analyst/cross-collaboration.md
               - name: Set primary and secondary collaborators
                 href: advanced/analyst/collaborators.md
-              - name: Collaboration between two individuals (person-to-person query)
+              - name: Collaboration between individuals (person-to-person query)
                 href: advanced/analyst/cross-collaboration-p2p.md  
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
