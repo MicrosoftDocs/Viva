@@ -186,6 +186,10 @@ There are two major integration stages for which admins require specific permiss
 
     If both packages are generated together, Viva Learning triggers processing within an hour. Otherwise, Viva Learning triggers processing within an hour of the availability of both packages.
 
+-  **What is the maximum size of a SuccessFactors full package that Viva Learning supports?**
+    
+    Viva Learning supports the onboarding of SuccessFactors full packages up to a size of 10 GB (compressed file).
+
 
 - **Contact SAP SuccessFactors Support**
     - Create a [support incident](https://support.sap.com/en/my-support/product-support.html?anchorId=section_249481993) with SAP SuccessFactors support 
