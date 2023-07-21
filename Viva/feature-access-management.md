@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 07/18/2023
+ms.date: 07/21/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -60,7 +60,7 @@ Before you can create an access policy in viva, you need the following:
 
 ### Create an access policy
 
-Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) PowerShell cmdlet to create an access policy for a Viva feature.
+Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for a Viva feature.
 
 You can assign a maximum of 10 policies per feature. Each policy can be assigned to a maximum of 20 users or groups.
 
@@ -78,13 +78,13 @@ You can assign a maximum of 10 policies per feature. Each policy can be assigned
 
    Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
 
-3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature?view=exchange-ps) cmdlet to see what features are available to manage using an access policy.  
+3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see what features are available to manage using an access policy.  
    
    For example, to see which features are supported in Viva Insights, run the following:
    ```powershell
    Get-VivaModuleFeature -ModuleId VivaInsights
    ```
-4. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to create a new access policy.
+4. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
    For example, run the following to create an access policy, called *DisableFeatureForAll*, to restrict access to the Reflection feature in Viva Insights. 
 
@@ -108,7 +108,7 @@ Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Nam
 > Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. 
 
 
-To check what features are disabled for a specific user or group, run the [Get-VivaModuleFeatureEnablement](/powershell/module/exchange/get-vivamodulefeatureenablement?view=exchange-ps) cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
+To check what features are disabled for a specific user or group, run the [Get-VivaModuleFeatureEnablement](/powershell/module/exchange/get-vivamodulefeatureenablement) cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
 
 For example:
 
@@ -118,9 +118,9 @@ Get-VivaModuleFeatureEnablement -ModuleId VivaInsights -FeatureId Reflection -Id
 
 ### Delete an access policy
 
-Use the [Remove-VivaModuleFeaturePolicy](/powershell/module/exchange/remove-vivamodulefeaturepolicy?view=exchange-ps) cmdlet to delete an access policy.
+Use the [Remove-VivaModuleFeaturePolicy](/powershell/module/exchange/remove-vivamodulefeaturepolicy) cmdlet to delete an access policy.
 
-For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running [Get-VivaModuleFeaturePolicy](/powershell/module/exchange/get-vivamodulefeaturepolicy?view=exchange-ps). Then, run the following:
+For example, to delete the Reflection feature access policy, start by getting the specific UID for the access policy - you can get that by running [Get-VivaModuleFeaturePolicy](/powershell/module/exchange/get-vivamodulefeaturepolicy). Then, run the following:
 
 ```powershell
 Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
