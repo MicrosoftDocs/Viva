@@ -1,6 +1,11 @@
 {
     "redirections": [
       {
+        "source_path": "viva/learning/configure-successfactors-content-source.md",
+         "redirect_url": "/viva/learning/sfsf-introduction",
+         "redirect_document_id": true
+     },
+    {
         "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
         "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
         "redirect_document_id": true
