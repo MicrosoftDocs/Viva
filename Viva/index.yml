@@ -97,7 +97,7 @@ additionalContent:
           summary: Keep everyone informed, included, and inspired with Viva Connections and Viva Engage. 
           url: /viva/experience-connection
         - title: Insight
-          summary: Improve productivity and wellbeing with actionable insights using Viva Insights.
+          summary: Improve productivity and wellbeing with actionable insights.
           url: /viva/experience-insight
         # Card
         - title: Purpose
@@ -118,6 +118,8 @@ additionalContent:
             url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
           - text: Viva Engage
             url: https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284
+          - text: Viva Glint
+            url: https://support.microsoft.com/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08
           - text: Viva Goals
             url: https://go.microsoft.com/fwlink/?linkid=2193540
           - text: Viva Learning
@@ -132,16 +134,18 @@ additionalContent:
           links:
             - text: Get started with Microsoft Viva Connections
               url: /training/paths/viva-connections-get-started/
-            - text: Get started with Microsoft Viva Topics
-              url: /training/paths/m365-viva-topics/
-            - text: Introduction to Viva Learning
-              url: /training/modules/viva-learning-introduction/
             - text: Introduction to Viva Insights
               url: /training/paths/m365-workplace-analytics-start/
-            - text: Get started with Viva Goals
-              url: /training/paths/viva-goals-get-started
+            - text: Introduction to Viva Glint
+              url: /viva/glint/introduction-viva-glint
             - text: Become an OKR Champion with Viva Goals
               url: /training/paths/okr-leadership/
+            - text: Get started with Viva Goals
+              url: /training/paths/viva-goals-get-started
+            - text: Introduction to Viva Learning
+              url: /training/modules/viva-learning-introduction/
+            - text: Get started with Microsoft Viva Topics
+              url: /training/paths/m365-viva-topics/
 
         # Card
         - title: Adoption
