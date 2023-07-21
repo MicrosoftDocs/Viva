@@ -44,15 +44,13 @@ Ready to get started? Follow these steps:
 
 [Prepare and upload your employee data](https://go.microsoft.com/fwlink/?linkid=2240826)
 
-[Set up your platform features and settings](https://go.microsoft.com/fwlink/?linkid=2240919)
+[Set up your program features and settings](https://go.microsoft.com/fwlink/?linkid=2240919)
 
 [Use Viva Glint's program guidance](https://go.microsoft.com/fwlink/?linkid=2240920)
 
-[Understand Engagement-type survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
+[Set up Program Summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
 
 [Create Employee Lifecycle surveys](https://go.microsoft.com/fwlink/?linkid=2238618)
-
-[Set up Always-On surveys](https://go.microsoft.com/fwlink/?linkid=2231006)
 
 [Learn about feedback reports for various roles](https://go.microsoft.com/fwlink/?linkid=2231109)
 

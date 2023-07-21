@@ -30,7 +30,7 @@ Microsoft Viva Glint offers multiple program types, reporting features, and guid
 
 [Set up Distribution Lists](https://go.microsoft.com/fwlink/?linkid=2230743)
 
-[Customize Action Plans](https://go.microsoft.com/fwlink/?linkid=2230918)
+[Customize Action Plans](https://go.microsoft.com/fwlink/?linkid=2230867)
 
 [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
 
@@ -38,4 +38,4 @@ Microsoft Viva Glint offers multiple program types, reporting features, and guid
 
 [Share post-learning survey experiences with your people](https://go.microsoft.com/fwlink/?linkid=2230746)
 
-[Understand Advanced Configuration options](https://go.microsoft.com/fwlink/?linkid=2238341)
+[Understand Advanced Configuration options](https://go.microsoft.com/fwlink/?linkid=2240194)

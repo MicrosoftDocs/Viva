@@ -124,10 +124,14 @@ items:
               href: advanced/analyst/templates/business-resilience.md
             - name: Hybrid workforce experience
               href: advanced/analyst/templates/hybrid-workforce-experience.md
+            - name: Impact explorer
+              href: advanced/analyst/templates/impact-explorer.md
             - name: Manager effectiveness
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
-              href: advanced/analyst/templates/meeting-effectiveness.md  
+              href: advanced/analyst/templates/meeting-effectiveness.md
+            - name: Onboarding and development
+              href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit
               href: advanced/analyst/templates/recurring-meeting.md
             - name: Ways of working
