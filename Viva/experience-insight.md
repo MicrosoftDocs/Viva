@@ -33,10 +33,26 @@ Insights are derived and summarized using your Microsoft 365 data – data that 
 
 [Introducing Viva Insights](/Viva/insights/introduction)
 
-[Environment requirements for Viva Insights](/viva/insights/advanced/setup-maint/environment-requirements.md)
+[Environment requirements for Viva Insights](/viva/insights/advanced/setup-maint/environment-requirements)
 
 [Data privacy](/viva/insights/advanced/privacy/privacy)
 
 ## Viva Pulse
 
-![Viva Pulse home page](media/viva-pulse-homepage.png)
+**Quickly receive and act on feedback**
+
+With Viva Pulse, managers and project leads can request ad-hoc feedback on topics to better understand their team’s needs and address them in the moment. Pre-populated, research-validated survey templates help zero in on important topics such as change management or work situations. Managers and leads can also customize templates to meet their unique team needs.
+
+![Viva Pulse Homepage](../media/pulse/viva-pulse-homepage.png)
+
+**Get timely analysis**
+
+Viva Pulse provides a snapshot of team sentiment to help managers and project leads get quick feedback and adjust actions, if needed. Survey senders can leverage automatic sentiment analysis which saves time and helps them focus on areas of opportunity for the team. To ensure employee confidentiality, managers and project leads receive an aggregated view of survey results.
+
+**Make necessary changes with recommended actions**
+
+Leads will receive suggested learning resources and suggested next steps based on the Viva Pulse feedback results. These actionable recommendations enable managers and project leads to make sure employees’ perspectives are being heard.
+
+**Learn more about Viva Pulse**
+[Introduction to Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
+[Prerequisites](/viva/pulse/setup-admin-access/prerequisites-and-admin-roles)
