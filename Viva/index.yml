@@ -138,10 +138,11 @@ additionalContent:
               url: /training/paths/m365-workplace-analytics-start/
             - text: Introduction to Viva Glint
               url: /viva/glint/introduction-viva-glint
-            - text: Become an OKR Champion with Viva Goals
-              url: /training/paths/okr-leadership/
             - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
+            - text: Become an OKR Champion with Viva Goals
+              url: /training/paths/okr-leadership/
+           
             - text: Introduction to Viva Learning
               url: /training/modules/viva-learning-introduction/
             - text: Get started with Microsoft Viva Topics
