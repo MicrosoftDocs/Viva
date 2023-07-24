@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 7/12/2023
+ms.date: 7/11/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
