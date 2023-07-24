@@ -57,7 +57,7 @@ You can also manage access to reports through Microsoft 365 groups.
 
 In the Microsoft Admin Center, ensure that the required diagnostic data and optional diagnostic data fields are turned on. 
 
-![Screenshot of checked boxes in the MAC settings with Learning Record Sync and Diagnostics data options enabled.](../media/learning/reports-telemetry-enabled-mac.png)
+:::image type="content" source="../media/learning/reports-telemetry-enabled-mac.png" alt-text="Screenshot of checked boxes in the MAC settings with Learning Record Sync and Diagnostics data options enabled." lightbox="../media/learning/reports-telemetry-enabled-mac.png":::
 
 ## How to access reports 
 
