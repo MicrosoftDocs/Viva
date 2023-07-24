@@ -68,7 +68,7 @@ If you want to select a new Microsoft 365 group, share the Microsoft 365 group n
 
 Go to the Viva Learning admin tab and select **Reports**.  
 
-![Screenshot of the adoption view report indicating monthly active users and growth rate of adoption.](../media/learning/reports-adoption.png)
+:::image type="content" source="../media/learning/reports-adoption.png" alt-text="Screenshot of the adoption view report indicating monthly active users and growth rate of adoption." lightbox="../media/learning/reports-adoption.png":::
 
 ### Viva Learning reporting metrics 
 
