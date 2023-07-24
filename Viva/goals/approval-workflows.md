@@ -16,7 +16,6 @@ ms.collection:
 - m365initiative-viva-goals
 search.appverid:
 - MET150
-
 description: "Viva Goals offers the ability to enable a workflow to gain manager approval when setting OKRs."
 ---
 

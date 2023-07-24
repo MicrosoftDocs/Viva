@@ -5,10 +5,11 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 05/31/2023
+ms.date: 07/24/2023
 audience: Admin
 ms.topic: overview
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 ms.collection:
@@ -32,10 +33,7 @@ description: "Learn what's needed for group admins to host live video events for
 > This article provides guidance for Viva Engage group admins to produce the best live event experiences for their groups and communities. If you're planning a large event (up to 100,000 attendees), the Microsoft 365 live events assistance team can give you the best options for your live event. [Learn more about this program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
 >
 > [!NOTE]
-> On September 15, 2023, [Stream live events will be retired](/stream/live-event-retirement). Through June 30, 2023, limits in Stream live limits will be extended to support: 
-> - Up to 20,000 attendees
-> - 50 events simultaneous events on a single tenant
-> - Events up to 16 hours in duration
+> On September 15, 2023, [Stream live events will be retired](/stream/live-event-retirement).
 
 
 ### Choose a setup that works for your live event
