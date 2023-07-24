@@ -57,7 +57,7 @@ You can also manage access to reports through Microsoft 365 groups.
 
 In the Microsoft Admin Center, ensure that the required diagnostic data and optional diagnostic data fields are turned on. 
 
-![Checked boxes in the MAC settings with Learning Record Sync and Diagnostics data options enabled](../media/learning/reports-telemetry-enabled-mac.png)
+![Screenshot of checked boxes in the MAC settings with Learning Record Sync and Diagnostics data options enabled.](../media/learning/reports-telemetry-enabled-mac.png)
 
 ## How to access reports 
 
@@ -68,7 +68,7 @@ If you want to select a new Microsoft 365 group, share the Microsoft 365 group n
 
 Go to the Viva Learning admin tab and select **Reports**.  
 
-![The adoption view report indicating monthly active users and growth rate of adoption](../media/learning/reports-adoption.png)
+![Screenshot of the adoption view report indicating monthly active users and growth rate of adoption.](../media/learning/reports-adoption.png)
 
 ### Viva Learning reporting metrics 
 
@@ -95,7 +95,6 @@ Users can export all the available reports data into a single Excel file using t
 
 2. Select **Export all reports** to export all the available reports data.
 
-![The option to export all reports](../media/learning/reports-export-all.png)
 
 Individual reports data can be exported into an Excel file using the Export option available for each report. 
 
@@ -103,7 +102,6 @@ Individual reports data can be exported into an Excel file using the Export opti
 
 2. Select **Export** to export individual report data.
 
-![The option to export individual report](../media/learning/reports-export-individual.png)
     
 ## Data refresh rate 
 
