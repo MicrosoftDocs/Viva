@@ -129,7 +129,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ## How access policies work in Viva
 Here's how access policies work in Viva: 
 
-:::image type="content" source="media/vfam-workflog.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy.":::
+:::image type="content" source="/media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy.":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user. 
 - If the user isn’t assigned a policy or isn’t a member of an Azure AD group or Microsoft 365 group that is assigned a policy, then the default enablement state for the feature is applied. 
