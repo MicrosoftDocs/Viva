@@ -35,10 +35,10 @@ The Microsoft 365 Global admin has unlimited access to the organization’s sett
 
 ## Engage admin  
 
-The Engage admin can set up and configure Engage for your organization. They also manage data, network related settings, and the various core and premium features in the application. This role is assigned when you [add Viva Engage administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-viva-engage-administrator-role-is-now-available-in-azure/ba-p/3592577). Viva Engage Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users. This connection exists because Viva Engage is powered by Yammer technology.
+The Engage admin can set up and configure Engage for your organization. They also manage data, network related settings, and various core and premium features in the application. To assign this role, [add Viva Engage administrators in Azure Active Directory](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-viva-engage-administrator-role-is-now-available-in-azure/ba-p/3592577). Viva Engage Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users.
 
 >[!NOTE]
-> This admin role is assigned and modified by a Global admin through Azure AD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
+> Global admins assign and modify the Engage admin role through Azure AD, [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
 
 **Permissions**
 
@@ -78,11 +78,11 @@ The following table shows the actions available to an unlicensed user, Viva Topi
 
 ## Corporate communicator
 
-Corporate communicators can create and manage campaigns, define leaders, and more in Viva Engage. This role was created to address the need for content management in the organization, beyond being attached to a community, as a Community admin, but not as powerful as the overall Engage admin. Only the following roles can assign, modify, or deleted Corporate communicators privileges for users: Global admin, Engage admin, and fellow corporate communicators.
+Corporate communicators can create and manage campaigns, define leaders, and manage content across the organization. This role provides more capabilities than Community admins, but is less powerful than the overall Engage admin. Only the following roles can assign, modify, or delete Corporate communicators privileges for users: Global admin, Engage admin, and fellow corporate communicators.
 
 **Permissions**
 
-The following table shows the actions available to a corporate communicator, Engage (Yammer) admin, and Global admin based on their license.  
+Actions available to a corporate communicator, Engage (Yammer) admin, and Global admin based on their license are shown in the following table.  
 
 |Permissions for corporate communicators, Engage admin, and Global admin |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------|---------|-------|
