@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 07/13/2023
+ms.date: 07/24/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -35,7 +35,7 @@ This feature enables organizations to get insights into how Viva Learning is use
 
 -  All reports are anonymous. Data can't be directly linked to a user or device.  
 
-- Data is stored in Viva Learning for six months. Ideas stores the EUPI data for a year.  
+- Data is stored in Viva Learning for six months. 
 
 - Viva Learning metrics aren't designed to enable evaluation, tracking, automated decision making, profiling, or monitoring.
 
@@ -61,7 +61,12 @@ In the Microsoft Admin Center, ensure that the required diagnostic data and opti
 
 ## How to access reports 
 
-Go to Viva Learning admin tab and select **Reports**.  
+
+Access to reports is controlled via Microsoft 365 (Microsoft 365) groups. By default, reports are enabled for learning path Microsoft 365 group, knowledge admins, knowledge managers, and global admins.
+
+If you want to select a new Microsoft 365 group, share the Microsoft 365 group name with us. There isn't currently a self-serve UI for setting Microsoft 365 group permissions. Once the FAM feature goes live customers can self-serve permissions through Microsoft 365 group."
+
+Go to the Viva Learning admin tab and select **Reports**.  
 
 ![The adoption view report indicating monthly active users and growth rate of adoption](../media/learning/reports-adoption.png)
 
@@ -69,12 +74,12 @@ Go to Viva Learning admin tab and select **Reports**.
 
 | Metric | Description 
 |:-----|:----- |
-| Monthly Active Users | Total number of unique users who have launched the app in the last 30 days. |
-| Daily Active Users | Total no of unique users who have launched the app on that day. |
+| Monthly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 30 days. |
+| Daily Active Users | Total number of unique users who have launched the Viva Learning personal app on that day. |
 | Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
 |Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month | 
-| Courses Played | Total number of courses played by learners in a month | 
-| Courses Bookmarked | Total number of courses bookmarked by learners in a month |
+| Content Played | Total number of courses played by learners in a month | 
+| Content Bookmarked | Total number of courses bookmarked by learners in a month |
 | Learning Paths Viewed | Total number of learning paths viewed by learners in a month |
 | Learning Collection Created | Total number of learning collections created by learners in a month |
 | Learning Collection Viewed | Total number of learning collections viewed by learners in a month |
@@ -103,7 +108,7 @@ Individual reports data can be exported into an Excel file using the Export opti
 ## Data refresh rate 
 
 Daily Active Users (DAU) report data is updated daily. 
-Data for all other reports is updated monthly on the third of every month. 
+Data for all other reports is updated monthly on the third of every month in the GMT time zone.
 
 ## FAQ 
 
@@ -127,5 +132,5 @@ Data for all other reports is updated monthly on the third of every month.
 - **How often is data refreshed?** 
 
     Daily Active Users (DAU) report data is updated daily. 
-    Data for all other reports is updated monthly.
+    Data for all other reports is updated monthly in the GMT time zone.
 
