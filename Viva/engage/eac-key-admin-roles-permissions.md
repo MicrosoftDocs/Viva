@@ -74,7 +74,7 @@ The following table shows the actions available to an unlicensed user, Viva Topi
 |**Feature topics**| |Answers admin and Global admin only|
 |**Approve suggested topics**| |Answers admin and Global admin only|
 |**Enable and manage badges**| |Answers admin and Global admin only|
-|**Enable Answers**| |Answers admin and Global admin only|
+|**Enable Answers**| |Global admin only|
 
 ## Corporate communicator
 
