@@ -40,7 +40,7 @@ Not sure which Viva app will have the most impact on your organization? Review p
 |**Transform information into employee knowledge**|- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
 |**Connect people across your organization, no matter where they work**|- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Viva Engage communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
 |**Align teams with your organization's strategic priorities, mission and purpose**|- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |:::image type="icon" source="media/logos/goals-launch-c-64.svg"::: <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
-|**Capture, access, and register sales data into any CRM system**|- We want to automate data entry to give our sales teams more time to focus on their priorities. <br> - We want to increase the power of our customer relationship management (CRM) by incorporating customer interactions from Microsoft 365 into the data set. <br> - We want AI-generated insights to help our sales teams increase sales. |:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](https://www.microsoft.com/microsoft-viva/sales) |
+
 
 ## Get more details about each Viva app
 
@@ -127,16 +127,6 @@ Each app offers special features, customization opportunities, and ways to integ
 |[Private objectives](/viva/goals/private-objectives-key-results) |Make sensitive objectives visible to only designated audiences. |
 |[Objective delegation](/viva/goals/objective-delegation) |Delegate another individual to manage OKRs on your behalf. |
 |[KPI summary](/viva/goals/kpi-summary) |View one or more key performance indicators in a single view. |
-
-## Viva Sales: Supercharge your Customer Relationship Management (CRM)
-
-|Feature |Description |
-|--------|------------|
-|[Connect a contact to your CRM](https://support.microsoft.com/topic/use-viva-sales-in-outlook-ec3605f9-fdb0-4593-9c5b-b43a76c07081#bkmk_connectcontact) |Connect your external contacts to your CRM system. |
-|[Teams meetings](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_createteamsmeeting) |Create Teams meetings with customers so all your customer interactions stay in one place. |
-|[Meeting summaries](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_viewsummary) |Viva Sales automatically generates a meeting summary after you meet with a customer. |
-|Mentions |The **Mentions** tab displays keywords, stakeholders, products, and competitors that were mentioned during the call. When you select a word in these sections, the transcript indicates when it was mentioned. |
-|[Share CRM records in chat](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea#bkmk_sharecrmrecord) |Use Teams chat to share records from your CRM. |
 
 ## Review minimum requirements and planning considerations
 
@@ -226,17 +216,17 @@ Each app has its own technical requirements before it can be customized and shar
 - **Technical requirements:** 
     - Microsoft 365 E3 or E5 license 
     - Viva Suite or Viva Engage license  
-    - Yammer 
+    - Viva Engage 
 - **Impact on end users:** 
      - Connect and engage with leaders, colleagues, and communities
     - Viva Engage creates opportunities for asking questions and sharing knowledge, attending virtual events, building social capital, and extending employee networks
 - **Admins and roles:** 
-    - Yammer Verified admin 
+    - Viva Engage Verified admin 
     - Microsoft Teams admin 
     - Community leaders and stakeholders from employee resource groups 
 - **Change management considerations:** 
     - Microsoft Teams adoption (if you aren't already using Teams) 
-    - Yammer adoption if your organization is new to Yammer 
+    - Viva Engage adoption if your organization is new to Viva Engage 
 
 ### Viva Goals 
 
@@ -258,21 +248,6 @@ Each app has its own technical requirements before it can be customized and shar
     - Adoption of the OKR format to track goals and priorities 
     - Microsoft Teams adoption if you plan to use Viva Goals in Teams 
 
-### Viva Sales 
-
-- **Technical requirements:** 
-    - Microsoft 365 E3 or E5 license, or Microsoft 365 Business Basic, Standard, or Premium license 
-    - Viva Sales license 
-    - Dynamics 365 Sales or Salesforce 
-- **Impact on end users:**: 
-    - Viva Sales automates data entry for your sales teams so your salespeople have more time to focus on their priorities 
-- **Admins and roles:** 
-    - Microsoft 365 admin installs the app from the Microsoft 365 admin center or the Microsoft commercial marketplace 
-    - Microsoft Teams admin creates an app setup policy and pins the app for your sales teams 
-- **Change management considerations:**
-    - Microsoft Outlook adoption in you're not already using Outlook 
-    - Microsoft Teams adoption if you're not already using Teams 
-
 
 ## Get started planning for your Viva app
 
@@ -290,7 +265,6 @@ Get more information about each app and how to get started.
 |**Viva Topics** |Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results. |[Overview](topics/index.md) <br> [Learn how to set it up](topics/set-up-topic-experiences.md) |
 |**Viva Engage** |Support meaningful relationships and help your employees build valuable networks. |[Overview](/viva/engage/overview) <br> [Learn how to set it up](/viva/engage/setup) |
 |**Viva Goals** |Connect teams to your organization's strategic priorities to unite them around a shared mission and purpose. |[Overview](/viva/goals/intro-to-ms-viva-goals) <br> [Learn how to set it up](/viva/goals/navigate-admin-dashboard) |
-|**Viva Sales** |Automate data entry and increase the power of your CRM so your salespeople can focus on selling. |[Overview](/viva/sales/introduction) <br> [Learn how to set it up](/viva/sales/install-viva-sales-individual-add-in-admin-center) |
 
 ### More planning resources
 

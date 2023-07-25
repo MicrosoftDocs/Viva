@@ -31,7 +31,7 @@ As you make your transition from Workplace Analytics, our legacy analyst platfor
     * Some roles remain the same, while we’ve removed others. 
     * A Microsoft 365 admin now uses the Microsoft admin center to assign roles to their team, of the Insights Administrator using Azure Active Directory.
 * We’ve changed the minimum group size requirement.
-* We’ve made a few changes to privacy settings.
+* We’ve made a few improvements to privacy settings.
 * You'll need to add meeting and subject line exclusions through [Keyword suppression](../admin/keyword-suppression.md). Meeting and subject line exclusions set in Workplace Analytics don't transfer over to the advanced insights app.
 * Licensing hasn’t changed for existing licenses. Previously licensed users will have access to the updated platform. However, to [assign new licenses](assign-licenses.md), you'll need to use Microsoft admin center. 
 

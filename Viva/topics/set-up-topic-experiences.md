@@ -1,5 +1,5 @@
 ---
-ms.date: 04/25/2023
+ms.date: 07/21/2023
 title: Set up Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -68,15 +68,11 @@ To set up Topics
 
    [![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
 
-3. This will take you to the Viva Topics admin page. Choose **Manage Viva Topics** to set up how topics will work for your organization.
-
-   [![Screenshot of the Viva Topics page.](../media/knowledge-management/topics-admin-page.png)](../media/knowledge-management/topics-admin-page.png#lightbox)
+3. This will take you to the Viva Topics admin page. Choose **Set up Viva Topics** to set up how topics will work for your organization.
 
 ### Topic discovery
 
 On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
-
-![Screenshot of the Topic discovery page.](../media/knowledge-management/topic-discovery.png)
 
 1. In the **Select SharePoint topic sources** section, select which SharePoint sites will be crawled as sources for your topics during discovery. Choose from:
     - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
