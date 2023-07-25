@@ -74,7 +74,7 @@ For mobile, the Feed refreshes each time the application is selected. Users can 
 
 ## When can we expect to see a newly created post in the Feed?
 
-Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 7 days after the site is initially created. After that initial 7-day period has passed, it will take the up to 1 hour to appear.
+Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 24 hours after the site is initially created. After that initial 7-day period has passed, it will take the up to 1 hour to appear.
 
 
 
@@ -139,10 +139,9 @@ Users can bookmark content that they would like to view later by selecting the *
 
 
 
-## Why isn’t boosted news displaying in the Feed for Viva Connections web part?  
+## Why isn’t boosted news displaying in the Feed for Viva Connections web part or in the Top News Card?  
  
-In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-for-viva-connections), news posts from [organizational news sites](/sharepoint/organization-news-site) up to 7 days from the post date will take precedence over older boosted News that has not yet reached the expiration. This can prevent boosted news from displaying prominently to end-users if the boosted news publishing date is older than the organizational news.
-
+In the [Feed for Viva Connections web part](/viva/connections/use-feed-web-part-for-viva-connections), news posts from [organizational news sites](/sharepoint/organization-news-site) up to 24 hours from the post date will take precedence over older boosted News that has not yet reached the expiration. This can prevent boosted news from displaying prominently to end-users if the boosted news publishing date is older than the organizational news. Also, for [new organization new sites](https://learn.microsoft.com/en-us/sharepoint/organization-news-site), it can take up to 24 hours for boosted news created from those sites to appear in the Top News card in Viva Connections dashboard.  
 
 ## More resources
 
