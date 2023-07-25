@@ -10,11 +10,12 @@ search.appverid:
 - MET150
 ms.service: viva 
 ms.subservice: viva-learning
-ms.collection: 
-- M365-analytics
-- viva-learning 
-- m365solution-overview
-- highpri
+ms.collection:
+  - M365-analytics
+  - viva-learning
+  - m365solution-overview
+  - highpri
+  - Tier1
 manager: pamgreen
 audience: Admin
 ---
@@ -30,12 +31,12 @@ In this solution:
 - Learn how to create, manage, and maintain a learning culture over time.
 - Discover other Viva experiences to help with your organization's learning goals.
 
-Step 1: Identify your learning needs.
-Step 2: Get Viva Learning.
-Step 3: Choose content providers.
-Step 4: Distribute and promote courses.
-Step 5: Create a learning culture.
-Step 6: Consider adding additional Viva experiences.
+Step 1: Identify your learning needs.<p>
+Step 2: Get Viva Learning.<p>
+Step 3: Choose content providers.<p>
+Step 4: Distribute and promote courses.<p>
+Step 5: Create a learning culture.<p>
+Step 6: Consider adding additional Viva experiences.<p>
 
 ## Step 1: Define learning needs and goals for your organization
 
@@ -113,7 +114,7 @@ You can [recommend learning content](https://support.microsoft.com/office/recomm
 Spread the news about learning opportunities.
 
 1. Post in Microsoft Teams channels and teams about learning opportunities. Highlight when required trainings are due and share courses relevant to specific teams.
-2. Share learning opportunities and engage with your users on Yammer.
+2. Share learning opportunities and engage with your users on Viva Engage.
 3. Spread the news offline with town hall meetings and posters.
 4. Create a SharePoint news post. You can use audience targeting to show the news to specific groups, such as new hires or frontline workers. If you’re using Viva Connections, this post will show up on the dashboards of targeted users.
 [Learn more about how to spread news within your organization](/sharepoint/corporate-communications-overview).
@@ -153,4 +154,3 @@ Use Viva Connections with Viva Learning to increase awareness of learning opport
 [Learn more about Viva Connections](../connections/viva-connections-overview.md)
 
 Learn how to [plan](../connections/plan-viva-connections.md), [build](../connections/build-viva-connections.md), and [launch](../connections/launch-viva-connections.md) Viva Connections for your organization.
-

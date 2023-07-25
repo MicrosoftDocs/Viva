@@ -33,7 +33,7 @@ The following links open the Viva Engage store page in Microsoft Teams:
 - https://teams.microsoft.com/l/app/db5e5970-212f-477f-a3fc-2227dc7782bf
 
 ## Deep link to Viva Engage directly
-The following links currently open Yammer.com and will open Viva Engage in the browser [when the rebrand occurs](https://techcommunity.microsoft.com/t5/yammer-blog/yammer-is-evolving-to-viva-engage/ba-p/3738825). 
+The following links currently open Yammer.com and will open Viva Engage in the browser [when the rebrand occurs](https://techcommunity.microsoft.com/t5/yammer-blog/yammer-is-evolving-to-viva-engage/ba-p/3738825). If the user has the Viva Engage mobile app installed, the links will open the Viva Engage app.
 - https://aka.ms/VivaEngage/Web
 - https://aka.ms/VivaEngage/Yammer
 
@@ -45,14 +45,14 @@ The following link directly opens Viva Engage in Outlook, if available:
 - https://aka.ms/VivaEngage/Outlook
 
 ## Deep link to Answers in Viva
-The following link directly opens Viva Engage into Answers in Viva page.
+The following link directly opens Viva Engage in Teams, in the Answers in Viva page.
 - https://aka.ms/AnswersInViva
 - https://aka.ms/VivaEngage/Answers
 - https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22%3A%22type%3Dcustom%2Cdata%3Dquestionspage%3A_%22%7D
 
 
 ## Deep link to Leadership corner
-In the browser (Yammer.com): 
+In the browser (Yammer.com) or the mobile app: 
 - https://aka.ms/LeadershipCorner
 - https://web.yammer.com/main/leadership-corner
 
@@ -75,7 +75,6 @@ However, you will need to:
    | Community | `group`  |
    | Storyline | `user`  |
    | Campaign  | `campaign`  |
-   <!-- | Leadership corner | `leadershipcorner`  | -->
 
 2. Fill in the  _`<EntityId>`_. The easiest way is by going to the corresponding page on Yammer.com, and then pasting the last part of the URL. For example, for the storyline of `https://web.yammer.com/main/users/eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`, replace _`<EntityId>`_  with `eyJfdHlwZSI6IlVzZXIiLCJpZCI6IjUwMzIxMDg3kyOCJ9`.
 

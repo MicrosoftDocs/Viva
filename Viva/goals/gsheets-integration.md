@@ -3,7 +3,7 @@ ms.date: 10/06/2022
 title: "Google Sheets Integration"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
+- vg-integration
 search.appverid:
 - MET150
 

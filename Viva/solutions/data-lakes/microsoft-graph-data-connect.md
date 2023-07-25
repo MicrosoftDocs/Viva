@@ -7,7 +7,9 @@ author: lilyolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced
+ms.collection:
+  - viva-insights-advanced
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -17,6 +19,9 @@ audience: Admin
 ---
 
 # Microsoft Graph Data Connect data lake solution
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](/viva/insights/advanced/introduction-to-advanced-insights.md).
 
 Using Microsoft Graph Data Connect, you can load and copy data from your Office 365 organization (Microsoft Graph) into your Azure storage account, then extract attributes, ultimately enriched attributes, and knowledge. Microsoft Graph Data Connect usually provides Office 365 data to your Azure storage in JSON lines. However, this walkthrough flattens the data into entity tables, which are represented as CSVs. In addition to flat CSVs, the solution exports data with the Common Data Model (CDM) structure. Follow Microsoft documentation [here](/common-data-model/index) to learn more about the CDM.
 
@@ -275,4 +280,3 @@ At this point, the pipeline should resemble the following image:
 
 > [!NOTE]
 > Each approved data consent request is valid for six months unless there is a change in the pipeline (for example, a *Copy Data* activity name change or a  pipeline name change).
-

@@ -4,7 +4,7 @@ title: Log in, create, and join organizations in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -79,37 +79,27 @@ Use the organization switcher dropdown to switch between different organizations
 
 6. Select **Create or join new organization**. On the **Join Organizations** page that opens, select the organization you want to join.
 
-### Frequently asked questions
+### FAQ (Frequently Asked Questions)
 
-**Are there other ways to log in to Viva Goals other than using Azure Active Directory credentials?**
+1. **Are there other ways to log in to Viva Goals other than using Azure Active Directory credentials?**
+    1. Currently, you can only log into Viva Goals by using Azure Active Directory credentials.
 
-Currently, you can only log into Viva Goals by using Azure Active Directory credentials.
+1. **Can anybody in my organization log in?**
+    1. Yes, if your organization has purchased or subscribed to Viva Goals, anybody can log in.  
 
-**Can anybody in my organization log in?**
+1. **Do I need to log in using Azure Active Directory every single time I want to access my Viva Goals account?**
+    1. If you're logged into any other Microsoft 365 product or service, you'll automatically be directed to Viva Goals without needing to log in.
 
-Yes, if your organization has purchased or subscribed to Viva Goals, anybody can log in.  
+1. **How do I log out of my Viva Goals account?**
+    1. Select your profile name at the bottom of the left menu in Viva Goals, and then select the **Log out** button.
 
-**Do I need to log in using Azure Active Directory every single time I want to access my Viva Goals account?**
+1. **What's an *organization* in Viva Goals and when should the user create it?**
+    1. An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in the following cases, it makes sense to create separate organizations: 
+        1. If your business unit (BU) or department wants to track a separate set of organization-level OKRs and align all the teams in that BU or department to those OKRs, you should create a separate organization for your BU or department. 
+        1. If your organization wants to maintain its own information boundary and doesn't want other department members to see its OKRs, you can create a separate organization for yourself or for those departments. 
+        1. If there's a need to administer the rollout and features separately, different departments may want to track OKRs in unique ways. You might want to turn on/off certain customizations or manage different OKR rhythms and cadences (different time periods) or permissions (transparent versus locked). In all these scenarios, it's best to create a new organization. 
 
-If you're logged into any other Microsoft 365 product or service, you'll automatically be directed to Viva Goals without needing to log in.
-
-**How do I log out of my Viva Goals account?**
-
-Select your profile name at the bottom of the left menu in Viva Goals, and then select the **Log out** button.
-
-**What's an *organization* in Viva Goals and when should the user create it?**
-
-An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in the following cases, it makes sense to create separate organizations: 
-
-- If your business unit (BU) or department wants to track a separate set of organization-level OKRs and align all the teams in that BU or department to those OKRs, you should create a separate organization for your BU or department. 
-
-- If your organization wants to maintain its own information boundary and doesn't want other department members to see its OKRs, you can create a separate organization for yourself or for those departments. 
-
-- If there's a need to administer the rollout and features separately, different departments may want to track OKRs in unique ways. You might want to turn on/off certain customizations or manage different OKR rhythms and cadences (different time periods) or permissions (transparent versus locked). In all these scenarios, it's best to create a new organization. 
-
-**What do the types of organizations (*public* and *restricted*) mean?**
-
-*Public* allows anyone in your company to join your organization without approval.
-
-*Restricted* lets you choose which users get to join your organization. Use this option when you want to keep a tight-knit group of users to maintain information boundaries.
+1. **What do the types of organizations (*public* and *restricted*) mean?**
+    1. *Public* allows anyone in your company to join your organization without approval.
+    1. *Restricted* lets you choose which users get to join your organization. Use this option when you want to keep a tight-knit group of users to maintain information boundaries.
 

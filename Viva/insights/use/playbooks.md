@@ -18,6 +18,9 @@ audience: Admin
 
 # Viva Insights playbooks
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Maximize the power of the advanced insights app with Microsoft Viva Insights to gain insights into how your organization collaborates and how to improve teamwork across your organization.
 
 |&nbsp; |&nbsp; |

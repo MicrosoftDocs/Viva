@@ -18,6 +18,10 @@ audience: Admin
 
 # Ways of working assessment
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Ways of working assessment dashboard uses a template that’s populated by Viva Insights data to conduct a broad diagnostic of a company’s collaboration culture and employee experience. It is designed to highlight collaboration patterns for different groups and organizational levels and to identify opportunities for improvements.
 
 The different pages in the report help you answer the following related questions:
@@ -85,7 +89,7 @@ Before you can run the queries and populate the dashboard in Power BI, you must:
    >[!Important]
    >If you try to delete a predefined metric, you'll see a warning that the deletion might disable portions of the Power BI dashboard and reduce query results. In turn, this can limit your ability to visualize collaboration patterns. Depending on the metric you delete, you might disable a single Power BI chart, several charts, or all the charts. Select **Cancel** to retain the metric.
 
-4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](/viva/insights/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#create-a-person-query).
+4. In **Select filters**, select **Active only** for **Which measured employees do you want to include?** Optionally, you can further filter the employees in scope for the dashboard. For more details about filter and metric options, see [Create a Person Query](../advanced/analyst/person-query.md).
 5. In **Organizational data**, keep the preselected **Organization** and **LevelDesignation** attributes that the dashboard requires.
 
    >[!Important]

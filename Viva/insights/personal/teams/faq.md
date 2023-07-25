@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 01/22/2021
+ms.date: 06/19/2023
 title: FAQ for the Viva Insights app
 description: Personal insights FAQ for Microsoft Viva Insights app
 author: lilyolason
@@ -17,9 +16,9 @@ manager: anirudhbajaj
 audience: Admin, user
 ---
 
-# Personal insights app FAQ
+# Personal insights app in Teams and web FAQ
 
-The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams.
+The following are the most frequently asked questions about personal insights within the Microsoft Viva Insights app in Microsoft Teams. 
 
 ##### Q1. Does the Microsoft Viva Insights app comply with GDPR? 
 
@@ -39,7 +38,7 @@ The following are the most frequently asked questions about personal insights wi
 
 :::image type="content" source="images/feedback1.png" alt-text="Screenshot that shows the Reflect on your emotions section with the Is this helpful? question, with Yes and No links, highlighted in the bottom-right corner."lightbox="images/feedback1.png":::
 
-After you select **Yes** or **No**, a dialog box shows up. Use this share more feedback. If you want to allow Microsoft to follow up with you about your feedback, select the **You can contact me about this feedback** box. Then, select the **Submit** button. 
+After you select **Yes** or **No**, a dialog box shows up. Use this to share more feedback. If you want to allow Microsoft to follow up with you about your feedback, select the **You can contact me about this feedback** box. Then, select the **Submit** button. 
 
 :::image type="content" source="images/feedback-more-info1.png" alt-text="Screenshot that shows a text-input box for users to provide more feedback.":::
 
@@ -70,7 +69,7 @@ After you select **Yes** or **No**, a dialog box shows up. Use this share more f
 
 ##### Q7. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
 
-**A7.** We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://community.vivainsights.microsoft.com/t5/Viva-Insights-blogs/bg-p/viva-insights-blog). The community has:
+**A7.** We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). The community has:
 
 * Forums to connect with peers and discuss shared experiences.
 * Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts.

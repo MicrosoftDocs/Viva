@@ -11,7 +11,10 @@
     items:
     - name: Viva Insights
       tocHref: /viva/insights
-      topicHref: /viva/insights/index 
+      topicHref: /viva/insights/index
+    - name: Viva Pulse
+      tocHref: /viva/pulse
+      topicHref: /viva/pulse/introduction-to-viva-pulse       
     - name: Viva Connections
       tocHref: /viva/connections/
       topicHref: /viva/connections/viva-connections-overview
@@ -24,9 +27,6 @@
     - name: Viva Goals
       tocHref: /viva/goals/
       topicHref: /viva/goals/intro-to-ms-viva-goals
-    - name: Viva Sales
-      tocHref: /viva/sales/
-      topicHref: /viva/sales/introduction
 
 - name: Docs
   tocHref: /
@@ -59,3 +59,16 @@
       - name: Viva Connections troubleshooting
         tocHref: /viva/troubleshoot/connections/
         topicHref: /viva/connections/viva-connections-overview
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Glint
+      tocHref: /viva/glint/
+      topicHref: /viva/glint/introduction-viva-glint
+      

@@ -11,8 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
+ms.collection:
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can support work/life balance for employees in a hybrid workplace using Microsoft Viva."
@@ -47,4 +48,3 @@ You can make Viva Insights easily discoverable from your Viva Connections Dashbo
 To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Insights from the property pane on the right. Learn more about using the [Viva Connections Dashboard](/viva/connections/create-dashboard).
 
 **Next**: Learn how to use [Microsoft Viva for leadership communications](/viva/solutions/viva-leadership-communications).
-

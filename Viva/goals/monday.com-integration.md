@@ -2,9 +2,9 @@
 ms.date: 04/13/2022
 title: monday.com integration
 ms.reviewer: 
-ms.author: ranjaliroy
-author: ranjali-MS
-manager: 
+ms.author: rasanders
+author: RaSanders-MSFT
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,10 +13,11 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals 
+- vg-integration 
 search.appverid:
 - MET150
-description: "Learn how to connect your projects in monday.com with Viva Goals."
+description: "Learn how to connect your initiatives in monday.com with Viva Goals."
 ---
 
 # monday.com integration

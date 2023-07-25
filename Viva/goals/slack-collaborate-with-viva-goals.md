@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: Collaborate with Viva Goals in Slack 
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to integrate your OKRs in Viva Goals with Slack"
@@ -25,9 +26,12 @@ description: "Learn how to integrate your OKRs in Viva Goals with Slack"
 
 Within the Viva Goals app, users now have the following capabilities within Slack: 
 
-- **Get OKR updates** – Users timely receive OKR and project updates from a team, team member, or an organization
-- **Check-in** - Users can make check-ins to their OKRs and projects.
+- **Get OKR updates** – Users timely receive OKR and initiative updates from a team, team member, or an organization
+- **Check-in** - Users can make check-ins to their OKRs and initiatives.
 - **Manage OKRs** - Users can create new OKRs or make edits to existing ones
+
+> [!IMPORTANT]
+> Slack is currently not supported for customers in the EU Data Boundary. We're working on this and will be available in the next 2-3 months.
 
 ## Configuring Viva Goals app for Slack 
 
@@ -41,12 +45,12 @@ To link your Slack workspace with Viva Goals, navigate to Admin > Integrations >
 
 Once Viva Goals is connected to your Slack workspace, all team members will see the Viva Goals app under **Apps** where they can view, add, or update OKRs. 
 
-## Easily bring OKR and projects into conversations 
+## Easily bring OKR and initiatives into conversations 
 
 With the help of the Microsoft Viva Goals app for Slack, users can access better OKR previews and provide additional context to conversations without switching tools. 
 
 :::image type="content" source="../media/goals/slack-images/preview-1.png" alt-text="Screenshot of a preview of a sample Viva Goals OKR shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-1.png":::
 
-:::image type="content" source="../media/goals/slack-images/preview-2.png" alt-text="Screenshot of a preview of a sample Viva Goals Project shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-2.png":::
+:::image type="content" source="../media/goals/slack-images/preview-2.png" alt-text="Screenshot of a preview of a sample Viva Goals initiative shared on a Slack conversation." lightbox="../media/goals/slack-images/preview-2.png":::
 
 

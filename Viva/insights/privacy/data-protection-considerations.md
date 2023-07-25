@@ -21,6 +21,10 @@ audience: Admin
 
 # Data-protection considerations
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 By using data generated from everyday work in Microsoft 365, the different Microsoft Viva Insights features help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
 The following includes a basic overview of the roles, responsibilities, types of data, and data-privacy recommendations. The general suggestions offered here are a starting point for planning your data-protection strategy and deployment. These are not intended as a substitute for addressing your organization’s unique needs by engaging with legal, privacy, human-resources, and other subject matter experts within your organization.
@@ -63,7 +67,7 @@ The data processor is a party that processes personal data on behalf of the data
 As a data processor, Microsoft will:
 
 * Process personal data in accordance with your organization’s instructions as directed through your settings configuration within Viva Insights.
-* Through your use of Viva Insights, process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) as Microsoft 365.
+* Through your use of Viva Insights, process all data provided to Microsoft (including personal data) according to the same general privacy and security terms in the Online Services Terms (OST) as Microsoft 365.
 * As part of Microsoft’s commitments under the OST, remain certified under the EU-U.S. and Swiss-U.S. Privacy Shield Frameworks and the commitments that these frameworks entail to legitimize transfers of personal data from the EU and Switzerland to the U.S.
 * Contractually commit to abide by applicable provisions of the European Union General Data Protection Regulation (GDPR), effective starting May 25, 2018.
 * Provide Viva Insights features that help organizations meet their data-controller obligations and honor data-subject rights under the GDPR, including the right of exclusion from processing, access, and erasure, and including the right of transparency regarding methods of processing.

@@ -4,7 +4,7 @@ title: "Nudge users to check in"
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,7 +22,7 @@ description: "Learn how to nudge users reminding them to check in to their OKRs.
 
 # Nudge users to check in
 
-In Viva Goals, you can "nudge" a user to check in or update an OKR. Access this option from the progress icon on the left side of the progress bar on the OKR/project list.
+In Viva Goals, you can "nudge" a user to check in or update an OKR. Access this option from the progress icon on the left side of the progress bar on the OKR/initiative list.
 
 The nudge option is visible to all users who aren't the primary check-in owner of the OKR.
 
