@@ -410,7 +410,7 @@ A2. Viva Insights analytics data is only calculated for users who are assigned a
 
 ### Q3. How frequently is analytics data calculated?
 
-A3. Currently, analytics data is calculated once a week. For subsequent runs of an existing pipeline, new data will be available every Monday.
+A3. Currently, analytics data is calculated once a week. For subsequent runs of an existing pipeline, new data will be available during the first part of every week.
 
 ### Q4. Given the potentially large file size, how can the data be processed efficiently?
 
