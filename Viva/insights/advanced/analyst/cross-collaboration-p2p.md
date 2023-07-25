@@ -67,7 +67,7 @@ After you’ve set up your query, you’re ready to run it. In the screen’s up
 
 After you run your query, go to the **Query results** page to check your query’s status. When your query is ready, a green checkmark appears under the **Status** column.
 
-To download your results as a .csv file, select the CSV icon under the **Downloads** column. You can also get a direct link to your query to use elsewhere, like Power BI, by selecting the link icon.
+To download your results as a .csv file, select the CSV icon under the **Downloads** column.
 
 ### What your results show
 
