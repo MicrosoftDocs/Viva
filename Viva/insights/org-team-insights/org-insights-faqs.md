@@ -61,7 +61,7 @@ Viva Insights aggregates new data every week. Usually, the most recent week of d
 If the most recent week of data in the trendline is labeled earlier than the first day of the last complete week, it might be because:
 
 * The group size has fallen below the minimum in the most recent week.
-* If it’s a Monday, processing and aggregation of the new data may have been slightly delayed.
+* If it’s early in the week, processing and aggregation of the new data may have been slightly delayed.
 
 ## Q9. What happens if I have fewer people reporting to me than I used to?
 
