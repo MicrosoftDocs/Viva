@@ -22,6 +22,12 @@ description: "Learn how Microsoft Viva supports improved productivity and wellbe
 ---
 # Insight: Viva Insights, Viva Pulse, and Viva Glint
 
+Continuously improve employee engagement and business performance using actionable insights from Viva Insights, Viva Pulse, and Viva Glint.
+
+- Viva Insights provides privacy-protected organization and team insights. You'll get data-driven, actionable insights to increase productivity and performance.
+- Viva Pulse provides the ability to request ad-hoc feedback using research-backed templates.
+- Viva Glint, backed by People Science, helps you see and analyze strengths and opportunities and provides suggested actions to drive business outcomes.
+
 ## Viva Insights
 Viva Insights includes a Microsoft Teams and web app, along with web features and tools that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work for themselves and for their teams. Get insights for building better work habits such as following through on commitments, meeting insights and suggestions, and protecting focus time in the day for uninterrupted work.
 
@@ -54,7 +60,9 @@ Viva Pulse provides a snapshot of team sentiment to help managers and project le
 Leads will receive suggested learning resources and suggested next steps based on the Viva Pulse feedback results. These actionable recommendations enable managers and project leads to make sure employees’ perspectives are being heard.
 
 **Learn more about Viva Pulse**
+
 [Introduction to Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
+
 [Prerequisites](/viva/pulse/setup-admin-access/prerequisites-and-admin-roles)
 
 ## Viva Glint
@@ -62,8 +70,9 @@ Viva Glint provides a comprehensive approach to understanding employee voice and
 
 ![Glint reporting](/viva/glint/media/glint-reporting.png)
 
-With Viva Glint, Viva will provide the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions, offering customers a single solution to improve engagement and business performance. Viva helps customers connect the dots from insight to action – and in the future, offer recommendations across products based on the strengths and opportunities from Viva Glint surveys. Whether it’s building career paths in Viva Learning or improving leadership connection with Viva Engage – there’s so much we can do to help our customers assess, take action and measure impact. And best of all, Viva Glint is available for customers as part of the Viva suite subscription.
+With Viva Glint, you have the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions to improve engagement and business performance. Viva Glint helps connect the dots from insight to action and offer recommendations based on feedback from Viva Glint surveys.
 
 **How Viva Glint empowers leaders with insights to better understand and improve engagement**
 
 Viva Glint equips HR, business leaders and managers with comprehensive tools to understand and support their employees. As with any successful engagement program, Viva Glint starts with seeking and understanding employees’ needs through a robust people science methodology. Viva Glint is designed to analyze results in real-time, leveraging natural language processing, and enabling data-driven change by empowering leaders and managers with action planning tools to improve team and business outcomes. The result enables every organization to shape a tailored engagement strategy aligned with its unique goals.
+**Learn more about Viva Glint**
