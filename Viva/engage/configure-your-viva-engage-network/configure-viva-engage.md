@@ -49,7 +49,7 @@ As a Engage admin, network admin, or verified admin, you can choose to upload th
 ## Set language for system messages
 System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. 
  - Use the **Language** setting to set the language for system messages. 
- All future system messages appear in the language you choose. Existing system messages appear in the previously-selected language.
+ All future system messages appear in the language you choose. Existing system messages appear in the previous language.
 :::image type="content" source="../media/engage/admin/tenant-system-language.png" alt-text="Screenshot of the setting where you set the system language.":::
 
 ## Require users to confirm email messages before posting
@@ -67,7 +67,8 @@ For more information about email and Viva Engage, see [Configure email and Viva 
  > [!NOTE]
  > Uploading an image wider than 7680 pixels or taller than 4320 pixels will result in an error.
   
-3. To restrict who can upload files, clear the **Allow people to upload and attach files in any format** checkbox. You'll then see three options:
+3. To restrict who can upload files, clear the **Allow people to upload and attach files in any format** checkbox. 
+Choose from these three options:
 
       - **Allow people to upload and attach files in any format**
 
@@ -75,7 +76,7 @@ For more information about email and Viva Engage, see [Configure email and Viva 
 
          Viva Engage uses Azure Media Services to make videos viewable within the network. For more information, see [Azure Media Services](https://azure.microsoft.com/products/media-services/).
 
-      - **Don't allow anyone to upload or attach files**: This prevents people from uploading and attaching new files; however, existing attachments aren't be affected.
+      - **Don't allow anyone to upload or attach files**: When selected, this option prevents people from uploading and attaching new files. Eexisting attachments aren't affected.
 
 > [!NOTE]
 > When files are stored in Viva Engage, there is no virus check. An admin can export the files and perform an offline virus scan on them, and this process can be automated with custom scripting.
@@ -89,7 +90,7 @@ For more information about email and Viva Engage, see [Configure email and Viva 
   
 ## Enable or restrict the use of third-party apps
 
-The growing network of partners and developers in Viva Engage continue to build third-party applications using an API. To find the list of current apps, including integrations with Microsoft SharePoint, Microsoft Flow, Microsoft Dynamics, and many more business applications, go to the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143).
+The growing network of partners and developers in Viva Engage continue to build third-party applications using an API. To find the list of current apps, go to the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143). There, you can find integrations with Microsoft SharePoint, Microsoft Flow, Microsoft Dynamics, and many other business applications.
   
 - On the **Configuration** page, in the **Enabled Features** section, specify whether to allow third-party applications.
 
@@ -116,7 +117,7 @@ You can turn off this feature so that users don't see GIFs from Tenor.
 
 ## Control how links are displayed
 
-By default, when creating a message with a URL, Viva Engage will fetch content associated with third-party websites, including title, summary, images, and GIFs. Existing URLs that are cached remain until the cache expires.
+By default, when creating a message with a URL, Viva Engage fetches content associated with third-party websites, including title, summary, images, and GIFs. Existing URLs that are cached remain until the cache expires.
 
 You can turn off the display of this data for links.
 
@@ -130,13 +131,13 @@ The org chart was retired for Office 365 Viva Engage networks in May 2018. Offic
 
 This feature gives users the option to translate messages from [any language supported by Microsoft Translator](https://www.microsoft.com/en-us/translator/languages.aspx) into the network's default language. To enable this feature, the network admin must accept a Terms and Services agreement in order to use Microsoft's proprietary translation technology. This feature is disabled by default.
 
-When this is enabled, users will see a **Translate** option right under any message that has been posted in a language different than the language they've selected in **Preferences** in their Viva Engage settings.
+When this enabled, users have a **Translate** option with any message posted in a language different than the language they've selected in **Preferences** in their Viva Engage settings.
   
 - On the **Configuration** page, in the **Enabled Features** section, select whether to allow **Message Translation**.
 
 ## Set language for system messages
 
-System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. Changing the language will display future system messages in the selected language. Prior system messages will remain in the existing language.
+System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. Changing the language will display future system messages in the selected language. Prior system messages remain in the existing language.
 
 - On the **Configuration** page, under **Set System Language**, choose the language to use.
 
