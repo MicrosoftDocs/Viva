@@ -24,9 +24,9 @@ description: "Learn how Microsoft Viva supports improved productivity and wellbe
 
 Continuously improve employee engagement and business performance using actionable insights from Viva Insights, Viva Pulse, and Viva Glint.
 
-- [Viva Insights](#viva-insights-data-driven-actionable-insights) provides privacy-protected organization and team insights. You'll get data-driven, actionable insights to increase productivity and performance.
+- [Viva Insights](#viva-insights-get-data-driven-actionable-insights) provides privacy-protected organization and team insights. You'll get data-driven, actionable insights to increase productivity and performance.
 - [Viva Pulse](#viva-pulse-request-continuous-feedback) provides the ability to request ad-hoc feedback using research-backed templates to see team needs in the moment.
-- [Viva Glint](#viva-glint-use-organization-wide-surveys-to-support-employees) provides tools for organization-wide surveys backed by People Science. Using the results, you can see and analyze strengths and opportunities and get suggested actions to drive business outcomes.
+- [Viva Glint](#viva-glint-understand-the-employee-voice-with-organization-wide-surveys) provides tools for organization-wide surveys backed by People Science. Using the results, you can see and analyze strengths and opportunities and get suggested actions to drive business outcomes.
 
 ## Viva Insights: Get data-driven, actionable insights
 Viva Insights includes a Microsoft Teams app and a web app with features and tools that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work for themselves and for their teams. Get insights for building better work habits such as following through on commitments, meeting insights and suggestions, and protecting focus time in the day for uninterrupted work.
