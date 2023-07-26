@@ -36,7 +36,6 @@ To access the Viva Engage tenant settings:
 > [!IMPORTANT]
 > In Microsoft 365 or Office 365 Viva Engage tenants, the name in the Microsoft 365 or Office 365 company profile overrides the tenant name setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
 - From the **Tenant settings** page, set the tenant name.
-:::image type="content" source="../../media/engage/admin/tenant-settings.png" alt-text="{Screenshot of the Tenant settings page.}":::
 
 #### Set a usage policy 
 To ensure that content is office‐appropriate, you may want to create a usage policy for engagement. For instructions and best practices, see [set up a usage policy](../set-up-usage-policy.md).
