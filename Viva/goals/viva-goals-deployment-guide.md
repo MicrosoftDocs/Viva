@@ -82,7 +82,7 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 > - Create **New attributes** named *vivagoalsca*  
 > - Mark **No** for **Allow multiple values to be assigned** and **Only allow predefined values to be assigned**. 
 
-:::image type="content" source="../media/goals/assign-licenses/assign-license-01.png" alt-text="Screenshot of attribute settings for new attribute vivagoalsca" lightbox="../media/goals/assign-licenses/assign-license-01.png":::
+:::image type="content" source="../media/goals/assign-licenses/assign-license-01.png" alt-text="Screenshot of attribute settings for new attribute vivagoalsca." lightbox="../media/goals/assign-licenses/assign-license-01.png":::
 
 > [!NOTE]
 > Conditional Access filters for devices only works with custom security attributes of type "string". Custom Security Attributes support creation of Boolean data type but Conditional Access Policy only supports "string". 
@@ -96,12 +96,12 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 1. Under **Assignments**, select **Users or workload identities.**
     1. Under **Include**, select **All users**. 
     1. Under **Exclude**, select **Users and groups** and choose your organization's emergency access or break-glass accounts.
-    :::image type="content" source="../media/goals/assign-licenses/assign-license-02.png" alt-text="Screenshot of assignment settings with include and exclude information" lightbox="../media/goals/assign-licenses/assign-license-02.png":::
+    :::image type="content" source="../media/goals/assign-licenses/assign-license-02.png" alt-text="Screenshot of assignment settings with include and exclude information." lightbox="../media/goals/assign-licenses/assign-license-02.png":::
     1. Select **Done**. 
 1. Under **Target Resources or Cloud apps or actions**, select the following options: 
     1. Select what this policy applies to: **Cloud apps**.
     1. Include all apps. Exclude select apps and choose the Viva Goals app.
-    :::image type="content" source="../media/goals/assign-licenses/assign-license-03.png" alt-text="Screenshot of target resource settings with included and excluded apps" lightbox="../media/goals/assign-licenses/assign-license-03.png":::
+    :::image type="content" source="../media/goals/assign-licenses/assign-license-03.png" alt-text="Screenshot of target resource settings with included and excluded apps." lightbox="../media/goals/assign-licenses/assign-license-03.png":::
     1. Select **Edit filter**. 
     1. Set **Configure** to **Yes**. 
     1. Select the **Attribute** we created earlier called *vivagoalsca*. 
@@ -132,7 +132,7 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 1. Under **Attribute name**, select *vivagoalsca* and select **Done**. 
 1. Select **Save**. 
 
-:::image type="content" source="../media/goals/assign-licenses/assign-license-04.png" alt-text="Screenshot of adding new attributes to the custome security attributes page" lightbox="../media/goals/assign-licenses/assign-license-04.png":::
+:::image type="content" source="../media/goals/assign-licenses/assign-license-04.png" alt-text="Screenshot of adding new attributes to the custome security attributes page." lightbox="../media/goals/assign-licenses/assign-license-04.png":::
 
 
 ## Assign Viva Goals administrator (optional)
