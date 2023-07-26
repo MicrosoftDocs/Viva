@@ -1270,6 +1270,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Viva/engage/configure-your-viva-engage-network/native-mode.md",
+        "redirect_url": "/viva/engage/configure-your-viva-engage-network/configure-native-mode",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "Viva/engage/work-with-external-users/collaborate-guests-external-yammer-community.md",
         "redirect_url": "/viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community",
         "redirect_document_id": false
@@ -1300,13 +1305,43 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/glint/index.md",
-        "redirect_url": "/viva/glint/introduction-viva-glint",
+        "source_path": "Viva/engage/manage-security-and-compliance/set-up-a-usage-policy.md",
+        "redirect_url": "/viva/engage/set-up-usage-policy",
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/pulse/index.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "source_path": "Viva/engage/manage-viva-engage-users/manage-licenses-in-office-365.md",
+        "redirect_url": "/viva/engage/manage-engage-licenses-microsoft-365",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/track-viva-engage-events.md",
+        "redirect_url": "/viva/engage/track-engage-events",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-basic.md",
+        "redirect_url": "/viva/engage//manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups.md",
+        "redirect_url": "/viva/engage/engage-microsoft-365-groups",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/troubleshoot-problems/troubleshoot-native-mode.md",
+        "redirect_url": "/viva/engage/troubleshoot-native-mode",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide.md",
+        "redirect_url": "/viva/engage/native-mode-guide",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/engage/sss.md",
+        "redirect_url": "/viva/engage/name",
         "redirect_document_id": false
       },
       {
