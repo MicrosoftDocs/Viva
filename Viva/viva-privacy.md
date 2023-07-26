@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 7/18/2023
+ms.date: 7/26/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -63,7 +63,7 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Goals|Data for customers located in the European Union Data Boundary (EUDB) or the United Kingdom is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States.|[Viva Goals data residency](./goals/vg-privacy-and-security.md#viva-goals-data-residency)|
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Learning|Viva Learning doesn’t store any personal data since usage and consumption data is aggregated.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
-|Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/pulse/get-started/data-residency-for-viva-pulse.md)
+|Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/viva/pulse/get-started/data-residency-for-viva-pulse)
 |Viva Topics|Follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 
 For more information, see:
