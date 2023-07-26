@@ -31,32 +31,29 @@ To access the Viva Engage tenant settings:
 - In Viva Engage, select the settings icon and go to Admin center.
 - In the admin center, on the **Setup and configuration** tab, select **Tenant settings**.
 
-## Set the tenant name
+#### Set the tenant name
 
 > [!IMPORTANT]
 > In Microsoft 365 or Office 365 Viva Engage tenants, the name in the Microsoft 365 or Office 365 company profile overrides the tenant name setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
-
 - From the **Tenant settings** page, set the tenant name.
-:::image type="content" source="../media/engage/admin/tenant-settings-name.png" alt-text="Screenshot of the field where you enter the tenant name you want.":::
 
-## Set a usage policy 
+#### Set a usage policy 
 To ensure that content is office‐appropriate, you may want to create a usage policy for engagement. For instructions and best practices, see [set up a usage policy](../set-up-usage-policy.md).
 
-## Upload a Tenant logo
+#### Upload a Tenant logo
 As a Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
-## Set language for system messages
-System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. 
- - Use the **Language** setting to set the language for system messages. 
+#### Choose a language for system messages
+System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation.  
+ - From the **Language** setting, choose a language for system messages. 
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
 
-## Require users to confirm email messages before posting
+#### Require users to confirm email messages before posting
 - From the **Configuration** page, in the **Email Settings**, select whether to require users to confirm messages posted using email before posting.
 For more information about email and Viva Engage, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
 
-## Restrict who can upload files and limit file formats
-
+#### Restrict who can upload files and limit file formats
 1. On the **Configuration** page, in the **File Upload Permissions** section, set which types of files can be uploaded.
 
 2. To allow unlimited file types, select **Allow people to upload and attach files in any format**.
@@ -87,7 +84,7 @@ Choose from these three options:
 >
 > To delete files, a network admin can click the Viva Engage **Settings** icon and then click **Files**. This brings up the **Files** directory for the entire network. Group admins can delete files posted to a group by going to the **Files** tab within the group they administer.
   
-## Enable or restrict the use of third-party apps
+#### Enable or restrict the use of third-party apps
 
 The growing network of partners and developers in Viva Engage continue to build third-party applications using an API. To find the list of current apps, go to the [App Directory](https://go.microsoft.com/fwlink/?LinkId=524143). There, you can find integrations with Microsoft SharePoint, Microsoft Flow, Microsoft Dynamics, and many other business applications.
   
@@ -101,11 +98,10 @@ The growing network of partners and developers in Viva Engage continue to build 
  >```Set-OrganizationConfig -ConnectorsEnabledforYammer:$false```
  > 
  > For more information, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
-)
 
-## Allow Tenor GIFs in messages
+#### Allow Tenor GIFs in messages
 
-By default, users can attach GIFs provided by Tenor, a third-party, to posts.
+By default, users can attach GIFs provided by Tenor, a third-party company, to posts.
 
 > [!NOTE]
 > The GIF search in Viva Engage defaults to Tenor's "young audience" and "strict" filters to keep GIFs appropriate in a school or work setting. If you see inappropriate GIFs in a search, send email to support@tenor.com with a link to the GIF.
@@ -114,7 +110,7 @@ You can turn off this feature so that users don't see GIFs from Tenor.
 
 - From the **Configuration** page, in the **Enabled Features** section, turn off **Show Tenor GIFs Search**.
 
-## Control how links are displayed
+#### Control how links are displayed
 
 By default, when creating a message with a URL, Viva Engage fetches content associated with third-party websites, including title, summary, images, and GIFs. Existing URLs that are cached remain until the cache expires.
 
@@ -122,29 +118,15 @@ You can turn off the display of this data for links.
 
 - On the **Configuration** page, in the **Enabled Features** section, enable or disable **Fetch URL Content**.
 
-## Allow users to view an org chart in Viva Engage
+#### Allow users to view an org chart in Viva Engage
 
 The org chart was retired for Office 365 Viva Engage networks in May 2018. Office charts are available at Skype for Business and Delve. For more information, see [Find info from a contact card in Skype for Business](https://support.office.com/en-us/article/Find-info-from-a-contact-card-in-Skype-for-Business-d797905c-66f0-4248-b473-c49e3c9a0767) and [How can I find people and information in Office Delve?](https://support.office.com/en-us/article/How-can-I-find-people-and-information-in-Office-Delve-5b8bffdd-a50a-430a-8570-09b39481887c)
   
-## Allow message translation
+#### Allow message translation
 
 This feature gives users the option to translate messages from [any language supported by Microsoft Translator](https://www.microsoft.com/en-us/translator/languages.aspx) into the network's default language. To enable this feature, the network admin must accept a Terms and Services agreement in order to use Microsoft's proprietary translation technology. This feature is disabled by default.
 
 When this enabled, users have a **Translate** option with any message posted in a language different than the language they've selected in **Preferences** in their Viva Engage settings.
   
 - On the **Configuration** page, in the **Enabled Features** section, select whether to allow **Message Translation**.
-
-## Set language for system messages
-
-System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. Changing the language will display future system messages in the selected language. Prior system messages remain in the existing language.
-
-- On the **Configuration** page, from **Set System Language**, choose the language to use.
-
-## Set Require Admin Approval for external network invitations
-
-Require Admin Approval setting allows network admins to review and allow or deny members of your home network from participating in external networks hosted by other organizations. Turn this setting **ON** to review and select whether or not members of your home network can participate in external networks hosted by other organizations.
-
-When this setting is **ON**, and members from your home network are invited to participate in external networks hosted by other organizations, they can request your approval. You can review pending requests under the **Pending Requests** options in the **Edit** settings in your home network.
-
-To turn this setting **ON**, go to **Network** settings and select **External Networks** and select the “Require admin approval for members to join other companies' external groups or external networks" to **ON**.
 
