@@ -47,7 +47,7 @@ Insights are derived and summarized using the Microsoft 365 data you already hav
 
 With Viva Pulse, managers and project leads can request ad-hoc feedback on topics to better understand their team’s needs and address them in the moment. Pre-populated, research-validated survey templates help zero in on important topics such as change management or work situations. Managers and leads can also customize templates to meet their unique team needs.
 
-![Viva Pulse Homepage](media/pulse/viva-pulse-homepage.png)
+![Viva Pulse Homepage](media/viva-pulse-homepage.png)
 
 **Get timely analysis**
 
