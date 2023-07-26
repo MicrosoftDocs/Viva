@@ -197,19 +197,19 @@ Navigation in the advanced insights app looks a bit different depending on wheth
 |Page| Admin| Analyst| Dual (admin and analyst)
 |----|------|--------|-------------------|
 |**Analysis**| |All partitions – *landing page*| All partitions – *landing page*|
-**Query results**| |All partitions| All partitions
-**Metric rules** | |All partitions| All partitions
-**Metric library**| | All partitions | All partitions
-**Data hub (admin version)** | Global partition only – *landing page* | |Global partition only
-**Data hub (analyst version)**| |Global partition only	
-**Organizational data (admin version)**	|Global partition only|	|	Global partition only
-**Organizational data (analyst version)**| | Global partition only	
-**Survey data**|Global partition only | Global partition only| Global partition only
-**Video demos**| All partitions|All partitions|	All partitions
-**Contact admin**|	| All partitions|All partitions
-**Partitions**	|Global partition only|	| Global partition only
-**Privacy settings**|Global partition only|	| Global partition only
-**Manager settings**|Global partition only|	| Global partition only  
+|**Query results**| |All partitions| All partitions
+|**Metric rules** | |All partitions| All partitions
+|**Metric library**| | All partitions | All partitions
+|**Data hub (admin version)** | Global partition only – *landing page* | |Global partition only
+|**Data hub (analyst version)**| |Global partition only	
+|**Organizational data (admin version)**	|Global partition only|	|	Global partition only
+|**Organizational data (analyst version)**| | Global partition only	
+|**Survey data**|Global partition only | Global partition only| Global partition only
+|**Video demos**| All partitions|All partitions|	All partitions
+|**Contact admin**|	| All partitions|All partitions
+|**Partitions**	|Global partition only|	| Global partition only
+|**Privacy settings**|Global partition only|	| Global partition only
+|**Manager settings**|Global partition only|	| Global partition only  
 
 
 ## How analysts use partitions
