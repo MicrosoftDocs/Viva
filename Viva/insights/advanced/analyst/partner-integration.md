@@ -74,8 +74,8 @@ Before you can use this integration, you’ll need to:
 
     1. Make sure the key has a valid expiration date. 
     
-      > [!NOTE]
-      > If no expiration date is set for your key, the pipeline will fail.
+       > [!NOTE]
+       > If no expiration date is set for your key, the pipeline will fail.
 
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
 
@@ -186,8 +186,8 @@ To use this integration, here’s what you’ll need to do.
 
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
     
-      > [!NOTE]
-      > Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
+       > [!NOTE]
+       > Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
     
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
 
@@ -523,7 +523,8 @@ To approve a partner’s request:
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
 
     1. **Overview**: Review information about the application and data destination.
-    :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details1.png" alt-text="Screenshot that shows the app Overview screen with the Next button highlighted.":::
+
+       :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details1.png" alt-text="Screenshot that shows the app Overview screen with the Next button highlighted.":::
     
 
     1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract.
