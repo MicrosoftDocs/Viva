@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
-ms.date: 07/14/2022
+ms.date: 07/27/2023
 title: Meeting effectiveness report
 description: Learn how to use the Microsoft Viva Insights Power BI template to identify whether employees practice habits that lead to more effective meetings
 author: lilyolason
@@ -30,6 +29,9 @@ The report enables you to:
 Each report page includes a **Why it matters** interpretation, **recommended actions**, and **metric definitions**.
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Meeting effectiveness** query in Viva Insights.
+
+ >[!Note]
+    >To help you better identify positive and negative meeting trends, we have adjusted the insight naming conventions for this template. Read more about our ongoing commitment to make the insights provided by our reports more actionable.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
@@ -82,11 +84,11 @@ This page shows a high-level overview of all insights included in the report: th
 
 #### Meeting-hour-quality insights
 
-All insights that show the quality of meeting hours—like Short and small or Advanced meeting notice—are measured as a percent of all person meeting hours that have those traits. For example, let's say two people join a 30-minute meeting. One person joins on time and the other joins late. That meeting had 60 cumulative minutes of meeting time, but only 30 of those minutes were joined on time. So, 50% of meeting time was joined on time.
+All insights that show the quality of meeting hours—like large and long or short notice—are measured as a percent of all person meeting hours that have those traits. For example, let's say two people join a 30-minute meeting. One person joins on time and the other joins late. That meeting had 60 cumulative minutes of meeting time, but 30 of those minutes were joined late. So, 50% of meeting time was joined late.
 
 #### Mover icons
 
-The **Top mover** icon calls out the insight with the greatest change, while the **Bottom mover** icon calls out the insight with the least change.
+The **Largest increase** icon calls out the insight that has increased the most in the aggregation period, relative to the previous period. This may be worth investigating based on the size of the increase. The **Largest decrease** icon calls out the insight that has decreased the most in the aggregation period—like meetings joined or ended late—relative to the previous period. This can be a cause for celebration.
 
 #### Time-based comparisons
 
@@ -96,9 +98,9 @@ Based on the aggregation period selected, you’ll either see month-over-month c
 
 This page shows similar insights to the overview page, but it displays them based on the phases of the meeting lifecycle: before, during, and after.
 
-When organizing meetings and trying to make sure time is spent effectively, it can help to think about the meeting in these three phases:
+When organizing effective meetings, it can help to think about the meeting in these three phases:
 
-* **Before** the meeting, think about who the right attendees are, how much time you’ll need, who your required stakeholders are and whether they’re available, and more.
+* **Before** the meeting, think about who the right attendees are, how much time you’ll need, who your required stakeholders are, whether they’re available, and more.
 
 * **During** the meeting, make sure you get started on time, get through your agenda, and enable people to participate.
 
@@ -108,33 +110,33 @@ When organizing meetings and trying to make sure time is spent effectively, it c
 
 Sometimes it's shocking to learn just how much time your organization spends in meetings. Once you understand that investment, it’s easy to start asking questions about how to decrease the amount of non-productive meeting time. This page displays the value of time spent in meetings. If this value isn't worth tracking in your organization, you can always navigate to **Settings** and set that value to **0**.
 
-### Short and small
+### Large and long
 
-This page shows the percentage of meeting hours that are short (between zero and one hours) and small (between two and eight attendees). You can see how this data trends over time, and also the percent distribution of large, long and large, short and small, and long meetings. 
+This page shows the percentage of meeting hours that are large (has nine or more invitees including the organizer) and long (over one hour). You can see how this data trends over time and the percent distribution of small and short, long, large, and large long meetings.
 
-### Advanced meeting notice
+### Short notice
 
-On this page, you can see how meetings are being scheduled with advanced notice—that is, the percentage of meeting hours that organizers schedule 24 hours or more before that meeting is set to start. You can also see what portion of meetings fall into even more urgent categories.
+On this page, you can learn about meetings that are being scheduled with short notice—that is, the percentage of meeting hours that organizers schedule fewer than 24 hours before that meeting is set to start.
 
-### Attendee availability
+### Conflicting
 
-Use this page to understand the prevalence of overlapping meetings and how available attendees are. This page shows the percentage of meeting hours where an employee had no overlapping meetings on their calendar.
+Use this page to understand the prevalence of overlapping meetings and how available attendees are. This page shows the percentage of meeting hours where an employee had overlapping meetings on their calendar.
 
-### Joined on time
+### Joined late
 
-This page shows the percentage of meeting hours where employees joined a Teams meeting early or within five minutes after the start time.
+This page shows the percentage of meeting hours where employees joined a Teams meeting after five minutes past the scheduled start time.
 
-### Ended on time
+### Ended late
 
-This page shows the percentage of meeting hours where employees ended a Teams meeting early or within one minute after the end time. 
+This page shows the percentage of meeting hours where employees ended a Teams meeting after one minute past the scheduled end time.
 
-### No multitasking
+### Multitasked
 
-Use this page to understand how multitasking affects your organization. You can see the percentage of meeting hours where a person wasn’t sending or reading emails or chats during a meeting. This page also provides categories of multitaskers based on  number of collaboration hours and multitasking tendencies.
+Use this page to understand how multitasking affects your organization. You can see the percentage of meeting hours where a person was sending or reading emails or chats during a meeting. This page also provides categories of multitaskers based on the number of collaboration hours and multitasking tendencies.
 
 ### After meetings
 
-Even after you leave a meeting room (whether physically or virtually), the meeting isn’t done. Make sure that you're always disseminating clear action items and next steps. Also, consider how the meeting went to make sure your next meeting is more effective than the last. This page provides a few helpful tips to ensure this trend remains positive.
+Even after you leave a meeting room (whether physically or virtually), the meeting isn't done. Make sure you're always disseminating clear action items and next steps. Also, consider how the meeting went to make sure your next meeting is more effective than the last. This page provides a few helpful tips to ensure this trend remains positive.
 
 #### Glossary
 
