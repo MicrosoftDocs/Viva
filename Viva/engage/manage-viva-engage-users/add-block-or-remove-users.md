@@ -49,11 +49,7 @@ Only employees with a company email address can be invited from this screen.
     
 3. Enter individual email addresses, and then select **Invite**. 
     
-4. Additionally, you can select **Import an address book** and import a CSV file exported from an email application, such as Outlook or Apple Mail. The CSV file should include a single email address on each line. 
-    
- **Invite users in bulk specifying other fields**
-  
-- If you want to include other fields, such as Job title and Full name, use bulk update. For instructions on formatting a CSV file for bulk update, see [Bulk update users by importing a CSV file](add-block-or-remove-users.md#BulkUpdateUsers).
+4. Additionally, you can select **Import an address book** and import a CSV file exported from an email application, such as Outlook or Apple Mail. The CSV file should include a single email address on each line.
   
 > [!NOTE]
 > If your organization uses more than one internet domain for email addresses and you want to add users from other domains to your network, consider performing a Viva Engage network consolidation. For more information, go to [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md). 

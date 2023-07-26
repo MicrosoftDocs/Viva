@@ -50,7 +50,6 @@ As a Engage admin, network admin, or verified admin, you can choose to upload th
 System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. 
  - Use the **Language** setting to set the language for system messages. 
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
-:::image type="content" source="../media/engage/admin/tenant-system-language.png" alt-text="Screenshot of the setting where you set the system language.":::
 
 ## Require users to confirm email messages before posting
 - From the **Configuration** page, in the **Email Settings**, select whether to require users to confirm messages posted using email before posting.
