@@ -210,7 +210,7 @@ Navigation in the advanced insights app looks a bit different depending on wheth
 **Contact admin**|	| All partitions|All partitions
 **Partitions**	|Global partition only|	| Global partition only
 **Privacy settings**|Global partition only|	| Global partition only
-**Manager settings**|Global partition only|	| Global partition only
+**Manager settings**|Global partition only|	| Global partition only  
 
 
 ## How analysts use partitions
