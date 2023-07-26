@@ -139,7 +139,7 @@ When this enabled, users have a **Translate** option with any message posted in 
 
 System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. Changing the language will display future system messages in the selected language. Prior system messages remain in the existing language.
 
-- On the **Configuration** page, under **Set System Language**, choose the language to use.
+- On the **Configuration** page, from **Set System Language**, choose the language to use.
 
 ## Set Require Admin Approval for external network invitations
 
