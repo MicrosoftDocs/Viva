@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 7/10/2023
+manager: pamgreen
+ms.date: 07/26/2023
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -20,38 +20,41 @@ ms.assetid: f886e916-fe64-41de-be52-38d458250fa5
 description: "Use the Viva Engage admin tools to set up your Viva Engage network. Covers options for configuration, design, admins, usage policy, external networks, and activity stream keys."
 ---
 
-# Configure your Viva Engage network
+# Configure your Viva Engage tenant
 
-Complete these basic network configuration tasks in the Viva Engage admin center before you invite users to use Viva Engage Enterprise so that all users get a consistent experience.
+To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Viva Engage Enterprise.
   
-As you're getting started with Viva Engage, review the links in [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
+As you get started with Viva Engage, review the links in [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
   
-To access the Viva Engage network configuration tools:
+To access the Viva Engage tenant settings:
   
-- In Microsoft 365 or Office 365, go to **Admin** \> **Viva Engage** \> **Configuration**.
+- In Viva Engage, select the settings icon and go to Admin center.
+- In the admin center, on the **Setup and configuration** tab, select **Tenant settings**.
 
-- Or, in Viva Engage, select the Viva Engage settings icon and go to **Network Admin** \> **Configuration**.
-
-## Set the Viva Engage network name
+## Set the tenant name
 
 > [!IMPORTANT]
-> In Microsoft 365 or Office 365 Viva Engage networks, the name in the Microsoft 365 or Office 365 company profile overrides the **Network name** setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
+> In Microsoft 365 or Office 365 Viva Engage tenants, the name in the Microsoft 365 or Office 365 company profile overrides the tenant name setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
 
-- On the **Configuration** page, in the **Basics** section, specify the following:
+- From the **Tenant settings** page, set the tenant name.
+:::image type="content" source="../media/engage/admin/tenant-settings-name.png" alt-text="Screenshot of the field where you enter the tenant name you want.":::
 
-  - **Network name:** This is the friendly name of your network that is used in the Viva Engage header. This name is overwritten by the name used in the Microsoft 365 or Office 365 company profile.
+## Set a usage policy 
+To ensure that content is office‐appropriate, you may want to create a usage policy for engagement. For instructions and best practices, see [set up a usage policy](../set-up-usage-policy.md).
 
-  - **Message prompt:** This prompt is visible at the top of each Viva Engage group page, under **Update**.
+## Upload a Tenant logo
+As a Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
+- Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
-## Review domains set up to work with your Viva Engage network
+## Set language for system messages
+System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation. 
+ - Use the **Language** setting to set the language for system messages. 
+ All future system messages appear in the language you choose. Existing system messages appear in the previously-selected language.
+:::image type="content" source="../media/engage/admin/tenant-system-language.png" alt-text="Screenshot of the setting where you set the system language.":::
 
-- On the **Configuration** page, in the **Network Domains** section, select **Click here** to verify that the correct domains are listed. These are the domains that have been set up in Office 365. For more information, see [Add a domain to Office 365](https://support.office.com/article/17f4aa9b-5ece-4af8-8be4-a5e8ff8367f2).
-
-## Require users to confirm email messages posted through email before posting
-
-- On the **Configuration** page, in the **Email Settings** section, select whether to require users to confirm messages posted using email before posting.
-
-    For more information about email and Viva Engage, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
+## Require users to confirm email messages before posting
+- From the **Configuration** page, in the **Email Settings**, select whether to require users to confirm messages posted using email before posting.
+For more information about email and Viva Engage, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
 
 ## Restrict who can upload files and limit file formats
 

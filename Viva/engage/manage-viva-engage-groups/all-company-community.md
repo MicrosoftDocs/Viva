@@ -22,7 +22,7 @@ description: "Learn how All Company now works like other communities in Viva Eng
 
 # All Company now works like other Viva Engage communities
 
-All Company uses the Viva Engage community architecture in native mode and non-native mode tenants so that you can get all the new community experiences and features as they roll out. With this integration, All company now has community customization options, like cover photos and naming.
+All Company uses the Viva Engage community architecture in Native Mode and non-Native Mode tenants so that you can get all the new community experiences and features as they roll out. With this integration, All company now has community customization options, like cover photos and naming.
 
 ## What are the changes to All Company?
 
@@ -52,7 +52,7 @@ These settings aren't available for network admins:
 
 Today, networks can have communities that are all connected, all unconnected, or a mix of connected and unconnected.
 
-A connected All Company indicates that a Microsoft 365 Group ("Group") was created. In native mode, All Company is always a connected community.
+A connected All Company indicates that a Microsoft 365 Group ("Group") was created. In Native Mode, All Company is always a connected community.
 
 #### What is the benefit of All Company backed by a Group?
 

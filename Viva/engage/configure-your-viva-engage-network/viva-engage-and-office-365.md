@@ -222,6 +222,6 @@ Even after you move into a one tenant: one network configuration, you may accide
 
  **Q: One of our users is redirected to the wrong Viva Engage network.**
   
-A: This issue can occur if your network is in an unsupported configuration with one tenant and many Viva Engage networks. For more information, read about the [One tenant: many Viva Engage networks scenario](#OneTenantManyNetworks).
+A: This issue can occur if your network's in an unsupported configuration with one tenant and many Viva Engage networks. For more information, read about the [One tenant: many Viva Engage networks scenario](#OneTenantManyNetworks).
 
 You can either [consolidate your Viva Engage networks](consolidate-multiple-networks.md), or change the user's account, as explained in [A Viva Engage user is displayed as former member when you use Office 365 sign-in for Viva Engage](../troubleshoot-problems/viva-engage-user-is-displayed-as-former-member.md).
