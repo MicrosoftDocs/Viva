@@ -1,5 +1,5 @@
 ---
-title: "Organize a Microsoft Teams powered live event in Viva Engage"
+title: "Organize a Microsoft Teams live event in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -25,7 +25,7 @@ search.appverid:
 ms.assetid: 4ece0ee2-c268-4636-bf2a-16e454befe57
 description: "Learn what's needed for group admins to host live video events for Viva Engage users."
 ---
-# Organize a Microsoft Teams powered live event in Viva Engage 
+# Organize a Microsoft Teams live event in Viva Engage 
 
 > Viva Engage has partnered with Teams to provide the best technology for running your live event. Microsoft Viva Engage uses Microsoft Teams to process and record video for all live events. To understand how Viva Engage and Teams work together, see 
 [Overview of live events](/microsoftteams/teams-live-events/what-are-teams-live-events).
@@ -36,7 +36,7 @@ description: "Learn what's needed for group admins to host live video events for
 > On September 15, 2023, [Stream live events will be retired](/stream/live-event-retirement).
 
 
-### Choose a setup that works for your live event
+### Choose the setup that works best
 
 > The size and complexity of your live event determines whether you create the event in Viva Engage or in Microsoft Teams. Review these descriptions to determine which one best fits your needs. 
 
@@ -61,7 +61,7 @@ description: "Learn what's needed for group admins to host live video events for
 ## Review licenses and permissions
 As a live event organizer, you must first make sure that you, and your audience have the necessary licensing and permissions to participate in live events.
 >
-### Create and schedule a live event
+### Create and schedule the event
 - You must be an admin in the Viva Engage group or community in which you create and schedule the event. 
 - You must own a Teams license and set up specific policies. For details, see [Who can create and schedule live events in Teams](/microsoftteams/teams-live-events/plan-for-teams-live-events) and [Set up live events policies](/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies). 
  
@@ -73,7 +73,7 @@ As a live event organizer, you must first make sure that you, and your audience 
 
 For more information, see [Enforce Office 365 identity for Viva Engage users](/yammer/configure-your-yammer-network/enforce-office-365-identity) and Viva Engage and Microsoft 365 groups. 
  
-#### Attend a live event
+#### Attend the event
 - Attendees must have a Microsoft 365 or Office 365 plan that includes a license for Viva Engage and Microsoft Teams (for example, Office 365 A3, A5, F1, E1, E3, or E5).
 - You must be a member of the Viva Engage network in which the event is hosted to attend a live event in a public group. Guests and external users have no access to live events. 
 - You must be a member of the private group in which the event is hosted to attend a live event in a private group.
@@ -84,7 +84,7 @@ Before you can create a live event, you need to configure video, community, and 
 
 We recommend that you configure these settings at least 24 hours in advance to allow time to test and adjust your settings.   
 
-## Learn by creating a test event
+## Get familiar with live events by creating a test event
 Let your first live be a dress rehearsal for the real event. A practice session ensures that you and your team members are comfortable with their responsibilities and what needs to happen. A test event is especially important when you’re producing live events that broadcast to thousands of people. 
 
 Enlist helpers for the key roles: organizer, presenter, and attendee. If you produce events through an external app or device, include someone on the AV staff to run the mixer to provide the encoder information. Consider creating a separate Viva Engage community of your volunteers specifically for the test. 
@@ -92,9 +92,9 @@ Enlist helpers for the key roles: organizer, presenter, and attendee. If you pro
  
 ## Restrict creation of live events in Viva Engage
 
-You can prevent the creation of live events produced in teams, live events produced with other tools, or both.
+You can prevent the creation of live events produced in Teams, live events produced with other tools, or both.
 
-- To prevent creation of live events produced in Teams, remove permissions in Teams for live event scheduling. 
+- To prevent creation of live events produced in Teams, remove permissions in Teams for live event scheduling.
 Users who are unlicensed and unauthorized to create a live event in Teams won't have the produce in Teams option if they try to create a live event in Viva Engage.
 
 ## FAQ
