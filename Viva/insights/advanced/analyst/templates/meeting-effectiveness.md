@@ -31,7 +31,7 @@ Each report page includes a **Why it matters** interpretation, **recommended act
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Meeting effectiveness** query in Viva Insights.
 
  >[!Note]
-    >To help you better identify positive and negative meeting trends, we have adjusted the insight naming conventions for this template. Read more about our ongoing commitment to make the insights provided by our reports more actionable.
+>To help you better identify positive and negative meeting trends, we have adjusted the insight naming conventions for this template. Read more about our ongoing commitment to make the insights provided by our reports more actionable.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
