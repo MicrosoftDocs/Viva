@@ -194,8 +194,8 @@ Here’s an example. Let’s say you go to edit your **Sales_Partition**, and yo
 
 Navigation in the advanced insights app looks a bit different depending on whether you’re an admin, an analyst, or both, and whether you’re in the global partition.
 
-|Page| Admin| Analyst| Dual (admin and analyst)|
-|----|------|--------|-------------------------|
+|Page| Admin| Analyst| Dual (admin and analyst)
+|----|------|--------|-------------------|
 |**Analysis**| |All partitions – *landing page*| All partitions – *landing page*|
 **Query results**| |All partitions| All partitions
 **Metric rules** | |All partitions| All partitions
@@ -203,9 +203,6 @@ Navigation in the advanced insights app looks a bit different depending on wheth
 **Data hub (admin version)** | Global partition only – *landing page* | |Global partition only
 **Data hub (analyst version)**| |Global partition only	
 **Organizational data (admin version)**	|Global partition only|	|	Global partition only
-
-|Page| Admin| Analyst| Dual (admin and analyst)|
-|----|------|--------|-------------------------|
 **Organizational data (analyst version)**| | Global partition only	
 **Survey data**|Global partition only | Global partition only| Global partition only
 **Video demos**| All partitions|All partitions|	All partitions
