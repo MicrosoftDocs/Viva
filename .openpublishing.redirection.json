@@ -1318,6 +1318,11 @@
         "source_path": "viva/insights/personal/use/opt-out-of-mya.md",
         "redirect_url": "https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/mya-welcome-email.md",
+        "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
+        "redirect_document_id": false
       }
     ]
 }

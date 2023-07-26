@@ -201,7 +201,7 @@ A5. It depends on the type of mailbox and which permissions are set for the Exch
 
 ##### Q6. Why don't I see data from this week in my analyses?
 
-A6. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. Each Monday, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday. For example, on Monday, November 15th, analysis will include data through the previous Saturday, November 13th.
+A6. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
 
 ##### Q7. Why don't I see last week's data in my analyses?
 
