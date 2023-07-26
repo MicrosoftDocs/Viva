@@ -76,8 +76,7 @@ For mobile, the Feed refreshes each time the application is selected. Users can 
 
 ## When can we expect to see a newly created post in the Feed?
 
-Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 24 hours after the site is initially created. After that initial 7-day period has passed, it will take the up to 1 hour to appear.
-
+Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 24 hours after the site is initially created. After that initial 7-day period has passed, it will take up to 1 hour to appear.
 
 
 
