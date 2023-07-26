@@ -72,7 +72,7 @@ Choose from these three options:
 
          Viva Engage uses Azure Media Services to make videos viewable within the network. For more information, see [Azure Media Services](https://azure.microsoft.com/products/media-services/).
 
-      - **Don't allow anyone to upload or attach files**: When selected, this option prevents people from uploading and attaching new files. Eexisting attachments aren't affected.
+      - **Don't allow anyone to upload or attach files**: When selected, this option prevents people from uploading and attaching new files. Existing attachments aren't affected.
 
 > [!NOTE]
 > When files are stored in Viva Engage, there is no virus check. An admin can export the files and perform an offline virus scan on them, and this process can be automated with custom scripting.
@@ -126,7 +126,7 @@ The org chart was retired for Office 365 Viva Engage networks in May 2018. Offic
 
 This feature gives users the option to translate messages from [any language supported by Microsoft Translator](https://www.microsoft.com/en-us/translator/languages.aspx) into the network's default language. To enable this feature, the network admin must accept a Terms and Services agreement in order to use Microsoft's proprietary translation technology. This feature is disabled by default.
 
-When this enabled, users have a **Translate** option with any message posted in a language different than the language they've selected in **Preferences** in their Viva Engage settings.
+When this feature is enabled, users have a **Translate** option with any message posted in a language different than the language they've selected in **Preferences** in their Viva Engage settings.
   
 - On the **Configuration** page, in the **Enabled Features** section, select whether to allow **Message Translation**.
 
