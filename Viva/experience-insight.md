@@ -28,7 +28,7 @@ Continuously improve employee engagement and business performance using actionab
 - Viva Pulse provides the ability to request ad-hoc feedback using research-backed templates.
 - Viva Glint, backed by People Science, helps you see and analyze strengths and opportunities and provides suggested actions to drive business outcomes.
 
-## Viva Insights
+## Viva Insights: Data-driven, actionable insights
 Viva Insights includes a Microsoft Teams and web app, along with web features and tools that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work for themselves and for their teams. Get insights for building better work habits such as following through on commitments, meeting insights and suggestions, and protecting focus time in the day for uninterrupted work.
 
 ![Viva Insights page](media/viva-insights-screen.png)
@@ -43,7 +43,7 @@ Insights are derived and summarized using your Microsoft 365 data – data that 
 
 [Data privacy](/viva/insights/advanced/privacy/privacy)
 
-## Viva Pulse
+## Viva Pulse: Request continuous feedback
 
 **Quickly receive and act on feedback**
 
@@ -65,7 +65,7 @@ Leads will receive suggested learning resources and suggested next steps based o
 
 [Prerequisites](/viva/pulse/setup-admin-access/prerequisites-and-admin-roles)
 
-## Viva Glint
+## Viva Glint: Use organization-wide surveys to support employees
 Viva Glint provides a comprehensive approach to understanding employee voice and related ambient signals such as social sentiment and collaboration patterns.
 
 ![Glint reporting](media/glint-reporting.png)
