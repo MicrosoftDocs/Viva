@@ -60,8 +60,8 @@ For more information about email and Viva Engage, see [Configure email and Viva 
 
     Any number of files, images, or both can be attached to any message or reply, with each file size limited to 5 GB. By default, file attachments are enabled.
 
- > [!NOTE]
- > Uploading an image wider than 7680 pixels or taller than 4320 pixels will result in an error.
+   > [!NOTE]
+   > Uploading an image wider than 7680 pixels or taller than 4320 pixels will result in an error.
   
 3. To restrict who can upload files, clear the **Allow people to upload and attach files in any format** checkbox. 
 Choose from these three options:
@@ -90,14 +90,14 @@ The growing network of partners and developers in Viva Engage continue to build 
   
 - On the **Configuration** page, in the **Enabled Features** section, specify whether to allow third-party applications.
 
- > [!CAUTION]
- > Clearing this setting prevents users from adding or accessing these applications. Note that all users, including verified admins, will lose access to apps that were added prior to clearing this setting.
+  > [!CAUTION]
+  > Clearing this setting prevents users from adding or accessing these applications. Note that all users, including verified admins, will lose access to apps that were added prior to clearing this setting.
 
- > [!NOTE]
- > This setting does not apply to Microsoft 365 or Office 365 connectors that can be added to Microsoft 365 groups. To disable use of these connectors in Viva Engage, use the following PowerShell command:  
- >```Set-OrganizationConfig -ConnectorsEnabledforYammer:$false```
- > 
- > For more information, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
+  > [!NOTE]
+  > This setting does not apply to Microsoft 365 or Office 365 connectors that can be added to Microsoft 365 groups. To disable use of these connectors in Viva Engage, use the following PowerShell command:  
+  > Set-OrganizationConfig -ConnectorsEnabledforYammer:$false`
+  > 
+  > For more information, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
 
 #### Allow Tenor GIFs in messages
 
