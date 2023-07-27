@@ -64,7 +64,7 @@ This configuration is the most common and recommended configuration. Key benefit
 
 This configuration supports the following capabilities related to managing Viva Engage in Office 365.
   
-|**Capability**|**Support in 1 tenant: 1 network configuration**|
+|Capability|Support in 1 tenant: 1 network configuration|
 |:-----|:-----|
 |Sign-in  <br/> |Yes  <br/> |
 |Single sign-on  <br/> |Yes  <br/> |
@@ -117,7 +117,7 @@ For example, an Office 365 video may be shared with everyone in the organization
 
 Here's a list of key capabilities (related to managing Viva Engage in Office 365) that you can use in this configuration.
   
-|**Capability**|**In 1 tenant: many networks configuration**|
+|Capability|In 1 tenant: many networks configuration|
 |:-----|:-----|
 |Sign-in  <br/> |Yes  <br/> |
 |Single sign-on  <br/> |Yes  <br/> |
@@ -162,13 +162,13 @@ You have the following options to move to a one tenant: one network configuratio
   
 - Consolidate the smaller networks into the larger network by performing [network migration](consolidate-multiple-networks.md). In the example above, do the following. First, ensure that Viva Engage is activated on your Office 365 tenant. If you haven't done already, perform [Viva Engage Enterprise activation](../get-started-with-viva-engage/admin-quick-start.md) and activate Viva Engage on the domain associated with the larger parent network (in this case, `contoso.com`). Then, navigate to the network migration section (that's part of Viva Engage administration pages) and migrate the smaller fabrikam.com network into the `contoso.com` network; you need to be a Viva Engage verified administrator and Global Administrator to do this operation. At the end, you'll reach the following state:
 
-|**Domains on the Office 365 tenant**|**Domains on the Viva Engage network**|
+|Domains on the Office 365 tenant|Domains on the Viva Engage network|
 |:-----|:-----|
 |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |
 
 - If the subsidiary has been fully assimilated with the parent organization, or has been spun off - the subsidiary company's domain can be removed from the Office 365 tenant. In the example above, you would remove fabrikam.com from the Office 365 tenant. At the end, you'll reach the following state:
 
-|**Domains on the Office 365 tenant**|**Domains on the Viva Engage network**|
+|Domains on the Office 365 tenant|Domains on the Viva Engage network|
 |:-----|:-----|
 |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> |
   
@@ -186,7 +186,7 @@ How customers get into this configuration: Typically, large customers find thems
   
  **This is not a supported configuration.** Only one of the tenants is associated with Office 365 for management and sign-in. The following table shows the key capabilities related to managing Viva Engage in Office 365 that are supported (or not) in this configuration.
   
-|**Capability**|**Support in many tenants: one network configuration**|**Details**|
+|Capability|Support in many tenants: one network configuration|Details|
 |:-----|:-----|:-----|
 |Sign-in  <br/> |No  <br/> |Users from only one of the Office 365 tenants can sign in to Viva Engage with their Office 365 sign-in. The first user that signs in using Office 365 credentials determines which Office 365 tenant gets associated with the Viva Engage network for sign-in.  <br/> |
 |Single sign-on  <br/> |No  <br/> |Since not all users can sign in to Viva Engage with their Office 365 credentials, you can't [Enforce office 365 identity](enforce-office-365-identity.md) in Viva Engage, and implement the Office 365 based single sign-on solution. The Office 365 based single sign-on solution can't be implemented in the many tenants: one network configuration.  <br/> |
@@ -202,17 +202,17 @@ You have the following options to move out of this unsupported configuration:
   
 - Add all the relevant domains to one tenant using the Microsoft 365 admin center. In the example above, you ensure that both `contoso.com` and `fabrikam.com` are on the same tenant. At the end, you reach the following state:
 
-|**Domains on the Office 365 tenant**|**Domains on the Viva Engage network**|
+|Domains on the Office 365 tenant|Domains on the Viva Engage network|
 |:-----|:-----|
 |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |
 
 - Create separate Viva Engage networks, one per tenant. In the example above, you remove either `contoso.com` or `fabrikam.com` from the Viva Engage network, and create a new network with that domain. To remove Viva Engage domains from your network, contact the [Viva Engage Support](https://go.microsoft.com/fwlink/?LinkId=523736) team. Before removing a domain from a network, delete all the user accounts containing that domain. If needed, these users can later be invited as guests from the newly created network. At the end, you reach the following state:
 
-|**Domains on the Office 365 tenant1**|**Domains on the Viva Engage network**|
+|Domains on the Office 365 tenant1|Domains on the Viva Engage network|
 |:-----|:-----|
 |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> |
 
-|**Domains on the Office 365 tenant2**|**Domains on the Viva Engage network**|
+|Domains on the Office 365 tenant2|Domains on the Viva Engage network|
 |:-----|:-----|
 |`Fabrikam.onmicrosoft.com`  <br/> `Fabrikam.com`  <br/> |`Fabrikam.onmicrosoft.com`  <br/> `Fabrikam.com`  <br/> |
 
