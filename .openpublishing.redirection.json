@@ -1286,27 +1286,87 @@
       },
       {
         "source_path": "Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
-        "redirect_url": "/Viva/engage/eac-key-admin-roles-permissions",
+        "redirect_url": "/viva/engage/eac-key-admin-roles-permissions",
         "redirect_document_id": false
       },
       {
         "source_path": "Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
-        "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
+        "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
         "redirect_document_id": false
       },
       {
         "source_path": "Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
-        "redirect_url": "/Viva/engage/manage-security-and-compliance/security-and-compliance",
+        "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/glint/index.md",
-        "redirect_url": "/viva/glint/introduction-viva-glint",
+        "source_path": "Viva/engage/manage-viva-engage-users/turn-off-user-access.md",
+        "redirect_url": "/viva/engage/eac-as-access-eac",
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/pulse/index.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "source_path": "Viva/engage/get-started-with-viva-engage/viva-engage-faq.md",
+        "redirect_url": "/viva/engage/overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/get-started-with-viva-engage/admin-key-concepts.md",
+        "redirect_url": "/viva/engage/admin-key-concepts",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/get-started-with-viva-engage/admin-quick-start.md",
+        "redirect_url": "/viva/engage/setup",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-viva-engage-groups/configure-conversation-reporting.md",
+        "redirect_url": "/viva/engage/report-converstaion-overview",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-basic-data.md",
+        "redirect_url": "/viva/engage/eac-as-manage-data",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/set-up-a-usage-policy.md",
+        "redirect_url": "/viva/engage/set-up-usage-policy",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/troubleshoot-problems/limited-functionality-in-explorer-10-document-mode.md",
+        "redirect_url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-viva-engage-users/manage-licenses-in-office-365.md",
+        "redirect_url": "/viva/engage/manage-engage-licenses-microsoft-365",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/track-viva-engage-events.md",
+        "redirect_url": "/viva/engage/track-engage-events",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-basic.md",
+        "redirect_url": "/viva/engage//manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups.md",
+        "redirect_url": "/viva/engage/engage-microsoft-365-groups",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/troubleshoot-problems/troubleshoot-native-mode.md",
+        "redirect_url": "/viva/engage/troubleshoot-native-mode",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide.md",
+        "redirect_url": "/viva/engage/native-mode-guide",
         "redirect_document_id": false
       },
       {
@@ -1322,6 +1382,16 @@
       {
         "source_path": "viva/insights/personal/use/mya-welcome-email.md",
         "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/index.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/glint/index.md",
+        "redirect_url": "/viva/glint/introduction-viva-glint",
         "redirect_document_id": false
       }
     ]
