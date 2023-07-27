@@ -30,7 +30,7 @@
        href: eac-as-access-eac.md 
      - name: Network configuration
        items:
-        - name: Configure your Viva Engage network
+        - name: Configure your Viva Engage tenant
           href: /viva/engage/configure-your-viva-engage-network/configure-viva-engage
         - name: Requirements for setting up a Viva Engage network for Native Mode
           href: /viva/engage/configure-your-viva-engage-network/configure-native-mode
