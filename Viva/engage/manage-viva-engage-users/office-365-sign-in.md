@@ -1,5 +1,5 @@
 ---
-title: "Office 365 sign-in for Yammer"
+title: "Office 365 sign-in for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
