@@ -1393,6 +1393,21 @@
         "source_path": "viva/glint/index.md",
         "redirect_url": "/viva/glint/introduction-viva-glint",
         "redirect_document_id": false
+      },
+      {
+        "source_path":"viva/engage/manage-viva-engage-groups/favorite-communities.md",
+        "redirect_url": "https://support.microsoft.com/en-us/office/add-a-viva-engage-community-to-your-favorites-097ec090-f4ee-4eb4-a1f9-1c6971c093ab?storagetype=live",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-live-events-documentation.md",
+        "redirect_url": "/viva/engage/organize-live-event",
+        "redirect_document_id":false
+      },
+      {
+        "source_path":"Viva/engage/manage-viva-engage-groups/viva-engage-produce-live-events-from-your-device-coming-soon.md",
+        "redirect_url":"/viva/engage/organize-live-event",
+        "redirect_document_id":false
       }
-    ]
+    }
 }
