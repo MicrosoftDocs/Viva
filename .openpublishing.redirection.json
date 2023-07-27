@@ -1270,11 +1270,6 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "Viva/engage/configure-your-viva-engage-network/native-mode.md",
-        "redirect_url": "/viva/engage/configure-your-viva-engage-network/configure-native-mode",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "Viva/engage/work-with-external-users/collaborate-guests-external-yammer-community.md",
         "redirect_url": "/viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community",
         "redirect_document_id": false
@@ -1317,11 +1312,6 @@
       {
         "source_path": "Viva/engage/get-started-with-viva-engage/admin-key-concepts.md",
         "redirect_url": "/viva/engage/admin-key-concepts",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/get-started-with-viva-engage/admin-quick-start.md",
-        "redirect_url": "/viva/engage/setup",
         "redirect_document_id": false
       },
       {
