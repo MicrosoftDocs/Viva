@@ -60,6 +60,8 @@
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
+        - name: All Company works like other Viva Engage communities
+          href: /viva/engage/manage-viva-engage-groups/all-company-community
      - name: Manage Viva Engage users
        items:
         - name: Set up Viva Engage usage policy
