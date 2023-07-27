@@ -1265,6 +1265,11 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Viva/engage/manage-viva-engage-users/live-events.md",
+        "redirect_url": "/viva/engage/organize-live-event",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "Viva/engage/configure-your-viva-engage-network/native-mode.md",
         "redirect_url": "/viva/engage/configure-your-viva-engage-network/configure-native-mode",
         "redirect_document_id": false
