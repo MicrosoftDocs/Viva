@@ -74,7 +74,7 @@ In the **Network Admins** settings, if **Enforce Office 365 Identity** is select
 
 #### How do these changes to All Company affect my existing SharePoint web part and embed scenarios? 
 
-If you use All Company in a SharePoint web part or embed scenario, your All Company feed will be empty. To  see your All Company feed, simply add the All Company community.  
+If you use All Company in a SharePoint web part or embed scenario, your All Company feed will be empty. To  see your All Company feed, add the All Company community.  
 
 For more information about the various SharePoint web parts and embed features, see Related articles.
 
