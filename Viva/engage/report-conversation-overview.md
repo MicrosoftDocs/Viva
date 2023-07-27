@@ -22,7 +22,7 @@ search.appverid:
 
 # Report a Viva Engage conversation
 
-Viva Engage admins can empower users across the network to report conversations and comments that don't follow guidelines or policies. This reporting option must be set up for the Viva Engage tenant in the Viva Engage admin center.
+Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. Engage admins can enable this reporting option through the Viva Engage admin center.
 
 ## Enable conversation reporting
 1. From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Configure Tenant**. 
