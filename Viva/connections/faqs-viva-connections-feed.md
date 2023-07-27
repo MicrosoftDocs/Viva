@@ -36,35 +36,34 @@ Content that is displayed in the Feed comes from three primary sources: organiza
 
 1. **News published on organizational news sites in SharePoint**
 
-SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
+   SharePoint news that's published from [organizational news sites](/SharePoint/organization-news-site) will display in the Feed. Organizational news sites are communication sites that have been designated as a source of authoritative news in the SharePoint admin center. In addition to organizational news posts, the following news will also be displayed in the Feed:
 
-- SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
-- [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
-- News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
-- SharePoint news from sites that are relevant to your interests
+   - SharePoint news from [sites you follow and sites you frequently visit](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c)
+   - [Boosted news in SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) from organizational news sites
+   - News that has [audience targeting applied](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) from organizational news site or sites you follow
+   - SharePoint news from sites that are relevant to your interests
     
 2. **Posts in Viva Engage communities**
 
-Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
+   Certain posts in various Viva Engage communities will appear in the Feed. These Viva Engage posts will come from Viva Engage communities that are authorized to post to "All Company" or the entire organization. Posts that are [All Company](https://techcommunity.microsoft.com/t5/yammer-blog/engage-your-entire-organization-with-new-all-company-features/ba-p/1441124) are intended to be viewed by everyone. 
 
+   In addition to All Company Viva Engage posts, you'll also see the following activity from Viva Engage in the Feed:
 
-In addition to All Company Viva Engage posts, you'll also see the following activity from Viva Engage in the Feed:
-
-- Viva Engage All Company Featured Posts
-- Viva Engage All Company Announcements 
-- Viva Engage All Company Posts
-- Viva Engage Followed Community Featured Posts
-- Viva Engage Followed Community Announcements
-- Viva Engage Followed Community Posts
-- Viva Engage Followed Community Q&A posts
-- Viva Engage Followed Community Praise posts
-- Viva Engage Storyline posts
+   - Viva Engage All Company Featured Posts
+   - Viva Engage All Company Announcements 
+   - Viva Engage All Company Posts
+   - Viva Engage Followed Community Featured Posts
+   - Viva Engage Followed Community Announcements
+   - Viva Engage Followed Community Posts
+   - Viva Engage Followed Community Q&A posts
+   - Viva Engage Followed Community Praise posts
+   - Viva Engage Storyline posts
     
 3. **Videos in SharePoint hosted by Stream**
 
-[Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
+   [Stream videos](/stream/streamnew/new-stream) built on SharePoint or OneDrive that are shared with your entire organization will appear in the Feed. Depending on how your organization stores and shares videos in Stream will impact the viewing experience for videos in the Feed. 
 
-Not all of the three sources of content will be given equal weight in the ranking. [Learn more about how content is ranked](#how-is-the-feed-personalized-and-how-is-content-ranked). 
+   Not all of the three sources of content will be given equal weight in the ranking. [Learn more about how content is ranked](#how-is-the-feed-personalized-and-how-is-content-ranked). 
 
 
 
