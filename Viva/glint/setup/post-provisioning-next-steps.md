@@ -95,7 +95,7 @@ In order for you, as the Global administrator, to assign service admins without 
 - [​Set up Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230740)
 - [Set up and use Distribution Lists in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230917)
 - [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
-- [Communicate with Nudges](https://go.microsoft.com/fwlink/?linkid=2231015)
+- [Communicate with Nudges](../communicate/communicate-with-nudges.md)
 
 ### 4. Set up your Engagement or Employee Lifecycle survey
 
