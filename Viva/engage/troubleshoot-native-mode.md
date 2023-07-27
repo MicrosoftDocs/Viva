@@ -61,7 +61,7 @@ The downloadable Alignment Report provides information about the quantity and us
 
 - *eDiscovery* is a Viva Engage feature Microsoft provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
 
-Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the Security and Microsoft Purview compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an Azure AD account.
+Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an Azure AD account.
 
 ### What can you include in communications to your users?
 
@@ -75,7 +75,7 @@ Following is a sample email to users that you can use as is or modify to meet yo
 
 *Here are some changes you see rolling out over the next few weeks:*
 
-*- All unlisted private groups will become private listed groups on DATE. Non-members will be able to see the group in search results and other areas, but only members can access the content. If you don't want your group to be visible to non-members, you must delete it before that date. You can also change the name of the group if the concern is that people will identify the purpose of the group based on the name.*
+*- All unlisted private groups become private listed groups on DATE. Nonmembers can see the group in search results and other areas, but only members can access the content. If you don't want your group to be visible to nonmembers, you must delete it before that date. You can also change the name of the group if the concern is that people can identify the purpose of the group based on the name.*
 
 *- All network, group, and conversation-level guests from our Viva Engage network will be removed on DATE. If you work with people outside our Viva Engage network, you should figure out an alternate way to communicate with them.*
 

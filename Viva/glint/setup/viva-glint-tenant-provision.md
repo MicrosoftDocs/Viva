@@ -36,7 +36,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 - Existing Viva suite and LinkedIn Glint customer
 
 > [!NOTE]
-> A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
+>
+> - A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
+> - A minimum number of 100 active user licenses are required for tenant provisioning. Licenses requested below 100 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
 
 ## Begin your Viva Glint provisioning experience
 
