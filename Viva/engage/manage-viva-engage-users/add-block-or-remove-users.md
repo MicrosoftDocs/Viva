@@ -169,7 +169,7 @@ There are two ways to block users from Viva Engage:
   
 - **Block a user by removing their license and service plan, and remove the Viva Engage tile from Office 365:**
     
-    1. In the Microsoft 365 admin center, remove the **Viva Engage** license for the user. For steps, see [Turn off Viva Engage access for Office 365 users](turn-off-user-access.md) and see [Manage Viva Engage licenses in Office 365](manage-licenses-in-office-365.md).
+    - In the Microsoft 365 admin center, remove the **Viva Engage** license for the user. For steps, see [Turn off Viva Engage access for Office 365 users](turn-off-user-access.md) and see [Manage Viva Engage licenses in Office 365](manage-licenses-in-office-365.md).
   
 ## Related articles
   
