@@ -1,6 +1,11 @@
 {
     "redirections": [
       {
+        "source_path": "viva/learning/configure-successfactors-content-source.md",
+         "redirect_url": "/viva/learning/sfsf-introduction",
+         "redirect_document_id": true
+     },
+    {
         "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
         "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
         "redirect_document_id": true
@@ -1281,7 +1286,7 @@
       },
       {
         "source_path": "Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
-        "redirect_url": "/Users/v-bvrana/Viva-pr/Viva/engage/eac-key-admin-roles-permissions",
+        "redirect_url": "/Viva/engage/eac-key-admin-roles-permissions",
         "redirect_document_id": false
       },
       {
@@ -1307,6 +1312,16 @@
       {
         "source_path": "viva/people-in-viva/index.md",
         "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/opt-out-of-mya.md",
+        "redirect_url": "https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/mya-welcome-email.md",
+        "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
         "redirect_document_id": false
       }
     ]
