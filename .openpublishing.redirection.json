@@ -1370,11 +1370,6 @@
         "redirect_document_id": false
       },
       {
-        "source_path": "viva/engage/sss.md",
-        "redirect_url": "/viva/engage/name",
-        "redirect_document_id": false
-      },
-      {
         "source_path": "viva/people-in-viva/index.md",
         "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
         "redirect_document_id": false
@@ -1387,6 +1382,16 @@
       {
         "source_path": "viva/insights/personal/use/mya-welcome-email.md",
         "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/index.md",
+        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/glint/index.md",
+        "redirect_url": "/viva/glint/introduction-viva-glint",
         "redirect_document_id": false
       }
     ]

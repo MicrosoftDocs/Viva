@@ -83,35 +83,33 @@ In order for you, as the Global administrator, to assign service admins without 
 - Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 - Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 - [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231120)
-- [Format and Create Attribute File](https://go.microsoft.com/fwlink/?linkid=2230914)
-- [Upload Employee Attributes](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230914)
+- [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### 3. Manage features and settings
 
-- [Configure General Settings](https://go.microsoft.com/fwlink/?linkid=2230744)
+- [Admin management of the General Settings feature in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230744)
 - [Use Viva Glint benchmarks](https://go.microsoft.com/fwlink/?linkid=2230868)
 - [Manage language translations](https://go.microsoft.com/fwlink/?linkid=2238340)
-- [Use the People page](https://go.microsoft.com/fwlink/?linkid=2230865)
-- [Set up Viva user roles](https://go.microsoft.com/fwlink/?linkid=2230740)
-- [Set up and use distribution lists](https://go.microsoft.com/fwlink/?linkid=2230917)
-- [Understand the Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
-- [Communicate with Nudges](https://go.microsoft.com/fwlink/?linkid=2231015)
+- [​Use Viva Glint's People page to view employee information](https://go.microsoft.com/fwlink/?linkid=2230865)
+- [​Set up Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230740)
+- [Set up and use Distribution Lists in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230917)
+- [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
+- [Communicate with Nudges](../communicate/communicate-with-nudges.md)
 
 ### 4. Set up your Engagement or Employee Lifecycle survey
 
-- [Choose your program type and associated template](https://go.microsoft.com/fwlink/?linkid=2238526)
-- [Use the Discovery Workbook in our planning tools](https://go.microsoft.com/fwlink/?linkid=2238616)
-- [Use the Program Summary for Engagement-type survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
-- [Use the Program Summary for Employee Lifecycle survey setup](https://go.microsoft.com/fwlink/?linkid=2238618)
+- [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
+- [Set up Program summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
 
 ## Prepare your Viva Glint communications plan
 
 The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
-- [Communicate prelaunch and live program information](https://aka.ms/VivaGlintPrelaunchemailtemplates)
-- [Communicate results rollout plan](https://aka.ms/VivaGlintPostlaunchemailtemplates)
+- [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
+- [Communicate results rollout plan](../communicate/prelaunch-live-email-templates.md)
 
 ## What do I do if I need help?
 
