@@ -38,7 +38,7 @@ Ready to get started? Follow these steps:
 
 [Set up your Allowed List](https://go.microsoft.com/fwlink/?linkid=2238617)
 
-[Set up attribute-based survey access](https://go.microsoft.com/fwlink/?linkid=2230745)
+[Understand Viva Glint survey access methods](https://go.microsoft.com/fwlink/?linkid=2230745)
 
 [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
 
