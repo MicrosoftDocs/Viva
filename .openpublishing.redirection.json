@@ -1405,9 +1405,14 @@
         "redirect_document_id":false
       },
       {
-        "source_path":"Viva/engage/manage-viva-engage-groups/viva-engage-produce-live-events-from-your-device-coming-soon.md",
-        "redirect_url":"/viva/engage/organize-live-event",
+        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-produce-live-events-from-your-device-coming-soon.md",
+        "redirect_url": "/viva/engage/organize-live-event",
         "redirect_document_id":false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data.md",
+        "redirect_url": "/viva/engage/eac-as-manage-data",
+        "redirect_document_id": false
       }
     ]
   }
