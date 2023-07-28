@@ -2,8 +2,8 @@
 ms.date: 6/19/2023
 title: "Build Viva Connections for your organization"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
