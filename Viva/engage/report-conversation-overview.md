@@ -25,8 +25,9 @@ search.appverid:
 Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. Engage admins can enable this reporting option through the Viva Engage admin center.
 
 ## Enable conversation reporting
-1. From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Configure Tenant**. 
-You're redirected to the Viva Engage admin webpage.
+1. From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Tenant settings**. 
+
+1. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
 
 1. Select **Report conversations** under **Content & Security** on the left panel.
 
