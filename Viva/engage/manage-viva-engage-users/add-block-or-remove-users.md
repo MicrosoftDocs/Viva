@@ -136,12 +136,6 @@ You can deactivate or permanently remove active users, pending users, and guests
 ## Monitor account activity and device usage for a single user
 <a name="AccountActivity"> </a>
 
-1. In Viva Engage, go to **Users** \> **Account Activity**.
-    
-2. Type a user's name. You'll see what devices they're currently signed in on, when they last signed in on each device, and which IP address was used. 
-    
-    You can also sign the user out of the device from this list.
-    
 To monitor activity and device usage for your entire Viva Engage network, see [Office 365 Reports in the Admin Center - Viva Engage activity report](https://support.office.com/article/C7C9F938-5B8E-4D52-B1A2-C7C32CB2312A) and [Office 365 Reports in the Admin Center - Viva Engage device usage report](https://support.office.com/article/B793FFDD-EFFA-43D0-849A-B1CA2E899F38).
   
 <a name="BlockUsers"> </a>
