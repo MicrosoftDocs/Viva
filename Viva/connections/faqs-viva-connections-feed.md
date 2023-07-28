@@ -2,8 +2,8 @@
 ms.date: 06/19/2023
 title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:

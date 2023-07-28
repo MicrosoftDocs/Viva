@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 7/10/2023
+ms.date: 7/28/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -44,7 +44,7 @@ When a user's Azure Active Directory attributes are updated within your organiza
 
  **Q: Are there limits to the number of members in dynamic groups?**
   
-A: Yes. Dynamic groups in Viva Engage have a limit of 100 K members. After 100 K members, new members won't be synced to the group in Viva Engage.
+A: Yes. Visit [Limits in Viva Engage](/office365/servicedescriptions/limits-viva-engage) for the current membership limits on dynamic groups.
   
  **Q: Do users experience any differences in Viva Engage when using a dynamic group?**
   
