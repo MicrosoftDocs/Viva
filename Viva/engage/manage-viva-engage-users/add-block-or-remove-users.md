@@ -33,12 +33,13 @@ To get to the Viva Engage admin center to manage users:
 <a name="InviteUsers"> </a>
 
 Use this procedure only to invite employees with a company email to Viva Engage. 
-- If you're enforcing Office 365 identity in your network, all Office 365 users that have a Viva Engage license are created as pending users in Viva Engage. 
-- If you aren't enforcing Office 365 identity, users aren't part of the Viva Engage network until they select the Viva Engage tile from Office 365 or sign in to Viva Engage.
-- If you invite a user to a group who isn't licensed to use Viva Engage, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails.
+- If you enforce Office 365 identity in your network, all Office 365 users with a Viva Engage license are created as *pending users* in Viva Engage. 
+- If you don't enforce Office 365 identity, users must select the Viva Engage tile from Office 365 or sign in to Viva Engage to join the network.
+- If you invite a user to a group who has no Viva Engage license, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails.
 
-> [!NOTE]
-> If your Viva Engage network is [in Native Mode](../overview-native-mode.md), you must perform this action in the [Azure Active Directory User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must perform this action in the [Azure Active Directory User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+
+**If your Viva Engage network is not in Native Mode**, follow these steps:
   
 1. In Viva Engage, select the settings icon and select **Edit Network admin Settings**. This selection opens the Yammer admin center.
 
@@ -54,11 +55,9 @@ Use this procedure only to invite employees with a company email to Viva Engage.
 <a name="ManagePending"> </a>
 ## Manage pending users
 
-A "pending user" is someone who was invited to a Viva Engage network but hasn't ever signed in. Pending users can be added to communities.
+A *pending user* is someone who was invited to a Viva Engage network but hasn't ever signed in. Pending users can be added to communities and receive announcement notification emails from community admins. As in all Office products, pending users are visible in the community member list.
 
-Pending users receive announcement notification emails from community admins. If users don't want to receive announcements from a particular community, they can sign in to their Viva Engage account and leave the community. Or, they can follow the unsubscribe link in the email to unsubscribe from all Viva Engage emails.
-
-As in all Office products, pending users are visible in the community member list even if they have never signed in.
+To stop receiving announcements from a particular community, users can sign in to Viva Engage and leave the community. Or, they can follow the unsubscribe link in the email to unsubscribe from all Viva Engage emails.
  
 <a name="InviteGuests"> </a>
 ## Invite guests
@@ -82,8 +81,9 @@ For more information about guests, see [External Messaging FAQ](../work-with-ext
 
 You can deactivate or permanently remove active users, pending users, and guests.
 
-> [!NOTE]
-> If your Viva Engage network is [in Native Mode](../overview-native-mode.md), the only reason to use the **Remove Users** page in the Admin portal is to process a [Data Subject Request for GDPR](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md). To remove a user from your Viva Engage Network, go to the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+**If your Viva Engage network is in Native Mode**, only use the **Remove Users** page in the Admin portal to process a  data subject request for GDPR. Before you proceed, review [GDPR requests](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md) or [GDPR requests for all of Office 365](/compliance/regulatory/gdpr-dsr-Office365). To remove a user from your Viva Engage Network, go to the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+
+**If your Viva Engage network is not in Native Mode**, follow these steps:
 
 1. In Viva Engage, select the settings icon, and select **Edit Network admin Settings** to go to the Yammer admin center.
 
@@ -95,20 +95,17 @@ You can deactivate or permanently remove active users, pending users, and guests
     
    - **Deactivate this user:**
  
-      - If the user isn't using Azure AD credentials, this option blocks the user from signing in until they verify their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
+      - If the user has no Azure AD credentials, this option blocks the user from signing in until they verify their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
 
-      - If the user is using Azure AD credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
+      - If the user has Azure AD credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
     
    - **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted. 
     
    - **Permanently remove this user and messages:** This option lets you remove the user and all the messages they posted. This can't be reversed. 
     
-   - **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** This deactivates the user for 14 days so the admin can evaluate files and messages before the user is permanently deleted. 
+   - **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** This option deactivates the user for 14 days so the admin can evaluate files and messages before the user is permanently deleted. 
     
-   > [!NOTE]
-   > This option is typically used for executing a GDPR data subject request. Before using this option, read [Manage GDPR data subject requests in Viva Engage](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md). For GDPR information for all of Office 365, see [Office 365 data subject requests for the GDPR](/compliance/regulatory/gdpr-dsr-Office365). 
-  
-   All deletion options delete the following data:
+   **All deletion options delete the following data:**
     
    - Who the person is following, what conversations and articles they're following, and who's following them
     
@@ -122,28 +119,18 @@ You can deactivate or permanently remove active users, pending users, and guests
     
    - The list of networks they were a member of
     
-   The first three deletion options leave the user's name in stored Viva Engage data. The only way to remove the user's name is with the **Erase this user** option. 
-    
-4. Select **Submit**.
-    
-    Deactivated users are listed on the **Remove Users** page. You can reactivate or delete a user from this list. 
+   The first three deletion options preserve the user's name in Viva Engage stored data and list deactivated users on the **Remove Users** page, from which you can reactivate or delete a user. Only the **Erase this user** option removes the user's name.
   
     :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
-  
-## Monitor account activity and device usage for a single user
-<a name="AccountActivity"> </a>
-
-To monitor activity and device usage for your entire Viva Engage network, see [Office 365 Reports in the Admin Center - Viva Engage activity report](https://support.office.com/article/C7C9F938-5B8E-4D52-B1A2-C7C32CB2312A) and [Office 365 Reports in the Admin Center - Viva Engage device usage report](https://support.office.com/article/B793FFDD-EFFA-43D0-849A-B1CA2E899F38).
   
 <a name="BlockUsers"> </a>
 ## Block users
 
- Users with blocked email addresses can't join your Viva Engage network unless you or another admin unblocks those addresses.
+A user with a blocked email addresses can't join your Viva Engage network unless an admin unblocks their address.
 
-> [!NOTE]
-> If your Viva Engage network is [in Native Mode](../overview-native-mode.md), this action can be performed only in the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Viva Engage Admin portal.
+**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must block users from the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
   
-There are two ways to block users from Viva Engage:
+**If your Viva Engage network is not in Native Mode**, block users using one of the following options:
   
 - **Block the user in the Yammer admin center:**
     
@@ -156,9 +143,9 @@ There are two ways to block users from Viva Engage:
      If the user you select is in a suspended state in Viva Engage, blocking that email address puts the user in a deleted state. 
     
   > [!TIP]
-  > Viva Engage is most effective when every post comes from an individual user. Therefore, you might want to block group email addresses. 
+  > Because Viva Engage is most effective when every post comes from an individual user, you might consider blocking group email addresses. 
   
-- **Block a user by removing their license and service plan, and remove the Viva Engage tile from Office 365:**
+-  **Block the user by removing their license and service plan, and removing the Viva Engage tile from Office 365:**
     
     - In the Microsoft 365 admin center, remove the **Viva Engage** license for the user. For steps, see [Turn off Viva Engage access for Office 365 users](turn-off-user-access.md) and see [Manage Viva Engage licenses in Office 365](manage-licenses-in-office-365.md).
   
