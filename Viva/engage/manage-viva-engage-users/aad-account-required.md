@@ -1,5 +1,5 @@
 ---
-title: "AAD credentials will be required for Yammer Enterprise log in"
+title: "Azure Active Directory credentials are required for Viva Engage Enterprise sign in"
 f1.keywords:
 - NOCSH
 ms.author: pamgreen
@@ -8,76 +8,59 @@ manager: pamgreen
 ms.date: 9/23/2019
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
 - YAE150
 ms.custom: Adm_Yammer
-description: "Starting January 31, 2019, Yammer Enterprise users can no longer use legacy Yammer credentials. If self-service signup is enabled, users will be automatically prompted to change their password."
+description: "As of January 31, 2019, Viva Engage Enterprise users can no longer use legacy (Yammer) credentials. If self-service signup is enabled, users are automatically prompted to change their password."
 ---
 
-# AAD credentials will be required for Yammer Enterprise log in 
+# Microsoft Azure Active Directory credentials are required for Viva Engage Enterprise sign-in 
  
-Starting January 31, 2019, Yammer Enterprise users that try to log in using legacy Yammer credentials instead of an Azure Active Directory (AAD) account will be redirected to a new sign up flow and will be asked to create a new password. After completing the required steps, an AAD account with no Office 365 licenses will be automatically created for the user. This process is called self-service signup.  
+Starting January 31, 2019, Viva Engage Enterprise users with legacy credentials (instead of an Azure Active Directory (Azure AD) account) will be redirected to a new sign-up flow. After they complete the required steps, an Azure AD account with no Office 365 licenses is automatically created for the user. This process is called self-service signup.  
 
-- After changing their password, these users will be able to access your Yammer network, and will have access to all their groups and data. 
-- After the AAD account is created for a user, admins can manage the user from the Microsoft 365 admin center.  
+- After changing their password, these users can access your Viva Engage network, and have access to all their groups and data. 
+- After the Azure AD account is created for a user, admins can manage the user from the Microsoft 365 admin center.  
 
-As a Yammer admin, if you want to prevent these users who don’t have Office 365 licenses from accessing your Yammer network, you can choose to enforce Office 365 licenses. For instructions, see [Enforce Office 365 identity for Yammer users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
+As a Viva Engage admin, if you want to prevent users who don’t have Office 365 licenses from accessing your Viva Engage network, you can choose to enforce Office 365 licenses. For instructions, see [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
  
-## Why is Yammer doing this? 
+## Why is Viva Engage doing this? 
 
-There are existing and upcoming features that only work when all users use AAD credentials, including having one place to manage users for all Microsoft 365 and Office 365 apps, and using Microsoft 365 connected groups.
-
-## Prepare for self-service signup 
-
-Self-service signup is turned on by default everywhere except in the European Union. 
-
-> [!IMPORTANT]
-> Admins that have self-service signup disabled must make sure that they enable it before January 31, or any users who try to log in using legacy Yammer credentials will not be able to log in. 
-
-### Step 1: If self-service signup is not enabled, enable it
-
-Self-service signup can only be enabled by using Windows PowerShell. To enable self-service signup:
-1. Follow the instructions provided in [Directory self-service signup](/azure/active-directory/users-groups-roles/directory-self-service-signup). 
+Several existing and upcoming features require both Azure AD credentials and a central place to manage users for Microsoft 365 apps, Office 365 apps, and Microsoft 365 connected groups.
  
-2. In the PowerShell script, set the values for **AllowEmailVerifiedUsers** and **AllowAdHocSubscriptions** to **true**: 
+### Notify users that they're required to create a new password.  
 
-```powershell
-Set-MsolCompanySettings -AllowEmailVerifiedUsers $true -AllowAdHocSubscriptions $true
-```
- 
-### Step 2: Make sure users are aware that they will be asked to create a new password.  
+Users must create a new password the first time they try to log in after January 31, 2019. After they create a new password and validate their email address, they 'll use their new credentials to sign in. 
 
-Users will be asked to create a new password the first time they try to log in after January 31, 2019. After creating their new password and validating their email address, they will have to use their new credentials to log in. 
-
-Except for having to create a new password, this change will be completely transparent to users. Their data will not be affected in any way. They will continue to see all their groups, external networks, and content, just as they did before the change. 
+Other than this requirement, the change is transparent to users. Their data is unaffected. Their groups, external networks, and content are the same as before the change.
 
 **Identify affected users and notify them**  
 
-To identify which users you need to notify, follow the instructions in [Audit Yammer users](audit-users-connected-to-office-365.md) to get the contact information for users who currently are not using AAD credentials. 
+To identify users you need to notify, follow the instructions in [Audit Viva Engage users](audit-users-connected-to-office-365.md) to get contact information for users not using Azure AD credentials.
 
 ## FAQ 
 
 **Q: Will this change users' experience?**
 
-A: After January 31, 2019, the user's experience will change:
-- If self-service signup is enabled, this impacts the user’s next login in. The first time a user with legacy credentials tries to log in they will be asked to create a new password and validate their email address. After that they will always need to use their newly created AAD credentials when they log in to Yammer.  When they use their new AAD credentials to log in, their Yammer experience will be the same as it was before this change. They will have access to the same groups and external networks as they currently do.
+A: After January 31, 2019, the user's experience changes:
+**If self-service signup is enabled**, a user with legacy credentials is asked to create a new password and validate their email address. After that, they must use their newly created Azure AD credentials each time they sign in to Viva Engage. 
 
-- If self-service signup is not enabled, users using legacy Yammer credentials won’t be able to log in after January 31 until the Microsoft 365 or Office 365 admin manually creates an AAD account for these users and gives each user the new log-in information. 
+**If self-service signup isn't enabled**, a user with legacy credentials can't sign in after January 31 until the Microsoft 365 or Office 365 admin manually creates an Azure AD account for them.
 
 **Q: What happens if as an admin, I don’t take action by January 31, 2019?** 
 
-A: If self-service sign-up is enabled, users will be redirected to the self-service signup flow and they will be able to create their own password, even if no action is taken. However, we recommend letting the users know in advance so they are not surprised by the change. 
+A: If self-service sign-up is enabled, users are redirected to the self-service signup flow. They can create their own password, even if no action is taken. However, we recommend letting the users know in advance so they are not surprised by the change. 
 
-If self-service signup is not enabled, users using legacy Yammer credentials won’t be able to log in after January 31 unless you manually create an AAD account for them. 
+If self-service signup is not enabled, users using legacy Viva Engage credentials can't log in after January 31 unless you manually create an Azure AD account for them. 
 
 **Q: Will this impact guest users?** 
 
-A: No, this change will not impact guest users.
+A: No, this change doesn't impact guest users.
 
-**Q. Do I have to buy an Office 365 license for each user that currently doesn't have an AAD account?**
+**Q. Do I have to buy an Office 365 license for each user that currently doesn't have an Azure AD account?**
 
-A. No. If you enable self-service signup before January 31, 2019, the AAD account is created for the user when they change their password. If you wait until after January 31, you'll have to create the AAD account yourself. No Office 365 license is required.
+A. No. After January 31, 2019, you must create the Azure AD account yourself. No Office 365 license is required.

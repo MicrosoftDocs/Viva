@@ -76,6 +76,8 @@
        items:
         - name: Work with external groups in Viva Engage networks not aligned to Native Mode
           href: /viva/engage/work-with-external-users/create-and-manage-external-groups
+        - name: Create and manage an external network
+          href: /viva/engage/work-with-external-users/create-and-manage-an-external-network     
         - name: Collaborate with guests in a Viva Engage community
           href: /viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community
         - name: Find external participants
