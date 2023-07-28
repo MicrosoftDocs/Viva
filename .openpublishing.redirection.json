@@ -1428,6 +1428,11 @@
         "source_path": "Viva/engage/manage-security-and-compliance/advanced-ediscovery.md",
         "redirect_url": "/viva/engage/overview",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/insights/use/zoom.md",
+        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
+        "redirect_document_id": false
       }
     ]
   }
