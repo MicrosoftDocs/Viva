@@ -1423,6 +1423,11 @@
         "source_path": "Viva/engage/manage-viva-engage-groups/live-events.md",
         "redirect_url": "/viva/engage/organize-live-event",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/engage/manage-security-and-compliance/advanced-ediscovery.md",
+        "redirect_url": "/viva/engage/overview",
+        "redirect_document_id": false
       }
     ]
   }
