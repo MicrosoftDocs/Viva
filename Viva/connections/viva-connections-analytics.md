@@ -2,8 +2,8 @@
 ms.date: 5/30/2023
 title: Viva Connections analytics
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:

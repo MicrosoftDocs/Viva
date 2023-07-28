@@ -2,8 +2,8 @@
 ms.date: 3/1/2023
 title: "Create a Viva Connections dashboard in more than one language"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
