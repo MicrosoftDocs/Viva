@@ -2,8 +2,8 @@
 ms.date: 02/02/2022
 title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:

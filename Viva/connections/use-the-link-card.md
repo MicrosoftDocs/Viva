@@ -2,8 +2,8 @@
 ms.date: 11/15/2021
 title: "Use the Web link card to integrate content into Viva Connections"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:

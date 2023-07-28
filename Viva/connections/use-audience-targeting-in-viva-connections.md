@@ -2,8 +2,8 @@
 ms.date: 6/19/2023
 title: "Use audience targeting in Viva Connections to personalize the experience"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
