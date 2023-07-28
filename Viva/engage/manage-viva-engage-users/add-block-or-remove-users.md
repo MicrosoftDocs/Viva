@@ -32,16 +32,13 @@ To get to the Viva Engage admin center to manage users:
 ## Invite users to Viva Engage
 <a name="InviteUsers"> </a>
 
-If you're enforcing Office 365 identity in your network, all Office 365 users that have a Viva Engage license are created as pending users in Viva Engage. If you aren't enforcing Office 365 identity, users aren't part of the Viva Engage network until they select the Viva Engage tile from Office 365 or sign in to Viva Engage.
+Use this procedure only to invite employees with a company email to Viva Engage. 
+- If you're enforcing Office 365 identity in your network, all Office 365 users that have a Viva Engage license are created as pending users in Viva Engage. 
+- If you aren't enforcing Office 365 identity, users aren't part of the Viva Engage network until they select the Viva Engage tile from Office 365 or sign in to Viva Engage.
+- If you invite a user to a group who isn't licensed to use Viva Engage, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails.
 
 > [!NOTE]
-> If your Viva Engage network is [in Native Mode](../overview-native-mode.md), this action can be performed only in the [Azure Active Directory User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory) and not within the Viva Engage Admin portal.
-
-Only employees with a company email address can be invited from this screen. 
-  
-- If you invite a user to a group who isn't licensed to use Viva Engage, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails. 
-    
- **Invite users a few at a time**
+> If your Viva Engage network is [in Native Mode](../overview-native-mode.md), you must perform this action in the [Azure Active Directory User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
   
 1. In Viva Engage, select the settings icon and select **Edit Network admin Settings**. This selection opens the Yammer admin center.
 
