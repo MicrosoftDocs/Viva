@@ -2,8 +2,8 @@
 ms.date: 06/19/2022
 title: "Set up the Viva Connections experience in a specific language"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
