@@ -24,7 +24,7 @@ search.appverid:
 
 To perform administrative tasks in Viva Engage, a user must be assigned an administrator role. Each role is a collection of permissions. The following table summarizes the permissions for each role in Viva Engage. Some Viva Engage roles are managed in Azure Active Directory, and others are managed in Viva Engage.
 
-**Select a role name in the table for more details and instructions.**
+**Select the role in the table for more details and instructions.**
 
 |Admin role | Business purpose | Where to assign this role |
 |------------|-------|----------|
@@ -72,9 +72,9 @@ The following table shows the range of actions available to Engage and Global ad
 ## Verified admin
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Verified admins can perform all the tasks a Network admin can do and assign verified and network admin roles. They also manage content policies in addition to monitoring keywords, data retention, security settings, and reading data in private groups. They can export data and perform integrations with other tools.|
+|**Permissions** |See permissions for Network admins.<br>Assign verified and network admin roles.<br>Manage content policies, and monitor keywords, data retention, security settings, and reading data in private communities.<br>Export data and perform integrations with other tools.|
 |**Who can assign this role**|Global admins, Engage admins, or Verified admins|
-|**How to assign this role**|In the Yammer admin center, select **Admins** and do one of the following:<br><li>_To assign a new admin_, find and select the user's name and select **Make this user an admin**. <br><br><li>_To change a Network admin to a Verified admin_, select the user's name from the Current Admins list and select **Grant Verified Admin**. <br><br><li>_To change a Verified admin to a Network admin_, in the Admins section, in the row for the admin select **Revoke Verified Admin**.<br><br><li>_To remove all admin roles from a Verified admin_, in the Current Admins section, in the row for the admin, select **Remove**.|
+|**How to assign this role**|In the Yammer admin center, select **Admins** and do one of the following:<br><li>_To assign a new admin_, find and select the user's name and select **Make this user an admin**. <br><li>_To change a Network admin to a Verified admin_, select the user's name from the Current Admins list and select **Grant Verified Admin**. <br><li>_To change a Verified admin to a Network admin_, in the Admins section, in the row for the admin select **Revoke Verified Admin**.<br><li>_To remove all admin roles from a Verified admin_, in the Current Admins section, in the row for the admin, select **Remove**.|
 
 ## Network admin
 |Function |Details |
