@@ -1,5 +1,5 @@
 ---
-title: "Key admin roles and permissions in Viva Engage"
+title: "Assign admin roles and permissions in Viva Engage"
 description: "Describes roles and permissions for admins in Viva Engage."
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -20,11 +20,11 @@ search.appverid:
 - MET150
 ---
 
-# Key admin roles and permissions in Viva Engage
+# Assign admin roles and permissions in Viva Engage
 
-Only users who have been assigned specific roles can perform administrative tasks in Viva Engage. Each role is a collection of permissions. The following table summarizes the permissions that each role grants a user. **Select a role name in the table for more details and instructions to add or remove that role.**
-Some Viva Engage roles are managed in Azure Active Directory, and others are managed in Viva Engage.
+To perform administrative tasks in Viva Engage, a user must be assigned an administrator role. Each role is a collection of permissions. The following table summarizes the permissions for each role in Viva Engage. Some Viva Engage roles are managed in Azure Active Directory, and others are managed in Viva Engage.
 
+**Select a role name in the table for more details and instructions.**
 
 |Admin role | Business purpose | Where to assign this role |
 |------------|-------|----------|
