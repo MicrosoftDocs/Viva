@@ -48,6 +48,7 @@ People with site member (or higher) permissions to your organization’s [home s
 2. Select the **Settings** :::image type="icon" source="../media/connections/viva-connections-analytics/sharepoint-setting-icon.png"::: icon.
 3. Then, select **Manage Viva Connections**.
 4. Next, go to the **Analytics** section and select **View report**.
+
     :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-sharepoint.png" alt-text="Screenshot showing the analytics section with view report highlighted.":::
 
 ### To view usage data for Viva Connections from Teams
@@ -55,6 +56,7 @@ People with site member (or higher) permissions to your organization’s [home s
 1. Navigate to your organization’s Viva Connections app in Teams.
 2. Select the **ellipsis** in the top-right corner.
 3. Then, select **View Analytics**
+
     :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-connections.png" alt-text="Screenshot showing options with view analytics highlighted.":::
 
 ## What’s in the usage report
@@ -68,6 +70,7 @@ This section provides usage data for unique users, engaged users, total visits, 
 - **Unique users:** Total number of individual viewers across all Viva Connections apps and devices.
 - **Engaged users:** Total number of individual viewers who interact with Viva Connections components.
 - **Total visits:** Total number of all visits, aggregated across Viva Connections apps, devices, and components.
+
     :::image type="content" source="../media/connections/viva-connections-analytics/analytics-usage-report.png" alt-text="Screenshot showing data covering overall traffic." lightbox="../media/connections/viva-connections-analytics/analytics-usage-report.png":::
 
 ### Usage details
