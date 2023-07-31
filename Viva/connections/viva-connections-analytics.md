@@ -48,14 +48,14 @@ People with site member (or higher) permissions to your organization’s [home s
 2. Select the **Settings** :::image type="icon" source="../media/connections/viva-connections-analytics/sharepoint-setting-icon.png"::: icon.
 3. Then, select **Manage Viva Connections**.
 4. Next, go to the **Analytics** section and select **View report**.
-    :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-sharepoint.png" alt-text="Screenshot showing the analytics section with view report highlighted." lightbox="../media/connections/viva-connections-analytics/access-analytics-from-sharepoint.png":::
+    :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-sharepoint.png" alt-text="Screenshot showing the analytics section with view report highlighted.":::
 
 ### To view usage data for Viva Connections from Teams
 
 1. Navigate to your organization’s Viva Connections app in Teams.
 2. Select the **ellipsis** in the top-right corner.
 3. Then, select **View Analytics**
-    :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-connections.png" alt-text="Screenshot showing options with view analytics highlighted." lightbox="../media/connections/viva-connections-analytics/access-analytics-from-connections.png":::
+    :::image type="content" source="../media/connections/viva-connections-analytics/access-analytics-from-connections.png" alt-text="Screenshot showing options with view analytics highlighted.":::
 
 ## What’s in the usage report
 
@@ -131,13 +131,13 @@ You may see an error in the Analytics section. Review common errors to learn mor
 
 This message displays if there isn't enough usage data to generate a report. Finish setting up Viva Connections and try to access the report again. [Learn more about how to set up Viva Connections](/viva/connections/guide-to-setting-up-viva-connections).
 
-:::image type="content" source="../media/connections/viva-connections-analytics/lack-of-data-error.png" alt-text="Screenshot showing error when there isn't enough usage data." lightbox="../media/connections/viva-connections-analytics/lack-of-data-error.png":::
+:::image type="content" source="../media/connections/viva-connections-analytics/lack-of-data-error.png" alt-text="Screenshot showing error when there isn't enough usage data.":::
 
 ### General error
 
 Sometimes due to connectivity issues or other technical problems, the analytics report may not be available. Check your network connection, refresh the page, and try loading the report again.
 
-:::image type="content" source="../media/connections/viva-connections-analytics/general-error.png" alt-text="Screenshot showing a general error when there's a problem generating a report." lightbox="../media/connections/viva-connections-analytics/general-error.png":::
+:::image type="content" source="../media/connections/viva-connections-analytics/general-error.png" alt-text="Screenshot showing a general error when there's a problem generating a report.":::
 
 ### Errors within the downloaded report
 
@@ -147,7 +147,7 @@ Within the downloaded Excel report, you may notice that certain sections aren't 
 
 You may get the following message: "Viva Connections usage data has been disabled for your organization by your administrator." This message means you won't be able to access usage reports unless your admin enables the feature for your organization.
 
-:::image type="content" source="../media/connections/viva-connections-analytics/data-disabled-error.png" alt-text="Screenshot showing error received when reports have been disabled." lightbox="../media/connections/viva-connections-analytics/data-disabled-error.png":::
+:::image type="content" source="../media/connections/viva-connections-analytics/data-disabled-error.png" alt-text="Screenshot showing error received when reports have been disabled.":::
 
 ## Learn more
 
