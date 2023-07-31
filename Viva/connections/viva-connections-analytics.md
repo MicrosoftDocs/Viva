@@ -107,10 +107,9 @@ Your organization might not want to see analytics data due to local data and com
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
->[!NOTE]
->
-> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
-> - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
+   >[!NOTE]
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+   > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 
 2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
