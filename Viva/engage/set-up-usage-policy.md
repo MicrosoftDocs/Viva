@@ -30,7 +30,7 @@ You can display the policy as a pop-up message that users must accept before ent
   
 ## Set up or modify a Viva Engage usage policy
 
-1. Go to the Viva Engage admin center and on the **Setup & configuration** tab, select **Tenant Settings**.
+1. From the Viva Engage admin center and on the **Setup & configuration** tab, select **Tenant Settings**.
 
 2. Under **Usage policy**, edit your policy using the following fields:
     - Policy name 
