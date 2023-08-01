@@ -1,11 +1,11 @@
 ---
-ms.date: 7/10/2023
+ms.date: 7/31/2023
 title: "Viva Engage and Microsoft 365 Groups"
 description: "Viva Engage communities can access Microsoft 365 services, including a SharePoint Online team site and document library, OneNote notebook, plan in Planner, and Power BI workspace."
-ms.reviewer: ethli
+ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -194,7 +194,10 @@ We recommend that you store content that needs the structure and management capa
   
 A: Yes. Any new community created in Viva Engage gets the added prefix and suffix from the group naming policy. Blocked words aren't allowed in the group name. For more information, see [Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-Note that Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage. Microsoft 365 admins can still create communities in Viva Engage.
+>[!NOTE]
+> Only Microsoft 365 groups created during migration to Native Mode to back existing communities won't follow the group-naming policy.
+
+Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage. Microsoft 365 admins can still create communities in Viva Engage.
 
 ### Q: Can I use my Viva Engage communities connected to Microsoft 365 Groups with group-based licensing in Azure AD?
 
