@@ -59,7 +59,7 @@ To enable users to start using Viva Goals, Global or User Admins must assign lic
 
 To assign licenses to user:
 
-1. In Microsoft 365 admin center click**Users -> Active users**.
+1. In Microsoft 365 admin center select **Users -> Active users**.
 1. Select the users or user group that you want to assign licenses to and select **Licenses and apps**.
 1. Under Licenses, select **Viva Goals**
 
@@ -70,6 +70,70 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 >
 > 1. To assign licenses via group-based licensing, see [Assign licenses to users by group in Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-assign).
 > 2. Target admin roles can also [assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
+
+### Assign conditional access
+
+> [!IMPORTANT]
+> **Prerequisite: Create custom security attributes**
+> 
+> Follow the instructions in the article, [Add or deactivate custom security attributes in Azure AD (Preview)](/azure/active-directory/fundamentals/custom-security-attributes-add), to add the following **Attribute set** and **New attributes.** 
+> 
+> - Create an **Attribute** set named *VivaGoalsConditionalAccess* 
+> - Create **New attributes** named *vivagoalsca*  
+> - Mark **No** for **Allow multiple values to be assigned** and **Only allow predefined values to be assigned**. 
+
+:::image type="content" source="../media/goals/assign-licenses/assign-license-01.png" alt-text="Screenshot of attribute settings for new attribute vivagoalsca." lightbox="../media/goals/assign-licenses/assign-license-01.png":::
+
+> [!NOTE]
+> Conditional Access filters for devices only works with custom security attributes of type "string". Custom Security Attributes support creation of Boolean data type but Conditional Access Policy only supports "string". 
+
+### Create a conditional access policy
+
+1. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator. 
+1. Browse to **Azure Active Directory > Security > Conditional Access**. 
+1. Select **New policy**. 
+1. Give your policy a name. We recommend that organizations create a meaningful standard for the names of their policies. 
+1. Under **Assignments**, select **Users or workload identities.**
+    1. Under **Include**, select **All users**. 
+    1. Under **Exclude**, select **Users and groups** and choose your organization's emergency access or break-glass accounts.
+    :::image type="content" source="../media/goals/assign-licenses/assign-license-02.png" alt-text="Screenshot of assignment settings with include and exclude information." lightbox="../media/goals/assign-licenses/assign-license-02.png":::
+    1. Select **Done**. 
+1. Under **Target Resources or Cloud apps or actions**, select the following options: 
+    1. Select what this policy applies to: **Cloud apps**.
+    1. Include all apps. Exclude select apps and choose the Viva Goals app.
+    :::image type="content" source="../media/goals/assign-licenses/assign-license-03.png" alt-text="Screenshot of target resource settings with included and excluded apps." lightbox="../media/goals/assign-licenses/assign-license-03.png":::
+    1. Select **Edit filter**. 
+    1. Set **Configure** to **Yes**. 
+    1. Select the **Attribute** we created earlier called *vivagoalsca*. 
+    1. Set **Operator** to **Equals**. 
+    1. Set **Value** to **Yes**. 
+    1. Select **Done**. 
+1. Update **Access controls** according to your requirement. 
+1. Confirm your settings and set **Enable policy** to **Report-only**. 
+1. Select **Create** to create to enable your policy. 
+
+After confirming your settings using [report-only mode](/azure/active-directory/conditional-access/howto-conditional-access-insights-reporting), an administrator can move the **Enable policy** toggle from **Report-only** to **On**. 
+
+### Configure custom attributes 
+
+1. Assign the custom security attribute to the applications below:
+    1. MS Graph App (This is needed for provisioning users) 
+    1. Viva Goals Web App 
+    1. Microsoft Azure Active Directory 
+
+> [!NOTE]
+> When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal. 
+
+2. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator. 
+1. Browse to **Azure Active Directory > Enterprise applications**. 
+1. Select the service principal you want to apply a custom security attribute to. 
+1. Under **Manage > Custom security attributes (preview)**, select **Add assignment**. 
+1. Under **Attribute set**, select *VivaGoalsConditionalAccess*. 
+1. Under **Attribute name**, select *vivagoalsca* and select **Done**. 
+1. Select **Save**. 
+
+:::image type="content" source="../media/goals/assign-licenses/assign-license-04.png" alt-text="Screenshot of adding new attributes to the custome security attributes page." lightbox="../media/goals/assign-licenses/assign-license-04.png":::
+
 
 ## Assign Viva Goals administrator (optional)
 
@@ -268,11 +332,11 @@ Check-in reminder schedule can be tweaked for individual teams and, by default, 
 1. Navigate to the Team.
 1. Select on the button with three dots (…) on the top right corner. 
 1. Choose **Team Settings**.
-1. Under **Check-in Rhythm** section select on **Change schedule**.
+1. Under Check-in Rhythm section, select on **Change schedule**.
 1. Choose the interval (every week/two weeks/three weeks/month) and the corresponding day(s) and time on which the reminders should be sent.
 1. Just below the interval selection, you can find the updated details about the reminder
 1. Select **Change** to update the next check-in reminder date if needed.
-1. You can also exempt certain OKRs and Initiatives created within specific number of days (From current date) from the next check-in reminder date to avoid sending the reminder too early. Select on the check box next to Don't include OKRs & Initiatives updated within the last.. - Choose the number of days from the drop-down.
+1. You can also exempt certain OKRs and Initiatives created within specific number of days (From current date) from the next check-in reminder date to avoid sending the reminder too early. Select on the check box next to Don't include OKRs & Initiatives updated within the last... - Choose the number of days from the drop-down.
 1. Select **Save**
 
 ### Changing the parent and owner of a team

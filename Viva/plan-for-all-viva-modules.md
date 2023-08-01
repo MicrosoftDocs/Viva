@@ -37,9 +37,6 @@ To get all the apps in the Viva suite, you'll need a license for Microsoft 365 o
 
 Then, purchase the [Microsoft Viva suite](https://www.microsoft.com/microsoft-viva/pricing?rtc=1).
 
->[!NOTE]
-> Viva Sales isn't included in the Viva suite license.
-
 ## Step 2: Meet technical requirements
 
 After you’ve got the right licensing in place, review additional requirements to get the Viva app up and running. For more details, [review minimum requirements and planning considerations](discover-more-about-each-viva-module.md).
@@ -52,7 +49,6 @@ After you’ve got the right licensing in place, review additional requirements 
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
 |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
-|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> **Viva Sales** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
 
 ## Step 3: Get guidance on roles for each phase
@@ -105,11 +101,6 @@ Review the different roles in each phase before you start planning. Each app nee
 |--------------------|-----------------|------------------|
 |- Work with **Business leaders** and **HR** in your organization to define learning goals. <p> - Find out if any third-party content sources or learning management systems you’re already using can integrate with Viva Learning.|- The **Microsoft 365 global admin, SharePoint admin**, or **Knowledge admin** chooses which content sources to use in the Microsoft 365 admin center. <p> - The **Microsoft 365 global admin**, **Knowledge admin**, or **Knowledge Manager** uses the admin tab in Viva Learning to [choose how content shows up for your organization](learning/use-tabs.md). <p> - The **Microsoft Teams admin** can enable or disable Viva Learning from the Teams admin center (Viva Learning is enabled by default). <p> - The **Microsoft 365 global admin** or **Knowledge admin** can [create a Learning App Content Repository in SharePoint to integrate with Viva Learning.](learning/configure-sharepoint-content-source.md)|- **Managers** can [recommend learning content](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) to their teams, and **Team members** can share content with each other. <p> - **Managers** and **Subject matter experts** can create custom learning content that the **Microsoft 365 global admin** or **Knowledge admin** can add to the Learning App Content Repository in SharePoint.|
 
-### Get guidance on Viva Sales
-
-|Coordinate and plan |Build and set up |Deploy and launch |
-|--------------------|-----------------|------------------|
-|- Work with **sales team leaders** and the team that manages your organization's CRM workflows to come up with an adoption plan for Viva Sales. | - Your **Microsoft 365 admin** will install Viva Sales from the Microsoft 365 admin center or the Microsoft commercial marketplace. <p> - Your **Microsoft Teams admin** will create an app setup policy and pin the app for users. | - Work with your **sales team leaders** to train your salespeople in using Viva Sales with your CRM. <p> - Share the [Viva Sales end user training content](https://support.microsoft.com/topic/introduction-to-microsoft-viva-sales-e1b89ece-e97f-4a9d-9cdc-9018fde0a6a5) with your sales teams. |
 ### Get guidance on Viva Topics
 
 |Coordinate and plan |Build and set up |Deploy and launch |
@@ -150,12 +141,6 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 - [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md)
 - [Manage how content shows up for your org.](learning/use-tabs.md)
 - [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md)
-
-### Get started with Viva Sales
-
-- Install Viva Sales from the Microsoft 365 admin center.
-- Add the app to Microsoft Teams.
-- Integrate Viva Sales with your CRM.
 
 ### Get started with Viva Topics
 

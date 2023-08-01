@@ -42,7 +42,7 @@ Many companies rely on their IT department to stage and maintain the backend pro
 
 ## Create the template
 
-[Download the Employee Attribute Template here](https://community.glintinc.com/glint-guided-experience-documentation-43/employee-data-attribute-template-1446). The following extensions are supported for files exported by your HRIS system:
+The following extensions are supported for files exported by your HRIS system:
 
 - .csv for files with a comma delimiter and UTF-8 encoding
 - .xlsx for files in Microsoft Excel format with a single tab of data

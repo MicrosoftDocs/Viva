@@ -83,7 +83,6 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 | Viva Goals | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Viva Insights Personal | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Viva Insights Organizational | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
-| Viva Sales | Covered under Dynamics 365. For more information see: [Azure and other Microsoft cloud services in compliance audit scope](/azure/compliance/offerings/cloud-services-in-audit-scope)
 
 ## General Data Protection Regulation (GDPR)
 All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
@@ -99,7 +98,7 @@ For information about data residency for Viva apps, see [Microsoft Viva Privacy]
 
 Currently, certain features in Viva Engage (through Yammer) and Viva Connections and Viva Topics (through SharePoint) are supported by Microsoft Purview.
 
-Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-viva-pr). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/viva/engage/configure-your-viva-engage-network/overview-native-mode).
+Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-viva-pr). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/Viva/engage/overview-native-mode.md).
 
 Viva Connections and Viva Topics inherit eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 

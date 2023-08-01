@@ -2,10 +2,10 @@
 title: "Overview and setup of Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/13/2023
+ms.date: 07/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ search.appverid:
 
 **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app.
 
-Answers is a conversational experience to ask questions and connect employees to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
+Answers let employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers works to connect employees based on their subject matter expertise captured in Viva Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers work to connect employees based on their subject matter expertise captured in Viva Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
-If Answers is enabled in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
+When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
 
 Users who aren't assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. But they can't navigate the rest of the Answers experience.
 
@@ -38,15 +38,15 @@ Users who aren't assigned the Viva Engage Knowledge service plan receive notific
 
 ## Technical requirements
 
-Answers is enabled by default for customers that meet the following technical requirements:
+By default, the Answers experience is enabled for customers that meet the following technical requirements:
 
 1) **Migrated the Viva Engage network to Native Mode**
 
-    [Native Mode](/viva/engage/configure-your-viva-engage-network/overview-native-mode) is a state of a Viva Engage network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](/viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide) the network to Native Mode.
+    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Azure Active Directory (Azure AD). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
 2) **Migrated Viva Engage Topics to Viva Topics**
 
-    Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers uses Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
+    Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
 
 
     For customers awaiting topics migration:  
@@ -59,26 +59,26 @@ Answers is enabled by default for customers that meet the following technical re
 
 3. **Set up the Viva Engage app**
 
-    We recommend that all organizations that want to use Answers install the Viva Engage app in Teams to get the best Answers experience. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
+    For the best Answers experience, we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
 
 ## Data storage, export, and compliance
 
-Answers is backed by an Office 365 group and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is auto-provisioned when the first question is posted or first the question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
+A group in Office 365 backs up Answers and follows the default data [retention policies](/microsoft-365/compliance/retention-policies-yammer) set by your organization, unless a unique policy is set for Answers. The Answers backing group is autoprovisioned when the first question is posted or first the question attachment is created. At the time of creation, all Global admins are assigned as owners of the backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
-Owners of the backing group should ensure that Answers is kept compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing Office 365 group. If the backing group is deleted, Answers won't be functional.
+Owners of the backing group should ensure that Answers remains compliant with network policies and doesn't get accidentally deleted. Admins can export data if you want to delete the backing group in Office 365. If the backing group is deleted, Answers won't be functional.
 
 >[!NOTE]
 > A soft delete is recoverable within 30 days. A hard delete results in *permanent* data loss.
 
 Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
-**GDPR information**
+**General Data Protection Regulation (GDPR) information**
 
-For GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-).
+For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Enable Answers  
 
-Answers is enabled by default and visible to all users that have the Viva Engage Knowledge service plan assigned. Answers can be disabled and hidden from the Viva Engage Teams app. When disabled, Answers content can still be accessed through existing links, but users  can't contribute to threads or navigate the Answers experience.  
+All users that have the Viva Engage Knowledge service plan assigned can view Answers, as it's on by default. You can turn it off so it's hidden from the Viva Engage Teams app. However, users can still access Answers content through existing links, but they can't contribute to threads or navigate the Answers experience.  
 
 Only a Microsoft 365 Global admin can change Answers state of enablement. Here's how:
 
