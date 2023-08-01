@@ -1,10 +1,10 @@
 ---
-ms.date: 12/14/2022
+ms.date: 07/31/2023
 title: "Troubleshoot your Viva Engage network for Native Mode for Microsoft 365"
 description: "Troubleshoot issues with your Viva Engage network in Native Mode for Microsoft 365."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
 audience: Admin
 f1.keywords:
@@ -213,6 +213,9 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
 
 ## Groups
 
+### What happens to my existing Yammer groups that are supported in Native Mode? 
+
+Existing Yammer groups will be connected to newly created M365 groups. These new Microsoft 365 groups won't follow any existing naming policy for Microsoft 365 group creation. 
 ### What do I need to do to prepare my All Company community to be Microsoft 365 connected?
 
 There's no preparation required to make your All Company community Microsoft 365 connected. The tool connects the community and assigns the Verified Admins for the network community as owners of the All Company community in Azure AD. As community owners, they can post announcements in the All Company community, as they could before All Company was Microsoft 365 connected.
