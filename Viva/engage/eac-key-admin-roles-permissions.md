@@ -59,14 +59,14 @@ The following table shows the range of actions available to the Engage admin and
 
 |Permissions for the Engage admin and Global Administrator roles |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
 |------------|-------|-------|
-|**Manage corporate communicators**: <br> Assigns or removes users as a corporate communicator  |✓ |✓ |
-|**Manage tenant and user permissions** |✓ |✓ |
-|**Manage data and compliance**: <br> Manages network and user data; **GDPR** delete |✓ |✓ |
-|**Manage leaders and their audiences**: <br> Assigns leaders in your organization; identify audiences for the leaders identified | |✓ |
-|**Configure stories and storylines**: <br>Enables storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓ |✓ |
-|**Manage sentiment analysis and other feature specific analytics**: <br> Configures level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |✓ |
-|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; accesses campaign analytics dashboard|  |✓ |
-|**Enable and manage badges**|  |✓ |
+|**Manage corporate communicators**: <br> Assigns or removes users as a corporate communicator  | ✓ | ✓ |
+|**Manage tenant and user permissions** | ✓ | ✓ |
+|**Manage data and compliance**: <br> Manages network and user data; **GDPR** delete | ✓ | ✓ |
+|**Manage leaders and their audiences**: <br> Assigns leaders in your organization; identify audiences for the leaders identified | | ✓ |
+|**Configure stories and storylines**: <br>Enables storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts | ✓ | ✓ |
+|**Manage sentiment analysis and other feature specific analytics**: <br> Configures level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |  ✓ |
+|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; accesses campaign analytics dashboard|  | ✓ |
+|**Enable and manage badges**|  | ✓ |
 |**Enable Answers**|  |Global admin only |
 
 ## Verified admin
