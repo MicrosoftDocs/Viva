@@ -1,6 +1,6 @@
 ---
-ms.date: 07/21/2023
-title: Set up Microsoft Viva Topics
+ms.date: 08/1/2023
+title: Set up and manage Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
-description: Learn how to set up Microsoft Viva Topics.
+description: Learn how to set up Microsoft Viva Topics and manage your settings.
 ---
 
-# Set up Microsoft Viva Topics
+# Set up and manage Microsoft Viva Topics
 
 You can use the Microsoft 365 admin center to set up and configure [Topics](topic-experiences-overview.md).
 
@@ -36,9 +36,9 @@ You must assign licenses for the users who will be using Topics. Only users with
 
 To assign licenses:
 
-1. In the Microsoft 365 admin center, under **Users**, click **Active users**.
+1. In the Microsoft 365 admin center, under **Users**, select **Active users**.
 
-2. Select the users that you want to license, and click **Licenses and apps**.
+2. Select the users that you want to license, and select **Licenses and apps**.
 
 3. Under **Licenses**, select **Viva Topics**.
 
@@ -47,7 +47,7 @@ To assign licenses:
    > [!div class="mx-imgBorder"]
    > ![Microsoft Viva Topics licenses in the Microsoft 365 admin center.](../media/topic-experiences-licenses.png)
 
-5. Click **Save changes**.
+5. Select **Save changes**.
 
 It may take up to an hour for users to get access to Topics after the licenses are assigned.
 
@@ -68,7 +68,52 @@ To set up Topics
 
    [![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
 
-3. This will take you to the Viva Topics admin page. Choose **Set up Viva Topics** to set up how topics will work for your organization.
+3. This will take you to the Viva Topics admin page. Choose **Deploy Topics in 2 steps** to enable Topics for your organization. This will bring up the setup pane.
+
+### Choose SharePoint sites
+
+![Screenshot of the SharePoint setup page.](../media/knowledge-management/set-up-sharepoint.png)
+
+1. Choose which SharePoint sites Topics can source information from.
+    - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
+    - **All, except selected sites**: Type the names of the sites you want to exclude.  You can also upload a list of sites that you want to opt out from discovery. Sites created in future will be included as sources for topic discovery.
+    - **Only selected sites**: Type the names of the sites you want to include. You can also upload a list of sites. Sites created in the future will not be included as sources for topic discovery.
+    - **No sites**: Do not include any SharePoint sites.
+
+2. Then choose **Next**.
+
+### Create your topic center
+
+![Screenshot of the topic center setup page.](../media/knowledge-management/set-up-topic-center.png)
+
+On the **Topic center** page, you can create your topic center site where users can view topic pages and manage topics.
+
+1. Under **Site name**, enter a name for your topic center.
+
+2. Enter a description for your topic center.
+
+3. Choose your preferred language for the topic center. It's recommended to use the same language as your organization's default language.
+
+    >[!IMPORTANT]
+    >You can't change your topic center language once you've saved these settings.
+
+4. Choose **Next**.
+
+### Review and finish
+
+Review the settings you've chosen. Once everything is correct, choose **Finish**. You can manage your settings later by going back to your Topics setup page and choosing **Manage Topics**.
+
+## Manage topics
+
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then choose **Microsoft Viva**.
+
+   ![Screenshot of the Microsoft Viva setup card.](../media/viva-setup.png)
+
+2. Select **Viva Topics**.
+
+   [![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
+
+3. This will take you to the Viva Topics admin page. Choose **Manage Settings**.
 
 ### Topic discovery
 
