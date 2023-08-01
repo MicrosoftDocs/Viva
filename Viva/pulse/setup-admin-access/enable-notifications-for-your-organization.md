@@ -34,4 +34,4 @@ OR\
 `Get-AzureADServicePrincipal`\
 And find Viva Pulse in the list returned
 
-Note that if email notifications are not enabled by running this script, feedback authors may not receive enough responses to their Pulses to review their team’s feedback and notifications increase the likelihood that more responses are generated. Alternatively, feedback authors can copy links to their Pulse requests or generated reports and share them directly through a personal email or Teams message.
+Note that if email notifications are not enabled by running this script, feedback authors may not receive enough responses to their Pulses to review their team’s feedback and notifications increase the likelihood that more responses are generated. Alternatively, feedback authors can copy links to their Pulse requests and generated reports and share them directly through a personal email or Teams message.
