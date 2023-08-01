@@ -22,7 +22,7 @@
        href: overview-native-mode.md
      - name: Automatic Native Mode migration and network consolidation
        href: automatic-migration-native-mode.md
-     - name: Key admin roles and permissions in Viva Engage
+     - name: Manage admin roles in Viva Engage
        href: eac-key-admin-roles-permissions.md 
      - name: Set up the Viva Engage admin center
        href: eac-get-started.md 
