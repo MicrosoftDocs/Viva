@@ -30,12 +30,12 @@ You can display the policy as a pop-up message that users must accept before ent
   
 ## Set up or modify a Viva Engage usage policy
 
-1. Go to the Viva Engage admin center and on the **Setup & configuration** tab, select **Tenant Settings**.
+1. From the Viva Engage admin center and on the **Setup & configuration** tab, select **Tenant Settings**.
 
 2. Under **Usage policy**, edit your policy using the following fields:
-    - Policy name 
-    - Enabling and setting a policy reminder that shows on the user’s home feed 
-    - Enter policy text/description
+    - **Policy name** 
+    - **Enabling and setting a policy reminder that shows on the user’s home feed** 
+    - **Enter policy text/description**
 
 3. Additionally, you can choose whether users must review the policy after sign-in and updates.
   
