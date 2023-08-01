@@ -28,7 +28,7 @@ To perform administrative tasks in Viva Engage, a user must be assigned an admin
 
 |Admin role | Business purpose | Where to assign this role |
 |------------|-------|----------|
-|**[Microsoft 365 Global Administrator](#microsoft-365-global-admin)** | Manages all aspects of Azure Active Directory (Azure AD) and Microsoft services that use Azure AD identities, including all tasks a Viva Engage Verified Admin and Office 365 report reader can perform. | Azure Active Directory (Azure AD) |
+|**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Azure Active Directory (Azure AD) and Microsoft services that use Azure AD identities, including all tasks a Viva Engage Verified Admin and Office 365 report reader can perform. | Azure Active Directory (Azure AD) |
 | **[Engage admin](#engage-admin) (Yammer admin in Azure AD)**| Manages all aspects of Viva Engage including tenant settings, features, and compliance needs. | Azure Active Directory |
 | **[Verified admin](#verified-admin)** | Configures the Viva Engage network. Performs tasks with legal implications for stored data in Viva Engage, such as configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | Yammer admin center | 
 | **[Network admin](#network-admin)**| Configures the Viva Engage network. | Yammer admin center|
