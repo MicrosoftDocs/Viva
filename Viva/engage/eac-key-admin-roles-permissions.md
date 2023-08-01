@@ -45,7 +45,7 @@ This role controls configuration for Viva Engage in your organization. As such, 
 |------------|-----------------|
 |**Permissions** |Same as an Engage admin, plus:<br>Assigns or removes the Global Administrator role and the Office 365 reports reader role.<br>Views reports in the Office 365 Usage Reporting dashboard. <br>Manages other Microsoft 365 services.|
 |**Who can assign this role**|global admins|
-|**How to assign this role**| See [Assign admin roles in the Microsoft 365 admin center](microsoft-365/admin/add-users/assign-admin-roles)|
+|**How to assign this role**| See [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles)|
 
 ## Engage admin  
 
