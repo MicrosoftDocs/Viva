@@ -24,7 +24,7 @@ Person-to-group queries help you understand how an individual invests their time
 * One or more groups you define in the query as "secondary collaborators"
 * The amount  of time the primary collaborator invests with the secondary collaborator, and how they spend their time
 
-:::image type="content" source="../images/analyst-xc-p2g-illustration.png" alt-text="Screenshot that shows metric dates and results.":::
+:::image type="content" source="../images/analyst-xc-p2g-illustration.png" alt-text="Illustration that shows how person-to-group queries work.":::
 
 >[!Important]
 >Because individuals are assigned a randomly generated **PersonID** to maintain de-identification, there is no way to identify an individual in the query's results.
@@ -52,7 +52,7 @@ You can create better person-to-group queries with an understanding of time inve
 
 Select **Collaboration between an individual and a group in your organization** to create a person-to-group query.
 
-:::image type="content" source="../images/analyst-xc-p2g-ui.png" alt-text="Screenshot that shows metric dates and results.":::
+:::image type="content" source="../images/analyst-xc-p2g-ui.png" alt-text="Screenshot that shows the UI for selecting person-to-group queries.":::
 
 ### Add metrics, filters, and employee attributes
 
@@ -94,10 +94,10 @@ The next columns describe the primary collaborator. The column names for these a
 
 The following column identifies the secondary collaborator group **SecondaryCollaborator_{GroupByAttribute}**, and provides an org attribute value that defines the group.
 
-:::image type="content" source="../images/analyst-xc-p2g-secondcollab-function.png" alt-text="Screenshot that shows results for the PrimaryCollaborator attribute columns.":::
+:::image type="content" source="../images/analyst-xc-p2g-secondcollab-function.png" alt-text="Screenshot that shows results for the SecondaryCollaborator attribute columns.":::
 
 The last columns in the file give you the metric date and results for the metrics you selected when you built the query.
 
 The **MetricDate** column shows the start date of the aggregated output. This date will be the first day of the month that your data covers. The following columns show values for the metrics you added when you built the query.
 
-:::image type="content" source="../images/analyst-xc-p2g-datecounts.png" alt-text="Screenshot that shows results for the PrimaryCollaborator attribute columns.":::
+:::image type="content" source="../images/analyst-xc-p2g-datecounts.png" alt-text="Screenshot that shows the metric date and query results.":::
