@@ -1,5 +1,5 @@
 ---
-ms.date: 08/02/23
+ms.date: 08/02/2023
 title: "Microsoft Project for the Web Integration with Viva Goals"
 ms.reviewer: 
 ms.author: rasanders
@@ -21,13 +21,13 @@ search.appverid:
 description: "Learn how to integrate your Microsoft Project for the Web with Viva Goals."
 ---
 
-# Microsoft Planner Integration
+# Microsoft Project for the web integration
 
 Viva Goals integrates with Microsoft Project for the Web to automatically update key results and initiatives in Viva Goals. OKR and initiatives progress is automatically calculated based on the completion of tasks in Project.  
 
 You can connect to Project for the Web as a data source to automatically update three different capabilities in Viva Goals: track progress for a key result, track progress for an initiative, and track progress for an initiative’s KPI. View examples below of how the MS Project for the Web integration works for each of these capabilities. 
 
-## When to use the Microsoft Project for the Web Integration 
+## When to use the Microsoft Project for the web integration 
 
 **Track progress for an initiative with tasks (recommended):** Use this option when you want to track progress based on completion of all tasks in the initiative and have visibility to your Project tasks in Viva Goals. For example, if your initiative is to “Update marketing materials,” you can connect to the plan where you track marketing content tasks to automatically update your initiative in Viva Goals. After you connect to Project for the Web as a data source for tasks, you will be able to select how you want to automatically track progress from your plan and view the tasks from that plan within Viva Goals. 
 
