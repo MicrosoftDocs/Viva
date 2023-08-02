@@ -1,6 +1,6 @@
 ---
 
-ms.date: 09/16/2021
+ms.date: 06/30/2023
 title: Environment requirements for Viva Insights
 description: Describes the system requirements for using Microsoft Viva Insights
 author: lilyolason

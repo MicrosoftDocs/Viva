@@ -1438,6 +1438,16 @@
         "source_path": "viva/insights/personal/mya-landing-page.md",
         "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/setup/verify-add-in.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/insights/personal/use/mya-elements.md",
+        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
+        "redirect_document_id": false
       }
     ]
   }

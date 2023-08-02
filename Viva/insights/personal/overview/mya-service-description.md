@@ -1,9 +1,9 @@
 ---
 
-ms.date: 09/16/2021
+ms.date: 08/02/2023
 title: Viva Insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
-author: madehmer
+author: lrolason
 ms.author: v-lilyolason
 ms.topic: article
 ms.localizationpriority: medium 
@@ -12,7 +12,7 @@ ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
-manager: helayne
+manager: ablubetk
 audience: Admin, user
 ---
 
@@ -28,17 +28,18 @@ Viva Insights processes information in a manner that protects employee privacy. 
 
 Viva Insights consists of the following elements.
 
-* Viva Insights in [Microsoft Teams and on the web](../teams/home.md) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
-* [Viva Insights Outlook add-in](../use/add-in.md) – Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
+* Viva Insights in [Microsoft Teams and on the web](https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+* [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) – Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
 * [Briefing emails](../Briefing/be-overview.md) – Within two hours of your workday, you'll get an email about any relevant items to help you stay in control of your calendar and better prepare for the day ahead.
     >[!Important]
     >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
-* [Digest emails](../use/email-digests-3.md) – Gives you key highlights about your work patterns in a digest email in your Outlook inbox.
-* [Inline suggestions](../use/mya-notifications.md) – These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
+* [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3) – Get key highlights about your work patterns in a digest email in your Outlook inbox.
+* [Inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) – These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
+* [Schedule send suggestions](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) – When you're composing an email in Outlook, get suggestions to schedule email deliveries that align with recipients' working hours. This schduling helps minimize disruptions to recipients outside of their working hours.
 
 ## Viva Insights distributions
 
-The elements of Viva Insights are available in varying levels to users of different Microsoft 365 and Office 365 plans. To see which plans include Viva Insights and Viva Insights in Outlook, see [Personal insights plans and environments](./plans-environments.md).
+The elements of Viva Insights are available in varying levels to users of different Microsoft 365 and Office 365 plans. To see which plans include Viva Insights and Viva Insights in Outlook, refer to [Environment requirements](../../advanced/setup-maint/environment-requirements.md).
 
 ## Data privacy
 
@@ -51,7 +52,7 @@ By adhering to the following guidelines, Viva Insights protect employee privacy 
 * Viva Insights can be configured so that individuals must purposefully opt in.
 * Viva Insights reminds people that their data is private and secure.
 
-For more information, see [Viva Insights privacy guide](./privacy-guide-users.md).
+For more information, go to the [Privacy guide for personal insights](https://support.microsoft.com/topic/privacy-guide-for-personal-insights-8f2c038c-f80c-4512-bf4c-90a0423377f2).
 
 ## Prerequisite
 
