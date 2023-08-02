@@ -32,10 +32,8 @@ This customization experience is available for community admins on the web and m
 1. In the community header, select **Upload Cover Photo**.
 2. From the file list, select an image to upload.
 
-   The file must be 20 MBs or less and in PNG, JPEG, or nonanimated GIF format.
-   The web cover photo dimensions are 680 x 275 pixels.
-
-:::image type="content" source="../../media/yam-group-header-web.PNG" alt-text="Screenshot of group.":::
+   The file must be 20 MBs or less and in PNG, JPEG, or nonanimated GIF format. Dimensions for web cover photos are 680 x 275 pixels.
+    :::image type="content" source="../../media/yam-group-header-web.PNG" alt-text="Screenshot of group.":::
 
 ## To upload a mobile cover photo
 
