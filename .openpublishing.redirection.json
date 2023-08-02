@@ -1448,6 +1448,10 @@
         "source_path": "viva/insights/personal/use/mya-elements.md",
         "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
         "redirect_document_id": false
+        },
+      {"source_path": "viva/insights/personal/teams/index.yml",
+        "redirect_url": "https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3",
+        "redirect_document_id": false
       }
     ]
   }
