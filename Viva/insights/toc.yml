@@ -109,7 +109,9 @@ items:
               - name: Set primary and secondary collaborators
                 href: advanced/analyst/collaborators.md
               - name: Collaboration between individuals (person-to-person query)
-                href: advanced/analyst/cross-collaboration-p2p.md  
+                href: advanced/analyst/cross-collaboration-p2p.md
+              - name: Collaboration between an individual and a group (person-to-group)
+                href: advanced/analyst/cross-collaboration-p2g.md    
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
