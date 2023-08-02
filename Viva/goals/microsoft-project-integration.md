@@ -29,9 +29,9 @@ You can connect to Project for the Web as a data source to automatically update 
 
 ## When to use the Microsoft Project for the web integration 
 
-**Track progress for an initiative with tasks (recommended):** Use this option when you want to track progress based on completion of all tasks in the initiative and have visibility to your Project tasks in Viva Goals. For example, if your initiative is to “Update marketing materials,” you can connect to the plan where you track marketing content tasks to automatically update your initiative in Viva Goals. After you connect to Project for the Web as a data source for tasks, you will be able to select how you want to automatically track progress from your plan and view the tasks from that plan within Viva Goals. 
+**Track progress for an initiative with tasks (recommended):** Use this option when you want to track progress based on completion of all tasks in the initiative and have visibility to your Project tasks in Viva Goals. For example, if your initiative is to “Update marketing materials,” you can connect to the plan where you track marketing content tasks to automatically update your initiative in Viva Goals. After you connect to Project for the Web as a data source for tasks, you'll be able to select how you want to automatically track progress from your plan and view the tasks from that plan within Viva Goals. 
 
-**Track progress for an initiative with initiative KPIs:** initiative KPIs give you the ability to set targets for task completion in Project that are higher or lower than the completion of all tasks in a plan. For example, if you have an initiative KPI to “Add 5 product videos to your website,” you can add a metric in your initiative to reach 5 completed tasks in your Project. 
+**Track progress for an initiative with initiative KPIs:** initiative KPIs give you the ability to set targets for task completion in Project that are higher or lower than the completion of all tasks in a plan. For example, if you have an initiative KPI to “Add 5 product videos to your website,” you can add a metric in your initiative to reach five completed tasks in your Project. 
 
 **Track progress for a key result:** Use the Project for the Web integration to automatically track progress towards your key results. For example, if your key result is “Deliver new ad campaign,” you can show the progress towards delivering the new ad campaign by connecting to the Project where you track your marketing tasks. 
 
@@ -47,7 +47,7 @@ By default, Microsoft Project for the Web is available as an integration in Viva
 1. Select **Automatically from a data source**. 
 1. Select **Project** from the list of available integrations. 
 1. The first time you connect to Project for the Web from Viva Goals, you may be prompted to sign into Project. Sign in and select Next. 
-1. Select the name of the [Environment](/azure/deployment-environments/overview-what-is-azure-deployment-environments) to fetch the list of Projects. Note: Most Projects are in the default environment. If you do not know the environment your Project is in, it is likely in the default environment.
+1. Select the name of the [Environment](/azure/deployment-environments/overview-what-is-azure-deployment-environments) to fetch the list of Projects. Note: Most Projects are in the default environment. If you don't know the environment your Project is in, it's likely in the default environment.
 1. Select the name of Project you want to connect to your Key Result
 1. **Optional**: Select the Bucket to filter tasks within a Project.
 1. **Optional**: Select if you want to filter tracking progress based on who the tasks are assigned to. Unassigned can also be used to select all unassigned tasks in the Project.
@@ -83,7 +83,7 @@ You can view the tasks and due date for tasks from Project in Viva Goals by sele
 1. While creating or editing a key result, select **Progress**. 
 1. Select **Automatically from a data source**. 
 1. Select **Project for the Web** from the list of available integrations. 
-1. The first time you connect to Project from Viva Goals, you will be prompted to sign into Project for the Web. Sign in and select Next. 
+1. The first time you connect to Project from Viva Goals, you'll be prompted to sign into Project for the Web. Sign in and select Next. 
 1. Select the name of the [Environment](/azure/deployment-environments/overview-what-is-azure-deployment-environments) to fetch the list of Projects.
 1. Select the name of Project you want to connect to your Key Result.
 1. **Optional**: Select the Bucket to filter tasks within a Project.
