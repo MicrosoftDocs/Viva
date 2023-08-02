@@ -22,7 +22,7 @@
        href: overview-native-mode.md
      - name: Automatic Native Mode migration and network consolidation
        href: automatic-migration-native-mode.md
-     - name: Key admin roles and permissions in Viva Engage
+     - name: Manage admin roles in Viva Engage
        href: eac-key-admin-roles-permissions.md 
      - name: Set up the Viva Engage admin center
        href: eac-get-started.md 
@@ -54,8 +54,8 @@
        items:
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
-        - name: Manage Viva Engage admins
-          href: /viva/engage/manage-viva-engage-users/manage-viva-engage-admins
+        - name: Customize your Viva Engage community
+          href: /viva/engage/configure-your-viva-engage-network/customize-your-community
         - name: Work with AzureAD-B2B guests in Viva Engage communities
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group

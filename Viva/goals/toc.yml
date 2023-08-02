@@ -158,6 +158,8 @@ items:
         href: looker-integration.md
       - name: Microsoft Planner integration
         href: microsoft-planner-integration.md
+      - name: Microsoft Project integration
+        href: microsoft-project-integration.md 
       - name: Mode integration
         href: mode-integration.md
       - name: monday.com integration
