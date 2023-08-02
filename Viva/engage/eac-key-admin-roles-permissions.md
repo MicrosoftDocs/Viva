@@ -132,12 +132,12 @@ The actions available to the Corporate Communicator, Engage (Yammer) admin, and 
 ## Office 365 report reader
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |View [activity](/microsoft-365/admin/activity-reports/viva-engage-activity-report-ww?view=o365-worldwide), [community](/microsoft-365/admin/activity-reports/viva-engage-groups-activity-report-ww?view=o365-worldwide), and [device usage](/microsoft-365/admin/activity-reports/viva-engage-device-usage-report-ww?view=o365-worldwide) reports for Viva Engage in the Microsoft 365 Reports dashboard.|
+|**Permissions** |Views the activity, community, and device usage reports for Viva Engage in the [Microsoft 365 Reports dashboard](/microsoft-365/admin/activity-reports&preserve-view=true).|
 |**Who can assign this role**|Global Administrator|
 |**How to assign this role**|In Microsoft 365, go to **Admin** > **Users** > **Active Users** and select a user.|
 
 ## See also
-[Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide&redirectSourcePath=%252farticle%252feac4d046-1afd-4f1a-85fc-8219c79e1504)
+[Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide&redirectSourcePath=%252farticle%252feac4d046-1afd-4f1a-85fc-8219c79e1504&preserve-view=true)
 
 [Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
