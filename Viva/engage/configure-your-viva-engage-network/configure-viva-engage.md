@@ -41,7 +41,7 @@ To access the Viva Engage tenant settings:
 To ensure that content is office‐appropriate, you may want to create a usage policy for engagement. For instructions and best practices, see [set up a usage policy](../set-up-usage-policy.md).
 
 #### Upload a Tenant logo
-As a Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
+As an Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
 #### Choose a language for system messages
