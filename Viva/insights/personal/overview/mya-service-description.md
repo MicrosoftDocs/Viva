@@ -1,7 +1,7 @@
 ---
 
 ms.date: 08/02/2023
-title: Viva Insights service description
+title: Personal insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
 author: lrolason
 ms.author: v-lilyolason
@@ -16,26 +16,26 @@ manager: ablubetk
 audience: Admin, user
 ---
 
-# Viva Insights service description
+# Personal insights service description
 
-Microsoft Viva Insights summarizes how you spend your time at work and then suggests ways to work smarter. Viva Insights provides these personalized insights through [elements](#elements) that you can access in Microsoft Outlook or through your web browser.
+Personal insights in Microsoft Viva Insights summarize how you spend your time at work and then suggest ways to work smarter. These personalized insights are provided through [elements](#elements) that you can access in Microsoft Outlook, in Teams, or through your web browser.
 
-Some of the elements of Viva Insights are provided automatically to users of various Microsoft 365 or Office 365 plans. For more information, see [Viva Insights distributions](#viva-insights-distributions).  
+Some of the elements of Viva Insights are provided automatically to users of various Microsoft 365 or Office 365 plans. For more information, go to [Viva Insights distributions](#viva-insights-distributions).  
 
-Viva Insights processes information in a manner that protects employee privacy. For more information, see [Data privacy](#data-privacy).
+Viva Insights processes information in a manner that protects employee privacy. For more information, go to [Data privacy](#data-privacy).
 
 ## Elements
 
-Viva Insights consists of the following elements.
+Personal insights in Viva Insights consist of the following elements:
 
-* Viva Insights in [Microsoft Teams and on the web](https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3) – Provides you personalized recommendations within your Microsoft Teams app and on the web that can help you build better work habits, such as following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
+* Viva Insights in [Microsoft Teams and on the web](https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3) – Provides you with personalized recommendations in your Teams app and on the web. These recommendations can help you build better work habits—for example, following through on commitments made to collaborators and protecting focus time in the day for uninterrupted, individual work.
 * [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) – Provides you with actionable insights in Outlook that help you stay on top of your tasks and get more done.
 * [Briefing emails](../Briefing/be-overview.md) – Within two hours of your workday, you'll get an email about any relevant items to help you stay in control of your calendar and better prepare for the day ahead.
     >[!Important]
     >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
-* [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3) – Get key highlights about your work patterns in a digest email in your Outlook inbox.
+* [Digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3) – Shows you highlights about your work patterns in a digest email in your Outlook inbox.
 * [Inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) – These brief, data- and AI-driven notifications appear in Outlook while you are either reading or composing an email or a meeting invitation.
-* [Schedule send suggestions](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) – When you're composing an email in Outlook, get suggestions to schedule email deliveries that align with recipients' working hours. This schduling helps minimize disruptions to recipients outside of their working hours.
+* [Schedule send suggestions](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) – When you're composing an email in Outlook, these suggestions to schedule email deliveries that align with recipients' working hours. This scheduling helps minimize disruptions to recipients outside of their working hours.
 
 ## Viva Insights distributions
 
