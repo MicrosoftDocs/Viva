@@ -25,25 +25,24 @@ search.appverid:
 Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. Engage admins can enable this reporting option through the Viva Engage admin center.
 
 ## Enable conversation reporting
-1. From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Configure Tenant**. 
-You're redirected to the Viva Engage admin webpage.
+1. From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Tenant settings**. 
 
-1. Select **Report conversations** under **Content & Security** on the left panel.
+1. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
 
-:::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
+2. Select **Report conversations** under **Content & Security** on the left panel.
+
+    :::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
 
 3. After you enable conversations, enter information for the following two settings:
 
-- **Report recipient (an organization email address)** - Provide an organization email address where reports are sent.
-> [!NOTE]
-> Viva Engage doesn't verify that the email address you enter is an organization email address.  
+    - **Report recipient (an organization email address)** - Provide an organization email address where reports are sent. Viva Engage can't verify that the email address you enter is an organization email address.  
 
-- **Pre-submission details or instructions for user** – Provide messaging that explains the reporting process to users when they select **Report a Conversation**.  
+    - **Pre-submission details or instructions for user** – Provide messaging that explains the reporting process to users when they select **Report a Conversation**.  
 For example, explain who in your organization their report goes to and next steps in the process. If possible, provide a link to your company network usage guidelines. Limited to 1,500 characters.
 
 4. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. For example, set expectations for when the submitter can expect a response and next steps for the organization. Limited to 1,500 characters.  
 
-:::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
+    :::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
 
 ## End user experience for reporting conversations
 
