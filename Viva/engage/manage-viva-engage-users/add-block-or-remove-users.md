@@ -95,7 +95,7 @@ You can deactivate or permanently remove active users, pending users, and guests
     
    - **Deactivate this user:**
  
-      - If the user has no Azure AD credentials, this option blocks the user from signing in until they verify their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
+      - If the user has no Azure AD credentials, this option blocks the user from signing in until the user verifies their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
 
       - If the user has Azure AD credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
     
@@ -126,7 +126,7 @@ You can deactivate or permanently remove active users, pending users, and guests
 <a name="BlockUsers"> </a>
 ## Block users
 
-A user with a blocked email addresses can't join your Viva Engage network unless an admin unblocks their address.
+A user with a blocked email address can't join your Viva Engage network unless an admin unblocks the address.
 
 **If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must block users from the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
   

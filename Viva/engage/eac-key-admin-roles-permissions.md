@@ -125,14 +125,14 @@ The actions available to the Corporate Communicator, Engage (Yammer) admin, and 
 ## Community admin
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>For instructions for typical tasks, see [Manage a community in Viva Engage](https://support.microsoft.com/en-us/topic/manage-community-members-in-viva-engage-3e75fbe9-1b3e-48b5-8e4b-af2716b7873aa).
+|**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>
  |**Who can assign this role**|Any Viva Engage user who creates a community is automatically assigned the community admin role, and can add or remove community admins (up to 100 per community).<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Viva Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks, including adding more community admins. |
 |**How to assign this role**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
 ## Office 365 report reader
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Views the activity, community, and device usage reports for Viva Engage in the [Microsoft 365 Reports dashboard](/microsoft-365/admin/activity-reports&preserve-view=true).|
+|**Permissions** |Views the activity, community, and device usage reports for Viva Engage in the Microsoft 365 Reports dashboard.|
 |**Who can assign this role**|Global Administrator|
 |**How to assign this role**|In Microsoft 365, go to **Admin** > **Users** > **Active Users** and select a user.|
 
