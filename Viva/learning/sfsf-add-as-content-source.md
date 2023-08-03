@@ -56,7 +56,7 @@ There are two major integration stages for which admins require specific permiss
     - Email id (Key Owner email id)
     - Key Passphrase (Password)  
 
-    ![Screenshot the Create PGP keys screen requesting information on name, email id, and key passphrase.](../media/learning/sfsf-onboarding-2.png)
+    ![Screenshot of the Create PGP keys screen requesting information on name, email id, and key passphrase.](../media/learning/sfsf-onboarding-2.png)
 
 6. Select **Create**. PGP key pairs are now generated.  
 
@@ -114,7 +114,7 @@ There are two major integration stages for which admins require specific permiss
 
         partners1.enabled=true
 
-5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable
+5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable.
 
 6. Save the SuccessFactors partner configuration and come back to Viva Learning > Manage Providers to complete the Viva Learning configuration.
 
