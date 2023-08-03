@@ -39,7 +39,6 @@ Third-party content sources aren't enabled by default. To enable these sources, 
 
 |Content provider  |Configuration instructions  |
 |---------|---------|
-|EdCast    |[Configure EdCast as a content source](configure-edcast-content-source.md)    |
 |Go1     |[Configure Go1 as a content source](configure-go1-content-source.md)         |
 |OpenSesame    |[Configure OpenSesame as a content source](configure-opensesame-content-source.md)    |
 |Skillsoft     |[Configure Skillsoft as a content source](configure-skillsoft-content-source.md)         |
