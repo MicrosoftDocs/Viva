@@ -1,5 +1,5 @@
 ---
-ms.date: 08/1/2023
+ms.date: 08/3/2023
 title: Set up and manage Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -70,6 +70,21 @@ To set up Topics
 
 3. This will take you to the Viva Topics admin page. Choose **Deploy Topics in 2 steps** to enable Topics for your organization. This will bring up the setup pane.
 
+### Alternative setup path
+
+You can take either path through your Microsoft 365 admin center to set up Topics.
+
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**.
+
+2. Under **Files and content**, select **Connect people to knowledge with Viva Topics**.
+
+3. This will take you to the Viva Topics admin page. Choose **Deploy Topics in 2 steps** to enable Topics for your organization. This will bring up the setup pane.
+
+    ![Screenshot of the Setup page.](../media/knowledge-management/mac-setup-2.png)
+
+>[!NOTE]
+>When you set up Topics, some settings will be chosen by default. You can [change these settings after you complete your setup.](#manage-topics). [Learn more about why some settings are recommended by default](plan-topic-experiences.md).
+
 ### Choose SharePoint sites
 
 ![Screenshot of the SharePoint setup page.](../media/knowledge-management/set-up-sharepoint.png)
@@ -103,6 +118,10 @@ On the **Topic center** page, you can create your topic center site where users 
 
 Review the settings you've chosen. Once everything is correct, choose **Finish**. You can manage your settings later by going back to your Topics setup page and choosing **Manage Topics**.
 
+Note that topics won't show up for your users immediately.You can monitor the number of topics found in your [analytics page](topics-analytics.md).
+
+By default, the only person who can manage Topics for your organization is the admin. You can change this setting by following the steps to [manage topics](#manage-topics) and going to the [**Topic permissions**](#topic-permissions) section.
+
 ## Manage topics
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then choose **Microsoft Viva**.
@@ -115,12 +134,15 @@ Review the settings you've chosen. Once everything is correct, choose **Finish**
 
 3. This will take you to the Viva Topics admin page. Choose **Manage Settings**.
 
+>[!IMPORTANT]
+>Default settings are noted with an asterisk (*).
+
 ### Topic discovery
 
 On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
 
 1. In the **Select SharePoint topic sources** section, select which SharePoint sites will be crawled as sources for your topics during discovery. Choose from:
-    - **All sites**: All SharePoint sites in your organization. This includes current and future sites.
+    - **All sites**: All SharePoint sites in your organization. This includes current and future sites.*
     - **All, except selected sites**: Type the names of the sites you want to exclude.  You can also upload a list of sites that you want to opt out from discovery. Sites created in future will be included as sources for topic discovery.
     - **Only selected sites**: Type the names of the sites you want to include. You can also upload a list of sites. Sites created in the future will not be included as sources for topic discovery.
     - **No sites**: Do not include any SharePoint sites.
@@ -128,9 +150,10 @@ On the Topic discovery page, you'll choose how Viva Topics sources and identifie
 2. Select **Save**.
 
 3. In the **Select data connection sources** section, choose any additional sources you want Viva Topics to source topics from. [Learn more about eligible connection sources](/microsoft-365/knowledge/manage-topics).
+No data sources are selected by default.
 
 4. In the **Exclude topics by name** section, you can add names of topics you want to exclude from topic discovery. Use this setting to prevent sensitive information from being included as topics. The options are:
-    - **Don't exclude any topics**
+    - **Don't exclude any topics***
     - **Exclude topics by name**
     1. To exclude topics by name, download and fill out the CSV file with the topics you want excluded.
     1. In the CSV template, enter the following information about the topics you want to exclude:
@@ -148,7 +171,7 @@ On the **Topic visibility** page, you'll choose who can see topics.
 1. Choose **Edit** to make changes to who can see topics.
 
 2. Select one of the following options:
-    - **Everyone in my organization**
+    - **Everyone in my organization***
     - **Only selected people or security groups**
     - **No one**
 
@@ -175,6 +198,7 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 3. Then, go to the **Who can manage topics** section. You can select:
     - **Everyone in my organization**
     - **Only selected people or security groups**
+    The default selection is **Admin**.
 
 4. Select **Save**.
 
@@ -183,7 +207,7 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 6. Select **Save**.
 
 7. Then go to the **Who can see Viva Topics Early Adopter Program experiences** section. You can select:
-    - **Everyone in my organization**
+    - **Everyone in my organization***
     - **Only selected people or security groups**
     - **No one**
 
@@ -197,14 +221,14 @@ On the **Topic center** page, you can create your topic center site where users 
 
 1. Under **Topic center name**, choose **Edit**.
 
-2. Pick a name for your topic center. Then select **Save**.
+2. Pick a name for your topic center. Then select **Save**. The default name is **Topic Center**.
 
 3. Next go to the **Site address** section. Here you can determine the URL of your topic center. Select **Save**.
 
 > [!IMPORTANT]
 > You can change the site name later, but you can't change the URL after you complete the wizard.
 
-### Review and finish
+### Review your settings
 
 Once you've chosen all your settings you can close out the **Manage Viva Topics** pane. You can change your settings at any time by repeating the same process from your Microsoft 365 admin center.
 
