@@ -31,7 +31,7 @@ Viva Engage is part of the Microsoft Viva employee experience platform built wit
 
 Both apps are part of the Microsoft Viva experience and are more powerful when used together. **Viva Engage** provides the social fabric for Viva and Microsoft 365, while **Viva Connections** is the gateway to the entire Viva experience.  
 
-Viva Connections is where people start their workday and quickly catch up with organizational news, tasks, and resources. Viva Engage brings community and conversations into the workplace. It’s the place you go to ask questions, share knowledge, build your social capital, and extend your network. 
+**Viva Connections** is where people start their workday and quickly catch up with organizational news, tasks, and resources. **Viva Engage** brings community and conversations into the workplace. It’s the place you go to ask questions, share knowledge, build your social capital, and extend your network.
 
 
 #### What happened to Yammer?
