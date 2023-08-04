@@ -212,8 +212,8 @@ Users who have already designated audiences for their experiences can use the fo
     1. **Add by group**: Filter based on the Azure AD/M365 group by typing the group name(s) in the search bar.
     1. **Add by license type**: Filter based on the subscriber license type.
 
-> [!NOTE]
-> If filtering by Microsoft 365 group and license options, only audiences who belong to both will be associated. For example, an administrator may want to create a distinct experience for a subset of all the frontline workers.
+       > [!NOTE]
+       > If filtering by Microsoft 365 group and license options, only audiences who belong to both will be associated. For example, an administrator may want to create a distinct experience for a subset of all the frontline workers.
 
 6. Select **Save** when you're done.
 
@@ -349,7 +349,7 @@ The organization would need to create a new experience, this time building their
 1. Follow the steps outlined for [building from an existing intranet portal](#build-from-an-existing-intranet-portal).
 2. If your organization has already set up content in the Connections dashboard and the navigation sections from Teams, you’ll need to manually copy content to the home site in SharePoint, otherwise the original content will be hidden in Teams when you publish the home site.
 
-If your organization doesn’t have any custom Connections content in Teams yet, you do not need to manually copy content. Instead, you can **Save** the home site and enable the experience.
+   If your organization doesn’t have any custom Connections content in Teams yet, you do not need to manually copy content. Instead, you can **Save** the home site and enable the experience.
 
    :::image type="content" source="../media/connections/set-up-admin-center/copy-content-to-home-site-small.png" alt-text="Screenshot showing an example of a SharePoint home site." lightbox="../media/connections/set-up-admin-center/copy-content-to-home-site.png":::
 
@@ -366,7 +366,7 @@ Follow these instructions if your organization already has custom Connections da
 2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
 3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
 
-  :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
 
 4. Copy content in the navigation column in the Resources section to global navigation in SharePoint. Go to **Global navigation > Enable** and then customize the navigational links. These links will automatically populate the navigation column in the Resources section of the Connections experience.
 5. After all the content you want to preserve has been copied to the home site in SharePoint, navigate back to the Connections experience in the MAC and turn the **Draft mode** toggle off and then select **Save**.
