@@ -26,8 +26,6 @@ Microsoft Viva Glint allows admins to customize Viva Glint dashboards for differ
 
 [Use Viva Glint's Broader Team Insights feature](https://go.microsoft.com/fwlink/?linkid=2231012)
 
-[Use Viva Glint's cross-program intelligence](https://go.microsoft.com/fwlink/?linkid=2231114)
-
 [Use the Manager Concierge dashboard in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231115)
 
 [The Team Summary dashboard in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231210)

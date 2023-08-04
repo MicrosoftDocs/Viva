@@ -106,6 +106,10 @@ Viva Goals supports a broad range of third-party integrations. See a comprehensi
 
 Now that you’ve seen the “why” around aligning your OKRs, see the step-by-step process “how” to collaborate, align, and view your OKRs in the Microsoft Viva Goals software platform: [Collaborate and Align with Viva Goals](https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1).
 
+## Connect and learn from experts and peers 
+
+Join the discussion and see the latest events in the [Microsoft Viva Goals Community](https://techcommunity.microsoft.com/t5/viva-goals/ct-p/Viva-Goals), including tips on [Measuring and Tracking OKRs](https://techcommunity.microsoft.com/t5/measuring-and-tracking-okrs/bd-p/Measuring_and_Tracking_OKRs). 
+
 ## Summary
 
 The OKR check-in process is the critical work done regularly (weekly or bi-weekly) throughout a time period to measure progress and make sure you’re on track. Users can perform check-ins quickly and easily within the web app, automatically with third-party integrations, or via collaboration tools such as Microsoft Teams.
