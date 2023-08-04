@@ -1,11 +1,11 @@
 ---
-ms.date: 08/11/2022
+ms.date: 08/04/2023
 title: "Introducing Microsoft Viva Engage"
 description: "Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,42 +20,31 @@ search.appverid:
 - MET150
 ---
 # Introducing Microsoft Viva Engage
-Viva Engage is a new employee experience that connects people across the company—wherever and whenever they work—so that everyone is included and engaged. The Viva Engage app in Teams helps organizations build community, spark engagement with leadership, harness knowledge and answers, and build personal networks.
 
-**Viva Engage brings people together across the organization to connect with leaders, coworkers and communities; crowdsource answers and ideas; share their work and experience; and find belonging at work.**
+Viva Engage brings people together across the organization to connect with leaders, coworkers, and communities. It provides an experience where people can crowdsource answers and ideas, share their work and experience, and find belonging at work.  
+
+Viva Engage is part of the Microsoft Viva employee experience platform built within Microsoft 365 and Microsoft Teams. The Viva suite of apps gives you the ability to support connection, insight, purpose, and growth in your organization using your existing infrastructure.
 
 <iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## What’s the relationship between Viva Engage and Yammer?
+#### How is Viva Engage different from Viva Connections? 
 
-Viva Engage is a new app, integrated in Teams, that surfaces existing and new employee experiences powered by Yammer services. Viva Engage delivers high-value employee experiences including community building, leadership engagement, knowledge sharing, and self-expression. The Viva Engage app integrates these experiences into Teams, and introduces new features including storyline and stories. These new Viva Engage features will also appear in Yammer web, desktop and mobile apps. So whether a user visits to Yammer.com, uses one of the popular Yammer mobile apps for iOS or Android, or experiences the Viva Engage app in Teams, they will see the same content and generally access effectively the same feature set.
- 
-## Frequently asked questions
+Both apps are part of the Microsoft Viva experience and are more powerful when used together. **Viva Engage** provides the social fabric for Viva and Microsoft 365, while **Viva Connections** is the gateway to the entire Viva experience.  
 
-### What is the difference between Viva Connections and Viva Engage?
-**Viva Connections** is the gateway to your employee experience. Connections offers organizations a branded company app for employees to find everything they need to get their jobs done and stay connected. Viva Connections is positioned to be the "home" for Microsoft Viva. It's a place where people can start their day and quickly catch up and keep up with organizational news, tasks, and resources.
+Viva Connections is where people start their workday and quickly catch up with organizational news, tasks, and resources. Viva Engage brings community and conversations into the workplace. It’s the place you go to ask questions, share knowledge, build your social capital, and extend your network. 
 
-**Viva Engage** powers the social layer of Microsoft Viva and Microsoft 365. The app is a place to connect and engage with leaders, colleagues, and communities; featuring experiences for serendipitous discovery of conversations happening across the organization, for asking questions and sharing knowledge, for deeper engagement, for virtual events, and for building social capital and extending your network at work.
 
-The **Viva Connections feed** features relevant content from Viva Engage, including announcements, mentions (@ mentions), and storyline posts from people you follow. The Viva Connections feed includes content from other sources as well, including SharePoint news.
+#### What happened to Yammer?
+Viva Engage surfaces all of the existing and new employee experiences powered by Yammer services. Viva Engage users can access effectively the same content and feature set as Yammer.com and Yammer mobile apps with no loss of continuity. Outside of branding changes, there are no changes to the features, capabilities, and investments for Microsoft 365 customers.
 
-**Different roles, better together.** Viva Connections operates at a Viva-wide aperture, bringing together content, tasks and resources in a more tailored, structured and curated experience that reflects the priorities of the organization and the user's job role. All with the goal of providing a one-stop shop, a "home" for the employee experience. Viva Engage is all about you, leaders, coworkers and communities. Viva Engage & Viva Connections work together to surface relevant content and empower employees to contribute, collaborate, work, and share.
-
-### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
+#### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
 Generally, all features in Yammer.com are also in Viva Engage. However, there are minor limitations with the Viva Engage app:
 - On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](/stream/overview) do not play
 - Settings that are only available in the new Yammer, such as [managing delegate settings](https://support.microsoft.com/office/60f879cd-43dd-44fe-bffb-1084d4f85285) and [setting your skin tone](https://support.microsoft.com/office/d28e25ed-ef20-4c7d-b54c-8bebe9caaded), are not available
 - Viewing community files stored in the SharePoint document library
 - Viewing or editing the full community info
 
- 
-## See also 
-End user documentation: [Getting started with Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
-
-[Viva Engage administration documentation](/yammer/)
+### See also 
+[Viva Engage help & learning](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 
 [Viva Engage adoption center](https://adoption.microsoft.com/viva/engage/)
-
-[Viva Engage help & learning](https://support.microsoft.com/yammer)
-
-
