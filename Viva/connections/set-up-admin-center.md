@@ -1,5 +1,5 @@
 ---
-ms.date: 06/14/2023
+ms.date: 08/04/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -34,7 +34,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 > - This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users with a Microsoft Viva Suite subscription are at present limited to creating 10 experiences. See Microsoft Viva plans and pricing for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 
@@ -46,13 +46,13 @@ Use these step-by-step instructions to help you set up and launch Viva Connectio
 
 Setting up Viva Connections only takes a few steps but there are some considerations to think through with other stakeholders at your organization before getting started:
 
-- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (i.e. Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (e.g. separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience will need to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
+- **Consider the type of experience(s) that are best for your organization**: You can create a stand-alone Viva Connections experience, or you can create a Connections experience that also builds off an existing intranet portal or SharePoint home site. You can create a single Connections experience for your entire organization with dashboard cards targeted to specific audiences (that is, Centralized HR communication), or you can create multiple experiences to meet the needs of distinct audiences (for example, separate content for front-line workers, subsidiaries needing separate content and branding, etc.). Keep in mind that if you have multiple experiences with overlapping content, each experience needs to be updated separately. Learn more on how to plan, build, and launch Viva Connections.
 
-- **Decide which audiences should be associated with each experience**: You can create more than one Connections experiences if your organization has a need for different employee experiences for distinct audiences. Decide which experiences should be associated with specific audiences. You’ll want to consider the order of experiences that should be seen for audiences that may belong to more than one experience.
+- **Decide which audiences should be associated with each experience**: You can create more than one Connections experiences if your organization has a need for different employee experiences for distinct audiences. Decide which experiences should be associated with specific audiences. You want to consider the order of experiences that should be seen for audiences that may belong to more than one experience.
 
 - **Think about who should have owner permissions to each experience**: [Owners have full permissions to edit the experience](edit-viva-home.md) and manage access for others. As a best practice, it’s recommended that each experience has a minimum of two owners assigned to it.
 
-- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You’ll want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
+- **Pick an icon and name for your app**: Choose an app icon and name to apply to your entire Connections app. This icon and label will display as an app in the Teams app bar. Consider what the right branding elements are for your organization. You want to pick a name that aligns with your organization’s brand, and that’s also meaningful and recognizable to viewers.
 
 > [!NOTE]
 > Currently the app icon and name can be managed only at a tenant level. Organizations with multiple experiences will not see individual names and icons for each one in Teams.
@@ -65,7 +65,7 @@ Setting up Viva Connections only takes a few steps but there are some considerat
    :::image type="content" source="../media/connections/set-up-admin-center/microsoft-viva-option.png" alt-text="Screenshot showing how to navigate to the Microsoft Viva admin center." lightbox="../media/connections/set-up-admin-center/microsoft-viva-option.png":::
 
 3. Select **Viva Connections** to open the Viva Connections admin center.
-4. The Viva Connections admin center will open. If you already have a SharePoint home site (intranet portal), Viva Connections will display it as an experience automatically.
+4. The Viva Connections admin center opens. If you already have a SharePoint home site (intranet portal), Viva Connections will display it as an experience automatically.
 
 ## Create a new Viva Connections experience
 
@@ -76,13 +76,13 @@ Create an all-encompassing Connections experience for the entire organization, o
 > [!NOTE]
 >
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
-> - A Microsoft Viva Suite license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - A Microsoft Viva Suite license or Viva Communities & Connections license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global admin permissions, SharePoint admin permissions, or higher to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
 ### Step 1: Create a new experience
 
-Admins will be able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
+Admins are able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
 
 > **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the dashboard, resources, and overall Viva home experience are hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
 <br>
@@ -139,21 +139,21 @@ If your organization has an existing intranet portal, then this option allows yo
 
 #### Choose the landing destination in the Viva Connections app
 
-Customers building from an existing intranet portal will be able to choose the landing destination for audiences in Teams via PowerShell command. (See Choose the default landing experience for Viva Connections desktop for more info).
+Customers building from an existing intranet portal are able to choose the landing destination for audiences in Teams via PowerShell command. (See Choose the default landing experience for Viva Connections desktop for more info).
 
-PowerShell functionality will be limited initially as follows:
+PowerShell functionality is limited initially as follows:
 
 >
 | **Command** | **Result** |
 |----|----|
-| **Get-SPOHomeSite** | Returns the single home site URL. <br><br> With multiple Viva Connections home sites, it will show a warning message and show the first Viva Connection home site from the list.
+| **Get-SPOHomeSite** | Returns the single home site URL. <br><br> With multiple Viva Connections home sites, a warning message and the first Viva Connection home site from the list will be shown.
 | **Set-SPOHomeSite** | 1. Initially it will continue supporting a single home site setup. Setting up more home sites can be done in the MAC. Support for setting up multiple home sites will be supported at a later stage. <br><br>2. It updates the Viva Connections default landing destination (Viva Connections, home site, or draft status for a home site). This functionality will continue getting support in multiple Viva Connection home sites. The cmdlet can be run with the home site URL to set the landing destination.
 | **Remove-SPOHomeSite** | This won't be supported initially for multiple home sites customers, but the MAC will support this operation. Users attempting to use the cmdlet will receive an error message and be redirected to the MAC. |
 >
 
 #### When to use a separate experience vs dashboard card-level targeting
 
-Depending on the size of your organization and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
+Depending on the size of your organization, and the information to communicate, you may decide to create a separate experience for each audience you wish to target or use card-level targeting in your dashboard to provide a targeted experience. There are scenarios in which you may choose one or the other. For information on these scenarios, see [Scenarios for creating additional Viva Connections experiences](#scenarios-for-creating-additional-viva-connections-experiences).
 
 ##### Scenarios for creating additional Viva Connections experiences
 
@@ -163,7 +163,7 @@ Depending on the size of your organization and the information to communicate, y
 - Presenting international content in a different language that won't overlap with existing content (for example, English experience, Spanish experience, and so on).
 - Content specific to frontline workers (for example, dashboard and resources with the frontline worker focus such as tasks, shifts, approvals, and top news).
 
-If creating multiple experiences, make sure you don't have any overlap with your content authors, content plan, or audience groups. Overlap will require you to manually manage the content across each experience.
+If creating multiple experiences, make sure you don't have any overlap with your content authors, content plan, or audience groups. Overlap requires you to manually manage the content across each experience.
 
 ##### Scenarios for card-level targeting and end-user personalization
 
@@ -174,7 +174,7 @@ When you're using card-level targeting, consider testing your dashboard with dif
 
 ### Step 2: Assign permissions
 
-Assign two or more owners to each experience so that they'll have full access to [edit the experience and manage permissions and access for others](edit-viva-home.md).
+Assign two or more owners to each experience so that they have full access to [edit the experience and manage permissions and access for others](edit-viva-home.md).
 
 1. After creating your Connection experiences, select the experience to assign owners to it.
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
@@ -310,7 +310,7 @@ The following settings are available in the settings panel:
 ### Delete a Connections experience
 
 > [!IMPORTANT]
-> 
+>
 > Deleting a Viva Connections experience will remove it from your list of experiences. However the site will still remain available under the list of active sites in the SharePoint Admin Center (SPAC).
 >
 > - If the experience was tied to an intranet portal-based experience, the home site designation will be removed and the site will become a regular SharePoint communication site again.
@@ -331,8 +331,8 @@ The following settings are available in the settings panel:
 
 > [!IMPORTANT]
 >
-> - Organizations that are not Viva Suite subscribers are limited to creating one Viva Connections experience.
-> - Viva Suite subscribers are limited to creating a maximum of ten Viva Connections experiences.
+> - Organizations that are not Viva Suite or Viva Communities & Connections subscribers are limited to creating one Viva Connections experience.
+> - Viva Suite and Viva Communities & Connections subscribers are limited to creating a maximum of ten Viva Connections experiences.
 
 Connections and home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. [Learn more about how Connections and homes sites work together](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
@@ -366,7 +366,6 @@ Follow these instructions if your organization already has custom Connections da
 2. Navigate to SharePoint and go to the home site. Next go to **Settings**.
 3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
 
-
   :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
 
 4. Copy content in the navigation column in the Resources section to global navigation in SharePoint. Go to **Global navigation > Enable** and then customize the navigational links. These links will automatically populate the navigation column in the Resources section of the Connections experience.
@@ -392,7 +391,7 @@ Viva Connections and home site administration are being combined in the Microsof
 
 ### Will the license requirements be enforced as soon as the feature is released?
 
-Initially, the feature will display a message on the admin UI stating that all the users will require the license when you set up more than one Viva Connections experience. Upcoming updates will enforce the license requirement at the end-user level. You'll receive additional communication when the license enforcement begins.
+Initially, the feature will display a message on the admin UI stating that all the users will require the license when you set up more than one Viva Connections experience. Starting September 2023, the Viva Connections Premium service plan will be available under the Microsoft Viva Suite SKU and the Viva Communities & Connections SKU, enabling you to manage the service plan and license assignment. Future updates will enforce the license requirement at the end-user level. You'll receive additional communication when the license enforcement begins.
 
 ### I would like my employees to access more than one Viva Connections experience in Teams. Is that supported?
 
