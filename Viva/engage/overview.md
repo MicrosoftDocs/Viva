@@ -37,7 +37,7 @@ Both apps are part of the Microsoft Viva experience and are more powerful when u
 #### What happened to Yammer?
 Viva Engage surfaces all of the existing and new employee experiences powered by Yammer services. Viva Engage users can access effectively the same content and feature set as Yammer.com and Yammer mobile apps with no loss of continuity. Outside of branding changes, there are no changes to the features, capabilities, and investments for Microsoft 365 customers.
 
-#### How does the Viva Engage app compare to Yammer.com?
+#### How does the Viva Engage app in Teams compare to Yammer.com?
 Generally, all features in Yammer.com are also in Viva Engage. However, the Viva Engage app in Teams and Outlook lacks these capabilities:
 - Playing live events and videos hosted in [Microsoft Stream (Classic)](/stream/overview) on iOS
 - Viewing or editing the full community info
