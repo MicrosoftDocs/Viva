@@ -24,7 +24,7 @@ description: "Learn about Goals Broadcast where leaders can update their teams a
 
 Leaders of teams can broadcast updates to their teams at important checkpoints in the OKR lifecycle. Some of these could be: 
 
-- At the conclusion of planning, when the OKRs are finalized. This will help you get the team aligned and focused on the plan for the upcoming time period.
+- At the conclusion of planning, when the OKRs are finalized. This helps you get the team aligned and focused on the plan for the upcoming time period.
 - Sharing an update after an MBR, with a focus on progress, wins and next steps.
 - Sharing an update post OKR closure, with a summary and score – with a focus on learnings and next steps. 
 
@@ -35,15 +35,15 @@ This feature is available to all **admins** and **owners of teams** (including t
 :::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-01.png" alt-text="Screenshot of the share an update button location in the Viva Goals list view" lightbox="../media/goals/goals-broadcast/goals-broadcast-01.png":::
 
 
-To complete your update, fill our the "share an update" modal with highlights, learnings, and next steps.
+To complete your update, fill out the "share an update" modal with highlights, learnings, and next steps.
 
 :::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-02.png" alt-text="Screenshot of a completed update with highlights, learnings, and next steps." lightbox="../media/goals/goals-broadcast/goals-broadcast-02.png":::
 
 ## Notifications
 
-You will have an option to choose to not notify the members in the team/organization. Notifications are turned on by default. Turning the notifications off will stop emails from going out to all members.  
+You have an option to choose to not notify the members in the team/organization. Notifications are turned on by default. Turning off the notifications will stop emails from going out to all members.  
 
-If you need to check which users receive the notifications, you can click on the team name to see the list of members.  
+If you need to check which users receive the notifications, you can select on the team name to see the list of members.  
 
 :::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-03.png" alt-text="Screenshot with the list of users highlighted." lightbox="../media/goals/goals-broadcast/goals-broadcast-03.png":::
 
@@ -63,13 +63,13 @@ You can also see the views and engagement received by the post.
 ## Frequently asked questions 
 
 1. **Is this feature available on dashboards and explorer views?**
-    1. The feature is available on Org and Team OKR pages and dashboard pages only. It is not available on explorer views and the “My OKRs” page. 
+    1. The feature is available on Org and Team OKR pages and dashboard pages only. It isn't available on explorer views and the “My OKRs” page. 
 
 1. **Can I control who receives the email update?**
-    1. The update will be shared to all members of the team via email. You can add members to the team to increase reach. Sending updates to members outside the team is not currently possible. 
+    1. The update is shared to all members of the team via email. You can add members to the team to increase reach. Sending updates to members outside the team isn't currently possible. 
 
 1. **Can the OKRs on the update card be customized?**
-    1. Currently, the snapshot of OKRs cannot be customized by users.
+    1. Currently, the snapshot of OKRs can't be customized by users.
 
 1. **When will recipients be notified of the update?**
-    1. Emails are generally sent within a few hours of posting the update. If large groups were added to the team recently, the update could take up to 6 hours to reach all team members. 
+    1. Emails are sent within a few hours of posting the update. If large groups were added to the team recently, the update could take up to 6 hours to reach all team members. 
