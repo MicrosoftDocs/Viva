@@ -1,11 +1,11 @@
 ---
-title: "Office 365 sign-in for Yammer"
+title: "Office 365 sign-in for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 7/11/2023
+ms.date: 7/27/2023
 audience: Admin
 ms.topic: overview
 ms.service: viva
@@ -70,10 +70,6 @@ By default, when users select **Conversations** in SharePoint, they see their Sh
     > [!NOTE]
     > This change can take up to 30 minutes to complete. 
   
-## Support for users without email
-
-While legacy Viva Engage username and password required a valid email address, users without email addresses are supported with Office 365 sign-in. Ensure the UPN assigned to the user is in an email address format (for example: user@contoso.com) and the domain associated with the email address is part of the Viva Engage network.
-  
 ## Frequently asked questions
 
 **Q: Can I access Office 365 and Viva Engage on my phone with just one sign-in account?**
@@ -90,4 +86,4 @@ A: The Office 365 sign-in for Viva Engage automatically respects any Office 365 
     
 **Q: Can I combine Viva Engage networks in order to take advantage of Office 365 sign-in for Viva Engage?**
 
-A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md).
+A: Yes, this is required as of October 16, 2018. For more information, see [Network migration: Consolidate multiple Viva Engage networks](../configure-your-viva-engage-network/consolidate-multiple-networks.md).

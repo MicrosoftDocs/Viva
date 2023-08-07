@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 12/06/2019
 title: Viva Insights insights for managers
 description: Learn how the Viva Insights Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team

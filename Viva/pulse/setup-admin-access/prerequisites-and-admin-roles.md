@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 06/05/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -18,19 +18,16 @@ search.appverid: MET150
 
 # Prerequisites and admin roles
 
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](./set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change. As a reminder, all tenant and user data from Public Preview will be deleted on July 14, 2023.
-
 ## Prerequisites
 
 You will need to have Microsoft Teams deployed for your organization to use Viva Pulse in Microsoft Teams. Viva Pulse will also be available as a web experience for which users will not need a Microsoft Teams application.
 
 > [!IMPORTANT]
-> We do not require a license to Viva Suite / Viva Pulse to participate in the Viva Pulse Public Preview. We will require a Viva Suite / Viva Pulse license only at General Availability. However, Viva Pulse requires its users to be assigned Microsoft Forms licenses to send a Pulse. A user will not need a Microsoft Forms license to respond to a Pulse. If there are any tenant-wide conditional policies set up for Microsoft Forms that require users to accept terms of use, those policies will be bypassed for a seamless experience.
+> Viva Pulse requires its users to be assigned Microsoft Forms licenses to send a Pulse. A user will not need a Microsoft Forms license to respond to a Pulse. If there are any tenant-wide conditional policies set up for Microsoft Forms that require users to accept terms of use, those policies will be bypassed for a seamless experience.
 
 ## Admin roles and permissions
 
-The following roles and permissions are required to set up Viva Pulse.
+Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](../get-started/licensing-requirements.md). The following roles and permissions are required to set up Viva Pulse.
 
 | Roles | Permissions |
 | ----------- | ----------- |

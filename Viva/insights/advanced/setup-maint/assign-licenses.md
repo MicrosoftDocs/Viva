@@ -41,7 +41,7 @@ Before you can assign licenses, the Microsoft 365 global admin, the Viva Insight
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
 
- People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). 
+ People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q2-how-can-i-find-out-what-my-plan-is). 
 
 For more information on licensing and user configuration, refer to [Configure personal insights](configure-personal-insights.md).
 
@@ -64,12 +64,12 @@ If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you
 
 ## When newly licensed users show up in data
 
-The data that the advanced insights app uses refreshes once a week, on Sunday. The new data processes and appears in the advanced insights app one day later, on Monday. This data includes the data records for licensed users. So, if you add a user license on a Tuesday, that person won't show up in Viva Insights data until the following Monday. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
+The data that the advanced insights app uses refreshes once a week, during the first part of the week. This data includes the data records for licensed users. So, if you add a user license, it's possible that person won't show up in Viva Insights data until the following week. After this weekly refresh and processing, data that pertains to the newly licensed user appears in Viva Insights in the following ways:
 
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
 * When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
 
-The Microsoft admin center and Azure Active Directory (AD) tell you whether a user is licensed. After a user is assigned a license, that user shows up in Azure AD and the Microsoft admin center, but not in Viva Insights until the next data-refresh cycle is complete the following Monday.
+The Microsoft admin center and Azure Active Directory (AD) tell you whether a user is licensed. After a user is assigned a license, that user shows up in Azure AD and the Microsoft admin center, but not in Viva Insights until the next data-refresh cycle is complete during the first part of the following week.
 
 ### When users show up in query results
 
