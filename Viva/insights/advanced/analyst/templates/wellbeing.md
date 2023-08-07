@@ -1,5 +1,5 @@
 ---
-ms.date: 03/03/2023
+ms.date: 08/07/2023
 title: Wellbeing - balance and flexibility report
 description: Learn how the Wellbeing - balance and flexibility PowerBI template from Microsoft Viva Insights helps you discover whether your employees maintain work-life balance and flexibility at work
 author: lilyolason
@@ -17,6 +17,10 @@ audience: Admin
 
 # Wellbeing – balance and flexibility report
 
+
+>[!Note]
+>We updated this template on August 10, 2023. If you've used the **Wellbeing – balance and flexibility** report before this date, make sure you run a new query as described in [Report setup](#report-setup) so you can enable new insights.
+
 The Wellbeing – balance and flexibility report uses a template populated by Microsoft Viva Insights data to help you get insights into employee wellbeing across your company. This analysis can help you uncover opportunities to improve focus, work-life balance, flexibility at work, and employees’ sense of community.
 
 With this report, you can visualize and explore the following top-level business questions asked by leaders:
@@ -32,8 +36,6 @@ Each report page includes a **Why this matters** interpretation, **recommended a
 
 To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Wellbeing – balance and flexibility report** query in Viva Insights.
 
->[!Note]
->We updated this template on March 3, 2023. If you've used the **Wellbeing – balance and flexibility** report before this date, make sure you run a new query as described in [Report setup](#report-setup) so you can enable new insights.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
@@ -136,7 +138,7 @@ Identify employees' flexibility at work by exploring these three key percentages
 
 * **Flexible start times** – Weeks where employees had at least one day of flexible start time.
 * **Recurring time to disconnect** – Weeks where employees took at least one hour of recurring break each day.
-* **Control active hours** – Weeks where employees limited their work activities to their expected working hours. Expected work hours are the hours employees plan to work. For example, if employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day would be eight hours. 
+* **Control active hours** – Employees that limited their daily work activities to their expected working hours. Expected work hours are the hours employees plan to work. For example, if employees have a standard work schedule from 9:00 AM to 5:00 PM, their expected working hours for each day would be eight hours.
 
 This analysis offers insight into how employees are adopting flexible working schedules.
 
@@ -148,7 +150,7 @@ This analysis offers insight into how employees are adopting flexible working sc
 
 **Are employees able to mindfully disconnect?**
 
-Find out how well employees are able to disconnect from work, and identify groups who might experience burnout. View the percentage weeks employees spent in each of the following categories (arranged here from most to least active online):
+Find out how well employees are able to disconnect from work, and identify groups who might experience burnout. View the percentage weeks employees spent in each of the following categories (online activities on Outlook or Teams):
 
 * Always on 
 * Long (non-stop) 
