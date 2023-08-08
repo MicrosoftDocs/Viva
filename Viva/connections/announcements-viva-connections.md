@@ -1,6 +1,6 @@
 ---
 ms.date: 08/04/2023
-title: "Use announcements in Connections"
+title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -24,24 +24,24 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "Use announcements in Viva Connections"
 ---
 
-# Use announcements in Connections
+# Use announcements in Viva Connections
 
-Announcements allow you to create and share time-sensitive messages in Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
+Announcements allow you to create and share time-sensitive messages in Viva Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png" alt-text="Screenshot that shows what an announcement in Connections looks like on a tablet and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a tablet and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png":::
 
 > [!NOTE]
 >
 > - This experience is rolling out to targeted release customers now and will become generally available by September 2023.
-> - The first release of the announcement feature is only available to customers with a SharePoint home site but will become available to all Connections customers in the fall.
+> - The first release of the announcement feature is only available to customers with a SharePoint home site but will become available to all Viva Connections customers in the fall.
 > - The first release of the announcement feature will only be available for mobile and tablet devices.  Support for desktop devices will become available in September 2023.
 > - You must have member permissions or higher to your organization’s SharePoint homes site to send and manage announcements.
 
 ## When to use announcements
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-example.png" alt-text="Screenshot of an open announcement in Connections mobile."lightbox="../media/connections/announcements-viva-connections/announcement-example.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcement-example.png" alt-text="Screenshot of an open announcement in Viva Connections mobile."lightbox="../media/connections/announcements-viva-connections/announcement-example.png":::
 
-Announcements are the best way to communicate targeted, time-sensitive information in the Connections app.
+Announcements are the best way to communicate targeted, time-sensitive information in the Viva Connections app.
 
 **Example Scenarios:**
 
@@ -61,7 +61,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 - Specify which audiences need to receive the announcement to ensure the highest engagement possible.
 - Allow users to dismiss announcements for less-urgent topics or when there are several high-impact announcements active at the same time.
 
-## How announcements display in Connections
+## How announcements display in Viva Connections
 
 > [!IMPORTANT]
 > Announcements are currently only viewable on tablet and mobile experiences. The ability to view announcements on desktop is planned for future releases.
@@ -69,23 +69,23 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 **In Teams**: Users get a Teams notification alerting them of a new announcement on their device’s lock screen  when the user has enabled it.
 
 > [!NOTE]
-> Connections announcement notifications being displayed in the Teams activity feed is scheduled for a future release.
+> Viva Connections announcement notifications being displayed in the Teams activity feed is scheduled for a future release.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of an Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png":::
 
-**In Connections**: Announcements display towards the top of the Connections experience where more details can be viewed.
+**In Viva Connections**: Announcements display towards the top of the Viva Connections experience where more details can be viewed.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-notification.png" alt-text="Screenshot of an open announcement in the Connections mobile app."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-notification.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-notification.png" alt-text="Screenshot of an open announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-notification.png":::
 
 ## How to create an announcement
 
 > [!NOTE]
-> Announcements are currently only able to be authored from a SharePoint home site. Authoring an announcement from the Connections desktop is planned for future release.
+> Announcements are currently only able to be authored from a SharePoint home site. Authoring an announcement from the Viva Connections desktop is planned for future release.
 
 1. There are three ways to access announcements to create a new announcement from a SharePoint home site:
     1. Select **+New** from the command bar and choose **Announcement**.
     1. Select **Announcements** from the site navigation and then **+ New announcement**.
-    1. Navigate to **Settings** > **Manage Connections** > **Announcements** > **+ New announcement**.
+    1. Navigate to **Settings** > **Manage Viva Connections** > **Announcements** > **+ New announcement**.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-overview.png" alt-text="Screenshot of a SharePoint home site highlighting three options for starting a new announcement."lightbox="../media/connections/announcements-viva-connections/create-announcement-overview.png":::
 
