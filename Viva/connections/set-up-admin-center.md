@@ -1,5 +1,5 @@
 ---
-ms.date: 08/04/2023
+ms.date: 08/07/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -31,7 +31,6 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 
 > [!NOTE]
 >
-> - This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
