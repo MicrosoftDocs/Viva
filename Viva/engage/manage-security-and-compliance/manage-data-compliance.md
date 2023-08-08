@@ -2,10 +2,10 @@
 title: "Manage Viva Engage data compliance"
 f1.keywords:
 - NOCSH
-ms.author: v-cdemaagd
-author: cedemaagd
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 6/28/2023
+ms.date: 08/08/2023
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -50,9 +50,6 @@ Monitor sensitive content by specifying keywords such as banned words or employe
 |Credit cards  <br/> |\b(?:\d[ ‐]\*?){13,16}\b  <br/> |1234 5678 90123  <br/> 1234 5678 9012 3456  <br/> 1234‐5678‐9012‐3456  <br/> |
 |Social Security numbers  <br/> |\b\d{3}[ -]\d{2}[ -]\d{4}\b  <br/> |123 45 6789  <br/> 123‐45‐6789  <br/> |
 Monitor group create|has created|Matthew has created the Easter Region Sales group.
-   
-   > [!TIP]
-   > For a starting point for creating your keyword list, visit: http://www.bannedwordlist.com ([http://www.bannedwordlist.com](https://go.microsoft.com/fwlink/?LinkId=525065)). 
   
 <a name="DataRetention"> </a>
 ## Data retention
