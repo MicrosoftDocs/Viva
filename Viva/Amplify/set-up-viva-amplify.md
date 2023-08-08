@@ -49,3 +49,21 @@ The following roles and permissions are required to set up Viva Amplify.
 |Microsoft 365 global admin |The Microsoft 365 Global Admin has global access to management features and data across Microsoft 365 online services. For Viva Amplify, the Microsoft 365 Global Admin can install and pin the Viva Amplify app in Microsoft Teams, and manage in-app Viva Amplify settings. |
 |SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, as well as the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
 |Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It is important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Yammer in addition to Outlook. Also, the user will be able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, as well as workload specific ones like Teams and SharePoint admin centers.
+
+[Learn more about Microsoft 365 roles.](/azure/active-directory/roles/permissions-reference)
+
+### Assign admin roles
+
+>[!IMPORTANT]
+>Users need both SharePoint admin and Groups admin roles to be able to manage settings in Viva Amplify.
+
+1. Sign into your Microsoft 365 admin center and navigate to **Viva Amplify**.
+1. Choose **Assign SharePoint Administrator Role settings**.
+1. Search for a user by entering their name or email.
+1. Select the user(s) for whom you want to assign the **SharePoint Administrator** role.
+1. Choose **Assign Groups Administrator Role settings**.
+1. Search for a user by entering their name or email.
+1. Select the user(s) for whom you want to assign the **Groups Administrator** role.
+1. Select **Add**.
+
+You can also assign roles from your Microsoft 365 admin center by navigating to **Roles** > **Role assignment**.
