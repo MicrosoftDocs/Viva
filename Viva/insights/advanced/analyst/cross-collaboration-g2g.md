@@ -18,7 +18,7 @@ audience: Admin
 
 # Collaboration between two groups (group-to-group)
 
-Group-to-group queries help you understand how a team invests their time across the rest of the organization and beyond. The query results list pairs of groups, as defined by organizational attributes, along with how much time people in the first group (known as “primary collaborators”) allocated to other groups (known as “secondary collaborators”).
+Group-to-group queries help you understand how a team invests their time across the rest of the organization and beyond. The query results identify pairs of groups, as defined by organizational attributes, along with how much time people in the first group (known as “primary collaborators”) allocated to other groups (known as “secondary collaborators”).
 
 :::image type="content" source="../images/analyst-xc-g2g-illustration.png" alt-text="Illustration of how group-to-group queries work.":::
 
