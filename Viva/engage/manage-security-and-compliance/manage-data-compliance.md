@@ -46,9 +46,9 @@ Monitor sensitive content by specifying keywords such as banned words or employe
     
 |**Purpose**|**Pattern**|**Matches**|
 |:-----|:-----|:-----|
-|Word boundary  <br/> |\bword\b  <br/> |\btheme\b matches "theme" but not "themes" or "them"  <br/> |
-|Credit cards  <br/> |\b(?:\d[ ‐]\*?){13,16}\b  <br/> |1234 5678 90123  <br/> 1234 5678 9012 3456  <br/> 1234‐5678‐9012‐3456  <br/> |
-|Social Security numbers  <br/> |\b\d{3}[ -]\d{2}[ -]\d{4}\b  <br/> |123 45 6789  <br/> 123‐45‐6789  <br/> |
+|Word boundary |\bword\b |\btheme\b matches "theme" but not "themes" or "them" |
+|Credit cards |\b(?:\d[ ‐]\*?){13,16}\b |1234 5678 90123  <br/> 1234 5678 9012 3456  <br/> 1234‐5678‐9012‐3456 |
+|Social Security numbers |\b\d{3}[ -]\d{2}[ -]\d{4}\b |123 45 6789  <br/> 123‐45‐6789 |
 Monitor group create|has created|Matthew has created the Easter Region Sales group.
   
 <a name="DataRetention"> </a>
