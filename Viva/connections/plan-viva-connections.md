@@ -1,5 +1,5 @@
 ---
-ms.date: 6/19/2023
+ms.date: 08/04/2023
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -27,8 +27,7 @@ description: "Plan Microsoft Viva Connections for your organization"
 
 > [!NOTE]
 >
-> - This experience is rolling out to private preview customers now and is expected become generally available to all customers by the end of July 2023.
-> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
+> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 
@@ -113,7 +112,6 @@ Start by identifying the key scenarios that Viva Connections needs to support an
 >
 Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. Review the [Adoption center's best practices from successful Viva Connections customers](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf) for more information on common scenarios and how to identify employee experiences that result in lasting adoption.
 
-
 >
 | General | For information workers   | For frontline workers  |
 | :------------------- | :------------------- |:-------------------|
@@ -147,7 +145,6 @@ Not *every* task should be turned into a card on the Dashboard. Focus on the mos
    ![Image of a planning matrix.](../media/connections/plan-matrix.png)
 
 #### Design with your audience in mind
-
 
 As a best practice, it's important to make decisions that are rooted in specific tasks for certain audiences:
 
