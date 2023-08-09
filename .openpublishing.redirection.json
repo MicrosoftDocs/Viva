@@ -1563,6 +1563,16 @@
       "source_path": "viva/insights/personal/use/mya-outlook-add-in/mya-open-add-in.md",
       "redirect_url": "https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/overview/productivity-insights.md",
+      "redirect_url": "https://support.microsoft.com/topic/use-microsoft-viva-insights-in-outlook-83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/insights/personal/teams/faq.md",
+      "redirect_url": "/viva/insights/personal/overview/mya-faq",
+      "redirect_document_id": false
     }
     ]
   }

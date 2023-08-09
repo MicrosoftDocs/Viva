@@ -33,16 +33,14 @@ Both apps are part of the Microsoft Viva experience and are more powerful when u
 
 **Viva Connections** is where people start their workday and quickly catch up with organizational news, tasks, and resources. **Viva Engage** brings community and conversations into the workplace. It’s the place you go to ask questions, share knowledge, build your social capital, and extend your network.
 
-
 #### What happened to Yammer?
 Viva Engage surfaces all of the existing and new employee experiences powered by Yammer services. Viva Engage users can access effectively the same content and feature set as Yammer.com and Yammer mobile apps with no loss of continuity. Outside of branding changes, there are no changes to the features, capabilities, and investments for Microsoft 365 customers.
 
-#### Compared with Yammer.com, are there any features missing from the Viva Engage app in Teams?
-Generally, all features in Yammer.com are also in Viva Engage. However, Viva Engage app has a few minor limitations:
-- On iOS, live events and other videos hosted in [Microsoft Stream (Classic)](/stream/overview) don't play
-- Settings that are only available in the new Yammer, such as [managing delegate settings](https://support.microsoft.com/office/60f879cd-43dd-44fe-bffb-1084d4f85285) and [setting your skin tone](https://support.microsoft.com/office/d28e25ed-ef20-4c7d-b54c-8bebe9caaded), aren't available
-- Viewing community files stored in the SharePoint document library
+#### How does the Viva Engage app in Teams compare to Yammer.com?
+Generally, all features in Yammer.com are also in Viva Engage. However, the Viva Engage app lacks these capabilities:
+- Playing live events and videos hosted in [Microsoft Stream (Classic)](/stream/overview) on iOS
 - Viewing or editing the full community info
+- Viewing community files stored in the SharePoint document library
 
 ### See also 
 [Viva Engage help & learning](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
