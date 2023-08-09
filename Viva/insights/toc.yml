@@ -61,9 +61,7 @@ items:
       - name: Personal insights
         items:
         - name: End-user documentation
-          href: https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73
-        - name: Teams FAQ
-          href: personal/teams/faq.md                      
+          href: https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73                     
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
       - name: Team and organization insights
@@ -109,7 +107,9 @@ items:
               - name: Set primary and secondary collaborators
                 href: advanced/analyst/collaborators.md
               - name: Collaboration between individuals (person-to-person query)
-                href: advanced/analyst/cross-collaboration-p2p.md  
+                href: advanced/analyst/cross-collaboration-p2p.md
+              - name: Collaboration between an individual and a group (person-to-group)
+                href: advanced/analyst/cross-collaboration-p2g.md    
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
