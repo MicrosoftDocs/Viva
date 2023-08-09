@@ -56,20 +56,22 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Report settings
 
-After the **Onboarding and development** report is set up and populated with Viva Insights data in Power BI, map values as prompted, which are listed below: 
+After the **Onboarding and development** report is set up and populated with Viva Insights data in Power BI, map values as prompted, which are listed below:
 
-* **New hire categories** – Select the categories you want to consider as “new hires” in the report. Include “Employees who are new to the company,” “Employees who are new in role,” or both. 
-* **Max. number of months in role to consider** – Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”  
+|Value|Description|
+|-------|-----------|
+|**New hire categories** | Select the categories you want to consider as “new hires” in the report. Include “Employees who are new to the company,” “Employees who are new in role,” or both.|
+|**Max. number of months in role to consider** |Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”|
 
 After this initial prompt, you can view and set the following parameters on the **Settings** page:
 
-* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **View report by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
-* **Filter by attribute** (optional) – Select the organizational attribute and values you want to use to filter the employees shown in this report.
-* **Exclusions** – Use the check boxes to:
-    * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
-    * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
-* **Select the preferred language for your report** – Change the language for your report. 
+|Setting|Description|
+|-------|-----------|
+|**Select the time period for the report**| Select the time period for which you want to view data in the report.|
+|**View report by** | Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.|
+|**Filter by attribute** (optional) | Select the organizational attribute and values you want to use to filter the employees shown in this report.|
+|**Exclusions** |Use the check boxes to: <ul><li>Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats). <li>Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.|
+|**Select the preferred language for your report** | Change the language for your report.|
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
