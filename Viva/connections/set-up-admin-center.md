@@ -36,6 +36,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
+> - If your home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
 
 [Microsoft Viva Connections](viva-connections-overview.md) is an employee experience app in Microsoft Teams that brings together relevant news, conversations, resources, and tools in one place for every employee. It's built on your current Microsoft 365 ecosystem to help you engage, inform, and empower your workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
@@ -177,6 +178,9 @@ Assign two or more owners to each experience so that they have full access to [e
 
 1. After creating your Connection experiences, select the experience to assign owners to it.
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
+
+> [!NOTE]
+> If your home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
 3. Select **Add**.
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
 5. Select **Add** after you've finished entering the names.
