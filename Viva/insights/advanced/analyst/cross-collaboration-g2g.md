@@ -56,7 +56,7 @@ Principle 3: Within-group allocation happens when the primary collaborator group
 
 Select **Collaboration between two groups in your organization** to create a group-to-group query.
 
-:::image type="content" source="../images/analyst-xc-g2g-setup.png" alt-text="Screenshot showing the UI to set up group-to-group queries.":::
+:::image type="content" source="../images/analyst-xc-g2g-setup.png" alt-text="Screenshot showing the UI to set up group-to-group queries." lightbox="../images/analyst-xc-g2g-setup.png":::
 
 ### Add metrics, filters, and employee attributes
 
