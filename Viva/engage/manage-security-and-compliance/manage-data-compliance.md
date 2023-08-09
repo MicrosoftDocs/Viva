@@ -32,7 +32,7 @@ Monitor sensitive content by specifying keywords such as banned words or employe
   
 1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**, and enter the person's email address in **Email Address**. This person should be a verified admin so they have permission to delete messages anywhere in Viva Engage.
     
-2. When a post matches a keyword, the person listed in **Email Address** receives an email. They can then click a link in the email to review, edit, or delete the flagged post. 
+2. When a post matches a keyword, the person listed in **Email Address** receives an email. They can then select a link in the email to review, edit, or delete the flagged post. 
     
  **Specify keywords and phrases to monitor**
   
@@ -55,8 +55,8 @@ Monitor group create|has created|Matthew has created the Easter Region Sales gro
 ## Data retention
 
 You can control whether deleted messages and files stored in Viva Engage are retained and available in data exports. 
-
-If a network is in Archive Mode, any content that is deleted by the user will be removed from the front end but retained by the system for the life of the network.  For networks in Delete mode, content that is deleted will be removed after 30 days at which point it will no longer be recoverable.
+ 
+Networks in Archive Mode retain all content for the life of that network. This is true even if users delete content; the content is only removed from the front end. Networks in Delete mode remove content after 30 days after it's been deleted. At that point, the content is not recoverable.
 
  **Set whether to retain deleted messages and files stored in Viva Engage**
   
@@ -64,7 +64,7 @@ If a network is in Archive Mode, any content that is deleted by the user will be
     
 2. To prevent deleted data from being available in exported data, select **Delete**. Or, to enable deleted data to appear in exported data, select **Archive**.
     
-    Retained data stored in Viva Engage can be permanently deleted by using the Viva Engage Developer API. To do this you export the data to identify the data that needs to be permanently deleted, and then write a custom PowerShell script to loop through the specific items to delete. For information, see the REST API section of  [Develop apps for Viva Engage](https://go.microsoft.com/fwlink/?linkid=874797). 
+    To permanently delete retained data in Viva Engage storage, you must use the Viva Engage Developer API. First, export the data to identify the data you need to delete permanently. Next, write a custom PowerShell script to loop through the specific items to delete. For information, see the REST API section of  [Develop apps for Viva Engage](https://go.microsoft.com/fwlink/?linkid=874797). 
 
  **Set whether to retain deleted files stored in SharePoint**
 
