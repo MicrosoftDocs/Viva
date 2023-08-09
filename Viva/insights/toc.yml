@@ -110,7 +110,7 @@ items:
                 href: advanced/analyst/cross-collaboration-p2p.md
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
-              - name: Collaboration between two groups (group-to-group)
+              - name: Collaboration between groups (group-to-group)
                 href: advanced/analyst/cross-collaboration-g2g.md        
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
