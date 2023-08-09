@@ -1449,9 +1449,120 @@
         "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
         "redirect_document_id": false
         },
-      {"source_path": "viva/insights/personal/teams/index.yml",
+      {
+        "source_path": "viva/insights/personal/teams/index.yml",
         "redirect_url": "https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3",
         "redirect_document_id": false
-      }
+      },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/adopt-habit-building.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/adopt-habit-playbooks.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/adopt-learning-modules.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/adopt-myanalytics.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-define-your-why.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-develop-habits.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-diagnose.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-get-started.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-resources.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-set-goals.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/indiv-adopt-sustain-change.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/team-adopt-implement.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/team-adopt-intro.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/team-adopt-measure.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/team-adopt-plan.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-adoption/team-adopt-reinforce.md",
+      "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-outlook-add-in/mya-add-in-add-top-collab.md",
+      "redirect_url": "https://support.microsoft.com/topic/use-microsoft-viva-insights-in-outlook-83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-outlook-add-in/mya-add-in-to-do.md",
+      "redirect_url": "https://support.microsoft.com/topic/use-microsoft-viva-insights-in-outlook-83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-outlook-add-in/mya-add-in-unread-emails.md",
+      "redirect_url": "https://support.microsoft.com/topic/use-microsoft-viva-insights-in-outlook-83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-outlook-add-in/mya-open-add-in.md",
+      "redirect_url": "https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/overview/productivity-insights.md",
+      "redirect_url": "https://support.microsoft.com/topic/use-microsoft-viva-insights-in-outlook-83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/insights/personal/teams/faq.md",
+      "redirect_url": "/viva/insights/personal/overview/mya-faq",
+      "redirect_document_id": false
+    }
     ]
   }

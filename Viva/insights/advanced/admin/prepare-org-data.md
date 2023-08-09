@@ -231,6 +231,9 @@ This section contains information about the attributes that you use in the organ
 
 <sup> 4. You’re not required to include custom attributes. If you do add them, however, they can’t have the same name as any of the required or reserved attributes. </sup>
 
+>[!Note]
+>Any attribute that contains **Microsoft_** will not be available in Viva Insights.
+
 ### Attribute notes and recommendations
 
 #### Some attributes exist only for a subset of the population

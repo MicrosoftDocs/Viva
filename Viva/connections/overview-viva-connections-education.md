@@ -43,6 +43,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 > [!NOTE]
 >
 > - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. **[Learn more about home sites and how they complement Viva Connections](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together)**.
+> - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections is not currently supported on tablet devices. Check the **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** for the status of tablet support.
 
 ## Components to Viva Connections
@@ -82,8 +83,8 @@ A dashboard is made of medium-sized and large-sized cards which users can intera
 Some cards can also reflect dynamic content that refreshes based on a user action or other event. For example, users can see new tasks assigned, assignments to complete, online lectures to join, library books to return or required training courses when they open the dashboard.
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
-> 
-> 
+>
+>
 | Element | Mobile | Desktop |
 | :----- | :----- | :----- |
 | **Dashboard** | Displays as the default tab in the Viva Connections app in Teams. | It's prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](/viva/connections/use-dashboard-web-part-on-home-site). |
@@ -121,7 +122,7 @@ Cards in the Viva Connections Dashboard are based on adaptive cards and the [Sha
 
 ![Screenshot of the assignments card](../media/connections/overview-viva-connections-education/assignments-card.png)
 
-1. While in **edit** mode, select **+ Add a card** from the dashboard. 
+1. While in **edit** mode, select **+ Add a card** from the dashboard.
 2. Select **Assignments** from the web toolbox.
 
     ![Screenshot of the Assignments icon](../media/connections/overview-viva-connections-education/assignments-icon.png)
@@ -218,9 +219,9 @@ The mobile experience uses tabs for the dashboard, feed, and resources to make s
 
 ## Curated and tailored experiences
 
-Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. 
+Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted.
 
-> [!NOTE] 
+> [!NOTE]
 > **[Audience targeting](/viva/connections/use-audience-targeting-in-viva-connections)** is accomplished using Azure Active Directory (Azure AD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
 
 A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Viva Engage group memberships, popular content, and more. An example of tailored content is the feed.

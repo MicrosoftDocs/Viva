@@ -84,6 +84,13 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 ||Strong ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) and who are also connected to many of that person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) |Count 
 ||Strong ties score | Strong ties represent connections with people that are part of a person’s inner working group who work together regularly. Strong ties score measures the relative strength of a connection between two individuals. (Interactions are based on emails, meetings, Teams calls and chats.) |Score
 ||Strong tie type | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the Strong tie score metric.) | Score |
+|**Group-to-Group**|Group collaboration time invested | Sum of time spent by each member of group A collaborating with any member of group B | Minutes
+|| % Group collaboration time invested | % of a group A’s total collaboration time that is spent with any member of group B | Percentage
+|| Group meeting time invested | Sum of time spent by each member of group A in a meeting with any member of group B | Minutes
+|| Group mail time invested | Sum of time spent by each member of group A in sending mails to or reading mails from any member of group B | Minutes
+|**Person-to-Group**|Collaboration time invested | Time spent by a person collaborating with any member of a collaborator group | Minutes
+|| Meeting time invested | Time spent by a person in a meeting with any member of a collaborator group | Minutes
+|| Mail time invested | Time spent by a person sending mails to or reading mails from any member of a collaborator group | Minutes
 | <a name="external-collaboration-define"></a> **External collaboration** | <a name="external-collaboration-hours-define"></a> External collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 | | <a name="external-unscheduled-call-hours-define"></a> External unscheduled call hours | Number of hours a person spent in unscheduled Teams calls with at least one other person outside the company. | Hour |
 | | <a name="external-email-hours-define"></a> External email hours | Number of hours a person spent in emails with at least one other person outside the company. | Hour |
