@@ -1,5 +1,5 @@
 ---
-ms.date: 08/07/2023
+ms.date: 08/09/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -181,6 +181,7 @@ Assign two or more owners to each experience so that they have full access to [e
 
 > [!NOTE]
 > If your home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
+
 3. Select **Add**.
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
 5. Select **Add** after you've finished entering the names.
