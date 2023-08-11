@@ -65,7 +65,8 @@ Jira Server and Jira Data Center enables automatic tracking of OKR and Initiativ
 ## Current limitations of Jira Server and Data Center integration
 
 - The automatic sync for the first time will happen within 10 minutes of connecting Jira with an OKR or Project and progress won’t be synced immediately in the first-time sync. However, you can also manually refresh to pull in all the updates by clicking on the Sync button in the integration pop-up.  
-- Jira Server and Data Center integration will support progress computation based on Tickets count and Story Points 
+- Jira Server and Data Center integration will support progress computation based on Tickets count and Story Points. 
+- A Jira Server instance can only be connected to one Viva Goals Organization at a time. If there is a need to connect the same Jira Server instance to another Viva Goals Organization, the existing connection must first be disconnected from the current Viva Goals Organization.
 
 To more about latest Jira Server version updates please refer to https://www.atlassian.com/migration/assess/journey-to-cloud
 
