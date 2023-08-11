@@ -46,10 +46,9 @@ For example, to see **Meetings overview** data in Viva Insights:
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>-->
 The user interface and navigation in recent releases of Viva Insights are different that what's shown in this video.
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/434890563" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434890563]
 
 ## Data time limit
 
