@@ -117,9 +117,9 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 ### Configure custom attributes 
 
 1. Assign the custom security attribute to the applications below:
-    1. MS Graph App (This is needed for provisioning users) 
-    1. Viva Goals Web App 
-    1. Microsoft Azure Active Directory 
+    1. MS Graph App - 00000003-0000-0000-c000-000000000000 (This is needed for provisioning users)
+    1. Viva Goals Web App - 29eb068f-2f54-4fda-a8be-32f37312678a
+    1. Microsoft Azure Active Directory - 00000002-0000-0000-c000-000000000000
 
 > [!NOTE]
 > When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal. 
