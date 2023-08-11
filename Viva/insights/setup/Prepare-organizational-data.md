@@ -45,7 +45,7 @@ Advanced insights automatically collects collaboration data from Microsoft 365. 
 
 ### Video: Organizational data provides context
 
-  > [!VIDEO https://player.vimeo.com/video/321146161]
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen=""> </iframe>
 
 ## Identify trends that you want to analyze
 
@@ -98,7 +98,7 @@ The following video describes which attributes are required and optional in your
 
 ### Video: What to include in the upload
 
-  > [!VIDEO https://player.vimeo.com/video/323318072]
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Which employees to include
 
@@ -182,7 +182,7 @@ The following video describes how to structure your organizational data file, in
 
 ### Video: How to structure the organizational data file
 
-  > [!VIDEO https://player.vimeo.com/video/321147511]
+  <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen=""> </iframe>
 
 ### Required attributes
 

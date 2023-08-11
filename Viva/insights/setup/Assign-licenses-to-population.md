@@ -59,7 +59,7 @@ Intro text out for now:
 Watch this video to learn how Workplace Analytics licenses work and how the Microsoft 365 admin can assign Workplace Analytics licenses. old link, with thumbnail
 [<img src="../Images/WpA/setup/Assign-licenses.png" alt="Assign licenses video">](https://aka.ms/AssignWpALicenses_Video)
 
-> [!VIDEO https://player.vimeo.com/video/282896938]
+<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen></iframe>
 -->
 ## License assignment options
 
