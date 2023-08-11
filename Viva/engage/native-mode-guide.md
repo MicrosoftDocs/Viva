@@ -41,7 +41,8 @@ Next, make sure that network enforces Microsoft 365 Identity. For more informati
 
 ## 2. Access the Native Mode Alignment Tool
 
-Use of the Native Mode Alignment Tool is limited to the Viva Engage admin role and the Microsoft 365 Global Administrator role. Be aware that during times of high network traffic it can take a few hours for global admin privileges to be reflected in Viva Engage. If your account is only granted these privileges on a temporary basis, your privileges may not be visible immediately after your account is elevated. To access the Native Mode Alignment Tool after Viva Engage recognizes that your account has global admin capabilities: Sign-in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
+Use of the Native Mode Alignment Tool is limited to the Engage admin role and the Microsoft 365 Global Administrator role. If your account is granted these privileges on a temporary basis, your privileges may not be visible immediately. Specifically, during times of high network traffic it can take a few hours for global admin privileges to be reflected in Viva Engage.
+To access the Native Mode Alignment Tool after Viva Engage recognizes your global admin capabilities: Sign in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
 
 > [!IMPORTANT] 
 > The Alignment Tool can take a long time for processing. Most customers are able to run the tool in one to two weeks, but it can take up to 90 days in extreme circumstances. The account that's used to initiate the tool must maintain global admin privileges for the duration of the alignment process.
