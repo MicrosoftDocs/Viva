@@ -36,11 +36,11 @@ This dashboard has six sections, which each address different facets of the empl
 
 ### Interactive demonstration
 
-[!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 ### Video walk-through
 
-<br>> [!VIDEO https://player.vimeo.com/video/709292595?h=b3cffb2ba4]
+> [!VIDEO https://player.vimeo.com/video/709292595?h=b3cffb2ba4]
 
 ## Prerequisites
 
