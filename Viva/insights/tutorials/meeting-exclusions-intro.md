@@ -36,9 +36,10 @@ Meeting exclusion rules are used in Viva Insights to help ensure that query resu
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
+<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
 -->
 
-> [!VIDEO https://player.vimeo.com/video/434889700]
+<iframe src="https://player.vimeo.com/video/434889700" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Viva Insights provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Analysts can also use the meeting exclusion feature to create custom meeting exclusion rules.
 

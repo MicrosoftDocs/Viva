@@ -156,13 +156,13 @@ The following videos were used to train analysts on how to run queries.
 
 The _A week in the life_ video demonstrates how to work with a [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-> [!VIDEO https://player.vimeo.com/video/434889941]
+<iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ### Expensive meetings
 
 The _Expensive meetings_ video demonstrates how to work with a [Meeting query](meeting-queries.md). 
 
-> [!VIDEO https://player.vimeo.com/video/434889528]
+<iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Related topics
 
