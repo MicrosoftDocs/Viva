@@ -36,7 +36,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGVhYWUxMDQtOWE1Yi00OTkyLWJhNzMtMGY2ZjliZjA4ZTcwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDEhxZGI0NyIsImMiOjV9]
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGVhYWUxMDQtOWE1Yi00OTkyLWJhNzMtMGY2ZjliZjA4ZTcwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 * Confirm that your organizational data includes **Organization** and **HireDate**, as well as at least one attribute that represents whether an employee belongs to a diverse category.
