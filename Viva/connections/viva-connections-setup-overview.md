@@ -1,5 +1,5 @@
 ---
-ms.date: 08/04/2023
+ms.date: 08/14/2023
 title: "Overview of how to plan, build, and launch Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
