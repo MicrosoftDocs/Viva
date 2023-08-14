@@ -24,8 +24,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Viva Engage supports eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode.  
 
-> [!NOTE] All Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
-> default. For more information, see [Overview of Native Mode](../overview-native-mode.md).
+>[!NOTE] All Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
+>default. For more information, see [Overview of Native Mode](overview-native-mode.md).
 
 ### How to query Viva Engage content 
 
@@ -33,10 +33,10 @@ You can find complete instructions on how to run eDiscovery queries on your Micr
 
 1. In your eDiscovery query, add a **Type** filter.  
     -  In eDiscovery, from the drop-down menu, select **Equals any of**, and then select the checkbox for **Yammer Messages**.
-    :::image type="content" source="../../media/engage/admin/query-type-ediscovery1.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
+    :::image type="content" source="../media/engage/admin/query-type-ediscovery1.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
 
     - In eDiscovery (Premium), select **Equals any of**, select **choose value**, search on *Yammer* and select the check box next to **Yammer messages**. 
-    :::image type="content" source="../../media/engage/admin/query-type-ediscovery2.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
+    :::image type="content" source="../media/engage/admin/query-type-ediscovery2.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
 
 ### Viva Engage data points 
 After you run your query, your search results will include (but aren't limited to) these key data points:  
