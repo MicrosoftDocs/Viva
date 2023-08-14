@@ -43,9 +43,9 @@ After you run your query, your search results will include (but aren't limited t
 - Message Body
 - Author
 - Recipients
-- Links 
+- Links
 - Attachments
-- Mentions 
+- Mentions
 - Timestamp
 
 We continue to update which data points are included in search results for Viva Engage.
