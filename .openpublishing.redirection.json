@@ -1573,6 +1573,46 @@
       "source_path": "Viva/insights/personal/teams/faq.md",
       "redirect_url": "/viva/insights/personal/overview/mya-faq",
       "redirect_document_id": false
+    },
+        {
+        "source_path": "Viva/solutions/complex-organization-insights.md",
+        "redirect_url": "/previous-versions/viva/complex-organization-insights",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-intro.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-intro",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-source-files.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-source-files",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-template.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-template",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/organizational-network-analysis/gephi-for-ona.md",
+        "redirect_url": "/previous-versions/viva/gephi-for-ona",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/organizational-network-analysis/organizational-network-analysis.md",
+        "redirect_url": "/previous-versions/viva/organizational-network-analysis",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/slack-integration.md",
+        "redirect_url": "/previous-versions/viva/slack-integration",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/solutions.yml",
+        "redirect_url": "/previous-versions/viva/solutions",
+        "redirect_document_id": "FALSE"
     }
     ]
   }
