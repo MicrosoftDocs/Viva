@@ -1,8 +1,8 @@
 ---
 title: Set up attributes in Viva Glint
 description: In preparation for uploading employee data to Microsoft Viva Glint, perform attribute setup and mapping that will establish which attributes should be included in data uploads. 
-ms.author: SarahBerg
-author: SarahAnneBerg
+ms.author: JudyWeiner
+author: Judy Weiner
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
@@ -75,7 +75,7 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To delete a group or level, select the **trash can** symbol.
 
 > [!NOTE]
-> Hierarchy groups cannot be edited after setup. Confirm that all groups and hierarchies contain accurate attributes before saving.
+> Hierarchy groups can only be set up during initial schema set up. To add hierarchies at the time of editing the schema, [reach out to support](https://learn.microsoft.com/en-us/microsoft-365).
 
 ### Derived attributes
 
@@ -84,6 +84,9 @@ Viva Glint calculates attributes based on data sent in your file. In this sectio
 1. Select the checkbox for the desired calculated attributes: Manager Hierarchy, Tenure Groups, and Age Groups.
 2. Select the attribute from the dropdown menu used to calculate each derived attribute. For example, Manager ID, Hire Date, and Birth Year.
 3. Select **Continue**.
+
+   > [!NOTE]
+> Derived groups can only be set up during initial schema set up. To add hierarchies at the time of editing the schema, [reach out to support](https://learn.microsoft.com/en-us/microsoft-365).
 
 ### Review uploaded attributes
 
