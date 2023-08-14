@@ -23,7 +23,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 # eDiscovery in Viva Engage
 
 Viva Engage supports eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode.  
-
 Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
 default. For more information, see [Overview of Native Mode](overview-native-mode.md).
 
