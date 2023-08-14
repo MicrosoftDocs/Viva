@@ -47,13 +47,32 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 
 First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
-1. Sign into your Microsoft 365 admin center and navigate to **Viva Amplify**.
-1. Choose **Assign SharePoint Administrator Role settings**.
+1. Sign into your Microsoft 365 admin center and choose **Setup**.
+
+1. Under **Featured collections** choose **Microsoft Viva**.
+
+    ![Screenshot of the Microsoft Viva collection.](../media/amplify/set-up-mac-collections.png).
+
+1. Select **Viva Amplify**.
+
+    ![Screenshot of the Viva Amplify option.](../media/amplify/set-up-mac-viva.png)
+
+1. This will take you to the **Setup and management** tab.
+
+    ![Screenshot of the Setup and management tab.](../media/amplify/set-up-mac-amplify.png)
+
+1. Choose **Assign SharePoint Administrator Role**.
+
 1. Search for a user by entering their name or email.
+
 1. Select the user(s) for whom you want to assign the **SharePoint Administrator** role.
-1. Choose **Assign Groups Administrator Role settings**.
+
+1. Choose **Assign Groups Administrator Role**.
+
 1. Search for a user by entering their name or email.
-1. Select the user(s) for whom you want to assign the **Groups Administrator** role.
+
+1. Select the user(s) for whom you want to assign the Groups Administrator role.
+
 1. Select **Add**.
 
 You can also assign roles from your Microsoft 365 admin center by navigating to **Roles** > **Role assignment**.
@@ -68,6 +87,18 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 - The default setting enables everyone in the organization to create campaigns with Amplify.
 - You can choose to only allow specific people or security groups to create campaigns.
+
+1. Sign into your Microsoft 365 admin center and choose **Setup**.
+
+1. Under **Featured collections** choose **Microsoft Viva**.
+
+1. Select **Viva Amplify**.
+
+1. This will take you to the **Setup and management** tab.
+
+1. Choose **Manage campaign settings**.
+
+1. If you only want specific people or groups to be able to create campaigns, choose **Specific people or security groups.** Type a name or email address to add a person or group.
 
 >[!IMPORTANT]
 >Users who you want to be able to create campaigns need to have **Site creation** and **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/sharepoint/manage-site-creation)
