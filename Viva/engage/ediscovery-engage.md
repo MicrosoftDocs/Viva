@@ -51,6 +51,9 @@ After you run your query, your search results will include (but aren't limited t
 We continue to update which data points are included in search results for Viva Engage.
 
 ## See also
+
+[About Microsoft Purview](/purview/)
+
 [eDiscovery in Office 365](/office365/securitycompliance/ediscovery)
 
 [Overview of the eDiscovery (Premium) solution in Microsoft Purview](/office365/securitycompliance/office-365-advanced-ediscovery)
