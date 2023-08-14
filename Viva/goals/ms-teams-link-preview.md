@@ -1,6 +1,6 @@
 ---
 ms.date: 08/10/2023
-title: Link Previews in Microsoft Teams 
+title: Link Previews in Teams 
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -44,7 +44,7 @@ Link previews are provided for the following items in Viva Goals:
 1. Head to your chat or channel of choice and paste the url. 
 1. The link unfurls into a link preview.
     1. The OKRs or initiatives shown will correspond to the time period you were viewing when you copied the link. 
-1. For a smoother experience where you don’t need to leave Viva Goals, you can select on **Share > Teams**. This opens a dialog box where you can specify the Teams chat or channel you want to share with and enter a message, all without leaving Viva Goals, so you can stay in the flow of work.
+1. For a smoother experience where you don’t need to leave Viva Goals, you can select  **Share > Teams**. This opens a dialog box where you can specify the Teams chat or channel you want to share with and enter a message, all without leaving Viva Goals.
 
 ### OKRs and Initiatives 
 
@@ -52,11 +52,11 @@ To share an OKR or initiative, navigate to the specific OKR or initiative you wa
 
 ### Check-ins and Wins
 
-You can share a specific check-in, perhaps to ask questions about the progress made. Alternatively, you can “Share a win”, which will share the check-in with some celebratory text. Use this to motivate your team as they achieve goals. These options are available in the Share menu for a specific check-in. 
+You can share a specific check-in, perhaps to ask questions about the progress made. Alternatively, you can “Share a win”, which will share the check-in with some celebratory text. Use this to motivate your team as they achieve goals. These options are available in the Share menu for a specific check-in. Currently, only manual check-ins are supported for sharing. Rollup and check-ins from integrations do not have a Share option.
 
 ### Updates
 
-Your team might be using the **Share an update** feature to send updates about their overall progress. You can reshare these updates to Teams by clicking on the Updates tab where you find the Share options for Copy Link and Teams for each update.
+Your team might be using the **[Share an update](goals-broadcast.md)** feature to send updates about their overall progress. You can reshare these updates to Teams by clicking on the Updates tab where you find the Share options for Copy Link and Teams for each update.
 
 ## Viewing details from a link preview 
 
