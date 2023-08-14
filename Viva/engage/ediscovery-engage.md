@@ -33,7 +33,7 @@ You can find complete instructions on how to run eDiscovery queries on your Micr
     -  In eDiscovery, from the drop-down menu, select **Equals any of**, and then select the checkbox for **Yammer Messages**.
     :::image type="content" source="../media/engage/admin/query-type-ediscovery1.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
 
-    - In eDiscovery (Premium), select **Equals any of**, select **choose value**, search on *Yammer* and select the check box next to **Yammer messages**. 
+    - In eDiscovery (Premium), select **Equals any of**, select **choose value**, search on *Yammer* and select the checkbox next to **Yammer messages**. 
     :::image type="content" source="../media/engage/admin/query-type-ediscovery2.png" alt-text="Screenshot of how to filter an eDiscovery query to search on Engage content.":::
 
 ### Viva Engage data points 
