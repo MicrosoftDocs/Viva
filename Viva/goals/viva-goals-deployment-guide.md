@@ -314,7 +314,8 @@ Admins of a team can restrict the OKR and initiative creation permission by foll
 1. Navigate to the Team and select on the button with three dots (…) on the top right corner. Choose **Team Settings**
 2. Under the heading **Who can create OKRs or Initiatives for this team?** Choose one of the following:
     1. **Anyone in <Organization_name>:** This option is the default permission for a Viva Goals Team. This allows any valid user of the Viva Goals organization to create OKRs or initiatives within the team. 
-        1. **NOTE**: Users need not be a member of the team to create OKRs or initiatives
+      > [!NOTE]
+      > Users need not be a member of the team to create OKRs or initiatives
     1. **Only team admins and team owner:** This option restricts the OKR or initiatives creation permission only to the admins and owner of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
     1. Specific people:
         1.  All members of this team:
