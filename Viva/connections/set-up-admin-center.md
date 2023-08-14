@@ -1,5 +1,5 @@
 ---
-ms.date: 08/09/2023
+ms.date: 08/14/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -33,7 +33,7 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 >
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
@@ -76,7 +76,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 > [!NOTE]
 >
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
-> - A Microsoft Viva Suite license or Viva Communities & Connections license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - A Microsoft Viva Suite license or Viva Communications and Communities license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global admin permissions, SharePoint admin permissions, or higher to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
@@ -335,8 +335,8 @@ The following settings are available in the settings panel:
 
 > [!IMPORTANT]
 >
-> - Organizations that are not Viva Suite or Viva Communities & Connections subscribers are limited to creating one Viva Connections experience.
-> - Viva Suite and Viva Communities & Connections subscribers are limited to creating a maximum of ten Viva Connections experiences.
+> - Organizations that are not Viva Suite or Viva Communications and Communities subscribers are limited to creating one Viva Connections experience.
+> - Viva Suite and Viva Communications and Communities subscribers are limited to creating a maximum of ten Viva Connections experiences.
 
 Connections and home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. [Learn more about how Connections and homes sites work together](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
@@ -395,7 +395,7 @@ Viva Connections and home site administration are being combined in the Microsof
 
 ### Will the license requirements be enforced as soon as the feature is released?
 
-Initially, the feature will display a message on the admin UI stating that all the users will require the license when you set up more than one Viva Connections experience. Starting September 2023, the Viva Connections Premium service plan will be available under the Microsoft Viva Suite SKU and the Viva Communities & Connections SKU, enabling you to manage the service plan and license assignment. Future updates will enforce the license requirement at the end-user level. You'll receive additional communication when the license enforcement begins.
+Initially, the feature will display a message on the admin UI stating that all the users will require the license when you set up more than one Viva Connections experience. Starting September 2023, the Viva Connections Premium service plan will be available under the Microsoft Viva Suite SKU and the Viva Communications and Communities SKU, enabling you to manage the service plan and license assignment. Future updates will enforce the license requirement at the end-user level. You'll receive additional communication when the license enforcement begins.
 
 ### I would like my employees to access more than one Viva Connections experience in Teams. Is that supported?
 

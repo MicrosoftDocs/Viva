@@ -1,5 +1,5 @@
 ---
-ms.date: 08/04/2023
+ms.date: 08/14/2023
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -27,7 +27,7 @@ description: "Plan Microsoft Viva Connections for your organization"
 
 > [!NOTE]
 >
-> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 
