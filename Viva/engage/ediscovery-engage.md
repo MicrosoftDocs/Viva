@@ -22,13 +22,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # eDiscovery in Viva Engage
 
-Viva Engage supports eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode.  
-Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
+Viva Engage supports eDiscovery and eDiscovery (Premium) within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode. Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
 default. For more information, see [Overview of Native Mode](overview-native-mode.md).
 
 ### How to query Viva Engage content 
 
-You can find complete instructions on how to run eDiscovery queries on your Microsoft content on the [Microsoft Purview compliance portal](/purview/). While the portal doesn’t explicitly discuss Viva Engage, this process can surface Viva Engage content. You can narrow your eDiscovery search results to include only Viva Engage content with the following step:  
+You can find complete instructions on how to run eDiscovery queries on your Microsoft content on the [Microsoft Purview compliance portal](/purview/). While the portal doesn’t explicitly discuss Viva Engage, this process surfaces Viva Engage content. To narrow your eDiscovery search results to include _only_ Viva Engage content, follow these step:  
 
 1. In your eDiscovery query, add a **Type** filter.  
     -  In eDiscovery, from the drop-down menu, select **Equals any of**, and then select the checkbox for **Yammer Messages**.
