@@ -79,9 +79,14 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 ## Manage organizational data
 
+<!--daisy-->
+
 ## Manage campaign settings
 
-## Manage campaign creation
+>[!IMPORTANT]
+>Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting is not recommended.
+
+### Manage campaign creation
 
 Viva Amplify is designed so that users with a wide range of roles, such as project managers who do regular status reports for stakeholders, can benefit from using campaigns. You can use the admin controls in Amplify to restrict who can create campaigns:
 
