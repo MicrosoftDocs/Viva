@@ -1,8 +1,8 @@
 ---
 title: Viva Glint program types and associated templates 
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
-ms.author: SarahBerg
-author: SarahAnneBerg
+ms.author: JudyWeiner
+author: Judy Weiner
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
@@ -129,4 +129,4 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Purpose** - Supports the development of managers by allowing them to get feedback from their leaders, peers, and direct reports on key behaviors related to their effectiveness
 - **Recommended frequency** - Ad Hoc: Recommend timing be relevant to the person receiving the feedback (e.g. - send 360 when manager is new to role, or participating in a development program)
 - **Target groups for results** - Managers (Subjects)
-- **Feedback providers** - Departing employees
+- **Feedback providers** - Leaders, peers, direct reports
