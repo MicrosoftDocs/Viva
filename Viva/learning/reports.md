@@ -77,15 +77,13 @@ Go to the Viva Learning admin tab and select **Reports**.
 | Monthly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 30 days. |
 | Daily Active Users | Total number of unique users who have launched the Viva Learning personal app on that day. |
 | Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
-|Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month | 
-| Content Played | Total number of courses played by learners in a month | 
-| Content Bookmarked | Total number of courses bookmarked by learners in a month |
-| Learning Paths Viewed | Total number of learning paths viewed by learners in a month |
-| Learning Collection Created | Total number of learning collections created by learners in a month |
-| Learning Collection Viewed | Total number of learning collections viewed by learners in a month |
-|Courses shared | Total number of courses shared by learners in a month |
-| Courses Recommended | Total number of courses recommended by learners in a month |
-| Courses Rated | Total number of rating by learners in a month |
+|Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month. | 
+| Content Played | Total number of courses played by learners in a month. | 
+| Content Bookmarked | Total number of courses bookmarked by learners in a month. |
+| Learning Paths Viewed | Total number of learning paths viewed by learners in a month. |
+|Content shared | Total number of courses shared by learners in a month. |
+| Content Recommended | Total number of courses recommended by learners in a month. |
+|Searches on Personal app | Total number of searches in the Viva Learning personal app in a month. |
 
 ## Export reports 
 
