@@ -1,5 +1,5 @@
 ---
-title: "Rich text formatting for Viva Engage messages"
+title: "Rich text formatting for Viva Engage posts"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -19,7 +19,7 @@ search.appverid:
 description: "Users can now format Viva Engage posts using bold, italic, bullets, numbered lists, and links. "
 ---
 
-# Rich text formatting for Viva Engage messages
+# Rich text formatting for Viva Engage posts
  
 Beginning March 15, 2019, we offer rich text formatting for Viva Engage posts. Formatting options include bold, italic, links, bullets, and numbered lists.
 
