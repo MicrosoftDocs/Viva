@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
+ms.date: 7/12/2023
 title: "Overview of Native Mode for Microsoft 365"
 description: "Learn about Native Mode for Microsoft 365."
-ms.reviewer: ethli
-ms.author: dmillerdyson
-author: dmillerdyson
-manager: dmillerdyson
+ms.reviewer: auhosford
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,19 +20,19 @@ search.appverid:
 - MET150
 ---
 
-# Overview of Native Mode
+# Overview of Viva Engage in Native Mode for Microsoft 365 
 
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 
-Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022.
+ > [!NOTE]
+> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022, and existing non-native networks are being automatically migrated to native mode. For more information, see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md)
+
+## Frequently asked questions
 
 In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration.
-
- > [!NOTE]
-> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Yammer site to Microsoft 365 and SharePoint Online, nothing is downloaded. The only consideration is the SharePoint Online quota if Yammer has been extensively used.
+> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. Nothing is downloaded. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
 
 A tenant must be in one of three modes:
 
@@ -53,7 +53,7 @@ A tenant must be in one of three modes:
 When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-guide.md) automates the process and guides you through the steps to get there.
 
  > [!NOTE]
-> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Yammer communities](/yammer/manage-yammer-groups/yammer-all-company-yammer-community).
+> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community).
 
 ## Key differences between modes
 
@@ -64,7 +64,7 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 - All Viva Engage groups, users, and group memberships are managed through Microsoft 365. Management should be done through the Microsoft 365 admin center, Azure AD admin portal, or other Azure AD management tools.
 - All communities or groups, including All Company, are Microsoft 365-connected, which means they have access to Microsoft 365 features, including live events.
 - Viva Engage honors Microsoft 365 group creation rights and enforces Microsoft 365 group creation restrictions.
-- Guests can only be added at the community level. But external networks are supported in the [US geo](/yammer/manage-security-and-compliance/security-and-compliance).
+- Guests can only be added at the community level. But external networks are supported in the [US geo](/viva/engage/manage-security-and-compliance/security-and-compliance).
 - All files uploaded to groups are stored in SharePoint.
 - Files can't be uploaded to Viva Engage private messages.
 - Engage admins (Yammer administrators) are required to have  Global admin privileges or Group admin privileges from Microsoft 365 to administer changes to groups in which they aren't a group owner.

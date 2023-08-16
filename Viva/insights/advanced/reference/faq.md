@@ -97,7 +97,7 @@ Optionally, after you sign in, you can:
 * Configure settings.
 * Upload organizational data.  
 
-For details about setup, refer to [Set up Advanced insights](../setup-maint/setup.md).
+For details about setup, refer to the [Setup checklist](../setup-maint/setup-overview.md).
 
 >[!Important]
 > For the advanced insights app to run, at least 10 people in your organization need Viva Insights licenses. The app requires this number because credible analyses need at least 10 employees. For more information, refer to [Assign licenses overview](../setup-maint/assign-licenses.md).
@@ -123,7 +123,7 @@ If you're getting an error, you might want to ask the following questions:
 
 * **With my role, can I access this feature?** Only certain roles can access some parts of the app. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
 
-* **Do enough people have licenses assigned to them?** For analysts to access the advanced insights app, your admin team needs to assign a certain number of licenses to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/setup.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before analysts can sign in and start using advanced insights.
+* **Do enough people have licenses assigned to them?** For analysts to access the advanced insights app, your admin team needs to assign a certain number of licenses to people in your organization. This number needs to be equal to or greater than your [minimum group size](../setup-maint/privacy-settings.md#minimum-group-size). The default minimum group size is 10, so at least 10 people in your organization need a license before analysts can sign in and start using advanced insights.
 
 ### Organizational data
 
@@ -201,7 +201,7 @@ A5. It depends on the type of mailbox and which permissions are set for the Exch
 
 ##### Q6. Why don't I see data from this week in my analyses?
 
-A6. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. Each Monday, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday. For example, on Monday, November 15th, analysis will include data through the previous Saturday, November 13th.
+A6. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
 
 ##### Q7. Why don't I see last week's data in my analyses?
 

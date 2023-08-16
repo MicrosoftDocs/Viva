@@ -71,16 +71,16 @@ Storyline is built on the same content and conversation platform as community me
 * Use eDiscovery through the compliance portal for native mode networks.  
 * Storyline content is available via network export.
 * Files shared through storyline are stored in OneDrive and are subject to any governance you already have in place.
-* Storylines supports the same [Report a conversation](/yammer/manage-yammer-groups/configure-conversation-reporting) feature that's available for community conversations.
+* Storylines supports the same [Report a conversation](/viva/engage/manage-viva-engage-groups/configure-conversation-reporting) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
 In addition to the capabilities listed here, storyline also features a feed that includes all storyline posts sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
 
 #### Security, compliance, and governance for files uploaded to storyline posts
 
-Storyline posts are backed by Yammer services. Compliance for posts is therefore the same as for the rest of Viva Engage. If you're in native mode, posts are ingested into the substrate and are subject to the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
+Storyline posts are backed by Viva Engage services. Compliance for posts is therefore the same as for the rest of Viva Engage. If you're in native mode, posts are ingested into the substrate and are subject to the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
 
-When users are deleted, for example when an individual leaves the company, the system follows the Microsoft 365 user deletion process that's described in the "Delete a user" section of [Manage Yammer users across their lifecycle from Office 365](/yammer/manage-yammer-users/manage-users-across-their-lifecycle).
+When users are deleted, for example when an individual leaves the company, the system follows the Microsoft 365 user deletion process that's described in the "Delete a user" section of [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
 
 ## File storage for storyline
 
@@ -114,7 +114,7 @@ To delete files associated with a post from the **VivaEngage** library:
 ## Frequently asked questions
 
 ### Why isn’t storyline available in our organization? 
-Storyline is only supported in Yammer enterprise networks that [enforce Office 365 identity](/yammer/configure-your-yammer-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Yammer Basic network, storyline isn't available to your organization.
+Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Viva Engage Basic network, storyline isn't available to your organization.
 
 ### Who can see storyline content? 
 Storyline content is visible to any internal user who has access to Viva Engage. Guests can't see storyline content.  
@@ -126,12 +126,22 @@ Guests are excluded from storyline access. They don't have their own storyline a
 You can't prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests can't see any storyline content.
 
 ### Can I control which users get their own storyline?  
-We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Yammer. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
+We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Viva Engage. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
 
-### How do I delete custom cover photos that were uploaded to a person’s storyline? 
-When the preview features toggle is turned on, the user or Network and Verified admin can delete uploaded cover photos. To do this, go to the user profile page and select **Delete** under **Update cover photo**.
+### How do I delete custom cover images that were uploaded to a person's storyline?
 
-To delete a previously uploaded cover photo when the preview toggle is turned off, you need to temporarily opt in to the preview so you can access the delete cover photo option.
+From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled. To do this, from the profile page of the user, hover over the profile header and select **Upload cover photo**. Then, delete or upload a new cover image, as needed.
+
+If the admin or the user isn't premium licensed, or the user no longer has their own storyline, previously uploaded photos must be deleted via API.
+
+From the API, Engage admins or verified admins can delete cover images for any user in their network via an API call. The URL has this syntax:
+
+`www.yammer.com/api/public/v1/user-profiles/user_id/cover-image`
+
+For example, to delete the cover images of a user with id 1234567890, the URL would be:
+
+`www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`
+
 
 ## See also
 

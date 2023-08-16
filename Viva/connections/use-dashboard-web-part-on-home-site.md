@@ -2,8 +2,8 @@
 ms.date: 01/12/2022
 title: "Use the Viva Connections Dashboard web part"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -92,4 +92,4 @@ Once in **edit** mode, perform the following steps:
 [Overview of Viva Connections](viva-connections-overview.md)
 <br>
 
-[Set up and launch Viva Connections](viva-connections-setup-guide.md)
+[Set up and launch Viva Connections](set-up-admin-center.md)

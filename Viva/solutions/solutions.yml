@@ -57,7 +57,7 @@ landingContent:
             url: viva-leadership-communications.md
 
   # Card
-  - title: Run a healthy OKR program with Viva Goals
+  - title: Discover goal-setting best practices with Viva Goals
     linkLists:
       - linkListType: overview
         links:
@@ -81,7 +81,7 @@ landingContent:
           - text: Introduction
             url: introduction.md
           - text: Data lake solutions
-            url: ../solutions/data-lakes/viva-insights.md
+            url: /viva/solutions/data-lakes/viva-insights.md
           - text: Data access automation
             url: automate-exports.md
           - text: Multi-tenant solution

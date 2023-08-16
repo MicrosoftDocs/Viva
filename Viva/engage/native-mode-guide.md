@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
+ms.date: 7/12/2023
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
-ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
-manager: dmillerdyson
+ms.reviewer: auhosford
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -26,22 +26,23 @@ Organizations that want to take advantage of the new compliance features in Viva
 - Simplify file administration through SharePoint.
 - Apply Microsoft 365 Group management policies.
 
-Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. Organizations that have networks that were created before that date need to use the Native Mode Alignment Tool to ensure that the network is fully backed by Microsoft 365 before they can access these new features.
+Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. You can use the Native Mode Alignment Tool to ensure that the network is fully backed by Microsoft 365 before accessing these new features.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and M365 integration.
+> Automatic migration to Native Mode was announced 2022 for reasons of security, compliance, and M365 integration. For more information see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md).
 
 The following steps show you what you need to for the transition to Native Mode. For more information about what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](./overview-native-mode.md).
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
-To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Yammer Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](/yammer/configure-your-yammer-network/consolidate-multiple-yammer-networks).
+To align your network to Native Mode, make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you must first complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
-Next, you need to make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](/yammer/configure-your-yammer-network/enforce-office-365-identity)
+Next, make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ## 2. Access the Native Mode Alignment Tool
 
-Only Microsoft 365 global Admins can access the Native Mode Alignment Tool. It’s important to know that during times of high network traffic it can take up to a few hours for Global Admin privileges to be reflected in Viva Engage. If your account is only granted these privileges on a temporary basis, it may not be visible immediately after your account is elevated. To access the Native Mode Alignment Tool after Viva Engage recognizes that your account has Global Admin capabilities: Sign-in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
+Use of the Native Mode Alignment Tool is limited to the Engage admin role and the Microsoft 365 Global Administrator role. If your account is granted these privileges on a temporary basis, your privileges may not be visible immediately. Specifically, during times of high network traffic it can take a few hours for global admin privileges to be reflected in Viva Engage.
+To access the Native Mode Alignment Tool after Viva Engage recognizes your global admin capabilities: Sign in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
 
 > [!IMPORTANT] 
 > The Alignment Tool can take a long time for processing. Most customers are able to run the tool in one to two weeks, but it can take up to 90 days in extreme circumstances. The account that's used to initiate the tool must maintain global admin privileges for the duration of the alignment process.
@@ -71,7 +72,7 @@ Use the report to identify the following information:
 
 - **Which communities in your network don't have any owners or have owners who lack Microsoft 365 Group Creation Rights**
 
-  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community doesn't have any owners or if no owners are authorized to create Microsoft 365 Groups, the tool creates the group by using the credentials of the Global Admin who initiated the Alignment Tool. So, it's important that your Global Admin maintains their privileges during the alignment process.
+  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community has no owner, or if no owners are authorized to create Microsoft 365 Groups, the tool creates the group by using the credentials of the global admin who initiated the Alignment Tool. So, it's important that your global admin maintains their privileges during the alignment process.
 
   Before you run the tool, we recommend that you notify all users who have files stored in private messages, owners of any groups that are marked as unlisted, and owners of any groups that are currently external.
 
@@ -84,11 +85,11 @@ Use the report to identify the following information:
   It's a two-step process to export a large volume of content from your network:
 
   1.	**Export message data** 
-          - We suggest that you export message data by using the [Network Data Export feature](/yammer/manage-security-and-compliance/export-yammer-enterprise-data#ExportNetworkData) in the Viva Engage Admin panel.
+          - We suggest that you export message data by using the [Network Data Export feature](/Viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
           - We suggest that you limit your export to a maximum date range of two months at a time and exclude attachments. If you include attachments, you may need to limit your date range significantly, such as to one week at a time, to prevent the system from encountering time-out errors.
 
   2. **Export files**
-        - We suggest that you export files separately from messages by using the [Viva Engage file export API](/yammer/manage-security-and-compliance/export-yammer-enterprise-data#export-yammer-files-via-api). 
+        - We suggest that you export files separately from messages by using the [Viva Engage file export API](/Viva/engage/eac-as-manage-data.md#export-large-file-volumes-with-the-api). 
         - You can use this API to export all the files from a specified date range. The API supports up to six concurrent requests, and each request should be limited to a two-month period. This method enables you to simultaneously export a full year of files in a single API call.
 
 ## 5. Run the Alignment Tool for the first time
@@ -123,7 +124,7 @@ Once the tool has finished running, the banner at the top of the page reports on
 
 The error report is in .csv format by default and will remain available until the next time the Alignment Tool is run. When the tool is run again, a new error report is generated.
 
-The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](/yammer/troubleshoot-problems/troubleshoot-native-mode#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
+The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](/Viva/engage/troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
 
 It's possible that your error report may contain errors that aren't covered in the documentation cited earlier or that doesn't appear to be actionable. Often these errors are duplicates of other errors that are actionable. We suggest that you work through all the errors that you can and then rerun the Alignment Tool. Most of these errors get resolved when the tool is rerun after the actionable errors are fixed.
 

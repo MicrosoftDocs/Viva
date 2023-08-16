@@ -7,18 +7,16 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 03/08/2023
+ms.date: 06/19/2023
 ms.topic: article
 ms.service: viva
+ms.subservice: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
 search.appverid: MET150
 ---
 
 # Privacy and data protection
-
-> [!NOTE]
-> This article applies to a preview version of Microsoft Viva Pulse. You must be in the Public Preview program to access it. See [Set up Viva Pulse Public Preview](../setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md) to enable the Viva Pulse Public Preview for your organization and enable Teams Activity feed notifications for users in your tenant. Also, please note that customer support will only be available in English for Public Preview. Features are subject to change.
 
 ## Protections for responders
 
@@ -33,5 +31,6 @@ Viva Pulse provides people managers and team leads control over shared reports. 
 ## Additional information
 
 The following resources help answer key questions about how Microsoft protects employee privacy and supports compliance with local regulations such as the General Data Protection Regulation (GDPR).
+
 * [Application End User Notice (microsoft.com)](https://support.microsoft.com/office/application-end-user-notice-bc6027fe-68c3-4758-a70d-cfe97c43b4e2)
 * [Microsoft Privacy Statement – Microsoft privacy](https://privacy.microsoft.com/privacystatement)

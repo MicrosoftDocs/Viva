@@ -32,7 +32,7 @@ The **Add Provider** list shows you the available providers for configuration. O
 > - Viva Suite or Viva Learning license
 > - Global admin, knowledge admin, or knowledge manage role
   
-Review this article to [Learn how to assign roles](/exchange/permissions/role-group-members).
+Review this article to [Learn how to assign roles](../microsoft-viva-admin-roles.md).
 
 To create a set of featured content that will show up for your users, select the **Create featured set** in the top left corner.
 
@@ -53,7 +53,7 @@ The following features are accessible by the listed admin roles:
 You can configure providers using **Manage providers** in Viva Learning Admin. The **Add providers** list displays the available providers for configuration. 
 Once a provider is configured, it appears in the **Configured providers** list. 
 
-Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](/exchange/permissions/role-group-members) to Learn how to assign roles. 
+Adding a provider requires either a Global Admin or Knowledge Admin role. Review this [article](../microsoft-viva-admin-roles.md) to Learn how to assign roles. 
 
 
 You can edit or delete an existing configured provider directly from **Manage providers**. 
@@ -63,7 +63,7 @@ You can edit or delete an existing configured provider directly from **Manage pr
 
 ![Screenshot that shows the Manage Providers options inside Viva Learning.](../media/learning/admin-tab-manage-providers.png) 
 
-1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://vivalearning.microsoft.com).
+1. Open the **Viva Learning** App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb).
 
 2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. 
   

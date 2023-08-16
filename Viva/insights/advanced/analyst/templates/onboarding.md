@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 04/24/2023
 title: Onboarding and development report
 description: Learn how the Onboarding and development PowerBI template from Microsoft Viva Insights helps you support new employees and those transitioning to a new role
@@ -22,7 +21,7 @@ The **Onboarding and development** report helps leaders understand the onboard
 
 Because research shows it typically takes new employees 12 months to reach their full performance potential, this report focuses on the entire period a new hire is learning, connecting, and developing in their new role. Additionally, you can customize the definition of new hire to best fit your organization: whether it includes employees who recently joined the company or also employees who recently started out in a new role. You can also customize the number of months the new hire should be in the new role.
 
-This report has three sections, which each address different facets of the onboarding experience for new hires and those new in role. These sections help you answer the following business questions: 
+This report has three sections, which each address different facets of the onboarding experience for new hires and those new in the role. These sections help you answer the following business questions: 
 
 * **Coach with manager 1:1s**
     * Are new hires getting the 1:1 coaching and support from their managers that they need? 
@@ -53,24 +52,26 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the Viva Insights analyst experience, select **Analysis**.
 1. Under **Power BI templates**, navigate to **Onboarding and development** and select **Start analysis**. 
 
-[!INCLUDE [Setup steps](includes/setup-steps.md)]
+[!INCLUDE [Setup steps](includes/setup-steps-OnDev-report.md)]
 
 ## Report settings
 
-After the **Onboarding and development** report is set up and populated with Viva Insights data in Power BI, map values as prompted, which are listed below: 
+After the **Onboarding and development** report is set up and populated with Viva Insights data in Power BI, map values as prompted, which are listed below:
 
-* **New hire categories** – Select the categories you want to consider as “new hires” in the report. Include “Employees who are new to the company,” “Employees who are new in role,” or both. 
-* **Max. number of months in role to consider** – Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”  
+|Value|Description|
+|-------|-----------|
+|**New hire categories** | Select the categories you want to consider as “new hires” in the report. Include “Employees who are new to the company,” “Employees who are new in role,” or both.|
+|**Max. number of months in role to consider** |Select the maximum number of months the new hire needs to be with the company or in the new role to be considered a “new hire.”|
 
 After this initial prompt, you can view and set the following parameters on the **Settings** page:
 
-* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **View report by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
-* **Filter by attribute** (optional) – Select the organizational attribute and values you want to use to filter the employees shown in this report.
-* **Exclusions** – Use the check boxes to:
-    * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
-    * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
-* **Select the preferred language for your report** – Change the language for your report. 
+|Setting|Description|
+|-------|-----------|
+|**Select the time period for the report**| Select the time period for which you want to view data in the report.|
+|**View report by** | Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.|
+|**Filter by attribute** (optional) | Select the organizational attribute and values you want to use to filter the employees shown in this report.|
+|**Exclusions** |Use the check boxes to: <ul><li>Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats). <li>Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.|
+|**Select the preferred language for your report** | Change the language for your report.|
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
@@ -131,18 +132,9 @@ Learn how new hires are negotiating and creating networks at work, and also whet
 
 Here are the visuals that this page shows:
 
-* Left card – Average internal network size, split by connections within groups and across groups
-* Middle chart – How sufficient manager coaching time (that is, 50 minutes or more per month) affects employees' average network size within groups and across groups
+* Left card – Average internal network size
+* Middle chart – How sufficient manager coaching time (that is, 50 minutes or more per month) affects employees' average network size
 * Top right chart – How the average internal network size is trending over time
-
-#### About connections within and between groups
-
-This report bases internal network size on the number of people a person had a reciprocal interaction within the past month. These interactions can happen within and across groups.
-
-Connections within groups are based on *strong ties*. A strong tie happens when two people frequently communicate and have several network connections in common. Strong ties usually indicate that two people are in the same workgroup or on the same team. 
-
-Connections across groups are based on *diverse ties*. A diverse tie happens when two people interact but don't have any common connections, or when two people interact for the first time. Diverse ties offer good sources of new and varied information from across the company.
-
 
 ### Glossary
 

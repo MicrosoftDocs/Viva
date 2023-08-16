@@ -9,10 +9,11 @@ ms.topic: article
 ms.localizationpriority: null 
 search.appverid:
 - MET150
-ms.service: workplace-analytics
+ms.service: viva
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Assign licenses

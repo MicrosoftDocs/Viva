@@ -85,7 +85,7 @@ If you need a field's definition, hover over the information **(i)** icon.
 
 ### Custom
 
-Custom fields are optional attributes you can create. The following section, step 2a, explains mapping and naming a custom attribute.
+Custom fields are optional attributes you can create. The following section explains mapping and naming a custom attribute.
 
 #### To map fields
 
@@ -159,50 +159,9 @@ Before you make changes in the source file and try the upload again, you can sel
 
 #### Guidelines for correcting errors in data
 
-This section contains help for correcting data in an uploaded source file that is causing validation errors.
-
 When any data row or column has an invalid value for any attribute, the entire upload will fail until you fix the source file (or you fix the attribute mapping).
 
-##### Rules for field headers
-
-All field header or column names need to:
-
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (those that are non-alphanumeric, like *@*, *#*, *%*, *&*).
-
-##### Rules for field values
-
-The field values in data rows need to comply with the following formatting rules:
-
-* The  **EffectiveDate** and **HireDate** field values need to be in the MM/DD/YYYY format.
-* The required **PersonId** and **ManagerId** field values need to be a valid email address (for example, `gc@contoso.com`).
-* The  **Layer** field values need to contain numbers only.
-* The  **HourlyRate** field values need to contain numbers only, which the app assumes is in US dollars for calculations and data analysis.
-
->[!Note]
->The app doesn't currently perform currency conversions for **HourlyRate** data. All calculations and data analysis assumes the data to be in US dollars.
-
-##### Rules for characters in field values
-
-The following field rules apply to characters in field values:
-
-* Double-byte characters, such as Japanese characters, are permitted in the field values.
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line” (\n) characters are not permitted in field values.
-
-##### Error messages
-
-When you select the **Download issues** option, you'll get a .csv output of errors. Here are the messages you might get for each row:
-
-|Field|Data type|Message|Example
-|----------|-------|-----|---|
-|<ul><li>PersonId <li> Manager Id| Email|Invalid {field name} value. {Field name} should follow the form `employee@contoso.com`.|Invalid PersonId value. PersonId should follow the form `employee@contoso.com`.
-|<ul><li> Organization <li> LevelDesignation <li> FunctionType <li> SupervisorIndicator <li> OnsiteDays <li> Location|String|Missing {field name} value. Include {Field name} in all rows.|Missing Organization value. Include Organization in all rows.
-|<ul><li> EffectiveDate <li> HireDate|DateTime| Invalid {field name} value. {Field name} value should follow the MM/DD/YYYY format.| Invalid HireDate value. HireDate value should follow the MM/DD/YYYY format.
-|<ul><li> HourlyRate|Double|Invalid {field name} value. {Field name} should be a double of the form 23.75.|Invalid HourlyRate value. HourlyRate should be a double of the form 23.75.
-|<ul><li>Layer|Integer|Invalid {field name} value. {Field name} should be an integer.|Invalid Layer value. Layer should be an integer.
-
+To learn about formatting your file to prevent errors, refer to [File rules and validation errors](rules-validation-errors.md).
 
 
 ## Related topic
