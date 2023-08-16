@@ -1,5 +1,5 @@
 ---
-ms.date: 5/5/2023
+ms.date: 08/14/2023
 title: "Overview of Viva Connections for Education"
 ms.reviewer: jesegher
 ms.author: evanatkin
@@ -43,7 +43,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 > [!NOTE]
 >
 > - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. **[Learn more about home sites and how they complement Viva Connections](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together)**.
-> - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections is not currently supported on tablet devices. Check the **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** for the status of tablet support.
 
 ## Components to Viva Connections
