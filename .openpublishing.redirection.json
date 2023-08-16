@@ -1608,6 +1608,11 @@
         "source_path": "Viva/solutions/slack-integration.md",
         "redirect_url": "/previous-versions/viva/slack-integration",
         "redirect_document_id": "FALSE"
-    }
+    },
+    {
+      "source_path": "Viva/insights/personal/overview/vi-trial.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": "FALSE"
+  }
     ]
   }
