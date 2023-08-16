@@ -20,9 +20,9 @@ search.appverid: MET150
 
 ## Summary
 
-Service documentation: [Microsoft Viva Pulse overview](../introduction-to-viva-pulse.md)
-
 Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what is working well and which areas to focus on over time.  
+
+Learn more about [Microsoft Viva Pulse](../introduction-to-viva-pulse.md).
 
 ## Data residency for Viva Pulse
 
