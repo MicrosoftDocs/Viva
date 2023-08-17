@@ -137,13 +137,6 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 
 6. Select **Save**.
 
-7. Then go to the **Who can see Viva Topics Early Adopter Program experiences** section. You can select:
-    - **Everyone in my organization**
-    - **Only selected people or security groups**
-    - **No one**
-
-8. Select **Save**.
-
 ### Topic center
 
 On the **Topic center** page, you can create your topic center site where users can view topic pages and manage topics.
