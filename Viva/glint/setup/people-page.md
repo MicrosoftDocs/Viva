@@ -77,7 +77,7 @@ The View As functionality allows you to open your Viva Glint program as if you
 
 **To view as another person**: 
 
-1. Locate the person you want to veiw as and open their page by hovering over and selecting the name. 
+1. Locate the person you want to view as and open their page by hovering over and selecting the name. 
 
 1. Select  **View As**. 
 
@@ -102,7 +102,7 @@ You can send a survey to one employee (manually) from the People page. Use the�
 
 ### Send User Data
 
-Send a users surveys respones and attributes directly to a user, without viewing data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230875).
+Send a user's survey response and attributes directly to a user, without viewing data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230875).
 
 ### Delete User
 
