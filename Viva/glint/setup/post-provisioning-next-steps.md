@@ -75,8 +75,9 @@ In order for you, as the Global administrator, to assign service admins without 
 ### 1. Begin Viva Glint platform setup
 
 - [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
-- [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238425)
-- [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
+- [Manage Allowed Lists]([https://go.microsoft.com/fwlink/?linkid=2238617)
+- [Create your SSH key pair](https://go.microsoft.![image](https://github.com/MicrosoftDocs/Viva-pr/assets/141166658/033d0e7a-4ed0-4834-9b5a-95e1ac68b867)
+com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
 
