@@ -2,6 +2,77 @@
 
 
 
+## Week of August 07, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/7/2023 | [Introducing Microsoft Viva Engage](/viva/engage/overview) | modified |
+| 8/7/2023 | Habit playbooks for Viva Insights | removed |
+| 8/7/2023 | Viva Insights learning modules | removed |
+| 8/7/2023 | Learning collateral for Viva Insights adoption | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Define your why | removed |
+| 8/7/2023 | Viva Insights Individual Adoption - Develop new habits | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Get started | removed |
+| 8/7/2023 | Viva Insights Individual Adoption resources | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Set goals | removed |
+| 8/7/2023 | Viva Insights Individual Adoption - Sustain change | removed |
+| 8/7/2023 | Team Adoption implementation | removed |
+| 8/7/2023 | Viva Insights team adoption introduction | removed |
+| 8/7/2023 | Viva Insights Team Adoption --Measure | removed |
+| 8/7/2023 | Viva Insights Team Adoption plan | removed |
+| 8/7/2023 | Viva Insights Team Adoption -- Reinforce | removed |
+| 8/7/2023 | Use Viva Insights to build good work habits | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Diagnose | removed |
+| 8/7/2023 | Add top collaborators in Viva Insights | removed |
+| 8/7/2023 | Task card in Viva Insights | removed |
+| 8/7/2023 | Unread emails in Viva Insights | removed |
+| 8/7/2023 | Open the Viva Insights Outlook add-in | removed |
+| 8/7/2023 | [Business resilience report](/viva/insights/advanced/analyst/templates/business-resilience) | modified |
+| 8/7/2023 | [Diversity equity and inclusion Power BI report](/viva/insights/advanced/analyst/templates/diversity-equity-inclusion) | modified |
+| 8/7/2023 | [Hybrid Workforce Experience Power BI report (preview)](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience-preview) | modified |
+| 8/7/2023 | [Hybrid Workforce Experience Power BI report](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience) | modified |
+| 8/7/2023 | [Manager effectiveness report](/viva/insights/advanced/analyst/templates/manager-effectiveness) | modified |
+| 8/7/2023 | [Meeting effectiveness report](/viva/insights/advanced/analyst/templates/meeting-effectiveness) | modified |
+| 8/7/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | modified |
+| 8/7/2023 | [Ways of working report](/viva/insights/advanced/analyst/templates/ways-of-working) | modified |
+| 8/8/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 8/9/2023 | [Goals Broadcast](/viva/goals/goals-broadcast) | added |
+| 8/9/2023 | [Cross-collaboration: person-to-group query](/viva/insights/advanced/analyst/cross-collaboration-p2g) | added |
+| 8/9/2023 | Productivity insights in Viva Insights in Outlook | removed |
+| 8/9/2023 | FAQ for the Viva Insights app | removed |
+| 8/9/2023 | [Cross-collaboration: Group-to-group query](/viva/insights/advanced/analyst/cross-collaboration-g2g) | added |
+| 8/9/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
+
+
+## Week of July 31, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/31/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 8/2/2023 | [Microsoft Project for the Web Integration with Viva Goals](/viva/goals/microsoft-project-integration) | added |
+| 8/2/2023 | [Configure your Viva Engage network](/viva/engage/configure-your-viva-engage-network/configure-viva-engage) | modified |
+| 8/2/2023 | [Manage admin roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
+| 8/2/2023 | [Viva Engage and Microsoft 365 Groups](/viva/engage/engage-microsoft-365-groups) | modified |
+| 8/2/2023 | [Customize your Viva Engage community](/viva/engage/manage-viva-engage-groups/customize-your-community) | modified |
+| 8/2/2023 | [Add, block, or remove Viva Engage users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) | modified |
+| 8/2/2023 | [Report a Viva Engage conversation](/viva/engage/report-conversation-overview) | modified |
+| 8/2/2023 | Viva Insights personal insights introduction | removed |
+| 8/2/2023 | Microsoft Viva Insights documentation # < 60 chars | removed |
+| 8/3/2023 | [Personal insights service description](/viva/insights/personal/overview/mya-service-description) | modified |
+| 8/3/2023 | Confirm the installation of the Viva Insights Outlook add-in | removed |
+| 8/3/2023 | Key personal insights elements | removed |
+| 8/3/2023 | [Add SAP SuccessFactors as a content source](/viva/learning/sfsf-add-as-content-source) | modified |
+| 8/3/2023 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | modified |
+| 8/4/2023 | [Use announcements in Connections](/viva/connections/announcements-viva-connections) | modified |
+| 8/4/2023 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | modified |
+| 8/4/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
+| 8/4/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
+| 8/4/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
+| 8/4/2023 | [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) | modified |
+
+
 ## Week of July 24, 2023
 
 
@@ -435,79 +506,3 @@
 | 7/14/2023 | [Use the Feed web part for Viva Connections](/viva/connections/use-feed-web-part-for-viva-connections) | modified |
 | 7/14/2023 | [Manage academies in Viva Learning](/viva/learning/academy) | modified |
 | 7/14/2023 | [Diversity equity and inclusion Power BI report](/viva/insights/advanced/analyst/templates/diversity-equity-inclusion) | added |
-
-
-## Week of July 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/1/2023 | [File rules and validation errors](/viva/insights/advanced/admin/rules-validation-errors) | added |
-| 7/3/2023 | [Import organizational data (first import)](/viva/insights/advanced/admin/import-org-data-first) | modified |
-| 7/3/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
-| 7/3/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
-| 7/3/2023 | [Upload organizational data (first upload)](/viva/insights/advanced/admin/upload-org-data-first) | modified |
-| 7/3/2023 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
-| 7/5/2023 | [Viva Topics lightweight management in Viva Engage](/viva/topics/topics-lightweight-management) | added |
-| 7/6/2023 | [Viva Insights with Glint report](/viva/insights/advanced/analyst/templates/glint) | added |
-| 7/7/2023 | [Organize a Viva Engage live event](/viva/engage/organize-live-event) | added |
-
-
-## Week of June 26, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/26/2023 | [Configure personal insights defaults](/viva/insights/advanced/setup-maint/configure-personal-insights) | added |
-| 6/26/2023 | [Customize Viva Insights privacy settings](/viva/insights/advanced/setup-maint/privacy-settings) | added |
-| 6/26/2023 | [Install the Viva Insights app in Teams](/viva/insights/advanced/setup-maint/teams-admin-setup) | added |
-| 6/26/2023 | [Transferring from Workplace Analytics to the advanced insights app](/viva/insights/advanced/setup-maint/transferring-from-wpa) | added |
-| 6/26/2023 | [Upload organizational data during setup](/viva/insights/advanced/setup-maint/upload-data) | added |
-| 6/26/2023 | [Frequently asked questions about the Feed for Viva Connections](/viva/connections/faqs-viva-connections-feed) | modified |
-| 6/26/2023 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | modified |
-| 6/26/2023 | [Launch Viva Connections for your organization](/viva/connections/launch-viva-connections) | modified |
-| 6/26/2023 | [Plan Viva Connections for your organization](/viva/connections/plan-viva-connections) | modified |
-| 6/26/2023 | [Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language) | modified |
-| 6/26/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
-| 6/26/2023 | Guide to setting up Viva Connections | removed |
-| 6/26/2023 | [Overview of how to plan, build, and launch Viva Connections](/viva/connections/viva-connections-setup-overview) | modified |
-| 6/26/2023 | Assign admin roles | removed |
-| 6/26/2023 | [Assign licenses](/viva/insights/advanced/setup-maint/assign-licenses) | modified |
-| 6/26/2023 | [Assign roles](/viva/insights/advanced/setup-maint/assign-user-roles) | modified |
-| 6/26/2023 | [Environment requirements for Viva Insights](/viva/insights/advanced/setup-maint/environment-requirements) | modified |
-| 6/26/2023 | Microsoft Viva Insights maintenance | removed |
-| 6/26/2023 | [Configure manager settings](/viva/insights/advanced/setup-maint/manager-settings) | modified |
-| 6/26/2023 | [Viva Insights setup overview](/viva/insights/advanced/setup-maint/setup-overview) | modified |
-| 6/26/2023 | Microsoft Viva Insights setup | removed |
-| 6/26/2023 | [Roles in Viva Insights](/viva/insights/advanced/setup-maint/user-roles) | modified |
-| 6/26/2023 | [Microsoft Viva Insights documentation # < 60 chars](/viva/insights/index) | modified |
-| 6/26/2023 | [Introduction to Viva Insights](/viva/insights/introduction) | modified |
-| 6/26/2023 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
-| 6/26/2023 | [Team insights](/viva/insights/org-team-insights/team-insights) | modified |
-| 6/26/2023 | Admin tasks for personal insights | removed |
-| 6/26/2023 | Plans and environments for personal insights | removed |
-| 6/26/2023 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
-| 6/26/2023 | Personal insights configuration for Microsoft 365 administrators | removed |
-| 6/26/2023 | [Personal insights deployment guide](/viva/insights/personal/setup/deployment-guide) | modified |
-| 6/26/2023 | [Search preferences in Viva Learning](/viva/learning/search-preferences) | added |
-| 6/26/2023 | [Language preferences in Viva Learning](/viva/learning/language-preferences) | modified |
-| 6/27/2023 | [Goal writing recommendations](/viva/solutions/viva-goals-healthy-okr-program/goal-writing-recommendations) | added |
-| 6/27/2023 | [Guide to great goal writing](/viva/solutions/viva-goals-healthy-okr-program/great-goal-writing) | added |
-| 6/27/2023 | [Are my OKRs any good? How to turn good OKRs to great OKRs ](/viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula) | modified |
-| 6/27/2023 | [Write annual, organizational goals using the 5 Ps](/viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs) | modified |
-| 6/27/2023 | [Write effective OKRs that inspire action and deliver results](/viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview) | modified |
-| 6/28/2023 | [Inviting and removing a user](/viva/goals/inviting-and-removing-a-user) | modified |
-| 6/29/2023 | [Advanced Deployment Guides for Microsoft Viva](/viva/deployment-guides-for-microsoft-viva) | modified |
-| 6/30/2023 | [Import survey results from Glint](/viva/insights/advanced/admin/import-survey-glint) | added |
-| 6/30/2023 | [Import survey results](/viva/insights/advanced/admin/import-survey-results) | added |
-| 6/30/2023 | [Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning](/viva/learning/configure-cornerstone-content-source) | modified |
-| 6/30/2023 | [Configure Go1 as a content source for Microsoft Viva Learning](/viva/learning/configure-go1-content-source) | modified |
-| 6/30/2023 | [Add learning management systems for Microsoft Viva Learning](/viva/learning/configure-lms) | modified |
-| 6/30/2023 | [Configure OpenSesame as a content source for Microsoft Viva Learning](/viva/learning/configure-opensesame-content-source) | modified |
-| 6/30/2023 | [Add other content providers for Microsoft Viva Learning](/viva/learning/configure-other-content-sources) | modified |
-| 6/30/2023 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
-| 6/30/2023 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
-| 6/30/2023 | [Configure Skillsoft as a content source for Microsoft Viva Learning](/viva/learning/configure-skillsoft-content-source) | modified |
-| 6/30/2023 | [Configure Udacity as a content source for Microsoft Viva Learning](/viva/learning/configure-udacity-content-source) | modified |
-| 6/30/2023 | [Configure Udemy as a content source for Microsoft Viva Learning](/viva/learning/configure-udemy-content-source) | modified |
-| 6/30/2023 | [Manage content sources for Viva Learning](/viva/learning/content-sources-365-admin-center) | modified |

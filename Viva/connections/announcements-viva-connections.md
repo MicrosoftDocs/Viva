@@ -1,5 +1,5 @@
 ---
-ms.date: 07/19/2023
+ms.date: 08/04/2023
 title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -137,7 +137,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 ## Manage announcements from the announcements page
 
-You can view all announcements that are active, scheduled, saved as drafts, and expired from the **Announcements** page. 
+You can view all announcements that are active, scheduled, saved as drafts, and expired from the **Announcements** page.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page showing the status of several announcements."lightbox="../media/connections/announcements-viva-connections/announcements-page.png":::
 

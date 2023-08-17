@@ -120,36 +120,36 @@ On some pages, you can select **View multiple attributes** under a breakdown of 
 
 #### Overview
 
-Shows a high-level overview of the five opportunities with a highlighted insight for each.
+Get a high-level overview of the five opportunities with a highlighted insight for each.
 
 
 #### Weekly and monthly results
 
-You can choose to review the highlights on a weekly or monthly basis. If you choose weekly, the result represents the most recent week of data, and the change represents how it has shifted from the prior week. If you choose monthly, the result represents the most recent month of data, and the change represents how it has shifted from the prior month. 
+Choose to review the highlights on a weekly or monthly basis. If you choose weekly, the result represents the most recent week of data, and the change represents how it has shifted from the prior week. If you choose monthly, the result represents the most recent month of data, and the change represents how it has shifted from the prior month. 
 
 #### Attract talent
 
-Shows how diverse employees are represented among new hires and whether it differs from their representation among tenured employees. When a diverse group is more represented in new hires than tenured employees, it might indicate success in finding diverse candidates. 
+Discover how diverse employees are represented among new hires and whether it differs from their representation among tenured employees. When a diverse group is more represented in new hires than tenured employees, the page might indicate success in finding diverse candidates. 
 
 #### Onboard new hires
 
-Highlights how quickly diverse hires are integrating into the company and whether they are getting the manager support they need. Helping diverse new hires engage with their managers and develop their internal network in the first months in a new position can set them up for long-term success. 
+Learn how quickly diverse hires are integrating into the company and whether they are getting the manager support they need. Helping diverse new hires engage with their managers and develop their internal network in the first months in a new position can set them up for long-term success. 
 
 ### Develop and grow
 
-Helps you understand whether new hires receive sufficient time in one-on-ones with their direct manager.​ Employees who have regular one-on-ones with their managers are three times more likely to be engaged as employees who don’t, and manager coaching helps support career development and skill growth.​ 
+Understand whether new hires receive sufficient time in one-on-ones with their direct manager.​ Employees who have regular one-on-ones with their managers are three times more likely to be engaged as employees who don’t, and manager coaching helps support career development and skill growth.​ 
 
 #### Promote career advancement
 
-Explores whether diverse employees are well-represented in the most senior levels of the organization. Examining their access to large and diverse internal networks can indicate whether their networks can help advance their careers through new opportunities. 
+Explore whether diverse employees are well-represented in the most senior levels of the organization. Examining their access to large and diverse internal networks can indicate whether their networks can help advance their careers through new opportunities. 
 
 #### Boost engagement
 
-Analyzes the work patterns that support engagement for diverse employees. Organizations with employees who report high levels of engagement also see greater retention.
+Analyze the work patterns that support engagement for diverse employees. Organizations with employees who report high levels of engagement also see greater retention.
 
 #### Glossary
 
-Defines the metrics and other key terms used in the report.
+View the metrics and other key terms used in the report.
 
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]

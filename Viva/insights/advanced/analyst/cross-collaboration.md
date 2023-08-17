@@ -21,5 +21,6 @@ Cross-collaboration queries help you learn more about how parts of your organiza
 
 To run a query about collaboration between two individuals in your organization (person-to-person query), refer to [Collaboration between individuals](./cross-collaboration-p2p.md).
 
->[!Note]
->Right now, collaboration between individuals (person-to-person query) is available for you to run in the advanced insights app. Over time, we're rolling out other query types to analyze collaboration between groups. Stay tuned on our [Insights Community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights) to learn when the other query types are released.
+Or, to analyze how individuals collaborate with groups, refer to [person-to-group queries](./cross-collaboration-p2g.md).
+
+You can also analyze how groups invest their time and collaborate with other groups, through [group-to-group queries](./cross-collaboration-g2g.md).
