@@ -4,7 +4,7 @@ ms.date: 03/06/2023
 title: Viva Goals regional support
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:

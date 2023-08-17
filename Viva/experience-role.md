@@ -11,9 +11,10 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 
@@ -30,4 +31,3 @@ Microsoft Viva Sales is a seller experience application that uses Microsoft 365 
 ![Image of Viva Sales interface)](./media/viva-sales.png)
 
 For more information on how to implement and use Viva Sales, see [Introduction to Microsoft Viva Sales](/viva/sales/introduction).
-

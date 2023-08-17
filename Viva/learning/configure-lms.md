@@ -10,10 +10,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-- enabler-strategic
-- m365initiative-viva-learning
-- highpri
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - highpri
+  - Tier1
 localization_priority: medium
 description: Learn how to configure learning management systems as a learning content source for Microsoft Viva Learning.
 ---
@@ -22,13 +23,13 @@ description: Learn how to configure learning management systems as a learning co
 
 A growing set of learning management systems are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
 
-Learning management systems aren't enabled by default. To enable these sources, you'll need to [add them in the Microsoft 365 admin center](content-sources-365-admin-center.md#configure-settings-for-the-learning-content-sources) and follow the specific instructions shown in the following table.
+Learning management systems aren't enabled by default. To enable these sources, add them to the Viva Learning Admin tab and follow the specific instructions shown in the following table.
 
 >[!NOTE]
->You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
+>A Viva Learning or Viva Suite license is required to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
 >[!NOTE]
->It can take 24 to 48 hours for Viva Learning users to see content for the sources you enabled in the admin portal.
+>Sources you enable in the Viva Learning admin portal users may take 24 to 48 hours before becoming visible to users.
 
 ## Learning management systems
 
@@ -37,7 +38,7 @@ Learning management systems aren't enabled by default. To enable these sources, 
 |Cornerstone OnDemand |[Configure Cornerstone OnDemand as a content source](configure-cornerstone-content-source.md)         |
 |Saba    |[Configure Saba as a content source](configure-saba-content-source.md)         |
 |SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](configure-successfactors-content-source.md)         |
-| Workday   |[Configure Workday as a content source](configure-workday-content-source.md)         |
+
 
 >[!NOTE]
 >Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
@@ -46,17 +47,15 @@ Learning management systems aren't enabled by default. To enable these sources, 
 
 The dataflow diagram illustrates how Viva Learning uses the LMS connector to ingest the learning content catalog and learner records (assignments and completion status). The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
 
-![Flow chart depicting the content ingestion process, which is explained in the paragraph below.](../media/learning/lms-dataflow.png)
-
-The step-by-step content ingestion process is explained below.
+:::image type="content" alt-text="Flow chart depicting the content ingestion process, which is explained in the paragraph below." source="../media/learning/lms-dataflow.png" lightbox="../media/learning/lms-dataflow.png":::
 
 1. **LMS** <br> Viva Learning requires two types of data from every LMS.
-    1. **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
-    2. **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment table](#assignment-records). [View the completion table](#completion-status).
+   - **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
+   - **Assignment and completion records (learner records sync)**: Fields that are extracted as part of the Assignment & Completion package or API from the LMS. [View the assignment table](#assignment-records). [View the completion table](#completion-status).
 
-2. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning and displayed in Viva Learning.
+1. **LMS Connector** <br> The LMS Connector pulls content from the LMS using both API and SFTP mechanisms. The first time you sync, the LMS extractor pulls the full data. Afterward, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter any error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning and displayed in Viva Learning.
 
-3. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning. <br> The **My learning** tab shows the user's assigned and completed courses, which are fetched from the LMS.
+1. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning. <br> The **My learning** tab shows the user's assigned and completed courses, which are fetched from the LMS.
 
 ### Content catalog
 
@@ -130,6 +129,6 @@ These are the data extracted from the LMS for completion status.
 
 ## Content consumption for end users
 
-Once you've added a learning management system as a content source from the Microsoft 365 admin center, content from the LMS will flow to Viva Learning and will be visible to end users.
+Once you've added a learning management system as a content source, content from the LMS will flow to Viva Learning and will be visible to end users.
 
 Once a user chooses to play a course in Viva Learning, they will be directed to the LMS webpage and will need to enter the login credentials on the LMS sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).

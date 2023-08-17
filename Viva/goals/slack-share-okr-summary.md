@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: Share OKR summary via Slack
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- vg-integration  
 search.appverid:
 - MET150
 description: "Learn how to share OKRs summaries in Slack with Viva Goals"

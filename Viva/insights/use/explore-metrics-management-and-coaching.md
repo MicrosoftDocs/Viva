@@ -18,6 +18,9 @@ audience: Admin
 
 # Management and coaching
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 **Management and coaching** summarizes collaboration between leaders, managers, and employees. As an analyst, you can use this section to gain insight into relationships between employees and their manager and other leaders. Time with leaders and managers is often a key factor of employee engagement. By using these metrics, analysts can begin to classify groups of employees as micromanaged or independent, and over-coached or under-coached. Employees who sent at least one email or instant message during a week are considered active and are included in the data for the weeks they are active.
 
 ![Management and coaching.](../images/wpa/use/management-coaching.png)

@@ -4,15 +4,16 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/26/2023
+ms.date: 04/28/2023
 audience: admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: A guide to advanced search options that help you search for content within Viva Learning. 
 ---
@@ -55,7 +56,7 @@ The following learning content attributes can be used by both admins and learner
 
 ### Admin accessible attributes 
 
-The following attributes are available to Viva Learning knowledge admins. These aren't visible to learners. 
+The following attributes are available to Viva Learning knowledge admins. These aren't visible to learners. Learners still can search using these attributes, if they know the values for the attributes.
 
 |Attributes | Description|
 |-----------|-----------|
@@ -89,12 +90,15 @@ The following attributes require you to input precise values matching all charac
 - Author
 - Type
 - Language
-- Id
+- Id 
 - LOId
 - Provider
 - ProviderId
 - Premium
 - Source
+
+>[!NOTE]
+> The Id field can be used only for content from Microsoft Learn, M365 trainings, LinkedIn Learning, Coursera, Infosec, JBA, Pluralsight and edX. Support for other providers is in progress.
 
 Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned above can be used with these fields using double quotes.
 Using quotes in these fields will result in exact match in that field:

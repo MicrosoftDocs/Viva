@@ -20,6 +20,9 @@ audience: Admin
 
 # Transform meeting culture
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Meetings are essential for collaboration, however unnecessary meetings and bad practices can harm engagement and limit productivity. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 Microsoft Viva Insights has a **My organization** page that shows leader's collaboration data about their team. The outcomes include data about **Transform meeting culture**.
@@ -35,7 +38,7 @@ The following are the percentage insights, their underlying metrics, and a littl
 |Behavior |Percentage insight | Metrics |Calculations |
 |---------|--------|--------------------|----------------------|
 |Optimize meeting hours |Percentage of employees who spend a majority of their meeting time in long or large meetings |[Long meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#long-meeting-define), [large meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#large-meeting-define), [decision-making meetings](/viva/insights/use/glossary?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#decision-making-meeting-define), and [meeting hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-define) |Percentage of employees who spend a majority of their meeting hours in long meetings, which are more than one hour, or large meetings, which have more than eight attendees. This insight is calculated weekly and averaged for the entire time period. |
-|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#add-metrics) and [meeting hours](/viva/insights/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#meeting-hours-define) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
+|Examine recurring meetings |Percentage of employees who spend a majority of their time in recurring meetings | [IsRecurring meeting filter](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#add-metrics) and [meeting hours](./metric-definitions.md) |Percentage of employees who spend more than 50 percent of their meeting hours in recurring meetings. This insight is calculated weekly and averaged for the entire time period. |
 |Promote healthy meeting habits |Percentage of employees who significantly multitask in meetings |[Multitasking meeting hours](/viva/insights/use/metric-definitions?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#multitasking-meeting-hours-define) | Percentage of employees who spend more than 25 percent of their meetings hours multitasking. This insight is calculated weekly and then averaged for the entire time period. |
 
 The following defines the organizational data shown in the visual behavioral insights.

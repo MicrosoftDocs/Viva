@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to configure Udemy as a learning content source for Microsoft Viva Learning.
 ---
@@ -58,16 +59,18 @@ Please submit a support ticket to [Udemy Business Support](https://business-supp
     ![Image of the overview page displaying the endpoint URL and Client ID.](../media/learning/udemy-6.png)
     ![Image of the Try it Yourself page where you can enter your URL and Client ID.](../media/learning/udemy-7.png)
 
-## Configure in your Microsoft 365 admin center
+## Configure in the Viva Learning Admin tab
 
->[!NOTE]
->You'll need to have admin permissions in Microsoft 365 to complete these steps.
+After you've received the required configuration details from Udemy portal by using the previous steps, the tenant admin needs to configure Udemy as a learning source in the Viva Learning Admin tab.
 
-After you've received the required configuration details from Udemy portal by using the previous steps, the tenant admin needs to configure Udemy as a learning source in the Microsoft 365 admin center by using the following steps.
+> [!NOTE]
+> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps..
 
-1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb)
 
-2. Navigate to **Settings**, then **Org settings**. Search for Viva Learning and enable Udemy from the options.
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider** 
+
+3. Select **Udemy** from list and select **Next**. 
 
 3. Fill in the following required configuration details:
 

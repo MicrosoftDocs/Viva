@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 11/14/2022
+ms.date: 07/17/2023
 ms.author: loreenl
 author: LoreenLa
 manager: pamgreen
@@ -12,9 +12,10 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom: intro-overview
-ms.collection:  
-- M365-collaboration
-- M365initiative-viva
+ms.collection:
+  - M365-collaboration
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"
@@ -35,46 +36,52 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 
 | Experience | App  | App |
 |:-------:|-------------|------|
-|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Improve employee productivity and well-being through data-driven insights and recommendations.|
-|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.||
+|**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|
+|**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br><br>:::image type="icon" source="media/logos/pulse-logo.svg":::<br>[Viva Pulse](#viva-pulse)<br> Empower leaders and managers to seek and act on feedback when it matters. |:::image type="icon" source="media/logos/glint-logo.png":::<br>[Viva Glint](#viva-glint)<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.|
 |**Growth**|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) <br> Use AI to automatically organize content and expertise across your systems and teams.|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources|
 |**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
-|**Role-based**|:::image type="icon" source="media/logos/viva-sales-logo-1.png"::: <br> [Viva Sales](#viva-sales) <br> Use Microsoft 365 and Teams to automatically capture, access, and register data into any CRM system. ||
 
 #### Viva Connections
-This employee experience app in Microsoft Teams connects employees with tools, news, and resources. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
+Connect employees with tools, news, and resources in Microsoft Teams. Content is displayed on a dashboard and tailored to each individual based on their role, region, and interests.
 
 [Get more information on Viva Connections](/viva/connections/viva-connections-overview)
 
 #### Viva Engage
-This employee experience app brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people  crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Yammer web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
+Brings people together across the organization to connect with leaders, coworkers, and communities. It can also help people crowdsource answers and ideas, share their work and experience, and find belonging at work. The Viva Engage app integrates these experiences into Microsoft Teams and introduces new features including storyline and stories. These new features will also appear in the Viva Engage web, desktop and mobile apps, so no matter where an employee visits, they’ll see the same content and feature set.
 
 [Get more information on Viva Engage](/viva/engage/overview)
 
-#### Viva Insights
-This employee experience app helps improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations. It combines communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps employees use every day, such as Microsoft Teams.
 
-[Get more information on Viva Insights](/viva/insights/index)
+#### Viva Glint
+Understand and improve employee engagement with this "voice of the employee" app. Organizations get immediate visibility into the employee experience with org-wide surveys and recommended actions to drive business outcomes. Questions and action plans are based on people science to guide employee listening and engagement programs that support the employee experience. Leaders and managers can view results to understand wins and opportunities, compare performance against benchmarks and receive personalized suggestions for learning courses, conversation starters, and other actions that support positive business outcomes.
 
-#### Viva Topics
-This employee experience app applies AI to automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
-
-[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
-
-#### Viva Learning
-This employee experience app brings enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft.
- 
-[Get more information on Viva Learning](/viva/learning/overview-viva-learning)
+[Get started with Viva Glint basics](https://go.microsoft.com/fwlink/?linkid=2230857)
 
 #### Viva Goals
-This goal-setting and management solution aligns teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
+Align teams to your organization’s strategic priorities, driving results and a thriving business. With Viva Goals, you can connect employees to your organization’s goals, stay aligned at scale, and drive business results to empower people and teams to understand their impact.
 
 [Get more information about Viva Goals](/viva/goals/intro-to-ms-viva-goals)
 
-#### Viva Sales
-This seller experience app uses Microsoft 365 and Microsoft Teams to automatically capture, access, and register data into any customer relationship management (CRM) system. The app is designed to help sellers work the way they want to without unnecessary context switching and manual data entry. Viva Sales brings together the apps you work with daily—your CRM, Microsoft 365, and Microsoft Teams—to provide a more streamlined and AI-powered selling experience.
+#### Viva Insights
+Improve productivity and wellbeing through data-driven, privacy-protected insights and recommendations. Viva Insights combines communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps employees use every day, such as Microsoft Teams.
 
-[Get more information on Viva Sales](/viva/sales/introduction)
+[Get more information on Viva Insights](/viva/insights/index)
+
+#### Viva Learning
+Bring enterprise learning into the flow of work by connecting content from your organization, Learning Management Systems, third-party providers, and Microsoft.
+ 
+[Get more information on Viva Learning](/viva/learning/overview-viva-learning)
+
+#### Viva Pulse
+
+Empower leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
+
+[Get more information on Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
+
+#### Viva Topics
+Automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
+
+[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.
@@ -83,13 +90,13 @@ Microsoft Viva supports several partner integrations to give you access to indus
 
 **Viva Connections**: Qualtrics, ServiceNow, UKG, Talentsoft, StandOut by ADP, Adobe Sign, Moveworks, Lifeworks, Limeade, Tribute, Blue Yonder, Zebra-Reflexis
 
-**Viva Insights**: Qualtrics, Glint, and Headspace
+**Viva Insights**: Qualtrics and Headspace
 
 **Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview).
 
 [Find out more about partner integrations](https://www.microsoft.com/en-us/microsoft-viva/integrations)
 
-## Viva Solutions
+## Viva solutions
 The Viva solution center provides guidance to help understand, plan, and implement integrated Viva solutions. Here you'll find summaries of each Viva app, license requirements, how to plan and combine apps for greater impact, and more.
 
 [Access the Microsoft Viva solution center](/viva/solutions/solutions)

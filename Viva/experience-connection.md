@@ -11,9 +11,10 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 
@@ -34,13 +35,13 @@ Viva Connections is:
 
 * A branded app experience in Microsoft Teams that is optimized to enable experiences for information workers and frontline workers.
 * A gateway to employee experiences, with the ability for you to curate the content and tools you want to deliver through quick access to data and tasks, relevant news, communications, people, and resources.
-* Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Yammer, and Stream.
+* Built on existing capabilities in Microsoft 365 like SharePoint, Teams, Viva Engage, and Stream.
 
 [Learn more about Viva Connections](/viva/connections/viva-connections-overview) including how to set it up and deploy it to your organization.
 
 ## Viva Engage
 
-Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Yammer services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression.
+Viva Engage is integrated into Teams as an app and surfaces existing and new employee experiences powered by Viva Engage services. Viva Engage provides the right environment for community building, leadership engagement, knowledge sharing, and self-expression.
 
 It features experiences for discovery of conversations, questions, and knowledge sharing happening across the organization, all within Teams Viva Engage app. Additionally, these conversations can be surfaced in the Viva Connections Feed.
 
@@ -65,5 +66,3 @@ You can also add a card to your Viva Connections dashboard, which allows users t
 - To use this solution, start by [setting up Viva Connections](/viva/connections/viva-connections-setup-overview) if you haven't already. Content from Viva Engage will automatically show in the [Viva Connections Feed](/viva/connections/faqs-viva-connections-feed).
 
 - To make Viva Engage quickly available to your employees on the go, add the [Teams app card with the Viva Engage app selected](/viva/connections/create-dashboard#add-a-teams-app-card) to your [Viva Connections dashboard](/viva/connections/create-dashboard).
-
-

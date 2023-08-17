@@ -74,8 +74,8 @@ Before you can use this integration, you’ll need to:
 
     1. Make sure the key has a valid expiration date. 
     
-    >[!Note]
-    > If no expiration date is set for your key, the pipeline will fail.
+       > [!NOTE]
+       > If no expiration date is set for your key, the pipeline will fail.
 
     When you fill out the Microsoft Graph Data Connect Application Preview Registration form in the next step, you’ll provide the Azure Key Vault’s URI found in the **Overview** page. All Viva Insights data will be returned encrypted. For more details, refer to this document’s [Customer onboarding](#customer-onboarding) and [Encryption and compression](#encryption-and-compression) sections.
 
@@ -160,7 +160,7 @@ To use this integration, here’s what you’ll need to do.
 
         * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
 
-    :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
+       :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
 
     5. Select **Review + create**.
 
@@ -186,13 +186,13 @@ To use this integration, here’s what you’ll need to do.
 
     1. Decrypt the entire file with the file encryption key. (Here's a [C# sample](/dotnet/api/system.security.cryptography.aes).)
     
-    >[!Note]
-    >Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
+       > [!NOTE]
+       > Refer to [About encoding](#about-encoding) for details about encoding constraints during decryption.
     
     1. Decompress the entire file to get the extracted data. (Here's a [C# sample](/dotnet/api/system.io.compression.gzipstream).)
 
->[!Note]
-> You can also perform this decryption and decompression process using a sample application that we share with you. Reach out to the Microsoft Viva team for access to this sample application.
+       > [!NOTE]
+       > You can also perform this decryption and decompression process using a sample application that we share with you. Reach out to the Microsoft Viva team for access to this sample application.
 
 #### Take optional steps
 
@@ -318,8 +318,8 @@ To programmatically deploy the pipeline, here’s what you need to do. For more 
 
 4.	Add the Azure Access Token as a Bearer token. 
 
->[!Note]
->To get access tokens for REST APIs, follow the Azure CLI’s documentation or use the Azure Identity SDK. 
+    > [!NOTE]
+    > To get access tokens for REST APIs, follow the Azure CLI’s documentation or use the Azure Identity SDK. 
 
 5.	Submit the request.  
 
@@ -410,7 +410,7 @@ A2. Viva Insights analytics data is only calculated for users who are assigned a
 
 ### Q3. How frequently is analytics data calculated?
 
-A3. Currently, analytics data is calculated once a week. For subsequent runs of an existing pipeline, new data will be available every Monday.
+A3. Currently, analytics data is calculated once a week. For subsequent runs of an existing pipeline, new data will be available during the first part of every week.
 
 ### Q4. Given the potentially large file size, how can the data be processed efficiently?
 
@@ -453,17 +453,17 @@ Yes. Here’s what you need to do. For more information, refer to [Import Key](/
 
 1.	From the output of that command, fetch and map each of the output variables to the input parameters for the Import Key API. Here’s how that mapping should look:
 
-|Output variable from the OpenSSL command|Input parameter to API|
-|---|---|
-|kty <br><br><sup>Note that this is not from the OpenSSL command and should always be “RSA.”</br>|"RSA" 
-modulus| n (remove leading 00) 
-e| AQAB 
-Private Exponent| d
-Prime 1| p 
-Prime 2|Q
-Exponent 1|DP 
-Exponent 2|DQ 
-Coefficient| QI 
+    |Output variable from the OpenSSL command|Input parameter to API|
+    |---|---|
+    |kty <br><br><sup>Note that this is not from the OpenSSL command and should always be “RSA.”</br>|"RSA"|
+    |modulus| n (remove leading 00)|
+    |e| AQAB|
+    |Private Exponent| d|
+    |Prime 1| p|
+    |Prime 2|Q|
+    |Exponent 1|DP|
+    |Exponent 2|DQ|
+    |Coefficient| QI|
 
 
 5. Convert each of the parameters to use Base-64 encoding. Either use a Base-64 encoder directly, or convert the hex bytes to a byte array and then to Base-64. For more information, refer to [Convert.ToBase64String Method](/dotnet/api/system.convert.tobase64string).
@@ -523,7 +523,8 @@ To approve a partner’s request:
 1. Approve the app by going through each screen: **Overview**, **Datasets**, and **Review**. Carefully review the information on each screen before selecting **Next**.
 
     1. **Overview**: Review information about the application and data destination.
-    :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details1.png" alt-text="Screenshot that shows the app Overview screen with the Next button highlighted.":::
+
+       :::image type="content" source="/viva/insights/advanced/images/partner-integration-app-details1.png" alt-text="Screenshot that shows the app Overview screen with the Next button highlighted.":::
     
 
     1. **Datasets**: Review details about which datasets and columns the application wants to extract. Your approval only allows the application to extract the datasets and columns specified here. Make sure you’re fully reviewing each dataset; for each dataset, expand the list of columns the application is requesting to extract.

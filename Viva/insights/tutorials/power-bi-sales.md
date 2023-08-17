@@ -7,16 +7,20 @@ author: madehmer
 ms.author: loreenl
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Sales effectiveness
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Sales effectiveness dashboard for Power BI that’s populated by Microsoft Viva Insights data to help you understand how your sales employees collaborate with external parties and identify opportunities to improve sales effectiveness in your organizations.
 
-Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into into the advanced insights app, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
+Part of the report requires CRM data for advanced insights about CRM account collaboration. For details about how to prepare and upload CRM data into the advanced insights app, see [Upload CRM data](/viva/insights/setup/crm-data-upload?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). Without CRM data, you can still run the report and access an external collaboration baseline for your organizations. Any collaborators with an external domain are defined as external collaborators.
 
 The dashboard includes the following reports.
 
@@ -145,7 +149,7 @@ After the Sales effectiveness dashboard is set up and populated with Viva Insigh
 
 * **Select the time period to measure** - This is the time period that you want to analyze.
 * **Select the attribute you’d like to group external parties or CRM accounts by** - The primary “group-by” attribute shown in all subsequent reports. You can change this attribute at any time and all subsequent report pages will show group values by the new attribute. This attribute is used to determine how external parties or CRM accounts are grouped. Any external party or CRM account that’s contacted by an employee in the group is categorized into that group value.
-* **Filter to certain employee groups in value selection** – You can filter by any of the values in the same attribute selected as the “group-by” attribute to filter the measured employee population. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period. If you also load the CRM collaboration query, you will find the measured CRM accounts count. The measured CRM accounts count may reflect a reduced number if you use filters. Measured CRM accounts shows the number of accounts contacted by the selected population.
+* **Filter to certain employee groups in value selection** – You can filter by any of the values in the same attribute selected as the “group-by” attribute to filter the measured employee population. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who sent at least one email or instant message during a work week included in the current time period. If you also load the CRM collaboration query, you will find the measured CRM accounts count. The measured CRM accounts count may reflect a reduced number if you use filters. Measured CRM accounts show the number of accounts contacted by the selected population.
 
 After confirming the settings, check the number of measured employees and CRM accounts to confirm this is the population you want to analyze.
 

@@ -3,35 +3,67 @@ items:
   items:
     - name: Introducing Microsoft Viva Insights
       href: introduction.md
-      items:
+      items: 
       - name: Privacy and data protection
-        href: advanced/privacy/privacy.md
-      - name: Environment requirements    
-        href: advanced/setup-maint/environment-requirements.md
-      - name: Setup introduction
-        href: advanced/setup-maint/setup-overview.md
+        items:
+        - name: Technical privacy guide for organization insights and advanced insights
+          href: advanced/privacy/privacy.md
+        - name: Personal insights privacy guide for admins
+          href: personal/overview/privacy-guide-admins.md   
+      - name: Plans, environments, and service description    
+        items: 
+        - name: Environment requirements for Viva Insights
+          href: advanced/setup-maint/environment-requirements.md  
+        - name: Service description for personal insights
+          href: personal/overview/mya-service-description.md
+      - name: Setup
+        items:
+        - name: Setup home
+          href: advanced/setup-maint/landing.yml
+        - name: How-to guide - set up core Viva Insights (no premium features)
+          items:
+            - name: Deployment guide for personal insights
+              href: personal/setup/deployment-guide.md 
+            - name: 1 - Configure personal insights defaults
+              href: advanced/setup-maint/configure-personal-insights.md
+            - name: 2 - Configure Teams app settings
+              href: advanced/setup-maint/teams-admin-setup.md
+        - name: How-to guide - set up all of Viva Insights (premium and core features)
+          items:
+            - name: Checklist
+              href: advanced/setup-maint/setup-overview.md
+            - name: 1 - Assign licenses
+              href: advanced/setup-maint/assign-licenses.md
+            - name: 2 - Assign roles
+              href: advanced/setup-maint/assign-user-roles.md
+            - name: 3 - Configure manager settings
+              href: advanced/setup-maint/manager-settings.md
+            - name: 4 - Configure personal insights defaults
+              href: advanced/setup-maint/configure-personal-insights.md
+            - name: 5 - Configure Teams app settings
+              href: advanced/setup-maint/teams-admin-setup.md
+            - name: 6 - Customize Viva Insights privacy settings 
+              href: advanced/setup-maint/privacy-settings.md 
+            - name: 7 - Upload organizational data 
+              href: advanced/setup-maint/upload-data.md 
+            - name: About roles in Viva Insights
+              href: advanced/setup-maint/user-roles.md
+            - name: Transferring from Workplace Analytics
+              href: advanced/setup-maint/transferring-from-wpa.md 
+            - name: Activity report
+              href: personal/overview/activity-report.md             
       - name: Support
-        href: get-insights-support.md  
+        items:
+        - name: Get Viva Insights support
+          href: get-insights-support.md
+        - name: Error reference
+          href: advanced/reference/errors.md    
       - name: Personal insights
         items:
-        - name: FAQ
-          href: personal/teams/faq.md                      
+        - name: End-user documentation
+          href: https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73                     
         - name: Personal insights FAQ
           href: personal/overview/mya-faq.md
-        - name: Admin guide
-          items: 
-            - name: Introduction
-              href: personal/overview/mya-for-admins.md
-            - name: Deployment guide
-              href: personal/setup/deployment-guide.md
-            - name: Setup
-              href: personal/setup/configure.md
-            - name: Plans and environments
-              href: personal/overview/plans-environments.md
-            - name: Privacy guide for admins
-              href: personal/overview/privacy-guide-admins.md
-            - name: Activity report
-              href: personal/overview/activity-report.md
       - name: Team and organization insights
         items:
           - name: Team insights 
@@ -44,24 +76,6 @@ items:
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
-        - name: Setup and maintenance
-          items:
-          - name: Set up advanced insights
-            href: advanced/setup-maint/setup.md
-          - name: Maintenance
-            href: advanced/setup-maint/maintenance.md
-          - name: Roles and licenses
-            items: 
-            - name: Roles in Viva Insights
-              href: advanced/setup-maint/user-roles.md
-            - name: Assign admin roles
-              href: advanced/setup-maint/assign-admin-roles.md
-            - name: Assign user roles
-              href: advanced/setup-maint/assign-user-roles.md
-            - name: Assign licenses
-              href: advanced/setup-maint/assign-licenses.md
-          - name: Manager settings      
-            href: advanced/setup-maint/manager-settings.md
         - name: Admin
           items:
           - name: Organizational data overview
@@ -72,6 +86,10 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: File rules and validation errors  
+            href: advanced/admin/rules-validation-errors.md
+          - name: Domain suppression
+            href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
         - name: Analyst
@@ -84,8 +102,22 @@ items:
               href: advanced/analyst/person-query.md
             - name: Create a meeting query
               href: advanced/analyst/meeting-query.md  
+            - name: Create cross-collaboration queries  
+              items:
+              - name: Create cross-collaboration queries
+                href: advanced/analyst/cross-collaboration.md
+              - name: Set primary and secondary collaborators
+                href: advanced/analyst/collaborators.md
+              - name: Collaboration between individuals (person-to-person query)
+                href: advanced/analyst/cross-collaboration-p2p.md
+              - name: Collaboration between an individual and a group (person-to-group)
+                href: advanced/analyst/cross-collaboration-p2g.md
+              - name: Collaboration between groups (group-to-group)
+                href: advanced/analyst/cross-collaboration-g2g.md        
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
+            - name: Connect your data to Power BI using the Power BI connector
+              href: advanced/analyst/power-bi-connector.md   
             - name: Query results FAQs
               href: advanced/analyst/query-results-faq.md   
           - name: Templates
@@ -96,10 +128,16 @@ items:
               href: advanced/analyst/templates/business-resilience.md
             - name: Hybrid workforce experience
               href: advanced/analyst/templates/hybrid-workforce-experience.md
+            - name: Impact explorer
+              href: advanced/analyst/templates/impact-explorer.md
             - name: Manager effectiveness
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
-              href: advanced/analyst/templates/meeting-effectiveness.md  
+              href: advanced/analyst/templates/meeting-effectiveness.md
+            - name: Onboarding and development
+              href: advanced/analyst/templates/onboarding.md    
+            - name: Recurring meeting audit
+              href: advanced/analyst/templates/recurring-meeting.md
             - name: Ways of working
               href: advanced/analyst/templates/ways-of-working.md            
             - name: Wellbeing - balance and flexibility
@@ -122,6 +160,8 @@ items:
             href: advanced/reference/glossary.md
           - name: Metric definitions
             href: advanced/reference/metrics.md
+          - name: Supported languages
+            href: advanced/reference/supported-languages.md  
 
 
  

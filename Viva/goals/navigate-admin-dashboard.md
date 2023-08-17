@@ -3,7 +3,7 @@ ms.date: 03/07/2023
 title: Navigate the admin dashboard
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

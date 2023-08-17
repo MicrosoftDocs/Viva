@@ -3,7 +3,7 @@ ms.date: 07/18/2022
 title: Configure help and support for your organization
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

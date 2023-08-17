@@ -18,6 +18,9 @@ audience: Admin
 
 # CRM data
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You get a high-level view of the latest available CRM data that you uploaded and successfully processed in the advanced insights app. It includes the number of accounts, contacts, and seller assignments that are available for data analysis.
 
 By combining this data in the advanced insights app, you can now analyze how sales activities connect to organizational outcomes. For example, you could analyze if the time your sales team spent with various accounts is proportionate to the revenue potential of those accounts, or if your top tier accounts are getting enough attention from your sales team.

@@ -10,7 +10,7 @@
         > [!NOTE]
         > The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
 
- 1. Under **Predefined template metrics**, view the list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. Including the preselected ones, you can have up to seven metrics in your query.
+ 1. Under **Predefined template metrics**, view the list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**. 
     > [!IMPORTANT]
     > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. Learn more about data-quality notifications in [Data quality in the analyst experience](../../data-quality-analyst-experience.md).
 
@@ -27,7 +27,7 @@
 
 ### Link report to query
 
-9. Open the downloaded template.
+1. Open the downloaded template.
 1. If you're prompted to select a program, select **Power BI**.
 1. When you're prompted by Power BI:
    1. Paste in the partition and query identifiers.

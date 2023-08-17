@@ -4,7 +4,7 @@ title: Snowflake integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to integrate your Viva Goals OKRs with Data in Snowflake."

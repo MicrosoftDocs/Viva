@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 localization_priority: Priority
 ms.custom:
-ms.collection:  
-- M365initiative-viva
-- m365solution-overview
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - m365solution-overview
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how to combine Microsoft Viva apps to support popular experiences"
@@ -141,4 +142,3 @@ Empower employees to find the information and contacts that they need to do thei
 [Introduction to Microsoft Viva Learning](learning/index.md)
 
 [Introduction to Microsoft Viva Topics](topics/index.md)
-

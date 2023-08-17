@@ -1,20 +1,21 @@
 ---
 ms.date: 11/29/2021
 title: Save a topic as a draft in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: hoanth
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
 description: Learn how to save a new or revised topic as a draft in Microsoft Viva Topics.
-
 ---
 
 # Save a topic as a draft in Microsoft Viva Topics
@@ -84,6 +85,3 @@ If one person has a page open for editing, and another person tries to edit the 
    ![Screenshot showing a message that the topic is being edited by someone else.](../media/knowledge-management/draft-one-edit-page.png)
  
 You can ask the person who has the page open for editing to "release" the page by saving and closing, discarding changes, or publishing. However, if the page has no activity for 5 minutes, the editing session will automatically time out and the page will be "unlocked," unless someone closes the browser within 5 minutes.
-
-
-

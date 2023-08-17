@@ -1,5 +1,5 @@
 ---
-ms.date: 04/07/2022
+ms.date: 04/07/2023
 title: "Microsoft Viva for the hybrid workplace: Onboarding employees who are new or changing roles"
 ms.reviewer: 
 ms.author: loreenl
@@ -11,8 +11,9 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
+ms.collection:
+  - M365initiative-viva
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can engage your employees in a hybrid workplace with Microsoft Viva."
@@ -55,7 +56,7 @@ You must be a global administrator or SharePoint administrator to set up and man
 
 ### Microsoft Stream
 Microsoft Stream
-Use Microsoft Stream to record training and information provided by your executives, your HR department, or anyone who needs to address new employees. Videos will appear on the [Stream start page](/stream/streamnew/start) on Office.com. You can also promote these videos in a [SharePoint news post](https://support.microsoft.com/en-us/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) as well as Teams and Yammer, and also your Viva Connections feed. Learn more about [Stream](/stream/streamnew/start).
+Use Microsoft Stream to record training and information provided by your executives, your HR department, or anyone who needs to address new employees. Videos will appear on the [Stream start page](/stream/streamnew/start) on Office.com. You can also promote these videos in a [SharePoint news post](https://support.microsoft.com/en-us/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) as well as Teams and Viva Engage, and also your Viva Connections feed. Learn more about [Stream](/stream/streamnew/start).
 
 ![Image of Stream start page](../media/stream.png)
 

@@ -1,9 +1,9 @@
 ---
-ms.date: 3/1/2023
+ms.date: 05/15/2023
 title: "Customize and edit the Viva Connections home experience"
-ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.reviewer: hokavian
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
-- highpri
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - highpri
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -31,7 +32,7 @@ Elements of the new Viva Connections home experience can be customized to fit yo
 
 >[!NOTE]
 > - If you already have Viva Connections set up, the new home design uses current content and settings (like audience targeting) from your Dashboard and Resources and there will not be any impact to the mobile experience. 
-> - If your organization has a home site, you can choose to use it as the default home experience. The ability to choose the default experience will become available when the feature rolls out in November. More details will be shared soon.
+> - If your organization has a home site, you can choose to use it as the default home experience.
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new home experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams. 
 > - You must have member level permissions or higher to edit the new desktop experience.
@@ -45,7 +46,7 @@ The home experience focuses on the top tasks, tools, and resources that help peo
 
 **Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field. 
 
-**Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Yammer, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
+**Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) delivers updates to the right people at the right time and is tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that employees belong to. 
 
 **Resources:** [The Resources](viva-connections-overview.md#viva-connections-resources) experience enables navigation across portals and destinations.
 
@@ -91,7 +92,7 @@ Assigned tasks, Top news, Viva Learning, and Viva Topics. |
 
 ### Summary of default dashboard cards and how to set them up
 
-By default, cards will already be on the dashboard and require minimal set up. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
+By default, cards will already be on the dashboard and require minimal setup. Edit and preview the dashboard until you are ready to share with others. To edit existing cards, select the pencil icon to **Edit** the card. In the property pane that opens on the right, choose your card size from the **Card size** drop-down list. 
 
 Apply **Audience targeting** so this card is filtered to specific roles, regions, or departments. Learn more about [audience targeting for Viva Connections](use-audience-targeting-in-viva-connections.md).
 
@@ -144,16 +145,17 @@ Your organization’s Viva Connections app can display a custom icon and label i
 
 ## Customize the banner image
 
-Change the banner image in the header and set the focal point for the image. The banner image only displays in the desktop app.
+Change the banner image in the header and set the focal point for the image. The banner image and focal point can only be set on the desktop app. 
+
+> [!NOTE]
+> - The greeting is automatically generated and cannot be customized.
+> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
+> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customized.
+>  -  The banner image and focal point will resize when viewed via the tablet and mobile app.
 
 1.	Start by selecting **Edit** and then select **Change image**.
 2.	Select the image you’d like to use and then select **Reposition**. 
 3.	Once you are satisfied with the focal point, select **Set focal point** and then **Save**. There is no draft state for the banner image. It will be displayed for all users when you select Save.
-
-> [!NOTE]
-> - The greeting is automatically generated and cannot be customed.
-> - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
-> - The Microsoft Viva icons and labels displayed below the greeting are automatically displayed based on the license that’s detected and cannot be customed. 
 
 ## Customize the dashboard
 
@@ -173,7 +175,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources gives access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
+Resources give access to the most popular portals and destinations at your organization. The Resources section displays at the bottom of the home experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled. 
 
 >[!NOTE]
 > Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and cannot be edited. 
@@ -195,11 +197,11 @@ Editing Resources in the Viva Connections desktop experience will not have an im
 
 ## Learn more about how to influence content in the feed
 
-There’s no configuration required to get the Feed working in the desktop or mobile apps. Content in the Feed can’t be edited because content is aggregated from across your M365 environment. Content comes from three primary sources: organizational news published in SharePoint, posts in Yammer communities, and videos in Stream that are shared with the entire organization or targeted to user groups.
+There’s no configuration required to get the Feed working in the desktop or mobile apps. Content in the Feed can’t be edited because content is aggregated from across your M365 environment. Content comes from three primary sources: organizational news published in SharePoint, posts in Viva Engage communities, and videos in Stream that are shared with the entire organization or targeted to user groups.
 
 The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.md) displays the same content and can be added to other SharePoint sites. Content that is displayed in the Feed can’t be edited but the ranking can be influenced with the following actions: 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts from organizational news sites.
-- **Highlight community discussions** - Feature posts in public Yammer communities that you’d like seen by the entire organization.
+- **Highlight community discussions** - Feature posts in public Viva Engage communities that you’d like seen by the entire organization.
 - **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from impacts the ranking.
 - Learn more about [how content in the Feed is sourced and ranked](faqs-viva-connections-feed.md).
 
@@ -271,6 +273,7 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
+> If you change the home site to a different home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new home site sooner.
 
 ## Learn more
 
@@ -279,4 +282,3 @@ Contoso’s home site URL is https://contoso.sharepoint.com/sites/homeSite in th
 [Overview: Viva Connections](viva-connections-overview.md)
 
 [Use audience targeting in Viva Connections to personalize the experience](use-audience-targeting-in-viva-connections.md)
-

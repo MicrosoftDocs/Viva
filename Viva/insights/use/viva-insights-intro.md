@@ -20,6 +20,10 @@ audience: Admin
 
 # Manager and leader insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The [Microsoft Viva Insights](https://insights.office.com/VivaInsights/) app is part of [Microsoft Viva](https://www.microsoft.com/microsoft-viva). Microsoft Viva is the employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva brings together communications, knowledge, learning, resources, and insights into an employee experience that integrates seamlessly into the apps you use every day, such as Microsoft Teams.
 
 Viva Insights helps people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing.

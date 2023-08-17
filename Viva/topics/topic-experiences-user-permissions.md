@@ -7,7 +7,9 @@ manager: pamgreen
 ms.reviewer: nkokoye
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -68,4 +70,3 @@ To update who has permissions to manage topics:
 [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
 
 [Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)
-
