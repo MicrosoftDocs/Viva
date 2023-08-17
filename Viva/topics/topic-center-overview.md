@@ -1,15 +1,16 @@
 ---
 ms.date: 11/15/2021
 title: Topic center overview in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -30,11 +31,10 @@ While all licensed users who can view topics will have access to the topic cente
 
 The topic center is created during Viva Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](./topic-experiences-administration.md#to-access-topics-management-settings).
 
+1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
+2. On the **Services** tab, choose **Viva Topics**.
 
-1. In the Microsoft 365 admin center, select **Settings**, and then select **Org settings**.
-2. On the **Services** tab, select **Topic Experiences**.
-
-    ![Screenshot of the Services tab with Topic Experiences selected.](../media/admin-org-knowledge-options-completed.png)
+    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic center** tab. Under **Site address** is a link to your topic center.
 
@@ -85,4 +85,3 @@ If you have Create and edit topics permissions, you can:
 ## See also
 
 [Manage topics in the topic center](manage-topics.md)
-

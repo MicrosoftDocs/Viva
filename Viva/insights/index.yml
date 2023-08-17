@@ -20,21 +20,18 @@ metadata:
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
   items:
-    - title: Environment requirements
+    - title: Setup
       itemType: get-started # controls the icon image and super-title text
-      url: ./advanced/setup-maint/environment-requirements.md
-    - title: Privacy protection
+      url: ./advanced/setup-maint/landing.yml
+    - title: Privacy and data protection
       itemType: learn 
       url: ./advanced/privacy/privacy.md
-    - title: Personal insights
-      itemType: quickstart
-      url: ./personal/introduction.md
     - title: Team insights
-      itemType: overview
+      itemType: concept
       url: ./org-team-insights/team-insights.md
     - title: Organization insights
-      itemType: tutorial
+      itemType: concept
       url: ./org-team-insights/org-insights.md
     - title: Advanced insights
-      itemType: deploy
+      itemType: concept
       url: advanced/introduction-to-advanced-insights.md

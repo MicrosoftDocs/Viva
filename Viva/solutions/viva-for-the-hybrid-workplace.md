@@ -11,9 +11,10 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 description: "Learn how you can streamline and engage your employees in a hybrid workplace with the help of Microsoft Viva."
@@ -45,7 +46,7 @@ Don’t have Microsoft Viva yet? [Find out all of its benefits and how to get it
 
 ## Requirements
 - First, it’s a good idea to make sure your infrastructure is optimized for hybrid work by reading [Set up your infrastructure for hybrid work with Microsoft 365](/microsoft-365/solutions/empower-people-to-work-remotely).
-- You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Yammer** and **Stream**. 
+- You’ll need to be using **Teams** and **SharePoint** within your organization. The example scenarios in this article also use **Viva Engage** and **Stream**. 
 - Make sure you have the [proper licenses](#licensing) for Microsoft Viva.
 
 ## Plan
@@ -112,7 +113,7 @@ See information about [Microsoft Viva licensing](https://www.microsoft.com/micro
 ## Roll out Microsoft Viva 
 Let your employees know about Microsoft Viva and the employee experiences available to them, and provide resources on how to use Microsoft Viva.
 
-One way to do this is to create a SharePoint news post which can then be added to your organization home site and also shared and distributed in Teams, Outlook, and Yammer. You can even target specific audiences for the news post. 
+One way to do this is to create a SharePoint news post which can then be added to your organization home site and also shared and distributed in Teams, Outlook, and Viva Engage. You can even target specific audiences for the news post. 
 
 News is shown as a personalized feed on the SharePoint start page and in the mobile app. It can also be shown on team sites, communication sites, and hub sites. You can share the news in an email to your employees, and you can show [News in a Teams channel](https://support.microsoft.com/office/add-team-site-news-in-a-teams-channel-743607c0-9510-414b-8aab-1ae9ef5d3f49). 
 
@@ -120,11 +121,10 @@ Learn how to [create and distribute SharePoint news](https://support.microsoft.c
 
 Use Viva Learning to train your employees on all of the great tools you've rolled out to them. [Get started with Viva Learning](/viva/learning/overview-viva-learning). Don't have Viva Learning set up yet? See [Introducing Microsoft Viva](/viva/learning/set-up-viva-learning).
 
-You can find adoptional resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
+You can find additional resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
 
 For Viva Topics, learn how to [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted).
 
 
 
 **Next:** check out the [Employee onboarding and changing roles](/Viva/solutions/viva-onboarding-changing-roles) key scenario.
-

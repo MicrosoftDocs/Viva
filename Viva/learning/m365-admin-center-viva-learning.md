@@ -11,9 +11,10 @@ ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: View the new Microsoft 365 Admin Experience for Viva Learning.

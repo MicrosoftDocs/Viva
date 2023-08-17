@@ -18,6 +18,10 @@ audience: Admin
 
 # Meeting exclusion rule concepts and tools
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You can use the following screen elements and concepts to create and use meeting exclusion rules in the advanced insights app for Microsoft Viva Insights. For step-by-step walkthroughs, see [Meeting exclusion rule walkthroughs](/viva/insights/tutorials/meeting-exclusion-rules?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 At each step in the exclusion-creation flow, you'll see a page, such as the following.

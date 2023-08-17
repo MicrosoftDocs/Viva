@@ -1,10 +1,10 @@
 ---
 
-ms.date: 09/16/2021
+ms.date: 08/4/2023
 title: Personal insights FAQ
 description: Frequently asked questions about Personal insights with Microsoft Viva Insights
-author: madehmer
-ms.author: helayne
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.service: viva
@@ -23,17 +23,19 @@ This article answers frequently asked questions about Microsoft Viva Insights' p
 Questions and answers are organized into three sections:
 
 * The [Privacy](#privacy) section, which applies to everyone
-* The [For using personal insights](#for-using-personal-insights) and [For IT administrators](#for-it-administrators) sections, which are grouped by roles
+* The [For using personal insights](#for-using-personal-insights) and [For IT administrators](#for-it-administrators) sections, which are grouped by topics
 
 ## Privacy
 
 #### Q1. Who can see my data?
 
-Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator can't view your personal data.
+Only you can see your data. The statistics and insights that are generated from your data are for your eyes only. Your manager or system administrator can't view your personal data. The personal insights in the Insights app include only existing information that's already available to you, like meetings you've attended and their duration.
+
+However, if you give another person access to your mailbox, such as an administrative assistant to send messages on your behalf, then that person can see your personal insights within your Digest emails. But that person can't see your personal insights in the Insights app. [Learn more about mailbox permissions](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
 
 For more details, see the [Privacy guide](Privacy-Guide-users.md).
 
-#### Q2. How does Viva Insights protects my data?
+#### Q2. How does Viva Insights protect my data?
 
 Viva Insights uses data from your Microsoft 365 mailbox, namely data about your email and your meetings plus data about your calls and chats in Teams.
 
@@ -176,7 +178,12 @@ Follow these steps to add the Viva Insights add-in to your Outlook ribbon.
 
 ### Visibility and access
 
-#### Q1. How can I find out what my plan is?
+#### Q1. Why don't I see the insights and suggestions I've read about here?
+
+To have access to the Viva Insights app, you'll need an Exchange Online license.
+
+
+#### Q2. How can I find out what my plan is?
 
 Some Viva Insights feature descriptions start with _**Applies to**_ sections that refer to Microsoft 365 or Microsoft 365 "plans," and then point to the [Plans and environments](plans-environments.md) article. What plan do I have?
 
@@ -190,24 +197,24 @@ You can identify your _plan_ (and also your _service plan_) by following these s
 
 4. In **Subscriptions**, the available service plans are listed under **Licenses**.
 
-#### Q2. What languages are supported?
+#### Q3. What languages are supported?
 
 Personal insights are available in most of the same languages as the Microsoft 365 apps you're viewing them through. See [What languages is Office available in](https://support.office.com/article/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec). Also, see [Language support](../overview/plans-environments.md#language-support) for more details about what's supported by Viva Insights.
 
-#### Q3. If my assistant manages my email and calendar, does Viva Insights include these activities in my data?
+#### Q4. If my assistant manages my email and calendar, does Viva Insights include these activities in my data?
 
 * Email sent by your assistant on your behalf is not included in your data. Viva Insights only includes data about email that you send from your mailbox.
 * However, Viva Insights does include your calendar events in your data, including the events created and accepted on your behalf by your assistant.
 
-#### Q4. Does Viva Insights use cookies?
+#### Q5. Does Viva Insights use cookies?
 
 Viva Insights only uses cookies to authenticate users for the dashboard. See [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement#maincookiessimilartechnologiesmodule) for more about cookies.
 
-#### Q5. Will Viva Insights work for shared mailboxes?
+#### Q6. Will Viva Insights work for shared mailboxes?
 
 No; currently the Viva Insights or MyAnalytics service plans can't be used with shared mailboxes.
 
-#### Q6. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
+#### Q7. When the dashboard is activated, does it show any historical data or does it start from the day of activation?
 
 After activation, Viva Insights processes historical data for four weeks before the date of activation. No data before this four-week date range is shown in the dashboard. For calculating active collaborators, Viva Insights processes historical data for the previous 12 months.
 
@@ -225,6 +232,27 @@ Viva Insights doesn't use data from shared or secondary mailboxes.
 
 To see read statistics for an email that you sent, you must have sent it within the past 14 days to at least five recipients.
 
+### Feedback and updates
+
+#### Q1. How can I send feedback to Microsoft about the Viva Insights app?
+
+In the bottom-right corner of each page, the Insights app asks, "Is this helpful?" Select **Yes** or **No** to provide feedback.
+
+:::image type="content" source="../../images/mya/overview/personal-insights-feedback.png" alt-text="Screenshot showing how to submit feedback in the Insights app":::
+
+After you select **Yes** or **No**, a dialog box shows up. Use this to share written feedback. If you want Microsoft to follow up with you about your feedback, select the **You can contact me about this feedback** box. Then, select **Submit**.
+
+:::image type="content" source="../../images/mya/overview/personal-insights-submit-feedback.png" alt-text="Screenshot showing how to finalize and submit your feedback":::
+
+#### Q2. How can I stay updated with the latest Viva Insights features and learn from peers who are using the tool for their organizational needs?
+
+We encourage all Viva Insights users to visit and register on the [Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights). The community has: 
+
+* Forums to connect with peers and discuss shared experiences
+* Forums to contribute and receive support on common issues which are routinely reviewed by our team of experts
+* Monthly blog posts to learn about new features and tools
+* Spaces to share ideas and engage with the product development team
+
 ## For IT administrators
 
 The questions in this section are sorted into the following areas:
@@ -239,8 +267,8 @@ The questions in this section are sorted into the following areas:
 
 You can manage the experience in two ways:
 
-* Configure access to Viva Insights elements for your entire organization. For details, see [Configure access at the tenant level](../setup/configure.md#configure-access-at-the-tenant-level).
-* Turn Viva Insights access on or off for individual users. For details, see [Configure access at the user level](../setup/configure.md#configure-access-at-the-user-level).
+* Configure access to Viva Insights elements for your entire organization. For details, see [Configure access at the tenant level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-tenant-level).
+* Turn Viva Insights access on or off for individual users. For details, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
 #### Q2. How can I pilot Viva Insights to a subset of users?
 
@@ -313,7 +341,7 @@ No. Only Exchange Online and Teams are used as data sources of Viva Insights dat
 
 #### Q5. Can I ask that Viva Insights user data be deleted and not stored?
 
-Yes, you can delete and restrict the processing of Viva Insights user data if required by law or when requested by a user, which supports GDPR data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide-admins.md#gdpr-compliance).
+Yes, you can delete and restrict the processing of Viva Insights user data if required by law or when requested by a user, which supports the General Data Protection Regulation (GDPR) data subject rights. For delete data instructions, see [the third obligation of GDPR Compliance](privacy-guide-admins.md#gdpr-compliance). The Viva Insights app fully complies with all GDPR requirements.
 
    >[!Note]
    >If a person opts out of using Viva Insights, this action doesn't delete that person's Viva Insights data.

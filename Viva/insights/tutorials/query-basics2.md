@@ -17,9 +17,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-<!-- NOTE: This topic exists only for the private preview that Nishant had going during Aug.-Sept. 2021. Now that consumption-model billing has gone GA (Oct 1), we should be able to delete this. Confirm first with Nishant that no preview customers might need it still. -->
-
 # Queries overview
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+<!-- NOTE: This topic exists only for the private preview that Nishant had going during Aug.-Sept. 2021. Now that consumption-model billing has gone GA (Oct 1), we should be able to delete this. Confirm first with Nishant that no preview customers might need it still. -->
 
 The advanced insights app has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 

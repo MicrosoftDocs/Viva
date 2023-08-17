@@ -18,6 +18,9 @@ audience: Admin
 
 # Assign user roles
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Do the following to assign roles to users in Azure Active Directory (AD) for Microsoft Viva Insights in the advanced insights app.
 
 1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).

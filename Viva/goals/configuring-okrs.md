@@ -3,7 +3,7 @@ ms.date: 04/07/2022
 title: Manage OKRs in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:

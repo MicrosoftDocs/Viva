@@ -13,9 +13,10 @@ metadata:
   ms.topic: hub-page # Required
   author: loreenl #Required; your GitHub user alias, with correct capitalization.
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/02/2021 #Required; mm/dd/yyyy format.
+  ms.date: 07/18/2023 #Required; mm/dd/yyyy format.
   ms.custom: intro-hub-or-landing
-
+  ms.collection:
+    - Tier1
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
@@ -26,51 +27,63 @@ highlightedContent:
       itemType: get-started
       url: microsoft-viva-overview.md
     # Card
-    - title: Microsoft Viva blog
+    - title: Microsoft Viva community
       itemType: whats-new
-      url: https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog
+      url: https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva
     # Card
     - title: Introducing Microsoft Viva
       itemType: overview
       url: https://www.microsoft.com/microsoft-viva/overview
     # Card
-    - title: Using Microsoft Viva
+    - title: Microsoft Viva overview
       itemType: video
-      url: https://www.youtube.com/playlist?list=PLXtHYVsvn_b-P97FRm0LZ3Y6xQrlpkW4r
+      url: https://www.youtube.com/watch?v=J3qCWxKVfFA
 
 # tools section (optional)
 tools:
   title: Get started with Microsoft Viva
   items:
     # Card
-    - title: Microsoft Viva Topics
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: media/logos/topics-launch-c-64.svg
-      url: /viva/topics/
-    # Card
-    - title: Microsoft Viva Insights
-      imageSrc: media/logos/insights-launch-c-64.svg
-      url: /viva/insights/introduction
-    # Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
       url: /viva/connections/viva-connections-overview
-    # Card
-    - title: Microsoft Viva Learning
-      imageSrc: media/logos/learning-launch-c-64.svg
-      url: /viva/learning/
-    # Card
-    - title: Microsoft Viva Goals
-      imageSrc: media/logos/goals-launch-c-64.svg
-      url: /viva/goals/intro-to-ms-viva-goals
+
     # Card
     - title: Microsoft Viva Engage
       imageSrc: media/logos/engage-launch-c-64.svg
       url: /viva/engage/overview
+
     # Card
-    - title: Microsoft Viva Sales
-      imageSrc: media/logos/viva-logoicon.svg
-      url: /Viva/sales/introduction
+    - title: Microsoft Viva Glint
+      imageSrc: media/logos/glint-launch-c-64.svg
+      url: /viva/glint/introduction-viva-glint
+
+    # Card
+    - title: Microsoft Viva Goals
+      imageSrc: media/logos/goals-launch-c-64.svg
+      url: /viva/goals/intro-to-ms-viva-goals
+      
+      # Card
+    - title: Microsoft Viva Insights
+      imageSrc: media/logos/insights-launch-c-64.svg
+      url: /viva/insights/introduction
+
+    # Card
+    - title: Microsoft Viva Learning
+      imageSrc: media/logos/learning-launch-c-64.svg
+      url: /viva/learning/
+
+    # Card
+    - title: Microsoft Viva Pulse
+      imageSrc: media/logos/pulse-logo.svg
+      url: /viva/pulse/introduction-to-viva-pulse
+
+    # Card
+    - title: Microsoft Viva Topics
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: media/logos/topics-launch-c-64.svg
+      url: /viva/topics/
+
 
 # additionalContent section (optional)
 # Card with summary style
@@ -84,7 +97,7 @@ additionalContent:
           summary: Keep everyone informed, included, and inspired with Viva Connections and Viva Engage. 
           url: /viva/experience-connection
         - title: Insight
-          summary: Improve productivity and wellbeing with actionable insights using Viva Insights.
+          summary: Improve productivity and wellbeing with actionable insights.
           url: /viva/experience-insight
         # Card
         - title: Purpose
@@ -94,9 +107,6 @@ additionalContent:
         - title: Growth
           summary: Help employees learn, grow, and succeed with Viva Learning and Viva Topics.
           url: /viva/experience-growth
-        - title: Sales
-          summary: Find role-specific guidance for your Sales team.
-          url: /viva/experience-role
     - title: Key resources  # < 60 chars (optional)
       items:
         # Card
@@ -104,35 +114,38 @@ additionalContent:
           links:
           - text: Microsoft Viva help and learning
             url: https://support.microsoft.com/viva
-          - text: Viva Topics
-            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
           - text: Viva Connections
             url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
-          - text: Viva Learning
-            url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
-          - text: Viva Goals
-            url: https://go.microsoft.com/fwlink/?linkid=2193540
           - text: Viva Engage
             url: https://support.microsoft.com/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284
-          - text: Viva Sales
-            url: https://go.microsoft.com/fwlink/p/?linkid=2197685
+          - text: Viva Glint
+            url: https://support.microsoft.com/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08
+          - text: Viva Goals
+            url: https://go.microsoft.com/fwlink/?linkid=2193540
+          - text: Viva Learning
+            url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
+          - text: Viva Pulse
+            url: https://support.microsoft.com/topic/introducing-viva-pulse-34c94efe-185d-480e-94a2-27e013a5204b
+          - text: Viva Topics
+            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
+
         # Card
         - title: Learning paths
           links:
             - text: Get started with Microsoft Viva Connections
               url: /training/paths/viva-connections-get-started/
-            - text: Get started with Microsoft Viva Topics
-              url: /training/paths/m365-viva-topics/
-            - text: Introduction to Viva Learning
-              url: /training/modules/viva-learning-introduction/
             - text: Introduction to Viva Insights
               url: /training/paths/m365-workplace-analytics-start/
-            - text: Introduction to Viva Sales
-              url: /training/modules/viva-sales-introduction/
+            - text: Introduction to Viva Glint
+              url: /viva/glint/introduction-viva-glint
             - text: Get started with Viva Goals
               url: /training/paths/viva-goals-get-started
             - text: Become an OKR Champion with Viva Goals
               url: /training/paths/okr-leadership/
+            - text: Introduction to Viva Learning
+              url: /training/modules/viva-learning-introduction/
+            - text: Get started with Microsoft Viva Topics
+              url: /training/paths/m365-viva-topics/
 
         # Card
         - title: Adoption

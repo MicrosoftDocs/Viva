@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 12/06/2019
 title: Viva Insights insights for managers
 description: Learn how the Viva Insights Home pages uses industry-based research to show you actionable insights into more effective business outcomes for your team
@@ -16,6 +17,9 @@ audience: Admin
 ---
 
 # Insights for managers
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
 >[!Note]
 >Only people managers granted access to Viva Insights in [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can see their team's data in My team in Microsoft Viva Insights and in the advanced insights app.

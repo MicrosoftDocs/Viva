@@ -29,7 +29,7 @@ Trials are publicly available from one of the following sources. These IT Admin 
 
 To sign up for a trial, please visit either: 
 
-- The [Microsoft Viva Goals homepage ](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
+- The [Microsoft Viva Goals homepage](https://www.microsoft.com/en-us/microsoft-viva/goals)
 - The [Microsoft 365 admin center ](https://admin.microsoft.com/)
     - Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
     - Go to **Billing** > **Purchase Services**. 
@@ -56,6 +56,9 @@ When you initiate a trial, you need to:
 
 - Assign licenses to the relevant users. 
 - Inform the trial users to access Viva Goals by visiting https://goals.microsoft.com from their browser or by adding and opening the Viva Goals app on Microsoft Teams
+
+> [!NOTE]
+> If your users own a Viva Goals user-led license (self-serve trial), the user's license is automatically reactivated upon assigning them a license from your admin-led trial. If they are an Org Owner, all their trial tenant data is retained if the admin-led trial is assigned within the 90-day data retention period and your users can continue using Viva Goals. When the admin-led trial is converted to a paid subscription, the self-serve trial org mentioned in the scenario above stays active with all the data retained unless canceled by the user/admin. Or if an admin-led trial license is assigned after the 90-day data retention period, post which the Organization's data is deleted.
 
 ## During a Trial
 

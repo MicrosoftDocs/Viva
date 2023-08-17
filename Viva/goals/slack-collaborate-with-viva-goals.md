@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: Collaborate with Viva Goals in Slack 
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn how to integrate your OKRs in Viva Goals with Slack"
@@ -28,6 +29,9 @@ Within the Viva Goals app, users now have the following capabilities within Slac
 - **Get OKR updates** – Users timely receive OKR and initiative updates from a team, team member, or an organization
 - **Check-in** - Users can make check-ins to their OKRs and initiatives.
 - **Manage OKRs** - Users can create new OKRs or make edits to existing ones
+
+> [!IMPORTANT]
+> Slack is currently not supported for customers in the EU Data Boundary. We're working on this and will be available in the next 2-3 months.
 
 ## Configuring Viva Goals app for Slack 
 

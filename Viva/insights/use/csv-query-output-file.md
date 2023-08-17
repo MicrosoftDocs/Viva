@@ -18,6 +18,9 @@ audience: Admin
 
 # Understand and interpret query output
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 After you run a query in the advanced insights app, you'll see the list of query results in **Query designer** > **Results** with the option to download them as a .csv (comma-separated values) file.
 
 ![.csv file download.](../images/WpA/Use/qd-results-download.png)
@@ -31,7 +34,7 @@ Person query output can include a number of different metrics, including the fol
 * Person ID - De-identified ID number for the person represented in that data row.
 * Date - The start date of the aggregated output (for example, for the week of June 3rd to June 10th, the start date would be the 3rd. For a month, it'll be the first day of the month your data encompasses).
 * Person attributes - Attributes about the person supplied through the latest organizational (HR) data upload.
-* Metrics - Any other metrics that you include in the query. See [Person query metrics](/viva/insights/use/?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) for more details.
+* Metrics - Any other metrics that you include in the query. See [Person query metrics](../advanced/analyst/person-query.md) for more details.
 
 ### Duration hours adjusted for time booked in the calendar
 
@@ -64,7 +67,7 @@ For example, PersonId of P1 collaborated with group G1 in weeks one and three of
 ![Table of columns with time investors.](../images/WpA/Use/personId.png)
 
 >[!Note]
-> People are assigned randomly-generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
+> People are assigned randomly generated PersonIds to maintain de-identification. No individuals can be identified from the query output.
 
 The query output for person-to-group queries consists of general header columns (categories) and metrics header columns. The output also displays additional organizational attribute columns that vary based on the organization.
 

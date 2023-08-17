@@ -3,7 +3,7 @@ ms.date: 03/30/2023
 title: Azure DevOps integration
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- vg-integration  
 search.appverid:
 - MET150
 description: "Learn how to integrate your Azure DevOps work items with OKRs in Viva Goals"

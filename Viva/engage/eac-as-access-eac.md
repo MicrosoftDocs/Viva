@@ -3,9 +3,9 @@ title: "Access the Viva Engage admin center"
 description: "Describes settings in the Viva Engage admin center."
 ms.reviewer: ethli
 ms.author: mamiejohnson
-author: mamiepjohnson
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/15/2023
+ms.date: 05/25/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -26,7 +26,12 @@ Only users in the following admin roles can access the Viva Engage admin center:
 
 In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
 
-[![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+[![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
+
+To access the [Viva Engage admin center on the web](http://www.yammer.com), from the gear icon in the top navigation menu, select **Admin center**.
+
+:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Diagram shows how to access Admin center from a browser." lightbox="../media/engage/admin/eac-on-web-expanded.png":::
+<br>
 
 ## Manage corporate communicators  
 
@@ -50,7 +55,7 @@ Corporate communicators can do the following things:
     - Publish draft campaigns to be **Active** and viewable to all users in the network.
     - Set Active campaigns to **Ended** when a campaign is finished.
     - Republish "Ended" campaigns as "Active" again for reoccurring campaigns.
-    - Delete campaigns that aren't relevant or were created by mistake.
+    - Delete campaigns that are not relevant or created by mistake.
     - Update certain assets on a campaign page such as:
         - Goal tracker
         - Cover photo
@@ -64,7 +69,7 @@ Corporate communicators can do the following things:
 
 ### Remove user as a corporate communicator
 
-To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. They'll no longer be listed as an active corporate communicator in your network.
+To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. The user won't be listed as an active corporate communicator in your network.
 
 [![Screenshot of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
 
@@ -74,9 +79,9 @@ As a Global admin or Engage admin, you're encouraged to set up your Viva Engage 
 
 [![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
 
-They're then routed to the Yammer admin center, where they can perform the following actions:  
+They're then routed to the Viva Engage admin center, where they can perform the following actions:  
 
-- [Configure the network](/yammer/configure-your-yammer-network/configure-yammer)
+- [Configure the network](/viva/engage/configure-your-viva-engage-network/configure-viva-engage)
     - Set the tenant network name
     - Require users to confirm email messages before posting
     - Restrict who can upload files, and limit file formats
@@ -84,12 +89,13 @@ They're then routed to the Yammer admin center, where they can perform the follo
     - Control how links are displayed
     - Allow message translation
     - Set the default system message language and more
-- [Customize the look](/yammer/configure-your-yammer-network/customize-the-look-of-yammer)
+- [Customize the look](/viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage)
 - Manage domains in Office 365  
-- [Migrate a network to Native Mode](/yammer/configure-your-yammer-network/native-mode-step-by-step-guide), if this isn't already done
+- [Migrate a network to Native Mode](/viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+> Because Viva Engage is power by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+
 
 ## See also
 

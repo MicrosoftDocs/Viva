@@ -1,13 +1,15 @@
 ---
-ms.date: 11/15/2021
+ms.date: 04/20/2023
 title: Manage topic discovery in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -20,12 +22,12 @@ description: Learn how to administer topic discovery in Microsoft Viva Topics.
 
 You can manage topic discovery settings in the [Microsoft 365 admin center](https://admin.microsoft.com). You must be a global administrator or SharePoint administrator to perform these tasks.
 
-## To access topics management settings:
+## To access topics management settings
 
 1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
-2. On the **Services** tab, select **Topic experiences**.
+2. On the **Services** tab, select **Viva Topics**.
 
-    ![Screenshot of the Services tab with Topic Experiences selected.](../media/admin-org-knowledge-options-completed.png)
+    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic discovery** tab. See the following sections for information about each setting.
 
@@ -53,8 +55,11 @@ To choose sites for topic discovery
     - **No sites**: Topics won't be automatically generated or updated with SharePoint content. Existing topics remain in the topic center.
 
     ![Screenshot of SharePoint topic sources user interface.](../media/k-manage-select-topic-source.png)
-   
+
 3. Select **Save**.
+
+>[!NOTE]
+>Encrypted files won't be used for topic discovery.
 
 ## Exclude topics by name
 
@@ -133,4 +138,3 @@ To exclude people from being suggested for topics by AI
 [Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
 
 [Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)
-

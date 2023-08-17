@@ -1,11 +1,11 @@
 ---
-title: "Answers admin scenarios in Viva"
+title: "Scenarios for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/15/2023
+ms.date: 07/13/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Answers admin scenarios in Viva
+# Scenarios for Answers in Viva Engage
 
 Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the new role of *Answers admin*. The new role of Answers admin is designated by [adding Knowledge Managers in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
@@ -30,7 +30,7 @@ Administration of Answers is for the Microsoft 365 Global admin, the Engage admi
 
 The following table shows the actions available to users and admins.
 
-|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Yammer) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
+|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Viva Engage) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
 |**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
@@ -39,15 +39,41 @@ The following table shows the actions available to users and admins.
 |**Mark best answer**| | ✓ (own posts)|✓|✓|✓|
 |**See global insights**| | |✓|✓|✓|
 |**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|
+|**Update information panel**| | |✓|✓|✓|
 |**Feature topics**| | | |✓|✓|
 |**Remove topic from Answers**| | | |✓|✓|
 |**Approve suggested topics**| | | |✓|✓|
 |**Enable answers**| | | | |✓|
 |**Enable badges**| | |✓| |✓|
 
+## Update information panel
+
+### Provide guidance using the information panel
+As an Answers admin, Engage admin, or Global admin, you can provide guidance to employees on how to use Answers in your organization using the information panel. The information panel is only visible to administrators in its default state. Once an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
+
+**Admin view**
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
+
+**End user view**
+:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
+
+### Edit the information panel
+1. Select the edit icon from the top left corner of the information panel.
+1. Enter the content specific to your organization.
+1. Select **Save and publish** to allow all Answers users access to the information panel content.
+
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of the info panel editing options.":::
+
+### Reset the information panel  
+
+1. Select the edit icon from the top left corner of the information panel.
+1. Select **Reset** from the bottom-left corner.  
+
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::
+
 ## Manage topics in Answers
 
-### **Feature topics in Answers**
+### Feature topics in Answers
 
 As an Answers admin, you can feature a topic or create a topic from the topic browse page. When you feature topics, you curate Viva Topics to be promoted for use in Answers.
 
@@ -65,7 +91,7 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 >[!NOTE]
 > The title and summary of all Viva Topics that are featured in Answers are visible to all licensed users who have access to Answers.
 
-### **Review pending topics suggested by employees**
+### Review pending topics suggested by employees
 
 To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a  **Needs Review** tab on the topic browse page, which is only visible to them. It displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
 
@@ -98,7 +124,7 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 
 As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
-1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provide an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
 For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics) .
 
@@ -122,7 +148,7 @@ The following metrics are available for Global Answers analytics:
 - **Top questions across your organization**: A table of the top questions with the most views, votes, reactions, and answers across your org.
 - **User engagement distribution**: A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).
 
-**Global time saved** shows the time saved across the organization. This total is based on Yammer research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
+**Global time saved** shows the time saved across the organization. This total is based on Viva Engage research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
 
 >[!NOTE]
 > Analytics aren't live. They're updated every 24 hours.

@@ -3,7 +3,7 @@ ms.date: 12/21/2022
 title: "Microsoft Planner Integration"
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
+- vg-integration
 search.appverid:
 - MET150
 
