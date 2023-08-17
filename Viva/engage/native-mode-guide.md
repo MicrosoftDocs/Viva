@@ -85,7 +85,7 @@ Use the report to identify the following information:
   It's a two-step process to export a large volume of content from your network:
 
   1.	**Export message data** 
-          - We suggest that you export message data by using the [Network Data Export feature](/Viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
+          - We suggest that you export message data by using the [Network Data Export feature](eac-as-manage-data.md#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
           - We suggest that you limit your export to a maximum date range of two months at a time and exclude attachments. If you include attachments, you may need to limit your date range significantly, such as to one week at a time, to prevent the system from encountering time-out errors.
 
   2. **Export files**
