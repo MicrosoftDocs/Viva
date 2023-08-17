@@ -99,7 +99,7 @@ If you have already enabled MGDC, you will need to:
 1. Follow steps 4-5 above.
 
 ### 5. Mark a Viva Insights query for export
-*Applies to: [Insights Analyst](../../advanced/setup-maint/user-roles#role-descriptions-and-access-levels)*
+*Applies to: [Insights Analyst](../../advanced/setup-maint/user-roles.md)*
 
 Use this step if you do not yet have query results to export. Otherwise, you can skip this step.
 
