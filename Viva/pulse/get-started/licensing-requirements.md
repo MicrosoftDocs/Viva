@@ -21,7 +21,7 @@ search.appverid: MET150
 To send a pulse, you must have a license to one of the following:
 
 1. **Viva Suite**: Users with a Viva Suite subscription license have access to all applications that are part of the Viva Suite, including Viva Pulse. To learn more about the Viva apps within the Viva Suite, visit [Employee experience and engagement in Microsoft Viva](https://www.microsoft.com/microsoft-viva).
-2. **Viva Workplace Analytics and Employee Feedback**: Users with a Viva Workplace Analytics and Employee Feedback subscription license have access to Viva Pulse, Viva Insights, and Viva Glint.
+2. **Viva Workplace Analytics and Employee Feedback**: Users with a Viva Workplace Analytics and Employee Feedback subscription license have access to Viva Pulse, Viva Insights, and Viva Glint. To learn more about Workplace Analytics and Employee Feedback, visit [Workplace Analytics and Employee Feedback](https://www.microsoft.com/en-us/microsoft-viva/workplace-analytics-and-feedback).
 3. **Viva Pulse Admin-led Trial**: The Viva Pulse Admin-led Trial allows Global Admins or Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users can use the full functionality of Viva Pulse. Please contact your field seller or account executive to set up your own trial.
 
 > [!IMPORTANT]
