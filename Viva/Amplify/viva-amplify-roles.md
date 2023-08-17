@@ -43,6 +43,6 @@ User roles are assigned by the campaign creator in Viva Amplify.
 
 |Campaign role |Description |Permission |Manage campaign members |
 |--------------|------------|-----------|------------------------|
-|Owner |These users oversee and manages the entire campaign. |Full control |Only owners can manage all campaign members and update all roles. |
+|Owner |These users oversee and manage the entire campaign. |Full control |Only owners can manage all campaign members and update all roles. |
 |Approver |These users approve campaign publications. They can edit and approve Amplify content, list items, and documents. |Approvers can manage other approvers as needed. |
 |Editor |These users create and manage campaign publications. They can manage lists and edit campaign materials. |Editors can view campaign members. |
