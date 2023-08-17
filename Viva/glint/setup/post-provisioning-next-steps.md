@@ -1,9 +1,9 @@
 ---
 title: Set up your Viva Glint instance
 description: Take care of a few items of business before you begin your first Viva Glint program journey.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: judithweiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Add administrators to Viva Glint, Viva Glint sites, Viva Glint learning paths and modules, training
@@ -46,7 +46,7 @@ Assign service admins by first providing a full employee attribute upload:
 1. Use this Viva Glint guidance to finalize attributes, prepare an employee data file, set up attributes, and upload your employee data to the Viva Glint platform:
    1. [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
    2. [Create your Employee Attribute Template in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230862)
-   3. [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231120)
+   3. [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2244907)
    4. [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
 2. Assign admins to the Company Admin role in Viva Glint:
    1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
@@ -74,8 +74,8 @@ In order for you, as the Global administrator, to assign service admins without 
 
 ### 1. Begin Viva Glint platform setup
 
-- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2230921)
-- [Manage Allowed Lists](https://www.microsoft.com/?ql=3)
+- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
+- [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238425)
 - [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
