@@ -1,6 +1,6 @@
 ---
-ms.date: 07/04/2022
-title: Microsoft Teams Extension
+ms.date: 08/10/2023
+title: Microsoft Teams Message Extension
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT

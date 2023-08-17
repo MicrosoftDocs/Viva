@@ -1,5 +1,5 @@
 ---
-ms.date: 6/19/2023
+ms.date: 08/07/2023
 title: "Build Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -37,9 +37,6 @@ You know you're ready to move onto the building phase if you've met the followin
 Start by creating the Viva Connections dashboard. Then, you'll select settings for the mobile app. Next, you will make sure content that’s on the home site and linked to cards on the dashboard can be accessed by the right audiences and offers the ideal viewing experience. Lastly, you will test and refine the experience before launching to the rest of the organization.  
 
 ## Step 1: Enable the Viva Connections app in the Microsoft Teams admin center and choose settings
-
-> [!NOTE]
-> This experience is rolling out to private preview customers now and is expected to become generally available to all customers by the end of July 2023.
 
 [Setting up Viva Connections](set-up-admin-center.md) creates a custom app in Microsoft Teams. Your organization’s custom app will appear as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon will appear in the Teams app bar in the desktop and mobile Microsoft Teams app. Make sure to [pin the app](set-up-admin-center.md#pin-the-viva-connections-app-in-teams) so your users can find it.
 

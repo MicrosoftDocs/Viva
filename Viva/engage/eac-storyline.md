@@ -48,7 +48,7 @@ In the interface to manage storyline, admins see toggles that control the availa
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. Users can't start new storyline conversations, but existing conversations aren't deleted. Previously posted storyline content is still available through search and the Viva Engage Inbox for the people who participated in the storyline conversation. Users who didn't participate in the conversation previously don't have access after storyline is disabled. The storyline content continues to be available through network data export and is available through eDiscovery for networks that are in native mode.  
+When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. Previously posted storyline content is still available to all users who have access to Viva Engage, except guests. Storyline content continues to be available through network data export and through eDiscovery for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
 

@@ -45,6 +45,7 @@ All field header or column names need to:
     * WeekendDays
     * InferredTeamSize
     * ObjectId
+    * Microsoft_
 
 
 Required fields need to have a value for every row.

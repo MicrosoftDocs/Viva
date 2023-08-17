@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 07/12/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -48,4 +48,4 @@ Feedback providers are the users in an organization who receive a Pulse request.
 
 ### Viva Pulse admin
 
-Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).
+Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](./get-started/licensing-requirements.md). This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).

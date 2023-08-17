@@ -1,5 +1,5 @@
 ---
-ms.date: 03/08/2023
+ms.date: 08/16/2023
 title: "Departmental Alignment Dashboard and ROB"
 ms.reviewer: 
 ms.author: rasanders
@@ -24,33 +24,33 @@ description: "Learn how to make a Viva Goals dashboard for aligning your departm
 
 # Departmental Alignment Dashboard and ROB 
 
-Organizations can incorporate OKRs into their rhythm of business (ROB) by using dashboards across key meetings and activities in order to build a healthy OKR program. 
+Organizations can incorporate goals into their rhythm of business (ROB) by using dashboards across key meetings and activities in order to build a healthy goal program. 
 
-**OKR Value Driver:**  Drive cross department alignment
+**Value Driver:**  Drive cross department alignment
 
 **Objective of this meeting:** The purpose of this activity is to gather a cross section of departments, divisions, or teams to share progress and ensure alignment and awareness of dependencies to help drive successful completion of their respective work.
 
-Organizations can be complex, and bringing together cross functional groups regularly to share their OKRs helps drive clarity, surface dependencies, and allow for real time adjustments.  
+Organizations can be complex, and bringing together cross functional groups regularly to share their goals helps drive clarity, surface dependencies, and allow for real time adjustments.  
 
 In the real world, likely outcomes could be: two groups working on similar projects (which could be combined), marketing getting ready to announce key features (but product isn’t ready to release them), delays to key projects being surfaced (with others jumping in to help), or team members simply saying “Wow, that’s the first I’ve heard of that new feature/topic/win” (how cool!).  
 
-Surfacing these issues in a cross-department meeting involving OKRs save time, energy, and money, and prevents teams planning in a silo and either not sharing outcomes at all or only sharing at the end when it's too late to course correct. 
+Surfacing these issues in a cross-department meeting involving goals save time, energy, and money, and prevents teams planning in a silo and either not sharing outcomes at all or only sharing at the end when it's too late to course correct. 
 
-While communicating across teams is always key, this is often most important as you roll out OKRs more broadly in your organization and are driving cascaded / multi-tier OKR programs as additional teams are added and begin adopting Viva Goals. 
+While communicating across teams is always key, this is often most important as you roll out goals more broadly in your organization and are driving cascaded / multi-tier programs as additional teams are added and begin adopting Viva Goals. 
 
 **Who is involved**
 
-- **Meeting owner:** CEO, Chief of Staff, or OKR Program Lead 
+- **Meeting owner:** CEO, Chief of Staff
 - **Audience:** Key stakeholders from each department, division, or team 
 
 **Meeting/communication categories**
 
-These are communication types that you might already have in your existing rhythm of business. Remember, we’re not trying to reinvent the wheel, but rather, incorporate OKRs into your existing workflow. 
+These are communication types that you might already have in your existing rhythm of business. Remember, we’re not trying to reinvent the wheel, but rather, incorporate goals into your existing workflow. 
 
 - Monthly department meetings 
 - Quarterly Business Reviews (QBRs) 
 
-**How OKRs help**
+**How goals help**
 
 - Drives progress against commits during planning process   
 - Maintains clarity against shared objectives / dependencies / priorities 
@@ -76,9 +76,9 @@ The dashboard for a cross-department meeting might have the following elements, 
 
 Running a series of departmental check-in meetings can require some logistics, but the payoff of greater organizational communication makes it well worth the effort. 
 
-Smaller companies might be able to have a single 1-hour meeting where department leads “go around the room” and give a quick update of their OKRs. 
+Smaller companies might be able to have a single 1-hour meeting where department leads “go around the room” and give a quick update of their goals. 
 
-Larger enterprises, however, may opt to have a series of back-to-back meetings that focus on each department, with plenty of time for questions and answers. It helps to have a highly organized, well-respected point person to coordinate this activity. This could be a Chief of Staff, Senior Program Manager, or the OKR Program Lead. 
+Larger enterprises, however, may opt to have a series of back-to-back meetings that focus on each department, with plenty of time for questions and answers. It helps to have a highly organized, well-respected point person to coordinate this activity. This could be a Chief of Staff, or Senior Program Manager. 
 
 Planning and execution of the meeting’s rhythm of business might look like this: 
 
@@ -191,7 +191,7 @@ The day of the meeting(s) is finally here! It's the role of the Chief of Staff /
     - What went well 
     - Key learnings and opportunities 
     - Risks and help needed 
-- Since each department generally owns 3-5 OKRs, the team member most responsible for each Objective gives a 5-minute update on each goal. This helps drive accountability, involves team members, and builds a culture of OKRs. (15-25 minutes) 
+- Since each department generally owns 3-5 goals, the team member most responsible for each Objective gives a 5-minute update on each goal. This helps drive accountability, involves team members, and builds a culture of goals. (15-25 minutes) 
     - Progress review of the 3-5 Key Result metrics 
     - Updates on any Projects and Initiatives
     - What went well / wins
@@ -211,7 +211,7 @@ During the meeting, someone is designated to take notes and record follow-up act
 > [!TIP]
 > Hello, 
 > 
-> Thank you for attending the OKR Monthly Departmental meeting on March 2. Please make sure to review the meeting notes here [Monthly OKR Review Notes March.docx] and action items here [Monthly OKR Review Action Items March.xlsx].  
+> Thank you for attending the Monthly Departmental meeting on March 2. Please make sure to review the meeting notes here [Monthly Review Notes March.docx] and action items here [Monthly Review Action Items March.xlsx].  
 > 
 > If you missed a meeting or would like to go back to review for notes/action items, please find the list of dashboards and meeting recording links below. 
 > 
@@ -232,4 +232,4 @@ During the meeting, someone is designated to take notes and record follow-up act
 
 ## How to create and customize dashboards within Viva Goals 
 
-Now that you’ve seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
+Now that you’ve seen the “why” around using dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Create and customize dashboards within Viva Goals ](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4)
