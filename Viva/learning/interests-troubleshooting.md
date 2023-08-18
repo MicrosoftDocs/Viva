@@ -14,7 +14,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
 localization_priority: medium
-description: Interest-based learning personalization is now available in Viva Learning. 
+description: Learn how to open and edit an exported interest file. 
 ---
 
 # Manage exported interest files
