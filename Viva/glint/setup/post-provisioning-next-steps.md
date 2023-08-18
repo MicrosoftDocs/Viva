@@ -100,7 +100,7 @@ In order for you, as the Global administrator, to assign service admins without 
 ### 4. Set up your Engagement or Employee Lifecycle survey
 
 - [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
-- [Set up Program summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Set up Program summary pages for a Viva Glint Engagement-type survey](https://go.microsoft.com/fwlink/?linkid=2231504)
 - [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
 
 ## Prepare your Viva Glint communications plan
@@ -109,7 +109,7 @@ The following templates are examples you can use to communicate to your organiza
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
-- [Communicate results rollout plan](../communicate/prelaunch-live-email-templates.md)
+- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
 ## What do I do if I need help?
 
@@ -154,3 +154,4 @@ Find resources to go from inspiration to execution. Adoption resources will give
 ## Microsoft Viva Support
 
 [Resources and guides for survey participants to help answer questions and provide background on Viva Glint methodology](https://go.microsoft.com/fwlink/?linkid=2239301).
+[How to take a Viva Glint survey](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)
