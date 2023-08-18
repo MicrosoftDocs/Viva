@@ -116,7 +116,7 @@ If you have already enabled MGDC, you will need to:
 ### 6. Register MGDC application
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
-Use [these steps](/graph/app-registration#landing-page) to register your app with Data Connect, beginning with the landing page.
+Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
 There are a few unique steps, however, that are specific to this process for dynamic loads. When filling out the registration info page, be sure to use these values:
 
@@ -183,24 +183,24 @@ Also, when you specify the datasets that the app registration needs to query, fo
     * **Resource group:** mgdc-app-resource (or select an existing resource group)
     * **Region:** Select region
     * **Azure Active Directory Tenant ID:**
-        * In the Azure portal, under **Services**, select **App registrations**. Select your app, then under **Essentials**, find the **Directory (tenant) ID**.
+        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Directory (tenant) ID**.
     * **App ID:** 
-        * In the Azure portal, under **Services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
+        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
     * **App object ID:** 
-        * In the Azure portal, under **Services**, select **App registrations**. Select your app, then select the link below **Managed application in local directory**. Find the **Object ID** under **Properties**. (This is not the same **Object ID** as the ID under **Essentials**.) 
+        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then select the link below **Managed application in local directory**. Find the **Object ID** under **Properties**. (This is not the same **Object ID** as the ID under **Essentials**.) 
          :::image type="content" source="../images/dynamic-metric-load-step0803.png" alt-text="Screenshot that shows how to find the App object ID":::
     * **Data Factory Name:** mgdcdemodatafactory (or you can name and select your own) 
     * **Data Lake Storage Name:**
         * The name of the Storage account you created in Step 2 (mgdcdemoap unless you named your own). This name can also be found in **Storage accounts** in **Azure Portal**.
     * **Data Lake Storage Endpoint:**
-        * In the Azure portal, under **Services**, select **Storage accounts** and select your storage account. Then, under **Settings** in the left navigation menu, select **Endpoints**. Under **Data Lake Storage**, find the **Primary endpoint**.
+        * In the Azure portal, under **Azure services**, select **Storage accounts** and select your storage account. Then, under **Settings** in the left navigation menu, select **Endpoints**. Under **Data Lake Storage**, find the **Primary endpoint**.
         * URI will be in the form: https://**[storage account name]**.dfs.core.windows.net/ 
     * **App Secret Key Vault Name:**
         * The name of the Key Vault you created in Step 3 (mgdcdemokeyvault unless you named your own). This name can also be found in **Key vaults** in **Azure Portal**.
     * **App Secret Key Vault Secret Name:**
         * The name of the secret you stored in Step 3 (mgdc-app-secret unless you named your own). This name can also be found in **Key vaults** in **Azure Portal**. Select your **Key vault**, then under **Objects** select **Secrets**. Find the Name. 
     * **Data Set Name:**
-        * In the Azure portal, search for “Microsoft Graph Data Connect.” Under **Services**, select **Microsoft Graph Data Connect**. Select your App, then under **Datasets**, find the Name.
+        * In the Azure portal, under **Azure services**, select **Microsoft Graph Data Connect**. Select your App, then under **Datasets**, find the Name.
 8. Select **Review + create**. 
 1. Select **Create**.
 
