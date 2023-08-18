@@ -1,9 +1,9 @@
 ---
 title: Set up your Allowed List for Viva Glint
 description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: Judithweiner
+author: JudyWeiner
+manager: MeslissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: approved sender, allowed list, firewall, spam
@@ -19,7 +19,7 @@ ms.date: 05/22/2023
 ---
 
 
-# Set up your Allowed List for Viva Glint
+# Manage your Allowed List for Viva Glint
 
 Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [survey@glint.microsoft.com](mailto:survey@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
