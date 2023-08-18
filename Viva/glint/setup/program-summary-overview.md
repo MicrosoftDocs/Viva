@@ -1,9 +1,9 @@
 ---
-title: Set up Program Summary pages for a Viva Glint survey
+title: Set up Program Summary pages for a Viva Glint Engagement-type survey
 description: Once you have chosen a survey template, the Program Summary section is where you set up all the specifics to that program.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Distribution, survey setup, program setup, survey schedule, reporting, question setup, communications setup, coaching
@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 03/24/2023
 ---
 
-# Set up Program Summary pages for a Viva Glint survey
+# Set up Program Summary pages for a Viva Glint Engagement-type survey
 
 The first step for setting up a Microsoft Viva Glint program is to set up **Program Summary**.
 
