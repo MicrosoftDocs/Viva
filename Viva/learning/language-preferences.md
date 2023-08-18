@@ -22,10 +22,6 @@ description: Manage your language settings in Viva Learning for users across Tea
 
 Manage Viva Learning language settings for users across Teams, the web app, and mobile. We recommend you set up all language settings as the initial step of Viva Learning onboarding process or pilot phase.
 
-
-> [!NOTE]
-> Language settings is under private preview. Please check with your support executive to participate in the private preview.
-
 ## Access
 
 Admins with access to Admin Tab in Viva Learning are able to view and edit the setting.
