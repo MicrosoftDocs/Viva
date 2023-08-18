@@ -1,5 +1,5 @@
 ---
-title: Set up your Allowed List for Viva Glint
+title: Manage your Allowed List for Viva Glint
 description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
 ms.author: Judithweiner
 author: JudyWeiner
