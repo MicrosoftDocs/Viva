@@ -25,7 +25,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Manager effectiveness - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiNzY1YTI3ZmQtYjVkZi00YTA2LWI0MjEtN2MxNDQ4MGE0YmZjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiYjc1ZDhlN2QtZmRjMi00OTIwLWIxOGMtNWMwZWMyMDM3NmZmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
