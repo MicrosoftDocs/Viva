@@ -114,7 +114,7 @@ If you have already enabled MGDC, you will need to:
 5. Select **Export to Azure**.
 
 ### 6. Register MGDC application
-*Applies to: Application Administrator or Application Developer, with Insights Analyst role*
+*Applies to: [AAD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
@@ -157,7 +157,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-287) with information specific to the dataset columns.
     * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and “type" to match the name and data type of one column in the dataset. Updating “description” is optional. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
     :::image type="content" source="../images/dynamic-metric-load-step0802.png" alt-text="Screenshot that shows how to edit the ARM template":::
-    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details).
+    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to AAD Application owner with Insights Analyst role, or Global Administrator.)*
     * **To edit type:** The following are some of the most common data types:
         * string - sequence of characters
         * dateTime - date or time
@@ -251,4 +251,5 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
 :::image type="content" source="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry).
+> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to AAD Application owner with Insights Analyst role.)*
+> Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to AAD Application owner with Insights Analyst role, or Global Administrator.)*
