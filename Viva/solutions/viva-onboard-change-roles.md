@@ -76,7 +76,7 @@ Bring together Learning, Insights, and Stream in Viva Connections by adding card
 
 Help new employees get up to speed quickly by using Viva Engage to connect with people across the company, no matter where they work. They can connect and engage with leaders, colleagues, and employee communities. Engage also helps new employees discover virtual events and conversations where they can ask questions, make new contacts, and start building their network. Learn more in [Introducing Viva Engage](/viva/engage/overview).
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/E_xTiWClwYc]
 
 **Next**: Learn how to support [frontline workers with Microsoft Viva](/Viva/solutions/viva-front-line-workers).
  
