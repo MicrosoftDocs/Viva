@@ -1,9 +1,9 @@
 ---
 title: Set up your Viva Glint instance
 description: Take care of a few items of business before you begin your first Viva Glint program journey.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: judithweiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Add administrators to Viva Glint, Viva Glint sites, Viva Glint learning paths and modules, training
@@ -46,7 +46,7 @@ Assign service admins by first providing a full employee attribute upload:
 1. Use this Viva Glint guidance to finalize attributes, prepare an employee data file, set up attributes, and upload your employee data to the Viva Glint platform:
    1. [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
    2. [Create your Employee Attribute Template in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230862)
-   3. [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231120)
+   3. [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2244907)
    4. [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
 2. Assign admins to the Company Admin role in Viva Glint:
    1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
@@ -74,8 +74,8 @@ In order for you, as the Global administrator, to assign service admins without 
 
 ### 1. Begin Viva Glint platform setup
 
-- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2230921)
-- [Manage Allowed Lists](https://www.microsoft.com/?ql=3)
+- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
+- [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
 - [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
@@ -100,7 +100,7 @@ In order for you, as the Global administrator, to assign service admins without 
 ### 4. Set up your Engagement or Employee Lifecycle survey
 
 - [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
-- [Set up Program summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Set up Program summary pages for a Viva Glint Engagement-type survey](https://go.microsoft.com/fwlink/?linkid=2231504)
 - [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
 
 ## Prepare your Viva Glint communications plan
@@ -109,7 +109,7 @@ The following templates are examples you can use to communicate to your organiza
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
-- [Communicate results rollout plan](../communicate/prelaunch-live-email-templates.md)
+- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
 ## What do I do if I need help?
 
@@ -154,3 +154,4 @@ Find resources to go from inspiration to execution. Adoption resources will give
 ## Microsoft Viva Support
 
 [Resources and guides for survey participants to help answer questions and provide background on Viva Glint methodology](https://go.microsoft.com/fwlink/?linkid=2239301).
+[How to take a Viva Glint survey](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)
