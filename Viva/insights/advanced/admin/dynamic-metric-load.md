@@ -43,7 +43,7 @@ After you've followed the steps above and your Storage account is set up:
 
 1. In your Storage account, under **Properties**, select the link to the right of **Blob soft delete**.
 
-:::image type="content" source="../images/dynamic-metric-load-step02.png" alt-text="Screenshot that shows setting storage properties":::
+   :::image type="content" source="../images/dynamic-metric-load-step02.png" lightbox="../images/dynamic-metric-load-step02.png" alt-text="Screenshot that shows setting storage properties":::
 
 2. Clear **Enable soft delete for blobs** and **Enable soft delete for containers** and select **Save**.
 
@@ -61,7 +61,7 @@ After you've followed the steps above and your Storage account is set up:
     * **Days to retain deleted vaults:** Default
     * **Purge protection:** Default
 
-:::image type="content" source="../images/dynamic-metric-load-step0301.png" alt-text="Screenshot that shows fields for creating a key vault":::
+   :::image type="content" source="../images/dynamic-metric-load-step0301.png" alt-text="Screenshot that shows fields for creating a key vault":::
 
 4. Select **Review + create**.
 1. In the **mgdcdemokeyvault** Key vault, on the sidebar menu, select **Secrets** under the **Objects** section. Select **+Generate/Import** and use the following values:
@@ -82,11 +82,11 @@ After you've followed the steps above and your Storage account is set up:
 1. Under **Settings**, select **Org settings**. You may have to select **Show all** to see the **Settings** option. 
 1. Under Services, select **Microsoft Graph data connect**.
 
-:::image type="content" source="../images/dynamic-metric-load-step0401.png" alt-text="Screenshot that shows how to enable the MGDC app for the tenant":::
+   :::image type="content" source="../images/dynamic-metric-load-step0401.png" lightbox="../images/dynamic-metric-load-step0401.png" alt-text="Screenshot that shows how to enable the MGDC app for the tenant":::
 
 4. Select **Turn Microsoft Graph Data Connect on or off for your entire organization** to enable Data Connect. (Make sure **Viva Insights** is selected.)
 
-:::image type="content" source="../images/dynamic-metric-load-step0402.png" alt-text="Screenshot that shows how to turn MGDC on or off":::
+   :::image type="content" source="../images/dynamic-metric-load-step0402.png" alt-text="Screenshot that shows how to turn MGDC on or off":::
 
 5. Select **Save**.
 
@@ -106,10 +106,10 @@ If you have already enabled MGDC, you will need to:
 1. On the left navigation menu, select **Query results**.
 1. Once query results are available for a new or existing query, select the Azure icon to mark for egress.
 
-> [!NOTE]
-> This feature is only available on queries run by the analyst that are part of the [global partition](../admin/partitions.md).
+   > [!NOTE]
+   > This feature is only available on queries run by the analyst that are part of the [global partition](../admin/partitions.md).
 
-:::image type="content" source="../images/dynamic-metric-load-step0501.png" alt-text="Screenshot that shows marking query results for Egress":::
+   :::image type="content" source="../images/dynamic-metric-load-step0501.png" lightbox="../images/dynamic-metric-load-step0501.png" alt-text="Screenshot that shows marking query results for Egress":::
 
 5. Select **Export to Azure**.
 
@@ -138,11 +138,11 @@ Also, when you specify the datasets that the app registration needs to query, fo
 1. Select the **Security & privacy** tab.
 1. Select **Microsoft Graph Data Connect applications**.
 
-:::image type="content" source="../images/dynamic-metric-load-step07.png" alt-text="Screenshot that shows steps for consent":::
+   :::image type="content" source="../images/dynamic-metric-load-step07.png" lightbox="../images/dynamic-metric-load-step07.png" alt-text="Screenshot that shows steps for consent":::
 
 5. Double-click to select the app in the list, verify the dataset and column names, then select **Approve**.
 
-:::image type="content" source="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
+   :::image type="content" source="../images/dynamic-metric-load-step0702.png" lightbox="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
 
 ### 8. Deploy ARM template
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
@@ -151,7 +151,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 1. Under **Azure services**, select **Deploy a custom template**.
 1. Select **Build your own template in the editor**.
 
-:::image type="content" source="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
+   :::image type="content" source="../images/dynamic-metric-load-step08.png" lightbox="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
 
 4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
 1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-287) with information specific to the dataset columns.
@@ -204,7 +204,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 8. Select **Review + create**. 
 1. Select **Create**.
 
-:::image type="content" source="../images/dynamic-metric-load-step0804.png" alt-text="Screenshot that shows how to create the ARM template":::
+   :::image type="content" source="../images/dynamic-metric-load-step0804.png" alt-text="Screenshot that shows how to create the ARM template":::
 
 ### 9. Execute pipeline
 *Applies to: Application Administrator or Application Developer*
@@ -217,17 +217,17 @@ Also, when you specify the datasets that the app registration needs to query, fo
 1. Under Pipelines, select **ExportO365DataEvents**.
 1. Select **Debug**. 
 
-:::image type="content" source="../images/dynamic-metric-load-step0901.png" alt-text="Screenshot that shows how to execute pipeline":::
+   :::image type="content" source="../images/dynamic-metric-load-step0901.png" lightbox="../images/dynamic-metric-load-step0901.png" alt-text="Screenshot that shows how to execute pipeline":::
 
 8. If there are any errors on the dataset, they will be specified on the bottom right under **Status**. To edit the dataset column names and data types, select the **[Dataset name]** tab at the top. Select the bracket icons on the right. Edit “name” and “type” as needed.
 1. Once the pipeline is complete, data should appear in your Storage account. Select **Containers**, then **datasets** as shown below, where the container name is the Pipeline Execution ID.
 
-:::image type="content" source="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
+   :::image type="content" source="../images/dynamic-metric-load-step0902.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
 
-> [!NOTE]
-> If the pipeline execution fails, please save the Activity run ID from the Data Factory pipeline studio, as shown below. This will help our team debug for you.
+   > [!NOTE]
+   > If the pipeline execution fails, please save the Activity run ID from the Data Factory pipeline studio, as shown below. This will help our team debug for you.
 
-:::image type="content" source="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
+   :::image type="content" source="../images/dynamic-metric-load-step0903.png" lightbox="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
 
 ### 10. Find the output of your extraction
 *Applies to: Application Administrator or Application Developer*
@@ -238,17 +238,17 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
     * /[Pipeline Execution ID] / VivaInsights / [TenantID] / [.gzip file]
     * .gzip file contains the metric output associated with this pipeline execution
 
-:::image type="content" source="../images/dynamic-metric-load-step1001.png" alt-text="Screenshot that shows the output file":::
+    :::image type="content" source="../images/dynamic-metric-load-step1001.png" lightbox="../images/dynamic-metric-load-step1001.png" alt-text="Screenshot that shows the output file":::
 
 * Metadata 
     * /[Pipeline Execution ID] / VivaInsights / [TenantID] / metadata / JobMetadata / metadata.json 
     * Metadata.json contains the metadata associated with this pipeline execution
 
-:::image type="content" source="../images/dynamic-metric-load-step1002.png" alt-text="Screenshot that shows the metadata of the output file":::
+    :::image type="content" source="../images/dynamic-metric-load-step1002.png" lightbox="../images/dynamic-metric-load-step1002.png" alt-text="Screenshot that shows the metadata of the output file":::
 
 * If you would like to update the file path, go to **Azure portal**, then **[Your Data factory]**. Select **Launch studio** then **VivaInsightsSink**, and edit the **File path**. 
 
-:::image type="content" source="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
+  :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
 > If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to AAD Application owner with Insights Analyst role.)*
