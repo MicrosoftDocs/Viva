@@ -2,6 +2,49 @@
 
 
 
+## Week of August 07, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/7/2023 | [Introducing Microsoft Viva Engage](/viva/engage/overview) | modified |
+| 8/7/2023 | Habit playbooks for Viva Insights | removed |
+| 8/7/2023 | Viva Insights learning modules | removed |
+| 8/7/2023 | Learning collateral for Viva Insights adoption | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Define your why | removed |
+| 8/7/2023 | Viva Insights Individual Adoption - Develop new habits | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Get started | removed |
+| 8/7/2023 | Viva Insights Individual Adoption resources | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Set goals | removed |
+| 8/7/2023 | Viva Insights Individual Adoption - Sustain change | removed |
+| 8/7/2023 | Team Adoption implementation | removed |
+| 8/7/2023 | Viva Insights team adoption introduction | removed |
+| 8/7/2023 | Viva Insights Team Adoption --Measure | removed |
+| 8/7/2023 | Viva Insights Team Adoption plan | removed |
+| 8/7/2023 | Viva Insights Team Adoption -- Reinforce | removed |
+| 8/7/2023 | Use Viva Insights to build good work habits | removed |
+| 8/7/2023 | Viva Insights Individual Adoption --Diagnose | removed |
+| 8/7/2023 | Add top collaborators in Viva Insights | removed |
+| 8/7/2023 | Task card in Viva Insights | removed |
+| 8/7/2023 | Unread emails in Viva Insights | removed |
+| 8/7/2023 | Open the Viva Insights Outlook add-in | removed |
+| 8/7/2023 | [Business resilience report](/viva/insights/advanced/analyst/templates/business-resilience) | modified |
+| 8/7/2023 | [Diversity equity and inclusion Power BI report](/viva/insights/advanced/analyst/templates/diversity-equity-inclusion) | modified |
+| 8/7/2023 | [Hybrid Workforce Experience Power BI report (preview)](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience-preview) | modified |
+| 8/7/2023 | [Hybrid Workforce Experience Power BI report](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience) | modified |
+| 8/7/2023 | [Manager effectiveness report](/viva/insights/advanced/analyst/templates/manager-effectiveness) | modified |
+| 8/7/2023 | [Meeting effectiveness report](/viva/insights/advanced/analyst/templates/meeting-effectiveness) | modified |
+| 8/7/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | modified |
+| 8/7/2023 | [Ways of working report](/viva/insights/advanced/analyst/templates/ways-of-working) | modified |
+| 8/8/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 8/9/2023 | [Goals Broadcast](/viva/goals/goals-broadcast) | added |
+| 8/9/2023 | [Cross-collaboration: person-to-group query](/viva/insights/advanced/analyst/cross-collaboration-p2g) | added |
+| 8/9/2023 | Productivity insights in Viva Insights in Outlook | removed |
+| 8/9/2023 | FAQ for the Viva Insights app | removed |
+| 8/9/2023 | [Cross-collaboration: Group-to-group query](/viva/insights/advanced/analyst/cross-collaboration-g2g) | added |
+| 8/9/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
+
+
 ## Week of July 31, 2023
 
 
@@ -463,19 +506,3 @@
 | 7/14/2023 | [Use the Feed web part for Viva Connections](/viva/connections/use-feed-web-part-for-viva-connections) | modified |
 | 7/14/2023 | [Manage academies in Viva Learning](/viva/learning/academy) | modified |
 | 7/14/2023 | [Diversity equity and inclusion Power BI report](/viva/insights/advanced/analyst/templates/diversity-equity-inclusion) | added |
-
-
-## Week of July 03, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/1/2023 | [File rules and validation errors](/viva/insights/advanced/admin/rules-validation-errors) | added |
-| 7/3/2023 | [Import organizational data (first import)](/viva/insights/advanced/admin/import-org-data-first) | modified |
-| 7/3/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
-| 7/3/2023 | [Prepare organizational data in Viva Insights](/viva/insights/advanced/admin/prepare-org-data) | modified |
-| 7/3/2023 | [Upload organizational data (first upload)](/viva/insights/advanced/admin/upload-org-data-first) | modified |
-| 7/3/2023 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
-| 7/5/2023 | [Viva Topics lightweight management in Viva Engage](/viva/topics/topics-lightweight-management) | added |
-| 7/6/2023 | [Viva Insights with Glint report](/viva/insights/advanced/analyst/templates/glint) | added |
-| 7/7/2023 | [Organize a Viva Engage live event](/viva/engage/organize-live-event) | added |

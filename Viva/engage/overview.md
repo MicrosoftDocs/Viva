@@ -25,7 +25,7 @@ Viva Engage brings people together across the organization to connect with leade
 
 Viva Engage is part of the Microsoft Viva employee experience platform built within Microsoft 365 and Microsoft Teams. The Viva suite of apps gives you the ability to support connection, insight, purpose, and growth in your organization using your existing infrastructure.
 
-> [!VIDEO https://www.youtube.com/embed/E_xTiWClwYc]
+<iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### How is Viva Engage different from Viva Connections? 
 

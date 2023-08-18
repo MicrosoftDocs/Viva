@@ -35,13 +35,14 @@ The following steps show you what you need to for the transition to Native Mode.
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
-To align your network to Native Mode, you need to make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you first need to complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
+To align your network to Native Mode, make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you must first complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
-Next, you need to make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
+Next, make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ## 2. Access the Native Mode Alignment Tool
 
-Only Microsoft 365 global Admins can access the Native Mode Alignment Tool. It’s important to know that during times of high network traffic it can take up to a few hours for Global Admin privileges to be reflected in Viva Engage. If your account is only granted these privileges on a temporary basis, it may not be visible immediately after your account is elevated. To access the Native Mode Alignment Tool after Viva Engage recognizes that your account has Global Admin capabilities: Sign-in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
+Use of the Native Mode Alignment Tool is limited to the Engage admin role and the Microsoft 365 Global Administrator role. If your account is granted these privileges on a temporary basis, your privileges may not be visible immediately. Specifically, during times of high network traffic it can take a few hours for global admin privileges to be reflected in Viva Engage.
+To access the Native Mode Alignment Tool after Viva Engage recognizes your global admin capabilities: Sign in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
 
 > [!IMPORTANT] 
 > The Alignment Tool can take a long time for processing. Most customers are able to run the tool in one to two weeks, but it can take up to 90 days in extreme circumstances. The account that's used to initiate the tool must maintain global admin privileges for the duration of the alignment process.
@@ -71,7 +72,7 @@ Use the report to identify the following information:
 
 - **Which communities in your network don't have any owners or have owners who lack Microsoft 365 Group Creation Rights**
 
-  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community doesn't have any owners or if no owners are authorized to create Microsoft 365 Groups, the tool creates the group by using the credentials of the Global Admin who initiated the Alignment Tool. So, it's important that your Global Admin maintains their privileges during the alignment process.
+  The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community has no owner, or if no owners are authorized to create Microsoft 365 Groups, the tool creates the group by using the credentials of the global admin who initiated the Alignment Tool. So, it's important that your global admin maintains their privileges during the alignment process.
 
   Before you run the tool, we recommend that you notify all users who have files stored in private messages, owners of any groups that are marked as unlisted, and owners of any groups that are currently external.
 

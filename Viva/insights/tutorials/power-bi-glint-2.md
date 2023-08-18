@@ -57,13 +57,13 @@ The dashboard includes the following reports.
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
+<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZTYwMWI3MDctYTU3Mi00N2MxLWE4NmYtNjU4YzhlYmMxMGQ4IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
 
 ## Setup video
 
 The following video describes how to set up the dashboard, which might not be exactly what you experience with data that's unique to your organization.
 
-> [!VIDEO https://player.vimeo.com/video/571969511]
+<iframe src="https://player.vimeo.com/video/571969511" width="800" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## High-level steps
 
