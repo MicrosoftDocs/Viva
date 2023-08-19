@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 08/18/2023
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: lilyolason
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: anirudhbajaj
+manager: abelubetk
 audience: Admin
 ---
 
@@ -21,32 +21,41 @@ audience: Admin
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
 :::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with links to video, sample, and walk-through above Query setup":::
 
-## Getting the query ready
+## Overview
 
-In this section, we'll talk about setting up the query and selecting data for it. 
+Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Person query** page.
 
-### Query setup
+>[!Note]
+>If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
 
-In the **Analysis** page's **Query setup** section, you define some basic information about your query, like its name, the time period it will analyze, and whether it will refresh on its own.
+To run a person query, you'll follow five basic steps:
+
+1. Set up your query.
+1. Add metrics.
+1. Add conditions and condition groups.
+1. Add employee attributes.
+1. Run your query.
+
+In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
+
+## Set up your query
+
+*Section: **Query setup***
 
 
-#### To set up your query
-
-1. From the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Analysis** page, navigate to **Custom queries > Person query** and select **Start analysis**.
-    >[!Note]
-    >If you're an existing Viva Insights customer, refer to the note in the [Introduction](../introduction-to-advanced-insights.md) for more information about using the new platform.
+The following steps are optional. We describe default values below.
 
 1. Under **Query setup**:
-   1. Optional – Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
-   1. Optional – Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
-   1. Optional – Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
+   1. Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+   1. Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
+   1. Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
    
       >[!Note]
       >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
       
-   1. Optional – Type a **Description**.
+   1. Type a **Description**.
    
-   1. Optional – Set how the query is grouped. By default, custom Person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+   1. Set how the query is grouped. By default, custom person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
 
        Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
        
@@ -55,9 +64,17 @@ In the **Analysis** page's **Query setup** section, you define some basic inform
        >
        > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
-### Metrics 
+### Add metrics 
 
-In **Select metrics for what you want to know about your employees**, specify what you want to find out about the employees you’re analyzing, and define the employees you’re including in your query.
+*Section: **Select metrics for what you want to know about your employees***
+
+1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
+
+1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**.
+   
+   The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
+   
+   :::image type="content" source="../images/person-query-selected-metrics-tags.png" alt-text="Select metrics section, with selected metrics appearing as tags":::
 
 #### About metrics
 
@@ -77,21 +94,20 @@ To find out more about a metric, hover over its information icon.
 
 :::image type="content" source="../images/person-query-hover-metric-tooltip.png" alt-text="Screenshot of metric tooltip for Call hours.":::
 
-### To add metrics to your query
 
-Here’s how you add metrics to your query:
+### Add conditions and condition groups
 
-1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
+*Section: **Select which employees you want to include in the query***
 
-1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described earlier (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**.
-   
-   The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
-   
-   :::image type="content" source="../images/person-query-selected-metrics-tags.png" alt-text="Select metrics section, with selected metrics appearing as tags":::
+1. Underneath the predefined "Is Active" filter, select the **Add condition button**, then select **Organizational data**.
 
-### Employees
+   :::image type="content" source="../images/person-query-add-conditions.png" alt-text="Screenshot that shows the Add condition button.":::
 
-After you decide what you want to know about employees, select which employees you want to include in your query. In **Select which employees you want to include in the query**, define the employees you want to analyze through *conditions* and *condition groups*.
+2. Using conditions and condition groups, add one or multiple filters to narrow your analysis of employees.
+
+   >[!Note]
+   >
+   >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
 
 #### About conditions and condition groups
 
@@ -105,25 +121,37 @@ To learn more about filters and conditions, refer to our [Filters](filters.md) a
 
 The app predefines one condition for you: “Is Active.” If you leave this condition set to “true,” the query only analyzes *active employees*. Active employees send at least one email or Teams chat during the unit of time—day, week, or month—defined by the query’s **Group by** setting.
 
-When you open your query results' output file, you'll see a Boolean value of "TRUE" or "FALSE" in the **IsActive** column for each row. 
+When you open your query results file, you'll see a Boolean value of "TRUE" or "FALSE" in the **IsActive** column for each row. 
 
-#### To add employees to your query
 
-1. Underneath the predefined "Is Active" filter, select the **Add condition button**, then select **Organizational data**.
-
-   :::image type="content" source="../images/person-query-add-conditions.png" alt-text="Screenshot that shows the Add condition button.":::
-
-   To add a condition group, select the **Add condition group** button and select the **Organizational data** attribute(s), **Operator** (= or !=), and **Value(s)**. The values you select appear as tags.
-
-   >[!Note]
-   >
-   >The default conjunction for conditions and condition groups is “and.” To select “or” instead, use the dropdown menu.
 
 #### Total and measured employees
 
 Beneath the **Add condition** and **Add condition group** buttons, you’ll see a number for **Total employees** and **Measured employees**. These numbers represent how many employees could be measured and how many employees the query is actually measuring, respectively. Checking these numbers before running your query can help you determine whether you’ve selected the right conditions and condition groups.
 
-### Employee attributes
+### To move and delete conditions and condition groups
+
+To move a condition or condition group, take the following actions:
+
+1. Select the six-dot icon to the right.
+1. Drag the six-dot icon above or below other conditions or groups.
+  
+To delete a condition or condition group, select the trashcan icon to the right.
+
+:::image type="content" source="../images/meeting-query-move-condition.png" alt-text="Screenshot that shows selected metrics in the box beneath Select metrics for what you want to know about your meetings.":::
+
+### Add employee attributes
+
+*Section: **Select which employee attributes you want to include in the query***
+
+1. Select the **Select attributes** button, then on the right pane, use the checklist to make selections.
+1. When you're done picking attributes, select the **Add to query** button.
+    
+   Attributes appear as tags in the box above the **Select attributes** button.
+
+   > [!Note]
+   > If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
+
 
 #### About employee attributes
 
@@ -133,20 +161,9 @@ Employee attributes are the data fields—or columns—that you’ve uploaded in
 * Further protects private data by excluding columns from the file.
 * Enables you to select **Clear all** to clear the selected columns.
 
-#### To add employee attributes to your query
+## Run the query
 
-1. Select the **Select attributes** button, then:
-   1. On the right pane, use the checklist to make selections.
-   1. When you're done picking attributes, select the **Add to query** button.
-    
-   Attributes appear as tags in the box about the **Select attributes** button.
-
-   > [!Note]
-   > If an attribute appears as a red tag, that attribute might have been removed or renamed. You might see red tags if you’re cloning or editing a query and the attributes have changed since the query was last run. You can remove these marked attributes to get the query to run properly.
-
-## Running the query
-
-After you’ve set up your query, selected metrics, set conditions and condition groups, and selected employee attributes, you’re ready to run your query. Select the **Run** button in the screen’s upper right.
+Select the **Run** button in the screen’s upper right to run the query.
 
 ### To access your query results
 
