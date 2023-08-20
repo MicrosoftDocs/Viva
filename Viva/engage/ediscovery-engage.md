@@ -51,7 +51,7 @@ After you run your query, your search results will include (but aren't limited t
 - Mentions
 - Timestamp
 
-We continue to update which data points are included in search results for Viva Engage.
+We continue to update the data points that are included in search results for Viva Engage.
 
 ## See also
 
