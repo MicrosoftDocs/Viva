@@ -1623,6 +1623,11 @@
       "source_path": "Viva/engage/configure-your-viva-engage-network/manage-storyline-viva.md",
       "redirect_url": "/viva/engage/eac-storyline",
       "redirect_document_id": "FALSE"
+  },
+  { 
+    "source_path": "Viva/insights/personal/overview/better-work-habits.md",
+    "redirect_url": "/viva/insights/introduction",
+    "redirect_document_id": "FALSE"
   }
 
     ]

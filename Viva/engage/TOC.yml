@@ -100,6 +100,8 @@
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
      - name: Manage Viva Engage core user licenses in Microsoft 365
        href: manage-engage-licenses-microsoft-365.md
+     - name: eDiscovery and Viva Engage
+       href: ediscovery-engage.md
      - name: Manage GDPR data subject requests in Viva Engage
        href: /viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise
      - name: Data management

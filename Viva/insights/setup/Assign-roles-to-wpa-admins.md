@@ -39,7 +39,7 @@ See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&b
 <!--
 ## Video: Assign roles
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282897409]
 -->
 ## Assign user or group roles
 
