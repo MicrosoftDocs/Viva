@@ -153,7 +153,7 @@ Yes, the Global admin and Engage admin can turn off leadership corner in the fea
 
 **How can I customize the company logo in leadership corner?**
 
-Yes. Follow the instructions at this [Customize your network](/viva/engage/manage-viva/engage-groups/customize-your-network).
+Yes. Follow the instructions at this [Customize your network](../manage-viva-engage-groups/customize-your-network.md).
 
 ## See also
 
