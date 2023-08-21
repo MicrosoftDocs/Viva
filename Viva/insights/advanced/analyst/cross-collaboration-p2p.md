@@ -77,7 +77,7 @@ Here’s how columns will appear in your results file:
 
 The first column identifies the primary collaborator in the pair by providing a de-identified ID number. This column appears automatically and is titled **PrimaryCollaborator_PersonId**. 
 
-:::image type="content" source="../images/analyst-xc-primary-collab-results.png" alt-text="Screenshot that shows results for the PrimaryCollaborator_PersonId column.":::
+:::image type="content" source="../images/analyst-xc-primary-collab-results-2.png" alt-text="Screenshot that shows results for the PrimaryCollaborator_PersonId column.":::
 
 The next columns describe the primary collaborator. The column names for these attributes are the organizational attributes you selected while you built the query, with the prefix **PrimaryCollaborator_**. In the graphic below, the analyst selected **FunctionType**, **LevelDesignation**, and **Organization** as their attributes:
 
@@ -86,7 +86,7 @@ The next columns describe the primary collaborator. The column names for these a
  
 The following column identifies the secondary collaborator in the pair. Like the first column in the file, this column appears automatically, is titled **SecondaryCollaborator_PersonId**, and provides a de-identified ID number to represent the secondary collaborator.
 
-:::image type="content" source="../images/analyst-xc-secondary-collab-results.png" alt-text="Screenshot that shows results for the SecondaryCollaborator_PersonID column.":::
+:::image type="content" source="../images/analyst-xc-secondary-collab-results-2.png" alt-text="Screenshot that shows results for the SecondaryCollaborator_PersonID column.":::
  
 Like for primary collaborators, the next columns describe the secondary collaborator by providing the attributes you picked earlier. The columns include the attribute names, with the prefix **SecondaryCollaborator_**. Here’s how these columns would appear if the analyst selected **FunctionType**, **LevelDesignation**, and **Organization** as their attributes:
 
