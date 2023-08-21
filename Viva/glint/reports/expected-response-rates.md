@@ -1,9 +1,9 @@
 ---
 title: Viva Glint’s position on expected response rates
 description: The response rate for recurring surveys is a percentage calculation of the number of people who completed the survey, divided by the number of people who received the survey invitation.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Response rate setup, comments
@@ -37,21 +37,21 @@ If you require a deeper dive:
 
 This table uses the mean (average) response rate and is suggested for use as your primary metric:
 
-| **Program** | **2021** | **2020** | **2019** |
-| --- | --- | --- | --- |
-| Engagement (recurring survey) | 75%\* | 76% | 80%\* |
-| Onboarding (Employee Lifecycle survey) | 42% | 45% | NA |
-| Exit (Employee Lifecycle survey) | 50% | 48% | NA |
+| **Program** | **2022**| **2021** | **2020** | **2019** |
+| --- | --- | --- | --- | --- |
+| Engagement (recurring survey)| 75% | 75%\* | 76% | 80%\* |
+| Onboarding (Employee Lifecycle survey) | 40%| 42% | 45% | NA |
+| Exit (Employee Lifecycle survey) | 51%| 50% | 48% | NA |
 
 \* Ongoing stressors introduced by the pandemic, alongside a potentially fickle workforce looking for change have likely driven the 5% change in response rate.
 
 For more context, you can refer to the median response rate to consider trends:
 
-| **Program** | **2021** | **2020** | **2019** |
-| --- | --- | --- | --- |
-| Engagement (recurring survey) | 77% | 79% | 79% |
-| Onboarding (Employee Lifecycle survey) | 43% | 46% | 48% |
-| Exit (Employee Lifecycle survey) | 53% | 47% | 51% |
+| **Program** | **2022** | **2021** | **2020** | **2019** |
+| --- | --- | --- | --- |--- |
+| Engagement (recurring survey) | 77%| 77% | 79% | 79% |
+| Onboarding (Employee Lifecycle survey) | 41% | 43% | 46% | 48% |
+| Exit (Employee Lifecycle survey) | 53%| 53% | 47% | 51% |
 
 ### Is my response rate high enough to be considered representative?
 
