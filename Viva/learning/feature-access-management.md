@@ -18,7 +18,7 @@ localization_priority: high
 description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
 ---
 
-# Delegate admin access in Viva Learning
+# Manage admin access in Viva Learning
 
 
 Global admins and knowledge admins can now give access to nonadmin users for managing features on Viva Learning admin tab.
