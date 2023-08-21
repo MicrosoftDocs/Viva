@@ -41,7 +41,7 @@ This table uses the mean (average) response rate and is suggested for use as you
 | --- | --- | --- | --- |--- |
 | Engagement (recurring survey) | 75% | 75%\* | 76% | 80%\* |
 | Onboarding (Employee Lifecycle survey)| 40% | 42% | 45% | NA |
-| Exit (Employee Lifecycle survey) 51% | 50% | 48% | NA |
+| Exit (Employee Lifecycle survey) | 51% | 50% | 48% | NA |
 
 \* Ongoing stressors introduced by the pandemic, alongside a potentially fickle workforce looking for change have likely driven the 5% change in response rate.
 
