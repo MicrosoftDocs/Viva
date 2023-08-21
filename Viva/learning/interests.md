@@ -21,7 +21,7 @@ description: Interest-based learning personalization is now available in Viva Le
 
 ## Prerequisites
 
-The following roles have access to **Manage Interests**::
+The following roles have access to **Manage Interests**:
 
 - Knowledge admin
 - Knowledge manager  
