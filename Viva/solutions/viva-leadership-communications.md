@@ -58,7 +58,7 @@ Only Viva Engage group admins can create and schedule a live event in Viva Engag
 
 Learn more
 
-[Requirements for live events in Viva Engage](/organize-live-event.md)
+[Requirements for live events in Viva Engage](/viva/engage/organize-live-event.md)
 
 [Live events in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-live-events) 
 
