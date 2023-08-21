@@ -1,7 +1,7 @@
 ---
-ms.date: 6/19/2023
+ms.date: 08/23/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
-ms.reviewer: 
+ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
 manager: pamgreen
@@ -62,6 +62,7 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 > - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
 > - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
 > - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+> - Users will be able to [customize their dashboard on Viva Connections mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the mobile experience for the user and will not affect their desktop or tablet experience.
 
 
 1.	Navigate to the Viva Connections app in Teams.
