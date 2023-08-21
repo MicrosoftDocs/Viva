@@ -115,7 +115,7 @@
           href: setup/understand-survey-access-methods.md
      - name: Preview pre-launch demo data in Viva Glint reporting
        href: setup/preview-demo-reporting.md
-       - items: 
+       items: 
         - name: Recommendations for using Viva Glint Survey Coach and Tooltips
           href: setup/survey-coach.md
         - name: Choose your survey comparison data for Viva Glint reporting
@@ -127,12 +127,12 @@
         - name: Use the Glint Microsoft Teams application
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
-     - items: 
+       items: 
         - name: Setting up Engagement surveys
-        - items:
+          items:
            - name: Set up Program Summary for Viva Glint Engagement-type surveys
              href: setup/program-summary-overview.md
-           - items:
+             items:
              - name: Program setup in Program Summary
                href: setup/program-set-up.md
              - name: Set up and use Distribution Lists in Viva Glint
@@ -156,11 +156,11 @@
              - name: Set up a Manager Effectiveness survey
                href: setup/manager-effectiveness-survey.md
              - name: Setting up Always On surveys
-             - items:
+               items:
                - name: Preview, manage, and enable Viva Glint surveys and dashboards
                  href: setup/preview-manage-enable-engage-programs.md
            - name: Setting up Employee Lifecycle surveys
-           - items:
+             items:
              - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
                href: setup/program-summary-setup-lifecycle.md
              - name: Create Viva Glint Onboarding and Exit survey programs
@@ -168,7 +168,7 @@
              - name: Preview and filter Employee Lifecycle programs
                href: setup/preview-filter-lifecycle-programs.md
    - name: Reports
-   - items:
+     items:
      - name: Viva Glint's survey reports
        items:
         - name: Viva Glint's survey reports overview
