@@ -52,7 +52,7 @@ Admins can curate or extend the interests for the tenant and enable learners wit
 3. You see that the existing default interests are already displayed in this view.
   
 4. Select **Import** to extend or curate interests for your tenant.
-    1. Select a CSV delimiter to process both the imported file and the download template. If the delimiter in your CSV file is ``;`` then provide ``;`` in the input delimiter field
+    1. Select a CSV delimiter to process both the imported file and the download template. If the delimiter in your CSV file is `;` then provide `;` in the input delimiter field
     2. Select a CSV file path that contains added interests from the interests template file in step 5.
 
     ![An image of the import popup menu with the option to add delimiter, browse for an file path to add, and download an interests template](../media/learning/interests-2.png)
@@ -63,7 +63,7 @@ Admins can curate or extend the interests for the tenant and enable learners wit
 
 5. **Download** the Viva Learning template file for interests and provide your library in this template.
 
-    1. The Viva Learning Template file is a csv file with the following details: 
+    1. The Viva Learning Template file is a CSV file with the following details: 
     - **Row 1**: 
         - `externalCode` - a mandatory GUID column for importing each record. You can provide any unique value for each record and apply your existing IDs of respective interests in your system. 
 
@@ -79,13 +79,13 @@ Admins can curate or extend the interests for the tenant and enable learners wit
    > Add minimum of 20 interests with unique external code and interest name in at least one language for the file to be imported and processed. 
    > You can rearrange the order of columns as per your convenience. 
 
-![Image of the Viva Learning template cvs file with the key interests data](../media/learning/interests-3.png)
+![Image of the Viva Learning template CSV file with the key interests data](../media/learning/interests-3.png)
 
-You see an indication that the uploaded file is a valid csv file. 
+You see an indication that the uploaded file is a valid CSV file. 
 
 1. Select **Import**.
 
-   ![Image of import menu confirmation detailing that this action overwrites all existing interests for your organization with the interests in the imported csv file](../media/learning/interests-5.png)
+   ![Image of import menu confirmation detailing that this action overwrites all existing interests for your organization with the interests in the imported CSV file](../media/learning/interests-5.png)
 
 1. **Confirm** that any interests, which are in your current interests and not part of the imported file will be deleted:
 
