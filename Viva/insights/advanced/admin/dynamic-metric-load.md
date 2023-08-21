@@ -142,7 +142,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 5. Double-click to select the app in the list, verify the dataset and column names, then select **Approve**.
 
-   :::image type="content" source="../images/dynamic-metric-load-step0702.png" lightbox="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
+   :::image type="content" source="../images/dynamic-metric-load-step0702b.png" lightbox="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
 
 ### 8. Deploy ARM template
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
@@ -188,7 +188,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
     * **App object ID:** 
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then select the link below **Managed application in local directory**. Find the **Object ID** under **Properties**. (This is not the same **Object ID** as the ID under **Essentials**.) 
-         :::image type="content" source="../images/dynamic-metric-load-step0803.png" alt-text="Screenshot that shows how to find the App object ID":::
+         :::image type="content" source="../images/dynamic-metric-load-step0803b.png" alt-text="Screenshot that shows how to find the App object ID":::
     * **Data Factory Name:** mgdcdemodatafactory (or you can name and select your own) 
     * **Data Lake Storage Name:**
         * The name of the Storage account you created in Step 2 (mgdcdemoap unless you named your own). This name can also be found in **Storage accounts** in **Azure Portal**.
@@ -222,12 +222,12 @@ Also, when you specify the datasets that the app registration needs to query, fo
 8. If there are any errors on the dataset, they will be specified on the bottom right under **Status**. To edit the dataset column names and data types, select the **[Dataset name]** tab at the top. Select the bracket icons on the right. Edit “name” and “type” as needed.
 1. Once the pipeline is complete, data should appear in your Storage account. Select **Containers**, then **datasets** as shown below, where the container name is the Pipeline Execution ID.
 
-   :::image type="content" source="../images/dynamic-metric-load-step0902.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
+   :::image type="content" source="../images/dynamic-metric-load-step0902b.png" lightbox="../images/dynamic-metric-load-step0902.png" alt-text="Screenshot that shows where data appears in your storage account":::
 
    > [!NOTE]
    > If the pipeline execution fails, please save the Activity run ID from the Data Factory pipeline studio, as shown below. This will help our team debug for you.
 
-   :::image type="content" source="../images/dynamic-metric-load-step0903.png" lightbox="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
+   :::image type="content" source="../images/dynamic-metric-load-step0903b.png" lightbox="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
 
 ### 10. Find the output of your extraction
 *Applies to: Application Administrator or Application Developer*

@@ -1,9 +1,9 @@
 ---
 title: Viva Glint employee attribute fundamentals
 description: Learn how Viva Glint uses data about the people in your organization to convert survey feedback into insightful and action-oriented information to improve employee engagement.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: standard attributes, custom attributes, functional attributes, time zones, languages
@@ -43,8 +43,8 @@ Attribute column headers (name labels) may be customized. For example, you might
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |
 | **Email address** | Each employee should have a unique email address. Don't include extra spaces.<br>If an employee doesn't have an email address, copy the employee’s unique ID into the email field. | Yes | Yes |
-| **Time zone** | See [Time zones](#time-zones) | Yes | Yes |
-| **Language** | See [Language](#languages) | Yes | Yes |
+| **Time zone** | See [Time zones](#time-zones) | No | No |
+| **Language** | See [Language](#languages) | No | No |
 | **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a managerial hierarchy. | Highly recommended | Highly recommended |
 | **Hire date** | Used to derive tenure buckets.<br>Viva Glint standard values: 0-1 year, 1-2 years, 2-3 years, 3-4 years, 4-5 years, 5-7 years, 7+ years. | No | Yes, for Employee Lifecycle *Onboarding* surveys |
 | **Birth year** | Used to derive age group buckets.<br>Viva Glint standard values: <25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, and 70+ | No | No |
@@ -77,12 +77,17 @@ Functional attributes are values that indicate how and when communications are s
 ### Time zones
 
 Global companies often include a time zone attribute column in their Employee Attribute Template to trigger survey emails in employees’ time zones. Use the Time Zone tab of the Employee Attribute Template to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
+> [!TIP]
+> For global companies, consider adding time zones and languages meaning to reach employees in their appropriate timezones and their preferred language.
 
 ### Languages
 
 Use the Language Codes tab of the Employee Attribute Template to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
 If you also supply language values to indicate users’ dashboard languages (for those who view reports), include a separate column (example: Dashboard Language).
+
+> [!TIP]
+> For global companies, consider adding time zones and languages meaning to reach employees in their appropriate timezones and their preferred language.
 
 >[!NOTE]
 > Dashboards do not support languages that are read from right to left.
