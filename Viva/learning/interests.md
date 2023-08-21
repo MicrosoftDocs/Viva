@@ -79,9 +79,9 @@ Admins can curate or extend the interests for the tenant and enable learners wit
    > Add minimum of 20 interests with unique external code and interest name in at least one language for the file to be imported and processed. 
    > You can rearrange the order of columns as per your convenience. 
 
-![Image of the Viva Learning template CSV file with the key interests data](../media/learning/interests-3.png)
+   ![Image of the Viva Learning template CSV file with the key interests data](../media/learning/interests-3.png)
 
-You see an indication that the uploaded file is a valid CSV file. 
+   You see an indication that the uploaded file is a valid CSV file. 
 
 1. Select **Import**.
 
@@ -95,7 +95,7 @@ You see an indication that the uploaded file is a valid CSV file.
 
 If some interests can't be imported, you see a failure count and can get more details on these failures by downloading the log file.
 
-Select **Download Log** for data on the current interests with the columns available in the Viva Learning template file. There are two more columns “Status” and “Comments” that gives details on the status for each record and the error details in the comments section. The download log file will also display the interests, which have been deleted.
+Select **Download Log** for data on the current interests with the columns available in the Viva Learning template file. There are two more columns **Status** and **Comments** that gives details on the status for each record and the error details in the comments section. The download log file will also display the interests, which have been deleted.
 
 The **Manage Interests** view displays a pagination of interests with interest name, locales (the number languages a particular interest is available in) and the last modified time stamp.
 
