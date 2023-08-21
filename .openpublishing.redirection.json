@@ -1615,15 +1615,20 @@
       "redirect_document_id": "FALSE"
     },
     {
-    "source_path": "viva/insights/use/shared-focus-plan.md",
-    "redirect_url": "https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97",
-    "redirect_document_id": "FALSE"
+      "source_path": "viva/insights/use/shared-focus-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97",
+      "redirect_document_id": "FALSE"
     },
     { 
       "source_path": "Viva/engage/configure-your-viva-engage-network/manage-storyline-viva.md",
       "redirect_url": "/viva/engage/eac-storyline",
       "redirect_document_id": "FALSE"
-  }
+    },
+    { 
+      "source_path": "Viva/insights/personal/overview/better-work-habits.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": "FALSE"
+    }
 
-    ]
-  }
+  ]
+}
