@@ -45,7 +45,7 @@ When the Business continuity dashboard is populated with your data, you can use 
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiM2ZiY2Y4M2YtMTMyNi00NWY1LWEyMjctYTY2OTdlOWQzNDhhIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true&pageName=ReportSectionbbd7dee40bcdeee460e6]
 
 To find the template for the Business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery)(if that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery)). For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 
@@ -72,7 +72,7 @@ If you started using the Business continuity dashboard in April or May 2020 and 
 > [!Important]
 > Where the video shows selecting **Last 6 months** when running the queries, be sure you select **Last 1 year** instead. The queries will then have data that includes activity before and during the shift to remote work in March 2020.
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/402717048" frameborder="0" allowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/402717048]
 
 ## Set up the dashboard
 
