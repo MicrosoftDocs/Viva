@@ -29,6 +29,8 @@ The following roles have access to **Manage Interests**::
 
 Interest-based learning personalizations let admins curate interests they want their organization to develop or manage interests based on existing library in the learning management system.
 
+Manage interests is a premium feature available for premium Viva Learning tenants.
+
 With interests, you can enable learners with access and opportunities to get content recommendation for interests from the extended tenant's list. 
 
 > [!NOTE]
