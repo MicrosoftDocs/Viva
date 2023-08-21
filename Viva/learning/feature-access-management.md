@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - Tier1
 localization_priority: high
-description: See what LinkedIn Learning courses are available on Viva Learning without a premium LinkedIn subscription.
+description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
 ---
 
 # Delegate admin access in Viva Learning
@@ -38,7 +38,7 @@ After a global admin or a knowledge admin manages access using Microsoft 365 gro
 
 Delegated access can be revoked by removing the group from **Edit Feature Access.**
 
-You can create or manage the Microsoft 365 groups using the [Microsoft Admin Center](https://learn.microsoft.com/microsoft-365/admin/create-groups/manage-groups?view=o365-worldwide)
+You can create or manage the Microsoft 365 groups using the [Microsoft Admin Center](/microsoft-365/admin/create-groups/manage-groups)
 
 To manage feature access:
 
