@@ -1628,6 +1628,16 @@
     "source_path": "Viva/insights/personal/overview/better-work-habits.md",
     "redirect_url": "/viva/insights/introduction",
     "redirect_document_id": "FALSE"
+  },
+  { 
+    "source_path": "Viva/insights/personal/teams/includes/teams-insights-content-updates.md",
+    "redirect_url": "/viva/insights/introduction",
+    "redirect_document_id": "FALSE"
+  },
+  { 
+    "source_path": "Viva/insights/personal/teams/includes/teams-insights-content-updates.md",
+    "redirect_url": "https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876",
+    "redirect_document_id": "FALSE"
   }
 
     ]
