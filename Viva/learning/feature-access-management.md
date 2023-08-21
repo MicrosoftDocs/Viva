@@ -21,7 +21,7 @@ description: See what LinkedIn Learning courses are available on Viva Learning w
 # Delegate admin access in Viva Learning
 
 
-Global admins and knowledge admins can now delegate access to non-admin users for managing features on Viva Learning admin tab.
+Global admins and knowledge admins can now give access to non-admin users for managing features on Viva Learning admin tab.
 
 This can be done using M365 groups. Any user who is part of M365 group assigned to a specific feature will get the feature access in their Viva Learning admin tab.
 
@@ -33,9 +33,12 @@ Manage Feature Access is available for global admins and knowledge admins who ha
 
 After a global admin or a knowledge admin delegates access using Microsoft 365 groups, users within these groups can edit, update, and delete access for features similarly to a default admin.
 
+> [!NOTE]
+> Changes for newly added members in a group can take 24 hours to reflect. Changes reflect immediately for existing members.
+
 Delegated access can be revoked by removing the group from **Edit Feature Access.**
 
-Note: You can create or manage the M365 groups using the [Microsoft Admin Center](https://learn.microsoft.com/microsoft-365/admin/create-groups/manage-groups?view=o365-worldwide)
+You can create or manage the M365 groups using the [Microsoft Admin Center](https://learn.microsoft.com/microsoft-365/admin/create-groups/manage-groups?view=o365-worldwide)
 
 To manage feature access:
 
