@@ -49,7 +49,7 @@ When you enable storyline, it's available to all internal users who have access 
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed.
+When you disable storyline, the **Storylines** tab and landing page is removed from user profile pages.
 If users responded to any posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
@@ -77,7 +77,7 @@ Storyline is built on the same content and conversation platform as community me
 * Storylines supports the [Report a conversation](/viva/engage/manage-viva-engage-groups/configure-conversation-reporting) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
-In addition to the capabilities listed here, storyline also features a feed that includes all storyline posts sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
+In addition to the capabilities listed here, storyline features a feed that includes all storyline posts, sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
 
 #### Security, compliance, and governance for files uploaded to storyline posts
 
