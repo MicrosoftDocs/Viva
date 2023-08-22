@@ -5,7 +5,7 @@ ms.reviewer: john.bacus
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 8/21/2023
+ms.date: 8/22/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -55,17 +55,28 @@ Storyline content continues to be available through network data export and [thr
 
 ## Advanced settings
 
-Storyline supports controls that let admins customize their configuration. Currently, you can set the default notification preference for storyline.
+Storyline supports controls that let admins customize their configuration. These controls set the default notification preferences for storyline, and restrict which users can post to a storyline. Access these settings from the Engage admin center on the **Manage storyline** page. 
 
-### Notification channels for Storyline posts
+### Set default notification channels for Storyline posts
 
-In its default configuration, Storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline. Network and verified admins can override this setup to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
+In its default configuration, Storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline. Network and verified admins can override this configuration to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
 
 The system default selections for notifications include:
 
 - Microsoft Teams notifications are delivered in the Teams Activity feed.
-- Email delivered to your inbox includes support for actionable messages, so the conversation can be viewed and replied to from Outlook Web Access.
+- Email delivered to your inbox includes support for actionable messages, so that users can view and reply to the conversation from Outlook Web Access.
 - Viva Engage notifications are delivered to the Viva Engage notification bells.
+
+### Restricting which users can post to their storyline
+
+By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
+
+To restrict who can post to storyline, in the Advanced Settings, switch **Eligible users with acess to Viva Engage** to **Ineligible users from selected group**. Search for and select the group that includes users who should receive their own staoryline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups.When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+
+Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
+
+> [!NOTE] 
+> Disabling storyline for a user doesn't actually delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be deleting conversations through the API or blocking the offending user.
 
 ## Security and compliance
 
