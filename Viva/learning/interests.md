@@ -93,7 +93,7 @@ Admins can curate or extend the interests for the tenant and enable learners wit
     
     - The processing can take between 20 minutes to a couple of hours based on the number of interests. You can switch between different Viva Learning admin pages and then select **Manage Interests** to see the updated notification message on the number of items successfully processed, deleted, updated, unchanged, and failed.
 
-If some interests can't be imported, you see a failure count and can get more details on these failures by downloading the log file.
+   If some interests can't be imported, you see a failure count and can get more details on these failures by downloading the log file.
 
 Select **Download Log** for data on the current interests with the columns available in the Viva Learning template file. There are two more columns **Status** and **Comments** that gives details on the status for each record and the error details in the comments section. The download log file will also display the interests, which have been deleted.
 
