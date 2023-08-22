@@ -41,14 +41,15 @@ On the **Feature management** tab, select **Storyline** to customize settings.
 
 ## Enable storyline
 
-The Storyline page in the Engage admin center controls the availability of storyline in the organization. When storyline is enabled in your organization, it's available to all internal users who have access to Viva Engage. All internal users have their own storyline feed on their profile page and can see, react to, and respond to others’ storyline posts.  
+The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
+When you enable storyline, it's available to all internal users who have access to Viva Engage. All internal users have their own storyline feed on their profile page and can see, react to, and respond to others’ storyline posts.  
 
 [![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
 
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. 
+When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed.
 If users responded to any posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
