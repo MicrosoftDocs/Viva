@@ -16,6 +16,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Usage and engagement metrics in Viva Topics
 
+>[!NOTE]
+>Usage and engagement metrics are currently only available to users in the Early Adopter Program.
+
 Usage and engagement metrics demonstrate how users are engaging with Viva Topics in your organization.
 
 To access usage and engagement metrics:
