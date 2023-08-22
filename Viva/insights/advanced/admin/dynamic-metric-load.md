@@ -191,7 +191,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 ### 9. Execute pipeline
 *Applies to: Application Administrator or Application Developer*
 
-1. Open a browser window and sign in to to your [Azure portal](https://portal.azure.com). 
+1. Open a browser window and sign in to your [Azure portal](https://portal.azure.com). 
 2. Search for “Data factories."
 1. Select **mgdcdemodatafactory** (unless you named your own).
 1. Select **Launch studio**.
