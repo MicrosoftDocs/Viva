@@ -49,12 +49,12 @@ In the interface to manage storyline, admins see toggles that control the availa
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
 When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. 
-If users responded to any posted storyline content, they’ll have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
+If users responded to any posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
 
-Storyline supports additional controls for admins to customize their configuration. Currently, you can set the default notification preference for storyline.
+Storyline supports controls that let admins customize their configuration. Currently, you can set the default notification preference for storyline.
 
 ### Notification channels for Storyline posts
 
@@ -70,9 +70,9 @@ The system default selections for notifications include:
 
 Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
 
-* Use eDiscovery through the compliance portal for Native Mode networks.  
-* Storyline content is available through [network export](eac-manage-data.md).
-* Files shared through storyline are stored in OneDrive. Shared files are subject to any governance you already have in place.
+* Use eDiscovery in the compliance portal for Native Mode networks.  
+* Export storyline content through [network export](eac-manage-data.md).
+* Files shared through storyline are stored on OneDrive. Shared files are subject to any governance you already have in place.
 * Storylines supports the same [Report a conversation](/viva/engage/manage-viva-engage-groups/configure-conversation-reporting) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
@@ -80,9 +80,9 @@ In addition to the capabilities listed here, storyline also features a feed that
 
 #### Security, compliance, and governance for files uploaded to storyline posts
 
-Storyline posts are backed by Viva Engage services. Compliance for posts is therefore the same as for the rest of Viva Engage. If you're in native mode, posts are ingested into the substrate and are subject to the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
+Compliance for storyline posts is the same as the rest of Viva Engage. If you're in Native Mode, posts are ingested into the substrate and subjected to the same compliance and e-Discovery capabilities as posts in communities--including communications compliance and retention. Files are stored in OneDrive, where they inherit the same security and compliance policies configured for other files in OneDrive.
 
-When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process described in the "Delete a user" section of [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
+When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process. For details, see "Delete a user" in [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
 
 ## File storage for storyline
 
@@ -95,11 +95,10 @@ To determine the precise URL for a user's storyline, follow these steps:
 1. Open the user's OneDrive in a browser.
 2. Note the URL to the user's OneDrive.
 3. Locate the **user identifier**, which is the part of the URL immediately that follows *my.sharepoint.com/personal/*.
-4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL will resemble this example: 
+4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL resembles this example: 
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
-1. Press Enter. 
-The library appears.  
+1. Press Enter. The library appears.  
 1. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
 
 
@@ -117,7 +116,7 @@ To delete files associated with a post from the **VivaEngage** library:
 ## Frequently asked questions
 
 ### Why isn’t storyline available in our organization? 
-Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity or if you have a Viva Engage Basic network, storyline isn't available to your organization.
+Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity, or if you have a Viva Engage Basic network, storyline isn't available to your organization.
 
 ### Who can see storyline content? 
 Storyline content is visible to any internal user who has access to Viva Engage. Guests can't see storyline content.  
@@ -129,7 +128,7 @@ Guests are excluded from storyline access. They don't have their own storyline a
 You can't prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests can't see any storyline content.
 
 ### Can I control which users get their own storyline?  
-We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality will allow you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Viva Engage. Users that don't get a storyline will be able to reply and react to storyline posts from users who do have their own storyline.
+We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality allows you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Viva Engage. Users that don't get a storyline can reply and react to storyline posts from users who do have their own storyline.
 
 ### How do I delete custom cover images that were uploaded to a person's storyline?
 
