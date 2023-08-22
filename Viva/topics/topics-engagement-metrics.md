@@ -1,5 +1,5 @@
 ---
-ms.date: 08/16/2023
+ms.date: 08/22/2023
 title: Usage and engagement metrics in Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -11,6 +11,7 @@ ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about usage and engagement trends in Microsoft Viva Topics.
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Usage and engagement metrics in Viva Topics
