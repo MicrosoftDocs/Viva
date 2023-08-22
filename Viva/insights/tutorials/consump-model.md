@@ -67,7 +67,7 @@ The steps below describe how to use the following interactive, embedded calculat
 5. In **Select employees**, enter or select the number of measured employees to include in the analysis.
 6. In **Estimated cost**, you’ll see an estimate on the right side of the page.
 
-<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZWY3ZGUyZDEtYjdjMS00ZDE4LTkyZmQtOGQzMzg0NzU0ZTM1IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 >[!Tip]
 >

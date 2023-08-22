@@ -44,7 +44,7 @@ After you successfully run these queries, you can download the Power BI template
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiY2IxN2MxZDgtNzI2NC00MDJkLThjYzUtNDFiYjA3YzFlNDRjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiY2IxN2MxZDgtNzI2NC00MDJkLThjYzUtNDFiYjA3YzFlNDRjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 ## Prerequisites
 
