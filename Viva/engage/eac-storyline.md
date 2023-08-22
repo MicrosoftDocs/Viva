@@ -1,11 +1,11 @@
 ---
 title: "Manage and set up storyline in Viva Engage"
 description: "Storyline empowers everyone within your organization to connect and contribute, while enabling your leaders to reach and engage employees."
-ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
-ms.date: 2/15/2023
+ms.reviewer: john.bacus
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
+ms.date: 8/21/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -48,15 +48,17 @@ In the interface to manage storyline, admins see toggles that control the availa
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. Previously posted storyline content is still available to all users who have access to Viva Engage, except guests. Storyline content continues to be available through network data export and through eDiscovery for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
+When you disable storyline, the storylines landing page and the **Storylines** tab on user profile pages are removed. 
+If users responded to any posted storyline content, they’ll have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
+Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
 
-Storyline supports additional controls for admins to customize their configuration. Currently you can set default notification preferences for storyline, and more controls are planned for the future.
+Storyline supports additional controls for admins to customize their configuration. Currently, you can set the default notification preference for storyline.
 
-### Set default notification channels for Storyline posts
+### Notification channels for Storyline posts
 
-In its default configuration, Storyline notifies followers via Teams, email, and Viva Engage when a person that they follow posts to their storyline. Network and Verified admins can override this setup to control what default notifications are selected when a user follows someone. Users can also change from the default selections to their personal preferences for notifications for each person they follow.
+In its default configuration, Storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline. Network and verified admins can override this setup to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
 
 The system default selections for notifications include:
 
@@ -68,9 +70,9 @@ The system default selections for notifications include:
 
 Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
 
-* Use eDiscovery through the compliance portal for native mode networks.  
-* Storyline content is available via network export.
-* Files shared through storyline are stored in OneDrive and are subject to any governance you already have in place.
+* Use eDiscovery through the compliance portal for Native Mode networks.  
+* Storyline content is available through [network export](eac-manage-data.md).
+* Files shared through storyline are stored in OneDrive. Shared files are subject to any governance you already have in place.
 * Storylines supports the same [Report a conversation](/viva/engage/manage-viva-engage-groups/configure-conversation-reporting) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
@@ -80,11 +82,11 @@ In addition to the capabilities listed here, storyline also features a feed that
 
 Storyline posts are backed by Viva Engage services. Compliance for posts is therefore the same as for the rest of Viva Engage. If you're in native mode, posts are ingested into the substrate and are subject to the same compliance and e-Discovery capabilities as posts in communities, including communications compliance and retention. Because files are stored in OneDrive, they inherit security and compliance policies configured for files in OneDrive.
 
-When users are deleted, for example when an individual leaves the company, the system follows the Microsoft 365 user deletion process that's described in the "Delete a user" section of [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
+When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process described in the "Delete a user" section of [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
 
 ## File storage for storyline
 
-All files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example: 
+Files attached to storyline posts are stored in a hidden library in the author’s OneDrive. There's no entry point to this location in the Microsoft 365 user experience, but you can access it through a URL resembling the following example: 
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline`
 
@@ -96,8 +98,9 @@ To determine the precise URL for a user's storyline, follow these steps:
 4. Replace everything after the profile identifier and the backslash plus **VivaEngage**, without a space, case insensitive. The resulting URL will resemble this example: 
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
-1. Press Enter. The library will appear.  
-1. Open the Attachments folder, and then open the storyline folder. The resulting URL to the folder where storyline files are saved will resemble this example:
+1. Press Enter. 
+The library appears.  
+1. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
 
 
    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
