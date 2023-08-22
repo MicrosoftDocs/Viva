@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 08/18/2023
+ms.date: 08/22/2023
 title: Set up dynamic metric load for Viva Insights metrics on MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -24,7 +24,7 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 
 ### Prerequisite steps
 
-1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure Portal](https://portal.azure.com). Under **Azure services**, select **Azure Active Directory**, then find the **Tenant ID** on the **Overview** page.
+1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure portal](https://portal.azure.com). Under **Azure services**, select **Azure Active Directory**, then find the **Tenant ID** on the **Overview** page.
 1. The [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator) will need to assign the relevant roles for the steps below, if they are not already assigned.
 
 ## Steps
@@ -114,7 +114,7 @@ If you have already enabled MGDC, you will need to:
 5. Select **Export to Azure**.
 
 ### 6. Register MGDC application
-*Applies to: [AAD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
+*Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
@@ -154,28 +154,10 @@ Also, when you specify the datasets that the app registration needs to query, fo
    :::image type="content" source="../images/dynamic-metric-load-step08.png" lightbox="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
 
 4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
-1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-287) with information specific to the dataset columns.
-    * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and “type" to match the name and data type of one column in the dataset. Updating “description” is optional. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
-    :::image type="content" source="../images/dynamic-metric-load-step0802.png" alt-text="Screenshot that shows how to edit the ARM template":::
-    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to AAD Application owner with Insights Analyst role, or Global Administrator.)*
-    * **To edit type:** The following are some of the most common data types:
-        * string - sequence of characters
-        * dateTime - date or time
-        * float - numbers, can include decimal points
-        * boolean - binary value, either true or false.
-
-        For example:
-
-        | Column | Data type |
-        | ------- | ------------------|
-        | PersonId | string |
-        | MetricDate | dateTime |
-        | Collaboration hours | float |
-        | Long and short meeting hours | float |
-        | Available-to-focus hours | float |
-        | Unscheduled call hours | float |
-   
-     * Reach out to the Viva Insights team if you need help setting up the ARM template.
+1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-281) with information specific to the dataset columns.
+    * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” to match the name of one column in the dataset. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
+    :::image type="content" source="../images/dynamic-metric-load-step0802b.png" alt-text="Screenshot that shows how to edit the ARM template.":::
+    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
 
 6. Select **Save**.
 1. On **Basics**, fill out **Project details** with the following values:
@@ -209,7 +191,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 ### 9. Execute pipeline
 *Applies to: Application Administrator or Application Developer*
 
-1. Open a browser window and sign in to to your [Azure portal](https://portal.azure.com). 
+1. Open a browser window and sign in to your [Azure portal](https://portal.azure.com). 
 2. Search for “Data factories."
 1. Select **mgdcdemodatafactory** (unless you named your own).
 1. Select **Launch studio**.
@@ -251,5 +233,5 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
   :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to AAD Application owner with Insights Analyst role.)*
-> Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to AAD Application owner with Insights Analyst role, or Global Administrator.)*
+> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role.)*
+> Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
