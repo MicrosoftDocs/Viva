@@ -52,18 +52,18 @@ Admins can curate or extend the interests for the tenant and enable learners wit
 3. You see that the existing default interests are already displayed in this view.
   
 4. Select **Import** to extend or curate interests for your tenant.
-    1. Select a CSV delimiter to process both the imported file and the download template. If the delimiter in your CSV file is ``;`` then provide ``;`` in the input delimiter field
+    1. Select a CSV delimiter to process both the imported file and the download template. If the delimiter in your CSV file is `;` then provide `;` in the input delimiter field
     2. Select a CSV file path that contains added interests from the interests template file in step 5.
 
     ![An image of the import popup menu with the option to add delimiter, browse for an file path to add, and download an interests template](../media/learning/interests-2.png)
 
-> [!NOTE]
-> To find out what is the delimiter used, open the CSV file in notepad. The delimiter is the separator used in the file, such as `,` or `;`.
-> While importing the CSV file, provide the same delimiter, so that Viva Learning can use the same delimiter while processing the imported file.
+   > [!NOTE]
+   > To find out what is the delimiter used, open the CSV file in notepad. The delimiter is the separator used in the file, such as `,` or `;`.
+   > While importing the CSV file, provide the same delimiter, so that Viva Learning can use the same delimiter while processing the imported file.
 
 5. **Download** the Viva Learning template file for interests and provide your library in this template.
 
-    1. The Viva Learning Template file is a csv file with the following details: 
+    1. The Viva Learning Template file is a CSV file with the following details: 
     - **Row 1**: 
         - `externalCode` - a mandatory GUID column for importing each record. You can provide any unique value for each record and apply your existing IDs of respective interests in your system. 
 
@@ -75,17 +75,17 @@ Admins can curate or extend the interests for the tenant and enable learners wit
 
     - **Rows 3, 4, and 5**: Sample interests with sample external code, interest name and interest description in English. These records are provided just for your reference, and you can remove these records. 
     
->[!NOTE]
-> Add minimum of 20 interests with unique external code and interest name in at least one language for the file to be imported and processed. 
-> You can rearrange the order of columns as per your convenience. 
+   >[!NOTE]
+   > Add minimum of 20 interests with unique external code and interest name in at least one language for the file to be imported and processed. 
+   > You can rearrange the order of columns as per your convenience. 
 
-![Image of the Viva Learning template cvs file with the key interests data](../media/learning/interests-3.png)
+   ![Image of the Viva Learning template CSV file with the key interests data](../media/learning/interests-3.png)
 
-You see an indication that the uploaded file is a valid csv file. 
+   You see an indication that the uploaded file is a valid CSV file. 
 
 1. Select **Import**.
 
-![Image of import menu confirmation detailing that this action overwrites all existing interests for your organization with the interests in the imported csv file](../media/learning/interests-5.png)
+   ![Image of import menu confirmation detailing that this action overwrites all existing interests for your organization with the interests in the imported CSV file](../media/learning/interests-5.png)
 
 1. **Confirm** that any interests, which are in your current interests and not part of the imported file will be deleted:
 
@@ -93,9 +93,9 @@ You see an indication that the uploaded file is a valid csv file.
     
     - The processing can take between 20 minutes to a couple of hours based on the number of interests. You can switch between different Viva Learning admin pages and then select **Manage Interests** to see the updated notification message on the number of items successfully processed, deleted, updated, unchanged, and failed.
 
-If some interests can't be imported, you see a failure count and can get more details on these failures by downloading the log file.
+   If some interests can't be imported, you see a failure count and can get more details on these failures by downloading the log file.
 
-Select **Download Log** for data on the current interests with the columns available in the Viva Learning template file. There are two more columns “Status” and “Comments” that gives details on the status for each record and the error details in the comments section. The download log file will also display the interests, which have been deleted.
+Select **Download Log** for data on the current interests with the columns available in the Viva Learning template file. There are two more columns **Status** and **Comments** that gives details on the status for each record and the error details in the comments section. The download log file will also display the interests, which have been deleted.
 
 The **Manage Interests** view displays a pagination of interests with interest name, locales (the number languages a particular interest is available in) and the last modified time stamp.
 
@@ -118,7 +118,7 @@ Select **View Details**, which outlines interest name, interest description and 
 1. Select **Download** to download the exported interests.
 
 > [!NOTE]
-> If you open the exported file, and see all data in one column refer to this topic on [managing exported interest inventory files](interests-troubleshooting.md) 
+> If you open the exported file and see all data in one column, see [Managing exported interest inventory files](interests-troubleshooting.md).
 
 ## Language support for Manage Interests
 
