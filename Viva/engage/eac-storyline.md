@@ -71,10 +71,10 @@ The system default selections for notifications include:
 
 Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
 
-* Use [eDiscovery](/viva/engage/ediscovery-engage.md) in the compliance portal for Native Mode networks.  
-* Access storyline content through [network export](/viva/engage/eac-as-manage-data.md).
+* Use [eDiscovery](ediscovery-engage.md) in the compliance portal for Native Mode networks.  
+* Access storyline content through [network export](eac-as-manage-data.md).
 * Files shared through storyline are stored on OneDrive. Shared files are subject to any governance you already have in place.
-* Storylines supports the [Report a conversation](/viva/engage/manage-viva-engage-groups/configure-conversation-reporting) feature that's available for community conversations.
+* Storylines supports the [Report a conversation](report-conversation-overview.md) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
 In addition to the capabilities listed here, storyline features a feed that includes all storyline posts, sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
