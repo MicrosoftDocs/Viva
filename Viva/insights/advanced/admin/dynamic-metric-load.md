@@ -168,7 +168,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
         * dateTime - date or time
         * float - numbers, can include decimal points
         * boolean - binary value, either true or false
-    
+
     For example:
     | Column | Data type|
     |-----|-----|
