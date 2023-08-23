@@ -100,6 +100,8 @@ If you have already enabled MGDC, you will need to:
 
 ### 5. Mark a Viva Insights query for export
 *Applies to: [Insights Analyst](../../advanced/setup-maint/user-roles.md)*
+> [!IMPORTANT]
+> Make sure you have the correct Insights Analyst role. Previous users of the legacy Workplace Analytics platform might have the "Analyst" role. To complete this process, you need the "Insights Analyst" role. Use [these steps](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) to enable the Insights Analyst role.
 
 1. Open a browser and sign in to the [Advanced Insights app](https://analysis.insights.viva.office.com).
 1. To run a new query, in the **Analysis** tab, select **Start analysis** on a [Power BI template](../analyst/templates/introduction-to-templates.md) or [custom query](../analyst/person-query-overview.md). (If you already have query results to export, you can skip this step.)
@@ -129,6 +131,9 @@ There are a few unique steps, however, that are specific to this process for dyn
 * **Publish type**: Single-tenant
 
 Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**.
+
+> [!NOTE]
+> If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 ### 7. Consent to application/dataset
 *Applies to: Global Administrator (App approver must be different from the app developer)*
@@ -233,5 +238,4 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
   :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role.)*
-> Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
+> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
