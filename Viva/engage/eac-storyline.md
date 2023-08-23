@@ -67,7 +67,7 @@ The system default selections for notifications include:
 - Email delivered to your inbox includes support for actionable messages, so that users can view and reply to the conversation from Outlook Web Access.
 - Viva Engage notifications are delivered to the Viva Engage notification bells.
 
-### Restricting which users can post to their storyline
+### Restrict which users can post to their storyline
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
