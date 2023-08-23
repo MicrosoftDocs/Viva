@@ -170,6 +170,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
         * boolean - binary value, either true or false
 
     For example:
+
     | Column | Data type|
     |-----|-----|
     | PersonId | string |
