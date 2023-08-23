@@ -169,16 +169,16 @@ Also, when you specify the datasets that the app registration needs to query, fo
         * float - numbers, can include decimal points
         * boolean - binary value, either true or false
 
-    For example:
+        For example:
 
-    | Column | Data type|
-    |-----|-----|
-    | PersonId | string |
-    | MetricDate | dateTime |
-    | Collaboration hours | float |
-    | Large and short meeting hours | float |
-    | Available-to-focus hours | float |
-    | Unscheduled call hours | float |
+        | Column | Data type|
+        |-----|-----|
+        | PersonId | string |
+        | MetricDate | dateTime |
+        | Collaboration hours | float |
+        | Large and short meeting hours | float |
+        | Available-to-focus hours | float |
+        | Unscheduled call hours | float |
 
     * Reach out to the Viva Insights team if help is needed setting up the ARM template.
 
