@@ -117,8 +117,6 @@ If you have already enabled MGDC, you will need to:
 
 ### 6. Register MGDC application
 *Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
-> [!NOTE]
-> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
@@ -133,6 +131,9 @@ There are a few unique steps, however, that are specific to this process for dyn
 * **Publish type**: Single-tenant
 
 Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**.
+
+> [!NOTE]
+> If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 ### 7. Consent to application/dataset
 *Applies to: Global Administrator (App approver must be different from the app developer)*
