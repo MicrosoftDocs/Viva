@@ -117,6 +117,8 @@ If you have already enabled MGDC, you will need to:
 
 ### 6. Register MGDC application
 *Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
+> [!INOTE]
+> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
@@ -235,5 +237,4 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
   :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role.)*
-> Or, if you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
+> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
