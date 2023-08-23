@@ -72,9 +72,7 @@ The user creation process varies depending on when the Viva Engage network was c
 
 Beginning in March 2019, we started transitioning how Viva Engage users are created. The process differs for existing Office 365 users versus new Office 365 users.
 
-- **Pre-March 2019**: Viva Engage users are created when they use Viva Engage for the first time. 
-
-    :::image type="content" source="../../media/410ab6f2-e8ed-4b66-a8cf-f087b3e57ec3.png" alt-text="Diagram that shows when an Office 365 admin creates a user, the user can sign in to Office 365 then navigate to Viva Engage from the App Launcher, at which point the user is created in Viva Engage.":::
+- **Pre-March 2019**: Viva Engage users are created when they use Viva Engage for the first time.
 
     The process of creating a user requires these steps:
   
@@ -89,8 +87,6 @@ Beginning in March 2019, we started transitioning how Viva Engage users are crea
 ### New networks, Native Networks, and Enforced Office 365 Identity Networks 
 
 When **Enforce Office 365 identity** is selected in Viva Engage (including when in Native Mode), as Viva Engage-eligible users are added to Office 365, they're automatically added as new pending users in Viva Engage. Their status changes from **Pending** to **Active** the first time they use Viva Engage.
-
-:::image type="content" source="../../media/yam-new-user-process.jpg" alt-text="Diagram that shows new process for creating a Viva Engage user, where the new user is created automically as pending in Viva Engage":::
 
 The process follows these steps:
   
@@ -108,9 +104,7 @@ The process follows these steps:
     
 ## Block a user
 
-An administrator can block a user in Microsoft 365 or Office 365. The user is signed out of Viva Engage and all other Office 365 services. Here's a diagram of how this works.
-  
-:::image type="content" source="../../media/86303509-db4e-4d80-9f7c-3b2ddbcd1f17.png" alt-text="Screenshot showing the Office 365 administrator blocks a user in Office 365 and the user is logged out of Viva Engage.":::
+An administrator can block a user in Microsoft 365 or Office 365. The user is signed out of Viva Engage and all other Office 365 services. 
 
 The process follows these steps:
   
@@ -134,8 +128,6 @@ The process follows these steps:
 
 If an employee leaves the company, you can delete the user from Office 365. When the user is deleted from Office 365, the corresponding user is deactivated (also known as suspended) in Viva Engage. The following diagram shows how this works:
   
-:::image type="content" source="../../media/8aba30a5-2636-4acf-9224-4a18bbe7fec1.png" alt-text="Diagram that shows when an Office 365 admin deletes a user, the user is deactivated in Viva Engage. After 30 days, the user data is deleted from Office 365 and after 90 days, the user is permanently removed from Viva Engage but their Viva Engage messages remain.":::
-  
 The process follows these steps:
   
 1. An admin deletes a user from Office 365, as shown in the following screenshot:
@@ -154,8 +146,8 @@ The process follows these steps:
     
     Similarly, when a user is deactivated in Viva Engage, that user becomes inactive in Viva Engage. After approximately 90 days, deactivated users are permanently removed, but their name, files, messages and activity data are retained. 
     
-    > [!IMPORTANT]
-    > When you delete a user from Office 365 and this flows through to Viva Engage, the user's name, files, messages, and activity data remain in Viva Engage even though the user is deleted. For options that remove a user in a way that the user's name and data are also deleted from Viva Engage, see [Remove users](add-block-or-remove-users.md#RemoveUsers) and [Manage GDPR data subject requests in Viva Engage Enterprise](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md). 
+ > [!IMPORTANT]
+ > When you delete a user from Office 365 and this flows through to Viva Engage, the user's name, files, messages, and activity data remain in Viva Engage even though the user is deleted. For options that remove a user in a way that the user's name and data are also deleted from Viva Engage, see [Remove users](add-block-or-remove-users.md#RemoveUsers) and [Manage GDPR data subject requests in Viva Engage Enterprise](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md). 
   
 ## Restore a user
 
