@@ -117,7 +117,7 @@ If you have already enabled MGDC, you will need to:
 
 ### 6. Register MGDC application
 *Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
-> [!INOTE]
+> [!NOTE]
 > If at any point during this process you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
