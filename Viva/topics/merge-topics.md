@@ -1,5 +1,5 @@
 ---
-ms.date: 04/20/2023
+ms.date: 08/23/2023
 title: Merge topics in Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
