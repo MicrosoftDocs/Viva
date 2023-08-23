@@ -42,7 +42,7 @@ On the **Feature management** tab, select **Storyline** to customize settings.
 ## Enable storyline
 
 The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
-When you enable storyline, it's available to all internal users who have access to Viva Engage. All internal users have their own storyline feed on their profile page and can see, react to, and respond to others’ storyline posts.  
+When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
 [![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
 
@@ -55,7 +55,7 @@ Storyline content continues to be available through network data export and [thr
 
 ## Advanced settings
 
-Storyline supports controls that let admins customize their configuration. These controls set the default notification preferences for storyline, and restrict which users can post to a storyline. Access these settings from the Engage admin center on the **Manage storyline** page. 
+Storyline supports controls that let admins customize their configuration. These controls set the default notification preferences for storyline, and restrict which users can post to a storyline.  
 
 ### Set default notification channels for Storyline posts
 
@@ -71,7 +71,7 @@ The system default selections for notifications include:
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-To restrict who can post to storyline, in the Advanced Settings, switch **Eligible users with acess to Viva Engage** to **Ineligible users from selected group**. Search for and select the group that includes users who should receive their own staoryline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups.When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with acess to Viva Engage** to **Ineligible users from selected group**. Search for and select the group that includes users who should receive their own staoryline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
