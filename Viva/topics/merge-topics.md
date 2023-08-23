@@ -21,7 +21,7 @@ description: Learn how to combine multiple topics into one in Microsoft Viva Top
 
 # Merge topics in Microsoft Viva Topics
 
-You can merge multiple topics into one if Viva Topics identifies multiple topics that refer to the same thing.
+You can merge multiple topics into one if Viva Topics identifies different topics that refer to the same thing.
 
 ## Prerequisites
 
@@ -44,4 +44,4 @@ You can merge multiple topics into one if Viva Topics identifies multiple topics
 
 4. You'll be taken to the new topic page of the merged topic.
 
-5. The original topic will show in your **Removed topics** page. Topics that have been merged will say **Merged** rather than **Removed**. You can filter your removed topics to show only topics that have been merged.
+5. The original topic will show in your **Removed topics** page, where it will only be accessible to knowledge managers. Topics that have been merged will say **Merged** rather than **Removed**. You can filter your removed topics to show only topics that have been merged.
