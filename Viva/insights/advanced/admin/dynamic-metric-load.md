@@ -159,9 +159,9 @@ Also, when you specify the datasets that the app registration needs to query, fo
    :::image type="content" source="../images/dynamic-metric-load-step08.png" lightbox="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
 
 4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
-1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-287) with information specific to the dataset columns.
-    * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and "type" to match the name and data type of one column in the dataset. Updating "description" is optional. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
-    :::image type="content" source="../images/dynamic-metric-load-step0802.png" alt-text="Screenshot that shows how to edit the ARM template.":::
+1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-284) with information specific to the dataset columns.
+    * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and "type" to match the name and data type of one column in the dataset. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
+    :::image type="content" source="../images/dynamic-metric-load-step0802c.png" alt-text="Screenshot that shows how to edit the ARM template.":::
     * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
     * **To edit type:** The following are some of the most common data types:
         * string - sequence of characters
