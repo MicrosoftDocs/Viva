@@ -124,7 +124,7 @@ Once the tool has finished running, the banner at the top of the page reports on
 
 The error report is in .csv format by default and will remain available until the next time the Alignment Tool is run. When the tool is run again, a new error report is generated.
 
-The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](/Viva/engage/troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
+The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](/Viva/engage/troubleshoot-native-mode#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
 
 It's possible that your error report may contain errors that aren't covered in the documentation cited earlier or that doesn't appear to be actionable. Often these errors are duplicates of other errors that are actionable. We suggest that you work through all the errors that you can and then rerun the Alignment Tool. Most of these errors get resolved when the tool is rerun after the actionable errors are fixed.
 

@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 6c4c8fff-6444-404a-bffc-f9da0bcc3039
-description: "Manage Viva Engage Enterprise users in Office 365. As you create, delete, and restore users in Office 365, they'll be created, deactivated, and reactivated in Viva Engage."
+description: "Manage Viva Engage Enterprise users in Office 365. As you create, delete, and restore users in Office 365, they are created, deactivated, and reactivated in Viva Engage."
 ---
 
 # Manage Viva Engage users across their lifecycle from Office 365
 
 There are many types of users in Viva Engage and managing each of them is different.
 
-- Users with Microsoft Azure Active Directory-identity
+- Users with Microsoft Azure Active Directory (AD) identity
 - Users without Azure AD
-- Other guest users
+- Guests
 
-As a global administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
+As a Microsoft 365 Global administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
 
 All communities and groups from Viva Engage networks that are in Native Mode are managed through these admin centers. Some of the management capabilities regarding community or group members or users that can be done through the Microsoft 365 admin center includes:
 
@@ -108,7 +108,7 @@ The process follows these steps:
     
 ## Block a user
 
-An administrator can block a user in Microsoft 365 or Office 365. The user is logged out of Viva Engage and all other Office 365 services. Here's a diagram that shows how this works.
+An administrator can block a user in Microsoft 365 or Office 365. The user is signed out of Viva Engage and all other Office 365 services. Here's a diagram of how this works.
   
 :::image type="content" source="../../media/86303509-db4e-4d80-9f7c-3b2ddbcd1f17.png" alt-text="Screenshot showing the Office 365 administrator blocks a user in Office 365 and the user is logged out of Viva Engage.":::
 
@@ -118,7 +118,7 @@ The process follows these steps:
     
     To do this:
     
-    1. In the Microsoft 365 admin center, select a user and choose **Edit User**. The **Sign-in status** is shown in the user details, as in this screenshot. 
+    1. In the Microsoft 365 admin center, select a user and choose **Edit User**. The **Sign-in status** appears in the user details, as in this screenshot. 
     
         :::image type="content" source="../../media/3003a58e-1294-460a-a174-2be67b1dc462.png" alt-text="Screenshot of a user's sign-in status in Office 365.":::
   
