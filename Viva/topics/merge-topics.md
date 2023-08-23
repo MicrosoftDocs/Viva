@@ -16,12 +16,16 @@ search.appverid:
 - MET150   
 ms.localizationpriority:  medium
 description: Learn how to combine multiple topics into one in Microsoft Viva Topics.
+ROBOTS: NOINDEX,NOFOLLOW
 
 ---
 
 # Merge topics in Microsoft Viva Topics
 
 You can merge multiple topics into one if Viva Topics identifies different topics that refer to the same thing.
+
+>[!NOTE]
+>Merging topics is currently in targeted release.
 
 ## Prerequisites
 
