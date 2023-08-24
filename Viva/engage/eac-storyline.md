@@ -26,31 +26,33 @@ Storyline empowers everyone in your organization to connect and contribute. It e
 
 When storyline is enabled in your organization, you see the following changes in the Viva Engage app:
 
-- Internal (nonguest) users who have access to Viva Engage see a new default **Storyline** tab on their user profile page.
-- Users see a new **Storylines** page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
+- Internal (nonguest) users who have access to Viva Engage see a new default Storyline tab on their user profile page.
+- Users see a new Storylines page. Users can toggle between a personalized feed of posted content or a focused feed that includes only storyline content from the people that the user follows.
 
 ## Set up storyline
 
-Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). To access it, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
+Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). 
 
-[![Screenshot of the entry point into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
+1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
-On the **Feature management** tab, select **Storyline** to customize settings.
+1. On the **Feature management** tab, select **Storyline** to customize settings.
 
-[![Screenshot of the entry point into managing storyline settings.](/viva/media/engage/admin/storyline-eac-updated.png)](/viva/media/engage/admin/storyline-eac-updated.png#lightbox)
+    :::image type="content" source="../media/engage/admin/storyline-eac-updated.png" alt-text="Screenshot of the entry point into managing storyline settings." lightbox="../media/engage/admin/storyline-eac-updated.png#lightbox":::
 
 ## Enable storyline
 
 The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
-When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
-[![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
+- **When you enable storyline**, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
->[!NOTE]
-> Guests don't have their own storyline and can't see storyline content from internal users.
+    :::image type="content" source="../media/engage/admin/storyline-toggle.png" alt-text="Screenshot of the storyline settings toggles in Viva Engage." lightbox="../media/engage/admin/storyline-toggle.png#lightbox":::
 
-When you disable storyline, **Storylines** is removed from the left navigation pane in Viva Engage for the web, and the **Storyline** tab and landing page are removed from the user profile.
-If a user responded to posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable.
+    >[!NOTE]
+    > Guests don't have their own storyline and can't see storyline content from internal users.
+
+- **When you disable storyline**, Storylines doesn't appear in the left navigation pane in Viva Engage for the web, or in the top navigation in the Viva Engage app for Teams and Outlook. In addition, no Storyline tab appears in the user profile.
+
+If a user responded to posted storyline content in the past, they have access to those conversations. Otherwise, previously posted storyline content is unavailable.
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
@@ -71,7 +73,11 @@ The system default selections for notifications include:
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own storyline page. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+1. To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline**.
+1. Select **Advanced Settings**.
+1. Switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. 
+1. Search for and select the group that includes users who should receive their own storyline page.
+Supported group types include security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
