@@ -86,7 +86,7 @@ Beginning in March 2019, we started transitioning how Viva Engage users are crea
 
 ### New networks, Native Networks, and Enforced Office 365 Identity Networks 
 
-When **Enforce Office 365 identity** is selected in Viva Engage (including when in Native Mode), as Viva Engage-eligible users are added to Office 365, they're automatically added as new pending users in Viva Engage. Their status changes from **Pending** to **Active** the first time they use Viva Engage.
+When **Enforce Office 365 identity** is selected in Viva Engage (including when in Native Mode), as Viva Engage-eligible users are added to Office 365, they're automatically added as pending users in Viva Engage. Their status changes from **Pending** to **Active** the first time they use Viva Engage.
 
 The process follows these steps:
   
@@ -104,25 +104,17 @@ The process follows these steps:
     
 ## Block a user
 
-An administrator can block a user in Microsoft 365 or Office 365. The user is signed out of Viva Engage and all other Office 365 services. 
+When an Office 365 administrator blocks a user in Microsoft 365 or Office 365, the user is signed out of Viva Engage and all other Office 365 services.
 
 The process follows these steps:
+    
+1. In the Microsoft 365 admin center, select a user and choose **Edit User**. The **Sign-in status** appears in the user details.
   
-1. The Office 365 administrator sets the user's sign-in status to **Block the user from signing in**.
-    
-    To do this:
-    
-    1. In the Microsoft 365 admin center, select a user and choose **Edit User**. The **Sign-in status** appears in the user details, as in this screenshot. 
-    
-        :::image type="content" source="../../media/3003a58e-1294-460a-a174-2be67b1dc462.png" alt-text="Screenshot of a user's sign-in status in Office 365.":::
+2. Select **Edit** next to **Sign-in status** and switch **Allow the user to sign in** to **Block the user from signing in**.
   
-    2. Select **Edit** next to **Sign-in status** to switch between **Allow the user to sign in** and **Block the user from signing in**, as in this screenshot.
+This action flows into Viva Engage, and the corresponding user is signed out of Viva Engage (on all devices). The next time this user tries to sign in to Viva Engage from any device, they're prompted to sign in with their Office 365 credentials. However, the user can't sign in because their sign-in status is set to blocked. As a Viva Engage verified administrator, you can go to the Network Admin area, and look at the Account activity section to verify that the Viva Engage user is signed out and has no active Viva Engage sessions.
     
-       :::image type="content" source="../../media/c06def75-bb12-4dea-ae2b-325ee410c5ed.png" alt-text=" Screenshot of the Sign-in status dialog box in Office 365.":::
-  
-    3. This action flows into Viva Engage, and the corresponding user is logged out of Viva Engage (on all devices). When this user tries to sign in to Viva Engage again from any device, they are prompted to sign in with their Office 365 credentials. However, the user can't sign in because their sign-in status is set to blocked. As a Viva Engage verified administrator, you can go to the Network Admin area, and look at the Account activity section to verify that the Viva Engage user has been signed out, as in the following screenshot, where the user has no active Viva Engage sessions.
-    
-        :::image type="content" source="../../media/c0704de5-d3c4-4b34-9bbb-f3cf31799734.png" alt-text="Screenshot of the Account Activity for a user showing no active Viva Engage sessions (logged out).":::
+ :::image type="content" source="../../media/c0704de5-d3c4-4b34-9bbb-f3cf31799734.png" alt-text="Screenshot of the Account Activity for a user showing no active Viva Engage sessions (logged out).":::
   
 ## Delete a user
 
@@ -130,19 +122,17 @@ If an employee leaves the company, you can delete the user from Office 365. When
   
 The process follows these steps:
   
-1. An admin deletes a user from Office 365, as shown in the following screenshot:
-    
-    :::image type="content" source="../../media/b0922976-84c0-4c3d-ade0-710cf3ce69b2.png" alt-text="Screenshot showing the command to delete a user in Office 365 administration.":::
+1. An admin deletes a user from Office 365.
   
-2. The user deletion in Office 365 flows into Viva Engage, and the corresponding Viva Engage user is deactivated in Viva Engage. Specifically, the operation is equivalent of navigating to Viva Engage administration, choosing **Remove Users**, and then selecting **Deactivate this user**, as shown in the following screenshot:
-    
+2. The user deletion in Office 365 flows into Viva Engage, and the corresponding Viva Engage user is deactivated in Viva Engage. You can do the same operation in Viva Engage admin center: choose **Remove Users** and select **Deactivate this user**.
+
     :::image type="content" source="../../media/91299919-212c-41f9-b6dd-185c0b81de65.png" alt-text="Screenshot showing how to deactivate a user in Viva Engage.":::
   
-    Users who are deactivated (or suspended) show up in Viva Engage administration pages as being deactivated by **System Administrator**, as shown in the following screenshot: 
+    Deactivated (or suspended) users show up in Viva Engage administration pages as being deactivated by **System Administrator**, as shown in the following screenshot: 
     
    :::image type="content" source="../../media/b0ac3142-1fba-4c52-95d8-bbbb063cdaa2.png" alt-text=" Screenshot that shows a user removed by System Administrator.":::
   
-3. When you delete a user in Office 365, the user becomes inactive. After approximately 30 days, user data gets permanently deleted. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
+    When you delete a user in Office 365, the user becomes inactive. After approximately 30 days, user data gets permanently deleted. See [Delete a user from your organization](https://support.office.com/article/d5155593-3bac-4d8d-9d8b-f4513a81479e).
     
     Similarly, when a user is deactivated in Viva Engage, that user becomes inactive in Viva Engage. After approximately 90 days, deactivated users are permanently removed, but their name, files, messages and activity data are retained. 
     
@@ -152,8 +142,6 @@ The process follows these steps:
 ## Restore a user
 
 When an administrator restores a Viva Engage-eligible user in Office 365, the user is reactivated in Viva Engage. The following diagram shows how this works:
-  
-:::image type="content" source="../../media/f2dbf5f2-ba25-419e-802c-ac89e0bdeb7f.png" alt-text="Diagram that shows when an Office 365 admin restores a user, the user is then activated again in Viva Engage.":::
   
 The process follows these steps:
   
