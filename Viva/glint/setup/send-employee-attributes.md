@@ -1,5 +1,5 @@
 ---
-title: Set up a Microsoft Viva Glint tenant
+title: Send your Employee Attribute File to Viva Glint
 description: In preparation for uploading employee data to Microsoft Viva Glint, perform attribute setup and mapping that will establish which attributes should be included in data uploads.
 ms.author: JudithWeiner
 author: JudyWeiner
