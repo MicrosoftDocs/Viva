@@ -42,20 +42,20 @@ On the **Feature management** tab, select **Storyline** to customize settings.
 ## Enable storyline
 
 The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
-When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
+When you enable Storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
 [![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
 
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable storyline, the **Storylines** tab and landing page is removed from user profile pages.
-If users responded to any posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. 
+When you disable Storyline, **Storylines** is removed from the left navigation pane in Viva Engage for the web, and the **Storyline** tab and landing page is removed from the user profile.
+If a user responded to posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable.
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
 
-Storyline supports controls that let admins customize their configuration. These controls set the default notification preferences for storyline, and restrict which users can post to a storyline.  
+Admins can use these settings to control how they configure Storyline for their organization. Use these settings to establish the default behavior for storyline notifications, and to restrict who can post to Storyline.  
 
 ### Set default notification channels for Storyline posts
 
@@ -71,12 +71,12 @@ The system default selections for notifications include:
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with acess to Viva Engage** to **Ineligible users from selected group**. Search for and select the group that includes users who should receive their own staoryline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own storyline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
 > [!NOTE] 
-> Disabling storyline for a user doesn't actually delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be deleting conversations through the API or blocking the offending user.
+> Disabling storyline for a user doesn't actually delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](https://learn.microsoft.com/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](https://learn.microsoft.com/viva/engage/manage-viva-engage-users/add-block-or-remove-users#block-users).
 
 ## Security and compliance
 
@@ -127,20 +127,21 @@ To delete files associated with a post from the **VivaEngage** library:
 
 ## Frequently asked questions
 
-### Why isn’t storyline available in our organization? 
+### Why isn’t storyline available in our organization?
+
 Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity, or if you have a Viva Engage Basic network, storyline isn't available to your organization.
 
-### Who can see storyline content? 
+### Who can see storyline content?
+
 Storyline content is visible to any internal user who has access to Viva Engage. Guests can't see storyline content.  
 
-### Does storyline work for guests? 
+### Does storyline work for guests?
+
 Guests are excluded from storyline access. They don't have their own storyline and can't see any storyline content posted by other users.
 
-### Can I control who sees storyline content? 
-You can't prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests can't see any storyline content.
+### Can I control who sees storyline content?
 
-### Can I control which users get their own storyline?  
-We plan to add the capability to limit who gets their own storyline after storyline reaches general availability. This functionality allows you to use Azure Active Directory groups to designate which users get a personal storyline feed on their user profile page in Viva Engage. Users that don't get a storyline can reply and react to storyline posts from users who do have their own storyline.
+You can't prevent any internal user from seeing storyline content if they have access to Viva Engage. Guests can't see any storyline content.
 
 ### How do I delete custom cover images that were uploaded to a person's storyline?
 
