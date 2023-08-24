@@ -83,7 +83,7 @@ In order for you, as the Global administrator, to assign service admins without 
 - Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 - Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 - [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230914)
+- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 - [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### 3. Manage features and settings

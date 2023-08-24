@@ -64,10 +64,8 @@
           href: setup/hierarchy-fundamentals.md
         - name: Create your Employee Attribute Template in Viva Glint
           href: setup/create-employee-attribute-template.md 
-        - name: Set up attributes in Viva Glint
-          href: setup/set-up-attributes.md         
-        - name: Create your Employee Attribute File for Viva Glint
-          href: setup/create-employee-attribute-file.md
+        - name: Send your Employee Attribute File to Viva Glint  
+          href: setup/send-employee-attributes.md         
         - name: Upload your employee attributes to Viva Glint
           href: setup/upload-employee-attributes.md
         - name: Understand file upload errors and warnings in Viva Glint 

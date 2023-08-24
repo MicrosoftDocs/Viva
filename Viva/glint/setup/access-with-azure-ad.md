@@ -50,7 +50,7 @@ The Global administrator adds service administrators to Azure AD and Viva Glint 
 To import users to Viva Glint, first follow critical data preparation steps:
 
 - [Finalize file layout](https://go.microsoft.com/fwlink/?linkid=2230914)
-- [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2231120)
+- [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### Import users
 
