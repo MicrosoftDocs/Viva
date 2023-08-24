@@ -83,7 +83,7 @@ In addition to the capabilities listed here, storyline features a feed that incl
 
 Compliance for storyline posts is the same as the rest of Viva Engage. If you're in Native Mode, posts are ingested into the substrate and subjected to the same compliance and e-Discovery capabilities as posts in communities--including communications compliance and retention. Files are stored in OneDrive, where they inherit the same security and compliance policies configured for other files in OneDrive.
 
-When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process. Learn more about [deleting a user account](./manage-viva-engage-users/manage-users-across-their-lifecycle#delete-a-user).
+When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process. Learn more about [deleting a user account](./manage-viva-engage-users/manage-users-across-their-lifecycle.md#delete-a-user).
 
 ## File storage for storyline
 
