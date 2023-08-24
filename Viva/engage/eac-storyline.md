@@ -31,7 +31,7 @@ When storyline is enabled in your organization, you see the following changes in
 
 ## Set up storyline
 
-Microsoft 365 Global admins and Engage admins manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). To access it, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
+Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). To access it, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
 [![Screenshot of the entry point into the Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -42,24 +42,24 @@ On the **Feature management** tab, select **Storyline** to customize settings.
 ## Enable storyline
 
 The Storyline page in the Engage admin center controls the availability of storyline in the organization. 
-When you enable Storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
+When you enable storyline, all internal users who have access to Viva Engage have the Storyline tab and a storyline feed on their profile page. They also have the ability to react and respond to others’ storyline posts.  
 
 [![Screenshot of the storyline settings toggles in Viva Engage.](/viva/media/engage/admin/storyline-toggle.png)](/viva/media/engage/admin/storyline-toggle.png#lightbox)
 
 >[!NOTE]
 > Guests don't have their own storyline and can't see storyline content from internal users.
 
-When you disable Storyline, **Storylines** is removed from the left navigation pane in Viva Engage for the web, and the **Storyline** tab and landing page is removed from the user profile.
+When you disable storyline, **Storylines** is removed from the left navigation pane in Viva Engage for the web, and the **Storyline** tab and landing page are removed from the user profile.
 If a user responded to posted storyline content, they have access to those conversations. Otherwise, previously posted storyline content is unavailable.
 Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings
 
-Admins can use these settings to control how they configure Storyline for their organization. Use these settings to establish the default behavior for storyline notifications, and to restrict who can post to Storyline.  
+Admins can use these settings to control how they configure storyline for their organization. Use these settings to establish the default behavior for storyline notifications, and to restrict who can post to storyline.  
 
-### Set default notification channels for Storyline posts
+### Set default notification channels for storyline posts
 
-In its default configuration, Storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline. Network and verified admins can override this configuration to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
+In its default configuration, storyline notifies users in Teams, email, and Viva Engage anytime a person they follow posts to their storyline page. Network and verified admins can override this configuration to control which default notifications are selected when a user follows someone. Users can also change the default notification setting for each person they follow.
 
 The system default selections for notifications include:
 
@@ -71,12 +71,12 @@ The system default selections for notifications include:
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own storyline. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+To restrict who can post to storyline, from the Engage admin center, go to **Manage Storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own Storyline page. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
 > [!NOTE] 
-> Disabling storyline for a user doesn't actually delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](https://learn.microsoft.com/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](https://learn.microsoft.com/viva/engage/manage-viva-engage-users/add-block-or-remove-users#block-users).
+> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](https://learn.microsoft.com/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](https://learn.microsoft.com/viva/engage/manage-viva-engage-users/add-block-or-remove-users#block-users).
 
 ## Security and compliance
 
@@ -85,7 +85,7 @@ Storyline is built on the same content and conversation platform as community me
 * Use [eDiscovery](ediscovery-engage.md) in the compliance portal for Native Mode networks.  
 * Access storyline content through [network export](eac-as-manage-data.md).
 * Files shared through storyline are stored on OneDrive. Shared files are subject to any governance you already have in place.
-* Storylines supports the [Report a conversation](report-conversation-overview.md) feature that's available for community conversations.
+* Storyline supports the [Report a conversation](report-conversation-overview.md) feature that's available for community conversations.
 * Microsoft Purview Communications Compliance (E5): Use AI to monitor conversations for bullying, harassment, or topics that are against usage policy.
 
 In addition to the capabilities listed here, storyline features a feed that includes all storyline posts, sorted by the date the storyline conversation was started. To access this feed, go to the storyline landing page. In the feed, select the filter icon in the upper-right corner to switch the filter to **All**.
@@ -102,7 +102,7 @@ Files attached to storyline posts are stored in a hidden library in the author�
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage/Attachments/Storyline`
 
-To determine the precise URL for a user's storyline, follow these steps:
+To determine the precise URL for a user's storyline page, follow these steps:
 
 1. Open the user's OneDrive in a browser.
 2. Note the URL to the user's OneDrive.
@@ -111,7 +111,7 @@ To determine the precise URL for a user's storyline, follow these steps:
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
 1. Press Enter. The library appears.  
-1. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
+1. Open the Attachments folder, and then open the Storyline folder. The URL to the folder where storyline files are saved resembles this example:
 
 
    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
