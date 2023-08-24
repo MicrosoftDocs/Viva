@@ -71,7 +71,7 @@ The system default selections for notifications include:
 
 By default, every internal user with access to Viva Engage has the option to post to their own storyline feed. Admins can override the default and restrict this option to specific users.  This setting controls who has a storyline feed on their user profile and who can create a new storyline post. It doesn’t restrict who can view, react, or reply to storyline posts made by others.
 
-To restrict who can post to storyline, from the Engage admin center, go to **Manage Storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own Storyline page. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
+To restrict who can post to storyline, from the Engage admin center, go to **Manage storyline** > **Advanced Settings**, and switch **Eligible users with access to Viva Engage** to **Eligible users from selected group**. Search for and select the group that includes users who should receive their own storyline page. Supported group types are security groups, mail-enabled security groups, distribution lists, and Microsoft 365 groups. When a group is selected, Engage checks the group membership on a daily basis to assign storyline privileges.
 
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
@@ -92,7 +92,7 @@ In addition to the capabilities listed here, storyline features a feed that incl
 
 #### Security, compliance, and governance for files uploaded to storyline posts
 
-Compliance for storyline posts is the same as the rest of Viva Engage. If you're in Native Mode, posts are ingested into the substrate and subjected to the same compliance and e-Discovery capabilities as posts in communities--including communications compliance and retention. Files are stored in OneDrive, where they inherit the same security and compliance policies configured for other files in OneDrive.
+Compliance for storyline posts is the same as the rest of Viva Engage. If you're in Native Mode, posts are ingested into the substrate and subjected to the same compliance and eDiscovery capabilities as posts in communities--including communications compliance and retention. Files are stored in OneDrive, where they inherit the same security and compliance policies configured for other files in OneDrive.
 
 When user accounts are deleted (for example, when an individual leaves the company), the system follows the Microsoft 365 user deletion process. For details, see "Delete a user" in [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle).
 
@@ -111,7 +111,7 @@ To determine the precise URL for a user's storyline page, follow these steps:
 
    `https://<tenantname>-my.sharepoint.com/personal/<useridentifier>/VivaEngage`
 1. Press Enter. The library appears.  
-1. Open the Attachments folder, and then open the Storyline folder. The URL to the folder where storyline files are saved resembles this example:
+1. Open the Attachments folder, and then open the storyline folder. The URL to the folder where storyline files are saved resembles this example:
 
 
    `https://<tenantname>-my.sharepoint.com/personal/<user identifier>/VivaEngage/Attachments/Storyline`
