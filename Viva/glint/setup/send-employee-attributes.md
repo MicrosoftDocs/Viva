@@ -53,7 +53,7 @@ When creating your Employee Attribute File, use one of the following two formats
 
 ## Populate data into your Employee Attribute File
 
-Use the in-platform guided, four-step attribute setup process to prepare the system to import employee data.
+Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
 ### Attributes upload before the first file import
 
@@ -153,7 +153,7 @@ From the admin dashboard:
      > Your uploaded file must contain the Attribute Header Row and at least one row of employee data that aligns with the current format.
 
 4. Select **Continue**.
-5. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown.
+5. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
 
      > [!NOTE]
      > This selection should be your existing date format, which is consistently used for employee data.
