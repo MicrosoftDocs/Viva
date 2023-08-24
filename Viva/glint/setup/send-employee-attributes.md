@@ -107,7 +107,7 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
 
-> [!NOTE]
+> [!IMPORTANT]
 > "*Hierarchy groups can be set up only during initial schema set up. To add hierarchies at the time of editing the schema, please reach out support by following the steps [here](/microsoft-365/admin/get-help-support)*".
 
 ### Derived attributes
@@ -118,8 +118,8 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 2. Select the desired attribute from the dropdown menu for each derived attribute.
 3. Select **Continue**.
 
-> [!NOTE]
-> "*Derived attribute groups can be set up only during initial schema set up. To add hierarchies at the time of editing the schema, please reach out support by following the steps [[here](/microsoft-365/admin/get-help-support)*".
+> [!IMPORTANT]
+> "*Derived attribute groups can be set up only during initial schema set up. To add hierarchies at the time of editing the schema, please reach out support by following the steps [here](/microsoft-365/admin/get-help-support)*".
 
 ## Review uploaded attributes
 
