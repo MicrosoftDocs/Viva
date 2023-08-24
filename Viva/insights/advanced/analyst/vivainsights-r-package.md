@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: anirudhbajaj
+manager: ablubetk
 audience: Admin
 ---
 
@@ -28,17 +28,29 @@ For the detailed package documentation, go to the [package website](https://micr
 
 ## Capabilities for analysts
 
-This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R, across all the stages of data exploration and analysis. By using the vivainsights R package, an analyst can:
+This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R, across all the stages of data exploration and analysis. With the vivainsights R package, you can:
 
-* Run prebuilt analysis and visualizations of Viva Insights data with the ability to make settings to use organizational data variables and maintain privacy thresholds.
-* Obtain outputs in multiple formats. Analysts can easily export these outputs into any format required, including clipboard (copy & paste), Excel, .csv, and—for plots—.png, .svg, and .pdf.
-* Validate data prior to analysis by running a data validation report, which does systematic checks on, for example, metrics, organizational attributes, and meeting subject lines. The data validation functions check for patterns such as public holidays, non-knowledge workers, outliers, and missing values in the data to improve the quality and reliability of analysis.
-* Generate prebuilt interactive HTML reports, which includes reports on data validation, subject-line text mining, and key collaboration metrics.
-* Make use of advanced analytics functions, such as text mining and organizational network analysis (ONA), all designed specifically for Viva Insights metrics.
+* Run prebuilt analyses and visualizations of Viva Insights data, which let you create settings to use organizational data variables and maintain privacy thresholds.
+* Obtain outputs in multiple formats. Easily export outputs into several formats, including clipboard (copy and paste), Excel, .csv, and—for plots—.png, .svg, and .pdf.
+* Validate data prior to analysis by running a data validation report. To improve the quality and reliability of analysis, this report systematically checks, for example, metrics, organizational attributes, and meeting subject lines to find patterns like public holidays, non-knowledge workers, outliers, and missing values in the data.
+* Generate prebuilt interactive HTML reports for data validation, subject-line text mining, and key collaboration metrics.
+* Use advanced analytics functions, like text mining and organizational network analysis (ONA), all designed specifically for Viva Insights metrics.
+
 
 The following gif shows the experience of creating a visualization of collaboration hours with the vivainsights R package:
 
+
 ![gif that shows using the R package](../images/r-package.gif)
+
+Here are a few more examples of the visualizations you can make with this R package: 
+
+
+:::image type="content" source="../images/analyst-r-density.png" alt-text="Screenshot of a density graph for collaboration hours":::
+
+:::image type="content" source="../images/analyst-r-rank.png" alt-text="Screenshot of a plot that show lowest and highest group average collaboration hours by org attribute":::
+
+:::image type="content" source="../images/analyst-r-network-p2p.png" alt-text="Screenshot that shows a person-to-person network diagram":::
+
 
 ## More about R and the vivainsights R package	
 
@@ -74,7 +86,7 @@ Power BI dashboards are easy to set up for users with no coding background. The 
 
 The vivainsights R package, its documentation, and other related resources are available on GitHub in the following locations:
 
-* vivainsights R package source code
+* [vivainsights R package source code](https://github.com/microsoft/vivainsights/)
 * [vivainsights R package documentation](https://microsoft.github.io/vivainsights/analyst_guide_intro.html), which includes a quick-start guide, code examples, and other information like the structure of the package.
 * [Submit an issue or a feature request](https://github.com/microsoft/vivainsights/issues)
 * [Full list of functions](https://microsoft.github.io/vivainsights/reference/index.html)
