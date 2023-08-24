@@ -76,7 +76,7 @@ To restrict who can post to storyline, from the Engage admin center, go to **Man
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
 > [!NOTE] 
-> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](https://learn.microsoft.com/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](https://learn.microsoft.com/viva/engage/manage-viva-engage-users/add-block-or-remove-users#block-users).
+> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users#block-users).
 
 ## Security and compliance
 
