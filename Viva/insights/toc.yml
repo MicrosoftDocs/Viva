@@ -154,7 +154,10 @@ items:
             href: advanced/analyst/metric-rules.md
         - name: vivainsights open-source library
           items:
-            - name: vivainsights R package           
+            - name: vivainsights Python package
+              href: advanced/analyst/vivainsights-python-package.md
+            - name: vivainsights R package
+              href: advanced/analyst/vivainsights-r-package.md         
         - name: Reference
           items:
           - name: FAQ
