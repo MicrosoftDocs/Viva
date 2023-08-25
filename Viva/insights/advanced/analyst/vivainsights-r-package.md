@@ -18,7 +18,7 @@ audience: Admin
 
 # vivainsights R package
 
-The vivainsights R package is an open-source repository of more than 100 functions that provide curated, pre-built analyses on top of Viva Insights queries. Analysts can use this package to execute custom analyses that go beyond the insights that Viva Insights [templates](./templates/introduction-to-templates) and [custom queries](person-query.md) make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
+The vivainsights R package is an open-source repository of more than 100 functions that provide curated, pre-built analyses on top of Viva Insights queries. Analysts can use this package to execute custom analyses that go beyond the insights that Viva Insights [templates](../analyst/templates/introduction-to-templates.md) and [custom queries](person-query.md) make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
 
 For the detailed package documentation, go to the [package website](https://microsoft.github.io/vivainsights/).
 
