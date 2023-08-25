@@ -23,6 +23,16 @@ audience: Admin
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page. 
 
+## Domain reclassification
+
+Reclassifying domains in Viva Insights classifies external domains as internal. You might reclassify external domains for a few reasons: maybe your company recently acquired or merged with another company, and formerly external employees are now internal. Or, your company has subsidiaries, and you want to make sure collaboration with those domains is considered internal.
+
+To reclassify domains, go to the **Reclassify external domains** section. From the dropdown menu, select the external domains you want to classify as internal.
+
+>[!Important]
+>Changes to these settings take effect after the next data refresh, which might take up to one week. 
+
+
 ## Minimum group size
 
 Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” Viva Insights shows insights about groups in the app in Teams and on the web, in organization insights throughout the app. You'll need to set this number to at least 10.
