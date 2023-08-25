@@ -31,7 +31,7 @@ To access usage and engagement metrics:
 
 ## Topic engagement
 
-The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users include consuming, sharing, and contributing to topics.
+The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users includes consuming, sharing, and contributing to topics.
 
 The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric.
 
