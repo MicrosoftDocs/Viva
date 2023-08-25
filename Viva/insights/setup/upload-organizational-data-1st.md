@@ -35,7 +35,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 ### Video: Upload organizational data
 
-  <iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowfullscreen=""> </iframe>
+  > [!VIDEO https://player.vimeo.com/video/282897809]
 
 ## File upload
 

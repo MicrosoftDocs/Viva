@@ -35,6 +35,16 @@ Specify sensitive keywords that might appear in email subject lines or meeting t
 
 We show you how to use this feature in [Keyword suppression](../admin/keyword-suppression.md).
 
+## Domain suppression
+
+Prevent data associated with people in sensitive domains from showing in analyst experiences. We show you how to use this feature in [Domain suppression](../admin/domain-suppression.md).
+
+>[!Important]
+>Changes to these settings take effect after the next data refresh, which might take up to one week. 
+
+
+
+
 ## End-user opt-out
 
 Users can always [opt out of personal insights](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). In addition to this opt-out feature, we also built the **End-user opt-out** control. With this control, you let users choose whether their metrics—which are always de-identified—appear in [person query](../analyst/person-query-overview.md) results. Analysts run person queries through the advanced insights app. When users opt out, future person queries and those that refresh each week are affected. Opt-out doesn’t apply to aggregated insights (like organization insights) and query results from collaboration events (like meetings). 

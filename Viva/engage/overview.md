@@ -25,14 +25,13 @@ Viva Engage brings people together across the organization to connect with leade
 
 Viva Engage is part of the Microsoft Viva employee experience platform built within Microsoft 365 and Microsoft Teams. The Viva suite of apps gives you the ability to support connection, insight, purpose, and growth in your organization using your existing infrastructure.
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/E_xTiWClwYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/E_xTiWClwYc]
 
 #### How is Viva Engage different from Viva Connections? 
 
 Both apps are part of the Microsoft Viva experience and are more powerful when used together. **Viva Engage** provides the social fabric for Viva and Microsoft 365, while **Viva Connections** is the gateway to the entire Viva experience.  
 
 **Viva Connections** is where people start their workday and quickly catch up with organizational news, tasks, and resources. **Viva Engage** brings community and conversations into the workplace. It’s the place you go to ask questions, share knowledge, build your social capital, and extend your network.
-
 
 #### What happened to Yammer?
 Viva Engage surfaces all of the existing and new employee experiences powered by Yammer services. Viva Engage users can access effectively the same content and feature set as Yammer.com and Yammer mobile apps with no loss of continuity. Outside of branding changes, there are no changes to the features, capabilities, and investments for Microsoft 365 customers.
