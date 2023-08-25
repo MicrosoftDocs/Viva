@@ -48,7 +48,7 @@ After you've followed the steps above and your Storage account is set up:
 2. Clear **Enable soft delete for blobs** and **Enable soft delete for containers** and select **Save**.
 
 ### 3. Provision Key vault and store client secret
-*Applies to: Application Administrator or Application Developer, with [Key Vault Secrets Officer](/azure/key-vault/general/rbac-guide?tabs=azure-cli"%20%5Cl%20"azure-built-in-roles-for-key-vault-data-plane-operations) or [Key Vault Administrator](/azure/key-vault/general/rbac-guide?tabs=azure-cli"%20%5Cl%20"azure-built-in-roles-for-key-vault-data-plane-operations) role*
+*Applies to: Application Administrator or Application Developer*
 
 1. Open a browser and sign in to your [Azure portal](https://portal.azure.com).
 1. Under **Azure services**, select **Create a resource**.
@@ -64,6 +64,7 @@ After you've followed the steps above and your Storage account is set up:
    :::image type="content" source="../images/dynamic-metric-load-step0301.png" alt-text="Screenshot that shows fields for creating a key vault":::
 
 4. Select **Review + create**.
+1. To complete Steps 6 and 7, assign yourself the Key Vault Secrets Officer or Key Vault Administrator role using [these instructions](/azure/key-vault/general/rbac-guide?tabs=azure-cli"%20%5Cl%20"azure-built-in-roles-for-key-vault-data-plane-operations#key-vault-scope-role-assignment).
 1. In the **mgdcdemokeyvault** Key vault, on the sidebar menu, select **Secrets** under the **Objects** section. Select **+Generate/Import** and use the following values:
     * **Upload options:** Manual
     * **Name:** mgdc-app-secret (or you can name and select your own)
