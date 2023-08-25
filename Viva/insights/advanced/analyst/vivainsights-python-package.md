@@ -17,7 +17,7 @@ audience: Admin
 
 # vivainsights Python package
 
-The vivainsights Python package is an open-source repository of Python functions that enable Analysts to create analyses and visualizations on top of Viva Insights queries. Analysts can use this package to execute custom analyses that go beyond the insights that Viva Insights templates and Viva Insights custom queries make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
+The vivainsights Python package is an open-source repository of Python functions that enable analysts to execute custom analyses that go beyond the insights that Viva Insights templates and Viva Insights custom queries make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
 
 For the detailed package documentation, please visit the [package website](https://microsoft.github.io/vivainsights-py/).
 
@@ -68,7 +68,7 @@ Power BI dashboards are easy to set up for users with no coding background. The 
 
 The vivainsights Python package, its documentation, and other related resources are available on GitHub in the following locations:
 
-* vivainsights Python package source code
+* [vivainsights Python package source code](https://github.com/microsoft/vivainsights-py/)
 * vivainsights Python package [documentation](https://microsoft.github.io/vivainsights-py/README.html), which includes a quick-start guide, code examples, and other information like the structure of the package.
 * [Submit an issue or a feature request](https://github.com/microsoft/vivainsights-py/issues)
 * [Full list of functions](https://microsoft.github.io/vivainsights-py/vivainsights.html)
