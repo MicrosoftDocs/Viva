@@ -2,10 +2,10 @@
 title: "Identify leaders and manage audiences in Viva Engage"
 description: "Leadership identification and audience management enable organizations to designate leaders, configure their audience and connect leaders with the entire organization."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 02/13/2023
+ms.date: 07/24/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -71,7 +71,7 @@ The **Manage audiences** page appears, where you configure the leader’s audien
    > [!NOTE]
    > Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
 
-To define a leader’s audience, you add individual users or security or distribution groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours. This functionality makes it easy to apply existing groups that define a leader’s organization to define the leader’s audience in Viva Engage.
+To define a leader’s audience, you add individual users or groups, such as security, distribution, or Microsoft 365 groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours. This functionality makes it easy to apply existing groups that define a leader’s organization to define the leader’s audience in Viva Engage.
 
 Customers may have existing distribution lists that they use to communicate with an audience by email. You can add those lists to the leader’s audience in Viva Engage for continuous communication.
 
@@ -153,7 +153,7 @@ Yes, the Global admin and Engage admin can turn off leadership corner in the fea
 
 **How can I customize the company logo in leadership corner?**
 
-Yes. Follow the instructions at this [Customize your network](/viva/engage/manage-viva/engage-groups/customize-your-network).
+Yes. Follow the instructions at this [Customize your network](/viva/engage/manage-viva-engage-groups/customize-your-network).
 
 ## See also
 

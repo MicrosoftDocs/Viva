@@ -36,7 +36,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 - Existing Viva suite and LinkedIn Glint customer
 
 > [!NOTE]
-> A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
+>
+> - A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
+> - A minimum number of 100 active user licenses are required for tenant provisioning. Licenses requested below 100 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
 
 ## Begin your Viva Glint provisioning experience
 
@@ -47,6 +49,12 @@ Choose either the US or EU URL for Azure login to begin:
 
 >[!TIP]
 > If you are unsure which URL to choose, begin with the US URL.
+
+## Microsoft Viva Professional Services
+
+If you are eligible to receive Microsoft Viva Glint professional services, please have your HR administrator (or other desired contact) complete the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) so a kickoff conversation can be initiated. If you are not eligible for Microsoft Viva Glint professional services, check out the online and phone support available via [Microsoft Admin Support](/microsoft-365/admin/get-help-support).  
+
+If you’ve submitted the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) and would like to request a data deletion or data export of your response, please submit a ticket with [Microsoft Support](/microsoft-365/admin/get-help-support) for assistance. Form submissions are retained for 10 days.  
 
 ## Complete the Welcome to Viva Glint page
 

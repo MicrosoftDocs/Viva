@@ -2,8 +2,8 @@
 ms.date: 01/12/2022
 title: "Use the Viva Connections Dashboard web part"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:

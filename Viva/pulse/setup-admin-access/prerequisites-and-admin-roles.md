@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 07/12/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -27,7 +27,7 @@ You will need to have Microsoft Teams deployed for your organization to use Viva
 
 ## Admin roles and permissions
 
-The following roles and permissions are required to set up Viva Pulse.
+Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](../get-started/licensing-requirements.md). The following roles and permissions are required to set up Viva Pulse.
 
 | Roles | Permissions |
 | ----------- | ----------- |

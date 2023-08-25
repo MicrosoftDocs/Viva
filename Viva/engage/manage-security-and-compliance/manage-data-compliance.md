@@ -2,10 +2,10 @@
 title: "Manage Viva Engage data compliance"
 f1.keywords:
 - NOCSH
-ms.author: v-cdemaagd
-author: cedemaagd
+ms.author: v-bvrana
+author: Starshine89
 manager: dmillerdyson
-ms.date: 6/28/2023
+ms.date: 08/08/2023
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -32,7 +32,7 @@ Monitor sensitive content by specifying keywords such as banned words or employe
   
 1. In the Viva Engage admin center, go to **Content and security** > **Monitor Keywords**, and enter the person's email address in **Email Address**. This person should be a verified admin so they have permission to delete messages anywhere in Viva Engage.
     
-2. When a post matches a keyword, the person listed in **Email Address** receives an email. They can then click a link in the email to review, edit, or delete the flagged post. 
+2. When a post matches a keyword, the person listed in **Email Address** receives an email. They can then select a link in the email to review, edit, or delete the flagged post. 
     
  **Specify keywords and phrases to monitor**
   
@@ -46,20 +46,17 @@ Monitor sensitive content by specifying keywords such as banned words or employe
     
 |**Purpose**|**Pattern**|**Matches**|
 |:-----|:-----|:-----|
-|Word boundary  <br/> |\bword\b  <br/> |\btheme\b matches "theme" but not "themes" or "them"  <br/> |
-|Credit cards  <br/> |\b(?:\d[ ‐]\*?){13,16}\b  <br/> |1234 5678 90123  <br/> 1234 5678 9012 3456  <br/> 1234‐5678‐9012‐3456  <br/> |
-|Social Security numbers  <br/> |\b\d{3}[ -]\d{2}[ -]\d{4}\b  <br/> |123 45 6789  <br/> 123‐45‐6789  <br/> |
+|Word boundary |\bword\b |\btheme\b matches "theme" but not "themes" or "them" |
+|Credit cards |\b(?:\d[ ‐]\*?){13,16}\b |1234 5678 90123  <br/> 1234 5678 9012 3456  <br/> 1234‐5678‐9012‐3456 |
+|Social Security numbers |\b\d{3}[ -]\d{2}[ -]\d{4}\b |123 45 6789  <br/> 123‐45‐6789 |
 Monitor group create|has created|Matthew has created the Easter Region Sales group.
-   
-   > [!TIP]
-   > For a starting point for creating your keyword list, visit: http://www.bannedwordlist.com ([http://www.bannedwordlist.com](https://go.microsoft.com/fwlink/?LinkId=525065)). 
   
 <a name="DataRetention"> </a>
 ## Data retention
 
 You can control whether deleted messages and files stored in Viva Engage are retained and available in data exports. 
-
-If a network is in Archive Mode, any content that is deleted by the user will be removed from the front end but retained by the system for the life of the network.  For networks in Delete mode, content that is deleted will be removed after 30 days at which point it will no longer be recoverable.
+ 
+Networks in Archive Mode retain all content for the life of that network. This is true even if users delete content; the content is only removed from the front end. Networks in Delete mode remove content after 30 days after it's been deleted. At that point, the content is not recoverable.
 
  **Set whether to retain deleted messages and files stored in Viva Engage**
   
@@ -67,7 +64,7 @@ If a network is in Archive Mode, any content that is deleted by the user will be
     
 2. To prevent deleted data from being available in exported data, select **Delete**. Or, to enable deleted data to appear in exported data, select **Archive**.
     
-    Retained data stored in Viva Engage can be permanently deleted by using the Viva Engage Developer API. To do this you export the data to identify the data that needs to be permanently deleted, and then write a custom PowerShell script to loop through the specific items to delete. For information, see the REST API section of  [Develop apps for Viva Engage](https://go.microsoft.com/fwlink/?linkid=874797). 
+    To permanently delete retained data in Viva Engage storage, you must use the Viva Engage Developer API. First, export the data to identify the data you need to delete permanently. Next, write a custom PowerShell script to loop through the specific items to delete. For information, see the REST API section of  [Develop apps for Viva Engage](https://go.microsoft.com/fwlink/?linkid=874797). 
 
  **Set whether to retain deleted files stored in SharePoint**
 

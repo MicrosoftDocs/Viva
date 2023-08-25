@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2022
+ms.date: 08/14/2023
 title: Supported languages in Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -23,7 +23,7 @@ description: Find the languages available in Microsoft Viva Topics.
 
 ## Languages available in the UI
 
-Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. Currently, Viva Topics supports the following languages. 
+Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. Currently, Viva Topics supports the following languages.
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
@@ -45,14 +45,13 @@ Turkish|Bulgarian|Dari
 Czech|Croatian|Welsh
 Portuguese (Portugal)|Slovenian |
 
-
 ## Languages available for processing topics
 
 Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports the following languages.
 
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
-English|Spanish |French 
-German |
+English|Spanish |French |
+German |Italian |Portuguese |
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).

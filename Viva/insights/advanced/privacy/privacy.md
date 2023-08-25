@@ -235,7 +235,7 @@ To permanently remove data from users after licenses are removed, you can contac
 For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 
 >[!Note] 
->Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, refer to [How can I find out what my plan is?](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). 
+>Microsoft 365 users can determine whether they have a Viva Insights license and, consequently, whether their data is being processed. For more information, refer to [How can I find out what my plan is?](../../personal/overview/mya-faq.md#q2-how-can-i-find-out-what-my-plan-is). 
 
 ### Data retention and access after all subscriptions expire 
 
