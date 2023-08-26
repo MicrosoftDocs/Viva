@@ -34,6 +34,19 @@ With the Python library, you can:
 * Perform advanced organizational network analysis (ONA), text analytics, and inference analysis.
 * Export key visualizations and analysis tables in different formats.
 
+The following gif shows the experience of creating a visualization of collaboration hours with the vivainsights R package:
+
+![gif that shows using the Python package](../images/python.gif)
+
+Here are a few more examples of the visualizations you can make with this R package: 
+
+
+:::image type="content" source="../images/analyst-python-create-boxplot.png" alt-text="Screenshot of a boxplot for distribution of emails sent":::
+
+:::image type="content" source="../images/analyst-python-create-trend.png" alt-text="Screenshot of a trend graph that shows enauks sent - hotspots by organization":::
+
+:::image type="content" source="../images/analyst-python-create-bar.png" alt-text="Screenshot that shows a bar graph of emails sent - weekly average by organization":::
+
 ## More about Python and the vivainsights Python package
 
 ### Why should I use Python to analyze data from Viva Insights?
