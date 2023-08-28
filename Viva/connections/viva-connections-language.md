@@ -111,11 +111,9 @@ The Feed experience will display SharePoint news posted from [organizational new
 
 Make sure that authoritative news sites (there can be more than one organization news site) are created with English as the default language and that authors of news post are creating the news posts in English language – even if their own [preferred language setting in Microsoft 365](https://support.microsoft.com/office/change-your-personal-language-and-region-settings-caa1fccc-bcdb-42f3-9e5b-45957647ffd7) is not English. In order for content in the feed to display in a language other than your organization’s default language, [SharePoint news posts will need to be available in more than one language](https://support.microsoft.com/office/create-multilingual-communication-sites-pages-and-news-2bb7d610-5453-41c6-a0e8-6f40b3ed750c).
 
-
-
 #### All company Viva Engage
-Announcement posts in the [All-company group in Viva Engage](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community) should be created in English.
 
+Announcement posts in the [All-company group in Viva Engage](/viva/engage/manage-viva-engage-groups/all-company-community) should be created in English.
 
 ## Viva Connections resources
 
