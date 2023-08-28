@@ -82,7 +82,7 @@ Supported group types include security groups, mail-enabled security groups, dis
 Your changes should  take effect within minutes. However, backend membership changes in the selected group may take up to 24 hours before being applied to storyline privileges.
 
 > [!NOTE] 
-> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise#delete-specific-messages-or-files) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users#block-users).
+> Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#delete-specific-messages-or-files) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users.md#block-users).
 
 ## Security and compliance
 
