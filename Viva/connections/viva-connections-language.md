@@ -104,7 +104,8 @@ The dashboard is intended to enable quick access to content and tasks from vario
 1. Paste the link in a browser. Then go to **Settings > Advanced site settings > Language preferences**.
 
 ## Viva Connections Feed
-The Feed experience will display SharePoint news posted from [organizational news sites](/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Viva Engage posts in the [All-company group](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community), Viva Engage posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). 
+
+The Feed experience will display SharePoint news posted from [organizational news sites](/sharepoint/organization-news-site), sites you frequent and follow, [videos hosted on SharePoint](video-news-links.md), Viva Engage posts in the [All-company group](/viva/engage/manage-viva-engage-groups/all-company-community), Viva Engage posts in communities you follow, and [SharePoint news that has been boosted](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
 
 ### Organizational news
 
