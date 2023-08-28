@@ -2,6 +2,33 @@
 
 
 
+## Week of August 21, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/21/2023 | [Use eDiscovery for Viva Engage content](/viva/engage/ediscovery-engage) | added |
+| 8/21/2023 | [Explorer](/viva/goals/explorer) | modified |
+| 8/21/2023 | [Cross-collaboration: person-to-person query](/viva/insights/advanced/analyst/cross-collaboration-p2p) | modified |
+| 8/21/2023 | [Person query](/viva/insights/advanced/analyst/person-query) | modified |
+| 8/21/2023 | Improve your work patterns | removed |
+| 8/21/2023 | [Feature Access Management](/viva/learning/feature-access-management) | added |
+| 8/21/2023 | [Viva Glint’s position on expected response rates](/viva/glint/reports/expected-response-rates) | modified |
+| 8/21/2023 | [Viva Glint employee attribute fundamentals](/viva/glint/setup/attribute-fundamentals) | modified |
+| 8/21/2023 | [Add the Viva Topics app in the Teams Admin Center](/viva/topics/add-topics-app) | modified |
+| 8/22/2023 | [Usage and engagement metrics in Viva Topics](/viva/topics/topics-engagement-metrics) | added |
+| 8/22/2023 | [Manage Interests in Viva Learning](/viva/learning/interests) | modified |
+| 8/22/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
+| 8/23/2023 | [Merge topics in Microsoft Viva Topics](/viva/topics/merge-topics) | added |
+| 8/24/2023 | [Send your Employee Attribute File to Viva Glint](/viva/glint/setup/send-employee-attributes) | added |
+| 8/24/2023 | Create your Employee Attribute File for Viva Glint | removed |
+| 8/24/2023 | Set up attributes in Viva Glint | removed |
+| 8/24/2023 | [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) | modified |
+| 8/24/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
+| 8/25/2023 | [Wellbeing - balance and flexibility report](/viva/insights/advanced/analyst/templates/wellbeing) | modified |
+| 8/25/2023 | [Usage and engagement metrics in Viva Topics](/viva/topics/topics-engagement-metrics) | modified |
+
+
 ## Week of August 14, 2023
 
 
@@ -165,57 +192,3 @@
 | 7/28/2023 | [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) | modified |
 | 7/28/2023 | [Create and manage an external network in Viva Engage](/viva/engage/work-with-external-users/create-and-manage-an-external-network) | modified |
 | 7/28/2023 | Viva Insights Zoom integration | removed |
-
-
-## Week of July 17, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/17/2023 | [Viva Connections Mobile News Notifications](/viva/connections/mobile-notifications-viva-connections) | added |
-| 7/17/2023 | [Prepare a Viva Engage network for Native Mode for Microsoft 365](/viva/engage/configure-your-viva-engage-network/configure-native-mode) | added |
-| 7/17/2023 | [Collaborate with guests in a Viva Engage community](/viva/engage/work-with-external-users/collaborate-guests-external-yammer-community) | added |
-| 7/17/2023 | [Enforce Office 365 identity for Viva Engage users](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) | modified |
-| 7/17/2023 | [Integrate Viva Engage with other applications](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications) | modified |
-| 7/17/2023 | [eDiscovery in Viva Engage - Frequently asked questions](/viva/engage/manage-security-and-compliance/faq-ediscovery) | modified |
-| 7/17/2023 | [Overview of eDiscovery in Viva Engage](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) | modified |
-| 7/17/2023 | [Add, block, or remove Viva Engage users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) | modified |
-| 7/17/2023 | [Improve Office 365 sign-in for Viva Engage with auto-acceleration policy](/viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in) | modified |
-| 7/17/2023 | [Viva Engage update on Internet Explorer 11 changes coming in August 2021](/viva/engage/manage-viva-engage-users/internet-explorer-11-retirement) | modified |
-| 7/17/2023 | [Report a Viva Engage conversation](/viva/engage/report-conversation-overview) | modified |
-| 7/17/2023 | [Sorry, but we're having trouble signing you in when you select the Viva Engage tile in Office 365](/viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365) | modified |
-| 7/17/2023 | [Add external messaging participants to your Viva Engage conversations](/viva/engage/work-with-external-users/add-external-participants) | modified |
-| 7/17/2023 | [Disable external messaging in a Viva Engage network](/viva/engage/work-with-external-users/disable-external-messaging) | modified |
-| 7/17/2023 | [External messaging in Viva Engage - Frequently asked questions](/viva/engage/work-with-external-users/external-messaging-faq) | modified |
-| 7/17/2023 | [Find external messaging participants in a Viva Engage network](/viva/engage/work-with-external-users/find-external-participants) | modified |
-| 7/17/2023 | [Manage your external network profile](/viva/engage/work-with-external-users/manage-your-profile-in-an-external-network) | modified |
-| 7/17/2023 | Collaborate with guests in a Viva Engage community | removed |
-| 7/17/2023 | Prepare a Viva Engage network for Native Mode for Microsoft 365 | removed |
-| 7/17/2023 | [Frequently asked questions about Microsoft Viva Topics](/viva/topics/faq-topics) | modified |
-| 7/18/2023 | [Understand Advanced Configuration options in Viva Glint](/viva/glint/setup/understand-advanced-configuration) | added |
-| 7/18/2023 | [Set up a Microsoft Viva Glint tenant](/viva/glint/setup/viva-glint-tenant-provision) | added |
-| 7/18/2023 | [Licensing requirements](/viva/pulse/get-started/licensing-requirements) | added |
-| 7/18/2023 | [Start a trial with Viva Pulse](/viva/pulse/get-started/start-a-trial-with-viva-pulse) | added |
-| 7/18/2023 | [Enable notifications for your organization](/viva/pulse/setup-admin-access/enable-notifications-for-your-organization) | added |
-| 7/18/2023 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
-| 7/18/2023 | [Admin roles and tasks in Microsoft Viva](/viva/microsoft-viva-admin-roles) | modified |
-| 7/18/2023 | [Microsoft Viva Overview](/viva/microsoft-viva-overview) | modified |
-| 7/18/2023 | [Plan for all Viva apps](/viva/plan-for-all-viva-modules) | modified |
-| 7/18/2023 | [Supported languages](/viva/pulse/get-started/supported-languages) | modified |
-| 7/18/2023 | [Set up the in-app Viva Pulse experience](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience) | modified |
-| 7/18/2023 | Set up Viva Pulse Public Preview for your organization | removed |
-| 7/18/2023 | [Understand how privacy works in Microsoft Viva](/viva/viva-privacy) | modified |
-| 7/18/2023 | [Import organizational data from Workday](/viva/insights/advanced/admin/import-workday-data) | modified |
-| 7/20/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | added |
-| 7/20/2023 | Add Viva Engage domains to your Office 365 tenant | removed |
-| 7/20/2023 | [Overview and setup of Answers in Viva](/viva/engage/eac-answers-overview-set-up) | modified |
-| 7/20/2023 | [Work with AzureAD-B2B guests in Viva Engage communities](/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage) | modified |
-| 7/20/2023 | eDiscovery in Viva Engage - Frequently asked questions | removed |
-| 7/20/2023 | Overview of eDiscovery in Viva Engage | removed |
-| 7/20/2023 | Manage Viva Engage admins | removed |
-| 7/20/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
-| 7/20/2023 | [Troubleshoot your Viva Engage network for Native Mode for Microsoft 365](/viva/engage/troubleshoot-native-mode) | modified |
-| 7/21/2023 | [Primary and secondary collaborators in queries](/viva/insights/advanced/analyst/collaborators) | added |
-| 7/21/2023 | [Cross-collaboration: person-to-person query](/viva/insights/advanced/analyst/cross-collaboration-p2p) | added |
-| 7/21/2023 | [Cross-collaboration](/viva/insights/advanced/analyst/cross-collaboration) | added |
-| 7/21/2023 | Configure SAP SuccessFactors as a content source for Microsoft Viva Learning | removed |

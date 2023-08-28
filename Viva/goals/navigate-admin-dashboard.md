@@ -101,7 +101,7 @@ This tab shows all the teams that you've set up, plus the team owner and members
 
 ### Notifications
 
-The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge. Learn more at [Check in and track progress](/viva/goals/check-ins-and-progress-status).
+The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge.
 
 ### Integrations 
 
