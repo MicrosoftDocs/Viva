@@ -67,22 +67,15 @@ The account used for Saba setup must have the following security roles:
 >You'll need to have admin permissions in Microsoft 365 to complete these steps.
 
 1. Open **Viva Learning App** in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
-
-1. Go to the **Admin tab** in Viva Learning and select **Manage Providers** on the left menu. 
-
-1. Select **Add Provider**. 
-
-1. Select **Saba** from the Provider list and select **Next**. 
-
-1. Fill in the details that you got from your Saba portal.
-
+2. Go to the **Admin tab** in Viva Learning and select **Manage Providers** on the left menu. 
+3. Select **Add Provider**. 
+4. Select **Saba** from the Provider list and select **Next**. 
+5. Fill in the details that you got from your Saba portal.
     > [!NOTE]
     > Display name is the name of the carousel under which Saba learning content will appear for users in your organization in Viva Learning. If you don't enter a new name, it will display the default name "Saba Cloud".
-1. Select **Save** to activate Saba Cloud content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in Viva Learning.
-
-1. Once configured, Saba will start appearing automatically in configured providers list. You can track the sync status and export sync log. 
-
-1. You can edit or delete the configuration directly from manage provider.
+6. Select **Save** to activate Saba Cloud content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in Viva Learning.
+7. Once configured, Saba will start appearing automatically in configured providers list. You can track the sync status and export sync log. 
+8. You can edit or delete the configuration directly from manage provider.
 
 > [!NOTE]
 > For Saba Cloud integration, you need to have a sabacloud.com domain in your Host URL. If you have a different domain name, you'll need to raise a support ticket to allow your domain name.
@@ -102,5 +95,4 @@ By enabling this, you're allowing Viva Learning to fetch user information, user 
 - FirstName
 - LastName
 - Username
-
 
