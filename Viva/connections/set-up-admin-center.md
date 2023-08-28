@@ -78,7 +78,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 > - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
 > - A Microsoft Viva Suite license or Viva Communications and Communities license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
 > - You must have Global Administrator or SharePoint Administrator permissions to access the Microsoft 365 admin center.
-> - If this is the first time you're setting up Viva Connections, we recommend you pin the app in Teams.
+> - If this is the first time you're setting up Viva Connections, we recommend that you pin the app in Teams.
 
 ### Step 1: Create a new experience
 
@@ -276,7 +276,7 @@ If you need to update the experience, you can also return it to **Draft** status
 > - If you are pinning by a policy, revisit your pinning policy to make sure the Viva Connections app is pinned correctly for intended users every time you add a new experience. For more information, see Manage app setup policies.
 > - Teams Administrator (or higher) permissions are required.
 
-Viva Connections creates web parts for organizations who build off existing intranet portals, or home sites which can be accessed via Teams. The app is auto enabled by default, but to make Viva Connections easily discoverable, we recommended to pin the app. Once the app is pinned, your organization’s icon and custom app name will appear in the Teams app bar.
+Viva Connections creates web parts for organizations who build off existing intranet portals, or home sites which can be accessed via Teams. The app is auto enabled by default, but to make Viva Connections easily discoverable, we recommend that you pin the app. Once the app is pinned, your organization’s icon and custom app name will appear in the Teams app bar.
 
 > [!NOTE]
 > Pre-pinning the Viva Connections app doesn't change the Teams experience and doesn't automatically open the app in Teams. Pre-pinning makes it easier to discover and use the Viva Connections app.
@@ -340,7 +340,7 @@ The following settings are available in the settings panel:
 
 Connections and home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web and in Teams. [Learn more about how Connections and homes sites work together](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-A home site is not required to set up Viva Connections, but we recommended that you add one while setting up Connections to reduce the risk of needing to manually copy content between experiences in some cases. [Learn more about how to plan and build a home site](/viva/connections/home-site-plan).
+A home site is not required to set up Viva Connections, but we recommend that you add one while setting up Connections to reduce the risk of needing to manually copy content between experiences in some cases. [Learn more about how to plan and build a home site](/viva/connections/home-site-plan).
 
 Take the following scenario:  An organization that does not have an existing intranet home site creates a Viva Connections experience using the standalone out-of-the-box option during creation. Over a year the organization populates the experience with content.
 
