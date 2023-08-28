@@ -7,7 +7,7 @@ items:
       - name: Privacy and data protection
         items:
         - name: Technical privacy guide for organization insights and advanced insights
-          href: advanced/privacy/privacy.md
+          href: advanced/privacy/privacy
         - name: Personal insights privacy guide for admins
           href: personal/overview/privacy-guide-admins.md   
       - name: Plans, environments, and service description    
