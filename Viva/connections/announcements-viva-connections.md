@@ -120,7 +120,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
    > [!NOTE]
    >
    > - The end date can be up to two weeks from the original posting date.
-   > - Scheduling is only available in half-hour increments (e.g. you could schedule a post to send at 10:30 but not 10:15).
+   > - Scheduling is only available in half-hour increments (for example, you can schedule a post to send at 10:30 but not 10:15).
 
 3. Select **Next** to review the details of your announcement.
 
