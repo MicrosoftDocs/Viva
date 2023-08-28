@@ -23,6 +23,8 @@ ms.collection:
 
 ### [Edit the desktop experience](edit-viva-home.md)
 
+### [Use announcements](announcements-viva-connections.md)
+
 ### [Use audience targeting](use-audience-targeting-in-viva-connections.md)
 
 ### [Specific languages](viva-connections-language.md)
