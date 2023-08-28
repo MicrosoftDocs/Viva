@@ -89,7 +89,10 @@ Navigate to the **Team Members** tab. Search for the member in the search fi
 
 To remove a user from your organization, an admin can deactivate or delete their account: Go to **Admin** > **Users**. Find the user you want to remove and select **Actions** > **Deactivate** or **Actions** > **Delete**. In either case, you'll no longer be billed for that user.
 
-If you have invited users using an Azure AD group, you can remove the user from the group to deactivate them in Viva Goals as well. 
+If you have invited users using an Azure AD group, you can remove the user from the group to deactivate them in Viva Goals as well.
+
+> [!NOTE]
+> When a user is removed/deactivated from the on-prem Active Directory, the information has to be synced to Azure AD so that the user is deactivated in Viva Goals as well. If there's a delay in syncing the information between on-prem Active Directory and Azure AD, the impacted user will be able to access Viva Goals until they're deactivated.
 
 ### Deactivate versus delete a user
 
