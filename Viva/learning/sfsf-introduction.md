@@ -89,3 +89,7 @@ You can bring programs or learning paths from SAP SuccessFactors into Viva Learn
 If you’re setting up SuccessFactors integration for your tenant for the first time, programs will be automatically ingested along with other content.
 
 If you’ve already integrated SuccessFactors and want to bring in programs, you’ll need to request the SuccessFactors support team to regenerate the full sync package for your tenants. Viva Learning will ingest the programs for your tenant once the package becomes available in your SuccessFactors folder path.
+
+For thumbnail support, images hosted or uploaded in SuccessFactors as part of the "Image" property on items will not be available as part of the SuccessFactors data extract package and hence Viva Learning will not be able to display those images on content. The best practice to get images from SuccessFactors is to provide a publicly accessible URL in "Image URL:" property for content in SuccessFactors, so that users are able to view these images in Viva Learning.
+
+
