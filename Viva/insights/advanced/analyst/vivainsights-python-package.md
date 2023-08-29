@@ -38,18 +38,18 @@ With the Python library, you can:
 
 The following gif shows the experience of creating a visualization of collaboration hours with the **vivainsights** Python package:
 
-![gif that shows using the Python package](../images/python.gif)
+![Gif that shows using the Python package.](../images/python.gif)
 
 ## Example visualizations
 
 Here are a few more examples of the visualizations you can make with this Python package: 
 
 
-:::image type="content" source="../images/analyst-python-create-boxplot.png" alt-text="Screenshot of a boxplot for distribution of emails sent":::
+:::image type="content" source="../images/analyst-python-create-boxplot.png" alt-text="Screenshot of a boxplot for distribution of emails sent.":::
 
-:::image type="content" source="../images/analyst-python-create-trend.png" alt-text="Screenshot of a trend graph that shows enauks sent - hotspots by organization":::
+:::image type="content" source="../images/analyst-python-create-trend.png" alt-text="Screenshot of a trend graph that shows enauks sent - hotspots by organization.":::
 
-:::image type="content" source="../images/analyst-python-create-bar.png" alt-text="Screenshot that shows a bar graph of emails sent - weekly average by organization":::
+:::image type="content" source="../images/analyst-python-create-bar.png" alt-text="Screenshot that shows a bar graph of emails sent - weekly average by organization.":::
 
 ## More about Python and the vivainsights Python package
 
@@ -86,7 +86,7 @@ Power BI dashboards are easy to set up for users with no coding background. The 
 The **vivainsights** Python package, its documentation, and other related resources are available on GitHub in the following locations:
 
 * [vivainsights Python package source code](https://github.com/microsoft/vivainsights-py/)
-* **vivainsights** Python package [documentation](https://microsoft.github.io/vivainsights-py/README.html), which includes a quick-start guide, code examples, and other information like the structure of the package.
+* **vivainsights** Python package [documentation](https://microsoft.github.io/vivainsights-py), which includes a quick-start guide, code examples, and other information like the structure of the package.
 * [Submit an issue or a feature request](https://github.com/microsoft/vivainsights-py/issues)
 * [Full list of functions](https://microsoft.github.io/vivainsights-py/vivainsights.html)
 

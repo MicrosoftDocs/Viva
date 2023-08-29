@@ -42,18 +42,18 @@ This R package is intended for use by analysts and data scientists who are inter
 The following gif shows the experience of creating a visualization of collaboration hours with the **vivainsights** R package:
 
 
-![gif that shows using the R package](../images/r-package.gif)
+![Gif that shows using the R package.](../images/r-package.gif)
 
 ## Example visualizations
 
 Here are a few more examples of the visualizations you can make with this R package: 
 
 
-:::image type="content" source="../images/analyst-r-density.png" alt-text="Screenshot of a density graph for collaboration hours":::
+:::image type="content" source="../images/analyst-r-density.png" alt-text="Screenshot of a density graph for collaboration hours.":::
 
-:::image type="content" source="../images/analyst-r-rank.png" alt-text="Screenshot of a plot that show lowest and highest group average collaboration hours by org attribute":::
+:::image type="content" source="../images/analyst-r-rank.png" alt-text="Screenshot of a plot that show lowest and highest group average collaboration hours by org attribute.":::
 
-:::image type="content" source="../images/analyst-r-network-p2p.png" alt-text="Screenshot that shows a person-to-person network diagram":::
+:::image type="content" source="../images/analyst-r-network-p2p.png" alt-text="Screenshot that shows a person-to-person network diagram.":::
 
 
 ## More about R and the vivainsights R package	
