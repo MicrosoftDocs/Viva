@@ -40,6 +40,8 @@ The following gif shows the experience of creating a visualization of collaborat
 
 ![gif that shows using the Python package](../images/python.gif)
 
+## Example visualizations
+
 Here are a few more examples of the visualizations you can make with this Python package: 
 
 
