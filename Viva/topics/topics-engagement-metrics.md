@@ -31,7 +31,7 @@ To access usage and engagement metrics:
 
 ## Topic engagement
 
-The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users include consuming, sharing, and contributing to topics.
+The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users includes consuming, sharing, and contributing to topics.
 
 The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric.
 
@@ -47,10 +47,6 @@ The **Topic interaction** section provides a look into how users are interacting
 
 ![Screenshot of total topic interactions metrics.](../media/knowledge-management/topic-interaction-metrics.png)
 
-Usage by app measures interactions with Topics across SharePoint, Teams, Outlook, Engage, and Answers.
-
-![Screenshot of the usage by app graph.](../media/knowledge-management/usage-by-app.png)
-
 ## Topic consumption
 
 The **Topic consumption** section provides a look into how users are consuming topics through topic views and clicks.
@@ -59,10 +55,6 @@ The **Topic consumption** section provides a look into how users are consuming t
 
 ![Screenshot of consumption of topic surface metrics.](../media/knowledge-management/topic-consumption-metrics.png)
 
-**Interactions on topic component** measures consumption of specific topic components including people, documents and resources, sites, related topics, and Answers.
-
-![Screenshot of topic component consumption metrics.](../media/knowledge-management/topic-component-consumption.png).
-
 ### What contributes to consumption
 
 >[!NOTE]
@@ -70,12 +62,8 @@ The **Topic consumption** section provides a look into how users are consuming t
 
 ## Topic contribution
 
-The **Topic contribution** section provides a look into how users contribute to content on topics.Topic contribution metrics are split between user contributions and contributions by knowledge managers.
+The **Topic contribution** section provides a look into how users contribute to content on topics.
 
 User topic contributions include editing and publishing topics, and providing topic feedback.
 
 ![Screenshot of user topic contribution metrics.](../media/knowledge-management/topic-contribution-metrics.png)
-
-Knowledge manager contributions include editing and publishing topics, confirming topics, and removing topics.
-
-![Screenshot of knowledge manager contribution metrics](../media/knowledge-management/km-topic-contribution.png)
