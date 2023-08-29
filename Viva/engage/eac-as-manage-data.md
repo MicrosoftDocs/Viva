@@ -56,23 +56,23 @@ Use this method to export data from a specific time period.
 1. On the Data export page, choose **Export data for all** **users**.
 2. Specify a date range and other options.
 
-- **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
-- **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
-- **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
+   - **Date range:**  Specify the date range for which you want data. The current date appears as the end date.
+   - **Include attachments:**  Leave unselected to get a list of file names. Select to get both a list and a Files folder of all the attachments in their native format.
+   - **Include external networks:**  Leave unselected to get data from your home network only. Select to get data for each network in a separate folder (folder name is the network ID). Full network names are listed in **Networks.csv**.
 
 3. Select **Download CSV**. The file is saved as a compressed file with a .zip file name extension.
 4. Go to the location where you saved the compressed file and expand it.
 The data export contains the following files:
 
-| **File** | **Contents** |
-|---|---|
-| **log.txt** | Summary of the export |
-| **request.txt** | Parameters of the export |
-| **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Key admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
-| **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
-| **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
-| **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
-| **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
+   | **File** | **Contents** |
+   |---|---|
+   | **log.txt** | Summary of the export |
+   | **request.txt** | Parameters of the export |
+   | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Key admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
+   | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
+   | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
+   | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+   | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
 
@@ -94,16 +94,17 @@ This data export doesn't include:
 1. On the Data export page, select **Export tenant data.**
 2. Specify a date range and other options.
 
-:::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
+   :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
 
-- **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
-- **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
-- **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
+   - **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
+   - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
+   - **Include external networks:**  If unselected, only data from your home network is exported. If selected, a separate folder of data from each network is exported. Each network is identified by its ID, and the full network names are listed in **Networks.csv**.
 
 3. Select **Download CSV**.
 Data is exported into a .zip file.
-4. Go to the location where you saved the compressed file and expand it.<br>
-If you exported more than one network, a separate folder is created for each network. <br>
+4. Go to the location where you saved the compressed file and expand it.
+
+   If you exported more than one network, a separate folder is created for each network.
 
 The data export contains the following files:
 
