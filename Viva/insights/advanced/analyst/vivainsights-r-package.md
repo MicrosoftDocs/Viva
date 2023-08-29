@@ -18,9 +18,11 @@ audience: Admin
 
 # vivainsights R package
 
-The vivainsights R package is an open-source repository of more than 100 functions that provide curated, pre-built analyses on top of Viva Insights queries. Analysts can use this package to execute custom analyses that go beyond the insights that Viva Insights [templates](../analyst/templates/introduction-to-templates.md) and [custom queries](person-query.md) make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
+The **vivainsights** R package is an open-source repository of more than 100 functions that provide curated, pre-built analyses on top of Viva Insights queries. Analysts can use this package to execute custom analyses that go beyond the insights that Viva Insights [templates](../analyst/templates/introduction-to-templates.md) and [custom queries](person-query.md) make available. These analyses can help leaders go deeper into the data that Viva Insights provides to solve more specific problems.
 
 For the detailed package documentation, go to the [package website](https://microsoft.github.io/vivainsights/).
+
+The **vivainsights** library is published on the [Comprehensive R Archive Network (CRAN)](https://cran.r-project.org/web/packages/vivainsights/index.html).
 
 >[!Note]
 > R is an [open-source statistical programming language](https://www.r-project.org/about.html) and one of the most popular toolkits for data analysis and data science. For users of the R language, a "package" is a unit of sharable code that's organized into libraries. For users of Python, we also have a package with similar features written in Python. 
@@ -28,7 +30,7 @@ For the detailed package documentation, go to the [package website](https://micr
 
 ## Capabilities for analysts
 
-This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R, across all the stages of data exploration and analysis. With the vivainsights R package, you can:
+This R package is intended for use by analysts and data scientists who are intermediate-to-advanced users of R, across all the stages of data exploration and analysis. With the **vivainsights** R package, you can:
 
 * Run prebuilt analyses and visualizations of Viva Insights data, which let you create settings to use organizational data variables and maintain privacy thresholds.
 * Obtain outputs in multiple formats. Easily export outputs into several formats, including clipboard (copy and paste), Excel, .csv, and—for plots—.png, .svg, and .pdf.
@@ -37,7 +39,7 @@ This R package is intended for use by analysts and data scientists who are inter
 * Use advanced analytics functions, like text mining and organizational network analysis (ONA), all designed specifically for Viva Insights metrics.
 
 
-The following gif shows the experience of creating a visualization of collaboration hours with the vivainsights R package:
+The following gif shows the experience of creating a visualization of collaboration hours with the **vivainsights** R package:
 
 
 ![gif that shows using the R package](../images/r-package.gif)
@@ -62,7 +64,7 @@ Here are a few more examples of the visualizations you can make with this R pack
 
 ### How will using the vivainsights R package benefit me and my organization? 
 
-By using the vivainsights R package, you can:
+By using the **vivainsights** R package, you can:
 
 * Improve the speed, scalability, and reproducibility on current analysis workflow for Viva Insights. 
 * Maintain a streamlined data-science workflow by integrating Viva Insights with existing R and data science workflows (for example, analyzing engagement surveys, ERP, or CRM data).
@@ -74,17 +76,17 @@ The library is designed for analysts or data scientists who have at least a basi
 
 ### Is the vivainsights R package free to use?
 
-Both R and the vivainsights R package are open source. This means they’re free to use with no commercial licenses required. 
+Both R and the **vivainsights** R package are open source. This means they’re free to use with no commercial licenses required. 
 
 ### What’s the difference between the vivainsights R package and Power BI templates from Viva Insights?
 
-The vivainsights R package and Power BI templates Viva Insights from Viva Insights are complementary tools. In short, the vivainsights R package requires more technical expertise from the user, but it also has more analytical power and potential. 
+The **vivainsights** R package and Power BI templates Viva Insights from Viva Insights are complementary tools. In short, the **vivainsights** R package requires more technical expertise from the user, but it also has more analytical power and potential. 
 
 Power BI dashboards are easy to set up for users with no coding background. The R package enables versatile and in-depth analysis to your Viva Insights data, providing the interface for more complex analysis like clustering and churn modeling. 
 
 ## Analyst resources
 
-The vivainsights R package, its documentation, and other related resources are available on GitHub in the following locations:
+The **vivainsights** R package, its documentation, and other related resources are available on GitHub in the following locations:
 
 * [vivainsights R package source code](https://github.com/microsoft/vivainsights/)
 * [vivainsights R package documentation](https://microsoft.github.io/vivainsights/analyst_guide_intro.html), which includes a quick-start guide, code examples, and other information like the structure of the package.
