@@ -1628,7 +1628,16 @@
       "source_path": "Viva/insights/personal/overview/better-work-habits.md",
       "redirect_url": "/viva/insights/introduction",
       "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/glint/setup/set-up-attributes.md",
+      "redirect_url": "/viva/glint/setup/send-employee-attributes",
+      "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/glint/setup/create-employee-attribute-file.md",
+      "redirect_url": "/viva/glint/setup/send-employee-attributes",
+      "redirect_document_id": "FALSE"
     }
-
   ]
 }
