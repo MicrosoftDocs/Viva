@@ -151,7 +151,13 @@ items:
           - name: Metric customization
             href: advanced/analyst/custom-metrics.md
           - name: Metric rules
-            href: advanced/analyst/metric-rules.md       
+            href: advanced/analyst/metric-rules.md
+        - name: Open source analysis tools
+          items:
+            - name: vivainsights Python package
+              href: advanced/analyst/vivainsights-python-package.md
+            - name: vivainsights R package
+              href: advanced/analyst/vivainsights-r-package.md         
         - name: Reference
           items:
           - name: FAQ
@@ -161,7 +167,8 @@ items:
           - name: Metric definitions
             href: advanced/reference/metrics.md
           - name: Supported languages
-            href: advanced/reference/supported-languages.md  
+            href: advanced/reference/supported-languages.md 
+
 
 
  

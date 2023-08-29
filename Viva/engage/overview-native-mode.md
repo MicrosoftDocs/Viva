@@ -32,7 +32,7 @@ As of January 2020, all new Viva Engage tenants start in Native Mode.
 In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
  > [!NOTE]
-> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. Nothing is downloaded. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
+> There are no bandwidth requirements for Native Mode migration because nothing is downloaded. You are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
 
 A tenant must be in one of three modes:
 
@@ -67,7 +67,7 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 - Guests can only be added at the community level. But external networks are supported in the [US geo](/viva/engage/manage-security-and-compliance/security-and-compliance).
 - All files uploaded to groups are stored in SharePoint.
 - Files can't be uploaded to Viva Engage private messages.
-- Engage admins (Yammer administrators) are required to have  Global admin privileges or Group admin privileges from Microsoft 365 to administer changes to groups in which they aren't a group owner.
+- Engage admins (Yammer administrators) must have Microsoft Global administrator privileges or Group admin privileges from Microsoft 365 to administer changes to communities they don't own.
 
 ### Non-Native Mode (not connected)
 
