@@ -66,6 +66,12 @@
           href: creating-learning-paths.md
         - name: Create collections in Viva Learning
           href: creating-learning-collections.md
+        - name: Manage feature-level access in Viva Learning
+          href: feature-access-management.md
+        - name: Manage Interests in Viva Learning
+          href: interests.md
+        - name: Managing exported interest files
+          href: interests-troubleshooting.md
         - name: Manage academies in Viva Learning  
           href: academy.md
         - name: Advanced Searching within Viva Learning

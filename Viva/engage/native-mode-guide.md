@@ -1,5 +1,5 @@
 ---
-ms.date: 7/12/2023
+ms.date: 8/22/2023
 title: "Viva Engage Native Mode: Step-by-step guide"
 description: "Learn about the process of migrating to Native Mode with this in-depth step-by-step guide."
 ms.reviewer: auhosford
@@ -22,22 +22,22 @@ search.appverid:
 # Viva Engage Native Mode: Step-by-step guide
 
 Organizations that want to take advantage of the new compliance features in Viva Engage need to make sure their network is aligned to Native Mode. Native Mode also provides other benefits, such as the ability to:
-- Host live events in every Viva Engage community.
+- Host a live event in every Viva Engage community.
 - Simplify file administration through SharePoint.
 - Apply Microsoft 365 Group management policies.
 
 Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. You can use the Native Mode Alignment Tool to ensure that the network is fully backed by Microsoft 365 before accessing these new features.
 
  > [!NOTE]
-> Automatic migration to Native Mode was announced 2022 for reasons of security, compliance, and M365 integration. For more information see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md).
+> Automatic migration to Native Mode was announced 2022 for reasons of security, compliance, and Microsoft 365 integration. For more information see [Automatic Native Mode migration and network consolidation](automatic-migration-native-mode.md).
 
-The following steps show you what you need to for the transition to Native Mode. For more information about what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](./overview-native-mode.md).
+The following steps tell you how to transition to Native Mode. For more information about what Native Mode means for your Viva Engage Network, see [Overview of Native Mode](overview-native-mode.md).
 
 ## 1. Initial steps to access the Native Mode Alignment Tool
 
 To align your network to Native Mode, make sure that your Microsoft tenant has only one Viva Engage Network associated with it. If you have more than one Viva Engage Network on your Microsoft tenant, you must first complete the steps in [Consolidate multiple Viva Engage networks](./configure-your-viva-engage-network/consolidate-multiple-networks.md).
 
-Next, make sure that network enforces Microsoft 365 Identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
+Next, make sure that network enforces Microsoft 365 identity. For more information, see [Enforce Microsoft 365 Identity](./configure-your-viva-engage-network/enforce-office-365-identity.md).
 
 ## 2. Access the Native Mode Alignment Tool
 
@@ -50,7 +50,7 @@ To access the Native Mode Alignment Tool after Viva Engage recognizes your globa
 ## 3. Prepare to run the Native Mode Alignment Tool
 Before you run the Native Mode Alignment Tool, you should generate and review the Alignment Report for your network. To run the report from within the tool, select the **Generate Report** button in the middle of the screen. This step doesn't make any changes to your network and doesn't start the alignment process. It just outputs a list of all users and communities in your Viva Engage Network.
 
-This report comes in .yml format. If you prefer to review the file as a .csv file, we provide a tool available via GitHub that converts the file.
+This report comes in .yml format. If you prefer to review the report as a .csv file, we provide a tool available in GitHub that converts the file.
 
 Use the report to identify the following information:
 
@@ -78,18 +78,18 @@ Use the report to identify the following information:
 
 ## 4. Export the content in your Viva Engage network
 
-  Immediately before you run the Alignment Tool, you should export any content from your Viva Engage Network that isn't already backed up. The best practice is to export this content regularly. We encourage you to set up automated backups for about one a month. When regular backups are in place, it's easier to export any other data as needed.
+  Immediately before you run the Alignment Tool, you should export any content from your Viva Engage Network that isn't already backed up. The best practice is to export this content regularly. We encourage you to set up automated backups about once a month. When regular backups are in place, it's easier to export any other data as needed.
 
-  If you don't make regular backups of your data, you need to export all the data in your home network that you want to retain. External networks can be ignored, as they aren't affected by the Native Mode Alignment Tool. You can export data going as far back as the beginning of your network, but you may decide you only need to back up data going back a certain period of time. Keep in mind that the Native Mode Alignment Tool deletes certain data, such as the files attached to private messages and any messages posted in previously deleted groups from your network. So any data that's not backed up may be  nonrecoverable after the tool runs.
+  If you don't make regular backups of your data, you must export all the data in your home network that you want to retain. External networks can be ignored, as they aren't affected by the Native Mode Alignment Tool. You can export data going as far back as the beginning of your network, but you may decide you only need to back up data going back a certain period of time. Keep in mind that the Native Mode Alignment Tool deletes certain data, such as the files attached to private messages and any messages posted in previously deleted groups from your network. So any data that's not backed up may be  nonrecoverable after the tool runs.
 
   It's a two-step process to export a large volume of content from your network:
 
   1.	**Export message data** 
-          - We suggest that you export message data by using the [Network Data Export feature](/Viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
+          - We suggest that you export message data by using the [Network Data Export feature](eac-as-manage-data.md#export-tenant-data-by-date-range) in the Viva Engage Admin panel.
           - We suggest that you limit your export to a maximum date range of two months at a time and exclude attachments. If you include attachments, you may need to limit your date range significantly, such as to one week at a time, to prevent the system from encountering time-out errors.
 
   2. **Export files**
-        - We suggest that you export files separately from messages by using the [Viva Engage file export API](/Viva/engage/eac-as-manage-data.md#export-large-file-volumes-with-the-api). 
+        - We suggest that you export files separately from messages by using the [Viva Engage file export API](/rest/api/yammer/yammer-files-export-api.md). 
         - You can use this API to export all the files from a specified date range. The API supports up to six concurrent requests, and each request should be limited to a two-month period. This method enables you to simultaneously export a full year of files in a single API call.
 
 ## 5. Run the Alignment Tool for the first time
@@ -124,9 +124,9 @@ Once the tool has finished running, the banner at the top of the page reports on
 
 The error report is in .csv format by default and will remain available until the next time the Alignment Tool is run. When the tool is run again, a new error report is generated.
 
-The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](/Viva/engage/troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
+The report contains a list of files that failed to migrate from Azure to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of the troubleshoot native mode article](troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
 
-It's possible that your error report may contain errors that aren't covered in the documentation cited earlier or that doesn't appear to be actionable. Often these errors are duplicates of other errors that are actionable. We suggest that you work through all the errors that you can and then rerun the Alignment Tool. Most of these errors get resolved when the tool is rerun after the actionable errors are fixed.
+It's possible that your error report may contain errors that aren't covered in the documentation cited earlier or that doesn't appear to be actionable. Often these errors are duplicates of other errors that are actionable. We suggest that you work through all the errors you can and then rerun the Alignment Tool. Most of these errors get resolved the next time you run the tool after actionable errors are fixed.
 
 > [!IMPORTANT]
 > After a network is successfully aligned to Native Mode, the system automatically prevents any action that would break this alignment. Once this process has run successfully, you don't have to go through it again.

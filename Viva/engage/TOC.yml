@@ -53,7 +53,7 @@
         - name: Viva Engage and Microsoft 365 Groups
           href: engage-microsoft-365-groups.md
         - name: Customize your Viva Engage community
-          href: /viva/engage/configure-your-viva-engage-network/customize-your-community
+          href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
         - name: Work with AzureAD-B2B guests in Viva Engage communities
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
@@ -100,6 +100,8 @@
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
      - name: Manage Viva Engage core user licenses in Microsoft 365
        href: manage-engage-licenses-microsoft-365.md
+     - name: eDiscovery and Viva Engage
+       href: ediscovery-engage.md
      - name: Manage GDPR data subject requests in Viva Engage
        href: /viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise
      - name: Data management

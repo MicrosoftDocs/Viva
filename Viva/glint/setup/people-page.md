@@ -32,22 +32,16 @@ The  **People** section is accessed from the  **Employees** section on the admin
 
 ## Use the filter feature   
 
-Employees are filtered by active/inactive status, login status, and User Role. 
+Employees are filtered by active/inactive status and User Role. 
 
 ### All People  
 
 A count of present and past employees, listed by: 
 
 - Active: Working within your organization presently 
-- Inactive: No longer work within your organization or are currently on leave 
-
-### Login Enabled 
-
-A count of employees who may be available to participate in a survey, sorted by: 
-
-- Not Invited: Employees who don't have login access; the employee may be inactive or currently suspended. Suspended employees can't log in to the dashboard, but they may still take surveys and retain any assigned user roles. All historical data for this user will be preserved. 
-- Pending: Employee has been invited but has not yet set up a password, or the employee has been moved to a new User Role and won't become active until a certain date. 
-- Active: Employee has login access. 
+- Inactive: No longer work within your organization or are currently on leave
+- Support Users: External users that have been added by your organization to provide assistance
+- Advanced Configuration Access: Company Admin users with access to Advanced Configuration
 
 ### User Roles 
 
@@ -63,14 +57,13 @@ Use one of the two following methods:
 For each employee, the following information is visible: 
 
 - Employee Name: Editable by admin by selecting the pencil symbol. 
-- Email Address: Editable by admin by selecting the pencil symbol. 
+- Email: Editable by admin by selecting the pencil symbol. 
 - Employee ID: Not editable. 
 - Manager Hierarchy: The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
-- Login Access: Determines if a user has login access. Not editable. 
 - User Role(s): Determines what data and people for whom this user has visibility. Editable by selecting the pencil symbol. 
-- Attributes and hierarchies (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page will always include required attributes (i.e., Employee ID, birthdate, hire date) and then customized attributes, as defined in Employee Data File. 
+- Attributes and hierarchies (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page will always include required attributes (like Employee ID) and then customized attributes, as defined in your Employee Data File. 
 
-For employees with User Roles in addition to Active Employee, the following editable information will also appear: 
+For employees with User Roles in addition to Active Employees, the following editable information will also appear: 
 
 - Focus Area Access: Defines which people's data this user will see in Focus Area reports. Editable by selecting the pencil symbol.  
 - Survey Access: Defines which people's data this user can see in selected survey programs. Editable by selecting the pencil symbol.
@@ -78,27 +71,23 @@ For employees with User Roles in addition to Active Employee, the following edit
 >[!CAUTION]
 > Viewing and exporting raw data are governed by Microsoft rules protecting employee confidentiality. Review the guidance on [raw data exports](https://go.microsoft.com/fwlink/?linkid=2239587) within our Security and Privacy documents.
 
-## Use the Login As function 
+## Use the View As function 
 
-The Login As functionality allows you to open your Viva Glint program as if you were another employee. This functionality is helpful when wanting to view another User Role’s dashboard - typically a manager - and allows you to import their attributes information. 
+The View As functionality allows you to open your Viva Glint program as if you were another employee. This functionality allows you to view another user’s dashboard based on their User Role and data access.
 
-**To log in as another person**: 
+**To view as another person**: 
 
-1. Locate the person you want to log in as and open their page by hovering over and selecting the name. 
+1. Locate the person you want to view as and open their page by hovering over and selecting the name. 
 
-1. Select  **Login As**. 
+1. Select  **View As**. 
 
-1. The dashboard indicates “You're logged in as  `<other person name>`." 
+1. The dashboard indicates “You are seeing `<other person name>` Viva Glint experience." 
 
 To return to your own account, select  **Return to your account**. 
 
 ## Use the Actions function 
 
-The Actions button dropdown menu allows you to reset passwords and send surveys.
-
-### Reset Password 
-
-An email is sent to the employee’s email address with instructions for password reset.
+The Actions button dropdown menu allows you to send surveys, send user data, and delete users.
 
 ### Send Survey 
 
@@ -107,13 +96,21 @@ You can send a survey to one employee (manually) from the People page. Use the�
 - Enabled and live surveys are displayed. Select the survey to send.  
 
    > [!NOTE]
-   >A survey will not appear if it is not enabled or live. Go back into the program to re-enable or change the date of the survey, noting that it will take a few minutes for a survey to become live. 
+   >A survey will not appear if it is not enabled or live. Go back into the program to re-enable or change the date of the survey, noting that it will take a few minutes for a survey to become live.
 
-- Select  **Send**.   
+- Select  **Send**.
+
+### Send User Data
+
+Send a user's survey response and attributes directly to a user, without viewing data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230875).
+
+### Delete User
+
+Delete a user from Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2236554).
 
 ## Import your Employee Data File 
 
-Use the  **Import**  button on the People page to import a *.csv* (UTF-8) or an *xlxs* to update employee lists and details - recommended prior to a launch. Customers who manually import employee data can also use this feature. 
+Use the  **Import**  button on the People page to import a *.csv* (UTF-8 encoded) or an *xlsx* (single tab) file to update employee details.
 
 Follow the on-screen guidance for uploading the file and then select  **Import File**. 
 
@@ -125,4 +122,4 @@ Follow the on-screen guidance for uploading the file and then select  **Import F
 
 To make changes to an employee file, it's often easier to start with what's in the system first, so exporting from within the system, making changes, and then reimporting can occur beginning with the Export feature. 
 
-Follow the on-screen guidance and then select  **Export**. 
+Select **Export** and then follow the on-screen guidance.

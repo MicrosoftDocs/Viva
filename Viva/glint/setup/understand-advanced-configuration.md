@@ -157,14 +157,12 @@ Use Viva Glint Data Apps to audit, update file import configurations, and export
 | **App UUID** | **Description** |
 | --- | --- |
 | **EXPORT_USERS_FROM_SURVEY_CYCLE** | Export survey recipients, attributes, and hierarchies as they existed when a survey launched |
+| **MANAGE_SFTP_KEYS** | Upload a public SSH key to establish a secure connection to Viva Glint SFTP |
 | **RETROACTIVE_PULSE_UPDATE** | Update employee attributes associated with a closed survey cycle |
 | **START_OR_STOP_RUBICON_CLIENT_SAPP** | Enable or disable automated file import |
 | **UPDATE_RUBICON_CLIENT_DERIVED_ATTRIBUTES** | Update attributes that Viva Glint derives based on other fields provided in employee data. For example, Tenure based on Hire Date |
-| **UPDATE_RUBICON_CLIENT_SCHEMA_SAPP** | Refresh your Viva Glint attribute setup and after any derivation updates |
-| **UPLOAD_CLIENT_PGP_PUBLIC_KEY_SAPP** | Upload a public PGP key to encrypt data exported from Viva Glint |
-| **VIEW_CLIENT_PUBLIC_KEY_SAPP** | View public PGP keys on file with Viva Glint for encrypting exported data |
+| **UPLOAD_CLIENT_PGP_PUBLIC_KEY** | Upload a public PGP key to encrypt data exported from Viva Glint |
 | **VIEW_RUBICON_CLIENT_DERIVATION_CONFIGURATION_FILE** | View and/or download your current attribute derivation setup file |
-| **VIEW_RUBICON_CLIENT_SETUP_SAPP** | View and/or download your automated import and derivation setup |
 
 ### Menu option - Uploads
 
