@@ -60,7 +60,7 @@ You can remove deleted data from the user's view, while preserving it for data e
 1. Select **Archive** and save your changes.
     <br> This setting applies to your entire network.
 
-To hard-delete deleted data, use the GDPR workflow or the hard-delete API. Files uploaded through Engage and hosted in other Microsoft 365 resources (for example, SharePoint) are subject to the deletion policies of the hosting resource.
+**To hard-delete deleted data**, use the [GDPR workflow](gdpr-requests-in-viva-engage-enterprise.md) or the hard-delete API. Files uploaded through Engage and hosted in other Microsoft 365 resources (for example, SharePoint) are subject to the deletion policies of the hosting resource.
 
 **To permanently delete retained data in Viva Engage storage**, you must use the Viva Engage Developer API. First, export the data to identify the data you need to delete permanently. Next, write a custom PowerShell script to loop through the specific items to delete. For information, see the [REST API section](/rest/api/yammer/rest-api-rate-limits) of [Develop apps for Viva Engage](/rest/api/yammer/getting-started).
 
