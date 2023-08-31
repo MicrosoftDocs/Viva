@@ -1,8 +1,8 @@
 ---
-ms.date: 06/16/2023
+ms.date: 08/31/2023
 title: Customize Viva Insights privacy settings
 description: Learn how to customize  Viva Insights privacy settings in the advanced insights app
-author: lrolason
+author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
