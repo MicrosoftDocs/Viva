@@ -69,8 +69,6 @@ Access to reports is controlled via Microsoft 365 (Microsoft 365) groups. By def
 
 Access to reports can be controlled from the **Feature access management** section in the **admin tab**.
 
-If you want to select a new Microsoft 365 group, share the Microsoft 365 group name with us. There isn't currently a self-serve UI for setting Microsoft 365 group permissions. Once the FAM feature goes live customers can self-serve permissions through Microsoft 365 group."
-
 Go to the Viva Learning admin tab and select **Reports**.  
 
 :::image type="content" source="../media/learning/reports-adoption.png" alt-text="Screenshot of the adoption view report indicating monthly active users and growth rate of adoption." lightbox="../media/learning/reports-adoption.png":::
