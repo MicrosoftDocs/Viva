@@ -45,7 +45,7 @@ Various templates are available:
 Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
 
-Each template in the tables below is bookmarked on this page. Copy, paste, and customize for internal distribution. 
+Each template in the following tables is bookmarked on this page. Copy, paste, and customize for internal distribution. 
 
 ## Email template for your entire organization 
 
