@@ -1,9 +1,9 @@
 ---
 title: Manage your Allowed List for Viva Glint
 description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
-ms.author: Judithweiner
-author: JudyWeiner
-manager: MeslissaBarry
+ms.author: aweixelman
+author: AliciaWeixelman
+manager: skaradzic
 audience: admin
 f1.keywords: NOCSH
 keywords: approved sender, allowed list, firewall, spam
@@ -21,7 +21,7 @@ ms.date: 05/22/2023
 
 # Manage your Allowed List for Viva Glint
 
-Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [survey@glint.microsoft.com](mailto:survey@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
+Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
 ## Add email sender domains
 
@@ -29,15 +29,11 @@ Viva Glint emails will come from one of the domains listed below. Add the follow
 
 ### United States (US) and European Union (EU):
 
-- glint.microsoft.com- Survey Notifications
+- glint.microsoft.com - Survey Notifications
 - microsoft.com - Microsoft Email Communications
 - mktomail.com - Newsletter and Product Updates
 
-### Glint survey emails originate from:
-
-- US and EU: [**survey@glint.microsoft.com**](mailto:survey@glint.microsoft.com)
-
-### Glint system emails (for example, file upload notifications) originate from:
+### Glint survey and system emails originate from:
 
 - US and EU: [**no-reply@glint.microsoft.com**](mailto:no-reply@glint.microsoft.com)
 
