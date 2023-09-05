@@ -1,9 +1,9 @@
 ---
 title: Use Viva Glint’s Broader Team Insights feature
 description: "Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: Melissa Barry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -39,7 +39,7 @@ By enabling bottom-up change, you can create more engaged people, align teams, a
 
 ## How small teams use Broader Team Insights
 
-When a team’s number of responses fall below the confidentiality threshold, as in the example of Terence’s team of three in the image below, the team manager can't view their own team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
+When a team’s number of responses fall below the confidentiality threshold, the team manager isn't able to view their own team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
 
 When results are ready, the team manager (Terence, in this example) will receive an email with a link to view results. When selecting this link and landing on their dashboard, a message indicates that while there's no access to their own team’s results (because minimum confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
 
