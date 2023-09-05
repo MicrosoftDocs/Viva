@@ -109,6 +109,26 @@ Select **View Details**, which outlines interest name, interest description and 
 
 
 
+## Bring skills from SuccessFactors
+
+If you have already curated your skills in SuccessFactors and want to import skills or competencies from SuccessFactors into Viva Learning, follow the below steps:
+
+1. Navigate to SuccessFactors Admin center, search for "Manage Job Profile Contents Import/Export" tool and open this tool.
+
+2. Under "Download Data Import File Template", select "Skill" or "Competency" (based on what you want to export from SuccessFactors).
+
+3. On the confirmation screen, select "Yes" for "Fill the download template with existing data?".
+
+4. Download the file. Make any exclusions in the downloaded file "Skill.csv" or "Competency.csv" (if required).
+
+5. Import the file (Skill.csv or Competency.csv) in Viva Learning under Manage Interests (through the import process).
+
+   - Only Skill or Competency file downloaded as per the above steps are supported to be imported through Manage interests.
+
+   - Skill name and description columns available in [languages supported by Viva Learning](/viva/learning/viva-learning-supported-languages) will be processed during the import.
+
+
+
 ## Export interests
 
 1. In **Manage Interests**, select **Export** to export the interests available for your organization.
@@ -135,5 +155,6 @@ For example:
 
 >[!NOTE]  
 > Regardless of the default language of the admin's Teams app, the admin will always see all the interests available for your organization.
+
 
 
