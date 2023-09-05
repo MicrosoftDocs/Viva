@@ -71,8 +71,8 @@ The account used for Saba setup must have the following security roles:
 3. Select **Add Provider**. 
 4. Select **Saba** from the Provider list and select **Next**. 
 5. Fill in the details that you got from your Saba portal.
-> [!NOTE]
-> Display name is the name of the carousel under which Saba learning content will appear for users in your organization in Viva Learning. If you don't enter a new name, it will display the default name "Saba Cloud".
+    > [!NOTE]
+    > Display name is the name of the carousel under which Saba learning content will appear for users in your organization in Viva Learning. If you don't enter a new name, it will display the default name "Saba Cloud".
 6. Select **Save** to activate Saba Cloud content in Microsoft Viva Learning. It may take up to 24 hours for the content to display in Viva Learning.
 7. Once configured, Saba will start appearing automatically in configured providers list. You can track the sync status and export sync log. 
 8. You can edit or delete the configuration directly from manage provider.
