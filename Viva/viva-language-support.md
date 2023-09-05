@@ -37,7 +37,7 @@ Viva Engage supports the same languages as Yammer on the web. See [which languag
 ## Viva Glint
 English is the default language for all Viva Glint programs, but you can send survey and email communications to your employees in their preferred language. Currently Viva Glint supports over 70 language translations for standard content. Viva Glint admins can export all program content into .csv and .xlsx format. Exporting a file that includes English and all relevant translations allows users to review, add or edit translations in one place. 
 
-[Learn about language translation within Viva Glint programs.](https://go.microsoft.com/fwlink/?linkid=2230918)
+[Learn about language translation within Viva Glint programs.](https://go.microsoft.com/fwlink/?linkid=2238340)
 
 ## Viva Goals 
 Learn more about [language support for Viva Goals](/viva/goals/viva-goals-language-support).
