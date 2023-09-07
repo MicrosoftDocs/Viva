@@ -205,9 +205,4 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 > [!NOTE]
 > Viva Glint’s Narrative Intelligence may take time to process large amounts of open-ended feedback. Revisit the Comments report after 24 hours if data is not fully populated.
 
-
-
-
-
-
    
