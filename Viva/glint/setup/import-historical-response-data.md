@@ -32,8 +32,8 @@ Data from an external source must meet the prerequisites listed here to be eligi
 
 ### Survey program
 
-- The confidentiality threshold for your Viva Glint program is equal to or greater than the source program for the external data.
-- Data is imported to a Recurring or Ad-Hoc survey.
+- The confidentiality threshold for your Viva Glint survey program is equal to or greater than the source survey for the external data.
+- Data are imported to a Recurring or Ad-Hoc survey.
 
 > [!IMPORTANT]
 > External imports are not available for Always-on or Lifecycle surveys.
