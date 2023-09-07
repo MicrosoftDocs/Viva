@@ -2,6 +2,25 @@
 
 
 
+## Week of August 28, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/28/2023 | [Microsoft Viva - Feature access management](/viva/feature-access-management) | added |
+| 8/28/2023 | [Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning](/viva/learning/configure-cornerstone-content-source) | modified |
+| 8/29/2023 | [Create collections in Viva Learning](/viva/learning/creating-learning-collections) | modified |
+| 8/29/2023 | [Creating Learning paths in Viva Learning](/viva/learning/creating-learning-paths) | modified |
+| 8/29/2023 | [vivainsights Python package](/viva/insights/advanced/analyst/vivainsights-python-package) | added |
+| 8/29/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 8/29/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
+| 8/29/2023 | [vivainsights R package](/viva/insights/advanced/analyst/vivainsights-r-package) | added |
+| 8/30/2023 | [Manage Interests in Viva Learning](/viva/learning/interests) | modified |
+| 8/30/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
+| 8/31/2023 | [Customize Viva Insights privacy settings](/viva/insights/advanced/setup-maint/privacy-settings) | modified |
+| 9/1/2023 | [Manage your Allowed List for Viva Glint](/viva/glint/setup/allowed-list) | modified |
+
+
 ## Week of August 21, 2023
 
 
@@ -140,55 +159,3 @@
 | 8/4/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
 | 8/4/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
 | 8/4/2023 | [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) | modified |
-
-
-## Week of July 24, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/24/2023 | [Reporting in Viva Learning](/viva/learning/reports) | added |
-| 7/24/2023 | [Organize a Microsoft Teams powered live event in Viva Engage](/viva/engage/manage-viva-engage-groups/live-events) | modified |
-| 7/24/2023 | Opt out of personal insights | removed |
-| 7/25/2023 | [Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
-| 7/25/2023 | [Viva Goals Setup and Administration Deployment Guide](/viva/goals/viva-goals-deployment-guide) | modified |
-| 7/25/2023 | [Introduction to Power BI templates in Microsoft Viva Insights](/viva/insights/advanced/analyst/templates/introduction-to-templates) | modified |
-| 7/25/2023 | [Best practices for running a healthy Viva Goals program](/viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview) | modified |
-| 7/26/2023 | [Partitions in Viva Insights](/viva/insights/advanced/admin/partitions) | modified |
-| 7/26/2023 | [Viva Insights partner integration](/viva/insights/advanced/analyst/partner-integration) | modified |
-| 7/26/2023 | Viva Insights welcome email | removed |
-| 7/26/2023 | [Introducing Org Explorer](/viva/people-in-viva/introducing-org-explorer) | modified |
-| 7/26/2023 | [Support productivity and wellbeing with actionable insights](/viva/experience-insight) | modified |
-| 7/27/2023 | [Set up your Viva Glint instance](/viva/glint/setup/post-provisioning-next-steps) | modified |
-| 7/27/2023 | [Frequently asked questions about the Feed for Viva Connections](/viva/connections/faqs-viva-connections-feed) | modified |
-| 7/27/2023 | [Configure your Viva Engage network](/viva/engage/configure-your-viva-engage-network/configure-viva-engage) | modified |
-| 7/27/2023 | Yammer Native Mode: step-by-step guide | removed |
-| 7/27/2023 | [About Viva Engage networks and Office 365 tenants](/viva/engage/configure-your-viva-engage-network/viva-engage-and-office-365) | modified |
-| 7/27/2023 | Yammer admin key concepts | removed |
-| 7/27/2023 | Yammer admin quick start | removed |
-| 7/27/2023 | New Yammer FAQ | removed |
-| 7/27/2023 | Export data from Yammer Basic | removed |
-| 7/27/2023 | Export data from Yammer Enterprise | removed |
-| 7/27/2023 | Manage GDPR data subject requests in Yammer Basic | removed |
-| 7/27/2023 | Set up a Yammer usage policy | removed |
-| 7/27/2023 | Track Yammer events in the Office 365 audit log and with the Management Activity API | removed |
-| 7/27/2023 | [All Company now works like other Viva Engage communities](/viva/engage/manage-viva-engage-groups/all-company-community) | modified |
-| 7/27/2023 | Report a Yammer conversation overview | removed |
-| 7/27/2023 | Favorite communities | removed |
-| 7/27/2023 | Organize a Microsoft Teams powered live event in Viva Engage | removed |
-| 7/27/2023 | Yammer and Microsoft 365 Groups | removed |
-| 7/27/2023 | Yammer Encoded Events powered by Microsoft Teams Public Preview Documentation | removed |
-| 7/27/2023 | Produce Yammer live events from your device | removed |
-| 7/27/2023 | [Add, block, or remove Viva Engage users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) | modified |
-| 7/27/2023 | Manage Yammer user licenses in Office 365 | removed |
-| 7/27/2023 | Turn off Yammer access for Office 365 users | removed |
-| 7/27/2023 | [Report a Viva Engage conversation](/viva/engage/report-conversation-overview) | modified |
-| 7/27/2023 | [Set up a Viva Engage usage policy](/viva/engage/set-up-usage-policy) | modified |
-| 7/27/2023 | Limited functionality in Yammer in Internet Explorer 10 document mode | removed |
-| 7/27/2023 | Troubleshoot your Yammer network for Native Mode for Microsoft 365 | removed |
-| 7/27/2023 | [Meeting effectiveness report](/viva/insights/advanced/analyst/templates/meeting-effectiveness) | modified |
-| 7/28/2023 | eDiscovery (Premium) in Yammer | removed |
-| 7/28/2023 | [Azure Active Directory credentials are required for Viva Engage Enterprise sign in](/viva/engage/manage-viva-engage-users/aad-account-required) | modified |
-| 7/28/2023 | [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) | modified |
-| 7/28/2023 | [Create and manage an external network in Viva Engage](/viva/engage/work-with-external-users/create-and-manage-an-external-network) | modified |
-| 7/28/2023 | Viva Insights Zoom integration | removed |
