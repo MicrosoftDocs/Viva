@@ -64,10 +64,8 @@
           href: setup/hierarchy-fundamentals.md
         - name: Create your Employee Attribute Template in Viva Glint
           href: setup/create-employee-attribute-template.md 
-        - name: Set up attributes in Viva Glint
-          href: setup/set-up-attributes.md         
-        - name: Create your Employee Attribute File for Viva Glint
-          href: setup/create-employee-attribute-file.md
+        - name: Send your Employee Attribute File to Viva Glint  
+          href: setup/send-employee-attributes.md         
         - name: Upload your employee attributes to Viva Glint
           href: setup/upload-employee-attributes.md
         - name: Understand file upload errors and warnings in Viva Glint 
@@ -236,4 +234,9 @@
         - name: Communicate pre-launch and live Viva Glint program information using email templates 
           href: communicate/prelaunch-live-email-templates.md
         - name: Communicate results rollout plans for Viva Glint programs using email templates
-          href: communicate/results-rollout-templates.md 
+          href: communicate/results-rollout-templates.md
+   - name: Troubleshoot
+     items:
+     - name: Resolve manager hierarchy error
+       href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+ 

@@ -41,25 +41,6 @@ Choose either of the following methods:
 
 ### Option 1
 
-Assign service admins by first providing a full employee attribute upload:
-
-1. Use this Viva Glint guidance to finalize attributes, prepare an employee data file, set up attributes, and upload your employee data to the Viva Glint platform:
-   1. [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
-   2. [Create your Employee Attribute Template in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230862)
-   3. [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2244907)
-   4. [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
-2. Assign admins to the Company Admin role in Viva Glint:
-   1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
-   2. In the **Search People** field, enter the user's first and last name or email address.
-   3. Select the user when they appear as a search result.
-   4. On the user's detail page, in **Users Roles**, select the **pencil symbol** to edit.
-   5. In the **Customer User Role** dialog, select the **Company Admin** checkbox and then **Save**.
-   6. In the **Confirm Role** dialog, select **Grant All Access**.
-   7. To grant the admin access to Advanced Configuration from their user detail page, select the **pencil symbol** next to **Company Admin: Advanced Configuration Access**.
-   8. In the **Advanced Configuration Access dialog** , switch the **Enable access** to ON, and then **Save**.
-
-### Option 2
-
 In order for you, as the Global administrator, to assign service admins without first providing an employee data upload and instead assign another admin role to the task:
 
 1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
@@ -69,6 +50,29 @@ In order for you, as the Global administrator, to assign service admins without 
 5. Leave the **External user** toggle set to NO.
 6. Switch the **Grant user advanced configuration access** setting to Yes to allow users access to **Advanced Configuration** features.
 7. Select **Add support user.**
+
+> [!TIP]
+> This option will allow you to add attribute fields after this initial upload that can include required fields only.
+
+### Option 2
+
+Assign service admins by first providing a full employee attribute upload:
+
+1. Use this Viva Glint guidance to finalize attributes, prepare an employee data file, set up attributes, and upload your employee data to the Viva Glint platform:
+   -  [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
+   -  [Create your Employee Attribute Template in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230862)
+   -  [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2244907)
+   -  [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+      
+2. Assign admins to the Company Admin role in Viva Glint:
+   1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
+   2. In the **Search People** field, enter the user's first and last name or email address.
+   3. Select the user when they appear as a search result.
+   4. On the user's detail page, in **Users Roles**, select the **pencil symbol** to edit.
+   5. In the **Customer User Role** dialog, select the **Company Admin** checkbox and then **Save**.
+   6. In the **Confirm Role** dialog, select **Grant All Access**.
+   7. To grant the admin access to Advanced Configuration from their user detail page, select the **pencil symbol** next to **Company Admin: Advanced Configuration Access**.
+   8. In the **Advanced Configuration Access dialog** , switch the **Enable access** to ON, and then **Save**.
 
 ## Steps to set up your Viva Glint program instance
 
@@ -83,7 +87,7 @@ In order for you, as the Global administrator, to assign service admins without 
 - Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 - Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 - [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230914)
+- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 - [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### 3. Manage features and settings
@@ -100,7 +104,7 @@ In order for you, as the Global administrator, to assign service admins without 
 ### 4. Set up your Engagement or Employee Lifecycle survey
 
 - [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
-- [Set up Program summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Set up Program summary pages for a Viva Glint Engagement-type survey](https://go.microsoft.com/fwlink/?linkid=2231504)
 - [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
 
 ## Prepare your Viva Glint communications plan
@@ -109,7 +113,7 @@ The following templates are examples you can use to communicate to your organiza
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
-- [Communicate results rollout plan](../communicate/prelaunch-live-email-templates.md)
+- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
 ## What do I do if I need help?
 
@@ -154,3 +158,4 @@ Find resources to go from inspiration to execution. Adoption resources will give
 ## Microsoft Viva Support
 
 [Resources and guides for survey participants to help answer questions and provide background on Viva Glint methodology](https://go.microsoft.com/fwlink/?linkid=2239301).
+[How to take a Viva Glint survey](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)
