@@ -48,7 +48,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 ### Respondent data
 
 - Raw, respondent-level data, **NOT** aggregated data.
-- All respondents are identifited with their unique employee ID.
+- All respondents are identified with their unique employee ID.
 - External data attributes and values map to values in Viva Glint.
 - The file layout aligns with Viva Glint requirements:
   - Horizontal layout with individual response data and attributes. See more details in the **Prepare data files** section.
@@ -79,15 +79,15 @@ External imports of historical data require three data files, each with their ow
 
 |File  |Description  |Email address label|Import to |
 |----------|-----------|------------|------------|
-|User File     |All employees from an historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |
+|User File     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |
 |Raw Score File|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|
 |Respondent User File|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|
 
 ### User File
 
-To import historical data and generate reports, first add all historical employees to Viva Glint with an employee import. This file includes all employees from an historical, external source formatted to align with your Viva Glint attribute setup.
+To import historical data and generate reports, first add all historical employees to Viva Glint with an employee import. This file includes all employees from a historical, external source formatted to align with your Viva Glint attribute setup.
 
-Comfirm that:
+Confirm that:
 
 - Attribute setup is complete in Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
 - Employee IDs and Email Addresses between current Viva Glint and historical users are aligned.
