@@ -23,7 +23,7 @@ search.appverid:
 description: "Learn more about how to use the Web link card on the Viva Connections dashboard"
 ---
 
-# Use the Web link card to integrate existing content into the Viva Connections dashboard. 
+# Use the Web link card to integrate existing content into the Viva Connections dashboard 
 
 The [Viva Connection’s dashboard](/viva/connections/create-dashboard) is where people in your organization get easy access to popular tools and resources that are relevant to their everyday work. The [Web link card](/viva/connections/create-dashboard#add-a-web-link-card) is a simple yet powerful option to incorporate existing content from across your Microsoft 365 environment and elsewhere into Viva Connections to offer a seamless employee experience. 
 
