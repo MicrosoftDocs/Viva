@@ -168,7 +168,9 @@
         - name: Understand Advanced Configuration options in Viva Glint 
           href: setup/understand-advanced-configuration.md
         - name: Consider People Science factors for historical imports
-          href: setup/import-external-people-science-pov.md     
+          href: setup/import-external-people-science-pov.md
+        - name: Import historical response data in Viva Glint
+          href: setup/import-historical-response-data.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
