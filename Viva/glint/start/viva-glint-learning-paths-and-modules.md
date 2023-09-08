@@ -57,7 +57,7 @@ This module, designed for managers, guides the learner through the various dashb
 
 ### For all leaders
 
-#### [Introduction to Microsoft Viva Glint](https://learn.microsoft.com/training/modules/viva-glint-introduction-viva-glint/)
+#### [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)
 Describes Viva Glint, how organizations can utilize the application to fuel engagement and business success, and how users across the organization interact with it
 
 #### [Get to know Viva Glint's approach to modern engagement](https://learn.microsoft.com/training/modules/viva-glint-get-know-viva-glint-approach-modern-engagement/)
