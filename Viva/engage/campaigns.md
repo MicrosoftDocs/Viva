@@ -24,7 +24,7 @@ search.appverid:
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete campaigns.
 
-Creating and viewing the campaign landing page and analytics from the campaign management dashboard is only available to licensed admin users. Unlicensed network, global, and engage admins can only access the campaign management dashboard and delete campaigns that were created by licensed admins or corporate communicators.
+Creating and viewing the campaign landing page and analytics from the campaign management dashboard is only available to licensed admins. Unlicensed network, global, and engage admins can only access the campaign management dashboard and delete campaigns that were created by licensed admins or corporate communicators.
 
 ## Set up a campaign
 In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
@@ -42,15 +42,16 @@ The campaign dashboard provides a list of active, ended, and draft campaigns cre
 ## Create a campaign
 
 1. Select **Create campaign** in the upper-right corner of the campaign dashboard.
-2. Fill in the fields according to your campaign goals. You can also customize the theme color of the campaign hashtag. **Campaign name** and **Campaign hashtag** are required fields. The campaign names only appear on the campaign management dashboard, and the campaign hashtag  appears on the campaign landing page.
-3. Select **Confirm** when your campaign is ready to enter the draft state.
+1. Fill in the fields according to your campaign goals. 
+    - **Campaign name** and **Campaign hashtag** are required fields. The campaign names only appear on the campaign management dashboard, and the campaign hashtag  appears on the campaign landing page.
+    - **Default publisher** is the post type (discussion, question, poll, or praise) the publisher defaults to when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
+    - **Theme color** - Use this setting to customize the color of the campaign hashtag.  
+
+1. Select **Confirm** when your campaign is ready to enter the draft state.
 
 Because campaign hashtags are used as the binding element for all campaign content, any posted content that contains the campaign hashtag is included on the campaign landing page and in campaign analytics.
 
 [![Screenshot of the campaign creation modal for campaign managers.](/viva/media/engage/admin/campaign-creation-modal.png)](/viva/media/engage/admin/campaign-creation-modal.png#lightbox)
-
->[!NOTE]
-> As a campaign manager, you can set the default publisher of your campaign to a specific post type: discussion, question, poll, or praise. The type you choose automatically populates the default publisher when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
 
 ## Corporate communicator privileges
 
@@ -59,7 +60,7 @@ Corporate communicators can perform the following functions to manage campaigns:
 - Set **Active** campaigns to **Ended** when a campaign is finished
 - Republish **Ended** campaigns as **Active** for reoccurring campaigns
 - Delete campaigns that aren't relevant or were made by mistake
-- Delete posts that aren't relevant to the campaign from the campaign landing page
+- Remove posts from the campaign landing page if they aren't relevant
 - Update certain assets on a campaign page such as:
     - Goal tracker
     - Cover photo
@@ -87,7 +88,7 @@ When a campaign ends, the follow button and default publisher on the campaign la
 
 ## Build campaign awareness  
 
-Users can discover campaigns through posts that contain the campaign hashtag or through the campaigns discovery modules throughout Engage.
+Users can discover campaigns through posts that contain the campaign hashtag or through the campaigns discovery modules throughout Engage.  To participate in any campaign from the Home feed, users can create or comment on a post by using the campaign hashtag in a community, on a storyline, or from the campaign landing page.
 
 - **Verified campaign hashtag**
     - When users select a post or comment that contains the verified campaign hashtag, they're routed to the campaign landing page, where they can follow the campaign.
@@ -98,9 +99,6 @@ Users can discover campaigns through posts that contain the campaign hashtag or 
 - **Campaigns modules**
     - **Top campaigns** module: On the right side of the Home feed, users see a *Top campaigns module* that lists current campaigns to follow and participate in.
     - **Followed campaigns** module: When a user follows a campaign, they see a *Followed campaigns* module on the right side of their storyline.
-
-> [!NOTE]
-> To participate in any campaign from the Home feed, users can create or comment on a post by using the campaign hashtag in a community, on a storyline, or from the campaign landing page.
 
 ## Manage campaign analytics and engagement
 
@@ -120,6 +118,10 @@ Engage admin and corporate communicators have access to analytics that help moni
 
    [![Screenshot of the campaign analytics page for admins in Engage.](/viva/media/engage/admin/campaign-analytics.png)](/viva/media/engage/admin/campaign-analytics.png#lightbox)
 
+## Remove a post
+
+Corporate communicators and Engage admins can remove a post if it doesn't align with the purpose of the campaign. This action removes the post from the campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
+:::image type="content" source="media/engage/campaigns/remove-camp-post.png" alt-text="Screenshot of the post menu where you can find the Remove command.":::
 ## Frequently asked questions
 
 **Can I create a campaign for a hashtag that's already in use?** 
