@@ -30,18 +30,18 @@ Viva Glint learning paths have been carefully created by our Subject Matter Expe
 
 Learning paths are recommended before setting up and launching your first Viva Glint program.
 
-#### [Apply Viva Glint's modern approach to engagement for better results](https://learn.microsoft.com/training/paths/viva-glint-engagement/)
+#### [Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)
 Introduces the methodology of People Success, describe how to use it, and details the Viva Glint methodology  
 Estimated time: 1 hour 53 minutes  
 Number of modules included: 4
 
-#### [Design and set up your Viva Glint program](training/paths/viva-glint-program-design-setup/)
+#### [Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)
 
 Provides high level information about setting up your dashboard, recurring surveys, and sharing feedback results
 Estimated time: 3 hours  
 Number of modules included: 4
 
-#### [Learn about a Viva Glint 360 Feedback program](training/paths/viva-glint-360-feedback%20program/)
+#### [Learn about a Viva Glint 360 Feedback program](/training/paths/viva-glint-360-feedback%20program/)
 
 Designed to help understand how to configure, launch, and share a 360 survey and results  
 Estimated time: 1 hour 55 minutes  
@@ -52,7 +52,7 @@ Targeted modules provide easy access to improve your knowledge about a specific 
 
 ### Specifically for your managers
 
-#### [Navigate and share your Viva Glint results](training/modules/viva-glint-navigate-share-viva-glint-results/)
+#### [Navigate and share your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)
 This module, designed for managers, guides the learner through the various dashboards and reports available on the Viva Glint app and introduces best practices around sharing results with teams. Understanding each element of Viva Glint allows managers to utilize the powerful analytics available within the app
 
 ### For all leaders
@@ -87,5 +87,5 @@ Provides the prerequisite knowledge designed to help you understand the foundati
 #### [Get to know Microsoft Viva Glint 360 Feedback](/training/modules/viva-glint-get-to-know-viva-glint-360-feedback/)
 Provides the prerequisite knowledge designed to help you understand the Viva Glint 360 Feedback process
 
-#### [Configure and manage a Viva Glint 360 Feedback program](training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/)
+#### [Configure and manage a Viva Glint 360 Feedback program](/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/)
 Provides a series of videos designed to help you configure and manage a Viva Glint 360 Feedback program
