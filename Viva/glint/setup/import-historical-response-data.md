@@ -89,7 +89,7 @@ To import historical data and generate reports, first add all historical employe
 
 Confirm that:
 
-- Attribute setup is complete in Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
+- Attribute setup is complete in Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240826).
 - Employee IDs and Email Addresses between current Viva Glint and historical users are aligned.
 - You include accurate Employee ID and Manager ID relationships to calculate your manager hierarchy for historical data and reporting. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230861).
 - Attributes and values between current Viva Glint and historical users are aligned. 
