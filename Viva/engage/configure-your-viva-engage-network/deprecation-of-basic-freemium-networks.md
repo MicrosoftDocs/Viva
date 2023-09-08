@@ -24,9 +24,7 @@ Starting December 1st, 2022, we retired Microsoft Yammer Basic/Freemium networks
 
 #### We still want an Engage network. What can we do?
 
-If your organization has an Office 365 or Microsoft 365 license, Engage is included. See [Manage Viva Engage domains in Office 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md).
-
-If your organization doesn't have a license, [subscriptions are available](
+If your organization has an Office 365 or Microsoft 365 license, Engage is included. See [Manage Viva Engage domains in Office 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
 https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 per user per month.
 
 #### My organization has an Engage network, but users from Freemium networks collaborate with us. Can they join our network as guests?
@@ -51,4 +49,4 @@ Contact support. They can give you temporary administrator role access to your b
 
 #### I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Office 365 or Microsoft 365 to upgrade in place?
 
-No. Adding your basic network domain to Office 365 or Microsoft 365 will delete the contents of your basic network. Export your basic network first. 
+No. Adding your basic network domain to Office 365 or Microsoft 365 will delete the contents of your basic network. Export your basic network first.
