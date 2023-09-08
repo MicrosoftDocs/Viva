@@ -1,11 +1,11 @@
 ---
 title: "Manage and set up campaigns in Microsoft Viva Engage"
-description: "Campaigns in Viva Engage are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging."
+description: "Campaigns in Engage are an interactive way to drive employee engagement, with the power to build company culture, community, and belonging."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
-ms.date: 02/15/2023
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
+ms.date: 09/08/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 ---
 
-# Set up and manage campaigns in Viva Engage
+# Set up and manage campaigns in Engage
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete campaigns.
 
 Creating and viewing the campaign landing page and analytics from the campaign management dashboard is only available to licensed admin users. Unlicensed network, global, and engage admins can only access the campaign management dashboard and delete campaigns that were created by licensed admins or corporate communicators.
 
 ## Set up a campaign
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -37,7 +37,7 @@ Select **Campaigns** on the **Feature management** tab to access the campaign 
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns or access campaign analytics for better understanding of the campaigns' performance and engagement.
 
-[![Screenshot of the Viva Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
+[![Screenshot of the Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
 
 ## Create a campaign
 
@@ -50,7 +50,7 @@ Because campaign hashtags are used as the binding element for all campaign conte
 [![Screenshot of the campaign creation modal for campaign managers.](/viva/media/engage/admin/campaign-creation-modal.png)](/viva/media/engage/admin/campaign-creation-modal.png#lightbox)
 
 >[!NOTE]
-> As a campaign manager, you can set the default publisher of your campaign to be a certain type of post: discussion, question, poll, or praise. The type you choose will automatically populate the default publisher when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
+> As a campaign manager, you can set the default publisher of your campaign to a specific post type: discussion, question, poll, or praise. The type you choose automatically populates the default publisher when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
 
 ## Corporate communicator privileges
 
@@ -59,6 +59,7 @@ Corporate communicators can perform the following functions to manage campaigns:
 - Set **Active** campaigns to **Ended** when a campaign is finished
 - Republish **Ended** campaigns as **Active** for reoccurring campaigns
 - Delete campaigns that aren't relevant or were made by mistake
+- Delete posts that aren't relevant to the campaign from the campaign landing page
 - Update certain assets on a campaign page such as:
     - Goal tracker
     - Cover photo
@@ -77,7 +78,7 @@ Corporate communicators can perform the following functions to manage campaigns:
 
    [![Screenshot of the UI dropdown to publish and delete a campaign.](/viva/media/engage/admin/publish-campaign-button.png)](/viva/media/engage/admin/publish-campaign-button.png#lightbox)
 
-When a campaign is published, it becomes **Active** in the campaign management dashboard. The campaign landing page is visible to any Viva Engage licensed user who selects a post or comment that has the verified campaign hashtag.
+When a campaign is published, it becomes **Active** in the campaign management dashboard. The campaign landing page is visible to any Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
 > [!NOTE]
 > The three campaigns that appear in the **Top campaigns** module on the right side of your home page are ordered based on number of followers. When you follow a campaign, it's removed from **Top campaigns** and replaced by a new campaign.  
@@ -86,7 +87,7 @@ When a campaign ends, the follow button and default publisher on the campaign la
 
 ## Build campaign awareness  
 
-Users can discover campaigns through posts that contain the campaign hashtag or via the campaigns discovery modules throughout Viva Engage.
+Users can discover campaigns through posts that contain the campaign hashtag or through the campaigns discovery modules throughout Engage.
 
 - **Verified campaign hashtag**
     - When users select a post or comment that contains the verified campaign hashtag, they're routed to the campaign landing page, where they can follow the campaign.
@@ -103,9 +104,9 @@ Users can discover campaigns through posts that contain the campaign hashtag or 
 
 ## Manage campaign analytics and engagement
 
-Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. They can access campaign analytics from the analytics icon on the top navigation menu of Viva Engage, the campaign management dashboard, and the campaign landing page.
+Engage admin and corporate communicators have access to analytics that help monitor campaign engagement and improve future campaigns. They can access campaign analytics from the analytics icon on the top navigation menu of Engage, the campaign management dashboard, and the campaign landing page.
 
-[![Screenshot of the analytics entrypoint at the top navigation of Viva Engage.](/viva/media/engage/admin/analytics-navbar-icon.png)](/viva/media/engage/admin/analytics-navbar-icon.png#lightbox)
+[![Screenshot of the analytics entrypoint at the top navigation of Engage.](/viva/media/engage/admin/analytics-navbar-icon.png)](/viva/media/engage/admin/analytics-navbar-icon.png#lightbox)
 
 * From the campaign management dashboard, select the graph icon in the right column under **Actions** to navigate to campaign analytics.
 
@@ -117,7 +118,7 @@ Engage admin and corporate communicators have access to analytics that help moni
 
    You're redirected to the campaign analytics dashboard, which contains key data to help monitor the success of your campaign.
 
-   [![Screenshot of the campaign analytics page for admins in Viva Engage.](/viva/media/engage/admin/campaign-analytics.png)](/viva/media/engage/admin/campaign-analytics.png#lightbox)
+   [![Screenshot of the campaign analytics page for admins in Engage.](/viva/media/engage/admin/campaign-analytics.png)](/viva/media/engage/admin/campaign-analytics.png#lightbox)
 
 ## Frequently asked questions
 
