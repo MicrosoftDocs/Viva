@@ -11,7 +11,9 @@
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: start/people-science-viva-glint.md     
+          href: start/people-science-viva-glint.md
+        - name: Learning path and modules
+          href: start/viva-glint-learning-paths-and-modules.md
    - name: Setup and administration
      items:
      - name: Deploy Microsoft Viva Glint
@@ -98,8 +100,6 @@
           href: setup/benchmarks.md
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
-        - name: Understand Advanced Configuration options in Viva Glint 
-          href: setup/understand-advanced-configuration.md
      - name: Best practices program guidance
        href: setup/best-practice-setup-guidance.md
        items:          
@@ -165,6 +165,14 @@
           items:
           - name: Preview, manage, and enable Viva Glint surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md
+     - name: Viva Glint Advanced Configuration
+       items:
+        - name: Understand Advanced Configuration options in Viva Glint 
+          href: setup/understand-advanced-configuration.md
+        - name: Consider People Science factors for historical imports
+          href: setup/import-external-people-science-pov.md
+        - name: Import historical response data in Viva Glint
+          href: setup/import-historical-response-data.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
@@ -234,4 +242,9 @@
         - name: Communicate pre-launch and live Viva Glint program information using email templates 
           href: communicate/prelaunch-live-email-templates.md
         - name: Communicate results rollout plans for Viva Glint programs using email templates
-          href: communicate/results-rollout-templates.md 
+          href: communicate/results-rollout-templates.md
+   - name: Troubleshoot
+     items:
+     - name: Resolve manager hierarchy error
+       href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+ 

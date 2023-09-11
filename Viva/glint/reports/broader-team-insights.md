@@ -1,9 +1,9 @@
 ---
 title: Use Viva Glint’s Broader Team Insights feature
 description: "Broader Team Insights bridges the confidentiality-driven gap for managers of small teams that may not have enough team members or survey responses to view their own team’s responses."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: Melissa Barry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -20,7 +20,7 @@ ms.date: 04/28/2023
 
 # Use Viva Glint’s Broader Team Insights feature
 
-Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights, managers are empowered to significantly impact employee engagement.  
+Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights (BTI), managers are empowered to significantly impact employee engagement.  
 
 Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or five respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
 
@@ -37,17 +37,13 @@ The Broader Team Insights dashboard allows managers to review a high-level summa
 
 By enabling bottom-up change, you can create more engaged people, align teams, and promote greater business performance.
 
-## How small teams use Broader Team Insights
+## How teams use Broader Team Insights
 
-When a team’s number of responses fall below the confidentiality threshold, as in the example of Terence’s team of three in the image below, the team manager can't view their own team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
+When a team’s number of responses fall below the confidentiality threshold, the team manager isn't able to view their *own* team’s results. With Broader Team Insights, however, the team leader can view the results of their direct leader’s team.
 
-When results are ready, the team manager (Terence, in this example) will receive an email with a link to view results. When selecting this link and landing on their dashboard, a message indicates that while there's no access to their own team’s results (because minimum confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
+When results are ready, the team manager receives an email with a link to view results. When selecting this link, however, a message indicates that while there is no access to their own team’s results (because minimum confidentiality standards weren't met), a summary of the broader team’s results are available for reviewing and sharing.
 
-In this summary report view, Terrence can see customized guidance on how to have a conversation with their own team about the Broader Team Insights results and an abbreviated view of the Executive Summary report.
-
-## How large teams use Broader Team Insights
-
-In the following example, Terence’s manager, Kira, does see results for her team. However, with Broader Team Insights, she has an option to view a high-level summary of her own manager’s results, adding her own team’s feedback and scores into the context of her broader team and increasing transparency across the organization. 
+This BTI summary report view provides this manager the opportunity to see guidance on how to have a conversation with their own team about the Broader Team Insights results and an abbreviated view of the Executive Summary report.
 
 ## Set up Broader Team Insights
 
