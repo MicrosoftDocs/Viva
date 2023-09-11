@@ -1,8 +1,8 @@
 ---
 title: Viva Glint Learning Paths and modules
 description: Recommended trainings for admins, HRBPs, IT specialists, and managers using Viva Glint are hosted within Microsoft Learn.
-ms.author: kathrynbarry
-author: KathrynBarry
+ms.author: Judithweiner
+author: Judyweiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
