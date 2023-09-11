@@ -24,7 +24,11 @@ Discover the power of Microsoft Viva Glint with step-by-step guidance. [Recommen
 
 Viva Glint learning paths and the modules contained within them have been carefully created by our Subject Matter Experts to provide a thorough self-paced and self-teachable learning experience. Learning paths are comprised of building blocks, referred to as modules. All trainings are recommended prior to setting up and launching your first Viva Glint program.
 
+As an HR and/or an IT professional, you may find both the admin and manager trainings useful in using Viva Glint.
+
 ## Recommended for admins 
+
+These learning paths and modules deep dive into Viva Glint methodology and how to configure surveys.
 
 | Title |Type of training |Summary | Modules within path |
 |:------|:---------------:|:-------|:--------------------|
@@ -44,10 +48,12 @@ Viva Glint learning paths and the modules contained within them have been carefu
 
 ## Recommended for managers 
 
+These modules define how specific features will assist a manager to interpret reports and results on their Viva Glint dashboard.
+
 | Title |Type of training |Summary | Modules within path |
 |:------|:---------------:|:-------|:--------------------|
 |[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
-|[Navigate and share your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Learning path|Guides the learner through the various dashboards and reports available on the Viva Glint app and introduces best practices around sharing results with teams|<ul><li>Viva Glint confidentiality and how to navigate the Viva Glint app</li><li>Team Summary Dashboard </li><li> Executive Summary Report </li><li> Heat Map Report</li><li> Driver Impact Report</li><li> Comments Report</li><li>Navigate Focus Areas</li><li>Use the Team Conversations feature and ACT framework</li></ul>| 
+|[Navigate and share your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Learning path|Guides the learner through the various dashboards and reports available on the Viva Glint app and introduces best practices around sharing results with teams:<ul><li>Confidentiality and how to navigate the Viva Glint app</li><li>Team Summary Dashboard </li><li> Executive Summary Report </li><li> Heat Map Report</li><li> Driver Impact Report</li><li> Comments Report</li><li>Navigate Focus Areas</li><li>Use the Team Conversations feature and ACT framework</li></ul>|N/A| 
 
 
 
