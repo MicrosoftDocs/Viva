@@ -24,7 +24,7 @@ description: "Import organizational data in Microsoft Viva and Microsoft 365"
 ---
 
 # Import and use organizational data in Microsoft 365
-*
+
 *Organizational data* is descriptive information about employees - for example, their names, positions, and company location. The Organizational data in Microsoft 365 feature lets you combine the organizational data that resides in your organization's external systems (such as HCM systems) with existing Microsoft 365 data (such as profile data) to power certain capabilities in applications (like advanced insights in Viva Insights) and to fill in the gaps for any missing or stale information.
 
 Microsoft 365 uses organizational data from two sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from a .csv file that you upload. The properties in the Microsoft Entra schema and the column names in the .csv file are referred to as *attributes* - these make up the descriptive information. 
@@ -82,8 +82,9 @@ Before you upload organizational data, you need to do the following:
 1. Know what data to include
 2.	Get an export of organizational data
 3.	Structure the organizational data
+4. Upload your organizational data
 
-### Know what data to include
+### Step 1 - Know what data to include
 By default the only required attribute is an email address, but different apps might require different attributes for full functionality. 
 
 Examples of organizational data include job role, organization, location, region, layer, level, and manager. This data is supplied at the individual level, which means that these attributes provide context to each person in the dataset.
@@ -113,7 +114,7 @@ To upload this missing data, follow these steps:
 3. Add the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
 4. Upload the file. Refer to Upload organizational data (subsequent upload) for more information.
 
-### Get an export of organizational data
+### Step 2 - Get an export of organizational data
 Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team can provide you with a data export of HR attributes for individual employees.
 
 In addition, your analysts might need data about business outcomes. If so, you'll need to contact line-of-business owners who have access to data stores that contain this information. For example, this data might include:
@@ -125,7 +126,7 @@ In addition, your analysts might need data about business outcomes. If so, you'l
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
-### Structure the organizational data
+### Step 3 - Structure the organizational data
 Now that you have your exported data, structure it into the correct format.
 
 #### Add required, reserved optional, and custom attributes.
@@ -159,7 +160,7 @@ Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest
 
 For more information about attributes, refer to the Attribute reference section.
 
-### Upload the organizational data file
+### Step 4 - Upload the organizational data file
 After you create a source .csv file, you can upload it through the Organizational data page > Data hub or Data connections tab.
 
 To upload your .csv file, follow these steps:
