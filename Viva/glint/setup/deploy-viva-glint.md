@@ -34,8 +34,6 @@ Ready to get started? Follow these steps:
 
 [Use Viva Glint email templates to share survey expectations within your organization](https://go.microsoft.com/fwlink/?linkid=2240825)
 
-[Configure SFTP IP addresses in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238339)
-
 [Set up your Allowed List](https://go.microsoft.com/fwlink/?linkid=2238617)
 
 [Understand Viva Glint survey access methods](https://go.microsoft.com/fwlink/?linkid=2230745)
