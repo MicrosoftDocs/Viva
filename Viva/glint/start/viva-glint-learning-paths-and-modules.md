@@ -37,8 +37,8 @@ Viva Glint learning paths and the modules contained within them have been carefu
 
 | Title |Type of training |Summary | Modules within path |
 |:------|:---------------:|:-------|:--------------------|
-|[Set a Vision and Strategy for your Viva Glint program](training/modules/viva-glint-set-vision-strategy/)|Module|Provides the framework for how meetings can be designed to align stakeholders on the core challenges within your organization and be solved with a Microsoft Viva Glint survey program|N/A| 
-|[Deliver results with your Executive Consultation](training/modules/viva-glint-deliver-results-executive-consultation/)|Module|Provides the knowledge to help you move from data to insights and facilitate a successful Executive Consultation (EC) with leadership teams|N/A|
+|[Set a Vision and Strategy for your Viva Glint program](training/modules/viva-glint-set-vision-strategy)|Module|Provides the framework for how meetings can be designed to align stakeholders on the core challenges within your organization and be solved with a Microsoft Viva Glint survey program|N/A| 
+|[Deliver results with your Executive Consultation](training/modules/viva-glint-deliver-results-executive-consultation)|Module|Provides the knowledge to help you move from data to insights and facilitate a successful Executive Consultation (EC) with leadership teams|N/A|
 |[Learn about a Viva Glint 360 Feedback program](/training/paths/viva-glint-360-feedback%20program/)|Learning path|Designed to help understand how to configure, launch, and share a 360 survey and results|<ul><li>[Understand Viva Glint’s approach to 360 Feedback](/training/modules/viva-glint-understand-viva-glint-approach-360-feedback/)</li><li>[Configure and manage a Viva Glint 360 Feedback program](/training/modules/viva-glint-configure-manage-viva-glint-360-feedback-program/)</li><li>[Set a Vision and Strategy for your Viva Glint program](/training/modules/viva-glint-set-vision-strategy/)</li></ul>| 
 
 
