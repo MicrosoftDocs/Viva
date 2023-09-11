@@ -18,8 +18,10 @@ ms.localizationpriority: high
 ms.date: 05/22/2023
 ---
 
+# What is an Allowed List?
+An Allowed List is a list of pre-approved URL or email addresses that receive guaranteed access to your server. An Allowed List is a security feature to reduce unapproved access by allowing only trusted files, applications, and processes to be run.
 
-# Manage your Allowed List for Viva Glint
+## Manage your Allowed List for Viva Glint
 
 Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
