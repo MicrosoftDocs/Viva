@@ -18,7 +18,10 @@ ms.localizationpriority: high
 ms.date: 05/22/2023
 ---
 
-# What is an Allowed List?
+# Manage your Allowed List for Viva Glint
+
+## What is an Allowed List?
+
 An Allowed List is a list of pre-approved URL or email addresses that receive guaranteed access to your server. An Allowed List is a security feature to reduce unapproved access by allowing only trusted files, applications, and processes to be run.
 
 # Manage your Allowed List for Viva Glint
