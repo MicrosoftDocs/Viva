@@ -121,6 +121,7 @@ Engage admin and corporate communicators have access to analytics that help moni
 ## Remove a post
 
 Corporate communicators and Engage admins can remove a post if it doesn't align with the purpose of the campaign. This action removes the post from the campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
+
 :::image type="content" source="../media/engage/campaigns/remove-camp-post.png" alt-text="Screenshot of the post menu where you can find the Remove command.":::
 ## Frequently asked questions
 
