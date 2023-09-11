@@ -62,8 +62,6 @@ The results notification email is a one-time notification to let users know that
 > [!IMPORTANT]
 > Access must be turned live 24 hours before the results notification email is scheduled to be sent.
 
-### 
-
 ## Related topics
 
 [Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
