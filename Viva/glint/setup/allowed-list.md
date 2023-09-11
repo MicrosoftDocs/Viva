@@ -24,9 +24,9 @@ ms.date: 05/22/2023
 
 An Allowed List is a list of pre-approved URL or email addresses that receive guaranteed access to your server. An Allowed List is a security feature to reduce unapproved access by allowing only trusted files, applications, and processes to be run.
 
-## Manage your Allowed List
+## Manage your Allowed List for Viva Glint
 
-Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
+Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
 ## Add email sender domains
 
@@ -56,7 +56,7 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 
 ### United States:
 
-| **Host** | TCP port | Description |
+| Host | TCP port | Description |
 | --- | --- | --- |
 | sftp.us1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
@@ -68,7 +68,7 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 
 ### European Union:
 
-| **Host** | **TCP port** | **Description** |
+| Host | TCP port | Description |
 | --- | --- | --- |
 | sftp.eu1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
@@ -80,6 +80,6 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 
 ## Explore additional allowed list information
 
-Some Viva Glint applications require the use of **third-party cookies** , such as hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
+Some Viva Glint applications require the use of **third-party cookies**, such as hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
 If your organization requires the addition of an **IP exception** for Viva Glint's SFTP server, the US address is 172.174.87.0, and the EU address is 20.238.98.162.
