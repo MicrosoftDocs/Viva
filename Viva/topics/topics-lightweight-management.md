@@ -1,5 +1,5 @@
 ---
-ms.date: 07/05/2023
+ms.date: 09/11/2023
 title: Viva Topics lightweight management in Viva Engage
 ms.author: daisyfeller
 author: daisyfell
@@ -23,9 +23,19 @@ Viva Topics lightweight management allows you to experience how Viva Topics can 
 
 Viva Topics provides a central knowledge base for manually created topics and definitions inside apps like Viva Engage. These topics don't use Viva Topics' AI, topic cards and pages but can be selected to classify conversations and posts in Viva Engage. Knowledge admins can edit, create, and delete these topics without Viva licensing as a way to make knowledge management more accessible to more users.
 
+## Permissions
+
+[Learn about how permissions work for Topics in Viva Engage.](/viva/topics/topic-experiences-viva-engage#topics-permissions-and-licenses)
+
+>[!NOTE]
+>You don't need a Viva Topics license for the lightweight management experience.
+
 ## Manage topics
 
 You need to be a Viva Engage admin to manage topics in the **Manage topics** page.
+
+You can access your lightweight management experiences by replacing "your-domain" with your domain in the following URL:
+<https://your-domain.sharepoint.com/_layouts/15/TopicsManagement.aspx>
 
 ### Create a new topic
 
