@@ -1641,7 +1641,7 @@
     },
     {
       "source_path": "Viva/glint/setup/add-a-public-ssh-key.md",
-      "redirect_url": "/glint/setup/upload-employee-data",
+      "redirect_url": "/viva/glint/setup/upload-employee-data",
       "redirect_document_id": true
     },
     {
