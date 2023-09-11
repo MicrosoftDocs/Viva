@@ -1,9 +1,9 @@
 ---
 title: Communications setup in Program Summary of Viva Glint
 description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in their preferred language is key.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: mbarry
 audience: admin
 f1.keywords: NOCSH
 keywords: reminders, reminder times, additional languages, notifications 
@@ -54,6 +54,15 @@ Setting up notifications and providing translations to your programs happen in t
        >Reporting Access configured on the Reporting page must manually be switched to "Live Access" at least 48 hours before the scheduled Survey End notification date. Survey End notification will not be delivered if access is not switched over.
    3. If desired, select the **pencil** symbol to edit the Survey End Notification. Make the necessary changes and repeat the process for each extra language being used.
    4. Select **Save Changes** and then **X** to close the slider panel.
+
+## Understand the results notification email
+
+The results notification email is a one-time notification to let users know that results are available to them. The email goes out to those users in roles with **live** reporting access 24-hours prior to the time of the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before survey closes. 
+
+> [!IMPORTANT]
+> Access must be turned live 24 hours before the results notification email is scheduled to be sent.
+
+### 
 
 ## Related topics
 
