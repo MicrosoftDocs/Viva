@@ -35,7 +35,7 @@ Viva Topics provides a central knowledge base for manually created topics and de
 You need to be a Viva Engage admin to manage topics in the **Manage topics** page.
 
 You can access your lightweight management experiences by replacing "your-domain" with your domain in the following URL:
-<https://your-domain.sharepoint.com/_layouts/15/TopicsManagement.aspx>
+`https://your-domain.sharepoint.com/_layouts/15/TopicsManagement.aspx`
 
 ### Create a new topic
 
