@@ -2,6 +2,20 @@
 
 
 
+## Week of September 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/5/2023 | [Use Viva Glint email templates to share survey expectations within your organization](/viva/glint/communicate/email-templates-survey-expectations) | modified |
+| 9/5/2023 | [Configure Saba as a content source for Microsoft Viva Learning](/viva/learning/configure-saba-content-source) | modified |
+| 9/5/2023 | [Manage Interests in Viva Learning](/viva/learning/interests) | modified |
+| 9/5/2023 | [Set up your Viva Glint instance](/viva/glint/setup/post-provisioning-next-steps) | modified |
+| 9/7/2023 | [Consider People Science factors for historical imports](/viva/glint/setup/import-external-people-science-pov) | added |
+| 9/7/2023 | [Import historical response data in Viva Glint](/viva/glint/setup/import-historical-response-data) | added |
+| 9/8/2023 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | added |
+
+
 ## Week of August 28, 2023
 
 
@@ -131,31 +145,3 @@
 | 8/9/2023 | FAQ for the Viva Insights app | removed |
 | 8/9/2023 | [Cross-collaboration: Group-to-group query](/viva/insights/advanced/analyst/cross-collaboration-g2g) | added |
 | 8/9/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
-
-
-## Week of July 31, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 7/31/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
-| 8/2/2023 | [Microsoft Project for the Web Integration with Viva Goals](/viva/goals/microsoft-project-integration) | added |
-| 8/2/2023 | [Configure your Viva Engage network](/viva/engage/configure-your-viva-engage-network/configure-viva-engage) | modified |
-| 8/2/2023 | [Manage admin roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
-| 8/2/2023 | [Viva Engage and Microsoft 365 Groups](/viva/engage/engage-microsoft-365-groups) | modified |
-| 8/2/2023 | [Customize your Viva Engage community](/viva/engage/manage-viva-engage-groups/customize-your-community) | modified |
-| 8/2/2023 | [Add, block, or remove Viva Engage users](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) | modified |
-| 8/2/2023 | [Report a Viva Engage conversation](/viva/engage/report-conversation-overview) | modified |
-| 8/2/2023 | Viva Insights personal insights introduction | removed |
-| 8/2/2023 | Microsoft Viva Insights documentation # < 60 chars | removed |
-| 8/3/2023 | [Personal insights service description](/viva/insights/personal/overview/mya-service-description) | modified |
-| 8/3/2023 | Confirm the installation of the Viva Insights Outlook add-in | removed |
-| 8/3/2023 | Key personal insights elements | removed |
-| 8/3/2023 | [Add SAP SuccessFactors as a content source](/viva/learning/sfsf-add-as-content-source) | modified |
-| 8/3/2023 | [Topic discovery and curation in Microsoft Viva Topics](/viva/topics/topic-experiences-discovery-curation) | modified |
-| 8/4/2023 | [Use announcements in Connections](/viva/connections/announcements-viva-connections) | modified |
-| 8/4/2023 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | modified |
-| 8/4/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
-| 8/4/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
-| 8/4/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
-| 8/4/2023 | [Personal insights FAQ](/viva/insights/personal/overview/mya-faq) | modified |
