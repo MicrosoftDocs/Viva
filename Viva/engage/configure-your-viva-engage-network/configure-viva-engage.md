@@ -45,7 +45,7 @@ As an Engage admin, network admin, or verified admin, you can choose to upload t
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
 #### Choose a language for system messages
-The system generates messages in response to user actions. These messages let the user know if the action was successful. User actions that trigger system messages include actions taken in the network configuration and in the app. For example, if you create a community, the system generates a banner message confirming that a new community was successfully created.
+The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app. For example, if you create a community, the system generates a banner message confirming that a new community was successfully created.
   
  - From the **Language** setting, choose a language for system messages. 
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
