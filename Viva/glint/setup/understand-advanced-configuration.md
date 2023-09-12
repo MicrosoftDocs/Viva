@@ -158,7 +158,7 @@ Use the Uploads option to:
 #### Upload types:
 
 - **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk.
-- **USERS_UPLOAD:** To upload employee data to Viva Glint via Secure File Transfer Protocol (SFTP) or the People page, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+- **USERS_UPLOAD:** To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
 
 ### Menu option - Running Jobs
