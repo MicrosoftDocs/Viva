@@ -20,7 +20,7 @@ ms.date: 04/10/2023
 
 # Prepare and upload your employee data to Viva Glint
 
-Your organizational data can appear in the Microsoft Viva Glint app in one of two ways: through Azure Active Directory, which is the default source, or through a .csv file that you as an admin upload.
+Your organizational data can appear in the Microsoft Viva Glint app through a .csv or .xlsx file that you as an admin upload.
 
 Viva Glint refers to this data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
