@@ -11,7 +11,9 @@
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: start/people-science-viva-glint.md     
+          href: start/people-science-viva-glint.md
+        - name: Learning path and modules
+          href: start/viva-glint-learning-paths-and-modules.md
    - name: Setup and administration
      items:
      - name: Deploy Microsoft Viva Glint
@@ -36,15 +38,6 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up Viva Glint Secure File Transfer Protocol
-       href: setup/setup-sftp.md
-       items:  
-        - name: Configure SFTP IP addresses in Viva Glint
-          href: setup/configure-sftp.md
-        - name: Create an SSH key pair for SFTP
-          href: setup/ssh-key-pair.md
-        - name: Add a public SSH key to Viva Glint
-          href: setup/add-a-public-ssh-key.md
      - name: Set up the Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
