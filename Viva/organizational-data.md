@@ -63,9 +63,6 @@ Ensure that the data you upload matches the attributes’ names and descriptions
 > 1.	If you choose to include some or all of the optional attributes in your .csv file, the values of the included attributes will take precedence over the values of the same attributes from existing sources (such as Microsoft Entra). 
 > 2.	Three name related attributes (First Name/Last Name/Display Name) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't uploaded.
 
-
-## Data privacy
-
 ## Data usage
 The data you upload is used by Viva, Microsoft 365 services, and non-Microsoft services as approved by your organization’s administrator. This data is treated as **publicly available** within the organization and can be used in [cross-tenant collaboration scenarios](https://support.microsoft.com/office/what-is-a-shared-channel-in-microsoft-teams-e70a8c22-fee4-4d6e-986f-9e0781d7d11d). This data also might be used by Copilot scenarios and machine learning training.  
 
@@ -73,14 +70,14 @@ The uploaded data is sent to and stored in the Microsoft 365 User Profile, which
 
 Organizational data that is manually uploaded by using a .csv file takes precedence over existing data. When Viva, Microsoft 365 services, and approved non-Microsoft services query the Microsoft 365 User Profile, a response generation process determines the value for each property. For the attributes listed, if you manually upload an attribute *and* the attribute has a different value in an existing source (such as Microsoft Entra ID), the value from the .csv file takes precedence -  that's the value that is used in Viva, Microsoft 365 services, and approved non-Microsoft services.
 
-Because of this, if you prefer to use the values in existing sources, you should **NOT** upload values for those attributes. 
+Because of this, if you prefer to use the values in existing sources, do **NOT** upload values for those attributes. 
 
-## Prepare your organizational data 
+## Prepare and import your organizational data 
 
 Before you upload organizational data, you need to do the following: 
 
 1. Know what data to include
-2.	Get an export of organizational data
+2.	Download a .csv template
 3.	Structure the organizational data
 4. Upload your organizational data
 
@@ -128,8 +125,8 @@ There are three types of attributes you can add in your organizational data file
 
 All dates should be in the MM/DD/YYYY format. All numerical fields need to be in the "number" format and can't contain commas or a dollar sign.
 
-#### Sample .csv file
-Here's an example snippet of a valid .csv file:
+#### Sample CSV file
+Here's an example snippet of a valid CSV file:
 
 ```
 PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area 
