@@ -49,9 +49,14 @@ Portuguese (Portugal)|Slovenian |
 
 Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports the following languages.
 
+Generally available:
+
 |&nbsp;  | &nbsp; |&nbsp; |
 |---|---|---|
 English|Spanish |French |
 German |Italian |Portuguese |
+
+In preview:
+Japanese
 
 For information about supported languages in other Viva modules, see [Microsoft Viva language support](../viva-language-support.md).
