@@ -123,7 +123,7 @@ Viva Amplify approvals are supported by the Approvals app in Teams. You need to 
 
 ## Delete campaigns
 
-As a Global admin or SharePoint admin, you can delete a Viva Amplify campaign using the same method you would to delete a SharePoint site. Deleted campaigns are stored for a set amount of time based on your organization's retention policies. [Learn more about how to delete a campaign](/sharepoint/delete-site-collection).
+As a Global admin or SharePoint admin, you can delete a Viva Amplify campaign using the same method you would use to delete a SharePoint site. Deleted campaigns are stored for a set amount of time based on your organization's retention policies. [Learn more about how to delete a campaign](/sharepoint/delete-site-collection).
 
 >[!IMPORTANT]
 >Make sure to notify the campaign owner and any subsite owners before you delete a campaign so they can move their data to another location if needed.
