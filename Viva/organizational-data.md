@@ -97,7 +97,7 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the Analysis page. So, employees whose data is missing is excluded from the analyses that analysts perform.
 
 > [!IMPORTANT]
->Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. 
+> Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. 
 
 ### Step 2 - Download a .csv template
 When you're ready to create your organizational data upload, you can download a template to use as a starting point. 
@@ -106,27 +106,26 @@ When you're ready to create your organizational data upload, you can download a 
 2. Select **Download CSV template**.
 
 > [!NOTE]
-You can also use organizational data exported from another system, such as your HR software, as your starting point, as described in [Get an export of organizational data](/viva/insights/advanced/admin/prepare-org-data#step-3---get-an-export-of-organizational-data).
+> You can also use organizational data exported from another system, such as your HR software, as your starting point, as described in [Get an export of organizational data](/viva/insights/advanced/admin/prepare-org-data#step-3---get-an-export-of-organizational-data).
 
 ### Step 3 - Structure the organizational data
 Now that you have your CSV file starting point, add the organizational data that you want to use in Microsoft 365. 
 
-There are three types of attributes you can add in your organizational data file: required, reserved optional, and custom.
+There are three types of attributes you can add in your organizational data file: required, reserved optional, and custom. Attributes can be in any order in the file. However, you can't use the names of required and reserved attributes as the names of any new custom attributes.
 
-> [!NOTE]
-> The maximum number of total attributes allowed in the system is 105, which includes required attributes.
 
 - **Required** - The only attribute required by default is email address.
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
 - **Custom** - Custom attributes are any additional attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, refer to Upload organizational data (first upload).
 
-> [!NOTE]
-> Attributes can be in any order in the file. However, you can't use the names of required and reserved attributes as the names of any new custom attributes.
-
 All dates should be in the MM/DD/YYYY format. All numerical fields need to be in the "number" format and can't contain commas or a dollar sign.
 
-#### Sample CSV file
-Here's an example snippet of a valid CSV file:
+> [!NOTE]
+> The maximum number of total attributes allowed in the system is 105, which includes required attributes.
+
+
+#### Sample organizational data file
+Here's an example snippet of a valid .csv file:
 
 ```
 PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area 
