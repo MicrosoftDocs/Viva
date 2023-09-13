@@ -30,7 +30,7 @@ The Program Setup page is the first configuration page within Program Summary. I
 1. The list of **Additional Languages** is open and prepopulated with languages that have been set up for your organization in **General Settings**. To remove languages, select the **X** next to the language name.
 1. **Admin Notifications** To are prepopulated. Use the **Search** field to add other admins. To remove an admin, select *X* next to their name.
 1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
-1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson for additional setup](https://www.microsoft.com).  
+1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson for additional setup](https://go.microsoft.com/fwlink/?linkid=2231015).  
 1. Confidential Responses are set to YES by default.  
 1. **Allow Pulse Resubmission** is enabled by default. **NO** disables the feature and a user who wants to retake their survey must request a manual reset.
 1. **Enable Team Conversations** is enabled by default. **NO** disables the feature for the program. For more information, see Team Conversations. 
