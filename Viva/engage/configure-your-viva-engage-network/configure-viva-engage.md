@@ -22,9 +22,9 @@ description: "Use the Viva Engage admin tools to set up your Viva Engage network
 
 # Configure your Viva Engage tenant
 
-To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Viva Engage Enterprise.
+To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Microsoft Viva Engage Enterprise.
   
-As you get started with Viva Engage, review the links in [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
+As you get started with Viva Engage, review the links in the [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
   
 To access the Viva Engage tenant settings:
   
@@ -45,7 +45,8 @@ As an Engage admin, network admin, or verified admin, you can choose to upload t
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
 #### Choose a language for system messages
-System messages notify users of important actions in the network and conversations, such as creating a new group or adding people to a conversation.  
+The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app. For example, if you create a community, the system generates a banner message confirming that a new community was successfully created.
+  
  - From the **Language** setting, choose a language for system messages. 
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
 
