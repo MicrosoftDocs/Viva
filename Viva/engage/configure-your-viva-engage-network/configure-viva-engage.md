@@ -17,31 +17,31 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: f886e916-fe64-41de-be52-38d458250fa5
-description: "Use the Viva Engage admin tools to set up your Engage network. Covers options for configuration, design, admins, usage policy, external networks, and activity stream keys."
+description: "Use the Viva Engage admin tools to set up your Viva Engage network. Covers options for configuration, design, admins, usage policy, external networks, and activity stream keys."
 ---
 
 # Configure your Viva Engage tenant
 
 To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Microsoft Viva Engage Enterprise.
   
-As you get started with Engage, review the links in the [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
+As you get started with Viva Engage, review the links in the [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
   
-To access the Engage tenant settings:
+To access the Viva Engage tenant settings:
   
-- In Engage, select the settings icon and go to the admin center.
+- In Viva Engage, select the settings icon and go to the admin center.
 - In the admin center, on the **Setup and configuration** tab, select **Tenant settings**.
 
 #### Set the tenant name
 
 > [!IMPORTANT]
-> For Microsoft 365 and Office 365 Engage tenants, the name in the Microsoft 365 or Office 365 company profile overrides the tenant name setting in Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
+> For Microsoft 365 and Office 365 Viva Engage tenants, the name in the Microsoft 365 or Office 365 company profile overrides the tenant name setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
 - On the **Tenant settings** page, set the tenant name.
 
 #### Set a usage policy 
 To ensure that content is office‐appropriate, you may want to create a usage policy for engagement. For instructions and best practices, see [set up a usage policy](../set-up-usage-policy.md).
 
 #### Upload a Tenant logo
-As an Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
+As an Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
 #### Choose a language for system messages
@@ -82,14 +82,14 @@ Choose from these three options:
       - **Don't allow anyone to upload or attach files**: When selected, this option prevents people from uploading and attaching new files. Existing attachments aren't affected.
 
 > [!NOTE]
-> When files are stored in Engage, there is no virus check. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process.
+> When files are stored in Viva Engage, there is no virus check. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process.
 >
-> For Microsoft 365 connected Engage groups that store files in SharePoint, virus checking occurs when the file is uploaded. For more information, see [Virus dectection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo).
+> For Microsoft 365 connected Viva Engage groups that store files in SharePoint, virus checking occurs when the file is uploaded. For more information, see [Virus dectection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo).
 
 > [!TIP]
 > Any admin can delete any file. Community admins can delete files posted to the groups they manage.
 >
-> To delete files, a network admin can select the Engage **Settings** icon and then select **Files**. This brings up the **Files** directory for the entire network. Community admins can delete files posted to a group from the **Files** tab in the group they administer.
+> To delete files, a network admin can select the Viva Engage **Settings** icon and then select **Files**. This brings up the **Files** directory for the entire network. Community admins can delete files posted to a group from the **Files** tab in the group they administer.
   
 #### Enable or restrict the use of third-party apps
 
@@ -111,7 +111,7 @@ The growing network of partners and developers in Viva Engage continue to build 
 By default, users can attach GIFs provided by Tenor, a third-party company, to posts.
 
 > [!NOTE]
-> The GIF search in Engage defaults to Tenor's "young audience" and "strict" filters to keep GIFs appropriate in a school or work setting. If you see inappropriate GIFs in a search, send email to support@tenor.com with a link to the GIF.
+> The GIF search in Viva Engage defaults to Tenor's "young audience" and "strict" filters to keep GIFs appropriate in a school or work setting. If you see inappropriate GIFs in a search, send email to support@tenor.com with a link to the GIF.
 
 You can turn off this feature so that users don't see GIFs from Tenor.
 
