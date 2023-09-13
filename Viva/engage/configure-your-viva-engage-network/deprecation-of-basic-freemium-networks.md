@@ -18,7 +18,7 @@ search.appverid:
 description: "We retired free Viva Engage Basic networks at the end of 2022 for an improved customer experience through new functionality and smoother integration."
 ---
 
-# Retiring Viva Engage Basic - Frequently asked questions
+# Viva Engage Basic networks are retired - FAQ
 
 Starting December 1, 2022, we retired our free Microsoft Yammer Basic networks to ensure smoother integration and new functionality for our Microsoft Viva Engage customers. This decision was initially announced in June 2022. Loss of basic or "freemium" network access was enforced in May 2023.
 
@@ -27,7 +27,7 @@ Starting December 1, 2022, we retired our free Microsoft Yammer Basic networks t
 If your organization has an Office 365 or Microsoft 365 license, Viva Engage is included. See [Manage Viva Engage domains in Office 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
 https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 month per user.
 
-#### My organization has a Viva Engage network, but users from basic or "freemium" networks collaborate with us. Can they join our network as guests?
+#### My organization has a Viva Engage network, but users from basic networks collaborate with us. Can they join our network as guests?
 
 Not unless they upgrade their license. If you're based in the US, you can invite them to collaborate with you through an [external network](../work-with-external-users/create-and-manage-an-external-network.md).
 
