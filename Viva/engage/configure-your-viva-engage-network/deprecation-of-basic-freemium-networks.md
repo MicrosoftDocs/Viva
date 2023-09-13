@@ -15,25 +15,25 @@ ms.custom: Adm_Yammer
 search.appverid: 
 - MOE150
 - MET150
-description: "We retired Viva Engage Basic/Freemium networks at the end of 2022 for an improved customer experience through new functionality and smoother integration."
+description: "We retired free Viva Engage Basic networks at the end of 2022 for an improved customer experience through new functionality and smoother integration."
 ---
 
-# Basic/Freemium are retired - Frequently asked questions
+# Retiring Viva Engage Basic - Frequently asked questions
 
-Starting December 1st, 2022, we retired Microsoft Yammer Basic/Freemium networks to ensure smoother integration and new functionality for our Microsoft Viva Engage customers. This decision was initially announced in June 2022, and loss of network access was enforced in May 2023.
+Starting December 1, 2022, we retired our free Microsoft Yammer Basic networks to ensure smoother integration and new functionality for our Microsoft Viva Engage customers. This decision was initially announced in June 2022. Loss of basic or "freemium" network access was enforced in May 2023.
 
 #### We still want a Viva Engage network. What can we do?
 
 If your organization has an Office 365 or Microsoft 365 license, Viva Engage is included. See [Manage Viva Engage domains in Office 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
-https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 per user per month.
+https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 month per user.
 
-#### My organization has a Viva Engage network, but users from Freemium networks collaborate with us. Can they join our network as guests?
+#### My organization has a Viva Engage network, but users from basic or "freemium" networks collaborate with us. Can they join our network as guests?
 
 Not unless they upgrade their license. If you're based in the US, you can invite them to collaborate with you through an [external network](../work-with-external-users/create-and-manage-an-external-network.md).
 
 #### Our collaborators no longer have access to our external network as guests. How can they regain access?
 
-It sounds like your collaborators have basic (Freemium) accounts, which are now retired. If your Viva Engage networks are hosted in the US, you can invite guests to your external network. If you run your tenant in Native Mode, you can invite them to individual communities. Before you can do this, however, your collaborators must contact their organization’s network administrator to upgrade their license.  
+It sounds like your collaborators have basic accounts, which are now retired. If your Viva Engage networks are hosted in the US, you can invite guests to your external network. If you run your tenant in Native Mode, you can invite guests to individual communities. Before guests can join your external network or communities, however, they must upgrade their license. Ask your collaborators to contact their organization’s network administrator.  
 
 #### What if we want to keep all our data from the old network and move it to the new network?
 
