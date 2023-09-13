@@ -1,5 +1,5 @@
 ---
-ms.date: 06/24/2022
+ms.date: 09/12/2023
 title: Curate Multilingual topics in Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -22,12 +22,12 @@ description: Learn how to curate topics in multiple languages using the Multilin
 
 The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
-> [!Note] 
-> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics 
+> [!NOTE]
+> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics.
 
 ## Curate Multilingual content into a topic page
 
-To curate a multilingual topic page, open a topic page, and select **Multilingual** on the upper-left of the topic page. The topic page can also be opened from the topic center home page or from a topic highlight in your tenant.
+To curate a multilingual topic page, open a topic page, and select **Multilingual** on the topic page. The topic page can also be opened from the topic center home page or from a topic highlight in your tenant.
 
    ![Screenshot showing Multilingual button on the topic page.](../media/knowledge-management/ml-topic-page-initial.png)
 
@@ -37,7 +37,7 @@ To curate a multilingual topic page, open a topic page, and select **Multilingua
 
 2. The Multilingual panel will confirm when the new Multilingual page is created. Select **View** to open and edit the Multilingual page.
 
-     ![Screenshot showing the Multilingual panel and the option to view the new languegage page.](../media/knowledge-management/ml-panel-view-page.png)
+     ![Screenshot showing the Multilingual panel and the option to view the new language page.](../media/knowledge-management/ml-panel-view-page.png)
 
 3. To edit the newly created Multilingual topic page, select **Edit** on the command bar on the topic page.
 
@@ -63,20 +63,30 @@ To curate a multilingual topic page, open a topic page, and select **Multilingua
 
      ![Screenshot showing the short description editing field in the Multilingual page.](../media/knowledge-management/ml-edit-short-description.png)
 
-
-> [!Note] 
-> When editing the Multilingual page, there are fields you can only edit in the default language topic page. Fields available to edit in the default language topic page include: Confirmed people, Pinned files and pages, Related sites, and Related topics.
-   To edit these fields, save or publish your changes on the Multilingual topic page and visit the topic's default language page and continue editing if needed.
-
+> [!NOTE]
+> When adding another language page for an existing topic, there are fields you can only edit in the originally created language topic page. These fields include: Confirmed people, Pinned files and pages, Related sites, and Related topics.
+>
+> To edit these fields, save or publish your changes on the Multilingual topic page and visit the topic's default language page and continue editing if needed.
 
 ![Screenshot showing the publish the curated Multilingual page.](../media/knowledge-management/ml-publish-page.png)
 
 ## View a published Multilingual topic page
+
 To view a published Multilingual topic page, select a language option on the upper-right language menu of the topic page.
 
 ## Language settings
-The topic user's preferred language in their tenant will determine the language in which the Viva Topics metadata will be presented on a topic card, topic answer, topic picker, and other Viva Topics tools. If the preferred language is Spanish, the topic contributor will be presented with Spanish content.
+
+Viva Topics honors users' language preference language setting from their account profile to present topics metadata. For example, if a user's preferred language is Spanish, Spanish metadata will be presented on topic card, topic picker, topic answer and other topics experiences if available, or tenant default language (mostly in English) metadata will be presented.
 
 Languages can be changed or updated through settings in the apps.
 
 ![Screenshot showing Spanish language settings in SharePoint.](../media/knowledge-management/sp-language-settings.png)
+
+## Create a topic in a language other than the default language
+
+If a topic already exists in your organization, you can create a new version of it in another language.
+
+1. From your Topic center, choose **+New** and select **Topic Page**.
+2. Give your topic a name, and select your desired language.
+    ![Screenshot of the pane to choose your topic name and language.](../media/knowledge-management/multilingual-new-topic.png)
+3. This will create a new topic in your desired language.
