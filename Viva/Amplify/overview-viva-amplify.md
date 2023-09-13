@@ -4,7 +4,7 @@ ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
 ms.reviewer: smathurin
-ms.date: 07/18/2023
+ms.date: 09/13/2023
 audience: admin
 ms.topic: article
 ms.custom: 
@@ -28,6 +28,6 @@ Viva Amplify empowers organizational communication teams and leaders to elevate 
 
 ## Get started
 
-[Set up Viva Amplify](link)
+[Set up Viva Amplify](set-up-viva-amplify.md)
 
-[View the user training content](link)
+[View the user training content](https://support.microsoft.com/topic/introduction-to-viva-amplify-cedd11d3-ea8a-4d55-9b5b-61459353be1a)

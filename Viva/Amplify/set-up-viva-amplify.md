@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Viva Amplify
 ms.reviewer: smathurin
-ms.date: 08/10/2023
+ms.date: 09/13/2023
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -21,7 +21,7 @@ description: Learn how to set up Viva Amplify for your organization.
 ---
 # Set up Microsoft Viva Amplify
   
-Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. Using multi-channel publishing, communicators can reach employees across Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees will continue to see relevant messages in their existing preferred channels.
+Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees will continue to see relevant messages in their existing preferred channels.
 
 Viva Amplify is a web experience and is automatically enabled for users with the required licensing.
 
@@ -37,7 +37,7 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 
 ## Product limitations
 
-- **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, please reach out to your support contact to discuss the best approach for rolling out our product within your organization.
+- **Vanity URLs**: At launch, Viva Amplify may have limitations when used with vanity URLs. If your company has a vanity URL, reach out to your support contact to discuss the best approach for rolling out our product within your organization.
 - **Localization** At launch, Viva Amplify is available exclusively in English. More languages are planned for future releases.
 
 ### Assign admin roles
@@ -57,7 +57,7 @@ First, familiarize yourself with [roles in Viva Amplify.](viva-amplify-roles.md)
 
     ![Screenshot of the Viva Amplify option.](../media/amplify/set-up-mac-viva.png)
 
-1. This will take you to the **Setup and management** tab.
+1. This takes you to the **Setup and management** tab.
 
     ![Screenshot of the Setup and management tab.](../media/amplify/set-up-mac-amplify.png)
 
@@ -79,7 +79,12 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 ## Manage organizational data
 
-<!--daisy-->
+>[!NOTE]
+>This capability is currently only available for private preview customers. General availability is coming soon.
+
+Amplify provides reporting data for metrics such as read rates on emails, view rates on SharePoint pages, interactions with Teams posts, and more. Importing your organizational data can enhance your Amplify reports by giving you further insight into use and impact.
+
+Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and will fill in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
 
 ## Manage campaign settings
 
@@ -99,7 +104,7 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 1. Select **Viva Amplify**.
 
-1. This will take you to the **Setup and management** tab.
+1. This takes you to the **Setup and management** tab.
 
 1. Choose **Manage campaign settings**.
 
@@ -114,7 +119,7 @@ As with SharePoint sites, Viva Amplify campaigns can be managed in the **Active 
 
 ## Manage approval workflows
 
-Viva Amplify approvals are supported by the Approvals app in Teams. You'll need to set up Approvals in Teams to be able to use approvals in Amplify. [Learn how to set up Approvals in Teams](/microsoftteams/approval-admin).
+Viva Amplify approvals are supported by the Approvals app in Teams. You need to set up Approvals in Teams to be able to use approvals in Amplify. [Learn how to set up Approvals in Teams](/microsoftteams/approval-admin).
 
 ## Delete campaigns
 
