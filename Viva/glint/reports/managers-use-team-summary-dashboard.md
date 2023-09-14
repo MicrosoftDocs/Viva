@@ -1,9 +1,9 @@
 ---
 title: Managers using the Team Summary dashboard in Viva Glint
 description: "The Viva Glint Team Summary manager dashboard experience provides feedback visibility into key insights, strengths, and opportunities."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: mbarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -55,11 +55,9 @@ In this section, you'll see
 
 ### Celebrations
 
-Managers may see an animated Celebrations display if there are positive trends or the number of items above benchmark have improved compared to past reports. Celebrations don't show in an initial survey.
+Managers may see an animated Celebrations display if there are positive trends or the number of items above benchmark have improved compared to past reports. The criteria for a celebration to show up is **"Our team’s scores for X questions are above [the company’s/the benchmark/all my teams]!"**, allowing Celebrations to show even in a new survey.
 
-Extra factors are considered when populating this section. 
-
-The table below helps to understand them:
+Other factors are considered when populating this section. The table below helps to understand them:
 
 |Improved Score type |Compared to |Minimum Response Count and score difference|Celebration message|
 |------------|-------|-------|-------|
