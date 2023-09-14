@@ -2,7 +2,7 @@
 title: Import members into a Viva Glint Distribution List 
 description: Importing members into your Viva Glint HRIS file is easy and you can also take advantage of the blended membership Distribution functionality.
 ms.author: alanderfield
-author: AdamLanderfield
+author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
