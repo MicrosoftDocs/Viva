@@ -1,8 +1,8 @@
 ---
-title: Import members into a Viva Glint Distribution List and use the blended membership functionality
+title: Import members into a Viva Glint Distribution List 
 description: Importing members into your Viva Glint HRIS file is easy and you can also take advantage of the blended membership Distribution functionality.
-ms.author: JudithWeiner
-author: JudyWeiner
+ms.author: alanderfield
+author: AdamLanderfield
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 09/07/2023
 ---
 
-# Import members into a Viva Glint Distribution List and use the blended membership functionality
+# Import members into a Viva Glint Distribution List 
 
 Importing members to an existing Distribution List removes the current attribute rules from that list.
 
@@ -34,7 +34,10 @@ Follow this procedure:
 6. Select **Import File**.
 7. The **Confirm your import** window displays. View the summary and if it's as expected, select **Confirm Import**.
 
-## Use the blended membership Distribution List functionality
+> [!TIP]
+> [Read this guidance for more information to set up and use Distribution Lists in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2246615)
+
+## Optional - Use the blended membership Distribution List functionality
 
 Dynamic attributes automatically add and remove users to and from a distribution list. They can also include or exclude certain users from a list. Knowing how your distribution list has been populated helps you make decisions about how to add users.
 
