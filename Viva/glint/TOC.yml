@@ -81,6 +81,8 @@
         - name: Set up and use Distribution lists in Viva Glint
           href: setup/set-up-distribution-lists.md
           items:
+          - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
+            href: setup/import-members-distribution-lists.md
           - name: Export a Viva Glint Distribution list
             href: setup/export-distribution-lists.md
         - name: Customize action plans in Viva Glint
