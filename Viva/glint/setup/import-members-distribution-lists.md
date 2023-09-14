@@ -59,5 +59,5 @@ Your decision whether to use manual population or attribute rule population shou
     > [!IMPORTANT]
     > Importing users to an Attribute Rules Distribution List removes existing rules.
     >
-    > - Activate the **Preserve the employees already in this distribution lis** t functionality to convert membership type to **Manual** for existing users.
+    > - Activate the **Preserve the employees already in this distribution list**  functionality to convert membership type to **Manual** for existing users.
     > - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file.
