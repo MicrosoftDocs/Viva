@@ -31,7 +31,7 @@ Microsoft 365 uses organizational data from two sources: either Microsoft Entra 
 
 ## Data attributes
 
-When you upload a .csv file, you need to include at least one required attribute, **PersonEmail**, for each employee. To learn how to set up and structure an organizational data .csv file, see [Prepare organizational data](/viva/insights/advanced/admin/org-data-overview).
+When you upload a .csv file, you need to include at least one required attribute, **PersonEmail**, for each employee. To learn how to set up and structure an organizational data .csv file, see [Prepare organizational data](#prepare-and-import-your-organizational-data).
 
 You can also include the following optional attributes. (The value in parenthesis is the corresponding property name in the Microsoft 365 User Profile schema).
 
@@ -60,8 +60,8 @@ You can also include the following optional attributes. (The value in parenthesi
 Ensure that the data you upload matches the attributes’ names and descriptions listed above. Also avoid uploading sensitive personal data.
 
 > [!IMPORTANT]
-> 1.	If you choose to include some or all of the optional attributes in your .csv file, the values of the included attributes will take precedence over the values of the same attributes from existing sources (such as Microsoft Entra). 
-> 2.	Three name related attributes (First Name/Last Name/Display Name) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't uploaded.
+> 1. If you choose to include some or all of the optional attributes in your .csv file, the values of the included attributes will take precedence over the values of the same attributes from existing sources (such as Microsoft Entra). 
+> 2. Three name related attributes (First Name/Last Name/Display Name) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't uploaded.
 
 ## Data usage
 The data you upload is used by Viva, Microsoft 365 services, and non-Microsoft services as approved by your organization’s administrator. This data is treated as **publicly available** within the organization and can be used in [cross-tenant collaboration scenarios](https://support.microsoft.com/office/what-is-a-shared-channel-in-microsoft-teams-e70a8c22-fee4-4d6e-986f-9e0781d7d11d). This data also might be used by Copilot scenarios and machine learning training.  
