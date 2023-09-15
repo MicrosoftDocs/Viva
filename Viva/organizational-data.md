@@ -22,9 +22,8 @@ search.appverid:
 - MET150
 description: "Import organizational data in Microsoft Viva and Microsoft 365"
 ---
-> *This feature is currently in private preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.*
-
 # Import and use organizational data in Microsoft 365
+> *This feature is currently in private preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.*
 
 *Organizational data* is descriptive information about employees - for example, their names, positions, and company location. The Organizational data in Microsoft 365 feature lets you combine the organizational data that resides in your organization's external systems (such as HCM systems) with existing Microsoft 365 data (such as profile data) to power certain capabilities in applications (like advanced insights in Viva Insights) and to fill in the gaps for any missing or stale information.
 
