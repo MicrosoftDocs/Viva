@@ -61,8 +61,10 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. Export current employee data from the Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, you'll reload this data to reset users to their current information.
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey(s) that will be updated.
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 2.
-> [!IMPORTANT]
-> Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
+
+   > [!IMPORTANT]
+   > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
+
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
    1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the Manager ID attribute.
    1. Correct values for users that should have their Manager ID updated.
@@ -94,7 +96,8 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. Select **Execute, and show first 500 log records**.    
 1. Confirm Manager Hierarchy changes in your **Dashboard** and **Reports**.
 1. If the user data updates made by the correction file loaded for this update should be reset to current attribute values, load the data exported in Step 1 to the Glint People page.
-   1. For example, if Manager corrections apply to survey data in the past, but have since changed for employees, be sure to load data exported in Step 1 to restore current information.
+
+   For example, if Manager corrections apply to survey data in the past, but have since changed for employees, be sure to load data exported in Step 1 to restore current information.
 
 > [!NOTE]
 > Depending on the number of Manager ID updates and users involved, it may take up to an hour to see changes reflected in reporting.
