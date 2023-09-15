@@ -54,7 +54,7 @@ To manage external users' access to Viva Glint and Advanced Configuration, follo
 
 View specifics about how data display in Viva Glint reporting and which features are enabled.
 
-| **Setting** | **Description** |
+| Setting | Description |
 | --- | --- |
 | **Auto Action Plans** | Enable autogeneration of action plans for eligible users |
 | **Custom Surveys Enabled** | Advanced survey customization, no action required. |
@@ -103,7 +103,7 @@ For a simpler view of existing survey programs, from the admin dashboard, select
 
 Select a survey program to view more details and options:
 
-| **Setting** | Description |
+| Setting | Description |
 | --- | --- |
 | **State** | ACTIVE (ready to be enabled) or DRAFT (edit mode) |
 | **Domain** | No action needed, leave blank |
@@ -140,9 +140,9 @@ Import external data from non-Viva Glint survey results to see trend for past it
 
 ### Menu option - Data Apps
 
-Use Viva Glint Data Apps to export recipients or update attribute values for users in closed surveys.
+Use Viva Glint Data Apps to export recipients or update attribute values for users in closed surveys. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
 
-| **App UUID** | **Description** |
+| App UUID | Description |
 | --- | --- |
 | **EXPORT_USERS_FROM_SURVEY_CYCLE** | Export survey recipients, attributes, and hierarchies as they existed when a survey launched |
 | **RETROACTIVE_PULSE_UPDATE** | Update employee attributes associated with a closed survey cycle |
@@ -157,8 +157,10 @@ Use the Uploads option to:
 
 #### Upload types:
 
-- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk.
-- **USERS_UPLOAD:** To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+- **USERS_UPLOAD:** 
+   - To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+   - Use the guidance in this article to perform a Retroactive USERS_UPLOAD: [Use Advanced Configuration Uploads](https://go.microsoft.com/fwlink/?linkid=2247341).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
 
 ### Menu option - Running Jobs
