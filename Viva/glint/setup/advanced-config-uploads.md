@@ -19,7 +19,7 @@ ms.date: 09/15/2023
 
 # Use Advanced Configuration Uploads
 
-For highly trained users, Microsoft Viva Glint the Advanced Configuration Uploads option allows you to view file up load details, perform custom data access uploads for users in bulk, and complete complex data updates.
+For highly trained users, Microsoft Viva Glint the Advanced Configuration Uploads option allows you to view file upload details, perform custom data access uploads for users in bulk, and complete complex data updates.
 
 ## Review upload types
 
@@ -54,14 +54,14 @@ When several users need customized data access to their Viva Glint Dashboards, u
 1. In the **Choose job type** dropdown list, select **MANAGERS_UPLOAD**.
 1. **Incremental:**
    1. Switch on this toggle to append access to users in your file.
-   1. Switch off this toggle to overwrite all access for for users in your file. Users not included in the file aren't impacted.
+   1. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 1. In the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your uploaded file.
 1. Select **Apply Upload to Database** to upload new values to and kick off a process to refresh reporting data.
 1. In the **Load import file into database?** dialog, select **Yes**.
 1. Go to some users' profiles to confirm that customized access appears as expected.
 
-For exammple, the custom data access for this user:
+For example, the custom data access for this user:
 
 |manager reference  |population   |add or remove|survey uuid |Cost Center |Manager Level 1 |Region |Country |City |
 |----------|-----------|------------|------------|------------|------------|------------|------------|------------|
@@ -72,7 +72,7 @@ For exammple, the custom data access for this user:
 
 Displays on her profile like this:
 
-:::image type="content" source="../../media/glint/setup/glint-custom-access.png" alt-text="Screenshot of a user's custom Cost Centre, Manager Team, and Location access.":::
+:::image type="content" source="../../media/glint/setup/glint-custom-access.png" alt-text="Screenshot of a user's custom Cost Center, Manager Team, and Location access.":::
 
 ## Perform a Retroactive USERS_UPLOAD
 

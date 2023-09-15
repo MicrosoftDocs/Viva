@@ -20,7 +20,7 @@ ms.date: 09/15/2023
 
 # Use Advanced Configuration Data Apps
 
-For highly trained users, Microsoft Viva Glint Advanced Configuration Data Apps allow you to perform complex data updates and export recipients for closed surveys. Use the guidance below to understand when and how to use Data Apps.
+For highly trained users, Microsoft Viva Glint Advanced Configuration Data Apps allow you to perform complex data updates and export recipients for closed surveys. Use the following guidance to understand when and how to use Data Apps.
 
 ## EXPORT_USERS_FROM_SURVEY_CYCLE
 
@@ -85,7 +85,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    1. **attributeName:**  Select **Load Values** and choose your Manager ID attribute. 
    1. **reloadAnalytics:** Switch toggle to **Off**.
    1. Select **Execute, and show first 500 log records**.
-1. Select parameters to update the overall Manager Hierachy:
+1. Select parameters to update the overall Manager Hierarchy:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
    1. **cycleName:** Select **Load Values** and choose an option from the dropdown list.
    1. **roleOrDistributionList:**  Select **Load Values** and choose **(all)**.
