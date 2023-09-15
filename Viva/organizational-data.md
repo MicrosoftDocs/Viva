@@ -22,6 +22,7 @@ search.appverid:
 - MET150
 description: "Import organizational data in Microsoft Viva and Microsoft 365"
 ---
+> *This feature is currently in private preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.*
 
 # Import and use organizational data in Microsoft 365
 
