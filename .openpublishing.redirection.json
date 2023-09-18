@@ -1658,6 +1658,11 @@
       "source_path": "Viva/glint/setup/ssh-key-pair.md",
       "redirect_url": "/viva/glint/setup/upload-employee-data",
       "redirect_document_id": false
-    }    
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-terms-faq.md",
+      "redirect_url":"/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    }
   ]
 }
