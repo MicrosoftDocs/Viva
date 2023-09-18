@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high
+ms.localizationpriority:high
 ms.date: 09/18/2023
 
 # Diversity & Inclusion survey programs in Viva Glint
