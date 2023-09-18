@@ -29,7 +29,7 @@ description: "Import Organizational Data in Microsoft Viva and Microsoft 365"
 
 *Microsoft 365 User Profile Data* refers to the information associated with a user's account and is stored in the [Microsoft 365 User Profile](). This information includes email address, phone number, job title, and other descriptive information.
 
-Microsoft 365 User ProFile Data comes from two main sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from Organization Data in Microsoft 365 through a .csv file that you upload. The properties in the Microsoft Entra schema and in the Microsoft 365 User Profile match the column names in the .csv file and are referred to as *attributes* in Organizational Data in Microsoft 365. 
+Microsoft 365 User Profile Data comes from two main sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from Organization Data in Microsoft 365 through a .csv file that you upload. The properties in the Microsoft Entra schema and in the Microsoft 365 User Profile match the column names in the .csv file and are referred to as *attributes* in Organizational Data in Microsoft 365. 
 
 ## Data attributes
 
