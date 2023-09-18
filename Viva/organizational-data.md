@@ -155,7 +155,7 @@ When a Microsoft 365 license is removed from a tenant or when consent is removed
 Organizational Data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
 
 
-## Manage data subject requests
+### Manage data subject requests
 A *Data Subject Request* or DSR is a formal request by a data subject (an end user) to a controller to take an action on their personal data. To understand what data subject rights end users have, see [Office 365 Data Subject Requests Under the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-office365). 
 
 Use the following information to fulfill DSRs from end users:
@@ -169,26 +169,26 @@ When you upload Organizational Data, your .csv file is stored in your SharePoint
 
 ## Attribute reference   	
 
-|Attribute|Description|Data type|Example|
-|-|-|-|-|
-|Microsoft_PersonEmail|Unique identifier for the employee record - an employee's email address.|Email|person.name@xyz.com|
-|Microsoft_ManagerEmail|Unique identifier for an employee’s manager - the employee's manager’s email address.|Email|manager.name@xyz.com|
-|Microsoft_Organization|The internal organization or department name that an employee belongs to.|String|Financial Planning and Analysis|
-|Microsoft_LevelDesignation|Level that represents an employee's experience, management level, or seniority within the organization. This is whatever public level designation your company uses.|String|Director|
-|Microsoft_JobDiscipline|The discipline that an employee belongs to. For more actionable insights, avoid using too few or too many unique Job disciplines. This is the public job discipline.|String|Finance management|
-|Microsoft_Layer|An employee's position within the organizational hierarchy, expressed as their distance from the top leader of the organization. For example, the CEO is at Layer 0. Avoid using too few or too many unique layers. This is the layer that is publicly available in your company.|Integer|2|
-|Microsoft_FirstName|First name of the end user.|String|Alexa|
-|Microsoft_LastName|Last name of the end user.|String|Smith|
-|Microsoft_DisplayName|Preferred name of employee to display. This is the public display name an employee chooses to list.|String|Alexa Smith|  
-|Microsoft_JobTitle|The public facing job title of the employee.|String|Software engineer|
-|Microsoft_CompanyOfficeLocation|An employee’s company office location. This is a location code, like a building number, floor, or room. This shouldn't be an employee's home office or personal address.|String|2N|
-|Microsoft_CompanyPostOfficeBox|The post office box number. This is the publicly available company office box number.|String|PO Box 12|
-|Microsoft_CompanyOfficeStreet|The street. This is the publicly available company office street address.|String|NE 12th Street|
-|Microsoft_CompanyOfficeCity|The city of the company office the user is associated with. This is the publicly available office address city.|String|Redmond|
-|Microsoft_CompanyOfficeState|The state. This is the publicly available company office state.|String|Washington|
-|Microsoft_CompanyOfficeCountryOrRegion|The country or region. It's a free-format string value, for example, "United States". This is the publicly available company office country or region.|String|United States|
-|Microsoft_CompanyOfficePostalCode|The postal code. This is the publicly available company office postal code.|String|98004|
-|Microsoft_Company|Company name.|String|Contoso|
+| |Attribute|Description|Data type|Example|
+|-|-|-|-|-|
+|1|Microsoft_PersonEmail|Unique identifier for the employee record - an employee's email address.|Email|person.name@xyz.com|
+|2|Microsoft_ManagerEmail|Unique identifier for an employee’s manager - the employee's manager’s email address.|Email|manager.name@xyz.com|
+|3|Microsoft_Organization|The internal organization or department name that an employee belongs to.|String|Financial Planning and Analysis|
+|4|Microsoft_LevelDesignation|Level that represents an employee's experience, management level, or seniority within the organization. This is whatever public level designation your company uses.|String|Director|
+|5|Microsoft_JobDiscipline|The discipline that an employee belongs to. For more actionable insights, avoid using too few or too many unique Job disciplines. This is the public job discipline.|String|Finance management|
+|6|Microsoft_Layer|An employee's position within the organizational hierarchy, expressed as their distance from the top leader of the organization. For example, the CEO is at Layer 0. Avoid using too few or too many unique layers. This is the layer that is publicly available in your company.|Integer|2|
+|7|Microsoft_FirstName|First name of the end user.|String|Alexa|
+|8|Microsoft_LastName|Last name of the end user.|String|Smith|
+|9|Microsoft_DisplayName|Preferred name of employee to display. This is the public display name an employee chooses to list.|String|Alexa Smith|  
+|10|Microsoft_JobTitle|The public facing job title of the employee.|String|Software engineer|
+|11|Microsoft_CompanyOfficeLocation|An employee’s company office location. This is a location code, like a building number, floor, or room. This shouldn't be an employee's home office or personal address.|String|2N|
+|12|Microsoft_CompanyPostOfficeBox|The post office box number. This is the publicly available company office box number.|String|PO Box 12|
+|13|Microsoft_CompanyOfficeStreet|The street. This is the publicly available company office street address.|String|NE 12th Street|
+|14|Microsoft_CompanyOfficeCity|The city of the company office the user is associated with. This is the publicly available office address city.|String|Redmond|
+|15|Microsoft_CompanyOfficeState|The state. This is the publicly available company office state.|String|Washington|
+|16|Microsoft_CompanyOfficeCountryOrRegion|The country or region. It's a free-format string value, for example, "United States". This is the publicly available company office country or region.|String|United States|
+|17|Microsoft_CompanyOfficePostalCode|The postal code. This is the publicly available company office postal code.|String|98004|
+|18|Microsoft_Company|Company name.|String|Contoso|
 
 ## Attribute to property mapping
 The following table shows how Organizational Data attributes map to properties in the Microsoft 365 User Profile schema.
