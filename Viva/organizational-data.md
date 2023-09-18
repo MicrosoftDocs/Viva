@@ -37,7 +37,7 @@ When you upload a .csv file, you need to include at least one required attribute
 
 You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta#relationships) schema.).
 
-For information on how the Organizational Data attributes map to Microsoft 365 User Profile data, see [Attribute reference](#attribute-reference) for more details about the specific attributes, and [Attribute to property mapping](#attribute-to-property-mapping) .
+See [Attribute reference](#attribute-reference) for more details about the specific attributes, and [Attribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data attributes map to Microsoft 365 User Profile data.
 
 - Names
    - First Name (first)
