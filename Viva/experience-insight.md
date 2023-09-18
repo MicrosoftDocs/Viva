@@ -90,7 +90,7 @@ Here we’ll show you one way to use these apps together to get a comprehensive 
 
 Start with Viva Insights to find out how your organization currently works across different dimensions (such as collaboration patterns, meeting culture, workload balance, network health), how it compares with industry benchmarks, and how it impacts business outcomes (such as revenue, profitability, customer satisfaction). You can also get useful recommendations, such as reducing meeting overload, promoting flexible work hours, encouraging cross-team collaboration. This starting data can help you plan areas for feedback and potential action items. You can use this data as a starting point for planning the questions you want to ask.
 
-#### Create an organization-wide survey, analyze feedback, and take action with Viva Glint**
+#### Create an organization-wide survey, analyze feedback, and take action with Viva Glint
 
 **Create your survey**
 
