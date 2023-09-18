@@ -80,29 +80,29 @@ Viva Glint equips HR, business leaders and managers with comprehensive tools to 
 
 [Four stages of Viva Glint programs](/viva/glint/start/four-stages-glint-program)
 
-# Use Viva Insights, Viva Glint, and Viva Pulse together
+## Use Viva Insights, Viva Glint, and Viva Pulse together
 
 Use Viva Insights, Viva Glint and Viva Pulse together to enhance your engagement strategy.
 
 Here we’ll show you one way to use these apps together to get a comprehensive insight into your organization to create a more feedback-driven and action-oriented culture.
 
-## Get insight on the current state of your organization with Viva Insights
+### Get insight on the current state of your organization with Viva Insights
 
 Start with Viva Insights to find out how your organization currently works across different dimensions (such as collaboration patterns, meeting culture, workload balance, network health), how it compares with industry benchmarks, and how it impacts business outcomes (such as revenue, profitability, customer satisfaction). You can also get useful recommendations, such as reducing meeting overload, promoting flexible work hours, encouraging cross-team collaboration. This starting data can help you plan areas for feedback and potential action items. You can use this data as a starting point for planning the questions you want to ask.
 
-## Create your survey, analyze feedback, and take action with Viva Glint
+### Create your survey, analyze feedback, and take action with Viva Glint
 
-### Create your survey
+#### Create your survey
 
 Get a deep understanding of the strengths and opportunities for your organization's culture experience by creating an organization-wide survey using one of Glint's survey templates, or create your own survey based on your goals and priorities.
 
-### Analyze feedback with Viva Glint analytics tools
+#### Analyze feedback with Viva Glint analytics tools
 Analyze the survey results using Viva Glint’s dashboards and analytics tools. You can see the overall engagement score, compare it with benchmarks, identify strengths and opportunities, and predict business outcomes.
 
-### Take action on feedback
+#### Take action on feedback
 Use Viva Glint's planning tools to define and take action based on the survey feedback results. You can use the suggested actions provided by Viva Glint or create your own action plans based on your goals and resources. You can also access learning content from Microsoft Learn or other sources to support your actions.
 
-## Measure the impact of actions on teams and individuals with Viva Pulse
+#### Measure the impact of actions on teams and individuals with Viva Pulse
 Use Viva Pulse to follow up on specific topics or areas that need more attention or improvement. You can use the templates provided by Viva Pulse or create your own questions based on the insights from Viva Glint. You can send these surveys to your direct reports, team members, or other groups in the organization.
 
 View the feedback results using Viva Pulse’s reporting tools. You can see the responses, comments, and ratings for each question. You can also share the results with your team or other stakeholders to discuss the feedback and plan actions.
