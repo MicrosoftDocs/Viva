@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Viva - Organizational data"
+title: "Organizational Data in Microsoft 365"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
