@@ -134,7 +134,7 @@ To delete values for end users' Organizational Data attributes, upload a new .cs
 
 When the new Organizational Data is uploaded, the previous data for each affected end user is deleted with seven days.
 
-## Data privacy information for Organizational Data
+## Data usage, retention, and management information for Organizational Data
 Review the following information to understand how Organizational Data is used, stored, and deleted.
 
 ### Data usage
