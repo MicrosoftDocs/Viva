@@ -154,6 +154,8 @@ When a Microsoft 365 license is removed from a tenant or when consent is removed
 ### Data retention
 Organizational Data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
 
+### Data residency
+When you upload Organizational Data, your .csv file is stored in your SharePoint Online site as described in [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide). However, each end user’s Organizational Data attributes are added to their Microsoft 365 User Profile and stored in the user’s Exchange Online mailbox as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide). 
 
 ### Manage data subject requests
 A *Data Subject Request* or DSR is a formal request by a data subject (an end user) to a controller to take an action on their personal data. To understand what data subject rights end users have, see [Office 365 Data Subject Requests Under the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-office365). 
@@ -164,8 +166,6 @@ Use the following information to fulfill DSRs from end users:
 - Edit – see [Update or make changes to Organizational Data](#step-4---update-or-make-other-changes-to-your-organizational-data). 
 - Delete – see [Update or make changes to Organizational Data](#step-4---update-or-make-other-changes-to-your-organizational-data) and [Data deletion](#data-deletion). 
 
-## Data residency capabilities
-When you upload Organizational Data, your .csv file is stored in your SharePoint Online site as described in [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide). However, each end user’s Organizational Data attributes are added to their Microsoft 365 User Profile and stored in the user’s Exchange Online mailbox as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide). 
 
 ## Attribute reference   	
 
