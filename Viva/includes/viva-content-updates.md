@@ -2,6 +2,33 @@
 
 
 
+## Week of September 11, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/11/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
+| 9/11/2023 | [Use Viva Glint’s Broader Team Insights feature](/viva/glint/reports/broader-team-insights) | modified |
+| 9/11/2023 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | modified |
+| 9/11/2023 | Add a public SSH key to Viva Glint | removed |
+| 9/11/2023 | Configure SFTP IP addresses in Viva Glint | removed |
+| 9/11/2023 | [Communications setup in Program Summary of Viva Glint](/viva/glint/setup/program-summary-communications) | modified |
+| 9/11/2023 | Set up Viva Glint Secure File Transfer Protocol | removed |
+| 9/11/2023 | Create an SSH key pair for SFTP | removed |
+| 9/11/2023 | [Upload your employee attributes in Viva Glint](/viva/glint/setup/upload-employee-attributes) | modified |
+| 9/12/2023 | [Manage your Allowed List for Viva Glint](/viva/glint/setup/allowed-list) | modified |
+| 9/12/2023 | [Understand Advanced Configuration options in Viva Glint](/viva/glint/setup/understand-advanced-configuration) | modified |
+| 9/12/2023 | [Viva Topics lightweight management in Viva Engage](/viva/topics/topics-lightweight-management) | modified |
+| 9/13/2023 | [Curate Multilingual topics in Microsoft Viva Topics](/viva/topics/curate-a-topic-in-multilingual) | modified |
+| 9/14/2023 | [Import members into a Viva Glint Distribution List](/viva/glint/setup/import-members-distribution-lists) | added |
+| 9/14/2023 | [Managers using the Team Summary dashboard in Viva Glint](/viva/glint/reports/managers-use-team-summary-dashboard) | modified |
+| 9/14/2023 | [Set up and use Distribution Lists in Viva Glint](/viva/glint/setup/set-up-distribution-lists) | modified |
+| 9/15/2023 | [Use Advanced Configuration Uploads](/viva/glint/setup/advanced-config-uploads) | added |
+| 9/15/2023 | [Use Advanced Configuration Data Apps](/viva/glint/setup/glint-data-apps) | added |
+| 9/15/2023 | [How to update reporting data in closed Viva Glint surveys](/viva/glint/setup/update-glint-reporting-data) | added |
+| 9/15/2023 | [Understand Advanced Configuration options in Viva Glint](/viva/glint/setup/understand-advanced-configuration) | modified |
+
+
 ## Week of September 04, 2023
 
 
@@ -102,46 +129,3 @@
 | 8/18/2023 | [Set up dynamic metric load for Viva Insights metrics on MGDC](/viva/insights/advanced/admin/dynamic-metric-load) | added |
 | 8/18/2023 | [Videos for Viva Insights](/viva/insights/overview/videos) | modified |
 | 8/18/2023 | [Videos for Viva Insights](/viva/insights/use/videos) | modified |
-
-
-## Week of August 07, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/7/2023 | [Introducing Microsoft Viva Engage](/viva/engage/overview) | modified |
-| 8/7/2023 | Habit playbooks for Viva Insights | removed |
-| 8/7/2023 | Viva Insights learning modules | removed |
-| 8/7/2023 | Learning collateral for Viva Insights adoption | removed |
-| 8/7/2023 | Viva Insights Individual Adoption --Define your why | removed |
-| 8/7/2023 | Viva Insights Individual Adoption - Develop new habits | removed |
-| 8/7/2023 | Viva Insights Individual Adoption --Get started | removed |
-| 8/7/2023 | Viva Insights Individual Adoption resources | removed |
-| 8/7/2023 | Viva Insights Individual Adoption --Set goals | removed |
-| 8/7/2023 | Viva Insights Individual Adoption - Sustain change | removed |
-| 8/7/2023 | Team Adoption implementation | removed |
-| 8/7/2023 | Viva Insights team adoption introduction | removed |
-| 8/7/2023 | Viva Insights Team Adoption --Measure | removed |
-| 8/7/2023 | Viva Insights Team Adoption plan | removed |
-| 8/7/2023 | Viva Insights Team Adoption -- Reinforce | removed |
-| 8/7/2023 | Use Viva Insights to build good work habits | removed |
-| 8/7/2023 | Viva Insights Individual Adoption --Diagnose | removed |
-| 8/7/2023 | Add top collaborators in Viva Insights | removed |
-| 8/7/2023 | Task card in Viva Insights | removed |
-| 8/7/2023 | Unread emails in Viva Insights | removed |
-| 8/7/2023 | Open the Viva Insights Outlook add-in | removed |
-| 8/7/2023 | [Business resilience report](/viva/insights/advanced/analyst/templates/business-resilience) | modified |
-| 8/7/2023 | [Diversity equity and inclusion Power BI report](/viva/insights/advanced/analyst/templates/diversity-equity-inclusion) | modified |
-| 8/7/2023 | [Hybrid Workforce Experience Power BI report (preview)](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience-preview) | modified |
-| 8/7/2023 | [Hybrid Workforce Experience Power BI report](/viva/insights/advanced/analyst/templates/hybrid-workforce-experience) | modified |
-| 8/7/2023 | [Manager effectiveness report](/viva/insights/advanced/analyst/templates/manager-effectiveness) | modified |
-| 8/7/2023 | [Meeting effectiveness report](/viva/insights/advanced/analyst/templates/meeting-effectiveness) | modified |
-| 8/7/2023 | [Onboarding and development report](/viva/insights/advanced/analyst/templates/onboarding) | modified |
-| 8/7/2023 | [Ways of working report](/viva/insights/advanced/analyst/templates/ways-of-working) | modified |
-| 8/8/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
-| 8/9/2023 | [Goals Broadcast](/viva/goals/goals-broadcast) | added |
-| 8/9/2023 | [Cross-collaboration: person-to-group query](/viva/insights/advanced/analyst/cross-collaboration-p2g) | added |
-| 8/9/2023 | Productivity insights in Viva Insights in Outlook | removed |
-| 8/9/2023 | FAQ for the Viva Insights app | removed |
-| 8/9/2023 | [Cross-collaboration: Group-to-group query](/viva/insights/advanced/analyst/cross-collaboration-g2g) | added |
-| 8/9/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
