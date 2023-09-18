@@ -29,12 +29,12 @@ Using the Microsoft Viva Glint DIBs approach, organizations can measure perspect
 ## The Viva Glint DIBs program (survey template) exposes fundamental insights 
 DIBS survey feedback provides :
 
-<ul> <li>Short research-validated survey items‌</li>
-<li> Access to intuitive and insightful data at both leader and manager levels‌ </li>
-<li> Key drivers to understand how diversity, inclusion, and belonging influence engagement and business outcomes‌ </li> 
-<li> Benchmarked items using proprietary hybrid methodology.</li> 
-<li> Attrition predictions to identify groups at risk of leaving due to lack of inclusion and belonging‌ </li>
-<li> Actionable resources from curated content to improve teams' DIBs experience‌s </li>
-<li> Powerful comment analytics to identify what groups are saying about DIBs experiences‌ </li>
-<li> Easy integration of DIBs items into existing agile survey programs, as well as the ability to derive cross-program insights‌ </li></ul>
+- Short research-validated survey items‌.
+- Access to intuitive and insightful data at both leader and manager levels.
+- Key drivers to understand how diversity, inclusion, and belonging influence engagement and business outcomes.
+- Benchmarked items using proprietary hybrid methodology.
+- Attrition predictions to identify groups at risk of leaving due to lack of inclusion and belonging.
+- Actionable resources from curated content to improve teams' DIBs experience‌s.
+- Powerful comment analytics to identify what groups are saying about DIBs experiences.
+- Easy integration of DIBs items into existing agile survey programs, as well as the ability to derive cross-program insights.
 
