@@ -23,11 +23,11 @@ ms.date: 09/18/2023
 Fostering a strong sense of belonging in your organization is essential. Customer data shows that those employees who feel a strong sense of belonging are over six times as likely to be engaged as those who don’t. Belonging is strong when work environments are inclusive of differences, everyone feels accepted, and can bring their best selves to work.
 Using the Microsoft Viva Glint DIBs approach, organizations can measure perspectives that matter, empower managers to build inclusive practices, and understand how to create an environment where all people feel they belong.
 
->[!NOTE]
+> [!NOTE]
 > The Viva Glint survey strategy can incorporate domains of D&I, voiding the need for a standalone D&I measurement. For this reason, you can consider adding items from Glint's DIBs survey template to an engagement or a culture survey.
   
 ## The Viva Glint DIBs program (survey template) exposes fundamental insights 
-DIBS survey feedback provides :
+DIBS survey feedback provides:
 
 - Short research-validated survey items‌.
 - Access to intuitive and insightful data at both leader and manager levels.
