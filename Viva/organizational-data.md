@@ -161,15 +161,15 @@ A *Data Subject Request* or DSR is a formal request by a data subject (an end us
 Use the following information to fulfill DSRs from end users:
 
 - Access and Export – An end user can access and export Organizational Data uploaded by a global admin and stored in the Microsoft 365 User Profile by using the data export function in the profile card. See [Export data from your profile card](https://support.microsoft.com/office/export-data-from-your-profile-card-d809f83f-c077-4a95-9b6c-4f093305163d). 
-- Edit – see [Update or make changes to Organizational Data](#update-or-make-other-changes-to-your-organizational-data). 
-- Delete – see [Update or make changes to Organizational Data](#update-or-make-other-changes-to-your-organizational-data) and [Data deletion](#data-deletion). 
+- Edit – see [Update or make changes to Organizational Data](#step-4---update-or-make-other-changes-to-your-organizational-data). 
+- Delete – see [Update or make changes to Organizational Data](#step-4---update-or-make-other-changes-to-your-organizational-data) and [Data deletion](#data-deletion). 
 
 ## Data residency capabilities
 When you upload Organizational Data, your .csv file is stored in your SharePoint Online site as described in [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide). However, each end user’s Organizational Data attributes are added to their Microsoft 365 User Profile and stored in the user’s Exchange Online mailbox as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide). 
 
 ## Attribute reference   	
 
-| |Attribute|Description|Data type|Example|
+|#|Attribute|Description|Data type|Example|
 |-|-|-|-|-|
 |1|Microsoft_PersonEmail|Unique identifier for the employee record - an employee's email address.|Email|person.name@xyz.com|
 |2|Microsoft_ManagerEmail|Unique identifier for an employee’s manager - the employee's manager’s email address.|Email|manager.name@xyz.com|
@@ -194,7 +194,7 @@ When you upload Organizational Data, your .csv file is stored in your SharePoint
 The following table shows how Organizational Data attributes map to properties in the Microsoft 365 User Profile schema.
 
 
-| |Attribute (column heading) in .csv file|Property in Microsoft 365 User Profile schema |
+|#|Attribute (column heading) in .csv file|Property in Microsoft 365 User Profile schema |
 |-|-|-|
 |1|Microsoft_PersonEmail |N/A <br><br>The email is converted to the Microsoft Entra ID objectId of the end user and is used for internal processing.|
 |2|Microsoft_ManagerEmail|positions -> manager -> userId<br><br>The email is converted to the Microsoft Entra ID objectId for the manager and is stored in the Microsoft 365 User Profile.|
