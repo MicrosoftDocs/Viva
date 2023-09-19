@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 09/18/2023
+ms.date: 09/19/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,31 +39,33 @@ You can also include the following optional attributes. (The value in parenthese
 
 See [Attribute reference](#attribute-reference) for more details about the specific attributes, and [Attribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data attributes map to Microsoft 365 User Profile data.
 
-- Names
-   - First Name (first)
-   - Last Name (last)
-   - Display Name (displayName)
-- Positions
-   - Job Title (jobTitle) 
-   - Role (role)
-   - Level (level)
-   - Layer (layer)
-   - Company
-      - Display Name (displayName)
-      - Department (department)
-      - Office Location (officeLocation)
-      - Address
-         - Post Office Box (postOfficeBox)
-         - Street Address (street)
-         - City (city)
-         - State (state)
-         - Country or Region (countryOrRegion)
-         - Postal Code (postalCode)
-
+- Names 
+   - **Microsoft_FirstName** (first) 
+   - **Microsoft_LastName** (last) 
+   - **Microsoft_DisplayName** (displayName) 
+- Positions  
+   - Detail 
+      - **Microsoft_JobTitle** (jobTitle) 
+      - **Microsoft_JobDiscipline** (role) 
+      - **Microsoft_LevelDesignation** (level) 
+      - **Microsoft_Layer** (layer) 
+         - Company 
+            - **Microsoft_Company** (displayName) 
+            - **Microsoft_Organization** (department) 
+            - **Microsoft_CompanyOfficeLocation** (officeLocation) 
+               - Address 
+                  - **Microsoft_CompanyPostOfficeBox** (postOfficeBox) 
+                  - **Microsoft_CompanyOfficeStreet** (street) 
+                  - **Microsoft_CompanyOfficeCity** (city) 
+                  - **Microsoft_CompanyOfficeState** (state) 
+                  - **Microsoft_CompanyOfficeCountryOrRegion** (countryOrRegion) 
+                  - **Microsoft_CompanyOfficePostalCode** (postalCode) 
+- Manager 
+   - **Microsoft_ManagerEmail** (userId) 
 
 > [!IMPORTANT]
 > 1. In the Microsoft 365 User Profile, Organizational Data takes precedence over data from other sources. When a service queries a Microsoft 365 User Profile, if there is both Organizational Data and Microsoft Entra ID data for a single attribute, the Organizational Data value is used.
-> 2. Three name related attributes (Microsoft_FirstName, Microsoft_LastName, and Microsoft_DisplayName) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
+> 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
 ## Prepare and import your Organizational Data 
@@ -102,16 +104,17 @@ All dates should be in the MM/DD/YYYY format. All numerical fields need to be in
 Here's an example snippet of a valid .csv file:
 
 ```
-PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area 
-Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast 
-Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast 
-Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast 
-Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest 
-Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest 
-Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest
+Microsoft_PersonEmail,Microsoft_ManagerEmail,Microsoft_LevelDesignation,Microsoft_Organization,Microsoft_Layer,Microsoft_CompanyOfficeCity
+Emp1@contoso.com,Mgr1@contoso.com,Junior IC,Sales,8,Seattle
+Emp2@contoso.com,Mgr1@contoso.com,Junior IC,Sales,8,Seattle
+Emp3@contoso.com,Mgr2@contoso.com,Manager,Sales,7,Seattle
+Emp4@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
+Emp5@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
+Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
+
 ```
 
-For more information about attributes, refer to the Attribute reference section.
+For more information about attributes, refer to the [Attribute reference](#attribute-reference).
 
 ### Step 3 - Import the Organizational Data for the first time 
 After you create a .csv file with your Organizational Data, you're ready to import it. 
