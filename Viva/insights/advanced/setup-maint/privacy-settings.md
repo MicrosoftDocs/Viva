@@ -1,9 +1,9 @@
 ---
-ms.date: 06/16/2023
+ms.date: 08/31/2023
 title: Customize Viva Insights privacy settings
 description: Learn how to customize  Viva Insights privacy settings in the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -11,7 +11,7 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-manager: anirudhbajaj
+manager: ablubetk
 audience: Admin
 ---
 
@@ -22,6 +22,16 @@ audience: Admin
 :::image type="content" source="../images/setup-vi-settings-1.png" alt-text="Image alt text." lightbox="../images/setup-vi-settings-1.png":::
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page. 
+
+## Domain reclassification
+
+Reclassifying domains in Viva Insights classifies external domains as internal. You might reclassify external domains for a few reasons: maybe your company recently acquired or merged with another company, and formerly external employees are now internal. Or, your company has subsidiaries, and you want to make sure collaboration with those domains is considered internal.
+
+To reclassify domains, go to the **Reclassify external domains** section. From the dropdown menu, select the external domains you want to classify as internal.
+
+>[!Important]
+>Changes to these settings take effect after the next data refresh, which might take up to one week. 
+
 
 ## Minimum group size
 
