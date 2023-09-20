@@ -66,6 +66,8 @@ Corporate communicators can perform the following functions to manage campaigns:
     - Pinned resources and links
     - Theme color of the campaign hashtag
 - View campaign analytics
+- Assign campaign co-organizers
+- Define leaders
 
 >[!NOTE]
 > The corporate communicator must manually update the goal tracker asset.
