@@ -86,6 +86,8 @@ Amplify provides reporting data for metrics such as read rates on emails, view r
 
 Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and will fill in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
 
+[Learn more about using Organizational Data in Microsoft Viva.](/viva/organizational-data)
+
 ## Manage campaign settings
 
 >[!IMPORTANT]
