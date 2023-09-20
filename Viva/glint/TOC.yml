@@ -119,34 +119,7 @@
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
        items: 
-        - name: Set up Program Summary for Viva Glint Engagement-type surveys
-          href: setup/program-summary-overview.md
-          items:
-          - name: Program setup in Program Summary
-            href: setup/program-set-up.md
-          - name: Set up and use Distribution Lists in Viva Glint
-            href: setup/set-up-distribution-lists.md
-          - name: Set up Schedule page in Program Summary
-            href: setup/schedule-setup.md
-          - name: Questions set up in Program Summary
-            href: setup/questions-setup.md
-          - name: Reporting setup in Program Summary
-            href: setup/reporting-setup.md
-          - name: Communications setup in Program Summary
-            href: setup/program-summary-communications.md
-          - name: Set up Coaching page in Program Summary
-            href: setup/program-summary-coaching.md
         - name: Setting up Engagement surveys
-          items: 
-          - name: Preview, manage, and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
-          - name: Quarterly Engagement Survey template
-            href: setup/quarterly-engagement-template.md
-          - name: Set up a Viva Glint Team Effectiveness survey
-            href: setup/team-effectiveness-survey.md
-          - name: Set up a Manager Effectiveness survey
-            href: setup/manager-effectiveness-survey.md
-        - name: Setting up Employee Lifecycle surveys
           items:
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
             href: setup/program-summary-setup-lifecycle.md
@@ -171,7 +144,9 @@
         - name: Use Advanced Configuration Data Apps
           href: setup/glint-data-apps.md
         - name: Use Advanced Configuration Uploads
-          href: setup/advanced-config-uploads.md           
+          href: setup/advanced-config-uploads.md
+        - name: Flag Sensitive comments in Viva Glint
+          href: setup/glint-sensitive-comments.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
