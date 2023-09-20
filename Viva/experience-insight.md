@@ -24,8 +24,8 @@ description: "Learn how Microsoft Viva supports improved productivity and wellbe
 
 Continuously improve employee engagement and business performance using actionable insights from Viva Insights, Viva Pulse, and Viva Glint.
 
-- [Viva Insights](#viva-insights-get-data-driven-actionable-insights) provides privacy-protected organization and team insights. You'll get data-driven, actionable insights to increase productivity and performance.
-- [Viva Pulse](#viva-pulse-request-continuous-feedback) provides the ability to request ad-hoc feedback using research-backed templates to see team needs in the moment.
+- [Viva Insights](#viva-insights-get-data-driven-actionable-insights) provides privacy-protected organization and team insights. You get data-driven, actionable insights to increase productivity and performance.
+- [Viva Pulse](#viva-pulse-request-continuous-feedback) allows you to request ad-hoc feedback using research-backed templates to see team needs in the moment.
 - [Viva Glint](#viva-glint-understand-the-employee-voice-with-organization-wide-surveys) provides tools for organization-wide surveys backed by People Science. Using the results, you can see and analyze strengths and opportunities and get suggested actions to drive business outcomes.
 
 ## Viva Insights: Get data-driven, actionable insights
@@ -51,7 +51,7 @@ With Viva Pulse, managers and project leads can request ad-hoc feedback on topic
 
 **Get timely analysis**
 
-Viva Pulse provides a snapshot of team sentiment to help managers and project leads get quick feedback and adjust actions, if needed. Survey senders can leverage automatic sentiment analysis which saves time and helps them focus on areas of opportunity for the team. To ensure employee confidentiality, managers and project leads receive an aggregated view of survey results.
+Viva Pulse provides a snapshot of team sentiment to help managers and project leads get quick feedback and adjust actions, if needed. Survey senders can use automatic sentiment analysis, which saves time and helps them focus on areas of opportunity for the team. To ensure employee confidentiality, managers and project leads receive an aggregated view of survey results.
 
 **Make necessary changes with recommended actions**
 
@@ -72,7 +72,7 @@ With Viva Glint, you have the platform to capture the broadest set of direct and
 
 **How Viva Glint empowers leaders with insights to better understand and improve engagement**
 
-Viva Glint equips HR, business leaders and managers with comprehensive tools to understand and support their employees. As with any successful engagement program, Viva Glint starts with seeking and understanding employees’ needs through a robust people science methodology. Viva Glint is designed to analyze results in real-time, leveraging natural language processing, and enabling data-driven change by empowering leaders and managers with action planning tools to improve team and business outcomes. The result enables every organization to shape a tailored engagement strategy aligned with its unique goals.
+Viva Glint equips HR, business leaders and managers with comprehensive tools to understand and support their employees. As with any successful engagement program, Viva Glint starts with seeking and understanding employees’ needs through a robust people science methodology. Viva Glint is designed to analyze results in real-time by using natural language processing. It enables data-driven change by empowering leaders and managers with action planning tools to improve team and business outcomes. The result enables every organization to shape a tailored engagement strategy aligned with its unique goals.
 
 **Learn more about Viva Glint**
 
