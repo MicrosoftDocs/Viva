@@ -97,26 +97,27 @@ Confirm that:
 
 ### Raw Score File
 
-Your Raw Score File should be in a horizontal layout and contain:
+Your Raw Score File should be in a horizontal layout and contain an email address value to identify each user and columns of question and comment data.
 
-- Email as the first column which **must** be: User e-mail
-- Question ID and comment columns (if open-ended feedback is included).
-  - Use the Question IDs from the Question Mapping exercise that you conducted to assign Glint Question IDs to your historical response data.
-  - Only include data for items that were mapped to Glint items and that you have added to your Glint survey program.
-  - Ensure that Key Outcome items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
-  - For comments associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID, like the column C example.
-  - For open-ended questions, use the same column layout, but populate 0 where there's a comment and -1 where there is no comment. See example in columns D and E.
+- **First column:**
+  - Email which **must** be: User e-mail
+- **Additional columns:**
+  - **Question IDs:** Use IDs from the Question Mapping exercise that you conducted to assign Glint Question IDs to your historical response data.
+    - **Key Outcome Items:** Ensure that these items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
+    - **Rating Question Comments:** For open-ended feedback associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID, like the column C example.
+    - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment. See example in columns D and E.
+    - **Multi-select Questions:** Separate numerical response values with a colon (:). If comments are attached to responses, use the same column layout as for rating question comments. See example in columns F and G.
 
 > [!IMPORTANT]
 > Comments that exceed 1024 characters will be truncated.
 
 Sample:
 
-|A  |B   |C|D|E|
-|----------|-----------|------------|------------|------------|
-|**User e-mail**     |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477**      |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477_COMMENTS**        |**f1c63ea9-5991-402a-bb06-06419ae78613**        |**f1c63ea9-5991-402a-bb06-06419ae78613_COMMENTS**        |
-|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good worklife balance. |
-|cameron.baker@contoso.com|5   | |-1 ||
+|A  |B   |C|D|E|F|G|
+|----------|-----------|------------|------------|------------|------------|------------|
+|**User e-mail**     |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477**      |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477_COMMENTS**        |**f1c63ea9-5991-402a-bb06-06419ae78613**        |**f1c63ea9-5991-402a-bb06-06419ae78613_COMMENTS**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62_COMMENTS**        |
+|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good worklife balance. |1:3:5 | |
+|cameron.baker@contoso.com|5   | |-1 ||1:8 |Tuition reimbursement would be a nice perk. |
 
 ### Respondent User File
 
