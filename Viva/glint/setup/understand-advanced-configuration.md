@@ -128,7 +128,7 @@ Select a survey program to view more details and options:
 | **Default survey locale** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Additional Survey Locales** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Enable Follow Up** | Enable follow up questions that encourage more open-ended comments in surveys |
-| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity |
+| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity [Learn more](https://go.microsoft.com/fwlink/?linkid=2247846) |
 
 ### Menu option - Users
 
