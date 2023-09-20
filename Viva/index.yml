@@ -43,6 +43,7 @@ highlightedContent:
 tools:
   title: Get started with Microsoft Viva
   items:
+  
 # Card
     - title: Microsoft Viva Amplify
       imageSrc: media/logos/amplify-c-64.svg
