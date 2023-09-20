@@ -87,3 +87,15 @@
       - name: Viva Glint troubleshooting
         tocHref: /viva/troubleshoot/glint/
         topicHref: /viva/glint/introduction-viva-glint
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Amplify
+      tocHref: /viva/amplify/
+      topicHref: /viva/glint/overview-viva-amplify
