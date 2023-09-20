@@ -85,6 +85,13 @@ tools:
       url: /viva/topics/
 
 
+    # Card
+    - title: Microsoft Viva Amplify
+      # imageSrc should be square in ratio with no whitespace
+      imageSrc: media/logos/amplify-c-64.svg
+      url: /viva/amplify/overview-viva-amplify
+
+
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
