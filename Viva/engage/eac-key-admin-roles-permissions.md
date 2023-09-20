@@ -120,7 +120,8 @@ The actions available to the Corporate Communicator, Engage (Yammer) admin, and 
 |----------------------|:-:|:-:|
 |**Identify leaders**: <br> Manages their audience and delegates | |✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns via**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
+|**Manage campaigns**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
+|**Assign co-organizers**: Add co-organizers to share campaign responsibilities
 |**View campaign analytics**| |✓|
 
 ## Community admin
