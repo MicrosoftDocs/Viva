@@ -43,7 +43,12 @@ highlightedContent:
 tools:
   title: Get started with Microsoft Viva
   items:
-    # Card
+# Card
+    - title: Microsoft Viva Amplify
+      imageSrc: media/logos/amplify-c-64.svg
+      url: /viva/amplify/overview-viva-amplify
+
+# Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
       url: /viva/connections/viva-connections-overview
@@ -83,13 +88,6 @@ tools:
       # imageSrc should be square in ratio with no whitespace
       imageSrc: media/logos/topics-launch-c-64.svg
       url: /viva/topics/
-
-
-    # Card
-    - title: Microsoft Viva Amplify
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: media/logos/amplify-c-64.svg
-      url: /viva/amplify/overview-viva-amplify
 
 
 # additionalContent section (optional)
