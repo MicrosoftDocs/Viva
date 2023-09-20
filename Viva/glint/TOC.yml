@@ -144,7 +144,9 @@
         - name: Use Advanced Configuration Data Apps
           href: setup/glint-data-apps.md
         - name: Use Advanced Configuration Uploads
-          href: setup/advanced-config-uploads.md           
+          href: setup/advanced-config-uploads.md
+        - name: Flag Sensitive comments in Viva Glint
+          href: setup/glint-sensitive-comments.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
