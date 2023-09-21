@@ -18,11 +18,11 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how Microsoft Viva supports improved productivity and wellbeing with actionable insights."
+description: "Learn how you can measure employee engagement and drive action with rich, data-driven workplace analytics."
 ---
 # Insight: Viva Insights, Viva Pulse, and Viva Glint
 
-Continuously improve employee engagement and business performance using actionable insights from Viva Insights, Viva Pulse, and Viva Glint.
+Measure employee engagement and drive action with rich, data-driven workplace analytics using Viva Insights, Viva Pulse, and Viva Glint.
 
 - [Viva Insights](#viva-insights-get-data-driven-actionable-insights) provides privacy-protected organization and team insights. You get data-driven, actionable insights to increase productivity and performance.
 - [Viva Pulse](#viva-pulse-request-continuous-feedback) allows you to request ad-hoc feedback using research-backed templates to see team needs in the moment.
@@ -82,7 +82,7 @@ Viva Glint equips HR, business leaders and managers with comprehensive tools to 
 
 ## Use Viva Insights, Viva Glint, and Viva Pulse together
 
-Use Viva Insights, Viva Glint and Viva Pulse together to enhance your engagement strategy.
+Use Viva Insights, Viva Glint and Viva Pulse together to transform employee feedback and insights into impact.
 
 Here we’ll show you one way to use these apps together to get a comprehensive insight into your organization to create a more feedback-driven and action-oriented culture.
 
