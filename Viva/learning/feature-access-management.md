@@ -18,12 +18,14 @@ localization_priority: high
 description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
 ---
 
-# Manage admin access in Viva Learning
+# Manage feature-level access in Viva Learning
 
 
-Global admins and knowledge admins can now give access to nonadmin users for managing features on Viva Learning admin tab.
+Global admins and knowledge admins can now give access to non-admin users for managing features on Viva Learning admin tab.
 
 This action can be done using Microsoft 365 groups. Any user who is part of Microsoft 365 group assigned to a specific feature gets the feature access in their Viva Learning admin tab.
+
+![Image of the Viva Learning admin option for managing feature access](../media/learning/feature-access-management-admin.png)
 
 ## Prerequisites
 
@@ -48,6 +50,9 @@ To manage feature access:
 4. Select **Save**.
 
 The delegation access changes take place immediately in Viva Learning. The default admin roles continue to have access to the admin features and can’t be revoked.
+
+![Image of the Edit Feature access window where admins can add user groups with access](../media/learning/feature-access-management-edit-feature.png)
+
 
 > [!NOTE]
 > The Microsoft 365 group has to be a part of both Learning path and Featured set to also get access to Academies.
