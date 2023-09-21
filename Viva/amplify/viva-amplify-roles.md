@@ -21,6 +21,9 @@ description: Learn about admin and user roles and permissions in Microsoft Viva 
 ---
 # Roles in Viva Amplify
 
+>[!NOTE]
+>Viva Amplify is currently in private preview. General availability is coming soon.
+
 You can make sure that everyone in your organization has the right permissions by familiarizing yourself with [admin](#admin-roles) and [user](#user-roles) roles in Viva Amplify.
   
 ## Admin roles
