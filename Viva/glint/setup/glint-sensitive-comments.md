@@ -30,6 +30,9 @@ Flagged sensitive comments fall into 3 categories:
 1. **Personally identifiable information (PII):** Personally identifiable information, like names.
 1. **Sensitive work environment:** Keywords related to discrimination, harassment, unsafe working conditions, and bullying.
 
+> [!NOTE]
+> Sensitive comment flagging doesn't currently support non-English comments. 
+
 ## Enable sensitive comment flagging
 
 To enable sensitive comments:
