@@ -20,7 +20,7 @@ search.appverid:
 
 description: "Learn how you can measure employee engagement and drive action with rich, data-driven workplace analytics."
 ---
-# Insight: Viva Insights, Viva Pulse, and Viva Glint
+# Workplace analytics and feedback: Viva Insights, Viva Pulse, and Viva Glint
 
 Measure employee engagement and drive action with rich, data-driven workplace analytics using Viva Insights, Viva Pulse, and Viva Glint.
 

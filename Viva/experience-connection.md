@@ -21,7 +21,7 @@ search.appverid:
 description: "Learn how Microsoft Viva supports employee connection in your organization"
 ---
 
-# Connection: Viva Engage and Viva Connections
+# Employee Communications and Communities: Viva Engage and Viva Connections
 
 Support a more inclusive work culture with spaces for conversations, company news, and shared interests with Viva Connections and Viva Engage. [Using them together](/viva/experience-connection#viva-connections-and-viva-engage-better-together) boosts discoverability and engagement.
 
