@@ -34,7 +34,7 @@ Viva Engage admins can empower users across the network to report conversations 
 
 1. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
 
-2. Under **Congent & Security** on the left panel, select **Report conversations**.
+2. Under **Content & Security** on the left panel, select **Report conversations**.
 
     :::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
 
