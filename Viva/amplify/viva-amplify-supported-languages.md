@@ -20,5 +20,8 @@ ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Amplify.
 ---
 # Supported languages in Viva Amplify
+
+>[!NOTE]
+>Viva Amplify is currently in private preview. General availability is coming soon.
   
 Viva Amplify is currently only available in English. Future releases will include support for more languages.
