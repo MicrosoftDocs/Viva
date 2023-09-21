@@ -70,6 +70,14 @@ An employee’s ability to manage their email notifications preferences is defau
 2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
 3. The update is autosaved.
 
+## Viva resources
+
+Viva Pulse reports show recommended learning content for users to learn more about specific Pulse topics. These learning resources are sourced from LinkedIn Learning and can be viewed in the Viva Learning app. If your users are not subscribed to LinkedIn Learning or do not use Viva Learning, they will not be able to access those resources, even though the resources are shown. For example, a learning video might be displayed, but it will not play for those users. In this case, you may want to disable the display of these learning resources. To make any learning resource configurations:
+
+1. In the **Manage** tab, navigate to the **Viva Resources** tab.
+2. To turn on or turn off Viva Learning videos, use the toggle associated with **Viva Learning**.
+3. The update is autosaved.
+
 ## Delete user data
 
 As an admin, you can delete a user’s past Pulse requests and responses on the user’s behalf. Deletion of a user’s data is a hard deletion, and no record of the user’s data remains. You can only delete one user’s data at a time, and there's no limit as to how many times a user’s data can be deleted. To delete a user’s data:
