@@ -11,6 +11,7 @@ ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about usage and engagement trends in Microsoft Viva Topics.
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Usage and engagement metrics in Viva Topics

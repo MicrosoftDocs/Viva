@@ -48,8 +48,6 @@
       items:
         - name: Topics analytics
           href: topics-analytics.md
-        - name: Usage and engagement metrics
-          href: topics-engagement-metrics.md
        
     - name: Work with topics
       items:
