@@ -94,15 +94,15 @@ additionalContent:
     - title: Create an engaged and productive workforce # < 60 chars (optional)
       items:
         # Card
-        - title: Employee Communications and Communities
+        - title: Employee communications and communities
           summary: Modernize how you communicate and engage with employees with Viva Connections and Viva Amplify. 
           url: /viva/experience-connection
-        - title: Microsoft Viva Workplace Analytics and Employee Feedback
-          summary: Transform employee feedback and insights into impact.
+        - title: Microsoft Viva workplace analytics and employee feedback
+          summary: Transform employee feedback and insights into impact with Viva Insights, Viva Glint, and Viva Pulse.
           url: /viva/experience-insight
         # Card
         - title: Goal setting and management
-          summary: Align people’s work to team and organizational goals.
+          summary: Align people’s work to team and organizational goals with Viva Goals.
           url: /viva/experience-purpose
         # Card
         - title: Learning and knowledge management
