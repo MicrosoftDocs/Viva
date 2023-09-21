@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/11/2022
 title: Microsoft Viva Insights API
 description: Learn how to use the Microsoft Viva Insights API to secure moving data for more advanced analysis
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
