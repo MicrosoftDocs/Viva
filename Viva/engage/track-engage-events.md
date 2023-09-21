@@ -3,7 +3,7 @@ ms.date: 12/14/2022
 title: "Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API"
 description: "You can view Viva Engage events through Microsoft 365 Management API and in the Microsoft 365 Security &amp; compliance portal auditing logs."
 ms.reviewer: ethli
-ms.author: v-whitfieldd
+ms.author: mamiejohnson
 author: dwhitfield233
 manager: dmillerdyson
 audience: Admin
@@ -28,7 +28,7 @@ You must have the Microsoft 365 global admin role or the Audit Logs role in Exch
   
 - **Users**—includes activate, suspend, and delete a user.
 
-- **Groups**—includes create and delete Microsoft 365 connected Yammer groups. This API doesn't provide data for legacy Yammer groups.
+- **Groups**—includes create and delete Microsoft 365 connected Viva Engage groups. This API doesn't provide data for legacy Viva Engage groups.
 
 - **Files**—includes create, views, and delete a file.
 
@@ -56,4 +56,4 @@ You can use the Microsoft 365 Management Activity API to download various Viva E
   
 ## Related articles
 
-[Security FAQ](/yammer/manage-security-and-compliance/security-and-compliance#Security)
+[Security FAQ](/viva/engage/manage-security-and-compliance/security-and-compliance#Security)

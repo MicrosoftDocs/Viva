@@ -1,20 +1,21 @@
 ---
 ms.date: 05/10/2022
 title: Topic Contributors—Share knowledge and expertise in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 localization_priority: Normal
 description: Learn how to contribute to topics in Viva Topics
-
 ---
 
 # Topic contributors: Share knowledge and expertise in Microsoft Viva Topics
@@ -58,7 +59,7 @@ When a user is curious to learn more about a topic, they can select the highligh
 
 ![Image showing topic summary card.](../media/knowledge-management/topic-summary-card-tc.png)
 
-Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Viva Topics will be added to more places across Microsoft 365, including Teams, Yammer, and Outlook.  
+Additionally, users will also be able to find topics through Microsoft Search and Microsoft Office. Over time, Viva Topics will be added to more places across Microsoft 365, including Teams, Viva Engage, and Outlook.  
 
 ## Contribute to relevant topics
 
@@ -167,5 +168,3 @@ Help colleagues curate topics effectively by:
 - Helping them learn how to [edit](edit-a-topic.md) and [create](create-a-topic.md) new topics, and how to [save a topic as a draft](save-topic-as-draft.md)  
 
 Users need the **Who can create or edit topics permissions** link to be able to edit and create new topics. If colleagues are unable to edit or create topics, they can reach out to the admin to have the appropriate [permissions assigned](topic-experiences-user-permissions.md).   
-
-

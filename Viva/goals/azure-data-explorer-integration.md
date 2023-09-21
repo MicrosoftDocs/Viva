@@ -2,9 +2,9 @@
 ms.date: 10/12/2022
 title: Azure Data Explorer Integration
 ms.reviewer: 
-ms.author: ranjaliroy
+ms.author: RaSanders
+manager: Liz.Pierce
 author: ranjali-MS
-manager: 
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,7 +13,8 @@ ms.service: viva
 ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- vg-integration  
 search.appverid:
 - MET150
 description: "Learn how to integrate your OKRs in Viva Goals with a cluster in Azure Data Explorer"

@@ -9,9 +9,10 @@ audience: enabler, admin
 ms.topic: landing-page
 ms.custom: intro-hub-or-landing
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.service: viva
 ms.subservice: viva-learning
 ms.localizationpriority: medium
@@ -43,4 +44,4 @@ The resources in this section help the admin in your organization to set up and 
 |Learn how to configure and manage content sources|[Manage learning content sources](content-sources-365-admin-center.md)|
 |Learn how to add your own learning content|[Add SharePoint as a content source](configure-sharepoint-content-source.md)|
 |Learn how to add content from other providers|[Add other providers as a content source](content-sources-365-admin-center.md)|
-|Learn how to use the employee learning API in Microsoft Graph to integrate learning providers and learning content |[Employee learning API](/graph/api/resources/viva-learning-api-overview?view=graph-rest-beta)
+|Learn how to use the employee learning API in Microsoft Graph to integrate learning providers and learning content |[Employee learning API](/graph/api/resources/viva-learning-api-overview?view=graph-rest-1.0)

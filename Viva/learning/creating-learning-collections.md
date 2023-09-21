@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: Learn how to create collections in Viva Learning.
@@ -24,9 +25,8 @@ A learning collection is a curation of learning objects or a sequence of learnin
 
 In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization.
 
->[!NOTE]
->Learning collections are not supported on mobile. 
-
+> [!NOTE]
+> Creating a collection requires a premium license for Viva Learning or Viva Suite.
 ## Create a Learning collection
 
 1. Go to the My Learning tab in Viva Learning and select **Collections**.
@@ -75,3 +75,4 @@ View and manage your collections under the **Collections** section in the **My L
 ![Image of a successfully integrated learning collection with the option to play the course](../media/learning/learning-collections7.png)
 
 You can also share and recommend your curated collections with peers through the **Share** and **Recommend** options. 
+

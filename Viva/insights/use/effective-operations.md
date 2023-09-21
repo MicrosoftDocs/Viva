@@ -18,6 +18,9 @@ audience: Admin
 
 # Enhance operational effectiveness
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Small changes to collaboration practices can have transformative effects on organizational productivity at scale. Each of the behaviors listed show how your organization compares with others based on industry research and your specific organizational data.
 
 ![Enhance operational effectiveness page.](../images/wpa/use/effective-operations.png)

@@ -18,6 +18,10 @@ audience: Admin
 
 # Power BI tips, FAQ, and troubleshooting
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The following provides a few guidelines to consider when setting up the Power BI templates, answers to some of the most frequently asked questions, and troubleshooting for the most common issues about setting up and using the templates in the the advanced insights app with Viva Insights.
 
 ## Setting up the Power BI template

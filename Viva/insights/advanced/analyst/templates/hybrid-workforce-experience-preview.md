@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/02/2023
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -27,7 +27,7 @@ As leaders figure out their organization’s new working models, the **Hybrid wo
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Azure Active Directory (AD) log-in information. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Azure Active Directory (AD) log-in information and employee activity on Microsoft 365 applications. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
@@ -35,7 +35,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Hybrid workforce experience (preview) - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYjdmZDQzOWYtZjQwZC00ZDJlLWFjNDYtNTc2NjFkYzJkZTQwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiYjdmZDQzOWYtZjQwZC00ZDJlLWFjNDYtNTc2NjFkYzJkZTQwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
@@ -63,12 +63,13 @@ After the **Hybrid workforce experience report (preview)** is set up and populat
 |Managers| Select the attribute values that identify managers who manage people within your organization, such as **Mgr** and **Mgr+**.|
 
 After this initial prompt, you can then select **Settings** at top right of any page to view and change the following parameters:
-* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.
-* **Select optional report filter** – Select the organizational attribute and values you want to filter the employees in the report.
-* **Exclusions** – Use the check boxes to:
-    * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).
-    * Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.
+
+|Setting|Description|
+|-------|-----------|
+|**Select the time period for the report** | Select the time period for which you want to view data in the report. | 
+|**Select an attribute to group data by** | Select the primary group-by attribute shown in all the reports. You can change this attribute at any time and all report pages will show group values by the new attribute.|
+|**Select optional report filter** | Select the organizational attribute and values you want to filter the employees in the report.|
+|**Exclusions** | Use the check boxes to: <ul><li> Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats). <li> Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.|
 
 * **Select the preferred language for your report** – Change the language for your report. 
  
@@ -90,11 +91,11 @@ This section:
 |**Manager onsite days**| Number of days a person's direct manager spent working onsite (on the company's corporate network). Note that because there’s a one-week delay in computing this metric, the values for the most recent week of data won’t be available.| Count
 
 >[!NOTE] 
->There’s a one-week delay in computing these metrics. This means that if you run a:
+>There’s a one-week delay in computing these metrics. This means that if you run:
 >
-> * Weekly query, the last week of data for the four metrics above will be "0."
-> * Daily query, the data for the four metrics above will be "0" for the last seven days in your query.
-> * Monthly query, the data for the last seven days of the last month in the query will be "0."
+> * A weekly query, the last week of data for the four metrics above will be "0."
+> * A daily query, the data for the four metrics above will be "0" for the last seven days in your query.
+> * A monthly query, the data for the last seven days of the last month in the query will be "0."
 
 ### Pages
 
@@ -102,27 +103,28 @@ This section:
 
 **Does the distribution of employees by work mode meet expectations and is there a potential disconnect between management and individual contributors?**
 
-This page shows the percent of employees by work mode (that is, Mostly onsite, Hybrid, Mostly remote, or Unclassified*) according to the latest week of data, split out by group. This page also highlights a potential disconnect between the share of managers and individual contributors working Mostly onsite, Hybrid, or Mostly remote. In case the **OnsiteDays** data is updated periodically, the **Explore the trends** button allows you to review the trend of percent of employees tagged as “Mostly onsite,” “Hybrid,” “Mostly remote,” and “Unclassified.”
+View the percent of employees by work mode (that is, Mostly onsite, Hybrid, Mostly remote, or Unclassified*) according to the latest week of data, split out by group. You can also discover whether there's a potential disconnect between the share of managers and individual contributors working Mostly onsite, Hybrid, or Mostly remote. In case the **OnsiteDays** data is updated periodically, the **Explore the trends** button allows you to review the trend of percent of employees tagged as “Mostly onsite,” “Hybrid,” “Mostly remote,” and “Unclassified.”
 
-*If an employee is categorized as “Unclassified,” it means that there was no numerical **OnsiteDays** value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
+>[!Note]
+> *If an employee is categorized as “Unclassified,” it means that there was no numerical **OnsiteDays** value found in the organizational data. The “Unclassified” employee category is not displayed in the remainder of this report.
 
 #### Collaboration habits
 
 **How does hybrid work impact meeting engagement and collaboration patterns throughout the week?**
 
-This page shows the average weekly time employees in different work modes spend collaborating in meetings, emails, Teams calls, or Teams chats on different days of the week. The numbers allow you to analyze whether employees in different work modes have equitable access to collaboration opportunities and tools. This page also shows, by work mode, the average share of meeting time during which employees multitask by sending emails or Teams chats.
+View the average weekly time employees in different work modes spend collaborating in meetings, emails, Teams calls, or Teams chats on different days of the week. The numbers allow you to analyze whether employees in different work modes have equitable access to collaboration opportunities and tools. You can also see by work mode, the average share of meeting time during which employees multitask by sending emails or Teams chats.
 
 #### Connectivity and belonging
 
 **How does hybrid work impact the employees’ connectivity and sense of belonging?**
 
-This page shows the average internal employee network size, split by work mode, including a three-month time trend. This page also shows the average weekly hours employees spent collaborating in small groups (with fewer than eight people), broken out by work mode.
+Get the average internal employee network size, split by work mode, including a three-month time trend. You can also view the average weekly hours employees spent collaborating in small groups (with fewer than eight people), broken out by work mode.
 
 #### Work-life balance and flex work
 
 **How does hybrid work impact flexible schedules and the employees’ ability to unplug?**
 
-This page shows, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the page shows the following working patterns:
+Understand, by work mode, the percent of employees collaborating outside of their working hours as set in Outlook for more than five hours per week. The chart on the right takes into account both the number of distinct daily hours employees participate in meetings, emails, and Teams chats or calls, as well as the average weekly hours employees spend collaborating outside of their set working hours. By combining both metrics, the page shows the following working patterns:
 
 * Long non-standard hours: employees with more than nine distinct active hours a day and spending more than five hours a week in collaboration outside of set working hours.
 * Long hours: employees with more than nine active hours a day but fewer than five hours a week in collaboration outside of set working hours.
@@ -133,7 +135,7 @@ This page shows, by work mode, the percent of employees collaborating outside of
 
 **How fast are new hires integrating into the organization’s network and are they getting the manager support they need?**
 
-This page shows the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
+Discover the average weekly time new hires get with their manager, broken out by work mode. New hires are defined as employees with tenure of less than one year. The toggle key allows you to review all time spent in meetings or calls where both the employee and their manager are present. This information can help a manager:
 
 * Provide support and mentoring.
 * Focus on the time spent in 1:1s with the employee, which presents a great opportunity for new-hire coaching and providing direction.
@@ -144,13 +146,13 @@ The chart on the right shows the average internal new-hire network size in an em
 
 **How does the employee and manager work mode impact the employees’ access to manager coaching?**
 
-This page shows, by work mode, the average 1:1 time employees get with their manager. The chart on the right explores whether a manager’s work mode affects the 1:1 time employees get with their manager.
+Find out, by work mode, the average 1:1 time employees get with their manager. The chart on the right explores whether a manager’s work mode affects the 1:1 time employees get with their manager.
   
 #### Track changes
 
 **How are behaviors evolving for employees in different work modes?**
 
-This page shows the trends for key leading indicator metrics that were introduced throughout the report, including metrics about collaboration habits, employee networks, work-life balance, new hire onboarding, and the manager connection.
+View trends for key leading indicator metrics that were introduced throughout the report, including metrics about collaboration habits, employee networks, work-life balance, new hire onboarding, and the manager connection.
 
 ### Other features
 

@@ -1,14 +1,16 @@
 ---
 title: Run a trial of Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: lauris; jaeccles
 ms.date: 11/15/2021
 audience: admin
 ms.topic: article
 ms.custom:
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -137,4 +139,3 @@ If you don't purchase licenses following the trial:
 ## See also
 
 [Get started driving adoption of Microsoft Viva Topics](topics-adoption-getstarted.md)
-

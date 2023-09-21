@@ -18,6 +18,10 @@ audience: Admin
 
 # Beyond knowledge workers
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 *This experience is only available through private preview at this time.*
 
 The Beyond knowledge worker dashboard uses a Power BI template that is populated by Viva Insights data to conduct a broad diagnostic of digital collaboration patterns (Teams chats, Teams calls, emails, and meetings) for frontline workers and those workers with hybrid office or field roles. It is designed to highlight collaboration patterns for different groups and to correlate collaboration behaviors to productivity outcomes.
@@ -40,7 +44,7 @@ After you successfully run these queries, you can download the Power BI template
 
 The following demo uses sample data that is only representative of this dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<iframe width="800" height="486" src=https://msit.powerbi.com/view?r=eyJrIjoiY2IxN2MxZDgtNzI2NC00MDJkLThjYzUtNDFiYjA3YzFlNDRjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiY2IxN2MxZDgtNzI2NC00MDJkLThjYzUtNDFiYjA3YzFlNDRjIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 ## Prerequisites
 

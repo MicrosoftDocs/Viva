@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for meetings
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 To solve a problem or make a decision, it helps to keep the meeting audience small and the duration short. Research shows that smaller and shorter meetings enable attendees to communicate faster, come to decisions more quickly, and focus on getting the work done.
 
 ## Why it matters

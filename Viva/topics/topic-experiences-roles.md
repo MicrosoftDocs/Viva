@@ -1,13 +1,15 @@
 ---
-ms.date: 11/15/2021
+ms.date: 07/13/2023
 title: Roles in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
 ms.topic: article
-ms.collection: m365initiative-viva-topics
+ms.collection:
+  - m365initiative-viva-topics
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -27,7 +29,7 @@ When you use Viva Topics in your Microsoft 365 environment, your users can have 
 
 ## Topic viewer
 
-Topic viewers are users in your organization who can view topics highlighted in their SharePoint modern site, Microsoft Search through SharePoint and Office.com and the topic center. They can view more details about a topic on the topic page. 
+Topic viewers are users in your organization who can view topics highlighted in their SharePoint modern site, Microsoft Search through SharePoint and Office.com, with the topic picker in Microsoft Teams and Outlook, and the topic center. They can view more details about a topic on the topic page.
 
 For topic highlights and their topic pages to be visible to a topic viewer, the user must:
 
@@ -38,7 +40,7 @@ For topic highlights and their topic pages to be visible to a topic viewer, the 
 
 Topic contributors are users in your organization that not only have topic viewer permissions, but who also can edit an existing topic or create a new topic. They have an important role in manually “curating” the information in a topic page (both AI or manually provided) to ensure its quality.
 
-Users who have topic contributor permissions will see an **Edit** button displayed on Topic pages, which allows them to make updates to and publish a topic.
+Users who have topic contributor permissions can see an **Edit** button displayed on Topic pages, which allows them to make updates to and publish a topic.
 
 A topic contributor can also create and publish a new topic through their topic center.
 
@@ -66,7 +68,7 @@ To manage topics, the user must:
 
 Users who have a good overall knowledge of your business can be good candidates for the knowledge manager role. Such people might not only have the knowledge to know if topics are valid or not, but might also know people within the company who are related to those topics.
 
-Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to be informed so that they can make sure that the SharePoint site is not crawled for topics, or specific topic names need to be excluded.
+Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to be informed so that they can make sure that the SharePoint site isn't crawled for topics, or specific topic names need to be excluded.
 
 ## Viva Topics admin
 
@@ -74,12 +76,9 @@ Viva Topics admins are admins who set up and configure Viva Topics in your Micro
 
 During setup, Viva Topics admins can configure Viva Topics to:
 
-- Select which SharePoint sites will be crawled for topics.
+- Select which SharePoint sites are crawled for topics.
 - Select which licensed users who can view topics (topic viewers).
-- Select which topics will be excluded from being identified.
+- Select which topics should be excluded from being identified.
 - Select which licensed users who can create and edit topics (topic contributors).
 - Select which licensed users who can manage topics (knowledge managers).
 - Name the topic center.
-
-
-

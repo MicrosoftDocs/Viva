@@ -1,9 +1,9 @@
 ---
-ms.date: 3/3/2023
+ms.date: 06/19/2023
 title: "Use audience targeting in Viva Connections to personalize the experience"
 ms.reviewer: 
-ms.author: hokavian
-author: Holland-ODSP
+ms.author: evanatkin
+author: AtkinE
 manager: pamgreen
 audience: Admin
 f1.keywords:
@@ -12,10 +12,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
 localization_priority: Priority
-ms.collection:  
-- Strat_SP_modern
-- M365-collaboration
-- m365initiative-viva-connections
+ms.collection:
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -26,10 +27,12 @@ description: "Learn how to use audience targeting in Viva Connections to persona
 
 Learn more about the ways audience targeting can be used to make sure the right audiences see the right content in [Viva Connections](viva-connections-overview.md). Audience targeting can be applied to the three components that make up Viva Connections – the dashboard, the Feed, and the Resources.
 
+You can make sure that your content is seen by the right people by using audience targeting within your Viva Connections experience, which is detailed in this article. You can also create separate Viva Connections experiences for different audiences. [Learn about the difference between audience targeting and different experiences](set-up-admin-center.md#when-to-use-a-separate-experience-vs-dashboard-card-level-targeting).
+
 > [!NOTE]
 >
 > - Audience targeting filters content but is not meant to manage permissions, access, or secure confidential content.
-> - [Azure Active Directory groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and AAD dynamic groups) are supported.
+> - [Azure Active Directory groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and Azure AD dynamic groups) are supported.
 > - While in edit-mode, the author will be able to view all content. In read-mode, the content will be filtered based on the audiences selected.  
 > - Publish (or republish) to save changes made to existing page content, page metadata, and audience targeting settings for audience targeting features to take effect.  
 > - If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
@@ -120,4 +123,3 @@ Resources are the navigation links that display in the Resources tab in the mobi
 [Frequently asked questions about the Feed for Viva Connections](faqs-viva-connections-feed.md)
 
 [Set up global navigation in the SharePoint app bar](sharepoint-app-bar.md)  
-

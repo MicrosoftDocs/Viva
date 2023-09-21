@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 06/29/2023
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: lilyolason
@@ -26,13 +26,13 @@ To learn about organizational data in general, find out which data Azure Active 
 
 When you’re ready to start working with an organizational data file, the following sections guide you through the data-preparation process:
 
-* [Identify trends that you want to analyze](#identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
-* [Know what data to include](#know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
-* [Get an export of organizational data](#get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
-* [Structure the organizational data](#structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the.csv file that you upload.
-* [Upload the organizational data file](#upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
+1. [Identify trends that you want to analyze](#step-1---identify-trends-that-you-want-to-analyze) – Decide which trends you need to learn about to improve efficiency at work. After identifying these trends, you can better choose what organizational data to use.
+1. [Know what data to include](#step-2---know-what-data-to-include) – A few data attributes are required, and many are optional. Among the optional ones, choose those that best serve your analytical purposes.
+1. [Get an export of organizational data](#step-3---get-an-export-of-organizational-data) – Have an admin export the HR data from your organization’s HR system. Optionally, include line-of-business data, if your analysis requires it.
+1. [Structure the organizational data](#step-4---structure-the-organizational-data) – For your data to validate successfully, you need to first structure it correctly in the .csv file that you upload.
+1. [Upload the organizational data file](#step-5---upload-the-organizational-data-file) – After your .csv file is ready, you upload it to the advanced insights app where, after validation and processing, it becomes available for analysis.
 
-### Identify trends that you want to analyze
+### Step 1 - Identify trends that you want to analyze
 
 To know what organizational data to extract, you first need to decide what workplace trends you want to learn about. For example, in an upcoming analysis, you may want to examine collaboration across different employee segments, or groups. You need to first define these groups, which you can do in various ways:
 
@@ -73,7 +73,7 @@ Most of these attributes are also found in HR information systems.
 
 Finally, you might want to consider tying collaboration behavior patterns to employee engagement scores or other performance outcome data, such as sales-quota attainment or high/low performance ratings. This data is often found outside of traditional HR information systems, either in separate HR data repositories or in line-of-business systems.
 
-### Know what data to include
+### Step 2 - Know what data to include
 
 To get full functionality from the advanced insights app, you need to supply several required attributes, as described in [Attribute reference](#attribute-reference). Additionally, you can supply up to 100 optional attributes to group and filter data in interesting and custom ways.
 
@@ -93,6 +93,10 @@ It's the admin's responsibility to maintain up-to-date and complete organization
 
 The reason for including all licensed employees in the organization is that, if their organizational data is missing, analysts can't filter by that data when they build a query on the **Analysis** page. So, employees whose data is missing will be excluded from the analyses that analysts perform.
 
+>[!Important]
+>Make sure the Microsoft 365 admin has assigned licenses to all employees you want to include in reports. Even if you include an employee in your organizational data file, they'll need a license to show up in reports. For more information about licensing and reports, refer to [When users show up in query results](../setup-maint/assign-licenses.md#when-users-show-up-in-query-results).
+
+
 ##### Notification of missing data
 
 If the app detects that data is missing for one or more licensed employees, it alerts admins through a pop-up notification in the top-right corner of the **Data connections** tab.
@@ -104,11 +108,11 @@ To upload this missing data, the admin can follow these steps:
 1. On the pop-up notification, select **Download** to download a .csv file that contains the names of licensed employees whose organizational data is missing. 
 1. Open the .csv file.
 1. Append the missing data for these employees. This means adding attributes (columns) that describe the employees in a way consistent with previous uploads.
-1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md)] for more information.
+1. Upload the file. Refer to [Upload organizational data (subsequent upload)](./upload-org-data-subsequent.md) for more information.
 
 In addition to including all licensed employees in the upload of organizational data, we recommend that you also include unlicensed employees, as we explained [earlier](#including-all-licensed-employees).
 
-#### Get an export of organizational data
+### Step 3 - Get an export of organizational data
 
 Before you format and upload organizational data, you need to get it from one or more sources. Your primary source is the team that manages your organization's HR information systems. This team will need to provide you with a data export of HR attributes for individual employees.
 
@@ -121,15 +125,17 @@ In addition, your analysts might need data about business outcomes. If so, you'l
 
 After you get this data, you'll need to structure it for successful processing after uploading it to the app.
 
-### Structure the organizational data
+### Step 4 - Structure the organizational data
 
-After you’ve identified what data to provide, you need to export it into the correct format for uploading it. To start with, the data needs to be in a UTF-8 encoded .csv file and contain at least the set of required attributes for the population, which can be in any order in the file. 
+After you’ve gotten your exported data, structure it into the correct format.
 
-The file name needs contain only alphanumeric characters (letters and numbers), with no spaces or special characters—for example, FileName2.csv.
+#### Add required, reserved optional, and custom attributes
 
-#### Required attributes
+There are three types of attributes you can add in your organizational data file: required, reserved optional, and custom.
 
-Supply the following attributes as column headers, exactly as written below, in the .csv upload.<!--, of which **PersonId** and **ManagerId** are not case sensitive, but **Organization** is.-->
+##### Required
+
+Supply the following attributes as column headers, exactly as written below, in the .csv upload.
 
 * **EffectiveDate**
     * Make sure the **EffectiveDate** column has values in all rows. If you don’t provide an **EffectiveDate** column in your upload, the date you uploaded the data becomes the default **EffectiveDate**.
@@ -137,7 +143,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 * **ManagerId**
 * **Organization** (case sensitive)
 
-### Reserved optional attributes
+##### Reserved optional
 
 The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
@@ -163,17 +169,18 @@ Custom attributes are any additional attributes you want to define to use in fil
 > * All dates should be in the MM/DD/YYYY format.
 > * All numerical fields (such as the required attribute "HourlyRate") need to be in the "number" format and cannot contain commas or a dollar sign.
 
-For more information, see Attribute descriptions and data-coverage requirements.
+>[!Tip]
+>Go to our [File rules and validation errors](rules-validation-errors.md) article for more information about formatting your file.
 
 #### Example .csv export file
 
 Here's an example snippet of a valid .csv export file:
 
-PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest
+``PersonId,EffectiveDate,HireDate,ManagerId,LevelDesignation,Organization,Layer,Area Emp1@contoso.com,12/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp2@contoso.com,11/1/2020,1/3/2014,Mgr1@contoso.com,Junior IC,Sales,8,Southeast Emp3@contoso.com,12/1/2020,1/3/2014,Mgr2@contoso.com,Manager,Sales,7,Northeast Emp4@contoso.com,10/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp5@contoso.com,11/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest Emp6@contoso.com,12/1/2020,8/15/2015,Mgr3@contoso.com,Support,Sales,9,Midwest``
 
 For more information about attributes, refer to the [Attribute reference](#attribute-reference) section.
 
-## Upload the organizational data file
+### Step 5 - Upload the organizational data file
 
 After you create a source .csv file, you can upload it to the advanced insights app through the **Organizational data page > Data hub** or **Data connections** tab.
 
@@ -181,13 +188,12 @@ If this is the first time that you'll upload organizational data, refer to [Uplo
 
 After your data has been successfully uploaded, the app performs additional validation and processing to complete provisioning.
 
-## How often to upload an organizational data .csv file
+#### How often to upload an organizational data .csv file
 
 It's recommended that you upload employee data at least once a month to keep data fresh and analysis relevant. Soon after an employee data upload has succeeded, the updated data becomes available for users to see as insights in the app.
 
-### Supplying data over a time period
+##### Supplying data over a time period
 
-<!--pending confirmation-->
 
 By default, Viva Insights includes meeting and email data for measured employees for one year. Organizational data is provided to Viva Insights with an effective date associated with each row in the upload file.
 
@@ -215,7 +221,7 @@ This section contains information about the attributes that you use in the organ
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
 |**OnsiteDays**| The average number of days per week an employee works from the company’s main worksite. OnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| String | `4` |Reserved|
 |**Location** | An employee’s office location.| String | `Burbank` | Reserved|
-| **My_Custom_attribute**<br> (example: **Parking_space**)| An attribute you create | String | `15D` | N/A (custom)<sup>4</sup>
+| **My_Custom_attribute**<br> (example: **Campus**)| An attribute you create | String | `West` | N/A (custom)<sup>4</sup>
 
 <sup> 1. You need to include required fields. Each required field needs non-blank values for each row.  </sup>
 
@@ -225,54 +231,29 @@ This section contains information about the attributes that you use in the organ
 
 <sup> 4. You’re not required to include custom attributes. If you do add them, however, they can’t have the same name as any of the required or reserved attributes. </sup>
 
-## Attribute notes and recommendations
+>[!Note]
+>Any attribute that contains **Microsoft_** will not be available in Viva Insights.
 
-### Some attributes exist only for a subset of the population
+### Attribute notes and recommendations
+
+#### Some attributes exist only for a subset of the population
 
 When choosing attributes to include, some attribute values might be populated for one organization but not others. For example, if the upload includes sales quota-attainment data that only applies to your sales organization, you can't use this data for filtering and grouping employees outside of sales.
 
-### Too many unique values
+#### Too many unique values
 
 Sometimes an attribute has too many unique values to use for grouping and filtering. For example, if a job function or code is too narrowly defined, it might not give you a useful view of the overall group. If an attribute has hundreds of unique values that result in a small population group per value, the attribute might not be useful.
 
-### Too few unique values
+#### Too few unique values
 
 Conversely, sometimes an attribute is too broadly defined for useful filtering. For example, if your organization resides entirely in the United States and your HR records per employee contain a country code that always equals US, that attribute wouldn't be useful.
 
-### Redundant attributes
+#### Redundant attributes
 
 Some attributes might represent the same data and provide unnecessary redundant data for analysis. For example, HR data could contain both a cost center ID and a cost center name for an employee. Because both represent the same information in a slightly different format, you’ll want to include only the one with the more "user friendly" name.
 
-### Line-of-business data
+#### Line-of-business data
 
 Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you'll want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
 
-## Valid values and formats
-
-When any data row or column has an invalid value for any attribute, the entire upload will fail until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid).
-
-### Rules for field headers
-
-All field header or column names need to: 
-
-* Begin with a letter (not a number).
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**).
-* Have no leading or trailing blank spaces or special characters (non-alphanumeric, such as @, #, %, &).
-
-### Rules for field values
-
-The field values in data rows need to comply with the following formatting rules:
-
-* The required EffectiveDate and HireDate field values must be in the MM/DD/YYYY format
-* The required PersonId and ManagerId field values must be a valid email address (for example, `gc@contoso.com`)
-* The required Layer field values must contain numbers only
-* The required HourlyRate field values must contain numbers only, which the app assumes is in US dollars for calculations and data analysis
-
-## Rules for characters in field values
-
-The following field rules apply to characters in field values:
-
-* Double-byte characters, such as Japanese characters, *are* permitted in the field values.
-* The maximum character length of field values in rows is 128 KB, which is about 1024 x 128 characters.
-* “New line" (\n) characters are *not* permitted in field values.

@@ -18,6 +18,9 @@ audience: Admin
 
 # Assign licenses overview
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viiva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The following describes who does what to assign licenses to users for Microsoft Viva Insights.
 
 * **Owner** &ndash; Viva Insights sponsor, Viva Insights Administrator, Azure Active Directory (AD) [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator), or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
@@ -56,7 +59,7 @@ Intro text out for now:
 Watch this video to learn how Workplace Analytics licenses work and how the Microsoft 365 admin can assign Workplace Analytics licenses. old link, with thumbnail
 [<img src="../Images/WpA/setup/Assign-licenses.png" alt="Assign licenses video">](https://aka.ms/AssignWpALicenses_Video)
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282896938]
 -->
 ## License assignment options
 

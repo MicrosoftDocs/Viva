@@ -4,7 +4,7 @@ title: Planview Projectplace integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager:     
+manager: Liz.Pierce    
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -14,9 +14,10 @@ ms.subservice: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
-description: "Sync your project progress in Planview Projectplace with your OKRs in Viva Goals"
+description: "Sync your initiative progress in Planview Projectplace with your OKRs in Viva Goals"
 ---
 
 # Planview Projectplace integration

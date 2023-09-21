@@ -7,12 +7,17 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
+ms.subservice: viva-insights
 ---
 
 # Best practices for avoiding email overload
+
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
 Employees need time to disconnect from work. Studies show that we all need mental recovery time to reduce stress, increase creativity, and avoid burnout. When employees feel overwhelmed with email, they can become stressed, lose focus, and miss important tasks.
 

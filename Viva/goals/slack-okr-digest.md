@@ -3,7 +3,7 @@ ms.date: 10/20/2022
 title: OKR Digest
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: liz.pierce
 audience: Admin
 f1.keywords:
@@ -14,12 +14,13 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Learn about OKR Digests in Viva Goals"
 ---
 
-# OKR Digest Updates 
+# OKR digest updates 
 
 Get summarized OKR progress and status updates for the company, teams, or individuals delivered to emails or [Slack](https://slack.com/) channels to stay current on what's happening in your company.
 

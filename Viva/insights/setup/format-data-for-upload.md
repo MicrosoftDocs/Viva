@@ -19,6 +19,9 @@ audience: Admin
 
 # Format organizational data for upload
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights admins upload files that contain organizational (HR) data as part of setup and as a regular data-refresh task.
 
 <!-- THIS IS THE HEADER AND INTRO PARAGRAPH TO USE WHEN THIS TOPIC APPLIES TO UPLOAD OF ALL/VARIOUS DATA TO WPA. 
@@ -135,7 +138,7 @@ All field header or column names must adhere to the following:
 | Begin with a letter, not a number | Example: _Date1_ |
 | Contain only alphanumeric characters | Use letters and numbers only. <br>Example: _Date1_ |
 | Contain no special characters | Do not use non-alphanumeric characters such as _@, #, %, &, *_ |
-| Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: <strike>HRBP</strike> |
+| Contain at least one lower-case letter | Example: _Hrbp_ <br>All uppercase does not work: ~~HRBP~~ |
 | Contain no spaces | Example: _Date1_ |
 | Adhere to the requirements for Viva Insights [required attributes](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#required-attributes) and [reserved optional attributes](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#reserved-optional-attributes), including for case sensitivity | For example, for the attributes _PersonId_ and _HireDate_ |
 

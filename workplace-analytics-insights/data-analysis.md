@@ -7,10 +7,11 @@ author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null
-ms.service: workplace-analytics
+ms.service: viva
 manager: scott.ruble
 audience: Admin
 
+ms.subservice: viva-insights
 ---
 
 # Data access and analysis
