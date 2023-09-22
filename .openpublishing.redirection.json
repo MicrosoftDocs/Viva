@@ -1667,7 +1667,7 @@
     {
       "source_path": "Viva/glint/third-party-notice.md",
       "redirect_url":"https://learn.microsoft.com/legal/viva/glint/third-party-notice",
-      "redirect_document_id": false
+      "redirect_document_id": true
     },
   ]
 }
