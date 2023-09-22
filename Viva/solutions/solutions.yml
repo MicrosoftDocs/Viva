@@ -72,22 +72,7 @@ landingContent:
           - text: Rhythm of Business Overview
             url: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md  
  
-
-  # Card
-  - title: Solve common business problems with accelerators
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Introduction
-            url: introduction.md
-          - text: Data lake solutions
-            url: /viva/solutions/data-lakes/viva-insights.md
-          - text: Data access automation
-            url: automate-exports.md
-          - text: Multi-tenant solution
-            url: complex-organization-insights.md  
-  
-  # Card
+    # Card
   - title: Incorporate learning into your organization
     linkLists:
       - linkListType: overview

@@ -11,8 +11,6 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.custom:
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview

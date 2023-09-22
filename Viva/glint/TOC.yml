@@ -11,7 +11,9 @@
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: start/people-science-viva-glint.md     
+          href: start/people-science-viva-glint.md
+        - name: Learning path and modules
+          href: start/viva-glint-learning-paths-and-modules.md
    - name: Setup and administration
      items:
      - name: Deploy Microsoft Viva Glint
@@ -24,7 +26,7 @@
         - name: Viva Glint Licensing
           href: setup/glint-order-teams.md
         - name: Third party notice
-          href: setup/third-party-notice.md
+          href: /legal/viva/glint/third-party-notice
      - name: Microsoft Viva Glint privacy
        href: setup/viva-glint-privacy.md
        items:
@@ -36,15 +38,6 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up Viva Glint Secure File Transfer Protocol
-       href: setup/setup-sftp.md
-       items:  
-        - name: Configure SFTP IP addresses in Viva Glint
-          href: setup/configure-sftp.md
-        - name: Create an SSH key pair for SFTP
-          href: setup/ssh-key-pair.md
-        - name: Add a public SSH key to Viva Glint
-          href: setup/add-a-public-ssh-key.md
      - name: Set up the Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
@@ -88,6 +81,8 @@
         - name: Set up and use Distribution lists in Viva Glint
           href: setup/set-up-distribution-lists.md
           items:
+          - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
+            href: setup/import-members-distribution-lists.md
           - name: Export a Viva Glint Distribution list
             href: setup/export-distribution-lists.md
         - name: Customize action plans in Viva Glint
@@ -98,8 +93,6 @@
           href: setup/benchmarks.md
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
-        - name: Understand Advanced Configuration options in Viva Glint 
-          href: setup/understand-advanced-configuration.md
      - name: Best practices program guidance
        href: setup/best-practice-setup-guidance.md
        items:          
@@ -126,34 +119,7 @@
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
        items: 
-        - name: Set up Program Summary for Viva Glint Engagement-type surveys
-          href: setup/program-summary-overview.md
-          items:
-          - name: Program setup in Program Summary
-            href: setup/program-set-up.md
-          - name: Set up and use Distribution Lists in Viva Glint
-            href: setup/set-up-distribution-lists.md
-          - name: Set up Schedule page in Program Summary
-            href: setup/schedule-setup.md
-          - name: Questions set up in Program Summary
-            href: setup/questions-setup.md
-          - name: Reporting setup in Program Summary
-            href: setup/reporting-setup.md
-          - name: Communications setup in Program Summary
-            href: setup/program-summary-communications.md
-          - name: Set up Coaching page in Program Summary
-            href: setup/program-summary-coaching.md
         - name: Setting up Engagement surveys
-          items: 
-          - name: Preview, manage, and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
-          - name: Quarterly Engagement Survey template
-            href: setup/quarterly-engagement-template.md
-          - name: Set up a Viva Glint Team Effectiveness survey
-            href: setup/team-effectiveness-survey.md
-          - name: Set up a Manager Effectiveness survey
-            href: setup/manager-effectiveness-survey.md
-        - name: Setting up Employee Lifecycle surveys
           items:
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
             href: setup/program-summary-setup-lifecycle.md
@@ -165,6 +131,22 @@
           items:
           - name: Preview, manage, and enable Viva Glint surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md
+     - name: Viva Glint Advanced Configuration
+       items:
+        - name: Understand Advanced Configuration options in Viva Glint 
+          href: setup/understand-advanced-configuration.md
+        - name: Consider People Science factors for historical imports
+          href: setup/import-external-people-science-pov.md
+        - name: Import historical response data in Viva Glint
+          href: setup/import-historical-response-data.md
+        - name: Update reporting data in closed Viva Glint surveys
+          href: setup/update-glint-reporting-data.md
+        - name: Use Advanced Configuration Data Apps
+          href: setup/glint-data-apps.md
+        - name: Use Advanced Configuration Uploads
+          href: setup/advanced-config-uploads.md
+        - name: Flag Sensitive comments in Viva Glint
+          href: setup/glint-sensitive-comments.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
@@ -234,4 +216,9 @@
         - name: Communicate pre-launch and live Viva Glint program information using email templates 
           href: communicate/prelaunch-live-email-templates.md
         - name: Communicate results rollout plans for Viva Glint programs using email templates
-          href: communicate/results-rollout-templates.md 
+          href: communicate/results-rollout-templates.md
+   - name: Troubleshoot
+     items:
+     - name: Resolve manager hierarchy error
+       href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+ 
