@@ -26,7 +26,7 @@
         - name: Viva Glint Licensing
           href: setup/glint-order-teams.md
         - name: Third party notice
-          href: setup/third-party-notice.md
+          href: /legal/viva/glint/third-party-notice
      - name: Microsoft Viva Glint privacy
        href: setup/viva-glint-privacy.md
        items:
