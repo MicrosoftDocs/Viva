@@ -38,12 +38,14 @@ An authorized admin (for example, a global admin) in your tenant can create, ass
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-> Only some features will have controls available for admins to provide users with the option to opt out.
+> - Only some features will have controls available for admins to provide users with the option to opt out.
+> - Insights Reflection isn't available to all tenants but will be widely available soon. 
 
 |App|Feature|Optional control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
-|Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Global admin<br>Insights admin|VivaInsights|
+|Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
 | | | | |
+
 
 ## Requirements
 
