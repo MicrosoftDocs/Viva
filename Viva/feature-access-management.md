@@ -45,7 +45,7 @@ You can use feature access management to manage access to the following features
 |App|Feature|Optional control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
 |Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
-|Viva Pulse|[Customization](https://learn.microsoft.com/en-us/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
+|Viva Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
 
 
 \* Not yet available for all tenants. Support will be added soon.
