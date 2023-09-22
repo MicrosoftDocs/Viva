@@ -1,9 +1,9 @@
 ---
 title: Viva Glint best practices program guidance
 description: This list of articles help ensure your programs are the best they can be to benefit all roles in your organization.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: mbarry
 audience: admin
 f1.keywords: NOCSH
 keywords: employee data
@@ -39,7 +39,5 @@ From one program cycle to the next, you may want to make changes to the survey o
 [Choose survey comparison data for Viva Glint reporting](https://go.microsoft.com/fwlink/?linkid=2230923)
 
 [Recognize survey field character limits in Viva Glint programs](https://go.microsoft.com/fwlink/?linkid=2230874)
-
-[Use Viva Glint's best practices to design your survey program](https://go.microsoft.com/fwlink/?linkid=2230925)
 
 [Use the Glint Microsoft Teams Application](https://go.microsoft.com/fwlink/?linkid=2236748)
