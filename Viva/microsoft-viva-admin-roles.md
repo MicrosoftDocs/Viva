@@ -15,6 +15,7 @@ ms.collection:
   - M365initiative-viva
   - highpri
   - Tier1
+  - essentials-manage
 search.appverid:
 - MET150
 
