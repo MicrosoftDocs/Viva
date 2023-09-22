@@ -88,6 +88,9 @@ Beginning in March 2019, we started transitioning how Viva Engage users are crea
 
 When **Enforce Office 365 identity** is selected in Viva Engage (including when in Native Mode), as Viva Engage-eligible users are added to Office 365, they're automatically added as pending users in Viva Engage. Their status changes from **Pending** to **Active** the first time they use Viva Engage.
 
+> [!NOTE]
+> If you have Viva Core licensed to your users, they will appear as **Active** instead of **Pending**.
+
 The process follows these steps:
   
 1. The Office 365 admin creates a user in Office 365.
