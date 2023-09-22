@@ -1,5 +1,5 @@
 ---
-ms.date: 08/30/2023
+ms.date: 09/22/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: evanatkin
