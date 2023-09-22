@@ -18,6 +18,7 @@ ms.collection:
   - intro-overview
   - highpri
   - Tier1
+  - essentials-get-started
 search.appverid:
 - MET150
 description: "Learn everything about Microsoft Viva and Microsoft Viva experiences"
