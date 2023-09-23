@@ -56,11 +56,23 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 
 ## Customization
 
+### Customize Pulses
+
 Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions. To make any customization configurations:
 
 1. In the **Manage** tab, go to the **Customization** tab.
 2. To turn off or turn on customization, use the toggles associated with **Stock Questions** and **New Questions**.
 3. The update is autosaved.
+
+### Customize your organization’s policy statement
+
+As an admin, you can also set customization options for your organization. This includes an option to add a link to internal guidance and policies governing appropriate survey questions, which will be shown to users during survey creation.
+
+You can use this link to remind employees of internal policies and guidelines for writing survey questions within your organization. When the feedback author clicks on the link while customizing a survey, they will be taken to your company’s internal policy.
+
+1. In the **Manage** tab, go to the **Customization** tab.
+2. Under the **Customized organizational policy statement** section, in the text box labeled **Link to organization’s policy statement**, type or paste a link to your company’s internal policy statement to be shown in the customization flow in place of the Microsoft policy statement.
+3. The value will be auto-saved.
 
 ## Notifications
 
