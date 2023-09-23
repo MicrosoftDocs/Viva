@@ -1220,6 +1220,16 @@
         "redirect_document_id": false
       },
       {
+        "source_path": "Viva/solutions/data-lakes/microsoft-graph-data-connect.md",
+        "redirect_url": "/previous-version/viva/solutions/data-lakes/microsoft-graph-data-connect",
+        "redirect_document_id": false
+      },
+      {
+        "source_path": "Viva/solutions/data-lakes/viva-insights.md",
+        "redirect_url": "/previous-version/Viva/solutions/data-lakes/viva-insights.md",
+        "redirect_document_id": false
+      },
+      {
         "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
         "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
         "redirect_document_id": false
@@ -1563,6 +1573,101 @@
       "source_path": "Viva/insights/personal/teams/faq.md",
       "redirect_url": "/viva/insights/personal/overview/mya-faq",
       "redirect_document_id": false
-    }
-    ]
-  }
+    },
+        {
+        "source_path": "Viva/solutions/complex-organization-insights.md",
+        "redirect_url": "/previous-versions/viva/complex-organization-insights",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-intro.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-intro",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-source-files.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-source-files",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/hybrid-workforce-experience-template.md",
+        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-template",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/organizational-network-analysis/gephi-for-ona.md",
+        "redirect_url": "/previous-versions/viva/gephi-for-ona",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/organizational-network-analysis/organizational-network-analysis.md",
+        "redirect_url": "/previous-versions/viva/organizational-network-analysis",
+        "redirect_document_id": "FALSE"
+    },
+    {
+        "source_path": "Viva/solutions/slack-integration.md",
+        "redirect_url": "/previous-versions/viva/slack-integration",
+        "redirect_document_id": "FALSE"
+    },
+    {
+      "source_path": "Viva/insights/personal/overview/vi-trial.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": "FALSE"
+    },
+    {
+      "source_path": "viva/insights/use/shared-focus-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97",
+      "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/engage/configure-your-viva-engage-network/manage-storyline-viva.md",
+      "redirect_url": "/viva/engage/eac-storyline",
+      "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/insights/personal/overview/better-work-habits.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/glint/setup/set-up-attributes.md",
+      "redirect_url": "/viva/glint/setup/send-employee-attributes",
+      "redirect_document_id": "FALSE"
+    },
+    { 
+      "source_path": "Viva/glint/setup/create-employee-attribute-file.md",
+      "redirect_url": "/viva/glint/setup/send-employee-attributes",
+      "redirect_document_id": "FALSE"
+    },
+    {
+      "source_path": "Viva/glint/setup/add-a-public-ssh-key.md",
+      "redirect_url": "/viva/glint/setup/upload-employee-data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Viva/glint/setup/configure-sftp.md",
+      "redirect_url": "/viva/glint/setup/upload-employee-data",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "Viva/glint/setup/setup-sftp.md",
+      "redirect_url": "/viva/glint/setup/upload-employee-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/glint/setup/ssh-key-pair.md",
+      "redirect_url": "/viva/glint/setup/upload-employee-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-terms-faq.md",
+      "redirect_url":"/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "Viva/glint/setup/third-party-notice.md",
+      "redirect_url":"/legal/viva/glint/third-party-notice",
+      "redirect_document_id": false
+    },
+  ]
+}

@@ -1,7 +1,7 @@
 ---
-ms.date: 6/19/2023
+ms.date: 09/22/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
-ms.reviewer: 
+ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
 manager: pamgreen
@@ -27,7 +27,11 @@ description: "Learn how to edit the Viva Connections dashboard"
 # Create a Viva Connections dashboard and add cards
 
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
-The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links. 
+The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
+
+> ![NOTE]
+>
+> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
@@ -62,6 +66,7 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 > - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
 > - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
 > - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+> - Users will be able to [customize their dashboard on Viva Connections mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the mobile experience for the user and will not affect their desktop or tablet experience.
 
 
 1.	Navigate to the Viva Connections app in Teams.
