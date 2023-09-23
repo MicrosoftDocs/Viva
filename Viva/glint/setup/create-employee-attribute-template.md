@@ -1,9 +1,9 @@
 ---
 title: Create your Employee Attribute Template in Viva Glint
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you will provide.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: HRIS planning tool, upload data, data file, header row, required attributes, custom attributes
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 03/24/2023
 ---
 
@@ -22,7 +22,8 @@ ms.date: 03/24/2023
 
 The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Microsoft Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting and role reporting.
 
-Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
+>[!NOTE]
+>Use our [template as guidance](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
 
 Ensure that attribute labels that you set up initially stay consistent over time in the Employee Data Files transferred to Viva Glint. For example, if an attribute is set up as “*Employee ID*,” it can't later be recognized as the same column renamed as “Employee Number.”
 

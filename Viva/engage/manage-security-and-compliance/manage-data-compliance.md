@@ -54,21 +54,17 @@ Monitor group create|has created|Matthew has created the Easter Region Sales gro
 <a name="DataRetention"> </a>
 ## Data retention
 
-You can control whether deleted messages and files stored in Viva Engage are retained and available in data exports. 
- 
-Networks in Archive Mode retain all content for the life of that network. This is true even if users delete content; the content is only removed from the front end. Networks in Delete mode remove content after 30 days after it's been deleted. At that point, the content is not recoverable.
+You can remove deleted data from the user's view, while preserving it for data export for the life of the tenant.
 
- **Set whether to retain deleted messages and files stored in Viva Engage**
-  
-1. In the Viva Engage admin center, go to **Governance and Compliance** \> **Data Export**.
-    
-2. To prevent deleted data from being available in exported data, select **Delete**. Or, to enable deleted data to appear in exported data, select **Archive**.
-    
-    To permanently delete retained data in Viva Engage storage, you must use the Viva Engage Developer API. First, export the data to identify the data you need to delete permanently. Next, write a custom PowerShell script to loop through the specific items to delete. For information, see the REST API section of  [Develop apps for Viva Engage](https://go.microsoft.com/fwlink/?linkid=874797). 
+1. In the Viva Engage admin center, go to **Content and Security** > **Data Retention**.
+1. Select **Archive** and save your changes.
+    <br> This setting applies to your entire network.
 
- **Set whether to retain deleted files stored in SharePoint**
+**To hard-delete deleted data**, use the [GDPR workflow](gdpr-requests-in-viva-engage-enterprise.md) or the hard-delete API. Files uploaded through Engage and hosted in other Microsoft 365 resources (for example, SharePoint) are subject to the deletion policies of the hosting resource.
 
-For Viva Engage files saved in SharePoint, Office 365 data retention settings apply. For more information, see [Overview of retention policies](/office365/securitycompliance/retention-policies).
+**To permanently delete retained data in Viva Engage storage**, [export the data](../eac-as-manage-data.md) to identify the data you need to delete permanently and then write a custom PowerShell script to loop through the specific items to delete using the [REST API](/rest/api/yammer/rest-api-rate-limits).
+
+**To permanently delete retained Viva Engage files saved in SharePoint**, you must use data retention settings in Microsoft Office 365. For more information, see [Overview of retention policies](/office365/securitycompliance/retention-policies).
     
 <a name="ContentMode"> </a>
 ## Content mode

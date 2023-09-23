@@ -1,5 +1,5 @@
 ---
-ms.date: 08/04/2023
+ms.date: 09/22/2023
 title: "Plan Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -27,9 +27,10 @@ description: "Plan Microsoft Viva Connections for your organization"
 
 > [!NOTE]
 >
-> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communities & Connections license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
+> Viva Connections is available on mobile and tablet devices in GCC, GCC High, and DoD environments with limited features. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's employee experience strategy. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
 
@@ -195,7 +196,7 @@ The feed is designed to be dynamic, personalized, and a place where the most rel
 - Publish SharePoint news from [official organizational news sources](/sharepoint/organization-news-site#:~:text=Use%20Microsoft%20PowerShell%20to%20specify%20a%20site%20as,organization%20news%20site%3A%20PowerShell%20Set-SPOOrgNewsSite%20-OrgNewsSiteUrl%20%3Csite%20URL%3E) like the [home site](/viva/connections/home-site-plan)
 - [Use news boost to elevate the most important news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83#:~:text=1%20On%20your%20organization%20news%20site%2C%20open%20the,post%20to%20stop%20being%20boosted.%20More%20items...%20) posts on organizational news sites to surface news posts to the top of the feed
 - [Post news as a video news links](/viva/connections/video-news-links) hosted by stream to share updates, rebroadcast an all-hands meeting, or provide reusable training materials
-- Highlight community discussions by [featuring posts in Viva Engage](/viva/engage//manage-viva-engage-groups/viva-engage-all-company-viva-engage-community) that you’d like seen by the entire organization
+- Highlight community discussions by [featuring posts in Viva Engage](/viva/engage/manage-viva-engage-groups/all-company-community) that you’d like seen by the entire organization
 - Encourage your organization to [engage and participate in discussions in Viva Engage](https://adoption.microsoft.com/viva/engage), especially leaders and workplace champions
 - [Use audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293) to make sure specific content is seen by different audiences using Microsoft 365 groups
 
@@ -255,6 +256,10 @@ Learn more about adoption, best practices, and get communication templates in th
 ## Step 7: Consider success metrics
 
 Part of the planning process includes determining which metrics will be used to measure how effective Viva Connections is in bringing your organization together and keeping specific audiences informed. Start by considering the tasks and tools that the dashboard will offer. For example, if you create a card that links to your human resources SharePoint site or a specific page, you should expect to see more traffic and engagement for that site in usage reports.
+
+> ![NOTE]
+>
+> The analytics feature is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 - **Viva Connections analytics:** Understand how and when users engage with components of the Viva Connections experience by using [Viva Connections analytics](viva-connections-analytics.md). Review the number of people who have viewed and engaged with Viva Connections experiences, the content types users engage with, and the platforms used to access Viva Connections.
 - **High-level view of usage across M365 apps:** Use [Microsoft 365 usage analytics](/microsoft-365/admin/usage-analytics/usage-analytics) to access a pre-built dashboard that contains several pre-built reports that focus on adoption of M365 apps, usage, communication, and collaboration.

@@ -83,7 +83,7 @@ Following are some example Windows PowerShell script snippets that you can use t
 <a name="StartBlocking"> </a>
 ## Block users who don't have Viva Engage Core licenses
 
-The Viva Engage Core license, like the Yammer license, provides access to the core Viva Engage services. It also provides full access to both the Engage app and Viva Engage.com in the same way that the Viva Engage license currently does. Therefore, in any scenario where you're blocking a user or your entire company from accessing Viva Engage, you need to remove the Viva Engage Core license and the Yammer license. For information about how to remove a Yammer license, see [Managing viva-engage user licenses in Office 365](/viva/engage/manage-viva-engage-users/manage-viva-engage-licenses-in-office-365).
+The Viva Engage Core license, like the Yammer license, provides access to the core Viva Engage services. It also provides full access to both the Engage app and Viva Engage.com in the same way that the Viva Engage license currently does. Therefore, in any scenario where you're blocking a user or your entire company from accessing Viva Engage, you need to remove the Viva Engage Core license and the Yammer license.
 
 It takes just a few steps to start blocking Microsoft 365 users who don't have Viva Engage Core licenses. However, turning on this setting can accidentally disrupt users' access to Yammer or Viva Engage. So before you begin, do the following to make sure your Viva Engage users can continue working smoothly:
   

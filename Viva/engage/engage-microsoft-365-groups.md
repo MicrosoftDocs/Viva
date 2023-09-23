@@ -51,7 +51,7 @@ To use communities connected to Microsoft 365 Groups in Viva Engage, make sure y
 
 - You must [enforce Microsoft 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) for Viva Engage users. When you first enforce Microsoft 365 identity, there's a seven-day trial period, after which the **Status** of your  **Microsoft 365 Identity Enforcement** changes to **Committed**.
 
-- Since October 16, 2018, all Viva Engage networks must be in a 1:1 network configuration. This means that you have one Viva Engage network that's associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/faq-consolidate-multiple-viva-engage-networks).
+- Since October 16, 2018, all Viva Engage networks must be in a 1:1 network configuration. This means that you have one Viva Engage network that's associated with one Office 365 tenant. For more information, see [FAQ: Consolidating multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
 
 >[!NOTE]
 > If you want to ensure that all of your communities are connected, align your network to Native Mode. To learn more, see [Overview of Native Mode](overview-native-mode.md).

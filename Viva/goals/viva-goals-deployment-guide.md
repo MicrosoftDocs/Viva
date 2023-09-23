@@ -117,12 +117,12 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 ### Configure custom attributes 
 
 1. Assign the custom security attribute to the applications below:
-    1. MS Graph App (This is needed for provisioning users) 
-    1. Viva Goals Web App 
-    1. Microsoft Azure Active Directory 
+    1. MS Graph App - 00000003-0000-0000-c000-000000000000 (This is needed for provisioning users)
+    1. Viva Goals Web App - 29eb068f-2f54-4fda-a8be-32f37312678a
+    1. Microsoft Azure Active Directory - 00000002-0000-0000-c000-000000000000
 
-> [!NOTE]
-> When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal. 
+    > [!NOTE]
+    > When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal. 
 
 2. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator. 
 1. Browse to **Azure Active Directory > Enterprise applications**. 
@@ -171,21 +171,21 @@ Once the Viva Goals Administrators have been assigned, a Viva Goals Administrato
 
 ### Review or manage organization creation permissions
 
-1. **Target role:** Viva Goals Administrator Or Global Administrator 
+1. **Target role:** Viva Goals Administrator Or Global Administrator. 
 1. An Organization in Viva Goals resembles the topmost entity in an enterprise at which the organizational OKRs are set up and every team in that org aligns their OKRs with those organizational OKRs. Learn more about [Organizations in Viva Goals](understand-orgs-and-teams.md). 
 1. Initially, there will be no organization created as the Viva Goals tenant is new. Select on the settings icon on top right corner of the screen to choose the type of permission you want to set for the overall tenant to control the creation of organization. 
     1. **Anyone in <Tenant_Name>:** This would allow any valid Viva Goals user to create Organizations.  
     1. **Specific users:** Sometimes, specific users may need to have Org creation permissions. Choose this option, and select the users who should have this capability.  
     1. **Only global administrators:** This option restricts Org creation to Global Admins, only.  
-1. [How to restrict permissions in Viva Goals](restrict-organization-creation-permissions.md)
+1. [How to restrict permissions in Viva Goals](restrict-organization-creation-permissions.md).
 
 ### Enable integrations for the tenant
 
-1. **Target role:** Viva Goals Administrator or Global Administrator 
+1. **Target role:** Viva Goals Administrator or Global Administrator.
 1. Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible. 
 1. As a Global or Viva Goals admin, you can control which integrations are available for use across organizations in Viva Goals.  
 1. As a recommendation, enabling the integrations for all the tools being used in your company (or your company policy allows) can best empower the teams to run a super-efficient OKR program. 
-1. For detailed instructions on enabling integrations, see the following article - [Viva Goals Integrations Administration Overview | Microsoft Learn ](vg-integrations-administration-overview.md)
+1. For detailed instructions on enabling integrations, see the following article - [Viva Goals Integrations Administration Overview | Microsoft Learn ](vg-integrations-administration-overview.md).
 
 ### Install Viva Goals in Teams app
 
@@ -202,7 +202,7 @@ As a Global or Viva Goals administrator, you can create Viva Goals Organizations
 1. Create a new organization for the teams to create, manage and track their OKRs.
 1. Select Create Organization, provide a name for and description of the organization. 
 1. The user who is creating the Organization is assigned the role of “Organization Owner” for the created organization. Learn more about [roles in Viva Goals](roles-permissions-in-viva-goals.md).
-1. Choose who can join the organization 
+1. Choose who can join the organization: 
     1. **Anyone in tenant:** Choose this option if there are no restrictions who in the tenant can join the organization and view or manage OKRs and initiatives. 
     1. **Restricted:** Choose this option if you want to require users to be manually added to organizations before they can start viewing or managing OKRs and initiatives.
 1. Invite relevant licensed users who will be required to set up this organization and their OKRs. Viva Goals support adding individual members and user groups to the Organization. Learn more about [inviting users](inviting-and-removing-a-user.md).
@@ -271,24 +271,24 @@ To do this, go to **Admin > Settings > User types** for new users and you can ch
 |Members     |Members (the default role for everyone) can set up and manage their individual OKRs and view all OKRs within the organization.          |
 |Observers     |Observers, as opposed to members, can't create, edit, or own OKRs. They can view all OKRs just like members.          |
 
-For more information, visit: [Roles and Permissions](roles-permissions-in-viva-goals.md)
+For more information, visit: [Roles and Permissions](roles-permissions-in-viva-goals.md).
 
 ### Configure notification & Check-in rhythm 
 
-1. To configure your notifications and check-in rhythms, visit: [Check-in reminders and notifications](check-in-reminders.md)
+- To configure your notifications and check-in rhythms, visit: [Check-in reminders and notifications](check-in-reminders.md).
 
 ### Team creation permission 
 
-A Team in Viva Goals is a group of users working towards a common set of team OKRs. The Team OKRs would directly or indirectly align to the organization OKRs. Learn more about [Viva Goals Teams.](understand-orgs-and-teams.md)
+A Team in Viva Goals is a group of users working towards a common set of team OKRs. The Team OKRs would directly or indirectly align to the organization OKRs. Learn more about [Viva Goals Teams.](understand-orgs-and-teams.md).
 
 Administrators of the organization can control the team creation permission as follows: 
 
 1. Select on **Admin** from the left side panel.
 1. Under **Settings** tab, scroll down to find Team Creation and choose one or few of the following: 
-    1. **Any Regular user:** Allow any regular member of the organization to create teams (This is the default selection) 
-    1. **Admins:** Team creation is allowed for organization administrators 
-    1. **Team Admins:** Team creation is allowed for team administrators 
-    1. **Custom:** Chosen users have permission to create teams
+    1. **Any Regular user:** Allow any regular member of the organization to create teams (This is the default selection).
+    1. **Admins:** Team creation is allowed for organization administrators.
+    1. **Team Admins:** Team creation is allowed for team administrators.
+    1. **Custom:** Chosen users have permission to create teams.
 
 ### Create or edit teams 
 
@@ -298,7 +298,7 @@ Once team is created, [add team admins](create-and-edit-teams-and-subteams.md) t
 
 ## Configure Viva Goals team(s)
 
-**Target role(s):**Team Owner, Admins (primary)  
+**Target role(s):** Team Owner, Admins (primary). 
 
 > [!NOTE]
 > Organization admins have all the permissions of a team admin & owner but usually do not configure the teams. The owner or admin of a team is responsible for configuring and managing the team settings to help users manage team level OKRs and initiatives. More on [team admin and owners](roles-permissions-in-viva-goals.md).
@@ -314,12 +314,14 @@ Admins of a team can restrict the OKR and initiative creation permission by foll
 1. Navigate to the Team and select on the button with three dots (…) on the top right corner. Choose **Team Settings**
 2. Under the heading **Who can create OKRs or Initiatives for this team?** Choose one of the following:
     1. **Anyone in <Organization_name>:** This option is the default permission for a Viva Goals Team. This allows any valid user of the Viva Goals organization to create OKRs or initiatives within the team. 
-        1. **NOTE**: Users need not be a member of the team to create OKRs or initiatives
+      > [!NOTE]
+      > Users need not be a member of the team to create OKRs or initiatives
     1. **Only team admins and team owner:** This option restricts the OKR or initiatives creation permission only to the admins and owner of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
     1. Specific people:
         1.  All members of this team:
             1. Along with team admins and owner, all members of the team can create OKRs or initiatives.
-            1. **NOTE**: Users should be part of the team to let them create OKR or initiative. Know more on how to add users to a team.
+            > [!NOTE]
+            > Users should be part of the team to let them create OKR or initiative. Know more on how to add users to a team.
         1. Custom:
             1. Along with team owner and admins, select individuals to assign permission to create OKRs or initiatives.
             1. Start typing the names of the users in the Add people text box and select the user from the list populated (the system would prompt if the user need to be invited to the organization if the entered user isn't found already).
@@ -334,7 +336,7 @@ Check-in reminder schedule can be tweaked for individual teams and, by default, 
 1. Choose **Team Settings**.
 1. Under Check-in Rhythm section, select on **Change schedule**.
 1. Choose the interval (every week/two weeks/three weeks/month) and the corresponding day(s) and time on which the reminders should be sent.
-1. Just below the interval selection, you can find the updated details about the reminder
+1. Just below the interval selection, you can find the updated details about the reminder.
 1. Select **Change** to update the next check-in reminder date if needed.
 1. You can also exempt certain OKRs and Initiatives created within specific number of days (From current date) from the next check-in reminder date to avoid sending the reminder too early. Select on the check box next to Don't include OKRs & Initiatives updated within the last... - Choose the number of days from the drop-down.
 1. Select **Save**
@@ -348,8 +350,8 @@ Viva Goals allows a team to be added as a child to another existing team and to 
 1. Choose **Team Settings**.
 1. Under **Team Settings** section, you can find the drop-down for changing the team owner.
 
-> [!NOTE]
-> Only the current Team Owner has the permission to perform this action. Team admins do not have permission to change the team ownership.
+    > [!NOTE]
+    > Only the current Team Owner has the permission to perform this action. Team admins do not have permission to change the team ownership.
 
 5. To change the parent team, choose an existing Viva Goals team from the drop down menu under the heading Parent Team
-6. Select **Save**
+6. Select **Save**.
