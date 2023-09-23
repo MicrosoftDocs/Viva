@@ -68,11 +68,11 @@ Customization is turned on by default, but as an admin, you can control whether 
 
 As an admin, you can also set customization options for your organization. This includes an option to add a link to internal guidance and policies governing appropriate survey questions, which will be shown to users during survey creation.
 
-You can use this link to remind employees of internal policies and guidelines for writing survey questions within your organization. When the feedback author clicks on the link while customizing a survey, they will be taken to your company’s internal policy.
+You can use this link to remind employees of internal policies and guidelines for writing survey questions within your organization. When the feedback author clicks on the link while customizing a survey, they are taken to your company’s internal policy.
 
 1. In the **Manage** tab, go to the **Customization** tab.
 2. Under the **Customized organizational policy statement** section, in the text box labeled **Link to organization’s policy statement**, type or paste a link to your company’s internal policy statement to be shown in the customization flow in place of the Microsoft policy statement.
-3. The value will be auto-saved.
+3. The value is autosaved.
 
 ## Notifications
 
@@ -90,6 +90,6 @@ As an admin, you can delete a user’s past Pulse requests and responses on the 
 2. Search for the user that requested their data be deleted by using the search bar and select that user in the populated options.
 3. Select **Delete user data**.
 4. Select **Delete user data** again in the confirmation box.
-5. You will see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
-6. Once the deletion is successful, the status of the deletion will change to **‘Deleted’**.
-7. If the deletion was unsuccessful, then the status of the deletion will change to **‘Not Deleted’**. In this instance, please try the deletion again.
+5. You see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
+6. Once the deletion is successful, the status of the deletion changes to **‘Deleted’**.
+7. If the deletion was unsuccessful, then the status of the deletion changes to **‘Not Deleted’**. In this instance, please try the deletion again.
