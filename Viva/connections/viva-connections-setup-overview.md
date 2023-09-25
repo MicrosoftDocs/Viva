@@ -1,5 +1,5 @@
 ---
-ms.date: 08/14/2023
+ms.date: 09/22/2023
 title: "Overview of how to plan, build, and launch Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -33,6 +33,7 @@ Use [Viva Connections](viva-connections-overview.md) to engage and empower diffe
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 Use [Viva Connections](viva-connections-overview.md) to create experiences that engage and empower different employee groups like frontline workers and information workers across your organization. Manage your existing Viva Connections experiences in the Viva Connections admin center where you can create an experience with or without an existing SharePoint home site. Here you can also assign permissions, designate targeted audiences, order the view priority of your experiences, set existing SharePoint communication sites as a home site (allowing for multiple experiences, each with their own home site). Learn more about [setting up Viva Connections using the Microsoft 365 admin center](set-up-admin-center.md).
+> Centralized Viva Connections administration in the Microsoft 365 Admin center and multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 > [!NOTE]
 >

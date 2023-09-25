@@ -17,6 +17,7 @@ metadata:
   ms.custom: intro-hub-or-landing
   ms.collection:
     - Tier1
+    - essentials-hub-or-landing
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
@@ -43,7 +44,8 @@ highlightedContent:
 tools:
   title: Get started with Microsoft Viva
   items:
-    # Card
+
+# Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
       url: /viva/connections/viva-connections-overview
