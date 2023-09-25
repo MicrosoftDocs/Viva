@@ -42,7 +42,7 @@ The information in this section is based on the time period that you select. The
 
 ## File processing for topic discovery
 
-The **File processing for topic discovery** section shows the number of files that have been processed as Viva Topics crawls the [content sources that you selected](/viva/topics/topic-experiences-discovery).
+The **File processing for topic discovery** section shows the number of files that have been processed as Viva Topics crawls the [content sources that you selected](/viva/topics/topic-experiences-discovery#select-sharepoint-topic-sources).
 
 |Measure|Value|
 |:------|:----|
