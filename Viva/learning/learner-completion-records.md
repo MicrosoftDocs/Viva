@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - Tier1
 localization_priority: high
-description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
+description: Learn how to access learner completion records in Viva Learning.
 ---
 
 # Download Learner Completion Records 
