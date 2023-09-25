@@ -25,7 +25,7 @@ As an admin, you can export the learner's course completion records available in
 
 1. Find a user by inputting their name or email ID in the search box. 
 
-![Image of the learner record search option in which you can find a learner by their user name](../media/learning/learner-records-1.png)
+![Screenshot of the learner record search option in which you can find a learner by their user name](../media/learning/learner-records-1.png)
 
 2. Choose from the options and select **Export**.
 3. You receive the exported contents in a CSV file that you can open in Microsoft Excel. 
