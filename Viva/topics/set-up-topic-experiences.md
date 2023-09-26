@@ -116,6 +116,9 @@ On the **Topic visibility** page, you'll choose who can see topics.
 
 ### Topic permissions
 
+>[!NOTE]
+>If you update user roles and permissions, these changes can take over an hour to take effect.
+
 In the **Topic permissions** page, you choose who can create, edit, and manage topics.
 
 ![Screenshot of the topic permissions page.](../media/knowledge-management/topic-permissions.png)
@@ -168,6 +171,9 @@ Control access to EWS for your organization:
 ## Manage topic experiences
 
 Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). Manage other areas in topics:
+
+>[!NOTE]
+>If you update user roles and permissions, these changes can take over an hour to take effect.
 
 - [Manage topic discovery in Microsoft Viva Topics](topic-experiences-discovery.md)
 - [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
