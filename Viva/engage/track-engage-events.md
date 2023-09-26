@@ -1,11 +1,11 @@
 ---
 ms.date: 09/26/2023
 title: "Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API"
-description: "You can view Viva Engage events through Microsoft 365 Management API and in the Microsoft 365 Security &amp; compliance portal auditing logs."
+description: "View Viva Engage events through Microsoft 365 Management API and Microsoft 365 Security compliance portal auditing logs."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
