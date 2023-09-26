@@ -184,6 +184,9 @@ On the **Topic visibility** page, you'll choose who can see topics.
 
 ### Topic permissions
 
+> [!NOTE]
+> If you make changes to user roles and permissions the changes will take at least an hour to take effect.
+
 In the **Topic permissions** page, you choose who can create, edit, and manage topics.
 
 ![Screenshot of the topic permissions page.](../media/knowledge-management/topic-permissions.png)
