@@ -58,7 +58,7 @@ Note that users must also have an Exchange Online license to use Topics.
 > [!NOTE]
 > The first time topic discovery is enabled, it may take up to two weeks for all suggested topics to appear in the Manage Topics view. Topic discovery continues as new content or updates to content are made. It is normal to have fluctuations in the number of suggested topics in your organization as Viva Topics evaluates new information.
 
-To set up Topics
+To set up Topics:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Setup**, and then choose **Microsoft Viva**.
 
@@ -155,14 +155,14 @@ No data sources are selected by default.
 4. In the **Exclude topics by name** section, you can add names of topics you want to exclude from topic discovery. Use this setting to prevent sensitive information from being included as topics. The options are:
     - **Don't exclude any topics***
     - **Exclude topics by name**
-    1. To exclude topics by name, download and fill out the CSV file with the topics you want excluded.
-    1. In the CSV template, enter the following information about the topics you want to exclude:
-      - **Name**: Type the name of the topic you want to exclude. There are two ways to do this:
-          - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
-          - Partial match: You can exclude all topics that have a specific word in it.  For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.
-      - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
-      - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
-    1. Upload your completed file and choose **Save**.
+      1. To exclude topics by name, download and fill out the CSV file with the topics you want excluded.
+      1. In the CSV template, enter the following information about the topics you want to exclude:
+         - **Name**: Type the name of the topic you want to exclude. There are two ways to do this:
+            - Exact match: You can include the exact name or acronym (for example, *Contoso* or *ATL*).
+            - Partial match: You can exclude all topics that have a specific word in it.  For example, *arc* will exclude all topics with the word *arc* in it, such as *Arc circle*, *Plasma arc welding*, or *Training arc*. Note that it will not exclude topics in which the text is included as part of a word, such as *Architecture*.
+         - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
+         - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
+      1. Upload your completed file and choose **Save**.
 
 ### Topic visibility
 
@@ -208,13 +208,6 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 5. If you chose **Only selected people or security groups**, type the name of the person or group and then select it when it appears. Repeat until you've added everyone who should be able to manage topics.
 
 6. Select **Save**.
-
-7. Then go to the **Who can see Viva Topics Early Adopter Program experiences** section. You can select:
-    - **Everyone in my organization***
-    - **Only selected people or security groups**
-    - **No one**
-
-8. Select **Save**.
 
 ### Topic center
 

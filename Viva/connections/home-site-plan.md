@@ -1,5 +1,5 @@
 ---
-ms.date: 08/14/2023
+ms.date: 09/22/2023
 title: "Plan, build, and launch a home site for your organization"
 ms.reviewer: 
 ms.author: evanatkin
@@ -41,6 +41,7 @@ A SharePoint home site provides a customized landing experience that reflects th
 > - Viva Connections does not have any requirements to get started.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
+> - Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 **Use a SharePoint home site to:**
 
