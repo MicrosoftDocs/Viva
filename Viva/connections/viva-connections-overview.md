@@ -1,5 +1,5 @@
 ---
-ms.date: 08/23/2023
+ms.date: 09/22/2023
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -64,6 +64,10 @@ The Viva Connections dashboard enables you to create a curated experience using 
 ![Image of the viva connections Dashboard on mobile and desktop.](../media/connections/vc-dashboard-flw.png)
 
 The Viva Connections dashboard is available on desktop, mobile platforms (iOS, Android), and [as a web part on SharePoint sites](use-dashboard-web-part-on-home-site.md). This web part can be integrated into a SharePoint home site, which then is exposed as part of the Viva Connections for desktop experience in Teams.
+
+> ![NOTE]
+>
+> The Viva Connections Desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 #### Anatomy of a dashboard
 
@@ -242,6 +246,7 @@ Depending on the size of your organization and the information to communicate, y
 > - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ### You can choose the default landing experience
 

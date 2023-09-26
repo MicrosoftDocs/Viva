@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/10/2023
 ---
 
@@ -33,8 +33,6 @@ Ready to get started? Follow these steps:
 [Learn about Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
 
 [Use Viva Glint email templates to share survey expectations within your organization](https://go.microsoft.com/fwlink/?linkid=2240825)
-
-[Configure SFTP IP addresses in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2238339)
 
 [Set up your Allowed List](https://go.microsoft.com/fwlink/?linkid=2238617)
 

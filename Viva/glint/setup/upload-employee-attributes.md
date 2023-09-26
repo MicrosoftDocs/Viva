@@ -6,7 +6,7 @@ author: SarahAnneBerg
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: SFTP, file requirements, upload attributes, manual upload, update attributes, Employee Attribute File
+keywords: file requirements, upload attributes, manual upload, update attributes, Employee Attribute File
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -20,14 +20,10 @@ ms.date: 03/23/2023
 
 # Upload your employee attributes to Viva Glint
 
-User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, you determine which upload method to use when uploading your employee attributes, such as manually or using a Secure File Transfer Protocol (SFTP).
+User file imports help admins to keep users current with their organization's HRIS system. During the Platform Setup, learn how to upload employee data in the Microsoft Viva Glint application.
 
 >[!WARNING]
-> For security reasons, use only the two options provided; never email your employee attributes file.
-
-## Import attributes using SFTP
-
-Before you begin SFTP attributes transfer, ensure that Microsoft Viva Glint has already added your public SSH Key and IP addresses for all users that connect to your account and complete the Allowed List steps.
+> For security reasons, never email your employee attributes file.
 
 ### File requirements
 
@@ -43,35 +39,14 @@ The files exported by your HRIS system should be either comma-separated values (
     > The date format must include “/” instead of a hyphen between year, month, and day, and all dates must be in the same format.
 - Attribute names - Once attributes are determined, the attribute names (column headers) must remain the same. For example, “Employee ID” can't be changed to “EMP ID.”
 
-### Upload your attributes on the SFTP Server
+## Import employee data
 
-Once you access your SFTP account, you'll see options for multiple folders. Employee files need to be dropped in either the **/files/user_full** or **/files/user_delta** folder. 
-
-- The **user_full** folder is for full employee files, which means the file overwrites previous user attributes in the system. All others that aren't in this upload will be moved to INACTIVE status.
-- The **user_delta** folder is for incremental employee files, which means that the system only updates the employees in the file; it won't update or inactivate anyone, not in that file.
-
-   > [!NOTE]
-   > Your SFTP account and folders may vary based on your application.
-
-   > [!IMPORTANT]
-   > Ensure your file is placed in the correct file location on the SFTP server. If you have an incremental file and place it in the user_full file, all employees in the file will be updated, but employees who are not in the incremental file will be changed to INACTIVE. It is essential to understand where to place your files.
-
-Our system gathers files from the user_full and user_delta folders. Once a file is placed in one of the folders, it can take up to 30 minutes to process. After the file uploads, the system will send you either a success or failure message. To have employees within your organization receive email notifications (including warnings and errors) for automated file uploads, share a list of email addresses when setting up attributes' automation. An email is sent for each file uploaded, regardless of success or failure.
-
-## Import attributes manually
-
-The import function allows you to quickly modify employee records in bulk and add new users. You can also import employee attributes manually: 
-
-- To achieve a *one-off* upload of employee attributes outside of an SFTP upload 
-- As a division or company upload for the user to maintain confidentiality around errors or attributes for that specific upload
-- For a custom file upload (different from the regularly scheduled file upload)
-- When there's no SFTP access or for initial testing
-- For a quick upload of user attributes
+The import function allows you to quickly modify employee records in bulk and add new users.
 
 > [!TIP]
 > Update your employee file on a regular basis. Ensure that your latest employee attributes have been sent and uploaded prior to a survey launch as your attributes can't be changed at the point of survey launch.
 
-### Process for manual import of employee attributes
+### Process for import of employee attributes
 
 The following steps guide you through the process of importing the attributes manually: 
 
@@ -85,16 +60,16 @@ The following steps guide you through the process of importing the attributes ma
 6. Then, select **Close**.
 
 > [!NOTE]
-> Only the user performing the upload will receive an email, even when other file notification emails go to multiple email addresses.
+> Only the user performing the upload will receive an email when the file has processed.
 
-## Update your Employee Attribute File
+## Update your employee data regularly
 
-Your company can send Employee Attribute File updates whenever necessary and based on whatever cadence works best for you. Some companies send daily, weekly, or monthly updates, while others don’t forward updates until they're ready to launch a survey. 
+Your company can send employee data updates whenever necessary and based on whatever cadence works best for you. Some companies send daily, weekly, or monthly updates, while others don’t forward updates until they're ready to launch a survey. 
 
 > [!TIP]
-> Update your Employee Attribute File weekly, or at least at a regular cadence. 
+> Update your employee data weekly, or at least at a regular cadence. 
 >
-> If you have fewer than 10,000 employees in your attributes base, a daily feed of the full file should be sufficient, and you won’t have to send an incremental file. If you have a large employee data set with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
+> If you have fewer than 10,000 employees, a daily feed of the full file should be sufficient, and you won’t have to send an incremental file. If you have a large employee base with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs.
 
 ## Related topics
 
