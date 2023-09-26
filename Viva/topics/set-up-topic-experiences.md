@@ -100,6 +100,9 @@ On the Topic discovery page, you'll choose how Viva Topics sources and identifie
 
 On the **Topic visibility** page, you'll choose who can see topics.
 
+> [!NOTE]
+> While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them are able to view topics.
+
 1. Choose **Edit** to make changes to who can see topics.
 
 2. Select one of the following options:
@@ -110,9 +113,6 @@ On the **Topic visibility** page, you'll choose who can see topics.
     ![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
 
 3. Select **Save**.
-
-> [!NOTE]
-> While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
 
 ### Topic permissions
 
