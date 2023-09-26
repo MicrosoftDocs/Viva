@@ -21,7 +21,7 @@ search.appverid: MET150
 Viva Pulse leverages email to deliver notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear. After the script is executed successfully, users will receive email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report. 
 
 > [!IMPORTANT]
-> Email notifications have a 24-hour SLA.
+> It may take up to 24 hours for all email notifications to be delivered to Pulse feedback providers and authors. If email notifications are not being delivered within 24 hours, please log a support incident or report the issue through our in-app feedback options.
 
 Enable email notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
 
