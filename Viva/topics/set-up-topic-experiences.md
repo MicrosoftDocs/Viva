@@ -107,9 +107,9 @@ On the **Topic visibility** page, you'll choose who can see topics.
     - **Only selected people or security groups**
     - **No one**
 
-3. Select **Save**.
+    ![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
 
-![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
+3. Select **Save**.
 
 > [!NOTE]
 > While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
