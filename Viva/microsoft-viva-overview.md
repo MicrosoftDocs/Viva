@@ -16,6 +16,7 @@ ms.collection:
   - M365-collaboration
   - M365initiative-viva
   - Tier1
+  - essentials-overview
 search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"

@@ -25,8 +25,8 @@ Viva Pulse can be accessed by users in your organization as a Microsoft Teams ap
 Users who have Microsoft Teams licenses can access Viva Pulse in Microsoft Teams.
 
 1. Open Microsoft Teams.
-2. Go to the Teams left navigation, select the ellipses (…) and search for **Viva Pulse (Preview)**.
-3. Select the **Viva Pulse (Preview)** app, and then select **Add**. This will add the app to all your Teams clients, including mobile.
+2. Go to the Teams left navigation, select the ellipses (…) and search for **Viva Pulse**.
+3. Select the **Viva Pulse** app, and then select **Add**. This will add the app to all your Teams clients, including mobile.
 4. Right-click the **Viva Pulse icon** and select **Pin** to pin the Viva Pulse app to your Teams menu.
 
 ## Access Viva Pulse in web
