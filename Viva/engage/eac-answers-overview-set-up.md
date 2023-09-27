@@ -110,6 +110,7 @@ For this feature to be available, the network is required to have two or fewer E
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
 
 5. In Answers feature management, you can switch **Show Engage Experience** on or off for your organization.
+
     :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
 
     The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
@@ -133,6 +134,7 @@ Microsoft Global 365 administrators can turn this feature off to remove it from 
 1. On the Feature management tab, select the Answers button to open the Answers configuration options.   
 
 1. In Answers feature management, switch Enable AI-suggested topics on or off for your organization.
+
 :::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows the default setting for AI suggested topics when Answers is enabled.":::
 :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows how to turn off AI suggested topics.":::
 
