@@ -38,7 +38,7 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up the Allowed List for Viva Glint
+     - name: Manage your Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
@@ -130,7 +130,9 @@
         - name: Setting up Always On surveys
           items:
           - name: Preview, manage, and enable Viva Glint surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
+            href: setup/preview-manage-enable-engage-programs.md 
+        - name: Set up a Diversity & Inclusion survey
+          href: setup/diversity-inclusion.md
      - name: Viva Glint Advanced Configuration
        items:
         - name: Understand Advanced Configuration options in Viva Glint 
