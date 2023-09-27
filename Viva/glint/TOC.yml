@@ -157,7 +157,9 @@
         - name: Setting up Always On surveys
           items:
           - name: Preview, manage, and enable Viva Glint surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
+            href: setup/preview-manage-enable-engage-programs.md 
+        - name: Set up a Diversity & Inclusion survey
+          href: setup/diversity-inclusion.md
      - name: Viva Glint Advanced Configuration
        items:
         - name: Understand Advanced Configuration options in Viva Glint 
