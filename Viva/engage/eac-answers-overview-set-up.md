@@ -55,13 +55,13 @@ By default, the Answers experience is enabled for customers that meet the follow
 
 3. **The Viva Engage app is set up**
 
-    For the best Answers experience, we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to setup Viva Engage app](/viva/engage/setup).
+    For the best Answers experience, we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to set up the Viva Engage app](/viva/engage/setup).
 
 ## Data storage, export, and compliance
 
-Unless you've set a unique policy for Answers, a group in Office 365 backs up Answers data. This group follows your organization's default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). When the first question is posted or the first question attachment is created, the Answers backing group is autoprovisioned. All Global admins are assigned as owners of the Answers backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
+Unless you've set a unique policy for Answers, a group in Office 365 backs up Answers data in accordance to your organization's default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group is autoprovisioned when the first question is posted or the first question attachment is created. All Global admins are assigned as owners of the Answers backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
-Owners of the backing group should ensure that Answers remains compliant with network policies isn't accidentally deleted. Admins can export data if you want to delete the backing group in Office 365. If the backing group is deleted, Answers won't be functional.
+To remain compliant with network policies, owners of the backing group should ensure that the Answers backing group isn't accidentally deleted. If you want to delete the backing group in Office 365, admins can export data. If the backing group is deleted, Answers won't be functional.
 
 >[!NOTE]
 > A soft delete is recoverable within 30 days. A hard delete results in *permanent* data loss.
@@ -70,13 +70,13 @@ Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compl
 
 **General Data Protection Regulation (GDPR) information**
 
-For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+To export GDPR user data, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Procedure: Enable Answers  
 
-All users that have the Viva Engage Knowledge service plan assigned can view Answers, as it's on by default. You can turn it off so it's hidden from the Viva Engage Teams app. However, users can still access Answers content through existing links, but they can't contribute to threads or navigate the Answers experience.  
+Answers is on by default, but a Global admin can turn it off to hide it from the Viva Engage Teams app. All users who have the Viva Engage Knowledge service plan assigned can view Answers. If you turn off Answers, users can still access Answers content through existing links, but they can't contribute to threads or navigate the Answers experience.  
 
-Only a Microsoft 365 Global admin can change Answers state of enablement. Here's how:
+Here's how to change the Answers state of enablement:
 
 1. Go to the Viva Engage Teams app.  
 2. Select the ellipses button from the top right navigation bar to expose admin options.  
@@ -99,7 +99,7 @@ Only a Microsoft 365 Global admin can change Answers state of enablement. Here's
 
 Answers resides within Viva Engage. Organizations that aren't ready to use all Viva Engage features can choose to enter an Answers-focused experience and hide other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers. 
 
-For this feature to be available, the network is required to have two or fewer Engage communities. Only a Microsoft 365 Global administrator can change Viva Engage state of enablement. 
+For this feature to be available, the network is required to have two or fewer Engage communities. Only a Microsoft 365 Global administrator can change the Viva Engage state of enablement. 
 
 1. Go to the Viva Engage Teams app. 
 
@@ -121,9 +121,9 @@ For this feature to be available, the network is required to have two or fewer E
 > If the Viva Engage Experience is hidden, the backing group will respect the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md). 
 
 ## Option: Show AI-suggested topics 
-All Viva Engage users that have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns up to three relevant Viva Topics that the user can choose to include with the post to help categorize the question.  
+All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns relevant Viva Topics for the user to choose from to include with their post.  
 
-Microsoft Global 365 administrators can turn this feature off to remove it from the Answers experience. Here’s how: 
+Only a Microsoft Global 365 administrator can turn this feature off to hide it from the Answers experience. 
 
 1. Go to the Viva Engage Teams app.  
 
