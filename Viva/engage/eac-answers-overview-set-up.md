@@ -22,7 +22,7 @@ search.appverid:
 
 # Overview and setup of Answers in Viva
 
-**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app.
+**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access Answers from the **Answers** tab in the Viva Engage app.
 
 Answers let employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
@@ -50,8 +50,6 @@ By default, the Answers experience is enabled for customers that meet the follow
     For customers awaiting topics migration:  
     - Microsoft informs Viva Engage customers who purchased Viva Topics or Viva Suite products when Viva Engage Topics are migrated to Viva Topics. 
     - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Viva Engage Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Viva Engage and file a support ticket. Microsoft reviews and processes these requests.
-
-
 
 3. **The Viva Engage app is set up**
 
@@ -97,7 +95,7 @@ Here's how to change the Answers state of enablement:
 
 ## Option: Show Viva Engage experience
 
-Answers resides within Viva Engage. Organizations that aren't ready to use all Viva Engage features can choose to enter an Answers-focused experience and hide other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers. 
+Answers resides within Viva Engage. Organizations that aren't ready to use all Viva Engage features can have an Answers-focused experience while hiding other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers. 
 
 For this feature to be available, the network is required to have two or fewer Engage communities. Only a Microsoft 365 Global administrator can change the Viva Engage state of enablement. 
 
