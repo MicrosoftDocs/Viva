@@ -20,8 +20,11 @@ ms.localizationpriority: medium
 description: Learn how to set up Viva Amplify for your organization.
 ---
 # Set up Microsoft Viva Amplify
-  
-Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees will continue to see relevant messages in their existing preferred channels.
+
+>[!NOTE]
+>Viva Amplify is currently in private preview. General availability is coming soon.
+
+Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
 
 Viva Amplify is a web experience and is automatically enabled for users with the required licensing.
 
@@ -84,7 +87,9 @@ You can also assign roles from your Microsoft 365 admin center by navigating to 
 
 Amplify provides reporting data for metrics such as read rates on emails, view rates on SharePoint pages, interactions with Teams posts, and more. Importing your organizational data can enhance your Amplify reports by giving you further insight into use and impact.
 
-Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and will fill in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
+Organizational Data is descriptive information about employees related to their employment in their organization. Organizational Data in Microsoft 365 combines organizational data uploaded with Microsoft 365 data to power certain capabilities in applications. This feature offers the capability to enrich the Microsoft 365 User Profile by ingesting organizational data that resides in external systems (such as CRM systems or HR systems) and fills in the gaps of nonexistent or stale user profile data and enable richer experiences in Viva and Microsoft 365 services.
+
+[Learn more about using Organizational Data in Microsoft Viva.](/viva/organizational-data)
 
 ## Manage campaign settings
 
@@ -104,7 +109,7 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 
 1. Select **Viva Amplify**.
 
-1. This takes you to the **Setup and management** tab.
+1. This step takes you to the **Setup and management** tab.
 
 1. Choose **Manage campaign settings**.
 
@@ -145,4 +150,4 @@ Just like with SharePoint sites, you can restore deleted Viva Amplify campaigns.
 
 ## Manage sensitivity labels for campaigns
 
-Viva Amplify campaigns adhere to the same sensitivity label classifications that govern SharePoint sites. This means that if sensitivity labels were enabled for your organization for your Microsoft Team sites, Microsoft 365 groups, and SharePoint sites, it can also be applied to Viva Amplify campaigns. [Learn more about sensitivity labels](/purview/sensitivity-labels-teams-groups-sites).
+Viva Amplify campaigns adhere to the same sensitivity label classifications that govern SharePoint sites. If sensitivity labels were enabled for your organization for your Microsoft Team sites, Microsoft 365 groups, and SharePoint sites, it can also be applied to Viva Amplify campaigns. [Learn more about sensitivity labels](/purview/sensitivity-labels-teams-groups-sites).

@@ -1,5 +1,5 @@
 ---
-ms.date: 08/22/2023
+ms.date: 09/21/2023
 title: Usage and engagement metrics in Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -11,7 +11,7 @@ ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Learn about usage and engagement trends in Microsoft Viva Topics.
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 
 # Usage and engagement metrics in Viva Topics
@@ -28,6 +28,7 @@ To access usage and engagement metrics:
 
 >[!NOTE]
 >User counts under 100 are exact, while numbers over 100 are approximations within three percent of the exact number.
+>All dates and times in charts are in UTC. Topic center data generally updates within two to three minutes of an interaction.
 
 ## Topic engagement
 
