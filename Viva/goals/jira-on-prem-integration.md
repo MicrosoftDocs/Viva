@@ -86,7 +86,7 @@ To understand how to connect a JIRA integration to an OKR, please see: [How to l
         1. Sample curl command (use the credentials of the service account or the respective user): curl -u username:password -X GET -H "Content-Type: application/json" https://test.com/rest/api/2/search?jql=project=ATP Replace https://test.com/rest/api/2/search?jql=project=ATP with Jira server URL along with the project jql 
 
 > [!IMPORTANT]
-> 1. Firewall/VPN rules will prohibit users from reaching Viva Goals from the Jira server. To overcome that, you need to whitelist/allowlist goals.microsoft.com. 
+> 1. Firewall/VPN rules will prohibit users from reaching Viva Goals from the Jira server. To overcome that, you need to allowlist goals.microsoft.com. 
 >1. We recommend enabling verbose logging for the Microsoft Viva Goals Plugin by following the steps below: 
 >    1. On the Jira Server, navigate to **Administration > System.**
 >    1. Select **Logging and profiling.**
