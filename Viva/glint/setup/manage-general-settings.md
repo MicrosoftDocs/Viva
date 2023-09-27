@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
@@ -130,12 +130,10 @@ In this section you will make selections that help determine how users access th
 
 - Username and password for SSO users 
 - Employee ID 
-- SFTP IP addresses 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
 |**Unique Employee ID**   |Select "View Only" to remove all users' ability to edit or set up new Viva Glint surveys, "View and Edit" to allow only edits to existing surveys, and "View and Create" to allow full survey edits and set up abilities    |
-|**SFTP IP Addresses**   |Viva Glint will verify all public IP addresses that connect to your SFTP account     |
 
 ## Set up the Translations section 
 

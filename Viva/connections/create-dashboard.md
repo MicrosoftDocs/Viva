@@ -1,5 +1,5 @@
 ---
-ms.date: 08/23/2023
+ms.date: 09/22/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -27,7 +27,11 @@ description: "Learn how to edit the Viva Connections dashboard"
 # Create a Viva Connections dashboard and add cards
 
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
-The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links. 
+The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
+
+> ![NOTE]
+>
+> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
