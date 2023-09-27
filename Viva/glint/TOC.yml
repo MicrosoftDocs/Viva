@@ -38,7 +38,7 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up the Allowed List for Viva Glint
+     - name: Manage your Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
