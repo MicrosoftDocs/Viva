@@ -145,7 +145,7 @@ Customers building from an existing intranet portal are able to choose the landi
 PowerShell functionality is limited initially as follows:
 
 >
-| **Command** | **Result** |
+| Command | Result |
 |----|----|
 | **Get-SPOHomeSite** | Returns the single SharePoint home site URL. <br><br> With multiple Viva Connections experiences, a warning message and the first Viva Connection experience from the list will be shown.
 | **Set-SPOHomeSite** | 1. Initially it will continue supporting a single SharePoint home site setup. Setting up more SharePoint home sites can be done in the MAC. Support for setting up multiple SharePoint home sites will be supported at a later stage. <br><br>2. It updates the Viva Connections default landing destination (Viva Connections, SharePoint home site, or draft status for a SharePoint home site). This functionality will continue getting support in multiple Viva Connection experiences. The cmdlet can be run with the SharePoint home site URL to set the landing destination.
@@ -180,8 +180,8 @@ Assign two or more owners to each experience so that they have full access to [e
 1. After creating your Connection experiences, select the experience to assign owners to it.
 2. Select the **Permissions** tab from the settings panel. The owners assigned to the experience will display here.
 
-> [!NOTE]
-> If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
+   > [!NOTE]
+   > If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
 
 3. Select **Add**.
 4. Enter the names of the people you want to assign as owners to this experience in the search bar.
@@ -214,6 +214,7 @@ Users who have already designated audiences for their experiences can use the fo
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
 5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
+
     1. **Add by group**: Filter based on the Azure AD/M365 group by typing the group name(s) in the search bar.
     1. **Add by license type**: Filter based on the subscriber license type.
 
