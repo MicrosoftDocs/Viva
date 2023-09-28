@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
+ms.date: 09/26/2023
 title: "Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API"
-description: "You can view Viva Engage events through Microsoft 365 Management API and in the Microsoft 365 Security &amp; compliance portal auditing logs."
+description: "View Viva Engage events through Microsoft 365 Management API and Microsoft 365 Security compliance portal auditing logs."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,9 +22,9 @@ search.appverid:
 
 # Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API
 
-To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security &amp; compliance portal or by using the Microsoft 365 Management Activity API.
+To monitor security and compliance-related Viva Engage events for your organization, turn on audit logging. You can monitor changes to users, groups, files, admins, and network settings. The audit logs are available in the Microsoft 365 Security compliance portal or by using the Microsoft 365 Management Activity API.
   
-You must have the Microsoft 365 global admin role or the Audit Logs role in Exchange online to audit events. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
+You must have the Microsoft 365 Global administrator role or the Audit Logs role in Exchange online to audit events. You can view Viva Engage events from your home network but not from external networks. You can track the following event categories:
   
 - **Users**—includes activate, suspend, and delete a user.
 
@@ -34,7 +34,7 @@ You must have the Microsoft 365 global admin role or the Audit Logs role in Exch
 
 - **Admins**—includes export data, trigger private content mode, and force all users to sign out.
 
-- **Network settings**—includes changes to network usage policy and data retention policy.
+- **Network settings**—includes changes to the data export interval and data retention policy.
 
 ## View the audit sign-in the Microsoft 365 Security &amp; compliance portal
 

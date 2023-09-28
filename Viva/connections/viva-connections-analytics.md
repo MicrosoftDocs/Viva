@@ -1,5 +1,5 @@
 ---
-ms.date: 07/31/2023
+ms.date: 09/22/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: evanatkin
@@ -37,6 +37,7 @@ Understand how and when users engage with components of the Viva Connections exp
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. Refer to the [usage report](#whats-in-the-usage-report) section for details.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
+> - The analytics feature and centralized Viva Connections administration in the Microsoft 365 Admin center are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ## How to access the report
 

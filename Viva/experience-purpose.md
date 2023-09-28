@@ -20,7 +20,7 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports purpose in your organization."
 ---
-# Purpose: Viva Goals
+# Goal setting and management: Viva Goals
 
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities. It uses the power of the objectives and key results (OKR) framework. Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience so users don't have to disrupt their everyday flow of work to check OKRs and update status.
 
