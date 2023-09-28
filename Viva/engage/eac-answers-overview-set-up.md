@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 09/26/2023
+ms.date: 09/27/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,19 +22,17 @@ search.appverid:
 
 # Overview and setup of Answers in Viva
 
-**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access Answers from the **Answers** tab in the Viva Engage app.
+**Answers in Microsoft Viva** lets people in large organizations learn from each other by asking and answering questions. You can find Answers in the Viva Engage app from the **Answers** tab.
 
-Answers let employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
-
-Answers work to connect employees based on their subject matter expertise captured in Viva Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Through Answers, employees can ask vital questions, connect to crowdsourced information, and increase their learning. Natural language processing helps match questions with answers, and rewards those who contribute.
 
 ## Licensing
-When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
+When you enable Answers in the Viva Engage admin center, users assigned the Viva Engage Knowledge service plan have access to the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
 
-Users not assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. But they can't navigate the rest of the Answers experience.
+Users not assigned the Viva Engage Knowledge service plan receive notifications when they're mentioned in Answers and can visit those threads. But they can't navigate the rest of the Answers experience.
 
 > [!NOTE]
-> As a prerequisite, the tenant must have Viva Engage enabled, and the user must have access to Viva Engage services.
+> The tenant must have Viva Engage enabled, and the user must have access to Viva Engage services. 
 
 ## Technical requirements
 
