@@ -83,8 +83,8 @@ Translators manually translate copies of the dashboard into the language(s) spec
 
 3. When the translation is done, select **Save as draft** (if you're not ready to make it visible to readers) or, if the dashboard is ready to be visible to everyone who is using that language on the site, select **Publish**.
 
->[!NOTE]
-> Some components of 2nd and 3rd party Dashboard cards (for example, the card name) may not be translatable.
+   >[!NOTE]
+   > Some components of 2nd and 3rd party Dashboard cards (for example, the card name) may not be translatable.
 
 ## Step 5: Add a translated dashboard name and description
 
