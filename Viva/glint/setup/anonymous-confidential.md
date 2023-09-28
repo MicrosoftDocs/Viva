@@ -28,4 +28,4 @@ ms.date: 09/28/2023
 Viva Glint surveys are not anonymous so that accurate demographic analysis can be provided. Survey results can also be aggregated across multiple surveys and programs to provide organizations with cross-program insights, accurately tracking trends. If the survey results were anonymous, analytical capability would be severely limited.
 
 > [!NOTE]
-> Not all Microsoft Viva Glint surveys are confidential. Some are identifiable, meaning that survey responses are directly attributed to survey takers in Viva Glint reporting. [Read more about how Viva Glint help you protect your privacy.](https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy)
+> Not all Microsoft Viva Glint surveys are confidential. Some are identifiable, meaning that survey responses are directly attributed to survey takers in Viva Glint reporting. [Read more about how Viva Glint help you protect your privacy.](/viva/glint/setup/viva-glint-survey-privacy)
