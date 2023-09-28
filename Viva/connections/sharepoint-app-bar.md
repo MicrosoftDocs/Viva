@@ -120,7 +120,7 @@ If you haven’t set up your [SharePoint home site](/sharepoint/home-site), do t
 
 #### For SharePoint home sites that are a hub, you have two source options
 
-:::image type="content" alt-text="Screenshot of site and hub navigation." source="../media/connections/app-bar-hub.png" lightbox="../media/connections/app-bar-hub.png":::
+:::image type="content" alt-text="Screenshot of site and hub navigation." source="../media/connections/app-bar-hub.png":::
 
 - Select the site navigation source to display the SharePoint home site’s navigation.
 - Select the Hub or global navigation source to display the SharePoint home site’s hub navigation.
@@ -130,7 +130,7 @@ If you haven’t set up your [SharePoint home site](/sharepoint/home-site), do t
 
 #### For SharePoint home sites that are not a hub, you have two source options
 
-:::image type="content" alt-text="Screenshot of site navigation." source="../media/connections/app-bar-site.png" lightbox="../media/connections/app-bar-site.png":::
+:::image type="content" alt-text="Screenshot of site navigation." source="../media/connections/app-bar-site.png":::
 
 - Select the site navigation source to display the SharePoint home site navigation.
 - Create a secondary set of navigation nodes specifically for the global navigation panel by selecting **Hub or global navigation**. Then, select **Edit global navigation** to create the new global navigation menu. Select **Save** when you are done.
