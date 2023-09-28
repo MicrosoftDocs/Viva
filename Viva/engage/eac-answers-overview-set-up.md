@@ -27,7 +27,7 @@ search.appverid:
 With Answers, employees can ask questions, get crowdsourced answers, and find subject matter expertise captured in Viva Topics. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
 ## Licensing
-When you enable Answers in the Viva Engage admin center, users assigned the Viva Engage Knowledge service plan have access to the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
+When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan have access to the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
 
 Users who are not assigned the Viva Engage Knowledge service plan receive notifications when they're mentioned in Answers and can visit those threads. But they can't navigate the rest of the Answers experience.
 
