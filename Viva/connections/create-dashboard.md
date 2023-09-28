@@ -417,18 +417,18 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
       ![Audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 
-   - Cards that targeted to a specific group will display.
-   - When one or more audiences are selected, cards that *don't* have audience targeting applied will also display.
-   - If no audiences are targeted, only cards that *aren't* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
-   - If you aren't part of one of the audiences you've selected, you'll only see cards that aren't audience targeted. If none of the cards are audience targeted, you won't see any cards.
+      - Cards that targeted to a specific group will display.
+      - When one or more audiences are selected, cards that *don't* have audience targeting applied will also display.
+      - If no audiences are targeted, only cards that *aren't* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
+      - If you aren't part of one of the audiences you've selected, you'll only see cards that aren't audience targeted. If none of the cards are audience targeted, you won't see any cards.
 
 #### Examples
 
-   In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard.
+In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard.
 
-   | View 1                  | View 2                 |
-   | :-------------------: | :-------------------: |
-   |![Image of one view created for a specific audiences.](../media/connections/preview-dash-1.png) | ![Image of a second view created for a specific audiences..](../media/connections/preview-dash-2.png) |
+| View 1                  | View 2                 |
+| :-------------------: | :-------------------: |
+|![Image of one view created for a specific audiences.](../media/connections/preview-dash-1.png) | ![Image of a second view created for a specific audiences..](../media/connections/preview-dash-2.png) |
 
 ## Use the Dashboard web part for Viva Connections
 
@@ -450,7 +450,7 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 > [!NOTE]
 > When SSO is not supported, users will be asked to enter their login credentials.
 
-| **Opens URL to…**  | **On Teams mobile**   | **On Teams desktop**     |
+| Opens URL to… | On Teams mobile | On Teams desktop |
 | :------------------- | :------------------- |:---------------|
 | Teams App | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again.  | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again.  |
 | Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
