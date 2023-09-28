@@ -91,8 +91,8 @@ The dashboard is intended to enable quick access to content and tasks from vario
 
 4. Then, you can [create dashboards in more than one language](create-multilingual-dashboard.md) using the SharePoint multilingual feature.
 
-> [!NOTE]
-> For [custom cards on the dashboard](/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts), ask your card developer to include content localized in English language.
+   > [!NOTE]
+   > For [custom cards on the dashboard](/sharepoint/dev/spfx/web-parts/guidance/localize-web-parts), ask your card developer to include content localized in English language.
 
 ### For organizations using just Viva Connections
 
