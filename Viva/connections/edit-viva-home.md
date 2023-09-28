@@ -253,30 +253,30 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-> [!NOTE]
->
-> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
-> - Run the command as a Global Administrator or a SharePoint Administrator.
-> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
+   > [!NOTE]
+   >
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
+   > - Run the command as a Global Administrator or a SharePoint Administrator.
+   > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 2. Connect to SharePoint as a [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`
 
-- The parameter should be set to **$false** to use the new Connections desktop experience as the default landing experience.
-- The parameter should be set to **$true** to use a SharePoint home site as the default landing experience.
+   - The parameter should be set to **$false** to use the new Connections desktop experience as the default landing experience.
+   - The parameter should be set to **$true** to use a SharePoint home site as the default landing experience.
 
-**Example:**
-<br>
-Contoso’s SharePoint home site URL is https://contoso.sharepoint.com/sites/homeSite in this example.
+   **Example:**
 
-**To set the default landing to the SharePoint home site:**
+   Contoso’s SharePoint home site URL is https://contoso.sharepoint.com/sites/homeSite in this example.
 
-`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
+   **To set the default landing to the SharePoint home site:**
 
-**To set the default landing to the new Viva Connections desktop experience:**
+   `Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $true`
 
-`Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
+   **To set the default landing to the new Viva Connections desktop experience:**
+
+   `Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
 >[!NOTE]
 > It may take up to 15 minutes to see the updated default landing experience.
