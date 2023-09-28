@@ -22,6 +22,8 @@ ms.date: 04/21/2023
 
 Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help you have a meaningful conversation that moves your team forward to achieve organizational goals.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/<RE5fHQ2>]  
+
 ## Manager guidelines for launching Team Conversations
 
 From your dashboard
