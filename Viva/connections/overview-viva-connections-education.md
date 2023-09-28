@@ -24,7 +24,7 @@ description: "Overview of Viva Connections for Education"
 
 # Overview of Viva Connections for Education
 
-Microsoft Viva Connections for Education is your gateway to a modern faculty, staff and student experience and is designed to keep everyone engaged and informed. It's a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed. Viva Connections for Education provides a digital home for your users allowing them to stay connected with the organization and simplify their day-to-day experience.
+Microsoft Viva Connections for Education is your gateway to a modern faculty, staff and student experience and is designed to keep everyone engaged and informed. It's a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed. Viva Connections for Education provides a digital experience for your users allowing them to stay connected with the organization and simplify their day-to-day experience.
 
 ![Comparison screenshot of desktop and mobile views.](../media/connections/overview-viva-connections-education/Viva-connections-desktop-vs-mobile-view.png)
 
@@ -42,7 +42,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 
 > [!NOTE]
 >
-> - A home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. **[Learn more about home sites and how they complement Viva Connections](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together)**.
+> - A SharePoint home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a SharePoint home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. **[Learn more about SharePoint home sites and how they complement Viva Connections](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together)**.
 > - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections is not currently supported on tablet devices. Check the **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** for the status of tablet support.
 
@@ -60,7 +60,7 @@ Viva Connections is composed of three primary components - the dashboard, the fe
 
 ### Viva Connections dashboard
 
-The Viva Connections dashboard enables you to create a curated experience using dashboard cards that give your users access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the dashboard. Think of the Viva Connections dashboard as a digital home and toolset for your users.
+The Viva Connections dashboard enables you to create a curated experience using dashboard cards that give your users access to their most critical content and tools. These cards are designed to enable quick task completion either by interacting with a card directly or by opening a quick view in the dashboard. Think of the Viva Connections dashboard as a digital landing page and toolset for your users.
 
 ![Screenshot of the desktop dashboard view.](../media/connections/overview-viva-connections-education/dashboard-overview.png)
 
@@ -97,7 +97,7 @@ The dashboard experience has been designed to be consistent across mobile platfo
 
 ### Dashboard authoring
 
-The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you're using a home site, the dashboard can also be authored from the SharePoint home site.
+The dashboard can be authored directly in the Viva Connections app in Teams desktop. If you're using a SharePoint home site, the dashboard can also be authored from the SharePoint home site.
 
 ![Screenshot showing the dashboard being edited](../media/connections/overview-viva-connections-education/Dashboard-authoring.png)
 
@@ -166,7 +166,7 @@ The feed automatically balances fresh and engaging content with organizational c
 Individual content items in the Feed will be displayed for a 30-day period. Users will see content aggregated from the following sources, provided they have permissions to access the content from that source:
 
 - **SharePoint news**
-  - News posts from the home site
+  - News posts from the SharePoint home site
   - News posts from organization news sites
   - News posts from communication and teams’ sites
 
@@ -199,7 +199,7 @@ The desktop experience features the dashboard, feed, and resources at-a-glance, 
 
 ![Overview of the Viva Connections desktop view](../media/connections/overview-viva-connections-education/Viva-connections-desktop-overview.png)
 
-- **Home for the Viva suite**: The new desktop experience of the Viva Connections app plays the role of the home for the suite. It offers easy discovery and navigation to all the Viva modules that the user is licensed for, bringing together the connection, insight, growth, and purpose pillars of Microsoft Viva.
+- **Desktop experience**: The new desktop experience of the Viva Connections app plays the role of the main landing page for the suite. It offers easy discovery and navigation to all the Viva modules that the user is licensed for, bringing together the connection, insight, growth, and purpose pillars of Microsoft Viva.
 
 - **Navigation between other Viva experiences**: Navigational elements located in the top-right and top-left corners, navigational elements help viewers easily get to-and-from other landing pages and [other Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0).
 
@@ -226,7 +226,7 @@ Viva Connections gives you and your content creators the tools for both curated 
 
 A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Viva Engage group memberships, popular content, and more. An example of tailored content is the feed.
 
-- **Home site (curated [optional])**: A home site isn't required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting content to specific audiences.
+- **SharePoint home site (curated [optional])**: A SharePoint home site isn't required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the SharePoint home site, the elements used on that site, and targeting content to specific audiences.
 
 - **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Azure AD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses Azure AD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard will look like across devices and audiences.
 
@@ -237,7 +237,7 @@ A tailored experience is one in which content is automatically displayed accordi
 >
 | **Capability name**  | **Curated vs. Mobile** | **Details** |
 |-----|-----|-----|
-| **Home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
+| **SharePoint home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
 | **Dashboard** | Curated | Author selects cards to show and uses Azure AD groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
 | **Feed** | Tailored | Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview). |
 | **Resources** | Curated | Target menu items in the global navigation to specific audiences by using Azure AD groups. |
@@ -263,26 +263,25 @@ Many components to the Viva Connections experience can be customized. The [Share
 
 ## How SharePoint home sites and Viva Connections work together
 
-Viva Connections and home sites are two complementary methods to creating powerful student, faculty, and staff experiences that can be viewed on the web and in Teams. A [SharePoint home site](/viva/connections/home-site-plan) is a user experience that serves as a landing destination, news hub, and the main entry-point to your organization’s intranet. Both Viva Connections and home site experiences are designed to unite and empower your organization and automatically integrate with each other to form a cohesive and branded experience.
+Viva Connections and SharePoint home sites are two complementary methods to creating powerful student, faculty, and staff experiences that can be viewed on the web and in Teams. A [SharePoint home site](/viva/connections/home-site-plan) is a user experience that serves as a landing destination, news hub, and the main entry-point to your organization’s intranet. Both Viva Connections and SharePoint home site experiences are designed to unite and empower your organization and automatically integrate with each other to form a cohesive and branded experience.
 
-Use Viva Connections as the primary destination where your users access role-specific tools and news and home sites as a secondary source of organizational news, events, and resources. Viva Connections is where individuals get access to curated content based on their role, and the home site is where they can find more organizational-focused resources.
-Shared functionality
+Use Viva Connections as the primary destination where your users access role-specific tools and news and SharePoint home sites as a secondary source of organizational news, events, and resources. Viva Connections is where individuals get access to curated content based on their role, and the SharePoint home site is where they can find more organizational-focused resources.
 
 ### Shared functionality
 
 ![Venn Diagram showing how Viva Connections and SharePoint home sites work together](../media/connections/overview-viva-connections-education/shared-functionality-graph.png)
 
-Viva Connections and home sites share many common capabilities like news roll ups, navigation, and third-party extensibility to ensure these solutions work together. Both types of experiences share basic functionality, like the ability to use audience targeting, distribute organizational news, and [share the same permissions model](/viva/connections/edit-viva-home) to make it easy for editors to access and manage.
+Viva Connections and SharePoint home sites share many common capabilities like news roll ups, navigation, and third-party extensibility to ensure these solutions work together. Both types of experiences share basic functionality, like the ability to use audience targeting, distribute organizational news, and [share the same permissions model](/viva/connections/edit-viva-home) to make it easy for editors to access and manage.
 
-### Viva Connections automatically detects home sites
+### Viva Connections automatically detects SharePoint home sites
 
-For organizations that already have a home site, or know they want one in the future, the home site is automatically detected by Viva Connections, and a prominent link will display at the top-right of the desktop experience. Users can easily navigate between both – so you don’t have to choose one over the other.
+For organizations that already have a SharePoint home site, or know they want one in the future, the SharePoint home site is automatically detected by Viva Connections, and a prominent link will display at the top-right of the desktop experience. Users can easily navigate between both – so you don’t have to choose one over the other.
 
-![Screenshot demonstrating how to switch between multiple home sites](../media/connections/overview-viva-connections-education/home-site-navigation.png)
+![Screenshot demonstrating how to switch between multiple SharePoint home sites](../media/connections/overview-viva-connections-education/home-site-navigation.png)
 
 ### Choose the default landing experience
 
-Unless specified, Viva Connections is the default experience for the desktop app in Teams. When Viva Connections is the default, a link to the home site will display in the top-right corner to ensure easy navigation between the two experiences. We recognize that some organizations with a home site want the home site to be the default experience. When the home site is the default experience, a link to Viva Connections will display in the top-right corner. [Learn more about choosing the default experience](/viva/connections/edit-viva-home#choose-the-default-landing-experience-for-viva-connections-desktop).
+Unless specified, Viva Connections is the default experience for the desktop app in Teams. When Viva Connections is the default, a link to the SharePoint home site will display in the top-right corner to ensure easy navigation between the two experiences. We recognize that some organizations with a SharePoint home site want it to be the default experience. When the SharePoint home site is the default experience, a link to Viva Connections will display in the top-right corner. [Learn more about choosing the default experience](/viva/connections/edit-viva-home#choose-the-default-landing-experience-for-viva-connections-desktop).
 
 ### Step-by-step guidance to provision Viva Connections
 
@@ -298,7 +297,7 @@ There are several options to learn more about how to get Viva Connections for yo
 
 ## More resources
 
-[Learn how to plan, build, and launch a home site](/viva/connections/home-site-plan)
+[Learn how to plan, build, and launch a SharePoint home site](/viva/connections/home-site-plan)
 
 [Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
 

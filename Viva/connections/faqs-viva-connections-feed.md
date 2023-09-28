@@ -75,7 +75,7 @@ For mobile, the Feed refreshes each time the application is selected. Users can 
 
 ## When can we expect to see a newly created post in the Feed?
 
-Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [home site](home-site-plan.md) is sometimes delayed for up to 24 hours after the site is initially created. After that initial 7-day period has passed, it will take up to 1 hour to appear.
+Posts will typically take up to 1 hour to appear in a user’s Feed.  Content from a newly created [SharePoint home site](home-site-plan.md) is sometimes delayed for up to 24 hours after the site is initially created. After that initial 7-day period has passed, it will take up to 1 hour to appear.
 
 
 
@@ -114,7 +114,7 @@ There’s no configuration required to get the Feed working. For the current rel
 
 - **Promote important ‘official’ communications** - Use [News boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to raise the visibility of crucial news posts.
 - **Highlight community discussions** - Feature posts in public Viva Engage communities that you’d like seen by the entire organization.
-- **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [home sites](/sharepoint/home-site). Where content is from, impacts the ranking.
+- **Publish from official news sources** - Like [organizational news sites](/sharepoint/organization-news-site) or [SharePoint home sites](/sharepoint/home-site). Where content is from, impacts the ranking.
 
 
 For SharePoint news, more filtering is available through [audience targeting](https://support.microsoft.com/office/target-navigation-news-files-links-and-web-parts-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293), which allows publishers to designate content relevant to specific groups of people. Examples might be employees in a specific department, region, building, or title. This is done by enabling audience targeting on the site where content is being published, then using Azure Active Directory groups to define the target audience. However, if audience targeting isn't applied, users will still get the SharePoint News on their feed. Publishers also have the ability to promote critical messages in the Feed. News published from Org News sites has a Boost feature that explicitly tells the feed ‘this content is important’. As a result, that content is artificially pushed to the top of the feed. [Learn more about audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections). 
