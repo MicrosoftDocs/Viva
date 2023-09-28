@@ -22,6 +22,10 @@ ms.date: 04/10/2023
 
 From one program cycle to the next, you may want to make changes to the survey or reporting features. Use this list of articles to ensure your programs are the best they can be to benefit all the people in your organization.
 
+Watch this 5-minute video on **Best Practice Survey Design Principles**:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17rE8]  
+
 [Live versus Phased access In Viva Glint reporting](https://go.microsoft.com/fwlink/?linkid=2230747)
 
 [Make changes to a live Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2230871)
