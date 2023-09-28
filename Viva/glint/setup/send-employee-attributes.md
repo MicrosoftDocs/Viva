@@ -1,5 +1,5 @@
 ---
-title: Send your Employee Attribute File to Viva Glint
+title: Set up attributes in Viva Glint
 description: In preparation for uploading employee data to Microsoft Viva Glint, perform attribute setup and mapping that will establish which attributes should be included in data uploads.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,50 +18,25 @@ ms.localizationpriority: high
 ms.date: 08/24/2023
 ---
 
-# Send your Employee Attribute File to Viva Glint
+# Set up attributes in Viva Glint
 
 Before using the guidance on this page, you should have created your Employee Attribute Template. All required and custom attributes, and hierarchies, should appear as you would like them to appear on all reports going forward. This first row is your file blueprint.
 
 > [!TIP]
-> Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as "Employee ID," it will not later be recognized as the same column renamed as "Employee Number
+> Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as "Employee ID," it will not later be recognized as the same column renamed as "Employee Number".
 
-Now that your header row is set and you have received verification, use the following guidance to add data into your Employee Attribute File.
+Use the following guidance to set up attributes in Viva Glint based on selections you made when putting together your [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). This is your guide for setting up Viva Glint to accept data that you import to the platform long-term.
 
-## Choose your file upload format
+## Attribute setup in the Viva Glint
 
-When creating your Employee Attribute File, use one of the following two formats:
+To set up your attributes in Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
-- .xlsx
-- .csv (comma delimited) file
-
-> [!TIP]
-> .csv is the cleanest for file formatting as it can handle foreign characters and avoids wingdings, as you may see in Excel.
-
-### Upload an .xlsx file
-
-- Make sure to use only a single tab that isn't password-protected.
-
-### Upload a .csv file
-
-- Make sure it's UTF-8 encoded. If the file isn't UTF-8 encoded, it may fail or cause corrupted characters to appear in your data.
-- Always use a comma as a delimiter.
-
-> [!NOTE]
->
-> - Use double quotes as text qualifiers for values that contain commas. For example, the Job Title value "Manager, Customer Success" would need to be enclosed in double-quotes to import correctly.
-> - There is a 255-character limit for each data file name.
-
-## Populate data into your Employee Attribute File
-
-Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
-
-### Attributes upload before the first file import
-
-To set up your attributes in Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data (ideally, test the data to be sure you're ready for a full upload).
+> [!IMPORTANT]
+> Reporting hierarchies, derivations, file format, and date attribute formats can't be edited after initial setup is complete. Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**.
 
 1. From the admin dashboard, select the **Configure** symbol.
-2. In **Employees,** select **People** and then **Active Employees**.
-3. From the **Actions** menu, choose **New User Attributes**.
+2. In **Employees,** select **People**.
+3. Choose **Get Started** to begin the four-step process.
 
 Follow the onscreen guidance for the following actions.
 
@@ -86,7 +61,7 @@ Check that the attribute names and values appear as expected.
 
 ## Set up attributes
 
-Map your uploaded and confirmed attributes to the Viva Glint fields. This setup is divided into three sections:
+Map your uploaded and confirmed attributes to Viva Glint fields. This setup is divided into three sections:
 
 ### Required attributes
 
@@ -107,9 +82,6 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
 
-> [!IMPORTANT]
-> "*Hierarchy groups can be set up only during initial schema set up. To add hierarchies at the time of editing the schema, please reach out support by following the steps [here](/microsoft-365/admin/get-help-support)*".
-
 ### Derived attributes
 
 Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
@@ -117,9 +89,6 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 1. Select the section with the desired attribute.
 2. Select the desired attribute from the dropdown menu for each derived attribute.
 3. Select **Continue**.
-
-> [!IMPORTANT]
-> "*Derived attribute groups can be set up only during initial schema set up. To add hierarchies at the time of editing the schema, please reach out support by following the steps [here](/microsoft-365/admin/get-help-support)*".
 
 ## Review uploaded attributes
 
@@ -137,9 +106,10 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 
 2. Select **Save**.
 
-## Add new attributes to the file
 
-After the initial setup, you may find that new attributes need to be added to your employee data file. New attributes and their values will apply to future survey results only.
+## Add new attributes to Viva Glint
+
+After initial setup, you may find that new attributes need to be added to your employee data file. New attributes and their values will apply to future survey results only.
 
 ### Procedure for adding new attributes
 
@@ -160,17 +130,17 @@ From the admin dashboard:
 
 6. Preview your data and confirm that you see the new attributes.
 7. Select **Continue**.
-8. The Attributes Setup page shows current required attributes and hierarchy groups and shouldn't require edits. If this is true, select **Continue**.
-9. Select the desired option.
+8. The Attributes Setup page shows current required attributes and hierarchy groups and can't be edited. Select **Continue**.
+9. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
 
      > [!TIP]
      > When adding new attributes, choose the Save attributes and discard employee data option to save your setup in preparation for future imports.
 
 10. Select **Save**.
 
-## Edit attribute column headings
+## Edit attribute names
 
-After the initial attribute setup, you may find that attribute header names need to change. Use the following guidance to update your attribute setup before updating your data files so that they continue to import seamlessly. At survey launch, the Viva Glint platform takes a snapshot of employee data, and new attributes and value updated after that point don't affect data tied to active or closed surveys.
+Use the following guidance to rename attributes before updating your data files so that they continue to import seamlessly.
 
 From the admin dashboard:
 
@@ -182,4 +152,4 @@ From the admin dashboard:
 6. On the top right of your dashboard, select **Save Changes**.
 
 > [!CAUTION]
-> Use this method if the underlying data remains the same, but the field name has changed in your system. Do not repurpose attribute name labels, as this can create issues in reporting. Instead, create a new one.
+> Use this method if the underlying data remains the same, but the field name has changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attributes. For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
