@@ -132,7 +132,7 @@ When the user selects the link from the link card to navigate to the content, de
 
 The best experiences will be achieved if the service doesn't require authentication and is anonymously accessible. For content that is stored in M365, authentication is automatically handled. For third-party services requiring authentication, the recommendation is to [use a dashboard card built by a third-party](/viva/connections/create-dashboard#add-a-third-party-card-or-microsoft-app) to will handle authentication.
 
-| **Opens URL to…**  | **On Teams mobile**   | **On Teams desktop**     |
+| Opens URL to… | On Teams mobile | On Teams desktop |
 | :------------------- | :------------------- |:---------------|
 | SharePoint Link  | Page opens within Teams and user doesn’t need to authenticate again.| Page opens within Teams and user doesn’t need to authenticate again. |
 | Teams App | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  |
