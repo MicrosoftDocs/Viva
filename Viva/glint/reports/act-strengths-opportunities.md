@@ -31,7 +31,7 @@ The Strengths & Opportunities (S&0) report is designed so a manager can focus on
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
 
-**How to think about your opportunities with Mirosoft Viva Glint** (3:00)
+**How to think about your opportunities with Microsoft Viva Glint** (3:00)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
 
