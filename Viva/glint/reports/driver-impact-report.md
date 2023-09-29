@@ -60,9 +60,9 @@ When a user navigates to the Driver Impact report, the first view is in graph fo
 
 The graph plots each driver's impact on the x-axis and the selected comparison on the y-axis. The comparison can include:
 
-- An internal comparison such as the overall company,
-- An external benchmark, or
-- The average question score for the survey
+- An internal comparison such as the overall company.
+- An external benchmark.
+- The average question score for the survey.
 
 Items on the right side of the graph have a high statistical correlation with the selected outcome (typically engagement or eSat) across all the respondents in a group. Often a person will rate a driver and its corresponding outcome the same. For this reason, acting on those items likely has the biggest impact on engagement (or the selected outcome).
 
