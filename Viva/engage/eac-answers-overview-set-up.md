@@ -48,8 +48,7 @@ By default, the Answers experience is enabled for customers who meet the followi
    Answers use Viva Topics to organize questions and identify people associated with certain topics to help route those questions. 
    For Viva Engage customers to gain these benefits, we're integrating Viva Topics into Viva Engage experiences, which involves migrating Viva Engage topics to Viva Topics. There's no requirement for users to have a paid Viva Topics license to migrate their topics or to use Answers. Learn more about [the migration](/viva/topics/topic-experiences-yammer)and the [Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
 
-> [!NOTE] Customers awaiting topics migration can 
-> request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
 - **The Viva Engage app is set up**
 
@@ -110,11 +109,9 @@ For this feature to be available, the network is required to have two or fewer E
 
 The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
 
-    :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
+ :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
 
-   
-    
-    :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
+ :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
 > If the Viva Engage experience is hidden, the backing group follows the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).
