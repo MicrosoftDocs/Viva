@@ -22,13 +22,13 @@ search.appverid:
 
  Non-Native Mode and Hybrid Viva Engage Networks will be upgraded to [Native Mode](../overview-native-mode.md) to allow users, groups, and content to be compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network. **90% of Viva Engage networks are in Native Mode today, including our top 10 largest networks.**
 
- ## When will this change happen?
+ ## When does this change happen?
 
- We began migrating networks December 1, 2022 and continue the upgrades through the third quarter of 2023. The process began with smaller networks. If you prefer to control the timing of your upgrade, you may initiate the process on your own by visiting the Microsoft 365 Native Mode page within the Network Admin pages of Viva Engage.
+ We began migrating networks December 1, 2022 and continue the upgrades through the third quarter of 2023. The process began with smaller networks. You may initiate the upgrade process on your own by visiting the Microsoft 365 Native Mode page within the Network Admin pages of Viva Engage.
 
  ## How will this change affect your organization?
 
- You'll lose access to the following features:
+ You can no longer access these features:
  -	Network-level guests 
  -	Email blocked lists
  -	Secret groups

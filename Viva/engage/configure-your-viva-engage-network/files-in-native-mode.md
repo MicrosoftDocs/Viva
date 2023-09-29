@@ -24,7 +24,7 @@ In Native Mode for Microsoft 365, all Viva Engage files must be stored in ShareP
 
 ## What happens to files in private messages when you run the Native Mode Alignment tool?
 
-- Users are no longer be able to upload files to Private messages. Link sharing are still available.
+- Users are no longer be able to upload files to Private messages. Link sharing is still available.
 
 - All files in Private messages are deleted.
 
@@ -40,13 +40,13 @@ In Native Mode for Microsoft 365, all Viva Engage files must be stored in ShareP
 
 ## File renaming rules
 
-- Characters not supported in SharePoint will be replaced with an underscore '_'.
+- Characters not supported in SharePoint are replaced with an underscore ( _ ).
 - Duplicate files or files with names that already exist in SharePoint are renamed using the following format: filename_yammerFileID_extension.
 - Filenames with a blank space as the first or last character, or that end with a period, are edited to remove those characters.
 - Unnamed files are named according to the following format: "Viva Engage File", "Viva Engage File (2)", "Viva Engage File (3)", and so on.
 - Files with names starting with \~$ are renamed to remove the leading tilde, for example: "~$Viva Engage File" will be renamed to "$Viva Engage File".
 - Filenames containing _vti_ anywhere in the name are replaced with - vti-, for example: "Viva_Engage_vti_File" is renamed to "Viva-Engage-vti-File".
-- Files named. lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini are renamed to append "__file" to the name, for example: "COM0" will be renamed to "COM0_file". 
+- Files named. lock, CON, PRN, AUX, NUL, COM0 - COM9, LPTO - LPT9, or desktop.ini are renamed to append "__file" to the name, for example: "COM0" are renamed to "COM0_file". 
 
 ## Before running the tools
 
@@ -56,7 +56,7 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 - Update to the latest versions of Viva Engage Android, Viva Engage iOS, and Viva Engage Desktop apps, as older versions have issues uploading files to SharePoint.
 
-- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions are blocked and the file upload won’t work.
+- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions are blocked and file uploads don’t work.
 
 - Notify users in advance of the migration. Specifically, inform them that files in Viva Engage private messages will be deleted and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions aren't copied. The follower count isn't copied. Users can no longer mark files as official.
 
@@ -69,7 +69,7 @@ Because migration deletes files and the process is irreversible, we suggest you:
 3. Download the **Alignment Report**, which provides details on the files that each user and group has.
 
    - Each user has a count for the total number of private message files. These files will be deleted after running the Tool.
-   - Each group has a count of Viva Engage and SharePoint files. We'll attempt to migrate all the Viva Engage files to SharePoint. There will be no impact to existing SharePoint files.
+   - Each group has a count of Viva Engage and SharePoint files. We'll attempt to migrate all the Viva Engage files to SharePoint. Existing SharePoint files won't be affected.
 
 4. Authorize and run the Tool.
 

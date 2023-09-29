@@ -24,29 +24,29 @@ ms.assetid: 008f940b-6bec-47fc-bcc6-9c6133467562
 
 # Enforce Microsoft 365 identity for Viva Engage users
 
-As Viva Engage becomes a core service for your organization, users want to sign in seamlessly, like any other Microsoft 365 service. If you want to streamline user management, we suggest that you maintain a single identity for all Microsoft 365 users. You can achieve both of these goals by enforcing Microsoft 365 identity in Viva Engage. By enforcing Microsoft 365 identity in Viva Engage and configuring password hash sync, pass-through authentication, or [Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated), admins can achieve single sign-on (SSO) capabilities for all services in Microsoft 365, including Viva Engage.
+As Viva Engage becomes a core service for your organization, users want to sign in seamlessly like any other Microsoft 365 service. 
+
+To streamline user management, we suggest that you maintain a single identity for all Microsoft 365 users by enforcing Microsoft 365 identity in Viva Engage. Then, you can easily achieve single sign-on (SSO) capabilities for Microsoft 365, including Viva Engage. In addition to enforcing Microsoft 365 identity in Viva Engage, SSO requires that admins configure password hash sync, pass-through authentication, or [Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated).
   
 ## How enforcing Microsoft 365 identities in Viva Engage works
 
-The following flowchart shows what happens when a user logs in to Viva Engage.
+The following flowchart shows what happens when a user signs in to Viva Engage.
   
 :::image type="content" source="../../media/engage/admin/enforce-o365-id.png" alt-text="Flowchart shows what happens when user signs in when Microsoft 365 identity is enforced, they sign in with their Microsoft 365 identity.":::
   
-A user's sign-in experience when Microsoft 365 identity is and isn't enforced for Viva Engage:
+Here's an account of the user's sign-in experience:
   
-1. A user tries to sign in to Viva Engage, and is presented with a sign-in dialog box.
+1. The user tries to sign in to Viva Engage, and gets a sign-in dialog box.
     
-2. The user enters their email address.
+2. The user enters their email address:
+
+ - When Microsoft 365 identity is enforced, the user signs in with their Microsoft 365 identity. If the federated identity model is implemented in Microsoft 365, the user uses SSO.
     
-3. If Microsoft 365 identity is enforced, the user signs in with their Microsoft 365 identity. If the customer has implemented the federated identity model in Microsoft 365, the user signs in with single-sign-on.
+- When Microsoft 365 identity isn't enforced, the user signs in with their Microsoft 365 identity (if their email address corresponds to a Microsoft 365 account) or their Viva Engage identity (if their email address doesn't correspond to a Microsoft 365 account).
     
-4. If Microsoft 365 identity isn't enforced, the user signs in with their Microsoft 365 identity only if their email address corresponds to a Microsoft 365 account.
-    
-5. When Microsoft 365 identity isn't enforced, the user signs in with their Viva Engage identity (email and password), if their email address doesn't correspond to a Microsoft 365 account.
-    
-The following table compares the user sign-in behavior when Microsoft 365 Identity is enforced or not enforced. Microsoft 365 identity isn't enforced by default. 
+The following table compares the user sign-in behavior when Microsoft 365 identity is enforced or not enforced. Microsoft 365 identity isn't enforced by default.
   
-| Is Microsoft 365 identity enforced? | Is there a Microsoft 365 account for that user's email address? | What happens when the user logs in: |
+| Is Microsoft 365 identity enforced? | Is there a Microsoft 365 account for that user's email address? | What happens when the user signs in: |
 |:-----|:-----|:-----|
 |Yes  <br/> |Yes  <br/> |The user is prompted to sign in with their Microsoft 365 identity.  <br/> |
 |No  <br/> |Yes  <br/> |The user is prompted to sign in with their Microsoft 365 identity.  <br/> |
@@ -57,7 +57,7 @@ The following table compares the user sign-in behavior when Microsoft 365 Identi
 
 It takes just a few steps to start enforcing Microsoft 365 (formerly Office 365) identities in Viva Engage. However, turning on this setting can accidentally disrupt users' access to Viva Engage. So before you begin, do the following to make sure your Viva Engage users can continue working smoothly:
   
-- **Make sure all current Viva Engage users have a corresponding Microsoft 365 identity.** When you enforce Microsoft 365 identities for Viva Engage, any user without a corresponding Microsoft 365 identity is locked out of Viva Engage. So before you begin, make sure that all of your current Viva Engage users have corresponding Microsoft 365 identities. To ensure that users have the correct identities, go to the data export page in the Viva Engage admin center and export all users. Compare that list to the list of users in Microsoft 365 and make any needed changes.
+- **Make sure all current Viva Engage users have a corresponding Microsoft 365 identity.** When you enforce Microsoft 365 identities for Viva Engage, any user without a corresponding Microsoft 365 identity is locked out of Viva Engage. So before you begin, make sure that all of your current Viva Engage users have corresponding Microsoft 365 identities. To ensure that users, have the correct identities, go to the data export page in the Viva Engage admin center and export all users. Compare that list to the list of users in Microsoft 365 and make any needed changes.
     
 - **Tell your users about this change.** We strongly recommend that you tell users that you're switching to enforcing Microsoft 365 identities, because it can disrupt their day-to-day usage of Viva Engage. See the following sample email for suggested text. 
     
@@ -75,14 +75,14 @@ You must be a global administrator on Microsoft 365 who was synchronized to Viva
   
 3. A confirmation message asks you to select the most appropriate level of enforcement: 
     
-   - **Committed Enforcement**:  Choose this option if all of your Viva Engage users already have an Azure Active Directory account. 
+   - **Committed Enforcement**:  Choose this option if all of your Viva Engage users already have a Microsoft Entra ID account.
+
+   :::image type="content" source="../../media/a0927cc2-eafa-4ace-a939-a3fa27be943b.png" alt-text="Screenshot of confirmation dialog box that shows the Enforcement level for Microsoft 365 sign-in.":::
     
-     > [!IMPORTANT]
-     > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords. 
+  > [!IMPORTANT] 
+  > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords. 
   
    - **Temporary 7-Day Enforcement**: Choose this option if you're testing the enforcement of Microsoft 365 identity on your network, and may need to revert it back. After you save this change, a temporary enforcement period of seven days begins, and your users can no longer sign in using their Viva Engage usernames and passwords. After seven days, your network is automatically committed to Microsoft 365 Identity enforcement.
-    
-     :::image type="content" source="../../media/a0927cc2-eafa-4ace-a939-a3fa27be943b.png" alt-text="Screenshot of confirmation dialog box that shows the Enforcement level for Microsoft 365 sign-in.":::
   
 4. Optionally, you can automatically sign out all current users to ensure that everyone using the Viva Engage service has signed in with their Microsoft 365 identities. To sign out all current users, select the **Log out all users** checkbox. If you choose this option, we recommend that you communicate this change to your users by using the following sample email.
     
@@ -107,59 +107,59 @@ You must be a global administrator on Microsoft 365 who was synchronized to Viva
   
 6. Choose **Save** to save all your settings on the page.
     
-## Stop enforcing Office 365 identity in Viva Engage
+## Stop enforcing Microsoft 365 identity in Viva Engage
 <a name="StopEnforcing"> </a>
 
 > [!IMPORTANT]
-> You can only stop enforcing Office 365 identities in Viva Engage when you are in the temporary 7-day enforcement period. 
+> You can only stop enforcing Microsoft 365 identities in Viva Engage when you are in the temporary 7-day enforcement period. 
   
-When you stop enforcing Office 365 identities in Viva Engage:
+When you stop enforcing Microsoft 365 identities in Viva Engage:
   
-- Any users already logging into Viva Engage with their Office 365 identities are unaffected by this change.
+- Any users already logging into Viva Engage with their Microsoft 365 identities are unaffected by this change.
     
 - Other users can join your network by signing up with their work email and verifying it.
     
-If you no longer want to enforce Office 365 identities, use the following steps to stop. You must be a global administrator to perform these steps.
+If you no longer want to enforce Microsoft 365 identities, use the following steps to stop. You must be a global administrator to perform these steps.
   
-**To stop enforcing Office 365 identity in Viva Engage**
+**To stop enforcing Microsoft 365 identity in Viva Engage**
   
 1. In Viva Engage, go to the **Network Admin** section, and choose **Security Settings**.
     
-2. In the Security Settings page, go to the **Office 365 Identity Enforcement** section and clear the **Enforce Office 365 identity** checkbox. 
+2. In the Security Settings page, go to the **Microsoft 365 Identity Enforcement** section and clear the **Enforce Microsoft 365 identity** checkbox. 
     
-   You see a confirmation message so you can verify that you're ready to stop enforcing Office 365 identity.
+   You see a confirmation message so you can verify that you're ready to stop enforcing Microsoft 365 identity.
     
-   :::image type="content" source="../../media/09162001-6581-41f9-b558-27673366c2a8.png" alt-text="Screenshot of confirmation dialog box to stop enforcing Office 365 identities in Viva Engage. Viva Engage SSO restarts if it was previously configured. Users who normally log into Viva Engage with Office 365 identities aren't affected.":::
+   :::image type="content" source="../../media/09162001-6581-41f9-b558-27673366c2a8.png" alt-text="Screenshot of confirmation dialog box to stop enforcing Microsoft 365 identities in Viva Engage. Viva Engage SSO restarts if it was previously configured. Users who normally log into Viva Engage with Microsoft 365 identities aren't affected.":::
   
 3. Select **Okay** to confirm your choice. 
     
-   The Security Settings page shows the **Enforce Office 365 identity in Yammer** checkbox cleared. 
+   The Security Settings page shows the **Enforce Microsoft 365 identity in Yammer** checkbox cleared. 
     
 4. Choose **Save** to save your settings on the page.
     
-## FAQ
+## Frequently asked questions
 <a name="FAQ"> </a>
 
-### Q: Once Office 365 Identity Enforcement is set to 'Committed Enforcement', why can't I revert it back?
+#### Once Microsoft 365 Identity Enforcement is set to **Committed Enforcement** why can't I change it back?
 
-A: Once your organization has committed to enforcing Office 365 identity and has one Office 365 tenant associated with a single Viva Engage tenant, connected groups are enabled for this network. In this configuration, whenever a group is created in Viva Engage, a connected Microsoft 365 group is also created. Users can then take advantage of tools like SharePoint, Planner, and OneNote connected to the group. At this point, reverting the **Enforce Office 365 Identity** setting is disruptive to the user experience, as users who sign in with their user names and passwords can no longer access these connected resources.
+Once your organization has committed to enforcing Microsoft 365 identity and has one Microsoft 365 tenant associated with a single Viva Engage tenant, connected groups are enabled for this network. In this configuration, whenever a group is created in Viva Engage, a connected Microsoft 365 group is also created. Users can then take advantage of tools like SharePoint, Planner, and OneNote connected to the group. At this point, reverting the **Enforce Microsoft 365 Identity** setting is disruptive to the user experience, as users who sign in with their user names and passwords can no longer access these connected resources.
   
-### Q: How will this change impact guest and external users?
+#### How will this change impact guest and external users?
 
-A: Guests and external users are unaffected and follow the sign-in settings and requirements of their home network. 
+Guests and external users are unaffected and follow the sign-in settings and requirements of their home network. 
   
-### Q: How long does it take for this setting to be applied?
+#### How long does it take for this setting to be applied?
 
-A: Enforce Office 365 Identity is applied immediately after the setting is set.
+Enforce Microsoft 365 Identity is applied immediately after the setting is set.
+
+#### We use the same ADFS configuration in Viva Engage and Microsoft 365. Should we sign out users during the transition?
+
+Yes. Sign-out ensures all users who sign on afterward are connected to their Microsoft 365 identity. Microsoft 365 identity connects users to lifecycle management from Microsoft 365. It also provides a consistent experience for them, with things like Microsoft 365 suite navigation.
+
+#### What is the experience for users being signed-out when enforcing Microsoft 365 identities?
+
+Users are signed out of their web and mobile sessions immediately and must sign in again to all their devices and browser sessions using their Microsoft 365 identity configuration and credentials.
   
-### Q: We use the same ADFS configuration in Viva Engage and Office 365. Should we sign out users during the transition?
+#### How can I audit and clean up Viva Engage users when compared to Microsoft 365 and Microsoft Entra ID?
 
-A: Yes. Sign-out ensures all users who sign on afterward are connected to their Office 365 identity. Office 365 identity connects users to lifecycle management from Office 365. It also provides a consistent experience for them, with things like Office 365 suite navigation.
-  
-### Q: What is the experience for users being logged-out when enforcing Office 365 identities?
-
-A: Users are signed out of their web and mobile sessions immediately and must sign in again to all their devices and browser sessions using their Office 365 identity configuration and credentials.
-  
-### Q: How can I audit and clean up Viva Engage users when compared to Office 365 and Azure AD?
-
-A: You can audit Viva Engage users in networks connected to Office 365 and take appropriate actions based on it. See more information and examples in [How to audit Viva Engage users in networks connected to Office 365](../manage-viva-engage-users/audit-users-connected-to-office-365.md).
+You can audit Viva Engage users in networks connected to Microsoft 365 and take appropriate actions based on it. See more information and examples in [How to audit Viva Engage users in networks connected to Microsoft 365](../manage-viva-engage-users/audit-users-connected-to-office-365.md).
