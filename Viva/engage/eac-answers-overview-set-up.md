@@ -41,7 +41,7 @@ By default, the Answers experience is enabled for customers who meet the followi
 
 - **Viva Engage network is in Native Mode**
 
-    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID (formerly Active Directory). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
+    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID (formerly Azure Active Directory). All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
 - **Viva Engage uses Viva Topics**
 
