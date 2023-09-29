@@ -1,9 +1,9 @@
 ---
 title: Use the Viva Glint Driver Impact report
 description: An engagement driver – a key driver - is a factor that directly correlate to an organization's employees' happiness at work. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: driver impact report
@@ -26,6 +26,18 @@ Drivers are the factors that affect employee engagement; a driver's *impact* is 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
 
 ## Strengths and Opportunities are derived from the Driver Impact report
+
+### Watch these videos for a quick and comprehensive summary of strengths and opportunities
+
+**Lean into your strengths with Microsoft Viva Glint** (2:30)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
+
+
+**How to think about your opportunities with Microsoft Viva Glint** (3:00)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
+
 
 The algorithm used to identify Strengths & Opportunities (S&O) is composed of question/item scores, impact on engagement, and relativity of the score to a comparison point. This comparison could be internal company scores, an external benchmark, or the score for the average question for that survey.
 
