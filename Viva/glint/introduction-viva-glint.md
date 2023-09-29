@@ -22,7 +22,7 @@ ms.date: 03/24/2023
 
 This article helps you to understand how Microsoft Viva Glint makes people in your organization happier and more successful at work.
 
-First, watch this 4:30 video for a easy-to-understand introduction of Viva Glint and its people success methodology:
+First, watch this 4:30 video for an easy-to-understand introduction of Viva Glint and its people success methodology:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
