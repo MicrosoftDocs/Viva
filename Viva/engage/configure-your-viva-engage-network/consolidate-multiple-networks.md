@@ -21,9 +21,9 @@ description: Migrate one or more secondary networks into a primary Viva Engage E
 
 # Network migration - Consolidate multiple Viva Engage networks
 
-If you have multiple email domains in your Office 365 tenant and those email domains are spread across two or more Viva Engage networks, we require that you consolidate into one Viva Engage network.
+If you have multiple email domains in your Microsoft 365 tenant and those email domains are spread across two or more Viva Engage networks, we require that you consolidate into one Viva Engage network.
   
-This article is only necessary if you have multiple Viva Engage networks, for example if your company has multiple business units or subsidiaries, each with its own Viva Engage network, that is on the same Office 365 tenant*.
+This article is only necessary if you have multiple Viva Engage networks, for example if your company has multiple business units or subsidiaries, each with its own Viva Engage network, that is on the same Microsoft 365 tenant.
   
 Consolidation to one primary network helps get all your employees closely collaborating with each other, and simplifies management of your Viva Engage network.
   
@@ -33,7 +33,7 @@ Here are the basic steps:
 |Step <br/> |Description <br/> |
 |:-----|:-----|
 |[Step 1: Plan](consolidate-multiple-networks.md#Plan) <br/> |Identify the Viva Engage networks to consolidate, identify data to export and upload, plan any needed changes to group structure and membership in the primary network, and plan communication with your users.  <br/> |
-|[Step 2: Export content from primary networks](consolidate-multiple-networks.md#Export) <br/> |IMPORTANT: Migration only migrates users, not content. <br/>Export all content from secondary Viva Engage networks in order to access the content later. No-one can access the secondary network after the migration begins. |
+|[Step 2: Export content from primary networks](consolidate-multiple-networks.md#Export) <br/> |IMPORTANT: Migration only migrates users, not content. <br/>Export all content from secondary Viva Engage networks in order to access the content later. Noone can access the secondary network after the migration begins. |
 |[Step 3: Communicate with all users before the migration](consolidate-multiple-networks.md#Precommunicate) <br/> |Use the sample communication provided here to inform everyone on the secondary networks of the change, timing, what information is preserved, and the group structure in the primary network. Recommend that users save information they want to keep before the migration start date, such as files and data in conversations. Let primary network users know that more people are joining.  <br/> |
 |[Step 4: Perform the network migration](consolidate-multiple-networks.md#self-service) <br/> |Run the network migration tool once for each secondary network. The tool migrates all users from the secondary Viva Engage network into the primary Viva Engage network, and turns off the secondary network. It doesn't migrate any conversations or files.  <br/> |
 |[Step 5: Make primary network changes](consolidate-multiple-networks.md#parentchanges) <br/> |Adjust the structure of your primary Viva Engage network so it meets the needs of users who will be joining it. Create groups, invite members to the groups, and upload files that you exported.  <br/> |
@@ -49,9 +49,9 @@ Here are the basic steps:
 
 - After a migration completes, no-one can access the secondary Viva Engage network.
 
-- Only users with the global admin role in Office 365 can perform network consolidation.
+- Only users with the global admin role in Microsoft 365 can perform network consolidation.
 
-- The primary and secondary Viva Engage networks must be on verified domains in one Office 365 tenant. Consolidating Viva Engage networks across Office 365 tenants isn't supported.
+- The primary and secondary Viva Engage networks must be on verified domains in one Microsoft 365 tenant. Consolidating Viva Engage networks across Microsoft 365 tenants isn't supported.
 
 - Network migration can't be reversed.
 
@@ -135,13 +135,13 @@ The network migration has three steps that you'll be guided through. Multiple ne
    :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text="Screenshot of the Network Migration menu item for Admins.":::
 
   
-    You start on the page with the title **Step 1 of 3 - Check/Add Verified Domains**. This page lists the verified domains that have already been added to the Office 365 tenant for this Viva Engage network. If you don't see the network you want, follow the link to Office 365 to [add additional verified domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611), and then return to this page.
+    You start on the page with the title **Step 1 of 3 - Check/Add Verified Domains**. This page lists the verified domains that have already been added to the Microsoft 365 tenant for this Viva Engage network. If you don't see the network you want, follow the link to Microsoft 365 to [add additional verified domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611), and then return to this page.
 
     :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screenshot of Step 1 of 3: Check/Add Verified Domains before migrating a Viva Engage network.":::
   
 3. When you have added all of the verified domains you want, choose **Next**.
 
-    You're now on the **Step 2 of 3 - Choose a Viva Engage Network to Migrate** page. This page lists all the networks that are eligible for migration. Remember, all of the domains of a Viva Engage network that you want to migrate must be added as verified domains on Office 365. Only the verified domains for Viva Engage networks are listed on the page. If you don't see the network you're looking for, choose the **Previous** button and add the verified domains.
+    You're now on the **Step 2 of 3 - Choose a Viva Engage Network to Migrate** page. This page lists all the networks that are eligible for migration. Remember, all of the domains of a Viva Engage network that you want to migrate must be added as verified domains on Microsoft 365. Only the verified domains for Viva Engage networks are listed on the page. If you don't see the network you're looking for, choose the **Previous** button and add the verified domains.
 
    :::image type="content" source="../../media/3a975838-6d80-4dd1-9b3e-14f157820773.png" alt-text="Screenshot of Step 2 of 3: Choose a Viva Engage Network to Migrate.":::
   
