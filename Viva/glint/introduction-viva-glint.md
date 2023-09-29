@@ -36,9 +36,9 @@ Great teams build great cultures, and great cultures fuel great companies.
 
 With Viva Glint you can:
 
-- Increase employee engagement resulting in overall business improvement
-- Receive faster and more focused people insights in your organization
-- Collaborate within teams and throughout your organization with continuous conversations
-- Predict opportunities and risk to business outcomes
-- Review data driven feedback to study employee success drivers
-- Translate insights into action and track the feedback progress
+- Increase employee engagement resulting in overall business improvement.
+- Receive faster and more focused people insights in your organization.
+- Collaborate within teams and throughout your organization with continuous conversations.
+- Predict opportunities and risk to business outcomes.
+- Review data driven feedback to study employee success drivers.
+- Translate insights into action and track the feedback progress.
