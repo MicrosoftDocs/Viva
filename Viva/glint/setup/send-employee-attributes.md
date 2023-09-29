@@ -27,7 +27,7 @@ Before using the guidance on this page, you should have created your Employee At
 
 Use the following guidance to set up attributes in Viva Glint based on selections you made when putting together your [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). This is your guide for setting up Viva Glint to accept data that you import to the platform long-term.
 
-## Attribute setup in the Viva Glint
+## Attribute setup in Viva Glint
 
 To set up your attributes in Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
