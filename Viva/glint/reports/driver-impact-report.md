@@ -1,6 +1,6 @@
 ---
 title: Use the Viva Glint Driver Impact report
-description: An engagement driver – a key driver - is a factor that directly correlate to an organization's employees' happiness at work. 
+description: An engagement driver—a key driver—is a factor that directly correlates to an organization's employees' happiness at work. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
