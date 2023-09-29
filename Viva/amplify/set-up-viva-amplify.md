@@ -22,7 +22,7 @@ description: Learn how to set up Viva Amplify for your organization.
 # Set up Microsoft Viva Amplify
 
 >[!NOTE]
->Viva Amplify is currently in private preview. General availability is coming soon.
+>Viva Amplify is currently rolling out. General availability is coming soon.
 
 Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
 
