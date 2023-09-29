@@ -100,7 +100,7 @@ Reference **Reports Filtering** for detailed information.
 
 ## Strengths & Opportunities can be added to the Executive Summary report
 
-The view provides a ranked list of both strengths - areas to celebrate - and opportunities - areas to focus on for improvement.
+The view provides a ranked list of both strengths—areas to celebrate—and opportunities—areas to focus on for improvement.
 
 >[!TIP]
 > For admins, the first look at S&O should be versus *Benchmark* to understand which areas should be focused on to improve your organization's competitive advantage in attracting and retaining talent. Only items with a benchmark are part of this view.
