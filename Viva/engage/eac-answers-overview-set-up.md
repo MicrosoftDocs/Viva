@@ -89,7 +89,7 @@ Only Microsoft 365 Global administrators can change the Answers state of enablem
 
    [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
->[!NOTE]
+> [!NOTE]
 > If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-viva-engage) set by your organization, unless a unique policy is set for Answers.
 
 ### Option: Show Viva Engage experience
@@ -135,8 +135,9 @@ Only Microsoft Global 365 administrators can turn this feature off to hide it fr
 
 1. In Answers feature management, switch **Enable AI-suggested topics** on or off for your organization.
 
-:::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows the default setting for AI suggested topics when Answers is enabled.":::
-:::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows how to turn off AI suggested topics.":::
+    :::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows the default setting for AI suggested topics when Answers is enabled.":::
+
+    :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows how to turn off AI suggested topics.":::
 
 ## See also
 
