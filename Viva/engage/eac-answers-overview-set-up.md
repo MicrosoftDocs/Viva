@@ -45,24 +45,24 @@ By default, the Answers experience is enabled for customers who meet the followi
 
 - **Viva Engage uses Viva Topics**
 
-   Answers use Viva Topics to organize questions and identify people associated with certain topics to help route those questions. 
-   For Viva Engage customers to gain these benefits, we're integrating Viva Topics into Viva Engage experiences, which involves migrating Viva Engage topics to Viva Topics. There's no requirement for users to have a paid Viva Topics license to migrate their topics or to use Answers. Learn more about [the migration](/viva/topics/topic-experiences-yammer)and the [Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
+   The Answers experience uses Viva Topics to organize questions and identify people associated with certain topics to help route those questions.
+   For Viva Engage customers to gain these benefits, we're integrating Viva Topics into Viva Engage, which involves migrating Viva Engage Topics to Viva Topics. Users don't need a paid Viva Topics license to migrate their topics or to use Answers. Learn more about [the migration](/viva/topics/topic-experiences-yammer)and the [Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
 
-   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Customers awaiting topics migration can request to prioritize their Answers enablement, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
 - **The Viva Engage app is set up**
 
-    For the best Answers experience we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to set up the Viva Engage app](/viva/engage/setup).
+    For the best Answers experience, we recommend that all organizations install the Viva Engage app in Teams. Follow these [steps to set up the Viva Engage app](/viva/engage/setup).
 
 ## Compliance and Answers data
 
 Unless you've set a unique policy for Answers, a group in Office 365 backs up Answers data in accordance to your organization's default data [retention policies](/microsoft-365/compliance/retention-policies-yammer). The Answers backing group is auto provisioned when the first question is posted or the first question attachment is created. All Global admins are assigned as owners of the Answers backing group, which is called *Group for Answers in Viva Engage – DO NOT DELETE.*
 
-To remain compliant with network policies, owners of the backing group should ensure that the Answers backing group isn't accidentally deleted. If you want to delete the backing group in Office 365, admins can export data. If the backing group is deleted, Answers is non-functional.
+To remain compliant with network policies, owners of the backing group should ensure that the Answers backing group isn't accidentally deleted. If you want to delete the backing group in Microsoft 365, admins can export data. If the backing group is deleted, Answers is non-functional.
 >[!NOTE]
 > A soft delete is recoverable within 30 days. A hard delete results in *permanent* data loss.
 
-Answers data is also available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
+Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
 **General Data Protection Regulation (GDPR) information**
 
@@ -70,7 +70,7 @@ To export personally identifiable user data, verified Viva Engage admins and Eng
 
 ## Procedure: Enable Answers  
 
-All users who have the Viva Engage Knowledge service plan assigned can view Answers, as it's on by default. You can hide it from the Viva Engage Teams app so that users can access Answers content through existing links, but they won’t be able to contribute to threads or navigate the Answers experience.
+All users who have the Viva Engage Knowledge service plan assigned can view Answers, as it's on by default. You can hide it from the Viva Engage Teams app to prevent users from contributing to threads or navigating the Answers experience. However, users can still access Answers content through existing links.
 
 Only Microsoft 365 Global administrators can change the Answers state of enablement:
 
@@ -89,11 +89,11 @@ Only Microsoft 365 Global administrators can change the Answers state of enablem
    [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
 > [!NOTE]
-> If Answers is disabled, the backing group will respect the default data [retention policies](/microsoft-365/compliance/retention-policies-viva-engage) set by your organization, unless a unique policy is set for Answers.
+> If Answers is disabled, the backing group respects the default data [retention policies](/microsoft-365/compliance/retention-policies-viva-engage) set by your organization, unless a unique policy is set for Answers.
 
 ### Option: Show Viva Engage experience
 
-Answers resides within Viva Engage. Organizations that aren't ready to use all Viva Engage features can choose an Answers-focused experience while hiding other Viva Engage features such as storylines, communities and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers.
+Answers resides within Viva Engage. Organizations that aren't ready to use all Viva Engage features can choose an Answers-focused experience while hiding other Viva Engage features such as storylines, communities, and leadership. Hidden Viva Engage content can still be accessed through existing links, but users can't navigate to Viva Engage features other than Answers.
 
 For this feature to be available, the network is required to have two or fewer Engage communities. Only Microsoft 365 Global administrators can change the Viva Engage state of enablement.
 
@@ -105,7 +105,7 @@ For this feature to be available, the network is required to have two or fewer E
 
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
 
-5. In Answers feature management, you can switch **Show Engage Experience** on or off for your organization.
+5. In Answers feature management, switch **Show Engage Experience** on or off for your organization.
 
 The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
 
@@ -118,17 +118,17 @@ The Viva Engage Experience can't be hidden if Answers is turned off, or if the t
 
 ### Option: Show AI suggested topics
 
-All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns relevant Viva Topics for the user to choose from to include with their post.  
+All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns relevant Viva Topics for the user to choose from and include with their post.  
 
-Only Microsoft Global 365 administrators can turn this feature off to hide it from the Answers experience.
+Only Microsoft 365 Global administrators can turn this feature off to hide it from the Answers experience.
 
 1. Go to the Viva Engage Teams app.  
 
 1. Select the ellipses button from the top-right navigation bar to expose admin options.  
 
-1. Select **Admin** to navigate to the Viva Engage admin center.  
+1. Select **Admin** to navigate to the Viva Engage admin center.
 
-1. On the **Feature management** tab, select the Answers button to open the Answers configuration options.   
+1. On the **Feature management** tab, select the Answers button to open the Answers configuration options.
 
 1. In Answers feature management, switch **Enable AI-suggested topics** on or off for your organization.
 
