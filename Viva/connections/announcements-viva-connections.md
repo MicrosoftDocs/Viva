@@ -32,10 +32,9 @@ Announcements allow you to create and share time-sensitive messages in Viva Conn
 
 > [!NOTE]
 >
-> - This experience is rolling out to targeted release customers now and will become generally available by September 2023.
-> - The first release of the announcement feature is only available to customers with a SharePoint home site but will become available to all Viva Connections customers in the fall.
-> - The first release of the announcement feature will only be available for mobile and tablet devices.  Support for desktop devices will become available in September 2023.
-> - You must have member permissions or higher to your organization’s SharePoint homes site to send and manage announcements.
+> - Starting in October 2023, users will be required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have member permissions or higher to your organization’s SharePoint home site to send and manage announcements.
+> - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## When to use announcements
 
@@ -71,7 +70,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 > [!NOTE]
 > Viva Connections announcement notifications being displayed in the Teams activity feed is scheduled for a future release.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of an Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png":::
 
 **In Viva Connections**: Announcements display towards the top of the Viva Connections experience where more details can be viewed.
 
@@ -92,7 +91,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 2. Choose an icon and color that reflect the theme of the announcement.
 3. Add a title and message.
 4. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
-5. Select up to 10 audiences to distribute the announcement to. Audiences can be Azure Active Directory groups, Microsoft 365 Groups, or Microsoft Azure Active Directory dynamic groups.
+5. Select up to 10 audiences to distribute the announcement to. Audiences can be Azure AD groups, Microsoft 365 Groups, or Microsoft Azure AD dynamic groups.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::
 
