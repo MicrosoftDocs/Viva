@@ -33,12 +33,14 @@
         - name: Advanced privacy guide for data usage and survey item creation
           href: setup/gdpr-special-categories.md
         - name: How Viva Glint helps you protect your privacy 
-          href: setup/viva-glint-survey-privacy.md
+          href: setup/viva-glint-survey-privacy.md 
+        - name: Why Viva Glint surveys are confidential but not anonymous
+          href: Viva/glint/setup/anonymous-confidential.md 
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
      - name: Set up Viva Glint Secure File Transfer Protocol
        href: setup/setup-sftp.md
-       items:  
+       items:  Viva/glint/setup/anonymous-confidential.md
         - name: Configure SFTP IP addresses in Viva Glint
           href: setup/configure-sftp.md
         - name: Create an SSH key pair for SFTP
