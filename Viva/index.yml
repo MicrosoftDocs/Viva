@@ -172,8 +172,6 @@ additionalContent:
         # Card
         - title: Solutions for your business
           links:
-            - text: Get started with Microsoft Viva
-              url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
             - text: Use Microsoft Viva in the hybrid workplace
               url: /viva/solutions/viva-for-the-hybrid-workplace
             - text: Run a healthy OKR program with Viva Goals
