@@ -88,8 +88,6 @@ Each of the Viva apps collects and stores data in different ways, based on the i
 ### Viva Amplify
 Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting is not recommended.
 
-Privacy settings are inherited from Microsoft 365 and SharePoint, where applicable. 
-
 For more information about Viva Amplify, see [Overview of Microsoft Viva Amplify](/viva/amplify/overview-viva-amplify).
 
 ### Viva Connections

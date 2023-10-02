@@ -45,7 +45,8 @@ In addition to the security capabilities available to Microsoft Viva through Mic
 ### Viva Amplify
 Viva Amplify uses SharePoint and Microsoft 365 roles to control access and security of your content. 
 
-[Learn about roles and permissions in Viva Amplify](/viva/amplify/viva-amplify-roles).
+For more information about security in Microsoft Amplify, see [Learn about roles and permissions in Viva Amplify](/viva/amplify/viva-amplify-roles).
+
 ### Viva Connections
  
 Viva Connections integrates your organization's SharePoint intranet into Microsoft Teams, providing employees with relevant news, information, and resources accessible from desktop or mobile devices. 
