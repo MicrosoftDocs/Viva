@@ -37,7 +37,6 @@ Not sure which Viva app will have the most impact on your organization? Review p
 |**Share organizational news, resources, tools and more with your employees**|- We get most of our work done in Microsoft Teams and want to streamline where employees can find news and popular resources.<br>  - We need to support and engage our frontline workforce. <br> - We want to streamline organizational communications into one place. <br> - We want to connect employees to popular tools and third-party resources to improve operational efficiencies.  | :::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](https://www.microsoft.com/microsoft-viva/connections)      |
 |**Improve productivity, workforce effectiveness, and employee engagement**|- We want to be more aware of work patterns and how we get work done as individuals, as teams, and as an organization. <br> - We want to surface opportunities for how to improve our business outcomes and take steps to protect employee wellbeing. <br> - We need to help business leaders address critical questions about organizational resiliency and work culture.    | :::image type="icon" source="media/logos/insights-launch-c-64.svg":::  <br>  [Viva Insights](https://www.microsoft.com/microsoft-viva/insights)   |
 |**Train employees smarter and more efficiently**|- We need to create a training program that allows employees to discover, share, and recommend training material. <br>- We want to make it easy for frontline workers to access training and skilling opportunities. <br> - We need a training solution that can aggregate training content from multiple sources. <br> - We want to engage new employees in training programs that will help them ramp-up into their new roles.   |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>     [Viva Learning](https://www.microsoft.com/microsoft-viva/learning)    |
-|**Transform information into employee knowledge**|- We want employees to have a better understanding of projects and popular subjects across the organization. <br> - We need to surface contextual information when employees need it to create efficiencies and improve the employee experience. <br> - We want to create a central repository of terms, project names, and subject-matter experts that can be managed.   | :::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br>  [Viva Topics](https://www.microsoft.com/microsoft-viva/topics)|
 |**Connect people across your organization, no matter where they work**|- We want to increase engagement and social connections with employees working remotely, in different locations, and across work groups. <br> - We want to increase the visibility of our Viva Engage communities and encourage more participation. <br> - We want to boost participation in employee resource groups and social groups. <br> - We want to create space for employees to ask questions and crowdsource answers from outside their teams. |:::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br> [Viva Engage](https://www.microsoft.com/microsoft-viva/engage) |
 |**Align teams with your organization's strategic priorities, mission and purpose**|- We want to establish a transparent view of our organization's priorities and goals <br> - We want to energize teams by giving them a clear view into how their work aligns with greater business needs. <br> - We want to empower individuals to increase their accountability for reaching broader organizational goals. |:::image type="icon" source="media/logos/goals-launch-c-64.svg"::: <br> [Viva Goals](https://www.microsoft.com/microsoft-viva/goals) |
 
@@ -85,17 +84,6 @@ Each app offers special features, customization opportunities, and ways to integ
 |Personalized recommendations |Use intelligent search and discovery to surface relevant and trending content.     |
 |Custom learning content |Bring company resources into a standard learning interface through SharePoint integration.|
 |Protect learning time |Add learning courses to your calendar and get weekly suggestions to book learning time. |
-
-## Viva Topics: Knowledge management and expertise
-
-|Feature  |Description |
-|:---------:|---------|
-|Topic cards |Deliver knowledge in context, with topic cards surfaced across Outlook, Teams, Search, and other Microsoft 365 apps.     |
-|Topic centers |Manage your organization’s topics, recognize relationships between them, or manually add and create additional topics.   |
-|Search and discovery |Offer a seamless and integrated experience across Microsoft 365, with topics discoverable in Microsoft Search, and in the apps you use every day.  |
-|Topic pages |Bring together relevant content, conversations, and expertise from across your organization into topic pages created by the AI capabilities of Viva Topics.       |
-|Knowledge curation |Enable experts across your organization to revise topics, pin resources, and identify other experts while Viva Topics learns and makes updates.    |
-|Management and administration |Generate and show topics generated only from the content that people are allowed to see, based on your security and privacy settings in Microsoft 365.|
 
 ## Viva Engage: Building meaningful relationships
 
@@ -193,25 +181,6 @@ Each app has its own technical requirements before it can be customized and shar
     - Integrate Viva Learning with your SharePoint
     - Integrate Viva Learning with your third-party content providers or learning management systems
 
-### Viva Topics
-
-- **Technical requirements**:
-    - Microsoft 365 E3 or E5 license
-    - Viva Topics or Viva suite subscription
-- **Impact on end-users**:
-    - No separate application or search needed—users find topics in the apps they already use
-- **Admins and roles**:
-    - Microsoft 365 global admin or SharePoint admin + Groups admin (setup)
-    - Knowledge manager
-    - Contributor
-    - Topic viewer
-- **Change management considerations**: <br> 
-    - Migrate content to SharePoint because topic indexing includes only content on SharePoint sites
-    - Modernize SharePoint pages because topic cards can only be surfaced on modern pages
-    - Connect information to Microsoft Graph so that external content can be brought in and made available
-    - Secure content appropriately to ensure topic resources are security-trimmed based on user permissions
-    - Identify knowledge admins, knowledge managers, and topic contributors
-
 ### Viva Engage 
 - **Technical requirements:** 
     - Microsoft 365 E3 or E5 license 
@@ -262,7 +231,6 @@ Get more information about each app and how to get started.
 |**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/set-up-admin-center.md)|
 |**Viva Insights**    |Balance productivity and wellbeing – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.| [Overview](insights/introduction.md) <br> [Learn how to set it up](insights/advanced/setup-maint/setup-overview.md) |
 |**Viva Learning**|Accelerate skilling and growth – Your employees can easily discover and share everything from formal training courses to internal company resources.|   [Overview](learning/index.md) <br> [Learn how to set it up](learning/set-up-viva-learning.md) |
-|**Viva Topics** |Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results. |[Overview](topics/index.md) <br> [Learn how to set it up](topics/set-up-topic-experiences.md) |
 |**Viva Engage** |Support meaningful relationships and help your employees build valuable networks. |[Overview](/viva/engage/overview) <br> [Learn how to set it up](/viva/engage/setup) |
 |**Viva Goals** |Connect teams to your organization's strategic priorities to unite them around a shared mission and purpose. |[Overview](/viva/goals/intro-to-ms-viva-goals) <br> [Learn how to set it up](/viva/goals/navigate-admin-dashboard) |
 
