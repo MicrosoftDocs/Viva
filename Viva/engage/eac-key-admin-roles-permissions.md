@@ -65,7 +65,7 @@ The following table shows the range of actions available to the Engage admin and
 |**Manage leaders and their audiences**: <br> Assigns leaders in your organization; identify audiences for the leaders identified | |✓|
 |**Configure stories and storylines**: <br>Enables storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓|✓|
 |**Manage sentiment analysis and other feature specific analytics**: <br> Configures level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |✓|
-|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; accesses campaign analytics dashboard|  |✓|
+|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; removes posts that aren't aligned with campaign; accesses campaign analytics dashboard|  |✓|
 |**Enable and manage badges**|  |✓|
 |**Enable Answers**|  |Global administrator only |
 
@@ -93,7 +93,7 @@ Only a global admin can assign (or modify) the Answers admin role. This role is 
 
 The following table shows the actions available to an unlicensed user compared with various admin roles in Viva Engage.
 
-|Answers permissions for an Answers admin, Engage admin, and Global administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
+|Answers permissions for an Answers admin, Engage admin, and Microsoft 365 Global Administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
 |----------------------|:-:|:-:|
 |**Ask, answer, upvote, and react**|Interact with questions that they're mentioned in|✓|
 |**Suggest topics**| |✓|
@@ -110,25 +110,24 @@ The following table shows the actions available to an unlicensed user compared w
 The Corporate communicator role provides more capabilities than the Community admin role, but fewer than the Engage admin role. 
 Corporate communicators can create and manage campaigns, define leaders, assign campaign co-organizers, and manage content across the organization. 
 
-Roles that can assign, modify, or delete Corporate communicators privileges for users include: the Global administrator role, the Engage admin role, and fellow corporate communicators.
+Roles that can assign, modify, or delete Corporate communicators privileges for users include: the Global Administrator role, the Engage admin role, and fellow corporate communicators.
 
 **Permissions**
 
-The actions available to the Corporate Communicator, Engage (Yammer) admin, and Global administrator role based on their license appear in the following table.  
+The actions available to the Corporate Communicator, Engage (Yammer) admin, and Microsoft 365 Global Administrator role based on their license appear in the following table.  
 
-|Permissions for the Corporate communicator role, Engage admin role, and Global administrator role |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
+|Permissions for the Corporate communicator role, Engage admin role, and Global Administrator role |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------------|:-:|:-:|
 |**Identify leaders**: <br> Manages their audience and delegates | |✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
-|**Assign co-organizers**: Add co-organizers to share campaign responsibilities
+|**Manage campaigns via**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
 |**View campaign analytics**| |✓|
 
 ## Community admin
 |Function |Details |
 |--------|-----------------|
 |**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>
- |**Who can assign this role**|Any Viva Engage user who creates a community is automatically assigned the community admin role, and can add or remove community admins (up to 100 per community).<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Viva Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks, including adding more community admins. |
+ |**Who can assign this role**|Any Engage user who creates a community is automatically assigned the community admin role, and can add or remove community admins (up to 100 per community).<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks, including adding more community admins. |
 |**How to assign this role**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
 ## Office 365 report reader

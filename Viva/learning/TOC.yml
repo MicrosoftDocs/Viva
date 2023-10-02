@@ -72,6 +72,8 @@
           href: interests.md
         - name: Managing exported interest files
           href: interests-troubleshooting.md
+        - name: Download Learner Completion Records
+          href: learner-completion-records.md 
         - name: Manage academies in Viva Learning  
           href: academy.md
         - name: Advanced Searching within Viva Learning

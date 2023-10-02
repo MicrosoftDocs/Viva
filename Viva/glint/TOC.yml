@@ -26,7 +26,7 @@
         - name: Viva Glint Licensing
           href: setup/glint-order-teams.md
         - name: Third party notice
-          href: setup/third-party-notice.md
+          href: /legal/viva/glint/third-party-notice
      - name: Microsoft Viva Glint privacy
        href: setup/viva-glint-privacy.md
        items:
@@ -38,7 +38,7 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up the Allowed List for Viva Glint
+     - name: Manage your Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
@@ -55,9 +55,9 @@
           href: setup/attribute-fundamentals.md
         - name: Viva Glint's organizational hierarchy fundamentals
           href: setup/hierarchy-fundamentals.md
-        - name: Create your Employee Attribute Template in Viva Glint
+        - name: Create your Viva Glint Employee Attribute Template
           href: setup/create-employee-attribute-template.md 
-        - name: Send your Employee Attribute File to Viva Glint  
+        - name: Set up attributes in Viva Glint  
           href: setup/send-employee-attributes.md         
         - name: Upload your employee attributes to Viva Glint
           href: setup/upload-employee-attributes.md
@@ -130,7 +130,9 @@
         - name: Setting up Always On surveys
           items:
           - name: Preview, manage, and enable Viva Glint surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
+            href: setup/preview-manage-enable-engage-programs.md 
+        - name: Set up a Diversity & Inclusion survey
+          href: setup/diversity-inclusion.md
      - name: Viva Glint Advanced Configuration
        items:
         - name: Understand Advanced Configuration options in Viva Glint 
@@ -144,7 +146,9 @@
         - name: Use Advanced Configuration Data Apps
           href: setup/glint-data-apps.md
         - name: Use Advanced Configuration Uploads
-          href: setup/advanced-config-uploads.md           
+          href: setup/advanced-config-uploads.md
+        - name: Flag Sensitive comments in Viva Glint
+          href: setup/glint-sensitive-comments.md            
    - name: Reports
      items:
      - name: Viva Glint's survey reports
