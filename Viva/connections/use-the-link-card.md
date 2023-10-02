@@ -136,12 +136,15 @@ The best experiences will be achieved if the service doesn't require authenticat
 | :------------------- | :------------------- |:---------------|
 | SharePoint Link  | Page opens within Teams and user doesn’t need to authenticate again.| Page opens within Teams and user doesn’t need to authenticate again. |
 | Teams App | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  | Teams apps (like Shifts, Approvals, or Kudos) opens within Teams and user doesn’t need to authenticate again.  |
-| Forms  | Forms open within Teams, the user is asked to sign-in the first time, and won't need to authenticate again if they stay signed in. | Form opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
-| Viva Engage | Viva Engage opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| PowerApps  | PowerApps opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| Power Portals  | Power portals opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings.  |
-| Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.   | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
-| External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings.  |
+
+| Forms  | Form opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Form opens within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
+| Yammer | Yammer opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| PowerApps  | PowerApps opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in. | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| Power Portals  | Power portals opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
+| Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.   | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings. |
+| External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to re-authenticate depending on browser and machine settings.  |
+| Sway  | Sway opens within Teams and the user is asked to sign in the first time. The user doesn’t need to authenticate again if they stay signed in. | Sway opens within Teams and the user is asked to sign in the first time. The user doesn’t need to authenticate again if they stay signed in.            |
+
 
 ## Learn more
 
