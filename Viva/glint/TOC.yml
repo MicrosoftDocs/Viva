@@ -127,7 +127,9 @@
         - name: Use the Glint Microsoft Teams application
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
-       items: 
+       items:
+      - name: Setting up Engagement surveys
+        items: 
         - name: Set up Program Summary for Viva Glint Engagement-type surveys
           href: setup/program-summary-overview.md
           items:
@@ -145,30 +147,26 @@
             href: setup/program-summary-communications.md
           - name: Set up Coaching page in Program Summary
             href: setup/program-summary-coaching.md
-        - name: Setting up Engagement surveys
-          items: 
-          - name: Preview, manage, and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
-          - name: Quarterly Engagement Survey template
-            href: setup/quarterly-engagement-template.md
-          - name: Set up a Viva Glint Team Effectiveness survey
-            href: setup/team-effectiveness-survey.md
-          - name: Set up a Manager Effectiveness survey
-            href: setup/manager-effectiveness-survey.md
+        - name: Quarterly Engagement Survey template
+          href: setup/quarterly-engagement-template.md
+        - name: Diversity & Inclusion survey programs in Viva Glint
+          href: diversity-inclusion.md
+        - name: Set up a Viva Glint Team Effectiveness survey
+          href: setup/team-effectiveness-survey.md
+        - name: Set up a Manager Effectiveness survey
+          href: setup/manager-effectiveness-survey.md
         - name: Setting up Employee Lifecycle surveys
           items:
+          - name: Create Viva Glint Onboarding and Exit survey programs
+            href: setup/create-onboarding-exit-surveys.md
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
-            href: setup/preview-filter-lifecycle-programs.md
-        - name: Create Viva Glint Onboarding and Exit survey programs
-          href: setup/create-onboarding-exit-surveys.md
-        - name: Setting up Always On surveys
-          items:
-          - name: Preview, manage, and enable Viva Glint surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md
-   - name: Reports
-     items:
+            href: preview-filter-lifecycle-programs.md
+       - name: Preview, manage, and enable Viva Glint surveys and dashboards         
+             preview-manage-enable-engage-programs.md
+     - name: Reports
+       items:
      - name: Viva Glint's survey reports
        items:
         - name: Viva Glint's survey reports overview
