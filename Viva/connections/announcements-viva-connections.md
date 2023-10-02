@@ -20,7 +20,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Use announcements in Viva Connections"
 ---
 
