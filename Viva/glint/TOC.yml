@@ -146,21 +146,19 @@
           href: setup/team-effectiveness-survey.md
         - name: Set up a Manager Effectiveness survey
           href: setup/manager-effectiveness-survey.md
-        - name: Setting up Employee Lifecycle surveys
-       items: 
-        - name: Setting up Engagement surveys
-          items:
-          - name: Create Viva Glint Onboarding and Exit survey programs
-            href: setup/create-onboarding-exit-surveys.md
-          - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
-            href: setup/program-summary-setup-lifecycle.md
-          - name: Preview and filter Employee Lifecycle programs
-            href: preview-filter-lifecycle-programs.md
-       - name: Preview, manage, and enable Viva Glint surveys and dashboards         
+      - name: Setting up Employee Lifecycle surveys
+        href: setup/preview-filter-lifecycle-programs.md
+        items:
+        - name: Create Viva Glint Onboarding and Exit survey programs
+          href: setup/create-onboarding-exit-surveys.md
+        - name: Set up Program Summary for Viva Glint Employee Lifecycle programs 
+          href: setup/program-summary-setup-lifecycle.md
+        - name: Preview and filter Employee Lifecycle programs
+          href: preview-filter-lifecycle-programs.md
+        - name: Preview, manage, and enable Viva Glint surveys and dashboards         
              preview-manage-enable-engage-programs.md
      - name: Reports
        items:
-            href: setup/preview-filter-lifecycle-programs.md
         - name: Create Viva Glint Onboarding and Exit survey programs
           href: setup/create-onboarding-exit-surveys.md
         - name: Setting up Always On surveys
