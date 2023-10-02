@@ -29,7 +29,7 @@ Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. Thi
 Before setting up Microsoft Viva, consider the following security recommendations:
  
 - Protect data by implementing appropriate access controls and role-based access controls so only authorized users have access to certain data and features. Use Azure AD to handle user authentication and authorization. 
-- Provide another layer of security for users by setting up multi-factor authentication (MFA).
+- Provide another layer of security for users by setting up multifactor authentication (MFA).
 - Make sure that you have a plan for incident response to tackle any security breaches that may occur.
 
 > [!NOTE]
@@ -42,6 +42,10 @@ Depending on which Viva app you’re using, you may inherit much of your securit
 ## Viva apps security options and controls
 In addition to the security capabilities available to Microsoft Viva through Microsoft 365, SharePoint, and Teams, each app has its own security controls and considerations.
 
+### Viva Amplify
+Viva Amplify uses SharePoint and Microsoft 365 roles to control access and security of your content. 
+
+[Learn about roles and permissions in Viva Amplify](/viva/amplify/viva-amplify-roles).
 ### Viva Connections
  
 Viva Connections integrates your organization's SharePoint intranet into Microsoft Teams, providing employees with relevant news, information, and resources accessible from desktop or mobile devices. 
@@ -56,7 +60,7 @@ When you’re setting up Viva Connections, be sure to [confirm who has access to
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
 ### Viva Engage
-Your organization's privacy and security settings from Microsoft Viva Engage are shared with Viva Engage. Because of this, you need a Viva Engage Enterprise license to set up and ensure Engage is secure and compliant. The admin tools help protect your Engage data and who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Azure AD.
+The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
 
 For more information about security in Viva Engage, see 
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
