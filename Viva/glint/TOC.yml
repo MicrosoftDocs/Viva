@@ -11,7 +11,9 @@
         - name: Viva Glint program types and associated templates
           href: start/program-types-templates.md
         - name: What is People Science?
-          href: start/people-science-viva-glint.md     
+          href: start/people-science-viva-glint.md
+        - name: Learning path and modules
+          href: start/viva-glint-learning-paths-and-modules.md
    - name: Setup and administration
      items:
      - name: Deploy Microsoft Viva Glint
@@ -24,7 +26,7 @@
         - name: Viva Glint Licensing
           href: setup/glint-order-teams.md
         - name: Third party notice
-          href: setup/third-party-notice.md
+          href: /legal/viva/glint/third-party-notice
      - name: Microsoft Viva Glint privacy
        href: setup/viva-glint-privacy.md
        items:
@@ -36,16 +38,7 @@
           href: setup/viva-glint-survey-privacy.md
         - name: Access to Viva Glint raw survey responses
           href: setup/employee-raw-data-export.md
-     - name: Set up Viva Glint Secure File Transfer Protocol
-       href: setup/setup-sftp.md
-       items:  
-        - name: Configure SFTP IP addresses in Viva Glint
-          href: setup/configure-sftp.md
-        - name: Create an SSH key pair for SFTP
-          href: setup/ssh-key-pair.md
-        - name: Add a public SSH key to Viva Glint
-          href: setup/add-a-public-ssh-key.md
-     - name: Set up the Allowed List for Viva Glint
+     - name: Manage your Allowed List for Viva Glint
        href: setup/allowed-list.md
      - name: Set up attribute-based survey access
        href: setup/attribute-based-survey-access.md
@@ -62,12 +55,10 @@
           href: setup/attribute-fundamentals.md
         - name: Viva Glint's organizational hierarchy fundamentals
           href: setup/hierarchy-fundamentals.md
-        - name: Create your Employee Attribute Template in Viva Glint
+        - name: Create your Viva Glint Employee Attribute Template
           href: setup/create-employee-attribute-template.md 
-        - name: Set up attributes in Viva Glint
-          href: setup/set-up-attributes.md         
-        - name: Create your Employee Attribute File for Viva Glint
-          href: setup/create-employee-attribute-file.md
+        - name: Set up attributes in Viva Glint  
+          href: setup/send-employee-attributes.md         
         - name: Upload your employee attributes to Viva Glint
           href: setup/upload-employee-attributes.md
         - name: Understand file upload errors and warnings in Viva Glint 
@@ -90,6 +81,8 @@
         - name: Set up and use Distribution lists in Viva Glint
           href: setup/set-up-distribution-lists.md
           items:
+          - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
+            href: setup/import-members-distribution-lists.md
           - name: Export a Viva Glint Distribution list
             href: setup/export-distribution-lists.md
         - name: Customize action plans in Viva Glint
@@ -100,8 +93,6 @@
           href: setup/benchmarks.md
         - name: Share Viva Glint post-survey learning experiences with your employees
           href: setup/post-survey-learnings.md
-        - name: Understand Advanced Configuration options in Viva Glint 
-          href: setup/understand-advanced-configuration.md
      - name: Best practices program guidance
        href: setup/best-practice-setup-guidance.md
        items:          
@@ -156,6 +147,8 @@
         - name: Set up a Manager Effectiveness survey
           href: setup/manager-effectiveness-survey.md
         - name: Setting up Employee Lifecycle surveys
+       items: 
+        - name: Setting up Engagement surveys
           items:
           - name: Create Viva Glint Onboarding and Exit survey programs
             href: setup/create-onboarding-exit-surveys.md
@@ -167,6 +160,33 @@
              preview-manage-enable-engage-programs.md
      - name: Reports
        items:
+            href: setup/preview-filter-lifecycle-programs.md
+        - name: Create Viva Glint Onboarding and Exit survey programs
+          href: setup/create-onboarding-exit-surveys.md
+        - name: Setting up Always On surveys
+          items:
+          - name: Preview, manage, and enable Viva Glint surveys and dashboards
+            href: setup/preview-manage-enable-engage-programs.md 
+        - name: Set up a Diversity & Inclusion survey
+          href: setup/diversity-inclusion.md
+     - name: Viva Glint Advanced Configuration
+       items:
+        - name: Understand Advanced Configuration options in Viva Glint 
+          href: setup/understand-advanced-configuration.md
+        - name: Consider People Science factors for historical imports
+          href: setup/import-external-people-science-pov.md
+        - name: Import historical response data in Viva Glint
+          href: setup/import-historical-response-data.md
+        - name: Update reporting data in closed Viva Glint surveys
+          href: setup/update-glint-reporting-data.md
+        - name: Use Advanced Configuration Data Apps
+          href: setup/glint-data-apps.md
+        - name: Use Advanced Configuration Uploads
+          href: setup/advanced-config-uploads.md
+        - name: Flag Sensitive comments in Viva Glint
+          href: setup/glint-sensitive-comments.md            
+   - name: Reports
+     items:
      - name: Viva Glint's survey reports
        items:
         - name: Viva Glint's survey reports overview
@@ -234,4 +254,9 @@
         - name: Communicate pre-launch and live Viva Glint program information using email templates 
           href: communicate/prelaunch-live-email-templates.md
         - name: Communicate results rollout plans for Viva Glint programs using email templates
-          href: communicate/results-rollout-templates.md 
+          href: communicate/results-rollout-templates.md
+   - name: Troubleshoot
+     items:
+     - name: Resolve manager hierarchy error
+       href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+ 
