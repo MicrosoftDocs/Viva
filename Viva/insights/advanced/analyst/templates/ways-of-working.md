@@ -36,7 +36,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Ways of Working - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiYWE0MGExNGEtMmIwNC00ZDg4LWI4MmYtYWM2Yjc0NzAzMmI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiYWE0MGExNGEtMmIwNC00ZDg4LWI4MmYtYWM2Yjc0NzAzMmI2IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 
@@ -51,13 +51,13 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 After the **Ways of working** report is set up and populated with Viva Insights data in Power BI, view and set the following parameters on the **Settings** page:
 
-* **Select the time period for the report** – Select the time period for which you want to view data in the report.  
-* **Select an attribute to group data by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
-* **Select optional report filter** – To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.
-* **Exclusions** – Use the check boxes to:
-    * Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats).
-    * Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.
-* **Select the preferred language for your report** – Change the language for your report. 
+|Setting|Description|
+|-------|-----------|
+|**Select the time period for the report** | Select the time period for which you want to view data in the report. |
+|**Select an attribute to group data by** | Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
+|**Select optional report filter** | To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.|
+|**Exclusions** | Use the check boxes to: <ul><li> Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats). <li>Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.|
+|**Select the preferred language for your report** | Change the language for your report.|
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
@@ -92,10 +92,10 @@ Compare the average weekly collaboration hours for each person, by group, to aft
 
 Explore, by group, the average number of hours per week that people are spending in:
 
-* Meetings.
-* Email.
-* Teams chats.
-* Teams unscheduled calls.
+* Meetings
+* Email
+* Teams chats
+* Teams unscheduled calls
 
 Toggle between total collaboration or after-hours collaboration. Understanding differences between how teams get work done can uncover both replicable best practices and areas of opportunity.
 

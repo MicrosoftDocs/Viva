@@ -3,7 +3,7 @@ ms.date: 03/07/2023
 title: Navigate the admin dashboard
 ms.reviewer: 
 ms.author: rasanders
-author: rasanders
+author: RaSanders-MSFT
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 description: "Learn how to navigate the admin dashboard"
 ---
-# Navigate the admin Dashboard
+# Navigate the admin dashboard
 
 To log in to Viva Goals, visit: https://goals.microsoft.com/
 
@@ -36,9 +36,9 @@ Review the [Get Started with Viva Goals learning path](/training/paths/viva-goal
 
 To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left side panel and select “Admin” next to the gear icon.
 
-:::image type="content" source="../media/goals/admin-option.jpg" alt-text="Screenshot showing the admin option." lightbox="../media/goals/admin-option.jpg":::
+:::image type="content" source="../media/goals/navigation-sidebar/access-use-admin.png" alt-text="Screenshot showing where to access the admin tab in the navigation sidebar." lightbox="../media/goals/navigation-sidebar/access-use-admin.png":::
 
-Organization admins configure the Viva Goals instance and have access to settings in the admin dashboard to set up users, teams, time periods, notifications, integrations, OKRs, and projects. 
+Organization admins configure the Viva Goals instance and have access to settings in the admin dashboard to set up users, teams, time periods, notifications, integrations, OKRs, and initiatives. 
 
 Here are recommended first five steps for organization admins:  
 
@@ -101,7 +101,7 @@ This tab shows all the teams that you've set up, plus the team owner and members
 
 ### Notifications
 
-The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge. Learn more at [Check in and track progress](/viva/goals/check-ins-and-progress-status).
+The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge.
 
 ### Integrations 
 
@@ -145,9 +145,9 @@ Viva Goals understands that every business has its own set of processes and lets
 
 To learn more, see [Configure your OKR model in Viva Goals](/viva/goals/configure-okr-model).
 
-### OKRs and projects 
+### OKRs and initiatives 
 
-Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and projects. Admins can also establish [OKR approval settings](approval-workflows.md).  
+Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and initiatives. Admins can also establish [OKR approval settings](approval-workflows.md).  
 
-To learn more about Projects, see [Projects](projects.md).
+To learn more about initiatives, see [Initiatives](projects.md).
 

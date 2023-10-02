@@ -11,7 +11,7 @@ audience: Admin
 description: "Introducing Org Explorer"
 ---
 # Introducing Org Explorer
-Org Explorer helps you visualize and explore your company’s internal structure, its teams, and people. It's available to all enterprise users that have the Microsoft Viva suite or Microsoft Viva suite with Glint.
+Org Explorer helps you visualize and explore your company’s internal structure, its teams, and people. It's available to enterprise users that have a Microsoft Viva license.
 
 ## Availability
 
@@ -45,24 +45,7 @@ If a user is enabled for Microsoft Viva, they are also enabled to use Org Explor
 
 ## Removing Org Explorer
 
-You can turn off Org Explorer by contacting Microsoft support. To contact support, you can use in-app support in Outlook for desktop or the Microsoft 365 admin center (see sections below).
-
-Note: When Org Explorer is disabled users will still see the app icon in Outlook. If a user selects the app in Outlook, a message will indicate that Org Explorer is disabled.
-
-### Contact support in Outlook for desktop
-
-1. Go to Outlook on desktop for Windows.
-2. Select **Help > Contact Support** in the navigation pane.
-3. Select **Yes** to continue.
-4. Describe your request and select **Submit**.  
-
-### Contact support in the Microsoft 365 admin center
-
-1. Go to the [admin center](https://admin.microsoft.com).
-2. On the bottom right side of the page, select  **Help & support**.
-3. Enter a search term, for example “Org Explorer”.
-4. Select **Contact Support** at the bottom of the page.
-5. Enter a description of your request, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the Contact support pane. [Learn more about getting support in the admin center](/microsoft-365/admin/get-help-support).
+You can turn off Org Explorer by unassigning the People in Viva license in the admin center. For exact steps, see [Unassign Microsoft 365 licenses from users](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## Additional resources
 

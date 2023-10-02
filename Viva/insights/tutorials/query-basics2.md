@@ -17,9 +17,12 @@ manager: scott.ruble
 audience: Admin
 ---
 
-<!-- NOTE: This topic exists only for the private preview that Nishant had going during Aug.-Sept. 2021. Now that consumption-model billing has gone GA (Oct 1), we should be able to delete this. Confirm first with Nishant that no preview customers might need it still. -->
-
 # Queries overview
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
+<!-- NOTE: This topic exists only for the private preview that Nishant had going during Aug.-Sept. 2021. Now that consumption-model billing has gone GA (Oct 1), we should be able to delete this. Confirm first with Nishant that no preview customers might need it still. -->
 
 The advanced insights app has a few different query options, including: **Person**, **Meeting**, **Group-to-group**, **Person-to-group**, **Peer comparison**, and **Network queries**. Each query type can help answer specific questions that you want to investigate. The different query types give you flexibility to look at data from multiple perspectives and generate powerful insights. You can also use the query types together to gain even more in-depth insights.
 
@@ -330,13 +333,13 @@ The videos in this section were used in a bootcamp for training analysts in how 
 
 The _A week in the life_ video demonstrates how to work with a [person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-<iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889941]
 
 ### Expensive meetings
 
 The _Expensive meetings_ video demonstrates how to work with a [meeting query](/viva/insights/tutorials/meeting-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json). 
 
-<iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889528]
 
 ## Related topics
 

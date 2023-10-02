@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to create and configure learning paths for Microsoft Viva Learning.
 ---
@@ -24,12 +25,9 @@ A learning path is a collection of learning objects or a sequence of learning ac
 In Viva Learning, you can curate a learning path using learning content from different learning providers enabled for your organization. 
 
 
->[!NOTE]
->You need admin or knowledge manager permissions to create a learning path in Viva Learning.
-
->[!NOTE]
->Learning paths are not supported on mobile. 
-
+> [!NOTE]
+> Creating a learning path requires a premium license for Viva Learning or Viva Suite.
+> You also need admin or knowledge manager permissions to create a learning path in Viva Learning.
 ## Create a Learning path
 
 1. Go to the **Admin** tab in Viva Learning and click on **Learning path** on the left menu.
@@ -68,7 +66,7 @@ Your learning path is saved in drafts. You can edit, preview or publish the lear
 
 >[!NOTE]
 >You can't add or remove content from a learning path once it's published. You can only edit the title, description and thumbnail of a published learning path. 
- 
+
 ### View and manage Learning path options
 
 You can always view and manage your existing learning paths under the **Learning path** section in the **Admin** tab. You can perform the following options by selecting:
@@ -87,3 +85,5 @@ Employees can discover and play the course by clicking on the learning path card
 
 >[!NOTE]
 >Nested Learning paths are not yet supported.
+
+

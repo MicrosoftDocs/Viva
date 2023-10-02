@@ -15,12 +15,12 @@ metadata:
   - NOCSH
   ms.service: viva
   localization_priority: Priority
-  ms.collection:  
-  - M365initiative-viva
+  ms.collection:
+    - M365initiative-viva
+    - Tier1
   search.appverid:
   - MET150
   - ms.date: 06/09/2022
-
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
@@ -57,40 +57,25 @@ landingContent:
             url: viva-leadership-communications.md
 
   # Card
-  - title: Run a healthy OKR program with Viva Goals
+  - title: Discover goal-setting best practices with Viva Goals
     linkLists:
       - linkListType: overview
         links:
           - text: Write OKRs Overview
-            url: write-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/write-okrs-overview.md
           - text: Align OKRs Overview
-            url: align-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/align-okrs-overview.md
           - text: Check-in OKRs Overview
-            url: check-in-okrs-overview.md
+            url: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
+          - text: Close OKRs Overview
+            url: ./viva-goals-healthy-okr-program/close-okrs-overview.md
           - text: Rhythm of Business Overview
-            url: rhythm-of-business-overview.md  
+            url: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md  
  
-
-  # Card
-  - title: Solve common business problems with accelerators
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Introduction
-            url: introduction.md
-          - text: Data lake solutions
-            url: ../solutions/data-lakes/viva-insights.md
-          - text: Data access automation
-            url: automate-exports.md
-          - text: Multi-tenant solution
-            url: complex-organization-insights.md  
-  
-  # Card
+    # Card
   - title: Incorporate learning into your organization
     linkLists:
       - linkListType: overview
         links:
           - text: Bring learning into the flow of work
             url: incorporate-learning.md
-
-

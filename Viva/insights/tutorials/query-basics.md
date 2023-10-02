@@ -18,6 +18,10 @@ audience: Admin
 
 # Queries overview
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Query designer offers a few different custom query options, including: [Person](#person-query), [Meeting](#meeting-query), [Group-to-group](#group-to-group-query), [Person-to-group](#person-to-group-query), [Peer comparison](#peer-comparison-query), and [Network](#network-queries) queries. Each query type can help you investigate and answer specific business questions. The different query types give you the flexibility to look at data from multiple perspectives and generate powerful insights. You can also combine output from two different queries to gain even more in-depth insights.
 
 With these queries, you can:
@@ -152,13 +156,13 @@ The following videos were used to train analysts on how to run queries.
 
 The _A week in the life_ video demonstrates how to work with a [Person query](/viva/insights/tutorials/person-queries?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
-<iframe src="https://player.vimeo.com/video/434889941" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889941]
 
 ### Expensive meetings
 
 The _Expensive meetings_ video demonstrates how to work with a [Meeting query](meeting-queries.md). 
 
-<iframe src="https://player.vimeo.com/video/434889528" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889528]
 
 ## Related topics
 

@@ -18,6 +18,9 @@ audience: Admin
 
 # Explore the stats
 
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Explore the stats data in Viva Insights gives you a starting point with quick insights about your organization and to identify data you'll want to investigate further.
 
 The following are available in Viva Insights:
@@ -43,10 +46,10 @@ For example, to see **Meetings overview** data in Viva Insights:
 
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>-->
+> [!VIDEO https://player.vimeo.com/video/434890563]-->
 The user interface and navigation in recent releases of Viva Insights are different that what's shown in this video.
 
-<iframe width="580" height="512" src="https://player.vimeo.com/video/434890563" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434890563]
 
 ## Data time limit
 

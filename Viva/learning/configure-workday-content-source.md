@@ -4,18 +4,19 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/14/2022
+ms.date: 06/1/2023
 audience: admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: Learn how to configure Workday as a learning content source for Microsoft Viva Learning.
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Configure Workday as a content source for Microsoft Viva Learning
@@ -174,4 +175,3 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
     4. **Password:** This is the password that you chose when you created the integration system user.
 
 4. Select **Save** to save the configuration details and complete the setup process.
-

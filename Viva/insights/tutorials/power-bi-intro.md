@@ -18,6 +18,10 @@ audience: Admin
 
 # Templates in Query designer
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 The Query designer in the advanced insights app that's available with Viva Insights includes a number of predefined templates that analysts can use to visually analyze workplace patterns and trends. A template pre-populates a custom Viva Insights query and selects the applicable Power BI charts to show results from these queries.
 
 ## Requirements for analysts

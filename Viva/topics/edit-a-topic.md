@@ -1,25 +1,25 @@
 ---
-ms.date: 11/15/2021
+ms.date: 09/27/2023
 title: Edit an existing topic in Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 audience: admin
 ms.reviewer: cjtan
 ms.topic: article
-ms.collection: 
-- m365initiative-viva-topics
-- highpri
+ms.collection:
+  - m365initiative-viva-topics
+  - highpri
+  - Tier1
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
 description: Learn how to edit an existing topic in Microsoft Viva Topics.
-
 ---
 
-# Edit an existing topic in Microsoft Viva Topics 
+# Edit an existing topic in Microsoft Viva Topics
 
 </br>
 
@@ -27,25 +27,26 @@ description: Learn how to edit an existing topic in Microsoft Viva Topics.
 
 </br>
 
-In Viva Topics, you can edit an existing topic. You might need to do this if you want to correct or add additional information to an existing topic page. 
+In Viva Topics, you can edit an existing topic. You might need to do this if you want to correct or add additional information to an existing topic page.
 
-> [!Note] 
-> While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics. 
+> [!NOTE]
+> While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.
 
 ## Requirements to edit a topic
 
 To edit an existing topic, you need to:
-- Have a Viva Topics license.
-- Have permissions to [create or edit topics](./topic-experiences-user-permissions.md). Knowledge admins can give users this permission in the Viva Topics topic permissions settings. 
 
-> [!Note] 
+- Have a Viva Topics license.
+- Have permissions to [create or edit topics](./topic-experiences-user-permissions.md). Knowledge admins can give users this permission in the Viva Topics topic permissions settings.
+
+> [!NOTE]
 > Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.
 
 ## How to edit a topic page
 
-Users who have the *Who can create or edit topics* permission can edit a topic by opening the topic page from a topic highlight, and then selecting the **Edit** button on the top right of the topic page. The topic page can also be opened from the topic center home page where you can find all the topics that you have a connection to.
+You can edit a topic by opening the topic page from a topic highlight, and then selecting the **Edit** button on the top right of the topic page. You can also edit a topic from the Topic Center.
 
-   ![Screenshot showing the Edit button.](../media/knowledge-management/edit-button.png) </br> 
+   ![Screenshot showing the Edit button.](../media/knowledge-management/edit-button.png)
 
 ### To edit a topic page
 
@@ -53,79 +54,63 @@ Users who have the *Who can create or edit topics* permission can edit a topic b
 
    ![Screenshot showing the Edit button on the topic page.](../media/knowledge-management/topic-page-edit.png)  
 
+1. In the **Alternate Names** section, type any other names that the topic might be referred to.
 
-2. In the **Alternate names** section, type any other names that the topic might be referred to. 
+    ![Screenshot of the Alternate names section.](../media/knowledge-management/alt-names.png)  
 
-    ![Screenshot showing the Alternate names section.](../media/knowledge-management/alt-names.png)
+1. In the **Description** section, type a couple of sentences that describe the topic.
 
-3. In the **Description** section, type a couple of sentences that describes the topic. Or if a description already exists, update it if needed.
+    ![Screenshot of the topic description section.](../media/knowledge-management/description.png)
 
-    ![Screenshot showing the Description section.](../media/knowledge-management/description.png)</br>
+1. In the **Pinned people** section, you can "pin" a person to show them as having a connection to the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **add a new user** box, and then select the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card. You can also drag the person to another place in the list.
 
-4. In the **Types** section, select a type that best describes the topic being edited by using the types search bar.
+    ![Screenshot of the Pinned people section.](../media/knowledge-management/pinned-people.png)
 
-    ![Screenshot showing the topic types search bar.](../media/knowledge-management/types-search-bar.png)
+1. In the **Pinned files and pages** section, you can add or "pin" a file or SharePoint site page that is associated to the topic.
 
-    You can confirm a suggested type by selecting the check mark next to the type listed in the **suggested** row. To remove a confirmed type, select the X mark on the type to be removed.
+   ![Screenshot of the pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
 
-    ![Screenshot showing how topic types you can confirm or remove.](../media/knowledge-management/types-confirm.png)
-
-    You can also choose to display a type badge on the topic's page and card based on the type first listed in the **confirmed**.
-
-    ![Screenshot showing the topic type badge.](../media/knowledge-management/types-display-badge.png)
-
-    To change the type badge, drag and drop the type you'd like to see displayed to the first position in the section. Only one topic type badge is available per topic.
-
-    ![Screenshot showing the topic type with drag tooltip.](../media/knowledge-management/types-drag-badge.png)
-
-5. In the **Pinned people** section, you can "pin" a person to show them as having a connection the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **Add a new user** box, and then selecting the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card.
- 
-    ![Screenshot showing the Add pinned people section.](../media/knowledge-management/pinned-people.png)</br>
-
-    The **Suggested people** section shows users that AI thinks might be connected to the topic from their connection to resources about the topic. You can change their status from Suggested to Pinned by selecting the pin icon on the user card.
-
-   ![Screenshot showing pinning suggested people.](../media/knowledge-management/suggested-people.png)
-
-6. In the **Pinned files and pages** section, you can add or "pin" a file, SharePoint site page, or external resource associated to the topic.
-
-   ![Screenshot showing the Pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
- 
     To add a new file, select **Add**, select the SharePoint site from your Frequent or Followed sites, and then select the file from the site's document library.
 
-    You can use the search function in the resource picker to search for a file or page. To use the search, select **Add**. The resource picker will open and you can select the search option to search for a file or page.    
+    You can also use the **From a link** option to add a file or page by providing the URL.
 
-   ![Screenshot showing the search option for a file or page.](../media/knowledge-management/topics-search-resource.png)    
+    > [!NOTE]
+    > Files and pages that you add must be located within the same Microsoft 365 tenant. If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 8.
 
-    You can also use the **From a link** option to add a file, page, or external resource by providing the URL. 
+1. The **Related sites** section shows sites that have information about the topic.
 
-7. The **Suggested files and pages** section shows files and pages that AI suggests to be associated to the topic.
+    ![Screenshot of the related sites section.](../media/knowledge-management/related-sites.png)
 
-   ![Screenshot showing the Suggested files and pages section.](../media/knowledge-management/suggested-files-and-pages.png)
+    You can add a related site by selecting **Add** and then either searching for the site, or selecting it from your list of Frequent or Recent sites.
 
-    You can change a suggested file or page to a pinned file or page by selecting the pinned icon.
+    ![Select site.](../media/knowledge-management/sites.png)
 
-8.  In the **Pinned sites** section, you can add or “pin” a site that is associated to the topic. 
+1. The **Related topics** section shows connections that exist between topics.
 
-    ![Screenshot showing the Pinned sites section.](../media/knowledge-management/pinned-sites-section.png)
+    With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. You can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we don't allow.
 
-    To add a new site, select **Add** and then either search for the site, or select it from your list of Frequent or Recent sites.
-    
-    ![Screenshot showing Add or remove a pinned site section.](../media/knowledge-management/add-or-remove-pinned-sites.png)
+    You can add a connection to a different topic by selecting the Connect to a related topic button, typing the name of the related topic, and selecting it from the search results.
 
-9. The **Suggested sites** section shows the sites that AI suggests to be associated to the topic. 
+    ![Screenshot of topic picker in related topics.](../media/knowledge-management/topic-picker-related.png)
 
-   ![Screenshot of Suggested sites section.](../media/knowledge-management/suggested-sites-section.png)  
+    You can then give a description of how the topics are related. Select **Update**
 
-    You can change a suggested site to a pinned site by selecting the pinned icon.
+    ![Screenshot of relationship description on related topics.](../media/knowledge-management/topics-relationships-related.png)
 
-10. You can also add static items to the page — such as text, images, or links — by selecting the canvas icon, which you can find below the short description. Selecting it will open the SharePoint toolbox from which you can choose the item you want to add to the page.
+    The related topic added will display as a connected topic.
 
-   ![Screenshot showing the Canvas icon.](../media/knowledge-management/webpart-library.png)
+    When a connection between Topic A and Topic B is manually created on Topic Page A, the connection between these topics is represented as a suggested connection (dotted line) on Topic Page B. Representing this as a manual connection on Topic Page B would be equivalent to making a direct change to Topic Page B from Topic Page A, which is not allowed.
 
-11. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.
+    To remove a related topic, select the line segment corresponding to the topic you want to remove, then select the Remove relationship icon.
 
+    ![Screenshot of relationship description on related topics with option to remove relationship.](../media/knowledge-management/topics-related-description.png)
 
+    Dotted lines represent connections suggested by AI. Users can optionally confirm or remove these connections by selecting the line segment between two nodes.
 
+    ![Screenshot of pane to confirm topic relationships.](../media/knowledge-management/topics-relationships.png)
 
+1. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
 
+   ![Screenshot of the available canvas icons.](../media/knowledge-management/webpart-library.png)
 
+1. Select **Publish** or **Republish** to save your changes. **Republish** will be your available option if the topic has been published previously.

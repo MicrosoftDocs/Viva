@@ -18,6 +18,10 @@ audience: Admin
 
 # Sales business continuity
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 You can use the Sales business continuity dashboard uses a Template that’s populated by Viva Insights data to gain insights into how your Sales organization and your sellers are being impacted by the shift to remote work.
 
 This dashboard directionally highlights where the shift to remote work might have the largest impacts, offering a measurable starting point for helping leaders understand where they might use tools and processes to support and sustain new ways of working.
@@ -39,7 +43,7 @@ When the Sales business continuity dashboard is populated with data, you can use
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 To find the template for the Sales business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery).) For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 

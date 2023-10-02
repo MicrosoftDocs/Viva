@@ -1,8 +1,8 @@
 ---
 ms.date: 12/16/2021
 title: Analytics for Microsoft Viva Topics
-ms.author: ruthhollands
-author: ruthholls
+ms.author: daisyfeller
+author: daisyfell
 manager: pamgreen
 ms.reviewer: cjtan
 audience: admin
@@ -10,6 +10,8 @@ ms.topic: article
 ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
+ms.collection:
+  - Tier1
 description: Learn about analytics for Microsoft Viva Topics.
 ---
 
@@ -18,6 +20,7 @@ description: Learn about analytics for Microsoft Viva Topics.
 Insights are available for Viva Topics in the Microsoft 365 admin center. You need to be a SharePoint admin and a Groups admin to see these reports.
 
 To access Viva Topics insights
+
 1. In the Microsoft 365 admin center, expand **Settings** and select **Search & intelligence**.
 1. On the **Insights** tab, select **Viva Topics**.
 
@@ -27,7 +30,7 @@ The **Topics overview** section provides a look at topic visibility in your orga
 
 The information in this section is based on the time period that you select. The changes from the last time period appear next to each metric. If the time period selected is larger than when data was first available, the delta is collected from a starting point of 0.
 
-![Screenshot of analytics for topics visible.](../media/topics-analytics-topics-visible.png) 
+![Screenshot of analytics for topics visible.](../media/topics-analytics-topics-visible.png)
 
 |Measure|Value|
 |:------|:----|
@@ -39,7 +42,7 @@ The information in this section is based on the time period that you select. The
 
 ## File processing for topic discovery
 
-The **File processing for topic discovery** section shows the number of files that have been processed as Viva Topics crawls the [content sources that you selected](/viva/topics/topic-experiences-discovery).
+The **File processing for topic discovery** section shows the number of files that have been processed as Viva Topics crawls the [content sources that you selected](/viva/topics/topic-experiences-discovery#select-sharepoint-topic-sources).
 
 |Measure|Value|
 |:------|:----|
@@ -57,10 +60,8 @@ The **Sites processed for topic discovery** section shows the number of sites th
 
 ![Screenshot of analytics for sites processed.](../media/topics-sites-processed.png)
 
-
 ## See also
 
 [Plan topic experiences](plan-topic-experiences.md)
 
 [Set up topic experiences](set-up-topic-experiences.md)
-

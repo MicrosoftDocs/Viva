@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 description: "Learn how to configure your OKR edit permissions in Viva Goals"
 ---
-# Edit Permissions on an OKR or Initiative 
+# Edit permissions on an OKR or Initiative 
 
 Users with edit access for an OKR or an initiative can now grant multiple users the ability to edit the respective OKR or initiative in Viva Goals. 
 
@@ -35,7 +35,7 @@ Users with edit access for an OKR or an initiative can now grant multiple users 
 
 ## FAQ (Frequently Asked Questions)
 
-1. What kind of permission access does a user need to grant edit access on an OKR or Initiative?
+1. **What kind of permission access does a user need to grant edit access on an OKR or Initiative?**
     1. Any user who has access to edit an OKR or initiative would be able to grant edit access. This includes:
       - OKR owners and all respective managers 
       - OKR creators and all managers 
@@ -47,13 +47,13 @@ Users with edit access for an OKR or an initiative can now grant multiple users 
       - Team admins 
       - Parent Team admins 
 
-1. What is direct access? 
+1. **What is direct access?**
     1. Direct access refers to users who have access to an OKR or Initiative by the permissions designated by their role.  For example, organization and team admins have access to edit all  OKRs that can be viewed by organization members. 
 
-1. By selecting ‘only selected people can view and align’ would organization or team admins be able to edit this OKR?  
+1. **By selecting ‘only selected people can view and align’ would organization or team admins be able to edit this OKR?** 
     1. No, when this option is selected, only the users who are added explicitly would be able to edit that OKR/Initiative. 
     > [!NOTE]
     > For an OKR or initiative that has permission to be set as ‘only selected people can view and align’, OKR owners and delegates would be able to edit that OKR initiative.  Check-in owners for the OKR or initiative would be able to only view the OKR or initiative.
 
-1. Can users who have access to an OKR or initiative due to their permissions or roles be removed? 
+1. **Can users who have access to an OKR or initiative due to their permissions or roles be removed?**
     1. Can users who have access to an OKR or initiative due to their permissions or roles be removed? 

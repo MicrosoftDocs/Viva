@@ -18,6 +18,10 @@ audience: Admin
 
 # Meeting exclusions in Viva Insights
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Microsoft Viva Insights uses email and calendar activities that are stored in a person's Microsoft 365 account to reveal internal and external collaboration trends. However, a person's calendar and email can contain a diverse set of activities (such as personal meetings, work-related social activities, all-day training meetings, and so forth) that are not relevant to work-related collaboration, and, if included in the metrics, would skew query results.
 
 You use meeting exclusion rules to exclude particular types of collaboration data from analysis. This data can be about meetings that were scheduled or about attendee responses to those meetings. See [Select exclusion type](/viva/insights/tutorials/meeting-exclusion-concept?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json#select-exclusion-type).
@@ -32,10 +36,10 @@ Meeting exclusion rules are used in Viva Insights to help ensure that query resu
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889700]
 -->
 
-<iframe src="https://player.vimeo.com/video/434889700" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434889700]
 
 Viva Insights provides a default meeting exclusion rule that excludes a set of meetings that would commonly fall outside of relevant collaboration for analysis. Analysts can also use the meeting exclusion feature to create custom meeting exclusion rules.
 

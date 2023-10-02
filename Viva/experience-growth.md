@@ -11,15 +11,16 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 localization_priority: Priority
-ms.collection:  
-- M365initiative-viva
-- highpri
+ms.collection:
+  - M365initiative-viva
+  - highpri
+  - Tier1
 search.appverid:
 - MET150
 
 description: "Learn how Microsoft Viva supports growth with knowledge and learning tools."
 ---
-# Growth: Viva Learning and Viva Topics
+# Learning and knowledge management: Viva Learning and Viva Topics
 
 If you've ever been a new employee, or an employee changing roles, or even a long-time employee in a large organization, you know that learning is paramount to success. Viva Learning and Viva Topics can provide training and information needed to help employees grow skills and gain knowledge about the organization. Used together, employees won't have to disrupt their everyday flow of work to find the information they need.
 

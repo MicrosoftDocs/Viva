@@ -10,9 +10,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-learning
 search.appverid: MET150
-ms.collection: 
-    - enabler-strategic
-    - m365initiative-viva-learning
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
 localization_priority: medium
 description: An introduction to adding SAP SuccessFactors as a learning content source for Microsoft Viva Learning.
 ---
@@ -33,12 +34,19 @@ Admins need the following permissions:
 
 ## Workflow 
 
-The SAP SuccessFactors integration with Viva Learning involves 4 stages: 
 
-1. Generating PGP Key pairs (private and public) using Kleopatra
-2. Configuring the SuccessFactors portal
-3. Configuring Viva Learning in the Microsoft 365 admin center (MAC)
-4. Enabling features for catalog sync, learner record sync, and catalog permissions
+There are two major integration stages for which admins require specific permissions:
+
+1. Viva Learning Admin Interface:  
+    [Getting access to Viva Learning Admin access](/viva/learning/set-up-viva-learning)
+
+    Admins can manage their Viva Learning content from within the Viva Learning app in Teams. Refer to [Manage content in the admin tab](/viva/learning/use-tabs#managing-providers) for more information.
+
+2. SAP SuccessFactors Learning: 
+
+    Admin should have Learning Administration Access in the SAP SuccessFactors portal.  Learning administrators use the [Learning Administration](https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/5fae31b1299d4033b665edabea7b9087/bd87dbf2b14c4fa29708b739ab40b1e1.html) module to manage the Learning Management System (LMS), including learner profiles, learning content, and learning needs management. 
+
+
 
 ## Dataflow architecture
 
@@ -81,3 +89,7 @@ You can bring programs or learning paths from SAP SuccessFactors into Viva Learn
 If you’re setting up SuccessFactors integration for your tenant for the first time, programs will be automatically ingested along with other content.
 
 If you’ve already integrated SuccessFactors and want to bring in programs, you’ll need to request the SuccessFactors support team to regenerate the full sync package for your tenants. Viva Learning will ingest the programs for your tenant once the package becomes available in your SuccessFactors folder path.
+
+For thumbnail support, images hosted or uploaded in SuccessFactors as part of the "Image" property on items will not be available as part of the SuccessFactors data extract package and hence Viva Learning will not be able to display those images on content. The best practice to get images from SuccessFactors is to provide a publicly accessible URL in "Image URL:" property for content in SuccessFactors, so that users are able to view these images in Viva Learning.
+
+

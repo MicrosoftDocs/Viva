@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for connectedness
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 As a manager, you can help share ideas and expertise across the company. This type of collaboration helps companies stay ahead of the competition by driving organizational efficiency, engagement, and innovation.
 
 Managers who have diverse ties across an organization are typically considered more effective and help their employees build strong networks.

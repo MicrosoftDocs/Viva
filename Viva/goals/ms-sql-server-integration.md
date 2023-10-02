@@ -4,7 +4,7 @@ title: Microsoft SQL Server integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: 
+manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -14,6 +14,7 @@ ms.subservice: viva-goals
 ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
+- vg-integration
 search.appverid:
 - MET150
 description: "Keep track of your OKR progress by automating key updates from your MS SQL server database."

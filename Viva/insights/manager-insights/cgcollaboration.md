@@ -18,6 +18,10 @@ audience: Admin
 
 # Best practices for collaboration across groups
 
+
+>[!Important]
+>This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
+
 Connecting employees across units creates agile innovation by helping the company use benefits of scale, cross-pollinate ideas, and integrate different perspectives.
 
 Employees that collaborate across silos are more aware of other perspectives and are better able to share ideas to foster innovation and inclusion.

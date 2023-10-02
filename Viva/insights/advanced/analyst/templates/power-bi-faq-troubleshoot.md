@@ -99,7 +99,7 @@ However, there are a few template elements that aren't localized:
 
 ### Q5 How do I use Power BI?
 
-See [Power BI documentation](/powerbi) for details on how to use Power BI.
+See [Power BI documentation](/power-bi) for details on how to use Power BI.
 
 ## Troubleshooting
 
@@ -138,3 +138,5 @@ Here's what you can do to resolve it:
 
 * [Introduction to templates](introduction-to-templates.md)
 * [Access query results and modify existing queries](../query-results.md)
+
+
