@@ -29,7 +29,7 @@ Energize your workforce by creating spaces for conversations, company news, and 
 
 Viva Amplify empowers organizational communication teams and leaders to elevate their message and energize their people. The app centralizes communication processes in a single space and offers writing guidance to help messages from every part of the organization, including leaders, corporate communications, and HR, resonate with employees. Communicators can then publish to multiple channels simultaneously, manage their campaigns from a central hub, and study resulting metrics to better plan future communications.
 
-With Viva Amplify you get one place for campaign management, authoring and publishing, approvals, and scheduling.
+With Viva Amplify you get one place for campaign management, authoring and publishing, approvals, scheduling, and reporting and analytics.
 
 ![Amplify example](/Viva/media/amplify-home.png)
 
