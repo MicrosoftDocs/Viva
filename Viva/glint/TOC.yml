@@ -1,4 +1,3 @@
----
 items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
@@ -35,6 +34,8 @@ items:
                 href: setup/add-privacy-policy.md
               - name: Advanced privacy guide for data usage and survey item creation
                 href: setup/gdpr-special-categories.md
+              - name: Why Viva Glint surveys are confidential but not confidential
+                href: setup/anonymous-confidential.md
               - name: How Viva Glint helps you protect your privacy
                 href: setup/viva-glint-survey-privacy.md
               - name: Access to Viva Glint raw survey responses
