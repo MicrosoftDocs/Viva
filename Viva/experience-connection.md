@@ -31,9 +31,9 @@ Viva Amplify empowers organizational communication teams and leaders to elevate 
 
 With Viva Amplify you get one place for campaign management, authoring and publishing, approvals, scheduling, and reporting and analytics.
 
-![Amplify example](/Viva/media/amplify-home.png)
+![Amplify example](media/amplify/amplify-home.png)
 
-[Learn more about Viva Amplify](/Viva/amplify/overview-viva-amplify.md)
+[Learn more about Viva Amplify](/viva/amplify/overview-viva-amplify.md)
 
 ## Viva Connections
 
