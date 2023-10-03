@@ -22,7 +22,7 @@ description: Learn about privacy, security, and data storage in Microsoft Viva A
 # Privacy and security in Microsoft Viva Amplify
 
 >[!NOTE]
->Viva Amplify is currently in private preview. General availability is coming soon.
+>Viva Amplify is currently rolling out. General availability is coming soon.
 
 Microsoft Viva Amplify follows standard Microsoft 365 privacy and security protocols. If your organization is using SharePoint, Amplify will use the same privacy and security standards.
 

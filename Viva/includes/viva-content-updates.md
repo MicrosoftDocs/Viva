@@ -2,6 +2,50 @@
 
 
 
+## Week of September 25, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 9/25/2023 | [Download Learner Completion Records](/viva/learning/learner-completion-records) | added |
+| 9/26/2023 | [Set up the in-app Viva Pulse experience](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience) | modified |
+| 9/26/2023 | [Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API](/viva/engage/track-engage-events) | modified |
+| 9/26/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
+| 9/27/2023 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
+| 9/27/2023 | [Diversity & Inclusion survey programs in Viva Glint](/viva/glint/setup/diversity-inclusion) | added |
+| 9/27/2023 | [Export a Viva Glint Distribution List](/viva/glint/setup/export-distribution-lists) | modified |
+| 9/27/2023 | [Create and edit teams and subteams](/viva/goals/create-and-edit-teams-and-subteams) | modified |
+| 9/27/2023 | [Jira Server and Data Center Integration for Viva Goals ](/viva/goals/jira-on-prem-integration) | modified |
+| 9/27/2023 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
+| 9/27/2023 | [Edit an existing topic in Microsoft Viva Topics](/viva/topics/edit-a-topic) | modified |
+| 9/28/2023 | [Manage and set up campaigns in Microsoft Viva Engage](/viva/engage/campaigns) | modified |
+| 9/28/2023 | [Manage admin roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
+| 9/28/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
+| 9/28/2023 | [Create your Viva Glint Employee Attribute Template](/viva/glint/setup/create-employee-attribute-template) | modified |
+| 9/28/2023 | [Set up attributes in Viva Glint](/viva/glint/setup/send-employee-attributes) | modified |
+| 9/28/2023 | [Build Viva Connections for your organization](/viva/connections/build-viva-connections) | modified |
+| 9/28/2023 | [Add, edit, and remove cards from the Viva Connections dashboard ](/viva/connections/create-dashboard) | modified |
+| 9/28/2023 | [Create a Viva Connections dashboard in more than one language](/viva/connections/create-multilingual-dashboard) | modified |
+| 9/28/2023 | [Create a SharePoint home site for Viva Connections](/viva/connections/create-sharepoint-home-site-for-viva-connections) | modified |
+| 9/28/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 9/28/2023 | [Plan, build, and launch a home site for your organization](/viva/connections/home-site-plan) | modified |
+| 9/28/2023 | [Overview of Viva Connections for Education](/viva/connections/overview-viva-connections-education) | modified |
+| 9/28/2023 | [Plan Viva Connections for your organization](/viva/connections/plan-viva-connections) | modified |
+| 9/28/2023 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
+| 9/28/2023 | [Set up global navigation in the SharePoint app bar](/viva/connections/sharepoint-app-bar) | modified |
+| 9/28/2023 | [Use audience targeting in Viva Connections to personalize the experience](/viva/connections/use-audience-targeting-in-viva-connections) | modified |
+| 9/28/2023 | [Use the Viva Connections Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site) | modified |
+| 9/28/2023 | [Use the Web link card to integrate content into Viva Connections](/viva/connections/use-the-link-card) | modified |
+| 9/28/2023 | [Viva Connections analytics](/viva/connections/viva-connections-analytics) | modified |
+| 9/28/2023 | [Set up the Viva Connections experience in a specific language](/viva/connections/viva-connections-language) | modified |
+| 9/28/2023 | [Overview of how to plan, build, and launch Viva Connections](/viva/connections/viva-connections-setup-overview) | modified |
+| 9/29/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 9/29/2023 | [Introduction to Microsoft Viva Glint](/viva/glint/introduction-viva-glint) | modified |
+| 9/29/2023 | [Use Viva Glint to act on Strengths and Opportunities](/viva/glint/reports/act-strengths-opportunities) | modified |
+| 9/29/2023 | [Use the Viva Glint Driver Impact report](/viva/glint/reports/driver-impact-report) | modified |
+| 9/29/2023 | [Set up your Viva Glint instance](/viva/glint/setup/post-provisioning-next-steps) | modified |
+
+
 ## Week of September 18, 2023
 
 
@@ -83,30 +127,3 @@
 | 8/30/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
 | 8/31/2023 | [Customize Viva Insights privacy settings](/viva/insights/advanced/setup-maint/privacy-settings) | modified |
 | 9/1/2023 | [Manage your Allowed List for Viva Glint](/viva/glint/setup/allowed-list) | modified |
-
-
-## Week of August 21, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/21/2023 | [Use eDiscovery for Viva Engage content](/viva/engage/ediscovery-engage) | added |
-| 8/21/2023 | [Explorer](/viva/goals/explorer) | modified |
-| 8/21/2023 | [Cross-collaboration: person-to-person query](/viva/insights/advanced/analyst/cross-collaboration-p2p) | modified |
-| 8/21/2023 | [Person query](/viva/insights/advanced/analyst/person-query) | modified |
-| 8/21/2023 | Improve your work patterns | removed |
-| 8/21/2023 | [Feature Access Management](/viva/learning/feature-access-management) | added |
-| 8/21/2023 | [Viva Glint’s position on expected response rates](/viva/glint/reports/expected-response-rates) | modified |
-| 8/21/2023 | [Viva Glint employee attribute fundamentals](/viva/glint/setup/attribute-fundamentals) | modified |
-| 8/21/2023 | [Add the Viva Topics app in the Teams Admin Center](/viva/topics/add-topics-app) | modified |
-| 8/22/2023 | [Usage and engagement metrics in Viva Topics](/viva/topics/topics-engagement-metrics) | added |
-| 8/22/2023 | [Manage Interests in Viva Learning](/viva/learning/interests) | modified |
-| 8/22/2023 | [Manage and set up storyline in Viva Engage](/viva/engage/eac-storyline) | modified |
-| 8/23/2023 | [Merge topics in Microsoft Viva Topics](/viva/topics/merge-topics) | added |
-| 8/24/2023 | [Send your Employee Attribute File to Viva Glint](/viva/glint/setup/send-employee-attributes) | added |
-| 8/24/2023 | Create your Employee Attribute File for Viva Glint | removed |
-| 8/24/2023 | Set up attributes in Viva Glint | removed |
-| 8/24/2023 | [Manage Viva Engage users across their lifecycle from Office 365](/viva/engage/manage-viva-engage-users/manage-users-across-their-lifecycle) | modified |
-| 8/24/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
-| 8/25/2023 | [Wellbeing - balance and flexibility report](/viva/insights/advanced/analyst/templates/wellbeing) | modified |
-| 8/25/2023 | [Usage and engagement metrics in Viva Topics](/viva/topics/topics-engagement-metrics) | modified |

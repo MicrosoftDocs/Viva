@@ -1,9 +1,9 @@
 ---
 title: Use Viva Glint to act on Strengths and Opportunities
 description: The Strengths & Opportunities report is designed so a manager can focus on opportunities first - the items with the highest engagement impact – while incorporating a team's strengths.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -24,6 +24,17 @@ The Strengths & Opportunities (S&0) report is designed so a manager can focus on
 
 - Selecting the **Take Action** button.
 - Selecting the **vertical ellipses** in the Strengths or the Opportunities column and selecting **Take Action**.
+
+## Watch these videos
+
+**Lean into your strengths with Microsoft Viva Glint** (2:30)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
+
+**How to think about your opportunities with Microsoft Viva Glint** (3:00)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
+
 
 ## Why does my screen indicate *View Focus Area* rather than *Take Action*?
 

@@ -34,7 +34,7 @@ description: "Plan Microsoft Viva Connections for your organization"
 
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's employee experience strategy. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
 
-Tasks below marked with an asterisk (*) are optional, or may only apply to customers who will use home sites to complement the Viva Connections experience.
+Tasks below marked with an asterisk (*) are optional, or may only apply to customers who will use SharePoint home sites to complement the Viva Connections experience.
 
 ## Step 1: Plan for Viva Connections
 
@@ -55,29 +55,29 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 
 ## Step 2: Consider using a SharePoint home site to complement the experience* (optional)
 
-A Viva Connections experience doesn’t require a [SharePoint home site](home-site-plan.md) (a communication site that has special capabilities) to be created, but providing one can complement the employee experience. A home site acts as the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. [Some organizations will use a home site to complement the Viva Connections experience](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) and extend the experience to the web. Follow the steps below if your organization wants to use a home site in addition to Viva Connections. A home site can be added at any time.
+A Viva Connections experience doesn’t require a [SharePoint home site](home-site-plan.md) (a communication site that has special capabilities) to be created, but providing one can complement the employee experience. A SharePoint home site acts as the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. [Some organizations will use a SharePoint home site to complement the Viva Connections experience](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together) and extend the experience to the web. Follow the steps below if your organization wants to use a SharePoint home site in addition to Viva Connections. A SharePoint home site can be added at any time.
 
 >
 | Requirement    | Description                 |
 | :------------------- | :------------------- |
-| Create a home site* (optional)  | A [home site](/sharepoint/home-site-plan) is a SharePoint communication site that acts as the front door to your organization’s intranet. They have extra capabilities such as the ability to prioritize news posted from the home site across the rest of the intranet. Once a home site is set, the news posted from that site will be prioritized across the intranet. Home sites are set in the Microsoft Admin Center when you create a new Viva Connections experience. To add a home site, choose the option to build off an existing intranet portal. <br><br> Learn more about how to think about [planning navigation on your home site](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916) in combination with hub and global navigation. Then, get started [creating a home site](/sharepoint/home-site-plan). |
-| Set up global navigation* (home site users only) |Once your home site is set up, you can enable and customize global navigation in the SharePoint app bar. In the Viva Connections desktop app, resources in the global navigation panel will display when the Viva Connections icon is selected in Teams and in the resources section. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). |
+| Create a SharePoint home site* (optional)  | A [SharePoint home site](/sharepoint/home-site-plan) is a SharePoint communication site that acts as the front door to your organization’s intranet. They have extra capabilities such as the ability to prioritize news posted from the SharePoint home site across the rest of the intranet. Once a SharePoint home site is set, the news posted from that site will be prioritized across the intranet. SharePoint home sites are set in the Microsoft Admin Center when you create a new Viva Connections experience. To add a SharePoint home site, choose the option to build off an existing intranet portal. <br><br> Learn more about how to think about [planning navigation on your SharePoint home site](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/best-practices-for-using-global-navigation-in-the-sharepoint-app/ba-p/2361916) in combination with hub and global navigation. Then, get started [creating a SharePoint home site](/sharepoint/home-site-plan). |
+| Set up global navigation* (SharePoint home site users only) |Once your SharePoint home site is set up, you can enable and customize global navigation in the SharePoint app bar. In the Viva Connections desktop app, resources in the global navigation panel will display when the Viva Connections icon is selected in Teams and in the resources section. In the Viva Connections mobile app, resources in the global navigation will display in the “Resources” tab. <br><br> Learn more about how to [enable and customize global navigation](/sharepoint/sharepoint-app-bar). |
 | Audit, prioritize, and modernize sites* (optional) | After you've identified the key scenarios for Viva Connections, you’ll need to identify content or sites that should be modernized if you're still using classic sites and pages. Not all content or classic SharePoint sites need to be modernized to take advantage of Viva Connections. Focus on the priority use cases that will need to be included in your organization’s instance of Viva Connections. <br><br> Learn more about [how to modernize content](/sharepoint/dev/transform/modernize-classic-sites#:~:text=Modernize%20your%20classic%20SharePoint%20sites%201%20Enable%20your,site%20transformation%20is%20transforming%20your%20site%20pages.%20) and [healthy portal guidance for high-traffic sites](/sharepoint/portal-health)|
 >
 
-### Create a home site for your organization* (optional)
+### Create a SharePoint home site for your organization* (optional)
 
-A home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app.
+A SharePoint home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your SharePoint home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app.
 
    ![Image of Viva Connections desktop.](../media/connections/viva-connections-desktop.png)
 
-Start small by identifying a handful of resources and functions that the home site can serve. Consider using a [customizable site template from the SharePoint look book called The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to quickly get your home site up and running. Optionally, turn your home site into a [SharePoint hub site](/sharepoint/planning-hub-sites) to add an extra layer of navigation and increase the search scope.
+Start small by identifying a handful of resources and functions that the SharePoint home site can serve. Consider using a [customizable site template from the SharePoint look book called The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to quickly get your SharePoint home site up and running. Optionally, turn your SharePoint home site into a [SharePoint hub site](/sharepoint/planning-hub-sites) to add an extra layer of navigation and increase the search scope.
 
-Learn more about [how to plan your home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health).
+Learn more about [how to plan your SharePoint home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health).
 
 ### Set up global navigation in the SharePoint app bar* (optional)
 
-Next, from the home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
+Next, from the SharePoint home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the SharePoint home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
    ![Animation of the global app bar in SharePoint.](../media/connections/app-bar-gif.GIF)
 
@@ -193,7 +193,7 @@ Technically, you do not need to do anything to set up the feed because content w
 
 The feed is designed to be dynamic, personalized, and a place where the most relevant news and announcements can be consumed. The feed relies on a constant flow of new content and the best experience contains a balance of organizational news, organic content, and curated content.
 
-- Publish SharePoint news from [official organizational news sources](/sharepoint/organization-news-site#:~:text=Use%20Microsoft%20PowerShell%20to%20specify%20a%20site%20as,organization%20news%20site%3A%20PowerShell%20Set-SPOOrgNewsSite%20-OrgNewsSiteUrl%20%3Csite%20URL%3E) like the [home site](/viva/connections/home-site-plan)
+- Publish SharePoint news from [official organizational news sources](/sharepoint/organization-news-site#:~:text=Use%20Microsoft%20PowerShell%20to%20specify%20a%20site%20as,organization%20news%20site%3A%20PowerShell%20Set-SPOOrgNewsSite%20-OrgNewsSiteUrl%20%3Csite%20URL%3E) like the [SharePoint home site](/viva/connections/home-site-plan)
 - [Use news boost to elevate the most important news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83#:~:text=1%20On%20your%20organization%20news%20site%2C%20open%20the,post%20to%20stop%20being%20boosted.%20More%20items...%20) posts on organizational news sites to surface news posts to the top of the feed
 - [Post news as a video news links](/viva/connections/video-news-links) hosted by stream to share updates, rebroadcast an all-hands meeting, or provide reusable training materials
 - Highlight community discussions by [featuring posts in Viva Engage](/viva/engage/manage-viva-engage-groups/all-company-community) that you’d like seen by the entire organization
@@ -208,18 +208,18 @@ The feed is designed to be dynamic, personalized, and a place where the most rel
 
 ## Step 5: Plan the resources
 
-Resources are the navigational links to portals and other popular destination. Resources should be the most important and popular portals for your target audience and can be targeted to specific audiences. While preparing your Viva Connections, know that these resources will display from the SharePoint app bar (if your organization has a home site) and in the Teams app bar when Viva Connections is set up.
+Resources are the navigational links to portals and other popular destination. Resources should be the most important and popular portals for your target audience and can be targeted to specific audiences. While preparing your Viva Connections, know that these resources will display from the SharePoint app bar (if your organization has a SharePoint home site) and in the Teams app bar when Viva Connections is set up.
 
 >
 | Desktop             | Mobile                 |
 | ------------------ | ------------------ |
 | ![Image of global navigation in the desktop app.](../media/connections/vc-resources-new-small.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)|
 >
-For organizations with home sites, consider how links in the global navigation will complement resources highlighted on the home site. Depending on the content you want to make available in the global navigation, you can [design your home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
+For organizations with SharePoint home sites, consider how links in the global navigation will complement resources highlighted on the SharePoint home site. Depending on the content you want to make available in the global navigation, you can [design your SharePoint home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
 
 ### Content for planning Resources
 
-- Set up for the first time, or [customize navigational links in the global navigation](/viva/connections/sharepoint-app-bar) from the home site
+- Set up for the first time, or [customize navigational links in the global navigation](/viva/connections/sharepoint-app-bar) from the SharePoint home site
 - Get more guidance on how to [design navigation in SharePoint](/sharepoint/information-architecture-modern-experience)
 
 ## Step 6: Create an adoption plan
@@ -257,7 +257,7 @@ Learn more about adoption, best practices, and get communication templates in th
 
 Part of the planning process includes determining which metrics will be used to measure how effective Viva Connections is in bringing your organization together and keeping specific audiences informed. Start by considering the tasks and tools that the dashboard will offer. For example, if you create a card that links to your human resources SharePoint site or a specific page, you should expect to see more traffic and engagement for that site in usage reports.
 
-> ![NOTE]
+> [!NOTE]
 >
 > The analytics feature is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
@@ -276,4 +276,4 @@ Generally, Viva Connections needs minimal ongoing maintenance once it's set up. 
 
 ## Next, build and customize Viva Connections for your organization
 
-After you meet requirements (for customers who want a home site), have a plan for the dashboard, and are prepared to help users adopt Viva Connections, it's time to [move on to the build phase](build-viva-connections.md).
+After you meet requirements (for customers who want a SharePoint home site), have a plan for the dashboard, and are prepared to help users adopt Viva Connections, it's time to [move on to the build phase](build-viva-connections.md).
