@@ -33,7 +33,7 @@ With Viva Amplify you get one place for campaign management, authoring and publi
 
 :::image type="content" source="media/amplify/amplify-home.png" alt-text="Screenshot that shows Viva Amplify." lightbox="media/amplify/amplify-home.png":::
 
-[Learn more about Viva Amplify](/viva/amplify/overview-viva-amplify)
+[Learn more about Viva Amplify](/Viva/amplify/overview-viva-amplify)
 
 ## Viva Connections
 
