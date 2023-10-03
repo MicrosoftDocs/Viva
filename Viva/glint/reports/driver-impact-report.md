@@ -1,9 +1,9 @@
 ---
 title: Use the Viva Glint Driver Impact report
-description: An engagement driver – a key driver - is a factor that directly correlate to an organization's employees' happiness at work. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+description: An engagement driver—a key driver—is a factor that directly correlates to an organization's employees' happiness at work. 
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: driver impact report
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
@@ -26,6 +26,18 @@ Drivers are the factors that affect employee engagement; a driver's *impact* is 
 There can be a significant difference in how important a specific driver of engagement is to one team compared to another team, or to the rest of the company. For example, the engineering team's engagement level may be highly impacted by a lack of career growth opportunities, whereas the finance team may have been overworked this quarter and thus work-life balance impacts them the most. Key drivers vary within organizations and populations.
 
 ## Strengths and Opportunities are derived from the Driver Impact report
+
+### Watch these videos for a quick and comprehensive summary of strengths and opportunities
+
+**Lean into your strengths with Microsoft Viva Glint** (2:30)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW132G0]
+
+
+**How to think about your opportunities with Microsoft Viva Glint** (3:00)
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW12ULW]
+
 
 The algorithm used to identify Strengths & Opportunities (S&O) is composed of question/item scores, impact on engagement, and relativity of the score to a comparison point. This comparison could be internal company scores, an external benchmark, or the score for the average question for that survey.
 
@@ -48,9 +60,9 @@ When a user navigates to the Driver Impact report, the first view is in graph fo
 
 The graph plots each driver's impact on the x-axis and the selected comparison on the y-axis. The comparison can include:
 
-- An internal comparison such as the overall company,
-- An external benchmark, or
-- The average question score for the survey
+- An internal comparison such as the overall company.
+- An external benchmark.
+- The average question score for the survey.
 
 Items on the right side of the graph have a high statistical correlation with the selected outcome (typically engagement or eSat) across all the respondents in a group. Often a person will rate a driver and its corresponding outcome the same. For this reason, acting on those items likely has the biggest impact on engagement (or the selected outcome).
 
@@ -88,7 +100,7 @@ Reference **Reports Filtering** for detailed information.
 
 ## Strengths & Opportunities can be added to the Executive Summary report
 
-The view provides a ranked list of both strengths - areas to celebrate - and opportunities - areas to focus on for improvement.
+The view provides a ranked list of both strengths—areas to celebrate—and opportunities—areas to focus on for improvement.
 
 >[!TIP]
 > For admins, the first look at S&O should be versus *Benchmark* to understand which areas should be focused on to improve your organization's competitive advantage in attracting and retaining talent. Only items with a benchmark are part of this view.

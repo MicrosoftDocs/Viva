@@ -1,9 +1,9 @@
 ---
-title: Create your Employee Attribute Template in Viva Glint
+title: Create your Viva Glint Employee Attribute Template
 description: Learn how Viva Glint uses the attributes and hierarchies you provide about the people in your organization to surface meaningful and actionable insights. The template is the row of column headers; all the data you will provide.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: HRIS planning tool, upload data, data file, header row, required attributes, custom attributes
@@ -14,17 +14,20 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 03/24/2023
 ---
 
-# Create your Employee Attribute Template in Viva Glint
+# Create your Viva Glint Employee Attribute Template
 
-The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Microsoft Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting and role reporting.
-
-Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
+The Employee Attribute Template is a guide and planning tool used to document your organization’s file format and attribute selections, before uploading your employee data to the Microsoft Viva Glint system. This essential step helps our team to know which attributes to expect so your data can be structured and surfaced correctly in reporting.
 
 Ensure that attribute labels that you set up initially stay consistent over time in the Employee Data Files transferred to Viva Glint. For example, if an attribute is set up as “*Employee ID*,” it can't later be recognized as the same column renamed as “Employee Number.”
+
+>[!NOTE]
+>Use our template as guidance to ensure that data is uploaded in the correct format, incorporating our recommendations and requirements.
+>
+>To get started on your organization's employee attribute file planning, download the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to your device.
 
 ## Why is creating an employee data template important? 
 
@@ -47,7 +50,7 @@ The following extensions are supported for files exported by your HRIS system:
 - .csv for files with a comma delimiter and UTF-8 encoding
 - .xlsx for files in Microsoft Excel format with a single tab of data
 
-The first page of the template contains instructions for building your own template. Follow the guidance on the instruction page, the following tabs, and in the following table  to set up your template.
+The first page of the template contains instructions for building your own template. Follow the guidance on the instruction page, the following tabs, and in the following table to set up your template.
 
 >[!TIP]
 >Your template is only the column headers. No employee data is needed at this point.
@@ -59,7 +62,7 @@ The first page of the template contains instructions for building your own templ
 | **Employee Attribute Template** | XLSX guidance for creating your organization’s file format and data selections, before setting up attributes in our platform. |
 | **Attribute** | Demographic details about employees. They're also referred to as filters in the platform. |
 | **Attribute Header Row** | The blueprint of the Employee Attribute Template. It dictates the columns of information and the name labels for the columns. |
-| **Required Attribute** | Information about each employee in your organization that Viva Glint requires to be part of your Employee Attribute Template status, such as:<li>Status: ACTIVE or INACTIVE <li>First name <li>Last name <li>Email address <li>Employee ID |
+| **Required Attribute** | Information about each employee in your organization that Viva Glint requires to be part of your Employee Attribute Template:<li>Status: ACTIVE or INACTIVE <li>First name <li>Last name <li>Email address <li>Employee ID |
 | **Custom Attribute** | Any employee information collected in addition to the required attributes. <br>Up to 100 custom attributes can be collected. Examples: birth year, hire date, gender, work location, department. <br><p>Viva Glint is GDPR compliant and prohibits the processing of any employee information classified as sensitive. No attributes classified as sensitive can be incorporated into an Employee Attribute Template. |
 | **Flat Attribute** | A category that can't be broken down further, such as age group or gender. |
 | **Functional Attribute** | A value that indicates how and when communications are sent to an employee, such as language and time zone. |
@@ -67,12 +70,8 @@ The first page of the template contains instructions for building your own templ
 | **Derivation** | Other fields configured based on employee attributes. <p>Examples: Age groups can be derived from birth year or tenure can be derived from hire date. |
 | **Schema** | The framework in our platform’s backend, which stores a mapping of your organization’s attributes. |
 
-### Instructions to upload your Employee Attribute Template
+## Next steps with your Employee Attribute Template
 
-You'll receive an email confirming that Viva Glint is ready to receive your data in the template that has been prepared for you in our backend.
+After finalizing your attribute selections, reporting hierarchies, file and date attribute format, use the guidance here to set up attributes: [Setup attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991).
 
-Once your header row (Employee Data Template) is complete, move on to Create your Employee Attribute File.
 
-## Related topics
-
-- [Upload your employee attributes](upload-employee-attributes.md)

@@ -1,9 +1,9 @@
 ---
 title: Set up and use Distribution Lists in Viva Glint
 description: "Distribution lists define which employees within an organization should receive a survey."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: mbarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
@@ -115,3 +115,29 @@ After confirming you have the list you want, select  **Save Changes**.
 ## Understand why frequency of updating your Employee Attribute File matters 
 
 The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
+
+> [!TIP]
+> Consider using the blended membership functionality, explained below.
+
+## Use the blended membership Distribution List functionality
+
+Dynamic attributes automatically add and remove users to and from a distribution list. They can also include or exclude certain users from a list. Knowing how your distribution list has been populated helps you make decisions about how to add users.
+
+### View how a Distribution List was populated
+
+From the Distribution Lists page, the far-right column entitled **Membership Type** defines if the list in that row has been populated manually, by attribute rules, or both.
+
+> [!Note]
+> If a distribution list is populated by an Import, it will have the membership type "manual".
+
+## Use the dynamic Distribution Lists functionality
+Your decision whether to use manual population or attribute rule population should be guided by these principles:
+
+<ul><li>If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports (i.e. Rubicon) will automatically update the Distribution List.</li>
+ <li>If the Distribution List began manually, adding attribute rules will change the list to include both Attribute Rules and Manual.</li>
+<li>If a manually added member is deleted and they match the filter criteria, they'll still appear in the Distribution List, but the Added by method will change from Manual to Attribute Rules.</li></ul>
+
+> [!IMPORTANT]
+> Importing users to an Attribute Rules Distribution List removes existing rules.
+>  <ul><li>Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
+>  <li> Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. </li><ul>

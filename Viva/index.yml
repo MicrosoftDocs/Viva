@@ -17,6 +17,7 @@ metadata:
   ms.custom: intro-hub-or-landing
   ms.collection:
     - Tier1
+    - essentials-hub-or-landing
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:
@@ -43,6 +44,12 @@ highlightedContent:
 tools:
   title: Get started with Microsoft Viva
   items:
+
+# Card
+    - title: Microsoft Viva Amplify
+      imageSrc: media/logos/amplify-c-64.svg
+      url: /viva/amplify/overview-viva-amplify
+      
     # Card
     - title: Microsoft Viva Connections
       imageSrc: media/logos/connections-launch-c-64.svg
@@ -90,22 +97,22 @@ tools:
 additionalContent:
   # Supports up to 4 subsections
   sections:
-    - title: Enhance the employee experience in your organization # < 60 chars (optional)
+    - title: Create an engaged and productive workforce # < 60 chars (optional)
       items:
         # Card
-        - title: Connection
-          summary: Keep everyone informed, included, and inspired with Viva Connections and Viva Engage. 
+        - title: Employee communications and communities
+          summary: Modernize how you communicate and engage with employees with Viva Connections and Viva Amplify. 
           url: /viva/experience-connection
-        - title: Insight
-          summary: Improve productivity and wellbeing with actionable insights.
+        - title: Microsoft Viva workplace analytics and employee feedback
+          summary: Transform employee feedback and insights into impact with Viva Insights, Viva Glint, and Viva Pulse.
           url: /viva/experience-insight
         # Card
-        - title: Purpose
-          summary: Align people's work to team and organization goals with Viva Goals.
+        - title: Goal setting and management
+          summary: Align people’s work to team and organizational goals with Viva Goals.
           url: /viva/experience-purpose
         # Card
-        - title: Growth
-          summary: Help employees learn, grow, and succeed with Viva Learning and Viva Topics.
+        - title: Learning and knowledge management
+          summary: Help your workforce learn, grow, and succeed with Viva Learning and Viva Topics.
           url: /viva/experience-growth
     - title: Key resources  # < 60 chars (optional)
       items:
@@ -165,8 +172,6 @@ additionalContent:
         # Card
         - title: Solutions for your business
           links:
-            - text: Get started with Microsoft Viva
-              url: /viva/getting-started-with-microsoft-viva?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
             - text: Use Microsoft Viva in the hybrid workplace
               url: /viva/solutions/viva-for-the-hybrid-workplace
             - text: Run a healthy OKR program with Viva Goals

@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 09/27/2023
 title: Create a new topic in Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -49,25 +49,23 @@ You can create a new topic from two locations:
 
 ### To create a new topic
 
-1. Select the option to create a new Topic Page from the ribbon on the **Manage topics** page.
+1. Select the option to create a new Topic Page from either your Topic Center home or Manage Topics page.
 
-2. In the **Name this topic** section, type the name of the new topic.
+1. In the **Name** section, type the name of the new topic.
 
-    ![Screenshot of the Name this topic section.](../media/knowledge-management/k-new-topic-page.png)  
+1. Choose a language for your topic, then choose **Next**.
 
-3. In the **Alternate Names** section, type any other names that the topic might be referred to.
+1. In the **Alternate Names** section, type any other names that the topic might be referred to.
 
-    ![Screenshot of the Alternate names section.](../media/knowledge-management/alt-names.png)  
+1. In the **Description** section, type a couple of sentences that describe the topic.
 
-4. In the **Description** section, type a couple of sentences that describe the topic.
+1. Choose a type for your topic from the **Types** list.
 
-    ![Screenshot of the topic description section.](../media/knowledge-management/description.png)
-
-5. In the **Pinned people** section, you can "pin" a person to show them as having a connection to the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **add a new user** box, and then select the user you want to add from the search results. You can also "unpin" them by selecting the **Remove from list** icon on the user card. You can also drag the person to another place in the list.
+1. In the **Confirmed people** section, you can confirm a person to show them as having a connection to the topic (for example, an owner of a connected resource). Begin by typing their name or email address in the **Name or email address** box, and then select the user you want to add from the search results. You can also remove them by selecting the **Remove** icon on the user card. You can also drag the person to another place in the list.
 
     ![Screenshot of the Pinned people section.](../media/knowledge-management/pinned-people.png)
 
-6. In the **Pinned files and pages** section, you can add or "pin" a file or SharePoint site page that is associated to the topic.
+1. In the **Pinned files and pages** section, you can add a file or SharePoint site page that is associated to the topic.
 
    ![Screenshot of the pinned files and pages section.](../media/knowledge-management/pinned-files-and-pages.png)
 
@@ -78,17 +76,15 @@ You can create a new topic from two locations:
     > [!NOTE]
     > Files and pages that you add must be located within the same Microsoft 365 tenant. If you want to add a link to an external resource in the topic, you can add it through the canvas icon in step 8.
 
-7. The **Related sites** section shows sites that have information about the topic.
+1. The **Pinned sites** section shows sites that have information about the topic.
 
-    ![Screenshot of the related sites section.](../media/knowledge-management/related-sites.png)
-
-    You can add a related site by selecting **Add** and then either searching for the site, or selecting it from your list of Frequent or Recent sites.
+    You can pin site by selecting **Add** and then either searching for the site, or selecting it from your list of Frequent or Recent sites.
 
     ![Select site.](../media/knowledge-management/sites.png)
 
-8. The **Related topics** section shows connections that exist between topics.
+1. The **Related topics** section shows which topics are connected.
 
-    With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. You can only add or modify first-degree connections because modifying a second-degree connection would be tantamount to directly editing a different topic page, which we don't allow.
+    With the topic page in edit mode, you can add, edit, or remove connections in the Related Topics web part. You can only add or modify first-degree connections because modifying a second-degree connection would directly edit a different topic page.
 
     You can add a connection to a different topic by selecting the Connect to a related topic button, typing the name of the related topic, and selecting it from the search results.
 
@@ -110,10 +106,10 @@ You can create a new topic from two locations:
 
     ![Screenshot of pane to confirm topic relationships.](../media/knowledge-management/topics-relationships.png)
 
-9. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
+1. You can also add static items to the page (such as text, images, or links) by selecting the canvas icon, which you can find below the short description. Selecting it opens the SharePoint toolbox from which you can choose the item you want to add to the page.
 
-   ![Screenshot of the available canvas icons.](../media/knowledge-management/webpart-library.png) 
+   ![Screenshot of the icon to add a new section.](../media/knowledge-management/webpart-library.png)
 
-10. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
-After you publish the page, the topic name, alternate name, description, and pinned people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Microsoft 365 permissions to the item.
+After you publish the page, the topic name, alternate name, description, and confirmed people will display to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Microsoft 365 permissions to the item.
