@@ -128,3 +128,11 @@ If the desired Azure Data Explorer Integration connection is not already establi
 
 4. Upon successful authentication, you'll be returned to the integration setup dialog, where you'll provide your database and KQL query as outlined above. 
 
+## FAQ (Frequently asked questions)
+
+1. **How do I fix sync issues?**
+    1. Sync issues could occur due to multiple reasons:
+        1. The device you used to create the connection(s) is not compliant anymore.
+        1. When you reset your Kusto password, the existing authentications go invalid automatically.
+        1. The user who created the connection(s) is not part of AAD anymore.
+    1. You can quickly fix these by reauthenticating the connection from **Account > Preferences > My Integrations >** click on**Manage against Kusto > Reauthenticate.**
