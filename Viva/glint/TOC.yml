@@ -143,7 +143,7 @@ items:
               - name: Quarterly Engagement Survey template
                 href: setup/quarterly-engagement-template.md
               - name: Diversity & Inclusion survey programs in Viva Glint
-                href: diversity-inclusion.md
+                href: setup/diversity-inclusion.md
               - name: Set up a Viva Glint Team Effectiveness survey
                 href: setup/team-effectiveness-survey.md
               - name: Set up a Manager Effectiveness survey
@@ -156,9 +156,9 @@ items:
               - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
                 href: setup/program-summary-setup-lifecycle.md
               - name: Preview and filter Employee Lifecycle programs
-                href: preview-filter-lifecycle-programs.md
+                href: setup/preview-filter-lifecycle-programs.md
               - name: Preview, manage, and enable Viva Glint surveys and dashboards
-                href: preview-manage-enable-engage-programs.md
+                href: setup/preview-manage-enable-engage-programs.md
           - name: Reports
             items:
               - name: Create Viva Glint Onboarding and Exit survey programs
