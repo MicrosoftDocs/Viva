@@ -119,25 +119,25 @@
           href: setup/glint-microsoft-teams-application.md
      - name: Setup by Program type
        items:
-      - name: Setting up Engagement surveys
+        - name: Setting up Engagement surveys
         items: 
-        - name: Set up Program Summary for Viva Glint Engagement-type surveys
-          href: setup/program-summary-overview.md
-          items:
-          - name: Program setup in Program Summary
-            href: setup/program-set-up.md
-          - name: Set up and use Distribution Lists in Viva Glint
-            href: setup/set-up-distribution-lists.md
-          - name: Set up Schedule page in Program Summary
-            href: setup/schedule-setup.md
-          - name: Questions set up in Program Summary
-            href: setup/questions-setup.md
-          - name: Reporting setup in Program Summary
-            href: setup/reporting-setup.md
-          - name: Communications setup in Program Summary
-            href: setup/program-summary-communications.md
-          - name: Set up Coaching page in Program Summary
-            href: setup/program-summary-coaching.md
+          - name: Set up Program Summary for Viva Glint Engagement-type surveys
+            href: setup/program-summary-overview.md
+            items:
+            - name: Program setup in Program Summary
+              href: setup/program-set-up.md
+            - name: Set up and use Distribution Lists in Viva Glint
+              href: setup/set-up-distribution-lists.md
+            - name: Set up Schedule page in Program Summary
+              href: setup/schedule-setup.md
+            - name: Questions set up in Program Summary
+              href: setup/questions-setup.md
+            - name: Reporting setup in Program Summary
+              href: setup/reporting-setup.md
+            - name: Communications setup in Program Summary
+              href: setup/program-summary-communications.md
+            - name: Set up Coaching page in Program Summary
+              href: setup/program-summary-coaching.md
         - name: Quarterly Engagement Survey template
           href: setup/quarterly-engagement-template.md
         - name: Diversity & Inclusion survey programs in Viva Glint
