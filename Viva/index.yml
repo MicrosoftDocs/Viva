@@ -101,7 +101,7 @@ additionalContent:
       items:
         # Card
         - title: Employee communications and communities
-          summary: Modernize how you communicate and engage with employees with Viva Connections and Viva Amplify. 
+          summary: Modernize how you communicate and engage with employees with Viva Connections, Viva Engage, and Viva Amplify. 
           url: /viva/experience-connection
         - title: Microsoft Viva workplace analytics and employee feedback
           summary: Transform employee feedback and insights into impact with Viva Insights, Viva Glint, and Viva Pulse.
