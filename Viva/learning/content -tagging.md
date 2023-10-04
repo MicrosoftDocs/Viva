@@ -34,10 +34,10 @@ Use metadata enrichment in Viva Learning to enable:
 
 The following roles can export content metadata and edit content tags by accessing **Manage Content Metadata**:
 
-    - Knowledge admin
-    - Knowledge manager  
-    - Global Administrator
-    - Feature access management – access delegation through Microsoft 365 group
+- Knowledge admin
+- Knowledge manager  
+- Global Administrator
+- Feature access management – access delegation through Microsoft 365 group
 
 ## Exporting content metadata
 
@@ -72,17 +72,17 @@ Users are notified that the content metadata export data is complete and can dow
 
 The exported csv file has the following metadata:
 
-    - Content ID 
-    - Content Title 
-    - Content Description 
-    - Content Language 
-    - Content Type 
-    - Provider 
-    - Author 
-    - Source tags: Displays the tags coming from source (LMS or content provider). These tags can't be edited in Viva Learning.
-    - Curated tags: Tags that are manually curated by admins or content owners in Viva Learning. Admins and content owners can edit tags on content on Viva Learning through the content details page of the specific content. 
-    - External ID:  The unique ID of the learning content from the external provider.- Provider ID: The unique ID of a provider when registered with Viva Learning.
-    - VL deep-link: Admins and content owners can select on this link for a specific content to go to the Viva Learning content details to update the irrelevant or unavailable tags for specific content.
+- Content ID 
+- Content Title 
+- Content Description 
+- Content Language 
+- Content Type 
+- Provider 
+- Author 
+- Source tags: Displays the tags coming from source (LMS or content provider). These tags can't be edited in Viva Learning.
+- Curated tags: Tags that are manually curated by admins or content owners in Viva Learning. Admins and content owners can edit tags on content on Viva Learning through the content details page of the specific content. 
+- External ID:  The unique ID of the learning content from the external provider.- Provider ID: The unique ID of a provider when registered with Viva Learning.
+- VL deep-link: Admins and content owners can select on this link for a specific content to go to the Viva Learning content details to update the irrelevant or unavailable tags for specific content.
 
 ## Curating tags on content
 
