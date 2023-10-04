@@ -21,7 +21,7 @@ description: Learn how to access learner completion records in Viva Learning.
 # Download Learner Completion Records 
 
 
-As an admin, you can export the learner's course completion records available in Viva Learning.
+As an admin, you can export the learner's course completion records available in Viva Learning. This will include all completion records synced into Viva Learning from the content sources as well as courses marked complete by the learner in Viva Learning.
 
 1. Find a user by inputting their name or email ID in the search box. 
 
