@@ -58,7 +58,7 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 
 | Host | TCP port | Description |
 | --- | --- | --- |
-| sftp.us1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
+| sftp.us1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glintus1.azurefd.net | 443 | Viva Glint CDN |
@@ -70,7 +70,7 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 
 | Host | TCP port | Description |
 | --- | --- | --- |
-| sftp.eu1.glint.cloud.microsoft | 22 | Secure File Transfer Protocol |
+| sftp.eu1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glinteu1.azurefd.net | 443 | Viva Glint CDN |
