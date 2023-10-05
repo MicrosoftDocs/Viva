@@ -68,6 +68,8 @@ Corporate communicators can perform the following functions to manage campaigns:
     - Pinned resources and links
     - Theme color of the campaign hashtag
 - View campaign analytics
+- Assign campaign co-organizers
+- Define leaders
 
 >[!NOTE]
 > The corporate communicator must manually update the goal tracker asset.
@@ -122,7 +124,8 @@ Engage admin and corporate communicators have access to analytics that help moni
 
 Corporate communicators and Engage admins can remove a post if it doesn't align with the purpose of the campaign. This action removes the post from the campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
 
-:::image type="content" source="../media/engage/campaigns/remove-camp-post.png" alt-text="Screenshot of the post menu where you can find the Remove command.":::
+:::image type="content" alt-text="Screenshot of the post menu where you can find the Remove command." source="../media/engage/campaigns/remove-camp-post.png" lightbox="../media/engage/campaigns/remove-camp-post.png":::
+
 ## Frequently asked questions
 
 **Can I create a campaign for a hashtag that's already in use?** 
