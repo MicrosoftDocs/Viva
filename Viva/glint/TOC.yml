@@ -226,7 +226,6 @@ items:
                     href: reports/manager-concierge-dashboard.md
                   - name: The Team Summary dashboard in Viva Glint
                     href: reports/team-summary-dashboard.md
-                items:
                   - name: Enable and manage the Team Summary dashboard
                     href: reports/team-summary-enable-manage.md
                   - name: Managers using the Team Summary dashboard on Viva Glint
