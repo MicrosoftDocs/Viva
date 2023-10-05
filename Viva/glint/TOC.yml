@@ -34,7 +34,7 @@ items:
                 href: setup/add-privacy-policy.md
               - name: Advanced privacy guide for data usage and survey item creation
                 href: setup/gdpr-special-categories.md
-              - name: Why Viva Glint surveys are confidential but not confidential
+              - name: Why Viva Glint surveys are confidential but not anonymous
                 href: setup/anonymous-confidential.md
               - name: How Viva Glint helps you protect your privacy
                 href: setup/viva-glint-survey-privacy.md
@@ -83,8 +83,7 @@ items:
               - name: Set up and use Distribution lists in Viva Glint
                 href: setup/set-up-distribution-lists.md
                 items:
-                  - name: Import members into a Viva Glint Distribution list and use the blended
-                      membership functionality
+                  - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
                     href: setup/import-members-distribution-lists.md
                   - name: Export a Viva Glint Distribution list
                     href: setup/export-distribution-lists.md
@@ -222,11 +221,11 @@ items:
                     href: reports/trend-graph-lifecycle-survey.md
               - name: Use Viva Glint's Broader Team Insights feature
                 href: reports/broader-team-insights.md
-                items: null
-              - name: Use the Manager Concierge dashboard in Viva Glint
-                href: reports/manager-concierge-dashboard.md
-              - name: The Team Summary dashboard in Viva Glint
-                href: reports/team-summary-dashboard.md
+                items:
+                  - name: Use the Manager Concierge dashboard in Viva Glint
+                    href: reports/manager-concierge-dashboard.md
+                  - name: The Team Summary dashboard in Viva Glint
+                    href: reports/team-summary-dashboard.md
                 items:
                   - name: Enable and manage the Team Summary dashboard
                     href: reports/team-summary-enable-manage.md
@@ -247,17 +246,14 @@ items:
         items:
           - name: Communicate with Viva Glint Nudges
             href: communicate/communicate-with-nudges.md
-          - name: Use Viva Glint email templates to share survey expectations within your
-              organization
+          - name: Use Viva Glint email templates to share survey expectations within your organization
             href: communicate/email-templates-survey-expectations.md
             items:
               - name: Introduce Viva Glint survey taking to your employees
                 href: communicate/survey-taking-for-employees.md
-              - name: Communicate pre-launch and live Viva Glint program information using email
-                  templates
+              - name: Communicate pre-launch and live Viva Glint program information using email templates
                 href: communicate/prelaunch-live-email-templates.md
-              - name: Communicate results rollout plans for Viva Glint programs using email
-                  templates
+              - name: Communicate results rollout plans for Viva Glint programs using email templates
                 href: communicate/results-rollout-templates.md
       - name: Troubleshoot
         items:
