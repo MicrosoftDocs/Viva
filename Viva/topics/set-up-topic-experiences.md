@@ -11,6 +11,7 @@ ms.collection:
   - m365initiative-viva-topics
   - highpri
   - Tier1
+  - essentials-get-started
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
@@ -168,6 +169,9 @@ No data sources are selected by default.
 
 On the **Topic visibility** page, you'll choose who can see topics.
 
+> [!NOTE]
+> While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them are able to view topics.
+
 1. Choose **Edit** to make changes to who can see topics.
 
 2. Select one of the following options:
@@ -175,12 +179,9 @@ On the **Topic visibility** page, you'll choose who can see topics.
     - **Only selected people or security groups**
     - **No one**
 
+    ![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
+
 3. Select **Save**.
-
-![Screenshot of the who can see topics options.](../media/knowledge-management/ksetup2.png)
-
-> [!NOTE]
-> While this setting allows you to select any user in your organization, only users who have Topic Experiences licenses assigned to them will be able to view topics.
 
 ### Topic permissions
 
@@ -240,6 +241,9 @@ Control access to EWS for your organization:
 ## Manage topic experiences
 
 Once you have set up Topics, you can change the settings that you chose during setup in the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal#/featureexplorer/csi/KnowledgeManagement). Manage other areas in topics:
+
+>[!NOTE]
+>If you update user roles and permissions, these changes can take over an hour to take effect.
 
 - [Manage topic discovery in Microsoft Viva Topics](topic-experiences-discovery.md)
 - [Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
