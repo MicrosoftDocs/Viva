@@ -1,5 +1,5 @@
 ---
-ms.date: 08/3/2023
+ms.date: 10/6/2023
 title: Set up and manage Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -138,6 +138,18 @@ By default, the only person who can manage Topics for your organization is the a
 >[!IMPORTANT]
 >Default settings are noted with an asterisk (*).
 
+### Enable the Everyone in my organization option
+
+If the **Everyone in my organization** option isn't available for any of your settings, you'll need to run the PowerShell cmdlet:
+
+```PowerShell
+{
+    Set-SPOTenant-ShowEveryoneExceptExternalUsersClaim $True
+}
+```
+
+[Learn more about ShowEveryoneExceptExternalUsersClaim](powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim)
+
 ### Topic discovery
 
 On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
@@ -175,7 +187,7 @@ On the **Topic visibility** page, you'll choose who can see topics.
 1. Choose **Edit** to make changes to who can see topics.
 
 2. Select one of the following options:
-    - **Everyone in my organization***
+    - **Everyone in my organization** [Learn how to enable this option if it's greyed out](#enable-the-everyone-in-my-organization-option).
     - **Only selected people or security groups**
     - **No one**
 
@@ -193,14 +205,14 @@ In the **Topic permissions** page, you choose who can create, edit, and manage t
 ![Screenshot of the topic permissions page.](../media/knowledge-management/topic-permissions.png)
 
 1. First, go to the **Who can create and edit topics** section. You can select:
-    - **Everyone in my organization**
+    - **Everyone in my organization** [Learn how to enable this option if it's greyed out](#enable-the-everyone-in-my-organization-option).
     - **Only selected people or security groups**
     - **No one**
 
 2. Select **Save**.
 
 3. Then, go to the **Who can manage topics** section. You can select:
-    - **Everyone in my organization**
+    - **Everyone in my organization** [Learn how to enable this option if it's greyed out](#enable-the-everyone-in-my-organization-option).
     - **Only selected people or security groups**
     The default selection is **Admin**.
 
