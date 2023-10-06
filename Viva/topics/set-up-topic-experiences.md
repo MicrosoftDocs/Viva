@@ -143,9 +143,7 @@ By default, the only person who can manage Topics for your organization is the a
 If the **Everyone in my organization** option isn't available for any of your settings, you'll need to run the PowerShell cmdlet:
 
 ```PowerShell
-{
-    Set-SPOTenant-ShowEveryoneExceptExternalUsersClaim $True
-}
+    Set-SPOTenant- ShowEveryoneExceptExternalUsersClaim $True
 ```
 
 [Learn more about ShowEveryoneExceptExternalUsersClaim](powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim)
