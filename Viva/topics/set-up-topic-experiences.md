@@ -138,16 +138,6 @@ By default, the only person who can manage Topics for your organization is the a
 >[!IMPORTANT]
 >Default settings are noted with an asterisk (*).
 
-### Enable the Everyone in my organization option
-
-If the **Everyone in my organization** option isn't available for any of your settings, you'll need to run the PowerShell cmdlet:
-
-```PowerShell
-    Set-SPOTenant- ShowEveryoneExceptExternalUsersClaim $True
-```
-
-[Learn more about ShowEveryoneExceptExternalUsersClaim](powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim)
-
 ### Topic discovery
 
 On the Topic discovery page, you'll choose how Viva Topics sources and identifies topics.
@@ -174,6 +164,20 @@ No data sources are selected by default.
          - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
          - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
       1. Upload your completed file and choose **Save**.
+
+### Enable the Everyone in my organization option
+
+For [Topic visibility](#topic-visibility) and [Topic permissions](#topic-permissions), you'll have the option to choose who can see, create, edit, and manage topics. It's recommended to choose **Everyone in my organization**.
+
+If the **Everyone in my organization** option isn't available for any of your settings, you can enable it with the following PowerShell cmdlet:
+
+```PowerShell
+    Set-SPOTenant- ShowEveryoneExceptExternalUsersClaim $True
+```
+
+[Learn more about ShowEveryoneExceptExternalUsersClaim](powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim)
+
+If you want to keep this option disabled, it's recommended to choose the broadest possible group of users.
 
 ### Topic visibility
 
