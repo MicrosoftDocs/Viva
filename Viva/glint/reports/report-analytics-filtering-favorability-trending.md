@@ -120,5 +120,5 @@ The colors in the Heat Map are meant to allow quick identification of systemic p
 
 ## Understand aggregate trending 
 
-Aggregate trending supplies historical data over time. There's a trend point, which reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. [Much more information here!](https://go.microsoft.com/fwlink/?linkid=2249017)
+Aggregate trending supplies historical data over time. There's a trend point, which reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. 
 
