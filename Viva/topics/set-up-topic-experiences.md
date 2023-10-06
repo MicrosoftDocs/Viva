@@ -172,7 +172,7 @@ For [Topic visibility](#topic-visibility) and [Topic permissions](#topic-permiss
 If the **Everyone in my organization** option isn't available for any of your settings, you can enable it with the following PowerShell cmdlet:
 
 ```PowerShell
-    Set-SPOTenant- ShowEveryoneExceptExternalUsersClaim $True
+    Set-SPOTenant -ShowEveryoneExceptExternalUsersClaim $True
 ```
 
 [Learn more about ShowEveryoneExceptExternalUsersClaim](powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps#-showeveryoneexceptexternalusersclaim)
