@@ -2,6 +2,23 @@
 
 
 
+## Week of October 02, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 10/2/2023 | [Use the Web link card to integrate content into Viva Connections](/viva/connections/use-the-link-card) | modified |
+| 10/2/2023 | [Create your Viva Glint Employee Attribute Template](/viva/glint/setup/create-employee-attribute-template) | modified |
+| 10/2/2023 | [Add the Viva Goals app to Microsoft Teams](/viva/goals/configure-ms-teams-integration) | modified |
+| 10/2/2023 | [Microsoft Viva solution center](/viva/solutions/solutions) | modified |
+| 10/3/2023 | [Why Viva Glint surveys are confidential but not anonymous](/viva/glint/setup/anonymous-confidential) | added |
+| 10/3/2023 | [Azure Data Explorer Integration](/viva/goals/azure-data-explorer-integration) | modified |
+| 10/3/2023 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 10/4/2023 | [Energize your workforce by creating spaces for conversations, company news, and shared interests..](/viva/experience-connection) | modified |
+| 10/5/2023 | [Manage admin roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
+| 10/6/2023 | [Make the most of Viva Glint reporting features](/viva/glint/reports/report-analytics-filtering-favorability-trending) | modified |
+
+
 ## Week of September 25, 2023
 
 
@@ -108,22 +125,3 @@
 | 9/7/2023 | [Consider People Science factors for historical imports](/viva/glint/setup/import-external-people-science-pov) | added |
 | 9/7/2023 | [Import historical response data in Viva Glint](/viva/glint/setup/import-historical-response-data) | added |
 | 9/8/2023 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | added |
-
-
-## Week of August 28, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 8/28/2023 | [Microsoft Viva - Feature access management](/viva/feature-access-management) | added |
-| 8/28/2023 | [Configure Cornerstone OnDemand as a content source for Microsoft Viva Learning](/viva/learning/configure-cornerstone-content-source) | modified |
-| 8/29/2023 | [Create collections in Viva Learning](/viva/learning/creating-learning-collections) | modified |
-| 8/29/2023 | [Creating Learning paths in Viva Learning](/viva/learning/creating-learning-paths) | modified |
-| 8/29/2023 | [vivainsights Python package](/viva/insights/advanced/analyst/vivainsights-python-package) | added |
-| 8/29/2023 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
-| 8/29/2023 | [Viva Engage Native Mode: Step-by-step guide](/viva/engage/native-mode-guide) | modified |
-| 8/29/2023 | [vivainsights R package](/viva/insights/advanced/analyst/vivainsights-r-package) | added |
-| 8/30/2023 | [Manage Interests in Viva Learning](/viva/learning/interests) | modified |
-| 8/30/2023 | [Manage Viva Engage data compliance](/viva/engage/manage-security-and-compliance/manage-data-compliance) | modified |
-| 8/31/2023 | [Customize Viva Insights privacy settings](/viva/insights/advanced/setup-maint/privacy-settings) | modified |
-| 9/1/2023 | [Manage your Allowed List for Viva Glint](/viva/glint/setup/allowed-list) | modified |
