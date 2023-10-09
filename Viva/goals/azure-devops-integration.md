@@ -56,9 +56,7 @@ The Azure DevOps integration needs to be enabled by a Viva Goals Tenant and Orga
 
 ## How to enable Azure DevOps integration with initiatives
 
-This method is the recommended approach for aligning work in Azure DevOps to OKRsin Viva Goals. In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used with the Viva Goals Azure DevOps extension, the alignment of Azure
-
-DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
+This method is the recommended approach for aligning work in Azure DevOps to OKRsin Viva Goals. In addition to tracking initiative progress based on Azure DevOps work items, this approach enables a cross-platform user experience. The Azure DevOps work item details are synced to the Viva Goals initiative views and, when used with the Viva Goals Azure DevOps extension, the alignment of Azure DevOps work to Viva Goals OKRs is surfaced directly within the linked Azure DevOps work items.
 
 1. Select **Add Initiative** in Viva Goals or edit an existing initiative. 
 1. Select **Outcome**. 
