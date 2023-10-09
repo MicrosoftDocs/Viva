@@ -21,10 +21,12 @@ ms.date: 10/09/2023
 # Viva Glint aggregate groupings - trends and best practices
 
 ## Understand aggregate trending
+
 Aggregate trending supplies historical data over time. There's a trend point, which reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend.
 
 ## Viva Glint aggregate trending terminology
-|**Term**| **Definition**|
+
+| Term | Definition |
 |-----------|-----------|
 |Aggregate | A grouping of two or more items that measure a concept within a survey|
 |Aggregate score | The average score of all the items divided by that number of items|
@@ -45,5 +47,3 @@ Why not to use aggregate groupings in surveys:
 
 >[!CAUTION]
 > Trend is considered unreliable when it is not measuring “apples to apples” - when there are differences in the items that appear in an aggregate between the new cycle and the same aggregate in the previous cycle. Trend will be shown when at least one item is identical in the same aggregate in two cycles, but unless all items are identical, the aggregate trend is not measuring a consistent group of items and is not as reliable as single item trend data.
-
-
