@@ -1,6 +1,6 @@
 ---
 ms.date: 11/02/2022
-title: "Support an inclusive work culture with conversations, company news, and shared interests."
+title: "Energize your workforce by creating spaces for conversations, company news, and shared interests.."
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
@@ -21,9 +21,17 @@ search.appverid:
 description: "Learn how Microsoft Viva supports employee connection in your organization"
 ---
 
-# Connection: Viva Engage and Viva Connections
+# Communications and Communities: Viva Engage, Viva Connections, and Viva Amplify
 
-Support a more inclusive work culture with spaces for conversations, company news, and shared interests with Viva Connections and Viva Engage. [Using them together](/viva/experience-connection#viva-connections-and-viva-engage-better-together) boosts discoverability and engagement.
+Energize your workforce by creating spaces for conversations, company news, and shared interests with Viva Connections, Viva Engage, and Viva Amplify. 
+
+## Viva Amplify
+
+Viva Amplify empowers organizational communication teams and leaders to elevate their message and energize their people. The app centralizes communication processes in a single space and offers writing guidance to help messages from every part of the organization, including leaders, corporate communications, and HR, resonate with employees. Communicators can then publish to multiple channels simultaneously, manage their campaigns from a central hub, and study resulting metrics to better plan future communications.
+
+With Viva Amplify you get one place for campaign management, authoring and publishing, approvals, scheduling, and reporting and analytics.
+
+[Learn more about Viva Amplify](/Viva/amplify/overview-viva-amplify)
 
 ## Viva Connections
 

@@ -30,6 +30,9 @@ For example, if you have an objective to increase visits and the time spent in y
 
 All users and admins have access to this integration. Admins also have permissions to manage the integration from the admin dashboard.
 
+> [!CAUTION]
+>  Only MS SQL version 17 is compatible with the Viva Goals integration. There could be connection issues when any other versions are used for the integration.
+
 ## How to connect Microsoft SQLServer to your Viva Goals account
 
 1. The first step to set up the Microsoft SQL integration is to connect your account to Viva Goals. Go to the sidebar and select **Admin** and then select **Integrations**.

@@ -20,6 +20,7 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Learn how to combine Microsoft Viva apps to support popular experiences"
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Combine Microsoft Viva apps to support popular business scenarios
 

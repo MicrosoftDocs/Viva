@@ -1,9 +1,9 @@
 ---
 title: Export a Viva Glint Distribution List
 description: "Viva Glint admins can export Distribution Lists to quickly see the list of employees receiving a survey or members of a group with specific permissions."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -14,13 +14,16 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
 # Export a Viva Glint Distribution List
 
 Admins can export Distribution Lists to quickly see the list of employees receiving a survey or the members of a group with specific permissions. This is especially useful for large teams. 
+
+> [!NOTE]
+> The option to export distribtuion lists is not available for Employee Lifecycle surveys.
 
 ## Manage exports in two ways 
 
@@ -44,7 +47,7 @@ This export includes first and last names, email addresses, and employment statu
 
 ### Export Distribution Lists from the admin dashboard 
 
-Distribution Lists are dynamic; the targeted population may change until the survey is sent. Any list exported after the survey is sent an actual recipient list.  
+Distribution Lists are dynamic; the targeted population may change until the survey is sent.  Any list exported after the survey is sent an actual recipient list.  
 
 Distribution List files include first and last name, email address, and employment status. 
 
