@@ -117,6 +117,9 @@ items:
                 href: setup/survey-character-limits.md
               - name: Use Viva Glint's best practices to design your survey program
                 href: setup/best-practice-setup-guidance.md
+                items:
+                  - name: Viva Glint aggregate grouping - trends and best practices
+                    href: reports/aggregate-trending.md
               - name: Use the Glint Microsoft Teams application
                 href: setup/glint-microsoft-teams-application.md
           - name: Setup by Program type
