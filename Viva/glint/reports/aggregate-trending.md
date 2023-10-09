@@ -15,7 +15,8 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 10/06/2023
+ms.date: 10/09/2023
+---
 
 # Viva Glint aggregate groupings - trends and best practices
 
