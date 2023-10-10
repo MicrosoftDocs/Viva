@@ -164,7 +164,9 @@ To import historical users and their responses:
    6. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
    7. **Extra Options menu:** Leave collapsed, not applicable.
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.
-:::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
 1. Confirm that:
    1. **Users in User File** matches the number of users in your **Respondent User File**.
    2. **Users in Score File** matches the number of users in your **Raw Score File**.
@@ -172,9 +174,9 @@ To import historical users and their responses:
    4. **User File Users Not in Score File** matches the number of people who were invited but didn't respond to the survey.
    5. **Counts per Question**, when expanded, match the expected counts for each comment and response value.
 1. After confirming the **Preview**, select **Save**.
-2. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
+1. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
 
- :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
 
 ## Troubleshoot warnings and errors
 
