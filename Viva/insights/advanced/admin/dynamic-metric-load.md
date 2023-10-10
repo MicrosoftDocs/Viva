@@ -1,7 +1,7 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 08/22/2023
-title: Set up dynamic metric load for Viva Insights metrics on MGDC
+ms.date: 10/10/2023
+title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
 ms.author: v-zachminers
@@ -16,7 +16,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Set up dynamic metric load for Viva Insights metrics on MGDC
+# Export Viva Insights data using MGDC
 
 *Applies to: private preview customers only*
 
@@ -131,7 +131,7 @@ There are a few unique steps, however, that are specific to this process for dyn
 * **Application ID**: Select your App service principal from Step 1
 * **Publish type**: Single-tenant
 
-Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**.
+Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**. For the static Viva Insights dataset, select **VivaInsightsDataset_PersonReport_V1**.
 
 > [!NOTE]
 > If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
@@ -159,6 +159,10 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
    :::image type="content" source="../images/dynamic-metric-load-step08.png" lightbox="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
 
+    For a dynamic dataset, follow steps 4-5. Then skip step 6 and proceed to step 7.
+
+    For the static dataset, skip steps 4-5 and proceed to step 6. 
+
 4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
 1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-284) with information specific to the dataset columns.
     * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and "type" to match the name and data type of one column in the dataset. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
@@ -184,6 +188,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
     * Reach out to the Viva Insights team if help is needed setting up the ARM template.
 
 
+1. Copy the raw file from [this ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV1-ADFOnly.json) by selecting the double-stacked squares icon on the right. Paste it into the template editor.
 6. Select **Save**.
 1. On **Basics**, fill out **Project details** with the following values:
     * **Subscription:** Select your Azure subscription
