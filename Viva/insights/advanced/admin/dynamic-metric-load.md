@@ -30,11 +30,13 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 ## Steps
 
 ### 1. Create Azure Active Directory Application
+
 *Applies to: [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) or [Application Developer](/azure/active-directory/roles/permissions-reference#application-developer)*
 
 Follow steps 1-10 outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=2) to create your app service principal. Be sure to store the app secret to use in a later step in this process. You can skip steps 11-13.
 
 ### 2. Provision Storage Account
+
 *Applies to: Application Administrator or Application Developer*
 
 Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account.
@@ -48,6 +50,7 @@ After you've followed the steps above and your Storage account is set up:
 2. Clear **Enable soft delete for blobs** and **Enable soft delete for containers** and select **Save**.
 
 ### 3. Provision Key vault and store client secret
+
 *Applies to: Application Administrator or Application Developer*
 
 1. Open a browser and sign in to your [Azure portal](https://portal.azure.com).
@@ -77,6 +80,7 @@ After you've followed the steps above and your Storage account is set up:
 6. Select **Create**.
 
 ### 4. Enable MGDC for tenant
+
 *Applies to: Global Administrator*
 
 1. Open a browser and sign in to your [Microsoft 365 Admin Portal](https://admin.microsoft.com/adminportal).
@@ -117,6 +121,7 @@ If you have already enabled MGDC, you will need to:
 5. Select **Export to Azure**.
 
 ### 6. Register MGDC application
+
 *Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
@@ -137,6 +142,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 > If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
 
 ### 7. Consent to application/dataset
+
 *Applies to: Global Administrator (App approver must be different from the app developer)*
 
 1. Open a browser and sign in to your [Microsoft 365 Admin Portal](https://admin.microsoft.com/adminportal).
@@ -151,6 +157,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
    :::image type="content" source="../images/dynamic-metric-load-step0702b.png" lightbox="../images/dynamic-metric-load-step0702.png" alt-text="Screenshot that shows how to approve the dataset":::
 
 ### 8. Deploy ARM template
+
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
 1. Open a browser and sign in to your [Azure portal](https://portal.azure.com).
@@ -165,9 +172,13 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
 1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-284) with information specific to the dataset columns.
+
     * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and "type" to match the name and data type of one column in the dataset. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
-    :::image type="content" source="../images/dynamic-metric-load-step0802c.png" alt-text="Screenshot that shows how to edit the ARM template.":::
+
+      :::image type="content" source="../images/dynamic-metric-load-step0802c.png" alt-text="Screenshot that shows how to edit the ARM template.":::
+
     * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
+
     * **To edit type:** The following are some of the most common data types:
         * string - sequence of characters
         * dateTime - date or time
@@ -200,7 +211,9 @@ Also, when you specify the datasets that the app registration needs to query, fo
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
     * **App object ID:** 
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then select the link below **Managed application in local directory**. Find the **Object ID** under **Properties**. (This is not the same **Object ID** as the ID under **Essentials**.) 
-         :::image type="content" source="../images/dynamic-metric-load-step0803b.png" alt-text="Screenshot that shows how to find the App object ID":::
+
+          :::image type="content" source="../images/dynamic-metric-load-step0803b.png" alt-text="Screenshot that shows how to find the App object ID":::
+
     * **Data Factory Name:** mgdcdemodatafactory (or you can name and select your own) 
     * **Data Lake Storage Name:**
         * The name of the Storage account you created in Step 2 (mgdcdemoap unless you named your own). This name can also be found in **Storage accounts** in **Azure Portal**.
@@ -219,6 +232,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
    :::image type="content" source="../images/dynamic-metric-load-step0804.png" alt-text="Screenshot that shows how to create the ARM template":::
 
 ### 9. Execute pipeline
+
 *Applies to: Application Administrator or Application Developer*
 
 1. Open a browser window and sign in to your [Azure portal](https://portal.azure.com). 
@@ -242,6 +256,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
    :::image type="content" source="../images/dynamic-metric-load-step0903b.png" lightbox="../images/dynamic-metric-load-step0903.png" alt-text="Screenshot that shows the Activity run ID":::
 
 ### 10. Find the output of your extraction
+
 *Applies to: Application Administrator or Application Developer*
 
 If you would like to find the metadata, go to your **Azure portal**. In your Storage account, select **Containers**, then **datasets**. Then follow the following folder path:
