@@ -33,7 +33,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 ### Survey program
 
 - The confidentiality threshold for your Viva Glint survey program is equal to or greater than the source survey for the external data.
-- Data are imported to a Recurring or Ad-Hoc survey.
+- Data are imported to a Recurring or Ad Hoc survey.
 
 > [!IMPORTANT]
 > External imports are not available for Always-on or Lifecycle surveys.
@@ -75,7 +75,7 @@ Set up your Viva Glint program, including items that trend with your external su
 External imports of historical data require three data files, each with their own requirements.
 
 > [!IMPORTANT]
-> All files must be in .csv format with a comma separator and UTF-8 encoding.
+> All files must be in .csv format with a comma separator and UTF-8 encoding. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
 
 |File  |Description  |Email address label|Import to |
 |----------|-----------|------------|------------|
@@ -116,7 +116,7 @@ Sample:
 |A  |B   |C|D|E|F|G|
 |----------|-----------|------------|------------|------------|------------|------------|
 |**User e-mail**     |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477**      |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477_COMMENTS**        |**f1c63ea9-5991-402a-bb06-06419ae78613**        |**f1c63ea9-5991-402a-bb06-06419ae78613_COMMENTS**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62_COMMENTS**        |
-|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good worklife balance. |1:3:5 | |
+|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good work-life balance. |1:3:5 | |
 |cameron.baker@contoso.com|5   | |-1 ||1:8 |Tuition reimbursement would be a nice perk. |
 
 ### Respondent User File
@@ -164,7 +164,9 @@ To import historical users and their responses:
    6. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
    7. **Extra Options menu:** Leave collapsed, not applicable.
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.
-:::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
 1. Confirm that:
    1. **Users in User File** matches the number of users in your **Respondent User File**.
    2. **Users in Score File** matches the number of users in your **Raw Score File**.
@@ -172,9 +174,9 @@ To import historical users and their responses:
    4. **User File Users Not in Score File** matches the number of people who were invited but didn't respond to the survey.
    5. **Counts per Question**, when expanded, match the expected counts for each comment and response value.
 1. After confirming the **Preview**, select **Save**.
-2. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
+1. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
 
- :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
 
 ## Troubleshoot warnings and errors
 
