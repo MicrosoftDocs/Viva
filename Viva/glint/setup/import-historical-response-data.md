@@ -33,7 +33,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 ### Survey program
 
 - The confidentiality threshold for your Viva Glint survey program is equal to or greater than the source survey for the external data.
-- Data are imported to a Recurring or Ad-Hoc survey.
+- Data are imported to a Recurring or Ad Hoc survey.
 
 > [!IMPORTANT]
 > External imports are not available for Always-on or Lifecycle surveys.
@@ -116,7 +116,7 @@ Sample:
 |A  |B   |C|D|E|F|G|
 |----------|-----------|------------|------------|------------|------------|------------|
 |**User e-mail**     |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477**      |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477_COMMENTS**        |**f1c63ea9-5991-402a-bb06-06419ae78613**        |**f1c63ea9-5991-402a-bb06-06419ae78613_COMMENTS**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62**        |**bf921b85-50a6-4b49-a481-e2e91ed6ba62_COMMENTS**        |
-|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good worklife balance. |1:3:5 | |
+|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good work-life balance. |1:3:5 | |
 |cameron.baker@contoso.com|5   | |-1 ||1:8 |Tuition reimbursement would be a nice perk. |
 
 ### Respondent User File
