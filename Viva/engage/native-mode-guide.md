@@ -41,7 +41,7 @@ Next, make sure that network enforces Microsoft 365 identity. For more informati
 
 ## 2. Access the Native Mode Alignment Tool
 
-Only Engage admins and Microsoft 365 Global administrators can use the Native Mode Alignment Tool. If your account is granted these privileges on a temporary basis, it can take a few hours for your admin privileges to be reflected in Viva Engage. Once granted, temporary privileges are only required to initiate the alignment process; they don't need to be maintained the entire time the tool is running. Additionally, Privileged Identity Management (PIM) has no affect on the alignment process.
+Only Engage admins and Microsoft 365 Global administrators can use the Native Mode Alignment Tool. If your account is granted these privileges on a temporary basis, it can take a few hours for your admin privileges to be reflected in Viva Engage. Once granted, temporary privileges are only required to initiate the alignment process; they don't need to be maintained the entire time the tool is running. Additionally, Privileged Identity Management (PIM) has no effect on the alignment process.
 
 To access the Native Mode Alignment Tool after Viva Engage recognizes your admin capabilities: Sign in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
 
