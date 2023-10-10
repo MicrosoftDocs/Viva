@@ -26,4 +26,4 @@ Microsoft 365 Defender is a comprehensive software as a service (SaaS) solution 
 
 Defender works with Viva Engage the way you’d expect it to work with other cloud apps. Selecting a link in the Viva Engage app or system-generated email (such as Viva Engage notifications or digests) safely routes you to your intended destination as soon as Defender verifies the link.
 
-If Defender can’t verify the link, it notifies you of the danger and routes you to safety. For more information, see [What is Microsoft 365 Defender?](/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide&branch=live)
+If Defender can’t verify the link, it notifies you of the danger and routes you to safety. For more information, see [What is Microsoft 365 Defender?](/microsoft-365/security/defender/microsoft-365-defender?view=o365-worldwide&branch=live&preserve-view=true)
