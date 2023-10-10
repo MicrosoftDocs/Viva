@@ -75,7 +75,7 @@ Set up your Viva Glint program, including items that trend with your external su
 External imports of historical data require three data files, each with their own requirements.
 
 > [!IMPORTANT]
-> All files must be in .csv format with a comma separator and UTF-8 encoding. Enclose values that contain commas with double quotes. For example: "Manager, Customer Experience."
+> All files must be in .csv format with a comma separator and UTF-8 encoding. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
 
 |File  |Description  |Email address label|Import to |
 |----------|-----------|------------|------------|
