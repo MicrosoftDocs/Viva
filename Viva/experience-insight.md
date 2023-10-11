@@ -66,9 +66,8 @@ Leads will receive suggested learning resources and suggested next steps based o
 ## Viva Glint: Understand the employee voice with organization-wide surveys
 Viva Glint provides a comprehensive approach to understanding employee voice and related signals such as social sentiment and collaboration patterns. With Viva Glint, you have the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions to improve engagement and business performance. Viva Glint helps connect the dots from insight to action and offer recommendations based on feedback from Viva Glint surveys.
 
-![Glint reporting](media/glint-reporting.png)
+![Glint reporting](media/Glint-reporting.png)
 
-With Viva Glint, you have the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions to improve engagement and business performance. Viva Glint helps connect the dots from insight to action and offer recommendations based on feedback from Viva Glint surveys.
 
 **How Viva Glint empowers leaders with insights to better understand and improve engagement**
 
