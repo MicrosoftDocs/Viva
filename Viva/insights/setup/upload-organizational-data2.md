@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/23/2018
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads assuming this is not your first data upload
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced

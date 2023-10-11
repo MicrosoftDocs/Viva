@@ -3,8 +3,8 @@
 ms.date: 11/07/2019
 title: Configure Briefing email
 description: Steps for admins to configure Briefing email for their organization
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:

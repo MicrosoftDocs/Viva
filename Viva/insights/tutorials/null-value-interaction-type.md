@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/29/2023
 title: Null values after filtering Teams channel metrics
 description: About using "reaction" as a value for "Interaction type" in Teams channel metrics
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: reference
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 

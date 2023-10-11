@@ -2,8 +2,8 @@
 ms.date: 02/28/2023
 title: Meeting query
 description: Learn how to run a custom meeting query in the Microsoft Viva Insights advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

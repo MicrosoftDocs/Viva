@@ -1,8 +1,8 @@
 ---
 title: Domain suppression
 description: Learn how to specify sensitive domains in the advanced insights Privacy settings page
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

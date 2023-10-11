@@ -2,8 +2,8 @@
 ms.date: 09/16/2021
 title: Manager and leader insights in Viva Insights
 description: Learn about manager and leader insights in Viva Insights in Teams and how to use it 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
