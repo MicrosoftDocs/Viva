@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 08/27/2019
 title: Data sources for Viva Insights
 description: An overview of data sources for Microsoft Viva Insights
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

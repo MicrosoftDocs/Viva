@@ -4,8 +4,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 01/19/2018
 title: Videos for Viva Insights
 description: Videos about how the advanced insights app with Microsoft Viva Insights works
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 search.appverid:

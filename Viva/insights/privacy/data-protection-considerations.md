@@ -3,8 +3,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 09/16/2021
 title: Data-protection considerations for manager, leader, and advanced insights 
 description: Data-protection considerations when using Microsoft Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: 
