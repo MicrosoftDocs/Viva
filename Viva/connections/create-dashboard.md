@@ -1,5 +1,5 @@
 ---
-ms.date: 10/04/2023
+ms.date: 10/11/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
 ms.reviewer: evanatkin
 ms.author: evanatkin
