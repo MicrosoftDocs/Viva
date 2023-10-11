@@ -19,6 +19,7 @@ ms.collection:
   - m365initiative-viva-topics
   - highpri
   - Tier1
+  - essentials-overview
 ms.localizationpriority:  medium
 description: Learn about how to use Viva Topics in your organization.
 ---
