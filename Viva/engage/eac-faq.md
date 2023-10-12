@@ -24,7 +24,7 @@ search.appverid:
 
 **Who can access the Viva Engage admin center in the Viva Engage Teams application?**
 
-The following roles can access the Viva Engage admin center: Global admin, Engage admin, Answers admin, corporate communicator, leader, and leader’s delegate manager.  
+The following roles can access the Viva Engage admin center: Microsoft 365 Global administrator, Engage admin, Answers admin, corporate communicator, leader, and leader’s delegate manager.  
 
 **Can every role that has access to the Viva Engage admin center perform all configurations in it?**
 
