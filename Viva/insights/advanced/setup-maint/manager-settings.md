@@ -2,8 +2,8 @@
 ms.date: 04/06/2023
 title: Configure manager settings
 description: Set manager settings in the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

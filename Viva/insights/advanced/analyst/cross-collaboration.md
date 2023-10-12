@@ -2,8 +2,8 @@
 ms.date: 06/30/2023
 title: Cross-collaboration
 description: Learn about cross-collaboration queries
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

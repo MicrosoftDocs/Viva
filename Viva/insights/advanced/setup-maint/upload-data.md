@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Upload organizational data during setup
 description: Get a quick overview of how to upload organizational data as part of setup
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

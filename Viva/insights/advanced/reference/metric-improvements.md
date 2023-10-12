@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,FOLLOW
 ms.date: 07/15/2022
 title: Viva Insights metric improvements
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

@@ -2,8 +2,8 @@
 ms.date: 06/21/2023
 title: Transferring from Workplace Analytics to the advanced insights app
 description: Learn about difference in settings between Workplace Analytics and the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: 
 - viva-insights-manager

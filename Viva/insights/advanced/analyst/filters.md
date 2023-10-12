@@ -2,8 +2,8 @@
 ms.date: 02/28/2023
 title: Filters in advanced insights queries
 description: Learn more about filters in queries
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
