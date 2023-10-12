@@ -48,10 +48,7 @@ By default, the Answers experience is enabled for customers that meet the follow
 
     Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
 
-
-    For customers awaiting topics migration:  
-    - Microsoft informs existing Viva Engage customers who purchased Viva Topics or Viva Suite products when the Viva Engage Topics have migrated to Viva Topics. 
-    - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Viva Engage Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Viva Engage and file a support ticket. Microsoft reviews and processes these requests.
+   Customers who are awaiting topics migration can request to get Answers enablement  prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
     Learn more about Viva Engage Topics migration to Viva Topics:
     - [Viva Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
