@@ -2,8 +2,8 @@
 ms.date: 07/14/2022
 title: Power BI tips, FAQ, and troubleshooting
 description: Get answers to frequently asked questions about using Power BI for Viva Insights data
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
