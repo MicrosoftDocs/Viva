@@ -48,10 +48,7 @@ By default, the Answers experience is enabled for customers that meet the follow
 
     Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
 
-
-    For customers awaiting topics migration:  
-    - Microsoft informs existing Viva Engage customers who purchased Viva Topics or Viva Suite products when the Viva Engage Topics have migrated to Viva Topics. 
-    - Interested tenants can request to get Answers enablement prioritized, which may include Native Mode Support or Viva Engage Topics Migration to Viva Topics. To do so, they can contact their customer account manager/Microsoft support staff for Viva Engage and file a support ticket. Microsoft reviews and processes these requests.
+   Customers who are awaiting topics migration can request to get Answers enablement  prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
     Learn more about Viva Engage Topics migration to Viva Topics:
     - [Viva Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
@@ -110,17 +107,20 @@ For this feature to be available, the network is required to have two or fewer E
 2. Select the ellipses button from the top right navigation bar to expose admin options. 
 
 3. Select **Admin** to navigate to the Viva Engage admin center.
-    :::image type="content" source="../media/engage/admin/admin-entry-point.png#lightbox" alt-text="Screenshot of entry point to the admin center."::: 
+
+    :::image type="content" source="../media/engage/admin/admin-entry-point.png" lightbox="../media/engage/admin/admin-entry-point.png" alt-text="Screenshot of entry point to the admin center.":::
 
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
-    :::image type="content" source="../media/engage/admin/answers-eac.png#lightbox" alt-text="Screenshot showing how to get to Answers options.":::
+
+    :::image type="content" source="../media/engage/admin/answers-eac.png" lightbox="../media/engage/admin/answers-eac.png" alt-text="Screenshot showing how to get to Answers options.":::
 
 5. In Answers feature management, you can switch **Show Engage Experience** on or off for your organization.
-    :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
+
+    :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" lightbox="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
 
     The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
     
-    :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
+    :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
 > If the Viva Engage Experience is hidden, the backing group will respect the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).  
