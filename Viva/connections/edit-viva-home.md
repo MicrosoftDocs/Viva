@@ -265,8 +265,8 @@ If your organization already has a SharePoint home site and you want to keep it 
 
    - The VivaConnectionsDefault parameter should be set to **$false** to use the new Connections desktop experience as the default landing experience.
    - The VivaConnectionsDefault parameter should be set to **$true** to use a SharePoint home site as the default landing experience.
-   - The DraftMode parameter is set to **$true** by default, which will disable the global navigation and home site. The Connections desktop experience can be enabled in the Microsoft 365 Admin Center.
-   - Set the DraftMode parameter to **$false** to immediately enable the Connections desktop experience without going through the Admin Center.
+   - The DraftMode parameter is set to **$true** by default, which will disable the global navigation and home site. The Connections desktop experience can be enabled in the Microsoft 365 admin center.
+   - Set the DraftMode parameter to **$false** to immediately enable the Connections desktop experience without going through the admin center.
 
    **Example:**
 
