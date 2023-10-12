@@ -2,8 +2,8 @@
 ms.date: 01/06/2023
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 

@@ -2,8 +2,8 @@
 ms.date: 02/22/2023
 title: Query results in Viva Insights FAQs
 description: Get answers to common questions about advanced insights query results
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

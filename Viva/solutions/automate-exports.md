@@ -3,8 +3,8 @@
 ms.date: 06/13/2018
 title: Automate query data exports
 description: Learn how to automate data query data exports from Microsoft Viva Insights in Workplace Analytics to Azure
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
