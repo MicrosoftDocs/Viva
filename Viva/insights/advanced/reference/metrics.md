@@ -50,7 +50,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="chats-sent-define"></a>  Chats sent | Number of Teams chats a person sent. | Count |
 | | <a name="calls-define"></a>  Calls | Number of Teams calls a person joined, including scheduled and unscheduled calls. | Count |
 | | <a name="meeting-and-call-hours-define"></a>  Meeting and call hours | Number of hours a person spent in meetings and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities. | Hour |
-|<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="meeting-hours-on-x-define"></a>  Meeting hours on x (day) | Number of hours a person spent in meetings with at least one other person during and outside of working hours on the specified day (Monday through Sunday). | Hour |
+|<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="meeting-hours-on-x-define"></a>  Meeting hours on *x* (day) | Number of hours a person spent in meetings with at least one other person during and outside of working hours on the specified day (Monday through Sunday). | Hour |
 | | <a name="weekend-emails-sent-define"></a>  Weekend emails sent | Number of emails a person sent on Saturdays or Sundays. | Count |
 ||<a name="open-1-hour-block-define"></a> Open 1-hour block | <a name="weekend-emails-sent-define"></a>  Number of open one-hour blocks in a person’s calendar without any scheduled meetings during the workday. | Count |
 | | <a name="weekend-channel-message-posts-define"></a>  Weekend channel message posts | Number of messages a person posted on Teams channels during Saturdays or Sundays. | Count |
