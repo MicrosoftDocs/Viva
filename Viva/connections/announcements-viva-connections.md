@@ -109,7 +109,7 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
     :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement."lightbox="../media/connections/announcements-viva-connections/announcement-review.png":::
 
 > [!NOTE]
-> Once an announcement has been sent, message details and end date can still be edited.
+> Once an announcement has been sent, message details and end date cannot be edited.
 
 ## How to schedule an announcement to send later
 
