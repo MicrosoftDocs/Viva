@@ -1,5 +1,5 @@
 ---
-ms.date: 10/11/2023
+ms.date: 10/19/2023
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -22,7 +22,8 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 
 | Category | Name | Description | Data type |
 |---|---|---|---|
-|<a name="after-hours-collaboration-define"></a> **After-hours collaboration** |  <a name="after-hours-collaboration-define"></a> After-hours collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours. | Hour |
+|<a name="after-hours-collaboration-define"></a> **After-hours collaboration** |  <a name="after-hours-channel-message-hours-define"></a> After-hours channel message hours | Number of hours a person spent posting, replying to, or reading Teams channels messages outside of working hours. | Hour |
+| | <a name="after-hours-collaboration-hours-define"></a>  After-hours collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours. | Hour |
 | | <a name="after-hours-email-hours-define"></a>  After-hours email hours | Number of hours a person spent sending and receiving emails outside of working hours. | Hour |
 | | <a name="after-hours-call-hours-define"></a>  After-hours call hours | Number of hours a person spent in scheduled and unscheduled Teams calls, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule. | Hour |
 | | <a name="after-hours-unscheduled-call-hours-define"></a>  After-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, outside of working hours. For calls that started during working hours, this number only includes the part of the call that occurred outside of that person’s work schedule. | Hour |
@@ -30,6 +31,11 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="after-hours-chat-hours-define"></a>  After-hours chat hours | Number of hours a person spent in Teams chats outside of working hours. | Hour |
 | | <a name="after-hours-meeting-hours-define"></a>  After-hours meeting hours | Number of hours a person spent in meetings with at least one other person, outside of working hours. | Hour |
 | <a name="collaboration-activity-define"></a> **Collaboration activity** |<a name="active-connected-hours-define"></a>Active  connected hours| Sum of half-hour blocks where a person remains active. An active block is defined as having at least one meeting or Teams call or email sent or Teams chat sent with at least one other person, either internal or external, during that block.| Hour| 
+||<a name="channel-message-hours-define"></a> Channel message hours | Number of hours a person spent posting, replying to, or reading Teams channels messages. | Hour |
+||<a name="channel-message-posts-define"></a> Channel message posts | Number of messages posted on Teams channels. | Count |
+||<a name="channel-message-reactions-define"></a> Channel message reactions | Number of reactions to posts and replies to messages on Teams channels. | Count |
+||<a name="channel-message-replies-define"></a> Channel message replies | Number of replies to messages on Teams channels. | Count |
+||<a name="channel-visits-define"></a> Channel visits | Number of visits to Teams channels. | Count |
 ||<a name="collaboration-hours-define"></a> Collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 || <a name="collaboration-span-define"></a> Collaboration span| Number of hours a person spent in work sessions, including those before, during, and after working hours as set in Outlook. *During* working hours, a work session is the time between the first and last collaboration activity. *Before* or after working hours, a work session is the time that one activity takes from start to finish, unless another activity starts within one hour. In that case, the session lasts from the beginning of the first to the end of the second activity.|Hour|
 | | <a name="email-hours-define"></a>  Email hours | Number of hours a person spent sending and receiving emails. | Hour |
@@ -44,8 +50,11 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="chats-sent-define"></a>  Chats sent | Number of Teams chats a person sent. | Count |
 | | <a name="calls-define"></a>  Calls | Number of Teams calls a person joined, including scheduled and unscheduled calls. | Count |
 | | <a name="meeting-and-call-hours-define"></a>  Meeting and call hours | Number of hours a person spent in meetings and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities. | Hour |
-|<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="weekend-emails-sent-define"></a>  Weekend emails sent | Number of emails a person sent on Saturdays or Sundays. | Hour |
+|<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="meeting-hours-on-x-define"></a>  Meeting hours on x (day) | Number of hours a person spent in meetings with at least one other person during and outside of working hours on the specified day (Monday through Sunday). | Hour |
+| | <a name="weekend-emails-sent-define"></a>  Weekend emails sent | Number of emails a person sent on Saturdays or Sundays. | Count |
 ||<a name="open-1-hour-block-define"></a> Open 1-hour block | <a name="weekend-emails-sent-define"></a>  Number of open one-hour blocks in a person’s calendar without any scheduled meetings during the workday. | Count |
+| | <a name="weekend-channel-message-posts-define"></a>  Weekend channel message posts | Number of messages a person posted on Teams channels during Saturdays or Sundays. | Count |
+| | <a name="weekend-channel-message-replies-define"></a>  Weekend channel message replies | Number of messages a person replied to on Teams channels during Saturdays or Sundays. | Count |
 | | <a name="weekend-chats-sent-define"></a>  Weekend chats sent | Number of Teams chats a person sent on Saturdays or Sundays. | Hour |
 | | <a name="weekend-meetings-define"></a>  Weekend meetings | Number of meetings a person attended during Saturdays or Sundays. | Count |
 | | <a name="unscheduled-weekend-calls-define"></a>  Unscheduled weekend calls | Number of unscheduled Teams calls a person joined, on Saturdays or Sundays. | Count |
@@ -61,9 +70,15 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="small-group-chats-sent-excluding-manager-define"></a> Small-group chats sent, excluding manager | Number of Teams chats a person sent to an internal group of eight or less people, including the sender and excluding the sender’s manager from the recipient group. | Count |
 | | <a name="internal-meeting-hours-without-manager-1-1-define"></a> Internal meeting hours without manager 1:1 | Number of hours a person spent in meetings with only one other person who is not their manager. | Hour |
 | | <a name="internal-meeting-hours-with-3-to-8-attendees-define"></a> Internal meeting hours with 3 to 8 attendees | Number of hours a person spent in meetings with at least three and up to eight internal collaborators only and no external collaborators. | Hour |
-| <a name="collaboration-involving-manager-define"></a> **Collaboration involving manager** | <a name="unscheduled-call-hours-with-manager-1-1-define"></a>Redundant meeting hours (lower level)<a name="redundant-meeting-hours-lower-level-define"></a>|Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting.|Hour
+| <a name="collaboration-involving-manager-define"></a> **Collaboration involving manager** | <a name="meeting-and-call-hours-with-manager-define"></a>Meeting and call hours with manager<a name="meeting-and-call-hours-with-manager-define"></a>|Number of hours a person spent in meetings and Teams calls where attendees included the person, their manager, and one or more other people (not a one-on-one meeting or call), after deduplication of time due to overlapping activities. |Hour
+| | <a name="meeting-and-call-hours-with-manager-1-1-define"></a> Meeting and call hours with manager 1:1 | Number of hours a person spent in meetings and Teams calls involving only the person and their manager, after deduplication of time due to overlapping activities. | Hour |
+| | <a name="meeting-and-call-hours-with-skip-level-define"></a> Meeting and call hours with skip level | Number of hours a person spent in meetings and Teams calls where their manager's manager also attended the meeting or joined the call, after deduplication of time due to overlapping activities. | Hour |
+| | <a name="meeting-and-call-hours-with-skip-level-1-1-define"></a> Meeting and call hours with skip level 1:1 | Number of hours a person spent in meetings and Teams calls involving only the person and their skip manager, after deduplication of time due to overlapping activities. | Hour |
+| | <a name="redundant-meeting-hours-lower-level-define"></a> Redundant meeting hours (lower level) | Number of meeting hours a person spent in a meeting with both their manager and their skip-level manager present in the meeting. | Hour |
+| | <a name="recurring-meeting-hours-with-manager-1-1-define"></a> Recurring meeting hours with manager 1:1 | Number of hours a person spent in recurring meetings involving only the person and their manager. | Hour |
 || Unscheduled call hours with manager 1:1 | Number of hours a person spent in unscheduled Teams calls involving only the person and their manager. | Hour |
 | | <a name="unscheduled-call-hours-with-manager-define"></a> Unscheduled call hours with manager | Number of hours a person spent in unscheduled Teams calls where attendees included the person, their manager, and one or more other people (not a one-on-one meeting). | Hour |
+| | <a name="unscheduled-call-hours-with-skip-level-define"></a> Unscheduled call hours with skip level | Number of hours a person spent in unscheduled Teams calls where their manager's manager also joined the call. | Hour |
 | | <a name="collaboration-hours-with-direct-reports-define"></a> Collaboration hours with direct reports | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls where all participants report directly to the person, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 | | <a name="small-group-emails-sent-including-manager-define"></a> Small-group emails sent, including manager | Number of emails a person sent to an internal group of eight or less people, including the sender and the sender's manager in the recipient group. | Count |
 | | <a name="small-group-chats-sent-including-manager-define"></a> Small-group chats sent, including manager | Number of Teams chats a person sent to an internal group of eight or less people, including the sender and the sender's manager in the recipient group. | Count |
@@ -93,7 +108,8 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 |**Person-to-Group**|Collaboration time invested | Time spent by a person collaborating with any member of a collaborator group | Minutes
 || Meeting time invested | Time spent by a person in a meeting with any member of a collaborator group | Minutes
 || Mail time invested | Time spent by a person sending mails to or reading mails from any member of a collaborator group | Minutes
-| <a name="external-collaboration-define"></a> **External collaboration** | <a name="external-collaboration-hours-define"></a> External collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
+| <a name="external-collaboration-define"></a> **External collaboration** | <a name="external-channel-message-hours-define"></a> External channel message hours | Number of hours a person spent posting, replying to or reading messages in Teams channels with at least one other person outside the company. | Hour |
+| | <a name="external-collaboration-hours-define"></a> External collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting) | Hour |
 | | <a name="external-unscheduled-call-hours-define"></a> External unscheduled call hours | Number of hours a person spent in unscheduled Teams calls with at least one other person outside the company. | Hour |
 | | <a name="external-email-hours-define"></a> External email hours | Number of hours a person spent in emails with at least one other person outside the company. | Hour |
 | | <a name="external-chat-hours-define"></a>  External chat hours | Number of hours a person spent in Teams chats with at least one other person outside the company. | Hour |
@@ -105,6 +121,8 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | <a name="generated-load-define"></a> **Generated load**|  <a name="generated-load-call-hours-define"></a>  Generated load - Call hours | Number of Teams calls hours that the person created for internal participants by initiating Teams calls. | Hour |
 | | <a name="generated-load-call-participants-define"></a> Generated load – Call participants | Number of internal participants of Teams calls that were initiated by a person. | Count |
 | | <a name="generated-load-calls-organized-define"></a> Generated load – Calls organized | Number of internal Teams calls that were initiated by a person. | Count |
+| | <a name="generated-load-channel-message-reactions-define"></a> Generated load – Channel message reactions | Number of reactions to messages posted or replies to messages by the person on Teams channels. | Count |
+| | <a name="generated-load-channel-message-replies-define"></a> Generated load – Channel message replies | Number of replies to messages posted by the person on Teams channels. | Count |
 | | <a name="generated-load-chat-recipients-define"></a> Generated load – Chat recipients | Number of internal recipients who read Teams chats sent by a person. | Count |
 | | <a name="generated-load-chats-read-hours-define"></a> Generated load – Chats-read hours | Number of hours that internal recipients spent reading Teams chats sent by a person. | Hour |
 | | <a name="generated-load-email-recipients-define"></a> Generated load – Email recipients | Number of internal recipients who read emails sent by a person. | Count |
@@ -117,6 +135,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 ||Booked focus hours kept with plan |Number of hours a person booked in Viva Insights, using a focus plan, that didn’t overlap with meetings. | Hour
 ||Booked focus hours kept without plan | Number of focus hours a person booked in Viva Insights, without using a focus plan, that didn’t overlap with meetings.  |Hour
 ||Booked no-meeting days | Number of days a person booked as [no-meeting days](../../personal/teams/shared-no-meeting-day.md) in Viva Insights.  | Day
+|**Learning time**| Calendared learning time | Number of hours blocked in a person’s calendar for learning activities. An appointment or meeting is considered a learning activity based on keywords that appear in the subject line. | Hour
 |<a name="meeting-hours-on-time-and-advanced-notice-define"></a> **Meetings on time and with advanced notice**| <a name="meeting-hours-with-12-to-24-hours-of-advanced-notice-define"></a> Meeting hours with 12 to 24 hours of advanced notice | Number of meeting hours that were scheduled more than 12 and less than 24 hours before the meeting start time. | Hour
 ||<a name="meeting-hours-with-24-or-more-hours-of-advanced-notice-define"></a> Meeting hours with 24 or more hours of advanced notice |Number of meeting hours that were scheduled 24 hours or more before the meeting start time. | Hour|
 ||<a name="meeting-hours-with-six-or-fewer-hours-of-advanced-notice-define"></a>Meeting hours with six or fewer hours of advanced notice | Number of meeting hours that were scheduled six hours or before the meeting start time. | Hour
@@ -125,11 +144,15 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 ||<a name="meeting-hours-ended-on-time-define"></a> Meeting hours ended on time |Number of Teams meeting hours that were ended early or within one minute after the scheduled end time. | Hour|
 ||<a name="meeting-hours-not-ended-on-time-define"></a>Meeting hours not ended on time |Number of Teams meetings hours that were ended after one minute past the scheduled end time. |Hour
 ||<a name="meeting-hours-not-joined-on-time-define"></a>Meeting hours not joined on time |Number of Teams meetings hours that were joined after five minutes past the scheduled start time. | Hour
-|<a name="meeting-types-define"></a> **Meeting types** | <a name="conflicting-meeting-hours-define"></a> Conflicting meeting hours | Number of meeting hours where a person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps. | Hour |
+|<a name="meeting-types-define"></a> **Meeting types** | <a name="30-to-59-minutes-long-meeting-hours-define"></a> 30 to 59 minutes long meeting hours | Hours of meetings with a duration of 30 to 59 minutes. | Hour |
+| |  <a name="30-to-59-minutes-long-meetings-define"></a> 30 to 59 minutes long meetings | Number of meetings with a duration of at least 30 minutes and less than one hour.​ | Count |
+| |  <a name="60-minutes-or-longer-meeting-hours-define"></a> 60 minutes or longer meeting hours | Hours of meetings with a duration of 60 minutes or longer. | Hour |
+| |  <a name="conflicting-meeting-hours-define"></a> Conflicting meeting hours | Number of meeting hours where a person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps.  | Hour |
 | |  <a name="small-and-short-meeting-hours-define"></a>  Small and short meeting hours | Meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
 | |  <a name="small-and-short-recurring-meeting-hours-define"></a> Small and short recurring meeting hours | Recurring meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
 | |  <a name="large-and-long-meeting-hours-define"></a>  Large and long meeting hours | Meeting hours with a duration of more than one hour and nine or more invitees, including the organizer. | Hour |
 | |  <a name="large-and-long-recurring-meeting-hours-define"></a> Large and long recurring meeting hours | Recurring meeting hours with a duration of more than one hour and nine or more invitees, including the organizer. | Hour |
+| |  <a name="large-and-long-recurring-meetings-define"></a> Large and long recurring meetings | Number of recurring meetings that are more than one hour and include nine or more attendees, including the organizer. | Count |
 | |  <a name="large-and-short-meeting-hours-define"></a> Large and short meeting hours | Meeting hours with a duration of one hour or less and nine or more invitees, including the organizer. | Hour |
 | | <a name="large-and-short-recurring-meeting-hours-define"></a> Large and short recurring meeting hours | Recurring meeting hours with a duration of one hour or less and nine or more invitees, including the organizer. | Hour |
 | | <a name="small-and-long-meeting-hours-define"></a>Small and long meeting hours | Meeting hours with a duration of more than one hour that have at least two and up to eight invitees, including the organizer. | Hour |
@@ -139,11 +162,14 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 ||Number of attendees who didn’t end the meeting on time|Number of attendees who left a Teams meeting after one minute past the scheduled end time.|Count |
 ||Number of attendees who joined the meeting on time|Number of attendees who joined a Teams meeting early or within five minutes after the scheduled start time.|Count|
 ||Number of attendees who didn’t join the meeting on time|Number of attendees who joined a Teams meeting after five minutes past the scheduled start time.|Count|
-| <a name="working-hours-collaboration-define"></a> **Working-hours collaboration** | <a name="working-hours-collaboration-hours-define"></a> Working-hours collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), during working hours. | Hour |
+| <a name="working-hours-collaboration-define"></a> **Working-hours collaboration** | <a name="working-hours-channel-message-hours-define"></a> Working-hours channel message hours | Number of hours a person spent posting, replying to, or reading Teams channels messages during working hours. | Hour |
+| | <a name="working-hours-collaboration-hours-define"></a> Working-hours collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), during working hours. | Hour |
 | | <a name="working-hours-email-hours-define"></a> Working-hours email hours | Number of hours a person spent sending and receiving emails during working hours | Hour |
 | | <a name="working-hours-call-hours-define"></a> Working-hours call hours | Number of hours a person spent in scheduled and unscheduled Teams calls, during working hours. | Hour |
 | | <a name="working-hours-chat-hours-define"></a> Working-hours chat hours | Number of hours a person spent in Teams chats during working hours. | Hour |
 | | <a name="working-hours-meeting-hours-define"></a> Working-hours meeting hours | Number of hours a person spent in meetings with at least one other person, during working hours. | Hour |
+| | <a name="working-hours-scheduled-call-hours-define"></a> Working-hours scheduled call hours | Number of hours a person spent in scheduled Teams calls, during working hours. | Hour |
+| | <a name="working-hours-unscheduled-call-hours-define"></a> Working-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, during working hours. | Hour |
 
 
 ## Exported metrics
