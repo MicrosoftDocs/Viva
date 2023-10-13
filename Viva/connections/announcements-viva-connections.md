@@ -150,7 +150,7 @@ Choose **+ New announcement** and follow the steps to [draft your announcement](
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcement-page-new-announcement.png" alt-text="Screenshot of the new announcement button highlighted.":::
 
-### Edit an active, scheduled, and drafted announcement
+### Edit scheduled and drafted announcement
 
 1. From the **Announcements** page, select the **edit** (pencil) icon for the announcement you want to make changes to.
 
