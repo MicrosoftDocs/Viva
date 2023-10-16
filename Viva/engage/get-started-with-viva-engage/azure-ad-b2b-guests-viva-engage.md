@@ -89,7 +89,7 @@ The guest experience has limitations by design. Following is a list of limitatio
 
 - A guest can't be a community admin, nor can they change community settings like these:
   - Adding new members to the community and removing membership
-  - Promoting and demoting the owners
+  - Promoting and demoting community owners
   - Editing community info
   - Adding related groups
   - Adding connectors 
