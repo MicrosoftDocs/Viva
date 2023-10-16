@@ -248,7 +248,7 @@ The site URL provided by the knowledge admin where the Learning App Content Repo
 
 Linked folders linked in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
 
-For encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers&preserve-view=true) for detailed summaries of successful and failed content ingestions.
+If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs.md#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 
 For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 
