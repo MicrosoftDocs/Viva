@@ -172,7 +172,10 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="working-hours-unscheduled-call-hours-define"></a> Working-hours unscheduled call hours | Number of hours a person spent in unscheduled Teams calls, during working hours. | Hour |
 
 
-<sup>**Note:** In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Advanced insights app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.</sup>
+
+> [!NOTE]
+> In Microsoft Teams, teamwork and communication happen in channels. Viva Insights includes several metrics which measure aspects of team communication over channels in Teams. When these metrics first become available in the Advanced insights app, they will reflect a baseline of only 14 days of historical data; this historical data will increase as time progresses. This differs from other metrics, which usually have 13 months of historical baseline data.
+
 
 ## Exported metrics
 
