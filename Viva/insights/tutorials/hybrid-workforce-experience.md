@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/29/2022
 title: Hybrid workforce experience dashboard
 description: Learn how to understand how hybrid work affects employees differently through the Hybrid workforce experience Power BI dashboard
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:

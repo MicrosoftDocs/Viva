@@ -1,9 +1,9 @@
 ---
-ms.date: 03/03/2023
+ms.date: 10/11/2023
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 manager: helayne
@@ -81,6 +81,8 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 || Influence rank| An employee’s potential influence on opinions of the network. It measures how well connected a person is to other well-connected individuals. The closer the rank is to 1, the higher the person’s rank or network influence score. If two people have the same influence score, they also have the same influence rank. (A person’s influence score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)
 ||Influence score|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)|Rank
 ||Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks.|Count |
+||Network outside company|The number of distinct external domains outside the company with at least one individual a person has had a reciprocal interaction with.|Count |
+||Network outside organization|The number of distinct internal organizational units within the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Strong ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) and who are also connected to many of that person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) |Count 
 ||Strong ties score | Strong ties represent connections with people that are part of a person’s inner working group who work together regularly. Strong ties score measures the relative strength of a connection between two individuals. (Interactions are based on emails, meetings, Teams calls and chats.) |Score
 ||Strong tie type | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the Strong tie score metric.) | Score |
