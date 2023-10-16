@@ -138,6 +138,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 |<a name="meeting-types-define"></a> **Meeting types** | <a name="30-to-59-minutes-long-meeting-hours-define"></a> 30 to 59 minutes long meeting hours | Hours of meetings with a duration of 30 to 59 minutes. | Hour |
 | |  <a name="30-to-59-minutes-long-meetings-define"></a> 30 to 59 minutes long meetings | Number of meetings with a duration of at least 30 minutes and less than one hour.​ | Count |
 | |  <a name="60-minutes-or-longer-meeting-hours-define"></a> 60 minutes or longer meeting hours | Hours of meetings with a duration of 60 minutes or longer. | Hour |
+| |  <a name="60-minutes-or-longer-meetings-define"></a> 60 minutes or longer meetings | Number of meetings with a duration of 60 minutes or longer. | Count |
 | |  <a name="conflicting-meeting-hours-define"></a> Conflicting meeting hours | Number of meeting hours where a person had overlapping meetings in their calendar. The count includes just the amount of time that overlaps.  | Hour |
 | |  <a name="small-and-short-meeting-hours-define"></a>  Small and short meeting hours | Meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
 | |  <a name="small-and-short-recurring-meeting-hours-define"></a> Small and short recurring meeting hours | Recurring meeting hours with a duration of one hour or less that have at least two and up to eight invitees, including the organizer. | Hour |
