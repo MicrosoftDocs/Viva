@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Primary and secondary collaborators in queries
 description: Learn about the difference between collaborator types in the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

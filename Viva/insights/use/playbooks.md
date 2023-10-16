@@ -9,8 +9,8 @@ ms.service: viva
 ms.subservice: viva-insights 
 search.appverid: 
 - MET150 
-ms.author: v-lilyolason
-author: madehmer
+ms.author: v-zachminers
+author: zachminers
 ms.topic: article
 manager: helayne
 audience: Admin
