@@ -68,7 +68,7 @@ The **Manage audiences** page appears, where you configure the leader’s audien
 
 - **One or more audiences:** An audience represents people that the leader wants to connect with most, typically those in the leader’s immediate organization. To define an audience, select the **Add new audience** button and then search to add an existing group. If you can't find a group that includes the audience members you want, create a new group and add users to it.
 
-   [![Screenshot of the Manage audience interface in Viva Engage.](/viva/media/engage/admin/manage-audiences.png)](/viva/media/engage/admin/manage-audiences.png#lightbox)
+    :::image type="content" source="/viva/media/engage/admin/manage-audiences.png" alt-text="Screenshot of the Manage audience interface in Viva Engage.":::
 
    > [!NOTE]
    > Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
