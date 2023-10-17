@@ -48,7 +48,7 @@ From the admin dashboard, go to the survey you want to edit. Display logic can b
 1. Select the **vertical ellipses** next to a survey item to display the dropdown menu.
 1. Select **Edit Display Logic** to open the Display Logic slider window.
 
-:::image type="content" source="../../media/glint/setup/glint-dropdown-display-logic.png" alt-text="Screenshot of question setup display logic dropdown menu item.":::
+:::image type="content" source="../../media/glint/setup/glint-dropdown-display-logic-2.png" alt-text="Screenshot of question setup display logic dropdown menu item.":::
 
 1. Choose the **overall logic for conditions**, using the dropdown menu.
 1. Next, choose the **condition** and **subcondition** using the corresponding dropdown menus.
@@ -58,9 +58,7 @@ From the admin dashboard, go to the survey you want to edit. Display logic can b
 1. Add additional conditions as needed.
 2. Select **Save Changes**.
 
-:::image type="content" source="../../media/glint/setup/glint-display-logic-pane.png" alt-text="Screenshot of display logic setup pane.":::
+:::image type="content" source="../../media/glint/setup/glint-display-logic-pane-2.png" alt-text="Screenshot of display logic setup pane.":::
 
 > [!IMPORTANT]
 > The first item in your survey can’t have display logic, which is based on responses to previous survey items.
-
-:::image type="content" source="../../media/glint/setup/glint-display-logic-error.png" alt-text="Screenshot of display logic warning for first survey item.":::
