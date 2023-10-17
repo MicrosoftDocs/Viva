@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2021
+ms.date: 10/17/2023
 title: Manage topics at scale in Microsoft Viva Topics
 ms.author: daisyfeller
 author: daisyfell
@@ -42,7 +42,7 @@ First, a reminder of the [four stages for topics](manage-topics.md#topic-status)
 
   When a published topic is removed, the page with the curated details will need to be deleted manually through the Pages Library of the topic center.
 
-## Knowledge manager role 
+## Knowledge manager role
 
 When you configure Viva Topics, you'll add a group of users who are granted permissions to see the **Manage topics** page in the topic center. It will appear only for these users who hold the role of primary curation for the topics. They'll have access to data about the topics and will be able to see lists of all topics that they have access to review and curate.
 
@@ -126,7 +126,7 @@ Based on the permissions to view content that is associated with a topic, each u
 
 ## Prioritize the topics for curation
 
-You can use the following strategies to identify topics that are likely to be prominent, and therefore are good candidates for curation. 
+You can use the following strategies to identify topics that are likely to be prominent, and therefore are good candidates for curation.
 
 ### Taxonomies
 
