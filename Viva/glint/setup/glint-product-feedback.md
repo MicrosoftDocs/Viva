@@ -29,7 +29,7 @@ Microsoft Viva Glint provides an easy and consistent way for customers to provid
 
 Select an option to open the corresponding feedback window.
 
-:::image type="content" source="../../media/glint/setup/glint-feedback-options.png" alt-text="Screenshot of product feedback options: compliment, report a problem, make a suggestion.":::
+:::image type="content" source="../../media/glint/setup/glint-feedback-options.png" alt-text="Screenshot of product feedback options including compliment, report a problem, and make a suggestion.":::
 
 ### Give a compliment
 
