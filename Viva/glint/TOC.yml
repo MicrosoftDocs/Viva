@@ -95,6 +95,8 @@ items:
                 href: setup/benchmarks.md
               - name: Share Viva Glint post-survey learning experiences with your employees
                 href: setup/post-survey-learnings.md
+              - name: Submit product feedback to Viva Glint
+                href: setup/glint-product-feedback.md
           - name: Best practices program guidance
             href: setup/best-practice-setup-guidance.md
             items:
@@ -151,6 +153,8 @@ items:
                 href: setup/team-effectiveness-survey.md
               - name: Set up a Manager Effectiveness survey
                 href: setup/manager-effectiveness-survey.md
+              - name: Assign the right survey items to users with Viva Glint Display Logic
+                href: setup/viva-glint-display-logic.md
           - name: Setting up Employee Lifecycle surveys
             href: setup/preview-filter-lifecycle-programs.md
             items:
