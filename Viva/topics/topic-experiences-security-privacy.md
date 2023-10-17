@@ -10,7 +10,7 @@ ms.topic: article
 ms.collection:
   - m365initiative-viva-topics
   - Tier1
-  - essentials-compliance
+  - essentials-accountability
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
