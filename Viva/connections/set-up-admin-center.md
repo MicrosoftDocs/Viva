@@ -370,7 +370,7 @@ Follow these instructions if your organization already has custom Connections da
 
 1. Keep the new SharePoint home site in **Draft mode** until content has been copied into the site.
 2. Navigate to the SharePoint home site. Next go to **Settings**.
-3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the SharePoint home site, go to **Set up Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
+3. Copy dashboard content from Teams to SharePoint. To set up the dashboard from the SharePoint home site, go to **Manage Viva Connections > Create dashboard**. Preview and then **Publish** the dashboard when it’s ready to be shared with others.
 
    :::image type="content" source="../media/connections/set-up-admin-center/sharepoint-settings.png" alt-text="Screenshot showing the setting options in SharePoint." lightbox="../media/connections/set-up-admin-center/sharepoint-settings-big.png":::
 
