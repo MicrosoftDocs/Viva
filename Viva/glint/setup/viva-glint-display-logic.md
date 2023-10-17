@@ -61,4 +61,4 @@ From the admin dashboard, go to the survey you want to edit. Display logic can b
    :::image type="content" source="../../media/glint/setup/glint-display-logic-pane-2.png" alt-text="Screenshot of display logic setup pane.":::
 
    > [!IMPORTANT]
-    The first item in your survey can’t have display logic, which is based on responses to previous survey items.
+   > The first item in your survey can’t have display logic, which is based on responses to previous survey items.
