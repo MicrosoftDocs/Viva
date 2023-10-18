@@ -61,6 +61,14 @@ items:
                 href: setup/create-employee-attribute-template.md
               - name: Set up attributes in Viva Glint
                 href: setup/send-employee-attributes.md
+              - name: Understand and manage Viva Glint Secure File Transfer Protocol (SFTP)
+                items:
+                  - name: Understand Viva Glint SFTP and data automation
+                    href: setup/sftp-data-automation.md
+                  - name: Create an SSH key pair
+                    href: setup/sftp-ssh-key-gen.md
+                  - name: Set up Secure File Transfer Protocol (SFTP)
+                    href: setup/set-up-sftp.md  
               - name: Upload your employee attributes to Viva Glint
                 href: setup/upload-employee-attributes.md
               - name: Understand file upload errors and warnings in Viva Glint
