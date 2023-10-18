@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 07/21/2023
+ms.date: 10/18/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -49,6 +49,9 @@ You can use feature access management to manage access to the following features
 
 
 \* Not yet available for all tenants. Support will be added soon.
+
+> [!NOTE]
+> You can only control access to features that support access policies *and* that are supported in your tenant. For example, if your organization is located in an EDU-based tenant, you can't create an access policy for a feature that's limited because of local regulations. Check the documentation for the specific feature that you'd like to use for more information about its availability.
 
 ## Requirements
 
