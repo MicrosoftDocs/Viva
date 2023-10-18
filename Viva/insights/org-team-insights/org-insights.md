@@ -22,7 +22,7 @@ Organization insights help leaders and managers build high performing teams. Lea
 To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
-* To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [group manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
+* To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [Group Manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
 * To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md). 
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
@@ -31,7 +31,7 @@ People in your organization also need to have a Viva Insights subscription so th
 
 People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
 
-People enabled as group managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
+People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 
@@ -64,7 +64,7 @@ Let's take a look at how to use these features:
 
     People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope.
 
-    **If you're enabled as a group manager:** On the left, select the dropdown menu to toggle between viewing insights for your organization, or different subgroups within your team. Teams with less than the minimum team size will be colored gray and their insights won't be visible.
+    **If you're enabled as a Group Manager:** On the left, select the dropdown menu to toggle between viewing insights for your organization, or different subgroups within your team. Teams with less than the minimum team size will be colored gray and their insights won't be visible.
 
     :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers." lightbox="images/org-insights-scope-group-manager.png":::
    Screenshot of the "Your organization insights" drilldown section for group managers.
@@ -76,7 +76,7 @@ Let's take a look at how to use these features:
    Screenshot of the "Your organization insights" drilldown section for Insights Business Leaders.
     :::image-end:::
 
-    **If you're enabled as a group manager *and* you're an Insights Business Leader:** You can use the toggle to view insights either for your team and subgroups, or for the entire company.
+    **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can use the toggle to view insights either for your team and subgroups, or for the entire company.
 
 1. **Time filter**
 
@@ -90,7 +90,7 @@ Let's take a look at how to use these features:
 
     Use the benchmark toggle to compare your insights against previous time periods, peer groups, or the company average. Your benchmark options will vary depending on your assigned role and the time filter you selected.
 
-    **If you're enabled as a group manager:** If you selected a 1 week or 4 week filter, you can compare your insights to the prior week or prior 4 weeks for your organization. 
+    **If you're enabled as a Group Manager:** If you selected a 1 week or 4 week filter, you can compare your insights to the prior week or prior 4 weeks for your organization. 
 
     The sample screenshot below shows the Benchmark results (highlighted) for the prior 4 weeks for your organization.
 
@@ -116,7 +116,7 @@ Let's take a look at how to use these features:
 
     **If you have the Insights Business Leader role assigned:** You can only set 1 week or 4 week prior time periods as your benchmark. If you selected a 12 week time filter, you can't select a 12 week benchmark.
 
-    **If you're enabled as a group manager *and* you're an Insights Business Leader:** You can select any of the benchmark options described above.
+    **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can select any of the benchmark options described above.
 
 
 1. **Indicators**
