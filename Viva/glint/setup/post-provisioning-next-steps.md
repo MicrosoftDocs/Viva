@@ -80,14 +80,14 @@ As a Viva Glint Service admin, use the following guidance to complete platform s
 
 - [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
 - [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
-- [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
 
 - Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 - Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 - [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Set up Employee Attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991)
+- [Set up Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247430)
 - [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### 3. Manage features and settings
