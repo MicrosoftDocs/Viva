@@ -2,8 +2,8 @@
 ms.date: 02/03/2023
 title: Metric rules in Viva Insights
 description: Learn about metric rules in Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 manager: anirudh-bajaj

@@ -38,12 +38,12 @@ To perform administrative tasks in Viva Engage, a user must be assigned an admin
 | **[Office 365 report reader](#office-365-report-reader)**| Views reports showing overall Viva Engage usage. This role is helpful for anyone assigned to improve and monitor Viva Engage adoption. | Office 365 |
 
 ## Microsoft 365 Global Administrator
-The Global Administrator role has administrative access to all features for Azure Active Directory identities and services that use those identities.
+The Global administrator role has administrative access to all features for Azure Active Directory identities and services that use those identities.
 This role controls configuration for Viva Engage in your organization. As such, it has unlimited access to the settings and most of its data, including subscription management. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |Same as an Engage admin, plus:<br>Assigns or removes the Global Administrator role and the Office 365 reports reader role.<br>Views reports in the Office 365 Usage Reporting dashboard. <br>Manages other Microsoft 365 services.|
+|**Permissions** |Same as an Engage admin, plus:<br>Assigns or removes the Global administrator role and the Office 365 reports reader role.<br>Views reports in the Office 365 Usage Reporting dashboard. <br>Manages other Microsoft 365 services.|
 |**Who can assign this role**|global admins|
 |**How to assign this role**| See [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles)|
 
@@ -55,9 +55,9 @@ A global admin can assign the Engage admin role in [Azure AD](https://techcommun
 
 **Permissions**
 
-The following table shows the range of actions available to the Engage admin and Global Administrator roles based on their license. Admin permissions require that users have the correct licensing to configure the features.
+The following table shows the range of actions available to the Engage admin and Global administrator roles based on their license. Admin permissions require that users have the correct licensing to configure the features.
 
-|Permissions for the Engage admin and Global Administrator roles |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
+|Permissions for the Engage admin and Global administrator roles |M365/O365 customer with Viva Engage core |Microsoft Viva suite customer|
 |----------------------|:-:|:-:|
 |**Manage corporate communicators**: <br> Assigns or removes users as a corporate communicator  |✓|✓|
 |**Manage tenant and user permissions** |✓|✓|
@@ -65,9 +65,9 @@ The following table shows the range of actions available to the Engage admin and
 |**Manage leaders and their audiences**: <br> Assigns leaders in your organization; identify audiences for the leaders identified | |✓|
 |**Configure stories and storylines**: <br>Enables storylines and stories for your organization; configure advanced settings like default notifications; specify who can create storyline posts |✓|✓|
 |**Manage sentiment analysis and other feature specific analytics**: <br> Configures level of sentiment to be gathered in the organization; Enable or disable campaign analytics; enable or disable Answers analytics|  |✓|
-|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; accesses campaign analytics dashboard|  |✓|
+|**Add, view, and manage campaigns**: <br>Creates and manages campaigns; removes posts that aren't aligned with campaign; accesses campaign analytics dashboard|  |✓|
 |**Enable and manage badges**|  |✓|
-|**Enable Answers**|  |Global Administrator only |
+|**Enable Answers**|  |Global administrator only |
 
 ## Verified admin
 |Function |Details |
@@ -93,27 +93,28 @@ Only a global admin can assign (or modify) the Answers admin role. This role is 
 
 The following table shows the actions available to an unlicensed user compared with various admin roles in Viva Engage.
 
-|Answers permissions for an Answers admin, Engage admin, and Global Administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
+|Answers permissions for an Answers admin, Engage admin, and Microsoft 365 Global Administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
 |----------------------|:-:|:-:|
 |**Ask, answer, upvote, and react**|Interact with questions that they're mentioned in|✓|
 |**Suggest topics**| |✓|
 |**Mark best answer**| |✓|
 |**Delete and close posts**| |✓|
 |**See global insights**| |✓|
-|**Feature topics**| |Answers admin and Global Administrator only|
-|**Approve suggested topics**| |Answers admin and Global Administrator only|
-|**Enable and manage badges**| |Answers admin and Global Administrator only|
-|**Enable Answers**| |Global Administrator only|
+|**Feature topics**| |Answers admin and Global administrator only|
+|**Approve suggested topics**| |Answers admin and Global administrator only|
+|**Enable and manage badges**| |Answers admin and Global administrator only|
+|**Enable Answers**| |Global administrator only|
 
 ## Corporate communicator
 
-Corporate communicators can create and manage campaigns, define leaders, and manage content across the organization. This role provides more capabilities than the Community admin role, but is less powerful than the overall Engage admin role.
+The Corporate communicator role provides more capabilities than the Community admin role, but fewer than the Engage admin role. 
+Corporate communicators can create and manage campaigns, define leaders, assign campaign co-organizers, and manage content across the organization. 
 
 Roles that can assign, modify, or delete Corporate communicators privileges for users include: the Global Administrator role, the Engage admin role, and fellow corporate communicators.
 
 **Permissions**
 
-The actions available to the Corporate Communicator, Engage (Yammer) admin, and Global Administrator role based on their license appear in the following table.  
+The actions available to the Corporate Communicator, Engage (Yammer) admin, and Microsoft 365 Global Administrator role based on their license appear in the following table.  
 
 |Permissions for the Corporate communicator role, Engage admin role, and Global Administrator role |M365/O365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------------|:-:|:-:|
@@ -126,14 +127,14 @@ The actions available to the Corporate Communicator, Engage (Yammer) admin, and 
 |Function |Details |
 |--------|-----------------|
 |**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>
- |**Who can assign this role**|Any Viva Engage user who creates a community is automatically assigned the community admin role, and can add or remove community admins (up to 100 per community).<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Viva Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks, including adding more community admins. |
+ |**Who can assign this role**|Any Engage user who creates a community is automatically assigned the community admin role, and can add or remove community admins (up to 100 per community).<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks, including adding more community admins. |
 |**How to assign this role**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
 ## Office 365 report reader
 |Function |Details |
 |--------|-----------------|
 |**Permissions** |Views the activity, community, and device usage reports for Viva Engage in the Microsoft 365 Reports dashboard.|
-|**Who can assign this role**|Global Administrator|
+|**Who can assign this role**|Global administrator|
 |**How to assign this role**|In Microsoft 365, go to **Admin** > **Users** > **Active Users** and select a user.|
 
 ## See also

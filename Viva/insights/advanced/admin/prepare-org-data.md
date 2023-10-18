@@ -2,8 +2,8 @@
 ms.date: 06/29/2023
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -230,6 +230,9 @@ This section contains information about the attributes that you use in the organ
 <sup> 3. You don’t have to include any of these reserved fields. However, if you do use them, retain these column names. If you provide values for reserved fields, they’ll replace previously uploaded values.</sup>
 
 <sup> 4. You’re not required to include custom attributes. If you do add them, however, they can’t have the same name as any of the required or reserved attributes. </sup>
+
+>[!Note]
+>Any attribute that contains **Microsoft_** will not be available in Viva Insights.
 
 ### Attribute notes and recommendations
 

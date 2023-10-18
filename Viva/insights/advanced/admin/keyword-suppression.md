@@ -2,8 +2,8 @@
 ms.date: 02/28/2023
 title: Keyword suppression in Viva Insights
 description: Learn how to suppress sensitive keywords in email subject lines and meeting titles with Viva Insights. 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

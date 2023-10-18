@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/29/2022
 title: Hybrid workforce experience dashboard
 description: Learn how to understand how hybrid work affects employees differently through the Hybrid workforce experience Power BI dashboard
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -36,11 +36,11 @@ This dashboard has six sections, which each address different facets of the empl
 
 ### Interactive demonstration
 
-<br><iframe title="Hybrid workforce experience - Summary" width="600" height="373.5" src="https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZTExZGI0ZDEtNjRjYS00YzRjLWE0OWQtZmFmOWVhZjQ5ZTJmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 ### Video walk-through
 
-<br><iframe src="https://player.vimeo.com/video/709292595?h=b3cffb2ba4" width="640" height="359" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/709292595?h=b3cffb2ba4]
 
 ## Prerequisites
 

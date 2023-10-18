@@ -2,8 +2,8 @@
 ms.date: 11/15/2022
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 

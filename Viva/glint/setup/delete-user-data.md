@@ -1,9 +1,9 @@
 ---
 title: Delete user data from Viva Glint
 description: Admins can request that user data be immediately deleted from the Viva Glint system.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Deleted data, deleted employee data
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 

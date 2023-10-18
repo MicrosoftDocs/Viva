@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

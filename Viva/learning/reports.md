@@ -27,6 +27,9 @@ This feature enables organizations to get insights into how Viva Learning is use
 
  We're actively working on adding more metrics in the report section to provide richer insights in future releases.
 
+> [!NOTE]
+> The reports feature is not available to tenants hosted in the UK and France due to local compliance. We are working to make reports available to tenants in these two regions and will send communication when this feature becomes available. 
+
 ## Data Protection
 
 - Viva Learning follows GDPR guidelines for storing data.
@@ -64,7 +67,7 @@ In the Microsoft Admin Center, ensure that the required diagnostic data and opti
 
 Access to reports is controlled via Microsoft 365 (Microsoft 365) groups. By default, reports are enabled for learning path Microsoft 365 group, knowledge admins, knowledge managers, and global admins.
 
-If you want to select a new Microsoft 365 group, share the Microsoft 365 group name with us. There isn't currently a self-serve UI for setting Microsoft 365 group permissions. Once the FAM feature goes live customers can self-serve permissions through Microsoft 365 group."
+Access to reports can be controlled from the **Feature access management** section in the **admin tab**.
 
 Go to the Viva Learning admin tab and select **Reports**.  
 
@@ -77,15 +80,14 @@ Go to the Viva Learning admin tab and select **Reports**.
 | Monthly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 30 days. |
 | Daily Active Users | Total number of unique users who have launched the Viva Learning personal app on that day. |
 | Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
-|Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month | 
-| Content Played | Total number of courses played by learners in a month | 
-| Content Bookmarked | Total number of courses bookmarked by learners in a month |
-| Learning Paths Viewed | Total number of learning paths viewed by learners in a month |
-| Learning Collection Created | Total number of learning collections created by learners in a month |
-| Learning Collection Viewed | Total number of learning collections viewed by learners in a month |
-|Courses shared | Total number of courses shared by learners in a month |
-| Courses Recommended | Total number of courses recommended by learners in a month |
-| Courses Rated | Total number of rating by learners in a month |
+|Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month. | 
+| Content Played | Total number of courses played by learners in a month. | 
+| Content Bookmarked | Total number of courses bookmarked by learners in a month. |
+| Learning Paths Viewed | Total number of learning paths viewed by learners in a month. |
+| Learning Collections Viewed | Total number of learning collections viewed by learners in a month. |
+|Content shared | Total number of courses shared by learners in a month. |
+| Content Recommended | Total number of courses recommended by learners in a month. |
+|Searches on Personal app | Total number of searches in the Viva Learning personal app in a month. |
 
 ## Export reports 
 
@@ -107,6 +109,8 @@ Individual reports data can be exported into an Excel file using the Export opti
 
 Daily Active Users (DAU) report data is updated daily. 
 Data for all other reports is updated monthly on the third of every month in the GMT time zone.
+
+
 
 ## FAQ 
 

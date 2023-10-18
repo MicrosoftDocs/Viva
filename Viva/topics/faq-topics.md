@@ -11,6 +11,7 @@ ms.collection:
   - m365initiative-viva-topics
   - highpri
   - Tier1
+  - essentials-accountability
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:

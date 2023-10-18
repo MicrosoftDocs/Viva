@@ -1,9 +1,9 @@
 ---
-ms.date: 03/03/2023
+ms.date: 10/11/2023
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 manager: helayne
@@ -45,7 +45,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="calls-define"></a>  Calls | Number of Teams calls a person joined, including scheduled and unscheduled calls. | Count |
 | | <a name="meeting-and-call-hours-define"></a>  Meeting and call hours | Number of hours a person spent in meetings and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities. | Hour |
 |<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="weekend-emails-sent-define"></a>  Weekend emails sent | Number of emails a person sent on Saturdays or Sundays. | Hour |
-||<a name="open-1-hour-block-define"></a> Open 1-hour block | <a name="weekend-emails-sent-define"></a>  Number of hours spent in meetings organized by the person with at least one other person. | Hour |
+||<a name="open-1-hour-block-define"></a> Open 1-hour block | <a name="weekend-emails-sent-define"></a>  Number of open one-hour blocks in a person’s calendar without any scheduled meetings during the workday. | Count |
 | | <a name="weekend-chats-sent-define"></a>  Weekend chats sent | Number of Teams chats a person sent on Saturdays or Sundays. | Hour |
 | | <a name="weekend-meetings-define"></a>  Weekend meetings | Number of meetings a person attended during Saturdays or Sundays. | Count |
 | | <a name="unscheduled-weekend-calls-define"></a>  Unscheduled weekend calls | Number of unscheduled Teams calls a person joined, on Saturdays or Sundays. | Count |
@@ -81,16 +81,25 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 || Influence rank| An employee’s potential influence on opinions of the network. It measures how well connected a person is to other well-connected individuals. The closer the rank is to 1, the higher the person’s rank or network influence score. If two people have the same influence score, they also have the same influence rank. (A person’s influence score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)
 ||Influence score|A numeric score that indicates how well connected a person is within the company. A higher score means that the person is better connected and has greater potential to drive change. (A person’s connection score is based on the frequency of collaboration activities, which include emails, meetings, Teams calls, and Teams chats with other people within the company.)|Rank
 ||Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks.|Count |
+||Network outside company|The number of distinct external domains outside the company with at least one individual a person has had a reciprocal interaction with.|Count |
+||Network outside organization|The number of distinct internal organizational units within the company with at least one individual a person has had a reciprocal interaction with.|Count |
 ||Strong ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) and who are also connected to many of that person’s other colleagues. (Interactions are based on emails, meetings, and Teams calls, and Teams chats.) |Count 
 ||Strong ties score | Strong ties represent connections with people that are part of a person’s inner working group who work together regularly. Strong ties score measures the relative strength of a connection between two individuals. (Interactions are based on emails, meetings, Teams calls and chats.) |Score
 ||Strong tie type | A value that indicates the relative strength of the person's strong ties. 0 means that the tie is not strong; 1 means that the tie is strong; 2 is an intermediate value that means stronger than 0 but weaker than 1. (The Strong tie type metric is derived from the Strong tie score metric.) | Score |
+|**Group-to-Group**|Group collaboration time invested | Sum of time spent by each member of group A collaborating with any member of group B | Minutes
+|| % Group collaboration time invested | % of a group A’s total collaboration time that is spent with any member of group B | Percentage
+|| Group meeting time invested | Sum of time spent by each member of group A in a meeting with any member of group B | Minutes
+|| Group mail time invested | Sum of time spent by each member of group A in sending mails to or reading mails from any member of group B | Minutes
+|**Person-to-Group**|Collaboration time invested | Time spent by a person collaborating with any member of a collaborator group | Minutes
+|| Meeting time invested | Time spent by a person in a meeting with any member of a collaborator group | Minutes
+|| Mail time invested | Time spent by a person sending mails to or reading mails from any member of a collaborator group | Minutes
 | <a name="external-collaboration-define"></a> **External collaboration** | <a name="external-collaboration-hours-define"></a> External collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person outside the company, after deduplication of time due to overlapping activities (for example, calls during a meeting). | Hour |
 | | <a name="external-unscheduled-call-hours-define"></a> External unscheduled call hours | Number of hours a person spent in unscheduled Teams calls with at least one other person outside the company. | Hour |
 | | <a name="external-email-hours-define"></a> External email hours | Number of hours a person spent in emails with at least one other person outside the company. | Hour |
 | | <a name="external-chat-hours-define"></a>  External chat hours | Number of hours a person spent in Teams chats with at least one other person outside the company. | Hour |
 | |  <a name="external-meeting-hours-define"></a> External meeting hours | Number of hours a person spent in meetings with at least one other person outside the company. | Hour |
 | <a name="focus-define"></a> **Focus**|  <a name="available-to-focus-hours-define"></a>  Available-to-focus hours | Hours remaining during working hours after excluding meetings and scheduled Teams calls for focused work. This metric helps organizations understand how meetings and scheduled Teams calls can impact what time is available for self-directed work. | Hour |
-||<a name="time-in-self-organized-meetings-define"></a>Time in self-organized meetings | Number of open one-hour blocks in a person’s calendar without any scheduled meetings during the workday|Count
+||<a name="time-in-self-organized-meetings-define"></a>Time in self-organized meetings | Number of hours spent in meetings organized by the person with at least one other person. | Hour
 | | <a name="uninterrupted-hours-define"></a> Uninterrupted hours | Sum of blocks one hour or longer where a person didn’t attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, Uninterrupted hours is the sum of blocks of time one hour or longer for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation. | Hour |
 | | <a name="interrupted-hours-define"></a> Interrupted hours | Available-to-focus hours interrupted by emails, Teams chats, or unscheduled Teams calls. Interrupted hours excludes one-hour or longer blocks of Uninterrupted hours for deep work. This metric helps organizations understand whether employees are choosing to use the blocks of time between meetings or scheduled Teams calls for emails, unscheduled calls, or Teams chats. | Hour |
 | <a name="generated-load-define"></a> **Generated load**|  <a name="generated-load-call-hours-define"></a>  Generated load - Call hours | Number of Teams calls hours that the person created for internal participants by initiating Teams calls. | Hour |

@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 08/27/2019
 title: Data sources for Viva Insights
 description: An overview of data sources for Microsoft Viva Insights
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -37,10 +37,10 @@ This video was recorded before the left navigation and how you access Data sourc
 <!-- FOR THIS VIDEO LINK, VERIFY THE EMBED/SCREEN SETTINGS. 
 WE USE THE FOLLOWING ONES IN OTHER PLACES: 
 
-<iframe allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe>
+> [!VIDEO https://player.vimeo.com/video/434890175]
 -->
 
-<iframe src="https://player.vimeo.com/video/434890175" width="580" height="512" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/434890175]
 
 ## To view Data sources
 

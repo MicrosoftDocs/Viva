@@ -4,8 +4,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 01/19/2018
 title: Videos for Viva Insights
 description: Videos about how the advanced insights app with Microsoft Viva Insights works
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 search.appverid:
@@ -74,25 +74,25 @@ Learn how Macys is using Workplace Analytics and MyAnalytics to drive change in 
 
 ## Overview for admins
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282873274" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282873274]
 
 ## Assign licenses
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282896938" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282896938]
 
 This video can also be found here: 
 [Assign licenses](https://review.learn.microsoft.com/Workplace-Analytics/setup/assign-licenses-to-population?branch=PAS-WpAVideos)
 
 ## Assign roles
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282897409]
 
 This video can also be found here: 
 [Assign roles](https://review.learn.microsoft.com/Workplace-Analytics/setup/assign-roles-to-wpa-admins?branch=PAS-WpAVideos)
 
 ## Privacy in Workplace Analytics
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897705" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282897705]
 
 This video can also be found here: 
 [Privacy in Workplace Analytics](
@@ -100,7 +100,7 @@ https://review.learn.microsoft.com/Workplace-Analytics/use/settings?branch=PAS-W
 
 ## Upload organizational data
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282897809]
 
 This video can also be found here: 
 [Upload organizational data](
@@ -112,7 +112,7 @@ https://review.learn.microsoft.com/Workplace-Analytics/setup/upload-organization
 
 ## Solution overview
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/287139611" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/287139611]
 
 This video can also be found here: 
 [Solution overview](
@@ -120,7 +120,7 @@ https://review.learn.microsoft.com/workplace-analytics/tutorials/solutionsv2-int
 
 ## MyAnalytics for admins
 
-<iframe src="https://player.vimeo.com/video/304879652" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/304879652]
 
 This video can also be found here: 
 [Introduction for admins](

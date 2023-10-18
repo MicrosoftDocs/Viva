@@ -2,9 +2,9 @@
 
 ms.date: 06/30/2023
 title: Environment requirements for Viva Insights
-description: Describes the system requirements for using Microsoft Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+description: Describes the environment requirements for using Microsoft Viva Insights
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 
@@ -70,7 +70,7 @@ The following Personal insights service plans are generally available with a sub
 
 >[!Note]
 >
->* To determine what your plan and service plan are, see [How do I find my plan?](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is).
+>* To determine what your plan and service plan are, see [How do I find my plan?](../../personal/overview/mya-faq.md#q2-how-can-i-find-out-what-my-plan-is).
 >* For more information about the plans that offer these user experiences, see [Microsoft 365 business plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans).
 
 ### Access to Viva Insights elements

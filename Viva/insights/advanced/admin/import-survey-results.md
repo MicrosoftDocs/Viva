@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX, NOFOLLOW
 title: Import survey results
 description: Learn how to import survey results to the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

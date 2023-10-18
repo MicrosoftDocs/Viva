@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 7/26/2023
+ms.date: 10/02/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -43,7 +43,7 @@ Microsoft Viva and the Viva apps support compliance with [General Data Protectio
 Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
-- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage)
+- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 
@@ -57,6 +57,7 @@ All data within Viva is stored within the customer tenant for any given Viva app
 
 |Viva app|Where the data resides|More information|
 |-|-|-|
+|Viva Amplify|Data is stored in the data center where the associated Microsoft 365 tenant resides. If your organization is using SharePoint, Amplify follows the [SharePoint data residency policy](/microsoft-365/enterprise/m365-dr-workload-spo).|[Privacy and security in Microsoft Viva Amplify](/viva/amplify/privacy-security)|
 |Viva Connections|Data is stored in the data center where the associated Microsoft 365 tenant resides. For tenants located in Germany or the EU, none of the data is transferred to a third country.<br><br>**Note:** Data from third-party apps is governed by the data and privacy agreements for those apps. This information applies to data from Microsoft apps.|[Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)|
 |Viva Engage|Committed to storing message bodies and files attached to messages at rest within a specific geographical area (Geo). Data is stored in either Yammer cloud storage or SharePoint. Files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. <br><br>Mobile push notifications require sending data to a third party notification service (Apple or Google), which might be outside your Geo.|[Data residency - Yammer](/yammer/manage-security-and-compliance/data-residency)|
 |Viva Glint|The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location.||
@@ -83,6 +84,11 @@ For more information on how Viva uses AI, see the following:
 
 ## App-specific data information
 Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but how you control it differs depending on the app.
+
+### Viva Amplify
+Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting is not recommended.
+
+For more information about Viva Amplify, see [Overview of Microsoft Viva Amplify](/viva/amplify/overview-viva-amplify).
 
 ### Viva Connections
 Privacy and security controls:

@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/23/2018
 title: Subsequent uploads of organizational data
 description: Steps for subsequent organizational (HR) data uploads assuming this is not your first data upload
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced
@@ -37,7 +37,7 @@ After you prepare the source data, you can upload the .csv file and map fields. 
 
 The following video might not represent your exact upload experience that is based on your unique environment and organizational data or might be a different version of the app.
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897809" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>-->
+> [!VIDEO https://player.vimeo.com/video/282897809]-->
 
 ## File upload
 

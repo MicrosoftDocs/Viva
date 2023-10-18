@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -41,7 +41,7 @@ Before you can assign licenses, the Microsoft 365 global admin, the Viva Insight
 >[!Note]
 >Employees in your organization who aren't licensed for analysis—but might collaborate with your measured employees through meetings, email, unscheduled calls, or Teams chats—are called *other internal collaborators*. You might encounter this term while using Viva Insights.
 
- People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q1-how-can-i-find-out-what-my-plan-is). 
+ People can find out whether they've been assigned a license; refer to [FAQ](../../personal/overview/mya-faq.md#q2-how-can-i-find-out-what-my-plan-is). 
 
 For more information on licensing and user configuration, refer to [Configure personal insights](configure-personal-insights.md).
 
