@@ -49,6 +49,9 @@ Organization insights are more than just a dashboard—they also provide helpful
 
 Let's take a look at how to use these features:
 
+>[!Note] 
+>These features are rolling out gradually and should be broadly available by the end of this month.
+
 1. **Scope information** 
 
      At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring.
@@ -91,11 +94,29 @@ Let's take a look at how to use these features:
 
     The sample screenshot below shows the Benchmark results (highlighted) for the prior 4 weeks for your organization.
 
-          :::image type="complex" source="images/org-insights-benchmark-leader-prior-4.png" alt-text="Screenshot that shows the organization insights prior 4 weeks benchmark." lightbox="images/org-insights-benchmark-leader-prior-4.png":::
+    :::image type="complex" source="images/org-insights-benchmark-leader-prior-4.png" alt-text="Screenshot that shows the organization insights prior 4 weeks benchmark." lightbox="images/org-insights-benchmark-leader-prior-4.png":::
    Screenshot of the "Your organization insights" prior 4 weeks benchmark.
     :::image-end:::
 
+    Or, you can compare your insights to your company or your selected peers' team, for the same filtered period.
+    
+    The screenshot below shows the Benchmark results for your peer's team for the selected time period.
 
+    :::image type="complex" source="images/org-insights-benchmark-leader-peer.png" alt-text="Screenshot that shows the organization insights benchmark for peer's team." lightbox="images/org-insights-benchmark-leader-peer.png":::
+   Screenshot of the "Your organization insights" benchmark for the peer's team.
+    :::image-end:::
+
+    If you selected a 12 week time filter, you can only compare results to either your peers' teams or your company, for the same time period.
+
+    The screenshot below shows the Benchmark results for the company.
+
+   :::image type="complex" source="images/org-insights-benchmark-leader-company.png" alt-text="Screenshot that shows the organization insights benchmark for entire company." lightbox="images/org-insights-benchmark-leader-company.png":::
+   Screenshot of the "Your organization insights" benchmark for the entire company.
+    :::image-end:::
+
+    **If you have the Insights Business Leader role assigned:** You can only set 1 week or 4 week prior time periods as your benchmark. If you selected a 12 week time filter, you can't select a 12 week benchmark.
+
+    **If you're enabled as a group manager *and* you're an Insights Business Leader:** You can select any of the benchmark options described above.
 
 
 1. **Indicators**
@@ -109,7 +130,7 @@ Let's take a look at how to use these features:
     >[!Note] 
     >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
 
-1. **Sharing** 
+1. **Three-dot menu for sharing** 
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
     * **In a Teams chat** – When you share through a chat, you'll have the option to send a screenshot of the insight to another person and add a custom message. The chat contains a link, so the recipient can view how the insight looks for their own team. Recipients need to qualify for organization insights to be able to view what you share with them here.
@@ -124,13 +145,19 @@ Let's take a look at how to use these features:
         :::image type="complex" source="images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
            Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
         :::image-end:::
-1. **Actions**
 
-    Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. 
 
-    Here's an example:
+## Actions
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. They appear under **Recommended actions for your organization**.
+
+Here's an example:
+
+Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+
+ :::image type="complex" source="images/org-insights-actions.png" alt-text="Screenshot that shows the organization insights recommended actions section." lightbox="images/org-insights-actions.png":::
+   Screenshot of the "Your organization insights" recommended actions.
+    :::image-end:::
 
 ## Insights per tab
 
@@ -142,22 +169,19 @@ Specifically, you'll find an insight related to one of the following topics each
 
 * Uninterrupted focus hours
 * Manager 1:1 meeting hours
+* Collaboration time
+* Long and large meetings
+* Recurring meetings
 * Meeting hours
-* After hours collaboration
-* No meeting day impact
-* Daily connected hours
-* Focus time participation
+* After-hours collaboration
 * Join on time rate
-* Focus time impact
-* No meeting day participation
 * Multitasking hours
-* Internal network size
 
-All insight cards show the current week's average measure, and also provide the difference from the prior period. Here's an example:
+All insight cards show the current period's average measure, and also provide the difference against the selected benchmark. Here's an example:
 
-:::image type="complex" source="../personal/teams/images/home-org-insight-example.png" alt-text="Screenshot that shows an organization insight on the Home tab.":::
-   Screenshot that shows an organization insight card on the Home tab. The insight includes a title, subtitle, numerical indicator, increase/decrease indicator, a line graph, and a recommended action with a button to begin that action, which is to set up a no-meeting day. There's also a "Show details" link and a share icon.
-:::image-end:::
+ :::image type="complex" source="images/org-insights-card.png" alt-text="Screenshot that shows the organization insights comparison card." lightbox="images/org-insights-card.png":::
+   Screenshot of the "Your organization insights" comparison card.
+    :::image-end:::
 
 ### Wellbeing
 
@@ -301,7 +325,7 @@ Daily connected hours | Daily connected hours measures time in 30-minute blocks 
 | Recurring meeting hours | Recurring meeting hours measures the total time per week a person spends in recurring meetings based on accepted meetings on their Outlook calendar and excluding calendar items that are likely non-meetings, such as appointments.
 |Large and long meeting hours| Large and long meeting hours measures the total time per week a person spends in meetings that are longer than an hour or have more than 8 attendees.
 |Multitasking hours	| Multitasking hours measures how much time per week a person spends in emails and chats that overlap with their meetings and Teams calls.
-|Manager 1:1 meeting hours| Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated over a rolling four-week period. 
+|Manager 1:1 meeting hours| Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated based on a weekly average. 
 |Internal network size|Internal network size measures the number of colleagues connected to the person. Connections are based on at least two interactions in the prior four-week period, excluding very large and long interactions. 
 |Manager co-attendance rate	| Manager co-attendance rate measures what percentage of meeting hours are attended by both the person and the person’s direct manager.
 
