@@ -22,12 +22,9 @@ Viva Pulse uses the Teams Activity feed and email to deliver notifications. User
 
 ## Teams notifications
 
-Users only receive Teams notifications from Pulse if they have the Viva Pulse Teams app installed. As an admin, you can:
+Users only receive Teams notifications from Viva Pulse if they have the Viva Pulse Teams app installed. As an admin, you can install the Viva Pulse Teams app in your tenant through a [Teams app setup policy](./manage-install-pin-viva-pulse-in-teams-admin-center.md).
 
-1. Install the Viva Pulse Teams app in your tenant through a [Teams app setup policy](./manage-install-pin-viva-pulse-in-teams-admin-center.md).
-2. Encourage users to visit the Teams app store to download the Viva Pulse Teams app.
-
-Only users with the Viva Pulse Teams app installed can receive Teams notifications from Pulse.
+If users are not receiving Teams notifications from Viva Pulse, please encourage users to visit the Teams app store to download the Viva Pulse Teams app.
 
 ## Email notifications
 
