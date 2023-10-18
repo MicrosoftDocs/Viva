@@ -51,7 +51,7 @@ You can use feature access management to manage access to the following features
 \* Not yet available for all tenants. Support will be added soon.
 
 > [!NOTE]
-> You can only control access to features that support access policies *and* that are supported in your tenant. For example, if your organization is located in an EDU-based tenant, you can't create an access policy for a feature that's limited because of local regulations. Check the documentation for the specific feature that you'd like to use for more information about its availability.
+> You can only control access to features that support access policies *and* that are supported in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
 
 ## Requirements
 
