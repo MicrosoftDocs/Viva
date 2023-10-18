@@ -18,7 +18,7 @@ ms.localizationpriority: high pri
 ms.date: 10/18/2023
 ---
 
-# Set up Secure File Transfer Protocol (SFTP)
+# Understand Viva Glint SFTP and data automation
 
 Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data. An automated data feed enables you to keep your HRIS data in sync with Viva Glint and allows your organization to:
 
