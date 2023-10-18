@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 07/17/2023
+ms.date: 10/18/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -16,22 +16,19 @@ ms.collection: m365initiative-viva-pulse
 search.appverid: MET150
 ---
 
-# Enable notifications for your organization  
+# Enable notifications for your organization
 
-Viva Pulse leverages email to deliver notifications. As an admin, you need to execute a script in PowerShell for these notifications to appear. After the script is executed successfully, users will receive email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
+Viva Pulse leverages the Teams Activity feed and email to deliver notifications. Users receive Teams and email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
 
-Enable email notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
+## Teams notifications
 
-1. Connect to the target tenant in PowerShell\
-`Connect-AzureAD -TenantId "[TENANT-ID]"`\
-When prompted, login as the **Tenant Admin / Global Admin** for the tenant.
-2. Create the service principle\
-`New-AzureADServicePrincipal-AppId "56233257-15ee-4d3d-bdcd-9aa975244e4c" -DisplayName "[Viva Pulse]"`
-3. Validate that the service principle is created\
-`Get-AzureADServicePrincipal -ObjectId <objectID>`\
-*where objectId = what you get back after running step (2)*\
-OR\
-`Get-AzureADServicePrincipal`\
-And find Viva Pulse in the list returned
+Users only receive Teams notifications from Pulse if they have the Viva Pulse Teams app installed. As an admin, you can:
 
-Note that if email notifications are not enabled by running this script, feedback authors may not receive enough responses to their Pulses to review their team’s feedback and notifications increase the likelihood that more responses are generated. Alternatively, feedback authors can copy links to their Pulse requests and generated reports and share them directly through a personal email or Teams message.
+1. Install the Viva Pulse Teams app in your tenant through a [Teams app setup policy](./manage-install-pin-viva-pulse-in-teams-admin-center.md).
+2. Encourage users to visit the Teams app store to download the Viva Pulse Teams app.
+
+Only users with the Viva Pulse Teams app installed can receive Teams notifications from Pulse.
+
+## Email notifications
+
+Users receive email notifications from Viva Pulse. It may take up to 24 hours for email notifications to be delivered to Pulse feedback providers and authors. If email notifications are not delivered within 24 hours, please log a support incident or report the issue through our in-app feedback options.
