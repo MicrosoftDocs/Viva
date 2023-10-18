@@ -18,7 +18,7 @@ search.appverid: MET150
 
 # Enable notifications for your organization
 
-Viva Pulse leverages the Teams Activity feed and email to deliver notifications. Users receive Teams and email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
+Viva Pulse uses the Teams Activity feed and email to deliver notifications. Users receive Teams and email notifications when a feedback author requests a Pulse, when feedback providers are reminded to respond, when a feedback author is notified their Pulse request has closed, and when a feedback author shares a Pulse report.
 
 ## Teams notifications
 
@@ -31,4 +31,4 @@ Only users with the Viva Pulse Teams app installed can receive Teams notificatio
 
 ## Email notifications
 
-Users receive email notifications from Viva Pulse. It may take up to 24 hours for email notifications to be delivered to Pulse feedback providers and authors. If email notifications are not delivered within 24 hours, please log a support incident or report the issue through our in-app feedback options.
+Users receive email notifications from Viva Pulse. It can take up to 24 hours for email notifications to be delivered to Pulse feedback providers and authors. If email notifications are not delivered within 24 hours, log a support incident or report the issue through our in-app feedback options.
