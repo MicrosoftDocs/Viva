@@ -62,7 +62,7 @@ Depending on how frequently your organization imports data to Viva Glint, consid
 
 While your employee data uploads to Viva Glint, derived attributes and values are calculated based on selections made during your attribute setup:
 
-|Derived Field   |Based On   |Dervied Values|
+|Derived Field   |Based On   |Derived Values|
 |----------|-----------|------------|
 |Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
 |Tenure|Hire Date   |0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years|
