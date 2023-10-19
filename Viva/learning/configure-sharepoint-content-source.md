@@ -160,6 +160,7 @@ If a description column is already present, you can delete it and add a new one 
 
 1. Select the folder from your learning content repository.
 1. From the **Documents** page, select **Add column**.
+
    [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
 
 **To add a description column to the document library page, follow these steps**:
