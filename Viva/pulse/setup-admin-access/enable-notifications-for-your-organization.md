@@ -25,7 +25,9 @@ Viva Pulse leverages email to deliver notifications. As an admin, you need to ex
 
 Enable email notifications for your tenant and ensure you have [PowerShell installed](/powershell/scripting/install/installing-powershell-on-windows):
 
-1. Connect to the target tenant in PowerShell\
+## Using Azure AD PowerShell
+
+1. Connect to the target tenant in Azure AD PowerShell\
 `Connect-AzureAD -TenantId "[TENANT-ID]"`\
 When prompted, login as the **Tenant Admin / Global Admin** for the tenant.
 2. Create the service principle\
@@ -35,6 +37,19 @@ When prompted, login as the **Tenant Admin / Global Admin** for the tenant.
 *where objectId = what you get back after running step (2)*\
 OR\
 `Get-AzureADServicePrincipal`\
+And find Viva Pulse in the list returned
+
+## Using Microsoft Graph PowerShell SDK
+
+1. Connect to the target tenant in Azure AD PowerShell\
+`Connect-MgGraph -TenantId "[TENANT-ID]" -Scopes "Application.ReadWrite.All"`\
+When prompted, login as the **Tenant Admin / Global Admin** for the tenant.
+2. Create the service principle\
+`$sp = New-MgServicePrincipal -AppId "56233257-15ee-4d3d-bdcd-9aa975244e4c" -DisplayName "[Viva Pulse]"`
+3. Validate that the service principle is created\
+`Get-MgServicePrincipal -ServicePrincipalId $sp.Id`\
+OR\
+`Get-MgServicePrincipal`\
 And find Viva Pulse in the list returned
 
 Note that if email notifications are not enabled by running this script, feedback authors may not receive enough responses to their Pulses to review their team’s feedback and notifications increase the likelihood that more responses are generated. Alternatively, feedback authors can copy links to their Pulse requests and generated reports and share them directly through a personal email or Teams message.
