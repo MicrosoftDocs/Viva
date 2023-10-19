@@ -45,4 +45,4 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 > - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
  
 > [!NOTE]
-> Once a tenant is deprovisioned or considered in a "LockedOut" state, the SSH public key is deleted and SFTP will no longer work.
+> Once a tenant is deprovisioned or considered in a "LockedOut" state, the public SSH key is deleted and SFTP will no longer work.
