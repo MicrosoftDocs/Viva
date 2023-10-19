@@ -2,10 +2,10 @@
 title: "View and manage analytics in Viva Engage"
 description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor audience engagement (audience analytics), campaign engagement, and monitor engagement in Answers."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
-ms.date: 02/15/2023
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
+ms.date: 10/16/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,9 +45,6 @@ In the Viva Engage Teams application, select the ellipses button from the top na
 [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
 [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
-
->[!NOTE]
-> Any leader’s delegates or delegate managers have visibility into the leader’s audience and personal analytics. A leader's audience must have at least *75 percent of users licensed* for audience analytics to be visible.
 
 ## Audience analytics  
 
@@ -93,7 +90,7 @@ Select the analytics icon in the main Via Engage navigation menu.
 
 **Why can't my leader/delegate see audience analytics?** 
 
-To view audience analytics, a leader and their delegate must be licensed users. Additionally, at least 75 percent of the leader's audience must have a premium license for audience analytics to be visible to the leader or their delegate.
+To view audience analytics, a leader and their delegate must be licensed users.
 
 ## See also
 
