@@ -86,8 +86,7 @@ Create an all-encompassing Connections experience for the entire organization, o
 Admins are able to create multiple standalone experiences well as intranet home sites having their own Viva Connections experience. As a result, there are now two options for creating a new experience:
 
 > **A. Creating a Connections experience**: This option is the fastest way to get started. It creates a standalone, out-of-the-box Connections experience as an app in Teams without the need for an existing intranet portal. A special site container will be created where the dashboard, resources, and overall Viva home experience are hosted and sourced from. Owners can then begin adding their own content. An intranet portal can be added at any time and designated as a home site.
-<br>
-<br>
+> 
 > **B. Build from an existing intranet portal**: This option is ideal for organizations that already have a SharePoint communications site and would like to use their own content, or would like to add an intranet portal that includes Connections components that can easily be extended to the Web. This option creates a new Connections experience and automatically designates the communications site as a SharePoint home site (intranet portal) that displays navigational elements, and shares permissions.
 
    :::image type="content" source="../media/connections/set-up-admin-center/create-new-viva-connections-experience.png" alt-text="Screenshot showing options for creating a Viva Connections experience." lightbox="../media/connections/set-up-admin-center/create-new-viva-connections-experience.png":::
@@ -333,7 +332,7 @@ The following settings are available in the settings panel:
 
 ## Setting a home site after setting up a standalone Connections experience
 
-  :::image type="content" source="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png" alt-text="Screenshot showing an example of a SharePoint home site after set up." lightbox="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png":::
+:::image type="content" source="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png" alt-text="Screenshot showing an example of a SharePoint home site after set up." lightbox="../media/connections/set-up-admin-center/setting-home-site-after-setting-up-connections-experience.png":::
 
 > [!IMPORTANT]
 >
@@ -353,12 +352,12 @@ To use the site container that was created when creating your Viva Connections e
 1. Select the experience from the Viva Connections admin page.
 2. In the **URL** section, select **Set as home site**.
 
-  :::image type="content" source="../media/connections/set-up-admin-center/set-as-home-site.png" alt-text="Screenshot highlighting the steps to select an experience and set it as the home site." lightbox="../media/connections/set-up-admin-center/set-as-home-site.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/set-as-home-site.png" alt-text="Screenshot highlighting the steps to select an experience and set it as the home site." lightbox="../media/connections/set-up-admin-center/set-as-home-site.png":::
 
 3. If the selected Viva Connections experience is in a draft state, you can select **enable experience** to take it out of the draft state and make it available to viewers.
 4. Select **Set home site**.
 
-  :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site." lightbox="../media/connections/set-up-admin-center/enable-connections-experience.png":::
+   :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site." lightbox="../media/connections/set-up-admin-center/enable-connections-experience.png":::
 
 ### Frequently Asked Questions
 
