@@ -145,7 +145,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 
 ##### Reserved optional
 
-The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
+The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. Different attributes from the list below may be needed depending on the particular Power BI template.  <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
 * **LevelDesignation**
 * **FunctionType**

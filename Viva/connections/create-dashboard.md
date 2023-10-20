@@ -1,5 +1,5 @@
 ---
-ms.date: 09/22/2023
+ms.date: 10/11/2023
 title: "Add, edit, and remove cards from the Viva Connections dashboard "
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -43,7 +43,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
-- [Add the Top news cards](#add-the-top-news-card).
+- [Add the News card](#add-the-news-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
 - [Add a Viva Topics card](#add-a-viva-topics-card).
@@ -106,7 +106,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
    |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams          |
    |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author     |
    |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon.png) |   Add the News card to promote news from a [variety of sources that you wish to prominently display, including boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).     |
    |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
    |[Viva Topics](#add-a-viva-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Viva Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
@@ -283,21 +283,41 @@ A Microsoft app card allows you to create a card that links to Microsoft apps (F
 
 4. When you **Republish**, the card will appear on your dashboard.
 
-## Add the Top news card
+## Add the News card
 
-Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
+Add the News card to the Viva Connections Dashboard to promote news from a variety of sources that you wish to prominently display, [including boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). If you choose any news posts that have been boosted, they will display in the News card for the duration of the boost period.
 
-![Example of a top news card.](../media/connections/top-news-card-example.png)
+![Example of a News card.](../media/connections/top-news-card-example.png)
 
-1. While in **edit** mode, select **+ Add a card** from the dashboard.
+1. From your SharePoint home site, select the **Settings** gear at the top-right of the page.
 
-2. Select **Top news** from the web toolbox.
+2. Select **Manage Viva Connections** to bring up the properties pane.
 
-   ![Adding a Top news card.](../media/connections/top-news-card.png)
+3. Select **View Dashboard**.
 
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+4. The dashboard for your SharePoint home site will open. Select **edit** in the upper-right of the screen.
 
-4. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+5. Select **+ Add a card**.
+
+6. Select the **News** card, then select the **edit pencil** to the left of the card.
+
+7. The properties pane for the News card will appear. Add a title and select a card size.
+
+8. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. Refer to this article for more information on [Audience targeting](#apply-audience-targeting-to-cards).
+
+9. For a news source, select one of the following options:
+
+   - **Boosted posts**: Will display any SharePoint news post that has been boosted from the organization's news sites only. The word "Boosted" will display at the top of the card.  
+
+   - **From this site**: Pulls news from the hub site that the current site is a part of.
+
+   - **From all sites in this hub**: Pulls news from all sites within your SharePoint hub.
+
+   - **Select sites**: Pulls news from one or more individual sites (if selected, a list of sites associated with your SharePoint hub will display).
+
+   - **Recommended for current user**: will display news posts for the current user from people the user works with; managers in the chain of people the user works with, mapped against the user's own chain of management and connections; the user's top 20 followed sites; and the user's frequently visited sites.
+
+        :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane."lightbox="../media/connections/news-card-properties.png":::
 
 ## Add a Shifts card
 
