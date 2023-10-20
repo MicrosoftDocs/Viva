@@ -105,13 +105,15 @@ For this feature to be available, the network is required to have two or fewer E
 
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.
 
+    :::image type="content" source="../media/engage/admin/answers-eac.png" lightbox="../media/engage/admin/answers-eac.png" alt-text="Screenshot showing how to get to Answers options.":::
+
 5. In Answers feature management, switch **Show Engage Experience** on or off for your organization.
 
 The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
 
  :::image type="content" source="../media/engage/admin/answers-eac-default-controls.png" alt-text="Screenshot showing the Show Engage Experience setting.":::
 
- :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
+ :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
 > If the Viva Engage experience is hidden, the backing group follows the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).

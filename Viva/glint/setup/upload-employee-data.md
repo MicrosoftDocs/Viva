@@ -32,7 +32,9 @@ Learn what we collect, why, how you deliver it to us, and how we use it to help 
 
 [Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230742)
 
-[Set up your attribute file](https://go.microsoft.com/fwlink/?linkid=2230742)
+[Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
+
+[Understand Viva Glint SFTP and data automation](https://go.microsoft.com/fwlink/?linkid=2247429)
 
 [Upload your attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
