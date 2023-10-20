@@ -1,6 +1,6 @@
 ---
 ms.date: 09/27/2023
-title: Edit an existing topic in Microsoft Viva Topics
+title: Edit an existing topic in Microsoft Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
-description: Learn how to edit an existing topic in Microsoft Viva Topics.
+description: Learn how to edit an existing topic in Microsoft Topics.
 ---
 
-# Edit an existing topic in Microsoft Viva Topics
+# Edit an existing topic in Microsoft Topics
 
 </br>
 
@@ -27,7 +27,7 @@ description: Learn how to edit an existing topic in Microsoft Viva Topics.
 
 </br>
 
-In Viva Topics, you can edit an existing topic. You might need to do this if you want to correct or add additional information to an existing topic page.
+In Topics, you can edit an existing topic. You might need to do this if you want to correct or add additional information to an existing topic page.
 
 > [!NOTE]
 > While information in a topic that is gathered by AI is [security trimmed](topic-experiences-security-trimming.md), the topic description and people information that you manually add when editing an existing topic is visible to all users who have permissions to view topics.
@@ -36,8 +36,8 @@ In Viva Topics, you can edit an existing topic. You might need to do this if you
 
 To edit an existing topic, you need to:
 
-- Have a Viva Topics license.
-- Have permissions to [create or edit topics](./topic-experiences-user-permissions.md). Knowledge admins can give users this permission in the Viva Topics topic permissions settings.
+- Have a license that includes Topics.
+- Have permissions to [create or edit topics](./topic-experiences-user-permissions.md). Knowledge admins can give users this permission in the Topics topic permissions settings.
 
 > [!NOTE]
 > Users who have permission to manage topics in the topic center (knowledge managers) already have permissions to create and edit topics.
