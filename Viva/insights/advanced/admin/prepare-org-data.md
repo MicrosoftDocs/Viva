@@ -210,7 +210,7 @@ This section contains information about the attributes that you use in the organ
 |Attribute (column header) | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
-|**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias.| Email| `sally@contoso.com`| Required |
+|**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias. For CEOs, this can be left blank. | Email| `sally@contoso.com`| Required |
 |**Organization**| The internal organization that an employee belongs to. For more actionable insights, avoid using too few or too many unique Organizations.| String| `Financial Planning and Analysis` |Required|
 |**EffectiveDate**| Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.| DateTime| `12/31/2021`|Required<sup>2</sup>|
 |**LevelDesignation** | Level that represents an employee’s experience, management level, or seniority within the organization. For more actionable insights, avoid using too few or too many unique LevelDesignation values.| String | `Director` |Reserved<sup>3</sup>
