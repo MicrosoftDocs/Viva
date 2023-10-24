@@ -228,7 +228,10 @@ This means that Viva Insights won't have any collaboration data that's older tha
 
 ### Data retention after a license is removed 
 
-If the Viva Insights license is removed from a user, Viva Insights retains that user's collaboration data that was collected during the period the license was assigned. Admins can continue to query the collaboration activity that this user participated in before they left. The person's collaboration data will be deleted according to the overall retention policy described in [Data retention for active tenants](#data-retention-for-active-tenants). 
+If the Viva Insights license is removed from a user, Viva Insights retains that user's collaboration data that was collected during the period the license was assigned. However, for a user to appear in query results, that user needs to have a license at the time the query is run. [Learn more about when users show up in query results.](https://learn.microsoft.com/viva/insights/advanced/setup-maint/assign-licenses#when-users-show-up-in-query-results)
+
+
+The person's collaboration data will be deleted according to the overall retention policy described in [Data retention for active tenants](#data-retention-for-active-tenants). 
 
 To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. 
 
