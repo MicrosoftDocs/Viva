@@ -20,7 +20,7 @@ search.appverid:
 
  # Non-Native and hybrid Viva Engage Network upgrades
 
- Non-Native and Hybrid Viva Engage Networks will be upgraded to [Native Mode](../overview-native-mode.md) to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network. **90% of Viva Engage networks are in Native Mode today, including our top 10 largest networks.**
+ Non-Native and Hybrid Viva Engage Networks will be upgraded to [Native Mode](../overview-native-mode.md) to allow users, groups, and content to be compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network. **90% of Viva Engage networks are in Native Mode today, including our top 10 largest networks.**
 
  ## When will this change happen?
 
@@ -33,9 +33,9 @@ search.appverid:
  -	Email blocked lists
  -	Secret groups
 
- If your organization has active guests, Azure Active Directory B2B guest functionality can be used for guests who reside in the same geographic area as the Viva Engage network. This includes US guests for US networks and EU guests for EU networks. Guests will need to be reinvited to your network.
+ If your organization has active guests, Microsoft Entra B2B guest functionality can be used for guests who reside in the same geographic area as the Viva Engage network. This includes US guests for US networks and EU guests for EU networks. Guests will need to be reinvited to your network.
 
-If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Azure Active Directory Portal. Learn more by visiting [Manage Viva Engage licenses in Office 365](../manage-engage-licenses-microsoft-365.md).
+If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Microsoft Entra admin center. Learn more by visiting [Manage Viva Engage licenses in Office 365](../manage-engage-licenses-microsoft-365.md).
 
 These feature equivalents are only available to networks in Native Mode. There's no feature equivalent to secret groups in Microsoft 365. All groups must be public or private.
 

@@ -24,8 +24,8 @@ description: "Manage Viva Engage Enterprise users in Office 365. As you create, 
 
 There are many types of users in Viva Engage and managing each of them is different.
 
-- Users with Microsoft Azure Active Directory (AD) identity
-- Users without Azure AD
+- Users with Microsoft Entra identity
+- Users without Microsoft Entra ID
 - Guests
 
 As a Microsoft 365 Global administrator, you control the lifecycle for Viva Engage users through the Microsoft 365 admin center, in addition to managing them through Viva Engage.
@@ -42,21 +42,21 @@ All communities and groups from Viva Engage networks that are in Native Mode are
 
 When you create users in Office 365, they can sign in to Viva Engage with their Office 365 credentials. When a user is deleted from Office 365, they're automatically deactivated or suspended in Viva Engage. When a user is restored in Office 365, they're reactivated in Viva Engage.
   
-The user's profile properties (such as name and department) from Azure Active Directory are automatically populated in the user's Viva Engage profile. Any changes to the profile properties in Azure Active Directory are reflected in Viva Engage. 
+The user's profile properties (such as name and department) from Microsoft Entra ID are automatically populated in the user's Viva Engage profile. Any changes to the profile properties in Microsoft Entra ID are reflected in Viva Engage. 
 
 If users have an Office 365 account, they can't update their information directly in Viva Engage. If users want to change their information, such as photos, phone numbers, and other data, they must update it through their Office 365 profile just as they would with other Office 365 apps. Depending on the organization, users may be able to update through Office Delve. A user might need to ask their IT administrator to assist.
 
 > [!Important]
-> If a user had a customized profile prior to April 2020, it will be overwritten with their Azure AD identity to create a single source of truth.
+> If a user had a customized profile prior to April 2020, it will be overwritten with their Microsoft Entra identity to create a single source of truth.
 
 
-The user's Viva Engage language setting is taken from Office 365 when the user's Viva Engage account is activated. If the user changes their Office 365 language setting or if the setting is changed directly in Azure Active Directory, Viva Engage doesn't pick up this change. The user can change their Viva Engage language setting in their Viva Engage profile on the **Preferences** tab.
+The user's Viva Engage language setting is taken from Office 365 when the user's Viva Engage account is activated. If the user changes their Office 365 language setting or if the setting is changed directly in Microsoft Entra ID, Viva Engage doesn't pick up this change. The user can change their Viva Engage language setting in their Viva Engage profile on the **Preferences** tab.
 
 This change means that we retire properties that aren’t synced today, like a user’s personal email account information. If you’d like to maintain information data from the **About Me** settings – such as Schools, Expertise, and Interest - we recommend that you export this data. Use Microsoft Graph to update the users’ Office profile, or ask users to update it themselves in Microsoft Delve.
 
 ## How are user photos managed?
 
-If new users in your network already have the correct user photo from Azure AD, it continues to work after this change.
+If new users in your network already have the correct user photo from Microsoft Entra ID, it continues to work after this change.
 
 If your organization usually uploads photos from Viva Engage, you can follow these steps:
 
@@ -82,7 +82,7 @@ Beginning in March 2019, we started transitioning how Viva Engage users are crea
     
     3. The user selects the Viva Engage tile in the Office 365 app launcher to go to Viva Engage.
     
-    4. A new Viva Engage user is created for the Office 365 user. The user's profile properties and language setting from Azure Active Directory are automatically populated in the user's Viva Engage profile.
+    4. A new Viva Engage user is created for the Office 365 user. The user's profile properties and language setting from Microsoft Entra ID are automatically populated in the user's Viva Engage profile.
 
 ### New networks, Native Networks, and Enforced Office 365 Identity Networks 
 
@@ -153,15 +153,17 @@ The process follows these steps:
     
 ## User profile information
 
-The user profile experience differs depending on whether or not the account is connected to Azure Active Directory (Azure AD).
+The user profile experience differs depending on whether or not the account is connected to Microsoft Entra ID.
 
-### For Azure AD-connected accounts
+<a name='for-azure-ad-connected-accounts'></a>
 
-Office 365 uses the cloud-based service Azure Active Directory (Azure AD) to manage users. You can either manage users directly in the cloud or use [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9) to create and synchronize users and communities or groups from your on-premises environment. 
+### For Microsoft Entra connected accounts
 
-When Office 365 users who are new to Viva Engage access Viva Engage for the first time using their Azure AD credentials, a Viva Engage user is created, and the Viva Engage user profile is populated with the Azure AD user properties. And when the user's profile properties are edited in Azure AD, they're updated in the existing user's Viva Engage profile. Say, the user's department changed in Azure AD, it's changed in Viva Engage as well. 
+Office 365 uses the cloud-based service Microsoft Entra ID to manage users. You can either manage users directly in the cloud or use [Understanding Office 365 identity and Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9) to create and synchronize users and communities or groups from your on-premises environment. 
+
+When Office 365 users who are new to Viva Engage access Viva Engage for the first time using their Microsoft Entra credentials, a Viva Engage user is created, and the Viva Engage user profile is populated with the Microsoft Entra user properties. And when the user's profile properties are edited in Microsoft Entra ID, they're updated in the existing user's Viva Engage profile. Say, the user's department changed in Microsoft Entra ID, it's changed in Viva Engage as well. 
   
-User profiles that they see in Viva Engage are their Office 365 profile, if their organization uses Azure AD to manage user credentials.
+User profiles that they see in Viva Engage are their Office 365 profile, if their organization uses Microsoft Entra ID to manage user credentials.
   
 - To view their profile in Office 365, users can select on their profile picture and choose **My account**.
     
@@ -171,7 +173,7 @@ User profiles that they see in Viva Engage are their Office 365 profile, if thei
 
     User photos are synced from Office. To prepare for this change, make sure your organization’s photos can be found in any one of the following places:
 
-    - Go to the All users list in the Azure AD portal and then select the desired user for picture.
+    - Go to the All users list in the Microsoft Entra admin center and then select the desired user for picture.
     - Confirm the My account page in the Office portal has the photo.
     - Get the Photo API using the Microsoft Graph preview.
     - Get-the UserPhoto Exchange Online cmdlet, if applicable.
@@ -182,7 +184,7 @@ User profiles that they see in Viva Engage are their Office 365 profile, if thei
   
 ### For non-Azure AD accounts
 
-If your Viva Engage users aren't in Azure AD, then they can update their profiles in Viva Engage by clicking Edit Settings, and then Profile.
+If your Viva Engage users aren't in Microsoft Entra ID, then they can update their profiles in Viva Engage by clicking Edit Settings, and then Profile.
   
 :::image type="content" source="../../media/e9378a05-bb94-4775-9336-818333e65edf.png" alt-text="Screenshot showing a sample user profile.":::
   
@@ -198,9 +200,9 @@ The Office 365 administrator can edit user properties from the Microsoft 365 adm
     
     :::image type="content" source="../../media/57657206-20e3-4c1e-811a-dd6b0df1beaa.jpg" alt-text="Screenshot showing editing profile properties.":::
   
-Azure AD updates the following Viva Engage properties:
+Microsoft Entra ID updates the following Viva Engage properties:
   
-|**Property in Azure AD**|**Property in Viva Engage**|
+|**Property in Microsoft Entra ID**|**Property in Viva Engage**|
 |:-----|:-----|
 | Email address  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Office  <br/>  Office phone  <br/>  Mobile phone  <br/>  Description  <br/> | Email  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Location  <br/>  Work phone  <br/>  Mobile phone  <br/>  About Me  <br/> |
    
@@ -224,7 +226,7 @@ A: Yes.
   
 ### Q: What happens when a user leaves the company?
 
-A. When a user leaves the company and Azure Active Directory is updated, their Viva Engage profile content is replaced with their start and end dates, and their title is changed to **Former member**. All the messages and files they posted remain in Viva Engage. 
+A. When a user leaves the company and Microsoft Entra ID is updated, their Viva Engage profile content is replaced with their start and end dates, and their title is changed to **Former member**. All the messages and files they posted remain in Viva Engage. 
 
    :::image type="content" source="../../media/yam_former_member.png" alt-text="Screenshot showing Viva Engage profile content.":::
 

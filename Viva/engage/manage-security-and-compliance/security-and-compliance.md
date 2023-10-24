@@ -193,7 +193,7 @@ A: Only users with a valid and verified company email address can join your Viva
 
 In a Viva Engage Basic network, users can invite their colleagues with the same email address suffix to collaborate. Users can also suspend other users from having access to the Viva Engage network.
 
-In Viva Engage Enterprise, administrators can provision and remove users in bulk using a .csv file and also to synchronize with Azure Active Directory to automatically add users who aren't already on Viva Engage and remove users from Viva Engage if their Active Directory account is disabled or deleted.
+In Viva Engage Enterprise, administrators can provision and remove users in bulk using a .csv file and also to synchronize with Microsoft Entra ID to automatically add users who aren't already on Viva Engage and remove users from Viva Engage if their Active Directory account is disabled or deleted.
 
 ### Q: How can users without email addresses access Viva Engage?
 

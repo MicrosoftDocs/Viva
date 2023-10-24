@@ -31,9 +31,9 @@ To improve the Office 365 sign-in experience for Viva Engage, use the Auto-accel
 
 - You must be a global administrator in Office 365 to run the PowerShell commands.
     
-- Download and install the [Azure Active Directory V2 PowerShell Module](https://www.powershellgallery.com/packages/AzureAD/2.0.2.16).
+- Download and install the [Azure Active Directory v2 PowerShell Module](https://www.powershellgallery.com/packages/AzureAD/2.0.2.16).
     
-- Open administrative Azure AD Powershell and run following commands:
+- Open administrative Azure AD PowerShell and run following commands:
 
      > [!IMPORTANT]
      > The `Save-Module` command downloads the module from the Internet. You need a working internet connection on the computer where you run these commands. 
@@ -53,7 +53,7 @@ To improve the Office 365 sign-in experience for Viva Engage, use the Auto-accel
 
 1. Run the following commands:
     
-    Connect to Tenant's Azure AD. This command prompts you to sign in using admin credentials.
+    Connect to Tenant's Microsoft Entra ID. This command prompts you to sign in using admin credentials.
     
       ```powershell
      connect-AzureAD [-tenantID | -tenantDomain] <tenant name>
@@ -125,7 +125,7 @@ Note: If you have multiple federated domains, adjust the third command appropria
   
 ## Testing
 
-In a new in-private browser session, sign in to Viva Engage with user credentials from the federated domain. Your sign-in workflow should skip the Azure AD page and go straight to the ADFS sign-in page.  
+In a new in-private browser session, sign in to Viva Engage with user credentials from the federated domain. Your sign-in workflow should skip the Microsoft Entra ID page and go straight to the ADFS sign-in page.  
   
 ## Scenarios
 
@@ -133,5 +133,5 @@ The following table summarizes the authorization flows for this policy.
   
 |**Login**|**Flow without policy**|**Flow with policy**|
 |:-----|:-----|:-----|
-|Viva Engage.com  <br/> |Email address \> Azure AD sign-in \> ADFS sign-in  <br/> |Email address \> ADFS sign-in  <br/> |
-|Viva Engage.com/mycompany.com  <br/> |Email address \> Azure AD sign-in \> ADFS sign-in  <br/> |Email address \> ADFS sign-in  <br/> |
+|Viva Engage.com  <br/> |Email address \> Microsoft Entra sign-in \> ADFS sign-in  <br/> |Email address \> ADFS sign-in  <br/> |
+|Viva Engage.com/mycompany.com  <br/> |Email address \> Microsoft Entra sign-in \> ADFS sign-in  <br/> |Email address \> ADFS sign-in  <br/> |
