@@ -29,7 +29,7 @@ If you want to use a partner solution to connect Viva Insights to your on-premis
 
 * On-premises Exchange 2007-based organizations or later
 * Microsoft 365 in hybrid mode or have completed the Microsoft 365 Hybrid Configuration wizard​
-* On-premises Active Directory synchronized with Azure Active Directory Connect (previously known as the Directory Sync or DirSync.exe tool)
+* On-premises Active Directory synchronized with Microsoft Entra Connect (previously known as the Directory Sync or DirSync.exe tool)
 
 **Microsoft 365 licensing requirements**
 
@@ -80,5 +80,4 @@ Storage mailboxes are Microsoft 365-based mailboxes that contain synchronized da
 ## How to get help
 
 * For personal guidance with partner solutions or help with the advanced insights app setup and data analysis, email the FastTrack team at <wpaft@Microsoft.com>.
-* For general help with Microsoft 365, Exchange, Azure Active Directory, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/contactus/).
-
+* For general help with Microsoft 365, Exchange, Microsoft Entra ID, assigning licenses, and issues with user access and permissions, contact [Microsoft Support](https://support.microsoft.com/contactus/).

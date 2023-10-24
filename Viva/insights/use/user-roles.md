@@ -92,7 +92,7 @@ Consider the following personas when granting the different levels of access for
 
 ### Access to resources
 
-In Azure Active Directory, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Azure AD, see [Related topics](#related-topics).
+In Microsoft Entra ID, you can assign access rights to users by assigning roles to them. For general information on accessing resources, and for information on the specific methods of role assignment in Microsoft Entra ID, see [Related topics](#related-topics).
 
 ## Aspects of role assignment
 
@@ -112,6 +112,5 @@ In the Azure Portal, you can assign multiple roles to one account, but you can a
 ## Related topics
 
 * [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [What is Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)
-* [Managing access to resources with Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups)
-
+* [What is Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-whatis)
+* [Managing access to resources with Microsoft Entra groups](/azure/active-directory/fundamentals/active-directory-manage-groups)

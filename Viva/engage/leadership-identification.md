@@ -161,7 +161,7 @@ People who are in a leader's audience can see that leader and their content in l
 
 **Are audiences restricted in size or number in Viva Engage?**
 
-A leader can add up to 40 audiences. Audiences created through Microsoft Entra ID groups don’t limit the number of members in an audience.
+A leader can add up to 40 audiences. Audiences created through Microsoft Entra groups don’t limit the number of members in an audience.
 
 **How are members notified about new content from their assigned leader?**
 
