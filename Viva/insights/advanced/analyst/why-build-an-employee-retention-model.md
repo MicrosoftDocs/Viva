@@ -49,6 +49,8 @@ Our proposed model will leverage historical employee data, performance metrics, 
 [^5]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 [^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 
+<ins>References</ins>
+
 1: <https://www.psychometrics.com/true-cost-employee-turnover>
 
 2: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -74,6 +76,8 @@ There are many potential benefits to an organization when a retention or attriti
 4. **Knowledge Retention**: Long-term employees have valuable institutional knowledge. By retaining them, organizations maintain critical expertise within the company.
 
 5. **Innovation and Creativity**: Long-term employees are often more comfortable taking risks and suggesting innovative ideas. When they feel secure in their roles, they’re more likely to contribute creative solutions.
+
+<ins>References</ins>
 
 7: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 
