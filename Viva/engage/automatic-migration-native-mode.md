@@ -22,7 +22,7 @@ search.appverid:
 
 # Automatic Native Mode migration and network consolidation
 
-Non-native and hybrid Viva Engage networks are being automatically upgraded to Native Mode to allow users, groups, and content to be compatible with and mapped to their counterparts in Azure Active Directory and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network.
+Non-native and hybrid Viva Engage networks are being automatically upgraded to Native Mode to allow users, groups, and content to be compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365. Native Mode also provides other benefits, such as the ability to host Live Events in every Viva Engage community and simplify file administration through SharePoint. Most critically, Native Mode supports eDiscovery through the Microsoft Purview compliance portal, allowing your organization to collaborate safely and securely within your Viva Engage network.
 
  Automatic Native Mode migrations began in December 2022. Support requests for exemptions created after May 26, 2023 won't be approved. Support requests for extensions of existing exemptions won't be approved. Talk to your account team representative if you have further questions.
 
@@ -66,7 +66,7 @@ All content from your network pre-migration remains available for 90 days. This 
 
 ### What is the impact to end users during the migration?
 
-Community guests need to be reinvited after migration is complete, but most end users aren't impacted during migration. Azure AD B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See Work with Azure Active Directory-B2B guests in Viva Engage communities.
+Community guests need to be reinvited after migration is complete, but most end users aren't impacted during migration. Microsoft Entra B2B replaces the legacy Viva Engage external communities feature when a network is in native mode. See Work with Microsoft Entra B2B guests in Viva Engage communities.
 
 ### The migration page says the migration is still in process, but we received a Message Center post stating the migration was complete. What is happening?
 

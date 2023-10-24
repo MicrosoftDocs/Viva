@@ -1,5 +1,5 @@
 ---
-ms.date: 09/22/2023
+ms.date: 10/24/2023
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -34,7 +34,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 
 Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn title="Stay productive"]
 
 **Viva Connections is:**
 
@@ -182,25 +182,25 @@ The experience in the Viva Connections mobile app is anchored around three key c
 <br>
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN title="Viva Connections on any device"]
 
 ## Curated and tailored experiences
 
-Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. [Audience targeting](use-audience-targeting-in-viva-connections.md) is accomplished using Microsoft Azure Active Directory (Azure AD) groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
+Viva Connections gives you and your content creators the tools for both curated and tailored experiences. A curated experience is one in which the user sees content chosen by a site owner or author. For example, a site owner controls the content used on the site and whether the content is audience targeted. [Audience targeting](use-audience-targeting-in-viva-connections.md) is accomplished using Microsoft Entra groups for card-level targeting in the dashboard and menu-item targeting in the global navigation.
 
 A tailored experience is one in which content is automatically displayed according to what is most relevant to the users. This content might include content from the sites they follow, their Viva Engage group memberships, popular content, and more. An example of tailored content is the feed.
 
 - **Home site (optional, curated)**: A home site isn't required for Viva Connections, but can be used as a secondary landing destination for organizational content and news. A site owner controls the layout of the home site, the elements used on that site, and targeting of content to specific audiences.
-- **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Azure AD groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses Azure AD groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard looks like across devices and audiences.
+- **Dashboard (curated)**: A dashboard author controls the curation of the dashboard and can target each card on the dashboard to specific audiences using existing Microsoft Entra groups. These provisions allow dashboard authors to create different experiences for each group. And because Viva Connection uses Microsoft Entra groups, authors benefit from dynamic group memberships to reduce administrative overhead. Authors can easily preview what the dashboard looks like across devices and audiences.
 - **Feed (tailored)**: The Viva Connections feed uses its own heuristics to tailor the feed for an employee by bringing in the most relevant content for that employee. It utilizes signals in the content created across the organization. Some of the signals used are Viva Engage group memberships, sites where news is posted, content popularity, and the intended audiences for a post. The feed also supports promotional capabilities such as using [SharePoint news boost](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).
-- **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Azure AD groups for targeting so that employees in different groups see relevant navigation items.
+- **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Microsoft Entra groups for targeting so that employees in different groups see relevant navigation items.
 
 |Capability name |Curated vs. tailored  |Details  |
 |---------|---------|---------|
 |**Home site**     | Curated, optional        |   Organization’s with SharePoint home sites (optional) can control the layout, web parts, and audience targeting of content.     |
-|**Dashboard**     | Curated         |   Author selects cards to show and uses Azure AD groups to [target content to specific audiences](use-audience-targeting-in-viva-connections.md).   |
+|**Dashboard**     | Curated         |   Author selects cards to show and uses Microsoft Entra groups to [target content to specific audiences](use-audience-targeting-in-viva-connections.md).   |
 |**Feed**    |     Tailored    |   Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview).      |
-|**Resources**     |  Curated       |  Target menu items to specific audiences using Azure AD groups.        |
+|**Resources**     |  Curated       |  Target menu items to specific audiences using Microsoft Entra groups.        |
 
 ## Branding
 

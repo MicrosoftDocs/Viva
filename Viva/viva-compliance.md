@@ -66,7 +66,7 @@ For detailed information on each service, see:
  
 **Viva Engage** [Overview of security and compliance in Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance)
 
-**Azure AD** [Azure AD security baseline for Azure Active Directory](/security/benchmark/azure/baselines/aad-security-baseline)
+**Microsoft Entra ID** [Microsoft Entra security baseline for Microsoft Entra ID](/security/benchmark/azure/baselines/aad-security-baseline)
 
 **Azure** [Azure, Dynamics 365, Microsoft 365, and Power Platform compliance offerings](/azure/compliance/offerings/)
 
