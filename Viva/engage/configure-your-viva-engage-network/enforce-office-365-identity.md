@@ -24,7 +24,7 @@ ms.assetid: 008f940b-6bec-47fc-bcc6-9c6133467562
 
 # Enforce Office 365 identity for Viva Engage users
 
-As Viva Engage becomes a core service for your organization, users want to sign in seamlessly, like any other Office 365 service. If you want to streamline user management, we suggest that you maintain a single identity for all Office 365 users. You can achieve both of these goals by enforcing Office 365 identity in Viva Engage. By enforcing Office 365 identity in Viva Engage and configuring password hash sync, pass-through authentication, or [Azure Active Directory](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated), admins can achieve single sign-on (SSO) capabilities for all services in Office 365, including Viva Engage.
+As Viva Engage becomes a core service for your organization, users want to sign in seamlessly, like any other Office 365 service. If you want to streamline user management, we suggest that you maintain a single identity for all Office 365 users. You can achieve both of these goals by enforcing Office 365 identity in Viva Engage. By enforcing Office 365 identity in Viva Engage and configuring password hash sync, pass-through authentication, or [Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated), admins can achieve single sign-on (SSO) capabilities for all services in Office 365, including Viva Engage.
   
 ## How enforcing Office 365 identities in Viva Engage works
 
@@ -75,7 +75,7 @@ You must be a global administrator on Office 365 who was synchronized to Viva En
   
 3. A confirmation message asks you to select the most appropriate level of enforcement: 
     
-   - **Committed Enforcement**:  Choose this option if all of your Viva Engage users already have an Azure Active Directory account. 
+   - **Committed Enforcement**:  Choose this option if all of your Viva Engage users already have a Microsoft Entra account. 
     
      > [!IMPORTANT]
      > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords. 
@@ -160,6 +160,8 @@ A: Yes. Sign-out ensures all users who sign on afterward are connected to their 
 
 A: Users are signed out of their web and mobile sessions immediately and must sign in again to all their devices and browser sessions using their Office 365 identity configuration and credentials.
   
-### Q: How can I audit and clean up Viva Engage users when compared to Office 365 and Azure AD?
+<a name='q-how-can-i-audit-and-clean-up-viva-engage-users-when-compared-to-office-365-and-azure-ad'></a>
+
+### Q: How can I audit and clean up Viva Engage users when compared to Office 365 and Microsoft Entra ID?
 
 A: You can audit Viva Engage users in networks connected to Office 365 and take appropriate actions based on it. See more information and examples in [How to audit Viva Engage users in networks connected to Office 365](../manage-viva-engage-users/audit-users-connected-to-office-365.md).

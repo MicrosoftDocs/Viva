@@ -24,7 +24,7 @@ audience: Admin
 
 ## Introduction
 
-This script can help you to onboard people for the first time or create a new file to update organizational data. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Azure Active Directory data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](../setup/Prepare-organizational-data.md), [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
+This script can help you to onboard people for the first time or create a new file to update organizational data. It uses the [Mainline service](/powershell/azure/active-directory/overview) to find their mailboxes within your organization. It then uses your Microsoft Entra data to create an organizational-data file. A Viva Insights Administrator can upload this file as is or edit it first. For more information, see [Prepare organizational data](../setup/Prepare-organizational-data.md), [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json), and [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json).
 
 ## Prerequisites
 
@@ -37,7 +37,7 @@ This script requires the following elements. If you need help with these prerequ
 
     For information about using PowerShell on the Mac, see [Installing PowerShell on macOS](/powershell/scripting/install/installing-powershell-core-on-macos).
 
-    When you install the following modules – Azure AD and MSOnline – you first need to start PowerShell as an administrator:
+    When you install the following modules – Microsoft Entra ID and MSOnline – you first need to start PowerShell as an administrator:
 
     ![Run as administrator.](../images/wpa/setup/run-as-admin.png)
 
@@ -47,7 +47,7 @@ This script requires the following elements. If you need help with these prerequ
    Install-Module AzureAD
    ```
 
-* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Azure ActiveDirectory (MSOnline)](/powershell/azure/active-directory/install-msonlinev1). To install the MSOnline module, use the PowerShell cmdlet:
+* **The Microsoft Online module** - This service is used to determine which accounts are real people with mailboxes. For information about installing MSOnline, see [Microsoft Entra ID (MSOnline)](/powershell/azure/active-directory/install-msonlinev1). To install the MSOnline module, use the PowerShell cmdlet:
 
    ```PowerShell
    Install-Module MSOnline
@@ -86,7 +86,7 @@ This script requires the following elements. If you need help with these prerequ
     .\Generate-WpaOrganizationFile.ps1 -RequireCredentialPrompt
     ```
 
-   As it runs, the script prompts you twice for credentials, once to authenticate to the Azure Active Directory service, and once to authenticate to the MSOnline service.
+   As it runs, the script prompts you twice for credentials, once to authenticate to the Microsoft Entra service, and once to authenticate to the MSOnline service.
 
 ## Examples
 
@@ -126,10 +126,10 @@ You can use the following parameters with the Generate-WpaOrganizationFile.ps1 s
 |Parameter |Type | Description |
 |------|-----------|----------|
 |MSOLCredential |pscredential |The credential of a person who can authenticate with the MSOnline service and execute the _Get-MsolUser_ cmdlet.  |
-|AzureADCredential |pscredential |The credential of a person who can authenticate with the Azure AD service and execute read-only cmdlets such as _Get-AzureADUser_.|
+|AzureADCredential |pscredential |The credential of a person who can authenticate with the Microsoft Entra service and execute read-only cmdlets such as _Get-AzureADUser_.|
 |RequireCredentialPrompt |switch| If your organization's IT requires multifactor authentication, this switch lets you authenticate by prompting you for credentials. It uses the built-in prompts that are provided by the _Connect-AzureAD_ and _Connect-MsolService_ cmdlets.|
 | EffectiveDateOption| string | Used to determine the EffectiveDate.<ul><li>Select the **InitialPull** option if you're generating an organizational data file for the first time for Viva Insights.</li><li>Use the **Delta** option if you're creating a later upload of organizational data.</li></ul> |
-|SkipOptionalProperties| switch | As part of information gathering, there are extra properties available via Azure AD and MSOnline that are not required by Viva Insights. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
+|SkipOptionalProperties| switch | As part of information gathering, there are extra properties available via Microsoft Entra ID and MSOnline that are not required by Viva Insights. If you want to skip gathering those properties, use this switch. The optional properties are Country, City, Title, Office.|
 |InjectThrottling| switch | This switch is used only for debugging. We recommend that you omit this switch because its use hinders performance.|
 
 ## Resulting organizational-data file schema
@@ -140,10 +140,10 @@ After you run this script, the resulting schema in the organizational-data file 
 | -------------------- | ------ | ----------- |
 | **PersonID**         | String | A person's primary SMTP address.|
 | **EffectiveDate**    | String | The start date on which this information is current. It must be able to be cast to the .NET type _datetime_.|
-| **ManagerID**        | String | The ID of the person’s manager, assigned in Azure AD. This must be in valid SMTP format.|
-| **Organization**     | String | The person's Azure AD Department field.|
+| **ManagerID**        | String | The ID of the person’s manager, assigned in Microsoft Entra ID. This must be in valid SMTP format.|
+| **Organization**     | String | The person's Microsoft Entra Department field.|
 | **LevelDesignation** | String | The script generates this optionally required column as it creates the organizational data file. However, the script can't access actual level designations, so it assigns the default value \_\_novalue\_\_ in each row in the file. To make **LevelDesignation** usable by analysts, you must edit the organizational data file and update the value of this attribute for each person before you upload the file. (Optionally, use the Title property instead. See [Optional properties](#optional-properties).) |
-| NumDirectReports     | Integer | The number of direct reports, found in Azure AD, of this person.|
+| NumDirectReports     | Integer | The number of direct reports, found in Microsoft Entra ID, of this person.|
 | SupervisorIndicator  | String  | Indicates whether the person doesn't manage other people, is a manager, or is a manager of managers.|
 | ManagerIsMissingFlag | String  | If there was no manager found in AD or if an error occurred during lookup, this value is _TRUE_; otherwise it is _FALSE_.|
 
@@ -173,4 +173,3 @@ If you use the SkipOptionalProperties switch when you run the Generate-WpaOrgani
 * [Prepare organizational data](/viva/insights/setup/prepare-organizational-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Upload organizational data (first upload)](/viva/insights/setup/upload-organizational-data-1st?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Upload organizational data (subsequent uploads)](/viva/insights/setup/upload-organizational-data2?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-

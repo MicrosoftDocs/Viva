@@ -17,7 +17,7 @@ audience: Admin
 
 *Applies to: private preview customers*
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Azure Active Directory, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
 This article talks about the third option, importing data. 
 
@@ -79,7 +79,7 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     :::image type="content" source="../images/admin-di-all-admin-centers.png" alt-text="Screenshot that shows selecting All admin centers from the left rail.":::
 
-1. Select **Azure Active Directory**.
+1. Select **Microsoft Entra ID**.
 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
@@ -221,10 +221,10 @@ To import your data to Viva Insights, you can pick from three options:
 Before working with any of the options below, make sure you have this information:
 
 * App (client) ID. Find this ID in the registered app information on the Azure portal under Application (client) ID. 
-* Client secret: This is a secret string that the application uses to prove its identity when requesting a token. It’s also referred to as application password. This secret is only shown for the first time when the client secret is created. To create a new client secret, refer to [Create an Azure AD app and service principal in the portal](/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-application-secret).
+* Client secret: This is a secret string that the application uses to prove its identity when requesting a token. It’s also referred to as application password. This secret is only shown for the first time when the client secret is created. To create a new client secret, refer to [Create a Microsoft Entra app and service principal in the portal](/azure/active-directory/develop/howto-create-service-principal-portal#option-3-create-a-new-application-secret).
 * Certificate name. This name is configured in your registered application. After you upload the certificate, the certificate name shows up under **Description** in the Azure Portal. You can use the certificate name as an alternative to the client secret.
 * The zip file and the path to the zip file.  Don’t change the file names data.csv and metadata.json. 
-* Azure Active Directory tenant ID. Also find this ID on the app's overview page under **Directory (tenant) ID**.
+* Microsoft Entra tenant ID. Also find this ID on the app's overview page under **Directory (tenant) ID**.
 * Scale unit: The scale unit provided to you for your tenant, for example, `novaprdwus2-01`.
 
 ##### About the Viva Insights HR data ingress API 
@@ -429,7 +429,7 @@ To run the solution:
 1. Include the following console values. Refer to [Prepare, export, and import organizational data for descriptions](#prepare-export-and-import-organizational-data). 
     * AppID/ClientID 
     * Absolute path to the zipped file. Format the path like this: `C:\\Users\\JaneDoe\\OneDrive - Microsoft\\Desktop\\info.zip` 
-    * Azure Active Directory tenant ID 
+    * Microsoft Entra tenant ID 
     * Certificate name
 
 ##### Option 3: Run the DescriptiveDataUpload PowerShell solution after exporting data through your custom app 

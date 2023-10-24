@@ -30,7 +30,7 @@ For specific information about what each role can do with Viva Insights, refer t
 
 People can work with Microsoft Viva Insights only after the Microsoft 365 global admin or Privileged Role Administrator assigns them one of these roles: **Insights Administrator**, **Insights Analyst**, or **Insights Business Leader**.
 
-The Microsoft 365 admin assigns roles through the Microsoft admin center, unless your organization uses Privileged Identity Management (PIM). In that case, your organization might choose to have the Privileged Role Administrator assign roles with Azure Active Directory PIM.
+The Microsoft 365 admin assigns roles through the Microsoft admin center, unless your organization uses Privileged Identity Management (PIM). In that case, your organization might choose to have the Privileged Role Administrator assign roles with Microsoft Entra PIM.
 
 ### Assign roles in the Microsoft admin center  
 
@@ -51,11 +51,13 @@ Alternatively, instead of following steps 1-4 above, you can add users from the 
 1. Enter the username, and then select the user from the list of suggestions. Optionally, add multiple users until you're done.
 1. Select **Save**.
 
-### Assign roles with Azure Active Directory Privileged Identity Management
+<a name='assign-roles-with-azure-active-directory-privileged-identity-management'></a>
+
+### Assign roles with Microsoft Entra Privileged Identity Management
 
 *Applies to: Privileged Role Administrator*
 
-If your organization uses PIM, you might choose to assign roles in Azure Active Directory PIM rather than the Microsoft admin center. To learn how to assign roles through PIM, go to [Assign Azure AD roles in PIM - Microsoft Entra](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user). 
+If your organization uses PIM, you might choose to assign roles in Microsoft Entra PIM rather than the Microsoft admin center. To learn how to assign roles through PIM, go to [Assign Microsoft Entra roles in PIM - Microsoft Entra](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user). 
 
 Here are the role names to search for:
 
@@ -67,7 +69,7 @@ Here are the role names to search for:
 
 Assignment type (eligible or active) and assignment duration (permanent or time-bound) are up to you. If you assign a user as eligible, they’ll need to perform an action every time they want to use their role, like doing a multi-factor authentication check or requesting approval. Active assignments don’t require these actions. If you assign a time-bound duration, a user’s role access expires at the end of a specified timeframe. Permanent assignments don’t expire.
 
-To learn more about PIM, how to approve or deny role requests, and extend and renew assignments, go to [What is Azure AD Privileged Identity Management?](/azure/active-directory/privileged-identity-management/pim-configure).
+To learn more about PIM, how to approve or deny role requests, and extend and renew assignments, go to [What is Microsoft Entra Privileged Identity Management?](/azure/active-directory/privileged-identity-management/pim-configure).
 
 Within a few days of being assigned a Viva Insights role, Insights Administrators and Insights Business Leaders users get an email about available product features based on their role and service plan.
 
@@ -81,7 +83,9 @@ You can also assign roles to groups, which means you're assigning access permiss
 
 To assign Viva Insights roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign Viva Insights roles](#assign-viva-insights-roles). In that process, when prompted to select a name, select a group name instead. Then, assign a role to the selected group. For more details, refer to [Manage a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/manage-groups).
 
-### Assign roles with Azure Active Directory Privileged Identity Management
+<a name='assign-roles-with-azure-active-directory-privileged-identity-management'></a>
+
+### Assign roles with Microsoft Entra Privileged Identity Management
 
 *Applies to: Privileged Role Administrator*
 
