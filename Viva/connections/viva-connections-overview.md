@@ -1,5 +1,5 @@
 ---
-ms.date: 09/22/2023
+ms.date: 10/24/2023
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -34,7 +34,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 
 Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Vpnn title="Stay productive"]
 
 **Viva Connections is:**
 
