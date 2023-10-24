@@ -23,7 +23,7 @@ This playbook provides an introduction on how to design, train, and interpret a 
 
 Through this playbook, you can learn:
 
-- The principles and the use cases of an employee retention model 
+- The principles and the use cases of an employee retention model
 - To combine and validate data from Viva Insights, Glint, and other sources such as employee attrition data
 - To train and evaluate a random forest model that can predict employee attrition using the selected features
 - To interpret and communicate the results and the insights from the model
@@ -34,13 +34,13 @@ In essence, we propose a playbook for organizations to create a bespoke machine 
 
 The most valuable asset of a company is its people, especially when they are outstanding in what they do. Considering that hiring itself is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees becomes significant to business success.  
 
-Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it is important for organizations to understand the factors that influence employee attrition and to identify groups with higher attrition risk.
+Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and to identify groups with higher attrition risk.
 
 Losing an employee is costly because employees are considered appreciating assets, meaning, all things being equal, they produce more value for the company over time. How costly? Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s level of specialization. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, predicting employee attrition is important and more-so, having a model to help organizations determine strategies for increased employee retention is almost mandatory.  
 
 Machine learning can be used to analyze employee data and to build models that can predict voluntary employee attrition. Such models can help organizations to take proactive measures to retain their valuable employees and to reduce the costs and consequences of employee turnover.  
 
-Our proposed model will leverage historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups with higher risks of attrition to aid in creating a more stable, engaged, and productive workforce. 
+Our proposed model will leverage historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups with higher risks of attrition to aid in creating a more stable, engaged, and productive workforce.
 
 [^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -49,10 +49,9 @@ Our proposed model will leverage historical employee data, performance metrics, 
 [^5]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
 [^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 
-
 ## Business outcomes
 
-There are many potential benefits to an organization when a retention or attrition model is successfully deployed and leveraged: 
+There are many potential benefits to an organization when a retention or attrition model is successfully deployed and leveraged:
 
 1. **Financial Savings**: Beyond recruitment costs, low turnover can lead to financial savings in areas like benefits administration and retirement plans, which are more cost-effective with long-term employees. Moreover, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
 
