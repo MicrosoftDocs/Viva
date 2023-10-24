@@ -33,7 +33,7 @@ Organizational data includes the following:
 * **Attributes** - These are all the attributes provided by your organization in the organizational or HR data upload file. When you [create queries](../Tutorials/Query-basics.md), you can filter and group employees in the organization by these attributes, so being familiar with them will give you insight into the types of queries to use for analysis.
 * **Employees with attribute** - The number of measured employees and internal collaborators with a non-blank value for the attribute.
 * **Coverage** - The percentage of measured employees who have a non-blank value for the specified attribute. If coverage levels are low, it'll be difficult to determine how people collaborate across different characteristics. Additionally, low coverage on required attributes may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
-* **Unique values** - The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, it’s unique values count is six.
+* **Unique values** - The count of the unique attribute values included in the data. For example, if the **Region** attribute contains **North**, **South**, **Central**, **East**, **West** and **Southwest**, its unique values count is six.
 
 >[!Note]
 > You can select a column name to sort the list by it in descending or ascending order. You can also type a keyword in the **Search** field to narrow the list to all attributes that contain that keyword.
@@ -44,7 +44,7 @@ Organizational data includes the following:
 
 ![View Organizational data attributes for Region.](../images/wpa/Use/org-data-attributes.png)
 
-Attribute details includes the following:
+Attribute details include the following:
 
 * **Page settings** (Settings and filters) - Use the Page settings panel to the right of the page to change the **Group by** increments of time (day, week, or month), the date range, and what employees to include (all employees, internal collaborators, or measured employees) in the data shown. You can also use the Page setting **Filters** to filter the employee data shown on this page by a specific attribute, such as to only show employees in the sales or development groups.
 * **Coverage for** - Shows a chart with the coverage of the selected attribute at different moments in time. This historical data gives insight into how the data for this attribute has changed over time and what date ranges will be useful for analysis. Select a bar in the chart to see the details for that date in the table.

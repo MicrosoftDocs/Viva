@@ -81,7 +81,7 @@ Do the following to assign users to an Advanced insights role, including the **A
    >[!Note]
    >Repeat this step to add one or more additional users to assign them the same role.
 
-10. In **Add Assignment**, chose **Select Role** to view it on the right side of the page:
+10. In **Add Assignment**, choose **Select Role** to view it on the right side of the page:
 
     ![Select role.](../images/wpa/setup/select-role.png)
 
