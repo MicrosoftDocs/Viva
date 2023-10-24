@@ -21,7 +21,7 @@ audience: Admin
 # Privacy guide for admins
 
 >[!Important]
->This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../reference/briefing-pause.md).
+>This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../reference/briefing-pause.md).
 
 By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
 
@@ -30,7 +30,7 @@ This guide answers key questions on how Viva Insights processes information in a
 ## Summary of key points
 
 * **Personal insights in Viva Insights is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
-Viva Insights provides personal insights to individuals through an app in Teams and on the web, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights cannot be used for automated decision making or for profiling.
+Viva Insights provides personal insights to individuals through an app in Teams and on the web, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights can't be used for automated decision making or for profiling.
 
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**.
 Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
@@ -66,7 +66,7 @@ Personal insights in Viva Insights uses the following types of data.
 
 Mailbox data represents information that people already have access to simply by going about their job, such as sending emails, arranging meetings, or chatting with coworkers. Viva Insights processes and shows this information in new ways that make it actionable.
 
-For example, Viva Insights provides views that allow people to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they are losing touch with, and to whom they have made commitments and requests.
+For example, Viva Insights provides views that allow people to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they're losing touch with, and to whom they have made commitments and requests.
 
 People can take action on this information. They might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
@@ -82,13 +82,13 @@ For example, if people want to determine which colleagues sent them the most ema
 
 ## Incremental data
 
-In a few cases, Personal insights in Viva Insights provides people with *de-identified* information on other people that would not have otherwise been available to them, such as for email read rates.
+In a few cases, Personal insights in Viva Insights provides people with *de-identified* information on other people that wouldn't have otherwise been available to them, such as for email read rates.
 
 ### Email read rates and document open rates
 
 Personal insights in Viva Insights tracks the percentage of recipients who opened an email message (in the Outlook add-in) for email that a person sends to five or more people.
 
-To preserve privacy, Viva Insights does not track read rates for messages sent to fewer than five people. Viva Insights also doesn't show read rates of "0 percent" or "100 percent," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
+To preserve privacy, Viva Insights doesn't track read rates for messages sent to fewer than five people. Viva Insights also doesn't show read rates of "0 percent" or "100 percent," as that would allow people to make definitive conclusions about individual coworker actions. Instead, the read rate in these cases is displayed as a range that encompasses a threshold value that depends on the number of recipients of the email.
 
 This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox, then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
 
@@ -100,7 +100,7 @@ Personal insights in Viva Insights provides flexible and configurable controls t
 
 * **Determine which people have access to Viva Insights** &ndash; Admins can determine which people can access and use Viva Insights by issuing licenses to only those people who should have access.
 
-* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can subsequently opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
+* **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can later opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
 Note that if default settings are used, the following applies:
 
@@ -113,7 +113,7 @@ Employees can opt themselves out of Viva Insights. Opting out causes them to los
 
 ### Data processing consequences
 
-The processing of an employee's personal data ceases when they are opted out, whether they opt themselves out or an admin opts them out.
+The processing of an employee's personal data ceases when they're opted out, whether they opt themselves out or an admin opts them out.
 
 ### How employees opt in or out
 
@@ -125,7 +125,7 @@ End users can opt in or out of Viva Insights via the **Settings > Privacy** menu
 
 Personal insights in Microsoft Viva Insights is a first-party application that's built on Microsoft Graph. Microsoft Graph consists of a set of REST-based API calls that allow developers to interact with the Microsoft technologies that a given organization uses. In order to use these API calls, developers must have specific permissions to access any data they request. Administrators control both the deployment of any Microsoft Graph application and permissions to access these applications.
 
-The Microsoft Graph cannot be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
+The Microsoft Graph can't be turned on or off globally through the Microsoft 365 Admin Center, but administrators can achieve this effect by blocking employees’ ability to install third-party apps or by restricting developer access permissions. Learn more about [Microsoft Graph](https://developer.microsoft.com/graph).
 
 ## Employee experience with Viva Insights
 
@@ -153,7 +153,7 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
     * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**.
-   Microsoft will notify customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
+   Microsoft notifies customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
 
 3. **Honor user requests (DSRs) to export, delete, or restrict processing personal data**.
     Microsoft supports your need to honor user requests in the following ways.
@@ -166,7 +166,6 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
          >[!Note]
          >The processing of an employee's personal data ceases when they are opted out, whether an admin opts them out (see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level)) or they opt themselves out (see [How employees opt in or out](#how-employees-opt-in-or-out)).
 
-      * Delete employee data by signing in to [Azure Active Directory admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
+      * Delete employee data by signing in to [Microsoft Entra admin center](https://aad.portal.azure.com) and removing the employee through the User Management Portal, which will remove all of the employee's data within 30 days. However, if you want to permanently delete the user immediately, follow the steps in [Permanently delete a user](/azure/active-directory/fundamentals/active-directory-users-restore#permanently-delete-a-user).
 
 To learn more, see [GDPR compliance](https://www.microsoft.com/trustCenter/privacy/gdpr).
-
