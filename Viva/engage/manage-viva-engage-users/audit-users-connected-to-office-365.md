@@ -22,7 +22,7 @@ description: "Audit Viva Engage users: export a list of users, find the status o
 
 # Audit Viva Engage users in networks connected to Office 365
 
-Your company's Viva Engage network might have users who no longer work for your company. Or, some Viva Engage users might be logging in with their email and password because they don't have a corresponding Office 365 account. In order to analyze such situations and take action, you can audit your Viva Engage users. This involves exporting the list of Viva Engage users, finding the status of these Viva Engage users in Office 365 by using Azure Active Directory Module for Windows PowerShell, and analyzing the results and taking action.
+Your company's Viva Engage network might have users who no longer work for your company. Or, some Viva Engage users might be logging in with their email and password because they don't have a corresponding Office 365 account. In order to analyze such situations and take action, you can audit your Viva Engage users. This involves exporting the list of Viva Engage users, finding the status of these Viva Engage users in Office 365 by using Azure Active Directory module for Windows PowerShell, and analyzing the results and taking action.
   
 In addition to auditing Viva Engage users, you may want to understand more about how the Viva Engage service can be seamlessly managed from Office 365. For details, see [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
   
@@ -45,7 +45,7 @@ Before you can run the audit script, you create an input file that contains the 
   
 ## Find status of Viva Engage users in Office 365
 
-1. Install and configure the Azure Active Directory Module for Windows PowerShell. For instructions on this, read the following document: [Azure Active Directory Help](/previous-versions/azure/jj151815(v=azure.100)).
+1. Install and configure the Azure Active Directory module for Windows PowerShell. For instructions on this, read the following document: [Microsoft Entra ID Help](/previous-versions/azure/jj151815(v=azure.100)).
     
 2. Copy the following sample code, paste it into a text editor like Notepad, and then save the file as **UserMatchToAzureAD.ps1**.
     
@@ -102,7 +102,7 @@ Param(
   Write-Host "Done." 
   ```
    
-3. From an Azure Active Directory Module for Windows PowerShell command window, run the command as in the following example, passing the input file exported from Viva Engage and an output file location.
+3. From an Azure Active Directory module for Windows PowerShell command window, run the command as in the following example, passing the input file exported from Viva Engage and an output file location.
     
     Example usage:
     
@@ -116,12 +116,12 @@ Param(
                                                 
 1. Open the result CSV file, and filter out all the rows that show the exists_in_azure_ad column as FALSE.
     
-    Each of them are accounts that exist in Viva Engage, but not in Office 365 / Azure AD. For each of them, decide if you need to:
+    Each of them are accounts that exist in Viva Engage, but not in Office 365 / Microsoft Entra ID. For each of them, decide if you need to:
     
       - Suspend the user account in Viva Engage if the user shouldn't have access.
     
-      - Create the user in Office 365 / Azure AD.
+      - Create the user in Office 365 / Microsoft Entra ID.
     
-2. After you have completed these operations, we recommend that you run these steps again from the start to confirm all the users are now found in Office 365 and Azure AD.
+2. After you have completed these operations, we recommend that you run these steps again from the start to confirm all the users are now found in Office 365 and Microsoft Entra ID.
     
 If you're enforcing Office 365 identity, then after a full audit you may want to consider logging off all current users, so that you can be sure that everyone is now logging in with their Office 365 credentials, and not using cached credentials. If you choose to do this, ensure that this is communicated to your users. More information in [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
