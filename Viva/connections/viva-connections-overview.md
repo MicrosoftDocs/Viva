@@ -182,7 +182,7 @@ The experience in the Viva Connections mobile app is anchored around three key c
 <br>
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4TpyN title="Viva Connections on any device"]
 
 ## Curated and tailored experiences
 
