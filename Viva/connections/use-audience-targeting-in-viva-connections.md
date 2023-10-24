@@ -32,7 +32,7 @@ You can make sure that your content is seen by the right people by using audienc
 > [!NOTE]
 >
 > - Audience targeting filters content but is not meant to manage permissions, access, or secure confidential content.
-> - [Azure Active Directory groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and Azure AD dynamic groups) are supported.
+> - [Microsoft Entra groups](/microsoft-365/community/all-about-groups) (including security groups, Microsoft 365 groups, and Microsoft Entra dynamic groups) are supported.
 > - While in edit-mode, the author will be able to view all content. In read-mode, the content will be filtered based on the audiences selected.  
 > - Publish (or republish) to save changes made to existing page content, page metadata, and audience targeting settings for audience targeting features to take effect.  
 > - If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.

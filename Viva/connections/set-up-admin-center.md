@@ -191,17 +191,17 @@ Assign two or more owners to each experience so that they have full access to [e
 
 ### Step 3: Designate audiences
 
-Decide which Azure Active Directory security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners will assign member- and visitor-level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
+Decide which Microsoft Entra security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners will assign member- and visitor-level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
 
 > [!NOTE]
 > Visitors are set to **Everyone in the company except external users** by default.
 
 Audience targeting can be set up by doing either of the following tasks:
 
-1. Assigning one or more Azure Active Directory security groups or Microsoft 365 groups to the experience (This is the most common scenario).
+1. Assigning one or more Microsoft Entra security groups or Microsoft 365 groups to the experience (This is the most common scenario).
 2. Assigning license-level filtering, and choosing if frontline workers (F-license holders) or non-frontline workers should be targeted. (This option has been introduced to account for a scenario where a targeted experience for frontline and information workers is needed.)
 
-In this example scenario, Contoso Retail wants to target all sales frontline workers for a specific Connections experience. However, they have an Azure Active Directory (Azure AD) group for ‘Contoso Sales All’ that includes sales directors and higher who are non-frontline workers. To set up the audience targeting, the Azure AD group ‘Contoso Sales All’ license filtering option should be set to **frontline workers**. This setting will filter down the experience to only members of the ‘Contoso Sales All’ group who are also frontline workers (F-license holders). If the end user selects both options, an ‘AND’ operation is created, and the end user has to satisfy both the group and the license filtering criteria to access the experience.
+In this example scenario, Contoso Retail wants to target all sales frontline workers for a specific Connections experience. However, they have a Microsoft Entra group for ‘Contoso Sales All’ that includes sales directors and higher who are non-frontline workers. To set up the audience targeting, the Microsoft Entra group ‘Contoso Sales All’ license filtering option should be set to **frontline workers**. This setting will filter down the experience to only members of the ‘Contoso Sales All’ group who are also frontline workers (F-license holders). If the end user selects both options, an ‘AND’ operation is created, and the end user has to satisfy both the group and the license filtering criteria to access the experience.
 
 Users who have already designated audiences for their experiences can use the following steps to manage their audiences:
 
@@ -212,9 +212,9 @@ Users who have already designated audiences for their experiences can use the fo
    :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
-5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
+5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Microsoft Entra group or M365 group, or by both.
 
-    1. **Add by group**: Filter based on the Azure AD/M365 group by typing the group name(s) in the search bar.
+    1. **Add by group**: Filter based on the Microsoft Entra group or M365 group by typing the group name(s) in the search bar.
     1. **Add by license type**: Filter based on the subscriber license type.
 
        > [!NOTE]
@@ -252,11 +252,11 @@ If the example organization creates another experience scoped to a subset of the
 
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen that shows order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
-### Step 5: Configure the dashboard
+#### Configure the dashboard
 
 Follow the [steps to create the dashboard](create-dashboard.md) to choose what your users will see when they open Viva Connections.
 
-### Step 6: Enable the experience
+### Step 5: Enable the experience
 
 Enable each Viva Connections experience to make it visible to your audience.
 
@@ -341,13 +341,13 @@ The following settings are available in the settings panel:
 
 Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. This will ensure you get the home site features on the existing site, without using any of the previously configured Connections experience.
+If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. This will ensure you get the home site features on the existing site, without losing any of the previously configured Connections experience.
 
 > [!IMPORTANT]
 >
-> It is recommended that you first find the special site hosting the Connections experience in the list of active sites in SharePoint admin center and have the site owners make necessary content updates to that site. This step should be performed once your site is ready to be launched as the home site.
+> It is recommended that you first find the special site hosting the Connections experience in the list of active sites in SharePoint admin center and have the site owners make necessary content updates to that site. This step should be performed once your site is ready to be launched as the home site. Learn more about [planning, building, and launching a home site for your organization](home-site-plan.md).
 
-To use the site container that was created when creating your Viva Connections experience without using a SharePoint communications site:
+To set the site that was created when creating your Viva Connections experience as a home site:
 
 1. Select the experience from the Viva Connections admin page.
 2. In the **URL** section, select **Set as home site**.
@@ -358,6 +358,8 @@ To use the site container that was created when creating your Viva Connections e
 4. Select **Set home site**.
 
    :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site." lightbox="../media/connections/set-up-admin-center/enable-connections-experience.png":::
+
+Once your home site has been set up, it's time to plan the launch of the experience and make sure the rest of the organization can find and use the home site. Learn more about [launching your SharePoint home site](home-site-plan.md#launch-your-sharepoint-home-site).
 
 ### Frequently Asked Questions
 

@@ -55,7 +55,7 @@ You must be able to sign in as a global Microsoft 365 admin to use the Microsoft
 You can assign licenses as follows:
 
 * [Assign licenses to individual users with the Microsoft 365 admin center](assign-licenses.md)
-* [Assign licenses to security groups with Azure AD](assign-licenses.md)
+* [Assign licenses to security groups with Microsoft Entra ID](assign-licenses.md)
 * [Assign licenses to users with Microsoft PowerShell](assign-licenses-pshell.md)
 
 ## Deploy the app
@@ -67,4 +67,3 @@ See [Deploy the app](deploy.md) for steps on how to deploy.
 ## Access to Viva Insights
 
 After assigning licenses and deploying the app, the data for Viva Insights might take up to a week to process and become available. After completing the required setup tasks and allowing for data processing, refer your organization's leaders to [Install and pin the app](install.md) to open and use them. Also, refer them to [Viva Insights introduction](./intro.md) to learn more about how to use them.
-

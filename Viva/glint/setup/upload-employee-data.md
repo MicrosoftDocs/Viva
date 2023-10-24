@@ -1,6 +1,6 @@
 ---
 title: Prepare and upload your employee data to Viva Glint
-description: Your organizational data can appear in Viva Glint through Azure Active Directory or by uploading a .csv file.
+description: Your organizational data can appear in Viva Glint through Microsoft Entra ID or by uploading a .csv file.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: pamgreen

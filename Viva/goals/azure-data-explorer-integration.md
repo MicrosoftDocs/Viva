@@ -74,10 +74,10 @@ The first step in setting up the Azure Data Explorer integration is to set up a 
 
     :::image type="content" source="../media/goals/azure-data-explorer-new-connection.png" alt-text="Screenshot highlights the new connection pop-up dialog." lightbox="../media/goals/azure-data-explorer-new-connection.png":::
 
-4. After providing the URL, sign-in with your Azure AD user credentials.  
+4. After providing the URL, sign-in with your Microsoft Entra user credentials.  
 
 >[!NOTE] 
->Viva Goals uses AAD authentication to create an Azure Data Explorer Integration connection.  Whomever is setting up the connection must have access to the Azure Data Explorer cluster. 
+>Viva Goals uses Microsoft Entra authentication to create an Azure Data Explorer Integration connection.  Whomever is setting up the connection must have access to the Azure Data Explorer cluster. 
 
 5. After successful authentication, name your connection.  
 
@@ -124,7 +124,7 @@ If the desired Azure Data Explorer Integration connection isn't already establis
 
 2. In the next screen, provide the full Azure Data Explorer URL (for example, ‘https://CLUSTERNAME.kusto.windows.net’). This cluster, together with the database provided during the OKR setup, will be the “base” cluster (i.e., your query runs from the context of this cluster).   
 
-3. After providing the URL, sign-in with your Azure Active Directory (Azure AD) user credentials. 
+3. After providing the URL, sign-in with your Microsoft Entra user credentials. 
 
 4. Upon successful authentication, you are returned to the integration setup dialog, where you provide your database and KQL query as outlined above. 
 
@@ -134,5 +134,5 @@ If the desired Azure Data Explorer Integration connection isn't already establis
     1. Sync issues could occur due to multiple reasons:
         1. The device you used to create the connection(s) isn't compliant anymore.
         1. When you reset your Kusto password, the existing authentications go invalid automatically.
-        1. The user who created the connection(s) isn't part of Azure AD anymore.
+        1. The user who created the connection(s) isn't part of Microsoft Entra anymore.
     1. You can quickly fix these by reauthenticating the connection from **Account > Preferences > My Integrations >** select on**Manage against Kusto > Reauthenticate.**

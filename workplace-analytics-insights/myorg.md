@@ -24,7 +24,7 @@ You can view leader insights on the **My organization** page of the Microsoft Vi
 
 ![Outcomes page.](./images/my-org2.png)
 
-The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Azure Active Directory environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
+The top right of the page shows who in your organization is included in this analysis. This data is based on the most recent organizational data processed in your Microsoft Entra environment, including the current date range and the number of measured employees, managers, teams, and organizational levels. For more details, see [Data privacy](privacy.md).
 
 ## View the page
 
@@ -73,4 +73,3 @@ To learn about taking action on an outcome, you can view related best practices.
 ## Advanced analysis
 
 Microsoft Viva Insights in the cloud-based Workplace Analytics app give you access to more advanced analysis tools and ways of exploring and reporting analysis about your organization's collaboration data. See [Microsoft Viva Insights in Workplace Analytics](https://microsoft.com/microsoft-365/business/workplace-analytics) to learn more about purchasing and using Viva Insights in Workplace Analytics.
-
