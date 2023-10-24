@@ -293,7 +293,7 @@ Set-MyAnalyticsFeatureConfig –Identity <string> [-PrivacyMode <string[]>]
 
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
-`Identity`   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD)   |   --
+`Identity`   |   Yes   | User ID for the current user as stored in Microsoft Entra ID   |   --
 `PrivacyMode`   |   Yes   | <ul><li>`Opt-out`: Viva Insights won't use the user's data to compute derived statistics for other users. The user won't see statistics in Viva Insights, but can choose to opt in from the Feature settings menu.</li><li>`Opt-in`: Viva Insights uses the user's data to compute derived statistics for other users. The user can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
 Use `Set-MyAnalyticsFeatureConfig` to change the configuration settings of the user who is identified by the `-Identity` parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's Viva Insights features were turned on except the digest email:
@@ -318,7 +318,7 @@ Get-MyAnalyticsFeatureConfig –Identity <string>
 
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
-`Identity`    |  Yes         |    User ID for the current user as stored in Azure AD  | -
+`Identity`    |  Yes         |    User ID for the current user as stored in Microsoft Entra ID  | -
 
 `Get-MyAnalyticsFeatureConfig` reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all Viva Insights features turned on except the digest email:
 
