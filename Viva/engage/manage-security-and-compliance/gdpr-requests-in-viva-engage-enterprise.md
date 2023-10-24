@@ -2,7 +2,7 @@
 title: "Manage GDPR data subject requests in Viva Engage Enterprise"
 f1.keywords:
 - NOCSH
-ms.author: v-cdemaagd
+ms.author: dmillerdyson
 author: cedemaagd
 manager: dmillerdyson
 ms.date: 06/28/2023
