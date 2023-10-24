@@ -114,17 +114,17 @@ At the content level, you can also control what is discoverable. Any configurati
 
 ## 5. Identify knowledge managers and topics
 
-Managing topics involves three key roles, including two new Azure Active Directory (AAD) roles: Knowledge administrator and Knowledge manager:
+Managing topics involves three key roles, including two new Microsoft Entra roles: Knowledge administrator and Knowledge manager:
 
 - The Knowledge administrator (KA) is a technical role, typically in IT. This role allows the setup of the Viva Topics in the M365 admin center, as well as the configuration of topic discovery and visibility.
 - The Knowledge manager (KM) works with the topics themselves and oversees their quality and completeness.
-- Topic contributors (TCs) are not based on an AAD role, but permissions in the admin center. They are subject-matter experts able to curate the content on topics, adding resources and people.
+- Topic contributors (TCs) are not based on a Microsoft Entra role, but permissions in the admin center. They are subject-matter experts able to curate the content on topics, adding resources and people.
 
 Depending on your organization you may have few or many people acting in these roles. For some organizations, these may be the same people.
 
 | Knowledge admin | Knowledge manager | Topic contributor |
 |:-------|:-------|:-------|:-------|
-| AAD role | AAD role | SME |
+| Microsoft Entra role | Microsoft Entra role | SME |
 | Has access to the admin center | Has access to the admin center | No access to the admin center |
 | Sets up Viva Topics | Owns management and quality of topics | Contributes to topics based on their expertise. |
 | Ensures that security and compliance standards are enforced and understands licensing agreement.| Performs topic management tasks such as create, edit, delete, and reject topics. Supports Topic contributors with their tasks. | Curates the information and content on topic pages, including which people and resources are pinned to that topic. |
