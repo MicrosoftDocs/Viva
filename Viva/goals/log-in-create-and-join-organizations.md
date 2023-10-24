@@ -21,15 +21,15 @@ description: "Learn how to log in, create, and join an organization in Viva Goal
 
 # Log in, create, and join organizations in Viva Goals
 
-After you purchase Viva Goals licenses for your organization, you can log into Viva Goals by using your Azure Active Directory credentials. 
+After you purchase Viva Goals licenses for your organization, you can log into Viva Goals by using your Microsoft Entra credentials. 
 
-To log in to Viva Goals, you must be logged into your Azure Active Directory.
+To log in to Viva Goals, you must be logged into your Microsoft Entra ID.
 
 ## How to log in to Viva Goals 
 
 1. Go to the Viva Goals sign-in page: https://goals.microsoft.com/.
 
-2. Select the Azure Active Directory credentials to log in.
+2. Select the Microsoft Entra credentials to log in.
 
 3. If there are no organizations available, you'll be directed to **No organizations** page, where you're prompted to create an organization.
 
@@ -41,7 +41,7 @@ To log in to Viva Goals, you must be logged into your Azure Active Directory.
 
 ## How to create your first organization in Viva Goals
 
-1. Log in to your Viva Goals account (https://goals.microsoft.com/) with your Azure Active Directory credentials.
+1. Log in to your Viva Goals account (https://goals.microsoft.com/) with your Microsoft Entra credentials.
 
 2. You'll be prompted to create an organization. Select **Create Organization**.
 
@@ -67,7 +67,7 @@ Use the organization switcher dropdown to switch between different organizations
 
 ## How to join an organization in Viva Goals 
 
-1. Log in to Viva Goals (https://goals.microsoft.com/) using Azure Active Directory.
+1. Log in to Viva Goals (https://goals.microsoft.com/) using Microsoft Entra ID.
 
 2. If you're logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join Organizations** page, where you can select your organization.
 
@@ -81,13 +81,13 @@ Use the organization switcher dropdown to switch between different organizations
 
 ### FAQ (Frequently Asked Questions)
 
-1. **Are there other ways to log in to Viva Goals other than using Azure Active Directory credentials?**
-    1. Currently, you can only log into Viva Goals by using Azure Active Directory credentials.
+1. **Are there other ways to log in to Viva Goals other than using Microsoft Entra credentials?**
+    1. Currently, you can only log into Viva Goals by using Microsoft Entra credentials.
 
 1. **Can anybody in my organization log in?**
     1. Yes, if your organization has purchased or subscribed to Viva Goals, anybody can log in.  
 
-1. **Do I need to log in using Azure Active Directory every single time I want to access my Viva Goals account?**
+1. **Do I need to log in using Microsoft Entra every single time I want to access my Viva Goals account?**
     1. If you're logged into any other Microsoft 365 product or service, you'll automatically be directed to Viva Goals without needing to log in.
 
 1. **How do I log out of my Viva Goals account?**
@@ -102,4 +102,3 @@ Use the organization switcher dropdown to switch between different organizations
 1. **What do the types of organizations (*public* and *restricted*) mean?**
     1. *Public* allows anyone in your company to join your organization without approval.
     1. *Restricted* lets you choose which users get to join your organization. Use this option when you want to keep a tight-knit group of users to maintain information boundaries.
-
