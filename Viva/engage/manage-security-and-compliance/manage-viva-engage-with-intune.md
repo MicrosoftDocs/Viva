@@ -50,6 +50,5 @@ This feature is especially helpful for organizations where devices and apps are 
 |When you retire or un-enroll a device with the Viva Engage app, the application's corporate data are deleted.  <br/> |Yes  <br/> |Yes  <br/> |
    
 > [!NOTE]
-> Intune MAM policies will be enforced when users authenticate to Viva Engage through Office 365 (Azure Active Directory) accounts and sign-in. They're not enforced when users authenticate to Viva Engage with Viva Engage-specific passwords or Viva Engage temporary passwords. 
+> Intune MAM policies will be enforced when users authenticate to Viva Engage through Office 365 (Microsoft Entra ID) accounts and sign-in. They're not enforced when users authenticate to Viva Engage with Viva Engage-specific passwords or Viva Engage temporary passwords. 
     
-

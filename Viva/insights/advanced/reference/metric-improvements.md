@@ -124,12 +124,12 @@ For example, let’s say you accept a meeting that falls on a day you’re out o
 
 In the old platform, the only way to get employee attributes and organizational hierarchy was by manually uploading HR data.
 
-In the new platform, we use Azure Active Directory to simplify the administrator's experience. By default, employee attributes and organizational hierarchy are pulled from Azure Active Directory, but you can still manually upload HR data separately. If your organization doesn't keep Azure Active Directory updated regularly, you'll still need to upload data manually.
+In the new platform, we use Microsoft Entra ID to simplify the administrator's experience. By default, employee attributes and organizational hierarchy are pulled from Microsoft Entra ID, but you can still manually upload HR data separately. If your organization doesn't keep Microsoft Entra ID updated regularly, you'll still need to upload data manually.
 
 | Method |Old platform  | New platform|
 |-----|--------------|-------------|
 |HR data upload |	Supported	| Supported|
-|Autoextraction from Azure Active Directory	| Not supported	| Supported|
+|Autoextraction from Microsoft Entra ID	| Not supported	| Supported|
 |Third-party connectors| Not supported| Will be supported in the future|
 
 ### Why do the numbers for my metrics look different?

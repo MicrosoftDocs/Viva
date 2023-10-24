@@ -15,19 +15,19 @@ ms.custom: Adm_Yammer
 search.appverid: 
 - MOE150
 - MET150
-description: "Learn more about working with Azure Active Directory-B2B guests in Viva Engage communities."
+description: "Learn more about working with Microsoft Entra B2B guests in Viva Engage communities."
 ---
 
-# Work with Azure Active Directory-B2B guests in Viva Engage communities
+# Work with Microsoft Entra B2B guests in Viva Engage communities
 
-The Viva Engage guest feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization to supercharge collaboration. Viva Engage networks aligned to native mode use the Azure Active Directory Business-Business (Azure AD-B2B) guest framework to power guests. Azure Active Directory B2B is a secure, compliant external collaboration framework. Many apps in the Microsoft 365 suite use Azure AD (for example, Microsoft SharePoint, Microsoft Outlook, and Microsoft Teams). 
+The Viva Engage guest feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization to supercharge collaboration. Viva Engage networks aligned to native mode use the Microsoft Entra Business-Business (Microsoft Entra B2B) guest framework to power guests. Microsoft Entra B2B is a secure, compliant external collaboration framework. Many apps in the Microsoft 365 suite use Microsoft Entra ID (for example, Microsoft SharePoint, Microsoft Outlook, and Microsoft Teams). 
 
-Any Microsoft 365 user who isn't part of your organization can be added as a guest to a Viva Engage community by a Community admin. AzureAD-B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365 and can be managed within Azure AD. Guest access is subject to Azure AD and Microsoft 365 or Office 365 service limits.
+Any Microsoft 365 user who isn't part of your organization can be added as a guest to a Viva Engage community by a Community admin. AzureAD-B2B guests in Viva Engage communities are covered by the same compliance and auditing protection as the rest of Microsoft 365 and can be managed within Microsoft Entra ID. Guest access is subject to Microsoft Entra ID and Microsoft 365 or Office 365 service limits.
 
 
 ## Prerequisites for adding an external user as AzureAD-B2B guest to a Viva Engage community
 
-A Align your Viva Engage network to native mode before inviting an external user as an AzureAD-B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Azure AD, Microsoft 365 Groups, and SharePoint. 
+A Align your Viva Engage network to native mode before inviting an external user as an AzureAD-B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint. 
 
 If your organization is ready to start inviting guests to Viva Engage communities, then configure the following settings.
 
@@ -48,7 +48,7 @@ This setting is a Viva Engage network-wide setting. Enabling guest access lets c
 > [!NOTE]
 > If your Viva Engage network is provisioned after December 15th, 2020, then AzureAD-B2B guest functionality is already enabled by default for your organization. 
 
-To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) .
+To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team) .
 
 ## How to invite an external user as guest to a Viva Engage community
 
@@ -56,7 +56,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
 
 2.	The guest receives a welcome email message. This message includes information about the Viva Engage community and Viva Engage network to which the user is being invited, and the name of the community admin inviting the guest. The guest must accept the invitation by selecting **Go To Community** in the email message before accessing the Viva Engage community.
 
-    :::image type="content" source="../../media/yammer-aad-b2b-external-message.png" alt-text="Screenshot of the Viva Engage Azure Active Directory B2B external message.":::
+    :::image type="content" source="../../media/yammer-aad-b2b-external-message.png" alt-text="Screenshot of the Viva Engage Microsoft Entra B2B external message.":::
 
 3.	By visiting the **Go to Community** link, the guest accepts the invitation. After a guest accepts the invitation, they can participate in the Viva Engage community.
 
@@ -77,7 +77,7 @@ To configure Azure AD, Microsoft 365 Groups, and SharePoint settings, see [Colla
      :::image type="content" source="../../media/yammer-aad-b2b-external-community-leave.png" alt-text="Screenshot of the button that lets you leave an external community.":::
 
     > [!NOTE]
-    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or an Azure AD admin.
+    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 global admin or a Microsoft Entra admin.
 
 ## Guest capabilities and limitations
 
@@ -98,7 +98,7 @@ The guest experience has limitations by design. Following is a list of limitatio
 
 ## Licensing for guest access
 
-Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No other Microsoft 365 license is necessary. Viva Engage doesn't restrict the number of guests you can add. However, the paid features of Azure AD restrict the total number of guests you can add to your tenant. For more information, see [Billing model for Azure AD External Identities](/azure/active-directory/external-identities/external-identities-pricing).
+Guest access is included with all Microsoft 365 Business Standard, Microsoft 365 Enterprise, and Microsoft 365 Education subscriptions. No other Microsoft 365 license is necessary. Viva Engage doesn't restrict the number of guests you can add. However, the paid features of Microsoft Entra restrict the total number of guests you can add to your tenant. For more information, see [Billing model for Microsoft Entra External ID](/azure/active-directory/external-identities/external-identities-pricing).
 
 ## What features aren't supported for Guests?
 
@@ -121,7 +121,7 @@ A: AzureAD-B2B guests can't be invited to Viva Engage External Networks. Externa
 
 **Q: Will Viva Engage guest settings be aligned to Microsoft 365 Groups settings?**
 
-A: Yes. With Native Mode for Microsoft 365 for Viva Engage, all communities and users are supported via Microsoft 365 Groups. The Azure AD guest settings for Microsoft 365 Groups apply to Viva Engage communities.
+A: Yes. With Native Mode for Microsoft 365 for Viva Engage, all communities and users are supported via Microsoft 365 Groups. The Microsoft Entra guest settings for Microsoft 365 Groups apply to Viva Engage communities.
 
 **Q: Can Viva Engage have dynamic membership groups include guests from a domain?**
 
@@ -129,7 +129,7 @@ A: Yes. Admins can create dynamic membership rules for guests in a Viva Engage c
 
 **Q: I don’t want to allow guests in the Viva Engage communities of our network. How do I disable external users from participating in our communities?**
 
-A: Viva Engage relies on and builds upon the [external collaboration settings](/azure/active-directory/external-identities/delegate-invitations) offered by Azure AD. We recommend that you use Azure AD controls to configure external collaboration settings.
+A: Viva Engage relies on and builds upon the [external collaboration settings](/azure/active-directory/external-identities/delegate-invitations) offered by Microsoft Entra ID. We recommend that you use Microsoft Entra ID controls to configure external collaboration settings.
 
 You can prevent guests from being added to Viva Engage communities while allowing them to access the rest of Microsoft 365 apps. Go to the Viva Engage network admin settings page > External messaging security setting to deny community admins from adding guests.
 
@@ -145,4 +145,3 @@ A: Yes. AzureAD-B2B guests from another Geo can be invited to a Viva Engage netw
 [Viva Engage admin Help](./admin-key-concepts.md)
 
 [Native Mode for Microsoft 365 for Viva Engage](../overview-native-mode.md)
-
