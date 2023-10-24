@@ -21,7 +21,7 @@ audience: Admin
 
 # Automate query data exports to Azure
 
-With Azure Active Directory, you can automate the export of query data from Microsoft Viva Insights in Workplace Analytics. You can do this by using an OData query link in Workplace Analytics to connect and automatically refresh an Azure data store of your choice, such as through Azure Data Factory or Azure Synapse Analytics.
+With Microsoft Entra ID, you can automate the export of query data from Microsoft Viva Insights in Workplace Analytics. You can do this by using an OData query link in Workplace Analytics to connect and automatically refresh an Azure data store of your choice, such as through Azure Data Factory or Azure Synapse Analytics.
 
 ## Pick a setup path
 
@@ -34,7 +34,7 @@ To set up the automated OData connection between query data and an Azure data st
 ## Prerequisites
 
 * **Viva Insights or Workplace Analytics analyst** – Must be assigned a license and an Analyst role for Viva Insights or Workplace Analytics and have query results with the data you want to export.
-* **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Azure Active Directory](/azure/active-directory/), [OData connector](/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](/rest/api/datafactory/) for this setup.
+* **Microsoft Azure subscription** – If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/) now. You’ll be using [Microsoft Entra ID](/azure/active-directory/), [OData connector](/azure/data-factory/connector-odata#supported-capabilities), and [Data Factory](/rest/api/datafactory/) for this setup.
 * **Azure data store** – Your data store must be [supported by the OData connector](/azure/data-factory/connector-odata).
 * **Azure admin** – You need Azure admin privileges to create and register the app in Azure. You also need to ask the Azure global admin to grant you permissions in Azure Data Factory to connect your new app to the Azure data store.
 
@@ -42,8 +42,8 @@ To set up the automated OData connection between query data and an Azure data st
 
 The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Data Factory UI](/azure/data-factory/introduction). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
 
-1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
-2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
+1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Microsoft Entra ID.
+2. In **Microsoft Entra App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
 3. Enter and search for the **Workplace Analytics** app name or **ID** and then select the applicable name from the list.
 
    ![Screenshot that shows the app permissions screen.](./images/app-permissions-2.png)
@@ -61,7 +61,7 @@ The following steps you through how to automate the export of Workplace Analytic
 
     ![Screenshot that shows the app API permissions screen.](./images/permissions-grant.png)
 
-6. Follow the steps in [Create data factory](/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Azure Active Directory.
+6. Follow the steps in [Create data factory](/azure/data-factory/quickstart-create-data-factory-portal) to create a new analytics data factory within Microsoft Entra ID.
 7. In the **Azure Data Factory Overview**, select **Author & Monitor** to open Azure Data Factory.
 
     >[!Note]
@@ -82,7 +82,7 @@ The following steps you through how to automate the export of Workplace Analytic
      ![Screenshot that shows copying the query OData link.](./images/query-link-2.png)
 
 15. In **Service URL**, paste the query OData link that you copied in the previous step.
-16. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
+16. In **Microsoft Entra resource**, enter `https://workplaceanalytics.office.com`.
 17. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
 
      ![Azure application ID.](./images/azure-app-id-2.png)
@@ -91,8 +91,8 @@ The following steps you through how to automate the export of Workplace Analytic
 
      ![Screenshot that shows the service principal ID field highlighted on a screen.](./images/service-princ-id-2.png)
 
-19. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
-20. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
+19. In **Authentication type**, select either **Microsoft Entra service principal with Key** or **Microsoft Entra service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+20. In **Microsoft Entra ID** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
     * **For Key authentication**, select **New client secret** and in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy icon** to copy it.
     * **For Certificate authentication** (preferred for higher security), select a certificate and copy it.
@@ -127,8 +127,8 @@ You can then use this new data factory to access query data from Workplace Analy
 
 The following steps you through how to automate the export of Workplace Analytics query data to your choice Azure data store with the [Azure Synapse Analytics](/azure/synapse-analytics/get-started). Use the following steps in conjunction with the [Azure documentation](/azure/data-factory/introduction) to complete this setup.
 
-1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Azure Active Directory.
-2. In **Azure Active Directory App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
+1. Follow the steps in [Register an application using the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal) to create and register a new analytics app in Microsoft Entra ID.
+2. In **Microsoft Entra App registrations**, select the app from **Step 1**,  and then grant it permissions for accessing Workplace Analytics by selecting **View API permissions**, and then select **Add a permission**.
 3. Enter and search for the **Workplace Analytics** or **Viva Insights** app name or **ID** and then select the applicable name from the list.
 
    ![Screenshot that shows app API permissions.](./images/app-permissions-2.png)
@@ -174,14 +174,14 @@ The following steps you through how to automate the export of Workplace Analytic
      ![Screenshot that shows copying the query OData link.](./images/query-link-2.png)
 
 17. In Azure Synapse New linked **Service URL**, paste the query OData link that you copied in the previous step.
-18. In **AAD resource**, enter `https://workplaceanalytics.office.com`.
+18. In **Microsoft Entra resource**, enter `https://workplaceanalytics.office.com`.
 19. In **Active Directory**, select **Overview** for the new app, and then copy the **Application (client) ID**.
 
      ![Screenshot that shows the app screen with the Application (client) ID.](./images/wpafeed-app-2.png)
 
 20. In **Azure Synapse Studio** > **New linked service (Odata)** > **Service principal ID**, copy the client ID. For details, see [Linked service properties](/azure/data-factory/connector-odata#linked-service-properties).
-21. In **Authentication type**, select either **AAD service principal with Key** or **AAD service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
-22. In **Azure Active Directory** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
+21. In **Authentication type**, select either **Microsoft Entra service principal with Key** or **Microsoft Entra service principal with Cert**. Keep **New linked service (OData)** open in a separate browser window. For details about these options, see [Use Azure Key Vault secrets in pipeline activities](/azure/data-factory/how-to-use-azure-key-vault-secrets-pipeline-activities).
+22. In **Microsoft Entra ID** > **your newly registered analytics app**, select **Certificates & secrets**, and then do one of the following.
 
     * For **Key authentication**, select **New client secret**, and then in **Add a client secret**, enter a description, select when it expires, and then select **Add**. In **Client secrets**, select the new secret, and then select the **Copy** icon to copy it.
     * For **Certificate authentication** (preferred for higher security), select a certificate and copy it.

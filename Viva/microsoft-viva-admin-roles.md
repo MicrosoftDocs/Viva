@@ -50,7 +50,7 @@ The Microsoft 365 admin role spans the Viva suite. A Microsoft 365 global admin 
 
 Learn more about [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-Learn about [Built-in Azure AD roles](/azure/active-directory/roles/permissions-reference).
+Learn about [Built-in Microsoft Entra roles](/azure/active-directory/roles/permissions-reference).
 
 #### Microsoft Teams admin
 
@@ -94,8 +94,8 @@ To learn about setup and administration for Connections, see [Guide to setting u
 ### Viva Engage
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in AAD as Viva Engage is powered by Viva Engage technology. |
-|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in AAD. All Knowledge managers have Answers admin privileges. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. Find more information about assigning an [AAD role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
+|**Engage admin** <br> Assigned by Microsoft 365 global admin|Sets up Viva Engage for the organization, manages compliance, privacy and features within the application. This role is designated by adding Viva Engage administrators in Microsoft Entra ID as Viva Engage is powered by Viva Engage technology. |
+|**Answers admin** <br> Assigned by Microsoft 365 global admin| Sets up Answers within the Viva Engage application. This role is designated by adding a Knowledge manager role in Microsoft Entra ID. All Knowledge managers have Answers admin privileges. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. Find more information about assigning an [Microsoft Entra role to a group](/azure/active-directory/roles/groups-pim-eligible) or how to [create a role-assignable group](/azure/active-directory/roles/groups-create-eligible).|
 |**Corporate communicator**<br>Assigned by the Engage admin or a fellow corporate communicator.  |Can create or manage campaigns and define leaders and audiences in an organization.|
 |**Teams admin** <br>Assigned by Microsoft 365 global admin|Uses the Teams admin center to create setup policies to install the app and assign users. |
 
@@ -153,7 +153,7 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 
 For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
 
-The knowledge admin is an Azure Active Directory (Azure AD) role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
+The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
 
 ### Viva Topics
 
