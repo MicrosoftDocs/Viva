@@ -252,11 +252,11 @@ If the example organization creates another experience scoped to a subset of the
 
    :::image type="content" source="../media/connections/set-up-admin-center/set-order-2.png" alt-text="Screenshot of the screen that shows order of experiences." lightbox="../media/connections/set-up-admin-center/set-order-2.png":::
 
-### Step 5: Configure the dashboard
+#### Configure the dashboard
 
 Follow the [steps to create the dashboard](create-dashboard.md) to choose what your users will see when they open Viva Connections.
 
-### Step 6: Enable the experience
+### Step 5: Enable the experience
 
 Enable each Viva Connections experience to make it visible to your audience.
 
@@ -341,13 +341,13 @@ The following settings are available in the settings panel:
 
 Viva Connections experiences and SharePoint home sites (also referred to as intranet portals) are two complementary methods to creating powerful employee experiences that can be viewed on the web (via SharePoint) and in Teams. Users can choose to create a Viva Connections experience with or without selecting to build from an existing SharePoint communication site. [Learn more about how Connections and homes sites work together](viva-connections-overview.md#how-sharepoint-home-sites-and-viva-connections-work-together).
 
-If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. This will ensure you get the home site features on the existing site, without using any of the previously configured Connections experience.
+If you chose to create a Viva Connections experience without using your own SharePoint communication site as an intranet portal, you can set the special site container that was created to house your content as the home site. This will ensure you get the home site features on the existing site, without losing any of the previously configured Connections experience.
 
 > [!IMPORTANT]
 >
-> It is recommended that you first find the special site hosting the Connections experience in the list of active sites in SharePoint admin center and have the site owners make necessary content updates to that site. This step should be performed once your site is ready to be launched as the home site.
+> It is recommended that you first find the special site hosting the Connections experience in the list of active sites in SharePoint admin center and have the site owners make necessary content updates to that site. This step should be performed once your site is ready to be launched as the home site. Learn more about [planning, building, and launching a home site for your organization](home-site-plan.md).
 
-To use the site container that was created when creating your Viva Connections experience without using a SharePoint communications site:
+To set the site that was created when creating your Viva Connections experience as a home site:
 
 1. Select the experience from the Viva Connections admin page.
 2. In the **URL** section, select **Set as home site**.
@@ -358,6 +358,8 @@ To use the site container that was created when creating your Viva Connections e
 4. Select **Set home site**.
 
    :::image type="content" source="../media/connections/set-up-admin-center/enable-connections-experience.png" alt-text="Screenshot highlighting the steps to enable the Viva Connections experience and set it as a home site." lightbox="../media/connections/set-up-admin-center/enable-connections-experience.png":::
+
+Once your home site has been set up, it's time to plan the launch of the experience and make sure the rest of the organization can find and use the home site. Learn more about [launching your SharePoint home site](home-site-plan.md#launch-your-sharepoint-home-site).
 
 ### Frequently Asked Questions
 
