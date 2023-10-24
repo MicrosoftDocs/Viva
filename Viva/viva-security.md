@@ -28,7 +28,7 @@ Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. Thi
 
 Before setting up Microsoft Viva, consider the following security recommendations:
  
-- Protect data by implementing appropriate access controls and role-based access controls so only authorized users have access to certain data and features. Use Azure AD to handle user authentication and authorization. 
+- Protect data by implementing appropriate access controls and role-based access controls so only authorized users have access to certain data and features. Use Microsoft Entra ID to handle user authentication and authorization. 
 - Provide another layer of security for users by setting up multifactor authentication (MFA).
 - Make sure that you have a plan for incident response to tackle any security breaches that may occur.
 
@@ -69,14 +69,14 @@ For more information about security in Viva Engage, see
 ### Viva Glint
 Microsoft Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. 
 
-This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory.
+This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Entra ID.
 Because of the potential sensitivity about how data could be used, Viva Glint uses role-based access to control who has access. [Learn about assigning roles for viewing feedback in reporting.](https://go.microsoft.com/fwlink/?linkid=2230740)
 
 ### Viva Goals
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
 ### Viva Insights
-Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory. 
+Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Entra ID. 
 
 Because of the potential sensitivity about how data could be used, Viva Insights uses role-based access to control who has access. 
 
