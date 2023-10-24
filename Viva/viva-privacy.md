@@ -97,7 +97,7 @@ Privacy and security controls:
 
 |What info is available?|Who can access it?|How is it managed?|
 |-|-|-|
-|Conversations, resources, and apps from Microsoft services (like Teams and SharePoint) and third-party apps (by using the SharePoint Framework)<br><br>For users with elevated permissions, aggregated analytics data about traffic, usage by experience, and usage by platform.|Users with access to the SharePoint resources<br><br>For analytics, users with site member or higher access to the SharePoint home site that supports the Connections instance.|Information is visible to users based on the setting and their role in the organization<br><br>Different permission levels are required based on the content creator role (for example Home site or Dashboard).<br><br>Dashboard authors can target the cards to specific audiences by using Azure AD groups.|
+|Conversations, resources, and apps from Microsoft services (like Teams and SharePoint) and third-party apps (by using the SharePoint Framework)<br><br>For users with elevated permissions, aggregated analytics data about traffic, usage by experience, and usage by platform.|Users with access to the SharePoint resources<br><br>For analytics, users with site member or higher access to the SharePoint home site that supports the Connections instance.|Information is visible to users based on the setting and their role in the organization<br><br>Different permission levels are required based on the content creator role (for example Home site or Dashboard).<br><br>Dashboard authors can target the cards to specific audiences by using Microsoft Entra groups.|
 
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 

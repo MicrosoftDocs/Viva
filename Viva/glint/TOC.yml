@@ -44,7 +44,7 @@ items:
             href: setup/allowed-list.md
           - name: Set up attribute-based survey access
             href: setup/attribute-based-survey-access.md
-          - name: Access Viva Glint with Azure Active Directory
+          - name: Access Viva Glint with Microsoft Entra ID
             href: setup/access-with-azure-ad.md
           - name: Manage external users in Viva Glint
             href: setup/add-external-user.md

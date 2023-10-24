@@ -88,12 +88,13 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
+
 1. In the resulting pane:
-    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt users _out_.  
-    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt users _out_.  
-    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt users _out_. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.
-    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt users _out_. If you opt users out, they won't see an option for meeting effectiveness surveys in their settings.
-    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt users out. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
+    1. Select **Viva Insights web experience** to keep all Viva Insights users in your organization opted _in_ for access to the Viva Insights app on the web. Clear the selection for **Viva Insights web experience** to opt _out_ users.  
+    1. Select **Digest email** to keep all Viva Insights users in your organization opted _in_ for access to the [digest mails](../../personal/use/email-digests-3.md). Clear the selection for **Digest email** to opt _out_ users.  
+    1. Select **Insights Outlook add-in and inline suggestions** to keep all users in your organization opted _in_ for access to the add-in. Deselect it to opt _out_ users. If you opt out of the Viva Insights Outlook add-in, the Productivity inline suggestions are also turned _off_ for all users. Individuals can also turn [inline suggestions](https://support.microsoft.com/en-us/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5) *on* or *off* through their own **Settings** within the Viva Insights add-in.
+    1. Select **Meeting effectiveness surveys** to keep all users in your organization opted _in_ for access to the surveys. Deselect it to opt _out_ users. If you opt out users, they won't see an option for meeting effectiveness surveys in their settings.
+    1. Select **Schedule send suggestions** to keep all Viva Insights users in your organization opted in for access to schedule send suggestions, and then select **Save changes**. Deselect **Schedule send suggestions** to opt out users. These will be default settings for all users. Users can change them at any time from their Viva Insights Outlook add-in and Viva Insights app settings page. It may take up to 24 hours for all changes to take effect.
 
     >[!Note]
     >After a new tenant is established, it can take up to 48 hours for this functionality to become available.
@@ -101,7 +102,6 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
     :::image type="content" source="../../Images/MyA/setup/insights-settings-pane1.png" alt-text="Screenshot that shows the Microsoft Viva Insights (formerly MyAnalytics) settings pane with all selections enabled.":::
 
 1. Select **Save**.
-
 
 You can also get to these settings in from the main [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal):
 
@@ -155,7 +155,7 @@ To connect to Exchange Online, you install prerequisites and then you install th
 
 ### Configure access at the tenant level
 
-Use PowerShell to configure access for all users in a tenant. For example, you could opt everyone out completely, which would turn off all Viva Insights functionality for all users. However, users can choose to opt back in.
+Use PowerShell to configure access for all users in a tenant. For example, you could opt out everyone completely, which would turn off all Viva Insights functionality for all users. However, users can choose to opt in again.
 
 Configure Viva Insights by setting the `PrivacyMode` parameter. For information about the values of `PrivacyMode`, refer to the next section, Tenant configuration settings.
 
@@ -271,7 +271,7 @@ Configure Viva Insights by setting the `PrivacyMode` parameter. For information 
 
 Viva Insights has core features and premium features. Access to features and types of data processing depends on a user's assigned service plan.
 
-As an admin, you have the ability to configure opt in/opt out behavior for end users. For premium plans, you can also [allow](privacy-settings.md) users to control what’s included in advanced and some aggregated insights. Then, users can choose to [opt out](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967) through their Viva Insights app in Teams or on the web. When users opt out of Viva Insights:
+As an admin, you have the ability to configure opt-in/opt-out behavior for end users. For premium plans, you can also [allow](privacy-settings.md) users to control what’s included in advanced and some aggregated insights. Then, users can choose to [opt out](https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967) through their Viva Insights app in Teams or on the web. When users opt out of Viva Insights:
 
 * They lose access to the [Viva Insights app in Teams and web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f).
 * Their data isn’t included in [email read rates](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5).
@@ -293,7 +293,7 @@ Set-MyAnalyticsFeatureConfig –Identity <string> [-PrivacyMode <string[]>]
 
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
-`Identity`   |   Yes   | User ID for the current user as stored in Azure Active Directory (AD)   |   --
+`Identity`   |   Yes   | User ID for the current user as stored in Microsoft Entra ID   |   --
 `PrivacyMode`   |   Yes   | <ul><li>`Opt-out`: Viva Insights won't use the user's data to compute derived statistics for other users. The user won't see statistics in Viva Insights, but can choose to opt in from the Feature settings menu.</li><li>`Opt-in`: Viva Insights uses the user's data to compute derived statistics for other users. The user can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
 Use `Set-MyAnalyticsFeatureConfig` to change the configuration settings of the user who is identified by the `-Identity` parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's Viva Insights features were turned on except the digest email:
@@ -318,7 +318,7 @@ Get-MyAnalyticsFeatureConfig –Identity <string>
 
 Parameter   |   Required   |    Description    |   Default value
 ----------- | ------------ |  ---------------  | ---------------
-`Identity`    |  Yes         |    User ID for the current user as stored in Azure AD  | -
+`Identity`    |  Yes         |    User ID for the current user as stored in Microsoft Entra ID  | -
 
 `Get-MyAnalyticsFeatureConfig` reveals the current configuration settings of the user who is identified by the -Identity parameter. The following is a sample output of this cmdlet. It indicates that the user is currently opted in and that they have all Viva Insights features turned on except the digest email:
 
