@@ -1,6 +1,6 @@
 ---
 ms.date: 10/17/2023
-title: Manage topics at scale in Microsoft Topics
+title: Manage topics at scale in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -18,7 +18,7 @@ ms.localizationpriority:  medium
 description: Learn about best practices to manage topics in your organization using Topics.
 ---
 
-# Manage topics at scale in Microsoft Topics
+# Manage topics at scale in Topics
 
 When you index your SharePoint sites or your entire organization for Topics, many topics might be generated. When this happens and you see thousands of suggested topics on the **Manage topics** page, it can be challenging to know where to start. This article describes how Topics helps you optimize which topics and information are shown to users who are searching for information, even in large organizations with large numbers of topics.
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 04/20/2023
-title: Manage topic discovery in Microsoft Topics
+title: Manage topic discovery in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to administer topic discovery in Microsoft Topics.
+description: Learn how to administer topic discovery in Topics.
 ---
 
-# Manage topic discovery in Microsoft Topics
+# Manage topic discovery in Topics
 
 You can manage topic discovery settings in the [Microsoft 365 admin center](https://admin.microsoft.com). You must be a global administrator or SharePoint administrator to perform these tasks.
 

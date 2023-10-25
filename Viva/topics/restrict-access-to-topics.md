@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Restrict access to topics in Microsoft Topics
+title: Restrict access to topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -18,7 +18,7 @@ ms.localizationpriority: medium
 description: Learn how to exclude topics to prevent them from being discovered in Topics.
 ---
 
-# Restrict access to topics in Microsoft Topics
+# Restrict access to topics in Topics
 
 In Topics, stakeholders in your organization might want to make sure that specific topics aren't discovered and exposed to your licensed users. For example, you might be working on a project that you don't want to expose any information about yet. While Microsoft 365 permissions on sites, files, and other resources will prevent users from viewing sensitive information in topics, there are additional safeguards to prevent specific topics from ever being discovered.
 

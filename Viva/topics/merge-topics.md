@@ -1,6 +1,6 @@
 ---
 ms.date: 08/23/2023
-title: Merge topics in Microsoft Topics
+title: Merge topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,12 +15,12 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
-description: Learn how to combine multiple topics into one in Microsoft Topics.
+description: Learn how to combine multiple topics into one in Topics.
 ROBOTS: NOINDEX,NOFOLLOW
 
 ---
 
-# Merge topics in Microsoft Topics
+# Merge topics in Topics
 
 You can merge multiple topics into one if Topics identifies different topics that refer to the same thing.
 

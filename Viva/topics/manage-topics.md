@@ -1,6 +1,6 @@
 ---
 ms.date: 04/26/2023
-title: Manage topics in the topic center in Microsoft Viva Topics
+title: Manage topics in the topic center in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,9 +16,9 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
-description: Learn how to manage topics in the topic center in Microsoft Topics.
+description: Learn how to manage topics in the topic center in Topics.
 ---
-# Manage topics in the topic center in Microsoft Topics
+# Manage topics in the topic center in Topics
 
 </br>
 

@@ -1,5 +1,5 @@
 ---
-title: Use SharePoint taxonomy terms to create topics in Microsoft Topics
+title: Use SharePoint taxonomy terms to create topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -18,7 +18,7 @@ localization_priority: medium
 description: Learn about how to find topics in Topics by using SharePoint taxonomy.
 ---
 
-# Use SharePoint taxonomy terms to create topics in Microsoft Topics
+# Use SharePoint taxonomy terms to create topics in Topics
 
 You can use SharePoint taxonomy terms to help guide artificial intelligence (AI) to create topics in Topics. The SharePoint taxonomy service provides global terms that are available to all sites. Users can create topics that correspond with concepts that are represented as terms.
 

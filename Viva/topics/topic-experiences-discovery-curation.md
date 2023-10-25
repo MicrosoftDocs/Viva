@@ -1,6 +1,6 @@
 ---
 ms.date: 08/03/2023
-title: Topic discovery and curation in Microsoft Topics
+title: Topic discovery and curation in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -18,7 +18,7 @@ ms.localizationpriority:  medium
 description: Overview of topic discovery and curation in Topics
 ---
 
-# Topic discovery and curation in Microsoft Topics
+# Topic discovery and curation in Topics
 
 Topics organizes information into knowledge in your Microsoft 365 environment. We have all experienced reading through documents and site pages where we encounter terms we're unfamiliar with. Many times we stop what we are doing to spend precious time searching for more information.
 

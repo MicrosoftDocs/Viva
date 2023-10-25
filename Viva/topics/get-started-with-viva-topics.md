@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Learn about topics in Microsoft Topics
+title: Learn about topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
-description: Learn about new ways to discover and explore information in Microsoft Topics.
+description: Learn about new ways to discover and explore information in Topics.
 ---
 
-# Learn about topics in Microsoft Topics
+# Learn about topics in Topics
 
 How do you find the people and resources important to your work? When you share important files with others, are they able to find them again later, when they need them? Topics provides new ways to discover and explore information from your content in Microsoft 365.  
 

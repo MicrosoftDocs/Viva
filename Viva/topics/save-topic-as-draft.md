@@ -1,6 +1,6 @@
 ---
 ms.date: 11/29/2021
-title: Save a topic as a draft in Microsoft Topics
+title: Save a topic as a draft in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to save a new or revised topic as a draft in Microsoft Topics.
+description: Learn how to save a new or revised topic as a draft in Topics.
 ---
 
-# Save a topic as a draft in Microsoft Topics
+# Save a topic as a draft in Topics
 
 You can save as a draft a new topic or a revised topic that you're working on, but not ready to publish yet.
 

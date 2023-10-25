@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Plan for Microsoft Topics
+title: Plan for Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to plan for Microsoft Topics.
+description: Learn how to plan for Topics.
 ---
 
-# Plan for Microsoft Topics
+# Plan for Topics
 
 You're in control of how topics are experienced in your organization. Your planning decisions for Topics ensure that high quality topics are shown to your users and they have the right permissions to consume and contribute knowledge.
 
@@ -31,9 +31,9 @@ In this article we'll examine these planning decisions:
 - Which users you want to give permissions to create or edit topics in the topic center
 - What name you want to give your topic center
 
-Security and privacy of your data is respected, and topic experiences does not grant users additional access to files they don’t have rights to. We recommend you also read [Microsoft Topics security and privacy](topic-experiences-security-privacy.md) as part of your planning process.
+Security and privacy of your data is respected, and topic experiences does not grant users additional access to files they don’t have rights to. We recommend you also read [Topics security and privacy](topic-experiences-security-privacy.md) as part of your planning process.
 
-To learn more about the AI technology behind Topics, read [Alexandria in Microsoft Topics: from big data to big knowledge](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge).
+To learn more about the AI technology behind Topics, read [Alexandria in Topics: from big data to big knowledge](https://www.microsoft.com/research/blog/alexandria-in-microsoft-viva-topics-from-big-data-to-big-knowledge).
 
 Keep in mind that Topics needs access to the sites and files that your users use every day. Deploying Topics in a test or development environment may not yield useful results.
 
@@ -44,7 +44,7 @@ Keep in mind that Topics needs access to the sites and files that your users use
 
 You must be [subscribed to Topics](https://www.microsoft.com/microsoft-viva/topics) and be either a global administrator or both SharePoint and Groups administrator to access the Microsoft 365 admin center and set up Topics.
 
-Assigning licenses is covered in [Set up Microsoft Topics](set-up-topic-experiences.md). If you plan to assign licenses programmatically, be sure the users already have licenses for Microsoft 365 (for example, E3 or E5).
+Assigning licenses is covered in [Set up Topics](set-up-topic-experiences.md). If you plan to assign licenses programmatically, be sure the users already have licenses for Microsoft 365 (for example, E3 or E5).
 
 > [!IMPORTANT]
 > Topics crawls content in the [supported languages for processing topics](topics-language-support.md#languages-available-for-processing-topics).

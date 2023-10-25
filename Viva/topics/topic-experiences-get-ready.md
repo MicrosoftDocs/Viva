@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Get your environment ready for Microsoft Topics
+title: Get your environment ready for Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Get your environment ready so you can provide as much content as possible for your users with Microsoft Topics.
+description: Get your environment ready so you can provide as much content as possible for your users with Topics.
 ---
 
-# Get your environment ready for Microsoft Topics
+# Get your environment ready for Topics
 
 To make the most of Topics, you want to have as much content as possible included for topic discovery, so that you can have a rich set of topics for your users. But what content should be used for topic discovery? How do you maximize the content that is indexed, while staying in control? The more content is in scope, the better the insights the artificial intelligence can discover. This article walks you through planning steps to ensure that you are including the appropriate content, and that you have the right people and resources to make a good experience for your users.
 

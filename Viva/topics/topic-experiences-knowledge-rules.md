@@ -1,6 +1,6 @@
 ---
 ms.date: 04/20/2023
-title: Manage topic visibility in Microsoft Topics
+title: Manage topic visibility in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to administer topic visibility in Microsoft Topics.
+description: Learn how to administer topic visibility in Topics.
 ---
 
-# Manage topic visibility in Microsoft Topics
+# Manage topic visibility in Topics
 
 You can manage who can see topic highlights, topic cards, and the topic center in the [Microsoft 365 admin center](https://admin.microsoft.com). You must be a global administrator or SharePoint administrator and Groups admin to do these tasks.
 

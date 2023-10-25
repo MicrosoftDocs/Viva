@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Topic center overview in Microsoft Topics
+title: Topic center overview in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,12 +16,12 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
-description: Learn about the topic center in Microsoft Topics.
+description: Learn about the topic center in Topics.
 ---
 
-# Topic center overview in Microsoft Topics
+# Topic center overview in Topics
 
-In Microsoft Topics, the topic center is a modern SharePoint site that serves as a center of knowledge for your organization. It's created during [Topics setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.
+In Topics, the topic center is a modern SharePoint site that serves as a center of knowledge for your organization. It's created during [Topics setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.
 
 The topic center has a default home page with the **Topics** web part where all licensed users can see the topics to which they have a connection.
 

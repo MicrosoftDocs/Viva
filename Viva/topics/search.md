@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Use Microsoft Search to find topics in Microsoft Topics
+title: Use Microsoft Search to find topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
-description: Learn how to search for topics in Microsoft Topics.
+description: Learn how to search for topics in Topics.
 ---
 
-# Use Microsoft Search to find topics in Microsoft Topics
+# Use Microsoft Search to find topics in Topics
 
 While Topics users can find topics through topic highlights in their SharePoint sites, they can also find them through Microsoft Search.
 

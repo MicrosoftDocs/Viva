@@ -1,6 +1,6 @@
 ---
 ms.date: 05/04/2023
-title: Microsoft Topics overview
+title: Topics overview
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -24,7 +24,7 @@ ms.localizationpriority:  medium
 description: Learn about how to use Topics in your organization.
 ---
 
-# Microsoft Topics overview
+# Topics overview
 
 Topics uses Microsoft AI technology, Microsoft 365, Microsoft Graph, Search, and other components and services to bring knowledge to your users in the Microsoft 365 apps they use everyday, starting with SharePoint modern pages, Microsoft Search, and Search in Word, PowerPoint, Outlook, and Excel.
 
