@@ -1,6 +1,6 @@
 ---
 ms.date: 09/27/2023
-title: Create a new topic in Microsoft Topics
+title: Create a new topic in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to create a new topic in Microsoft Topics.
+description: Learn how to create a new topic in Topics.
 ---
 
-# Create a new topic in Microsoft Topics
+# Create a new topic in Topics
 
 In Topics, you can create a new topic if one is not discovered through indexing or if the AI technology did not find enough evidence to establish it as a topic.
 

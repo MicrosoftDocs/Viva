@@ -1,6 +1,6 @@
 ---
 ms.date: 09/12/2023
-title: Curate Multilingual topics in Microsoft Topics
+title: Curate Multilingual topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
-description: Learn how to curate topics in multiple languages using the Multilingual feature in Microsoft Topics.
+description: Learn how to curate topics in multiple languages using the Multilingual feature in Topics.
 ---
 
-# Curate Multilingual topics in Microsoft Topics
+# Curate Multilingual topics in Topics
 
 The Multilingual feature in Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 

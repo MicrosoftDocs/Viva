@@ -1,6 +1,6 @@
 ---
 ms.date: 11/15/2021
-title: Topic center overview in Microsoft Viva Topics
+title: Topic center overview in Microsoft Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,12 +16,12 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
-description: Learn about the topic center in Microsoft Viva Topics.
+description: Learn about the topic center in Microsoft Topics.
 ---
 
-# Topic center overview in Microsoft Viva Topics
+# Topic center overview in Microsoft Topics
 
-In Microsoft Viva Topics, the topic center is a modern SharePoint site that serves as a center of knowledge for your organization. It's created during [Viva Topics setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.
+In Microsoft Topics, the topic center is a modern SharePoint site that serves as a center of knowledge for your organization. It's created during [Topics setup](set-up-topic-experiences.md) in the Microsoft 365 admin center.
 
 The topic center has a default home page with the **Topics** web part where all licensed users can see the topics to which they have a connection.
 
@@ -29,12 +29,12 @@ While all licensed users who can view topics will have access to the topic cente
 
 ## Where is my topic center
 
-The topic center is created during Viva Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](./topic-experiences-administration.md#to-access-topics-management-settings).
+The topic center is created during Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](./topic-experiences-administration.md#to-access-topics-management-settings).
 
 1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
-2. On the **Services** tab, choose **Viva Topics**.
+2. On the **Services** tab, choose **Topics**.
 
-    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
+    ![Screenshot of the Services tab with Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic center** tab. Under **Site address** is a link to your topic center.
 
@@ -62,7 +62,7 @@ Once a user confirms their connection to a topic, the user can make edits to the
 
 ## Manage topics page
 
-To work on the **Manage topics** page of topic center, you need to have the required Manage topics permissions needed for the knowledge manager role. Your admin can assign these permissions to users during [Viva Topics setup](set-up-topic-experiences.md), or new users can be [added afterwards](topic-experiences-knowledge-rules.md) by an admin through the Microsoft 365 admin center.
+To work on the **Manage topics** page of topic center, you need to have the required Manage topics permissions needed for the knowledge manager role. Your admin can assign these permissions to users during [Topics setup](set-up-topic-experiences.md), or new users can be [added afterwards](topic-experiences-knowledge-rules.md) by an admin through the Microsoft 365 admin center.
 
 On the **Manage topics** page, the topic dashboard shows all the topics, you have access to, that were identified from your specified source locations. Each topic will show the date the topic was discovered. A user who was assigned Manage topics permissions can review the unconfirmed topics and choose to:
 

@@ -1,6 +1,6 @@
 ---
 ms.date: 07/17/2023
-title: Frequently asked questions about Microsoft Topics
+title: Frequently asked questions about Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -17,10 +17,10 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 localization_priority: Normal
-description: Read commonly asked questions and answers about using Microsoft Topics.
+description: Read commonly asked questions and answers about using Topics.
 ---
 
-# Frequently asked questions about Microsoft Topics
+# Frequently asked questions about Topics
 
 ## Topic discovery and curation
 
@@ -52,8 +52,8 @@ Topics listens for changes in these documents, processing them for changes to th
 
 Learn more about topic discovery and curation:
 
-- [Topic discovery and curation in Microsoft Topics](topic-experiences-discovery-curation.md)
-- [Create a new topic in Microsoft Topics](create-a-topic.md)
+- [Topic discovery and curation in Topics](topic-experiences-discovery-curation.md)
+- [Create a new topic in Topics](create-a-topic.md)
 
 ## Security and compliance
 
@@ -79,9 +79,9 @@ User permissions are enforced in a similar way to search. Users can only see met
 
 For more information about security and compliance, see the following help articles:
 
-- [Security and privacy in Microsoft Topics](topic-experiences-security-privacy.md)
-- [Manage topic permissions in Microsoft Topics](topic-experiences-user-permissions.md)
-- [Security trimming in Microsoft Topics](topic-experiences-security-trimming.md)
+- [Security and privacy in Topics](topic-experiences-security-privacy.md)
+- [Manage topic permissions in Topics](topic-experiences-user-permissions.md)
+- [Security trimming in Topics](topic-experiences-security-trimming.md)
 
 ## User experience
 
@@ -99,5 +99,5 @@ Topics relies on the search crawler for detecting changes and initial parsing of
 
 Learn more about the user experience:
 
-- [Get started with Microsoft Topics](get-started-with-viva-topics.md)
-- [Manage topics in the topic center in Microsoft Topics](manage-topics.md)
+- [Get started with Topics](get-started-with-viva-topics.md)
+- [Manage topics in the topic center in Topics](manage-topics.md)

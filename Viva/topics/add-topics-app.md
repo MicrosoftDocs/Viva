@@ -15,7 +15,7 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to Add the Viva Topics app in the Teams Admin Center.
+description: Learn how to Add the Topics app in the Teams Admin Center.
 ---
 
 # Add the Topics app in the Teams Admin Center

@@ -1,6 +1,6 @@
 ---
 ms.date: 09/27/2023
-title: Edit an existing topic in Microsoft Topics
+title: Edit an existing topic in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,10 +16,10 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150   
 ms.localizationpriority:  medium
-description: Learn how to edit an existing topic in Microsoft Topics.
+description: Learn how to edit an existing topic in Topics.
 ---
 
-# Edit an existing topic in Microsoft Topics
+# Edit an existing topic in Topics
 
 </br>
 

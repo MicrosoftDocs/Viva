@@ -1,6 +1,6 @@
 ---
 ms.date: 06/12/2023
-title: Adoption resources for Microsoft Topics
+title: Adoption resources for Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,10 +15,10 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Find resources to help your organization learn about and get the most out of Viva Topics.
+description: Find resources to help your organization learn about and get the most out of Topics.
 ---
 
-# Adoption resources for Microsoft Viva Topics
+# Adoption resources for Topics
 
 Use these adoption resources and other information to spark ideas about how to help get the most out of Topics in your organization. You can find more adoption resources at the [Topics adoption](https://adoption.microsoft.com/viva/topics/) site.
 
