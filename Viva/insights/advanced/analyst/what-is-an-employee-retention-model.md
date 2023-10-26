@@ -39,7 +39,7 @@ An exit survey usually identifies an employee who has churned for voluntary reas
 
 ## How to model attrition
 
-To model attrition, one of the approaches would be to train a statistical model to measure the likelihood of voluntary attrition, and the importance of the factors that contribute to it.
+To model attrition, one approach would be to train a statistical model to measure the likelihood of voluntary attrition, and the importance of the factors that contribute to it.
 
 A statistical model includes an **outcome variable** and a set of **predictor variables** (sometimes referred to as dependent variable and independent variables).
 
@@ -50,10 +50,10 @@ For an employee attrition model, the outcome variable is typically a binary vari
 | TRUE |
 | FALSE |
 
-Although this might change the characteristics of the model, the following outcome variables may also be used:
+Although this might change the characteristics of the model, the following outcome variables can also be used:
 
 - Employee engagement/satisfaction score, or Employer NPS
-- Employee sentiment on staying. For example, *Likelihood to stay in the organization in the next 6 months*
+- Employee attitude toward staying. For example, *Likelihood to stay in the organization in the next 6 months*
 - Tenure
 
 The next chapter provides details on what predictor variables, including data from Viva Insights and Glint, can be added to the model.
