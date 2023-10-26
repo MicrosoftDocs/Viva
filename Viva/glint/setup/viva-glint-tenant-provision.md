@@ -50,12 +50,6 @@ Choose either the US or EU URL for Azure login to begin:
 >[!TIP]
 > If you are unsure which URL to choose, begin with the US URL.
 
-## Microsoft Viva Professional Services
-
-If you are eligible to receive Microsoft Viva Glint professional services, please have your HR administrator (or other desired contact) complete the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) so a kickoff conversation can be initiated. If you are not eligible for Microsoft Viva Glint professional services, check out the online and phone support available via [Microsoft Admin Support](/microsoft-365/admin/get-help-support).  
-
-If you’ve submitted the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) and would like to request a data deletion or data export of your response, please submit a ticket with [Microsoft Support](/microsoft-365/admin/get-help-support) for assistance. Form submissions are retained for 10 days.  
-
 ## Complete the Welcome to Viva Glint page
 
 After logging into your preferred URL, the Welcome to Viva Glint page displays. Check the box for notification to be sent if you would like to receive email notification once your tenant provisioning is complete. Select **Continue** to begin tenant provisioning.
