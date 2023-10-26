@@ -17,7 +17,7 @@ audience: Admin
 
 # What metrics and queries can be accessed in Viva Insights and in Glint?
 
-To build an employee retention model, it's generally recommended to draw from a large and diverse dataset that covers the relevant factors influencing employee turnover.
+To build an employee retention model, it's recommended to draw from a large and diverse dataset that covers the relevant factors influencing employee turnover.
 
 Viva Insights and Glint provide a rich source of data to construct an employee retention model.
 
@@ -25,11 +25,11 @@ Viva Insights and Glint provide a rich source of data to construct an employee r
 
 There are a number of prerequisites to use Viva Insights and Glint data in the employee retention model:
 
-* Viva Insights and/or Glint must be fully set up and the Analyst is able to run queries from the Analyst Experience. Building the model depends on access to the custom person query.
+* Viva Insights and/or Glint must be fully set up and the Analyst is able to run queries from the Analyst Experience. Building the model requires access to the custom person query.
 
 * The required Glint metrics are available in the person query from Viva Insights, or at least joined at the group-level.
 
-* For best results, manual organizational data upload is recommended as it's likely to have a wider and more updated set of HR attributes to train the model.
+* For best results, we recommend manual organizational data upload because it's likely to have a wider and more updated set of HR attributes to train the model.
 
 * The aggregated and de-identified mailboxes for churned employees (in at least the last six months) should still be assigned licenses in Viva Insights in order to capture their collaboration data. The Administrator should also check the policy to ensure their collaboration data isn't deleted.
 
@@ -37,9 +37,9 @@ There are a number of prerequisites to use Viva Insights and Glint data in the e
 
 To build an employee retention model, it's important to identify relevant predictors that are known drivers of employee retention or engagement. Viva Insights metrics and Glint questions can be used as potential predictors, which are organized into dimensions or factors below.
 
-One approach is to take one metric per dimension to act as a proxy measurement of that dimension, e.g. using Collaboration hours as a proxy for Wellbeing. Alternatively, you may choose to create a composite metric per dimension. The key here is to avoid collinearity, which occurs when two or more predictors are highly correlated with each other. Collinearity can lead to unstable and unreliable model coefficients, and can make it difficult to interpret the effects of individual predictors.
+One approach is to take one metric per dimension to act as a proxy measurement of that dimension. For example, using Collaboration hours as a proxy for Wellbeing. Or, you may choose to create a composite metric per dimension. The key here is to avoid collinearity, which occurs when two or more predictors are highly correlated with each other. Collinearity can lead to unstable and unreliable model coefficients, and can make it difficult to interpret the effects of individual predictors.
 
-To address collinearity, factor analysis or principal component analysis can be used to reduce the number of repeated variables in the model. These techniques can identify underlying factors or components that explain the correlations among the predictors, and can reduce the number of predictors in the model while retaining most of the information. It's also advised to undertake exploratory data analysis prior to deciding which predictor variables to include in the model. This can help to identify potential outliers, missing values, or other issues that may affect the quality of the model. Examples include:
+To address collinearity, factor analysis or principal component analysis can be used to reduce the number of repeated variables in the model. These techniques can identify underlying factors or components that explain the correlations among the predictors, and can reduce the number of predictors in the model while retaining most of the information. We also recommend you perform exploratory data analysis prior to deciding which predictor variables to include in the model. This can help to identify potential outliers, missing values, or other issues that may affect the quality of the model. Examples include:
 
 * Correlation analysis - to identify highly correlated pairs
 * Scatter plots - to flag outliers and nonlinear relationships
@@ -51,7 +51,7 @@ Overall, selecting relevant predictors and addressing collinearity are important
 
 ## List of recommended features from Viva Insights and Glint
 
-The following lists a number of dimensions and associated metrics/questions from Viva Insights and Glint that are typically relevant for training an Employee Retention Model:
+The following lists a number of dimensions and associated metrics and questions from Viva Insights and Glint that are relevant for training an Employee Retention Model:
 
 ### Wellbeing
 
@@ -134,9 +134,9 @@ Aside from Viva Insights and Glint metrics, there are other data sources that ma
 * Pay / benefits package
 * Performance metrics
 * Number of hours worked / shift patterns
-* Viva Engage engagement metrics, e.g. employees active on Viva Engage may be at lower risk of attrition
+* Viva Engage engagement metrics. For example, employees active on Viva Engage may be at lower risk of attrition
 
-Organizational attributes, such as job functions, region, tenure, and seniority, may also have a significant impact on the likelihood of attrition. For instance, more junior employees may likely churn due to a lack of career progression or poor management, whereas senior employees may likely churn due to burnout. A comprehensive retention model should take into account key organizational contexts such as these.
+Organizational attributes, such as job functions, region, tenure, and seniority, may also have a significant impact on the likelihood of attrition. For instance, more junior employees may likely churn due to a lack of career progression or poor management, while senior employees may churn due to burnout. A comprehensive retention model should take into account these types of organizational contexts.
 
 Other examples of organizational attributes include:
 
@@ -147,10 +147,10 @@ Other examples of organizational attributes include:
 * Contract type
 * Remote vs. Hybrid vs. On-site
 
-For more information on including organizational attributes in Viva Insights, use [this resource](../admin/org-data-overview.md).
+For more information on organizational attributes in Viva Insights, use [this resource](../admin/org-data-overview.md).
 
-## Accessing the data
+### Accessing the data
 
-To train the model with the above datasets, we recommend downloading a custom Person Query from the Analyst Experience in Viva Insights, and uploading all the other data sources to Viva Insights as organizational data. This ensures that the data is available at the person-level granularity and provides greater accuracy when training the model.
+To train the model with the above datasets, we recommend downloading a custom Person Query from the Analyst Experience, and uploading all other data sources to Viva Insights as organizational data. This ensures that the data is available at the person-level granularity and provides greater accuracy when training the model.
 
-The frequency of the organizational data upload is also a consideration. The more frequent it is, the more accurately it would reflect any changes that have occurred for the individual over time.
+The frequency of the organizational data upload is also important. The more frequent it is, the more accurately it would reflect any changes that have occurred for the individual over time.
