@@ -1,6 +1,6 @@
 ---
 ms.date: 10/6/2023
-title: Set up and manage Microsoft Viva Topics
+title: Set up and manage Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -17,16 +17,16 @@ ms.subservice: viva-topics
 search.appverid:
 - MET150  
 ms.localizationpriority:  medium
-description: Learn how to set up Microsoft Viva Topics and manage your settings.
+description: Learn how to set up Topics and manage your settings.
 ---
 
-# Set up and manage Microsoft Viva Topics
+# Set up and manage Topics
 
 You can use the Microsoft 365 admin center to set up and configure [Topics](topic-experiences-overview.md).
 
-It is important to plan the best way to set up and configure topics in your environment. Be sure to read [Plan for Microsoft Viva Topics](plan-topic-experiences.md) before you begin the procedures in this article.
+It is important to plan the best way to set up and configure topics in your environment. Be sure to read [Plan for Topics](plan-topic-experiences.md) before you begin the procedures in this article.
 
-You must be [subscribed to Viva Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator, or both SharePoint administrator and groups administrator to access the Microsoft 365 admin center and set up Topics.
+You must be [subscribed to a Copilot or Viva license that includes Topics](https://www.microsoft.com/microsoft-viva/topics) and be a global administrator, or both SharePoint administrator and groups administrator to access the Microsoft 365 admin center and set up Topics.
 
 > [!IMPORTANT]
 > If you have configured SharePoint to [require managed devices](/sharepoint/control-access-from-unmanaged-devices), you must set up Topics from a managed device.
@@ -69,7 +69,7 @@ To set up Topics:
 
    [![Screenshot of the Viva admin page.](../media/viva-new-admin.png)](../media/viva-new-admin.png#lightbox)
 
-3. This will take you to the Viva Topics admin page. Choose **Deploy Topics in 2 steps** to enable Topics for your organization. This will bring up the setup pane.
+3. This will take you to the Topics admin page. Choose **Deploy Topics in 2 steps** to enable Topics for your organization. This will bring up the setup pane.
 
 ### Alternative setup path
 
@@ -271,8 +271,3 @@ You can also [add Viva Topics as an app in Teams](add-topics-app.md).
 - [Understanding Viva Topics](https://support.microsoft.com/office/5bef3020-2679-4045-81cb-bcbc37218332)
 - [Edit an existing topic in Microsoft Viva Topics](https://support.microsoft.com/office/6a4c7459-2293-4291-af76-973af65a44ae)
 
-## See also
-
-[Topic Experiences Overview](topic-experiences-overview.md)
-
-[Learn about topics in Microsoft Viva Topics](/viva/topics/get-started-with-viva-topics)
