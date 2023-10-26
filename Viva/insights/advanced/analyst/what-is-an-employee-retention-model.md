@@ -17,9 +17,9 @@ audience: Admin
 
 # What is an Employee Retention Model?
 
-Before diving into the definitions of what an employee retention model is, let's clarify some of the relevant terms, such as *retention*, *attrition*, *churn*, and *turnover*.
+Before diving into the definitions of an employee retention model, let's clarify some of the relevant terms, such as *retention*, *attrition*, *churn*, and *turnover*.
 
-## What's the difference between employee retention, attrition (churn), or a turnover model?
+## Employee retention vs. attrition (churn) vs. turnover model
 
 Employee retention, attrition, and turnover are all HR metrics that measure employee movement within an organization:
 
