@@ -43,6 +43,9 @@ The files exported by your HRIS system should be either comma-separated values (
 
 The import function allows you to quickly modify employee records in bulk and add new users.
 
+> [!CAUTION]
+> Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
+     
 > [!TIP]
 > Update your employee file on a regular basis. Ensure that your latest employee attributes have been sent and uploaded prior to a survey launch as your attributes can't be changed at the point of survey launch.
 
