@@ -24,10 +24,10 @@ Before diving into the definitions of an employee retention model, let's clarify
 Employee retention, attrition, and turnover are all HR metrics that measure employee movement within an organization:
 
 - Employee retention refers to the ability of an organization to keep its employees.
-- Employee attrition refers to the natural reduction of the workforce through reasons such as retirement, sickness, death, or resignations.
-- Employee turnover measures all terminations, which includes positions that are refilled. For the purpose of comparing employee attrition and retention, we'll use attrition as a synonym for turnover.
+- Employee attrition refers to the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
+- Employee turnover measures all terminations, which includes positions that are refilled. We'll use attrition as a synonym for turnover.
 
-The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be adapted for similar business objectives.
+The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be used for similar business objectives.
 
 ### Types of attrition
 
