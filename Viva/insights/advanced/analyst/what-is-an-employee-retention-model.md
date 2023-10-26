@@ -19,10 +19,10 @@ audience: Admin
 
 Let's start with defining the relevant terms: *retention*, *attrition*, *churn*, and *turnover*.
 
-These are all HR metrics that measure employee movement within an organization:
+These are HR metrics that measure employee movement within an organization:
 
-- Employee retention refers to the ability of an organization to keep its employees.
-- Employee attrition or churn refers to the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
+- Employee retention is the ability of an organization to keep its employees.
+- Employee attrition or churn is the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
 - Employee turnover measures all terminations, which includes positions that are refilled. We'll use attrition as a synonym for turnover.
 
 The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be used for similar scenarios.
@@ -31,14 +31,9 @@ The concepts are closely related. In this playbook, we'll focus on a specific ty
 
 There are two main types of attrition: **involuntary** and **voluntary**. Involuntary attrition refers to the loss of employees due to reasons beyond their control, such as layoffs, restructuring, or termination by the company. Attrition due to retirement, sickness, and death also normally fall under this category.
 
-Voluntary attrition refers to the loss of employees who leave the company voluntarily, due to reasons such as better job opportunities, dissatisfaction with their current role or work environment, or personal reasons.
+Voluntary attrition refers to the loss of employees who leave the company voluntarily, due to reasons such as better job opportunities, dissatisfaction with their current role, pay, work environment, or manager, or personal reasons.
 
-In this playbook, we'll focus on **voluntary churn**, which an organization can potentially reduce. For instance, voluntary reasons could be:
-
-- Dissatisfaction with wellbeing
-- Dissatisfaction with culture or manager
-- Dissatisfaction with pay or package
-- Better opportunity elsewhere
+In this playbook, we'll focus on **voluntary churn**, which an organization can potentially reduce.
 
 An exit survey usually identifies an employee who has churned for voluntary reasons. In Viva Insights, this can be uploaded as an organizational attribute. This can then be used as an outcome variable to determine whether someone has churned.
 
