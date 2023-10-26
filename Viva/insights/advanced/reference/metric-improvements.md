@@ -111,7 +111,7 @@ The new time invested method helps answer the question, "How much time does grou
 
 % Time invested measures the proportion of a person's collaboration time that is spent with a group (time invested into a group by the person / Total time spent by the person in collaboration activities).
 
-% Time invested by a person into different groups in most cases would not add up to 100%, because a person would have meetings where more than one collaborator group can be present. This can be explained in the following scenario: There was a 60-minute meeting between 1 person each from Groups A, B, and C, and another 60-minute meeting between 1 person seach from Groups A and B only.
+% Time invested by a person into different groups in most cases would not add up to 100%, because a person would have meetings where more than one collaborator group can be present. This can be explained in the following scenario: There was a 60-minute meeting between 1 person each from Groups A, B, and C, and another 60-minute meeting between 1 person search from Groups A and B only.
 
 Meeting 1
 
