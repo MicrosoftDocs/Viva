@@ -31,12 +31,14 @@ The concepts are closely related. In this playbook, we'll focus on a specific ty
 
 ### Types of attrition
 
-There are two main types of attrition: **involuntary** and **voluntary**. Involuntary attrition refers to the loss of employees due to reasons beyond their control, such as layoffs, restructuring, or termination by the company. Attrition due to retirement, sickness, and death also normally fall under this category. Voluntary attrition refers to the loss of employees who leave the company voluntarily, often due to reasons such as better job opportunities, dissatisfaction with their current role or work environment, or personal reasons.
+There are two main types of attrition: **involuntary** and **voluntary**. Involuntary attrition refers to the loss of employees due to reasons beyond their control, such as layoffs, restructuring, or termination by the company. Attrition due to retirement, sickness, and death also normally fall under this category.
+
+Voluntary attrition refers to the loss of employees who leave the company voluntarily, due to reasons such as better job opportunities, dissatisfaction with their current role or work environment, or personal reasons.
 
 In this playbook, we'll focus on **voluntary churn**, which an organization can potentially reduce. For instance, voluntary reasons could be:
 
 - Dissatisfaction with wellbeing
-- Dissatisfaction with culture or manager style
+- Dissatisfaction with culture or manager
 - Dissatisfaction with pay or package
 - Better opportunity elsewhere
 
@@ -46,7 +48,7 @@ An exit survey usually identifies an employee who has churned for voluntary reas
 
 To model attrition, one of the approaches would be to train a statistical model to measure the likelihood of voluntary attrition, and the importance of the factors that contribute to it.
 
-A statistical model will be composed of an **outcome variable** and a set of **predictor variables** (sometimes referred to as dependent variable and independent variables).
+A statistical model includes an **outcome variable** and a set of **predictor variables** (sometimes referred to as dependent variable and independent variables).
 
 For an employee attrition model, the outcome variable is typically a binary variable on whether an employee experienced voluntary attrition:
 
