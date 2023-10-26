@@ -22,10 +22,10 @@ Let's start with defining the relevant terms: *retention*, *attrition*, *churn*,
 These are all HR metrics that measure employee movement within an organization:
 
 - Employee retention refers to the ability of an organization to keep its employees.
-- Employee attrition refers to the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
+- Employee attrition or churn refers to the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
 - Employee turnover measures all terminations, which includes positions that are refilled. We'll use attrition as a synonym for turnover.
 
-The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be used for similar business objectives.
+The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be used for similar scenarios.
 
 ## Types of attrition
 
@@ -42,7 +42,7 @@ In this playbook, we'll focus on **voluntary churn**, which an organization can 
 
 An exit survey usually identifies an employee who has churned for voluntary reasons. In Viva Insights, this can be uploaded as an organizational attribute. This can then be used as an outcome variable to determine whether someone has churned.
 
-## Modelling attrition
+## How to model attrition
 
 To model attrition, one of the approaches would be to train a statistical model to measure the likelihood of voluntary attrition, and the importance of the factors that contribute to it.
 
