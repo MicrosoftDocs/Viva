@@ -71,7 +71,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
 
-### Diversity, Inclusion, & Belonging
+### Diversity and Inclusion
 
 - **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
 - **Recommended frequency** - Recurring
