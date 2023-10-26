@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,FOLLOW
-ms.date: 07/15/2022
+ms.date: 10/26/2023
 title: Viva Insights metric improvements
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
 author: zachminers
@@ -84,6 +84,50 @@ The new platform, however, considers the actual time that activities are overlap
 |--|-----|----|
 |Multitasking signal| Email only| Email and Teams chat (more comprehensive)|
 |Classification logic |Threshold-based, all-or-nothing (less precise)| Granular accumulation (more precise)|
+
+#### Time investment for cross-collaboration queries
+
+*Metric name: **Time investment***
+
+The following changes have been made to the calculation of time investment metrics in group-to-group and person-to-group queries.
+
+**Changes in units from hours to minutes**
+
+Time investment is now measured in minutes instead of hours, as was the case earlier.
+
+**Time investment instead of allocation**
+
+If a person attends a meeting with any person from another group, the person invests the entire time they spend in the meeting in the group, as opposed to the previous method whereby the time was divided across various groups participating in the meeting as a proportion of the number of participants from that group. This difference is illustrated below.
+
+Scenario: 60-minute meeting between 1 member each from groups A, B, and C
+
+| Time investment (Current) | Time allocation (Previous) |
+|--|-----
+|Time invested by A to B = 60 minutes | Time invested by A to B = 0.5 hours = Time spent by A in meeting x Number of participants from group B / Number of participants in the meeting from groups apart from group A|
+
+The new time invested method helps answer the question, "How much time does group A spend with group B?"
+
+**Why does % Time invested add up to more than 100%?**
+
+% Time invested measures the proportion of a person's collaboration time that is spent with a group (time invested into a group by the person / Total time spent by the person in collaboration activities).
+
+% Time invested by a person into different groups in most cases would not add up to 100%, because a person would have meetings where more than one collaborator group can be present. This can be explained in the following scenario: There was a 60-minute meeting between 1 person each from Groups A, B, and C, and another 60-minute meeting between 1 person each from Groups A and B only.
+
+Meeting 1
+
+* Time invested from A to B is 60 minutes
+
+* Time invested from A to C is 60 minutes
+
+Meeting 2
+
+* Time invested from A to B is 60 minutes
+
+% Time invested calculations
+
+* % Time invested by A on B = 60 (meeting 1) + 60 (meeting 2) / 120 (time spent by A in meetings) = 100%
+
+* % Time invested by A on C = 60 (meeting 1) / 120 (time spent by A in meetings) = 50%
 
 #### Focus hours
 

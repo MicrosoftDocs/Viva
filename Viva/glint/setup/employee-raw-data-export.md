@@ -32,6 +32,9 @@ To ensure customers can meet their DSR obligations, Viva Glint provides an alter
 
 Even when a customer has opted out of raw survey response export, the customer can still access this data if they determine certain extreme circumstances exist. [Read more about "extreme circumstances."](https://go.microsoft.com/fwlink/?linkid=2238614)
 
+> [!IMPORTANT]
+>  If the raw data export feature is not enabled, Microsoft cannot provide raw data to the customer - the customer is the data controller. 
+
 ## Access raw survey responses at the company level
 
 The following section outlines how to enable, disable and export company-level raw data. 
