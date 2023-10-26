@@ -132,8 +132,6 @@ items:
                 items:
                   - name: Viva Glint aggregate grouping - trends and best practices
                     href: reports/aggregate-trending.md
-              - name: Use the Glint Microsoft Teams application
-                href: setup/glint-microsoft-teams-application.md
           - name: Setup by Program type
             items:
               - name: Setting up Engagement surveys
