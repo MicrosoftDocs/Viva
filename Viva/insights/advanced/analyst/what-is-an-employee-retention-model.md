@@ -17,11 +17,9 @@ audience: Admin
 
 # What is an Employee Retention Model?
 
-Before diving into the definitions of an employee retention model, let's clarify some of the relevant terms, such as *retention*, *attrition*, *churn*, and *turnover*.
+Let's start with defining the relevant terms: *retention*, *attrition*, *churn*, and *turnover*.
 
-## Employee retention vs. attrition (churn) vs. turnover model
-
-Employee retention, attrition, and turnover are all HR metrics that measure employee movement within an organization:
+These are all HR metrics that measure employee movement within an organization:
 
 - Employee retention refers to the ability of an organization to keep its employees.
 - Employee attrition refers to the natural reduction of the workforce through reasons like retirement, sickness, death, or resignations.
@@ -29,7 +27,7 @@ Employee retention, attrition, and turnover are all HR metrics that measure empl
 
 The concepts are closely related. In this playbook, we'll focus on a specific type of employee attrition: voluntary. But the general principles and approach can be used for similar business objectives.
 
-### Types of attrition
+## Types of attrition
 
 There are two main types of attrition: **involuntary** and **voluntary**. Involuntary attrition refers to the loss of employees due to reasons beyond their control, such as layoffs, restructuring, or termination by the company. Attrition due to retirement, sickness, and death also normally fall under this category.
 
@@ -44,7 +42,7 @@ In this playbook, we'll focus on **voluntary churn**, which an organization can 
 
 An exit survey usually identifies an employee who has churned for voluntary reasons. In Viva Insights, this can be uploaded as an organizational attribute. This can then be used as an outcome variable to determine whether someone has churned.
 
-### Modelling attrition
+## Modelling attrition
 
 To model attrition, one of the approaches would be to train a statistical model to measure the likelihood of voluntary attrition, and the importance of the factors that contribute to it.
 
