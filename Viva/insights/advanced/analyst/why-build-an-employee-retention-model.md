@@ -28,17 +28,17 @@ Through this playbook, you can learn:
 
 With this playbook, organizations can create a machine learning model to predict employee attrition. The prediction is intended to help organizations develop a retention model and strategy that best suits them, being mindful of constraints such as industry, organizational structure, and other conditions.
 
-## The value of an employee retention model
+## Rationale
 
-The most valuable asset of a company is its people, especially when they are outstanding in what they do. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
+The most valuable asset of a company is its people, especially when they're outstanding in what they do. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
 
 Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition, and identify groups with higher attrition risk.
 
-Losing an employee is costly because employees are appreciating assets. All things being equal, employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s level of specialization. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to help organizations determine strategies for increased employee retention is practically mandatory.  
+Losing an employee is costly because employees are appreciating assets, producing more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s level of skill. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to help organizations determine strategies for increased employee retention is vital.  
 
-Machine learning can be used to analyze employee data and to build models that can predict voluntary employee attrition. Such models can help organizations to take proactive measures to retain their valuable employees and to reduce the costs and consequences of employee turnover.  
+Machine learning can be used to analyze employee data and to build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of employee turnover.  
 
-Our proposed model will leverage historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups with higher risks of attrition to aid in creating a more stable, engaged, and productive workforce.
+Our proposed model will leverage historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
 [^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -61,9 +61,9 @@ Our proposed model will leverage historical employee data, performance metrics, 
 
 6: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
 
-## Company benefits
+## Benefits
 
-There are many potential benefits to an organization when a retention or attrition model is successfully deployed and leveraged:
+There are many potential benefits to an organization when a retention or attrition model is successfully deployed:
 
 1. **Financial Savings**: Beyond recruitment costs, low turnover can lead to financial savings in areas like benefits administration and retirement plans, which are more cost-effective with long-term employees. Moreover, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
 
