@@ -71,7 +71,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
 ## FAQs (Frequently Asked Questions)
 
 1. **Who can access the Viva Goals network?**
-    1. Only users with a valid and verified company email address who are authorized through Azure Active Directory (either direct or federated) can access Viva Goals.
+    1. Only users with a valid and verified company email address who are authorized through Microsoft Entra ID (either direct or federated) can access Viva Goals.
 
 2. **What endpoints need to be reachable for Viva Goals users?**
     1. For complete Office 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/office365/enterprise/office-365-endpoints). 
@@ -117,16 +117,16 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
         1. For User content: https://support.microsoft.com/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad
 
 14. **How does Viva Goals protect the service from the internet?**
-    1. Viva Goals uses Azure Front Door to provide necessary Firewall controls and WAF (Web Application Firewall) capabilities. Viva Goals also uses Endpoint protection services managed by Azure Active Directory. [A conditional access policy](/azure/active-directory/conditional-access/overview) with Just-In-Time elevated access is used to manage write access to Azure portal which manages the production subscription(s). 
+    1. Viva Goals uses Azure Front Door to provide necessary Firewall controls and WAF (Web Application Firewall) capabilities. Viva Goals also uses Endpoint protection services managed by Microsoft Entra ID. [A conditional access policy](/azure/active-directory/conditional-access/overview) with Just-In-Time elevated access is used to manage write access to Azure portal which manages the production subscription(s). 
 
 15. **What Authentication/Authorization mechanism is used by Viva Goals?**
-    1. Viva Goals uses Role Based Access Control (RBAC) through Azure Active Directory and application specific roles. Each role has specific read, write, and administrative access. To learn more about Roles and Permissions, see [Roles and Permissions in Viva Goals](roles-permissions-in-viva-goals.md).
+    1. Viva Goals uses Role Based Access Control (RBAC) through Microsoft Entra ID and application specific roles. Each role has specific read, write, and administrative access. To learn more about Roles and Permissions, see [Roles and Permissions in Viva Goals](roles-permissions-in-viva-goals.md).
 
 16. **What Authentication/Authorization mechanism is used for data integrations with Viva Goals?**
     1. Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and projects, enabling you to have a single source of truth for progress. Viva Goals uses oAuth 2.0-based authentication when available, otherwise user’s API token or username/password is used to connect to the data integration service. Credentials provided such as username/password or OAuth tokens are encrypted and stored in the database. The keys to encrypt (unique to an organization) are in turn encrypted and stored in the database using Key Encryption Key (KEK) that resides in Azure managed HSM Key vault. Viva Goals utilizes public APIs to retrieve data from third-party integrations. Viva Goals does not share data from your tenant with third parties to support data integrations by default. To learn more about setting up integrations, see [Integrations Administration Overview](vg-integrations-administration-overview.md).
 
-17. **Can I configure Multi-factor Authentication (MFA) with Viva Goals?**
-    1. Yes. MFA can be configured using Azure Active Directory. To learn more about MFA with AAD, see [Azure AD Multi-Factor Authentication](/azure/active-directory/authentication/concept-mfa-howitworks). 
+17. **Can I configure multifactor authentication (MFA) with Viva Goals?**
+    1. Yes. MFA can be configured using Microsoft Entra ID. To learn more about MFA with Microsoft Entra ID, see [Microsoft Entra multifactor authentication](/azure/active-directory/authentication/concept-mfa-howitworks). 
 
 #### Viva Goals Data Handling
 
@@ -167,7 +167,7 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. There is over forty-five different 1P and 3P integrations, most of which focus on pulling data from external services into Viva Goals. Data integrations (that automatically update OKRs when your work gets done) pull data from external systems into Viva Goals (one-way sync). Integration such as Slack/Teams uses a bi-directional sync and enable Viva Goals to be in the flow of work of the user (two-way sync). <br></br> The Integration authentication mechanism is oAuth2-based when available; otherwise, a user’s API token or username/password is utilized to connect to other services. Credentials provided, such as username/password or OAuth tokens, are encrypted and stored in the database. The keys to encrypt are unique to an org and are in turn encrypted and stored in the database using Key Encryption Key (KEK) that resides in Azure managed HSM Key vault. 
 
 13. **What kind of personal data do you process?**
-    1. Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Azure Active Directory. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers. 
+    1. Viva Goals abides by the Microsoft Trust policies and procedures to minimize the use of personal data for any processing activity. Viva Goals only consumes personal data from Microsoft Entra ID. Additionally, customer content related to 3P integrations will be captured and processed (all such data is encrypted and stored in our database). The following are examples of personal information required by Viva Goals for application-specific purposes: Name, Addresses, Job Title, Department, City Country, User Type, Preferred Language, Profile Photo, Manager. In addition to this, some third-party integrations may push fields (e.g., Employee cost center, Department/Team/Organization) with the consent of customers. 
 
 14. **Who has access to personal data?**
     1. Microsoft personnel have no standing access to customer data. Access to such data is safeguarded by controls including approval workflows only when required to support the customer. IT admin can reach out to Microsoft support through Admin centers to raise queries for their personal data. Please refer to “how to contact us” section in Privacy statement [here](https://privacy.microsoft.com/privacystatement#mainnoticetoendusersmodule). 

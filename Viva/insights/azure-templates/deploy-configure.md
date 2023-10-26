@@ -30,10 +30,10 @@ Before you can use Workplace Analytics Azure Templates for advanced data analysi
 3. [Choose an app registration path](#choose-a-registration-path):
 
    * [Register the apps during deployment](#deployment)
-   * [Register the apps in Azure AD before deployment](#register-and-configure-the-apps-in-azure-ad)
+   * [Register the apps in Microsoft Entra ID before deployment](#register-and-configure-the-apps-in-azure-ad)
 
 4. [Deploy the templates](#deployment)
-5. [Configure the registered apps in Azure AD](#to-configure-the-registered-apps) - Only do this if you chose to register the apps in Azure AD before deployment.
+5. [Configure the registered apps in Microsoft Entra ID](#to-configure-the-registered-apps) - Only do this if you chose to register the apps in Microsoft Entra ID before deployment.
 6. [Generate SAS URI for data export](#generate-sas-uri-for-data-export)
 7. [Add users](#add-users-and-assign-roles)
 8. [Process the data](#process-the-data)
@@ -45,7 +45,7 @@ Before deploying and configuring these templates, review the following security 
 
 * Data is stored in your Azure subscription.
 * Data is encrypted on disk and all access to and communication between Azure Resources and these templates are enabled and secured with the Secure Sockets Layer (SSL) certification.
-* Authentication leverages Azure Active Directory.
+* Authentication leverages Microsoft Entra ID.
 * Authorization is set at the Azure Databricks and Azure Templates level by the Azure administrator who installs and sets up the Workplace Analytics Azure Templates.
 * An Azure Template Configuration log is created during installation.
 
@@ -58,30 +58,32 @@ Before deploying Workplace Analytics Azure Templates, confirm or complete the fo
 3. Do the following for the Azure subscription that will host these templates and the data exported from Workplace Analytics:
 
    * Confirm you have either an **Azure Admin** or an **Azure Contributor** role to deploy these templates.
-   * Get [applicable Azure AD permissions](/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Microsoft 365 global administrator.
-   * If the Workplace Analytics team is deploying the templates, confirm that the vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Azure AD permissions to install and set up the templates.
+   * Get [applicable Microsoft Entra permissions](/azure/active-directory/develop/active-directory-how-applications-are-added) for yourself (or the admin doing the deployment) from your Microsoft 365 global administrator.
+   * If the Workplace Analytics team is deploying the templates, confirm that the vendor accounts are set up for the team and that the Technical Operations engineer also has the applicable Microsoft Entra permissions to install and set up the templates.
 
 ## Choose a registration path
 
-These templates require an Azure Active Directory (AD) application registration for the Web App service UI, the Web App service API, the Azure Analysis service, and the Azure key vault.
+These templates require a Microsoft Entra application registration for the Web App service UI, the Web App service API, the Azure Analysis service, and the Azure key vault.
 
 You can register these apps in one of the following ways:
 
 * [Register the apps in Step 10 during deployment](#deployment) - You can also automatically register the apps during deployment through the Microsoft AppSource solution template deployment site.
-* [Register and configure the apps in Azure AD](#register-and-configure-the-apps-in-azure-ad) - Alternatively, you can register the required apps in Azure AD before deployment, which enables the Microsoft identify platform to provide authentication and authorization. After registering, you must [deploy the templates](#deployment) through the template deployment site. After deployment, come back to Azure AD and [configure the registered apps](#to-configure-the-registered-apps). You can then proceed with the steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export), [add users](#add-users-and-assign-roles), and [process the data](#process-the-data).
+* [Register and configure the apps in Microsoft Entra ID](#register-and-configure-the-apps-in-azure-ad) - Alternatively, you can register the required apps in Microsoft Entra ID before deployment, which enables the Microsoft identify platform to provide authentication and authorization. After registering, you must [deploy the templates](#deployment) through the template deployment site. After deployment, come back to Microsoft Entra ID and [configure the registered apps](#to-configure-the-registered-apps). You can then proceed with the steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export), [add users](#add-users-and-assign-roles), and [process the data](#process-the-data).
 
-## Register and configure the apps in Azure AD
+<a name='register-and-configure-the-apps-in-azure-ad'></a>
+
+## Register and configure the apps in Microsoft Entra ID
 
 You can register the required apps in the Azure portal to get the Microsoft identify platform to authenticate and authorize them, which is required for deployment.
 
-Registering the apps before deployment enables Azure Active Directory (Azure AD) to provide [authentication](/azure/active-directory/authentication/overview-authentication).
+Registering the apps before deployment enables Microsoft Entra ID to provide [authentication](/azure/active-directory/authentication/overview-authentication).
 
-See [Register an application with the Microsoft identity platform](/graph/auth-register-app-v2) and [Register an app in Azure Active Directory](/azure/active-directory/develop/quickstart-register-app) for details.
+See [Register an application with the Microsoft identity platform](/graph/auth-register-app-v2) and [Register an app in Microsoft Entra ID](/azure/active-directory/develop/quickstart-register-app) for details.
 
 ### To register the apps and create client secrets
 
-1. Sign in to the Azure portal with an account that has permissions to register Azure AD applications, such as an [**Azure Application developer account**](/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
-2. In Azure Active Directory, under **Manage**, select **App registrations**, and then select **New registration**.
+1. Sign in to the Azure portal with an account that has permissions to register Microsoft Entra applications, such as an [**Azure Application developer account**](/azure/active-directory/roles/custom-create#create-a-new-custom-role-to-grant-access-to-manage-app-registrations).
+2. In Microsoft Entra ID, under **Manage**, select **App registrations**, and then select **New registration**.
 3. Enter a name for the **Web App service UI** with a consistent naming convention, such as: **wpaapps + YYYYMM + role** = **App registration name**. For example: **wpaapps202011-ui**.
 4. In **Supported account types**, select **Accounts in this organizational directory only** for a single tenant, and then select **Register**.
 5. Select **Certificates & secrets**, and then in **Client secrets**, select **New client secret**, type a description, select when it expires, and then select **Add** to create a secret for the app service.
@@ -96,7 +98,7 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
 
 ### To configure the registered apps
 
-1. After completing the [deployment steps for the templates](#deployment), sign in to the Azure portal with an account that has permissions, and then open Azure Active Directory.
+1. After completing the [deployment steps for the templates](#deployment), sign in to the Azure portal with an account that has permissions, and then open Microsoft Entra ID.
 2. Select the **Web App service API** > **API permissions**, and confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed.
 3. Select **Expose an API**, and then select **Save and continue** to grant delegated permission.
 4. In **Add a scope** > **Scope name**, enter **user_impersonation**.
@@ -109,7 +111,7 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
 
 9. Select the **Web App service UI** > **API permissions**, confirm the **Microsoft Graph** > **User.Read** > **Delegated** default is listed, as shown in the graphic.
 
-    ![Azure AD API permissions.](./images/aad-permissions.png)
+    ![Microsoft Entra API permissions.](./images/aad-permissions.png)
 
 10. Select **Add a permission** > **APIs my organization uses**, and then search for and select the **Web App service API** (for example: wpaapps202011-api).
 11. Select **Delegated permissions**, select **user_impersonation**, and then select **Add permissions**.
@@ -141,7 +143,7 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
     * If you registered the apps before deployment, select **Authentication** and update the **Redirect URI** for each of the apps listed.
     * Otherwise the apps are registered automatically during this step. Review the information for the following supported Azure components that the templates might use. For example, confirm the Databricks cluster is assigned. If it's empty, no resources will be deployed for it.
 
-      * [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis)
+      * [Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-whatis)
       * [Azure Resource Group](/azure/azure-resource-manager/resource-group-overview#resource-groups)
       * [Azure Blob storage account](/azure/storage/blobs/storage-blobs-introduction)
       * [Azure Databricks](/azure/azure-databricks/)
@@ -158,7 +160,7 @@ See [Register an application with the Microsoft identity platform](/graph/auth-r
 
     ![Azure Templates deployment.](./images/deployed-website-link.png)
 
-13. If you registered the apps before deployment, go back and [configure the registered apps in Azure AD](#to-configure-the-registered-apps). Otherwise, proceed to the next steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export).
+13. If you registered the apps before deployment, go back and [configure the registered apps in Microsoft Entra ID](#to-configure-the-registered-apps). Otherwise, proceed to the next steps to [generate the SAS URI for data export](#generate-sas-uri-for-data-export).
 
 ## Generate SAS URI for data export
 
@@ -303,4 +305,3 @@ As an admin, you can audit user activity in **Admin** > **Logs**. Select the **i
 * [Workplace Analytics Azure Templates overview](./overview.md)
 * [What's new in Workplace Analytics Azure Templates](./release-notes.md)
 * [Azure Templates support](support.md)
-

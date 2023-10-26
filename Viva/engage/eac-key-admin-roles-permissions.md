@@ -22,23 +22,23 @@ search.appverid:
 
 # Manage admin roles in Viva Engage
 
-To perform administrative tasks in Viva Engage, a user must be assigned an administrator role. Each role is a collection of permissions. The following table summarizes the permissions for each role in Viva Engage. Some Viva Engage roles are managed in Azure Active Directory, and others are managed in Viva Engage.
+To perform administrative tasks in Viva Engage, a user must be assigned an administrator role. Each role is a collection of permissions. The following table summarizes the permissions for each role in Viva Engage. Some Viva Engage roles are managed in Microsoft Entra ID, and others are managed in Viva Engage.
 
 **Select the role in the table for more details and instructions.**
 
 |Admin role | Business purpose | Where to assign this role |
 |------------|-------|----------|
-|**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Azure Active Directory (Azure AD) and Microsoft services that use Azure AD identities, including all tasks a Viva Engage Verified Admin and Office 365 report reader can perform. | Azure Active Directory |
-| **[Engage admin](#engage-admin) (Yammer admin in Azure AD)**| Manages all aspects of Viva Engage including tenant settings, features, and compliance needs. | Azure Active Directory |
+|**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Microsoft Entra ID and Microsoft services that use Microsoft Entra identities, including all tasks a Viva Engage Verified Admin and Office 365 report reader can perform. | Microsoft Entra ID |
+| **[Engage admin](#engage-admin) (Yammer admin in Microsoft Entra ID)**| Manages all aspects of Viva Engage including tenant settings, features, and compliance needs. | Microsoft Entra ID |
 | **[Verified admin](#verified-admin)** | Configures the Viva Engage network. Performs tasks with legal implications for stored data in Viva Engage, such as configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | Yammer admin center | 
 | **[Network admin](#network-admin)**| Configures the Viva Engage network. | Yammer admin center|
-| **[Answers admin](#answers-admin)**| Configures Answers in Viva Engage. Performs tasks such as featuring topics and enabling badges. |Azure Active Directory |
+| **[Answers admin](#answers-admin)**| Configures Answers in Viva Engage. Performs tasks such as featuring topics and enabling badges. |Microsoft Entra ID |
 | **[Corporate communicator](#corporate-communicator)**| Creates and manages campaigns, define leaders, and manages content across the organization. | Viva Engage admin center |
 | **[Community admin](#community-admin)**| Manages day-to-day activity (including usage) within a community to keep it engaged and productive.| Viva Engage community page |
 | **[Office 365 report reader](#office-365-report-reader)**| Views reports showing overall Viva Engage usage. This role is helpful for anyone assigned to improve and monitor Viva Engage adoption. | Office 365 |
 
 ## Microsoft 365 Global Administrator
-The Global administrator role has administrative access to all features for Azure Active Directory identities and services that use those identities.
+The Global administrator role has administrative access to all features for Microsoft Entra identities and services that use those identities.
 This role controls configuration for Viva Engage in your organization. As such, it has unlimited access to the settings and most of its data, including subscription management. To learn more about this role and security guidelines for assigning it, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 |Function |Details |
@@ -49,9 +49,9 @@ This role controls configuration for Viva Engage in your organization. As such, 
 
 ## Engage admin  
 
-The Engage admin can set up and configure Engage for your organization. This role manages data, network related settings, and various core and premium features in the application. Viva Engage Azure Active Directory (Azure AD) administrators automatically become Engage admins and have elevated permissions over end users.
+The Engage admin can set up and configure Engage for your organization. This role manages data, network related settings, and various core and premium features in the application. Viva Engage Microsoft Entra administrators automatically become Engage admins and have elevated permissions over end users.
 
-A global admin can assign the Engage admin role in [Azure AD](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-viva-engage-administrator-role-is-now-available-in-azure/ba-p/3592577), [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
+A global admin can assign the Engage admin role in [Microsoft Entra ID](https://techcommunity.microsoft.com/t5/yammer-blog/the-new-viva-engage-administrator-role-is-now-available-in-azure/ba-p/3592577), [PIM](/azure/active-directory/privileged-identity-management/pim-configure), [group based role assignments](/azure/active-directory/roles/groups-concept), or [Azure portal and PowerShell](/azure/active-directory/roles/manage-roles-portal).
 
 **Permissions**
 
@@ -87,7 +87,7 @@ The following table shows the range of actions available to the Engage admin and
 
 The Answers admin can set up and configure Answers in Viva Engage. 
 
-Only a global admin can assign (or modify) the Answers admin role. This role is assigned by [adding a knowledge manager in Azure AD](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Answers admins have elevated permissions over end users. The link between the Answers admin and the Knowledge Manager Azure AD role fits because Answers is best experienced when integrated with topics.  
+Only a global admin can assign (or modify) the Answers admin role. This role is assigned by [adding a knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Answers admins have elevated permissions over end users. The link between the Answers admin and the Knowledge Manager Microsoft Entra role fits because Answers is best experienced when integrated with topics.  
 
 **Permissions**
 

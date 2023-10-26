@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 09/06/2018
 title: Assigning licenses with PowerShell
-description: Learn how to assign Microsoft Viva Insights licenses in Azure Active Directory by using PowerShell
+description: Learn how to assign Microsoft Viva Insights licenses in Microsoft Entra ID by using PowerShell
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -21,7 +21,7 @@ audience: Admin
 >[!Important]
 >This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
-Do the following steps to assign licenses with PowerShell in Azure Active Directory (AD) for users of Microsoft Viva Insights.
+Do the following steps to assign licenses with PowerShell in Microsoft Entra ID for users of Microsoft Viva Insights.
 
 ## Installation prerequisites
 
@@ -49,7 +49,7 @@ Viva Insights can only extract data from the accounts of users who have valid Vi
 
 1. To assign a Viva Insights license to a user:
 
-   With PowerShell open, start the Import Module, and sign in to Azure AD by running the following commands:
+   With PowerShell open, start the Import Module, and sign in to Microsoft Entra ID by running the following commands:
 
      ``` powershell
     Import-Module *AzureAD*
@@ -61,7 +61,7 @@ Viva Insights can only extract data from the accounts of users who have valid Vi
 
    To sign in, you need credentials with admin privileges.
 
-    ![Azure Active Directory login.](../images/WpA/Use/azure-ad-log-in-1.png)
+    ![Microsoft Entra login.](../images/WpA/Use/azure-ad-log-in-1.png)
 
 2. Copy and paste the following variable data into the PowerShell command line, and then run it:
 
@@ -387,4 +387,3 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 * [Assign licenses to the population](/viva/insights/setup/Assign-licenses-to-population?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Assign licenses with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-

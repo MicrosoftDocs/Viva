@@ -24,12 +24,14 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 
 ### Prerequisite steps
 
-1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure portal](https://portal.azure.com). Under **Azure services**, select **Azure Active Directory**, then find the **Tenant ID** on the **Overview** page.
+1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure portal](https://portal.azure.com). Under **Azure services**, select **Microsoft Entra ID**, then find the **Tenant ID** on the **Overview** page.
 1. The [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator) will need to assign the relevant roles for the steps below, if they are not already assigned.
 
 ## Steps
 
-### 1. Create Azure Active Directory Application
+<a name='1-create-azure-active-directory-application'></a>
+
+### 1. Create Microsoft Entra Application
 
 *Applies to: [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) or [Application Developer](/azure/active-directory/roles/permissions-reference#application-developer)*
 
@@ -122,7 +124,7 @@ If you have already enabled MGDC, you will need to:
 
 ### 6. Register MGDC application
 
-*Applies to: [Azure AD Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
+*Applies to: [Microsoft Entra Application owner](/azure/active-directory/manage-apps/overview-assign-app-owners), with Insights Analyst role*
 
 Use [these steps](/graph/app-registration#register-a-new-app) to register your app with Data Connect.
 
@@ -177,7 +179,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
       :::image type="content" source="../images/dynamic-metric-load-step0802c.png" alt-text="Screenshot that shows how to edit the ARM template.":::
 
-    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
+    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Microsoft Entra Application owner with Insights Analyst role, or Global Administrator.)*
 
     * **To edit type:** The following are some of the most common data types:
         * string - sequence of characters
@@ -205,7 +207,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
     * **Subscription:** Select your Azure subscription
     * **Resource group:** mgdc-app-resource (or select an existing resource group)
     * **Region:** Select region
-    * **Azure Active Directory Tenant ID:**
+    * **Microsoft Entra tenant ID:**
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Directory (tenant) ID**.
     * **App ID:** 
         * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
@@ -278,4 +280,4 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
   :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Azure AD Application owner with Insights Analyst role, or Global Administrator.)*
+> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Microsoft Entra Application owner with Insights Analyst role, or Global Administrator.)*

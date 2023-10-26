@@ -64,7 +64,7 @@ See [Attribute reference](#attribute-reference) for more details about the speci
    - **Microsoft_ManagerEmail** (userId) 
 
 > [!IMPORTANT]
-> 1. In the Microsoft 365 User Profile, Organizational Data takes precedence over data from other sources. When a service queries a Microsoft 365 User Profile, if there is both Organizational Data and Microsoft Entra ID data for a single attribute, the Organizational Data value is used.
+> 1. In the Microsoft 365 User Profile, Organizational Data takes precedence over data from other sources. When a service queries a Microsoft 365 User Profile, if there is both Organizational Data and Microsoft Entra data for a single attribute, the Organizational Data value is used.
 > 2. Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
  
@@ -143,9 +143,9 @@ Review the following information to understand how Organizational Data is used, 
 ### Data usage
 The Organizational Data you upload may be used by Viva, Microsoft 365 services, and non-Microsoft services that have been given access through the Microsoft Graph API. *This data is treated as **publicly available** within the organization, meaning it may be displayed to any end user in the organization. This data might also be used in [cross-tenant collaboration scenarios](https://support.microsoft.com/office/what-is-a-shared-channel-in-microsoft-teams-e70a8c22-fee4-4d6e-986f-9e0781d7d11d), in Microsoft 365 Copilot, and machine learning model training.*
 
-In the Microsoft 365 User Profile, Organizational Data is given precedence over Microsoft Entra ID data. When a service queries a Microsoft 365 User Profile, if there's both Organizational Data *and* Microsoft Entra ID data for a single attribute, the Organizational Data value is returned. For example, a given end user has "Software Engineer" as the jobTitle property in Microsoft Entra ID. The global admin for your organization uses the Organizational Data in Microsoft 365 feature to upload a value of "Senior Software Engineer" for the **Microsoft_JobTitle** attribute for that same end user. After the upload, both values are stored in the end user's Microsoft 365 User Profile. when an experience like [Profile cards in Microsoft 365](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) queries the Microsoft 365 User Profile to get the **jobTitle** property for that end user, "Senior Software Engineer" is returned (instead of "Software Engineer").
+In the Microsoft 365 User Profile, Organizational Data is given precedence over Microsoft Entra data. When a service queries a Microsoft 365 User Profile, if there's both Organizational Data *and* Microsoft Entra data for a single attribute, the Organizational Data value is returned. For example, a given end user has "Software Engineer" as the jobTitle property in Microsoft Entra ID. The global admin for your organization uses the Organizational Data in Microsoft 365 feature to upload a value of "Senior Software Engineer" for the **Microsoft_JobTitle** attribute for that same end user. After the upload, both values are stored in the end user's Microsoft 365 User Profile. when an experience like [Profile cards in Microsoft 365](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) queries the Microsoft 365 User Profile to get the **jobTitle** property for that end user, "Senior Software Engineer" is returned (instead of "Software Engineer").
 
-If you prefer to use the value for a Microsoft Entra ID property instead of the Organizational Data, *do not* upload Organization Data for that attribute.
+If you prefer to use the value for a Microsoft Entra property instead of the Organizational Data, *do not* upload Organization Data for that attribute.
 
 Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](#attribute-reference). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
 
@@ -199,8 +199,8 @@ The following table shows how Organizational Data attributes map to properties i
 
 |#|Attribute (column heading) in .csv file|Property in Microsoft 365 User Profile schema |
 |-|-|-|
-|1|Microsoft_PersonEmail |N/A <br><br>The email is converted to the Microsoft Entra ID objectId of the end user and is used for internal processing.|
-|2|Microsoft_ManagerEmail|positions -> manager -> userId<br><br>The email is converted to the Microsoft Entra ID objectId for the manager and is stored in the Microsoft 365 User Profile.|
+|1|Microsoft_PersonEmail |N/A <br><br>The email is converted to the Microsoft Entra objectId of the end user and is used for internal processing.|
+|2|Microsoft_ManagerEmail|positions -> manager -> userId<br><br>The email is converted to the Microsoft Entra objectId for the manager and is stored in the Microsoft 365 User Profile.|
 |3|Microsoft_Organization|positions -> positionDetail -> companyDetail -> department|
 |4|Microsoft_LevelDesignation |positions -> positionDetail -> level |
 |5|Microsoft_JobDiscipline |positions -> positionDetail -> role |

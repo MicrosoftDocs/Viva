@@ -78,7 +78,7 @@ As a Viva Glint Service admin, use the following guidance to complete platform s
 
 ### 1. Begin Viva Glint platform setup
 
-- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
+- [Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
 - [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
 
 ### 2. Prepare your data

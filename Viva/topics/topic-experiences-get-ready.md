@@ -34,7 +34,7 @@ To plan for Topics, you need to:
 
 2. [Connect information to Microsoft Graph](#2-connect-information-to-microsoft-graph)
     - In the future, external content can be brought into the knowledge graph and become available.
-    - For content that cannot be moved, consider using Graph Connectors to enhance search and prepare for future inclusion.
+    - For content that can't be moved, consider using Graph Connectors to enhance search and prepare for future inclusion.
 
 3. [Modernize SharePoint pages](#3-modernize-sharepoint-pages)
     - Topic cards can only be surfaced on modern pages.
@@ -45,7 +45,7 @@ To plan for Topics, you need to:
     - Identify any content that might have incorrectly broad or restrictive permissions:
       - Encourage site owners to use the Sharing reports to review permissions
       - Have admins audit broadly shared content using Search
-      - Encourage content owners to share content that is not sensitive and may have broader benefit to the organization.
+      - Encourage content owners to share content that isn't sensitive and may have broader benefit to the organization.
     - Review your Microsoft Graph configuration on users and content:
       - Topic indexing honors configuration excluding content from Search or Delve (for example, NOINDEX). Review whether these configurations are still relevant.
 
@@ -68,7 +68,7 @@ Make the most of your migration:
 
 - Migrate to a modern site - that includes Microsoft Teams. While indexing can happen on any SharePoint site (classic or modern), displaying topics to users through highlights and cards only happens on modern pages.
 - Maintain usernames - most migration tools allow you to map user identities across the migration, so that properties like Created By or Modified By are maintained after the migration. This is important for topics because the authorship of files is used to identify the experts that are added to a topic page or card. 
-- Make service account names descriptive - There will be some cases where maintaining usernames isn't possible. For example, if you're migrating content that was created by someone who is no longer an employee of the organization. In this instance, most migration tools will move a file as if it was created by an admin account or a service account. If this happens frequently, then that service account could then be listed against topics as an expert. This is where the naming of that account becomes really important. If you make it descriptive, the presence of these non-human accounts will be understandable by your users consuming topics.
+- Make service account names descriptive - There will be some cases where maintaining usernames isn't possible. For example, if you're migrating content that was created by someone who is no longer an employee of the organization. In this instance, most migration tools move a file as if it was created by an admin account or a service account. If this happens frequently, then that service account could then be listed against topics as an expert. This is where the naming of that account becomes really important. If you make it descriptive, the presence of these nonhuman accounts are understandable by your users consuming topics.
 
 ## 2. Connect information to Microsoft Graph
 
@@ -97,43 +97,43 @@ Good permissions management is critical here. And good permissions management is
   1. On your site, choose **Settings** > **Site permissions**. Check to see who is listed under Site Owners, Site Members, and Site Visitors. Check for any Guest users.
   2. On the **Permissions** page, choose **Advanced Permissions Settings**. You can check for unique permissions and see who has limited access to any items in the site.
 
-- Audit Microsoft 365 Groups and Teams to make sure they are appropriately set as public or private groups or teams. New Teams and Microsoft 365 Groups are set to private by default, but when first released were public by default. If you were earlier adopters of these technologies, you might want to review. Also, the function of a team often evolves over its lifecycle, and the setting might need to be updated to reflect the current use of the team.
+- Audit Microsoft 365 Groups and Teams to make sure they're appropriately set as public or private groups or teams. New Teams and Microsoft 365 Groups are set to private by default, but when first released were public by default. If you were earlier adopters of these technologies, you might want to review. Also, the function of a team often evolves over its lifecycle, and the setting might need to be updated to reflect the current use of the team.
 - Review use of “everyone”, “everyone except external users” or broad security groups. Content may be incorrectly shared with these values. To review the use of these groups you can:
   - Create an account that has no group memberships
   - Use search with this account to discover content that is broadly shared.
   - If inappropriate content is visible to this account through search, then you can work with the site owners to correct the permission configuration.
 
-In addition to permissions, you can also control the scope of what is discoverable through topics. You are always in control of what is indexed.
+In addition to permissions, you can also control the scope of what is discoverable through topics. You're always in control of what is indexed.
 
 Administrators can configure indexing in the Microsoft 365 Admin Center. When you [set up Topics](set-up-topic-experiences.md), you can:
 
 - Allow discovery across all SharePoint sites or specify sites to include or exclude as topic sources.
 - Where you have sensitive terms, you can also exclude topics by name. For example, if you have the name of a sensitive project, where you don't want a highlight or card to appear, irrespective of the user's permissions, you can exclude that project name.
 
-At the content level, you can also control what is discoverable. Any configuration that you've done to exclude content from search will also be used by content discovery. So, for example, if you have excluded a specific document library from appearing in search results, this document library will not be used for topic discovery.
+At the content level, you can also control what is discoverable. Any configuration that you've done to exclude content from search will also be used by content discovery. So, for example, if you have excluded a specific document library from appearing in search results, this document library won't be used for topic discovery.
 
 ## 5. Identify knowledge managers and topics
 
-Managing topics involves three key roles, including two new Azure Active Directory (AAD) roles: Knowledge administrator and Knowledge manager:
+Managing topics involves three key roles, including two new Microsoft Entra roles: Knowledge administrator and Knowledge manager:
 
 - The Knowledge administrator (KA) is a technical role, typically in IT. This role allows the setup of the Topics in the M365 admin center, as well as the configuration of topic discovery and visibility.
 - The Knowledge manager (KM) works with the topics themselves and oversees their quality and completeness.
-- Topic contributors (TCs) are not based on an AAD role, but permissions in the admin center. They are subject-matter experts able to curate the content on topics, adding resources and people.
+- Topic contributors (TCs) aren't based on a Microsoft Entra role, but permissions in the admin center. They're subject-matter experts able to curate the content on topics, adding resources and people.
 
 Depending on your organization you may have few or many people acting in these roles. For some organizations, these may be the same people.
 
 | Knowledge admin | Knowledge manager | Topic contributor |
 |:-------|:-------|:-------|:-------|
-| AAD role | AAD role | SME |
+| Microsoft Entra role | Microsoft Entra role | SME |
 | Has access to the admin center | Has access to the admin center | No access to the admin center |
 | Sets up Topics | Owns management and quality of topics | Contributes to topics based on their expertise. |
 | Ensures that security and compliance standards are enforced and understands licensing agreement.| Performs topic management tasks such as create, edit, delete, and reject topics. Supports Topic contributors with their tasks. | Curates the information and content on topic pages, including which people and resources are pinned to that topic. |
 
-Highlights and cards will appear to users in the context of their work, for example as they browse modern pages in SharePoint. You control the end user experience for topics.
+Highlights and cards appear to users in the context of their work, for example as they browse modern pages in SharePoint. You control the end user experience for topics.
 
 - Who can see Topics? Topic visibility is configured in the Microsoft 365 Admin Center. Choose which groups to allow to see topics:
-  - Everyone in my organization. "Everyone" does not include guests, it is all internal users in your directory
-  - Only Selected people or security groups (this option is good while you are still rolling out Topics, so you can test with a subset of users). If you want guests to view Topics, you will need to use the “selected people or security groups” option, and grant them a license.
+  - Everyone in my organization. "Everyone" doesn't include guests, it's all internal users in your directory
+  - Only Selected people or security groups (this option is good while you're still rolling out Viva Topics, so you can test with a subset of users). If you want guests to view Topics, you need to use the “selected people or security groups” option, and grant them a license.
   - No one.
 
     All users, even guest users, will need to have a license applied in order to view the topic experience. And remember that permissions always control what can be seen.
@@ -144,5 +144,5 @@ Highlights and cards will appear to users in the context of their work, for exam
 
 Now that we have the managers, experts, and users, we can talk about the topics themselves.
 
-- It's a good practice to seed topics into your topic list. The quality and quantity of topics is based on your content - it will only be created as a topic if it is included in the content that is in scope. If there's sufficient information and evidence for the topic, it will be created by the AI. Seeding topics is where the Knowledge Manager and subject-matter experts can help. Combining human knowledge with the AI is the best route for quality topics. So if there are topics you anticipate you can manually create these in the Topic center. Doing that will give the AI a strong signal of the relevance of that topic and it will identify resources and people to associate with that topic.
+- It's a good practice to seed topics into your topic list. The quality and quantity of topics is based on your content - it will only be created as a topic if it's included in the content that is in scope. If there's sufficient information and evidence for the topic, it will be created by the AI. Seeding topics is where the Knowledge Manager and subject-matter experts can help. Combining human knowledge with the AI is the best route for quality topics. So if there are topics you anticipate you can manually create these in the Topic center. Doing that will give the AI a strong signal of the relevance of that topic and it identifies resources and people to associate with that topic.
 - Use existing taxonomies to help your topic planning, either from SharePoint or elsewhere. Existing taxonomies often include organizational terms, products, subject areas, and so on. Sources for topics can also come from lists of projects, existing search bookmarks, and so on.

@@ -44,7 +44,7 @@ To send a Pulse request, a user must be assigned a Viva Pulse or a Viva Suite li
 
 ### Feedback provider
 
-Feedback providers are the users in an organization who receive a Pulse request. Pulse requests can be received by users if they are part of your organization’s Azure Active Directory tenant. They have the critical role of responding to Pulse requests and providing the feedback needed to power the aggregate reporting and insights for the author.
+Feedback providers are the users in an organization who receive a Pulse request. Pulse requests can be received by users if they are part of your organization’s Microsoft Entra tenant. They have the critical role of responding to Pulse requests and providing the feedback needed to power the aggregate reporting and insights for the author.
 
 ### Viva Pulse admin
 

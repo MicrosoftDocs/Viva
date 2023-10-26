@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 07/10/2020
 title: Assign licenses for Microsoft Viva Insights in Teams
-description: Learn how to assign licenses through the Microsoft 365 admin center or Azure AD to people who want to use Microsoft Viva Insights in Teams
+description: Learn how to assign licenses through the Microsoft 365 admin center or Microsoft Entra ID to people who want to use Microsoft Viva Insights in Teams
 author: madehmer
 ms.author: helayne
 ms.topic: article
@@ -27,7 +27,7 @@ You must be able to sign in as a global Microsoft 365 admin to use the Microsoft
 
 Alternatively, you can assign licenses as follows:
 
-* [Assign licenses to one or more security groups](#to-assign-licenses-to-security-groups) as an Azure AD global admin
+* [Assign licenses to one or more security groups](#to-assign-licenses-to-security-groups) as a Microsoft Entra global admin
 * [Assign licenses with PowerShell](assign-licenses-pshell.md) as a global Microsoft 365 admin
 
 ## To assign licenses to individual users
@@ -55,10 +55,10 @@ Alternatively, you can assign licenses as follows:
 
 ## To assign licenses to security groups
 
-1. In **Microsoft Azure Active Directory**, select **Licenses** under **Manage**.
+1. In **Microsoft Entra ID**, select **Licenses** under **Manage**.
 2. In **Overview**, select **All products**, and then select the checkbox for **Microsoft Workplace Analytics Insights**.
 
-   ![Assign licenses in Azure Active Directory.](./images/assign-licenses-add.png)
+   ![Assign licenses in Microsoft Entra ID.](./images/assign-licenses-add.png)
 
 3. Select **Assign**, and then select **Users and groups** to open the right pane.
 4. Search for one or more group names, select each group from the list to add it to the **Selected items** list, and then choose **Select**.
@@ -78,4 +78,3 @@ Alternatively, you can assign licenses as follows:
 
 * [Assign roles](assign-roles.md)
 * [Setup overview](./setup.md)
-
