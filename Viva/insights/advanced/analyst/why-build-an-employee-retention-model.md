@@ -30,11 +30,11 @@ With this playbook, you can learn:
 
 The most valuable asset of a company is its people, especially when they're outstanding in what they do. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
 
-Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition, and identify groups with higher attrition risk.
+Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and identify groups with higher attrition risk.
 
-Losing an employee is costly because employees are appreciating assets, producing more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s level of skill. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to help organizations determine strategies for increased employee retention is vital.  
+Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s skill set. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to help organizations determine how to increase employee retention is vital.  
 
-Machine learning can be used to analyze employee data and to build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of employee turnover.  
+Machine learning can be used to analyze employee data and build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of employee turnover.  
 
 Our proposed model will leverage historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
@@ -63,11 +63,11 @@ Our proposed model will leverage historical employee data, performance metrics, 
 
 There are many potential benefits to an organization when a retention or attrition model is successfully deployed:
 
-1. **Financial Savings**: Beyond recruitment costs, low turnover can lead to financial savings in areas like benefits administration and retirement plans, which are more cost-effective with long-term employees. Moreover, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
+1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
 
 2. **Increased Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
 
-3. **Enhanced Productivity**: When turnover is addressed, there’s less disruption to workflows, resulting in higher overall productivity. By maintaining a manageable level of turnover, an organization can avoid adding additional stress to current employees, thus improving productivity (such as by reducing absences).
+3. **Enhanced Productivity**: When turnover is addressed, there’s less disruption to workflows, resulting in higher overall productivity. By maintaining a manageable level of turnover, an organization can avoid adding additional stress to current employees, thus improving productivity.
 
 4. **Knowledge Retention**: Long-term employees have valuable institutional knowledge. By retaining them, organizations maintain critical expertise within the company.
 
