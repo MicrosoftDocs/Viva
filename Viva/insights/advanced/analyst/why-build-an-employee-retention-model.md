@@ -17,16 +17,14 @@ audience: Admin
 
 # Why build an Employee Retention Model?
 
-This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. This playbook includes: the principles of employee retention; the business scenarios of employee retention; and the code examples in R and Python.
+This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. It includes: the principles of employee retention; the business scenarios of employee retention; and the code examples in R and Python.
 
-Through this playbook, you can learn:
+With this playbook, you can learn:
 
 - The principles and scenarios for using the model
 - How to combine and validate data from Viva Insights, Glint, and other sources such as employee attrition data
 - How to train and evaluate a random forest model that can predict employee attrition
 - How to interpret and communicate the results and insights from the model
-
-With this playbook, organizations can create a machine learning model to predict employee attrition. The prediction is intended to help organizations develop a retention model and strategy that best suits them, being mindful of constraints such as industry, organizational structure, and other conditions.
 
 ## Rationale
 
