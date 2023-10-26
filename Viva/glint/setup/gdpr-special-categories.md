@@ -93,14 +93,14 @@ Viva Glint reporting, like other products that work with sensitive data (for exa
 
 Viva Glint Customer Admins may create the following types of user roles within their organization:
 
-- Managers: These users may need to see the rollup for their teams and perhaps, one attribute. They often don't have the team size to see results by demographic analysis and lack the authority to act on them.
+- Managers: These users might need to see the rollup for their teams and perhaps, one attribute. They often don't have the team size to see results by demographic analysis and lack the authority to act on them.
 
-- Senior managers: Due to their organizations' size, they may need to see data for various cohorts. They may need to see organizational demographics such as location, tenure, and job family as those are areas within their authority to act. Special category data, such as ethnicity, is often not provided to these users.
-- Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users may need access to all attributes.
+- Senior managers: Due to their organizations' size, they might need to see data for various cohorts. They might need to see organizational demographics such as location, tenure, and job family as those are areas within their authority to act. Special category data, such as ethnicity, is often not provided to these users.
+- Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users might need access to all attributes.
 
 [Read about why Viva Glint collects employee attributes and how they're used in reporting.](https://go.microsoft.com/fwlink/?linkid=2230738)
 
-## Privacy and legal subject matter experts may be required
+## Privacy and legal subject matter experts might be required
 
 Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology services in the workplace.
 
