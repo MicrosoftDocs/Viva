@@ -40,7 +40,7 @@ After a user is connected and using Office 365 sign-in for Viva Engage, the user
   
 ## How do I enable Office 365 sign-in for Viva Engage?
 
-Viva Engage detects when an Azure AD account exists for a user and uses the Office 365 sign-in for Viva Engage. We strongly recommend that admins [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
+Viva Engage detects when a Microsoft Entra account exists for a user and uses the Office 365 sign-in for Viva Engage. We strongly recommend that admins [Enforce Office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
   
 ## Enforce Office 365 sign-in for all users in the network
 

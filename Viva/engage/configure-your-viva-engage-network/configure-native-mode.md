@@ -32,7 +32,7 @@ Native Mode has the following requirements:
 
 - Retention mode in Viva Engage is set to Archive.
 
-- All users must be in Microsoft Entra ID. Microsoft Entra ID enforces Microsoft 365 identity and, any users who aren't mapped to the network, must be deleted.
+- All users must be in Microsoft Entra ID. Microsoft Entra ID enforces Office 365 identity and, any users who aren't mapped to the network, must be deleted.
 
 - There can't be any unlisted private groups.
 

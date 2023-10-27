@@ -30,11 +30,11 @@ The following roles can access the Viva Engage admin center: Microsoft 365 Globa
 
 No, the configurations visible for each role in the Engage admin center depend on the administrative permissions for that role and the license held by the tenant. For example, a corporate communicator doesn't have access to governance and compliance-related settings. A corporate communicator can't create or manage campaigns if their tenant doesn't have a Viva Engage premium license.  
 
-**How are the new Engage admin roles related to existing Yammer and Azure Active Directory (Azure AD) roles?**
+**How are the new Engage admin roles related to existing Yammer and Microsoft Entra roles?**
 
 The following figure represents the link and hierarchy:
 
-[![Chart shows the hierarchy of connections between existing Yammer and Azure AD.](/viva/media/engage/admin/herarchy-admin.png)](/viva/media/engage/admin/herarchy-admin.png#lightbox)
+[![Chart shows the hierarchy of connections between existing Yammer and Microsoft Entra ID.](/viva/media/engage/admin/herarchy-admin.png)](/viva/media/engage/admin/herarchy-admin.png#lightbox)
 
 **Can I access the Yammer admin center for certain Engage admin configurations even if my organization doesn’t currently use Yammer?**
 

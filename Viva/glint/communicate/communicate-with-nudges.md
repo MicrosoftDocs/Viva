@@ -40,7 +40,6 @@ If a user is in multiple recipient groups, they may receive emails from either g
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
 | **Teammates** | This term has a different meaning dependent upon the employee role:<br>- Individual contributors: Managers + peers <br>- First-line manager: Manager + directs <br>- Manager of Mangers: Manager + direct |
-| **Social proof** | Highlights others in your organization who have taken similar actions. Makes the process of action taking collaborative across teams. |
 
 ## How admins set up Nudges 
 
@@ -65,7 +64,7 @@ There are several sections to set up.
     
 ### Timing
 
-Defines when and how frequently users receive Nudges. Messages are sent between 8:00 am-12:00 pm in the recipient's time zone.
+Defines when and how frequently users receive Nudges.
 
 - Frequency: From the dropdown menu, choose to send Nudges from every one to eight weeks. Frequency can be adjusted after a survey launches.
   > [!TIP]
@@ -88,32 +87,9 @@ Select the **Nudge #** to enable, disable, or preview. The corresponding slide
   - Nudge #3: Choose a Focus Area (or whatever term your organization uses) 
   - Nudge #4: Focus Area reminder 
 
-### Advanced 
-
-Social proof can be enabled, disabled, or customized:  
-
-- Manage by choosing one of the following: 
-   - Include full names of teammates and aggregated data. For example, *Natalie Morris, Jacob Madsen, and 12 others are committed to Recognition*. 
-   - Include only anonymized, aggregated data. As above but doesn't include names. For example, *14 others in your organization are committed to Recognition*.
-   - Off: Disables this feature  
-
-   > [!NOTE]
-   >Social Proof doesn't disclose that a user is working on a goal if the recipient doesn’t have the permission to see that goal.
-
 ### Enabled programs 
 
 Nudges are enabled at the program level within each specific survey program. Your Recipient Group appears on the Nudges landing page under **Configuration**.
-
-## Send an email preview 
-
-Select the **Email Preview** button to view the email a recipient sees:    
-
-1. Select **Recipient** from the dropdown menu.
-1. Select **Language** from the dropdown menu.
-1. Select **Options** and choose:
-    1. Hide social proof in preview, or 
-    2. Send preview email to yourself (your email address should appear) 
-1. Select **Generate Preview**.
 
 ## Edit Nudge details 
 
@@ -134,14 +110,6 @@ Switch the **Eligible for Nudges** feature to **YES** or **NO** on the **Program
 
 ### View a list of programs enabled for roles in Nudges
 
-From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. The bottom section displays *Enabled Programs*.  
-
-## Use the Send History section 
-
-View Nudge dates, recipient groups, number of targeted emails, and number of emails delivered here. 
-
-### Export data from the Send History section 
-
-From the *vertical ellipses* next to the group, you can download a *.csv* of email recipients. To export a full file of all Nudges sent, use the *Export* button.  
+From the admin dashboard select **Nudges**, then **View Details** (for an enabled User Role within the Configuration section). The Recipient Group Setup page opens for that User Role. The bottom section displays *Enabled Programs*.
 
 

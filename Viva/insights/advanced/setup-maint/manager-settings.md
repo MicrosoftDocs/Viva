@@ -46,7 +46,7 @@ The size of the team includes the manager and all the employees who directly or 
 
 ### Current managers
 
-You'll notice the following numbers on the **Manager settings** page. These numbers are based on Azure Active Directory data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
+You'll notice the following numbers on the **Manager settings** page. These numbers are based on Microsoft Entra data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
 * **Current managers**
     * **Measured managers** – The number of managers who are assigned licenses and who can see their team's insights throughout the Viva Insights in Teams

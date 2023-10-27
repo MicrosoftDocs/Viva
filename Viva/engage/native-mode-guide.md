@@ -57,7 +57,7 @@ Use the report to identify the following information:
 
 - **Which users are currently unmapped**
 
-   The Alignment Tool tries to map all unmapped users to an existing Microsoft Entra ID account. Any users who don't have a Microsoft Entra ID account are deleted from the network.
+   The Alignment Tool tries to map all unmapped users to an existing Microsoft Entra account. Any users who don't have a Microsoft Entra account are deleted from the network.
 
 - **How many files each user has stored in Private Messages**
 
@@ -125,7 +125,7 @@ When the tool finishes, the banner at the top of the page reports one of two thi
 
 This CSV error report remains available until the next time the Alignment Tool is run. When the tool is run again, a new error report is generated.
 
-The report contains a list of files that failed to migrate from Microsoft Entra to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of this article](troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
+The report contains a list of files that failed to migrate from Microsoft Entra ID to SharePoint, plus error codes. For a list of common error codes and the steps to remediate, see the [error codes section of this article](troubleshoot-native-mode.md#error-codes). You also can enlist our Premier Support Team to help resolve errors. If you have a high volume of errors, the Support Team can provide scripts to bulk-update the files in your network for faster remediation.
 
 It's possible that your error report contains errors that aren't covered in the documentation cited earlier or that don't appear to be actionable. Often these errors are duplicates of other errors that are actionable. We suggest that you work through all the errors you can and then rerun the Alignment Tool. Most of these errors get resolved the next time you run the tool after actionable errors are fixed.
 

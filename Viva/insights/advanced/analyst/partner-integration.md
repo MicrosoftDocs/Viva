@@ -48,7 +48,7 @@ Before you can use this integration, you’ll need to:
 
 1. Register a new application on the partner tenant:
 
-    1. Select **Azure Active Directory**. 
+    1. Select **Microsoft Entra ID**. 
 
     1. Go to the **Application registrations** blade and select **App registrations**, then **New registration**. 
 
@@ -128,7 +128,7 @@ The customer needs to consent to your application before data extraction can beg
 
 This integration moves behavioral analytics data between Azure and your partner application through an [Azure Data Factory pipeline](/azure/data-factory/concepts-pipelines-activities?tabs=data-factory). We built a [sample Azure Data Factory pipeline template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction) that you  can edit and deploy to your Azure subscription. After you add your parameters, this template configures the pipeline.
 
-After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the Azure Data Lake Storage Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Azure Active Directory tenant ID as the name.
+After it’s deployed to your subscription, the pipeline extracts data from Microsoft 365 to the Azure Data Lake Storage Gen 2 Storage account owned by your application. We recommend that you create a separate container for each customer’s data, using their Microsoft Entra tenant ID as the name.
 
 If you want, you can add an extra step to your pipeline that notifies your external application new data is available for processing. We explain how to do this [later](#process-analytics-data).
 
@@ -158,9 +158,9 @@ To use this integration, here’s what you’ll need to do.
 
         * The **App Secret** is the secret generated in step 2 above.
 
-        * The **AzureActiveDirectoryTenant Id** is the Azure Active Directory Tenant ID of the customer whose data needs to be extracted.
+        * The **AzureActiveDirectoryTenant Id** is the Microsoft Entra tenant ID of the customer whose data needs to be extracted.
 
-       :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Azure Active Directory Tenant Id are highlighted.)":::
+       :::image type="content" source="../images/custom-deployment1.png" alt-text="Screenshot that shows the Custom deployment screen on Azure. The last three fields (App Id, App Secret, and Microsoft Entra tenant Id are highlighted.)":::
 
     5. Select **Review + create**.
 
@@ -218,7 +218,7 @@ As we mentioned earlier, after you extract customer data, you’ll receive a dat
 **ColumnsRequested**	|A comma-separated list of the columns included in the output.
 **NumberOfRowsExtracted**	|The number of rows in the output.
 **DataFactoryName**	|The name of the Azure Data Factory pipeline.
-**TenantId**	|The Azure Active Directory tenant that the partner analytics data was extracted for.
+**TenantId**	|The Microsoft Entra tenant that the partner analytics data was extracted for.
 **Errors**	|A string describing errors encountered while processing the copy operation. If this property is non-empty, no output file will be present.
 **TableName**	|Viva data set activity name and version. The expected format of the tablename is “VivaInsightsDataset_{activityName}_{datasetVersion}”.
 **ApplicationId**  |The ID of the application making the request.
@@ -341,16 +341,16 @@ To programmatically run the pipeline, here’s what you need to do. For more inf
 
 You might need to take one or both of these steps depending on your use case:
 
-* If you don’t have access to your customer’s tenant directory information, you can use the information in [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) to export Azure Active Directory user data. In the sample Azure Data Factory pipeline we provide on GitHub, this step is marked as **OPTIONAL**.
+* If you don’t have access to your customer’s tenant directory information, you can use the information in [Join Viva Insights data with other data](#join-viva-insights-data-with-other-data) to export Microsoft Entra user data. In the sample Azure Data Factory pipeline we provide on GitHub, this step is marked as **OPTIONAL**.
 * If you want to continuously poll the Blob Storage account (that is, use a pull model) for changes instead of using the sample pipeline’s Azure function, refer to [How to use a pull model](#how-to-use-a-pull-model).
 
 #### Join Viva Insights data with other data
 
-The analytics data includes the Azure Active Directory Object ID of each user that generated a row of data. The Object ID can be used to correlate a directory user with a user in your application. However, while identifying users by the Object ID is the preferred method, not every application has access to the customer tenant’s directory information.
+The analytics data includes the Microsoft Entra Object ID of each user that generated a row of data. The Object ID can be used to correlate a directory user with a user in your application. However, while identifying users by the Object ID is the preferred method, not every application has access to the customer tenant’s directory information.
 
 If you don’t have this access, you can export directory information and correlate it with a common field by following these steps:
 
-1.	Configure your Azure Data Factory pipeline to add an additional step to export Azure Active Directory user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
+1.	Configure your Azure Data Factory pipeline to add an additional step to export Microsoft Entra user data. This step is provided, but marked as **OPTIONAL**, in our sample pipeline on GitHub. Adding this step creates an additional output file from your pipeline that includes basic information about each user in the customer’s tenant.
 
 2.	Use this output from step 1 correlate user information between Azure and your application with a join of a common field, such as e-mail address. Refer to the Microsoft Graph Data Connect documentation for details on the [user schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/User_v1.md) and a [sample of the output](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.User_v1.json).
 
@@ -545,6 +545,3 @@ To approve a partner’s request:
 [Advanced insights metrics](../reference/metrics.md)
 
 [Sample Azure Data Factory template](https://github.com/niblak/dataconnect-solutions/tree/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipelineWithAzureFunction)
-
-
-

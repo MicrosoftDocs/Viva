@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: dmillerdyson
-ms.date: 06/28/2023
+ms.date: 10/24/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -24,9 +24,9 @@ search.appverid:
 
  ## When does this change happen?
 
- We began migrating networks December 1, 2022 and continue the upgrades through the third quarter of 2023. The process began with smaller networks. You may initiate the upgrade process on your own by visiting the Microsoft 365 Native Mode page within the Network Admin pages of Viva Engage.
+ We began migrating networks December 1, 2022 and continue the upgrades through the third quarter of 2023. The process began with smaller networks. You can initiate the upgrade process on your own by visiting the Microsoft 365 Native Mode page within the Network Admin pages of Viva Engage.
 
- ## How will this change affect your organization?
+ ## How does this change affect your organization?
 
  You can no longer access these features:
  -	Network-level guests 
@@ -39,12 +39,12 @@ If your organization currently uses an email blocked list to manage access to yo
 
 These feature equivalents are only available to networks in Native Mode. There's no feature equivalent to secret groups in Microsoft 365. All groups must be public or private.
 
- As part of the migration process, the Viva Engage administrator account will be added to all groups in the network, and files may be renamed.
+ As part of the migration process, the Viva Engage administrator account is added to all groups in the network. Files are sometimes renamed.
 
  ## What do you need to do to prepare?
  **If you would like to self-initiate your migration:**
 
- There's a [step-by-step guide](../native-mode-guide.md) to Native Mode migration. You can run an alignment report that will identify gaps in your current network alignment with Native Mode. It's critical that you back up your network’s data and communicate the migration to your users before running the Alignment tool mentioned in the guide. This is because some data may be deleted during the process.
+ There's a [step-by-step guide](../native-mode-guide.md) to Native Mode migration. You can run an alignment report that identifies gaps in your current network alignment with Native Mode. It's critical that you back up your network’s data and communicate the migration to your users before running the Alignment tool mentioned in the guide. This is because some data may be deleted during the process.
 
  **If you would like Microsoft to initiate your migration:**
 

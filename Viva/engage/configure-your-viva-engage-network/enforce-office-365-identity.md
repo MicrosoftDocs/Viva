@@ -24,8 +24,7 @@ ms.assetid: 008f940b-6bec-47fc-bcc6-9c6133467562
 
 # Enforce Microsoft 365 identity for Viva Engage users
 
-As Viva Engage becomes a core service for your organization, users want to sign in seamlessly like any other Microsoft 365 service. 
-
+As Viva Engage becomes a core service for your organization, users want to sign in seamlessly like any other Microsoft 365 service.
 To streamline user management, we suggest that you maintain a single identity for all Microsoft 365 users by enforcing Microsoft 365 identity in Viva Engage. Then, you can easily achieve single sign-on (SSO) capabilities for Microsoft 365, including Viva Engage. In addition to enforcing Microsoft 365 identity in Viva Engage, SSO requires that admins configure password hash sync, pass-through authentication, or [Microsoft Entra ID](https://support.office.com/article/06a189e7-5ec6-4af2-94bf-a22ea225a7a9#BK_Federated).
   
 ## How enforcing Microsoft 365 identities in Viva Engage works
