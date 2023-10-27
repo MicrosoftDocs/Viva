@@ -318,7 +318,7 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 ## Add the People card
 
-The People Search card will automatically retrieve contact information from members of your organization using Microsoft Entra ID (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
+The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
 
    :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png"::: 
 
