@@ -19,8 +19,6 @@ audience: Admin
 
 We'll use the Random Forest Model for employee retention prediction. Random Forest is a popular and effective machine learning model for predicting employee turnover, since it can handle both categorical and continuous variables, capture non-linear relationships between variables, and provide insights into variable importance.
 
-Follow the steps below.
-
 ### 1. Read the data
 
 First, read the data from the different data sources into a data frame. A data frame is a tabular data structure that stores the data in rows and columns.
@@ -55,7 +53,7 @@ We can then inspect the data frame using the head, tail, info, and describe meth
 
 The next step is to clean the data by handling missing values, outliers, and categorical variables.
 
-- **Missing values** are the values that are not recorded in the data, and they can affect the performance and accuracy of the model.
+- **Missing values** are the values that aren't recorded in the data, and they can affect the performance and accuracy of the model.
 - **Outliers** are the values that are far away from the normal range of the data, and they can also distort the results of the model.
 - **Categorical variables** are the variables that have a finite number of discrete values, such as gender, color, or class.
 
@@ -63,9 +61,9 @@ The next step is to clean the data by handling missing values, outliers, and cat
 
 Missing values are rare in Viva Insights metrics, although there are a few scenarios where there are outliers and anomalous values. For instance:
 
-  1. Collaboration metrics may be unusually low for some individuals or teams due to personal leave or national public holidays.
-  2. Collaboration metrics may be unusually high or skewed for some individuals, as some licenses may have been assigned to non-ordinary mailboxes.
-  3. Some mailboxes may appear to be close to inactive, as the individual may have already left the organization.
+  1. Collaboration metrics might be unusually low for some individuals or teams due to personal leave or national public holidays.
+  2. Collaboration metrics might be unusually high or skewed for some individuals, as some licenses might have been assigned to non-ordinary mailboxes.
+  3. Some mailboxes might appear to be close to inactive, as the individual might have already left the organization.
   
 The **vivainsights** packages provide functions for identifying metric outliers, inactive weeks, and general population holiday weeks in the data.
 
@@ -90,7 +88,7 @@ train <-
 
 #### Missing values
 
-You may have missing values that come from other data sources that you import into the model, such as data on absence days or pay and benefit packages.
+You might have missing values that come from other data sources that you import into the model, such as data on absence days or pay and benefit packages.
 
 There are different ways to handle missing values: delete the rows or columns that have missing values; or impute the missing values with the mean, median, mode, or a constant value. The choice of the method depends on the nature and amount of the missing values, and the impact they have on the model.
 
@@ -181,14 +179,14 @@ train <- cbind(train, df_with_dum_vars)
 
 ### 3. Train the model
 
-The third step is to train the random forest model on the training data. To do this, we need to split the data into training and test sets, and then fit the model on the training set. Splitting the data into training and test sets is a common practice in machine learning and predictive modeling. The purpose of this step is to evaluate the performance of the model on data it has not seen before, and to avoid overfitting the model to the training data.
+The third step is to train the random forest model on the training data. To do this, we need to split the data into training and test sets, and then fit the model on the training set. Splitting the data into training and test sets is a common practice in machine learning and predictive modeling. The purpose of this step is to evaluate the performance of the model on data it hasn't seen before, and to avoid overfitting the model to the training data.
 
-If we were to train the model on the entire dataset, it would likely perform well on the training data, but may not generalize well to new data. This is because the model may have learned to fit the noise in the training data, rather than the underlying patterns that are present in the data.
+If we were to train the model on the entire dataset, it would likely perform well on the training data, but might not generalize well to new data. This is because the model might have learned to fit the noise in the training data, rather than the underlying patterns that are present in the data.
 
 By splitting the data into training and test sets, we can train the model on the training set and evaluate its performance on the test set. This allows us to estimate how well the model performs on new data, and to identify any issues with overfitting or underfitting the model.
 
 > [!NOTE]
-> In addition to splitting the data into training and test sets, it's also common to use techniques such as cross-validation to further evaluate the performance of the model and tune its hyperparameters. These techniques help to ensure that the model is robust and performs well on a variety of data. Cross-validation techniques are not covered in this Playbook, but there are many resources online on how to take this further.
+> In addition to splitting the data into training and test sets, it's also common to use techniques such as cross-validation to further evaluate the performance of the model and tune its hyperparameters. These techniques help to ensure that the model is robust and performs well on a variety of data. Cross-validation techniques aren't covered in this Playbook, but there are many resources online on how to take this further.
 
 We can use the scikit-learn library to perform these tasks.
 
@@ -285,7 +283,7 @@ In the next section, we'll learn how to tune the parameters of the model to make
 
 ### 4. Tune the hyperparameters of the model
 
-The final step is to tune the parameters of the random forest model to find the optimal values of the hyperparameters that maximize the performance and accuracy of the model. Hyperparameters are the parameters that are not learned by the model, but are set by the user before the training process.
+The final step is to tune the parameters of the random forest model to find the optimal values of the hyperparameters that maximize the performance and accuracy of the model. Hyperparameters are the parameters that aren't learned by the model, but are set by the user before the training process.
 
 Some of the hyperparameters of the random forest model are:
 
@@ -360,7 +358,7 @@ legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"
 
 :::image type="content" source="../images/retention-playbook-01.png" alt-text="Tune n_estimators.":::
 
-In the plot above we can see that as the estimators increase, it leads to overfitting. The gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases. This indicates that the model is becoming increasingly specialized to the training data, and is not able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
+In the plot above we can see that as the estimators increase, it leads to overfitting. The gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases. This indicates that the model is becoming increasingly specialized to the training data, and isn't able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
 
 Max_depth: represents the depth of each tree in the forest. The deeper the tree, the more splits it has and it captures more information about the data. We fit each decision tree with depths ranging from 1 to 32 and plot the training and test errors.
 
@@ -546,8 +544,8 @@ legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"
 
 :::image type="content" source="../images/retention-playbook-04.png" alt-text="Tune minsamples leaf.":::
 
-As we can see, increasing the value of the parameter leads to underfitting, and both the Train AUC and Test AUC scores start to decrease or level off. This indicates that the model is becoming increasingly simple and is not fitting the training data well. It also indicates the model isn't generalizing well to new data.
+As we can see, increasing the value of the parameter leads to underfitting, and both the Train AUC and Test AUC scores start to decrease or level off. This indicates that the model is becoming increasingly simple and isn't fitting the training data well. It also indicates the model isn't generalizing well to new data.
 
-Another sign of underfitting is that the gap between the Train AUC and Test AUC scores starts to narrow as the value of the min_samples_leaf parameter increases. This indicates that the model is becoming increasingly generalized and is not able to capture the complexity of the training data, and is also not able to generalize well to new data.
+Another sign of underfitting is that the gap between the Train AUC and Test AUC scores starts to narrow as the value of the min_samples_leaf parameter increases. This indicates that the model is becoming increasingly generalized and isn't able to capture the complexity of the training data. The model also isn't able to generalize well to new data.
 
 After putting the found best parameters from tuning, we can generate the model again to predict the values.
