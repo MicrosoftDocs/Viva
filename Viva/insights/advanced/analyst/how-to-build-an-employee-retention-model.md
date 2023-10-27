@@ -19,13 +19,13 @@ audience: Admin
 
 We'll use the Random Forest Model for employee retention prediction. Random Forest is a popular and effective machine learning model for predicting employee turnover, since it can handle both categorical and continuous variables, capture non-linear relationships between variables, and provide insights into variable importance.
 
-Please follow the steps below.
+Follow the steps below.
 
 ### 1. Read the data
 
 First, read the data from the different data sources into a data frame. A data frame is a tabular data structure that stores the data in rows and columns.
 
-For example, if we have a CSV file named `person_query.csv` downloaded from Viva Insights, we can read it into a data frame using the code below. Note that in both cases of Python and R, we have loaded in the respective 'vivainsights' package which contains specific functions for analyzing data from Viva Insights. The `import_query` function loads in the csv query and performs some variable cleaning in the process.
+For example, if we have a CSV file named `person_query.csv` downloaded from Viva Insights, we can read it into a data frame using the code below. In both cases of Python and R, we have loaded in the respective 'vivainsights' package, which contains specific functions for analyzing data from Viva Insights. The `import_query` function loads in the csv query and performs some variable cleaning in the process.
 
 *Python:*
 
@@ -61,11 +61,11 @@ The next step is to clean the data by handling missing values, outliers, and cat
 
 #### Validating Viva Insights metrics
 
-Missing values are extremely rare in Viva Insights metrics, although there are a few scenarios where there are outliers and anomalous values. For instance:
+Missing values are rare in Viva Insights metrics, although there are a few scenarios where there are outliers and anomalous values. For instance:
 
   1. Collaboration metrics may be unusually low for some individuals or teams due to personal leave or national public holidays.
   2. Collaboration metrics may be unusually high or skewed for some individuals, as some licenses may have been assigned to non-ordinary mailboxes.
-  3. Some mailboxes may appear to be close to completely inactive, as the individual may have already left the organization.
+  3. Some mailboxes may appear to be close to inactive, as the individual may have already left the organization.
   
 The **vivainsights** packages provide functions for identifying metric outliers, inactive weeks, and general population holiday weeks in the data.
 
@@ -183,7 +183,7 @@ The third step is to train the random forest model on the training data. To do t
 
 If we were to train the model on the entire dataset, it would likely perform well on the training data, but may not generalize well to new data. This is because the model may have learned to fit the noise in the training data, rather than the underlying patterns that are present in the data.
 
-By splitting the data into training and test sets, we can train the model on the training set and evaluate its performance on the test set. This allows us to estimate how well the model will perform on new data, and to identify any issues with overfitting or underfitting the model.
+By splitting the data into training and test sets, we can train the model on the training set and evaluate its performance on the test set. This allows us to estimate how well the model performs on new data, and to identify any issues with overfitting or underfitting the model.
 
 > [!NOTE]
 > In addition to splitting the data into training and test sets, it's also common to use techniques such as cross-validation to further evaluate the performance of the model and tune its hyperparameters. These techniques help to ensure that the model is robust and performs well on a variety of data. Cross-validation techniques are not covered in this Playbook, but there are many resources online on how to take this further.
@@ -256,7 +256,7 @@ rf
 y_pred <- predict(rf, x_test)
 ```
 
-We can use AUC (area under the curve) as the evaluation metric. Since we're classifying whether the person will leave the organization, it falls under the category of binary classification. AUC is a good way to evaluate for binary classification.
+We can use AUC (area under the curve) as the evaluation metric. Since we're classifying whether the person leaves the organization, it falls under the category of binary classification. AUC is a good way to evaluate for binary classification.
 
 *Python:*
 
@@ -277,9 +277,9 @@ roc_auc <- auc(roc)
 roc_auc
 ```
 
-This will give the AUC value. As the AUC value trends closer towards 1, it will give accurate predictions. If it trends towards 0, the accuracy will decrease.
+This gives the AUC value. As the AUC value trends closer towards 1, it gives accurate predictions. If it trends towards 0, the accuracy decreases.
 
-In the next section we'll learn how to tune the parameters of the model to make it predict accurate results.
+In the next section, we'll learn how to tune the parameters of the model to make it predict accurate results.
 
 ### 4. Tune the hyperparameters of the model
 
