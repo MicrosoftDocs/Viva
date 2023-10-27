@@ -4,8 +4,8 @@ description: "Describes administration of Answers in Viva Engage for the Microso
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 07/13/2023
+manager: pamgreen
+ms.date: 10/28/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,7 +22,7 @@ search.appverid:
 
 # Scenarios for Answers in Viva Engage
 
-Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the new role of *Answers admin*. The new role of Answers admin is designated by [adding Knowledge Managers in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
+Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the Answers admin. To designate an Answers admin, [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
 - [Creating a role-assignable group in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible)  
 
@@ -49,7 +49,7 @@ The following table shows the actions available to users and admins.
 ## Update information panel
 
 ### Provide guidance using the information panel
-As an Answers admin, Engage admin, or Global admin, you can provide guidance to employees on how to use Answers in your organization using the information panel. The information panel is only visible to administrators in its default state. Once an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
+As an Answers admin, Engage admin, or global admin, use the information panel to provide guidance to employees on how to use Answers in your organization. The information panel is only visible to administrators in its default state. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
 
 **Admin view**
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
@@ -75,29 +75,29 @@ As an Answers admin, Engage admin, or Global admin, you can provide guidance to 
 
 ### Feature topics in Answers
 
-As an Answers admin, you can feature a topic or create a topic from the topic browse page. When you feature topics, you curate Viva Topics to be promoted for use in Answers.
+As an Answers admin, you can feature a topic or create a topic from the topic browse page. When you feature topics, you curate Topics to be promoted for use in Answers.
 
 > [!NOTE]
-> The **Feature a topic** button is only visible to the Answers admin or Global admin.  
+> The **Feature a topic** button is only visible to the Answers admin or global admin.  
 
 [![Screenshot of the Discover more Topics interface in Viva Engage.](/viva/media/engage/admin/feature-a-topic.png)](/viva/media/engage/admin/feature-a-topic.png#lightbox)
 
-1. When you start to type the topic you want to feature, existing Viva Topics appear, and you can choose one to feature.  
+1. When you start to type the topic you want to feature, existing Topics appear, and you can choose one to feature.  
 [![Screenshot  of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/type-topic.png)](/viva/media/engage/admin/type-topic.png#lightbox)
 2. After you select a topic to feature, you can edit the summary field that will be displayed as the short description of that topic in Answers. The summary helps people understand the topic and whether it’s the appropriate topic to attach to their questions.
 
 [![Screenshot of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/edit-topic-summary.png)](/viva/media/engage/admin/edit-topic-summary.png#lightbox)
 
 >[!NOTE]
-> The title and summary of all Viva Topics that are featured in Answers are visible to all licensed users who have access to Answers.
+> The title and summary of all Topics featured in Answers are visible to all licensed users who have access to Answers.
 
 ### Review pending topics suggested by employees
 
-To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a  **Needs Review** tab on the topic browse page, which is only visible to them. It displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
+To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
 
 [![Screenshot of the topics that need review in Answers in Viva.](/viva/media/engage/admin/needs-review-topic.png)](/viva/media/engage/admin/needs-review-topic.png#lightbox)
 
-You have options to feature or ignore the topic, which removes it from the Review tab:  
+You have options to feature or ignore the topic, which removes it from the **Review** tab:  
 
 - **Ignore**: When you ignore a topic, it remains visible with the questions that it's been used with. But it won't get featured, which makes topics more prominent in the publisher’s topic picker.  
 - **Feature**: When topics are featured, they no longer appear in the **Needs Review** tab.
@@ -124,31 +124,31 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 
 As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
-1. Go to the Global Answers analytics tab. You'll see an analytics dashboard that provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
+1. Go to the **Global Answers analytics** tab. The analytics dashboard provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics) .
+For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 [![Screenshot of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)](/viva/media/engage/admin/global-answers-analytics.png#lightbox)
 
 The following metrics are available for Global Answers analytics:
-
-- **Total time saved for your organization**: Time the organization has saved based on question-and-answer usage.
-- **Total questions**: Number of questions asked by users.
-- **Question views**: Views across all questions
-- **Total answers**: Number of answers provided by users.
-- **Total best answers**: Answers marked as best answer.
-- **Answer rate**: The ratio of questions that have answers to total questions.
-- **Best answer rate**: The ratio of questions with best answers to total questions.
-- **Median time to first answer**: The median time it takes for a question to receive its first answer.
-- **Median time to best answer**: The median time it takes for a question to receive its first best answer.
-- **Median questions asked per user**: The median number of questions asked by each user.
-- **Median questions viewed per user**: The median number of questions viewed by each user.
-- **Median answers per user**: The median number of answers provided by each user.
-- **Median best answers per user**: The median number of best answers provided by each user.
-- **Top questions across your organization**: A table of the top questions with the most views, votes, reactions, and answers across your org.
-- **User engagement distribution**: A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views).
-
-**Global time saved** shows the time saved across the organization. This total is based on Viva Engage research that shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.
+|  |  |
+|---|---------|
+|**Total time saved for your organization**|Time the organization has saved based on question-and-answer usage|
+|**Total questions**|Number of questions asked by users|
+|**Question views**| Views across all questions|
+|**Total answers**| Number of answers provided by users|
+|**Total best answers**|Answers marked as best answer|
+|**Answer rate**|The ratio of questions that have answers to total questions|
+|**Best answer rate**| The ratio of questions with best answers to total questions|
+|**Median time to first answer**|The median time it takes for a question to receive its first answer|
+|**Median time to best answer**|The median time it takes for a question to receive its first best answer|
+|**Median questions asked per user**|The median number of questions asked by each user|
+|**Median questions viewed per user**| The median number of questions viewed by each user|
+|**Median answers per user**| The median number of answers provided by each user|
+|**Median best answers per user**| The median number of best answers provided by each user|
+|**Top questions across your organization**|A table of the top questions with the most views, votes, reactions, and answers across your org|
+|**User engagement distribution**|A distribution of all users split by active engagements (ask, answer, vote, reactions, comments) and passive engagements (question views)|
+|**Global time saved** |Time saved across the organization. Based on Viva Engage research, this total shows that each question-and-answer pair saves people an average of 15 minutes. As more people discover existing answers to their questions, the organization saves more time.|
 
 >[!NOTE]
 > Analytics aren't live. They're updated every 24 hours.
