@@ -35,7 +35,7 @@ search.appverid:
 
  If your organization has active guests, Microsoft Entra B2B guest functionality can be used for guests who reside in the same geographic area as the Viva Engage network. This includes US guests for US networks and EU guests for EU networks. Guests must be reinvited to your network.
 
-If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from the Microsoft Entra ID portal. Learn more by visiting [Manage Viva Engage licenses in Microsoft 365](../manage-engage-licenses-microsoft-365.md).
+If your organization currently uses an email blocked list to manage access to your Viva Engage network, you can continue to manage access from Microsoft Entra ID. Learn more by visiting [Manage Viva Engage licenses in Microsoft 365](../manage-engage-licenses-microsoft-365.md).
 
 These feature equivalents are only available to networks in Native Mode. There's no feature equivalent to secret groups in Microsoft 365. All groups must be public or private.
 

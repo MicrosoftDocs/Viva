@@ -22,7 +22,7 @@ description: "Understand the relationship between a Viva Engage network and a Mi
 
 # Viva Networks networks and Microsoft 365 tenants
 
-For the best end-user and management experience, it's required that one Microsoft 365 tenant is associated with just one Viva Engagement network. If you don't have this configuration, we strongly recommend that you [consolidate previously migrated networks](consolidate-multiple-networks.md) into a single primary network for your tenant. When you do this, you move Viva Engage into a supported state for your tenant and prevent your networks from being automatically consolidated.
+For the best end-user and management experience, it's required that each Microsoft 365 tenant is associated with just one Viva Engagement network. If you don't have this configuration, we strongly recommend that you [consolidate previously migrated networks](consolidate-multiple-networks.md) into a single primary network for your tenant. When you do this, you move Viva Engage into a supported state for your tenant and prevent your networks from being automatically consolidated.
   
 > [!NOTE]
 > Have you recently received a communication from Viva Engage stating that your Microsoft 365 tenant is associated with two or more Viva Engage networks? If you're wondering what that means, read this article for context, and the more detailed [blog post from Viva Engage support](https://askViva Engage.github.io/post/2016-04-15-your-office365-tenant-is-associated-with-two-or-more-canonical-home-Viva Engage-networks/) for information about what actions you can take.

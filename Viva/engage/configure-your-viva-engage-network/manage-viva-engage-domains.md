@@ -71,7 +71,7 @@ To change the displayed network name shown below, change the **name** in the Mic
 If you have just one domain in Microsoft 365, when the default domain changes in Microsoft 365 to a verified domain, the primary domain of the corresponding Viva Engage network is updated.
 
    >[!NOTE]
-   >If you change the primary domain in O365 to the .onmicrosoft.com domain, Viva Engage will not update the primary domain to the .onmicrosoft.com domain. Automatic domain updates in Viva Engage are only for non .onmicrosoft.com domains.
+   >If you change the primary domain in Microsoft 365 to the .onmicrosoft.com domain, Viva Engage will not update the primary domain to the .onmicrosoft.com domain. Automatic domain updates in Viva Engage are only for non .onmicrosoft.com domains.
 
 ## Change the Viva Engage primary domain when you use a federated domain as your Microsoft 365 default domain
 
@@ -98,7 +98,7 @@ After you take one of the actions above, the rest of the domains (contoso.onmicr
   
 ### If your Microsoft 365 tenant is associated with more than one Viva Engage network
 
-These additional networks could be free Viva Engage Basic networks created by employees of your company. For example:
+These extra networks could be free Viva Engage Basic networks created by employees of your company. For example:
   
 - Verified domains on the Microsoft 365 tenant: contoso.onmicrosoft.com, contoso.com, northwind.com
 
@@ -108,7 +108,7 @@ These additional networks could be free Viva Engage Basic networks created by em
 
 This configuration is no longer supported as of October 16, 2018. For more information, see [Consolidate multiple Viva Engage networks](consolidate-multiple-networks.md).
 
-Beginning December 2019, if you add an [external domain with a Viva Engage Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Microsoft 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your O365 tenant. The basic network is then queued for deletion.
+Beginning December 2019, if you add an [external domain with a Viva Engage Basic network](add-basic-domains-to-office-365.md) (“Basic network”) to your Microsoft 365 tenant, we must disassociate the domain from the basic network in order to associate the domain with the primary network for your Microsoft 365 tenant. The basic network is then queued for deletion.
 
 ### If you have more than one Microsoft 365 tenant associated with one Viva Engage network
 

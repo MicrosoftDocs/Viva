@@ -5,8 +5,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 09/28/2023
+manager: pamgreen
+ms.date: 10/28/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -31,8 +31,8 @@ In Native Mode for Microsoft 365, all Viva Engage files must be stored in ShareP
 ## What happens to Group files when you run the Native Mode Alignment tool?
 
 - Group files in Microsoft Azure are copied to SharePoint Document Library (SDL) for the group.
-- After group files are successfully copied to SharePoint, we delete the non-SharePoint version of the files.
-- Previously-deleted files for groups are deleted.
+- After group files are successfully copied to SharePoint, we delete the non SharePoint version of the files.
+- Previously deleted files for groups are deleted.
 - New files are uploaded to SharePoint.
 - Non-SharePoint group files are deleted *within 30 days* after the migration is completed.
 - For groups that have multiple files with the same name, duplicates are appended with _X, where X is an increasing number for each duplicate file (for example, file_1, file_2, file_3, and so on).
@@ -80,7 +80,7 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 ### End user experience
 
-This table explainns the expected end user experience for files while the Tool is running:
+This table explains the expected end user experience for files while the Tool is running:
 
 |Tasks|Microsoft 365 Viva Engage Groups|Unconnected Viva Engage Groups|Private Messages|
 |-----|------------------------|-------------------------|----------------|
