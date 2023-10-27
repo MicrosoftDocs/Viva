@@ -90,7 +90,9 @@ train <-
 
 #### Missing values
 
-You may have missing values that come from other data sources that you import into the model, such as data on absence days or pay and benefit packages. There are different ways to handle missing values, such as deleting the rows or columns that have missing values, or imputing the missing values with the mean, median, mode, or a constant value. The choice of the method depends on the nature and amount of the missing values, and the impact they have on the model.
+You may have missing values that come from other data sources that you import into the model, such as data on absence days or pay and benefit packages.
+
+There are different ways to handle missing values: delete the rows or columns that have missing values; or impute the missing values with the mean, median, mode, or a constant value. The choice of the method depends on the nature and amount of the missing values, and the impact they have on the model.
 
 *Python:*
 
@@ -358,7 +360,7 @@ legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"
 
 :::image type="content" source="../images/retention-playbook-01.png" alt-text="Tune n_estimators.":::
 
-In the plot above we can see that as the estimators increase, it leads to overfitting: the gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases, which indicates that the model is becoming increasingly specialized to the training data, and is not able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
+In the plot above we can see that as the estimators increase, it leads to overfitting. The gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases. This indicates that the model is becoming increasingly specialized to the training data, and is not able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
 
 Max_depth: represents the depth of each tree in the forest. The deeper the tree, the more splits it has and it captures more information about the data. We fit each decision tree with depths ranging from 1 to 32 and plot the training and test errors.
 
@@ -427,8 +429,8 @@ legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"
 
 We can see that as the depth increases it leads to overfitting of the data.
 
-- `min_samples_split`: The minimum number of samples needed to split an internal node, which is a node that has further branches. This parameter can range from one sample, which means that every node is split until it becomes a leaf, to the total number of samples, which means that no node is split. By increasing this parameter, we make
-each tree in the forest more conservative, as it has to take into account more samples before splitting. In this analysis, we'll change the parameter from 10% to 100% of the samples.
+- `min_samples_split`: The minimum number of samples needed to split an internal node, which is a node that has further branches. This parameter can range from one sample to the total number of samples. If the parameter is one sample, that means every node is split until it becomes a leaf. If the parameter is the total number of samples, that means no node is split. By increasing this parameter, we make
+each tree in the forest more conservative, as it has to take into account more samples before splitting. In this analysis, we change the parameter from 10% to 100% of the samples.
 
 *Python:*
 
@@ -544,7 +546,7 @@ legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"
 
 :::image type="content" source="../images/retention-playbook-04.png" alt-text="Tune minsamples leaf.":::
 
-As we can see, increasing the value of the parameter leads to underfitting, and both the Train AUC and Test AUC scores start to decrease or level off. This indicates that the model is becoming increasingly simple and is not fitting the training data well, and is also not generalizing well to new data.
+As we can see, increasing the value of the parameter leads to underfitting, and both the Train AUC and Test AUC scores start to decrease or level off. This indicates that the model is becoming increasingly simple and is not fitting the training data well. It also indicates the model isn't generalizing well to new data.
 
 Another sign of underfitting is that the gap between the Train AUC and Test AUC scores starts to narrow as the value of the min_samples_leaf parameter increases. This indicates that the model is becoming increasingly generalized and is not able to capture the complexity of the training data, and is also not able to generalize well to new data.
 
