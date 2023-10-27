@@ -38,27 +38,6 @@ Machine learning can be used to analyze employee data and build models that can 
 
 Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
-[^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
-[^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
-[^3]: <https://www.gartner.com/en/human-resources/glossary/attrition>
-[^4]: <https://builtin.com/recruiting/cost-of-turnover>
-[^5]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
-[^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
-
-### References
-
-1: <https://www.psychometrics.com/true-cost-employee-turnover>
-
-2: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
-
-3: <https://www.gartner.com/en/human-resources/glossary/attrition>
-
-4: <https://builtin.com/recruiting/cost-of-turnover>
-
-5: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
-
-6: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
-
 ## Benefits
 
 There are many potential benefits to an organization that uses a retention or attrition model:
@@ -75,10 +54,33 @@ There are many potential benefits to an organization that uses a retention or at
 
 ### References
 
+1: <https://www.psychometrics.com/true-cost-employee-turnover>
+
+2: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
+
+3: <https://www.gartner.com/en/human-resources/glossary/attrition>
+
+4: <https://builtin.com/recruiting/cost-of-turnover>
+
+5: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+
+6: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
+
+7: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
+
+8: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+
+9: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
+
+10: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
+
+[^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
+[^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
+[^3]: <https://www.gartner.com/en/human-resources/glossary/attrition>
+[^4]: <https://builtin.com/recruiting/cost-of-turnover>
+[^5]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
+[^6]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun/>
 [^7]: <https://www.forbes.com/sites/johnhall/2019/05/09/the-cost-of-turnover-can-kill-your-business-and-make-things-less-fun>
-
 [^8]: <https://www.simplybenefits.ca/blog/employee-retention-what-is-the-true-cost-of-losing-an-employee>
-
 [^9]: <https://www.terrastaffinggroup.com/resources/blog/cost-of-employee-turnover>
-
 [^10]: <https://www.workhuman.com/blog/the-ridiculously-high-cost-of-employee-turnover>
