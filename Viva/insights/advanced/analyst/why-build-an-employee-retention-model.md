@@ -38,7 +38,7 @@ Machine learning can be used to analyze employee data and build models that can 
 
 Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
-## Benefits
+### Benefits
 
 There are many potential benefits to an organization that uses a retention or attrition model:
 
