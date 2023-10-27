@@ -319,19 +319,22 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 ## Add the People card
 
 The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name.md) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
-        :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
+
+   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2.	Select **People** from the dashboard toolbox.
-        :::image type="content" source="../media/connections/people-card-icon.png" alt-text="Screenshot of the People card icon."lightbox="../media/connections/people-card-icon.png":::
+
+    ![Image of the People card icon.](../media/connections/people-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
 
 4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
 5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-        :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
+
+      :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
 
 ## Add a Shifts card
 
