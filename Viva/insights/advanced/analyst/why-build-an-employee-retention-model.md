@@ -17,7 +17,7 @@ audience: Admin
 
 # Why build an Employee Retention Model?
 
-This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. It inlcudes the principles of employee retention, the business scenarios of employee retention, and code examples in R and Python.
+This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. It includes the principles of employee retention, the business scenarios of employee retention, and code examples in R and Python.
 
 With this playbook, you can:
 
@@ -32,7 +32,7 @@ The most valuable asset of a company is its people. Because hiring is costly and
 
 Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and identify groups with higher attrition risk.
 
-Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace one,[^5] depending on the former employee’s skill set. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to determine how to increase employee retention is vital.  
+Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace one,[^5] depending on the former employee’s skill set. Considering that one in three hires leave the company within two years, this quickly adds up.[^6] Therefore, having a model to determine how to increase employee retention is vital.  
 
 ### Machine learning
 
@@ -48,9 +48,9 @@ There are many potential benefits to an organization that uses a retention or at
 
 2. **Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
 
-3. **Enhanced Productivity**: When turnover is addressed, there’s less disruption to workflows, resulting in higher overall productivity. By maintaining a manageable level of turnover, an organization can avoid adding additional stress to current employees, thus improving productivity.
+3. **Enhanced Productivity**: When turnover is addressed, there’s less disruption to workflows, resulting in higher overall productivity. An organization can avoid adding additional stress to current employees, thus improving productivity, by maintaining a manageable level of turnover.
 
-4. **Knowledge Retention**: Long-term employees have valuable institutional knowledge. By retaining them, organizations maintain critical expertise within the company.
+4. **Knowledge Retention**: Long-term employees have valuable institutional knowledge. Organizations maintain critical expertise within the company by retaining them.
 
 5. **Innovation and Creativity**: Long-term employees are often more comfortable taking risks and suggesting innovative ideas. When they feel secure in their roles, they’re more likely to contribute creative solutions.
 
