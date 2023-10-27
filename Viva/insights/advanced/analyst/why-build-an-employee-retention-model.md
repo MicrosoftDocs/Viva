@@ -17,26 +17,26 @@ audience: Admin
 
 # Why build an Employee Retention Model?
 
-This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. It covers the principles of employee retention, the business scenarios of employee retention, and the code examples in R and Python.
+This playbook provides an introduction on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint. It inlcudes the principles of employee retention, the business scenarios of employee retention, and code examples in R and Python.
 
-With this playbook, you can learn:
+With this playbook, you can:
 
-- The principles and scenarios for using the model
-- How to combine and validate data from Viva Insights, Glint, and other sources such as employee attrition data
-- How to train and evaluate a random forest model that can predict employee attrition
-- How to interpret and communicate the results and insights from the model
+- Learn the principles and scenarios for using the model
+- Combine and validate data from Viva Insights, Glint, and other sources such as employee attrition data
+- Train and evaluate a random forest model that can predict employee attrition
+- Interpret and communicate the results and insights from the model
 
-## Rationale
+## Business context
 
 The most valuable asset of a company is its people. Because hiring is costly and many hiring decisions tend to be wrong,[^1] [^2] retaining great employees is critical to business success.  
 
 Employee attrition is the voluntary or involuntary loss of employees from an organization.[^3] It can have negative impacts on the organization's performance, productivity, morale, and profit.[^4] Therefore, it's important for organizations to understand the factors that influence employee attrition and identify groups with higher attrition risk.
 
-Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace an employee,[^5] depending on the former employee’s skill set. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to help organizations determine how to increase employee retention is vital.  
+Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace one,[^5] depending on the former employee’s skill set. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to determine how to increase employee retention is vital.  
 
 Machine learning can be used to analyze employee data and build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
 
-Our proposed model will use historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
+Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
 [^1]: <https://www.psychometrics.com/true-cost-employee-turnover/>
 [^2]: <https://hbr.org/2019/05/your-approach-to-hiring-is-all-wrong>
@@ -61,7 +61,7 @@ Our proposed model will use historical employee data, performance metrics, engag
 
 ## Benefits
 
-There are many potential benefits to an organization when a retention or attrition model is used:
+There are many potential benefits to an organization that uses a retention or attrition model:
 
 1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
 
