@@ -1,3 +1,4 @@
+---
 items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
@@ -68,7 +69,7 @@ items:
                   - name: Create an SSH key pair
                     href: setup/sftp-ssh-key-gen.md
                   - name: Set up Secure File Transfer Protocol (SFTP)
-                    href: setup/set-up-sftp.md  
+                    href: setup/set-up-sftp.md
               - name: Upload your employee attributes to Viva Glint
                 href: setup/upload-employee-attributes.md
               - name: Understand file upload errors and warnings in Viva Glint
@@ -91,7 +92,8 @@ items:
               - name: Set up and use Distribution lists in Viva Glint
                 href: setup/set-up-distribution-lists.md
                 items:
-                  - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
+                  - name: Import members into a Viva Glint Distribution list and use the blended
+                      membership functionality
                     href: setup/import-members-distribution-lists.md
                   - name: Export a Viva Glint Distribution list
                     href: setup/export-distribution-lists.md
@@ -130,8 +132,6 @@ items:
                 items:
                   - name: Viva Glint aggregate grouping - trends and best practices
                     href: reports/aggregate-trending.md
-              - name: Use the Glint Microsoft Teams application
-                href: setup/glint-microsoft-teams-application.md
           - name: Setup by Program type
             items:
               - name: Setting up Engagement surveys
@@ -155,7 +155,7 @@ items:
                         href: setup/program-summary-coaching.md
               - name: Quarterly Engagement Survey template
                 href: setup/quarterly-engagement-template.md
-              - name: Diversity & Inclusion survey programs in Viva Glint
+              - name: Diversity and Inclusion survey program in Viva Glint
                 href: setup/diversity-inclusion.md
               - name: Set up a Viva Glint Team Effectiveness survey
                 href: setup/team-effectiveness-survey.md
@@ -166,6 +166,8 @@ items:
           - name: Setting up Employee Lifecycle surveys
             href: setup/preview-filter-lifecycle-programs.md
             items:
+              - name: Deleting survey data from Viva Glint
+                href: setup/delete-survey-data.md
               - name: Create Viva Glint Onboarding and Exit survey programs
                 href: setup/create-onboarding-exit-surveys.md
               - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
@@ -260,16 +262,19 @@ items:
         items:
           - name: Communicate with Viva Glint Nudges
             href: communicate/communicate-with-nudges.md
-          - name: Use Viva Glint email templates to share survey expectations within your organization
+          - name: Use Viva Glint email templates to share survey expectations within your
+              organization
             href: communicate/email-templates-survey-expectations.md
             items:
               - name: Introduce Viva Glint survey taking to your employees
                 href: communicate/survey-taking-for-employees.md
-              - name: Communicate pre-launch and live Viva Glint program information using email templates
+              - name: Communicate pre-launch and live Viva Glint program information using email
+                  templates
                 href: communicate/prelaunch-live-email-templates.md
-              - name: Communicate results rollout plans for Viva Glint programs using email templates
+              - name: Communicate results rollout plans for Viva Glint programs using email
+                  templates
                 href: communicate/results-rollout-templates.md
       - name: Troubleshoot
         items:
           - name: Resolve manager hierarchy error
-            href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+            href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.jso
