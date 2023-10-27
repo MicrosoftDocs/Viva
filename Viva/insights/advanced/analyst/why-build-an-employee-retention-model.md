@@ -34,17 +34,19 @@ Employee attrition is the voluntary or involuntary loss of employees from an org
 
 Losing an employee is costly because employees produce more value for the company over time. Employers could spend between 30% to 400% of the employee’s annual salary to replace one,[^5] depending on the former employee’s skill set. Considering that one in three hires will leave the company within two years, this quickly adds up.[^6] Therefore, having a model to determine how to increase employee retention is vital.  
 
+### Machine learning
+
 Machine learning can be used to analyze employee data and build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
 
 Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
-### Benefits
+## Benefits
 
 There are many potential benefits to an organization that uses a retention or attrition model:
 
 1. **Financial Savings**: Low turnover can lead to financial savings in areas like recruitment, benefits administration, and retirement plans, which are more cost-effective with long-term employees. And, costs associated with hiring, training, and productivity losses due to employee attrition can also be reduced.[^7] [^8] [^9] [^10]
 
-2. **Increased Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
+2. **Employee Engagement**: Employees who feel valued and supported are more likely to be engaged in their work. This leads to higher levels of job satisfaction and overall performance. An employee retention model can help identify the issues that cause dissatisfaction and disengagement.
 
 3. **Enhanced Productivity**: When turnover is addressed, there’s less disruption to workflows, resulting in higher overall productivity. By maintaining a manageable level of turnover, an organization can avoid adding additional stress to current employees, thus improving productivity.
 
