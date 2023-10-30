@@ -295,7 +295,7 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 2.	Select **News** from the dashboard toolbox.
 
-    ![Screenshot of the People card icon.](../media/connections/news-card-icon.png)
+    ![Screenshot of the News card icon.](../media/connections/news-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
 
