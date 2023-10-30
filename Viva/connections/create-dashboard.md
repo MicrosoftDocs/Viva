@@ -294,7 +294,8 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2.	Select **News** from the dashboard toolbox.
-        :::image type="content" source="../media/connections/news-card-icon.png" alt-text="Screenshot of the News card icon."lightbox="../media/connections/news-card-icon.png":::
+
+    ![Screenshot of the People card icon.](../media/connections/news-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
 
@@ -326,7 +327,7 @@ The People Search card will automatically retrieve contact information from memb
 
 2.	Select **People** from the dashboard toolbox.
 
-    ![Image of the People card icon.](../media/connections/people-card-icon.png)
+    ![Screenshot of the People card icon.](../media/connections/people-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
 
