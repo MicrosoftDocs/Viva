@@ -54,7 +54,14 @@ There are many potential benefits to an organization that uses a retention or at
 
 5. **Innovation and Creativity**: Long-term employees are often more comfortable taking risks and suggesting innovative ideas. When they feel secure in their roles, they’re more likely to contribute creative solutions.
 
-### References
+### Next steps
+
+Advance to the next article to learn more details about an Employee Retention Model, including its terminology and how to model attrition.
+
+> [!div class="nextstepaction"]
+> [Learn more](what-is-an-employee-retention-model.md)
+
+#### References
 
 1: <https://www.psychometrics.com/true-cost-employee-turnover>
 
