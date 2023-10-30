@@ -26,9 +26,6 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 - Automatically trigger surveys for employees at specific points in the employee lifecycle.
 - Always have the most up-to-date employee information.
 
-> [!NOTE]
-> SFTP will be available in Viva Glint after **October 28th, 2023**.
-
 ## Prepare data for import
 
 Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240826).
