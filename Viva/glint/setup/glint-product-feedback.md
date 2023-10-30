@@ -22,9 +22,6 @@ ms.date: 10/17/2023
 
 Microsoft Viva Glint provides an easy and consistent way for customers to provide in-app feedback. Submissions go directly to Viva Glint product and engineering teams so they can review suggestions to inform roadmap and strategic prioritization.
 
-> [!NOTE]
-> This feature will be available in Viva Glint after **October 28th, 2023**.
-
 ## Three options to provide feedback
 
 Select an option to open the corresponding feedback window.
