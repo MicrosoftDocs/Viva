@@ -54,10 +54,10 @@ For users who are looking for information about booking a trip for work:
 
 - If some users know the travel tool name (for example, "Concur"), it's easier to create a bookmark to go directly to the external site.
 
-- For users who search generally for "travel", create a topic on "Travel" that has the information they expect to see. Consider adding a link to the Concur external site in the description of the topic. If the link is instead to an internal travel booking site hosted on the Microsoft 365 tenant, you can add it to the “Pinned Resources”.
+- For users who search generally for "travel", create a topic on "Travel" that has the information they expect to see. Consider adding a link to the Concur external site in the description of the topic. If the link is instead to an internal travel booking site hosted on the Microsoft 365 tenant, you can add it to the “Pinned Resources.”
 
 ### Search results priority
 
 Search priority depends on the content being searched for. Results in search are prioritized based on user engagement and content coverage of bookmarks, topics, acronyms, editorial Q&A, and other types of answers.
 
-Bookmarks and topics typically have high engagement due to them being premium features. This affects the way results are displayed in a search. In a query triggered by both bookmarks and topics, the two answers will prioritize the bookmark before the topic. For example, in a user's search experience, when a user searches for a term like “travel”, a bookmark will appear in place of a topic when a bookmark is available. When a query doesn't trigger bookmarks, but triggers topics and acronyms, the topic result will show before the acronym result. When a query only triggers one answer in any of the types, the answer will show first.
+Bookmarks and topics typically have high engagement due to them being premium features. This affects the way results are displayed in a search. In a query triggered by both bookmarks and topics, the two answers prioritize the bookmark before the topic. For example, in a user's search experience, when a user searches for a term like “travel”, a bookmark will appear in place of a topic when a bookmark is available. When a query doesn't trigger bookmarks, but triggers topics and acronyms, the topic result will show before the acronym result. When a query only triggers one answer in any of the types, the answer will show first.
