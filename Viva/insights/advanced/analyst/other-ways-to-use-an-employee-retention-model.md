@@ -15,7 +15,7 @@ manager: abelubetk
 audience: Admin
 ---
 
-# Other ways to use an employee retention model
+# Other ways to use an Employee Retention Model
 
 To retain your employees, you can use a retention model in a few other key ways:
 
