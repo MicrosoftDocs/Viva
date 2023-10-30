@@ -22,13 +22,13 @@ description: Learn how to contribute to topics in Topics
 
 [Topics](topic-experiences-overview.md) helps organizations make knowledge and expertise accessible to all employees. It’s like Wikipedia for organizations, but [artificial intelligence (AI) develops the first draft](topic-experiences-discovery-curation.md) and subject matter experts edit the information to add their unique knowledge and expertise. Topics then makes the knowledge available to colleagues and leaders at the time of need, and in the flow of their work. In this article we review how to:  
 
-- [Showcase knowledge and expertise with Topics](topic-experiences-topic-contributors.md#showcase-knowledge-and-expertise-with-viva-topics)
+- [Showcase knowledge and expertise with Topics](#showcase-knowledge-and-expertise-with-topics)
 
-- [Contribute to relevant topics](topic-experiences-topic-contributors.md#contribute-to-relevant-topics)
+- [Contribute to relevant topics](#contribute-to-relevant-topics)
 
-- [Edit and create topics in Topics](topic-experiences-topic-contributors.md#edit-and-create-topics-in-viva-topics)
+- [Edit and create topics in Topics](#edit-and-create-topics-in-topics)
 
-- [Get help from colleagues](topic-experiences-topic-contributors.md#get-help-from-colleagues)
+- [Get help from colleagues](#get-help-from-colleagues)
 
 ## Showcase knowledge and expertise with Topics
 
@@ -75,7 +75,7 @@ There are multiple easy to find relevant topics in the organization to contribut
 
     ![Image showing confirmed connections topic cards.](../media/knowledge-management/topics-confirmed-connections-tc.png)  
 
-2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown on a topic card. Certain prompts can appear to provide feedback on topic cards and the user can then select the topic page and select the edit button on the top right of the topic page to [edit](topic-experiences-topic-contributors.md#edit-and-create-topics-in-viva-topics).  
+2. **In the flow of work**: As content is read and stored in Microsoft 365, topics will be highlighted inline. When hovering over the topic name, more information will be shown on a topic card. Certain prompts can appear to provide feedback on topic cards and the user can then select the topic page and select the edit button on the top right of the topic page to [edit](#edit-and-create-topics-in-topics).  
 
     ![Image showing editing button within the topic page.](../media/knowledge-management/topic-page-editing-tc.png)
 

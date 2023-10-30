@@ -25,7 +25,7 @@ When you use Topics in your Microsoft 365 environment, your users can have the f
 - [Topic viewer](#topic-viewer)
 - [Topic contributor](#topic-contributor)
 - [Knowledge manager](#knowledge-manager)
-- [Topics admin](#viva-topics-admin)
+- [Topics admin](#topics-admin)
 
 ## Topic viewer
 

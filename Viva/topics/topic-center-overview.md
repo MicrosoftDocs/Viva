@@ -29,7 +29,7 @@ While all licensed users who can view topics will have access to the topic cente
 
 ## Where is my topic center
 
-The topic center is created during Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](./topic-experiences-administration.md#to-access-topics-management-settings).
+The topic center is created during Topics setup. After setup completes, an admin can find the URL on the [Topic center management page](topic-experiences-administration.md#access-topics-management-settings).
 
 1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
 2. On the **Services** tab, choose **Topics**.
