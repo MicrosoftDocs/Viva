@@ -58,9 +58,5 @@ Although this might change the characteristics of the model, the following outco
 
 The next chapter provides details on what predictor variables, including data from Viva Insights and Glint, can be added to the model.
 
-### Next steps
-
-Advance to the next article to learn about which kinds of metrics and queries are needed to build the model.
-
 > [!div class="nextstepaction"]
-> [Metrics and queries](employee-retention-metrics-queries.md)
+> [Learn the variables](employee-retention-metrics-queries.md)

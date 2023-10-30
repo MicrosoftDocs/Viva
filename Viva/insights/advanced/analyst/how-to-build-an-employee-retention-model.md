@@ -552,7 +552,7 @@ After putting the found best parameters from tuning, we can generate the model a
 
 ### Next steps
 
-Advance to the next article to learn about some key steps you can take to improve the model's performance.
+Advance to the next chapter to learn about some key steps you can take to improve the model's performance.
 
 > [!div class="nextstepaction"]
 > [Improve the model](apply-the-model.md)

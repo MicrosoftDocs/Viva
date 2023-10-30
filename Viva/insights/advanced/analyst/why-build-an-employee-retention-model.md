@@ -56,7 +56,7 @@ There are many potential benefits to an organization that uses a retention or at
 
 ### Next steps
 
-Advance to the next article to learn more details about an Employee Retention Model, including its terminology and how to model attrition.
+Advance to the next chapter to learn more details about an Employee Retention Model, including its terminology and how to model attrition.
 
 > [!div class="nextstepaction"]
 > [Learn more](what-is-an-employee-retention-model.md)

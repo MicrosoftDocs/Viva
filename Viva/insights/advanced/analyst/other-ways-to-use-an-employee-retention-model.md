@@ -33,7 +33,7 @@ In addition, understanding which positions within the company are transitional o
 
 ### Next steps
 
-Advance to the next article for a final quick note about this playbook.
+Advance to the next chapter for a final quick note about this playbook.
 
 > [!div class="nextstepaction"]
 > [Playbook Note](employee-retention-playbook-note.md)

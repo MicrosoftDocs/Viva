@@ -157,7 +157,7 @@ The frequency of the organizational data upload is also important. The more freq
 
 ### Next steps
 
-Advance to the next article to learn how to build the model using the R and Python programming languages.
+Advance to the next chapter to learn how to build the model using the R and Python programming languages.
 
 > [!div class="nextstepaction"]
 > [Build the model](how-to-build-an-employee-retention-model.md)

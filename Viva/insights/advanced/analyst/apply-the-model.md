@@ -110,7 +110,7 @@ While random forest models can be powerful tools for predicting employee churn a
 
 ### Next steps
 
-Advance to the next article to learn about other scenarios for using an Employee Retention Model.
+Advance to the next chapter to learn about other scenarios for using an Employee Retention Model.
 
 > [!div class="nextstepaction"]
 > [See the scenarios](other-ways-to-use-an-employee-retention-model.md)
