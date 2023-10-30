@@ -30,6 +30,17 @@ To access usage and engagement metrics:
 >User counts under 100 are exact, while numbers over 100 are approximations within three percent of the exact number.
 >All dates and times in charts are in UTC. Topic center data generally updates within two to three minutes of an interaction.
 
+## Types of engagement
+
+- **Sharing** measures all scenarios related to sharing topics by using the topic picker (# tags). Tagging on Viva Engage and Answers are currently counted.
+- **Contributing** measures all scenarios where a topic is improved, including topic page edits, publication, and adding or confirming files, people, sites. Contributing also includes other feedback to improve topics.
+- **Topic Card** measures the number of times a topic card was viewed.
+- **Topic Page** measures the number of times a topic page was viewed.
+- **Search** measures the number of times a Topic answer is shown.
+- **Topic Center Card** measures the number of times a Topic center card is viewed in users' dashboards.
+- **Feedback** measures how many times users have responded to feedback questions to improve topics.
+- **Edits** measures how many times a topic has been updated and published. Each time a topic is republished counts as an edit. However, draft edits aren't counted. If a user edits two or more things on a topic before publishing or republishing, it will count as one update per publish.
+
 ## Topic engagement
 
 The **Topic engagement** section provides a look into how unique users are engaging with topics. Engagement from users includes consuming, sharing, and contributing to topics.
