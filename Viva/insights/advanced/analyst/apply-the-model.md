@@ -107,3 +107,10 @@ While random forest models can be powerful tools for predicting employee churn a
 - The model assumes the input features are relevant to the problem of employee churn, which might not be the case. Some features might be more relevant than others, and it might be necessary to perform feature selection or engineering to identify the most important features.
 
 - The model assumes the predictions are used for the purpose of employee retention, which might not be the case. The predictions might be used for other purposes, such as identifying employees for termination or downsizing, which could have negative consequences for employees and the organization.
+
+### Next steps
+
+Advance to the next article to learn about other scenarios for using an Employee Retention Model.
+
+> [!div class="nextstepaction"]
+> [See the scenarios](other-ways-to-use-an-employee-retention-model.md)

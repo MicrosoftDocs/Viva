@@ -154,3 +154,10 @@ For more information on organizational attributes in Viva Insights, use [this re
 To train the model with the above datasets, we recommend downloading a custom Person Query from the Analyst Experience, and uploading all other data sources to Viva Insights as organizational data. This ensures that the data is available at the person-level granularity and provides greater accuracy when training the model.
 
 The frequency of the organizational data upload is also important. The more frequent it is, the more accurately it would reflect any changes that have occurred for the individual over time.
+
+### Next steps
+
+Advance to the next article to learn how to build the model using the R and Python programming languages.
+
+> [!div class="nextstepaction"]
+> [Build the model](how-to-build-an-employee-retention-model.md)

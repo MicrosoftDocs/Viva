@@ -549,3 +549,10 @@ As we can see, increasing the value of the parameter leads to underfitting, and 
 Another sign of underfitting is that the gap between the Train AUC and Test AUC scores starts to narrow as the value of the min_samples_leaf parameter increases. This indicates that the model is becoming increasingly generalized and isn't able to capture the complexity of the training data. The model also isn't able to generalize well to new data.
 
 After putting the found best parameters from tuning, we can generate the model again to predict the values.
+
+### Next steps
+
+Advance to the next article to learn about some key steps you can take to improve the model's performance.
+
+> [!div class="nextstepaction"]
+> [Improve the model](apply-the-model.md)
