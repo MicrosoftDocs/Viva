@@ -93,9 +93,3 @@ You can turn off or turn on Viva Learning at the organization level on the Manag
 
 For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
 
-### Viva Topics
-Viva Topics uses existing content security features in Microsoft 365, along with administrative controls, to control what AI-generated content is shown to users in your organization. What an individual can see in topics is determined by the combination of [Microsoft 365 security](/microsoft-365/security/) settings (permissions to sites, files, and folders) and [Topics admin settings](topics/topic-experiences-security-privacy.md).
- 
-Viva Topics doesn’t modify any existing access controls on content in your organization. Users see only what they already have access to. Admins can also indicate which [SharePoint sites are scanned for information](topics/topic-experiences-discovery.md#select-sharepoint-topic-sources) or [prevent topic viewers from seeing specific topics](topics/topic-experiences-knowledge-rules.md). Admins can access the topic center to see a list of created topics for more granular control. Admins can also [use sensitivity labels to restrict topic and resource discovery](topics/topic-experiences-discovery.md#exclude-resources-based-on-sensitivity-labels).
-
-For more information, see [Security and privacy in Microsoft Viva Topics](topics/topic-experiences-security-privacy.md).
