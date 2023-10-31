@@ -35,7 +35,7 @@ Your organization is hiring, and you need to onboard new employees – some who 
 
 Learning is one of the most important aspects of onboarding new employees. Using Viva Learning can help provide new employees with targeted training wherever they are. You can provide your own learning materials, such as learning about your organization’s culture and processes, building skills, and more.
 
-![Image of Learning app in Teams](../media/learning.png)
+:::image type="content" alt-text="Image of Learning app in Teams" source="../media/learning.png" lightbox="../media/learning.png":::
 
 Viva Learning is enabled by default for all Microsoft Teams users in your organization. You can turn off or turn on Viva Learning at the organization level on the Manage apps page in the Microsoft Teams admin center. To learn more, see [Set up Viva Learning](/viva/learning/set-up-viva-learning).
 
