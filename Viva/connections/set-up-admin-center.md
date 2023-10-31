@@ -1,5 +1,5 @@
 ---
-ms.date: 10/20/2023
+ms.date: 10/31/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -93,7 +93,7 @@ Admins are able to create multiple standalone experiences well as intranet home 
 
 #### Create a Connections experience
 
-This option is ideal if your organization doesn't have an existing intranet portal and just needs to create an experience. This option provides a lightweight experience without a SharePoint intranet portal that users can use to add their own content. Once the Connections experience is created, it can be set as a SharePoint intranet portal (it can be accessed from SharePoint), or, an existing intranet portal can be added.
+This option is ideal if your organization doesn't have an existing intranet portal and just needs to create an experience. This option provides a lightweight experience without a SharePoint intranet portal that users can use to add their own content. Once the Connections experience is created, it can be set as a SharePoint intranet portal (it can be accessed from SharePoint).
 
 1. Select **+ Create new**, displayed on top of the list of experiences.
 
