@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX, NOFOLLOW
 title: Import survey results
 description: Learn how to import survey results to the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -26,7 +26,7 @@ The first time you (the Insights Administrator) import survey results into Viva 
 
 ### Workflow
 
-1. The *survey source admin* [registers a multi-tenant application](#register-a-new-single-tenant-app-in-azure) on the Azure Active Directory admin center.
+1. The *survey source admin* [registers a multi-tenant application](#register-a-new-single-tenant-app-in-azure) on the Microsoft Entra admin center.
 1. The *Microsoft 365 admin* [installs the Glint app](#install-the-app) on the Azure portal. 
 1. You as the *Insights Administrator* ("Insights admin") [set up the import](#set-up-a-new-import-in-viva-insights) in the advanced insights app.
 
@@ -54,13 +54,13 @@ Here’s what to do:
 
     :::image type="content" source="../images/admin-di-all-admin-centers.png" alt-text="Screenshot that shows selecting All admin centers from the left rail.":::
 
-1. Select **Azure Active Directory**.
+1. Select **Microsoft Entra ID**.
 
 1. Create a new app registration:
     1. In the top toolbar, select **Add > App registration**.
     2. On the resulting screen:
         1. Give your app a name. 
-        1. Under **Supported account types**, select the second option, **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**. 
+        1. Under **Supported account types**, select the second option, **Accounts in any organizational directory (Any Microsoft Entra directory - Multitenant)**. 
         1. Select the **Register** button at the bottom of the screen.
 
         :::image type="content" source="../images/admin-import-survey.png" alt-text="Screenshot that shows Register an application screen with i, ii, and iii that correspond to the steps listed above."lightbox="../images/admin-import-survey.png":::
@@ -175,5 +175,3 @@ The **Data quality** tab shows you the following information for each imported s
 * **Quality score** – The percentage of measured employees who have a non-blank value for the specified question label. This score is intended as guidance, not to be an absolute measure of quality. A quality score of more than 95% leads to better-quality insights. If quality scores are low, it's difficult to determine how people collaborate across different characteristics. Additionally, low quality scores on required data fields may give skewed (under-reported) metric calculations for metrics that rely on those attributes.
 * **Last updated** – When the survey was sent to Viva Insights.
 * **Employees with this field** – The number of measured employees and internal collaborators with a non-blank value for the question label.
-
-

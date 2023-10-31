@@ -1,9 +1,9 @@
 ---
-ms.date: 02/22/2023
+ms.date: 10/26/2023
 title: Query results in Viva Insights FAQs
 description: Get answers to common questions about advanced insights query results
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -21,12 +21,13 @@ We've compiled answers for some questions you might run across while viewing you
 
 ## Meeting queries
 
-### Q1. Why is a meeting's Accept count greater than its Attendee count?
+### Q1. Why is a meeting's Attendee count lower than expected? Or, why are metric values listed as 0?
 
-A1. You might notice that more people accepted a meeting than attended it. This can happen for a couple of reasons:
+A1. You might notice that more people accepted a meeting than attended it. This can happen for a few reasons:
 
-* Some invitees accepted the meeting but then attended another meeting without changing their response.
-* Some attendees are external or unmeasured, meaning they're not assigned a Viva Insights license.
+* Some invitees accepted the meeting but then attended another meeting without changing their response. Or, some invitees were deemed to be attending a conflicting meeting.
+* Some attendees are external or unmeasured, meaning they're not assigned a Viva Insights license, and thus aren't included in the metric calculation.
+* The query was run in a partition and the meeting had participants who aren't in the partition, and thus aren't included in the metric calculation.
 
 ### Q2. Why are meetings missing from my results?
 
@@ -34,7 +35,12 @@ A2. The query might not have had any attendees. If no one attended a meeting, Vi
 
 ### Q3. Why is data about the meeting organizer missing?
 
-A3. If you don't see results for a meeting organizer, then that organizer has opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights](../../personal/use/opt-out-of-mya.md).
+A3. This can happen for a few reasons:
+
+* The organizer opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights](../../personal/use/opt-out-of-mya.md).
+* The organizer isn't part of the partition.
+* The organizer's HR data hasn't been uploaded.
+
 
 ### Q4. Why is the Subject column empty for a meeting?
 

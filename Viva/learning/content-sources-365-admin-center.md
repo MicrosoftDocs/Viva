@@ -46,9 +46,9 @@ To add a knowledge admin for Viva Learning, follow these steps:
 
     ![Image of Role assignments in the left navigation](../media/learning/clcs-orgsettings.png)
 
-2. On the **Role Assignments** page, on the **Azure AD** tab, select **Knowledge Administrator**.
+2. On the **Role Assignments** page, on the **Microsoft Entra ID** tab, select **Knowledge Administrator**.
 
-    ![Image of Knowledge Admin selected on the Azure AD tab.](../media/learning/clcs-knowledgeadmin.png)
+    ![Image of Knowledge Admin selected on the Microsoft Entra ID tab.](../media/learning/clcs-knowledgeadmin.png)
 
 3. On the **Knowledge Administrator** panel, select **Assigned admins**, and then select **Add**.
 
@@ -64,9 +64,9 @@ To remove a knowledge admin for Viva Learning, follow these steps:
 
     ![Image of Role assignments in the left navigation](../media/learning/clcs-orgsettings.png)
 
-2. On the **Role assignments** page, go to the **Azure AD** tab, and then select **Knowledge Administrator**.
+2. On the **Role assignments** page, go to the **Microsoft Entra ID** tab, and then select **Knowledge Administrator**.
 
-    ![Image of Knowledge Adminstrator selected on the Azure AD tab.](../media/learning/clcs-knowledgeadmin.png)
+    ![Image of Knowledge Adminstrator selected on the Microsoft Entra ID tab.](../media/learning/clcs-knowledgeadmin.png)
 
 3. On the **Knowledge Administrator** panel, on the **Assigned Admins** tab, select **Remove**, and then select the person you want to remove from the role. To confirm, select **Remove**.
 

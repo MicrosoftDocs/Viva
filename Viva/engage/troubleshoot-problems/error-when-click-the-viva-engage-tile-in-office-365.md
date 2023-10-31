@@ -26,13 +26,13 @@ To resolve this issue, the Viva Engage Service Principal must be enabled.
 
 Before you follow these steps, make sure that the following prerequisites are met:
 
-- Install the Azure Active Directory Module for Windows PowerShell. For more information, go to [Connect PowerShell to Office 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+- Install the Azure Active Directory module for Windows PowerShell. For more information, go to [Connect PowerShell to Office 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
 - You must be an Office 365 global admin to perform these steps.
 
 Follow these steps:
 
-1. Verify the Viva Engage Service Principal is currently disabled. To do this, open Azure Active Directory Module for Windows PowerShell, and then run the following cmdlets:
+1. Verify the Viva Engage Service Principal is currently disabled. To do this, open Azure Active Directory module for Windows PowerShell, and then run the following cmdlets:
 
    > [!NOTE]
    > Press Enter after you type each cmdlet. The response to the last cmdlet should be **False**.

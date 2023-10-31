@@ -2,8 +2,8 @@
 ms.date: 03/02/2023
 title: Manager effectiveness report
 description: Learn how the Manager effectiveness PowerBI template from Microsoft Viva Insights helps you gain insight into the collaboration habits and effectiveness of your people managers.
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

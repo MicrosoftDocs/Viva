@@ -20,11 +20,11 @@ After assigning licenses, you need to assign roles to the people who want to vie
 To assign roles:
 
 1. Sign in as a global admin to your tenant's [Microsoft 365 admin center](https://admin.microsoft.com/adminportal).
-2. In the left navigation, select **Roles**, and then select the **Azure AD** tab.
+2. In the left navigation, select **Roles**, and then select the **Microsoft Entra ID** tab.
 3. In the search field, enter **Viva Insights**.
 4. In the search results, select a role:
 
-   * **Insights Administrator** - Gets full access to the Viva Insights app and read access to Azure AD properties, monitors, service health, and managed service requests.
+   * **Insights Administrator** - Gets full access to the Viva Insights app and read access to Microsoft Entra properties, monitors, service health, and managed service requests.
    * **Insights Business Leader** - Gets read access to the Viva Insights app reports and data.
 
 5. Select **Assign admins**, and then select **+ Add**.
@@ -45,4 +45,3 @@ After assigning licenses, the data for Insights might take up to a week to proce
 
 * [Set up Viva Insights](setup.md)
 * [Assign admin roles to Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
-

@@ -31,7 +31,7 @@ Measure employee engagement and drive action with rich, data-driven workplace an
 ## Viva Insights: Get data-driven, actionable insights
 Viva Insights includes a Microsoft Teams app and a web app with features and tools that help people and businesses use data-driven, privacy-protected insights. The app in Microsoft Teams and on the web shows personalized recommendations that help employees, teams, managers, and business leaders do their best work for themselves and for their teams. Get insights for building better work habits such as following through on commitments, meeting insights and suggestions, and protecting focus time in the day for uninterrupted work.
 
-![Viva Insights page](media/viva-insights-screen.png)
+:::image type="content" alt-text="Example screenshot of the Viva Insights Home page." source="media/viva-insights-screen.png" lightbox="media/viva-insights-screen.png":::
 
 Insights are derived and summarized using the Microsoft 365 data you already have access to, such as emails, meetings, calls, and chats. Viva Insights complies with [data privacy](/viva/insights/advanced/privacy/privacy) applicable laws and regulations, and personal data is private unless a user chooses to share it.
 
@@ -47,7 +47,7 @@ Insights are derived and summarized using the Microsoft 365 data you already hav
 
 With Viva Pulse, managers and project leads can request ad-hoc feedback on topics to better understand their team’s needs and address them in the moment. Pre-populated, research-validated survey templates help zero in on important topics such as change management or work situations. Managers and leads can also customize templates to meet their unique team needs.
 
-![Viva Pulse Homepage](media/viva-pulse-homepage.png)
+:::image type="content" alt-text="Example screenshot of the Viva Pulse home page." source="media/viva-pulse-homepage.png" lightbox="media/viva-pulse-homepage.png":::
 
 **Get timely analysis**
 
@@ -66,9 +66,8 @@ Leads will receive suggested learning resources and suggested next steps based o
 ## Viva Glint: Understand the employee voice with organization-wide surveys
 Viva Glint provides a comprehensive approach to understanding employee voice and related signals such as social sentiment and collaboration patterns. With Viva Glint, you have the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions to improve engagement and business performance. Viva Glint helps connect the dots from insight to action and offer recommendations based on feedback from Viva Glint surveys.
 
-![Glint reporting](media/glint-reporting.png)
+:::image type="content" alt-text="Example screenshot of Reporting in Viva Glint." source="media/Glint-reporting.png" lightbox="media/Glint-reporting.png":::
 
-With Viva Glint, you have the platform to capture the broadest set of direct and indirect signals and leverage next-generation AI to recommend actions to improve engagement and business performance. Viva Glint helps connect the dots from insight to action and offer recommendations based on feedback from Viva Glint surveys.
 
 **How Viva Glint empowers leaders with insights to better understand and improve engagement**
 

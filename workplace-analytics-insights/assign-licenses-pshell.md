@@ -20,9 +20,9 @@ ms.subservice: viva-insights
 
 *This experience is only available through private preview.*
 
-You can assign licenses to people in your organization who subscribe to a Microsoft 365 or Office 365 E5 or E3 plan. To assign licenses with PowerShell, you first need to sign in as a global admin to Azure Active Directory (Azure AD).
+You can assign licenses to people in your organization who subscribe to a Microsoft 365 or Office 365 E5 or E3 plan. To assign licenses with PowerShell, you first need to sign in as a global admin to Microsoft Entra ID.
 
-Alternatively, you can [use the Microsoft admin center or Azure AD to assign licenses](assign-licenses.md).
+Alternatively, you can [use the Microsoft admin center or Microsoft Entra ID to assign licenses](assign-licenses.md).
 
 ## Assign licenses to individual users
 
@@ -54,7 +54,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
 1. To assign an insights license to a user:
 
-   With PowerShell open, start the Import Module, and sign in to Azure AD:
+   With PowerShell open, start the Import Module, and sign in to Microsoft Entra ID:
 
      ``` powershell
     Import-Module *AzureAD*
@@ -66,7 +66,7 @@ Confirm the prerequisites and then follow the steps to assign licenses with Azur
 
    Sign in with admin credentials:
 
-    ![Azure Active Directory login.](./images/azure-ad-log-in-1.png)
+    ![Microsoft Entra login.](./images/azure-ad-log-in-1.png)
 
 2. Run the following from the command line:
 
@@ -398,4 +398,3 @@ Confirm the correct file is specified when defining the `-CSV` and that the user
 
 * [Assign roles](assign-roles.md)
 * [Setup overview](./setup.md)
-

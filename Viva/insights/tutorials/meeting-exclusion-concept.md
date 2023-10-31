@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 11/07/2018
 title: Meeting exclusion rule concepts
 description: Describes concepts and tools for meeting exclusion rules, including a word cloud and a list of supported languages
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

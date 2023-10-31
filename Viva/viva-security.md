@@ -28,8 +28,8 @@ Microsoft Viva and the Viva apps work with and integrate into Microsoft 365. Thi
 
 Before setting up Microsoft Viva, consider the following security recommendations:
  
-- Protect data by implementing appropriate access controls and role-based access controls so only authorized users have access to certain data and features. Use Azure AD to handle user authentication and authorization. 
-- Provide another layer of security for users by setting up multi-factor authentication (MFA).
+- Protect data by implementing appropriate access controls and role-based access controls so only authorized users have access to certain data and features. Use Microsoft Entra ID to handle user authentication and authorization. 
+- Provide another layer of security for users by setting up multifactor authentication (MFA).
 - Make sure that you have a plan for incident response to tackle any security breaches that may occur.
 
 > [!NOTE]
@@ -41,6 +41,11 @@ Depending on which Viva app you’re using, you may inherit much of your securit
 
 ## Viva apps security options and controls
 In addition to the security capabilities available to Microsoft Viva through Microsoft 365, SharePoint, and Teams, each app has its own security controls and considerations.
+
+### Viva Amplify
+Viva Amplify uses SharePoint and Microsoft 365 roles to control access and security of your content. 
+
+For more information about security in Microsoft Amplify, see [Learn about roles and permissions in Viva Amplify](/viva/amplify/viva-amplify-roles).
 
 ### Viva Connections
  
@@ -56,7 +61,7 @@ When you’re setting up Viva Connections, be sure to [confirm who has access to
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
 ### Viva Engage
-Your organization's privacy and security settings from Microsoft Viva Engage are shared with Viva Engage. Because of this, you need a Viva Engage Enterprise license to set up and ensure Engage is secure and compliant. The admin tools help protect your Engage data and who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Azure AD.
+The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
 
 For more information about security in Viva Engage, see 
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
@@ -64,14 +69,14 @@ For more information about security in Viva Engage, see
 ### Viva Glint
 Microsoft Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. 
 
-This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory.
+This happens through the analysis of Microsoft 365 collaborative data and organizational (HR) data that you provide or that's used in Microsoft Entra ID.
 Because of the potential sensitivity about how data could be used, Viva Glint uses role-based access to control who has access. [Learn about assigning roles for viewing feedback in reporting.](https://go.microsoft.com/fwlink/?linkid=2230740)
 
 ### Viva Goals
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business. For information about security in Viva Goals, see [Viva Goals security, privacy, and compliance](goals/vg-privacy-and-security.md).
 
 ### Viva Insights
-Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Azure Active Directory. 
+Microsoft Viva Insights produces useful insights about how your organization and employees function by analyzing Microsoft 365 collaboration data and organizational (HR) data that you provide or that's used in Microsoft Entra ID. 
 
 Because of the potential sensitivity about how data could be used, Viva Insights uses role-based access to control who has access. 
 

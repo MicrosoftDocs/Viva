@@ -27,6 +27,8 @@ ms.collection:
 
 ### [Specific languages](viva-connections-language.md)
 
+### [Using Announcements](announcements-viva-connections.md)
+
 ### [Analytics](viva-connections-analytics.md)
 
 ### [Overview of Viva Connections for Education](overview-viva-connections-education.md)

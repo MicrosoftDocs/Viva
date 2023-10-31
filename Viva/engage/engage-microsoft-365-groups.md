@@ -37,7 +37,7 @@ Communities that are connected to Microsoft 365 have many advantages over commun
 - Create and host live events. ([Live events in Viva Engage](/viva/engage/manage-viva-engage-groups/live-events))
 - Use Microsoft 365 connectors to add apps to classic Viva Engage. ([Add apps to Viva Engage](https://support.office.com/article/Add-apps-to-viva-engage-bbb77f10-8779-4f3d-8096-db256f8653b8))
 - Manage who can create Microsoft 365 Groups. ([Manage who can create Groups](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618))
-- Use dynamic groups to automatically update group membership from Azure Active Directory. ([Create a dynamic group](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group))
+- Use dynamic groups to automatically update group membership from Microsoft Entra ID. ([Create a dynamic group](/viva/engage/manage-viva-engage-groups/create-a-dynamic-group))
 - Edit group membership from various apps. Changes to membership made in one Microsoft 365 app apply to other Microsoft 365 apps.
 - See the group in the Global Address List in Outlook.
 - Monitor group usage through the Microsoft 365 groups activity report. ([Microsoft 365 Groups activity report](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40))
@@ -162,7 +162,7 @@ A: No, this functionality will be added in later waves. However, for Viva Engage
   
 ### Q: Can I add external users to Viva Engage communities connected to Microsoft 365 Groups?
   
-A: No. This causes a sync failure because external users aren't managed by Azure AD.
+A: No. This causes a sync failure because external users aren't managed by Microsoft Entra ID.
   
 ### Q: How many members can my group have?
   
@@ -200,9 +200,11 @@ A: Yes. Any new community created in Viva Engage gets the added prefix and suffi
 
 Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage. Microsoft 365 admins can still create communities in Viva Engage.
 
-### Q: Can I use my Viva Engage communities connected to Microsoft 365 Groups with group-based licensing in Azure AD?
+<a name='q-can-i-use-my-viva-engage-communities-connected-to-microsoft-365-groups-with-group-based-licensing-in-azure-ad'></a>
 
-A: By default, Viva Engage communities connected to Microsoft 365 Groups aren't compatible with Azure AD Group Based Licensing because the groups aren't security enabled.
+### Q: Can I use my Viva Engage communities connected to Microsoft 365 Groups with group-based licensing in Microsoft Entra ID?
+
+A: By default, Viva Engage communities connected to Microsoft 365 Groups aren't compatible with Microsoft Entra group Based Licensing because the groups aren't security enabled.
 
 ## FAQ - Troubleshooting
 
