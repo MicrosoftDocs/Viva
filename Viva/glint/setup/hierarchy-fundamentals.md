@@ -33,7 +33,7 @@ A hierarchy filters down an employee's attributes into levels from highest to lo
 Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't have a manager associated with them is your organization's CEO or top-level person. 
 
 > [!IMPORTANT]
-> The Viva Glint label for your managerical hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager," this will result in file upload issues.
+> The Viva Glint label for your managerial hierarchy is "Manager." Ensure that no attributes in your employee data are also labeled "Manager." This will result in file upload issues.
 
 ### Example of setting up managerial hierarchy
 
