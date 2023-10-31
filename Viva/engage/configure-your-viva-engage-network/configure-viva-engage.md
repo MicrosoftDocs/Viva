@@ -60,6 +60,13 @@ To access the Yammer admin center:
 - From the **Configuration** page, use the **Email Settings** to require users to confirm before posting messages using email.
 For more information, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
 
+#### Turn private messages on or off
+If you want to limit private messaging capability, you can allow or disable private messages at any time. Turning the feature off removes all reference to private messages in the Engage Inbox and the Share menu on any conversation thread. 
+
+If you turn this feature off in an existing network, content remains ingested for eDiscovery and users will be able to navigate to old messages through notifications and search. Users will not be able to reply to old messages after the feature is turned off for the network. 
+
+On the Configuration page, in the Enabled Features section, select whether to disable private messages. 
+
 #### Restrict file upload permissions and file formats
 1. On the **Configuration** page, in the **File Upload Permissions** section, set which types of files can be uploaded.
 
