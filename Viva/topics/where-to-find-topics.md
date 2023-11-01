@@ -19,18 +19,18 @@ ms.collection:
   - m365initiative-viva-topics
   - Tier1
 ms.localizationpriority:  medium
-description: Learn about how Viva Topics integrate with other Microsoft 365 apps and about where topics are displayed to users.
+description: Learn about how Topics integrate with other Microsoft 365 apps and about where topics are displayed to users.
 ---
 
 # Where to find topics
 
-## Engage with Viva Topics in Microsoft apps
+## Engage with Topics in Microsoft apps
 
-Viva Topics are integrated throughout Microsoft 365 and other Viva apps.
+Topics are integrated throughout Microsoft 365 and other Viva apps.
 
-|  App  | Viva Topics features |
+|  App  | Topics features |
 |:-----|:-----|
-|[Microsoft 365 admin center](plan-topic-experiences.md)| Viva Topics settings for your organization. Viva Topics analytics and metrics.|
+|[Microsoft 365 admin center](plan-topic-experiences.md)| Topics settings for your organization. Topics analytics and metrics.|
 |[SharePoint](search.md)|Topics center, highlighted topics (automatic and user added), topic cards, topic pages, Topics web part can be used anywhere on a SharePoint Modern Site|
 |[Teams](https://support.microsoft.com/topic/how-to-find-viva-topics-4c6881d6-e73f-408d-91df-a3e2b93272f3 )|#Topics, Topic picker, Topic cards|
 |Outlook Preview and Web |#Topics, highlighted topics, topic cards, profile cards |
@@ -84,9 +84,9 @@ Users can choose whether to show or hide suggested topics on their profile card 
 
 Users can access Feed by opening a new tab in their Edge browser and looking for Microsoft Feed. Feed can also be viewed by going to Office.com and selecting the Feed icon on the left rail.
 
-When a SharePoint object that is already associated with a Topic is shown in Feed items, users will be shown a corresponding Topic pill. Note that only those SharePoint objects that are already associated with an existing Viva Topic are highlighted with a Topic Pill. The number of Topic pills that show up may vary depending on how many qualifying SharePoint objects are present in a user's Feed.
+When a SharePoint object that is already associated with a Topic is shown in Feed items, users will be shown a corresponding Topic pill. Note that only those SharePoint objects that are already associated with an existing Topic are highlighted with a Topic Pill. The number of Topic pills that show up may vary depending on how many qualifying SharePoint objects are present in a user's Feed.
 
-Viva Topics pills can be seen in the feed by Microsoft 365 users who have active Viva Topics licenses. Feed relies on the same access control mechanisms as Topics, and users are only shown Topic pills that they have permission to access. Users with active licenses may not see any Topic pills in their feed if none of the SharePoint objects in their feed are already associated with Topics.
+Topics pills can be seen in the feed by Microsoft 365 users who have active Topics licenses. Feed relies on the same access control mechanisms as Topics, and users are only shown Topic pills that they have permission to access. Users with active licenses may not see any Topic pills in their feed if none of the SharePoint objects in their feed are already associated with Topics.
 
 ### Topic center
 

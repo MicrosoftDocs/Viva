@@ -62,7 +62,7 @@ First, you'll need to choose your license type.
 
 |Viva Suite |Viva Learning |Microsoft 365 |
 |:-------------------|:-------------|:--------|
-|Empower people and teams to be their best from anywhere with the full employee experience suite, including Viva Learning, Viva Insights, and Viva Topics. | A Viva Learning license allows you to use all Viva Learning features, including integration with third-party content providers. |Basic Viva Learning features are included with your Microsoft 365 and Office 365 plans for enterprise. |
+|Empower people and teams to be their best from anywhere with the full employee experience suite. | A Viva Learning license allows you to use all Viva Learning features, including integration with third-party content providers. |Basic Viva Learning features are included with your Microsoft 365 and Office 365 plans for enterprise. |
 
 [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning?activetab=pivot:overviewtab&rtc=1#office-SKUChooser-wdv2jeb)
 
