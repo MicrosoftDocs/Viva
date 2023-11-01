@@ -150,7 +150,7 @@
         items:   
         - name: Set up Answers in Viva Engage
           href: eac-answers-overview-set-up.md
-        - name: Scenarios for Answers in Viva Engage
+        - name: Admin scenarios for Answers in Viva Engage
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md

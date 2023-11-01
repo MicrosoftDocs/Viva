@@ -31,7 +31,7 @@ Composing messages with rich text formatting is only available on the web client
 
 ## How do I know if we have rich text available?
 
-If your organization has received this feature, when you post a new message, you'll find a menu at the bottom of your message with formatting options. If you don't have this feature, the area at the bottom of the message appears blank.
+If your organization has received this feature, when you post a new message, you'll find a menu at the bottom of your message with formatting options. If you don't have this feature, the area at the bottom of the message is blank.
 
 ## Implications for export
 
