@@ -1,6 +1,6 @@
 ---
 ms.date: 10/31/2023
-title: Usage and engagement metrics in Viva Topics
+title: Usage and engagement metrics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -10,16 +10,16 @@ ms.topic: article
 ms.service: viva
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Learn about usage and engagement trends in Microsoft Viva Topics.
+description: Learn about usage and engagement trends in Topics.
 ROBOTS: NOINDEX,NOFOLLOW
 ---
 
-# Usage and engagement metrics in Viva Topics
+# Usage and engagement metrics in Topics
 
 >[!NOTE]
 >Usage and engagement metrics are currently only available to users in the Early Adopter Program.
 
-Usage and engagement metrics demonstrate how users are engaging with Viva Topics in your organization.
+Usage and engagement metrics demonstrate how users are engaging with Topics in your organization.
 
 To access usage and engagement metrics:
 
