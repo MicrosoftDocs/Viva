@@ -33,7 +33,7 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 > [!TIP]
 > Inform survey takers if this short instance of downtime will occur during their survey-taking window. In most cases, platform downtime will be less than twelve hours.
 
-## Alert your people to impending platform shutdowns using thewse release dates
+## Alert your people to impending platform shutdowns using these release dates
 
 | Release number   | 2023 Release Date*   |
 | :--------------- | :------------------- | 
