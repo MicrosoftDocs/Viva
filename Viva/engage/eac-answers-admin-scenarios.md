@@ -51,25 +51,25 @@ The following table shows the actions available to users and admins.
 ### Provide guidance using the information panel
 As an Answers admin, Engage admin, or global admin, use the information panel to provide guidance to employees on how to use Answers in your organization. The information panel is only visible to administrators in its default state. After an admin saves and publishes the information panel, all other employees with access to Answers can see the information panel.
 
-**Admin view**
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
+**Admin view**<br/>
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
 
-**End user view**
-:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
+**End user view**<br/>
+:::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Edit the information panel
 1. Select the edit icon from the top left corner of the information panel.
 1. Enter the content specific to your organization.
 1. Select **Save and publish** to allow all Answers users access to the information panel content.
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of the info panel editing options.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin2.png" lightbox="../media/engage/admin/ans-info-pan-admin2.png" alt-text="Screenshot of the info panel editing options.":::
 
 ### Reset the information panel  
 
 1. Select the edit icon from the top left corner of the information panel.
 1. Select **Reset** from the bottom-left corner.  
 
-:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::
+:::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the info panel reset option.":::
 
 ## Manage topics in Answers
 
