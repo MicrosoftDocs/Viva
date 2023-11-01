@@ -77,6 +77,8 @@ items:
       - name: Viva Glint program features and settings
         href: setup/platform-features-settings.md
         items:
+          - name: Plan ahead for scheduled monthly maintenance shutdowns
+            href: setup/release-dates.md
           - name: Admin management of the General Settings feature in Viva Glint
             href: setup/manage-general-settings.md
           - name: Set up Viva Glint User Roles
