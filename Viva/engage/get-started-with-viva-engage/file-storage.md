@@ -33,7 +33,7 @@ For information about using Viva Engage files stored in SharePoint, see the foll
 
 For network and tenant administrators:
 
-- SharePoint has a rich set of security and compliance features that apply to files uploaded in Viva Engage for Office 365 connected Viva Engage groups, including eDiscovery, data loss protection, and in-geo residence for files at rest.  
+- SharePoint has a rich set of security and compliance features that apply to files uploaded in Viva Engage for Microsoft 365 connected Viva Engage groups, including eDiscovery, data loss protection, and in-geo residence for files at rest.  
 
 For end users:
   
@@ -41,7 +41,7 @@ For end users:
 
 - Greater discoverability and easier access through Microsoft search.
 
-    Users with appropriate permissions can find and access the files through Viva Engage, SharePoint, and other Microsoft 365 and Office 365 resources by using browse or search in SharePoint and Delve.  
+    Users with appropriate permissions can find and access the files through Viva Engage, SharePoint, and other Microsoft 365 resources by using browse or search in SharePoint and Delve.  
 
 - Offline access to files by syncing a SharePoint folders to a folder on their computer.  
 
@@ -62,7 +62,7 @@ Files continue to be stored in Viva Engage cloud storage in the following instan
 
 - If the Viva Engage network doesn't use Microsoft 365 connected groups. This includes:
 
-  - Office 365 tenants that have more than one Viva Engage network  
+  - Microsoft 365 tenants that have more than one Viva Engage network  
   
   - Viva Engage networks that don't enforce Office 365 identity  
 
@@ -108,7 +108,7 @@ The following table shows how each type of guest can access files uploaded in Vi
 > [!NOTE]
 > Membership in the group for guests in Microsoft Entra ID and Viva Engage are completely separate. Deleting a network-level guest from a Microsoft 365 connected Viva Engage group or from the tenant in Microsoft Entra ID doesn't remove the user in Viva Engage, and deleting a user from Viva Engage doesn't delete the user from a Microsoft 365 group or Microsoft Entra ID.
 
-For more information about Azure B2B guests, see [Guest access in a Microsoft Entra B2B](/azure/active-directory/b2b/what-is-b2b).
+For more information about Microsoft Entra B2B guests, see [Guest access in a Microsoft Entra B2B](/azure/active-directory/b2b/what-is-b2b).
 
 ## Requirements
 
@@ -124,16 +124,16 @@ For more information about Azure B2B guests, see [Guest access in a Microsoft En
 
 - Cookie and browser requirements
 
-    To store Viva Engage files in SharePoint, we use the ADAL library and use Azure Directory (Microsoft Entra ID) tokens for authentication. If browsers don’t have third-party cookies enabled or if the security zone settings are incorrect in Internet Explorer 11 or Edge, the ADAL library used to refresh Microsoft Entra tokens can't send information needed to Microsoft Entra ID.
+    To store Viva Engage files in SharePoint, we use the ADAL library and use Microsoft Entra ID tokens for authentication. If browsers don’t have third-party cookies enabled or if the security zone settings are incorrect in Internet Explorer 11 or Edge, the ADAL library used to refresh Microsoft Entra tokens can't send information needed to Microsoft Entra ID.
 
     > [!NOTE]
-    > Microsoft 365 apps and services will not support Internet Explorer 11 starting August 17, 2021 (Microsoft Teams will not support Internet Explorer 11 earlier, starting November 30, 2020.) [Learn more](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666). Note that Internet Explorer 11 will remain a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
+    > Microsoft 365 apps and services doesn't support Internet Explorer 11 as of August 17, 2021. (Microsoft Teams doesn't support Internet Explorer 11 earlier, as of November 30, 2020.) [Learn more](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666). Note that Internet Explorer 11 remains a supported browser. Internet Explorer 11 is a component of the Windows operating system and [follows the lifecycle policy](/lifecycle/faq/internet-explorer-microsoft-edge) for the product on which it is installed.
 
     When a token refresh call fails, users will see:
 
-    - On the Viva Engage page for a connected group, Microsoft 365 Office 365 Resources will be grayed out.
+    - On the Viva Engage page for a connected group, Microsoft 365 Resources are dimmed
 
-    - File operations will fail.
+    - File operations fail
 
     - Viva Engage live events can't be created.
 
@@ -141,7 +141,7 @@ For more information about Azure B2B guests, see [Guest access in a Microsoft En
 
     To avoid problems:
 
-    - Ensure there aren’t any extensions that block or prevent reading of cookies, such as Ghostery.
+    - Ensure that no extensions (such as Ghostery) block or prevent reading of cookies.
 
     - In Internet Explorer 11 or Microsoft Edge, ensure protected mode is disabled for the trusted zone.
 
@@ -149,4 +149,4 @@ For more information about Azure B2B guests, see [Guest access in a Microsoft En
 
     - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, additional effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
 
-    - Users shouldn’t access Viva Engage by using incognito or InPrivate mode or equivalent modes in other browsers.
+    - Users shouldn’t access Viva Engage using incognito or InPrivate mode or equivalent modes in other browsers.
