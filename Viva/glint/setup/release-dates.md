@@ -20,7 +20,7 @@ ms.date: 11/1/2023
 
 # Plan ahead for scheduled monthly Viva Glint maintenance shutodwns
 
-Microsoft Viva Glint is committed to consistently improving their customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements and new features. Release notes provide details coming to the Glint platform. Planned release dates are provided in the table below. The release schedule is subject to change and will be updated, as appropriate.
+Microsoft Viva Glint is committed to consistently improving their customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements and new features. Release notes provide details coming to the Viva Glint platform. The release schedule is subject to change and are updated, as appropriate.
 
 > [!IMPORTANT]
 > Be mindful of scheduled dates when your Viva Glint platform will be down for maintenance and feature enhancements. Any time a person logs into a Glint and a scheduled maintenance instance is impending within 2-3 days, a message alerting the user to the scheduled shutdown will appear.
@@ -33,7 +33,7 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 > [!TIP]
 > Inform survey takers if this short instance of downtime will occur during their survey-taking window. In most cases, platform downtime will be less than twelve hours.
 
-## Alert your people to impending platform shutdowns
+## Alert your people to impending platform shutdowns using thewse release dates
 
 | Release number   | 2023 Release Date*   |
 | :--------------- | :------------------- | 
@@ -45,4 +45,4 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 |69                | March 2              |
 |70                | March 30             |
 
-*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Schedule updates will be provided as appropriate.
+*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Schedule updates are provided as appropriate.
