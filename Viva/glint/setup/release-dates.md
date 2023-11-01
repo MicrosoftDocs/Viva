@@ -27,7 +27,9 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 
 ## How a scheduled maintenance alert message displays on your platform
 
-:::image type="content" source="../../media/glint/setup/viva-glint-alert.pdf" alt-text="Screenshot of alert warning of scheduled platform downtime.":::
+:::image type="content" source="../media/glint/setup/viva-glint-alert.pdf" alt-text="Screenshot of alert warning of scheduled platform downtime.":::
+
+:::image type="content" source="<folderPath>" alt-text="<alt text>":::
 
 > [!TIP]
 > Inform survey takers if this short instance of downtime will occur during their survey-taking window. In most cases, platform downtime will be less than twelve hours.
@@ -39,7 +41,6 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 | 65               | October 28           | 
 | 66               | December 9           |
 |                  | 2024 Release Date*   |
-|                  |:-------------------- |
 |67                | January 13           |
 |68                | February 3           |
 |69                | March 2              |
