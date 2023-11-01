@@ -1,5 +1,5 @@
 ---
-title: "Scenarios for Answers in Viva Engage"
+title: "Administator scenarios for Answers in Viva Engage"
 description: "Describes administration of Answers in Viva Engage for the Microsoft 365 Global admin, Engage admin, and Answers admin."
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Scenarios for Answers in Viva Engage
+# Administrator scenarios for Answers in Viva Engage
 
 Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the new role of *Answers admin*. The new role of Answers admin is designated by [adding Knowledge Managers in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Viva Topics management and Answers administration, you can assign the same users that manage Viva Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
