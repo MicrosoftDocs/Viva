@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 11/1/2023
 ---
 
-# Plan ahead for scheduled monthly Viva Glint maintenance shutodwns
+# Plan ahead for scheduled monthly Viva Glint maintenance shutdowns
 
 Microsoft Viva Glint is committed to consistently improving their customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements and new features. Release notes provide details coming to the Viva Glint platform. The release schedule is subject to change and are updated, as appropriate.
 
