@@ -80,13 +80,15 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 > [!NOTE]
 > The **Feature a topic** button is only visible to the Answers admin or global admin.  
 
-[![Screenshot of the Discover more Topics interface in Viva Engage.](/viva/media/engage/admin/feature-a-topic.png)](/viva/media/engage/admin/feature-a-topic.png#lightbox)
+:::image type="content" alt-text="Screenshot of the Discover more Topics interface in Viva Engage." source="/viva/media/engage/admin/feature-a-topic.png" lightbox="/viva/media/engage/admin/feature-a-topic.png":::
 
 1. When you start to type the topic you want to feature, existing Topics appear, and you can choose one to feature.  
-[![Screenshot  of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/type-topic.png)](/viva/media/engage/admin/type-topic.png#lightbox)
+
+   :::image type="content" alt-text="Screenshot  of the editable summary for your topic in Viva Engage." source="/viva/media/engage/admin/type-topic.png" lightbox="/viva/media/engage/admin/type-topic.png":::
+
 2. After you select a topic to feature, you can edit the summary field that will be displayed as the short description of that topic in Answers. The summary helps people understand the topic and whether it’s the appropriate topic to attach to their questions.
 
-[![Screenshot of the editable summary for your topic in Viva Engage.](/viva/media/engage/admin/edit-topic-summary.png)](/viva/media/engage/admin/edit-topic-summary.png#lightbox)
+   :::image type="content" alt-text="Screenshot of the editable summary for your topic in Viva Engage." source="/viva/media/engage/admin/edit-topic-summary.png" lightbox="/viva/media/engage/admin/edit-topic-summary.png":::
 
 >[!NOTE]
 > The title and summary of all Topics featured in Answers are visible to all licensed users who have access to Answers.
@@ -95,14 +97,15 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 
 To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review. Select **Review** on a topic to check and edit the summary.
 
-[![Screenshot of the topics that need review in Answers in Viva.](/viva/media/engage/admin/needs-review-topic.png)](/viva/media/engage/admin/needs-review-topic.png#lightbox)
+:::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
 
 You have options to feature or ignore the topic, which removes it from the **Review** tab:  
 
 - **Ignore**: When you ignore a topic, it remains visible with the questions that it's been used with. But it won't get featured, which makes topics more prominent in the publisher’s topic picker.  
 - **Feature**: When topics are featured, they no longer appear in the **Needs Review** tab.
 
-[![Screenshot of the interface for reviewing a topic in Answers in Viva.](/viva/media/engage/admin/feature-reviewed-topic.png)](/viva/media/engage/admin/feature-reviewed-topic.png#lightbox)
+:::image type="content" alt-text="Screenshot of the interface for reviewing a topic in Answers in Viva." source="/viva/media/engage/admin/feature-reviewed-topic.png" lightbox="/viva/media/engage/admin/feature-reviewed-topic.png":::
+
 
 **Remove topics in Answers**
 
@@ -111,11 +114,13 @@ To remove a topic in Answers, Answers admins (knowledge managers) follow these s
 1. Go to the browse topics page in Answers.
 2. Select the ellipsis button on a topic, which prompts you to remove the topic in Answers.
 
-   [![Screenshot of the Remove a topic button that admins see in the topic browse page in Answers in Viva.](/viva/media/engage/admin/remove-topic-hover.png)](/viva/media/engage/admin/remove-topic-hover.png#lightbox)
+   :::image type="content" alt-text="Screenshot of the Remove a topic button that admins see in the topic browse page in Answers in Viva." source="/viva/media/engage/admin/remove-topic-hover.png" lightbox="/viva/media/engage/admin/remove-topic-hover.png":::
+
 
 3. When a topic is removed, it disappears from Answers and is no longer associated with any questions where it was previously used.
 
-   [![Screenshot of the interface and confirmation screen to remove a topic in Answers in Viva.](/viva/media/engage/admin/confirm-remove-topic.png)](/viva/media/engage/admin/confirm-remove-topic.png#lightbox)
+   :::image type="content" alt-text="Screenshot of the interface and confirmation screen to remove a topic in Answers in Viva." source="/viva/media/engage/admin/confirm-remove-topic.png" lightbox="/viva/media/engage/admin/confirm-remove-topic.png":::
+
 
 >[!NOTE]
 > After a topic is removed in Answers, you can still see the topic in the topic center. To remove the topic entirely, you must delete it directly in the topic center.
@@ -128,7 +133,8 @@ As an Answers admin, you can access Global Answers analytics:
 
 For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
-[![Screenshot of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)](/viva/media/engage/admin/global-answers-analytics.png#lightbox)
+:::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
+
 
 The following metrics are available for Global Answers analytics:
 
