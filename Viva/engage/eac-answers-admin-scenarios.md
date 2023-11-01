@@ -131,7 +131,8 @@ For more details about how to manage analytics in the [Viva Engage admin center]
 [![Screenshot of the Global Answers analytics dashboard in Viva Engage.](/viva/media/engage/admin/global-answers-analytics.png)](/viva/media/engage/admin/global-answers-analytics.png#lightbox)
 
 The following metrics are available for Global Answers analytics:
-|  |  |
+
+| Metric | Description |
 |---|---------|
 |**Total time saved for your organization**|Time the organization has saved based on question-and-answer usage|
 |**Total questions**|Number of questions asked by users|
