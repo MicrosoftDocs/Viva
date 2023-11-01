@@ -27,7 +27,7 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 
 ## How a scheduled maintenance alert message displays on your platform
 
-:::image type="content" source="../../media/glint/setup/viva-glint-alert.pdf" alt-text="Screenshot of alert warning of scheduled platform downtime.":::
+:::image type="content" source="../../media/glint/setup/viva-glint-alert.png" alt-text="Screenshot of alert warning of scheduled platform downtime.":::
 
 
 > [!TIP]
