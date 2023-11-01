@@ -1,6 +1,6 @@
 ---
 title: Plan ahead for scheduled monthly Viva Glint maintenance shutdowns
-description: The Viva Glint platforms shuts down approximately once each month for scheduled product enhancements and mainteance. An alert appears on the platform 48-72 hours prior.
+description: The Viva Glint platform shuts down approximately once each month for scheduled product enhancements and maintenance. An alert appears on the platform 48-72 hours prior.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: melissabarry
@@ -45,4 +45,4 @@ Microsoft Viva Glint is committed to consistently improving their customer exper
 |69                | March 2              |
 |70                | March 30             |
 
-*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Schedule updates are provided as appropriate.
+*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates might change due to unforeseen circumstances. Schedule updates are provided as appropriate.
