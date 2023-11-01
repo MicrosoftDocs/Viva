@@ -26,7 +26,7 @@ Any Microsoft 365 user who isn't part of your organization can be added as a gue
 
 ## Prerequisites for adding an external user as a Microsoft Entra B2B guest to a Viva Engage community
 
-Align your Viva Engage network to native mode before inviting an external user as an Microsoft Entra B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint.
+Align your Viva Engage network to native mode before inviting an external user as a Microsoft Entra B2B guest to a Viva Engage community. Inviting a guest requires that you configure settings in Viva Engage and other Microsoft 365 services, including settings in Microsoft Entra ID, Microsoft 365 Groups, and SharePoint.
 
 If your organization is ready to start inviting guests to Viva Engage communities, then configure the following settings.
 
@@ -64,7 +64,7 @@ To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, 
 
 5. Everyone in the Viva Engage community can identify easily who is a guest. An External badge appears next to the guest in Viva Engage community posts, comments, community membership page, and search results. The Viva Engage community with guests has a Globe icon next to it.
 
-    :::image type="content" source="../../media/yammer-aad-b2b-externaluser-post.png" alt-text="Screenshot showing a post from an guest.":::
+    :::image type="content" source="../../media/yammer-aad-b2b-externaluser-post.png" alt-text="Screenshot showing a post from a guest.":::
 
     The Viva Engage community with guests has a Globe icon next to it.
 
