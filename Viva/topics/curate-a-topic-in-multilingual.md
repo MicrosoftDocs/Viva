@@ -1,6 +1,6 @@
 ---
 ms.date: 09/12/2023
-title: Curate Multilingual topics in Microsoft Viva Topics
+title: Curate Multilingual topics in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -15,15 +15,15 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150   
 ms.localizationpriority:  medium
-description: Learn how to curate topics in multiple languages using the Multilingual feature in Microsoft Viva Topics.
+description: Learn how to curate topics in multiple languages using the Multilingual feature in Topics.
 ---
 
-# Curate Multilingual topics in Microsoft Viva Topics
+# Curate Multilingual topics in Topics
 
-The Multilingual feature in Viva Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
+The Multilingual feature in Topics allows you to curate and edit a topic page in English, French, German, and Spanish.
 
 > [!NOTE]
-> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Viva Topics.
+> A topic page must be created and curated in the tenant's default language before it can be curated to a different language using the Multilingual feature in Topics.
 
 ## Curate Multilingual content into a topic page
 
@@ -76,7 +76,7 @@ To view a published Multilingual topic page, select a language option on the upp
 
 ## Language settings
 
-Viva Topics honors users' language preference language setting from their account profile to present topics metadata. For example, if a user's preferred language is Spanish, Spanish metadata will be presented on topic card, topic picker, topic answer and other topics experiences if available, or tenant default language (mostly in English) metadata will be presented.
+Topics honors users' language preference language setting from their account profile to present topics metadata. For example, if a user's preferred language is Spanish, Spanish metadata will be presented on topic card, topic picker, topic answer and other topics experiences if available, or tenant default language (mostly in English) metadata will be presented.
 
 Languages can be changed or updated through settings in the apps.
 

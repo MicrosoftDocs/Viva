@@ -123,8 +123,4 @@ Use Viva Learning to train your employees on all of the great tools you've rolle
 
 You can find additional resources such as email templates, how to build Viva champions, training resources and more at [Microsoft Viva – Microsoft Adoption](https://adoption.microsoft.com/viva/).
 
-For Viva Topics, learn how to [Get started driving adoption of Microsoft Viva Topics](/viva/topics/topics-adoption-getstarted).
-
-
-
 **Next:** check out the [Employee onboarding and changing roles](/Viva/solutions/viva-onboarding-changing-roles) key scenario.
