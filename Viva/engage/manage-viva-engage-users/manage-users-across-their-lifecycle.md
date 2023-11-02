@@ -168,7 +168,7 @@ User profiles that they see in Viva Engage are their Microsoft 365 profile, if t
     
    :::image type="content" source="../../media/yammer-identity-user-profile.png" alt-text=" Screenshot of the Microsoft 365 profile picture.":::
   
-    **My account** displays a user's account information for Microsoft 365. If the organization allows editing personal information, then users can select **Personal Info**, and add the information they want. If the organization doesn’t allow editing, then the settings won't be editable and users see a ****Why can’t I edit** link they can select for more information.
+    **My account** displays a user's account information for Microsoft 365. If the organization allows editing personal information, then users can select **Personal Info**, and add the information they want. If the organization doesn’t allow editing, then the settings won't be editable and users see a **Why can’t I edit** link they can select for more information.
 
     User photos are synced from Microsoft. To prepare for this change, make sure your organization’s photos can be found in any one of the following places:
 
