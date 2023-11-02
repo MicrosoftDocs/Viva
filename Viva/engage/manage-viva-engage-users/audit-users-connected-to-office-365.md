@@ -106,7 +106,7 @@ Before you can run the audit script, you create an input file that contains the 
     
     Example usage:
     
-	```
+	```powershell
 	UserMatchToAzureAD.ps1 -InputFile .\Users.csv -OutputFile .\Results.csv
 	```
                                                                           
