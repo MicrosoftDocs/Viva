@@ -48,7 +48,7 @@ Following are some example Windows PowerShell script snippets you can use to man
 
 - The following example unassigns the Viva Engage Core license from the *litwareinc:ENTERPRISEPACK* (Microsoft 365 Enterprise) to the user *belindan\@litwareinc\.com*.
 
-  ```
+  ```powershell
   $UPN = "belindan@litwareinc.com"
   $LicenseDetails = (Get-MsolUser -UserPrincipalName $UPN).Licenses
   ForEach ($License in $LicenseDetails) {
@@ -64,19 +64,19 @@ Following are some example Windows PowerShell script snippets you can use to man
 
 - To enable Viva Engage Core for a user without affecting anything else in their license, you can run the previous script but change
     
-  ```
+  ```powershell
   If ($_.ProvisioningStatus -eq "Disabled" -or $_.ServicePlan.ServiceName -like "*VIVAENGAGE_CORE*") { $DisabledOptions += "$($_.ServicePlan.ServiceName)" }
   ```
 
     to
     
-  ```
+  ```powershell
   If ($_.ProvisioningStatus -eq "Disabled" -and $_.ServicePlan.ServiceName -notlike "*VIVAENGAGE_CORE*") { $DisabledOptions += "$($_.ServicePlan.ServiceName)" }
   ```
 
 - The following example returns information about any users who aren't currently licensed for Microsoft 365.
     
-  ```
+  ```powershell
   Get-MsolUser -All -UnlicensedUsersOnly
   ```
 
