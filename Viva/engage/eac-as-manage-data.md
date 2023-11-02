@@ -4,8 +4,8 @@ description: "Describes where and how admins can manage data in the Viva Engage 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 05/19/2023
+manager: pamgreen
+ms.date: 11/02/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,7 +24,7 @@ search.appverid:
 
 ## Export Data
 
-As an Engage admin, you need to export data to manage users and content. This article explains the different options you have to manage usage, compliance, and discovery.
+As an Engage administrator, you need to export data in order to manage users and content. This article explains the different options available for managing usage, compliance, and discovery.
 
 >[!NOTE]
 >To migrate data between Viva Engage tenants, [learn about migrating content](/viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365).
@@ -37,8 +37,6 @@ As an Engage admin, you need to export data to manage users and content. This ar
 |  [**Automate data exports**](#automate-your-data-exports) | Automate recurring exports for compliance through the Data Export API. |
 |  [**Export Engage files with the API**](#export-large-file-volumes-with-the-api) |  When exporting large volumes of files, use the API. You can specify a date range and include files from external networks. This method is best for archiving data. |
 
-<br>
-<br>
 
 ## Access the Data Export options
 
@@ -68,10 +66,10 @@ The data export contains the following files:
    |---|---|
    | **log.txt** | Summary of the export |
    | **request.txt** | Parameters of the export |
-   | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Key admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
+   | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
    | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
-   | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+   | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name, and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
 This data export doesn't include:
@@ -87,11 +85,9 @@ This data export doesn't include:
 - Followed or following users, or followed articles
 - File attachments stored in SharePoint
 
-<br>
-
 ## Export tenant data by date range
 
-1. On the Data export page, select **Export tenant data.**
+1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
 
    :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
@@ -113,9 +109,9 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
-| **Files.csv** | A list of file attachments that were added or modified within the date range. Files.csv doesn’t contain actual files. **Properties include:** account ID, type of file, name, description, and path to the file, and metadata that includes the group it was posted in. <br> <br>If **Include attachments** was selected, only files stored in Viva Engage are exported in native format to the **Files** folder of the zip file. <br> <br>**Note**: To download files from SharePoint, use the **download_url** column. <br>If SharePoint files have no Microsoft Entra tokens, you must [create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, use [Content Search in Office 365](/office365/securitycompliance/content-search) to find files in SharePoint for the specified date range. <br>To identify files in the **Files** folder, use **file_ID** and **path** columns. To access a specific file, see [Find and delete specific messages or files](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). <br> <br>**Important:** When files are stored on Viva Engage and SharePoint, delete them from Viva Engage to remove metadata from both locations.    |
+| **Files.csv** | A list of file attachments that were added or modified within the date range. Files.csv doesn’t contain actual files. **Properties include:** account ID, type of file, name, description, and path to the file, and metadata that includes the group it was posted in. <br> <br>If **Include attachments** was selected, only files stored in Viva Engage are exported in native format to the **Files** folder of the zip file. <br> <br>**Note**: To download files from SharePoint, use the **download_url** column. <br>If SharePoint files have no Microsoft Entra tokens, you must [create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, use [Content search in Microsoft 365](/purview/ediscovery-content-search) to find files in SharePoint for the specified date range. <br>To identify files in the **Files** folder, use **file_ID** and **path** columns. <br> <br>**Important:** When files are stored on Viva Engage and SharePoint, delete them from Viva Engage to remove metadata from both locations.    |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
-| **Messages.csv** | All messages sent or modified during the specified date range. **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, and creation and deletion information. <br>See [Find specific Viva Engage messages or files](/yammer/manage-security-and-compliance/export-yammer-enterprise-data). |
+| **Messages.csv** | All messages sent or modified during the specified date range. **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, and creation and deletion information. |
 | **MessageThreadsOutbound.csv** | Includes IDs of external participants in outbound messages. |
 | **MessageVersions.csv** | Includes IDs and modification information for messages that have been edited. |
 | **Networks.csv** | Lists your home network and all external networks included in the export. |
@@ -139,8 +135,6 @@ This data export doesn't include:
 - Group membership
 - Followed or following users, or followed topics
 - File attachments stored in SharePoint<br>
-
-<br>
 
 ## Export data for one user
 
