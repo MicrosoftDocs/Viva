@@ -38,7 +38,7 @@ Assign and remove the Viva Engage Core license for users the same way you assign
   
 - Sign in to Microsoft 365 Enterprise, and go to the Microsoft 365 admin center. On the **Users** \> **Active Users** page, assign or remove the Viva Engage Core license.
 
-For more information, see [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user?view=o365-worldwide&redirectSourcePath=%252farticle%252f9b497c85-d0a4-4735-80fa-d3565bc05bd1).
+For more information, see [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user).
   
 ## Manage Viva Engage Core licenses through Windows PowerShell
 
