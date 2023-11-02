@@ -1,9 +1,9 @@
 ---
 title: Communicate with Viva Glint Nudges
 description: "Nudges are personalized email notifications designed to meet managers where they are in their flow of work. Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: Judithweiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -33,6 +33,9 @@ Recurring communications keep employees on track over time. Managers receive uni
 Notifications that survey results are ready for viewing aren't sent to managers of small teams or to managers who didn’t receive enough feedback to meet confidentiality thresholds. 
 
 If a user is in multiple recipient groups, they may receive emails from either group depending on the cadence of each group and its next send date. Users are guaranteed to never receive more than one email per week. 
+
+> [!NOTE]
+> Nudge communications may not all send exactly between the two hour window specified during platform configuration. The total email send time is dependent upon the number of communications being sent.
 
 ## Understand Nudge terminology
 
