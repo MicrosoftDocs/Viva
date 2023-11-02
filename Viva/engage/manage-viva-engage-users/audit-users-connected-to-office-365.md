@@ -124,4 +124,4 @@ Param(
     
 2. After you have completed these operations, we recommend that you run these steps again from the start to confirm all the users are now found in Microsoft Entra ID.
     
-If you're enforcing Microsoft 365 identity, after a full audit consider signing off all current users to ensure that everyone now signs in with their Microsoft 365 credentials, and not using cached credentials. If you choose to do this, make sure to communicate to your users first. More information in [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
+After a full audit, if you're enforcing Microsoft 365 identity, consider signing off all current users to ensure that everyone now signs in with their Microsoft 365 credentials, and not using cached credentials. If you choose to do this, make sure to communicate to your users first. More information in [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
