@@ -39,7 +39,7 @@ If a user is in multiple recipient groups, they may receive emails from either g
 
 ## Understand Nudge terminology
 
-| **Term** | **Definition** | 
+| Term | Definition | 
 |---|---|
 | **Recipient group** | Defines who receives Nudges and at what frequency |
 | **Teammates** | This term has a different meaning dependent upon the employee role:<br>- Individual contributors: Managers + peers <br>- First-line manager: Manager + directs <br>- Manager of Mangers: Manager + direct |
