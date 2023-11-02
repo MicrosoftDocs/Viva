@@ -30,7 +30,7 @@ Microsoft Intune provides mobile application management (MAM) capabilities for V
   
 This feature is especially helpful for organizations where devices and apps are used for both work and personal use and the device is not enrolled in MDM. When using Viva Engage with Intune, you can set up policies that apply to the Viva Engage app on Android and iOS devices to help protect your corporate data. For example, you can do the following:
   
-|**Intune policy you can enforce on the app**|**Available for Android?**|**Available for iOS?**|
+| Intune policy you can enforce on the app | Available for Android? | Available for iOS? |
 |:-----|:-----|:-----|
 |Allow apps to transfer data to other apps.  <br/> |Yes  <br/> |Yes  <br/> |
 |Allow apps to receive data from other apps.  <br/> |Yes  <br/> |Yes  <br/> |
