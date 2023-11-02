@@ -48,9 +48,9 @@ The following table compares the user sign-in behavior when Microsoft 365 identi
   
 | Is Microsoft 365 identity enforced? | Is there an Office 365 account for that user's email address? | What happens when the user logs in: |
 |:-----|:-----|:-----|
-|Yes  <br/> |Yes  <br/> |The user is prompted to sign in with their Microsoft 365 identity.  <br/> |
-|No  <br/> |Yes  <br/> |The user is prompted to sign in with their Microsoft 365 identity.  <br/> |
-|No  <br/> |No  <br/> |The user is prompted to sign in with their Viva Engage identity (email and password).  <br/> |
+|Yes  |Yes  |The user is prompted to sign in with their Microsoft 365 identity.  |
+|No  |Yes  |The user is prompted to sign in with their Microsoft 365 identity.  |
+|No  |No  |The user is prompted to sign in with their Viva Engage identity (email and password).  |
    
 <a name="StartEnforcing"> </a>
 ## Start enforcing Microsoft 365 identity in Viva Engage
