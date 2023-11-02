@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89 
 manager: pamgreen
-ms.date: 7/10/2023
+ms.date: 11/1/2023
 audience: Admin
 ms.topic: reference
 ms.localizationpriority: medium
@@ -24,21 +24,21 @@ description: "Find answers to questions about Viva Engage security, management, 
 
 Viva Engage Enterprise administrative tools help you protect your Viva Engage data and comply with evolving legal and regulatory standards, including GDPR.
 
-For information about policies, tools, and best practices for all of Office 365, see [Overview of security and compliance in Office 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2).
+For information about policies, tools, and best practices for all of Microsoft 365, see [Overview of security and compliance in Microsoft 365](https://support.office.com/article/dcb83b2c-ac66-4ced-925d-50eb9698a0b2).
 
-Viva Engage Enterprise offers admins security and compliance tools that aren't part of Viva Engage Basic. Items marked with an asterisk (\*) aren't available in Viva Engage Basic. The [Security FAQ](security-and-compliance.md#Security) section of this article describes security, privacy, and business continuity features that apply to both Viva Engage Basic and Viva Engage Enterprise.
+Viva Engage Enterprise offers admins security and compliance tools that aren't part of Viva Engage Basic. Items marked with an asterisk (\*) are only available in Viva Engage Enterprise. The [Security FAQ](security-and-compliance.md#Security) section of this article describes security, privacy, and business continuity features that apply to both Viva Engage Basic and Viva Engage Enterprise.
 
 ## Security admin features
 
 | Task <br/> | How To <br/> |
 |:-----|:-----|
 |Set password policies and logical firewalls to control access to Viva Engage.  <br/> |[Manage Viva Engage security settings](viva-engage-security-settings.md) \*  <br/> |
-|Manage users and maintain single identity for users across all of Office 365.  <br/> |[Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) \*  <br/> |
+|Manage users and maintain single identity for users across all of Office 365.  <br/> |[Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md) \*  <br/> |
 |Provide secured access to Viva Engage on iOS and Android devices, and control device access to protect corporate data by using Microsoft Intune.  <br/> |[Manage Viva Engage with Microsoft Intune](manage-viva-engage-with-intune.md) \*  <br/> |
 |Use multiple levels of admin roles so you can assign the correct permissions to match employee's roles.  <br/> |[Manage Viva Engage admins](../manage-viva-engage-users/manage-viva-engage-admins.md) \*  <br/> |
 |Prevent or limit file uploads.|[Configure your Viva Engage network](../configure-your-viva-engage-network/configure-viva-engage.md) \*|
 |Control external network access.  <br/> |[Manage Viva Engage security settings](viva-engage-security-settings.md) \*  <br/> |
-|Track changes to users, groups, and admins.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
+|Track changes to users, groups, and admins.  <br/> |[Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
 
 ## Compliance admin features
 
@@ -47,10 +47,10 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 | Task <br/> | How To <br/> |
 |:-----|:-----|
 |Comply with GDPR requirements.  <br/> |[Manage GDPR data subject requests in Viva Engage](gdpr-requests-in-viva-engage-enterprise.md) \* |
-|View compliance reports. Viva Engage is Tier-C compliant in the Office 365 Compliance Framework, which covers SOC 1, HIPAA, EU Model Clauses, IRAP, and (SEC) Rule 17a-4(f).  <br/> |[Compliance Framework Documentation for Office 365](/compliance/regulatory/offering-home)\* 
+|View compliance reports. Viva Engage is Tier-C compliant in the Microsoft 365 Compliance Framework, which covers SOC 1, HIPAA, EU Model Clauses, IRAP, and (SEC) Rule 17a-4(f).  <br/> |[Compliance Framework Documentation for Microsoft 365](/compliance/regulatory/offering-home)\* 
 |Control data retention policies, and view private messages if needed for discovery purposes.  <br/> |[Manage Viva Engage data compliance](manage-data-compliance.md) \*  <br/> |
 |Export data to review compliance issues.  <br/> |[Export data from Viva Engage](../eac-as-manage-data.md) \* |
-|Track changes to users, admins, and groups.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md)\*  <br/>|
+|Track changes to users, admins, and groups.  <br/> |[Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API](../track-engage-events.md)\*  <br/>|
 
 ### Keep content appropriate and available to only those who should see it
 
@@ -63,8 +63,8 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 
 | Task <br/> | How To <br/> |
 |:-----|:-----|
-|Monitor Viva Engage admin and user transactions.  <br/> |[Track Viva Engage events in the Office 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
-|Gain insight into how people in your organization use Viva Engage. Reports and APIs make information available to admins, and group insights and seen counts are available for community managers, group admins, and members.  <br/> |[Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)\*  <br/> [Office 365 Adoption content pack](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f)\*  <br/> [Microsoft Graph reporting APIs](https://go.microsoft.com/fwlink/?linkid=875445) <br/> [View community insights in Viva Engage](https://support.microsoft.com/en-us/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46?storagetype=live) |
+|Monitor Viva Engage admin and user transactions.  <br/> |[Track Viva Engage events in the Microsoft 365 Audit log and with the Management Activity API](../track-engage-events.md) \*  <br/> |
+|Gain insight into how people in your organization use Viva Engage. Reports and APIs make information available to admins, and group insights and seen counts are available for community managers, group admins, and members.  <br/> |[Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)\*  <br/> [Microsoft 365 Adoption content pack](https://support.office.com/article/77ff780d-ab19-4553-adea-09cb65ad0f1f)\*  <br/> [Microsoft Graph reporting APIs](https://go.microsoft.com/fwlink/?linkid=875445) <br/> [View community insights in Viva Engage](https://support.microsoft.com/en-us/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46?storagetype=live) |
 
 ### Stay organized and current with organizational changes
 
@@ -72,7 +72,7 @@ Viva Engage Enterprise offers admins security and compliance tools that aren't p
 |:-----|:-----|
 |Use Microsoft 365 group naming policies to enforce consistent group naming.  <br/> |[Microsoft 365 Groups naming policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552)\*  <br/> |
 |For large organizations, use dynamic groups to update group membership automatically as people join, leave, or move within your organization.  <br/> |[Create a dynamic group in Viva Engage](../manage-viva-engage-groups/create-a-dynamic-group.md) \*  <br/> |
-|Set expiration policies for Office 365 connected Viva Engage groups. When set, group owners are prompted to renew the groups if they still need them.  <br/> |[Microsoft 365 Group Expiration policy](https://support.office.com/article/8d253fe5-0e09-4b3c-8b5e-f48def064733.aspx)\*  <br/> |
+|Set expiration policies for Microsoft 365 connected Viva Engage groups. When set, group owners are prompted to renew the groups if they still need them.  <br/> |[Microsoft 365 Group Expiration policy](https://support.office.com/article/8d253fe5-0e09-4b3c-8b5e-f48def064733.aspx)\*  <br/> |
 
 <a name="Security"> </a>
 ## Security FAQ
@@ -85,7 +85,7 @@ A: Only users with a valid and verified company email address can join your Viva
 
 A: As of October 22, 2018, all Viva Engage users need to be able to access **yammer.com**. We recommend against using a list of IP address ranges to control access since they can change and create access problems for users. For information about the October 2018 change, see [Using hard-coded IP addresses isn't recommended](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
 
-For complete Office 365 URL and IP address ranges info, see [Office 365 endpoints](/office365/enterprise/office-365-endpoints).
+For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/office365/enterprise/office-365-endpoints).
 
 ### Q: Where is the data hosted?
 
@@ -133,7 +133,7 @@ A: Viva Engage doesn't permit customers to perform on‐site audits. With over 2
 
 ### Q: Do you conduct third‐party audits or testing?
 
-A: Penetration tests of the Viva Engage infrastructure are conducted yearly as part of Office 365.
+A: Penetration tests of the Viva Engage infrastructure are conducted yearly as part of Microsoft 365.
 
 ### Q: How is data separated from other customers?
 
@@ -141,11 +141,11 @@ A: Viva Engage is a true multi-tenant model. As such, customers' data is logical
 
 ### Q: What is the difference between the security of an enterprise social network and Facebook?
 
-A: Your Viva Engage network is private to your company. Only users with a valid and verified email address for your company can join your Viva Engage network. Viva Engage was created as an Enterprise Social Network with security built‐in at every level and a high degree of control available. It includes integration with corporate security systems such as Active Directory and single sign-on.
+A: Your Viva Engage network is private to your company. Only users with a valid and verified email address for your company can join your Viva Engage network. Viva Engage was created as an Enterprise Social Network with security built‐in at every level and a high degree of control available. It includes integration with corporate security systems such as Microsoft Entra ID and single sign-on.
 
 ### Q: What is the difference between security of Viva Engage Basic and Viva Engage Enterprise?
 
-A: The underlying security of both is identical. Viva Engage Enterprise brings more administrative control. It also provides the ability to integrate with other systems (such as Active Directory, Active Directory Federation Services, SharePoint, Microsoft Dynamics CRM, Salesforce).
+A: The underlying security of both is identical. Viva Engage Enterprise brings more administrative control. It also provides the ability to integrate with other systems (such as Microsoft Entra ID, Microsoft Entra Federation Services, SharePoint, Microsoft Dynamics CRM, and Salesforce).
 
 For details of the security-related administrative controls available in Viva Engage Enterprise, see the tables at the beginning of this article.
 
@@ -157,15 +157,15 @@ A: No. Viva Engage doesn't mine or sell any customer data. All data belongs to t
 
 A: In Viva Engage Enterprise, verified admins can export messages and uploaded files that are stored in Viva Engage, along with their metadata. The data export can also include any content that has been deleted, if the **Archive** data retention option has been configured.
 
-Viva Engage files that are stored in SharePoint must be exported by using Office 365 content search and export. Use [Content Search in Office 365](/office365/securitycompliance/content-search) to find the files, and then [Export the Content Search Results](/office365/securitycompliance/export-search-results).
+Viva Engage files that are stored in SharePoint must be exported by using Microsoft 365 content search and export. Use [Content Search in Microsoft 365](/office365/securitycompliance/content-search) to find the files, and then [Export the Content Search Results](/office365/securitycompliance/export-search-results).
 
 ### Q: What are Viva Engage's business continuity features?
 
 A: Your data is backed up multiple times a day and protected with strong encryption on disk. Backups are transferred off-site over SSH and properly deleted after six months.
 
-### Q: Is Viva Engage covered under the materials in the Office 365 Trust Center?
+### Q: Is Viva Engage covered under the materials in the Microsoft 365 Trust Center?
 
-A: Yes it is. See [Office 365 Trust Center](https://go.microsoft.com/fwlink/?LinkID=715692).
+A: Yes it is. See [Microsoft 365 Trust Center](https://go.microsoft.com/fwlink/?LinkID=715692).
 
 ### Q: Is Viva Engage security independently verified?
 
@@ -175,26 +175,26 @@ Viva Engage participates in the [Microsoft Online Services Bug Bounty](https://g
 
 ## User Management FAQs
 
-### Q: Can I enforce multifactor authentication?
+#### Can I enforce multifactor authentication?
 
-A: For Viva Engage Enterprise, if you enforce Office 365 identity in Viva Engage. For more information, see [Set up multi-factor authentication for Office 365 users](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6) and [Enforce office 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
+For Viva Engage Enterprise, if you enforce Microsoft 365 identity in Viva Engage. For more information, see [Set up multi-factor authentication for Microsoft 365 users](https://support.office.com/article/8f0454b2-f51a-4d9c-bcde-2c48e41621c6) and [Enforce Microsoft 365 identity for Viva Engage users](../configure-your-viva-engage-network/enforce-office-365-identity.md).
 
-### Q: How do I manage Viva Engage on mobile devices?
+#### How do I manage Viva Engage on mobile devices?
 
-A: Viva Engage is available for major mobile platforms, including the iPhone, iPad, and Android. Users can install the Viva Engage application from their respective app store.
+Viva Engage is available for major mobile platforms, including the iPhone, iPad, and Android. Users can install the Viva Engage application from their respective app store.
 
 Viva Engage Enterprise offers session management capabilities so that a user or administrator can end any Viva Engage session on any device if needed.
 
 Viva Engage Enterprise devices can be managed with Microsoft Intune. For more information, see [Manage Viva Engage with Microsoft Intune](manage-viva-engage-with-intune.md).
 
-### Q: How can I manage my users?
+#### How can I manage my users?
 
-A: Only users with a valid and verified company email address can join your Viva Engage network.
+Only users with a valid and verified company email address can join your Viva Engage network.
 
 In a Viva Engage Basic network, users can invite their colleagues with the same email address suffix to collaborate. Users can also suspend other users from having access to the Viva Engage network.
 
-In Viva Engage Enterprise, administrators can provision and remove users in bulk using a .csv file and also to synchronize with Microsoft Entra ID to automatically add users who aren't already on Viva Engage and remove users from Viva Engage if their Active Directory account is disabled or deleted.
+In Viva Engage Enterprise, administrators can provision and remove users in bulk using a CSV file and also to synchronize with Microsoft Entra ID to automatically add users who aren't already on Viva Engage and remove users from Viva Engage if their Microsoft Entra ID account is disabled or deleted.
 
-### Q: How can users without email addresses access Viva Engage?
+#### How can users without email addresses access Viva Engage?
 
-A: Viva Engage works with many large organizations where it's important to hear the voice of all workers, including those without email addresses. In this case, Viva Engage can grant these users access based on a unique identifier.
+Viva Engage works with many large organizations where it's important to hear the voice of all workers, including those without email addresses. In this case, Viva Engage can grant these users access based on a unique identifier.
