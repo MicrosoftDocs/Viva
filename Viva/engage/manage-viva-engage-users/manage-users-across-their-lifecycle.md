@@ -197,20 +197,20 @@ The Microsoft 365 Global administrator can edit user properties from the Microso
   
 2. Select on the user, and choose **Edit** to change the properties, such as Username or Contact information. 
     
-    :::image type="content" source="../../media/57657206-20e3-4c1e-811a-dd6b0df1beaa.jpg" alt-text="Screenshot showing editing profile properties.":::
+   :::image type="content" source="../../media/57657206-20e3-4c1e-811a-dd6b0df1beaa.jpg" alt-text="Screenshot showing editing profile properties.":::
   
-Microsoft Entra ID updates the following Viva Engage properties:
+   Microsoft Entra ID updates the following Viva Engage properties:
   
-|**Property in Microsoft Entra ID**|**Property in Viva Engage**|
-|:-----|:-----|
-| Email address  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Office  <br/>  Office phone  <br/>  Mobile phone  <br/>  Description  <br/> | Email  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Location  <br/>  Work phone  <br/>  Mobile phone  <br/>  About Me  <br/> |
+   | Property in Microsoft Entra ID | Property in Viva Engage |
+   |:-----|:-----|
+   | Email address  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Office  <br/>  Office phone  <br/>  Mobile phone  <br/>  Description  <br/> | Email  <br/>  Display Name  <br/>  Job Title  <br/>  Department  <br/>  Location  <br/>  Work phone  <br/>  Mobile phone  <br/>  About Me  <br/> |
    
-In Microsoft 365, you can see the user properties that are updated for Viva Engage in the following dialog boxes:
+   In Microsoft 365, you can see the user properties that are updated for Viva Engage in the following dialog boxes:
   
-- **Edit email addresses** dialog box 
-    - **Edit contact information** dialog box 
+   - **Edit email addresses** dialog box 
+     - **Edit contact information** dialog box 
     
-    :::image type="content" source="../../media/78cb9ff3-a1a3-4bff-be12-e584c36063f8.jpg" alt-text="Screenshot showing editing contact information.":::
+       :::image type="content" source="../../media/78cb9ff3-a1a3-4bff-be12-e584c36063f8.jpg" alt-text="Screenshot showing editing contact information.":::
   
   
 ## FAQ
