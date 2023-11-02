@@ -54,7 +54,7 @@ You're *not* required to have a Viva Insights subscription to use the report.
 
 1. At the top of the app, select **Connect your data**.
 
-1. In the **Connect to Microsoft Copilot Impact Dashboard** dialog, enter your Microsoft 365 tenant ID. Follow the steps on [this page](https://learn.microsoft.com/sharepoint/find-your-office-365-tenant-id) to find your tenant ID. When you're done, select **Next**.
+1. In the **Connect to Microsoft Copilot Impact Dashboard** dialog, enter your Microsoft 365 tenant ID. Follow the steps on [this page](/sharepoint/find-your-office-365-tenant-id) to find your tenant ID. When you're done, select **Next**.
 
    :::image type="complex" source="images/copilot-impact-dashboard-01.png" alt-text="Screenshot that shows the step to enter the tenant Id." lightbox="images/copilot-impact-dashboard-01.png":::
    Screenshot that shows the step to enter the tenant Id.
@@ -96,19 +96,19 @@ If you have any issues with the dataset refresh/app update during the update pro
 ### Interpreting the data
 #### Readiness
 
-The information in this table helps you assess your organization’s overall readiness for Copilot rollout based on technical eligibility requirements and overall Microsoft 365 app usage. Note that this tab does not provide a comprehensive summary of all readiness and eligibility requirements. For a full set of requirements see this page: [Microsoft 365 Copilot requirements](https://learn.microsoft.com/microsoft-365-copilot/microsoft-365-copilot-requirements).
+The information in this table helps you assess your organization’s overall readiness for Copilot rollout based on technical eligibility requirements and overall Microsoft 365 app usage. Note that this tab does not provide a comprehensive summary of all readiness and eligibility requirements. For a full set of requirements see this page: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements).
 
 Unless otherwise mentioned, all metrics on this page represent aggregations over the prior 28 day period. Data points are refreshed daily.
 
 | Metric | Definition | More information |
 |---|---|---|
-| Available qualified Microsoft 365 licenses  |  Count of licenses qualified for Copilot in Microsoft 365.  | In order to be assigned a Copilot license, users must already be assigned a license for Microsoft 365 E3 or E5. Learn more here: [Microsoft 365 Copilot requirements](https://learn.microsoft.com/microsoft-365-copilot/microsoft-365-copilot-requirements#license-requirements)  | 
-| Users on an eligible app update channel  | Count of users who connected to Microsoft 365 Apps over the past 28 days with a device enrolled in the Current Channel or Monthly Enterprise Channel. **Note:** This information is based on usage signals for Microsoft 365 Apps and may not reflect the most recent status of users’ devices.   | User devices must be on either Current Channel or Monthly Enterprise Channel to access Microsoft 365 Copilot features. In November, Copilot will initially be available on Current Channel, and Monthly Enterprise Channel a month later. Learn more here: [Microsoft 365 Copilot requirements](https://learn.microsoft.com/microsoft-365-copilot/microsoft-365-copilot-requirements#update-channels) | 
-| Microsoft 365 app usage  | Count of unique active users per Microsoft 365 app feature, limited to those with Copilot capabilities. **Note:** The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities. More will be added over time.  | Users must be actively using Microsoft 365 apps in order to benefit from Copilot. Learn more about specific application requirements here: [Microsoft 365 Copilot requirements](https://learn.microsoft.com/microsoft-365-copilot/microsoft-365-copilot-requirements#prerequisites) |
+| Available qualified Microsoft 365 licenses  |  Count of licenses qualified for Copilot in Microsoft 365.  | In order to be assigned a Copilot license, users must already be assigned a license for Microsoft 365 E3 or E5. Learn more here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#license-requirements)  | 
+| Users on an eligible app update channel  | Count of users who connected to Microsoft 365 Apps over the past 28 days with a device enrolled in the Current Channel or Monthly Enterprise Channel. **Note:** This information is based on usage signals for Microsoft 365 Apps and may not reflect the most recent status of users’ devices.   | User devices must be on either Current Channel or Monthly Enterprise Channel to access Microsoft 365 Copilot features. In November, Copilot will initially be available on Current Channel, and Monthly Enterprise Channel a month later. Learn more here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#update-channels) | 
+| Microsoft 365 app usage  | Count of unique active users per Microsoft 365 app feature, limited to those with Copilot capabilities. **Note:** The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities. More will be added over time.  | Users must be actively using Microsoft 365 apps in order to benefit from Copilot. Learn more about specific application requirements here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#prerequisites) |
 
 #### Adoption
 
-After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 Admin Center including the [Copilot Usage report](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage?view=o365-worldwide) and [Microsoft Adoption Score](https://learn.microsoft.com/microsoft-365/admin/adoption/adoption-score?view=o365-worldwide).
+After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 Admin Center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage?view=o365-worldwide) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score?view=o365-worldwide).
 
 All metrics on this page represent aggregations over the past 28 days. Data points are refreshed daily.
 
@@ -130,7 +130,7 @@ The metrics on this page represent aggregations over the prior 28 days. Data poi
 | Potential impact for your org: Teams meeting users   | Count of Teams meetings users across your organization over the past 28 days, including both 1:1 and group calls.  |
 | Potential impact for your org: Chats sent | Average volume of Teams chats sent per week (including group and 1:1 chats).  |
 | Potential impact for your org: Emails sent  | Average volume of emails sent via Exchange per week (note: these emails may not necessarily be delivered through Outlook). |
-| Potential impact for your org: Active cloud files  | Total count of active files in SharePoint and OneDrive over the prior month (learn more about how the SharePoint information is calculated [here](https://learn.microsoft.com/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww?view=o365-worldwide) and OneDrive [here](https://learn.microsoft.com/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww?view=o365-worldwide)). “Active” means that a file was viewed, modified, downloaded, or shared. |
+| Potential impact for your org: Active cloud files  | Total count of active files in SharePoint and OneDrive over the prior month (learn more about how the SharePoint information is calculated [here](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww?view=o365-worldwide) and OneDrive [here](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww?view=o365-worldwide)). “Active” means that a file was viewed, modified, downloaded, or shared. |
 
 #### News & research
 
