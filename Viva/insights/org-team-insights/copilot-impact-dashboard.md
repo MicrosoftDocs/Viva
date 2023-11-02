@@ -108,7 +108,7 @@ Unless otherwise mentioned, all metrics on this page represent aggregations over
 
 #### Adoption
 
-After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 Admin Center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage?view=o365-worldwide) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score?view=o365-worldwide).
+After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 Admin Center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score).
 
 All metrics on this page represent aggregations over the past 28 days. Data points are refreshed daily.
 
@@ -130,7 +130,7 @@ The metrics on this page represent aggregations over the prior 28 days. Data poi
 | Potential impact for your org: Teams meeting users   | Count of Teams meetings users across your organization over the past 28 days, including both 1:1 and group calls.  |
 | Potential impact for your org: Chats sent | Average volume of Teams chats sent per week (including group and 1:1 chats).  |
 | Potential impact for your org: Emails sent  | Average volume of emails sent via Exchange per week (note: these emails may not necessarily be delivered through Outlook). |
-| Potential impact for your org: Active cloud files  | Total count of active files in SharePoint and OneDrive over the prior month (learn more about how the SharePoint information is calculated [here](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww?view=o365-worldwide) and OneDrive [here](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww?view=o365-worldwide)). “Active” means that a file was viewed, modified, downloaded, or shared. |
+| Potential impact for your org: Active cloud files  | Total count of active files in SharePoint and OneDrive over the prior month (learn more about how the SharePoint information is calculated [here](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) and OneDrive [here](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww)). “Active” means that a file was viewed, modified, downloaded, or shared. |
 
 #### News & research
 
