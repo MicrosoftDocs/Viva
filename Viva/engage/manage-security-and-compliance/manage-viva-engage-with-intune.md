@@ -32,22 +32,22 @@ This feature is especially helpful for organizations where devices and apps are 
   
 | Intune policy you can enforce on the app | Available for Android? | Available for iOS? |
 |:-----|:-----|:-----|
-|Allow apps to transfer data to other apps.  <br/> |Yes  <br/> |Yes  <br/> |
-|Allow apps to receive data from other apps.  <br/> |Yes  <br/> |Yes  <br/> |
-|Prevent "Save As".  <br/> |Yes  <br/> |Yes  <br/> |
-|Prevent iTunes and iCloud backups.  <br/> |No  <br/> |Yes  <br/> |
-|Prevent Android backups.  <br/> |Yes  <br/> |No  <br/> |
-|Restrict cut, copy, and paste with other apps.  <br/> |Yes  <br/> |Yes  <br/> |
-|Restrict web content to display in the Intune Managed Browser.  <br/> |Yes  <br/> |Yes  <br/> |
-|Encrypt app data.  <br/> |Yes  <br/> |Yes  <br/> |
-|Disable contacts sync.  <br/> |Yes  <br/> |Yes  <br/> |
-|Require PIN for access, and set specific requirements such as PIN length and number of allowed tries.  <br/> |Yes  <br/> |Yes  <br/> |
-|Allow use of fingerprint instead of PIN.  <br/> |Yes  <br/> |Yes  <br/> |
-|Require corporate credentials for access.  <br/> |Yes  <br/> |Yes  <br/> |
-|Block managed apps from running on jailbroken or rooted devices.  <br/> |Yes  <br/> |Yes  <br/> |
-|The frequency of how often the access requirements are checked.  <br/> |Yes  <br/> |Yes  <br/> |
-|Block screen capture and Android Assistant.  <br/> |Yes  <br/> |No  <br/> |
-|When you retire or un-enroll a device with the Viva Engage app, the application's corporate data are deleted.  <br/> |Yes  <br/> |Yes  <br/> |
+|Allow apps to transfer data to other apps.  |Yes  |Yes  |
+|Allow apps to receive data from other apps.  |Yes  |Yes  |
+|Prevent "Save As".  |Yes  |Yes  |
+|Prevent iTunes and iCloud backups.  |No  |Yes  |
+|Prevent Android backups.  |Yes  |No  |
+|Restrict cut, copy, and paste with other apps.  |Yes  |Yes  |
+|Restrict web content to display in the Intune Managed Browser.  |Yes  |Yes  |
+|Encrypt app data.  |Yes  |Yes  |
+|Disable contacts sync.  |Yes  |Yes  |
+|Require PIN for access, and set specific requirements such as PIN length and number of allowed tries.  |Yes  |Yes  |
+|Allow use of fingerprint instead of PIN.  |Yes  |Yes  |
+|Require corporate credentials for access.  |Yes  |Yes  |
+|Block managed apps from running on jailbroken or rooted devices.  |Yes  |Yes  |
+|The frequency of how often the access requirements are checked.  |Yes  |Yes  |
+|Block screen capture and Android Assistant.  |Yes  |No  |
+|When you retire or un-enroll a device with the Viva Engage app, the application's corporate data are deleted.  |Yes  |Yes  |
    
 > [!NOTE]
 > Intune MAM policies are enforced when users authenticate to Viva Engage through Microsoft Entra ID accounts and sign-in. They're not enforced when users authenticate to Viva Engage with Viva Engage-specific passwords or Viva Engage temporary passwords. 
