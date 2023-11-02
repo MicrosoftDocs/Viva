@@ -1,11 +1,11 @@
 ---
-ms.date: 12/14/2022
+ms.date: 10/28/2023
 title: "Viva Engage admin key concepts"
 description: "Key concepts for planning how to administer your new Viva Engage network."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: dwhitfield233
-manager: dmillerdyson
+ms.author: v-bvrana
+author: Starshine89
+manager: pamgreen
 audience: Admin
 f1.keywords:
 - NOCSH
