@@ -20,6 +20,7 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Learn how to combine Microsoft Viva apps to support popular experiences"
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 # Combine Microsoft Viva apps to support popular business scenarios
 
@@ -33,7 +34,7 @@ Microsoft Viva apps can be combined to create powerful employee experiences for 
 
 ## Training and onboarding
 
-![Image of Viva Connections, Viva Learning, Viva Insights and Viva Topics combined together.](./media/viva-training-combo-update.png)
+<!--![Image of Viva Connections, Viva Learning, Viva Insights and Viva Topics combined together.](./media/viva-training-combo-update.png)-->
 
 Onboard new employees or volunteers and encourage them to learn new skills with the combination of Viva Learning and Viva Connections. Create a training experience that people can access on desktop and mobile devices and that you can target to specific audiences. Consider also adding Viva Topics to help your organization manage internal projects, subject matter experts, and terminology. Viva Insights can add even more features for onboarding. [Learn more about onboarding new employees with Viva.](solutions/viva-onboard-change-roles.md)
 
@@ -74,7 +75,7 @@ Enhance your training and onboarding process by helping your employees learn mor
 
 ## Wellness and work-life balance
 
-![Image of Viva Insights, Viva Learning, and Viva Topics combined together.](./media/wellness-combo.png)
+<!--![Image of Viva Insights, Viva Learning, and Viva Topics combined together.](./media/wellness-combo.png)-->
 
 Help your employees manage their time effectively and create a healthy workplace culture with Viva Insights, Viva Learning, and Viva Connections. First, use Viva Insights to gain an understanding of your team’s work habits. Then, create or source learning content to encourage healthy workplace practices. Finally, add Viva Connections to share communications and resources about wellness and workplace practices.
 
@@ -107,7 +108,7 @@ Create, source, and share content to educate your organization about healthy wor
 
 ## Knowledge sharing and management
 
-![Image of Viva Connections and Viva Topics combined together.](./media/viva-knowledge-combo-update.png)
+<!--![Image of Viva Connections and Viva Topics combined together.](./media/viva-knowledge-combo-update.png)-->
 
 ### App 1: Viva Topics
 
@@ -128,8 +129,8 @@ Empower employees to find the information and contacts that they need to do thei
 
 1. Get Viva Engage.
 2. Use Viva Engage storylines to connect people across the company, strengthen professional relationships, and build social capital. [Set up storylines](../viva/engage/eac-storyline.md)
-3. Build communities in Viva Engage where employees can share knowledge, and discuss shared interests and business initiatives. [Join and create a community in Viva Engage](https://support.microsoft.com/en-us/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4)
-4. Connect employees across different working groups and business silos to help them exchange knowledge, find answers, and crowdsource ideas. [Manage Viva Engage community members](https://support.microsoft.com/en-us/topic/manage-viva-engage-community-members-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a)
+3. Build communities in Viva Engage where employees can share knowledge, and discuss shared interests and business initiatives. [Join and create a community in Viva Engage](https://support.microsoft.com/topic/join-and-create-a-community-in-viva-engage-1ee29da1-5250-4c1e-b773-e7a78cfaf5d4)
+4. Connect employees across different working groups and business silos to help them exchange knowledge, find answers, and crowdsource ideas. [Manage Viva Engage community members](https://support.microsoft.com/topic/manage-viva-engage-community-members-3e75fbe9-1b3e-48b5-8e4b-af2716b7873a)
 
 ## Learn more
 

@@ -46,9 +46,9 @@ To add a knowledge admin for Viva Learning, follow these steps:
 
     ![Image of Role assignments in the left navigation](../media/learning/clcs-orgsettings.png)
 
-2. On the **Role Assignments** page, on the **Azure AD** tab, select **Knowledge Administrator**.
+2. On the **Role Assignments** page, on the **Microsoft Entra ID** tab, select **Knowledge Administrator**.
 
-    ![Image of Knowledge Adminstrator selected on the Azure AD tab.](../media/learning/clcs-knowledgeadmin.png)
+    ![Image of Knowledge Admin selected on the Microsoft Entra ID tab.](../media/learning/clcs-knowledgeadmin.png)
 
 3. On the **Knowledge Administrator** panel, select **Assigned admins**, and then select **Add**.
 
@@ -64,9 +64,9 @@ To remove a knowledge admin for Viva Learning, follow these steps:
 
     ![Image of Role assignments in the left navigation](../media/learning/clcs-orgsettings.png)
 
-2. On the **Role assignments** page, go to the **Azure AD** tab, and then select **Knowledge Administrator**.
+2. On the **Role assignments** page, go to the **Microsoft Entra ID** tab, and then select **Knowledge Administrator**.
 
-    ![Image of Knowledge Adminstrator selected on the Azure AD tab.](../media/learning/clcs-knowledgeadmin.png)
+    ![Image of Knowledge Adminstrator selected on the Microsoft Entra ID tab.](../media/learning/clcs-knowledgeadmin.png)
 
 3. On the **Knowledge Administrator** panel, on the **Assigned Admins** tab, select **Remove**, and then select the person you want to remove from the role. To confirm, select **Remove**.
 
@@ -82,25 +82,24 @@ To configure settings for learning content sources in Viva Learning:
 
 2. Select **Add Provider**  
 
- ![Settings page in the Microsoft 365 admin center showing the Learning app listed.](../media/learning/clcs-services.png)
+    ![Settings page in the Microsoft 365 admin center showing the Learning app listed.](../media/learning/clcs-services.png)
 
 3. Select the provider you want to configure from the Provider list and select **Next**.
 
-![Learning panel in the Microsoft 365 admin center showing content sources options.](../media/learning/manage-providers-select-providers.png)
+    ![Learning panel in the Microsoft 365 admin center showing content sources options.](../media/learning/manage-providers-select-providers.png)
 
 4. Enter the configuration details and click **Save**. Note that these details vary depending on the provider.
 
 5. Once the configuration is saved, the provider displays on the **Manage Providers** dashboard of the tenant.
 
-5.	The start of the sync indicates a successful configuration. You can refer to the sync status for more details.
-6.	To edit or delete the already configured provider, select **Edit** or **Delete** from the provider menu.
+6. The start of the sync indicates a successful configuration. You can refer to the sync status for more details.
 
-![Manage providers page with a successful configuration status of the chosen provider](../media/learning/manage-providers-configured.png)
+7. To edit or delete the already configured provider, select **Edit** or **Delete** from the provider menu.
 
+    ![Manage providers page with a successful configuration status of the chosen provider](../media/learning/manage-providers-configured.png)
 
 > [!NOTE]
 > You'll need a Viva Learning or Viva Suite license to connect external content sources, with the exception of LinkedIn Learning. You'll need a LinkedIn Learning Enterprise subscription to access LinkedIn Learning content other than the select free courses. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
-
 
 Some learning content sources will be enabled by default. These learning sources include:
 
@@ -109,13 +108,15 @@ Some learning content sources will be enabled by default. These learning sources
 - Microsoft 365 Training
 - Bring your own content
 
+## Bring your own content
+
 The **bring your own content** feature allows users in your organization to bring their own content from SharePoint into Viva Learning and share it with others. However, content brought in by end users isn't searchable.
 
 > [!NOTE]
 > For data that you copy to Viva Learning from a non-Microsoft service (learning provider or learning management system), you are not able to directly extract, correct, or delete that data in Viva Learning. We refresh the data you import from non-Microsoft providers promptly to reflect changes and deletions in the non-Microsoft source data.
 You need to work with the supplier of the non-Microsoft service to access, correct, delete or extract data under the license, service, or privacy terms of the non-Microsoft service. The changes made there will be reflected in the data processed for your use in Viva Learning upon completion of the data update cycles of the non-Microsoft service and Viva Learning. If you turn off the connection between Viva Learning and a non-Microsoft service, all data you had previously imported from that service will be deleted.
 
-## Additional app settings
+## More app settings
 
 You can control the Viva Learning availability in your org from Teams Admin center. 
 
@@ -138,7 +139,6 @@ Users can recommend content to each other in Viva Learning. Enable tracking to a
 
 
 ## Next step
-
 
 [Add SharePoint as a content source for Microsoft Viva Learning](configure-sharepoint-content-source.md)
 

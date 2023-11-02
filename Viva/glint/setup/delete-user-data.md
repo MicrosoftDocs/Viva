@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
@@ -28,7 +28,7 @@ As your company’s data controller, Microsoft Viva Glint admins can submit a us
 ## User data can be deleted from the People section on the admin dashboard
 
 >[!IMPORTANT]
->Deleting a user from Azure Active Directory does not delete the user and their information from Viva Glint. To delete user information from Viva Glint, you must complete the instructions provided below.
+>Deleting a user from Microsoft Entra ID does not delete the user and their information from Viva Glint. To delete user information from Viva Glint, you must complete the instructions provided below.
 
 1. Select **People** from the Employees section.
 2. Use the search box to select the employee whose data should be deleted. Open that employee’s page.

@@ -2,8 +2,8 @@
 ms.date: 07/15/2022
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -119,7 +119,7 @@ If you're getting an error, you might want to ask the following questions:
 * **Do I have the right role assigned?** Before you can access the advanced insights app, you'll need a Viva Insights-specific role assigned to you in the Microsoft 365 admin center. Analysts need the **Insights Analyst** role. You might need to ask your organization Microsoft 365 admin to check if the role was assigned to you in the admin center. Learn more about role assignment in [Assign user roles for Viva Insights](../setup-maint/assign-user-roles.md).
 
     >[!Note]
-    >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Azure AD roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
+    >Before they can use the app, customers with Privileged Identity Management might need to complete a few additional steps to activate their role. Refer to [Assign Microsoft Entra roles in Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) for more information.
 
 * **With my role, can I access this feature?** Only certain roles can access some parts of the app. To learn which features are available for which role, refer to [User roles](../setup-maint/user-roles.md#feature-access).
 
@@ -145,7 +145,7 @@ A3. Viva Insights doesn’t fail an upload if a person doesn’t have one single
 
 #### Q4. Who gets the organizational data to upload?
 
-A4. While Azure Active Directory is the default data source, a manual file upload is preferred. Usually, HR gives this data to the admin, who then prepares and uploads it.
+A4. While Microsoft Entra ID is the default data source, a manual file upload is preferred. Usually, HR gives this data to the admin, who then prepares and uploads it.
 
 #### Q5. Who can access organizational data after it's uploaded?
 
@@ -192,7 +192,7 @@ A4. Teams provides information about collaboration activities, namely direct mes
 A5. It depends on the type of mailbox and which permissions are set for the Exchange Online mailbox. For details, see [Mailbox permissions](/Exchange/recipients/mailbox-permissions).
 
 * A shared mailbox (Microsoft 365 group mailbox) typically has a number of group members that share access and permissions for the group mailbox. An example of a shared mailbox is LeadershipTeam@Contoso.com. For details, see [Which permissions you should use in shared mailboxes](/exchange/collaboration-exo/shared-mailboxes#which-permissions-should-you-use).
-    * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox instead of any single person in the group. Viva Insights does not use this action in its calculations.
+    * **Send As** permission - When a group member with Send As permission for a shared mailbox sends a message or meeting invitation from the group mailbox, Exchange gives credit to the shared mailbox, which will resolve to a single entity (mapped to the Microsoft Entra object id of the mailbox). Viva Insights will attribute the insights to the Microsoft Entra object id of the mailbox.
     * **Send on Behalf** permission – This permission isn't available for shared mailboxes in Exchange Admin Center. However, if it is set with PowerShell (GrantSendonBehalf parameter), the person who sends the message gets credit for it in Viva Insights calculations.
 * An individual mailbox (or a linked mailbox) with a primary mailbox owner can link or give delegate access and one of the following permissions to another person to send messages or meeting invites for the primary mailbox owner. For example, an assistant with delegate access can send a message or meeting invite from their manager's mailbox. A delegate can have one of the following permissions. For details, see [Give mailbox permissions to another user](/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user).
     * **Send As** permission – The primary owner of the mailbox gets credit for sending the message or invite in Viva Insights calculations.

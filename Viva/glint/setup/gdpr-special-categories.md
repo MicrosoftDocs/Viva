@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/10/2023
 ---
 
@@ -24,9 +24,7 @@ Microsoft Viva Glint helps organizations measure employee engagement and experie
 
 With Viva Glint, organizations capture invaluable employee feedback and transform those insights into actions. Feedback and action-taking are brought directly into the flow of work, empowering managers and their teams to take joint ownership and drive meaningful actions and habits that support happiness, success, and wellbeing at work.
 
-This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the European Union General Data Protection Regulation (GDPR).
-
-This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
+This resource explains how Viva Glint provides the customer admin with controls to manage personal data and implements protections within Viva Glint to maintain employee privacy. These controls and protections support customer compliance with regulations such as the [European Union General Data Protection Regulation (GDPR)](https://learn.microsoft.com/viva/glint/setup/gdpr-special-categories). This document is specific to Viva Glint and provides a technical overview of how data and privacy are protected.
 
 ## Understand the fundamentals of Viva Glint privacy
 
@@ -95,14 +93,14 @@ Viva Glint reporting, like other products that work with sensitive data (for exa
 
 Viva Glint Customer Admins may create the following types of user roles within their organization:
 
-- Managers: These users may need to see the rollup for their teams and perhaps, one attribute. They often don't have the team size to see results by demographic analysis and lack the authority to act on them.
+- Managers: These users might need to see the rollup for their teams and perhaps, one attribute. They often don't have the team size to see results by demographic analysis and lack the authority to act on them.
 
-- Senior managers: Due to their organizations' size, they may need to see data for various cohorts. They may need to see organizational demographics such as location, tenure, and job family as those are areas within their authority to act. Special category data, such as ethnicity, is often not provided to these users.
-- Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users may need access to all attributes.
+- Senior managers: Due to their organizations' size, they might need to see data for various cohorts. They might need to see organizational demographics such as location, tenure, and job family as those are areas within their authority to act. Special category data, such as ethnicity, is often not provided to these users.
+- Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users might need access to all attributes.
 
 [Read about why Viva Glint collects employee attributes and how they're used in reporting.](https://go.microsoft.com/fwlink/?linkid=2230738)
 
-## Privacy and legal subject matter experts may be required
+## Privacy and legal subject matter experts might be required
 
 Some countries require employers to consult with employee representatives or seek approval from a works council before deploying certain information technology services in the workplace.
 

@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/07/2018
 title: Prepare organizational data for Viva Insights
 description: How to prepare data from your organization to upload and use in the advanced insights app 
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -45,7 +45,7 @@ Advanced insights automatically collects collaboration data from Microsoft 365. 
 
 ### Video: Organizational data provides context
 
-  <iframe width="580" height="512" src="https://player.vimeo.com/video/321146161" frameborder="0" allowfullscreen=""> </iframe>
+  > [!VIDEO https://player.vimeo.com/video/321146161]
 
 ## Identify trends that you want to analyze
 
@@ -98,7 +98,7 @@ The following video describes which attributes are required and optional in your
 
 ### Video: What to include in the upload
 
-  <iframe width="580" height="512" src="https://player.vimeo.com/video/323318072" frameborder="0" allowfullscreen=""> </iframe>
+  > [!VIDEO https://player.vimeo.com/video/323318072]
 
 ### Which employees to include
 
@@ -182,7 +182,7 @@ The following video describes how to structure your organizational data file, in
 
 ### Video: How to structure the organizational data file
 
-  <iframe width="580" height="512" src="https://player.vimeo.com/video/321147511" frameborder="0" allowfullscreen=""> </iframe>
+  > [!VIDEO https://player.vimeo.com/video/321147511]
 
 ### Required attributes
 

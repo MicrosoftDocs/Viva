@@ -2,8 +2,8 @@
 ms.date: 05/12/2023
 title: Impact explorer Power BI report
 description: Estimate the impact Viva Insights can make in your organization
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -35,7 +35,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiYjc1ZDhlN2QtZmRjMi00OTIwLWIxOGMtNWMwZWMyMDM3NmZmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiYjc1ZDhlN2QtZmRjMi00OTIwLWIxOGMtNWMwZWMyMDM3NmZmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
 

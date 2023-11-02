@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Roles in Viva Insights
 description: Learn which roles can access which features in Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -23,7 +23,7 @@ Each role only gives access to actions, pages, reports, and data that correspond
 
 ## Inherited roles
 
-Users with the **Global Admin** role in Azure Active Directory automatically inherit Insights Administrator privileges.
+Users with the **Global Admin** role in Microsoft Entra ID automatically inherit Insights Administrator privileges.
 
 ## Role descriptions and access levels
 
@@ -84,7 +84,3 @@ Consider the following personas when granting the different levels of access for
 ### How to assign roles and enable feature access
 
 So users can access Viva Insights features, [assign them roles](assign-user-roles.md) in the Microsoft 365 admin center.
-
-
-
-

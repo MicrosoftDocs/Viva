@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 7/26/2023
+ms.date: 10/02/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -42,8 +42,8 @@ Microsoft Viva and the Viva apps support compliance with [General Data Protectio
 
 Additionally, see the following GDPR information for specific apps:
 
-- Viva Connections, Viva Topics, Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
-- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage)
+- Viva Connections and Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
+- Viva Engage (Yammer): [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 
@@ -51,12 +51,13 @@ Additionally, see the following GDPR information for specific apps:
 Data residency refers to the geographic location where data is stored at rest. The way that data is transferred and stored in Microsoft Viva is defined in the [Microsoft Products and Services Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA).
 
 
-If you are using [Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections) or [Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics), you can purchase the [Advanced Data Residency add-on in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency), which provides more tools to address data residency requirements. 
+If you are using [Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections), you can purchase the [Advanced Data Residency add-on in Microsoft 365](/microsoft-365/enterprise/advanced-data-residency), which provides more tools to address data residency requirements. 
 
 All data within Viva is stored within the customer tenant for any given Viva application and follows the standard Microsoft 365 data storage guidelines by available geography. The following table provides information about where the data for each app resides, along with links to more information.
 
 |Viva app|Where the data resides|More information|
 |-|-|-|
+|Viva Amplify|Data is stored in the data center where the associated Microsoft 365 tenant resides. If your organization is using SharePoint, Amplify follows the [SharePoint data residency policy](/microsoft-365/enterprise/m365-dr-workload-spo).|[Privacy and security in Microsoft Viva Amplify](/viva/amplify/privacy-security)|
 |Viva Connections|Data is stored in the data center where the associated Microsoft 365 tenant resides. For tenants located in Germany or the EU, none of the data is transferred to a third country.<br><br>**Note:** Data from third-party apps is governed by the data and privacy agreements for those apps. This information applies to data from Microsoft apps.|[Data Residency for Viva Connections](/microsoft-365/enterprise/m365-dr-workload-viva-connections)|
 |Viva Engage|Committed to storing message bodies and files attached to messages at rest within a specific geographical area (Geo). Data is stored in either Yammer cloud storage or SharePoint. Files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. <br><br>Mobile push notifications require sending data to a third party notification service (Apple or Google), which might be outside your Geo.|[Data residency - Yammer](/yammer/manage-security-and-compliance/data-residency)|
 |Viva Glint|The data region for Viva Glint is determined by the default geography of the tenant, not individual users, and is stored in US or EU data centers based on central tenant location.||
@@ -64,7 +65,6 @@ All data within Viva is stored within the customer tenant for any given Viva app
 |Viva Insights|**Personal insights** - Processed and stored in the employee’s Exchange Online mailbox. Data residency is based on the employee's mailbox location.<br>**Manager/Leader/Advanced Insights** - The data region for Manager/Leader and Advanced is determined by the Default Geography of the tenant, not individual users.<br><br>Data at Rest (header info and metadata sourced from Exchange Online and Teams, but not message content or attachments) is stored in US, EU, EMEA, APAC based on central tenant location.|[Viva Insights - Advanced/Manager/Leader](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--advanced-mgr-leader)<br><br>[Viva Insights - Personal](/microsoft-365/enterprise/m365-dr-workload-other#viva-insights--personal)
 |Viva Learning|Viva Learning doesn’t store any personal data since usage and consumption data is aggregated.<br><br>Integration with SharePoint is currently only supported for sites hosted from the home geography of the tenant. For example, a French tenant can only link SharePoint sites hosted in France to Viva Learning.|[Viva Learning data residency](/microsoft-365/enterprise/m365-dr-workload-other)|
 |Viva Pulse|Data for customers located in the European Union Data Boundary (EUDB) is stored in data centers located in the EU. The data for all other tenants is stored in data centers located in the United States|[Data residency for Viva Pulse](/viva/pulse/get-started/data-residency-for-viva-pulse)
-|Viva Topics|Follows the standard Microsoft 365 data storage guidelines by available geography.|[Data Residency for Viva Topics](/microsoft-365/enterprise/m365-dr-workload-viva-topics#how-can-i-determine-customer-data-location)|
 
 For more information, see:
 - [Microsoft 365 data locations](/microsoft-365/enterprise/o365-data-locations)
@@ -75,14 +75,19 @@ For more information, see:
 > [!IMPORTANT]
 > We’re extending [Copilot to Microsoft Viva](https://techcommunity.microsoft.com/t5/viva-goals-blog/the-future-of-goal-setting-with-viva-goals-copilot-customized/ba-p/3800587) to help leaders boost employee engagement and improve business performance. The Copilot System combines the power of large language models (LLMs), including GPT-4, with the Microsoft 365 and Microsoft Viva apps, as well as your business data in the Microsoft Graph—and makes it accessible through natural language. <br><br>More information about additional AI capabilities in Microsoft Viva and the Viva apps will be available soon.
 
-Viva Connections uses AI to rank content in the feed, while Viva Topics uses it to detect and identify topics. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
+Viva Connections uses AI to rank content in the feed, while Topics in Viva uses it to detect and identify topics. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
 
 For more information on how Viva uses AI, see the following:
 - [Get answers to common questions about the Viva Connections Feed](connections/faqs-viva-connections-feed.md)
-- [Topic discovery and curation in Microsoft Viva Topics](topics/topic-experiences-discovery-curation.md)
+- [Topic discovery and curation in Topics in Viva](topics/topic-experiences-discovery-curation.md)
 
 ## App-specific data information
 Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but how you control it differs depending on the app.
+
+### Viva Amplify
+Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting is not recommended.
+
+For more information about Viva Amplify, see [Overview of Microsoft Viva Amplify](/viva/amplify/overview-viva-amplify).
 
 ### Viva Connections
 Privacy and security controls:
@@ -91,7 +96,7 @@ Privacy and security controls:
 
 |What info is available?|Who can access it?|How is it managed?|
 |-|-|-|
-|Conversations, resources, and apps from Microsoft services (like Teams and SharePoint) and third-party apps (by using the SharePoint Framework)<br><br>For users with elevated permissions, aggregated analytics data about traffic, usage by experience, and usage by platform.|Users with access to the SharePoint resources<br><br>For analytics, users with site member or higher access to the SharePoint home site that supports the Connections instance.|Information is visible to users based on the setting and their role in the organization<br><br>Different permission levels are required based on the content creator role (for example Home site or Dashboard).<br><br>Dashboard authors can target the cards to specific audiences by using Azure AD groups.|
+|Conversations, resources, and apps from Microsoft services (like Teams and SharePoint) and third-party apps (by using the SharePoint Framework)<br><br>For users with elevated permissions, aggregated analytics data about traffic, usage by experience, and usage by platform.|Users with access to the SharePoint resources<br><br>For analytics, users with site member or higher access to the SharePoint home site that supports the Connections instance.|Information is visible to users based on the setting and their role in the organization<br><br>Different permission levels are required based on the content creator role (for example Home site or Dashboard).<br><br>Dashboard authors can target the cards to specific audiences by using Microsoft Entra groups.|
 
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
@@ -139,16 +144,6 @@ Privacy and security controls:
 For more information about Viva Learning, see [Microsoft Viva Learning](/viva/learning/).
 
 
-### Viva Topics
-Privacy and security controls:
-- Role-based access control
-- You direct Viva Topics where to start discovery
-
-|What info is available?|Who can access it?|How is it managed?|
-|-|-|-|
-|Topics are generated from documents and other content. Any topic metadata (such as names, descriptions, related people, and docs) follows the access permissions and other policies set up by the tenant. Topics maintains awareness of where topic metadata is inferred from, so only users who have permissions to see the original documents can see the corresponding topic metadata.<br><br>Users can curate topic pages in the knowledge center, and those topic pages follow general SharePoint policies.<br><br>Users can also rate the relevance of topics and various attributes. Feedback is used to reject or confirm topics and topic metadata inferred by AI, which helps ensure knowledge base quality for the enterprise.|Users only see content they already have access to (existing content permissions), with access dependent on the topic generated automatically or manually.|Admins specify which data sources to use to create topics (such as [SharePoint sites](topics/topic-experiences-discovery.md#select-sharepoint-topic-sources) and MS Graph connectors), which content to exclude from topic indexing based on [sensitivity labels](/microsoft-365/compliance/sensitivity-labels), [which people to exclude from topic indexing](topics/topic-experiences-discovery.md#exclude-people-from-being-suggested-for-topics-by-ai), who can view topics (in addition to the read permissions to topic metadata), who can contribute, and who can manage topics.|
-
-For more information about privacy in Viva Topics, see [Security and privacy in Microsoft Viva Topics](topics/topic-experiences-security-privacy.md)
 
 ## More resources
 

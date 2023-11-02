@@ -3,8 +3,8 @@
 ms.date: 01/16/2020
 title: Best practices for efficient communication
 description: Microsoft Viva Insights shares best practices with managers about communication with their teams
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-manager 

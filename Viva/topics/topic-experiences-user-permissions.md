@@ -1,6 +1,6 @@
 ---
 ms.date: 04/20/2023
-title: Manage topic permissions in Microsoft Viva Topics
+title: Manage topic permissions in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -10,15 +10,16 @@ ms.topic: article
 ms.collection:
   - m365initiative-viva-topics
   - Tier1
+  - essentials-manage
 ms.service: viva 
 ms.subservice: viva-topics 
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to administer topic permissions in Microsoft Viva Topics.
+description: Learn how to administer topic permissions in Topics.
 ---
 
-# Manage topic permissions in Microsoft Viva Topics
+# Manage topic permissions in Topics
 
 You can manage topic permissions settings in the [Microsoft 365 admin center](https://admin.microsoft.com). You must be a global administrator or SharePoint administrator to perform these tasks.
 
@@ -30,9 +31,9 @@ With topic permissions settings you can choose:
 ## To access topics management settings
 
 1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
-2. On the **Services** tab, choose **Viva Topics**.
+2. On the **Services** tab, choose **Topics**.
 
-    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
+    ![Screenshot of the Services tab with Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic permissions** tab. See the following sections for information about each setting.
 
@@ -62,11 +63,3 @@ To update who has permissions to manage topics:
     ![Screenshot of the Who can manage topics page.](../media/k-manage-who-can-manage-topics.png)  
 
 3. Select **Save**.
-
-## See also
-
-[Manage topic discovery in Microsoft Viva Topics](topic-experiences-discovery.md)
-
-[Manage topic visibility in Microsoft Viva Topics](topic-experiences-knowledge-rules.md)
-
-[Change the name of the topic center in Microsoft Viva Topics](topic-experiences-administration.md)

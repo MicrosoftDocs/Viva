@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 07/16/2020
 title: Sales business continuity dashboard
 description: Use the Sales business continuity dashboard to visualize predefined query data from Viva Insights in Power BI
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -43,7 +43,7 @@ When the Sales business continuity dashboard is populated with data, you can use
 
 This uses sample data that is only representative of the dashboard and might not be exactly what you see in a live dashboard specific to your organization's unique data.
 
-<br><iframe width="800" height="486" src="https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true" frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiMzM3YTk5ZjAtMWI3OC00NTZkLWEzYTMtMmM5NWJkNGVhMDI5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9&embedImagePlaceholder=true]
 
 To find the template for the Sales business continuity dashboard, go to the [Query designer](https://workplaceanalytics.office.com/en-us/Analyze/QueryDesigner/NewQuery). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/en-us/Analyze/QueryDesigner/NewQuery).) For complete steps, see [Set up the dashboard](#set-up-the-dashboard).
 

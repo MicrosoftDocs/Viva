@@ -25,7 +25,7 @@ audience: Admin
 
 The following describes who does what to assign admins roles for Microsoft Viva Insights:
 
-* **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles for the advanced insights app
+* **Owner** - The [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) assigns Viva Insights roles and the Microsoft Entra ID [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator) assigns roles for the advanced insights app
 * **Task** - Assign admins for Viva Insights
 * **Outcome** - Admins must set up Viva Insights for their organization. After data is provisioned, admins can then assign roles to other people in their organization to use Viva Insights.
 
@@ -39,7 +39,7 @@ See [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&b
 <!--
 ## Video: Assign roles
 
-<iframe width="640" height="564" src="https://player.vimeo.com/video/282897409" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+> [!VIDEO https://player.vimeo.com/video/282897409]
 -->
 ## Assign user or group roles
 
@@ -49,4 +49,3 @@ See [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viv
 
 * [Assign user or group roles](/viva/insights/setup/assign-user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
-

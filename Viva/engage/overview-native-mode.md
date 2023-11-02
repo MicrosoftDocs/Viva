@@ -29,14 +29,14 @@ As of January 2020, all new Viva Engage tenants start in Native Mode.
 
 ## Frequently asked questions
 
-In Native Mode, all Viva Engage users are in Azure Active Directory (Azure AD), all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
+In Native Mode, all Viva Engage users are in Microsoft Entra ID, all groups are Microsoft 365 groups, and all files are stored in SharePoint Online.
 
  > [!NOTE]
-> There are no bandwidth requirements for Native Mode migration because you are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. Nothing is downloaded. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
+> There are no bandwidth requirements for Native Mode migration because nothing is downloaded. You are essentially moving from a separate Viva Engage site to Microsoft 365 and SharePoint Online. The only consideration is the SharePoint Online quota if Viva Engage has been extensively used.
 
 A tenant must be in one of three modes:
 
-- **Native Mode for Microsoft 365**. In this mode, the network only uses features that allow users, groups, and content to be compatible with and mapped to their counterparts in Azure AD and Microsoft 365.
+- **Native Mode for Microsoft 365**. In this mode, the network only uses features that allow users, groups, and content to be compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365.
 
   When Viva Engage content is in Native Mode, you can search for it in the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/?linkid=2132455).
   
@@ -44,7 +44,7 @@ A tenant must be in one of three modes:
 
 - **Non-Native Mode**. In this mode, the network doesn't meet one or more requirements. For example, the network might not enforce Microsoft 365 identity. All external networks and Viva Engage Basic networks are in this mode because they can't connect to Microsoft 365.
 
-- **Hybrid Mode**. In this mode, users and groups might not be associated with their counterparts in Azure AD and Microsoft 365, and files might not be stored in SharePoint. The network might be in the process of meeting all requirements for Native Mode, but the admin hasn't committed the network to Native Mode.
+- **Hybrid Mode**. In this mode, users and groups might not be associated with their counterparts in Microsoft Entra ID and Microsoft 365, and files might not be stored in SharePoint. The network might be in the process of meeting all requirements for Native Mode, but the admin hasn't committed the network to Native Mode.
 
 > [!NOTE]
 > Non-Native and Hybrid modes are being deprecated in 2023.
@@ -53,7 +53,7 @@ A tenant must be in one of three modes:
 When you align your network in Native Mode, the [Native Mode Alignment Tool](./native-mode-guide.md) automates the process and guides you through the steps to get there.
 
  > [!NOTE]
-> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/viva/engage/manage-viva-engage-groups/viva-engage-all-company-viva-engage-community).
+> All Company now works like any other community in Native Mode. Admins can customize All Company and use advanced management features, such as restricting posts and promoting others as admins. For more information, see [All Company now works like other Viva Engage communities](/viva/engage/manage-viva-engage-groups/all-company-community).
 
 ## Key differences between modes
 
@@ -61,13 +61,13 @@ When you align your network in Native Mode, the [Native Mode Alignment Tool](./n
 
 - No one can inadvertently take your network out of Native Mode.
 - eDiscovery through the [Microsoft Purview compliance portal](https://go.microsoft.com/fwlink/?linkid=2132455) is supported for your home network.
-- All Viva Engage groups, users, and group memberships are managed through Microsoft 365. Management should be done through the Microsoft 365 admin center, Azure AD admin portal, or other Azure AD management tools.
+- All Viva Engage groups, users, and group memberships are managed through Microsoft 365. Management should be done through the Microsoft 365 admin center, Microsoft Entra admin center, or other Microsoft Entra management tools.
 - All communities or groups, including All Company, are Microsoft 365-connected, which means they have access to Microsoft 365 features, including live events.
 - Viva Engage honors Microsoft 365 group creation rights and enforces Microsoft 365 group creation restrictions.
 - Guests can only be added at the community level. But external networks are supported in the [US geo](/viva/engage/manage-security-and-compliance/security-and-compliance).
 - All files uploaded to groups are stored in SharePoint.
 - Files can't be uploaded to Viva Engage private messages.
-- Engage admins (Yammer administrators) are required to have  Global admin privileges or Group admin privileges from Microsoft 365 to administer changes to groups in which they aren't a group owner.
+- Engage admins (Yammer administrators) must have Microsoft Global administrator privileges or Group admin privileges from Microsoft 365 to administer changes to communities they don't own.
 
 ### Non-Native Mode (not connected)
 

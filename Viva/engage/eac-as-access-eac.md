@@ -1,6 +1,6 @@
 ---
 title: "Access the Viva Engage admin center"
-description: "Describes settings in the Viva Engage admin center."
+description: "Descriptions for settings in the Viva Engage admin center."
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: Starshine89
@@ -94,7 +94,7 @@ They're then routed to the Viva Engage admin center, where they can perform the 
 - [Migrate a network to Native Mode](/viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide), if this isn't already done
 
 >[!NOTE]
-> Because Viva Engage is power by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center will publish changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
 
 
 ## See also

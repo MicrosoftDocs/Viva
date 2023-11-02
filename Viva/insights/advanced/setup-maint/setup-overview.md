@@ -2,8 +2,8 @@
 ms.date: 04/05/2023
 title: Viva Insights setup overview
 description: Get an overview of Viva Insights setup tasks
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: checklist
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

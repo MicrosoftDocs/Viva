@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 05/22/2023
 ---
 
@@ -24,7 +24,7 @@ ms.date: 05/22/2023
 Grant access to and remove Microsoft Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks.
 
 > [!NOTE]
-> Support users must be added to your Azure Active Directory before you can add them in Viva Glint.
+> Support users must be added to your Microsoft Entra ID before you can add them in Viva Glint.
 
 ## Add a Support or Partner user
 
@@ -32,7 +32,7 @@ To add a user:
 
 1. From the admin dashboard, select the **Configure** symbol, then in **Employees** , choose **People**.
 2. In the **Actions** dropdown menu, select **Add a Support User**.
-3. Enter the First Name, Last Name, and Email on file in Azure AD for this user.
+3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.
 4. The **Company Admin User Role** will be selected by default and grants Support users the required level of access to assist in your Viva Glint account.
 
     > [!NOTE]

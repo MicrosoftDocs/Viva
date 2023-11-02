@@ -1,5 +1,5 @@
 ---
-ms.date: 07/31/2023
+ms.date: 09/22/2023
 title: Viva Connections analytics
 ms.reviewer: 
 ms.author: evanatkin
@@ -37,14 +37,15 @@ Understand how and when users engage with components of the Viva Connections exp
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. Refer to the [usage report](#whats-in-the-usage-report) section for details.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
+> - The analytics feature and centralized Viva Connections administration in the Microsoft 365 Admin center are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ## How to access the report
 
-People with site member (or higher) permissions to your organization’s [home site](/sharepoint/home-site) or Viva Connections app in Teams can view usage data.
+People with site member (or higher) permissions to your organization’s [SharePoint home site](/sharepoint/home-site) or Viva Connections app in Teams can view usage data.
 
 ### To view usage data for Viva Connections from a SharePoint home site
 
-1. Navigate to your organization’s home site.
+1. Navigate to your organization’s SharePoint home site.
 2. Select the **Settings** :::image type="icon" source="../media/connections/viva-connections-analytics/sharepoint-setting-icon.png"::: icon.
 3. Then, select **Manage Viva Connections**.
 4. Next, go to the **Analytics** section and select **View report**.
@@ -79,9 +80,9 @@ This section breaks down usage data across apps and devices, and includes activi
 
 - **Total views by apps and devices**: Includes views for desktop, web, and mobile usage.
 - **Engaged users by component**: Includes number of engaged users for the Dashboard, Feed, and Resources web parts.
-    - **Dashboard**: Includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site)
-    - **Feed**: Includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections)
-    - **Resources**: Includes usage from the tab in the mobile app and the desktop app (The global navigation bar in SharePoint isn't included).
+  - **Dashboard**: Includes usage from the [Dashboard web part](/viva/connections/use-dashboard-web-part-on-home-site)
+  - **Feed**: Includes usage from the [Feed web part](/viva/connections/use-feed-web-part-for-viva-connections)
+  - **Resources**: Includes usage from the tab in the mobile app and the desktop app (The global navigation bar in SharePoint isn't included).
 
     :::image type="content" source="../media/connections/viva-connections-analytics/analytics-usage-details.png" alt-text="Screenshot showing data covering usage details." lightbox="../media/connections/viva-connections-analytics/analytics-usage-details.png":::
 
@@ -108,6 +109,7 @@ Your organization might not want to see analytics data due to local data and com
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
    >[!NOTE]
+   >
    > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
    > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 

@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX,NOFOLLOW
 title: Import organizational data from Workday
 description: Learn how to set up a connection and import your data from Workday to the Viva Insights advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -17,7 +17,7 @@ audience: Admin
 
 Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of four ways: 
 
-* Through Azure Active Directory, which is the default source
+* Through Microsoft Entra ID, which is the default source
 * Through a .csv file that you as an Insights Administrator upload
 * Through a data import that you, your source system admin, and your Microsoft 365 IT admin set up
 * Through a connection between Workday and Viva Insights
