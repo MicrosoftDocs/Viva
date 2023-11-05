@@ -47,3 +47,5 @@ items:
     href: learning/overview-viva-learning.md
   - name: Microsoft Viva Pulse
     href: pulse/introduction-to-viva-pulse.md
+  - name: Topics in Viva
+    href: topics/topic-experiences-overview.md 
