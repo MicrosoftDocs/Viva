@@ -1,6 +1,6 @@
 ---
 ms.date: 04/20/2023
-title: Manage topic discovery in Microsoft Viva Topics
+title: Manage topic discovery in Topics
 ms.author: daisyfeller
 author: daisyfell
 manager: pamgreen
@@ -16,19 +16,19 @@ ms.subservice: viva-topics
 search.appverid:
     - MET150  
 ms.localizationpriority:  medium
-description: Learn how to administer topic discovery in Microsoft Viva Topics.
+description: Learn how to administer topic discovery in Topics.
 ---
 
-# Manage topic discovery in Microsoft Viva Topics
+# Manage topic discovery in Topics
 
 You can manage topic discovery settings in the [Microsoft 365 admin center](https://admin.microsoft.com). You must be a global administrator or SharePoint administrator to perform these tasks.
 
 ## To access topics management settings
 
 1. In the Microsoft 365 admin center, select **Settings**, then **Org settings**.
-2. On the **Services** tab, select **Viva Topics**.
+2. On the **Services** tab, select **Topics**.
 
-    ![Screenshot of the Services tab with Viva Topics selected.](../media/knowledge-management/org-settings-topics.png)
+    ![Screenshot of the Services tab with Topics selected.](../media/knowledge-management/org-settings-topics.png)
 
 3. Select the **Topic discovery** tab. See the following sections for information about each setting.
 
@@ -92,7 +92,7 @@ In the CSV template, enter the following information about the topics you want t
 - **Stands for (optional)**: If you want to exclude an acronym, type the words the acronym stands for.
 - **MatchType-Exact/Partial**: Type whether the name you entered was an *exact* or *partial* match type.
 
-    ![Screenshot of the exclude topics in CSV template.](../media/exclude-topics-csv.png) 
+    ![Screenshot of the exclude topics in CSV template.](../media/exclude-topics-csv.png)
 
 ## Exclude resources based on sensitivity labels
 
@@ -102,7 +102,7 @@ This setting excludes content based on both file and site labels.
 
 Changing this setting may cause people, alternate names, or descriptions extracted from labeled files and sites to be removed from existing topics if they occur uniquely in those locations. Some already suggested topics may be removed if they're based only on labeled content. This process may take up to two weeks once you save the setting.
 
-This setting applies to content that is suggested by Viva Topics and won't remove any content that has been pinned to a topic page.
+This setting applies to content that is suggested by Topics and won't remove any content that has been pinned to a topic page.
 
 You must be a Microsoft 365 global admin to configure this setting.
 
@@ -116,11 +116,11 @@ To exclude resources based on sensitivity labels
 1. Select **Save**.
 1. Close the advanced settings panel.
 
-When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Viva Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the number of files and pages on the site.
+When a label is newly applied to a file, the exclusion will take effect as soon as the change is processed by Topics, usually within a day. When a label is newly applied to a site, the exclusion will take effect within in a few days depending on the number of files and pages on the site.
 
 ## Exclude people from being suggested for topics by AI
 
-You can exclude specific people from being suggested for topics by Viva Topics. For example, you might want to exclude executives from being suggested as people associated with topics.
+You can exclude specific people from being suggested for topics by Topics. For example, you might want to exclude executives from being suggested as people associated with topics.
 
 You can exclude both individual users and security groups.
 
@@ -131,11 +131,3 @@ To exclude people from being suggested for topics by AI
 1. Type the users and groups that you want to exclude.
 1. Select **Save**.
 1. Close the advanced settings panel.
-
-## See also
-
-[Manage topic visibility in Microsoft 365](topic-experiences-knowledge-rules.md)
-
-[Manage topic permissions in Microsoft 365](topic-experiences-user-permissions.md)
-
-[Change the name of the topic center in Microsoft 365](topic-experiences-administration.md)

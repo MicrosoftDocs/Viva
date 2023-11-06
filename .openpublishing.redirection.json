@@ -1669,5 +1669,10 @@
       "redirect_url":"/legal/viva/glint/third-party-notice",
       "redirect_document_id": false
     },
+    {
+      "source_path": "Viva/glint/setup/glint-microsoft-teams-application.md",
+      "redirect_url":"/viva/glint/introduction-viva-glint",
+      "redirect_document_id": false
+    }
   ]
 }

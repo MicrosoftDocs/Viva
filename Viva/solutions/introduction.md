@@ -3,8 +3,8 @@
 ms.date: 02/16/2022
 title: Microsoft Viva Accelerators introduction
 description: Introduces Microsoft Viva Accelerators and what solutions are available to use
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:

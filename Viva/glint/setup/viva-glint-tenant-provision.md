@@ -20,11 +20,11 @@ ms.date: 07/17/2023
 
 # Set up a Microsoft Viva Glint tenant
 
-To deploy apps that use the Microsoft platform for identity and access management, you first need access to an Azure Active Directory (Azure AD) *tenant*. In the Azure AD tenant, you'll register and manage your Viva Glint apps, configure their access to data and other web APIs, and enable features like Conditional Access. 
+To deploy apps that use the Microsoft platform for identity and access management, you first need access to a Microsoft Entra ID *tenant*. In the Microsoft Entra tenant, you'll register and manage your Viva Glint apps, configure their access to data and other web APIs, and enable features like Conditional Access. 
 
-A tenant represents an organization. It's a dedicated instance of the Azure AD tenant that an organization or app developer receives at the beginning of a relationship with Microsoft. 
+A tenant represents an organization. It's a dedicated instance of the Microsoft Entra tenant that an organization or app developer receives at the beginning of a relationship with Microsoft. 
 
-Each Azure AD tenant is distinct and separate from other Azure AD tenants. It has its own representation of work and school identities, consumer identities (if it's an Azure AD B2C tenant), and app registrations. An app registration inside your tenant can allow authentications only from accounts within your tenant or all tenants. 
+Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra tenants. It has its own representation of work and school identities, consumer identities (if it's an Azure AD B2C tenant), and app registrations. An app registration inside your tenant can allow authentications only from accounts within your tenant or all tenants. 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
 
@@ -49,12 +49,6 @@ Choose either the US or EU URL for Azure login to begin:
 
 >[!TIP]
 > If you are unsure which URL to choose, begin with the US URL.
-
-## Microsoft Viva Professional Services
-
-If you are eligible to receive Microsoft Viva Glint professional services, please have your HR administrator (or other desired contact) complete the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) so a kickoff conversation can be initiated. If you are not eligible for Microsoft Viva Glint professional services, check out the online and phone support available via [Microsoft Admin Support](/microsoft-365/admin/get-help-support).  
-
-If you’ve submitted the [Microsoft Viva Glint Professional Services Request for Assistance form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8T1UE_ImtJJnIECppPzUA9UNEhTSkY4VENCS1MxVE5QMkxCNVBDMzk1VS4u) and would like to request a data deletion or data export of your response, please submit a ticket with [Microsoft Support](/microsoft-365/admin/get-help-support) for assistance. Form submissions are retained for 10 days.  
 
 ## Complete the Welcome to Viva Glint page
 

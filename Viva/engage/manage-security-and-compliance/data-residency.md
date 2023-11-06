@@ -2,7 +2,7 @@
 title: "Data residency for Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-cdemaagd
+ms.author: dmillerdyson
 author: cedemaagd
 manager: dmillerdyson
 ms.date: 6/28/2023

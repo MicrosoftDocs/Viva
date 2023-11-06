@@ -93,7 +93,7 @@ Owners will be able to create announcements through the Viva Connections desktop
 After [choosing to create a new announcement](#accessing-the-announcements-page) either from your Viva Connections experience or from the SharePoint home site, you'll be presented with the following fields for drafting your announcement.
 
 1. Add a title and message.
-2. Select up to 10 audiences to distribute the announcement to. Audiences can be Azure AD groups, Microsoft 365 Groups, or Azure AD dynamic groups.
+2. Select up to 10 audiences to distribute the announcement to. Audiences can be Microsoft Entra groups, Microsoft 365 Groups, or Microsoft Entra dynamic groups.
 3. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::

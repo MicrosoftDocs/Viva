@@ -23,7 +23,7 @@ audience: Admin
 To set up Yume, perform the following steps:
 
 - [Download the Yume accelerator](#download-the-yume-accelerator)
-- [Create an Azure AD Application registration](#create-an-azure-ad-application-registration)
+- [Create a Microsoft Entra Application registration](#create-an-azure-ad-application-registration)
 - [Import the PowerApps Custom Connector](#import-the-powerapps-custom-connector)
 - [Set working hours and days for users mailbox settings](#set-working-hours-and-days-for-users-mailbox-settings)
 
@@ -33,9 +33,11 @@ Download the Yume accelerator from the samples in the [VivaSolutions GitHub repo
 
 Another option is to clone this repository to your local machine and then download the samples in VivaSolutions GitHub repository.
 
-## Create an Azure AD Application registration
+<a name='create-an-azure-ad-application-registration'></a>
 
-Create an Azure Active Directory (Azure AD) Application registration by performing the following steps:
+## Create a Microsoft Entra Application registration
+
+Create a Microsoft Entra Application registration by performing the following steps:
 
 1. For the attribute **Name**, provide the value **vsol-yume-connector**.
 1. Configure the following delegated permissions for the "Microsoft Graph" API:
@@ -60,8 +62,8 @@ To import the PowerApps Custom Connector, perform the following steps:
 1. Select the *vsol-yume-connector.swagger.json* file and select **Open**. The **General** page that is displayed.
 1. Leave all the values as is and select **Security**. The **Security** page is displayed.
 1. On the **Security** page, perform the following substeps:
-    1. For the **Client ID** field, enter the client ID (application ID) from the Azure AD application registration process.
-    1. For the **Client secret** field, enter the client secret value from the Azure AD application registration process.
+    1. For the **Client ID** field, enter the client ID (application ID) from the Microsoft Entra application registration process.
+    1. For the **Client secret** field, enter the client secret value from the Microsoft Entra application registration process.
     1. For the Resource URL field, enter **https://developer.microsoft.com/graph/**.
     1. For the Scope field, leave the populated value as is.
     1. Select **Create connector** at the top-right of the menu-items bar.

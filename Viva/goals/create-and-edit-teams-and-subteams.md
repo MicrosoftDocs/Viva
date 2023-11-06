@@ -56,7 +56,7 @@ To view all subteams, go to the **Parent Team** page and select the **Sub-teams*
         1. **Team owner** – This is a mandatory field. Enter the primary email of the user who is the owner of the team. 
         1. **Team admins** – This is an optional field. You can add up to five admins to the team. Enter the primary email of the users you want to be the team’s admin. 
         1. **Parent team** – This is an optional field. Add the name of the team that needs to be the parent team for this team. Ensure that you're adding the correct name here. 
-        1. **Group ID** – This is an optional field. You can add up to five Azure AD groups as members for this team. The groups that are supported include Mail enabled security groups, Mail enabled distribution groups and nested groups. Nonmail enabled security groups and Microsoft 365 groups aren't supported. 
+        1. **Group ID** – This is an optional field. You can add up to five Microsoft Entra groups as members for this team. The groups that are supported include Mail enabled security groups, Mail enabled distribution groups and nested groups. Nonmail enabled security groups and Microsoft 365 groups aren't supported. 
             1.**NOTE:**You can find a Group’s ID by navigating to the group’s page in portal.azure.com and checking in properties.
     1. Once you have filled the above information for all the teams that you want to create, go back to the import teams page in Viva Goals and upload this excel template. 
 1. The page displays a snapshot of the teams’ information you have uploaded. Select on ‘Create Teams’ to start the import process. 
@@ -176,4 +176,3 @@ Once a team is archived, you can no longer create OKRs and initiatives under tha
 Even though you won't be able to see the archived team under **All Teams** now, you can see the assigned OKRs by expanding the parent OKRs that they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the type filter and selecting the archived team name.
 
 Activities related to the archived team are halted, including assigning team members and team-level notifications. To resume these activities, you would unarchive the team. 
-

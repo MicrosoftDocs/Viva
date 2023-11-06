@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX, NOFOLLOW
 title: Import organizational data (subsequent import)
 description: Learn how to refresh your data in the Viva Insights advanced insights app through a connection
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

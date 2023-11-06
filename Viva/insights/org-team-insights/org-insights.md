@@ -1,9 +1,9 @@
 ---
-ms.date: 11/15/2022
+ms.date: 10/18/2023
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: viva-insights-personal
 ms.localizationpriority: medium 
@@ -15,15 +15,15 @@ audience: user
 
 # Organization insights in Viva Insights
 
-Organization insights help leaders and managers of large teams understand how their organizations—the people who report to them directly or indirectly—are succeeding at work. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
+Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
 ## Subscriptions, roles, and access
 
 To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
-* Your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md) or enable you as a [group manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) in Viva Insights. 
-* You need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set. 
+* To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [Group Manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
+* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md). 
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
@@ -31,7 +31,7 @@ People in your organization also need to have a Viva Insights subscription so th
 
 People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
 
-People enabled as group managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a group manager, you can toggle between the two organization insights views.
+People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 
@@ -43,23 +43,81 @@ For further detail about privacy and organization insights, refer to our [privac
 
 Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see when you open your Viva Insights app:
 
-:::image type="complex" source="images/org-insights-all2.png" alt-text="Screenshot that shows the organization insights section." lightbox="images/org-insights-all2.png":::
-   Screenshot of the "Your organization insights" section in the Viva Insights app. The image shows three insight cards. From left to right: "Uninterrupted focus hours," which is the largest, "Multitasking hours," and "Meeting hours." Elements of the organization insights section are labeled with numbers 1-5, which correspond to feature description labels below. 1 is the scope selector, currently labeled "Your company," in the top right corner. The rest of the labels are on the "Uninterrupted focus hours" insight card. 2 is the indicators, placed next to the text, "0.3 hours per person last week." 3 is the "Show details" link next to the "Set up plan" button at the bottom left of the card. 4 is the share button at the bottom right of the card. 5 is the "Set up plan" button.
+:::image type="complex" source="images/org-insights-drilldowns.png" alt-text="Screenshot that shows the organization insights section." lightbox="images/org-insights-drilldowns.png":::
+   Screenshot of the "Your organization insights" section in the Viva Insights app.
 :::image-end:::
 
 Let's take a look at how to use these features:
 
+>[!Note] 
+>These features are rolling out gradually and should be broadly available by the end of this month.
+
 1. **Scope information** 
 
-     At the top-right of any page or section with organization insights, an indicator shows how many people the insights are measuring. If you're enabled as a group manager *and* you have the **Insights Business Leader** role assigned, you can use this toggle to view insights for either your reporting organization or for the entire company.
+     At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring.
 
     The measured group reflects people who:
 
     * Are in your reporting hierarchy, based on the organizational structure that your Insights admin maintains.
     * Have a Viva Insights subscription (that is, a premium license) applied to their account.
-    * During the week that the insight is generated for, were active in Outlook or Teams.
+    * Employees were active in Outlook or Teams during the past 12 weeks.
 
-    People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope. Select the tooltip on the toggle to view this criteria while you're viewing insights.
+    People need to meet *all* of these criteria to be part of the measured group reflected here—that is, your scope.
+
+    **If you're enabled as a Group Manager:** On the left, select the dropdown menu to toggle between viewing insights for your organization, or different subgroups within your team. Teams with less than the minimum team size will be colored gray and their insights won't be visible.
+
+    :::image type="complex" source="images/org-insights-scope-group-manager.png" alt-text="Screenshot that shows the organization insights drilldown for group managers." lightbox="images/org-insights-scope-group-manager.png":::
+   Screenshot of the "Your organization insights" drilldown section for group managers.
+    :::image-end:::
+
+    **If you have the Insights Business Leader role assigned:** You can view insights only for your entire company.
+
+    :::image type="complex" source="images/org-insights-scope-biz-leader.png" alt-text="Screenshot that shows the organization insights drilldown for Insights Business Leaders." lightbox="images/org-insights-scope-biz-leader.png":::
+   Screenshot of the "Your organization insights" drilldown section for Insights Business Leaders.
+    :::image-end:::
+
+    **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can use the toggle to view insights either for your team and subgroups, or for the entire company.
+
+1. **Time filter**
+
+    You can view insights for the most recent week, 4 weeks, or 12 weeks of available data.
+
+     :::image type="complex" source="images/org-insights-time-filter.png" alt-text="Screenshot that shows the organization insights time filter." lightbox="images/org-insights-time-filter.png":::
+   Screenshot of the "Your organization insights" time filter.
+    :::image-end:::
+
+1. **Benchmark**
+
+    Use the benchmark toggle to compare your insights against previous time periods, peer groups, or the company average. Your benchmark options will vary depending on your assigned role and the time filter you selected.
+
+    **If you're enabled as a Group Manager:** If you selected a 1 week or 4 week filter, you can compare your insights to the prior week or prior 4 weeks for your organization. 
+
+    The sample screenshot below shows the Benchmark results (highlighted) for the prior 4 weeks for your organization.
+
+    :::image type="complex" source="images/org-insights-benchmark-leader-prior-4.png" alt-text="Screenshot that shows the organization insights prior 4 weeks benchmark." lightbox="images/org-insights-benchmark-leader-prior-4.png":::
+   Screenshot of the "Your organization insights" prior 4 weeks benchmark.
+    :::image-end:::
+
+    Or, you can compare your insights to your company or your selected peers' team, for the same filtered period.
+    
+    The screenshot below shows the Benchmark results for your peer's team for the selected time period.
+
+    :::image type="complex" source="images/org-insights-benchmark-leader-peer.png" alt-text="Screenshot that shows the organization insights benchmark for peer's team." lightbox="images/org-insights-benchmark-leader-peer.png":::
+   Screenshot of the "Your organization insights" benchmark for the peer's team.
+    :::image-end:::
+
+    If you selected a 12 week time filter, you can only compare results to either your peers' teams or your company, for the same time period.
+
+    The screenshot below shows the Benchmark results for the company.
+
+   :::image type="complex" source="images/org-insights-benchmark-leader-company.png" alt-text="Screenshot that shows the organization insights benchmark for entire company." lightbox="images/org-insights-benchmark-leader-company.png":::
+   Screenshot of the "Your organization insights" benchmark for the entire company.
+    :::image-end:::
+
+    **If you have the Insights Business Leader role assigned:** You can only set 1 week or 4 week prior time periods as your benchmark. If you selected a 12 week time filter, you can't select a 12 week benchmark.
+
+    **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can select any of the benchmark options described above.
+
 
 1. **Indicators**
 
@@ -72,7 +130,7 @@ Let's take a look at how to use these features:
     >[!Note] 
     >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
 
-1. **Sharing** 
+1. **Three-dot menu for sharing** 
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
     * **In a Teams chat** – When you share through a chat, you'll have the option to send a screenshot of the insight to another person and add a custom message. The chat contains a link, so the recipient can view how the insight looks for their own team. Recipients need to qualify for organization insights to be able to view what you share with them here.
@@ -87,13 +145,19 @@ Let's take a look at how to use these features:
         :::image type="complex" source="images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
            Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
         :::image-end:::
-1. **Actions**
 
-    Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. 
 
-    Here's an example:
+## Actions
 
-    Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. They appear under **Recommended actions for your organization**.
+
+Here's an example:
+
+Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
+
+ :::image type="complex" source="images/org-insights-actions.png" alt-text="Screenshot that shows the organization insights recommended actions section." lightbox="images/org-insights-actions.png":::
+   Screenshot of the "Your organization insights" recommended actions.
+    :::image-end:::
 
 ## Insights per tab
 
@@ -105,22 +169,19 @@ Specifically, you'll find an insight related to one of the following topics each
 
 * Uninterrupted focus hours
 * Manager 1:1 meeting hours
+* Collaboration time
+* Long and large meetings
+* Recurring meetings
 * Meeting hours
-* After hours collaboration
-* No meeting day impact
-* Daily connected hours
-* Focus time participation
+* After-hours collaboration
 * Join on time rate
-* Focus time impact
-* No meeting day participation
 * Multitasking hours
-* Internal network size
 
-All insight cards show the current week's average measure, and also provide the difference from the prior period. Here's an example:
+All insight cards show the current period's average measure, and also provide the difference against the selected benchmark. Here's an example:
 
-:::image type="complex" source="../personal/teams/images/home-org-insight-example.png" alt-text="Screenshot that shows an organization insight on the Home tab.":::
-   Screenshot that shows an organization insight card on the Home tab. The insight includes a title, subtitle, numerical indicator, increase/decrease indicator, a line graph, and a recommended action with a button to begin that action, which is to set up a no-meeting day. There's also a "Show details" link and a share icon.
-:::image-end:::
+ :::image type="complex" source="images/org-insights-card.png" alt-text="Screenshot that shows the organization insights comparison card." lightbox="images/org-insights-card.png":::
+   Screenshot of the "Your organization insights" comparison card.
+    :::image-end:::
 
 ### Wellbeing
 
@@ -244,7 +305,7 @@ Browse insights about other metrics related to the one you're viewing on this pa
 
     Insights Business Leaders who are viewing insights for the entire company will also not see peer organization insights.
 * <a name="prior-period-define"></a>**Prior period** – The prior period is the period immediately before the most recent period – usually the week before the most recent completed week. 
-* <a name="reporting-hierarchy-define"></a>**Reporting hierarchy** – Your Insights administrator manages the reporting hierarchy. This hierarchy identifies reporting relationships throughout the company: people who are managers, and the people who report to them. The reporting hierarchy might be sourced from Azure Active Directory or from a manual upload from your company’s HR information system. Viva Insights uses this information to identify people in your organization, your peer organization, and any organizations that might report up to you.
+* <a name="reporting-hierarchy-define"></a>**Reporting hierarchy** – Your Insights administrator manages the reporting hierarchy. This hierarchy identifies reporting relationships throughout the company: people who are managers, and the people who report to them. The reporting hierarchy might be sourced from Microsoft Entra ID or from a manual upload from your company’s HR information system. Viva Insights uses this information to identify people in your organization, your peer organization, and any organizations that might report up to you.
 * <a name="your-organization-define"></a>**Your organization** – If the insight scope selector says **Your organization**, this group includes everyone who reports to you directly or indirectly. This group is based on your organization’s reporting hierarchy, your Insights administrator manages. If the insights scope selector says **[Your company name]**, this group includes everyone who has been set up as part of the premium insights group by your Insights administrator.
 
 ## Metric definitions
@@ -264,8 +325,6 @@ Daily connected hours | Daily connected hours measures time in 30-minute blocks 
 | Recurring meeting hours | Recurring meeting hours measures the total time per week a person spends in recurring meetings based on accepted meetings on their Outlook calendar and excluding calendar items that are likely non-meetings, such as appointments.
 |Large and long meeting hours| Large and long meeting hours measures the total time per week a person spends in meetings that are longer than an hour or have more than 8 attendees.
 |Multitasking hours	| Multitasking hours measures how much time per week a person spends in emails and chats that overlap with their meetings and Teams calls.
-|Manager 1:1 meeting hours| Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated over a rolling four-week period. 
+|Manager 1:1 meeting hours| Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated based on a weekly average. 
 |Internal network size|Internal network size measures the number of colleagues connected to the person. Connections are based on at least two interactions in the prior four-week period, excluding very large and long interactions. 
 |Manager co-attendance rate	| Manager co-attendance rate measures what percentage of meeting hours are attended by both the person and the person’s direct manager.
-
-
