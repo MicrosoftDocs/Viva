@@ -28,7 +28,7 @@ Content from a provider is discoverable by everyone in your organization, by def
 > - Any changes to permissions - adding, editing, or deleting - can take up to two hours to reflect in Viva Learning.
 > - You can select up to a maximum of ten user groups.
 > - Only Microsoft 365 groups and Mail Enabled Security groups are supported.
-> - Only members of the chosen groups can view the provider and its content within viva learning  
+> - Only members of the chosen groups can view the provider and its content within viva learning.
 
 ![Screenshot of the Provider tab in the Manage Providers modal within Viva Learning](../media/learning/provider-permissions.png)
 
@@ -45,4 +45,4 @@ Content from a provider is discoverable by everyone in your organization, by def
 7. To edit permissions, navigate to the edit menu. You can add new groups or remove existing ones. 
 
 
-![Screenshot of the Edit Permissions menu with option to edit access of user groups. ](../media/learning/provider-permissions-2.png)
+![Screenshot of the Edit Permissions menu with option to edit access of user groups.](../media/learning/provider-permissions-2.png)
