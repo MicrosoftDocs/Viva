@@ -70,8 +70,8 @@ To add employee Net Promoter Score<sup>TM</sup> (eNPS):
 3. For **Calculation Method**, select **eNPS**.
 4. In the **Search Questions** dropdown menu, search and select your eNPS question.
 
->[!IMPORTANT]
-> To select eNPS, first set up the question in the Viva Glint [Question Library](https://go.microsoft.com/fwlink/?linkid=2230918) and add to the [Questions section](https://go.microsoft.com/fwlink/?linkid=2231415) in your program.
+   >[!IMPORTANT]
+   > To select eNPS, first set up the question in the Viva Glint [Question Library](https://go.microsoft.com/fwlink/?linkid=2230918) and add to the [Questions section](https://go.microsoft.com/fwlink/?linkid=2231415) in your program.
    
 5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
 6. Select **Save Add to Program**.
