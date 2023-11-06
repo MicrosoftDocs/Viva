@@ -72,8 +72,8 @@ items:
             href: org-team-insights/org-insights.md
           - name: Organization insights FAQ
             href: org-team-insights/org-insights-faqs.md
-          - name: Microsoft Copilot Impact Dashboard (Preview)
-            href: org-team-insights/copilot-impact-dashboard.md      
+          - name: Microsoft Copilot Dashboard (Preview)
+            href: org-team-insights/copilot-dashboard.md      
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
