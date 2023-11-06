@@ -25,22 +25,24 @@ Content from a provider is discoverable by everyone in your organization, by def
 
 
 > [!NOTE]
-> Any changes to permissions - adding, editing, or deleting - can take up to two hours to reflect in Viva Learning.
+> - Any changes to permissions - adding, editing, or deleting - can take up to two hours to reflect in Viva Learning.
+> - You can select up to a maximum of ten user groups.
+> - Only Microsoft 365 groups and Mail Enabled Security groups are supported.
+> - Only members of the chosen groups can view the provider and its content within viva learning  
 
 ![Screenshot of the Provider tab in the Manage Providers modal within Viva Learning](../media/learning/provider-permissions.png)
 
-1. Go to the Admin tab, then Manage Permissions.
-1. Under Manage Permissions, select the Provider tab.
-2. To add permissions, select Edit (pencil icon).
+1. Go to the **Admin** tab, then **Manage Permissions**.
+
+1. Under **Manage Permissions**, select the **Provider** tab.
+
+1. To add permissions, select Edit (pencil icon).
+
 1. Choose the user groups who need to get access. 
-1. Select Save. 
-1. Now, only the members of this group can find this provider and its content in Viva Learning. 
 
-> [!NOTE]
-> - You can select up to a maximum of ten user groups.
-> - Only Microsoft 365 groups and mail enabled security groups are supported
+1. Select **Save**. Now, only the members of this group can find this provider and its content in Viva Learning. 
 
-7. To edit permissions, navigate to the edit menu.
-1. Add new groups or remove existing groups. 
+7. To edit permissions, navigate to the edit menu. You can add new groups or remove existing ones. 
 
-![](../media/learning/provider-permissions-2.png)
+
+![Screenshot of the Edit Permissions menu with option to edit access of user groups. ](../media/learning/provider-permissions-2.png)
