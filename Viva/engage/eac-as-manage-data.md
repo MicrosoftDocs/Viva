@@ -29,7 +29,7 @@ As an Engage administrator, you need to export data in order to manage users and
 >[!NOTE]
 >To migrate data between Viva Engage tenants, [learn about migrating content](/viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365).
 
-| **Use this data export method** | **For this purpose** |
+| Use this data export method | For this purpose |
 |---|---|
 |  [**Export user and admin list**](#export-user-and-admin-list)  |  Identify the status of current admins and users. For each user, you get an email address, title, location, and department. |
 |  [**Export tenant data by date range**](#export-tenant-data-by-date-range) | View and audit tenant data for all users from your home network for a specific date range. Options also let you include attachment files and data from external networks. |
@@ -62,7 +62,7 @@ Use this method to export data from a specific time period.
 4. Go to the location where you saved the compressed file and expand it.
 The data export contains the following files:
 
-   | **File** | **Contents** |
+   | File | Contents |
    |---|---|
    | **log.txt** | Summary of the export |
    | **request.txt** | Parameters of the export |
@@ -104,7 +104,7 @@ Data is exported into a .zip file.
 
 The data export contains the following files:
 
-| **File** | **Contents** |
+| File | Contents |
 |---|---|
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
@@ -147,11 +147,11 @@ When the user's account activity data is ready, a message with a link to the dat
 
 3. Select the link to open it.
 
-<br>
+
 
 The data export contains the following files:
 
-| **File** | **Contents** |
+| File | Contents |
 |---|---|
 | **log.txt** | Summarizes the number of entries in each .csv file and lists any errors that occur during the export. |
 | **request.txt** | Parameters used for the export |
@@ -167,13 +167,13 @@ The data export contains the following files:
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
 | **Files folder** | Contains files stored in Viva Engage created or modified by the user during the specified time period. Engage files stored in SharePoint are excluded. <br> <br>Files are in native format and named with their account ID. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
 
-This data export doesn't include:<br>
+This data export doesn't include:
 
 - Bookmarked messages
 - Group membership or org chart
 - Followed users, following users, followed topics
 - User notifications from Viva Engage (or in Microsoft Teams or Microsoft Outlook)
-- Application and language settings<br>  
+- Application and language settings
 
 >[!NOTE]
 >Data for the user’s skin tone selection is excluded from exported data. However, you can access the skin tone selection on any post in Viva Engage that includes a reaction by the user. Open the grouped modal dialog box for that specific post or comment, and view the user's skin-tone preference in the list.
