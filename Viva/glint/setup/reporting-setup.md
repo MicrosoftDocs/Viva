@@ -54,9 +54,28 @@ If adding an Aggregate Index:
 
 1. Select **+ Add Aggregate Index**.
 2. In the **Create Aggregate** panel, enter a name. For example, <Engagement\> or the name, which makes the most sense for your users.
-3. In the **Search Questions** dropdown menu, search and select **eSat** and **Recommend** items.
-4. Select **Save** and then **Add to Program**.
-5. Select **X** to close the panel.
+3. For **Calculation Method**, select **Average**.
+4. In the **Search Questions** dropdown menu, search and select **eSat** and **Recommend** items.
+5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
+6. Select **Save Add to Program**.
+7. Select **X** to close the panel.
+
+To add employee Net Promoter Score<sup>TM</sup> (eNPS):
+
+>[!NOTE]
+> Viva Glint People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
+
+1. Select **+ Add Aggregate Index**.
+2. In the **Create Aggregate** panel, enter a name. This displays in reports, select a name that makes the most sense for your users.
+3. For **Calculation Method**, select **eNPS**.
+4. In the **Search Questions** dropdown menu, search and select your eNPS question.
+
+>[!IMPORTANT]
+> To select eNPS, first set up the question in the Viva Glint [Question Library](https://go.microsoft.com/fwlink/?linkid=2230918) and add to the [Questions section](https://go.microsoft.com/fwlink/?linkid=2231415) in your program.
+   
+5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
+6. Select **Save Add to Program**.
+7. Select **X** to close the panel.
 
 >[!TIP]
 > Use Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which can provide insightful focus areas in results reporting.
