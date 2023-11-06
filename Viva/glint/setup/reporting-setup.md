@@ -29,21 +29,33 @@ In the **Program Roles** section, you'll see which User Roles have access to the
 To give extra User Roles access to view this program's survey results:
 
 1. Select **Add Role**.
-   >[!NOTE]
+
+   > [!NOTE]
    > User Roles need to be created first to appear. Refer to [Set Up User Roles](https://go.microsoft.com/fwlink/?linkid=2230740).
+
 2. Select the desired **Reporting Access:**
+
    1. **Live Access**: Roles have full access to results as they come in, and when surveys are completed.
    2. **Phased Access**: Roles don't have automatic access to Live or completed surveys until they're granted access by the admin, on a per program case. This access does allow retained access to previous surveys and other data inside Viva Glint programs.
+
 3. Toggle **Concierge Visibility** to enable or disable Manager Concierge. [Visit Manager Concierge for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231115).
-   >[!TIP]
+
+   > [!TIP]
    > Use Manager Concierge for your manager to get the most out of their survey feedback.
+
 4. Toggle **Broader Team Insights** to enable or disable a roll-up level of survey results that can be visible to managers if they haven't met survey confidentiality thresholds within their team. [Visit Broader Team Insights for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231012).
+
 5. Team Conversations is enabled by default. Toggle to **OFF** to disable this feature.
+
 6. Select the desired **Dashboard Default** from the dropdown menu.
-   >[!TIP]
+
+   > [!TIP]
    > Company Admin roles should have the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010) and all others should have [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210).
+
 7. Recommended reports will prepopulate. To add extra **Report Template Access**, use the **Search** field. Select the **X** next to the report to remove a Report Template access.
+
 8. If you need to delete a role for this survey, select **Delete Role** in that role box.
+
 9. Repeat the steps for each extra role.
 
 ## Finish additional schedule setup
@@ -62,7 +74,7 @@ If adding an Aggregate Index:
 
 To add employee Net Promoter Score<sup>TM</sup> (eNPS):
 
->[!NOTE]
+> [!NOTE]
 > Viva Glint People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
 
 1. Select **+ Add Aggregate Index**.
@@ -70,7 +82,7 @@ To add employee Net Promoter Score<sup>TM</sup> (eNPS):
 3. For **Calculation Method**, select **eNPS**.
 4. In the **Search Questions** dropdown menu, search and select your eNPS question.
 
-   >[!IMPORTANT]
+   > [!IMPORTANT]
    > To select eNPS, first set up the question in the Viva Glint [Question Library](https://go.microsoft.com/fwlink/?linkid=2230918) and add to the [Questions section](https://go.microsoft.com/fwlink/?linkid=2231415) in your program.
    
 5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
