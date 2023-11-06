@@ -52,11 +52,11 @@ Control how people access Viva Engage: set password policies, control external n
   
 3. Select ways to limit access to all external networks:
 
-- **Require admin approval for users to join other companies' external networks:** When you select this box, users must request approval before they join external networks created by other organizations.
+   - **Require admin approval for users to join other companies' external networks:** When you select this box, users must request approval before they join external networks created by other organizations.
 
-- **Disable Related External Networks directory:** The Related Networks directory is a list of external networks to which one or more of your users belong. Selecting this box removes this directory from the External Network page.
+   - **Disable Related External Networks directory:** The Related Networks directory is a list of external networks to which one or more of your users belong. Selecting this box removes this directory from the External Network page.
 
-- **Disable Our External Networks directory:** The Our External Networks directory lists all external networks attached to your Viva Engage network. Select this if you want to prevent users from viewing (and requesting to join) external networks.
+   - **Disable Our External Networks directory:** The Our External Networks directory lists all external networks attached to your Viva Engage network. Select this if you want to prevent users from viewing (and requesting to join) external networks.
   
 ## Prevent intellectual property from being shared with external participants and on external networks
 

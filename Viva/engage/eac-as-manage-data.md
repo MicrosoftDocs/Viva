@@ -43,9 +43,9 @@ As an Engage administrator, you need to export data in order to manage users and
 Use the Data export page in the admin portal to access all data exports.
 
 1. Select the **Governance and compliance** tab.
-2. Select **Data Export**. <br>
+2. Select **Data Export**.
 
-:::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Screenshot shows the Governance and compliance tab where you can find your data export options.":::
+   :::image type="content" source="../media/engage/admin/eac-data-export.png" alt-text="Screenshot shows the Governance and compliance tab where you can find your data export options.":::
 
 ## Export user and admin list
 
