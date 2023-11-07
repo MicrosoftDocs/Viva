@@ -89,7 +89,7 @@ tools:
     - title: Topics in Viva
       # imageSrc should be square in ratio with no whitespace
       imageSrc: media/logos/topics-launch-c-64.svg
-      url: /viva/topics/
+      url: /microsoft-365/topics/
 
 
 # additionalContent section (optional)
