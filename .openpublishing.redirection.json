@@ -1919,6 +1919,11 @@
       "source_path": "Viva/topics/where-to-find-topics.md",
       "redirect_url": "/microsoft-365/topics/where-to-find-topics",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/troubleshoot-and-resolve-error-messages.md",
+      "redirect_url": "/viva/troubleshoot/pulse/fix-setup-error-messages",
+      "redirect_document_id": false
     }
   ]
 }
