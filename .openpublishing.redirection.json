@@ -84,6 +84,11 @@
         "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
         "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
         "redirect_document_id": false
+      },
+      {
+        "source_path": "viva/pulse/troubleshoot-and-resolve-error-messages.md",
+        "redirect_url": "/viva/troubleshoot/pulse/fix-setup-error-messages",
+        "redirect_document_id": false
       },           
       {
         "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
