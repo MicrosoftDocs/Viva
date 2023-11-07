@@ -25,6 +25,9 @@ User file imports help admins to keep users current with their organization's HR
 >[!WARNING]
 > For security reasons, never email your employee attributes file.
 
+> [!CAUTION]
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
+
 ### File requirements
 
 The files exported by your HRIS system should be either comma-separated values (CSV) or Microsoft Excel (TM) files (.csv or .xlsx extensions). CSV is the preferred format with UTF-8 encoding. The following section provides additional information on the file format and structure.
