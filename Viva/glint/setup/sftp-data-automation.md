@@ -31,7 +31,7 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240826).
 
 > [!CAUTION]
-> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admins users will be deactivated and lose access to the platform.
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
 
 ## Manage SFTP settings
 
