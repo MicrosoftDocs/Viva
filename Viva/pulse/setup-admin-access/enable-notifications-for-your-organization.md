@@ -26,7 +26,7 @@ Users only receive Teams Activity feed and Teams Chat notifications from Viva Pu
 
 ### Teams Chat notifications
 
-If users in your tenant already have the Viva Pulse Teams app installed and are not receiving Teams Chat notifications, their Viva Pulse Teams app has not been upgraded to the latest version that includes the Teams Chat notifications. As an admin, you can create a [Teams app setup policy](./manage-install-pin-viva-pulse-in-teams-admin-center.md) or run a PowerShell script to push the Viva Pulse Teams app update for users in your tenant.
+If users in your tenant already have the Viva Pulse Teams app installed and are not receiving Teams Chat notifications, their Viva Pulse Teams app has not been upgraded to the latest version that includes the Teams Chat notifications. As an admin, you can create a [Teams app setup policy](./manage-install-pin-viva-pulse-in-teams-admin-center.md) to push the Viva Pulse Teams app update for users in your tenant.
 
 If users are on **old Microsoft Teams** and are not receiving Teams Chat notifications, they should open the Viva Pulse Teams app and select **Update** in the banner at the top of the app to upgrade to the latest app version. If users are on **new Microsoft Teams** and are not receiving Teams Chat notifications, they should select **Apps** on the left side of Teams, **Manage your apps** at the bottom left of the screen, and **Update** next to Viva Pulse to upgrade to the latest app version. For more information, see [Update an app in new Microsoft Teams](https://support.microsoft.com/office/update-an-app-in-microsoft-teams-3d53d136-5c5d-4dfa-9602-01e6fdd8015b).
 
