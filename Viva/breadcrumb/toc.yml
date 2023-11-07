@@ -99,3 +99,19 @@
     - name: Viva Amplify
       tocHref: /viva/amplify/
       topicHref: /viva/amplify/overview-viva-amplify
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Pulse
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/pulse/introduction-to-viva-pulse
+      items:
+      - name: Viva Pulse troubleshooting
+        tocHref: /viva/troubleshoot/pulse/
+        topicHref: /viva/pulse/introduction-to-viva-pulse
