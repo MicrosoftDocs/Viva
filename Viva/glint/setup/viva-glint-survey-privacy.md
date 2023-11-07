@@ -27,10 +27,10 @@ Viva Glint uses several methods to inform you about what level of privacy users 
 
 ### Confidential surveys
 
-For confidential surveys, Viva Glint aggregates (group averages) responses before reporting results. Because it's easier to guess a survey taker's identity when there are few responses, confidential survey responses are only reported when a survey item (question) receives a minimum number of responses. This number is set by your organization and may differ for rating/multiple choice questions versus comments. For a survey to be confidential, this minimum number of responses can't be set below three (3). 
+For confidential surveys, Viva Glint aggregates (group averages) responses before reporting results. Because it's easier to guess a survey taker's identity when there are few responses, confidential survey responses are only reported when a survey item (question) receives a minimum number of responses. This number is set by your organization and might differ for rating/multiple choice questions versus comments. For a survey to be confidential, this minimum number of responses can't be set below three (3). 
 
 > [!NOTE]
-> Viva Glint surveys may contain three types of items/questions:
+> Viva Glint surveys might contain three types of items/questions:
 >
 > - Ratings: Survey takers choose a score on a numerical scale.
 > - Multiple choice: Survey takers choose from pre-populated options
@@ -38,7 +38,7 @@ For confidential surveys, Viva Glint aggregates (group averages) responses befor
 
 ### Identifiable surveys
 
-In Identifiable surveys, survey takers' identities may be directly or indirectly available within reporting. The minimum response threshold for these surveys is below three. An example of an identifiable survey could be a company's exit survey, where viewing responses for each departing employee is desired.
+In Identifiable surveys, survey takers' identities might be directly or indirectly available within reporting. The minimum response threshold for these surveys is below three. An example of an identifiable survey could be a company's exit survey, where viewing responses for each departing employee is desired.
 
 ## Use your organization's statement about privacy
 
@@ -50,17 +50,17 @@ This statement provides information about who can see survey takers' identifiabl
 
 ### A statement about privacy advises access and data handling of survey responses
 
-Even for confidential surveys, your organization's customer admin may be able to access identifiable survey responses. This access may be necessary for an organization to meet its legal obligations, such as [Data Subject Rights under GDPR](/microsoft-365/admin/security-and-compliance/gdpr-compliance?view=o365-worldwide&preserve-view=true). However, your organization can choose to opt out of this on a survey-by-survey basis using Viva Glint admin controls. 
+Even for confidential surveys, your organization's customer admin might be able to access identifiable survey responses. This access might be necessary for an organization to meet its legal obligations, such as [Data Subject Rights under GDPR](/microsoft-365/admin/security-and-compliance/gdpr-compliance?view=o365-worldwide&preserve-view=true). However, your organization can choose to opt out of this on a survey-by-survey basis using Viva Glint admin controls. 
 
 > [!IMPORTANT]
 > A statement is automatically selected based on your progam setup configurations.
 
 ## Confidential surveys which do not support raw survey responses export
-If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement will be applied to surveys. Even in these cases, your organization will have access to identifiable survey responses if it determines that such access is necessitated by "extreme circumstances," such as suspected illegal activity, fraud, threats of physical harm, or legal obligation. This confidentiality-based statement will make this clear to survey takers, stating “[our organization's name] may access your identifiable survey responses if it determines that extreme circumstances exist." In addition, logs will be generated and available to your organization when survey responses are accessed in this way.
+If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement will be applied to surveys. Even in these cases, your organization will have access to identifiable survey responses if it determines that such access is necessitated by "extreme circumstances," such as suspected illegal activity, fraud, threats of physical harm, or legal obligation. This confidentiality-based statement will make this clear to survey takers, stating “[our organization's name] might access your identifiable survey responses if it determines that extreme circumstances exist." In addition, logs will be generated and available to your organization when survey responses are accessed in this way.
 
 **Example:** 
 
-Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data may be accessed and your organization's Privacy Policy also has more information.
+Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data might be accessed and your organization's Privacy Policy also has more information.
 
 ## Confidential surveys which do support raw survey responses export
 
@@ -68,7 +68,7 @@ If your organization has approved making raw survey responses available for a pa
 
 **Example:** 
 
-Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at Contoso will have access to your identifiable survey responses. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data may be accessed and your organization's Privacy Policy also has more information. 
+Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at Contoso will have access to your identifiable survey responses. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data might be accessed and your organization's Privacy Policy also has more information. 
 
 ## Identifiable surveys
 
@@ -94,7 +94,7 @@ At the beginning of each survey, the privacy statement will inform survey takers
 
 ## Privacy is protected by managing reporting roles and permissions
 
-Your organization can configure who may view and configure survey reports at various levels. For instance, your organization might use the following reporting hierarchy for its marketing organization and assign permissions accordingly:
+Your organization can configure who might view and configure survey reports at various levels. For instance, your organization might use the following reporting hierarchy for its marketing organization and assign permissions accordingly:
 
 1. Marketing program managers (PMs) can only view survey results from the team they manage.
 2. Marketing directors (to whom marketing PMs report) can view survey results for all the teams reporting up through them.
@@ -108,13 +108,13 @@ For example, consider a survey of the marketing organization described above wit
 
 ## Why does the comments threshold differ from the survey items threshold?
 
-As stated above, the default minimum response thresholds for ratings and multiple-choice questions are five (5) but for the comments the default threshold is 10. The reason for the higher threshold is due to comments being easier for the user to infer which survey respondent provided the feedback. As comments are reported as written (verbatim), the report user may notice a writing or grammatical style that is unique to a specific person. The smaller the group, the larger the potential to deduce the survey respondent.
+As stated above, the default minimum response thresholds for ratings and multiple-choice questions are five (5) but for the comments the default threshold is 10. The reason for the higher threshold is due to comments being easier for the user to infer which survey respondent provided the feedback. As comments are reported as written (verbatim), the report user might notice a writing or grammatical style that is unique to a specific person. The smaller the group, the larger the potential to deduce the survey respondent.
 
 **Example:** If a manager receives seven (7) responses from their team, they'll see an aggregated score but not the comments. On the other hand, if a manager receives 20 responses, they'll see both the calculated score and the comments provided, regardless of the number of comments received.
 
 ## Suppression thresholds add further protection
 
-In some cases, even when the minimum response threshold is met, the ability to filter reporting by survey responder attributes (like title or location) and then compares those filtered results to nonfiltered results may allow a survey responder's identify to be inferred. In these cases, responses are "suppressed"—meaning, not reported even if the minimum response threshold was met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
+In some cases, even when the minimum response threshold is met, the ability to filter reporting by survey responder attributes (like title or location) and then compares those filtered results to nonfiltered results might allow a survey responder's identify to be inferred. In these cases, responses are "suppressed"—meaning, not reported even if the minimum response threshold was met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
 
 Consider a marketing PM from the example above, given the following:
 
@@ -126,4 +126,4 @@ Consider a marketing PM from the example above, given the following:
 
 In this case, the marketing PM can't see the European score because, with only one (1) response from European employees, the minimum response threshold isn't met. But the PM can view the teamwide score (based on six responses) and North American-only score (based on five responses)—right? **No!** Those results are **suppressed**.
 
-Why? Because, by comparing the teamwide score to the North American score, the marketing PM may be mathematically able to determine the score received from just the single European team member. When the PM sees that the North American score is 'Very Good' but the teamwide score isn't, the user may correctly infer that the European team member brought the average down. With a little math, the marketing PM may be able to calculate the exact score the European team member provided. For the North American score to be displayed, there needs to be more than two responses within the overall team score that aren't within the North American group. So, if the overall team earned eight responses where five were from North America and three were from Europe, the marketing PM sees both the overall team score and the North American score, having exceeded the suppression threshold.
+Why? Because, by comparing the teamwide score to the North American score, the marketing PM might be mathematically able to determine the score received from just the single European team member. When the PM sees that the North American score is 'Very Good' but the teamwide score isn't, the user might correctly infer that the European team member brought the average down. With a little math, the marketing PM might be able to calculate the exact score the European team member provided. For the North American score to be displayed, there needs to be more than two responses within the overall team score that aren't within the North American group. So, if the overall team earned eight responses where five were from North America and three were from Europe, the marketing PM sees both the overall team score and the North American score, having exceeded the suppression threshold.
