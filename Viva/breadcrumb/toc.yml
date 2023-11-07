@@ -115,3 +115,19 @@
       - name: Viva Pulse troubleshooting
         tocHref: /viva/troubleshoot/pulse/
         topicHref: /viva/pulse/introduction-to-viva-pulse
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva suite administration
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/microsoft-viva-overview
+      items:
+      - name: Viva suite administration troubleshooting
+        tocHref: /viva/troubleshoot/viva-suite-administration/
+        topicHref: /viva/microsoft-viva-overview
