@@ -98,7 +98,7 @@ By enabling this, you're allowing Viva Learning to fetch user information, user 
 
 ## Pre-requisite for enabling SSO
 
-Refer to the [Azure Active Directory (AAD) single sign-on (SSO) integration with Saba Cloud](https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/saba-cloud-tutorial) topic for configuration information on enabling SSO.
+Refer to the [Azure Active Directory (AAD) single sign-on (SSO) integration with Saba Cloud](/azure/active-directory/saas-apps/saba-cloud-tutorial) topic for configuration information on enabling SSO.
 
 Ensure that the SSO configuration on AAD and Saba is same and that the users login method on Saba is set to "SSO."
 
