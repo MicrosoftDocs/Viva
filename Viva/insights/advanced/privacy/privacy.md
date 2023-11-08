@@ -51,9 +51,9 @@ As a data controller, your organization should:
 * Determine the scope of data to analyze and the purpose and objectives of the analysis.
 * Work with your organization’s legal, privacy, and human resources teams for the following tasks:
     * Determining whether you should obtain consent from employees in your company.
-    * Determining what information you provide to employees about how your organization will process their personal data in Viva Insights.
+    * Determining what information you provide to employees about how your organization processes their personal data in Viva Insights.
     * Accounting for local considerations (for example, obtain approval from local works councils, if applicable).
-* Use Viva Insights privacy controls to direct what data will be analyzed, how data will appear in results, and who will have access to both raw data and the results of analysis.
+* Use Viva Insights privacy controls to direct what data will be analyzed, how data appear in results, and who will have access to both raw data and the results of analysis.
 * Review and be familiar with this document and other Viva Insights privacy documentation provided by Microsoft.
 
 #### Data processor
@@ -107,7 +107,7 @@ In this example, Viva Insights calculates **After hours** and **Email hours** fo
 
 ### Minimum group size 
 
-Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won’t show results for groups with fewer than 10 people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates as well as organization insights for leaders and managers in Outlook and Teams. 
+Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won’t show results for groups with fewer than 10 people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates and organization insights for leaders and managers in Outlook and Teams. 
 
 ### Distribution masking 
 
@@ -115,7 +115,7 @@ Some insights measure how many people have a certain profile, like what percenta
 
 ### Differential privacy 
 
-Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which is not very useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
+Microsoft Viva Insights is serious about protecting individual privacy. Privacy can always be guaranteed if no information is revealed, which is not useful. Similarly, making all information available can lead to high-fidelity metrics that compromise individual privacy. 
 
 Differential privacy offers a balance between providing useful information and protecting individual privacy. Using methods from world-class researchers, Viva Insights randomly adjusts individual observations such that the aggregated adjustments offset each other, and the aggregated result that the user sees is still accurate. With differential privacy, users can’t discern true individual results, because the individual results used in the calculation have been changed. For more details, refer to [Differential Privacy for Everyone](https://download.microsoft.com/download/D/1/F/D1F0DFF5-8BA9-4BDF-8924-7816932F6825/Differential_Privacy_for_Everyone.pdf). 
 
@@ -279,7 +279,7 @@ After you've developed an analysis plan but before you begin processing data in 
 
 Higher-risk data includes sensitive demographic data, like racial or ethnic origin, sex or gender, and trade union membership. Higher-risk uses of Viva Insights include using the service for profiling or to make automated decisions or predictions about employees. (Note that Microsoft designed Viva Insights to help people within organizations make data-driven decisions, not to automate those decisions.) 
 
-If you determine that a DPIA is necessary for your proposed use of Viva Insights, you'll need to document several aspects of how you'll use the service to process personal data, including how the data will be collected; how it will be processed; the necessity of the processing in relation to the purpose; what risks the processing presents to employees; the data flows within and outside Viva Insights; feedback that you received from employees regarding the proposed data processing; and any other information that your organization’s data-protection officer (or equivalent) deems necessary for the DPIA. As a data controller, your organization is entirely responsible for determining your organization’s purposes for using Viva Insights. As a data processor, Microsoft informs you how the product functions and processes data pursuant to your configuration of the services. 
+If you determine that a DPIA is necessary for your proposed use of Viva Insights, you'll need to document several aspects of how you'll use the service to process personal data, including how the data is collected; how it's processed; the necessity of the processing in relation to the purpose; what risks the processing presents to employees; the data flows within and outside Viva Insights; feedback that you received from employees regarding the proposed data processing; and any other information that your organization’s data-protection officer (or equivalent) deems necessary for the DPIA. As a data controller, your organization is entirely responsible for determining your organization’s purposes for using Viva Insights. As a data processor, Microsoft informs you how the product functions and processes data pursuant to your configuration of the services. 
 
 ### Limiting data sensitivity 
 
