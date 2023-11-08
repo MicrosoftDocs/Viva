@@ -215,15 +215,15 @@ You should now see the Azure DevOps icon next to your Key Result. Viva Goals wil
 
 ## Troubleshooting connection issues
 
-To integrate with Azure DevOps, the Viva Goals Service needs to be able to access the work items in the Azure DevOps Organization and initiative that you configure when creating the connection in Viva Goals. Depending on how your organization manages their Azure Active Directory conditional access policies and Azure DevOps permissions, Viva Goals could be unable to access information. 
+To integrate with Azure DevOps, the Viva Goals Service needs to be able to access the work items in the Azure DevOps Organization and initiative that you configure when creating the connection in Viva Goals. Depending on how your organization manages their Microsoft Entra Conditional Access policies and Azure DevOps permissions, Viva Goals could be unable to access information. 
 
 ### Forbidden Errors 
 
-If you encounter forbidden error messages when creating an Azure DevOps connection, it's likely that IP address constraints or other Conditional Access Policies are to blame. In this case you need to verify if the Enable Azure AD CAP validation policy is enabled on the Azure DevOps Organization, for more details please reference [Azure DevOps documentation.](/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops&preserve-view=true) 
+If you encounter forbidden error messages when creating an Azure DevOps connection, it's likely that IP address constraints or other Conditional Access Policies are to blame. In this case you need to verify if the Enable Microsoft Entra ID CAP validation policy is enabled on the Azure DevOps Organization, for more details please reference [Azure DevOps documentation.](/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops&preserve-view=true) 
 
 ### Solutions
 
-You have two options, you can either turn off the Enable Azure AD CAP validation policy on the Azure DevOps organization. Which would require and Azure DevOps Administrator, or you need to add the Viva Goals Service Outbound IP addresses to the Conditional Access Policies for your tenants Azure Active Directory. 
+You have two options, you can either turn off the Enable Microsoft Entra ID CAP validation policy on the Azure DevOps organization. Which would require and Azure DevOps Administrator, or you need to add the Viva Goals Service Outbound IP addresses to the Conditional Access Policies for your tenants Microsoft Entra ID. 
 
 ## FAQ (Frequently Asked Questions)
 

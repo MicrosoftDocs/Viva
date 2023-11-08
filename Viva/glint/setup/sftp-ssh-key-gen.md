@@ -14,16 +14,13 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 10/18/2023
 ---
 
 # Create an SSH key pair
 
 To access your Microsoft Viva Glint SFTP account, create an SSH key pair, which includes a public and private key.
-
-> [!NOTE]
-> SFTP will be available in Viva Glint after **October 28th, 2023**.
 
 ## Understand SSH key pair requirements
 

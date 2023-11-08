@@ -1,5 +1,5 @@
 ---
-ms.date: 10/20/2023
+ms.date: 10/31/2023
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -93,7 +93,7 @@ Admins are able to create multiple standalone experiences well as intranet home 
 
 #### Create a Connections experience
 
-This option is ideal if your organization doesn't have an existing intranet portal and just needs to create an experience. This option provides a lightweight experience without a SharePoint intranet portal that users can use to add their own content. Once the Connections experience is created, it can be set as a SharePoint intranet portal (it can be accessed from SharePoint), or, an existing intranet portal can be added.
+This option is ideal if your organization doesn't have an existing intranet portal and just needs to create an experience. This option provides a lightweight experience without a SharePoint intranet portal that users can use to add their own content. Once the Connections experience is created, it can be set as a SharePoint intranet portal (it can be accessed from SharePoint).
 
 1. Select **+ Create new**, displayed on top of the list of experiences.
 
@@ -191,17 +191,17 @@ Assign two or more owners to each experience so that they have full access to [e
 
 ### Step 3: Designate audiences
 
-Decide which Azure Active Directory security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners will assign member- and visitor-level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
+Decide which Microsoft Entra security groups or Microsoft 365 groups should be associated with each Viva Connections experience. Adding audiences doesn't grant permissions to the experience but creates associations to scope down who should see the experience by default. Later, owners will assign member- and visitor-level permissions to grant access to the experience, and will further filter the experiences through audience targeting.
 
 > [!NOTE]
 > Visitors are set to **Everyone in the company except external users** by default.
 
 Audience targeting can be set up by doing either of the following tasks:
 
-1. Assigning one or more Azure Active Directory security groups or Microsoft 365 groups to the experience (This is the most common scenario).
+1. Assigning one or more Microsoft Entra security groups or Microsoft 365 groups to the experience (This is the most common scenario).
 2. Assigning license-level filtering, and choosing if frontline workers (F-license holders) or non-frontline workers should be targeted. (This option has been introduced to account for a scenario where a targeted experience for frontline and information workers is needed.)
 
-In this example scenario, Contoso Retail wants to target all sales frontline workers for a specific Connections experience. However, they have an Azure Active Directory (Azure AD) group for ‘Contoso Sales All’ that includes sales directors and higher who are non-frontline workers. To set up the audience targeting, the Azure AD group ‘Contoso Sales All’ license filtering option should be set to **frontline workers**. This setting will filter down the experience to only members of the ‘Contoso Sales All’ group who are also frontline workers (F-license holders). If the end user selects both options, an ‘AND’ operation is created, and the end user has to satisfy both the group and the license filtering criteria to access the experience.
+In this example scenario, Contoso Retail wants to target all sales frontline workers for a specific Connections experience. However, they have a Microsoft Entra group for ‘Contoso Sales All’ that includes sales directors and higher who are non-frontline workers. To set up the audience targeting, the Microsoft Entra group ‘Contoso Sales All’ license filtering option should be set to **frontline workers**. This setting will filter down the experience to only members of the ‘Contoso Sales All’ group who are also frontline workers (F-license holders). If the end user selects both options, an ‘AND’ operation is created, and the end user has to satisfy both the group and the license filtering criteria to access the experience.
 
 Users who have already designated audiences for their experiences can use the following steps to manage their audiences:
 
@@ -212,9 +212,9 @@ Users who have already designated audiences for their experiences can use the fo
    :::image type="content" source="../media/connections/set-up-admin-center/editing-audience.png" alt-text="Screenshot of the screen on which you can save the setting of designating audiences to experiences." lightbox="../media/connections/set-up-admin-center/editing-audience.png":::
 
 4. To create an experience for the entire organization, select **Everyone in the organization**.
-5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Azure AD/M365 group, or by both.
+5. To create an experience for a distinct audience, select **Scope down the audience for this experience**. Then, you can filter audiences by license type, by Microsoft Entra group or M365 group, or by both.
 
-    1. **Add by group**: Filter based on the Azure AD/M365 group by typing the group name(s) in the search bar.
+    1. **Add by group**: Filter based on the Microsoft Entra group or M365 group by typing the group name(s) in the search bar.
     1. **Add by license type**: Filter based on the subscriber license type.
 
        > [!NOTE]

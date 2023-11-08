@@ -37,7 +37,7 @@ Use this procedure only to invite employees with a company email to Viva Engage.
 - If you don't enforce Office 365 identity, users must select the Viva Engage tile from Office 365 or sign in to Viva Engage to join the network.
 - If you invite a user to a group who has no Viva Engage license, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails.
 
-**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must perform this action in the [Azure Active Directory User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must perform this action in the [Microsoft Entra user Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
 
 **If your Viva Engage network is not in Native Mode**, follow these steps:
   
@@ -81,7 +81,7 @@ For more information about guests, see [External Messaging FAQ](../work-with-ext
 
 You can deactivate or permanently remove active users, pending users, and guests.
 
-**If your Viva Engage network is in Native Mode**, only use the **Remove Users** page in the Admin portal to process a  data subject request for GDPR. Before you proceed, review [GDPR requests](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md) or [GDPR requests for all of Office 365](/compliance/regulatory/gdpr-dsr-Office365). To remove a user from your Viva Engage Network, go to the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+**If your Viva Engage network is in Native Mode**, only use the **Remove Users** page in the Admin portal to process a  data subject request for GDPR. Before you proceed, review [GDPR requests](../manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md) or [GDPR requests for all of Office 365](/compliance/regulatory/gdpr-dsr-Office365). To remove a user from your Viva Engage Network, go to the [Microsoft Entra user Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
 
 **If your Viva Engage network is not in Native Mode**, follow these steps:
 
@@ -95,9 +95,9 @@ You can deactivate or permanently remove active users, pending users, and guests
     
    - **Deactivate this user:**
  
-      - If the user has no Azure AD credentials, this option blocks the user from signing in until the user verifies their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
+      - If the user has no Microsoft Entra credentials, this option blocks the user from signing in until the user verifies their email address again. Without access to their verified email account, they can't sign back in to Viva Engage. User profile information, messages, and file uploads remain. This can be a useful option for departing contract employees as they can be renewed when they return. Deactivated users can reactivate their account within 90 days by enabling their email account and signing in to Viva Engage, where they receive an email with links to reactivate. After 90 days, the account is permanently deleted.
 
-      - If the user has Azure AD credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
+      - If the user has Microsoft Entra credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
     
    - **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted. 
     
@@ -128,7 +128,7 @@ You can deactivate or permanently remove active users, pending users, and guests
 
 A user with a blocked email address can't join your Viva Engage network unless an admin unblocks the address.
 
-**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must block users from the [Azure AD User Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
+**If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must block users from the [Microsoft Entra user Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
   
 **If your Viva Engage network is not in Native Mode**, block users using one of the following options:
   
