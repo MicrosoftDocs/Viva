@@ -71,7 +71,7 @@ For a GDPR user data export, verified Viva Engage admins and Engage admins can f
 
 ## Procedure: Enable the Answers experience
 
-By default, Answers is turned on and visible in Viva Engage for all Viva suite and Topics licensed users who have the Viva Engage Knowledge service plan assigned.
+By default, Answers is turned on and visible in Viva Engage for all Viva Suite and Topics licensed users who have the Viva Engage Knowledge service plan assigned.
 Optionally, you can hide Answers from view in the Viva Engage Teams app, which allows users to access Answers content only through existing links. They won't be able to contribute to threads or navigate the Answers experience.  
 
 Only a Microsoft 365 Global admin can enable or disable Answers.
