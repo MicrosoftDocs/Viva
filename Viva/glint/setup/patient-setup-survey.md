@@ -1,6 +1,6 @@
 ---
 title: Set up a Viva Glint Patient Safety survey
-description: Many healthcare customers have moved to the Viva Glint patient safety survey to help assess and improve their patient safety culture. 
+description: Many healthcare customers move to the Viva Glint patient safety survey to help assess and improve their patient safety culture. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -20,7 +20,7 @@ ms.date: 11/08/2023
 
 # Set up a Viva Glint Patient Safety survey 
 
-Many healthcare customers have moved to the Viva Glint patient safety survey to help assess and improve their patient safety culture. It was approved as a consistent and reliable measure of patient safety culture by Leapfrog's expert panel in the spring of 2020 and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to get to healthcare leaders clearly and quickly. 
+Many healthcare customers move to the Viva Glint patient safety survey to assess and improve their patient safety culture. It was approved as a reliable measure of patient culture by Leapfrog's expert panel in the spring of 2020 and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to get to healthcare leaders clearly and quickly. 
 
 ## Save time using Viva Glint's safety survey  
 Gynelle Miller, Lead Patient Safety and Reliability Specialist at Corewell Health, said that compared to their old safety survey reporting process, her team saved approximately 200 hours of time leveraging Viva Glint patient safety survey insights on the Viva Glint platform! 
