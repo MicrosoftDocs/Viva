@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up Answers in Viva Engage
+# Overview and setup of Answers in Viva Engage
 
 **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app.
 
