@@ -141,4 +141,4 @@ Only a Microsoft Global 365 administrator can turn this feature off to hide it f
 
 [Answers in Viva: Frequently asked questions (FAQ)](/viva/engage/eac-answers-faq)
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)

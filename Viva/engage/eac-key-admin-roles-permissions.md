@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Manage administrative roles in Viva Engage
+# Manage administrator roles in Viva Engage
 
 To perform administrative tasks in Viva Engage, a user must be assigned an administrator role. Each role is a collection of permissions. The following table summarizes the permissions for each role in Viva Engage. Some Viva Engage roles are managed in Microsoft Entra ID (formerly Azure Active Directory), and others are managed in Viva Engage.
 
