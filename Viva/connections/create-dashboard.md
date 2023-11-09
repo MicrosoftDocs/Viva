@@ -1,6 +1,6 @@
 ---
 ms.date: 10/27/2023
-title: "Add, edit, and remove cards from the Viva Connections dashboard "
+title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
@@ -294,7 +294,8 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2.	Select **News** from the dashboard toolbox.
-        :::image type="content" source="../media/connections/news-card-icon.png" alt-text="Screenshot of the News card icon."lightbox="../media/connections/news-card-icon.png":::
+
+    ![Screenshot of the News card icon.](../media/connections/news-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
 
@@ -318,7 +319,7 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 ## Add the People card
 
-The People Search card will automatically retrieve contact information from members of your organization using Microsoft Entra ID (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
+The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
 
    :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png"::: 
 
@@ -326,7 +327,7 @@ The People Search card will automatically retrieve contact information from memb
 
 2.	Select **People** from the dashboard toolbox.
 
-    ![Image of the People card icon.](../media/connections/people-card-icon.png)
+    ![Screenshot of the People card icon.](../media/connections/people-card-icon.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
 
@@ -376,7 +377,7 @@ Content in the cards is dynamic and changes according to settings in Viva Learni
 
 Viva Topics has two different cards. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
 
-[Learn more about the two different cards](/viva/topics/viva-topics-card-viva-connections).
+[Learn more about the two different cards](/microsoft-365/topics/topics-card-viva-connections).
 
 ![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png)
 

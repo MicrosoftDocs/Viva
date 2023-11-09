@@ -91,8 +91,6 @@ You can do the following from the Role Settings page:
 
 When you need to assign many individuals to a specific User Role, you can mass assign them by using the bulk import feature.
 
-### Procedure to import User Roles in bulk
-
 1. Select the **Configure** symbol.
 2. In the **Employees** section, select **User Roles**. Select the User Role you need to update.
 3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
@@ -109,7 +107,7 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 ## View and edit attribute rules for a User Role
 
-This functionality works for roles, which already have filters and/or populations applied to them.
+This functionality works for roles which already have filters and/or populations applied to them.
 
 1. From the **User Roles** page, select a role to view or edit.
 2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example: ***Includes: Gender: Female***)

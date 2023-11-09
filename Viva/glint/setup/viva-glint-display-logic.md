@@ -14,16 +14,13 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 10/17/2023
 ---
 
 # Assign the right survey items to users with Viva Glint Display Logic
 
 Microsoft Viva Glint admins can set up survey items with conditions that personalize surveys for users by applying display rules. Display logic rules allow you to show or hide survey items depending on the survey taker’s previous responses. For example, if a person answers “No” to item 4 on your survey, and the following items 5-7 no longer apply to them, these items can be automatically hidden, and the survey taker moves to item 8.
-
-> [!NOTE]
-> This feature will be available in Viva Glint after **October 28th, 2023**.
 
 ## Scenarios for Display Logic
 
