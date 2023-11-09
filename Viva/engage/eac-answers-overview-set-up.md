@@ -124,13 +124,13 @@ Microsoft Global 365 administrators can turn this feature off to hide it from th
 Only a Microsoft Global 365 administrator can turn this feature off to hide it from the Answers experience.
 
 1. Go to the Viva Engage Teams app. 
-1. Select the ellipses button from the top-right navigation bar to expose admin options. 
-1. Select Admin to navigate to the Viva Engage admin center. 
-1. On the Feature management tab, select the Answers button to open the Answers configuration options.  
+2. Select the ellipses button from the top-right navigation bar to expose admin options. 
+3. Select Admin to navigate to the Viva Engage admin center. 
+4. On the Feature management tab, select the Answers button to open the Answers configuration options.  
 
 :::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" lightbox="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows the AI-suggested topics toggle in the on position.":::
 
-1. In Answers feature management, switch Enable AI-suggested topics on or off for your organization. 
+5. In Answers feature management, switch Enable AI-suggested topics on or off for your organization. 
 
 :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows the AI-suggested topics in the off position.":::
 
