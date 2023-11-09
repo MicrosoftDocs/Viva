@@ -25,7 +25,7 @@ Many healthcare customers move to the Viva Glint patient safety survey to assess
 ## Save time using Viva Glint's safety survey  
 Gynelle Miller, Lead Patient Safety and Reliability Specialist at Corewell Health, said that compared to their old safety survey reporting process, her team saved approximately 200 hours of time leveraging Viva Glint patient safety survey insights on the Viva Glint platform! 
  
-## Read Viva’s Principal People Scientist’s [Ryan Lebow’s](https://www.linkedin.com/in/ryan-lebow-908a51206/) datasheet on [using the Microsoft Viva Glint patient safety survey to help improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710).  
+### Read Viva’s Principal People Scientist’s [Ryan Lebow’s](https://www.linkedin.com/in/ryan-lebow-908a51206/) datasheet on [using the Microsoft Viva Glint patient safety survey to help improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710).  
 
 :::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="The Patient Safety survey template is a predefined but easy to customize.":::
 
