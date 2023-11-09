@@ -116,7 +116,7 @@ For this feature to be available, the network is required to have two or fewer E
 > [!NOTE]
 > If the Viva Engage Experience is hidden, the backing group respects the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).
 
-## Option: Show AI-suggested topics
+## Option: Enable AI-suggested topics
 
 All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns up to three relevant Viva Topics that the user can include with the post to help categorize the question.
 Microsoft Global 365 administrators can turn this feature off to hide it from the Answers experience.
