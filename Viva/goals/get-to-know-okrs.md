@@ -1,5 +1,5 @@
 ---
-ms.date: 04/05/2022
+ms.date: 11/08/2023
 title: Get to know OKRs
 ms.reviewer: 
 ms.author: rasanders
@@ -24,33 +24,28 @@ description: "Learn about an OKR, its superpower, and how it's used"
 
 ## What are OKRs?
 
-Objectives and key results (OKRs) are a proven goal-setting framework for creating alignment and focus and building a highly productive and engaged work culture to drive your business outcomes.  
+[Objectives and key results (OKRs)](https://www.microsoft.com/en-us/microsoft-viva/what-is-okr-objective-key-results) are a proven goal-setting framework that drives business outcomes by keeping everyone in your org aligned, focused, and productive.
 
-OKRs align your entire organization to strategy, shifting focus from output—the everyday work of your team—to outcomes, which are the results of that work. This mindset shift keeps your team highly engaged with a clear sense of purpose and understanding of how everyone is contributing to forward momentum.
+OKRs orient your organization around the goals you hope to achive, changing the focus from output (your team's everyday work) to outcomes (the results of that work). This mindset shift keeps your team engaged, gives you a clear sense of purpose, and shows how everyone is contributing to forward momentum.
 
-**Objectives** are simply what you and your team want to accomplish. What is your definition of success?
-
-Objectives added at the organizational and team levels are depicted in the following image:
+An **objective** is a high-level description of something your team wants to accomplish.
 
 :::image type="content" source="../media/goals/1/11/a.jpg" alt-text="Chart shows a sample of O K R objectives at organizational and teams levels.":::
 
-**Key results** describe how you'll measure your success in accomplishing these goals.
-
-For best results, teams and individuals should be aligned well in a hierarchy. Key results at one level become objectives of the next level.
+A **key result** is a quantifiable goal that helps you measure progress toward one of your objectives.
 
 ![Chart shows a sample key results hierarchy.](../media/goals/1/11/b.jpg)
 
-**Initiatives** are focused efforts that help you achieve your key results. 
+An **initiative** is a focused effort geared toward helping you achieve a key result.
 
-When delineating initiatives in Viva Goals...
+When delineating initiatives in Viva Goals:
 
-**Stay realistically optimistic.** Make sure you have the ability (resources and timeline) to execute the initiatives and key initiatives under your OKRs. That's what makes an objective realistically optimistic and not a pipe dream.  
+* **Be both optimistic and realistic.** The best Make sure you have the ability (resources and timeline) to execute the initiatives and key initiatives under your OKRs. That's what makes an objective realistically optimistic and not a pipe dream.  
 
-**Ask yourself:** What could get in the way of our initiatives and key initiatives?  
-
+* **Ask yourself this:** what could get in the way of our initiatives and key initiatives?
 Incorporating initiatives in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
 
-**Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objectives as appropriate.
+* **Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective as appropriate.
 
 The keys to success with OKRs are transparency and alignment. Right from the CEO to managers and colleagues, an employee can view anyone's OKRs in the system. This transparency fosters openness and removes conflicts and redundancies with work. OKRs are also aligned vertically and horizontally, allowing employees to see how their work connects with the organization's overall strategic goals.
 
@@ -76,11 +71,11 @@ OKRs drive alignment, agility, and impact in your organization. Here are the mos
 
 **Executives want to establish a high-performing team with a growth mindset that consistently drives stronger business results. OKRs provide these benefits to executives:**
 
-- Full visibility into progress of business initiatives across all levels of the organization 
-- Stronger collaboration between departments and teams 
-- High-performing, empowered, and engaged employees 
-- Clear connection between daily work and overarching organizational goals 
-- More autonomous, focused teams 
+- Full visibility into progress of business initiatives across all levels of the organization
+- Stronger collaboration between departments and teams
+- High-performing, empowered, and engaged employees
+- Clear connection between daily work and overarching organizational goals
+- More autonomous, focused teams
 
 **Team owners, or anyone in a position where they need to make decisions on behalf of a larger group, will have similar benefits to executives. Here are a few of the greatest benefits team owners and managers will experience when adopting OKRs:**
 
@@ -120,4 +115,3 @@ You can ensure OKR program success at your company by following the recommended 
 |OKR champions     |      OKR champions take initial ownership of OKR implementation internally and ensure its success on a continual and consistent basis. Typical OKR champions hold the roles of chief of staff, operations lead, and team manager, but anyone can be an OKR champion. Enterprise organizations typically need several OKR champions for a successful rollout.   |
 |Leadership support     |    The most successful OKR programs have full support from the leadership team and strong executive sponsors. It's critical that senior leaders educate their respective organizations on the value of OKRs, explain why they're being implemented, reflect on their current culture, and identify key stakeholders.     |
 |The right tools     |     OKRs are the best way to set goals, and Viva Goals is the best tool to manage your OKRs. Unlike spreadsheets or manual processes that become unwieldy, Viva Goals scales with your business and provides transparency across your organization.    |
-
