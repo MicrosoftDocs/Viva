@@ -37,7 +37,7 @@ Follow these steps:
    > [!NOTE]
    > Press Enter after you type each cmdlet. The response to the last cmdlet should be **False**.
 
-   ```
+   ```azurepowershell
    Connect-MsolService
    SMSP = Get-MsolServicePrincipal -AppPrincipalId "00000005-0000-0ff1-ce00-000000000000"
    SMSP.AccountEnabled
@@ -45,7 +45,7 @@ Follow these steps:
 
 2. Change the **Account** setting for this service principal to **True**. To do this, run the following cmdlet:
 
-   ```
+   ```azurepowershell
    Set-MsolServicePrincipal -AppPrincipalId $MSP.AppPrincipalId -AccountEnabled $true
    ```
 
