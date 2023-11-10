@@ -24,7 +24,7 @@ Microsoft Viva Glint has seen a shift in focus on what is most important to the 
 
 We analyzed over 350 million employee survey responses collected since 2020 to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We discovered some new key driver themes, which resulted in a new top-20 list of core engagement drivers. Additionally, we identified several other drivers that may be beneficial for consideration by individual organizations. 
 
-**Read [People Science Explains: People Success Elements - What people need in the new world of work to understand Glint’s unique approach to help organizations measure employee engagement](https://www.glintinc.com/blog/the-elements-of-people-success/).** Using Viva Glint solutions, our customers gain powerful insights on what drives their employee engagement and can use the insights to build towards their own People Success culture.
+Using Viva Glint solutions, our customers gain powerful insights on what drives employee engagement and can use those insights to build towards their own People Success culture.
 
 ## Details of Quarterly Engagement template
 
