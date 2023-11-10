@@ -47,10 +47,10 @@ By default, the Answers experience is enabled for customers that meet the follow
 
 2) **Viva Engage uses Topics**
 
-   In the Answers experience, Topics help to organize questions and route them to people who are associated with and knowledgeable on specific Topics. For Viva Engage customers to gain these benefits, we're integrating Topics into Viva Engage experiences, which involves migrating Viva Engage topics to Topics.  There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
-    Viva Engage topics have begun to migrate to Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
+   In the Answers experience, Topics helps to organize questions and route them to people who are knowledgeable about specific Topics. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
+   There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
 
-   Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
 3. **Recommended: The Viva Engage app is set up**
 
