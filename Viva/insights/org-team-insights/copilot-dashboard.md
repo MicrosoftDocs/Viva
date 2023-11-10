@@ -76,7 +76,7 @@ You're *not* required to have a Viva Insights subscription to use the report, an
 
 Periodically you may receive update notifications from AppSource/Power BI about a new version of the app. After selecting the notification, select **Update the workspace and the app**. Then, select **Install**.
 
-This will install the update, overwriting the existing/installed workspace and app. After completing this step, follow the steps outlined [here](power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to republish the app for users in your organization.
+This will install the update, overwriting the existing/installed workspace and app. After completing this step, follow the steps outlined [here](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to republish the app for users in your organization.
 
 #### Issues
 
