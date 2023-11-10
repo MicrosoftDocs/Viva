@@ -1,5 +1,5 @@
 ---
-title: Sorry, but we're having trouble signing you in when you select the Viva Engage tile in Microsoft 365
+title: Sign-in error when selecting the Viva Engage tile in Microsoft 365
 description: Describes an issue in which you receive "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Microsoft 365.
 author: Starshine89
 manager: pamgreen
@@ -12,7 +12,7 @@ ms.author: pamgreen
 ms.date: 06/25/2019
 ---
 
-# "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Microsoft 365
+# Sign-in error when you select the Viva Engage tile in Microsoft 365
 
 ## Problem
 
