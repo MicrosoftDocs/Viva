@@ -24,14 +24,13 @@ search.appverid:
 
 **Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app.
 
-Answers let employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
+Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers work to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
-Answers work to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers works to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
-When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Topics* products.
-When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Topics* products.
+
+When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite*, or *Viva Employee Communications and Communities*.
 
 Users who aren't assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. But they can't navigate the rest of the Answers experience.
 
@@ -48,7 +47,7 @@ By default, the Answers experience is enabled for customers that meet the follow
 
 2) **Viva Engage uses Topics**
 
-   In the Answers experience, Topics help to organize questions and route them to people who are associated with and knowledgeable on specific Topics. For Viva Engage customers to gain these benefits, we're integrating Topics into Viva Engage experiences, which involves migrating Viva Engage topics to Topics.  There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers.Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
+   In the Answers experience, Topics help to organize questions and route them to people who are associated with and knowledgeable on specific Topics. For Viva Engage customers to gain these benefits, we're integrating Topics into Viva Engage experiences, which involves migrating Viva Engage topics to Topics.  There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
     Viva Engage topics have begun to migrate to Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
 
    Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
@@ -68,9 +67,8 @@ Owners of the backing group should ensure that Answers remains compliant with ne
 
 Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
-**General Data Protection Regulation (GDPR) information**
-
-For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+>**General Data Protection Regulation (GDPR) information:**
+>For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export >guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data  >subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests >in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Procedure: Enable the Answers experience
 
@@ -124,8 +122,6 @@ For this feature to be available, the network is required to have two or fewer E
 All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post. 
 
 Microsoft Global 365 administrators can turn this feature off to hide it from the Answers experience.
-
-Only a Microsoft Global 365 administrator can turn this feature off to hide it from the Answers experience.
 
 1. Go to the Viva Engage Teams app. 
 2. Select the ellipses button from the top-right navigation bar to expose admin options. 
