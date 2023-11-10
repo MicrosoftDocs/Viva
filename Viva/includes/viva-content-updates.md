@@ -1,5 +1,6 @@
 <!-- This file is generated automatically each week. Changes made to this file will be overwritten.-->
-
+
+
 
 
 ## Week of October 02, 2023
@@ -26,14 +27,14 @@
 |------|------------|--------|
 | 9/25/2023 | [Download Learner Completion Records](/viva/learning/learner-completion-records) | added |
 | 9/26/2023 | [Set up the in-app Viva Pulse experience](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience) | modified |
-| 9/26/2023 | [Track Viva Engage events in the Microsoft 365 audit log and with the Management Activity API](/viva/engage/track-engage-events) | modified |
+| 9/26/2023 | [Track Viva EngageTopicsthe Microsoft 365 audit log and with the Management Activity API](/viva/engage/track-engage-events) | modified |
 | 9/26/2023 | [Set up Microsoft Viva Topics](/viva/topics/set-up-topic-experiences) | modified |
 | 9/27/2023 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
 | 9/27/2023 | [Diversity & Inclusion survey programs in Viva Glint](/viva/glint/setup/diversity-inclusion) | added |
 | 9/27/2023 | [Export a Viva Glint Distribution List](/viva/glint/setup/export-distribution-lists) | modified |
 | 9/27/2023 | [Create and edit teams and subteams](/viva/goals/create-and-edit-teams-and-subteams) | modified |
-| 9/27/2023 | [Jira Server and Data Center Integration for Viva Goals ](/viva/goals/jira-on-prem-integration) | modified |
-| 9/27/2023 | [Create a new topic in Microsoft Viva Topics](/viva/topics/create-a-topic) | modified |
+| 9/27/2023 | [Jira Server and Data Center InteTopics Viva Goals ](/viva/goals/jira-on-prem-integration) | modified |
+| 9/27/2023 | [Create a new topic in Microsoft VivaTopicsiva/topics/create-a-topic) | modified |
 | 9/27/2023 | [Edit an existing topic in Microsoft Viva Topics](/viva/topics/edit-a-topic) | modified |
 | 9/28/2023 | [Manage and set up campaigns in Microsoft Viva Engage](/viva/engage/campaigns) | modified |
 | 9/28/2023 | [Manage admin roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions) | modified |
@@ -101,8 +102,8 @@
 | 9/11/2023 | Create an SSH key pair for SFTP | removed |
 | 9/11/2023 | [Upload your employee attributes in Viva Glint](/viva/glint/setup/upload-employee-attributes) | modified |
 | 9/12/2023 | [Manage your Allowed List for Viva Glint](/viva/glint/setup/allowed-list) | modified |
-| 9/12/2023 | [Understand Advanced Configuration options in Viva Glint](/viva/glint/setup/understand-advanced-configuration) | modified |
-| 9/12/2023 | [Viva Topics lightweight management in Viva Engage](/viva/topics/topics-lightweight-management) | modified |
+| 9/12/2023 | [TopicsAdvanced Configuration options in Viva Glint](/viva/glint/setup/understand-advanced-configuration) | modified |
+| 9/12/2023 | [Viva Topics lightweight management in ViTopics/viva/topics/topics-lightweight-management) | modified |
 | 9/13/2023 | [Curate Multilingual topics in Microsoft Viva Topics](/viva/topics/curate-a-topic-in-multilingual) | modified |
 | 9/14/2023 | [Import members into a Viva Glint Distribution List](/viva/glint/setup/import-members-distribution-lists) | added |
 | 9/14/2023 | [Managers using the Team Summary dashboard in Viva Glint](/viva/glint/reports/managers-use-team-summary-dashboard) | modified |
