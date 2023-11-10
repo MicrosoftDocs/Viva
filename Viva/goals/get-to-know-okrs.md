@@ -24,7 +24,7 @@ description: "Learn about an OKR, its superpower, and how it's used"
 
 ## What are OKRs?
 
-Objectives and key results (OKRs) are a proven goal-setting framework for creating alignment and focus and building a highly productive and engaged work culture to drive your business outcomes.  
+[Objectives and key results (OKRs)](https://www.microsoft.com/en-us/microsoft-viva/what-is-okr-objective-key-results) are a proven goal-setting framework for creating alignment and focus and building a highly productive and engaged work culture to drive your business outcomes.  
 
 OKRs align your entire organization to strategy, shifting focus from output—the everyday work of your team—to outcomes, which are the results of that work. This mindset shift keeps your team highly engaged with a clear sense of purpose and understanding of how everyone is contributing to forward momentum.
 
