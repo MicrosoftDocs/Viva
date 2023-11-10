@@ -1,6 +1,6 @@
 ---
-title: Sorry, but we're having trouble signing you in when you select the Viva Engage tile in Office 365
-description: Describes an issue in which you receive "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Office 365.
+title: Sorry, but we're having trouble signing you in when you select the Viva Engage tile in Microsoft 365
+description: Describes an issue in which you receive "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Microsoft 365.
 author: Starshine89
 manager: pamgreen
 audience: ITPro
@@ -12,7 +12,7 @@ ms.author: pamgreen
 ms.date: 06/25/2019
 ---
 
-# "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Office 365
+# "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Microsoft 365
 
 ## Problem
 
@@ -26,9 +26,9 @@ To resolve this issue, the Viva Engage Service Principal must be enabled.
 
 Before you follow these steps, make sure that the following prerequisites are met:
 
-- Install the Azure Active Directory module for Windows PowerShell. For more information, go to [Connect PowerShell to Office 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+- Install the Azure Active Directory module for Windows PowerShell. For more information, go to [Connect PowerShell to Microsoft 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
-- You must be an Office 365 global admin to perform these steps.
+- You must be a Microsoft 365 Global administrator to perform these steps.
 
 Follow these steps:
 
@@ -49,7 +49,7 @@ Follow these steps:
    Set-MsolServicePrincipal -AppPrincipalId $MSP.AppPrincipalId -AccountEnabled $true
    ```
 
-3. Sign in to Office 365. Select the Viva Engage tile again to verify that you can sign in.
+3. Sign in to Microsoft 365. Select the Viva Engage tile again to verify that you can sign in.
 
 ## More information
 
