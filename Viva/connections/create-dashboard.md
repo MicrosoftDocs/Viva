@@ -47,7 +47,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add the People card](#add-the-people-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
-- [Add a Topics card](#add-a-viva-topics-card).
+- [Add a Topics card](#add-a-viva-card).
 - [Add a Web link card](#add-a-web-link-card).
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
 - [Preview your dashboard to see how it displays for different audiences and devices](#preview-your-dashboard-to-see-how-it-displays-for-different-audiences).
@@ -110,7 +110,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
    |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon.png) |   Promote news from a variety of sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
    |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
    |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
-   |[Topics](#add-a-viva-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
+   |[Topics](#add-a-viva-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
 
 ## Add the Approvals card
