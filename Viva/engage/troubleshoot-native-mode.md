@@ -24,6 +24,8 @@ search.appverid:
 
 ## What is Native Mode?
 
+Viva Engage is in Native Mode when users, groups, and content are compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365.
+
 ### What benefits are new to Native Mode?
 
 Viva Engage premium functionality is only available to networks in Native Mode. Networks in Native Mode can [perform eDiscovery](./overview-native-mode.md) on their home network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. Also, administrators and users both benefit from an experience that's more consistent within Viva Engage and within the Microsoft 365 ecosystem.
@@ -65,15 +67,15 @@ Viva Engage can offer eDiscovery to customers when all their users, groups, and 
 
 ### What can you include in communications to your users?
 
-Following is a sample email to users that you can use as is or modify to meet your needs when you're ready to communicate upcoming changes to your organization.
+When you're ready to communicate upcoming changes to your organization, modify the following communication to meet your organization's needs:
 
 ------------------------------
 
 *Hello NAME OF EMPLOYEE,*
 
-*We're getting our Viva Engage network ready to support required compliance and security policies for our organization.*
+*We're preparing our Viva Engage network to support required compliance and security policies for our organization.*
 
-*Here are some changes you see rolling out over the next few weeks:*
+*Here are some changes we're rolling out over the next few weeks:*
 
 *- All unlisted private groups become private listed groups on DATE. Nonmembers can see the group in search results and other areas, but only members can access the content. If you don't want your group to be visible to nonmembers, you must delete it before that date. You can also change the name of the group if the concern is that people can identify the purpose of the group based on the name.*
 

@@ -93,7 +93,7 @@ Only a global admin can assign (or modify) the Answers admin role. This role is 
 
 The following table shows the actions available to an unlicensed user compared with various admin roles in Viva Engage.
 
-|Answers permissions for an Answers admin, Engage admin, and Microsoft 365 Global Administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Viva Topics customer|
+|Answers permissions for an Answers admin, Engage admin, and Microsoft 365 Global Administrator roles |M365/O365 customer with Viva Engage core |Viva Suite and Topics customer|
 |----------------------|:-:|:-:|
 |**Ask, answer, upvote, and react**|Interact with questions that they're mentioned in|✓|
 |**Suggest topics**| |✓|
