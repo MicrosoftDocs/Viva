@@ -44,7 +44,7 @@ For more information, see [Set up Viva Learning](/viva/learning/set-up-viva-lear
 
 ## Topics
 
-Topics helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn a lot of new information quickly, and may encounter terms and acronyms they know nothing about when reading through company information. To learn more, the user might need to step away from what they are doing and spend valuable time searching for details. With Topics, they can select a highlighted term that has a topic associated with it and get information including a description, people working on the topic, and sites, files, and pages that are related to it. Topics uses AI to automatically search for and identify topics in your organization.
+Topics helps to address a key business issue in many companies — providing the information to users when they need it. For example, new employees need to learn much new information quickly, and may encounter terms and acronyms they know nothing about when reading through company information. To learn more, the user might need to step away from what they're doing and spend valuable time searching for details. With Topics, they can select a highlighted term that has a topic associated with it and get information including a description, people working on the topic, and sites, files, and pages that are related to it. Topics uses AI to automatically search for and identify topics in your organization.
 
 ![Example of a topic)](./media/knowledge-management/saturn.png)
 
