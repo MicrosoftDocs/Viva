@@ -89,7 +89,7 @@ When you set up Viva Connections for the first time in Teams, you’ll be asked 
 | Audience description  | This audience consists of employees who are usually customer-facing, or don’t work primarily at a desk with a computer. Sometimes these roles are referred to as essential workers. Popular roles for frontline workers are retail sales associates, nurses, line workers and teachers. |
 This audience consists of employees who usually get their work done from a desk using a computer. Popular roles for information workers are project managers, finance associates, administrative personnel, and business executives.  |
 | Default cards    | Approvals, Assigned tasks, Shifts, and Top news. |
-Assigned tasks, Top news, Viva Learning, and Viva Topics. |
+Assigned tasks, Top news, Viva Learning, and Topics. |
 
 ### Summary of default dashboard cards and how to set them up
 
@@ -104,7 +104,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 | [Shifts](create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and break times. | Frontline worker       |
 | [News](create-dashboard.md#add-the-news-card) | View the most important news from inside your organization. Use [Boosted news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to get news posts from organizational news sites to display in this card.  | Frontline worker and Information worker         |
 | [Viva Learning](create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Information worker            |
-| [Viva Topics](create-dashboard.md#add-a-viva-topics-card)    | Share and contribute to your organization’s knowledge base. | Information worker          |
+| [Topics](create-dashboard.md#add-a-viva-topics-card)    | Share and contribute to your organization’s knowledge base. | Information worker          |
 
 ### Summary of customizable elements
 
