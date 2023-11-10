@@ -26,10 +26,10 @@ search.appverid:
 
 Answers let employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers work to connect employees based on their subject matter expertise captured in Viva Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers work to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
-When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Viva Topics* products.
+When you enable Answers in the Viva Engage admin center, users who are assigned the Viva Engage Knowledge service plan can use the full Answers experience in the Viva Engage Teams app, including rewards and recognition. The Viva Engage Knowledge service plan is available as part of the *Microsoft Viva Suite* and *Topics* products.
 
 Users who aren't assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. But they can't navigate the rest of the Answers experience.
 
@@ -44,15 +44,15 @@ By default, the Answers experience is enabled for customers that meet the follow
 
     [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2) **Migrated Viva Engage Topics to Viva Topics**
+2) **Migrated Viva Engage Topics to Topics**
 
-    Viva Engage topics have begun to migrate to Viva Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Viva Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Viva Topics works across services in Microsoft 365, we require that your Viva Engage network uses Viva Topics to ensure the best experience with Answers.
+    Viva Engage topics have begun to migrate to Topics. Over the next months, all existing Viva Engage networks will be migrated. Answers use Topics to organize questions posted and identify the people associated with certain Topics to help route those questions. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
 
-   Customers who are awaiting topics migration can request to get Answers enablement  prioritized, which may include Native Mode support or Viva Engage Topics migration to Viva Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
+   Customers who are awaiting topics migration can request to get Answers enablement  prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
-    Learn more about Viva Engage Topics migration to Viva Topics:
-    - [Viva Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
-    - [Viva Topics experience in Viva Engage](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
+    Learn more about Viva Engage Topics migration to Topics:
+    - [Topics in Viva Engage](/viva/topics/topic-experiences-yammer)
+    - [Topics experience in Viva Engage](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d)
 
 3. **Set up the Viva Engage app**
 
@@ -89,7 +89,7 @@ Only a Microsoft 365 Global admin can change Answers state of enablement. Here's
 
    [![Screenshot of the admin entrypoint into Answers feature management in the Viva Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
-5. In Answers feature management, you can enable or disable Answers for your organization. Answers is turned on by default for all Viva suite and Viva Topics licensed users.  
+5. In Answers feature management, you can enable or disable Answers for your organization. Answers is turned on by default for all Viva suite and Topics licensed users.  
 
    [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
