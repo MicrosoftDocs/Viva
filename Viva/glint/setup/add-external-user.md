@@ -33,10 +33,14 @@ To add a user:
 1. From the admin dashboard, select the **Configure** symbol, then in **Employees** , choose **People**.
 2. In the **Actions** dropdown menu, select **Add a Support User**.
 3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.
+
+    > [!IMPORTANT]
+    > Users must be added to Viva Glint and Entra ID with a company email address for your organization. For instructions on adding users in Entra ID: [Learn more](https://learn.microsoft.com/en-us/training/modules/create-users-and-groups-in-azure-active-directory/3-exercise-add-delete-users-azure-ad).
+   
 4. The **Company Admin User Role** will be selected by default and grants Support users the required level of access to assist in your Viva Glint account.
 
     > [!NOTE]
-    > For Partner users, add the user to the Partner Employees UserRole as well.
+    > For Partner users, add the user to the Partner Employees User Role as well.
 
 5. Switch the **External user** toggle to **Yes** to flag external users within your organization.
 6. Switch the **Grant user advanced configuration access** setting to **Yes** to allowSupport users access to **Advanced Configuration** features.
