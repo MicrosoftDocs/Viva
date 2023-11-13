@@ -49,10 +49,7 @@ Organization insights are more than just a dashboard—they also provide helpful
 
 Let's take a look at how to use these features:
 
->[!Note] 
->These features are rolling out gradually and should be broadly available by the end of this month.
-
-1. **Scope information** 
+1. **Scope information**
 
      At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring.
 
