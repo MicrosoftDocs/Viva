@@ -35,7 +35,7 @@ To add a user:
 3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.
 
     > [!IMPORTANT]
-    > Users must be added to Viva Glint and Entra ID with a company email address for your organization. For instructions on adding users in Entra ID: [Learn more](https://learn.microsoft.com/en-us/training/modules/create-users-and-groups-in-azure-active-directory/3-exercise-add-delete-users-azure-ad).
+    > Users must be added to Viva Glint and Entra ID with a company email address for your organization. For instructions on adding users in Entra ID: [Learn more](https://learn.microsoft.com/training/modules/create-users-and-groups-in-azure-active-directory/3-exercise-add-delete-users-azure-ad).
    
 4. The **Company Admin User Role** will be selected by default and grants Support users the required level of access to assist in your Viva Glint account.
 
