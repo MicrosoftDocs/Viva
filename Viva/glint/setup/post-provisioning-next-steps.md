@@ -1,5 +1,5 @@
 ---
-title: Set up your Viva Glint instance
+title: Set up admins in up Viva Glint instance
 description: Take care of a few items of business before you begin your first Viva Glint program journey.
 ms.author: judithweiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 04/21/2023
 ---
 
-# Set up your Viva Glint instance
+# Set up admins in your Viva Glint instance
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
