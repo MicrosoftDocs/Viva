@@ -29,7 +29,7 @@ Admins can export Distribution Lists to quickly see the list of employees receiv
 
 This export includes first and last names, email addresses, and employment status.  
 
-1. From your Glint admin dashboard, select the  **Configuration** symbol and then  **Pulse Programs**. 
+1. From your Glint admin dashboard, select the  **Configuration** symbol and then  **Survey Programs**. 
 
 1. Select the survey for which you would like the recipient list. 
 
