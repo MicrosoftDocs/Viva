@@ -44,7 +44,7 @@ items:
         href: setup/deploy-viva-glint.md
         items:
           - name: Begin platform setup with your IT team
-          - items:
+            items:
               - name: Manage your Allowed List for Viva Glint
                 href: setup/allowed-list.md
               - name: Access Viva Glint with Microsoft Entra ID
@@ -53,7 +53,7 @@ items:
                 href: setup/sftp-ssh-key-gen.md
           - name: Prepare and upload employee data
             href: setup/upload-employee-data.md
-          - items:
+            items:
               - name: Viva Glint employee attribute fundamentals
                 href: setup/attribute-fundamentals.md
               - name: Viva Glint's organizational hierarchy fundamentals
@@ -70,7 +70,7 @@ items:
                     href: setup/set-up-sftp.md
           - name: Manage features and settings
             href: setup/platform-features-settings.md
-          - items: 
+            items: 
               - name: Admin management of General Settings feature Viva Glint
                 href: setup/manage-general-settings.md
                 items: 
