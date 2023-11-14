@@ -43,15 +43,15 @@ Once your domain is set up in Microsoft 365, your Viva Engage network is automat
   
     1. In Viva Engage, select the Viva Engage settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png"::: in the left nav, and select **Network Admin**.
 
-    :::image type="content" source="../../media/d1ec06fa-c2fb-4dcb-b21f-6dff1d20d6ad.png" alt-text="Viva Engage navigation, including Settings icon.":::
+       :::image type="content" source="../../media/d1ec06fa-c2fb-4dcb-b21f-6dff1d20d6ad.png" alt-text="Viva Engage navigation, including Settings icon.":::
   
     1. In the **Network** section choose **Network Migration**.
 
-    :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text="Network Migration menu item for Viva Engage Admins.":::
+       :::image type="content" source="../../media/f9ae9328-9cb2-46f7-9bce-26bcdc29b3fa.png" alt-text="Network Migration menu item for Viva Engage Admins.":::
   
     1. The **Step 1 of 3 - Check/Add Verified Domains** page shows the list of domains on the Viva Engage network.
 
-    :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screenshot of Step 1 of 3 - Check/Add Verified Domains before migrating a Viva Engage network.":::
+       :::image type="content" source="../../media/cac649d6-9245-4645-8f59-fb27dffd87e8.png" alt-text="Screenshot of Step 1 of 3 - Check/Add Verified Domains before migrating a Viva Engage network.":::
   
 ### Remove a domain from Viva Engage
 
