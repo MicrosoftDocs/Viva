@@ -27,7 +27,7 @@ Gynelle Miller, Lead Patient Safety and Reliability Specialist at Corewell Healt
  
 ### Read Viva’s Principal People Scientist’s [Ryan Lebow’s](https://www.linkedin.com/in/ryan-lebow-908a51206/) datasheet on [using the Microsoft Viva Glint patient safety survey to help improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710).  
 
-:::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="The Patient Safety survey template is a predefined but easy to customize.":::
+:::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
 
 ## Easily launch the survey on Viva Glint for timely and powerful insights
 [Follow the guidance for Program Summary for setup](https://go.microsoft.com/fwlink/?linkid=2231504) 
