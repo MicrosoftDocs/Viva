@@ -26,30 +26,46 @@ Great teams build great cultures, and great cultures fuel great companies.
 
 Ready to get started? Follow these steps:
 
-[Set up a Microsoft Viva Glint tenant](https://go.microsoft.com/fwlink/?linkid=2230741)
+### 1. Begin Viva Glint platform setup
 
-[Set up your Viva Glint instance](https://go.microsoft.com/fwlink/?linkid=2238525)
+- [Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
+- [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
+- [Generate an SSH key pair for SFTP access](https://go.microsoft.com/fwlink/?linkid=2247507)
 
-[Learn about Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
+### 2. Prepare your data
 
-[Use Viva Glint email templates to share survey expectations within your organization](https://go.microsoft.com/fwlink/?linkid=2240825)
+- Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
+- Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
+- [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
+- [Set up Employee Attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991)
+- [Set up Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247430)
+- [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
-[Set up your Allowed List](https://go.microsoft.com/fwlink/?linkid=2238617)
+### 3. Manage features and settings
 
-[Understand Viva Glint survey access methods](https://go.microsoft.com/fwlink/?linkid=2230745)
+- [Admin management of the General Settings feature in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230744)
+- [Use Viva Glint benchmarks](https://go.microsoft.com/fwlink/?linkid=2230868)
+- [Manage language translations](https://go.microsoft.com/fwlink/?linkid=2238340)
+- [​Use Viva Glint's People page to view employee information](https://go.microsoft.com/fwlink/?linkid=2230865)
+- [​Set up Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230740)
+- [Set up and use Distribution Lists in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230917)
+- [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
+- [Communicate with Nudges](../communicate/communicate-with-nudges.md)
 
-[Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
+### 4. Set up your Engagement or Employee Lifecycle survey
 
-[Prepare and upload your employee data](https://go.microsoft.com/fwlink/?linkid=2240826)
+- [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
+- [Set up Program summary pages for a Viva Glint Engagement-type survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
 
-[Set up your program features and settings](https://go.microsoft.com/fwlink/?linkid=2240919)
+## Prepare your Viva Glint communications plan
 
-[Use Viva Glint's program guidance](https://go.microsoft.com/fwlink/?linkid=2240920)
+The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
 
-[Set up Program Summary pages for a Viva Glint survey](https://go.microsoft.com/fwlink/?linkid=2231504)
+- [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
+- [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
+- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
-[Create Employee Lifecycle surveys](https://go.microsoft.com/fwlink/?linkid=2238618)
+## What do I do if I need help?
 
-[Learn about feedback reports for various roles](https://go.microsoft.com/fwlink/?linkid=2231109)
-
-[Choose the right dashboard for each organizational role](https://go.microsoft.com/fwlink/?linkid=2240744)
+[Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)
