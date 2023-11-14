@@ -10,9 +10,7 @@ items:
       href: getting-started-with-microsoft-viva.md
       items:
       - name: Plan for all Viva apps 
-        href: plan-for-all-viva-modules.md 
-      - name: Learn how to combine Viva apps  
-        href: learn-how-to-combine-modules.md  
+        href: plan-for-all-viva-modules.md   
       - name: Discover more about each Viva app    
         href: discover-more-about-each-viva-module.md 
     - name: Set up Microsoft Viva
@@ -35,6 +33,8 @@ items:
       href: deployment-guides-for-microsoft-viva.md
     - name: Solutions guides for Microsoft Viva
       href: /viva/solutions/solutions
+    - name: Self-help diagnostics for Viva administrators
+      href: /viva/troubleshoot/viva-suite-administration/viva-self-help-diagnostics?toc=/viva/toc.json&bc=/viva/breadcrumb/toc.json 
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Engage
@@ -49,5 +49,5 @@ items:
     href: learning/overview-viva-learning.md
   - name: Microsoft Viva Pulse
     href: pulse/introduction-to-viva-pulse.md
-  - name: Microsoft Viva Topics
+  - name: Topics in Viva
     href: topics/topic-experiences-overview.md 

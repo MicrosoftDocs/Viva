@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 11/21/2022
 title: Viva Insights app redesign
 description: About the upcoming Viva Insights app redesign in Teams and on the web
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.service: viva 

@@ -2,8 +2,8 @@
 ms.date: 06/09/2023
 title: Use the Power BI connector
 description: Learn how to connect your Viva Insights data to Power BI through the Power BI connector
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 

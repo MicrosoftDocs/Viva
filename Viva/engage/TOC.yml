@@ -38,7 +38,7 @@
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
         - name: Non-native and hybrid Viva Engage Network upgrades
           href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
-        - name: Manage Viva Engage domains in Office 365
+        - name: Manage Viva Engage domains in Microsoft 365
           href: /viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains
         - name: Configure Viva Engage and email
           href: /viva/engage/configure-your-viva-engage-network/configure-email-and-viva-engage
@@ -50,11 +50,11 @@
           href: /viva/engage/get-started-with-viva-engage/file-storage
      - name: Manage Viva Engage groups
        items:
-        - name: Viva Engage and Microsoft 365 Groups
+        - name: Viva Engage and Microsoft 365 groups
           href: engage-microsoft-365-groups.md
         - name: Customize your Viva Engage community
           href: /viva/engage/configure-your-viva-engage-network/customize-the-look-of-viva-engage
-        - name: Work with AzureAD-B2B guests in Viva Engage communities
+        - name: Work with Microsoft Entra B2B guests in Viva Engage communities
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
@@ -66,9 +66,9 @@
           href: set-up-usage-policy.md
         - name: Add, block, or remove users
           href: /viva/engage/manage-viva-engage-users/add-block-or-remove-users
-        - name: Office 365 sign-in for Viva Engage
+        - name: Microsoft 365 sign-in for Viva Engage
           href: /viva/engage/manage-viva-engage-users/office-365-sign-in
-        - name: Improve Office 365 sign-in for Viva Engage with auto-acceleration policy
+        - name: Improve Microsoft 365 sign-in for Viva Engage with auto-acceleration policy
           href: /viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in
      - name: Work with external users
        items:
@@ -96,7 +96,7 @@
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
      - name: Manage Viva Engage with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
-     - name: Enforce Office 365 identity for Viva Engage user
+     - name: Enforce Microsoft 365 identity for Viva Engage user
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
      - name: Manage Viva Engage core user licenses in Microsoft 365
        href: manage-engage-licenses-microsoft-365.md
@@ -110,11 +110,11 @@
           href: /viva/engage/manage-security-and-compliance/manage-data-compliance
         - name: Data residency for Viva Engage
           href: /viva/engage/manage-security-and-compliance/data-residency
-        - name: Export Viva Engage Data
+        - name: Export Viva Engage data
           href: eac-as-manage-data.md
         - name: Monitor private content
           href: /viva/engage/manage-security-and-compliance/monitor-private-content
-        - name: Audit users connected to Office 365
+        - name: Audit users connected to Microsoft 365
           href: /viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365
         - name: Track Viva Engage events in the Microsoft audit log
           href: track-engage-events.md
@@ -136,6 +136,8 @@
           href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
         - name: Include a Viva Engage feed in a SharePoint page
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
+        - name: Viva Engage and Microsoft Defender
+          href: /viva/engage/viva-engage-and-defender
       - name: Enable rich text formatting
         href: /viva/engage/get-started-with-viva-engage/rich-text-formatting
       - name: Enable conversation reporting in Viva Engage
@@ -148,7 +150,7 @@
         items:   
         - name: Set up Answers in Viva Engage
           href: eac-answers-overview-set-up.md
-        - name: Scenarios for Answers in Viva Engage
+        - name: Admin scenarios for Answers in Viva Engage
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md

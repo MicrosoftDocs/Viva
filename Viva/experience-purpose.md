@@ -20,7 +20,7 @@ search.appverid:
 
 description: "Learn how Microsoft Viva supports purpose in your organization."
 ---
-# Purpose: Viva Goals
+# Goal setting and management: Viva Goals
 
 Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities. It uses the power of the objectives and key results (OKR) framework. Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience so users don't have to disrupt their everyday flow of work to check OKRs and update status.
 
@@ -48,7 +48,7 @@ The keys to success with OKRs are transparency and alignment. Right from the CEO
 
 ## Using Viva Goals
 
-After you purchase Viva Goals licenses for your organization, you can log into Viva Goals using your Azure Active Directory credentials. You can set up your OKR model and create one or more Viva Goals organizations to contain your OKRs. Additionally, Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units.
+After you purchase Viva Goals licenses for your organization, you can log into Viva Goals using your Microsoft Entra credentials. You can set up your OKR model and create one or more Viva Goals organizations to contain your OKRs. Additionally, Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units.
 
 [Set up your OKR model](/viva/goals/configure-okr-model)
 

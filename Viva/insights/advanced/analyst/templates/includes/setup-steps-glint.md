@@ -1,7 +1,7 @@
 ---
 ms.date: 05/19/2023
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: include
 ms.service: viva 
 ms.subservice: viva-insights 

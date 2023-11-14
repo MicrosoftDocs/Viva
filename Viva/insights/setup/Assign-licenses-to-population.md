@@ -23,11 +23,11 @@ audience: Admin
 
 The following describes who does what to assign licenses to users for Microsoft Viva Insights.
 
-* **Owner** &ndash; Viva Insights sponsor, Viva Insights Administrator, Azure Active Directory (AD) [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator), or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
+* **Owner** &ndash; Viva Insights sponsor, Viva Insights Administrator, Microsoft Entra ID [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator), or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator). For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&preserve-view=true).
 * **Task** &ndash; Determine population in scope for analysis and assign licenses through Microsoft 365 or Office 365
 * **Outcome** &ndash; Microsoft 365 licenses are assigned for the population that will be analyzed
 
-The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 365 global admin, and Azure AD Application Administrator to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
+The Viva Insights sponsor works with the Viva Insights Administrator, Microsoft 365 global admin, and Microsoft Entra Application Administrator to identify the population (the people in your company) whose Microsoft 365 collaboration activity you want to analyze. These people are referred to as _measured employees_.
 
 Employees in your organization who are not licensed for analysis but might collaborate with your measured employees, through meetings, email, unscheduled calls, or instant messages, are called _other internal collaborators_. Some organizations analyze the entire population, while others use population subsets for specific analysis scenarios.
 
@@ -74,7 +74,7 @@ Viva Insights licenses are assigned just like other Microsoft 365 product licens
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Azure AD [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
+If your organization has not fully migrated to Microsoft 365 Exchange Online, you may encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
 ## Appearance of newly licensed users
 
@@ -84,11 +84,10 @@ The data that the advanced insights app with Viva Insights uses is refreshed onc
 * Analysts can use [Query designer](/viva/insights/tutorials/query-designer?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) to get results that include data about this user's activities.
 * [Explore the stats](/viva/insights/use/explore-intro?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json) can reflect data that includes a newly licensed employee.
 
-Azure AD is the single source of truth for licensing statuses. After a user license is added in Azure AD, that user shows up in Azure AD but not in Viva Insights until the next data refresh cycle is complete the following Monday.
+Microsoft Entra ID is the single source of truth for licensing statuses. After a user license is added in Microsoft Entra ID, that user shows up in Microsoft Entra ID but not in Viva Insights until the next data refresh cycle is complete the following Monday.
 
 ## Related topics
 
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Microsoft 365 data](/viva/insights/use/office-365-data?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
-

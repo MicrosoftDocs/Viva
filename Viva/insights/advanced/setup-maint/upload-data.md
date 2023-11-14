@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Upload organizational data during setup
 description: Get a quick overview of how to upload organizational data as part of setup
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -23,9 +23,9 @@ audience: Admin
 
 Now that you've set up the advanced insights app, you're ready to start bringing in data so analysts can run analyses and leaders can view organization insights.
 
-By default, Viva Insights uses your organization’s Azure Active Directory (Azure AD) data. When you leave Azure AD as the default, you'll automatically bring in the following attributes to Viva Insights: **PersonId**, **ManagerId**, and **Organization**. You'll also bring in **Domain** and **TimeZone** from user settings and SMTP addresses, respectively.
+By default, Viva Insights uses your organization’s Microsoft Entra data. When you leave Microsoft Entra ID as the default, you'll automatically bring in the following attributes to Viva Insights: **PersonId**, **ManagerId**, and **Organization**. You'll also bring in **Domain** and **TimeZone** from user settings and SMTP addresses, respectively.
 
-If you want to keep using Azure Active Directory for now as your data source, you don’t need to do anything extra to set up organizational data in the advanced insights app.
+If you want to keep using Microsoft Entra ID for now as your data source, you don’t need to do anything extra to set up organizational data in the advanced insights app.
 
 If you want to add more attributes to your organizational data than what the default setting provides, you'll want to use a .csv file instead. To upload organizational data through a .csv file, follow the guidance in [Prepare organizational data](../admin/prepare-org-data.md) and [Upload organizational data (first upload)](../admin/upload-org-data-first.md). After you upload a file, here’s the basic process:
 

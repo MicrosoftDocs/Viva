@@ -32,62 +32,62 @@ As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admi
 > [!NOTE]
 > Administrators for Viva Glint are assigned within the Viva Glint product only, not through the Microsoft Administrator Center (MAC).
 
-## Assign Viva Glint Service admins to the Company Admin role
-
-Choose either of the following methods:
-
 > [!TIP]
 > Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.
 
-### Option 1
+### Collect administrator information
 
-In order for you, as the Global administrator, to assign service admins without first providing an employee data upload and instead assign another admin role to the task:
+Compile a file of administrators to upload to Viva Glint with the following columns and user information. Save as **.csv with UTF-8 encoding and a comma separator**.
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
-2. In the **Actions** dropdown menu, select **Add a Support User**.
-3. Enter the First Name, Last Name, and Email on file in Azure AD for this user.
-4. The **Company Admin User Role** will be selected by default and grants users full access to your Viva Glint account.
-5. Leave the **External user** toggle set to NO.
-6. Switch the **Grant user advanced configuration access** setting to Yes to allow users access to **Advanced Configuration** features.
-7. Select **Add support user.**
+- **Email:** Work email address
+- **Employee ID:** ID value exactly as it appears in your HRIS
+- **First Name:** User first name
+- **Last Name:** User last name
+- **Status:** ACTIVE, in all caps
 
-> [!TIP]
-> This option will allow you to add attribute fields after this initial upload that can include required fields only.
+> [!IMPORTANT]
+> To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint. 
 
-### Option 2
+### Upload administrators to Viva Glint
 
-Assign service admins by first providing a full employee attribute upload:
+Upload your administrators to Viva Glint Advanced Configuration:
 
-1. Use this Viva Glint guidance to finalize attributes, prepare an employee data file, set up attributes, and upload your employee data to the Viva Glint platform:
-   -  [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
-   -  [Create your Employee Attribute Template in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230862)
-   -  [Set up attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2244907)
-   -  [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
-      
-2. Assign admins to the Company Admin role in Viva Glint:
-   1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
-   2. In the **Search People** field, enter the user's first and last name or email address.
-   3. Select the user when they appear as a search result.
-   4. On the user's detail page, in **Users Roles**, select the **pencil symbol** to edit.
-   5. In the **Customer User Role** dialog, select the **Company Admin** checkbox and then **Save**.
-   6. In the **Confirm Role** dialog, select **Grant All Access**.
-   7. To grant the admin access to Advanced Configuration from their user detail page, select the **pencil symbol** next to **Company Admin: Advanced Configuration Access**.
-   8. In the **Advanced Configuration Access dialog** , switch the **Enable access** to ON, and then **Save**.
+1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+1. In the **Advanced Configuration** menu, select **Uploads**.
+1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
+1. Switch the **Incremental** toggle on.
+1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section and select **Upload**.
+1. In the **Upload Job Details** page that appears, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
+1. Select **Apply Upload to Database** to upload new users and select **Yes**.
+1. Go to the **Uploads** menu and confirm that the file **State** is SUCCESS and that the **Total Lines** and **Processed Lines** match the number of users in the uploaded file.
+
+### Add administrators to the Company Admin User Role
+
+When users are successfully uploaded, add them to the Company Admin User Role and grant Advanced Configuration access:
+
+1. Select the **Configure** symbol, then in the **Employees** section, choose **People**.
+1. Select each user, and on their profile under **User Roles**, select the pencil symbol to edit.
+1. In the **Customize User Role** dialog, select the checkbox for **Company Admin** and then choose **Save**.
+1. In the **Confirm Role** dialog, select **Grant All Access**.
+1. On the user profile, in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit.
+1. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
 
 ## Steps to set up your Viva Glint program instance
 
+As a Viva Glint Service admin, use the following guidance to complete platform setup and prepare to launch your first Viva Glint survey.
+
 ### 1. Begin Viva Glint platform setup
 
-- [Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
+- [Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
 - [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
-- [Create your SSH key pair](https://go.microsoft.com/fwlink/?linkid=2240226)
 
 ### 2. Prepare your data
 
 - Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 - Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 - [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Create your Employee Attribute File for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Set up Employee Attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991)
+- [Set up Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247430)
 - [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
 ### 3. Manage features and settings

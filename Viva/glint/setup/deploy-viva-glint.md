@@ -38,7 +38,7 @@ Ready to get started? Follow these steps:
 
 [Understand Viva Glint survey access methods](https://go.microsoft.com/fwlink/?linkid=2230745)
 
-[Access Viva Glint with Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=2238425)
+[Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
 
 [Prepare and upload your employee data](https://go.microsoft.com/fwlink/?linkid=2240826)
 

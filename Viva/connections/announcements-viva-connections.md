@@ -1,5 +1,5 @@
 ---
-ms.date: 08/04/2023
+ms.date: 09/29/2023
 title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -20,7 +20,6 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-ROBOTS: NOINDEX, NOFOLLOW
 description: "Use announcements in Viva Connections"
 ---
 
@@ -28,18 +27,15 @@ description: "Use announcements in Viva Connections"
 
 Announcements allow you to create and share time-sensitive messages in Viva Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a tablet and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-tablet-mobile.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a desktop and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png":::
 
 > [!NOTE]
 >
-> - This experience is rolling out to targeted release customers now and will become generally available by September 2023.
-> - The first release of the announcement feature is only available to customers with a SharePoint home site but will become available to all Viva Connections customers in the fall.
-> - The first release of the announcement feature will only be available for mobile and tablet devices.  Support for desktop devices will become available in September 2023.
-> - You must have member permissions or higher to your organization’s SharePoint homes site to send and manage announcements.
+> - Starting in October 2023, users will be required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
+> - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## When to use announcements
-
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-example.png" alt-text="Screenshot of an open announcement in Viva Connections mobile."lightbox="../media/connections/announcements-viva-connections/announcement-example.png":::
 
 Announcements are the best way to communicate targeted, time-sensitive information in the Viva Connections app.
 
@@ -50,6 +46,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 - Send a specific call to action for new employees.
 
 > [!IMPORTANT]
+>
 > For emergencies such as a safety hazard, it’s recommended to use multiple modes of communication.
 
 ### Best practices for using and writing announcements
@@ -63,47 +60,51 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 ## How announcements display in Viva Connections
 
-> [!IMPORTANT]
-> Announcements are currently only viewable on tablet and mobile experiences. The ability to view announcements on desktop is planned for future releases.
+Announcements will be viewable to users using desktop, tablet, and mobile experiences through Viva Connections
 
-**In Teams**: Users get a Teams notification alerting them of a new announcement on their device’s lock screen  when the user has enabled it.
+- **In Teams**: Users get a Teams notification alerting them of a new announcement within Teams and on their mobile device’s lock screen when the user has enabled it.
 
-> [!NOTE]
-> Viva Connections announcement notifications being displayed in the Teams activity feed is scheduled for a future release.
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png" alt-text="Screenshot of a Teams notification displayed in Microsoft Teams, and on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png":::
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png" alt-text="Screenshot of an Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-lockscreen.png":::
+- **In Viva Connections**: Announcements will display towards the top of the Viva Connections experience where more details can be viewed.
 
-**In Viva Connections**: Announcements display towards the top of the Viva Connections experience where more details can be viewed.
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png" alt-text="Screenshot of an announcement in Viva Connections desktop view and in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png":::
 
-:::image type="content" source="../media/connections/announcements-viva-connections/mobile-announcement-notification.png" alt-text="Screenshot of an open announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/mobile-announcement-notification.png":::
+## Accessing the announcements page
 
-## How to create an announcement
+Owners will be able to create announcements through the Viva Connections desktop experience or from their SharePoint home site using the announcements page. To access the announcement page:
 
-> [!NOTE]
-> Announcements are currently only able to be authored from a SharePoint home site. Authoring an announcement from the Viva Connections desktop is planned for future release.
+- **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of Viva Connections then select **Announcements**. This will open the announcements page where users can select **+ New announcement** to begin drafting an announcement.
 
-1. There are three ways to access announcements to create a new announcement from a SharePoint home site:
-    1. Select **+New** from the command bar and choose **Announcement**.
-    1. Select **Announcements** from the site navigation and then **+ New announcement**.
-    1. Navigate to **Settings** > **Manage Viva Connections** > **Announcements** > **+ New announcement**.
+:::image type="content" source="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png" alt-text="Screenshot showing a dropdown menu with announcements highlighted."lightbox="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png":::
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-overview.png" alt-text="Screenshot of a SharePoint home site highlighting three options for starting a new announcement."lightbox="../media/connections/announcements-viva-connections/create-announcement-overview.png":::
+- **From the SharePoint home site**: The easiest way to access the announcements page is to select **Announcements** from the site navigation and then **+ New announcement**.
 
-2. Choose an icon and color that reflect the theme of the announcement.
-3. Add a title and message.
-4. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
-5. Select up to 10 audiences to distribute the announcement to. Audiences can be Azure Active Directory groups, Microsoft 365 Groups, or Microsoft Azure Active Directory dynamic groups.
+:::image type="content" source="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png" alt-text="Screenshot showing a SharePoint nav bar with Announcements highlighted."lightbox="../media/connections/announcements-viva-connections/SharePoint-create-announcement.png":::
+
+>[!NOTE]
+>
+> Users can also access the announcement page in SharePoint by:
+> - Selecting **Settings > Manage Viva Connections > Announcements > + New announcement**.
+> - Select **+ New** from the command bar and choose **Announcement**.
+
+## Drafting your announcement
+
+After [choosing to create a new announcement](#accessing-the-announcements-page) either from your Viva Connections experience or from the SharePoint home site, you'll be presented with the following fields for drafting your announcement.
+
+1. Add a title and message.
+2. Select up to 10 audiences to distribute the announcement to. Audiences can be Microsoft Entra groups, Microsoft 365 Groups, or Microsoft Entra dynamic groups.
+3. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::
 
-6. To add a link to more information, add a URL and label for the link under **More options**.
-7. To allow users to dismiss the announcement after viewing, toggle the **Allow users to dismiss** setting on under **More options**.
-8. To send the announcement later, enter a date and time under **Schedule to send later** under **More options**.
+4. To add a link to more information, add a URL and label for the link under **More options**.
+5. To allow users to dismiss the announcement after viewing, toggle the **Allow users to dismiss** setting on under **More options**.
+6. Select **Next** to review the details of your announcement.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of additional options available in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
 
-9. Select **Next** to review the details of your announcement.
-10. If the announcement is ready to send immediately, select the **Send announcement** option.
+7. If the announcement is ready to send immediately, select the **Send announcement** option.
 
     :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement."lightbox="../media/connections/announcements-viva-connections/announcement-review.png":::
 
@@ -112,26 +113,26 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 ## How to schedule an announcement to send later
 
-1. Follow the steps to [create an announcement](#how-to-create-an-announcement) and then choose **More options**.
-2. Choose a date and time under **Schedule to send later**.
+1. Follow the steps to [access the announcement page](#accessing-the-announcements-page) and to [drafting your announcement](#drafting-your-announcement).
+2. Toggle on the **Schedule to send later** option and enter a date and time:
+
+> [!NOTE]
+>
+> - The end date can be up to two weeks from the original posting date.
+> - Scheduling is only available in half-hour increments (e.g. you could schedule a post to send at 10:30 but not 10:15).
 
    :::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/announcement-send-later.png":::
 
-   > [!NOTE]
-   >
-   > - The end date can be up to two weeks from the original posting date.
-   > - Scheduling is only available in half-hour increments (e.g. you could schedule a post to send at 10:30 but not 10:15).
-
 3. Select **Next** to review the details of your announcement.
+4. If the announcement is ready to be scheduled, select **Schedule announcement** and the announcement will be sent at the scheduled time.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review pane after scheduling an announcement."lightbox="../media/connections/announcements-viva-connections/schedule-announcement.png":::
 
-4. If the announcement is ready to be scheduled, select **Schedule announcement** and the announcement will be sent at the scheduled time.
 5. The scheduled date and time can be edited anytime before the announcement has been sent.
 
 ## Save an announcement as a draft
 
-1. Follow the steps to [create an announcement](#how-to-create-an-announcement).
+1. Follow the steps to [access the announcement page](#accessing-the-announcements-page) and to [drafting your announcement](#drafting-your-announcement).
 2. After writing the title and message, choose the **Save as draft** button.
 3. You can come back and edit the announcement later from the announcements page.
 
@@ -141,11 +142,11 @@ You can view all announcements that are active, scheduled, saved as drafts, and 
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page showing the status of several announcements."lightbox="../media/connections/announcements-viva-connections/announcements-page.png":::
 
-From here you can complete the following tasks:
+From this page you can complete the following tasks:
 
 ### Create a new announcement
 
-Choose **+ New announcement** and follow the steps to [create an announcement](#how-to-create-an-announcement).
+Choose **+ New announcement** and follow the steps to [draft your announcement](#drafting-your-announcement).
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcement-page-new-announcement.png" alt-text="Screenshot of the new announcement button highlighted.":::
 

@@ -33,7 +33,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
 ### Survey program
 
 - The confidentiality threshold for your Viva Glint survey program is equal to or greater than the source survey for the external data.
-- Data are imported to a Recurring or Ad-Hoc survey.
+- Data are imported to a Recurring or Ad Hoc survey.
 
 > [!IMPORTANT]
 > External imports are not available for Always-on or Lifecycle surveys.
@@ -72,20 +72,20 @@ Set up your Viva Glint program, including items that trend with your external su
 
 ## Prepare data files
 
-External imports of historical data require three data files, each with their own requirements.
+External imports of historical data require three data files, each with their own requirements. Select the file name in the following table to see a sample of each file.
 
 > [!IMPORTANT]
-> All files must be in .csv format with a comma separator and UTF-8 encoding.
+> All files must be in .csv format with a comma separator and UTF-8 encoding. Enclose values that contain commas with double quotation marks. For example: "Manager, Customer Experience."
 
 |File  |Description  |Email address label|Import to |
 |----------|-----------|------------|------------|
-|User File     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |
-|Raw Score File|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|
-|Respondent User File|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|
+|[User File](https://www.microsoft.com/en-us/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |
+|[Raw Score File](https://www.microsoft.com/en-us/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|
+|[Respondent User File](https://www.microsoft.com/en-us/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|
 
 ### User File
 
-To import historical data and generate reports, first add all historical employees to Viva Glint with an employee import. This file includes all employees from a historical, external source formatted to align with your Viva Glint attribute setup.
+To import historical data and generate reports, first add all historical employees to Viva Glint with an employee import. This file includes all employees from a historical, external source formatted to align with your Viva Glint attribute setup. See this sample [User File](https://www.microsoft.com/en-us/download/details.aspx?id=105693).
 
 Confirm that:
 
@@ -97,30 +97,23 @@ Confirm that:
 
 ### Raw Score File
 
-Your Raw Score File should be in a horizontal layout and contain:
+Your Raw Score File should be in a horizontal layout and contain an email address value to identify each user and columns of question and comment data. See this sample [Raw Score File](https://www.microsoft.com/en-us/download/details.aspx?id=105692).
 
-- Email as the first column which **must** be: User e-mail
-- Question ID and comment columns (if open-ended feedback is included).
-  - Use the Question IDs from the Question Mapping exercise that you conducted to assign Glint Question IDs to your historical response data.
-  - Only include data for items that were mapped to Glint items and that you have added to your Glint survey program.
-  - Ensure that Key Outcome items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
-  - For comments associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID, like the column C example.
-  - For open-ended questions, use the same column layout, but populate 0 where there's a comment and -1 where there is no comment. See example in columns D and E.
+- **First column:**
+  - Email which **must** be: User e-mail
+- **Additional columns:**
+  - **Question IDs:** Use IDs from the Question Mapping exercise that you conducted to assign Glint Question IDs to your historical response data.
+    - **Key Outcome Items:** Ensure that these items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
+    - **Rating Question Comments:** For open-ended feedback associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID.
+    - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment.
+    - **Multi-select Questions:** Separate numerical response values with a colon (:). If comments are attached to responses, use the same column layout as for rating question comments.
 
 > [!IMPORTANT]
 > Comments that exceed 1024 characters will be truncated.
 
-Sample:
-
-|A  |B   |C|D|E|
-|----------|-----------|------------|------------|------------|
-|**User e-mail**     |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477**      |**d31bf3a1-4c2f-4f9b-ba96-9dcede600477_COMMENTS**        |**f1c63ea9-5991-402a-bb06-06419ae78613**        |**f1c63ea9-5991-402a-bb06-06419ae78613_COMMENTS**        |
-|ana.bowman@contoso.com|4   |My manager checks in with me often.|0 |Our company gives us a good worklife balance. |
-|cameron.baker@contoso.com|5   | |-1 ||
-
 ### Respondent User File
 
-Your Respondent User File needs to contain the following fields for the survey respondents associated with your historical data.
+Your Respondent User File needs to contain the following fields for the survey respondents associated with your historical data. See this sample [Respondent User File](https://www.microsoft.com/en-us/download/details.aspx?id=105694).
 
 - **Email Address:** must be labeled Email Address
 - **First Name:** label must match your attribute setup
@@ -163,7 +156,9 @@ To import historical users and their responses:
    6. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
    7. **Extra Options menu:** Leave collapsed, not applicable.
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.
-:::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
+
 1. Confirm that:
    1. **Users in User File** matches the number of users in your **Respondent User File**.
    2. **Users in Score File** matches the number of users in your **Raw Score File**.
@@ -171,9 +166,9 @@ To import historical users and their responses:
    4. **User File Users Not in Score File** matches the number of people who were invited but didn't respond to the survey.
    5. **Counts per Question**, when expanded, match the expected counts for each comment and response value.
 1. After confirming the **Preview**, select **Save**.
-2. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
+1. Each section at the bottom of the page turns yellow as it processes and all turn green when the import is complete.
 
- :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
+   :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
 
 ## Troubleshoot warnings and errors
 
