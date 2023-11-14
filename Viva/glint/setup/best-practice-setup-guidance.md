@@ -43,5 +43,3 @@ Watch this 5-minute video on **Best Practice Survey Design Principles**:
 [Choose survey comparison data for Viva Glint reporting](https://go.microsoft.com/fwlink/?linkid=2230923)
 
 [Recognize survey field character limits in Viva Glint programs](https://go.microsoft.com/fwlink/?linkid=2230874)
-
-[Use the Glint Microsoft Teams Application](https://go.microsoft.com/fwlink/?linkid=2236748)
