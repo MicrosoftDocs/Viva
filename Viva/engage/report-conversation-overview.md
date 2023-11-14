@@ -22,23 +22,23 @@ search.appverid:
 
 # Report a Viva Engage conversation
 
-Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. An admin can turn on the **Report conversations** option in the Viva Engage admin center to set this up. The options in the admin center change, however, depending on whether you have an E3 or E5 license:
+Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. An admin can turn on the **Report conversations** option in the Viva Engage admin center to set this up. The options in the admin center change, however, depending on whether you have a license that includes Microsoft Purview Communication Compliance license:
 
-- **E3 customers**. If you have an E3 license, when the option is turned on, the Viva Engage admin can specify an email address to receive reported conversations. The admin can also enter pre-submission instructions and post-submission confirmations for the user as described in this article. 
+- **Licenses that don't include communication compliance**. If you don't have a license that includes communication compliance, when the option is turned on, the Viva Engage admin can specify an email address to receive reported conversations. The admin can also enter pre-submission instructions and post-submission confirmations for the user as described in this article. 
 
-- **E5 customers**. If you have an E5 license, when the option is turned on, any reported conversations are automatically routed through Microsoft Purview Communication Compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](\purview\communication-complicance-policies)
+- **Licenses that do include communication compliance**. If you do have a license that includes communication compliance, when the option is turned on, any reported conversations are automatically routed through communication compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](/purview/communication-complicance-policies)
  
-## Enable conversation reporting if you have an E3 license
+## Enable conversation reporting if you don't have a license that includes communication compliance
 
 1. In the Viva Engage admin center, on the **Setup & Configuration** tab, select **Tenant settings**. 
 
-1. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
+2. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
 
-2. Under **Content & Security** on the left panel, select **Report conversations**.
+3. Under **Content & Security** on the left panel, select **Report conversations**.
 
     :::image type="content" source="../media/viva-engage-conversations-admin-report-conversations.png" alt-text="Screenshot that shows reporting settings.":::
 
-3. After you enable conversations, enter information for the following two settings:
+4. After you enable conversations, enter information for the following two settings:
 
     - **Report recipient (an organization email address)** - Provide an organization email address where reports are sent. Viva Engage can't verify that the email address you enter is an organization email address.  
 
@@ -46,7 +46,7 @@ Viva Engage admins can empower users across the network to report conversations 
 
 For example, explain who in your organization their report goes to and next steps in the process. If possible, provide a link to your company network usage guidelines. Limited to 1,500 characters.
 
-4. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. For example, set expectations for when the submitter can expect a response and next steps for the organization. Limited to 1,500 characters.  
+5. Optionally, use the **Post-submission instructions to user** setting to explain to your employees what happens after they submit a report. For example, set expectations for when the submitter can expect a response and next steps for the organization. Limited to 1,500 characters.  
 
     :::image type="content" source="../media/viva-engage-conversations-full-admin-panel.png" alt-text="Screenshot shows the reporting admin panel.":::
 
@@ -95,7 +95,7 @@ A copy of this email is also sent to the Viva Engage user who submitted the repo
 
 **A:** All tenants that have Viva Engage configured for their organization, either seeded or premium, are eligible for the reporting conversations experience.
 
-**Q:** Can I add multiple email addresses for the reports to go to (E3 experience)?
+**Q:** Can I add multiple email addresses for the reports to go to?
 
 **A:** Currently only one email can be used. We suggest you use a group email or distribution list alias if you want the reports to go to multiple people.
 
@@ -121,4 +121,4 @@ A copy of this email is also sent to the Viva Engage user who submitted the repo
 
 **Q:** How do I route reported conversations through Microsoft Purview Communication Compliance instead of using a single email address to report conversations?
 
-**A:** If you have an E5 license, [learn how to take advantage of review and remediation capabilities of Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
+**A:** If you have a license that includes communication compliance, [learn how to take advantage of review and remediation capabilities of Microsoft Purview Communication Compliance](/purview/communication-compliance-policies).
