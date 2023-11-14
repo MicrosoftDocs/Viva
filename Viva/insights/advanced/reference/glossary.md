@@ -1,5 +1,5 @@
 ---
-ms.date: 08/17/2023
+ms.date: 11/14/2023
 title: Viva Insights advanced insights glossary 
 description: This article provides a glossary of terms for the Microsoft Viva Insights advanced insights app. 
 author: zachminers
@@ -46,11 +46,11 @@ Active employee | An employee who has sent at least one email or instant message
 | <a name="influence-define"></a>  Influence | Indicates a person or group's potential influence on opinions of the network or an estimate of social status. The number and strength of connections between employees and the relative collaboration time between them. |
 | <a name="insularity-define"></a>  Insularity | When collaboration happens only with people from within a person’s team, function, department, and so on. |
 | <a name="invitee-define"></a>  Invitee | A person who is invited to a meeting with a meeting request. |
-| <a name="large-meeting-define"></a>  Large meeting | A large meeting has a duration of less than or equal to one hour and has nine or more attendees. Also see Long and large meeting. |
+| <a name="large-meeting-define"></a>  Large meeting | A large meeting has a duration of less than or equal to one hour and has nine or more invitees, including the organizer. Also see Long and large meeting. |
 | <a name="layer-define"></a>  Layer | The number of levels of reporting in a company, starting from CEO and going down. For example, the CEO equals level 0. |
 | <a name="level-define"></a>  Level | A required optional attribute that is a company-specific way of organizing employees by job experience or seniority. |
 | <a name="long-meeting-define"></a>  Long meeting | A long meeting has a duration of greater than one hour and has fewer than nine attendees. Also see Long and large meeting. |
-| <a name="long-and-large-meeting-define"></a>  Long and large meeting | A long and large meeting has a duration of more than one hour and has more than eight attendees. Also see large meeting and long meeting. |
+| <a name="long-and-large-meeting-define"></a>  Long and large meeting | A long and large meeting has a duration of more than one hour and has nine or more invitees, including the organizer. Also see large meeting and long meeting. |
 | Measured employees | The employees to whom your Viva Insights admin assigned licenses during setup. After license assignment, Viva Insights extracts Microsoft 365 data about meetings, email, unscheduled calls, and instant messages for these people. If you are an analyst or limited analyst, this is the population that you can analyze within Viva Insights. The number of measured employees can help determine whether you have good data coverage for analysis. |
 | <a name="meeting-define"></a>  Meeting | An audio or video communication or in-person meeting that has been scheduled—that is, it appears on a person's Outlook calendar. A meeting must involve two or more people. Outlook calendar events determine the durations of meetings. |
 | <a name="multitasking-define"></a>  Multitasking | The concept of not staying focused on the task at hand. Defined in Viva Insights as a person sending two emails or more per meeting hour, and in meetings shorter than an hour, two emails or more per meeting. |
