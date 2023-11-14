@@ -29,7 +29,7 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **General Settings**.
 1. In the **Technical Configuration** section, go to **SFTP Setup** and select **Manage**.
 1. In the SFTP pane that appears, review each field and enter information as needed:
-   1. **SSH Public Key:** Enter your public SSH key in this field. **DO NOT** share your private key with Viva Glint. To generate a key pair: [Learn more](https://go.microsoft.com/fwlink/?linkid=2247507).
+   1. **SSH Public Key:** Enter the full text of your public SSH key in this field: `ssh-rsa ...` . **DO NOT** share your private key with Viva Glint. To generate a key pair: [Learn more](https://go.microsoft.com/fwlink/?linkid=2247507).
    1. **SFTP IP Addresses:** Any account that connects to SFTP must have valid public IP addresses added here. Contact your IT team or use [online tools](https://ifconfig.io/) to determine your public IP address(es).
    1. **Notify People:** Search for and add users that should receive file upload notification emails.
    1. **PGP Encryption:** This setting is optional. Switch toggle to **On** to enable file encryption and reveal Glint's public PGP encryption key to encrypt your employee data files.

@@ -21,7 +21,7 @@
     - name: Viva Learning
       tocHref: /viva/learning/
       topicHref: /viva/learning/index
-    - name: Viva Topics
+    - name: Topics
       tocHref: /viva/topics/
       topicHref: /viva/topics/index
     - name: Viva Goals
