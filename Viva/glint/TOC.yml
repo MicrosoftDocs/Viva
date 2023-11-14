@@ -15,9 +15,9 @@ items:
                 href: start/people-science-viva-glint.md
               - name: Learning path and modules
                 href: start/viva-glint-learning-paths-and-modules.md
-            - name: Microsoft Viva Glint privacy
-              href: setup/viva-glint-privacy.md
-              items:
+          - name: Microsoft Viva Glint privacy
+            href: setup/viva-glint-privacy.md
+            items:
               - name: Privacy policies in Microsoft Viva Glint
                 href: setup/add-privacy-policy.md
               - name: Advanced privacy guide for data usage and survey item creation
