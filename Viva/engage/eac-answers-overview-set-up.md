@@ -41,11 +41,11 @@ Users who aren't assigned the Viva Engage Knowledge service plan receive notific
 
 By default, the Answers experience is enabled for customers that meet the following technical requirements:
 
-1) **Viva Engage network is in Native Mode**
+1. **Viva Engage network is in Native Mode**
 
     [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups, and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2) **Viva Engage uses Topics**
+2. **Viva Engage uses Topics**
 
    In the Answers experience, Topics helps to organize questions and route them to people who are knowledgeable about specific Topics. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
    Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
@@ -110,9 +110,9 @@ For this feature to be available, the network is required to have two or fewer E
 
 5. In Answers feature management, you can switch **Show Engage Experience** on or off for your organization.
 
- The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
+The Viva Engage Experience can't be hidden if Answers is turned off, or if the tenant has more than two active communities.
     
- :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
+:::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
 > If the Viva Engage Experience is hidden, the backing group respects the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).
@@ -128,11 +128,11 @@ Microsoft Global 365 administrators can turn this feature off to hide it from th
 3. Select **Admin** to navigate to the Viva Engage admin center. 
 4. On the **Feature management** tab, select the **Answers** button to open the Answers configuration options.  
 
-:::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" lightbox="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows AI-suggested topics turned on.":::
+   :::image type="content" source="../media/engage/admin/ea-answers-ai-1.png" lightbox="../media/engage/admin/ea-answers-ai-1.png" alt-text="Screenshot shows AI-suggested topics turned on.":::
 
 5. In Answers feature management, switch **Enable AI-suggested topics** on or off for your organization. 
 
-:::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows  AI-suggested topics turned off.":::
+   :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows  AI-suggested topics turned off.":::
 
 ## See also
 
