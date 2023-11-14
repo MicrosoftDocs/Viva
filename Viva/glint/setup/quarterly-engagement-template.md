@@ -20,7 +20,7 @@ ms.date: 11/14/2023
 
 # Viva Glint's Quarterly Engagement Survey template
 
-Microsoft Viva Glint has seen a shift in focus on what is most important to the happiness and success of employees since mid-2020 because of the COVID-19 pandemic and other global factors. For this reason, we knew we needed to reexamine our current measures of employee engagement (2018) to ensure we're focusing on the most meaningful engagement drivers for this modern era. 
+Microsoft Viva Glint has seen a shift in focus on what is most important to the happiness and success of employees since the mid-2020 because of the COVID-19 pandemic and other global factors. For this reason, we knew we needed to reexamine our current measures of employee engagement (2018) to ensure we're focusing on the most meaningful engagement drivers for this modern era. 
 
 We analyzed over 350 million employee survey responses collected since 2020 to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We discovered some new key driver themes, which resulted in a new top-20 list of core engagement drivers. Additionally, we identified several other drivers that may be beneficial for consideration by individual organizations. 
 
