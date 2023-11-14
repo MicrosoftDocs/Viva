@@ -70,18 +70,19 @@ You must have Microsoft 365 Global administrator privileges and be synchronized 
     :::image type="content" source="../../media/engage/admin/enforce-o365-settings.png" lightbox="../../media/engage/admin/enforce-o365-settings.png" alt-text="Screenshot that shows the Enforce Office 365 identity in Viva Engage checkbox in the Viva Engage Security Setting page. You must be a global administrator to see this setting.":::
   
 3. A confirmation message asks you to select the most appropriate level of enforcement:
+
    - **Committed Enforcement**:  Choose this option if all of your Viva Engage users have an account in Microsoft Entra ID.
 
-   :::image type="content" source="../../media/a0927cc2-eafa-4ace-a939-a3fa27be943b.png" alt-text="Screenshot of confirmation dialog box that shows the Enforcement level for Microsoft 365 sign-in.":::
+     :::image type="content" source="../../media/a0927cc2-eafa-4ace-a939-a3fa27be943b.png" alt-text="Screenshot of confirmation dialog box that shows the Enforcement level for Microsoft 365 sign-in.":::
 
-  > [!IMPORTANT] 
-  > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords.
+     > [!IMPORTANT] 
+     > This change cannot be reversed. Your users will no longer be able to sign in using their Viva Engage usernames and passwords.
   
    - **Temporary 7-Day Enforcement**: Choose this option if you're testing the enforcement of Microsoft 365 identity on your network, and may need to revert it back. After you save this change, a temporary enforcement period of seven days begins, and your users can't sign in using their Viva Engage usernames and passwords. After seven days, your network is automatically committed to Microsoft 365 identity enforcement.
 
      :::image type="content" source="../../media/a0927cc2-eafa-4ace-a939-a3fa27be943b.png" alt-text="Screenshot of confirmation dialog box that shows the Enforcement level for Microsoft 365 sign-in.":::
   
-4.Optionally, you can automatically sign out all current users to ensure that everyone using the Viva Engage service has signed in with their Microsoft 365 identities. To sign out all current users, select the **Log out all users** checkbox. If you choose this option, we recommend that you communicate this change using the following sample email.
+4. Optionally, you can automatically sign out all current users to ensure that everyone using the Viva Engage service has signed in with their Microsoft 365 identities. To sign out all current users, select the **Log out all users** checkbox. If you choose this option, we recommend that you communicate this change using the following sample email.
 
    *Subject Line: [Action Required] Log back in to Viva Engage*
 
