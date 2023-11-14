@@ -39,9 +39,9 @@ Here's an account of the user's sign-in experience:
     
 2. The user enters their email address:
 
- - When Microsoft 365 identity is enforced, the user signs in with their Microsoft 365 identity. If the federated identity model is implemented in Microsoft 365, the user uses SSO.
+   - When Microsoft 365 identity is enforced, the user signs in with their Microsoft 365 identity. If the federated identity model is implemented in Microsoft 365, the user uses SSO.
     
-- When Microsoft 365 identity isn't enforced, the user signs in with their Microsoft 365 identity (if their email address corresponds to a Microsoft 365 account) or their Viva Engage identity (if their email address doesn't correspond to a Microsoft 365 account).
+   - When Microsoft 365 identity isn't enforced, the user signs in with their Microsoft 365 identity (if their email address corresponds to a Microsoft 365 account) or their Viva Engage identity (if their email address doesn't correspond to a Microsoft 365 account).
     
 The following table compares the user sign-in behavior when Microsoft 365 identity is enforced or not enforced. Microsoft 365 identity isn't enforced by default.
   
