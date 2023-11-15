@@ -1,5 +1,5 @@
 ---
-ms.date: 12/14/2022
+ms.date: 11/15/2023
 title: "Report a Viva Engage conversation"
 description: "Configure conversation reporting in Viva Engage to enable people to report conversation starter posts and comments that don't follow guidelines or policies."
 ms.reviewer: ethli
