@@ -22,11 +22,11 @@ search.appverid:
 
 # Report a Viva Engage conversation
 
-Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. An admin can turn on the **Report conversations** option in the Viva Engage admin center to set this up. The options in the admin center change, however, depending on whether you have a license that includes Microsoft Purview Communication Compliance license:
+Viva Engage admins can empower users across the network to report conversations and comments that don't follow organizational guidelines or policies. An admin can turn on the **Report conversations** option in the Viva Engage admin center to set this up. The options in the admin center change, however, depending on whether you have a license that includes Microsoft Purview Communication Compliance:
 
 - **Licenses that don't include communication compliance**. If you don't have a license that includes communication compliance, when the option is turned on, the Viva Engage admin can specify an email address to receive reported conversations. The admin can also enter pre-submission instructions and post-submission confirmations for the user as described in this article. 
 
-- **Licenses that do include communication compliance**. If you do have a license that includes communication compliance, when the option is turned on, any reported conversations are automatically routed through communication compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](/purview/communication-complicance-policies)
+- **Licenses that do include communication compliance**. If you do have a license that includes communication compliance, when the option is turned on, any reported conversations are automatically routed through communication compliance for investigation and remediation. [Learn more about routing reported conversations through Microsoft Purview Communication Compliance](/purview/communication-compliance-policies)
  
 ## Enable conversation reporting if you don't have a license that includes communication compliance
 
