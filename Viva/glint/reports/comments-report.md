@@ -29,7 +29,10 @@ The Comments report, for those with comments permission, is found from the Viva 
 
 ## Choose which comment sections to view on your dashboard
 
-The Comments report is divided into sections; the Overview section displays on your screen by default. 
+The Comments report is divided into sections; the Overview section displays on your screen by default.
+
+:::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections"
+
 - **Comments** - Total number of comments, defined by number of commenters and percentage of respondents.
 - **Continent Sentiment** - A bar graph indicating overall positive, negative, and neutral sentiments.
 - **Topics** - Topics mentioned most often appear here, including the number of mentions.
