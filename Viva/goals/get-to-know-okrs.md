@@ -1,5 +1,5 @@
 ---
-ms.date: 11/08/2023
+ms.date: 11/09/2023
 title: Get to know OKRs
 ms.reviewer: 
 ms.author: rasanders
@@ -26,7 +26,7 @@ description: "Learn about an OKR, its superpower, and how it's used"
 
 [Objectives and key results (OKRs)](https://www.microsoft.com/en-us/microsoft-viva/what-is-okr-objective-key-results) are a proven goal-setting framework that drives business outcomes by keeping everyone in your org aligned, focused, and productive.
 
-OKRs orient your organization around the goals you hope to achive, changing the focus from output (your team's everyday work) to outcomes (the results of that work). This mindset shift keeps your team engaged, gives you a clear sense of purpose, and shows how everyone is contributing to forward momentum.
+OKRs orient your organization around the goals you hope to achieve, changing the focus from output (your team's everyday work) to outcomes (the results of that work). This mindset shift keeps your team engaged, gives you a clear sense of purpose, and shows how everyone is contributing to forward momentum.
 
 An **objective** is a high-level description of something your team wants to accomplish.
 
@@ -36,16 +36,20 @@ A **key result** is a quantifiable goal that helps you measure progress toward o
 
 ![Chart shows a sample key results hierarchy.](../media/goals/1/11/b.jpg)
 
-An **initiative** is a focused effort geared toward helping you achieve a key result.
+An **initiative** is a focused effort geared toward helping you achieve one or more key results.
 
-When delineating initiatives in Viva Goals:
+The term **OKR** is used to describe an objective and all of its associated key results and initiatives. Even though "OKRs" include initiatives as well as objectives and key results, they are sometimes referred to as "OKRs and initiatives" to avoid confusion.
 
-* **Be both optimistic and realistic.** The best Make sure you have the ability (resources and timeline) to execute the initiatives and key initiatives under your OKRs. That's what makes an objective realistically optimistic and not a pipe dream.  
+**Goal** is a catch-all term used to describe an objective, key result, or initiative.
+
+Here are some things to keep in mind when using Viva Goals:
+
+* **Be both optimistic and realistic.** The best goals are ambitious but doable. You should both have the time and resources necessary to make good on your OKRs' key results and initiatives.
 
 * **Ask yourself this:** what could get in the way of our initiatives and key initiatives?
 Incorporating initiatives in your OKR program ensures alignment between company-wide OKRs and the work prioritized by every department in your organization.
 
-* **Check-ins** are updates you make to share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective as appropriate.
+* **Check-ins** are how you update and share progress on your OKRs. When you update progress on a key result, it automatically updates the status of the parent objective as appropriate.
 
 The keys to success with OKRs are transparency and alignment. Right from the CEO to managers and colleagues, an employee can view anyone's OKRs in the system. This transparency fosters openness and removes conflicts and redundancies with work. OKRs are also aligned vertically and horizontally, allowing employees to see how their work connects with the organization's overall strategic goals.
 
@@ -61,7 +65,7 @@ Massive global enterprise companies have adopted OKRs, and so have 10-20 person 
 
 **OKRs create clarity that is documented, measurable, and owned.** The OKR framework provides accountability that's tracked and measured in the OKR software or document that a company uses to manage the process. This accountability works two ways: with each individual responsible for their OKRs and company leadership responsible for enabling their pursuit.
 
-**OKRs inspire stretch and foster involvement**. When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every  employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
+**OKRs inspire stretch and foster involvement.** When done well and made the driving force in the company’s strategic rhythm, OKRs can keep every  employee connected to the broader mission and make sure they’re invested in their own contribution to it.  
 
 **OKRs offer clear, contextual communication with continual progress reviews.** The OKR framework doesn't stop when your goals are written. It's designed to create a business rhythm around the most important outcomes that your company is pursuing. It should influence every interaction and drive a review process that pushes for continuous improvement.
 
