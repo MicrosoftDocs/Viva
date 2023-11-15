@@ -23,11 +23,11 @@ ms.date: 11/15/2023
 The Comments report is your window into Viva Glint's Narrative Intelligence technology, which helps managers interpret comment data by highlighting important topic areas, sentiment analysis, and keywords. 
 Reviewing comments allows managers to gain further insights into their results. Comments can provide helpful context around scores you are exploring in the rest of the application. When a comment count is present, you can select it to view the comments and interact with Viva Glint’s full Narrative Intelligence experience. Comments can be viewed by any demographic and/or question. 
 
-# Access the Comments report
+## Access the Comments report
 
 The Comments report, for those with comments permission, is found from the Viva Glint admin dashboard > **Reports** > **Comments**.
 
-# Choose which comment sections to view on your dashboard
+## Choose which comment sections to view on your dashboard
 
 The Comments report is divided into sections; the Overview section displays on your screen by default. 
 - **Comments** - Total number of comments, defined by number of commenters and percentage of respondents.
@@ -81,7 +81,7 @@ You may redact terms - flagged as Personally Identifiable Information (PII) or a
 
 ### Learn the importance of quarantining comments when necessary. 
 Sensitive comments can be quarantined by using the **vertical ellipses** next to the comment. 
-By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. [More information on Sensitive Data here](https://learn.microsoft.com/en-us/viva/glint/setup/gdpr-special-categories).
+By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. [More information on Sensitive Data here](https://learn.microsoft.com/viva/glint/setup/gdpr-special-categories).
  
 ## Export, save, or share from the Comments report
 Selecting this dropdown menu allows you to perform these functions:
