@@ -214,6 +214,8 @@ items:
             href: reports/act-strengths-opportunities.md
       - name: Use Viva Glint's Focus Area Overview report
         href: reports/focus-area-overview-report.md
+      - name: Use Viva Glint's Comments report
+        href: reports/comments-report.md
       - name: Use the Manager report in Viva Glint
         href: reports/manager-report.md
       - name: Multi-Attribute Export report
@@ -269,4 +271,6 @@ items:
   - name: Troubleshoot
     items:
       - name: Resolve manager hierarchy error
-        href: /viva/troubleshoot/glint/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.jso
+        href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+      - name: Understand file upload errors and warnings
+        href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
