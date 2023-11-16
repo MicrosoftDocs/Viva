@@ -20,9 +20,9 @@ description: "Data residency for Viva Engage"
 ---
 
 # Data residency for Viva Engage
-Viva Engage offers local data residency to help meet data residency requirements. We commit to store message bodies and files attached to messages at rest within a specific geographical area, or *geo*. Viva Engage files are saved either in Viva Engage cloud storage, or for Microsoft 365 connected groups, some Viva Engage files are stored in SharePoint. Viva Engage files saved in SharePoint are stored in SharePoint Online per your SharePoint Online data residency policy. Mobile push notifications require sending data to a third-party notification service (Apple or Google), which might be outside your geo.
+Viva Engage offers local data residency to help meet data residency requirements. We commit to store message bodies and their file attachments within a specific geographical area, referred to here as a *geo*. Viva Engage files are saved in Viva Engage cloud storage. For Microsoft 365 connected groups, some Viva Engage files are stored in SharePoint Online per your SharePoint Online data residency policy. Because mobile push notifications send data to a third-party notification service (Apple or Google), they may be outside your geo.
 
-Your Viva Engage Enterprise tenant is automatically created when you create your Microsoft 365 tenant. For Office 365 Education subscribers, your tenant is associated with the US geo. For all other Microsoft 365 subscribers, the country you enroll from determines the geo your tenant is associated with. When you enroll from Europe or Africa, your tenant is associated with the EU geo. When you enroll from Australia, Asia, North America, or South America, your tenant is associated with the US geo.
+Your Viva Engage Enterprise tenant is automatically created when you create your Microsoft 365 tenant. For Microsoft 365 Education subscribers, your tenant is associated with the US geo. For all other Microsoft 365 subscribers, the country you enroll from determines your tenant's geo. If you enroll from Europe or Africa, your tenant is associated with the EU geo. If you enroll from Australia, Asia, North America, or South America, your tenant is associated with the US geo.
 
 #### Viva Engage features that are unavailable for tenants hosted in the EU geo 
 
@@ -38,7 +38,7 @@ Viva Engage Enterprise tenants in the EU geo lack features that enable full part
 
 <a name="geodata"></a>
 
-###  Determine which Geo your tenant is in
+###  Determine which geo your tenant is in
 
 1. Sign in as a verified admin to Viva Engage.
 
@@ -50,7 +50,7 @@ Viva Engage Enterprise tenants in the EU geo lack features that enable full part
 
     - If your tenant is in the US geo, you'll see **Viva Engage network activated in the US Geo**.
 
-###  Reprovision your Viva Engage Enterprise network to EU Geo
+###  Reprovision your Viva Engage Enterprise network to the EU geo
 Customers can have their Viva Engage Enterprise tenant reprovisioned to the Viva Engage EU geo. Contact your Microsoft account team representative for details.
 
 ## See also
