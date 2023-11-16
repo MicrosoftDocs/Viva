@@ -1,5 +1,5 @@
 ---
-title: Enriching content metadata  
+title: Content tagging and content metadata export  
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -18,7 +18,7 @@ localization_priority: medium
 description: Learn how you can enrich content metadata with interests to provide better content recommendations and search relevance for learners.
 ---
 
-# Content tagging and metadata export 
+# Content tagging and content metadata export 
 
 Use content tagging and content metadata export in Viva Learning to enable:  
 
