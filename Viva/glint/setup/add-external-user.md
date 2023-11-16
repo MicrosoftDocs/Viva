@@ -21,7 +21,7 @@ ms.date: 05/22/2023
 
 # Manage external users in Viva Glint
 
-Grant access to and remove Microsoft Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks.
+Grant access to and remove Microsoft Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks. The Support User role is designed to grant the right permissions to external users, like Microsoft Partners, and allow Viva Glint Admins to quickly audit how many Support users have access to their Viva Glint application.
 
 > [!NOTE]
 > Support users must be added to your Microsoft Entra ID before you can add them in Viva Glint.
