@@ -26,6 +26,8 @@ Campaigns are an interactive way to drive employee engagement. They provide powe
 
 Creating and viewing the campaign landing page and analytics from the campaign management dashboard is only available to licensed admins. Unlicensed network, global, and engage admins can only access the campaign management dashboard and delete campaigns that were created by licensed admins or corporate communicators.
 
+>[Note!] Campaigns is a Viva Engage premium feature. Learn more about licensing [here](https://learn.microsoft.com/en-us/viva/engage/manage-engage-licenses-microsoft-365).
+
 ## Set up a campaign
 In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
