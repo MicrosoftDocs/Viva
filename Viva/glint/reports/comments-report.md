@@ -31,7 +31,7 @@ The Comments report, for those with comments permission, is found from the Viva 
 
 The Comments report is divided into sections; the Overview section displays on your screen by default.
 
-:::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections"
+:::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 
 - **Comments** - Total number of comments, defined by number of commenters and percentage of respondents.
 - **Continent Sentiment** - A bar graph indicating overall positive, negative, and neutral sentiments.
@@ -84,7 +84,7 @@ You may redact terms - flagged as Personally Identifiable Information (PII) or a
 
 ### Learn the importance of quarantining comments when necessary. 
 Sensitive comments can be quarantined by using the **vertical ellipses** next to the comment. 
-By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. [More information on Sensitive Data here](/viva/glint/setup/gdpr-special-categories).
+By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. See [Advanced privacy guide for data usage and survey item creation](/viva/glint/setup/gdpr-special-categories) for more information.
  
 ## Export, save, or share from the Comments report
 Selecting this dropdown menu allows you to perform these functions:
