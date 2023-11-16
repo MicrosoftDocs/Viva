@@ -21,7 +21,7 @@ ms.date: 05/22/2023
 
 # Manage external users in Viva Glint
 
-Grant access to and remove Microsoft Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks.
+Grant access to and remove Microsoft Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks. The Support User role is designed to grant the right permissions to external users, like Microsoft Partners, and allow Viva Glint Admins to quickly audit how many Support users have access to their Viva Glint application.
 
 > [!NOTE]
 > Support users must be added to your Microsoft Entra ID before you can add them in Viva Glint.
@@ -30,7 +30,7 @@ Grant access to and remove Microsoft Viva Glint Support users to assist in deplo
 
 To add a user:
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Employees** , choose **People**.
+1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
 2. In the **Actions** dropdown menu, select **Add a Support User**.
 3. Enter the First Name, Last Name, and Email on file in Microsoft Entra ID for this user.
 
@@ -43,7 +43,7 @@ To add a user:
     > For Partner users, add the user to the Partner Employees User Role as well.
 
 5. Switch the **External user** toggle to **Yes** to flag external users within your organization.
-6. Switch the **Grant user advanced configuration access** setting to **Yes** to allowSupport users access to **Advanced Configuration** features.
+6. Switch the **Grant user advanced configuration access** setting to **Yes** to allow Support users access to **Advanced Configuration** features.
 7. Select **Add support user.**
 
 > [!CAUTION]
@@ -53,7 +53,7 @@ To add a user:
 
 When an external user no longer needs access to your Viva Glint account:
 
-1. From the admin dashboard, select the **Configure** symbol, then in **Employees** , choose **People**.
+1. From the admin dashboard, select the **Configure** symbol, then in **Employees**, choose **People**.
 2. In the **Search People** field, enter the first and last name or email address of the user.
 3. In the search results, select the desired user.
 4. On the user's profile, select **Actions** and then **Delete User**.
