@@ -214,6 +214,8 @@ items:
             href: reports/act-strengths-opportunities.md
       - name: Use Viva Glint's Focus Area Overview report
         href: reports/focus-area-overview-report.md
+      - name: Use Viva Glint's Comments report
+        href: reports/comments-report.md
       - name: Use the Manager report in Viva Glint
         href: reports/manager-report.md
       - name: Multi-Attribute Export report
