@@ -44,15 +44,15 @@ Viva Engage Enterprise tenants in the EU geo lack features that enable full part
 
 2. Select the **Settings** icon, select **Network Admin** > **Success**.
 
-3. In the **New Network Checklist** section: 
+3. Note the **New Network Checklist** section: 
 
-    - If your tenant is in the EU geo, you'll see **Viva Engage network activated in the EU Geo**.
-
-    - If your tenant is in the US geo, you'll see **Viva Engage network activated in the US Geo**.
+    - Tenants in the EU geo show **Viva Engage network activated in the EU Geo**.
+    - Tenants in the US geo show **Viva Engage network activated in the US Geo**.
 
 ###  Reprovision your Viva Engage Enterprise network to the EU geo
+
 Customers can have their Viva Engage Enterprise tenant reprovisioned to the Viva Engage EU geo. Contact your Microsoft account team representative for details.
 
 ## See also
 
-[Where is your Microsoft 365 or Office 365 data located](/microsoft-365/enterprise/o365-data-locations)
+[Where is your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations)
