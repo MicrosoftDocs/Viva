@@ -18,13 +18,9 @@ localization_priority: medium
 description: Learn how you can enrich content metadata with interests to provide better content recommendations and search relevance for learners.
 ---
 
-# Enriching content metadata
+# Content tagging and metadata export 
 
-You can enrich content metadata with interests to provide better content recommendations and search relevance for learners.
-
-## Introduction
-
-Use metadata enrichment in Viva Learning to enable:  
+Use content tagging and content metadata export in Viva Learning to enable:  
 
 - Tagging content with interests -  admins and content owners (permissions set through Microsoft 365 
 groups) can manually tag content with interests.
@@ -33,7 +29,7 @@ a csv file for offline review and analysis of interest tags. Users can export me
 content catalog or for a filtered set of content.
 - Viewing interest tags - Learners can see interest tags associated with content on the content details page.
 
-## Permissions for content metadata enrichment
+## Permissions
 
 The following roles can export content metadata and edit content tags by accessing **Manage Content Metadata**:
 
@@ -100,6 +96,9 @@ To edit tags for content, select **Edit tags**. An "Edit Interest tags" window o
 Admins and content owners can search and select up to three interests from the list of curated interests to tag the content. These manually added tags can be deselected to select more relevant interest applicable for the content.
 
 The tags appear on the content details page after you save it.
+
+> [!NOTE]
+> Tagging learning collections with interests isn't currently supported. 
 
 ## Learner view of interest tags
 
