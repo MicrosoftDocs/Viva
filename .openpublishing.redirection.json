@@ -1924,6 +1924,11 @@
       "source_path": "viva/pulse/troubleshoot-and-resolve-error-messages.md",
       "redirect_url": "/viva/troubleshoot/pulse/fix-setup-error-messages",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/glint/setup/error-messages.md",
+      "redirect_url": "/viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings",
+      "redirect_document_id": false
     }
   ]
 }
