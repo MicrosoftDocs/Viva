@@ -84,7 +84,7 @@ You may redact terms - flagged as Personally Identifiable Information (PII) or a
 
 ### Learn the importance of quarantining comments when necessary. 
 Sensitive comments can be quarantined by using the **vertical ellipses** next to the comment. 
-By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. [More information on Sensitive Data here](https://learn.microsoft.com/viva/glint/setup/gdpr-special-categories).
+By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. [More information on Sensitive Data here](/viva/glint/setup/gdpr-special-categories).
  
 ## Export, save, or share from the Comments report
 Selecting this dropdown menu allows you to perform these functions:
@@ -98,7 +98,7 @@ Selecting this dropdown menu allows you to perform these functions:
 - Share
 
 >[!NOTE]
-Managers with multinational teams can export and read all comments in their preferred languages so that they can easily dig deeper into the comments offline.  For Comment reports generated in less than ten seconds, the file downloads automatically in-browser. For reports requiring longer than a ten-second generation, the user will receive an email link to download their file when it is ready.Settings
+> Managers with multinational teams can export and read all comments in their preferred languages so that they can easily dig deeper into the comments offline.  For Comment reports generated in less than ten seconds, the file downloads automatically in-browser. For reports requiring longer than a ten-second generation, the user will receive an email link to download their file when it is ready.
 
 ## Choose your benchmark in the Settings window
 Selecting this button opens the Report Settings slider. Here you can choose your benchmark.
