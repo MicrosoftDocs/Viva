@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 03/23/2023
 ---
 
@@ -24,6 +24,9 @@ User file imports help admins to keep users current with their organization's HR
 
 >[!WARNING]
 > For security reasons, never email your employee attributes file.
+
+> [!CAUTION]
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
 
 ### File requirements
 

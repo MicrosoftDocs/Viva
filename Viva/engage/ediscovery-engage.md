@@ -22,8 +22,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Use eDiscovery for Viva Engage content
 
-You can use eDiscovery to surface Viva Engage content from within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode. Viva Engage networks provisioned after January 9, 2020 run in Native Mode by 
-default. For more information, see [Overview of Native Mode](overview-native-mode.md).
+You can use eDiscovery to surface Viva Engage content from within the Microsoft Purview compliance portal. However, to use this functionality, your Viva Engage network must be in Native Mode. Viva Engage networks provisioned after January 9, 2020 run in Native Mode by default. For more information, see [Overview of Native Mode](overview-native-mode.md).
 
 ### How to query Viva Engage content 
 
@@ -56,8 +55,4 @@ We continue to update the data points that are included in search results for Vi
 
 ## See also
 
-[About Microsoft Purview](/purview/)
-
-[eDiscovery in Office 365](/office365/securitycompliance/ediscovery)
-
-[Overview of the eDiscovery (Premium) solution in Microsoft Purview](/office365/securitycompliance/office-365-advanced-ediscovery)
+[Overview of Microsoft Purview eDiscovery (Premium)](/purview/ediscovery-overview)
