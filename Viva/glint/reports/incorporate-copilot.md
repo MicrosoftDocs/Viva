@@ -28,7 +28,7 @@ Copilot in Viva Glint:
 - Provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Viva Glint surveys
 - For leaders and managers with thousands of comments to sift through, Copilot in Viva Glint saves time, providing new ways of understanding employee feedback. 
 
-:::image type="content" source="../../media/glint/setup/comments-copilot-2.png" alt-text="Screenshot of accessing Copilot in Viva Glint in the Comments report.”::: 
+:::image type="content" source="../../media/glint/setup/comments-copilot-2.png" alt-text="Screenshot of accessing Copilot in Viva Glint in the Comments report.":::
 
 ## A Private preview of Copilot in Viva Glint will begin in January 2024.
 
