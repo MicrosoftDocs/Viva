@@ -1,5 +1,6 @@
 ---
-ms.date: 11/1/2023
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/17/2023
 title: Other ways to use an employee retention model
 description: Highlights a few other key ways to use an employee retention model, such as to predict future attrition.
 author: zachminers

@@ -1,5 +1,6 @@
 ---
-ms.date: 11/1/2023
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/17/2023
 title: What is an employee retention model?
 description: Provides an overview of an employee retention model including terminology like attrition and turnover model.
 author: zachminers

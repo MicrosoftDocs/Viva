@@ -115,23 +115,7 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md     
-            - name: Build an Employee Retention Model
-              items:
-              - name: Why build an Employee Retention Model?
-                href: advanced/analyst/why-build-an-employee-retention-model.md
-              - name: What is an Employee Retention Model?
-                href: advanced/analyst/what-is-an-employee-retention-model.md
-              - name: What metrics and queries can be accessed in Viva Insights and in Glint?
-                href: advanced/analyst/employee-retention-metrics-queries.md
-              - name: How to build an Employee Retention Model using R and Python
-                href: advanced/analyst/how-to-build-an-employee-retention-model.md
-              - name: Improve model performance
-                href: advanced/analyst/apply-the-model.md
-              - name: Other ways to use an Employee Retention Model
-                href: advanced/analyst/other-ways-to-use-an-employee-retention-model.md  
-              - name: Playbook End Note
-                href: advanced/analyst/employee-retention-playbook-note.md              
+                href: advanced/analyst/cross-collaboration-g2g.md               
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector

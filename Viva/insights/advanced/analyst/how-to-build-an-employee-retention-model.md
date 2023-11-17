@@ -1,5 +1,6 @@
 ---
-ms.date: 11/1/2023
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/17/2023
 title: How to build an employee retention model
 description: Explains the process for building an employee retention model using R and Python.
 author: zachminers

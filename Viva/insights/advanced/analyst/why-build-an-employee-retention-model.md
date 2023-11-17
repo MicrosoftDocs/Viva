@@ -1,5 +1,6 @@
 ---
-ms.date: 11/1/2023
+ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 11/17/2023
 title: Why build an employee retention model?
 description: Introduction to the playbook on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint.
 author: zachminers
