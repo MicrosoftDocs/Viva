@@ -41,7 +41,7 @@ items:
           - name: Third party notice
             href: /legal/viva/glint/third-party-notice
       - name: Set up your platform as a Viva Glint Admin
-        href: setup/deploy-viva-glint.md
+        href: setup/setup-platform-admin.md
         items:
           - name: Begin platform setup with your IT team
             items:
