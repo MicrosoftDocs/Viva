@@ -218,7 +218,7 @@ items:
         href: reports/comments-report.md
         items: 
           - name: Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report
-          - href: reports/incorporate-copilot.md
+            href: reports/incorporate-copilot.md
       - name: Use the Manager report in Viva Glint
         href: reports/manager-report.md
       - name: Multi-Attribute Export report
