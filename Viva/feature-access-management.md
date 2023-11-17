@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 10/20/2023
+ms.date: 11/20/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -28,7 +28,7 @@ description: "Control who can access features in Microsoft Viva"
 You can use access policies in Viva to manage which users can access specific features in Viva apps. Feature access management gives you the ability to enable or disable specific features in Viva for specific groups or users in your tenant and so tailor your deployments to meet your local regulatory and business requirements.  
 
 > [!IMPORTANT]
-> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy takes precedence. For more information, see [How access policies work in Viva](#how-access-policies-work-in-viva).
+> You can have multiple access policies for a feature active in your organization. That means that a user or group could be impacted by multiple policies. In that case, the most restrictive policy assigned directly to a user or group takes precedence. For more information, see [How access policies work in Viva](#how-access-policies-work-in-viva).
 
 An authorized admin (for example, a global admin) in your tenant can create, assign, and manage access policies from PowerShell. When a user signs into Viva, the policy settings are applied, and they only see the features that haven't been disabled.
 
@@ -44,8 +44,9 @@ You can use feature access management to manage access to the following features
 
 |App|Feature|Optional control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
-|Viva Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
-|Viva Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
+|Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
+|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
+|Skills|[Skill suggestions](https://go.microsoft.com/fwlink/?linkid=2252621)*|Yes|Global admin, Knowledge admin|VivaSkills
 
 
 \* Not yet available for all tenants. Support will be added soon.
@@ -68,14 +69,10 @@ Before you can create an access policy in Viva, you need:
 
 ## Create and manage access policies for Viva features
 
-### Create an access policy
+### Get the featureID for the feature
+Before you can create an access policy, you need to get the **featureID** for the specific feature you want to control access to.
 
-Use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for a Viva feature.
-
-You can assign a maximum of 10 policies per feature. Each policy can be assigned to a maximum of 20 users or groups.
-
-> [!NOTE]
-> Creation of the tenant’s first policy may take up to 15 minutes to be able to be queried via cmdlet. Please wait 15 minutes and try again.
+Use the [**Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) PowerShell cmdlet to get a list of all of the features available in a specific Viva app and their associated IDs.
 
 1. Install Exchange Online PowerShell Version 3.2.0 or later:
 
@@ -98,16 +95,23 @@ You can assign a maximum of 10 policies per feature. Each policy can be assigned
    ```PowerShell
    Get-VivaModuleFeature -ModuleId VivaInsights
    ```
+4. Find the feature that you'd like to create an access policy for and make note of its **featureID**.
 
-4. Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
+### Create an access policy
 
-   For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
+Now that you have the **featureID**, use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for the feature.
+
+You can assign a maximum of 10 policies per feature to users and groups. Each policy can be assigned to a maximum of 20 users or groups. You can assign one additional policy per feature to the entire tenant by using the *-Everyone* parameter.
+
+Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
+
+For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
 
    ```powershell
    Add-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso.com    
    ```
    
-    This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
+This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
 
 ### Manage access policies
 
@@ -120,7 +124,7 @@ Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 
 > [!IMPORTANT]
-> Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy.
+> Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. You can't update a policy for a particular user or group to include the entire tenant if a policy for the entire tenant already exists for the feature - only one tenant-wide policy is supported.
 
 To check what features are disabled for a specific user or group, run the [Get-VivaModuleFeatureEnablement](/powershell/module/exchange/get-vivamodulefeatureenablement) cmdlet. This cmdlet returns what's called the *enablement status* for the user or group.
 
@@ -147,16 +151,15 @@ Here's how access policies work in Viva:
 :::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
-- If the user isn’t assigned a policy or isn’t a member of a Microsoft Entra group or Microsoft 365 group that is assigned a policy, then the default enablement state for the feature is applied.
-- If the user is assigned a policy or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
-- If a user has multiple policies assigned to them for the same feature, the most restrictive policy is applied (Note that not all features include the ability for a user to opt out.) Here's the order of precedence:
-   1. Feature is disabled by policy.
-   2. Feature is enabled by policy.
+- If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
+- If the user isn’t assigned a policy directly or isn’t a member of a Microsoft Entra group or Microsoft 365 group that is assigned a policy, then the global default policy is applied. If there is no global default policy, the default enablement state for the feature is applied.
+- If the user has multiple policies assigned to them directly or as a group, then the most restrictive policy applies. (Note that not all features include the ability for a user to opt out.) Here's the order of precedence:
+   1. Feature is disabled.
+   2. Feature is enabled.
    3. Feature is enabled, and the user can opt out.
-   4. Default enablement state for the feature
 - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Microsoft Entra ID.
 - Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature.
-- When you add users to or remove them from a Microsoft Entra ID or Microsoft 365 group, it can take 24 hours before changes to their feature access take effect.
+- When you add users to or remove them from a Microsoft Entra ID or Microsoft 365 Group, it can take 24 hours before changes to their feature access take effect.
 - When an admin removes the option for users to opt out by fully enabling or disabling the feature, the user’s opt in/out preference isn't preserved and will be reset to the default state. If an admin re-enables the option allowing a user to opt out of a feature, users will need to select to opt out of the feature again.
 - Quick changes to the enablement state for a feature in less than 24 hours after making the change may not result in the resetting of user opt in/out preferences.
 - For a history of policy creation, updates, and deletions, see the Viva Feature Access Management (VFAM) change logs for your organization in [Microsoft Purview](/purview/tutorial-purview-audit-logs-diagnostics).
@@ -164,7 +167,8 @@ Here's how access policies work in Viva:
 ## Additional information and best practices
 
 - Only user-based policy settings are available.
-- As new user-based policy settings are made available for Viva, they'll be added to Viva feature access management for admins to set policies against.
+- Only one policy per feature can be assigned to *'everyone'.* This policy serves as the global default state for that feature in your organization.
+- As new user-based policy settings are made available for Viva, they are added to Viva feature access management for admins to set policies against.
 - When user identities in Microsoft Entra ID are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user.
 - When groups in Microsoft Entra ID and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
