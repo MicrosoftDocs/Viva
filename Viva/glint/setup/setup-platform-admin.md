@@ -1,9 +1,9 @@
 ---
 title: Set up your platform as a Microsoft Viva Glint admin
 description: This page lays out the progression of deployment steps from Viva Glint purchase to program deployment to using insights to take actions to improve business results.  
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Viva glint
