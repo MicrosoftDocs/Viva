@@ -11,7 +11,7 @@ items:
                 href: start/four-stages-glint-program.md
               - name: Viva Glint program types and associated templates
                 href: start/program-types-templates.md
-              - name: What is People Science?
+              - name: How People Science works with Viva Glint
                 href: start/people-science-viva-glint.md
               - name: Learning path and modules
                 href: start/viva-glint-learning-paths-and-modules.md
@@ -219,6 +219,8 @@ items:
         items:
           - name: Interpret the Keyword Cloud
             href: reports/interpret-keyword-cloud.md
+          - name: Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report
+            href: reports/incorporate-copilot.md
       - name: Use the Manager report in Viva Glint
         href: reports/manager-report.md
       - name: Multi-Attribute Export report
