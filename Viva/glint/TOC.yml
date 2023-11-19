@@ -3,31 +3,29 @@ items:
   - name: Introduction to Microsoft Viva Glint
     href: introduction-viva-glint.md
     items:
-      - name: Get started with Viva Glint
+  - name: Get started with Viva Glint
+    items:
+      - name: Four stages of a Viva Glint program
+        href: start/four-stages-glint-program.md
+      - name: Viva Glint program types and associated templates
+        href: start/program-types-templates.md
+      - name: How People Science works with Viva Glint
+        href: start/people-science-viva-glint.md
+      - name: Learning path and modules
+        href: start/viva-glint-learning-paths-and-modules.md
+      - name: Microsoft Viva Glint privacy
+        href: setup/viva-glint-privacy.md
+      - name: Privacy policies in Microsoft Viva Glint
+        href: setup/add-privacy-policy.md
         items:
-          - name: Viva Glint basics
-            items:
-              - name: Four stages of a Viva Glint program
-                href: start/four-stages-glint-program.md
-              - name: Viva Glint program types and associated templates
-                href: start/program-types-templates.md
-              - name: How People Science works with Viva Glint
-                href: start/people-science-viva-glint.md
-              - name: Learning path and modules
-                href: start/viva-glint-learning-paths-and-modules.md
-          - name: Microsoft Viva Glint privacy
-            href: setup/viva-glint-privacy.md
-            items:
-              - name: Privacy policies in Microsoft Viva Glint
-                href: setup/add-privacy-policy.md
-              - name: Advanced privacy guide for data usage and survey item creation
-                href: setup/gdpr-special-categories.md
-              - name: Why Viva Glint surveys are confidential but not anonymous
-                href: setup/anonymous-confidential.md
-              - name: How Viva Glint helps you protect your privacy
-                href: setup/viva-glint-survey-privacy.md
-              - name: Access to Viva Glint raw survey responses
-                href: setup/employee-raw-data-export.md
+          - name: Advanced privacy guide for data usage and survey item creation
+            href: setup/gdpr-special-categories.md
+          - name: Why Viva Glint surveys are confidential but not anonymous
+            href: setup/anonymous-confidential.md
+          - name: How Viva Glint helps you protect your privacy
+            href: setup/viva-glint-survey-privacy.md
+          - name: Access to Viva Glint raw survey responses
+            href: setup/employee-raw-data-export.md
   - name: Setup and administration
     items:
       - name: Deploy Microsoft Viva Glint as an M365 Global Admin
