@@ -260,7 +260,7 @@ If you have already set up navigational links in the [SharePoint global navigati
 > The updated resources experience will replace the current global navigation in the resources section of the Viva Connections Desktop experience. Global navigation will still be accessible by clicking on the Connections icon in the Teams app bar. In addition, global navigation will continue to exist in other places as well in the SharePoint ecosystem, such as the SharePoint app bar and your SharePoint home site. This will allow you to access the apps and sites that you have previously pinned or frequently visited.
 
 **If you do not have a SharePoint home site:**
-Editing Resources in the Viva Connections desktop experience won't have an affect in SharePoint or any other Microsoft 365 experience.
+Editing Resources in the Viva Connections desktop experience won't have an effect in SharePoint or any other Microsoft 365 experience.
 
 ### To edit Resources
 
