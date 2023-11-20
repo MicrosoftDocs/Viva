@@ -229,7 +229,7 @@ A tailored experience is one in which content is automatically displayed accordi
 
 ## Branding
 
-Matching your organizational brand is integral to your employees’ connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home#customize-the-look).
+Matching your organizational brand is integral to your employees’ connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home#customize-the-banner-image) and [customizing the theme](edit-viva-home#customize-the-look).
 
 ## Localization
 
