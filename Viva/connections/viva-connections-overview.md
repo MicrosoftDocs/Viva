@@ -35,7 +35,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 > - The Viva Connections update is currently available to targeted release customers, with a planned roll out to all users in early Q1 2024. This includes the new news spotlight, the feed tab, branding and theming options, the revised resources section, and Viva suite apps section.
 > - Updates to the Viva Connections mobile app are planned for Q2 2024.
 
-:::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop_mobile-compare.png":::
+:::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 
 Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get [more detailed guidance on how to plan, build, and launch](plan-viva-connections.md).
 
