@@ -92,6 +92,22 @@ items:
                 href: setup/import-members-distribution-lists.md
               - name: Export a Viva Glint Distribution list
                 href: setup/export-distribution-lists.md
+          - name: Viva Glint Advanced Configuration
+            items:
+              - name: Understand Advanced Configuration options in Viva Glint
+                href: setup/understand-advanced-configuration.md
+              - name: Consider People Science factors for historical imports
+                href: setup/import-external-people-science-pov.md
+              - name: Import historical response data in Viva Glint
+                href: setup/import-historical-response-data.md
+              - name: Update reporting data in closed Viva Glint surveys
+                href: setup/update-glint-reporting-data.md
+              - name: Use Advanced Configuration Data Apps
+                href: setup/glint-data-apps.md
+              - name: Use Advanced Configuration Uploads
+                href: setup/advanced-config-uploads.md
+              - name: Flag sensitive comments in Viva Glint
+                href: setup/glint-sensitive-comments.md
           - name: Use the Viva Glint Question Library
             href: setup/question-library.md
           - name: Use Viva Glint benchmarks
@@ -176,22 +192,6 @@ items:
         href: setup/delete-survey-data.md
       - name: Preview, manage, and enable Viva Glint surveys and dashboards
         href: setup/preview-manage-enable-engage-programs.md
-      - name: Viva Glint Advanced Configuration
-        items:
-          - name: Understand Advanced Configuration options in Viva Glint
-            href: setup/understand-advanced-configuration.md
-          - name: Consider People Science factors for historical imports
-            href: setup/import-external-people-science-pov.md
-          - name: Import historical response data in Viva Glint
-            href: setup/import-historical-response-data.md
-          - name: Update reporting data in closed Viva Glint surveys
-            href: setup/update-glint-reporting-data.md
-          - name: Use Advanced Configuration Data Apps
-            href: setup/glint-data-apps.md
-          - name: Use Advanced Configuration Uploads
-            href: setup/advanced-config-uploads.md
-          - name: Flag sensitive comments in Viva Glint
-            href: setup/glint-sensitive-comments.md
   - name: Viva Glint reports and dashboards
     items:
      - name: Viva Glint's survey reports overview
