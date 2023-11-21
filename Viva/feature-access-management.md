@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 11/20/2023
+ms.date: 11/21/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -46,7 +46,6 @@ You can use feature access management to manage access to the following features
 |-|-|-|-|-|
 |Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|[Skill suggestions](https://go.microsoft.com/fwlink/?linkid=2252621)*|Yes|Global admin, Knowledge admin|VivaSkills
 
 
 \* Not yet available for all tenants. Support will be added soon.
@@ -166,9 +165,9 @@ Here's how access policies work in Viva:
 
 ## Additional information and best practices
 
-- Only user-based policy settings are available.
+- Policy are evaluated on a per-user basis.
 - Only one policy per feature can be assigned to *'everyone'.* This policy serves as the global default state for that feature in your organization.
-- As new user-based policy settings are made available for Viva, they are added to Viva feature access management for admins to set policies against.
+- As new feature controls are made available in Viva to manage user and group access, they're added to Viva feature access management.
 - When user identities in Microsoft Entra ID are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user.
 - When groups in Microsoft Entra ID and Microsoft 365 are deleted, they're deleted from the stored policies. If groups are re-enabled during the soft-deleted period, the admin needs to reassign policies to the groups.
 
