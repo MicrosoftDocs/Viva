@@ -84,7 +84,10 @@ You may redact terms - flagged as Personally Identifiable Information (PII) or a
 
 ### Learn the importance of quarantining comments when necessary. 
 Sensitive comments can be quarantined by using the **vertical ellipses** next to the comment. 
-By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. See [Advanced privacy guide for data usage and survey item creation](/viva/glint/setup/gdpr-special-categories) for more information.
+By selecting **Quarantine**, the comment is now only visible to admins with 'Manage Sensitive Comments' capability. Similarly, comments may be un-quarantined. 
+
+> [!IMPORTANT]
+> See [Flag sensitive comments in Viva Glint](/viva/glint/setup/glint-sensitive-comments) for a deeper dive into this information.
  
 ## Export, save, or share from the Comments report
 Selecting this dropdown menu allows you to perform these functions:
