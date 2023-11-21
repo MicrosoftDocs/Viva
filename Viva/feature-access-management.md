@@ -165,7 +165,7 @@ Here's how access policies work in Viva:
 
 ## Additional information and best practices
 
-- Policy are evaluated on a per-user basis.
+- Policies are evaluated on a per-user basis.
 - Only one policy per feature can be assigned to *'everyone'.* This policy serves as the global default state for that feature in your organization.
 - As new feature controls are made available in Viva to manage user and group access, they're added to Viva feature access management.
 - When user identities in Microsoft Entra ID are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user.
