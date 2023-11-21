@@ -92,22 +92,6 @@ items:
                 href: setup/import-members-distribution-lists.md
               - name: Export a Viva Glint Distribution list
                 href: setup/export-distribution-lists.md
-          - name: Viva Glint Advanced Configuration
-            items:
-              - name: Understand Advanced Configuration options in Viva Glint
-                href: setup/understand-advanced-configuration.md
-              - name: Consider People Science factors for historical imports
-                href: setup/import-external-people-science-pov.md
-              - name: Import historical response data in Viva Glint
-                href: setup/import-historical-response-data.md
-              - name: Update reporting data in closed Viva Glint surveys
-                href: setup/update-glint-reporting-data.md
-              - name: Use Advanced Configuration Data Apps
-                href: setup/glint-data-apps.md
-              - name: Use Advanced Configuration Uploads
-                href: setup/advanced-config-uploads.md
-              - name: Flag sensitive comments in Viva Glint
-                href: setup/glint-sensitive-comments.md
           - name: Use the Viva Glint Question Library
             href: setup/question-library.md
           - name: Use Viva Glint benchmarks
@@ -118,6 +102,21 @@ items:
             href: setup/language-translations.md
           - name: Submit product feedback to Viva Glint
             href: setup/glint-product-feedback.md
+          - name: Understand Viva Glint Advanced Configuration
+            href: setup/understand-advanced-configuration.md
+            items: 
+              - name: Import historical response data in Viva Glint
+                href: setup/import-historical-response-data.md
+              - name: Consider People Science factors for historical imports
+                href: setup/import-external-people-science-pov.md
+              - name: Update reporting data in closed Viva Glint surveys
+                href: setup/update-glint-reporting-data.md
+              - name: Use Advanced Configuration Data Apps
+                href: setup/glint-data-apps.md
+              - name: Use Advanced Configuration Uploads
+                href: setup/advanced-config-uploads.md
+              - name: Flag sensitive comments in Viva Glint
+                href: setup/glint-sensitive-comments.md
       - name: Use Viva Glint Best Practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
