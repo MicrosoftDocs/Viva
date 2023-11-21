@@ -71,7 +71,7 @@ Before you can create an access policy in Viva, you need:
 ### Get the featureID for the feature
 Before you can create an access policy, you need to get the **featureID** for the specific feature you want to control access to.
 
-Use the [**Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) PowerShell cmdlet to get a list of all of the features available in a specific Viva app and their associated IDs.
+Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefeature) PowerShell cmdlet to get a list of all of the features available in a specific Viva app and their associated IDs.
 
 1. Install Exchange Online PowerShell Version 3.2.0 or later:
 
