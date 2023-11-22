@@ -1930,5 +1930,10 @@
       "redirect_url": "/viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings",
       "redirect_document_id": false
     }
+    {
+      "source_path": "Viva/glint/setup/deploy-viva-glint.md",
+      "redirect_url": "/viva/glint/setup/setup-platform-admin",
+      "redirect_document_id": false
+    }
   ]
 }
