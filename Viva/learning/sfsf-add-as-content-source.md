@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Configure SAP SuccessFactors as a learning content source for Microsoft Viva Learning.
 ---
 
