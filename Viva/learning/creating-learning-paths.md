@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to create and configure learning paths for Microsoft Viva Learning.
 ---
 

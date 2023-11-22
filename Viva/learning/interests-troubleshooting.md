@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to open and edit an exported interest file. 
 ---
 
