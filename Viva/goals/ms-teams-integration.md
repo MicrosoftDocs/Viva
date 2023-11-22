@@ -38,4 +38,4 @@ To work with Viva Goals in Teams, Outlook, or Microsoft 365, you need to be a li
 
 ## Contact Viva Goals support
 
-If you're having issues with Viva Goals, you can reach out to the support team [here](aka.ms/vivagoalssupport).
+If you're having issues with Viva Goals, you can reach out to the support team [here](https://aka.ms/vivagoalssupport).
