@@ -2,8 +2,8 @@
 ms.date: 06/29/2023
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced
@@ -15,12 +15,12 @@ audience: Admin
 
 # Prepare an organizational data file upload
 
-The advanced insights app can get organizational data in one of two ways: through Azure Active Directory, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
+The advanced insights app can get organizational data in one of two ways: through Microsoft Entra ID, which is the default setting, or through an organizational data file that you as an admin upload. In this article, we discuss the second option, the organizational data file. Read on to find out what you as an admin need to do to identify, gather, and structure data before uploading organizational data.
 
-To learn about organizational data in general, find out which data Azure Active Directory automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
+To learn about organizational data in general, find out which data Microsoft Entra ID automatically syncs with Viva Insights, and to get an overview of the **Organizational data** page in the advanced insights admin experience, refer to [Organizational data in Viva Insights](org-data-overview.md).
 
 >[!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Azure Active Directory. You'll need to regularly upload .csv files to keep your organizational data current.
+> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID. You'll need to regularly upload .csv files to keep your organizational data current.
 
 ## Prepare organizational data
 
@@ -145,7 +145,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 
 ##### Reserved optional
 
-The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
+The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. Different attributes from the list below may be needed depending on the particular Power BI template.  <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
 
 * **LevelDesignation**
 * **FunctionType**
@@ -210,7 +210,7 @@ This section contains information about the attributes that you use in the organ
 |Attribute (column header) | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
-|**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias.| Email| `sally@contoso.com`| Required |
+|**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias. For CEOs, this can be left blank. | Email| `sally@contoso.com`| Required |
 |**Organization**| The internal organization that an employee belongs to. For more actionable insights, avoid using too few or too many unique Organizations.| String| `Financial Planning and Analysis` |Required|
 |**EffectiveDate**| Date that a given attribute value applies for an employee. The attribute applies until another record for the same attribute with a different EffectiveDate is specified. If no EffectiveDate is uploaded, the date of upload is used as default.| DateTime| `12/31/2021`|Required<sup>2</sup>|
 |**LevelDesignation** | Level that represents an employee’s experience, management level, or seniority within the organization. For more actionable insights, avoid using too few or too many unique LevelDesignation values.| String | `Director` |Reserved<sup>3</sup>
@@ -256,4 +256,3 @@ Some attributes might represent the same data and provide unnecessary redundant 
 
 Unlike HR data, for line-of-business data, you might not need to include every person in your company as part of your data upload. Knowing the scenarios you want to analyze will help you to decide.
 For example, suppose you want to compare collaboration patterns between employees in the Sales organization who have high engagement as compared to those who have low engagement. Although you'll want HR data for all employees so you can characterize broader collaboration patterns, you only need engagement score data for employees in the Sales organization, because you're using the score values to group and filter specific report outputs.
-

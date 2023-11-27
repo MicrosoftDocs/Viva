@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure other content providers as a learning content source for Microsoft Viva Learning.
 ---
 
@@ -68,7 +68,7 @@ The step-by-step content ingestion process is described below.
 
 1. **Third-party provider** <br> Viva Learning requires content catalog data from every third-party content source. The various fields extracted as part of the Content Catalog package or API from the content source are represented in the table [View the table](#content-catalog-metadata-fields).
 
-2. **Third-party Connector** <br> The third-party Connector pulls content from the content provider using both API and SFTP mechanisms. The first time you sync, the third-party extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter an error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Azure Active Directory (AAD) records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning application and displayed on the Viva Learning app.
+2. **Third-party Connector** <br> The third-party Connector pulls content from the content provider using both API and SFTP mechanisms. The first time you sync, the third-party extractor pulls the full data. Afterwards, a scheduler triggers once every 24 hours to refresh the data and pull any changes. Then the extract is validated and processed. If you encounter an error in processing, the error code displays on the admin portal. User records received from the extract are mapped with Microsoft Entra ID records to ensure the correct assignment and completion status for every user. Once all the records are processed, the data is synchronized to Viva Learning application and displayed on the Viva Learning app.
 
 3. **Viva Learning** <br> Content details (content provider logo, thumbnail, title, description, etc.) display on the **Home** and **Learning** tabs in Viva Learning.
 

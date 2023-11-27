@@ -1,6 +1,6 @@
 ---
-ms.date: 09/22/2023
-title: "Add, edit, and remove cards from the Viva Connections dashboard "
+ms.date: 10/27/2023
+title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
@@ -11,7 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - M365-collaboration
@@ -43,10 +43,11 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
-- [Add the Top news cards](#add-the-top-news-card).
+- [Add the News card](#add-the-news-card).
+- [Add the People card](#add-the-people-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
-- [Add a Viva Topics card](#add-a-viva-topics-card).
+- [Add a Topics card](#add-a-topics-card).
 - [Add a Web link card](#add-a-web-link-card).
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
 - [Preview your dashboard to see how it displays for different audiences and devices](#preview-your-dashboard-to-see-how-it-displays-for-different-audiences).
@@ -100,15 +101,16 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
 
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
-   |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
-   |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)|
-   |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams          |
-   |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author     |
-   |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports.     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks.     |
+   |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework.](/adaptive-cards/templating/)|
+   |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
+   |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
+   |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+   |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon.png) |   Promote news from a variety of sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
    |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
-   |[Viva Topics](#add-a-viva-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Viva Topics cards to encourage knowledge discoverability, engagement, and sharing. |
+   |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
 
 ## Add the Approvals card
@@ -283,21 +285,57 @@ A Microsoft app card allows you to create a card that links to Microsoft apps (F
 
 4. When you **Republish**, the card will appear on your dashboard.
 
-## Add the Top news card
+## Add the News card
 
-Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
+Add the News card to the Viva Connections Dashboard to promote news from a variety of sources that you wish to prominently display, [including boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). If you choose any news posts that have been boosted, they will display in the News card for the duration of the boost period.
 
-![Example of a top news card.](../media/connections/top-news-card-example.png)
+![Example of a News card.](../media/connections/top-news-card-example.png)
 
-1. While in **edit** mode, select **+ Add a card** from the dashboard.
+1. While in edit mode, select **+ Add a card** from the dashboard.
 
-2. Select **Top news** from the web toolbox.
+2.	Select **News** from the dashboard toolbox.
 
-   ![Adding a Top news card.](../media/connections/top-news-card.png)
+    ![Screenshot of the News card icon.](../media/connections/news-card-icon.png)
 
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
 
-4. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+4. Add a title and select a card size.
+
+5. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. Refer to this article for more information on [Audience targeting](#apply-audience-targeting-to-cards).
+
+6. For a news source, select one of the following options:
+
+   - **Boosted posts**: Will display any SharePoint news post that has been boosted from the organization's news sites only. The word "Boosted" will display at the top of the card.  
+
+   - **From this site**: Pulls news from the hub site that the current site is a part of.
+
+   - **From all sites in this hub**: Pulls news from all sites within your SharePoint hub.
+
+   - **Select sites**: Pulls news from one or more individual sites (if selected, a list of sites associated with your SharePoint hub will display).
+
+   - **Recommended for current user**: will display news posts for the current user from people the user works with; managers in the chain of people the user works with, mapped against the user's own chain of management and connections; the user's top 20 followed sites; and the user's frequently visited sites.
+
+        :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane."lightbox="../media/connections/news-card-properties.png":::
+
+## Add the People card
+
+The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
+
+   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png"::: 
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2.	Select **People** from the dashboard toolbox.
+
+    ![Screenshot of the People card icon.](../media/connections/people-card-icon.png)
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
+
+4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+      :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
 
 ## Add a Shifts card
 
@@ -335,13 +373,13 @@ Content in the cards is dynamic and changes according to settings in Viva Learni
 
 4. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-## Add a Viva Topics card
+## Add a Topics card
 
-Viva Topics has two different cards. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
+Topics has two different cards. The **Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
 
-[Learn more about the two different cards](/viva/topics/viva-topics-card-viva-connections).
+[Learn more about the two different cards](/microsoft-365/topics/topics-card-viva-connections).
 
-![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png)
+![Screenshot Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png)
 
 ## Add a Web link card
 

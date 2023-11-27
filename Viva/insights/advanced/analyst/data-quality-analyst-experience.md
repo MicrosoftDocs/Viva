@@ -2,8 +2,8 @@
 ms.date: 03/22/2023
 title: Data quality in the analyst experience
 description: Learn about organizational data in the Analyst experience of the Microsoft Viva Insights advanced insights app.
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 manager: anirudhbajaj
