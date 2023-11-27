@@ -13,8 +13,8 @@ metadata:
   search.appverid: 
   - MET150 
   ms.topic: hub-page # Required
-  author: madehmer #Required; your GitHub user alias, with correct capitalization.
-  ms.author: v-lilyolason #Required; microsoft alias of author; optional team alias.
+  author: zachminers #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-zachminers #Required; microsoft alias of author; optional team alias.
   ms.date: 04/14/2022 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
 

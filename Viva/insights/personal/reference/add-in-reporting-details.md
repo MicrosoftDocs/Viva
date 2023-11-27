@@ -3,8 +3,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: Viva Insights Outlook add-in reference
 description: Learn more about insights in the Viva Insights Outlook add-in
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.service: viva 

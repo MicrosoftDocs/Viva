@@ -68,7 +68,7 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 > [!TIP]
 > Other ways of assigning licenses: 
 >
-> 1. To assign licenses via group-based licensing, see [Assign licenses to users by group in Azure Active Directory](/azure/active-directory/enterprise-users/licensing-groups-assign).
+> 1. To assign licenses via group-based licensing, see [Assign licenses to users by group in Microsoft Entra ID](/azure/active-directory/enterprise-users/licensing-groups-assign).
 > 2. Target admin roles can also [assign Microsoft 365 licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell).
 
 ### Assign conditional access
@@ -76,7 +76,7 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 > [!IMPORTANT]
 > **Prerequisite: Create custom security attributes**
 > 
-> Follow the instructions in the article, [Add or deactivate custom security attributes in Azure AD (Preview)](/azure/active-directory/fundamentals/custom-security-attributes-add), to add the following **Attribute set** and **New attributes.** 
+> Follow the instructions in the article, [Add or deactivate custom security attributes in Microsoft Entra ID (Preview)](/azure/active-directory/fundamentals/custom-security-attributes-add), to add the following **Attribute set** and **New attributes.** 
 > 
 > - Create an **Attribute** set named *VivaGoalsConditionalAccess* 
 > - Create **New attributes** named *vivagoalsca*  
@@ -90,7 +90,7 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 ### Create a conditional access policy
 
 1. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator. 
-1. Browse to **Azure Active Directory > Security > Conditional Access**. 
+1. Browse to **Microsoft Entra ID > Security > Conditional Access**. 
 1. Select **New policy**. 
 1. Give your policy a name. We recommend that organizations create a meaningful standard for the names of their policies. 
 1. Under **Assignments**, select **Users or workload identities.**
@@ -119,13 +119,13 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 1. Assign the custom security attribute to the applications below:
     1. MS Graph App - 00000003-0000-0000-c000-000000000000 (This is needed for provisioning users)
     1. Viva Goals Web App - 29eb068f-2f54-4fda-a8be-32f37312678a
-    1. Microsoft Azure Active Directory - 00000002-0000-0000-c000-000000000000
+    1. Microsoft Entra ID - 00000002-0000-0000-c000-000000000000
 
     > [!NOTE]
     > When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal. 
 
 2. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator. 
-1. Browse to **Azure Active Directory > Enterprise applications**. 
+1. Browse to **Microsoft Entra ID > Enterprise applications**. 
 1. Select the service principal you want to apply a custom security attribute to. 
 1. Under **Manage > Custom security attributes (preview)**, select **Add assignment**. 
 1. Under **Attribute set**, select *VivaGoalsConditionalAccess*. 
@@ -137,7 +137,7 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 
 ## Assign Viva Goals administrator (optional)
 
-Viva Goals Administrators are assigned by Global admins or user admins from the Microsoft 365 Admin Center or Azure Active Directory. These are users typically from the IT team and manage the policy settings for Viva Goals for the entire company. 
+Viva Goals Administrators are assigned by Global admins or user admins from the Microsoft 365 Admin Center or Microsoft Entra ID. These are users typically from the IT team and manage the policy settings for Viva Goals for the entire company. 
 
 This role is optional. It provides the minimal permissions required to manage Viva Goals and can be assigned to the person tasked with deploying and administering Viva Goals. In the absence of a separate Viva Goals Administrator, the Global admin can manage the Viva Goals policy settings for the company. 
 
@@ -147,7 +147,7 @@ For more information on various roles and their responsibilities on Viva Goals c
 > **Related content:** 
 >
 > - [Assign admin roles](/microsoft-365/admin/add-users/assign-admin-roles). 
-> - [Azure AD roles in the Microsoft 365 admin center](/azure/active-directory/roles/permissions-reference)
+> - [Microsoft Entra roles in the Microsoft 365 admin center](/azure/active-directory/roles/permissions-reference)
 
 ### How to assign a Viva Goals administrator
 

@@ -1,6 +1,6 @@
 ---
-title: Sorry, but we're having trouble signing you in when you select the Viva Engage tile in Office 365
-description: Describes an issue in which you receive "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Office 365.
+title: Sign-in error when selecting the Viva Engage tile in Microsoft 365
+description: Describes an issue in which you receive "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Microsoft 365.
 author: Starshine89
 manager: pamgreen
 audience: ITPro
@@ -12,7 +12,7 @@ ms.author: pamgreen
 ms.date: 06/25/2019
 ---
 
-# "Sorry, but we're having trouble signing you in" error when you select the Viva Engage tile in Office 365
+# Sign-in error when you select the Viva Engage tile in Microsoft 365
 
 ## Problem
 
@@ -26,18 +26,18 @@ To resolve this issue, the Viva Engage Service Principal must be enabled.
 
 Before you follow these steps, make sure that the following prerequisites are met:
 
-- Install the Azure Active Directory Module for Windows PowerShell. For more information, go to [Connect PowerShell to Office 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
+- Install the Azure Active Directory module for Windows PowerShell. For more information, go to [Connect PowerShell to Microsoft 365 services](/microsoft-365/enterprise/connect-to-microsoft-365-powershell).
 
-- You must be an Office 365 global admin to perform these steps.
+- You must be a Microsoft 365 Global administrator to perform these steps.
 
 Follow these steps:
 
-1. Verify the Viva Engage Service Principal is currently disabled. To do this, open Azure Active Directory Module for Windows PowerShell, and then run the following cmdlets:
+1. Verify the Viva Engage Service Principal is currently disabled. To do this, open Azure Active Directory module for Windows PowerShell, and then run the following cmdlets:
 
    > [!NOTE]
    > Press Enter after you type each cmdlet. The response to the last cmdlet should be **False**.
 
-   ```
+   ```azurepowershell
    Connect-MsolService
    SMSP = Get-MsolServicePrincipal -AppPrincipalId "00000005-0000-0ff1-ce00-000000000000"
    SMSP.AccountEnabled
@@ -45,11 +45,11 @@ Follow these steps:
 
 2. Change the **Account** setting for this service principal to **True**. To do this, run the following cmdlet:
 
-   ```
+   ```azurepowershell
    Set-MsolServicePrincipal -AppPrincipalId $MSP.AppPrincipalId -AccountEnabled $true
    ```
 
-3. Sign in to Office 365. Select the Viva Engage tile again to verify that you can sign in.
+3. Sign in to Microsoft 365. Select the Viva Engage tile again to verify that you can sign in.
 
 ## More information
 

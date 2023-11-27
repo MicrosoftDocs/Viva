@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/23/2022
 title: Cancel the service for these Azure Templates
 description: Learn how to use cancel the service used for the Workplace Analytics Azure Templates
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: viva-insights-advanced 
 ms.service: viva 

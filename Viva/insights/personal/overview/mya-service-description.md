@@ -3,8 +3,8 @@
 ms.date: 08/02/2023
 title: Personal insights service description
 description: Microsoft Viva Insights features, distributions, privacy, and prerequisites
-author: lrolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva 

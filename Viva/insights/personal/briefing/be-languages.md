@@ -2,8 +2,8 @@
 ms.date: 11/17/2021
 title: Briefing languages
 description: List of supported languages for Briefings
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 localization_priority: normal 
 search.appverid:

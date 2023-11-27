@@ -21,9 +21,6 @@ description: Learn how to set up Viva Amplify for your organization.
 ---
 # Set up Microsoft Viva Amplify
 
->[!NOTE]
->Viva Amplify is currently rolling out. General availability is coming soon.
-
 Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
 
 Viva Amplify is a web experience and is automatically enabled for users with the required licensing.
@@ -114,6 +111,9 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 1. Choose **Manage campaign settings**.
 
 1. If you only want specific people or groups to be able to create campaigns, choose **Only selected people or security groups.** Type a name or email address to add a person or group.
+
+>[!NOTE]
+>If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
 >[!IMPORTANT]
 >Users who you want to be able to create campaigns need to have **Site creation** and **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/sharepoint/manage-site-creation)
