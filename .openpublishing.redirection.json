@@ -1934,6 +1934,11 @@
       "source_path": "Viva/glint/setup/deploy-viva-glint.md",
       "redirect_url": "/viva/glint/setup/setup-platform-admin",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/use-ms-teams-integration.md",
+      "redirect_url": "/viva/goals/ms-teams-integration",
+      "redirect_document_id": true
     }
   ]
 }
