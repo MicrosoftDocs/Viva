@@ -11,7 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -25,15 +25,17 @@ Often, you'll want to create a deep link to the Viva Engage app in Microsoft Tea
 This article will discuss how you can manually construct different deep links into the Viva Engage app.
 
 > [!TIP]
-> While the `https://aka.ms/...` link is shorter, use the longer `https://teams.microsoft.com...` link if you're sharing the deep link in Teams. This way, it will link directly to the Viva Engage tab without opening a new browser window first.
+> While the `https://aka.ms/...` link is shorter, we recommend the longer `https://teams.microsoft.com...` link if you're sharing the deep link in Teams. This way, you link directly to the Viva Engage tab without opening a new browser window.
 
 ## Deep link to the Viva Engage store entry
+
 The following links open the Viva Engage store page in Microsoft Teams:
 - https://aka.ms/VivaEngage/Install
 - https://teams.microsoft.com/l/app/db5e5970-212f-477f-a3fc-2227dc7782bf
 
 ## Deep link to Viva Engage directly
-The following links currently open Yammer.com and will open Viva Engage in the browser [when the rebrand occurs](https://techcommunity.microsoft.com/t5/yammer-blog/yammer-is-evolving-to-viva-engage/ba-p/3738825). If the user has the Viva Engage mobile app installed, the links will open the Viva Engage app.
+
+The following links open Viva Engage in a browser and Yammer.com, respectively. If the user has the Viva Engage mobile app installed, the links open the Viva Engage app.
 - https://aka.ms/VivaEngage/Web
 - https://aka.ms/VivaEngage/Yammer
 
@@ -45,6 +47,7 @@ The following link directly opens Viva Engage in Outlook, if available:
 - https://aka.ms/VivaEngage/Outlook
 
 ## Deep link to Answers in Viva
+
 The following link directly opens Viva Engage in Teams, in the Answers in Viva page.
 - https://aka.ms/AnswersInViva
 - https://aka.ms/VivaEngage/Answers
@@ -52,6 +55,7 @@ The following link directly opens Viva Engage in Teams, in the Answers in Viva p
 
 
 ## Deep link to Leadership corner
+
 In the browser (Yammer.com) or the mobile app: 
 - https://aka.ms/LeadershipCorner
 - https://web.yammer.com/main/leadership-corner
@@ -61,6 +65,7 @@ In Teams:
 - https://teams.microsoft.com/l/entity/db5e5970-212f-477f-a3fc-2227dc7782bf/vivaengage?context=%7B%22subEntityId%22:%22type=custom,data=leadershipcorner:null%22%7D 
 
 ## Deep link to a Viva Engage entity
+
 Links in these formats will open the entity in Viva Engage in Teams. 
 
 - `https://aka.ms/VivaEngage/Launch?context=%7B%22subEntityId%22:%22type=custom,data=<EntityType>:<EntityId>%22%7D`

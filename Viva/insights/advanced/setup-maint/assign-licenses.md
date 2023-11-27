@@ -2,8 +2,8 @@
 ms.date: 06/16/2023
 title: Assign licenses
 description: Assign Viva Insights licenses to users in your organization
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -60,7 +60,7 @@ Viva Insights licenses are assigned just like other Microsoft 365 product licens
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Azure Active Directory (AD) [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
+If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
 
 ## When newly licensed users show up in data
 
@@ -69,7 +69,7 @@ The data that the advanced insights app uses refreshes once a week, during the f
 * The user is represented in the user counts that are shown in **Organizational data > Data quality**.
 * When analysts run [queries](../analyst/person-query.md), results include data about this user's activities.
 
-The Microsoft admin center and Azure Active Directory (AD) tell you whether a user is licensed. After a user is assigned a license, that user shows up in Azure AD and the Microsoft admin center, but not in Viva Insights until the next data-refresh cycle is complete during the first part of the following week.
+The Microsoft admin center and Microsoft Entra tell you whether a user is licensed. After a user is assigned a license, that user shows up in Microsoft Entra ID and the Microsoft admin center, but not in Viva Insights until the next data-refresh cycle is complete during the first part of the following week.
 
 ### When users show up in query results
 
@@ -89,5 +89,3 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 > [Assign user roles](./assign-user-roles.md)
 
 *Applies to: Microsoft 365 global admin or Privileged Role Administrator*
-
-

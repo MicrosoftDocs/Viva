@@ -2,8 +2,8 @@
 ms.date: 09/20/2022
 title: Recommended actions in the Briefing email
 description: Use actions that the Briefing email suggests as Recommended for you
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva 
