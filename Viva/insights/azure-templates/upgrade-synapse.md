@@ -4,8 +4,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/23/2022
 title: Upgrade Workplace Analytics Azure Templates to use Synapse Analytics
 description: Learn how to upgrade your current Azure Templates to use Azure Synapse Analytics instead of Databricks
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -24,8 +24,8 @@ Your current Azure Templates have been using Workplace Analytics data that's bee
 
 * **Azure admin** - Must be an admin of the Azure subscription or you cannot complete the upgrade.
 * **SAS token for file download** - You should've received an email from Microsoft with the SAS token for this upgrade. If you did not receive an email with it, ask your Microsoft representative for it.
-* **App Registrations access** - Confirm you can access the Azure Active Directory “App Registrations” in the Azure portal for your current Azure Templates installation for both the “UI” and the “API," including the IDs for the services being upgraded.
-* **Azure Active Directory Service access** - Confirm you have access in the Azure portal, including the Tenant ID.
+* **App Registrations access** - Confirm you can access the Microsoft Entra ID “App Registrations” in the Azure portal for your current Azure Templates installation for both the “UI” and the “API," including the IDs for the services being upgraded.
+* **Microsoft Entra service access** - Confirm you have access in the Azure portal, including the Tenant ID.
 * **Resource Groups access** - Confirm you access in the Azure portal, including the names and Subscription IDs.
 * **Azure Template service names** - Confirm you have the names of the current Azure Template services in the Azure portal, including the storage account, UI or UX app service, API app service, and the key vault names.
 * **Key vault secrets access** – Confirm you can view and modify the Key vault secrets because the scripts must be able to modify some of the key vault secrets. If you don’t have access, the scripts will fail with permission errors.
@@ -106,7 +106,9 @@ The following describes what you must enter within each section of the **UpdateP
 
 * **synapse_adlsgen**: Must also be globally unique (no one else can use this name for their service), between 3 and 24 characters with only lowercase letters and numbers (no capital letters, special characters, or spaces).
 
-### AAD application registrations
+<a name='aad-application-registrations'></a>
+
+### Microsoft Entra application registrations
 
 The following are shown in the API’s App Registration in Azure for your current Azure Template setup:
 
@@ -132,7 +134,7 @@ The following is shown in the App Registration UI in Azure for your current Azur
 
 ### General
 
-* **azure_tenantid**: “Tenant ID” from the overview page of your Azure Active Directory service for your current Azure Templates installation.
+* **azure_tenantid**: “Tenant ID” from the overview page of your Microsoft Entra service for your current Azure Templates installation.
 * **azure_subsscriptionid**: “Subscription ID” from the overview page of your Resource Group for the current Azure Templates installation.
 * **resource_group_name**: Name of your Resource Group for the current Azure Templates installation.
 * **azure_region**: “Location” from the overview page of your Resource Group for the current Azure Templates installation and remove the spaces and make all lowercase (e.g., “East US” will be entered as “eastus”).
@@ -238,4 +240,3 @@ Run the following in Cloud Shell, which uses Zip Deploy to install the build for
 ```
 
 After completing this upgrade process, the API will now facilitate calls only to Azure Synapse pipelines, which is consistent with the current Synapse solution.
-

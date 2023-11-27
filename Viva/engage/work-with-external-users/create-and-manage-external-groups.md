@@ -23,7 +23,7 @@ description: "Learn about external groups in Viva Engage and how to opt out if y
 
 You can work with guests in Viva Engage if your network isn’t aligned to native mode by creating an external group. You can also limit and turn off collaboration in external groups.
 
-This experience differs from working with the Viva Engage guest experience, which is powered by Azure Active Directory B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-viva-engage-community.md).
+This experience differs from working with the Viva Engage guest experience, which is powered by Microsoft Entra B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-viva-engage-community.md).
 
 >[!NOTE]
 >Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).

@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure Cornerstone OnDemand as a learning content source for Microsoft Viva Learning.
 ---
 
@@ -111,7 +111,7 @@ A Microsoft Viva Suite or Viva Learning license is required to add Cornerstone O
 Check **Enable Learner Record Sync** to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization can see their assigned and completed courses from your LMS within Viva Learning.  
 
 > [!NOTE]
-> Ensure that user mappings between Cornerstone and AAD are accurately configured, linking each user's identity correctly. 
+> Ensure that user mappings between Cornerstone and Microsoft Entra ID are accurately configured, linking each user's identity correctly. 
 
 By enabling Learner record sync, you allow Viva Learning to fetch user information, user assignments, and completed courses. The user information from the LMS is used only for user mapping and doesn't remain in storage. Only mapping-related information is deduced. Viva Learning fetches the following fields from the LMS:
 

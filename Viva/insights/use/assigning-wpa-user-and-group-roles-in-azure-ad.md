@@ -21,9 +21,9 @@ audience: Admin
 >[!Important]
 >This article is for the legacy Workplace Analytics app and does not reflect functionality available on the updated Viva Insights platform. Access current documentation for Viva Insights advanced insights here: [advanced insights documentation](../advanced/introduction-to-advanced-insights.md).
 
-Do the following to assign roles to users in Azure Active Directory (AD) for Microsoft Viva Insights in the advanced insights app.
+Do the following to assign roles to users in Microsoft Entra ID for Microsoft Viva Insights in the advanced insights app.
 
-1. Sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. Sign in to your tenant's [Microsoft Entra admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise Applications**.
 
     ![Enterprise Applications.](../images/WpA/Use/enterprise-applications-1.png)
@@ -88,7 +88,7 @@ To assign users and roles to the advanced insights group, the steps are similar 
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 
-If you have not yet created an Advanced insights group in Azure AD, and want to do so, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+If you have not yet created an Advanced insights group in Microsoft Entra ID, and want to do so, see [Create a group and add members in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## FAQ
 
@@ -103,4 +103,3 @@ However, in a larger company where the number of users required for the same rol
 * [User roles](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Environment requirements for advanced insights](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [People manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-

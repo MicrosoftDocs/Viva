@@ -61,6 +61,8 @@ items:
       href: configure-okr-model.md
     - name: Managing Viva Goals members 
       href: managing-team-members.md
+    - name: Approval Workflow
+      href: approval-workflows.md  
 
   - name: Team setup
     items:

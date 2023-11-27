@@ -25,7 +25,7 @@ External collaboration is a key ingredient for the success of any organization. 
  > [!NOTE]
  > Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. For more information, see [Overview of Native Mode](../overview-native-mode.md).
  
-There are two methods of working with guests, depending on how your organization’s Viva Engage network is structured. A Viva Engage network [aligned to native mode](../overview-native-mode.md) applies the Azure AD-B2B guest framework to power external users while a Viva Engage network that is currently not aligned to native mode uses the Viva Engage-specific guest framework.
+There are two methods of working with guests, depending on how your organization’s Viva Engage network is structured. A Viva Engage network [aligned to native mode](../overview-native-mode.md) applies the Microsoft Entra B2B guest framework to power external users while a Viva Engage network that is currently not aligned to native mode uses the Viva Engage-specific guest framework.
 
 ## Comparison of guest experiences
 
@@ -39,7 +39,7 @@ There are two methods of working with guests, depending on how your organization
 
 ## Learn more about guests and external networks
 
-The Viva Engage guests feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization. Viva Engage networks aligned to native mode use Azure Active Directory Business-Business (AzureAD-B2B), a secure, compliant external collaboration framework, to power guests To learn more about AzureAD-B2B guests in Viva Engage, visit [Work with Azure Active Directory-B2B guests in Viva Engage communities](../get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage.md).
+The Viva Engage guests feature allows organizations to call in experts such as vendors, suppliers, or consultants from outside the organization. Viva Engage networks aligned to native mode use Microsoft Entra Business-Business (AzureAD-B2B), a secure, compliant external collaboration framework, to power guests To learn more about AzureAD-B2B guests in Viva Engage, visit [Work with Microsoft Entra B2B guests in Viva Engage communities](../get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage.md).
 
 To work with external users, if your organization isn’t using native mode, you can create an external group. You must create the group as an external group--you can't change an existing internal group to be an external group. To learn more about guests in non-native Viva Engage networks, visit [Work with external groups in Viva Engage networks not aligned to native mode](../work-with-external-users/create-and-manage-external-groups.md).
 

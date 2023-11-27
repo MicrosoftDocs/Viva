@@ -1,6 +1,6 @@
 ---
-title: Diversity & Inclusion survey programs in Viva Glint 
-description:  The Viva Glint Diversity & Inclusion survey is a template of items collected through extensive research, appropriate for customers who want a standalone measurement on D&I, or for customers who want to incorporate these items into other programs.
+title: Diversity and Inclusion survey programs in Viva Glint 
+description:  The Viva Glint Diversity and Inclusion survey is a template of items collected through extensive research, appropriate for customers who want a standalone measurement on D&I, or for customers who want to incorporate these items into other programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -18,15 +18,15 @@ ms.localizationpriority: high
 ms.date: 09/18/2023
 ---
 
-# Diversity & Inclusion survey programs in Viva Glint
+# Diversity and Inclusion survey program in Viva Glint
 
 Fostering a strong sense of belonging in your organization is essential. Customer data shows that those employees who feel a strong sense of belonging are over six times as likely to be engaged as those who don’t. Belonging is strong when work environments are inclusive of differences, everyone feels accepted, and can bring their best selves to work.
-Using the Microsoft Viva Glint DIBs approach, organizations can measure perspectives that matter, empower managers to build inclusive practices, and understand how to create an environment where all people feel they belong.
+Using the Microsoft Viva Glint Diversity and Inclusion approach, organizations can measure perspectives that matter, empower managers to build inclusive practices, and understand how to create an environment where all people feel they belong.
 
 > [!NOTE]
-> The Viva Glint survey strategy can incorporate domains of D&I, voiding the need for a standalone D&I measurement. For this reason, you can consider adding items from Glint's DIBs survey template to an engagement or a culture survey.
+> The Viva Glint survey strategy can incorporate domains of diversity, belonging and inclusion into any survey, voiding the need for a standalone Diversity and Inclusion measurement. For this reason, consider adding items from Glint's Diversity and Inclusion survey template to an engagement or a culture survey.
   
-## The Viva Glint DIBs program (survey template) exposes fundamental insights 
+## The Viva Glint Diversity and Inclusion program (survey template) exposes fundamental insights 
 DIBS survey feedback provides:
 
 - Short research-validated survey items‌.
@@ -34,7 +34,7 @@ DIBS survey feedback provides:
 - Key drivers to understand how diversity, inclusion, and belonging influence engagement and business outcomes.
 - Benchmarked items using proprietary hybrid methodology.
 - Attrition predictions to identify groups at risk of leaving due to lack of inclusion and belonging.
-- Actionable resources from curated content to improve teams' DIBs experience‌s.
-- Powerful comment analytics to identify what groups are saying about DIBs experiences.
-- Easy integration of DIBs items into existing agile survey programs, as well as the ability to derive cross-program insights.
+- Actionable resources from curated content to improve teams' diversity and inclusion experience‌.
+- Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences.
+- Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, as well as the ability to derive cross-program insights.
 

@@ -3,8 +3,8 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 12/10/2018
 title: Advanced insights FAQ
 description: Frequently asked questions about advanced insights for the advanced insights app with Microsoft Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: reference
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced 
