@@ -96,14 +96,12 @@ items:
     - name: Viva Goals integrations overview
       href: integrations-overview.md    
     
-    - name: MS Teams
+    - name: Microsoft Teams
       items:
-      - name: Collaborate with Viva Goals in MS Teams
+      - name: Use Viva Goals with Microsoft 365 apps
         href: ms-teams-integration.md
-      - name: Add the Viva Goals app to MS Teams
+      - name: Add the Viva Goals app to Microsoft Teams
         href: configure-ms-teams-integration.md
-      - name: Use Viva Goals in Microsoft Teams
-        href: use-ms-teams-integration.md
       - name: Link Previews in Microsoft Teams
         href: ms-teams-link-preview.md
       - name: Notifications in Teams
