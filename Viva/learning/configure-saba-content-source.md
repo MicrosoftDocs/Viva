@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure Saba as a learning content source for Microsoft Viva Learning.
 ---
 
@@ -96,3 +96,11 @@ By enabling this, you're allowing Viva Learning to fetch user information, user 
 - LastName
 - Username
 
+## Pre-requisite for enabling SSO
+
+Refer to the [Azure Active Directory (AAD) single sign-on (SSO) integration with Saba Cloud](/azure/active-directory/saas-apps/saba-cloud-tutorial) topic for configuration information on enabling SSO.
+
+Ensure that the SSO configuration on AAD and Saba is same and that the users login method on Saba is set to "SSO."
+
+>[!NOTE]
+> If the SSO on both AAD and Saba are already configured in the tenant, as described in the above documentation, then no action is required.

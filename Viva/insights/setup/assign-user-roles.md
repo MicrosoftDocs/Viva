@@ -49,11 +49,11 @@ Within a few days after being assigned a Viva Insights role, these users will ge
 
 ## Assign advanced insights roles
 
-**Owner** - Azure Active Directory [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
+**Owner** - Microsoft Entra ID [Application Administrator](/azure/active-directory/roles/permissions-reference#application-administrator)
 
 Do the following to assign users to an Advanced insights role, including the **Analyst**, **Analyst (Limited Access)**, and **Program Manager** roles.
 
-1. To assign roles for advanced insights, sign in to your tenant's [Azure Active Directory admin center](https://aad.portal.azure.com).
+1. To assign roles for advanced insights, sign in to your tenant's [Microsoft Entra admin center](https://aad.portal.azure.com).
 2. In the left navigation menu, select **Enterprise applications**:
 
    ![Enterprise applications.](../images/wpa/setup/enterprise-apps.png)
@@ -81,7 +81,7 @@ Do the following to assign users to an Advanced insights role, including the **A
    >[!Note]
    >Repeat this step to add one or more additional users to assign them the same role.
 
-10. In **Add Assignment**, chose **Select Role** to view it on the right side of the page:
+10. In **Add Assignment**, choose **Select Role** to view it on the right side of the page:
 
     ![Select role.](../images/wpa/setup/select-role.png)
 
@@ -116,13 +116,13 @@ To assign Viva Insights roles to a group, the steps are similar to those for ass
 ### Advanced insights groups
 
 >[!Note]
->You can assign advanced insights roles to Azure Active Directory security groups. For more information about working with this kind of group, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
+>You can assign advanced insights roles to Microsoft Entra security groups. For more information about working with this kind of group, see [Manage app and resource access using Microsoft Entra groups](/azure/active-directory/fundamentals/active-directory-manage-groups).
 
 To assign roles to a group, the steps are similar to those for assigning roles to individuals, as described in [Assign roles](#assign-advanced-insights-roles). In that process, when prompted to select a name, select a group name instead, and then assign a role to the selected group.
 
    ![Select group.](../images/WpA/Use/select-group-b.png)
 
-To learn more about creating a user group in Azure Active Directory, see [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+To learn more about creating a user group in Microsoft Entra ID, see [Create a group and add members in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 
 ## Verify role assignments
 
@@ -152,7 +152,6 @@ People manager isn't technically a role that can be assigned. Assuming these man
 
 * [Roles in Viva Insights](/viva/insights/use/user-roles?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [Manager settings](/viva/insights/use/manager-settings?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
-* [Create a group and add members in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+* [Create a group and add members in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 * [Environment requirements](/viva/insights/setup/environment-requirements?toc=/viva/insights/use/toc.json&bc=/viva/insights/breadcrumb/toc.json)
 * [About admin roles](/microsoft-365/admin/add-users/about-admin-roles)
-

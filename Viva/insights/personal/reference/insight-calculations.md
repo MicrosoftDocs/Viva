@@ -3,8 +3,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 03/29/2023
 title: Meeting and communications in Viva Insights reference
 description: Learn how Viva Insights calculates some meeting- and communications-related insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.service: viva 

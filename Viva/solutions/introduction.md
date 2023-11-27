@@ -3,8 +3,8 @@
 ms.date: 02/16/2022
 title: Microsoft Viva Accelerators introduction
 description: Introduces Microsoft Viva Accelerators and what solutions are available to use
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
@@ -22,7 +22,7 @@ audience: Admin
 
 # Microsoft Viva Accelerators
 
-Microsoft Viva Accelerators can help you create foundation applications and workflows to solve common business problems. These accelerators enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Topics and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you.
+Microsoft Viva Accelerators can help you create foundation applications and workflows to solve common business problems. These accelerators enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Topics and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you.
 
 ## Data lake solution
 

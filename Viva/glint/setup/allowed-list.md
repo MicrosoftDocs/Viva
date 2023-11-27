@@ -44,7 +44,7 @@ Viva Glint emails will come from one of the domains listed below. Add the follow
 
 ## Take additional steps to ensure email delivery
 
-Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. Ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1stage.azurefd.net (EU) are added as a trusted sender and that automatic image downloads from external senders are allowed.
+Confirm that your email service permits Viva Glint emails to display images for **logos** to render. Some third-party email applications have security restrictions in place that block the download of images into an email. Ensure that fd-glint-glintus1.azurefd.net (US) or fd-glint-glinteu1.azurefd.net (EU) are added as a trusted sender and that automatic image downloads from external senders are allowed.
 
 If there are any **Spam gateways** on your exchange server, ensure that they're configured to successfully receive survey emails in bulk from Viva Glint without causing throttling, delays, or bounce backs.
 
@@ -62,9 +62,9 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glintus1.azurefd.net | 443 | Viva Glint CDN |
-| app.us1.glint.cloud.microsoft | 443 | Viva Glint unified login |
+| app.us1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
 | api.us1.glint.cloud.microsoft | 443 | Viva Glint unified login |
-| feedback.us1.glint.cloud.microsoft | 443 | Viva Glint unified login |
+| feedback.us1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
 ### European Union:
 
@@ -74,9 +74,9 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glinteu1.azurefd.net | 443 | Viva Glint CDN |
-| app.eu1.glint.cloud.microsoft | 443 | Viva Glint website |
+| app.eu1.glint.cloud.microsoft | 443 | Viva Glint website and Unified Login |
 | api.eu1.glint.cloud.microsoft | 443 | Viva Glint unified login |
-| feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint unified login |
+| feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
 ## Explore additional allowed list information
 

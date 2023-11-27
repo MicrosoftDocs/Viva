@@ -98,8 +98,8 @@ Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Require Azure AD for links in survey emails**   | Turn this on to authenticate participants for future surveys with Azure Active Directory (recommended). If you turn this off, a personalized survey link will be sent to participants.   | 
-|**Attribute-based Survey Access**   | Participants will be able to retrieve survey links by entering attributes. This will not authenticate participants and is less secure than surveys requiring Azure AD authentication.   |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this off, a personalized survey link will be sent to participants.   | 
+|**Attribute-based Survey Access**   | Participants will be able to retrieve survey links by entering attributes. This will not authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
 
 ## Set up the Features section 
 
