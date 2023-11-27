@@ -2,6 +2,22 @@
 
 
 
+## Week of November 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 11/20/2023 | [Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report](/viva/glint/reports/incorporate-copilot) | added |
+| 11/20/2023 | [Interpret the Keyword Cloud](/viva/glint/reports/interpret-keyword-cloud) | added |
+| 11/20/2023 | [Employee Retention Playbook for Viva Insights and Glint](/viva/insights/advanced/analyst/why-build-an-employee-retention-model) | modified |
+| 11/20/2023 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 11/20/2023 | [Overview: Viva Connections](/viva/connections/viva-connections-overview) | modified |
+| 11/21/2023 | [What's New - Release Notes](/viva/learning/whats-new) | added |
+| 11/21/2023 | [Microsoft Viva - Feature access management](/viva/feature-access-management) | modified |
+| 11/22/2023 | [Set up your platform as a Microsoft Viva Glint admin](/viva/glint/setup/setup-platform-admin) | renamed |
+| 11/22/2023 | [Collaborate with Viva Goals in Microsoft Teams, Outlook, and Microsoft 365](/viva/goals/ms-teams-integration) | modified |
+
+
 ## Week of November 13, 2023
 
 
