@@ -24,6 +24,8 @@ search.appverid:
 
 ## What is Native Mode?
 
+Viva Engage is in Native Mode when users, groups, and content are compatible with and mapped to their counterparts in Microsoft Entra ID and Microsoft 365.
+
 ### What benefits are new to Native Mode?
 
 Viva Engage premium functionality is only available to networks in Native Mode. Networks in Native Mode can [perform eDiscovery](./overview-native-mode.md) on their home network through the Security & Compliance Portal, just like they do for other Microsoft 365 products. Also, administrators and users both benefit from an experience that's more consistent within Viva Engage and within the Microsoft 365 ecosystem.
@@ -41,11 +43,11 @@ Native Mode doesn't have any licensing requirements beyond the requirements for 
 
 ### What features aren't supported in Native Mode, and why aren't they supported?
 
-- *Native Mode doesn't support private unlisted groups*: Azure Active Directory (Azure AD) and Microsoft 365 Groups don't support this feature, so we can't offer it in Native Mode networks. The downloadable Alignment Tool Report can provide information about the quantity and use of private unlisted groups in your network.
+- *Native Mode doesn't support private unlisted groups*: Microsoft Entra ID and Microsoft 365 Groups don't support this feature, so we can't offer it in Native Mode networks. The downloadable Alignment Tool Report can provide information about the quantity and use of private unlisted groups in your network.
 
 - *Native Mode doesn't support external communities*: Hybrid and non-native mode external collaboration capabilities, including external communities, aren't compatible with [Azure B2B](/azure/active-directory/external-identities/). Native Mode networks can host B2B guests in Microsoft 365 Groups-backed communities. Users from Native Mode networks can collaborate in external communities in other Viva Engage networks that aren't in Native Mode your Viva Engage Security Settings allow this functionality. In addition, external networks are supported for Native Mode Viva Engage networks in the US geo.
 
-Azure AD business-to-business (B2B) collaboration lets you securely share your company's applications and services with guests from any other organization while you maintain control over your own corporate data.
+Microsoft Entra business-to-business (B2B) collaboration lets you securely share your company's applications and services with guests from any other organization while you maintain control over your own corporate data.
 
 The downloadable Alignment Report provides information about the quantity and use of external groups in your network.
 
@@ -57,23 +59,23 @@ The downloadable Alignment Report provides information about the quantity and us
 
 ### What's the main difference between Native Mode and eDiscovery?
 
-- *Native Mode* is a state in which all the users, groups, and content from your network are compatible with, and mapped to, their counterparts in Azure AD/Microsoft 365 and Microsoft 365.
+- *Native Mode* is a state in which all the users, groups, and content from your network are compatible with, and mapped to, their counterparts in Microsoft Entra ID and Microsoft 365.
 
 - *eDiscovery* is a Viva Engage feature Microsoft provides to customers through the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/homepage).  
 
-Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have an Azure AD account.
+Viva Engage can offer eDiscovery to customers when all their users, groups, and content are discoverable through the compliance portal. To facilitate this process, Viva Engage must ensure that all Groups are Microsoft 365-connected because eDiscoverable content must be saved in the group mailbox. Similarly, users must have a Microsoft Entra account.
 
 ### What can you include in communications to your users?
 
-Following is a sample email to users that you can use as is or modify to meet your needs when you're ready to communicate upcoming changes to your organization.
+When you're ready to communicate upcoming changes to your organization, modify the following communication to meet your organization's needs:
 
 ------------------------------
 
 *Hello NAME OF EMPLOYEE,*
 
-*We're getting our Viva Engage network ready to support required compliance and security policies for our organization.*
+*We're preparing our Viva Engage network to support required compliance and security policies for our organization.*
 
-*Here are some changes you see rolling out over the next few weeks:*
+*Here are some changes we're rolling out over the next few weeks:*
 
 *- All unlisted private groups become private listed groups on DATE. Nonmembers can see the group in search results and other areas, but only members can access the content. If you don't want your group to be visible to nonmembers, you must delete it before that date. You can also change the name of the group if the concern is that people can identify the purpose of the group based on the name.*
 
@@ -168,33 +170,35 @@ When the Alignment Tool runs, it removes the conversations and Viva Engage-hoste
 
 - *Why aren't network guests supported in Native Mode?*
 
-  Network guests in Viva Engage aren't currently Azure B2B guests, so their user IDs aren't associated with an account in Azure Active Directory for your Microsoft 365 tenant. Because eDiscovery requires all users to be in Azure AD, the network-level guest feature can't be supported in Native Mode. You can invite B2B guests to collaborate at the community level in Native Mode networks.
+  Network guests in Viva Engage aren't currently Azure B2B guests, so their user IDs aren't associated with an account in Microsoft Entra ID for your Microsoft 365 tenant. Because eDiscovery requires all users to be in Microsoft Entra ID, the network-level guest feature can't be supported in Native Mode. You can invite B2B guests to collaborate at the community level in Native Mode networks.
 
 - *What should I do about my existing network guests?*
 
   Most networks have never had any network guests. If your network had network guests in the past, it's likely that most of those guests no longer have access due to your network enforcing Microsoft 365 Identity.
 
-  The downloadable Alignment Report provides information about the network guests in your network and their activity within the network. We recommend you use the information in the report to help decide whether these users should continue to have access to the network. If you want these users to have access to the network when your network is in Native Mode, you need to give them Azure AD account credentials.
+  The downloadable Alignment Report provides information about the network guests in your network and their activity within the network. We recommend you use the information in the report to help decide whether these users should continue to have access to the network. If you want these users to have access to the network when your network is in Native Mode, you need to give them Microsoft Entra account credentials.
 
 ### What happens to users who don’t have Microsoft 365 Group creation rights?
 
 If your network enforces Microsoft 365 Group creation rights, users who lack those rights won't be able to create communities in Viva Engage. We recommend that all users be able to create Viva Engage communities so that your entire organization can enjoy the benefits of an open, collaborative network.
 
-### What about users who aren't in Azure Active Directory?
+<a name='what-about-users-who-arent-in-azure-active-directory'></a>
 
-- *Why would I have users not in Azure AD in my network if I enforce Microsoft 365 Identity?*
+### What about users who aren't in Microsoft Entra ID?
 
-  Enforcing Microsoft 365 Identity doesn't remove users from your network who left your organization before your organization enforced Microsoft 365 identity. Most customers who have users in their Viva Engage network who aren't in Azure AD determine that these users haven't been active in the network since Microsoft 365 Identity was enforced for the network or earlier.
+- *Why would I have users not in Microsoft Entra ID in my network if I enforce Microsoft 365 Identity?*
+
+  Enforcing Microsoft 365 Identity doesn't remove users from your network who left your organization before your organization enforced Microsoft 365 identity. Most customers who have users in their Viva Engage network who aren't in Microsoft Entra ID determine that these users haven't been active in the network since Microsoft 365 Identity was enforced for the network or earlier.
 
 - *Why would some of these users have recent activity?*
 
    When a network chooses to enforce Microsoft 365 Identity, the administrator can choose whether or not to log out all logged-in users of the network. If your network didn't force all users to log out, it's possible that some of these users have stayed active enough that they've remained logged in.
 
-- *What should I do about users who aren't in Azure AD?*
+- *What should I do about users who aren't in Microsoft Entra ID?*
 
-   The downloadable Alignment Report provides information about which users in your Viva Engage network aren't in or mapped to an account in Azure AD. We recommend that you use the report to help you decide whether these users should continue to have access to the network. If you want to provide continued Viva Engage access to users who don't currently have an Azure AD account, you need to create a new Azure AD account for them or invite them as a B2B guest. In some cases, these accounts may be service accounts or bots, rather than specific end users.
+   The downloadable Alignment Report provides information about which users in your Viva Engage network aren't in or mapped to an account in Microsoft Entra ID. We recommend that you use the report to help you decide whether these users should continue to have access to the network. If you want to provide continued Viva Engage access to users who don't currently have a Microsoft Entra account, you need to create a new Microsoft Entra account for them or invite them as a B2B guest. In some cases, these accounts may be service accounts or bots, rather than specific end users.
 
-- *Why would a user not be in Azure AD?*
+- *Why would a user not be in Microsoft Entra ID?*
   
   There are several possible reasons:
 
@@ -202,10 +206,10 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
 
   - The user hasn't needed to log in to Viva Engage since the network started enforcing Microsoft 365 identity. That is, they're using Viva Engage regularly enough and with the same client that they've remained logged in since the network began enforcing identity.
 
-  - The user could be a network-level guest in the network. Network-level guests aren't supported in Azure AD.
+  - The user could be a network-level guest in the network. Network-level guests aren't supported in Microsoft Entra ID.
 
 - *What does the tool do for pending users?*
-  The tool first tries to associate the pending user with an account in Azure AD for your Microsoft 365 tenant. If that works, the user remains in the network. If the tool can't associate the pending user with an Azure AD account on your tenant, the user is deleted from Viva Engage.  
+  The tool first tries to associate the pending user with an account in Microsoft Entra ID for your Microsoft 365 tenant. If that works, the user remains in the network. If the tool can't associate the pending user with a Microsoft Entra account on your tenant, the user is deleted from Viva Engage.  
 
 ### Why aren't external participants in individual conversations supported in Native Mode?
 
@@ -218,23 +222,23 @@ If your network enforces Microsoft 365 Group creation rights, users who lack tho
 Existing Yammer groups will be connected to newly created M365 groups. These new Microsoft 365 groups won't follow any existing naming policy for Microsoft 365 group creation. 
 ### What do I need to do to prepare my All Company community to be Microsoft 365 connected?
 
-There's no preparation required to make your All Company community Microsoft 365 connected. The tool connects the community and assigns the Verified Admins for the network community as owners of the All Company community in Azure AD. As community owners, they can post announcements in the All Company community, as they could before All Company was Microsoft 365 connected.
+There's no preparation required to make your All Company community Microsoft 365 connected. The tool connects the community and assigns the Verified Admins for the network community as owners of the All Company community in Microsoft Entra ID. As community owners, they can post announcements in the All Company community, as they could before All Company was Microsoft 365 connected.
 
 - *How is All Company different than other Microsoft 365-connected Groups?*
 
-  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group whether or not they are actually a member of the group. Once All Company is connected, you can add members to the group from Azure AD. However, we don't recommend that you add users as members because it won't change the behavior of the community in Viva Engage for those users.
+  The All Company community is different than other Viva Engage communities in that all users in the network are treated as members of the group whether or not they are actually a member of the group. Once All Company is connected, you can add members to the group from Microsoft Entra ID. However, we don't recommend that you add users as members because it won't change the behavior of the community in Viva Engage for those users.
 
 - *Can I delete All Company once it's connected?*
 
-  We don't recommend that you delete All Company, as it's an important channel for your users to communicate broadly across your organization. But after All Company is Microsoft 365 connected, you can delete the Microsoft 365 Group from the Microsoft 365 admin center or the Azure Active Directory admin center. In that case, Viva Engage will honor the deletion and not show All Company in your network.
+  We don't recommend that you delete All Company, as it's an important channel for your users to communicate broadly across your organization. But after All Company is Microsoft 365 connected, you can delete the Microsoft 365 Group from the Microsoft 365 admin center or the Microsoft Entra admin center. In that case, Viva Engage will honor the deletion and not show All Company in your network.
 
 - *Can I make All Company private once it's connected?*
   
-   A private All Company is an unsupported state in Viva Engage. Also, we don't recommend that you make All Company private because it's an important channel for your users to communicate across your organization. After All Company is Microsoft 365 connected, you can make it private through the Microsoft 365 admin center or the Azure Active Directory admin center. In that case, Viva Engage won't show All Company in your network to anyone regardless of group membership.
+   A private All Company is an unsupported state in Viva Engage. Also, we don't recommend that you make All Company private because it's an important channel for your users to communicate across your organization. After All Company is Microsoft 365 connected, you can make it private through the Microsoft 365 admin center or the Microsoft Entra admin center. In that case, Viva Engage won't show All Company in your network to anyone regardless of group membership.
 
 ### Why aren't external groups supported in Native Mode?
 
-Because Viva Engage external groups aren't compatible with Azure B2B, guests in external groups in Viva Engage aren't associated with an account in Azure AD for your Microsoft 365 tenant.
+Because Viva Engage external groups aren't compatible with Azure B2B, guests in external groups in Viva Engage aren't associated with an account in Microsoft Entra ID for your Microsoft 365 tenant.
 
 - *What should I do about my external groups?*
 
@@ -248,7 +252,7 @@ Because Viva Engage external groups aren't compatible with Azure B2B, guests in 
 
 - *Why can't I have unlisted private groups in Native Mode?*
   
-   Azure AD and Microsoft 365 Groups don't currently support unlisted private groups. If Viva Engage continued to support this feature in a Native Mode network, groups would be unlisted in Viva Engage. However, these groups would be exposed through other Microsoft 365 products. The downloadable Alignment Report provides information about the quantity and use of private unlisted groups in your network.
+   Microsoft Entra ID and Microsoft 365 Groups don't currently support unlisted private groups. If Viva Engage continued to support this feature in a Native Mode network, groups would be unlisted in Viva Engage. However, these groups would be exposed through other Microsoft 365 products. The downloadable Alignment Report provides information about the quantity and use of private unlisted groups in your network.
 
 - *What should I do about my unlisted private groups?*
   

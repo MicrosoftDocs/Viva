@@ -2,8 +2,8 @@
 ms.date: 02/15/2023
 title: Visit the Viva Insights community
 description: Visit the Viva Insights community
-author: v-lilyolason
-ms.author: lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.service: viva

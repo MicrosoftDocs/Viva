@@ -2,8 +2,8 @@
 ms.date: 03/22/2023
 title: Get support for Viva Insights
 description: What support options are available for help with Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: troubleshooting
 ms.collection: 
 - viva-insights-personal

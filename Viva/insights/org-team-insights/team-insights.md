@@ -2,8 +2,8 @@
 ms.date: 01/06/2023
 title: Team insights
 description: Learn about team insights and where to find them in Viva Insights in Teams and on the web
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: 
@@ -28,7 +28,7 @@ Throughout this document, we'll link you to where you can find more detailed inf
 
 ## About team data and data privacy
 
-Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Azure Active Directory, to determine who should be included in your "team."  
+Team insights use collaboration data from Microsoft 365. Depending on your setup, team insights might also use organizational data that your admin has uploaded in the advanced insights app, or that's available from Microsoft Entra ID, to determine who should be included in your "team."  
 
 With team insights, you can't see individual team members' personal collaboration habits. Team insights are generated entirely from activity data from only a user’s own account, and computed from their email, meetings, chats, and calls. All of the same privacy protections and considerations apply to team insights as to other personal insights. 
 
@@ -51,11 +51,11 @@ Refer to these articles to install, pin, and configure the app in Teams:
 
 ### How teams are built
 
-Viva Insights automatically builds teams based on organizational data uploaded or connected to the advanced insights app. If your organization uses Azure Active Directory to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. If your admin uploads an HR file to the advanced insights app, then we use the information provided in that file to make your team, instead.
+Viva Insights automatically builds teams based on organizational data uploaded or connected to the advanced insights app. If your organization uses Microsoft Entra ID to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. If your admin uploads an HR file to the advanced insights app, then we use the information provided in that file to make your team, instead.
 
-Your team only includes people reporting directly to you as presented in Azure Active Directory or the file your admin uploads. This structure means three things:
+Your team only includes people reporting directly to you as presented in Microsoft Entra ID or the file your admin uploads. This structure means three things:
 
-* To keep teams accurate, your organization needs to regularly update Azure Active Directory or upload new HR files.
+* To keep teams accurate, your organization needs to regularly update Microsoft Entra ID or upload new HR files.
 * If you don’t have at least one person reporting directly to you, as presented in the organizational data file, you won’t have access to Team insights.
 * Because teams come directly from organizational data, you’re not able to edit members. People who don't have direct reports won't be able to access team insights.
 
@@ -87,4 +87,3 @@ You'll find insights about your team meeting habits on the **Productivity** tab.
 ### Shared plans
 
 To create healthy team norms, you and your team might consider using shared plans. You can find and start [shared no-meeting day](../personal/teams/shared-no-meeting-day.md) and focus plans on the **Wellbeing** tab. To start a [shared meeting plan](../personal/teams/shared-meeting-plan.md), visit the **Productivity** tab. 
-

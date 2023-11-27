@@ -3,8 +3,8 @@
 ms.date: 06/30/2023
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: m365initiative-viva-insights 

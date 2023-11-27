@@ -2,8 +2,8 @@
 ms.date: 06/14/2023
 title: Introduction to advanced insights
 description: Get familiar with the new advanced insights app from Microsoft Viva Insights 
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

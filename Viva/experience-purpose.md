@@ -48,7 +48,7 @@ The keys to success with OKRs are transparency and alignment. Right from the CEO
 
 ## Using Viva Goals
 
-After you purchase Viva Goals licenses for your organization, you can log into Viva Goals using your Azure Active Directory credentials. You can set up your OKR model and create one or more Viva Goals organizations to contain your OKRs. Additionally, Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units.
+After you purchase Viva Goals licenses for your organization, you can log into Viva Goals using your Microsoft Entra credentials. You can set up your OKR model and create one or more Viva Goals organizations to contain your OKRs. Additionally, Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units.
 
 [Set up your OKR model](/viva/goals/configure-okr-model)
 

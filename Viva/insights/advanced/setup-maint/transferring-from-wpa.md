@@ -2,8 +2,8 @@
 ms.date: 06/21/2023
 title: Transferring from Workplace Analytics to the advanced insights app
 description: Learn about difference in settings between Workplace Analytics and the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: 
 - viva-insights-manager
@@ -29,7 +29,7 @@ As you make your transition from Workplace Analytics, our legacy analyst platfor
 
 * Roles and role assignment look different in the advanced insights app:
     * Some roles remain the same, while we’ve removed others. 
-    * A Microsoft 365 admin now uses the Microsoft admin center to assign roles to their team, of the Insights Administrator using Azure Active Directory.
+    * A Microsoft 365 admin now uses the Microsoft admin center to assign roles to their team, of the Insights Administrator using Microsoft Entra ID.
 * We’ve changed the minimum group size requirement.
 * We’ve made a few improvements to privacy settings.
 * You'll need to add meeting and subject line exclusions through [Keyword suppression](../admin/keyword-suppression.md). Meeting and subject line exclusions set in Workplace Analytics don't transfer over to the advanced insights app.
@@ -44,7 +44,7 @@ Here’s how roles have changed between Workplace Analytics and the advanced ins
 >[!Important]
 > The new advanced insights platform recognizes users who were assigned the analyst or administrator roles on Workplace Analytics. However, it’s highly recommended to assign these users current roles through the advanced insights platform. New roles offer better security and privacy management. Learn how to assign new roles in [Assign roles](assign-user-roles.md).
 >
->If your organization uses Privileged Identity Management (PIM), you’ll need to assign roles through Azure Active Directory PIM.
+>If your organization uses Privileged Identity Management (PIM), you’ll need to assign roles through Microsoft Entra PIM.
 
 |                  |Workplace Analytics |Advanced insights app|
 |------------------|---------|--------|
@@ -61,7 +61,7 @@ For more information about roles in the advanced insights app—including which 
 
 ### Role assignment
 
-In Workplace Analytics, Azure Active Directory Application Administrators would assign advanced insights roles to users in the Azure Active Directory admin center. Now, the Microsoft 365 global admin assigns all Viva Insights-related roles within the Microsoft admin center, unless your organization is using PIM.
+In Workplace Analytics, Microsoft Entra Application Administrators would assign advanced insights roles to users in the Microsoft Entra admin center. Now, the Microsoft 365 global admin assigns all Viva Insights-related roles within the Microsoft admin center, unless your organization is using PIM.
 
 To learn how to assign roles, refer to [Assign roles](user-roles.md).
 
