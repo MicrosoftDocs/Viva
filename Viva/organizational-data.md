@@ -147,7 +147,7 @@ Only the global admin can update or delete organizational data stored in the Mic
 
 To update an end user's organizational data, upload a new .csv file that contains updated attributes. In that file include *only* the users whose organizational data you want to update, and be sure to include **all of the attributes** that you want to be part of their Microsoft 365 User Profile. If you include an attribute in the file but leave the value empty for an end user, the current value in the Microsoft 365 User Profile for that attribute will be deleted.
 
-To delete values for end users' organizational data attributes, upload a new .csv file for the specific users. In the .csv file, provide the email for each end user whose data you want to delete in the Microsoft_PersonalEmail column, and set the rest of the columns to empty. (For strings, use ", for integers, use -1.) Leave all other attributes unchanged.
+To delete values for end users' organizational data attributes, upload a new .csv file for the specific users. In the .csv file, provide the email for each end user whose data you want to delete in the Microsoft_PersonalEmail column, and set the rest of the columns to empty strings by using two single quotes (''). The only exception is the **Microsoft_Layer** attribute, which needs to be set to "-1" (because it's an integer).
 
 >[!NOTE]
 > If you use Excel to edit the .csv file, use three single quotes (''') instead of two ('')- Excel sees a single quote (') as the escape character.
