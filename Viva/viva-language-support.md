@@ -69,11 +69,11 @@ Content added by users (such as when a feedback author adds or edits a question 
 
 Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
 
-## Viva Topics
+## Topics
 **User interface**
 
-Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
+Languages in the Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
 
 **Languages available for processing topics**
 
-Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
+Topics is available to customers worldwide. However, for processing and indexing content, Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).

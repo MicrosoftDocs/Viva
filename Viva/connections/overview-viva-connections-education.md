@@ -11,7 +11,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
