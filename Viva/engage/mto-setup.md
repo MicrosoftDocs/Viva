@@ -22,9 +22,7 @@ search.appverid:
 
 # Set up Viva Engage as a multitenant organization
 
-
->[!NOTE] This experience is only available by cohort-based rollout.
-
+> [!NOTE] This experience is only available by cohort-based rollout.
 Microsoft multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate across tenants as a unified network. Each configuration task must be performed in the order it appears. Administrator role requirements are called out for each task.
 
 #### Tenants connect in hub-and-spoke model
@@ -45,8 +43,8 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 **Viva Engage requirements**
 - Viva Engage is managed by an internal communications manager or your IT department
 - Networks are in Native Mode
-- Networks are not in a one-to-many state. Each tenant can have only one Viva Engage network. See [Network migration - Consolidate multiple Viva Engage networks](viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
-- Full trust is established between all tenants. To establish full trust, [configure your organizational settings](https://learn.microsoft.com/en-us/training/modules/secure-b2b-collaboration-cross-tenant-access/4-exercise-configure-organizational-settings).
+- Networks are not in a one-to-many state. Each tenant can have only one Viva Engage network. See [Network migration - Consolidate multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks).
+- Full trust is established between all tenants. To establish full trust, [configure your organizational settings](/training/modules/secure-b2b-collaboration-cross-tenant-access/4-exercise-configure-organizational-settings).
 - All users in all tenants have access to Microsoft Viva Suite or Communications and Communities
 - Storyline is enabled
 
@@ -61,7 +59,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
 |B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant.</li>|
-|C. Create a hub tenant network administrator role in the Microsoft 365 admin center. The assigned user must reside in the hub tenant.|Assign a new admin role in [Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide).|
+|C. Create a hub tenant network administrator role in the Microsoft 365 admin center. The assigned user must reside in the hub tenant.|Assign a new admin role in [Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## 2: Configure the multitenant organization in Microsoft 365
 
@@ -81,7 +79,7 @@ This process requires that you use Microsoft Graph API, an API with separate [re
 *Applies to Microsoft 365 Global administrators*
 
 After you establish the multitenant organization in Microsoft 365, configure multitenant organization controls for Viva Engage from the designated hub tenant.
->[!NOTE] Licensing and other tenant-specific controls remain under control of that tenant’s admin. However, the spoke user license applies to the hub network.
+> [!NOTE] Licensing and other tenant-specific controls remain under control of that tenant’s admin. However, the spoke user license applies to the hub network.
 
 |Task description|Instructions|
 |----------------|----------------|
