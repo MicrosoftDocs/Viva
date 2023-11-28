@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 011/30/2023
+ms.date: 11/30/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -72,8 +72,8 @@ Before you upload organizational data, you need to do the following:
 
 1. [Download a .csv template](#step-1---download-a-csv-template)
 1. [Structure the organizational data](#step-2---structure-the-organizational-data)
-1. [Import your organizational data for the first time](#step-3---import-the-organizational-data-for-the-first-time)
-1. [Update or make other changes to your data](#step-4---update-or-make-other-changes-to-your-organizational-data)
+1. [Import your organizational data for the first time](#step-3---import-your-organizational-data-for-the-first-time)
+1. [Update or make other changes to your data](#step-4---update-or-make-other-changes-to-your-data)
 
 ### Step 1 - Download a .csv template
 
@@ -128,7 +128,7 @@ You can also use drag and drop to upload the file.
 
 Before you import the data into Viva, you need the path to the file on SharePoint. To get it, select the ellipses (...) next to the file and then select **Details**. Find the **Path** value, and then select the copy icon. The file path follows this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv.
 
-#### Import the data info Microsoft 365
+#### Import the data into Microsoft 365
 Now you're ready to import the data. 
 
 1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
@@ -210,8 +210,8 @@ A *Data Subject Request* or DSR is a formal request by a data subject (an end us
 Use the following information to fulfill DSRs from end users:
 
 - Access and Export – An end user can access and export organizational data uploaded by a global admin and stored in the Microsoft 365 User Profile by using the data export function in the profile card. See [Export data from your profile card](https://support.microsoft.com/office/export-data-from-your-profile-card-d809f83f-c077-4a95-9b6c-4f093305163d). 
-- Edit – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-organizational-data). 
-- Delete – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-organizational-data) and [Data deletion](#data-deletion). 
+- Edit – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data). 
+- Delete – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) and [Data deletion](#data-deletion). 
 
 
 ## Attribute reference   	
