@@ -76,7 +76,7 @@ This process requires that you use Microsoft Graph API, an API with separate [re
 |C. Synchronize across the multitenant organization.|See [Configure cross-tenant synchronization](/azure/active-directory/multi-tenant-organizations/cross-tenant-synchronization-configure).|
 |D. If you run into problems, troubleshoot the issue.|See [Known issues for multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues).|
 
-### 3: Configure Viva Engage for multitenant organization 
+### 3: Configure Viva Engage for multitenant organization
 
 *Applies to Microsoft 365 Global administrators*
 
@@ -95,7 +95,7 @@ From the tenant that’s designated as the hub tenant of the multitenant organiz
 
 |Task description|Instructions|
 |----------------|----------------|
-|A.	Enable storylines for Viva Engage. |<ol><li>Sign in as administrator.</li><li>In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
+|A.	Enable storylines for Viva Engage. |<ol><li>Sign in to as administrator.</li><li>Go to the [Viva Engage Admin center](/viva/engage/eac-as-access-eac).</li><li>On the Feature management tab, select **Storyline**.</li><li>Turn on the **Enable Storyline** toggle.</li>|
 |B. Enable storylines for multitenant organization.|<ol><li>Follow the preceding steps 1-3 to go to the Storylines settings.</li><li>Select **Advanced settings**.</li><li>Select **Multitenant organization for storylines**. For more details, see [Enable storyline](/viva/engage/eac-storyline#enable-storyline).</li>|
 
 ### 5: Manage leadership for the multitenant organization
@@ -106,5 +106,5 @@ Specify the leaders whose storyline posts reach all tenants in the multitenant o
 
 |Task description|Instructions|
 |----------------|----------------|
-| A. Identify leaders in the multitenant organization<br><br><br><br><br><br><br><br><br><br><br><br>|<ol><li>In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the Manage leaders page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. *Entire organization* refers only to the tenant itself. This option enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li> 
+| A. Identify leaders in the multitenant organization<br><br><br><br><br><br><br><br><br><br><br><br>|<ol><li>Go to the [Viva Engage Admin center](/viva/engage/eac-as-access-eac).</li><li>On the Feature management tab, select **Leadership identification and audiences**.</li><li>On the **Manage leaders** page, select **Add leader**, and type the leader’s name. When the name appears in the search, select the **Add** button next to it.</li><li>Select the **Edit** button next to that leader’s name.</li><li>Turn on **Entire organization:** [*TENANT_NAME*]. This option enables the leader to communicate on the hub tenant only. *Entire organization* refers only to the tenant that you're configuring. This option enables the leader to communicate on the hub tenant.</li><li>Turn on **Multiple organizations** to enable the leader to communicate across all tenants in the multitenant organization from their storyline.</li>
 
