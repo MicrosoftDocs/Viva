@@ -145,11 +145,13 @@ Each end user's organizational data is stored in that end user's mailbox and res
 
 Only the global admin can update or delete organizational data stored in the Microsoft 365 User Profile.
 
-To update an end user's organizational data, upload a new .csv file that contains updated attributes. In that file include *only* the users whose organizational data you want to update, and be sure to include **all of the attributes** that you want to be part of their Microsoft 365 User Profile. If you include an attribute in the file but leave the value empty for an end user, the current value in the Microsoft 365 User Profile for that attribute will be deleted.
+To update or delete an end user's organizational data, create and upload a new .csv file containing only the users whose data you want to update or delete. 
 
-To delete values for end users' organizational data attributes, upload a new .csv file for the specific users. In the .csv file, provide the email for each end user whose data you want to delete in the Microsoft_PersonalEmail column, and set the rest of the columns to empty strings by using two single quotes (''). The only exception is the **Microsoft_Layer** attribute, which needs to be set to "-1" (because it's an integer).
+- To update a value, include all of the attributes that you want to update. Provide a different value for any attribute that you want to change. If you include an attribute but don't provide a value (but do **not** set it to an empty string), the current value in the Microsoft 365 User Profile is used (it isn't updated).
+- To delete a value, set the value for the attribute to an empty string by using two single quotes (''). (Set the **Microsoft_Layer** attribute "-1".)
+- To delete all of the data for a user, provide the email for each end user whose data you want to delete in the **Microsoft_PersonalEmail** column, and set the rest of the columns to empty strings.
 
->[!NOTE]
+> [!NOTE]
 > If you use Excel to edit the .csv file, use three single quotes (''') instead of two ('')- Excel sees a single quote (') as the escape character.
 
 After the new organizational data is uploaded, the previous data for each affected end user is deleted with 30 days.
