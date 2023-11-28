@@ -23,7 +23,7 @@ A Microsoft 365 Global Admin can set up and manage Viva Pulse and assign a user 
 **Assign Viva Pulse admin roles**
 
 1. Sign in to the Microsoft 365 admin center and go to **Roles** and then [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
-2. Choose the **Microsoft Entra ID** or **Intune** tabs to view the admin roles available for your organization.
+2. Choose the **Microsoft Entra ID** tab to view the admin roles available for your organization.
 3. Find and select **Viva Pulse Administrator**.
 4. Select the **Assigned** tab and select **Add users**.
 5. Search for the user by entering the user name or email.

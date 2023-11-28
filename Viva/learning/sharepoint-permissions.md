@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to control access to SharePoint content in Viva Learning by using Microsoft 365 Groups.
 ---
 
@@ -33,7 +33,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
 
 >[!NOTE]
-> Only the **Microsoft 365** group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups permissions.
+> Only **Microsoft 365** groups and mail enabled security groups are supported. Viva Learning doesn't support user-based permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) to create groups in your Microsoft 365 admin center.
 

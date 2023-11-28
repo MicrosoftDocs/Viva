@@ -29,7 +29,7 @@ search.appverid:
 The following Admin users can see the Admin Center in Viva Engage in the Teams app:
 
 - Those who have access to Viva Engage through purchase of Microsoft 365 or Viva Suite.
-- Those who have access to Answers in Viva through purchase of Viva Suite or Viva Topics
+- Those who have access to Answers in Viva through purchase of Viva Suite or Topics
 
 ### Core experiences: Viva Engage and Answers
 
@@ -41,7 +41,7 @@ If you enforce Viva Engage licensing in your tenant, users need to have either a
 |-------------------|---------|-------|
 |**Viva Engage Core**|Engage core experiences, including the Answers core experiences  <br> *Example:* Communities, storyline |Microsoft 365/Office 365|
 |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Communications) <br> *Example:* Leadership corner, AMAs, storyline announcements |Viva Suite|
-|**Viva Engage Knowledge**|Answers in Viva premium experience |Viva Suite, Viva Topics|
+|**Viva Engage Knowledge**|Answers in Viva premium experience |Viva Suite, Topics|
 
 ## Set up Viva Engage
 Use the Microsoft 365 admin center to set up and manage Viva Engage.  
