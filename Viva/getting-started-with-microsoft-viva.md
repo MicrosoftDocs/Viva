@@ -10,7 +10,8 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom: intro-get-started
 ms.collection:
   - M365initiative-viva
