@@ -10,7 +10,8 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-ms.localizationpriority: high
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom: intro-overview
 ms.collection:
   - M365-collaboration
