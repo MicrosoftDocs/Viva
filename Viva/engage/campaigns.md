@@ -28,7 +28,7 @@ Creating and viewing the campaign landing page and analytics from the campaign m
 
 ## Set up a campaign
 
-> [!IMPORTANT]
+> [!Note]
 > Features described in this article require Viva Engage Premium.
 
 In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
