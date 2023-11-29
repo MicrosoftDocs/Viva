@@ -22,7 +22,9 @@ search.appverid:
 
 # Set up Viva Engage as a multitenant organization
 
-Microsoft multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate across tenants as a unified network. Each configuration task must be performed in the order it appears. Administrator role requirements are called out for each task.
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate across tenants as a unified network. Multitenant organization enables your organzation to form a tenant group which enables cross-tenant engagement. [Learn more about multitenant organizations] (/entra/identity/multi-tenant-organizations/).
+
+This document presents configuration tasks in the order they must be performed. Administrator role requirements are called out for each task. 
 
 > [!NOTE]
 > This experience is only available by cohort-based rollout.
@@ -60,12 +62,12 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 *Applies to Microsoft 365 Global administrators* 
 
 This task assumes that all requirements for Microsoft 365 and Viva Engage are met.
-When designing an effective multitenant organization, it’s crucial to establish the hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization; therefore, they need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
+When designing an effective multitenant organization, it’s crucial to establish the hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
 
 |Task description|Instructions|
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
-|B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant.</li>|
+|B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant. How you [configure multitenant organization in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
 |C. Create a hub tenant network administrator role in the Microsoft 365 admin center. This role must reside in the hub tenant.|Assign a new admin role in [Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## 2: Configure the multitenant organization in Microsoft 365
