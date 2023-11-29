@@ -66,7 +66,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
 |B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant.</li>|
-|C. Create a hub tenant network administrator role in the Microsoft 365 admin center. The assigned user must reside in the hub tenant.|Assign a new admin role in [Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
+|C. Create a hub tenant network administrator role in the Microsoft 365 admin center. This role must reside in the hub tenant.|Assign a new admin role in [Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or with [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## 2: Configure the multitenant organization in Microsoft 365
 
