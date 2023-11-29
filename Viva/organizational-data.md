@@ -122,11 +122,21 @@ Use the following steps to upload your data to SharePoint. Make sure that your S
 
 1. Open the SharePoint site library.
 2. Select **Upload**, and then select **Files**.
-3. Navigate to where you saved the .csv file, and then select **Open**.
+   :::image type="content" source="media/sharepoint-library.png" alt-text="A screenshot shows the Upload menu in SharePoint.":::
+3. Navigate to the location where you saved the .csv file, and then select **Open**.
 
 You can also use drag and drop to upload the file.
 
-Before you import the data into Viva, you need the path to the file on SharePoint. To get it, select the ellipses (...) next to the file and then select **Details**. Find the **Path** value, and then select the copy icon. The file path follows this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv.
+Before you import the data into Viva, you need the path to the file on SharePoint, in this format: https://*domain*.sharepoint.com/sites/*sitename*/Documents/*foldername*/*filename*.csv. Use the following steps to get the path to your file.
+
+1. Select the ellipses (...) next to the file and then select **Details**.
+   :::image type="content" source="media/sharepoint-path-ellipses.png" alt-text="A screenshot shows the ellipses option next to a file in a SharePoint library. "::: 
+1. Find the **Path** value, and then select the copy icon. 
+   :::image type="content" source="media/sharepoint-path-icon.png" alt-text="A screenshot shows the Path information for a file in SharePoint.":::
+   
+   
+> [!NOTE]
+> Be sure to follow these steps to get the path to the file. This is a different path than what's visible in the URL field of a browser when you view the .csv file in SharePoint.
 
 #### Import the data into Microsoft 365
 Now you're ready to import the data. 
