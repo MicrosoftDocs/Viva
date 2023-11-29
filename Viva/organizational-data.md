@@ -132,7 +132,7 @@ Before you import the data into Viva, you need the path to the file on SharePoin
 1. Select the ellipses (...) next to the file and then select **Details**.
    :::image type="content" source="media/sharepoint-path-ellipses.png" alt-text="A screenshot shows the ellipses option next to a file in a SharePoint library. "::: 
 1. Find the **Path** value, and then select the copy icon. 
-   :::image type="content" source="media/sharepoint-path-icon.png" alt-text="A screenshot shows the Path information for a file in SharePoint.":::
+   :::image type="content" source="media/sharepoint-path-icon.svg" alt-text="A screenshot shows the Path information for a file in SharePoint.":::
    
    
 > [!NOTE]
