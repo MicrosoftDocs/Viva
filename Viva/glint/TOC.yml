@@ -40,9 +40,10 @@ items:
             href: setup/glint-order-teams.md
           - name: Third party notice
             href: /legal/viva/glint/third-party-notice
-      - name: Set up your platform as a Viva Glint Admin
-        href: setup/setup-platform-admin.md
+      - name: Deploy Microsoft Viva Glint as a Viva Glint Admin
         items:
+          - name: Set up your platform as a Viva Glint Admin
+            href: setup/setup-platform-admin.md
           - name: Begin platform setup with your IT team
             items:
               - name: Manage your Allowed List for Viva Glint
