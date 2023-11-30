@@ -199,7 +199,7 @@ To apply a SharePoint or custom theme:
 
 1. Select the **ellipsis**, then select **Change the look**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-change-the-look.png" alt-text="Screenshot of the settings menu open with Change the look option highlighted."lightbox="../media/connections/edit-viva-home/vc3-change-the-look.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/vc3-change-the-look.png" alt-text="Screenshot of the settings menu open with Change the look option highlighted.":::
 
 2. Select **Theme**.
 
@@ -207,7 +207,7 @@ To apply a SharePoint or custom theme:
     - Themes from your organization can't be customized.
     - SharePoint themes from Microsoft can be customized.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes."lightbox="../media/connections/edit-viva-home/vc3-themes.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
 
     > [!NOTE]
     >
@@ -222,7 +222,7 @@ To apply a SharePoint or custom theme:
     >
     > Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
     >
-    > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply." lightbox="../media/connections/edit-viva-home/vc3-teams-chrome.png":::
+    > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 
 ## Customize the dashboard
 
