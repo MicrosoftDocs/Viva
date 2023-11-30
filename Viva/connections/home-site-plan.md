@@ -1,10 +1,10 @@
 ---
-ms.date: 09/22/2023
+ms.date: 11/30/2023
 title: "Plan, build, and launch a home site for your organization"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 recommendations: true
 audience: Admin
 f1.keywords:
@@ -163,10 +163,6 @@ The content on the [SharePoint start page](https://support.microsoft.com/office/
 Integration between the SharePoint home site and [SharePoint start page](https://support.office.com/article/6b85097a-87e0-4611-a29a-dfd49b1a1220) (where the branding, theming, header, navigation, and footer elements from the SharePoint home site are applied to the start page and users can easily navigate between the pages) isn't available at this time. However you can [add a featured link to the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page) to increase SharePoint home site discovery.
 
 Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
-
-**Q:** Can my organization have more the one SharePoint home site?
-<br>
-At this time, each organization can have only one SharePoint home site.
 
 ## Resources
 
