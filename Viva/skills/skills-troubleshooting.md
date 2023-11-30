@@ -1,5 +1,5 @@
 ---
-title: Skills Editor 
+title: Skills Troubleshooting 
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -15,9 +15,9 @@ ms.collection:
   - m365initiative-viva-learning
   - Tier1
 localization_priority: medium
-description: An introduction to Skills Editor
+description: Troubleshooting for Skills in Viva 
 ---
 
 # Overview of Skills Editor
 
-Place holder topic - will re-direct to support.ms.com. 
+[REDIRECT FW LINK]
