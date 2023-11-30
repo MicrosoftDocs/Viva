@@ -57,7 +57,7 @@ The Connections experience has been redesigned to highlight news across your org
 
 **Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) now has two areas:
 
-- The News spotlight displays updates from organizational news sites in a scrolling banner.
+- The News spotlight displays updates from the home site in a scrolling banner. A future update is planned to include updates from organizational news sites.
 - The Feed tab provides access to more content that offers a personalized feed based on post-level targeting of groups that an employee belongs to, more updates and other organizational news content.
 
 **Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
@@ -148,7 +148,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 10. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
 
-11. **News spotlight:** Content in the banner is dynamically displayed based on content from organizational news sites.
+11. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
 
 > [!NOTE]
 >
