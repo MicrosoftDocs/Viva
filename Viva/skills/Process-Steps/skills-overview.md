@@ -1,0 +1,65 @@
+---
+title: Overview of Skills in Viva 
+ms.author: bhaswatic
+author: bhaswatic
+manager: pamgreen
+ms.reviewer: chrisarnoldmsft
+ms.date: 11/29/2023
+audience: admin
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-learning
+search.appverid: MET150
+ms.collection:
+  - enabler-strategic
+  - m365initiative-viva-learning
+  - Tier1
+localization_priority: medium
+description: An introduction to Skills in Viva, 
+---
+
+# Overview of Skills in Viva 
+
+Skills in Viva is an AI-powered service in the Microsoft Viva Suite that curates an employee’s skills profile to provide you with an improved understanding of your organization’s current workforce skills.
+These insights are generated from sources across Microsoft 365 and Viva applications, such as emails, documents, and meetings. 
+
+Skills in Viva uses this skill library to focus on:
+
+-	strategic **workforce planning**
+
+-	 **upskilling** and **reskilling**
+
+-	**skills discovery** in the flow of work 
+
+- **skill suggestion** for users 
+
+
+Future releases plan to include other signals, like expertise in Viva Topics and data from human capital management systems. 
+
+If you’d like to learn more or apply for the Skills in Viva preview, contact your Microsoft representative. 
+
+## Prerequisites 
+
+To help ensure a productive private preview that enables Skills in Viva to meet and exceed your company's goals, the following are the requirements for private preview participation: 
+
+1. Private preview must be deployed on a production tenant where users are spending at least 80% of their time on e-mails, documents, and other Microsoft 365 and Viva applications. 
+
+2. More than 100 end users who are licensed for either Viva Suite or Viva Learning.  
+
+3. End users included in the Skills Private Preview program have Viva Learning deployed and available for use.
+
+> [!NOTE]:
+- > Private preview will be available in English language only. Default language for Viva Learning must also be English for this private preview 
+- > All users in your tenant will lose “Interests” they have selected in Viva Learning when you enable skills.  This action is not reversible. 
+
+
+## Admin roles 
+
+The following roles and permissions are required to set up Skills in Viva. Review the documentation for [assigning roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/manage-roles-portal)
+
+
+| Roles |  Permissions | 
+| - | - | 
+| Microsoft 365 Global Administrator | Microsoft 365 Global Administrator has global access to most management features and data across Microsoft online services. For Skills in Viva, the Microsoft 365 Global Administrator can configure and manage your organization’s skills library related settings from the Microsoft 365 admin center.| 
+| Knowledge Administrator | The Knowledge Administrator needs to be assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
+
