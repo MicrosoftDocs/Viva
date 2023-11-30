@@ -37,9 +37,10 @@ items:
             href: setup/glint-order-teams.md
           - name: Third party notice
             href: /legal/viva/glint/third-party-notice
-      - name: Deploy Viva Glint as a Viva Glint Admin
-        href: setup/deploy-viva-glint.md
+      - name: Deploy Microsoft Viva Glint as a Viva Glint Admin
         items:
+          - name: Set up your platform as a Viva Glint Admin
+            href: setup/setup-platform-admin.md
           - name: Begin platform setup with your IT team
             items:
               - name: Manage your Allowed List for Viva Glint
@@ -273,7 +274,19 @@ items:
              href: communicate/results-rollout-templates.md
   - name: Troubleshoot
     items:
-      - name: Resolve manager hierarchy error
-        href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-      - name: Understand file upload errors and warnings
-        href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
+      - name: Data File Uploads
+        items:
+          - name: Resolve manager hierarchy error
+            href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+          - name: Understand file upload errors and warnings
+            href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
+      - name: Historical Imports
+        items:
+          - name: Error "Duplicate entry"
+            href: /viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+          - name: Error "Exception date overlap"
+            href: /viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+          - name: Error "missing required field"
+            href: /viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+          - name: Error "User is not in client"
+            href: /viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
