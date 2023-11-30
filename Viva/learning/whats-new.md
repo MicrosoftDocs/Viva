@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/20/2023
+ms.date: 11/29/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -33,7 +33,6 @@ The following notes outline new features and key updates in recent releases.
 
 ### September 2023
 
-- *New* **Seamless login for LinkedIn**: Enables automatic sign in for premium LinkedIn content when accessed from Viva Learning.
 
 - *New* **Download User data**: Allows administrators to retrieve courses completion data for users.
 
