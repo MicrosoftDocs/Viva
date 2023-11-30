@@ -2,9 +2,9 @@
 title: Manage content sources for Viva Learning 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/14/2023
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
