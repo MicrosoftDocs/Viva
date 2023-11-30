@@ -248,10 +248,9 @@ Resources give access to the most popular portals and destinations at your organ
 > [!NOTE]
 >
 > - The update to the resource section is currently available to targeted release customers, with a planned roll out to all users by the end of Q1 2024.
->
-- Edits made to the Resource section won't reflect to the mobile experience at this time.
-- The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
-- Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and can't be edited.
+> - Edits made to the Resource section won't reflect to the mobile experience at this time.
+> - The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
+> - Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and can't be edited.
 
 **If you have a SharePoint home site:**
 If you have already set up navigational links in the [SharePoint global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time.
