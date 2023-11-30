@@ -1,0 +1,10 @@
+
+    - name: Get started Skills in Viva
+      items:    
+        - name: Overview of Skills in Viva 
+          href: skills-overview.md
+        - name: Set up Skills in Viva
+          href: skills-get-started.md
+        - name: Manage Skills Library 
+          href: manage-skills-library.md
+       

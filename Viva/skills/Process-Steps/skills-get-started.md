@@ -1,5 +1,5 @@
 ---
-title: Setting up Skills in Viva 
+title: Set up Skills in Viva 
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -18,7 +18,7 @@ localization_priority: medium
 description: An introduction to setting up Skills in Viva, 
 ---
 
-# Setting up Skills in Viva 
+# Set up Skills in Viva 
 
 
 1. In the Microsoft 365 admin center, select **Settings** and then select Viva.  
@@ -111,7 +111,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
 1. Select **Turn on skills library** to make skills available in supported Microsoft 365 and Viva experiences.  
 
-    a. If you turn on the skills library, once the setup process s complete and you have confirmed your selections, your skills library is created and users are able to begin identifying their skills profile immediately.  
+    a. If you turn on the skills library, once the setup process is complete and you have confirmed your selections, your skills library is created and users are able to begin identifying their skills profile immediately.  
 
     b. If you don't turn on the skills library, your organization’s skills library will still be created upon completion of the wizard, but it will not be available to users in your organization until you choose to publish it from **Settings.**
 
