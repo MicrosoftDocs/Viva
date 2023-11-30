@@ -96,11 +96,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "Viva/insights/index.yml",
-            "redirect_url": "/previous-versions/viva/",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "Viva/insights/manager-insights/faqs.md",
             "redirect_url": "/previous-versions/viva/insights/manager-insights/faqs",
             "redirect_document_id": false
