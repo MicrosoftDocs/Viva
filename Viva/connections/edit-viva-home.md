@@ -202,26 +202,27 @@ To apply a SharePoint or custom theme:
     :::image type="content" source="../media/connections/edit-viva-home/vc3-change-the-look.png" alt-text="Screenshot of the settings menu open with Change the look option highlighted."lightbox="../media/connections/edit-viva-home/vc3-change-the-look.png":::
 
 2. Select **Theme**.
+
 3. Make a selection from the list of available themes.
     - Themes from your organization can't be customized.
     - SharePoint themes from Microsoft can be customized.
 
     :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes."lightbox="../media/connections/edit-viva-home/vc3-themes.png":::
 
-> [!NOTE]
->
-> - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
-> - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
+    > [!NOTE]
+    >
+    > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+    > - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
 
-The home site color theme reflects automatically in the Viva Connections desktop experience.
+    The home site color theme reflects automatically in the Viva Connections desktop experience.
 
-> [!NOTE]
->
-> Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
->
-> :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply."lightbox="../media/connections/edit-viva-home/vc3-teams-chrome.png":::
+    > [!NOTE]
+    >
+    > Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+    >
+    > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply." lightbox="../media/connections/edit-viva-home/vc3-teams-chrome.png":::
 
 ## Customize the dashboard
 
