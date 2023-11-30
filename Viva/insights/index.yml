@@ -1,0 +1,37 @@
+### YamlMime:Hub
+
+title: Microsoft Viva Insights documentation # < 60 chars
+summary: Microsoft Viva Insights is part of Microsoft Viva, which is an employee experience platform built on Microsoft 365 that helps people and teams be their best from wherever they work. Microsoft Viva Insights identifies collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. The Viva Insights suite includes a Microsoft Teams app, web features, and advanced analysis tools that help people and businesses thrive with data-driven, privacy-protected insights, and recommendations to improve productivity and wellbeing. # < 160 chars
+brand: workplace-analytics
+
+metadata:
+  title: Viva Insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Viva Insights uses data from everyday work in Microsoft 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.collection: m365initiative-viva-insights 
+  ms.subservice: viva-insights 
+  search.appverid: 
+  - MET150 
+  ms.topic: hub-page # Required
+  author: zachminers #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-zachminers #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/06/2023 #Required; mm/dd/yyyy format.
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+  items:
+    - title: Setup
+      itemType: get-started # controls the icon image and super-title text
+      url: ./advanced/setup-maint/landing.yml
+    - title: Privacy and data protection
+      itemType: learn 
+      url: ./advanced/privacy/privacy.md
+    - title: Team insights
+      itemType: concept
+      url: ./org-team-insights/team-insights.md
+    - title: Organization insights
+      itemType: concept
+      url: ./org-team-insights/org-insights.md
+    - title: Advanced insights
+      itemType: concept
+      url: advanced/introduction-to-advanced-insights.md
