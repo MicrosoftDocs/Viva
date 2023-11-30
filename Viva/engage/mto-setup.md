@@ -22,9 +22,9 @@ search.appverid:
 
 # Set up Viva Engage as a multitenant organization
 
-Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate across tenants as a unified network. Multitenant organization enables your organzation to form a tenant group which enables cross-tenant engagement. [Learn more about multitenant organizations] (/entra/identity/multi-tenant-organizations/).
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
-This document presents configuration tasks in the order they must be performed. Administrator role requirements are called out for each task. 
+This document presents configuration tasks in the order they must be performed. Administrator role requirements are called out for each task.
 
 > [!NOTE]
 > This experience is only available by cohort-based rollout.
@@ -35,7 +35,7 @@ This document presents configuration tasks in the order they must be performed. 
 
 Viva Engage uses a hub-and-spoke model to communicate across tenants. In this model, the designated "hub" is the central tenant that generates official communication to the other "spoke" tenants. Leaders, corporate communicators, and policy makers reside on the hub tenant.
 
-After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Instead of posting a message in multiple places, a leader can post a single announcement from the hub tenant to notify everyone across spoke tenants simultaneously. 
+After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Instead of posting a message in multiple places, a leader can notify everyone across the spoke tenants by posting a single announcement from the hub tenant.
 
 > [!NOTE]
 > Only Storyline and Leadership corner are available for multi-tenant organization.
