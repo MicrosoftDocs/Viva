@@ -150,9 +150,9 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 11. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
 
-> [!NOTE]
->
-> A future update is planned to make the News spotlight customizable.
+    > [!NOTE]
+    >
+    > A future update is planned to make the News spotlight customizable.
 
 12. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
 
