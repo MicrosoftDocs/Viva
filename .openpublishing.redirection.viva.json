@@ -845,6 +845,46 @@
         "redirect_url": "/previous-versions/viva/insights/use/viva-insights-intro",
         "redirect_document_id": false
       },
+         {
+        "source_path": "Viva/solutions/create-dataverse-permissions.md",
+        "redirect_url": "/previous-versions/viva/solutions/create-dataverse-permissions",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": "Viva/solutions/create-dataverse-tables.md",
+        "redirect_url": "/previous-versions/viva/solutions/create-dataverse-tables",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": "Viva/solutions/create-power-automate-flows-for-nudging.md",
+        "redirect_url": "/previous-versions/viva/solutions/create-power-automate-flows-for-nudging",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": "Viva/solutions/edit-data-create-cards-content.md",
+        "redirect_url": "/previous-versions/viva/solutions/edit-data-create-cards-content",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": "Viva/solutions/import-data-into-dataverse-tables.md",
+        "redirect_url": "/previous-versions/viva/solutions/import-data-into-dataverse-tables",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": "Viva/solutions/import-yume-application.md",
+        "redirect_url": "/previous-versions/viva/solutions/import-yume-application",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": Viva/solutions/prerequisities-for-yume.md",
+        "redirect_url": "/previous-versions/viva/solutions/prerequisities-for-yume",
+        "redirect_document_id": false
+      },
+     {
+        "source_path": Viva/solutions/yume.md",
+        "redirect_url": "/previous-versions/viva/solutions/yume",
+        "redirect_document_id": false
+      },
       {
         "source_path": "Viva/insights/use/wpa-notifications.md",
         "redirect_url": "/previous-versions/viva/insights/use/wpa-notifications",
