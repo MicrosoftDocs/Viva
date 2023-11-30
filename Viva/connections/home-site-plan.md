@@ -45,10 +45,10 @@ If you’ve already created the communication site and are ready to specify it a
 
 **Use a SharePoint home site to:**
 
-- Provide a gateway to other high-traffic portals
-- Connect people with an intranet-wide search experience
-- Showcase targeted news and content
-- Take advantage of the new people engagement tool, [Viva Connections](create-sharepoint-home-site-for-viva-connections.md)
+- Provide a gateway to other high-traffic portals.
+- Connect people with an intranet-wide search experience.
+- Showcase targeted news and content.
+- Take advantage of the new people engagement tool, [Viva Connections](create-sharepoint-home-site-for-viva-connections.md).
 
 |Example of a SharePoint home site:    |View in the SharePoint mobile app:   |
 |---------|---------|
@@ -74,7 +74,7 @@ SharePoint home sites allow users to search for content (such as sites, news, an
 
 ### Official source of organizational news  
 
-By default, a SharePoint home site is set as the organizational news source. News posts that are created from the SharePoint home site automatically become official organizational news and take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site)
+By default, a SharePoint home site is set as the organizational news source. News posts that are created from the SharePoint home site automatically become official organizational news and take priority on the [SharePoint start page](https://support.microsoft.com/office/discover-content-with-the-sharepoint-start-page-6b85097a-87e0-4611-a29a-dfd49b1a1220) and in the home section of the SharePoint mobile app. Administrators can [set sites as official organizations news sources in the admin center](/sharepoint/organization-news-site).
 
 ### Enable and customize global navigation in the SharePoint app bar
 
@@ -104,7 +104,7 @@ Before you get started planning and building your SharePoint home site, review b
 Since SharePoint home sites are the gateway to your intranet, you’ll want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your SharePoint communication site as a home site](/SharePoint/home-site) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
 
 Before you get started planning your SharePoint home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s SharePoint home site.
-<br>
+
 
 | Plan                  | Build                | Launch and manage          |
 | :------------------- | :------------------- |:----------------|
@@ -167,9 +167,8 @@ Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/micro
 ## Resources
 
 **Watch:** [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
-<br>
+
 [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites)
-<br>
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
