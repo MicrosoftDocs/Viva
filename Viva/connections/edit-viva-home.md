@@ -57,7 +57,7 @@ The Connections experience has been redesigned to highlight news across your org
 
 **Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) now has two areas:
 
-- The News spotlight displays updates from organizational news sites in a scrolling banner.
+- The News spotlight displays updates from the home site in a scrolling banner. A future update is planned to include updates from organizational news sites.
 - The Feed tab provides access to more content that offers a personalized feed based on post-level targeting of groups that an employee belongs to, more updates and other organizational news content.
 
 **Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
@@ -148,11 +148,11 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 10. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
 
-11. **News spotlight:** Content in the banner is dynamically displayed based on content from organizational news sites.
+11. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
 
-> [!NOTE]
->
-> A future update is planned to make the News spotlight customizable.
+    > [!NOTE]
+    >
+    > A future update is planned to make the News spotlight customizable.
 
 12. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
 
@@ -199,29 +199,30 @@ To apply a SharePoint or custom theme:
 
 1. Select the **ellipsis**, then select **Change the look**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-change-the-look.png" alt-text="Screenshot of the settings menu open with Change the look option highlighted."lightbox="../media/connections/edit-viva-home/vc3-change-the-look.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/vc3-change-the-look.png" alt-text="Screenshot of the settings menu open with Change the look option highlighted.":::
 
 2. Select **Theme**.
+
 3. Make a selection from the list of available themes.
     - Themes from your organization can't be customized.
     - SharePoint themes from Microsoft can be customized.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes."lightbox="../media/connections/edit-viva-home/vc3-themes.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
 
-> [!NOTE]
->
-> - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
-> - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
+    > [!NOTE]
+    >
+    > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+    > - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
 
-The home site color theme reflects automatically in the Viva Connections desktop experience.
+    The home site color theme reflects automatically in the Viva Connections desktop experience.
 
-> [!NOTE]
->
-> Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
->
-> :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply."lightbox="../media/connections/edit-viva-home/vc3-teams-chrome.png":::
+    > [!NOTE]
+    >
+    > Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+    >
+    > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 
 ## Customize the dashboard
 
@@ -247,10 +248,9 @@ Resources give access to the most popular portals and destinations at your organ
 > [!NOTE]
 >
 > - The update to the resource section is currently available to targeted release customers, with a planned roll out to all users by the end of Q1 2024.
->
-- Edits made to the Resource section won't reflect to the mobile experience at this time.
-- The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
-- Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and can't be edited.
+> - Edits made to the Resource section won't reflect to the mobile experience at this time.
+> - The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
+> - Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and can't be edited.
 
 **If you have a SharePoint home site:**
 If you have already set up navigational links in the [SharePoint global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time.
