@@ -112,8 +112,6 @@ After users get assigned licenses with an applicable service plan, they get acce
 
 The table above is not a complete list of Viva Insights features. Other cards might appear depending on your type of plan.
 
-> [!VIDEO https://www.microsoft.com/]
-
 ### Browser support
 
 You can use the following web browsers to view all web-based personal insights features.
