@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how Viva Learning handles customer-facing reports.
 ---
 

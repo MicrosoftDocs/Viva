@@ -71,7 +71,9 @@ items:
           - name: Organization insights
             href: org-team-insights/org-insights.md
           - name: Organization insights FAQ
-            href: org-team-insights/org-insights-faqs.md   
+            href: org-team-insights/org-insights-faqs.md
+          - name: Microsoft Copilot Dashboard (Preview)
+            href: org-team-insights/copilot-dashboard.md      
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
@@ -113,7 +115,7 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md        
+                href: advanced/analyst/cross-collaboration-g2g.md               
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -168,7 +170,3 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
-
-
-
- 

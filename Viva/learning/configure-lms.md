@@ -2,9 +2,9 @@
 title: Add learning management systems for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/01/2021
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure learning management systems as a learning content source for Microsoft Viva Learning.
 ---
 

@@ -2,9 +2,9 @@
 title: Configure EdCast as a content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/9/2022
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure EdCast as a learning content source for Microsoft Viva Learning.
 ROBOTS: NOINDEX, NOFOLLOW
 ---

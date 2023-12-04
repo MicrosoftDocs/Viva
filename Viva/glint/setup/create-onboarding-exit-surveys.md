@@ -56,4 +56,4 @@ Exit surveys are the first step to helping organizations understand why people l
 Consider that although an employee is no longer part of your team, they can still be a brand ambassador, singing your organization’s praises or tarnishing your reputation through negative feedback and reviews.  
 
 >[!TIP] 
-> Use the Viva Glint Exit template (with Employee Lifecycle surveys) to set up an ongoing program for employees that v
+> Use the Viva Glint Exit template (with Employee Lifecycle surveys) to set up an ongoing program for employees that leave your organization, for any reason.
