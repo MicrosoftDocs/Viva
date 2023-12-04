@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 11/21/2023
+ms.date: 12/04/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -46,7 +46,9 @@ You can use feature access management to manage access to the following features
 |App|Feature|Optional control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
 |Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
+||[Copilot Dashboard](/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
+|Skills|[Skill suggestions](https://go.microsoft.com/fwlink/?linkid=2252624)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
 
 
 \* Not yet available for all tenants. Support will be added soon.
@@ -101,7 +103,7 @@ Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefe
 
 Now that you have the **featureID**, use the [**Add-VivaModuleFeaturePolicy**](/powershell/module/exchange/add-vivamodulefeaturepolicy) PowerShell cmdlet to create an access policy for the feature.
 
-You can assign a maximum of 10 policies per feature to users and groups. Each policy can be assigned to a maximum of 20 users or groups. You can assign one additional policy per feature to the entire tenant by using the *-Everyone* parameter.
+You can assign a maximum of 10 policies per feature to users and groups. Each policy can be assigned to a maximum of 20 users or groups. You can assign one additional policy per feature to the entire tenant by using the *-Everyone* parameter, which will function as a global default state for that feature across your organization.
 
 Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
