@@ -43,9 +43,9 @@ You can manage your skills library in the following ways:
     
     b. Allow skills in Viva Learning
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
-      
-    > [!NOTE] 
-    > This action can't be reversed.  It can take up to three business days for changes to reflect in Viva Learning.  
+    
+  > [!NOTE]
+  > This action can't be reversed.  It can take up to three business days for changes to reflect in Viva Learning.  
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
 
