@@ -30,7 +30,7 @@ Once your General Settings are designated, they're valid for all your Viva Glint
 
 For each setting option, you'll see a short description so you can feel confident about the choices you make. There are seven sections which require input: 
 
-:::image type="content" source=".../.../media/glint/setup/general-settings-sections.png)>" alt-text="<Screenshot of the sections a Viva Glint admin can manage within the General Settings feature>":::
+:::image type="content" source=".../.../media/glint/setup/general-settings-sections.png" alt-text="Screenshot of the sections a Viva Glint admin can manage within the General Settings feature.":::
 
 - [Company information](#set-up-the-company-information-section) 
 - [Communications](#set-up-the-communications-section) 
