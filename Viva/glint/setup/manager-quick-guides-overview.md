@@ -1,6 +1,7 @@
 ---
 title: Viva Glint Manager Quick Guides
 description: Viva Glint Manager Quick Guides share high level information in easy-to-understand chunks.
+ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
