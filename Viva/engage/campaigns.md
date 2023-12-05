@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up and manage campaigns in Engage
+# Set up and manage campaigns in Viva Engage
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Only Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete *officia campaigns*. Community admins can create, manage, and delete [*community campaigns*](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). Official campaigns are available to the entire organization, whereas community campaigns are limited to the community’s membership.
 
