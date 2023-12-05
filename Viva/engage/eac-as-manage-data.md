@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 11/02/2023
+ms.date: 12/04/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -68,6 +68,7 @@ The data export contains the following files:
    | **request.txt** | Parameters of the export |
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
+   | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or groups.csv file, respectively.|
    | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
    | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name, and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](/rest/api/yammer/rest-api-rate-limits). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
