@@ -44,7 +44,7 @@ You can manage your skills library in the following ways:
     b. Allow skills in Viva Learning
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
       
-    > [!NOTE]: 
+    > [!NOTE] 
 > This action can't be reversed.  It can take up to two business days for changes to reflect in Viva Learning.  
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
@@ -98,7 +98,8 @@ View and manage the skills you selected from the default skills library in Viva.
 
 7. Select **Add** to immediately add the skills to your library.  
 
-  If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.  
+  > [!NOTE]
+  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.  
 
 8. Select **Done** to close the flyout.
 
@@ -116,11 +117,13 @@ View and manage the skills you selected from the default skills library in Viva.
 
 6. Select **Delete skills**. 
 
-7. Select Delete to confirm you want to delete the selected skills. 
+7. Select **Delete** to confirm you want to delete the selected skills. 
 
-    Deleting skills will immediately remove the skills and associated skills data from your organization and from your users’ experience.
+  > [!NOTE]
+  > Deleting skills will immediately remove the skills and associated skills data from your organization and from your users’ experience.
 
-    If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning
+  > [!NOTE]
+  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
 
 
 ## Manage custom skills import 
@@ -144,7 +147,7 @@ Manage your custom skills library and role-to-skills mapping import. If you didn
 
 Follow these steps to either import your custom skills library for the first time or to reimport with changes to your initial custom import.
 
-> [!NOTE]: 
+> [!NOTE]
 >  Reimporting custom skills library will override existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description will be treated as a deletion of the old skill and the addition of a new skill.
 
 1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
@@ -182,7 +185,7 @@ Follow these steps to either import your custom skills library for the first tim
     d. Select the copy button to copy the selected file’s path to the Clipboard. The File Path looks like: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
   
 9. Paste the file path into Skills custom import step  
-    a. Enter the file path details. Note “%20” replaced with a spaces and remove “/” from the end of each row:  
+    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row.
       - SharePoint site URL:  `https://contoso.sharepoint.com/TeamAdmin`
       -  Document library name: `Shared Documents/Folder Name` 
       - Skills library file path: `Skills Library.csv`
@@ -195,7 +198,10 @@ Follow these steps to either import your custom skills library for the first tim
 
 13. Select **Confirm** to import.  
 
-> [!NOTE]:  
+> [!NOTE]
+> If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
+
+> [!NOTE]
 > The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
@@ -216,6 +222,7 @@ Follow these steps to either import your custom skills library for the first tim
 
 5. Select **Export custom skills** to export your custom skills import files.  
 
+
 ### Delete custom skills 
 
 1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
@@ -232,4 +239,5 @@ Follow these steps to either import your custom skills library for the first tim
 
     Deleting custom skills will immediately remove all of these skills from your users’ experiences and will delete all data associated with those skills. 
     
-    If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning
+  > [!NOTE]
+  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.

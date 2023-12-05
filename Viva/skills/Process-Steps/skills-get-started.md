@@ -79,14 +79,14 @@ Choose whether you’d like to import your own custom skills library. This step 
 
 5. Paste the file path into Skills custom import step  
 
-    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row:  
+    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row.
       - SharePoint site URL: `https://contoso.sharepoint.com/TeamAdmin`
       - Document library name: `Shared Documents/Folder Name`
       - Skills library file path: [Skills Library.csv] 
 
 6. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
 
-> [!NOTE]:  
+> [!NOTE]
 > The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
@@ -108,7 +108,7 @@ Review your organization’s skills library details and select Next. The data in
 
 Settings for Skills in Viva allow you to manage the availability of skills in your organization. 
 
-> [!NOTE]:
+> [!NOTE]
 > While turning on the skills library for users is recommended at this step, it’s not required to complete Skills in Viva setup. You have the option to complete setup and create your skills library without making it available to users right away.  
 
 1. Select **Turn on skills library** to make skills available in supported Microsoft 365 and Viva experiences.  
@@ -121,7 +121,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
     a. This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
 
-> [!NOTE]: 
+> [!NOTE]
 > This action can't be reversed. It can take up to 2 business days for this change to reflect In Viva Learning.  
 
 3. Users receive **skill suggestions** relevant to their role on default.  
@@ -137,7 +137,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
     - Create a policy to disable skill suggestions for users or groups.  
     `Add-VivaModuleFeaturePolicy -ModuleId VivaSkills -FeatureId UserOptOutPreference -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso`
 
-This example adds a policy that disables skills suggestions for the specified users and group members. If you want to disable skills suggestions for all users, use the `-Everyone` parameter instead. 
+    This example adds a policy that disables skills suggestions for the specified users and group members. If you want to disable skills suggestions for all users, use the `-Everyone` parameter instead. 
 
 4. Select **Next**. 
 
