@@ -56,9 +56,9 @@ The chart tells us that:
 
 ** Additional Resources
 Refer to the following pages for additional guidance:
-**Microsoft Learn Documentation** 
+>**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy)
-**Microsoft Learn Training**
+>**Microsoft Learn Training**
 - [What are the basicws of how Viva Glint emphasizes confidentiality?](https://learn.microsoft.com/en-us/training/modules/viva-glint-learn-how-setup-viva-glint/4-what-basics-viva-glint-emphasizes-confidentiality?ns-enrollment-type=learningpath&ns-enrollment-id=learn.viva-glint-program-design-setup)
 - [What is Viva Glint confidentiality and how do I navigate the Viva Glint app?](https://learn.microsoft.com/en-us/training/modules/viva-glint-navigate-share-viva-glint-results/1-describe-confidentiality-navigate-viva-glint)
 
