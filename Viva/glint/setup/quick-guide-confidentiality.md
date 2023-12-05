@@ -2,6 +2,7 @@
 title: Manager Quick Guide - Confidentiality
 description: Suppression thresholds add a layer of protection to your peoples' privacy. Learn about data suppression and insufficient data suppression.
 author: JudyWeiner
+ms.author: JudithWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: insufficient responses, insufficient data, confidentiality
