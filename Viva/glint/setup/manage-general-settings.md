@@ -24,7 +24,7 @@ Details defining your Viva Glint programs are set up and viewed by selecting the
 
 :::image type="content" source=".../.../media/glint/setup/dashboard-general-settings.png>" alt-text="<Screenshot of General Settings on the Viva Glint admin dashboard>":::
 
-Once you have designated your General Settings, they're valid for all your Viva Glint programs until you edit them. 
+Once your General Settings are designated, they're valid for all your Viva Glint programs until you edit them. 
 
 ## Standard procedures for General Settings section setup 
 
@@ -53,13 +53,13 @@ This section provides high-level information about your company. Provide your:
 |**Client Name**    | *Or Doing Business As (DBA) name*   | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones is checked**.    | 
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
-|**Company Privacy Policy** | Add a link to your organization’s privacy policy to replace the Microsoft Privacy Statement. The privacy policy will be displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
+|**Company Privacy Policy** | Add a link to your organization’s privacy policy to replace the Microsoft Privacy Statement. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
 
 ## Set up the Communications section 
 
 Set up what your employees see when they open an email sharing information about a Viva Glint program.  
 
-Provide or edit the following: 
+Provide or edit the following fields: 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
