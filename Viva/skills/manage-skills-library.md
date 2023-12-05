@@ -36,13 +36,13 @@ You can manage your skills library in the following ways:
 
 4. Select **Skills library** in the Settings tab to view and manage availability of skills in your organization.  
 
-    a. Turn on skills library
+    1. Turn on skills library
         
       - Check Turn on skills library to make skills available to your organization’s supported applications and services across Microsoft 365 and Viva. Users have access to skills in supported experiences. 
       
       - Uncheck Turn on skills library to turn off skills in your organization. Users won't have access to skills.
     
-    b. Allow skills in Viva Learning
+    1. Allow skills in Viva Learning
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
     
    > [!NOTE]
@@ -50,9 +50,9 @@ You can manage your skills library in the following ways:
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
 
-    a. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
+    1. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
 
-    b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](../feature-access-management.md).
+    1. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](../feature-access-management.md).
     
     - Install Exchange Online PowerShell Version 3.2.0 or later:
     `Install-Module -Name ExchangeOnlineManagement`
@@ -163,30 +163,30 @@ Follow these steps to either import your custom skills library for the first tim
 
 6. Populate the templates with your skills data.  
 
-    a. Library template:  
+    1. Library template:  
 
       - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
       - Recommended fields: Skill Description (Description.en_US)  
 
-    b. Mapping template:  
+    1. Mapping template:  
       - Required fields: Job Title (JobTitle), Skill Name (SkillName)  
 
 7. Save as .csv file and upload to a SharePoint site. 
-    a. Open the SharePoint Site library  
-    b. Select Upload at the top of the documents library and select files.  
-    c. In the ‘Open’ dialog, navigate to the location where the .csv file is saved. Select the file and select open.  
-    d. File should be uploaded to the SharePoint site.  
-    e. Alternatively, you could use the drag and drop feature to upload files to your SharePoint site.  
+    1. Open the SharePoint Site library  
+    1. Select Upload at the top of the documents library and select files.  
+    1. In the ‘Open’ dialog, navigate to the location where the .csv file is saved. Select the file and select open.  
+    1. File should be uploaded to the SharePoint site.  
+    1. Alternatively, you could use the drag and drop feature to upload files to your SharePoint site.  
 
 8. Get the file path of the .csv files 
     
-    a. Select the file and select the ellipsis (…) button 
-    b. Choose ‘Details’ to open the pane.  
-    c. Scroll down the pane to find the ‘Path’ listed.  
-    d. Select the copy button to copy the selected file’s path to the Clipboard. The File Path looks like: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
+    1. Select the file and select the ellipsis (…) button 
+    1. Choose ‘Details’ to open the pane.  
+    1. Scroll down the pane to find the ‘Path’ listed.  
+    1. Select the copy button to copy the selected file’s path to the Clipboard. The File Path looks like: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
   
 9. Paste the file path into Skills custom import step  
-    a. Enter the file path details. Note "%20" should be replaced with a space. Remove "/" from the end of each row."
+    - Enter the file path details. Note "%20" should be replaced with a space. Remove "/" from the end of each row."
       - SharePoint site URL:  `https://contoso.sharepoint.com/TeamAdmin`
       -  Document library name: `Shared Documents/Folder Name` 
       - Skills library file path: `Skills Library.csv`
@@ -240,5 +240,5 @@ Follow these steps to either import your custom skills library for the first tim
 
     Deleting custom skills will immediately remove all of these skills from your users’ experiences and will delete all data associated with those skills. 
     
-  > [!NOTE]
-  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
+> [!NOTE]
+> If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
