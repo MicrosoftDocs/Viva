@@ -20,20 +20,23 @@ search.appverid:
 - MET150
 ---
 
-# Set up and manage campaigns in Viva Engage
+# Set up and manage official campaigns in Viva Engage
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging.
-Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership.
 
-Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete official campaigns. They can also view the campaign landing page and analytics from the campaign management dashboard. Unlicensed admins can only access the campaign management dashboard to delete campaigns.
+Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
 
-Community admins can [create, manage, and delete community campaigns](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
+Use this article to create, manage, and delete official campaigns. You must have Microsoft 365 Global admin, Engage admin, or corporate communicator permissions to do this.
 
 >[!NOTE]
 >Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
 
-## Set up a campaign
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+## Access the campaign dashboard
+
+>[!NOTE]
+>Unlicensed admins can only access the campaign management dashboard to delete campaigns.
+
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -43,16 +46,16 @@ Select **Campaigns** on the **Feature management** tab to access the campaign 
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns or access campaign analytics for better understanding of the campaigns' performance and engagement.
 
-## Create and publish a campaign
+## Create and publish an official campaign
 
 1. Select **Create campaign** in the upper-right corner of the campaign dashboard.
-1. Fill in the fields according to your campaign goals. 
-    - **Campaign hashtag** is a required field. The campaign hashtag is the campaign name and appears on the campaign landing page. 
+1. Fill in the fields according to your campaign goals.
+    - **Campaign hashtag** is a required field. The campaign hashtag is the campaign name and appears on the campaign landing page.
     - **Default publisher** is the post type (discussion, question, poll, or praise) the publisher defaults to when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
     - **Theme color** lets you customize the color of the campaign hashtag.  
-    - Add co-organizers to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
+    - **Add co-organizers** to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
 
-1. Select **Confirm** when your campaign is ready to enter the draft state.
+1. Select **Confirm** to save your changes. The campaign is in draft state until you publish.
 
 1. To make a campaign active and available to the organization, select the ellipses button on the campaign management dashboard, and select **Publish campaign**.
 
