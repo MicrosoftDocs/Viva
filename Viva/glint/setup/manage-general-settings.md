@@ -1,9 +1,9 @@
 ---
 title: Admin management of the General Settings feature in Viva Glint 
-description: "Global details supporting all of your programs are defined and managed in this feature."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+description: Global details supporting all of your programs are defined and managed in this feature.
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -20,13 +20,17 @@ ms.date: 04/28/2023
 
 # Admin management of the General Settings feature in Viva Glint 
 
-Details defining your Viva Glint programs are set up and viewed by selecting the **configuration** symbol on your Microsoft Viva Glint admin dashboard and then **General Settings** in the *Client Settings* section.  
+Details defining your Viva Glint programs are set up and viewed by selecting the **configuration** symbol on your Microsoft Viva Glint admin dashboard and then **General Settings** in the *Service Configuration* section.  
+
+:::image type="content" source=".../.../media/glint/setup/dashboard-general-settings.png>" alt-text="<Screenshot of General Settings on the Viva Glint admin dashboard>":::
 
 Once you have designated your General Settings, they're valid for all your Viva Glint programs until you edit them. 
 
 ## Standard procedures for General Settings section setup 
 
 For each setting option, you'll see a short description so you can feel confident about the choices you make. There are seven sections which require input: 
+
+:::image type="content" source=".../.../media/glint/setup/general-settings-sections.png)>" alt-text="<Screenshot of the sections a Viva Glint admin can manage within the General Settings feature>":::
 
 - [Company information](#set-up-the-company-information-section) 
 - [Communications](#set-up-the-communications-section) 
