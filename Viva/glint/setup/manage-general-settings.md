@@ -22,7 +22,7 @@ ms.date: 04/28/2023
 
 Details defining your Viva Glint programs are set up and viewed by selecting the **configuration** symbol on your Microsoft Viva Glint admin dashboard and then **General Settings** in the *Service Configuration* section.  
 
-:::image type="content" source=".../.../media/glint/setup/dashboard-general-settings.png" alt-text="Screenshot of General Settings on the Viva Glint admin dashboard":::
+:::image type="content" source=".../.../media/glint/setup/dashboard-general-settings.png" alt-text="Screenshot of General Settings on the Viva Glint admin dashboard.":::
 
 Once your General Settings are designated, they're valid for all your Viva Glint programs until you edit them. 
 
