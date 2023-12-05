@@ -27,7 +27,7 @@ Viva Engage offers two types of campaigns: *Official* campaigns, which are avail
 
 Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete official campaigns. They can also view the campaign landing page and analytics from the campaign management dashboard. Unlicensed admins can only access the campaign management dashboard to delete campaigns.
 
-Community admins can create, manage, and delete [*community campaigns*](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8).
+Community admins can [create, manage, and delete community campaigns](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
 
 >[!NOTE]
 >Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
