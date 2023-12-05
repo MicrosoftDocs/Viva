@@ -20,8 +20,7 @@ description: An introduction to setting up Skills in Viva,
 
 # Set up skills in Viva 
 
-Set up skills in Viva to choose skills you'd like from the default skills library in Viva and import your own from your custom skills library.
-
+Start setting up Skills in Viva by building your skills library with skills from the default skills library in Viva and/or importing your own custom skills. 
 ## Get started
 
 1. In the Microsoft 365 admin center, select **Settings** and then select Viva.  
@@ -79,7 +78,7 @@ Choose whether you’d like to import your own custom skills library. This step 
 
 5. Paste the file path into Skills custom import step  
 
-    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row.
+    a. Enter the file path details. Note "%20" should be replaced with a space. Remove "/" from the end of each row."
       - SharePoint site URL: `https://contoso.sharepoint.com/TeamAdmin`
       - Document library name: `Shared Documents/Folder Name`
       - Skills library file path: [Skills Library.csv] 
@@ -122,7 +121,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
     a. This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
 
   > [!NOTE]
-  > This action can't be reversed. It can take up to 2 business days for this change to reflect In Viva Learning.  
+  > This action can't be reversed. It can take up to three business days for this change to reflect In Viva Learning.  
 
 3. Users receive **skill suggestions** relevant to their role on default.  
 

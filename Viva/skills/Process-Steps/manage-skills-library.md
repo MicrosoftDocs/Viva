@@ -45,7 +45,7 @@ You can manage your skills library in the following ways:
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
       
     > [!NOTE] 
-    > This action can't be reversed.  It can take up to two business days for changes to reflect in Viva Learning.  
+    > This action can't be reversed.  It can take up to three business days for changes to reflect in Viva Learning.  
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
 
@@ -185,7 +185,7 @@ Follow these steps to either import your custom skills library for the first tim
     d. Select the copy button to copy the selected file’s path to the Clipboard. The File Path looks like: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
   
 9. Paste the file path into Skills custom import step  
-    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row.
+    a. Enter the file path details. Note "%20" should be replaced with a space. Remove "/" from the end of each row."
       - SharePoint site URL:  `https://contoso.sharepoint.com/TeamAdmin`
       -  Document library name: `Shared Documents/Folder Name` 
       - Skills library file path: `Skills Library.csv`
