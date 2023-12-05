@@ -1,5 +1,5 @@
 ---
-title: Manager Quick Guide - Data suppression
+title: Manager Quick Guide - Confidentiality
 description: 
 author: JudyWeiner
 manager: MelissaBarry
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/05/2023
 ---
 
-# Manager Quick Guide - Data Suppression
+# Manager Quick Guide - Confidentiality
 Suppression thresholds add a layer of protection to your peoples' privacy. In some cases, even when the minimum response threshold is met, the ability to filter reporting by survey responder attributes and then compare those filtered results to nonfiltered results might allow a survey responder's identify to be inferred. 
 
 In these cases, responses are "suppressed" — not reported even if the minimum response threshold was met. The *suppression threshold* requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
