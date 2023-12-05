@@ -54,7 +54,7 @@ The chart tells us that:
 > [!NOTE]
 > Dave’s team score, even with two (2) respondents, won't be shown because it still doesn't meet the confidentiality threshold. 
 
-** Additional Resources
+## Additional Resources
 Refer to the following pages for additional guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy)
