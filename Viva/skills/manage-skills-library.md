@@ -36,13 +36,13 @@ You can manage your skills library in the following ways:
 
 4. Select **Skills library** in the Settings tab to view and manage availability of skills in your organization.  
 
-    1. Turn on skills library
+   1. Turn on skills library
         
       - Check Turn on skills library to make skills available to your organization’s supported applications and services across Microsoft 365 and Viva. Users have access to skills in supported experiences. 
       
       - Uncheck Turn on skills library to turn off skills in your organization. Users won't have access to skills.
     
-    1. Allow skills in Viva Learning
+   1. Allow skills in Viva Learning
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
     
    > [!NOTE]
@@ -54,14 +54,13 @@ You can manage your skills library in the following ways:
 
     1. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](../feature-access-management.md).
     
-    - Install Exchange Online PowerShell Version 3.2.0 or later:
-    `Install-Module -Name ExchangeOnlineManagement`
-    - Connect to Exchange Online with admin credentials:
-    `Connect-ExchangeOnline`
-    - Create a policy to disable skill suggestions for users or groups.  
-    `Add-VivaModuleFeaturePolicy -ModuleId VivaSkills -FeatureId UserOptOutPreference -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso`
+       - Install Exchange Online PowerShell Version 3.2.0 or later:<br/>`Install-Module -Name ExchangeOnlineManagement`
 
-        This example adds a policy that disables skills suggestions for the specified users and group members. If you want to disable skills suggestions for all users, use the `-Everyone` parameter instead. 
+       - Connect to Exchange Online with admin credentials:<br/>`Connect-ExchangeOnline`
+
+       - Create a policy to disable skill suggestions for users or groups.<br/> `Add-VivaModuleFeaturePolicy -ModuleId VivaSkills -FeatureId UserOptOutPreference -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso`
+
+       This example adds a policy that disables skills suggestions for the specified users and group members. If you want to disable skills suggestions for all users, use the `-Everyone` parameter instead. 
 
 ## Manage your organization’s skills library 
 
@@ -149,7 +148,7 @@ Manage your custom skills library and role-to-skills mapping import. If you didn
 Follow these steps to either import your custom skills library for the first time or to reimport with changes to your initial custom import.
 
 > [!NOTE]
->  Reimporting custom skills library will override existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description will be treated as a deletion of the old skill and the addition of a new skill.
+> Reimporting custom skills library will override existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description will be treated as a deletion of the old skill and the addition of a new skill.
 
 1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
 
@@ -163,12 +162,12 @@ Follow these steps to either import your custom skills library for the first tim
 
 6. Populate the templates with your skills data.  
 
-    1. Library template:  
+   1. Library template:  
 
       - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
       - Recommended fields: Skill Description (Description.en_US)  
 
-    1. Mapping template:  
+   1. Mapping template:  
       - Required fields: Job Title (JobTitle), Skill Name (SkillName)  
 
 7. Save as .csv file and upload to a SharePoint site. 

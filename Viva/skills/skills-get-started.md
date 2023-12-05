@@ -48,11 +48,11 @@ Choose whether you’d like to import your own custom skills library. This step 
 
 2. Populate the templates with your skills data.  
 
-    1. Library template:  
+   1. Library template:  
       - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
       - Recommended fields: Skill Description (Description.en_US)  
       
-    1. Mapping template:  
+   1. Mapping template:  
       - Required fields: Job Title (JobTitle), Skill Name (SkillName)  
 
 3. Save as .csv file and upload to a SharePoint site.  
@@ -119,10 +119,10 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
 2. For skills to appear in Viva Learning, you must also select to **Allow skills in Viva Learning**.  
 
-    - This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
+   - This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
 
-  > [!NOTE]
-  > This action can't be reversed. It can take up to three business days for this change to reflect In Viva Learning.  
+   > [!NOTE]
+   > This action can't be reversed. It can take up to three business days for this change to reflect In Viva Learning.  
 
 3. Users receive **skill suggestions** relevant to their role on default.  
 
