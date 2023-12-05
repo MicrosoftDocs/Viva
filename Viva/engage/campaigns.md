@@ -22,9 +22,12 @@ search.appverid:
 
 # Set up and manage campaigns in Viva Engage
 
-Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Only Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete *official campaigns*. Community admins can create, manage, and delete [*community campaigns*](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). Official campaigns are available to the entire organization, whereas community campaigns are limited to the community’s membership.
+Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging.
+Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership.
 
-Only licensed Engage, global, and network admins can create and view the campaign landing page and analytics from the campaign management dashboard. Unlicensed admins can only access the campaign management dashboard to delete campaigns created by licensed admins and corporate communicators.
+Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete official campaigns. They can also view the campaign landing page and analytics from the campaign management dashboard. Unlicensed admins can only access the campaign management dashboard to delete campaigns.
+
+Community admins can create, manage, and delete [*community campaigns*](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8).
 
 >[!NOTE]
 >Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
