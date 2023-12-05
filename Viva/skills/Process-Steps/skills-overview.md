@@ -20,18 +20,10 @@ description: An introduction to Skills in Viva,
 
 # Overview of Skills in Viva 
 
-Skills in Viva is an AI-powered service in the Microsoft Viva Suite that curates an employee’s skills profile to provide you with an improved understanding of your organization’s current workforce skills.
-These insights are generated from sources across Microsoft 365 and Viva applications, such as emails, documents, and meetings. 
+ Skills in Viva is an AI-powered service in the Microsoft Viva Suite that delivers personalized skills-based experiences throughout supported Microsoft 365 and Viva applications for employees, business leaders, and HR. 
 
-Skills in Viva uses this skill library to focus on:
+It leverages data from the [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) and skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to intelligently infer a user’s skills, provides skill suggestions to your users, and will give you a better understanding of your organization’s current workforce skills distribution. Read more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
 
--	strategic **workforce planning**
-
--	 **upskilling** and **reskilling**
-
--	**skills discovery** in the flow of work 
-
-- **skill suggestion** for users 
 
 
 Future releases plan to include other signals, like expertise in Viva Topics and data from human capital management systems. 
@@ -42,11 +34,11 @@ If you’d like to learn more or apply for the Skills in Viva preview, contact y
 
 To help ensure a productive private preview that enables Skills in Viva to meet and exceed your company's goals, the following are the requirements for private preview participation: 
 
-1. Private preview must be deployed on a production tenant where users are spending at least 80% of their time on e-mails, documents, and other Microsoft 365 and Viva applications. 
+1. Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
 
 2. More than 100 end users who are licensed for either Viva Suite or Viva Learning.  
 
-3. End users included in the Skills Private Preview program have Viva Learning deployed and available for use.
+3. End users included in the Skills private preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]:
 - > Private preview will be available in English language only. Default language for Viva Learning must also be English for this private preview 
