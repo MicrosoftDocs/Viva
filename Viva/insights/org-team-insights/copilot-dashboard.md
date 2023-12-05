@@ -1,7 +1,7 @@
 ---
 ms.date: 12/05/2023
 title: Connect to the Microsoft Copilot Dashboard (Preview)
-description: Explains how to set up and use the Microsoft Copilot Dashboard, including the update process and frequently asked questions.
+description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
@@ -103,9 +103,9 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
 1. Select the users from the list for whom you'd like to remove access.
 1. Select **Remove user**.
 
-:::image type="complex" source="images/Copilot Dashboard 04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/Copilot Dashboard 04.png":::
-Screenshot that shows how to remove users.
-:::image-end:::
+   :::image type="complex" source="images/Copilot Dashboard 04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/Copilot Dashboard 04.png":::
+   Screenshot that shows how to remove users.
+   :::image-end:::
 
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](/Viva/insights/advanced/setup-maint/setup-overview.md) (it is on by default).
