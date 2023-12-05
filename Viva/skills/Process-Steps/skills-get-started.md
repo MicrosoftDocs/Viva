@@ -18,8 +18,11 @@ localization_priority: medium
 description: An introduction to setting up Skills in Viva, 
 ---
 
-# Set up Skills in Viva 
+# Set up skills in Viva 
 
+Set up skills in Viva to choose skills you'd like from the default skills library in Viva and import your own from your custom skills library.
+
+## Get started
 
 1. In the Microsoft 365 admin center, select **Settings** and then select Viva.  
 
@@ -39,7 +42,7 @@ Choose the skills you’d like to use from the default skills library in Viva. T
 
 ## Import your custom skills library  
 
-Choose whether you’d like to import your own custom skills library. This step is optional, if you’ve selected skills from the default skills library in Viva.  
+Choose whether you’d like to import your own custom skills library. This step is optional if you’ve selected skills from the default skills library in Viva.  
 
 1. Select **Download library template** and **Download mapping template**. 
 
@@ -76,7 +79,7 @@ Choose whether you’d like to import your own custom skills library. This step 
 
 5. Paste the file path into Skills custom import step  
 
-    a. Enter the file path details. Note “%20” replaced with spaces and remove “/” from end of each row:  
+    a. Enter the file path details. Note “%20” replaced with a space and remove “/” from the end of each row:  
       - SharePoint site URL: `https://contoso.sharepoint.com/TeamAdmin`
       - Document library name: `Shared Documents/Folder Name`
       - Skills library file path: [Skills Library.csv] 
@@ -84,15 +87,14 @@ Choose whether you’d like to import your own custom skills library. This step 
 6. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
 
 > [!NOTE]:  
-> - Minimum of 20 skills required to upload  
+> The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
+> - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
+> - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
-> - JobTitle should match user profile job titles in AAD or Microsoft 365 Organizational Data Upload (see more information). The mMore accurately a title reflects a person's job, the more accurate skill suggestions will be 
-> - Character limitations 
-> - Maximum file size  
-> - Admin must have permissions to view and edit the uploaded templates in SharePoint 
-> - Make sure to delete / and spaces from file path fields
+> - When providing import file path and folders, make sure to replace “%20” with a space and delete the “/” from the end of each input.  
+> - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
 
-### Review your organization's skills library
+## Review your organization's skills library
 
 Review your organization’s skills library details and select Next. The data includes:  
 
@@ -102,16 +104,16 @@ Review your organization’s skills library details and select Next. The data in
 
   - The number of duplicate skills identified in your selection.  In the case of duplicates, your organization’s custom data is prioritized and used over data from the default skills library in Viva.
 
-### Manage settings 
+## Manage settings 
 
 Settings for Skills in Viva allow you to manage the availability of skills in your organization. 
 
 > [!NOTE]:
-> While it's recommended to turn on the skills library for users at this step, this step is optional and it’s not required to complete set up Skills in Viva. You can still complete the setup process and create your skills library without making it available to users.  
+> While turning on the skills library for users is recommended at this step, it’s not required to complete Skills in Viva setup. You have the option to complete setup and create your skills library without making it available to users right away.  
 
 1. Select **Turn on skills library** to make skills available in supported Microsoft 365 and Viva experiences.  
 
-    a. If you turn on the skills library, once the setup process is complete and you have confirmed your selections, your skills library is created and users are able to begin identifying their skills profile immediately.  
+    a. If you turn on the skills library, once the setup process is complete and you have confirmed your selections, your skills library is created and users are able to being searching for and adding skills to their profiles within a matter of minutes.  
 
     b. If you don't turn on the skills library, your organization’s skills library will still be created upon completion of the wizard, but it will not be available to users in your organization until you choose to publish it from **Settings.**
 
@@ -120,7 +122,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
     a. This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
 
 > [!NOTE]: 
-> This action can't be reversed.  It can take up to seven days for changes to reflect in Viva Learning.  
+> This action can't be reversed. It can take up to 2 business days for this change to reflect In Viva Learning.  
 
 3. Users receive **skill suggestions** relevant to their role on default.  
 
@@ -129,9 +131,9 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
     b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](https://learn.microsoft.com/en-us/viva/feature-access-management).
     
     - Install Exchange Online PowerShell Version 3.2.0 or later:
-    (insert cmdlet snippet)  
+    `Install-Module -Name ExchangeOnlineManagement`  
     - Connect to Exchange Online with admin credentials: 
-    (insert cmdlet snippet)  
+    `Connect-ExchangeOnline`
     - Create a policy to disable skill suggestions for users or groups.  
     `Add-VivaModuleFeaturePolicy -ModuleId VivaSkills -FeatureId UserOptOutPreference -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso`
 
