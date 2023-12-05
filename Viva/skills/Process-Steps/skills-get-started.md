@@ -87,7 +87,7 @@ Choose whether you’d like to import your own custom skills library. This step 
 6. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
 
 > [!NOTE]
-> The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
+> - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
@@ -108,8 +108,8 @@ Review your organization’s skills library details and select Next. The data in
 
 Settings for Skills in Viva allow you to manage the availability of skills in your organization. 
 
-> [!NOTE]
-> While turning on the skills library for users is recommended at this step, it’s not required to complete Skills in Viva setup. You have the option to complete setup and create your skills library without making it available to users right away.  
+  > [!NOTE]
+  > While turning on the skills library for users is recommended at this step, it’s not required to complete Skills in Viva setup. You have the option to complete setup and create your skills library without making it available to users right away.  
 
 1. Select **Turn on skills library** to make skills available in supported Microsoft 365 and Viva experiences.  
 
@@ -121,8 +121,8 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
     a. This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.”
 
-> [!NOTE]
-> This action can't be reversed. It can take up to 2 business days for this change to reflect In Viva Learning.  
+  > [!NOTE]
+  > This action can't be reversed. It can take up to 2 business days for this change to reflect In Viva Learning.  
 
 3. Users receive **skill suggestions** relevant to their role on default.  
 

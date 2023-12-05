@@ -45,7 +45,7 @@ You can manage your skills library in the following ways:
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
       
     > [!NOTE] 
-> This action can't be reversed.  It can take up to two business days for changes to reflect in Viva Learning.  
+    > This action can't be reversed.  It can take up to two business days for changes to reflect in Viva Learning.  
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
 
@@ -202,7 +202,7 @@ Follow these steps to either import your custom skills library for the first tim
 > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
 
 > [!NOTE]
-> The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
+> - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  

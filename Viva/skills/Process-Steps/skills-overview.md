@@ -41,6 +41,7 @@ To help ensure a productive private preview that enables Skills in Viva to meet 
 3. End users included in the Skills private preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
+
 - > Private preview will be available in English language only. Default language for Viva Learning must also be English for this private preview 
 - > All users in your tenant will lose “Interests” they have selected in Viva Learning when you enable skills.  This action is not reversible. 
 
