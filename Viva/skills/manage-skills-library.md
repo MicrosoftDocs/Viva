@@ -45,8 +45,8 @@ You can manage your skills library in the following ways:
     b. Allow skills in Viva Learning
       - Check the box to replace “interests” in Viva Learning with skills. Any existing “interests” data is deleted, and users see this replaced with “skills.” 
     
-  > [!NOTE]
-  > This action can't be reversed.  It can take up to three business days for changes to reflect in Viva Learning.  
+   > [!NOTE]
+   > This action can't be reversed.  It can take up to three business days for changes to reflect in Viva Learning.  
 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role on default.  
 
@@ -99,8 +99,8 @@ View and manage the skills you selected from the default skills library in Viva.
 
 7. Select **Add** to immediately add the skills to your library.  
 
-  > [!NOTE]
-  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.  
+   > [!NOTE]
+   > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.  
 
 8. Select **Done** to close the flyout.
 
@@ -120,11 +120,11 @@ View and manage the skills you selected from the default skills library in Viva.
 
 7. Select **Delete** to confirm you want to delete the selected skills. 
 
-  > [!NOTE]
-  > Deleting skills will immediately remove the skills and associated skills data from your organization and from your users’ experience.
+   > [!NOTE]
+   > Deleting skills will immediately remove the skills and associated skills data from your organization and from your users’ experience.
 
-  > [!NOTE]
-  > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
+> [!NOTE]
+> If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
 
 
 ## Manage custom skills import 
