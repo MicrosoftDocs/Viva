@@ -52,7 +52,7 @@ You can manage your skills library in the following ways:
 
     a. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
 
-    b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](https://learn.microsoft.com/viva/feature-access-management).
+    b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](../feature-access-management).
     
     - Install Exchange Online PowerShell Version 3.2.0 or later:
     `Install-Module -Name ExchangeOnlineManagement`

@@ -22,7 +22,7 @@ description: An introduction to Skills in Viva,
 
  Skills in Viva is an AI-powered service in the Microsoft Viva Suite that delivers personalized skills-based experiences throughout supported Microsoft 365 and Viva applications for employees, business leaders, and HR. 
 
-It uses data from the [Microsoft Graph](https://learn.microsoft.com/graph/overview) and skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions, while providing you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
+It uses data from the [Microsoft Graph](../graph/overview.md) and skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions, while providing you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
 
 
 
@@ -47,7 +47,7 @@ To help ensure a productive private preview that enables Skills in Viva to meet 
 
 ## Admin roles 
 
-The following roles and permissions are required to set up Skills in Viva. Review the documentation for [assigning roles](https://learn.microsoft.com/entra/identity/role-based-access-control/manage-roles-portal)
+The following roles and permissions are required to set up Skills in Viva. Review the documentation for [assigning roles](../entra/identity/role-based-access-control/manage-roles-portal.md)
 
 
 | Roles |  Permissions | 
