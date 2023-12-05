@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: pamgreen
-ms.date: 09/08/2023
+ms.date: 12/04/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -22,15 +22,15 @@ search.appverid:
 
 # Set up and manage campaigns in Engage
 
-Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete campaigns.
+Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging. Only Microsoft 365 Global admins, Engage admins, and corporate communicators can create, manage, and delete *officia campaigns*. Community admins can create, manage, and delete [*community campaigns*](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). Official campaigns are available to the entire organization, whereas community campaigns are limited to the community’s membership.
 
-Creating and viewing the campaign landing page and analytics from the campaign management dashboard is only available to licensed admins. Unlicensed network, global, and engage admins can only access the campaign management dashboard and delete campaigns that were created by licensed admins or corporate communicators.
+Only licensed Engage, global, and network admins can create and view the campaign landing page and analytics from the campaign management dashboard. Unlicensed admins can only access the campaign management dashboard to delete campaigns created by licensed admins and corporate communicators.
 
 >[!NOTE]
->Campaigns are only available in Viva Engage premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
+>Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
 
 ## Set up a campaign
-In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
@@ -40,56 +40,36 @@ Select **Campaigns** on the **Feature management** tab to access the campaign 
 
 The campaign dashboard provides a list of active, ended, and draft campaigns created for the organization. From this page, you can create and edit campaigns or access campaign analytics for better understanding of the campaigns' performance and engagement.
 
-[![Screenshot of the Engage admin center entrypoint for managing Campaigns.](/viva/media/engage/admin/campaign-dashboard.png)](/viva/media/engage/admin/campaign-dashboard.png#lightbox)
-
-## Create a campaign
+## Create and publish a campaign
 
 1. Select **Create campaign** in the upper-right corner of the campaign dashboard.
 1. Fill in the fields according to your campaign goals. 
-    - **Campaign name** and **Campaign hashtag** are required fields. The campaign names only appear on the campaign management dashboard, and the campaign hashtag  appears on the campaign landing page.
+    - **Campaign hashtag** is a required field. The campaign hashtag is the campaign name and appears on the campaign landing page. 
     - **Default publisher** is the post type (discussion, question, poll, or praise) the publisher defaults to when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
-    - **Theme color** - Use this setting to customize the color of the campaign hashtag.  
+    - **Theme color** lets you customize the color of the campaign hashtag.  
+    - Add co-organizers to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
 
 1. Select **Confirm** when your campaign is ready to enter the draft state.
 
-Because campaign hashtags are used as the binding element for all campaign content, any posted content that contains the campaign hashtag is included on the campaign landing page and in campaign analytics.
+1. To make a campaign active and available to the organization, select the ellipses button on the campaign management dashboard, and select **Publish campaign**.
 
-[![Screenshot of the campaign creation modal for campaign managers.](/viva/media/engage/admin/campaign-creation-modal.png)](/viva/media/engage/admin/campaign-creation-modal.png#lightbox)
+The campaign landing page is visible to any Engage licensed user who selects a post or comment that has the verified campaign hashtag.
 
-## Corporate communicator privileges
+## End or delete a campaign
 
-Corporate communicators can perform the following functions to manage campaigns:
-- Publish campaigns as **Active** and visible to all users in the network
-- Set **Active** campaigns to **Ended** when a campaign is finished
-- Republish **Ended** campaigns as **Active** for reoccurring campaigns
-- Delete campaigns that aren't relevant or were made by mistake
-- Remove posts from the campaign landing page if they aren't relevant
-- Update certain assets on a campaign page such as:
-    - Goal tracker
-    - Cover photo
-    - Pinned posts
-    - Pinned resources and links
-    - Theme color of the campaign hashtag
-- View campaign analytics
-- Assign campaign co-organizers
-- Define leaders
+When a campaign ends, the follow button and default publisher on the campaign landing page are disabled. Users can still post in communities and storylines using the campaign hashtag, and those posts appear on the campaign landing page.
 
->[!NOTE]
-> The corporate communicator must manually update the goal tracker asset.
+1. In Viva Engage, select the ellipses icon and then select **Admin**.  
 
-## Publish or end a campaign
+1. From the Feature management tab, select **Campaigns**. 
 
-1. To publish a campaign, select the ellipses button on the campaign management dashboard or on the campaign landing page.
-2. Select **Publish campaign** to make the campaign **Active**.
+1. Select the campaign, and in the **Actions** column select the ellipses icon, and select **End campaign** or **Delete**.
+[![Screenshot of the analytics entrypoint at the top navigation of Engage.](/viva/media/engage/admin/analytics-navbar-icon.png)](/viva/media/engage/admin/analytics-navbar-icon.png#lightbox)
 
    [![Screenshot of the UI dropdown to publish and delete a campaign.](/viva/media/engage/admin/publish-campaign-button.png)](/viva/media/engage/admin/publish-campaign-button.png#lightbox)
 
-When a campaign is published, it becomes **Active** in the campaign management dashboard. The campaign landing page is visible to any Engage licensed user who selects a post or comment that has the verified campaign hashtag.
-
 > [!NOTE]
 > The three campaigns that appear in the **Top campaigns** module on the right side of your home page are ordered based on number of followers. When you follow a campaign, it's removed from **Top campaigns** and replaced by a new campaign.  
-
-When a campaign ends, the follow button and default publisher on the campaign landing page are disabled. But users can still post in communities and storylines using the campaign hashtag, and those posts  appear on the campaign landing page.
 
 ## Build campaign awareness  
 
@@ -102,7 +82,7 @@ Users can discover campaigns through posts that contain the campaign hashtag or 
    > To build campaign awareness and reach, campaign managers and leaders across the organization are encouraged to share as many posts as possible with the campaign hashtag to their storyline and in communities. You can also share the campaign link through posts, emails, and Microsoft Teams chats for users to easily access the campaign landing page.
 
 - **Campaigns modules**
-    - **Top campaigns** module: On the right side of the Home feed, users see a *Top campaigns module* that lists current campaigns to follow and participate in.
+    - **Top campaigns** module: On the right side of the Home feed, the *Top campaigns module* shows active campaigns with the highest number of followers.
     - **Followed campaigns** module: When a user follows a campaign, they see a *Followed campaigns* module on the right side of their storyline.
 
 ## Manage campaign analytics and engagement
@@ -123,11 +103,36 @@ Engage admin and corporate communicators have access to analytics that help moni
 
    [![Screenshot of the campaign analytics page for admins in Engage.](/viva/media/engage/admin/campaign-analytics.png)](/viva/media/engage/admin/campaign-analytics.png#lightbox)
 
-## Remove a post
+### Remove a post
 
 Corporate communicators and Engage admins can remove a post if it doesn't align with the purpose of the campaign. This action removes the post from the campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
 
 :::image type="content" alt-text="Screenshot of the post menu where you can find the Remove command." source="../media/engage/campaigns/remove-camp-post.png" lightbox="../media/engage/campaigns/remove-camp-post.png":::
+
+### Export campaign data
+
+Engage administrators can use a network data export to get a record of all campaigns in the network. The campaigns.csv file stores attributes, such as community and campaign IDs, for all campaigns created on the network. For more details, see [Export network data](/viva/engage/eac-as-manage-data/#export-tenant-data-by-date-range).
+
+### Corporate communicator privileges
+
+Corporate communicators can perform the following functions to manage campaigns:
+- Publish campaigns as **Active** and visible to all users in the network
+- Set **Active** campaigns to **Ended** when a campaign is finished
+- Republish **Ended** campaigns as **Active** for reoccurring campaigns
+- Delete campaigns that aren't relevant or were made by mistake
+- Remove posts from the campaign landing page if they aren't relevant
+- Update certain assets on a campaign page such as:
+    - Goal tracker
+    - Cover photo
+    - Pinned posts
+    - Pinned resources and links
+    - Theme color of the campaign hashtag
+- View campaign analytics
+- Assign campaign co-organizers
+- Define leaders
+
+>[!NOTE]
+> The corporate communicator must manually update the goal tracker asset.
 
 ## Frequently asked questions
 
