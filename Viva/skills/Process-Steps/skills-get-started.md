@@ -21,6 +21,7 @@ description: An introduction to setting up Skills in Viva,
 # Set up skills in Viva 
 
 Start setting up Skills in Viva by building your skills library with skills from the default skills library in Viva and/or importing your own custom skills. 
+
 ## Get started
 
 1. In the Microsoft 365 admin center, select **Settings** and then select Viva.  
@@ -127,7 +128,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
     a. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
 
-    b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](https://learn.microsoft.com/en-us/viva/feature-access-management).
+    b. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](https://learn.microsoft.com/viva/feature-access-management).
     
     - Install Exchange Online PowerShell Version 3.2.0 or later:
     `Install-Module -Name ExchangeOnlineManagement`  
@@ -148,3 +149,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
 3. Your skills library is created and your settings are saved.  You can now manage your library and settings on an ongoing basis.
 
+
+### Next Steps
+
+[Manage your skills library](manage-skills-library.md)

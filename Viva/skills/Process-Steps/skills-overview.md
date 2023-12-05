@@ -22,7 +22,7 @@ description: An introduction to Skills in Viva,
 
  Skills in Viva is an AI-powered service in the Microsoft Viva Suite that delivers personalized skills-based experiences throughout supported Microsoft 365 and Viva applications for employees, business leaders, and HR. 
 
-It uses data from the [Microsoft Graph](https://learn.microsoft.com/en-us/graph/overview) and skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions, while providing you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
+It uses data from the [Microsoft Graph](https://learn.microsoft.com/graph/overview) and skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions, while providing you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
 
 
 
@@ -47,7 +47,7 @@ To help ensure a productive private preview that enables Skills in Viva to meet 
 
 ## Admin roles 
 
-The following roles and permissions are required to set up Skills in Viva. Review the documentation for [assigning roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/manage-roles-portal)
+The following roles and permissions are required to set up Skills in Viva. Review the documentation for [assigning roles](https://learn.microsoft.com/entra/identity/role-based-access-control/manage-roles-portal)
 
 
 | Roles |  Permissions | 
@@ -55,3 +55,8 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 | Microsoft 365 Global Administrator | Microsoft 365 Global Administrator has global access to most management features and data across Microsoft online services. For Skills in Viva, the Microsoft 365 Global Administrator can configure and manage your organization’s skills library related settings from the Microsoft 365 admin center.| 
 | Knowledge Administrator | The Knowledge Administrator needs to be assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
 
+### Next steps
+
+[Set up skills in Viva](skills-get-started.md)
+
+[Manage your skills library](manage-skills-library.md)
