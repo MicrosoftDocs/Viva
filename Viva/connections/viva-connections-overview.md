@@ -58,6 +58,7 @@ Viva Connections is composed of three primary components - the feed, the dashboa
 >
 > - Components are expected to display slightly differently between desktop and mobile devices until Q2 of 2024.
 > - The Connections feed web part is planned to be depreciated in Q1 2024.
+> - The News spotlight currently only displays updates from the home site. A future update is planned to include updates from organizational news sites.
 
 | Component                  | Description                 |
 | :------------------- | :------------------- |
@@ -71,7 +72,8 @@ The News spotlight sits at the top of the Viva Connections experience and promot
 
 > [!NOTE]
 >
-> The new Feed experience is currently available to targeted release customers, with a planned roll out to all users by early Q1 2024.
+> - The new Feed experience is currently available to targeted release customers, with a planned roll out to all users by early Q1 2024.
+> - The News spotlight currently only displays updates from the home site. A future update is planned to include updates from organizational news sites.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-feed-banner.png" alt-text="Screenshot of the News spotlight at the top of the Viva Connections experience." lightbox="../media/connections/viva-connections-overview/vc3-feed-banner.png":::
 
