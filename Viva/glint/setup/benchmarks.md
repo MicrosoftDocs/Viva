@@ -1,9 +1,9 @@
 ---
 title: Use Viva Glint benchmarks  
 description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudyWeiner
+author: JudithWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -38,7 +38,10 @@ Download this People Science slide deck to view the following research:
    - Global benchmarks 
    - Industry benchmarks
    - Country benchmarks
-   - Nursing Excellence (Magnet) benchmarks 
+   - Nursing Excellence (Magnet) benchmarks
+
+> [IMPORTANT!]
+> Viva Glint does not share the names of customers included in benchmark research.
 
 ## Viva Glint’s cadence for benchmark updates 
 
