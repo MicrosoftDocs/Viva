@@ -28,7 +28,7 @@ For customers who are part of the preview, the dashboard is automatically availa
 
 Additionally, the dashboard is broadly available within Power BI, and the dashboard can be installed by admins.
 
-:::image type="complex" source="images/Copilot Dashboard 06.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/Copilot Dashboard 06.png":::
+:::image type="complex" source="images/copilot-dashboard-06.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dashboard-06.png":::
 Screenshot that shows the Copilot Dashboard.
 :::image-end:::
 
@@ -83,7 +83,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
 
 3. To see how many employees have automatic access, at the top, select **General**.
 
-   :::image type="complex" source="images/Copilot Dashboard 02B.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/Copilot Dashboard 02B.png":::
+   :::image type="complex" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
    Screenshot that shows how to view the number of employees with access.
    :::image-end:::
 
@@ -93,7 +93,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
-   :::image type="complex" source="images/Copilot Dashboard 03.png" alt-text="Screenshot that shows how to add new users." lightbox="images/Copilot Dashboard 03.png":::
+   :::image type="complex" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users." lightbox="images/copilot-dashboard-03.png":::
    Screenshot that shows how to add new users.
    :::image-end:::
 
@@ -103,7 +103,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
 1. Select the users from the list for whom you'd like to remove access.
 1. Select **Remove user**.
 
-   :::image type="complex" source="images/Copilot Dashboard 04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/Copilot Dashboard 04.png":::
+   :::image type="complex" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/copilot-dashboard-04.png":::
    Screenshot that shows how to remove users.
    :::image-end:::
 
