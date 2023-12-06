@@ -171,6 +171,9 @@ Screenshot that shows the readiness page in the Copilot Dashboard.
 
 1. Follow the guidelines on [this page](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to share the app with users in your organization.
 
+>[!Note]
+>Please be aware that after you connect your tenant's data to the dashboard, it will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards.
+
 ### Update the app
 
 Periodically you may receive update notifications from AppSource/Power BI about a new version of the app. After selecting the notification, select **Update the workspace and the app**. Then, select **Install**.
