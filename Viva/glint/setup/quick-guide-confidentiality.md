@@ -19,7 +19,7 @@ ms.date: 12/05/2023
 ---
 
 # Manager Quick Guide - Confidentiality
-Suppression thresholds add a layer of protection to your peoples' privacy. In some cases, even when the minimum response threshold is met, the ability to filter reporting by survey responder attributes and then compare those filtered results to nonfiltered results might allow a survey responder's identify to be inferred. 
+Suppression thresholds add a layer of protection to your peoples' privacy. In some cases, even when the **response threshold** is met, the ability to filter results by responder attributes and might allow a responder's identify to be inferred by comparing results. 
 
 In these cases, responses are "suppressed" — not reported even if the minimum response threshold was met. The *suppression threshold* requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
 
@@ -32,7 +32,7 @@ In these cases, responses are "suppressed" — not reported even if the minimum 
 
 **Viva Glint’s sets standard confidentiality thresholds** 
 - 5 respondents per reporting group to display scores 
-- 10 respondents per reporting group (not 10 comments) to display open- ended comments (if a manager’s team had 10 responses but only 1 comment, that comment will show) 
+- 10 respondents per reporting group (not 10 comments) to display open- ended comments (if a manager’s team had 10 responses but only 1 comment, that comment shows) 
 
 **The difference between insufficient data and suppressed data** 
 - A manager sees an insufficient data message if the number of respondents or total group size doesn’t meet the minimum threshold set. 
@@ -50,12 +50,12 @@ Michelle’s team has five (5) or more respondents, but their score is not displ
 
 The chart tells us that:
 - Dave’s team, with only one (1) respondent, is insufficient. It does not meet the minimum confidentiality threshold of five (5) required respondents, therefore, the score from Dave’s team is not displayed. 
-- Michelle’s team has the next smallest number of respondents, and her team has met the minimum threshold of five (5) required respondents. However, by displaying Michelle’s team’s score, it may become possible to deduce Dave’s team score using simple math. With calculation, the one respondent on Dave’s team can be discovered, breaching that individual respondent’s confidentiality. In turn, Michelle’s team scores will be suppressed and not visible. 
+- Michelle’s team has the next smallest number of respondents, and her team met the minimum threshold of five (5) required respondents. However, by displaying Michelle’s team’s score, it may become possible to deduce Dave’s team score using simple math. With calculation, the one respondent on Dave’s team can be discovered, breaching that individual respondent’s confidentiality. In turn, Michelle’s team scores are suppressed and not visible. 
 - If Dave’s team had two (2) respondents it would be difficult to calculate both individual scores, so Michelle’s team’s score would be displayed. 
 > [!NOTE]
 > Dave’s team score, even with two (2) respondents, won't be shown because it still doesn't meet the confidentiality threshold. 
 
-## Additional Resources
+## More Resources
 Refer to the following pages for additional guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](https://learn.microsoft.com/en-us/viva/glint/setup/viva-glint-survey-privacy)
