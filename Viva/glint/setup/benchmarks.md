@@ -1,8 +1,8 @@
 ---
 title: Use Viva Glint benchmarks  
 description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
-ms.author: JudyWeiner
-author: JudithWeiner
+ms.author: JudithWeiner
+author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
