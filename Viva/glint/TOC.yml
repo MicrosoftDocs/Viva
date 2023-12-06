@@ -122,7 +122,7 @@ items:
         href: setup/manager-quick-guides-overview.md
         items:
           - name: Manager Quick Guide for data confidentiality
-          - href: setup/quick-guide-confidentiality.md
+            href: setup/quick-guide-confidentiality.md
       - name: Use Viva Glint Best Practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
