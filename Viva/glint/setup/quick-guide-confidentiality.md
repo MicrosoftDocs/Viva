@@ -45,7 +45,7 @@ Michelle’s team has five (5) or more respondents, but their score is not displ
 |**Group**|**All**|**Amy's team**|**Mike's team**|**Michelle's team**|**Dave's team**|
 |:-------:|:-----:|:------------:|:-------------:|:-----------------:|:-------------:|
 |**Respondents**|23|10|7|5|1|
-|**Score**|73|76||76|~~76~~|?|
+|**Score**|73|76|76|~~76~~|?|
 |**Display Status**|Displayed|Displayed|Displayed|Suppressed|Insufficient|
 
 The chart tells us that:
