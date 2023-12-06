@@ -111,7 +111,7 @@ Engage admin and corporate communicators have access to analytics that help moni
 
 ### Remove a post
 
-Corporate communicators and Engage admins can remove a post if it doesn't align with the purpose of the official campaign. This action removes the post from the campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
+Corporate communicators and Engage admins can remove a post from an official campaign if it doesn't align with the campaign's purpose. This action removes the post from the official campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
 
 :::image type="content" alt-text="Screenshot of the post menu where you can find the Remove command." source="../media/engage/campaigns/remove-camp-post.png" lightbox="../media/engage/campaigns/remove-camp-post.png":::
 
@@ -144,7 +144,7 @@ Corporate communicators can perform the following functions to manage official c
 
 **Can I create a campaign for a hashtag that's already in use?** 
 
-If a hashtag is in use by another official campaign---even if that campaign has ended---the hashtag is unavailable for reuse. If a hashtag is in use by an unpublished campaign still in draft move, it is available. Any content created before a campaign becomes **Active** isn't included in views or analytics.
+If a hashtag is in use by another official campaign---even if that campaign has ended---the hashtag is unavailable for reuse. If the hashtag is in use by an unpublished campaign, it's available, but any content created before the campaign becomes **Active** isn't included in views or analytics.
 
 **How often are campaign analytics refreshed?**
 
