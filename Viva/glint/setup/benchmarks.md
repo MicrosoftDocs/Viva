@@ -48,7 +48,7 @@ Download this People Science slide deck to view the following research:
 Benchmarks represent a comprehensive and current set of norms that provide accurate and relevant comparisons for customers. Benchmarks are updated annually to reflect customer needs and emerging industry interests.  
 
    > [!NOTE]
-   >It is unnecessary to update benchmarks more frequently as scores rarely change more than a point or two between updates.
+   > It is unnecessary to update benchmarks more frequently as scores rarely change more than a point or two between updates.
 
 ## Considerations for choosing a benchmark 
 
@@ -59,21 +59,21 @@ Think about the following when choosing the list of benchmarks for your managers
 - Companies aspire to be among the top 20% in specific areas that are important to them. 
 
   > [!TIP]
-  >For large customers, we initially advise using a broad benchmark like our global benchmark, not one specific to an industry. Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful from a talent acquisition and retention perspective. Then, as customers continue to survey, comparisons of scores change over time (trend) and how groups compare within the organization may become more informative than benchmarks.
+  > For large customers, we initially advise using a broad benchmark like our global benchmark, not one specific to an industry. Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful from a talent acquisition and retention perspective. Then, as customers continue to survey, comparisons of scores change over time (trend) and how groups compare within the organization may become more informative than benchmarks.
 
 ## Considerations for updating benchmarks
 
 Updated benchmarks provide additional comparisons by standard segments, such as country or industry, and by added items that may be part of a customer’s survey feedback. Comparison trends provide valuable insights unavailable in Viva Glint benchmarks. For example, newly benchmarked diversity and inclusion items can help customers interpret the effectiveness of internal programs.
 
    > [!NOTE]
-   >Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It is beneficial to adopt the latest benchmark suite available, but a change in benchmark should be accompanied by a thorough internal communications approach.
+   > Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It is beneficial to adopt the latest benchmark suite available, but a change in benchmark should be accompanied by a thorough internal communications approach.
 
 ## Editing a survey item can disqualify it from a benchmark 
 
 Viva Glint has done extensive research to identify the most reliable and valid items linked to survey goals, and our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark. 
 
   > [!TIP]
-  >Ensure alignment to the standard Viva Glint item text so benchmarks are truly an apples-to-apples comparison. There may be cases where slight edits to wording can be accommodated without altering the meaning; in these cases, Viva Glint will be able to apply the item to benchmark data. In cases where text is altered to sufficiently alter the item's meaning, we do not recommend keeping the benchmark. Instead, treat it as a custom item. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
+  > Ensure alignment to the standard Viva Glint item text so benchmarks are truly an apples-to-apples comparison. There may be cases where slight edits to wording can be accommodated without altering the meaning; in these cases, Viva Glint will be able to apply the item to benchmark data. In cases where text is altered to sufficiently alter the item's meaning, we do not recommend keeping the benchmark. Instead, treat it as a custom item. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
 ### Examples of when to keep or discard the benchmark 
 
