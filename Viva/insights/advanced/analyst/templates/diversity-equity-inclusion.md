@@ -1,7 +1,7 @@
 ---
 ms.date: 12/12/2023
 title: Growth, inclusion and engagement Power BI report
-description: Estimate the impact Viva Insights can make in your organization
+description: Learn how to support, engage, and retain employees with the report. 
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
