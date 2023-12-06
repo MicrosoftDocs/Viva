@@ -90,7 +90,7 @@ This data export doesn't include:
 1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
 
-   :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
+   :::image type="content" alt-text="Screenshot of export options including date range and other filters." source="../media/engage/admin/eac-tenant-options.png" lightbox="../media/engage/admin/eac-tenant-options.png":::
 
    - **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
    - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
