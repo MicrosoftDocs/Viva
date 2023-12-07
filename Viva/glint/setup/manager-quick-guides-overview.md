@@ -22,10 +22,10 @@ ms.date: 12/05/2023
 
 Manager Quick Guides are easy to share within your teams, providing your managers and leaders with a high level understanding of important features within the Viva Glint platform.
 
-We are busy preparing them for our Viva Glint customers and will post them as they become available. Available-to-date:
+We are busy preparing them for our Viva Glint customers and will post them as they become available. **Available-to-date:**
 
-[**Manager Quick Guide to Confidentiality**](https://go.microsoft.com/fwlink/?linkid=2255446)
+## [**Manager Quick Guide to Confidentiality**](https://learn.microsoft.com/en-us/viva/glint/setup/quick-guide-confidentiality)
 > Suppression thresholds add a layer of protection to your peoples' privacy. In some cases, even when the response threshold is met, the ability to filter results by responder attributes and might allow a responder's identify to be inferred by comparing results. Use this guide to learn about how to protect your people's confidentiality.
 
-[**Manager Quick Guide to Interpretation**](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf)
+## [**Manager Quick Guide to Interpretation**](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf)
 > Use this guide to navigate the Viva Glint platform and interpret your survey results effectively
