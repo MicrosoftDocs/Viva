@@ -141,11 +141,6 @@
             "redirect_document_id": false
         },
 	    {
-            "source_path": "Viva/insights/manager-insights/index.yml",
-            "redirect_url": "/previous-versions/viva/insights/manager-insights/index.yml",
-            "redirect_document_id": false
-        },
-	    {
             "source_path": "Viva/insights/manager-insights/teams-app.md",
             "redirect_url": "/previous-versions/viva/insights/manager-insights/teams-app",
             "redirect_document_id": false
