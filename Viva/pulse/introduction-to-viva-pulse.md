@@ -20,8 +20,6 @@ search.appverid: MET150
 
 Microsoft Viva Pulse empowers leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
-
 ![Viva Pulse Homepage](../media/pulse/viva-pulse-homepage.png)
 
 ## Roles
