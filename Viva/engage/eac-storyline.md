@@ -84,9 +84,10 @@ Your changes should  take effect within minutes. However, backend membership cha
 > [!NOTE] 
 > Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
 
-### Configure a multi-tenant organization to use storylines
+### Configure a multitenant organization to use storyline
 
-When Viva Engage is configured for a multi-tenant organization, the option Multi-tenant Organizations (MTO) appears in the Advanced settings of the designated hub tenant. This option enables users in all configured spoke tenants to engage with storyline posts from the hub tenant. How the multitenant organization is configured in Microsoft Entra ID determines which users in each spoke tenant can participate. Learn more about [configuring multitenant organization in Viva Engage](/viva/engage/mto-setup.md).
+When Viva Engage is configured for a multitenant organization, the **Multi-tenant Organizations (MTO)** setting appears in the Manage storyline > Advanced settings of the designated hub tenant. This setting enables users in all configured spoke tenants to engage with storyline posts from the hub tenant.
+However, users in spoke tenants can participate only if the multitenant organization configuration in Microsoft Entra ID has given them access to storyline. Learn more about [configuring multitenant organization in Viva Engage](/viva/engage/mto-setup.md).
 
 ## Security and compliance
 
