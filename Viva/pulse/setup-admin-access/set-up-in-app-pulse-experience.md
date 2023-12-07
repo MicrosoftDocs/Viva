@@ -20,6 +20,8 @@ search.appverid: MET150
 
 The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
+
 ## Privacy and confidentiality
 
 As an admin, you can set privacy and confidentiality options for your organization. This includes setting the minimum number of responses required to see feedback, adding a custom privacy policy statement, and choosing to turn off the collection of user diagnostic data.
