@@ -49,7 +49,7 @@ For more information, see [SharePoint limits](/office365/servicedescriptions/sha
 > While either communication and teams sites can be used, we recommend using a communication site. 
 
 > [!NOTE]
-> If you are using a custom SharePoint Domain (for example, sp.contoso.com) raise a [**support ticket**](https://learn.microsoft.com/en-us/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed. 
+> If you are using a custom SharePoint Domain (for example, sp.contoso.com) raise a [**support ticket**](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed. 
 
 > [!NOTE]
 > Viva Learning ingests up to 1000 files as learning objects. A Viva Suite or Viva Learning license is required to ingest more than 1000 files as learning objects.
@@ -203,7 +203,7 @@ If a description column is already present, you can delete it and add a new one 
 1. Add the URLs for each item.
 1. To use images stored on public SharePoint sites, copy the path of the image under details.
 
-![A screenshot displaying how to open details for the file for images](../media/learning/config-sharepoint-sources-thumbnail-1.png)
+![A screenshot displaying how to open details for the file for images](../media/learning/sharepoint-config-sources-thumbnail-1.png)
 
 
 ![A screenshot displaying how to copy path for images.](../media/learning/sharepoint-config-sources-thumbnail-2.png)
@@ -218,7 +218,7 @@ If a description column is already present, you can delete it and add a new one 
 
 3. Name the column ContentLanguage 
 
-3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](https://learn.microsoft.com/en-us/viva/learning/viva-learning-supported-languages).
+3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva-learning-supported-languages).
 
 4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](/viva/learning/language-preferences).
 
