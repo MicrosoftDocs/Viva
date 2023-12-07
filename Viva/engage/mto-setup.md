@@ -35,7 +35,7 @@ Complete these tasks in the order they appear. Administrator role requirements v
 
 Viva Engage uses a hub-and-spoke model to communicate across tenants. In this model, the designated "hub" is the central tenant that generates official communication to the other "spoke" tenants. Leaders, corporate communicators, and policy makers reside on the hub tenant.
 
-After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Identified leaders have the ability notify everyone across the spoke tenants by posting a single announcement from their storyline.
+After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Identified leaders on the hub tenant have the ability notify everyone across the spoke tenants by posting a single announcement from their storyline.
 
 > [!NOTE]
 > Only Storyline and Leadership corner are available for multi-tenant organization.
