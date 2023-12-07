@@ -24,7 +24,7 @@ search.appverid:
 
 Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
-This document presents configuration tasks in the order they must be performed. Administrator role requirements are called out for each task.
+Complete tasks in the order they appear. Administrator role requirements are provided for each task.
 
 > [!NOTE]
 > This experience is only available by cohort-based rollout.
