@@ -78,6 +78,7 @@ Go to the Viva Learning admin tab and select **Reports**.
 | Metric | Description 
 |:-----|:----- |
 | Monthly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 30 days. |
+|Weekly Active Users | Total number of unique users who have launched the Viva Learning personal app in the last 7 days. |
 | Daily Active Users | Total number of unique users who have launched the Viva Learning personal app on that day. |
 | Monthly Engaged Users | Total number of unique users who have taken five or more intentional actions. The intentional actions are: Search, Bookmark, Share, Copy Link, Recommendation, Add to calendar, Interest selection, Ratings, and Playing content. | 
 |Engaged Quality Learners | Total number of unique users who have taken two or more elective(non-assigned) courses in a month. | 
