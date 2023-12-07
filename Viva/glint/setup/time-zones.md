@@ -27,7 +27,7 @@ Microsoft Viva Glint offers the ability to send survey invites, reminders, and o
 
 ## Set up a time zone attribute
 
-To successfully send communications in survey takers' time zones, provide their unique time zone during [attribute setup](https://learn.microsoft.com/viva/glint/setup/send-employee-attributes).
+To successfully send communications in survey takers' time zones, provide their unique time zone during [attribute setup](https:/../../glint/setup/send-employee-attributes).
  
 Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) to find valid time zone values. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
