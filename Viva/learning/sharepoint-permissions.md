@@ -75,7 +75,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
 ![Screenshot of the course catalog check permissions window with the option to check the name of the group](../media/learning/sharepoint-permissions-course-catalog-check-1.png)
 
-![Image of the course catalog check permission window with the user and group displayed below.](../media/learning/sharepoint-permissions-course-catalog-check-2.png)
+![Screenshot of the course catalog check permission window with the user and group displayed below.](../media/learning/sharepoint-permissions-course-catalog-check-2.png)
 
 ## Remove unintentionally surfaced content
 
