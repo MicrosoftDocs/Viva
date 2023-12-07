@@ -22,6 +22,9 @@ search.appverid:
 
 # Set up Viva Engage as a multitenant organization
 
+>[!IMPORTANT]
+>Multitenant organization is currently in PREVIEW. See the [Product Terms](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all) for legal terms that apply to Azure features that are in beta, preview, or otherwise not yet released into general availability.
+
 Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a tenant group in Microsoft 365 of trusted tenants in your organization, cross-tenant engagement is possible in Viva Engage. [Learn more about multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
 Complete these tasks in the order they appear. Administrator role requirements vary by task and are called out in each section.
