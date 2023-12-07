@@ -34,7 +34,7 @@ Use the Time Zone tab of the [Employee Attribute Template](https://www.microsoft
 > [!NOTE]
 > When a user has a blank or invalid time zone value in employee data, notifications send in the default time zone selected in General Settings.
 
-## Manage time zone optioins in General Settings
+## Manage time zone options in General Settings
 
 As a Viva Glint admin, select a default time zone and enable sending in users’ time zones in General Settings.
 
@@ -45,7 +45,7 @@ Set the default time zone in the **Company Information** section of **General Se
 > [!NOTE]
 > Employee Lifecycle survey invitations are triggered by events. These events send platform notifications at your Viva Glint default time zone.
 
-## Enable notifiation in user time zone
+## Enable notification in user time zone
 
 Set notifications to **send in users’ time zones** in the **Communication section** of **General Settings**, found on the admin dashboard from the configuration page, in the **Service Configuration** section. Toggle to **YES** to activate and then select **Save Changes**.
 
