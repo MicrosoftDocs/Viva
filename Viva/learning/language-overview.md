@@ -2,7 +2,7 @@
 title: Overview of language in Viva Language 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/08/2023
 audience: admin

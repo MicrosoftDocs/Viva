@@ -2,7 +2,7 @@
 title: Overview of Microsoft Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 ms.reviewer: smathurin
 ms.date: 11/28/2023
 audience: admin
