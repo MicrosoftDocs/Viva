@@ -54,7 +54,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Company Message to Survey Participants**|Enter guidance specific to your organization that will be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys.|
 
 > [!IMPORTANT]
-> Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../Viva/glint/setup/viva-glint-survey-privacy.md). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
+> Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
 
 ## Set up the Communications section
 
