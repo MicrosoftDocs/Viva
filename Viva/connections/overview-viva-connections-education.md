@@ -4,7 +4,7 @@ title: "Overview of Viva Connections for Education"
 ms.reviewer: jesegher
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
