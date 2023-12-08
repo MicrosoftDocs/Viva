@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 12/04/2023
+ms.date: 12/08/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,7 +13,6 @@ ms.service: viva
 ms.subservice: viva-suite
 ms.localizationpriority: medium
 ms.custom:
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
@@ -48,7 +47,7 @@ You can use feature access management to manage access to the following features
 |Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|Skill suggestions*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
 
 
 \* Not yet available for all tenants. Support will be added soon.
@@ -149,8 +148,6 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ## How access policies work in Viva
 
 Here's how access policies work in Viva:
-
-:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
 - If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
