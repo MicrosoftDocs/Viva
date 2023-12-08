@@ -2,7 +2,7 @@
 title: Manage SAP SuccessFactors permissions
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 02/26/2023
 audience: admin

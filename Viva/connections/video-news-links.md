@@ -4,7 +4,7 @@ title: "Embed Video news links in the Viva Connections Feed"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 recommendations: true
 audience: Admin
 f1.keywords:
