@@ -44,8 +44,7 @@ This section outlines admin actions and steps to export content metadata.
 
 ### Admin actions
 
-Admins and content owners (access set through Microsoft 365 groups) can export content metadata in a csv file for offline review/analysis of interest tags.  
-Admins can share this file with content owners for offline review and analysis of interest tags. They can then update the tags for content, which don't have tags or have inapplicable tags using the Viva Learning deep link in the exported file or by searching for the content in Viva Learning.
+Admins and content owners (access set through Microsoft 365 groups) can export content metadata to a CSV file and share it with content owners for offline review and analysis of interest tags. They can then update the tags for content, which don't have tags or have inapplicable tags using the Viva Learning deep link in the exported file or by searching for the content in Viva Learning.
 
 Admins and content owners can export content metadata in Viva Learning Admin by navigating to **Manage Content Metadata** and selecting **Bulk Export**.
 
