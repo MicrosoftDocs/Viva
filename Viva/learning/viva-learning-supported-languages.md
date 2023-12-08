@@ -1,10 +1,10 @@
 ---
 title: "Supported languages in Viva Learning"
 ms.reviewer:
-ms.date: 02/17/2022
+ms.date: 02/17/2023
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

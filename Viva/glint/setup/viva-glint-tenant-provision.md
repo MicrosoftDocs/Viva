@@ -14,17 +14,17 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 07/17/2023
 ---
 
 # Set up a Microsoft Viva Glint tenant
 
-To deploy apps that use the Microsoft platform for identity and access management, you first need access to an Azure Active Directory (Azure AD) *tenant*. In the Azure AD tenant, you'll register and manage your Viva Glint apps, configure their access to data and other web APIs, and enable features like Conditional Access. 
+To deploy apps that use the Microsoft platform for identity and access management, you first need access to a Microsoft Entra ID *tenant*. In the Microsoft Entra tenant, you'll register and manage your Viva Glint apps, configure their access to data and other web APIs, and enable features like Conditional Access. 
 
-A tenant represents an organization. It's a dedicated instance of the Azure AD tenant that an organization or app developer receives at the beginning of a relationship with Microsoft. 
+A tenant represents an organization. It's a dedicated instance of the Microsoft Entra tenant that an organization or app developer receives at the beginning of a relationship with Microsoft. 
 
-Each Azure AD tenant is distinct and separate from other Azure AD tenants. It has its own representation of work and school identities, consumer identities (if it's an Azure AD B2C tenant), and app registrations. An app registration inside your tenant can allow authentications only from accounts within your tenant or all tenants. 
+Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra tenants. It has its own representation of work and school identities, consumer identities (if it's an Azure AD B2C tenant), and app registrations. An app registration inside your tenant can allow authentications only from accounts within your tenant or all tenants. 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
 

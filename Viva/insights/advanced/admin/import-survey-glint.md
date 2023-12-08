@@ -2,8 +2,8 @@
 ROBOTS: NOINDEX, NOFOLLOW
 title: Import survey results from Glint
 description: Learn how to set up a connection between Glint and Viva Insights and import your data to the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: viva-insights-advanced

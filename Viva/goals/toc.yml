@@ -5,8 +5,6 @@ items:
       href: intro-to-ms-viva-goals.md
     - name: Get to know OKRs
       href: get-to-know-okrs.md
-    - name: Determine your rollout plan
-      href: determine-your-rollout-plan.md
   
     - name: Viva Goals trials
       items:
@@ -61,13 +59,11 @@ items:
       href: configure-okr-model.md
     - name: Managing Viva Goals members 
       href: managing-team-members.md
+    - name: Approval Workflow
+      href: approval-workflows.md  
 
-  - name: Team setup
-    items:
-    - name: Define your team
-      href: define-your-team.md
-    - name: Create and edit teams
-      href: create-and-edit-teams-and-subteams.md
+  - name: Create and edit teams
+    href: create-and-edit-teams-and-subteams.md
 
   - name: User setup
     items:
@@ -84,6 +80,8 @@ items:
       href: renaming-initiatives.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
+    - name: Share an Update via Goals broadcast
+      href: goals-broadcast.md
       
   - name: Integrations
     items: 
@@ -92,15 +90,15 @@ items:
     - name: Viva Goals integrations overview
       href: integrations-overview.md    
     
-    - name: MS Teams
+    - name: Microsoft Teams
       items:
-      - name: Collaborate with Viva Goals in MS Teams
+      - name: Use Viva Goals with Microsoft 365 apps
         href: ms-teams-integration.md
-      - name: Add the Viva Goals app to MS Teams
+      - name: Add the Viva Goals app to Microsoft Teams
         href: configure-ms-teams-integration.md
-      - name: Use Viva Goals in Microsoft Teams
-        href: use-ms-teams-integration.md
-      - name: Notifications in Microsoft Teams
+      - name: Link Previews in Microsoft Teams
+        href: ms-teams-link-preview.md
+      - name: Notifications in Teams
         href: ms-teams-notifications.md
       - name: Microsoft Teams extension
         href: ms-teams-messaging-extension.md
@@ -188,6 +186,18 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+- name: The OKR framework
+  items:
+  - name: Benefits of OKRs
+    href: benefits-of-okrs.md
+  - name: OKR superpowers
+    href: okr-superpowers.md
+  - name: Ensuring OKR program success
+    href: ensuring-okr-success.md
+  - name: Define your team
+    href: define-your-team.md
+  - name: Determine your rollout plan
+    href: determine-your-rollout-plan.md
        
  
  

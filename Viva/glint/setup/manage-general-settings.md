@@ -1,9 +1,9 @@
 ---
 title: Admin management of the General Settings feature in Viva Glint 
-description: "Global details supporting all of your programs are defined and managed in this feature."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+description: Global details supporting all of your programs are defined and managed in this feature.
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -14,15 +14,15 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/28/2023
 ---
 
 # Admin management of the General Settings feature in Viva Glint 
 
-Details defining your Viva Glint programs are set up and viewed by selecting the **configuration** symbol on your Microsoft Viva Glint admin dashboard and then **General Settings** in the *Client Settings* section.  
+Details defining your Viva Glint programs are set up and viewed by selecting the **configuration** symbol on your Microsoft Viva Glint admin dashboard and then **General Settings** in the *Service Configuration* section.  
 
-Once you have designated your General Settings, they're valid for all your Viva Glint programs until you edit them. 
+Once your General Settings are designated, they're valid for all your Viva Glint programs until you edit them. 
 
 ## Standard procedures for General Settings section setup 
 
@@ -34,36 +34,36 @@ For each setting option, you'll see a short description so you can feel confiden
 - [Engage Survey Details](#set-up-the-engage-survey-details-section) 
 - [Features](#set-up-the-features-section) 
 - [Technical Configuration](#set-up-the-technical-configuration-section) 
-- [Translations](#set-up-the-translations-section) 
+- [Localization](#set-up-the-localization-section)
 
 >[!NOTE]
-> Any changes you make in the General Settings will apply to all survey programs created in Viva Glint.
+> Any changes you make in the General Settings apply to all survey programs created in Viva Glint.
 
 ## Set up the Company Information section 
 
-This section provides high-level information about your company. Provide your:
+This section provides high-level information about your company. 
+Also, set up what your employees see when they open an email sharing information about a Viva Glint program.  
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
 |**Client UUID**   | How Viva Glint identifies your company in our system  |  
 |**Client Name**    | *Or Doing Business As (DBA) name*   | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones is checked**.    | 
-|**SharePoint Site Name**    | Data files can be dropped here or on the Viva Glint SFTP site.    | 
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
-|**Configure.clientSettings.privacyUrl.fieldName**    | | 
+|**Company Privacy Policy** | Add a link to your organization’s privacy policy to replace the Microsoft Privacy Statement. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
+|**Company Message to Survey Participants**|Enter guidance specific to your organization that will be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys.|
 
-## Set up the Communications section 
+> [!IMPORTANT]
+> Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
 
-Set up what your employees see when they open an email sharing information about a Viva Glint program.  
+## Set up the Communications section
 
-Provide or edit the following: 
+Provide or edit the following fields: 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Email Sender Name**   | The default name displayed in emails  |  
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
-|**No-Reply Email Address**    | Your company’s specific no-reply email address if any     | 
 |**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date | 
 
 ## Set up the Reporting section 
@@ -77,9 +77,8 @@ Provide or edit the following:
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Attributes for Insights & Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails)   |
-|**Default Comparison**   | Your preferred default comparison statistic. If left empty, it will default to Benchmark.   |
-|**Benchmark Suite**   | The comparison benchmark chosen for your platform    |
+|**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails)   |
+|**Default Comparison**   | Your preferred default comparison statistic. If left empty, it defaults to Benchmark.   |
 |**Internal Benchmarks**   | Viva Glint’s three internal default benchmarks that cannot be removed. Up to ten more may be added     |
 |**Comments Privacy: Minimum # of Responders for Search Results**   | Minimum number of responses to a survey before comments are viewable and searchable | 
 |**Comments Privacy: Minimum # of Responders for Facet/Grouping**   | Minimum number of responses to a survey before comments are available for specific groupings  | 
@@ -95,25 +94,22 @@ Provide or edit the following:
 |**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint’s best practice is to use a 5-point scale | 
 |**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Viva Glint Suppression Threshold default is two (2) but depends upon the confidentiality threshold.  |  
 |**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles   |   
-|**Dashboard in-Product Feedback**   | An in-product feedback form available for some users |
 
 ## Set up the Engage Survey Details section 
 
-Choose your survey access method:
+Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238341).
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Send SSO Link in Survey Emails**   | Sends an SSO link for survey users to enter the survey   | 
-|**Enable Generic Survey Login page**   | Enables or disables the generic sign-in site    |  
-|**Attributes for Generic Survey Login page**   | Choose the attributes employees will use to authenticate themselves for survey access     |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this off, a personalized survey link will be sent to participants.   | 
+|**Attribute-based Survey Access**   | Participants will be able to retrieve survey links by entering attributes. This will not authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
 
 ## Set up the Features section 
 
-In this section you will:  
+In this section:  
 
 - Enable or disable program templates and Focus Area visibility and privacy settings. 
 - Set limits for the number of survey cycles that will show on a dashboard.  
-- Set maximum participation numbers for programs. 
   
 Edit the following: 
 
@@ -121,23 +117,21 @@ Edit the following:
 |-----------|-----------|
 |**Available Survey Questions and Program Templates**   |Deselect any program types that you won’t be using to delete their items from your platform. You can edit this at any time.    |   
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys   |  
-|**Default Goal Privacy**   |Choose the visibility/privacy setting for users creating a new goal  |
-|**Maximum Number of Pulse Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that will show on the dashboard and in reporting.    |
+|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area  |
+|**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that will show on the dashboard and in reporting.    |
 
 ## Set up the Technical Configuration section 
 
-In this section you will make selections that help determine how users access their dashboard by enabling and choosing from: 
+In this section, make selections for your Viva Glint technical setup:
 
 - Username and password for SSO users 
 - Employee ID 
-- SFTP IP addresses 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Unique Employee ID**   |Select "View Only" to remove all users' ability to edit or set up new Viva Glint surveys, "View and Edit" to allow only edits to existing surveys, and "View and Create" to allow full survey edits and set up abilities    |
-|**SFTP IP Addresses**   |Viva Glint will verify all public IP addresses that connect to your SFTP account     |
+|**Attribute for SSO Authentication** |Configure the unique Employee ID. The email has been set as the default employee ID. |
 
-## Set up the Translations section 
+## Set up the Localization section 
 
 English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 

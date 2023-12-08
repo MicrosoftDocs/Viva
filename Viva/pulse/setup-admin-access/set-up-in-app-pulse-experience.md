@@ -20,6 +20,8 @@ search.appverid: MET150
 
 The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
+
 ## Privacy and confidentiality
 
 As an admin, you can set privacy and confidentiality options for your organization. This includes setting the minimum number of responses required to see feedback, adding a custom privacy policy statement, and choosing to turn off the collection of user diagnostic data.
@@ -56,11 +58,23 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 
 ## Customization
 
+### Customize Pulses
+
 Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions. To make any customization configurations:
 
 1. In the **Manage** tab, go to the **Customization** tab.
 2. To turn off or turn on customization, use the toggles associated with **Stock Questions** and **New Questions**.
 3. The update is autosaved.
+
+### Customize your organization’s policy statement
+
+As an admin, you can also set customization options for your organization. This includes an option to add a link to internal guidance and policies governing appropriate survey questions, which will be shown to users during survey creation.
+
+You can use this link to remind employees of internal policies and guidelines for writing survey questions within your organization. When the feedback author clicks on the link while customizing a survey, they are taken to your company’s internal policy.
+
+1. In the **Manage** tab, go to the **Customization** tab.
+2. Under the **Customized organizational policy statement** section, in the text box labeled **Link to organization’s policy statement**, type or paste a link to your company’s internal policy statement to be shown in the customization flow in place of the Microsoft policy statement.
+3. The value is autosaved.
 
 ## Notifications
 
@@ -68,6 +82,14 @@ An employee’s ability to manage their email notifications preferences is defau
 
 1. In the **Manage** tab, navigate to the **Notifications** tab.
 2. To turn on or turn off email notification preferences, use the toggle associated with **Allow users to opt out of emails**.
+3. The update is autosaved.
+
+## Viva resources
+
+Viva Pulse reports show recommended learning content for users to learn more about specific Pulse topics. These learning resources are sourced from LinkedIn Learning and can be viewed in the Viva Learning app. If your users are not subscribed to LinkedIn Learning or do not use Viva Learning, they will not be able to access those resources, even though the resources are shown. For example, a learning video might be displayed, but it will not play for those users. In this case, you may want to disable the display of these learning resources. To make any learning resource configurations:
+
+1. In the **Manage** tab, navigate to the **Viva Resources** tab.
+2. To turn on or turn off Viva Learning videos, use the toggle associated with **Viva Learning**.
 3. The update is autosaved.
 
 ## Delete user data
@@ -78,6 +100,6 @@ As an admin, you can delete a user’s past Pulse requests and responses on the 
 2. Search for the user that requested their data be deleted by using the search bar and select that user in the populated options.
 3. Select **Delete user data**.
 4. Select **Delete user data** again in the confirmation box.
-5. You will see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
-6. Once the deletion is successful, the status of the deletion will change to **‘Deleted’**.
-7. If the deletion was unsuccessful, then the status of the deletion will change to **‘Not Deleted’**. In this instance, please try the deletion again.
+5. You see a status message in the deletion log that says **‘Pending’**. Deletions can take up to a few minutes.
+6. Once the deletion is successful, the status of the deletion changes to **‘Deleted’**.
+7. If the deletion was unsuccessful, then the status of the deletion changes to **‘Not Deleted’**. In this instance, please try the deletion again.

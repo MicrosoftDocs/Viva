@@ -2,7 +2,7 @@
 title: Search preferences in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/21/2023
 audience: admin
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Manage your search settings in Viva Learning for users.
 ---
 
@@ -22,8 +22,6 @@ description: Manage your search settings in Viva Learning for users.
 
 Learning admins and knowledge admins with Viva Learning premium licenses can set search preference settings for a customized content experience for users in their organization. 
 
-> [!NOTE]
-> Search preference setting is under private preview. Please check with your support executive to participate in the private preview.
 
 ## Prioritize content by provider
 

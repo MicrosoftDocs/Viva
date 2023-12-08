@@ -10,7 +10,8 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom:
 ms.collection:
   - M365initiative-viva
@@ -49,7 +50,7 @@ After you’ve got the right licensing in place, review additional requirements 
 |![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> **Viva Goals** | No technical requirements besides licensing |
 |:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> **Viva Insights** | No technical requirements besides licensing for personal and team insights |
 |:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br> **Viva Learning** | - A Microsoft Teams team (if you're creating a learning tab in Teams) <br> - SharePoint site to connect internal resources to Viva Learning |
-|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> **Viva Topics** | No technical requirements besides licensing |
+
 
 ## Step 3: Get guidance on roles for each phase
 
@@ -87,7 +88,7 @@ Review the different roles in each phase before you start planning. Each app nee
 
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
-|- If your organization is already using OKRs (objectives and key results) to set and align business priorities, work with **organizational, division, and team leaders** to determine how best to express these in Viva Goals. If your organization is new to OKRs, work with your organization’s **stakeholders and business partners** to determine the initial levels or divisions of your organization for which you want to set OKRs in Viva Goals. Determine a cadence for reviewing and adjusting your OKRs. | - Your **admin** will sign into Viva Goals for the first time using their Azure Active Directory credentials and create an organization. If your business is choosing to divide OKRs into multiple organizations, your admin can create more than one organization. <p> - **Organizational admins** can add users to organizations, or users can sign into Viva Goals and request to join organizations. Organization admins will need to approve these requests. <p> - **Members** of an organization can create teams and assign **Team owners** and **Team admins**, who can add users to teams and approve requests to join teams. <p> - Your **Microsoft Teams admin** can set a Teams app policy to pin Viva Goals in Microsoft Teams for everyone in your organization. | - If your organization is already using OKRs, work with **stakeholders and division leaders** to migrate their OKRs into Viva Goals. <p> - For every level in your organization, such as the whole business, divisions, and teams, share news with members that OKRs are now in Viva Goals. <p> - Consult the [Viva Goals adoption guide](https://adoption.microsoft.com/files/viva/goals/Viva-Goals-Adoption-Guide.pdf) to learn more about integrating Viva Goals into your organization. |
+|- If your organization is already using OKRs (objectives and key results) to set and align business priorities, work with **organizational, division, and team leaders** to determine how best to express these in Viva Goals. If your organization is new to OKRs, work with your organization’s **stakeholders and business partners** to determine the initial levels or divisions of your organization for which you want to set OKRs in Viva Goals. Determine a cadence for reviewing and adjusting your OKRs. | - Your **admin** will sign into Viva Goals for the first time using their Microsoft Entra credentials and create an organization. If your business is choosing to divide OKRs into multiple organizations, your admin can create more than one organization. <p> - **Organizational admins** can add users to organizations, or users can sign into Viva Goals and request to join organizations. Organization admins will need to approve these requests. <p> - **Members** of an organization can create teams and assign **Team owners** and **Team admins**, who can add users to teams and approve requests to join teams. <p> - Your **Microsoft Teams admin** can set a Teams app policy to pin Viva Goals in Microsoft Teams for everyone in your organization. | - If your organization is already using OKRs, work with **stakeholders and division leaders** to migrate their OKRs into Viva Goals. <p> - For every level in your organization, such as the whole business, divisions, and teams, share news with members that OKRs are now in Viva Goals. <p> - Consult the [Viva Goals adoption guide](https://adoption.microsoft.com/files/viva/goals/Viva-Goals-Adoption-Guide.pdf) to learn more about integrating Viva Goals into your organization. |
 
 ### Get guidance on Viva Insights
 
@@ -100,12 +101,6 @@ Review the different roles in each phase before you start planning. Each app nee
 |Coordinate and plan |Build and set up |Deploy and launch |
 |--------------------|-----------------|------------------|
 |- Work with **Business leaders** and **HR** in your organization to define learning goals. <p> - Find out if any third-party content sources or learning management systems you’re already using can integrate with Viva Learning.|- The **Microsoft 365 global admin, SharePoint admin**, or **Knowledge admin** chooses which content sources to use in the Microsoft 365 admin center. <p> - The **Microsoft 365 global admin**, **Knowledge admin**, or **Knowledge Manager** uses the admin tab in Viva Learning to [choose how content shows up for your organization](learning/use-tabs.md). <p> - The **Microsoft Teams admin** can enable or disable Viva Learning from the Teams admin center (Viva Learning is enabled by default). <p> - The **Microsoft 365 global admin** or **Knowledge admin** can [create a Learning App Content Repository in SharePoint to integrate with Viva Learning.](learning/configure-sharepoint-content-source.md)|- **Managers** can [recommend learning content](https://support.microsoft.com/office/recommend-and-manage-content-in-viva-learning-77f9dcbf-41a8-4b19-b4d1-b99c406f37b8) to their teams, and **Team members** can share content with each other. <p> - **Managers** and **Subject matter experts** can create custom learning content that the **Microsoft 365 global admin** or **Knowledge admin** can add to the Learning App Content Repository in SharePoint.|
-
-### Get guidance on Viva Topics
-
-|Coordinate and plan |Build and set up |Deploy and launch |
-|--------------------|-----------------|------------------|
-|- **Stakeholders, knowledge managers, communications leads, champions**, and **topic contributors** make up your core knowledge team. <p> - **Core team** selects a rollout approach, identifies, and prioritizes scenarios, ensures technical and business readiness, and develops a communications plan.|- **Microsoft 365 global admin** or **SharePoint admin** sets up Viva Topics and configures settings in the Microsoft 365 admin center. <p> - **Knowledge managers** manage topics in the topic center, including reviewing AI-suggested topics, confirming topics are valid, removing topics that you don’t want visible to users, and editing existing topics or creating new topics. <p> - **Topic contributors** edit existing topics or create new topics.|- **Corporate communications leads** use various communication channels to announce Viva Topics. <p> - **Champions and core team** can help spread awareness through engagements and training events.|
 
 
 ## Step 4: How to get started
@@ -141,15 +136,6 @@ Technically, the Viva apps don't need to be installed in a specific order. Each 
 - [Choose which learning content sources to use.](learning/content-sources-365-admin-center.md)
 - [Manage how content shows up for your org.](learning/use-tabs.md)
 - [Review the getting started guide for Viva Learning.](learning/set-up-viva-learning.md)
-
-### Get started with Viva Topics
-
-- Choose which SharePoint sites you want to crawl for topics.
-- Identify which topics, if any, you want to exclude from topic experiences.
-- Choose which users you want to make topics visible to.
-- Identify which users you want to give permissions to manage topics or to create or edit topics in the topic center.
-- Choose the name that you want to give your topic center.
-- Review the [Get your environment ready](topics/topic-experiences-get-ready.md) and [Set up Viva Topics](topics/set-up-topic-experiences.md) guidance.|
 
 
 ## Step 5: Prepare to launch and scale adoption with end users

@@ -1,10 +1,10 @@
 ---
-ROBOTS: NOINDEX,FOLLOW
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 05/11/2022
 title: Microsoft Viva Insights API
 description: Learn how to use the Microsoft Viva Insights API to secure moving data for more advanced analysis
-author: madehmer
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -202,7 +202,7 @@ Types of supported encryption algorithms. For symmetrical keys, the only support
 
 ### ScopeId
 
-**id** - The string value that represents the Viva Insights scope ID. Currently, this is the same as the Azure Active Directory tenant ID for the Viva Insights user.
+**id** - The string value that represents the Viva Insights scope ID. Currently, this is the same as the Microsoft Entra tenant ID for the Viva Insights user.
 
 ### PartnerKeyInfoCreateRequest
 
@@ -212,7 +212,7 @@ The request object that uploads the partner key information.
 * **tenantId** - The string value for the application’s Azure tenant ID for the application that you are integrating with Viva Insights.
 * **rsaKey** - The object that contains the parameters describing the public key of the RSA-2048 key pair.
 * **encryptionAlgorithm** - The enum that represents the encryption algorithm used for the key pair. The only supported value is RSA2048.
-* **scopeId** – A string value that represents the Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Azure Active Directory tenant ID.
+* **scopeId** – A string value that represents the Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Microsoft Entra tenant ID.
 
 ### PartnerKeyInfoCreateResponse
 
@@ -231,7 +231,7 @@ Information about the public key that's used to encrypt data drops for the integ
   ```2023-04-25T17:44:10.1935639Z```
 
 * **encryptionAlgorithm** - An **enum** that represents the encryption algorithm used for the partner key.
-* **scopeId** - The Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Azure Active Directory tenant ID.
+* **scopeId** - The Viva Insights customer scope ID. Currently, this value must be the same as the customer’s Microsoft Entra tenant ID.
 
 ### RsaKey
 
@@ -253,4 +253,3 @@ Information about the RSA key.
 
 * [Viva Insights integration](partner-integration.md)
 * [Advanced insights metrics](../reference/metrics.md)
-

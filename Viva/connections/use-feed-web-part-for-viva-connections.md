@@ -4,14 +4,14 @@ title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - M365-collaboration
@@ -40,7 +40,7 @@ Viva Connections combines the power of your intelligent SharePoint intranet with
 
 ## What is the Feed for Viva Connections web part?
 
-If you're using Viva Connections, the Feed web part brings organizational communication content from SharePoint, Viva Engage, Stream, Teams, and more into a single feed that [can be added to the home site](/viva/connections/home-site-plan). The Feed displays personalized content that will look different for each viewer. The hierarchy of content in the Feed can be influenced using tools like [News Boost](https://support.microsoft.com/en-us/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). Learn more about [content in the Feed](/viva/connections/faqs-viva-connections-feed).
+If you're using Viva Connections, the Feed web part brings organizational communication content from SharePoint, Viva Engage, Stream, Teams, and more into a single feed that [can be added to the SharePoint home site](/viva/connections/home-site-plan). The Feed displays personalized content that will look different for each viewer. The hierarchy of content in the Feed can be influenced using tools like [News Boost](https://support.microsoft.com/en-us/office/boost-sharepoint-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). Learn more about [content in the Feed](/viva/connections/faqs-viva-connections-feed).
 
 ![Screenshot with the company feed highlighted.](../media/connections/use-feed-web-part/feedwebpart_highlighted.png) 
 

@@ -2,8 +2,8 @@
 ms.date: 04/27/2023
 title: Recurring meeting audit Power BI report
 description: Understand whether expensive large and long recurring meetings in your organization are worth their cost
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -30,7 +30,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-<iframe title="Report Section" width="600" height="373.5" src=https://msit.powerbi.com/view?r=eyJrIjoiODNjZmZhNTktOTI1NS00NjRkLThkZTQtYzEyNTNhNzkzMWUyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiODNjZmZhNTktOTI1NS00NjRkLThkZTQtYzEyNTNhNzkzMWUyIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 ## Prerequisites
 

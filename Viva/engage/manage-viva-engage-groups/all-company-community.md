@@ -68,9 +68,9 @@ In the **Network Admins** settings, if **Enforce Office 365 Identity** is select
 
 #### If the All Company community is connected, what should I be aware of?
 
-- You can delete All Company in Azure Active Directory, which takes it through a soft-delete and then a hard-delete process.
+- You can delete All Company in Microsoft Entra ID, which takes it through a soft-delete and then a hard-delete process.
 - The Office 365 Expiration policy is enabled for All Company by default when connected.
-- Privacy and Data Classification for All Company can be changed in Azure Active Directory. If privacy is set to private for All Company, users can't post or view the All Company group.
+- Privacy and Data Classification for All Company can be changed in Microsoft Entra ID. If privacy is set to private for All Company, users can't post or view the All Company group.
 
 #### How do these changes to All Company affect my existing SharePoint web part and embed scenarios? 
 

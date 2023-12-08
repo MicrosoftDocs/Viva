@@ -2,9 +2,9 @@
 title: Introduction to Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: shirana
-ms.date: 11/02/2021
+ms.date: 11/30/2023
 audience: enabler, admin
 ms.topic: landing-page
 ms.custom: intro-hub-or-landing
@@ -44,4 +44,4 @@ The resources in this section help the admin in your organization to set up and 
 |Learn how to configure and manage content sources|[Manage learning content sources](content-sources-365-admin-center.md)|
 |Learn how to add your own learning content|[Add SharePoint as a content source](configure-sharepoint-content-source.md)|
 |Learn how to add content from other providers|[Add other providers as a content source](content-sources-365-admin-center.md)|
-|Learn how to use the employee learning API in Microsoft Graph to integrate learning providers and learning content |[Employee learning API](/graph/api/resources/viva-learning-api-overview?view=graph-rest-beta)
+|Learn how to use the employee learning API in Microsoft Graph to integrate learning providers and learning content |[Employee learning API](/graph/api/resources/viva-learning-api-overview?view=graph-rest-1.0)

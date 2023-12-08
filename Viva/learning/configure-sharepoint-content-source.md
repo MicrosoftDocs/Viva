@@ -2,9 +2,9 @@
 title: Add SharePoint as a learning content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to add SharePoint as a learning content source for Microsoft Viva Learning.
 ---
 
@@ -160,6 +160,7 @@ If a description column is already present, you can delete it and add a new one 
 
 1. Select the folder from your learning content repository.
 1. From the **Documents** page, select **Add column**.
+
    [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
 
 **To add a description column to the document library page, follow these steps**:
@@ -218,7 +219,7 @@ If a description column is already present, you can delete it and add a new one 
 
 1. Follow the initial steps to create a column.
 1. Choose **Multiple lines of text**.
-1. Name the column `ContentAuthor.`
+1. Name the column `ContentAuthor`.
 1. Add the author or authors of the content.
 
 ### Provide your own organization's content
@@ -248,7 +249,7 @@ The site URL provided by the knowledge admin where the Learning App Content Repo
 
 Linked folders linked in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
 
-For encounter issues with content, refer to the [export log file](/viva/learning/use-tabs?view=o365-worldwide#managing-providers&preserve-view=true) for detailed summaries of successful and failed content ingestions.
+If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs.md#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 
 For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 

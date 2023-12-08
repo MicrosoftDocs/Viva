@@ -4,18 +4,20 @@ ms.reviewer:
 ms.date: 07/17/2023
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom: intro-overview
 ms.collection:
   - M365-collaboration
   - M365initiative-viva
   - Tier1
+  - essentials-overview
 search.appverid:
 - MET150
 description: "An overview of the Microsoft Viva suite"
@@ -38,7 +40,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 |:-------:|-------------|------|
 |**Connection**|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.  |:::image type="icon" source="media/logos/engage-launch-c-64.svg":::<br> [Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|
 |**Insight**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br><br>:::image type="icon" source="media/logos/pulse-logo.svg":::<br>[Viva Pulse](#viva-pulse)<br> Empower leaders and managers to seek and act on feedback when it matters. |:::image type="icon" source="media/logos/glint-logo.png":::<br>[Viva Glint](#viva-glint)<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.|
-|**Growth**|:::image type="icon" source="media/logos/topics-launch-c-64.svg"::: <br> [Viva Topics](#viva-topics) <br> Use AI to automatically organize content and expertise across your systems and teams.|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources|
+|**Growth**|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources||
 |**Purpose**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
 
 #### Viva Connections
@@ -77,11 +79,6 @@ Bring enterprise learning into the flow of work by connecting content from your 
 Empower leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.
 
 [Get more information on Viva Pulse](/viva/pulse/introduction-to-viva-pulse)
-
-#### Viva Topics
-Automatically organize content and expertise across your systems and teams into related topics, projects, products, processes, and customers. That content appears as topic pages and topic centers—created and updated by AI—that enables experts to cultivate and share knowledge with wiki-like simplicity. It also pops up as topic cards that deliver knowledge across Outlook, SharePoint, and Office.
-
-[Get more information on Viva Topics](/viva/topics/topic-experiences-overview)
 
 ## Partner integrations
 Microsoft Viva supports several partner integrations to give you access to industry-leading apps in the natural flow of work. Here are the current partner integrations. New partners are being added on an ongoing basis, so check back for more.

@@ -14,13 +14,17 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 04/21/2023
 ---
 
 # Managers and teams using Viva Glint Team Conversations
 
-Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help you have a meaningful conversation that moves your team forward to achieve organizational goals.
+Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team. Team Conversations help you have a meaningful conversation that moves your team forward to achieve organizational goals. 
+
+Watch the following 3-minute video to learn about Team Conversations:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5fHQ2]  
 
 ## Manager guidelines for launching Team Conversations
 

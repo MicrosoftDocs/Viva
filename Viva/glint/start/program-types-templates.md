@@ -1,12 +1,12 @@
 ---
 title: Viva Glint program types and associated templates 
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
-ms.author: SarahBerg
-author: SarahAnneBerg
+ms.author: JudithWeiner
+author: JudyWeiner
 manager: pamgreen
 audience: admin
 f1.keywords: NOCSH
-keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey 360 feedback 
+keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey 360 feedback, distress survey
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 03/24/2023
 ---
 
@@ -66,12 +66,12 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 
 ### Culture survey
 
-- **Purpose** - Provides a deep understanding of the strengths and opportunities of an organization's culture based upon Viva Glint's research-based culture mode
+- **Purpose** - Uses Viva Glint's People Science team's identified measureable elements of current culture that are important to driving people and organizational success.
 - **Recommended frequency** - Recommended as a recurring survey launching every few years or so depending on how quickly the organization is changing
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
 
-### Diversity, Inclusion, & Belonging
+### Diversity and Inclusion
 
 - **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
 - **Recommended frequency** - Recurring
@@ -99,7 +99,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-### Change Management
+### Distress survey
 
 - **Purpose** - Assesses employee sentiment related to a specific large-scale change within the organization (e.g., M&A, major technology implementation, organizational restructuring)
 - **Recommended frequency** - Recurring or Ad Hoc
@@ -129,4 +129,4 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Purpose** - Supports the development of managers by allowing them to get feedback from their leaders, peers, and direct reports on key behaviors related to their effectiveness
 - **Recommended frequency** - Ad Hoc: Recommend timing be relevant to the person receiving the feedback (e.g. - send 360 when manager is new to role, or participating in a development program)
 - **Target groups for results** - Managers (Subjects)
-- **Feedback providers** - Departing employees
+- **Feedback providers** - Leaders, peers, direct reports

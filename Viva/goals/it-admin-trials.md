@@ -29,7 +29,7 @@ Trials are publicly available from one of the following sources. These IT Admin 
 
 To sign up for a trial, please visit either: 
 
-- The [Microsoft Viva Goals homepage ](https://www.microsoft.com/microsoft-viva/topics?activetab=pivot:overviewtab)
+- The [Microsoft Viva Goals homepage](https://www.microsoft.com/en-us/microsoft-viva/goals)
 - The [Microsoft 365 admin center ](https://admin.microsoft.com/)
     - Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
     - Go to **Billing** > **Purchase Services**. 

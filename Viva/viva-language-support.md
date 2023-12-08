@@ -10,7 +10,8 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - Tier1
@@ -37,7 +38,7 @@ Viva Engage supports the same languages as Yammer on the web. See [which languag
 ## Viva Glint
 English is the default language for all Viva Glint programs, but you can send survey and email communications to your employees in their preferred language. Currently Viva Glint supports over 70 language translations for standard content. Viva Glint admins can export all program content into .csv and .xlsx format. Exporting a file that includes English and all relevant translations allows users to review, add or edit translations in one place. 
 
-[Learn about language translation within Viva Glint programs.](https://go.microsoft.com/fwlink/?linkid=2230918)
+[Learn about language translation within Viva Glint programs.](https://go.microsoft.com/fwlink/?linkid=2238340)
 
 ## Viva Goals 
 Learn more about [language support for Viva Goals](/viva/goals/viva-goals-language-support).
@@ -68,11 +69,11 @@ Content added by users (such as when a feedback author adds or edits a question 
 
 Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
 
-## Viva Topics
+## Topics
 **User interface**
 
-Languages in the Viva Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
+Languages in the Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
 
 **Languages available for processing topics**
 
-Viva Topics is available to customers worldwide. However, for processing and indexing content, Viva Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).
+Topics is available to customers worldwide. However, for processing and indexing content, Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).

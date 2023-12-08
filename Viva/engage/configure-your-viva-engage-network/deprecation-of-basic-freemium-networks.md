@@ -1,53 +1,52 @@
 ---
-title: "Deprecation of Basic/Freemium Networks"
+title: "Viva Engage Basic networks are retired - FAQ"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
-author: v-jebizie
+ms.author: v-bvrana
+author: Starshine89
 manager: pamgreen
-ms.date: 09/22/2022
+ms.date: 09/13/2023
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
 - MOE150
 - MET150
-description: "We will be deprecating Yammer Basic/Freemium networks by the end of 2022 for smoother integration and bringing exciting new functionality to our customers."
+description: "We retired free Viva Engage Basic networks at the end of 2022 for an improved customer experience through new functionality and smoother integration."
 ---
 
-# Deprecation of Basic/Fremium Networks
+# Viva Engage Basic networks are retired - FAQ
 
-We will be deprecating Yammer Basic/Freemium networks by the end of 2022 for smoother integration and bringing exciting new functionality to our customers.
+Starting December 1, 2022, we retired our free Microsoft Yammer Basic networks to ensure smoother integration and new functionality for our Microsoft Viva Engage customers. This decision was initially announced in June 2022. Loss of basic or "freemium" network access was enforced in May 2023.
 
-**Q. We still want a Yammer network. What can we do?**
+#### We still want a Viva Engage network. What can we do?
 
-**A.**  If your organization has an Office 365 or Microsoft 365 license, enterprise Yammer is included. See [Add Yammer basic domains to your Office 365 tenant](/yammer/configure-your-yammer-network/add-basic-domains-to-office-365).
+If your organization has a Microsoft 365 license, Viva Engage is included. See [Manage Viva Engage domains in Microsoft 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
+https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 month per user.
 
-If your organization doesn't have a license, [subscriptions are available](
-https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 per user per month.
+#### My organization has a Viva Engage network, but users from basic networks collaborate with us. Can they join our network as guests?
 
-**Q. My organization has an enterprise Yammer network, but we have users from Freemium networks collaborating with us. Can they still join our network as guests after it's discontinued?**
+Not unless they upgrade their license. If you're based in the US, you can invite them to collaborate with you through an [external network](../work-with-external-users/create-and-manage-an-external-network.md).
 
-**A.**  Not unless they upgrade their license too. If you're based in the US, you can invite them to collaborate with you through an [external network](/yammer/work-with-external-users/create-and-manage-an-external-network).
+#### Our collaborators no longer have access to our external network as guests. How can they regain access?
 
-**Q. What if we want to keep all our data from the old network and move it to the new network?**
+It sounds like your collaborators have basic accounts, which are now retired. If your Viva Engage networks are hosted in the US, you can invite guests to your external network. If you run your tenant in Native Mode, you can invite guests to individual communities. Before guests can join your external network or communities, however, they must upgrade their license. Ask your collaborators to contact their organization’s network administrator.  
 
-**A.**  Data migration isn't a service provided by Microsoft. You can [engage a partner](https://go.microsoft.com/fwlink/p/?LinkID=862345&clcid=0x409&culture=en-us&country=US) for data migration service from your basic network to your new enterprise network.
+#### What if we want to keep all our data from the old network and move it to the new network?
 
-**Q. I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Office 365/Microsoft 365? Will that allow me to upgrade in place?**
+Data migration isn't a service provided by Microsoft. You can [engage a partner](https://go.microsoft.com/fwlink/p/?LinkID=862345&clcid=0x409&culture=en-us&country=US) for data migration service from your basic network to your new enterprise network. After talking with a partner, if you discover that you need temporary administrator role access to migrate your data, contact Microsoft Support.
 
-**A.**   **NO.** Adding your basic network domain to Office 365/Microsoft 365 will delete the contents of your basic network. Export your basic network data first.
+#### I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Microsoft 365 to upgrade in place?
 
-**Q. We are a nonprofit organization that relies on a free version of Yammer. What can we do?**
+No. Adding your basic network domain to Microsoft 365 deletes the contents of your basic network. [Export your basic network data](../eac-as-manage-data.md) first.
 
-**A.**  Microsoft offers special pricing for legally registered nonprofit organizations around the world. Learn more about eligibility [here](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1%3aprimaryr4).
+#### We're a nonprofit organization that relies on a free version. What can we do?
 
-**Q. What if we just want to export our data from the basic network?**
+Microsoft offers special pricing for legally registered nonprofit organizations around the world. Learn more about [eligibility](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1%3aprimaryr4).
 
-**A.**  Please contact support to receive temporary administrator role access to your basic network in order to perform a full export of the network data.
+#### What if we just want to export our data from the basic network?
 
-**Q. What is the latest date we can upgrade and maintain access to our Basic/Freemium network data?**
-
-**A.**  You will lose access to your old network on or before December 1, 2022. Data will be deleted 30 days after loss of access.
+Contact Microsoft Support. They can give you temporary administrator role access to your basic network, which allows you to perform a [full export of the network data](../eac-as-manage-data.md).

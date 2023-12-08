@@ -11,7 +11,7 @@ audience: Admin
 description: "Introducing Org Explorer"
 ---
 # Introducing Org Explorer
-Org Explorer helps you visualize and explore your company’s internal structure, its teams, and people. It's available to all enterprise users that have the Microsoft Viva suite or Microsoft Viva suite with Glint.
+Org Explorer helps you visualize and explore your company’s internal structure, its teams, and people. It's available to enterprise users that have a Microsoft Viva license.
 
 ## Availability
 
@@ -31,7 +31,7 @@ Org Explorer is available in Outlook.
 
 ## Where is the organization information collected from?
 
-The organizational information you see about users in Org Explorer is from Azure Active Directory – AAD. [Learn more about user information](/graph/api/resources/users?).
+The organizational information you see about users in Org Explorer is from Microsoft Entra ID – Microsoft Entra ID. [Learn more about user information](/graph/api/resources/users?).
 
 ## How is the "Works With" data generated?
 
@@ -54,4 +54,3 @@ You can turn off Org Explorer by unassigning the People in Viva license in the a
 [Explore your organization](https://go.microsoft.com/fwlink/?linkid=2223751)
 
 [Search for a person](https://go.microsoft.com/fwlink/?linkid=2224126)
-

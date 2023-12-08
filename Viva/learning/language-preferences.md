@@ -2,7 +2,7 @@
 title: Language preferences in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/13/2023
 audience: admin
@@ -14,17 +14,13 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Manage your language settings in Viva Learning for users across Teams, webapp and mobile. 
 ---
 
 # Language preference settings
 
 Manage Viva Learning language settings for users across Teams, the web app, and mobile. We recommend you set up all language settings as the initial step of Viva Learning onboarding process or pilot phase.
-
-
-> [!NOTE]
-> Language settings is under private preview. Please check with your support executive to participate in the private preview.
 
 ## Access
 
@@ -98,7 +94,10 @@ Sharepoint objects and learning paths created by admins may also not be visible 
 
 ## Available Languages 
 
-Admins can set all the supported languages that the organization supports in Viva Learning. Available Language has two options to choose from:
+> [!NOTE]
+> The available language feature is now under private preview. Please check with your support executive to participate in the private preview. 
+
+Admins can set all the supported languages that the organization supports in Viva Learning. Available language has two options to choose from:
 
 - All supported languages in Viva Learning -   selects [all languages supported by Viva Learning](/viva/learning/viva-learning-supported-languages).
   - By default, this option is selected. Viva Learning default language chosen above can't be removed. 

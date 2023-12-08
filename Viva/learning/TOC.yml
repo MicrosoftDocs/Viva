@@ -3,6 +3,8 @@
       items:    
         - name: Overview of Viva Learning
           href: overview-viva-learning.md
+        - name: What's New 
+          href: whats-new.md
         - name: Set up Viva Learning
           href: set-up-viva-learning.md
         - name: Enable or disable the Learning tab in Microsoft 365 search results
@@ -17,7 +19,7 @@
       items:
         - name: Overview
           href: content-sources-365-admin-center.md
-        - name: Manage how content shows up in Viva Learning
+        - name: Manage how content displays
           href: use-tabs.md
         -  name: Add learning management systems
            href: configure-lms.md
@@ -60,19 +62,27 @@
           href: linkedin-learning-free-courses.md
     - name: Manage your content 
       items: 
-        - name: Manage Catalog Access in Viva Learning
+        - name: Manage Catalog Access 
           href: manage-catalog-access.md
-        - name: Creating Learning paths in Viva Learning
+        - name: Creating Learning paths
           href: creating-learning-paths.md
-        - name: Create collections in Viva Learning
+        - name: Create collections
           href: creating-learning-collections.md
-        - name: Manage academies in Viva Learning  
+        - name: Manage feature-level access
+          href: feature-access-management.md
+        - name: Manage Interests 
+          href: interests.md
+        - name: Managing exported interest files
+          href: interests-troubleshooting.md
+        - name: Download Learner Completion Records
+          href: learner-completion-records.md 
+        - name: Manage academies
           href: academy.md
-        - name: Advanced Searching within Viva Learning
+        - name: Advanced Searching 
           href: advanced-search.md
-        - name: Overview of language in Viva Learning
+        - name: Overview of language 
           href: language-overview.md
-        - name: Language preferences in Viva Learning 
+        - name: Language preferences 
           href: language-preferences.md
         - name: Content tagging and metadata export
           href: content-tagging.md

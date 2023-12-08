@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 05/22/2023
 ---
 
@@ -23,16 +23,18 @@ ms.date: 05/22/2023
 Microsoft Viva Glint offers multiple survey access methods that can be used independently or in combination to meet the needs of your employee population.
 
 > [!NOTE] 
-> Viva Glint recommends that admins enable the requirement for users to authenticate with Azure Active Directory as the most secure method to administer surveys.
+> Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys.
 
-## Set up survey access that requires authentication with Azure Active Directory
+<a name='set-up-survey-access-that-requires-authentication-with-azure-active-directory'></a>
+
+## Set up survey access that requires authentication with Microsoft Entra ID
 
 To enable this survey access method:
 
-1. Work with your Viva Glint Global administrator to [establish access to Viva Glint via Azure AD.](https://go.microsoft.com/fwlink/?linkid=2238425)
+1. Work with your Viva Glint Global administrator to [establish access to Viva Glint via Microsoft Entra ID.](https://go.microsoft.com/fwlink/?linkid=2238425)
 2. From the admin dashboard, select the **Configure** symbol, then in **Client Settings**, choose **General Settings**.
 3. In the **All Settings** menu, select **Engage Survey Details**.
-4. Switch the **Require Azure AD for links in survey emails** setting to **Yes**.
+4. Switch the **Require Microsoft Entra ID for links in survey emails** setting to **Yes**.
 5. Select **Save Changes** in the top right of the **General Settings** page.
 6. Select the **Configure** symbol, then in **Employees** , choose **User Roles**.
 7. Select **Active Employees** , then choose **Permissions.**
@@ -40,7 +42,7 @@ To enable this survey access method:
 
 ## Use a personalized survey link
 
-When access with Azure AD isn't enabled, this is the survey access method for users. Survey emails contain a personalized survey link that is tied to each participant and shouldn't be forwarded. When users select this personalized link, they access an active survey with no authentication.
+When access with Microsoft Entra ID isn't enabled, this is the survey access method for users. Survey emails contain a personalized survey link that is tied to each participant and shouldn't be forwarded. When users select this personalized link, they access an active survey with no authentication.
 
 ## Set up attribute-based survey access
 

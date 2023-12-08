@@ -3,20 +3,22 @@ title: "Microsoft Viva Privacy, Security, and Compliance"
 ms.reviewer: loreenl
 ms.author: loreenl
 author: loreenla
-manager: pamgreen
+manager: elizapo
 ms.date: 4/20/2023
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
 - highpri
 - tier1
+- essentials-required-compliance
 search.appverid:
 - MET150
 description: "Find Microsoft Viva privacy, security, compliance and governance information."

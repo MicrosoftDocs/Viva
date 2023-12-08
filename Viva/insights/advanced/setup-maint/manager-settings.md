@@ -2,8 +2,8 @@
 ms.date: 04/06/2023
 title: Configure manager settings
 description: Set manager settings in the advanced insights app
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -46,7 +46,7 @@ The size of the team includes the manager and all the employees who directly or 
 
 ### Current managers
 
-You'll notice the following numbers on the **Manager settings** page. These numbers are based on Azure Active Directory data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
+You'll notice the following numbers on the **Manager settings** page. These numbers are based on Microsoft Entra data by default, or the latest organizational (HR) data that's been successfully uploaded and processed for Viva Insights in the advanced insights app:
 
 * **Current managers**
     * **Measured managers** – The number of managers who are assigned licenses and who can see their team's insights throughout the Viva Insights in Teams
@@ -87,7 +87,7 @@ Minimum team size determines which managers are eligible to view organization in
 
 Here are a few examples of different reporting hierarchies. Each diagram indicates whether the manager at the top of the hierarchy would be eligible to view organization insights. In these examples, the minimum size is left at the default: 10.
 
-:::image type="complex" source="../images/setup-eligible-team-size1.png" alt-text="Diagram that shows a hierarchy where the manager is eligible to view organization insights.":::
+:::image type="complex" source="../images/setup-eligible-team-size2.png" alt-text="Diagram that shows a hierarchy where the manager is eligible to view organization insights.":::
    Diagram with a green check badge at the top and the label, "Eligible for organization insights." It shows an organization chart. The manager at the top of the chart has four direct reports. The first direct report has one report. The second and third direct reports have two reports. The fourth direct report has one report. Every person on the chart has a license, indicated by a ribbon. A note at the bottom says, "Licensed users: 10," and "Unlicensed users: 0."
 :::image-end:::
 

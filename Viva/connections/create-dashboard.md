@@ -1,17 +1,17 @@
 ---
-ms.date: 6/19/2023
-title: "Add, edit, and remove cards from the Viva Connections dashboard "
-ms.reviewer: 
+ms.date: 10/27/2023
+title: "Add, edit, and remove cards from the Viva Connections dashboard"
+ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - M365-collaboration
@@ -27,7 +27,11 @@ description: "Learn how to edit the Viva Connections dashboard"
 # Create a Viva Connections dashboard and add cards
 
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
-The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links. 
+The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
+
+> [!NOTE]
+>
+> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
@@ -39,14 +43,15 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a customized card using Card designer](#design-your-own-card-with-a-quick-view).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
-- [Add the Top news cards](#add-the-top-news-card).
+- [Add the News card](#add-the-news-card).
+- [Add the People card](#add-the-people-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
-- [Add a Viva Topics card](#add-a-viva-topics-card).
+- [Add a Topics card](#add-a-topics-card).
 - [Add a Web link card](#add-a-web-link-card).
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
 - [Preview your dashboard to see how it displays for different audiences and devices](#preview-your-dashboard-to-see-how-it-displays-for-different-audiences).
-- [Add the dashboard to your home site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections).
+- [Add the dashboard to your Viva Connections site using the Dashboard web part](#use-the-dashboard-web-part-for-viva-connections).
 - [Get more information about how links and Single sign-on works](#how-urls-and-single-sign-on-works).
 
 ## Edit the dashboard
@@ -62,20 +67,19 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 > - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
 > - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
 > - It's recommended to limit the number of cards to about 20 on the dashboard for the best viewing experience.
+> - Users will be able to [customize their dashboard on Viva Connections mobile](https://support.microsoft.com/office/753e0607-0bfd-4712-ad7e-18490dd565a2#bkmk_customize-viva-connections-mobile-dashboard) by reordering, hiding, and showing cards. These changes only affect the mobile experience for the user and will not affect their desktop or tablet experience.
 
-
-1.	Navigate to the Viva Connections app in Teams.
-2.	Next, select **Edit** in the dashboard section.
-3.	Select **+ Add a card**.
-4.	Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable. 
-5.	Select **Delete** (trash can icon) to remove cards.
-6.	Preview the experience on all devices to ensure usability before publishing or republishing. 
-7.	**Publish** or **Republish** when you're done to share the edits with others.
-
+1. Navigate to the Viva Connections app in Teams.
+2. Next, select **Edit** in the dashboard section.
+3. Select **+ Add a card**.
+4. Select **Edit** (pencil icon) for each card to edit properties like the label, icon, image, and audience targeting settings where applicable.
+5. Select **Delete** (trash can icon) to remove cards.
+6. Preview the experience on all devices to ensure usability before publishing or republishing.
+7. **Publish** or **Republish** when you're done to share the edits with others.
 
 ## How to edit the dashboard from SharePoint when you have a home site
 
-If your organization has a [SharePoint home site](home-site-plan.md), you'll be able to set up and edit the dashboard from the home site or in Microsoft Teams. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the home site.
+If your organization has a [SharePoint home site](home-site-plan.md), you'll be able to set up and edit the dashboard from the SharePoint home site or in Microsoft Teams. You’ll need [edit permissions](/sharepoint/customize-sharepoint-site-permissions) for the SharePoint home site.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE53Joj]
 
@@ -85,7 +89,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
 >[!NOTE]
 >Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
 
-1. From the home site, select the **Settings** gear at the top-right of the page.
+1. From the SharePoint home site, select the **Settings** gear at the top-right of the page.
 2. Select **Manage Viva Connections**.
 3. Select the **+ Create dashboard** or **View dashboard** button.
 4. Select **+ Add a card**.
@@ -93,20 +97,20 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
 6. When you're done adding cards and [applying targeting to specific audiences](use-audience-targeting-in-viva-connections.md), **Preview** the experience to ensure an ideal viewing experience.
 7. Once you’re satisfied with how the dashboard looks in preview, select **Publish** or **Republish** at the top-right of your dashboard to make it available for use on your home site, in Teams, and in Teams mobile app.
 
-
 ## Available dashboard cards
 
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
-   |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks     |
-   |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework](/adaptive-cards/templating/)|
-   |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams          |
-   |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author     |
-   |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[Top news card](#add-the-top-news-card)    | ![Image of the top news card icon.](../media/connections/top-news-card-icon.png) |   Set up the Top news card to [surface boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports.     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks.     |
+   |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework.](/adaptive-cards/templating/)|
+   |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
+   |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
+   |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
+   |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon.png) |   Promote news from a variety of sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
    |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
-   |[Viva Topics](#add-a-viva-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Viva Topics cards to encourage knowledge discoverability, engagement, and sharing. |
+   |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
 
 ## Add the Approvals card
@@ -125,7 +129,7 @@ The Approvals card connects to [Approvals in Microsoft Teams](https://support.mi
 
    ![Adding an approvals card in the dashboard.](../media/connections/approvals-edit.png)
 
-4. Once you’re satisfied with how the dashboard looks in preview, select **Publish** or **Republish** at the top-right of your dashboard to make it available for use on your home site, in Teams, and in Teams mobile app.
+4. Once you’re satisfied with how the dashboard looks in preview, select **Publish** or **Republish** at the top-right of your dashboard to make it available for use on your SharePoint home site, in Teams, and in the Teams mobile app.
 
 ## Add the Assigned tasks card
 
@@ -143,7 +147,7 @@ The Assigned tasks card enables automatic display of information to users about 
 
    ![Choosing card size.](../media/connections/choosing-card-size.png)
 
-4. To target your card to specific audiences (i.e. only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+4. To target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Design your own card with a quick view
 
@@ -167,15 +171,15 @@ You can choose the **Card designer** option to design your own card that include
 4. From the **Card size** drop-down list, choose either **Medium** or **Large**.
    A medium-sized card allows you to add one button, while a large-sized card allows you to add two buttons.
 
-5. Enter a title for your card in the **Title** text box. 
+5. Enter a title for your card in the **Title** text box.
 6. Enter a URL in the **Icon** text box. This URL is the icon's location.
 7. Select a template type from one of the following options in the **Template type** drop-down list:
-    - **Text**: Provides you the option to add only a heading.
-    - **Text and image**: Provides you the option to add a heading and an image.
-    - **Text and description**: Provides you the option to add your own heading and a description, but without an image option.
+    - **Text**: Provides you with the option to add only a heading.
+    - **Text and image**: Provides you with the option to add a heading and an image.
+    - **Text and description**: Provides you with the option to add your own heading and a description, but without an image option.
 
-> [!NOTE]
-> You may provide alternative text (alt text) as descriptive text which conveys the meaning and context of a visual item in a digital setting, such as on an app or web page. [Learn more about alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2). 
+   > [!NOTE]
+   > You may provide alternative text (alt text) as descriptive text which conveys the meaning and context of a visual item in a digital setting, such as on an app or web page. [Learn more about alt text](https://support.microsoft.com/office/everything-you-need-to-know-to-write-effective-alt-text-df98f884-ca3d-456c-807b-1a1fa82f5dc2).
 
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
@@ -196,11 +200,11 @@ You can choose the **Card designer** option to design your own card that include
 
 Under **Quick view layout and data**, enter JSON template code for your quick view layout, and add the code for the data you want to use. For more information on templating and data with some examples, see [Adaptive Cards Templating](/adaptive-cards/templating/). You can find more examples at [Adaptive Cards](/adaptive-cards/).
 
-To target your card to specific audiences (i.e. only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Add a Teams app card
 
-A Teams app card allows you to create a card for an existing Teams app. 
+A Teams app card allows you to create a card for an existing Teams app.
 
 ![Example of a teams app card.](../media/connections/teams-app-card-example.png)
 
@@ -216,20 +220,19 @@ A Teams app card allows you to create a card for an existing Teams app.
 
 4. Select a size for the card from the **Card size** drop-down list.
 
-5.  Search for the Teams app you want to use, and then select it from the list.
-6.  Set the card-display options:
+5. Search for the Teams app you want to use, and then select it from the list.
+6. Set the card-display options:
     - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it's the title that will be displayed on the top of the card.)
     - Enter a description for the card in the **Card description** text box. This description will be displayed in larger text under the title.
-7. If you want to target your card to specific audiences (that is, only audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
+7. If you want to target your card to specific audiences (that is, only the audience you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Add a third party card or Microsoft app
 
-The Viva Connections dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the dashboard. 
+The Viva Connections dashboard and mobile experience can be extended and customized using cards, which are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). These adaptive cards are used to display data, complete tasks, and connect to Teams Apps, Websites, and mobile apps on Viva Connections. They provide a low-code solution to bring your line-of-business apps into the dashboard.
 
 To create custom experiences on Viva Connections dashboard and Viva Connections Mobile App, developers must use the SPFx to create custom ACEs. To learn more about creating ACEs, see the following tutorial: [Build your first SharePoint Adaptive Card Extension](/sharepoint/dev/spfx/viva/get-started/build-first-sharepoint-adaptive-card-extension). Learn more about [Viva Connections extensibility.](/sharepoint/dev/spfx/viva/overview-viva-connections)
 
-### Add a 3rd party card
+### Add a third party card
 
 There are three ways to get third-party apps and solutions integrated with the Viva Connections dashboard. There are three ways to get third-party apps and solutions integrated with the Viva Connections dashboard. The following is an example of a third-party card.
 
@@ -247,17 +250,16 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
    :::image type="content" alt-text="This screenshot is of the card toolbox section that displays third party cards." source="../media/connections/third-party-card-toolbox.png":::
 
-1.	While in edit-mode, select **+ Add** card from the dashboard.
-2.	You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
-3.	Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
-4.	You'll receive an email to confirm if your request has been approved or denied.
-5.	Once your request has been approved, refresh the page, and you’ll see the new card display in the toolbox.
-
+1. While in edit-mode, select **+ Add** card from the dashboard.
+2. You’ll see third-party options in the **Suggested cards** section. Select one of the cards that’s displayed or browse more cards by selecting **Add more cards**.
+3. Request the cards you’d like to add to the toolbox and the requests will be sent to the App Catalog Admin for their approval.
+4. You'll receive an email to confirm if your request has been approved or denied.
+5. Once your request has been approved, refresh the page, and you’ll see the new card display in the toolbox.
 
 #### Option 2: Acquire the app from a Microsoft AppSource or the SharePoint store
 
 - If you're building a dashboard, you can [request the app directly](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289), but you'll need approval from an admin of the tenant-level app catalog to continue with the installation
-- If you are an **admin** of a tenant-level app catalog, you can deploy business apps directly.
+- If you're an **admin** of a tenant-level app catalog, you can deploy business apps directly.
 You can acquire apps from third- party developers by browsing the [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=sharepoint) or [SharePoint store](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) (recommended).
 
 [Get step-by-step guidance](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) on how to request and deploy an app, and add an app to your site. For tenant admin, [learn how to manage apps](/sharepoint/use-app-catalog#work-with-sharepoint-store-apps) in the App Catalog.
@@ -267,7 +269,7 @@ You can acquire apps from third- party developers by browsing the [Microsoft App
  >[!NOTE]
  > SharePoint administrative permissions are required to complete this task.
 
-You can request apps directly from the Viva Connections third-party developers and partners. Admin permissions are required to [add the app to tenant level app catalog.](/sharepoint/use-app-catalog) 
+You can request apps directly from the Viva Connections third-party developers and partners. Admin permissions are required to [add the app to tenant level app catalog.](/sharepoint/use-app-catalog)
 
 ### Add a Microsoft app as a card on the dashboard
 
@@ -283,28 +285,63 @@ A Microsoft app card allows you to create a card that links to Microsoft apps (F
 
 4. When you **Republish**, the card will appear on your dashboard.
 
-## Add the Top news card
+## Add the News card
 
-Set up the Top news card to surface [boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). News that has been boosted will prominently display in the Top news card.
+Add the News card to the Viva Connections Dashboard to promote news from a variety of sources that you wish to prominently display, [including boosted news from SharePoint](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83). If you choose any news posts that have been boosted, they will display in the News card for the duration of the boost period.
 
-![Example of a top news card.](../media/connections/top-news-card-example.png)
+![Example of a News card.](../media/connections/top-news-card-example.png)
 
-1. While in **edit** mode, select **+ Add a card** from the dashboard.
+1. While in edit mode, select **+ Add a card** from the dashboard.
 
-2. Select **Top news** from the web toolbox.
+2.	Select **News** from the dashboard toolbox.
 
-   ![Adding a Top news card.](../media/connections/top-news-card.png) 
+    ![Screenshot of the News card icon.](../media/connections/news-card-icon.png)
 
-3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
 
-4. To target your card to specific audiences (i.e. only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+4. Add a title and select a card size.
+
+5. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. Refer to this article for more information on [Audience targeting](#apply-audience-targeting-to-cards).
+
+6. For a news source, select one of the following options:
+
+   - **Boosted posts**: Will display any SharePoint news post that has been boosted from the organization's news sites only. The word "Boosted" will display at the top of the card.  
+
+   - **From this site**: Pulls news from the hub site that the current site is a part of.
+
+   - **From all sites in this hub**: Pulls news from all sites within your SharePoint hub.
+
+   - **Select sites**: Pulls news from one or more individual sites (if selected, a list of sites associated with your SharePoint hub will display).
+
+   - **Recommended for current user**: will display news posts for the current user from people the user works with; managers in the chain of people the user works with, mapped against the user's own chain of management and connections; the user's top 20 followed sites; and the user's frequently visited sites.
+
+        :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane."lightbox="../media/connections/news-card-properties.png":::
+
+## Add the People card
+
+The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
+
+   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png"::: 
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2.	Select **People** from the dashboard toolbox.
+
+    ![Screenshot of the People card icon.](../media/connections/people-card-icon.png)
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
+
+4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+      :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
 
 ## Add a Shifts card
 
-The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams. 
+The Shifts card shows users information about their next or current shift from the Shifts app in Teams. They can also clock in and out and track break time when Time clock is enabled in Teams.
 
 ![Example of a shifts card.](../media/connections/shifts-card-example.png)
-
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
@@ -314,7 +351,7 @@ The Shifts card shows users information about their next or current shift from t
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-4. To target your card to specific audiences (i.e. only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+4. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Add a Viva Learning card
 
@@ -334,19 +371,19 @@ Content in the cards is dynamic and changes according to settings in Viva Learni
 
     ![Image of the Viva Learning property pane.](../media/connections/create-dashboard/viva-learning-card-settings.png)
 
-4. To target your card to specific audiences (i.e. only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+4. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-## Add a Viva Topics card
+## Add a Topics card
 
-Viva Topics has two different cards. The **Viva Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Viva Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
+Topics has two different cards. The **Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
 
-[Learn more about the two different cards](/viva/topics/viva-topics-card-viva-connections).
+[Learn more about the two different cards](/microsoft-365/topics/topics-card-viva-connections).
 
-![Screenshot Viva Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png) 
+![Screenshot Topics Contribute card.](../media/knowledge-management/viva-topics-contribute-card.png)
 
 ## Add a Web link card
 
-Add a web link card when you want your users to go to an internal or external link on a web site. 
+Add a web link card when you want your users to go to an internal or external link on a web site.
 
 ![Example of a web link card.](../media/connections/link-card-example.png)
 
@@ -363,7 +400,7 @@ Add a web link card when you want your users to go to an internal or external li
 4. Select a size for the card from the **Card size** drop-down list.
 5. Enter the URL for your link in the **Link** text box.
 6. Set the card-display options:
-   - Enter a title for the card in the **Card title** text box. (This title will not change your page title; it's the title that is displayed on the top of the card.)
+   - Enter a title for the card in the **Card title** text box. (This title won't change your page title; it's the title that is displayed on the top of the card.)
    - Enter a description for the card in the **Card description** text box. This description is displayed in larger text under the title.
 7. Under **Thumbnail**, select one of the following options:
    - **Auto-selected**: This option when chosen automatically displays an image at the top of your card that comes from your page.
@@ -372,7 +409,7 @@ Add a web link card when you want your users to go to an internal or external li
    - **Auto-selected**: This option when chosen automatically displays a built-in icon associated with the page.
    - **Custom image**: This option when chosen enables the **Change** button.  You can select this button to choose an image you want to use.
    - **Icon**: This option when chosen enables the **Change** button.  You can select this button to choose from a set of stock icons.
-9. To target your card to specific audiences (i.e. only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+9. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 ## Apply audience targeting to cards
 
@@ -410,29 +447,26 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
       ![Audience targeting icon.](../media/connections/preview-dashboard.png)
 
-
    2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you'll see a disabled **Audience targeting** label).
-
 
       :::image type="content" alt-text="This screenshot shows the audience targeting group label." source="../media/connections/preview-audiences.png":::
 
-   3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to de-select it.
+   3. Search for and select a group. Once added, the group will be selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it.
 
       ![Audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 
-   - Cards that targeted to a specific group will display.
-   - When one or more audiences are selected, cards that *don't* have audience targeting applied will also display.
-   - If no audiences are targeted, only cards that *aren't* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
-   - If you aren't part of one of the audiences you've selected, you'll only see cards that aren't audience targeted. If none are audience targeted, you won't see any cards.
-
+      - Cards that targeted to a specific group will display.
+      - When one or more audiences are selected, cards that *don't* have audience targeting applied will also display.
+      - If no audiences are targeted, only cards that *aren't* audience targeted will display. If there aren't any cards with audience targeting applied, none will display.
+      - If you aren't part of one of the audiences you've selected, you'll only see cards that aren't audience targeted. If none of the cards are audience targeted, you won't see any cards.
 
 #### Examples
 
-   In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard.
+In the following example, the preview is set for mobile devices and highlights the different views that can be created from a single dashboard.
 
-   | View 1                  | View 2                 |
-   | :-------------------: | :-------------------: |
-   |![Image of one view created for a specific audiences.](../media/connections/preview-dash-1.png) | ![Image of a second view created for a specific audiences..](../media/connections/preview-dash-2.png) |
+| View 1                  | View 2                 |
+| :-------------------: | :-------------------: |
+|![Image of one view created for a specific audiences.](../media/connections/preview-dash-1.png) | ![Image of a second view created for a specific audiences..](../media/connections/preview-dash-2.png) |
 
 ## Use the Dashboard web part for Viva Connections
 
@@ -441,9 +475,9 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 > - After editing content on the dashboard, it may take several minutes until the new content is available in the Dashboard web part.
 > - For best results, we recommend placing the Dashboard web part in a right vertical section.
 
-Once a dashboard is authored and published, you can use the Dashboard web part to display it on your home site. You can add the web part to any section on your page.  
+Once a dashboard is authored and published, you can use the Dashboard web part to display it on your Connections site. You can add the web part to any section on your page.  
 
-![Image of the Viva Connections Dashboard web part highlighted on the home site.](../media/connections/vc-dashboard-web-part.png)
+![Image of the Viva Connections Dashboard web part highlighted in the Connections site.](../media/connections/vc-dashboard-web-part.png)
 
 When added, it will automatically be populated with the cards from the existing dashboard on your site. You can set the maximum number of cards you want to display. [Learn how to use the Dashboard web part](/sharepoint/use-dashboard-web-part-on-home-site).
 
@@ -454,7 +488,7 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 > [!NOTE]
 > When SSO is not supported, users will be asked to enter their login credentials.
 
-| **Opens URL to…**  | **On Teams mobile**   | **On Teams desktop**     |
+| Opens URL to… | On Teams mobile | On Teams desktop |
 | :------------------- | :------------------- |:---------------|
 | Teams App | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again.  | Teams apps (like Shifts, Approvals, or Kudos) open within Teams and user doesn’t need to authenticate again.  |
 | Forms  | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in. | Forms open within Teams, user is asked to sign-in on the first time, and user doesn’t need to authenticate again if they stay signed in.            |
@@ -463,8 +497,6 @@ For some cards, you'll use links to URLs. Depending on the location of the conte
 | Power Portals  | Power portals open within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings.  |
 | Stream   | Stream opens within Teams, user is asked to sign-in on the first time and user doesn’t need to authenticate again if they stay signed in.   | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings. |
 | External Links  | Web view opens within Teams and the user might need to authenticate again (depending on the site.)  | Opens a web browser session and the user might need to reauthenticate depending on browser and machine settings.  |
-
-
 
 ## More resources
 

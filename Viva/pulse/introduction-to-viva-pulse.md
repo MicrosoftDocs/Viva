@@ -7,7 +7,7 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 07/12/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
@@ -44,8 +44,8 @@ To send a Pulse request, a user must be assigned a Viva Pulse or a Viva Suite li
 
 ### Feedback provider
 
-Feedback providers are the users in an organization who receive a Pulse request. Pulse requests can be received by users if they are part of your organization’s Azure Active Directory tenant. They have the critical role of responding to Pulse requests and providing the feedback needed to power the aggregate reporting and insights for the author.
+Feedback providers are the users in an organization who receive a Pulse request. Pulse requests can be received by users if they are part of your organization’s Microsoft Entra tenant. They have the critical role of responding to Pulse requests and providing the feedback needed to power the aggregate reporting and insights for the author.
 
 ### Viva Pulse admin
 
-Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).
+Users with the Viva Pulse admin role can configure the Viva Pulse experience for their end users from within the Viva Pulse admin experience. Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](./get-started/licensing-requirements.md). This role is assigned to users by a Microsoft 365 Global admin. For more information, see [Assign a Viva Pulse Admin in the Microsoft 365 admin center](./setup-admin-access/assign-a-viva-pulse-admin-in-m365-admin-center.md).

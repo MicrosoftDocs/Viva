@@ -2,8 +2,8 @@
 ms.date: 06/15/2023
 title: Admin tasks for the Viva Insights app
 description: Admin tasks for the Microsoft Viva Insights app available for Microsoft Teams
-author: lilyolason
-ms.author: v-lilyolason
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.collection: 
 - viva-insights-manager
@@ -99,7 +99,7 @@ Set-DefaultTenantMyAnalyticsFeatureConfig -Feature Meeting-Effectiveness-Survey-
 As the admin, you can use the [Exchange Online PowerShell V2](/powershell/module/exchange/set-vivainsightssettings) module to set access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users) for meeting effectiveness surveys.
 
 >[!Note]
->The following user-level configuration can only be modified when users have P1 licenses enabled for Viva Insights.
+>The following admin-level configuration can only be modified when users have a Viva Insights subscription.
 
 #### Check a user's access
 

@@ -1,5 +1,5 @@
 ---
-title: Understand Advanced Configuration options in Viva Glint
+title: Understand Viva Glint Advanced Configuration
 description: For highly trained users, Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 ms.author: SarahBerg
 author: SarahAnneBerg
@@ -14,11 +14,11 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 07/17/2023
 ---
 
-# Understand Advanced Configuration options in Viva Glint
+# Understand Viva Glint Advanced Configuration
 
 For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 
@@ -42,7 +42,7 @@ To access, a Global or Company admin must enable Advanced Configuration access o
 After this enablement, when a user selects the **Configure** symbol, then goes to **Client Settings**, they'll see **Advanced Configuration.**
 
 > [!NOTE]
-> A user may need to refresh or sign into Viva Glint again to seeAdvanced Configuration once enabled.
+> A user may need to refresh or sign into Viva Glint again to see Advanced Configuration once enabled.
 
 ### Grant access to a Support user
 
@@ -54,11 +54,9 @@ To manage external users' access to Viva Glint and Advanced Configuration, follo
 
 View specifics about how data display in Viva Glint reporting and which features are enabled.
 
-| **Setting** | **Description** |
+| Setting | Description |
 | --- | --- |
-| **Disabled** | Disable site, leave unchecked |
 | **Auto Action Plans** | Enable autogeneration of action plans for eligible users |
-| **Logo URL** | No action needed, leave blank |
 | **Custom Surveys Enabled** | Advanced survey customization, no action required. |
 | **Confidentiality threshold (minSampleSize)** | Scores don't display for fewer responses than this threshold. Viva Glint standard: 5 |
 | **Suppression threshold (minGroupSize)** | To prevent guessing the scores of respondent groups with insufficient data, the next biggest group is suppressed until the total insufficient + suppressed = or exceeds this number. Viva Glint standard: 2 |
@@ -85,23 +83,16 @@ View specifics about how data display in Viva Glint reporting and which features
 | **Action Plans to Goals enabled?** | No action needed, leave as true |
 | **Questionnaire Theme** | Default theme selected. No action needed, leave blank |
 | **Enable Cross Program Filtering?** | Filter results across multiple surveys programs. Viva Glint standard: true |
-| **Always aggregate trending?** | Regardless of questions included trend question aggregates over time. Viva Glint standard: false |
-| **Community Access Enabled** | Enable access to the Viva Glint Community within the platform |
 | **Does the client have LinkedIn Learning LSEP license?** | Employees have unlimited access to all LinkedIn Learning content |
 | **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow-up questions in surveys. Viva Glint standard: 15 |
 | **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that will see in-product feedback questions in their dashboard. Viva Glint standard: 10 |
 | **Enable Filter Suppression on Scores** | Disable users' ability to filter to teams whose scores are suppressed |
-| **Diversity Data Amendment (DDA) Signed?** | No action needed, leave blank |
-| **Client Data Retention Period in Months** | For automated deletion of survey results data (excludes user data), enter number of months to retain. Must be a whole number, minimum: 6 |
-| **SFTP IP Addresses** | [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339) |
 
 ### Menu option - Surveys
 
 For a simpler view of existing survey programs, from the admin dashboard, select the **Configure** symbol, then in **Surveys** select **Survey Programs**. Use the **Advanced Configuration Surveys** option to view advanced technical details related to your survey programs including:
 
-- UUID
-- Last Modified information
-- Deleted surveys
+- Last modified by user
 - Name
 - Type
 - State
@@ -112,9 +103,8 @@ For a simpler view of existing survey programs, from the admin dashboard, select
 
 Select a survey program to view more details and options:
 
-| **Setting** | Description |
+| Setting | Description |
 | --- | --- |
-| **UUID** | Survey universally unique identifier |
 | **State** | ACTIVE (ready to be enabled) or DRAFT (edit mode) |
 | **Domain** | No action needed, leave blank |
 | **Survey Trigger Type** | How surveys generate: Schedule, Event (example: Hire Date), User Initiated |
@@ -124,7 +114,6 @@ Select a survey program to view more details and options:
 | **Survey Type** | Recurring, On demand, Employee Lifecycle (ELC), or Always-On |
 | **Event Trigger Survey Minimum Pulsing Interval (Days)** | Minimum days before a user can be surveyed again |
 | **Icon Name (css class)** | No action needed, leave blank |
-| **Email Sender Name** | No action needed, leave blank |
 | **Contact Method** | Company Email or Company and Personal Email |
 | **Minimum Sample Size** | Blank. Refer to platform-level settings in Details |
 | **Minimum Group Size** | Blank. Refer to platform-level settings in Details |
@@ -138,9 +127,8 @@ Select a survey program to view more details and options:
 | **Run action plans** | True. Generate action plans for eligible users |
 | **Default survey locale** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Additional Survey Locales** | Displays selection from Survey Programs: Survey: Program Setup |
-| **Questionnaire Theme** | Default theme selected. No action needed, leave blank |
 | **Enable Follow Up** | Enable follow up questions that encourage more open-ended comments in surveys |
-| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity |
+| **Sensitive Comments** | Enable sensitive comment flagging in the admin view of the Comments report for personally identifiable information (PII), sensitive topics, and profanity [Learn more](https://go.microsoft.com/fwlink/?linkid=2247846) |
 
 ### Menu option - Users
 
@@ -148,23 +136,16 @@ To export Viva Glint users, go to the admin dashboard, select the **Configure** 
 
 ### Menu option - External Import
 
-Import external data from non-Viva Glint survey results to see trend for past items that will continue to be asked in Viva Glint survey programs.
+Import external data from non-Viva Glint survey results to see trend for past items that will continue to be asked in Viva Glint survey programs. [Learn more](https://go.microsoft.com/fwlink/?linkid=2244872).
 
 ### Menu option - Data Apps
 
-Use Viva Glint Data Apps to audit, update file import configurations, and export recipients for closed surveys.
+Use Viva Glint Data Apps to export recipients or update attribute values for users in closed surveys. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
 
-| **App UUID** | **Description** |
+| App UUID | Description |
 | --- | --- |
 | **EXPORT_USERS_FROM_SURVEY_CYCLE** | Export survey recipients, attributes, and hierarchies as they existed when a survey launched |
 | **RETROACTIVE_PULSE_UPDATE** | Update employee attributes associated with a closed survey cycle |
-| **START_OR_STOP_RUBICON_CLIENT_SAPP** | Enable or disable automated file import |
-| **UPDATE_RUBICON_CLIENT_DERIVED_ATTRIBUTES** | Update attributes that Viva Glint derives based on other fields provided in employee data. For example, Tenure based on Hire Date |
-| **UPDATE_RUBICON_CLIENT_SCHEMA_SAPP** | Refresh your Viva Glint attribute setup and after any derivation updates |
-| **UPLOAD_CLIENT_PGP_PUBLIC_KEY_SAPP** | Upload a public PGP key to encrypt data exported from Viva Glint |
-| **VIEW_CLIENT_PUBLIC_KEY_SAPP** | View public PGP keys on file with Viva Glint for encrypting exported data |
-| **VIEW_RUBICON_CLIENT_DERIVATION_CONFIGURATION_FILE** | View and/or download your current attribute derivation setup file |
-| **VIEW_RUBICON_CLIENT_SETUP_SAPP** | View and/or download your automated import and derivation setup |
 
 ### Menu option - Uploads
 
@@ -176,8 +157,10 @@ Use the Uploads option to:
 
 #### Upload types:
 
-- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk.
-- **USERS_UPLOAD:** To upload employee data to Viva Glint via Secure File Transfer Protocol (SFTP) or the People page, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+- **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+- **USERS_UPLOAD:** 
+   - To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+   - Use the guidance in this article to perform a Retroactive USERS_UPLOAD: [Use Advanced Configuration Uploads](https://go.microsoft.com/fwlink/?linkid=2247341).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
 
 ### Menu option - Running Jobs
