@@ -89,7 +89,8 @@ Only admins and content owners (who were given access through the delegation flo
 Existing interests on the content are also visible as "Interests" under the content description on the content details page.
 
 > [!NOTE]
-> For source tags, only the tags coming from source which are part of the interest inventory (curated through the "Manage Interests" flow) are visible on the content details page. Interest from source tags which are not part of the curated interest inventory aren't displayed on content details page.
+> For source tags, only the tags coming from source which are part of the interest inventory (curated through the "Manage Interests" flow) are visible on the content details page. Interest from source tags that are not part of the curated interest inventory aren't displayed on content details page.
+
 To edit tags for content, select **Edit tags**. An "Edit Interest tags" window opens, in which tags coming from source (if any) are displayed. You can't edit the incoming source tags.
 
 Admins and content owners can search and select up to three interests from the list of curated interests to tag the content. These manually added tags can be deselected to select more relevant interest applicable for the content.
