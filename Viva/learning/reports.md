@@ -2,7 +2,7 @@
 title: Reporting in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/24/2023
 audience: admin
