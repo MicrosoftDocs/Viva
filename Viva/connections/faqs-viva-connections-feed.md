@@ -4,7 +4,7 @@ title: "Frequently asked questions about the Feed for Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

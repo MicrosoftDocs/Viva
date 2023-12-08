@@ -4,7 +4,7 @@ title: "Use audience targeting in Viva Connections to personalize the experience
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

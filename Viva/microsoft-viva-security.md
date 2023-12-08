@@ -3,7 +3,7 @@ title: "Microsoft Viva Privacy, Security, and Compliance"
 ms.reviewer: loreenl
 ms.author: loreenl
 author: loreenla
-manager: pamgreen
+manager: elizapo
 ms.date: 4/20/2023
 audience: Admin
 f1.keywords:

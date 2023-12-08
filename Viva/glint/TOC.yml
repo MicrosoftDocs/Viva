@@ -54,6 +54,9 @@ items:
         items:
           - name: Viva Glint employee attribute fundamentals
             href: setup/attribute-fundamentals.md
+            items: 
+              - name: Set up communications in user time zones
+                href: setup/time-zones.md
           - name: Viva Glint's organizational hierarchy fundamentals
             href: setup/hierarchy-fundamentals.md
           - name: Create your Viva Glint Employee Attribute Template
