@@ -16,7 +16,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard (Preview)
 
 >[!Important]
->This article applies both to the Copilot Dashboard app in Power BI, as well as the Copilot Dashboard in Teams in Viva Insights. For Power BI, this feature is in public preview. Within Viva Insights, the dashboard applies only to preview customers. Features in preview might not be complete and could undergo changes before becoming available in the public release.
+>This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
