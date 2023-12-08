@@ -74,6 +74,8 @@
           href: language-overview.md
         - name: Language preferences in Viva Learning 
           href: language-preferences.md
+        - name: Content tagging and metadata export
+          href: content-tagging.md  
         - name: Reporting in Viva Learning
           href: reports.md
     - name: Troubleshoot
