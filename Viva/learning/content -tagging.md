@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/15/2023
+ms.date: 12/08/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -18,14 +18,14 @@ localization_priority: medium
 description: Learn how you can enrich content metadata with interests to provide better content recommendations and search relevance for learners.
 ---
 
-# Content tagging and content metadata export 
+# Content tagging and content metadata export
 
 Use content tagging and content metadata export in Viva Learning to enable:  
 
-- Tagging content with interests -  admins and content owners (permissions set through Microsoft 365 
+- Tagging content with interests -  admins and content owners (permissions set through Microsoft 365
 groups) can manually tag content with interests.
-- Exporting content metadata - admins and content owners can export content metadata in 
-a csv file for offline review and analysis of interest tags. Users can export metadata for the entire 
+- Exporting content metadata - admins and content owners can export content metadata in
+a csv file for offline review and analysis of interest tags. Users can export metadata for the entire
 content catalog or for a filtered set of content.
 - Viewing interest tags - Learners can see interest tags associated with content on the content details page.
 
@@ -33,25 +33,25 @@ content catalog or for a filtered set of content.
 
 The following roles can export content metadata and edit content tags by accessing **Manage Content Metadata**:
 
-- Knowledge admin 
+- Knowledge admin
 - Knowledge manager  
-- Global Administrator 
-- Feature access management - access delegation through Microsoft 365 group. 
+- Global Administrator
+- Feature access management - access delegation through Microsoft 365 group.
 
 ## Exporting content metadata
 
 This section outlines admin actions and steps to export content metadata.
 
-### Admin actions 
+### Admin actions
 
 Admins and content owners (access set through Microsoft 365 groups) can export content metadata in a csv file for offline review/analysis of interest tags.  
 Admins can share this file with content owners for offline review and analysis of interest tags. They can then update the tags for content, which don't have tags or have inapplicable tags using the Viva Learning deep link in the exported file or by searching for the content in Viva Learning.
 
-Admins and content owners can export content metadata in Viva Learning Admin by navigating to **Manage Content Metadata** and selecting **Bulk Export**. 
+Admins and content owners can export content metadata in Viva Learning Admin by navigating to **Manage Content Metadata** and selecting **Bulk Export**.
 
 ### How to export content metadata
 
-Admins can export content metadata for the entire course catalog or can make a custom selection to export content metadata for a specific set of content. 
+Admins can export content metadata for the entire course catalog or can make a custom selection to export content metadata for a specific set of content.
 
 1. Select the following options:
 
@@ -69,19 +69,19 @@ Processing time is dependent on data export volume and can take up to an hour.
 
 Users are notified that the content metadata export data is complete and can download the exported content metadata.
 
-The exported csv file has the following metadata: 
+The exported csv file has the following metadata:
 
-  - Content ID 
-  - Content Title 
-  - Content Description 
-  - Content Language 
-  - Content Type 
-  - Provider 
-  - Author 
-  - Source tags: Displays the tags coming from source (LMS or content provider). These tags can't be edited in Viva Learning.
-  - Curated tags: Tags that are manually curated by admins or content owners in Viva Learning. Admins and content owners can edit tags on content on Viva Learning through the content details page of the specific content. 
-  - External ID:  The unique ID of the learning content from the external provider.- Provider ID: The unique ID of a provider when registered with Viva Learning.
-  - VL deep-link: Admins and content owners can select on this link for a specific content to go to the Viva Learning content details to update the irrelevant or unavailable tags for specific content.
+- Content ID
+- Content Title
+- Content Description
+- Content Language
+- Content Type
+- Provider
+- Author
+- Source tags: Displays the tags coming from source (LMS or content provider). These tags can't be edited in Viva Learning.
+- Curated tags: Tags that are manually curated by admins or content owners in Viva Learning. Admins and content owners can edit tags on content on Viva Learning through the content details page of the specific content.
+- External ID:  The unique ID of the learning content from the external provider.- Provider ID: The unique ID of a provider when registered with Viva Learning.
+- VL deep-link: Admins and content owners can select on this link for a specific content to go to the Viva Learning content details to update the irrelevant or unavailable tags for specific content.
 
 ## Curating tags on content
 
@@ -98,9 +98,9 @@ Admins and content owners can search and select up to three interests from the l
 The tags appear on the content details page after you save it.
 
 > [!NOTE]
-> Tagging learning collections with interests isn't currently supported. 
+> Tagging learning collections with interests isn't currently supported.
 
 ## Learner view of interest tags
 
-Learner can view an interest's tags (source tags that are part of the interest inventory and curated tags) in a read only mode. 
+Learner can view an interest's tags (source tags that are part of the interest inventory and curated tags) in a read only mode.
 They're able to view this information and search for more content for an appropriate interest as applicable.
