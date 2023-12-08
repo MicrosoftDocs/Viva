@@ -47,7 +47,7 @@ You can use feature access management to manage access to the following features
 |Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|Skill suggestions*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
 
 
 \* Not yet available for all tenants. Support will be added soon.
