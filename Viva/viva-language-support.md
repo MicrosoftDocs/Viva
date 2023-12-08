@@ -25,6 +25,9 @@ description: "Learn about language support in Microsoft Viva"
 The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in  the different Viva modules.
 
 
+## Viva Amplify
+Viva Amplify campaigns can be created in most of the major languages supported by Microsoft 365. Learn which [languages are supported by Viva Amplify](/viva/amplify/viva-amplify-supported-languages).
+
 ## Viva Connections
 Viva Connections is available in most major languages used in Microsoft 365. 
 
