@@ -2,7 +2,7 @@
 title: Search preferences in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/21/2023
 audience: admin
