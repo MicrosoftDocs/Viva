@@ -4,7 +4,7 @@ title: "Use the Feed web part for Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
