@@ -22,7 +22,7 @@ description: Learn how you can enrich content metadata with interests to provide
 
 Use content tagging and content metadata export in Viva Learning to enable:  
 
-- Tagging content with interests -  admins and content owners (permissions set through Microsoft 365
+- Tagging content with interests - admins and content owners (permissions set through Microsoft 365
 groups) can manually tag content with interests.
 - Exporting content metadata - admins and content owners can export content metadata in
 a csv file for offline review and analysis of interest tags. Users can export metadata for the entire
@@ -84,22 +84,21 @@ The exported csv file has the following metadata:
 
 ## Curating tags on content
 
-Only admins and content owners (who were given access through the delegation flow) can edit tags for content on the content details page. Interests coming from source (LMS or content provider) and interests curated by admins or content owners are visible here.
+Only admins and content owners (who were given access through the delegation flow) can edit tags for content on the content details page. Interests coming from source (LMS or content provider) and interests curated by admins or content owners are visible here. 
 
 Existing interests on the content are also visible as "Interests" under the content description on the content details page.
 
 > [!NOTE]
 > For source tags, only the tags coming from source which are part of the interest inventory (curated through the "Manage Interests" flow) are visible on the content details page. Interest from source tags that are not part of the curated interest inventory aren't displayed on content details page.
 
-To edit tags for content, select **Edit tags**. An "Edit Interest tags" window opens, in which tags coming from source (if any) are displayed. You can't edit the incoming source tags.
+To edit tags for content, select **Edit**. An "Edit Interest tags" window opens, in which tags coming from source (if any) are displayed, source tags which are not part of the curated interest inventory are differentiated with an 'i' icon. You can't edit the incoming source tags. 
 
 Admins and content owners can search and select up to three interests from the list of curated interests to tag the content. These manually added tags can be deselected to select more relevant interest applicable for the content.
 
 The tags appear on the content details page after you save it.
 
 > [!NOTE]
-> Tagging learning collections with interests isn't currently supported.
-
+> Tagging learning collections with interests isn't currently supported. Currently, source tags from SuccessFactors is not supported as SuccessFactors package does not support tags on content.
 ## Learner view of interest tags
 
 Learner can view an interest's tags (source tags that are part of the interest inventory and curated tags) in a read only mode.
