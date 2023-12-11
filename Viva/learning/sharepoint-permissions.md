@@ -37,7 +37,6 @@ Document library folder URLs can be collected from any SharePoint site in the or
 > [!NOTE]
 > You'll need to add the owners as members in order for them to have access.
 
-
 2. Go to the folder where you're storing learning content in SharePoint.
 3. Select the vertical ellipses (**...**) on the item you want to control access to. If you want to control access to specific items in a folder, go to that folder.
 4. Select **Manage access** and then **Grant access**.
@@ -62,11 +61,10 @@ Document library folder URLs can be collected from any SharePoint site in the or
 
 ![Image of the SharePoint permissions page that displays "domain group" as the property in the "type" column.](../media/learning/sharepoint-permissions.png)
 
-
 > [!NOTE]
 > It will take approximately 24 hours for these changes to show up in the Viva Learning app.
 
-9. If the group is not present: 
+9. If the group is not present:
 
  - A M365 group or MESG group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups.
  - To see if group is already present, click on the folder, go to **Manage access,** select **More options,** then **Advanced settings**> and finally **Check permissions**
