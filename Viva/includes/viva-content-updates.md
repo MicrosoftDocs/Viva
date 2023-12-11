@@ -2,6 +2,30 @@
 
 
 
+## Week of December 04, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 12/4/2023 | [Introduction to Microsoft Viva Goals](/viva/goals/intro-to-ms-viva-goals) | modified |
+| 12/4/2023 | [Benefits of OKRs](/viva/goals/benefits-of-okrs) | added |
+| 12/4/2023 | [Ensuring OKR program success](/viva/goals/ensuring-okr-success) | added |
+| 12/4/2023 | [OKR superpowers](/viva/goals/okr-superpowers) | added |
+| 12/5/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
+| 12/5/2023 | [Manage Skills Library](/viva/skills/manage-skills-library) | added |
+| 12/5/2023 | [Set up Skills in Viva](/viva/skills/skills-get-started) | added |
+| 12/5/2023 | [Overview of Skills in Viva](/viva/skills/skills-overview) | added |
+| 12/6/2023 | [Use Viva Glint benchmarks](/viva/glint/setup/benchmarks) | modified |
+| 12/6/2023 | [Viva Glint Manager Quick Guides](/viva/glint/setup/manager-quick-guides-overview) | added |
+| 12/6/2023 | [Manager Quick Guide - Confidentiality](/viva/glint/setup/quick-guide-confidentiality) | added |
+| 12/6/2023 | [Determine your rollout plan](/viva/goals/determine-your-rollout-plan) | modified |
+| 12/6/2023 | [Connect to the Microsoft Copilot Dashboard (Preview)](/viva/insights/org-team-insights/copilot-dashboard) | modified |
+| 12/7/2023 | [Communicate with Viva Glint users based on time zone](/viva/glint/setup/time-zones) | added |
+| 12/7/2023 | [Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning](/viva/learning/sharepoint-permissions) | modified |
+| 12/8/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
+| 12/8/2023 | [Content tagging and content metadata export](/viva/learning/content-tagging) | added |
+
+
 ## Week of November 27, 2023
 
 
