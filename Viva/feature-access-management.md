@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 12/08/2023
+ms.date: 12/11/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -148,6 +148,8 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ## How access policies work in Viva
 
 Here's how access policies work in Viva:
+
+:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
 
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
 - If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
