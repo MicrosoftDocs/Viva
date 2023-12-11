@@ -62,6 +62,8 @@
       items: 
         - name: Manage Catalog Access 
           href: manage-catalog-access.md
+        - name: Provider Permissions 
+          href: provider-permissions.md
         - name: Creating Learning paths
           href: creating-learning-paths.md
         - name: Create collections

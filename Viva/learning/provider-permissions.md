@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/02/2023
+ms.date: 12/11/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -23,7 +23,6 @@ description: Control access to content from a provider so only certain users can
 You can control access to all catalog and content from a provider so a specific set of user groups can discover the content in Viva Learning.
 Content from a provider is discoverable by everyone in your organization, by default. When content is shown to everyone, the access column displays "Public."
 
-
 > [!NOTE]
 > - Any changes to permissions - adding, editing, or deleting - can take up to two hours to reflect in Viva Learning.
 > - You can select up to a maximum of ten user groups.
@@ -34,15 +33,15 @@ Content from a provider is discoverable by everyone in your organization, by def
 
 1. Go to the **Admin** tab, then **Manage Permissions**.
 
-1. Under **Manage Permissions**, select the **Provider** tab.
+2. Under **Manage Permissions**, select the **Provider** tab.
 
-1. To add permissions, select Edit (pencil icon).
+3. To add permissions, select Edit (pencil icon).
 
-1. Choose the user groups who need to get access. 
+4. Choose the user groups who need to get access.
 
-1. Select **Save**. Now, only the members of this group can find this provider and its content in Viva Learning. 
+5. Select **Save**. Now, only the members of this group can find this provider and its content in Viva Learning.
 
-7. To edit permissions, navigate to the edit menu. You can add new groups or remove existing ones. 
+6. To edit permissions, navigate to the edit menu. You can add new groups or remove existing ones.
 
 
 ![Screenshot of the Edit Permissions menu with option to edit access of user groups.](../media/learning/provider-permissions-2.png)
