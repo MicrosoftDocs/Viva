@@ -16,6 +16,7 @@ ms.collection:
   - Tier1
 ms.localizationpriority: medium
 description: Enable inline playback to play SAP SuccessFactors courses in Viva Learning.
+ROBOTS: NO IDEX, UNFOLLOW
 ---
 
 # Enable inline playback
@@ -47,3 +48,4 @@ You may encounter a "refused to connect" error or a blank screen the first time 
 
 >[!NOTE]
 > If the SSO on both Microsoft Entra ID and SAP SuccessFactors are already configured in the tenant, as described in the above documentation, then no action is required.
+
