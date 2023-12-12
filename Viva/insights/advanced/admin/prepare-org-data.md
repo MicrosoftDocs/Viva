@@ -208,7 +208,7 @@ Employee collaboration activity will be mapped to the most recent organizational
 This section contains information about the attributes that you use in the organizational data files uploaded to the advanced insights app.
 
 >[!Note]
->If you share data from Viva Insights with the Organizational Data in Microsoft 365 feature, some of the attributes listed below are shared. [Learn more about Organizational Data in Microsoft 365](/viva/organizational-data#data-uploaded-from-viva-insights).
+>If you share data from Viva Insights with the Organizational Data in Microsoft 365 feature, some of the attributes listed below are shared. Any attribute, however, that contains **Microsoft_** will not be available in Viva Insights. [Learn more about Organizational Data in Microsoft 365](/viva/organizational-data#data-uploaded-from-viva-insights).
 
 |Attribute (column header) | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
@@ -233,9 +233,6 @@ This section contains information about the attributes that you use in the organ
 <sup> 3. You don’t have to include any of these reserved fields. However, if you do use them, retain these column names.</sup>
 
 <sup> 4. You’re not required to include custom attributes. If you do add them, however, they can’t have the same name as any of the required or reserved attributes. </sup>
-
->[!Note]
->Any attribute that contains **Microsoft_** will not be available in Viva Insights.
 
 ### Attribute notes and recommendations
 
