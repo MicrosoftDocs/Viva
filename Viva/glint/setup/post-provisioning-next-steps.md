@@ -53,6 +53,7 @@ Compile a file of administrators to upload to Viva Glint with the following colu
 Upload your administrators to Viva Glint Advanced Configuration:
 
 1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+   1. If there is no **Advanced Configuration** option, go to your user profile and in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
 1. Switch the **Incremental** toggle on.
