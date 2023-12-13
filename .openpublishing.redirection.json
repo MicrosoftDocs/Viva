@@ -1939,6 +1939,11 @@
       "source_path": "viva/goals/use-ms-teams-integration.md",
       "redirect_url": "/viva/goals/ms-teams-integration",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/learning/sfsf-enable-browser-optimized-playback.md",
+      "redirect_url": "/viva/learning/sfsf-enable-inline-playback",
+      "redirect_document_id": true
     }
   ]
 }
