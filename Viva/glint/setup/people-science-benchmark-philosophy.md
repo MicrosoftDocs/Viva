@@ -1,8 +1,9 @@
 ---
 title:  Viva People Science - Philosophy on appropriate use of benchmarks as comparisons
 description: Viva Glint believes benchmarks provide useful level-setting comparisons during an initial survey, but are not nearly as useful to the organization as internal and historical comparisons in subsequent surveys.
-author: KatieTurnbull
-manager: JaimeGonzales
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -19,7 +20,7 @@ ms.date: 12/13/2023
 
 # Viva People Science - Philosophy on appropriate use of benchmarks as comparisons
 
-![This resource is published by the Viva Glint People Science team.](Viva/media/glint/reports/benchmark-cover-image.png)
+:::image type="content" source="../../media/glint/reports/benchmark-cover-image.png" alt-text="This resource is published by the Viva Glint People Science team.":::
 
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they are not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
@@ -47,4 +48,5 @@ For industry and country benchmarks, Viva Glint takes extra steps to ensure a su
 -	Leveraging a blended score for individual items slightly below the threshold
  - 	This blended score is based on relationships found with the Global benchmark, combined with the client data for the suite itself
 
-![Viva Glint ensures that your benchmark suite includes all core Engagement items.](Viva/media/glint/reports/benchmark-arrows.png)
+:::image type="content" source="../../media/glint/reports/benchmark-arrows.png" alt-text="Viva Glint ensures that your benchmark suite includes all core Engagement items.":::
+
