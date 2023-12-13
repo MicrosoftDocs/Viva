@@ -83,7 +83,7 @@ This process requires that you use Microsoft Graph API, an API with separate [re
 |Task description|Instructions|
 |----------------|----------------|
 |A. Configure the multitenant organization and participating tenants in the Microsoft 365 admin center.|<ol><li>Sign into the owner tenant and create a multitenant organization.</li><li>Add all tenants to the multitenant organization. See [Configure a multitenant organization using the Microsoft Graph API](/graph/use-the-api|
-|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.||
+|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.|/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-templates|
 |C. Synchronize across the multitenant organization.|See [Configure cross-tenant synchronization](/azure/active-directory/multi-tenant-organizations/cross-tenant-synchronization-configure).|
 |D. If you run into problems, troubleshoot the issue.|See [Known issues for multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues).|
 
