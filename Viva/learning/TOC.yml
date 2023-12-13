@@ -34,7 +34,7 @@
           - name: Manage SAP SuccessFactors permissions
             href: sfsf-manage-permissions.md
           - name: Enable inline playback
-            href: sfsf-enable-browser-optimized-playback.md
+            href: sfsf-enable-inline-playback.md
         - name: SharePoint
           items: 
             - name: Add SharePoint
