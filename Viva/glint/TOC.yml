@@ -54,6 +54,9 @@ items:
         items:
           - name: Viva Glint employee attribute fundamentals
             href: setup/attribute-fundamentals.md
+            items: 
+              - name: Set up communications in user time zones
+                href: setup/time-zones.md
           - name: Viva Glint's organizational hierarchy fundamentals
             href: setup/hierarchy-fundamentals.md
           - name: Create your Viva Glint Employee Attribute Template
@@ -97,6 +100,9 @@ items:
             href: setup/question-library.md
           - name: Use Viva Glint benchmarks
             href: setup/benchmarks.md
+            items:
+              - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
+                href: setup/people-science-benchmark-philosophy.md 
           - name: Customize action plans in Viva Glint
             href: setup/customize-action-plans.md
           - name: Manage language translations in Viva Glint programs
