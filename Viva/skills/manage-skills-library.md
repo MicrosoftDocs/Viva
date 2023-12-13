@@ -2,7 +2,7 @@
 title: Manage Skills Library
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/30/2023
 audience: admin
