@@ -2,7 +2,7 @@
 title: Set up Microsoft Viva Learning in the Teams admin center
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 10/27/2021
 audience: admin

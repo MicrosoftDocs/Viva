@@ -2,7 +2,7 @@
 title: Privacy and security in Microsoft Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 ms.reviewer: smathurin
 ms.date: 09/13/2023
 audience: admin
