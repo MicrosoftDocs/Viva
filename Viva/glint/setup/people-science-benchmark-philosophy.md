@@ -24,7 +24,7 @@ ms.date: 12/13/2023
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they are not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
 - With nearly 10 years of experience with benchmarking, we serve over 1300 global customers from across nearly every industry. Most of our customers use common survey questions, thus enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data* exclusively.
-- If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (e.g., an industry-specific) norm.
+- If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (for example, an industry-specific) norm.
 
 >[!NOTE]
 > Viva Glint’s benchmark database contains benchmarks on more than 200 survey questions derived from survey responses representing 328 million data points over the last 12 months.
@@ -32,16 +32,16 @@ At Viva Glint, we believe benchmarks provide useful, level-setting comparisons d
 ## Robust benchmarks come from our 1300+ customer database
 
 With one of the largest customer databases in the world at 1300+ companies, Viva Glint can produce the most robust benchmarks in the industry using a rolling 12-month database. 
-We know our clients' data, so we can answer questions we get from customers about composition of the data, like how many companies are represented, size of companies, etc.
+We know our clients' data, so we can answer questions about composition of the data, like how many companies are represented, size of companies, for example.
 
 ## Benchmarks are frequently refreshed
 
-With our vast database, we are able to update our Global and Global High Performing benchmarks every 6 months. This will ensure our most popular benchmarks keep up with rapid changes in the marketplace. Most other suites are updated annually.
+With our vast database, we are able to update our Global and Global High Performing benchmarks every 6 months. This ensures our most popular benchmarks keep up with rapid changes in the marketplace. Most other suites are updated annually.
 Additionally, we review item usage across our entire taxonomy twice a year to ensure we are benchmarking the largest possible set of items
 
 ## Viva Glint’s benchmark generation process ensures data validity
 
-For industry and country benchmarks, Viva Glint performs additional steps to ensure a suite will have all core Engagement items, including:
+For industry and country benchmarks, Viva Glint takes extra steps to ensure a suite will have all core Engagement items, including:
 -	Review of number of core items used by at least 15 clients
  -	If fewer than 15 of the 21 core items meet the threshold, the suite will be tagged as “Developing,” as we expect greater volatility of scores
 -	Leveraging a blended score for individual items slightly below the threshold
