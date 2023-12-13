@@ -102,7 +102,7 @@ items:
             href: setup/benchmarks.md
             items:
               - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
-                href: setup/people-science-benchmark-philosophy.md
+                href: setup/people-science-benchmark-philosophy.md 
           - name: Customize action plans in Viva Glint
             href: setup/customize-action-plans.md
           - name: Manage language translations in Viva Glint programs
