@@ -4,13 +4,6 @@
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
       "redirect_document_id": true
-      
-    },
-    {
-      "source_path": "viva/learning/sfsf-enable-inline-playback.md",
-      "redirect_url": "/viva/learning/sfsf-enable-browser-optimized-playback",
-      "redirect_document_id": true
-      
     },
     {
       "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
@@ -1945,6 +1938,11 @@
     {
       "source_path": "viva/goals/use-ms-teams-integration.md",
       "redirect_url": "/viva/goals/ms-teams-integration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/learning/sfsf-enable-browser-optimized-playback.md",
+      "redirect_url": "/viva/learning/sfsf-enable-inline-playback",
       "redirect_document_id": true
     }
   ]
