@@ -1946,6 +1946,11 @@
       "source_path": "viva/goals/use-ms-teams-integration.md",
       "redirect_url": "/viva/goals/ms-teams-integration",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/experience-role.md",
+      "redirect_url": "/viva/microsoft-viva-overview",
+      "redirect_document_id": true
     }
   ]
 }
