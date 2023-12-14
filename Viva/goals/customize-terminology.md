@@ -3,7 +3,7 @@ ms.date: 12/14/2023
 title: Customize terminology in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
-author: v-nstockwell
+author: DefinitelyNotNitza
 manager: Liz.Pierce
 audience: Admin
 f1.keywords:
