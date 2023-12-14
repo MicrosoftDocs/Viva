@@ -3,7 +3,7 @@ title: "Microsoft Viva for the hybrid workplace: Frontline workers"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 ms.date: 4/20/2023
 audience: Admin
 f1.keywords:
