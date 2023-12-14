@@ -3,7 +3,7 @@ title: Use the Viva Glint Question Library
 description: "Choose from hundreds of questions and statements to surface feedback that will provide data to support your company goals."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

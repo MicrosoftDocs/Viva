@@ -3,7 +3,7 @@ title:  Manage external users in Viva Glint
 description: Grant access to and remove Viva Glint Support users to assist in deployment, advanced insights analysis, and complex Support tasks
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: External user, partner, support, add user
