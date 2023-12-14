@@ -3,7 +3,7 @@ title: Recommendations for using Viva Glint Survey Coach and Tooltips
 description: Viva Glint provides helpful in-platform features - *Survey Coach* and *Tooltips* to guide you through the program setup.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

@@ -3,7 +3,7 @@ title: Access to Viva Glint raw survey responses
 description: Admins can export employee data and raw data from Viva Glint programs.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Microsoft Viva Glint, raw data
