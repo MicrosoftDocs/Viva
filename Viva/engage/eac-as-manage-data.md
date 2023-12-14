@@ -4,7 +4,7 @@ description: "Describes where and how admins can manage data in the Viva Engage 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 11/02/2023
 audience: Admin
 f1.keywords:
