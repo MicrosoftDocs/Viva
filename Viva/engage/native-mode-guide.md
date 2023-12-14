@@ -5,7 +5,7 @@ description: "Learn about the process of migrating to Native Mode with this in-d
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
