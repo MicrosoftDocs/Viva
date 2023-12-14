@@ -3,7 +3,7 @@ title: Understand Viva Glint programs and cycles
 description: "Once a Viva Glint program is set up, future surveys are edited at the individual cycle (survey) level."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

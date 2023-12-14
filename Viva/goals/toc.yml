@@ -76,6 +76,8 @@ items:
       href: managing-okr-time-periods.md
     - name: Import OKRs and initiatives with Viva Goals
       href: import-okrs-projects.md
+    - name: Customize Goals terminology
+      href: customize-terminology.md
     - name: Renaming initiatives
       href: renaming-initiatives.md
     - name: Custom embed URL widget

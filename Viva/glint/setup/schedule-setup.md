@@ -3,7 +3,7 @@ title: Set up Schedule page in Program Summary
 description: "On the Schedule page, you indicate when and how often your survey program is sent."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
