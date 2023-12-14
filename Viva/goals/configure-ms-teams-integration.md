@@ -1,6 +1,6 @@
 ---
-ms.date: 07/04/2022
-title: Add the Viva Goals app
+ms.date: 12/14/2023
+title: Add Viva Goals to Microsoft Teams
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -17,17 +17,17 @@ ms.collection:
 - vg-integration
 search.appverid:
 - MET150
-description: "Learn how to add Viva Goals to Microsoft Teams to easily view, manage and share OKRs across your organization, without leaving Microsoft Teams."
+description: "Learn how to add Viva Goals to Microsoft Teams so you can view, manage, and share OKRs without leaving Teams."
 ---
 
-# Add the Viva Goals app
+# Add Viva Goals to Microsoft Teams
 
-This article describes how to install the Viva Goals app in Microsoft Teams for yourself or your entire organization. The app helps you set up, manage, and track your team's goals from within Microsoft Teams. The final section of this article explains how to use the app in Outlook or Office.com.
+This article describes how to install the Viva Goals app in Microsoft Teams for yourself or your entire organization. The app helps you set up, manage, and track your team's goals from within Microsoft Teams. The final section of this article explains how to use the app in Outlook or Microsoft 365.
 :::image type="content" source="../media/goals/msteams-integration/opening-screenshot.png" alt-text="Screenshot shows a view of Viva Goals in Microsoft Teams." lightbox="../media/goals/msteams-integration/opening-screenshot.png":::
 
 ## Install the Viva Goals app for yourself in Microsoft Teams
 
-There are multiple ways to install the Viva Goals app in Teams. The first way is to select the ellipsis [**…**] button on the navigation bar on the left side, search for Viva Goals, and then select the Viva Goals app from the list of search results.
+There are multiple ways to install the Viva Goals app in Teams. The easiest way is to select the ellipsis (three dots) on the left-hand navigation bar, search for Viva Goals, and then select **Add** next to the Viva Goals app in the list of search results. <!--Editor's Note: Should "Add" be removed in favor of sipmly the Viva Goals app? I added "Add," but it isn't reflected in the current image.-->
 
 :::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Screenshot that shows how to search for and add the Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
@@ -132,4 +132,4 @@ The Viva Goals app for Microsoft Teams is a Teams app that also works on Outlook
 
 If the app is installed by a user in Microsoft Teams, it will automatically show up in Outlook and Microsoft 365. As an admin, you can also deploy these apps on Outlook and Microsoft 365 for your organization, using the Integrated Apps portal on the Microsoft 365 Admin Center. Note that deployment and management for the app is separately managed from Microsoft Teams. Microsoft Teams deployments are controlled from the Teams Admin Center, while Outlook and Microsoft 365 deployments are controlled from the Microsoft 365 Admin Center, Integrated apps section.
 
-For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365 - Microsoft 365 admin | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide).
+For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365](https://learn.microsoft.com/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
