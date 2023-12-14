@@ -4,7 +4,7 @@ description: "Learn about admin roles and permissions in Viva Engage and how to 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/28/2023
 audience: Admin
 f1.keywords:

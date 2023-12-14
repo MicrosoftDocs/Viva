@@ -5,7 +5,7 @@ description: "View Viva Engage events through Microsoft 365 Management API and M
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

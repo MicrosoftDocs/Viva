@@ -4,7 +4,7 @@ description: "Storyline empowers everyone within your organization to connect an
 ms.reviewer: john.bacus
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 8/22/2023
 audience: Admin
 f1.keywords:
