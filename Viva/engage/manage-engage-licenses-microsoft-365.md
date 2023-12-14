@@ -5,7 +5,7 @@ description: "Viva Engage is moving toward a licensing model that licenses indiv
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
