@@ -1,6 +1,6 @@
 ---
 
-ms.date: 12/1/2023
+ms.date: 12/14/2023
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -174,6 +174,12 @@ Contact your Microsoft account team for pricing. If you have questions about lic
 For the best experience, use Microsoft Edge or Google Chrome.
 
 Apple Safari and Mozilla Firefox are not preferred browsers for the advanced insights app available with Viva Insights. Internet Explorer is no longer a supported browser.
+
+## Service availability during an outage
+
+Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
+
+If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports in read-only mode, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, can't create new queries or reports until the primary region is back up and running.
 
 ## Related topics
 
