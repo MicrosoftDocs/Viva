@@ -28,18 +28,6 @@ With 10 years of experience with benchmarking, Viva Glint now serves over 900 gl
 
 We strongly urge our customers to use our standards - the overall global and high-performance benchmarks (top 10th & top 25th percentile). They're more powerful and aspirational than a custom norm (For example, industry-specific). 
 
-Download this People Science slide deck to view the following research: 
-
-- Customer-based benchmarks: Provide more value at lower cost 
-- Custom benchmarks: Not worth the time, cost, and effort 
-- The 2022 Global Benchmark Suite at-a-glance 
-- The new benchmark generation process 
-- Benchmark offerings:
-   - Global benchmarks 
-   - Industry benchmarks
-   - Country benchmarks
-   - Nursing Excellence (Magnet) benchmarks
-
 > [!IMPORTANT]
 > Viva Glint does not share the names of customers included in benchmark research.
 
