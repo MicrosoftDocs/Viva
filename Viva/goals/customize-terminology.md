@@ -1,5 +1,5 @@
 ---
-ms.date: 12/13/2023
+ms.date: 12/14/2023
 title: Customize terminology in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -24,7 +24,7 @@ description: "Learn how to customize terminology in Viva Goals."
 
 # Customize terminology in Viva Goals
 
-Viva Goals allows admins to customize terminology from pre-defined lists of options so that the words used make sense to everyone in their organizations. Currently, the following terms can be customized:
+Viva Goals allows admins to customize terminology using pre-defined lists of options so that the words used make sense to everyone in their organizations. Currently, the following terms can be customized:
 
 * **OKR** can be changed to **Goal**.
 
