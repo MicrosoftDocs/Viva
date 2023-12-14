@@ -3,7 +3,7 @@ title: Upload your employee attributes in Viva Glint
 description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: file requirements, upload attributes, manual upload, update attributes, Employee Attribute File

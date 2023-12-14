@@ -3,7 +3,7 @@ title: Set up attribute-based survey access in Viva Glint
 description: Microsoft Viva Glint's attribute-based survey access allows users without a corporate email account to complete confidential surveys. 
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: variables & Product text, attribute-based URL, survey access 

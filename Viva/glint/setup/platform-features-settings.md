@@ -3,7 +3,7 @@ title: Viva Glint program features and settings
 description: Follow Viva Glint guidance to make the most of your platform features and settings.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: SFTP, public SSH key, upload SSH key

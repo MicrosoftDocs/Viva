@@ -3,7 +3,7 @@ title: Choose your comparison data for Viva Glint reporting
 description: Choosing the right comparison data when setting up feedback reporting sets the right context for understanding strengths and opportunities.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Benchmarks, global benchmark, internal benchmark, external benchmark, survey comparators, My Teams, Average Question
