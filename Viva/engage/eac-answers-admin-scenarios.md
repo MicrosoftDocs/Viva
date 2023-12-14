@@ -4,7 +4,7 @@ description: "Describes administration of Answers in Viva Engage for the Microso
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/28/2023
 audience: Admin
 f1.keywords:

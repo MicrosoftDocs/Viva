@@ -5,7 +5,7 @@ description: "Key concepts for planning how to administer your new Viva Engage n
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

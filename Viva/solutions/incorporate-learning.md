@@ -16,7 +16,7 @@ ms.collection:
   - m365solution-overview
   - highpri
   - Tier1
-manager: pamgreen
+manager: elizapo
 audience: Admin
 ---
 
