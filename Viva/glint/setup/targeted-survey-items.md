@@ -3,7 +3,7 @@ title: Targeting and excluding items in a Viva Glint survey
 description: Viva Glint surveys can target or exclude items based on predefined Distribution Lists. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: tenant, viva glint tenant

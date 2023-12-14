@@ -3,7 +3,7 @@ title: Set up a Viva Glint Team Effectiveness survey
 description: For organizations to realize their full potential, a greater focus is needed on measuring and facilitating team effectiveness rather than individual performance. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

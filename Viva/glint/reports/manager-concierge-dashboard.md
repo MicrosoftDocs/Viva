@@ -3,7 +3,7 @@ title: Use the Manager Concierge dashboard in Viva Glint
 description: "Manager Concierge is a dashboard feature, which assists managers to understand survey results, share them with their teams, and take ongoing action."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
