@@ -29,7 +29,7 @@ Managers who have both Manager Concierge and Team Conversations enabled, receive
 
 ## View Manager Concierge without Team Conversations  
 
-Managers follow these prescribed steps, which autoupdate as they progress: 
+Managers follow these prescribed steps, which automatically update as they progress: 
 
 1. Give feedback: Managers receive emails or notifications to remind their teams to submit feedback. 
 
@@ -41,7 +41,7 @@ Managers follow these prescribed steps, which autoupdate as they progress:
 
 ## View Manager Concierge with Team Conversations 
 
-Managers follow these prescribed steps, which autoupdate as they progress: 
+Managers follow these prescribed steps, which automatically update as they progress: 
 
 1. As above 
 
