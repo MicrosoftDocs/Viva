@@ -3,7 +3,7 @@ title: Program setup in Program Summary
 description: "In Program Setup you define the basics of your program, such as its name and what languages will be needed."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

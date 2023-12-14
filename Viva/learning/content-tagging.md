@@ -2,7 +2,7 @@
 title: Content tagging and content metadata export  
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 12/08/2023
 audience: admin
