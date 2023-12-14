@@ -38,21 +38,21 @@ Viva Goals allows admins to customize terminology using pre-defined lists of opt
 
 1. In the tenant admin settings, navigate to the **Custom Terminology** tab.
 
-    ![image1](..\media\goals\customize-terminology\tenant-level-1.png)
+    ![Screenshot that shows a view of the Custom Terminology tab in tenant admin settings.](..\media\goals\customize-terminology\tenant-level-1.png)
 
 1. In the table's **Current terms** column, choose the terms you would like to be used for all organizations in the tenant.
 
-    ![image2](..\media\goals\customize-terminology\tenant-level-2.png)
+    ![Screenshot that shows an active drop-down menu in the Current terms column.](..\media\goals\customize-terminology\tenant-level-2.png)
 
 1. Optional: Select **Preview** to see what goals will look like to users.
 
-    ![image3](..\media\goals\customize-terminology\tenant-level-3.png)
+    ![Screenshot that shows a preview of how the selected terminology will look with real goals.](..\media\goals\customize-terminology\tenant-level-3.png)
 
 1. Select **Save** to apply your changes to all organizations in the tenant.
 
-    ![image4](..\media\goals\customize-terminology\tenant-level-4.png)
+    ![Screenshot that shows a Save changes dialog.](..\media\goals\customize-terminology\tenant-level-4.png)
 
-    ![image5](..\media\goals\customize-terminology\tenant-level-5.png)
+    ![Screenshot that shows the new Goals terminology in the actual user experience.](..\media\goals\customize-terminology\tenant-level-5.png)
 
 ## Allow organization admins to customize their own orgs' terminology
 
@@ -62,7 +62,7 @@ Tenants with multiple organizations can choose to allow organization admins to c
 
 1. Turn on the toggle to allow organization admins to customize terminology at the org level.
 
-    ![image6](..\media\goals\customize-terminology\org-admin-1.png)
+    ![Screenshot that shows the custom terminology toggle turned on.](..\media\goals\customize-terminology\org-admin-1.png)
 
 1. Saving your changes will allow org admins to customize Goals terminology for their organizations. The default settings for new organizations will continue to be the tenant settings.
 
@@ -75,7 +75,7 @@ Tenants with multiple organizations can choose to allow organization admins to c
 
 1. Visit the **Custom Terminology** tab in the organization settings page (that is, the admin dashboard accessible by selecting the **Admin** tab in the left-hand nav, as shown below).
 
-    ![image7](..\media\goals\customize-terminology\org-level-1.png)
+    ![Screenshot that shows the Custom Terminology tab in the admin dashboard.](..\media\goals\customize-terminology\org-level-1.png)
 
 1. If the tenant allows individual organizations to customize their Goals terminology, you can select your preferred terms from the dropdown menus in the **Current terms** column.
 
