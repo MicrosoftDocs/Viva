@@ -96,7 +96,7 @@ items:
         href: ms-teams-integration.md
       - name: Add the Viva Goals app to Microsoft Teams
         href: configure-ms-teams-integration.md
-      - name: Link Previews in Microsoft Teams
+      - name: Link previews
         href: ms-teams-link-preview.md
       - name: Notifications in Teams
         href: ms-teams-notifications.md
