@@ -132,4 +132,4 @@ The Viva Goals app for Microsoft Teams is a Teams app that also works on Outlook
 
 If the app is installed by a user in Microsoft Teams, it will automatically show up in Outlook and Microsoft 365. As an admin, you can also deploy these apps on Outlook and Microsoft 365 for your organization, using the Integrated Apps portal on the Microsoft 365 Admin Center. Note that deployment and management for the app is separately managed from Microsoft Teams. Microsoft Teams deployments are controlled from the Teams Admin Center, while Outlook and Microsoft 365 deployments are controlled from the Microsoft 365 Admin Center, Integrated apps section.
 
-For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365](https://learn.microsoft.com/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
+For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
