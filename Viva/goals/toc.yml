@@ -78,8 +78,6 @@ items:
       href: import-okrs-projects.md
     - name: Customize Goals terminology
       href: customize-terminology.md
-    - name: Renaming initiatives
-      href: renaming-initiatives.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
     - name: Share an Update via Goals broadcast
