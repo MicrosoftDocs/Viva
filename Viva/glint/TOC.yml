@@ -100,6 +100,9 @@ items:
             href: setup/question-library.md
           - name: Use Viva Glint benchmarks
             href: setup/benchmarks.md
+            items:
+              - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
+                href: setup/people-science-benchmark-philosophy.md 
           - name: Customize action plans in Viva Glint
             href: setup/customize-action-plans.md
           - name: Manage language translations in Viva Glint programs
@@ -181,8 +184,6 @@ items:
         href: setup/team-effectiveness-survey.md
       - name: Manager Effectiveness survey
         href: setup/manager-effectiveness-survey.md
-      - name: Diversity & Inclusion survey
-        href: setup/diversity-inclusion.md
       - name: Patient safety survey
         href: setup/patient-safety-survey.md            
       - name: Setting up Employee Lifecycle surveys

@@ -4,7 +4,7 @@ description: "Viva Engage analytics lets user monitor their engagement metrics a
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/16/2023
 audience: Admin
 f1.keywords:

@@ -5,7 +5,7 @@ description: "Viva Engage communities can access Microsoft 365 services, includi
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

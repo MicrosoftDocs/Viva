@@ -36,6 +36,8 @@
           href: native-mode-guide.md
         - name: Network migration - Consolidate multiple networks
           href: /viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks
+        - name: Multitenant organization in Viva Engage
+          href: /viva/engage/mto-setup
         - name: Non-native and hybrid Viva Engage Network upgrades
           href: /viva/engage/configure-your-viva-engage-network/nonnative-hybrid 
         - name: Manage Viva Engage domains in Microsoft 365

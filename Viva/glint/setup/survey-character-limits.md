@@ -3,7 +3,7 @@ title: Recognize survey field character limits in Viva Glint programs
 description: Within Viva Glint surveys, there are many fields for admins to setup and customize for their organization and employees.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: glint survey

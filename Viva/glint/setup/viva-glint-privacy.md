@@ -3,7 +3,7 @@ title: Microsoft Viva Glint privacy
 description: Viva Glint adheres to all Microsoft Viva privacy safeguards. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Privacy safegaurds

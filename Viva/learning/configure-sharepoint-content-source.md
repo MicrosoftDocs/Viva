@@ -2,7 +2,7 @@
 title: Add SharePoint as a learning content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/01/2023
 audience: admin
