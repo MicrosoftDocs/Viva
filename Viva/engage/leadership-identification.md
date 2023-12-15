@@ -76,20 +76,12 @@ The **Manage audiences** page appears, where you configure the leader’s audien
 - **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. This enables users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant. This toggle is present only when Viva Engage is configured as a [multitenant organization](/viva/engage/mto-setup.md).
 The **Enable organization** toggle must also be turned on.
 
+>[!NOTE]
+>This option applies only to multitenant organizations.
+
 To define a leader’s audience, add individual users or groups, such as security, distribution, or Microsoft 365 groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours.
 
 Customers frequently use a distribution list to communicate with an audience by email. You can add these lists to the leader’s audience in Viva Engage for continuous communication.
-
-## Manage a leader's audiences in a multitenant organization
-
->[!NOTE]
->This section applies only to multitenant organizations.
-
-
-
-
-
-
 
 ## Set leader delegates and delegate managers
 
