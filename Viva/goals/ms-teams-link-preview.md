@@ -68,4 +68,4 @@ If an OKR is marked as private, Viva Goals won't show a link preview. This is to
 
 ## Support for Outlook
 
-The Viva Goals app for Microsoft Teams also works on Outlook and in Microsoft 365. When a link is pasted in a message in Outlook, link previews will work just as they do in Microsoft Teams so long as the app is installed in Outlook. For more details, see [Teams apps that work on Outlook and Microsoft 365 - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365?view=o365-worldwide).
+The Viva Goals app for Microsoft Teams also works on Outlook and in Microsoft 365. When a link is pasted in a message in Outlook, link previews will work just as they do in Microsoft Teams so long as the app is installed in Outlook. For more details, see [Teams apps that work on Outlook and Microsoft 365 - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
