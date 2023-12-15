@@ -46,7 +46,7 @@ The size and complexity of your live event determines whether you create the eve
     - Teams encodes the broadcast stream. 
     - Content shared from the presenter’s webcam and screen is shared across Teams. 
     - Attendees can view the event on Viva Engage. 
-    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced.
+    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced. The video is displayed on the Viva Engage event page for 180 days after the event is over.
 
 - **Teams external app or device**
 
