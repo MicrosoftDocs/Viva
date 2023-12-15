@@ -149,6 +149,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 
 If you have issues creating or using access policies for Viva app features, the following information might help:
 
+- Confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 - If a permissioned admin is having trouble setting a policy, it may be due to restrictions on that user's account. Check the following:
    - Whether the admin has restricted access to EWS in Exchange. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
    - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
