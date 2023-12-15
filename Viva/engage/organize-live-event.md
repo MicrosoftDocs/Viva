@@ -27,10 +27,7 @@ Microsoft Viva Engage uses Microsoft Teams to process and record video for all l
 This article provides guidance for Viva Engage group admins to produce the best live event experiences for their groups and communities. If you're planning a large event (up to 100,000 attendees), the Microsoft 365 live events assistance team can give you the best options for your live event. [Learn more about this program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
 
 > [!NOTE]
-> On January 30, 2024, [Stream live events will be retired](/stream/live-event-retirement). Through December 31, 2023, Stream live events will be extended to support: 
-> - Up to 20,000 attendees
-> - 50 simultaneous events on a single tenant
-> - Events up to 16 hours in duration
+> [Microsoft Stream events will be unavailable](/stream/live-event-retirement) after January 31, 2024. Use Microsoft Teams live events to schedule your events.
 
 
 ### Choose a setup that works for your live event
