@@ -42,11 +42,10 @@ Additionally, we review item usage across our entire taxonomy twice a year to en
 
 ## Viva Glint’s benchmark generation process ensures data validity
 
+:::image type="content" source="../../media/glint/reports/benchmark-arrows.png" alt-text="Graph of the Viva Glint benchmark generation process.":::
+
 For industry and country benchmarks, Viva Glint takes extra steps to ensure a suite will have all core Engagement items, including:
 -	Review of number of core items used by at least 15 clients
  -	If fewer than 15 of the 21 core items meet the threshold, the suite will be tagged as “Developing,” as we expect greater volatility of scores
 -	Leveraging a blended score for individual items slightly below the threshold
  - 	This blended score is based on relationships found with the Global benchmark, combined with the client data for the suite itself
-
-:::image type="content" source="../../media/glint/reports/benchmark-arrows.png" alt-text="Graph of the Viva Glint benchmark generation process.":::
-

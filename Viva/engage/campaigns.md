@@ -4,7 +4,7 @@ description: "Campaigns in Engage are an interactive way to drive employee engag
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 09/08/2023
 audience: Admin
 f1.keywords:

@@ -3,7 +3,7 @@ title: Share Viva Glint post-survey learning experiences with your employees
 description: "Use learning experiences to help employees prepare team conversations and focus area planning sessions."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

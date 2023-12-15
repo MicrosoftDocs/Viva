@@ -3,7 +3,7 @@ title: How People Science works with Viva Glint
 description: Learn how People science works with Viva Glint
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Microsoft Viva Glint, People science
