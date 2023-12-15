@@ -77,7 +77,7 @@ The **Manage audiences** page appears, where you configure the leader’s audien
 The **Enable organization** toggle must also be turned on.
 
 >[!NOTE]
->This option is only present when Viva Engage is configured as a [multitenant organization](/viva/engage/mto-setup.md).
+>This option is only present when Viva Engage is configured as a [multitenant organization](/Viva/engage/mto-setup).
 
 To define a leader’s audience, add individual users or groups, such as security, distribution, or Microsoft 365 groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours.
 
