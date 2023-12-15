@@ -86,7 +86,7 @@ Your changes should  take effect within minutes. However, backend membership cha
 
 ### Configure a multitenant organization to use storyline
 
-When Viva Engage is configured for a multitenant organization, the **Multi-tenant Organizations (MTO)** setting appears in the Advanced settings of the designated hub tenant. This setting enables users on all spoke tenants to engage with storyline posts from the hub tenant. However, these users can only participate if the multitenant organization configuration in Microsoft Entra ID has granted them access to storyline. Learn more about [configuring a multitenant organization in Viva Engage](Viva/engage/mto-setup).
+When Viva Engage is configured for a multitenant organization, the **Multi-tenant Organizations (MTO)** setting appears in the Advanced settings of the designated hub tenant. This setting enables users on all spoke tenants to engage with storyline posts from the hub tenant. However, these users can only participate if the multitenant organization configuration in Microsoft Entra ID has granted them access to storyline. Learn more about [configuring a multitenant organization in Viva Engage](/Viva/engage/mto-setup).
 
 ## Security and compliance
 
