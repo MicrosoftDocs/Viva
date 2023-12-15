@@ -22,7 +22,7 @@ search.appverid:
 description: "Preview links from Viva Goals in Microsoft Teams."
 ---
 
-# Link Previews in Microsoft Teams and Outlook
+# Link previews in Microsoft Teams and Outlook
 
 When you paste a link from Viva Goals (web app or teams app) into the Microsoft Teams message box, you see a link preview with relevant details about the item. This provides users with context around the goals they're working towards. Users can also update these goals by clicking **View Details** on the link without clicking away from the conversation and losing focus.
 
