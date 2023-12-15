@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: pamgreen
-ms.date: 12/13/2023
+ms.date: 12/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -64,7 +64,7 @@ Before you can create an access policy in Viva, you need:
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups and Microsoft Entra security groups created in or synchronized to Microsoft Entra ID. The membership type can be either dynamic or assigned.
 - The global administrator role in Microsoft Entra ID or [the role required for the specific app and feature](#features-available-for-feature-access-management).
-- The global admin or other permissioned admin role must have access to EWS in Exchange to set a policy. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
+
 
 > [!IMPORTANT]
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
@@ -149,8 +149,8 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 
 If you have issues creating or using access policies for Viva app features, the following information might help:
 
-- If a permissioned admin is having trouble setting a policy, check the following:
-   - Whether the admin has restricted access to EWS in Exchange. (Admins need full access. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange))
+- If a permissioned admin is having trouble setting a policy, it may be due to restrictions on that user's account. Check the following:
+   - Whether the admin has restricted access to EWS in Exchange. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
    - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
    - Whether the admin has restricted access to Exchange Online organization based on [client properties or client access](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
  
@@ -179,7 +179,6 @@ Here's how access policies work in Viva:
 ## Additional information and best practices
 
 - Policies are evaluated on a per-user basis.
-- If a user has [restricted access to EWS in Exchange](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), the user can't access the Viva features in the [feature table](#features-available-for-feature-access-management), regardless of the policy. 
 - Only one policy per feature can be assigned to *'everyone'.* This policy serves as the global default state for that feature in your organization.
 - As new feature controls are made available in Viva to manage user and group access, they're added to Viva feature access management.
 - When user identities in Microsoft Entra ID are deleted, user data is deleted from Viva feature access management. If user identities are re-enabled during the soft-deleted period, the admin needs to reassign policies to the user.
