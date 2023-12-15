@@ -3,7 +3,7 @@ title: Use the Manager report in Viva Glint
 description: "The Manager Report displays a Directs or Roll-up Hierarchy view for two preselected survey items within a specific hierarchy."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

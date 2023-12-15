@@ -3,7 +3,7 @@ title: Four stages of Viva Glint programs
 description: A strong feedback program incorporates four essential steps. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: goals, launch, insight, transform, 

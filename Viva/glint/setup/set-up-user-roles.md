@@ -3,7 +3,7 @@ title: Set up Viva Glint User Roles
 description: Admins can customize manager roles to provide specific permissions for viewing reports and comments.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: permissions, bulk imports, user role imports, custom access 

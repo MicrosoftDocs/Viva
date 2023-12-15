@@ -3,7 +3,7 @@ title: Managers and teams using Viva Glint Team Conversations
 description: Managers use their Team Conversations Presentation Kit to launch, send, and present Team Conversations to their team.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Sharing conversations, presentation kit

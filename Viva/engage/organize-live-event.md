@@ -4,7 +4,7 @@ description: "Learn what's needed for group admins to host live video events for
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/17/2023
 audience: Admin
 ms.topic: overview
