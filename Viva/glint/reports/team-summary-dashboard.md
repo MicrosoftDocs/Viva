@@ -3,7 +3,7 @@ title: The Team Summary dashboard in Viva Glint
 description: "Team Summary is an enhanced survey results dashboard for managers which captures employee feedback as an easy-to-use and insightful experience for sharing with their teams."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
