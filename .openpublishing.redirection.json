@@ -1949,6 +1949,11 @@
       "source_path": "viva/learning/sfsf-enable-browser-optimized-playback.md",
       "redirect_url": "/viva/learning/sfsf-enable-inline-playback",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/goals/renaming-initiatives.md",
+      "redirect_url": "/viva/goals/customize-terminology",
+      "redirect_document_id": true
     }
   ]
 }
