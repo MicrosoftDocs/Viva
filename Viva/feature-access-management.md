@@ -145,6 +145,16 @@ For example, to delete the Reflection feature access policy, start by getting th
 ```powershell
 Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
+### Troubleshooting
+
+If you have issues creating or using access policies for Viva app features, the following information might help:
+
+- If a permissioned admin is having trouble setting a policy, check the following:
+   - Whether the admin has restricted access to EWS in Exchange. (Admins need full access. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange))
+   - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
+   - Whether the admin has restricted access to Exchange Online organization based on [client properties or client access](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+ 
+- If a user has restricted access to EWS in Exchange, app access policies applied to their Exchange Online mailbox, or restricted access to Exchange Online organization based on client properties or client access, the user may not be able to access the Viva features in the feature table, regardless of the feature access policy set.
 
 ## How access policies work in Viva
 
