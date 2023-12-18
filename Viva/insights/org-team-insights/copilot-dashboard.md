@@ -267,6 +267,10 @@ No, a Viva Insights subscription is not required. The report is available to any
 
 No, the report does not use any Viva Insights data in the process of computing the metrics shown. The report is based on your Microsoft 365 tenant’s usage and licensing data and is made available to you as part of your Microsoft 365 or Office 365 subscription.
 
+**The values I'm seeing are just "--," with a banner that reads, "Not enough activity data from the past 28 days to show all insights." What's happening?**
+
+To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users.
+
 **I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
 First, check in the Microsoft 365 Admin Center that you have one of the roles listed in the Prerequisites section above. If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID. 
