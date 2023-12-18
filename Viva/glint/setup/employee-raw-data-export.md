@@ -70,7 +70,7 @@ Opt-out of response exports occurs within the **Confidentiality** section of Pro
 To ensure customers can meet their Data Subject Rights (DSR) obligations, Viva Glint provides an alternative solution which allows customers to fulfill DSR requests without accessing the requestors raw survey responses (discussed in more detail below).
 
 > [!IMPORTANT]
-> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets extreme circumstance criteria. [Read more about "extreme circumstances."](https://go.microsoft.com/fwlink/?linkid=2238614)
+> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets extreme circumstance criteria. [Read more about "extreme circumstances".](https://go.microsoft.com/fwlink/?linkid=2238614)
 
 ## Use the People feature to export responses
 As the admin, can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
