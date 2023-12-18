@@ -36,7 +36,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 ## Act on Data Subject Requests (DSRs) from data subjects 
 
-Viva Glint admins, who are assigned by your M365 Global admin, are in control of your organization’s data. This role – Data Controller – can act on Data Subject Rights requests from Viva Glint survey takers. [Read more about DSR obligations.](../../glint/setup/gdpr-special-categories).
+Viva Glint admins, who are assigned by your M365 Global admin, are in control of your organization’s data. This role – Data Controller – can act on Data Subject Rights requests from Viva Glint survey takers. [Read more about DSR obligations.](../../glint/setup/gdpr-special-categories)
 
 >[!NOTE]
 > Raw survey response export does not need to be enabled to fulfill these requests. Admins can send raw survey responses directly to the survey taker without gaining access and viewing this data.
@@ -49,9 +49,9 @@ Export of raw survey responses is only available to your organization through ad
 > Reporting is aggregated for surveys with a minimum threshold of three (3) or more respondents.
 
 ## Configure raw survey response access
-Your organization may not want access to raw survey responses for every survey. This could be because of the data's sensitivity, employee privacy concerns, regulatory or contractual obligations (such as Works Council agreements), or other reasons. Your role as the Viva Glint admin provides permissions for you to configure them at your disc
+Your organization may not want access to raw survey responses for every survey. This could be because of the data's sensitivity, employee privacy concerns, regulatory or contractual obligations (such as Works Council agreements), or other reasons. Your role as the Viva Glint admin provides permissions for you to configure them at your discretion.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > When setting up each Viva Glint program, the Viva Glint admin decides whether raw survey response exports will be available. Further, raw survey export does not need to be enabled for an employee to request their personal data.
 
 ## Admins can opt out of response exports
@@ -65,40 +65,47 @@ Opt-out of response exports occurs within the **Confidentiality** section of Pro
 1. Select the survey and then **Program Setup** on the **Program Summary** page.
 
 >[!NOTE]
-> A program can't be in Approved status to enable this feature. As necessary, toggle Approved to **NO**. The default setting for Enable Export of Raw Survey Responses is YES. Toggle to NO to opt out of raw survey response export. [Read more about the confidentiality statement](../../glint/setup/viva-glint-survey-privacy).
+> A program can't be in Approved status to enable this feature. As necessary, toggle Approved to **NO**. The default setting for Enable Export of Raw Survey Responses is **YES**. Toggle to NO to opt out of raw survey response export. [Read more about the confidentiality statement](https://go.microsoft.com/fwlink/?linkid=2238614).
 
 To ensure customers can meet their Data Subject Rights (DSR) obligations, Viva Glint provides an alternative solution which allows customers to fulfill DSR requests without accessing the requestors raw survey responses (discussed in more detail below).
-Important: Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets extreme circumstance criteria. Read more about "extreme circumstances."
 
-Use the People feature to export responses
-As the admin, can export raw survey responses from an individual's profile in the People feature within the Employee section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
-Follow this procedure to export user data:
+> [!IMPORTANT]
+> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets extreme circumstance criteria. [Read more about "extreme circumstances."](https://go.microsoft.com/fwlink/?linkid=2238614)
+
+## Use the People feature to export responses
+As the admin, can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
+
+### Follow this procedure to export user data:
 1.	Search for the user in the Search People label.
-2.	On the user page, select Send User Data from the Actions dropdown menu.
-3.	In the Send User Data slider, all attributes from your HRIS file are preselected.
-a.	Select Clear All and then select the attributes you want to export, or
-b.	Individual attributes may be excluded from the export by deselecting them.
-4.	Along with user attributes, in the slider window, there's the option to Include raw survey responses. Enable this feature to include the user's responses to current and closed surveys.
-5.	Select Send. This information will be sent to the employee email address on file. Check that this is correct before selecting Send.
-6.	A banner appears indicating the export has been sent successfully.
-7.	The employee will receive an email with their Viva Glint data attached in a .csv file.
- Tip: For more information on how to support a request to delete data, visit Delete user data from Viva Glint.
+1.	On the user page, select Send User Data from the Actions dropdown menu.
+1.	In the Send User Data slider, all attributes from your HRIS file are preselected.
+   1.	Select **Clear All** and then select the attributes you want to export, or
+   1.	Individual attributes may be excluded from the export by deselecting them.
+1.	Along with user attributes, in the slider window, there's the option to Include raw survey responses. Enable this feature to include the user's responses to current and closed surveys.
+1.	Select Send. This information will be sent to the employee email address on file. Check that this is correct before selecting Send.
+1.	A banner appears indicating the export has been sent successfully.
+1.	The employee will receive an email with their Viva Glint data attached in a .csv file.
+ 
+>[!TIP]
+For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](../../viva/glint/setup/delete-user-data)
 
-Disabling Raw Data Export access
-Important: Disabling Raw Data Export (RDE) means that: 
-•	Admins will not be able to access or export this survey data unless your organization believes extreme circumstance requirements exist. In this case, a Viva Glint admin can enable the export.
-•	Microsoft will not facilitate direct transfers to third parties, such as alternative survey platforms or data analytics consultants.
-•	The customer remains the data controller and Microsoft is permanently prohibiting customer access to non-RDE survey data at the customers' explicit instruction.
+## Disabling Raw Data Export access
+**Important**: Disabling Raw Data Export (RDE) means that: 
+- Admins will not be able to access or export this survey data unless your organization believes extreme circumstance requirements exist. In this case, a Viva Glint admin can enable the export.
+- Microsoft will not facilitate direct transfers to third parties, such as alternative survey platforms or data analytics consultants.
+- The customer remains the data controller and Microsoft is permanently prohibiting customer access to non-RDE survey data at the *customers' explicit instruction*.
 
-Export company-level raw data
-For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. Company admins can navigate to the Completed cycles tab of the survey program. On the row with the appropriate cycle, select the vertical ellipses (three dots) on the far right and then Export raw survey responses.
-For surveys that are always live, such as Onboarding surveys, admins can navigate to Settings, then Pulse Programs. Next choose Live status and select a Lifecycle or Always-On survey program. In the Actions dropdown menu, select Export raw survey responses. Select the Survey Send Date range desired.
- Note
-•	The export option will only be available to admins.
-•	The export option will only be enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
+## Export company-level raw data##
+For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. Company admins can navigate to the **Completed** cycles tab of the survey program. On the row with the appropriate cycle, select the vertical ellipses (three dots) on the far right and then **Export raw survey responses.**
 
+For surveys that are always live, such as Onboarding surveys, admins can navigate to **Settings,** then **Survey Programs.** Next choose **Live** status and select a Lifecycle or Always-On survey program. In the **Actions** dropdown menu, select **Export raw survey responses.** Select the **Survey Send Date** range desired.
 
-Caution: Once a survey is live, the choice to enable or disable raw survey response export cannot be changed for that survey.
+>[!NOTE]
+> - The export option will only be available to admins.
+> -	The export option will only be enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
+
+>[!CAUTION]
+> Once a survey is live, the choice to enable or disable raw survey response export cannot be changed for that survey.
 
 
 
