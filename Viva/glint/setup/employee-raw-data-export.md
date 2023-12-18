@@ -30,8 +30,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 > [!IMPORTANT]
 > Customers can also use program setup features to respond to users' Data Subject Rights (DSR) requests.
 
-:::image type="content" source="../../media/glint/setup/glint-user-data.png" alt-text="Screenshot that displays the user data information.":::
-   :::image type="content" source="../../media/glint/setup/glint-raw-data-responses.png" alt-text="Screenshot that displays Viva Glint dashboard." lightbox="../../media/glint/setup/glint-raw-data-responses.png":::
+
 >[!TIP]
 > For more information on how to support a request to delete data, visit [Delete user data from Viva Glint](https://go.microsoft.com/fwlink/?linkid=2236554).
 
