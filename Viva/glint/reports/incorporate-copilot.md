@@ -71,7 +71,7 @@ The full general availability (GA) date for Copilot in Viva Glint will be announ
 
 ### FAQs for systems or products which allow plugins or extensibility 
 
-**What are plug-ins and how does Copilot in Viva Glint use them?**  
+**What are plugins and how does Copilot in Viva Glint use them?**  
 
 > Currently, Copilot in Viva Glint does not use any plugins.
 
