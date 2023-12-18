@@ -76,18 +76,18 @@ To ensure customers can meet their Data Subject Rights (DSR) obligations, Viva G
 As the admin, can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
 
 ### Follow this procedure to export user data:
-1.	Search for the user in the Search People label.
-1.	On the user page, select Send User Data from the Actions dropdown menu.
-1.	In the Send User Data slider, all attributes from your HRIS file are preselected.
-   1.	Select **Clear All** and then select the attributes you want to export, or 
-   1.	Individual attributes may be excluded from the export by deselecting them.
+1. Search for the user in the Search People label.
+1. On the user page, select Send User Data from the Actions dropdown menu.
+1. In the Send User Data slider, all attributes from your HRIS file are preselected.
+   1. Select **Clear All** and then select the attributes you want to export, or 
+   1. Individual attributes may be excluded from the export by deslecting them.
 1.	Along with user attributes, in the slider window, there's the option to Include raw survey responses. Enable this feature to include the user's responses to current and closed surveys.
 1.	Select Send. This information will be sent to the employee email address on file. Check that this is correct before selecting Send.
 1.	A banner appears indicating the export has been sent successfully.
 1.	The employee will receive an email with their Viva Glint data attached in a .csv file.
- 
+
 >[!TIP]
-For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](../../viva/glint/setup/delete-user-data)
+> For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](../../viva/glint/setup/delete-user-data)
 
 ## Disabling Raw Data Export access
 **Important**: Disabling Raw Data Export (RDE) means that: 
