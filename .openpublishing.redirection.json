@@ -1954,6 +1954,11 @@
       "source_path": "viva/goals/renaming-initiatives.md",
       "redirect_url": "/viva/goals/customize-terminology",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/internet-explorer-11-retirement.md",
+      "redirect_url":"/viva/engage/integrate-viva-with-other-apps/integrate-with-other-applications",
+      "redirect_document_id": true
     }
   ]
 }
