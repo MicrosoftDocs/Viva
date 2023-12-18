@@ -36,7 +36,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 ## Act on Data Subject Requests (DSRs) from data subjects 
 
-Viva Glint admins, who are assigned by your M365 Global admin, are in control of your organization’s data. This role – Data Controller – can act on Data Subject Rights requests from Viva Glint survey takers. [Read more about DSR obligations.](../../glint/setup/gdpr-special-categories)
+Viva Glint admins, who are assigned by your M365 Global admin, are in control of your organization’s data. This role – Data Controller – can act on Data Subject Rights requests from Viva Glint survey takers. [Read more about DSR obligations.](/../../viva/glint/setup/gdpr-special-categories)
 
 >[!NOTE]
 > Raw survey response export does not need to be enabled to fulfill these requests. Admins can send raw survey responses directly to the survey taker without gaining access and viewing this data.
@@ -87,7 +87,7 @@ As the admin, can export raw survey responses from an individual's profile in th
 1.	The employee will receive an email with their Viva Glint data attached in a .csv file.
 
 >[!TIP]
-> For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](../../viva/glint/setup/delete-user-data)
+> For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](/../../viva/glint/setup/delete-user-data)
 
 ## Disabling Raw Data Export access
 **Important**: Disabling Raw Data Export (RDE) means that: 
