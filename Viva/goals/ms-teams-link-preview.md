@@ -24,7 +24,7 @@ description: "Preview links from Viva Goals in Microsoft Teams."
 
 # Link previews in Microsoft Teams and Outlook
 
-When you paste a link from Viva Goals into the Microsoft Teams message box, you will see a link preview with relevant details about the item. This provides users with context about the goals they're working toward. By selecting **View Details** on the link, users can update these goals without leaving the conversation.
+When you paste a link from Viva Goals into the Microsoft Teams message box, you'll see a link preview with relevant details about the item. This provides users with context about the goals they're working toward. By selecting **View Details** on the link, users can update these goals without leaving the conversation.
 
 Link previews are provided for the following items in Viva Goals:
 
@@ -38,8 +38,8 @@ Link previews are provided for the following items in Viva Goals:
 ### OKRs and initiative lists
 
 1. Navigate to the team or user in Viva Goals whose OKRs or initiatives you want to share.
-    1. If you are using Viva Goals in a web browser, copy the URL from the browser address bar.
-    1. If you are in Teams, select **Share** > **Copy link**.
+    - If you're using Viva Goals in a web browser, copy the URL from the browser address bar.
+    - If you are in Teams, select **Share** > **Copy link**.
 1. Head to your chat or channel of choice and paste the URL.
 1. The link will unfurl into a link preview. Note that the OKRs/initiatives shown will correspond to the time period you were viewing when you copied the link.
 
@@ -49,11 +49,11 @@ To share an OKR or initiative, navigate to the specific OKR or initiative you wa
 
 ### Check-ins
 
-You can share a specific check-in, perhaps to ask questions about the progress made. This option is available in the Share menu for individual check-ins. Currently, only manual check-ins support sharing. Rollups and check-ins from integrations do not have a Share option.
+You can share a specific check-in, perhaps to ask questions about the progress made. This option is available in the Share menu for individual check-ins. Currently, only manual check-ins support sharing. Rollups and check-ins from integrations don't have a Share option.
 
 ### Updates
 
-If your team is using the [Share an update](goals-broadcast.md) feature to send updates about overall progress, you can reshare these updates to Teams by going to the Updates tab. There, you will find the Share options for each individual update.
+If your team is using the [Share an update](goals-broadcast.md) feature to send updates about overall progress, you can reshare these updates to Teams by going to the Updates tab. There, you can find the Share options for each individual update.
 
 ## Viewing details from a link preview
 
@@ -70,4 +70,4 @@ If an OKR is marked as private, Viva Goals won't show a link preview. Similarly,
 
 ## Support for Outlook
 
-The Viva Goals app for Microsoft Teams also works on Outlook and in Microsoft 365. When a link is pasted in a message in Outlook, link previews will work just as they do in Microsoft Teams so long as the app is installed in Outlook. For more details, see [Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
+The Viva Goals app for Microsoft Teams also works in Outlook and Microsoft 365. When a link is pasted in a message in Outlook, link previews work just as they do in Microsoft Teams, provided the app is installed in Outlook. For more information, see [Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).
