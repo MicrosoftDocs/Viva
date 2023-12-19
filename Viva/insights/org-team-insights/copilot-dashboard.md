@@ -252,7 +252,7 @@ Your user survey does not need to be limited to these four statements, but we re
 
 **Upload survey results through the Microsoft 365 Admin Center**
 
-Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 Admin Center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data).
+Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 Admin Center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data&preserve-view=true).
 
 ### News & research
 
