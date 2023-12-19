@@ -32,4 +32,4 @@ Microsoft Viva Glint allows admins to customize Viva Glint dashboards for differ
 
 [Take action with Viva Glint Team Conversations](https://go.microsoft.com/fwlink/?linkid=2234345)
 
-[Create a Viva Glint Focus Area report](https:/../../viva/glint/reports/focus-area-overview-report)
+[Create a Viva Glint Focus Area report](https://viva/glint/reports/focus-area-overview-report)
