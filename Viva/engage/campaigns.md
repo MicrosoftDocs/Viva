@@ -30,6 +30,10 @@ Creating and viewing the campaign landing page and analytics from the campaign m
 >Campaigns are only available in Viva Engage premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
 
 ## Set up a campaign
+
+> [!Note]
+> Features described in this article require Viva Engage Premium.
+
 In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
