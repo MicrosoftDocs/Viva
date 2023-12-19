@@ -2,9 +2,9 @@
 title: Enable inline playback
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/16/2022
+ms.date: 11/16/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Enable inline playback to play SAP SuccessFactors courses in Viva Learning.
 ---
 

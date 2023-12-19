@@ -4,7 +4,7 @@ description: "Overview and setup of Answers in Viva, including licensing, techni
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 11/08/2023
 audience: Admin
 f1.keywords:
@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri

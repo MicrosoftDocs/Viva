@@ -4,13 +4,14 @@ ms.reviewer:
 ms.date: 07/17/2023
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom: intro-overview
 ms.collection:
   - M365-collaboration

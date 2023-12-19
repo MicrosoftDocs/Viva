@@ -4,13 +4,14 @@ title: "Combine Microsoft Viva apps to support popular business scenarios"
 ms.reviewer: loreenl
 ms.author: hokavian
 author: Holland-ODSP
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom:
 ms.collection:
   - M365initiative-viva

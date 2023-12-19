@@ -2,7 +2,7 @@
 title: Use the new Microsoft Viva admin experience in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/23/2021
 audience: admin

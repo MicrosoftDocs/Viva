@@ -4,13 +4,14 @@ title: "Support growth at work with Viva Learning and Topics"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri

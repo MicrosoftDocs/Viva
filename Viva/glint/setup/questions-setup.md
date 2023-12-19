@@ -3,7 +3,7 @@ title: Questions setup in Program Summary of Viva Glint
 description: On the Questions page admins, add or modify items prepopulated into survey templates.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: edit questions, survey items, question targeting

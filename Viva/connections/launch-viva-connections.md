@@ -4,14 +4,14 @@ title: "Launch Viva Connections for your organization"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - M365-collaboration

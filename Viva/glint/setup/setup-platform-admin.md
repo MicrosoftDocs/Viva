@@ -1,5 +1,5 @@
 ---
-title: Set up your platform as a Microsoft Viva Glint admin
+title: Set up your platform as a Viva Glint admin
 description: This page lays out the progression of deployment steps from Viva Glint purchase to program deployment to using insights to take actions to improve business results.  
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,13 +18,17 @@ ms.localizationpriority: high
 ms.date: 04/10/2023
 ---
 
-# Set up your platform as a Microsoft Viva Glint admin
+# Set up your platform as a Viva Glint admin
 
 Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. The world's leading brands use our programs to increase employee engagement, develop their people, and improve business results.
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-Ready to get started? Follow these steps:
+Ready to get started? 
+
+## Spend short of 10 minutes watching this video about all the goodness that Viva Glint offers. 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
 
 ### 1. Begin Viva Glint platform setup
 

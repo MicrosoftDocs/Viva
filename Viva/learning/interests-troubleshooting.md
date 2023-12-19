@@ -2,7 +2,7 @@
 title: Managing exported interest files
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 08/15/2023
 audience: admin
@@ -13,7 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to open and edit an exported interest file. 
 ---
 

@@ -4,7 +4,7 @@ description: "Campaigns in Engage are an interactive way to drive employee engag
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 09/08/2023
 audience: Admin
 f1.keywords:
@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -30,6 +30,10 @@ Creating and viewing the campaign landing page and analytics from the campaign m
 >Campaigns are only available in Viva Engage premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
 
 ## Set up a campaign
+
+> [!Note]
+> Features described in this article require Viva Engage Premium.
+
 In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)

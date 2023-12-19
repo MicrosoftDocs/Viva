@@ -3,6 +3,8 @@
       items:    
         - name: Overview of Viva Learning
           href: overview-viva-learning.md
+        - name: What's New 
+          href: whats-new.md
         - name: Set up Viva Learning
           href: set-up-viva-learning.md
         - name: Enable or disable the Learning tab in Microsoft 365 search results
@@ -62,6 +64,8 @@
       items: 
         - name: Manage Catalog Access 
           href: manage-catalog-access.md
+        - name: Provider Permissions 
+          href: provider-permissions.md
         - name: Creating Learning paths
           href: creating-learning-paths.md
         - name: Create collections
@@ -82,7 +86,9 @@
           href: language-overview.md
         - name: Language preferences 
           href: language-preferences.md
-        - name: Reporting 
+        - name: Content tagging and metadata export
+          href: content-tagging.md
+        - name: Reporting in Viva Learning
           href: reports.md
     - name: Troubleshoot
       items:
