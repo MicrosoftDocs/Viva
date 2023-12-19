@@ -26,7 +26,7 @@ Great teams build great cultures, and great cultures fuel great companies.
 
 Ready to get started? 
 
-First, spend just under 10 minutes watching this video about all the goodness that Viva Glint offers. 
+## Spend short of 10 minutes watching this video about all the goodness that Viva Glint offers. 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
 

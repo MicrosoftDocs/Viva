@@ -3,7 +3,7 @@ title: Communicate pre-launch and live Viva Glint program information using emai
 description: "Use Viva Glint email templates to communicate survey expectations and results planning to all your stakeholders."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

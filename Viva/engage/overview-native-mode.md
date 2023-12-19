@@ -5,7 +5,7 @@ description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

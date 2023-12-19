@@ -3,7 +3,7 @@ title: Introduce Viva Glint survey taking to your employees
 description: To ensure you receive useful feedback, introduce your employees to the survey process and share troubleshooting solutions with them. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: end user FAQs, survey taking troubleshooting, retaking surveys, new survey invite, resend survey invite 

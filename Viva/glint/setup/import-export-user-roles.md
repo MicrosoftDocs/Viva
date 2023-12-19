@@ -3,7 +3,7 @@ title: Import and export Viva Glint User Roles
 description: Admins can import and export lists of members associated with specific roles and attributes.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: bulk imports

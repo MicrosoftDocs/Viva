@@ -16,7 +16,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard (Preview)
 
 >[!Important]
->This article applies both to the Copilot Dashboard app in Power BI, as well as the Copilot Dashboard in Teams in Viva Insights. For Power BI, this feature is in public preview. Within Viva Insights, the dashboard applies only to preview customers. Features in preview might not be complete and could undergo changes before becoming available in the public release.
+>This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -266,6 +266,10 @@ No, a Viva Insights subscription is not required. The report is available to any
 **Does the report use Viva Insights data to create any of the metrics?**
 
 No, the report does not use any Viva Insights data in the process of computing the metrics shown. The report is based on your Microsoft 365 tenant’s usage and licensing data and is made available to you as part of your Microsoft 365 or Office 365 subscription.
+
+**The values I'm seeing are just "--," with a banner that reads, "Not enough activity data from the past 28 days to show all insights." What's happening?**
+
+To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users.
 
 **I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
