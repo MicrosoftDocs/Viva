@@ -22,7 +22,7 @@ ms.date: 12/19/2023
 
 The Program Setup page is the first configuration page within Program Summary. It allows you to define the basics of your program.
 
-:::image type="content" source="../../media/glint/setup/setup-from-program-summary.png" alt-text="Program Setup is one of the pages for configuration within Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-setup-from-program-summary.png" alt-text="Program Setup is one of the pages for configuration within Program Summary.":::
 
 ## Set up the Program Setup page 
 
