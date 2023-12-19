@@ -1,5 +1,5 @@
 ---
-ms.date: 12/05/2023
+ms.date: 12/19/2023
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -237,9 +237,6 @@ The metrics on this page represent aggregations over the prior 28 days with a ty
 
 This page provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
 
->[!Note]
->The ability for an admin to populate the table with your organization’s survey results is not yet available, but will be released in the Microsoft 365 Admin Center in the coming weeks.
-
 **Suggested Copilot survey questions**
 
 To measure Copilot user sentiment in your organization, we recommend delivering a survey to users in which you ask them to indicate the extent to which they agree with the following four statements:
@@ -252,6 +249,10 @@ To measure Copilot user sentiment in your organization, we recommend delivering 
 For each of these, we recommend allowing users to indicate whether or not they Strongly Disagree, Disagree, Neither Agree Nor Disagree, Agree, or Strongly Agree with the statement. You can then combine the “Agree” and “Strongly Agree” responses to compute the % of users who agreed with each statement and compare results with the Microsoft benchmarks shown in this tab.
 
 Your user survey does not need to be limited to these four statements, but we recommend including them at a minimum for easy comparison with Microsoft’s benchmark results.
+
+**Upload survey results through the Microsoft 365 Admin Center**
+
+Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 Admin Center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data).
 
 ### News & research
 
