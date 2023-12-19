@@ -22,7 +22,7 @@ ms.date: 12/19/2023
 
 The Program Setup page is the first configuration page within Program Summary. It allows you to define the basics of your program.
 
-:::image type="content" source="../../media/glint/setup/program-setup-from-program-summary.png" alt-text="Program Setup is one of the pages for configuration within Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-setup-from-program-summary.png" alt-text="Screenshot that shows the Program Setup page for configuration within the Program Summary.":::
 
 ## Set up the Program Setup page 
 
@@ -36,9 +36,9 @@ The Program Setup page is the first configuration page within Program Summary. I
 1. Confidential Responses are set to YES by default.  
 1. Enable **Allow Survey Resubmission** so your company admin will have the ability to reset a user's survey so that they may retake or edit their submission. **NO** means that this feature is disabled and the Viva Glint admin will not be able to reset surveys for survey takers.
    > [!TIP]
-   > In order for your survey takers to reacess a survey, enable your managers with **Allow Survey Resubmission enablement by toggling this setting to **YES**.
+   > In order for your survey takers to reacess a survey, enable your managers with **Allow Survey Resubmission** enablement by toggling this setting to **YES**.
 
-   :::image type="content" source="../../media/glint/setup/program-setup-survey-resubmit.png" alt-text="Enable **Allow Survey Resubmission** so managers can reset surveys for survey takers.":::
+   :::image type="content" source="../../media/glint/setup/program-setup-survey-resubmit.png" alt-text="Screenshot that shows how to enable Allow Survey Resubmission so managers can reset surveys for survey takers.":::
 
 1. **Enable Team Conversations** is enabled by default. **NO** disables the feature for the program. For more information, see Team Conversations. 
 1. When Team Conversations is enabled, **Enable Team Conversations Sharing** is enabled by default. **NO** disables managers from sharing this read-only version of Team Conversations.  
