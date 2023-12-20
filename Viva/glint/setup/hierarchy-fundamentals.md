@@ -3,7 +3,7 @@ title: Viva Glint organizational hierarchy fundamentals
 description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: managerial hierarchy, locational hierarchy, departmental hierarchy

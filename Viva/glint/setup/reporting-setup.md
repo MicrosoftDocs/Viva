@@ -3,7 +3,7 @@ title: Reporting setup in Program Summary of Viva Glint
 description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Live access, phased access, BTI, broader team insights, aggregate indices, aggregate index 

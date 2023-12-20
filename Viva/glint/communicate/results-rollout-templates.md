@@ -3,7 +3,7 @@ title: Communicate results rollout plans for Viva Glint programs using email tem
 description: "Use Viva Glint email templates to communicate feedback results and train your company stakeholders to take action."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

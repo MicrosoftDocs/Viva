@@ -3,7 +3,7 @@ title: Preview pre-launch demo data in Viva Glint reporting
 description: For training purposes and to be sure reporting is as expected, admins can use demo data to preview reporting prior to a survey launch.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva glint data reports, survey programs, preview demo reports

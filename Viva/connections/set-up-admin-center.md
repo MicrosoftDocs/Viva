@@ -4,7 +4,7 @@ title: Set up Viva Connections in the Microsoft 365 admin center
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

@@ -2,7 +2,7 @@
 title: Download Learner Completion Records 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 08/16/2023
 audience: admin

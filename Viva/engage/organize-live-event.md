@@ -4,7 +4,7 @@ description: "Learn what's needed for group admins to host live video events for
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/17/2023
 audience: Admin
 ms.topic: overview
@@ -27,10 +27,7 @@ Microsoft Viva Engage uses Microsoft Teams to process and record video for all l
 This article provides guidance for Viva Engage group admins to produce the best live event experiences for their groups and communities. If you're planning a large event (up to 100,000 attendees), the Microsoft 365 live events assistance team can give you the best options for your live event. [Learn more about this program.](https://adoption.microsoft.com/virtual-event-guidance/assistance)
 
 > [!NOTE]
-> On January 30, 2024, [Stream live events will be retired](/stream/live-event-retirement). Through December 31, 2023, Stream live events will be extended to support: 
-> - Up to 20,000 attendees
-> - 50 simultaneous events on a single tenant
-> - Events up to 16 hours in duration
+> [Microsoft Stream events will be unavailable](/stream/live-event-retirement) after January 31, 2024. Use Microsoft Teams live events to schedule your events.
 
 
 ### Choose a setup that works for your live event
@@ -46,7 +43,7 @@ The size and complexity of your live event determines whether you create the eve
     - Teams encodes the broadcast stream. 
     - Content shared from the presenter’s webcam and screen is shared across Teams. 
     - Attendees can view the event on Viva Engage. 
-    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced.
+    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced. The video is displayed on the Viva Engage event page for 180 days after the event is over.
 
 - **Teams external app or device**
 
@@ -54,7 +51,7 @@ The size and complexity of your live event determines whether you create the eve
     - Teams broadcasts the live event 
     - Requires an external encoder (app or device) to produce the event 
     - Attendees can view the event in Viva Engage. 
-    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced.  
+    - Video is stored in the SharePoint library connected to the Viva Engage community where the live event was produced. The video is displayed on the Viva Engage event page for 180 days after the event is over.
 
 
 ## Review licenses and permissions

@@ -3,7 +3,7 @@ title: Set up Viva Glint Team Conversations coaching for managers
 description: Customizing Team Conversations for managers gives them an extra lift for taking action with their teams.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Presentation kit, manager guidance, reflections

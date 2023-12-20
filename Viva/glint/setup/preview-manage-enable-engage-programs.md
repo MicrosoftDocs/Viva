@@ -3,7 +3,7 @@ title: Preview, manage, and enable Viva Glint surveys and dashboards
 description: "Once your Viva Glint Engagement program is set up, take these steps to set it live or edit it."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

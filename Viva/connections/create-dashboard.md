@@ -4,7 +4,7 @@ title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

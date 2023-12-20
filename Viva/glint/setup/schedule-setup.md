@@ -3,7 +3,7 @@ title: Set up Schedule page in Program Summary
 description: "On the Schedule page, you indicate when and how often your survey program is sent."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -44,7 +44,10 @@ Choose the cadence for your program. This determines your launch date(s) and how
    **Best Practices**:
 
    - For Recurring programs, use a two weeks response window.   
-   - For Ad Hoc programs, use a seven days response window, as these programs typically require faster action. 
+   - For Ad Hoc programs, use a seven days response window, as these programs typically require faster action.
+  
+   > [!NOTE]
+   > When sending surveys in users' time zones, a 24-hour cushion is added to the survey start and close time. [Learn more](https://go.microsoft.com/fwlink/?linkid=2255796)
  
 5. The **Team Conversations Window** should remain open for a manager and their team to finish their conversation after the survey closes. Once set, the program indicates the conversation start and end date scheduled, and how many days remain. Visit Team Conversations for a deeper dive.
 
