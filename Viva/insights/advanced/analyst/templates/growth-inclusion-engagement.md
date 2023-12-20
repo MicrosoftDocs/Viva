@@ -100,7 +100,7 @@ After the Growth, inclusion and engagement report is set up and populated with V
 |**Focus key insights on**|Sets the group of employees you want to focus on. For example, if you selected "Generation" as the default spotlight attribute, you can select "Millennials" to see specific insights about employees tagged as Millennials in the organization. |
 |**Favorable engagement score(s)**|Identifies a particular engagement score value as favorable. If you included an attribute that represents employee engagement results, you can select one or more values that represent “favorably engaged” employees. This affects how results are displayed on the Boost engagement page.|
 
-:::image type="content" source="../../images/analyst-pbi-dei-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
+:::image type="content" source="../../images/analyst-gie-default-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
 
 
 
@@ -112,7 +112,7 @@ Except for the first two pages, each report page follows a similar format: an ov
 
 On some pages, you can select **View multiple attributes** under a breakdown of the metric by organizational attribute. This allows you to select two attributes and view the results across the attributes. 
 
-:::image type="content" source="../../images/analyst-pbi-dei-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
+:::image type="content" source="../../images/analyst-gie-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
 
 
 #### Overview
