@@ -131,3 +131,35 @@
       - name: Viva suite administration troubleshooting
         tocHref: /viva/troubleshoot/viva-suite-administration/
         topicHref: /viva/microsoft-viva-overview
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Engage
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/engage/overview
+      items:
+      - name: Viva Engage troubleshooting
+        tocHref: /viva/troubleshoot/engage/
+        topicHref: /viva/engage/overview
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Insights
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/insights/introduction
+      items:
+      - name: Viva Insights troubleshooting
+        tocHref: /viva/troubleshoot/insights/
+        topicHref: /viva/insights/introduction
