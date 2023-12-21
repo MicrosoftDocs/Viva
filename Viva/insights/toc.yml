@@ -55,9 +55,7 @@ items:
       - name: Support
         items:
         - name: Get Viva Insights support
-          href: get-insights-support.md
-        - name: Error reference
-          href: advanced/reference/errors.md    
+          href: get-insights-support.md  
       - name: Personal insights
         items:
         - name: End-user documentation
@@ -170,3 +168,7 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
+      - name: Troubleshoot
+        items:
+        - name: Resolve Viva Insights errors 
+          href: /viva/troubleshoot/insights/viva-insights-errors?toc=/viva/insights/toc.json&bc=/viva/breadcrumb/toc.json
