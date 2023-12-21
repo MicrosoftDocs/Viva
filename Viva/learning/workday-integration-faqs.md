@@ -98,7 +98,7 @@ Go to the task “View API Client”. You can select on the client under “API 
 
 Go to **Report** and select **Run** or **Test** and then add desired time field values. If configured correctly, the report successfully runs.
 
-![A screenshot of the action window with the option to run the report,](/viva/media/learning/workday-FAQ-4.png)
+![A screenshot of the action window with the option to run the report.](/viva/media/learning/workday-FAQ-4.png)
 
 **15. How does Viva Learning store thumbnail images?**
 
