@@ -64,7 +64,6 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 | Worker Data: Active and Terminated Workers | This domain provides access to reporting fields and data sources that include terminated workers. This domain policy is required for certain fields (Firstname, lastname, email address, ID) in User RaaS report.  |
 | Worker Data: Current staffing information | Provides information on workers' current information such as status, length of service, seniority. Includes web services. This domain policy is required for certain fields (Worker is Terminated) in User RaaS report. |
 | Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
-|| |
 
 8. Run the **Activate Pending Security Policy Changes** task.
 9. **Advance security**: These are **optional** steps for advance security access on ISU.
