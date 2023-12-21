@@ -24,9 +24,8 @@ description: Learn how to configure and manage Workday for Microsoft Viva Learni
 
 This document outlines how to configure Workday as a content source in Microsoft Viva Learning. The integration is based on Workday RaaS APIs (Report as a Service). Integration supports catalog, assignment, and completions data from Workday. Catalog covers Blended Courses, Digital courses, Lesson, Program, and External provider integrated on Workday.
 
-> [!NOTE]: 
-> Catalog, assignments, and completion data are retrieved using RaaS. Thumbnails for Workday hosted content is retrieved using APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. Thumbnails are stored in Viva Learning as metadata.
-> This integration is based on Workday RaaS APIs, any breach in API contract might change the user experience.
+> [!NOTE]:
+> Catalog, assignments, and completion data are retrieved using RaaS. Thumbnails for Workday hosted content is retrieved using APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. Thumbnails are stored in Viva Learning as metadata. This integration is based on Workday RaaS APIs, any breach in API contract might change the user experience.
 
 
 ## Configuration to enable Workday integration
