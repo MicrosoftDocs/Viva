@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 08/24/2023
+ms.date: 12/21/2023
 ---
 
 # Set up attributes in Viva Glint
@@ -73,6 +73,31 @@ Select your attribute from the dropdown for each required attribute:
 - Employee ID
 - Status
 
+### Derived attributes
+
+Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
+
+1. Select the section with the desired attribute.
+2. Select the desired attribute from the dropdown menu for each derived attribute.
+3. Select **Continue**.
+
+### Optional System Attributes
+
+> [!NOTE]
+> This section is available after January 13, 2024.
+
+Map attributes in your employee data to Viva Glint language, time zone, and personal email fields to indicate how and when to communicate with employees. Choose to enable any of the following fields by selecting the checkbox and choosing a field from your file in the **Sync From** dropdown menu:
+
+|Viva Glint Field   |Description  |
+|----------|-----------|
+|Survey Language     |The language in which employees receive surveys and emails.      |
+|Dashboard Language|The language in which users view dashboards.  |
+|User Timezone|The time zone in which survey communications are sent.  |
+|Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
+
+> [!IMPORTANT]
+> Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values will receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+
 ### Hierarchy groups
 
 Select your attributes from the dropdown menu for each hierarchy group.
@@ -82,17 +107,24 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
 
-### Derived attributes
+## Review
 
-Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
+> [!NOTE]
+> This section is available after January 13, 2024.
 
-1. Select the section with the desired attribute.
-2. Select the desired attribute from the dropdown menu for each derived attribute.
-3. Select **Continue**.
+Review a summary of all selections made in attribute setup and use the **Go Back** option to make any corrections before moving forward. The review step includes the following sections:
 
-## Review uploaded attributes
+- Summary
+- User Attributes
+- Removed User Attributes
+- Required Attributes Mapping
+- Derived Attributes Mapping
+- Optional System Attributes Mapping
+- Hierarchy Groups Mapping
 
-1. Review your attribute selections, choosing between the following two options:
+## Choose how you want to import data
+
+1. Choose between the following two options:
 
      - Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
 
@@ -153,3 +185,39 @@ From the admin dashboard:
 
 > [!CAUTION]
 > Use this method if the underlying data remains the same, but the field name has changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attributes. For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
+
+## Manage Derived Attributes
+
+> [!NOTE]
+> This section is available after January 13, 2024.
+
+Viva Glint calculates attributes based on data sent in your employee attribute file. 
+
+To edit derived fields after your initial setup:
+
+1. Select the **Configure** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Derived Attributes** section, select **Manage Derived Attributes**.
+4. Select the checkbox next to the Derived Attribute that you want to edit.
+   1. To disable a Derived Attribute: Deselect the checkbox next to the desired field.
+   1. To enable a Derived Attribute: Select the checkbox next to the desired field and choose a field from your data in the Calculate From dropdown menu.
+   1. To update the field used to create the Derived Attribute: Select the checkbox next to the desired field and choose a new field in the Calculate From dropdown menu. 
+
+> [!NOTE]
+> Manager Hierarchy is not editable after initial setup.
+
+## Manage Optional System Attributes
+
+> [!NOTE]
+> This section is available after January 13, 2024.
+
+Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
+
+To edit optional system fields after your initial setup:
+
+1. Select the **Configure** symbol and then under the **Employees** section, choose **People**.
+2. Select **Actions** and then **Manage User Attributes**.
+3. In the **Optional System Attributes** section, select **Manage Optional System Attributes**.
+   1. To disable an Optional System Attribute: Deselect the checkbox next to the desired field.
+   1. To enable a Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the Sync From dropdown menu.
+   1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the Sync From dropdown menu.
