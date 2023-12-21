@@ -43,6 +43,8 @@
               href: sharepoint-permissions.md
         - name: Workday
           href: workday-integration.md
+        - name: Workday FAQs
+          href: workday-integration-faqs.md
         - name: Cornerstone OnDemand
           href: configure-cornerstone-content-source.md
         - name: Saba
