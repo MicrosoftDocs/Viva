@@ -65,17 +65,19 @@ Individual OKRs can only be approved by the managers of the individuals.
 
 ## How to change workflow statuses for an OKR 
   
-1. After the Approval Workflow feature is enabled, go to the entity that you want to change the workflow status for.
-  
-2. In the upper-right corner of the screen, select the **...** button to view all possible actions for the current entity.
+1. After the Approval Workflow feature is enabled, go to the entity - Team or Individual User - that you want to change the workflow status for.
 
-3. Select **Change Status**.
+2. Choose the time period for this team or user that you want to change the workflow status for.
+  
+3. In the upper-right corner of the screen, select the **...** button to view all possible actions for the current entity.
+
+4. Select **Change Status**.
     
-4. In the pop-up dialog that appears, select the status dropdown.
+5. In the pop-up dialog that appears, select the status dropdown.
    
-5. Select the status.
+6. Select the status.
  
-6. Select **Save**.
+7. Select **Save**.
   
 ## Permissions available for each workflow stage
 
