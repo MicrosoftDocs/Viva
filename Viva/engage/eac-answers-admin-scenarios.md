@@ -66,7 +66,6 @@ As an Answers admin, Engage admin, or global admin, use the information panel to
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
 
 **User view**<br/>
-
 The Answers tab only appears in Viva Engage for users who are assigned a Viva Engage Knowledge Service Plan. Users not assigned a Knowledge Service Plan can access Answers in the communities they belong to.
 :::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
