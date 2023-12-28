@@ -24,7 +24,8 @@ search.appverid:
 
 Enablement of Answers requires a Microsoft 365 Global administrator. Other Answers administration can be performed by the Answers admin or Engage admin. 
 
-   >[!NOTE] To assign an Answers admin, you must [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). *Knowledge managers become Answers admins.* 
+>[!NOTE] 
+> To assign an Answers admin, you must [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). *Knowledge managers become Answers admins.* 
 
 To align Topics management and Answers administration, assign the same users that manage Topics to manage Answers. For more information, see:
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
