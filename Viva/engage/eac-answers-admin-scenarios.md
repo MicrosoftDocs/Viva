@@ -115,8 +115,8 @@ To ensure that topics suggested by employees are relevant and appropriate, there
 :::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
 
 1. Select from the options to feature or ignore the topic. Both options remove the topic from the **Review** tab:  
-- **Feature**: When a topic is featured, it no longer appear in the **Needs Review** tab.
-- **Remove**: When a topic is removed, it no longer appear in the **Needs Review** tab or in any other experience in Viva Engage. To remove topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
+- **Feature**: When a topic is featured, it no longer appears in the **Needs Review** tab.
+- **Remove**: When a topic is removed, it no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
 
 
 **Remove a topic in Answers**
@@ -142,7 +142,7 @@ As an Answers admin, you can access Global Answers analytics:
 1. Select the analytics icon from the top navigation bar of Viva Engage.
 1. Go to the **Global Answers analytics** tab. The analytics dashboard provides an overview and relevant insights about knowledge sharing activity across Answers in Viva.
 
-For more details about how to manage analytics in the [Viva Engage admin center](/Viva/engage/eac-overview), see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
+For more information, see [View and manage analytics in Viva Engage](/Viva/engage/analytics).
 
 :::image type="content" alt-text="Screenshot of the Global Answers analytics dashboard in Viva Engage." source="/viva/media/engage/admin/global-answers-analytics.png" lightbox="/viva/media/engage/admin/global-answers-analytics.png":::
 
@@ -151,7 +151,7 @@ The following metrics are available for Global Answers analytics:
 
 | Metric | Description |
 |---|---------|
-|**Total time saved for your organization**|Time the organization has saved based on question-and-answer usage|
+|**Total time saved for your organization**|The amount of time the organization saved by using questions and answers|
 |**Total questions**|Number of questions asked by users|
 |**Question views**| Views across all questions|
 |**Total answers**| Number of answers provided by users|
