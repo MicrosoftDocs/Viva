@@ -22,7 +22,7 @@ search.appverid:
 
 # Administrator scenarios for Answers in Viva Engage
 
-Enablement of Answers requires a Microsoft 365 Global administrator. Other Answers administration can be performed by the Answers admin or Engage admin.
+Enablement of Answers requires a Microsoft 365 Global administrator. The Answers admin or an Engage admin can perform all other Answers administration tasks.
 
 >[!NOTE]
 > To assign an Answers admin, you must [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers become Answers admins.
@@ -67,7 +67,7 @@ As an Answers admin, Engage admin, or global admin, use the information panel to
 
 **User view**<br/>
 
-Only users who are assigned a Viva Engage Knowledge Service Plan have the Answers tab with feeds and information panel. All other users access Answers within their communities.
+The Answers tab only appears in Viva Engage for users who are assigned a Viva Engage Knowledge Service Plan. Users not assigned a Knowledge Service Plan can access Answers in the communities they belong to.
 :::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Edit the information panel
