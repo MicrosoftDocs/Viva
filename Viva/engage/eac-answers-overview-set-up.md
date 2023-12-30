@@ -41,6 +41,7 @@ For more information about permissions, see [Administrator scenarios for Answers
 By default, the Answers experience is enabled for networks that meet the following technical requirements:
 
 1. **Users have access to Viva Engage services**
+
    Viva Engage is enabled for the organization and users have access to Viva Engage services. For the best Answers experience, we recommend that all organizations install the Viva Engage app in Microsoft Teams. Follow these steps to set up the Viva Engage app.
 
 1. **Viva Engage network is in Native Mode**
