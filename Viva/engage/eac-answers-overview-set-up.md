@@ -128,11 +128,11 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
 
 1. In the Viva Engage Teams app, select the ellipses button from the top-right navigation bar, and select Admin to navigate to the Viva Engage admin center.
 
-1. On the Feature management tab, select Rewards and recognition.
+2. On the Feature management tab, select Rewards and recognition.
 
 [![Image of the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
-1. Select one of the following:
+3. Select one of the following:
 
    - **On** enables badges for the organization.
    - **User Preference** enables badges for the organization while allowing individuals to opt out. Users can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
