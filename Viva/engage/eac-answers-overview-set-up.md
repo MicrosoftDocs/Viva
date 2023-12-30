@@ -132,11 +132,11 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
 
 [![Image of the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
-1. Select one of the following option:
+1. Select one of the following:
 
-  - **On** enables badges for the organization.
-  - **User Preference** enables badges for the organization while allowing individuals to opt out. Users can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
- - **Disabled** turns badges off in Answers in Viva.
+   - **On** enables badges for the organization.
+   - **User Preference** enables badges for the organization while allowing individuals to opt out. Users can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
+  - **Disabled** turns badges off in Answers in Viva.
 
 [![Image of the interface for users to turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
