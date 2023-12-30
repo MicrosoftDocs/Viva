@@ -122,7 +122,7 @@ All Viva Engage users who have access to Answers also have AI-suggested topics, 
 
    :::image type="content" source="../media/engage/admin/ea-answers-ai-2.png" lightbox="../media/engage/admin/ea-answers-ai-2.png" alt-text="Screenshot shows  AI-suggested topics turned off.":::
 
-### Option: Enable rewards and recognition
+## Option: Enable rewards and recognition
 
 By contributing to Answers in Viva, users can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
