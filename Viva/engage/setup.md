@@ -25,7 +25,7 @@ search.appverid:
 
 If a user is enabled for Yammer, they're also enabled to use Viva Engage. Viva Engage is included as a part of the existing Yammer license. This is unchanged from the Yammer Communities app for Microsoft Teams that Viva Engage replaces.
 
-_Learn more: [Manage Engage licenses in Office 365](/viva/engage/manage-engage-licenses-microsoft-365.md)_
+_Learn more: [Manage Engage licenses in Office 365](/Viva/engage/manage-engage-licenses-microsoft-365.md)_
 
 ## Configure and review privacy and security settings
 
