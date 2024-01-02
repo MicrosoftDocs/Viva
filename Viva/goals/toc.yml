@@ -186,6 +186,10 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+
+- name: Copilot in Viva Goals
+  href: copilot.md
+
 - name: The OKR framework
   items:
   - name: Benefits of OKRs

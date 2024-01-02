@@ -1,6 +1,6 @@
 ---
-ms.date: 12/22/2023
-title: Create, manage, and summarize OKRs with Copilot in Viva Goals
+ms.date: 01/02/2024
+title: Create, manage, and summarize goals with Copilot in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -22,15 +22,15 @@ search.appverid:
 description: "Learn how to use Copilot in Viva Goals to create, share, manage, and summarize organizational goals."
 ---
 
-# Create, manage, and summarize OKRs with Copilot in Viva Goals
+# Create, manage, and summarize goals with Copilot in Viva Goals
 
 <!--Should it be "Copilot in Viva Goals" or "Viva Goals Copilot"?-->
 
-Copilot in Viva Goals lets you leverage next-gen AI to create, share, manage, and summarize your organizational goals quicker and easier than ever. It offers in-app guidance for creating and refining OKRs, providing a productivity boost to users regardless of their familiarity with the OKR framework.
+Copilot in Viva Goals lets you leverage next-gen AI to create, share, manage, and summarize your organizational goals quicker and easier than ever. It offers in-app guidance for creating and refining goals, providing a productivity boost to users regardless of their familiarity with whatever goals framework their team follows.
 
 ## Prerequisites
 
-During the preview, the Copilot feature in Viva Goals will be disabled by default. Before anyone in an organization can use Copilot in Viva Goals, that org's tenant admins must enable Copilot from the Admin portal. Tenant admins have complete control over the rollout of Copilot in Viva Goals within their org. They can also decide which users or security groups are allowed to access Copilot.
+During the preview, the Copilot feature in Viva Goals will be disabled by default. Before anyone in an organization can use Copilot in Viva Goals, that org's tenant admins must enable Copilot from the Admin portal. Tenant admins have complete control over the rollout of Copilot in Viva Goals within their org. They can also decide which users or security groups are allowed to access Copilot. Tenant admins can access these and other Copilot admin settings by selecting the Viva Goals admin center icon in the top header and scrolling to *Who can see Viva Goals Copilot in TENANT NAME?* under the **General** tab.
 
 ![Screenshot that shows a view of a product team's OKRs and emphasises the Admin portal icon.](..\media\goals\copilot\admin-portal.png)
 
@@ -38,9 +38,9 @@ During the preview, the Copilot feature in Viva Goals will be disabled by defaul
 
 ## What are some things I can do using Copilot in Viva Goals?
 
-### Generate OKRs using a strategy document
+### Generate goals using a strategy document
 
-Copilot in Viva Goals can read through strategy or planning documents and propose appropriate OKRs.  
+Copilot in Viva Goals can read through strategy or planning documents and propose appropriate goals or OKRs.  
 
 Viva Goals does not store your documents or conversational prompts for any purpose. You can find more information about how Microsoft uses Copilot data in Viva Goals [here](..\viva-privacy.md).
 
@@ -52,7 +52,7 @@ Viva Goals does not store your documents or conversational prompts for any purpo
 
 ![Screenshot that shows a view of a product team's OKRs with Copilot suggesting OKRs based on the strategy document given on the right side.](..\media\goals\copilot\strategy-doc-okr-suggestions.png)
 
-### Generate key results for existing objectives
+### Generate key results for existing goals
 
 Select **Generate key results using Copilot** in the "add child items" menu (see below), and Copilot in Viva Goals will generate appropriate key results for the relevant objective.
 
@@ -60,20 +60,20 @@ Select **Generate key results using Copilot** in the "add child items" menu (see
 
 ![Screenshot that shows a view of a product team's OKRs with Copilot offering key results for a certain objective on the right side.](..\media\goals\copilot\suggested-key-results.png)
 
-### Generate OKRs using the conversational Copilot bot
+### Generate goals using the conversational Copilot bot
 
-When you're in the planning stage, you can chat with Copilot in Viva Goals to get ideas for new OKRs. Copilot will suggest OKRs based on your organization's OKR data, user profiles shared with Viva Goals, and any information you provide in conversation with Copilot.
+When you're in the planning stage, you can chat with Copilot in Viva Goals to get ideas for new OKRs. Copilot will suggest goals based on your organization's OKR data, user profiles shared with Viva Goals, and any information you provide in conversation with Copilot.
 
 > [!TIP]
-> When you're giving Copilot instructions to help you generate OKRs, it helps to be as descriptive as possible. Mention your business industry, department, and three to five topics or themes you think your team or org should focus on. For example, you might say this:
+> When you're giving Copilot instructions to help you generate goals, it helps to be as descriptive as possible. Mention your business industry, department, and three to five topics or themes you think your team or org should focus on. For example, you might say this:
 >
 > *I work for a retail company in the marketing department. This year, we want to become the market leader, expand to new geographic regions, and increase our product offerings.*
 
 ![Screenshot that shows a view of a sales team with no OKRs, but for which the user has requested and received suggested OKRs through conversing with Copilot on the right side.](..\media\goals\copilot\conversational-okr-suggestions.png)
 
-### Summarize OKRs
+### Summarize goals
 
-You can use Copilot in Viva Goals to access summaries of OKRs, including team OKRs and collections of OKRs. Team managers and department leaders can easily generate summaries of their teams' progress. Copilot will analyze check-in data, status updates, and progress details associated with child items to prepare a quick summary. Users can share these summaries as updates, use them to prepare for review meetings, or let them serve as check-ins for their objectives.
+You can use Copilot in Viva Goals to access summaries of goals, including team goals and collections of OKRs. Team managers and department leaders can easily generate summaries of their teams' progress. Copilot will analyze check-in data, status updates, and progress details associated with child items to prepare a quick summary. Users can share these summaries as updates, use them to prepare for review meetings, or let them serve as check-ins for their objectives.
 
 ![Screenshot that shows a view of a product team's OKRs, with an emphasis on the "Generate a summary" option.](..\media\goals\copilot\generate-a-summary.png)
 
@@ -81,9 +81,9 @@ You can use Copilot in Viva Goals to access summaries of OKRs, including team OK
 
 ![Screenshot that shows a view of a product team's OKRs, with two specific OKRs selected and an emphasis on the "Summarize" option.](..\media\goals\copilot\summarize-specific-okrs.png)
 
-### Understand OKRs
+### Understand goals
 
-Copilot in Viva Goals can answer questions about OKR methodology, such as what exactly OKRs are, the best ways to run OKR rhythms, and how to plan around OKRs.
+Copilot in Viva Goals can answer questions about goals methodology, such as what exactly OKRs are, the best ways to run OKR rhythms, and how to plan around OKRs.
 
 ![Screenshot that shows a view of a product team's OKRs, with the user asking Copilot questions about OKR methodology on the right side.](..\media\goals\copilot\okr-methodology-conversation.png)
 
@@ -143,18 +143,18 @@ No. Copilot in Viva Goals uses its own instance of the Substrate LLM model. Neit
 
 At present, Copilot in Viva Goals defaults to saving OKRs in the same entity page where it is invoked. In the future, users will be given an option to select the entity and time period where they would like to save their OKRs.
 
-### Do I need to do any manual work once the OKRs are saved?
+### Do I need to do any manual work once the goals are saved?
 
-OKRs created using Copilot in Viva Goals function the same as manually created OKRs. Users can modify the details of any objectives or key results by selecting **Edit** as normal. Remember that anything generated by AI is only *suggested* content. Before saving, please ensure the content is accurate and appropriate for your organization's guidelines.
+Goals created using Copilot in Viva Goals function the same as manually created goals. Users can modify the details of any objectives or key results by selecting **Edit** as normal. Remember that anything generated by AI is only *suggested* content. Before saving, please ensure the content is accurate and appropriate for your organization's guidelines.
 
-### How are owners, time periods, and teams defined for AI-generated OKRs?
+### How are owners, time periods, and teams defined for AI-generated goals?
 
-The user who generates an OKR using Copilot in Viva Goals will be that OKR's default owner. When saving a Copilot-generated OKR, the user can select a time period and the team for the OKR.
+The user who generates an goal using Copilot in Viva Goals will be that goal's default owner. When saving a Copilot-generated goal, the user can select a time period and the team for the goal.
 
-### How do OKR permissions work when creating OKRs using Copilot in Viva Goals?
+### How do goal permissions work when creating goals using Copilot in Viva Goals?
 
-OKRs created by Copilot in Viva Goals honor the same entity permissions as OKRs created manually.
+Goals created by Copilot in Viva Goals honor the same entity permissions as goals created manually.
 
-### What should I keep in mind when generating OKRs using Copilot in Viva Goals?
+### What should I keep in mind when generating goals using Copilot in Viva Goals?
 
 In general, Copilot in Viva Goals will give its most relevant responses when the context provided to it is as accurate as possible. Always remember that these responses are suggestions generated by AI. Before saving, make sure the content is accurate and appropriate for your organization's guidelines.  
