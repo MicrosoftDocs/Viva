@@ -934,6 +934,21 @@
             "source_path": "Viva/insights/use/wsplan.md",
             "redirect_url": "/previous-versions/viva/insights/use/wsplan",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365.md",
+            "redirect_url":"/viva/troubleshoot/engage/error-select-the-viva-engage-tile-in-microsoft-365",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-native-mode.md",
+            "redirect_url":"/viva/troubleshoot/engage/troubleshoot-native-mode",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices.md",
+            "redirect_url":"/viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices",
+            "redirect_document_id": false
         }
     ]
 }
