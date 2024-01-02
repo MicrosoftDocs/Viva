@@ -66,7 +66,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 *For Microsoft 365 Global administrators* 
 
 This task assumes that all requirements for Microsoft 365 and Viva Engage are met.
-When designing an effective multitenant organization, it’s crucial to establish the hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
+When designing an effective multitenant organization, it’s crucial to establish a hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -82,8 +82,8 @@ This process requires that you use Microsoft Graph API, an API with separate [re
 
 |Task description|Instructions|
 |----------------|----------------|
-|A. Configure the multitenant organization and participating tenants in the Microsoft 365 admin center.|<ol><li>Sign into the owner tenant and create a multitenant organization.</li><li>Add all tenants to the multitenant organization. See [Configure a multitenant organization using the Microsoft Graph API](/graph/use-the-api|
-|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.| [Templates](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-templates) |
+|A. Configure the multitenant organization and participating tenants in the Microsoft 365 admin center.|<ol><li>Sign into the owner tenant and create a multitenant organization.</li><li>Add all tenants to the multitenant organization. See [Configure a multitenant organization using the Microsoft Graph API](/graph/use-the-api)|
+|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.| Configure a policy from [these templates](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-templates). |
 |C. Synchronize across the multitenant organization.|See [Configure cross-tenant synchronization](/azure/active-directory/multi-tenant-organizations/cross-tenant-synchronization-configure).|
 |D. If you run into problems, troubleshoot the issue.|See [Known issues for multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues).|
 
