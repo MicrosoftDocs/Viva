@@ -97,7 +97,7 @@ After you establish the multitenant organization in Microsoft 365, configure mul
 
 |Task description|Instructions|
 |----------------|----------------|
-|On the designated hub tenant, configure Viva Engage to recognize the tenant as the hub.|In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the **Feature management** tab,  select the **MTO policy** tile.</li><li>Select the hub tenant.</li>|
+|On the designated hub tenant, configure Viva Engage to recognize the tenant as the hub.|<ol><li>In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the **Feature management** tab,  select the **MTO policy** tile.</li><li>Select the hub tenant.</li>|
 
 ## Configure the hub tenant for Storyline
 
