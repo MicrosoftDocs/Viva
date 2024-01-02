@@ -84,7 +84,7 @@ By default, Answers is turned on. Optionally, you can hide Answers from view in 
 
    [![Screenshot of the admin entrypoint into Answers feature management in the Viva Engage admin center.](/viva/media/engage/admin/answers-eac.png)](/viva/media/engage/admin/answers-eac.png#lightbox)
 
-1. In **Answers** feature management, you can enable or disable Answers for your organization. Answers is turned on by default.  
+1. Use the **Enable Answers** toggle to enable or disable Answers for your organization. Answers is turned on by default.  
 
    [![Screenshot of the Answers enablement toggle in the Viva Engage admin center.](/viva/media/engage/admin/enable-answers.png)](/viva/media/engage/admin/enable-answers.png#lightbox)
 
