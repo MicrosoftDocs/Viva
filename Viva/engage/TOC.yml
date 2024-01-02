@@ -156,12 +156,3 @@
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
         - name: Viva Engage and Microsoft Defender
           href: /viva/engage/viva-engage-and-defender
-   - name: Troubleshoot issues
-     items:
-       - name: Error when selecting the Viva Engage tile in Microsoft 365
-         href: /viva/troubleshoot/engage/error-select-the-viva-engage-tile-in-microsoft-365?toc=/viva/engage/toc.json&bc=/viva/breadcrumb/toc.json     
-       - name: Troubleshoot Viva Engage network for problems with Native Mode
-         href: /viva/troubleshoot/engage/troubleshoot-native-mode?toc=/viva/engage/toc.json&bc=/viva/breadcrumb/toc.json
-       - name: User sign-in issues on Android devices
-         href: /viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices?toc=/viva/engage/toc.json&bc=/viva/breadcrumb/toc.json
-        
