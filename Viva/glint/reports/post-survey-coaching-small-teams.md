@@ -24,29 +24,36 @@ Survey results in the Microsoft Viva Glint platform are available to managers as
 
 Managers can still have great feedback sessions with your team. Here's how: 
 
-## Enable Broader Team Insights for managers of small teams
+## Enable Broader Team Insights for your managers 
 
-Managers of small teams may not have enough team members with overall size or response rate size to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap.
+Managers of small teams may not have enough team members with overall size or response rate size to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps to bridge that gap.
 
 [Follow this guidance to enable Broader Team Insights for your managers](https://go.microsoft.com/fwlink/?linkid=2231012)
 
-## Data for survey items with fewer than five respondents will not show in reporting
+## BTI allows managers with fewer than five respondents to hold conversations about feedback data
 
 > [!TIP]
-> Typically the minimum response threshold in your Viva Glint platform should be set to five (5) or more respondents to protect employee confidentiality.
+> Typically the minimum response threshold in your Viva Glint platform should be set to five (5) or more respondents to protect employee confidentiali
 
-Your team’s data rolls up into the next level, so your team (and you) are represented in your direct manager’s report. You may get this summary as you participate in your manager’s ACT Conversation, but Viva Glint recommends giving managers access to Broader Team Insights as a starting point for an ACT Conversation. They can do this by downloading the presentation kit through the prompt at the top of their Viva Glint dashboard. 
+Each team’s data rolls up into the next level, so each team is represented in their direct manager’s report. While your managers should have this summary as part of your ACT Conversation, Viva Glint recommends giving managers access to Broader Team Insights as a starting point for their own ACT Conversation. They will download the presentation kit through the prompt at the top of their Viva Glint dashboard when BTI is enabled. 
 
-Review those results. Use the one-page Manager Quick Guide to Interpretation to help you prepare for your conversation.
+Review those results. Use the [Manager Quick Guide to Interpretation]([/../../viva/glint/setup/quick-guide-confidentiality](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) to prepare for your conversation.
 
-Then hold your own ACT Conversation to discuss where the larger-group results do and do not reflect the smaller-group experience and what action you will all commit to in order to make improvements. Follow the one-page Quick Guide to Conversations to help you with this conversation.
+Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and might not reflect their smaller-group experience and what action the team will commit to in order to makeimprovements. 
 
-## Even a larger team can fall short of the respondent threshold
+## Managers can fall short of the respondent requirements for a number of reasons
 
-Some leaders might have enough respondents in their overall hierarchy to generate a report, but not enough respondents who report into them directly. For example, we have a leader who has 4 direct reports, and each of them have 6 direct reports. For simplicity’s sake, let’s say this leader had 100% participation across her larger team. With 28 responses, she will definitely receive a report, but she will not be able to filter that report to only see her direct reports’ responses, since there were less than 5.
+- **Some leaders might have enough respondents in their overall hierarchy to generate a report, but not enough respondents who report into them directly** 
 
-In this case, the leader should still have an ACT Conversation with her direct reports using the roll-up results. Throughout the Acknowledge part of the conversation, she should ask her team which of the results is most pertinent to their smaller group.
+> For example, a leader who has four (4) direct reports, and then each of those directs have six (6) direct reports - Let’s say this leader had 100% participation across their larger team. 
+    With 28 responses, they'll receive a report but will not be able to filter that report to only see their four (4) direct reports’ responses, since there are less than 5.
 
-## Have a meaningful conversation even if it does not refer directly to your own team's results
+- **A manager may have a team of more than five (5) employees but not all of them might answer the survey or all of the survey items**
+
+> For example, perhaps the team has 14 employees. If only four (4) of those employees answer the survey **or** only four (4) respond to a certain item, no data will be shown.
+
+In these cases, the leader should still have an ACT Conversation with their direct reports using roll-up results. Throughout the Acknowledge part of the conversation, the manager should talk to the team about which results might be pertinent to their smaller team or group of respondents.
+
+## Conversations can be meaningful even if it does not refer directly to your own team's results
 
 Keep in mind the goal of pulse feedback is to understand what most engages and inspires your team(s) to be their best at work. Your pulse scores are a starting point for a conversation that involves your team in identifying actions that can be taken to improve their engagement. So even if you have just a few responses, or limited views of your results, you can still use the available data to foster a rich conversation with your team(s). And actually, we could argue managers of small teams are the ones who least need survey results! Because they can easily and regularly connect with their team members to know how everyone is doing, survey results don’t often give managers of small teams new information. Also, keep in mind that 5-10 data points is very small from a statistical standpoint because it is more susceptible to large swings up or down based on one person coming into or leaving the team. So once you do have enough respondents to generate a report, the conversation is just as critical, if not more, to ensuring you truly understand your team’s engagement.
