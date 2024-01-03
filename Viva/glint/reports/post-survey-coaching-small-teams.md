@@ -1,5 +1,5 @@
 ---
-title: Post-survey coaching for managers of small teams
+title: Post-survey coaching for managers of small teams interpreting survey results
 description: Due to confidentiality policies, managers of small teams may not see survey reports directly from their own team. Empower these managers with Broader Team Insights so all managers and employees can benefit from survey feedback.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 01/02/2024
 ---
 
-# Post-survey coaching for managers of small teams
+# Post-survey coaching for managers of small teams interpreting survey results
 
 Survey results in the Microsoft Viva Glint platform are available to managers as soon as one day after the survey closes [Read about Live versus Phased access](/../../viva/glint/setup/live-versus-phased-access). Hopefully your managers are eager to see their results, as are their employees. However, due to confidentiality thresholds set in the Viva Glint platform, some views of feedback results may not display data. 
 
@@ -42,7 +42,7 @@ Each team’s data rolls up into the next level, so each team is represented in 
 
 Review those results. Use the [Manager Quick Guide to Interpretation](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) to prepare for your conversation.
 
-Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and might not reflect their smaller-group experience and what action the team will commit to in order to makeimprovements. 
+Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and don't reflect their smaller-group experience and what action the team will commit to in order to facilitate improvements. 
 
 ## Managers can fall short of the respondent requirements for a number of reasons
 
@@ -55,9 +55,9 @@ Managers of small teams can hold their ACT Conversation to discuss where the lar
 
 > For example, perhaps the team has 14 employees. If only four (4) of those employees answer the survey **or** only four (4) respond to a certain item, no data will be shown.
 
-In these cases, the leader should still have an ACT Conversation with their direct reports using roll-up results. Throughout the Acknowledge part of the conversation, the manager should talk to the team about which results might be pertinent to their smaller team or smaller group of respondents.
+In these cases, the leader should still have an ACT Conversation with their direct reports using roll-up (BTI) results. Throughout the Acknowledge part of an ACT conversation, the manager should talk to the team about which results might be pertinent to their smaller team or smaller group of respondents.
 
-## Conversations are meaningful even if they do not refer directly to a manager's own team's results
+## Conversations are meaningful even if they do not refer directly to a manager's own team results
 
 The goal of survey feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involve a team in identifying actions that can be taken to improve engagement. Even just a few responses - or limited views of results - can make effective use of available BTI data and foster a rich team conversation. 
 
@@ -68,4 +68,4 @@ Managers of small teams may sometimes feel survey results do not provide much va
 > [!CAUTION]
 > If a small team does earn enough responses to view their own data, there can be large score swings based on one person coming into or leaving the team, making it intimidating to interpret results. 
  
-Having a specific survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the bigger, organizational picture.
+Having a specific survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the larger, organizational picture.
