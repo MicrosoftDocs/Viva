@@ -65,7 +65,7 @@ The goal of survey feedback is to understand what most engages and inspires a te
 
 Managers of small teams may sometimes feel survey results do not provide much value, especially if they easily and regularly connect with their team members to know how everyone is doing. While there is truth in this, when teams do not earn enough responses to view their own results, Broader Team Insights (BTI) can be very helpful in giving a sense for how the larger org is doing - including other voices and feedback.
  
-> [!CAUTION]
-> If a small team does earn enough responses to view their own data, there can be large score swings based on one person coming into or leaving the team, making it intimidating to interpret results. 
+> [!NOTE]
+> If a small team does earn enough responses to view their own data, be mindful that there can be large score swings purely based on one person coming into or leaving the team. These changes may seem intimidating but are not necessarily indicative of actual sentiment changes. Having a specific survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the bigger, organizational picture.
  
 Having a specific survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the larger, organizational picture.
