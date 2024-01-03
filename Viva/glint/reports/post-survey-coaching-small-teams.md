@@ -52,8 +52,12 @@ Managers of small teams can hold their ACT Conversation to discuss where the lar
 
 > For example, perhaps the team has 14 employees. If only four (4) of those employees answer the survey **or** only four (4) respond to a certain item, no data will be shown.
 
-In these cases, the leader should still have an ACT Conversation with their direct reports using roll-up results. Throughout the Acknowledge part of the conversation, the manager should talk to the team about which results might be pertinent to their smaller team or group of respondents.
+In these cases, the leader should still have an ACT Conversation with their direct reports using roll-up results. Throughout the Acknowledge part of the conversation, the manager should talk to the team about which results might be pertinent to their smaller team or smaller group of respondents.
 
-## Conversations can be meaningful even if it does not refer directly to your own team's results
+## Conversations are meaningful even if they do not refer directly to a manager's own team's results
 
-Keep in mind the goal of pulse feedback is to understand what most engages and inspires your team(s) to be their best at work. Your pulse scores are a starting point for a conversation that involves your team in identifying actions that can be taken to improve their engagement. So even if you have just a few responses, or limited views of your results, you can still use the available data to foster a rich conversation with your team(s). And actually, we could argue managers of small teams are the ones who least need survey results! Because they can easily and regularly connect with their team members to know how everyone is doing, survey results don’t often give managers of small teams new information. Also, keep in mind that 5-10 data points is very small from a statistical standpoint because it is more susceptible to large swings up or down based on one person coming into or leaving the team. So once you do have enough respondents to generate a report, the conversation is just as critical, if not more, to ensuring you truly understand your team’s engagement.
+The goal of survey feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involve a team in identifying actions that can be taken to improve engagement. Even just a few responses - or limited views of results - can make effective use of available BTI data and foster a rich team conversation. 
+
+## Small teams may seem less likely to need survey results but this theory is incorrect
+
+Because they can easily and regularly connect with their team members to know how everyone is doing, it might seem that survey results may not give managers of small teams new information. Also, keep in mind that 5-10 data points is very small from a statistical standpoint because it is more susceptible to large swings up or down based on one person coming into or leaving the team. So once you do have enough respondents to generate a report, the conversation is just as critical, if not more, to ensuring you truly understand your team’s engagement.
