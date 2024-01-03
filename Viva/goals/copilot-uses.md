@@ -32,21 +32,21 @@ Copilot in Viva Goals can read through strategy or planning documents and propos
 
 Viva Goals does not store your documents or conversational prompts for any purpose. You can find more information about how Microsoft uses Copilot data in Viva Goals [here](..\viva-privacy.md).
 
-![Screenshot that shows a view of a product team's OKRs with a view of suggested Copilot actions on the right side.](..\media\goals\copilot\suggested-copilot-actions.jpg)
+![Screenshot that shows a view of a product team's OKRs with a view of suggested Copilot actions on the right side.](..\media\goals\copilot\suggested-copilot-actions.png)
 
-![Screenshot that shows a view of a product team's OKRs with Copilot requesting a strategy document from which to generate OKRs on the right side.](..\media\goals\copilot\strategy-document-request.jpg)
+![Screenshot that shows a view of a product team's OKRs with Copilot requesting a strategy document from which to generate OKRs on the right side.](..\media\goals\copilot\strategy-document-request.png)
 
-![Screenshot that shows a view of a product team's OKRs with the user having provided a strategy document on the right side.](..\media\goals\copilot\strategy-document-provided.jpg)
+![Screenshot that shows a view of a product team's OKRs with the user having provided a strategy document on the right side.](..\media\goals\copilot\strategy-document-provided.png)
 
-![Screenshot that shows a view of a product team's OKRs with Copilot suggesting OKRs based on the strategy document given on the right side.](..\media\goals\copilot\strategy-doc-okr-suggestions.jpg)
+![Screenshot that shows a view of a product team's OKRs with Copilot suggesting OKRs based on the strategy document given on the right side.](..\media\goals\copilot\strategy-doc-okr-suggestions.png)
 
 ## Generate key results for existing goals
 
 Select **Generate key results using Copilot** in the "add child items" menu (see below), and Copilot in Viva Goals will generate appropriate key results for the relevant objective.
 
-![Screenshot that shows a view of a product team's OKRs with one objective's "add child items" menu open.](..\media\goals\copilot\add-child-items-menu.jpg)
+![Screenshot that shows a view of a product team's OKRs with one objective's "add child items" menu open.](..\media\goals\copilot\add-child-items-menu.png)
 
-![Screenshot that shows a view of a product team's OKRs with Copilot offering key results for a certain objective on the right side.](..\media\goals\copilot\suggested-key-results.jpg)
+![Screenshot that shows a view of a product team's OKRs with Copilot offering key results for a certain objective on the right side.](..\media\goals\copilot\suggested-key-results.png)
 
 ## Generate goals using the conversational Copilot bot
 
@@ -57,7 +57,7 @@ When you're in the planning stage, you can chat with Copilot in Viva Goals to ge
 >
 > *I work for a retail company in the marketing department. This year, we want to become the market leader, expand to new geographic regions, and increase our product offerings.*
 
-![Screenshot that shows a view of a sales team with no OKRs, but for which the user has requested and received suggested OKRs through conversing with Copilot on the right side.](..\media\goals\copilot\conversational-okr-suggestions.jpg)
+![Screenshot that shows a view of a sales team with no OKRs, but for which the user has requested and received suggested OKRs through conversing with Copilot on the right side.](..\media\goals\copilot\conversational-okr-suggestions.png)
 
 ## Summarize goals
 
@@ -65,9 +65,9 @@ You can use Copilot in Viva Goals to access summaries of goals, including team g
 
 ![Screenshot that shows a view of a product team's OKRs, with an emphasis on the "Generate a summary" option.](..\media\goals\copilot\generate-a-summary.png)
 
-![Screenshot that shows a view of a product team's OKRs, with Copilot having generated a summary of the OKRs on the right side.](..\media\goals\copilot\okr-summary.jpg)
+![Screenshot that shows a view of a product team's OKRs, with Copilot having generated a summary of the OKRs on the right side.](..\media\goals\copilot\okr-summary.png)
 
-![Screenshot that shows a view of a product team's OKRs, with two specific OKRs selected and an emphasis on the "Summarize" option.](..\media\goals\copilot\summarize-specific-okrs.jpg)
+![Screenshot that shows a view of a product team's OKRs, with two specific OKRs selected and an emphasis on the "Summarize" option.](..\media\goals\copilot\summarize-specific-okrs.png)
 
 ## Understand goals
 
