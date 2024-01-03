@@ -25,11 +25,11 @@ Survey results in the Microsoft Viva Glint platform are available to managers as
 > [!NOTE]
 > The Viva Glint admin sets the confidentiality threshold in the Reporting section of General Settings. [Read about setting up the Reporting section](/../../viva/glint/setup/manage-general-settings).
 
-Managers can still have great feedback sessions with your team. Here's how: 
+Managers who cannot view some or all of their team's data can still have great feedback sessions with their teams. Here's how: 
 
 ## Enable Broader Team Insights for your managers 
 
-Managers of small teams may not have enough team members with overall size or response rate size to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps to bridge that gap.
+Managers of small teams may not have *enough team members overall* or *response rate size* to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights (BTI) helps to bridge that gap.
 
 [Follow this guidance to enable Broader Team Insights for your managers](https://go.microsoft.com/fwlink/?linkid=2231012)
 
