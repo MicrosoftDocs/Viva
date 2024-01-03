@@ -5,8 +5,8 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
 audience: admin
-f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+f1.keywords: broader team insights
+keywords: 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
