@@ -1,6 +1,6 @@
 ---
-title: "Set up Viva Engage as a multitenant organization"
-description: "How to set up Viva Engage as a multitenant organization."
+title: "Set up Viva Engage for a multitenant organization"
+description: "How to set up Viva Engage for a multitenant organization."
 ms.reviewer: ahosford
 ms.author: v-bvrana
 author: Starshine89
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up Viva Engage as a multitenant organization
+# Set up Viva Engage for a multitenant organization
 
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
@@ -36,9 +36,11 @@ Complete these tasks in the order they appear. Administrator role requirements v
 
 #### Tenants connect in hub-and-spoke model
 
-Viva Engage uses a hub-and-spoke model to communicate across tenants. In this model, the "hub" is a designated tenant that generates the bulk of all official communication to the other "spoke" tenants. Most of your leaders, corporate communicators, and policy makers should reside on the hub tenant.
+Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* rests at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
 
-After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Identified leaders on the hub tenant have the ability notify everyone across the spoke tenants by posting a single announcement from their storyline.
+*Spoke* tenants are the remaining networks. By using storyline and Leadership corner, leaders on the hub can broadcast content to all spoke tenants simultaneously, ensuring that information is distributed in a timely and efficient manner.
+
+After the hub tenant is configured for multitenant organization, all tenants can communicate as a single, unified network.  
 
 > [!NOTE]
 > Only Storyline and Leadership corner are available for multi-tenant organization.
