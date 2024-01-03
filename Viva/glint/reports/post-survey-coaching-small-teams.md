@@ -63,4 +63,9 @@ The goal of survey feedback is to understand what most engages and inspires a te
 
 ## Small teams may seem less likely to need survey results but this theory is incorrect
 
-Because they can easily and regularly connect with their team members to know how everyone is doing, it might seem that survey results may not give managers of small teams new information. Also, keep in mind that 5-10 data points is very small from a statistical standpoint because it is more susceptible to large swings up or down based on one person coming into or leaving the team. So once you do have enough respondents to generate a report, the conversation is just as critical, if not more, to ensuring you truly understand your team’s engagement.
+Managers of small teams may sometimes feel survey results do not provide much value, especially if they easily and regularly connect with their team members to know how everyone is doing. While there is truth in this, when teams do not earn enough responses to view their own results, Broader Team Insights (BTI) can be very helpful in giving a sense for how the larger org is doing - including other voices and feedback.
+ 
+> [!CAUTION]
+> If a small team does earn enough responses to view their own data, there can be large score swings based on one person coming into or leaving the team, making it intimidating to interpret results. 
+ 
+Having a specific survey-specific conversation with a small team is essential to ensuring a true understanding of the team’s engagement and the bigger, organizational picture.
