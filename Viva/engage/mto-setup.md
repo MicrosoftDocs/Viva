@@ -1,5 +1,5 @@
 ---
-title: "Set up Viva Engage as a multitenant organization"
+title: "Set up Viva Engage for a multitenant organization"
 description: "How to set up Viva Engage as a multitenant organization."
 ms.reviewer: ahosford
 ms.author: v-bvrana
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up Viva Engage as a multitenant organization
+# Set up Viva Engage for a multitenant organization
 
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
