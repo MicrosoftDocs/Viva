@@ -20,7 +20,10 @@ ms.date: 01/02/2024
 
 # Post-survey coaching for managers of small teams
 
-Survey results in the Microsoft Viva Glint platform are available to managers as soon as one day after the survey closes. Managers are eager to see their results, as are their employees. Due to confidentiality thresholds set in the Viva Glint platform, however, some views of feedback results may not display data.
+Survey results in the Microsoft Viva Glint platform are available to managers as soon as one day after the survey closes [Read about Live versus Phased access](/../../viva/glint/setup/live-versus-phased-access). Hopefully your managers are eager to see their results, as are their employees. However, due to confidentiality thresholds set in the Viva Glint platform, some views of feedback results may not display data. 
+
+> [!NOTE]
+> The Viva Glint admin sets the confidentiality threshold in the Reporting section of General Settings. [Read about setting up the Reporting section](/../../viva/glint/setup/manage-general-settings).
 
 Managers can still have great feedback sessions with your team. Here's how: 
 
