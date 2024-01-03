@@ -37,7 +37,7 @@ Managers of small teams may not have enough team members with overall size or re
 
 Each team’s data rolls up into the next level, so each team is represented in their direct manager’s report. While your managers should have this summary as part of your ACT Conversation, Viva Glint recommends giving managers access to Broader Team Insights as a starting point for their own ACT Conversation. They will download the presentation kit through the prompt at the top of their Viva Glint dashboard when BTI is enabled. 
 
-Review those results. Use the [Manager Quick Guide to Interpretation]([/../../viva/glint/setup/quick-guide-confidentiality](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) to prepare for your conversation.
+Review those results. Use the [Manager Quick Guide to Interpretation](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf) to prepare for your conversation.
 
 Managers of small teams can hold their ACT Conversation to discuss where the larger-group results do and might not reflect their smaller-group experience and what action the team will commit to in order to makeimprovements. 
 
