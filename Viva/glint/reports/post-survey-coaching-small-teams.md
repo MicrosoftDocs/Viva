@@ -30,7 +30,7 @@ Managers of small teams may not have enough team members with overall size or re
 
 [Follow this guidance to enable Broader Team Insights for your managers](https://go.microsoft.com/fwlink/?linkid=2231012)
 
-## BTI allows managers with fewer than five respondents to hold conversations about feedback data
+## BTI allows managers with fewer than five respondents to hold feedback conversations 
 
 > [!TIP]
 > Typically the minimum response threshold in your Viva Glint platform should be set to five (5) or more respondents to protect employee confidentiali
