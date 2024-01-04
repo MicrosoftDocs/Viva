@@ -81,7 +81,7 @@ With the **Data granularity** advanced parameter, choose whether you want to:
 
 #### Aggregated data 
 
-When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings. 
+When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size), by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings. 
 
 Consider using **Aggregated data** when: 
 
@@ -95,7 +95,7 @@ Consider using **Aggregated data** when:
 
 #### Row-level data 
 
-When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules. You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size. 
+When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size). You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size. 
 
 Consider using **Row-level data** when: 
 
