@@ -1,5 +1,5 @@
 ---
-ms.date: 08/31/2023
+ms.date: 01/08/2024
 title: Customize Viva Insights privacy settings
 description: Learn how to customize  Viva Insights privacy settings in the advanced insights app
 author: zachminers
@@ -21,7 +21,17 @@ audience: Admin
 
 :::image type="content" source="../images/setup-vi-settings-1.png" alt-text="Image alt text." lightbox="../images/setup-vi-settings-1.png":::
 
-To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page. 
+To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page.
+
+## Partitions
+
+Partitions are analyst workspaces that include only certain employee data and attributes. If you turn on partitions, going forward, all analysts assigned to Viva Insights must be manually assigned a partition to access the Viva Insights dataset. Existing analysts, however, will continue to have access to full tenant data through the global partition. 
+
+Once you turn on partitions, you can’t turn them off without contacting us. 
+
+:::image type="content" source="../images/admin-partitions-turn-on.png" alt-text="Screenshot that shows the option to turn on partitions in privacy settings." lightbox="../images/admin-partitions-turn-on.png":::
+
+[Learn more about partitions and how to set them up](../admin/partitions.md).
 
 ## Domain reclassification
 

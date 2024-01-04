@@ -92,6 +92,8 @@ items:
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
+          - name: Create partitions
+            href: advanced/admin/partitions.md
         - name: Analyst
           items:
           - name: Queries
