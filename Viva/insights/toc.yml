@@ -86,14 +86,14 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Create partitions
+            href: advanced/admin/partitions.md
           - name: File rules and validation errors  
             href: advanced/admin/rules-validation-errors.md
           - name: Domain suppression
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
-          - name: Create partitions
-            href: advanced/admin/partitions.md
         - name: Analyst
           items:
           - name: Queries
