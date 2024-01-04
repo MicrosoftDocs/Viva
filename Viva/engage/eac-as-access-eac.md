@@ -28,7 +28,7 @@ In the Viva Engage Teams application, select the ellipses button from the top na
 
 [![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
 
-To access the [Viva Engage admin center on the web](http://www.yammer.com), from the gear icon in the top navigation menu, select **Admin center**.
+To access the [Viva Engage admin center on the web](http://engage.cloud.microsoft), from the gear icon in the top navigation menu, select **Admin center**.
 
 :::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Diagram shows how to access Admin center from a browser." lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 <br>
