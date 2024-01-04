@@ -20,20 +20,20 @@ search.appverid:
 - YAE150
 - BSA160
 ms.assetid: 21954c85-4384-47d4-96c2-dfa1c9d56e66
-description: "Add enterprise social features to Office 365 by activating Viva Engage or turning on SharePoint Newsfeed. Learn about Viva Engage support options and resources."
+description: "Add enterprise social features to Microsoft 365 by activating Viva Engage or turning on SharePoint Newsfeed. Learn about Viva Engage support options and resources."
 ---
 
 # SharePoint enterprise social experience - Viva Engage and Newsfeed
 
-Office 365 includes two options for enterprise social features in SharePoint: Viva Engage and Newsfeed. The SharePoint administrator selects which option users see when they click **Conversations** in SharePoint. By default, users see Newsfeed. 
+Microsoft 365 includes two options for enterprise social features in SharePoint: Viva Engage and Newsfeed. The SharePoint administrator selects which option users see when they click **Conversations** in SharePoint. By default, users see Newsfeed. 
   
 You can turn Viva Engage off or on for conversations in SharePoint by using the SharePoint Online admin center. **You must be a global administrator to make this change.**
   
 :::image type="content" source="../../media/c89f672f-be20-4b71-9719-7acfa03162b8.png" alt-text="Screenshot of the SharePoint admin center, Enterprise Social Collaboration options.":::
   
-1. Sign in to Microsoft 365 or Office 365 as a global admin.
+1. Sign in to Microsoft 365 Global administrator.
     
-2. Select the app launcher icon :::image type="icon" source="../../media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png" border="false"::: in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon :::image type="icon" source="../../media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png" border="false"::: in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have global administrator permissions in your organization.)
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     
@@ -48,9 +48,9 @@ You can turn Viva Engage off or on for conversations in SharePoint by using the 
 
 If you want to use Newsfeed for conversations in SharePoint groups, you can turn it on in the SharePoint Online admin center.
   
-1. Sign in to Office 365 as a global admin.
+1. Sign in to Microsoft 365 as a global admin.
     
-2. Select the app launcher icon :::image type="icon" source="../../media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png" border="false"::: in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have Office 365 administrator permissions in your organization.) 
+2. Select the app launcher icon :::image type="icon" source="../../media/3b8a317e-13ba-4bd4-864e-1ccd47af39ee.png" border="false"::: in the upper-left and choose **Admin** to open the Microsoft 365 admin center. (If you don't see the Admin tile, you don't have global administrator permissions in your organization.)
     
 3. In the left pane, choose **Admin centers** \> **SharePoint**.
     

@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
+manager: pamgreen
 ms.date: 7/12/2023
 audience: Admin
 ms.topic: article
@@ -27,7 +27,7 @@ For information about using Viva Engage files stored in SharePoint, see the foll
 
 - [Where are my Viva Engage files stored?](https://support.microsoft.com/en-us/office/how-do-i-tell-where-my-viva-engage-files-are-being-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
 
-- [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.office.com/article/edit-a-previously-uploaded-file-when-your-yammer-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87)
+- [Edit a previously uploaded file when your Viva Engage connected group now stores files in SharePoint](https://support.microsoft.com/en-us/office/edit-a-previously-uploaded-file-when-your-viva-engage-connected-group-now-stores-files-in-sharepoint-4b2cfde2-871e-4f0d-9936-db5a57ef5f87?ui=en-us&rs=en-us&ad=us)
 
 ## Benefits
 
@@ -145,7 +145,7 @@ For more information about Microsoft Entra B2B guests, see [Guest access in a Mi
 
     - In Internet Explorer 11 or Microsoft Edge, ensure protected mode is disabled for the trusted zone.
 
-        Include **yammer.com** and related URLs as a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-gb/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_yammer)
+        Include **engage.cloud.microsoft** and related URLs as a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
     - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, additional effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
 
