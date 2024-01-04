@@ -18,7 +18,7 @@ search.appverid: MET150
 
 # How users access Viva Pulse in Microsoft Teams or in a web browser
 
-Once you've [installed Viva Pulse and granted access to users](/Viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center), users can access Pulse in the Microsoft Teams app or as a web app.
+Once you've [installed Viva Pulse and granted access to users](./manage-install-pin-viva-pulse-in-teams-admin-center), users can access Pulse in the Microsoft Teams app or as a web app.
 
 ## Access Viva Pulse in Microsoft Teams
 
