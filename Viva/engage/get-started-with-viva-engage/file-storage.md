@@ -145,7 +145,7 @@ For more information about Microsoft Entra B2B guests, see [Guest access in a Mi
 
     - In Internet Explorer 11 or Microsoft Edge, ensure protected mode is disabled for the trusted zone.
 
-        Include **yammer.com** and related URLs as a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-gb/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_yammer)
+        Include **engage.cloud.microsoft** and related URLs as a part of trusted zone. For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/en-gb/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_yammer)
 
     - In complex environments, especially those using wildcard configurations such as *.fabrikam.com, additional effort may be required to find the right configuration. URLs may need to be moved between zones, or replaced with the absolute versions in some cases.
 
