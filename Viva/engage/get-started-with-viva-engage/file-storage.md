@@ -5,8 +5,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
-ms.date: 7/12/2023
+manager: elizapo
+ms.date: 01/04/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
