@@ -86,7 +86,7 @@ A: Only users with a valid and verified company email address can join your Viva
 A: As of January 2024, all Viva Engage users need to be able to access
 **engage.cloud.microsoft**. We recommend against using a list of IP address ranges to control access since they can change and create access problems for users.
 
-For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints?view=o365-worldwide).
+For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints).
 
 ### Q: Where is the data hosted?
 
