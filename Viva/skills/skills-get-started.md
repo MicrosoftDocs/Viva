@@ -77,12 +77,7 @@ Choose whether you’d like to import your own custom skills library. This step 
 
     1. Select the button to copy the selected file’s path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
 
-5. Paste the file path into Skills custom import step  
-
-    - Enter the file path details. Note "%20" should be replaced with a space. Remove "/" from the end of each row."
-      - SharePoint site URL: `https://contoso.sharepoint.com/TeamAdmin`
-      - Document library name: `Shared Documents/Folder Name`
-      - Skills library file path: [Skills Library.csv] 
+5. Paste the file paths for both files into the Skills custom import step  
 
 6. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
 
@@ -91,7 +86,6 @@ Choose whether you’d like to import your own custom skills library. This step 
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
-> - When providing import file path and folders, make sure to replace “%20” with a space and delete the “/” from the end of each input.  
 > - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
 
 ## Review your organization's skills library
