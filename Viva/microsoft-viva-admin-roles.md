@@ -164,5 +164,4 @@ Viva Pulse admins must have a license to one of the following: Viva Pulse Standa
 | ----------- | ----------- |
 | Microsoft 365 Global Admin | The Microsoft 365 Global Admin has global access to most management features and data across Microsoft online services. For Viva Pulse, the Microsoft 365 Global Admin can install and pin the Viva Pulse app in Microsoft Teams, assign a user to the Viva Pulse Admin role, and manage in-app Viva Pulse settings as well. |
 | Viva Pulse Admin | The Viva Pulse Admin needs to be assigned by the Microsoft 365 Global Admin. The Viva Pulse Admin can manage the in-app Viva Pulse settings. |
-| [Teams admin] | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
-
+| Teams admin | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
