@@ -158,8 +158,6 @@ Let's take a look at how to use these features:
 
 If you want to dive deeper into an insight, select the insight card. You'll arrive at a report page, which gives you more information about the metric that your insight's based on.
 
-:::image type="content" source="images/org-insights-report-page-4.png" alt-text="Screenshot that shows the L2 report page in the Viva Insights app."lightbox="images/org-insights-report-page-expanded-4.png":::
-
 Here's what you can do on each report page:
 
 ##### Weekly averages
