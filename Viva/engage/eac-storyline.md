@@ -161,11 +161,11 @@ If the admin or the user isn't premium licensed, or the user no longer has their
 
 From the API, Engage admins or verified admins can delete cover images for any user in their network through an API call. The URL has this syntax:
 
-`www.yammer.com/api/public/v1/user-profiles/user_id/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/user_id/cover-image`
 
 For example, to delete the cover images of a user with id 1234567890, the URL would be:
 
-`www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/1234567890/cover-image`
 
 
 ## See also

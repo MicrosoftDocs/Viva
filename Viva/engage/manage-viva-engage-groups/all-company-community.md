@@ -37,7 +37,7 @@ Now that All Company works like other communities, these features are available 
 - You can search for All Company communities by name (even if the community was renamed).
 - Community insights are only for the All Company community. Previously, insights found under the All Company page applied to the entire network and weren't specific to the community.
   >[!NOTE]
-  >If you need access to previous insights for All Company, access them through the following URL: https://www.yammer.com/domain-name/#/groups/company/insights. Substitute your organization’s domain name in the address.
+  >If you need access to previous insights for All Company, access them through the following URL: https://engage.cloud.microsoft/domain-name/#/groups/company/insights. Substitute your organization’s domain name in the address.
 - You can promote other users from the Viva Engage experience as admins of All Company to better manage the community. 
 - All Company is sorted like all other communities. Users can favorite the All Company community to move it to the top of their communities list. 
 

@@ -67,7 +67,7 @@ There are three basic steps:
     
 3. Paste the script into the web part and publish your SharePoint page. 
 
-When a Viva Engage feed is added using this method, the feed can't be viewed when using a mobile browser or if third-party cookies aren't enabled. For more information about browser support when using a Viva Engage feed in a script editor web part, see [Viva Engage Embed requirements](https://developer.yammer.com/docs/requirements).
+When a Viva Engage feed is added using this method, the feed can't be viewed when using a mobile browser or if third-party cookies aren't enabled. For more information about browser support when using a Viva Engage feed in a script editor web part, see [Viva Engage Embed requirements](/rest/api/yammer/embed-feed).
     
 ### Step 1: Set up the web part 
 
