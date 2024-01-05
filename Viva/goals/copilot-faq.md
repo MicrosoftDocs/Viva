@@ -1,5 +1,5 @@
 ---
-ms.date: 01/03/2024
+ms.date: 01/04/2024
 title: Copilot in Viva Goals FAQ
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -46,7 +46,7 @@ The output of Copilot in Viva Goals depends on the prompt that is passed to the 
 
 1. Any text or data that the user supplies to Copilot in Viva Goals.  
 
-2. OKRs in Viva Goals that users<!--All users in the org, or the specific user?--> have access to.  
+2. OKRs in Viva Goals that users<!--All users in the org, or the specific user?--> have access to.
 
 3. Common instructions and sample OKR data.  
 
