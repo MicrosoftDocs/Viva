@@ -79,7 +79,7 @@ Let's take a look at how to use these features:
 
 1. **Scope information**
 
-     At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring.
+     At the top-left, an indicator shows how many people the insights are measuring.
 
     The measured group reflects people who:
 
