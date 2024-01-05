@@ -151,6 +151,10 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 |**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 global admin | Manages and stores custom learning content for your organization.|
 |**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 global admin|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.|
 
+The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
+
+For more information on the roles in Viva Learning, see [Admin roles and permissions](/viva/learning/set-up-viva-learning#admin-roles-and-permissions) in Viva Learning.
+
 ### Viva Pulse
 
 Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](/viva/pulse/get-started/licensing-requirements.md). The following roles and permissions are required to set up Viva Pulse.
@@ -160,8 +164,5 @@ Viva Pulse admins must have a license to one of the following: Viva Pulse Standa
 | ----------- | ----------- |
 | Microsoft 365 Global Admin | The Microsoft 365 Global Admin has global access to most management features and data across Microsoft online services. For Viva Pulse, the Microsoft 365 Global Admin can install and pin the Viva Pulse app in Microsoft Teams, assign a user to the Viva Pulse Admin role, and manage in-app Viva Pulse settings as well. |
 | Viva Pulse Admin | The Viva Pulse Admin needs to be assigned by the Microsoft 365 Global Admin. The Viva Pulse Admin can manage the in-app Viva Pulse settings. |
-| [Microsoft Teams Admin](/microsoftteams/using-admin-roles) | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
+| [Teams admin] | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
 
-For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
-
-The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources through the Microsoft 365 admin center. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](/viva/learning/overview-viva-learning).
