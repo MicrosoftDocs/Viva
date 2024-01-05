@@ -1,11 +1,11 @@
 ---
-title: "Office 365 sign-in for Viva Engage"
+title: "Microsoft 365 sign-in for Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 7/27/2023
+ms.date: 01/04/2024
 audience: Admin
 ms.topic: overview
 ms.service: viva
