@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 7/11/2023
+ms.date: 01/04/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -23,7 +23,7 @@ description: "Add a Viva Engage feed to a modern or classic SharePoint site page
 
 # Include a Viva Engage feed in a SharePoint page
 
-To include a Viva Engage feed in a SharePoint page, your organization should have an active Viva Engage network (for example: http&#58;//www&#46;yammer&#46;com/contoso&#46;com). 
+To include a Viva Engage feed in a SharePoint page, your organization should have an active Viva Engage network (for example: http&#58;//www&#46;engage&#46;com/contoso&#46;com). 
 
 - For SharePoint Online, you can use the Viva Engage Conversations web part so that page viewers can engage in the conversation without leaving SharePoint.  The Viva Engage Conversations web part has the latest Viva Engage experiences including the ability to start a conversation with any type of post (Questions, Polls, Praise) and mark best answers directly from SharePoint. You can also use the Viva Engage Highlights web part to display recent conversations. However, the Highlights web part doesn't have all the latest Viva Engage experiences. 
 
@@ -67,7 +67,7 @@ There are three basic steps:
     
 3. Paste the script into the web part and publish your SharePoint page. 
 
-When a Viva Engage feed is added using this method, the feed can't be viewed when using a mobile browser or if third-party cookies aren't enabled. For more information about browser support when using a Viva Engage feed in a script editor web part, see [Viva Engage Embed requirements](/rest/api/yammer/embed-feed).
+When a Viva Engage feed is added using this method, the feed can't be viewed when using a mobile browser or if third-party cookies aren't enabled. For more information about browser support when using a Viva Engage feed in a script editor web part, see [Viva Engage Embed requirements](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications).
     
 ### Step 1: Set up the web part 
 
@@ -87,7 +87,7 @@ When a Viva Engage feed is added using this method, the feed can't be viewed whe
 
 ### Step 2: Copy and edit the script to use
 
-The following procedures describe how to add a group feed, my feed, or page feed. For information about other feed types, see [Viva Engage Embed](https://go.microsoft.com/fwlink/?LinkID=524147). You can also use the Viva Engage Embed configuration tool to create the script to use. See [Add the Viva Engage Embed widget to a SharePoint page](/SharePoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page) for how to use the configuration tool. 
+The following procedures describe how to add a group feed, my feed, or page feed. For information about other feed types, see [Viva Engage Embed](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications). You can also use the Viva Engage Embed configuration tool to create the script to use.e
   
  **Prepare the script for a group feed**
   
@@ -135,11 +135,11 @@ The following procedures describe how to add a group feed, my feed, or page feed
       > [!NOTE]
       > You can also change the height and width parameters to the height and width you prefer. 
 
-     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects. The list of valid object types is at [Schema \> Supported Object Types](https://go.microsoft.com/fwlink/?LinkId=525586). If you're interested in using the Viva Engage Embed widget to add Viva Engage feeds to your SharePoint pages, see [Add the Viva Engage Embed widget to a SharePoint page](/SharePoint/administration/add-the-yammer-embed-widget-to-a-sharepoint-page).
+     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects. The list of valid object types is at [Schema \> Supported Object Types](https://go.microsoft.com/fwlink/?LinkId=525586). If you're interested in using the Viva Engage Embed widget to add Viva Engage feeds to your SharePoint pages, see [Add the Viva Engage Embed widget to a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).
     
 ### Step 3: Paste the script in, and publish the SharePoint page. 
 
 - On the SharePoint page, paste in the script, and then select **Publish**.
     
 >[!NOTE]
->For the Highlights (Classic mode) and the Viva Engage embed script experiences, when you add a Viva Engage My Feed/Home feed to a SharePoint page, you'll see slightly different messages than the ones included in the Home feed available in Viva Engage web, desktop, or mobile. The following feed for users will contain messages from people, topics, and files they follow. The My Feed will contain messages from All Company and the user's following feed. In Viva Engage web, desktop, and mobile, users can select Discovery, All, or Following feeds, but these aren't available in SharePoint pages. The My Feed/Home feed type is closest to the All feed but doesn't include public posts in public groups the user doesn't belong to.<br><br>Viva Engage does not have to be the social collaboration tool for SharePoint in order to embed a Viva Engage feed, but if you want to make Viva Engage the primary social experience for SharePoint, see [Integrate Viva Engage with on-premises SharePoint environments](/sharepoint/administration/integrate-yammer-with-on-premises-sharepoint-server-environments).
+>For the Highlights (Classic mode) and the Viva Engage embed script experiences, when you add a Viva Engage My Feed/Home feed to a SharePoint page, you'll see slightly different messages than the ones included in the Home feed available in Viva Engage web, desktop, or mobile. The following feed for users contains messages from people, topics, and files they follow. The My Feed contains messages from All Company and the user's following feed. In Viva Engage web, desktop, and mobile, users can select Discovery, All, or Following feeds, but these aren't available in SharePoint pages. The My Feed/Home feed type is closest to the All feed but doesn't include public posts in public groups the user doesn't belong to.<br><br>If you want Viva Engage to be the primary social experience for SharePoint, see [SharePoint enterprise social experience](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).
