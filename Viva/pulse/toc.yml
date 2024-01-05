@@ -25,7 +25,7 @@ items:
       href: setup-admin-access/set-up-in-app-pulse-experience.md
     - name: Enable notifications for your organization
       href: setup-admin-access/enable-notifications-for-your-organization.md  
-    - name: Access Viva Pulse in Microsoft Teams or web
+    - name: How users access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
 - name: Troubleshoot
   items:
