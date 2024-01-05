@@ -61,13 +61,14 @@ For example, you might want to give someone site owner permissions so they can c
 To help you decide who should be assigned which roles, here are the overviews of roles for each app and what they do in Viva.<br><br>
 Jump to a section:
 
-[Viva Amplify]/viva/microsoft-viva-admin-roles#viva-amplify)<br>
+[Viva Amplify](/viva/microsoft-viva-admin-roles#viva-amplify)<br>
 [Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
 [Viva Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
 [Viva Glint](#viva-glint)<br>
 [Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
 [Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
+[Viva Pulse](/viva/microsoft-viva-admin-roles#viva-pulse)<br>
 
 ### Viva Amplify
 
