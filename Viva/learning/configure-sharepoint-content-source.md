@@ -202,12 +202,6 @@ If a description column is already present, you can delete it and add a new one 
 1. Name the column `ThumbnailWebUrl`.
 1. Add the URLs for each item.
 
-![A screenshot displaying how to open details for the file for images](../media/learning/sharepoint-config-sources-thumbnail-1.png)
-
-
-![A screenshot displaying how to copy path for images.](../media/learning/sharepoint-config-sources-thumbnail-2.png)
-
-
 
 **Language metadata**
 
