@@ -69,12 +69,24 @@ For example, you might want to give someone site owner permissions so they can c
 To help you decide who should be assigned which roles, here are the overviews of roles for each app and what they do in Viva.<br><br>
 Jump to a section:
 
+[Viva Amplify]/viva/microsoft-viva-admin-roles#viva-amplify)<br>
 [Viva Connections](/viva/microsoft-viva-admin-roles#viva-connections)<br>
 [Viva Engage](/viva/microsoft-viva-admin-roles#viva-engage)<br>
 [Viva Glint](#viva-glint)<br>
 [Viva Goals](/viva/microsoft-viva-admin-roles#viva-goals)<br>
 [Viva Insights](/viva/microsoft-viva-admin-roles#viva-insights)<br>
 [Viva Learning](/viva/microsoft-viva-admin-roles#viva-learning)<br>
+
+### Viva Amplify
+
+Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can configure the Viva Amplify experience for their end users from within the Viva Amplify admin experience. This role is assigned to users by a Microsoft 365 Global admin.  
+
+
+| Role | What this role does in Viva |
+|-----------|------------|
+|Microsoft 365 global admin |The Microsoft 365 Global Admin has global access to management features and data across Microsoft 365 online services. For Viva Amplify, the Microsoft 365 Global Admin can install and pin the Viva Amplify app in Microsoft Teams, and manage in-app Viva Amplify settings. |
+|SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
+|Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Yammer in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
 
 ### Viva Connections
 
@@ -104,12 +116,9 @@ To set up and manage Viva Glint, you must be a [Microsoft 365 global admin](#mic
 
 | Role         | What this role does in Viva |
 |--------------|-----------|
-|**Global admin**|If you're the person who purchased your Microsoft business subscription, you are the global admin. This means you have unlimited control over the products in your subscriptions and you can access most data.|
 |**Viva Glint admin**|Assign other admin roles to help manage the Viva Glint product. Admins can set up program settings and surveys, distribution lists, and reporting features, and support your managers in all aspects of action taking. Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.|
-|**Managers**|Have access to Viva Glint dashboards to view reporting and to develop action plans to build on their teams’ strengths and opportunities.|
-|**HRBP**|This role emphasizes the survey's importance to empower managers to act. HRBPs are thought partners for managers when it comes to business and people's success.| 
-|**IT**|Viva Glint suggests companies with IT departments rely on them for staging and maintaining the backend processes that power their programs.|
-|**End user**|Survey taker|
+|**Manager**|Organizational team leader who works directly with a Viva Glint Admin to assist with survey administration and/or has access to view reporting and to develop action plans.|
+
 
 ### Viva Goals
 Viva Goals has several different roles. Included here are roles that require specific permissions:
@@ -148,6 +157,17 @@ Viva Learning is by default available in Microsoft Teams with some content alrea
 |**Knowledge admin** <br>Can create and manage content, like topics, acronyms and learning resources. Can also create content centers, monitor service health, and create service requests.<br><br> Assigned by Microsoft 365 global admin|Manages the organization's learning content sources through the Microsoft 365 admin center.<br><br>Users in this role have full access to all knowledge, learning and intelligent features settings in the Microsoft 365 admin center.|
 |**SharePoint admin** <br> Manages all aspects of SharePoint<br><br> Assigned by Microsoft 365 global admin | Manages and stores custom learning content for your organization.|
 |**Teams admin** <br> Manage all aspects of Microsoft Teams<br><br>Assigned by Microsoft 365 global admin|Can turn on or off the Viva Learning app at the organization level. Learn how to manage your apps in the Microsoft Teams admin center.<br><br> Can create custom app permission policies to allow or block specific users from using Viva Learning.|
+
+### Viva Pulse
+
+Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](../get-started/licensing-requirements.md). The following roles and permissions are required to set up Viva Pulse.
+
+
+| Role | What this role does in Viva |
+| ----------- | ----------- |
+| Microsoft 365 Global Admin | The Microsoft 365 Global Admin has global access to most management features and data across Microsoft online services. For Viva Pulse, the Microsoft 365 Global Admin can install and pin the Viva Pulse app in Microsoft Teams, assign a user to the Viva Pulse Admin role, and manage in-app Viva Pulse settings as well. |
+| Viva Pulse Admin | The Viva Pulse Admin needs to be assigned by the Microsoft 365 Global Admin. The Viva Pulse Admin can manage the in-app Viva Pulse settings. |
+| [Microsoft Teams Admin](/microsoftteams/using-admin-roles) | The Microsoft Teams Admin can pin and install the Viva Pulse Admin in Teams for a customer tenant, as well as manage teams Teams app policies. |
 
 For more information on the roles in Viva Learning, see [Admin roles and permissions in Set up Viva Learning](/viva/learning/set-up-viva-learning#admin-roles-and-permissions).
 
