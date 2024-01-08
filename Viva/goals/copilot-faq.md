@@ -82,7 +82,7 @@ Goals created using Copilot in Viva Goals function the same as manually created 
 
 ## How are owners, time periods, and teams defined for AI-generated goals?
 
-The user who generates an goal using Copilot in Viva Goals is that goal's default owner. When saving a Copilot-generated goal, the user can select a time period and the team for the goal.
+The user who generates a goal using Copilot in Viva Goals is that goal's default owner. When saving a Copilot-generated goal, the user can select a time period and the team for the goal.
 
 ## How do goal permissions work when creating goals using Copilot in Viva Goals?
 
