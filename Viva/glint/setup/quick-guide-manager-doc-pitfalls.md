@@ -35,3 +35,11 @@ The role of manager is central to the success of a continued conversation approa
 
 It’s easy to interpret survey results in a way that is neither helpful to you or your team. Review the common pitfalls of feedback interpretation and know how to avoid them. 
 
+|Common survey interpretation pitfalls|How to avoid pitfalls and take positive action instead|
+|:------------------------------------|:-----------------------------------------------------|
+|Rushing to action|Refrain from jumping into solution mode. Check in with your team before deciding on Focus Areas for your action plan.|
+Taking on too much at once or areas outside of your control|It’s tempting to take it all on, but you'll be more effective if you choose one, at most two, Focus Areas. You might actually see survey scores decline if you take on too many Focus Areas all at once.|
+|Analysis paralysis|Use this three-question framework to get started: 
+- What's most important?
+- How am I doing?
+- What is my top priority?|
