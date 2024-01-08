@@ -25,7 +25,7 @@ items:
             href: setup/viva-glint-survey-privacy.md
           - name: Access to Viva Glint raw survey responses
             href: setup/employee-raw-data-export.md
-  - name: Setup and administration
+  - name: Plan and administer your Viva Glint platform
     items:
       - name: Deploy Microsoft Viva Glint as an M365 Global Admin
         items:
@@ -201,7 +201,7 @@ items:
         href: setup/delete-survey-data.md
       - name: Preview, manage, and enable Viva Glint surveys and dashboards
         href: setup/preview-manage-enable-engage-programs.md
-  - name: Viva Glint reports and dashboards
+  - name: Use Viva Glint reports and dashboards
     items:
      - name: Viva Glint's survey reports overview
        href: reports/survey-reports-overview.md
@@ -243,6 +243,9 @@ items:
         items:  
           - name: Use Viva Glint's Broader Team Insights feature
             href: reports/broader-team-insights.md
+            items:
+              - name: Post-survey coaching for managers of small teams
+                href: reports/post-survey-coaching-small-teams.md
           - name: Use the Manager Concierge dashboard in Viva Glint
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard in Viva Glint

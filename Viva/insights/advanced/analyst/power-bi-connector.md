@@ -1,5 +1,5 @@
 ---
-ms.date: 06/09/2023
+ms.date: 01/04/2024
 title: Use the Power BI connector
 description: Learn how to connect your Viva Insights data to Power BI through the Power BI connector
 author: zachminers
@@ -81,12 +81,12 @@ With the **Data granularity** advanced parameter, choose whether you want to:
 
 #### Aggregated data 
 
-When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings. 
+When you use **Aggregated data**, the Power BI Connector automatically enforces the privacy rules configured in the advanced insights app, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size), by providing aggregated query data in Power BI. This option helps you to confidently build reports and share them with others without having to worry about privacy settings.
 
-Consider using **Aggregated data** when: 
+Consider using **Aggregated data** when:
 
-* You plan to share your report with others and want to enforce privacy rules by default. 
-* You plan to use simple aggregations, like averages. 
+* You plan to share your report with others and want to enforce privacy rules by default.
+* You plan to use simple aggregations, like averages.
 
 > [!Important]
 > If you select **Aggregated data** as the **Data granularity** and **Import** as the **Data Connectivity mode**, you'll need to summarize the data in Power Query. You can group by any attribute you want here—for example, Organization, LevelDesignation, or FunctionType.  
@@ -95,14 +95,14 @@ Consider using **Aggregated data** when:
 
 #### Row-level data 
 
-When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules. You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size. 
+When you use **Row-level data**, Viva Insights loads raw query results into Power BI, and the Power BI Connector doesn't enforce privacy rules, including the [Minimum group size](../setup-maint/privacy-settings.md#minimum-group-size). You’ll need to manually implement privacy rules when you build your report. For example, you can create a bar chart to visualize the average time people spend in meetings by organization, but you'll need to filter out organizations with fewer employees than the minimum group size.
 
-Consider using **Row-level data** when: 
+Consider using **Row-level data** when:
 
-* You're doing exploratory analysis and want to have access to row-level data in Power BI. 
-* You won’t share the report with others, or you make sure to manually apply privacy rules before you share. 
-* You need to use complex aggregations with multiple filters and conditions. 
-* You need to support complex transformations. 
+* You're doing exploratory analysis and want to have access to row-level data in Power BI.
+* You won’t share the report with others, or you make sure to manually apply privacy rules before you share.
+* You need to use complex aggregations with multiple filters and conditions.
+* You need to support complex transformations.
   
 > [!Note] 
 > When using **Row-level data** granularity, select **Import** for the **Data connectivity mode**. **DirectQuery** imports raw query results every time Power BI renders a visual, which creates a bad experience for you and your report's users. 
