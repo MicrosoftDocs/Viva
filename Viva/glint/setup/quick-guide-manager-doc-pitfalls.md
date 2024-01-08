@@ -20,7 +20,7 @@ ms.date: 01/08/2024
 
 # Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
 
-It's not uncommon for managers to struggle to use their results as tools to have quality conversations with their teams. Whether they are a manager with years of experience, or a new manager seeing Viva Glint results for the first time, it is an exciting - but sometimes unnerving - experience. With so much data available, it can be really easy to fall into some negative behaviors and thought patterns when interpreting results.
+It's not uncommon for managers to struggle to use survey results as tools to have quality conversations with their teams. Whether they're a manager with years of experience, or a new manager seeing Viva Glint results for the first time, it is an exciting - but sometimes unnerving - experience. With so much data available, it can be easy to fall into some negative behaviors and thought patterns when interpreting results.
 
 The Viva People Science team has identified common pitfalls that managers might encounter when owning their own survey results. The best way to combat these pitfalls is to equip them with the knowledge that *pitfalls do exist* and then guide them on how to avoid them.
 
