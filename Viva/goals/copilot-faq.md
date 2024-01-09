@@ -1,5 +1,5 @@
 ---
-ms.date: 01/03/2024
+ms.date: 01/04/2024
 title: Copilot in Viva Goals FAQ
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -46,7 +46,7 @@ The output of Copilot in Viva Goals depends on the prompt that is passed to the 
 
 1. Any text or data that the user supplies to Copilot in Viva Goals.  
 
-2. OKRs in Viva Goals that users<!--All users in the org, or the specific user?--> have access to.  
+2. OKRs in Viva Goals that users<!--All users in the org, or the specific user?--> have access to.
 
 3. Common instructions and sample OKR data.  
 
@@ -82,7 +82,7 @@ Goals created using Copilot in Viva Goals function the same as manually created 
 
 ## How are owners, time periods, and teams defined for AI-generated goals?
 
-The user who generates an goal using Copilot in Viva Goals is that goal's default owner. When saving a Copilot-generated goal, the user can select a time period and the team for the goal.
+The user who generates a goal using Copilot in Viva Goals is that goal's default owner. When saving a Copilot-generated goal, the user can select a time period and the team for the goal.
 
 ## How do goal permissions work when creating goals using Copilot in Viva Goals?
 

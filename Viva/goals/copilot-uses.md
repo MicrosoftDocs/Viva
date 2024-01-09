@@ -1,6 +1,6 @@
 ---
-ms.date: 01/03/2024
-title: Use Copilot for Viva Goals to create, summarize, and understand goals
+ms.date: 01/04/2024
+title: Use Copilot in Viva Goals to create, summarize, and understand goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -22,9 +22,9 @@ search.appverid:
 description: "Learn how to use Copilot in Viva Goals to create, summarize, and understand organizational goals."
 ---
 
-# Use Copilot for Viva Goals to create, summarize, and understand goals
+# Use Copilot in Viva Goals to create, summarize, and understand goals
 
-Microsoft Copilot for Viva Goals gives you a number of ways to generate and summarize goals; it also provides a conversational bot that can answer questions about goals methodology.
+Microsoft Copilot in Viva Goals gives you a number of ways to generate and summarize goals; it also provides a conversational bot that can answer questions about goals methodology.
 
 ## Generate goals using a strategy document
 
