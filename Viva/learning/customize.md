@@ -57,6 +57,7 @@ The Viva Learning app in the App Store displays with the new short name and icon
 ![A screenshot of the Viva Learning app in the app store with the branding you've chosen, including the name and icon.](../media/learning/customize-branding.png)
 
 The new short name and the outline icon display in the Teams left menu bar when you pin the app: 
+
 ![A screenshot of how a custom branded app icon looks when pinned on the Teams menu bar](../media/learning/customize-branding2.png)
 
 
@@ -65,4 +66,4 @@ The new short name and the outline icon display in the Teams left menu bar when 
 - The new app icon and app name won't display in Viva interconnections.
 - The application header won't be changed in either desktop, web, or mobile.
 - The new app icon or app name won't display in the global navigation.
-- The Viva Learning web app will not reflect any of these branding chances as our current scope is the Teams application manifest.
+- The Viva Learning web app won't reflect any of these branding chances as our current scope is the Teams application manifest.
