@@ -1,6 +1,6 @@
 ---
 title: Program setup in Program Summary
-description: "In Program Setup you define the basics of your program, such as its name and what languages will be needed."
+description: In Program Setup you define the basics of your program, such as its name and what languages will be needed, along with confidentiality directives.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: elizapo
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2023
+ms.date: 01/08/2024
 ---
 
 # Program Setup in Program Summary
