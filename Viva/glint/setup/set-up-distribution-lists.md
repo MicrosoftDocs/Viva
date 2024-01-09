@@ -143,4 +143,4 @@ Your decision whether to use manual population or attribute rule population shou
 >  <li> Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. </li><ul>
 
 > [!IMPORTANT]
-> Next step: [Set up Schedule page in Program Summary](/../../Viva/glint/setup/schedule-setup.md)
+> Next step: [Set up Schedule page in Program Summary](schedule-setup.md)
