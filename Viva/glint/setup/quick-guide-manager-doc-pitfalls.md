@@ -1,6 +1,6 @@
 ---
 title: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
-description:
+description: Managers can struggle to use survey results as tools to have quality conversations with their teams. Whether they're a manager with years of experience, or a new manager seeing Viva Glint results for the first time, it is an exciting - but sometimes unnerving - experience. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
