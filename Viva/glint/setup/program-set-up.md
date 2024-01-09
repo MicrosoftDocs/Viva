@@ -54,4 +54,4 @@ The first toggle is set to YES by default. Confidential responses promote accura
 :::image type="content" source="../../media/glint/setup/platform-setup-confidentiality-new-message.png" alt-text="Screenshot that shows the Confidentiality configuration within Program Setup.":::
 
 > [!IMPORTANT]
-> Next step: [Set up and use Viva Glint Distribution Lists](../../viva/glint/setup/program-set-up.md)
+> Next step: [Set up and use Viva Glint Distribution Lists](program-set-up.md)
