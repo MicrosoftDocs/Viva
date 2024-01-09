@@ -133,7 +133,7 @@ From the Distribution Lists page, the far-right column entitled **Membership Typ
 ## Use the dynamic Distribution Lists functionality
 Your decision whether to use manual population or attribute rule population should be guided by these principles:
 
-<ul><li>If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports (i.e. Rubicon) will automatically update the Distribution List.</li>
+<ul><li>If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports (i.e., Rubicon) will automatically update the Distribution List.</li>
  <li>If the Distribution List began manually, adding attribute rules will change the list to include both Attribute Rules and Manual.</li>
 <li>If a manually added member is deleted and they match the filter criteria, they'll still appear in the Distribution List, but the Added by method will change from Manual to Attribute Rules.</li></ul>
 
@@ -141,3 +141,6 @@ Your decision whether to use manual population or attribute rule population shou
 > Importing users to an Attribute Rules Distribution List removes existing rules.
 >  <ul><li>Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
 >  <li> Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. </li><ul>
+
+> [!IMPORTANT]
+> Next step: [Set up Schedule page in Program Summary](schedule-setup.md)
