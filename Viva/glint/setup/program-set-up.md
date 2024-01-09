@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: confidentiality setup
 ms.collection:  
 - m365initiative-viva
 - selfserve 
