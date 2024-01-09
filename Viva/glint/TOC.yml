@@ -129,6 +129,8 @@ items:
         items:
           - name: Manager Quick Guide for data confidentiality
             href: setup/quick-guide-confidentiality.md
+          - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
+            href: setup/quick-guide-manager-doc-pitfalls.md
       - name: Use Viva Glint Best Practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
