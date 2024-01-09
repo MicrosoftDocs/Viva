@@ -52,3 +52,6 @@ The first toggle is set to YES by default. Confidential responses promote accura
 1. **Company Message to Survey Participants** - Allows organizations to incorporate additional details tailored to their organization, aiming to ensure that individuals participating in surveys are well informed. Clients may wish to append information like specifying the organizational roles with access to identifiable responses or designating appropriate points of contact within the organization for inquiries or concerns related to the survey. Additionally, they may intend to provide supplementary guidelines on the proper utilization of the survey and direct respondents towards their company-specific resources for more details. This text gets added at the beginning of the survey under the title “Message from {{Client_Name}},” directly following Viva Glint’s confidentiality statement.
 
 :::image type="content" source="../../media/glint/setup/platform-setup-confidentiality-new-message.png" alt-text="Screenshot that shows the Confidentiality configuration within Program Setup.":::
+
+> [!IMPORTANT]
+> Next step: [Set up and use Viva Glint Distribution Lists](../../viva/glint/setup/program-set-up)
