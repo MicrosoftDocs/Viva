@@ -15,14 +15,40 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 01/09/2024
 ---
 
 # Set up and use Distribution Lists in Viva Glint
 
-Distribution Lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees that can be chosen as recipients for any Microsoft Viva Glint program within your organization.
+Distribution Lists define which employees within your organization should receive a survey. When creating a Distribution List, start with the list of all active employees and then refine this list using employee attributes. This creates a custom list of employees which can be chosen as recipients for any Microsoft Viva Glint program within your organization.
 
 Distribution Lists are essential when a survey program isn't intended to be sent to all active employees.  
+
+>[!IMPORTANT]
+>In order to set up Distribution Lists, you must have completed [attribute setup](/../../viva/glint/setup/send-employee-attributes) and your [data upload  to the Viva Glint system.](/../../viva/glint/setup/upload-employee-attributes)
+
+
+## Create your Distribution Lists 
+
+Before you are ready to set up Distribution Lists in a Viva Glint program, Distribution Lists must be configured within **Distribution Lists** in the *Employees* section of your **Admin Configuration** dashboard.
+
+### Follow these steps 
+1. From your admin dashboard, under the Employees section, select **Distribution Lists**.
+1. The Distribution List page will open, displaying any lists you have previously created.
+
+
+
+1. Select **+ New Distribution List** to create a new list. Within the window that opens:
+   - Title your Distribution List. Make it clear, for example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
+   - Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
+     - **Search Members** - Type in individual names and select those that should be added to the list.
+     - **Add/Edit Employees** - A *Choose a way to add employees* banner will open. Add members to a Distribution List by choosing one of the following options:
+       - **Attribute Rules** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens.
+       - **Import** - Use a CSV or XLSX to import employees to a Distribution List. This method removes attribute rules from this Distribution List.
+   
+
+
+
 
 ## Create, edit, or delete a Distribution List 
 
