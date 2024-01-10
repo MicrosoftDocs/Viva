@@ -43,7 +43,7 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
    :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of setup steps for creating a new Distribution List.":::
    
-1. Title your Distribution List. Make it clear, for example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
+1. Title your Distribution List. Make it clear because you will refer back to it often! For example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
 1. Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
      
      - **Search Members** - Type in individual names and select those that should be added to the list.
@@ -61,9 +61,8 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
               - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
               - Confirm your list and select **Save Changes**          
 
-  
-               >[!TIP]
-               >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
+                 >[!TIP]
+                 >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
          
        - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. Follow the onscreen guidance in the slider window that opens.
          
@@ -95,22 +94,22 @@ Editing a Distribution List is a global change and will affect any program using
 
 ## View how a Distribution List was populated
 
-From the Distribution Lists page, the far-right column entitled **Membership Type** defines if the list in that row has been populated manually, by attribute rules, or both.
+From the Distribution Lists page, the far-right column entitled **Membership Type** defines if that list has been populated manually, by attribute rules, or both.
 
 > [!Note]
-> If a distribution list is populated by an Import, it will have the membership type "Manual".
+> If a distribution list is populated by an Import, it will have the membership type "Manual."
 
 ## Use the dynamic Distribution Lists functionality
 Your decision whether to use manual population or attribute rule population should be guided by these principles:
 
-- If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports (i.e., Rubicon) will automatically update the Distribution List.</li>
-- If the Distribution List began manually, adding attribute rules will change the list to include both Attribute Rules and Manual.</li>
-- If a manually added member is deleted and they match the filter criteria, they'll still appear in the Distribution List, but the Added by method will change from Manual to Attribute Rules.
+- If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports will automatically update the Distribution List.
+- If the Distribution List began manually, adding attribute rules will change the list to include both Attribute Rules and Manual.
+- If a manually added member is deleted and they match the filter criteria, they'll still appear in the Distribution List, but the *Added by* method will change from Manual to Attribute Rules.
 
 > [!IMPORTANT]
 > Importing users to an Attribute Rules Distribution List removes existing rules.
   - Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
   - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. 
 
-> [!IMPORTANT]
+> [!TIP]
 > Next step: [Set up Schedule page in Program Summary](/../../schedule-setup.md)
