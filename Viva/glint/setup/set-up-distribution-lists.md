@@ -74,7 +74,11 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
 ## Understand the date range attribute and why frequency of updating your Employee Attribute File matters
 
-The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
+The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. 
+
+For companies that integrate their HRIS files automatically, this works well. 
+
+For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
 
 > [!TIP]
 > Consider using the blended membership functionality, explained below.
