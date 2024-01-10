@@ -39,7 +39,7 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
 :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of where to access Distribution List setup from the Viva Glint admin dashboard.":::
 
-1. Select **+ New Distribution List** to create a new list. Within the window that opens:
+1. Select **+ New Distribution List** to create a new list. 
 
    :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of setup steps for creating a new Distribution List.":::
    
