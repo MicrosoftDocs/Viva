@@ -42,6 +42,12 @@ When this process is complete, you will receive this message:
 
 In this section, use the search panel to select Distribution Lists. Remember that Distribution Lists are set up before the survey set up stage, in [Managing features and settings](/../../viva/glint/setup/set-up-distribution-lists).
 
-The search panel opens a dropdown menu of Distribution Lists already available for your programs. Select one or more Distribution Lists, the right facing arrow will highlight, then select that to **Save and Continue**
+### Follow this process to commit Distribution Lists to your program
+1. Select the search panel to open a dropdown menu of Distribution Lists already available for your programs.
+1. Select one or more Distribution Lists.
+1. The right facing arrow will highlight; select that to **Save and Continue**
 
 :::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the pre-populated Distribution List dropdown menu.":::
+
+>[!TIP]
+>When Distribution setup is complete, move on to [Schedule setup in Program Summary] (https://go.microsoft.com/fwlink/?linkid=2230977)
