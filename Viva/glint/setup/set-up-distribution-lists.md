@@ -1,12 +1,12 @@
 ---
 title: Set up and use Distribution Lists in Viva Glint
-description: "Distribution lists define which employees within an organization should receive a survey."
+description: Distribution lists are how admins define which employees within an organization should receive a survey or permissions to view results.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: attribute rules
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -58,13 +58,13 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
               - Select **+ New Population** and then **+ New Filters**
               - From the dropdown filters menu, choose the attributes for employees who will be part of this distribution list. 
               - If you need to exclude someone, search for their name and select **Exclude.** Conversely, to remove someone from the Excluded list, search their name and select **Remove.**
-               - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
+              - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
               - Confirm your list and select **Save Changes**.  
 
 >[!TIP]
 >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
 
-   - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. 
+       - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. 
          - Follow the onscreen guidance in the slider window that opens.
          
 :::image type="content" source="../../media/glint/setup/distro-list-import-spreadsheet-v2.png" alt-text="Screenshot of slider window for importing employees to a Distribution List.":::
