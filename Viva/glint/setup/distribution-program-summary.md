@@ -34,7 +34,7 @@ An **Exporting Member Data** window will open. This export includes all individu
 
 :::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients":::
 
-When this process is complete, you will receive this message:
+When this process is complete, you'll see this message:
 
 :::image type="content" source="../../media/glint/setup/distribution-report-downloaded.png" alt-text="Screenshot of the Report Downloaded message.":::
 
