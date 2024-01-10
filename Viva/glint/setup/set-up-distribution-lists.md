@@ -56,10 +56,11 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
             - I want to include all active employees only.
             - I want to filter all active employees by these populations:
               - Select **+ New Population** and then **+ New Filters**
-              - From the dropdown filters menu, choose your new attribute selection. 
-              - If you need to exclude someone, search for their name and select **Exclude." Conversely, if you need to remove someone from the Excluded list, search their name and select **Remove.**
+              - From the dropdown filters menu, choose the attributes for employees who will be part of this distribution list. 
+              - If you need to exclude someone, search for their name and select **Exclude.** Conversely, if you need to remove someone from the Excluded list, search their name and select **Remove.**
               - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
               - Confirm your list and select **Save Changes**          
+
   
                >[!TIP]
                >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
