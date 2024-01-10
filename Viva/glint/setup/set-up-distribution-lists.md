@@ -48,9 +48,9 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
      
      - **Search Members** - Type in individual names and select those that should be added to the list.
        
-     - **Add/Edit Employees** - The *Choose a way to add employees* window will open. Add members to a Distribution List by choosing one of the following options:
+     - **Add/Edit Employees** - The **Choose a way to add employees** window will open. Add members to a Distribution List by choosing one of the following options:
        
-       - **Attribute Rules** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens. Remember, this section is populated from the Employee Data File that has been uploaded to Viva Glint.
+       - ***Attribute Rules*** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens. Remember, this section is populated from the Employee Data File that has been uploaded to Viva Glint.
          - Choose from these two options:
  
             - I want to include all active employees only.
@@ -65,31 +65,23 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
                >[!TIP]
                >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
          
-       - **Import** - Use a CSV or XLSX to import employees to a Distribution List. Follow the onscreen guidance in the slider window that opens.
+       - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. Follow the onscreen guidance in the slider window that opens.
          
          :::image type="content" source="../../media/glint/setup/distro-list-import-spreadsheet-v2.png" alt-text="Screenshot of slider window for importing employees to a Distribution List.":::
          
          >[!NOTE]
          >This method removes attribute rules from this Distribution List.
 
-### Add attribute rules to create a new list 
+## Understand the date range attribute and why frequency of updating your Employee Attribute File matters
 
+The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
 
-#### All Active Employees 
+> [!TIP]
+> Consider using the blended membership functionality, explained below.
 
-1. Select  **I want to include all active employees only**. 
-1. For an Exit survey, consider enabling  **Include Inactive Employees**, located below the selection box. To include inactive employees, contact them via their personal email; ensure you have a personal email when an employee leaves your organization, if possible. 
+### Use the blended membership Distribution List functionality
 
-1. If you need to exclude someone, search for their name and select **Exclude**. 
-
-1. Conversely, if you need to remove someone from the Excluded list, search their name and select  **Remove**. 
-
-1. Confirm your list and select  **Save Changes**. 
-
-Now you'll see a list of employees that match your criteria. From here, employees can be manually excluded by selecting that employees name in the **Included** box and then selecting **Exclude** when it appears.
-
-   > [!NOTE]
-   >You do not have the option to manually include employees.
+Dynamic attributes automatically add and remove users to and from a distribution list. They can also include or exclude certain users from a list. Knowing how your distribution list has been populated helps you make decisions about how to add users.
 
 ## Modify a Distribution List 
 
@@ -97,20 +89,9 @@ Editing a Distribution List is a global change and will affect any program using
 
 1. Select the Distribution List you want to modify. 
 
-1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules**  if there are filters available. 
+1. Select  **Add/Edit Employees**  or  **Edit Attribute Rules** if there are filters available. 
 
-1. Make the necessary changes and select  **Save Changes**. 
-
-## Understand why frequency of updating your Employee Attribute File matters 
-
-The date range selected for an attribute should always be equal or greater to the frequency at which you update your employee data files. For companies that integrate their HRIS files automatically, this works well. For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. For example, if a window is set to 15 days but employee files are only updated once every 30 days, the survey will likely miss people who should get the survey, since the date range is only set to look at people who started 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
-
-> [!TIP]
-> Consider using the blended membership functionality, explained below.
-
-## Use the blended membership Distribution List functionality
-
-Dynamic attributes automatically add and remove users to and from a distribution list. They can also include or exclude certain users from a list. Knowing how your distribution list has been populated helps you make decisions about how to add users.
+1. Make the necessary changes and select **Save Changes**. 
 
 ## View how a Distribution List was populated
 
@@ -130,7 +111,6 @@ Your decision whether to use manual population or attribute rule population shou
 > Importing users to an Attribute Rules Distribution List removes existing rules.
   - Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
   - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. 
-
 
 > [!IMPORTANT]
 > Next step: [Set up Schedule page in Program Summary](/../../schedule-setup.md)
