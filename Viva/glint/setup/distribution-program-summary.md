@@ -30,7 +30,7 @@ Distribution is the second area to set up within Program Summary. Program Setup 
 
 To view a spreadsheet of people already populated to receive this program, select **Download Recipients**. 
 
-An **Exporting Member Data** window will open. This export includes all individuals (first name, last name, email address, and status) targeted by this survey. Any recent edits to this program’s distribution may take a few minutes to update before reflected in the export. Choose whether to include all user roles. Select **Export**.
+The **Exporting Member Data** window opens. This export includes all individuals - first name, last name, email address, and status- targeted by this survey. Recent edits to this program’s distribution may take a few minutes to update before reflected in the export. Choose whether to include all user roles. Select **Export**.
 
 :::image type="content" source="../../media/glint/setup/distribution-exporting-data.png" alt-text="Screenshot of the window that opens to download recipients":::
 
@@ -40,7 +40,7 @@ When this process is complete, you'll see this message:
 
 ## Add Distribution Lists for this program
 
-In this section, use the search panel to select Distribution Lists. Remember that Distribution Lists are set up before the survey set up stage, in [Managing features and settings](/../../viva/glint/setup/set-up-distribution-lists).
+Use the search panel to select Distribution Lists. Remember that Distribution Lists are set up before the survey set up stage, in [Managing features and settings](/../../viva/glint/setup/set-up-distribution-lists).
 
 ### Follow this process to commit Distribution Lists to your program
 1. Select the search panel to open a dropdown menu of Distribution Lists already available for your programs.
