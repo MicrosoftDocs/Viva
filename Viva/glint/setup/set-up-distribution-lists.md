@@ -40,8 +40,11 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of where to access Distribution List setup from the Viva Glint admin dashboard.":::
 
 1. Select **+ New Distribution List** to create a new list. Within the window that opens:
-   - Title your Distribution List. Make it clear, for example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
-   - Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
+
+   :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of setup steps for creating a new Distribution List.":::
+   
+1. Title your Distribution List. Make it clear, for example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
+1. Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
      
      - **Search Members** - Type in individual names and select those that should be added to the list.
        
@@ -50,11 +53,14 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
        - **Attribute Rules** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens.
          - Choose from these two options:
  
-            - I want to include all active employees only
+            - I want to include all active employees only.
             - I want to filter all active employees by these populations:
               - Select **+ New Population** and then **+ New Filters**
               - From the dropdown filters menu, choose your new attribute selection. Remember, this section is populated from the Employee Data File that has been uploaded to Viva Glint.
-
+              - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
+  
+                >[!TIP]
+                >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
          
        - **Import** - Use a CSV or XLSX to import employees to a Distribution List.
          
