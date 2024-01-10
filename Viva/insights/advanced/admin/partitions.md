@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/17/2023
+ms.date: 01/08/2024
 title: Partitions in Viva Insights
 description: Learn how to create analyst workspaces in the advanced insights app.
 author: zachminers
@@ -16,8 +15,6 @@ audience: Admin
 
 
 # Partitions in Viva Insights
-
-*Applies to: private preview customers only*
 
 Partitions are analyst workspaces that only contain certain employee data and attributes. In a partition, analysts can only create queries based on the data in that partition.
 
