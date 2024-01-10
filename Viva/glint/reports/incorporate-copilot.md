@@ -20,7 +20,10 @@ ms.date: 11/17/2023
 
 # Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report 
 
-We are excited to add Copilot in Viva Glint for comment summarization to all Viva Glint customers at all contracting levels (standalone, Workforce Analytics and Employee Feedback mini suite, and Microsoft Viva suite customers). Copilot in Viva Glint is exclusive to the Viva Glint app.  
+>[!IMPORTANT]
+>Viva Glint is currently available only for Private Preview customers.  The features described here are subject to change.
+
+Copilot in Viva Glint for comment summarization will soon be available to all Viva Glint customers at all contracting levels (standalone, Workforce Analytics and Employee Feedback mini suite, and Microsoft Viva suite customers). Copilot in Viva Glint is exclusive to the Viva Glint app.  
 
 Copilot in Viva Glint allows users to explore employee comments with natural language queries or suggested prompts. Copilot in Viva Glint brings the AI revolution into your employee engagement programs. 
 
@@ -52,7 +55,7 @@ The full general availability (GA) date for Copilot in Viva Glint will be announ
 
 **How is Copilot in Viva Glint evaluated? What metrics are used to measure performance?**
 
-> At Microsoft, we take our commitment for responsible AI seriously. Copilot in Viva Glint is developed in accordance with our AI principles. We perform internal stress tests with prompts to identify the existence of systematic problematic and undesirable content, and to identify undesireable behavior within comment summarization. *Undesirable content* is considered hate speech, incitement or glorification of violence, sexual solicitation, or ungrounded or misleading content. *Undesirable behaviors* can include revealing customer’s or employee’s private information. Copilot responses are evaluated and mitigation measures are implemented against undesirable content and behaviors. 
+> Copilot in Viva Glint is developed in accordance with Microsoft's AI principles. Internal stress tests with prompts identify the existence of systematic problematic and undesirable content, and to identify undesireable behavior within comment summarization. *Undesirable content* is considered hate speech, incitement or glorification of violence, sexual solicitation, or ungrounded or misleading content. *Undesirable behaviors* can include revealing customer’s or employee’s private information. Copilot responses are evaluated and mitigation measures are implemented against undesirable content and behaviors. 
 
 > Our early adoptor Private Preview program will help customers carefully pilot and roll out Copilot within their organization, so we can take user feedback to improve Copilot in Viva Glint before making it generally available.
 
