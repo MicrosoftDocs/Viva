@@ -1,12 +1,12 @@
 ---
-title: Manage your Allowed List for Viva Glint
-description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
+title: Review Allowed List and supported browser information for Viva Glint
+description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list and confirm supported internet browsers.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: skaradzic
 audience: admin
 f1.keywords: NOCSH
-keywords: approved sender, allowed list, firewall, spam
+keywords: approved sender, allowed list, firewall, spam, browser
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 05/22/2023
+ms.date: 01/10/2024
 ---
 
-# Manage your Allowed List for Viva Glint
+# Review Allowed List and supported browser information for Viva Glint
 
 ## What is an Allowed List?
 
@@ -83,3 +83,22 @@ If your organization requires domains or URLs to be opened to access Viva Glint'
 Some Viva Glint applications require the use of **third-party cookies**, such as hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
 If your organization requires the addition of an **IP exception** for Viva Glint's SFTP server, the US address is 172.174.87.0, and the EU address is 20.238.98.162.
+
+## Select a supported browser
+
+Viva Glint users access surveys and dashboards with a variety of internet browsers. Use this information to verify that users' preferred browsers are supported for accessing Viva Glint.
+
+> [!IMPORTANT]
+> All users must access Viva Glint from a browser that supports TLS 1.2, which includes the latest versions of Microsoft Edge, Google Chrome, Safari, and Mozilla Firefox.
+
+|Browser  |Survey  |Dashboard|
+|----------|-----------|------------|
+|Microsoft Edge     |Supported       |Supported        |
+|Google Chrome   |Supported       |Supported        |
+|Safari     |Supported       |Supported        |
+|Mozilla Firefox|Supported       |Supported        |
+|iOS - Safari (Mobile)     |Supported       |Supported        |
+|Android - Chrome (Mobile)|Supported       |Supported        |
+
+> [!IMPORTANT]
+> Internet Explorer isn't a supported Viva Glint browser.
