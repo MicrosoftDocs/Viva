@@ -92,7 +92,6 @@ Admins can set appropriate expectations of the Answers experience based on who r
 
 - Users not assigned Viva Engage Knowledge Service Plan can post questions within their communities and react to questions others have posted. They can search all Answers content, and if their name is mentioned in an Answers-related post, they receive a notification.
 
-
 ## Manage topics in Answers
 
 ### Feature a topic in Answers
@@ -119,11 +118,13 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 
 To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review.
 
+:::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
+
 - Select **Review** to check and edit the summary of suggested topics for that category.  
 - 
 :::image type="content" alt-text="Screenshot of the dialog that lets you review  and edit the topic summary or remove the topic from Answers." source="/viva/media/engage/admin/eac-answers-review-topic.png":::
 
-After you feature or remove a topic, it no longer appears in the **Needs Review** tab. In addition, removed topics no longer appear in any other experience in Viva Engage. To remove a topic completely, the admin must remove the topic from the [Topics management center](/microsoft-365/topics/topic-center-overview?view=o365-worldwide).
+After you review a topic, it no longer appears in the **Needs Review** tab. In addition, topics you remove from Answers no longer appear in any other experience in Viva Engage. To remove a topic completely, the admin must remove the topic from the [Topics management center](/microsoft-365/topics/topic-center-overview?view=o365-worldwide).
 Removed topics no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove a topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
 
 
