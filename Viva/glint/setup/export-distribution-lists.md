@@ -23,7 +23,7 @@ ms.date: 11/14/2023
 Admins can export Distribution Lists to quickly see the list of employees receiving a survey or the members of a group with specific permissions. This is especially useful for large teams. 
 
 > [!NOTE]
-> The option to export distribtuion lists is not available for Employee Lifecycle surveys.
+> The option to export distribution lists is not available for Employee Lifecycle surveys.
 
 ## Export survey recipient lists from Program Summary 
 
