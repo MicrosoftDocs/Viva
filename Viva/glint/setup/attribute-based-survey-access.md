@@ -43,8 +43,6 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
    > Complete attribute setup and employee data upload prior to selection for attributes to be available.
 7. Edit the **Placeholder text** that displays under each selected attribute.
 8. Confirm your edits in the **Preview** at the bottom of the pane.
-   > [!NOTE]
-   > Currently, while we are new to Microsoft Viva, emails are available only in English. This is a change from the LinkedIn Glint instance and remediation is in progress. 
 9. At the top of the pane, select **Save**.
 10. Select the Configure symbol, then in **Service Configuration**, choose **Advanced Configuration**.
 11. In the **Details** section, select the **Enable Kiosk Page** checkbox.
