@@ -43,7 +43,7 @@ items:
             href: setup/setup-platform-admin.md
           - name: Begin platform setup with your IT team
             items:
-              - name: Manage your Allowed List for Viva Glint
+              - name: Review Allowed List and supported browser information for Viva Glint
                 href: setup/allowed-list.md
               - name: Access Viva Glint with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
