@@ -60,12 +60,12 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
             - You will now see your new Distribution List and the number of members under the *Included* section and those you may choose to exclude under *Excluded.*
             - Confirm your list and select **Save Changes**.  
 
-   >[!TIP]
-   >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
+      >[!TIP]
+      >For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
 
-   - Option 2 - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. 
+      - Option 2 - ***Import*** - Use a CSV or XLSX to import employees to a Distribution List. 
 
-      - Follow the onscreen guidance in the slider window that opens.
+         - Follow the onscreen guidance in the slider window that opens.
          
 :::image type="content" source="../../media/glint/setup/distro-list-import-spreadsheet-v2.png" alt-text="Screenshot of slider window for importing employees to a Distribution List.":::
          
