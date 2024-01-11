@@ -37,11 +37,12 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 1. From your admin dashboard, under the Employees section, select **Distribution Lists**.
 1. The Distribution List page will open, displaying any lists that have been previously created and the number of members within each list.
 
-:::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
+   - :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
 
 1. Select **+ New Distribution List** to create a new list. 
 
-   :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of setup steps for creating a new Distribution List.":::
+   - :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of setup steps for creating a new 
+     Distribution List.":::
    
 1. Title your Distribution List. Make it clear because you'll refer back to it often! For example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
 1. Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
