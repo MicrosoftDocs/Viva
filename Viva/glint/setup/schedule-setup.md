@@ -58,3 +58,5 @@ Choose the cadence for your program. This determines your launch date(s) and how
  
 6. Select the right-facing arrow symbol to **Save & Continue**.  
 
+> [!TIP]
+> Now that you've set up your program schedule, move on to [Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342).
