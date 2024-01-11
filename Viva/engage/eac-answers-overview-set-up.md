@@ -22,7 +22,7 @@ search.appverid:
 
 # Set up Answers in Viva
 
-**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app and in communities of which the user is a member.
+**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the Viva Engage Teams app, both on the **Answers** tab and on the **Communities** tab in communities of which the user is a member.
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
