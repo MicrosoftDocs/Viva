@@ -60,8 +60,7 @@ Setting up notifications and providing translations to your programs happen in t
 The results notification email is a one-time notification to let users know that results are available to them. The email goes out to those users in roles with **live** reporting access 24-hours prior to the time of the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before survey closes. 
 
 > [!IMPORTANT]
-> Access must be turned live 24 hours before the results notification email is scheduled to be sent.
+> Access must be scheduled to be live 24 hours before the results notification email is scheduled for sending.
 
-## Related topics
-
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
+>[!TIP]
+>Now that you have your communication schedule locked in, move onto [Coaching setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231416).
