@@ -85,3 +85,6 @@ You can add questions to specific question cycles by selecting the corresponding
 ## Related topics
 
 [Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
+
+>[!TIP]
+>Now that your survey items are set up, move onto [Reporting setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977)
