@@ -46,8 +46,8 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
    > [!NOTE]
    > Currently, while we are new to Microsoft Viva, emails are available only in English. This is a change from the LinkedIn Glint instance and remediation is in progress. 
 9. At the top of the pane, select **Save**.
-10. Select the Configure symbol, then in Client Settings, choose **Advanced Configuration**.
-11. In the *Details* section, select the Whether to allow the users to look up questionnaires without a kiosk checkbox.
+10. Select the Configure symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+11. In the **Details** section, select the **Enable Kiosk Page** checkbox.
 12. Select **Save Changes** at the bottom of the Details page.
 
 ### Obtain the attribute-based survey access URL
