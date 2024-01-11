@@ -5,7 +5,7 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
 audience: admin
-f1.keywords: NOCSH
+f1.keywords: small teams, 
 keywords: viva strengths and opportunities
 ms.collection:  
 - m365initiative-viva
@@ -22,7 +22,9 @@ ms.date: 04/28/2023
 
 Team leaders who use Microsoft Viva Glint’s action taking tools see a significant increase in scores. However, up to 50% of managers’ teams are too small to allow them access to their own team’s results. By enabling Broader Team Insights (BTI), managers are empowered to significantly impact employee engagement.  
 
-Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or five respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
+## Empower managers of small teams to use Broader Team Insights
+
+Managers of small teams may not have enough team members with overall size or response rate size - to view their own team’s survey responses. Viva Glint considers this number to be a team of five or less respondents. While it's critical to protect survey respondents’ confidentiality, it's also critical to empower small team managers with feedback and action-taking capabilities. Broader Team Insights helps to bridge that gap. 
 
 Broader Team Insights isn't only limited to managers of small teams. Team leaders at all levels who use Broader Team Insights are better able to anchor their team’s feedback in the context of their larger department, have better conversations, and align actions.
 
