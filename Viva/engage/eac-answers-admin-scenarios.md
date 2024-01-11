@@ -33,7 +33,7 @@ To align Topics management and Answers administration, assign the same users tha
 
 ## Permissions
 
-The following table shows the actions available to users by role or service plan.
+The following table shows the actions available to users by role or service plan. All Engage admins, Answers admins, and Microsoft 365 Global admins are assigned Viva Engage Knowledge Service Plan, by default.
 
 |Answers action|User not assigned Viva Engage Knowledge Service Plan|User assigned Viva Engage Knowledge Service Plan|Engage admin|Answers admin |Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
