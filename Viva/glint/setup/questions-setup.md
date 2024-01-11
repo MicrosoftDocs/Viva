@@ -79,7 +79,7 @@ When you've finished, select **Save Changes**.
 
 You can add questions to specific question cycles by selecting the corresponding question cycle number next to the question. For example, if you only want a certain question asked on the first survey, deselect all numbers except for 1.
 
->[!TIP]
+>[!IMPORTANT]
 > Do not edit our standard survey items. Item edits may impact language translations and the item's intention, which would affect the accuracy of the benchmark tied to the question. Custom items are not mapped to external benchmarks.
 
 
