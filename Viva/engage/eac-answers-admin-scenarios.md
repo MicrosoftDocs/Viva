@@ -35,12 +35,12 @@ To align Topics management and Answers administration, assign the same users tha
 
 The following table shows the actions available to users by role or service plan.
 
-|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage admin|Answers admin |Microsoft 365 Global admin|
+|Answers action|User not assigned Viva Engage Knowledge Service Plan|User assigned Viva Engage Knowledge Service Plan|Engage admin|Answers admin |Microsoft 365 Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|
-|**Ask a question**| |✓|✓|✓|✓|
+|**Ask a question**|✓|✓|✓|✓|✓|
 |**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
 |**View, upvote, and react to questions in one's community**|✓|✓|✓|✓|✓|
-|**See related questions when composing a question**||✓|||✓|
+|**See related questions when composing a question in Answers or Communities**||✓|||✓|
 |**Have your question appear in Answers' recommendations**| |✓|||✓|
 |**Get question recommendations through email digests**|✓|✓|✓|✓|✓|
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
@@ -49,6 +49,7 @@ The following table shows the actions available to users by role or service plan
 |**Earn badges**||✓| | |✓|
 |**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|
 |**See global insights**| | |✓|✓|✓|
+|**See personal Answers analytics**|✓|✓|✓|✓|✓|
 |**Update information panel**| | |✓|✓|✓|
 |**Feature topics**| | | |✓|✓|
 |**Remove topic from Answers**| | | |✓|✓|
@@ -66,7 +67,7 @@ As an Answers admin, Engage admin, or global admin, use the information panel to
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin1.png" lightbox="../media/engage/admin/ans-info-pan-admin1.png" alt-text="Screenshot of the information panel with guidelines option.":::
 
 **User view**<br/>
-The Answers tab only appears in Viva Engage for users who are assigned a Viva Engage Knowledge Service Plan. Users not assigned a Knowledge Service Plan can access Answers in the communities they belong to.
+The Answers tab only appears in Viva Engage for users assigned Viva Engage Knowledge Service Plan. Users not assigned Viva Engage Knowledge Service Plan can access Answers in the communities they belong to.
 :::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Edit the information panel
@@ -82,6 +83,15 @@ The Answers tab only appears in Viva Engage for users who are assigned a Viva En
 1. Select **Reset** from the bottom-left corner.  
 
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the information panel reset option.":::
+
+### Provide guidance on the Answer user experience
+
+Admins can set appropriate expectations of the Answers experience based on who receives the required Viva Engage Knowledge service plan assignment.
+
+- Users assigned Viva Engage Knowledge Service Plan have a dedicated Answers tab with feeds of Answers-related activity and personalized questions. Their communities also include the Answers experience. Users can earn recognition for contributions and have access to Answers analytics. Each week they receive a digest summarizing questions and Answers activity in their Viva Engage Inbox.
+
+- Users not assigned Viva Engage Knowledge Service Plan can post questions within their communities and react to questions others have posted. They can search all Answers content, and if their name is mentioned in an Answers-related post, they receive a notification.
+
 
 ## Manage topics in Answers
 
@@ -107,17 +117,14 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 
 ### Review a pending topic suggested by employees
 
-To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. All suggested topics topics under review appear on the **Needs Review** tab, which is only visible to Answers admins.
+To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review.
 
-1. From the topic browse page, go to the **Needs Review** tab. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review.
+- Select **Review** to check and edit the summary of suggested topics for that category.  
+- 
+:::image type="content" alt-text="Screenshot of the dialog that lets you review  and edit the topic summary or remove the topic from Answers." source="/viva/media/engage/admin/eac-answers-review-topic.png":::
 
-1. Select **Review** on a topic to check and edit the summary.
-
-:::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
-
-1. Select from the options to feature or ignore the topic. Both options remove the topic from the **Review** tab:  
-- **Feature**: When a topic is featured, it no longer appears in the **Needs Review** tab.
-- **Remove**: When a topic is removed, it no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
+After you feature or remove a topic, it no longer appears in the **Needs Review** tab. In addition, removed topics no longer appear in any other experience in Viva Engage. To remove a topic completely, the admin must remove the topic from the [Topics management center](/microsoft-365/topics/topic-center-overview?view=o365-worldwide).
+Removed topics no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove a topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
 
 
 **Remove a topic in Answers**
