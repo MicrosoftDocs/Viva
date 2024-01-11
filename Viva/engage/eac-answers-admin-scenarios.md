@@ -84,11 +84,11 @@ The Answers tab only appears in Viva Engage for users assigned Viva Engage Knowl
 
 :::image type="content" source="../media/engage/admin/ans-info-pan-admin3.png" lightbox="../media/engage/admin/ans-info-pan-admin3.png" alt-text="Screenshot showing the information panel reset option.":::
 
-### Provide guidance on the Answer user experience
+### Provide guidance on the Answers user experience
 
 Admins can set appropriate expectations of the Answers experience based on who receives the required Viva Engage Knowledge service plan assignment.
 
-- Users assigned Viva Engage Knowledge Service Plan have a dedicated Answers tab with feeds of Answers-related activity and personalized questions. Their communities also include the Answers experience. Users can earn recognition for contributions and have access to Answers analytics. Each week they receive a digest summarizing questions and Answers activity in their Viva Engage Inbox.
+- Users assigned Viva Engage Knowledge Service Plan have a dedicated **Answers** tab with feeds of Answers-related activity and personalized questions. Their communities also include the Answers experience. Users can earn recognition for contributions and have access to Answers analytics. Each week they receive a digest summarizing questions and Answers activity in their Viva Engage Inbox.
 
 - Users not assigned Viva Engage Knowledge Service Plan can post questions within their communities and react to questions others have posted. They can search all Answers content, and if their name is mentioned in an Answers-related post, they receive a notification.
 
