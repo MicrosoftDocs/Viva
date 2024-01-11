@@ -118,9 +118,11 @@ As an Answers admin, you can feature a topic or create a topic from the topic br
 
 To ensure that topics suggested by employees are relevant and appropriate, there's a review process for Answers admins to follow. Answers admins have a **Needs Review** tab on the topic browse page, which is only visible to them. The tab displays user-created or suggested topics. Any nonfeatured topic that's added to a question or created by the user appears on this tab for a knowledge manager to review.
 
+- Select **Review** to review suggested topics for a category.
+
 :::image type="content" alt-text="Screenshot of the topics that need review in Answers in Viva." source="/viva/media/engage/admin/needs-review-topic.png" lightbox="/viva/media/engage/admin/needs-review-topic.png":::
 
-- Select **Review** to check and edit the summary of suggested topics for that category.  
+- In the **Take action** dialog, review and edit the summary as needed, or remove the topic.
 
 :::image type="content" alt-text="Screenshot of the dialog that lets you review  and edit the topic summary or remove the topic from Answers." source="/viva/media/engage/admin/eac-answers-review-topic.png":::
 
