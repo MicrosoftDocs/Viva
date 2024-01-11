@@ -37,20 +37,20 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 1. From your admin dashboard, under the Employees section, select **Distribution Lists**.
 1. The Distribution List page will open, displaying any lists that have been previously created and the number of members within each list.
 
-   - :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
+   :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
 
 1. Select **+ New Distribution List** to create a new list. 
 
-   - :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of Distribution List setup steps.":::
+   :::image type="content" source="../../media/glint/setup/distro-list-add-new.png" alt-text="Screenshot of Distribution List setup steps.":::
    
 1. Title your Distribution List. Make it clear because you'll refer back to it often! For example: Viva Glint admins, or Managers with Live Access, or Managers of Small Teams.
 1. Using the **Search Members** bar or the **Add/Edit Employees** bar, compile your list.
      
-- **Search Members** - Type in individual names and select those that should be added to the list.
+   - **Search Members** - Type in individual names and select those that should be added to the list.
        
-- **Add/Edit Employees** - The **Choose a way to add employees** window opens. Add members to a Distribution List by choosing one of the following options:
+   - **Add/Edit Employees** - The **Choose a way to add employees** window opens. Add members to a Distribution List by choosing one of the following options:
        
-- Option 1 - ***Attribute Rules*** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens. Remember, this section is populated from the Employee Data File that has been uploaded to Viva Glint. Choose from these two options:
+   - Option 1 - ***Attribute Rules*** - Use rules like location or manager level to populate a Distribution list. Follow the instructions on the slider window that opens. Remember, this section is populated from the Employee Data File that has been uploaded to Viva Glint. Choose from these two options:
     
     - I want to include all active employees only.
     - I want to filter all active employees by these populations:
