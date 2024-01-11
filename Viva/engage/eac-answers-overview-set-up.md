@@ -22,7 +22,7 @@ search.appverid:
 
 # Set up Answers in Viva
 
-**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app.
+**Answers in Microsoft Viva** is a new experience for people in large organizations to learn from each other by asking and answering questions. Access is through the **Answers** tab in the Viva Engage Teams app and in communities of which the user is a member.
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
@@ -32,7 +32,7 @@ Answers works to connect employees based on their subject matter expertise captu
 
 Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, have access to the Answers experience in the Viva Engage Teams app. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
 
-Users who aren't assigned the Viva Engage Knowledge service plan receive notifications to questions or answers where they're mentioned and can visit those threads. They can view  questions others have written in their community, and then react, vote, or even reply with a new question. 
+Users who aren't assigned the Viva Engage Knowledge service plan access the Answers experience from the communities in which they’re a member. They can ask questions and view, vote, and respond to questions others have written. They receive notifications to questions or answers where their name is mentioned and can visit those threads.
  
 For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](/viva/engage/eac-answers-admin-scenarios.md).
 
@@ -42,16 +42,16 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 1. **Users have access to Viva Engage services**
 
-   Viva Engage is enabled for the organization and users have access to Viva Engage services. For the best Answers experience, we recommend that all organizations install the Viva Engage app in Microsoft Teams. Follow these steps to set up the Viva Engage app.
+   Viva Engage is enabled for the organization and users have access to Viva Engage services. For the best Answers experience, we recommend that all organizations [install the Viva Engage app in Microsoft Teams](/viva/engage/setup#installing-viva-engage). 
 
 1. **Viva Engage network is in Native Mode**
 
-   [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For more information, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
+   [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For details, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
 2. **Viva Engage uses Topics**
 
    In the Answers experience, Topics helps to organize questions and route them to people who are knowledgeable about specific Topics. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
-   Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Viva Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
+   Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
    
    Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
@@ -111,7 +111,7 @@ This option is unavailable if Answers if turned off, or if the tenant has more t
 
 ## Option: Enable AI-suggested topics
 
-All Viva Engage users who have access to Answers also have AI-suggested topics, by default. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
+Users assigned the Viva Engage Knowledge Service Plan have AI-suggested topics in Answers. When a user posts a question on Answers, generative AI returns up to three relevant topics for the user to include with their post.
 
 1. In the Viva Engage Teams app, select the ellipses button from the top right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
@@ -127,21 +127,23 @@ All Viva Engage users who have access to Answers also have AI-suggested topics, 
 
 By contributing to Answers in Viva, users can earn and collect up to five different badges. Badges are available and visible to anyone in the organization who has a Viva Engage Knowledge Service Plan. This feature requires Answers to collect user data, such as votes from fellow employees, which count toward badges.
 
-1. In the Viva Engage Teams app, select the ellipses button from the top-right navigation bar, and select Admin to navigate to the Viva Engage admin center.
+1. In the Viva Engage Teams app, select the ellipses button from the top-right navigation bar, and select **Admin** to navigate to the Viva Engage admin center.
 
-2. On the Feature management tab, select Rewards and recognition.
+2. On the **Feature management** tab, select **Rewards and recognition**.
 
 [![Image of the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
-3. Select one of the following:
+3. Configure badges by selecting from these options:
 
    - **On** enables badges for the organization.
-   - **User Preference** enables badges for the organization while allowing individuals to opt out. Users can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
-  - **Disabled** turns badges off in Answers in Viva.
+
+   - **User Preference** enables badges for the organization while allowing individuals to opt out. The end user can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
+
+  - **Disabled** turns badges off in Answers in Viva. If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges.
 
 [![Image of the interface for users to turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
-If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges. 
+
 
 ## See also
 
