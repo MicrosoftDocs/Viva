@@ -166,11 +166,11 @@ items:
         items:
           - name: Program setup in Program Summary
             href: setup/program-set-up.md
-          - name: Set up and use Distribution Lists in Viva Glint
-            href: setup/set-up-distribution-lists.md
+          - name: Distribution setup in Program Summary
+            href: setup/distribution-program-summary.md
           - name: Set up Schedule page in Program Summary
             href: setup/schedule-setup.md
-          - name: Questions set up in Program Summary
+          - name: Questions setup in Program Summary
             href: setup/questions-setup.md
           - name: Reporting setup in Program Summary
             href: setup/reporting-setup.md
