@@ -44,7 +44,7 @@ In these cases, the leader should still have an ACT Conversation with their dire
 
 ## Conversations are meaningful even if they do not refer directly to a manager's own team results
 
-The goal of survey feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involve a team in identifying actions that can be taken to improve engagement. Even just a few responses - or limited views of results - can make effective use of available BTI data and foster a rich team conversation.
+The goal of survey feedback is to understand what most engages and inspires a team to be their best at work. Survey scores are a starting point for a conversation that involves a team in identifying actions that can be taken to improve engagement. Even just a few responses - or limited views of results - can make effective use of available BTI data and foster a rich team conversation.
 
 ## Small teams may seem less likely to need survey results, but this theory is incorrect
 Managers of small teams may sometimes feel survey results do not provide much value, especially if they easily and regularly connect with their team members to know how everyone is doing. While there is truth in this, when teams do not earn enough responses to view their own results, Broader Team Insights (BTI) can be very helpful in giving a sense for how the larger org is doing - including other voices and feedback.
