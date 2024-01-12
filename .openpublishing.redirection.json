@@ -731,6 +731,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/advanced/reference/errors.md",
+      "redirect_url": "/viva/troubleshoot/insights/viva-insights-errors",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/advanced/analyst/metric-rules-2.md",
       "redirect_url": "viva/insights/advanced/analyst/metric-rules",
       "redirect_document_id": false

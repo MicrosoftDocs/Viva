@@ -47,6 +47,8 @@ items:
     items:
     - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
+    - name: Company-wide organizations
+      href: company-wide-organization.md
     - name: Log in, create, and join organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
     - name: Restrict organization creation permissions
@@ -186,6 +188,16 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+
+- name: Copilot in Viva Goals
+  items:
+  - name: Introduction
+    href: copilot-intro.md
+  - name: Uses
+    href: copilot-uses.md
+  - name: Frequently asked questions
+    href: copilot-faq.md
+
 - name: The OKR framework
   items:
   - name: Benefits of OKRs
