@@ -33,6 +33,9 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
 :::image type="content" source="../../media/glint/setup/admin-config-distro-lists.png" alt-text="Screenshot of where to access Distribution List setup from the Viva Glint admin dashboard.":::
 
+>[!TIP]
+>Apply previously configured [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) to efficiently set up Distribution Lists.
+
 ### Follow these steps 
 1. From your admin dashboard, under the Employees section, select **Distribution Lists**.
 1. The Distribution List page will open, displaying any lists that have been previously created and the number of members within each list.
