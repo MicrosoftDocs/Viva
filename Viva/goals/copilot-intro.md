@@ -1,6 +1,6 @@
 ---
-ms.date: 01/03/2024
-title: Introduction to Copilot for Viva Goals
+ms.date: 01/04/2024
+title: Introduction to Copilot in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
