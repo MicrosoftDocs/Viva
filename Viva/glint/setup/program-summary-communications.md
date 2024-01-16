@@ -1,3 +1,4 @@
+
 ---
 title: Communications setup in Program Summary of Viva Glint
 description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in their preferred language is key.
@@ -38,16 +39,17 @@ Setting up notifications and providing translations to your programs happen in t
 ## Procedure to set up communications
 
 1. Select the desired **Notification Timing** to send invites and reminders. Be sure to select AM or PM.
-2. In **Configure Notifications**, you'll see a list of predetermined email notifications and the dates the emails will be delivered. To add more notifications, select **Add Survey Reminder**.
+2. When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select an **Email Settings** option to send to company or compant and personal email.
+3. In **Configure Notifications**, you'll see a list of predetermined email notifications and the dates the emails will be delivered. To add more notifications, select **Add Survey Reminder**.
    >[!TIP]
    > Send at least two reminders a week.
-3. Select the desired notification to preview or edit.
-4. In the slider panel, select the **pencil** symbol to edit the notification.
-5. Enter the number **of days after survey start** to send the notification.
-6. If you have **Additional Languages**, select the Language dropdown, and add languages.
-7. Select **Save Changes** and then **X** to close the slider panel.
-8. Repeat the process for each other language required and for each notification.
-9. Select the **Survey End** pencil symbol to preview or edit what survey takers see.
+4. Select the desired notification to preview or edit.
+5. In the slider panel, select the **pencil** symbol to edit the notification.
+6. Enter the number **of days after survey start** to send the notification.
+7. If you have **Additional Languages**, select the Language dropdown, and add languages.
+8. Select **Save Changes** and then **X** to close the slider panel.
+9. Repeat the process for each other language required and for each notification.
+10. Select the **Survey End** pencil symbol to preview or edit what survey takers see.
    1. Turn **ON** to send notification.
    2. In the **Send** field, enter the number of days after the survey ends to send the notification.
        >[!NOTE]
