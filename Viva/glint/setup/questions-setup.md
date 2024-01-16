@@ -31,7 +31,7 @@ The Questions page allows you to add or modify the items included in a survey. I
 
 Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize.
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and "thank you" text for survey takers.":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers.":::
 
 ## Edit the survey introduction message
 
