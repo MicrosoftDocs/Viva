@@ -246,7 +246,7 @@ items:
           - name: Use Viva Glint's Broader Team Insights feature
             href: reports/broader-team-insights.md
             items:
-              - name: Post-survey coaching for managers of small teams
+              - name: Coaching for managers of small teams
                 href: reports/post-survey-coaching-small-teams.md
           - name: Use the Manager Concierge dashboard in Viva Glint
             href: reports/manager-concierge-dashboard.md
