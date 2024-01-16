@@ -38,7 +38,7 @@ Setting up notifications and providing translations to your programs happen in t
 ## Procedure to set up communications
 
 1. Select the desired **Notification Timing** to send invites and reminders. Be sure to select AM or PM.
-2. When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select an **Email Settings** option to send to company or compant and personal email.
+2. When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select an **Email Settings** option to send to company or company and personal email.
 3. In **Configure Notifications**, you'll see a list of predetermined email notifications and the dates the emails will be delivered. To add more notifications, select **Add Survey Reminder**.
    >[!TIP]
    > Send at least two reminders a week.
