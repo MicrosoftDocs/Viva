@@ -28,7 +28,7 @@ Attribute column headers (name labels) may be customized. For example, you might
 
 ## Standard attribute types
 
-- **Required attributes**: When building your Employee Attribute Template, this is the data that is required to be part of your Employee Data File.
+- **Required attributes**: These are required fields for each user in your Employee Data File.
 - **Recommended attributes**: Data that can be converted into derivative groups (or buckets). Derivative groups keep attributes from being used to specifically identify an employee.
 
 >[!NOTE]
@@ -62,7 +62,7 @@ Add custom attributes to the header row on your template, named the way that see
 **Best practices**:
 
 - The more attributes you provide, the more ways data can be sliced and diced to provide richer insights and alerts. 
-- Attributes that are too specific won't meet the minimum confidentiality threshold of five to appear in reporting, so avoid them.
+- Attributes that are too specific don't meet the minimum confidentiality threshold of five to appear in reporting, so avoid them.
 
 ### General Data protection Regulation (GDPR) compliance for attributes
 
@@ -92,7 +92,7 @@ Global companies often include a time zone attribute column in their Employee At
 
 Use the Language Codes tab of the Employee Attribute Template to find language values that trigger survey emails in an employee’s preferred language. Ensure that you include a Language column in your Employee Attribute File. Before a survey launches, ensure that all employees have a valid value attached to their records.
 
-If you also supply language values to indicate users’ dashboard languages (for those who view reports), include a separate column (example: Dashboard Language).
+If you also supply language values to indicate users’ dashboard languages (for users who view reports), include a separate column (example: Dashboard Language).
 
 > [!TIP]
 > For global companies, consider adding time zones and languages meaning to reach employees in their appropriate timezones and their preferred language.
