@@ -1,0 +1,57 @@
+---
+ms.date: 01/blah/2024
+title: Blah
+ms.reviewer: 
+ms.author: v-nstockwell
+author: DefinitelyNotNitza
+manager: Liz.Pierce
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-goals
+ms.localizationpriority: medium
+ms.collection:  
+- Strat_SP_modern
+- M365-collaboration
+- m365initiative-viva-goals
+- vg-integration  
+search.appverid:
+- MET150
+description: "Blah."
+---
+
+# Manage members of a Microsoft 365 group-connected team in Viva Goals
+
+Team owners and admins can add members to teams in Viva Goals, whether those teams are connected to Microsoft 365 groups or not.
+
+## Add members to a Microsoft 365 group-connected team
+
+1. Go to the team's OKRs page. Select the three dots in the top right and choose **Team members**. This will take you to the Team Members page.
+
+1. Select **Add members**.
+
+1. Use the search box to search for an individual user or group and select the user or group you want added to the member list. Any mail-enabled security group, distribution group, or Microsoft 365 group can be selected.
+
+1. Select **Add members**.
+
+1. If you add a group to the team, only the group's current members will be added to the team. Members who join the group later will not also be added to the team.
+
+![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\team-members-list.png)
+
+![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\add-members-but-create-team-somehow.png)
+
+## Make a team member a team owner or remove a team member from the team
+
+1. Go to the team's OKRs page. Select the three dots in the top right and choose **Team members**. This will take you to the Team Members page. <!--Editor's Note: Make sure that "Team Members" is written in a manner faithful to the UI throughout the article.-->
+
+1. Find or search for the team member you want to make changes to.
+
+1. To make the team member a team owner, select the **Owner/Member** dropdown and update the member's role to **Owner**. Their role will also be updated in the associated Microsoft 365 group.
+
+1. To remove the team member from the team, select the **X** icon next to that member. They will also be removed from the associated Microsoft 365 group.
+
+![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\change-member-role.png)
+
+<!--Editor's Note: There was an FAQ here, but I've been advised against including FAQs in help documentation.-->
