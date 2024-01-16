@@ -1,9 +1,9 @@
 ---
 title: Questions setup in Program Summary of Viva Glint
 description: On the Questions page admins, add or modify items prepopulated into survey templates.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: edit questions, survey items, question targeting
@@ -15,16 +15,20 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/13/2023
+ms.date: 01/16/2024
 ---
 
 # Questions setup in Program Summary
 
-The Questions page allows you to add or modify the items included in a survey. If you selected a default template, Glint recommended items prepopulate. Refer to the "Setting up Survey Items" lesson to add or modify survey items.
+The Questions page allows you to add or modify the items included in a survey. If you've selected a default template, Viva Glint recommended survey items are prepopulated. Refer to the [Learn about Viva Glint program design](/../../[training/modules/viva-glint-learn-about-viva-glint-program-design/) to learn to add or modify survey items.
+
+:::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
 ## Use Viva Glint's prepopulated survey template
 
-Standard templates provide prepopulated questions and items, along with an introductory and "thank you" page for users. You may customize any of these.
+Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize.
+
+:::image type="content" source="../../media/glint/setup/dprogram-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and "thank you" text for survey takers.":::
 
 ### Edit survey introduction
 
