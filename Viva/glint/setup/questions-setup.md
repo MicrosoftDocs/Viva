@@ -1,4 +1,4 @@
----
+progr---
 title: Questions setup in Program Summary of Viva Glint
 description: On the Questions page admins, add or modify items prepopulated into survey templates.
 ms.author: JudithWeiner
@@ -24,31 +24,29 @@ The Questions page allows you to add or modify the items included in a survey. I
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
-## Use Viva Glint's prepopulated survey template
+## Use Viva Glint's prepopulated survey templates
 
 Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize.
 
 :::image type="content" source="../../media/glint/setup/dprogram-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and "thank you" text for survey takers.":::
 
-### Edit survey introduction
+## Edit survey introduction
 
 Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. In the window that opens you can:
 
-- Select languages
-- Edit the greeting
-- Edit the text content
+:::image type="content" source="../../media/glint/setup/dprogram-summary-edit-intro.png" alt-text="Screenshot of Edit Survey Intro slider window.":::
+
+- Select languages from the **Language** dropdown menu. Languages already made available to your organization in General Settings are available here.
+- Edit **Greeting** - "Hello" is prepopulated, but feel free to customize that in a way that's comfortable to you. 
+- Edit **Text** - You will see dummy text in the **Text** box.
+  - All of the text in this box can be edited.
+  - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, it must be deleted.** 
 
 When you have finished, select **Save Changes**.
 
-## Edit individual questions (items)
+## Edit individual survey items
 
 Hover over the vertical ellipses next to the question to select one of the following:
-
-### Edit Targeting
-
-Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select a User Role to include or exclude. When finished, select **Save Changes**.
-
-### Edit Question
 
 Changes you make here will instantly propagate to all programs that use this question. In this section you can:
 
@@ -65,11 +63,15 @@ Changes you make here will instantly propagate to all programs that use this que
 
 When finished, select **Save**.
 
-### Delete
+### Edit Targeting
+
+Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select a User Role to include or exclude. When finished, select **Save Changes**.
+
+### Delete survey items
 
 Remove this question (item) from the program.
 
-### Edit 'Thank You!'
+## Edit 'Thank You!'
 
 Customize the 'Thank You!' message for the survey by hovering over the box with the "Thank You!" message and select it. In the window that opens you can:
 
