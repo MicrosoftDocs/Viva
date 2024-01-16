@@ -1,5 +1,5 @@
 ---
-ms.date: 12/19/2023
+ms.date: 1/16/2024
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -51,6 +51,9 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 ## Manage user access to the dashboard in Viva Insights
 
 *Applies to: Global admins*
+
+>[!Note]
+>When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
 In Viva Insights, the Copilot Dashboard is accessible in the Microsoft Teams and web app. Access controls are managed by Global admins.
 
