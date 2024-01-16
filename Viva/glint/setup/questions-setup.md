@@ -35,19 +35,22 @@ Standard templates provide prepopulated questions and survey items, along with i
 
 ## Edit the survey introduction message
 
-Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. In the window that opens you can:
+Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. 
 
 :::image type="content" source="../../media/glint/setup/dprogram-summary-edit-intro.png" alt-text="Screenshot of Edit Survey Intro slider window.":::
 
+In the window that opens you can:
 - Select languages from the **Language** dropdown menu. Languages already made available to your organization in General Settings are available here.
 - Edit **Greeting** - "Hello" is prepopulated, but feel free to customize that in a way that's comfortable to you. 
 - Edit **Text** - You will see dummy text in the **Text** box.
   - All of the text in this box can be edited.
-  - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, it must be deleted.** 
+  - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, delete it.** 
 
 When finished, select **Save Changes**.
 
 ## Edit survey items using the vertical ellipses
+
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item.":::
 
 Hover over the vertical ellipses next to any survey item to select one of the following options:
 
@@ -60,26 +63,42 @@ Hover over the vertical ellipses next to any survey item to select one of the fo
 
 Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select a User Role to include or exclude. When finished, select **Save Changes**.
 
+### Edit Question
+The Edit Question slider window provides two tabs for set up:
+- Question Configuration
+- Associated Programs
+
+#### Question Configuratuion
+
+There is lots to do here! For each item you'd like to edit, you may:
+- Select a **Language** from those prepopulated in the dropdown menu
+- See the **Question Type** - rating, multiple choice, comment
+- Assign a **Reporting Label** for easy identification
+- **Question Text** - The wording for this item appears. Using the **+ button** allows you to edit the question.
+  
+- >[!IMPORTANT]
+- > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+
 ### Delete survey items
 
 Remove this question (item) from the program.
 
-## Edit the "Thank You!" message people wiil see when they submit their survey
+## Edit the "Thank You!" message people see when they submit their survey
 
-Customize the 'Thank You!' message for the survey by hovering over the box with the "Thank You!" message and select it. In the window that opens you can:
+Customize the 'Thank You!' message for the survey by hovering over the box and selecting it. In the window that opens you can:
 
-- Select languages
-- Edit the greeting
-- Edit the text content
+- Select languages from the **Language** dropdown menu. Languages already made available to your organization in General Settings are available here.
+- Edit **Greeting** - "Thank you!" is prepopulated, but customize that in a way that's comfortable for you. 
+- Edit **Text** - You will see dummy text in the **Text** box.
+  - All of the text in this box can be edited.
+  - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, delete it.** 
 
-When you've finished, select **Save Changes**.
+When finished, select **Save Changes**.
 
-## Add questions to a survey cycle
+## Add items to a survey cycle
 
-You can add questions to specific question cycles by selecting the corresponding question cycle number next to the question. For example, if you only want a certain question asked on the first survey, deselect all numbers except for 1.
+You can add survey items to program cycles by selecting the corresponding cycle number next to the item. For example, if you only want a certain item asked on the first survey, deselect all numbers except for 1.
 
->[!IMPORTANT]
-> Do not edit our standard survey items. Item edits may impact language translations and the item's intention, which would affect the accuracy of the benchmark tied to the question. Custom items are not mapped to external benchmarks.
 
 
 >[!TIP]
