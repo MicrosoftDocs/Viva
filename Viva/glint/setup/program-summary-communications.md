@@ -1,4 +1,3 @@
-
 ---
 title: Communications setup in Program Summary of Viva Glint
 description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in their preferred language is key.
