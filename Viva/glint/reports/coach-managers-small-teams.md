@@ -77,5 +77,5 @@ By enabling bottom-up change, you can create more engaged people, align teams, a
 ### Broader Team Insights isn't limited to managers of small teams only
 Team leaders at all levels who use Broader Team Insights are better able to anchor their team’s feedback in the context of their larger department, have better conversations, and align actions.
 
-## [Use the Coaching page of Program Summary to provide even more conversation resources for your managers](/../../viva/glint/setup/program-summary-coaching).
+**[Use the Coaching page of Program Summary to provide even more conversation resources for your managers](/../../viva/glint/setup/program-summary-coaching).**
 
