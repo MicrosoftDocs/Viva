@@ -127,7 +127,7 @@ To ensure that topics suggested by employees are relevant and appropriate, there
 :::image type="content" alt-text="Screenshot of the dialog that lets you review  and edit the topic summary or remove the topic from Answers." source="/viva/media/engage/admin/eac-answers-review-topic.png":::
 
 After you review a topic, it no longer appears in the **Needs Review** tab. In addition, topics you remove from Answers no longer appear in any other experience in Viva Engage. To remove a topic completely, the admin must remove the topic from the [Topics management center](/microsoft-365/topics/topic-center-overview).
-Removed topics no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove a topics completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
+Removed topics no longer appears in the **Needs Review** tab or in any other experience in Viva Engage. To remove a topic completely, the admin must remove topics from the [Topics management center](/microsoft-365/topics/manage-topics).
 
 ### Remove a topic in Answers
 
