@@ -37,7 +37,7 @@ Standard templates provide prepopulated questions and survey items, along with i
 
 Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. 
 
-:::image type="content" source="../../media/glint/setup/dprogram-summary-edit-intro.png" alt-text="Screenshot of Edit Survey Intro slider window.":::
+:::image type="content" source="../../media/glint/setup/program-summary-edit-intro.png" alt-text="Screenshot of Edit Survey Intro slider window.":::
 
 In the window that opens you can:
 - Select languages from the **Language** dropdown menu. Languages already made available to your organization in General Settings are available here.
