@@ -24,6 +24,9 @@ The Questions page allows you to add or modify the items included in a survey. I
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
+>[!IMPORTANT]
+>The term "survey item" refers to any question or statement posed to a survey taker.
+
 ## Use Viva Glint's prepopulated survey templates
 
 Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize.
@@ -42,26 +45,16 @@ Customize the introduction message for the survey by hovering over the box with 
   - All of the text in this box can be edited.
   - The blue fields are *not* intended to be populated. **The blue fields are suggested areas for customization. To remove or customize the blue text, it must be deleted.** 
 
-When you have finished, select **Save Changes**.
+When finished, select **Save Changes**.
 
-## Edit individual survey items
+## Edit survey items using the vertical ellipses
 
-Hover over the vertical ellipses next to the question to select one of the following:
+Hover over the vertical ellipses next to any survey item to select one of the following options:
 
-Changes you make here will instantly propagate to all programs that use this question. In this section you can:
-
-- Select languages
-- Select the question (item) type
-- Edit the default text
-- Change the reporting label
-- Provide instructional text
-- Select whether to label for all options
-- Illustrate the rating scale
-- Allow or disallow comments
-- Make the question (item) optional
-- Map the question to a Suggested Action Template
-
-When finished, select **Save**.
+- Edit Targeting
+- Edit Question
+- Edit Display Logic
+- Delete
 
 ### Edit Targeting
 
