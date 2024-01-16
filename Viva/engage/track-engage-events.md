@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: medium
 ms.collection:  
 - M365initiative-viva
 - highpri
