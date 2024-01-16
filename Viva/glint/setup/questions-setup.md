@@ -33,7 +33,7 @@ Standard templates provide prepopulated questions and survey items, along with i
 
 :::image type="content" source="../../media/glint/setup/dprogram-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and "thank you" text for survey takers.":::
 
-## Edit survey introduction
+## Edit the survey introduction message
 
 Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. In the window that opens you can:
 
@@ -51,10 +51,10 @@ When finished, select **Save Changes**.
 
 Hover over the vertical ellipses next to any survey item to select one of the following options:
 
-- Edit Targeting
-- Edit Question
-- Edit Display Logic
-- Delete
+- **Edit Targeting**
+- **Edit Question**
+- **Edit Display Logic**
+- **Delete**
 
 ### Edit Targeting
 
@@ -64,7 +64,7 @@ Adding a target to a specific question ensures that only the population targeted
 
 Remove this question (item) from the program.
 
-## Edit 'Thank You!'
+## Edit the "Thank You!" message people wiil see when they submit their survey
 
 Customize the 'Thank You!' message for the survey by hovering over the box with the "Thank You!" message and select it. In the window that opens you can:
 
