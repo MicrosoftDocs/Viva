@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2023
+ms.date: 01/16/2024
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -38,11 +38,12 @@ Attribute column headers (name labels) may be customized. For example, you might
 
 | **Attribute** | **Description/Notes** | **Required for Engagement surveys** | **Required for Employee Lifecycle surveys** |
 |---|---|---|---|
-| **Status – ACTIVE or INACTIVE** | Must always be fully capitalized.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. | Yes | Yes |
+| **Status** | Must always be fully capitalized ACTIVE or INACTIVE.<br>An employee on temporary leave should have their status updated to INACTIVE and then returned to ACTIVE upon return. | Yes | Yes |
 | **First name** | Appears in email invites and reminders (can be the legal first name, preferred first name, or whichever is in your HRIS). | Yes | Yes |
 | **Last name** | Employee’s legal last name field from your HRIS. | Yes | Yes |
 | **Employee ID** | Each employee has a unique ID. Don't use blanks or spaces. | Yes | Yes |
 | **Email address** | Each employee should have a unique email address. Don't include extra spaces.<br>If an employee doesn't have an email address, copy the employee’s unique ID into the email field. | Yes | Yes |
+| **Personal email address** | Opt to include personal email address to contact exiting employees. | No | Recommended |
 | **Time zone** | See [Time zones](#time-zones) | No | No |
 | **Language** | See [Language](#languages) | No | No |
 | **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a managerial hierarchy. | Highly recommended | Highly recommended |
@@ -67,9 +68,16 @@ Add custom attributes to the header row on your template, named the way that see
 
 Confidentiality around employee data is of the highest priority for Microsoft Viva Glint. Using [EU General Data Protection Regulation (GDPR) guidelines](https://www.microsoft.com/professionalservices/gdpr), we apply these privacy protection standards globally to ensure that every person’s data is handled with the utmost confidentiality and integrity.
 
-## Functional attributes
+## Optional system attributes
 
-Functional attributes are values that indicate how and when communications are sent to an employee, such as time zone and language.
+Optional system attributes are values that indicate how and when communications are sent to an employee, such as time zone and language.
+
+|Optional System Attribute  |Description  |
+|----------|-----------|
+|Survey Language     |The language in which employees receive surveys and emails.      |
+|Dashboard Language|The language in which users view dashboards.  |
+|User Timezone|The time zone in which survey communications are sent.  |
+|Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
 >[!NOTE]
 > Time zone and language values are case sensitive and must be sent exactly as they appear. Employee records with blank or invalid time zone or language values will receive communications in the organization’s default time zone and language.  
