@@ -76,8 +76,18 @@ There is lots to do here! For each item you'd like to edit, you may:
 - Assign a **Reporting Label** for easy identification
 - **Question Text** - The wording for this item appears. Using the **+ button** allows you to edit the question.
   
-- >[!IMPORTANT]
-- > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+   >[!IMPORTANT]
+   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+
+- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
+- **Comment Placeholder Text** -
+- **Rating Scale** -
+- **Label for all options** -
+- **Low Value**
+- **High Value**
+- **Allow Comments**
+- **Optional Question**
+- **Suggested Action Template**
 
 ### Delete survey items
 
