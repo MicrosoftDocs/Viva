@@ -33,7 +33,7 @@ Copilot in Viva Engage is a partner for communicating in ways that create value 
 Customers with a *Viva Suite* or *Communications & Communities* license, or a trial version of one of these, can opt in to activate Copilot through the Viva Engage admin center. Licensing requirements for these features may change after the preview period. Teams must be in Native Mode to support feature access.
 
 >[!NOTE]
->[Microsoft 365 Copilot(/microsoft-365/enterprise/copilot-for-microsoft-365)] is available separately.
+>[Microsoft 365 Copilot](/microsoft-365/enterprise/copilot-for-microsoft-365)] is available separately.
 
 ## Data processing and storage 
 
