@@ -103,4 +103,4 @@ During collaboration, Copilot provides proactive coaching to help maintain authe
 
 ## See also
 
-[Data, Privacy, and Security for Copilot in Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage.md)
+[Data, Privacy, and Security for Copilot in Viva Engage](/Viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage)
