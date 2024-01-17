@@ -178,7 +178,7 @@ From the admin dashboard:
 
 1. Select the **Configure** symbol and then in the **Employees** section, choose **People**.
 2. Select **Actions** and then select **Manage User Attributes**.
-3. Select the corresponding horizonal ellipses to the far right of the attribute in the Active Attributes row.
+3. Select the corresponding horizontal ellipses to the far right of the attribute in the Active Attributes row.
 4. Select **Rename Attribute**.
 5. Enter the new name in the Attribute Name field and select **Rename**.
 
