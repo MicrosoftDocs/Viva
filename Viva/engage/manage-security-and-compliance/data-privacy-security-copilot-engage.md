@@ -5,12 +5,12 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 01/16/2024
+ms.date: 01/17/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid:
 - MET150
 - MOE150
@@ -19,7 +19,7 @@ ms.assetid:
 description: "Learn how Copilot protects your data in Viva Engage (Public Preview)"
 ---
 
-# Data, Privacy, and Security for Copilot in Viva Engage
+# Data, Privacy, and Security for Copilot
 
 Here is some content.
 
