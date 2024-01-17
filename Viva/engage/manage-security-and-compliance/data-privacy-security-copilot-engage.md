@@ -24,8 +24,6 @@ description: "Learn how Copilot protects your data in Viva Engage (Public Previe
 >[!IMPORTANT]
 >Copilot for Viva Engage is currently available only for public preview customers.  The features described here are subject to change.
 
-Here is some content.
-
 ### Copilot in Engage
 Copilot in Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot in Engage provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
 
