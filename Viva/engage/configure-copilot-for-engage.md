@@ -39,11 +39,8 @@ Customers with a *Viva Suite* or *Communications & Communities* license, or a tr
 
 |  |  |
 |---|---|
-| **Message processing and storage for summarization** | The **Summarization** control starts background processing of Engage threads across the tenant network to support summarization features in Copilot. Copilot presents summaries *from only those posts to which the user already has access*.
-When Copilot is generally available, admin controls will allow enabling or disabling of summarization per user or group. 
-Results from summarization and theme extraction are stored in alignment with GDPR deletion requirements. Use the [Engage Network Export feature](/viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range) to export this data. | 
-|**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).
-When Copilot in Engage is generally available, the system will support logging of Copilot chat input and output and admins will also have controls to enable/disable Copilot access per user group.|
+| **Message processing and storage for summarization** | The **Summarization** control starts background processing of Engage threads across the tenant network to support summarization features in Copilot. Copilot presents summaries *from only those posts to which the user already has access*. When Copilot is generally available, admin controls will allow enabling or disabling of summarization per user or group. Results from summarization and theme extraction are stored in alignment with GDPR deletion requirements. Use the [Engage Network Export feature](/viva/engage/eac-as-manage-data.md#export-tenant-data-by-date-range) to export this data. | 
+|**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region). When Copilot in Engage is generally available, the system will support logging of Copilot chat input and output and admins will also have controls to enable/disable Copilot access per user group.|
 
 ## Configure Copilot for Viva Engage
 
@@ -56,17 +53,13 @@ When you enable Copilot, it’s available to all users in the tenant with a prem
 
 1.	To enable Copilot, go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac.md).
 1.	On the **Setup and configuration** tab, select **Manage analytics**.
-
-:::image type="content" source="/viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
-
+    :::image type="content" source="/viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
 1. From the **Analytics and AI controls**, select the dropdown menu to turn on **Summarization**. Or, to allow users to turn off summarization in Viva Engage, select **On with user-level opt in/out**.
-
 **Summarization** must be on to enable Copilot. This control starts the background processing of Engage threads across the tenant network to support summarization features in Copilot.
+    :::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
 
-:::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
-
->[!NOTE] 
->Depending on the volume of data represented by Engage threads in your tenant, the summarization process may require anywhere from a few hours to a few days. If Engage threads aren’t processed, some aspects of Copilot won’t function optimally.
+    >[!NOTE] 
+    >Depending on the volume of data represented by Engage threads in your tenant, the summarization process may require anywhere from a few hours to a few days. If Engage threads aren’t processed, some aspects of Copilot won’t function optimally.
 
 1. Use the toggle to turn on the **Copilot** control.
 
@@ -79,18 +72,21 @@ When Copilot is generally available in 2024, users will be available to access C
 
 ### Copilot as Viva Engage guide
 
-Copilot makes personalized suggestions of what to post on Viva Engage, and where. These suggestions, or Conversation Starters, are personalized based on the viewing user’s activity and what is trending in their organization’s network. The Conversation Starters bring together information from across Viva Engage to help people:
+Copilot makes personalized suggestions of what to post on Viva Engage, and where. These suggestions, or Conversation Starters, are personalized based on the viewing user’s activity and what is trending in their organization’s network.
+
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-coach.png" alt-text="Screenshot shows how Copilot provides helpful tips for writing a great post.":::
+
+The Conversation Starters bring together information from across Viva Engage to help people:
 
 - Be an active voice in their Viva Engage communities. Copilot summarizes the community’s purpose and recent trending posts to help people to create posts for the audience.
 
 - Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
 
-:::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-coach.png" alt-text="Screenshot shows how Copilot provides helpful tips for writing a great post.":::
-
 - Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
 Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ### Copilot as communication partner
+
 Copilot also offers collaboration on writing Viva Engage posts. Users can chat with Copilot to access the power and flexibility of Large Language Models with Microsoft Responsible AI protections. Whether a writer is starting from scratch or a draft, Engage Copilot can help draft, edit, give feedback, and more, to create a post that aligns with the user’s goals.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-prompt.png" alt-text="Screenshot shows options you can use to have Copilot write a draft for you.":::
