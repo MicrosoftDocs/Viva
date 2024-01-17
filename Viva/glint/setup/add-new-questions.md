@@ -54,7 +54,7 @@ The Viva Glint Question Library has approximately
    
 1. Select your new item from the new list and then press the **+** symbol. You will see a small "Question Added" banner display on the Questions page.
 
-### Follow these steps to create a new question:
+### Follow these steps to create a new question
 
 Select the **+ Create** button. A Create Question slider window opens.
    
@@ -76,6 +76,22 @@ For your new item, complete the following fields:
 1. Decide whether this item can be an **Optional Question** - Toggle to Yes or No
 1. Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help you manager act on feedback
 1. Select **Save and Add**.
+
+## Add a section break to your survey program
+
+For surveys that intend to cover more than one topic, you'll want to give survey takers notice that the topic is switching (for example, from Engagement to Benefits). 
+Select **Add Section Break** to open the Add Section Break slider window.
+
+:::image type="content" source="../../media/glint/setup/add-section-break-to-survey.png" alt-text="Screenshot of Add Section Break slider window.":::
+
+The **+** symbol opens a list of suggested topics that you might want to include. If you select one of these items, the blue field that populates must actually be deleted from the text box in order for you to add text; it's really just intended as suggestions to help you create text content.
+
+The character counter is a handy tool that also opens when selecting the **+** symbol.
+
+
+
+
+ 
 
  
 
