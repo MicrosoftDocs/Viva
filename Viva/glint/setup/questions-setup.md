@@ -61,7 +61,7 @@ The Edit Question slider window provides two tabs for set up:
 - Question Configuration
 - Associated Programs
 
-#### Question Configuratuion
+#### Question Configuration
 
 There is lots to do here! You may edit the following fields:
 - Select a **Language** from languages prepopulated in the dropdown menu
@@ -75,7 +75,7 @@ There is lots to do here! You may edit the following fields:
 - Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
 - Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
 - View the **Rating Scale** for the item - 5 or 7 points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. If you would to define values 2,3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
+- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. If you would like to define values 2,3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
 - Decide whether to **Allow Comments** - Toggle to Yes or No
 - Decide whether this item can be an **Optional Question** - Toggle to Yes or No
 - Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help you manager act on feedback
