@@ -53,7 +53,7 @@ When you enable Copilot, it’s available to all users in the tenant with a prem
 >[!NOTE]
 >When Copilot is generally available in 2024, admins will be able to control Copilot for users or groups and set different policies for user groups.  Additional controls for AI summarization will enable the same.
 
-1.	To enable Copilot, go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac.md).
+1.	To enable Copilot, go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 1.	On the **Setup and configuration** tab, select **Manage analytics**.
     :::image type="content" source="/viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
 1. From the **Analytics and AI controls**, select the dropdown menu to turn on **Summarization**. Or, to allow users to turn off summarization in Viva Engage, select **On with user-level opt in/out**.
