@@ -89,8 +89,7 @@ Our privacy policy is publicly shared and available here, as part of the: [Micro
 
 ### Data residency, data subject rights, and data deletion
 
-Engage Copilot follows the same data residency protocols currently in place for Viva Engage. 
-For details, see: Overview of Security and Compliance in Viva Engage <link>
+Engage Copilot follows the same data residency protocols currently in place for Viva Engage. For details, see [Overview of Security and Compliance in Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance.md).
 
 ### Engage Copilot, Microsoft Graph, Microsoft 365 services
 
