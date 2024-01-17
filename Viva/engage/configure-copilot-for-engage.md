@@ -91,11 +91,11 @@ Copilot also offers collaboration on writing Viva Engage posts. Users can chat w
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-prompt.png" alt-text="Screenshot shows options you can use to have Copilot write a draft for you.":::
 
-For users who are new to AI collaboration, or even experienced users looking for fresh ideas, the Sparkle Menu provides examples of prompts that can be sent to Copilot. This prompt guide is designed to help users collaborate with Copilot in ways particularly useful to the task at hand–writing a post that is engaging and expresses what they intend.
+For users who are new to AI collaboration, or even experienced users looking for fresh ideas, the sparkle menu provides examples of prompts that can be sent to Copilot. This prompt guide is designed to help users collaborate with Copilot in ways particularly useful to the task at hand–writing a post that is engaging and expresses what they intend.
 
-:::image type="content" source="/viva/media/engage/admin/copilot-engage-sparkly.png" alt-text="Screenshot shows the Sparkle menu." lightbox="/media/engage/admin/copilot-sparkle-crop.png":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-sparkly.png" alt-text="Screenshot shows the sparkle menu. "lightbox="/viva/media/engage/admin/copilot-sparkle-crop.png":::
 
-The Sparkle Menu provides examples of ways users can ask Copilot for help drafting or rewriting their post, examples of ways to ask Copilot for feedback, and more.
+The sparkle menu provides examples of ways users can ask Copilot for help drafting or rewriting their post, examples of ways to ask Copilot for feedback, and more.
 
 During collaboration, Copilot provides proactive coaching to help maintain authenticity in Copiloted content, and the expression of unique perspective, knowledge, and insight in posts to enhance the creation of value across the Viva Engage network.
 
