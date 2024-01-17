@@ -8,6 +8,12 @@
        href: setup.md
      - name: Deep linking into Viva Engage
        href: deeplinks.md
+   - name: Copilot in Viva Engage
+     items:
+     - name: Set up Copilot in Viva Engage
+       href: configure-copilot-for-engage.md 
+     - name: Data, privacy, and security for Copilot in Viva Engage
+       href: data-privacy-security-copilot-engage.md
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 

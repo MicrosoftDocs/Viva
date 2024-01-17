@@ -19,7 +19,7 @@ ms.assetid:
 description: "Learn how Copilot protects your data in Viva Engage (Public Preview)"
 ---
 
-# Data, Privacy, and Security for Copilot
+# Data, Privacy, and Security for Copilot in Viva Engage
 
 >[!IMPORTANT]
 >Copilot for Viva Engage is currently available only for public preview customers.  The features described here are subject to change.
