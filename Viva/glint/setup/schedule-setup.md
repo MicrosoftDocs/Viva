@@ -61,7 +61,7 @@ Choose the cadence for your program. This determines your launch date(s) and how
    > Response window refers to the number of days the survey is open to responders and is not related to Team Conversations.
  
 1. Select the right-facing arrow symbol to **Save & Continue**.  
->
->
+
+
 >[!div class="nextstepaction"]
 >[Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342).
