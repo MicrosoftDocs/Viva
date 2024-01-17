@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 12/21/2023
+ms.date: 01/17/2024
 ---
 
 # Set up attributes in Viva Glint
@@ -25,14 +25,14 @@ Before using the guidance on this page, you should have created your Employee At
 > [!TIP]
 > Ensure that attribute labels stay consistent over time in your Employee Data File. For example, if an attribute is set up as "Employee ID," it will not later be recognized as the same column renamed as "Employee Number".
 
-Use the following guidance to set up attributes in Viva Glint based on selections you made when putting together your [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). This is your guide for setting up Viva Glint to accept data that you import to the platform long-term.
+Use the guidance in this article to set up attributes in Viva Glint based on selections you made when putting together your [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). This is your guide for setting up Viva Glint to accept data that you import to the platform long-term.
 
 ## Attribute setup in Viva Glint
 
 To set up your attributes in Viva Glint, your uploaded file must contain a finalized attribute header row and at least one row of employee data. Use the in-platform, four-step attribute setup process to prepare the system to import employee data.
 
 > [!IMPORTANT]
-> Reporting hierarchies, derivations, file format, and date attribute formats can't be edited after initial setup is complete. Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**.
+> Reporting hierarchies, file format, and date attribute formats can't be edited after initial setup is complete. Before beginning, confirm that the attribute selections in your Employee Attribute Template are **final**.
 
 1. From the admin dashboard, select the **Configure** symbol.
 2. In **Employees,** select **People**.
@@ -83,9 +83,6 @@ Viva Glint calculates attributes based on data sent in your employee attribute f
 
 ### Optional System Attributes
 
-> [!NOTE]
-> This section is available after January 13, 2024.
-
 Map attributes in your employee data to Viva Glint language, time zone, and personal email fields to indicate how and when to communicate with employees. Choose to enable any of the following fields by selecting the checkbox and choosing a field from your file in the **Sync From** dropdown menu:
 
 |Viva Glint Field   |Description  |
@@ -108,9 +105,6 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To delete a group or level, select the **trash can** symbol.
 
 ## Review
-
-> [!NOTE]
-> This section is available after January 13, 2024.
 
 Review a summary of all selections made in attribute setup and use the **Go Back** option to make any corrections before moving forward. The review step includes the following sections:
 
@@ -148,27 +142,33 @@ After initial setup, you may find that new attributes need to be added to your e
 From the admin dashboard:
 
 1. Select the **Configure** symbol and then under the **Employees** section, choose **People**.
-2. Select **Actions** and then **New User Attributes**.
-3. Upload your dataset with all existing attributes and the new attribute(s).
+2. Select **Actions** and then **Manage User Attributes**.
+3. Select **Update dataset** at the top of the page.
+4. Upload your dataset with all existing attributes and the new attribute(s).
 
      > [!NOTE]
      > Your uploaded file must contain the Attribute Header Row and at least one row of employee data that aligns with the current format.
 
-4. Select **Continue**.
-5. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
+5. Select **Continue**.
+6. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
 
      > [!NOTE]
      > This selection should be your existing date format, which is consistently used for employee data.
 
-6. Preview your data and confirm that you see the new attributes.
-7. Select **Continue**.
-8. The Attributes Setup page shows current required attributes and hierarchy groups and can't be edited. Select **Continue**.
-9. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
+7. Preview your data and confirm that you see the new attributes.
+8. Select **Continue**.
+9. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
+  
+     > [!NOTE]
+     > Derived Manager Hierarchy and Hierarchy Groups can't be edited after initial setup.
+  
+10. Review newly added attributes and select **Continue**.
+11. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
 
      > [!TIP]
      > When adding new attributes, choose the Save attributes and discard employee data option to save your setup in preparation for future imports.
 
-10. Select **Save**.
+12. Select **Save** or **Go Back** to make additional edits.
 
 ## Edit attribute names
 
@@ -177,19 +177,15 @@ Use the following guidance to rename attributes before updating your data files 
 From the admin dashboard:
 
 1. Select the **Configure** symbol and then in the **Employees** section, choose **People**.
-2. Select **Actions** and then select **Edit User Attributes**.
-3. Select the corresponding vertical ellipses to the far right of the attribute in the Active Attributes row.
+2. Select **Actions** and then select **Manage User Attributes**.
+3. Select the corresponding horizonal ellipses to the far right of the attribute in the Active Attributes row.
 4. Select **Rename Attribute**.
 5. Enter the new name in the Attribute Name field and select **Rename**.
-6. On the top right of your dashboard, select **Save Changes**.
 
 > [!CAUTION]
 > Use this method if the underlying data remains the same, but the field name has changed in your system. Don't repurpose attribute name labels, as this can create issues in reporting. Instead, create a new attributes. For example, if Department changes to Team and the values in that column change too, add a new Team attribute and don't rename Department to Team.
 
 ## Manage Derived Attributes
-
-> [!NOTE]
-> This section is available after January 13, 2024.
 
 Viva Glint calculates attributes based on data sent in your employee attribute file. 
 
@@ -207,9 +203,6 @@ To edit derived fields after your initial setup:
 > Manager Hierarchy is not editable after initial setup.
 
 ## Manage Optional System Attributes
-
-> [!NOTE]
-> This section is available after January 13, 2024.
 
 Choose how and when Viva Glint communicates with employees by mapping language, time zone, and personal emails to Viva Glint fields.
 
