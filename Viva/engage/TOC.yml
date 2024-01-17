@@ -13,7 +13,7 @@
      - name: Set up Copilot in Viva Engage
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
-       href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage.md
+       href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
