@@ -63,5 +63,6 @@ The results notification email is a one-time notification to let users know that
 > [!IMPORTANT]
 > Access must be scheduled to be live 24 hours before the results notification email is scheduled for sending.
 
->[!TIP]
->Now that you have your communication schedule locked in, move onto [Coaching setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231416).
+
+> [!div class="nextstepaction"]
+> [Coaching setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231416).
