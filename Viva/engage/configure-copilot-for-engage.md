@@ -19,10 +19,10 @@ ms.assetid:
 description: "Learn how to configure and incorporate Copilot in Viva Engage [Public Preview] into your organization"
 ---
 
-# Overview and set up Copilot in Viva Engage (Public Preview) 
+# Set up Copilot in Viva Engage (Public Preview) 
 
 >[!IMPORTANT]
->Copilot in Viva Engage is currently available through public preview. The features described here are subject to change. Administrators can [enable Copilot](link) in the Viva Engage admin center. 
+>Copilot in Viva Engage is currently available through public preview. The features described here are subject to change. Administrators can enable Copilot in the Viva Engage admin center.
 
 Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage. A large language model is a type of AI that can process and produce natural language text. Learn more about [responsible AI practices at Microsoft](/ai/responsible-ai). Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
 
@@ -35,7 +35,7 @@ Customers with a *Viva Suite* or *Communications & Communities* license, or a tr
 
 ## Data processing and storage 
 
-:::image type="content" source="Viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Image shows how data flows between Copilot services while staying within the boundary of the Viva Engage app.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Image shows how data flows between Copilot services while staying within the boundary of the Viva Engage app.":::
 
 |  |  |
 |---|---|
@@ -57,13 +57,13 @@ When you enable Copilot, it’s available to all users in the tenant with a prem
 1.	To enable Copilot, go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac.md).
 1.	On the **Setup and configuration** tab, select **Manage analytics**.
 
-:::image type="content" source="Viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
+:::image type="content" source="/viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
 
 1. From the **Analytics and AI controls**, select the dropdown menu to turn on **Summarization**. Or, to allow users to turn off summarization in Viva Engage, select **On with user-level opt in/out**.
 
 **Summarization** must be on to enable Copilot. This control starts the background processing of Engage threads across the tenant network to support summarization features in Copilot.
 
-:::image type="content" source="Viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
+:::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
 
 >[!NOTE] 
 >Depending on the volume of data represented by Engage threads in your tenant, the summarization process may require anywhere from a few hours to a few days. If Engage threads aren’t processed, some aspects of Copilot won’t function optimally.
@@ -75,7 +75,7 @@ When you enable Copilot, it’s available to all users in the tenant with a prem
 Users can access Copilot from the Viva Engage Home page by selecting the Open Copilot link. 
 When Copilot is generally available in 2024, users will be available to access Copilot within Viva Engage communities, campaigns, storyline, and articles.
 
-:::image type="content" source="Viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
 
 ### Copilot as Viva Engage guide
 
@@ -85,7 +85,7 @@ Copilot makes personalized suggestions of what to post on Viva Engage, and where
 
 - Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
 
-:::image type="content" source="Viva/media/engage/admin/copilot-engage-writing-coach.png" alt-text="Screenshot shows how Copilot provides helpful tips for writing a great post.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-coach.png" alt-text="Screenshot shows how Copilot provides helpful tips for writing a great post.":::
 
 - Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
 Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
@@ -93,14 +93,14 @@ Copilot AI-generated summaries are only shown to users who have access to the un
 ### Copilot as communication partner
 Copilot also offers collaboration on writing Viva Engage posts. Users can chat with Copilot to access the power and flexibility of Large Language Models with Microsoft Responsible AI protections. Whether a writer is starting from scratch or a draft, Engage Copilot can help draft, edit, give feedback, and more, to create a post that aligns with the user’s goals.
 
-:::image type="content" source="Viva/media/engage/admin/copilot-engage-writing-prompt.png" alt-text="Screenshot shows options you can use to have Copilot write a draft for you.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-prompt.png" alt-text="Screenshot shows options you can use to have Copilot write a draft for you.":::
 
 For users who are new to AI collaboration, or even experienced users looking for fresh ideas, the Sparkle Menu provides examples of prompts that can be sent to Copilot. This prompt guide is designed to help users collaborate with Copilot in ways particularly useful to the task at hand–writing a post that is engaging and expresses what they intend.
-:::image type="content" source="Viva/media/engage/admin/copilot-engage-sparkly.png" alt-text="Screenshot shows the Sparkle menu.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-sparkly.png" alt-text="Screenshot shows the Sparkle menu.":::
 
 |  |  |
 |--|--|
-|The Sparkle Menu provides examples of ways users can ask Copilot for help drafting or rewriting their post, examples of ways to ask Copilot for feedback, and more.|:::image type="content" source="Viva/media/engage/admin/copilot-sparkle-crop.png" alt-text="Screenshot shows the Sparkle menu in greater detail.":::|
+|The Sparkle Menu provides examples of ways users can ask Copilot for help drafting or rewriting their post, examples of ways to ask Copilot for feedback, and more.|:::image type="content" source="/viva/media/engage/admin/copilot-sparkle-crop.png" alt-text="Screenshot shows the Sparkle menu in greater detail.":::|
 
 During collaboration, Copilot provides proactive coaching to help maintain authenticity in Copiloted content, and the expression of unique perspective, knowledge, and insight in posts to enhance the creation of value across the Viva Engage network.
 
