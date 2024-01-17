@@ -24,7 +24,7 @@ description: "Learn how to use Copilot in Viva Goals to create, summarize, and u
 
 # Use Copilot in Viva Goals to create, summarize, and understand goals
 
-Microsoft Copilot in Viva Goals gives you a number of ways to generate and summarize goals; it also provides a conversational bot that can answer questions about goals methodology.
+Microsoft Copilot in Viva Goals gives you a number of ways to generate and summarize goals; it also provides a conversational interface that can answer questions about goals methodology.
 
 ## Generate goals using a strategy document
 
@@ -42,18 +42,18 @@ Viva Goals does not store your documents or conversational prompts for any purpo
 
 ## Generate key results for existing goals
 
-Select **Generate key results using Copilot** in the "add child items" menu (see below), and Copilot in Viva Goals will generate appropriate key results for the relevant objective.
+Select **Generate key results using Copilot** in the "Add child items" menu (see below), and Copilot in Viva Goals will generate potential key results for the relevant objective.
 
 ![Screenshot that shows a view of a product team's OKRs with one objective's "add child items" menu open.](..\media\goals\copilot\add-child-items-menu.png)
 
 ![Screenshot that shows a view of a product team's OKRs with Copilot offering key results for a certain objective on the right side.](..\media\goals\copilot\suggested-key-results.png)
 
-## Generate goals using the conversational Copilot bot
+## Generate goals using the conversational Copilot interface
 
-When you're in the planning stage, you can chat with Copilot in Viva Goals to get ideas for new OKRs. Copilot will suggest goals based on your organization's OKR data, user profiles shared with Viva Goals, and any information you provide in conversation with Copilot.
+When you're in the planning stage, you can chat with Copilot in Viva Goals to get ideas for new goals. Copilot will suggest goals based on your organization's existing goals data, user profiles shared with Viva Goals, and any information you provide in conversation with Copilot.
 
 > [!TIP]
-> When you're giving Copilot instructions to help you generate goals, it helps to be as descriptive as possible. Mention your business industry, department, and three to five topics or themes you think your team or org should focus on. For example, you might say this:
+> When you're giving Copilot instructions to help you generate goals, it helps to be as descriptive as possible. Consider mentioning your business industry, department, and three to five topics or themes you think your team or organization should focus on. For example, you might say this:
 >
 > *I work for a retail company in the marketing department. This year, we want to become the market leader, expand to new geographic regions, and increase our product offerings.*
 
