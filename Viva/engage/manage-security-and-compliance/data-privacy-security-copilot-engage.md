@@ -45,7 +45,7 @@ Here are some examples of how Copilot in Engage can help you:
 
 Copilot in Engage is intended to enhance your use of Viva Engage, primarily by suggesting relevant content with which to interact and by assisting the user to communicate valuably.
 
-1. Suggest what and where to post. To reach the optimal audience, Copilot in Engage assists you in determining what content to post and where to post it. This includes identifying content, people, and groups that align with the your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to the your interests and workplace connections.
+1. Suggest what and where to post. To reach the optimal audience, Copilot in Engage assists you in determining what content to post and where to post it. This includes identifying content, people, and groups that align with your interests, identity, and objectives. For example, Copilot identifies ongoing conversations that contain themes relevant to your interests. It also highlights ongoing campaigns sponsored by leaders or otherwise relevant to the your interests and workplace connections.
 
 2. Creating valuable, engaging, authentic communications. Copilot in Engage assists you in creating high-quality posts that are likely to be valuable, engaging, and perceived as authentic. This involves deciding what points to include in the post, assisting in composition of the post itself, and subsequently editing it for factors such as tone, length, and keywords. Copilot can also provide feedback on your post. You can attach images to enhance their posts, include calls to action (CTAs) to promote engagement, and tag relevant individuals in their posts.
 
@@ -79,7 +79,7 @@ By actively addressing these high-risk scenarios and working collaboratively wit
 
 ### Engage Copilot data usage for prompts and responses 
 
-Copilot only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant the you are associated with.
+Copilot only accesses existing data within Viva Engage. Specifically, Copilot accesses the data within the specific communities or groups you belong to within Viva Engage. It includes all relevant user data and the data of the group, community, or tenant you are associated with.
 
 However, in the context of a multitenant organization, Copilot's access is limited to the specific tenant the user is in. It does not extend to access data across different tenants in a multitenant organization.
 
