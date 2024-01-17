@@ -1,5 +1,5 @@
 ---
-ms.date: 10/19/2023
+ms.date: 1/17/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -50,6 +50,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="chats-sent-define"></a>  Chats sent | Number of Teams chats a person sent. | Count |
 | | <a name="calls-define"></a>  Calls | Number of Teams calls a person joined, including scheduled and unscheduled calls. | Count |
 | | <a name="meeting-and-call-hours-define"></a>  Meeting and call hours | Number of hours a person spent in meetings and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities. | Hour |
+| | <a name="time-with-leadership-define"></a> Time with leadership | Number of hours a person spent in meetings, emails, Teams chats, Teams calls, and Teams channels with people who are skip level or above up to six levels in the organization chart. | Hour |
 | | <a name="urgent-email-hours-define"></a>  Urgent email hours | Number of hours a person spent in emails where some level of urgency is involved. Urgency is defined by a set of urgent keywords in email subject lines. | Hour |
 | | <a name="urgent-meeting-hours-define"></a> Urgent meeting hours | Number of hours a person spent in meetings where some level of urgency is involved. Urgency is defined by a set of urgent keywords in meeting subject lines. | Hour |
 |<a name="collaboration-by-day-of-the-week-define"></a> **Collaboration by day of the week** | <a name="meeting-hours-on-x-define"></a>  Meeting hours on *x* (day) | Number of hours a person spent in meetings with at least one other person during and outside of working hours on the specified day (Monday through Sunday). | Hour |
@@ -57,6 +58,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="weekend-channel-message-posts-define"></a>  Weekend channel message posts | Number of messages a person posted on Teams channels during Saturdays or Sundays. | Count |
 | | <a name="weekend-channel-message-replies-define"></a>  Weekend channel message replies | Number of messages a person replied to on Teams channels during Saturdays or Sundays. | Count |
 | | <a name="weekend-chats-sent-define"></a>  Weekend chats sent | Number of Teams chats a person sent on Saturdays or Sundays. | Hour |
+| | <a name="weekend-collaboration-hours-define"></a>  Weekend collaboration hours | Number of hours a person spent in meetings, emails, Teams chats, Teams calls, and Teams channels on Saturdays and Sundays. | Hour |
 | | <a name="weekend-meetings-define"></a>  Weekend meetings | Number of meetings a person attended during Saturdays or Sundays. | Count |
 | | <a name="unscheduled-weekend-calls-define"></a>  Unscheduled weekend calls | Number of unscheduled Teams calls a person joined, on Saturdays or Sundays. | Count |
 | | <a name="collaboration-hours-define"></a>  Collaboration hours on *x* (day) | Number of hours a person spent in meetings, emails, Teams chats, Teams calls, and Teams channels with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting) during the specified day (Monday through Sunday). | Hour |
@@ -86,6 +88,7 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="meeting-hours-with-manager-1-1-define"></a> Meeting hours with manager 1:1 | Number of meeting hours involving only the person and their manager. | Hour |
 | | <a name="meeting-hours-with-skip-level-define"></a> Meeting hours with skip level | Number of meeting hours a person attended where their manager's manager also attended the meeting. | Hour |
 | | <a name="meetings-with-manager-define"></a> Meetings with manager | Number of meetings a person attended where attendees included a person, their manager, and one or more other people (not a one-on-one meeting). | Count |
+| | <a name="meetings-including-manager-and-skip-level-leadership-define"></a> Meetings including manager and skip-level leadership | Number of meetings where a person's manager and skip manager or skip manager's peers also attended. | Count |
 | | <a name="meetings-with-manager-1-1-define"></a> Meetings with manager 1:1 | Number of meetings a person attended involving only the person and their manager. | Count |
 | | <a name="meetings-with-skip-level-define"></a> Meetings with skip level | Number of meetings a person attended where their manager's manager also attended the meeting. | Count |
 |**Collaboration network**|Diverse ties | Number of colleagues who are connected to a person (that is, had a reciprocal interaction with them in the last four weeks) but not connected to many of that person’s other colleagues. Diverse ties offer good sources of new and varied information from across the company. (Interactions are based on emails, meetings, and Teams calls and chats.) | Count
@@ -113,6 +116,8 @@ When you create queries in the Microsoft Viva Insights advanced insights app, yo
 | | <a name="external-email-hours-define"></a> External email hours | Number of hours a person spent in emails with at least one other person outside the company. | Hour |
 | | <a name="external-chat-hours-define"></a>  External chat hours | Number of hours a person spent in Teams chats with at least one other person outside the company. | Hour |
 | |  <a name="external-meeting-hours-define"></a> External meeting hours | Number of hours a person spent in meetings with at least one other person outside the company. | Hour |
+| |  <a name="external-1-1-meeting-hours-define"></a> External 1:1 meeting hours | Number of hours a person spent in meetings where the only other participant was an external person. | Hour |
+| |  <a name="external-meetings-including-manager-define"></a> External meetings including manager | Number of meetings where a person and their manager met with at least one person outside of the company. | Count |
 | <a name="focus-define"></a> **Focus**|  <a name="available-to-focus-hours-define"></a>  Available-to-focus hours | Hours remaining during working hours after excluding meetings and scheduled Teams calls for focused work. This metric helps organizations understand how meetings and scheduled Teams calls can impact what time is available for self-directed work. | Hour |
 | | <a name="uninterrupted-hours-define"></a> Uninterrupted hours | Sum of blocks one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, joined Teams calls, posted or replied to Teams channels messages, or visited Teams channels. In other words, Uninterrupted time is the sum of blocks of time one hour or longer for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation. | Hour |
 | | <a name="interrupted-hours-define"></a> Interrupted hours | Time available to focus that was interrupted by emails, Teams chats, unscheduled Teams calls, or Teams channels activity. Interrupted time excludes one-hour or longer blocks of uninterrupted time for deep work. This metric helps organizations understand whether employees are choosing to use the blocks of time between meetings or scheduled Teams calls for emails, unscheduled calls, or Teams chats. | Hour |
