@@ -212,5 +212,5 @@ To edit optional system fields after your initial setup:
 2. Select **Actions** and then **Manage User Attributes**.
 3. In the **Optional System Attributes** section, select **Manage Optional System Attributes**.
    1. To disable an Optional System Attribute: Deselect the checkbox next to the desired field.
-   1. To enable a Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the Sync From dropdown menu.
+   1. To enable an Optional System Attribute: Select the checkbox next to the desired field and choose a field from your data in the Sync From dropdown menu.
    1. To update the field mapped to an Optional System Attribute: Select the checkbox next to the desired field and choose a new field in the Sync From dropdown menu.
