@@ -34,7 +34,7 @@ Users who are assigned the Viva Engage Knowledge service plan, which is part of 
 
 Users who aren't assigned the Viva Engage Knowledge service plan access the Answers experience from the communities in which they’re a member. They can ask questions and view, vote, and respond to questions others have written. They receive notifications to questions or answers where their name is mentioned and can visit those threads.
  
-For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](/viva/engage/eac-answers-admin-scenarios).
+For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](eac-answers-admin-scenarios.md).
 
 ## Technical requirements
 
