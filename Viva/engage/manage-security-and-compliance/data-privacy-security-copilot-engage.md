@@ -29,7 +29,7 @@ Here is some content.
 ### Copilot in Engage
 Copilot in Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot in Engage provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
 
-### Copilot Capabilities
+### Copilot capabilities
 
 Copilot in Engage learns from your communities, campaigns, and interests to make personalized suggestions of what you might like to post and where you might benefit from engaging.
 
@@ -96,4 +96,4 @@ Engage Copilot follows the same data residency protocols currently in place for 
 Engage Copilot doesn’t interact in any way with Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services. Engage Copilot is a separate entity contained within Viva Engage and relies solely on integrations currently in place for Viva Engage.
 
 ### GDPR and privacy regulations
-Yes, Engage Copilot follows the same GDPR and privacy regulations as Viva Engage. For details, see [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Understand how privacy works in Microsoft Viva | Microsoft Learn](/viva/viva-privacy).
+Engage Copilot follows the same GDPR and privacy regulations as Viva Engage. For details, see [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Understand how privacy works in Microsoft Viva | Microsoft Learn](/viva/viva-privacy).
