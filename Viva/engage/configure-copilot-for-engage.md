@@ -26,6 +26,8 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage [Pub
 
 Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage. A large language model is a type of AI that can process and produce natural language text. Learn more about [responsible AI practices at Microsoft](/ai/responsible-ai). Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
 
+[Learn more about Copilot in Viva Engage.](https://go.microsoft.com/fwlink/?linkid=2258512)
+
 ## Licensing requirements (Public preview)
 
 Customers with a *Viva Suite* or *Communications & Communities* license, or a trial version of one of these, can opt in to activate Copilot through the Viva Engage admin center. Licensing requirements for these features may change after the preview period. Teams must be in Native Mode to support feature access.
