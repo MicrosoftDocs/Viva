@@ -84,9 +84,9 @@ Select **Add Section Break** to open the Add Section Break slider window.
 
 :::image type="content" source="../../media/glint/setup/add-section-break-to-survey.png" alt-text="Screenshot of Add Section Break slider window.":::
 
-The **+** symbol opens a list of suggested topics that you might want to include. If you select one of these items, the blue field that populates must actually be deleted from the text box in order for you to add text; it's really just intended as suggestions to help you create text content.
+The **+** symbol opens a list of suggested topics that might help you develop your instructional text. If you select one of these items, the blue field that populates must be deleted from the text box in order for you to add text over it; it's really intended as suggestions to help create content.
 
-The character counter is a handy tool that also opens when selecting the **+** symbol.
+The character counter is a handy tool that also opens when selecting the **+** symbol!
 
 
 
