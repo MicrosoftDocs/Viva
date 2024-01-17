@@ -58,7 +58,7 @@ The Viva Glint Question Library has approximately
 
 Select the **+ Create** button. A Create Question slider window opens.
    
-:::image type="content" source="../../media/glint/setup/create-own-questions.png" alt-text="Screenshot of Create Question slider window.":::
+:::image type="content" source="../../media/glint/setup/create-own-question.png" alt-text="Screenshot of Create Question slider window.":::
 
 >[!CAUTION]
 >Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated, and usually come with benchmarks and action plans. 
