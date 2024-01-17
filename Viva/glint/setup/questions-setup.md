@@ -20,7 +20,7 @@ ms.date: 01/16/2024
 
 # Questions setup in Program Summary
 
-The Questions page allows you to add or modify the items included in a survey. Viva Glint templates has prepopulated survey items. Refer to the [Learn about Viva Glint program design](/../../[training/modules/viva-glint-learn-about-viva-glint-program-design/) to learn to add or modify survey items.
+The Questions page allows you to add or modify the items included in a survey. . Refer to the [Learn about Viva Glint program design](/../../[training/modules/viva-glint-learn-about-viva-glint-program-design/) to learn to add or modify survey items.
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
@@ -29,15 +29,13 @@ The Questions page allows you to add or modify the items included in a survey. V
 
 ## Use Viva Glint's prepopulated survey templates
 
-Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize.
+Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that you may customize. Viva Glint survey templates have prepopulated survey items that have been researched and substantiated by the Viva Glint People Science Team
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers.":::
 
 ## Edit the survey introduction message
 
 Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. 
-
-:::image type="content" source="../../media/glint/setup/program-summary-edit-intro.png" alt-text="Screenshot of Edit Survey Intro slider window.":::
 
 In the window that opens:
 - Select languages from the **Language** dropdown menu. Languages permissioned to your organization in General Settings are available here.
@@ -65,7 +63,7 @@ The Edit Question slider window provides two tabs for set up:
 
 #### Question Configuratuion
 
-There is lots to do here! For each item you'd like to edit, you may:
+There is lots to do here! You may edit the following fields:
 - Select a **Language** from languages prepopulated in the dropdown menu
 - See the **Question Type** - rating, multiple choice, open-ended
 - Assign a **Reporting Label** for easy identification of your item
@@ -93,7 +91,7 @@ A list of program names previously used or in use that include this survey item 
 >[!TIP]
 > Wait to add display logic until after you've arranged your sections and items in the order you want.
 
-In the Display Logic window that opens, set the following:
+In the Display Logic window that opens, set the following fields:
 - The **Overall logic for conditions** and subsequent **Conditions** or **Subconditions**. Select **+ Add new condition** to add more.
 
 **[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
