@@ -172,6 +172,9 @@ items:
             href: setup/schedule-setup.md
           - name: Questions setup in Program Summary
             href: setup/questions-setup.md
+            items:
+            - name: Adding new survey items and section breaks to a Viva Glint program
+              href: setup/add-new-questions.md
           - name: Reporting setup in Program Summary
             href: setup/reporting-setup.md
           - name: Communications setup in Program Summary
