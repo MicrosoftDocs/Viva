@@ -37,7 +37,7 @@ Customers with a *Viva Suite* or *Communications & Communities* license, or a tr
 
 ## Data processing and storage 
 
-:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Image shows how data flows between Copilot services while staying within the boundary of the Viva Engage app.":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
 | Data process | How it works |
 |---|---|
