@@ -28,65 +28,38 @@ The Reporting page allows admins to see and customize how dashboards are set up 
 
 In the **Program Roles** section, you'll see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) have been permissioned to see survey results. 
 
-### View Program Roles already set up with reporting permissions
+### View Program Roles already permissioned to see feedback for this program
 
 Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
 **Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned. Assigned permissions include:
 
- - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747)
- - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard
- - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results are visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Inights](https://go.microsoft.com/fwlink/?linkid=2231012)
- - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116)is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
- - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn more about Viva Glint reports available](https://go.microsoft.com/fwlink/?linkid=2231109).
+ - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
+ - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
+ - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results are visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Inights](https://go.microsoft.com/fwlink/?linkid=2231012).
+ - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
+   
+ > [!IMPORTANT]
+ > Company Admin roles should have the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
+   
+ - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
-### Add Program Roles
+### Add Program Roles to permission them to see feedback for this program
 
-To add Uer Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles you want to have reporting permissions for this program. The User Role name will now appear as it's own row.
+To add Uer Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name will now appear as it's own row.
 
 >[!TIP]
 >Use the up or down arrow to view or close permissions set up for each role.
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature.":::
 
-## Follow these steps to customize dashboards for roles
-
-To give extra User Roles access to view this program's survey results:
-
-1. Select **Add Role**.
-
-   > [!NOTE]
-   > User Roles need to be created first to appear. Refer to [Set Up User Roles](https://go.microsoft.com/fwlink/?linkid=2230740).
-
-2. Select the desired **Reporting Access:**
-
-   1. **Live Access**: Roles have full access to results as they come in, and when surveys are completed.
-   2. **Phased Access**: Roles don't have automatic access to Live or completed surveys until they're granted access by the admin, on a per program case. This access does allow retained access to previous surveys and other data inside Viva Glint programs.
-
-3. Toggle **Concierge Visibility** to enable or disable Manager Concierge. [Visit Manager Concierge for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231115).
-
-   > [!TIP]
-   > Use Manager Concierge for your manager to get the most out of their survey feedback.
-
-4. Toggle **Broader Team Insights** to enable or disable a roll-up level of survey results that can be visible to managers if they haven't met survey confidentiality thresholds within their team. [Visit Broader Team Insights for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231012).
-
-5. Team Conversations is enabled by default. Toggle to **OFF** to disable this feature.
-
-6. Select the desired **Dashboard Default** from the dropdown menu.
-
-   > [!TIP]
-   > Company Admin roles should have the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010) and all others should have [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210).
-
-7. Recommended reports will prepopulate. To add extra **Report Template Access**, use the **Search** field. Select the **X** next to the report to remove a Report Template access.
-
-8. If you need to delete a role for this survey, select **Delete Role** in that role box.
-
-9. Repeat the steps for each extra role.
-
-## Finish additional reporting setup
+## Set up reporting for this program
+There are six fields to set up for your program.
 
 ### Aggregate Indices
+
+For most surveys, using aggregate indices is not recommended. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, these are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
 
 If adding an Aggregate Index:
 
