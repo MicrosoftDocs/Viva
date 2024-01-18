@@ -59,20 +59,15 @@ To remove a user from this role, select the **delete** icon on the right side of
 Corporate communicators can perform these tasks:
 **Create campaigns**
 **Manage campaigns**
-    - Publish draft campaigns to be **Active** and viewable to all users in the network
-    - Set Active campaigns to **Ended** when a campaign is finished
-    - Republish reoccurring campaigns from **Ended** to **Active**
-    - Delete campaigns that aren't relevant or created by mistake
-    - Update certain assets on a campaign page such as:
-        - Goal tracker
-        - Cover photo
-        - Pinned posts
-        - Pinned resources and links
-        - Theme colors for the campaign hashtag
-        - View campaign analytics
 
-    - Identify leaders
-        - Manage their audience
+- Publish draft campaigns to be **Active** and viewable to all users in the network
+
+- Set Active campaigns to **Ended** when a campaign is finished
+- Republish reoccurring campaigns from **Ended** to **Active**
+- Delete campaigns that aren't relevant or created by mistake
+- Update assets on a campaign page such as: Goal tracker, cover photo, theme colors for the campaign hashtag, pinned posts, pinned resources and links
+- View campaign analytics
+- Identify leaders and manage their audiences
 
 ## Configure your tenant
 
