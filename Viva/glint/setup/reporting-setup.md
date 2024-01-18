@@ -59,34 +59,27 @@ There are six fields to set up for your program.
 
 ### Aggregate Indices
 
-For most surveys, using aggregate indices is not recommended. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, these are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
+For most surveys, using aggregate indices is not recommended. Aggregates are groups of questions which are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, these are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
 
 If adding an Aggregate Index:
 
-1. Select **+ Add Aggregate Index**.
-2. In the **Create Aggregate** panel, enter a name. For example, <Engagement\> or the name, which makes the most sense for your users.
-3. For **Calculation Method**, select **Average**.
-4. In the **Search Questions** dropdown menu, search and select **eSat** and **Recommend** items.
-5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
-6. Select **Save Add to Program**.
-7. Select **X** to close the panel.
+1. Select **+ Add Aggregate Index** to open the Create Aggregate slider window.
+2. In the new window, enter an aggregate name of your choosing. 
+3. For **Calculation Method**, choose from one of the following options:
+   - Select **Average** - Recommended. Select from all rating questions. Qverage score = (a+b+...+n)/n, with the range from 0 to 100.  
+   - Select **eNPS (employeee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
+   >[!CAUTION]
+   >If you change the calculation method, you'll need to reselect at least one question below.
 
-To add employee Net Promoter Score<sup>TM</sup> (eNPS):
-
-> [!NOTE]
-> Viva Glint People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
-
-1. Select **+ Add Aggregate Index**.
-2. In the **Create Aggregate** panel, enter a name. This displays in reports, select a name that makes the most sense for your users.
-3. For **Calculation Method**, select **eNPS**.
-4. In the **Search Questions** dropdown menu, search and select your eNPS question.
-
-   > [!IMPORTANT]
-   > To select eNPS, first set up the question in the Viva Glint [Question Library](https://go.microsoft.com/fwlink/?linkid=2230918) and add to the [Questions section](https://go.microsoft.com/fwlink/?linkid=2231415) in your program.
+   > [!NOTE]
+   > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
    
-5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
-6. Select **Save Add to Program**.
-7. Select **X** to close the panel.
+5. In the **Add Questions** dropdown menu, search and select your items to be grouped together. Your questions should now appear in the **Selected Questions** box. 
+6. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
+7. Select **Save and Add to Program**.
+8. Select **X** to close the slider window.
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup.":::
 
 >[!TIP]
 > Use Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which can provide insightful focus areas in results reporting.
@@ -96,27 +89,37 @@ To add employee Net Promoter Score<sup>TM</sup> (eNPS):
 
 ### Key Outcome
 
-Select the desired **Key Outcome** from the dropdown menu.
+Select the desired **Key Outcome** from the dropdown menu. The key outcome is usually the main result of the survey. It can be the score from a single question or an aggregate index. This appears as the most prominent score displayed in most reports.
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup.":::
+
+> [!NOTE]
+> Changes to key outcome will be displayed immediately upon saving.
 
 ### Driver Impact Outcomes
 
-Select the **Driver Impact Outcomes** from the search field.
+Select the **Driver Impact Outcomes** from the search field. Select a set of outcome questions or aggregates that will be used for driver impact analysis. This analysis will calculate the impact of each question or aggregate on the selected outcome and show it on a chart.
 
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup.":::
 ### Manager Report Defaults
 
 Select the desired **Manager Report Defaults**.
 
 ### PowerPoint Export Template
 
-Select the desired **PowerPoint Export** template.
+Select you desired **PowerPoint Export** template. The Viva Glint ACT guide appears as the default export.
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
 
 ### Boarder Team Insights PowerPoint Export Template
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
-To complete this page, select the right-facing arrow to **Save & Continue**.
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report.":::
 
->[!TIP]
->Now that you have set up your reports for managers to view, move onto [Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
+**To complete this page, select the right-facing arrow to **Save & Continue**.**
+
+> [!div class="nextstepaction"]
+> [move onto Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
 
 
