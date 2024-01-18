@@ -53,25 +53,22 @@ To unassign a user from the role of corporate communicator for your network, sel
 >[!NOTE]
 > While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.
 
-#### Corporate communicators permissions
+#### Corporate communicators can perform these tasks
 
-Corporate communicators can perform these tasks:
+- **Create campaigns**
 
-**Create campaigns**
+- **Manage campaigns:
+    - Publish draft campaigns to be **Active** and viewable to all users in the network
+    - Set Active campaigns to **Ended** when a campaign is finished
+    - Republish reoccurring campaigns from **Ended** to **Active**
+    - Delete campaigns that aren't relevant or were created by mistake
+    - Update assets on a campaign page such as: goal tracker, cover photo, theme colors for the campaign hashtag, pinned posts, pinned resources and links
 
-**Manage campaigns**
+- **View campaign analytics**
 
-- Publish draft campaigns to be **Active** and viewable to all users in the network
-- Set Active campaigns to **Ended** when a campaign is finished
-- Republish reoccurring campaigns from **Ended** to **Active**
-- Delete campaigns that aren't relevant or were created by mistake
-- Update assets on a campaign page such as: goal tracker, cover photo, theme colors for the campaign hashtag, pinned posts, pinned resources and links
+- **Identify leaders**
 
-**View campaign analytics**
-
-**Identify leaders**
-
-**Manage a leader's audiences**
+- **Manage a leader's audiences**
 
 
 ## Configure your tenant
