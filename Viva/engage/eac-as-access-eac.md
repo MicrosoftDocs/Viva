@@ -57,7 +57,7 @@ To unassign a user from the role of corporate communicator for your network, sel
 
 - **Create campaigns**
 
-- **Manage campaigns:
+- **Manage campaigns**:
     - Publish draft campaigns to be **Active** and viewable to all users in the network
     - Set Active campaigns to **Ended** when a campaign is finished
     - Republish reoccurring campaigns from **Ended** to **Active**
