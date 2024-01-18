@@ -54,7 +54,7 @@ You can customize the email notifications and audience for every update you post
 
 ## Edit or delete an update
 
-You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it. <!--Editor's Note: What does this mean?-->
+You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it. <!--Editor's Note: The notifications and emails are not removed, but trying to access the post from those emails or notifications will go nowhere.-->
 
 <!--Editor's Note: I'm commenting out the existing FAQ, as FAQs are generally a no-no for documentation. Information is either important enough to be included in the substance of the topic or it isn't.-->
 
