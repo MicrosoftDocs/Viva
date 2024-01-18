@@ -22,28 +22,30 @@ search.appverid:
 
 # Access the Viva Engage admin center
 
-Only users in the following admin roles can access the Viva Engage admin center: Microsoft 365 Global administrator, Engage administrator, Answers administrator, and corporate communicator. Other employees in your organization can't access it.
+Only users in the following admin roles can access the Viva Engage admin center: Microsoft 365 Global administrator, Engage admin, Answers admin, network admin, verified admin, and corporate communicator. Other employees in your organization can't access it.
 
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the Viva Engage admin center.
+To access, go to the [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigaton menu, select **Admin center**.
 
-[![Screenshot of the entry point into the Viva Engage admin center.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
+[![Screenshot shows the entry point to Viva Engage admin center on Teams.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
 
-To access the [Viva Engage admin center on the web](http://engage.cloud.microsoft), from the gear icon in the top navigation menu, select **Admin center**.
+>[!NOTE]
+>If you're in Viva Engage on Teams, you can access the admin center by selecting the ellipses icon in the top navigation menu, and selecting **Admin center**.
 
-:::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Diagram shows how to access Admin center from a browser." lightbox="../media/engage/admin/eac-on-web-expanded.png":::
+[![Screenshot shows the entry point to Viva Engage admin center on Teams.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
+
 <br>
 
 ## Manage corporate communicators  
 
 As a Microsoft 365 Global administrator, Engage administrator, or corporate communicator, you can identify and remove users as corporate communicators. On the **Setup and configuration** tab, select **Manage corporate communicators** to open the configuration options.  
 
-[![Screenshot of the interface for managing corporate communicators.](/viva/media/engage/admin/manage-corpcomms.png)](/viva/media/engage/admin/manage-corpcomms.png#lightbox)
+[![Screenshot of the interface for managing corporate communicators.](/viva/media/engage/admin/web-manage-corp-comm.png)](/viva/media/engage/admin/web-manage-corp-comm.png#lightbox)
 
 ### Assign a user as a corporate communicator
 
 Select **Add user** to search for a user by name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
 
-[![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/add-corp-comms.png)](/viva/media/engage/admin/add-corp-comms.png#lightbox)
+[![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/web-add-corp-comm.png)](/viva/media/engage/admin/web-add-corp-comm.png#lightbox)
 
 >[!NOTE]
 > While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.  
@@ -77,7 +79,7 @@ To remove a user from this role, select the **delete** icon on the right side of
 
 As a Microsoft 365 Global administrator or Engage administrator, you're encouraged to set up your Viva Engage enterprise experience for all employees before they start to use the application. This practice helps maintain a consistent experience. Engage administrators can navigate to the **Setup and configuration** tab in the Viva Engage admin center and select **Configure tenant**.  
 
-[![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/config-tenant.png)](/viva/media/engage/admin/config-tenant.png#lightbox)
+[![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/web-config-tenant.png)](/viva/media/engage/admin/web-config-tenant.png#lightbox)
 
 They're then routed to the Viva Engage admin center, where they can perform the following actions:  
 
