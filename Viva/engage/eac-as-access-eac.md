@@ -82,7 +82,7 @@ As a Microsoft 365 Global administrator or Engage administrator, you're encourag
 
 [![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/web-configure-tenant.png)](/viva/media/engage/admin/web-configure-tenant.png#lightbox)
 
-They're then routed to the Viva Engage admin center, where they can perform the following actions:  
+Users are routed to the Viva Engage admin center, where they can perform the following actions:  
 
 - [Configure the network](/viva/engage/configure-your-viva-engage-network/configure-viva-engage)
     - Set the tenant network name
