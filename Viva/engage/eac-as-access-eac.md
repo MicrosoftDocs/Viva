@@ -69,9 +69,10 @@ Corporate communicators can perform these tasks:
 
 **View campaign analytics**
 
-**Identify leaders** and 
+**Identify leaders**
 
 **Manage a leader's audiences**
+
 
 ## Configure your tenant
 
