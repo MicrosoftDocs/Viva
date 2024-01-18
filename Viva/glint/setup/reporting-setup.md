@@ -20,23 +20,33 @@ ms.date: 01/18/2024
 
 # Reporting setup in Program Summary
 
-The Reporting page allows admins to customize how dashboards are set up and how specific roles view survey results.
+The Reporting page allows admins to see and customize how dashboards are set up for specific User Roles to view survey results.
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
 ## View and add Program Roles
 
-In the **Program Roles** section, you'll see and set which User Roles have access to survey results for this program. 
+In the **Program Roles** section, you'll see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) have been permissioned to see survey results. 
 
 ### View Program Roles already set up with reporting permissions
-Those already set up will be listed under the **Program Roles** row. Each role displays in its own row.
-**Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned.
+
+Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
+**Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned. Assigned permissions include:
+
+ - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747)
+ - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard
+ - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results are visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Inights](https://go.microsoft.com/fwlink/?linkid=2231012)
+ - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116)is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
+ - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn more about Viva Glint reports available](https://go.microsoft.com/fwlink/?linkid=2231109).
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
-
 ### Add Program Roles
-Select **Add Role**. The dropdown menu displays User Roles already created within the User Role feature and now allows you to select report settings for these roles. 
+
+To add Uer Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles you want to have reporting permissions for this program. The User Role name will now appear as it's own row.
+
+>[!TIP]
+>Use the up or down arrow to view or close permissions set up for each role.
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature.":::
 
