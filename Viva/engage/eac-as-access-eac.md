@@ -24,6 +24,8 @@ search.appverid:
 
 Only users in the following admin roles can access the Viva Engage admin center: Microsoft 365 Global administrator, Engage admin, Answers admin, network admin, verified admin, and corporate communicator. Other employees in your organization can't access it.
 
+## Open the Viva Engage admin center
+
 To open the admin center, go to [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigation menu, select **Admin center**.
 
 [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
@@ -41,13 +43,13 @@ As a Microsoft 365 Global administrator, Engage administrator, or corporate comm
 
 [![Screenshot of the interface for managing corporate communicators.](/viva/media/engage/admin/web-manage-corp-comm.png)](/viva/media/engage/admin/web-manage-corp-comm.png#lightbox)
 
-### Assign a corporate communicator
+### Assign a user as a corporate communicator
 
 Select **Add user** to search for a user by name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
 
 [![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/web-add-corp-comm.png)](/viva/media/engage/admin/web-add-corp-comm.png#lightbox)
 
-#### Remove a corporate communicator
+### Remove a user as a corporate communicator
 
 To unassign a user from the role of corporate communicator for your network, select the **delete** icon on the right side of the corporate communicator list. 
 
@@ -57,16 +59,22 @@ To unassign a user from the role of corporate communicator for your network, sel
 #### Corporate communicators permissions
 
 Corporate communicators can perform these tasks:
+
 **Create campaigns**
+
 **Manage campaigns**
+
 - Publish draft campaigns to be **Active** and viewable to all users in the network
 - Set Active campaigns to **Ended** when a campaign is finished
 - Republish reoccurring campaigns from **Ended** to **Active**
-- Delete campaigns that aren't relevant or created by mistake
-- Update assets on a campaign page such as: Goal tracker, cover photo, theme colors for the campaign hashtag, pinned posts, pinned resources and links
+- Delete campaigns that aren't relevant or were created by mistake
+- Update assets on a campaign page such as: goal tracker, cover photo, theme colors for the campaign hashtag, pinned posts, pinned resources and links
 
 **View campaign analytics**
-**Identify leaders** and **manage their audiences**
+
+**Identify leaders** and 
+
+**Manage a leader's audiences**
 
 ## Configure your tenant
 
