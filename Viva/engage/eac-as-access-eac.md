@@ -26,12 +26,12 @@ Only users in the following admin roles can access the Viva Engage admin center:
 
 To access, go to the [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigaton menu, select **Admin center**.
 
-[![Screenshot shows the entry point to Viva Engage admin center on Teams.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
+[![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
 
 >[!NOTE]
 >If you're in Viva Engage on Teams, you can access the admin center by selecting the ellipses icon in the top navigation menu, and selecting **Admin center**.
 
-[![Screenshot shows the entry point to Viva Engage admin center on Teams.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
+[![Screenshot shows the entry point to the Viva Engage admin center on Teams.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
 
 <br>
 
