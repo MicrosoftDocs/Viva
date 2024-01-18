@@ -114,7 +114,7 @@ Select your desired **PowerPoint Export** template. The Viva Glint ACT guide app
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
 
-### Boarder Team Insights Export Template
+### Boarder Team Insights Export Template 
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
