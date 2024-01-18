@@ -43,7 +43,7 @@ Roles already set up for this program are listed under the **Program Roles** row
    
  - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
 
-:::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows the attributes permissioned for a User Role.":::
 
 ### Add Program Roles to permission them to see feedback for this program
 
