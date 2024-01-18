@@ -22,7 +22,23 @@ ms.date: 01/18/2024
 
 The Reporting page allows admins to customize how dashboards are set up and how specific roles view survey results.
 
-In the **Program Roles** section, you'll see which User Roles have access to the survey results for this program. The dropdown menu contains User Roles that you have already created and allows you to select report settings. Each role displays in its own box.
+:::image type="content" source="../../media/glint/setup/program-summary-reporting.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+
+## View and add Program Roles
+
+In the **Program Roles** section, you'll see and set which User Roles have access to survey results for this program. 
+
+### View Program Roles already set up with reporting permissions
+Those already set up will be listed under the **Program Roles** row. Each role displays in its own row.
+**Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned.
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+
+
+### Add Program Roles
+Select **Add Role**. The dropdown menu displays User Roles already created within the User Role feature and now allows you to select report settings for these roles. 
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature.":::
 
 ## Follow these steps to customize dashboards for roles
 
