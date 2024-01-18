@@ -41,23 +41,28 @@ As a Microsoft 365 Global administrator, Engage administrator, or corporate comm
 
 [![Screenshot of the interface for managing corporate communicators.](/viva/media/engage/admin/web-manage-corp-comm.png)](/viva/media/engage/admin/web-manage-corp-comm.png#lightbox)
 
-### Assign a user as a corporate communicator
+### Assign a corporate communicator
 
 Select **Add user** to search for a user by name or email ID. After the assignee is identified and selected as a corporate communicator, they're visible in the list of active corporate communicators in your organization.  
 
 [![Screenshot of the interface for adding corporate communicators.](/viva/media/engage/admin/web-add-corp-comm.png)](/viva/media/engage/admin/web-add-corp-comm.png#lightbox)
 
+#### Remove a corporate communicator
+
+To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. The user won't be listed as an active corporate communicator in your network.
+
 >[!NOTE]
-> While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.  
+> While assigning a user to this role is a pre-licensed capability, the actions this user can perform depend on the nature of their license, core versus premium.
 
-Corporate communicators can do the following things:
+#### Corporate communicators permissions
 
-- **Create campaigns**
-- **Manage campaigns**
+Corporate communicators can perform these tasks:
+**Create campaigns**
+**Manage campaigns**
     - Publish draft campaigns to be **Active** and viewable to all users in the network
     - Set Active campaigns to **Ended** when a campaign is finished
-    - Republish "Ended" campaigns as "Active" again for reoccurring campaigns
-    - Delete campaigns that are not relevant or created by mistake
+    - Republish reoccurring campaigns from **Ended** to **Active**
+    - Delete campaigns that aren't relevant or created by mistake
     - Update certain assets on a campaign page such as:
         - Goal tracker
         - Cover photo
@@ -69,17 +74,11 @@ Corporate communicators can do the following things:
     - Identify leaders
         - Manage their audience
 
-### Remove user as a corporate communicator
-
-To remove a user from this role, select the **delete** icon on the right side of the corporate communicator list. The user won't be listed as an active corporate communicator in your network.
-
-[![Screenshot of the interface for removing a corporate communicator in Viva Engage.](/viva/media/engage/admin/remove-corp-comm.png)](/viva/media/engage/admin/remove-corp-comm.png#lightbox)
-
 ## Configure your tenant
 
 As a Microsoft 365 Global administrator or Engage administrator, you're encouraged to set up your Viva Engage enterprise experience for all employees before they start to use the application. This practice helps maintain a consistent experience. Engage administrators can navigate to the **Setup and configuration** tab in the Viva Engage admin center and select **Configure tenant**.  
 
-[![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/web-config-tenant.png)](/viva/media/engage/admin/web-config-tenant.png#lightbox)
+[![Screenshot of the interface for configuring the tenant in Viva Engage.](/viva/media/engage/admin/web-configure-tenant.png)](/viva/media/engage/admin/web-configure-tenant.png#lightbox)
 
 They're then routed to the Viva Engage admin center, where they can perform the following actions:  
 
