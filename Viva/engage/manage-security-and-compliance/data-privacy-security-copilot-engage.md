@@ -60,7 +60,7 @@ We measured the performance of Copilot in Engage, which is powered by GPT-4 usin
 - Generalizability: To assess how well the system's results generalized across different use cases, we tested Copilot in Engage on a diverse set of data and tasks. This involved evaluating the system's performance on a range of scenarios and domains that were not part of the initial training data.
 
 We conducted red teaming exercises, inviting external experts and testers to find vulnerabilities or biases in the system. This process helped us identify potential issues and improve the system's robustness.
-Our evaluation process is ongoing, with continuous updates and improvements based on real-world usage and feedback. By employing a combination of internal evaluation, user feedback, and external testing, we aim to ensure the accuracy, fairness, and generalizability of Copilot in Engage powered by GPT-4.
+Our evaluation process is ongoing, with continuous updates and improvements based on user feedback. By employing a combination of internal evaluation, user feedback, and external testing, we aim to ensure the accuracy, fairness, and generalizability of Copilot in Engage powered by GPT-4.
 
 ### Limitations of Copilot in Engage
 
@@ -73,7 +73,9 @@ There are several high-risk use cases that we aim to avoid:
 - Privacy Concerns: If the AI feature is not adequately secured, it can pose a risk of exposing user data, including private trending themes and personal information, to unauthorized parties. Our top priority is to ensure the highest level of privacy and security for you. For instance, we take precautions to avoid exposing summaries of communities you're not a part of, or displaying top campaigns that you're not eligible to view. We have implemented extensive measures and checks throughout your Copilot journey, from user access to end-to-end processes, to prevent such incidents.
 
 - Bias: The fairness and impartiality of AI systems like Copilot in Engage depend on the quality and bias of the data they are trained on. If the training data contains biases, the AI feature can unintentionally generate content that reflects those biases, potentially causing harm or offense. We are dedicated to addressing bias in AI systems and working towards providing more equitable and inclusive outputs.
-By actively addressing these high-risk scenarios and working collaboratively with our user community, we are committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot in Engage.
+
+By actively addressing these high-risk scenarios and working collaboratively with our user community, we are committed to delivering a safer, more responsible, and ethically sound AI experience with Copilot in Engage. 
+We do not observe or look at your content, rather, we have systems that are trained to detect bias and abuse that do not process any request or content that could be perceived as inappropriate.
 
 ### Engage Copilot data usage for prompts and responses 
 
