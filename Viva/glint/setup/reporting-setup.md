@@ -1,9 +1,9 @@
 ---
 title: Reporting setup in Program Summary of Viva Glint
 description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Live access, phased access, BTI, broader team insights, aggregate indices, aggregate index 
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/13/2023
+ms.date: 01/18/2024
 ---
 
 # Reporting setup in Program Summary
@@ -24,7 +24,7 @@ The Reporting page allows admins to customize how dashboards are set up and how 
 
 In the **Program Roles** section, you'll see which User Roles have access to the survey results for this program. The dropdown menu contains User Roles that you have already created and allows you to select report settings. Each role displays in its own box.
 
-## Procedure
+## Follow these steps to customize dashboards for roles
 
 To give extra User Roles access to view this program's survey results:
 
@@ -58,7 +58,7 @@ To give extra User Roles access to view this program's survey results:
 
 9. Repeat the steps for each extra role.
 
-## Finish additional schedule setup
+## Finish additional reporting setup
 
 ### Aggregate Indices
 
