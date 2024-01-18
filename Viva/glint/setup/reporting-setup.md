@@ -47,7 +47,7 @@ Roles already set up for this program are listed under the **Program Roles** row
 
 ### Add Program Roles to permission them to see feedback for this program
 
-To add Uer Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name will now appear as it's own row.
+To add Uer Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name now appears as its own row.
 
 >[!TIP]
 >Use the up or down arrow to view or close permissions set up for each role.
@@ -101,17 +101,20 @@ Select the desired **Key Outcome** from the dropdown menu. The key outcome is us
 Select the **Driver Impact Outcomes** from the search field. Select a set of outcome questions or aggregates that will be used for driver impact analysis. This analysis will calculate the impact of each question or aggregate on the selected outcome and show it on a chart.
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup.":::
+
 ### Manager Report Defaults
 
-Select the desired **Manager Report Defaults**.
+Select the desired **Manager Report Defaults**. Select up to two questions that will appear by default in the manager report.
+
+:::image type="content" source="../../media/glint/setup/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard.":::
 
 ### PowerPoint Export Template
 
-Select you desired **PowerPoint Export** template. The Viva Glint ACT guide appears as the default export.
+Select your desired **PowerPoint Export** template. The Viva Glint ACT guide appears as the default export.
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
 
-### Boarder Team Insights PowerPoint Export Template
+### Boarder Team Insights Export Template
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
@@ -120,6 +123,6 @@ Select the desired **Broader Team Insights PowerPoint Export** template.
 **To complete this page, select the right-facing arrow to **Save & Continue**.**
 
 > [!div class="nextstepaction"]
-> [move onto Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
+> [Move onto Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
 
 
