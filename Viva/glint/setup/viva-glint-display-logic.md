@@ -57,7 +57,9 @@ From the admin dashboard, go to the survey you want to edit. Display logic can b
 2. Select an operator in the **Operator** dropdown menu to determine how response values to previous questions should be evaluated. For example, "is equal to" or "is smaller than."
 3. Select a response value from the **Answer** dropdown.
 4. Add additional conditions as needed by selecting **+ Add new condition**.
-5. Select **Save Changes**.
+5. Select **Save Changes** in the slider window.
+6. Select **Save Changes** in the top right of the Questions section in your survey program.
+7. [Preview your survey](https://go.microsoft.com/fwlink/?linkid=2230749) to see how different responses hide or display the item with Display Logic.
 
    :::image type="content" source="../../media/glint/setup/glint-display-logic-pane-2.png" alt-text="Screenshot of display logic setup pane.":::
 
@@ -78,4 +80,6 @@ To hide Job Feedback from users who disagree with or select a neutral response f
 After adding Display Logic to Job Feedback, a symbol will appear on the item in your survey program:
 
 :::image type="content" source="../../media/glint/setup/display-logic-example-items.png" alt-text="Screenshot of display logic symbol on Job Feedback.":::
+
+
 
