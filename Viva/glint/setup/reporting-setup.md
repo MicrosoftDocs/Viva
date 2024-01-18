@@ -32,7 +32,7 @@ In the **Program Roles** section, you'll see and set which User Roles have acces
 Those already set up will be listed under the **Program Roles** row. Each role displays in its own row.
 **Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned.
 
-:::image type="content" source="Viva/media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
+:::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
 
 ### Add Program Roles
