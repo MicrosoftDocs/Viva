@@ -1,6 +1,6 @@
 ---
-title: Communications setup in Program Summary of Viva Glint
-description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in their preferred language is key.
+title: Communications setup in Program Summary
+description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and provide the survey in preferred languages.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -15,46 +15,69 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/13/2023
+ms.date: 01/19/2024
 ---
 
 # Communications setup in Program Summary
 
-Setting up notifications and providing translations to your programs happen in this section of Program Summary.
+Learn how to notify employees about upcoming surveys, the window for taking a survey, and provide the survey in preferred languages.
+
+::image type="content" source="../../media/glint/setup/program-summary-commss.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
 
 >[!NOTE]
-> If you are configuring an Always-On program, you'll not have to complete this step.
+> If you're configuring an Always-On program, skip this step.
 
-## Understand the fields for setup
+There are two sections to set up on the Communications page:
+- Notification Timing
+- Configure Notifications
 
-**Change Reminder Times**: Reminders are sent after the survey invitation has been sent and at different intervals while the survey is live. Reminder times are set according to the default time zone for your account.
+## Notification Timing
 
-**Language**: English is the default language for all programs initially, but the default language can be changed to any of the languages in the dropdown menu.
+::image type="content" source="../../media/glint/setup/program-summary-comms-config-notifications-.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
-**Best Practice**: _Ensure that the questions (items) selected for use in your survey are available in the default language._
+Send survey invites and reminders between these times that you set. Your organization's default time zone is preset in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744).
 
-**Pencil Icon**: Personalize the message that goes along with any reminder you'd like to include.
+## Configure Notifications
 
-## Procedure to set up communications
+>[!TIP]
+>When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select an **Email Settings** option to send to company or company and personal email.
 
-1. Select the desired **Notification Timing** to send invites and reminders. Be sure to select AM or PM.
-2. When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select an **Email Settings** option to send to company or company and personal email.
-3. In **Configure Notifications**, you'll see a list of predetermined email notifications and the dates the emails will be delivered. To add more notifications, select **Add Survey Reminder**.
-   >[!TIP]
-   > Send at least two reminders a week.
-4. Select the desired notification to preview or edit.
-5. In the slider panel, select the **pencil** symbol to edit the notification.
-6. Enter the number **of days after survey start** to send the notification.
-7. If you have **Additional Languages**, select the Language dropdown, and add languages.
-8. Select **Save Changes** and then **X** to close the slider panel.
-9. Repeat the process for each other language required and for each notification.
-10. Select the **Survey End** pencil symbol to preview or edit what survey takers see.
-   1. Turn **ON** to send notification.
-   2. In the **Send** field, enter the number of days after the survey ends to send the notification.
-       >[!NOTE]
-       >Reporting Access configured on the Reporting page must manually be switched to "Live Access" at least 48 hours before the scheduled Survey End notification date. Survey End notification will not be delivered if access is not switched over.
-   3. If desired, select the **pencil** symbol to edit the Survey End Notification. Make the necessary changes and repeat the process for each extra language being used.
-   4. Select **Save Changes** and then **X** to close the slider panel.
+The following fields display as default setup actions and each field can be edited by selecting the **pencil symbol** that displays after selecting a row:
+
+### Survey Start invitation
+
+::image type="content" source="../../media/glint/setup/program-summary-comms-survey-invite-edit.png" alt-text="Screenshot of the Survey Invitation slider window for the Communications setup page.":::
+
+The date your program is scheduled to be emailed is shown. 
+
+>[!IMPORTANT]
+> At this time, no edits can be made to the survey invitation message. If you'd like to preview it, select the **pencil symbol** in the Survey Start row to open the Survey Invitation slider window. You may change the language and preview the message in additional languages.
+
+### Use reminders
+
+Survey reminders can go out as often as you believe necessary. You may send up to 3 and additionally, a final reminder.
+
+[!TIP]
+Send 2 survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
+
+Use the **Pencil symbol** to open the slider window and then you can:
+- Change reminder send dates already preset
+- Preview your reminder. At this time the reminder message cannot be edited. You may change the language and preview the message in additional languages.
+
+#### Add survey reminders
+
+The dropdown menu on ther **Add survey Reminder** button lets you add reminders.
+
+### Survey End reminder
+
+At this time, this reminder is unavailable for viewing or editing.
+
+After adding and editing reminder dates as needed, select the right facing arrow at the bottom right side of the page and then **Save and Continue.**
+
+## Notifications for leaders with Team Conversations enabled
+
+
+
 
 ## Understand the results notification email
 
