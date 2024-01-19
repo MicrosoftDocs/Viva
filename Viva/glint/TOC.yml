@@ -200,7 +200,7 @@ items:
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
             href: setup/preview-filter-lifecycle-programs.md
-      - name: Assign the right survey items to users with Viva Glint Display Logic
+      - name: Tailor users' survey experience with Viva Glint Display Logic
         href: setup/viva-glint-display-logic.md
       - name: Deleting survey data from Viva Glint
         href: setup/delete-survey-data.md
