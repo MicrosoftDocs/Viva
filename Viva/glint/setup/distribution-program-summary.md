@@ -49,5 +49,6 @@ Use the search panel to select Distribution Lists. Remember that Distribution Li
 
 :::image type="content" source="../../media/glint/setup/distribution-dropdown-save.png" alt-text="Screenshot of the prepopulated Distribution List dropdown menu.":::
 
->[!TIP]
->When Distribution setup is complete, move on to [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977).
+
+> [!div class="nextstepaction"]
+> [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977)
