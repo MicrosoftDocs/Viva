@@ -1,12 +1,12 @@
 ---
 title: Set up Schedule page in Program Summary
 description: "On the Schedule page, you indicate when and how often your survey program is sent."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: Melissa Barry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: team conversations window, 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -61,7 +61,8 @@ Choose the cadence for your program. This determines your launch date(s) and how
    > Response window refers to the number of days the survey is open to responders and is not related to Team Conversations.
  
 1. Select the right-facing arrow symbol to **Save & Continue**.  
-
-
+>
+>
+**Next step**
 >[!div class="nextstepaction"]
 >[Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342).

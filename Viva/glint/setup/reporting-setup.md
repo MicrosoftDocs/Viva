@@ -117,7 +117,9 @@ Select the desired **Broader Team Insights PowerPoint Export** template.
 
 To complete this page, select the right-facing arrow to **Save & Continue**.
 
->[!TIP]
->Now that you have set up your reports for managers to view, move onto [Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
+
+
+> [!div class="nextstepaction"]
+> [Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
 
 
