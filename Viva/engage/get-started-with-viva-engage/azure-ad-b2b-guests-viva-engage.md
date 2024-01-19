@@ -2,7 +2,7 @@
 title: "Work with AzureAD-B2B guests in Viva Engage communities"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 author: Starshine89
 manager: elizapo
 ms.date: 10/27/2023

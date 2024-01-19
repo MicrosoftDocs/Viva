@@ -2,7 +2,7 @@
 title: Configure Workday in Microsoft Viva Learning 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 12/20/2023
 audience: admin
