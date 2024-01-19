@@ -10,6 +10,8 @@ keywords: viva glint, employee engagement, microsoft viva glint, organization he
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-get-started
+ - essentials-overview
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
