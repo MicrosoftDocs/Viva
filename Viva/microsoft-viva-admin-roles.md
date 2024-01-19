@@ -3,7 +3,7 @@ title: "Admin roles and tasks in Microsoft Viva"
 ms.reviewer: 
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 01/08/2024
 audience: Admin
 f1.keywords:

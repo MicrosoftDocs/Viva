@@ -3,7 +3,7 @@ title: "Organizational Data in Microsoft 365"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 11/30/2023
 audience: Admin
 f1.keywords:

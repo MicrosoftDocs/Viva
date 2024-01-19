@@ -3,7 +3,7 @@ title: "Understand how security works in Microsoft Viva"
 ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 4/23/2023
 audience: Admin
 f1.keywords:
