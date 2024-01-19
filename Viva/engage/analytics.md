@@ -24,27 +24,37 @@ search.appverid:
 # View and manage analytics in Viva Engage
 
 Advanced analytic capabilities in Viva Engage enables:
-- Users to monitor their own engagement metrics through personal analytics.
-- Leaders to monitor their audience’s engagement through audience analytics.
-- Leaders to manage social campaign engagement through campaign analytics.
-- Leaders to monitor engagement in Answers through answers analytics.
+- Users to monitor their own engagement metrics through personal analytics
+- Leaders to monitor their audience’s engagement through audience analytics
+- Leaders to manage social campaign engagement through campaign analytics
+- Leaders to monitor engagement in Answers through answers analytics
 
-To view analytics, select the analytics icon on the top navigation bar.
+## Access analytics
 
+>[!NOTE]
+>To view analytics, users must have Viva Engage Premium. Audience analytics are only viewable by leaders and their delegates.
+
+- To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
+
+Analytics get refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
 
 ## Manage analytics
 
-Any user with access to premium Viva Engage can access Engage Analytics. But only the *Microsoft 365 Global admin* and *Engage admin* roles can manage settings through the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
+Microsoft 365 Global admin and Engage admin roles can configure, enable, and disable analytics features to tailor the experience for their organization.
 
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Viva Engage admin center.
+1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to gear icon in the top navigation menu and select **Admin center**.
 
-[![Screenshot of the entry point into the Viva Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
- The global admin and Engage admin can configure, enable, and disable analytics features through the admin portal to tailor the experience for their organization: Go to the **Setup and configuration** tab in the Viva Engage admin center and select **Manage analytics**.
+1. Select the **Setup and configuration** tab, and select **Manage analytics**.
 
 [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
 [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
+
+>[!TIP]
+>In Viva Engage for Teams, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Viva Engage admin center.
+
+[![Screenshot of the entry point into the Viva Engage admin center.](/Viva/media/engage/admin/admin-entrypoint.png)](/Viva/media/engage/admin/admin-entrypoint.png#lightbox)
 
 ## Audience analytics  
 
@@ -77,20 +87,6 @@ Engage admins and corporate communicators have access to analytics to monitor ca
 [![Screenshot of the Campaign analytics landing page.](/Viva/media/engage/admin/campaign-analytics.png)](/Viva/media/engage/admin/campaign-analytics.png#lightbox)
 
 In the **Manage analytics** interface, the Engage admin can enable or disable the top content creator feature for the organization. This feature displays employees and leaders who create the most campaign posts.
-
-## Frequently asked questions
-
-**How often are analytics updated?**
-
-Analytics get refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
-
-**Where can users access analytics?**
-
-Select the analytics icon in the main Via Engage navigation menu.
-
-**Why can't my leader/delegate see audience analytics?**
-
-To view audience analytics, a leader and their delegate must be licensed users.
 
 ## See also
 
