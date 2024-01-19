@@ -172,6 +172,9 @@ items:
             href: setup/schedule-setup.md
           - name: Questions setup in Program Summary
             href: setup/questions-setup.md
+            items:
+            - name: Adding new survey items and section breaks to a Viva Glint program
+              href: setup/add-new-questions.md
           - name: Reporting setup in Program Summary
             href: setup/reporting-setup.md
           - name: Communications setup in Program Summary
@@ -197,7 +200,7 @@ items:
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
             href: setup/preview-filter-lifecycle-programs.md
-      - name: Assign the right survey items to users with Viva Glint Display Logic
+      - name: Tailor users' survey experience with Viva Glint Display Logic
         href: setup/viva-glint-display-logic.md
       - name: Deleting survey data from Viva Glint
         href: setup/delete-survey-data.md
