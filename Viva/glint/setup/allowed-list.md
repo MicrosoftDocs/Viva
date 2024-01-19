@@ -36,7 +36,7 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 - glint.microsoft.com - Survey Notifications
 - microsoft.com - Microsoft Email Communications
-- mktomail.com - Newsletter and Product Updates
+- email1.microsoft.com - Newsletter and Product Updates
 
 ### Glint survey and system emails originate from:
 
