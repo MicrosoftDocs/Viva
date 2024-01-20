@@ -42,7 +42,7 @@ Analytics get refreshed every 24 hours. If you don’t see changes reflected imm
 
 Only Microsoft 365 Global admin and Engage admin roles can configure, enable, and disable analytics features to tailor the experience for their organization.
 
-1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to gear icon in the top navigation menu and select **Admin center**. (From Viva Engage for Teams, select the ellipses button from the top navigation menu, and then select **Admin**.)
+1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
     [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
 1. Select the **Setup and configuration** tab, and select **Manage analytics**.
 
