@@ -45,14 +45,14 @@ Only Microsoft 365 Global admin and Engage admin roles can configure, enable, an
 1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to gear icon in the top navigation menu and select **Admin center**.
 [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
 
->[!TIP]
->In Viva Engage for Teams, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Viva Engage admin center.
+    >[!TIP]
+    >In Viva Engage for Teams, select the ellipses button from the top navigation menu, and then select **Admin** to enter the Viva Engage admin center.
 
 1. Select the **Setup and configuration** tab, and select **Manage analytics**.
 
-[![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
+    [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
-[![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
+    [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
 ## Audience analytics  
 
