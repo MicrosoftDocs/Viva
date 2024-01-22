@@ -58,5 +58,5 @@ The first toggle is set to YES by default. Confidential responses promote accura
 
 ### Next Step
 > [!div class="nextstepaction"]
-> [Distribution setup in Program Summary](../../glint/setup/distribution-program-summary)
+> [Distribution setup in Program Summary](../../glint/setup/distribution-program-summary.md)
 
