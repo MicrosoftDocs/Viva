@@ -24,29 +24,29 @@ audience: Admin
 >[!Important]
 >This article discusses the Briefing email. We've paused sending Briefing emails to make some improvements. Users can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../reference/briefing-pause.md).
 
-By using data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with, and then presents intelligent tips on how to work smarter.
+By using the data generated from everyday work in Microsoft 365, personal insights in Microsoft Viva Insights help people understand how they spend their limited time and who they spend it with. Then it provides intelligent tips on how to work smarter.
 
 This guide answers key questions on how Viva Insights processes information in a manner that protects employee privacy and supports compliance with local regulations, such as [General Data Protection Regulation (GDPR)](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx).
 
 ## Summary of key points
 
 * **Personal insights in Viva Insights is not designed to enable employee evaluation, tracking, automated decision making, profiling, or monitoring**.
-Viva Insights provides personal insights to individuals through an app in Teams and on the web, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information that is shown through these surfaces, unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights can't be used for automated decision making or for profiling.
+Viva Insights provides personal insights to individuals through an app in Teams and on the web, Briefing and Viva digest emails, Viva Insights Outlook add-in, and inline suggestions in Outlook. Viva Insights has no mechanism or option that allows anyone but the user to access the personalized information shown through these surfaces unless that person purposefully and independently shares that information. Personal insights provided by Viva Insights can't be used for automated decision making or for profiling.
 
 * **Personal insights in Viva Insights does not give employees access to new personally identifiable information on other coworkers**.
-Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is simply an aggregation of information to which they already have access, but that they wouldn’t be able to quickly perform calculations on without some support.
+Viva Insights converts data into personal insights by doing calculations on information that people generate just by going about their workday. Most of the personal insights data that employees see in Viva Insights is an aggregation of information to which they already have access. The advantage is that they can quickly perform calculations on the data without support.
 
 * **Personal insights in Viva Insights data is processed and stored in the employee’s Exchange Online mailbox**.
 Viva Insights processes data from these sources for personal insights: Exchange Online email and calendar data, chat, and call signals from Skype for Business and from Teams. Viva Insights stores and processes this personal insights data inside each employee’s Exchange Online mailbox.
 
 * **Personal insights in Viva Insights supports General Data Protection Regulation (GDPR) compliance**.
-Microsoft has designed Personal insights in Viva Insights to support customers’ needs by following [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
+Personal insights in Viva Insights is designed to support customers’ needs by following [GDPR requirements](https://www.microsoft.com/trustCenter/privacy/gdpr).
 
 * **Personal insights in Viva Insights can be configured so that individuals must purposefully opt in**.
-By default, any time a license with the Viva Insights service is assigned to a person, that person is automatically opted in. However, admins can configure Viva Insights to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
+By default, anytime a license with the Viva Insights service is assigned to a person, that person is automatically opted in. However, admins can configure Viva Insights to be "default off," so that people can choose for themselves whether to opt in after being assigned a license.
 
 * **Personal insights in Viva Insights reminds people that their data is private and secure**.
-A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works, with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and Viva Insights app in Teams and on the web, reinforce this message.
+A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and Viva Insights app in Teams and on the web, reinforce this message.
 
 ## How Personal insights in Viva Insights works
 
@@ -65,9 +65,9 @@ Personal insights in Viva Insights uses the following types of data.
 
 ## Mailbox data
 
-Mailbox data represents information that people already have access to simply by going about their job, such as sending emails, arranging meetings, or chatting with coworkers. Viva Insights processes and shows this information in new ways that make it actionable.
+Mailbox data represents information that people already have access to by simply going about their job such as sending emails, arranging meetings, or chatting with coworkers. Viva Insights processes and shows this information in new ways that make it actionable.
 
-For example, Viva Insights provides views that allow people to quickly understand how much time they spend in meetings, and in email every day, who they collaborate with the most, who they're losing touch with, and to whom they have made commitments and requests.
+For example, Viva Insights provides views that allow people to quickly understand how much time they spend in meetings and in email each day, who they collaborate with the most, who they're losing touch with, and who they've have made commitments and requests to.
 
 People can take action on this information. They might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
@@ -83,7 +83,7 @@ For example, if people want to determine which colleagues sent them the most ema
 
 ## Incremental data
 
-In a few cases, Personal insights in Viva Insights provides people with *de-identified* information on other people that wouldn't have otherwise been available to them, such as for email read rates.
+In a few cases, Personal insights in Viva Insights provides people with *de-identified* information on other people that wouldn't otherwise be available to them, such as for email read rates.
 
 ### Email read rates and document open rates
 
@@ -93,7 +93,7 @@ To preserve privacy, Viva Insights doesn't track read rates for messages sent to
 
 This metric is calculated based on a person's Outlook setting for when an [email is marked as read](https://support.office.com/article/mark-a-message-as-read-or-unread-59b44298-08c2-4eb7-8128-ea0fb7f52720). When Outlook marks an email as "read," that information is saved within the person’s mailbox, then delivered to the sender's mailbox if that person has opted in to using Viva Insights.
 
-Similarly, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in an email that a person sends to five or more people. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
+In an email that is sent to five or more people, Viva Insights tracks the percentage of recipients who opened a document that was shared as a link or as an attachment in the email. This metric calculation is based on whether recipients have opened shared documents that are stored in SharePoint or in OneDrive for Business.
 
 ## Privacy settings
 
