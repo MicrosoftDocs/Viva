@@ -1,7 +1,6 @@
 ---
 title: Communications setup in Program Summary
-description: Learn how to notify employees about upcoming surveys, the window for taking a survey, and provide the survey in preferred languages.
-ms.author: JudithWeiner
+description: Learn how to notify employees about upcoming surveys, the windows for taking surveys and having feedback conversations.
 author: JudyWeiner
 manager: mbarry
 audience: admin
@@ -15,12 +14,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/19/2024
+ms.date: 01/22/2024
 ---
 
 # Communications setup in Program Summary
 
-Learn how to notify employees about upcoming surveys, the window for taking a survey, and providing the survey in preferred languages.
+Learn how to notify employees about upcoming surveys and the windows for taking surveys and having feedback conversations.
 
 ::image type="content" source="../../media/glint/setup/program-summary-comms.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
 
@@ -39,7 +38,7 @@ Send survey invites and reminders between the times that you set. Your organizat
 
 ## Configure Notifications
 
-The following fields display as default setup actions and each field can be edited by selecting the **pencil symbol** that displays after selecting a row:
+The following sections display as setup actions and each field can be edited by selecting the **pencil symbol** that displays after selecting a row.
 
 ::image type="content" source="../../media/glint/setup/program-summary-comms-config-notifications-timing.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
@@ -55,12 +54,12 @@ The date your program is scheduled to be emailed is shown.
 >[!IMPORTANT]
 > At this time, no edits can be made to the Survey Invitation email message. You can, however, preview it as it is set. Select the **pencil symbol** on the **Survey Start** row to open the Survey Invitation slider window. You may also change the language and preview the message in additional languages.
 
-### Use reminders
+### Use Reminders
 
-Survey reminders can go out up . You may send up to 3 during the survey window and then a final reminder.
+You may send up to 3 reminders during the survey window and also a final reminder.
 
-[!TIP]
-Send 2 survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
+>[!TIP]
+>Send 2 survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
 
 Use the **Pencil symbol** to open the slider window and thens:
 - Change reminder send dates already preset
@@ -72,12 +71,12 @@ The dropdown menu on ther **Add survey Reminder** button lets you add reminders.
 
 ::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
-### Survey End reminder
+### Use the Survey End reminder
 
 >[!IMPORTANT]
 > Currently this email notification has been disabled.
 
-## Notifications when Team Conversations are enabled
+## Notifications when survey results are available
 
 The results notification email is a one-time notification to let users know that results are available to them. The email goes out to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before your survey closes. 
 
@@ -97,11 +96,11 @@ Conversation reminders are added by selecting the **Conversation Reminder** butt
 
 ## Configure Nudges
 
-Set up who will receive Nudges to proote continued action on feedback results. 
+Set up who in your organization will receive [Nudges](https://go.microsoft.com/fwlink/?linkid=2231015) to promote continued action on feedback results. 
 
-::image type="content" source="../../media/glint/setup/program-summary-comms-nudges.png" alt-text="Screenshot of the Configure Nudges button on the Communications setup page.":::
+::image type="content" source="../media/glint/setup/program-summary-comms-nudges.png" alt-text="Screenshot of the Configure Nudges button on the Communications setup page.":::
 
-Selecting the **Configure Nudges** button will open the **Nudges** setup page on your admin dashboard.
+Selecting the **Configure Nudges** button will open the **Nudges** setup page on your admin dashboard. Follow the in-platform guidance.
 
 ::image type="content" source="../../media/glint/setup/program-summary-comms-nudge-configuration.png" alt-text="Screenshot of the Nudges setup page on the admin dashboard.":::
 
