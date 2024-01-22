@@ -37,6 +37,7 @@ The character limits for each open text area in your survey setup are given in t
 | --- | --- |
 | Program Name | 50 |
 | Intro Text | 1024 |
+| Company Message to Survey Participants | 1024 |
 | Thank You Text | 1024 |
 | Description | 4000 if imported and 1024 if edited directly in the program |
 | Section Title | 128 |
@@ -51,7 +52,7 @@ The character limits for each open text area in your survey setup are given in t
 | Comment Placeholder Text | 256 |
 | Open-ended Comments Box | 1000 |
 | Scale Label Values | 100 |
-| Number of Response options allowed for Multiple Choice Questions | 126 |
+| Number of Response options allowed for Multiple Choice Questions | 50 |
 | Number of characters for Multiple Choice Responses | 100 |
 
 ## Communications
