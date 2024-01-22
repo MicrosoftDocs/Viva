@@ -43,8 +43,10 @@ External collaboration is a key ingredient for the success of any organization. 
 
 This setting is a Viva Engage network-wide setting. Enabling guest access lets community admins add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
-> [!NOTE]
-> If your Viva Engage network is provisioned after December 15th, 2020, Microsoft Entra B2B guest functionality is enabled by default for your organization. To accept a guest invitation, you must use the Viva Engage desktop app or Viva Engage in a web. This functionality isn't currently supported on mobile devices (Android or iOS).
+> [!NOTES]
+> If your Viva Engage network is provisioned after December 15th, 2020, Microsoft Entra B2B guest functionality is enabled by default for your organization.
+>
+> To accept a guest invitation, you must use the Viva Engage desktop app or Viva Engage in a web. This functionality isn't currently supported on mobile devices (Android or iOS).
 
 To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
