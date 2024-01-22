@@ -114,13 +114,15 @@ Select your desired **PowerPoint Export** template. The Viva Glint ACT guide app
 
 :::image type="content" source="../../media/glint/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
 
-### Boarder Team Insights Export Template 
+### Broader Team Insights Export Template 
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
 :::image type="content" source="../../media/glint/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report.":::
 
 **To complete this page, select the right-facing arrow to **Save & Continue**.**
+
+### Next step
 
 > [!div class="nextstepaction"]
 > [Move onto Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
