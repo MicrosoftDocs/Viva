@@ -41,7 +41,7 @@ Send survey invites and reminders between the times that you set. Your organizat
 
 The following sections display as setup actions and each field can be edited by selecting the **pencil symbol** that displays after selecting a row.
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-config-notifications-timing.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
 >[!TIP]
 >When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select the **Email Settings** option to send to company or company and personal email.
@@ -99,7 +99,7 @@ Conversation reminders are added by selecting the **Conversation Reminder** butt
 
 Set up who in your organization will receive [Nudges](https://go.microsoft.com/fwlink/?linkid=2231015) to promote continued action on feedback results. 
 
-:::image type="content" source="../media/glint/setup/program-summary-comms-nudges.png" alt-text="Screenshot of the Configure Nudges button on the Communications setup page.":::
+:::image type="content" source="../media/glint/setup/program-summary-comms-nudges-button.png" alt-text="Screenshot of the Configure Nudges button on the Communications setup page.":::
 
 Selecting the **Configure Nudges** button opens the **Nudges** setup page on your admin dashboard. Follow the in-platform guidance.
 
