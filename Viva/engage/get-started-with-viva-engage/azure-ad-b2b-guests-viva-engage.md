@@ -44,7 +44,7 @@ External collaboration is a key ingredient for the success of any organization. 
 This setting is a Viva Engage network-wide setting. Enabling guest access lets community admins add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
-> If your Viva Engage network is provisioned after December 15th, 2020, then Microsoft Entra B2B guest functionality is already enabled by default for your organization. 
+> If your Viva Engage network is provisioned after December 15th, 2020, Microsoft Entra B2B guest functionality is enabled by default for your organization. To accept a guest invitation, you must use the Viva Engage desktop app or Viva Engage in a web. This functionality isn't currently supported on mobile devices (Android or iOS).
 
 To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
@@ -104,7 +104,7 @@ We're working hard to bring all Viva Engage functionality to the new B2B guests 
 - **Personal email, non-Microsoft 365 business email, and phone number-based legacy accounts** – Users with Microsoft 365 Business email accounts can be added as guests. Email domains like Gmail and Yahoo mail aren't supported in this release.
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Guests can't attend live events.
-- **Adding guests during community creation** – Community owners can invite guest users by using edit membership flow for any community. In the current release, community owners won't be able to add guest emails at the time of community creation.
+- **Adding guests during community creation** – Community owners can invite guest users by using edit membership flow for any community. In the current release, community owners aren't able to add guest emails at the time of community creation.
 - **Interactive Viva Engage email notifications in Outlook** – Interactive email notifications for B2B guests users aren't available in this preview. B2B guests can expect to receive the legacy email notifications from the communities that they're added to as guests, instead of the new interactive email notifications. In the communities where these users aren't guests, the interactive email notifications function as expected.
 - **Addition of Guests to the All Company community** – Guests can't be added to the All Company community.
 
