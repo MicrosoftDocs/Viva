@@ -8,7 +8,9 @@ metadata:
   description: Access documentation for common tasks 
   ms.subservice: viva-insights 
   ms.topic: landing-page 
-  ms.collection: viva-insights-advanced 
+  ms.collection:
+  - viva-insights-advanced
+  - essentials-get-started
   author: zachminers 
   ms.author: v-zachminers 
   ms.date: 06/16/2023

@@ -14,6 +14,7 @@ ms.subservice: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
+- essentials-accountability
 manager: helayne
 audience: Admin
 ---

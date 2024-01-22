@@ -7,6 +7,8 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
+ms.collection:
+- essentials-accountability
 ms.date: 06/19/2023
 ms.topic: article
 ms.service: viva
