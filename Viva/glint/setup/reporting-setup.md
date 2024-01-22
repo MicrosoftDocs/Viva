@@ -35,7 +35,7 @@ Roles already set up for this program are listed under the **Program Roles** row
 
  - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
  - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
- - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results are visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Inights](https://go.microsoft.com/fwlink/?linkid=2231012).
+ - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Inights](https://go.microsoft.com/fwlink/?linkid=2231012).
  - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
    
  > [!IMPORTANT]
