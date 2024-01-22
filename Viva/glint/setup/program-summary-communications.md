@@ -22,7 +22,7 @@ ms.date: 01/22/2024
 
 Learn how to notify employees about upcoming surveys and the windows for taking surveys and having feedback conversations.
 
-:image type="content" source="../../media/glint/setup/program-summary-comms.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
 
 >[!NOTE]
 > If you're configuring an Always-On program, skip this step.
