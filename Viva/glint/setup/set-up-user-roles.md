@@ -34,7 +34,7 @@ You can use the template to indicate which attributes User Roles are allowed to 
 >[!NOTE]
 > Not all User Roles and pre-populated attributes and permissions in the template may apply to your organization. Consult your Employee Attribute File for attributes specific to your organization and make changes, as necessary.
 
-[Download the template to use as a planning tool to define permissions for your User Roles.](https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1e304311-018e-330d-ab5a-79bbe2c4631c)
+[Download the template to use as a planning tool to define permissions for your User Roles.](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
 
 ## Create User Roles
 
