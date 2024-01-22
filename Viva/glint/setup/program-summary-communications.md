@@ -33,7 +33,7 @@ There are two sections to set up on the Communications page:
 
 ## Notification Timing
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notification-timing.png" alt-text="Screenshot of the Notifications Timing section in Communications setup.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-notification-timing.png" alt-text="Screenshot of the Notifications Timing section in Communications setup.":::
 
 Send survey invites and reminders between the times that you set. Your organization's default time zone is preset in [General Settings](https://go.microsoft.com/fwlink/?linkid=2230744).
 
