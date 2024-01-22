@@ -8,7 +8,6 @@ ms.collection:
 - viva-insights-manager
 - viva-insights-leader
 - highpri
-ms.collections:
 - essentials-overview
 ms.service: viva 
 ms.subservice: viva-insights 

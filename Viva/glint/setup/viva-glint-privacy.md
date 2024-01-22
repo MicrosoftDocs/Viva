@@ -33,4 +33,4 @@ For information specific to Viva Glint:
 
 [Learn about access to Viva Glint raw survey responses.](https://go.microsoft.com/fwlink/?linkid=2230875)
 
-[Learn about Glint security](viva/viva-security#viva-glint)
+[Learn about Glint security](/Viva/viva-security.md#viva-glint/)
