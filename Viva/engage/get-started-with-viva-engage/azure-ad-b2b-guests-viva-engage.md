@@ -38,11 +38,11 @@ Viva Engage network admins need to enable guest access on their networks from **
 > [!div class="mx-imgBorder"]
 > :::image type="content" source="../../media/yammer-adminpanel-externalusers-allowdeny.png" alt-text="Screenshot of guest settings in the Viva Engage admin center.":::
 
+This setting is a Viva Engage network-wide setting. Enabling guest access lets community admins add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
 External collaboration is a key ingredient for the success of any organization. The guest feature allows you to call in experts, such as consultants or vendors, from outside your organization. Users can invite guests to a community and quickly start a rich conversation by sharing access to community resources like files. This ease-of-use makes external collaboration one of the most used features in Viva Engage today.
 
 :::image type="content" source="../../media/yammer-b2b-azure-guests.png" alt-text="Screenshot of the Viva Engage business-to-business guest support.":::
-
-This setting is a Viva Engage network-wide setting. Enabling guest access lets community admins add guests to any Viva Engage community in the network. You can control guest access to individual Viva Engage communities [by using sensitivity labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
