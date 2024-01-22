@@ -2,7 +2,7 @@
 title: "Microsoft Entra credentials are required for Viva Engage Enterprise sign in"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 author: ToniSFrench
 manager: elizapo
 ms.date: 9/23/2019

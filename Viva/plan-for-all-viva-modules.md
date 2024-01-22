@@ -3,7 +3,7 @@ title: "Plan for all Viva apps"
 ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 07/06/2023
 audience: Admin
 f1.keywords:
