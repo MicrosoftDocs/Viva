@@ -9,7 +9,7 @@ f1.keywords: NOCSH
 keywords: Privacy safegaurds
 ms.collection: 
  - m365initiative-viva
- - selfserve
+ - self-serve
  - essentials-accountability
 search-appverid: MET150
 ms.topic: article
