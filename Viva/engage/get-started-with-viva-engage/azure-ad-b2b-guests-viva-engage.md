@@ -46,7 +46,7 @@ This setting is a Viva Engage network-wide setting. Enabling guest access lets c
 > [!NOTES]
 > If your Viva Engage network is provisioned after December 15th, 2020, Microsoft Entra B2B guest functionality is enabled by default for your organization.
 >
-> To accept a guest invitation, you must use the Viva Engage desktop app or Viva Engage in a web. This functionality isn't currently supported on mobile devices (Android or iOS).
+> External users must accept guest invitations on the Viva Engage desktop app or Viva Engage in a web. This functionality isn't currently supported on mobile devices (Android or iOS).
 
 To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, see [Collaborate with guests in a team](/microsoft-365/solutions/collaborate-as-team).
 
