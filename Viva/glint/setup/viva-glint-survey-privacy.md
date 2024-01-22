@@ -5,6 +5,8 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
+ms.collection: 
+- essentials-accountability
 f1.keywords: NOCSH
 keywords: Thresholds, suppression, response rate, suppressed data, identifiable surveys
  - m365initiative-viva

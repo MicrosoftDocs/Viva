@@ -10,6 +10,7 @@ keywords: tenant, viva glint tenant
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-get-started
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
