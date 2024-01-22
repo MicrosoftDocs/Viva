@@ -63,12 +63,12 @@ You may send up to three reminders during the survey window and also a final rem
 >Send 2 survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
 
 Use the **Pencil symbol** to open the slider window and then:
-- Change reminder send dates already preset
+- Change reminders send dates already preset
 - Preview your reminder. At this time, the reminder message cannot be edited. You may change the language and preview the message in other languages.
 
 #### Add survey reminders
 
-The dropdown menu on ther **Add survey Reminder** button lets you add reminders. After adding additional reminder, they display on the Communications page with an alarm symbol in a green circle.
+The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, reminders display on the Communications page with an alarm symbol in a green circle.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
