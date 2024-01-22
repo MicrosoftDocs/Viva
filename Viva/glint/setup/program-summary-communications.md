@@ -109,6 +109,6 @@ Selecting the **Configure Nudges** button opens the **Nudges** setup page on you
 
 After adding and editing reminder dates as needed, select the **right facing arrow** at the bottom right side of the page and then **Save and Continue.**
 
-**Next Step**
+## Next Step
 > [!div class="nextstepaction"]
 > [Coaching setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231416).
