@@ -56,8 +56,8 @@ To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, 
 
 3. By visiting the **Go to Community** link, the guest accepts the invitation. After a guest accepts the invitation, they can participate in the Viva Engage community.
 
->[!NOTE]
->External users must accept guest invitations on the desktop app or in a web browser. This functionality isn't currently supported on mobile devices (Android or iOS).
+    >[!NOTE]
+    >External users must accept guest invitations on the desktop app or in a web browser. This functionality isn't currently supported on mobile devices (Android or iOS).
 
 4. Network switcher located in the suite header can be used to switch between the home Viva Engage network, any Viva Engage networks the user is a guest in, and external networks.
 
