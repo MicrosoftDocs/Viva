@@ -57,7 +57,7 @@ In other words, what analysts create in their partitions stay within their parti
 
 ## Turn on partitions
 
-You can turn on partitions from the privacy settings page in the advanced insights app. [Learn how](//Viva/insights/advanced/setup-maint/privacy-settings.md).
+You can turn on partitions from the privacy settings page in the advanced insights app. [Learn how](../setup-maint/privacy-settings.md).
 
 ## About the Partitions page
 
