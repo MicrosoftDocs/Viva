@@ -22,7 +22,7 @@ ms.date: 01/22/2024
 
 Learn how to notify employees about upcoming surveys and the windows for taking surveys and having feedback conversations.
 
-:image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
 
 >[!NOTE]
 > If you're configuring an Always-On program, skip this step.
@@ -82,7 +82,7 @@ The dropdown menu on the **Add survey Reminder** button lets admins add reminder
 
 The results notification email is a one-time notification to let users know that results are available to them. The email goes out to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before your survey closes. 
 
-:image type="content" source="../../media/glint/setup/program-summary-comms-conversation.png" alt-text="Screenshot of the Team Conversations section on the Communications setup page.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-conversation.png" alt-text="Screenshot of the Team Conversations section on the Communications setup page.":::
 
 ### Editing and adding conversation reminders
 
