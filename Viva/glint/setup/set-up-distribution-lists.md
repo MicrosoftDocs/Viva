@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: attribute rules
+keywords: attribute rules, 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/09/2024
+ms.date: 01/23/2024
 ---
 
 # Set up and use Distribution Lists in Viva Glint
@@ -38,7 +38,7 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
 ### Follow these steps 
 1. From your admin dashboard, under the Employees section, select **Distribution Lists**.
-1. The Distribution List page will open, displaying any lists that have been previously created and the number of members within each list.
+1. The Distribution List page opens and displays any lists that have been previously created and includes the number of members within each list.
 
    :::image type="content" source="../../media/glint/setup/distro-list-overview.png" alt-text="Screenshot of the Distribution List window.":::
 
@@ -119,5 +119,20 @@ Your decision whether to use manual population or attribute rule population shou
   - Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
   - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. 
 
-> [!TIP]
-> Next step: [Set up Schedule page in Program Summary](/../../schedule-setup.md)
+## Delete Distribution Lists
+
+Distribution lists can be deleted by hovering over the list to be deleted and selecting the **Delete** button. A **Delete Distribution List* window opens, notifying you of any programs that are currently using this list. 
+
+To move forward and remove the Distribution List, it must be removed from the target audience of the program. 
+- From the admin dashboard, select **Survey Programs**.
+- **Select the survey.**
+- Under Program Summary, Select **Distribution**.
+- Follow the onscreen guidance to delete the list. A window will display to confirm that you mean to delete the list.
+- Repeat for all programs in which that Distribution List should be removed.
+
+>[!NOTE]
+>Deleting a Distribution List is a permanent action. The data of the members of that list is not deleted.
+
+
+
+
