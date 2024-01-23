@@ -55,6 +55,10 @@ Most of the settings that you work with as an admin are only available at the te
 
 In other words, what analysts create in their partitions stay within their partitions. What you set as an admin (unless you’re setting up a partition) applies across your organization. For more information about partition-level actions, refer to How analysts use partitions.
 
+## Turn on partitions
+
+You can turn on partitions from the privacy page in the advanced insights app. [Learn how](//Viva/insights/advanced/setup-maint/privacy-settings.md).
+
 ## About the Partitions page
 
 Before we get into discussing how to use partitions, let’s discuss where you can find and create them: the **Partitions** page. To get to the **Partitions** page from the advanced insights app analyst experience, select **Partitions** from the left pane.
