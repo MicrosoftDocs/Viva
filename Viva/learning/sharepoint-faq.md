@@ -49,13 +49,13 @@ In case `SuccessfulSyncedObjectsCount` isn't zero and you still can’t see the 
     1. Security groups without main enabled are 'Global Groups'. To mail enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group.  
 
  
-In case `FailedObjectsCount` isn't zero check the Failed Object Details tab, refer to the following error messages:
+In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab, refer to the following error messages:
 
 
 |Error code | Error description | Next Steps | 
 | - | - | - | 
 | `SP_INVALID_FOLDER_URL` | Folder-URL isn't valid, only folder-URL are supported. Adding document libraries directly aren't supported | Add the files in a folder and add the folder URL in the learning app repository. Read the configure SharePoint content source [documentation](/viva/learning/configure-sharepoint-content-source#folder-url-document-library-curation)
-|`SP_NO_M365_PERMISSIONS_FOUND` | Every item needs to have [Microsoft 365 group permission](sharepoint-permissions.md) or Mail-enabled security group (MESG) to light-up inside Viva Learning. | <br> Apply Microsoft 365 or Mail-enabled security group directly to the folder. <br> Open the folder and for a file check if the Microsoft 365 or Mail-enabled security group (MESG) group is directly applied on the file items. </br> <br> To check if group is directly applied to the folder/file item: <li> In SharePoint go to the folder or file and select **More options** > **Manage access** > **More options** > **Advanced settings**. <li> Check whether the group you added is listed and has "Domain Group" as its Type. <br> Check the group type at the Microsoft Entra admin center.|
+|`SP_NO_M365_PERMISSIONS_FOUND` | Every item needs to have Microsoft 365 group or Mail-enabled security group (MESG) to light-up inside Viva Learning. | <br> Apply [Microsoft 365 group](sharepoint-permissions.md) or Mail-enabled security group directly to the folder. <br> Open the folder and for a file check if the or Mail-enabled security group (MESG) group is directly applied on the file items. </br> <br> To check if group is directly applied to the folder/file item: <li> In SharePoint go to the folder or file and select **More options** > **Manage access** > **More options** > **Advanced settings**. <li> Check whether the group you added is listed and has "Domain Group" as its Type. <br> <li> Check the group type at the Microsoft Entra admin center.|
 |`SP_ITEM_LIMIT_REACHED`| Only 1000 files or items can be ingested as learning objects | Purchase a Microsoft Viva Suite or Viva Learning license. | 
 | `SP_ITEM_INGESTION_FAILED` | | Raise a [support ticket](/services-hub/unified/support/open-support-requests).| 
 
@@ -64,7 +64,7 @@ In case `FailedObjectsCount` isn't zero check the Failed Object Details tab, ref
     - You can use either a Teams site or a communication site. We recommend using a communication site.
 
 - **Why is the display name is not updated?**
-    - Only site owners with knowledge admin or global admin permissions can update the display name.
+    - Only site owners with the knowledge admin or global admin role can update the display name.
     - The change can take 24 hours to reflect.
 
 - **What is the limit on the number of file items that can be ingested?**
@@ -89,7 +89,7 @@ In case `FailedObjectsCount` isn't zero check the Failed Object Details tab, ref
     > [!NOTE]
     > Check if the permission is propagating to file items present in the folder. A site owner or contributor role is required on the site for the permissions to propagate to the dependent item.
 
-- **How can I make a mail-enabled security group**? 
+- **How can I make a security group mail-enabled**? 
 
     - Security groups without mail enabled are global groups. To mail-enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group. 
 
@@ -98,14 +98,13 @@ In case `FailedObjectsCount` isn't zero check the Failed Object Details tab, ref
     1. Check the [column names](/viva/learning/configure-sharepoint-content-source#metadata)
     2. If they're not correct, delete and recreate the column.
 
-- What size does the thumbnails have to be to properly render in Viva Learning?
+- What size do the thumbnails have to be to properly render in Viva Learning?
     The aspect ratio has to be 16:9.
 
 - **What can I do if the content is not playable?** 
     1. If you're using a custom SharePoint Domain (for example, sp.contoso.com), raise a [support ticket](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed.
-    2. If the objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
-   
-     Hyperlinks, forms, embedded videos in a file work in Viva Learning.
+    2. If the linked objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
+    3. Hyperlinks, forms, embedded videos in a file work in Viva Learning.
     
 |            Object type        |         Word     |         Pdf     |      PowerPoint  |      Excel  |
 |--------------------|:----------------:|:---------------:|:----------------:|:-----------:|
