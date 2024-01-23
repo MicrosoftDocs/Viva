@@ -119,7 +119,7 @@ Your decision whether to use manual population or attribute rule population shou
   - Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
   - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. 
 
-## Delete distribution lists
+## Delete Distribution Lists
 
 Distribution lists can be deleted by hovering over the list to be deleted and selecting the **Delete** button. A **Delete Distribution List* window opens, notifying you of any programs that are currently using this list. 
 
