@@ -41,6 +41,8 @@
               href: configure-sharepoint-content-source.md
             - name: Configure permissions for SharePoint content
               href: sharepoint-permissions.md
+            - name: FAQs in SharePoint
+              href: sharepoint-faq.md
         - name: Cornerstone OnDemand
           href: configure-cornerstone-content-source.md
         - name: Saba
