@@ -60,11 +60,7 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 
 ### Customize Pulses
 
-Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions. To make any customization configurations:
-
-1. In the **Manage** tab, go to the **Customization** tab.
-2. To turn off or turn on customization, use the toggles associated with **Stock Questions** and **New Questions**.
-3. The update is autosaved.
+Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions through granular access controls. To make any customization configurations, see [Granular access controls](./granular-access-controls.md).
 
 ### Customize your organization’s policy statement
 
