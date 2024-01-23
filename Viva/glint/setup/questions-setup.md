@@ -57,7 +57,7 @@ Hover over the horizontal ellipses next to any survey item to select one of the 
 Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select one or more **User Role** to include or exclude. When finished, select **Save Changes**.
 
 ### Edit Question
-The Edit Question slider window provides two tabs for set up:
+The Edit Question slider window provides two tabs for setup:
 - Question Configuration
 - Associated Programs
 
@@ -120,6 +120,7 @@ You don't have to use all of the items programmed for a survey during each surve
 
 To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow the guidance for **Adding items to a prepopulated survey.**
 
+## Next Step
 > [!div class="nextstepaction"]
 > [Reporting setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977).
 
