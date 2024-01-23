@@ -1,6 +1,6 @@
 ---
-ms.date: 01/blah/2024
-title: Blah
+ms.date: 01/22/2024
+title: Delete, archive, or restore a Microsoft 365 group-connected team
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -19,7 +19,7 @@ ms.collection:
 - vg-integration  
 search.appverid:
 - MET150
-description: "Blah."
+description: "Learn how to delete, archive, or restore a Microsoft 365 group-connected team in Viva Goals."
 ---
 
 # Delete, archive, or restore a Microsoft 365 group-connected team

@@ -1,6 +1,6 @@
 ---
-ms.date: 01/blah/2024
-title: Blah
+ms.date: 01/22/2024
+title: Use your Microsoft 365 groups as teams in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -19,7 +19,7 @@ ms.collection:
 - vg-integration  
 search.appverid:
 - MET150
-description: "Blah."
+description: "Learn how to use your Microsoft 365 groups as teams in Viva Goals."
 ---
 
 # Use your Microsoft 365 groups as teams in Viva Goals

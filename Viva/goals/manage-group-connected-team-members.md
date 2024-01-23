@@ -1,6 +1,6 @@
 ---
-ms.date: 01/blah/2024
-title: Blah
+ms.date: 01/22/2024
+title: Manage members of a Microsoft 365 group-connected team in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -19,7 +19,7 @@ ms.collection:
 - vg-integration  
 search.appverid:
 - MET150
-description: "Blah."
+description: "Learn how to add or remove members for a Microsoft 365 group-connected team in Viva Goals, as well as how to change the roles of those members."
 ---
 
 # Manage members of a Microsoft 365 group-connected team in Viva Goals
