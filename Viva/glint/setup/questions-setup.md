@@ -120,6 +120,7 @@ You don't have to use all of the items programmed for a survey during each surve
 
 To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow the guidance for **Adding items to a prepopulated survey.**
 
+## Next Step
 > [!div class="nextstepaction"]
 > [Reporting setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977).
 
