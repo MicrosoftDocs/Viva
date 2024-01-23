@@ -117,7 +117,7 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 - Hierarchy Groups Mapping
 
 > [!NOTE]
-> Viva Glint allows for up to 100 User Attributes. Required, derived, optional system, and hierarchy attributes don't count toward this limit.
+> Viva Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
 
 ## Choose how you want to import data
 
