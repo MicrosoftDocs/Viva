@@ -43,7 +43,7 @@ In case `SuccessfulSyncedObjectsCount` isn't zero and you still can’t see the 
 
 1. Check if you have been added as a member of the [applied group](https://admin.microsoft.com/Adminportal/Home#/groups/:/TeamDetails/e813e5d8-d251-4024-a6b0-276bc39eecff/Members).
 
-2. Check if Mail enabled security group is applied to the folder or file. You can check the group type at the [Microsoft Entra admin center](entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups?Microsoft_AAD_IAM_legacyAADRedirect=true).
+2. Check if Mail enabled security group is applied to the folder or file. You can check the group type at the [Microsoft Entra admin center](https://entra.microsoft.com).
 
 3. If you have added a security group, check if the security group is mail enabled. 
     1. Security groups without main enabled are 'Global Groups'. To mail enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group.  
@@ -82,7 +82,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     1. Go to the SharePoint site added in the **Admin tab** > **Manage provider** > **SharePoint**.
     2. Go to site contents and in the Learning app repository, check if the folder URLs are present.
     3. Check if the Microsoft 365 or mail-enabled security group is applied directly to the folder.
-        1. In SharePoint, go to the folder and select **More options** > **Manage access** > **More options** > **Advanced settings**. Check whether the group you added is listed and has "Domain Group" as its Type. You can check the group type in the [Microsoft Entra admin center](entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups?Microsoft_AAD_IAM_legacyAADRedirect=true).
+        1. In SharePoint, go to the folder and select **More options** > **Manage access** > **More options** > **Advanced settings**. Check whether the group you added is listed and has "Domain Group" as its Type. You can check the group type in the [Microsoft Entra admin center](https://entra.microsoft.com).
         1. Check if you have been added as a member of the [applied group](https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000006-0000-0ff1-ce00-000000000000&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dbHvyF-kZif3K7SyNj2ScGHQFpHpoRU_qMKYXtjhNzC6aH1DUWi_7XSuzYQS7JxBVXBvZogIzp3x0DvZWJHC_0Uq6JFHTseAKZT7Na3Gd9eiqaBUgogXajEhSg8zKPAiSKq8sL6CoDhRVLx5JNhS7YnNXt68KdPRtCJIAXGNxJgYsnVCQqXfmtgLyzWEWTG5IMX7_n1YPICQbn9f5qeBo1zyDnQzgfwnB5Ke7A3Z8n96XaRSQ9Zp4LUwApDPVb-qT&response_mode=form_post&nonce=638411368973289679.ZDczYjQyODItYzZhOS00NTg4LTk2NmQtNTYzZmFhYWJjOTNiZjFmOGZlMDAtMDM3Mi00MGMwLWE0NjctNDMxZDE1ZGEwOTgz&redirect_uri=https%3a%2f%2fadmin.microsoft.com%2flanding&ui_locales=en-US&mkt=en-US&client-request-id=dc00ca38-de9f-4ba2-b0d2-e5feda954810&x-client-SKU=ID_NET472&x-client-ver=6.34.0.0&sso_nonce=AwABAAEAAAACAOz_BQD0_54Xy0NptLyMJ2RNuNKBrhlrtk3CdnROqgoPjkuGLWsbcgcUprEEZNjX9hzfnwJF1Ja9c1Ad3FdTxR2V0YzcyoQgAA&mscrid=dc00ca38-de9f-4ba2-b0d2-e5feda954810).
     4. Open the folder and check if Microsoft 365 or mail-enabled security group (MESG) group is directly applied on the file items.  
     
