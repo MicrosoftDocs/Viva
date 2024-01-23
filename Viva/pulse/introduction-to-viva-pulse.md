@@ -18,7 +18,7 @@ search.appverid: MET150
 
 # Introduction to Microsoft Viva Pulse
 
-Microsoft Viva Pulse empowers leaders and managers to understand their team’s experience and needs in the moment. Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time.
+Microsoft Viva Pulse empowers leaders and managers to understand their team’s experience and needs in the moment. Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time. <br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHC]
 
