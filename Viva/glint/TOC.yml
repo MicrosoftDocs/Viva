@@ -54,21 +54,20 @@ items:
         items:
           - name: Viva Glint employee attribute fundamentals
             href: setup/attribute-fundamentals.md
-            items: 
-              - name: Set up communications in user time zones
-                href: setup/time-zones.md
           - name: Viva Glint's organizational hierarchy fundamentals
             href: setup/hierarchy-fundamentals.md
           - name: Create your Viva Glint Employee Attribute Template
             href: setup/create-employee-attribute-template.md
           - name: Set up attributes in Viva Glint
             href: setup/send-employee-attributes.md
-      - name: Understand and manage Viva Glint Secure File Transfer Protocol (SFTP)
-        items:
-          - name: Understand Viva Glint SFTP and data automation
-            href: setup/sftp-data-automation.md
-          - name: Set up Secure File Transfer Protocol (SFTP)  
-            href: setup/set-up-sftp.md
+          - name: Choose a data upload method
+            items:
+              - name: Understand Viva Glint SFTP and data automation
+                href: setup/sftp-data-automation.md
+              - name: Set up Secure File Transfer Protocol (SFTP) to import employee data  
+                href: setup/set-up-sftp.md
+              - name: Upload employee data to the People page  
+                href: setup/upload-employee-attributes.md
       - name: Manage features and settings
         href: setup/platform-features-settings.md
         items: 
@@ -147,6 +146,8 @@ items:
                 href: setup/survey-comparison-data.md
               - name: Understand Viva Glint survey access methods
                 href: setup/understand-survey-access-methods.md
+              - name: Set up communications in user time zones
+                href: setup/time-zones.md
               - name: Recognize survey field character limits in Viva Glint programs
                 href: setup/survey-character-limits.md
               - name: Preview pre-launch demo data in Viva Glint reporting
