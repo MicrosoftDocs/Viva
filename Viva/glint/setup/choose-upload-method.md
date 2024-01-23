@@ -23,9 +23,9 @@ ms.date: 1/23/2024
 Microsoft Viva Glint offers two methods to add your employee data to the platform. Viva Glint refers to these data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals. Select the best upload method for your organization based on the following information.
 
 1. [Upload employee data to the People page](https://go.microsoft.com/fwlink/?linkid=2230742)
-Upload employee data directly in the Viva Glint platform on the Peope page. The import function allows you to quickly modify employee records in bulk and add new users.
+Upload employee data directly in the Viva Glint platform on the People page. The import function allows you to quickly modify employee records in bulk and add new users.
    
-1. [Automacitally import employee data with Viva Glint SFTP](https://go.microsoft.com/fwlink/?linkid=2247429)
+1. [Automaatically import employee data with Viva Glint SFTP](https://go.microsoft.com/fwlink/?linkid=2247429)
 Use Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data. An automated data feed enables you to keep your HRIS data in sync with Viva Glint.
 
 ## Related resources
