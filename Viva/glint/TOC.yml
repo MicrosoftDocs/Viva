@@ -61,6 +61,7 @@ items:
           - name: Set up attributes in Viva Glint
             href: setup/send-employee-attributes.md
           - name: Choose a data upload method
+            href: setup/choose-upload-method.md
             items:
               - name: Understand Viva Glint SFTP and data automation
                 href: setup/sftp-data-automation.md
