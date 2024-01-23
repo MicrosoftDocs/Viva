@@ -57,7 +57,7 @@ Hover over the horizontal ellipses next to any survey item to select one of the 
 Adding a target to a specific question ensures that only the population targeted sees it within the survey. Using the search boxes, select one or more **User Role** to include or exclude. When finished, select **Save Changes**.
 
 ### Edit Question
-The Edit Question slider window provides two tabs for set up:
+The Edit Question slider window provides two tabs for setup:
 - Question Configuration
 - Associated Programs
 
