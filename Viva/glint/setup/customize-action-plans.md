@@ -117,20 +117,20 @@ Default Action Items will automatically appear anytime a new Focus Area is creat
 
 Custom content is identified within the column labeled *Shared* within *Content Resources* on the admin dashboard. 
 
-:::image type="content" source="../../media/glint/setup/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint.":::
+:::image type="content" source="../../media/glint/reports/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint.":::
 
 To delete custom content, it can't be associated with any Action Plans or any other resources. 
 Select the **trash can** symbol next to the custom resource.
 
 If any dependencies exist, the name(s) of the program(s) or resource(s) will display in a dialog box:
 
-:::image type="content" source="../../media/glint/setup/delete-content-resource.png" alt-text="Screenshot of the **Delete Content Resource** dialog box.":::
+:::image type="content" source="../../media/glint/reports/delete-content-resource.png" alt-text="Screenshot of the **Delete Content Resource** dialog box.":::
 
 Select **Got It!** and then you've removed the custom content from the associated resources, select the **trash can** symbol again. 
 
 When there are no dependencies, the **Are you sure?** dialog box displays. Select your appropriate answer.
 
-:::image type="content" source="../../media/glint/setup/resources-are-you-sure-dialog-box.png" alt-text="Screenshot of the **Are you sure!** dialog box.":::
+:::image type="content" source="../../media/glint/reports/resources-are-you-sure-dialog-box.png" alt-text="Screenshot of the **Are you sure!** dialog box.":::
 
 ### Resources
 
