@@ -107,7 +107,7 @@ Most standard survey items are automatically linked to a Suggested Action Templa
 1. Select the **trash can** symbol.
 
 >[!NOTE]
->The process above is for deleting Viva Glint suggested resources for action items. See below for deleting custom resources.
+>The process above is for deleting Viva Glint suggested *action items*. See below for deleting *custom resources*.
 
 ## Add default action items to a Suggested Action Template 
 
