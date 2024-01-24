@@ -30,7 +30,7 @@ When a team is dissolved or retired due to an organizational change, org owners 
 
 Microsoft 365 group-connected teams can't be deleted from within Viva Goals. However, the associated Microsoft 365 group can be deleted in its own service, whether that service is Microsoft Teams, the Microsoft Azure portal, or something else.
 
-If the connected group is deleted, the Viva Goals team connected to that group will be archived. If the group is restored within the [soft-delete period](..\admin\create-groups\restore-deleted-group.md), <!--Editor's Note: Check to ensure that link actually works.-->the Viva Goals team will be automatically reactivated. If the group is permanently deleted, org owners and team owners won't be able to restore the team, but they will be able to delete the archived team so long as it doesn't contain any OKRs.
+If the connected group is deleted, the Viva Goals team connected to that group will be archived. If the group is restored within the [soft-delete period](..\..\microsoft-365\admin\create-groups\restore-deleted-group.md), <!--Editor's Note: Check to ensure that link actually works.-->the Viva Goals team will be automatically reactivated. If the group is permanently deleted, org owners and team owners won't be able to restore the team, but they will be able to delete the archived team so long as it doesn't contain any OKRs.
 
 ## Archive a team
 
