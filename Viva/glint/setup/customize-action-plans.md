@@ -1,12 +1,12 @@
 ---
-title: Customize action plans in Viva Glint   
+title: Customize Action Plans in Viva Glint   
 description: "Add personally selected content resources to action plans for your managers to use with their teams."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: viva strengths and opportunities, delete resources
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 01/24/2024
 ---
 
-# Customize action plans in Viva Glint    
+# Customize Action Plans in Viva Glint    
 
 Suggested Action Templates contain content that Microsoft Viva Glint has included as suggested action items to help managers achieve Focus Areas with their teams. Action Plan templates live in Content Resources within Action Taking on the admin dashboard. 
 
