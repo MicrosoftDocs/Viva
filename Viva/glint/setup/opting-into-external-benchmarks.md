@@ -39,7 +39,7 @@ If consent is **On**, there needs to be at least one ext benchmark selected to b
 >[!TIP]
 >There can't be a scenario where consent toggle is Off and an external benchmark is selected, or a scenario where consent toggle is saved as On and no external benchmarks were selected.
 
-:::image type="content" source="../../media/glint/setup/consent-external-benchmarks.png" alt-text="Screenshot of the **Select External Benchmarks" slider window with consent turned Off.":::
+:::image type="content" source="../../media/glint/setup/consent-external-benchmarks.png" alt-text="Screenshot of the **Select External Benchmarks** slider window with consent turned Off.":::
 
 ## Selecting external benchmarks after admin consent
 
@@ -51,7 +51,7 @@ After the consent toggle is changed to **On**, admins can select one or more ext
 - Nursing Excellence (Magnet)
 - Specialty
 
-:::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the **Select External Benchmarks" slider window with consent turned On.":::
+:::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the **Select External Benchmarks** slider window with consent turned On.":::
 
 >[!IMPORTANT]
 >The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey conent - including data collected through your use of Viva Gint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customesrs, including your organization. We will not identify your organization or reveal the content of survey coments in these benchmarks."
