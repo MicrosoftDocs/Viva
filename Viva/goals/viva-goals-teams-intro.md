@@ -42,7 +42,7 @@ Here are the three main capabilities that teams in Viva Goals have to help run s
 
 - **Dashboards** - A dashboard is a shared canvas to which team owners can add OKR-specific widgets that help run business review meetings. A team can have multiple dashboards.
 
-- **Analytics** - Surfaces metrics and reports to Helps understand OKR adoption and usage within the team and sub-teams. <!--Editor's Note: What is this saying?-->
+- **Analytics** - Surfaces metrics and reports to Helps understand OKR adoption and usage within the team and subteams. <!--Editor's Note: What is this saying?-->
 
 ## Types of teams in Viva Goals
 
@@ -56,9 +56,9 @@ There are two types of teams in Viva Goals:
 |--- | --- | --- |
 |Membership | Members can be added within or outside Viva Goals.<br>When adding members to these connected teams, users can pull members from different types of groups; the members are pulled one time and added to the group. | Members can only be added within Viva Goals. When adding members, multiple groups can be added as members.<!--Editor's Note: These require clarification.--> |
 | Expiration policies | Follows expiration policy of connected Microsoft 365 group. | No expiration policies. |
-| Administration | Organization owners can remove a team from the organization but cannot add members to the team unless they are owners of the team/group. | Organization owners have full access to the team. |
-| Lifecycle | Teams can be archived within Viva Goals, but they cannot be deleted within Viva Goals: the associated groups can be deleted in other Microsoft 365 services. | Teams can be deleted within Viva Goals. |
-| Making goals content private to team members | OKRs and related content can be restricted to team members by setting the team to Private. | This capability does not exist for native teams. |
+| Administration | Organization owners can remove a team from the organization but can't add members to the team unless they're owners of the team/group. | Organization owners have full access to the team. |
+| Lifecycle | Teams can be archived within Viva Goals, but they can't be deleted within Viva Goals: the associated groups can be deleted in other Microsoft 365 services. | Teams can be deleted within Viva Goals. |
+| Making goals content private to team members | OKRs and related content can be restricted to team members by setting the team to Private. | This capability doesn't exist for native teams. |
 
 ## Capabilities
 
@@ -74,12 +74,12 @@ Each user on a team has one of two roles: *team owner* or *team member*. Team ow
 
 All Viva Goals teams are hosted within an organization. Whenever a member or group is added to a team, that member or group is also added to the organization that hosts the team.
 
-### Parent vs sub-teams
+### Parent vs subteams
 
 You can select another team as your parent team during team creation or in settings. This lets you follow that team's OKR check-in rhythm, use that team's OKR creation permissions, and/or show up under that team in Team navigation. Typically, your parent team is the team directly above you in the organization (such as your department or division), and both teams follow the same rhythm.
 
 ### Lifecycle of teams
 
-Teams can be archived and deleted. We recommend you archive teams that are no longer in service so that only relevant and usfeul teams remain active. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are part of the team. Additionally, any sub-teams become independent teams in Viva Goals. Any OKRs previously assigned to the archived team will still be available to have actions performed on them, such as check-ins. Even though you won't be able to see the archived team under All Teams, you can see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
+Teams can be archived and deleted. We recommend you archive teams that are no longer in service so that only relevant and usfeul teams remain active. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are part of the team. Additionally, any subteams become independent teams in Viva Goals. Any OKRs previously assigned to the archived team will still be available to have actions performed on them, such as check-ins. Even though you won't be able to see the archived team under All Teams, you can see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
 
 Activities related to the archived team are halted: this includes the assigning of new team members and any ongoing team-level notifications. To resume these activities, you would need to restore the team.

@@ -28,17 +28,17 @@ When a team is dissolved or retired due to an organizational change, org owners 
 
 ## Delete a team
 
-Microsoft 365 group-connected teams cannot be deleted from within Viva Goals. However, the associated Microsoft 365 group can be deleted in its own service, whether that service is Microsoft Teams, the Microsoft Azure portal, or something else.
+Microsoft 365 group-connected teams can't be deleted from within Viva Goals. However, the associated Microsoft 365 group can be deleted in its own service, whether that service is Microsoft Teams, the Microsoft Azure portal, or something else.
 
-If the connected group is deleted, the Viva Goals team connected to that group will be archived. If the group is restored within the [soft-delete period](..\..\admin\create-groups\restore-deleted-group.md), <!--Editor's Note: Check to ensure that link actually works.-->the Viva Goals team will be automatically reactivated. If the group is permanently deleted, org owners and team owners won't be able to restore the team, but they will be able to delete the archived team so long as it does not contain any OKRs.
+If the connected group is deleted, the Viva Goals team connected to that group will be archived. If the group is restored within the [soft-delete period](..\..\admin\create-groups\restore-deleted-group.md), <!--Editor's Note: Check to ensure that link actually works.-->the Viva Goals team will be automatically reactivated. If the group is permanently deleted, org owners and team owners won't be able to restore the team, but they will be able to delete the archived team so long as it doesn't contain any OKRs.
 
 ## Archive a team
 
-In general, it's better to archive teams that are no longer in service so that the collection of teams remains relevant for use. Once a team has been archived, you will no longer be able to create OKRs and initiatives for that team, and no user will be considered a part of that team. Furthermore, any sub-teams will become independent teams in Viva Goals. OKRs previously assigned to the archived team will still be accessible: that is, you will still be able to perform actions on them, such as check-ins.
+In general, it's better to archive teams that are no longer in service so that the collection of teams remains relevant for use. Once a team has been archived, you'll no longer be able to create OKRs and initiatives for that team, and no user will be considered a part of that team. Furthermore, any subteams will become independent teams in Viva Goals. OKRs previously assigned to the archived team will still be accessible: that is, you'll still be able to perform actions on them, such as check-ins.
 
-Even though you won't be able to see the archived team on the All Teams page. <!--Editor's Note: I'd like clarification on "All Teams" vs "Teams" tab. Are they the same? If so, which is correct? Let's make sure we're using the correct terminology here. Claririfcation: "All Teams" is a page. "Teams" is a tab.-->now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. you can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
+Even though you won't be able to see the archived team on the All Teams page <!--Editor's Note: I'd like clarification on "All Teams" vs "Teams" tab. Are they the same? If so, which is correct? Let's make sure we're using the correct terminology here. Claririfcation: "All Teams" is a page. "Teams" is a tab.-->now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. you can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
 
-Any activities related to the archive team will be halted, including the assigning of new team members and any team-level notifications. These activities will not resume unless the team is restored.
+Any activities related to the archive team will be halted, including the assigning of new team members and any team-level notifications. These activities won't resume unless the team is restored.
 
 To archive a team as an org owner or administrator, go to **Admin** > **Teams** > **Actions** and select **Archive** for the team you want to archive.
 
