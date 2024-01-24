@@ -8,6 +8,12 @@
        href: setup.md
      - name: Deep linking into Viva Engage
        href: deeplinks.md
+   - name: Copilot in Viva Engage
+     items:
+     - name: Set up Copilot in Viva Engage
+       href: configure-copilot-for-engage.md 
+     - name: Data, privacy, and security for Copilot in Viva Engage
+       href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
@@ -156,12 +162,3 @@
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
         - name: Viva Engage and Microsoft Defender
           href: /viva/engage/viva-engage-and-defender
-   - name: Troubleshoot issues
-     items:
-       - name: Troubleshoot your Viva Engage network for problems with Native Mode
-         href: troubleshoot-native-mode.md
-       - name: User sign-in issues on Android devices
-         href: /viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices
-       - name: Error when selecting the Viva Engage tile in Office 365
-         href: /viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365
-        

@@ -2,7 +2,7 @@
 title: "Find external messaging participants in a Viva Engage network"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 author: Starshine89
 manager: elizapo
 ms.date: 7/11/2023

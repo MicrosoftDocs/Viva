@@ -29,13 +29,16 @@ To access the Microsoft Viva Glint application, a Global administrator must regi
 
 ## Set up and manage a Viva Glint Microsoft Entra tenant
 
-For information on tenant creation, user and group creation, bulk user maintenance, authentication options, and how to enable single sign-on with Microsoft Entra ID, see the following articles:
+For information on tenant creation, user and group creation, bulk user maintenance, authentication options, how to enable single sign-on, and federation, see the following articles:
 
 - [Set up a Microsoft Viva Glint tenant](https://go.microsoft.com/fwlink/?linkid=2230741)
 - [Create users and groups in Microsoft Entra ID](/training/modules/create-users-and-groups-in-azure-active-directory/)
 - [Perform bulk user maintenance in Microsoft Entra ID](/training/modules/manage-user-accounts-licenses-microsoft-365/7-perform-bulk-user-maintenance-azure-active-directory)
 - [What authentication and verification methods are available in Microsoft Entra ID?](/azure/active-directory/authentication/concept-authentication-methods)
 - [Enable single sign-on for an enterprise application](/azure/active-directory/manage-apps/add-application-portal-setup-sso)
+- [What is federation with Microsoft Entra ID?](/entra/identity/hybrid/connect/whatis-fed)
+- [Microsoft Entra Connect and federation](/entra/identity/hybrid/connect/how-to-connect-fed-whatis)
+- [Microsoft Entra federation compatibility list](/entra/identity/hybrid/connect/how-to-connect-fed-compatibility)
 
 >[!TIP]
 > Add all users in Microsoft Entra ID to minimize friction for ongoing role and data access changes for Viva Glint users. Control Viva Glint User Role membership and permissions in the Viva Glint application.

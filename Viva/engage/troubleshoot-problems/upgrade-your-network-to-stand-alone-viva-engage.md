@@ -2,13 +2,14 @@
 title: "Upgrade your network to stand-alone Yammer Enterprise subscription"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 author: ToniSFrench
 manager: elizapo
 ms.date: 9/23/2019
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid:

@@ -23,7 +23,7 @@ ms.date: 05/22/2023
 Microsoft Viva Glint offers multiple survey access methods that can be used independently or in combination to meet the needs of your employee population.
 
 > [!NOTE] 
-> Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys.
+> Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations accross other Viva applications.
 
 <a name='set-up-survey-access-that-requires-authentication-with-azure-active-directory'></a>
 
@@ -46,4 +46,4 @@ When access with Microsoft Entra ID isn't enabled, this is the survey access met
 
 ## Set up attribute-based survey access
 
-Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys by entering two unique pieces of employee information selected by an admin rather than authenticating in Viva Glint. To set up attribute-based survey access, follow the guidance in this article: [Set up attribute-based survey access in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230745).
+Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys by entering two unique pieces of employee information selected by an admin rather than authenticating in Viva Glint. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. To set up attribute-based survey access, follow the guidance in this article: [Set up attribute-based survey access in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230745).

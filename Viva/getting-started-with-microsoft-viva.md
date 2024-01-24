@@ -3,7 +3,7 @@ title: "Getting started with Microsoft Viva"
 ms.reviewer: loreenl
 ms.author:  elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 09/20/2023
 audience: Admin
 f1.keywords:
