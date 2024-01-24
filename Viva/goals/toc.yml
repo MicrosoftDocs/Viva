@@ -65,7 +65,19 @@ items:
       href: approval-workflows.md  
 
   - name: Create and edit teams
-    href: create-and-edit-teams-and-subteams.md
+    items:
+    - name: Introduction to Viva Goals teams
+      href: viva-goals-teams-intro.md
+    - name: Microsoft 365 group-connected teams
+      items:
+      - name: Create a Viva Goals team from a Microsoft 365 group
+        href: create-viva-goals-team-from-m365-group.md
+      - name: Manage members of a group-connected team
+        href: manage-group-connected-team-members.md
+      - name: Delete, archive, or restore a group-connected team
+        href: delete-archive-restore-m365-group-connected-team.md
+    - name: Viva Goals-native teams
+      href: create-and-edit-teams-and-subteams.md
 
   - name: User setup
     items:

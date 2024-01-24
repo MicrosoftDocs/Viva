@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2024
+ms.date: 01/23/2024
 title: Use your Microsoft 365 groups as teams in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -34,9 +34,9 @@ There are two ways to create teams from your groups in Viva Goals:
 
 If you already own a Microsoft 365 group or Microsoft Teams team, you will find that group under *Create team from groups* in the left nav in Viva Goals. Select the group, then select **Confirm** in the resulting dialog. <!--Editor's Note: Instructions unclear. "You can choose the group that you want to use as Viva Goals team, click and confirm, to easily start using that group." Also, images unclear. Note: Images will be replaced.-->
 
-![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\m365-team-creation.png)
+![Screenshot that shows a view of a Viva Goals user's OKRs tab, including the Create team from groups section in the left nav.](..\media\goals\viva-goals-teams\m365-team-creation.png)
 
-![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\more-information.png)
+![Screenshot that shows the Creating team from Microsoft 365 group dialog, with the More information dropdown opened.](..\media\goals\viva-goals-teams\more-information.png)
 
 If you want to make it so that only members of the team can see the team's OKRs, select **More information** from the confirmation screen and set the **Members in this organization can view OKRs and related content** toggle to off.
 
@@ -50,13 +50,13 @@ Because the Viva Goals team is created from the Microsoft 365 group, all members
 
     - **Use an existing Microsoft 365 group** - This will create a Microsoft 365 group-connected team, which is probably what you want if you're reading this article.
 
-    - **Create a team from scratch** - This will *not* create a Microosft 365 group-connected team: instead, you will be creating a new Viva Goals team from scratch.
+    - **Create a team from scratch** - This will *not* create a Microsoft 365 group-connected team: instead, you will be creating a new Viva Goals team from scratch.
 
-    ![Image4](..\media\goals\viva-goals-teams\new-team.png)
+        ![Screenshot that shows the New team dialog and its two options: Use an existing Microsoft 365 group and Start from scratch](..\media\goals\viva-goals-teams\new-team.png)
 
 1. Assuming you chose **Use an existing Microsoft 365 group**, a new dialog will appear. Choose which of the Microsoft 365 groups you own you want to use to create a new Viva Goals team.
 
-    ![What](..\media\goals\viva-goals-teams\what-group-do-you-want-to-use.png)
+    ![Screenshot that shows the What group do you want to use? dialog, with the More settings dropdown expanded.](..\media\goals\viva-goals-teams\what-group-do-you-want-to-use.png)
 
 1. Under **More settings**, you will find three additional settings: **Privacy**, **Parent team**, and **Visibility toggle**.
 

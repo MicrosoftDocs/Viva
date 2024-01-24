@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2024
+ms.date: 01/23/2024
 title: Delete, archive, or restore a Microsoft 365 group-connected team
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -42,9 +42,9 @@ Any activities related to the archive team will be halted, including the assigni
 
 To archive a team as an org owner or administrator, go to **Admin** > **Teams** > **Actions** and select **Archive** for the team you want to archive.
 
-To archive a team as an org or team owner or administrator, go to the team's OKRs page, select the three dots in the upper right, and choose **Archive this team**.
+To archive a team as an org or team owner or administrator, go to the team's Goals page, select the three dots in the upper right, and choose **Archive this team**.
 
-![Screenshot that shows BLAH](..\media\goals\viva-goals-teams\archive-this-team.png)
+![Screenshot that shows the Goals page, with the three dots menu expanded and the Archive this team option highlighted.](..\media\goals\viva-goals-teams\archive-this-team.png)
 
 Once a team has been archived, it will be marked as **Archived** on the **Teams** tab in the admin console and won't be visible anywhere else. Any objectives previously owned by the team will remain unchanged, but you won't be able to assign new objectives to the team.
 

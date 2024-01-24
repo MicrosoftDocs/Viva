@@ -1,5 +1,5 @@
 ---
-ms.date: 01/22/2024
+ms.date: 01/23/2024
 title: Introduction to teams in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
