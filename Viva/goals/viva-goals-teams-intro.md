@@ -28,7 +28,7 @@ Viva Goals lets you create teams for departments or large groups working toward 
 
 - Assigning an OKR to a team helps the team feel a sense of ownership over that goal and creates a clear record of that goal for other parts of your org.
 
-- Teams have permissions that let you control who can create and view your team's OKRs.
+- Teams has permissions that let you control who can create and view your team's OKRs.
 
 - Team goals are pinned in the left nav of the Viva Goals app so team members can easily find them. Team members also receive email updates for goal statuses and check-ins.
 
@@ -80,6 +80,6 @@ You can select another team as your parent team during team creation or in setti
 
 ### Lifecycle of teams
 
-Teams can be archived and deleted. We recommend you archive teams that are no longer in service so that only relevant and usfeul teams remain active. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are part of the team. Additionally, any subteams become independent teams in Viva Goals. Any OKRs previously assigned to the archived team will still be available to have actions performed on them, such as check-ins. Even though you won't be able to see the archived team under All Teams, you can see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
+Teams can be archived and deleted. We recommend you archive teams that are no longer in service so that only relevant and useful teams remain active. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are part of the team. Additionally, any subteams become independent teams in Viva Goals. Any OKRs previously assigned to the archived team will still be available to have actions performed on them, such as check-ins. Even though you won't be able to see the archived team under All Teams, you can see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
 
 Activities related to the archived team are halted: this includes the assigning of new team members and any ongoing team-level notifications. To resume these activities, you would need to restore the team.
