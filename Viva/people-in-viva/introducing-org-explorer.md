@@ -17,7 +17,9 @@ Org Explorer helps you visualize and explore your company’s internal structure
 
 Org Explorer is available in Outlook.
 
-![Image of Org Explorer in Outlook for Windows desktop.](../media/org-explorer.jpg)
+![Org Explorer](media/introducing-org-explorer/org-explorer.jpg)
+
+
 
 |#  |Element  |Function|
 |----------|-----------|------------|
