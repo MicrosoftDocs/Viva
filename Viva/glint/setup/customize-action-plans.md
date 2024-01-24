@@ -104,12 +104,34 @@ Most standard survey items are automatically linked to a Suggested Action Templa
 **Procedure**
 
 1. Tap the action item to be deleted. 
-1. Select the **trash can** symbol. 
+1. Select the **trash can** symbol.
+
+>[!NOTE]
+>The process above is for deleting Viva Glint suggested resources for action items. See below for deleting custom resources.
 
 ## Add default action items to a Suggested Action Template 
 
 Default Action Items will automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, tap on the item and select **Move to Default**.
 
-## Resources
+## Deleting custom content resources
+
+Custom content is identified within the column labeled *Shared* within *Content Resources* on the admin dashboard. 
+
+:::image type="content" source="../../media/glint/setup/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint.":::
+
+To delete custom content, it can't be associated with any Action Plans or any other resources. 
+Select the **trash can** symbol next to the custom resource.
+
+If any dependencies exist, the name(s) of the program(s) or resource(s) will display in a dialog box:
+
+:::image type="content" source="../../media/glint/setup/delete-content-resource.png" alt-text="Screenshot of the **Delete Content Resource** dialog box.":::
+
+Select **Got It!** and then you've removed the custom content from the associated resources, select the **trash can** symbol again. 
+
+When there are no dependencies, the **Are you sure?** dialog box displays. Select your appropriate answer.
+
+:::image type="content" source="../../media/glint/setup/resources-are-you-sure-dialog-box.png" alt-text="Screenshot of the **Are you sure!** dialog box.":::
+
+### Resources
 
 [This PowerPoint deck explains how to initially set up a Suggested Action Template](https://app.us1.glintinc.com/session/auth?RelayState=insided:SAMLRequest%3DnVNNj9owEP0rke%252F5hLLUIiAKqoq0bSNIe9jLyjjDYimxU48D9N93kpCWQ5cDp1gzb%252BbNezOZLS5V6Z3AojI6ZXEQscV8hqIqa75s3FFv4VcD6DyCaeRdImWN1dwIVMi1qAC5k3y3%252FPrMkyDitTXOSFMyb7NO2es%252BSsbw8QmmMJ6OnyaHidwXzPs5EFIFAREb2Gh0QjsKRcnIj8Z%252BHOXxBz6K%252BWgaTKPJC%252FOya%252BtPShdKv92fY9%252BDkH%252FJ88zPvu9y5q1JidLCddRH52rkYShqFbyVSlNGBtJUbSDEo7BQhK3eJLS9BwsEe1ISaIyTKsBuilRppBcJWiIl274ro7GpwO567I%252Ft8z8mROM36J%252Bpl58ELe%252B1vqcluztC4nOkjPV74J079mYB93WLYRI271T5oH2sZ%252BFNr2HB36h4s85MqeTvRxb82dhKuPfRcRB3EVX4hw7KG401SHVQnWdlac4rC8JBypxtgIXDZNerg6K7QfLUweWhG1yZqhZWYbtwuAjpBldvG69KMm0Lh0c8vguTXLatKZzR52xs0Z4wSBKWW0FeGOuum%252FnfPPM%252B944df7O3%252F%252Bn8Dw%253D%253D&isPassive=false). 
