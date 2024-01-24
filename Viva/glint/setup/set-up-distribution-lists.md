@@ -132,7 +132,7 @@ To move forward and remove the Distribution List, it must be removed from the ta
 - Follow the onscreen guidance to delete the list. A window will display to confirm that you mean to delete the list.
 - Repeat for all programs in which that Distribution List should be removed.
 
-:::image type="content" source="../../media/glint/setup/confirm-delete-distribution-list.png" alt-text="Screenshot of Are you sure window to confirm deletion of a Distribution List.":::
+:::image type="content" source="../../media/glint/setup/confirm-delete-distro-list.png" alt-text="Screenshot of **Are you sure** window to confirm deletion of a Distribution List.":::
 
 >[!NOTE]
 >Deleting a Distribution List is a permanent action. The data of the members of that list is not deleted.
