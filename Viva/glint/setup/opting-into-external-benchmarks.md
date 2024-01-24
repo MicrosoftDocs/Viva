@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 01/24/2024
 ---
 
-# Opting into external benhmarks
+# Opting into external benchmarks
 
 Viva Glint admins can opt into - *give consent to use* - external benchmarks. After doing so, they can select one or more of these benchmarks for managers to use when viewing reports.
 
