@@ -43,6 +43,8 @@
               href: configure-sharepoint-content-source.md
             - name: Configure permissions for SharePoint content
               href: sharepoint-permissions.md
+            - name: FAQs in SharePoint
+              href: sharepoint-faq.md
         - name: Workday
           href: workday-integration.md
         - name: Workday FAQs

@@ -143,8 +143,11 @@ items:
                 href: reports/aggregate-trending.md
               - name: Recommendations for using Viva Glint Survey Coach and Tooltips
                 href: setup/survey-coach.md
-              - name: Choose your survey comparison data for Viva Glint reporting
+              - name: Choose your comparison data for Viva Glint reporting
                 href: setup/survey-comparison-data.md
+                items:
+                  - name: Opting into external benchmark comparisons
+                    href: setup/opting-into-external-benchmarks.md
               - name: Understand Viva Glint survey access methods
                 href: setup/understand-survey-access-methods.md
               - name: Set up communications in user time zones
