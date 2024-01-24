@@ -4,7 +4,7 @@ title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

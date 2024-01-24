@@ -12,7 +12,9 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-pulse  
+ms.collection:
+- m365initiative-viva-pulse 
+- essentials-accountability
 search.appverid: MET150
 ---
 

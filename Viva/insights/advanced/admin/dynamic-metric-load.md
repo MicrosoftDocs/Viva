@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/10/2023
+ms.date: 1/2/2024
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -26,6 +26,21 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 
 1. Provide the Tenant ID to the Viva Insights team. The Tenant ID can be found in the [Azure portal](https://portal.azure.com). Under **Azure services**, select **Microsoft Entra ID**, then find the **Tenant ID** on the **Overview** page.
 1. The [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator) will need to assign the relevant roles for the steps below, if they are not already assigned.
+
+### Process overview
+
+| Task | Role | Resources required |
+|---|---|---|
+| 1. Create Azure Active Directory Application  |  Application Administrator or Application Developer   |  |
+| 2. Provision Storage Account  |  Application Administrator or Application Developer   |  |
+| 3. Provision Key Vault and store client secret  |  Application Administrator or Application Developer   | App secret |
+| 4. Enable MGDC for tenant  |  Global Administrator   |  |
+| 5. Mark a Viva Insights query for export  |  Insights Analyst   |  |
+| 6. Register MGDC application  |  Azure AD Application Owner, with Insights Analyst role   | Storage account, Azure AD Application  |
+| 7. Consent to application/dataset  |  Global Administrator   |  |
+| 8. Deploy ARM template  |  Application Administrator or Application Developer, with Insights Analyst role  | MGDC app, App secret, Container |
+| 9. Execute pipeline  |  Application Administrator or Application Developer   | Data factory |
+| 10. Find the output of your extraction |  Application Administrator or Application Developer   | Container name  |
 
 ## Steps
 
@@ -162,76 +177,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
-1. Open a browser and sign in to your [Azure portal](https://portal.azure.com).
-1. Under **Azure services**, select **Deploy a custom template**.
-1. Select **Build your own template in the editor**.
-
-   :::image type="content" source="../images/dynamic-metric-load-step08.png" lightbox="../images/dynamic-metric-load-step08.png" alt-text="Screenshot that shows the template editor":::
-
-    For a dynamic dataset, follow steps 4-5. Then skip step 6 and proceed to step 7.
-
-    For the static dataset, skip steps 4-5 and proceed to step 6. 
-
-4. Copy the raw file from [this preformatted ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV2-ADFOnly) by selecting the double stacked squares icon on the right. Paste it into the template editor.
-1. In the template editor, edit the ARM template to match the dataset approved for export. Replace the code in the "structure" array (lines 273-284) with information specific to the dataset columns.
-
-    * **To edit the ARM template:** Add a new element in the “structure” array for each column. Within each element, edit “name” and "type" to match the name and data type of one column in the dataset. For example, to export PersonId, MetricDate, and After-hours email hours, the "structure" array should be edited as follows:  
-
-      :::image type="content" source="../images/dynamic-metric-load-step0802c.png" alt-text="Screenshot that shows how to edit the ARM template.":::
-
-    * **To edit name:** To view the approved dataset(s) and their column(s), [use these steps](/graph/app-registration#view-app-registration-details). *(Applies to Microsoft Entra Application owner with Insights Analyst role, or Global Administrator.)*
-
-    * **To edit type:** The following are some of the most common data types:
-        * string - sequence of characters
-        * dateTime - date or time
-        * float - numbers, can include decimal points
-        * boolean - binary value, either true or false
-
-        For example:
-
-        | Column | Data type|
-        |-----|-----|
-        | PersonId | string |
-        | MetricDate | dateTime |
-        | Collaboration hours | float |
-        | Large and short meeting hours | float |
-        | Available-to-focus hours | float |
-        | Unscheduled call hours | float |
-
-    * Reach out to the Viva Insights team if help is needed setting up the ARM template.
-
-
-1. Copy the raw file from [this ARM template](https://github.com/niblak/dataconnect-solutions/blob/vivaarmtemplates/ARMTemplates/VivaInsights/SamplePipeline/mainTemplateV1-ADFOnly.json) by selecting the double-stacked squares icon on the right. Paste it into the template editor.
-6. Select **Save**.
-1. On **Basics**, fill out **Project details** with the following values:
-    * **Subscription:** Select your Azure subscription
-    * **Resource group:** mgdc-app-resource (or select an existing resource group)
-    * **Region:** Select region
-    * **Microsoft Entra tenant ID:**
-        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Directory (tenant) ID**.
-    * **App ID:** 
-        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then under **Essentials**, find the **Application (client) ID**.
-    * **App object ID:** 
-        * In the Azure portal, under **Azure services**, select **App registrations**. Select your app, then select the link below **Managed application in local directory**. Find the **Object ID** under **Properties**. (This is not the same **Object ID** as the ID under **Essentials**.) 
-
-          :::image type="content" source="../images/dynamic-metric-load-step0803b.png" alt-text="Screenshot that shows how to find the App object ID":::
-
-    * **Data Factory Name:** mgdcdemodatafactory (or you can name and select your own) 
-    * **Data Lake Storage Name:**
-        * The name of the Storage account you created in Step 2 (mgdcdemoap unless you named your own). This name can also be found in **Storage accounts** in **Azure Portal**.
-    * **Data Lake Storage Endpoint:**
-        * In the Azure portal, under **Azure services**, select **Storage accounts** and select your storage account. Then, under **Settings** in the left navigation menu, select **Endpoints**. Under **Data Lake Storage**, find the **Primary endpoint**.
-        * URI will be in the form: https://**[storage account name]**.dfs.core.windows.net/ 
-    * **App Secret Key Vault Name:**
-        * The name of the Key Vault you created in Step 3 (mgdcdemokeyvault unless you named your own). This name can also be found in **Key vaults** in **Azure Portal**.
-    * **App Secret Key Vault Secret Name:**
-        * The name of the secret you stored in Step 3 (mgdc-app-secret unless you named your own). This name can also be found in **Key vaults** in **Azure Portal**. Select your **Key vault**, then under **Objects** select **Secrets**. Find the Name. 
-    * **Data Set Name:**
-        * In the Azure portal, under **Azure services**, select **Microsoft Graph Data Connect**. Select your App, then under **Datasets**, find the Name.
-8. Select **Review + create**. 
-1. Select **Create**.
-
-   :::image type="content" source="../images/dynamic-metric-load-step0804.png" alt-text="Screenshot that shows how to create the ARM template":::
+Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline.
 
 ### 9. Execute pipeline
 

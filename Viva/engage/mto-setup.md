@@ -1,10 +1,10 @@
 ---
-title: "Set up Viva Engage as a multitenant organization"
-description: "How to set up Viva Engage as a multitenant organization."
+title: "Set up Viva Engage for a multitenant organization"
+description: "How to set up Viva Engage for a multitenant organization."
 ms.reviewer: ahosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 12/06/2023
 audience: Admin
 f1.keywords:
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Set up Viva Engage as a multitenant organization
+# Set up Viva Engage for a multitenant organization
 
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
@@ -36,9 +36,11 @@ Complete these tasks in the order they appear. Administrator role requirements v
 
 #### Tenants connect in hub-and-spoke model
 
-Viva Engage uses a hub-and-spoke model to communicate across tenants. In this model, the designated "hub" is the central tenant that generates official communication to the other "spoke" tenants. Leaders, corporate communicators, and policy makers reside on the hub tenant.
+Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* rests at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
 
-After the hub tenant is configured for multitenant organization, all tenants can communicate as a single unified network. Identified leaders on the hub tenant have the ability notify everyone across the spoke tenants by posting a single announcement from their storyline.
+*Spoke* tenants are the remaining networks. By using storyline and Leadership corner, leaders on the hub can broadcast content to all spoke tenants simultaneously, ensuring that information is distributed in a timely and efficient manner.
+
+After the hub tenant is configured for multitenant organization, all tenants can communicate as a single, unified network.  
 
 > [!NOTE]
 > Only Storyline and Leadership corner are available for multi-tenant organization.
@@ -66,7 +68,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 *For Microsoft 365 Global administrators* 
 
 This task assumes that all requirements for Microsoft 365 and Viva Engage are met.
-When designing an effective multitenant organization, it’s crucial to establish the hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
+When designing an effective multitenant organization, it’s crucial to establish a hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
 
 |Task description|Instructions|
 |----------------|----------------|
@@ -82,8 +84,8 @@ This process requires that you use Microsoft Graph API, an API with separate [re
 
 |Task description|Instructions|
 |----------------|----------------|
-|A. Configure the multitenant organization and participating tenants in the Microsoft 365 admin center.|<ol><li>Sign into the owner tenant and create a multitenant organization.</li><li>Add all tenants to the multitenant organization. See [Configure a multitenant organization using the Microsoft Graph API](/graph/use-the-api|
-|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.| [Templates](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-templates) |
+|A. Configure the multitenant organization and participating tenants in the Microsoft 365 admin center.|<ol><li>Sign into the owner tenant and create a multitenant organization.</li><li>Add all tenants to the multitenant organization. See [Configure a multitenant organization using the Microsoft Graph API](/graph/use-the-api)|
+|B.	Generate the multitenant organization trust policy. Configure the policy template to correspond to partner configurations.| Configure a policy from [these templates](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-templates). |
 |C. Synchronize across the multitenant organization.|See [Configure cross-tenant synchronization](/azure/active-directory/multi-tenant-organizations/cross-tenant-synchronization-configure).|
 |D. If you run into problems, troubleshoot the issue.|See [Known issues for multitenant organizations](/entra/identity/multi-tenant-organizations/multi-tenant-organization-known-issues).|
 
@@ -97,7 +99,7 @@ After you establish the multitenant organization in Microsoft 365, configure mul
 
 |Task description|Instructions|
 |----------------|----------------|
-|On the designated hub tenant, configure Viva Engage to recognize the tenant as the hub.|In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the **Feature management** tab,  select the **MTO policy** tile.</li><li>Select the hub tenant.</li>|
+|On the designated hub tenant, configure Viva Engage to recognize the tenant as the hub.|<ol><li>In the Viva Engage Teams application, select the ellipses button from the top navigation menu and select **Admin**.</li><li>On the **Feature management** tab,  select the **MTO policy** tile.</li><li>Select the hub tenant.</li>|
 
 ## Configure the hub tenant for Storyline
 

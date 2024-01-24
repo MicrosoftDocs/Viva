@@ -8,6 +8,7 @@ ms.collection:
 - viva-insights-manager
 - viva-insights-leader
 - highpri
+- essentials-overview
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
