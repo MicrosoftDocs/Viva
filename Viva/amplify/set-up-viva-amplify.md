@@ -35,7 +35,7 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 - Microsoft Viva with Glint add-on
 - Microsoft Viva with Glint add-on for Faculty
 
-## prerequisites
+## Prerequisites
 
 Campaigns are stored in the associated users' OneDrive for Business. Therefore, users need to have OneDrive for Business in place to be able to create campaigns in Viva Amplify. [Learn how to set up OneDrive for your organization](/microsoft-365/admin/setup/set-up-file-storage-and-sharing).
 
