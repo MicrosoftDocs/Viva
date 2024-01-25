@@ -64,7 +64,7 @@ Choose your languages, construct a header and coaching content. Select a resourc
 
 ## Coaching set up for managers using Team Conversations
 
-:::image type="content" source="../../media/glint/reports/program-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page with Team Conversations enabled.":::
+:::image type="content" source="../../media/glint/reports/progam-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page with Team Conversations enabled.":::
 
 Two more coaching sections need to be set up for managers with Team Conversations enabled. 
 
