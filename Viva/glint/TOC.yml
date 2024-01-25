@@ -277,7 +277,7 @@ items:
                     - name: Team Conversations presentation kit for managers
                       href: reports/coaching-team-conversations.md
                     - name: Set up resource guidance for managers using Team Conversations
-                      href:reports/team-conversations-resource-guidance.md
+                      href: reports/team-conversations-resource-guidance.md
   - name: Communicate and roll out Viva Glint programs
     items:
       - name: Communicate with Viva Glint Nudges
