@@ -22,7 +22,7 @@ ms.date: 01/25/2024
 
 The final setup page in Program Summary is the Coaching page. On this page, admins can provide access to coaching assistance for their managers for Team Summary and Team Conversations.  
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-access.png" alt-text="Screenshot of the Coaching setup page in Program Summary.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-access.png" alt-text="Screenshot of the Coaching setup page in Program Summary.":::
 
 Admins who have not enabled Team Conversations for their managers have only one section to set up:
 - **Manager Coaching Content**
@@ -33,7 +33,7 @@ Admins who have enabled Team Conversations have two additional sections to set u
 
 ## Coaching set up for managers not using Team Conversations 
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-without-team-conversations.png" alt-text="Screenshot of the **Manager Coaching Content** section on the Coaching page.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-without-team-conversations.png" alt-text="Screenshot of the **Manager Coaching Content** section on the Coaching page.":::
 
 Coaching content provides best practices for your managers to have meaningful conversations with their teams about the future. Within Manager Coaching Content, provision these sections: 
 
@@ -47,7 +47,7 @@ When you have made your choices, select **Save Changes.**
 Customize the coaching content for Top Strengths. 
 Select the **Edit** symbol to open the following slider window:
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-top-strengths.png" alt-text="Screenshot of the **Top Strengths** slider window.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-top-strengths.png" alt-text="Screenshot of the **Top Strengths** slider window.":::
 
 Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu.
 
@@ -55,13 +55,13 @@ Choose your languages, construct a header and coaching content. Select a resourc
 Customize the coaching content for Top Opportunities. 
 Select the **Edit** symbol to open the following slider window:
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-top-opps.png" alt-text="Screenshot of the **Top Opportunitiess** slider window.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-top-opps.png" alt-text="Screenshot of the **Top Opportunitiess** slider window.":::
 
 Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu.
-
+rep
 ## Coaching set up for managers using Team Conversations
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page for admins who have enabled Team Conversations.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page for admins who have enabled Team Conversations.":::
 
 Two additional coaching sections need to be set up for managers with Team Conversations enabled. 
 
