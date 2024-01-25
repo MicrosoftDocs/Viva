@@ -30,7 +30,7 @@ Enable or disable guidance by switching to **Om** or **Off**. Enabling guidance 
 At any time, or once this page is entirely set up, select **Preview** to see a manager's view. The presentation includes: 
 
 - Slide names (on the left) for navigation 
-- A personal note to the manager 
+- A personal note to your manager 
 - Best Practices & Tips (resources) you have selected. 
 
 Select **Get Started** to begin the presentation. 
