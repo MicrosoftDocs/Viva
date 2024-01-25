@@ -24,7 +24,8 @@ The final setup page in Program Summary is the Coaching page. On this page, admi
 
 :::image type="content" source="../../media/glint/setup/program-summary-coaching-access.png" alt-text="Screenshot of the Coaching setup page in Program Summary.":::
 
-Admins who have not enabled Team Conversations for their managers have only one section to set up - **Manager Coaching Content.**
+Admins who have not enabled Team Conversations for their managers have only one section to set up:
+- **Manager Coaching Content**
 
 Admins who have enabled Team Conversations have two additional sections to set up:
 - **Team Conversation Presentation Guidance**
@@ -65,6 +66,6 @@ Choose your languages, construct a header and coaching content. Select a resourc
 Two additional coaching sections need to be set up for managers with Team Conversations enabled. 
 
 - [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602) 
-- Team Conversations resource guidance  
+- [Set up resource guidance for managers using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2258496)
 
 
