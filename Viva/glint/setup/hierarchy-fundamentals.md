@@ -28,6 +28,9 @@ A hierarchy filters down an employee's attributes into levels from highest to lo
 - Locational
 - Departmental
 
+> [!NOTE]
+> Viva Glint allows for up to 10 reporting hierarchies, including your manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy, which calculates up to 25 levels.
+
 ## Establish your managerial hierarchy
 
 Managerial hierarchy is typically used as the primary hierarchy ranking. Managerial hierarchy is the only hierarchical level that Microsoft Viva Glint processes automatically. Every employee in your organization should have a manager. The only person on your Employee Data File who won't have a manager associated with them is your organization's CEO or top-level person. 

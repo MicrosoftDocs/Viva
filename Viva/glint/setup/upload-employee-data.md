@@ -30,7 +30,7 @@ Learn what we collect, why, how you deliver it to us, and how we use it to help 
 
 [Viva Glint's organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 
-[Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230742)
+[Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230862)
 
 [Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
 
