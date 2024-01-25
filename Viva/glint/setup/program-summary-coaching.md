@@ -1,12 +1,12 @@
 ---
 title: Set up Coaching page in Program Summary
-description: "Managers see coaching assistance admins provided on their Team Summary dashboard."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+description: "Admins can make coaching assistance for their managers on their Team Summary dashboard."
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 01/25/2024
 ---
 
 # Set up Coaching page in Program Summary
