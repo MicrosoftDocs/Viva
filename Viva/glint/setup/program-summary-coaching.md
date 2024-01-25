@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Team Conversations,
+keywords: Team Conversations,top strengths, top opportunities, manager coaching content
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -36,18 +36,35 @@ Admins who have enabled Team Conversations have two additional sections to set u
 
 Coaching content provides best practices for your managers to have meaningful conversations with their teams about the future. Within Manager Coaching Content, provision these sections: 
 
-- Interpretation: Customize the Interpretation Guide 
-- Top Strengths: Customize the coaching content for Top Strengths 
-- Top Opportunities: Customize the coaching content for Top Opportunities 
+### Interpretation
+Customize the Interpretation Guide. 
+Select the **Edit** symbol.
+In the **Interpretation** slider window, choose the resource to make available to your managers. Resources are available in any language provisioned in the dropdown menu. Each translation added will auto-save after selecting another language.
+When you have made your choices, select **Save Changes.**
+
+### Top Strengths 
+Customize the coaching content for Top Strengths. 
+Select the **Edit** symbol to open the following slider window:
+
+:::image type="content" source="../../media/glint/setup/program-summary-coaching-top-strengths.png" alt-text="Screenshot of the **Top Strengths** slider window.":::
+
+Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu.
+
+### Top Opportunities
+Customize the coaching content for Top Opportunities. 
+Select the **Edit** symbol to open the following slider window:
+
+:::image type="content" source="../../media/glint/setup/program-summary-coaching-top-opps.png" alt-text="Screenshot of the **Top Opportunitiess** slider window.":::
+
+Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu.
 
 ## Coaching set up for managers using Team Conversations
 
-:::image type="content" source="../../media/glint/setup/program-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page for admins whohave enabled Team Conversations.":::
+:::image type="content" source="../../media/glint/setup/program-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page for admins who have enabled Team Conversations.":::
 
 Two additional coaching sections need to be set up for managers with Team Conversations enabled. 
 
-- Team Conversations presentation guidance 
+- [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602) 
 - Team Conversations resource guidance  
 
-Refer to [Team Conversations Coaching Page](https://www.microsoft.com) for setup of these two sections.
 
