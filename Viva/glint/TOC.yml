@@ -274,10 +274,10 @@ items:
                       href: reports/team-conversations-administrator-setup.md
                     - name: Managers and teams using Viva Glint Team Conversations
                       href: reports/managers-sharing-team-conversations.md
-                    - name: Set up Viva Glint Team Conversations coaching for managers
+                    - name: Team Conversations presentation kit for managers
                       href: reports/coaching-team-conversations.md
-               - name: Create a Viva Glint Focus Area report
-                 href: reports/focus-area-overview-report.md
+                    - name: Set up resource guidance for managers using Team Conversations
+                      href: reports/team-conversations-resource-guidance.md
   - name: Communicate and roll out Viva Glint programs
     items:
       - name: Communicate with Viva Glint Nudges
