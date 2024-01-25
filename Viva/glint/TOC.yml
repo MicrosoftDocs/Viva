@@ -276,8 +276,6 @@ items:
                       href: reports/managers-sharing-team-conversations.md
                     - name: Set up Viva Glint Team Conversations coaching for managers
                       href: reports/coaching-team-conversations.md
-               - name: Create a Viva Glint Focus Area report
-                 href: reports/focus-area-overview-report.md
   - name: Communicate and roll out Viva Glint programs
     items:
       - name: Communicate with Viva Glint Nudges
