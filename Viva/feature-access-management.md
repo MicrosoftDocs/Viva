@@ -3,7 +3,7 @@ title: "Microsoft Viva - Feature access management"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 12/15/2023
 audience: Admin
 f1.keywords:

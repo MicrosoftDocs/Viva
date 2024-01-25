@@ -4,7 +4,7 @@ description: "How to set up Viva Engage for a multitenant organization."
 ms.reviewer: ahosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 12/06/2023
 audience: Admin
 f1.keywords:

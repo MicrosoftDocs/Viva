@@ -8,7 +8,9 @@ metadata:
   title: Viva Insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Viva Insights uses data from everyday work in Microsoft 365 to identify collaboration patterns that impact productivity, workforce effectiveness, and employee engagement. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
-  ms.collection: m365initiative-viva-insights 
+  ms.collection:
+   - m365initiative-viva-insights
+   - essentials-navigation
   ms.subservice: viva-insights 
   search.appverid: 
   - MET150 

@@ -1,5 +1,5 @@
 ---
-ms.date: 01/17/2024
+ms.date: 01/23/2024
 title: Share an update using Goals Broadcast
 ms.reviewer: 
 ms.author: rasanders
@@ -16,7 +16,6 @@ ms.collection:
 - m365initiative-viva-goals
 search.appverid:
 - MET150
-
 description: "Learn how to use Goals Broadcast to share updates about your goals and OKRs."
 ---
 
@@ -34,42 +33,38 @@ Viva Goals users can share updates with their teams and stakeholders to keep oth
 
 This feature is available to all licensed users in Viva Goals. Simply go to the goal list or dashboard for your team or organization and select **Share** > **Share an update**.
 
-:::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-01.png" alt-text="Screenshot of the share an update button location in the Viva Goals list view" lightbox="../media/goals/goals-broadcast/goals-broadcast-01.png":::
+![Screenshot that shows the Share an update option under the Share menu in the team dashboard.](..\media\goals\goals-broadcast\share-an-update-entry-point.png)
 
 To complete your update, add a message for your team, choose who you want to receive notifications of your update, and select **Post**.
 
 After you've posted the update, your chosen audience will receive an email. The email will include your message and a visual overview of the goals you shared. Your colleagues can react to or comment on the update directly from Outlook or in the Viva Goals **Updates** tab.
 
-:::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-02.png" alt-text="Screenshot of a completed update with highlights, learnings, and next steps." lightbox="../media/goals/goals-broadcast/goals-broadcast-02.png":::
+![Screenshot that shows an example email for an example update, including the sender, the text, relevant OKRs, and commenting and reacting features.](..\media\goals\goals-broadcast\mail-image.png)
+
+> [!NOTE]
+> Private goals cannot be shared via updates. If a private goal is part of a goal list that is being shared, the private goal will be excluded from the email notifications and the visual in the **Updates** tab.
 
 ## Email notifications
 
 You can customize the email notifications and audience for every update you post. By default, the update will be shared with all members of the team or organization you're sharing from.
 
-- To customize who will receive email notifications, select the **Edit** icon underneath the goal list. Search for users, groups, or Viva Goals teams that are a part of your organization, then select (or deselect) the checkboxes next to the names of the ones you want (or don't want) to receive notifications. <!--Editor's Note: Not a fan of this. Want to make sure it lines up with the actual UI. Can I get a walkthrough?-->
+- To customize who will receive email notifications, select the **Edit** icon underneath the goal list.
+
+    ![Screenshot that highlights the Edit icon underneath the goal list leading up to the posting of an update.](..\media\goals\goals-broadcast\broadcast-edit-icon.png)
+
+    Search for users, groups, or Viva Goals teams that are a part of your organization, then select (or deselect) the checkboxes next to the names of the ones you want (or don't want) to receive notifications. <!--Editor's Note: Not a fan of this. Want to make sure it lines up with the actual UI. Can I get a walkthrough?-->
+
+    ![Screenshot that shows a user searching for and adding Megan Bowen to the list of approved notification receivers.](..\media\goals\goals-broadcast\search-for-users.png)
+
+    > [!NOTE]
+    > Email notifications might not be sent to users who were added to the Viva Goals team via the admin dashboard less than 2 hours before the sending of the update.
 
 - To disable notifications for your update, select the button to the left of **Post**. <!--Editor's Note: Same here. This should be consistent with both UI and style guidelines; we generally don't like using words like "button" or defining things directionally independent of what they actually are.-->
 
-:::image type="content" source="../media/goals/goals-broadcast/goals-broadcast-03.png" alt-text="Screenshot with the list of users highlighted." lightbox="../media/goals/goals-broadcast/goals-broadcast-03.png":::
+    ![Screenshot that highlights the icon that can be used to disable notifications leading up to the posting of an update.](..\media\goals\goals-broadcast\disable-email-notifications.png)
 
 ## Edit or delete an update
 
-You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it. <!--Editor's Note: What does this mean?-->
+You can edit or delete an update by going to the **Updates** tab and selecting the three dots next to the **Share** menu. You can only edit or delete updates that you authored. Deleting a post will permanently remove it from previously shared locations, including email notifications associated with it. <!--Editor's Note: The notifications and emails are not removed, but trying to access the post from those emails or notifications will go nowhere.-->
 
-<!--Editor's Note: I'm commenting out the existing FAQ, as FAQs are generally a no-no for documentation. Information is either important enough to be included in the substance of the topic or it isn't.-->
-
-<!--
-## Frequently asked questions
-
-1. **Is this feature available on dashboards and explorer views?**
-    1. The feature is available on Org and Team OKR pages and dashboard pages only. It isn't available on explorer views and the “My OKRs” page.
-
-1. **Can I control who receives the email update?**
-    1. The update is shared to all members of the team via email. You can add members to the team to increase reach. Sending updates to members outside the team isn't currently possible.
-
-1. **Can the OKRs on the update card be customized?**
-    1. Currently, the snapshot of OKRs can't be customized by users.
-
-1. **When will recipients be notified of the update?**
-    1. Emails are sent within a few hours of posting the update. If large groups were added to the team recently, the update could take up to 6 hours to reach all team members.
--->
+![Screenshot that shows the Edit and Delete options under the Share menu for an update that has already been posted.](..\media\goals\goals-broadcast\edit-delete.png)
