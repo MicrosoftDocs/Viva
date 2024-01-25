@@ -58,7 +58,7 @@ Customize the coaching content for Top Opportunities.
 
 Select the **Edit** symbol to open the following slider window:
 
-:::image type="content" source="../../media/glint/reports/program-summary-coaching-top-opps.png" alt-text="Screenshot of the Top Opportunitiess slider window.":::
+:::image type="content" source="../../media/glint/reports/program-summary-coaching-top-opps.png" alt-text="Screenshot of the Top Opportunities slider window.":::
 
 Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu. **Save Changes**
 
