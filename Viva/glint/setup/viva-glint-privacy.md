@@ -10,7 +10,7 @@ keywords: Privacy safegaurds
 ms.collection: 
  - m365initiative-viva
  - self-serve
- - essentials-accountability
+ - essentials-privacy
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
