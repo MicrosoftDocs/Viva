@@ -50,14 +50,14 @@ Program admins can specify the employee population and report filters their lead
    3. Inactive employees: Not intended to have data access
    4. Manager: Commonly used and prepopulated; permissions and attributes can be edited
   
-:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and **+ New Role button** on the User Roles page.
+:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and **+ New Role button** on the User Roles page.:::
 
 ## Add new User Roles
 
 Select **+ New Role**. The *Role Settings* window opens.
 Enter a User Role in the **Untitle Role** name by selecting the **pencil** symbol.
 
-### Set up the Role Settings 
+## Set up Role Settings 
 
 You can do the following from the Role Settings page:
 
@@ -65,17 +65,49 @@ You can do the following from the Role Settings page:
 - [Report Attributes](#report-attributes)
 - [Add or remove users](#add-user-to-a-role)
 
-#### Permissions setup
+:::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the **Role Settings** page.:::
 
-1. Select **Permissions** in the **Role Settings** section.
-2. Choose all appropriate permissions and access capabilities you want for the new User Role.
-3. Select **Save Changes**.
+### Permissions and Access setup
 
-#### Report Attributes
+Select **Permissions** in the *Role Settings* section. The *Permissions and Access page opens.
 
-1. Select **Report Attributes** in the **Role Settings** section.
-2. Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters.
-3. Select **Save Changes**.
+:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.:::
+
+**Make choices for the following sections:**
+
+####Survey Programs
+
+:::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the **Survey Programs Access** section in *Permissions and Access*.:::
+
+####Focus Areas and Conversations
+
+:::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the **Focus Areas and Conversations** section in *Permissions and Access*.:::
+
+####Reporting
+
+:::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the **Reporting** section in *Permissions and Access*.:::
+
+
+####Data Management
+
+
+####Resources
+
+
+
+####Access Permissions
+
+
+Select **Save Changes**.
+
+### Report Attributes
+
+Select **Report Attributes** in the *Role Settings* section.
+
+:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.:::
+
+Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters.
+4.Select **Save Changes**.
 
 > [!TIP]
 > Since filtering through results across too many attributes can make identifying survey respondents within reports easier, we recommend giving access to only one attribute per manager role. For example, *Managers with Country Access* or *Managers with Comments*.
