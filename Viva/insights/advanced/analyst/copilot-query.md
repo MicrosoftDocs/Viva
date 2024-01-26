@@ -33,7 +33,7 @@ First, to access custom person queries, follow this navigation in the [advanced 
 
 **Analysis** > **Custom queries** > **Person queries** > **Start analysis**
 
-Then, use [these steps](./person-query#set-up-your-query) to enter basic information like the query name, time period, and description.
+Then, use [these steps](./person-query.md#set-up-your-query) to enter basic information like the query name, time period, and description.
 
 Next, you need to add metrics. This is where Copilot comes in. In the upper right of the page, select **Copilot**.
 
