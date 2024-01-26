@@ -1,6 +1,6 @@
 ---
 title: Set up Viva Glint User Roles
-description: Admins can customize roles to view and modify members, attributs, and permissions.
+description: Admins can customize roles to view and modify members, attributes, and permissions.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -65,7 +65,7 @@ You can do the following from the Role Settings page:
 
 ### Permissions and Access setup
 
-Select **Permissions** in the *Role Settings* section. The *Permissions and Access page opens.
+Select **Permissions** in the *Role Settings* section. The **Permissions and Access** page opens.
 
 :::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.":::
 
