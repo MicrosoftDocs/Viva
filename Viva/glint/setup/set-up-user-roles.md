@@ -95,7 +95,7 @@ Select **Permissions** in the *Role Settings* section. The **Permissions and Acc
 
 #### Access Permissions
 
-:::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
+:::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 
 Select **Save Changes**.
 
