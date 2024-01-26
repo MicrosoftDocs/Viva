@@ -63,7 +63,7 @@ You can do the following from the Role Settings page:
 - Grant permissions
 - Configure report attributes
 
-:::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
+   :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
 
 ### Permissions and Access setup
 
