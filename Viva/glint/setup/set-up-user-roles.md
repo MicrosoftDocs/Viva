@@ -71,27 +71,27 @@ Select **Permissions** in the *Role Settings* section. The **Permissions and Acc
 
 **Make choices for the following sections:**
 
-####Survey Programs
+#### Survey Programs
 
 :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
 
-####Focus Areas and Conversations
+#### Focus Areas and Conversations
 
 :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
 
-####Reporting
+#### Reporting
 
 :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
 
-####Data Management
+#### Data Management
 
 :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
 
-####Resources
+#### Resources
 
 :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
 
-####Access Permissions
+#### Access Permissions
 
 :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of the Access Permissions section in Permissions and Access.":::
 
