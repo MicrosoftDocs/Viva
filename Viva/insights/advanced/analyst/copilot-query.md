@@ -2,7 +2,7 @@
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 01/26/2024
 title: Set up your queries using Copilot
-description: Learn how use Microsoft Copilot while setting up your custom queries
+description: Learn how to use Microsoft Copilot while setting up your custom queries
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
@@ -25,7 +25,7 @@ With custom queries, you can investigate and answer specific questions about pro
 
 When you set up a [custom person query](./person-query.md), Copilot can suggest which specific metrics to use for your analysis, and even help you home in on the right questions to investigate. 
 
-This feature is currently only available within person queries, but gradually we’ll be rolling it out to all analyst query types.
+This feature is currently only available within person queries, but gradually we’ll roll it out to all analyst query types.
 
 ## How to use Copilot with your query
 
@@ -35,20 +35,20 @@ First, to access custom person queries, follow this navigation in the [advanced 
 
 Then, use [these steps](./person-query#set-up-your-query) to enter basic information like the query name, time period, and description.
 
-Next, you’ll need to add metrics. This is where Copilot comes in. In the upper right of the page, select **Copilot**.
+Next, you need to add metrics. This is where Copilot comes in. In the upper right of the page, select **Copilot**.
 
 A panel will appear with suggested focus areas and questions for your query, such as, “How much time do people spend in different collaboration modes?” If you select one of these questions, Copilot will suggest specific metrics for your query.
 
 :::image type="content" source="../images/copilot-analyst-query-01.png" alt-text="Screenshot that shows recommended questions from Copilot to set up the query":::
 
-Or, if you already have a specific question in mind, simply type it in natural language, and Copilot will suggest metrics for the question you’re looking to answer.
+Or, if you already have a specific question in mind, type it in natural language, and Copilot will suggest metrics for the question you’re looking to answer.
 
 :::image type="content" source="../images/copilot-analyst-query-02.png" alt-text="Screenshot that shows recommended metrics from Copilot to set up the query":::
 
 If you want to use the metrics Copilot suggests, select **Add to this query**. Those metrics will appear in the **Metrics** section on the main setup page, where you can also remove individual metrics from the query.
 
-Or, if you want to rephrase your question or ask a different question for a different set of suggested metrics, simply type the new question in the Copilot panel.
+Or, if you want to rephrase your question or ask a different question for a different set of suggested metrics, type the new question in the Copilot panel.
 
-After you’ve chosen your metrics, if you want to ask another question, simply type it in the panel. To use the metrics suggested for that new question instead of the metrics you’ve already chosen, select **Replace the current query**.
+After you’ve chosen your metrics, if you want to ask another question, type it in the panel. To use the metrics suggested for that new question instead of the metrics you’ve already chosen, select **Replace the current query**.
 
 When you’re ready to run the query, in the screen’s upper right, select **Run**. You can [access the query’s results](./query-results.md) just like you normally would.
