@@ -10,7 +10,7 @@ keywords: Privacy safegaurds
 ms.collection: 
  - m365initiative-viva
  - self-serve
- - essentials-accountability
+ - essentials-privacy
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
@@ -33,4 +33,4 @@ For information specific to Viva Glint:
 
 [Learn about access to Viva Glint raw survey responses.](https://go.microsoft.com/fwlink/?linkid=2230875)
 
-[Learn about Glint security](/Viva/viva-security.md#viva-glint/)
+[Learn about Glint security](/viva/viva-security#viva-glint)
