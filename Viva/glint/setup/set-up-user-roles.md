@@ -50,7 +50,7 @@ Program admins can specify the employee population and report filters their lead
    3. Inactive employees: Not intended to have data access
    4. Manager: Commonly used and prepopulated; permissions and attributes can be edited
   
-:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and the New Role button on the User Roles page.":::
+   :::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and the New Role button on the User Roles page.":::
 
 ## Add new User Roles
 
