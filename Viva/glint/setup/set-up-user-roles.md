@@ -87,20 +87,21 @@ Select **Permissions** in the *Role Settings* section. The *Permissions and Acce
 
 :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the **Reporting** section in *Permissions and Access*.:::
 
-
 ####Data Management
 
+:::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the **Data Management** section in *Permissions and Access*.:::
 
 ####Resources
 
-
+:::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the **Resources** section in *Permissions and Access*.:::
 
 ####Access Permissions
 
+:::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of the **Access Permissions** section in *Permissions and Access*.:::
 
 Select **Save Changes**.
 
-### Report Attributes
+## Report Attributes
 
 Select **Report Attributes** in the *Role Settings* section.
 
