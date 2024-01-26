@@ -22,14 +22,14 @@ ms.date: 01/26/2024
 
 Admins can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Microsoft Viva Glint programs.
 
-:::image type="content" source="../../media/glint/user-roles-access.png" alt-text="Screenshot that shows how to access User Roles from the Admin Config dashboard.":::
+:::image type="content" source="../../media/glint/setup/user-roles-access.png" alt-text="Screenshot that shows how to access User Roles from the Admin Config dashboard.":::
 
 > [!TIP]
 > To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute could increase the chance that a manager may be able to deduce the origin of individual responses.
 
-## [Download the template to use as a planning tool to define permissions for your User Roles.](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
+## [Download the template to use as a planning tool to define permissions for User Roles](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
 
-You can use the template to indicate which attributes User Roles are allowed to view, according to three filter distinctions:
+You can use the template as a planning tool to define permissions that your User Roles are allowed to view, according to these three filter distinctions:
 
 - **Report filters**: Attributes this role can view while searching results
 - **Report sections**: Which section a user can add to reports
@@ -42,19 +42,22 @@ You can use the template to indicate which attributes User Roles are allowed to 
 
 Program admins can specify the employee population and report filters their leaders can view on their dashboard based on manager, HRBP, and executive roles. Defining roles is important for data cuts, access permissions, and program integrity.
 
-### Procedure to create User Roles
-
 1. Select the **Configure** symbol.
 2. In the **Employees** section, select **User Roles**.
-3. You'll see predefined user roles initially:
+3. You'll see predefined User Roles initially, in the Role column. Typically:
    1. Active Employees: Not intended to have data access
    2. Company Admin: Employees who are granted **ALL** permission; can't be edited
    3. Inactive employees: Not intended to have data access
    4. Manager: Commonly used and prepopulated; permissions and attributes can be edited
-4. To add roles, select **+ New Role**.
-5. Enter a User Role name by selecting the pencil symbol next to the title box.
+  
+:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and **+ New Role button** on the User Roles page.
 
-## Set up the Role Settings page
+## Add new User Roles
+
+Select **+ New Role**. The *Role Settings* window opens.
+Enter a User Role in the **Untitle Role** name by selecting the **pencil** symbol.
+
+### Set up the Role Settings 
 
 You can do the following from the Role Settings page:
 
@@ -62,13 +65,13 @@ You can do the following from the Role Settings page:
 - [Report Attributes](#report-attributes)
 - [Add or remove users](#add-user-to-a-role)
 
-### Permissions setup
+#### Permissions setup
 
 1. Select **Permissions** in the **Role Settings** section.
 2. Choose all appropriate permissions and access capabilities you want for the new User Role.
 3. Select **Save Changes**.
 
-### Report Attributes
+#### Report Attributes
 
 1. Select **Report Attributes** in the **Role Settings** section.
 2. Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters.
@@ -77,7 +80,7 @@ You can do the following from the Role Settings page:
 > [!TIP]
 > Since filtering through results across too many attributes can make identifying survey respondents within reports easier, we recommend giving access to only one attribute per manager role. For example, *Managers with Country Access* or *Managers with Comments*.
 
-### Add user to a role
+#### Add user to a role
 
 1. Select **+ Search for an employee to add**.
 2. Select their name.
