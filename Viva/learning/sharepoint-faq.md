@@ -108,6 +108,6 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     
 |            Object type        |         Word     |         Pdf     |      PowerPoint  |  
 |--------------------|:----------------:|:---------------:|:----------------:|
-|      Forms         |     N/A          |    N/A             |     No           |    |
-|      Embed video  |     No           |          No       |     Yes          |     
-|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |  
+|      Forms         |     N/A          |    N/A             |     No           |
+|      Embed video  |     No           |          No       |     Yes          | 
+|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |
