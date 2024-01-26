@@ -111,7 +111,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
    :::image-end:::
 
 >[!Note]
->Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](/Viva/insights/advanced/setup-maint/setup-overview.md) (it is on by default).
+>Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
