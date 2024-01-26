@@ -27,7 +27,7 @@ Admins can assign multiple roles with specific permissions - access to different
 > [!TIP]
 > To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute could increase the chance that a manager may be able to deduce the origin of individual responses.
 
-## [Download the template to use as a planning tool to define permissions for User Roles](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
+### [Download this template to use as a planning tool to define permissions for User Roles](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
 
 You can use the template as a planning tool to define permissions that your User Roles are allowed to view, according to these three filter distinctions:
 
