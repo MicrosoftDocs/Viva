@@ -50,7 +50,7 @@ Program admins can specify the employee population and report filters their lead
    3. Inactive employees: Not intended to have data access
    4. Manager: Commonly used and prepopulated; permissions and attributes can be edited
   
-:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and **+ New Role button** on the User Roles page.:::
+:::image type="content" source="../../media/glint/setup/user-roles-page.png" alt-text="Screenshot that shows columns and **+ New Role button** on the User Roles page.":::
 
 ## Add new User Roles
 
@@ -65,39 +65,39 @@ You can do the following from the Role Settings page:
 - [Report Attributes](#report-attributes)
 - [Add or remove users](#add-user-to-a-role)
 
-:::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the **Role Settings** page.:::
+:::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the **Role Settings** page.":::
 
 ### Permissions and Access setup
 
 Select **Permissions** in the *Role Settings* section. The *Permissions and Access page opens.
 
-:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.:::
+:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.":::
 
 **Make choices for the following sections:**
 
 ####Survey Programs
 
-:::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the **Survey Programs Access** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the **Survey Programs Access** section in *Permissions and Access*.":::
 
 ####Focus Areas and Conversations
 
-:::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the **Focus Areas and Conversations** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the **Focus Areas and Conversations** section in *Permissions and Access*.":::
 
 ####Reporting
 
-:::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the **Reporting** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the **Reporting** section in *Permissions and Access*.":::
 
 ####Data Management
 
-:::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the **Data Management** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the **Data Management** section in *Permissions and Access*.":::
 
 ####Resources
 
-:::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the **Resources** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the **Resources** section in *Permissions and Access*.":::
 
 ####Access Permissions
 
-:::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of the **Access Permissions** section in *Permissions and Access*.:::
+:::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of the **Access Permissions** section in *Permissions and Access*.":::
 
 Select **Save Changes**.
 
@@ -105,7 +105,7 @@ Select **Save Changes**.
 
 Select **Report Attributes** in the *Role Settings* section.
 
-:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.:::
+:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.":::
 
 Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters. Select **Save Changes**.
 
