@@ -98,16 +98,16 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     1. Check the [column names](/viva/learning/configure-sharepoint-content-source#metadata)
     2. If they're not correct, delete and recreate the column.
 
-- What size do the thumbnails have to be to properly render in Viva Learning?
-    The aspect ratio has to be 16:9.
+- **What size do the thumbnails have to be to properly render in Viva Learning?**
+    - The aspect ratio has to be 16:9.
 
 - **What can I do if the content is not playable?** 
-    1. If you're using a custom SharePoint Domain (for example, sp.contoso.com), raise a [support ticket](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed.
-    2. If the linked objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
-    3. Hyperlinks, forms, embedded videos in a file work in Viva Learning.
+    - If you're using a custom SharePoint Domain (for example, sp.contoso.com), raise a [support ticket](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed.
+    - If the linked objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
+    - Hyperlinks, forms, embedded videos in a file don't work in Viva Learning.
     
-|            Object type        |         Word     |         Pdf     |      PowerPoint  |      Excel  |
-|--------------------|:----------------:|:---------------:|:----------------:|:-----------:|
-|      Forms         |     N/A          |                 |     No           |     N/A     |
-|      Embed video  |     No           |                 |     Yes          |     N/A     |
-|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |     No      |
+|            Object type        |         Word     |         Pdf     |      PowerPoint  |  
+|--------------------|:----------------:|:---------------:|:----------------:|
+|      Forms         |     N/A          |    N/A             |     No           |    |
+|      Embed video  |     No           |          No       |     Yes          |     
+|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |  
