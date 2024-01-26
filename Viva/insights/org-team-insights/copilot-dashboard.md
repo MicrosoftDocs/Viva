@@ -111,7 +111,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
    :::image-end:::
 
 >[!Note]
->Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](/Viva/insights/advanced/setup-maint/setup-overview.md) (it is on by default).
+>Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
@@ -175,7 +175,7 @@ Screenshot that shows the readiness page in the Copilot Dashboard.
 1. Follow the guidelines on [this page](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to share the app with users in your organization.
 
 >[!Note]
->Please be aware that after you connect your tenant's data to the dashboard, it will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards.
+>Please be aware that after you connect your tenant's data to this Power BI template app, a copy of the data will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards. The copied data is limited to the tenant-level aggregated data points that are displayed in the app. This note applies exclusively to the Power BI template app version of the Microsoft Copilot Dashboard and *not* to the version within the Viva Insights app.
 
 ### Update the app
 
