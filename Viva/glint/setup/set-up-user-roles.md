@@ -61,10 +61,6 @@ Enter a User Role in the **Untitle Role** name by selecting the **pencil** symbo
 
 You can do the following from the Role Settings page:
 
-- [Permissions](#permissions-setup)
-- [Report Attributes](#report-attributes)
-- [Add or remove users](#add-user-to-a-role)
-
 :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the **Role Settings** page.":::
 
 ### Permissions and Access setup
