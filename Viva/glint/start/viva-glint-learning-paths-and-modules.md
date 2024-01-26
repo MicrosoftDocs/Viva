@@ -53,7 +53,7 @@ These modules define how specific features will assist a manager to interpret re
 |:------|:---------------:|:-------|:--------------------|
 |[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
 |[Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Module|Guides the learner through the various dashboards and reports available on the Viva Glint app and introduces best practices around sharing results with teams:<ul><li>Confidentiality and how to navigate the Viva Glint app</li><li>Team Summary Dashboard </li><li> Executive Summary Report </li><li> Heat Map Report</li><li> Driver Impact Report</li><li> Comments Report</li><li>Navigate Focus Areas</li><li>Use the Team Conversations feature and ACT framework</li></ul>|N/A| 
-|[Share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=22587510)|Module|Introduces the learner to best practices around sharing and discussing survey results with all levels of your organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results.|NA|
+|[Share your Viva Glint results](https://learn.microsoft.com/en-us/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to best practices around sharing and discussing survey results with all levels of your organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results.|NA|
 
 
 
