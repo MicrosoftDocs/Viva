@@ -107,19 +107,18 @@ Select **Report Attributes** in the *Role Settings* section.
 
 :::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the **Permissions and Access** window in User Roles.:::
 
-Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters.
-4.Select **Save Changes**.
+Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters. Select **Save Changes**.
 
 > [!TIP]
 > Since filtering through results across too many attributes can make identifying survey respondents within reports easier, we recommend giving access to only one attribute per manager role. For example, *Managers with Country Access* or *Managers with Comments*.
 
-#### Add user to a role
+## Add user to a role
 
 1. Select **+ Search for an employee to add**.
 2. Select their name.
 3. The new user will now appear in the **All Members** section.
 
-### Remove a user from a User Role category
+## Remove a user from a User Role category
 
 1. Hover over a user's name.
 2. Select the **trash can** symbol.
