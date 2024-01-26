@@ -1,9 +1,9 @@
 ---
 title: Set up Viva Glint User Roles
-description: Admins can customize manager roles to provide specific permissions for viewing reports and comments.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+description: Admins can customize roles to view and modify members, attributs, and permissions.
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: permissions, bulk imports, user role imports, custom access 
@@ -15,26 +15,28 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2023
+ms.date: 01/26/2024
 ---
 
 # Set up Viva Glint User Roles
 
-You can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Microsoft Viva Glint programs.
+Admins can assign multiple roles with specific permissions - access to different segments of data and filter - within **User Roles** from the admin configuration dashboard. The User Roles and Access Template include prepopulated example roles and detailed instructions for two areas of setup. Use it to help plan your Microsoft Viva Glint programs.
 
-You can use the template to indicate which attributes User Roles are allowed to view, according to three filter distinctions:
-
-- Report filters: Attributes this role can view while searching results.
-- Report sections: Which section a user can add to reports.
-- Comment filters: Attributes this role must have to view the Comments report.
+:::image type="content" source="../../media/glint/user-roles-access.png" alt-text="Screenshot that shows how to access User Roles from the Admin Config dashboard.":::
 
 > [!TIP]
 > To protect confidentiality, give managers access to only one filterable attribute. Assigning more than one filterable attribute could increase the chance that a manager may be able to deduce the origin of individual responses.
 
->[!NOTE]
-> Not all User Roles and pre-populated attributes and permissions in the template may apply to your organization. Consult your Employee Attribute File for attributes specific to your organization and make changes, as necessary.
+## [Download the template to use as a planning tool to define permissions for your User Roles.](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
 
-[Download the template to use as a planning tool to define permissions for your User Roles.](https://www.microsoft.com/en-us/download/details.aspx?id=105793)
+You can use the template to indicate which attributes User Roles are allowed to view, according to three filter distinctions:
+
+- **Report filters**: Attributes this role can view while searching results
+- **Report sections**: Which section a user can add to reports
+- **Comment filters**: Attributes this role must have to view the Comments report
+
+>[!IMPORTANT]
+> Not all User Roles and pre-populated attributes and permissions in a template may apply to your organization. Consult your Employee Attribute File for attributes specific to your organization and make changes, as necessary.
 
 ## Create User Roles
 
