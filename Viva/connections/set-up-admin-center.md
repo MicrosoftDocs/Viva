@@ -1,5 +1,5 @@
 ---
-ms.date: 10/31/2023
+ms.date: 01/28/2024
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -61,11 +61,15 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 ## How to access Viva Connections in the Microsoft admin center
 
 1. Navigate to [admin.microsoft.com](https://admin.microsoft.com/Adminportal/Home#/homepage) and sign in with your credentials.
-2. Select **Setup** and under featured collections, select **Microsoft Viva**.
+2. Select **Settings** to expand the selection and select **Viva**.
+
+> [!NOTE]
+> If Settings does not show, select **show all** to reveal all available menu options.
+
+3. Select **Viva Connections** to open the Viva Connections admin center.
 
    :::image type="content" source="../media/connections/set-up-admin-center/microsoft-viva-option.png" alt-text="Screenshot showing how to navigate to the Microsoft Viva admin center." lightbox="../media/connections/set-up-admin-center/microsoft-viva-option.png":::
 
-3. Select **Viva Connections** to open the Viva Connections admin center.
 4. The Viva Connections admin center opens. If you already have a SharePoint home site (intranet portal), Viva Connections will display it as an experience automatically.
 
 ## Create a new Viva Connections experience
