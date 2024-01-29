@@ -45,6 +45,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
 - [Add the News card](#add-the-news-card).
 - [Add the People card](#add-the-people-card).
+- [Add the Events card](#add-the-events-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
 - [Add a Topics card](#add-a-topics-card).
