@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 01/29/2024
 ---
 
-# Export User Roles from the People Feature
+# Export User Roles from the People feature
 
 Admins can export lists of members associated with specific roles and attributes. This functionality is especially useful for large teams. These User Role lists can be exported from the People section on your admin dashboard.  
 
@@ -34,13 +34,19 @@ The left-most column shows all User Roles set up for your organization.
 
 ## Exporting an individual role
 
-**Select the User Role to export.** A new window opens. Select the **Export** button.
+:::image type="content" source="../../media/glint/people-export-company-admin.png" alt-text="Screenshot that shows how to **Export** roles in the People feature.":::
+
+**Select the User Role to export.** A new window opens. Select the **Export** button. A new dialog box opens.
+
+:::image type="content" source="../../media/glint/export-company-admin-dialog-box.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
 
 The .csv report includes first and last names, email address, and employment status.
+Choose whether to include all user attributes and User Roles.
+Select  **Export**.
 
-:::image type="content" source="../../media/glint/people-export-company-admin.png" alt-text="Screenshot that shows how to Export roles in the People feature.":::
+:::image type="content" source="../../media/glint/export-company-admin-dialog-box.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
 
-4. Choose whether to include all user attributes and User Roles.
-5. Select  **Export**.
+If you've followed these steps, you'll receive this message:
 
-### Export roles from the People section
+:::image type="content" source="../../media/glint/report-downloaded.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
+
