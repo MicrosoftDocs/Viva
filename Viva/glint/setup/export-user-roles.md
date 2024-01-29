@@ -42,9 +42,7 @@ The left-most column shows all User Roles set up for your organization.
 
 The .csv report includes first and last names, email address, and employment status.
 Choose whether to include all user attributes and User Roles.
-Select  **Export**.
-
-:::image type="content" source="../../media/glint/setup/export-company-admin-dialog-box.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
+Select  **Export** one more time!
 
 If you've followed these steps, you'll receive this message:
 
