@@ -46,5 +46,5 @@ Select  **Export** one more time!
 
 If you've followed these steps, you'll receive this message:
 
-:::image type="content" source="../../media/glint/setup/report-downloaded.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
+:::image type="content" source="../../media/glint/setup/report-downloaded.png" alt-text="Screenshot of the **Report Downloaded** dialog box.":::
 
