@@ -1,6 +1,6 @@
 ---
 title: Export User Roles from the People feature
-description: Admins can export lists of members associated with specific roles and attributes from the User Roles or the People section on their admin dashboard.
+description: Admins can export lists of members associated with specific roles and attributes from the People section on their admin dashboard.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -20,9 +20,9 @@ ms.date: 01/29/2024
 
 # Export User Roles from the People feature
 
-Admins can export lists of members associated with specific roles and attributes. This functionality is especially useful for large teams. These User Role lists can be exported from the People section on your admin dashboard.  
+Admins can export lists of members associated with specific roles and attributes. This functionality is especially useful for large teams. Export these User Role lists from the People section on your admin dashboard.  
 
-All exports generate a .csv download. Downloads may take a few minutes dependent upon list size.
+All exports generate a .csv download. Downloads may take a few minutes, dependent upon list size.
 
 :::image type="content" source="../../media/glint/people-export-users.png" alt-text="Screenshot that shows how to access the People feature from the admin dashboard.":::
 
