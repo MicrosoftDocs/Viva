@@ -27,7 +27,7 @@ You can access them in the [advanced insights app](https://analysis.insights.viv
 
 Here, you can subscribe or unsubscribe to the emails that notify you about the status of your queries.
 
-[Learn more about how to set up custom queries](/Viva/insights/advanced/analyst/person-query-overview.md).
+[Learn more about how to set up custom queries](../../advanced/analyst/person-query-overview.md).
 
 ### Admin digest email
 
