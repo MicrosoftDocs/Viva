@@ -1,12 +1,12 @@
 ---
-title: Import and export Viva Glint User Roles
-description: Admins can import and export lists of members associated with specific roles and attributes.
+title: Export Viva Glint User Roles
+description: Admins can export lists of members associated with specific roles and attributes from the User Roles or the People section on their admin dashboard.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: bulk imports
+keywords: export default roles,
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/14/2023
+ms.date: 01/29/2024
 ---
 
-# Import and export Viva Glint User Roles
+# Export Viva Glint User Roles
 
 Admins can import and export lists of members associated with specific roles and attributes. This functionality is especially useful for large teams.
 
