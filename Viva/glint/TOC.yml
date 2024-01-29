@@ -84,11 +84,10 @@ items:
                 href: setup/delete-user-data.md
               - name: Manage external users in Viva Glint
                 href: setup/add-external-user.md
+              - name: Export Viva Glint User Roles
+                href: setup/export-user-roles.md  
           - name: Set up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-            items:
-              - name: Export Viva Glint User Roles
-                href: setup/export-user-roles.md
           - name: Set up and use Distribution lists in Viva Glint
             href: setup/set-up-distribution-lists.md
             items:
