@@ -23,7 +23,9 @@ description: "Data residency for Viva Engage"
 
 Viva Engage offers local data residency to help meet data residency requirements. We commit to store message bodies and their file attachments within a specific geographical area, referred to as a *geo*. Viva Engage files are saved in Viva Engage cloud storage. For Microsoft 365 connected groups, some Viva Engage files are stored in SharePoint Online per your SharePoint Online data residency policy. Because mobile push notifications send data to a third-party notification service (Apple or Google), they may be outside your geo.
 
-Your Viva Engage Enterprise tenant is automatically created when you create your Microsoft 365 tenant. For Microsoft 365 Education subscribers, your tenant is associated with the US geo. For all other Microsoft 365 subscribers, the country you enroll from determines your tenant's geo. If you enroll from Europe or Africa, your tenant is associated with the EU geo. If you enroll from Australia, Asia, North America, or South America, your tenant is associated with the US geo.
+Your Viva Engage Enterprise tenant is automatically created when you create your Microsoft 365 tenant. For Microsoft 365 Education subscribers, your tenant is associated with the US geo. For all other Microsoft 365 subscribers, the country from which you enroll determines your tenant's geo. If you enroll from Europe or Africa, your tenant is associated with the EU geo. If you enroll from Australia, Asia, North America, or South America, your tenant is associated with the US geo.
+
+Reactions data (such as Viva Engage likes and Teams Q&A posts) are associated with the tenant’s geo, ingested into the substrate, and available for export through [eDiscovery](/Viva/engage/ediscovery-engage). A copy of the reactions data is currently stored with a third-party sub-processor, Snowflake Incorporated, which processes data in the United States. Engage and Teams Q&A reactions data are in the process of moving within the Microsoft 365 boundary.
 
 #### Viva Engage features that are unavailable for tenants hosted in the EU geo 
 
