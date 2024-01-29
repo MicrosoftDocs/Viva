@@ -87,8 +87,8 @@ items:
           - name: Set up Viva Glint User Roles
             href: setup/set-up-user-roles.md
             items:
-              - name: Import and export Viva Glint User Roles
-                href: setup/import-export-user-roles.md
+              - name: Export Viva Glint User Roles
+                href: setup/export-user-roles.md
           - name: Set up and use Distribution lists in Viva Glint
             href: setup/set-up-distribution-lists.md
             items:
