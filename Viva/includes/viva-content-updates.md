@@ -2,6 +2,33 @@
 
 
 
+## Week of January 22, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/22/2024 | [Reporting setup in Program Summary of Viva Glint](/viva/glint/setup/reporting-setup) | modified |
+| 1/22/2024 | [Work with AzureAD-B2B guests in Viva Engage communities](/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage) | modified |
+| 1/22/2024 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
+| 1/22/2024 | [Communications setup in Program Summary](/viva/glint/setup/program-summary-communications) | modified |
+| 1/22/2024 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
+| 1/22/2024 | [Granular access controls for Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls) | added |
+| 1/23/2024 | [Choose a data upload method](/viva/glint/setup/choose-upload-method) | added |
+| 1/23/2024 | [Set up and use Distribution Lists in Viva Glint](/viva/glint/setup/set-up-distribution-lists) | modified |
+| 1/23/2024 | [Upload your employee attributes in Viva Glint](/viva/glint/setup/upload-employee-attributes) | modified |
+| 1/23/2024 | [Share an update using Goals Broadcast](/viva/goals/goals-broadcast) | modified |
+| 1/23/2024 | [FAQs in SharePoint](/viva/learning/sharepoint-faq) | added |
+| 1/24/2024 | [Opting into external benchmarks](/viva/glint/setup/opting-into-external-benchmarks) | added |
+| 1/24/2024 | [Set up Viva Engage](/viva/engage/setup) | modified |
+| 1/24/2024 | [Customize Action Plans in Viva Glint](/viva/glint/setup/customize-action-plans) | modified |
+| 1/24/2024 | [Introducing Org Explorer](/viva/people-in-viva/introducing-org-explorer) | modified |
+| 1/25/2024 | [Set up resource guidance for managers using Team Conversations](/viva/glint/reports/team-conversations-resource-guidance) | added |
+| 1/25/2024 | [Set Team Conversations Presentation Kit for managers](/viva/glint/reports/coaching-team-conversations) | modified |
+| 1/25/2024 | [Set up Coaching page in Program Summary](/viva/glint/setup/program-summary-coaching) | modified |
+| 1/26/2024 | [Set up your queries using Copilot](/viva/insights/advanced/analyst/copilot-query) | added |
+| 1/26/2024 | [Set up Viva Glint User Roles](/viva/glint/setup/set-up-user-roles) | modified |
+
+
 ## Week of January 15, 2024
 
 
@@ -47,29 +74,3 @@
 | 1/5/2024 | [Include a Viva Engage feed in a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site) | modified |
 | 1/5/2024 | [Integrate Viva Engage with other applications](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications) | modified |
 | 1/5/2024 | [SharePoint enterprise social experience - Viva Engage and Newsfeed](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed) | modified |
-
-
-## Week of December 18, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/18/2023 | [Access to Viva Glint raw survey responses](/viva/glint/setup/employee-raw-data-export) | modified |
-| 12/18/2023 | [Link previews in Teams](/viva/goals/ms-teams-link-preview) | modified |
-| 12/18/2023 | Viva Engage update on Internet Explorer 11 changes coming in August 2021 | removed |
-| 12/19/2023 | [Program setup in Program Summary](/viva/glint/setup/program-set-up) | modified |
-| 12/19/2023 | [Understand Viva Glint Advanced Configuration](/viva/glint/setup/understand-advanced-configuration) | modified |
-| 12/19/2023 | [Four stages of Viva Glint programs](/viva/glint/start/four-stages-glint-program) | modified |
-| 12/19/2023 | Best practices for managers | removed |
-| 12/19/2023 | Best practices for collaboration across groups | removed |
-| 12/19/2023 | Best practices for coaching | removed |
-| 12/19/2023 | Best practices about efficient communication | removed |
-| 12/19/2023 | Best practices for manager connectedness | removed |
-| 12/19/2023 | Best practices for focused work | removed |
-| 12/19/2023 | Manager insights documentation # < 60 chars | removed |
-| 12/19/2023 | Microsoft Viva Insights for managers in Microsoft Teams | removed |
-| 12/19/2023 | Best practices for supporting your team's wellbeing | removed |
-| 12/19/2023 | [Use Viva Glint benchmarks](/viva/glint/setup/benchmarks) | modified |
-| 12/21/2023 | [Use a company-wide organization to simplify joining and collaborating in Viva Goals](/viva/goals/company-wide-organization) | added |
-| 12/21/2023 | [FAQs for Configuring Workday in Microsoft Viva Learning](/viva/learning/workday-integration-faqs) | added |
-| 12/21/2023 | [Configure Workday in Microsoft Viva Learning](/viva/learning/workday-integration) | added |
