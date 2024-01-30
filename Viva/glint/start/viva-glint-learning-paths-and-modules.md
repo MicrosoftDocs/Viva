@@ -2,8 +2,8 @@
 title: Viva Glint Learning Paths and modules
 description: Recommended trainings for admins, HRBPs, IT specialists, and managers using Viva Glint are hosted within Microsoft Learn.
 ms.author: Judithweiner
-author: Judyweiner
-manager: mbarry
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: learning paths, modules
@@ -34,7 +34,7 @@ These learning paths and modules deep dive into Viva Glint methodology and how t
 |[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
 |[Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)|Learning path|Introduces the methodology of People Success, describe how to use it, and details the Viva Glint methodology|<ul><li>[Getting to know Viva Glint's approach to modern engagement](/training/modules/viva-glint-get-know-viva-glint-approach-modern-engagement/)</li><li> [Designing a People-Centric Measurement Strategy](/training/modules/viva-glint-design-people-centric-measurement-strategy/)</li><li> [Empowering Action for Better Results](/training/modules/viva-glint-empower-action-better-results-viva-glint/)</li></ul>|  
 |[Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)|Learning path|Provides high level information about setting up your dashboard, recurring surveys, and sharing feedback results|<ul><li>[Learn how to set up Viva Glint](/training/modules/viva-glint-learn-how-setup-viva-glint/)</li><li> [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design/)</li><li> [Understand Viva Glint survey configuration and launch](/training/modules/viva-glint-understand-viva-glint-survey-config-launch/)</li><li> [Prepare for a successful Viva Glint results rollout](/training/modules/viva-glint-prepare-successful-results-rollout/)</li></ul>
-|[Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)|Learning path|
+|[Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)|Learning path|Make the most of your Viva Glint results by understanding reports and having valuable and sustainable ACT conversations with your teams|<ul><li>[Navigate your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2244907)</li><li>[Share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2258751)</li></ul>
 
 
 ### Optional for admins 
@@ -54,7 +54,7 @@ These modules define how specific features will assist a manager to interpret re
 |:------|:---------------:|:-------|:--------------------|
 |[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
 |[Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)|Module|Guides the learner through the various dashboards and reports available on the Viva Glint app and introduces best practices around sharing results with teams:<ul><li>Confidentiality and how to navigate the Viva Glint app</li><li>Team Summary Dashboard </li><li> Executive Summary Report </li><li> Heat Map Report</li><li> Driver Impact Report</li><li> Comments Report</li><li>Navigate Focus Areas</li><li>Use the Team Conversations feature and ACT framework</li></ul>|N/A| 
-|[Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to best practices around sharing and discussing survey results with all levels of your organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results.|NA|
+|[Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)|Module|Introduces the learner to discussing survey results with all levels of their organization. With Viva Glint's ACT framework, admins and managers can have quality and continuous discussions about survey results.|NA|
 
 
 
