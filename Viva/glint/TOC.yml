@@ -77,18 +77,17 @@ items:
             items: 
               - name: Set up attribute-based survey access
                 href: setup/attribute-based-survey-access.md
-          - name: Use Viva Glint's People page to view employee information
+          - name: Use Viva Glint's People feature to view employee information
             href: setup/people-page.md
             items:
               - name: Delete user data from Viva Glint
                 href: setup/delete-user-data.md
               - name: Manage external users in Viva Glint
                 href: setup/add-external-user.md
+              - name: Export User Roles using the People feature
+                href: setup/export-user-roles.md  
           - name: Set up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-            items:
-              - name: Import and export Viva Glint User Roles
-                href: setup/import-export-user-roles.md
           - name: Set up and use Distribution lists in Viva Glint
             href: setup/set-up-distribution-lists.md
             items:
