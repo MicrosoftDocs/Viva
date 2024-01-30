@@ -54,7 +54,7 @@ Use the following steps to determine in which geo your tenant resides.
     - Tenants in the EU geo show **Viva Engage network activated in the EU Geo**.
     - Tenants in the US geo show **Viva Engage network activated in the US Geo**.
 
-## Reprovision your Viva Engage Enterprise network to the EU geo
+## Reprovision your network to the EU geo
 
 Customers can have their Viva Engage Enterprise tenant reprovisioned to the Viva Engage EU geo. Contact your Microsoft account team representative for details.
 
