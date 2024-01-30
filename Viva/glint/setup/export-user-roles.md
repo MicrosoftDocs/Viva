@@ -34,11 +34,11 @@ The left-most column shows all User Roles set up for your organization.
 
 ## Exporting an individual role
 
-:::image type="content" source="../../media/glint/setup/people-export-company-admin.png" alt-text="Screenshot that shows how to **Export** roles in the People feature.":::
+:::image type="content" source="../../media/glint/setup/people-export-company-admin.png" alt-text="Screenshot that shows how to Export roles in the People feature.":::
 
 **Select the User Role to export.** A new window opens. Select the **Export** button. A new dialog box opens.
 
-:::image type="content" source="../../media/glint/setup/export-company-admin-dialog-box.png" alt-text="Screenshot of the **Export Company Admin** dialog box.":::
+:::image type="content" source="../../media/glint/setup/export-company-admin-dialog-box.png" alt-text="Screenshot of the Export Company Admin dialog box.":::
 
 The .csv report includes first and last names, email address, and employment status.
 Choose whether to include all user attributes and User Roles.
@@ -46,5 +46,5 @@ Select  **Export** one more time!
 
 If you've followed these steps, you'll receive this message:
 
-:::image type="content" source="../../media/glint/setup/report-downloaded.png" alt-text="Screenshot of the **Report Downloaded** dialog box.":::
+:::image type="content" source="../../media/glint/setup/report-downloaded.png" alt-text="Screenshot of the Report Downloaded dialog box.":::
 
