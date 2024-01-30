@@ -155,6 +155,8 @@ items:
                 href: setup/survey-character-limits.md
               - name: Preview pre-launch demo data in Viva Glint reporting
                 href: setup/preview-demo-reporting.md
+              - name: Preview, manage, and enable Viva Glint surveys and dashboards
+                href: setup/preview-manage-enable-engage-programs.md
               - name: Grant Live versus Phased access in Viva Glint reporting
                 href: setup/live-versus-phased-access.md
               - name: Make changes to a live Viva Glint survey
@@ -185,18 +187,19 @@ items:
             href: setup/program-summary-communications.md
           - name: Set up Coaching page in Program Summary
             href: setup/program-summary-coaching.md
-      - name: Quarterly Engagement Survey 
-        href: setup/quarterly-engagement-template.md
-      - name: Diversity and Inclusion survey 
-        href: setup/diversity-inclusion.md
-      - name: Team Effectiveness survey
-        href: setup/team-effectiveness-survey.md
-      - name: Manager Effectiveness survey
-        href: setup/manager-effectiveness-survey.md
-      - name: Patient safety survey
-        href: setup/patient-safety-survey.md            
+      - name: Set up and customize Viva Glint survey item templates
+        items:
+          - name: Quarterly Engagement Survey 
+            href: setup/quarterly-engagement-template.md
+          - name: Diversity and Inclusion survey 
+            href: setup/diversity-inclusion.md
+          - name: Team Effectiveness survey
+            href: setup/team-effectiveness-survey.md
+          - name: Manager Effectiveness survey
+            href: setup/manager-effectiveness-survey.md
+          - name: Patient safety survey
+            href: setup/patient-safety-survey.md            
       - name: Setting up Employee Lifecycle surveys
-        href: setup/preview-filter-lifecycle-programs.md
         items:
           - name: Create Viva Glint Onboarding and Exit survey programs
             href: setup/create-onboarding-exit-surveys.md
@@ -208,8 +211,6 @@ items:
         href: setup/viva-glint-display-logic.md
       - name: Deleting survey data from Viva Glint
         href: setup/delete-survey-data.md
-      - name: Preview, manage, and enable Viva Glint surveys and dashboards
-        href: setup/preview-manage-enable-engage-programs.md
   - name: Use Viva Glint reports and dashboards
     items:
      - name: Viva Glint's survey reports overview
