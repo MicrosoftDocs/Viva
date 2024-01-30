@@ -11,6 +11,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
 ms.localizationpriority: medium
+ms.collection: essentials-privacy
 ms.custom: Adm_Yammer
 search.appverid:
 - MET150
