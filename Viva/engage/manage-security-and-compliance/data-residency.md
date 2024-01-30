@@ -29,21 +29,21 @@ Reactions data (such as Viva Engage likes and Teams Q&A posts) are associated wi
 
 ## Features not available for EU geo-hosted tenants
 
-Viva Engage Enterprise tenants in the EU geo lack features that enable full participation between users within your Viva Engage network and users outside your network.
+Viva Engage Enterprise tenants in the EU geo lack some features that enable full participation between users within your Viva Engage network and users outside your network.
 
 | Viva Engage feature | What this means for the EU geo  |
 |:-------|:-------|
 | External networks|External networks can't be created in Viva Engage networks (Native Mode or non Native Mode). However, users in the EU geo can join external networks hosted within the US geo.|
-|External communities|Viva Engage networks running in non Native Mode can't create external communities. However, on a Viva Engage network running in Native Mode, community admins can add Microsoft 365 users outside of your organization as guests to a community. Learn more about [Microsoft Entra B2N guests in Viva Engage communities](../get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage.md). In addition, users in the EU geo can join external communities on non Native Mode networks that are hosted in the US geo.|
+|External communities|Viva Engage networks running in non Native Mode can't create external communities. However, on a Viva Engage network running in Native Mode, community admins can add Microsoft 365 users outside of your organization as guests to a community. Learn more about [Microsoft Entra B2N guests in Viva Engage communities](../get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage.md). In addition, users in the EU geo can join external communities on non Native Mode networks hosted in the US geo.|
 |External messaging|Users in Viva Engage networks (non Native Mode) can’t add external participants to threads. Users can participate in external messaging threads within networks hosted in the US geo.|
 |External collaboration|Viva Engage users in EU geo-hosted networks can't participate in [external messaging threads](../work-with-external-users/external-messaging-faq.md) or add external participants to threads in their Viva Engage Enterprise network. Users on an EU network can participate in a community or external network that’s hosted in the US geo as external guests. This is enabled by the Microsoft B2B   |
-|[Posting to Viva Engage by sending an email message](https://support.office.com/article/058d1bc1-3492-47c5-bde2-29ea294acdb6)|This feature is unavailable for legacy Viva Engage networks (non Native Mode) hosted in the EU geo. This feature is available for all Microsoft 365 connected groups.|
+|[Posting to Viva Engage by sending an email message](https://support.office.com/article/058d1bc1-3492-47c5-bde2-29ea294acdb6)|This feature is unavailable for legacy Viva Engage networks (non Native Mode) hosted in the EU geo, but is available for all Microsoft 365 connected groups.|
 
 <a name="geodata"></a>
 
 ## Determine your geo
 
-Use the following steps to determine in which geo your tenant resides.
+Use the following steps to determine the geo in which your tenant resides.
 
 1. Sign in as a verified admin to Viva Engage.
 
