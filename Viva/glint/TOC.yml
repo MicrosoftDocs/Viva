@@ -199,7 +199,6 @@ items:
       - name: Patient safety survey
         href: setup/patient-safety-survey.md            
       - name: Setting up Employee Lifecycle surveys
-        href: setup/preview-filter-lifecycle-programs.md
         items:
           - name: Create Viva Glint Onboarding and Exit survey programs
             href: setup/create-onboarding-exit-surveys.md
