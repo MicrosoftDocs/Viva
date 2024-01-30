@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high 
-ms.date: 01/26/2024
+ms.date: 01/30/2024
 ---
 
 # Viva Glint learning paths and modules
@@ -33,7 +33,8 @@ These learning paths and modules deep dive into Viva Glint methodology and how t
 |:------|:---------------:|:-------|:--------------------|
 |[Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)|Module|Gives an overview of Viva Glint, who should use it, and why an organization should use it|N/A|
 |[Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)|Learning path|Introduces the methodology of People Success, describe how to use it, and details the Viva Glint methodology|<ul><li>[Getting to know Viva Glint's approach to modern engagement](/training/modules/viva-glint-get-know-viva-glint-approach-modern-engagement/)</li><li> [Designing a People-Centric Measurement Strategy](/training/modules/viva-glint-design-people-centric-measurement-strategy/)</li><li> [Empowering Action for Better Results](/training/modules/viva-glint-empower-action-better-results-viva-glint/)</li></ul>|  
-|[Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)|Learning path|Provides high level information about setting up your dashboard, recurring surveys, and sharing feedback results|<ul><li>[Learn how to set up Viva Glint](/training/modules/viva-glint-learn-how-setup-viva-glint/)</li><li> [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design/)</li><li> [Understand Viva Glint survey configuration and launch](/training/modules/viva-glint-understand-viva-glint-survey-config-launch/)</li><li> [Prepare for a successful Viva Glint results rollout](/training/modules/viva-glint-prepare-successful-results-rollout/)</li></ul>| 
+|[Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)|Learning path|Provides high level information about setting up your dashboard, recurring surveys, and sharing feedback results|<ul><li>[Learn how to set up Viva Glint](/training/modules/viva-glint-learn-how-setup-viva-glint/)</li><li> [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design/)</li><li> [Understand Viva Glint survey configuration and launch](/training/modules/viva-glint-understand-viva-glint-survey-config-launch/)</li><li> [Prepare for a successful Viva Glint results rollout](/training/modules/viva-glint-prepare-successful-results-rollout/)</li></ul>
+|[Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)|Learning path|
 
 
 ### Optional for admins 
