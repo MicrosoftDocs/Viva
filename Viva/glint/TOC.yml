@@ -156,6 +156,8 @@ items:
                 href: setup/survey-character-limits.md
               - name: Preview pre-launch demo data in Viva Glint reporting
                 href: setup/preview-demo-reporting.md
+              - name: Preview, manage, and enable Viva Glint surveys and dashboards
+                href: setup/preview-manage-enable-engage-programs.md
               - name: Grant Live versus Phased access in Viva Glint reporting
                 href: setup/live-versus-phased-access.md
               - name: Make changes to a live Viva Glint survey
@@ -209,8 +211,6 @@ items:
         href: setup/viva-glint-display-logic.md
       - name: Deleting survey data from Viva Glint
         href: setup/delete-survey-data.md
-      - name: Preview, manage, and enable Viva Glint surveys and dashboards
-        href: setup/preview-manage-enable-engage-programs.md
   - name: Use Viva Glint reports and dashboards
     items:
      - name: Viva Glint's survey reports overview
