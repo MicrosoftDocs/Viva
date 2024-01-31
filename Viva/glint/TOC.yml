@@ -168,6 +168,18 @@ items:
                 href: setup/release-dates.md                
   - name: Set up and customize Viva Glint programs
     items:
+     - name: Use validated Viva Glint survey item templates
+        items:
+          - name: Quarterly Engagement Survey 
+            href: setup/quarterly-engagement-template.md
+          - name: Diversity and Inclusion survey 
+            href: setup/diversity-inclusion.md
+          - name: Team Effectiveness survey
+            href: setup/team-effectiveness-survey.md
+          - name: Manager Effectiveness survey
+            href: setup/manager-effectiveness-survey.md
+          - name: Patient safety survey
+            href: setup/patient-safety-survey.md         
       - name: Set up Program Summary for Viva Glint Engagement-type surveys
         href: setup/program-summary-overview.md
         items:
@@ -187,19 +199,7 @@ items:
           - name: Communications setup in Program Summary
             href: setup/program-summary-communications.md
           - name: Set up Coaching page in Program Summary
-            href: setup/program-summary-coaching.md
-      - name: Set up and customize Viva Glint survey item templates
-        items:
-          - name: Quarterly Engagement Survey 
-            href: setup/quarterly-engagement-template.md
-          - name: Diversity and Inclusion survey 
-            href: setup/diversity-inclusion.md
-          - name: Team Effectiveness survey
-            href: setup/team-effectiveness-survey.md
-          - name: Manager Effectiveness survey
-            href: setup/manager-effectiveness-survey.md
-          - name: Patient safety survey
-            href: setup/patient-safety-survey.md            
+            href: setup/program-summary-coaching.md          
       - name: Setting up Employee Lifecycle surveys
         items:
           - name: Create Viva Glint Onboarding and Exit survey programs
