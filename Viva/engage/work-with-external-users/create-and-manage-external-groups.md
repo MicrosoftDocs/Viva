@@ -1,16 +1,17 @@
 ---
-title: "Work with external groups in Viva Engage networks not aligned to native mode"
+title: "Work with external groups in Viva Engage networks not aligned to Native Mode"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 7/11/2023
+ms.date: 01/30/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
 ms.localizationpriority: medium
+ms.collection: essentials-manage
 ms.custom: Adm_Yammer
 search.appverid: 
 - MET150
@@ -19,9 +20,9 @@ ms.assetid: 9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a
 description: "Learn about external groups in Viva Engage and how to opt out if you don't want external groups."
 ---
 
-# Work with external groups in Viva Engage networks not aligned to native mode
+# Work with external groups in Viva Engage networks not aligned to Native Mode
 
-You can work with guests in Viva Engage if your network isn’t aligned to native mode by creating an external group. You can also limit and turn off collaboration in external groups.
+You can work with guests in Viva Engage if your network isn’t aligned to Native Mode by creating an external group. You can also limit and turn off collaboration in external groups.
 
 This experience differs from working with the Viva Engage guest experience, which is powered by Microsoft Entra B2B and requires native mode. For a comparison of experiences, see [Collaborate with guests in a Viva Engage community](../work-with-external-users/collaborate-guests-external-viva-engage-community.md).
 
@@ -128,7 +129,7 @@ By default for Viva Engage Enterprise networks in the US Geo, users can add exte
 
     - Any current external participants are blocked from using external conversations or threads that they may have been participating in.
 
-    - No new external groups can be created. 
+    - No new external groups can be created.
 
 ## FAQ
 <a name="OptOut"> </a>
