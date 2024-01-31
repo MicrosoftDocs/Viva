@@ -46,7 +46,7 @@ Admins can enable or disable metrics from the **Manage analytics** interface of 
 
 1. From [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
 
-    [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)]
+    :::image type="content" source="../media/engage/admin/web-admin-entry.png" alt-text="Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.":::
 
 1. Select the **Setup & configuration** tab, and select **Manage analytics**.
 
