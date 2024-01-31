@@ -95,13 +95,13 @@ To learn more about the metrics available for Global Answers analytics and Answe
 
 ## Personal analytics  
 
-All licensed users have access to Personal analytics that help monitor the engagement on any of their storylines or community posts in Viva Engage.
+All licensed users have access to personal analytics that help monitor the engagement on any of their storylines or community posts in Viva Engage.
 
 [![Screenshot of the Personal analytics landing page.](/Viva/media/engage/admin/personal-analytics-admin.png)](/Viva/media/engage/admin/personal-analytics-admin.png#lightbox)
 
 ## Campaign analytics  
 
-Engage admins and corporate communicators have access to analytics to monitor campaign engagement to improve future campaigns. You can access campaign analytics from the campaign management dashboard, the campaign landing page, or the analytics icon on the main navigation menu of Viva Engage.
+Engage admins and corporate communicators have access to analytics to monitor campaign engagement to improve future campaigns. You can access campaign analytics from the **Campaign management** dashboard, the campaign landing page, or the analytics icon on the main navigation menu of Viva Engage.
 
 [![Screenshot of the Campaign analytics landing page.](/Viva/media/engage/admin/campaign-analytics.png)](/Viva/media/engage/admin/campaign-analytics.png#lightbox)
 
