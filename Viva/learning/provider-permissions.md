@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - essentials-manage
 localization_priority: medium
 
 description: Control access to content from a provider so only certain users can discover them.
