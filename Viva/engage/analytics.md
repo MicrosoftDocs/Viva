@@ -24,37 +24,61 @@ search.appverid:
 # View and manage analytics in Viva Engage
 
 Advanced analytic capabilities in Viva Engage enable:
-- Users to monitor their own engagement metrics through personal analytics
-- Leaders to monitor their audience’s engagement through audience analytics
-- Leaders to manage social campaign engagement through campaign analytics
-- Leaders to monitor engagement in Answers through answers analytics
+- Users to monitor their own engagement metrics through *personal analytics*
+- Leaders to monitor their audiences' engagement through *audience analytics*
+- Leaders to manage social campaign engagement through *campaign analytics*
+- Leaders to monitor engagement in Answers through *answers analytics*
 
 ## Access analytics
 
 >[!NOTE]
->To view analytics, users must have Viva Engage Premium. Audience analytics are only viewable by leaders and their delegates.
+>To view analytics, users must have Viva Engage Premium which is bundled with the *Viva Suite* and *Employee Communications and Communities* license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
 - To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
-Analytics get refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
+Analytics data is refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
 
 ## Manage analytics
 
-Only Microsoft 365 Global admin and Engage admin roles can configure, enable, and disable analytics features to tailor the experience for their organization.
+Only Microsoft 365 Global admins and Engage admins can turn analytics features on or off, with the exception of Network analytics. Only network admins and corporate communicators can access and control Network analytics. 
 
-1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
+Admins can enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center:
+
+1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
+
     [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
-1. Select the **Setup and configuration** tab, and select **Manage analytics**.
+
+1. Select the **Setup & configuration** tab, and select **Manage analytics**.
 
     [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
     [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
+## Network analytics
+
+Network analytics provide valuable insights into employee engagement and communication across your organization. With the ability to track sentiment, retention, and community activity, network admins and corporate communicators can make informed decisions and take targeted actions to improve the overall health of their network. 
+
+>[!NOTE] 
+>For the Network Analytics dashboard to be available, at least 50% of the network’s users must be licensed for Viva Suite or Employee Communications and Communities.
+
+  [![Screenshot of the Viva Engage admin center for viewing and managing Network analytics.](/Viva/media/engage/admin/engage-network-analytics.png)](/Viva/media/engage/admin/engage-network-analytics.png#lightbox)
+
+Learn more about metrics featured in the Network Analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/bg-p/Viva_Engage_Blog).
+
 ## Audience analytics  
 
 In the **Manage analytics** interface shown earlier, the Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
 
-Audience analytics help leaders and delegates monitor engagement of their audience on Viva Engage. Access is through the analytics icon on the top navigation bar or through the leader's storyline page.
+Access is through the analytics icon on the top navigation bar or through the leader's storyline page.
+
+*Audience analytics* help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. A community is considered active if at least 5% of its members have reacted or replied to posts, while a community is considered idle if less than 5% of its members have engaged in this way.
+
+*Sentiment and theme analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts and comments from storylines and public posts. Private community posts and comments are included in the aggregate if the leader is a member of a private community (that is, the leader has permission to view private posts). Individual messages are never shown.
+
+- **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
+
+-	**Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently-discussed subjects in their audience.
+-	**Employee retention** shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](/purview/retention-policies-viva-engage) and [Sentiment and theme analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
 [![Screenshot of the Audience analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)](/Viva/media/engage/admin/audience-analytics.png#lightbox)
 
@@ -86,6 +110,6 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 
 [Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
 [View and manage analytics in Viva Engage](/Viva/engage/analytics)
