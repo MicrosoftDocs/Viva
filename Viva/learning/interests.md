@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - essentials-manage
 ms.localizationpriority: medium
 description: Interest-based learning personalization is now available in Viva Learning.
 ---
