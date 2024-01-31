@@ -15,12 +15,20 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2023
+ms.date: 01/31/2024
 ---
 
 # Understand Viva Glint Advanced Configuration
 
-For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
+For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates. Use Advanced Configuration to:
+
+- Review and edit reporting thresholds in the Details section.
+- Manage advanced survey settings, like Sensitive Comments. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247846).
+- Import external, historical data from a previous employee survey vendor. [Learn more](https://go.microsoft.com/fwlink/?linkid=2244872).
+- Export a detailed snapshot of employee data at the time of a past survey launch. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700)
+- Update fixed employee data that is tied to a closed survey. [Learn more](https://go.microsoft.com/fwlink/?linkid=2259704).
+- Perform special uploads to update custom access. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+- Monitor Advanced Configuration tasks that are still running in the Running Jobs section.
 
 :::image type="content" source="../../media/glint/setup/glint-service-config.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
 
