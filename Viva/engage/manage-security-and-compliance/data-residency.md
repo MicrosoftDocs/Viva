@@ -27,7 +27,7 @@ Your Viva Engage Enterprise tenant is automatically created when you create your
 
 Reactions data (such as Viva Engage likes and Teams Q&A posts) are associated with the tenant’s geo, ingested into the substrate, and available for export through [eDiscovery](/Viva/engage/ediscovery-engage). A copy of the reactions data is currently stored with a third-party subprocessor, Snowflake Incorporated, which processes data in the United States. Engage and Teams Q&A reactions data are in the process of moving within the Microsoft 365 boundary.
 
-## Features not available for EU geo-hosted tenants
+## Viva Engage features that are unavailable for tenants hosted in the EU geo
 
 Viva Engage Enterprise tenants in the EU geo lack some features that enable full participation between users within your Viva Engage network and users outside your network.
 
@@ -41,7 +41,7 @@ Viva Engage Enterprise tenants in the EU geo lack some features that enable full
 
 <a name="geodata"></a>
 
-## Determine your geo
+## Determine which geo your tenant is in
 
 Use the following steps to determine the geo in which your tenant resides.
 
@@ -54,7 +54,7 @@ Use the following steps to determine the geo in which your tenant resides.
     - Tenants in the EU geo show **Viva Engage network activated in the EU Geo**.
     - Tenants in the US geo show **Viva Engage network activated in the US Geo**.
 
-## Reprovision your network to the EU geo
+## Reprovision your Viva Engage Enterprise network to the EU geo
 
 Customers can have their Viva Engage Enterprise tenant reprovisioned to the Viva Engage EU geo. Contact your Microsoft account team representative for details.
 
