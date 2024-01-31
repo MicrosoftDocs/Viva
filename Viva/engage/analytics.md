@@ -61,7 +61,7 @@ Network analytics provide valuable insights into employee engagement and communi
 >[!NOTE] 
 >For the Network Analytics dashboard to be available, at least 50% of the network’s users must be licensed for Viva Suite or Employee Communications and Communities.
 
-  [![Screenshot of the Viva Engage admin center for viewing and managing Network analytics.](/Viva/media/engage/admin/engage-network-analytics.png)](/Viva/media/engage/admin/engage-network-analytics.png#lightbox)
+:::image type="content" source="/Viva/media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics.":::  
 
 Learn more about metrics featured in the Network Analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/bg-p/Viva_Engage_Blog).
 
