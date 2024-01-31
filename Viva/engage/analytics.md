@@ -56,10 +56,10 @@ Admins can enable or disable metrics from the **Manage analytics** interface of 
 
 ## Network analytics
 
-Network analytics provide valuable insights into employee engagement and communication across your organization. With the ability to track sentiment, retention, and community activity, network admins and corporate communicators can make informed decisions and take targeted actions to improve the overall health of their network. 
+Network analytics provide valuable insights into employee engagement and communication across your organization. With the ability to track sentiment, retention, and community activity, network admins and corporate communicators can make informed decisions and take targeted actions to improve the overall health of their network.
 
 >[!NOTE] 
->For the Network Analytics dashboard to be available, at least 50% of the network’s users must be licensed for Viva Suite or Employee Communications and Communities.
+>For the **Network analytics** dashboard to be available, at least 50% of the network’s users must be licensed for Viva Suite or Employee Communications and Communities.
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics.":::
 
