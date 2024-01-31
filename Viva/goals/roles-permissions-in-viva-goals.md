@@ -15,6 +15,7 @@ ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 - highpri
+- essentials-manage
 search.appverid:
 - MET150
 description: "Learn about the various roles and permissions in Viva Goals"
