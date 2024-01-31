@@ -99,7 +99,7 @@ For information about data residency for Viva apps, see [Microsoft Viva Privacy]
 
 Currently, certain features in Viva Engage (through Yammer) and Viva Connections (through SharePoint) are supported by Microsoft Purview.
 
-Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/microsoft-365/compliance/retention-policies-viva-pr). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/Viva/engage/overview-native-mode.md).
+Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](/engage/native-mode-guide.md).
 
 Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
