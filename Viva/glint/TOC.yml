@@ -167,28 +167,8 @@ items:
                 href: setup/release-dates.md                
   - name: Set up and customize Viva Glint programs
     items:
-      - name: Set up Program Summary for Viva Glint Engagement-type surveys
-        href: setup/program-summary-overview.md
-        items:
-          - name: Program setup in Program Summary
-            href: setup/program-set-up.md
-          - name: Distribution setup in Program Summary
-            href: setup/distribution-program-summary.md
-          - name: Set up Schedule page in Program Summary
-            href: setup/schedule-setup.md
-          - name: Questions setup in Program Summary
-            href: setup/questions-setup.md
-            items:
-            - name: Adding new survey items and section breaks to a Viva Glint program
-              href: setup/add-new-questions.md
-          - name: Reporting setup in Program Summary
-            href: setup/reporting-setup.md
-          - name: Communications setup in Program Summary
-            href: setup/program-summary-communications.md
-          - name: Set up Coaching page in Program Summary
-            href: setup/program-summary-coaching.md
-      - name: Set up and customize Viva Glint survey item templates
-        items:
+     - name: Use validated Viva Glint survey item templates
+       items:
           - name: Quarterly Engagement Survey 
             href: setup/quarterly-engagement-template.md
           - name: Diversity and Inclusion survey 
@@ -198,19 +178,39 @@ items:
           - name: Manager Effectiveness survey
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
-            href: setup/patient-safety-survey.md            
-      - name: Setting up Employee Lifecycle surveys
-        items:
+            href: setup/patient-safety-survey.md         
+     - name: Set up Program Summary for Viva Glint Engagement-type surveys
+       href: setup/program-summary-overview.md
+       items:
+         - name: Program setup in Program Summary
+           href: setup/program-set-up.md
+         - name: Distribution setup in Program Summary
+           href: setup/distribution-program-summary.md
+         - name: Set up Schedule page in Program Summary
+           href: setup/schedule-setup.md
+         - name: Questions setup in Program Summary
+           href: setup/questions-setup.md
+           items:
+             - name: Adding new survey items and section breaks to a Viva Glint program
+               href: setup/add-new-questions.md
+         - name: Reporting setup in Program Summary
+           href: setup/reporting-setup.md
+         - name: Communications setup in Program Summary
+           href: setup/program-summary-communications.md
+         - name: Set up Coaching page in Program Summary
+           href: setup/program-summary-coaching.md          
+     - name: Setting up Employee Lifecycle surveys
+       items:
           - name: Create Viva Glint Onboarding and Exit survey programs
             href: setup/create-onboarding-exit-surveys.md
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
             href: setup/preview-filter-lifecycle-programs.md
-      - name: Tailor users' survey experience with Viva Glint Display Logic
-        href: setup/viva-glint-display-logic.md
-      - name: Deleting survey data from Viva Glint
-        href: setup/delete-survey-data.md
+     - name: Tailor users' survey experience with Viva Glint Display Logic
+       href: setup/viva-glint-display-logic.md
+     - name: Deleting survey data from Viva Glint
+       href: setup/delete-survey-data.md
   - name: Use Viva Glint reports and dashboards
     items:
      - name: Viva Glint's survey reports overview
