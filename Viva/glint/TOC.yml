@@ -215,14 +215,19 @@ items:
     items:
      - name: Viva Glint's survey reports overview
        href: reports/survey-reports-overview.md
+     - name: Viva Glint admin reports
        items:
+         - name: Use the Viva Glint Alerts and Attrition Risk report
+           href: reports/alerts-report-attrition-risk.md
+         - name: Use the Manager report in Viva Glint
+           href: reports/manager-report.md
+    - name: Viva Glint manager reports
+      items:
          - name: Use Viva Glint's Executive Summary report
            href: reports/executive-summary-report.md
            items:
              - name: Understand the trend graph in a Viva Glint Employee Lifecycle program
                href: reports/trend-graph-lifecycle-survey.md
-         - name: Use the Viva Glint Alerts and Attrition Risk report
-           href: reports/alerts-report-attrition-risk.md
          - name: Use the Viva Glint Driver Impact report
            href: reports/driver-impact-report.md
            items:
@@ -237,8 +242,6 @@ items:
                href: reports/interpret-keyword-cloud.md
              - name: Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report
                href: reports/incorporate-copilot.md
-         - name: Use the Manager report in Viva Glint
-           href: reports/manager-report.md
          - name: Multi-Attribute Export report
            href: reports/multi-attribute-export-report.md
          - name: Use the Viva Glint Response Rate report
