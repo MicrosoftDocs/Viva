@@ -13,6 +13,8 @@ ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:
+  - essentials-navigation
+  - essentials-overview
   - Strat_SP_modern
   - M365-collaboration
   - m365initiative-viva-connections
