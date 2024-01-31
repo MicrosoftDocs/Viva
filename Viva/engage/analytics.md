@@ -69,7 +69,7 @@ Learn more about metrics featured in the Network Analytics dashboard on the [Viv
 
 In the **Manage analytics** interface shown earlier, the Engage admin can adjust the level of sentiment analysis that's available to leaders and their delegates through the **Audience analytics** dashboard. This functionality enables unique levels of sentiment collection at the audience, theme, or conversation level.
 
-Access is through the analytics icon on the top navigation bar or through the leader's storyline page.
+Access is through the analytics icon on the top navigation bar or on the leader's storyline page.
 
 *Audience analytics* help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. A community is considered active if at least 5% of its members have reacted or replied to posts, while a community is considered idle if less than 5% of its members have engaged in this way.
 
@@ -78,6 +78,7 @@ Access is through the analytics icon on the top navigation bar or through the le
 - **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
 
 -	**Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently-discussed subjects in their audience.
+
 -	**Employee retention** shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](/purview/retention-policies-viva-engage) and [Sentiment and theme analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
 [![Screenshot of the Audience analytics landing page.](/Viva/media/engage/admin/audience-analytics.png)](/Viva/media/engage/admin/audience-analytics.png#lightbox)
