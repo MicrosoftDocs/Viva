@@ -6,7 +6,9 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: viva-insights-advanced
+ms.collection:
+ - viva-insights-advanced
+ - essentials-privacy
 ms.service: viva 
 ms.subservice: viva-insights
 manager: anirudhbajaj

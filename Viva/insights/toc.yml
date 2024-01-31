@@ -94,6 +94,8 @@ items:
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
+          - name: View and customize your general settings
+            href: advanced/admin/general-settings.md
         - name: Analyst
           items:
           - name: Queries
@@ -154,6 +156,8 @@ items:
             href: advanced/analyst/custom-metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md
+          - name: View and customize your general settings
+            href: advanced/admin/general-settings.md
         - name: Open source analysis tools
           items:
             - name: vivainsights Python package

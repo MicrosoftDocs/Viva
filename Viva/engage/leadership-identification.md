@@ -4,8 +4,8 @@ description: "Leadership identification and audience management enable organizat
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 07/24/2023
+manager: elizapo
+ms.date: 11/01/2023
 audience: Admin
 f1.keywords:
 - NOCSH

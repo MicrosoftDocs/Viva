@@ -10,12 +10,13 @@ keywords: tenant, viva glint tenant
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-get-started
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2023
+ms.date: 01/25/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -38,7 +39,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 > [!NOTE]
 >
 > - A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
-> - A minimum number of 100 active user licenses are required for tenant provisioning. Licenses requested below 100 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
+> - A minimum number of 50 active user licenses are required for tenant provisioning. Licenses requested below 50 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
 
 ## Begin your Viva Glint provisioning experience
 
