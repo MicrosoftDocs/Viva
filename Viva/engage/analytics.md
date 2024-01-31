@@ -44,9 +44,9 @@ Only Microsoft 365 Global admins and Engage admins can turn analytics features o
 
 Admins can enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center:
 
-1. From [Viva Engage on the web](https://www.engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
+1. From [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
 
-    [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
+    [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)]
 
 1. Select the **Setup & configuration** tab, and select **Manage analytics**.
 
