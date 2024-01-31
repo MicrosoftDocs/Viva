@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-overview
 - highpri
 - tier1
+- essentials-compliance
 search.appverid:
 - MET150
 description: "Find Microsoft Viva compliance information."

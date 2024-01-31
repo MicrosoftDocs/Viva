@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-overview
 - highpri
 - tier1
+- essentials-privacy
 search.appverid:
 - MET150
 description: "Find Microsoft Viva privacy information."
