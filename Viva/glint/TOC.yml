@@ -221,8 +221,8 @@ items:
            href: reports/alerts-report-attrition-risk.md
          - name: Use the Manager report in Viva Glint
            href: reports/manager-report.md
-    - name: Viva Glint manager reports
-      items:
+     - name: Viva Glint manager reports
+       items:
          - name: Use Viva Glint's Executive Summary report
            href: reports/executive-summary-report.md
            items:
