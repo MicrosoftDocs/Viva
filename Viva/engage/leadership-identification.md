@@ -67,7 +67,7 @@ After a leader is identified, the next step is to manage the leader’s audience
         :::image type="content" source="/viva/media/engage/admin/manage-audiences.png" alt-text="Screenshot of the Manage audience interface in Viva Engage.":::
 
         > [!NOTE]
-        > Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
+        > Leaders and delegate managers can't enable this option. Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization.  
 
     - **One or more audiences:** An audience represents people that the leader wants to connect with most, typically those in the leader’s immediate organization. To define an audience, select the **Add new audience** button and then search to add an existing group. If you can't find a group that includes the audience members you want, create a new group and add users to it.
 
