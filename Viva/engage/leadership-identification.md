@@ -74,8 +74,7 @@ After a leader is identified, the next step is to manage the leader’s audience
         > [!NOTE]
         > Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
 
-    - **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. This enables users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant.
-The **Enable organization** toggle must also be turned on.
+    - **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. This enables users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant. The **Enable organization** toggle must also be turned on.
 
         >[!NOTE]
         >This option is only present when Viva Engage is configured as a [multitenant organization](/Viva/engage/mto-setup).
