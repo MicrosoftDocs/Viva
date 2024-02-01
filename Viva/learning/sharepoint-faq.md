@@ -25,7 +25,7 @@ This article outlines error codes and FAQs for SharePoint in Viva Learning.
  
 If the ingestion status is showing success and content is still not visible in the Viva Learning app, download export logs:
 
-1. Go to the admin tab in Viva Learning
+1. Go to the admin tab in Viva Learning.
 2. Select **SharePoint**. 
 3. Select **More options.** Select **Export logs**.
 4. In **Logs,** check the **Sync summary** tab.
@@ -63,7 +63,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 - **What type of site URLs can be added?** 
     - You can use either a Teams site or a communication site. We recommend using a communication site.
 
-- **Why is the display name is not updated?**
+- **Why is the display name not updated?**
     - Only site owners with the knowledge admin or global admin role can update the display name.
     - The change can take 24 hours to reflect.
 
@@ -74,7 +74,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     - The first 1000 items with earliest last modified date are ingested.
     - For example, a customer has items A, B, and C, and they created or uploaded them in the sequence A, B, and C. The earliest last modified date belongs to A, followed by B, and then C. Therefore, when restricted to only two items, we only include A and B in our collection and C is discarded.
 
-- **Why am I unable to add a M365 group or mail-enabled security group (MESG)?**
+- **Why can't I add a M365 group or mail-enabled security group (MESG)? directly to a file or folder?**
     - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
     - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
 
