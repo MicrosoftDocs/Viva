@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 11/02/2023
+ms.date: 1/31/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -68,6 +68,7 @@ The data export contains the following files:
    | **request.txt** | Parameters of the export |
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
+   | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or groups.csv file, respectively.|
    | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
    | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name, and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](/rest/api/yammer/rest-api-rate-limits). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
@@ -118,7 +119,7 @@ The data export contains the following files:
 | **Networks.csv** | Lists your home network and all external networks included in the export. |
 | **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. |
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
-| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see [the REST API](/rest/api/yammer/rest-api-rate-limits). |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
@@ -191,16 +192,16 @@ If the log.txt file shows export errors for one category of data, try again. If 
 
 ## Automate your data exports
 
-To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/yammer-files-export-api)<br>
+To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)<br>
 
 ## Export large file volumes with the API
 
-Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/network-data-exportd)
+Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)
 
 ### See also
 
 [Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
 [Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
