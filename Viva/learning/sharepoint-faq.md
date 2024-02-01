@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 01/17/2024
+ms.date: 01/31/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -25,7 +25,7 @@ This article outlines error codes and FAQs for SharePoint in Viva Learning.
  
 If the ingestion status is showing success and content is still not visible in the Viva Learning app, download export logs:
 
-1. Go to the admin tab in Viva Learning
+1. Go to the admin tab in Viva Learning.
 2. Select **SharePoint**. 
 3. Select **More options.** Select **Export logs**.
 4. In **Logs,** check the **Sync summary** tab.
@@ -63,7 +63,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 - **What type of site URLs can be added?** 
     - You can use either a Teams site or a communication site. We recommend using a communication site.
 
-- **Why is the display name is not updated?**
+- **Why is the display name not updated?**
     - Only site owners with the knowledge admin or global admin role can update the display name.
     - The change can take 24 hours to reflect.
 
@@ -73,10 +73,6 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 - **In what order are the files ingested?**
     - The first 1000 items with earliest last modified date are ingested.
     - For example, a customer has items A, B, and C, and they created or uploaded them in the sequence A, B, and C. The earliest last modified date belongs to A, followed by B, and then C. Therefore, when restricted to only two items, we only include A and B in our collection and C is discarded.
-
-- **Why am I unable to add a M365 group or mail-enabled security group (MESG)?**
-    - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
-    - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
 
 - **What can I do if my content is not visible?**  
     1. Go to the SharePoint site added in the **Admin tab** > **Manage provider** > **SharePoint**.
@@ -89,6 +85,10 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 > [!NOTE]
 > Check if the permission is propagating to file items present in the folder. A site owner or contributor role is required on the site for the permissions to propagate to the dependent item.
 
+- **Why can't I add a M365 group or mail-enabled security group (MESG) directly to a file or folder?**
+    - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
+    - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
+
 - **How can I make a security group mail-enabled**? 
 
     - Security groups without mail enabled are global groups. To mail-enable them, convert them to a [universal group](/previous-versions/windows/it-pro/windows-server-2003/cc755692(v=ws.10)) and then add an email for the group. 
@@ -98,16 +98,16 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     1. Check the [column names](/viva/learning/configure-sharepoint-content-source#metadata)
     2. If they're not correct, delete and recreate the column.
 
-- What size do the thumbnails have to be to properly render in Viva Learning?
-    The aspect ratio has to be 16:9.
+- **What size do the thumbnails have to be to properly render in Viva Learning?**
+    - The aspect ratio has to be 16:9.
 
 - **What can I do if the content is not playable?** 
-    1. If you're using a custom SharePoint Domain (for example, sp.contoso.com), raise a [support ticket](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed.
-    2. If the linked objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
-    3. Hyperlinks, forms, embedded videos in a file work in Viva Learning.
+    - If you're using a custom SharePoint Domain (for example, sp.contoso.com), raise a [support ticket](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed.
+    - If the linked objects are added, you need a Microsoft Viva suite or Viva Learning license to consume them.
+    - Hyperlinks, forms, embedded videos in a file don't work in Viva Learning.
     
-|            Object type        |         Word     |         Pdf     |      PowerPoint  |      Excel  |
-|--------------------|:----------------:|:---------------:|:----------------:|:-----------:|
-|      Forms         |     N/A          |                 |     No           |     N/A     |
-|      Embed video  |     No           |                 |     Yes          |     N/A     |
-|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |     No      |
+|            Object type        |         Word     |         Pdf     |      PowerPoint  |  
+|--------------------|:----------------:|:---------------:|:----------------:|
+|      Forms         |     N/A          |    N/A             |     No           |
+|      Embed video  |     No           |          No       |     Yes          | 
+|      Hyperlinks    |     Ctrl+ select  |     Ctrl+select  |     No           |
