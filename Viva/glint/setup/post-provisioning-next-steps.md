@@ -23,11 +23,11 @@ ms.date: 04/21/2023
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
 - If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
-- If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment.
+- If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
 
 ## Add administrators to your Viva Glint instance
 
-As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - and importantly - you can assign Viva Glint Service admin roles to other users.
+As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
 
 > [!NOTE]
 > Administrators for Viva Glint are assigned within the Viva Glint product only, not through the Microsoft Administrator Center (MAC).
@@ -53,11 +53,12 @@ Compile a file of administrators to upload to Viva Glint with the following colu
 Upload your administrators to Viva Glint Advanced Configuration:
 
 1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+   1. If there is no **Advanced Configuration** option, go to your user profile and in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
 1. Switch the **Incremental** toggle on.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section and select **Upload**.
-1. In the **Upload Job Details** page that appears, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
+1. In *Upload Job Details**, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
 1. Select **Apply Upload to Database** to upload new users and select **Yes**.
 1. Go to the **Uploads** menu and confirm that the file **State** is SUCCESS and that the **Total Lines** and **Processed Lines** match the number of users in the uploaded file.
 
@@ -86,7 +87,7 @@ Viva Glint is a "voice of the employee" solution helping organizations understan
 
 Build skills that open doors. [See all that you can do with documentation, hands-on training, and certifications to help you get the most from Microsoft products.](https://learn.microsoft.com)
 
-Within Viva Glint Learn, you'll be busy in these two areas, accessible from the top navigation me
+Within Viva Glint Learn, you'll be busy in these two areas, accessible from the top navigation menu.
 
 - Documentation- [See all you can do with resources and solutions.](https://go.microsoft.com/fwlink/?linkid=2230911)
 - Training - [Browse the full catalog of Learning Paths and Modules](/training/browse/?terms=glint)
@@ -119,4 +120,6 @@ Find resources to go from inspiration to execution. Adoption resources will give
 ## Microsoft Viva Support
 
 [Resources and guides for survey participants to help answer questions and provide background on Viva Glint methodology](https://go.microsoft.com/fwlink/?linkid=2239301).
+
+## How to take a survey - for all survey takers in your organization
 [How to take a Viva Glint survey](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)

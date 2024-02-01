@@ -12,17 +12,18 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-manage
 search.appverid:
 - MET150
 ---
 
 # Overview of the Viva Engage admin center
 
-You use the Viva Engage admin center to set up and customize your tenant, manage security and compliance, and build engagement within your organization. The admin center is located in the Viva Engage app on Teams and [on the web](https://www.yammer.com).
+You use the Viva Engage admin center to set up and customize your tenant, manage security and compliance, and build engagement within your organization. The admin center is located in the Viva Engage app on Teams and [on the web](https://engage.cloud.microsoft).
 
 In the admin center you can:  
 
@@ -40,7 +41,7 @@ To go to the Viva Engage admin center in Teams, select the ellipses button from 
 
 
 #### On the web
-To go to the [Viva Engage admin center on the web](https://www.yammer.com), log in, and from the gear icon on the top navigation menu, select **Admin center**.
+To go to the [Viva Engage admin center on the web](https://engage.cloud.microsoft), log in, and from the gear icon on the top navigation menu, select **Admin center**.
 
 :::image type="content" source="../media/engage/admin/eac-on-web-inline.png" alt-text="Screenshot shows how to access the Admin center from a browser" lightbox="../media/engage/admin/eac-on-web-expanded.png":::
 

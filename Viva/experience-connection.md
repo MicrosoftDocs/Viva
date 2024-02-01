@@ -4,7 +4,7 @@ title: "Energize your workforce by creating spaces for conversations, company ne
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

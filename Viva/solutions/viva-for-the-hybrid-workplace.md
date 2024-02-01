@@ -4,7 +4,7 @@ title: "Overview: Microsoft Viva for the hybrid workplace"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

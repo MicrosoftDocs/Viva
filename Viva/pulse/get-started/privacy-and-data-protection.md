@@ -1,6 +1,6 @@
 ---
-title: Privacy and data protection
-description: "Privacy and data protection"
+title: Viva Pulse privacy and data protection
+description: "Viva Pulse privacy and data protection"
 ms.reviewer: 
 ms.author: michellehu
 author: michellehu-msft
@@ -12,11 +12,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-pulse
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-pulse  
+ms.collection:
+- essentials-privacy
 search.appverid: MET150
 ---
 
-# Privacy and data protection
+# Viva Pulse privacy and data protection
 
 ## Protections for responders
 

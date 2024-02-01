@@ -4,7 +4,7 @@ description: "Storyline empowers everyone within your organization to connect an
 ms.reviewer: john.bacus
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 8/22/2023
 audience: Admin
 f1.keywords:
@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -83,6 +83,10 @@ Your changes should  take effect within minutes. However, backend membership cha
 
 > [!NOTE] 
 > Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
+
+### Configure a multitenant organization to use storyline
+
+When Viva Engage is configured for a multitenant organization, the **Multi-tenant Organizations (MTO)** setting appears in the Advanced settings of the designated hub tenant. This setting enables users on all spoke tenants to engage with storyline posts from the hub tenant. However, these users can only participate if the multitenant organization configuration in Microsoft Entra ID has granted them access to storyline. Learn more about [configuring a multitenant organization in Viva Engage](/Viva/engage/mto-setup).
 
 ## Security and compliance
 
@@ -157,11 +161,11 @@ If the admin or the user isn't premium licensed, or the user no longer has their
 
 From the API, Engage admins or verified admins can delete cover images for any user in their network through an API call. The URL has this syntax:
 
-`www.yammer.com/api/public/v1/user-profiles/user_id/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/user_id/cover-image`
 
 For example, to delete the cover images of a user with id 1234567890, the URL would be:
 
-`www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/1234567890/cover-image`
 
 
 ## See also

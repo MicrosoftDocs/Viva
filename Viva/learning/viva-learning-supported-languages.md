@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 02/17/2023
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

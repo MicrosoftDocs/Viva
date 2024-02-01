@@ -3,7 +3,7 @@ title: Viva Glint Licensing
 description: Subscriptions are required for all Viva Glint programs. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Viva Glint licensing, licensing, license limits 

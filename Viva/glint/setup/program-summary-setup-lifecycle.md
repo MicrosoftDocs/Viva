@@ -3,7 +3,7 @@ title: Set up Program Summary for Viva Glint Employee Lifecycle programs
 description: Viva Glint Employee Lifecycle programs measure the employee experience during key moments in the employment journey.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: onboarding, exit surveys

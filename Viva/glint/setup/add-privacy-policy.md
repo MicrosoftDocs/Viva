@@ -3,7 +3,7 @@ title: Privacy policies in Microsoft Viva Glint
 description: A privacy policy is in effect for all users of Microsoft Viva Glint programs and dashboards. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Microsoft Privacy Statement 

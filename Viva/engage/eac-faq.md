@@ -4,7 +4,7 @@ description: "Provides answers to frequently asked questions about the Viva Enga
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 11/06/2023
 audience: Admin
 f1.keywords:

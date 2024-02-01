@@ -2,7 +2,7 @@
 title: Configure Udacity as a content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/11/2022
 audience: admin

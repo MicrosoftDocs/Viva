@@ -2,13 +2,14 @@
 title: A Yammer user is displayed as "Former member" when you use Office 365 sign in for Yammer
 description: Describes an issue in which a Yammer user is displayed as "Former member" when you use Office 365 sign in for Yammer.
 author: TeresaFG-writer
-manager: pamgreen
+manager: elizapo
 audience: ITPro
-ms.service: sharepoint-online
+ms.service: viva
+ms.subservice: viva-engage
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 ms.date: 06/25/2019
 ---
 

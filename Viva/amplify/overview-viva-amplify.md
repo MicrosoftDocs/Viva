@@ -2,7 +2,7 @@
 title: Overview of Microsoft Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 ms.reviewer: smathurin
 ms.date: 11/28/2023
 audience: admin
@@ -18,6 +18,8 @@ ms.collection:
   - m365initiative-viva-amplify
   - highpri
   - Tier1
+  - essentials-navigation
+  - essentials-overview
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Amplify in your Microsoft 365 environment.
 ---

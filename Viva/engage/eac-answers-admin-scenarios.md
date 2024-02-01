@@ -4,8 +4,8 @@ description: "Describes administration of Answers in Viva Engage for the Microso
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
-ms.date: 10/28/2023
+manager: elizapo
+ms.date: 01/18/2024
 audience: Admin
 f1.keywords:
 - NOCSH

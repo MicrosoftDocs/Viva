@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
-ms.date: 7/11/2023
+manager: elizapo
+ms.date: 01/04/2024
 audience: Admin
 ms.topic: reference
 ms.localizationpriority: medium
@@ -43,13 +43,10 @@ Add Viva Engage feeds to your SharePoint pages. For instructions, see [Use a Viv
 
 The [Viva Engage connector](/connectors/yammer/) hosts social plug-ins to extend Viva Engage's social functionality across enterprise applications. 
   
-## Viva Engage and Flow
+## Viva Engage and Power Automate
 
-[Microsoft Flow](/flow/) can be used with Viva Engage to enable various scenarios. (See  [Flow Viva Engage templates](https://flow.microsoft.com/connectors/shared_yammer/yammer/). Some examples include: sending news through RSS feed to a Viva Engage group, posting tweets that match hashtags, sending email when a new message is posted, and posting to Viva Engage from Facebook and Twitter.
-
-- For other examples using Flow, see: 
-    - [Create a knowledge-based community in Viva Engage by using QnA Maker and Flow](https://techcommunity.microsoft.com/t5/Yammer-Resources/Create-a-knowledge-based-community-in-Yammer-by-using-QnA-Maker/ta-p/393467)
-    - [Identify sentiment of comments in a Viva Engage group by using Azure Cognitive Services and Flow](https://techcommunity.microsoft.com/t5/Yammer-Resources/Identify-sentiment-of-comments-in-a-Yammer-group-by-using-Azure/ta-p/393398) 
+[Microsoft Power Automate](/power-automate/getting-started) can be used with Viva Engage to enable various scenarios. Some examples include: sending news through RSS feed to a Viva Engage group, posting tweets that match hashtags, sending email when a new message is posted, and posting to Viva Engage from Facebook and X (Twitter).
+[Learn more here](/connectors/yammer/).
 
 ## Viva Engage for Dynamics CRM
 

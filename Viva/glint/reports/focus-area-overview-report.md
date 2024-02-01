@@ -3,7 +3,7 @@ title: Use Viva Glint's Focus Area Overview report
 description: "Provides a status of the completion of Focus Areas across teams, at-a-glance critical insights, and access to additional details."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

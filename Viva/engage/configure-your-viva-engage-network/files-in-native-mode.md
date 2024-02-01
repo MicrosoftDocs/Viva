@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/28/2023
 audience: Admin
 ms.topic: article
@@ -56,7 +56,7 @@ Because migration deletes files and the process is irreversible, we suggest you:
 
 - Update to the latest versions of Viva Engage Android, Viva Engage iOS, and Viva Engage Desktop apps, as older versions have issues uploading files to SharePoint.
 
-- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](https://developer.yammer.com/v1.0/docs/upload-files-into-yammer-groups). The previous versions are blocked and file uploads don’t work.
+- If third-party APIs are used to upload files, use the [latest version of Upload files into Viva Engage groups](/rest/api/yammer/upload-files-into-yammer-groups). The previous versions are blocked and file uploads don’t work.
 
 - Notify users in advance of the migration. Specifically, inform them that files in Viva Engage private messages will be deleted and no longer accessible. Only the latest version of the file is migrated to SharePoint, and the previous versions aren't copied. The follower count isn't copied. Users can no longer mark files as official.
 

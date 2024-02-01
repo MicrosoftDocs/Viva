@@ -4,15 +4,15 @@ description: "Leadership identification and audience management enable organizat
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 07/24/2023
+manager: elizapo
+ms.date: 11/01/2023
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -61,17 +61,23 @@ On the **Manage leaders** list, find the leader’s row and select the pencil ic
 
 The **Manage audiences** page appears, where you configure the leader’s audiences. A leader can define as their audience:
 
-- **The entire organization:** The leader’s posts and announcements reach all users in the Viva Engage network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle. 
+- **The entire organization:** The leader’s posts and announcements reach all users in the Viva Engage network, excluding guests. To enable a leader to share and reach the entire organization, enable the **Entire organization** toggle.
 
-   > [!NOTE]
-   > Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
+:::image type="content" source="/viva/media/engage/admin/manage-audiences.png" alt-text="Screenshot of the Manage audience interface in Viva Engage.":::
+
+> [!NOTE]
+> Only Engage admins, Viva Engage verified admins, Viva Engage network admins, and corporate communicators can allow leaders to reach the entire organization. Leaders and delegate managers can't enable this option.  
 
 - **One or more audiences:** An audience represents people that the leader wants to connect with most, typically those in the leader’s immediate organization. To define an audience, select the **Add new audience** button and then search to add an existing group. If you can't find a group that includes the audience members you want, create a new group and add users to it.
 
- :::image type="content" source="/viva/media/engage/admin/manage-audiences.png" alt-text="Screenshot of the Manage audience interface in Viva Engage.":::
+> [!NOTE]
+> Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
 
-   > [!NOTE]
-   > Each time a storyline announcement is posted, the selected audiences receive an automatic notification.
+- **Multitenant organization:** Turn on this toggle to let spoke tenants receive leadership posts and announcements from the hub tenant. This enables users in the spoke tenants to receive a blended feed of leader announcements in Leadership corner from their own leaders and selected leaders on the hub tenant.
+The **Enable organization** toggle must also be turned on.
+
+>[!NOTE]
+>This option is only present when Viva Engage is configured as a [multitenant organization](/Viva/engage/mto-setup).
 
 To define a leader’s audience, add individual users or groups, such as security, distribution, or Microsoft 365 groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours.
 

@@ -3,7 +3,7 @@ title: Advanced privacy guide for data usage and survey item creation
 description: At Microsoft Viva Glint, data privacy and trust are key priorities to encourage elevated levels of honest and useful feedback. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Confidentiality, personal data, data privacy, privacy, trust, sensitive data, GDPR 

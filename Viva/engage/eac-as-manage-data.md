@@ -4,8 +4,8 @@ description: "Describes where and how admins can manage data in the Viva Engage 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
-ms.date: 12/04/2023
+manager: elizapo
+ms.date: 11/02/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -91,7 +91,7 @@ This data export doesn't include:
 1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
 
-   :::image type="content" source="../media/engage/admin/eac-tenant-options.png" alt-text="Screenshot of export options including date range and other filters.":::
+   :::image type="content" alt-text="Screenshot of export options including date range and other filters." source="../media/engage/admin/eac-tenant-options.png" lightbox="../media/engage/admin/eac-tenant-options.png":::
 
    - **Date range:**  Includes only data in the specified date range. Today’s date is automatically prepopulated as the end date.
    - **Include attachments:**  If unselected, only a list of files is exported. If selected, a **Files** folder is exported containing all files in their native format.
@@ -110,6 +110,7 @@ The data export contains the following files:
 | **log.txt** | Summary of the export |
 | **request.txt** | The parameters of the export |
 | **Admins.csv** | A list of admins for each selected network, including the name, email, and admin type |
+| **Campaigns.csv**| A list of all campaigns on the network. **Properties include:** creation name, URL, hashtag, creation date, creator ID, and state.|
 | **Files.csv** | A list of file attachments that were added or modified within the date range. Files.csv doesn’t contain actual files. **Properties include:** account ID, type of file, name, description, and path to the file, and metadata that includes the group it was posted in. <br> <br>If **Include attachments** was selected, only files stored in Viva Engage are exported in native format to the **Files** folder of the zip file. <br> <br>**Note**: To download files from SharePoint, use the **download_url** column. <br>If SharePoint files have no Microsoft Entra tokens, you must [create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, use [Content search in Microsoft 365](/purview/ediscovery-content-search) to find files in SharePoint for the specified date range. <br>To identify files in the **Files** folder, use **file_ID** and **path** columns. <br> <br>**Important:** When files are stored on Viva Engage and SharePoint, delete them from Viva Engage to remove metadata from both locations.    |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
 | **Messages.csv** | All messages sent or modified during the specified date range. **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, and creation and deletion information. |

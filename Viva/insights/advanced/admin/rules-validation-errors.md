@@ -1,5 +1,5 @@
 ---
-ms.date: 06/29/2023
+ms.date: 12/14/2023
 title: File rules and validation errors
 description: View errors and solutions for validation errors in the advanced insights app
 author: zachminers
@@ -29,9 +29,9 @@ The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
 All field header or column names need to: 
 
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported.
+* Only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! _ @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported.
 * Contain a value.
-* Have no leading or trailing blank spaces or special characters.(non-alphanumeric, such as @, #, %, &). <!--confirming-->
+* Have no leading, middle, or trailing blank spaces, or special non-alphanumeric characters such as @, #, %, or &.
 * Be unique.
 * Contain no reserved keywords, which are:
     *  PeopleHistoricalId

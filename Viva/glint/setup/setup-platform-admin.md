@@ -24,7 +24,11 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-Ready to get started? Follow these steps:
+Ready to get started? 
+
+## Spend short of 10 minutes watching this video about all the goodness that Viva Glint offers. 
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
 
 ### 1. Begin Viva Glint platform setup
 

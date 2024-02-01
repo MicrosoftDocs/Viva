@@ -3,7 +3,7 @@ title: Create Viva Glint Onboarding and Exit survey programs
 description: Employee Lifecycle programs – Onboarding and Exit - provide data about how a new hire feels about their introduction to your organization and its culture and collects information about why an employee has voluntarily left your organization.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

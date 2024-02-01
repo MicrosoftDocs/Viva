@@ -4,7 +4,7 @@ description: "Learn about admin roles and permissions in Viva Engage and how to 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 10/28/2023
 audience: Admin
 f1.keywords:
@@ -12,10 +12,11 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-manage
 search.appverid:
 - MET150
 ---

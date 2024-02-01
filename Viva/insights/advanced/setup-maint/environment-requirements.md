@@ -1,6 +1,6 @@
 ---
 
-ms.date: 12/1/2023
+ms.date: 12/14/2023
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -89,7 +89,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 >* _Licensed users_ have the personal insights features with Viva Insights automatically enabled after license assignment.
 >* _All users_ in your organization are opted-in, whether or not they have licenses with a Viva Insights subscription. If you want one or more licensed users to be opted _out_ by default, see [Set access for one user](../../advanced/setup-maint/configure-personal-insights.md#set-access-for-one-user) and [Set access for multiple users](../../advanced/setup-maint/configure-personal-insights.md#set-access-for-multiple-users).
 
-### Additional features and eligibility requirements
+### Other features and eligibility requirements
 
 | Feature/card | Requirement |
 | ------- | ------------------|
@@ -110,7 +110,7 @@ After users get assigned licenses with an applicable service plan, they get acce
 | [Breather break](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics  |
 | [Reflect](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743) | Insights by MyAnalytics  |
 
-The table above is not a complete list of Viva Insights features. Other cards might appear depending on your type of plan.
+The table above isn't a complete list of Viva Insights features. Other cards might appear depending on your type of plan.
 
 ### Browser support
 
@@ -137,7 +137,7 @@ See [Briefing languages](../../personal/briefing/be-languages.md) to see what's 
   > [!Note]
   > Also refer to **Prerequisites to access the Viva Insights Outlook add in** in [About the Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d).
 
-* **Licensing exclusion**: Shared mailboxes are not supported.
+* **Licensing exclusion**: Shared mailboxes aren't supported.
 
 ## Manager, leader, and advanced insights
 
@@ -154,7 +154,7 @@ Other channels such as Cloud Solution Provider (CSP) don't support the addition 
 |Government | Government Community Cloud (GCC) supports personal insights only. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
-|Non-profit | Viva Insights can be used by non-profits but non-profit pricing isn't available. |
+|Non-profit | Viva Insights can be used by nonprofits but non-profit pricing isn't available. |
 |First-line workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
@@ -174,6 +174,12 @@ Contact your Microsoft account team for pricing. If you have questions about lic
 For the best experience, use Microsoft Edge or Google Chrome.
 
 Apple Safari and Mozilla Firefox are not preferred browsers for the advanced insights app available with Viva Insights. Internet Explorer is no longer a supported browser.
+
+## Service availability during an outage
+
+Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
+
+If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
 
 ## Related topics
 

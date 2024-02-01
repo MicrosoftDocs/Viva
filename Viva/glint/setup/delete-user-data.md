@@ -40,8 +40,8 @@ As your company’s data controller, Microsoft Viva Glint admins can submit a us
          1. Survey results from Viva Glint reports will be deleted, possibly impacting reports.
          2. The user’s data is removed from distribution list and future surveys.
          3. The user’s role definitions and their reporting permissions are removed.
-     4. The display will indicate whether the user has direct reports and that the admin will have to reassign the reports later or in the next HRIS file import.
-5. Go back to the **People** page and verify that the username does not appear in the list of All, Active or Inactive employees.
+     4. The display will indicate whether the user has direct reports and that the admin will have to reassign the reports later or in the next HRIS file import. Follow these steps to facilitate a [**retroactive user upload update**](/../../viva/glint/setup/update-glint-reporting-data).
+5. Go back to the **People** page and verify that the username does not appear in the list of *All, Active or Inactive* employees.
 6. Return to the admin dashboard and select **Activity Audit Log** in the Client Settings section. The action taken should be listed first in the Event column and its status should read “Success” and the Details column “deleted.”
 7. If the deleted user is a manager, verify that all reports they had been permissioned for no longer include their name. The report will now read, “Deleted User’s Team.”
 

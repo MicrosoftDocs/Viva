@@ -106,6 +106,51 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "Viva/insights/manager-insights/best-practices.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/best-practices",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/cgcollaboration.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/cgcollaboration",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/coaching.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/coaching",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/communication.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/communication",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/connectedness.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/connectedness",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/focus.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/focus",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/index.yml",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/index.yml",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/teams-app.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/teams-app",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/wellbeing.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/wellbeing",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "Viva/insights/manager-insights/introduction.md",
             "redirect_url": "/previous-versions/viva/insights/manager-insights/introduction",
             "redirect_document_id": false
@@ -888,6 +933,21 @@
         {
             "source_path": "Viva/insights/use/wsplan.md",
             "redirect_url": "/previous-versions/viva/insights/use/wsplan",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365.md",
+            "redirect_url":"/viva/troubleshoot/engage/error-select-the-viva-engage-tile-in-microsoft-365",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-native-mode.md",
+            "redirect_url":"/viva/troubleshoot/engage/troubleshoot-native-mode",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices.md",
+            "redirect_url":"/viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices",
             "redirect_document_id": false
         }
     ]

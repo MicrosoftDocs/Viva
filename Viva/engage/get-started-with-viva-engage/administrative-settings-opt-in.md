@@ -2,13 +2,14 @@
 title: "Bring new Yammer to your organization"
 f1.keywords:
 - NOCSH
-ms.author: pamgreen
+ms.author: elizapo
 author: ToniSFrench
-manager: pamgreen
+manager: elizapo
 ms.date: 05/01/2020
 audience: Admin
 ms.topic: article
-ms.service: yammer
+ms.service: viva
+ms.subservice: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 

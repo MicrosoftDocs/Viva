@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 07/27/2023
 audience: Admin
 ms.topic: article
@@ -38,7 +38,7 @@ External networks are essentially their own networks: each has its own admin cen
    > [!NOTE]
    > You must be a verified Admin to create an external network and your home network must have already existed for at least 30 days. If **Create a New Network** is not visible, it means you're not a verified Viva Engage admin, or you have not met the minimum age for your home network.
    >
-   >To find a home network admin for help setting up an external network, in your browser go to ```**https://yammer.com/***your_network***/admin**``` to find the list of Viva Engage admins.  
+   >To find a home network admin for help setting up an external network, in your browser go to ```**https://engage.cloud.microsoft/***your_network***/admin**``` to find the list of Viva Engage admins.  
   
 2. Fill in the required settings:
 

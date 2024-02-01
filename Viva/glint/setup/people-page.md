@@ -3,7 +3,7 @@ title: Use Viva Glint's People page to view employee information
 description: "The People page on the dashboard allows Viva Glint admins to view employee attributes, manage permissions and roles, and deactivate employees."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
@@ -112,7 +112,7 @@ Delete a user from Viva Glint. [Learn more](https://go.microsoft.com/fwlink/?lin
 
 Use the  **Import**  button on the People page to import a *.csv* (UTF-8 encoded) or an *xlsx* (single tab) file to update employee details.
 
-Follow the on-screen guidance for uploading the file and then select  **Import File**. 
+Follow the on-screen guidance for uploading the file and then select  **Import File**. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230742).
 
    > [!NOTE]
    >If you upload a user file during a live survey, employee information will not be altered for that survey. 

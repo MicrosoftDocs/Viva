@@ -4,7 +4,7 @@ title: "Combine Microsoft Viva apps to support popular business scenarios"
 ms.reviewer: loreenl
 ms.author: hokavian
 author: Holland-ODSP
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH

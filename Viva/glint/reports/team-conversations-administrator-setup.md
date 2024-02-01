@@ -3,7 +3,7 @@ title: Admin setup for Viva Glint Team Conversations
 description: "Team Conversations are set up by the Company Administrator within Program Summary."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

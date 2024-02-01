@@ -5,6 +5,8 @@ ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
+ms.collection: 
+- essentials-privacy
 f1.keywords: NOCSH
 keywords: Thresholds, suppression, response rate, suppressed data, identifiable surveys
  - m365initiative-viva
@@ -56,7 +58,7 @@ Even for confidential surveys, your organization's customer admin might be able 
 > A statement is automatically selected based on your progam setup configurations.
 
 ## Confidential surveys which do not support raw survey responses export
-If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement will be applied to surveys. Even in these cases, your organization will have access to identifiable survey responses if it determines that such access is necessitated by "extreme circumstances," such as suspected illegal activity, fraud, threats of physical harm, or legal obligation. This confidentiality-based statement will make this clear to survey takers, stating “[our organization's name] might access your identifiable survey responses if it determines that extreme circumstances exist." In addition, logs will be generated and available to your organization when survey responses are accessed in this way.
+If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement will be applied to surveys. 
 
 **Example:** 
 
@@ -64,11 +66,11 @@ Your responses are confidential and reported to Contoso in aggregate groups of 5
 
 ## Confidential surveys which do support raw survey responses export
 
-If your organization has approved making raw survey responses available for a particular survey, survey takers will be informed in this statement/
+If your organization has approved making raw survey responses available for a particular survey, survey takers will be informed in this statement:
 
-**Example:** 
-
-Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at Contoso will have access to your identifiable survey responses. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data might be accessed and your organization's Privacy Policy also has more information. 
+> Your responses are confidential and reported to [organization name@email address]in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identificable survey responses. See **Microsoft Viva Glint Reporting and Confidentiality Rules** *, which describes other ways your data may be accessed and your organization's privacy policy for more information.
+>
+> * *Survey takers are sent to this Microsoft Learn page to understand how Viva Glint helps protect their privacy.*
 
 ## Identifiable surveys
 

@@ -47,6 +47,8 @@ items:
     items:
     - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
+    - name: Company-wide organizations
+      href: company-wide-organization.md
     - name: Log in, create, and join organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
     - name: Restrict organization creation permissions
@@ -76,8 +78,8 @@ items:
       href: managing-okr-time-periods.md
     - name: Import OKRs and initiatives with Viva Goals
       href: import-okrs-projects.md
-    - name: Renaming initiatives
-      href: renaming-initiatives.md
+    - name: Customize Goals terminology
+      href: customize-terminology.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
     - name: Share an Update via Goals broadcast
@@ -94,9 +96,9 @@ items:
       items:
       - name: Use Viva Goals with Microsoft 365 apps
         href: ms-teams-integration.md
-      - name: Add the Viva Goals app to Microsoft Teams
+      - name: Add the Viva Goals app
         href: configure-ms-teams-integration.md
-      - name: Link Previews in Microsoft Teams
+      - name: Link previews
         href: ms-teams-link-preview.md
       - name: Notifications in Teams
         href: ms-teams-notifications.md
@@ -186,6 +188,16 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+
+- name: Copilot in Viva Goals
+  items:
+  - name: Introduction
+    href: copilot-intro.md
+  - name: Use Copilot in Viva Goals
+    href: copilot-uses.md
+  - name: Frequently asked questions
+    href: copilot-faq.md
+
 - name: The OKR framework
   items:
   - name: Benefits of OKRs

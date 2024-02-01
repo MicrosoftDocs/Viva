@@ -3,8 +3,8 @@ title: "Microsoft Viva - Feature access management"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
-manager: pamgreen
-ms.date: 12/04/2023
+manager: elizapo
+ms.date: 12/15/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -13,7 +13,6 @@ ms.service: viva
 ms.subservice: viva-suite
 ms.localizationpriority: medium
 ms.custom:
-ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
@@ -48,7 +47,7 @@ You can use feature access management to manage access to the following features
 |Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
 ||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|Skill suggestions*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
 
 
 \* Not yet available for all tenants. Support will be added soon.
@@ -65,6 +64,7 @@ Before you can create an access policy in Viva, you need:
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups and Microsoft Entra security groups created in or synchronized to Microsoft Entra ID. The membership type can be either dynamic or assigned.
 - The global administrator role in Microsoft Entra ID or [the role required for the specific app and feature](#features-available-for-feature-access-management).
+
 
 > [!IMPORTANT]
 > Viva feature access management isn’t available to customers who have Microsoft 365 GCC, GCC High, or DOD plans.
@@ -145,6 +145,17 @@ For example, to delete the Reflection feature access policy, start by getting th
 ```powershell
 Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
+### Troubleshooting
+
+If you have issues creating or using access policies for Viva app features, the following information might help:
+
+- Confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
+- If a permissioned admin is having trouble setting a policy, it may be due to restrictions on that user's account. Check the following:
+   - Whether the admin has restricted access to EWS in Exchange. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
+   - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
+   - Whether the admin has restricted access to Exchange Online organization based on [client properties or client access](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
+ 
+- If a user has restricted access to EWS in Exchange, app access policies applied to their Exchange Online mailbox, or restricted access to Exchange Online organization based on client properties or client access, the user may not be able to access the Viva features in the feature table, regardless of the feature access policy set.
 
 ## How access policies work in Viva
 

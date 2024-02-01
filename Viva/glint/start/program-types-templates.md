@@ -3,7 +3,7 @@ title: Viva Glint program types and associated templates
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey 360 feedback, distress survey

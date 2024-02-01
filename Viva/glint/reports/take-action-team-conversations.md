@@ -3,7 +3,7 @@ title: Take Actions with Viva Glint Team Conversations
 description: "Managers who draw their employees into the process of sharing feedback results and prioritizing focus areas are the most successful managers."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

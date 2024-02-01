@@ -1,6 +1,6 @@
 ---
-ms.date: 07/04/2022
-title: Add the Viva Goals app to Microsoft Teams
+ms.date: 12/14/2023
+title: Add Viva Goals to Microsoft Teams
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -17,22 +17,17 @@ ms.collection:
 - vg-integration
 search.appverid:
 - MET150
-description: "Learn how to add Viva Goals to Microsoft Teams to easily view, manage and share OKRs across your organization, without leaving Microsoft Teams."
+description: "Learn how to add Viva Goals to Microsoft Teams so you can view, manage, and share OKRs without leaving Teams."
 ---
 
-# Add the Viva Goals app to Microsoft Teams
+# Add Viva Goals to Microsoft Teams
 
-This article describes how to install, pin, and interact with Viva Goals directly inside Microsoft Teams. The Viva Goals personal app brings the ability to create objectives and key results (OKRs), check in on them, track progress, and close OKRs within Microsoft Teams.
-
+This article describes how to install the Viva Goals app in Microsoft Teams for yourself or your entire organization. The app helps you set up, manage, and track your team's goals from within Microsoft Teams. The final section of this article explains how to use the app in Outlook or Microsoft 365.
 :::image type="content" source="../media/goals/msteams-integration/opening-screenshot.png" alt-text="Screenshot shows a view of Viva Goals in Microsoft Teams." lightbox="../media/goals/msteams-integration/opening-screenshot.png":::
 
-- [Configure Microsoft Teams integration: For regular users](#regular-user-setup)
-- [Configure Microsoft Teams integration: For admins](#admin-setup)
-- [Complete the setup to use Viva Goals app in Teams](#complete-setup)
+## Install the Viva Goals app for yourself in Microsoft Teams
 
-<h2 id="regular-user-setup">Configure Microsoft Teams integration: For regular users</h2>
-
-There are multiple ways to install the Viva Goals app in Teams. The first way is to select the ellipsis [**…**] button on the navigation bar on the left side, search for Viva Goals, and then select the Viva Goals app from the list of search results.
+There are multiple ways to install the Viva Goals app in Teams. The easiest way is to select the ellipsis (three dots) on the left-hand navigation bar, search for Viva Goals, and then select **Add** next to the Viva Goals app in the list of search results. <!--Editor's Note: Should "Add" be removed in favor of sipmly the Viva Goals app? I added "Add," but it isn't reflected in the current image.-->
 
 :::image type="content" source="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png" alt-text="Screenshot that shows how to search for and add the Viva Goals app from the Teams navigation bar." lightbox="../media/goals/5/navigation-bar-ellipse-button-to-add-viva-goals-app.png":::
 
@@ -50,7 +45,7 @@ On the Viva Goals app detail page, select **Add**.
 
 To pin the Viva Goals app in Teams, right-click the app icon in the left navigation panel, and select **Pin**.
 
-<h2 id="admin-setup">Configure Microsoft Teams integration: For admins</h2>
+## Install the Viva Goals app for your organization in Microsoft Teams
 
 Preinstalling the app will ensure that your users will be able to see their OKRs directly in Teams without having to install the app from the Teams app store. It's a great way to ensure your users stay in the flow of work, since they'll be able to reference OKRs directly in Teams chats and channels without pausing to install the app.  
 
@@ -61,7 +56,7 @@ We'll show you how to preinstall the app for a specific group of users. If you w
 
 **Follow these steps to pre-install Viva Goals:**
 
-1. Log in to https://admin.teams.microsoft.com/ with your user ID and password.
+1. Log in to [admin.teams.microsoft.com](https://admin.teams.microsoft.com/) with your user ID and password.
 2. Select **Teams apps** and then choose **Setup policies**.
 
       :::image type="content" source="../media/goals/5/viva-goals-setup-policies.png" alt-text="Screenshot that shows the setup policies tab for pre-installing Viva Goals." lightbox="../media/goals/5/viva-goals-setup-policies.png":::
@@ -75,7 +70,7 @@ We'll show you how to preinstall the app for a specific group of users. If you w
    :::image type="content" source="../media/goals/5/ms-teams-policy-name.png" alt-text="Screenshot that shows how to name the appropriate setup policy for pre-installing Viva Goals." lightbox="../media/goals/5/ms-teams-policy-name.png":::
 
 5. To preinstall the Viva Goals app as part of this policy, under **Installed apps**, select **Add Apps** and search for the app by name.
-   
+
     :::image type="content" source="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png" alt-text="Screenshot that shows how to search by name to add the Viva Goals app for pre-installation." lightbox="../media/goals/5/ms-teams-setup-policies-for-pre-installing-viva-goals.png":::
 
 6. After you add the app to the **Apps to add** list, select **Add** at the bottom of the dialog to confirm.
@@ -86,12 +81,12 @@ We'll show you how to preinstall the app for a specific group of users. If you w
 8. Search for and add the Viva Goals app. Select **Save** to confirm the changes to this policy.
 
       :::image type="content" source="../media/goals/5/pin-viva-goals-app.png" alt-text="Screenshot that shows how to search for and pin the Viva Goals app." lightbox="../media/goals/5/pin-viva-goals-app.png":::
-   
+
    > [!Note]
    > The app will be added by default at the bottom of the pinned list. You can use the drag handle on the right side to adjust the position of the app in the list.
 
       :::image type="content" source="../media/goals/5/re-order-pinned-apps.png" alt-text="Screenshot that shows how to reorder pinned apps in Viva Goals." lightbox="../media/goals/5/re-order-pinned-apps.png":::
-   
+
 9. If you had user pinning turned on, Teams will notify you that user preferences will be applied on top of this policy. Select **Save**.
 
       :::image type="content" source="../media/goals/5/user-pin-on.png" alt-text="Screenshot that shows User Pinning enabled." lightbox="../media/goals/5/user-pin-on.png":::
@@ -108,7 +103,7 @@ We'll show you how to preinstall the app for a specific group of users. If you w
 
       :::image type="content" source="../media/goals/5/policy-groups.png" alt-text="Screenshot that shows how to select the groups to assign the policy." lightbox="../media/goals/5/policy-groups.png":::
 
-13. Next, select the policy from the list and choose **Apply** to confirm your selection. 
+12. Next, select the policy from the list and choose **Apply** to confirm your selection.
 
        :::image type="content" source="../media/goals/5/policy-list.png" alt-text="Screenshot that shows how to select the policy from the list." lightbox="../media/goals/5/policy-list.png":::
 
@@ -116,33 +111,25 @@ We'll show you how to preinstall the app for a specific group of users. If you w
 
        :::image type="content" source="../media/goals/5/group-policies-list.png" alt-text="Screenshot that shows how to view the assignment under Group Policy Assignment." lightbox="../media/goals/5/group-policies-list.png":::
 
-
     > [!Note]
     > The policy can take some time to kick in. You can check this by going to the **Activity log** and seeing if the policy application was complete.
 
-      
       :::image type="content" source="../media/goals/5/activity-log.png" alt-text="Screenshot that shows how to check the completion of policy application in Activity log." lightbox="../media/goals/5/activity-log.png":::
-      
+
     When you see the timestamp in the **Completed on** column, the policy will work for all the users in the group.
 
     Now when a user who belongs to this group signs in into Teams, the policy will kick in. For example, "Contoso" has "Abigail Jackson" as a member, as we can see in the Microsoft 365 admin center.
-      
+
       :::image type="content" source="../media/goals/5/contoso-members-list.png" alt-text="Screenshot that shows Abigail Jackson in the list of members." lightbox="../media/goals/5/contoso-members-list.png":::
-      
+
      When Abigail signs in into Teams, she can see that both the Viva Goals app and the message extension are preinstalled and pinned on the top left and at the bottom, respectively, in the Teams client.
 
       :::image type="content" source="../media/goals/5/pinned-viva-goals-with-message-extension.png" alt-text="Screenshot that shows the pinned Viva Goals app and Viva Goals message extension." lightbox="../media/goals/5/pinned-viva-goals-with-message-extension.png":::
-   
-<h2 id="complete-setup">Complete the setup to use Viva Goals app in Teams</h2>
 
-If the initial Viva Goals setup is not complete, you may receive the following message when trying to use Viva Goals app in Teams: We're sorry, but something went wrong. If you are the application owner check the logs for more information. Ensure that you have completed the following Setup and Administration steps:
+## Install the Teams app for Viva Goals in Outlook and Microsoft 365
 
-1. Open a browser and go to your [Viva Goals portal](https://goals.microsoft.com). 
+The Viva Goals app for Microsoft Teams is a Teams app that also works on Outlook and the Microsoft 365 app. Both link previews and the message extension will work in Outlook as well once the app is installed.
 
-1. [Create an organization](log-in-create-and-join-organizations.md) in the Viva Goals portal.
+If the app is installed by a user in Microsoft Teams, it will automatically show up in Outlook and Microsoft 365. As an admin, you can also deploy these apps on Outlook and Microsoft 365 for your organization, using the Integrated Apps portal on the Microsoft 365 Admin Center. Note that deployment and management for the app is separately managed from Microsoft Teams. Microsoft Teams deployments are controlled from the Teams Admin Center, while Outlook and Microsoft 365 deployments are controlled from the Microsoft 365 Admin Center, Integrated apps section.
 
-1. [Invite users](inviting-and-removing-a-user.md) to Viva Goals. 
-
-1. Create teams and assign users to them. 
-
-1. [Create organization's OKR ](creating-okrs.md).
+For information on managing the app in Outlook and Microsoft 365, see [Teams apps that work on Outlook and Microsoft 365](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365).

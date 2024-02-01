@@ -1,9 +1,9 @@
 ---
-title: Set up Viva Glint Team Conversations coaching for managers
+title: Set Team Conversations Presentation Kit for managers
 description: Customizing Team Conversations for managers gives them an extra lift for taking action with their teams.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Presentation kit, manager guidance, reflections
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2023
+ms.date: 01/25/2024
 ---
 
-# Set up Viva Glint Team Conversations coaching for managers
+# Set up Viva Glint Team Conversations Presentation Kit for managers
 
 The last survey setup page in Program Summary is the Coaching page. Managers who have Team Conversations enabled benefit from extra guidance made available within the setup of this page.
 
@@ -28,9 +28,7 @@ Program Summary setup occurs at the program level, not at the individual cycle l
 - Team Conversations presentation guidance section: Visible with Team Conversations enabled only
 - Team Conversation resource guidance: Visible with Team Conversations enabled only
 
-## Team Conversations presentation guidance
-
-Customize Team Conversation Presentation Guidance to help your managers have successful conversations around survey results.
+**Customize Team Conversation Presentation Guidance to help your managers have successful conversations around survey results.**
 
 - Team Conversations must be enabled. Do that in Program Setup
 - If your program is already approved, toggle to **NO** so editing can occur. **Save changes**
@@ -45,14 +43,14 @@ Customize Team Conversation Presentation Guidance to help your managers have suc
 - **Save Changes** after editing each section
 - Each translation added will auto-save after another language is selected
 
-### Title
+## Title
 
 Add your spin to the first slide to welcome the team.
 
 - Section Name - Customize or use the default
 - Conversation Title - Fill in the blue macro fields to personalize the slide title
 
-### Introduction
+## Introduction
 
 Personalize headings and body content for three conversation points. You must include three conversation points. Use the **+ button** to add any macro fields you want to incorporate.
 
@@ -61,7 +59,7 @@ Personalize headings and body content for three conversation points. You must in
 - Step 1 - Step 3 Header - Customize using the **+ button** or use the default
 - Step 1 - Step 3 Body - Customize using the **+ button** or use the default
 
-### Reflection Point
+## Reflection Point
 
 The presentation kit makes two Reflection Point pages available for managers. The first slide is for the team to consider *before* reviewing their results; the second slide is for *after* they have seen results. Both pages can be turned on or off.
 
@@ -69,7 +67,7 @@ The presentation kit makes two Reflection Point pages available for managers. Th
 - Section Name - Customize or use the default
 - Reflection Text - Use the default text or customize by using the **+ button**
 
-### How We're Doing
+## How We're Doing
 
 - Section Name - Customize or use the default.
 
@@ -82,7 +80,7 @@ The presentation kit makes two Reflection Point pages available for managers. Th
 - Relative Opportunities slide
 - Multiple Choice Questions slide - The preview will show all multiple-choice questions, but the actual manager presentation will only show the questions from the applicable cycle.
 
-### Pick a Focus Area
+## Pick a Focus Area
 
 This section is where each team will collaboratively choose a Focus Area. Detailed guidance for your manager is available to them directly in their presentation kit.
 
@@ -90,7 +88,7 @@ This section is where each team will collaboratively choose a Focus Area. Detail
 - Slide Heading - Customize or use the default
 - Subtext - Use the default text or customize by using the **+ button**
 
-### Choose Action Items
+## Choose Action Items
 
 The team will work together to identify action items to improve Focus Areas.
 
@@ -99,7 +97,7 @@ The team will work together to identify action items to improve Focus Areas.
 - Subtext - Use the default text or customize by using the **+ button**.
 - Button Text - Use the default or customize what the manager will use in their presentation.
 
-### Summary Page
+## Summary Page
 
 The summary shown changes depending on whether the manager has marked the conversation as completed.
 
@@ -111,19 +109,3 @@ The summary shown changes depending on whether the manager has marked the conver
   - Slide Heading - Customize or use the default.
   - Subtext - Use the default text or customize by using the **+ button.**
 
-## Add resources to the Team Conversations kit
-
-Enable or disable guidance by switching to **ON** or **OFF**. Enabling Guidance allows you to select a Content Resource from the dropdown menu. Guidance is specific to the process of conversations and doesn't correlate with the specific Focus Area a manager and their team choose.
-
->[!NOTE]
-> View Content Resources already suggested in this kit by navigating from your dashboard to Content Resources and you may add your own resources here as well. All suggested Content Resources and added resources appear in the dropdown menu and can be added to the presentation kit.*
-
-At any time, or once this page is entirely set up, select **Preview** to see the managers' view. The presentation includes:
-
-- Slide names (on the left) for navigation
-- A personal note to the manager
-- Best Practices & Tips (resources) you have selected.
-
-Select **Get Started** to begin the presentation.
-
-Select **Read More** in Best Practices & Tips to ensure that you have chosen the resource that will best assist your managers. Edit your presentation, as necessary.

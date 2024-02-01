@@ -2,7 +2,7 @@
 title: Understand terms and conditions
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: shirana
 ms.date: 11/02/2023
 audience: admin

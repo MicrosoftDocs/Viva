@@ -3,7 +3,7 @@ title: Grant Live versus Phased access in Viva Glint reporting
 description: Grant live or phased access to determine when managers have access to survey results.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: report access

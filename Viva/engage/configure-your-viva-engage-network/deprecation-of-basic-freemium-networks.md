@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 09/13/2023
 audience: Admin
 ms.topic: article
@@ -37,7 +37,7 @@ It sounds like your collaborators have basic accounts, which are now retired. If
 
 #### What if we want to keep all our data from the old network and move it to the new network?
 
-Data migration isn't a service provided by Microsoft. You can [engage a partner](https://go.microsoft.com/fwlink/p/?LinkID=862345&clcid=0x409&culture=en-us&country=US) for data migration service from your basic network to your new enterprise network. After talking with a partner, if you discover that you need temporary administrator role access to migrate your data, contact Microsoft Support.
+This is no longer possible as access to these networks has been disabled.
 
 #### I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Microsoft 365 to upgrade in place?
 
@@ -49,4 +49,4 @@ Microsoft offers special pricing for legally registered nonprofit organizations 
 
 #### What if we just want to export our data from the basic network?
 
-Contact Microsoft Support. They can give you temporary administrator role access to your basic network, which allows you to perform a [full export of the network data](../eac-as-manage-data.md).
+This is no longer possible as access to these networks has been disabled.

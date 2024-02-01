@@ -2,7 +2,7 @@
 title: Language preferences in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/13/2023
 audience: admin
