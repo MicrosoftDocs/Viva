@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 01/17/2024
+ms.date: 01/31/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -74,10 +74,6 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     - The first 1000 items with earliest last modified date are ingested.
     - For example, a customer has items A, B, and C, and they created or uploaded them in the sequence A, B, and C. The earliest last modified date belongs to A, followed by B, and then C. Therefore, when restricted to only two items, we only include A and B in our collection and C is discarded.
 
-- **Why can't I add a M365 group or mail-enabled security group (MESG)? directly to a file or folder?**
-    - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
-    - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
-
 - **What can I do if my content is not visible?**  
     1. Go to the SharePoint site added in the **Admin tab** > **Manage provider** > **SharePoint**.
     2. Go to site contents and in the Learning app repository, check if the folder URLs are present.
@@ -88,6 +84,10 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
     
 > [!NOTE]
 > Check if the permission is propagating to file items present in the folder. A site owner or contributor role is required on the site for the permissions to propagate to the dependent item.
+
+- **Why can't I add a M365 group or mail-enabled security group (MESG) directly to a file or folder?**
+    - A Microsoft 365 group or mail-enabled security group (MESG) group can't be added directly to the file or folder in case the group is found on the folder or file nested in SharePoint groups. If it's already present, remove it and add directly or add a different group.
+    - To see if a group is already present, select the folder, then **Manage access** > **Advanced settings** > **Check permission**.
 
 - **How can I make a security group mail-enabled**? 
 
