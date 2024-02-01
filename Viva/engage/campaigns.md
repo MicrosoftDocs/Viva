@@ -24,7 +24,7 @@ search.appverid:
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging.
 
-Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](/topic/002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
+Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](https://support.microsoft.com/en-us/topic/community-campaigns-in-viva-engage-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
 
 Use this article to create, manage, and delete official campaigns. You must have Microsoft 365 Global admin, Engage admin, or corporate communicator permissions to do this.
 
@@ -57,7 +57,7 @@ The campaign dashboard provides a list of active, ended, and draft campaigns cre
     - **Campaign hashtag** is a required field. The campaign hashtag is the campaign name and appears on the campaign landing page.
     - **Default publisher** is the post type (discussion, question, poll, or praise) the publisher defaults to when users post on the campaign landing page. For example, if you set your default publisher to *Question*, a question format will automatically appear to the user when they post from the campaign landing page.
     - **Theme color** lets you customize the color of the campaign hashtag.  
-    - **Add co-organizers** to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
+    - **Add co-organizers** to help you manage the campaign. Learn more about the [co-organizer role and their permissions here](https://support.microsoft.com/en-us/topic/add-co-organizers-to-viva-engage-campaigns-d799d73e-4292-42b0-a5a4-f1be0715cbaa). 
 
 1. Select **Confirm** to save your changes. The campaign is in draft state until you publish.
 
