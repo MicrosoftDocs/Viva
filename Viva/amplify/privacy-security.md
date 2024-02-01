@@ -15,6 +15,8 @@ ms.collection:
   - m365initiative-viva-amplify
   - highpri
   - Tier1
+  - essentials-privacy
+  - essentials-security
 ms.localizationpriority: medium
 description: Learn about privacy, security, and data storage in Microsoft Viva Amplify.
 ---

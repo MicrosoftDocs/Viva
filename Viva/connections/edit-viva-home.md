@@ -13,6 +13,7 @@ ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:
+  - essentials-manage
   - Strat_SP_modern
   - M365-collaboration
   - m365initiative-viva-connections
@@ -220,7 +221,7 @@ To apply a SharePoint or custom theme:
 
     > [!NOTE]
     >
-    > Using [accent colors under the app customization feature](/microsoftteams/customize-apps.md) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+    > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
     >
     > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 

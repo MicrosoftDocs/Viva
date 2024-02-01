@@ -15,6 +15,9 @@ ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
 - highpri
+- essentials-privacy
+- essentials-security
+- essentials-compliance
 search.appverid:
 - MET150
 description: "Learn about Viva Goals security, privacy, and compliance."

@@ -15,6 +15,8 @@ ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
 - highpri
+- essentials-navigation
+- essentials-overview
 search.appverid:
 - MET150
 description: "Learn about Microsoft Viva Goals and how it can help you organize and track both individual and organizational goals."
