@@ -78,27 +78,7 @@ Now you’re ready to map fields. For your next steps, go to [Field mapping](#fi
 
 ##### Example: adding a new data column
 
-Let’s say you want to upload a new engagement score value for each employee. You’ve  already uploaded the recommended 13 months or more of snapshot data, which included the required columns for all employees; now you want to apply the engagement score value to all of that historical data. You’d choose the **Update existing organizational data** option. To  upload your new **EngagementScore** data column, you’d need to upload the file that contains it. 
-
-### Replace existing data
-
-#### File upload
-
-3. Replace existing data:
-    1. Enter an **Upload name**.
-    1. Under **Upload file**, select the .csv file you want to upload. 
-
-    Make sure that the .csv file is:
-
-    * UTF-8 encoded
-    * Not open in a different program when you begin the upload process
-    * Not larger than 1 GB
-    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows the Prepare and upload window.":::
-
-    >[!Note]
-    >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
-
-    3. Upload your file by selecting **Next**. If you need to cancel the upload, select **Cancel**.
+Let’s say you want to upload a new engagement score value for each employee. You’ve  already uploaded the recommended 13 months or more of snapshot data, which included the required columns for all employees; now you want to apply the engagement score value to all of that historical data. You’d choose the **Update existing organizational data** option. To  upload your new **EngagementScore** data column, you’d need to upload the file that contains it.
 
 **Important steps for editing org attributes**
 
@@ -131,6 +111,26 @@ With that upload, your org data would then look like this. Note that for both 09
 | 09/08/2023 | 12/31/9999 | W@contoso.com | D@contoso.com | 106 |   |
 
 Finally, if you don’t remember the previous values of the EffectiveDate field, you should delete the columns that need to be edited and upload the columns again with the updated values. Or, if there are multiple columns that need to be edited, you can also replace all past data with a new upload with the updated values.
+
+### Replace existing data
+
+#### File upload
+
+3. Replace existing data:
+    1. Enter an **Upload name**.
+    1. Under **Upload file**, select the .csv file you want to upload. 
+
+    Make sure that the .csv file is:
+
+    * UTF-8 encoded
+    * Not open in a different program when you begin the upload process
+    * Not larger than 1 GB
+    :::image type="content" source="../images/admin-prepare-upload.png" alt-text="Screenshot that shows the Prepare and upload window.":::
+
+    >[!Note]
+    >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
+
+    3. Upload your file by selecting **Next**. If you need to cancel the upload, select **Cancel**.
 
 Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
 
