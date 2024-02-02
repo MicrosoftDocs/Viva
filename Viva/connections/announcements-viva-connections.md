@@ -80,6 +80,8 @@ A Teams Channel announcement is displayed in Viva Connections only if:
 - Channel mentions are enabled under the Teams Channel notification settings; and
 - The Teams channel announcement has been tagged with an @mention  and is unread.
 
+:::image type="content" source="../media/connections/announcements-viva-connections/teams-channel-announcements-flw.png" alt-text="Screenshot showing an image of a channel announcement in Microsoft Teams, and to it's right an image Viva Connections displaying a summary of the announcement with a link to the Teams channel."lightbox="../media/connections/announcements-viva-connections/teams-channel-announcements-flw.png":::
+
 > [!NOTE]
 >
 > - Vanity domains are not supported. Contact your organization's support team for more information.
