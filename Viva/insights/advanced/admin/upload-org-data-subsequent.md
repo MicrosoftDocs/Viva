@@ -80,7 +80,7 @@ Now you’re ready to map fields. For your next steps, go to [Field mapping](#fi
 
 Let’s say you want to upload a new engagement score value for each employee. You’ve  already uploaded the recommended 13 months or more of snapshot data, which included the required columns for all employees; now you want to apply the engagement score value to all of that historical data. You’d choose the **Update existing organizational data** option. To  upload your new **EngagementScore** data column, you’d need to upload the file that contains it.
 
-**Important steps for editing org attributes**
+##### Important steps for editing org attributes
 
 If you want to edit past attributes, your .csv file must include updated values with the correct EffectiveDates, to ensure the updated values apply over the correct time period.
 
