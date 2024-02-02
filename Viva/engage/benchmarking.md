@@ -32,8 +32,9 @@ Benchmarking provides a percentile that corresponds to your current _People Enga
 
 ## Benchmarking calculations
 
-Network Analytics benchmarks your company against similarly-sized organizations. The size sectors are determined by the number of active users within the organization. This is displayed for Network Administrators and Corporate Communicators on the Network Analytics’ “Network Activity” card.
-Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ “Audience Engagement” card for leaders, delegate managers, and delegates.
+Network Analytics benchmarks your company against similarly-sized organizations. Size sectors are determined by the number of active users within the organization and are displayed on the Network Analytics’ **Network Activity** card for network administrators and corporate communicators.
+
+Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ **Audience Engagement** card for leaders, delegate managers, and delegates.
 
 ## Enable Benchmarking
 
@@ -46,7 +47,7 @@ Verified and Network admins can turn benchmarking features on and off from the V
 
     >[!NOTE]
     > If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities* the Network Analytics dashboard will be unavailable.
-    
+
 1. To enable benchmarking for Audience analytics, go to **Audience Analytics** and use the toggle to turn the **Engagement Benchmarking** option on.
     When this toggle is enabled, you can see how your engagement compares to other leaders that use Engage in the same organization. Your audiences’ data may be included in our benchmarking calculations for the purpose of comparison only.
 
