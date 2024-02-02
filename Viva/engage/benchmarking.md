@@ -30,23 +30,28 @@ _People Engaged_ metric within both Network and Audience analytics. For Audience
 >[!NOTE]
 >At least 50% of the network’s users must be licensed for *Viva Suite* or *Employee Communications and Communities* for the Network Analytics dashboard to be available.
 
+|![Screenshot shows a benchmarking percentile and graph for network activity on the left and audience engagement on the right.](../media/engage/admin/bench-network.png)|![](../media/engage/admin/bench-audience.png)|
+|:-:|:-:|
+|Benchmarking within Network Analytics|Benchmarking within Audience Analytics|
+
 ## Benchmarking calculations
 
 Network Analytics benchmarks your company against similarly-sized organizations. The size sectors are determined by the number of active users within the organization. This is displayed for Network Administrators and Corporate Communicators on the Network Analytics’ “Network Activity” card.
 Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ “Audience Engagement” card for leaders, delegate managers, and delegates.
 
-### Enable Benchmarking
+## Enable Benchmarking
 
 Only Verified and Network admins can turn benchmarking features on and off.
 
-1. From the Viva Engage admin control center, select Setup & Configuration > Analytics and AI.
-1. To enable benchmarking within Network Analytics, go to Network Analytics and use the toggle to turn the Engagement Benchmarking option on.
+1. From the Viva Engage admin control center, select **Setup & Configuration** > **Analytics and AI**.
 
-When this toggle is enabled, you can see how your engagement compares to other networks that use Engage. Your network data may be included in our benchmarking calculations with data from other similar-sized organizations for the purpose of comparison only. 
+1. Enable benchmarking:
 
-1. To enable benchmarking within Audience Analytics, go to Audience Analytics and use the toggle to turn the Engagement Benchmarking option on or off.
+  - For Network analytics, go to **Network Analytics** and use the toggle to turn the **Engagement Benchmarking** option on.
+    When this toggle is enabled, you can see how your engagement compares to other networks that use Engage. Your network data may be included in our benchmarking calculations with data from other similar-sized organizations for the purpose of comparison only.
 
-When this toggle is enabled, you can see how your engagement compares to other leaders that use Engage in the same organization. Your audiences’ data may be included in our benchmarking calculations for the purpose of comparison only.
+- For Audience analytics, go to **Audience Analytics** and use the toggle to turn the **Engagement Benchmarking** option on.
+    When this toggle is enabled, you can see how your engagement compares to other leaders that use Engage in the same organization. Your audiences’ data may be included in our benchmarking calculations for the purpose of comparison only.
 
 ### Optimize engagement in your network
 
