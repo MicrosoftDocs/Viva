@@ -1,5 +1,5 @@
 ---
-ms.date: 07/14/2022
+ms.date: 02/02/2024
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -99,6 +99,38 @@ Let’s say you want to upload a new engagement score value for each employee. Y
     >To see the structure and guidelines for .csv files, and to avoid common issues during upload, you can download a template through the **Download .csv** template link.
 
     3. Upload your file by selecting **Next**. If you need to cancel the upload, select **Cancel**.
+
+**Important steps for editing org attributes**
+
+If you want to edit past attributes, your .csv file must include updated values with the correct EffectiveDates, to ensure the updated values apply over the correct time period.
+
+For example, consider this initial state of org data within Viva Insights:
+
+| **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
+|--------|---------|---------|-----------|-----------|----------|
+| 01/01/0001 | 09/01/2023 | W@contoso.com | R@contoso.com | - | In this period, BadgeData is - |
+| 09/01/2023 | 09/08/2023 | W@contoso.com | R@contoso.com | 102 | In this period, BadgeData is 102 |
+|09/08/2023 | 12/31/9999 | W@contoso.com | R@contoso.com | 106 | In this period, BadgeData is 106 |
+
+In this scenario, if you want to edit the ManagerId value beginning on 09/06/2023 and you want the new value to apply indefinitely going forward, you’ll need to update the ManagerId for every EffectiveDate starting 09/06/2023 from all past incremental upload(s) even if the ManagerId field was not part of those incremental upload(s).
+
+Your new upload, therefore, would look like this:
+
+| **EffectiveDate** | **PersonId**| **ManagerId** |
+|--------|---------|---------|
+| 09/06/2023 | W@contoso.com | D@contoso.com |
+| 09/08/2023 | W@contoso.com | D@contoso.com |
+
+With that upload, your org data would then look like this. Note that for both 09/06/2023 and 09/08/2023, the ManagerId was updated to “D.”
+
+| **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
+|--------|---------|---------|-----------|-----------|----------|
+| 01/01/0001 | 09/01/2023 | W@contoso.com | R@contoso.com | - |   |
+| 09/01/2023 | 09/06/2023 | W@contoso.com | R@contoso.com | 102 |   |
+|09/06/2023 | 09/08/2023 | W@contoso.com | D@contoso.com | 102 | This row was added, but it has an EndDate of 09/08/2023 because we have an existing future entry. |
+| 09/08/2023 | 12/31/9999 | W@contoso.com | D@contoso.com | 106 |   |
+
+Finally, if you don’t remember the previous values of the EffectiveDate field, you should delete the columns that need to be edited and upload the columns again with the updated values. Or, if there are multiple columns that need to be edited, you can also replace all past data with a new upload with the updated values.
 
 Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
 
