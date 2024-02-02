@@ -13,6 +13,7 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
+    - essentials-get-started
 ms.localizationpriority: medium
 description: A guide to creating and managing academies within Viva Learning. 
 ---
