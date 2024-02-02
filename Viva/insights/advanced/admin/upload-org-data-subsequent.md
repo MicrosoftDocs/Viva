@@ -104,7 +104,7 @@ Let’s say you want to upload a new engagement score value for each employee. Y
 
 If you want to edit past attributes, your .csv file must include updated values with the correct EffectiveDates, to ensure the updated values apply over the correct time period.
 
-For example, consider this initial state of org data within Viva Insights: 
+For example, consider this initial state of org data within Viva Insights:
 
 | **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
 |--------|---------|---------|-----------|-----------|----------|
