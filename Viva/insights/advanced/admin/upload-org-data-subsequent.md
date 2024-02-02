@@ -72,7 +72,7 @@ All three actions share the same two first steps:
 
 #### File upload
 
-3. Under **Upload file**, select the file you want to upload, then select **Next**.
+* Under **Upload file**, select the file you want to upload, then select **Next**.
 
 Now you’re ready to map fields. For your next steps, go to [Field mapping](#field-mapping).
 
