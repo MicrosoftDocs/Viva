@@ -1,5 +1,5 @@
 ---
-ms.date: 01/28/2024
+ms.date: 02/02/2024
 title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -341,7 +341,9 @@ The People Search card will automatically retrieve contact information from memb
 
 ## Add the Events card
 
-The events card can help your employees stay informed and engaged with the upcoming events in their organization, such as webinars, trainings, town halls, and celebrations. Users can view additional upcoming events or join via teams via the links on the Events card.  The card can be customized and even targeted to specific audiences so only relevant events are displayed.
+The events card can help your users stay informed and engaged with upcoming events in their organization, such as webinars, trainings, town halls, and celebrations. Users can view additional upcoming events or join via teams via the links on the Events card.  The card can be customized and even targeted to specific audiences so only relevant events are displayed.
+
+The Events card is tied to the SharePoint Events web part. Site owners and members will need to access their SharePoint site and use the SharePoint Events web part to add events to their site. For more information, see the article on [using the Events web part](https://support.microsoft.com/office/5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
    :::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events."lightbox="../media/connections/events-card-demo.png":::
 
