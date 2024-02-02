@@ -18,6 +18,9 @@ audience: user
 >[!Important]
 >This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
+>[!Note]
+>The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
+
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
 The Microsoft Copilot Dashboard (Preview) in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
