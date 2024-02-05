@@ -41,4 +41,5 @@ These types of company changes can sometimes have unintended impacts on communic
 
 With the Change management template, you can measure the impact of these types of changes, to uncover essential insights into the repercussions of the change on collaboration behavior. This way, you can stay ahead of any emergent communication or collaboration issues that might impact business performance, and ensure that the change initiative is aligned with your company’s broader goals.
 
-Learn how to set up and use the Change management ONA query.
+> [!div class="nextstepaction"]
+> [Learn how to set up and use the Change management ONA query](change-management-queries.md).
