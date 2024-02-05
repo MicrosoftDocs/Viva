@@ -26,7 +26,7 @@ Visibility into which managers have sufficient response rate data to view allows
 
 ## Who can use the Response Rates & Access report and when is it available?
 
-This report is available to anyone with program access and can be exported when a program is live or once the survey window is closed and the survey cycle is complete. 
+This report is available to anyone with program access. It can be exported when a program is live or once the survey window closes and the survey cycle is complete. 
 
 ## Export the Response Rates & Access report
 
@@ -36,7 +36,7 @@ Access the report from the **Program Summary** page of a Live or Completed surve
 
 Choose which managers to include on your download from this list:
 - Have met confidentiality threshold to see results
-- Have not met confidentilaity thresholds to see results
+- Have not met confidentiality thresholds to see results
 - Have or have not met confidentaility thresholds
 
 >[!TIP]
@@ -44,6 +44,6 @@ Choose which managers to include on your download from this list:
 
 :::image type="content" source="../../media/glint/reports/export-response-rates-access-dialog-box.png" alt-text="Screenshot of the Export Response Rates & Access dialog box.":::
 
-Select **Export Response Rates & Access CSV.** You'll receive a message box indicating that your CSV report is being generated and sent to your email address.
+Select **Export Response Rates & Access CSV.** You receive a message box indicating that your CSV report is being generated and sent to your email address.
 
 :::image type="content" source="../../media/glint/reports/response-rate-generate-csv-v2.png" alt-text="Screenshot of Generating CSV dialog box.":::
