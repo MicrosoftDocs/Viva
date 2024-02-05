@@ -78,7 +78,7 @@ Let’s now discuss the insights provided by each category, and how you can navi
 
 **Significant change in collaboration** highlights significant changes in collaboration patterns following the event. You can use this insight category to analyze how collaboration increased or decreased between specific groups, as well as between smaller groups of people or subgroups within the larger groups. For example, with this card, you could analyze the changes in collaboration between the Product and Marketing groups following a reorganization.
 
-Learn more about how these insights are generated.
+[Learn more about how these insights are generated](#metrics-used-for-insight-category-1).
 
 At the top of this summary page, the **People grouped by field** will default to the first HR attribute you selected when defining the analysis. The insights surfaced within the categories and the associated key observations are controlled by the grouping attribute selected. You can also change the attribute here, which will produce different insights.
 
@@ -153,7 +153,7 @@ Here are a few ways you can interact with the network view to learn more about t
 
 6. **Find a node**. Select the magnifying glass for a list of the groups in your analysis. Select the icon next to any group to navigate to it in the graph.
 
-:::image type="content" source="../images/ona-hotspot-1-find-node.png" alt-text="Screenshot showing the find a node button.":::
+    :::image type="content" source="../images/ona-hotspot-1-find-node.png" alt-text="Screenshot showing the find a node button.":::
 
 **Filtering options:**
 
@@ -378,7 +378,7 @@ The **Potential to become insular** insight category details which groups are co
 
 An increase in insularity for a group, for instance, could mean that the group is at risk of becoming siloed from the rest of the organization, which could be a worrisome trend.
 
-Learn more about how these insights are generated.
+[Learn more about how these insights are generated](#metrics-used-for-insight-category-2).
 
 Just like the first insight category, the card provides a list of **top highlights** for this second insight category. Hover over each highlight to see which area of the graph it relates to.
 
@@ -416,7 +416,7 @@ Here are a few other characteristics of this insight category to be aware of:
 
 Here are a few ways you can interact with this graph to learn more about the insights:
 
-1. **See collaboration trends**. Select any group to see their total collaboration hours, as well as the collaboration activity for each subgroup member, including the percentage of collaboration that was outside the group versus inside the group. You’ll also find the EI index for that group. Learn more about the EI index and underlying metrics.
+1. **See collaboration trends**. Select any group to see their total collaboration hours, as well as the collaboration activity for each subgroup member, including the percentage of collaboration that was outside the group versus inside the group. You’ll also find the EI index for that group. [Learn more about the EI index and underlying metrics](#metrics-used-for-insight-category-2).
 
 2. **See collaboration trends with other groups**. Select the connecting edge between any two nodes to see how collaboration changed between those specific groups.
 
