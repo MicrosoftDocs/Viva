@@ -25,6 +25,8 @@ items:
             href: setup/viva-glint-survey-privacy.md
           - name: Access to Viva Glint raw survey responses
             href: setup/employee-raw-data-export.md
+      - name: Setting up a successful program with your Works Council
+        href: setup/works-council.md
   - name: Plan and administer your Viva Glint platform
     items:
       - name: Deploy Microsoft Viva Glint as an M365 Global Admin
