@@ -18,9 +18,9 @@ items:
             href: start/viva-glint-badging.md
       - name: Microsoft Viva Glint privacy
         href: setup/viva-glint-privacy.md
-      - name: Privacy policies in Microsoft Viva Glint
-        href: setup/add-privacy-policy.md
         items:
+          - name: Privacy policies in Microsoft Viva Glint
+            href: setup/add-privacy-policy.md
           - name: Advanced privacy guide for data usage and survey item creation
             href: setup/gdpr-special-categories.md
           - name: Why Viva Glint surveys are confidential but not anonymous
@@ -53,26 +53,27 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
-      - name: Prepare and upload employee data
-        href: setup/upload-employee-data.md
-        items:
-          - name: Viva Glint employee attribute fundamentals
-            href: setup/attribute-fundamentals.md
-          - name: Viva Glint's organizational hierarchy fundamentals
-            href: setup/hierarchy-fundamentals.md
-          - name: Create your Viva Glint Employee Attribute Template
-            href: setup/create-employee-attribute-template.md
-          - name: Set up attributes in Viva Glint
-            href: setup/send-employee-attributes.md
-          - name: Choose a data upload method
-            href: setup/choose-upload-method.md
-            items:
-              - name: Understand Viva Glint SFTP and data automation
-                href: setup/sftp-data-automation.md
-              - name: Set up Secure File Transfer Protocol (SFTP) to import employee data  
-                href: setup/set-up-sftp.md
-              - name: Upload employee data to the People page  
-                href: setup/upload-employee-attributes.md
+       - name: Manage Viva Glint employee data
+         items:       
+           - name: Prepare and upload employee data
+             href: setup/upload-employee-data.md
+           - name: Viva Glint employee attribute fundamentals
+             href: setup/attribute-fundamentals.md
+           - name: Viva Glint's organizational hierarchy fundamentals
+             href: setup/hierarchy-fundamentals.md
+           - name: Create your Viva Glint Employee Attribute Template
+             href: setup/create-employee-attribute-template.md
+           - name: Set up attributes in Viva Glint
+             href: setup/send-employee-attributes.md
+           - name: Choose a data upload method
+             href: setup/choose-upload-method.md
+             items:
+               - name: Understand Viva Glint SFTP and data automation
+                 href: setup/sftp-data-automation.md
+               - name: Set up Secure File Transfer Protocol (SFTP) to import employee data  
+                 href: setup/set-up-sftp.md
+               - name: Upload employee data to the People page  
+                 href: setup/upload-employee-attributes.md
       - name: Manage features and settings
         href: setup/platform-features-settings.md
         items: 
