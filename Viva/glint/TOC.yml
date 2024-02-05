@@ -55,8 +55,8 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
-       - name: Manage Viva Glint employee data
-         items:       
+      - name: Manage Viva Glint employee data
+        items:       
            - name: Prepare and upload employee data
              href: setup/upload-employee-data.md
            - name: Viva Glint employee attribute fundamentals
