@@ -20,4 +20,4 @@ ms.date: 02/05/2024
 
 # Viva Glint badging
 
-Microsoft Viva Glint badging is an exciting opportunity for Viva Glint customers to increase their confidence by using Viva Glint's methodology to ensure the highest benefit from bringing Viva Glint programs into your organization. Upon completion of these online learning courses, you'll earn Viva Glint People Success certification badges which you're encouraged to share on your LinkedIn profile! Ready to get started?
+Microsoft Viva Glint badging is an exciting learning opportunity for Viva Glint customers to increase their confidence by using Viva People Science methodology to ensure the highest return from bringing Viva Glint programs into their organizations. Upon completion of these online learning courses, earn Viva Glint People Success certification badges which you're encouraged to share on your LinkedIn profile! Ready to get started?
