@@ -2,6 +2,33 @@
 
 
 
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/29/2024 | [Add, edit, and remove cards from the Viva Connections dashboard](/viva/connections/create-dashboard) | modified |
+| 1/29/2024 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
+| 1/29/2024 | [View and customize your general settings](/viva/insights/advanced/admin/general-settings) | added |
+| 1/30/2024 | [Manage external users in Viva Glint](/viva/glint/setup/add-external-user) | modified |
+| 1/30/2024 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | modified |
+| 1/30/2024 | [Export User Roles from the People feature](/viva/glint/setup/export-user-roles) | added |
+| 1/30/2024 | Import and export Viva Glint User Roles | removed |
+| 1/31/2024 | [Data residency for Viva Engage](/viva/engage/manage-security-and-compliance/data-residency) | modified |
+| 1/31/2024 | [Understand Viva Glint Advanced Configuration](/viva/glint/setup/understand-advanced-configuration) | modified |
+| 1/31/2024 | [Use a self-service trial to try out the full version of Viva Goals](/viva/goals/self-service-trials) | modified |
+| 1/31/2024 | [Growth, inclusion and engagement Power BI report](/viva/insights/advanced/analyst/templates/growth-inclusion-engagement) | renamed |
+| 1/31/2024 | [Work with external groups in Viva Engage networks not aligned to Native Mode](/viva/engage/work-with-external-users/create-and-manage-external-groups) | modified |
+| 2/1/2024 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
+| 2/1/2024 | [FAQs in SharePoint](/viva/learning/sharepoint-faq) | modified |
+| 2/1/2024 | [FAQs for Configuring Workday in Microsoft Viva Learning](/viva/learning/workday-integration-faqs) | modified |
+| 2/1/2024 | [Set up official campaigns in Viva Engage](/viva/engage/campaigns) | modified |
+| 2/1/2024 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 2/2/2024 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 2/2/2024 | [File rules and validation errors](/viva/insights/advanced/admin/rules-validation-errors) | modified |
+| 2/2/2024 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
+
+
 ## Week of January 22, 2024
 
 
