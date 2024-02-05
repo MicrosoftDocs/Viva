@@ -1,5 +1,5 @@
 ---
-ms.date: 02/02/2024
+ms.date: 02/05/2024
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
@@ -109,6 +109,21 @@ With that upload, your org data would then look like this. Note that for both 09
 | 09/01/2023 | 09/06/2023 | W@contoso.com | R@contoso.com | 102 |   |
 |09/06/2023 | 09/08/2023 | W@contoso.com | D@contoso.com | 102 | This row was added, but it has an EndDate of 09/08/2023 because we have an existing future entry. |
 | 09/08/2023 | 12/31/9999 | W@contoso.com | D@contoso.com | 106 |   |
+
+Or, let’s imagine a different scenario. If you want to change the ManagerId only for the dates between 09/06/2023 and 09/08/2023, this would be your upload:
+
+| **EffectiveDate** | **PersonId**| **ManagerId** |
+|--------|---------|---------|
+| 09/06/2023 | W@contoso.com | D@contoso.com |
+
+After that upload, your org data would look like this. Note that after 09/08/2023, the ManagerId is still “R,” because no change was made for the past entry on 09/08/2023.
+
+| **StartDate** | **EndDate** | **PersonId**| **ManagerId** | **BadgeData** | **Comments** |
+|--------|---------|---------|-----------|-----------|----------|
+| 01/01/0001 | 09/01/2023 | W@contoso.com | R@contoso.com | - |   |
+| 09/01/2023 | 09/06/2023 | W@contoso.com | R@contoso.com | 102 |   |
+|09/06/2023 | 09/08/2023 | W@contoso.com | D@contoso.com | 102 | This row was added, but it has an EndDate of 09/08/2023 because we have an existing future entry. |
+| 09/08/2023 | 12/31/9999 | W@contoso.com | R@contoso.com | 106 |   |
 
 Finally, if you don’t remember the previous values of the EffectiveDate field, you should delete the columns that need to be edited and upload the columns again with the updated values. Or, if there are multiple columns that need to be edited, you can also replace all past data with a new upload with the updated values.
 
