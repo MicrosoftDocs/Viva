@@ -40,13 +40,13 @@ Designed for Viva Glint admins, this badge is awarded to leaders who demonstrate
 
 #### Steps to earn the Microsoft Viva Glint Foundations badge
 1. At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Training form. Complete the *Training Badges* section of this form to earn your *Microsoft Viva Glint Foundations* badge.
-> [!NOTE]
-> If any required information is incorrect or incomplete, you'll be notified.
+   > [!NOTE]
+   > If any required information is incorrect or incomplete, you'll be notified.
 2. When finished, Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).
 1. Within one week of submitting your completion form, you receive a confirmation email from **admin@credly.com**.
 1. Follow the instructions to accept your badge.
-> [!NOTE]
-> You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link to create a Credly account](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
+   > [!NOTE]
+   > You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link to create a Credly account](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
 
 ### Microsoft Viva Glint Manager 
 
@@ -60,16 +60,15 @@ Designed for managers in your organization, this badge is awarded to Viva Glint 
 #### Steps to earn the Microsoft Viva Glint Manager badge
 
 1. At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Training form. Complete the *Training Badges* section of this form to earn your *Microsoft Viva Glint Manager* badge.
-> [!NOTE]
-> If any required information is incorrect or incomplete, you'll be notified.
-2. When finished, Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).
+   > [!NOTE]
+   > If any required information is incorrect or incomplete, you'll be notified.
+1. When finished, Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).
 1. Within one week of submitting your completion form, you receive a confirmation email from **admin@credly.com**.
 1. Follow the instructions to accept your badge.
-> [!NOTE]
-> You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link to create a Credly account](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
+   > [!NOTE]
+   > You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link to create a Credly account](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
 
-
-> [!IMPORTANT]
-> Watch for announcements regarding upcoming badges in our 2024 Viva Glint newsletters.
+   > [!IMPORTANT]
+   > Watch for announcements regarding upcoming badges in our 2024 Viva Glint newsletters.
  
  
