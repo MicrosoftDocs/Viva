@@ -217,6 +217,8 @@ items:
        href: reports/survey-reports-overview.md
      - name: Viva Glint admin reports
        items:
+         - name: Admins using the Response Rates & Access report 
+           href: reports/response-access.md
          - name: Use the Viva Glint Alerts and Attrition Risk report
            href: reports/alerts-report-attrition-risk.md
          - name: Use the Manager report in Viva Glint
