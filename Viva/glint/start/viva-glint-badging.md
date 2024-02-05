@@ -1,12 +1,12 @@
 ---
 title: Viva Glint badging
-description: 
+description: This is an exciting opportunity for customers to increase their confidence using Viva Glint's methodology through online learning course where, upon completion, you will earn a Viva Glint badge to share on your LinkedIn profile! 
 ms.author: JudithWEINER
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: certification
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -19,3 +19,5 @@ ms.date: 02/05/2024
 ---
 
 # Viva Glint badging
+
+Introducing our Microsoft Viva Glint Customer Badging program! This is an exciting opportunity for customers to increase their confidence using Viva Glint's methodology through online learning course where, upon completion, you will earn a Viva Glint People Success badge that we encourage you to share online! 
