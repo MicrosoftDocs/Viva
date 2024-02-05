@@ -479,3 +479,69 @@ The insights provided by the Potential to become insular insight category are ca
 * **Group size**, which determines the size of the segments around the nodes  
 
 Let’s dive a little bit deeper into the EI index metric and how its results are calculated.
+
+#### EI index
+
+The EI index provides an indication of the size of an imbalance between external and internal ties of an individual. External and internal are relative to a defined group within the organization. No person can belong to more than one group.  The EI index was designed to test how well organizations respond to crises.  The original study suggested that organizations performed better when employees were strongly connected to many other employees outside of their own group compared to organizations where employees’ connections were concentrated within their same group.
+
+The index value is between –1 (when all collaboration is within the group) and +1 (when all communication is with other groups). A value of 0 represents an equal amount of within-group and cross-group collaboration.
+
+A value of –0.67 corresponds to a 5:1 in-group to cross-group collaboration ratio. Therefore, values between –0.67 and –1 indicate that a group might be at risk of being siloed. A value of exactly –1 indicates that the group is completely siloed. Values between 0 and –0.67 may also indicate insular collaboration patterns, though there is a lower risk of the group becoming siloed.
+
+For individuals, an external tie for person A is defined as someone to whom person A is connected and has a different HR attribute value than person A. An internal tie for person A is defined as someone to whom person A is connected and has the same HR attribute value as person A. HR attributes can represent organizational hierarchy, demographic information, hybrid working styles, and so on. For this documentation, let us consider the same two HR attributes, **Organization** and **Role**, to group the employees. As part of the report, we compute the EI index of individuals using both the HR attributes as context and we aggregate it to a group level before we output the metric values.
+
+In the .csv file, we aggregate the EI index metric value to the segment level as shown below. The .csv output would contain the EI index value of segments for both the HR attributes. For the purposes of the documentation, we’re showcasing only the EI index based on the Organization attribute.
+
+| Metric date | Primary Collaborator | Primary Collaborator  Organization EI index  | Secondary Collaborator | Secondary Collaborator Organization EI index  |
+|----|----|----|----|-----|
+| 11/1/2023 | Engineering_IC  | -0.40 | Product_IC | 0.20 |
+| 11/1/2023 | Engineering_Manager  | 0.15 | Product_Manager | 0.30 |
+| 11/1/2023 | Engineering_IC | -0.40 | Product_Manager | 0.30 |
+| 11/1/2023 | Engineering_Manager | 0.15 | Product_IC | 0.20 |
+| 12/1/2023 | Engineering_IC | -0.30 | Product_IC | 0.30 |
+| 12/1/2023 | Engineering_Manager | 0.05 | Product_Manager | 0.10 |
+| 12/1/2023 | Engineering_IC | -0.30 | Product_Manager | 0.10 |
+| 12/1/2023 | Engineering_Manager | 0.05 | Product_IC | 0.30 |
+
+Here you can see that the EI index value for a segment (Organization_Role) is constant for a given metric date regardless of whether that group is a primary collaborator or secondary collaborator.  
+
+As you can see, the EI index in the .csv is provided at the segment level and varies from time to time. In the ONA product, we facilitate users to analyze the groups based on either of the attributes, and segments based on either of the attributes. That is, we support analysis when the GroupBy attribute is Organization and the SegmentBy attribute is Role, and vice versa. We also support understanding the network across various time periods. For this purpose, we perform some aggregation of the metrics in the UX.  
+
+In the UX, we perform the following processing steps on the EI index values:
+
+* Process EI index values across segments to groups
+
+* Process EI index values across time periods
+
+**Process EI index values across segments to groups**
+
+EI index values can be aggregated from the individual level to the segment and group level. To aggregate the EI index values from individuals to the segment Engineering_IC, we need to average the EI index values of all individuals in this segment. This is the number we provide as part of the .csv.  
+
+For the UX, we need to aggregate the individual EI index values to a group level instead of a segment level, such as to get EI index value of Engineering. This can be done in two ways.
+
+* Perform an average of the EI index value of all individuals in the group
+
+* Perform a weighted average of the EI index values of all segments in the group
+
+We are using the second approach to aggregate the EI index values for segments to the group.
+
+**Processing action:** Weighted Average. Weight is greater than or equal to group size.
+
+| Metric date | Primary Collaborator | Primary Collaborator  Organization EI index  | Secondary Collaborator | Secondary Collaborator Organization EI index  |
+|----|----|----|----|-----|
+| 11/1/2023 | Engineering  | -0.27 <br /> <br /> *=((-0.40*32 + 0.15*16) / 32 + 16)*  | Product | 0.24 <br /><br />  *=((0.20*26 + 0.30*15) / 26 + 15)*  |
+| 12/1/2023 | Engineering | -0.19 <br /><br /> *=((-0.30*30 + 0.05*14) / 30 + 14)*  | Product | 0.23 <br /><br /> *=((0.30*24 + 0.10*13) / 24 + 13)*  |
+
+Please refer to the group size of these segments in the previous section.
+
+**Process EI index values across time periods**
+
+Aggregating EI index scores for the same group or segment across time periods is like the segment to group value aggregation. We perform a weighted average of the EI index values using the group or size of the groups or segments from the respective months to derive the EI index value of the entity across time periods.
+
+**Processing action:** Weighted Average. Weight is greater than or equal to group size.
+
+| Metric date | Primary Collaborator | Primary Collaborator  Organization EI index  | Secondary Collaborator | Secondary Collaborator Organization EI index  |
+|----|----|----|----|-----|
+| 11/1/2023 - 12/1/2023  | Engineering  | -0.23 <br /> <br /> *=((-0.27*48  -0.19*44) / 48 + 44)*  | Product | 0.24 <br /><br />  *=((0.24*41 + 0.23*37) / 41 + 37)*  |
+
+Please refer to the group size of these segments in the previous section.
