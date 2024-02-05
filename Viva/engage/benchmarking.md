@@ -1,5 +1,5 @@
 ---
-ms.date: 02/02/2024
+ms.date: 02/05/2024
 title: "Benchmarking analytics in Viva Engage"
 description: "Viva Engage analytics provides benchmark percentiles to help you determine engagement levels in your audiences and organization."
 ms.reviewer: ethli
@@ -32,7 +32,8 @@ Benchmarking provides a percentile that corresponds to your current _People Enga
 For **Network Analytics** (left), the benchmark percentile tells you how engagement in your organization compares to similar-sized networks.
 For **Audience Analytics** (right), the benchmark percentile tells you how engaged your audiences are compared to other audiences within your network.
 
-:::image type="content" source="../media/engage/admin/benchmark-analytics.png"  alt-text="Screenshot shows a benchmarking percentile and graph for network activity on the left and audience activity on the right.":::
+:::image type="content" source="../media/engage/admin/benchmark-analytics.png"  alt-text="Screenshot shows the benchmarking percentile for network activity on the left and audience activity on the right.":::
+
 
 ## Benchmarking calculations
 
