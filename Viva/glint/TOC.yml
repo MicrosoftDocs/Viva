@@ -10,8 +10,12 @@ items:
         href: start/program-types-templates.md
       - name: How People Science works with Viva Glint
         href: start/people-science-viva-glint.md
-      - name: Learning path and modules
-        href: start/viva-glint-learning-paths-and-modules.md
+      - name: Viva Glint leader trainings and badging
+        items:
+          - name: Learning path and modules
+            href: start/viva-glint-learning-paths-and-modules.md
+          - name: Viva Glint badging
+            href: start/viva-glint-badging.md
       - name: Microsoft Viva Glint privacy
         href: setup/viva-glint-privacy.md
       - name: Privacy policies in Microsoft Viva Glint
