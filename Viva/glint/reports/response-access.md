@@ -46,4 +46,4 @@ Choose which managers to include on your download from this list:
 
 Select **Export Response Rates & Access CSV.** You receive a message box indicating that your CSV report is being generated and sent to your email address.
 
-:::image type="content" source="../../media/glint/reports/response-rate-generate-csv-v2.png" alt-text="Screenshot of Generating CSV dialog box.":::
+:::image type="content" source="../../media/glint/reports/response-rate-generate-csv-v3.png" alt-text="Screenshot of Generating CSV dialog box.":::
