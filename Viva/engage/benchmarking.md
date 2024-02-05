@@ -20,12 +20,14 @@ search.appverid:
 - MET150
 ---
 
-# Benchmarks in analytics
+# Benchmarks in Viva Engage analytics (Private preview)
 
-Benchmarking is a Viva Engage Premium feature that shows organizations how their metrics are performing in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
+>[!IMPORTANT]
+>Viva Engage benchmarking data are currently available only for private preview customers. The features described here are subject to change.
 
-Benchmarking provides a percentile that corresponds to your current
-_Audience Engage_ and _People Engaged_ metrics. For Audience analytics, this percentile tells you how engaged your audiences are compared to other audiences in your network. For Network analytics, this percentile tells you how engagement within your organization compares to similar-sized networks.
+Benchmarking is a Viva Engage Premium feature that shows organizations how their metrics perform in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
+
+Benchmarking provides a percentile that corresponds to your current _People Engaged_ and _Audience Engage_ metrics. For Network analytics, the benchmark percentile tells you how engagement in your organization compares to similar-sized networks. For Audience analytics, the benchmark percentile tells you how engaged your audiences are compared to other audiences within your network.
 
 |![Screenshot shows a benchmarking percentile and graph for network activity on the left and audience engagement on the right.](../media/engage/admin/bench-network.png)|![](../media/engage/admin/bench-audience.png)|
 |:-:|:-:|
@@ -41,7 +43,9 @@ Audience Analytics uses peer benchmarking to rank the percentage of people engag
 
 Verified and Network admins can turn benchmarking features on and off from the Viva Engage admin center.
 
-1. From the Viva Engage admin center, select **Setup & Configuration** > **Analytics and AI**.
+1. Go to [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigation menu, select **Admin center**.
+
+1. On the **Setup & Configuration** tab, select **Analytics and AI**.
 
 1. To enable benchmarking for Network analytics, go to **Network Analytics** and use the toggle to turn the **Engagement Benchmarking** option on.
     When this toggle is enabled, you can see how your engagement compares to other networks that use Engage. Your network data may be included in our benchmarking calculations with data from other similar-sized organizations for the purpose of comparison only.
@@ -54,7 +58,7 @@ Verified and Network admins can turn benchmarking features on and off from the V
 
 ### Optimize engagement in your network
 
-Network Administrators and Corporate Communicators can apply these best practices to the network to increase engagement, strengthen connections, and improve benchmark metrics for Network Analytics.
+Network administrators and corporate communicators can increase engagement, strengthen connections, and improve their benchmark metrics for Network Analytics by applying these best practices in their network.
 
 - Assign a peer as a corporate communicator to help moderate engagement across your organization.
 
@@ -70,7 +74,7 @@ Network Administrators and Corporate Communicators can apply these best practice
 
 ### Optimize engagement in your audience
 
-Leaders, Delegate Managers, and Delegates can apply best practices for content creation to increase engagement, strengthen connections, and improve benchmark metrics for Audience Analytics.
+Leaders, Delegate Managers, and Delegates can increase engagement, strengthen connections, and improve benchmark metrics for Audience Analytics by applying best practices for content creation.
 
 - Assign a member of your team as a delegate to engage on a leader’s behalf.
 
