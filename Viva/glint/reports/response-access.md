@@ -20,13 +20,13 @@ ms.date: 02/05/2024
 
 # Using the Response Rates & Access report
 
-The Export Response Rates & Access report allows admins to download a CSV spreadsheet of managers eligible to receive survey results, those who are ineligible, or a combination of both, dependent upon whether the confidentiality threshold for responses has been met.
+The Export Response Rates & Access report allows admins to download a CSV spreadsheet of managers eligible to receive survey results. The report can include those managers who are eligible, ineligible, or a combination of both, dependent upon whether the confidentiality threshold for responses is met.
 
 Visibility into which managers have sufficient response rate data to view allows admins and program owners to target these groups with specific and appropriate messaging in advance of results rollout.
 
 ## Who can use the Response Rates & Access report and when is it available?
 
-This report is available to anyone with program access and can be exported when a program is live or once the survey window has closed and the survey cycle is complete. 
+This report is available to anyone with program access and can be exported when a program is live or once the survey window is closed and the survey cycle is complete. 
 
 ## Export the Response Rates & Access report
 
@@ -44,6 +44,6 @@ Choose which managers to include on your download from this list:
 
 :::image type="content" source="../../media/glint/reports/export-response-rates-access-dialog-box.png" alt-text="Screenshot of the Export Response Rates & Access dialog box.":::
 
-Select **Export Response Rates & Access CSV.** You will receive a message indicating that your CSV report is being generated and sent to your email address.
+Select **Export Response Rates & Access CSV.** You'll receive a message box indicating that your CSV report is being generated and sent to your email address.
 
 :::image type="content" source="../../media/glint/reports/response-rate-generate-csv-v2.png" alt-text="Screenshot of Generating CSV dialog box.":::
