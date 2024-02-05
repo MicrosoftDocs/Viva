@@ -33,7 +33,8 @@ Benchmarking provides a percentile that corresponds to your current _People Enga
 
 Network Analytics benchmarks your company against similarly-sized organizations. Size sectors are determined by the number of active users within the organization and are displayed on the Network Analytics’ **Network Activity** card for network administrators and corporate communicators.
 
-|![Screenshot shows a benchmarking percentile and graph for audience engagement.]Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ **Audience Engagement** card for leaders, delegate managers, and delegates.|(../media/engage/admin/bench-audience.png)|
+|![Screenshot shows a benchmarking percentile and graph for audience engagement.](../media/engage/admin/bench-audience.png)|
+Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ **Audience Engagement** card for leaders, delegate managers, and delegates.|
 |:-:|:-:|
 
 ## Enable Benchmarking
