@@ -29,7 +29,7 @@ Benchmarking is a Viva Engage Premium feature that shows organizations how their
 
 Benchmarking provides a percentile that corresponds to your current _People Engaged_ and _Audience Engage_ metrics. For **Network Analytics**, the benchmark percentile tells you how engagement in your organization compares to similar-sized networks. For **Audience Analytics**, the benchmark percentile tells you how engaged your audiences are compared to other audiences within your network.
 
-|![Screenshot shows a benchmarking percentile and graph for network activity on the left and audience engagement on the right.](../media/engage/admin/bench-network.png)|![](../media/engage/admin/bench-audience.png)|
+|![Screenshot shows a benchmarking percentile and graph for network activity on the left.](../media/engage/admin/bench-network.png)|![Screenshot shows a benchmarking percentile and graph for audience engagement on the right.](../media/engage/admin/bench-audience.png)|
 |:-:|:-:|
 |Benchmarking within Network Analytics|Benchmarking within Audience Analytics|
 
