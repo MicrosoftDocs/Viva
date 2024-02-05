@@ -212,7 +212,7 @@ Just like with the network view, you can use the matrix view to analyze collabor
 
     :::image type="content" source="../images/ona-hotspot-1-matrix-subgroups.png" alt-text="Screenshot showing the matrix view with subgroups.":::
 
-### Metrics used for analysis
+### Metrics used for insight category #1
 
 The insights provided by the Significant change in collaboration insight category are calculated using the following two metrics:
 
@@ -302,3 +302,180 @@ With this final aggregation, the table becomes:
 Group size functions more like an attribute of a group rather than a metric. In a collaboration, there are two collaborators: “Primary collaborator” and “Secondary collaborator.” The group size is the total number of employees who have been part of a group during the time period of the query.  
 
 The output found in a typical .csv file might look like the sample output table below.
+
+| Metric date | Primary Collaborator | Primary Collaborator Group Size | Secondary Collaborator | Secondary Collaborator Group Size |
+|----|----|----|----|-----|
+| 11/1/2023   | Engineering_IC    | 30 | Product_IC | 26 |
+| 11/1/2023  | Engineering_Manager   | 14 | Product_Manager | 15 |
+| 11/1/2023  | Engineering_IC  | 30 | Product_Manager | 15 |
+| 11/1/2023  | Engineering_Manager  | 14 | Product_IC | 26 |
+| 11/1/2023  | Product_IC  | 22 | Engineering_IC | 32 |
+| 11/1/2023  | Product_Manager  | 12 | Engineering_Manager | 16 |
+| 11/1/2023  | Product_Manager  | 12 | Engineering_IC | 32 |
+| 11/1/2023  | Product_IC  | 22 | Engineering_Manager | 16 |
+| 12/1/2023  | Engineering_IC  | 30 | Product_IC | 24 |
+| 12/1/2023  | Engineering_Manager  | 14 | Product_Manager | 13 |
+| 12/1/2023  | Engineering_IC | 30 | Product_Manager | 13 |
+| 12/1/2023  | Engineering_Manager | 14 | Product_IC | 24 |
+
+As you can see, the Group size values for a group plus segment combination can vary between time periods and depending on whether the group is the primary collaborator or secondary collaborator.
+
+To provide the most appropriate Group size number, we perform the below processing of the group size values:  
+
+* Process group size values across collaboration positions
+
+* Process group size values across segments to groups
+
+* Process group size values across time periods
+
+**Group size values across collaboration positions**
+
+Since Group size is based on the number of individual collaborators from a group, it varies depending on whether they are initiating the collaboration (primary collaborators) or participating in the collaboration (secondary collaborators). Because the collaboration is directional, we can call out the Group size values for a group depending on whether it is primary or secondary in the .csv file. But in the ONA query insights, since we make the network direction agnostic, we need to find the right group size value.  
+
+To do this, we consider all the group size values for a given group in either primary or secondary positions, and we pick the maximum value.
+
+**Processing action: Max**
+
+As part of this processing, the aggregated table of collaborations becomes direction-agnostic. The group size values for the direction-agnostic collaborations would look something like this:
+
+| Metric date | Primary Collaborator | Primary Collaborator Group Size | Secondary Collaborator | Secondary Collaborator Group Size |
+|----|----|----|----|-----|
+| 11/1/2023   | Engineering_IC    | 32 *(Max of 30, 32)*  | Product_IC | 26 *(Max of 22, 26)*  |
+| 11/1/2023   | Engineering_Manager  | 16 *(Max of 14, 16)*  | Product_Manager | 15 *(Max of 12, 15)*  |
+| 11/1/2023   | Engineering_IC  | 32 *(Max of 30, 32)* | Product_Manager | 15 *(Max of 12, 15)*  |
+| 11/1/2023   | Engineering_Manager | 16 *(Max of 14, 16)*  | Product_IC | 26 *(Max of 22, 26)*  |
+| 12/1/2023   | Engineering_IC | 30 | Product_IC | 24  |
+| 12/1/2023   | Engineering_Manager | 14 | Product_Manager | 13  |
+| 12/1/2023   | Engineering_IC | 30 | Product_Manager | 13  |
+| 12/1/2023   | Engineering_Manager | 14 | Product_IC | 24 |
+
+**Group size values across segments to groups**
+
+We compute the “Group collaboration time invested” for a group formed using two HR attributes, like “Organization” and “Role”. We call the first attribute the **GroupBy** attribute, and the second attribute the **SegmentBy** attribute, since the first one marks the boundary of the group and the second one further segments the groups. We compute the metrics at a segment level, to facilitate aggregation to the group level. For the aggregation of group size, we use a simple sum for a given metric date.  
+
+With this aggregation, the output table becomes:
+
+| Metric date | Primary Collaborator | Primary Collaborator Group Size | Secondary Collaborator | Secondary Collaborator Group Size |
+|----|----|----|----|-----|
+| 11/1/2023   | Engineering  | 48 *(Sum of 16, 32)*  | Product | 41 *(Sum of 15, 26)*  |
+| 12/1/2023   | Engineering  | 44 *(Sum of 14, 30)*  | Product | 37  *(Sum of 13, 24)*  |
+
+**Group size values across time periods**
+
+Group sizes may vary across the time periods used for the query. One month, the Group size of a group might by 30, and the next month it might be 36. When visualizing the network across both these months, we would need to show a group size that is relatable.  
+
+Therefore, for a given group, we average all the group size values that we have computed per month over the different time periods to come up with the right value to show for the aggregated view. The table then becomes:
+
+| Metric date | Primary Collaborator | Primary Collaborator Group Size | Secondary Collaborator | Secondary Collaborator Group Size |
+|----|----|----|----|-----|
+| 11/1/2023 - 12/1/2023  | Engineering  | 46 *(Avg of 44, 48)*  | Product | 39 *(Avg  of 37, 41)* |
+
+## Insight category #2 - Potential to become insular
+
+### Summary page
+
+The **Potential to become insular** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
+
+An increase in insularity for a group, for instance, could mean that the group is at risk of becoming siloed from the rest of the organization, which could be a worrisome trend.
+
+Learn more about how these insights are generated.
+
+Just like the first insight category, the card provides a list of **top highlights** for this second insight category. Hover over each highlight to see which area of the graph it relates to.
+
+Here is the ranking system we use – from most to least important – to determine these top highlights and the order in which we present them:
+
+1. Significant new increases in insularity, or within-group collaboration, for existing groups following the change event
+
+2. Groups that continue to show insular collaboration patterns in the “before” and “after” time periods
+
+3. Decreases in insularity for groups; in other words, groups that collaborated more closely than expected with other groups following the change event
+
+Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this second insight category. Select **Explore more**.
+
+### Side-by-side view
+
+Just like the first insight category, this view provides a network visualization comprised of nodes. There are some differences with this second insight category, however, in the visual representation of the analysis.
+
+Here’s how to interpret this view of nodes:
+
+* The nodes are still grouped based on your “People grouped by” selection, but now their size is based on the degree of insularity; the bigger the size of the node the more insular a group is.  
+
+* Groups that experienced a significant increase in insular collaboration (i.e. more than expected internal group connectivity) since the change event or groups which continue to showcase insular collaboration across both the before/after periods will also be marked with inward facing triangles, which is meant to indicate that the group is showcasing more internal focus.
+
+* Groups that were previously insular but are no longer insular and are exhibiting more external focus/connectivity in the “after” period will have outward facing triangles around the node’s circumference.
+
+In the scenario below, for instance, the inward facing triangles signify that the Product Management group is exhibiting insular patterns after the change event.
+
+:::image type="content" source="../images/ona-hotspot-2-product-sales-collab.png" alt-text="Screenshot showing insular collaboration for the Product Management group.":::
+
+Here are a few other characteristics of this insight category to be aware of:
+
+* Like the previous insight category, the thickness of the line connecting any two nodes is based on the amount of collaboration between those groups.
+
+* Also like the previous insight category, the colors around the nodes represent how the groups are segmented, such as by employee level or geography. The segments are governed by your **Segment groups by** selection.
+
+Here are a few ways you can interact with this graph to learn more about the insights:
+
+1. **See collaboration trends**. Select any group to see their total collaboration hours, as well as the collaboration activity for each subgroup member, including the percentage of collaboration that was outside the group versus inside the group. You’ll also find the EI index for that group. Learn more about the EI index and underlying metrics.
+
+2. **See collaboration trends with other groups**. Select the connecting edge between any two nodes to see how collaboration changed between those specific groups.
+
+3. **Explore subgroups**. Select the node you want to explore further. Then select **Expand group**. The node will show the subgroups that make up the larger group; the subgroup nodes that are contributing towards the insular collaboration behavior of the overarching group will be marked with inward facing triangles. In the below scenario, for instance, Brown, Lee, Miller, Davis, and Jones are subgroups within the Product Management group who are contributing to the insular collaboration behavior of the uber Product Management group. To revert back to the preview view, select the node again, then select **Collapse group**.
+
+    :::image type="content" source="../images/ona-hotspot-2-product-subgroups.png" alt-text="Screenshot showing the subgroup members of the Product Management group.":::
+
+4. **Dive deeper into cross-group collaboration between subgroups**. Select the edge that connects any two groups, then select **Expand both groups**. You’ll see a focused view of how the subgroups are collaborating with each other. Hover over each connecting edge see the collaboration changes for individual members. A green edge indicates increased collaboration between members, while a purple edge indicates decreased collaboration. You can also select an individual subgroup node for a more focused look at how that member collaborated with members of the other uber group.
+
+**Filtering options:**
+
+1. **Filter for different views**. Experiment with the filters **Filter groups** and **Segment groups by** to get different perspectives on the flow of information between groups.
+
+2. **Customize time periods**. In the top left of either view, select the dropdown next to the time period to change the timeframe.
+
+3. **Revisit summary insights**. Want another look at the key insights? Inside the card at the top of the page, select **View highlights**. You’ll be brought back to the summary view. These insights apply to the original “before/after” timeframe you set.
+
+### Full screen view
+
+The “before/after” view described above provides a quick snapshot that shows which groups had changes in insularity and how they collaborated after the change event. To dig deeper into a single “before” or “after” view, you can select the outlined box in the top right of either view to investigate how groups and subgroups worked together during that time period alone.
+
+Here are a few ways you can explore this view.
+
+1. **Analyze cross-group collaboration between subgroups**. Select the edge connecting any two nodes Then select **Expand both groups** to see how members of the two uber groups collaborated with each other, just like you would in the “before/after” view described above.
+
+2. **Share results**. In the top right of the view, select the camera icon to share a snapshot of the changes with a colleague.
+
+3. **Go back to before/after view**. At the top left, select the arrows. Any time period changes you made in the full screen view will carry over to the “before/after” view.
+
+### Chart view
+
+The network view provides a visual story of insularity that’s great for qualitative analysis. But you can also explore the chart view for this insight category, which provides the specific numerical analytics on insularity within groups and between groups.
+
+Here’s how to explore the chart view.
+
+1. **Explore the chart**. At the top of any network view, under “Visualize as,” select **Chart**. The chart showcases whether a group is leaning more towards insular behavior (i.e. more than expected within-group collaboration) or if a group is more inclined towards external-ness (i.e., more than expected outside-group collaboration). For any given group, a dark blue circle indicates the “after” state whereas the lighter blue circle indicates the “before” state.
+
+2. **Circle color and movement show collaboration changes**. Movement from the right to the left (past the mid-point of the chart) illustrates more than expected within-group connectivity– or increased insularity – for that group following the change event. Movement from left to right (past the mid-point of the chart) represents an inclination towards more than expected outside of group connectivity. In the scenario below, for instance, the Sales, and G&A groups are tending towards more insular collaboration behavior, as denoted by the movement of their darker circles from right to left:
+
+    :::image type="content" source="../images/ona-hotspot-2-chart-insular.png" alt-text="Screenshot showing the chart view for several groups.":::
+
+3. **Fine-tune your view**. Use the **Filter groups** option to narrow down specific values for the grouping attribute you’ve chosen.
+
+4. **Explore subgroups**. Within the chart view, you can also analyze changes in insularity for subgroups within the larger groups. To do so, select the dropdown to the left of the group you want to analyze. Individual bars will appear for each of the subgroups which show the changes in insularity for those subgroups.
+
+    For instance, in the example below, Miller’s collaboration time within the R&D group increased to nearly 92 percent following the change event.
+
+    :::image type="content" source="../images/ona-hotspot-2-chart-subgroups.png" alt-text="Screenshot showing the chart view with subgroups for the R&D group.":::
+
+5. **Switch back to network view**. Under “Visualize as,” select **Graph** to explore the network visualizations within the same “before” and “after” view.
+
+### Metrics used for insight category #2
+
+The insights provided by the Potential to become insular insight category are calculated using the following three metrics:
+
+* **Group collaboration time invested**, which determines the connecting lines between the nodes
+
+* **EI index**, which determines the size of the nodes
+
+* **Group size**, which determines the size of the segments around the nodes  
+
+Let’s dive a little bit deeper into the EI index metric and how its results are calculated.
