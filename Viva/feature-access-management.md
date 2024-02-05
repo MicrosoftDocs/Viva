@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 12/15/2023
+ms.date: 02/05/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -44,10 +44,11 @@ You can use feature access management to manage access to the following features
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
-|Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
-||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
-|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
+|Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
+||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)*|No| Global admin|VivaInsights|
+||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Global admin, Insights admin|VivaInsights|
+|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin, Knowledge admin|VivaSkills| 
 
 
 \* Not yet available for all tenants. Support will be added soon.
