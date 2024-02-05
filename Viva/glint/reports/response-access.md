@@ -37,7 +37,7 @@ Access the report from the **Program Summary** page of a Live or Completed surve
 Choose which managers to include on your download from this list:
 - Have met confidentiality threshold to see results
 - Have not met confidentiality thresholds to see results
-- Have or have not met confidentaility thresholds
+- Have or have not met confidentiality thresholds
 
 >[!TIP]
 >The third option - *Have or have not met confidentiality thresholds* - is a combination of both options so it's always a safe choice!
