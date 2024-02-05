@@ -1,5 +1,5 @@
 ---
-title: Amins exporting Response Rates & Access report
+title: Admins exporting Response Rates & Access report
 description: The Export Response Rate & Access report allows admins to download a spreadsheet of managers eligible to receive survey results during live or after survey cycles are completed.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -20,7 +20,7 @@ ms.date: 02/05/2024
 
 # Using the Response Rates & Access report
 
-The Export Response Rates & Access report allows admins to download a CSV spreadsheet of managers eligible to receive survey results. The report can include those managers who are eligible, ineligible, or a combination of both, dependent upon whether the confidentiality threshold for responses is met.
+The Export Response Rates & Access report allows admins to download a CSV spreadsheet of managers eligible to receive survey results. The report can include those managers who are eligible, ineligible, or a combination of both. The report is available only when the confidentiality threshold is met.
 
 Visibility into which managers have sufficient response rate data to view allows admins and program owners to target these groups with specific and appropriate messaging in advance of results rollout.
 
