@@ -36,7 +36,7 @@ Within our survey programs, there are two overarching types to consider implemen
 Often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence
 
 ### Business unit survey
-Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particulasr business unit
+Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit
 
 ## Survey frequency 
 
@@ -87,7 +87,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 
 #### Culture survey template
 
-- **Purpose** - Uses Viva Glint's People Science team's identified measureable elements of current culture that are important to driving people and organizational success.
+- **Purpose** - Uses Viva Glint's People Science team's identified measurable elements of current culture that are important to driving people and organizational success.
 - **Recommended frequency** - Recommended as a recurring survey launching every few years or so depending on how quickly the organization is changing
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
