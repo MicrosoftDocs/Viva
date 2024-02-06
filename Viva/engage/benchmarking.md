@@ -27,13 +27,15 @@ search.appverid:
 
 Benchmarking is a Viva Engage Premium feature that shows organizations how their metrics perform in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
 
-## How benchmarks are calculated
+## Benchmark calculations
 
 Benchmarks provide percentiles that correspond to your current _People Engaged_ and _Audience Engage_ metrics.
 
 For **Network Analytics**, this percentile tells you how engagement levels in your organization compare to similarly sized networks. Network size sectors are defined by the number of active users within an organization. Both network administrators and corporate communicators can access Network Analytics and benchmark data on the **Network Activity** card from the analytics icon on the Home page.
 
-Audience Analytics use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card from the analytics icon on the Home page.
+**Audience Analytics** use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card from the analytics icon on the Home page.
+
+:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="/Viva/media/engage/admin/benchmark-analytics.png" lightbox="/Viva/media/engage/admin/benchmark-analytics.png":::
 
 ## Enable Benchmarking
 
