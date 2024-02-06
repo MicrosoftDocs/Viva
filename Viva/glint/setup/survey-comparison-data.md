@@ -20,7 +20,7 @@ ms.date: 02/06/2024
 
 # Choose your benchmark comparison data for Viva Glint reporting
 
-Choosing the right benchark comparison when considering survey results sets the right context for understanding strengths and opportunities and makes the difference between effective progress and misdirected actions. Good comparison choices are crucial, so managers need to be certain to find the right comparison for understanding their engagement feedback.
+Choosing the right benchmark comparison when considering survey results sets the right context for understanding strengths and opportunities and makes the difference between effective progress and misdirected actions. Good comparison choices are crucial, so managers need to be certain to find the right comparison for understanding their engagement feedback.
 
 Comparisons come from these sources:
 
