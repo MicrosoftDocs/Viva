@@ -25,15 +25,15 @@ search.appverid:
 >[!IMPORTANT]
 >Viva Engage benchmarking data are currently available only for private preview customers. The features described here are subject to change.
 
-Benchmarking is a Viva Engage Premium feature that shows organizations how their metrics perform in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
+Benchmarking is a Viva Engage Premium feature that shows you how your metrics perform in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
 
 ## Benchmark calculations
 
-Benchmarks provide percentiles that correspond to your current _People Engaged_ and _Audience Engage_ metrics.
+Benchmarks provide percentiles that correspond to your current _People Engaged_ and _Audience Engaged_ metrics.
 
-For **Network Analytics**, this percentile tells you how engagement levels in your organization compare to similarly sized networks. Network size sectors are defined by the number of active users within an organization. Both network administrators and corporate communicators can access Network Analytics and benchmark data on the **Network Activity** card from the analytics icon on the Home page.
+For **Network Analytics**, this percentile tells you how engagement levels in your organization compare to similarly sized networks. Network size sectors are defined by the number of active users within an organization. Both network administrators and corporate communicators can access benchmarks for Networks Analytics on the **Network Activity** card.
 
-**Audience Analytics** use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card from the analytics icon on the Home page.
+**Audience Analytics** use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card. Learn more about [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895).
 
 :::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="/Viva/media/engage/admin/benchmark-analytics.png":::
 
@@ -59,13 +59,13 @@ Verified and Network admins can turn benchmarking features on and off from the V
 
 Network administrators and corporate communicators can increase engagement, strengthen connections, and improve their benchmark metrics for Network Analytics by applying these best practices in their network.
 
-- Assign a peer as a corporate communicator to help moderate engagement across your organization.
+- Assign a peer as a [_corporate communicator_](/viva/engage/eac-key-admin-roles-permissions) to help moderate engagement across your organization.
 
-- Assign additional leaders. Content posted by leaders tends to have higher engagement.
+- Assign [additional leaders](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
 
-- Make a post about campaigns on your Storyline to boost engagement.
+- Create posts about campaigns on your storyline to boost engagement.
 
-- Create posts about popular themes on your Storyline to boost engagement.
+- Create posts about popular themes on your storyline to boost engagement.
 
 - Manage your campaigns to increase employee engagement.
 
@@ -73,21 +73,23 @@ Network administrators and corporate communicators can increase engagement, stre
 
 ### Optimize engagement in your audience
 
-Leaders, Delegate Managers, and Delegates can increase engagement, strengthen connections, and improve benchmark metrics for Audience Analytics by applying best practices for content creation.
+Leaders, delegate managers, and delegates can increase engagement, strengthen connections, and improve benchmark metrics for audience analytics by applying best practices for content creation.
 
-- Assign a member of your team as a delegate to engage on a leader’s behalf.
+- Assign a member of your team as a [_delegate_](https://support.microsoft.com/en-us/topic/delegation-in-viva-engage-2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f) to engage on a leader’s behalf.
 
 - Check out the most active communities across your audience. Posting in these communities can increase reach.
 
-- Create Storyline posts. Leadership content can generate higher engagement than average posts.
+- Create storyline posts. Leadership content can generate higher engagement than average posts.
 
-- Share a Storyline announcement about popular themes to show employees you’re listening.
+- Share a storyline announcement about popular themes to show employees you’re listening.
 
-- Praise an employee for their contributions to develop two-way dialogue.
+- Praise an employee for their contributions to develop two-way dialog.
 
-- Make a post about active campaigns on your Storyline to boost engagement.
+- Make a post about active campaigns on your storyline to boost engagement.
 
 
 ## See also
+
+[Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895)
 
 [View and manage analytics in Viva Engage](/Viva/engage/analytics)
