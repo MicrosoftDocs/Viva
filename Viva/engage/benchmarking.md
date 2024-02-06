@@ -63,13 +63,13 @@ Network administrators and corporate communicators can increase engagement, stre
 
 - Assign additional [_leaders_](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
 
-- Create posts about campaigns on your storyline to boost engagement.
+- Create posts about [campaigns](https://support.microsoft.com/en-us/topic/campaigns-in-viva-engage-d7b05128-f80b-4c16-b561-3ddce518eb14) on your [storyline](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0) to boost engagement.
 
 - Create posts about popular themes on your storyline to boost engagement.
 
 - Manage your campaigns to increase employee engagement.
 
-- Encourage your leaders to post and interact with content.
+- Encourage leaders to post and interact with content.
 
 ### Optimize engagement in your audience
 
@@ -77,11 +77,11 @@ Leaders, delegate managers, and delegates can increase engagement, strengthen co
 
 - Assign a member of your team as a [_delegate_](https://support.microsoft.com/en-us/topic/delegation-in-viva-engage-2f0a64a3-c5c0-45cd-b3f1-e1e06732f89f) to engage on a leader’s behalf.
 
-- Check out the most active communities across your audience. Posting in these communities can increase reach.
+- Check out the most [active communities](https://support.microsoft.com/en-us/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46) across your audience. Posting in these communities can increase reach.
 
-- Create storyline posts. Leadership content can generate higher engagement than average posts.
+- Create [storyline posts](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0). Leadership content can generate higher engagement than average posts.
 
-- Share a storyline announcement about popular themes to show employees you’re listening.
+- Share a [storyline announcement](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248) about popular themes to show employees you’re listening.
 
 - Praise an employee for their contributions to develop two-way dialog.
 
