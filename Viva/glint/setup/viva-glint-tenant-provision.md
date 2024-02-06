@@ -16,7 +16,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/25/2024
+ms.date: 02/06/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -28,6 +28,9 @@ A tenant represents an organization. It's a dedicated instance of the Microsoft 
 Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra tenants. It has its own representation of work and school identities, consumer identities (if it's an Azure AD B2C tenant), and app registrations. An app registration inside your tenant can allow authentications only from accounts within your tenant or all tenants. 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
+
+> [!NOTE]
+> If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 ## Customers entitled for Viva Glint provisioning 
 
