@@ -62,7 +62,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 After you run the template, go to the **Analysis results** page to check its status. When the template is ready, a green checkmark appears under the **Status** column. To download your results as a .csv file, select the CSV icon under the **Export data** column.
 
-:::image type="content" source="../images/ona-analysis-results.png" alt-text="Screenshot showing the ONA query results page.":::
+:::image type="content" source="../images/ona-analysis-results.png" alt-text="Screenshot showing the ONA query results page." lightbox="../images/ona-analysis-results.png":::
 
 To view the results, find your query under **Query name**, then select the Network icon under **View**.
 
@@ -108,7 +108,7 @@ Now that you’ve got a handle on the top highlights, let’s dive in to the net
 
 This is the first view you’ll see after you select **Explore more**. It provides a network visualization comprised of nodes. The graph on the left provides the “before” view of collaboration based on the dates you provided during setup, while the graph on the right is the “after” view.
 
-:::image type="content" source="../images/ona-hotspot-1-side-by-side.png" alt-text="Screenshot showing the side-by-side view for the first insight category.":::
+:::image type="content" source="../images/ona-hotspot-1-side-by-side.png" alt-text="Screenshot showing the side-by-side view for the first insight category." lightbox="../images/ona-hotspot-1-side-by-side.png":::
 
 Here’s how to interpret this view of nodes:
 
@@ -139,7 +139,7 @@ Here are a few ways you can interact with the network view to learn more about t
     >[!Tip]
     > To analyze subgroup members in the matrix view for more quantitative analysis, select **Drill down in matrix**.
 
-    :::image type="content" source="../images/ona-hotspot-1-subgroups-connect.png" alt-text="Screenshot showing the collaboration data amongst subgroup members.":::
+    :::image type="content" source="../images/ona-hotspot-1-subgroups-connect.png" alt-text="Screenshot showing the collaboration data amongst subgroup members." lightbox="../images/ona-hotspot-1-subgroups-connect.png":::
 
     You can also select an individual subgroup node for a more focused look at how that member collaborated with members of the other uber group.  To revert back to the preview view, select one of the uber nodes, then select **Collapse group**.
 
@@ -192,7 +192,7 @@ Here’s how to explore the matrix view.
 
     In this scenario below, for instance, collaboration between Sales and Finance grew by almost 200 percent. The bold outline identifies the change as one of the top highlights from the summary view page:
 
-    :::image type="content" source="../images/ona-hotspot-1-matrix.png" alt-text="Screenshot showing the matrix view.":::
+    :::image type="content" source="../images/ona-hotspot-1-matrix.png" alt-text="Screenshot showing the matrix view." lightbox="../images/ona-hotspot-1-matrix.png":::
 
 2. **Color shows collaboration changes**. Refer to the gradient chart to see how the different colors correspond to the changes in collaboration.
 
@@ -210,7 +210,7 @@ Just like with the network view, you can use the matrix view to analyze collabor
 
 2. **See the results**. Each cell in the matrix now shows the collaboration changes between each subgroup within the two parent groups you selected. The same color gradient used for the broader matrix view also illustrates the collaboration changes. The example below, for instance, provides the subgroup view for the Finance and Sales groups, segmented by their members. To go back to the previous view without subgroups, at the top left, select **Go back**.
 
-    :::image type="content" source="../images/ona-hotspot-1-matrix-subgroups.png" alt-text="Screenshot showing the matrix view with subgroups.":::
+    :::image type="content" source="../images/ona-hotspot-1-matrix-subgroups.png" alt-text="Screenshot showing the matrix view with subgroups." lightbox="../images/ona-hotspot-1-matrix-subgroups.png":::
 
 ### Metrics used for insight category #1
 
@@ -406,7 +406,7 @@ Here’s how to interpret this view of nodes:
 
 In the scenario below, for instance, the inward facing triangles signify that the Product Management group is exhibiting insular patterns after the change event.
 
-:::image type="content" source="../images/ona-hotspot-2-product-sales-collab.png" alt-text="Screenshot showing insular collaboration for the Product Management group.":::
+:::image type="content" source="../images/ona-hotspot-2-product-sales-collab.png" alt-text="Screenshot showing insular collaboration for the Product Management group." lightbox="../images/ona-hotspot-2-product-sales-collab.png":::
 
 Here are a few other characteristics of this insight category to be aware of:
 
@@ -456,7 +456,7 @@ Here’s how to explore the chart view.
 
 2. **Circle color and movement show collaboration changes**. Movement from the right to the left (past the mid-point of the chart) illustrates more than expected within-group connectivity– or increased insularity – for that group following the change event. Movement from left to right (past the mid-point of the chart) represents an inclination towards more than expected outside of group connectivity. In the scenario below, for instance, the Sales, and G&A groups are tending towards more insular collaboration behavior, as denoted by the movement of their darker circles from right to left:
 
-    :::image type="content" source="../images/ona-hotspot-2-chart-insular.png" alt-text="Screenshot showing the chart view for several groups.":::
+    :::image type="content" source="../images/ona-hotspot-2-chart-insular.png" alt-text="Screenshot showing the chart view for several groups." lightbox="../images/ona-hotspot-2-chart-insular.png":::
 
 3. **Fine-tune your view**. Use the **Filter groups** option to narrow down specific values for the grouping attribute you’ve chosen.
 
@@ -464,7 +464,7 @@ Here’s how to explore the chart view.
 
     For instance, in the example below, Miller’s collaboration time within the R&D group increased to nearly 92 percent following the change event.
 
-    :::image type="content" source="../images/ona-hotspot-2-chart-subgroups.png" alt-text="Screenshot showing the chart view with subgroups for the R&D group.":::
+    :::image type="content" source="../images/ona-hotspot-2-chart-subgroups.png" alt-text="Screenshot showing the chart view with subgroups for the R&D group." lightbox="../images/ona-hotspot-2-chart-subgroups.png":::
 
 5. **Switch back to network view**. Under “Visualize as,” select **Graph** to explore the network visualizations within the same “before” and “after” view.
 
