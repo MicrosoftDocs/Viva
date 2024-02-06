@@ -15,12 +15,14 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2023
+ms.date: 02/06/2024
 ---
 
 # Access Viva Glint with Microsoft Entra ID
 
 To access the Microsoft Viva Glint application, a Global administrator must register Viva Glint in a Microsoft Entra tenant. A service administrator must also import users to Viva Glint. Users must exist in both Microsoft Entra ID and Viva Glint with the same email address to successfully access the application.
+
+If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 >[!NOTE]
 > To add a Support or Partner user to Viva Glint, follow this guidance: [Add an external user to Viva Glint.](https://go.microsoft.com/fwlink/?linkid=2240483)
