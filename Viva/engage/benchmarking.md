@@ -35,7 +35,7 @@ For **Network Analytics**, this percentile tells you how engagement levels in yo
 
 **Audience Analytics** use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card. Learn more about [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895).
 
-:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="/Viva/media/engage/admin/benchmark-analytics.png":::
+:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/benchmark-analytics.png":::
 
 
 ## Enable Benchmarking
