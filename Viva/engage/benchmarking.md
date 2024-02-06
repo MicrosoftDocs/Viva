@@ -50,9 +50,9 @@ Verified and Network admins can turn benchmarking features on and off from the V
     When this toggle is enabled, you can see how your engagement compares to other networks that use Engage. Your network data may be included in our benchmarking calculations with data from other similar-sized organizations for the purpose of comparison only.
 
     >[!NOTE]
-    > If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities* the Network Analytics dashboard will be unavailable.
+    > If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities*, the Network Analytics dashboard will be unavailable.
 
-1. To enable benchmarking for Audience analytics, go to **Audience Analytics** and use the toggle to turn on the Engagement Benchmarking option.
+1. To enable benchmarking for Audience analytics, go to **Audience Analytics** and use the toggle to turn on the **Engagement Benchmarking** option.
     When this toggle is enabled, you can see how your engagement compares to other leaders that use Engage in the same organization. Your audiences’ data may be included in our benchmarking calculations for the purpose of comparison only.
 
 ### Optimize engagement in your network
@@ -61,7 +61,7 @@ Network administrators and corporate communicators can increase engagement, stre
 
 - Assign a peer as a [_corporate communicator_](/viva/engage/eac-key-admin-roles-permissions) to help moderate engagement across your organization.
 
-- Assign [additional leaders](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
+- Assign additional [_leaders_](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
 
 - Create posts about campaigns on your storyline to boost engagement.
 
