@@ -27,7 +27,7 @@ As an HR and/or an IT professional, you may find both the admin and manager trai
 
 ## Earn badges
 
-Viva Glint badging is an exciting opportunity for customers to share their knowledge and expertise of engagement programming with their social network. Through recommended learning paths and modules, you can increase your confidence and drive efficiency using self-paced learning experiences.[Read about badging here](https://go.microsoft.com/fwlink/?linkid=2260035).
+Viva Glint badging is an exciting opportunity for customers to share their knowledge and expertise of engagement programming with their social network. Through recommended learning paths and modules, you can increase your confidence and drive efficiency using self-paced learning experiences. [Read about badging here](https://go.microsoft.com/fwlink/?linkid=2260035).
 
 ## Courses for admins 
 
