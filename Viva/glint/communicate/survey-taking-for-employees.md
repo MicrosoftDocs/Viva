@@ -1,12 +1,12 @@
 ---
 title: Introduce Viva Glint survey taking to your employees
 description: To ensure you receive useful feedback, introduce your employees to the survey process and share troubleshooting solutions with them. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: end user FAQs, survey taking troubleshooting, retaking surveys, new survey invite, resend survey invite 
+keywords: end user FAQs, survey taking troubleshooting, retaking surveys, new survey invite, resend survey invite, how to take a viva glint survey 
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2023
+ms.date: 02/06/2024
 ---
 
 # Introduce Viva Glint survey taking to your employees
@@ -52,13 +52,15 @@ Dear [Employee Name],
 
 For this reason, we're partnering with Microsoft Viva Glint to deliver our [survey name] survey. This first survey goes live on [date].  Surveys may take place repeatedly throughout the year.  Short, frequent surveys allow us to best turn your feedback into action and be responsive to your needs.
 
+[Refer to this support document for lots of helpful information about taking Viva Glint surveys with your organization.](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)
+
 Thank you for your participation,
 
 [Name, Title]
 
-### FAQs for survey takers
+## FAQs for survey takers
 
-We suggest customizing, then copying and sharing the following information with survey takers:
+The following FAQs are included on this [Microsoft support page for survey takers](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5). The link is included on the template above. You may choose, instead, to customize these FAQs and share them independently.
 
 #### What will the survey process look like?
 
