@@ -29,6 +29,9 @@ Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
 
+> [!NOTE]
+> If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/en-us/free/?WT.mc_id=A261C142F).
+
 ## Customers entitled for Viva Glint provisioning 
 
 - Net new Viva Glint standalone customers
