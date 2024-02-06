@@ -27,15 +27,13 @@ search.appverid:
 
 Benchmarking is a Viva Engage Premium feature that shows organizations how their metrics perform in comparison to other organizations and audiences that use Viva Engage. Only verified and network admins can enable benchmarking features in Viva Engage.
 
-Benchmarking provides a percentile that corresponds to your current _People Engaged_ and _Audience Engage_ metrics. For **Network Analytics**, the benchmark percentile tells you how engagement in your organization compares to similar-sized networks. For **Audience Analytics**, the benchmark percentile tells you how engaged your audiences are compared to other audiences within your network.
+## How benchmarks are calculated
 
-:::image type="content" source="../media/engage/admin/benchmark-analytics.png"  alt-text="Screenshot shows the benchmarking percentile for network activity and audience activity.":::
+Benchmarks provide percentiles that correspond to your current _People Engaged_ and _Audience Engage_ metrics.
 
-## Benchmarking calculations
+For **Network Analytics**, this percentile tells you how engagement levels in your organization compare to similarly sized networks. Network size sectors are defined by the number of active users within an organization. Both network administrators and corporate communicators can access Network Analytics and benchmark data on the **Network Activity** card from the analytics icon on the Home page.
 
-Network Analytics benchmarks your company against similarly sized organizations. Size sectors are determined by the number of active users within the organization and are displayed on the Network Analytics’ **Network Activity** card for network administrators and corporate communicators.
-
-Audience Analytics uses peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. This percentile appears on the Audience Analytics’ **Audience Engagement** card for leaders, delegate managers, and delegates.
+Audience Analytics use peer benchmarking to rank the percentage of people engaged across all audiences in the same organization to produce the corresponding percentile. Leaders, delegate managers, and delegates can access benchmarks for Audience Analytics on the **Audience Engagement** card from the analytics icon on the Home page.
 
 ## Enable Benchmarking
 
