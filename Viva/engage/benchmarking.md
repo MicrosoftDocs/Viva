@@ -37,7 +37,7 @@ For **Network Analytics**, this percentile tells you how engagement levels in yo
 
 :::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="/Viva/media/engage/admin/benchmark-analytics.png" lightbox="/Viva/media/engage/admin/benchmark-analytics.png":::
 
-*The screenshot above shows benchmarks for **Network activity** (left) and **Audience engagement** (right).*
+*These screenshots show benchmarks on the **Network activity** card and **Audience engagement** card.*
 
 ## Enable Benchmarking
 
