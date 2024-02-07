@@ -33,7 +33,7 @@ From the Question Library you can:
 - Search items by question type, key driver, benchmark, and whether translations are available 
 - Import and export questions for language translations 
 - Edit or create questions 
-- Sort by Viva Glint standard questions or a custom questions you created or edited 
+- Sort by Viva Glint standard questions or a custom question you created or edited 
 - View the number of your programs which have used this question or statement 
 
    > [!NOTE]
@@ -52,7 +52,7 @@ Customized standard survey items may not map to external benchmarks. If making a
 
 ## Edit items from the Question Library 
 
-There may be cases where slight edits to wording can be accommodated without altering the meanin. In these cases, Viva Glint is able to apply the item to benchmark data.  
+There may be cases where slight edits to wording can be accommodated without altering the meaning. In these cases, Viva Glint is able to apply the item to benchmark data.  
 
 Any item can be edited by hovering over and selecting the row that the item appears on in the Question Library. An *Edit Question* slider panel displays. From this panel you can: 
 
