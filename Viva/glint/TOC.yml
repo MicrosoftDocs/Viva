@@ -247,6 +247,9 @@ items:
                href: reports/act-strengths-opportunities.md
          - name: Use Viva Glint's Focus Area Overview report
            href: reports/focus-area-overview-report.md
+           items:
+             - name: Viva People Science explains action plans and focus areas
+               href: reports/people-science-explains-focus-areas.md
          - name: Use Viva Glint's Comments report
            href: reports/comments-report.md
            items:
