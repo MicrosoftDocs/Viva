@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 02/07/2024
 ---
 
 # Use the Viva Glint Question Library
