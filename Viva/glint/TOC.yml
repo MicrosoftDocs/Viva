@@ -249,7 +249,7 @@ items:
            href: reports/focus-area-overview-report.md
            items:
              - name: Viva People Science explains action plans and focus areas
-               href: reports/people-science-explains-focus-areas-md
+               href: reports/people-science-explains-focus-areas.md
          - name: Use Viva Glint's Comments report
            href: reports/comments-report.md
            items:
