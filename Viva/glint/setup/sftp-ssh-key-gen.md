@@ -15,12 +15,15 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2023
+ms.date: 02/07/2024
 ---
 
 # Create an SSH key pair
 
 To access your Microsoft Viva Glint SFTP account, create an SSH key pair, which includes a public and private key.
+
+> [!NOTE]
+> These instructions are for individual users that connect to Viva Glint SFTP. Your organization may have an HR information system connect directly to SFTP to send employee data. Work with your HRIS team to have a SSH key pair generated for the HRIS to allow it to connect.
 
 ## Understand SSH key pair requirements
 
