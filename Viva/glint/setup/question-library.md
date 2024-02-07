@@ -23,7 +23,7 @@ ms.date: 02/07/2024
 From the admin dashboard, in the *Survey* section, you'll find the **Question Library**. Microsoft Viva Glint’s Question Library contains hundreds of questions and statements that can be included in your surveys. If you choose a template for a specific survey type, the questions and statements that best support the survey goal are prepopulated into the template. You can create and edit items from the Question Library, but Viva Glint suggests that you use our standard questions as most are mapped to benchmarks.
 
 >[!IMPORTANT]
->[Use this Learn guidance to understand question mapping](/../../question-mapping.md).
+>[Use this Learn guidance to understand question mapping](question-mapping.md).
 
 >[!NOTE]
 >Not all items in the Question Library are posed in question format. Many library items are statements for the survery taker to rate on a given scale. For this reason, note that the term "items" is often used to refer to the contents of the Question Library.
