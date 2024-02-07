@@ -126,10 +126,10 @@ The fields included in your Viva Glint raw survey response exports will vary bas
 
 |Field Label  |Description   |Value Format|
 |----------|-----------|------------|
-|Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|       |
+|Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Completion Date|The date and time that surveys were completed by each user.    |YYYY-MM-DD hh:mm:ss|
 |Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
-|ItemText1|Full text of survey item.   |Numeric response value.|
+|ItemText1  |Full text of survey item. |Numeric response value.|
 |ItemText2  |Full text of survey item. |Numeric response value.|
 |ItemText3  |Full text of survey item. |Numeric response value.|
 
