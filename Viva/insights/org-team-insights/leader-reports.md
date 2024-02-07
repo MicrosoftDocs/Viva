@@ -43,7 +43,7 @@ To add more organizations to your trend graph, under **Show trend**, select the 
 
 You can sort by any of the headers in the **Groups within your organization** table.
 
-:::image type="content" source="./images/leader-reports-main.png" alt-text="Screenshot showing the Leader reports page." lightbox="../images/leader-reports-main.png":::
+:::image type="content" source="images/leader-reports-main.png" alt-text="Screenshot showing the Leader reports page." lightbox="../images/leader-reports-main.png":::
 
 ### Prerequisites 
 
