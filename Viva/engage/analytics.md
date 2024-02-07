@@ -81,7 +81,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 - **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
 
--	**Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently-discussed subjects in their audience.
+-	**Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
 
 ## Global Answers analytics
 
