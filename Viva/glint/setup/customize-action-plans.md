@@ -58,7 +58,7 @@ All content that exists in Content Resources is considered Viva Glint standard c
 
 ## How to clone customized standard content 
 
-Edited content must be renamed before it can be saved and published. This step is referred to as creating a clone so that original content is never altered. In the *Shared* column, the content Viva Glint standard content is indicated as **Shared**. In the *Last Modified* column, standard content is indicated by **Viva Glint Admin**. New or customized content is classified as **Custom** in the *Shared* column and **<Name>** in the *Last Modified* column.
+Edited content must be renamed before it can be saved and published. This step is referred to as creating a clone so that original content is never altered. In the *Shared* column, the content Viva Glint standard content is indicated as **Shared**. In the *Last Modified* column, standard content is indicated by **Viva Glint Admin**. New or customized content is classified as **Custom** in the *Shared* column and *Your Customized Resource Name* in the *Last Modified* column.
 
 ## How to add LinkedIn Learning videos to content resources 
 
