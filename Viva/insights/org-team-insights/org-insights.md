@@ -16,7 +16,7 @@ audience: user
 # Organization insights in Viva Insights
 
 >[!IMPORTANT]
-> Some of the features described below, such as the Library tab and Leader reports, are for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+> Some of the features described below are for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
