@@ -51,7 +51,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones is checked**.    | 
 |**Top-Level Manager**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | Add a link to your organization’s privacy policy to replace the Microsoft Privacy Statement. The privacy policy is displayed at the beginning of Viva Glint surveys and in the Viva Glint navigation bar.|
-|**Company Message to Survey Participants**|Enter guidance specific to your organization that will be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys.|
+|**Company Message to Survey Participants**|Enter guidance specific to your organization that will be displayed at the beginning of Viva Glint surveys and applied to new programs and scheduled surveys. Character limit: 1024|
 
 > [!IMPORTANT]
 > Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
@@ -115,10 +115,13 @@ Edit the following:
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Available Survey Questions and Program Templates**   |Deselect any program types that you won’t be using to delete their items from your platform. You can edit this at any time.    |   
-|**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys   |  
+|**Available Survey Questions and Program Templates**   |Deselect any program types that you won’t be using to delete their items from your platform. You can edit this at any time.    |  
+|**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
+|**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
+|**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
 |**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that will show on the dashboard and in reporting.    |
+|**Self-Serve Mode**   |When Edit and Create is selected, this allows users with the correct user role permissions to edit and create surveys.   |  
 
 ## Set up the Technical Configuration section 
 
@@ -130,6 +133,7 @@ In this section, make selections for your Viva Glint technical setup:
 |**Field**| **Definition and notes**|
 |-----------|-----------|
 |**Attribute for SSO Authentication** |Configure the unique Employee ID. The email has been set as the default employee ID. |
+|**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
 
 ## Set up the Localization section 
 

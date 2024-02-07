@@ -14,6 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
+  - essentials-manage
 localization_priority: high
 description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
 ---

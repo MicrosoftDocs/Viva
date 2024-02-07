@@ -16,6 +16,7 @@ ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-manage
 search.appverid:
 - MET150
 ---
