@@ -104,6 +104,9 @@ items:
                 href: setup/export-distribution-lists.md
           - name: Use the Viva Glint Question Library
             href: setup/question-library.md
+            items:
+              - name: Question mapping
+                href: setup/question-mapping.md
           - name: Use Viva Glint benchmarks
             href: setup/benchmarks.md
             items:
