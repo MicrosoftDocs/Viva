@@ -31,7 +31,7 @@ Managing Focus Area periods allow admins to determine how often to survey based 
 
 ## Add a Focus Area Period
 
-1. Select **+ New Period** to open the *Create Period* slider window.
+1. Select **+ New Period** to open the Create Period slider window.
 
 :::image type="content" source="../../media/glint/reports/focus-areas-create-period.png" alt-text="Screenshot *Create Period* slider window.":::
 
