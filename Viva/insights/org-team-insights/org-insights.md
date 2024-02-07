@@ -1,5 +1,5 @@
 ---
-ms.date: 10/18/2023
+ms.date: 02/07/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -14,6 +14,9 @@ audience: user
 ---
 
 # Organization insights in Viva Insights
+
+>[!IMPORTANT]
+> Some of the features described below, such as the Library tab and Leader reports, are for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
@@ -31,7 +34,7 @@ People in your organization also need to have a Viva Insights subscription so th
 
 People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
 
-People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
+People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the Insights Business Leader role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 
@@ -54,6 +57,8 @@ Organization insights are more than just a dashboard—they also provide helpful
 :::image-end:::
 
 In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and urgent collaboration. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
+
+Learn more about these new reorts for leaders.
 
 Underneath the report cards, you’ll find a section for **Recommendations**. These point you to other workflows in Viva Insights that can help support you or your organization manage the measured behavior described in the above reports.
 
@@ -141,17 +146,17 @@ Let's take a look at how to use these features:
 1. **Three-dot menu for sharing** 
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
-    * **In a Teams chat** – When you share through a chat, you'll have the option to send a screenshot of the insight to another person and add a custom message. The chat contains a link, so the recipient can view how the insight looks for their own team. Recipients need to qualify for organization insights to be able to view what you share with them here.
     
-        :::image type="complex" source="images/org-insights-share-chat1.png" alt-text="Screenshot that shows sharing an insight by chat.":::
-           Screenshot of the "Share via chat" window. The title reads, "Start adding people to share." Beneath the title is a "Send to" field where users can add recipients. This field currently contains a recipient, showing their profile image and name, with an X button to cancel. Beneath "Send to" is a "Leave a note" field which includes user-entered text. Beneath "Leave a note," a box next to the text, "Include a preview of my own insight" is checked. In the bottom portion of the window, there's a "Preview" section that shows what the recipient will see. The message title reads, "Elvia Atkins shared insights with you." Below the message title, there's the note the sender wrote above. Part of the insight is visible in the preview. In the bottom right of the window, there's a "Done" button.
-        :::image-end:::
+    * **As an image** - Select the three dots at the top right, then select **Copy as image**. You’ll see a preview of a screenshot of the insight. Select **Copy image to clipboard**. You can then paste and share the image with anyone, anywhere you want, such as in an email message or on Teams.
 
-    * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
+    :::image type="complex" source="images/sharing-copyimage-01.png" alt-text="Screenshot that shows how to share an insight as an image.":::
+    Screenshot that shows how to share an insight as an image.
+    :::image-end:::
 
-
-        :::image type="complex" source="images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
-           Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
+    * **In a Teams chat** – Select the three dots at the top right, then select **Share via Teams**. When you share through a chat, you'll have the option to add a custom message. You'll share the insight as a screenshot.
+    
+        :::image type="complex" source="images/sharing-teamschat.png" alt-text="Screenshot that shows sharing an insight via Teams.":::
+           Screenshot that shows sharing an insight via Teams.
         :::image-end:::
 
 #### Insight drill-down page
