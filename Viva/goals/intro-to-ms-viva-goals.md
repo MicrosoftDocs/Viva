@@ -1,5 +1,5 @@
 ---
-ms.date: 04/18/2022
+ms.date: 02/07/2024
 title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -36,7 +36,7 @@ These resources teach the basics of using OKRs in Viva Goals.
 |Thing you want to do  |Useful resource  |
 |---------|---------|
 |Create an OKR     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Check in an OKR| [Check-in OKRs](/viva/goals/okr-check-ins)        |
+|Check in an OKR| [Check in OKRs](/viva/goals/okr-check-ins)        |
 |Track progress on an OKR| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
 |Score and close an OKR|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
 
