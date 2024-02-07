@@ -58,7 +58,7 @@ Organization insights are more than just a dashboard—they also provide helpful
 
 In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and urgent collaboration. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
 
-[Learn more about these new reorts for leaders](./leader-reports.md).
+[Learn more about these new reports for leaders](./leader-reports.md).
 
 Underneath the report cards, you’ll find a section for **Recommendations**. These point you to other workflows in Viva Insights that can help support you or your organization manage the measured behavior described in the above reports.
 
