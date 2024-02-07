@@ -28,17 +28,17 @@ If historical data isn't aligned to new insights, results can be misinterpreted 
 
 To map, consider the wording, item intention and referents.
 
-:::image type="content" source="../../media/glint/setup/mapping-guidelines.png" alt-text="Image of the mapping guideline":::
+:::image type="content" source="../../media/glint/setup/mapping-guidelines.png" alt-text="Table that shows the mapping guidelines.":::
 
 ### Item intention 
 
 If items have different wording, they can still be mapped, provided the intention of the historical item aligns with the intention of the item it’s being mapped to – they must have the same aimed purpose and outcome:
 
-:::image type="content" source="../../media/glint/setup/item-intention.png" alt-text="Image of the intention":::
+:::image type="content" source="../../media/glint/setup/item-intention.png" alt-text="Table that shows the intention of the historical item.":::
 
 ### Item referent 
 
 To gain specific insights, an item will always have a referent (for example, Company, senior leadership, direct manager, team, coworkers or even the employee themselves). If two items have similar intentions but are aimed at different referents, they can't be mapped.  
 
-:::image type="content" source="../../media/glint/setup/item-referent.png" alt-text="Image of the item referent":::
+:::image type="content" source="../../media/glint/setup/item-referent.png" alt-text="Table that shows the item referent.":::
 
