@@ -138,7 +138,7 @@ Let's take a look at how to use these features:
 
 1. **Details**
 
-   Select the card itself to dive deeper into the measured reuslts. When you select the card, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
+   Select the card itself to dive deeper into the measured results. When you select the card, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
 
     >[!Note] 
     >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
