@@ -58,12 +58,12 @@ Admins can enable or disable metrics from the **Manage analytics** interface of 
 
 Network analytics provide valuable insights into employee engagement and communication across your organization. With the ability to track sentiment, retention, and community activity, network admins and corporate communicators can make informed decisions and take targeted actions to improve the overall health of their network.
 
+**Employee retention** shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](/purview/retention-policies-viva-engage) and [Sentiment and theme analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
+
 >[!NOTE] 
 >For the **Network analytics** dashboard to be available, at least 50% of the network’s users must be licensed for Viva Suite or Employee Communications and Communities.
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics.":::
-
-**Employee retention** shows the difference in the 28-day employee retention rates of employees who do and don't use Viva Engage. For details, see [Employee Retention](/purview/retention-policies-viva-engage) and [Sentiment and theme analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
 Learn more about metrics featured in the Network analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/bg-p/Viva_Engage_Blog).
 
