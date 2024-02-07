@@ -47,11 +47,11 @@ To sign in to Viva Goals, visit https://goals.microsoft.com/.
 
 To invite users from the Viva Goals menu, select the **Add members** button.
 
-Or, if you're the organization administrator, you can go to **Settings** and select **Add members** on the Users tab.
+Or, if you're the organization administrator, you can go to **Admin** and select **Add members** on the Members tab.
 
 :::image type="content" source="../media/goals/2/23/a.jpg" alt-text="Screenshot show the dialog box where an admin uses the Invite Users button." lightbox="../media/goals/2/23/a.jpg":::
 
-Another way to do this is to select **Users** from the menu and then select the **Add members** button.
+Another way to do this is to select **Members** from the menu and then select the **Add members** button.
 
 :::image type="content" source="../media/goals/2/23/b.jpg" alt-text="Screenshot showing another option to add members." lightbox="../media/goals/2/23/b.jpg"::: 
 
@@ -90,7 +90,7 @@ Navigate to the **Team Members** tab. Search for the member in the search fi
 
 ## Remove a user 
 
-To remove a user from your organization, an admin can deactivate or delete their account: Go to **Admin** > **Users**. Find the user you want to remove and select **Actions** > **Deactivate** or **Actions** > **Delete**. In either case, you'll no longer be billed for that user.
+To remove a user from your organization, an admin can deactivate or delete their account: Go to **Admin** > **Members**. Find the user you want to remove and select **Actions** > **Deactivate** or **Actions** > **Delete**. In either case, you'll no longer be billed for that user.
 
 If you have invited users using a Microsoft Entra group, you can remove the user from the group to deactivate them in Viva Goals as well.
 
@@ -99,7 +99,7 @@ If you have invited users using a Microsoft Entra group, you can remove the user
 
 ### Deactivate versus delete a user
 
-A deactivated user remains visible in Viva Goals but won't be able to sign in. The user remains assigned as an owner of any OKRs they had. They won't be searchable in **All Users** and will be listed as deactivated in the **Users** section of the admin tools. 
+A deactivated user remains visible in Viva Goals but won't be able to sign in. The user remains assigned as an owner of any OKRs they had. They won't be searchable in **All Users** and will be listed as deactivated in the **Members** section of the admin tools. 
 
 :::image type="content" source="../media/goals/2/23/c.jpg" alt-text="Screenshot shows deactivated users." lightbox="../media/goals/2/23/c.jpg"::: 
 
@@ -124,7 +124,7 @@ Admins can’t delete users who currently own any objective. To delete those use
 - When the organization administrator receives a request from the user to completely delete all data that can be linked back to them as per GDPR DSR regulations
 
 > [!Note] 
-> To find deleted or deactivated users, navigate to the **Users** tab and select the **Deactivate** filter option under the **Status** dropdown.
+> To find deleted or deactivated users, navigate to the **Members** tab and select the **Deactivate** filter option under the **Status** dropdown.
 
 ## FAQ (Frequently asked questions)
 
