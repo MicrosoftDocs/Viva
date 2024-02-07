@@ -20,9 +20,9 @@ ms.date: 02/07/2024
 
 # Question mapping
 
-Once you have selected questions that align to your organizational strategies, you may decide to compare trending data from previous surveys to your current survey. If you do decide to compare historical data to new items moving forward, it's vital that the previous and new questions are truly comparable. 
+Once questions are selected that align to your organizational strategies, you may decide to compare trending data from previous surveys to your current survey. If you do decide to compare historical data to new items moving forward, it's vital that the previous and new questions are truly comparable. 
 
-If historical data isn't aligned to new insights, results can be misinterpreted by not having clear connections from historical to new insights or proceeding with misguided action steps. To ensure true comparisons between previous and new results, it's essential to **map** items accurately.​ 
+If historical data isn't aligned to new insights, results can be misinterpreted if there aren't clear connections from historical data to new insights. To ensure true comparisons between previous and new results, it's essential to **map** items accurately before proceeding to act.​ 
 
 ## Mapping guidelines 
 
