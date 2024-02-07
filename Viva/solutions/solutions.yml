@@ -14,10 +14,11 @@ metadata:
   f1.keywords:
   - NOCSH
   ms.service: viva
-  localization_priority: Priority
+  ms.localizationpriority: medium
   ms.collection:
     - M365initiative-viva
     - Tier1
+    - essentials-manage
   search.appverid:
   - MET150
   - ms.date: 06/09/2022

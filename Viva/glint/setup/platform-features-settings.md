@@ -10,6 +10,7 @@ keywords: SFTP, public SSH key, upload SSH key
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-manage
 search-appverid: MET150
 ms.topic: article
 ms.service: viva

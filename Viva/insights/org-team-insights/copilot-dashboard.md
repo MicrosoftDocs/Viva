@@ -1,5 +1,5 @@
 ---
-ms.date: 12/19/2023
+ms.date: 1/16/2024
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -17,6 +17,9 @@ audience: user
 
 >[!Important]
 >This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
+>[!Note]
+>The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -51,6 +54,9 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 ## Manage user access to the dashboard in Viva Insights
 
 *Applies to: Global admins*
+
+>[!Note]
+>When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
 In Viva Insights, the Copilot Dashboard is accessible in the Microsoft Teams and web app. Access controls are managed by Global admins.
 
@@ -108,7 +114,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
    :::image-end:::
 
 >[!Note]
->Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](/Viva/insights/advanced/setup-maint/setup-overview.md) (it is on by default).
+>Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
@@ -172,7 +178,7 @@ Screenshot that shows the readiness page in the Copilot Dashboard.
 1. Follow the guidelines on [this page](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to share the app with users in your organization.
 
 >[!Note]
->Please be aware that after you connect your tenant's data to the dashboard, it will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards.
+>Please be aware that after you connect your tenant's data to this Power BI template app, a copy of the data will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards. The copied data is limited to the tenant-level aggregated data points that are displayed in the app. This note applies exclusively to the Power BI template app version of the Microsoft Copilot Dashboard and *not* to the version within the Viva Insights app.
 
 ### Update the app
 
@@ -215,7 +221,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 | Metric | Definition |
 |---|---|
-| User count per application   | Count of active Copilot users per Microsoft 365 application over the past 28 days. An active user is someone who completed any intentional action in Copilot (e.g., sending a prompt or generating a Word document) at least once during that timeframe. The applications included here are currently limited to Teams, Outlook, Word, Excel, PowerPoint, and OneNote. Microsoft 365 Chat is not yet included in the report. | 
+| User count per application   | Count of active Copilot users per Microsoft 365 application over the past 28 days. An active user is someone who completed any intentional action in Copilot (e.g., sending a prompt or generating a Word document) at least once during that timeframe. The applications included here are currently limited to Teams, Outlook, Word, Excel, PowerPoint, and OneNote. Microsoft Copilot is not yet included in the report. | 
 | User count per feature   | Count of unique active users per Copilot feature. These counts are currently limited to activities in Teams, Word, PowerPoint, and Outlook. More features will be added over time. <br /> <br /> **Feature definitions:** <br /> • *Summarize a Teams meeting*: user used Copilot to summarize a Teams meeting. [Learn more about this feature.](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1) <br> <br />• *Summarize a Teams conversation*: user used Copilot to summarize a Microsoft Teams chat or channel conversation. [Learn more about this feature](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-chat-and-channels-cccccca2-9dc8-49a9-ab76-b1a8ee21486c). <br> <br /> • *Summarize an Outlook email thread*: user used Copilot to summarize an Outlook email thread. [Learn more about this feature](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-a79873f2-396b-46dc-b852-7fe5947ab640). <br> <br />• *Summarize a Word document*: user used Copilot to summarize a Word document. [Learn more about this feature](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-79bb7a0a-3bf7-41fe-8c09-56f855b669bf). <br> <br />• *Draft a Word document*: user used Copilot to create a new Word document. [Learn more about this feature](https://support.microsoft.com/office/draft-and-add-content-with-copilot-in-word-069c91f0-9e42-4c9a-bbce-fddf5d581541). <br> <br /> • *Create a PowerPoint presentation*: user used Copilot to create a new PowerPoint presentation. [Learn more about this feature](https://support.microsoft.com/office/create-a-new-presentation-3222ee03-f5a4-4d27-8642-9c387ab4854d). <br> <br />• *Generate an Outlook email draft*: user used Copilot to generate an email draft in Outlook. [Learn more about this feature](https://support.microsoft.com/office/draft-an-outlook-email-message-with-copilot-3eb1d053-89b8-491c-8a6e-746015238d9b). <br> <br /> • *Rewrite a Word document*: user used Copilot to rewrite text in a Word document. [Learn more about this feature](https://support.microsoft.com/office/transform-your-content-with-copilot-in-word-923d9763-f896-4da7-8a3f-5b12c3bfc475). |
 | Actions per user per feature | Average number of actions completed per active user over the past 28 days for each of the features above. This metric only counts the initial step of prompting Copilot to complete some action; it does not include any post-prompt actions such as copying a meeting summary or inserting drafted email text into an email body. <br /> <br /> This metric helps you assess the intensity of use of each Copilot feature and the degree to which users have come to rely on Copilot for key productivity workflows. For example, if you have 100 users for the “Summarize a Teams meeting” feature and an actions per user value of 10, that means that on average each of those 100 users prompted Copilot in Teams meetings 10 times over the past 28 days (amounting to 1,000 prompts overall).   |
 

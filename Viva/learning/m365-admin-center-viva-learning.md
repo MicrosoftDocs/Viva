@@ -15,6 +15,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
+  - essentials-manage
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: View the new Microsoft 365 Admin Experience for Viva Learning.

@@ -12,19 +12,21 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
 search.appverid:
 - MET150
 ---
+
 # Viva Engage Native Mode: Step-by-step guide
 
 Organizations that want to take advantage of the new compliance features in Viva Engage need to make sure their network is aligned to Native Mode. Native Mode also provides other benefits, such as the ability to:
-- Host a live event in every Viva Engage community.
-- Simplify file administration through SharePoint.
-- Apply Microsoft 365 Group management policies.
+
+- Host a live event in every Viva Engage community
+- Simplify file administration through SharePoint
+- Apply Microsoft 365 Group management policies
 
 Any network that was created after January 16, 2020, is already in Native Mode and can make use of these features immediately. You can use the Native Mode Alignment Tool to ensure that the network is backed by Microsoft 365 before accessing these new features.
 

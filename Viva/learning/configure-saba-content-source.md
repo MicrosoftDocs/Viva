@@ -83,9 +83,6 @@ The account used for Saba setup must have the following security roles:
 > [!NOTE]
 > Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
 
-> [!NOTE]
-> Content Type Limitation: Currently, Viva Learning doesn't support "Curriculum" and "Certification" content types from Saba Cloud LMS.
-
 ## Learner record sync
 
 Select **Enable Learner Record Sync** to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
