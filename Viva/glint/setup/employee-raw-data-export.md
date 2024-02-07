@@ -73,7 +73,7 @@ To ensure customers can meet their Data Subject Rights (DSR) obligations, Viva G
 > Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets extreme circumstance criteria. [Read more about "extreme circumstances".](https://go.microsoft.com/fwlink/?linkid=2238614)
 
 ## Use the People feature to export responses
-As the admin, can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
+As the admin, you can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section on the Viva Glint admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data, without viewing it, directly to the survey taker.
 
 ### Follow this procedure to export user data:
 1. Search for the user in the Search People label.
@@ -95,10 +95,43 @@ As the admin, can export raw survey responses from an individual's profile in th
 - Microsoft will not facilitate direct transfers to third parties, such as alternative survey platforms or data analytics consultants.
 - The customer remains the data controller and Microsoft is permanently prohibiting customer access to non-RDE survey data at the *customers' explicit instruction*.
 
-## Export company-level raw data##
-For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. Company admins can navigate to the **Completed** cycles tab of the survey program. On the row with the appropriate cycle, select the vertical ellipses (three dots) on the far right and then **Export raw survey responses.**
+## Export company-level raw data
+For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. 
 
-For surveys that are always live, such as Onboarding surveys, admins can navigate to **Settings,** then **Survey Programs.** Next choose **Live** status and select a Lifecycle or Always-On survey program. In the **Actions** dropdown menu, select **Export raw survey responses.** Select the **Survey Send Date** range desired.
+### Export raw response data for Recurring and Ad-Hoc surveys:
+
+1. Go to **configuration** and select **Survey Programs.**
+2. Select your survey program and go to the **Completed** cycles tab.
+3. On the row with the appropriate cycle, select the ellipses (three dots) on the far right and then **Export Raw Survey Responses.**
+4. In the export pane that appears:
+   1. Choose whether to include **Comments** and the **Survey Sent Date** in the **Export Options** section.
+   2. Select attributes that you want to include in the **Attributes** section.
+   3. After you make all selections, select the **Export** button in the top right.
+5. Your .csv file will download to your device. Larger files can take more time to generate, you will receive an email when your file is ready to download.
+
+### Export raw response data for Lifecycle and Always-On surveys:
+
+1. Go to **configuration** and select **Survey Programs.**
+2. Select your survey program and go to the **Actions** menu and choose **Export Raw Survey Responses.**
+4. In the export pane that appears:
+   1. Select a Start Date and End Date in the **Date Range** section.
+   2. Choose whether to include **Comments** and the **Survey Sent Date** in the **Export Options** section.
+   3. Select attributes that you want to include in the **Attributes** section.
+   4. After you make all selections, select the **Export** button in the top right.
+5. Your .csv file will download to your device. Larger files can take more time to generate, you will receive an email when your file is ready to download.
+
+### Raw survey response file layout
+
+The fields included in your Viva Glint raw survey response exports will vary based on the attributes that your organization sends, the selections that you make for your export, and the items included in your survey. The following columns will always be included, with a field for every survey item:
+
+|Field Label  |Description   |Value Format|
+|----------|-----------|------------|
+|Survey Cycle Creation Date   |The date and time that surveys were generated for users.       |YYYY-MM-DD hh:mm:ss|
+|Survey Cycle Completion Date|The date and time that surveys were completed by each user.    |YYYY-MM-DD hh:mm:ss|
+|Survey Cycle Title|The name of the survey cycle.  |\<Month> \<Year> \<Program name> Survey|
+|ItemText1  |Full text of survey item. |Numeric response value.|
+|ItemText2  |Full text of survey item. |Numeric response value.|
+|ItemText3  |Full text of survey item. |Numeric response value.|
 
 >[!NOTE]
 > - The export option will only be available to admins.
