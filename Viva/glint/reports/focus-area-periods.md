@@ -1,6 +1,6 @@
 ---
-title: Focus Area windows
-description: 
+title: Focus Area periods
+description: Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from the time the Focus Area is created through when action taking should be completed.. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/07/2024
 ---
 
-As part of our effort to provide more self-service features, Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe from when the Focus Area is created through its due date. 
+Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from the time the Focus Area is created through when action taking should be completed.
 
 Managing Focus Area periods allow admins to determine how often to survey based on the needs of their organization, such as quarterly or by fiscal year. From the Configuration page, users with permissions will see a Focus Areas section with an option for managing Focus Area periods. 
 
