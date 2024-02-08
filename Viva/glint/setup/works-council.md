@@ -43,7 +43,7 @@ Tip #5: **Find out what approvals are needed, by when, and by whom.**  Sometimes
 
 These are commonly asked questions from Works Councils. 
 
-Question #1: **Do you and your third-party providers demonstrate compliance with GDPR and local implementing law?** Explain the overarching [data security and privacy strategy[(../../viva/glint/setup/add-privacy-policy).
+Question #1: **Do you and your third-party providers demonstrate compliance with GDPR and local implementing law?** Explain the overarching [data security and privacy strategy](../../viva/glint/setup/add-privacy-policy).
 
 Question #2: **How do you and your third-party providers protect your data?** Ensure the confidentiality, availability and security of your data. 
 
