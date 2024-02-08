@@ -39,7 +39,7 @@ From the admin dashboard, follow this procedure:
 1. In the left-most column of the *Reports* page, select **Focus Areas**.  
 1. Select the **Focus Area Overview** card.
 
-:::image type="content" source="../../media/glint/reports/focus-area-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
+:::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
 
 ## How leaders can use this report 
 
