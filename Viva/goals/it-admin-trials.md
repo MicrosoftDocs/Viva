@@ -1,5 +1,5 @@
 ---
-title: IT admin-led trials
+title: Use an IT admin-led trial to try out the full version of Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -19,7 +19,7 @@ search.appverid:
 description: "Learn how to start a trial with Viva Goals as an admin."
 ---
 
-# IT admin-led trials
+# Use an IT admin-led trial to try out the full version of Viva Goals
 
 This article describes how to set up and run an IT Admin-led trial pilot program to deploy Viva Goals to your organization.  
 
