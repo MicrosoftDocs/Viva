@@ -41,9 +41,7 @@ Analytics data is refreshed every 24 hours. If you don’t see changes reflected
 
 ## Manage analytics
 
-Only users assigned the Network admin role can turn analytics features on or off.  
-
-Follow these steps to enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center.
+Only users assigned the Network admin role can turn analytics features on or off. Follow these steps to enable or disable metrics from the **Manage analytics** interface of the Viva Engage admin center.
 
 1. From [Viva Engage on the web](https://engage.cloud.microsoft/main/admin), go to the gear icon in the top navigation menu and select **Admin center**. From the Viva Engage Teams app, select the ellipses button from the top navigation menu, and then select **Admin**.
 
