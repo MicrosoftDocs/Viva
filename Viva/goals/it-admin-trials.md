@@ -64,7 +64,7 @@ When you initiate a trial, you need to:
 
 The trial period should be used to evaluate the following components of Viva Goals: 
 
-- The Objective and Key Results capabilities used to set goals, align teams and track progress  
+- The Objective and Key Results capabilities used to set goals, align teams, and track progress  
 - The ability of Viva Goals to work within the flow of work, including integrations into [Microsoft Teams](ms-teams-integration.md) and [other Microsoft or partner solution integrations](integrations-overview.md)
 
 For more adoption and deployment resources, visit our Adoption page at [Viva Goals – Microsoft Adoption](https://adoption.microsoft.com/en-us/viva/goals/).  
@@ -80,7 +80,7 @@ To ensure continuity of service, you must purchase the required number of licens
 If you don't purchase licenses following the trial: 
 
 - Users will no longer be able to access Goals  
-- The Organization Owner, Organization Admin or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
+- The Organization Owner, Organization Admin, or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
 - Orgs whose Org Owners are trial users will be deactivated after the trials expire and the orgs are deleted in 30 days. 
 
 Give us feedback about your trial experience! Tell us what you think in the feedback below.
