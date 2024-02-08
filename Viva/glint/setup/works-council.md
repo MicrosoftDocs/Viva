@@ -57,7 +57,7 @@ Question #5: **What system audits and certifications do you and your third-party
 
 When it comes to Works Councils, every organization has a unique situation. Prepare to set yourself up for the best possible outcome—and Viva Glint can help you. 
 
-Fact #1: **Viva Glint’s platform is designed to demonstrate compliance with [GDPR](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-Office365) and local implementing law.** Viva Glint operates fully within all local, national and international laws. 
+Fact #1: **Viva Glint’s platform is designed to demonstrate compliance with [GDPR](../../compliance/regulatory/gdpr-dsr-Office365) and local implementing law.** Viva Glint operates fully within all local, national and international laws. 
 
 Fact #2: **Viva Glint gives employees a voice.** Align with your Works Council’s purpose to represent employees and look out for their best interests. 
 
