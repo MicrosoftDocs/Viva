@@ -80,7 +80,7 @@ Use the **Export** menu to chose your export option.
 ### Exporting data from the admin dashboard 
 
 1. In the Action Taking section, select **All Action Items Report**.
-1. The report automatically generates as a *.csv* file.
+1. The report automatically generates as a .csv file.
 
 :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
 
