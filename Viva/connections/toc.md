@@ -21,13 +21,13 @@ ms.collection:
 
 ## [Microsoft Viva privacy, security, and compliance]()
 
-### [Overview](/viva/microsoft-viva-security.md)
+### [Overview](viva/microsoft-viva-security.md)
 
-### [Privacy in Microsoft Viva](/viva/viva-privacy.md)
+### [Privacy in Microsoft Viva](viva/viva-privacy.md)
 
-### [Security in Microsoft Viva](/viva/viva-security.md)
+### [Security in Microsoft Viva](viva/viva-security.md)
 
-### [Compliance in Microsoft Viva](/viva/viva-compliance.md)
+### [Compliance in Microsoft Viva](viva/viva-compliance.md)
 
 
 ## [Administration]()
