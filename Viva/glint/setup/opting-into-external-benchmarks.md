@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2024
+ms.date: 02/08/2024
 ---
 
 # Opting into external benchmarks
@@ -54,7 +54,7 @@ After the consent toggle is changed to **On**, admins can select one or more ext
 :::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned On.":::
 
 >[!IMPORTANT]
->The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey conent - including data collected through your use of Viva Gint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customesrs, including your organization. We will not identify your organization or reveal the content of survey coments in these benchmarks."
+>The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content - including data collected through your use of Microsoft Viva Gint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization." 
 
 
 
