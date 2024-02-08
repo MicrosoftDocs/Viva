@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/05/2024
+ms.date: 02/08/2024
 ---
 
 # Setting up a successful program with your Works Council
@@ -43,7 +43,7 @@ Tip #5: **Find out what approvals are needed, by when, and by whom.**  Sometimes
 
 These are commonly asked questions from Works Councils. 
 
-Question #1: **Do you and your third-party providers demonstrate compliance with GDPR and local implementing law?** Explain the overarching [data security and privacy strategy[(../../viva/glint/setup/add-privacy-policy).
+Question #1: **Do you and your third-party providers demonstrate compliance with GDPR and local implementing law?** Explain the overarching [data security and privacy strategy](add-privacy-policy.md).
 
 Question #2: **How do you and your third-party providers protect your data?** Ensure the confidentiality, availability and security of your data. 
 
@@ -57,7 +57,7 @@ Question #5: **What system audits and certifications do you and your third-party
 
 When it comes to Works Councils, every organization has a unique situation. Prepare to set yourself up for the best possible outcome—and Viva Glint can help you. 
 
-Fact #1: **Viva Glint’s platform is designed to demonstrate compliance with [GDPR](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-Office365) and local implementing law.** Viva Glint operates fully within all local, national and international laws. 
+Fact #1: **Viva Glint’s platform is designed to demonstrate compliance with [GDPR](/compliance/regulatory/gdpr-dsr-Office365) and local implementing law.** Viva Glint operates fully within all local, national and international laws. 
 
 Fact #2: **Viva Glint gives employees a voice.** Align with your Works Council’s purpose to represent employees and look out for their best interests. 
 
@@ -67,3 +67,5 @@ Fact #4: **Viva Glint has reached over 10 million employees around the globe.** 
 
 Fact #5: **Viva Glint wants to help make the program a success as much as your Works Council does.** Our mission is achieved when we help our customers establish a positive relationship with their Works Council. 
 
+>[!TIP]
+>[Get Microsoft's tips for partnering with your works councils](https://www.microsoft.com/insidetrack/blog/get-microsofts-tips-for-partnering-with-your-works-councils/)

@@ -120,9 +120,9 @@ The actions available to the corporate communicator, Engage (Yammer) admin, and 
 
 |Permissions for the corporate communicator role, Engage admin role, and Microsoft 365 Global administrator role |Microsoft 365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------------|:-:|:-:|
-|**Identify leaders**: <br> Manages their audience and delegates | |✓|
+|**Identify leaders**: <br> Defines leaders, manages their audiences and delegates | |✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns via**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
+|**Manage campaigns**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns; removes posts as needed | |✓|
 |**View campaign analytics**| |✓|
 
 ## Community admin
