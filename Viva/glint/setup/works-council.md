@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/05/2024
+ms.date: 02/08/2024
 ---
 
 # Setting up a successful program with your Works Council
@@ -67,3 +67,5 @@ Fact #4: **Viva Glint has reached over 10 million employees around the globe.** 
 
 Fact #5: **Viva Glint wants to help make the program a success as much as your Works Council does.** Our mission is achieved when we help our customers establish a positive relationship with their Works Council. 
 
+>[!TIP]
+>[Get Microsoft's tips for partnering with your works councils](https://www.microsoft.com/insidetrack/blog/get-microsofts-tips-for-partnering-with-your-works-councils/)
