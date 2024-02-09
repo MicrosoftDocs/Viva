@@ -71,7 +71,7 @@ You can export Focus Area data from two different paths:
 
 ### Export data from the Focus Area Overview report 
 
-Use the **Export** menu to chose your export option. 
+Use the **Export** menu to choose your export option. 
 - Export Focus Areas Usage to Spreadsheet, or
 - Export All Action Items to Spreadsheet.
 
@@ -88,7 +88,7 @@ Use the **Export** menu to chose your export option.
 ### What will the Focus Area report shows? 
 
 - Employee email 
-- Employee rirst and last name 
+- Employee first and last name 
 - Employee Focus Area 
 - Employee goal period 
 - Focus Area windows and due dates 
