@@ -19,6 +19,17 @@ ms.collection:
 #### [Launch and maintain](launch-viva-connections.md)
 
 
+## [Microsoft Viva privacy, security, and compliance]()
+
+### [Overview](../microsoft-viva-security.md)
+
+### [Privacy in Microsoft Viva](../viva-privacy.md)
+
+### [Security in Microsoft Viva](../viva-security.md)
+
+### [Compliance in Microsoft Viva](../viva-compliance.md)
+
+
 ## [Administration]()
 
 ### [Edit the desktop experience](edit-viva-home.md)
