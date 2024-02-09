@@ -29,7 +29,7 @@ Some learning sources are enabled by default and available without a Viva Suite 
 - Microsoft Learn
 - Microsoft 365 Training
 
-Third-party content sources aren't enabled by default. To enable these sources, you'll need to [add them in the Viva Learning Admin tab](/viva/learning/use-tabs.md) and follow the specific instructions shown in the following table.
+Third-party content sources aren't enabled by default. To enable these sources, you'll need to [add them in the Viva Learning Admin tab](/viva/learning/use-tabs) and follow the specific instructions shown in the following table.
 
 > [!NOTE]
 > You'll need a Viva Learning or Viva Suite license to access this feature. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
