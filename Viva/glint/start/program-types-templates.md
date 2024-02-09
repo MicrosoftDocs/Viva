@@ -3,7 +3,7 @@ title: Viva Glint program types and associated templates
 description: Viva Glint offers Engagement, special topic, Employee Lifecycle, and 360 feedback programs to surface insights and actions to improve businesses. 
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: elizapo
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: organizational survey, business unit survey, recurring survey, engagement survey, quarterly engagement, diversity, inclusion and belonging survey, culture survey, manager effectiveness survey, patient safety survey, team effectiveness survey, ad hoc surveys, always on feedback, employee lifecycle, lifecycle surveys, exit survey, onboarding survey, distress survey, survey frequency
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2024
+ms.date: 02/08/2024
 ---
 
 # Viva Glint program types and associated templates
@@ -32,11 +32,10 @@ Our People Science team continually updates survey items and develops templates 
 
 Within our survey programs, there are two overarching types to consider implementing:
 
-### Organizational surveys 
-Often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence
-
-### Business unit survey
-Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit
+|Survey type|Description|
+|-----------|-----------|
+|Organizational survey| Often administered by a global HR (Human Resources) team and sent to all employees on a recurring cadence|
+|Business unit survey|Often administered by a core business team, HR team, or a local business leader with the goal of obtaining more specific information for a particular business unit|
 
 ## Survey frequency 
 
