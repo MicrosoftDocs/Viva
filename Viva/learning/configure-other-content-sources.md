@@ -53,7 +53,7 @@ Third-party content sources aren't enabled by default. To enable these sources, 
  
 
 
-Refer to the details mentioned in [Manage providers in Viva Learning](/viva/learning/use-tabs.md) to configure any provider in Viva Learning Admin tab. 
+Refer to the details mentioned in [Manage providers in Viva Learning](/viva/learning/use-tabs) to configure any provider in Viva Learning Admin tab. 
 
 > [!NOTE]
 > Available content providers are subject to change. Depending on your organization, you may have access to more content providers than are listed here.
