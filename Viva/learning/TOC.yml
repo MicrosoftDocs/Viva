@@ -57,9 +57,11 @@
             - name: Udemy
               href: configure-udemy-content-source.md
         - name: LinkedIn Learning
-          href: linkedin-learning-free-courses.md
-        - name: LinkedIn Learning Seamless Login
-          href: linkedin-seamless.md
+          items:      
+          - name: LinkedIn Learning
+            href: linkedin-learning-free-courses.md
+          - name: LinkedIn Learning seamless login
+            href: linkedin-seamless.md
     - name: Manage your content 
       items: 
         - name: Manage Catalog Access 
