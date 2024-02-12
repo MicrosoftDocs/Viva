@@ -15,11 +15,11 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high 
-ms.date: 02/06/2024
+ms.date: 02/12/2024
 ---
 
 # Viva Glint learning paths and modules
-Discover the power of Microsoft Viva Glint with step-by-step guidance. [Recommended trainings for admins and managers using Viva Glint are hosted within Microsoft Learn, on the Training tab](/training/browse/?terms=Viva%20Glint).
+Discover the power of Microsoft Viva Glint with step-by-step guidance. [Recommended trainings for admins and managers using Viva Glint are hosted within Microsoft Learn](/training/browse/?terms=Viva%20Glint).
 
 Viva Glint learning paths and the modules contained within them have been carefully created by our Subject Matter Experts to provide a thorough self-paced and self-teachable learning experience. Learning paths are comprised of building blocks, referred to as modules. All trainings are recommended prior to setting up and launching your first Viva Glint program.
 
