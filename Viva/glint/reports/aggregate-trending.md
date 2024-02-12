@@ -41,9 +41,9 @@ Aggregate trending supplies historical data over time. There's a trend point, wh
 Why not to use aggregate groupings in surveys: 
 
 - Surveying more frequently with fewer individual questions produce more useful, focused results. 
-- Single-item measures are better than multiple-item measures when it comes to utility and reliability. They can predict future behavioral outcomes, and they can do it consistently over time. 
-- A multiple-question group (aggregate) may limit the intervention opportunities for a single item within that group. That one item can become lost inside the group of items. 
-- Action should only be taken at the single item level. Focusing managers on aggregate scores doesn’t help enable action. 
+- Measuring single items are better than multiple-item measures when it comes to utility and reliability. They can predict future behavioral outcomes, and they can do it consistently over time. 
+- Grouping multiple items (an aggregate) may limit the intervention opportunities for a single item within that group. That one item can become lost inside the group of items. 
+- Action taking should only happen at the single item level. Focusing managers on aggregate scores doesn’t help enable action. 
 
 >[!CAUTION]
 > Trend is considered unreliable when it is not measuring “apples to apples” - when there are differences in the items that appear in an aggregate between the new cycle and the same aggregate in the previous cycle. Trend will be shown when at least one item is identical in the same aggregate in two cycles, but unless all items are identical, the aggregate trend is not measuring a consistent group of items and is not as reliable as single item trend data.
