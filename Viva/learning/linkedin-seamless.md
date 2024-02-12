@@ -1,5 +1,5 @@
 ---
-title: LinkedIn Learning eamless Login
+title: LinkedIn Learning seamless login
 ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
@@ -15,7 +15,7 @@ ms.collection:
   - m365initiative-viva-learning
   - Tier1
 localization_priority: high
-description: See what LinkedIn Learning courses are available on Viva Learning without a premium LinkedIn subscription.
+description: Learn how to enable seamless login in LinkedIn Learning.
 ---
 
 
@@ -40,7 +40,7 @@ To enable seamless login, admins can set up the following configurations:
 ![Permission requested window that wants to sign into the LinkedIn Learning Viva Connector](../media/learning/linkedin-learning-seamless-3-permission-requested.png)
 
   > [!IMPORTANT]
-  > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
+  > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
 
 4. Integrate with Viva Learning 
     1. Get the single sign-on WebURL from the LinkedIn Learning Admin page.  
