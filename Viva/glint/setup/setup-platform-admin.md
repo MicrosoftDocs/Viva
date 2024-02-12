@@ -68,6 +68,6 @@ Use these example email templates to communicate to your organization about upco
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
 - [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
-## Wha if I need help?
+## What if I need help?
 
 [Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)
