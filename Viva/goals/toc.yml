@@ -8,7 +8,7 @@ items:
   
     - name: Viva Goals trials
       items:
-      - name: Start a trial overview
+      - name: Trials overview
         href: viva-goals-trials.md
       - name: IT admin-led trials
         href: it-admin-trials.md
@@ -195,8 +195,6 @@ items:
     href: copilot-intro.md
   - name: Use Copilot in Viva Goals
     href: copilot-uses.md
-  - name: Frequently asked questions
-    href: copilot-faq.md
 
 - name: The OKR framework
   items:

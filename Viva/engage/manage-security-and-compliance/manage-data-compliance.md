@@ -11,6 +11,7 @@ ms.topic: article
 ms.localizationpriority: medium
 ms.service: viva
 ms.custom: viva-engage
+ms.collection: essentials-compliance
 search.appverid:
 - MET150
 - MOE150

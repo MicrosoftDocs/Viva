@@ -1,8 +1,7 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 07/12/2023
-title: Diversity equity and inclusion Power BI report
-description: Estimate the impact Viva Insights can make in your organization
+ms.date: 1/16/2024
+title: Growth, inclusion and engagement Power BI report
+description: Learn how to support, engage, and retain employees with the report. 
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
@@ -16,30 +15,28 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Diversity, equity and inclusion report
+# Growth, inclusion and engagement report
 
-*Applies to: private preview customers only*
-
-The **Diversity, equity and inclusion** report uses a template populated by Viva Insights data to help organizations support, engage, and retain a diverse workforce.
+The **Growth, inclusion and engagement** report uses a template populated by Viva Insights data to help organizations support, engage, and retain employees throughout the employee lifecycle.
 
 The report enables you to:
 
-* Understand what diversity looks like in the workplace and among new hires.
-* Discover if diverse employees receive enough manager coaching and visibility to leadership.
-* Learn whether diverse employees are well-represented in the most senior levels.
-* Identify if networks are set up to promote career advancement.
-* Develop potential strategies to engage diverse groups.
+* Learn about people's experiences through the employee lifecycle
+* Gain insight into the composition of senior leadership
+* Identify if networks are set up to promote career advancement
+* Uncover potential drivers of engagement
 
-You can select any type of attribute you want to analyze diversity, such as gender, ethnicity, or age. Each report page includes **recommended actions** and **metric definitions**.
+You can select any type of attribute you want to analyze different employee groups. Each report page includes **recommended actions** and **metric definitions**.
 
-To populate the report in Power BI, you'll need to set up and successfully run the predefined **Diversity, equity and inclusion** query in Viva Insights.
+To populate the report in Power BI, you'll need to set up and successfully run the predefined **Growth, inclusion and engagement** query in Viva Insights.
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
 > [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGVhYWUxMDQtOWE1Yi00OTkyLWJhNzMtMGY2ZjliZjA4ZTcwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9" frameborder="0" allowFullScreen="true]
 
 [!INCLUDE [Prerequisites](includes/prerequisites.md)]
-* Confirm that your organizational data includes **Organization** and **HireDate**, as well as at least one attribute that represents whether an employee belongs to a diverse category.
+* Confirm that your organizational data includes **Organization** and **HireDate**.
+* Confirm that your organizational data includes **LevelDesignation**. This attribute is required to load the “Promote career advancement” page. If this attribute is missing, you can still run the query, but this page will be empty.
 
 
 ## Report setup
@@ -47,7 +44,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 ### Run query
 
 1. In the Viva Insights analyst experience, select **Analysis**.
-2. Under **Power BI templates**, navigate to **Diversity, equity and inclusion**  and select **Start analysis**. To get more information about the Diversity, equity and inclusion template before running your analysis, select **Learn more**.
+2. Under **Power BI templates**, navigate to **Growth, inclusion and engagement** and select **Start analysis**. To get more information about the Growth, inclusion and engagement template before running your analysis, select **Learn more**.
 
  3. Under **Query setup**:
     
@@ -73,7 +70,7 @@ To populate the report in Power BI, you'll need to set up and successfully run t
     > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute. 
     >
     > Learn more about attributes and data quality in [Data quality in the analyst experience](../../analyst/data-quality-analyst-experience.md).
- 1. Under **Select which diversity attributes you want to include in the query**, add at least one and up to five others that represent diverse categories of employees.
+ 1. Under **Select which spotlight attributes you want to include in the query**, add at least one and up to five attributes to use as a legend for insights in the report. You’ll also be able to focus on a specific group of employees in the report. Insights for this group will be highlighted.
  1. Under **Select an attribute that indicates the employee’s engagement score**, you can optionally select an attribute that represents how engaged employees are. 
 1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
  1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
@@ -95,57 +92,52 @@ To populate the report in Power BI, you'll need to set up and successfully run t
 
 ## Report settings
 
-After the Diversity, equity and inclusion report is set up and populated with Viva Insights data in Power BI, use the settings listed below.
+After the Growth, inclusion and engagement report is set up and populated with Viva Insights data in Power BI, use the settings listed below.
 
 |Setting| Function|
 |-----|---------|
-|**Default diversity attribute**|Sets the diversity area to concentrate on. For example, if you selected both “Gender” and “Ethnicity” as diversity attributes during query setup, you can select “Gender” as the category to analyze in the report. You can change this setting at any time.|
-|**Focus**|Sets the focus area for the diversity attribute above. For example, if you selected “Gender” as the default diversity attribute, you can select “Women” to see specific insights about women in the organization.|
-|**Favorable engagement attribute**|Identifies a particular engagement attribute as favorable. If you included an attribute that represents employee engagement results, you can select one or more values that represent “favorably engaged” employees. This affects how results are displayed on the Boost engagement page.|
+|**Spotlight attribute**|Sets the employee attribute to concentrate on. The spotlight attribute will be used as the legend for insights in the report. The spotlight attributes you can choose depend on the attributes you selected when setting up the query in the analyst workbench. You can change this setting at any time. |
+|**Focus key insights on**|Sets the group of employees you want to focus on. For example, if you selected "Generation" as the default spotlight attribute, you can select "Millennials" to see specific insights about employees tagged as Millennials in the organization. |
+|**Favorable engagement score(s)**|Identifies a particular engagement score value as favorable. If you included an attribute that represents employee engagement results, you can select one or more values that represent “favorably engaged” employees. This affects how results are displayed on the Boost engagement page.|
 
-:::image type="content" source="../../images/analyst-pbi-dei-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
+:::image type="content" source="../../images/analyst-gie-default-attributes.png" alt-text="Screenshot that shows selecting the default attributes for the report":::
 
 
 
 ## About the report
 
-The Diversity, equity and inclusion report includes several report pages, outlined below, to help you find out whether diverse categories of employees in your organization have a different experience than other employees, and identify actions you might take in response. 
+The Growth, inclusion and engagement report includes several report pages, outlined below, to help you explore how the experience of various categories of employees differs, and identify actions you might take in response.
 
-Except for the first two pages, each report page follows a similar format: an overall result for the diverse group in focus, and then a breakdown of that result by the organizational attribute selected.  You can also see how the result has trended over time, or select **Show suggestions**, where you can access additional details about suggested actions. 
+Except for the first two pages, each report page follows a similar format: an overall result for the employee group in focus, and then a breakdown of that result by the organizational attribute selected.  You can also see how the result has trended over time, or select **Show suggestions**, where you can access additional details about suggested actions. 
 
 On some pages, you can select **View multiple attributes** under a breakdown of the metric by organizational attribute. This allows you to select two attributes and view the results across the attributes. 
 
-:::image type="content" source="../../images/analyst-pbi-dei-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
+:::image type="content" source="../../images/analyst-gie-distribution.png" alt-text="Screenshot that shows a sample distribution of diverse employee groups.":::
 
 
 #### Overview
 
 Get a high-level overview of the five opportunities with a highlighted insight for each.
 
-
-#### Weekly and monthly results
-
-Choose to review the highlights on a weekly or monthly basis. If you choose weekly, the result represents the most recent week of data, and the change represents how it has shifted from the prior week. If you choose monthly, the result represents the most recent month of data, and the change represents how it has shifted from the prior month. 
-
 #### Attract talent
 
-Discover how diverse employees are represented among new hires and whether it differs from their representation among tenured employees. When a diverse group is more represented in new hires than tenured employees, the page might indicate success in finding diverse candidates. 
+Discover which attributes the new talent pool brings compared to the more tenured workforce. If your goal, for example, is to bolster the representation of a particular group of employees, you can compare the composition of new hires to tenured employees.
 
 #### Onboard new hires
 
-Learn how quickly diverse hires are integrating into the company and whether they are getting the manager support they need. Helping diverse new hires engage with their managers and develop their internal network in the first months in a new position can set them up for long-term success. 
+Learn how quickly groups of new hires are integrating into the company and whether they are getting the manager support they need. Helping new hires engage with their managers and develop their internal network in the first months in a new position can set them up for long-term success. 
 
 ### Develop and grow
 
-Understand whether new hires receive sufficient time in one-on-ones with their direct manager.​ Employees who have regular one-on-ones with their managers are three times more likely to be engaged as employees who don’t, and manager coaching helps support career development and skill growth.​ 
+Understand whether new hires receive sufficient time in one-on-ones with their direct manager and visibility to leadership.​ Employees who have regular one-on-ones with their managers are three times more likely to be engaged as employees who don’t, and manager coaching helps support career development and skill growth.​ 
 
 #### Promote career advancement
 
-Explore whether diverse employees are well-represented in the most senior levels of the organization. Examining their access to large and diverse internal networks can indicate whether their networks can help advance their careers through new opportunities. 
+Explore the composition of senior leadership and access to new connections across the organization. Examining access to large and diverse internal network connections can indicate whether employee networks can help advance their careers through new opportunities.
 
 #### Boost engagement
 
-Analyze the work patterns that support engagement for diverse employees. Organizations with employees who report high levels of engagement also see greater retention.
+Analyze the work patterns that support engagement for different groups of employees. Organizations with employees who report high levels of engagement also see greater retention.
 
 #### Glossary
 
