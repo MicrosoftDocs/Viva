@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Viva glint
+keywords: Viva support, Viva Glint video, Viva Glint platform setup
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 02/12/2024
 ---
 
 # Set up your platform as a Viva Glint admin
@@ -24,9 +24,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-Ready to get started? 
-
-## Spend short of 10 minutes watching this video about all the goodness that Viva Glint offers. 
+## Take 10 minutes to learn about all the goodness that Viva Glint offers 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
 
@@ -64,12 +62,12 @@ Ready to get started?
 
 ## Prepare your Viva Glint communications plan
 
-The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
+Use these example email templates to communicate to your organization about upcoming Viva Glint programs and steps users can take to gain the most from the experience. There are templates for all roles within your business.
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
 - [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
-## What do I do if I need help?
+## What if I need help?
 
 [Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)
