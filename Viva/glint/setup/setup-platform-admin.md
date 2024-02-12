@@ -24,7 +24,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-## Take ten minutes to learn about all the goodness that Viva Glint offers 
+## Take 10 minutes to learn about all the goodness that Viva Glint offers 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
 
@@ -62,7 +62,7 @@ Great teams build great cultures, and great cultures fuel great companies.
 
 ## Prepare your Viva Glint communications plan
 
-Use these example emails templates to communicate to your organization about upcoming Viva Glint programs and steps users can take to gain the most from the experience. There are templates for all roles within your business.
+Use these example email templates to communicate to your organization about upcoming Viva Glint programs and steps users can take to gain the most from the experience. There are templates for all roles within your business.
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
