@@ -84,38 +84,38 @@ items:
             items: 
               - name: Set up attribute-based survey access
                 href: setup/attribute-based-survey-access.md
-          - name: Admin use Viva Glint's People feature
+          - name: Admins using Viva Glint's People feature
             href: setup/people-page.md
-            items:
-              - name: Deleting user data from Viva Glint
-                href: setup/delete-user-data.md
+            items:  
               - name: Managing external users in Viva Glint
                 href: setup/add-external-user.md
               - name: Exporting User Roles 
-                href: setup/export-user-roles.md  
-          - name: Set up Distribution Lists in Viva Glint
+                href: setup/export-user-roles.md
+              - name: Deleting user data from Viva Glint
+                href: setup/delete-user-data.md
+          - name: Admins setting up Distribution Lists in Viva Glint
             href: setup/set-up-distribution-lists.md
             items:
               - name: Import members into a Distribution List and use the blended membership functionality
                 href: setup/import-members-distribution-lists.md
               - name: Export a Viva Glint Distribution List
                 href: setup/export-distribution-lists.md
-          - name: Set up Viva Glint User Roles
+          - name: Admins setting up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-          - name: Use the Viva Glint Question Library
+          - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
             items:
               - name: Question mapping
                 href: setup/question-mapping.md
-          - name: Communicate with Viva Glint Nudges
+          - name: Communicating with Viva Glint Nudges
             href: communicate/communicate-with-nudges.md
-          - name: Customize action plans in Viva Glint
+          - name: Customizing action plans in Viva Glint
             href: setup/customize-action-plans.md
-          - name: Manage language translations in Viva Glint programs
+          - name: Managing language translations in Viva Glint programs
             href: setup/language-translations.md
-          - name: Submit product feedback to Viva Glint
+          - name: Submitting product feedback to Viva Glint
             href: setup/glint-product-feedback.md
-          - name: Understand Viva Glint Advanced Configuration
+          - name: Understanding Viva Glint Advanced Configuration
             href: setup/understand-advanced-configuration.md
             items: 
               - name: Import historical response data in Viva Glint
