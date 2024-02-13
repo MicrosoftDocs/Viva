@@ -140,6 +140,8 @@ items:
       - name: Use Viva Glint Best Practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
+          - name: Plan ahead for monthly releases and shutdowns
+            href: setup/monthly-release-dates.md
           - name: Understand Viva Glint programs and cycles
             href: setup/program-cycle-edits.md
           - name: Use Viva Glint benchmarks
