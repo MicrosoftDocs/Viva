@@ -1,6 +1,6 @@
 ---
 ms.date: 2/12/2024
-title: "Benchmarking analytics in Viva Engage"
+title: "Benchmarks in Viva Engage analytics"
 description: "Benchmarks reveal how your Viva Engage metrics perform compared to those of other organizations."
 ms.reviewer: ethli
 ms.author: v-bvrana
