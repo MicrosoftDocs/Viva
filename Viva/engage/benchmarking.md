@@ -2,6 +2,7 @@
 ms.date: 2/12/2024
 title: "Benchmarks in Viva Engage analytics"
 description: "Benchmarks reveal how your Viva Engage metrics perform compared to those of other organizations."
+ROBOTS: NOINDEX, NOFOLLOW 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
