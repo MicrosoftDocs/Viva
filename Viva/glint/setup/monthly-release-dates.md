@@ -1,5 +1,5 @@
 ---
-title: Viva Glint scheduled monthlly platform releases and shutdowns
+title: Plan for scheduled monthly platform releases and shutdowns
 description: Viva Glint monthly “release notes” are sent to customers and provide details about what's upcoming for the Viva Glint platform. Releases include scheduled downtime for regular platform maintenance. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/13/2024
 ---
 
-## Viva Glint scheduled monthlly platform releases and shutdowns for 2024
+# Plan for Viva Glint scheduled monthly platform releases and shutdowns
 
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Monthly “release notes” to all customers and provide details about what's upcoming to the Viva Glint platform. Releases include scheduled downtime for the platform.  
 
