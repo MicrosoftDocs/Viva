@@ -1,5 +1,5 @@
 ---
-ms.date: 02/012/2024
+ms.date: 2/12/2024
 title: "Benchmarking analytics in Viva Engage"
 description: "Viva Engage analytics provides benchmark percentiles to help you determine engagement levels in your audiences and organization."
 ms.reviewer: ethli
