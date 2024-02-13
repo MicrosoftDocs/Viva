@@ -38,7 +38,7 @@ Answering the following sets of questions ensures that you're prepared to launch
 - What is the current focus area for your business?
 - What engagement areas have you been focusing on? How do you plan to check in on these areas?
 - If this survey isn't your first survey:
-  - Have changes or shifts in your business occured since the last survey?
+  - Have changes or shifts in your business occurred since the last survey?
   - Have the goals of your program changed?
   - Are there survey items that you'd like to rotate in or out?
 
