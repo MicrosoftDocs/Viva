@@ -161,6 +161,8 @@ items:
                     href: setup/opting-into-external-benchmarks.md
               - name: Understand Viva Glint survey access methods
                 href: setup/understand-survey-access-methods.md
+              - name: Plan for scheduled monthly platform shutdowns
+                href: setup/monthly-release-dates.md
               - name: Set up communications in user time zones
                 href: setup/time-zones.md
               - name: Recognize survey field character limits in Viva Glint programs
