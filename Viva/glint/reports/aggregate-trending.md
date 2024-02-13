@@ -52,7 +52,7 @@ Why not to use aggregate groupings in surveys:
 There's a lot to consider when comparing survey cycles with aggregate groupings.
 
 ### Use case 1
-3 items are part of the aggregate in both cycles, but because they aren't the same 3 items,* no aggregate trend forms.
+3 items are part of the aggregate in both cycles, but because they aren't the same 3 items; no aggregate trend forms.
 
 :::image type="content" source="../../media/glint/reports/aggregate-1.png" alt-text="Cycle A and Cycle B don't share the same three items.":::
 
@@ -70,7 +70,7 @@ A new item is added to Cycle B so no aggregate trend is associated; there's no i
 
 ## Aggregate trend across 3 or more cycles
 
->[!IMPORTANT}
+>[!IMPORTANT]
 >Trend always looks at the previous cycle. 
 
 ### Use case 4 
