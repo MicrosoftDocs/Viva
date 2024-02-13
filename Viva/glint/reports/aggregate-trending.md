@@ -54,19 +54,19 @@ There's a lot to consider when comparing survey cycles with aggregate groupings.
 ### Use case 1
 3 items are part of the aggregate in both cycles, but because they aren't the same 3 items; no aggregate trend forms.
 
-:::image type="content" source="../../media/glint/reports/aggregate-1.png" alt-text="Cycle A and Cycle B don't share the same three items.":::
+:::image type="content" source="../../media/glint/reports/aggregate-1.png" alt-text="Chart showing that Cycle A and Cycle B don't share the same three items.":::
 
 ### Use case 2 
 One item is removed from the aggregate in the second cycle.
 Cycle A contains 3 items, but Cycle B contains only 2 items. Aggregate Trend doesn’t exist because the aggregate isn't identical; there's no aggregate history. Individual items show trend but they don't reflect upon the aggregate as a whole unit.
 
-:::image type="content" source="../../media/glint/reports/aggregate-2.png" alt-text="The 2 cycles share no history because the aggregate trend isn't identical.":::
+:::image type="content" source="../../media/glint/reports/aggregate-2.png" alt-text="Chart showing the 2 cycles share no history because the aggregate trend isn't identical.":::
 
 ### Use case 3 
 A new question is added to the aggregate grouping.
 A new item is added to Cycle B so no aggregate trend is associated; there's no identical history. 
 
-:::image type="content" source="../../media/glint/reports/aggregate-3.png" alt-text="No aggregate history is associated between the 2 cycles.":::
+:::image type="content" source="../../media/glint/reports/aggregate-3.png" alt-text="Chart showing that no aggregate history is associated between the 2 cycles.":::
 
 ## Aggregate trend across 3 or more cycles
 
@@ -75,8 +75,8 @@ A new item is added to Cycle B so no aggregate trend is associated; there's no i
 
 ### Use case 4 
 
-:::image type="content" source="../../media/glint/reports/aggregate-4.png" alt-text="Only the last 2 cycles are considered for aggregate trending.":::
+:::image type="content" source="../../media/glint/reports/aggregate-4.png" alt-text="Chart showing only the last 2 cycles are considered for aggregate trending.":::
 
 ### Use case 5
 
-:::image type="content" source="../../media/glint/reports/aggregate-5.png" alt-text="Aggregate trend becomes more complicated across multiple cycles.":::
+:::image type="content" source="../../media/glint/reports/aggregate-5.png" alt-text="Chart showing aggregate trend becomes more complicated across multiple cycles.":::
