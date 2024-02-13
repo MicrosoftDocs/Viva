@@ -1,5 +1,5 @@
 ---
-title: Four stages of Viva Glint programs
+title: Four stages of a Viva Glint programs
 description: A strong feedback program incorporates four essential steps. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,40 +15,40 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 12/19/2023
+ms.date: 02/13/2024
 ---
 
-# Four stages of Viva Glint programs
+# Four stages of a Viva Glint program
 
-The article walks you through the four stages of Microsoft Viva Glint program to help you launch the right feedback program to the right people in your organization.
+The article walks you through the four stages of a Microsoft Viva Glint program. The four stages help you launch the right feedback program to the right people in your organization.
 
-You can create a strong feedback program by incorporating these four phases:
+Create a strong feedback program by incorporating these four phases:
 
-1. **Goals** - Ask questions of your organization to determine how you use feedback to support goals.
-2. **Launch** - Design your program, set up your survey, set your program live.
-3. **INsight** - Gather and analyze feedback using reporting results.
-4. **Transform**- Implement small, meaningful changes across your company.
+- **G**  - **Goals** - Ask questions of your organization to determine how you use feedback to support goals.
+- **L**  - **Launch** - Design your program, set up your survey, and set your program live.
+- **IN** - **INsight** - Gather and analyze feedback using reporting results.
+- **T**  - **Transform**- Implement small, meaningful changes across your company.
 
-## Questions to consider for choosing your Viva Glint programs
+## Questions to consider during Viva Glint program phases
 
-Answering the following set of questions will ensure that you're prepared to launch the right survey, to the right people, and that your resulting action-taking is insightful and sustainable. Connect with your leaders for the most effective insights.
+Answering the following sets of questions ensures that you're prepared to launch the right survey, to the right people, and that your resulting action-taking is insightful and sustainable. Connect with your leaders for the most effective insights.
 
 ### Goals phase
 
 - What is the current focus area for your business?
 - What engagement areas have you been focusing on? How do you plan to check in on these areas?
-- If this survey isn't your first, then:
-  - Have there been any changes or shifts in your business since the last survey?
+- If this survey isn't your first:
+  - Have there been changes or shifts in your business since the last survey?
   - Have the goals of your program changed?
-  - Are there survey items that you want to rotate in or out?
+  - Are there survey items that you'd like to rotate in or out?
 
 ### Launch phase
 
 - When are you going to launch your next survey? What is your planned cadence?
 - Are there other feedback programs running simultaneously that may impact this survey?
 - Do other surveys impact the timing for this launch?
-- If this isn't your first survey, how did your communications approach work for the first survey? Does anything need to be modified?
-- How can we lean on champions to help support our survey efforts?
+- If this isn't your first survey, how did your communications approach work before? Does anything need to be modified?
+- How can you lean on champions to help support our survey efforts?
 
 ### INsight phase
 
