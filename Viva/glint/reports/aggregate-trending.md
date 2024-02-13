@@ -75,7 +75,7 @@ A new item is added to Cycle B so no aggregate trend is associated; there is no 
 
 ### Use case 4 
 
-:::image type="content" source="../../media/glint/reports/aggregate 4.png" alt-text="Only the last 2 cycles are considered for aggregate trending.":::
+:::image type="content" source="../../media/glint/reports/aggregate-4.png" alt-text="Only the last 2 cycles are considered for aggregate trending.":::
 
 ### Use case 5
 
