@@ -102,6 +102,8 @@ items:
                 href: setup/export-distribution-lists.md
           - name: Admins setting up Viva Glint User Roles
             href: setup/set-up-user-roles.md
+          - name: Focus Area periods
+            href: setup/focus-area-period-feature.md
           - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
             items:
@@ -304,8 +306,6 @@ items:
                       href: reports/team-conversations-resource-guidance.md
   - name: Communicate and roll out Viva Glint programs
     items:
-      - name: Communicate with Viva Glint Nudges
-        href: communicate/communicate-with-nudges.md
       - name: Use Viva Glint email templates to share survey expectations within your
           organization
         href: communicate/email-templates-survey-expectations.md
@@ -318,6 +318,8 @@ items:
            - name: Communicate results rollout plans for Viva Glint programs using email
               templates
              href: communicate/results-rollout-templates.md
+           - name: Support participants during a live Viva Glint survey
+             href: communicate/support-survey-participants.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
