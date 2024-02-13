@@ -38,6 +38,17 @@ You can use the template as a planning tool to define permissions that your User
 >[!IMPORTANT]
 > Not all User Roles and pre-populated attributes and permissions in a template may apply to your organization. Consult your Employee Attribute File for attributes specific to your organization and make changes, as necessary.
 
+## Default User Roles
+
+The following roles are pre-configured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
+
+- Company Admin
+  - Advanced Configuration Access
+- Active Employees
+- Inactive Employees
+- Managers
+- Support Users
+
 ## Create User Roles
 
 Program admins can specify the employee population and report filters their leaders can view on their dashboard based on manager, HRBP, and executive roles. Defining roles is important for data cuts, access permissions, and program integrity.
