@@ -29,8 +29,6 @@ The dashboard covers the following categories of metrics: Readiness, adoption, i
 
 For customers who are part of the preview, the dashboard is automatically available to select users within the Viva Insights app.
 
-Additionally, the dashboard is broadly available within Power BI, and the dashboard can be installed by admins.
-
 :::image type="complex" source="images/copilot-dashboard-06.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dashboard-06.png":::
 Screenshot that shows the Copilot Dashboard.
 :::image-end:::
@@ -124,6 +122,9 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
 ## Install, share, and update the dashboard in Power BI
+
+>[!Important]
+>The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being. We recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
 
 *Applies to: Admins*
 
@@ -281,10 +282,6 @@ To protect individual privacy, you'll only see aggregated insights when there ar
 **I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
 First, check in the Microsoft 365 Admin Center that you have one of the roles listed in the Prerequisites section above. If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID. 
-
-**How do I know that I have the latest version of the template app installed in Power BI?**
-
-Microsoft may periodically release a new version of the Microsoft Copilot Dashboard in order to deliver new features or update text and visuals in the report. Microsoft will notify your organization of new version releases via the [Microsoft 365 Message center](https://admin.microsoft.com/Adminportal/Home?#/MessageCenter). In addition, the user in your organization who installed the application will receive a notification in Power BI requesting that they update to the latest version of the report. That user should follow the steps above to update to the latest version of the app.
 
 **What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
