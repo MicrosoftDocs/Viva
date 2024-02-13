@@ -24,7 +24,7 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 
 Planned release dates are provided in the table below. The release schedule is subject to change and is updated, as appropriate. 
 
-|Release number|Planned date for new feeature releases and enhancements|
+|Release number|Planned date for new feature releases and enhancements|
 |--------------|-------------------------------------------------------|
 |Release 69|March 9, 2024|
 |Release 70|April 6, 2024|
