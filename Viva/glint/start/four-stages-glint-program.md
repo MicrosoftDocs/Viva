@@ -1,5 +1,5 @@
 ---
-title: Four stages of a Viva Glint programs
+title: Four stages of a Viva Glint program
 description: A strong feedback program incorporates four essential steps. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -37,17 +37,17 @@ Answering the following sets of questions ensures that you're prepared to launch
 
 - What is the current focus area for your business?
 - What engagement areas have you been focusing on? How do you plan to check in on these areas?
-- If this survey isn't your first:
-  - Have there been changes or shifts in your business since the last survey?
+- If this survey isn't your first survey:
+  - Have changes or shifts in your business occured since the last survey?
   - Have the goals of your program changed?
   - Are there survey items that you'd like to rotate in or out?
 
 ### Launch phase
 
 - When are you going to launch your next survey? What is your planned cadence?
-- Are there other feedback programs running simultaneously that may impact this survey?
-- Do other surveys impact the timing for this launch?
-- If this isn't your first survey, how did your communications approach work before? Does anything need to be modified?
+- What other feedback programs might be running simultaneously that may impact this survey?
+- What other surveys might impact the timing for this launch?
+- If this survey isn't your first survey, how did your communications approach work before? Does anything need to be modified?
 - How can you lean on champions to help support our survey efforts?
 
 ### INsight phase
@@ -61,7 +61,7 @@ Answering the following sets of questions ensures that you're prepared to launch
 ### Transform phase
 
 - How are you keeping up momentum?
-- Which parts of the organization have been successful in taking action? How can everyone learn from that group?
+- Which parts of the organization are successful in taking action? How can everyone learn from that group?
 - Are leaders transparent about results and committed to action?
 - Are managers owning their data?
 - Do employees feel empowered to participate and influence change?
