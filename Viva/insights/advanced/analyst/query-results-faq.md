@@ -1,5 +1,5 @@
 ---
-ms.date: 10/26/2023
+ms.date: 02/13/2024
 title: Query results in Viva Insights FAQs
 description: Get answers to common questions about advanced insights query results
 author: zachminers
@@ -36,6 +36,8 @@ A2. The query might not have had any attendees. If no one attended a meeting, Vi
 ### Q3. Why is data about the meeting organizer missing?
 
 A3. This can happen for a few reasons:
+
+* The organizer doesn't have a license.
 
 * The organizer opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights](../../personal/use/opt-out-of-mya.md).
 * The organizer isn't part of the partition.
