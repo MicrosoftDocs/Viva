@@ -18,6 +18,7 @@ ms.collection:
 - m365solution-overview
 - highpri
 - tier1
+- essentials-security
 search.appverid:
 - MET150
 description: "Find Microsoft Viva security information."

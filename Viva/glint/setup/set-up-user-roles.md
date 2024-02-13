@@ -57,17 +57,19 @@ Program admins can specify the employee population and report filters their lead
 Select **+ New Role**. The *Role Settings* window opens.
 Enter a User Role in the **Untitle Role** name by selecting the **pencil** symbol.
 
-## Set up Role Settings 
+## View and edit Role Settings sections
 
 You can do the following from the Role Settings page:
+- Grant permissions
+- Configure report attributes
 
-:::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
+   :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
 
 ### Permissions and Access setup
 
 Select **Permissions** in the *Role Settings* section. The **Permissions and Access** page opens.
 
-:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the Permissions and Access window in User Roles.":::
+:::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
 
 **Make choices for the following sections:**
 
@@ -93,27 +95,52 @@ Select **Permissions** in the *Role Settings* section. The **Permissions and Acc
 
 #### Access Permissions
 
-:::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of the Access Permissions section in Permissions and Access.":::
+:::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 
 Select **Save Changes**.
 
-## Report Attributes
+## Report Attributes setup
+
+:::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
 
 Select **Report Attributes** in the *Role Settings* section.
 
-:::image type="content" source="../../media/glint/setup/user-roles-permissions-access.png" alt-text="Screenshot of the Permissions and Access window in User Roles.":::
+Attributes are separated into sections:
+- Standard
+- Manager Hierarchy
+- Location Hierarchy
+- Department Hierarchy
 
-Select all attributes and hierarchies that this role should be allowed to view for report filters, report sections, and comment filters. Select **Save Changes**.
+Select all attributes and hierarchies that this role should be allowed to view for 
+- Report filters
+- Report sections
+- Comment filters
+
+Select **Save Changes**.
 
 > [!TIP]
-> Since filtering through results across too many attributes can make identifying survey respondents within reports easier, we recommend giving access to only one attribute per manager role. For example, *Managers with Country Access* or *Managers with Comments*.
+> Since filtering through results across too many attributes can make identifying survey respondents within reports easier, it's best to give access to only one attribute per manager role. 
 
-## Add user to a role
+## Add or edit employees in a role
 
-1. Select **+ Search for an employee to add**.
-2. Select their name.
-3. The new user will now appear in the **All Members** section.
+Select the **Add/Edit Employees** button. The *Choose a way to add employees* dialog box opens.
 
+Add members to a User Role by choosing one of the following options:
+
+- Attribute Rules - Use rules like location or manager level to populate a User Role. This will dynamically change.
+- Import - Use a CSV or XLSX to import employees for this User Role. This will remove attribute rules from this User Role.
+
+### Attribute Rules
+
+:::image type="content" source="../../media/glint/setup/user-roles-attribute-slider.png" alt-text="Screenshot of the **Add Attribute Rules** section in Role Settings.":::
+
+### Import employees in a User Role
+
+:::image type="content" source="../../media/glint/setup/user-roles-import-dialog-box.png" alt-text="Screenshot of the Import Employees to Role dialog box in Role Settings.":::
+
+> [!TIP]
+> Switching from Attribute Rules to Import will remove attribute rules. Switching from Import to Attribute Rules will override any employees uploaded.
+   
 ## Remove a user from a User Role category
 
 1. Hover over a user's name.

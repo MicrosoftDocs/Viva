@@ -18,6 +18,8 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
+  - essentials-navigation
+  - essentials-overview
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Learning in your Microsoft 365 environment.
 ---

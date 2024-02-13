@@ -301,6 +301,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/advanced/analyst/templates/diversity-equity-inclusion.md",
+      "redirect_url": "/viva/insights/advanced/analyst/templates/growth-inclusion-engagement",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/advanced/api.md",
       "redirect_url": "/viva/insights/advanced/analyst/api",
       "redirect_document_id": false
@@ -1969,6 +1974,11 @@
       "source_path": "Viva/engage/manage-viva-engage-users/internet-explorer-11-retirement.md",
       "redirect_url":"/viva/engage/overview",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "Viva/glint/setup/import-export-user-roles.md",
+      "redirect_url":"/viva/glint/setup/export-user-roles",
+      "redirect_document_id": false
     }
   ]
 }
