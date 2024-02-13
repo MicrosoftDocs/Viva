@@ -67,7 +67,7 @@ items:
              href: setup/create-employee-attribute-template.md
            - name: Set up attributes in Viva Glint
              href: setup/send-employee-attributes.md
-           - name: Choose a data upload method
+           - name: Choose a Viva Glint data upload method
              href: setup/choose-upload-method.md
              items:
                - name: Understand Viva Glint SFTP and data automation
@@ -76,46 +76,46 @@ items:
                  href: setup/set-up-sftp.md
                - name: Upload employee data to the People page  
                  href: setup/upload-employee-attributes.md
-      - name: Manage features and settings
+      - name: Admin configuration and use of Viva Glint features
         href: setup/platform-features-settings.md
         items: 
-          - name: Admin management of General Settings feature Viva Glint
+          - name: Admin management of General Settings in Viva Glint
             href: setup/manage-general-settings.md
             items: 
               - name: Set up attribute-based survey access
                 href: setup/attribute-based-survey-access.md
-          - name: Use Viva Glint's People feature to view employee information
+          - name: Admins using Viva Glint's People feature
             href: setup/people-page.md
-            items:
-              - name: Delete user data from Viva Glint
-                href: setup/delete-user-data.md
-              - name: Manage external users in Viva Glint
+            items:  
+              - name: Managing external users in Viva Glint
                 href: setup/add-external-user.md
-              - name: Export User Roles using the People feature
-                href: setup/export-user-roles.md  
-          - name: Set up Viva Glint User Roles
-            href: setup/set-up-user-roles.md
-          - name: Set up and use Distribution lists in Viva Glint
+              - name: Exporting User Roles 
+                href: setup/export-user-roles.md
+              - name: Deleting user data from Viva Glint
+                href: setup/delete-user-data.md
+          - name: Admins setting up Distribution Lists in Viva Glint
             href: setup/set-up-distribution-lists.md
             items:
-              - name: Import members into a Viva Glint Distribution list and use the blended membership functionality
+              - name: Import members into a Distribution List and use the blended membership functionality
                 href: setup/import-members-distribution-lists.md
-              - name: Export a Viva Glint Distribution list
+              - name: Export a Viva Glint Distribution List
                 href: setup/export-distribution-lists.md
-          - name: Use the Viva Glint Question Library
+          - name: Admins setting up Viva Glint User Roles
+            href: setup/set-up-user-roles.md
+          - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
-          - name: Use Viva Glint benchmarks
-            href: setup/benchmarks.md
             items:
-              - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
-                href: setup/people-science-benchmark-philosophy.md 
-          - name: Customize action plans in Viva Glint
+              - name: Question mapping
+                href: setup/question-mapping.md
+          - name: Communicating with Viva Glint Nudges
+            href: communicate/communicate-with-nudges.md
+          - name: Customizing action plans in Viva Glint
             href: setup/customize-action-plans.md
-          - name: Manage language translations in Viva Glint programs
+          - name: Managing language translations in Viva Glint programs
             href: setup/language-translations.md
-          - name: Submit product feedback to Viva Glint
+          - name: Submitting product feedback to Viva Glint
             href: setup/glint-product-feedback.md
-          - name: Understand Viva Glint Advanced Configuration
+          - name: Understanding Viva Glint Advanced Configuration
             href: setup/understand-advanced-configuration.md
             items: 
               - name: Import historical response data in Viva Glint
@@ -142,6 +142,11 @@ items:
         items:
           - name: Understand Viva Glint programs and cycles
             href: setup/program-cycle-edits.md
+          - name: Use Viva Glint benchmarks
+            href: setup/benchmarks.md
+            items:
+              - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
+                href: setup/people-science-benchmark-philosophy.md        
           - name: Use Viva Glint's best practices to design your survey program
             href: setup/best-practice-setup-guidance.md
             items:
@@ -244,6 +249,9 @@ items:
                href: reports/act-strengths-opportunities.md
          - name: Use Viva Glint's Focus Area Overview report
            href: reports/focus-area-overview-report.md
+           items:
+             - name: Viva People Science explains action plans and focus areas
+               href: reports/people-science-explains-focus-areas.md
          - name: Use Viva Glint's Comments report
            href: reports/comments-report.md
            items:

@@ -34,9 +34,7 @@ The Program Setup page is the first configuration page within Program Summary. I
 1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
 1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson for additional setup](https://www.microsoft.com).  
 1. Confidential Responses are set to YES by default.  
-1. Enable **Allow Survey Resubmission** so your company admin will have the ability to reset a user's survey so that they may retake or edit their submission. **NO** means that this feature is disabled and the Viva Glint admin will not be able to reset surveys for survey takers.
-   > [!TIP]
-   > In order for your survey takers to reacess a survey, enable your managers with **Allow Survey Resubmission** enablement by toggling this setting to **YES**.
+1. Enable **Allow Survey Resubmission** so that participants have the ability to retake their surveys by selecting a link on the survey Thank You page. **NO** means that this feature is disabled and users will not be able to resubmit survey responses.
 
    :::image type="content" source="../../media/glint/setup/program-setup-survey-resubmit.png" alt-text="Screenshot that shows how to enable Allow Survey Resubmission so managers can reset surveys for survey takers.":::
 

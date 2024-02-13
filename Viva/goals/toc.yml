@@ -8,7 +8,7 @@ items:
   
     - name: Viva Goals trials
       items:
-      - name: Start a trial overview
+      - name: Trials overview
         href: viva-goals-trials.md
       - name: IT admin-led trials
         href: it-admin-trials.md

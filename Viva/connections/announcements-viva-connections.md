@@ -1,5 +1,5 @@
 ---
-ms.date: 02/02/2024
+ms.date: 02/08/2024
 title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -27,10 +27,11 @@ description: "Use announcements in Viva Connections"
 
 Announcements allow you to create and share time-sensitive messages in Viva Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a desktop and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 > [!NOTE]
 >
+> - Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
 > - Users will be required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
 > - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
@@ -60,27 +61,29 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 ## How announcements display in Viva Connections
 
-Announcements are viewable to users using desktop, tablet, and mobile experiences through Viva Connections.
+Announcements are viewable to users from mobile experiences through Viva Connections.
 
-- **In Teams**: Users get a Teams notification alerting them of a new announcement within Teams and on their mobile device’s lock screen when the user has enabled it.
+> [!NOTE]
+> 
+> Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png" alt-text="Screenshot of a Teams notification displayed in Microsoft Teams, and on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png":::
+- **In Teams**: Users will get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement when the user has enabled it.
 
-- **In Viva Connections**: Announcements display towards the top of the Viva Connections experience where more details can be viewed.
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png":::
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png" alt-text="Screenshot of an announcement in Viva Connections desktop view and in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png":::
+- **In Viva Connections**: Announcements will display towards the top of the Viva Connections mobile experience.
+
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 ### Teams Channel announcements displaying in Viva Connections for frontline workers
 
-Microsoft Teams Channel announcements will also display in the Viva Connections announcements banner for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
+Microsoft Teams Channel announcements notifications will also display in the Viva Connections announcements banner on mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
 
-A Teams Channel announcement is displayed in Viva Connections only if:
+A Teams Channel announcement notification is displayed in the Viva Connections mobile experience only if:
 
 - The user has been assigned a Microsoft 365 F1 or F3 license;
 - Channel mentions are enabled under the Teams Channel notification settings; and
 - The Teams channel announcement has been tagged with an @mention  and is unread.
-
-:::image type="content" source="../media/connections/announcements-viva-connections/teams-channel-announcements-flw.png" alt-text="Screenshot showing an image of a channel announcement in Microsoft Teams, and to it's right an image Viva Connections displaying a summary of the announcement with a link to the Teams channel."lightbox="../media/connections/announcements-viva-connections/teams-channel-announcements-flw.png":::
 
 > [!NOTE]
 >

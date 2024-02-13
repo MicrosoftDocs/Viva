@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/05/2024
+ms.date: 02/13/2024
 ---
 
 # Viva Glint badging
@@ -29,42 +29,41 @@ Microsoft Viva Glint badging is an exciting opportunity for Viva Glint customers
 Designed for Viva Glint admins, this badge is awarded to leaders who demonstrated their ability to design and launch Viva Glint programs, as well as understand and share Viva Glint results.
 
 - Required learning paths/modules for badge completion:
-  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)
-  - [Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)
-  - [Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)
-  - [Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)
+  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)- one module
+  - [Apply Viva Glint's modern approach to engagement for better results](/training/paths/viva-glint-engagement/)- 3 modules
+  - [Design and set up your Viva Glint program](/training/paths/viva-glint-program-design-setup/)- 4 modules
+  - [Understand and share your Viva Glint results](https://go.microsoft.com/fwlink/?linkid=2259027)- 2 modules
 
 ### Steps to earn the Microsoft Viva Glint Foundations badge
-1. At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Training form. Complete the *Training Badges* section of this form to earn your *Microsoft Viva Glint Foundations* badge.
-   > [!NOTE]
-   > If any required information is incorrect or incomplete, a badge may not be able to be issued.
-2. When finished, Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).
-1. Within one week of submitting your completion form, you receive a confirmation email from `admin@credly.com`.
-1. Follow the instructions to accept your badge.
-   > [!NOTE]
-   > You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
+
+1. **Create a ms.learn profile or sign in if you’ve already created a profile.** To create a Microsoft Learn profile, select **Sign-In** at the top, right corner of any Microsoft Learn page. Follow the prompts to move through the account authentication process.
+1. **Complete the required training modules listed above.** Be sure you are logged into your profile while completing the modules.
+1. **Complete the *Statement of Completion* form.** At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Badge: Statement of Completion form. Complete this form to earn your Microsoft Viva Glint Foundations badge.
+1. **Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).**
+1. **Within one week of submitting your completion form, you receive a confirmation email from `admin@credly.com`.**
+1. **Create a Credly account and accept your badge.** You need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://support.credly.com/hc/en-us/articles/360021222231-How-to-accept-and-manage-your-digital-badge).
 
 ## Microsoft Viva Glint Manager badge
 
 Designed for managers in your organization, this badge is awarded to Viva Glint managers who demonstrated their ability to understand and share Viva Glint results using Viva Glint’s reporting and ACT framework.
 
 - Required learning paths/modules for badge completion:
-  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)
-  - [Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)
-  - [Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)
+  - [Introduction to Microsoft Viva Glint](/training/modules/viva-glint-introduction-viva-glint/)- one module
+  - Understand and share your Viva Glint results- two modules
+    - [Navigate your Viva Glint results](/training/modules/viva-glint-navigate-share-viva-glint-results/)
+    - [Share your Viva Glint results](/training/modules/viva-glint-share-viva-glint-results/)
 
 ### Steps to earn the Microsoft Viva Glint Manager badge
 
-1. At the end of the *Navigate your Viva Glint results* module, you see a link to the Microsoft Viva Glint Training form. Complete the *Training Badges* section of this form to earn your *Microsoft Viva Glint Manager* badge.
-   > [!NOTE]
-   > If any required information is incorrect or incomplete, a badge may not be able to be issued.
-1. When finished, Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).
-1. Within one week of submitting your completion form, you receive a confirmation email from `admin@credly.com`.
-1. Follow the instructions to accept your badge.
-   > [!NOTE]
-   > You'll need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.credly.com%2Fhc%2Fen-us%2Farticles%2F360021222231-How-to-accept-and-manage-your-digital-badge&data=05%7C02%7Cjudithweiner%40microsoft.com%7Cee0417e35c7a47a407ab08dc268256cf%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638427588480631799%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=isNyBUAli3AD0kflVT3rXRo8rSyQhkplZOWfLdDzjgQ%3D&reserved=0).
+1. **Create a ms.learn profile or sign in if you’ve already created a profile.** To create a Microsoft Learn profile, select **Sign-In** at the top, right corner of any Microsoft Learn page. Follow the prompts to move through the account authentication process.
+1. **Complete the required training modules listed above.** Be sure you are logged into your profile while completing the modules.
+1. **Complete the *Statement of Completion* form.** At the end of the *Understand and share your Viva Glint results* module, you see a link to the Microsoft Viva Glint Badge: Statement of Completion form. Complete this form to earn your Microsoft Viva Glint Foundations badge.
+1. **Viva Glint verifies that all necessary modules are complete and issues a badge to your work email address (from the form).**
+1. **Within one week of submitting your completion form, you receive a confirmation email from `admin@credly.com'.**
+1. **Create a Credly account and accept your badge.** You need to create a Credly account in order to accept your badge and post to your LinkedIn profile. [Use this link for instructions on how to accept and manage your badge](https://support.credly.com/hc/en-us/articles/360021222231-How-to-accept-and-manage-your-digital-badge).
 
-   > [!IMPORTANT]
-   > Watch for announcements regarding upcoming badges in our 2024 Viva Glint newsletters.
+
+> [!IMPORTANT]
+> Watch for announcements regarding upcoming badges in our 2024 Viva Glint newsletters.
  
  
