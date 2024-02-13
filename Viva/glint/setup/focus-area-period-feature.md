@@ -33,7 +33,7 @@ Managing Focus Area periods allow admins to determine how often to survey based 
 
 1. Select **+ New Period** to open the Create Period slider window.
 
-:::image type="content" source="../../media/glint/reports/focus-areas-create-period.png" alt-text="Screenshot *Create Period* slider window.":::
+:::image type="content" source="../../media/glint/reports/focus-areas-create-period.png" alt-text="Screenshot of the Create Period slider window.":::
 
 2. Select a language. Each language will save as they are selected.
 1. Select a cadence: monthly, quarterly, semi-annually, annually, weekly.
