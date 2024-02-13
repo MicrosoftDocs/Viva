@@ -29,7 +29,7 @@ To enable seamless login, admins can set up the following configurations:
 
 1. Go to the **Admin** tab in Viva Learning and select **Manage providers**.
 
-2. Turn on **Seamless Login** for LinkedIn in the Manage providers pane.
+2. Turn on **Seamless Login** for LinkedIn Learning.
 
 ![The manage providers pane with the seamless login enabled for LinkedIn Learning](../media/learning/linkedin-learning-seamless-1-enable-toggle.png)
 
@@ -42,7 +42,7 @@ To enable seamless login, admins can set up the following configurations:
   > [!IMPORTANT]
   > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
 
-4. Integrate with Viva Learning 
+4. Integrate LinkedIn Learning with Viva Learning.
     1. Get the single sign-on WebURL from the LinkedIn Learning Admin page.  
     You can reach this url via the link shown or go to the **LinkedIn Admin configuration** > **Authenticate** > **Set up Viva Learning Authentication**.
     2. Enter the WebURL in Viva Learning.
@@ -56,10 +56,7 @@ To enable seamless login, admins can set up the following configurations:
 
 ![The seamless login screen with the linked copied from LinkedIn](../media/learning/linkedin-learning-seamless-5-validate.png)
 
-8. Select **Validate** and follow the steps to confirm the configuration works.
-
-9. If prompted, use your organization's LinkedIn Learning credentials to sign in.
+8. Select **Validate** and follow the steps to confirm the configuration works. Users are prompted to use their organization's LinkedIn Learning credentials to sign in.
 
 10. Select **Save** to save the configurations.
-
 
