@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 09/13/2023
 audience: Admin
 ms.topic: article
@@ -24,7 +24,7 @@ Starting December 1, 2022, we retired our free Microsoft Yammer Basic networks t
 
 #### We still want a Viva Engage network. What can we do?
 
-If your organization has an Office 365 or Microsoft 365 license, Viva Engage is included. See [Manage Viva Engage domains in Office 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
+If your organization has a Microsoft 365 license, Viva Engage is included. See [Manage Viva Engage domains in Microsoft 365](../configure-your-viva-engage-network/manage-viva-engage-domains.md). If your organization doesn't have a license, [subscriptions are available](
 https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1) starting at $8 month per user.
 
 #### My organization has a Viva Engage network, but users from basic networks collaborate with us. Can they join our network as guests?
@@ -37,11 +37,11 @@ It sounds like your collaborators have basic accounts, which are now retired. If
 
 #### What if we want to keep all our data from the old network and move it to the new network?
 
-Data migration isn't a service provided by Microsoft. You can [engage a partner](https://go.microsoft.com/fwlink/p/?LinkID=862345&clcid=0x409&culture=en-us&country=US) for data migration service from your basic network to your new enterprise network. If, after talking with a partner you discover that you need temporary administrator role access to migrate your data, contact Microsoft Support.
+This is no longer possible as access to these networks has been disabled.
 
-#### I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Office 365 or Microsoft 365 to upgrade in place?
+#### I don't have an enterprise network provisioned yet. Can I just add my basic network domain to Microsoft 365 to upgrade in place?
 
-No. Adding your basic network domain to Office 365/Microsoft 365 will delete the contents of your basic network. [Export your basic network data](../eac-as-manage-data.md) first.
+No. Adding your basic network domain to Microsoft 365 deletes the contents of your basic network. [Export your basic network data](../eac-as-manage-data.md) first.
 
 #### We're a nonprofit organization that relies on a free version. What can we do?
 
@@ -49,4 +49,4 @@ Microsoft offers special pricing for legally registered nonprofit organizations 
 
 #### What if we just want to export our data from the basic network?
 
-Contact Microsoft Support. They can give you temporary administrator role access to your basic network which allows you to perform a [full export of the network data](../eac-as-manage-data.md).
+This is no longer possible as access to these networks has been disabled.

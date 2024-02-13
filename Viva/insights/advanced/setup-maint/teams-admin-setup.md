@@ -21,7 +21,7 @@ audience: Admin
 
 :::image type="content" source="../images/setup-teams-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-teams-1.png":::
 
-The Viva Insights app in Teams is deployed by default. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin and manage access for the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
+The Viva Insights app is automatically installed in Teams once the admin enables the app on managed apps. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin and manage access for the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 >[!Note]
 >The steps in this document are optional. We talk about how to limit access to the app and automatically pin it for people in your organization.

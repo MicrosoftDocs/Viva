@@ -3,7 +3,7 @@ title: Use the Viva Glint Alerts and Attrition Risk report
 description: The Alerts report finds statistically significant patterns, outliers, and deviations from past scores to surface populations or demographic groups that have opportunities for improvement.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: driver impact report

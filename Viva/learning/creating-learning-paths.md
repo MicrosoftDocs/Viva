@@ -2,9 +2,9 @@
 title: Creating Learning paths in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/30/2022
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to create and configure learning paths for Microsoft Viva Learning.
 ---
 

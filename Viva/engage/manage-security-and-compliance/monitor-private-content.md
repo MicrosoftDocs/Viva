@@ -4,13 +4,14 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 11/01/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
 ms.localizationpriority: medium
+ms.collection: essentials-privacy
 ms.custom: Adm_Yammer
 search.appverid:
 - MET150
@@ -63,5 +64,5 @@ When you are done investigating an issue, go back and set the network back to th
     
 ## Related articles
 
-[Verified Admin Private Content Mode in Viva Engage (Viva Engage Developer Center)](https://go.microsoft.com/fwlink/?LinkId=780585)
+[Verified Admin Private Content Mode in Viva Engage (Viva Engage Developer Center)](https://developer.microsoft.com/en-us/viva)
 

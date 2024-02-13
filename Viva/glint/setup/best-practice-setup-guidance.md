@@ -1,5 +1,5 @@
 ---
-title: Viva Glint best practices program guidance
+title: Viva Glint best practices and program guidance
 description: This list of articles help ensure your programs are the best they can be to benefit all roles in your organization.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 04/10/2023
 ---
 
-# Viva Glint best practices program guidance
+# Viva Glint best practices and program guidance
 
 From one program cycle to the next, you may want to make changes to the survey or reporting features. Use this list of articles to ensure your programs are the best they can be to benefit all the people in your organization.
 
@@ -43,5 +43,3 @@ Watch this 5-minute video on **Best Practice Survey Design Principles**:
 [Choose survey comparison data for Viva Glint reporting](https://go.microsoft.com/fwlink/?linkid=2230923)
 
 [Recognize survey field character limits in Viva Glint programs](https://go.microsoft.com/fwlink/?linkid=2230874)
-
-[Use the Glint Microsoft Teams Application](https://go.microsoft.com/fwlink/?linkid=2236748)

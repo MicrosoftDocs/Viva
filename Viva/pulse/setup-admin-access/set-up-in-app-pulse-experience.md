@@ -18,7 +18,9 @@ search.appverid: MET150
 
 # Set up the in-app Viva Pulse experience
 
-The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab.
+The Viva Pulse in-app experience can be managed by users with either the Viva Pulse admin role or the Microsoft 365 Global admin role. If you're the Microsoft 365 Global admin or Viva Pulse admin, you see a Manage tab next to the Home tab in the Viva Pulse header. You can manage all settings for the in-app Viva Pulse experience in the Manage tab. <br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fCHB]
 
 ## Privacy and confidentiality
 
@@ -58,11 +60,7 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 
 ### Customize Pulses
 
-Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions. To make any customization configurations:
-
-1. In the **Manage** tab, go to the **Customization** tab.
-2. To turn off or turn on customization, use the toggles associated with **Stock Questions** and **New Questions**.
-3. The update is autosaved.
+Customization is turned on by default, but as an admin, you can control whether feedback authors can add their own questions to existing stock templates or edit existing stock questions through granular access controls. To make any customization configurations, see [Granular access controls](./granular-access-controls.md).
 
 ### Customize your organization’s policy statement
 

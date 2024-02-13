@@ -3,20 +3,22 @@ title: "Understand how security works in Microsoft Viva"
 ms.reviewer: loreenl
 ms.author: elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 4/23/2023
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
 - M365initiative-viva
 - m365solution-overview
 - highpri
 - tier1
+- essentials-security
 search.appverid:
 - MET150
 description: "Find Microsoft Viva security information."

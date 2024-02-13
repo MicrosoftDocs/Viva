@@ -2,7 +2,7 @@
 title: Configure Udacity as a content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/11/2022
 audience: admin
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure Udacity as a learning content source for Microsoft Viva Learning.
 ---
 

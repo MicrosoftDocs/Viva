@@ -2,9 +2,9 @@
 title: Configure Skillsoft as a content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/28/2023
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure Skillsoft as a learning content source for Microsoft Viva Learning.
 ---
 

@@ -21,7 +21,7 @@
     - name: Viva Learning
       tocHref: /viva/learning/
       topicHref: /viva/learning/index
-    - name: Viva Topics
+    - name: Topics
       tocHref: /viva/topics/
       topicHref: /viva/topics/index
     - name: Viva Goals
@@ -99,3 +99,67 @@
     - name: Viva Amplify
       tocHref: /viva/amplify/
       topicHref: /viva/amplify/overview-viva-amplify
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Pulse
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/pulse/introduction-to-viva-pulse
+      items:
+      - name: Viva Pulse troubleshooting
+        tocHref: /viva/troubleshoot/pulse/
+        topicHref: /viva/pulse/introduction-to-viva-pulse
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva suite administration
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/microsoft-viva-overview
+      items:
+      - name: Viva suite administration troubleshooting
+        tocHref: /viva/troubleshoot/viva-suite-administration/
+        topicHref: /viva/microsoft-viva-overview
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Engage
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/engage/overview
+      items:
+      - name: Viva Engage troubleshooting
+        tocHref: /viva/troubleshoot/engage/
+        topicHref: /viva/engage/overview
+
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Microsoft Viva
+    tocHref: /viva/
+    topicHref: /viva/index
+    items:
+    - name: Viva Insights
+      tocHref: /viva/troubleshoot/
+      topicHref: /viva/insights/introduction
+      items:
+      - name: Viva Insights troubleshooting
+        tocHref: /viva/troubleshoot/insights/
+        topicHref: /viva/insights/introduction

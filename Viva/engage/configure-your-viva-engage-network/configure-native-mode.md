@@ -5,8 +5,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 07/13/2023
+manager: elizapo
+ms.date: 10/27/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -30,9 +30,9 @@ Native Mode has the following requirements:
 
 - All Viva Engage files must be [stored in SharePoint](https://go.microsoft.com/fwlink/?linkid=2111253).
 
-- Retention mode in Viva Engage is set to Archive. 
+- Retention mode in Viva Engage is set to Archive.
 
-- All users must be in Microsoft Entra ID. Microsoft Entra ID enforces Office 365 identity and, any users who aren't mapped to the network, must be deleted.
+- All users must be in Microsoft Entra ID. Microsoft Entra ID enforces Microsoft 365 identity. Any users who aren't mapped to the network must be deleted.
 
 - There can't be any unlisted private groups.
 
@@ -51,15 +51,15 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 
 - Any unlisted private groups in your network are changed to private listed groups. Users are unable to create unlisted private groups.
 
-- External groups in Viva Engage aren't supported. All external groups are made internal only, and any guests in those groups no longer have access to the group or its contents. Support for Azure B2B-based external groups is expected at a later date.
+- External groups in Viva Engage aren't supported. All external groups are made internal only, and guests in those groups no longer have access to the group and its contents. Support for B2B-based external groups is expected at a later date.
 
-- Adds the Global admin to unconnected groups that either have no owner or the no owner has no permissions to create Microsoft 365 groups. It doesn't add them to unconnected groups if the owner has group creation rights.
+- Adds the Microsoft 365 Global administrator to unconnected groups that either have no owner, or the owner has no permissions to create Microsoft 365 groups. It doesn't add them to unconnected groups if the owner has group creation rights.
 
 - Connects all unconnected Viva Engage groups after applying the changes mentioned in the previous three bulleted items.
 
 - Prevents files from being uploaded in Viva Engage Private messages, and deletes all files previously uploaded in Viva Engage Private messages.
 
-- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to an Office 365 identity in Microsoft Entra ID.
+- Deletes all internal users (and their associated files and Private messages) in the network who aren't mapped to a Microsoft 365 identity in Microsoft Entra ID.
 
 - Disables support for guests in the network, and removes existing guests from the network, along with their associated Private messages and files.
 
@@ -72,8 +72,8 @@ The Tool prepares your network for Native Mode by disabling some features and mi
 - Begins ingesting your data into the Security & Microsoft Purview compliance portal to support eDiscovery.
 
 >[!CAUTION]
-> Once you have started alignment through the Tool, the change is **irreversible**.
-> Notify users *before* you run the Alignment Tool about the above changes so that they are prepared and not surprised.
+> Once you start alignment through the Tool, the change is **irreversible**.
+> Notify users about the preceding changes *before* you run the Alignment Tool to make sure they're prepared.
 
 ## While the tool is running
 

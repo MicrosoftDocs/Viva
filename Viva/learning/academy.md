@@ -2,9 +2,9 @@
 title: Manage academies in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/28/2023
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -13,7 +13,8 @@ search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
-localization_priority: medium
+    - essentials-get-started
+ms.localizationpriority: medium
 description: A guide to creating and managing academies within Viva Learning. 
 ---
 
@@ -50,7 +51,7 @@ Existing Microsoft 365 admins, knowledge admins, and knowledge managers can crea
 
 ![Image of the Set up an academy popup within Manage academies. It requires an academy name, description, logo and user group access information](/viva/media/learning/academy-1.png)
 
-You'll now see your newly created academy for configuration.
+You now see your newly created academy for configuration.
 
 ![Image of the options for the newly created academy, with options to enable academy, add a featured set, and add learning path](/viva/media/learning/academy-2.png)
 

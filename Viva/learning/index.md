@@ -2,9 +2,9 @@
 title: Introduction to Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: shirana
-ms.date: 11/02/2021
+ms.date: 11/30/2023
 audience: enabler, admin
 ms.topic: landing-page
 ms.custom: intro-hub-or-landing

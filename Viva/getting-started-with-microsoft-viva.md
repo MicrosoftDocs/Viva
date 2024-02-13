@@ -3,14 +3,15 @@ title: "Getting started with Microsoft Viva"
 ms.reviewer: loreenl
 ms.author:  elizapo
 author: lizap
-manager: pamgreen
+manager: elizapo
 ms.date: 09/20/2023
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.custom: intro-get-started
 ms.collection:
   - M365initiative-viva
@@ -91,7 +92,7 @@ Find out how employees in your organization can use Viva apps, and give them gui
 |**Viva Connections**     | Helps end users find specific content and tools by giving them a personalized destination with resources, relevant news, popular destinations, and more.        | [Viva Connections on your desktop](https://support.microsoft.com/office/viva-connections-on-your-desktop-3da30f39-684a-4bde-bb81-2e1407d59b52) <p> [Viva Connections on the go](https://support.microsoft.com/office/viva-connections-on-the-go-753e0607-0bfd-4712-ad7e-18490dd565a2)|
 |**Viva Engage** | Provides a place to connect and engage with leaders, colleagues, and communities. Viva Engage creates opportunities for asking questions, sharing knowledge, attending virtual events, building social capital, and extending employee networks. |[Getting started with Microsoft Viva Engage](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284) |
 |**Viva Glint**|Helps HR leaders and admins understand how their people perceive work and how to respond positively to influence the employee experience and business results by reducing turnover and improving productivity. Data provides employee trends, risks, and opportunities across the employee lifecycle. Managers learn to understand and support their employees’ unique work experience with personalized action plans and end users can share their employee experience in a secure, confidential manner and receive relevant and personalized support to maximize their employee experience.|[An introduction to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2239301)|
-|**Viva Goals** | Makes it easy for employees to view objectives and key results (OKRs) that are relevant to both them and your broader organization. Employees can also add their own OKRs and submit them to managers for review. Employees who own OKRs can conduct check-ins to update progress. |[Viva Goals in Teams - Microsoft Support.](/viva/goals/use-ms-teams-integration) |
+|**Viva Goals** | Makes it easy for employees to view objectives and key results (OKRs) that are relevant to both them and your broader organization. Employees can also add their own OKRs and submit them to managers for review. Employees who own OKRs can conduct check-ins to update progress. |[Viva Goals in Teams - Microsoft Support.](/viva/goals/ms-teams-integration) |
 |**Viva Insights**     | Includes advanced insights for end users, managers, and leaders. Also offers custom analysis for evaluating your specific organization’s work patterns with research-based recommendations about where to focus change management efforts.        | [Introducing Viva Insights](/viva/insights/introduction) |
 |**Viva Learning**  | Allows employees to discover, share, and track formal and informal learning in the flow of work.  Users can engage in social learning with colleagues and set and track personal learning goals. Personalized learning helps users get relevant learning content based on their own interests or recommendations from colleagues.       |[Viva Learning](https://support.microsoft.com/office/viva-learning-01bfed12-c327-41e0-a68f-7fa527dcc98a) <br> [Social learning](https://support.microsoft.com/office/social-learning-6badc784-0948-4922-94cc-85cd987def0a) <br> [Personal learning](https://support.microsoft.com/office/personal-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) <br>   [Learning content](https://support.microsoft.com/office/learning-content-b1ef9cb6-c2b1-4c64-aaf9-72f598e42688) |
 

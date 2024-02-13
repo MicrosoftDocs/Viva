@@ -3,7 +3,7 @@ title: Viva Glint’s Survey reports overview
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager report, response rate, team summary, report access level

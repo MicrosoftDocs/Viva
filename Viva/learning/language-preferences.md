@@ -2,7 +2,7 @@
 title: Language preferences in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 07/13/2023
 audience: admin
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Manage your language settings in Viva Learning for users across Teams, webapp and mobile. 
 ---
 

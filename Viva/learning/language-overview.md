@@ -2,7 +2,7 @@
 title: Overview of language in Viva Language 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/08/2023
 audience: admin
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how Viva Learning handles language so you can customize the application.
 ---
 

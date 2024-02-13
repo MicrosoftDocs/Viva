@@ -1,9 +1,9 @@
 ---
 title: Viva Glint's Quarterly Engagement Survey template
 description: Over 350 million employee survey responses surfaced new key driver themes resulting in new top-20 core engagement drivers on this template.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: people success elements, purpose, clarity, growth, empowerment, connection, wellbeing, cord driver, key driver
@@ -15,24 +15,24 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 11/14/2023
 ---
 
 # Viva Glint's Quarterly Engagement Survey template
 
-Microsoft Viva Glint has seen a shift in focus on what is most important to the happiness and success of employees since mid-2020 because of the COVID-19 pandemic and other global factors. For this reason, we knew we needed to reexamine our current measures of employee engagement (2018) to ensure we're focusing on the most meaningful engagement drivers for this modern era. 
+Microsoft Viva Glint has seen a shift in focus on what is most important to the happiness and success of employees since the mid-2020 because of the COVID-19 pandemic and other global factors. For this reason, we knew we needed to reexamine our current measures of employee engagement (2018) to ensure we're focusing on the most meaningful engagement drivers for this modern era. 
 
 We analyzed over 350 million employee survey responses collected since 2020 to determine the employee experiences that were most predictive of engagement - happiness at work and willingness to recommend the company. We discovered some new key driver themes, which resulted in a new top-20 list of core engagement drivers. Additionally, we identified several other drivers that may be beneficial for consideration by individual organizations. 
 
-**Read [People Science Explains: People Success Elements - What people need in the new world of work to understand Glint’s unique approach to help organizations measure employee engagement](https://www.glintinc.com/blog/the-elements-of-people-success/).** Using Viva Glint solutions, our customers gain powerful insights on what drives their employee engagement and can use the insights to build towards their own People Success culture.
+**[Read The Elements of People Success blog](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765).** Using Viva Glint solutions, our customers gain powerful insights on what drives employee engagement and can use those insights to build towards their own People Success culture.
 
-## Details of Quarterly Engagement template
+## How we arrived at the Viva Glint Quarterly Engagement template
 
 The result of our re-examination of the focus of engagement is a modernized framework (early 2022) called **People Success Elements. These elements are six constructs**: Purpose, Clarity, Growth, Empowerment, Connection, and Wellbeing. The constructs summarize the fundamental needs and expectations that are most critical to a person’s holistic life experience (not only their work experience) and that best shape an environment for high engagement.
 
 ### People Success Elements
 
-In addition to evidence of a strong linkage between the following six elements and engagement, People Science also found relationships with other important outcomes like burnout and intent to stay. Key findings in each construct include:
+In addition to evidence of a strong linkage between the following six elements and engagement, People Science also found relationships with other important outcomes like burnout and attrition. Key findings include:
 
 - **Purpose**: Employees feeling a sense of purpose are 120% more likely to recommend their company as a great place to work.
 - **Clarity**: 54% of employees lacking role clarity reported burnout in 2021, compared with 38% of employees with role clarity.
@@ -52,44 +52,17 @@ The following terminology helps you to understand our methodology for determinin
 | **Key Drivers** | These items have the highest impact on program *outcome*. They're statistically calculated based on feedback, thus likely to change. |
 | **Outcome** | The purpose of your survey; what you are trying to measure. Viva Glint uses surveys to measure engagement (the *outcome*) and calculates the impact of survey items (*drivers*) and how much they influence engagement. Work on the top items (*key drivers*) for the most efficient use of feedback - the most bang for your buck! |
 
-### What has remained the same in the Quarterly Engagement survey?
+### View the core survey driver items for Viva Glint's Quarterly Engagement survey
 
-The two Engagement Outcomes have remained the same:
+You can view the core drivers in the Viva Glint platform when you create a new Quarterly Engagement survey. From your **admin dashboard**:
 
-| **Item Text** | **Item Outcome** |
-|:---|:---|
-| How happy are you working at <COMPANY_NAME>? | eSat |
-| I would recommend <COMPANY_NAME> as a great place to work.| Recommend |
-
-### What has changed in the Quarterly Engagement survey?
-
-Six items were added as new core drivers and five items were dropped from the 2018 core driver list. 
-
-| **Added to 2022 template** | **Core Driver** | **Dropped from 2018 template** |
-|:---|:---|:---|
-| **People at <COMPANY_NAME> live the company values.** | **Values** | |
-| **<COMPANY_NAME> continually improves the way work gets done.** | **Continuous Improvement** | |
-| **I know what I should be focusing on right now.** | **Prioritization** | |
-| **Leaders at <COMPANY_NAME> value different perspectives.** | **Inclusive Leaders** | |
-| **At work, I feel cared about as a person.** | **Care** | |
-| **I feel well supported by <COMPANY_NAME> at this time.** | **Company Support** | |
-| | Team | I'm satisfied with my work team. |
-| | Career | I have good career opportunities at <COMPANY_NAME>. |
-| | Manager | I would recommend my manager to others. |
-| | Decision Making | Overall, I'm satisfied with how decisions are made at <COMPANY_NAME>. |
-| | Culture | <COMPANY_NAME> has a great culture. |
-
-### View 2022 core survey items for Glint’s Quarterly Engagement survey
-
-You can view the new set of core drivers in the Glint platform when you create a new Quarterly Engagement survey. From the admin dashboard:
-
-1. Select **Pulse Program**, then **+ New Program**, and then the **Quarterly Engagement card** and **Create Program**.
+1. Select **Survey Program**, then **+ New Program**, and then the **Quarterly Engagement card** and **Create Program**.
 2. In **Program Summary**, select **Questions** (can't be selected until the pages prior have been configured).
 3. The template items populate.
 
-## Item additions to Viva Glint’s Question Library
+## Add items to your Quarterly Engagement survey using the Question Library
 
-Viva Glint’s research found several other items for customers to consider as important drivers of engagement that can be added to any engagement survey. These can be found by searching the item name in the Question Library and added to any survey you're setting up:
+Viva Glint’s research found several other items for customers to consider as important drivers of engagement which can be added to any engagement survey. These items can be found by searching the item name in the Question Library and added to any survey you're setting up:
 
 | **Item Text** | **Core Driver** |
 |:---|:---|

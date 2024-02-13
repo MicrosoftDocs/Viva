@@ -1,0 +1,954 @@
+{
+    "redirections": [
+        {
+            "source_path": "Viva/insights/azure-templates/cancel-service.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/cancel-service",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/data-export.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/data-export",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/deploy-configure.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/deploy-configure",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/group-analysis.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/group-analysis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/join-datasets.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/join-datasets",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/ona-analysis.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/ona-analysis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/ona-insights.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/ona-insights",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/ona-metric-calculations.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/ona-metric-calculations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/organization-network-analysis.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/organization-network-analysis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/overview.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/process-explorer.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/process-explorer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/relation-intel.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/relation-intel",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/release-notes.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/release-notes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/space-planning.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/space-planning",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/support.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/support",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/azure-templates/upgrade-synapse.md",
+            "redirect_url": "/previous-versions/viva/insights/azure-templates/upgrade-synapse",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/hybrid-partners/partner-overview.md",
+            "redirect_url": "/previous-versions/viva/insights/hybrid-partners/partner-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/hybrid-partners/partner-setup.md",
+            "redirect_url": "/previous-versions/viva/insights/hybrid-partners/partner-setup",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/index-orig.md",
+            "redirect_url": "/previous-versions/viva/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/faqs.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/faqs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/get-started.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/get-started",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/best-practices.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/best-practices",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/cgcollaboration.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/cgcollaboration",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/coaching.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/coaching",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/communication.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/communication",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/connectedness.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/connectedness",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/focus.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/focus",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/index.yml",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/index.yml",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/teams-app.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/teams-app",
+            "redirect_document_id": false
+        },
+	    {
+            "source_path": "Viva/insights/manager-insights/wellbeing.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/wellbeing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/introduction.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/introduction",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/meetings.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/meetings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/manager-insights/rollout.md",
+            "redirect_url": "/previous-versions/viva/insights/manager-insights/rollout",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/overview/FastTrack-data-science-service-description.md",
+            "redirect_url": "/previous-versions/viva/insights/overview/FastTrack-data-science-service-description",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/overview/get-started.md",
+            "redirect_url": "/previous-versions/viva/insights/overview/get-started",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/overview/get-support.md",
+            "redirect_url": "/previous-versions/viva/insights/overview/get-support",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/overview/supported-languages.md",
+            "redirect_url": "/previous-versions/viva/insights/overview/supported-languages",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/overview/videos.md",
+            "redirect_url": "/previous-versions/viva/insights/overview/videos",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/activate-licenses.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/activate-licenses",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Assign-licenses-to-population.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Assign-licenses-to-population",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Assign-roles-to-wpa-admins.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Assign-roles-to-wpa-admins",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/assign-user-roles.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/assign-user-roles",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/audit-logs.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/audit-logs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/crm-data-upload.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/crm-data-upload",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Determine-key-personas.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Determine-key-personas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Environment-Requirements.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Environment-Requirements",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/format-data-for-upload.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/format-data-for-upload",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/maintain-workplace-analytics.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/maintain-workplace-analytics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/partitions-wpa.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/partitions-wpa",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Prepare-organizational-data.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Prepare-organizational-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/script-to-prep-org-data.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/script-to-prep-org-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Set-up-mtg-exclusions.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Set-up-mtg-exclusions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/set-up-workplace-analytics.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/set-up-workplace-analytics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/setup-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/setup-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/upload-organizational-data-1st.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/upload-organizational-data-1st",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/upload-organizational-data2.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/upload-organizational-data2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/Validate-verify-data.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/Validate-verify-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/setup/WpA-assign-o365-licenses.md",
+            "redirect_url": "/previous-versions/viva/insights/setup/WpA-assign-o365-licenses",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/analyze-business-processes.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/analyze-business-processes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/attendee-exclusion-rules.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/attendee-exclusion-rules",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/comparison-query.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/comparison-query",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/consump-model.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/consump-model",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/crm-queries.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/crm-queries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/customize-a-metric.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/customize-a-metric",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/download-utf8-query-report.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/download-utf8-query-report",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/exclusions-introduction.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/exclusions-introduction",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-best-practices.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-best-practices",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-cgcollaboration.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-cgcollaboration",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-coaching.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-coaching",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-communication.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-communication",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-connectedness.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-connectedness",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-connectivity.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-connectivity",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-cust-collab.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-cust-collab",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-focus.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-focus",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-influencer.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-influencer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-meetings.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-meetings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-overload.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-overload",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/gm-wellbeing.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/gm-wellbeing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/group-to-group-queries.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/group-to-group-queries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/hybrid-workforce-experience.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/hybrid-workforce-experience",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/index.yml",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/index",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/meeting-exclusion-250.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/meeting-exclusion-250",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/meeting-exclusion-concept.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/meeting-exclusion-concept",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/meeting-exclusion-rules.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/meeting-exclusion-rules",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/meeting-exclusions-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/meeting-exclusions-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/meeting-queries.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/meeting-queries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/null-value-interaction-type.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/null-value-interaction-type",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/ona-metric-calculations.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/ona-metric-calculations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/ona-metrics.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/ona-metrics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/ona-person-query.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/ona-person-query",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/ona-person-to-person-query.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/ona-person-to-person-query",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/pbi-bc-sales.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/pbi-bc-sales",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/pbi-beyond-kw.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/pbi-beyond-kw",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/pbi-demos.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/pbi-demos",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/pbi-home-deeper.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/pbi-home-deeper",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/person-queries.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/person-queries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/person-to-group-queries.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/person-to-group-queries",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-bc.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-bc",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-collab-assess.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-collab-assess",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-collab-track.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-collab-track",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-glint-2.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-glint-2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-manager.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-manager",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-metrics.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-metrics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-return-tw.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-return-tw",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-sales.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-sales",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-teams.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-teams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-templates.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-templates",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/power-bi-wellbeing.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/power-bi-wellbeing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/query-auto-refresh.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/query-auto-refresh",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/query-basics.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/query-basics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/query-basics2.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/query-basics2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/query-designer.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/query-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/query-visualization.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/query-visualization",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/wpa-r-package.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/wpa-r-package",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/tutorials/wpa-tool-500-error.md",
+            "redirect_url": "/previous-versions/viva/insights/tutorials/wpa-tool-500-error",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/accelerate-change.md",
+            "redirect_url": "/previous-versions/viva/insights/use/accelerate-change",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/admin-settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/admin-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/agility.md",
+            "redirect_url": "/previous-versions/viva/insights/use/agility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/analyst-settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/analyst-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/assigning-licenses-with-powershell.md",
+            "redirect_url": "/previous-versions/viva/insights/use/assigning-licenses-with-powershell",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/assigning-wpa-user-and-group-roles-in-azure-ad.md",
+            "redirect_url": "/previous-versions/viva/insights/use/assigning-wpa-user-and-group-roles-in-azure-ad",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/boost-engagement.md",
+            "redirect_url": "/previous-versions/viva/insights/use/boost-engagement",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/change.md",
+            "redirect_url": "/previous-versions/viva/insights/use/change",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/chart-types.md",
+            "redirect_url": "/previous-versions/viva/insights/use/chart-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/crm-data.md",
+            "redirect_url": "/previous-versions/viva/insights/use/crm-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/csv-query-output-file.md",
+            "redirect_url": "/previous-versions/viva/insights/use/csv-query-output-file",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/customer-focus.md",
+            "redirect_url": "/previous-versions/viva/insights/use/customer-focus",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/data-sourcesv2.md",
+            "redirect_url": "/previous-versions/viva/insights/use/data-sourcesv2",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/develop-managers.md",
+            "redirect_url": "/previous-versions/viva/insights/use/develop-managers",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/effective-managers.md",
+            "redirect_url": "/previous-versions/viva/insights/use/effective-managers",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/effective-operations.md",
+            "redirect_url": "/previous-versions/viva/insights/use/effective-operations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/engagement.md",
+            "redirect_url": "/previous-versions/viva/insights/use/engagement",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/error-states.md",
+            "redirect_url": "/previous-versions/viva/insights/use/error-states",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-external-collaboration.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-external-collaboration",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-internal-networks.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-internal-networks",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-management-and-coaching.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-management-and-coaching",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-meetings-overview.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-meetings-overview",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-teams.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-teams",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-metrics-week-life.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-metrics-week-life",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/explore-page-settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/explore-page-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/faq-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/use/faq-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/faq.md",
+            "redirect_url": "/previous-versions/viva/insights/use/faq",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/foster-innovation.md",
+            "redirect_url": "/previous-versions/viva/insights/use/foster-innovation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/glossary.md",
+            "redirect_url": "/previous-versions/viva/insights/use/glossary",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/group-based-licensing.md",
+            "redirect_url": "/previous-versions/viva/insights/use/group-based-licensing",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/icustomer-focus.md",
+            "redirect_url": "/previous-versions/viva/insights/use/icustomer-focus",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/improve-agility.md",
+            "redirect_url": "/previous-versions/viva/insights/use/improve-agility",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/innovation.md",
+            "redirect_url": "/previous-versions/viva/insights/use/innovation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/insight-faqs.md",
+            "redirect_url": "/previous-versions/viva/insights/use/insight-faqs",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/insight-ona-measures.md",
+            "redirect_url": "/previous-versions/viva/insights/use/insight-ona-measures",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/insights.md",
+            "redirect_url": "/previous-versions/viva/insights/use/insights",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/manager-settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/manager-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/meeting-culture.md",
+            "redirect_url": "/previous-versions/viva/insights/use/meeting-culture",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/metric-definitions.md",
+            "redirect_url": "/previous-versions/viva/insights/use/metric-definitions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/metric-filters.md",
+            "redirect_url": "/previous-versions/viva/insights/use/metric-filters",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/office-365-data.md",
+            "redirect_url": "/previous-versions/viva/insights/use/office-365-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/operational.md",
+            "redirect_url": "/previous-versions/viva/insights/use/operational",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/organizational-data.md",
+            "redirect_url": "/previous-versions/viva/insights/use/organizational-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/peer-analysis.md",
+            "redirect_url": "/previous-versions/viva/insights/use/peer-analysis",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/playbooks.md",
+            "redirect_url": "/previous-versions/viva/insights/use/playbooks",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/pm-home.md",
+            "redirect_url": "/previous-versions/viva/insights/use/pm-home",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/power-bi-metrics.md",
+            "redirect_url": "/previous-versions/viva/insights/use/power-bi-metrics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/privacy-settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/privacy-settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/resiliency.md",
+            "redirect_url": "/previous-versions/viva/insights/use/resiliency",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/resilient-organizations.md",
+            "redirect_url": "/previous-versions/viva/insights/use/resilient-organizations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/settings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/settings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/system-defaults.md",
+            "redirect_url": "/previous-versions/viva/insights/use/system-defaults",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/team-effectiveness.md",
+            "redirect_url": "/previous-versions/viva/insights/use/team-effectiveness",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/team-experience.md",
+            "redirect_url": "/previous-versions/viva/insights/use/team-experience",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/timezones-for-workplace-analytics.md",
+            "redirect_url": "/previous-versions/viva/insights/use/timezones-for-workplace-analytics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/transform-meetings.md",
+            "redirect_url": "/previous-versions/viva/insights/use/transform-meetings",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/user-roles.md",
+            "redirect_url": "/previous-versions/viva/insights/use/user-roles",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/videos.md",
+            "redirect_url": "/previous-versions/viva/insights/use/videos",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/view-download-and-export-query-results.md",
+            "redirect_url": "/previous-versions/viva/insights/use/view-download-and-export-query-results",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/viva-insights-intro.md",
+            "redirect_url": "/previous-versions/viva/insights/use/viva-insights-intro",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/create-dataverse-permissions.md",
+            "redirect_url": "/previous-versions/viva/solutions/create-dataverse-permissions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/create-dataverse-tables.md",
+            "redirect_url": "/previous-versions/viva/solutions/create-dataverse-tables",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/create-power-automate-flows-for-nudging.md",
+            "redirect_url": "/previous-versions/viva/solutions/create-power-automate-flows-for-nudging",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/edit-data-create-cards-content.md",
+            "redirect_url": "/previous-versions/viva/solutions/edit-data-create-cards-content",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/import-data-into-dataverse-tables.md",
+            "redirect_url": "/previous-versions/viva/solutions/import-data-into-dataverse-tables",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/import-yume-application.md",
+            "redirect_url": "/previous-versions/viva/solutions/import-yume-application",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/prerequisities-for-yume.md",
+            "redirect_url": "/previous-versions/viva/solutions/prerequisities-for-yume",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/solutions/yume.md",
+            "redirect_url": "/previous-versions/viva/solutions/yume",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/wpa-notifications.md",
+            "redirect_url": "/previous-versions/viva/insights/use/wpa-notifications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/insights/use/wsplan.md",
+            "redirect_url": "/previous-versions/viva/insights/use/wsplan",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/error-when-click-the-viva-engage-tile-in-office-365.md",
+            "redirect_url":"/viva/troubleshoot/engage/error-select-the-viva-engage-tile-in-microsoft-365",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-native-mode.md",
+            "redirect_url":"/viva/troubleshoot/engage/troubleshoot-native-mode",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices.md",
+            "redirect_url":"/viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices",
+            "redirect_document_id": false
+        }
+    ]
+}

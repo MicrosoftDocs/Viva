@@ -5,14 +5,14 @@ description: "Frequently asked questions about Native Mode for Viva Engage"
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -32,7 +32,7 @@ Non-native and hybrid Viva Engage networks are being automatically upgraded to N
 
 Unlike manual migration, automatic migration requires little advance preparation. The timeline is:
 
-**30 days before migration starts:** You'll receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
+**10 days before migration starts:** You'll receive a Microsoft 365 Message Center post to notify you that you’ve been selected for automatic migration.
 
 **Day of migration start:** You'll receive a Microsoft 365 Message Center post to notify you that migration has begun.
 
@@ -48,7 +48,7 @@ If you wish to control the migration, it may still be possible. Start the migrat
 
 ### I received a Microsoft 365 Message Center post that says I’ve been selected for automatic migration. When does it start and end?
 
-Your migration begins 30 days after the date of the Message Center post. You'll receive an additional Message Center post when your migration begins. There is no admin action required to complete the migration. Information about the migration is provided when it completes.
+Your migration begins 10 days after the date of the Message Center post. You'll receive an additional Message Center post when your migration begins. There is no admin action required to complete the migration. Information about the migration is provided when it completes.
 
 Migration time depends on the volume of files which need to be migrated from legacy Viva Engage file storage to SharePoint storage. It isn't possible to provide an estimate ahead of time due to the number of factors involved.
 

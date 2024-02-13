@@ -55,9 +55,7 @@ items:
       - name: Support
         items:
         - name: Get Viva Insights support
-          href: get-insights-support.md
-        - name: Error reference
-          href: advanced/reference/errors.md    
+          href: get-insights-support.md  
       - name: Personal insights
         items:
         - name: End-user documentation
@@ -71,7 +69,9 @@ items:
           - name: Organization insights
             href: org-team-insights/org-insights.md
           - name: Organization insights FAQ
-            href: org-team-insights/org-insights-faqs.md   
+            href: org-team-insights/org-insights-faqs.md
+          - name: Microsoft Copilot Dashboard (Preview)
+            href: org-team-insights/copilot-dashboard.md      
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
@@ -86,12 +86,16 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Create partitions
+            href: advanced/admin/partitions.md
           - name: File rules and validation errors  
             href: advanced/admin/rules-validation-errors.md
           - name: Domain suppression
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
+          - name: View and customize your general settings
+            href: advanced/admin/general-settings.md
         - name: Analyst
           items:
           - name: Queries
@@ -113,7 +117,7 @@ items:
               - name: Collaboration between an individual and a group (person-to-group)
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
-                href: advanced/analyst/cross-collaboration-g2g.md        
+                href: advanced/analyst/cross-collaboration-g2g.md               
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
@@ -126,6 +130,8 @@ items:
               href: advanced/analyst/templates/introduction-to-templates.md
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
+            - name: Growth, inclusion and engagement
+              href: advanced/analyst/templates/growth-inclusion-engagement.md
             - name: Hybrid workforce experience
               href: advanced/analyst/templates/hybrid-workforce-experience.md
             - name: Impact explorer
@@ -152,6 +158,8 @@ items:
             href: advanced/analyst/custom-metrics.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md
+          - name: View and customize your general settings
+            href: advanced/admin/general-settings.md
         - name: Open source analysis tools
           items:
             - name: vivainsights Python package
@@ -168,7 +176,7 @@ items:
             href: advanced/reference/metrics.md
           - name: Supported languages
             href: advanced/reference/supported-languages.md 
-
-
-
- 
+      - name: Troubleshoot
+        items:
+        - name: Resolve Viva Insights errors 
+          href: /viva/troubleshoot/insights/viva-insights-errors?toc=/viva/insights/toc.json&bc=/viva/breadcrumb/toc.json

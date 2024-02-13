@@ -3,7 +3,7 @@ title: Set up attribute-based survey access in Viva Glint
 description: Microsoft Viva Glint's attribute-based survey access allows users without a corporate email account to complete confidential surveys. 
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: variables & Product text, attribute-based URL, survey access 
@@ -43,11 +43,9 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
    > Complete attribute setup and employee data upload prior to selection for attributes to be available.
 7. Edit the **Placeholder text** that displays under each selected attribute.
 8. Confirm your edits in the **Preview** at the bottom of the pane.
-   > [!NOTE]
-   > Currently, while we are new to Microsoft Viva, emails are available only in English. This is a change from the LinkedIn Glint instance and remediation is in progress. 
 9. At the top of the pane, select **Save**.
-10. Select the Configure symbol, then in Client Settings, choose **Advanced Configuration**.
-11. In the *Details* section, select the Whether to allow the users to look up questionnaires without a kiosk checkbox.
+10. Select the Configure symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+11. In the **Details** section, select the **Enable Kiosk Page** checkbox.
 12. Select **Save Changes** at the bottom of the Details page.
 
 ### Obtain the attribute-based survey access URL

@@ -1,5 +1,5 @@
 ---
-title: Set up your Viva Glint instance
+title: Set up admins in up Viva Glint instance
 description: Take care of a few items of business before you begin your first Viva Glint program journey.
 ms.author: judithweiner
 author: JudyWeiner
@@ -18,16 +18,16 @@ ms.localizationpriority: high
 ms.date: 04/21/2023
 ---
 
-# Set up your Viva Glint instance
+# Set up admins in your Viva Glint instance
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
 - If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
-- If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment.
+- If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
 
 ## Add administrators to your Viva Glint instance
 
-As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - and importantly - you can assign Viva Glint Service admin roles to other users.
+As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
 
 > [!NOTE]
 > Administrators for Viva Glint are assigned within the Viva Glint product only, not through the Microsoft Administrator Center (MAC).
@@ -46,18 +46,22 @@ Compile a file of administrators to upload to Viva Glint with the following colu
 - **Status:** ACTIVE, in all caps
 
 > [!IMPORTANT]
-> To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint. 
+> To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
+
+> [!CAUTION]
+> Don't add admin users as Support users. They must be uploaded with a status of ACTIVE to have all Viva Glint permissions.
 
 ### Upload administrators to Viva Glint
 
 Upload your administrators to Viva Glint Advanced Configuration:
 
 1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
+   1. If there is no **Advanced Configuration** option, go to your user profile and in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
 1. In the **Advanced Configuration** menu, select **Uploads**.
 1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
 1. Switch the **Incremental** toggle on.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section and select **Upload**.
-1. In the **Upload Job Details** page that appears, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
+1. In *Upload Job Details**, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
 1. Select **Apply Upload to Database** to upload new users and select **Yes**.
 1. Go to the **Uploads** menu and confirm that the file **State** is SUCCESS and that the **Total Lines** and **Processed Lines** match the number of users in the uploaded file.
 
@@ -74,46 +78,7 @@ When users are successfully uploaded, add them to the Company Admin User Role an
 
 ## Steps to set up your Viva Glint program instance
 
-As a Viva Glint Service admin, use the following guidance to complete platform setup and prepare to launch your first Viva Glint survey.
-
-### 1. Begin Viva Glint platform setup
-
-- [Access Viva Glint with Microsoft Entra ID](https://go.microsoft.com/fwlink/?linkid=2238425)
-- [Manage Allowed Lists](https://go.microsoft.com/fwlink/?linkid=2238617)
-
-### 2. Prepare your data
-
-- Learn about [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
-- Learn about [Viva Glint organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
-- [Create your Employee Attribute template](https://go.microsoft.com/fwlink/?linkid=2230862)
-- [Set up Employee Attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991)
-- [Set up Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247430)
-- [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
-
-### 3. Manage features and settings
-
-- [Admin management of the General Settings feature in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230744)
-- [Use Viva Glint benchmarks](https://go.microsoft.com/fwlink/?linkid=2230868)
-- [Manage language translations](https://go.microsoft.com/fwlink/?linkid=2238340)
-- [​Use Viva Glint's People page to view employee information](https://go.microsoft.com/fwlink/?linkid=2230865)
-- [​Set up Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230740)
-- [Set up and use Distribution Lists in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230917)
-- [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
-- [Communicate with Nudges](../communicate/communicate-with-nudges.md)
-
-### 4. Set up your Engagement or Employee Lifecycle survey
-
-- [Viva Glint program types and associated templates](https://go.microsoft.com/fwlink/?linkid=2238526)
-- [Set up Program summary pages for a Viva Glint Engagement-type survey](https://go.microsoft.com/fwlink/?linkid=2231504)
-- [Set up Program summary pages for a Viva Glint Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2238618)
-
-## Prepare your Viva Glint communications plan
-
-The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
-
-- [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
-- [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
-- [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
+As a Viva Glint admin, use the following guidance to complete platform setup and prepare to launch your first Viva Glint survey: [Learn more](https://go.microsoft.com/fwlink/?linkid=2240651).
 
 ## What do I do if I need help?
 
@@ -125,7 +90,7 @@ Viva Glint is a "voice of the employee" solution helping organizations understan
 
 Build skills that open doors. [See all that you can do with documentation, hands-on training, and certifications to help you get the most from Microsoft products.](https://learn.microsoft.com)
 
-Within Viva Glint Learn, you'll be busy in these two areas, accessible from the top navigation me
+Within Viva Glint Learn, you'll be busy in these two areas, accessible from the top navigation menu.
 
 - Documentation- [See all you can do with resources and solutions.](https://go.microsoft.com/fwlink/?linkid=2230911)
 - Training - [Browse the full catalog of Learning Paths and Modules](/training/browse/?terms=glint)
@@ -158,4 +123,6 @@ Find resources to go from inspiration to execution. Adoption resources will give
 ## Microsoft Viva Support
 
 [Resources and guides for survey participants to help answer questions and provide background on Viva Glint methodology](https://go.microsoft.com/fwlink/?linkid=2239301).
+
+## How to take a survey - for all survey takers in your organization
 [How to take a Viva Glint survey](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5)

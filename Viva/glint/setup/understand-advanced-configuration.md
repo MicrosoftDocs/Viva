@@ -1,9 +1,9 @@
 ---
-title: Understand Advanced Configuration options in Viva Glint
+title: Understand Viva Glint Advanced Configuration
 description: For highly trained users, Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Advanced configuration, advanced settings
@@ -15,14 +15,22 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2023
+ms.date: 01/31/2024
 ---
 
-# Understand Advanced Configuration options in Viva Glint
+# Understand Viva Glint Advanced Configuration
 
-For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates.
+For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates. Use Advanced Configuration to:
 
-:::image type="content" source="../../media/glint/setup/understand-advanced-configuration.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
+- Review and edit reporting thresholds in the Details section.
+- Manage advanced survey settings, like Sensitive Comments. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247846).
+- Import external, historical data from a previous employee survey vendor. [Learn more](https://go.microsoft.com/fwlink/?linkid=2244872).
+- Export a detailed snapshot of employee data at the time of a past survey launch. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700)
+- Update fixed employee data that is tied to a closed survey. [Learn more](https://go.microsoft.com/fwlink/?linkid=2259704).
+- Perform special uploads to update custom access. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
+- Monitor Advanced Configuration tasks that are still running in the Running Jobs section.
+
+:::image type="content" source="../../media/glint/setup/glint-service-config.png" alt-text="Screenshot that displays the Advanced configuration option icon in Viva Glint tenant.":::
 
 > [!CAUTION]
 > Changing certain settings in Advanced Configuration may be irreversible. These options should only be modified by trained Viva Glint users.
@@ -39,7 +47,7 @@ To access, a Global or Company admin must enable Advanced Configuration access o
 4. On the user's detail page, in **Company Admin: Advanced Configuration Access,** select the **pencil symbol** to edit.
 5. In the dialog, **turn on Advanced Configuration access** and select **Save**.
 
-After this enablement, when a user selects the **Configure** symbol, then goes to **Client Settings**, they'll see **Advanced Configuration.**
+After this enablement, when a user selects the **Configure** symbol, then goes to **Service Configuration**, they'll see **Advanced Configuration.**
 
 > [!NOTE]
 > A user may need to refresh or sign into Viva Glint again to see Advanced Configuration once enabled.
@@ -58,45 +66,42 @@ View specifics about how data display in Viva Glint reporting and which features
 | --- | --- |
 | **Auto Action Plans** | Enable autogeneration of action plans for eligible users |
 | **Custom Surveys Enabled** | Advanced survey customization, no action required. |
-| **Confidentiality threshold (minSampleSize)** | Scores don't display for fewer responses than this threshold. Viva Glint standard: 5 |
-| **Suppression threshold (minGroupSize)** | To prevent guessing the scores of respondent groups with insufficient data, the next biggest group is suppressed until the total insufficient + suppressed = or exceeds this number. Viva Glint standard: 2 |
-| **No suppression parent team size threshold (noSuppressionParentTeamSize)** | Access results for teams that would have been suppressed for parent team respondents greater than or equal to this threshold. Viva Glint standard: 400 |
+| **Rated Confidentiality Threshold** | Scores don't display for fewer responses than this threshold. Viva Glint standard: 5 |
+| **Suppression Threshold** | To prevent guessing the scores of respondent groups with insufficient data, the next biggest group is suppressed until the total insufficient + suppressed = or exceeds this number. Viva Glint standard: 2 |
+| **Parent Team Suppression Threshold** | Access results for teams that would have been suppressed for parent team respondents greater than or equal to this threshold. Viva Glint standard: 400 |
 | **Industry average eSat score** | Industry average for eSat |
 | **Industry average response rate** | Industry average for response rate |
-| **minSampleSizeSurveyStats** | Response rates don't display for groups smaller than this value. Viva Glint standard: 5 |
-| **Rating questions scale** | Number of responses available on rating questions. Viva Glint standard: 5 |
-| **insightMinGroupSize** | In the Alerts report, minimum number of respondents for a group to be considered. Viva Glint standard: 20 |
-| **insightMinScoreDifference** | In the Alerts report, minimum difference from benchmark score for a group. Viva Glint standard: 8 |
-| **insightsMax** | In the Alerts report, the maximum number of alerts to display. Viva Glint standard: 2000 |
-| **InsightsMaxAttributesPerGroup** | In the Alerts report, the maximum number of attributes to combine for a group. Viva Glint standard: 2 |
-| **InsightsMaxLevels** | In the Alerts report, when hierarchies are selected, the maximum number of levels considered. Viva Glint standard: 3 |
+| **Response Rate Threshold** | Response rates don't display for groups smaller than this value. Viva Glint standard: 5 |
+| **Default Rating Scale** | Number of responses available on rating questions. Viva Glint standard: 5 |
+| **Minimum Threshold for Alerts Report** | In the Alerts report, minimum number of respondents for a group to be considered. Viva Glint standard: 20 |
+| **Minimum Score Difference for the Alerts Report** | In the Alerts report, minimum difference from benchmark score for a group. Viva Glint standard: 8 |
+| **Maximum number of Alerts** | In the Alerts report, the maximum number of alerts to display. Viva Glint standard: 2000 |
+| **Maximum number of Alerts for a population** | In the Alerts report, the maximum number of attributes to combine for a group. Viva Glint standard: 2 |
+| **Alert and Insight Hierarchy Limitation** | In the Alerts report, when hierarchies are selected, the maximum number of levels considered. Viva Glint standard: 3 |
 | **insightsPValue** | In the Alerts report, the statistical likelihood that results aren't by chance and are significant. Viva Glint standard: .05 |
-| **Scores should represent favorability scores by default** | Not recommended. Viva Glint recommends and displays average scores. |
-| **Comments privacy: minimum # of responders for search results** | Comments don't display for fewer question responses than this threshold. Viva Glint standard: 10 |
-| **Comments privacy: minimum # of responders for facet/grouping** | Comments don't display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
-| **driverImpactMinDifferenceFromBaseline** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
-| **driverImpactMinSamples** | In the Driver Impact report, the minimum number of respondents to display results. Viva Glint standard: 20 |
-| **Exclude negative strengths and positive weaknesses?** | Exclude negative strengths and positive weaknesses for Driver Impact calculation. |
-| **Whether to allow the users to look up questionnaires without a kiosk** | Allow users to access attribute-based surveys without a registered kiosk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230745) |
+| **Comments Search Threshold** | Comments don't display for fewer question responses than this threshold. Viva Glint standard: 10 |
+| **Comments Confidentiality Threshold** | Comments don't display by topics for fewer responses than this threshold. Viva Glint standard: 10 |
+| **Minimum Difference for Driver Impact Report** | In the Driver Impact report, the minimum difference from the item score for the entire company. Viva Glint standard: 5 |
+| **Driver Impact Report Threshold** | In the Driver Impact report, the minimum number of respondents to display results. Viva Glint standard: 20 |
+| **Exclude negative strengths and positive weaknesses** | Exclude negative strengths and positive weaknesses for Driver Impact calculation. |
+| **Enable Kiosk Page** | Allow users to access attribute-based surveys without a registered kiosk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230745) |
 | **Self-Serve Mode** | EDIT_AND_CREATE allows admins to edit and create survey programs |
-| **Support Users for Pulse Notifications** | No action needed, leave blank |
+| **Support Users for Survey Notifications** | No action needed, leave blank |
 | **Action Plans to Goals enabled?** | No action needed, leave as true |
-| **Questionnaire Theme** | Default theme selected. No action needed, leave blank |
-| **Enable Cross Program Filtering?** | Filter results across multiple surveys programs. Viva Glint standard: true |
-| **Does the client have LinkedIn Learning LSEP license?** | Employees have unlimited access to all LinkedIn Learning content |
+| **Enable Cross Program Filtering** | Filter results across multiple surveys programs. Viva Glint standard: true |
 | **Percentage Probability of following up on marked question** | To encourage open-ended comments, percentage of users that will be prompted with follow-up questions in surveys. Viva Glint standard: 15 |
-| **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that will see in-product feedback questions in their dashboard. Viva Glint standard: 10 |
+| **Frequency of in-product feedback shown MLE Dashboard** | Percentage of users that will see in-product feedback questions in their Team Summary dashboard. Viva Glint standard: 100 |
+| **Frequency of in-product feedback shown on non-MLE Dashboard** | Percentage of users that will see in-product feedback questions in their non-Team Summary dashboard. Viva Glint standard: 10 |
 | **Enable Filter Suppression on Scores** | Disable users' ability to filter to teams whose scores are suppressed |
 
 ### Menu option - Surveys
 
 For a simpler view of existing survey programs, from the admin dashboard, select the **Configure** symbol, then in **Surveys** select **Survey Programs**. Use the **Advanced Configuration Surveys** option to view advanced technical details related to your survey programs including:
 
-- Last modified by user
 - Name
 - Type
 - State
-- Program template name
+- Program
 - Start Date
 - Frequency
 - Recurrence Rule
@@ -122,8 +127,6 @@ Select a survey program to view more details and options:
 | **Minimum Respondent size for Driver Impact Report** | Blank. Refer to platform-level settings in Details |
 | **Minimum Respondent Size for Comments** | Blank. Refer to platform-level settings in Details |
 | **Minimum Group Size for Comments** | Blank. Refer to platform-level settings in Details |
-| **Manager Report Default Question 1** | Displays selection from Survey Programs: Survey: Reporting |
-| **Manager Report Default Question 2** | Displays selection from Survey Programs: Survey: Reporting |
 | **Run action plans** | True. Generate action plans for eligible users |
 | **Default survey locale** | Displays selection from Survey Programs: Survey: Program Setup |
 | **Additional Survey Locales** | Displays selection from Survey Programs: Survey: Program Setup |

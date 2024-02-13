@@ -136,6 +136,7 @@
   "need_generate_pdf": false,
   "redirection_files": [
     ".openpublishing.redirection.json",
-    ".openpublishing.redirection.WorkplaceAnalytics.json"
+    ".openpublishing.redirection.WorkplaceAnalytics.json",
+    ".openpublishing.redirection.viva.json"
   ]
 }

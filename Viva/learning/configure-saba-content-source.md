@@ -2,9 +2,9 @@
 title: Configure Saba as a content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to configure Saba as a learning content source for Microsoft Viva Learning.
 ---
 
@@ -83,9 +83,6 @@ The account used for Saba setup must have the following security roles:
 > [!NOTE]
 > Currently, all the users within an organization can discover all the tenant-specific courses but they will only be able to consume the courses that they have access to. User-specific content discovery based on roles and permissions is planned for future releases.
 
-> [!NOTE]
-> Content Type Limitation: Currently, Viva Learning doesn't support "Curriculum" and "Certification" content types from Saba Cloud LMS.
-
 ## Learner record sync
 
 Select **Enable Learner Record Sync** to enable assignments and course completion records to sync from the learning management system to Viva Learning. Users from your organization will then be able to see their assigned and completed courses from your LMS within Viva Learning.  
@@ -96,3 +93,11 @@ By enabling this, you're allowing Viva Learning to fetch user information, user 
 - LastName
 - Username
 
+## Pre-requisite for enabling SSO
+
+Refer to the [Azure Active Directory (AAD) single sign-on (SSO) integration with Saba Cloud](/azure/active-directory/saas-apps/saba-cloud-tutorial) topic for configuration information on enabling SSO.
+
+Ensure that the SSO configuration on AAD and Saba is same and that the users login method on Saba is set to "SSO."
+
+>[!NOTE]
+> If the SSO on both AAD and Saba are already configured in the tenant, as described in the above documentation, then no action is required.

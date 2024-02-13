@@ -99,7 +99,7 @@ Set-DefaultTenantMyAnalyticsFeatureConfig -Feature Meeting-Effectiveness-Survey-
 As the admin, you can use the [Exchange Online PowerShell V2](/powershell/module/exchange/set-vivainsightssettings) module to set access [for one user](#set-access-for-one-user) or [for multiple users](#set-access-for-multiple-users) for meeting effectiveness surveys.
 
 >[!Note]
->The following user-level configuration can only be modified when users have P1 licenses enabled for Viva Insights.
+>The following admin-level configuration can only be modified when users have a Viva Insights subscription.
 
 #### Check a user's access
 

@@ -1,9 +1,9 @@
 ---
 title: Reporting setup in Program Summary of Viva Glint
 description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Live access, phased access, BTI, broader team insights, aggregate indices, aggregate index 
@@ -15,48 +15,71 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/13/2023
+ms.date: 01/22/2024
 ---
 
 # Reporting setup in Program Summary
 
-The Reporting page allows admins to customize how dashboards are set up and how specific roles view survey results.
+The Reporting page allows admins to see and customize how dashboards are set up for specific User Roles to view survey results.
 
-In the **Program Roles** section, you'll see which User Roles have access to the survey results for this program. The dropdown menu contains User Roles that you have already created and allows you to select report settings. Each role displays in its own box.
+:::image type="content" source="../../media/glint/program-summary-reporting.png" alt-text="Screenshot that shows how to access Reporting in Program Summary.":::
 
-## Procedure
+## View and add Program Roles
 
-To give extra User Roles access to view this program's survey results:
+In the **Program Roles** section, you'll see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) have been permissioned to see survey results. 
 
-1. Select **Add Role**.
-   >[!NOTE]
-   > User Roles need to be created first to appear. Refer to [Set Up User Roles](https://go.microsoft.com/fwlink/?linkid=2230740).
-2. Select the desired **Reporting Access:**
-   1. **Live Access**: Roles have full access to results as they come in, and when surveys are completed.
-   2. **Phased Access**: Roles don't have automatic access to Live or completed surveys until they're granted access by the admin, on a per program case. This access does allow retained access to previous surveys and other data inside Viva Glint programs.
-3. Toggle **Concierge Visibility** to enable or disable Manager Concierge. [Visit Manager Concierge for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231115).
-   >[!TIP]
-   > Use Manager Concierge for your manager to get the most out of their survey feedback.
-4. Toggle **Broader Team Insights** to enable or disable a roll-up level of survey results that can be visible to managers if they haven't met survey confidentiality thresholds within their team. [Visit Broader Team Insights for a deeper dive](https://go.microsoft.com/fwlink/?linkid=2231012).
-5. Team Conversations is enabled by default. Toggle to **OFF** to disable this feature.
-6. Select the desired **Dashboard Default** from the dropdown menu.
-   >[!TIP]
-   > Company Admin roles should have the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010) and all others should have [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210).
-7. Recommended reports will prepopulate. To add extra **Report Template Access**, use the **Search** field. Select the **X** next to the report to remove a Report Template access.
-8. If you need to delete a role for this survey, select **Delete Role** in that role box.
-9. Repeat the steps for each extra role.
+### View Program Roles already permissioned to see feedback for this program
 
-## Finish additional schedule setup
+Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
+**Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned. Assigned permissions include:
+
+ - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
+ - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
+ - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
+ - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
+   
+ > [!IMPORTANT]
+ > Company Admin roles be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
+   
+ - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
+
+:::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
+
+### Add Program Roles to permission them to see feedback for this program
+
+To add User Roles to a program, select **Add Role**. The dropdown menu displays User Roles already created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select any roles that should have reporting permissions for this program. The User Role name now appears as its own row.
+
+>[!TIP]
+>Use the up or down arrow to view or close permissions set up for each role.
+
+:::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature.":::
+
+## Set up reporting for this program
+There are six fields to set up for your program.
 
 ### Aggregate Indices
 
+For most surveys, using aggregate indices is not recommended. Aggregates are groups of questions which are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, these are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
+
 If adding an Aggregate Index:
 
-1. Select **+ Add Aggregate Index**.
-2. In the **Create Aggregate** panel, enter a name. For example, <Engagement\> or the name, which makes the most sense for your users.
-3. In the **Search Questions** dropdown menu, search and select **eSat** and **Recommend** items.
-4. Select **Save** and then **Add to Program**.
-5. Select **X** to close the panel.
+1. Select **+ Add Aggregate Index** to open the Create Aggregate slider window.
+2. In the new window, enter an aggregate name of your choosing. 
+3. For **Calculation Method**, choose from one of the following options:
+   - Select **Average** - Recommended. Select from all rating questions. Qverage score = (a+b+...+n)/n, with the range from 0 to 100.  
+   - Select **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
+   >[!CAUTION]
+   >If you change the calculation method, you'll need to reselect at least one question below.
+
+   > [!NOTE]
+   > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
+   
+5. In the **Add Questions** dropdown menu, search and select your items to be grouped together. Your questions should now appear in the **Selected Questions** box. 
+6. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
+7. Select **Save and Add to Program**.
+8. Select **X** to close the slider window.
+
+:::image type="content" source="../../media/glint/program-summary-reporting-create-aggregate.png" alt-text="Screenshot of the Create Aggregate slide window in Reporting setup.":::
 
 >[!TIP]
 > Use Glint's 2-item Standard Engagement Index and no other aggregates. Glint has strong benchmarks on this measurement, which can provide insightful focus areas in results reporting.
@@ -66,26 +89,42 @@ If adding an Aggregate Index:
 
 ### Key Outcome
 
-Select the desired **Key Outcome** from the dropdown menu.
+Select the desired **Key Outcome** from the dropdown menu. The key outcome is usually the main result of the survey. It can be the score from a single question or an aggregate index. This appears as the most prominent score displayed in most reports.
+
+:::image type="content" source="../../media/glint/program-summary-reporting-key-outcome.png" alt-text="Screenshot of the Key Outcome dropdown menu in Reporting setup.":::
+
+> [!NOTE]
+> Changes to key outcome will be displayed immediately upon saving.
 
 ### Driver Impact Outcomes
 
-Select the **Driver Impact Outcomes** from the search field.
+Select the **Driver Impact Outcomes** from the search field. Select a set of outcome questions or aggregates that will be used for driver impact analysis. This analysis will calculate the impact of each question or aggregate on the selected outcome and show it on a chart.
+
+:::image type="content" source="../../media/glint/program-summary-reporting-driver-impact.png" alt-text="Screenshot of the Driver Impact Outcomes section in Reporting setup.":::
 
 ### Manager Report Defaults
 
-Select the desired **Manager Report Defaults**.
+Select the desired **Manager Report Defaults**. Select up to two questions that will appear by default in the manager report.
+
+:::image type="content" source="../../media/glint/program-summary-reporting-manager-defaults.png" alt-text="Screenshot of an example of survey items that appear on a  manager's dashboard.":::
 
 ### PowerPoint Export Template
 
-Select the desired **PowerPoint Export** template.
+Select your desired **PowerPoint Export** template. The Viva Glint ACT guide appears as the default export.
 
-### Boarder Team Insights PowerPoint Export Template
+:::image type="content" source="../../media/glint/program-summary-reporting-export-template.png" alt-text="Screenshot of the template choices for exporting a reporting PowerPoint.":::
+
+### Broader Team Insights Export Template 
 
 Select the desired **Broader Team Insights PowerPoint Export** template.
 
-To complete this page, select the right-facing arrow to **Save & Continue**.
+:::image type="content" source="../../media/glint/program-summary-reporting-bti.png" alt-text="Screenshot of the template choices for exporting a Broader Team Insight report.":::
 
-## Related topics
+**To complete this page, select the right-facing arrow to **Save & Continue**.**
 
-[Set up Program Summary pages for a Viva Glint survey](program-summary-overview.md)
+### Next step
+
+> [!div class="nextstepaction"]
+> [Move onto Communications setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342)
+
+

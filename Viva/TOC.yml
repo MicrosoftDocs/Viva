@@ -19,6 +19,8 @@ items:
       href: microsoft-viva-admin-roles.md
     - name: Microsoft Viva language support
       href: viva-language-support.md
+    - name: Use Organizational Data in Microsoft 365
+      href: organizational-data.md      
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview
@@ -29,10 +31,14 @@ items:
         href: viva-security.md
       - name: Compliance in Microsoft Viva
         href: viva-compliance.md
+      - name: Control access to Viva features
+        href: feature-access-management.md  
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Solutions guides for Microsoft Viva
       href: /viva/solutions/solutions
+    - name: Self-help diagnostics for Viva administrators
+      href: /viva/troubleshoot/viva-suite-administration/viva-self-help-diagnostics?toc=/viva/toc.json&bc=/viva/breadcrumb/toc.json 
   - name: Microsoft Viva Connections
     href: connections/viva-connections-overview.md
   - name: Microsoft Viva Engage

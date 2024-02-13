@@ -2,7 +2,7 @@
 title: Use the new Microsoft Viva admin experience in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/23/2021
 audience: admin
@@ -15,6 +15,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
+  - essentials-manage
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: View the new Microsoft 365 Admin Experience for Viva Learning.

@@ -3,14 +3,15 @@ title: "Microsoft Viva for the hybrid workplace: Frontline workers"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 ms.date: 4/20/2023
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - Tier1
@@ -20,18 +21,18 @@ description: "Learn how front line workers can thrive in a hybrid workplace with
 ---
 
 # Microsoft Viva for the hybrid workplace: Frontline workers
-Frontline workers want to do things like see their schedules and be able to easily check in and check out of their shifts, view organizational communications, take part in group conversations, track assigned tasks and more all in one place. The suite of Viva apps and Microsoft Teams can help them do all this while they’re on the go working directly with customers, the general public, or helping manufacture and distribute products. Here are some ways these apps support frontline workers.
+Frontline workers want to do things like see their schedules and be able to easily check in and check out of their shifts, view organizational communications, take part in group conversations, track assigned tasks and more all in one place. The suite of Viva apps and Microsoft Teams can help them do all of this while they’re on the go.
 
 | Viva Connections | Microsoft Teams | Viva Insights | Viva Learning | Viva Engage |
 | ---|---|---|---|---|
- | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide ability to set aside time for focus and balance during a busy day | Target specific training for frontline workers | Provide the ability to share and consume just-in-time information with their co-workers, team leads, and supervisors.
+ | Provide easy access to tasks and information in one place, including things like Shifts or Assigned tasks. | Use Teams apps like Shifts, Planner, and others to populate the Dashboard. | Provide opportunity to set aside time for focus and balance during a busy day | Target specific training for frontline workers | Provide the tools to share and consume just-in-time information with their co-workers, team leads, and supervisors.
 
 **Roles for this scenario**:
 Managers and supervisors, corporate communications specialists, SharePoint site owners and page authors, Viva Engage admins, Teams admins, and Viva Engage community web admins.
 
 #### Provide easy access to tools in one place with Viva Connections
 
-With Viva Connections, you can provide your frontline workers with a single-entry point on multiple devices using the Viva Connections Dashboard. The Dashboard can provide quick access to a variety of tasks including tracking time, checking tasks, catching up on conversations, and seeing the latest news and videos from your organization.
+With Viva Connections, you can provide your frontline workers with a single-entry point on multiple devices using the Viva Connections Dashboard. The Dashboard can provide quick access to tasks including tracking time, checking tasks, catching up on conversations, and seeing the latest news and videos from your organization.
 
 ![Dashboard](../media/connections/dashboard-frontline.png) 
 
@@ -49,7 +50,7 @@ Front line workers often “go go go” all day. You can help them build a sense
 Learn more about Viva Insights and how it helps protect and organize time in [Supporting work/life balance](/Viva/solutions/viva-work-life-balance).
 
 #### Target training with Viva Learning
-Learning new skills is an ongoing process. In a hybrid environment, it is essential that employees can learn from wherever they are, and Viva Learning can be accessed on the desktop or on a mobile device within Teams.
+Learning new skills is an ongoing process. In a hybrid environment, it is essential that employees can learn from wherever they are. Viva Learning can be accessed on the desktop or on a mobile device within Teams.
 
 ![Learning page](../media/learning.png)
 
@@ -57,18 +58,18 @@ You can assign and recommend learning content to individuals, share content with
 
 See [Incorporate learning into your organization](/viva/solutions/incorporate-learning) for a full guide.
 
-Let’s say that your employees need to learn new policies in relationship to their work. Or, your employees might want to explore career development or up their skills in technology. All they have to do is open Teams on their mobile device, open the Learning app, see which courses you have assigned, and which courses are recommended based on their interests. They can also browse all of the available courses.
+Let’s say that your employees need to learn new policies in relationship to their work. Or, your employees might want to explore career development or up their skills in technology. All they have to do is open Teams on their mobile device, open the Learning app, see which courses you assigned and which courses are recommended. They can also browse all of the available courses.
 
-Content from Microsoft Learn and Microsoft 365 Training is automatically available in Viva Learning. You'll also have free access to a set of 125 courses from LinkedIn Learning. In addition, Viva Learning can integrate with select third-party content providers and learning management systems. For more information about how admins and knowledge admins can set up content sources, see [Manage content sources for Viva Learning](/viva/learning/content-sources-365-admin-center).
+Content from Microsoft Learn and Microsoft 365 Training is automatically available in Viva Learning. You have free access to a set of 125 courses from LinkedIn Learning. In addition, Viva Learning can integrate with select third-party content providers and learning management systems. For more information about how admins and knowledge admins can set up content sources, see [Manage content sources for Viva Learning](/viva/learning/content-sources-365-admin-center).
 
-By adding SharePoint as a learning source for Viva Learning, you can create and add your own organization’s training materials to Viva Learning. 
+By adding SharePoint as a learning source for Viva Learning, you can create and add your own organization’s training materials to Viva Learning.
 
-The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the [step-by-guide](/viva/learning/configure-sharepoint-content-source) on how to do this.
+The knowledge admin (or global administrator) provides a site URL to where the Learning Service can create a centralized location in the form of a structured SharePoint list. This list is called the Learning App Content Repository. Your organization can use this list to house links to cross-company SharePoint folders that contain learning content. See the [step-by-guide](/viva/learning/configure-sharepoint-content-source) for more information.
 
-Once you have Learning set up, you can make it easily discoverable from your Viva Connections Dashboard by adding a Learning app card to it. To do this, go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Learning from the property pane on the right. Get more information about [getting started with Viva Connections](/Viva/connections/guide-to-setting-up-viva-connections).
+Once you have Learning set up, you can make it easily discoverable from your Viva Connections Dashboard by adding a Learning app card to it. Just go to your Dashboard in SharePoint, add the Teams app card to your dashboard, and search for and select Viva Learning from the property pane on the right. Get more information about [getting started with Viva Connections](/Viva/connections/guide-to-setting-up-viva-connections).
 
 #### Connect with Viva Engage
-Viva Engage serves the needs of knowledge-sharing, employee experiences, company-wide communications, and leadership engagement by providing a central place for your conversations, files, events, and updates. This can be especially useful for frontline workers to share and consume just-in-time information with their co-workers, team leads, and supervisors. See how to [Manage a community in Viva Engage](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294).
+Viva Engage is the central place for knowledge-sharing, employee experiences, company-wide communications, and leadership engagement. Engage puts your conversations, files, events, and updates all in one place. This can be especially useful for frontline workers to get and share just-in-time information with their co-workers, team leads, and supervisors. See how to [Manage a community in Viva Engage](https://support.microsoft.com/office/manage-yammer-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294).
 
 Additionally, you can use the Viva Engage app for Microsoft Teams and the Viva Engage web part on your home page (or other pages) in SharePoint Online.
 When you use the [Viva Engage app for Microsoft Teams](https://support.microsoft.com/en-us/topic/getting-started-with-microsoft-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284), you can also [add it to Viva Connections as a card to your dashboard](/viva/connections/create-dashboard), making it easy for your employees to find.

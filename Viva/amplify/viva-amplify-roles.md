@@ -4,7 +4,7 @@ ms.reviewer:
 ms.date: 09/13/2023
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - Tier1
+  - essentials-manage
 ms.localizationpriority: medium
 description: Learn about admin and user roles and permissions in Microsoft Viva Amplify.
 ---

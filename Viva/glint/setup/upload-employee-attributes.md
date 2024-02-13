@@ -3,7 +3,7 @@ title: Upload your employee attributes in Viva Glint
 description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: file requirements, upload attributes, manual upload, update attributes, Employee Attribute File
@@ -14,8 +14,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
-ms.date: 03/23/2023
+ms.localizationpriority: high
+ms.date: 1/23/2024
 ---
 
 # Upload your employee attributes to Viva Glint
@@ -24,6 +24,9 @@ User file imports help admins to keep users current with their organization's HR
 
 >[!WARNING]
 > For security reasons, never email your employee attributes file.
+
+> [!CAUTION]
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
 
 ### File requirements
 
@@ -56,11 +59,20 @@ The following steps guide you through the process of importing the attributes ma
 4. Select the checkbox when updating all employee records, both in the file and in the system. 
 5. Drag and drop your file or browse to select it. 
 
-    Select **Import File**. A message appears, informing you that an email is sent once the upload is ready for review and then confirm your changes.
+    Select **Import File**. A message appears, informing you that an email sends once the upload is ready for review and confirmation.
 6. Then, select **Close**.
+7. After receiving the file upload email, go to the **People page** to confirm your upload.
+   1. Alternatively, refresh the People page to monitor the upload status in the progress bar at the top of the page.
+8. Select the **Review Upload** button in the top right of the People page.
+9. In the **Confirm your import** dialog that appears, before selecting **Confirm Import**:
+   1. Confirm that the **employees moved to inactive** count is accurate.
+   2. Confirm that the **employee change** count is accurate.
+   3. Confirm that the **employees added** count is accurate.
+   1. [Troubleshoot errors](https://go.microsoft.com/fwlink/?linkid=2230863) as needed.
 
 > [!NOTE]
-> Only the user performing the upload will receive an email when the file has processed.
+> - Only the user performing the upload will receive an email when the file has processed.
+> - If the file isn't confirmed within 60 minutes of upload, it's cancelled.
 
 ## Update your employee data regularly
 
@@ -74,3 +86,4 @@ Your company can send employee data updates whenever necessary and based on what
 ## Related topics
 
 - [Create Employee Attribute Template](create-employee-attribute-template.md)
+- [Understand upload errors and warnings](https://go.microsoft.com/fwlink/?linkid=2230863)

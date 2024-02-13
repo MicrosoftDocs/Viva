@@ -2,9 +2,9 @@
 title: Advanced Searching within Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/28/2023
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: A guide to advanced search options that help you search for content within Viva Learning. 
 ---
 
@@ -101,7 +101,7 @@ The following attributes require you to input precise values matching all charac
 > The Id field can be used only for content from Microsoft Learn, M365 trainings, LinkedIn Learning, Coursera, Infosec, JBA, Pluralsight and edX. Support for other providers is in progress.
 
 Some fields support approximate matching of queries. The [exact match](#find-an-exact-match) feature mentioned above can be used with these fields using double quotes.
-Using quotes in these fields will result in exact match in that field:
+Using quotes in these fields result in exact match in that field:
 
 - Title
 - Description
@@ -137,7 +137,7 @@ Note the following considerations:
 |Find content that is 10 minutes long| `Duration: 600`|
 |Find content using IDs| `Id:(learn-bizapps.power-bi-admin-automate OR urn:li:lyndaCourse:3007803)` |
 
-Here is how the search results will display for a single attribute query: 
+Here's how the search results display for a single attribute query: 
 
 ![An example of a single attribute query that refines searches by a provider, Microsoft Learn](../media/learning/advanced-search1.png)
 
@@ -165,7 +165,7 @@ Multiple attribute - multiple value| `<attribute>`:`(<value> OR <value2>...)` AN
 |Find courses that are either 10 or 15 minutes long| `Duration: (600 OR 900) AND Type: (Course)`|
 |Find content by a specific author within a particular provider| `Author:(Lori Mullen) AND Provider:(LinkedIn Learning)` |
 
-Here is how the search results will display for a multiple attribute query: 
+Here's how the search results display for a multiple attribute query: 
 
 ![An example of a multiple attribute query that refines searches by content from a provider (Microsoft Learn) with the term "react" in its title.](../media/learning/advanced-search2.png)
 

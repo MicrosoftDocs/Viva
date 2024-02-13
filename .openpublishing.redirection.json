@@ -1,1469 +1,1530 @@
 {
-    "redirections": [
-      {
-        "source_path": "viva/learning/configure-successfactors-content-source.md",
-         "redirect_url": "/viva/learning/sfsf-introduction",
-         "redirect_document_id": true
-     },
+  "redirections": [
     {
-        "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/get-started/roles-in-viva-pulse.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/provide-feedback/respond-to-pulse.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/provide-feedback/view-feedback-provided.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/request-feedback/create-pulse.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/request-feedback/view-sent-pulses.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
-        "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-in-app-experience.md",
-        "redirect_url": "/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-org.md",
-        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-for-your-organization",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-teams-admin-center.md",
-        "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-for-your-organization.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      }, 
-      {
-        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
-        "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-feedback-author.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },           
-      {
-        "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
-        "redirect_url": "/insights/viva-teams-app",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/new/viva-insights-home.md",
-        "redirect_url": "/insights/viva-insights-home",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app-use-insights.md",
-        "redirect_url": "/insights/viva-insights-home",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/teams-app.md",
-        "redirect_url": "/insights/viva-teams-app",
-        "redirect_document_id": false
-      },        
-      {
-        "source_path": "teams-insights/new/viva-insights-praise.md",
-        "redirect_url": "/insights/viva-insights-praise",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-insights-protect-time.md",
-        "redirect_url": "/insights/viva-insights-protect-time",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-insights-reflect.md",
-        "redirect_url": "/insights/viva-insights-reflect",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-insights-stay-connected.md",
-        "redirect_url": "/insights/viva-insights-stay-connected",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-insights-virtual-commute.md",
-        "redirect_url": "/insights/viva-insights-virtual-commute",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app.md",
-        "redirect_url": "/insights/viva-teams-app",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app-admin-tasks.md",
-        "redirect_url": "/insights/viva-teams-app-admin-tasks",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app-admin-tasks.md",
-        "redirect_url": "/insights/viva-teams-app-admin-tasks",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app-faq.md",
-        "redirect_url": "/insights/viva-teams-app-faq",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app-faq.md",
-        "redirect_url": "/insights/viva-teams-app-faq",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app-install.md",
-        "redirect_url": "/insights/viva-teams-app-install",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app-install.md",
-        "redirect_url": "/insights/viva-teams-app-install",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app-privacy.md",
-        "redirect_url": "/insights/viva-teams-app-privacy",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "teams-insights/teams-app-privacy.md",
-        "redirect_url": "/insights/viva-teams-app-privacy",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "teams-insights/new/viva-teams-app-settings.md",
-        "redirect_url": "/insights/viva-teams-app-settings",
-        "redirect_document_id": true
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/data-access.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export",
-        "redirect_document_id": true
-      },      
-      {
-        "source_path": "WorkplaceAnalytics/data-access/meetings.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetings",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/meetingparticipants.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#meetingparticipants",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/personhistorical.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#personhistorical",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/mailparticipants.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#mailparticipants",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/mails.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#mails",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/calls.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#calls",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/callparticipants.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#callparticipants",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/instantmessages.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessages",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/instantmessageparticipants.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessageparticipants",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/data-access/query-data-export.md",
-        "redirect_url": "/workplace-analytics/azure-templates/data-export#automate-query-data-export-to-azure-with-azure-data-factory-ui",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "WorkplaceAnalytics/index.md",
-        "redirect_url": "/viva",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Briefing/index.md",
-        "redirect_url": "/viva/insights/personal/Briefing/be-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Teams-insights/index.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/index.md",
-        "redirect_url": "/viva/connections/viva-connections-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/advanced/analyst/metric-rules.md",
-        "redirect_url": "/viva/insights/advanced/analyst/metric-rules",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/analyst/templates/introduction.md",
-        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/advanced/analyst/templates/business-resilience.md",
-        "redirect_url": "/viva/insights/advanced/analyst/templates/business-resilience",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/advanced/analyst/templates/introduction.md",
-        "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
-        "redirect_document_id": false
-      },
-      {  
-        "source_path": "viva/insights/overview/Getting-Support.md",
-        "redirect_url": "/viva/insights/overview/get-support",
-        "redirect_document_id": false
-      },
-      {  
-        "source_path": "viva/insights/overview/Explore-Metrics-Week-in-the-Life.md",
-        "redirect_url": "/viva/insights/use/explore-metrics-week-life",
-        "redirect_document_id": false
-      },
-      {  
-        "source_path": "viva/insights/setup/partitions-in-wpa.md",
-        "redirect_url": "/viva/insights/setup/partitions-wpa",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/use-the-insights.md",
-        "redirect_url": "/viva/insights/personal/use/use-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/api.md",
-        "redirect_url": "/viva/insights/advanced/analyst/api",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/partner-integration.md",
-        "redirect_url": "/viva/insights/advanced/analyst/partner-integration",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/viva-insights-my-org.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/myteam.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/team-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/my-team-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/my-org-meeting-effectiveness.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/my-org-manager-connection.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/myorg-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights-faq",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/setup/ml-insights-setup.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/myteam-explore.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/group-insights.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/viva-insights-my-team.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/use/viva-insights-myorg.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/analyst/metrics.md",
-        "redirect_url": "/viva/insights/advanced/reference/metrics",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/delay-delivery.md",
-        "redirect_url": "/viva/insights/personal/use/schedule-send",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/delay-delivery-1.md",
-        "redirect_url": "/viva/insights/personal/use/schedule-send",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/slack-integration.md",
-        "redirect_url": "/viva/goals/slack-collaborate-with-viva-goals",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-mobile.md",
-        "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-mobile",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-admin-center.md",
-        "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-admin-center",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/troubleshoot/cant-update-app-details.md",
-        "redirect_url": "/viva/troubleshoot/connections/cant-update-app-details",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/troubleshoot/cant-upload-package.md",
-        "redirect_url": "/viva/troubleshoot/connections/cant-upload-package",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/troubleshoot/error-accessing-app-from-teams-desktop.md",
-        "redirect_url": "/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/learning/lms-content-ingestion-errors.md",
-        "redirect_url": "/viva/troubleshoot/learning/lms-content-ingestion-errors",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/learning/provider-content-ingestion-errors.md",
-        "redirect_url": "/viva/troubleshoot/learning/provider-content-ingestion-errors",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/executive.md",
-        "redirect_url": "/viva/insights/personal/teams/effective-meetings",
-        "redirect_document_id": false
-      },
-      {  
-        "source_path": "viva/insights/advanced/setup-maint/new-admin-experience.md",
+      "source_path": "viva/learning/configure-successfactors-content-source.md",
+      "redirect_url": "/viva/learning/sfsf-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/get-started/intro-to-viva-pulse.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/get-started/roles-in-viva-pulse.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/provide-feedback/respond-to-pulse.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/provide-feedback/view-feedback-provided.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/request-feedback/create-pulse.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/request-feedback/view-sent-pulses.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/access-teams-or-web.md",
+      "redirect_url": "/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-in-app-experience.md",
+      "redirect_url": "/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-org.md",
+      "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-for-your-organization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-teams-admin-center.md",
+      "redirect_url": "/viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-pulse-for-your-organization.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-pulse-in-teams-admin-center.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/setup-admin-access/set-up-viva-pulse-public-preview-for-your-organization.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-shared-report-viewer.md",
+      "redirect_url": "/viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/pulse/view-and-share-feedback-results/view-and-share-feedback-author.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/view-and-share-feedback-results/view-feedback-shared-report-viewer.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/MyAnalytics/Use/teams-app.md",
+      "redirect_url": "/insights/viva-teams-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-home.md",
+      "redirect_url": "/insights/viva-insights-home",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/teams-app-use-insights.md",
+      "redirect_url": "/insights/viva-insights-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/teams-app.md",
+      "redirect_url": "/insights/viva-teams-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-praise.md",
+      "redirect_url": "/insights/viva-insights-praise",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-protect-time.md",
+      "redirect_url": "/insights/viva-insights-protect-time",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-reflect.md",
+      "redirect_url": "/insights/viva-insights-reflect",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-stay-connected.md",
+      "redirect_url": "/insights/viva-insights-stay-connected",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-insights-virtual-commute.md",
+      "redirect_url": "/insights/viva-insights-virtual-commute",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app.md",
+      "redirect_url": "/insights/viva-teams-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app-admin-tasks.md",
+      "redirect_url": "/insights/viva-teams-app-admin-tasks",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/teams-app-admin-tasks.md",
+      "redirect_url": "/insights/viva-teams-app-admin-tasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app-faq.md",
+      "redirect_url": "/insights/viva-teams-app-faq",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/teams-app-faq.md",
+      "redirect_url": "/insights/viva-teams-app-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app-install.md",
+      "redirect_url": "/insights/viva-teams-app-install",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/teams-app-install.md",
+      "redirect_url": "/insights/viva-teams-app-install",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app-privacy.md",
+      "redirect_url": "/insights/viva-teams-app-privacy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "teams-insights/teams-app-privacy.md",
+      "redirect_url": "/insights/viva-teams-app-privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "teams-insights/new/viva-teams-app-settings.md",
+      "redirect_url": "/insights/viva-teams-app-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/data-access.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/meetings.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/meetingparticipants.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#meetingparticipants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/personhistorical.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#personhistorical",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/mailparticipants.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#mailparticipants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/mails.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#mails",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/calls.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/callparticipants.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#callparticipants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/instantmessages.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/instantmessageparticipants.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#instantmessageparticipants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/data-access/query-data-export.md",
+      "redirect_url": "/workplace-analytics/azure-templates/data-export#automate-query-data-export-to-azure-with-azure-data-factory-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "WorkplaceAnalytics/index.md",
+      "redirect_url": "/viva",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Briefing/index.md",
+      "redirect_url": "/viva/insights/personal/Briefing/be-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Teams-insights/index.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/index.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/advanced/analyst/metric-rules.md",
+      "redirect_url": "/viva/insights/advanced/analyst/metric-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/analyst/templates/introduction.md",
+      "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/advanced/analyst/templates/business-resilience.md",
+      "redirect_url": "/viva/insights/advanced/analyst/templates/business-resilience",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/advanced/analyst/templates/introduction.md",
+      "redirect_url": "/viva/insights/advanced/analyst/templates/introduction-to-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/overview/Getting-Support.md",
+      "redirect_url": "/viva/insights/overview/get-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/overview/Explore-Metrics-Week-in-the-Life.md",
+      "redirect_url": "/viva/insights/use/explore-metrics-week-life",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/setup/partitions-in-wpa.md",
+      "redirect_url": "/viva/insights/setup/partitions-wpa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/use-the-insights.md",
+      "redirect_url": "/viva/insights/personal/use/use-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/analyst/templates/diversity-equity-inclusion.md",
+      "redirect_url": "/viva/insights/advanced/analyst/templates/growth-inclusion-engagement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/api.md",
+      "redirect_url": "/viva/insights/advanced/analyst/api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/partner-integration.md",
+      "redirect_url": "/viva/insights/advanced/analyst/partner-integration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/viva-insights-my-org.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/myteam.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/team-insights.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/my-team-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/my-org-meeting-effectiveness.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/my-org-manager-connection.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/myorg-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/setup/ml-insights-setup.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/myteam-explore.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/group-insights.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/viva-insights-my-team.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/viva-insights-myorg.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/analyst/metrics.md",
+      "redirect_url": "/viva/insights/advanced/reference/metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/delay-delivery.md",
+      "redirect_url": "/viva/insights/personal/use/schedule-send",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/delay-delivery-1.md",
+      "redirect_url": "/viva/insights/personal/use/schedule-send",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/slack-integration.md",
+      "redirect_url": "/viva/goals/slack-collaborate-with-viva-goals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-mobile.md",
+      "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-mobile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/troubleshoot/cant-find-app-in-teams-admin-center.md",
+      "redirect_url": "/viva/troubleshoot/connections/cant-find-app-in-teams-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/troubleshoot/cant-update-app-details.md",
+      "redirect_url": "/viva/troubleshoot/connections/cant-update-app-details",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/troubleshoot/cant-upload-package.md",
+      "redirect_url": "/viva/troubleshoot/connections/cant-upload-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/troubleshoot/error-accessing-app-from-teams-desktop.md",
+      "redirect_url": "/viva/troubleshoot/connections/error-accessing-app-from-teams-desktop",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/learning/lms-content-ingestion-errors.md",
+      "redirect_url": "/viva/troubleshoot/learning/lms-content-ingestion-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/learning/provider-content-ingestion-errors.md",
+      "redirect_url": "/viva/troubleshoot/learning/provider-content-ingestion-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/executive.md",
+      "redirect_url": "/viva/insights/personal/teams/effective-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/setup-maint/new-admin-experience.md",
       "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
       "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/collaboration.md",
-        "redirect_url": "/viva/insights/personal/teams/effective-meetings",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/dashboard-2.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/focus.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/leadership.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-trends",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/network.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-stay-connected",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/wellbeing.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/protect-time.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/home-web.md",
-        "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/tutorials/power-bi-myorg.md",
-        "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
-        "redirect_document_id": false
-      },
-      {
+    },
+    {
+      "source_path": "viva/insights/personal/use/collaboration.md",
+      "redirect_url": "/viva/insights/personal/teams/effective-meetings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/dashboard-2.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/focus.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/leadership.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-trends",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/network.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-stay-connected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/wellbeing.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/protect-time.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-protect-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/home-web.md",
+      "redirect_url": "/viva/insights/personal/teams/viva-insights-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/tutorials/power-bi-myorg.md",
+      "redirect_url": "/viva/insights/org-team-insights/employee-experience-pbi",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/advanced/reference/supported-langugages.md",
       "redirect_url": "/viva/insights/advanced/reference/supported-languages",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/goals/creating-okrs.md",
       "redirect_url": "https://support.microsoft.com/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/goals/okr-check-ins.md",
       "redirect_url": "https://support.microsoft.com/topic/check-in-with-viva-goals-c0244789-4388-4d2d-9d20-3678900d9b98",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/goals/closing-and-scoring.md",
       "redirect_url": "https://support.microsoft.com/topic/close-okrs-in-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/goals/review-dashboard.md",
       "redirect_url": "https://support.microsoft.com/topic/review-dashboard-in-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
       "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/introduction.md",
-        "redirect_url": "https://support.microsoft.com/topic/f07f80a1-177d-4541-9185-31493b74fc0f",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/viva-teams-app-install.md",
-        "redirect_url": "https://support.microsoft.com/topic/3b8db3ff-17b7-4d41-b2eb-f593530abfc7",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/settings.md",
-        "redirect_url": "https://support.microsoft.com/topic/e7d25f88-d102-4740-a7d0-af8610b457c5",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/privacy.md",
-        "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/productivity.md",
-        "redirect_url": "https://support.microsoft.com/topic/8448269d-ea8f-45fe-a84d-793c1ca7ba68",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/home.md",
-        "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/praise.md",
-        "redirect_url": "https://support.microsoft.com/topic/4977c923-f3d1-4134-9d1c-ee29dc01ae27",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/inspiration.md",
-        "redirect_url": "https://support.microsoft.com/topic/45b4f206-b1da-4082-bf5e-5a35232b70b8",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/meeting-habits.md",
-        "redirect_url": "https://support.microsoft.com/topic/f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/meeting-category-insights.md",
-        "redirect_url": "https://support.microsoft.com/topic/17962415-0c3a-4931-9aa8-3191a7b6337a",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/meeting-effectiveness-surveys.md",
-        "redirect_url": "https://support.microsoft.com/topic/2eb63cc8-a6a1-4ab8-b643-80da6562aa22",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/shared-meeting-plan.md",
-        "redirect_url": "https://support.microsoft.com/topic/30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/suggested-tasks.md",
-        "redirect_url": "https://support.microsoft.com/topic/b326af14-e527-43c2-a4d8-92f6700ce18f",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/teamwork.md",
-        "redirect_url": "https://support.microsoft.com/topic/cca98877-be3a-47f3-ad4a-acc88111f0cb",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/network.md",
-        "redirect_url": "https://support.microsoft.com/topic/c8df3951-ade3-4eb2-8339-a8ce5d04c550",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/wellbeing.md",
-        "redirect_url": "https://support.microsoft.com/topic/72458b43-11a3-40b8-8b6f-14f6a0977e4b",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/time-management.md",
-        "redirect_url": "https://support.microsoft.com/topic/da568337-8568-47cd-9f47-213537873571",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/shared-no-meeting-day.md",
-        "redirect_url": "https://support.microsoft.com/topic/32d22a61-280f-487d-b352-47effe338fbb",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/focus.md",
-        "redirect_url": "https://support.microsoft.com/topic/41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/focus-plan.md",
-        "redirect_url": "https://support.microsoft.com/topic/a079a744-010e-4fee-8552-a2799d0c62ea",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/shared-focus-plan.md",
-        "redirect_url": "https://support.microsoft.com/topic/6847226d-e5b1-498a-a7a5-e77d4405bb97",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/headspace.md",
-        "redirect_url": "https://support.microsoft.com/topic/c5c807e1-b10c-4d41-9120-b2ac914dcc72",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/quiet-time.md",
-        "redirect_url": "https://support.microsoft.com/topic/ec70888d-8840-4f20-9819-af6bfc17e143",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reflect.md",
-        "redirect_url": "https://support.microsoft.com/topic/55379cb7-cf2a-408d-b740-2b2082eb3743",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/virtual-commute.md",
-        "redirect_url": "https://support.microsoft.com/topic/8be83785-f5ec-4e84-8cff-f0abb117f876",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/schedule-send.md",
-        "redirect_url": "https://support.microsoft.com/topic/6f9a22b6-b269-4264-93f2-55b5254d3c62",
-        "redirect_document_id": false
-      },
-
-      {
-        "source_path": "viva/insights/personal/introduction.md",
-        "redirect_url": "https://support.microsoft.com/topic/1d501790-479b-44f4-9876-97538869fc73",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/overview/privacy-guide-users.md",
-        "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/email-digests-3.md",
-        "redirect_url": "https://support.microsoft.com/topic/0e8b9a77-d1ce-4139-82bc-e91a3cb909c3",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/add-in.md",
-        "redirect_url": "https://support.microsoft.com/topic/48b73ccf-4086-4f13-9f62-dcee91a9df6d",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/use-insights.md",
-        "redirect_url": "https://support.microsoft.com/topic/83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/mya-notifications.md",
-        "redirect_url": "https://support.microsoft.com/topic/064a323e-6dc7-40e9-ab1b-199de8d39db5",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/schedule-send.md",
-        "redirect_url": "https://support.microsoft.com/topic/0b0c0c20-8fa1-44b9-b5bc-57f160046639",
-        "redirect_document_id": false
-      },
-      {
+    },
+    {
+      "source_path": "viva/insights/personal/teams/introduction.md",
+      "redirect_url": "https://support.microsoft.com/topic/f07f80a1-177d-4541-9185-31493b74fc0f",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-teams-app-install.md",
+      "redirect_url": "https://support.microsoft.com/topic/3b8db3ff-17b7-4d41-b2eb-f593530abfc7",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/settings.md",
+      "redirect_url": "https://support.microsoft.com/topic/e7d25f88-d102-4740-a7d0-af8610b457c5",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/privacy.md",
+      "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/productivity.md",
+      "redirect_url": "https://support.microsoft.com/topic/8448269d-ea8f-45fe-a84d-793c1ca7ba68",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/home.md",
+      "redirect_url": "https://support.microsoft.com/topic/6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/praise.md",
+      "redirect_url": "https://support.microsoft.com/topic/4977c923-f3d1-4134-9d1c-ee29dc01ae27",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/inspiration.md",
+      "redirect_url": "https://support.microsoft.com/topic/45b4f206-b1da-4082-bf5e-5a35232b70b8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/meeting-habits.md",
+      "redirect_url": "https://support.microsoft.com/topic/f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/meeting-category-insights.md",
+      "redirect_url": "https://support.microsoft.com/topic/17962415-0c3a-4931-9aa8-3191a7b6337a",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/meeting-effectiveness-surveys.md",
+      "redirect_url": "https://support.microsoft.com/topic/2eb63cc8-a6a1-4ab8-b643-80da6562aa22",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/shared-meeting-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/suggested-tasks.md",
+      "redirect_url": "https://support.microsoft.com/topic/b326af14-e527-43c2-a4d8-92f6700ce18f",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/teamwork.md",
+      "redirect_url": "https://support.microsoft.com/topic/cca98877-be3a-47f3-ad4a-acc88111f0cb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/network.md",
+      "redirect_url": "https://support.microsoft.com/topic/c8df3951-ade3-4eb2-8339-a8ce5d04c550",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/wellbeing.md",
+      "redirect_url": "https://support.microsoft.com/topic/72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/time-management.md",
+      "redirect_url": "https://support.microsoft.com/topic/da568337-8568-47cd-9f47-213537873571",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/shared-no-meeting-day.md",
+      "redirect_url": "https://support.microsoft.com/topic/32d22a61-280f-487d-b352-47effe338fbb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/focus.md",
+      "redirect_url": "https://support.microsoft.com/topic/41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/focus-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/a079a744-010e-4fee-8552-a2799d0c62ea",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/shared-focus-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/6847226d-e5b1-498a-a7a5-e77d4405bb97",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/headspace.md",
+      "redirect_url": "https://support.microsoft.com/topic/c5c807e1-b10c-4d41-9120-b2ac914dcc72",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/quiet-time.md",
+      "redirect_url": "https://support.microsoft.com/topic/ec70888d-8840-4f20-9819-af6bfc17e143",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reflect.md",
+      "redirect_url": "https://support.microsoft.com/topic/55379cb7-cf2a-408d-b740-2b2082eb3743",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/virtual-commute.md",
+      "redirect_url": "https://support.microsoft.com/topic/8be83785-f5ec-4e84-8cff-f0abb117f876",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/schedule-send.md",
+      "redirect_url": "https://support.microsoft.com/topic/6f9a22b6-b269-4264-93f2-55b5254d3c62",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/introduction.md",
+      "redirect_url": "https://support.microsoft.com/topic/1d501790-479b-44f4-9876-97538869fc73",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/overview/privacy-guide-users.md",
+      "redirect_url": "https://support.microsoft.com/topic/8f2c038c-f80c-4512-bf4c-90a0423377f2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/email-digests-3.md",
+      "redirect_url": "https://support.microsoft.com/topic/0e8b9a77-d1ce-4139-82bc-e91a3cb909c3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/add-in.md",
+      "redirect_url": "https://support.microsoft.com/topic/48b73ccf-4086-4f13-9f62-dcee91a9df6d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/use-insights.md",
+      "redirect_url": "https://support.microsoft.com/topic/83d09caa-bfe8-4cb9-8f64-30afd79cc75d",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-notifications.md",
+      "redirect_url": "https://support.microsoft.com/topic/064a323e-6dc7-40e9-ab1b-199de8d39db5",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/schedule-send.md",
+      "redirect_url": "https://support.microsoft.com/topic/0b0c0c20-8fa1-44b9-b5bc-57f160046639",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/personal/setup/mya-disable-insights.md",
       "redirect_url": "/viva/insights/personal/setup/configure",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/use/solutions-scan.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/solutionsv2-intro.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/solutionsv2-conceptual.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/solutionsv2-participants.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/solutionsv2-task.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/teamwork-solution.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/tutorials/seller-success.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
+    },
+    {
       "source_path": "viva/insights/manager-insights/plans.md",
       "redirect_url": "/viva/insights/overview/get-started",
       "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/kr-types.md",
-        "redirect_url": "/viva/solutions/kr-types",
-        "redirect_document_id": false
-        },
-      {
-        "source_path": "viva/insights/personal/teams/send-card.md",
-        "redirect_url": "/viva/insights/personal/introduction",
-        "redirect_document_id": false
-        },
-      {
-        "source_path": "viva/insights/Tutorials/bcrps.md",
-        "redirect_url": "/microsoft-365/admin/adoption/adoption-score",
-        "redirect_document_id": false
-        },
-      {"source_path": "viva/insights/advanced/analyst/metric-rules-2.md",
-        "redirect_url": "viva/insights/advanced/analyst/metric-rules",
-        "redirect_document_id": false
-        },
-      {"source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
-          "redirect_url": "/viva/connections/set-up-admin-center",
-          "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
+    },
+    {
+      "source_path": "viva/goals/kr-types.md",
+      "redirect_url": "/viva/solutions/kr-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/send-card.md",
+      "redirect_url": "/viva/insights/personal/introduction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/Tutorials/bcrps.md",
+      "redirect_url": "/microsoft-365/admin/adoption/adoption-score",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/reference/errors.md",
+      "redirect_url": "/viva/troubleshoot/insights/viva-insights-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/analyst/metric-rules-2.md",
+      "redirect_url": "viva/insights/advanced/analyst/metric-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/guide-to-setting-up-viva-connections.md",
+      "redirect_url": "/viva/connections/set-up-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/employee-experience-pbi.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/employee-wellbeing.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/employee-wellbeing.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/manager-connection.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/manager-connection.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/meeting-effectiveness.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/meeting-effectiveness.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/org-trends-faq.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/org-trends-faq.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/org-trends.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/org-trends.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/setup.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/setup.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/shared-no-meeting-day.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/shared-no-meeting-day.md",
       "redirect_url": "/viva/insights/personal/teams/shared-no-meeting-day",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/teamwork-habits-faq.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/teamwork-habits-faq.md",
       "redirect_url": "/viva/insights/org-team-insights/team-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/teamwork-habits.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/teamwork-habits.md",
       "redirect_url": "/viva/insights/org-team-insights/team-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/new/team-insights.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/new/team-insights.md",
       "redirect_url": "/viva/insights/org-team-insights/team-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/new/org-insights.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/new/org-insights.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/org-team-insights/new/org-insights-faqs.md",
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/new/org-insights-faqs.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/effective-meetings.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/effective-meetings.md",
       "redirect_url": "/viva/insights/personal/teams/productivity",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/inspiration.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/inspiration.md",
       "redirect_url": "/viva/insights/personal/teams/inspiration",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/shared-meeting-plan.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/shared-meeting-plan.md",
       "redirect_url": "/viva/insights/personal/teams/shared-meeting-plan",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-insights-headspace.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-headspace.md",
       "redirect_url": "/viva/insights/personal/teams/headspace",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/viva-insights-home.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-home.md",
       "redirect_url": "/viva/insights/personal/teams/home",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-insights-praise.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-praise.md",
       "redirect_url": "/viva/insights/personal/teams/praise",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-insights-protect-time.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-protect-time.md",
       "redirect_url": "/viva/insights/personal/teams/wellbeing",
       "redirect_document_id": false
-      },     
-      {"source_path": "viva/insights/personal/teams/viva-insights-reflect.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-reflect.md",
       "redirect_url": "/viva/insights/personal/teams/reflect",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/viva-insights-stay-connected.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-stay-connected.md",
       "redirect_url": "/viva/insights/personal/teams/teamwork",
       "redirect_document_id": false
-      },      {"source_path": "viva/insights/personal/teams/viva-insights-virtual-commute.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-insights-virtual-commute.md",
       "redirect_url": "/viva/insights/personal/teams/virtual-commute",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-teams-app-privacy.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-teams-app-privacy.md",
       "redirect_url": "/viva/insights/personal/teams/privacy",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-teams-app-settings.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-teams-app-settings.md",
       "redirect_url": "/viva/insights/personal/teams/settings",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/viva-teams-app.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-teams-app.md",
       "redirect_url": "/viva/insights/personal/teams/introduction",
       "redirect_document_id": false
-      },  
-      {"source_path": "viva/insights/personal/teams/new/introduction.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/introduction.md",
       "redirect_url": "/viva/insights/personal/teams/introduction",
       "redirect_document_id": false
-      },       
-      {"source_path": "viva/insights/personal/teams/new/faq.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/faq.md",
       "redirect_url": "/viva/insights/personal/teams/faq",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/new/focus-plan.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/focus-plan.md",
       "redirect_url": "/viva/insights/personal/teams/focus-plan",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/new/focus.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/focus.md",
       "redirect_url": "/viva/insights/personal/teams/focus",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/headspace.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/headspace.md",
       "redirect_url": "/viva/insights/personal/teams/headspace",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/meeting-category-insights.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/meeting-category-insights.md",
       "redirect_url": "/viva/insights/personal/teams/meeting-category-insights",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/meeting-effectiveness-surveys.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/meeting-effectiveness-surveys.md",
       "redirect_url": "/viva/insights/personal/teams/meeting-effectiveness-surveys",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/meeting-habits.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/meeting-habits.md",
       "redirect_url": "/viva/insights/personal/teams/meeting-habits",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/praise.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/praise.md",
       "redirect_url": "/viva/insights/personal/teams/praise",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/privacy.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/privacy.md",
       "redirect_url": "/viva/insights/personal/teams/privacy",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/productivity.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/productivity.md",
       "redirect_url": "/viva/insights/personal/teams/productivity",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/quiet-time.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/quiet-time.md",
       "redirect_url": "/viva/insights/personal/teams/quiet-time",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/reflect.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/reflect.md",
       "redirect_url": "/viva/insights/personal/teams/reflect",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/settings.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/settings.md",
       "redirect_url": "/viva/insights/personal/teams/settings",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/shared-no-meeting-day.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/shared-no-meeting-day.md",
       "redirect_url": "/viva/insights/personal/teams/shared-no-meeting-day",
       "redirect_document_id": false
-      },      
-      {"source_path": "viva/insights/personal/teams/new/suggested-tasks.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/suggested-tasks.md",
       "redirect_url": "/viva/insights/personal/teams/suggested-tasks",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/teamwork.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/teamwork.md",
       "redirect_url": "/viva/insights/personal/teams/teamwork",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/time-management.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/time-management.md",
       "redirect_url": "/viva/insights/personal/teams/time-management",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/virtual-commute.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/virtual-commute.md",
       "redirect_url": "/viva/insights/personal/teams/virtual-commute",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/wellbeing.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/wellbeing.md",
       "redirect_url": "/viva/insights/personal/teams/wellbeing",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/viva-teams-app-faq.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/viva-teams-app-faq.md",
       "redirect_url": "/viva/insights/personal/teams/faq",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/use/focus-plan.md",
+    },
+    {
+      "source_path": "viva/insights/personal/use/focus-plan.md",
       "redirect_url": "/viva/insights/personal/teams/focus-plan",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/new/home.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/new/home.md",
       "redirect_url": "/viva/insights/personal/teams/home",
       "redirect_document_id": false
-      },
-      {"source_path": "viva/insights/personal/teams/focus-mode.md",
+    },
+    {
+      "source_path": "viva/insights/personal/teams/focus-mode.md",
       "redirect_url": "/viva/insights/personal/teams/focus",
       "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/projects.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/review-dashboard-templates.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/align-okrs.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1#bkmk_alignokrs",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/business-rhythms.md",
-        "redirect_url": "https://learn.microsoft.com/en-us/viva/solutions/rhythm-of-business-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/goals/bookmarks-in-viva-goals.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/topics/index.md",
-        "redirect_url": "/viva/topics/topic-experiences-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/employee-experience-pbi.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/employee-wellbeing.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/manager-connection.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/manager-updates.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/meeting-effectiveness.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/org-trends-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/org-trends.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/setup.md",
-        "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/shared-no-meeting-day.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/teamwork-habits-faq.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/org-team-insights/reference/teamwork-habits.md",
-        "redirect_url": "/viva/insights/org-team-insights/team-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/effective-meetings.md",
-        "redirect_url": "https://support.microsoft.com/topic/meeting-habits-in-viva-insights-f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/focus-mode.md",
-        "redirect_url": "https://support.microsoft.com/topic/focus-with-viva-insights-41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/inspiration.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/inspiration-library-in-viva-insights-45b4f206-b1da-4082-bf5e-5a35232b70b8",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/introduction.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/shared-meeting-plan.md",
-        "redirect_url": "https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-headspace.md",
-        "redirect_url": "https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-protect-time.md",
-        "redirect_url": "https://support.microsoft.com/topic/wellbeing-tab-in-viva-insights-72458b43-11a3-40b8-8b6f-14f6a0977e4b",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-home.md",
-        "redirect_url": "https://support.microsoft.com/topic/viva-insights-home-tab-6e7d28b2-6b0e-4367-9b52-1999a86eb391",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-praise.md",
-        "redirect_url": "https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27s",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-reflect.md",
-        "redirect_url": "https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-stay-connected.md",
-        "redirect_url": "https://support.microsoft.com/topic/teamwork-tab-in-viva-insights-cca98877-be3a-47f3-ad4a-acc88111f0cb",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-insights-virtual-commute.md",
-        "redirect_url": "https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-teams-app.md",
-        "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-teams-app-faq.md",
-        "redirect_url": "/viva/insights/personal/teams/faq",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
-        "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/topics/topic-experiences-Yammer.md",
-        "redirect_url": "/viva/topics/topic-experiences-viva-engage",
-        "redirect_document_id": false
-           
-      },
-      {  
-        "source_path": "viva/connections/viva-connections-setup-guide.md",
-        "redirect_url": "/viva/connections/set-up-admin-center",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/connections/add-viva-connections-app.md",
-        "redirect_url": "/viva/connections/set-up-admin-center",
-        "redirect_document_id":false
-      },
-      {
-        "source_path": "viva/insights/use/qualtrics.md",
-        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/align-loose-vs-tight.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/align-okrs-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/align-okrs-recommendations.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/apply-okr-formula.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/check-in-okrs-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/check-in-recommendations.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/close-okrs-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/close-recommendations.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-recommendations",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/department-alignment-dashboard.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/healthy-okr-program-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/kr-types.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/kr-types",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/leadership-strategy-dashboard.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/okr-examples.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/okr-examples",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/organization-visibility-dashboard.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/rhythm-of-business-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/rob-recommendations.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rob-recommendations",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/team-execution-dashboard.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/write-annual-top-level-okrs.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/write-okrs-overview.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/solutions/write-okrs-recommendations.md",
-        "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-recommendations",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/Glint/start/results-rollout-templates.md",
-        "redirect_url": "/viva/glint/communicate/results-rollout-templates",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/solutions/data-lakes/microsoft-graph-data-connect.md",
-        "redirect_url": "/previous-version/viva/solutions/data-lakes/microsoft-graph-data-connect",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/solutions/data-lakes/viva-insights.md",
-        "redirect_url": "/previous-version/Viva/solutions/data-lakes/viva-insights.md",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/setup-maint/maintenance.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/setup-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/advanced/setup-maint/setup.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/privacy-settings",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/setup/configure.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/overview/plans-environments.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/environment-requirements",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/overview/mya-for-admins.md",
-        "redirect_url": "/viva/insights/personal/setup/deployment-guide",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
-        "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md",
-        "redirect_url": "/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/eac-answers-overview-setup.md",
-        "redirect_url": "/viva/engage/eac-answers-overview-set-up",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-users/live-events.md",
-        "redirect_url": "/viva/engage/organize-live-event",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/configure-your-viva-engage-network/native-mode.md",
-        "redirect_url": "/viva/engage/configure-your-viva-engage-network/configure-native-mode",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/work-with-external-users/collaborate-guests-external-yammer-community.md",
-        "redirect_url": "/viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/engage/index.md",
-        "redirect_url": "/viva/engage/overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365.md",
-        "redirect_url": "/viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
-        "redirect_url": "/viva/engage/eac-key-admin-roles-permissions",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
-        "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
-        "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-users/turn-off-user-access.md",
-        "redirect_url": "/viva/engage/eac-as-access-eac",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/get-started-with-viva-engage/viva-engage-faq.md",
-        "redirect_url": "/viva/engage/overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/get-started-with-viva-engage/admin-key-concepts.md",
-        "redirect_url": "/viva/engage/admin-key-concepts",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/get-started-with-viva-engage/admin-quick-start.md",
-        "redirect_url": "/viva/engage/setup",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-groups/configure-conversation-reporting.md",
-        "redirect_url": "/viva/engage/report-converstaion-overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-basic-data.md",
-        "redirect_url": "/viva/engage/eac-as-manage-data",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/set-up-a-usage-policy.md",
-        "redirect_url": "/viva/engage/set-up-usage-policy",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/troubleshoot-problems/limited-functionality-in-explorer-10-document-mode.md",
-        "redirect_url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-users/manage-licenses-in-office-365.md",
-        "redirect_url": "/viva/engage/manage-engage-licenses-microsoft-365",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/track-viva-engage-events.md",
-        "redirect_url": "/viva/engage/track-engage-events",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-basic.md",
-        "redirect_url": "/viva/engage//manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups.md",
-        "redirect_url": "/viva/engage/engage-microsoft-365-groups",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/troubleshoot-problems/troubleshoot-native-mode.md",
-        "redirect_url": "/viva/engage/troubleshoot-native-mode",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide.md",
-        "redirect_url": "/viva/engage/native-mode-guide",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/people-in-viva/index.md",
-        "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/opt-out-of-mya.md",
-        "redirect_url": "https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/mya-welcome-email.md",
-        "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/pulse/index.md",
-        "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/glint/index.md",
-        "redirect_url": "/viva/glint/introduction-viva-glint",
-        "redirect_document_id": false
-      },
-      {
-        "source_path":"viva/engage/manage-viva-engage-groups/favorite-communities.md",
-        "redirect_url": "https://support.microsoft.com/en-us/office/add-a-viva-engage-community-to-your-favorites-097ec090-f4ee-4eb4-a1f9-1c6971c093ab?storagetype=live",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-live-events-documentation.md",
-        "redirect_url": "/viva/engage/organize-live-event",
-        "redirect_document_id":false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-produce-live-events-from-your-device-coming-soon.md",
-        "redirect_url": "/viva/engage/organize-live-event",
-        "redirect_document_id":false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data.md",
-        "redirect_url": "/viva/engage/eac-as-manage-data",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-viva-engage-groups/live-events.md",
-        "redirect_url": "/viva/engage/organize-live-event",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/engage/manage-security-and-compliance/advanced-ediscovery.md",
-        "redirect_url": "/viva/engage/overview",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "Viva/insights/use/zoom.md",
-        "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/mya-landing-page.md",
-        "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/setup/verify-add-in.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
-        "redirect_document_id": false
-      },
-      {
-        "source_path": "viva/insights/personal/use/mya-elements.md",
-        "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
-        "redirect_document_id": false
-        },
-      {
-        "source_path": "viva/insights/personal/teams/index.yml",
-        "redirect_url": "https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3",
-        "redirect_document_id": false
-      },
+    },
+    {
+      "source_path": "viva/goals/projects.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/review-dashboard-templates.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/align-okrs.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1#bkmk_alignokrs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/business-rhythms.md",
+      "redirect_url": "https://learn.microsoft.com/en-us/viva/solutions/rhythm-of-business-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/bookmarks-in-viva-goals.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/topics/index.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/employee-experience-pbi.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/employee-wellbeing.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/manager-connection.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/manager-updates.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/meeting-effectiveness.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/org-trends-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/org-trends.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/setup.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/shared-no-meeting-day.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/teamwork-habits-faq.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/reference/teamwork-habits.md",
+      "redirect_url": "/viva/insights/org-team-insights/team-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/effective-meetings.md",
+      "redirect_url": "https://support.microsoft.com/topic/meeting-habits-in-viva-insights-f41f7aa9-6d4a-40bb-b00a-36170f9dbbba",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/focus-mode.md",
+      "redirect_url": "https://support.microsoft.com/topic/focus-with-viva-insights-41e6274d-a1ac-42a5-8e9e-ac432e0447c9",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/inspiration.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/inspiration-library-in-viva-insights-45b4f206-b1da-4082-bf5e-5a35232b70b8",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/introduction.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/shared-meeting-plan.md",
+      "redirect_url": "https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-headspace.md",
+      "redirect_url": "https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-protect-time.md",
+      "redirect_url": "https://support.microsoft.com/topic/wellbeing-tab-in-viva-insights-72458b43-11a3-40b8-8b6f-14f6a0977e4b",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-home.md",
+      "redirect_url": "https://support.microsoft.com/topic/viva-insights-home-tab-6e7d28b2-6b0e-4367-9b52-1999a86eb391",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-praise.md",
+      "redirect_url": "https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27s",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-reflect.md",
+      "redirect_url": "https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-stay-connected.md",
+      "redirect_url": "https://support.microsoft.com/topic/teamwork-tab-in-viva-insights-cca98877-be3a-47f3-ad4a-acc88111f0cb",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-insights-virtual-commute.md",
+      "redirect_url": "https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-teams-app.md",
+      "redirect_url": "https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-teams-app-faq.md",
+      "redirect_url": "/viva/insights/personal/teams/faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/reference/viva-teams-app-settings.md",
+      "redirect_url": "https://support.microsoft.com/topic/configure-your-app-settings-in-viva-insights-e7d25f88-d102-4740-a7d0-af8610b457c5",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/topics/topic-experiences-Yammer.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-viva-engage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/viva-connections-setup-guide.md",
+      "redirect_url": "/viva/connections/set-up-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/connections/add-viva-connections-app.md",
+      "redirect_url": "/viva/connections/set-up-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/use/qualtrics.md",
+      "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/align-loose-vs-tight.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/align-okrs-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/align-okrs-recommendations.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/apply-okr-formula.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/check-in-okrs-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/check-in-recommendations.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/close-okrs-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/close-recommendations.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/close-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/department-alignment-dashboard.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/healthy-okr-program-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/kr-types.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/kr-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/leadership-strategy-dashboard.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/okr-examples.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/okr-examples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/organization-visibility-dashboard.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/rhythm-of-business-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/rob-recommendations.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/rob-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/team-execution-dashboard.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/write-annual-top-level-okrs.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/write-okrs-overview.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/solutions/write-okrs-recommendations.md",
+      "redirect_url": "/viva/solutions/viva-goals-healthy-okr-program/write-okrs-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/Glint/start/results-rollout-templates.md",
+      "redirect_url": "/viva/glint/communicate/results-rollout-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/solutions/data-lakes/microsoft-graph-data-connect.md",
+      "redirect_url": "/previous-version/viva/solutions/data-lakes/microsoft-graph-data-connect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/solutions/data-lakes/viva-insights.md",
+      "redirect_url": "/previous-version/Viva/solutions/data-lakes/viva-insights.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/setup-maint/assign-admin-roles.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/assign-user-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/setup-maint/maintenance.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/setup-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/setup-maint/setup.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/privacy-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/setup/configure.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/overview/plans-environments.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/environment-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/overview/mya-for-admins.md",
+      "redirect_url": "/viva/insights/personal/setup/deployment-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/azure-ad-b2b-guests-engage.md",
+      "redirect_url": "/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks.md",
+      "redirect_url": "/viva/engage/configure-your-viva-engage-network/consolidate-multiple-networks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/eac-answers-overview-setup.md",
+      "redirect_url": "/viva/engage/eac-answers-overview-set-up",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/live-events.md",
+      "redirect_url": "/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/configure-your-viva-engage-network/native-mode.md",
+      "redirect_url": "/viva/engage/configure-your-viva-engage-network/configure-native-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/work-with-external-users/collaborate-guests-external-yammer-community.md",
+      "redirect_url": "/viva/engage/work-with-external-users/collaborate-guests-external-viva-engage-community",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/engage/index.md",
+      "redirect_url": "/viva/engage/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365.md",
+      "redirect_url": "/viva/engage/configure-your-viva-engage-network/manage-viva-engage-domains",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/manage-viva-engage-admins.md",
+      "redirect_url": "/viva/engage/eac-key-admin-roles-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/overview-of-ediscovery.md",
+      "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/FAQ-ediscovery.md",
+      "redirect_url": "/viva/engage/manage-security-and-compliance/security-and-compliance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/turn-off-user-access.md",
+      "redirect_url": "/viva/engage/eac-as-access-eac",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/get-started-with-viva-engage/viva-engage-faq.md",
+      "redirect_url": "/viva/engage/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/get-started-with-viva-engage/admin-key-concepts.md",
+      "redirect_url": "/viva/engage/admin-key-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/get-started-with-viva-engage/admin-quick-start.md",
+      "redirect_url": "/viva/engage/setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/configure-conversation-reporting.md",
+      "redirect_url": "/viva/engage/report-converstaion-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-basic-data.md",
+      "redirect_url": "/viva/engage/eac-as-manage-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/set-up-a-usage-policy.md",
+      "redirect_url": "/viva/engage/set-up-usage-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/troubleshoot-problems/limited-functionality-in-explorer-10-document-mode.md",
+      "redirect_url": "https://www.microsoft.com/en-us/microsoft-365/microsoft-365-and-office-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/manage-licenses-in-office-365.md",
+      "redirect_url": "/viva/engage/manage-engage-licenses-microsoft-365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/track-viva-engage-events.md",
+      "redirect_url": "/viva/engage/track-engage-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-basic.md",
+      "redirect_url": "/viva/engage//manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-and-office-365-groups.md",
+      "redirect_url": "/viva/engage/engage-microsoft-365-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/troubleshoot-problems/troubleshoot-native-mode.md",
+      "redirect_url": "/viva/engage/troubleshoot-native-mode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/engage/configure-your-viva-engage-network/native-mode-step-by-step-guide.md",
+      "redirect_url": "/viva/engage/native-mode-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/people-in-viva/index.md",
+      "redirect_url": "/viva/people-in-viva/introducing-org-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/opt-out-of-mya.md",
+      "redirect_url": "https://support.microsoft.com/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-welcome-email.md",
+      "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/index.md",
+      "redirect_url": "/viva/pulse/introduction-to-viva-pulse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/glint/index.md",
+      "redirect_url": "/viva/glint/introduction-viva-glint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/engage/manage-viva-engage-groups/favorite-communities.md",
+      "redirect_url": "https://support.microsoft.com/en-us/office/add-a-viva-engage-community-to-your-favorites-097ec090-f4ee-4eb4-a1f9-1c6971c093ab?storagetype=live",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-live-events-documentation.md",
+      "redirect_url": "/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-produce-live-events-from-your-device-coming-soon.md",
+      "redirect_url": "/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/export-viva-engage-enterprise-data.md",
+      "redirect_url": "/viva/engage/eac-as-manage-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-groups/live-events.md",
+      "redirect_url": "/viva/engage/organize-live-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/engage/manage-security-and-compliance/advanced-ediscovery.md",
+      "redirect_url": "/viva/engage/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/insights/use/zoom.md",
+      "redirect_url": "/viva/insights/advanced/introduction-to-advanced-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/mya-landing-page.md",
+      "redirect_url": "https://support.microsoft.com/topic/personal-insights-in-viva-insights-1d501790-479b-44f4-9876-97538869fc73",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/setup/verify-add-in.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/use/mya-elements.md",
+      "redirect_url": "/viva/insights/advanced/setup-maint/configure-personal-insights#to-enable-access-to-Viva-Insights-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/personal/teams/index.yml",
+      "redirect_url": "https://support.microsoft.com/office/viva-insights-in-teams-and-on-the-web-436b9928-5867-433a-abd5-188e0262e5e3",
+      "redirect_document_id": false
+    },
     {
       "source_path": "viva/insights/personal/use/mya-adoption/adopt-habit-building.md",
       "redirect_url": "https://adoption.microsoft.com/viva/insights/#adoption",
@@ -1574,70 +1635,70 @@
       "redirect_url": "/viva/insights/personal/overview/mya-faq",
       "redirect_document_id": false
     },
-        {
-        "source_path": "Viva/solutions/complex-organization-insights.md",
-        "redirect_url": "/previous-versions/viva/complex-organization-insights",
-        "redirect_document_id": "FALSE"
+    {
+      "source_path": "Viva/solutions/complex-organization-insights.md",
+      "redirect_url": "/previous-versions/viva/complex-organization-insights",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/hybrid-workforce-experience-intro.md",
-        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-intro",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/hybrid-workforce-experience-intro.md",
+      "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-intro",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/hybrid-workforce-experience-source-files.md",
-        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-source-files",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/hybrid-workforce-experience-source-files.md",
+      "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-source-files",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/hybrid-workforce-experience-template.md",
-        "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-template",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/hybrid-workforce-experience-template.md",
+      "redirect_url": "/previous-versions/viva/hybrid-workforce-experience-template",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/organizational-network-analysis/gephi-for-ona.md",
-        "redirect_url": "/previous-versions/viva/gephi-for-ona",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/organizational-network-analysis/gephi-for-ona.md",
+      "redirect_url": "/previous-versions/viva/gephi-for-ona",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/organizational-network-analysis/organizational-network-analysis.md",
-        "redirect_url": "/previous-versions/viva/organizational-network-analysis",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/organizational-network-analysis/organizational-network-analysis.md",
+      "redirect_url": "/previous-versions/viva/organizational-network-analysis",
+      "redirect_document_id": false
     },
     {
-        "source_path": "Viva/solutions/slack-integration.md",
-        "redirect_url": "/previous-versions/viva/slack-integration",
-        "redirect_document_id": "FALSE"
+      "source_path": "Viva/solutions/slack-integration.md",
+      "redirect_url": "/previous-versions/viva/slack-integration",
+      "redirect_document_id": false
     },
     {
       "source_path": "Viva/insights/personal/overview/vi-trial.md",
       "redirect_url": "/viva/insights/introduction",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
     {
       "source_path": "viva/insights/use/shared-focus-plan.md",
       "redirect_url": "https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
-    { 
+    {
       "source_path": "Viva/engage/configure-your-viva-engage-network/manage-storyline-viva.md",
       "redirect_url": "/viva/engage/eac-storyline",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
-    { 
+    {
       "source_path": "Viva/insights/personal/overview/better-work-habits.md",
       "redirect_url": "/viva/insights/introduction",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
-    { 
+    {
       "source_path": "Viva/glint/setup/set-up-attributes.md",
       "redirect_url": "/viva/glint/setup/send-employee-attributes",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
-    { 
+    {
       "source_path": "Viva/glint/setup/create-employee-attribute-file.md",
       "redirect_url": "/viva/glint/setup/send-employee-attributes",
-      "redirect_document_id": "FALSE"
+      "redirect_document_id": false
     },
     {
       "source_path": "Viva/glint/setup/add-a-public-ssh-key.md",
@@ -1648,7 +1709,7 @@
       "source_path": "Viva/glint/setup/configure-sftp.md",
       "redirect_url": "/viva/glint/setup/upload-employee-data",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "Viva/glint/setup/setup-sftp.md",
       "redirect_url": "/viva/glint/setup/upload-employee-data",
@@ -1661,17 +1722,257 @@
     },
     {
       "source_path": "Viva/engage/manage-viva-engage-groups/viva-engage-terms-faq.md",
-      "redirect_url":"/viva/engage/organize-live-event",
+      "redirect_url": "/viva/engage/organize-live-event",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "Viva/glint/setup/third-party-notice.md",
-      "redirect_url":"/legal/viva/glint/third-party-notice",
+      "redirect_url": "/legal/viva/glint/third-party-notice",
       "redirect_document_id": false
     },
     {
       "source_path": "Viva/glint/setup/glint-microsoft-teams-application.md",
-      "redirect_url":"/viva/glint/introduction-viva-glint",
+      "redirect_url": "/viva/glint/introduction-viva-glint",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/add-topics-app.md",
+      "redirect_url": "/microsoft-365/topics/add-topics-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/adoption-resources.md",
+      "redirect_url": "/microsoft-365/topics/adoption-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/create-a-topic.md",
+      "redirect_url": "/microsoft-365/topics/create-a-topic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/curate-a-topic-in-multilingual.md",
+      "redirect_url": "/microsoft-365/topics/curate-a-topic-in-multilingual",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/edit-a-topic.md",
+      "redirect_url": "/microsoft-365/topics/edit-a-topic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/export-topics-powershell.md",
+      "redirect_url": "/microsoft-365/topics/export-topics-powershell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/faq-topics.md",
+      "redirect_url": "/microsoft-365/topics/faq-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/get-started-with-viva-topics.md",
+      "redirect_url": "/microsoft-365/topics/get-started-with-viva-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/manage-topics.md",
+      "redirect_url": "/microsoft-365/topics/manage-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/merge-topics.md",
+      "redirect_url": "/microsoft-365/topics/merge-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/plan-topic-experiences.md",
+      "redirect_url": "/microsoft-365/topics/plan-topic-experiences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/restrict-access-to-topics.md",
+      "redirect_url": "/microsoft-365/topics/restrict-access-to-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/save-topic-as-draft.md",
+      "redirect_url": "/microsoft-365/topics/save-topic-as-draft",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/scale-topics.md",
+      "redirect_url": "/microsoft-365/topics/scale-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/search.md",
+      "redirect_url": "/microsoft-365/topics/search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/set-up-topic-experiences.md",
+      "redirect_url": "/microsoft-365/topics/set-up-topic-experiences",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/sharepoint-taxonomy.md",
+      "redirect_url": "/microsoft-365/topics/sharepoint-taxonomy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-center-overview.md",
+      "redirect_url": "/microsoft-365/topics/topic-center-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-administration.md",
+      "redirect_url": "/microsoft-365/topics/rename-topic-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-discovery-curation.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-discovery-curation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-discovery.md",
+      "redirect_url": "/microsoft-365/topics/manage-topic-discovery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-get-ready.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-get-ready",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-knowledge-managers.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-knowledge-managers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-knowledge-rules.md",
+      "redirect_url": "/microsoft-365/topics/manage-topic-visibilty",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-overview.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-roles.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-security-privacy.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-security-privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-security-trimming.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-security-trimming",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-topic-contributors.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-topic-contributors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-user-permissions.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-user-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topic-experiences-viva-engage.md",
+      "redirect_url": "/microsoft-365/topics/topic-experiences-viva-engage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topics-adoption-getstarted.md",
+      "redirect_url": "/microsoft-365/topics/topics-adoption-getstarted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topics-analytics.md",
+      "redirect_url": "/microsoft-365/topics/topics-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topics-engagement-metrics.md",
+      "redirect_url": "/microsoft-365/topics/topics-engagement-metrics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topics-language-support.md",
+      "redirect_url": "/microsoft-365/topics/topics-language-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/topics-lightweight-management.md",
+      "redirect_url": "/microsoft-365/topics/topics-lightweight-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/trial-topics.md",
+      "redirect_url": "/microsoft-365/topics/trial-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/viva-topics-card-viva-connections.md",
+      "redirect_url": "/microsoft-365/topics/topics-card-viva-connections",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/topics/where-to-find-topics.md",
+      "redirect_url": "/microsoft-365/topics/where-to-find-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/pulse/troubleshoot-and-resolve-error-messages.md",
+      "redirect_url": "/viva/troubleshoot/pulse/fix-setup-error-messages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/glint/setup/error-messages.md",
+      "redirect_url": "/viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/glint/setup/deploy-viva-glint.md",
+      "redirect_url": "/viva/glint/setup/setup-platform-admin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/goals/use-ms-teams-integration.md",
+      "redirect_url": "/viva/goals/ms-teams-integration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/experience-role.md",
+      "redirect_url": "/viva/microsoft-viva-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/learning/sfsf-enable-browser-optimized-playback.md",
+      "redirect_url": "/viva/learning/sfsf-enable-inline-playback",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "viva/goals/renaming-initiatives.md",
+      "redirect_url": "/viva/goals/customize-terminology",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Viva/engage/manage-viva-engage-users/internet-explorer-11-retirement.md",
+      "redirect_url":"/viva/engage/overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "Viva/glint/setup/import-export-user-roles.md",
+      "redirect_url":"/viva/glint/setup/export-user-roles",
       "redirect_document_id": false
     }
   ]

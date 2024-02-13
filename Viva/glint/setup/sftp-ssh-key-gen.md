@@ -14,13 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
-ms.date: 10/18/2023
+ms.localizationpriority: high
+ms.date: 02/07/2024
 ---
 
 # Create an SSH key pair
 
 To access your Microsoft Viva Glint SFTP account, create an SSH key pair, which includes a public and private key.
+
+> [!NOTE]
+> These instructions are for individual users that connect to Viva Glint SFTP. Your organization may have an HR information system connect directly to SFTP to send employee data. Work with your HRIS team to have a SSH key pair generated for the HRIS to allow it to connect.
 
 ## Understand SSH key pair requirements
 
@@ -52,10 +55,10 @@ To create a key pair on Microsoft Windows operating systems:
 To create a key pair on Macintosh or Linux operating systems:
 
 1. Open a **Terminal** window. in Macintosh operating systems, find **Terminal** in the **Dock** or in the **Utilities** folder.
-1. Enter the following command: ssh-keygen -b 2048 -t rsa -C "your_username" -f filename
+1. Enter the following command: `ssh-keygen -b 2048 -t rsa -C "your_username" -f filename`
    1. The length, determined by -b, should be at least 2048, ideally 4096.
    1. Update **your_username** and **filename** values. 
-   1. Example: ssh-keygen -b 2048 -t rsa -C "**jsmith**" -f **vivaglint-yyyymmdd**
+   1. Example: `ssh-keygen -b 2048 -t rsa -C "jsmith" -f vivaglint-yyyymmdd`
 1. Select **enter** and follow prompts.
 1. A passphrase isn't required. Supply a passphrase or leave blank and select **enter** to continue.
 1. When successfully generated, you see these messages:

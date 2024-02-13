@@ -1,7 +1,7 @@
 ### YamlMime:Hub
 
 title: Microsoft Viva Accelerators # < 60 chars
-summary: Learn what Microsoft Viva Accelerators are and how to use them to create foundation applications and workflows to solve common business problems. These accelerators enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Insights, Microsoft Viva Topics, and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you. # < 160 chars
+summary: Learn what Microsoft Viva Accelerators are and how to use them to create foundation applications and workflows to solve common business problems. These accelerators enable you to access, transform, and utilize your existing Microsoft data sources, such as Microsoft Viva Insights, Microsoft Topics, and Microsoft Graph. The following solutions include step-by-step walkthroughs and code sample to help guide you. # < 160 chars
 brand: m365
 
 metadata:

@@ -1,6 +1,6 @@
 ---
 
-ms.date: 06/30/2023
+ms.date: 12/14/2023
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -89,21 +89,28 @@ After users get assigned licenses with an applicable service plan, they get acce
 >* _Licensed users_ have the personal insights features with Viva Insights automatically enabled after license assignment.
 >* _All users_ in your organization are opted-in, whether or not they have licenses with a Viva Insights subscription. If you want one or more licensed users to be opted _out_ by default, see [Set access for one user](../../advanced/setup-maint/configure-personal-insights.md#set-access-for-one-user) and [Set access for multiple users](../../advanced/setup-maint/configure-personal-insights.md#set-access-for-multiple-users).
 
-### Additional features
+### Other features and eligibility requirements
 
-* The following additional features are included with the [**Viva Insights subscription**](https://www.microsoft.com/microsoft-viva/buy-insights):
+| Feature/card | Requirement |
+| ------- | ------------------|
+| [Schedule send suggestions in chat](https://support.microsoft.com/topic/schedule-send-suggestions-in-teams-chat-6f9a22b6-b269-4264-93f2-55b5254d3c62) | [Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights)  |
+| [Shorten a meeting and Track email open rate (inline suggestion)](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)  | Viva Insights subscription  |
+| [Meeting category insights](https://support.microsoft.com/topic/meeting-category-insights-in-viva-insights-17962415-0c3a-4931-9aa8-3191a7b6337a)  | Viva Insights subscription  |
+| [Meeting effectiveness surveys](https://support.microsoft.com/topic/meeting-effectiveness-surveys-in-viva-insights-2eb63cc8-a6a1-4ab8-b643-80da6562aa22) | Viva Insights subscription  |
+| [Shared meeting plan (organizer)](https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4) | Viva Insights subscription  |
+| [Shared no-meeting day plan](https://support.microsoft.com/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb)  | Viva Insights subscription  |
+| [Shared focus plan](https://support.microsoft.com/topic/shared-focus-plan-6847226d-e5b1-498a-a7a5-e77d4405bb97) | Viva Insights subscription  |
+| [Schedule breaks, learning, and message catch-up](https://support.microsoft.com/topic/time-management-features-in-viva-insights-da568337-8568-47cd-9f47-213537873571)  | Viva Insights subscription  |
+| [Schedule send suggestions in email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639)  | MyAnalytics (Full) service plan |
+| [Quiet time](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics  |
+| [Focus plan](https://support.microsoft.com/topic/focus-plan-for-viva-insights-a079a744-010e-4fee-8552-a2799d0c62ea) | Insights by MyAnalytics |
+| [Send praise](https://support.microsoft.com/topic/praise-in-viva-insights-4977c923-f3d1-4134-9d1c-ee29dc01ae27) | Insights by MyAnalytics  |
+| [Virtual commute](https://support.microsoft.com/topic/virtual-commute-in-viva-insights-8be83785-f5ec-4e84-8cff-f0abb117f876) | Insights by MyAnalytics  |
+| [Headspace](https://support.microsoft.com/topic/mindfulness-content-in-viva-insights-c5c807e1-b10c-4d41-9120-b2ac914dcc72) | Insights by MyAnalytics  |
+| [Breather break](https://support.microsoft.com/topic/quiet-time-in-viva-insights-ec70888d-8840-4f20-9819-af6bfc17e143) | Insights by MyAnalytics  |
+| [Reflect](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743) | Insights by MyAnalytics  |
 
-  * Schedule send suggestions in [email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639) and [chat](https://support.microsoft.com/topic/schedule-send-suggestions-in-teams-chat-6f9a22b6-b269-4264-93f2-55b5254d3c62)
-  * [Shorten a meeting and Track email open rate (inline suggestions)](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
-  * [Meeting category insights](https://support.microsoft.com/topic/meeting-category-insights-in-viva-insights-17962415-0c3a-4931-9aa8-3191a7b6337a)
-  * [Meeting effectiveness surveys](https://support.microsoft.com/topic/meeting-effectiveness-surveys-in-viva-insights-2eb63cc8-a6a1-4ab8-b643-80da6562aa22)
-  * [Schedule Breaks, learning, and message catch-up](https://support.microsoft.com/topic/time-management-features-in-viva-insights-da568337-8568-47cd-9f47-213537873571)
-  * [Shared meeting plan (organizer)](https://support.microsoft.com/topic/shared-meeting-plan-in-viva-insights-30c3d08b-5761-4ff7-ba7d-32d9f00759a4)
-
-* The following additional features are included with the **MyAnalytics (Full) service plan**:
-
-  * [Shorten a meeting and Track email open rate (inline suggestions)](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5)
-  * [Schedule send suggestions in email](https://support.microsoft.com/topic/schedule-send-in-outlook-0b0c0c20-8fa1-44b9-b5bc-57f160046639)
+The table above isn't a complete list of Viva Insights features. Other cards might appear depending on your type of plan.
 
 ### Browser support
 
@@ -130,7 +137,7 @@ See [Briefing languages](../../personal/briefing/be-languages.md) to see what's 
   > [!Note]
   > Also refer to **Prerequisites to access the Viva Insights Outlook add in** in [About the Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d).
 
-* **Licensing exclusion**: Shared mailboxes are not supported.
+* **Licensing exclusion**: Shared mailboxes aren't supported.
 
 ## Manager, leader, and advanced insights
 
@@ -147,7 +154,7 @@ Other channels such as Cloud Solution Provider (CSP) don't support the addition 
 |Government | Government Community Cloud (GCC) supports personal insights only. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
-|Non-profit | Viva Insights can be used by non-profits but non-profit pricing isn't available. |
+|Non-profit | Viva Insights can be used by nonprofits but non-profit pricing isn't available. |
 |First-line workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
@@ -167,6 +174,12 @@ Contact your Microsoft account team for pricing. If you have questions about lic
 For the best experience, use Microsoft Edge or Google Chrome.
 
 Apple Safari and Mozilla Firefox are not preferred browsers for the advanced insights app available with Viva Insights. Internet Explorer is no longer a supported browser.
+
+## Service availability during an outage
+
+Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
+
+If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
 
 ## Related topics
 

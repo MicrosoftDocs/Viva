@@ -1,10 +1,10 @@
 ---
 title: Set up Microsoft Viva Amplify
 ms.reviewer: smathurin
-ms.date: 09/13/2023
+ms.date: 01/24/2024
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,6 +16,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - Tier1
+  - essentials-get-started
 ms.localizationpriority: medium
 description: Learn how to set up Viva Amplify for your organization.
 ---
@@ -34,6 +35,10 @@ The **Viva Amplify** and **Viva Amplify - Organizational data** service plans ar
 - Microsoft Viva for Faculty
 - Microsoft Viva with Glint add-on
 - Microsoft Viva with Glint add-on for Faculty
+
+## Prerequisites
+
+Campaigns are stored in the associated users' OneDrive for Business. Therefore, users need to have OneDrive for Business in place to be able to create campaigns in Viva Amplify. [Learn how to set up OneDrive for your organization](/microsoft-365/admin/setup/set-up-file-storage-and-sharing).
 
 ## Product limitations
 
@@ -111,6 +116,9 @@ Viva Amplify is designed so that users with a wide range of roles, such as proje
 1. Choose **Manage campaign settings**.
 
 1. If you only want specific people or groups to be able to create campaigns, choose **Only selected people or security groups.** Type a name or email address to add a person or group.
+
+>[!NOTE]
+>If you choose this option, Amplify will create a security group in Microsoft Entra that contains the selected users.
 
 >[!IMPORTANT]
 >Users who you want to be able to create campaigns need to have **Site creation** and **Group creation** permissions in SharePoint. [Learn how to assign these permissions in the SharePoint admin center.](/sharepoint/manage-site-creation)

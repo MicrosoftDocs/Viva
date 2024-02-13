@@ -3,7 +3,7 @@ title: Enable and manage the Team Summary dashboard
 description: Team Summary is easily enabled from the Viva Glint admin dashboard, allowing program roles permissions to relevant reports.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva team summary dashboard

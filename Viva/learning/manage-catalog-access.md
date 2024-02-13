@@ -2,7 +2,7 @@
 title: Manage Catalog Access
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 06/13/2023
 audience: admin
@@ -14,7 +14,8 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+  - essentials-manage
+ms.localizationpriority: medium
 description: Learn how to manage catalog access in Microsoft Viva Learning.
 ---
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 12/21/2022
+ms.date: 11/13/2023
 title: "Microsoft Planner Integration"
 ms.reviewer: 
 ms.author: rasanders
@@ -23,13 +23,13 @@ description: "Learn how to integrate your Viva Goals OKRs with Microsoft Planner
 
 # Microsoft Planner Integration
 
-Viva Goals integrates with Microsoft Planner to automatically update key results and initiatives in Viva Goals. OKR and initiatives progress is automatically calculated based on the completion of tasks in Planner. You can connect to Planner as a data source to automatically update three different capabilities in Viva Goals: track progress for a key result, initiative, and initiative KPI. View examples below of how the MS Planner integration works for each of these capabilities. 
+Viva Goals integrates with Microsoft Planner to automatically update key results and initiatives in Viva Goals. OKR and initiatives progress is automatically calculated based on the completion of tasks or checklist items in Planner. You can connect to Planner as a data source to automatically update three different capabilities in Viva Goals: track progress for a key result, initiative, and initiative KPI. View examples below of how the MS Planner integration works for each of these capabilities. 
 
 ## When to use the Microsoft Planner Integration  
 
 Track progress for a key result: Use the Planner integration to automatically track progress towards your key results. For example, if your key result is “Deliver new ad campaign,” you can show the progress towards delivering the new ad campaign by connecting to the plan where you track your marketing tasks. 
 
-Track progress for an initiative with tasks: Use this option when you want to track progress based on completion of all tasks in the initiative and have visibility to your Planner tasks in Viva Goals. For example, if your initiative is to “Update marketing materials,” you can connect to the plan where you track marketing content tasks to automatically update your initiative in Viva Goals. After you connect to Planner as a data source for tasks, you will be able to select how you want to automatically track progress from your plan and view the tasks from that plan within Viva Goals. 
+Track progress for an initiative with tasks: Use this option when you want to track progress based on completion of all tasks or checklist items in the initiative and have visibility to your Planner tasks in Viva Goals. For example, if your initiative is to “Update marketing materials,” you can connect to the plan where you track marketing content tasks to automatically update your initiative in Viva Goals. After you connect to Planner as a data source for tasks, you will be able to select how you want to automatically track progress from your plan and view the tasks from that plan within Viva Goals. 
 
 Track progress for an initiative with initiative KPIs: initiative KPIs give you the ability to set targets for task completion in Planner that are higher or lower than the completion of all tasks in a plan. For example, if you have an initiative KPI to “Add 5 product videos to your website,” you can add a metric in your initiative to reach 5 completed tasks in your plan.  
 
@@ -44,12 +44,19 @@ By default, Microsoft Planner is available as an integration in Viva Goals. Tena
 1. Select **Planner** from the list of available integrations. 
 1. The first time you connect to Planner from Viva Goals, you may be prompted to sign into Planner. Sign in and select Next. 
 1. Select the name of the Plan you want to connect to your key result. 
-1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to. 
-1. Select how you want to track progress from two options: 
-    1. **Number of tasks completed:** Use this selection to update progress of the key result when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** Use this selection to update progress of the key result when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result.
+1. Optional: select if you want to filter tracking progress based on tasks under specific buckets. 
+1. Optional: select if you want to filter tracking progress based on tasks with specific labels. Please note that only defined labels are reflected here, and the default Planner labels (Red, Blue, Green, etc.) will not show up in this dropdown list.
+1. Optional: select if you want to filter tracking progress for specific tasks under the selected plan.
+1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to.
+1. Based on whether you have numeric or percentage-based progress tracking for your key result, select how you want to track progress from two options: 
+    1. **Numeric based progress:**
+        1. **Count of tasks completed:** Use this selection to update progress of the key result when task progress is updated to Completed in Planner. 
+        1. **Count of checklist items completed:** Use this selection to update progress of the key result when checklist items for selected tasks are marked as completed in Planner.  
+    1. **Percentage based progress** 
+        1. **Percentage of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete. 
+        1. **Percentage of checklist items completed:** Use this selection to update progress of the key result when checklist items for selected tasks are marked as completed in Planner. 
 1. Select **Next**. 
-1. Select **Create** or **Save** to save your key result. You should now see the Planner icon next to your key result. Viva Goals will now automatically update this Key Result once per hour based on the progress of the tasks in Planner. 
+1. Select **Create** or **Save** to save your key result. You should now see the Planner icon next to your key result. Viva Goals will now automatically update this Key Result once per hour based on the progress of the tasks or checklist items, based on your selection in Planner. 
 
 ### How to use Microsoft Planner to track progress for Initiatives with tasks
 
@@ -60,10 +67,13 @@ By default, Microsoft Planner is available as an integration in Viva Goals. Tena
 1. Select **Planner** from the list of available integrations. 
 1. The first time you connect to Planner from Viva Goals, you may be prompted to sign into Planner. Sign in and select Next. 
 1. Select the name of the plan you want to connect to your initiative. 
-1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to 
-1. Select how you want to track progress from two options:
-    1. **Number of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
+1. Optional: select if you want to filter tracking progress based on tasks under specific buckets.
+1. Optional: select if you want to filter tracking progress based on tasks with specific labels. Please note that only defined labels are reflected here, and the default Planner labels (Red, Blue, Green, etc.) will not show up in this dropdown list. 
+1. Optional: select if you want to filter tracking progress for specific tasks under the selected plan. 
+1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to.
+1. Select how you want to track progress from two options: 
+    1. **Percentage of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete. 
+    1. **Percentage of checklist items completed:** Use this selection to update progress of the initiative when checklist items for selected tasks are marked as completed in Planner. 
 1. Select **Next**. 
 1. Select **Save** to save your initiative. You should now see the Planner icon next to your initiative. Viva Goals will now automatically update this initiative once per hour based on the progress of the tasks in Planner. 
 
@@ -79,10 +89,17 @@ You can view the tasks from Planner in Viva Goals by selecting Tasks or Open det
 1. Select **Automatically from a data source** (KPI). 
 1. Select **Planner** from the list of available integrations. 
 1. The first time you connect to Planner from Viva Goals, you may be prompted to sign into Planner. Sign in and select Next. 
-1. Select the name of the plan you want to connect to your initiative. 
+1. Select the name of the plan you want to connect to your initiative.
+1. Optional: select if you want to filter tracking progress based on tasks under specific buckets.  
+1. Optional: select if you want to filter tracking progress based on tasks with specific labels. Please note that only defined labels are reflected here, and the default Planner labels (Red, Blue, Green, etc.) will not show up in this dropdown list. 
+1. Optional: select if you want to filter tracking progress for specific tasks under the selected plan. 
 1. Optional: select if you want to filter tracking progress based on who the tasks are assigned to 
-1. Select how you want to track progress from two options:
-    1. **Number of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to Completed in Planner.
-    1. **Percentage of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete.
+1. Based on whether you have numeric or percentage-based progress tracking for your key result, select how you want to track progress from two options: 
+    1. **Numeric based progress:**
+        1. **Count of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to Completed in Planner. 
+        1. **Count of checklist items completed:** Use this selection to update progress of the initiative when checklist items for selected tasks are marked as completed in Planner. 
+    1. **Percentage based progress:**
+        1. **Percentage of tasks completed:** Use this selection to update progress of the initiative when task progress is updated to In Progress and Completed in Planner. If a task is updated to In Progress, Viva Goals will calculate that 50% of the task is complete and reflect that in the progress of the key result. When a task is updated to Complete, Viva Goals will calculate that 100% of that task is complete. 
+        1. **Percentage of checklist items completed:** Use this selection to update progress of the initiative when checklist items for selected tasks are marked as completed in Planner. 
 1. Select **Next**. 
 1. Select **Save** to save your initiative. You should now see the Planner icon next to your initiative. Viva Goals will now automatically update this KPI once per hour based on the progress of the tasks in Planner.  

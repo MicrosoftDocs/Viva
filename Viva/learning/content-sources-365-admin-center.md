@@ -2,9 +2,9 @@
 title: Manage content sources for Viva Learning 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/30/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -88,7 +88,7 @@ To configure settings for learning content sources in Viva Learning:
 
     ![Learning panel in the Microsoft 365 admin center showing content sources options.](../media/learning/manage-providers-select-providers.png)
 
-4. Enter the configuration details and click **Save**. Note that these details vary depending on the provider.
+4. Enter the configuration details and select **Save**. These details vary depending on the provider.
 
 5. Once the configuration is saved, the provider displays on the **Manage Providers** dashboard of the tenant.
 
@@ -101,27 +101,52 @@ To configure settings for learning content sources in Viva Learning:
 > [!NOTE]
 > You'll need a Viva Learning or Viva Suite license to connect external content sources, with the exception of LinkedIn Learning. You'll need a LinkedIn Learning Enterprise subscription to access LinkedIn Learning content other than the select free courses. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning).
 
-Some learning content sources will be enabled by default. These learning sources include:
+Some learning content sources are enabled by default. These learning sources include:
 
-- LinkedIn Learning select free content
+- LinkedIn Learning selects free content
 - Microsoft Learn
 - Microsoft 365 Training
 - Bring your own content
 
-## Bring your own content
-
-The **bring your own content** feature allows users in your organization to bring their own content from SharePoint into Viva Learning and share it with others. However, content brought in by end users isn't searchable.
+## Add link to content
 
 > [!NOTE]
-> For data that you copy to Viva Learning from a non-Microsoft service (learning provider or learning management system), you are not able to directly extract, correct, or delete that data in Viva Learning. We refresh the data you import from non-Microsoft providers promptly to reflect changes and deletions in the non-Microsoft source data.
-You need to work with the supplier of the non-Microsoft service to access, correct, delete or extract data under the license, service, or privacy terms of the non-Microsoft service. The changes made there will be reflected in the data processed for your use in Viva Learning upon completion of the data update cycles of the non-Microsoft service and Viva Learning. If you turn off the connection between Viva Learning and a non-Microsoft service, all data you had previously imported from that service will be deleted.
+> A Viva Suite or Viva Learning license is required to add link to content and to consume this content.
+> This content isn't searchable in Viva Learning.
+
+### Add link to content in learning collections
+
+Employees can now add link to learning content stored in your organization's internal sources, such as the SharePoint library or Microsoft Stream, or online sources such as YouTube, or Vimeo. 
+
+The web links on the domains & addresses and URLs blocked under Tenant Allow/Block List can't be added. Review the [Microsoft security home page](https://security.microsoft.com/homepage).
+
+Addition of online content can be disabled for the employees. Employees can, however, add content from the organization's internal sources, such as SharePoint or Microsoft Stream.
+
+1. Go to the **Admin** tab.
+
+2. Go to **Settings**.
+
+3. Toggle on to allow users to add web links, or toggle off to disable.  
+
+4. Add link to content in the Viva Learning tabs.
+
+### Add link to content in Viva Learning tabs
+
+To allow users in your organization to add link to content store in SharePoint into Viva Learning tabs:
+
+1. In the left navigation of the Microsoft 365 admin center, go to **Settings**, then **Org settings**. 
+
+2. On the **Org settings** page, on the **Services** tab, select **Viva Learning**. 
+
+3. Check the box to enable and uncheck the box to disable the addition of links. 
+
 
 ## More app settings
 
-You can control the Viva Learning availability in your org from Teams Admin center. 
+You can control the Viva Learning availability in your org from Teams Admin center.
 
-To control the ability to bring your own content or privacy related settings go to the Viva Learning settings page on the Microsoft 365 Admin center.
-You can also search for Viva learning landing page on M365 Admin center to get a comprehensive list of all the Viva Learning settings.
+To control the ability to bring your own content or privacy related settings go to the Viva Learning settings page on the Microsoft 365 admin center.
+You can also search for Viva Learning landing page on Microsoft 365 admin center to get a comprehensive list of all the Viva Learning settings.
 
 ![Microsoft 365 Admin page that displays a list of Viva Learning settings](../media/learning/manage-providers-additional-settings1.png)
 

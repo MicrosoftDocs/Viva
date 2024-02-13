@@ -2,9 +2,9 @@
 title: Add SharePoint as a learning content source for Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 11/01/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -42,11 +42,17 @@ Viva Learning supports the following document types:
 
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
->[!NOTE]
+> [!NOTE]
 > You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
->[!NOTE]
-> Ensure that the SharePoint site is a communication site. This functionality isn't compatible with team sites.
+> [!NOTE]
+> While either communication and teams sites can be used, we recommend using a communication site. 
+
+> [!NOTE]
+> If you are using a custom SharePoint Domain (for example, sp.contoso.com) raise a [**support ticket**](/services-hub/unified/support/open-support-requests) with the Viva Learning team to get the URL allowed. 
+
+> [!NOTE]
+> Viva Learning ingests up to 1000 files as learning objects. A Viva Suite or Viva Learning license is required to ingest more than 1000 files as learning objects.
 
 
 ## Learning Service
@@ -55,7 +61,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 ## Configure SharePoint as a source
 
->[!NOTE]
+> [!NOTE]
 > You must be a Microsoft 365 global administrator or knowledge admin to perform these tasks.
 
 1. Open Viva Learning App in Teams or go to the Viva Learning [web app](https://aka.ms/VivaLearningWeb)
@@ -70,10 +76,10 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 
 1. Update the display name in configuration flow. The display name is the organization or tenant name by default.  
 
-   > [!Note]
+   > [!NOTE]
    > Only the owner of the added site URL can update the display name.
    
-   > [!Note]
+   > [!NOTE]
    > Display names for already ingested learning objects update after 24 hours.
    
    Once configured, configured providers list SharePoint immediately. You can track the sync status and export sync logs.
@@ -100,7 +106,7 @@ The Learning Service uses the provided folder URLs to get metadata from all cont
 > To allow for broader access to the Learning App Content Repository, a link to the list is soon available in the Viva Learning interface where users can request access and ultimately help populate the list. Site owners and global administrators are able to grant access to the list. Access is specific to the list only and doesn't apply to the site where the list is stored. For more information, see [Provide your own organization's content](#provide-your-own-organizations-content) later in this article.
 
 > [!NOTE]
-> Viva Learning ingests up to 1000 items and files as learning objects.
+> Viva Learning ingests up to 1000 files as learning objects. A Viva Suite or Viva Learning license is required to ingest more than 1000 files as learning objects.
 
 ### Folder URL document library curation
 
@@ -142,7 +148,7 @@ Add links to both internal content from SharePoint and external content from sit
 
      ![Screenshot of the documents library with a new file called Azure.url.](../media/learning/sp-linkinlibrary.png)
 
-   - The linked object will show up in the Viva Learning app.
+   - The linked object shows up in the Viva Learning app.
 
 
 ### Metadata
@@ -156,7 +162,8 @@ If a description column is already present, you can delete it and add a new one 
 **To add a metadata field, follow these steps**:
 
 > [!IMPORTANT]
-> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional, but if configured incorrectly, the learning objects and any changes to those objects won't appear.
+> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional, but if configured incorrectly, you will need to delete the column and create again. 
+
 
 1. Select the folder from your learning content repository.
 1. From the **Documents** page, select **Add column**.
@@ -186,13 +193,27 @@ If a description column is already present, you can delete it and add a new one 
 
 **Provide a thumbnail image**:
 
->[!NOTE]
-> Only public URLs work for this process.
+> [!NOTE]
+> - Only public URLs work for this process.
+> - For proper rendering of the image in Viva Learning the minimum aspect ratio should be 16:9.
 
 1. Follow the initial steps to create a column.
 1. Choose **Hyperlink**.
 1. Name the column `ThumbnailWebUrl`.
 1. Add the URLs for each item.
+
+
+**Language metadata**
+
+1. Follow the initial steps to create a column. 
+
+2. Choose Single line of text. 
+
+3. Name the column ContentLanguage 
+
+3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva-learning-supported-languages).
+
+4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](/viva/learning/language-preferences).
 
 **Add the duration of the content**:
 
@@ -224,7 +245,7 @@ If a description column is already present, you can delete it and add a new one 
 
 ### Provide your own organization's content
 
-Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries will be learning content in Viva Learning.
+Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries are learning content in Viva Learning.
 
 1. In Viva Learning, select the ellipses (**...**), and then select **Settings**.
   

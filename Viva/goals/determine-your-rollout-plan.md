@@ -1,5 +1,5 @@
 ---
-ms.date: 04/05/2022
+ms.date: 12/06/2023
 title: Determine your rollout plan
 ms.reviewer: 
 author: ranjali-MS
@@ -35,7 +35,7 @@ The benefits of a user pilot are two-fold: first, you quickly learn how the meth
 
 One of the most popular ways to roll out an OKR program is from the top down. The benefit of going this route is that leadership is fully behind the program, and OKRs are well aligned. Here’s how it goes:
 
-**In the first quarter, OKRs are set by the executive team.** Because OKRs are transparent in nature, the entire organization will have visibility into these goals. During this phase, invite only the executive team as active Viva Goals users. Invite the remaining users as observers for visibility.
+**In the first quarter, OKRs are set by the executive team.** Because OKRs are transparent in nature, the entire organization will have visibility into these goals. During this phase, invite only the executive team as active Viva Goals users.
 
 **Throughout that first quarter, a weekly cadence for check-ins is set as an example.** Meeting agendas are structured around measurement of OKRs.
 
@@ -55,7 +55,7 @@ Another popular rollout method is for one individual department or group, such a
 
 **Ask participants to take the [OKR Leadership Program learning path on-demand](/training/paths/okr-champions)** so that every pilot participant feels empowered to educate, engage, and train their employees in OKR methodology and software.
 
-### Another option: Big bang theory 
+### Another option: Big bang theory
 
 The "crawl-walk-run" pilot approach is best for most companies, but mature companies that can efficiently and effectively lead the organization though change may choose to launch OKRs organization-wide all at once.  
 
@@ -68,7 +68,7 @@ No matter which path you choose, it's important to find out what works best for 
 Your goals define the outcome you want and enable you to measure the success of your Viva Goals rollout.  
 
 You need full participation from stakeholders when you define your OKRs to help ensure they feel a sense of ownership and to align these measures of success to defined project tasks. OKRs should include a mix of technical and user-focused successes.
- 
+
  Before you begin crafting the OKRs for your OKR program with Viva Goals, take some time to reflect on the following questions:
 
 - **Why are you implementing the program?** Is it to provide better transparency across your organization? To increase employee engagement? To spearhead a new product launch? To provide focus to fend off a competitor? Being clear on *why* will help galvanize your employees and keep momentum going.
@@ -77,7 +77,7 @@ You need full participation from stakeholders when you define your OKRs to help 
 
 - **How will you communicate about your OKR program and Viva Goals to your team?** What is your communication plan at the beginning, during mid-cycle check-ins, and when it's time to close out OKRs and see where you landed—and what have you learned?
 
-Here's an example of an OKR for rolling out an OKR program with Viva Goals: 
+Here's an example of an OKR for rolling out an OKR program with Viva Goals:
 
 ![Table shows O K R example.](../media/goals/1/13/b.png)
 
@@ -122,8 +122,7 @@ It's important to segment your users by persona and OKR maturity when building t
 
 **Reinforce.** Make the training stick with reinforcement options like on-demand training, lunch and learn sessions, and new employee training options.
 
-For a full rundown on how to successfully drive OKR and Viva Goals adoption in your organization, read the **[Viva Goals Adoption Guide](https://go.microsoft.com/fwlink/?linkid=2193441).** 
+For a full rundown on how to successfully drive OKR and Viva Goals adoption in your organization, read the **[Viva Goals Adoption Guide](https://go.microsoft.com/fwlink/?linkid=2193441).**
 
 > [!NOTE]
 > Your ultimate goal is to find the OKR process that works best for your organization. Viva Goals is designed to be flexible and meet your organization's unique needs. Your strategy and level of buy-in for OKRs will evolve as your team adjusts to the process. Give yourself one to two quarters to get into a good rhythm and watch your employee experience and business outcomes grow stronger.  
-

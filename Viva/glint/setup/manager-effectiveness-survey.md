@@ -3,7 +3,7 @@ title: Set up a Viva Glint Manager Effectiveness survey
 description: Viva Glint’s Manager Effectiveness program helps develop stronger managers through frequent team feedback and data-driven insights specific to each manager.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

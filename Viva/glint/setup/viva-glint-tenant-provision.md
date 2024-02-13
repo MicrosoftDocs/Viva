@@ -3,19 +3,20 @@ title: Set up a Microsoft Viva Glint tenant
 description: When a new customer purchases Viva Glint or Viva Suite, they're entitled to the Viva Glint product, and tenant provisioning should occur within days. 
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: tenant, viva glint tenant
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-get-started
 search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2023
+ms.date: 02/06/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -28,6 +29,9 @@ Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
 
+> [!NOTE]
+> If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
 ## Customers entitled for Viva Glint provisioning 
 
 - Net new Viva Glint standalone customers
@@ -38,7 +42,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 > [!NOTE]
 >
 > - A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
-> - A minimum number of 100 active user licenses are required for tenant provisioning. Licenses requested below 100 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
+> - A minimum number of 50 active user licenses are required for tenant provisioning. Licenses requested below 50 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
 
 ## Begin your Viva Glint provisioning experience
 

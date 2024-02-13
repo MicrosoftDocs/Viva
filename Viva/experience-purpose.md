@@ -4,13 +4,14 @@ title: "Bring purpose to your organization by connecting everyday work to strate
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri

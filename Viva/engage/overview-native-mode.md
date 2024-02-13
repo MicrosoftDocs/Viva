@@ -5,14 +5,14 @@ description: "Learn about Native Mode for Microsoft 365."
 ms.reviewer: auhosford
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -25,7 +25,7 @@ search.appverid:
 As of January 2020, all new Viva Engage tenants start in Native Mode.
 
  > [!NOTE]
-> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022, and existing non-native networks are being automatically migrated to native mode. For more information, see [Automatic Native Mode migration and network consolidation](/Viva/engage/automatic-migration-native-mode.md)
+> Native Mode is strongly recommended for reasons of security, compliance, and Microsoft 365 integration. Existing Viva Engage tenants are eligible to migrate to Native Mode. The deprecation of hybrid and non-native networks was announced in 2022, and existing non-native networks are being automatically migrated to Native Mode. For more information, see [Automatic Native Mode migration and network consolidation](/viva/engage/automatic-migration-native-mode.md)
 
 ## Frequently asked questions
 

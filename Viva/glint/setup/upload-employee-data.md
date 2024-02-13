@@ -3,7 +3,7 @@ title: Prepare and upload your employee data to Viva Glint
 description: Your organizational data can appear in Viva Glint through Microsoft Entra ID or by uploading a .csv file.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: employee data
@@ -30,7 +30,7 @@ Learn what we collect, why, how you deliver it to us, and how we use it to help 
 
 [Viva Glint's organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 
-[Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230742)
+[Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230862)
 
 [Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
 

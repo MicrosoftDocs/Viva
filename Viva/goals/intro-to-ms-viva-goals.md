@@ -1,5 +1,5 @@
 ---
-ms.date: 04/18/2022
+ms.date: 02/07/2024
 title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -15,67 +15,59 @@ ms.localizationpriority: high
 ms.collection:  
 - m365initiative-viva-goals  
 - highpri
+- essentials-navigation
+- essentials-overview
 search.appverid:
 - MET150
-description: "Learn about Microsoft Viva Goals on how you can use it for organizing and tracking individual and organizational goals."
+description: "Learn about Microsoft Viva Goals and how it can help you organize and track both individual and organizational goals."
 ---
-
 # Introduction to Microsoft Viva Goals
 
-</br>
+Microsoft Viva Goals is a goal alignment solution that uses the [objectives and key results (OKR)](/viva/goals/get-to-know-okrs) framework to connect teams to your organization’s strategic priorities, unite them around your mission and purpose, and drive business results.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XeI1]  
+Because Viva Goals is part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
 
-</br>
-
-Microsoft Viva Goals is a goal-alignment solution that connects teams to your organization’s strategic priorities, unites them around your mission and purpose, and drives business results.
-
-To do this, Microsoft Viva Goals applies the power of the objectives and key results (OKR) framework.
-
-Because Viva Goals is a part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
-
-To login to Viva Goals, visit: https://goals.microsoft.com/
-
-## Get started with Microsoft Viva Goals
-
-The resources in this section will help you learn more about Viva Goals and how it can help you.
-
-|If you're looking for this information  |Go to this resource  |
-|---------|---------|
-|Learn about OKRs     |[Get to know OKRs](/viva/goals/get-to-know-okrs)        |
-|Learn about defining your team |[Define your team](/viva/goals/define-your-team) |
-|Learn about your rollout plan     |[Determine your rollout plan](/viva/goals/determine-your-rollout-plan)         |
-
-## Setup and administration
-
-The resources in this section will help the administrator in your organization setup and configure Viva Goals in your Microsoft 365 environment.
-
-|If you're looking for this information  |Go to this resource  |
-|---------|---------|
-|Learn about roles and permissions     |[Roles and permissions](/viva/goals/roles-permissions-in-viva-goals)         |
-|Learn to create and edit teams     |[Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams)         |
-|Learn to add users    |[Invite and remove users](/viva/goals/inviting-and-removing-a-user)       |
-|Learn to manage OKR time periods   |[Manage OKR time periods](/viva/goals/managing-okr-time-periods)         |
-|Learn about OKR configurations   |[Configure your OKR model](/viva/goals/configure-okr-model)     |
+To log in to Viva Goals, visit [goals.microsoft.com](https://goals.microsoft.com/).
 
 ## Work with OKRs in Viva Goals
 
-Learn more about how to use and implement Viva Goals in your organization to help you solve your business problems.
+These resources teach the basics of using OKRs in Viva Goals.
 
-|If you're looking for this information  |Go to this resource  |
+|Thing you want to do  |Useful resource  |
 |---------|---------|
-|Learn how to create OKRs     |[Create OKRs](/viva/goals/creating-okrs)         |
-|Learn how to check in with OKRs| [Check-in OKRs](/viva/goals/okr-check-ins)        |
-|Learn how to track OKR progress| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
-|Learn how to score and close OKRs|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
+|Create an OKR     |[Create OKRs](/viva/goals/creating-okrs)         |
+|Check in an OKR| [Check in OKRs](/viva/goals/okr-check-ins)        |
+|Track progress on an OKR| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
+|Score and close an OKR|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
 
-## Product features
+## Setup and administration
 
-The resources in this section help your users learn how to use and manage Viva Goals.
+These resources can help organization administrators set up and configure Viva Goals in Microsoft 365 environments.
 
-|If you're looking for this information  |Go to this resource  |
+|Thing you want to learn about  |Useful resource  |
 |---------|---------|
-|Learn how to use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
-|Learn how to use initiatives|[Initiatives](/viva/goals/projects)         |
-|Learn how to integrate your other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
+|Roles and permissions     |[Roles and permissions](/viva/goals/roles-permissions-in-viva-goals)         |
+|Creating and editing teams     |[Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams)         |
+|Adding users    |[Invite and remove users](/viva/goals/inviting-and-removing-a-user)       |
+|Managing OKR time periods   |[Manage OKR time periods](/viva/goals/managing-okr-time-periods)         |
+|OKR configurations   |[Configure your OKR model](/viva/goals/configure-okr-model)     |
 
+## Other product features in Viva Goals
+
+These resources contain information on features of Viva Goals beyond the basics of OKRs and administrator tools.
+
+|Thing you want to do  |Useful resource  |
+|---------|---------|
+|Use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
+|Use initiatives|[Initiatives](/viva/goals/projects)         |
+|Integrate other tools| [Viva Goals integrations overview](/viva/goals/integrations-overview)        |
+
+## The OKR framework
+
+These resources can help you learn more about the OKR framework that Viva Goals is based on.
+
+|Thing you want to learn about  |Useful resource  |
+|---------|---------|
+|OKRs     |[Get to know OKRs](/viva/goals/get-to-know-okrs)        |
+|Defining your team |[Define your team](/viva/goals/define-your-team) |
+|Rollout plans     |[Determine your rollout plan](/viva/goals/determine-your-rollout-plan)         |

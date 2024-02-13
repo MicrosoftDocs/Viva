@@ -2,7 +2,7 @@
 title: Overview of Microsoft Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: shirana
 ms.date: 11/02/2021
 audience: admin
@@ -18,6 +18,8 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
+  - essentials-navigation
+  - essentials-overview
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Learning in your Microsoft 365 environment.
 ---
@@ -64,7 +66,7 @@ The knowledge admin should be moderately technical and have existing SharePoint 
 
 ## Learning content sources
 
-Content from Microsoft Learn and Microsoft 365 Training is automatically available in Viva Learning. You'll also have free access to a set of 125 courses from LinkedIn Learning. In addition, Viva Learning can integrate with select third-party content providers and learning management systems. For more information about how to set up content sources, see [Manage content sources for Viva Learning](content-sources-365-admin-center.md).
+Content from Microsoft Learn and Microsoft 365 Training is automatically available in Viva Learning. You'll also have free access to global skilling initiative (GSI) courses from LinkedIn Learning. In addition, Viva Learning can integrate with select third-party content providers and learning management systems. For more information about how to set up content sources, see [Manage content sources for Viva Learning](content-sources-365-admin-center.md).
 
 ## Data and privacy
 

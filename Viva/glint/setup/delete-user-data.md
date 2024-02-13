@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 02/12/2024
 ---
 
 # Delete user data from Viva Glint
@@ -28,7 +28,7 @@ As your company’s data controller, Microsoft Viva Glint admins can submit a us
 ## User data can be deleted from the People section on the admin dashboard
 
 >[!IMPORTANT]
->Deleting a user from Microsoft Entra ID does not delete the user and their information from Viva Glint. To delete user information from Viva Glint, you must complete the instructions provided below.
+>In addition to allowing an admin to delete a user within the app, deleting a user from Microsoft Entra ID has the same outcome, deleting the user and their information from Viva Glint. 
 
 1. Select **People** from the Employees section.
 2. Use the search box to select the employee whose data should be deleted. Open that employee’s page.
@@ -40,8 +40,8 @@ As your company’s data controller, Microsoft Viva Glint admins can submit a us
          1. Survey results from Viva Glint reports will be deleted, possibly impacting reports.
          2. The user’s data is removed from distribution list and future surveys.
          3. The user’s role definitions and their reporting permissions are removed.
-     4. The display will indicate whether the user has direct reports and that the admin will have to reassign the reports later or in the next HRIS file import.
-5. Go back to the **People** page and verify that the username does not appear in the list of All, Active or Inactive employees.
+     4. The display will indicate whether the user has direct reports and that the admin will have to reassign the reports later or in the next HRIS file import. Follow these steps to facilitate a [**retroactive user upload update**](/../../viva/glint/setup/update-glint-reporting-data).
+5. Go back to the **People** page and verify that the username does not appear in the list of *All, Active or Inactive* employees.
 6. Return to the admin dashboard and select **Activity Audit Log** in the Client Settings section. The action taken should be listed first in the Event column and its status should read “Success” and the Details column “deleted.”
 7. If the deleted user is a manager, verify that all reports they had been permissioned for no longer include their name. The report will now read, “Deleted User’s Team.”
 

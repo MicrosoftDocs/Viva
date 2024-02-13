@@ -1,5 +1,5 @@
 ---
-ms.date: 10/18/2023
+ms.date: 02/07/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -14,6 +14,9 @@ audience: user
 ---
 
 # Organization insights in Viva Insights
+
+>[!IMPORTANT]
+> Some of the features described below are for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Organization insights help leaders and managers build high performing teams. Leaders and managers can see key indicators of their organization’s wellbeing, productivity, and team culture, and they can find features and tools to help support their teams.
 
@@ -31,7 +34,7 @@ People in your organization also need to have a Viva Insights subscription so th
 
 People with the **Insights Business Leader** role assigned to them can access organization insights that include every measured employee in their tenant. 
 
-People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the **Insights Business Leader** role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
+People enabled as Group Managers can access organization insights that include people who report to them directly or indirectly. Your Insights admin maintains this reporting hierarchy. If your admin assigned you the Insights Business Leader role and also enabled you as a Group Manager, you can toggle between the two organization insights views.
 
 ## Data and privacy
 
@@ -41,20 +44,47 @@ For further detail about privacy and organization insights, refer to our [privac
 
 ## Using organization insights
 
-Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see when you open your Viva Insights app:
+Organization insights are divided into two sections: **Team insights**, which are focused on your organization and teams; and **Your insights**, which are focused on your own personal working habits and productivity. Let’s start with looking at **Team insights**.
 
-:::image type="complex" source="images/org-insights-drilldowns.png" alt-text="Screenshot that shows the organization insights section." lightbox="images/org-insights-drilldowns.png":::
-   Screenshot of the "Your organization insights" section in the Viva Insights app.
+### Team insights
+
+#### The Home tab
+
+Organization insights are more than just a dashboard—they also provide helpful features to share insights and actions with your organization. Here's what you might see in the Home tab when you open your Viva Insights app:
+
+:::image type="complex" source="images/leader-homepage-new-home.png" alt-text="Screenshot that shows the organization insights Home tab." lightbox="images/leader-homepage-new-home.png":::
+   Screenshot of the "Your organization insights" Home tab in the Viva Insights app.
+:::image-end:::
+
+In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and urgent collaboration. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
+
+[Learn more about these new reports for leaders](./leader-reports.md).
+
+Underneath the report cards, you’ll find a section for **Recommendations**. These point you to other workflows in Viva Insights that can help support you or your organization manage the measured behavior described in the above reports.
+
+Here's an example:
+
+Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](https://support.microsoft.com/topic/shared-no-meeting-day-plan-32d22a61-280f-487d-b352-47effe338fbb) to help folks dedicate a full day to their independent work.
+
+:::image type="complex" source="images/org-insights-actions.png" alt-text="Screenshot that shows the organization insights recommended actions section." lightbox="images/org-insights-actions.png":::
+   Screenshot of the "Your organization insights" recommended actions.
+    :::image-end:::
+
+Finally, the Home tab also includes relevant news articles that can help you manage your team and improve your organization’s productivity.
+
+#### The Library tab
+
+The Library tab, meanwhile, provides a snapshot view of various other metrics related to team collaboration, such as collaboration time and uninterrupted focus hours. In the Library tab, you can also filter these insights based on specific teams and time periods.
+
+:::image type="complex" source="images/leader-homepage-new-library.png" alt-text="Screenshot that shows the organization insights Library tab." lightbox="images/leader-homepage-new-library.png":::
+   Screenshot of the "Your organization insights" Library tab in the Viva Insights app.
 :::image-end:::
 
 Let's take a look at how to use these features:
 
->[!Note] 
->These features are rolling out gradually and should be broadly available by the end of this month.
+1. **Scope information**
 
-1. **Scope information** 
-
-     At the top-left of any page or section with organization insights, an indicator shows how many people the insights are measuring.
+     At the top-left, an indicator shows how many people the insights are measuring.
 
     The measured group reflects people who:
 
@@ -92,40 +122,23 @@ Let's take a look at how to use these features:
 
     **If you're enabled as a Group Manager:** If you selected a 1 week or 4 week filter, you can compare your insights to the prior week or prior 4 weeks for your organization. 
 
-    The sample screenshot below shows the Benchmark results (highlighted) for the prior 4 weeks for your organization.
+    The sample screenshot below shows the Benchmark results (highlighted) for the prior week for your team.
 
-    :::image type="complex" source="images/org-insights-benchmark-leader-prior-4.png" alt-text="Screenshot that shows the organization insights prior 4 weeks benchmark." lightbox="images/org-insights-benchmark-leader-prior-4.png":::
-   Screenshot of the "Your organization insights" prior 4 weeks benchmark.
+    :::image type="complex" source="images/leader-homepage-library-benchmark-results.png" alt-text="Screenshot that shows the organization insights prior week benchmark." lightbox="images/leader-homepage-library-benchmark-results.png":::
+   Screenshot of the "Your organization insights" prior week benchmark.
     :::image-end:::
 
     Or, you can compare your insights to your company or your selected peers' team, for the same filtered period.
-    
-    The screenshot below shows the Benchmark results for your peer's team for the selected time period.
-
-    :::image type="complex" source="images/org-insights-benchmark-leader-peer.png" alt-text="Screenshot that shows the organization insights benchmark for peer's team." lightbox="images/org-insights-benchmark-leader-peer.png":::
-   Screenshot of the "Your organization insights" benchmark for the peer's team.
-    :::image-end:::
 
     If you selected a 12 week time filter, you can only compare results to either your peers' teams or your company, for the same time period.
-
-    The screenshot below shows the Benchmark results for the company.
-
-   :::image type="complex" source="images/org-insights-benchmark-leader-company.png" alt-text="Screenshot that shows the organization insights benchmark for entire company." lightbox="images/org-insights-benchmark-leader-company.png":::
-   Screenshot of the "Your organization insights" benchmark for the entire company.
-    :::image-end:::
 
     **If you have the Insights Business Leader role assigned:** You can only set 1 week or 4 week prior time periods as your benchmark. If you selected a 12 week time filter, you can't select a 12 week benchmark.
 
     **If you're enabled as a Group Manager *and* you're an Insights Business Leader:** You can select any of the benchmark options described above.
 
-
-1. **Indicators**
-
-    Insight indicators show you your organization’s average for the most recent period available, and how much it has changed from the period prior. 
-
 1. **Details**
 
-   **Insight details** is your jumping-off point to explore context about your measured results. When you select **Show details**, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
+   Select the card itself to dive deeper into the measured results. When you select the card, Viva Insights brings you to the insight drill-down page. This page contains information like trend lines, peer comparisons, comparisons across groups within your organization, and distributions.
 
     >[!Note] 
     >About comparisons across groups: if a team that reports into you doesn't meet the minimum group size set by your Insights admin, then granular data for that team won't be available.
@@ -133,128 +146,42 @@ Let's take a look at how to use these features:
 1. **Three-dot menu for sharing** 
 
     Sharing is available for most insight cards. You can share an insight in one of two ways:
-    * **In a Teams chat** – When you share through a chat, you'll have the option to send a screenshot of the insight to another person and add a custom message. The chat contains a link, so the recipient can view how the insight looks for their own team. Recipients need to qualify for organization insights to be able to view what you share with them here.
     
-        :::image type="complex" source="images/org-insights-share-chat1.png" alt-text="Screenshot that shows sharing an insight by chat.":::
-           Screenshot of the "Share via chat" window. The title reads, "Start adding people to share." Beneath the title is a "Send to" field where users can add recipients. This field currently contains a recipient, showing their profile image and name, with an X button to cancel. Beneath "Send to" is a "Leave a note" field which includes user-entered text. Beneath "Leave a note," a box next to the text, "Include a preview of my own insight" is checked. In the bottom portion of the window, there's a "Preview" section that shows what the recipient will see. The message title reads, "Elvia Atkins shared insights with you." Below the message title, there's the note the sender wrote above. Part of the insight is visible in the preview. In the bottom right of the window, there's a "Done" button.
-        :::image-end:::
+    * **As an image** - Select the three dots at the top right, then select **Copy as image**. You’ll see a preview of a screenshot of the insight. Select **Copy image to clipboard**. You can then paste and share the image with anyone, anywhere you want, such as in an email message or on Teams.
 
-    * **Through a link** – When you share through a link, that link takes the recipient to the same location in Viva Insights. Linking someone doesn't give them access to the same data you can see, but if they also have access to organization insights, they'll see results for their own group.
-
-
-        :::image type="complex" source="images/org-insights-share-link.png" alt-text="Screenshot that shows sharing an insight by link.":::
-           Screenshot of copying an insight link. The image shows a checkmark and a label with the text, "Link to 'Uninterrupted focus hours' copied." Below the label is a web address field; this address field contains a direct URL to the insight. To the right of the address field, there's a "Copy again" button. In the top right of the window, there's an X button to close the window.
-        :::image-end:::
-
-
-## Actions
-
-Actions point you to other workflows in Viva Insights that can help support you or your organization to manage a measured behavior. They appear under **Recommended actions for your organization**.
-
-Here's an example:
-
-Let's say an insight shows people's meeting time has significantly increased. The insight card might contain a button to set up a plan. When you select the button, Viva Insights takes you to the [no-meeting day plan](../personal/teams/shared-no-meeting-day.md) to help folks dedicate a full day to their independent work.
-
- :::image type="complex" source="images/org-insights-actions.png" alt-text="Screenshot that shows the organization insights recommended actions section." lightbox="images/org-insights-actions.png":::
-   Screenshot of the "Your organization insights" recommended actions.
+    :::image type="complex" source="images/sharing-copyimage-01.png" alt-text="Screenshot that shows how to share an insight as an image.":::
+    Screenshot that shows how to share an insight as an image.
     :::image-end:::
 
-## Insights per tab
+    * **In a Teams chat** – Select the three dots at the top right, then select **Share via Teams**. When you share through a chat, you'll have the option to add a custom message. You'll share the insight as a screenshot.
+    
+        :::image type="complex" source="images/sharing-teamschat.png" alt-text="Screenshot that shows sharing an insight via Teams.":::
+           Screenshot that shows sharing an insight via Teams.
+        :::image-end:::
 
-### Home
+#### Insight drill-down page
 
-On the **Home** tab, you'll find key indicators of your organization’s wellbeing, productivity, and team culture, along with features and tools to help support your teams. 
-
-Specifically, you'll find an insight related to one of the following topics each day:
-
-* Uninterrupted focus hours
-* Manager 1:1 meeting hours
-* Collaboration time
-* Long and large meetings
-* Recurring meetings
-* Meeting hours
-* After-hours collaboration
-* Join on time rate
-* Multitasking hours
-
-All insight cards show the current period's average measure, and also provide the difference against the selected benchmark. Here's an example:
-
- :::image type="complex" source="images/org-insights-card.png" alt-text="Screenshot that shows the organization insights comparison card." lightbox="images/org-insights-card.png":::
-   Screenshot of the "Your organization insights" comparison card.
-    :::image-end:::
-
-### Wellbeing
-
-On the **Wellbeing** tab, you'll find key indicators of your organization's capacity for focused work and work-life balance.
-
-Each day, an insight related to one of the following topics appears at the top of your **Wellbeing** tab:
-
-* Uninterrupted focus hours 
-* After hours collaboration 
-* No meeting day impact
-* Daily connected hours 
-* Focus time participation 
-* Focus time impact 
-* No meeting day participation
-
-On the insight card, view the current week's average measure, the difference from the prior period's average, and the measure's 12-week trend. 
-
-:::image type="complex" source="../personal/teams/images/wellbeing-org-insights.png" alt-text="Screenshot that shows an uninterrupted focus hours organization insight at the top of the Wellbeing tab.":::
-   Screenshot of the "uninterrupted focus hours" organizational insight on the Wellbeing tab. The title of the page reads, "Uninterrupted focus hours - is there time for individual work?", with an information icon to the right. Below the title is a numerical indicator of "13.0 hours per person last week" with a text denoting an increase by 1.6 hours. To the right of the indicator is a line graph with months on the X axis and hours, increasing in intervals of 10, on the Y axis. Below the indicator and graph, there's a label with the text, "A shared focus plan invites your team to protect time to get work done." Below the text is a "Set up plan" button and "Show details" link. In the top right of the screen, there's a scope selector indicating that data is being shown for the organization.
-:::image-end:::
-
-To help your team improve their wellbeing, Viva Insights shows you a recommended action—for example, starting a shared focus plan. Select the action button, like **Set up plan**, either on the insight card on the **Wellbeing** tab, or from within the insight [details](#show-details) page. Viva Insights then takes you through the feature setup process.
-
-You can also access shared actions in your **Take action to improve your wellbeing** section. Start a shared focus plan or a [shared no-meeting day](shared-no-meeting-day.md).
-
-### Productivity
-
-On the **Productivity** tab, you'll find key indicators of your organization’s meeting effectiveness, along with features and tools to help support your teams.
-
-Each day, an insight related to one of the following topics appears at the top of your **Productivity** tab:
-
-* Meeting hours
-* Join on time rate
-* Multitasking hours
-
->[!Tip]
->To find other insights, use the arrows to the right of the **Your organization/Your company** dropdown.
-
-On the insight cards, view the current week's calculation result and the change over time for your organization or the group of people who report to you directly or indirectly.
-
-Some insight cards also provide recommended actions. For example, to help your team improve their meeting effectiveness, you can choose to set up a no-meeting day. Select the action button, like **Set up plan**, either on the insight card on the **Productivity** tab, or from within the insight details page. Viva Insights then takes you through the feature setup process.  
-
-:::image type="content" source="../personal/teams/images/productivity-org-insight-trend.png" alt-text="Screenshot that shows a meeting hours organization insight at the top of the Productivity tab.":::
-
-### Teamwork
-
-You’ll see a **Teamwork insights for your organization** section at the top of your **Teamwork** tab. Each day, you’ll receive an insight about internal network size across your organization or company. 
-
-## Show details 
-
-If you want to dive deeper into an insight, select **Show details** on the insight card. You'll arrive at a report page, which gives you more information about the metric that your insight's based on.
-
-:::image type="content" source="images/org-insights-report-page-4.png" alt-text="Screenshot that shows the L2 report page in the Viva Insights app."lightbox="images/org-insights-report-page-expanded-4.png":::
+If you want to dive deeper into an insight, select the insight card. You'll arrive at a report page, which gives you more information about the metric that your insight's based on.
 
 Here's what you can do on each report page:
 
-### Weekly averages
+##### Weekly averages
 
-#### Your organization or company
+###### Your organization or company
 
 Depending on the metric, view an average count, hours, rate, or size here. For example, if you were viewing information about uninterrupted focus hours, you'd see how many hours on average people in your organization kept for focus time without interruptions every week.
 
 This number includes everyone in your reporting hierarchy or your company, depending on how your [scope toggle](#using-organization-insights) is set. 
 
-#### Peer organizations
+###### Peer organizations
 
 View this metric's average for peer organizations—that is, groups near your own group in your company's reporting hierarchy. Read more about peer organizations in [Helpful terms](#helpful-terms).
 
-#### Higher or lower than previous weeks
+###### Higher or lower than previous weeks
 
 Below the weekly averages for your organization and peer organizations, find out whether this average is higher or lower than the week before last. 
 
-### Suggested actions
+##### Suggested actions
 
 The report suggests an action related to the metric you're viewing. Let's say you were viewing details for **Long and large meeting hours**. The report might suggest starting a no-meeting day with your team to block out days for individual work.
 
@@ -262,7 +189,7 @@ To get started, select the button, like **Set up plan**. Viva Insights then guid
 
 You can also copy a link to the insight or share through a Teams chat here.
 
-### Trend graph
+##### Trend graph
 
 Learn how your selected metric averages have changed over time. View a four-month distribution of averages for:
 
@@ -276,21 +203,33 @@ To add more organizations to your trend graph, select the eye icon under **Show 
 
 You can sort by any of the headers in the **Groups within your organization** table. For example, to sort by the number of people who were active on Teams or Outlook for that week, select the **Active count** header.
 
-### Snapshot from last week
+##### Snapshot from last week
 
 View an insight about employees related to this report's metric. Let's say you're viewing the **Long and large meeting hours** report page. Through this snapshot, you might learn that 80% of employees spend more than half of their meeting time in expensive meetings.
 
-### Percentage of your organization
+##### Percentage of your organization
 
 See a distribution of employees related to this report's metric. For example, on **Uninterrupted focus hours** report page, find out what percentage of employees in your organization get 0-10, 10-20, 20-40, and 40 or more uninterrupted focus hours per week. 
 
-### How it's calculated and Why it matters
+##### How it's calculated and Why it matters
 
 Learn how Viva Insights calculates the metric this report focuses on, and why it's important to pay attention to this metric. For a list of metrics related to organization insights, jump to [Metric definitions](#metric-definitions).
 
-### Related insights
+##### Related insights
 
 Browse insights about other metrics related to the one you're viewing on this page. If you're viewing **Long and large meeting hours**, you might find **Join on time rate**, **Multitasking hours**, or **Recurring meeting hours** here. Use the arrows in this section's top-right to scroll through all related insights.
+
+
+### Your insights
+
+Here, you'll find personal insights related to three key areas to help boost your productivity:
+
+* Wellbeing, to help you understand your work habits, manage your time, and improve your focus
+* Productivity, to learn more about your meeting habits and best practices for effective meetings
+* Teamwork, to understand how you collaborate with others, identify your top collaborators, and strengthen connections with your team
+
+To learn more about how to utilize these types of insights and improve the way you work, [visit our support site for personal insights](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f).
+
 
 ## Related information
 

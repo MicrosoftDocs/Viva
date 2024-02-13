@@ -4,14 +4,14 @@ title: "Set up the Viva Connections experience in a specific language"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-connections
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - m365initiative-viva-connections

@@ -19,7 +19,7 @@ search.appverid:
 description: "Step-by-step guidance on how to evaluate Viva Goals during a trial."
 ---
 
-# Trial Checklist 
+# Trial checklist
 
 Looking for step-by-step guidance on how to evaluate Viva Goals during a trial? We've provided some tips for running a successful trial, as well as a two-part validation checklist to make your trial experience run smoothly. 
 

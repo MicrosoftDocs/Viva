@@ -4,18 +4,20 @@ title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
 author: LoreenLa
-manager: pamgreen
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva
-localization_priority: Priority
+ms.subservice: viva-suite
+ms.localizationpriority: medium
 ms.collection:
   - M365-collaboration
   - M365initiative-viva
   - highpri
   - Tier1
+  - essentials-get-started
 ms.custom: intro-overview
 search.appverid:
 - MET150
@@ -24,7 +26,7 @@ description: "Learn how to set up the Microsoft Viva suite"
 ---
 # Set up Microsoft Viva
 
-Microsoft Viva is a suite of apps including Viva Topics, Viva Insights, Viva Learning, Viva Connections, Viva Goals, and Viva Engage. Admins can initiate setup and deployment and manage licenses for Viva apps from the Microsoft 365 admin center.
+Microsoft Viva is a suite of apps including Topics, Viva Insights, Viva Learning, Viva Connections, Viva Goals, and Viva Engage. Admins can initiate setup and deployment and manage licenses for Viva apps from the Microsoft 365 admin center.
 
 ## Start setting up
 
@@ -72,4 +74,4 @@ In this example you can:
 |**Viva Insights**|Balance productivity and well-being – Provides data-driven, privacy-protected insights and actionable recommendations that help everyone in the organization work smarter and achieve balance.|[Learn how to set it up](/viva/insights/advanced/setup-maint/setup-overview)<br>[More information about Viva Insights](/viva/insights/introduction)|
 |**Viva Learning**|Accelerate skilling and growth – Your employees can easily discover and share everything from training courses to micro-learning content.|[Learn how to set it up](/microsoft-365/learning/set-up-teams-admin-center)<br>[More information about Viva Learning](/microsoft-365/learning)|
 |**Viva Pulse**|Empower leaders and managers to seek and act on feedback when it matters. Using research-backed templates, teams can quickly share their experience and suggestions, and reporting helps managers pinpoint what's working well and which areas to focus on over time.|[Learn how to set it up](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience)<br>[More information about Viva Pulse](/viva/pulse/introduction-to-viva-pulse)|
-|**Viva Topics**|Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.|[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)<br>[More information about Viva Topics](/microsoft-365/knowledge/)|
+|**Topics**|Connect people to knowledge – People can easily discover topics of interest within Office apps, SharePoint, and search results.|[Learn how to set it up](/microsoft-365/knowledge/set-up-topic-experiences)<br>[More information about Topics](/microsoft-365/knowledge/)|

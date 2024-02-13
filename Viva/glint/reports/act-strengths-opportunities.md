@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: viva strengths and opportunities,realized, unrealized
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -43,6 +43,14 @@ When a manager has already acted - by choosing a Focus Area - the platform indic
 >[!NOTE]
 > *Take Action* or *View Focus Area* does not appear for users without *Create Focus Areas* enabled within their role permissions.
 
+## Understand realized vs. unrealized strengths 
+
+Within the strengths section, you may see "realized" or "unrealized" labels or no such label. 
+
+- Realised strength - something your team is good at and that they do on a regular basis
+- Unrealised strength - something that your team is good but doesnt practice regularly and should be considered as an opportunity
+- Unlabeled - the gap between what is realized and unrealized, for purposes of calling out the items that deserve attention
+  
 ## Custom Strengths and Opportunities
 
 Outcomes and comparisons used to calculate S&Os can be customized in either of the following ways:

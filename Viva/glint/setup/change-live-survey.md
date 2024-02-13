@@ -3,7 +3,7 @@ title: Make changes to a live Viva Glint survey
 description: Viva Glint suggests changing a live survey only when necessary.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: Edit live survey, edit program summary

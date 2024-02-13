@@ -45,9 +45,8 @@
       "breadcrumb_path": "/Workplace-Analytics/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "titleSuffix": "Workplace Analytics Office 365 ",
-      "feedback_system": "GitHub",
-      "feedback_github_repo":"MicrosoftDocs/OfficeDocs-WorkplaceAnalytics",
-      "feedback_product_url":"https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://github.com/MicrosoftDocs/OfficeDocs-WorkplaceAnalytics/issues",
       "hideEdit": true,
       "searchScope": ["Workplace Analytics"],
       "titleSuffix": "Workplace Intelligence",
@@ -63,7 +62,10 @@
         "v-dihans",
         "garycentric",
         "rodonahu",
-        "beccarobins"
+        "beccarobins",
+        "Stacyrch140",
+        "v-stsavell",
+        "American-Dipper"
       ]
     },
     "fileMetadata": {

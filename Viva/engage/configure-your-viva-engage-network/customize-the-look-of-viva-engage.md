@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
-ms.date: 7/11/2023
+manager: elizapo
+ms.date: 10/27/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -25,18 +25,19 @@ To make your Viva Engage network your own, change the colors and images used in 
   
 | Part of Viva Engage <br/> | How to customize it <br/> |
 |:-----|:-----|
-|Viva Engage header <br/>- For users who use their Microsoft 365 or Office 365 identity to sign in to Viva Engage, the theme controls the header.  <br/> |[Customize the Microsoft 365 theme for your organization](https://support.office.com/article/8275da91-7a48-4591-94ab-3123a3f79530) <br/> |
-|Viva Engage header <br/>- For network guests and Viva Engage Basic users <br/> |[Customize the Viva Engage header for people who sign-in to Viva Engage without their Office 365 identity](customize-the-look-of-viva-engage.md#Viva EngageHeader) <br/> |
+|Viva Engage header <br/>- For users who use their Microsoft 365 identity to sign in to Viva Engage, the theme controls the header.  <br/> |[Customize the Microsoft 365 theme for your organization](https://support.office.com/article/8275da91-7a48-4591-94ab-3123a3f79530) <br/> |
+|Viva Engage header <br/>- For network guests <br/> |Proceed to the [next section](customize-the-look-of-viva-engage.md#VivaEngageHeader) in this article.<br/> |
 |Email logo for notification emails sent by Viva Engage to users  <br/> |[Customize the notification email logo](customize-the-look-of-viva-engage.md#NotificationLogo) <br/> |
-|Community colors and logo in new Viva Engage  <br/> |[Define the community's look](https://support.office.com/article/d74a23a1-c3aa-4b5f-abf7-61b912138609)  <br/> |
-| Group colors and logo in classic Viva Engage | [Define the group's look](https://support.office.com/article/6e05c6d6-5548-4c88-89cd-e6757a514ef2)
+|Community colors and logo in Viva Engage  <br/> |[Define the community's look](https://support.office.com/article/d74a23a1-c3aa-4b5f-abf7-61b912138609)  <br/> |
 |External network logo  <br/> |[Create and manage an external network in Viva Engage](../work-with-external-users/create-and-manage-an-external-network.md) <br/> |
    
-## Customize the Viva Engage header for people who sign-in to Viva Engage not using their Microsoft 365 or Office 365 identity
-<a name="Viva EngageHeader"> </a>
+## Customize the Viva Engage header for network guests
+<a name="VivaEngageHeader"> </a>
+
+Use the network colors and network logo settings to change the header for users who sign in without a Microsoft 365 account.
 
 >[!IMPORTANT]
-> If your organization is using Microsoft 365 or Office 365, the network colors and network logo settings only apply to network guests. Microsoft and Office 365 users will not see these changes.
+> If your organization uses Microsoft 365, Microsoft 365 users won't see these changes.
 
 1. In the Viva Engage admin center, select **Design**.
     
@@ -57,6 +58,6 @@ To make your Viva Engage network your own, change the colors and images used in 
 
 **Q: Why don't I see changes made to network colors or logo?**
 
-A: These settings in the Viva Engage admin center only apply to users who aren't signed in to Microsoft 365 or Office 365. If your organization is using Microsoft 365 or Office 365, only network guests see these changes. 
+A: These settings in the Viva Engage admin center only apply to users who aren't signed in to Microsoft 365. If your organization is using Microsoft 365, only network guests see these changes. 
 
-Microsoft 365 and Office 365 users see the Microsoft theme for the organization. To customize this theme, see [Customize the Microsoft 365 theme for your organization](https://support.office.com/article/8275da91-7a48-4591-94ab-3123a3f79530).
+Microsoft 365 users see the Microsoft theme for the organization. To customize this theme, see [Customize the Microsoft 365 theme for your organization](https://support.office.com/article/8275da91-7a48-4591-94ab-3123a3f79530).

@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -24,12 +24,12 @@ search.appverid:
 
 ## Licensing
 
-**Premium experience**:
+**Premium experience**
 
 The following Admin users can see the Admin Center in Viva Engage in the Teams app:
 
-- Those who have access to Viva Engage through purchase of Microsoft 365 or Viva Suite.
-- Those who have access to Answers in Viva through purchase of Viva Suite or Viva Topics
+- Those who have access to Viva Engage through purchase of Microsoft 365 or Viva Suite
+- Those who have access to Answers in Viva through purchase of Viva Suite or Topics
 
 ### Core experiences: Viva Engage and Answers
 
@@ -41,13 +41,14 @@ If you enforce Viva Engage licensing in your tenant, users need to have either a
 |-------------------|---------|-------|
 |**Viva Engage Core**|Engage core experiences, including the Answers core experiences  <br> *Example:* Communities, storyline |Microsoft 365/Office 365|
 |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Communications) <br> *Example:* Leadership corner, AMAs, storyline announcements |Viva Suite|
-|**Viva Engage Knowledge**|Answers in Viva premium experience |Viva Suite, Viva Topics|
+|**Viva Engage Knowledge**|Answers in Viva premium experience |Viva Suite, Topics|
 
 ## Set up Viva Engage
+
 Use the Microsoft 365 admin center to set up and manage Viva Engage.  
 
 The configurations include:  
-- Assign Engage admins 
+- Assign Engage admins
 - Pin Engage in Teams  
 - Manage other settings in Viva Engage (links to the Viva Engage admin center within the Teams app)
 
@@ -59,7 +60,7 @@ For more information, see [the Microsoft Viva admin experience](/viva/new-micros
 
 ## See also
 
-[Key admin roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
 [Manage data in the Engage admin center](/Viva/engage/eac-as-manage-data)
 

@@ -4,7 +4,7 @@ description: "Storyline empowers everyone within your organization to connect an
 ms.reviewer: john.bacus
 ms.author: v-bvrana
 author: Starshine89
-manager: pamgreen
+manager: elizapo
 ms.date: 8/22/2023
 audience: Admin
 f1.keywords:
@@ -12,7 +12,7 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
@@ -31,7 +31,7 @@ When storyline is enabled in your organization, you see the following changes in
 
 ## Set up storyline
 
-Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/Viva/engage/eac-as-access-eac). 
+Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-as-access-eac). 
 
 1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
@@ -84,6 +84,10 @@ Your changes should  take effect within minutes. However, backend membership cha
 > [!NOTE] 
 > Disabling storyline for a user doesn't delete their storyline posts and conversations. Instead, it hides them from *all users* in the network except those who participated in the thread. If you need to address objectionable content or security concerns, a more efficient solution may be [deleting conversations](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles) or [blocking the offending user](./manage-viva-engage-users/add-block-or-remove-users.md).
 
+### Configure a multitenant organization to use storyline
+
+When Viva Engage is configured for a multitenant organization, the **Multi-tenant Organizations (MTO)** setting appears in the Advanced settings of the designated hub tenant. This setting enables users on all spoke tenants to engage with storyline posts from the hub tenant. However, these users can only participate if the multitenant organization configuration in Microsoft Entra ID has granted them access to storyline. Learn more about [configuring a multitenant organization in Viva Engage](/Viva/engage/mto-setup).
+
 ## Security and compliance
 
 Storyline is built on the same content and conversation platform as community messages in Viva Engage. Therefore, you can use the same tools for storyline that you use for monitoring and governance.  
@@ -135,7 +139,7 @@ To delete files associated with a post from the **VivaEngage** library:
 
 ### Why isn’t storyline available in our organization?
 
-Storyline is only supported in Viva Engage networks that [enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Office 365 identity, or if you have a Viva Engage Basic network, storyline isn't available to your organization.
+Storyline is only supported in Viva Engage networks that [enforce Microsoft 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity). If your network doesn't enforce Microsoft 365 (formerly Office 365) identity, or if you have a Viva Engage Basic network, storyline isn't available to your organization.
 
 ### Who can see storyline content?
 
@@ -153,15 +157,15 @@ You can't prevent any internal user from seeing storyline content if they have a
 
 From the UI, Engage admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled. To do this, from the profile page of the user, hover over the profile header and select **Upload cover photo**. Then, delete or upload a new cover image, as needed.
 
-If the admin or the user isn't premium licensed, or the user no longer has their own storyline, previously uploaded photos must be deleted via API.
+If the admin or the user isn't premium licensed, or the user no longer has their own storyline, previously uploaded photos must be deleted with the API.
 
-From the API, Engage admins or verified admins can delete cover images for any user in their network via an API call. The URL has this syntax:
+From the API, Engage admins or verified admins can delete cover images for any user in their network through an API call. The URL has this syntax:
 
-`www.yammer.com/api/public/v1/user-profiles/user_id/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/user_id/cover-image`
 
 For example, to delete the cover images of a user with id 1234567890, the URL would be:
 
-`www.yammer.com/api/public/v1/user-profiles/1234567890/cover-image`
+`engage.cloud.microsoft/api/public/v1/user-profiles/1234567890/cover-image`
 
 
 ## See also

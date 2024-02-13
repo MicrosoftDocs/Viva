@@ -2,9 +2,9 @@
 title: Overview of Microsoft Viva Amplify
 ms.author: daisyfeller
 author: daisyfell
-manager: pamgreen
+manager: elizapo
 ms.reviewer: smathurin
-ms.date: 09/13/2023
+ms.date: 11/28/2023
 audience: admin
 ms.topic: article
 ms.custom: 
@@ -18,6 +18,8 @@ ms.collection:
   - m365initiative-viva-amplify
   - highpri
   - Tier1
+  - essentials-navigation
+  - essentials-overview
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Amplify in your Microsoft 365 environment.
 ---
@@ -25,6 +27,15 @@ description: Learn about Microsoft Viva Amplify in your Microsoft 365 environmen
 # Overview of Microsoft Viva Amplify
 
 Viva Amplify empowers organizational communication teams and leaders to elevate their message and energize their people. The app centralizes communication processes in a single space and offers writing guidance to help messages from every part of the organization, including leaders, corporate communications, and HR, resonate with employees. Communicators can then publish to multiple channels simultaneously, manage their campaigns from a central hub, and study resulting metrics to better plan future communications.
+
+## How to find Viva Amplify
+
+Amplify is currently only available as a web experience.
+
+1. Sign into Microsoft 365 online.
+1. Search **Amplify** or open your app launcher and choose **Explore all your Apps**.
+1. Under **Explore by category**, choose **Communication**.
+1. Select **Amplify**.
 
 ## Get started
 

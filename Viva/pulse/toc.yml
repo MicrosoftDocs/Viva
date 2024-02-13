@@ -23,9 +23,13 @@ items:
       href: setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center.md     
     - name: Set up the in-app Viva Pulse experience
       href: setup-admin-access/set-up-in-app-pulse-experience.md
+    - name: Granular access controls for Viva Pulse
+      href: setup-admin-access/granular-access-controls.md
     - name: Enable notifications for your organization
       href: setup-admin-access/enable-notifications-for-your-organization.md  
-    - name: Access Viva Pulse in Microsoft Teams or web
+    - name: How users access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
-- name: Troubleshoot and resolve error messages
-  href: troubleshoot-and-resolve-error-messages.md
+- name: Troubleshoot
+  items:
+    - name: Resolve setup errors
+      href: /viva/troubleshoot/pulse/fix-setup-error-messages?toc=/viva/pulse/toc.json&bc=/viva/breadcrumb/toc.json

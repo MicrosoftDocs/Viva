@@ -3,7 +3,7 @@ title: Viva Glint organizational hierarchy fundamentals
 description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: managerial hierarchy, locational hierarchy, departmental hierarchy
@@ -27,6 +27,9 @@ A hierarchy filters down an employee's attributes into levels from highest to lo
 - Managerial
 - Locational
 - Departmental
+
+> [!NOTE]
+> Viva Glint allows for up to 10 reporting hierarchies, including your manager hierarchy. Each reporting hierarchy can have up to 10 levels, except for the manager hierarchy, which calculates up to 25 levels.
 
 ## Establish your managerial hierarchy
 

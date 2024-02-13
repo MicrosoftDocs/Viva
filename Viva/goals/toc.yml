@@ -5,12 +5,10 @@ items:
       href: intro-to-ms-viva-goals.md
     - name: Get to know OKRs
       href: get-to-know-okrs.md
-    - name: Determine your rollout plan
-      href: determine-your-rollout-plan.md
   
     - name: Viva Goals trials
       items:
-      - name: Start a trial overview
+      - name: Trials overview
         href: viva-goals-trials.md
       - name: IT admin-led trials
         href: it-admin-trials.md
@@ -49,6 +47,8 @@ items:
     items:
     - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
+    - name: Company-wide organizations
+      href: company-wide-organization.md
     - name: Log in, create, and join organizations in Viva Goals
       href: log-in-create-and-join-organizations.md
     - name: Restrict organization creation permissions
@@ -61,13 +61,11 @@ items:
       href: configure-okr-model.md
     - name: Managing Viva Goals members 
       href: managing-team-members.md
+    - name: Approval Workflow
+      href: approval-workflows.md  
 
-  - name: Team setup
-    items:
-    - name: Define your team
-      href: define-your-team.md
-    - name: Create and edit teams
-      href: create-and-edit-teams-and-subteams.md
+  - name: Create and edit teams
+    href: create-and-edit-teams-and-subteams.md
 
   - name: User setup
     items:
@@ -80,8 +78,8 @@ items:
       href: managing-okr-time-periods.md
     - name: Import OKRs and initiatives with Viva Goals
       href: import-okrs-projects.md
-    - name: Renaming initiatives
-      href: renaming-initiatives.md
+    - name: Customize Goals terminology
+      href: customize-terminology.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
     - name: Share an Update via Goals broadcast
@@ -94,15 +92,13 @@ items:
     - name: Viva Goals integrations overview
       href: integrations-overview.md    
     
-    - name: MS Teams
+    - name: Microsoft Teams
       items:
-      - name: Collaborate with Viva Goals in MS Teams
+      - name: Use Viva Goals with Microsoft 365 apps
         href: ms-teams-integration.md
-      - name: Add the Viva Goals app to MS Teams
+      - name: Add the Viva Goals app
         href: configure-ms-teams-integration.md
-      - name: Use Viva Goals in Microsoft Teams
-        href: use-ms-teams-integration.md
-      - name: Link Previews in Microsoft Teams
+      - name: Link previews
         href: ms-teams-link-preview.md
       - name: Notifications in Teams
         href: ms-teams-notifications.md
@@ -192,6 +188,26 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+
+- name: Copilot in Viva Goals
+  items:
+  - name: Introduction
+    href: copilot-intro.md
+  - name: Use Copilot in Viva Goals
+    href: copilot-uses.md
+
+- name: The OKR framework
+  items:
+  - name: Benefits of OKRs
+    href: benefits-of-okrs.md
+  - name: OKR superpowers
+    href: okr-superpowers.md
+  - name: Ensuring OKR program success
+    href: ensuring-okr-success.md
+  - name: Define your team
+    href: define-your-team.md
+  - name: Determine your rollout plan
+    href: determine-your-rollout-plan.md
        
  
  

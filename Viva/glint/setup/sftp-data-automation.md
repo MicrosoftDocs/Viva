@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 10/18/2023
 ---
 
@@ -29,6 +29,9 @@ Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regul
 ## Prepare data for import
 
 Before transferring data to Viva Glint with SFTP, ensure that you review information on Viva Glint attribute fundamentals and complete your attribute setup. [Learn more](https://go.microsoft.com/fwlink/?linkid=2240826).
+
+> [!CAUTION]
+> Ensure that all Company Admin users are included in your first file upload, with Employee IDs that match the IDs in Viva Glint. If not, Company Admin users will be deactivated and lose access to the platform.
 
 ## Manage SFTP settings
 
@@ -62,8 +65,10 @@ While your employee data uploads to Viva Glint, derived attributes and values ar
 |Derived Field   |Based On   |Derived Values|
 |----------|-----------|------------|
 |Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
-|Tenure|Hire Date   |0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years|
+|Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
 |Manager Hierarchy|Employee ID and Manager ID data relationship  |Up to 25 manager levels, starting with the CEO/top-level leader|
+
+*Tenure values for files processed after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 > [!NOTE]
 > Don’t include derived attributes in your employee data file, Viva Glint creates these fields.

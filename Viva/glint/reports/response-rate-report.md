@@ -3,7 +3,7 @@ title: Use the Viva Glint Response Rate report
 description: "The Response Rate report provides a deep dive into survey response rates across hierarchies and key demographics."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities

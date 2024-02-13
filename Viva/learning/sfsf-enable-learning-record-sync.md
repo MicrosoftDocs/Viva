@@ -2,7 +2,7 @@
 title: Enable learner record sync
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 02/26/2023
 audience: admin
@@ -14,7 +14,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Enable learning record synch in SAP SuccessFactors for Microsoft Viva Learning.
 ---
 

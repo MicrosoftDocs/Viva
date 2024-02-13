@@ -4,13 +4,14 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89 
-manager: pamgreen
-ms.date: 11/1/2023
+manager: elizapo
+ms.date: 01/04/2024
 audience: Admin
 ms.topic: reference
 ms.localizationpriority: medium
 ms.service: viva
 ms.subservice: viva-engage
+ms.collection: essentials-security
 ms.custom: Adm_Yammer
 search.appverid:
 - MET150
@@ -83,9 +84,10 @@ A: Only users with a valid and verified company email address can join your Viva
 
 ### Q: What endpoints need to be reachable for Viva Engage users?
 
-A: As of October 22, 2018, all Viva Engage users need to be able to access **yammer.com**. We recommend against using a list of IP address ranges to control access since they can change and create access problems for users. For information about the October 2018 change, see [Using hard-coded IP addresses isn't recommended](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
+A: As of January 2024, all Viva Engage users need to be able to access
+**engage.cloud.microsoft**. We recommend against using a list of IP address ranges to control access since they can change and create access problems for users.
 
-For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/office365/enterprise/office-365-endpoints).
+For complete Microsoft 365 URL and IP address ranges info, see [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints).
 
 ### Q: Where is the data hosted?
 

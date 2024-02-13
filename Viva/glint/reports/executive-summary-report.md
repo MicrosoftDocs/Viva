@@ -1,9 +1,9 @@
 ---
-title: Use Viva Glint’s Executive Summary dashboard
-description: The Executive Summary is a grouping of reports which leaders can display on their dashboard to share high level results to their teams or the entire company.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+title: Use Viva Glint’s Executive Summary report
+description: The Executive Summary is a grouping of reports which leaders can use to share high level results with their teams or the entire company.
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: trend, demographics, comment 
@@ -18,13 +18,13 @@ ms.localizationpriority: high
 ms.date: 04/10/2023
 ---
 
-# Use Viva Glint’s Executive Summary dashboard
+# Use Viva Glint’s Executive Summary report
 
-The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company. This report is your overall dashboard view.  
+The Executive Summary is a group of reports useful to admins for presenting high level results to your team, leaders, or the company.  
 
-## Choose reports to share on your Executive Summary dashboard
+## Choose reports to share on your Executive Summary report
 
-There are many reports that you can choose to be part of this dashboard. The following descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
+There are many reports that you can choose to be part of this dashboard view. The following descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
 
 | Report or section  | Description |
 | -------------- | ----------------- |

@@ -1,9 +1,9 @@
 ---
 title: Viva Glint Licensing
 description: Subscriptions are required for all Viva Glint programs. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: pamgreen
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Viva Glint licensing, licensing, license limits 
@@ -29,4 +29,9 @@ If the number of active users in Viva Glint exceeds the subscription purchase, y
 - Purchase extra Microsoft Viva suite or Viva Glint licenses according to the product terms; 
 - Remove excess active users from the Viva Glint instance by marking them “INACTIVE.”  
 
-If the grace period expires and you haven't taken any of the actions described above, some of Viva Glint app’s key functionalities won't work as expected. An admin can perform either of the actions to re-enable all features of Viva Glint. 
+## What happens if our grace period expires?
+
+If the grace period expires and you haven't taken any of the actions described above, some of the Viva Glint key functionalities won't work as expected. 
+
+>[!NOTE]
+>If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.

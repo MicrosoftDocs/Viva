@@ -3,7 +3,7 @@ title: Use the trend graph in a Viva Glint Employee Lifecycle program
 description: "The Trend Graph for Employee Lifecycle surveys behaves differently than that of recurring survey programs."
 ms.author: SarahBerg
 author: SarahAnneBerg
-manager: pamgreen
+manager: elizapo
 audience: admin
 f1.keywords: NOCSH
 keywords: viva strengths and opportunities
