@@ -1,8 +1,8 @@
 {
   "redirections": [
     {
-    "source_path": "viva/glint/setup/release-dates.md",
-    "redirect_url": "viva/glint/monthly-release-dates",
+    "source_path": "Viva/glint/setup/release-dates.md",
+    "redirect_url": "Viva/glint/setup/monthly-release-dates",
     "redirect_document_id": false
     },
     {
