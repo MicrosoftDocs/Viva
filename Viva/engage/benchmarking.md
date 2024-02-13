@@ -1,7 +1,7 @@
 ---
 ms.date: 2/12/2024
 title: "Benchmarking analytics in Viva Engage"
-description: "Viva Engage analytics provides benchmark percentiles to help you determine engagement levels in your audiences and organization."
+description: "Benchmarks reveal how your Viva Engage metrics perform compared to those of other organizations."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
