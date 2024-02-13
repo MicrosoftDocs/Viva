@@ -181,8 +181,6 @@ items:
                 href: setup/change-live-survey.md
               - name: Share Viva Glint post-survey learning experiences with your employees
                 href: setup/post-survey-learnings.md
-              - name: Plan ahead for scheduled monthly maintenance shutdowns
-                href: setup/release-dates.md                
   - name: Set up and customize Viva Glint programs
     items:
      - name: Use validated Viva Glint survey item templates
