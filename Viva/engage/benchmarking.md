@@ -93,3 +93,5 @@ Leaders, delegate managers, and delegates can increase engagement, strengthen co
 [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895)
 
 [View and manage analytics in Viva Engage](/Viva/engage/analytics)
+
+[Overview of security and compliance in Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance)
