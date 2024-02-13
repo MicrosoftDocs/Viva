@@ -49,22 +49,22 @@ Why not to use aggregate groupings in surveys:
 > Trend is considered unreliable when it is not measuring “apples to apples” - when there are differences in the items that appear in an aggregate between the new cycle and the same aggregate in the previous cycle. Trend will be shown when at least one item is identical in the same aggregate in two cycles, but unless all items are identical, the aggregate trend is not measuring a consistent group of items and is not as reliable as single item trend data.
 
 ## Aggregate trend examples across 2 cycles
-There is a lot to consider when comparing survey cycles with aggregate groupings.
+There's a lot to consider when comparing survey cycles with aggregate groupings.
 
 ### Use case 1
-3 items are part of the aggregate in both cycles, but because they are *not the same 3 items,* no aggregate trend forms.
+3 items are part of the aggregate in both cycles, but because they aren't the same 3 items,* no aggregate trend forms.
 
-:::image type="content" source="../../media/glint/reports/aggregate-1.png" alt-text="Cycle A and Cycle B do not share the same three items.":::
+:::image type="content" source="../../media/glint/reports/aggregate-1.png" alt-text="Cycle A and Cycle B don't share the same three items.":::
 
 ### Use case 2 
 One item is removed from the aggregate in the second cycle.
-Cycle A contains 3 items, but Cycle B contains only 2 items. Aggregate Trend doesn’t exist because the aggregate is not identical; there is no aggregate history. Individual items show trend but they do not reflect upon the aggregate as a whole unit.
+Cycle A contains 3 items, but Cycle B contains only 2 items. Aggregate Trend doesn’t exist because the aggregate isn't identical; there's no aggregate history. Individual items show trend but they don't reflect upon the aggregate as a whole unit.
 
-:::image type="content" source="../../media/glint/reports/aggregate-2.png" alt-text="The 2 cycles share no history because the aggregate trend is not identical.":::
+:::image type="content" source="../../media/glint/reports/aggregate-2.png" alt-text="The 2 cycles share no history because the aggregate trend isn't identical.":::
 
 ### Use case 3 
 A new question is added to the aggregate grouping.
-A new item is added to Cycle B so no aggregate trend is associated; there is no identical history. 
+A new item is added to Cycle B so no aggregate trend is associated; there's no identical history. 
 
 :::image type="content" source="../../media/glint/reports/aggregate-3.png" alt-text="No aggregate history is associated between the 2 cycles.":::
 
