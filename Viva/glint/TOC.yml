@@ -156,9 +156,9 @@ items:
              href: setup/opting-into-external-benchmarks.md
            - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
              href: setup/people-science-benchmark-philosophy.md        
-       - name: Use Viva Glint's best practices to design your survey program
-         href: setup/best-practice-setup-guidance.md
-         items:
+      - name: Use Viva Glint's best practices to design your survey program
+        href: setup/best-practice-setup-guidance.md
+        items:
             - name: Viva Glint aggregate grouping - trends and best practices
               href: reports/aggregate-trending.md
             - name: Recommendations for using Viva Glint Survey Coach and Tooltips
