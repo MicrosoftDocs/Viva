@@ -121,85 +121,9 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
-## Install, share, and update the dashboard in Power BI
-
 >[!Important]
->The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being. We recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
-
-*Applies to: Admins*
-
-The Copilot Dashboard is also available as an app within Power BI.
-
-To install the dashboard in Power BI and connect it to your data, make sure you have the following:
-
-* A Microsoft 365 or Office 365 subscription for enterprise or business 
-
-* A Power BI Pro license. If you don’t have a Power BI Pro license, [get a free trial now](https://powerbi.microsoft.com/power-bi-pro/).
-
-* One of the following Microsoft 365 admin roles:
-    * Global Administrator
-    * Exchange Administrator
-    * SharePoint Administrator
-    * Teams Communications Administrator
-    * Teams Administrator
-    * Usage Summary Reports Reader
-    * Office Apps Administrator
-    * Global Reader
-    * Report Reader
-
-You're *not* required to have a Viva Insights subscription to use the report, and data stored in Viva Insights is not used to produce the report. The report is made available to you as part of your Microsoft 365 or Office 365 subscription. All data flows for the report are handled in a manner consistent with all applicable Microsoft privacy, security, and compliance commitments and the corresponding data flow requirements.
-
-:::image type="complex" source="images/copilot-impact-dashboard-03.png" alt-text="Screenshot that shows the readiness page in the Copilot Dashboard." lightbox="images/copilot-impact-dashboard-03.png":::
-Screenshot that shows the readiness page in the Copilot Dashboard.
-:::image-end:::
-
-### Install and share the app
-
-1. Use the following link to get to the app: [Microsoft Copilot Dashboard (Preview)](https://aka.ms/copilot-impact).
-
-1. On the AppSource page for the app, select **Get it now**. You can also search for the app in the Power BI app marketplace.
-
-1. When prompted, select **Install**.
-
-1. When the app finishes installing, it will appear on your Power BI Apps page. Select the app to open it.
-
-1. At the top of the app, select **Connect your data**.
-
-1. In the **Connect to Microsoft Copilot Dashboard** dialog, enter your Microsoft 365 tenant ID. Follow the steps on [this page](/sharepoint/find-your-office-365-tenant-id) to find your tenant ID. When you're done, select **Next**.
-
-1. Connect your account:
-    * For "Authentication method," select **OAuth2**.
-    * For "Privacy level setting for this data source," select **Organizational**.
-    * When you're done, select **Sign in and connect**.
-
-1. Select the user account. Make sure to sign in with the credentials that you use for admin access to your Microsoft 365 tenant (see list of approved roles above).
-
-1. Wait for the report to build with your organization’s data. This should occur within several minutes.
-
-1. Follow the guidelines on [this page](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to share the app with users in your organization.
-
->[!Note]
->Please be aware that after you connect your tenant's data to this Power BI template app, a copy of the data will be stored outside of the Microsoft 365 service boundary, and might be subject to different security and privacy standards. The copied data is limited to the tenant-level aggregated data points that are displayed in the app. This note applies exclusively to the Power BI template app version of the Microsoft Copilot Dashboard and *not* to the version within the Viva Insights app.
-
-### Update the app
-
-Periodically you may receive update notifications from AppSource/Power BI about a new version of the app. After selecting the notification, select **Update the workspace and the app**. Then, select **Install**.
-
-This will install the update, overwriting the existing/installed workspace and app. After completing this step, follow the steps outlined [here](/power-bi/connect-data/service-template-apps-install-distribute#customize-and-share-the-app) to republish the app for users in your organization.
-
-#### Issues
-
-If you have any issues with the dataset refresh/app update during the update process, use these steps to refresh the dataset and make sure your dataset configurations are set correctly:
-
-1. Go to the workspace panel and open the app workspace.
-
-1. In the dataset settings, select **Scheduled Refresh**.
-
-1. Open the **Parameters** section and configure the data source once again in the **Data Source** section with the credentials with which you have access to the **Tenant ID** with valid permissions, mentioned in the prerequisites section above.
-
-1. Once you complete the above steps, go back to the app workspace and select **Refresh**.
-
-1. Once the dataset has refreshed successfully, select **Update App** at the top-right of the app workspace.
+>The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
+>If you previously downloaded the Power BI app, see the FAQs below to troubleshoot any issues.
 
 ## Interpreting the data
 ### Readiness
@@ -279,10 +203,36 @@ No, the report does not use any Viva Insights data in the process of computing t
 
 To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users.
 
-**I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
-
-First, check in the Microsoft 365 Admin Center that you have one of the roles listed in the Prerequisites section above. If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID. 
-
 **What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
 The dashboard displays data for a rolling 28-day period.
+
+**I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
+
+First, check in the Microsoft 365 Admin Center that you have one of these roles:
+
+* Global Administrator
+* Exchange Administrator
+* SharePoint Administrator
+* Teams Communications Administrator
+* Teams Administrator
+* Usage Summary Reports Reader
+* Office Apps Administrator
+* Global Reader
+* Report Reader
+
+If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID.
+
+**I’m having issues with the dataset refresh/app update during the update process in Power BI. What should I do?**
+
+Use these steps to refresh the dataset and make sure your dataset configurations are set correctly:
+
+1. Go to the workspace panel and open the app workspace.
+
+2. In the dataset settings, select **Scheduled Refresh**.
+
+3. Open the **Parameters** section and configure the data source again in the **Data Source** section with the credentials for your **Tenant ID** with valid permissions.
+
+4. Once you complete the above steps, go back to the app workspace and select **Refresh**.
+
+5. Once the dataset has refreshed successfully, select **Update App** at the top-right of the app workspace.
