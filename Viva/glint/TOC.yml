@@ -102,7 +102,7 @@ items:
                 href: setup/export-distribution-lists.md
           - name: Admins setting up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-          - name: Focus Area periods
+          - name: Admins setting up Focus Area periods
             href: setup/focus-area-period-feature.md
           - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
@@ -165,8 +165,6 @@ items:
                     href: setup/opting-into-external-benchmarks.md
               - name: Understand Viva Glint survey access methods
                 href: setup/understand-survey-access-methods.md
-              - name: Plan for scheduled monthly platform shutdowns
-                href: setup/monthly-release-dates.md
               - name: Set up communications in user time zones
                 href: setup/time-zones.md
               - name: Recognize survey field character limits in Viva Glint programs
