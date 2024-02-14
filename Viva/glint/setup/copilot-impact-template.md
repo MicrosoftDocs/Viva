@@ -76,6 +76,6 @@ Viva Glint recommended items fall into two categories:
 
 The Copilot Impact Survey template is found in the *Recurring* section on the *Create a Program* page.
 
-:::image type="content" source="../../media/glint/setup/copilot-impact-template-card.png" alt-text="Screenshot of the Recurring program templates avaiable in Viva Glint.":::
+:::image type="content" source="../../media/glint/setup/copilot-impact-template-card.png" alt-text="Screenshot of the Recurring program templates available in Viva Glint.":::
 
 [Follow Program Summary guidance to set up your program.](../../glint/setup/program-summary-overview.md)
