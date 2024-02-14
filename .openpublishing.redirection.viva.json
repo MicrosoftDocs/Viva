@@ -949,6 +949,21 @@
             "source_path": "viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices.md",
             "redirect_url":"/viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/troubleshoot-problems/cannot-migrate-a-viva-engage-network-across-office-365-tenants.md",
+            "redirect_url": "/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/troubleshoot-problems/upgrade-your-network-to-stand-alone-viva-engage.md",
+            "redirect_url": "/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/troubleshoot-problems/viva-engage-user-is-displayed-as-former-member.md",
+            "redirect_url": "/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
         }
     ]
 }
