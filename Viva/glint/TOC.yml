@@ -102,7 +102,7 @@ items:
                 href: setup/export-distribution-lists.md
           - name: Admins setting up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-          - name: Focus Area periods
+          - name: Admins setting up Focus Area periods
             href: setup/focus-area-period-feature.md
           - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
