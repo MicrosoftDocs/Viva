@@ -76,4 +76,4 @@ The Copilot Impact Survey template is found in the *Recurring* section on the *C
 
 :::image type="content" source="../../media/glint/setup/copilot-impact-template-card.png" alt-text="Screenshot of the Recurring program templates avaiable in Viva Glint.":::
 
-[Follow the Program Summary guidance to set up your program.](../../setup-summary-overview.md)
+[Follow the Program Summary guidance to set up your program.](../../setup/program-summary-overview.md)
