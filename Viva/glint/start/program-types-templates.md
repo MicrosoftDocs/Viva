@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/08/2024
+ms.date: 02/14/2024
 ---
 
 # Viva Glint program types and associated templates
@@ -82,44 +82,51 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Human Resource leaders and managers 
 - **Feedback providers** - Departing employees
 
-### Special topic survey templates
+## Special topic survey templates
 
-#### Culture survey template
+### Microsoft Copilot Impact Survey template
+
+- **Purpose** - Organizations can measure the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI
+- **Recommended frequency** - Recurring
+- **Target groups for results** - All roles
+- **Feedback providers** - All roles
+
+### Culture survey template
 
 - **Purpose** - Uses Viva Glint's People Science team's identified measurable elements of current culture that are important to driving people and organizational success.
 - **Recommended frequency** - Recommended as a recurring survey launching every few years or so depending on how quickly the organization is changing
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
 
-#### Diversity and Inclusion template
+### Diversity and Inclusion template
 
 - **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-#### Patient Safety template
+### Patient Safety template
 
 - **Purpose** - Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Healthcare managers and teams
 - **Feedback providers** - All eligible employees
 
-#### Manager Effectiveness template
+### Manager Effectiveness template
 
 - **Purpose** - Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-#### Team Effectiveness template
+### Team Effectiveness template
 
 - **Purpose** - Identifies a team's unique dynamics and opportunities for improvement
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-#### Distress survey template
+### Distress survey template
 
 - **Purpose** - Assesses employee sentiment related to a specific large-scale change within the organization (e.g., M&A, major technology implementation, organizational restructuring)
 - **Recommended frequency** - Recurring or Ad Hoc
