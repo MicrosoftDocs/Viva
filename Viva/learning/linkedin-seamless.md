@@ -31,13 +31,13 @@ To enable seamless login, admins can set up the following configurations:
 
 2. Turn on **Seamless Login** for LinkedIn Learning.
 
-   ![The manage providers pane with the seamless login enabled for LinkedIn Learning](../media/learning/linkedin-learning-seamless-1-enable-toggle.png)
+   ![Screenshot that shows the manage providers pane with the seamless login enabled for LinkedIn Learning](../media/learning/linkedin-learning-seamless-1-enable-toggle.png)
 
-   ![Seamless login menu with an outline of the following steps.](../media/learning/linkedin-learning-seamless-2.png)
+   ![Screenshot that shows seamless login menu with an outline of the following steps.](../media/learning/linkedin-learning-seamless-2.png)
 
 3. Provide **admin consent**.
 
-   ![Permission requested window that wants to sign into the LinkedIn Learning Viva Connector](../media/learning/linkedin-learning-seamless-3-permission-requested.png)
+   ![Screenshot that shows permission requested window that wants to sign into the LinkedIn Learning Viva Connector](../media/learning/linkedin-learning-seamless-3-permission-requested.png)
 
    > [!IMPORTANT]
    > The consent is provided only by specific roles in the organization. Review who can [grant tenant-wide admin consent](/entra/identity/enterprise-apps/grant-admin-consent?pivots=portal#prerequisites) in Enterprise applications.
@@ -52,9 +52,9 @@ To enable seamless login, admins can set up the following configurations:
        > [!IMPORTANT]
        > On the LinkedIn configuration page, select **Submit** after entering the tenant ID and copying the Link to ensure that configuration is saved.
 
-   ![LinkedIn configuration page where you copy the link to Viva Learning enter your Viva Tenant](../media/learning/linkedin-learning-seamless-4-linkedin-config.png)
+   ![Screenshot that shows LinkedIn configuration page where you copy the link to Viva Learning enter your Viva Tenant](../media/learning/linkedin-learning-seamless-4-linkedin-config.png)
 
-   ![The seamless login screen with the linked copied from LinkedIn](../media/learning/linkedin-learning-seamless-5-validate.png)
+   ![Screenshot that shows the seamless login screen with the linked copied from LinkedIn](../media/learning/linkedin-learning-seamless-5-validate.png)
 
 8. Select **Validate** and follow the steps to confirm the configuration works. Users are prompted to use their organization's LinkedIn Learning credentials to sign in.
 
