@@ -55,4 +55,4 @@ Thank you for your participation,
 
 ## Frequently aksed questions
 
-Use Viva Glint frequently asked questions to prepare an FAQ document to share in your introduction email.
+Use Viva Glint frequently asked questions to prepare an [FAQ document](survey-taker-faq.md) to share in your introduction email.
