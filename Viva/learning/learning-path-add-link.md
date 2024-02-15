@@ -31,14 +31,14 @@ You can add link to content found in SharePoint, YouTube, Vimeo, news articles
 
 2. Select **Add content** to add courses to your learning path.
 
-3. Select **Add link to content.**
+3. Select **Add link to content**.
 
-![Screenshot of the add content screen where you add section title, learning content, and duration.](../media/learning/learning-path-link-to-content-add-content.png)
+    ![Screenshot of the add content screen where you add section title, learning content, and duration.](../media/learning/learning-path-link-to-content-add-content.png)
 
-
+ 
 4. Paste the SharePoint URL or web link. Select **Add**.
 
-![Screenshot of the add link to content screen in which you can add the url.](../media/learning/learning-path-link-to-content-add-content-2.png)
+    ![Screenshot of the add link to content screen in which you can add the url.](../media/learning/learning-path-link-to-content-add-content-2.png)
 
 5. Edit the title, thumbnail, and description.
 
@@ -48,5 +48,5 @@ You can add link to content found in SharePoint, YouTube, Vimeo, news articles
 
 8. To delete content, go to the section, edit and select the cross.
 
-![Screenshot of add link to content with the url, title, description and thumbnail set.](../media/learning/learning-path-link-to-content-add-content-3.png)
+    ![Screenshot of add link to content with the url, title, description and thumbnail set.](../media/learning/learning-path-link-to-content-add-content-3.png)
 
