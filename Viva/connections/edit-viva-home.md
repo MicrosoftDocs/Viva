@@ -147,19 +147,27 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 9. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
 
-10. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
-
-11. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
+10. **Scoped Search**: Uses have the option to search within Viva Connections when accessing the search bar within their Connections experience. As users type, the option to search for results within Connections (or Teams) will display.
 
     > [!NOTE]
-    >
-    > A future update is planned to make the News spotlight customizable.
+> 
+> - Scoped Search is currently only available in Teams classic to all customers. A future update is planned to bring this feature to the [new Teams client](/microsoftteams/new-teams-desktop-admin).
+> - Scoped search in the new Teams client is not available for GCC and GCC High customers, and will be made available with a future update.
+
+11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
+
+12. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
+
+    > [!NOTE]
+>
+> A future update is planned to make the News spotlight customizable.
 
 12. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
 
 ## Customize the app icon and label in the Teams app bar
 
 > [!NOTE]
+>
 > For customers with at least one F license:  
 >
 > - The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
