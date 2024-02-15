@@ -98,14 +98,14 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
 
-### [Diversity and Inclusion template](../../setup/diversity-inclusion)
+### [Diversity and Inclusion template](/viva/glint/setup/diversity-inclusion)
 
 - **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-### [Patient Safety template](../../patient-safety-survey)
+### [Patient Safety template](/viva/glint/patient-safety-survey)
 
 - **Purpose** - Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.
 - **Recommended frequency** - Recurring
