@@ -36,7 +36,7 @@ The Microsoft 365 admin assigns roles through the Microsoft admin center, unless
 
 *Applies to: Microsoft 365 global admin*
 
-1. Go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
+1. Go to the [settings tab](https://admin.microsoft.com/adminportal/home#/viva) and select **Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.
 1. Under **Add-on Plan**, select the role you want to assign: **Insights Admin**, **Insights Business Leader**, or **Insights Analyst**.
 :::image type="content" source="../images/assign-admin-leader-analyst.png" alt-text="Screenshot that shows the Viva Insights admin page with options in the Add-on Plan section highlighted." lightbox="../images/assign-admin-leader-analyst.png":::
 1. Select **Add users** or **Add groups**. We discuss group role assignment in [Assign roles to groups](#assign-roles-to-groups).
