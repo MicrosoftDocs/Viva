@@ -57,7 +57,7 @@ Use Always-On feedback to provide feedback and suggestions anytime it feels rele
 
 Leverage Viva Glint programs to create feedback habits and support continuous employee and organizational development. Viva Glint offers prescribed templates and a blank template option for each type of program.
 
-### Engagement survey template
+### [Engagement survey template](https://go.microsoft.com/fwlink/?linkid=2231005)
 
 - **Purpose** -  - Engagement surveys measures key drivers of engagement from Glint's research-based People Success Elements, which are critical for employees being happy and successful at work.
 - **Recommended frequency** - Recurring: Recommended quarterly as this includes all core engagement items, creating a solid engagement baseline for your organization. This program is recommended as a first introduction to Viva Glint programs within your organization and can be set to a customized cadence.
@@ -66,7 +66,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 
 ## Employee Lifecycle survey templates
 
-### Onboarding template
+### [Onboarding template](https://go.microsoft.com/fwlink/?linkid=2231203)
 
 - **Purpose** - Provides an opportunity to check in with newcomers and understand what is going well and any challenges with their onboarding experience
 - **Recommended frequency** - Automatically triggered at a key moment
@@ -75,7 +75,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Human Resource leaders and managers
 - **Feedback providers** - New hires
 
-### Exit survey template
+### [Exit survey template](https://go.microsoft.com/fwlink/?linkid=2231203)
 
 - **Purpose** - Provides data for why people leave and their perceptions of the organization as they transition from the organization
 - **Recommended frequency** - Automatically triggered at a key moment
@@ -84,7 +84,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 
 ## Special topic survey templates
 
-### Microsoft Copilot Impact Survey template
+### [Microsoft Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)
 
 - **Purpose** - Organizations can measure the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI
 - **Recommended frequency** - Recurring
@@ -98,28 +98,28 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Senior leadership and above
 - **Feedback providers** - All eligible employees
 
-### Diversity and Inclusion template
+### [Diversity and Inclusion template](../../setup/diversity-inclusion)
 
 - **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-### Patient Safety template
+### [Patient Safety template](../../patient-safety-survey)
 
 - **Purpose** - Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Healthcare managers and teams
 - **Feedback providers** - All eligible employees
 
-### Manager Effectiveness template
+### [Manager Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231106)
 
 - **Purpose** - Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness
 - **Recommended frequency** - Recurring
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-### Team Effectiveness template
+### [Team Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231201)
 
 - **Purpose** - Identifies a team's unique dynamics and opportunities for improvement
 - **Recommended frequency** - Recurring
