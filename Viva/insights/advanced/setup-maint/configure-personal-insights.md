@@ -73,7 +73,7 @@ Through the Microsoft admin center, you can configure access to Viva Insights el
 
 ### To manage availability for the Viva Insights app in Teams
 
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. In the Microsoft admin center, go to the [Settings tab](https://admin.microsoft.com/adminportal/home#/viva) and select **Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
 
     :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
@@ -84,7 +84,7 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
 
 *Use for [Default on](../../personal/setup/deployment-guide.md#default-on) and [Default off](../../personal/setup/deployment-guide.md#default-off) rollout scenarios, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
 
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. In the Microsoft admin center, go to the [Settings tab](https://admin.microsoft.com/adminportal/home#/viva) and select **Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
