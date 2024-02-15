@@ -81,7 +81,7 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 
 Engage admins and corporate communicators can access analytics to monitor engagement across their entire organization.
 
-:::image type="content" source="../media/engage/IMG/engage-network-analytics.png" alt-text="Screenshot shows where to access Network analytics.":::
+:::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot shows where to access Network analytics.":::
 
 ## Frequently asked questions
 
