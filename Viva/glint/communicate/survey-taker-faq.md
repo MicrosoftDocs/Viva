@@ -22,7 +22,7 @@ ms.date: 02/15/2024
 
 The following FAQs are included on this [Microsoft support page for survey takers](https://support.microsoft.com/en-us/topic/how-to-take-a-viva-glint-survey-6691b3c7-d7f4-48f5-a69f-d1fe5ce528a5). You may choose, instead, to customize these FAQs and share them independently. Consider also including:
 
-- How users are eligible (for example, active employess who are with the company for at least 30 days)
+- How users are eligible (for example, active employees who are with the company for at least 30 days)
 - How to contact your IT department if they have issues logging in
 - The survey start and end dates
 - Which email address the survey emails come from
@@ -34,7 +34,7 @@ It should take no more than 10 minutes to complete and your responses are 
 Once the survey closes, your feedback is analyzed. Your manager shares results and host a conversation about which actions to prioritize. Be prepared to share ideas about solutions that you believe can fuel progress over time.
 
 ### What is the survey window?
-The survey window is the time from the day the survey opens until the day it closes for participation. If your survey isn't yet submited near the end date, you receive a reminder. 
+The survey window is the time from the day the survey opens until the day it closes for participation. If your survey isn't yet submitted near the end date, you receive a reminder. 
 
 ### Can I start my survey and complete it later?
 Yes, the survey automatically saves your answers and then you can select the same link to complete it later.

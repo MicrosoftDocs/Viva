@@ -53,6 +53,6 @@ Thank you for your participation,
 
 [Name, Title]
 
-## Frequently aksed questions
+## Frequently asked questions
 
 Use Viva Glint frequently asked questions to prepare an [FAQ document](survey-taker-faq.md) to share in your introduction email.
