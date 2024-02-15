@@ -23,9 +23,9 @@ description: Learn how to create a link to content in learning paths for Microso
 You can add link to content found in SharePoint, YouTube, Vimeo, news articles, and other sources into Viva Learning. Content can be bookmarked, recommended, and shared. 
 
 > [!NOTE]
-> You need a Viva Suite or Viva Learning license to add link to content.   
-> This content isn't searchable in Viva Learning. 
-> The default language for this content is the one set by your organization's admin.  
+> - You need a Viva Suite or Viva Learning license to add link to content.   
+> - This content isn't searchable in Viva Learning. 
+> - The default language for this content is the one set by your organization's admin.  
 
 1. Create a [learning path](creating-learning-paths.md). 
 
