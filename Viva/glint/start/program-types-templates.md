@@ -105,7 +105,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - Managers and teams
 - **Feedback providers** - All eligible employees
 
-### [Patient Safety template](/viva/glint/patient-safety-survey)
+### [Patient Safety template](/viva/glint/setup/patient-safety-survey)
 
 - **Purpose** - Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.
 - **Recommended frequency** - Recurring
