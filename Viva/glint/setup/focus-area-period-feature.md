@@ -1,5 +1,5 @@
 ---
-title: Focus Area period feature setup
+title: Admins setting up Focus Area periods
 description: Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from the time the Focus Area is created through when action taking should be completed.. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/07/2024
 ---
 
-# Focus Area period feature setup
+# Admins setting up Focus Area periods
 
 Viva Glint admins can manage Focus Area periods directly from the platform. A Focus Area period is the timeframe (or window) from when the Focus Area is created through when action taking should be completed.
 
