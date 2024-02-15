@@ -129,6 +129,6 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 ### Distress survey template
 
 - **Purpose** - Assesses employee sentiment related to a specific large-scale change within the organization (e.g., M&A, major technology implementation, organizational restructuring)
-- **Recommended frequency** - Recurring or Ad Hoc
+- **Recommended frequency** - Recurring or Ad-hoc
 - **Target groups for results** - Leaders of change and change management team
 - **Feedback providers** - All eligible employees
