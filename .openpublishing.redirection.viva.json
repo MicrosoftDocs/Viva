@@ -952,17 +952,17 @@
         },
         {
             "source_path": "viva/glint/reports/people-science-explains-focus-areas.md",
-            "redirect_url": "Viva/glint/people-science/people-science-explains-focus-areas",
+            "redirect_url": "/viva/glint/people-science/people-science-explains-focus-areas",
             "redirect_document_id": false
         },
         {
             "source_path": "viva/glint/setup/import-external-people-science-pov.md",
-            "redirect_url": "Viva/glint/people-science/import-external-people-science-pov",
+            "redirect_url": "/viva/glint/people-science/import-external-people-science-pov",
             "redirect_document_id": false
         },
         {
             "source_path": "viva/glint/setup/people-science-benchmark-philosophy.md",
-            "redirect_url": "Viva/glint/people-science/people-science-benchmark-philosophy",
+            "redirect_url": "/viva/glint/people-science/people-science-benchmark-philosophy",
             "redirect_document_id": false
         }
     ]
