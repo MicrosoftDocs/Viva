@@ -15,12 +15,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2024
+ms.date: 02/15/2024
 ---
 
 # Questions setup in Program Summary
 
-The Questions page allows you to add or modify the items included in a survey. . Refer to the [Learn about Viva Glint program design](/../../[training/modules/viva-glint-learn-about-viva-glint-program-design/) to learn to add or modify survey items.
+The Questions page allows you to add or modify the items included in a survey. . Refer to the [Learn about Viva Glint program design](https://learn.microsoft.com/training/modules/viva-glint-learn-about-viva-glint-program-design/)) to learn to add or modify survey items.
 
 :::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary.":::
 
