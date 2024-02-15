@@ -102,7 +102,7 @@ items:
                 href: setup/export-distribution-lists.md
           - name: Admins setting up Viva Glint User Roles
             href: setup/set-up-user-roles.md
-          - name: Focus Area periods
+          - name: Admins setting up Focus Area periods
             href: setup/focus-area-period-feature.md
           - name: Admins using the Viva Glint Question Library
             href: setup/question-library.md
@@ -146,43 +146,45 @@ items:
             href: setup/monthly-release-dates.md
           - name: Understand Viva Glint programs and cycles
             href: setup/program-cycle-edits.md
-          - name: Use Viva Glint benchmarks
-            href: setup/benchmarks.md
-            items:
-              - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
-                href: setup/people-science-benchmark-philosophy.md        
-          - name: Use Viva Glint's best practices to design your survey program
-            href: setup/best-practice-setup-guidance.md
-            items:
-              - name: Viva Glint aggregate grouping - trends and best practices
-                href: reports/aggregate-trending.md
-              - name: Recommendations for using Viva Glint Survey Coach and Tooltips
-                href: setup/survey-coach.md
-              - name: Choose your comparison data for Viva Glint reporting
-                href: setup/survey-comparison-data.md
-                items:
-                  - name: Opting into external benchmark comparisons
-                    href: setup/opting-into-external-benchmarks.md
-              - name: Understand Viva Glint survey access methods
-                href: setup/understand-survey-access-methods.md
-              - name: Set up communications in user time zones
-                href: setup/time-zones.md
-              - name: Recognize survey field character limits in Viva Glint programs
-                href: setup/survey-character-limits.md
-              - name: Preview pre-launch demo data in Viva Glint reporting
-                href: setup/preview-demo-reporting.md
-              - name: Preview, manage, and enable Viva Glint surveys and dashboards
-                href: setup/preview-manage-enable-engage-programs.md
-              - name: Grant Live versus Phased access in Viva Glint reporting
-                href: setup/live-versus-phased-access.md
-              - name: Make changes to a live Viva Glint survey
-                href: setup/change-live-survey.md
-              - name: Share Viva Glint post-survey learning experiences with your employees
-                href: setup/post-survey-learnings.md
+      - name: Understand Viva Glint benchmark methodology
+        items:
+           - name: Use Viva Glint benchmarks
+             href: setup/benchmarks.md
+           - name: Choose your comparison data for Viva Glint reporting
+             href: setup/survey-comparison-data.md
+           - name: Opting into external benchmark comparisons
+             href: setup/opting-into-external-benchmarks.md
+           - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
+             href: setup/people-science-benchmark-philosophy.md        
+      - name: Use Viva Glint's best practices to design your survey program
+        href: setup/best-practice-setup-guidance.md
+        items:
+            - name: Viva Glint aggregate grouping - trends and best practices
+              href: reports/aggregate-trending.md
+            - name: Recommendations for using Viva Glint Survey Coach and Tooltips
+              href: setup/survey-coach.md   
+            - name: Understand Viva Glint survey access methods
+              href: setup/understand-survey-access-methods.md
+            - name: Set up communications in user time zones
+              href: setup/time-zones.md
+            - name: Recognize survey field character limits in Viva Glint programs
+              href: setup/survey-character-limits.md
+            - name: Preview pre-launch demo data in Viva Glint reporting
+              href: setup/preview-demo-reporting.md
+            - name: Preview, manage, and enable Viva Glint surveys and dashboards
+              href: setup/preview-manage-enable-engage-programs.md
+            - name: Grant Live versus Phased access in Viva Glint reporting
+              href: setup/live-versus-phased-access.md
+            - name: Make changes to a live Viva Glint survey
+              href: setup/change-live-survey.md
+            - name: Share Viva Glint post-survey learning experiences with your employees
+              href: setup/post-survey-learnings.md
   - name: Set up and customize Viva Glint programs
     items:
      - name: Use validated Viva Glint survey item templates
        items:
+          - name: Microsoft Copilot Impact Survey
+            href: setup/copilot-impact-template.md
           - name: Quarterly Engagement Survey 
             href: setup/quarterly-engagement-template.md
           - name: Diversity and Inclusion survey 
