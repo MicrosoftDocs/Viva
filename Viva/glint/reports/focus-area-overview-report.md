@@ -25,14 +25,14 @@ The Microsoft Viva Glint Focus Areas Overview report provides a status of the co
 >[!IMPORTANT]
 >Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
-## Learn from Viva People Science 
+## Learn from Viva People Science methodology
 
 Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action planning](https://learn.microsoft.com/viva/glint/people-science/people-science-explains-focus-areas)
 
-## Grant permission to view the Focus Area Overview report 
+## Admins granting permission for managers to view the Focus Area report 
 
 Access is approved to the roles with **View Focus Areas Reports** within the *Reporting* section of *Manager Permissions and Access* in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
 
@@ -90,7 +90,6 @@ Use the **Export** menu to choose your export option.
 1. The report automatically generates as a .csv file.
 
 :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
-
 
 ### What will the Focus Area report shows? 
 
