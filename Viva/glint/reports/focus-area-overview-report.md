@@ -25,7 +25,7 @@ The Microsoft Viva Glint Focus Areas Overview report provides a status of the co
 >[!IMPORTANT]
 >Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
-## Viva People Science explains focus areas and action planning
+## Learn from Viva People Science 
 
 Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
 
