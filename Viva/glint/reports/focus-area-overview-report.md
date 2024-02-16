@@ -59,7 +59,7 @@ Leaders and admins use this report to:
 
 This table helps you to understand the report sections and descriptions.
 
-| **Term** | **Description** | 
+| Term | Description | 
 |---|---|
 | **Summary** | Provides a sense of Focus Area completion across teams and answers the following: <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
 | **Overall Focus Area Completion** | Shows progress toward 100% Focus Area completion. View the count of Focus Areas completed and the number of employees who completed them |
