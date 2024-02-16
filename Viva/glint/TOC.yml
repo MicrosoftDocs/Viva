@@ -139,12 +139,12 @@ items:
             href: setup/quick-guide-manager-doc-pitfalls.md
       - name: Viva People Science methodology 
         items:
-          - name:Consider Viva People Science factors for historical imports
-            href:people-science/import-external-people-science-pov.md
-          - name:Philosophy on appropriate use of benchmarks as comparisons
-            href:people-science/people-science-benchmark-philosophy.md
-          - name:Viva People Science explains focus areas and action planning
-            href:people-science/people-science-explains-focus-areas.md
+          - name: Consider Viva People Science factors for historical imports
+            href: people-science/import-external-people-science-pov.md
+          - name: Philosophy on appropriate use of benchmarks as comparisons
+            href: people-science/people-science-benchmark-philosophy.md
+          - name: Viva People Science explains focus areas and action planning
+            href: people-science/people-science-explains-focus-areas.md
       - name: Use Viva Glint best practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
