@@ -302,7 +302,7 @@ items:
                       href: reports/coaching-team-conversations.md
                     - name: Set up resource guidance for managers using Team Conversations
                       href: reports/team-conversations-resource-guidance.md
-  - name: Communicate and roll out Viva Glint programs
+  - name: Communicate and provide support for Viva Glint programs
     items:
       - name: Use Viva Glint email templates to share survey expectations within your
           organization
@@ -316,8 +316,12 @@ items:
            - name: Communicate results rollout plans for Viva Glint programs using email
               templates
              href: communicate/results-rollout-templates.md
+      - name: Support survey participants during Viva Glint surveys
+        items:
            - name: Support participants during a live Viva Glint survey
              href: communicate/support-survey-participants.md
+           - name: Viva Glint FAQ template for survey participants
+             href: communicate/survey-taker-faq.md       
   - name: Troubleshoot
     items:
       - name: Data File Uploads
