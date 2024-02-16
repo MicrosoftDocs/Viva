@@ -348,10 +348,10 @@ This PowerShell script:
 
 ### Command reference: Set-MyAnalyticsFeatureConfig
 
-The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in three different ways:
+The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in two different ways:
 
-* [Enable or disable Viva Insights features](#enable-or-disable-viva-insights-features)
-* [Enable or disable features](#enable-or-disable-features)
+* Enable or disable Viva Insights features
+* Enable or disable features
 
 #### Enable or disable Viva Insights features
 
