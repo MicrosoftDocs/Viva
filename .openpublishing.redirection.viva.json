@@ -964,6 +964,21 @@
             "source_path": "viva/glint/setup/people-science-benchmark-philosophy.md",
             "redirect_url": "/viva/glint/people-science/people-science-benchmark-philosophy",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/viva-engage-user-is-displayed-as-former-member.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/cannot-migrate-a-viva-engage-network-across-office-365-tenants.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/upgrade-your-network-to-stand-alone-viva-engage.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
         }
     ]
 }
