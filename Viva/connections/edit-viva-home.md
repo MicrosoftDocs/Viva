@@ -147,12 +147,17 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 9. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
 
-10. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
-
-11. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
+10. **Scoped Search**: Uses have the option to search within Viva Connections when accessing the search bar within their Connections experience. As users type, the option to search for results within Connections (or Teams) will display.
 
     > [!NOTE]
-    >
+    > - Scoped Search is currently only available in Teams classic to all customers. A future update is planned to bring this feature to the [new Teams client](/microsoftteams/new-teams-desktop-admin).
+    > - Scoped search in the new Teams client is not available for GCC and GCC High customers, and will be made available with a future update.
+
+11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
+
+12. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
+
+    > [!NOTE]
     > A future update is planned to make the News spotlight customizable.
 
 12. **Viva navigational bar:** This provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
@@ -160,6 +165,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 ## Customize the app icon and label in the Teams app bar
 
 > [!NOTE]
+>
 > For customers with at least one F license:  
 >
 > - The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
@@ -176,7 +182,6 @@ Create targeted, time-sensitive messages that display at the top of your Viva Co
 Change the banner image in the header and set the focal point for the image. The banner image and focal point can only be set on the desktop app but will be visible across desktop and mobile.
 
 > [!NOTE]
->
 > - The greeting is automatically generated and cannot be customized.
 > - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
 > - The banner image and focal point will resize when viewed via the tablet and mobile app.
@@ -192,7 +197,6 @@ To change the banner image:
 Further customize your Connections experience and SharePoint home site by applying preexisting [SharePoint themes](https://support.microsoft.com/office/320b43e5-b047-4fda-8381-f61e8ac7f59b) or a [custom theme](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-powershell) to reflect your organizational brand colors consistently across all instances of your desktop, tablet, and mobile experiences. Users can apply themes from within their Connections experience, or SharePoint home site. Only users who have permissions to edit the Connections experience will be able to apply themes.
 
 > [!NOTE]
->
 > - Applying themes to your Connections experience is currently available to targeted release customers only, with a full rollout to general audiences by early Q1 in 2024.
 > - If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
 
@@ -211,7 +215,6 @@ To apply a SharePoint or custom theme:
     :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
 
     > [!NOTE]
-    >
     > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
     > - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
@@ -220,7 +223,6 @@ To apply a SharePoint or custom theme:
     The home site color theme reflects automatically in the Viva Connections desktop experience.
 
     > [!NOTE]
-    >
     > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
     >
     > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
@@ -230,7 +232,6 @@ To apply a SharePoint or custom theme:
 The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
->
 > - If your organization already has Viva Connections set up, you’ll see your existing cards and settings displayed in the new home experience.
 > - If your organization doesn’t already have Viva Connections set up, you’ll see a set of default cards that need minimal configuration.  
 
@@ -247,7 +248,6 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 Resources give access to the most popular portals and destinations at your organization. The Resources section displays below the dashboard of the Connections experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled.
 
 > [!NOTE]
->
 > - The update to the resource section is currently available to targeted release customers, with a planned roll out to all users by the end of Q1 2024.
 > - Edits made to the Resource section won't reflect to the mobile experience at this time.
 > - The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
@@ -257,7 +257,6 @@ Resources give access to the most popular portals and destinations at your organ
 If you have already set up navigational links in the [SharePoint global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time.
 
 > [!NOTE]
->
 > The updated resources experience will replace the current global navigation in the resources section of the Viva Connections Desktop experience. Global navigation will still be accessible by clicking on the Connections icon in the Teams app bar. In addition, global navigation will continue to exist in other places as well in the SharePoint ecosystem, such as the SharePoint app bar and your SharePoint home site. This will allow you to access the apps and sites that you have previously pinned or frequently visited.
 
 **If you do not have a SharePoint home site:**
@@ -335,7 +334,6 @@ If your organization already has a SharePoint home site and you want to keep it 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
    > [!NOTE]
-   >
    > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell."
    > - Run the command as a Global Administrator or a SharePoint Administrator.
    > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
@@ -360,7 +358,6 @@ If your organization already has a SharePoint home site and you want to keep it 
    `Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
 > [!NOTE]
->
 > - It may take up to 15 minutes to see the updated default landing experience.
 > - If you change the SharePoint home site to a different SharePoint home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new SharePoint home site sooner.
 
