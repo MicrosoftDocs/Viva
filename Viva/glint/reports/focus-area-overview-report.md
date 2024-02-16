@@ -30,7 +30,7 @@ The Microsoft Viva Glint Focus Areas Overview report provides a status of the co
 Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
 
 > [!div class="nextstepaction"]
-> [Viva People Science explains focus areas and action planning](/glint/people-science/people-science-explains-focus-areas)
+> [Viva People Science explains focus areas and action planning](../people-science/people-science-explains-focus-areas.md)
 
 ## Admins granting permission for managers to view the Focus Area report 
 
