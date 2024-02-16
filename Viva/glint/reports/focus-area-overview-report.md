@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/16/2024
 ---
 
-# Use Viva Glint's Focus Area Overview report
+# Use Viva Glint's Focus Area report
 
 The Microsoft Viva Glint Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to other details.  
 
