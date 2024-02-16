@@ -122,8 +122,6 @@ items:
             items: 
               - name: Import historical response data in Viva Glint
                 href: setup/import-historical-response-data.md
-              - name: Consider People Science factors for historical imports
-                href: setup/import-external-people-science-pov.md
               - name: Update reporting data in closed Viva Glint surveys
                 href: setup/update-glint-reporting-data.md
               - name: Use Advanced Configuration Data Apps
@@ -139,6 +137,14 @@ items:
             href: setup/quick-guide-confidentiality.md
           - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
             href: setup/quick-guide-manager-doc-pitfalls.md
+      - name: Viva People Science methodology 
+        items:
+          - name: Consider Viva People Science factors for historical imports
+            href: people-science/import-external-people-science-pov.md
+          - name: Philosophy on appropriate use of benchmarks as comparisons
+            href: people-science/people-science-benchmark-philosophy.md
+          - name: Viva People Science explains focus areas and action planning
+            href: people-science/people-science-explains-focus-areas.md
       - name: Use Viva Glint best practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
@@ -153,9 +159,7 @@ items:
            - name: Choose your comparison data for Viva Glint reporting
              href: setup/survey-comparison-data.md
            - name: Opting into external benchmark comparisons
-             href: setup/opting-into-external-benchmarks.md
-           - name: Viva People Science – Philosophy on appropriate use of benchmarks as comparisons
-             href: setup/people-science-benchmark-philosophy.md        
+             href: setup/opting-into-external-benchmarks.md      
       - name: Use Viva Glint's best practices to design your survey program
         href: setup/best-practice-setup-guidance.md
         items:
@@ -253,9 +257,6 @@ items:
                href: reports/act-strengths-opportunities.md
          - name: Use Viva Glint's Focus Area Overview report
            href: reports/focus-area-overview-report.md
-           items:
-             - name: Viva People Science explains action plans and focus areas
-               href: reports/people-science-explains-focus-areas.md
          - name: Use Viva Glint's Comments report
            href: reports/comments-report.md
            items:
