@@ -350,9 +350,8 @@ This PowerShell script:
 
 The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in three different ways:
 
-* [Set the `PrivacyMode` parameter](#set-the-privacymode-parameter)
 * [Enable or disable Viva Insights features](#enable-or-disable-viva-insights-features)
-* [Set `PrivacyMode` *and* enable or disable features](#set-privacymode-and-enable-or-disable-features)
+* [Enable or disable features](#enable-or-disable-features)
 
 #### Enable or disable Viva Insights features
 
