@@ -16,10 +16,10 @@ items:
             href: start/viva-glint-learning-paths-and-modules.md
           - name: Viva Glint badging
             href: start/viva-glint-badging.md
-      - name: Microsoft Viva Glint privacy
+      - name: Understand Microsoft Viva Glint privacy and confidentiality policies
         href: setup/viva-glint-privacy.md
         items:
-          - name: Privacy policies in Microsoft Viva Glint
+          - name: Privacy policies in Viva Glint
             href: setup/add-privacy-policy.md
           - name: Advanced privacy guide for data usage and survey item creation
             href: setup/gdpr-special-categories.md
