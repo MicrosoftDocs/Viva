@@ -152,7 +152,7 @@ After you've set your SharePoint home site, it’s time to plan the launch and m
 
 **Q:** Are SharePoint home sites now set in the Microsoft admin center?
 <br>
-Starting in June 2023, use the Microsoft admin center to [set a SharePoint home site when you create a Viva Connections experience](/viva/connections/set-up-admin-center.md).
+Starting in June 2023, use the Microsoft admin center to [set a SharePoint home site when you create a Viva Connections experience](set-up-admin-center.md).
 
 **Q:** What’s the difference between a SharePoint home site and the SharePoint start page?
 <br>
