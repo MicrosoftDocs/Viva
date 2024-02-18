@@ -2,6 +2,38 @@
 
 
 
+## Week of February 12, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/12/2024 | [Set up your platform as a Viva Glint admin](/viva/glint/setup/setup-platform-admin) | modified |
+| 2/12/2024 | [Viva Glint badging](/viva/glint/start/viva-glint-badging) | modified |
+| 2/12/2024 | [Deep linking into Viva Engage](/viva/engage/deeplinks) | modified |
+| 2/12/2024 | [Power BI tips, FAQ, and troubleshooting](/viva/insights/advanced/analyst/templates/power-bi-faq-troubleshoot) | modified |
+| 2/13/2024 | [Plan for scheduled monthly platform releases and shutdowns](/viva/glint/setup/monthly-release-dates) | added |
+| 2/13/2024 | [Support participants during a live Viva Glint survey](/viva/glint/communicate/support-survey-participants) | added |
+| 2/13/2024 | [Focus Area period feature setup](/viva/glint/setup/focus-area-period-feature) | added |
+| 2/13/2024 | [Viva Glint aggregate grouping - trends and best practices](/viva/glint/reports/aggregate-trending) | modified |
+| 2/13/2024 | Plan ahead for scheduled monthly Viva Glint maintenance shutdowns | removed |
+| 2/13/2024 | [Set up Viva Glint User Roles](/viva/glint/setup/set-up-user-roles) | modified |
+| 2/13/2024 | [Four stages of a Viva Glint program](/viva/glint/start/four-stages-glint-program) | modified |
+| 2/14/2024 | [Benchmarks in Viva Engage analytics](/viva/engage/benchmarking) | added |
+| 2/14/2024 | [LinkedIn Learning seamless login](/viva/learning/linkedin-seamless) | added |
+| 2/14/2024 | [Microsoft Copilot Impact Survey template in Viva Glint](/viva/glint/setup/copilot-impact-template) | added |
+| 2/14/2024 | [Viva Glint program types and associated templates](/viva/glint/start/program-types-templates) | modified |
+| 2/15/2024 | [Viva Glint FAQs for survey participants](/viva/glint/communicate/survey-taker-faq) | added |
+| 2/15/2024 | [Viva People Science - Philosophy on appropriate use of benchmarks as comparisons](/viva/glint/people-science/people-science-benchmark-philosophy) | renamed |
+| 2/15/2024 | [Introduce Viva Glint survey taking to your employees](/viva/glint/communicate/survey-taking-for-employees) | modified |
+| 2/15/2024 | [Viva Glint program types and associated templates](/viva/glint/start/program-types-templates) | modified |
+| 2/16/2024 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
+| 2/16/2024 | You can't migrate a Yammer network across Office 365 tenants | removed |
+| 2/16/2024 | Upgrade your network to stand-alone Yammer Enterprise subscription | removed |
+| 2/16/2024 | A Yammer user is displayed as "Former member" when you use Office 365 sign in for Yammer | removed |
+| 2/16/2024 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 2/16/2024 | [Configure personal insights defaults](/viva/insights/advanced/setup-maint/configure-personal-insights) | modified |
+
+
 ## Week of February 05, 2024
 
 
