@@ -48,7 +48,7 @@ The Integrations page offers two ways to view your available integrations:
 
 - The detail-driven **Grid** view is similar to the list view but provides a link to each integration's help article.
 
-You'll see the grid view by default <!--Editor's Note: Is this true?-->. To toggle between the two views, use the icons in the upper-right corner of the Integrations page.
+You'll see the grid view by default. <!--Editor's Note: Is this true?--> To toggle between the two views, use the icons in the upper-right corner of the Integrations page.
 
 ## Create a connection
 
