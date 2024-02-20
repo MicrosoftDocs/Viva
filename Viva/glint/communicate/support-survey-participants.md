@@ -24,7 +24,7 @@ Introduce Viva Glint surveys and [communicate proactively](https://go.microsoft.
 
 ## Create an FAQ document
 
-Use the [Viva Glint FAQ template](https://go.microsoft.com/fwlink/?linkid=2238527) to create your own internal document to address commonly asked questions in your organization. Include how users are eligible to participate, what to do if users run into login issues, the survey start and end dates, the sending email address for survey emails, and the [resend survey link](#use-the-viva-glint-survey-invite-link) filled in with your company ID.
+Use the [Viva Glint FAQ template](survey-taker-faq.md) to create your own internal document to address commonly asked questions in your organization. Include how users are eligible to participate, what to do if users run into login issues, the survey start and end dates, the sending email address for survey emails, and the [resend survey link](#use-the-viva-glint-survey-invite-link) filled in with your company ID.
 
 ## Allow survey resubmission
 

@@ -15,17 +15,24 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/08/2024
+ms.date: 02/16/2024
 ---
 
-# Use Viva Glint's Focus Area Overview report
+# Use Viva Glint's Focus Area report
 
 The Microsoft Viva Glint Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to other details.  
 
 >[!IMPORTANT]
->Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard. 
+>Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
-## Grant permission to view the Focus Area Overview report 
+## Learn from Viva People Science methodology
+
+Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
+
+> [!div class="nextstepaction"]
+> [Viva People Science explains focus areas and action planning](../people-science/people-science-explains-focus-areas.md)
+
+## Admins granting permission for managers to view the Focus Area report 
 
 Access is approved to the roles with **View Focus Areas Reports** within the *Reporting* section of *Manager Permissions and Access* in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
 
@@ -52,7 +59,7 @@ Leaders and admins use this report to:
 
 This table helps you to understand the report sections and descriptions.
 
-| **Term** | **Description** | 
+| Term | Description | 
 |---|---|
 | **Summary** | Provides a sense of Focus Area completion across teams and answers the following: <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
 | **Overall Focus Area Completion** | Shows progress toward 100% Focus Area completion. View the count of Focus Areas completed and the number of employees who completed them |
@@ -83,7 +90,6 @@ Use the **Export** menu to choose your export option.
 1. The report automatically generates as a .csv file.
 
 :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
-
 
 ### What will the Focus Area report shows? 
 
