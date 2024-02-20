@@ -21,11 +21,11 @@ ms.date: 02/20/2024
 # Viva Glint's Patient Safety Survey template and methodology
 Viva Glint offers the Registered Nurse (RN) Excellence survey as one of our core healthcare survey offerings. This survey is approved by the American Nurses Credentialing Center (ANCC) for hospitals/clinics looking to attain or maintain Magnet® status in Nursing. Magnet status is a prestigious honor, which certifies that the RNs at that entity or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet-certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification. Our RN Excellence survey was created in conjunction with the guidance and expertise of ANCC analysts and approved by those analysts in May of 2018. The survey meets all RN Satisfaction criteria laid out by current Application Manuals, as well. 
 
-Working collaboratively with the ANCC, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes as laid out in the EP3EO (2014 Magnet Application Manual) and the EP2EO (2019 Magnet ApplicationManual). The survey takes just 3-4 minutes to complete and was approved by the ANCC for inclusion in the Magnet Recognition Program® in May of 2018. 
+Working with the ANCC, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes as laid out in the EP3EO (2014 Magnet Application Manual) and the EP2EO (2019 Magnet ApplicationManual). The survey takes just 3-4 minutes to complete and was approved by the ANCC for inclusion in the Magnet Recognition Program® in May of 2018. 
 
-## Using Viva Glint’s platform provides real-time RN data 
+## Using Viva Glint’s platform provides real-time data 
 
-Using Viva Glint’s real-time platform, organizations can view invaluable data from their RNs and identify risks and opportunities when they are essential - in real-time. The solution can be launched as a standalone or added onto your engagement or company survey and analyzed alongside other engagement data. 
+Using Viva Glint’s real-time platform, organizations can view invaluable data from their RNs and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto your engagement or company survey and analyzed alongside other engagement data. 
 
 ## Survey items
 
