@@ -145,6 +145,8 @@ items:
             href: people-science/people-science-benchmark-philosophy.md
           - name: Viva People Science explains focus areas and action planning
             href: people-science/people-science-explains-focus-areas.md
+          - name: Use the Viva People Science Patient Safety Survey template
+            href: people-science/patient-safety.md
       - name: Use Viva Glint best practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
