@@ -80,6 +80,8 @@
           href: provider-permissions.md
         - name: Creating Learning paths
           href: creating-learning-paths.md
+        - name: Link to content in learning paths
+          href: learning-path-add-link.md 
         - name: Create collections
           href: creating-learning-collections.md
         - name: Manage feature-level access
