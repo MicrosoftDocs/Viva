@@ -1,6 +1,6 @@
 ---
 
-ms.date: 06/20/2023
+ms.date: 02/16/2024
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
@@ -73,7 +73,7 @@ Through the Microsoft admin center, you can configure access to Viva Insights el
 
 ### To manage availability for the Viva Insights app in Teams
 
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. In the Microsoft admin center, go to the [settings tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage availability in the Teams admin center**. This option takes you directly to the Teams admin center, where you can configure the appropriate settings.
 
     :::image type="content" source="../../images/mya/setup/mac-teams-admin1.png" alt-text="Screenshot that shows Manage availability in Teams admin center in the Viva Insights admin page.":::
@@ -84,7 +84,7 @@ Go to our [Teams admin tasks](teams-admin-setup.md) doc for more information abo
 
 *Use for [Default on](../../personal/setup/deployment-guide.md#default-on) and [Default off](../../personal/setup/deployment-guide.md#default-off) rollout scenarios, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
 
-1. In the Microsoft admin center, go to the [setup tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Microsoft Viva**, then **Viva Insights**.
+1. In the Microsoft admin center, go to the [settings tab](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **Viva**, then **Viva Insights**.
 1. Under **Viva Insights in Microsoft 365**, select **Manage settings for Viva Insights**.
 
     :::image type="content" source="../../images/mya/setup/manage-settings-insights.png" alt-text="Screenshot that shows Manage settings for Viva Insights in the Viva Insights admin page.":::
@@ -157,14 +157,11 @@ To connect to Exchange Online, you install prerequisites and then you install th
 
 Use PowerShell to configure access for all users in a tenant. For example, you could opt out everyone completely, which would turn off all Viva Insights functionality for all users. However, users can choose to opt in again.
 
-Configure Viva Insights by setting the `PrivacyMode` parameter. For information about the values of `PrivacyMode`, refer to the next section, Tenant configuration settings.
-
 #### Tenant configuration settings
 
 |Parameter| Required| Description| Default value|
 |----------|---------|---------|------|
-|`PrivacyMode`| Yes| <ul><li>`Opt-out`: Viva Insights won't use any users’ data within the tenant to compute derived statistics for other users. Users won't see statistics in Viva Insights but can choose to opt in from the feature settings menu. <li> `Opt-in`: Viva Insights uses user data to compute derived statistics for other users in the tenant. Users can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.
-|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`
+|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Digest-Welcome email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`
 |`SamplingRate`|No|Value from `0.1` to `0.7`. The sampling rate you specify here is the percentage of meetings that get checked to receive a meeting effectiveness survey. For example, `0.1` indicates 10%.
 
 Also refer to [Parameters: Set-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig#parameters).
@@ -176,7 +173,6 @@ Configure access settings for a tenant with the PowerShell cmdlet [Set-DefaultTe
 
 ```powershell
 Set-DefaultTenantMyAnalyticsFeatureConfig
-   [-PrivacyMode <String>]
    [-Feature <String>]
    [-IsEnabled <Boolean>]
    [-ResultSize <Unlimited>]
@@ -184,27 +180,7 @@ Set-DefaultTenantMyAnalyticsFeatureConfig
 ```
 #### Command reference: `Set-DefaultTenantMyAnalyticsFeatureConfig`
 
-The PowerShell command `Set-DefaultTenantMyAnalyticsFeatureConfig` can be used in three different ways:
-
-* Set the `PrivacyMode` parameter
-* Enable or disable Viva Insights features for all users in the tenant
-* Set `PrivacyMode` and enable or disable features
-
-##### Set the `PrivacyMode` parameter
-
-For more information about `PrivacyMode`, refer to [Configure access at the tenant level](#configure-access-at-the-tenant-level).
-
-* Command syntax - `PrivacyMode`: 
-
-    ```powershell
-    Set-DefaultTenantMyAnalyticsFeatureConfig -PrivacyMode <opt-in/opt-out>`
-    ```
-
-* Example – `PrivacyMode`: Running the following command sets the privacy mode to "opt-in" and enables all the personal insights features for all users in the tenant:
-
-    ```powershell
-    Set-DefaultTenantMyAnalyticsFeatureConfig -PrivacyMode Opt-in
-    ```
+The PowerShell command `Set-DefaultTenantMyAnalyticsFeatureConfig` can be used to enable or disable Viva Insights features for all users in the tenant.
 
 ##### Enable or disable Viva Insights features
 
@@ -221,25 +197,29 @@ Running the following command disables the digest email for all users in the ten
        Set-DefaultTenantMyAnalyticsFeatureConfig -Feature digest-email -isEnabled $false
     ```
 
-##### Set `PrivacyMode` and enable or disable features
+* **Digest Welcome Email control**: This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant.
+    * **Default state**: Enabled, meaning that users with a Viva Insights license will receive the email a few days (up to four weeks) after license assignment.
+    * **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email.
+
+##### Enable or disable features
 
 *Use for the [Mixed deployment](../../personal/setup/deployment-guide.md#mixed-deployment) rollout scenario, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
 
-* Command syntax – `PrivacyMode` and features: 
+* Command syntax – Features: 
 
     ```powershell
-      Set-DeafultTenantMyAnalyticsFeatureConfig -PrivacyMode <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
+      Set-DeafultTenantMyAnalyticsFeatureConfig -Feature <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
     ```
 
-* Example – `PrivacyMode` and features: Running the following command opts all users in the tenant in (by setting `PrivacyMode` to `Opt-in`) and enables all the personal insights features except the digest email:
+* Example – Features: Running the following command opts all users in the tenant in (by setting `Feature` to `Opt-in`) and enables all the personal insights features except the digest email:
 
     ```powershell
-    Set-DefaultTenantMyAnalyticsFeatureConfig -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
+    Set-DefaultTenantMyAnalyticsFeatureConfig -Feature opt-in -Feature digest-email -isEnabled $false 
     ```
 
 #### Confirm access for a tenant
 
-Use the following command to confirm whether users in a tenant have access to Viva Insights (the value for `PrivacyMode`):
+Use the following command to confirm whether users in a tenant have access to Viva Insights (the value for `Feature`):
 
 ```powershell
 Get-DefaultTenantMyAnalyticsFeatureConfig 
@@ -260,8 +240,6 @@ Get-DefaultTenantMyAnalyticsFeatureConfig
 
 You can use PowerShell to configure Viva Insights access for individual users in your organization. For example, you could opt out the user completely, which would turn off all Viva Insights functionality for that user. However, the user can choose to [opt back in](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967). 
 
-Configure Viva Insights by setting the `PrivacyMode` parameter. For information about the values of `PrivacyMode`, refer to the next section, [User configuration settings](#user-configuration-settings). 
-
 >[!Important]
 >The PowerShell cmdlets [Get-UserAnalyticsConfig](/powershell/module/exchange/get-useranalyticsconfig) and [Set-UserAnalyticsConfig](/powershell/module/exchange/set-useranalyticsconfig), which you might have used to configure access to Viva Insights, are no longer available. Instead, use the following new cmdlets: [Get-MyAnalyticsFeatureConfig](/powershell/module/exchange/get-myanalyticsfeatureconfig) and [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig), which offer the same functionality along with some additional granular control.
 
@@ -281,26 +259,23 @@ Also, if users have a premium plan:
 * Their productivity data isn’t included in [person queries](../analyst/person-query-overview.md), if you choose. 
 * Their collaboration data still feeds into aggregated insights—that is, [meeting queries](../analyst/meeting-query.md) and [organization insights](../../org-team-insights/org-insights.md).
 
-
-
 #### Set access for one user
 
 Configure access settings for a user with the PowerShell cmdlet [Set-MyAnalyticsFeatureConfig](#command-reference-set-myanalyticsfeatureconfig):
 
 ```powershell
-Set-MyAnalyticsFeatureConfig –Identity <string> [-PrivacyMode <string[]>]
+Set-MyAnalyticsFeatureConfig –Identity <string> [-Feature <string[]>]
 ```
 
 Parameter   |   Required   |   Description   | Default value
 ----------  |  ----------  |  -------------- | -------------
 `Identity`   |   Yes   | User ID for the current user as stored in Microsoft Entra ID   |   --
-`PrivacyMode`   |   Yes   | <ul><li>`Opt-out`: Viva Insights won't use the user's data to compute derived statistics for other users. The user won't see statistics in Viva Insights, but can choose to opt in from the Feature settings menu.</li><li>`Opt-in`: Viva Insights uses the user's data to compute derived statistics for other users. The user can see statistics in Viva Insights, but can choose to opt out from the Feature settings menu.</li></ul>|  Opt-in
 
 Use `Set-MyAnalyticsFeatureConfig` to change the configuration settings of the user who is identified by the `-Identity` parameter. The following is a sample output of this cmdlet. It indicates that the user was opted in and that all of that user's Viva Insights features were turned on except the digest email:
 
    ```powershell
       UserId : <username>@<domain>
-      `PrivacyMode` : opt-in
+      `Feature` : opt-in
       IsDashboardEnabled : true
       IsAddInEnabled  : true
       IsDigestEmailEnabled : false
@@ -310,7 +285,7 @@ Use `Set-MyAnalyticsFeatureConfig` to change the configuration settings of the u
 
 #### Confirm access for one user
 
-Use the following to confirm whether a user has access to Viva Insights (the value for `PrivacyMode`):
+Use the following to confirm whether a user has access to Viva Insights:
 
 ```powershell
 Get-MyAnalyticsFeatureConfig –Identity <string>
@@ -324,7 +299,7 @@ Parameter   |   Required   |    Description    |   Default value
 
 ```powershell
     UserId : <username>@<domain>
-    `PrivacyMode` : opt-in
+    `Feature` : opt-in
     IsDashboardEnabled : true
     IsAddInEnabled  : true
     IsDigestEmailEnabled : false
@@ -332,7 +307,7 @@ Parameter   |   Required   |    Description    |   Default value
 
 #### Set access for multiple users
 
-Use the following steps in the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to Viva Insights (the value of `PrivacyMode`) for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
+Use the following steps in the [Exchange Online PowerShell V2 module](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2) to change access to Viva Insights for multiple users by running a PowerShell script that iterates through the users, changing the value one user at a time.
 
 1. Create a comma-separated value (.csv) text file that contains the UserPrincipalName field of the users you want to configure. For example:
 
@@ -343,12 +318,12 @@ Use the following steps in the [Exchange Online PowerShell V2 module](/powershel
    ShawnM@contoso.onmicrosoft.com
    ```
 
-2. Specify the location of the input .csv file, the output .csv file, and the value of `PrivacyMode` that you want to set for each user:
+2. Specify the location of the input .csv file, the output .csv file, and the value of `Feature` that you want to set for each user:
 
    ```powershell
    $inFileName="<path and file name of the input .csv file that contains the users, example: C:\admin\Users2License..csv>"
    $outFileName="<path and file name of the output .csv file that records the results, example: C:\admin\Users2License-Done..csv>"
-   $privacyMode = "Opt-in"
+   $feature = "Opt-in"
 
    $users=Import-Csv $inFileName
    ForEach ($user in $users)
@@ -356,7 +331,7 @@ Use the following steps in the [Exchange Online PowerShell V2 module](/powershel
    $user.Userprincipalname
    $upn=$user.UserPrincipalName
 
-   Set-MyAnalyticsFeatureConfig –Identity $upn -PrivacyMode $privacyMode
+   Set-MyAnalyticsFeatureConfig –Identity $upn -Feature $feature
    Get-MyAnalyticsFeatureConfig –Identity $upn | Export-Csv $outFileName
    }
    ```
@@ -373,29 +348,10 @@ This PowerShell script:
 
 ### Command reference: Set-MyAnalyticsFeatureConfig
 
-The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in three different ways:
+The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchange/set-myanalyticsfeatureconfig) can be used in two different ways:
 
-* [Set the `PrivacyMode` parameter](#set-the-privacymode-parameter)
-* [Enable or disable Viva Insights features](#enable-or-disable-viva-insights-features)
-* [Set `PrivacyMode` *and* enable or disable features](#set-privacymode-and-enable-or-disable-features)
-
-#### Set the `PrivacyMode` parameter
-
-For more information about `PrivacyMode`, refer to [Configure access at the user level](#configure-access-at-the-user-level).
-
-##### Command syntax - `PrivacyMode`
-
-```powershell
-Set-MyAnalyticsFeatureConfig -Identity \<string\> -PrivacyMode <opt-in/opt-out>
-```
-
-##### Example - `PrivacyMode`
-
-Running the following command sets `PrivacyMode` to `opt-in` and enables all the personal insights features for the user:
-
-   ```powershell
-   Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in   
-   ```
+* Enable or disable Viva Insights features
+* Enable or disable features
 
 #### Enable or disable Viva Insights features
 
@@ -411,21 +367,13 @@ Running the following command sets `PrivacyMode` to `opt-in` and enables all the
     Set-MyAnalyticsFeatureConfig -Identity <string> -Feature digest-email -isEnabled $false
    ```
 
-#### Set `PrivacyMode` *and* enable or disable features
+#### Enable or disable features
 
-##### Command syntax - `PrivacyMode` and features
+##### Command syntax - Features
 
 ```powershell
-Set-MyAnalyticsFeatureConfig -Identity \<string\> -PrivacyMode <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>`
+Set-MyAnalyticsFeatureConfig -Identity \<string\> -Feature <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>`
 ```
-
-##### Example - `PrivacyMode` and features
-
-Running the following command opts the user in (by setting `PrivacyMode` to `opt-in`) and enables all the personal insights features except the digest email:
-
-   ```powershell
-Set-MyAnalyticsFeatureConfig -Identity <string> -PrivacyMode opt-in -Feature digest-email -isEnabled $false 
-   ```
 
 > [!div class="nextstepaction"]
 > [Configure Teams app settings](teams-admin-setup.md)
