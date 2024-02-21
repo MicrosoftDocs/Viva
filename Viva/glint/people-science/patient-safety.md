@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: RN excellence survey, magnet survey, healthcare survey, nursing survey 
+keywords: RN excellence survey, magnet survey, healthcare survey, nursing survey, safety culture blog 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
