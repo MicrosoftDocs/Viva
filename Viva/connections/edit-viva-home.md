@@ -147,7 +147,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 9. **Feed tab:** Content in the Feed is dynamically generated based on user interests, organizational news, and industry news. [Learn more about how content in the Feed is sourced](/microsoft-365/ms-feed/m365-feed).
 
-10. **Scoped Search**: Uses have the option to search within Viva Connections when accessing the search bar within their Connections experience. As users type, the option to search for results within Connections (or Teams) will display.
+10. **Scoped Search**: Users have the option to search within Viva Connections when using the search bar while in the Connections experience. As users type, the option to search for results within Connections (or Teams) will display.
 
     > [!NOTE]
     > - Scoped Search is currently only available in Teams classic to all customers. A future update is planned to bring this feature to the [new Teams client](/microsoftteams/new-teams-desktop-admin).
