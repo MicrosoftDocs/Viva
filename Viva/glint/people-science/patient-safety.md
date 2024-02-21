@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/20/2024
+ms.date: 02/21/2024
 ---
 
 # Viva Glint patient safety culture methodology
