@@ -91,9 +91,9 @@ items:
     items: 
       - name: Admin management of General Settings 
         href: setup/manage-general-settings.md
-          items: 
-              - name: Set up attribute-based survey access
-                href: setup/attribute-based-survey-access.md
+        items: 
+            - name: Set up attribute-based survey access
+              href: setup/attribute-based-survey-access.md
       - name: Admins using the People feature
         href: setup/people-page.md
         items:  
