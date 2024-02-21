@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 09/07/2023
+ms.date: 02/16/2024
 ---
 
 # Import historical response data in Viva Glint
@@ -24,7 +24,10 @@ For highly trained users, Microsoft Viva Glint Advanced Configuration offers the
 
 ## Learn about the People Science perspective
 
-It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, consider these factors: [Learn more](https://go.microsoft.com/fwlink/?linkid=2245072).
+It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, learn about the Viva People Science factors around historical imports:
+
+> [!div class="nextstepaction"]
+> [Consider Viva People Science factors for historical imports](https://go.microsoft.com/fwlink/?linkid=2245072)
 
 ## Review prerequisites
 

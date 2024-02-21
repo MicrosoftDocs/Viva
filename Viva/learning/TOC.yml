@@ -66,8 +66,12 @@
               href: configure-udacity-content-source.md
             - name: Udemy
               href: configure-udemy-content-source.md
-        - name: Free courses from LinkedIn Learning
-          href: linkedin-learning-free-courses.md
+        - name: LinkedIn Learning
+          items:      
+          - name: LinkedIn Learning Overview
+            href: linkedin-learning-free-courses.md
+          - name: LinkedIn Learning seamless login
+            href: linkedin-seamless.md
     - name: Manage your content 
       items: 
         - name: Manage Catalog Access 
@@ -76,6 +80,8 @@
           href: provider-permissions.md
         - name: Creating Learning paths
           href: creating-learning-paths.md
+        - name: Link to content in learning paths
+          href: learning-path-add-link.md 
         - name: Create collections
           href: creating-learning-collections.md
         - name: Manage feature-level access
