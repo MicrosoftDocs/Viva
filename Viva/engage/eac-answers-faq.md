@@ -2,10 +2,10 @@
 title: "Answers in Viva: Frequently asked questions (FAQ)"
 description: "Frequently asked questions about the Answers feature in Viva."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
-ms.date: 02/15/2023
+ms.author: v-bvrana
+author: Starshine89
+manager: elizapo
+ms.date: 02/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -24,7 +24,7 @@ search.appverid:
 
 **What license is required to use Answers?**
 
-You need a license to Viva Engage Knowledge service plan to use Answers. This service plan is available as part of the Viva Suite and Topics products.
+You need a license to Viva Engage Knowledge service plan to use Answers. This service plan is available as part of _Viva Suite_ and _Employee Communications and Communities_.
 
 **Can users who aren't assigned the Viva Engage Knowledge service plan use Answers?**
 
@@ -36,7 +36,7 @@ See [Viva Engage Adoption](https://adoption.microsoft.com/yammer/).
 
 **Are posted questions visible to everyone in my company?**
 
-Answers are visible to anyone in your organization who has a Viva Suite or Topics license. Answers posts can be routed to anyone else in your organization who has a Microsoft 365 license, but those other employees can only access the individual thread, not other parts of Answers.
+Answers are visible to anyone in your organization who has a Viva Suite license. Answers posts can be routed to anyone else in your organization who has a Microsoft 365 license, but those other employees can only access the individual thread, not other parts of Answers.
 
 **Can admins disable the Answers Digest sent to their organization?**
 
@@ -48,7 +48,7 @@ Answers doesn't support guest access.
 
 **Can our organization use Answers without Topics?**
 
-Answers uses Topics to organize question conversations. Answers works for users who don't have a Topics license if they have a license to the Viva Engage Knowledge service plan, which is bundled into Topics or Viva Suite. The best Answers experience is when it's used alongside Topics. Topics connects employees to the knowledge of an organization. It helps route questions to the people that are most likely able to have the answers. When Topics are mined, curated, and managed, the Answers digest routing and questions for your feed are improved, as well as other aspects of Answers.
+Yes. Viva Topics are going away in 2025, which means that Viva Engage is returning to a simplified topics experience in Answers. Associating a topic with your question helps to categorize it, which has the added effect of improving the Answers feed and digests. For more details, see [Changes coming to Topics](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&branch=daisyfell-topics-support-faq).
 
 **Why can’t users in my organization access Answers?**
 
