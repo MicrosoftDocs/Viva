@@ -56,10 +56,6 @@ There are two ways to view an item ID:
 1. From the admin dashboard, select **Configure** and then **Survey Programs**.
 1. Selected the **Completed surveys** tab and then the **Questions** row to view the questions from that survey.
 1. On the *Questions* page, hover over the ellipses to display the dropdown menu. Select **Change Question ID** and a *Change Question ID* dialog box displays.
-
-  :::image type="content" source="../../media/glint/setup/dropdown-menu-change-id.png" alt-text="Screenshot of the Change Question ID is dropdown option.":::
-
-  :::image type="content" source="../../media/glint/setup/question-id-dialog-box.png" alt-text="Screenshot of the Change Question ID dialog box.":::
    
 > [!IMPORTANT]
 > If your survey items are translated into different languages, export the survey details before proceeding, so you’ll have a record of your translations.
