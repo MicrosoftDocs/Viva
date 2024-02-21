@@ -76,7 +76,7 @@ Jira Server and Jira Data Center enable automatic tracking of key result and ini
    > [!IMPORTANT]
    > The Jira service account user should have access to the Jira projects you want to connect with Viva Goals so that the Microsoft Viva Goals for Jira app has access to the Jira Server or Data Center project details.
 
-1. Switch back to Viva Goals and confirm the connection setup was succesful by checking for a **Verified** on the connection's popup.
+1. Switch back to Viva Goals and confirm the connection setup was successful by checking for a **Verified** on the connection's popup.
     :::image type="content" source="../media/goals/jira-integration/verfied.png" alt-text="Screenshot of a verified Jira to Viva Goals integration." lightbox="../media/goals/jira-integration/verfied.png":::
 
 ## Use the Jira integration
