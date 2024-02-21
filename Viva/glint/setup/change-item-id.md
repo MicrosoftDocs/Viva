@@ -60,7 +60,7 @@ There are two ways to view an item ID:
 > [!IMPORTANT]
 > If your survey items are translated into different languages, export the survey details before proceeding, so you’ll have a record of your translations.
 
-4. Be sure the *Current question type, name and ID** are as expected.
+4. Be sure the **Current question type, name and ID** are as expected.
 1. Choose an item from the survey program that you want to use from the dropdown box.
 1. Select **Change** to commit your selection. 
 1. When the dialog box closes, select **Save Changes**. 
