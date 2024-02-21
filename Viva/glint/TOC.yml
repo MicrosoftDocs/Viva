@@ -76,60 +76,70 @@ items:
                  href: setup/set-up-sftp.md
                - name: Upload employee data to the People page  
                  href: setup/upload-employee-attributes.md
-      - name: Admin configuration and use of Viva Glint features
-        href: setup/platform-features-settings.md
-        items: 
-          - name: Admin management of General Settings in Viva Glint
-            href: setup/manage-general-settings.md
-            items: 
+  - name: Microsoft Viva People Science methodology for Viva Glint programs
+    items:
+        - name: Consider Viva People Science factors for historical imports
+          href: people-science/import-external-people-science-pov.md
+        - name: Philosophy on appropriate use of benchmarks as comparisons
+          href: people-science/people-science-benchmark-philosophy.md
+        - name: Viva People Science explains focus areas and action planning
+          href: people-science/people-science-explains-focus-areas.md
+        - name: Patient safety culture methodology
+          href: people-science/patient-safety.md
+  - name: Admin configuration of Viva Glint features
+    href: setup/platform-features-settings.md
+    items: 
+      - name: Admin management of General Settings 
+        href: setup/manage-general-settings.md
+          items: 
               - name: Set up attribute-based survey access
                 href: setup/attribute-based-survey-access.md
-          - name: Admins using Viva Glint's People feature
-            href: setup/people-page.md
-            items:  
-              - name: Managing external users in Viva Glint
-                href: setup/add-external-user.md
-              - name: Exporting User Roles 
-                href: setup/export-user-roles.md
-              - name: Deleting user data from Viva Glint
-                href: setup/delete-user-data.md
-          - name: Admins setting up Distribution Lists in Viva Glint
-            href: setup/set-up-distribution-lists.md
-            items:
-              - name: Import members into a Distribution List and use the blended membership functionality
-                href: setup/import-members-distribution-lists.md
-              - name: Export a Viva Glint Distribution List
-                href: setup/export-distribution-lists.md
-          - name: Admins setting up Viva Glint User Roles
-            href: setup/set-up-user-roles.md
-          - name: Admins setting up Focus Area periods
-            href: setup/focus-area-period-feature.md
-          - name: Admins using the Viva Glint Question Library
-            href: setup/question-library.md
-            items:
-              - name: Question mapping
-                href: setup/question-mapping.md
-          - name: Communicating with Viva Glint Nudges
-            href: communicate/communicate-with-nudges.md
-          - name: Customizing action plans in Viva Glint
-            href: setup/customize-action-plans.md
-          - name: Managing language translations in Viva Glint programs
-            href: setup/language-translations.md
-          - name: Submitting product feedback to Viva Glint
-            href: setup/glint-product-feedback.md
-          - name: Understanding Viva Glint Advanced Configuration
-            href: setup/understand-advanced-configuration.md
-            items: 
-              - name: Import historical response data in Viva Glint
-                href: setup/import-historical-response-data.md
-              - name: Update reporting data in closed Viva Glint surveys
-                href: setup/update-glint-reporting-data.md
-              - name: Use Advanced Configuration Data Apps
-                href: setup/glint-data-apps.md
-              - name: Use Advanced Configuration Uploads
-                href: setup/advanced-config-uploads.md
-              - name: Flag sensitive comments in Viva Glint
-                href: setup/glint-sensitive-comments.md
+      - name: Admins using the People feature
+        href: setup/people-page.md
+        items:  
+            - name: Managing external users in Viva Glint
+              href: setup/add-external-user.md
+            - name: Exporting User Roles 
+              href: setup/export-user-roles.md
+            - name: Deleting user data from Viva Glint
+              href: setup/delete-user-data.md
+      - name: Admins setting up Distribution Lists 
+        href: setup/set-up-distribution-lists.md
+        items:
+            - name: Import members into a Distribution List and use the blended membership functionality
+              href: setup/import-members-distribution-lists.md
+            - name: Export a Viva Glint Distribution List
+              href: setup/export-distribution-lists.md
+      - name: Admins setting up User Roles
+        href: setup/set-up-user-roles.md
+      - name: Admins setting up Focus Area periods
+        href: setup/focus-area-period-feature.md
+      - name: Admins using the Viva Glint Question Library
+        href: setup/question-library.md
+        items:
+            - name: Question mapping
+              href: setup/question-mapping.md
+      - name: Communicating with Viva Glint Nudges
+        href: communicate/communicate-with-nudges.md
+      - name: Customizing action plans in Viva Glint
+        href: setup/customize-action-plans.md
+      - name: Managing language translations in Viva Glint programs
+        href: setup/language-translations.md
+      - name: Submitting product feedback to Viva Glint
+        href: setup/glint-product-feedback.md
+      - name: Understanding Viva Glint Advanced Configuration
+        href: setup/understand-advanced-configuration.md
+        items: 
+            - name: Import historical response data in Viva Glint
+              href: setup/import-historical-response-data.md
+            - name: Update reporting data in closed Viva Glint surveys
+              href: setup/update-glint-reporting-data.md
+            - name: Use Advanced Configuration Data Apps
+              href: setup/glint-data-apps.md
+            - name: Use Advanced Configuration Uploads
+              href: setup/advanced-config-uploads.md
+            - name: Flag sensitive comments in Viva Glint
+              href: setup/glint-sensitive-comments.md
       - name: Share Manager Quick Guides
         href: setup/manager-quick-guides-overview.md
         items:
@@ -137,16 +147,7 @@ items:
             href: setup/quick-guide-confidentiality.md
           - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
             href: setup/quick-guide-manager-doc-pitfalls.md
-      - name: Viva People Science methodology 
-        items:
-          - name: Consider Viva People Science factors for historical imports
-            href: people-science/import-external-people-science-pov.md
-          - name: Philosophy on appropriate use of benchmarks as comparisons
-            href: people-science/people-science-benchmark-philosophy.md
-          - name: Viva People Science explains focus areas and action planning
-            href: people-science/people-science-explains-focus-areas.md
-          - name: Use the Viva People Science Patient Safety Survey template
-            href: people-science/patient-safety.md
+      
       - name: Use Viva Glint best practices and program guidance
         href: setup/best-practice-setup-guidance.md
         items:
