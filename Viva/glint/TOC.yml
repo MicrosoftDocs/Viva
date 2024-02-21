@@ -84,7 +84,7 @@ items:
           href: people-science/people-science-benchmark-philosophy.md
         - name: Viva People Science explains focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
-        - name: Viva Glint patient safety culture methodology
+        - name: Viva People Science patient safety culture methodology
           href: people-science/patient-safety.md
   - name: Admin configuration of Viva Glint features
     href: setup/platform-features-settings.md
