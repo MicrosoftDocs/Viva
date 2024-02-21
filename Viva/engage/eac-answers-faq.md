@@ -48,7 +48,7 @@ Answers doesn't support guest access.
 
 **Can our organization use Answers without Topics?**
 
-Yes. Viva Topics are going away in 2025, which means that Viva Engage is returning to a simplified topics experience in Answers. Associating a topic with your question helps to categorize it, which has the added effect of improving the Answers feed and digests. For more details, see [Changes coming to Topics](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide&branch=daisyfell-topics-support-faq).
+Yes. Viva Topics are going away in 2025, which means that Viva Engage will return to a simplified topics experience in Answers. Associating a topic with your question simply helps to categorize it, which in turn, helps improve the Answers feed and digest. For more details, <<link to announcement when published>>.
 
 **Why can’t users in my organization access Answers?**
 
