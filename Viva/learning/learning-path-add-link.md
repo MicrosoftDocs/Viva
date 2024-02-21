@@ -1,5 +1,5 @@
 ---
-title: Add link to content in Learning Paths 
+title: Add link to content in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
@@ -18,7 +18,7 @@ ms.localizationpriority: medium
 description: Learn how to create a link to content in learning paths for Microsoft Viva Learning.
 ---
 
-# Add link to content in Learning Paths 
+# Add link to content in Viva Learning
 
 You can add link to content found in SharePoint, YouTube, Vimeo, news articles, and other sources into Viva Learning. Content can be bookmarked, recommended, and shared. 
 
@@ -26,14 +26,14 @@ Viva Learning supports the following document types, when adding content from Sh
 - Word, PowerPoint, Excel, PDF 
 - Audio (.m4a, .mp3) 
 - Video (.mov, .mp4, .avi) 
-- Linked objects 
+- [Linked objects](#add-linked-objects)
 
 > [!NOTE]
 > - You need a Viva Suite or Viva Learning license to add link to content.   
 > - This content isn't searchable in Viva Learning. 
 > - The default language for this content is the one set by your organization's admin.  
 
-1. Create a [learning path](creating-learning-paths.md) or [learning collection](creating-learning-collections.md)
+1. Create a [learning path](creating-learning-paths.md) or [learning collection](creating-learning-collections.md).
 
 2. Select **Add content** to add courses to your learning path.
 
@@ -52,7 +52,7 @@ Viva Learning supports the following document types, when adding content from Sh
 
 7. To edit content, go to the section and select the pencil icon. 
 
-8. To delete content, go to the section, edit and select the cross.
+8. To delete content, go to the section, edit, and select the cross.
 
     ![Screenshot of add link to content with the url, title, description and thumbnail set.](../media/learning/learning-path-link-to-content-add-content-3.png)
 
