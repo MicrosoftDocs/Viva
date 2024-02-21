@@ -79,11 +79,11 @@
         - name: Provider Permissions 
           href: provider-permissions.md
         - name: Creating Learning paths
-          href: creating-learning-paths.md
-        - name: Link to content
-          href: learning-path-add-link.md 
+          href: creating-learning-paths.md 
         - name: Create collections
           href: creating-learning-collections.md
+        - name: Link to content
+          href: learning-path-add-link.md
         - name: Manage feature-level access
           href: feature-access-management.md
         - name: Manage Interests 
