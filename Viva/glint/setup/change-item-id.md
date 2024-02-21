@@ -66,6 +66,3 @@ There are two ways to view an item ID:
 1. When the dialog box closes, select **Save Changes**. 
 1. After these steps are complete, you'll see a *Changes Pending* notification on the item line. 
 1. Select **Save**.
-
-
-
