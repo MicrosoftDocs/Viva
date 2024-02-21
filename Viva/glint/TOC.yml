@@ -215,6 +215,8 @@ items:
            items:
              - name: Adding new survey items and section breaks to a Viva Glint program
                href: setup/add-new-questions.md
+             - name: Changing survey item IDs for expired survey cycles
+               href: setup/change-item-id.md
          - name: Reporting setup in Program Summary
            href: setup/reporting-setup.md
          - name: Communications setup in Program Summary
