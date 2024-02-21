@@ -23,7 +23,7 @@ ms.date: 02/21/2024
 > [!IMPORTANT]
 > The platform feature allowing admins to change survey item ID numbers releases on March 9, 2024.
 
-Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. When a survey is retired, you can still use the data for a item from that survey as a comparison in a new survey which uses the identical item by changing the item ID. 
+Comparing survey trend is essential to tracking focus area progress – overall employee engagement - over time. When a survey is retired, you can still use the data for an item from that survey as a comparison in a new survey which uses the identical item by changing the item ID. 
 
 > [!IMPORTANT]
 > The term "survey item" refers to any *question* or *statement* posed to a survey taker. 
