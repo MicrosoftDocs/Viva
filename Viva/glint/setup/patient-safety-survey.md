@@ -66,7 +66,3 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 
 > [!div class="nextstepaction"]
 > [Blog - Viva Glint Patient Safety Survey helps improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710)
-
-
-
-
