@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/13/2024
+ms.date: 02/16/2024
 ---
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
@@ -37,9 +37,14 @@ Planned release dates are provided in the table below. The release schedule is s
 
 >[!IMPORTANT]
 >Be mindful of scheduled dates when your Viva Glint platform will be down for maintenance and feature enhancements. Any time a person logs into a Viva Glint program and a scheduled maintenance instance is impending within two-three days, a message alerting the user to the scheduled shutdown will appear.
+>
+>*Viva Glint is committed to consistently improving the customer experience. The cloud-based platform maintains an agile production cycle with fixes, enhancements, and new features. Planned program release dates are provided with the best intentions of releasing on these dates, but dates may change due to unforeseen circumstances. Schedule updates will be provided as appropriate*
 
 >[!TIP]
 >Inform survey takers if this short instance of downtime occurs during their survey-taking window. In most cases, platform downtime will be less than twelve hours.
+
+
+
 
 
 

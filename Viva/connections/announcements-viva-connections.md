@@ -1,5 +1,5 @@
 ---
-ms.date: 02/08/2024
+ms.date: 02/16/2024
 title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -77,9 +77,9 @@ Announcements are viewable to users from mobile experiences through Viva Connect
 
 ### Teams Channel announcements displaying in Viva Connections for frontline workers
 
-Microsoft Teams Channel announcements notifications will also display in the Viva Connections announcements banner on mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
+Microsoft Teams Channel announcements will also display in the Viva Connections announcements banner on desktop and mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
 
-A Teams Channel announcement notification is displayed in the Viva Connections mobile experience only if:
+A Teams Channel announcement is displayed in the Viva Connections experience only if:
 
 - The user has been assigned a Microsoft 365 F1 or F3 license;
 - Channel mentions are enabled under the Teams Channel notification settings; and
@@ -87,6 +87,7 @@ A Teams Channel announcement notification is displayed in the Viva Connections m
 
 > [!NOTE]
 >
+> - If you have authentication issues, disable the **Limited-access  user permission lockdown mode** under site collection features from your SharePoint site. Learn more about [enabling or disabling site collection features](https://support.microsoft.com/office/a2f2a5c2-093d-4897-8b7f-37f86d83df04). 
 > - Vanity domains are not supported. Contact your organization's support team for more information.
 > - Additional updates to an existing Teams Channel announcement will not be displayed in Viva Connections. Users will need to follow the link from the original announcement in Viva Connections to view the Teams Channel announcement.
 > - Teams Channel announcements that are deleted and then undone will show as unread.
