@@ -48,7 +48,7 @@ By default, the Answers experience is enabled for networks that meet the followi
 
    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For details, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2. **Viva Engage is migrated to use Viva Topics**
+2. **Viva Engage is enabled to use Viva Topics**
 
    Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, we will pause proactive migrations to use Viva Topics, but continue migrations that enable Viva Engage networks to use Answers by request.
   Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and the [Topics retirement](/microsoft-365/topics/changes-coming-to-topics).
