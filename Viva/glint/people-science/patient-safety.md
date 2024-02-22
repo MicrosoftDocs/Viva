@@ -47,7 +47,8 @@ The methodology used to develop the Viva Glint Patient Safety Survey followed th
 
 After thorough testing, single-marker items were chosen for various safety topics such as Just culture, Psychological safety, Communication, Teamwork, Across-department communication, and Leadership commitment to safety. Top performing items were identified and additional testing was done on these final 16 items. A 62-page technical report was assembled and sent to Leapfrog’s expert panel for validation.
 
-**Viva Glint received Leapfrog approval in June of 2020.**
+> [!NOTE]
+> Viva Glint received Leapfrog approval in June of 2020.
 
 ## Read the Viva People Science blog on improving patient safety culture
 
