@@ -34,8 +34,8 @@ Here are some ways to create a new attribute clone:
 
 - Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You’ll now notice that there is a vertical ellipses next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
 
->[!Note]
->The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
+    >[!Note]
+    >The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
 
 - Create a new Attribute Clone when creating a Person or Meeting query. In the final stage where you add attributes to your query, you can open up the fly-out panel. There, you will also see the ellipses. From that location, you can clone an attribute.
 - Create a clone of any attribute that your admin has uploaded. Since the clone is what is modified, there are never any modifications made to the admin-uploaded attributes. Those will continue to remain unchangeable by the analyst.
