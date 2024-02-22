@@ -26,14 +26,14 @@ search.appverid:
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers works to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers helps users get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
 
 Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, have access to the Answers experience in the Viva Engage Teams app. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
 
-Users who aren't assigned the Viva Engage Knowledge service plan access the Answers experience from the communities in which they’re a member. They can ask questions and view, vote, and respond to questions others have written. They receive notifications to questions or answers where their name is mentioned and can visit those threads.
- 
+Users who aren't assigned the Viva Engage Knowledge service plan won't have the full Answers experience, but can ask questions and view, vote, and respond to questions others have written from the communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
+
 For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](eac-answers-admin-scenarios.md).
 
 ## Technical requirements
@@ -48,10 +48,10 @@ By default, the Answers experience is enabled for networks that meet the followi
 
    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For details, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2. **Viva Engage uses Topics**
+2. **Viva Engage is enabled to use Viva Topics**
 
-   In the Answers experience, Topics helps to organize questions and route them to people who are knowledgeable about specific Topics. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
-   Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
+   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, we will pause proactive migrations to use Viva Topics, but continue migrations that enable Viva Engage networks to use Answers by request.
+  Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and the [Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide).
    
    Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
