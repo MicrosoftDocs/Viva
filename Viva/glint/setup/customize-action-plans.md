@@ -40,7 +40,7 @@ Initiating and managing action after a survey can be an unclear process. Focused
 
 ## Specifications for adding Content Resources 
 
-All content that exists in *Content Resources* is considered Viva Glint standard content. Content may exist as artices, images, PDF files, or videos. Content must first exist or be added in *Content Resources* before it can be attached to a Suggested Action template.
+All content that exists in *Content Resources* is considered Viva Glint standard content. Content may exist as articles, images, PDF files, or videos. Content must first exist or be added in *Content Resources* before it can be attached to a Suggested Action template.
 
 **Following is the character limit guidance for adding Content Resources**: 
 
