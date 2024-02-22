@@ -44,7 +44,7 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 
 1. Access the **Create Integration System User** task. Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
 
-2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username. **Note:** The username has to match this string `ISU_Microsoft_Viva_Learning`.
+2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username. **Note:** The username can be customized.
 
 ![Screenshot of the menu of Create Integration System User with account information fields.](/viva/media/learning/wd-s1-1-create-integration-system-user.png)
 3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
@@ -118,10 +118,10 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 
 
 > [!NOTE]
-> All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review [this example](https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report)
+> All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review [this example](https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report).
 
 > [!NOTE]
-> Admins need to create a custom report manually. This is a one time process. 
+> Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
 
 1. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
 Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
@@ -131,19 +131,19 @@ If you're already a Microsoft 365 customer, Workday to AAD user sync should be i
 
 This report should be created from master Admin account of Workday to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments.
 
-1. Sign in to the **Workday Portal**
-    1. Sign in to Workday Portal
-    1. Search for task “Create Custom Report”
-2. Configure the report parameters
+1. Sign in to the **Workday Portal**.
+    1. Sign in to Workday Portal.
+    1. Search for the task “Create Custom Report.”
+2. Configure the report parameters.
     1. Give Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
-    1. Set Report Type as “Advanced”
-    1. Mark checkbox “Enable as Web service”
-    1. Mark checkbox “Optimized for performance”
+    1. Set Report Type as “Advanced.”
+    1. Mark checkbox “Enable as Web service.”
+    1. Mark checkbox “Optimized for performance.”
     1. In the “Data Source” field, go to “All” and select “Learning Content”. Select **OK**.
     ![Screenshot of the Create Custom Report screen.](/viva/media/learning/wd-s2.2-1.png)
 3. Add report fields.
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
-    1. Add the fields in “Columns” as per below schema. You see three objects for field “rating”, select the one with a hash (#) icon next to it.
+    1. Add the fields in “Columns” as outlined schema. You see three objects for field “rating”, select the one with a hash (#) icon next to it. To handle the "Is effective" flag in Workday, you are required to create a calculated field `CatalogEffectiveDate` and add it in the catalog RaaS. Detailed steps are mentioned in this section. 
 
 | Business object| Field | Column heading override| Column heading override XML alias|
 | --- | ---- | ---- | --- |
@@ -162,6 +162,7 @@ This report should be created from master Admin account of Workday to avoid any 
 | Learning Content | Skills | Skills | Skills |
 | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
 | Language | User Language Code | Locale | Locale |
+| Learning Content | CatalogEffectiveDate | EffectiveDate | EffectiveDate | 
 
 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
@@ -171,6 +172,7 @@ This report should be created from master Admin account of Workday to avoid any 
 | Business Object | Group column heading | Group column heading XML Alias |
 | --- | --- | --- |
 | Languages | Languages | Languages |
+| Learning content | learningContent_group | learningContent_group| 
 
 5. Add filters to the report. 
     1. Create a new filter condition by selecting “Create Calculated Field for Report” under Fields section.
@@ -179,27 +181,37 @@ This report should be created from master Admin account of Workday to avoid any 
     
     1. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
         
-    | And/Or | Field | Operator | Comparison Type | Comparison Value | Indexed | 
-    | --- | --- |----  | --- | ---- | -----| 
-    | And | Learning Content Type | exact match with the selection list | Prompt the user for the value | Prompt #1 | Yes | 
-    | And | Modified Date | greater than or equal to | Prompt the user for the value | Prompt #2 | Yes | 
-    | And | Modified Date | less than or equal to | Prompt the user for the value | Prompt #3 | Yes |
+    | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
+    | --- | --- |-- |----  | --- | ---- | ---|-----| 
+    | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
+    | And | | Modified Date | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
+    | And | | Modified Date | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
+    | Or  |   `(`  |     Learning Content Type  |     exact match with the selection list  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #1  |   |     Yes  |
+    |  And  |       |     CatalogEffectiveDate  |     greater than or equal to  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #2  |       |     Yes  |
+    |     And  |       |     CatalogEffectiveDate  |     less than or equal to  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #3  |     `)`  |     Yes  |
+
 
     ![Screenshot of a report with calculated fields.](/viva/media/learning/wd-s2.2-6.png)
 
 6. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
 
-    | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Required | 
-    | - | - | - | - | - | - | 
-    | Learning Content Type | Prompt #1 | contentType | contentType | No default value | Yes | 
-    | ModifiedDate | Prompt #2 | Start_Date | Start_Date | No default value | Yes | 
-    | ModifiedDate | Prompt #3 | End_Date | End_Date | No default value | Yes |
+    | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | 
+    | - | - | - | - | - | - | -| 
+    | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
+    | ModifiedDate | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
+    | ModifiedDate | Prompt #3 | End_Date | End_Date | No default value | | Yes |
+    |     Prompt #2  |     Start_Effective_Date  |     Start_Effective_Date  |     Specify default value  |     01/01/2024  |       |
+    |     CatalogEffectiveDate  |     Prompt #3  |     End_Effective_Date  |     End_Effective_Date  |     Specify default value  |     01/01/2024  |       |
 
     ![SCreenshot of the formatted fields for prompt values.](/viva/media/learning/wd-s2.2-7.png)
 
 7. Go to **Advanced** and select the field **Optimized for Performance**.
-    1. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
-    1. Save the report. Select **OK**. 
+
+> [!NOTE]
+> After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
+
+8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
+9. Save the report. Select **OK**. 
 
     ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
 
@@ -243,6 +255,7 @@ This report should be created from master Admin account of Workday to avoid any 
     | Worker | User Name | UserName | UserName |
     | Worker | Worker is Terminated | Terminated | Terminated | 
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
+    |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
     ![Screenshot of the formatted columns fields in the Edit Custom Report](/viva/media/learning/wd-s3-1.png)
 
@@ -282,19 +295,22 @@ This report should be created from master Admin account of Workday to avoid any 
 ### Create RaaS report on Workday portal for assignment by organization and their completion status
 
 This report should be created from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. Here, learner record sync is abbreviated as **LRS**.
+
+> [!NOTE]
+> Currently in Viva Learning, the mapping logic of the Workday and Entra ID (formerly Azure Active Directory) user accounts is based on user’s first name, last name, and username.
  
 1. **Sign in to the Workday Portal**
     1. **Sign in**.
     2. Search for the tasks "Create Custom Report."
 
 2. Configure the report parameters 
-    1. Name the report "Viva Learning LRS Assignment Report". The report name must match this string. 
+    1. Name the report "Viva Learning LRS Assignments Report". The report name must match this string. 
     2. Set Report Type as “Advanced.”
     3. Mark checkbox “Enable as Web service.”
     4. In the “Data Source” field, go to “All” and select "Learning Assignments Records”. Select **OK**.
 3. Add report fields.
     1. Once you select **OK**, the “Data Source” automatically sets the value as “Learning Assignment Records.” For the “Data Source Filter” field, remove any existing value and add “Assignment Records for ~Person~from Learning Organization”. You can copy this value and paste in the field directly.
-    1. 2.4.c.2.	Add the fields in “Columns” as per below schema. You see two objects for “learning Assignment”, select the one with a blue icon next to it.
+    1. 2.4.c.2.	Add the fields in “Columns” as outlined below. You see two objects for “Learning Enrollment," select the one with a blue icon next to it.
     
     |Business Object | Field | Column Heading Override | Column Heading Override XML Alias| 
     | - | - | - | - | 
@@ -307,6 +323,9 @@ This report should be created from the primary Workday admin account to avoid an
     |Assigned By | Workday ID | AssignerId | AssignerId |
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
+
+> [!NOTE]
+> The In progress status from Workday doesn't sync to Viva Learning.
 
     1. Under “Group Column Headings”, add below fields
 
