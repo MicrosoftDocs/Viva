@@ -50,7 +50,7 @@ By default, the Answers experience is enabled for networks that meet the followi
 
 2. **Viva Engage uses Topics**
 
-   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, proactive migrations to use Viva Topics will be paused, but migrations to enable customers to use Answers will continue by request.
+   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, proactive migrations to use Viva Topics will be paused, but migrations that enable customers to use Answers will continue by request.
   Users aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and the Topics retirement.
    
    Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
