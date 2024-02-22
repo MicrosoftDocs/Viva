@@ -25,25 +25,26 @@ Many healthcare customers use the Viva Glint Patient Safety Survey to assess and
 ## Submitting the Viva Glint Patient Safety Survey for Leapfrog certification
 
 To submit the survey to Leapfrog for certification, it must include the 16 Leapfrog approved items in ths *exact* order:
-1.Modeling
-1.Communication
-1.Root Cause
-1.Learn From Mistakes
-1.Change Willingness
-1.Just Response
-1.Exchange
-1.Resources
-1.Training
-1.Teamwork
-1.Ownership
-1.Voice
-1.Psychological Safety
-1.Recognition
-1.Safety Habits
-1.Safety Referral
+1. Modeling
+1. Communication
+1. Root Cause
+1. Learn From Mistakes
+1. Change Willingness
+1. Just Response
+1. Exchange
+1. Resources
+1. Training
+1. Teamwork
+1. Ownership
+1. Voice
+1. Psychological Safety
+1. Recognition
+1. Safety Habits
+1. Safety Referral
 
-There are also two optional but recommended scaled items, and two comment items which can be included:
-17. Employee Safety
+There are also two optional but recommended scaled items (1-2), and two comment items (3-4)which can be included:
+
+1. Employee Safety
 1. eSat
 1. Safety Start Doing
 1. Safety Stop Doing
