@@ -42,7 +42,7 @@ To submit the survey to Leapfrog for certification, it must include the 16 Leapf
 1. Safety Habits
 1. Safety Referral
 
-There are also two optional but recommended scaled items (1-2), and two comment items (3-4)which can be included:
+There are also two optional but recommended scaled items (1-2), and two comment items (3-4) which can be included:
 1. Employee Safety
 1. eSat
 1. Safety - Start Doing
