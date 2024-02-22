@@ -32,7 +32,7 @@ Attribute clones allow you to create copies of your admin-uploaded attributes an
 ### Create a new attribute clone
 Here are some ways to create a new attribute clone:
 
-- Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You’ll now notice that there is a vertical ellipses next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
+- Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You’ll now notice that there is a vertical ellipsis next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
 
     >[!Note]
     >The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
@@ -40,7 +40,7 @@ Here are some ways to create a new attribute clone:
 - Create a new Attribute Clone when creating a Person or Meeting query. In the final stage where you add attributes to your query, you can open up the fly-out panel. There, you will also see the ellipses. From that location, you can clone an attribute.
 - Create a clone of any attribute that your admin has uploaded. Since the clone is what is modified, there are never any modifications made to the admin-uploaded attributes. Those continue to remain unchangeable by the analyst.
 - You are not able to create a clone of a clone. 
-- Define a new name for this cloned attribute . The name must contain only ASCII alphanumeric characters. It cannot contain any spaces or other special characters. It must be less than 30 characters. It also must be unique. After you create a clone, the name cannot be changed.
+- Define a new name for this cloned attribute. The name must contain only ASCII alphanumeric characters. It can't contain any spaces or other special characters. It must be less than 30 characters. It also must be unique. After you create a clone, the name can't be changed.
 - When you create a clone, all of the attribute value data is copied over from the original column. Only values that you specifically target to change will change. Everything else remains as default.
 - In your clone, you can keep the datatype of the original column, or you can change the datatype to a string.
     - Keeping the same datatype is simple if it is a string or integer. You just input a string or integer, respectively, into the New Value. Maintaining a Date field can be a bit challenging since the format you need to enter isn’t clear yet. Use the date format: ‘MM-DD-YYYY’
@@ -64,7 +64,7 @@ When you are ready to delete the clone, you can delete it from the Data Quality 
 >[!Note]
 >If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
 
-Before you delete, ensure that the clone isn’t being used in any recurring queries. If you delete a clone that is being used in active recurring queries, that query deactivates. Once you delete, the clone is removed and there is no opportunity to recover.
+Before you delete, ensure that the clone isn’t being used in any recurring queries. If you delete a clone that is being used in active recurring queries, that query deactivates. Once you delete, the clone is removed and there's no opportunity to recover.
 
 ### Known bugs
 There are no known bugs today.
