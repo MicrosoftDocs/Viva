@@ -48,7 +48,7 @@ Answers doesn't support guest access.
 
 **Can our organization use Answers without Topics?**
 
-Yes. Viva Topics are going away in 2025, which means that Viva Engage will return to a simplified topics experience in Answers. Associating a topic with your question simply helps to categorize it, which in turn, helps improve the Answers feed and digest. For more details, <<link to announcement when published>>.
+Yes, Answers works with or without Viva Topics for users with the Viva Engage Knowledge Service plan. Employees with Viva Topics licensing have additional knowledge management experiences, such as Topics cards on hover and AI-suggested topics. In 2025, Viva Topics will go away, but a simplified topics model will continue in Viva Engage. For details about the Viva Topics retirement, see [Changes coming to Topics](/microsoft-365/topics/changes-coming-to-topics).
 
 **Why can’t users in my organization access Answers?**
 
