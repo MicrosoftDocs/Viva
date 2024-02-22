@@ -1,6 +1,6 @@
 ---
-title: Viva People Science patient safety culture methodology
-description: Viva Glint offers the Registered Nurse Excellence survey as one of our core healthcare survey offerings. This survey is approved by the American Nurses Credentialing Center (ANCC) and awarded Magnet® status in Nursing.
+title: Viva People Science Patient Safety Culture Survey development methodology
+description: Microsoft Viva Glint offers healthcare survey templates which identify risks and opportunities in patient safety culture.
 ms.author: RyanLebow
 author: JudyWeiner
 manager: MelissaBarry
@@ -15,17 +15,40 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/21/2024
+ms.date: 02/22/2024
 ---
 
-# Viva People Science patient safety culture methodology
-Viva Glint offers the Registered Nurse (RN) Excellence survey template as one of our core healthcare survey offerings. This survey template is approved by the American Nurses Credentialing Center (ANCC) for hospitals/clinics looking to attain or maintain Magnet® status in Nursing. Magnet status is a prestigious honor, which certifies that the RNs at that entity or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet-certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification. Our RN Excellence survey was created in conjunction with the guidance and expertise of ANCC analysts and approved by those analysts in May of 2018. The survey meets all RN Satisfaction criteria laid out by current Application Manuals, as well. 
+# Viva People Science Patient Safety Culture Survey development methodology
 
-Working with the ANCC, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes as laid out in the EP3EO (2014 Magnet Application Manual) and the EP2EO (2019 Magnet ApplicationManual). The survey takes just 3-4 minutes to complete and was approved by the ANCC for inclusion in the Magnet Recognition Program® in May of 2018. 
+The methodology used to develop the Viva Glint Patient Safety Survey followed these steps:
 
-## Get access to real-time data 
+- Exploratory interviews with external patient safety experts/practitioners were conducted.
+- A thorough literature review on the culture of patient safety which included over 90 articles and 15-20 patient safety culture survey instruments. All Leapfrog-approved instruments were studied extensively.
+- Development of a 295-item taxonomy with 48 different patient safety domains.
+- The list was culled down to 80 items and 18 domains for scientific testing. Items were evaluated for clarity and simplicity; items assessing the same or very similar constructs were removed.
+- Viva Glint researchers developed several theoretical models of patient safety culture for scientific testing based on literature findings.
+- A random sample of over 1,300 full-time healthcare professionals in the U.S., consistent with Leapfrog’s guidance, received the items. AHRQ items and actual patient safety outcomes (e.g., Leapfrog grade, HCAHPS patient satisfaction data, Hospital-acquired infections, Post-surgical infections) were included in the item set for validation purposes.
+- Statistical testing and additional feedback provided validity and reliability information to choose the best performing items for the final instrument. These tests and processes included:
+  - Factor analysis (single factor, EFA, CFA)
+  - Reliability analysis (alpha)
+  - Alpha-if-item-Deleted
+  - Correlations
+  - Skewness
+  - Kurtosis
+  - Standard deviation
+  - Correlations to established or validated culture of patient safety items (i.e., AHRQ)
+  - Correlation to overall Culture of Patient Safety outcome - a two-item outcome measure was developed after careful testing. The extent to which other items correlated to this outcome was a factor in selecting the item or not.
+  - Inter-item correlations
+  - Correlations to publicly reported external patient safety outcome measures like HCAHPS, Leapfrog grades, and Infections
+  - Relative weights analysis
+  - Proportion of variance explained in the facet
+  - Survey review by our expert team
+  - Final review by five external patient safety experts
 
-Using the Viva Glint platform, organizations can view invaluable data from their RNs and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto an engagement or company survey and analyzed alongside other engagement data. 
+After thorough testing, single-marker items were chosen for various safety topics such as Just culture, Psychological safety, Communication, Teamwork, Across-department communication, and Leadership commitment to safety. Top performing items were identified and additional testing was done on these final 16 items. A 62-page technical report was assembled and sent to Leapfrog’s expert panel for validation.
+
+> [!NOTE]
+> Viva Glint received Leapfrog approval in June of 2020.
 
 ## Read the Viva People Science blog on improving patient safety culture
 
@@ -34,24 +57,7 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 > [!div class="nextstepaction"]
 > [Blog - Viva Glint patient safety survey helps improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710)
 
-## Survey items
-
-All preset survey items can be viewed and exported from the **Questions** page in *Program Summary* within the Patient Safety Survey template or downloaded from the **Question Library** on the admin dashboard. 
-
-Viva Glint worked collaboratively with the ANCC to create the survey, which covers the following core items and required ANCC categories:
-
-|Survey item(s)|Required ANCC Category|
-|-----------|----------------------|
-|1-7|Fundamentals of Quality Nursing Care|
-|8-9|Leadership Access and Responsiveness|
-|10-12|Autonomy|
-|13-14|Inter-professional Relationships|
-|15-16|RN-to-RN Teamwork and Collaboration|
-|17-18|Professional Development|
-|19-20|Adequacy of Resources and Staffing|
-
 ## Set up a Viva Glint Patient Safety Survey
 
 > [!div class="nextstepaction"]
 > [Set up a Patient Safety survey](../../glint/setup/patient-safety-survey.md)
-
