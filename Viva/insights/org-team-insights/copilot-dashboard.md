@@ -201,7 +201,7 @@ No, the report does not use any Viva Insights data in the process of computing t
 
 **The values I'm seeing are just "--," with a banner that reads, "Not enough activity data from the past 28 days to show all insights." What's happening?**
 
-To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users.
+To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
 **What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
