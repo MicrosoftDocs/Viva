@@ -60,4 +60,3 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 
 > [!div class="nextstepaction"]
 > [Set up a Patient Safety survey](../../glint/setup/patient-safety-survey.md)
-
