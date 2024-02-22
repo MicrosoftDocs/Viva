@@ -29,9 +29,6 @@ Attribute clones allow you to create copies of your admin-uploaded attributes an
 - Update the value of an attribute based on the value of some other attribute.
 - And more.
 
-### Attribute clones are a preview feature
-Attribute clones are currently a preview feature that is not yet ready to be sent to all customers. There may be issues and gaps with this feature, and we hope you will report those back to us while testing it. We also cannot make any commitments yet that this feature will be fully deployed. We have high confidence, but preview feedback will inform this. Thank you for being part of this preview experience!
-
 ### Create a new attribute clone
 Here are some ways to create a new attribute clone:
 
