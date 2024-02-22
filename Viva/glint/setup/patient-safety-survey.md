@@ -24,7 +24,7 @@ Many healthcare customers use the Viva Glint Patient Safety Survey to assess and
 
 ## Submitting the Viva Glint Patient Safety Survey for Leapfrog certification
 
-To submit the survey to Leapfrog for certification, it must include the 16 Leapfrog approved items in ths *exact* order:
+To submit the survey to Leapfrog for certification, it must include the 16 Leapfrog approved items in this *exact* order:
 1. Modeling
 1. Communication
 1. Root Cause
@@ -43,14 +43,13 @@ To submit the survey to Leapfrog for certification, it must include the 16 Leapf
 1. Safety Referral
 
 There are also two optional but recommended scaled items (1-2), and two comment items (3-4)which can be included:
-
 1. Employee Safety
 1. eSat
-1. Safety Start Doing
-1. Safety Stop Doing
+1. Safety - Start Doing
+1. Safety - Stop Doing
 
 > [!NOTE]
-> The overall patient safety outcome items (i.e., Referral and Habits) are moved to the end of the survey; previously they were the first items asked. 
+> The overall patient safety outcome items (i.e., Referral and Habits) are now at the end of the survey; previously they were the first items asked. 
 
 ## Launch the Microsoft Viva Glint Patient Safety Survey 
 
@@ -59,7 +58,15 @@ Access the template from the **Configure** symbol on your Viva Glint admin dashb
 :::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
 
 > [!div class="nextstepaction"]
-> [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504) 
+> [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
+
+## Read the Viva People Science blog on patient safety culture
+
+Many healthcare customers have moved to the Viva Glint patient safety survey to help assess and improve their patient safety culture. Viva Glint Principal People Scientist, Ryan Lebow, provides a datasheet on using the Microsoft Viva Glint patient safety survey to help improve patient safety culture.
+
+> [!div class="nextstepaction"]
+> [Blog - Viva Glint Patient Safety Survey helps improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710)
+
 
 
 
