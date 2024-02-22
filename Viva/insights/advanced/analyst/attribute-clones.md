@@ -16,7 +16,11 @@ manager: helayne
 audience: Admin
 ---
 
-# Introducing Attribute Clones
+# Create and manage attribute clones
+
+>[!IMPORTANT]
+> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
 Attribute clones allow you to create copies of your admin-uploaded attributes and modify them via rules that conditionally update the attribute value data. This enables you to dynamically create new ways of grouping employees, resulting in new ways to analyze your data insights. 
 
 ### Example scenarios
@@ -25,7 +29,7 @@ Attribute clones allow you to create copies of your admin-uploaded attributes an
 - Update the value of an attribute based on the value of some other attribute.
 - And more.
 
-Attribute clones are a Preview feature
+### Attribute clones are a preview feature
 Attribute clones are currently a preview feature that is not yet ready to be sent to all customers. There may be issues and gaps with this feature, and we hope you will report those back to us while testing it. We also cannot make any commitments yet that this feature will be fully deployed. We have high confidence, but preview feedback will inform this. Thank you for being part of this preview experience!
 
 ### Create a new attribute clone
@@ -33,7 +37,8 @@ Here are some ways to create a new attribute clone:
 
 - Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You’ll now notice that there is a vertical ellipses next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
 
->[!Note]: The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
+>[!Note]
+> The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
 
 - Create a new Attribute Clone when creating a Person or Meeting query. In the final stage where you add attributes to your query, you can open up the fly-out panel. There, you will also see the ellipses. From that location, you can clone an attribute.
 - Create a clone of any attribute that your admin has uploaded. Since the clone is what is modified, there are never any modifications made to the admin-uploaded attributes. Those will continue to remain unchangeable by the analyst.
@@ -45,7 +50,7 @@ Here are some ways to create a new attribute clone:
     - Being able to change the datatype to a string can support scenarios where you want to group a set of HireDates into buckets like “New Hires” and “Tenured Hires,” for example. When you enter a New Value, if you don’t input the datatype of the original column you will see a warning saying: if you continue the datatype will change to string. You can choose to ignore this warning and save the column with a string datatype.
     - You are not able to change the datatype to anything other than string today.
 
-### Use Attribute Clones
+### Use attribute clones
 Once your clone is created, you can immediately use it like any other attribute. When you add it to a query and run it, the results will show the new attribute value data. When a query is run, it will reflect the clone definition as it is defined at query execution time.
 
 Currently, you can add cloned attributes to both your person and meeting queries. Other query types like Cross-Collaboration and External Collaboration queries are not supported yet.
@@ -59,7 +64,9 @@ Only the creator of the clone can edit the definition of the clone or delete the
 ### Delete attribute clones
 When you are ready to delete the clone, you can delete it from the Data Quality section under the Organizational Data tab. Only the creator of the clone can delete.
 
->[!Note]: If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
+>[!Note]
+> If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
+
 Before you delete, ensure that the clone isn’t being used in any recurring queries. If you delete a clone that is being used in active recurring queries, that query will deactivate. Once you delete, the clone will be removed and there is no opportunity to recover.
 
 ### Known bugs
