@@ -131,5 +131,3 @@ When there are no dependencies, the *Are you sure?* dialog box displays. Select 
 
 > [!div class="nextstepaction"]
 > [Use this PowerPoint deck to learn how to set up a Suggested Action template](https://app.us1.glintinc.com/session/auth?RelayState=insided:SAMLRequest%3DnVNNj9owEP0rke%252F5hLLUIiAKqoq0bSNIe9jLyjjDYimxU48D9N93kpCWQ5cDp1gzb%252BbNezOZLS5V6Z3AojI6ZXEQscV8hqIqa75s3FFv4VcD6DyCaeRdImWN1dwIVMi1qAC5k3y3%252FPrMkyDitTXOSFMyb7NO2es%252BSsbw8QmmMJ6OnyaHidwXzPs5EFIFAREb2Gh0QjsKRcnIj8Z%252BHOXxBz6K%252BWgaTKPJC%252FOya%252BtPShdKv92fY9%252BDkH%252FJ88zPvu9y5q1JidLCddRH52rkYShqFbyVSlNGBtJUbSDEo7BQhK3eJLS9BwsEe1ISaIyTKsBuilRppBcJWiIl274ro7GpwO567I%252Ft8z8mROM36J%252Bpl58ELe%252B1vqcluztC4nOkjPV74J079mYB93WLYRI271T5oH2sZ%252BFNr2HB36h4s85MqeTvRxb82dhKuPfRcRB3EVX4hw7KG401SHVQnWdlac4rC8JBypxtgIXDZNerg6K7QfLUweWhG1yZqhZWYbtwuAjpBldvG69KMm0Lh0c8vguTXLatKZzR52xs0Z4wSBKWW0FeGOuum%252FnfPPM%252B944df7O3%252F%252Bn8Dw%253D%253D&isPassive=false)
-
-
