@@ -38,7 +38,7 @@ Here are some ways to create a new attribute clone:
 - Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You’ll now notice that there is a vertical ellipses next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
 
 >[!Note]
-> The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
+>The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
 
 - Create a new Attribute Clone when creating a Person or Meeting query. In the final stage where you add attributes to your query, you can open up the fly-out panel. There, you will also see the ellipses. From that location, you can clone an attribute.
 - Create a clone of any attribute that your admin has uploaded. Since the clone is what is modified, there are never any modifications made to the admin-uploaded attributes. Those will continue to remain unchangeable by the analyst.
@@ -65,7 +65,7 @@ Only the creator of the clone can edit the definition of the clone or delete the
 When you are ready to delete the clone, you can delete it from the Data Quality section under the Organizational Data tab. Only the creator of the clone can delete.
 
 >[!Note]
-> If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
+>If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
 
 Before you delete, ensure that the clone isn’t being used in any recurring queries. If you delete a clone that is being used in active recurring queries, that query will deactivate. Once you delete, the clone will be removed and there is no opportunity to recover.
 
