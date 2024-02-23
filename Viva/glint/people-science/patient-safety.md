@@ -1,5 +1,5 @@
 ---
-title: Viva People Science Patient Safety Culture Survey development methodology
+title: Microsoft Viva Glint Patient Safety Survey -  methodology
 description: Microsoft Viva Glint offers healthcare survey templates which identify risks and opportunities in patient safety culture.
 ms.author: RyanLebow
 author: JudyWeiner
@@ -15,20 +15,20 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/22/2024
+ms.date: 02/23/2024
 ---
 
-# Viva People Science Patient Safety Culture Survey development methodology
+# Microsoft Viva Glint Patient Safety Survey - methodology
 
-The methodology used to develop the Viva Glint Patient Safety Survey followed these steps:
+The methodology used to develop the Microsoft Viva Glint Patient Safety Survey followed these steps:
 
-- Exploratory interviews with external patient safety experts/practitioners were conducted.
-- A thorough literature review on the culture of patient safety which included over 90 articles and 15-20 patient safety culture survey instruments. All Leapfrog-approved instruments were studied extensively.
-- Development of a 295-item taxonomy with 48 different patient safety domains.
-- The list was culled down to 80 items and 18 domains for scientific testing. Items were evaluated for clarity and simplicity; items assessing the same or very similar constructs were removed.
-- Viva Glint researchers developed several theoretical models of patient safety culture for scientific testing based on literature findings.
-- A random sample of over 1,300 full-time healthcare professionals in the U.S., consistent with Leapfrog’s guidance, received the items. AHRQ items and actual patient safety outcomes (e.g., Leapfrog grade, HCAHPS patient satisfaction data, Hospital-acquired infections, Post-surgical infections) were included in the item set for validation purposes.
-- Statistical testing and additional feedback provided validity and reliability information to choose the best performing items for the final instrument. These tests and processes included:
+- **Exploratory interviews** with external patient safety experts and practitioners were conducted.
+- A thorough **literature review on the culture of patient safety which included over 90 articles and 15-20 patient safety culture survey instruments**. All Leapfrog-approved instruments were included.
+- **Development of a 295-item taxonomy with 48 different patient safety domains**.
+- **The list was culled down to 80 items and 18 domains for scientific testing**. Items were evaluated for clarity and simplicity; items assessing the same or similar constructs were removed.
+- Viva Glint researchers **developed several theoretical models** of patient safety culture for scientific testing based on their findings.
+- **A random sample of over 1,300 full-time healthcare professionals in the U.S., consistent with Leapfrog’s guidance, received the items**. AHRQ items and actual patient safety outcomes (e.g., Leapfrog grade, HCAHPS patient satisfaction data, Hospital-acquired infections, Post-surgical infections) were included in the item set for validation purposes.
+- **Statistical testing and additional feedback provided validity and reliability information to choose the best performing items for the final instrument**. These tests and processes included:
   - Factor analysis (single factor, EFA, CFA)
   - Reliability analysis (alpha)
   - Alpha-if-item-Deleted
@@ -45,7 +45,11 @@ The methodology used to develop the Viva Glint Patient Safety Survey followed th
   - Survey review by our expert team
   - Final review by five external patient safety experts
 
-After thorough testing, single-marker items were chosen for various safety topics such as Just culture, Psychological safety, Communication, Teamwork, Across-department communication, and Leadership commitment to safety. Top performing items were identified and additional testing was done on these final 16 items. A 62-page technical report was assembled and sent to Leapfrog’s expert panel for validation.
+**After thorough testing, single-marker items were chosen for various safety topics** such as *Just culture*, *Psychological safety*, *Communication*, *Teamwork*, *Across-department communication*, and *Leadership commitment to safety*. 
+
+**Top performing items were identified and additional testing was done on these final 16 items**. 
+
+**A 62-page technical report was assembled and sent to Leapfrog’s expert panel for validation.**
 
 > [!NOTE]
 > Viva Glint received Leapfrog approval in June of 2020.
