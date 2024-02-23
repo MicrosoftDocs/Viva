@@ -20,13 +20,13 @@ ms.date: 02/23/2024
 
 # Set up a Viva Glint Magnet/RN Excellence survey
 
-Using the Viva Glint platform, organizations can view invaluable data from their RNs and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto an engagement or company survey and analyzed alongside other engagement data.
+Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto an engagement or company survey and analyzed alongside other engagement data.
 
 ## Get access to real-time data
 
 Viva Glint offers the items needed for an Registered Nurse (RN) Excellence survey. The items available are approved by the American Nurses Credentialing Center (ANCC) for hospitals/clinics looking to attain or maintain Magnet® status in Nursing. Magnet status is a prestigious honor, which certifies that the RNs at that entity or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet-certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification. Our RN Excellence survey was created in conjunction with the guidance and expertise of ANCC analysts and approved by those analysts in May of 2018. The survey meets all RN Satisfaction criteria laid out by current Application Manuals, as well. 
 
-Working with the ANCC, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes as laid out in the EP3EO (2014 Magnet Application Manual) and the EP2EO (2019 Magnet ApplicationManual). The survey takes just 3-4 minutes to complete and was approved by the ANCC for inclusion in the Magnet Recognition Program® in May of 2018. 
+Working with the ANCC, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories that are required for Exemplary Professional Practice Evidence of Outcomes as laid out in the EP3EO (2014 Magnet Application Manual) and the EP2EO (2019 Magnet ApplicationManual). The survey should take just 3-4 minutes to complete and was approved by the ANCC in May of 2018. 
 
 > [!TIP]
 > Choose the **Quarterly Engagement** survey template and customize it to meet your Magnet/RN Excellence needs by following the guidelines below.
@@ -49,15 +49,15 @@ Now these items are available in the Question Library and can be added to survey
 ## Select the survey items
 
 >[!IMPORTANT]
->Keep surveys short. Delete most engagement questions and replace them with the items above.
+>Keep surveys short. Delete most engagement questions and replace them with the required items.
 
 All survey items can be viewed and exported from the **Questions** page in *Program Summary* within the Patient Safety Survey template or downloaded from the **Question Library** on the admin dashboard. 
 
-Choose items to add to your your survey template so that it resembles the 20 items in the table below, in numerical order. Follow in-platform guidance for adding items, as well as the images below for direction. **Always choose the item that is labeled with Magnet, if available.** In some cases, you will have a choice of more items than are required; choose only the number of items required per category. 
+Choose items to add to your your survey template so that it resembles the 20 items in the table below, in numerical order. Follow in-platform guidance for adding items, and the images below for direction. **Always choose the item that is labeled with Magnet, if available.** In some cases, you have a choice of more items than are required; choose only the number of items required per category. 
 
 Viva Glint worked collaboratively with the ANCC to create a Magnet/RN Excellence survey that includes the following core items and required ANCC categories:
 
-|Survey item(s)|Required ANCC Category|
+|Survey items|Required ANCC Category|
 |:-----------|:----------------------|
 |1-7|Fundamentals of Quality Nursing Care|
 |8-9|Leadership Access and Responsiveness|
