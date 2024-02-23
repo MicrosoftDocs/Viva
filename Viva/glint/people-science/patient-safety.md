@@ -46,7 +46,9 @@ The methodology used to develop the Microsoft Viva Glint Patient Safety Survey f
   - Final review by five external patient safety experts
 
 **After thorough testing, single-marker items were chosen for various safety topics** such as *Just culture*, *Psychological safety*, *Communication*, *Teamwork*, *Across-department communication*, and *Leadership commitment to safety*. 
+
 **Top performing items were identified and additional testing was done on these final 16 items**. 
+
 **A 62-page technical report was assembled and sent to Leapfrog’s expert panel for validation.**
 
 > [!NOTE]
