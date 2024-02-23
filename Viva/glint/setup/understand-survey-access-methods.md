@@ -28,7 +28,7 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 <a name='set-up-survey-access-that-requires-authentication-with-azure-active-directory'></a>
 
 ## Set up survey access that requires authentication with Microsoft Entra ID
-Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID and to grant all users access to the Viva Glint My Surveys tab so that participants can access their surveys. Users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
+Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID and to grant all users access to the Viva Glint My Surveys tab so that participants can access their surveys. After selecting the Provide Feedback button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
 
 ### To enable this survey access method:
 
