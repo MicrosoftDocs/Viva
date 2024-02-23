@@ -121,6 +121,8 @@ additionalContent:
           links:
           - text: Microsoft Viva help and learning
             url: https://support.microsoft.com/viva
+          - text: Viva Amplify
+            url: https://support.microsoft.com/topic/introduction-to-viva-amplify-cedd11d3-ea8a-4d55-9b5b-61459353be1a
           - text: Viva Connections
             url: https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b
           - text: Viva Engage
