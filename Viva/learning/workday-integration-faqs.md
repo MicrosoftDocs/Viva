@@ -34,7 +34,7 @@ Our estimate 24 - 48 hours for a full sync. This is dependent on the assignment 
 
 **3.	What are the sync frequencies?**
 
-Daily delta sync is in place for all data types, including catalog, assignments, completion and API-thumbnails. Full user RaaS sync happens every two days.
+Daily delta sync is in place for all data types, including catalog, assignments, completion, and API-thumbnails. Full user RaaS sync happens every two days.
 	
 **4.	How can I trigger the manual full sync?**
 
@@ -42,7 +42,7 @@ Admins can trigger the manual sync from the Manage Providers within the Viva Lea
 
 **5. What if the admin user creating the refresh token leaves the organization?**
 
-The Refresh token is tied to a Workday account, which will be the Information System User and not any specific user. This refresh token is additionally available in the context of the Client which Admin creates in Workday. This client isn't tied to Admin user who created it, rather it's available to all the admins in the tenant.
+The Refresh token is tied to a Workday account, which is the Information System User and not any specific user. This refresh token is additionally available in the context of the Client which Admin creates in Workday. This client isn't tied to Admin user who created it, rather it's available to all the admins in the tenant.
 
 **6. Are there any other “grant type”, apart from “refresh_token"?**
 
@@ -58,12 +58,12 @@ This action requires the **Get Only** access to the **Reports: Learning Record**
 
 **9. How do I execute the RaaS reports?**
 
-One a RaaS report is created, you can execute or run it from the Workday portal.
+Once a RaaS report is created, you can execute or run it from the Workday portal.
 
 
 **10.	How does Viva Learning generate access token for OAuth?**
 
-The refresh token is generated based on client ID, client secret and refreshes token. The admin needs to update all three fields in the MAC portal. The refresh token is a nonexpiring one. It's analogous to the client secret or passwords that we have stored for other providers. The refresh token’s infinite TTL shouldn’t be a concern.
+The refresh token is generated based on client ID, client secret and refreshes token. The admin needs to update all three fields in the MAC portal. The refresh token is a nonexpiring one analogous to the client secret or passwords that we stored for other providers. The refresh token’s infinite TTL shouldn’t be a concern.
 
 **11.	What happens if the sync fails?**
 
@@ -78,19 +78,19 @@ Go to the task “View API Client”. You can select on the client under “API 
 
 **13.	How can I filter the providers integrated into Workday in Catalog RaaS?**
 
-This scenario is not supported.
+This scenario isn't supported.
 
 **14. What is the guidance on direct integration of 3Ps in Viva Learning or integration in LMS?** 
 
-These are our recommendations on Workday integrations that includes 3P content providers:
+These are our recommendations on Workday integrations that include 3P content providers:
 
 - **Scenario:** Organizations have the learning management system (LMS) integrated with other 3P content providers such as LinkedIn, Udemy, and Coursera for tracking user completion records.
 
 - **Common practice:** Organizations choose to have compliance trainings come from the LMS and growth, skill, and optional trainings come from digital content providers. 
     - Compliance trainings have to be audited and tracked with a few exceptions based on the regional policies.
-    - Growth, skill and optional trainings don't have to be tracked, but can be recommended to others.
+    - Growth, skill, and optional trainings don't have to be tracked, but can be recommended to others.
 
-- **Deciding factors:** Do you need content coming from 3P content providers to be tracked or audited for complance reasons?
+- **Deciding factors:** Do you need content coming from 3P content providers to be tracked or audited for compliance reasons?
     - If **yes**: Choose **LMS including 3P content providers**.
     - If **no**: Choose **LMS NOT including 3P content providers**.
   
@@ -98,15 +98,15 @@ These are our recommendations on Workday integrations that includes 3P content p
     It’s highly recommended not to have individual connector configurations for the included 3P content providers in LMS to prevent content duplication. 
     - **Admin experience:** 
         - Less overhead in managing only the connector for the LMS. 
-        - Less overhead in maintaining the 3P content that are part of learning paths, collections, and other experiences.  
+        - Less overhead in maintaining the 3P content that is part of learning paths, collections, and other experiences.  
     - **End user experience:** 
         - Consistent consumption experience for content coming from both LMS and 3P providers.
         - The “Assigned to you” tab shows the content assignment for 3P content.
         - The “Completed” tab shows the history of completion status for 3P content.
 -  For **LMS NOT including 3P sources:** 
     - **Admin experience:**
-        - Manage multiple connectors for LMS and each 3P content providers.
-        - Manually update the 3P content that are part of learning paths, collections, and other experiences when the connectors for 3P content is updated or removed.
+        - Manage multiple connectors for LMS and each 3P content provider.
+        - Manually update the 3P content that is part of learning paths, collections, and other experiences when the connectors for 3P content are updated or removed.
     - **End user experience:** 
         - Mixed consumption experience for contents coming from LMS and 3P content providers.
         - The “Assigned to you” tab won't show any assignments for 3P contents as they can be only recommended. 
@@ -133,11 +133,11 @@ This is a required field for configuration.
 **18. What is the payload size which can be handled by RaaS reports?**
 
 For a single report API call, a maximum of 3 million records (2GBs) is returned and the maximum execution time of single API call is 30 mins. 
-You can make a maximum of 75,000 requests in a 24 hour period (15k requests per hour). Report execution timeout is 30 mins but may hit a session or http gateway timeout before that. For more information, refer to the [Workday support article on RaaS](https://docs.workato.com/connectors/workday/workday_raas.html).
+You can make a maximum of 75,000 requests in a 24 hour period (15k requests per hour). Report execution timeout is 30 mins but may hit a session or http gateway timeout before that. For more information, see the [Workday support article on RaaS](https://docs.workato.com/connectors/workday/workday_raas.html).
 
 **19. What happens to the courses if `InNonSearchable` is `True` in Workday?**
 
-These courses are not available for search in Viva Learning. 
+These courses aren't available for search in Viva Learning. 
 
 **20. What happens to the courses if `IsEffectiveDate` is set to the future?**
 
