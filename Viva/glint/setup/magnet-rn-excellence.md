@@ -1,6 +1,6 @@
 ---
 title: Set up a Viva Glint Magnet/RN Excellence survey
-description: 
+description: Using the Viva Glint platform, organizations can view invaluable data from their RNs and identify risks and opportunities in real-time.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -58,7 +58,7 @@ Choose items to add to your your survey template so that it resembles the 20 ite
 Viva Glint worked collaboratively with the ANCC to create a Magnet/RN Excellence survey that includes the following core items and required ANCC categories:
 
 |Survey item(s)|Required ANCC Category|
-|-----------|----------------------|
+|:-----------|:----------------------|
 |1-7|Fundamentals of Quality Nursing Care|
 |8-9|Leadership Access and Responsiveness|
 |10-12|Autonomy|
