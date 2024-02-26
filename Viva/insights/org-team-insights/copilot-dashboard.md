@@ -73,13 +73,13 @@ For those qualifying tenants, only users who meet both of the following criteria
 * The user’s in the top two levels in the organization
 * The user has a significant portion of the organization in their reporting line
 
-The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The M365 Global Admin can revoke access to those users through the M365 Admin Center (MAC) and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
+The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 Admin Center  and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 To see how many employees have automatic access to the dashboard and to manage that access, use the process below.
 
 ### Manage access for individual users
 
-In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
+In the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
 1. Go to the setup tab and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.  
 
@@ -116,7 +116,7 @@ In the [M365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/i
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
-You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. Note that no users will be able to access the dashboard until you remove or update the policy, even if they were added in the M365 Admin Center using the process above. Before you can use the cmdlet, you’ll need to install a module and sign in to be authenticated.
+You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. Note that no users will be able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you’ll need to install a module and sign in to be authenticated.
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
@@ -140,7 +140,7 @@ Unless otherwise mentioned, all metrics on this page represent aggregations over
 
 ### Adoption
 
-After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 Admin Center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score).
+After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 admin center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score).
 
 All metrics on this page represent aggregations over the past 28 days with a typical delay of 2-3 days. (For example, if you're viewing the report on a Monday, the data shown would represent the 28-day period ending on the most recent Friday or Saturday).
 
@@ -183,7 +183,7 @@ Your user survey does not need to be limited to these four statements, but we re
 
 **Upload survey results through the Microsoft 365 Admin Center**
 
-Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 Admin Center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data&preserve-view=true).
+Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 admin center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data&preserve-view=true).
 
 ### News & research
 
@@ -209,7 +209,7 @@ The dashboard displays data for a rolling 28-day period.
 
 **I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
-First, check in the Microsoft 365 Admin Center that you have one of these roles:
+First, check in the Microsoft 365 admin center that you have one of these roles:
 
 * Global Administrator
 * Exchange Administrator
