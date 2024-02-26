@@ -41,12 +41,4 @@ AI tools, in general, are increasingly integrated into the workplace to enhance 
 With the Copilot Impact Survey in Viva Glint, organizations can measure the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI. The Microsoft Copilot Impact Survey is also available in Microsoft Viva Pulse.
 
 > [!div class="nextstepaction"]
-> [Access the Viva Glint Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)https://go.microsoft.com/fwlink/?linkid=2261039)
-
-
-
-
-
-
-
-
+> [Access the Viva Glint Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)
