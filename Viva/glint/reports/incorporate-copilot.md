@@ -15,13 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 11/17/2023
+ms.date: 02/26/2024
 ---
 
 # Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report 
-
->[!IMPORTANT]
->Viva Glint is currently available only for Private Preview customers.  The features described here are subject to change.
 
 Copilot in Viva Glint for comment summarization will soon be available to all Viva Glint customers at all contracting levels (standalone, Workforce Analytics and Employee Feedback mini suite, and Microsoft Viva suite customers). Copilot in Viva Glint is exclusive to the Viva Glint app.  
 
@@ -31,14 +28,18 @@ Copilot in Viva Glint:
 - Provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Viva Glint surveys
 - For leaders and managers with thousands of comments to sift through, Copilot in Viva Glint saves time, providing new ways of understanding employee feedback. 
 
-### A Private preview of Copilot in Viva Glint will begin in January 2024.
+## How does Copilot in Viva Glint differ from other Copilot opportunities?
 
-The full general availability (GA) date for Copilot in Viva Glint will be announced thereafter. Stay tuned!  
-
-> [!Note]
-> Copilot in Viva Glint is separate from Microsoft 365 Copilot and other Microsoft Copilot products. Future Copilot in Viva Glint features may use data from other sources besides Viva Glint and may require additional product licenses.
+Copilot in Viva Glint is separate from Microsoft 365 Copilot and other Microsoft Copilot products. Future Copilot in Viva Glint features may use data from other sources besides Viva Glint and may require additional product licenses.
 
 [Learn more about Copilot for Microsoft 365](https://adoption.microsoft.com/en-us/copilot/)
+
+## Use the Viva Glint Copilot Impact Survey template
+
+> [!div class="nextstepaction"]
+> [Access the Viva Glint Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)https://go.microsoft.com/fwlink/?linkid=2261039)
+
+
 
 
 
