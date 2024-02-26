@@ -41,7 +41,7 @@ If you use a custom time period, Viva Goals will no longer automatically update 
 
 1. Choose an option from the dropdown. The start of the planning year is set to January by default.
 
-![Screenshot showing a user opening the planning year dropdown menu.](../media/goals/2/25/start-of-planning-year.png)
+:::image type="content" alt-text="Screenshot showing a user opening the planning year dropdown menu." source="../media/goals/2/25/start-of-planning-year.png" lightbox="../media/goals/2/25/start-of-planning-year.png":::
 
 ### Add a time period
 
@@ -49,13 +49,13 @@ If you use a custom time period, Viva Goals will no longer automatically update 
 
 1. In the **Time Periods** section of the **Time periods** page, select **Add Time Period**.
 
-    ![Screenshot showing the Time Periods section of the Time periods page.](../media/goals/2/25/time-periods-section.png)
+    :::image type="content" alt-text="Screenshot showing the Time Periods section of the Time periods page." source="../media/goals/2/25/time-periods-section.png" lightbox="../media/goals/2/25/time-periods-section.png":::
 
 1. Give your time period a name, a start date, and an end date.
 
 1. Select **Save**.
 
-    ![Screenshot showing the New Time Period dialog.](../media/goals/2/25/new-time-period.png)
+    :::image type="content" alt-text="Screenshot showing the New Time Period dialog." source="../media/goals/2/25/new-time-period.png" lightbox="../media/goals/2/25/new-time-period.png":::
 
 ### Edit or delete a time period
 
@@ -65,7 +65,7 @@ If you use a custom time period, Viva Goals will no longer automatically update 
 
 1. Select **Edit** or **Delete**.
 
-![Screenshot showing a user opening the More options menu for a time period.](../media/goals/2/25/modify-time-period.png)
+:::image type="content" alt-text="Screenshot showing a user opening the More options menu for a time period." source="../media/goals/2/25/modify-time-period.png" lightbox="../media/goals/2/25/modify-time-period.png":::
 
 ### Set a time period as the current time period
 
