@@ -2,6 +2,32 @@
 
 
 
+## Week of February 19, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/19/2024 | [Key OKR stakeholders and their functions](/viva/goals/define-your-team) | modified |
+| 2/19/2024 | [Viva Goals integrations overview](/viva/goals/integrations-overview) | modified |
+| 2/20/2024 | [Viva Glint's Patient Safety Survey template and methodology](/viva/glint/people-science/patient-safety) | added |
+| 2/20/2024 | [Use Viva Glint's Focus Area Overview report](/viva/glint/reports/focus-area-overview-report) | modified |
+| 2/20/2024 | [Add link to content in Learning Paths](/viva/learning/learning-path-add-link) | added |
+| 2/21/2024 | [Jira Server and Data Center integration for Viva Goals](/viva/goals/jira-on-prem-integration) | modified |
+| 2/21/2024 | [Viva People Science patient safety culture methodology](/viva/glint/people-science/patient-safety) | modified |
+| 2/21/2024 | [Set up a Viva Glint Patient Safety survey](/viva/glint/setup/patient-safety-survey) | modified |
+| 2/21/2024 | [Changing survey item IDs for expired survey cycles](/viva/glint/setup/change-item-id) | added |
+| 2/21/2024 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
+| 2/21/2024 | [Add link to content in Viva Learning](/viva/learning/learning-path-add-link) | modified |
+| 2/22/2024 | [Introducing attribute clones](/viva/insights/advanced/analyst/attribute-clones) | added |
+| 2/22/2024 | [Customize Action Plans in Viva Glint](/viva/glint/setup/customize-action-plans) | modified |
+| 2/22/2024 | [Understand Viva Glint survey access methods](/viva/glint/setup/understand-survey-access-methods) | modified |
+| 2/22/2024 | [Answers in Viva: Frequently asked questions (FAQ)](/viva/engage/eac-answers-faq) | modified |
+| 2/22/2024 | [Set up Answers in Viva](/viva/engage/eac-answers-overview-set-up) | modified |
+| 2/22/2024 | [Viva People Science Patient Safety Culture Survey development methodology](/viva/glint/people-science/patient-safety) | modified |
+| 2/22/2024 | [Set up a Microsoft Viva Glint Patient Safety survey](/viva/glint/setup/patient-safety-survey) | modified |
+| 2/23/2024 | [Microsoft Viva Glint Patient Safety Survey -  methodology](/viva/glint/people-science/patient-safety) | modified |
+
+
 ## Week of February 12, 2024
 
 
@@ -117,27 +143,3 @@
 | 1/25/2024 | [Set up Coaching page in Program Summary](/viva/glint/setup/program-summary-coaching) | modified |
 | 1/26/2024 | [Set up your queries using Copilot](/viva/insights/advanced/analyst/copilot-query) | added |
 | 1/26/2024 | [Set up Viva Glint User Roles](/viva/glint/setup/set-up-user-roles) | modified |
-
-
-## Week of January 15, 2024
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/16/2024 | [Coach managers of small teams to interpret survey results](/viva/glint/reports/coach-managers-small-teams) | added |
-| 1/16/2024 | [Viva Glint employee attribute fundamentals](/viva/glint/setup/attribute-fundamentals) | modified |
-| 1/16/2024 | [Communications setup in Program Summary of Viva Glint](/viva/glint/setup/program-summary-communications) | modified |
-| 1/16/2024 | [Set up Schedule page in Program Summary](/viva/glint/setup/schedule-setup) | modified |
-| 1/16/2024 | [Administrator scenarios for Answers in Viva Engage](/viva/engage/eac-answers-admin-scenarios) | modified |
-| 1/17/2024 | [Copilot in Viva Goals FAQ](/viva/goals/copilot-faq) | modified |
-| 1/17/2024 | [Use Copilot in Viva Goals to create, summarize, and understand goals](/viva/goals/copilot-uses) | modified |
-| 1/17/2024 | [Questions setup in Program Summary of Viva Glint](/viva/glint/setup/questions-setup) | modified |
-| 1/17/2024 | [Overview and set up Copilot in Viva Engage [Public Preview] ](/viva/engage/configure-copilot-for-engage) | added |
-| 1/17/2024 | [Data, Privacy, and Security for Copilot in Viva Engage](/viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage) | added |
-| 1/17/2024 | [Set up attributes in Viva Glint](/viva/glint/setup/send-employee-attributes) | modified |
-| 1/17/2024 | [Adding new survey items and section breaks to a Viva Glint program](/viva/glint/setup/add-new-questions) | added |
-| 1/17/2024 | [Set up Answers in Viva](/viva/engage/eac-answers-overview-set-up) | modified |
-| 1/17/2024 | [Share an update using Goals Broadcast](/viva/goals/goals-broadcast) | modified |
-| 1/18/2024 | [Access the Viva Engage admin center](/viva/engage/eac-as-access-eac) | modified |
-| 1/18/2024 | [Tailor users' survey experience with Viva Glint Display Logic](/viva/glint/setup/viva-glint-display-logic) | modified |
-| 1/19/2024 | [Set up Schedule page in Program Summary](/viva/glint/setup/schedule-setup) | modified |
