@@ -44,13 +44,10 @@ The Diversity and Inclusion template is found in the *Recurring* section on the 
 
 From the admin dashboard, select **Configure*** and then **Survey Programs**.
 Select **+ New Program**.
-Select the Diversity and Inclusion template.
+Select the **Diversity and Inclusion card**.
 
-:::image type="content" source="../../media/glint/setup/.png" alt-text="Screenshot of .":::
-
-
-
+:::image type="content" source="../../media/glint/setup/diversity-inclusion-card.png" alt-text="Screenshot of where to select the Diversity and Inclusion Program template card in *Create a Program*.":::
 
 ## Next Step
 
-[!div class="nextstepaction"] Follow the guidance in **Program Summary** for survey setup
+[!div class="nextstepaction"] Follow the guidance in **Program Summary** to set up your survey.
