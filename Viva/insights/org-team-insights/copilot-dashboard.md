@@ -73,13 +73,13 @@ For those qualifying tenants, only users who meet both of the following criteria
 * The user’s in the top two levels in the organization
 * The user has a significant portion of the organization in their reporting line
 
-The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 Admin Center  and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
+The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 To see how many employees have automatic access to the dashboard and to manage that access, use the process below.
 
 ### Manage access for individual users
 
-In the [Microsoft 365 Admin Center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
+In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
 1. Go to the setup tab and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.  
 
