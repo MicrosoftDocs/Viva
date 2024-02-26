@@ -79,7 +79,7 @@ Announcements are viewable to users from mobile experiences through Viva Connect
 
 Microsoft Teams Channel announcements will also display in the Viva Connections announcements banner on desktop and mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
 
-A Teams Channel announcement notification is displayed in the Viva Connections experience only if:
+A Teams Channel announcement is displayed in the Viva Connections experience only if:
 
 - The user has been assigned a Microsoft 365 F1 or F3 license;
 - Channel mentions are enabled under the Teams Channel notification settings; and
