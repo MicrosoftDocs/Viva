@@ -51,7 +51,7 @@ Attribute column headers (name labels) may be customized. For example, you might
 | **Birth year** | Used to derive age group buckets.<br>Viva Glint standard values: <25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, and 70+ | No | No |
 | **End date** | Employee’s termination date, off-boarding date, last day, and so on. | No | Yes, for Employee Lifecycle Exit surveys |
 
-*Tenure values for files processed after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+*Tenure values for new Viva Glint customers after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 ## Custom attributes
 
