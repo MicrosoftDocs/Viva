@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/14/2024
+ms.date: 02/28/2024
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint
@@ -78,4 +78,7 @@ The Copilot Impact Survey template is found in the *Recurring* section on the *C
 
 :::image type="content" source="../../media/glint/setup/copilot-impact-template-card.png" alt-text="Screenshot of the Recurring program templates available in Viva Glint.":::
 
-[Follow Program Summary guidance to set up your program.](../../glint/setup/program-summary-overview.md)
+### Next step
+
+> [!div class="nextstepaction"]
+> [Follow Program Summary guidance to set up your program.](../../glint/setup/program-summary-overview.md)
