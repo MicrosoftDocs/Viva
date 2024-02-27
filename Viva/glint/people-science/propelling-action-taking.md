@@ -61,7 +61,9 @@ indirect effect on engagement & performance.
 ### Ownership of action is unclear
 
 Everyone agrees that acting on feedback is important. However, oftentimes it’s unclear who is responsible for action taking or the
-necessary actions are unequally distributed. In some organizations, taking action on engagement results is seen as HR’s responsibility. Glint data shows that employees typically expect
+necessary actions are unequally distributed. 
+
+In some organizations, taking action on engagement results is seen as HR’s responsibility. Glint data shows that employees typically expect
 HR and leadership to own the actions that result from survey results, and that’s because, in most organizations, front-line managers don’t
 receive results for their teams. If they do receive results, they receive
 them weeks, if not months, after HR and executives do. While this
@@ -83,7 +85,6 @@ respond to every opportunity surfaced in the results. This is exacerbated
 when surveys are long (40 or more items), giving managers hours of
 work to comb through results and countless problems to fix. Instead of
 feeling empowered, they feel deflated.
-
 
 ### Support and enablement is limited
 
@@ -162,11 +163,11 @@ of a manager’s strengths and growth opportunities.
 - Narrative Intelligence: An award-winning natural language
 processing (NLP) engine that surfaces key themes and associated
 sentiment from comment data so you can better understand
-employee feedback
+employee feedback.
 
 - Action items: curated recommendations for actions that can be
 taken as well as an extensive resource library for how to improve in
-any specific focus area
+any specific focus area.
 
 - Manager Concierge: An in-platform coach that provides step-by-step
 guidance, taking into account the actions a manager has already
@@ -231,9 +232,9 @@ People give lots of excuses for avoiding important conversations. But at
 the heart of it, it’s because:
 
 - It’s not always clear how to facilitate a good conversation, and
-therefore the value is unclear
+therefore the value is unclear.
 
-- Conversations about feedback can feel awkward and/or intimidating
+- Conversations about feedback can feel awkward and/or intimidating.
 
 That’s why we developed the **ACT Conversation Guide**, that serves as
 a simple framework for having productive conversations that foster
