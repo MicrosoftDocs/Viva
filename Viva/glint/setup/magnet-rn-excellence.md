@@ -1,5 +1,5 @@
 ---
-title: Set up a Viva Glint Magnet/RN Excellence survey
+title: Set up a Microsoft Viva Glint Magnet survey
 description: Using the Viva Glint platform, organizations can view invaluable data from their RNs and identify risks and opportunities in real-time.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/23/2024
+ms.date: 02/27/2024
 ---
 
-# Set up a Viva Glint Magnet/RN Excellence survey
+# Set up a Microsoft Viva Glint Magnet survey
 
 Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto an engagement or company survey and analyzed alongside other engagement data.
 
