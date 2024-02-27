@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/27/2024
+ms.date: 02/28/2024
 ---
 
 # Propelling Action-taking through conversations - Viva People Science
@@ -28,12 +28,12 @@ momentum often slows somewhere between “Here’s what we’re going
 to do about your feedback!” and what actually gets done to address
 issues and make positive incremental changes.
 
-## Compelling data points that reveal why action taking is critical 
+## Compelling data points reveal why action taking is critical 
 
 Compelling data points show action taking is critical:
 
 - People who don’t believe action is taken are 7x more likely to
-report being disengaged compared to those people who believe action will
+report being disengaged compared to people who believe action will
 be taken.
 
 - Teams where the manager uses action planning in the Glint
@@ -41,16 +41,15 @@ platform show 7% increased scores on average relative to the
 changes in the company in the areas where the manager took action
 within a quarter.
 
-- Teams that score high on action planning are also more likely to say that they have confidence in the leadership team> They are more likely to be  excited about the future prospects of the company.
+- Teams that score high on action planning are more likely to say that they have confidence in the leadership team. They are more likely to be  excited about the future prospects of the company.
 
-- A single quarter is enough time to see increases in scores across varying teams, when action is taken by managers.
+- A single quarter is enough time to see increases in scores across varying teams when action is taken by managers.
 
 - Regardless of the area on which action is taken, there is a high likelihood that confidence in leadership increases, and this sentiment has an indirect effect on engagement & performance.
 
 ## Why isn't action-taking working today?
 
-:::image type="content" source="../../media/glint/people-science/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action.":::
-
+:::image type="content" source="../../glint/people-science/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action.":::
 
 ### Ownership of action is unclear
 
@@ -198,7 +197,7 @@ is no simple mechanism to hold teams accountable for progress. The
 missing ingredient to creating sustainable focus on taking action on
 feedback is obvious and often overlooked: **Conversations.**
 
-:::image type="content" source="../../media/glint/people-science/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
+:::image type="content" source="../../glint/people-science/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
 
 ### Why do conversations matter?
 
