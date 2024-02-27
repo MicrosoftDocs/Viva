@@ -189,7 +189,7 @@ items:
     items:
      - name: Use validated Viva Glint survey item templates
        items:
-          - name: Microsoft Copilot Impact Survey
+          - name: Microsoft Copilot Impact survey
             href: setup/copilot-impact-template.md
           - name: Quarterly Engagement Survey 
             href: setup/quarterly-engagement-template.md
@@ -200,7 +200,11 @@ items:
           - name: Manager Effectiveness survey
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
-            href: setup/patient-safety-survey.md         
+            href: setup/patient-safety-survey.md
+     - name: Creating non-templated, but commonly used survey types
+       items:
+          - name: Set up a Microsoft Viva Glint Magnet survey
+            href: setup/magnet-rn-excellence.md
      - name: Set up Program Summary for Viva Glint Engagement-type surveys
        href: setup/program-summary-overview.md
        items:
