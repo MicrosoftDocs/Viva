@@ -55,7 +55,7 @@ indirect effect on engagement & performance.
 
 ## Why isn't action-taking working today?
 
-:::image type="content" source="../../media/people-science/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action.":::
+:::image type="content" source="../../media/glint/people-science/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action.":::
 
 
 ### Ownership of action is unclear
@@ -217,7 +217,7 @@ is no simple mechanism to hold the team accountable for progress. The
 missing ingredient to creating sustainable focus on taking action on
 feedback is so obvious, it’s often overlooked: Conversations.
 
-:::image type="content" source="../../media/people-science/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
+:::image type="content" source="../../media/glint/people-science/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
 
 ### Why do conversations matter?
 
