@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/027/2024
+ms.date: 02/27/2024
 ---
 
 # Propelling Action-taking through conversations - Viva People Science
