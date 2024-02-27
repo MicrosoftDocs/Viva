@@ -1,5 +1,5 @@
 ---
-ms.date: 1/16/2024
+ms.date: 2/27/2024
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -181,7 +181,7 @@ For each of these, we recommend allowing users to indicate whether or not they S
 
 Your user survey does not need to be limited to these four statements, but we recommend including them at a minimum for easy comparison with Microsoft’s benchmark results.
 
-**Upload survey results through the Microsoft 365 Admin Center**
+**Upload survey results through the Microsoft 365 admin center**
 
 Microsoft 365 admins can upload survey results through Adoption Score in the Microsoft 365 admin center. The results then appear in the Microsoft Copilot Dashboard. [Learn how to upload survey data](/microsoft-365/admin/adoption/ai-assistance?view=o365-worldwide#upload-survey-data&preserve-view=true).
 
