@@ -14,7 +14,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 09/15/2023
+ms.date: 02/27/2024
 ---
 
 # Use Advanced Configuration Uploads
@@ -28,6 +28,9 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
    - To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
    - Use the guidance in this article to perform a Retroactive USERS_UPLOAD.
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
+
+> [!CAUTION]
+> Uploads performed in Advanced Configuration do not calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
 
 ## Perform a MANAGERS_UPLOAD
 
