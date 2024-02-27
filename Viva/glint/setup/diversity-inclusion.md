@@ -38,7 +38,7 @@ DIBS survey feedback provides:
 - Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences.
 - Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, as well as the ability to derive cross-program insights.
 
-## ## Admin setup for the Microsoft Copilot Impact survey template
+## Admin setup for the Microsoft Copilot Impact survey template
 
 The Diversity and Inclusion template is found in the *Recurring* section on the *Create a Program* page.
 
@@ -46,8 +46,9 @@ From the admin dashboard, select **Configure*** and then **Survey Programs**.
 Select **+ New Program**.
 Select the **Diversity and Inclusion card**.
 
-:::image type="content" source="../../media/glint/setup/diversity-inclusion-card.png" alt-text="Screenshot of where to select the Diversity and Inclusion Program template card in *Create a Program*.":::
+:::image type="content" source="../../media/glint/setup/diversity-inclusion-card.png" alt-text="Screenshot of where to select the Diversity and Inclusion Program template lightbox in Create a Program.":::
 
 ## Next Step
 
-[!div class="nextstepaction"] Follow the guidance in **Program Summary** to set up your survey.
+[!div class="nextstepaction"] 
+[Follow the guidance in **Program Summary** to set up your survey.](../../glint/setup/program-summary-overview.md)
