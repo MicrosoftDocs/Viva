@@ -50,5 +50,5 @@ Select the **Diversity and Inclusion card**.
 
 ## Next Step
 
-[!div class="nextstepaction"] 
-[Follow the guidance in **Program Summary** to set up your survey.](../../glint/setup/program-summary-overview.md)
+> [!div class="nextstepaction"] 
+> [Follow the guidance in **Program Summary** to set up your survey.](../../glint/setup/program-summary-overview.md)
