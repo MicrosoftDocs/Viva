@@ -46,7 +46,7 @@ platform show a 7% increase in scores on average.
 
 ## Why isn't action-taking working today?
 
-:::image type="content" source="../../media/glint/setup/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action." lightbox="../../media/glint/setup/challenges-managers-face-expanded.png":::
+:::image type="content" source="../../media/glint/setup/challenges-managers-face.png" alt-text="Screenshot of the five challenges managers face when trying to take action." lightbox="../../media/glint/setup/challenges-managers-face.png":::
 
 ### Ownership of action is unclear
 
