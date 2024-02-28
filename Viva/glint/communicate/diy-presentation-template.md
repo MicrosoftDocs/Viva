@@ -27,6 +27,8 @@ Use the Viva Glint platform live when presenting results to your leaders wheneve
 > [!div class="nextstepaction"]
 > [Access the DIY Insights presentation template](https://www.microsoft.com/en-us/download/details.aspx?id=105888)
 
+:::image type="content" source="../../media/glint/reports/DIY-template.png" alt-text="Screenshot of the definition of the letters of the ACT acronym.":::
+
 ## Think like a Viva Glint Science Consultant
 
 Read the guidance on slides 3 and 4  to construct the best presentation for your organization.
@@ -35,10 +37,10 @@ Read the guidance on slides 3 and 4  to construct the best presentation for your
 > Yellow boxes on each slide provide guidance as you put the deck together. *Delete them prior to sharing the presentation!*
 
 > [!TIP]
-> Use the desktop PowerPoint app rather than the PowerPoint web browser for a better editing and viewing experience.![image](https://github.com/MicrosoftDocs/Viva-pr/assets/141166658/dab20352-961b-4506-889a-dc5142a66e18)
+> Use the desktop PowerPoint app rather than the PowerPoint web browser for a better editing and viewing experience.
 
 > [!TIP]
-> If manually entering data into your deck, double check all of your numbers! Our sample slides include data showing where to insert your results. Confirm everything is accurate. It sometimes helps to have another set of eyes confirm the data. ![image](https://github.com/MicrosoftDocs/Viva-pr/assets/141166658/7c39841b-4941-4c8c-bf10-17e3bc916fda)
+> If manually entering data into your deck, double check all of your numbers! Our sample slides include data showing where to insert your results. Confirm everything is accurate. It sometimes helps to have another set of eyes confirm the data. 
 
 ## Make a great executive presentation
 
@@ -50,7 +52,7 @@ Review one to two areas of focus only, then move swiftly to action taking with a
 
 Use the ACT framework to outline your presentation
 
-:::image type="content" source="../../media/glint/conversations/act-conversation.png" alt-text="Screenshot of the definition of the letters of the ACT acronym.":::
+:::image type="content" source="../../media/glint/reports/act-conversation.png" alt-text="Screenshot of the definition of the letters of the ACT acronym.":::
 
 #### Acknowledge
 
