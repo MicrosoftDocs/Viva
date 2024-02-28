@@ -31,7 +31,7 @@ Microsoft Viva Glint offers multiple program types, reporting features, and guid
 
 [Set up Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230740)
 
-[Admins setting up Focus Area periods](https://go.microsoft.com/fwlink/?linkid=2261304)
+[Admins setting up Focus Area periods](https://go.microsoft.com/fwlink/?linkid=2262137)
 
 [Use the Viva Glint Question Library](https://go.microsoft.com/fwlink/?linkid=2230918)
 
