@@ -12,13 +12,15 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-navigation
 search.appverid:
 - MET150
 ---
+
 # Introducing Microsoft Viva Engage
 
 Viva Engage brings people together across the organization to connect with leaders, coworkers, and communities. It provides an experience where people can crowdsource answers and ideas, share their work and experience, and find belonging at work.  

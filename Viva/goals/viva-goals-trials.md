@@ -1,5 +1,6 @@
 ---
-title: Start a trial overview
+ms.date: 02/07/2024
+title: Viva Goals trials overview
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -16,22 +17,17 @@ ms.collection:
 - highpri  
 search.appverid:
 - MET150
-description: "Learn how to start a trial with Viva Goals"
+description: "Learn the basics of trying out Viva Goals using trials."
 ---
 
-# Start a trial overview
+# Viva Goals trials overview
 
-This article describes how to set up and run a trial pilot program to deploy Viva Goals to your organization. It also includes Trials checklists to help you walk through the steps and validations to understand the full functionality of Viva Goals.  
+You can use a Viva Goals trial to let your organization try out all the features of Viva Goals before paying for the full product. Trials aren't permanent, but they're a useful way to determine whether Viva Goals would meet your goal management needs. There are two ways to start a trial: you can have your IT admin start it for you, or you can use a self-service trial.
 
-## Start and run a Viva Goals trial
+The following pages can help you get started:
 
-Trials can be a useful way to evaluate if Viva Goals meets your goal management needs. There are two ways to run a trial: through an IT Admin-led trial, or through a self-service trial.   
+- [Use an IT admin-led trial to try out the full version of Viva Goals](it-admin-trials.md): Guidance on how to start and run an IT admin-led trial.
 
-The following pages can help you to get started:
+- [Use a self-service trial to try out the full version of Viva Goals](self-service-trials.md): Guidance on how to start and run a self-service trial.
 
-- [IT Admin-led trials](it-admin-trials.md)
-    - Guidance on how to start and run an IT Admin-led trial 
-- [Self-service trials](self-service-trials.md)
-    - Guidance on how to start and run a self-service trial 
-- [Trial Checklist](trials-checklist.md)
-    - Step-by-step guidance and best practices for running and validating a Viva Goals Trial  
+- [Trial checklist](trials-checklist.md): A step-by-step guide for running and validating a Viva Goals trial, including best practices.

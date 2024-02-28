@@ -1,5 +1,5 @@
 ---
-ms.date: 11/20/2023
+ms.date: 01/30/2024
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -13,6 +13,8 @@ ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:
+  - essentials-navigation
+  - essentials-overview
   - Strat_SP_modern
   - M365-collaboration
   - m365initiative-viva-connections
@@ -29,6 +31,8 @@ description: "Learn how to use Viva Connections to engage and unite your organiz
 # Overview of Viva Connections
 
 Microsoft Viva Connections is your gateway to a modern employee experience and is designed to keep everyone engaged and informed. Viva Connections is a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4THB8 title="Stay empowered"]
 
 > [!NOTE]
 >
@@ -57,7 +61,7 @@ Viva Connections is composed of three primary components - the feed, the dashboa
 > [!NOTE]
 >
 > - Components are expected to display slightly differently between desktop and mobile devices until Q2 of 2024.
-> - The Connections feed web part is planned to be depreciated in Q1 2024.
+> - The Connections feed web part is planned to be deprecated in Q1 2024.
 > - The News spotlight currently only displays updates from the home site. A future update is planned to include updates from organizational news sites.
 
 | Component                  | Description                 |

@@ -2,7 +2,7 @@
 title: FAQs for Configuring Workday in Microsoft Viva Learning 
 ms.author: bhaswatic
 author: bhaswatic
-manager: pamgreen
+manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/08/2023
 audience: admin
@@ -78,21 +78,7 @@ Go to the task “View API Client”. You can select on the client under “API 
 
 **13.	How can I filter the providers integrated into Workday in Catalog RaaS?**
 
-- **Option 1:** Filter on the RaaS report. This makes sure that only the courses you want are syncing Viva Learning.
-
-![A screenshot of the filters on the RaaS report that ensures that only your specified sources are syncing with Viva Learning.](/viva/media/learning/workday-FAQ-2.png)
-
-
-- **Option 2**: Disable the provider channel on the Workday portal.
-
-    - Go to the task “Configure External content provider”
-    
-    - Select the provider.
-    
-    - Select **Deselect All** under **channels**.
-    - This removes the course from both Workday and Viva Learning
-
-![A screenshot of the configure external content provider option with the "deselect all" checkbox highlighted.](/viva/media/learning/workday-FAQ-3.png)
+This scenario is not supported.
 
 **14. How can I test the outcome once the report is created. Can I execute it and see the results?**
 

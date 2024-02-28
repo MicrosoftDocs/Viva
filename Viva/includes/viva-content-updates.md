@@ -2,99 +2,144 @@
 
 
 
-## Week of January 01, 2024
+## Week of February 19, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 1/2/2024 | Troubleshoot your Viva Engage network for Native Mode for Microsoft 365 | removed |
-| 1/2/2024 | Sign-in error when selecting the Viva Engage tile in Microsoft 365 | removed |
-| 1/2/2024 | What to do when users can't sign in to Viva Engage on Android devices | removed |
-| 1/2/2024 | [Set up Viva Engage as a multitenant organization](/viva/engage/mto-setup) | modified |
-| 1/2/2024 | [Export Viva Insights data using MGDC](/viva/insights/advanced/admin/dynamic-metric-load) | modified |
-| 1/3/2024 | [Set up Viva Engage for a multitenant organization](/viva/engage/mto-setup) | modified |
-| 1/3/2024 | [Post-survey coaching for managers of small teams interpreting survey results](/viva/glint/reports/post-survey-coaching-small-teams) | added |
-| 1/3/2024 | [Copilot in Viva Goals FAQ](/viva/goals/copilot-faq) | added |
-| 1/3/2024 | [Introduction to Copilot for Viva Goals](/viva/goals/copilot-intro) | added |
-| 1/3/2024 | [Use Copilot for Viva Goals to create, summarize, and understand goals](/viva/goals/copilot-uses) | added |
-| 1/3/2024 | Error messages in Viva Insights | removed |
-| 1/4/2024 | [Use the Power BI connector](/viva/insights/advanced/analyst/power-bi-connector) | modified |
-| 1/4/2024 | [How users access Viva Pulse](/viva/pulse/setup-admin-access/access-pulse-via-teams-or-web) | modified |
-| 1/5/2024 | [Include a Viva Engage feed in a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site) | modified |
-| 1/5/2024 | [Integrate Viva Engage with other applications](/viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications) | modified |
-| 1/5/2024 | [SharePoint enterprise social experience - Viva Engage and Newsfeed](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed) | modified |
+| 2/19/2024 | [Key OKR stakeholders and their functions](/viva/goals/define-your-team) | modified |
+| 2/19/2024 | [Viva Goals integrations overview](/viva/goals/integrations-overview) | modified |
+| 2/20/2024 | [Viva Glint's Patient Safety Survey template and methodology](/viva/glint/people-science/patient-safety) | added |
+| 2/20/2024 | [Use Viva Glint's Focus Area Overview report](/viva/glint/reports/focus-area-overview-report) | modified |
+| 2/20/2024 | [Add link to content in Learning Paths](/viva/learning/learning-path-add-link) | added |
+| 2/21/2024 | [Jira Server and Data Center integration for Viva Goals](/viva/goals/jira-on-prem-integration) | modified |
+| 2/21/2024 | [Viva People Science patient safety culture methodology](/viva/glint/people-science/patient-safety) | modified |
+| 2/21/2024 | [Set up a Viva Glint Patient Safety survey](/viva/glint/setup/patient-safety-survey) | modified |
+| 2/21/2024 | [Changing survey item IDs for expired survey cycles](/viva/glint/setup/change-item-id) | added |
+| 2/21/2024 | [Microsoft Viva # < 60 chars](/viva/index) | modified |
+| 2/21/2024 | [Add link to content in Viva Learning](/viva/learning/learning-path-add-link) | modified |
+| 2/22/2024 | [Introducing attribute clones](/viva/insights/advanced/analyst/attribute-clones) | added |
+| 2/22/2024 | [Customize Action Plans in Viva Glint](/viva/glint/setup/customize-action-plans) | modified |
+| 2/22/2024 | [Understand Viva Glint survey access methods](/viva/glint/setup/understand-survey-access-methods) | modified |
+| 2/22/2024 | [Answers in Viva: Frequently asked questions (FAQ)](/viva/engage/eac-answers-faq) | modified |
+| 2/22/2024 | [Set up Answers in Viva](/viva/engage/eac-answers-overview-set-up) | modified |
+| 2/22/2024 | [Viva People Science Patient Safety Culture Survey development methodology](/viva/glint/people-science/patient-safety) | modified |
+| 2/22/2024 | [Set up a Microsoft Viva Glint Patient Safety survey](/viva/glint/setup/patient-safety-survey) | modified |
+| 2/23/2024 | [Microsoft Viva Glint Patient Safety Survey -  methodology](/viva/glint/people-science/patient-safety) | modified |
 
 
-## Week of December 18, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 12/18/2023 | [Access to Viva Glint raw survey responses](/viva/glint/setup/employee-raw-data-export) | modified |
-| 12/18/2023 | [Link previews in Teams](/viva/goals/ms-teams-link-preview) | modified |
-| 12/18/2023 | Viva Engage update on Internet Explorer 11 changes coming in August 2021 | removed |
-| 12/19/2023 | [Program setup in Program Summary](/viva/glint/setup/program-set-up) | modified |
-| 12/19/2023 | [Understand Viva Glint Advanced Configuration](/viva/glint/setup/understand-advanced-configuration) | modified |
-| 12/19/2023 | [Four stages of Viva Glint programs](/viva/glint/start/four-stages-glint-program) | modified |
-| 12/19/2023 | Best practices for managers | removed |
-| 12/19/2023 | Best practices for collaboration across groups | removed |
-| 12/19/2023 | Best practices for coaching | removed |
-| 12/19/2023 | Best practices about efficient communication | removed |
-| 12/19/2023 | Best practices for manager connectedness | removed |
-| 12/19/2023 | Best practices for focused work | removed |
-| 12/19/2023 | Manager insights documentation # < 60 chars | removed |
-| 12/19/2023 | Microsoft Viva Insights for managers in Microsoft Teams | removed |
-| 12/19/2023 | Best practices for supporting your team's wellbeing | removed |
-| 12/19/2023 | [Use Viva Glint benchmarks](/viva/glint/setup/benchmarks) | modified |
-| 12/21/2023 | [Use a company-wide organization to simplify joining and collaborating in Viva Goals](/viva/goals/company-wide-organization) | added |
-| 12/21/2023 | [FAQs for Configuring Workday in Microsoft Viva Learning](/viva/learning/workday-integration-faqs) | added |
-| 12/21/2023 | [Configure Workday in Microsoft Viva Learning](/viva/learning/workday-integration) | added |
-
-
-## Week of December 11, 2023
+## Week of February 12, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/11/2023 | [Set up admins in up Viva Glint instance](/viva/glint/setup/post-provisioning-next-steps) | modified |
-| 12/11/2023 | [Add SharePoint as a learning content source for Microsoft Viva Learning](/viva/learning/configure-sharepoint-content-source) | modified |
-| 12/11/2023 | [Provider Permissions](/viva/learning/provider-permissions) | added |
-| 12/12/2023 | [Use Viva Glint to act on Strengths and Opportunities](/viva/glint/reports/act-strengths-opportunities) | modified |
-| 12/12/2023 | [How Viva Glint helps you protect your privacy](/viva/glint/setup/viva-glint-survey-privacy) | modified |
-| 12/13/2023 | [Viva People Science - Philosophy on appropriate use of benchmarks as comparisons](/viva/glint/setup/people-science-benchmark-philosophy) | added |
-| 12/13/2023 | [Enable inline playback](/viva/learning/sfsf-enable-inline-playback) | renamed |
-| 12/14/2023 | Support the employee experience with tools for specific roles, like Sales, Marketing, and Customer Service. | removed |
-| 12/14/2023 | [Environment requirements for Viva Insights](/viva/insights/advanced/setup-maint/environment-requirements) | modified |
-| 12/14/2023 | [Customize terminology in Viva Goals](/viva/goals/customize-terminology) | added |
-| 12/14/2023 | [Use Viva Glint benchmarks](/viva/glint/setup/benchmarks) | modified |
-| 12/14/2023 | [Set up Viva Engage as a multitenant organization](/viva/engage/mto-setup) | added |
-| 12/15/2023 | [Microsoft Viva - Feature access management](/viva/feature-access-management) | modified |
-| 12/15/2023 | [Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report](/viva/glint/reports/incorporate-copilot) | modified |
-| 12/15/2023 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
-| 12/15/2023 | [Add Viva Goals to Microsoft Teams](/viva/goals/configure-ms-teams-integration) | modified |
-| 12/15/2023 | [Link previews in Teams](/viva/goals/ms-teams-link-preview) | modified |
-| 12/15/2023 | Renaming initiatives | removed |
+| 2/12/2024 | [Set up your platform as a Viva Glint admin](/viva/glint/setup/setup-platform-admin) | modified |
+| 2/12/2024 | [Viva Glint badging](/viva/glint/start/viva-glint-badging) | modified |
+| 2/12/2024 | [Deep linking into Viva Engage](/viva/engage/deeplinks) | modified |
+| 2/12/2024 | [Power BI tips, FAQ, and troubleshooting](/viva/insights/advanced/analyst/templates/power-bi-faq-troubleshoot) | modified |
+| 2/13/2024 | [Plan for scheduled monthly platform releases and shutdowns](/viva/glint/setup/monthly-release-dates) | added |
+| 2/13/2024 | [Support participants during a live Viva Glint survey](/viva/glint/communicate/support-survey-participants) | added |
+| 2/13/2024 | [Focus Area period feature setup](/viva/glint/setup/focus-area-period-feature) | added |
+| 2/13/2024 | [Viva Glint aggregate grouping - trends and best practices](/viva/glint/reports/aggregate-trending) | modified |
+| 2/13/2024 | Plan ahead for scheduled monthly Viva Glint maintenance shutdowns | removed |
+| 2/13/2024 | [Set up Viva Glint User Roles](/viva/glint/setup/set-up-user-roles) | modified |
+| 2/13/2024 | [Four stages of a Viva Glint program](/viva/glint/start/four-stages-glint-program) | modified |
+| 2/14/2024 | [Benchmarks in Viva Engage analytics](/viva/engage/benchmarking) | added |
+| 2/14/2024 | [LinkedIn Learning seamless login](/viva/learning/linkedin-seamless) | added |
+| 2/14/2024 | [Microsoft Copilot Impact Survey template in Viva Glint](/viva/glint/setup/copilot-impact-template) | added |
+| 2/14/2024 | [Viva Glint program types and associated templates](/viva/glint/start/program-types-templates) | modified |
+| 2/15/2024 | [Viva Glint FAQs for survey participants](/viva/glint/communicate/survey-taker-faq) | added |
+| 2/15/2024 | [Viva People Science - Philosophy on appropriate use of benchmarks as comparisons](/viva/glint/people-science/people-science-benchmark-philosophy) | renamed |
+| 2/15/2024 | [Introduce Viva Glint survey taking to your employees](/viva/glint/communicate/survey-taking-for-employees) | modified |
+| 2/15/2024 | [Viva Glint program types and associated templates](/viva/glint/start/program-types-templates) | modified |
+| 2/16/2024 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
+| 2/16/2024 | You can't migrate a Yammer network across Office 365 tenants | removed |
+| 2/16/2024 | Upgrade your network to stand-alone Yammer Enterprise subscription | removed |
+| 2/16/2024 | A Yammer user is displayed as "Former member" when you use Office 365 sign in for Yammer | removed |
+| 2/16/2024 | [Customize and edit the Viva Connections home experience](/viva/connections/edit-viva-home) | modified |
+| 2/16/2024 | [Configure personal insights defaults](/viva/insights/advanced/setup-maint/configure-personal-insights) | modified |
 
 
-## Week of December 04, 2023
+## Week of February 05, 2024
 
 
 | Published On |Topic title | Change |
 |------|------------|--------|
-| 12/4/2023 | [Introduction to Microsoft Viva Goals](/viva/goals/intro-to-ms-viva-goals) | modified |
-| 12/4/2023 | [Benefits of OKRs](/viva/goals/benefits-of-okrs) | added |
-| 12/4/2023 | [Ensuring OKR program success](/viva/goals/ensuring-okr-success) | added |
-| 12/4/2023 | [OKR superpowers](/viva/goals/okr-superpowers) | added |
-| 12/5/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
-| 12/5/2023 | [Manage Skills Library](/viva/skills/manage-skills-library) | added |
-| 12/5/2023 | [Set up Skills in Viva](/viva/skills/skills-get-started) | added |
-| 12/5/2023 | [Overview of Skills in Viva](/viva/skills/skills-overview) | added |
-| 12/6/2023 | [Use Viva Glint benchmarks](/viva/glint/setup/benchmarks) | modified |
-| 12/6/2023 | [Viva Glint Manager Quick Guides](/viva/glint/setup/manager-quick-guides-overview) | added |
-| 12/6/2023 | [Manager Quick Guide - Confidentiality](/viva/glint/setup/quick-guide-confidentiality) | added |
-| 12/6/2023 | [Determine your rollout plan](/viva/goals/determine-your-rollout-plan) | modified |
-| 12/6/2023 | [Connect to the Microsoft Copilot Dashboard (Preview)](/viva/insights/org-team-insights/copilot-dashboard) | modified |
-| 12/7/2023 | [Communicate with Viva Glint users based on time zone](/viva/glint/setup/time-zones) | added |
-| 12/7/2023 | [Use Microsoft 365 Groups permissions with SharePoint content in Viva Learning](/viva/learning/sharepoint-permissions) | modified |
-| 12/8/2023 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
-| 12/8/2023 | [Content tagging and content metadata export](/viva/learning/content-tagging) | added |
+| 2/5/2024 | [Admins exporting Response Rates & Access report](/viva/glint/reports/response-access) | added |
+| 2/5/2024 | [Setting up a successful program with your Works Council](/viva/glint/setup/works-council) | added |
+| 2/5/2024 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
+| 2/5/2024 | [Viva Glint badging](/viva/glint/start/viva-glint-badging) | added |
+| 2/5/2024 | [Viva Glint Licensing](/viva/glint/setup/glint-order-teams) | modified |
+| 2/5/2024 | [How People Science works with Viva Glint](/viva/glint/start/people-science-viva-glint) | modified |
+| 2/6/2024 | [Introduce Viva Glint survey taking to your employees](/viva/glint/communicate/survey-taking-for-employees) | modified |
+| 2/6/2024 | [Create change management queries](/viva/insights/advanced/analyst/change-management-queries) | added |
+| 2/6/2024 | [Uncover network collaboration insights](/viva/insights/advanced/analyst/network-collaboration-insights) | added |
+| 2/6/2024 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | modified |
+| 2/7/2024 | [Focus Area periods](/viva/glint/reports/focus-area-periods) | added |
+| 2/7/2024 | [Question mapping](/viva/glint/setup/question-mapping) | added |
+| 2/7/2024 | [Customize Action Plans in Viva Glint](/viva/glint/setup/customize-action-plans) | modified |
+| 2/7/2024 | [Access to Viva Glint raw survey responses](/viva/glint/setup/employee-raw-data-export) | modified |
+| 2/7/2024 | [Use the Viva Glint Question Library](/viva/glint/setup/question-library) | modified |
+| 2/7/2024 | [Viva People Science explains focus areas and action planning](/viva/glint/reports/people-science-explains-focus-areas) | added |
+| 2/7/2024 | [Use Leader reports to uncover key business outcomes](/viva/insights/org-team-insights/leader-reports) | added |
+| 2/7/2024 | [Organization insights in the Viva Insights app](/viva/insights/org-team-insights/org-insights) | modified |
+| 2/8/2024 | [View and manage analytics in Viva Engage](/viva/engage/analytics) | modified |
+| 2/8/2024 | [Viva Goals trials overview](/viva/goals/viva-goals-trials) | modified |
+| 2/9/2024 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 2/9/2024 | [Use Viva Glint's Focus Area Overview report](/viva/glint/reports/focus-area-overview-report) | modified |
+| 2/9/2024 | [Viva Glint program types and associated templates](/viva/glint/start/program-types-templates) | modified |
+| 2/9/2024 | [Add other content providers for Microsoft Viva Learning](/viva/learning/configure-other-content-sources) | modified |
+
+
+## Week of January 29, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/29/2024 | [Add, edit, and remove cards from the Viva Connections dashboard](/viva/connections/create-dashboard) | modified |
+| 1/29/2024 | [Set up Viva Connections in the Microsoft 365 admin center](/viva/connections/set-up-admin-center) | modified |
+| 1/29/2024 | [View and customize your general settings](/viva/insights/advanced/admin/general-settings) | added |
+| 1/30/2024 | [Manage external users in Viva Glint](/viva/glint/setup/add-external-user) | modified |
+| 1/30/2024 | [Viva Glint Learning Paths and modules](/viva/glint/start/viva-glint-learning-paths-and-modules) | modified |
+| 1/30/2024 | [Export User Roles from the People feature](/viva/glint/setup/export-user-roles) | added |
+| 1/30/2024 | Import and export Viva Glint User Roles | removed |
+| 1/31/2024 | [Data residency for Viva Engage](/viva/engage/manage-security-and-compliance/data-residency) | modified |
+| 1/31/2024 | [Understand Viva Glint Advanced Configuration](/viva/glint/setup/understand-advanced-configuration) | modified |
+| 1/31/2024 | [Use a self-service trial to try out the full version of Viva Goals](/viva/goals/self-service-trials) | modified |
+| 1/31/2024 | [Growth, inclusion and engagement Power BI report](/viva/insights/advanced/analyst/templates/growth-inclusion-engagement) | renamed |
+| 1/31/2024 | [Work with external groups in Viva Engage networks not aligned to Native Mode](/viva/engage/work-with-external-users/create-and-manage-external-groups) | modified |
+| 2/1/2024 | [Identify leaders and manage audiences in Viva Engage](/viva/engage/leadership-identification) | modified |
+| 2/1/2024 | [FAQs in SharePoint](/viva/learning/sharepoint-faq) | modified |
+| 2/1/2024 | [FAQs for Configuring Workday in Microsoft Viva Learning](/viva/learning/workday-integration-faqs) | modified |
+| 2/1/2024 | [Set up official campaigns in Viva Engage](/viva/engage/campaigns) | modified |
+| 2/1/2024 | [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data) | modified |
+| 2/2/2024 | [Use announcements in Viva Connections](/viva/connections/announcements-viva-connections) | modified |
+| 2/2/2024 | [File rules and validation errors](/viva/insights/advanced/admin/rules-validation-errors) | modified |
+| 2/2/2024 | [Upload organizational data (subsequent upload)](/viva/insights/advanced/admin/upload-org-data-subsequent) | modified |
+
+
+## Week of January 22, 2024
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 1/22/2024 | [Reporting setup in Program Summary of Viva Glint](/viva/glint/setup/reporting-setup) | modified |
+| 1/22/2024 | [Work with AzureAD-B2B guests in Viva Engage communities](/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage) | modified |
+| 1/22/2024 | [Admin management of the General Settings feature in Viva Glint](/viva/glint/setup/manage-general-settings) | modified |
+| 1/22/2024 | [Communications setup in Program Summary](/viva/glint/setup/program-summary-communications) | modified |
+| 1/22/2024 | [Personal insights in Viva Insights privacy guide for admins](/viva/insights/personal/overview/privacy-guide-admins) | modified |
+| 1/22/2024 | [Granular access controls for Viva Pulse](/viva/pulse/setup-admin-access/granular-access-controls) | added |
+| 1/23/2024 | [Choose a data upload method](/viva/glint/setup/choose-upload-method) | added |
+| 1/23/2024 | [Set up and use Distribution Lists in Viva Glint](/viva/glint/setup/set-up-distribution-lists) | modified |
+| 1/23/2024 | [Upload your employee attributes in Viva Glint](/viva/glint/setup/upload-employee-attributes) | modified |
+| 1/23/2024 | [Share an update using Goals Broadcast](/viva/goals/goals-broadcast) | modified |
+| 1/23/2024 | [FAQs in SharePoint](/viva/learning/sharepoint-faq) | added |
+| 1/24/2024 | [Opting into external benchmarks](/viva/glint/setup/opting-into-external-benchmarks) | added |
+| 1/24/2024 | [Set up Viva Engage](/viva/engage/setup) | modified |
+| 1/24/2024 | [Customize Action Plans in Viva Glint](/viva/glint/setup/customize-action-plans) | modified |
+| 1/24/2024 | [Introducing Org Explorer](/viva/people-in-viva/introducing-org-explorer) | modified |
+| 1/25/2024 | [Set up resource guidance for managers using Team Conversations](/viva/glint/reports/team-conversations-resource-guidance) | added |
+| 1/25/2024 | [Set Team Conversations Presentation Kit for managers](/viva/glint/reports/coaching-team-conversations) | modified |
+| 1/25/2024 | [Set up Coaching page in Program Summary](/viva/glint/setup/program-summary-coaching) | modified |
+| 1/26/2024 | [Set up your queries using Copilot](/viva/insights/advanced/analyst/copilot-query) | added |
+| 1/26/2024 | [Set up Viva Glint User Roles](/viva/glint/setup/set-up-user-roles) | modified |

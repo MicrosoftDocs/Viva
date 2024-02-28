@@ -3,8 +3,8 @@ title: "Admin roles and tasks in Microsoft Viva"
 ms.reviewer: 
 ms.author: elizapo
 author: lizap
-manager: pamgreen
-ms.date: 07/18/2023
+manager: elizapo
+ms.date: 01/08/2024
 audience: Admin
 f1.keywords:
 - NOCSH

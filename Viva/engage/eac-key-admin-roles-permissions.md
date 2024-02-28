@@ -12,10 +12,11 @@ f1.keywords:
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-manage
 search.appverid:
 - MET150
 ---
@@ -33,7 +34,7 @@ To perform administrative tasks in Viva Engage, a user must be assigned an admin
 | **[Verified admin](#verified-admin)** | Configures the Viva Engage network. Performs tasks with legal implications for stored data in Viva Engage. These tasks include: configuring security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | Yammer admin center |
 | **[Network admin](#network-admin)**| Configures the Viva Engage network. | Yammer admin center|
 | **[Answers admin](#answers-admin)**| Configures Answers in Viva Engage. Performs tasks such as featuring topics and enabling badges. |Microsoft Entra ID |
-| **[Corporate communicator](#corporate-communicator)**| Creates and manages campaigns, define leaders, and manages content across the organization. | Viva Engage admin center |
+| **[Corporate communicator](#corporate-communicator)**| Creates and manages official campaigns, defines leaders, and manages content across the organization. | Viva Engage admin center |
 | **[Community admin](#community-admin)**| Manages day-to-day activity (including usage) within a community to keep it engaged and productive.| Viva Engage community page |
 | **[Office 365 report reader](#office-365-report-reader)**| Views reports showing overall Viva Engage usage. This role is helpful for anyone assigned to improve and monitor Viva Engage adoption. | Microsoft 365 |
 
@@ -119,9 +120,9 @@ The actions available to the corporate communicator, Engage (Yammer) admin, and 
 
 |Permissions for the corporate communicator role, Engage admin role, and Microsoft 365 Global administrator role |Microsoft 365 customer with Viva Engage core |Microsoft Viva Suite customer|
 |----------------------|:-:|:-:|
-|**Identify leaders**: <br> Manages their audience and delegates | |✓|
+|**Identify leaders**: <br> Defines leaders, manages their audiences and delegates | |✓|
 |**Create campaigns**| |✓|
-|**Manage campaigns via**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns | |✓|
+|**Manage campaigns**: <br> Publishes active campaigns; ends active campaigns; republishes ended campaigns; deletes campaigns; removes posts as needed | |✓|
 |**View campaign analytics**| |✓|
 
 ## Community admin
