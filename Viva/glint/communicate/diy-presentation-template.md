@@ -27,14 +27,14 @@ Use the Viva Glint platform live when presenting results to your leaders wheneve
 > [!div class="nextstepaction"]
 > [Access the DIY Insights presentation template](https://www.microsoft.com/en-us/download/details.aspx?id=105888)
 
-:::image type="content" source="../../media/glint/reports/DIY-template.png" alt-text="Screenshot of the definition of the letters of the ACT acronym.":::
+:::image type="content" source="../../media/glint/reports/diy-insights-review-template.png" alt-text="Screenshot of the PowerPoint deck for the DIY Insights Review.":::
 
 ## Think like a Viva Glint Science Consultant
 
 Read the guidance on slides 3 and 4  to construct the best presentation for your organization.
 
 > [!TIP]
-> Yellow boxes on each slide provide guidance as you put the deck together. *Delete them prior to sharing the presentation!*
+> Yellow boxes on each slide provide guidance as you put the deck together. *Delete the yellow boxes prior to sharing the presentation!*
 
 > [!TIP]
 > Use the desktop PowerPoint app rather than the PowerPoint web browser for a better editing and viewing experience.
@@ -56,22 +56,22 @@ Use the ACT framework to outline your presentation
 
 #### Acknowledge
 
-We recommend presenting a high-level overview of your results and then going into key themes, which are usually a deep dive on opportunities to improve. We suggest showing no more than 1-2 opportunities from your survey. 
+- Present a high-level overview of your results and then going into key themes, which are usually a deep dive on opportunities to improve. We suggest showing no more than 1-2 opportunities from your survey. 
 
-For each survey theme, we suggest 1-2 slides to help tell your story. Pairing quantitative data (e.g. item scores, heatmaps or alerts) with comment examples will bring your story to life. 
+- For each survey theme, use 1-2 slides to help tell your story. Pairing quantitative data (e.g. item scores, heatmaps or alerts) with comment examples will bring your story to life. 
 
-It may be helpful to have external comparisons, so we suggest visiting Viva Glint's blog to incorporate aggregate our data into your presentation if needed. The recurring Viva Glint Employee Well-Being report is a great source of insightful and timely information. 
+- Consider using external comparisons. Visit Viva Glint's blog to incorporate aggregate data into your presentation. The recurring Viva Glint Employee Well-Being report is a great source of insightful and timely information. 
 
 Rather than relying on this PowerPoint deck for your conversation, we suggest only having a few slides and then going live into the platform to uncover insights live with your group.
 
 > [!TIP]
 > Save reports for specific survey items with filters applied right in the platform, so you are ready to go! 
 
-#### Collaborate: 
+#### Collaborate
 
 Facilitate a conversation around selecting one area to focus on as a group.
 
-#### Take one step forward: 
+#### Take one step forward
 
 During this section, the facilitator should assign next steps, roles, and responsibilities. 
 
