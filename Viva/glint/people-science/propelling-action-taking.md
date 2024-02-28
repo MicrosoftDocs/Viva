@@ -33,8 +33,7 @@ issues and make positive incremental changes.
 Compelling data points show action taking is critical:
 
 - People who don't believe action is taken are 7x more likely to
-report being disengaged than people who don't believe action will
-be taken.
+be disengaged than people who don't believe action is taken.
 
 - Teams where the manager uses action planning in the Glint
 platform show a 7% increase in scores on average.
@@ -55,16 +54,15 @@ Everyone agrees that acting on feedback is important. However, often it’s uncl
 necessary actions are unequally distributed. 
 
 In some organizations, taking action on engagement results is seen as HR’s responsibility. Glint data shows that employees typically expect
-HR and leadership to own the actions that result from survey results. That result is not unexpected as in many organizations, front-line managers don’t
-receive results for their teams. If they do receive results, they receive them weeks, if not months, after HR and executives do. This
-is often viewed as a good practice because it gives each level of
-leadership time to synthesize results and prepare responses. It also, however, signals
+HR and leadership to own the actions that result from survey results. That result isn't unexpected as in many organizations, front-line managers don’t
+receive results for their teams. If they do receive results, they receive them weeks or months later. This is often viewed as a good practice because it gives each level of
+leadership time to synthesize results and prepare responses. Inadvertently, it signals
 to managers that engagement data is not theirs to own and improve.
 As a result, managers often shift the responsibility of acting and
-communicating actions to leadership and HR. For this reason, HR teams feel responsible for addressing all the feedback that has surfaced during an engagement survey and that feeling can be overwhelming for already stretched teams. Finally,
+communicating actions to leadership and HR. For this reason, HR teams feel responsible for addressing all the feedback during an engagement survey and that feeling is overwhelming for already stretched teams. Finally,
 limited interaction between senior leadership and employees means that employees have less visibility into the actions being taken.
 
-Even in organizations that have shifted some ownership to
+Even in organizations where ownership is shifted to
 front-line managers, challenges still exist. Managers often believe that
 they bear the entire responsibility of action-taking and that they must
 respond to every opportunity surfaced in the results. This result is more obvious
@@ -194,7 +192,7 @@ is no simple mechanism to hold teams accountable for progress. The
 missing ingredient to creating sustainable focus on taking action on
 feedback is obvious and often overlooked: **Conversations.**
 
-:::image type="content" source=""../../media/glint/setup/conversations-matter.png alt-text="Screenshot of the five reasons that conversations matter.":::
+:::image type="content" source=""../../media/glint/setup/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
 
 ### Why do conversations matter?
 
@@ -247,8 +245,8 @@ safety to have conversations that matter.
 
 ### ACT conversations help employees appreciate each other and reinforce the positive
 
-Feedback is a gift and we need to encourage it. That’s why in **Acknowledge,**
-we encourage sharing stories of positive progress you’ve witnessed in the last few months. This method ensures you focus on the
+Feedback is a gift and we need to encourage it. **Acknowledge,**tips
+encourage sharing stories of positive progress in the last few months. This method ensures you focus on the
 positive in addition to what needs to improve.
 
 ### ACT conversations drive focus
@@ -261,8 +259,8 @@ and resources are often diluted and nothing fundamentally changes.
 
 We commonly hear managers say “If we asked the question in a survey,
 we have a responsibility to address it.” We don’t believe that to be true.
-Employees understand that everyone is busy and that resources are limited, so as long as they can play a part in prioritizing and they see
-progress, they know feedback is valued.
+Employees understand that everyone is busy and that resources are limited. So as long as they play a part in prioritizing and they see
+progress, they know their feedback is valued.
 Additionally, most items in Glint surveys are statistically correlated, which
 means that if you improve one item, you are likely to see other items
 improve. With **Collaborate** prompts, teams can laser focus
@@ -275,8 +273,7 @@ It’s common for eager teams to tackle a problem by creating a new solution
 to address it. With the right intentions, we add new things to do
 without taking anything away. Often, change requires as much undoing
 as doing. In the **Collaborate** phase, we ask teams to discuss
-what behaviors we need to start, stop, continue. It’s especially critical
-to talk openly about what we need to stop doing. This is important for 2
+what behaviors we need to start, stop, continue. Talk openly about what we need to stop doing. This method is important for two
 reasons: it creates focus and it makes it okay for team members to dissent
 and be open and proactive about derailers.
 
@@ -301,7 +298,7 @@ encourage deconstructing what we need to start, stop, and continue
 doing to improve outcomes. By transparently surfacing lessons learned,
 we can grow together rather than defaulting to fixed mindset triggers
 that cause defensiveness. In the **Take one step forward** phase, teams commit
-to when they will check in again, signaling this initial chat is not the end of the
+to when they check in again, signaling an initial chat is not the end of the
 conversation.
 
 ### Create an agile, continuous improvement mindset
@@ -338,15 +335,13 @@ three bullet points after each leadership meeting with key points for people to 
 ## Are ACT conversations just one more thing we have to do?
 
 No! We know leaders and managers — really all of us — are already too
-busy. Creating what feels like additional work is a recipe for
+busy. Creating what feels like more work is a recipe for
 failure. If you want acting on survey feedback to be integrated into the
 “way we do things around here," avoid these common pitfalls:
 
-### Making action planning a separate meeting
+### Should action planning be a separate meeting?
 
-Creating more meetings is not the answer. In fact, if this is a separate meeting, it’s
-likely it will get deprioritized in the face of many other agenda items.
-Make this part of your regular team meetings. Check-ins don’t have to be long. They can take up to 30 minutes of
+Creating more meetings is not the answer. Make this topic part of your regular team meetings. Check-ins don’t have to be long. They can take up to 30 minutes of
 your regular meeting when new survey results are out. From then on, a quick 10-15 minute check on progress to
 is enough.
 
@@ -359,14 +354,12 @@ strategic objectives, working on something new and working effectively becomes a
 
 ## What is the manager's role?
 
-**Driving engagement and performance is a team sport.** Leadership
- has a role to play in influencing many key drivers such as:
-decision-making, collaboration, prospects, and urpose. When these items show up as system-wide focus areas, it’s becomes clear that senior leadership
+**Driving engagement and performance is a team sport.** Leadership has a role to play in influencing many key drivers such as:
+decision-making, collaboration, prospects, and purpose. When feedback results show up as system-wide focus areas, it’s becomes clear that senior leadership
 needs to own some of the actions.
 
-Managers play an important role in taking action on feedback for
-one simple reason: they are close to the experience on the ground and
-create accountability. Given this unique
+**Managers play an important role in taking action on feedback because they are close to the experience and
+create accountability**. Given this unique
 positioning, managers can craft solutions to enhance what matters most
 to their people and use existing processes to drive progress.
 Managers can then use survey feedback to build closer connections within
