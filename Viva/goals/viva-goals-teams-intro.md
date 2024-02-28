@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2024
+ms.date: 02/28/2024
 title: Introduction to teams in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -42,7 +42,7 @@ Here are the three main capabilities that teams in Viva Goals have to help run s
 
 - **Dashboards** - A dashboard is a shared canvas to which team owners can add OKR-specific widgets that help run business review meetings. A team can have multiple dashboards.
 
-- **Analytics** - Surfaces metrics and reports to Helps understand OKR adoption and usage within the team and subteams. <!--Editor's Note: What is this saying?-->
+- **Analytics** - Surfaces metrics and reports to help understand OKR adoption and usage within the team and subteams.
 
 ## Types of teams in Viva Goals
 
@@ -54,7 +54,7 @@ There are two types of teams in Viva Goals:
 
 | Characteristic | Microsoft 365 group-connected teams | Native teams |
 |--- | --- | --- |
-|Membership | Members can be added within or outside Viva Goals.<br>When adding members to these connected teams, users can pull members from different types of groups; the members are pulled one time and added to the group. | Members can only be added within Viva Goals. When adding members, multiple groups can be added as members.<!--Editor's Note: These require clarification.--> |
+|Membership | Members can be added within or outside Viva Goals.<br>When adding members to these connected teams, users can pull members from different types of groups; the members are pulled one time and added to the group. | Members can only be added within Viva Goals. When adding members, multiple groups can be added as members. |
 | Expiration policies | Follows expiration policy of connected Microsoft 365 group. | No expiration policies. |
 | Administration | Organization owners can remove a team from the organization but can't add members to the team unless they're owners of the team/group. | Organization owners have full access to the team. |
 | Lifecycle | Teams can be archived within Viva Goals, but they can't be deleted within Viva Goals: the associated groups can be deleted in other Microsoft 365 services. | Teams can be deleted within Viva Goals. |

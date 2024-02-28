@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2024
+ms.date: 02/28/2024
 title: Use your Microsoft 365 groups as teams in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -32,7 +32,7 @@ There are two ways to create teams from your groups in Viva Goals:
 
 ### Use the left nav
 
-If you already own a Microsoft 365 group or Microsoft Teams team, you'll find that group under *Create team from groups* in the left nav in Viva Goals. Select the group, then select **Confirm** in the resulting dialog. <!--Editor's Note: Instructions unclear. "You can choose the group that you want to use as Viva Goals team, click and confirm, to easily start using that group." Also, images unclear. Note: Images will be replaced.-->
+If you already own a Microsoft 365 group or Microsoft Teams team, you'll find that group under *Create team from groups* in the left nav in Viva Goals. Select the group, then select **Confirm** in the resulting dialog.
 
 ![Screenshot that shows a view of a Viva Goals user's OKRs tab, including the Create team from groups section in the left nav.](..\media\goals\viva-goals-teams\m365-team-creation.png)
 
@@ -65,5 +65,3 @@ Because the Viva Goals team is created from the Microsoft 365 group, all members
     - **Parent team** - If your team is a division, department, or subteam of another team, you can select that team as your parent team here. Once you select a parent team, your team will use the parent team's OKR settings (such as check-in frequency and OKR creation permissions) as its defaults. Your team will also appear as a subteam underneath your parent team in the navigation.
 
     - **Visibility toggle** - If you want all members of your Viva Goals organization to be able to view your team's OKRs and related content, this toggle should be set to on: otherwise, set it to off. By default, the toggle is on.
-
-<!--Editor's Note: There's supposed to be an FAQ here, but I've been advised against including FAQ sections, so I'm going to omit it for now.-->

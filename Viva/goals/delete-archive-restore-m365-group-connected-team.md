@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2024
+ms.date: 02/28/2024
 title: Delete, archive, or restore a Microsoft 365 group-connected team
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -36,7 +36,7 @@ If the connected group is deleted, the Viva Goals team connected to that group w
 
 In general, it's better to archive teams that are no longer in service so that the collection of teams remains relevant for use. Once a team has been archived, you'll no longer be able to create OKRs and initiatives for that team, and no user will be considered a part of that team. Furthermore, any subteams will become independent teams in Viva Goals. OKRs previously assigned to the archived team will still be accessible: that is, you'll still be able to perform actions on them, such as check-ins.
 
-Even though you won't be able to see the archived team on the All Teams page <!--Editor's Note: I'd like clarification on "All Teams" vs "Teams" tab. Are they the same? If so, which is correct? Let's make sure we're using the correct terminology here. Claririfcation: "All Teams" is a page. "Teams" is a tab.-->now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. you can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
+Even though you won't be able to see the archived team on the All Teams page now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. you can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
 
 Any activities related to the archive team will be halted, including the assigning of new team members and any team-level notifications. These activities won't resume unless the team is restored.
 
@@ -50,7 +50,7 @@ Once a team has been archived, it will be marked as **Archived** on the **Teams*
 
 ## Restore an archived team
 
-Archiving a team isn't permanent. To restore an archived team, go to **Admin** > **Teams** > **Actions** and select **Restore** for the team you want to restore. Alternatively, you can visit the team's OKRs page, select the three dots in the upper right, and choose **Restore this team**. <!--Editor's Note: Again, see above: we have 'Team OKRs page,' 'team's OKR page,' and now 'team OKRs page'. I need to know what the differences between these are, if any. Clarification: There are no differences. There the same thing.-->
+Archiving a team isn't permanent. To restore an archived team, go to **Admin** > **Teams** > **Actions** and select **Restore** for the team you want to restore. Alternatively, you can visit the team's OKRs page, select the three dots in the upper right, and choose **Restore this team**.
 
 ## End of lifecycle options
 
