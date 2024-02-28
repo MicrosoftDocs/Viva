@@ -36,7 +36,7 @@ If the connected group is deleted, the Viva Goals team connected to that group w
 
 In general, it's better to archive teams that are no longer in service so that the collection of teams remains relevant for use. Once a team has been archived, you'll no longer be able to create OKRs and initiatives for that team, and no user will be considered a part of that team. Furthermore, any subteams will become independent teams in Viva Goals. OKRs previously assigned to the archived team will still be accessible: that is, you'll still be able to perform actions on them, such as check-ins.
 
-Even though you won't be able to see the archived team on the All Teams page now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. you can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
+Even though you won't be able to see the archived team on the All Teams page now, you will be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs and initiatives in the Explorer by applying the **Type** filter and selecting the archived team's name.
 
 Any activities related to the archive team will be halted, including the assigning of new team members and any team-level notifications. These activities won't resume unless the team is restored.
 
