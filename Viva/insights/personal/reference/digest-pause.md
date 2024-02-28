@@ -17,7 +17,7 @@ manager: anirudhbajaj
 ---
 # Digest email pause
 
-Beginning at the end of March 2024, we’ll be pausing all types of digest emails, including individual contributor, manager, and welcome emails, which are typically sent twice a month. All the content from digest emails will still be available within the Viva Insights app in Teams or on the web￼. You can continue to explore and analyze your data insights seamlessly. Here are some existing scenarios and where to find the features: 
+At the end of March 2024, we’ll be pausing all types of digest emails, including individual contributor, manager, and welcome emails, which are typically sent twice a month. All the content from digest emails will still be available within the Viva Insights app in Teams or on the web￼. You can continue to explore and analyze your data insights seamlessly. Here are some existing scenarios and where to find the features: 
 
 Explore your habits & take a deeper look: These insights are spread across the Viva Insights app in Teams and on the web.  
  
