@@ -78,6 +78,8 @@ items:
                  href: setup/upload-employee-attributes.md
   - name: Microsoft Viva People Science methodology for Viva Glint programs
     items:
+        - name: Propelling action-taking through ACT conversations
+          href: people-science/propelling-action-taking.md
         - name: Consider Viva People Science factors for historical imports
           href: people-science/import-external-people-science-pov.md
         - name: Philosophy on appropriate use of benchmarks as comparisons
