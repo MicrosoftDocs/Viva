@@ -195,6 +195,8 @@ items:
             href: setup/quarterly-engagement-template.md
           - name: Diversity and Inclusion survey 
             href: setup/diversity-inclusion.md
+          - name: Viva Glint Culture survey
+            href: setup/culture-template.md
           - name: Team Effectiveness survey
             href: setup/team-effectiveness-survey.md
           - name: Manager Effectiveness survey
