@@ -20,7 +20,7 @@ ms.date: 02/28/2024
 
 # Manage Viva Glint confidentiality thresholds
 
-Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable surveys for Lifecycle survey types, where the minimum response threshold is less than three (3). [Learn more](https://go.microsoft.com/fwlink/?linkid=2238614). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
+Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable surveys for Lifecycle survey types, where the response threshold is less than three (3). [Learn more](https://go.microsoft.com/fwlink/?linkid=2238614). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
 
 > [!NOTE]
 > To use Viva Glint default confidentiality thresholds, no action is needed.
@@ -31,7 +31,7 @@ Threshold settings determine how items scores, response rates, and comments disp
 
 ### Rated question scores
 
-Review the following information for thresholds related to confidentiality and suppression. These thresholds which determine how Viva Glint evaluates scores and respondent groups as insufficient or suppressed in reports. Use the adjusted setting options information as a guide for updating values from Viva Glint default settings.
+Review the following information for thresholds related to confidentiality and suppression. These thresholds determine how Viva Glint evaluates scores and respondent groups as insufficient or suppressed in reports. Use the adjusted setting options information as a guide for updating values from Viva Glint default settings.
 
 > [!NOTE]
 > Affected Viva Glint reports: Dashboard, Executive Summary, Heat Map, Overall Results, Manager Report, Team Summary, Multi-Attribute Export
@@ -48,22 +48,22 @@ Match this threshold to the Rated Confidentiality threshold for a consistent rep
 
 |Threshold   |Description  |Default setting|Adjusted setting options|
 |----------|-----------|------------|------------|
-|Response Rate  |Also known as: Minimum Sample Size Survey Stats. Response rate (percentage and counts) cannot be displayed for groups smaller than this number.       |5        |Match the Rated Confidentiality threshold: 3 or 4        |
+|Response Rate  |Also known as: Minimum Sample Size Survey Stats. Response rate (percentage and counts) can't be displayed for groups smaller than this number.       |5        |Match the Rated Confidentiality threshold: 3 or 4        |
 
 ### Comments
 
-Determine how open-ended feedback will display for users depending on how many survey responses Viva Glint receives. Match these thresholds for a consistent comments report experience. Comments thresholds don’t necessarily need to match other reporting thresholds
+Determine how open-ended feedback displays for users depending on how many survey responses Viva Glint receives. Match these thresholds for a consistent comments report experience. Comments thresholds don’t necessarily need to match other reporting thresholds
 
 |Threshold   |Description  |Default setting|Adjusted setting options|
 |----------|-----------|------------|------------|
-|Comments Search    |Also known as: Minimum Respondent Size for Comments. Minimum number of responses (not comments) to a survey before comments will be viewable and searchable.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
-|Comments Confidentiality    |Also known as: Minimum Group Size for Comments. Comments will not be displayed for respondent groups smaller than this threshold for the specific grouping selected in reporting.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
+|Comments Search    |Also known as: Minimum Respondent Size for Comments. Minimum number of responses (not comments) to a survey before comments are viewable and searchable.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
+|Comments Confidentiality    |Also known as: Minimum Group Size for Comments. Comments aren't displayed for respondent groups smaller than this threshold for the specific grouping selected in reporting.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
 
 ## Examples
 
 ### Viva Glint default settings
 
-When Viva Glint default confidentiality thresholds are in place for rated questions, here is an example of how manager team scores display in reporting.
+When Viva Glint default confidentiality thresholds are in place for rated questions, here's an example of how manager team scores display in reporting.
 
  - Rated Confidentiality: 5
  - Suppression: 2
@@ -82,7 +82,7 @@ In this case, all teams with insufficient respondents are 0 + 0 + 1, which is le
 
 ### Adjusted settings
 
-When adjusted confidentiality thresholds are in place for rated questions, here is an example of how manager team scores display in reporting.
+When adjusted confidentiality thresholds are in place for rated questions, here's an example of how manager team scores display in reporting.
 
  - Rated Confidentiality: 3
  - Suppression: 1
@@ -97,10 +97,10 @@ When adjusted confidentiality thresholds are in place for rated questions, here 
 |Manager E's Team     |83      |7        |        |
 |Manager F's Team     |80       |10       |        |
 
-In this case, all teams with insufficient respondents are 0 + 0 + 1, which meets the suppression threshold of one (1). The rated confidentiality is also set to 3, so the next largest team, Manager D’s team, displays in reporting. Parent team suppression is only factored in when the Suppression threshold is not met.
+In this case, all teams with insufficient respondents are 0 + 0 + 1, which meets the suppression threshold of one (1). The rated confidentiality is also set to 3, so the next largest team, Manager D’s team, displays in reporting. Parent team suppression is only factored in when the Suppression threshold isn't met.
 
 ## Update overall or survey thresholds
-Thresholds set the number of survey responses that are needed for data to display. For example, when Viva Glint default settings are in place, a manager who has 10 total employees with 5 respondents sees their aggregated scores.  However, if that same manager had only 1 employee respond, the survey responses are insufficient and don’t display in reports.  This avoids a situation where a manager can identify the respondent based on their responses.  Given this potential impact, Human Resources, Privacy and Legal teams may have input about how these thresholds are adjusted.
+Thresholds set the number of survey responses that are needed for data to display. For example, when Viva Glint default settings are in place, a manager who has 10 total employees with 5 respondents sees their aggregated scores. However, if that same manager had only 1 employee respond, the survey responses are insufficient and don’t display in reports. These thresholds prevent a situation where a manager can identify the respondent based on their responses. Given this potential impact, Human Resources, Privacy, and Legal teams may have input about how these thresholds are adjusted.
 
 ### Overall thresholds
 If all your Viva Glint survey programs will have the same level of confidentiality, select threshold values at the overall level on the **Advanced Configuration Details** page.
@@ -140,4 +140,4 @@ To edit threshold values:
 > [!NOTE]
 > This feature is planned to be available after March 9, 2024.
 
-Viva Glint Lifecycle surveys, Exit and Onboarding, can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for this survey type, which has typically lower respondent counts and may require follow up with individual employees based on their exit or new hire experiences.
+Viva Glint Lifecycle surveys, Exit and Onboarding, can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for this survey type, which has typically lower respondent counts and may lead to follow-up with individual employees based on their exit or new hire experiences.
