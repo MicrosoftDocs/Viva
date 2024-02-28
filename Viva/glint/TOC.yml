@@ -88,6 +88,14 @@ items:
           href: people-science/people-science-explains-focus-areas.md
         - name: Viva People Science patient safety culture methodology
           href: people-science/patient-safety.md
+        - name: Understand Viva Glint benchmark methodology
+          items:
+            - name: Use Viva Glint benchmarks
+              href: setup/benchmarks.md
+            - name: Choose your comparison data for Viva Glint reporting
+              href: setup/survey-comparison-data.md
+            - name: Opting into external benchmark comparisons
+              href: setup/opting-into-external-benchmarks.md         
   - name: Admin configuration of Viva Glint features
     href: setup/platform-features-settings.md
     items: 
@@ -142,28 +150,20 @@ items:
               href: setup/advanced-config-uploads.md
             - name: Flag sensitive comments in Viva Glint
               href: setup/glint-sensitive-comments.md
-      - name: Share Manager Quick Guides
-        href: setup/manager-quick-guides-overview.md
-        items:
-           - name: Manager Quick Guide for data confidentiality
-             href: setup/quick-guide-confidentiality.md
-           - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
-             href: setup/quick-guide-manager-doc-pitfalls.md
-      - name: Use Viva Glint best practices and program guidance
-        href: setup/best-practice-setup-guidance.md
-        items:
-          - name: Plan ahead for monthly releases and shutdowns
-            href: setup/monthly-release-dates.md
-          - name: Understand Viva Glint programs and cycles
-            href: setup/program-cycle-edits.md
-      - name: Understand Viva Glint benchmark methodology
-        items:
-           - name: Use Viva Glint benchmarks
-             href: setup/benchmarks.md
-           - name: Choose your comparison data for Viva Glint reporting
-             href: setup/survey-comparison-data.md
-           - name: Opting into external benchmark comparisons
-             href: setup/opting-into-external-benchmarks.md      
+  - name: Share Manager Quick Guides
+    href: setup/manager-quick-guides-overview.md
+    items:
+       - name: Manager Quick Guide for data confidentiality
+         href: setup/quick-guide-confidentiality.md
+       - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
+         href: setup/quick-guide-manager-doc-pitfalls.md
+  - name: Use Viva Glint best practices and program guidance
+    href: setup/best-practice-setup-guidance.md
+    items:
+      - name: Plan ahead for monthly releases and shutdowns
+        href: setup/monthly-release-dates.md
+      - name: Understand Viva Glint programs and cycles
+        href: setup/program-cycle-edits.md   
       - name: Use Viva Glint's best practices to design your survey program
         href: setup/best-practice-setup-guidance.md
         items:
@@ -197,6 +197,8 @@ items:
             href: setup/quarterly-engagement-template.md
           - name: Diversity and Inclusion survey 
             href: setup/diversity-inclusion.md
+          - name: Viva Glint Culture survey
+            href: setup/culture-template.md
           - name: Team Effectiveness survey
             href: setup/team-effectiveness-survey.md
           - name: Manager Effectiveness survey
