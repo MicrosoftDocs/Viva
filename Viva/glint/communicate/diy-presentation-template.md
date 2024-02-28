@@ -50,7 +50,7 @@ A great executive presentation is short and tells a focused story. The presentat
 
 Review one to two areas of focus only, then move swiftly to action taking with accountability, ownership, and next steps defined.
 
-Use the ACT framework to outline your presentation
+Use the ACT framework to outline your presentation:
 
 :::image type="content" source="../../media/glint/reports/act-conversation.png" alt-text="Screenshot of the definition of the letters of the ACT acronym.":::
 
@@ -69,10 +69,10 @@ Rather than relying on this PowerPoint deck for your conversation, we suggest on
 
 #### Collaborate
 
-Facilitate a conversation around selecting one area to focus on as a group.
+- Facilitate a conversation around selecting one area to focus on as a group.
 
 #### Take one step forward
 
-During this section, the facilitator should assign next steps, roles, and responsibilities. 
+- During this section, the facilitator should assign next steps, roles, and responsibilities. 
 
 
