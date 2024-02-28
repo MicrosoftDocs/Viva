@@ -326,11 +326,15 @@ items:
               templates
              href: communicate/results-rollout-templates.md
       - name: Support survey participants during Viva Glint surveys
-        items:
+        items: 
            - name: Support participants during a live Viva Glint survey
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey participants
-             href: communicate/survey-taker-faq.md       
+             href: communicate/survey-taker-faq.md
+  - name: Understand and present results
+    items:
+       - name: Viva Glint Do-It-Yourself Insights Review Template
+         href: communicate/diy-presentation-template.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
