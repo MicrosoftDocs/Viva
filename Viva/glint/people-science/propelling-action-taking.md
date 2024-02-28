@@ -192,7 +192,7 @@ is no simple mechanism to hold teams accountable for progress. The
 missing ingredient to creating sustainable focus on taking action on
 feedback is obvious and often overlooked: **Conversations.**
 
-:::image type="content" source=""../../media/glint/setup/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
+:::image type="content" source="../../media/glint/setup/conversations-matter.png" alt-text="Screenshot of the five reasons that conversations matter.":::
 
 ### Why do conversations matter?
 
@@ -225,8 +225,6 @@ and practical expertise on what fuels change within organizations.
 **Acknowledge**
 **Collaborate**
 **Take one step forward**
-
-
 
 ### ACT conversations create trust on teams
 
