@@ -74,5 +74,3 @@ Rather than relying on this PowerPoint deck for your conversation, we suggest on
 #### Take one step forward
 
 - During this section, the facilitator should assign next steps, roles, and responsibilities. 
-
-
