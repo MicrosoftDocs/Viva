@@ -21,7 +21,7 @@ At the end of March 2024, we’ll be pausing all types of digest emails, includi
 
 **Explore your habits & take a deeper look:** These insights are spread across the Viva Insights app in Teams and on the web.  
 
-:::image type="content" source="../../Images/MyA/reference/digest-email-1.png" alt-text="Screenshot of the Explore your habits in Viva Insights add-in.":::
+:::image type="content" source="../../Images/MyA/reference/explore-habits-01.png" alt-text="Screenshot of the Explore your habits in Viva Insights add-in.":::
  
 :::image type="content" source="../../Images/MyA/reference/deeper-look-01.png" alt-text="Screenshot of the Take a deeper look in Viva Insights add-in.":::
 
