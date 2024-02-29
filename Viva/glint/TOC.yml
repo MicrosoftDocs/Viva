@@ -82,14 +82,14 @@ items:
           href: people-science/propelling-action-taking.md
         - name: Consider Viva People Science factors for historical imports
           href: people-science/import-external-people-science-pov.md
-        - name: Philosophy on appropriate use of benchmarks as comparisons
-          href: people-science/people-science-benchmark-philosophy.md
         - name: Viva People Science explains focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
         - name: Viva People Science patient safety culture methodology
           href: people-science/patient-safety.md
         - name: Understand Viva Glint benchmark methodology
           items:
+            - name: Philosophy on appropriate use of benchmarks as comparisons
+              href: people-science/people-science-benchmark-philosophy.md
             - name: Use Viva Glint benchmarks
               href: setup/benchmarks.md
             - name: Choose your comparison data for Viva Glint reporting
