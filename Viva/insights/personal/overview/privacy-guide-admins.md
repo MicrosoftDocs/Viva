@@ -106,7 +106,7 @@ Personal insights in Viva Insights provides flexible and configurable controls t
 
 * **Determine default opt-in settings** &ndash; Admins can configure Personal insights in Viva Insights to be "default off," which means that licensed employees must individually opt in to Viva Insights to gain access to their Viva Insights app and Outlook add-in and to contribute to incremental data. Alternatively, Viva Insights can be configured to be "default on," which means that licensed employees automatically contribute to incremental data and have access to their app and to the Outlook add-in, but can later opt out through the **Settings** menu. To learn more, see [Configure access at the user level](../../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-user-level).
 
-Note that if default settings are used, the following applies:
+If default settings are used, the following applies:
 
 * All employees in your organization contribute to [incremental data](../Overview/privacy-guide-users.md#incremental-data) whether or not they have been issued licenses with the Viva Insights service.
 * Personal insights in Viva Insights is automatically enabled for employees after a license is assigned to them. If, instead, you want licensed employees to have the choice to opt in, you must change the default settings.
@@ -154,7 +154,7 @@ As is the case with the full Microsoft 365 suite, Personal insights in Viva Insi
 
     * Microsoft will not mine customer data in Exchange Online for advertising.
     * Microsoft will not voluntarily disclose Exchange Online customer data to law enforcement agencies.
-    * Microsoft will meet all requirements related to encryption of Exchange Online data and implement controls to reduce security risks and help ensure business continuity, as described in ISO 27001 and 27018.
+    * Microsoft meets all requirements related to encryption of Exchange Online data and implements controls to reduce security risks to help ensure business continuity, as described in ISO 27001 and 27018.
 
 2. **Notify users in the event that a breach is detected**.
    Microsoft notifies customer privacy contacts within 72 hours of Microsoft becoming aware of a breach by using [Microsoft 365 incident response](/office365/securitycompliance/office365-security-incident-response-overview) standard operating procedures.
