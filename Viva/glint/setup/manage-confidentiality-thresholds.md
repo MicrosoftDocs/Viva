@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/28/2024
+ms.date: 03/01/2024
 ---
 
 # Manage Viva Glint confidentiality thresholds
@@ -27,7 +27,7 @@ Data privacy and trust are key priorities for Microsoft Viva Glint. Several meth
 
 ## Understand confidentiality thresholds
 
-Threshold settings determine how items scores, response rates, and comments display for Viva Glint users. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds for confidential surveys where scores only display with at least three (3) responses.
+Threshold settings determine how items scores, response rates, and comments display for Viva Glint users. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds for confidential surveys where the default threshold to display scores is five (5) but can be adjusted to as low as three (3) responses.
 
 ### Rated question scores
 
@@ -57,7 +57,7 @@ Determine how open-ended feedback displays for users depending on how many surve
 |Threshold   |Description  |Default setting|Adjusted setting options|
 |----------|-----------|------------|------------|
 |Comments Search    |Also known as: Minimum Respondent Size for Comments. Minimum number of responses (not comments) to a survey before comments are viewable and searchable.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
-|Comments Confidentiality    |Also known as: Minimum Group Size for Comments. Comments aren't displayed for respondent groups smaller than this threshold for the specific grouping selected in reporting.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
+|Comments Confidentiality    |Also known as: Minimum Group Size for Comments. Comments aren't displayed for respondent groups smaller than this threshold for the specific grouping selected in reporting, based on attribute or topic filtering.      |10        |Increase or decrease based on the level of confidentiality needed in the comments report       |
 
 ## Examples
 
