@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 1/2/2024
+ms.date: 3/1/2024
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -56,7 +56,7 @@ Follow steps 1-10 outlined [here](/graph/data-connect-quickstart?source=recommen
 
 *Applies to: Application Administrator or Application Developer*
 
-Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account.
+Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account. To select your region, [use these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader).
 
 After you've followed the steps above and your Storage account is set up:
 
@@ -76,7 +76,7 @@ After you've followed the steps above and your Storage account is set up:
     * **Subscription:** Select your Azure subscription
     * **Resource group:** mgdc-app-resource (or select an existing resource group)
     * **Key vault name:** mgdcdemokeyvault (or you can name and select your own)
-    * **Region:** Select region. [Pick an Azure region in the same region as your Microsoft 365 region](/graph/data-connect-datasets#regions).
+    * **Region:** Select region [using these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader).
     * **Pricing tier:** Standard
     * **Days to retain deleted vaults:** Default
     * **Purge protection:** Default
@@ -153,7 +153,7 @@ There are a few unique steps, however, that are specific to this process for dyn
 * **Application ID**: Select your App service principal from Step 1
 * **Publish type**: Single-tenant
 
-Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**. For the static Viva Insights dataset, select **VivaInsightsDataset_PersonReport_V1**.
+Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**.
 
 > [!NOTE]
 > If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
@@ -177,7 +177,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
-Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline.
+Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline. Use [these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader) to select your region.
 
 ### 9. Execute pipeline
 
