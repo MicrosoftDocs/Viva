@@ -68,9 +68,9 @@ Personal insights in Viva Insights uses the following types of data.
 
 ## Mailbox data
 
-Mailbox data represents information that people already have access to by simply going about their job such as sending emails, arranging meetings, or chatting with coworkers. Viva Insights processes and shows this information in new ways that make it actionable.
+Mailbox data represents information that people can already access by going about their job, such as sending emails, arranging meetings, or chatting with coworkers. Viva Insights processes and shows this information in new ways that make it actionable.
 
-For example, Viva Insights provides views that allow people to quickly understand how much time they spend in meetings and in email each day, who they collaborate with the most, who they're losing touch with, and who they've have made commitments and requests to.
+For example, Viva Insights provides views that allow people to understand how much time they spend in meetings and in email each day, who they collaborate with the most, who they're losing touch with, and who they've have made commitments and requests to.
 
 People can take action on this information. They might decide that they spend too much time in meetings, for example, and adopt a personal goal of running more efficient meetings.
 
