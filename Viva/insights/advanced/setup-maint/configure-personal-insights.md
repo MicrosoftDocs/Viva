@@ -1,6 +1,6 @@
 ---
 
-ms.date: 02/16/2024
+ms.date: 03/1/2024
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
