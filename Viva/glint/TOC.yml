@@ -150,6 +150,8 @@ items:
               href: setup/advanced-config-uploads.md
             - name: Flag sensitive comments in Viva Glint
               href: setup/glint-sensitive-comments.md
+            - name: Manage Viva Glint confidentiality thresholds
+              href: setup/manage-confidentiality-thresholds.md
   - name: Share Manager Quick Guides
     href: setup/manager-quick-guides-overview.md
     items:
