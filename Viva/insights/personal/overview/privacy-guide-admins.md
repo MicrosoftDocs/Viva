@@ -48,6 +48,9 @@ By default, anytime a license with the Viva Insights service is assigned to a pe
 * **Personal insights in Viva Insights reminds people that their data is private and secure**.
 A few days after a license with the Viva Insights service is assigned to a person, that person receives a welcome email that clearly lays out how Viva Insights works with a reminder that all of their data is private. The other Viva Insights surfaces, such as digest emails and Briefing emails, and Viva Insights app in Teams and on the web, reinforce this message.
 
+>[!Important]
+>Beginning at the end of March 2024, we’ll be pausing the digest email, which are typically sent twice a month. All the content from digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause).
+
 ## How Personal insights in Viva Insights works
 
 Personal insights in Viva Insights are shown in the following ways:
