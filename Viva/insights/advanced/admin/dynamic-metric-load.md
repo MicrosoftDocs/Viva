@@ -56,7 +56,7 @@ Follow steps 1-10 outlined [here](/graph/data-connect-quickstart?source=recommen
 
 *Applies to: Application Administrator or Application Developer*
 
-Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account. To select your region, [use these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader).
+Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account. To select your region, [use these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights).
 
 After you've followed the steps above and your Storage account is set up:
 
@@ -76,7 +76,7 @@ After you've followed the steps above and your Storage account is set up:
     * **Subscription:** Select your Azure subscription
     * **Resource group:** mgdc-app-resource (or select an existing resource group)
     * **Key vault name:** mgdcdemokeyvault (or you can name and select your own)
-    * **Region:** Select region [using these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader).
+    * **Region:** Select region [using these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights).
     * **Pricing tier:** Standard
     * **Days to retain deleted vaults:** Default
     * **Purge protection:** Default
@@ -177,7 +177,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
-Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline. Use [these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights--advanced-mgr-leader) to select your region.
+Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline. Use [these steps](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-insights) to select your region.
 
 ### 9. Execute pipeline
 
