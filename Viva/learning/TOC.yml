@@ -35,8 +35,8 @@
             href: sfsf-enable-learning-record-sync.md
           - name: Manage SAP SuccessFactors permissions
             href: sfsf-manage-permissions.md
-          - name: Enable inline playback
-            href: sfsf-enable-inline-playback.md
+          - name: Enable browser optimized playback
+            href: sfsf-enable-browser-optimized-playback.md
         - name: SharePoint
           items: 
             - name: Add SharePoint
