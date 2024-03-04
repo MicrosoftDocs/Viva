@@ -238,7 +238,7 @@ items:
           - name: Create a Viva Glint Onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
           - name: Create a Viva Glint Exit survey
-            href: setup/exit-survey.md
+            href: setup/exit.survey.md
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
