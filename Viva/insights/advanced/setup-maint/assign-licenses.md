@@ -49,10 +49,10 @@ For more information on licensing and user configuration, refer to [Configure pe
 
 After you've identified the population in scope, you as the Microsoft 365 global admin assign Viva Insights licenses to users in that population.
 
->[!Note]
->To kick off data processing, you'll need a minimum of 10 licenses assigned. Once that's done, expect the process to take an estimated 3 to 5 days from the moment those licenses are assigned. 
-
 Viva Insights licenses are assigned just like other Microsoft 365 product licenses. Assign licenses by using one of these options:
+
+>[!Note]
+>To kick off data processing, you'll need a minimum of 10 licenses assigned. Once that's done, expect the process to take an estimated 3 to 5 days from the moment those licenses are assigned.
 
 * The [Microsoft 365 admin center​](/microsoft-365/admin/add-users/add-users)
 * [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
