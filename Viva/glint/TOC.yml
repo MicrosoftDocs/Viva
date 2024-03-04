@@ -84,7 +84,7 @@ items:
           href: people-science/import-external-people-science-pov.md
         - name: Viva People Science explains focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
-        - name: Viva People Science patient safety culture methodology
+        - name: Viva People Science patient safety survey methodology
           href: people-science/patient-safety.md
         - name: Understand Viva Glint benchmark methodology
           items:
@@ -150,6 +150,8 @@ items:
               href: setup/advanced-config-uploads.md
             - name: Flag sensitive comments in Viva Glint
               href: setup/glint-sensitive-comments.md
+            - name: Manage Viva Glint confidentiality thresholds
+              href: setup/manage-confidentiality-thresholds.md
   - name: Share Manager Quick Guides
     href: setup/manager-quick-guides-overview.md
     items:
