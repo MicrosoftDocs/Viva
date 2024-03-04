@@ -51,7 +51,7 @@ There are also two optional but recommended scaled items (1-2), and two comment 
 > [!NOTE]
 > The overall patient safety outcome items (i.e., Referral and Habits) are now at the end of the survey; previously they were the first items asked. 
 
-## Launch the Microsoft Viva Glint Patient Safety Survey 
+## Admins launching the Microsoft Viva Glint Patient Safety Survey 
 
 Access the template from the **Configure** symbol on your Viva Glint admin dashboard. Select **+ New Survey** and then select the **Patient Safety Survey** card.
 
@@ -59,6 +59,13 @@ Access the template from the **Configure** symbol on your Viva Glint admin dashb
 
 > [!div class="nextstepaction"]
 > [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
+
+## Read the Viva People Science methodololgy used to create the Patient Safety Survey
+
+The methodology used to develop the Microsoft Viva Glint Patient Safety Survey involved lengthy research and methodology. Read about it.
+
+> [!div class="nextstepaction"]
+> [Viva People Science - Patient Safety Survey methodology](https://go.microsoft.com/fwlink/?linkid=2262380)
 
 ## Read the Viva People Science blog on patient safety culture
 
