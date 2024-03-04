@@ -1,5 +1,5 @@
 ---
-title: "Customize your network"
+title: "Customize your Viva Engage network"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -17,7 +17,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 6d2a6ec7-1d65-46bb-b253-1bf441ec80a5
-description: "Learn how to customize your network by adding a logo."
+description: "Learn how to customize your Viva Engage network by adding a logo."
 ---
 
 # Customize your network

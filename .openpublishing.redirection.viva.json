@@ -984,6 +984,11 @@
             "source_path": "Viva/engage/get-started-with-viva-engage/administrative-settings-opt-in.md",
             "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/badges.md",
+            "redirect_url": "/Viva/engage/eac-answers-overview-set-up.md",
+            "redirect_document_id": false
         }
     ]
 }
