@@ -1,6 +1,6 @@
 ---
 
-ms.date: 02/16/2024
+ms.date: 03/1/2024
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
@@ -59,7 +59,8 @@ Defaults you can set are:
 * Meeting effectiveness surveys
 * The Viva Insights Outlook add-in
 * Schedule send suggestions in Outlook
-
+    >[!Important]
+    >Beginning at the end of March 2024, we’ll be pausing the digest email, which are typically sent twice a month. All the content from digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 ### Privacy
 
 Refer to the [Privacy guide](../../personal/Overview/privacy-guide-users.md) to understand how privacy is built into Viva Insights and to learn what you can configure to address specific privacy requirements.
