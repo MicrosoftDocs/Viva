@@ -29,7 +29,7 @@ Use the Viva Glint platform live when presenting results to your leaders wheneve
 
 :::image type="content" source="../../media/glint/reports/diy-insights-review-template.png" alt-text="Screenshot of the PowerPoint deck for the DIY Insights Review.":::
 
-## Think like a Viva Glint Science Consultant
+## Think like a Microsoft Viva People Science Consultant
 
 Read the guidance on slides 3 and 4  to construct the best presentation for your organization.
 
