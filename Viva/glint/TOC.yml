@@ -84,7 +84,7 @@ items:
           href: people-science/import-external-people-science-pov.md
         - name: Viva People Science explains focus areas and action planning
           href: people-science/people-science-explains-focus-areas.md
-        - name: Viva People Science patient safety culture methodology
+        - name: Viva People Science patient safety survey methodology
           href: people-science/patient-safety.md
         - name: Understand Viva Glint benchmark methodology
           items:
@@ -235,8 +235,10 @@ items:
            href: setup/program-summary-coaching.md          
      - name: Setting up Employee Lifecycle surveys
        items:
-          - name: Create Viva Glint Onboarding and Exit survey programs
+          - name: Create a Viva Glint Onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
+          - name: Create a Viva Glint Exit survey
+            href: setup/exit.survey.md
           - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
