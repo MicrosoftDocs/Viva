@@ -1,6 +1,6 @@
 ---
 ms.date: 11/14/2022
-title: Viva Goals security, privacy, and compliance
+title: Security, privacy, and compliance in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -23,7 +23,7 @@ search.appverid:
 description: "Learn about Viva Goals security, privacy, and compliance."
 ---
 
-# Microsoft Viva Goals – Security, Privacy, and Compliance article 
+# Security, privacy, and compliance in Viva Goals
 
 Security, Privacy, and Compliance are core tenets of how we serve our customers and how we empower organizations to serve their customers. This article presents the Security, Privacy, and Compliance questions customers have shared which relate to how Microsoft Viva Goals handles data that they share and store in the Microsoft Cloud.  
 
@@ -215,12 +215,38 @@ Users can use the Web Client or Teams app to connect to and use Viva Goals. HTTP
     1. As a data processor, Microsoft will ensure that our customers can meet the GDPR's breach notification requirements as data controllers. To learn more, see [GDPR Breach Notification](/compliance/regulatory/ccpa-faq).
 
 4. **Can Viva Goals help me be compliant with the California Customer Privacy Act (CCPA)?**
-    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not “sell” personal information. To learn more, see [California Consumer Privacy Act (CCPA) Frequently Asked Questions](/compliance/regulatory/ccpa-faq).
+    1. Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not "sell" personal information. To learn more, see [California Consumer Privacy Act (CCPA) Frequently Asked Questions](/compliance/regulatory/ccpa-faq).
 
-## Further Reading
+## Data, privacy, and security for Copilot in Viva Goals
 
-- [Introduction to Microsoft Viva Goals ](intro-to-ms-viva-goals.md)
-- [Overview of security and compliance in Microsoft Viva ](../microsoft-viva-security.md)
-- [Employee Privacy and Data Protection ](https://www.microsoft.com/microsoft-viva/privacy)
-- [Microsoft Compliance ](/compliance/)
-- [Microsoft 365 roadmap ](https://aka.ms/m365roadmap)
+### Does Copilot in Viva Goals use customer data to train its model?
+
+No. Copilot in Viva Goals uses a foundational model, operating through prompts based on sample Viva Goals data and common instructions. Prompts, responses, and data accessed through Copilot in Viva Goals aren't used to train LLMs.
+
+### How does Copilot in Viva Goals use my organizational data?
+
+Copilot in Viva Goals provides value by connecting LLMs to your organizational data, which includes content and context accessed through Microsoft Graph. It can generate responses based on organizational data like user strategy documents, goals, and check-ins. Copilot in Viva Goals combines this content with the user’s working context, time period, and teams to help provide accurate, relevant, and contextual responses.
+
+Copilot in Viva Goals can access organizational goals data that individual users have permission to view. It's important that you're using the permission models available in Microsoft 365 services, such as SharePoint, to help ensure the right users and groups have the right access to the right goals within your organization. This includes permissions you give to users outside your organization through inter-tenant collaboration solutions, like shared channels in Microsoft Teams.
+
+When you enter prompts using Microsoft Copilot in Viva Goals, the information contained within your prompts, the data retrieved when responding to the prompts, and the responses generated to the prompts all remain within the Microsoft 365 service boundary.
+
+### What data does Copilot in Viva Goals store?
+
+Copilot in Viva Goals does not log any of the user's prompts. Copilot in Viva Goals follows the same data residency protocols currently in place for Viva Goals. You can find more information [here](#viva-goals-data-handling).
+
+### What privacy policy does Copilot in Viva Goals use?
+
+Our privacy policy is publicly shared and available [here](https://privacy.microsoft.com/en-us/privacystatement) as part of the Microsoft Privacy Statement. Copilot in Viva Goals follows the privacy and data compliance currently in place for Viva Goals. You can find more details [here](#security-privacy-and-compliance-in-viva-goals).
+
+## Further reading
+
+- [Introduction to Microsoft Viva Goals](intro-to-ms-viva-goals.md)
+
+- [Overview of security and compliance in Microsoft Viva](../microsoft-viva-security.md)
+
+- [Employee Privacy and Data Protection](https://www.microsoft.com/microsoft-viva/privacy)
+
+- [Microsoft Compliance](/compliance/)
+
+- [Microsoft 365 roadmap](https://aka.ms/m365roadmap)
