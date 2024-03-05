@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 05/22/2023
+ms.date: 03/05/2024
 ---
 
 # Viva Glint Licensing
@@ -33,5 +33,25 @@ If the number of active users in Viva Glint exceeds the subscription purchase, y
 
 If the grace period expires and you haven't taken any of the actions described above, some of the Viva Glint key functionalities won't work as expected. 
 
->[!NOTE]
+>[!CAUTION]
 >If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
+
+## Global Admin purchasing additional Viva Glint licenses
+
+These steps can only be administered by your organization's Global Admin.
+
+Start at the home page of the Microsoft Admin Center (MAC). Navigate to **Subscriptions** to access the list of subscriptions tied to your account.
+
+:::image type="content" source="../../media/glint/setup/license-subscriptions.png" alt-text="Screenshot of how to access the Subscriptions tab from the Microsoft Admin Center." lightbox=../../media/glint/setup/license-subscriptions.png":::
+
+Select your active Viva Glint subscription that you want to purchase additional licenses for. You will be directed to the **Subscription details page.**  Select the **Buy licenses** button to purchase additional licenses for this account.
+
+:::image type="content" source="../../media/glint/setup/license-buy.png" alt-text="Screenshot of how to access the Subscriptions tab from the Microsoft Admin Center." lightbox=../../media/glint/setup/license-buy.png":::
+
+In the *Buy licenses* slider window which opens, adjust the **new quantity** to reflect the total number of licenses you want for your subscription.
+Example:  you currently have two licenses and want to purchase three more. Your total should now be five.
+
+Select **Save** to place the order. Confirm that the total number of licenses for this subscription is accurately reflected.
+
+:::image type="content" source="../../media/glint/setup/license-buy-slider-window.png" alt-text="Screenshot of how to access the Subscriptions tab from the Microsoft Admin Center." lightbox=../../media/glint/setup/license-buy-slider-window.png":::
+
