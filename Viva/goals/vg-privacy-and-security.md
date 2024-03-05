@@ -233,7 +233,7 @@ When you enter prompts using Microsoft Copilot in Viva Goals, the information co
 
 ### What data does Copilot in Viva Goals store?
 
-Copilot in Viva Goals does not log any of the user's prompts. Copilot in Viva Goals follows the same data residency protocols currently in place for Viva Goals. You can find more information [here](#viva-goals-data-handling).
+Copilot in Viva Goals does not log any of the user's prompts. Copilot in Viva Goals follows the same data residency protocols currently in place for Viva Goals. You can find more information in the section [Viva Goals Data Handling](#viva-goals-data-handling).
 
 ### What privacy policy does Copilot in Viva Goals use?
 
