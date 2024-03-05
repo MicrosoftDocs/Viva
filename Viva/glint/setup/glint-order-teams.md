@@ -41,4 +41,4 @@ If the 45 day grace period expires before licenses and active users are aligned,
 
 ## Global Admin purchasing more Viva Glint licenses
 
-Only your organization's Global Admin can purchase more licenses. [Buy more licenses for a Microsoft business subscription.](../../microsoft-365/commerce/licenses/buy-licenses.md)
+Only your organization's Global Admin can purchase more licenses. [Buy more licenses for a Microsoft business subscription.](https://learn.microsoft.com/microsoft-365/commerce/licenses/buy-licenses)
