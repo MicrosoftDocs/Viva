@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
+manager: elizapo
 ms.date: 08/08/2023
 audience: Admin
 ms.topic: article

@@ -15,7 +15,7 @@ ms.custom: Adm_Yammer
 search.appverid: 
 - MOE150
 - MET150
-description: "Learn more your options for working with guests in a Viva Engage community, depending on how your organization's Viva Engage network is structured."
+description: "Learn options for working with people outside your network as guests of a Viva Engage community, depending on how your organization's Viva Engage network is structured."
 ---
 
 # Collaborate with guests in a Viva Engage community

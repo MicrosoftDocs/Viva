@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 07/26/2023
+ms.date: 03/04/2024
 audience: Admin
 ms.topic: article
 ms.service: office-online-server
@@ -19,22 +19,23 @@ ms.assetid: 0fc72b66-cbf1-4202-bcf0-f2174ea96798
 description: "Manage users and guests in Viva Engage."
 ---
 
-# Add, block, or remove Viva Engage users
+# Add, block, or remove a Viva Engage user
 
-As a verified or network admin, you can add, block, or remove Viva Engage users, and define what fields to include in their profiles. 
+As a verified or network admin, you can add, block, or remove Viva Engage users, and define what fields to include in their profiles.
   
 To get to the Viva Engage admin center to manage users:
   
-- In Office 365, go to **Admin** \> **Viva Engage**.
+- In Microsoft 365, go to **Admin** \> **Viva Engage**.
     
 - Or, in Viva Engage, select the Viva Engage settings icon :::image type="icon" source="../../media/9704ce70-56ce-43f7-96c6-f253b0413d40.png" border="false":::, and then select **Edit Network Admin settings**.
     
 ## Invite users to Viva Engage
 <a name="InviteUsers"> </a>
 
-Use this procedure only to invite employees with a company email to Viva Engage. 
-- If you enforce Office 365 identity in your network, all Office 365 users with a Viva Engage license are created as *pending users* in Viva Engage. 
-- If you don't enforce Office 365 identity, users must select the Viva Engage tile from Office 365 or sign in to Viva Engage to join the network.
+Use this procedure only to invite employees with a company email to Viva Engage.
+
+- If you enforce Microsoft 365 identity in your network, all Microsoft 365 users with a Viva Engage license are created as *pending users* in Viva Engage. 
+- If you don't enforce Microsoft 365 identity, users must select the Viva Engage tile from Microsoft 365 or sign in to Viva Engage to join the network.
 - If you invite a user to a group who has no Viva Engage license, that user is suspended in Viva Engage and removed from the group member list. They won't receive announcement emails.
 
 **If your Viva Engage network is [in Native Mode](../overview-native-mode.md)**, you must perform this action in the [Microsoft Entra user Management Portal](/azure/active-directory/fundamentals/add-users-azure-active-directory).
@@ -44,9 +45,9 @@ Use this procedure only to invite employees with a company email to Viva Engage.
 1. In Viva Engage, select the settings icon and select **Edit Network admin Settings**. This selection opens the Yammer admin center.
 
 2. In the Yammer admin center, select **Users** > **Invite Users**.
-    
+
 3. Enter individual email addresses, and then select **Invite**. 
-    
+
 4. Additionally, you can select **Import an address book** and import a CSV file exported from an email application, such as Outlook or Apple Mail. The CSV file should include a single email address on each line.
   
 > [!NOTE]
@@ -62,7 +63,7 @@ To stop receiving announcements from a particular community, users can sign in t
 <a name="InviteGuests"> </a>
 ## Invite guests
 
-Invite external contacts with email addresses outside of your domain (for example, consultants, contractors, or partners). Guest email domains aren't added to the list of authorized domains for your network. 
+Invite external contacts with email addresses outside of your domain (for example, consultants, contractors, or partners). Guest email domains aren't added to the list of authorized domains for your network.
   
 1. In Viva Engage, select the settings icon, and select **Edit Network admin Settings** to go to the Yammer admin center.
 
@@ -99,10 +100,8 @@ You can deactivate or permanently remove active users, pending users, and guests
 
       - If the user has Microsoft Entra credentials, first use this action to deactivate the user, and then follow the instructions in [Block users](#block-users).
     
-   - **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted. 
-    
-   - **Permanently remove this user and messages:** This option lets you remove the user and all the messages they posted. This can't be reversed. 
-    
+   - **Permanently remove this user and keep messages:** This option lets you remove the user and retain the messages and content they posted.
+   - **Permanently remove this user and messages:** This option lets you remove the user and all the messages they posted. This can't be reversed.
    - **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** This option deactivates the user for 14 days so the admin can evaluate files and messages before the user is permanently deleted. 
     
    **All deletion options delete the following data:**
@@ -147,10 +146,10 @@ A user with a blocked email address can't join your Viva Engage network unless a
   
 -  **Block the user by removing their license and service plan, and removing the Viva Engage tile from Office 365:**
     
-    - In the Microsoft 365 admin center, remove the **Viva Engage** license for the user. For steps, see [Turn off Viva Engage access for Office 365 users](turn-off-user-access.md) and see [Manage Viva Engage licenses in Office 365](manage-licenses-in-office-365.md).
+    - In the Microsoft 365 admin center, remove the **Viva Engage** license for the user. For steps, see [Turn off Viva Engage access for Microsoft 365 users](turn-off-user-access.md) and [Manage Viva Engage licenses in Microsoft 365](manage-licenses-in-office-365.md).
   
 ## Related articles
   
-[Manage a group in Viva Engage](https://support.office.com/article/6e05c6d6-5548-4c88-89cd-e6757a514ef2.aspx)
+[Manage community members in Viva Engage](https://support.microsoft.com/en-gb/office/manage-viva-engage-community-members-75253554-d0f3-4148-b835-e6a9a8a0c294)
 
 [Can I unsubscribe myself from Viva Engage?](https://support.office.com/article/981ecaf7-8a7d-4312-a845-bd343e925073)
