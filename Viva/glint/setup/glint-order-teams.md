@@ -31,7 +31,7 @@ If the number of active users in Viva Glint exceeds the subscription purchase, y
 
 ## What happens if our grace period expires?
 
-If the grace period expires, some of the Viva Glint key functionalities won't work as expected. 
+If the grace period expires, some of the key Viva Glint new survey creation functionalities won't work as expected. Functionalities that won't work as expected include survey program creation and approval, enabling survey cycles, and more.
 
 >[!CAUTION]
 >If a customer purchases additional licenses to remedy the license shortage, it could take up to 24 hours to re-enable survey creation features in the app.
