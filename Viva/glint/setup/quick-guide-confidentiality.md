@@ -60,6 +60,6 @@ Refer to the following pages for additional guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](viva-glint-survey-privacy.md)
 >**Microsoft Learn Training**
-- [What are the basics of how Viva Glint emphasizes confidentiality?](/learn-m365-pr/m365/viva-glint-learn-how-setup-viva-glint/4-what-basics-viva-glint-emphasizes-confidentiality)
-- [What is Viva Glint confidentiality and how do I navigate the Viva Glint app?](/learn-m365-pr/m365/viva-glint-navigate-share-viva-glint-results/1-describe-confidentiality-navigate-viva-glint)
+- [What are the basics of how Viva Glint emphasizes confidentiality?](/training/modules/viva-glint-learn-how-setup-viva-glint/4-what-basics-viva-glint-emphasizes-confidentiality)
+- [What is Viva Glint confidentiality and how do I navigate the Viva Glint app?](/training/modules/viva-glint-navigate-share-viva-glint-results/1-describe-confidentiality-navigate-viva-glint)
 
