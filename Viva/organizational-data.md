@@ -24,7 +24,7 @@ description: "Import Organizational Data in Microsoft Viva and Microsoft 365"
 ---
 # Import and use Organizational Data in Microsoft 365
 
-*Organizational data* refers to employee data that your admin uploads by using the Organizational Data in Microsoft 365 feature. Organizational Data in Microsoft 365 combines this uploaded data with existing Microsoft 365 data to power certain capabilities in Microsoft 365 applications. This feature also helps improve your [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta) data by ingesting organizational data that currently resides in your organization's external systems (such as human capital management systems). This helps fill in any gaps related to missing or stale user profile data and enables richer experiences in Microsoft 365 and Microsoft Viva.
+*Organizational data* refers to employee data that your admin uploads by using the Organizational Data in Microsoft 365 feature. Organizational Data in Microsoft 365 combines this uploaded data with existing Microsoft 365 data to power certain capabilities in Microsoft 365 applications. This feature also helps improve your [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true) data by ingesting organizational data that currently resides in your organization's external systems (such as human capital management systems). This helps fill in any gaps related to missing or stale user profile data and enables richer experiences in Microsoft 365 and Microsoft Viva.
 
 *Microsoft 365 User Profile Data* refers to the information associated with a user's account and is stored in the Microsoft 365 User Profile. This information includes email address, phone number, job title, and other descriptive information.
 
@@ -34,7 +34,7 @@ Microsoft 365 User Profile Data comes from two main sources: either Microsoft En
 
 When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. To learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
 
-You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta#relationships) schema.).
+You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true#relationships) schema.).
 
 See [Attribute reference](#attribute-reference) for more details about the specific attributes, and [Attribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
 
@@ -150,7 +150,7 @@ Now you're ready to import the data.
 
 Your organizational data is validated against the requirements for use with Viva and Microsoft 365 services. This can take up to 24 hours. You can check the validation status on the **Organizational data** page in the admin center. When the validation is complete, you'll see a message that your data is in use and managed by Viva and Microsoft 365. 
 
-Each end user's organizational data is stored in that end user's mailbox and respects the data residency rules for Exchange Online (as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide)).
+Each end user's organizational data is stored in that end user's mailbox and respects the data residency rules for Exchange Online (as described in [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true)).
 
 ### Step 4 - Update or make other changes to your data
 
@@ -215,7 +215,7 @@ When a Microsoft 365 license is removed from a tenant or when consent is removed
 Organizational data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
 
 ### Data residency
-When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are coped to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide). 
+When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are coped to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide&preserve-view=true) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true). 
 
 ### Manage data subject requests
 A *Data Subject Request* or DSR is a formal request by a data subject (an end user) to a controller to take an action on their personal data. To understand what data subject rights end users have, see [Office 365 Data Subject Requests Under the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-office365). 
