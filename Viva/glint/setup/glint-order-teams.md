@@ -38,7 +38,7 @@ If the grace period expires, some of the Viva Glint key functionalities won't wo
 
 ## Global Admin purchasing more Viva Glint licenses
 
-Only your organization's Global Admin can peform these steps:
+Only your organization's Global Admin can perform these steps:
 
 Start at the home page of the Microsoft Admin Center (MAC). Navigate to **Subscriptions** to access the list of subscriptions tied to your account.
 
