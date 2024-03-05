@@ -202,11 +202,7 @@ items:
         href: zendesk-integration.md
 
 - name: Copilot in Viva Goals
-  items:
-  - name: Introduction
-    href: copilot-intro.md
-  - name: Use Copilot in Viva Goals
-    href: copilot-uses.md
+  href: copilot-intro.md
 
 - name: The OKR framework
   items:
