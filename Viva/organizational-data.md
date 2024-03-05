@@ -92,7 +92,7 @@ There are three types of attributes you can add in your organizational data file
 
 - **Required** - The only attribute required by default is email address.
 - **Reserved** - Attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data.
-- **Custom** - Custom attributes are any other attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, see [Upload Organizational Data (first upload)](/insights/advanced/admin/upload-org-data-first).
+- **Custom** - Custom attributes are any other attributes you want to define to use in filtering and grouping data. When you upload these attributes, analysts can use them when building queries. To learn how to upload custom attributes, see [Upload Organizational Data (first upload)](/viva/insights/advanced/admin/upload-org-data-first).
 
 Use the MM/DD/YYYY format for all dates. All numerical fields need to be in the "number" format and can't contain commas or a dollar sign.
 
