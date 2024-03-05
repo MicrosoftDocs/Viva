@@ -211,7 +211,7 @@ If a description column is already present, you can delete it and add a new one 
 
 3. Name the column ContentLanguage 
 
-3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](viva/learning/viva-learning-supported-languages).
+3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva/learning/viva-learning-supported-languages).
 
 4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](language-preferences.md).
 
