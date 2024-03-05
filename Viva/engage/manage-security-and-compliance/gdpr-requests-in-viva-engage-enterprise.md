@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: dmillerdyson
 author: cedemaagd
-manager: dmillerdyson
-ms.date: 06/28/2023
+manager: elizapo
+ms.date: 08/28/2023
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -65,6 +65,7 @@ Use the Viva Engage file ID from the export to go directly to the file in Viva E
       For example, to delete the cover images of a user with ID 1234567890, the URL would look like: www&#46;yammer&#46;com/api/public/v1/user-profiles/1234567890/cover-image.
 
  2. Via UI: Engage Admins with premium Viva licenses can upload or delete cover photos for any user who has the premium Viva license and has storyline enabled by:
+
      1. Visiting the profile page of the user.
      2. Hovering your mouse over the profile header and selecting **"Upload cover photo"**.
      3. Deleting or uploading a new cover image, as needed.
@@ -82,9 +83,9 @@ The following table shows how to change or delete this data if needed.
 
 | Type of data | How to change or delete it |
 |:-----|:-----|
-|Bookmarked messages, group membership, followed or following users, and followed topics  <br/> |When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. <br><br> A user can change or delete this information. For steps, see [Tips for staying organized in Viva Engage](https://support.office.com/article/40ae9666-75c0-4254-a84c-d87a9542f380.aspx).  <br/> |
-|User settings, including notification, application, and language settings  <br/> |When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>However, a user can change their own settings. For steps, see [Change my Viva Engage profile and settings](https://support.office.com/article/a3aeca0e-de34-4897-9b59-de6516542851.aspx).  <br/> |
-|User profile  <br/> | If the user has a Viva Engage identity, there are two options to remove the user: <br><br/>- When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted in Viva Engage after the 14-day suspension period.<br><br/>- The user has full control of their own profile and can modify the values. For information, see [Edit the user's profile and settings (done by user)](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).<br><br/> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365, which gets the information from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in Microsoft Entra ID, their changes are overwritten. To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and Microsoft Entra ID. See [Manage Viva Engage users across their lifecycle from Microsoft 365](https://support.office.com/article/365-6c4c8fff-6444-404a-bffc-f9da0bcc3039.aspx) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).  <br/> |
+|Bookmarked messages, group membership, followed or following users, and followed topics |When you [erase a user from the Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. <br><br> A user can change or delete this information. For steps, see [Tips for staying organized in Viva Engage](https://support.office.com/article/40ae9666-75c0-4254-a84c-d87a9542f380.aspx). |
+|User settings, including notification, application, and language settings |When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted after the 14-day suspension period. As an admin, you can't change this information for a user.<br><br>However, a user can change their own settings. For steps, see [Change my Viva Engage profile and settings](https://support.office.com/article/a3aeca0e-de34-4897-9b59-de6516542851.aspx). |
+|User profile | If the user has a Viva Engage identity, there are two options to remove the user: <ul><li>When you [erase a user from your Viva Engage home tenant and external tenants](gdpr-requests-in-viva-engage-enterprise.md#RemoveUser), this information is deleted in Viva Engage after the 14-day suspension period.</li><li>The user has full control of their own profile and can modify the values. For information, see [Edit the user's profile and settings (done by user)](gdpr-requests-in-viva-engage-enterprise.md#EditProfile).</li></ul> If the user has a Microsoft 365 identity, the Viva Engage user profile is pulled from Microsoft 365, which gets the information from Microsoft Entra ID. Viva Engage users can temporarily change their profiles in Viva Engage. If a change occurs in Microsoft Entra ID, their changes are overwritten. To permanently change or delete a user's profile, you must change or delete directory data in Microsoft 365 and Microsoft Entra ID. See [Manage Viva Engage users across their lifecycle from Microsoft 365](https://support.office.com/article/365-6c4c8fff-6444-404a-bffc-f9da0bcc3039.aspx) and [Add or change profile information for a user in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal). |
 
 <a name="EditProfile"> </a>
 ## Edit the user's profile and settings (done by user)
@@ -148,7 +149,7 @@ When you erase a user, the following user data is deleted:
 
 As an admin, you can erase a user from your home tenant and from any external tenants they belong to.
   
- **Remove a user (done by admin)**
+**Remove a user (done by admin)**
   
 1. In the Viva Engage admin center, go to **Users** \> **Remove Users**.
 
@@ -161,24 +162,23 @@ As an admin, you can erase a user from your home tenant and from any external te
       1. Select **Permanently remove this user and remove their messages**, and then select **Submit**.
       2. When that completes, select **Erase this user**. This removes the user's name and activity data.
 
-         - If you want to keep all the user's files and messages, select **Erase this user**.
+    - If you want to keep all the user's files and messages, select **Erase this user**.
 
-         - If you want to review the user's messages and files (and you've already deleted messages and files in external groups, threads, or tenants the user is a guest member in) then do these steps:
+    - If you want to review the user's messages and files (and you've already deleted messages and files in external groups, threads, or tenants the user is a guest member in) then do these steps:
 
-        1. Deactivate the user for 14 days to export their user data and evaluate their home tenant files and messages by selecting **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** 
+      1. Deactivate the user for 14 days to export their user data and evaluate their home tenant files and messages by selecting **Erase this user. Wipe their name and personal information, but leave their messages. (Can't be undone after 14 days):** 
 
-           The user is marked as deactivated and is listed on the **Remove Users** page. Within 14 days, you can reactivate the user.
+         The user is marked as deactivated and is listed on the **Remove Users** page. Within 14 days, you can reactivate the user.
 
-              :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
+         :::image type="content" source="../../media/162b43ed-acd1-4085-8073-b43845c30999.png" alt-text="Screenshot of deactivated user list.":::
 
-       
-           After 14 days, a message is sent to all the tenant admins and verified admins informing them the user has been deleted.
+         After 14 days, a message is sent to all the tenant admins and verified admins informing them the user has been deleted.
 
-        2. Select **Submit**.
+      2. Select **Submit**.
 
-        3. In the confirmation dialog, select **Yes, Permanently Delete Account**.
+      3. In the confirmation dialog, select **Yes, Permanently Delete Account**.
 
-        4. Within the 14 days, follow the directions in [Delete specific messages or files](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles).
+      4. Within the 14 days, follow the directions in [Delete specific messages or files](gdpr-requests-in-viva-engage-enterprise.md#DeleteMessagesFiles).
 
 <a name="Reactivate"> </a>
 
@@ -194,7 +194,7 @@ When a user's account is deactivated using the **Erase this user** option, you h
 
 4. Select **Reactivate** for each user you want to reactivate.
 
-    After 14 days, the user cannot be reactivated.
+   After 14 days, the user cannot be reactivated.
 
 ## See also
 
