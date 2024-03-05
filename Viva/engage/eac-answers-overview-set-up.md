@@ -67,6 +67,7 @@ Owners of the backing group should ensure that Answers remains compliant with ne
 Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
 #### General Data Protection Regulation (GDPR)
+
 For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Configure the Answers experience
@@ -131,7 +132,7 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
 
 2. On the **Feature management** tab, select **Rewards and recognition**.
 
-[![Screenshot shows the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
+   [![Screenshot shows the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
 3. Configure badges by selecting from these options:
 
@@ -140,7 +141,7 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
    - **User Preference** enables badges for the organization while allowing individuals to opt out. The end user can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
    - **Disabled** turns badges off in Answers in Viva. If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges.
 
-[![Screenshot shows the Viva Engage interface where users can turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
+   [![Screenshot shows the Viva Engage interface where users can turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
 
 
