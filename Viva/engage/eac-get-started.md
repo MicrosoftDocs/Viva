@@ -2,10 +2,10 @@
 title: "Set up the Viva Engage admin center"
 description: "Use the Microsoft 365 admin center to set up and manage settings for your organization and employees in Viva Engage."
 ms.reviewer: ethli
-ms.author: mamiejohnson
-author: mamiepjohnson
-manager: dmillerdyson
-ms.date: 02/15/2023
+ms.author: v-bvrana
+author: Starshine89
+manager: elizapo
+ms.date: 03/04/2024
 audience: Admin
 f1.keywords:
 - NOCSH

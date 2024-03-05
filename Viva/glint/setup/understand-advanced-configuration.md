@@ -22,7 +22,7 @@ ms.date: 01/31/2024
 
 For highly trained users, Microsoft Viva Glint offers Advanced Configuration options, which allow users to view and modify advanced platform settings and perform complex data updates. Use Advanced Configuration to:
 
-- Review and edit reporting thresholds in the Details section.
+- Review and edit reporting thresholds in the Details or Surveys section. [Learn more](manage-confidentiality-thresholds.md).
 - Manage advanced survey settings, like Sensitive Comments. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247846).
 - Import external, historical data from a previous employee survey vendor. [Learn more](https://go.microsoft.com/fwlink/?linkid=2244872).
 - Export a detailed snapshot of employee data at the time of a past survey launch. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700)
@@ -60,7 +60,7 @@ To manage external users' access to Viva Glint and Advanced Configuration, follo
 
 ### Menu option - Details
 
-View specifics about how data display in Viva Glint reporting and which features are enabled.
+View specifics about how data display in Viva Glint reporting and which features are enabled. For more information on reviewing and editing reporting thresholds in the Details or Surveys section. [Learn more](manage-confidentiality-thresholds.md).
 
 | Setting | Description |
 | --- | --- |
@@ -106,7 +106,7 @@ For a simpler view of existing survey programs, from the admin dashboard, select
 - Frequency
 - Recurrence Rule
 
-Select a survey program to view more details and options:
+Select a survey program to view more details and options. For more information on reviewing and editing reporting thresholds in the Details or Surveys section. [Learn more](manage-confidentiality-thresholds.md).
 
 | Setting | Description |
 | --- | --- |

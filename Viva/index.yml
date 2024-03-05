@@ -8,8 +8,8 @@ brand: m365
 metadata:
   title: Microsoft Viva # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Get started with this employee experience platform that brings together communications, knowledge, learning, resources, and insights. # Required; article description that is displayed in search results. < 160 chars.
-  ms.prod: m365 #Required; service per approved list. service slug assigned to your service by ACOM.
-  ms.technology: viva
+  ms.service: viva
+  ms.subservice: viva-suite
   ms.topic: hub-page # Required
   author: loreenl #Required; your GitHub user alias, with correct capitalization.
   ms.author: loreenl #Required; microsoft alias of author; optional team alias.
@@ -17,7 +17,7 @@ metadata:
   ms.custom: intro-hub-or-landing
   ms.collection:
     - Tier1
-    - essentials-hub-or-landing
+    - essentials-navigation
 # highlightedContent section (optional)
 # Maximum of 8 items
 highlightedContent:

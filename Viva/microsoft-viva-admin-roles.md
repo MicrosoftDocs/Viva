@@ -156,7 +156,7 @@ For more information on the roles in Viva Learning, see [Admin roles and permiss
 
 ### Viva Pulse
 
-Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](/viva/pulse/get-started/licensing-requirements.md). The following roles and permissions are required to set up Viva Pulse.
+Viva Pulse admins must have a license to one of the following: Viva Pulse Standalone, Viva Insights Bundle, Viva Suite, or the Viva Pulse Admin-led trial. For more information, see [Licensing requirements](/viva/pulse/get-started/licensing-requirements). The following roles and permissions are required to set up Viva Pulse.
 
 
 | Role | What this role does in Viva |
