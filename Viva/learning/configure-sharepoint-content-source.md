@@ -211,9 +211,9 @@ If a description column is already present, you can delete it and add a new one 
 
 3. Name the column ContentLanguage 
 
-3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva-learning-supported-languages).
+3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva/learning/viva-learning-supported-languages).
 
-4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](/viva/learning/language-preferences).
+4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](language-preferences.md).
 
 **Add the duration of the content**:
 
@@ -270,7 +270,7 @@ The site URL provided by the knowledge admin where the Learning App Content Repo
 
 Linked folders linked in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
 
-If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs.md#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
+If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 
 For more information, see [Multi-geo capabilities in SharePoint Online](/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365).
 

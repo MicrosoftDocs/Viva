@@ -91,7 +91,7 @@ When you connect Workday to Viva Insights, Workday sends over a set of predefine
 
 #### Field mapping
 
-The following table shows how Workday fields correspond to Viva Insights fields. For specific details about each Viva Insights field, including data type and formatting requirements, refer to the [Attribute reference in Prepare organizational data](/Viva/insights/advanced/admin/prepare-org-data.md).
+The following table shows how Workday fields correspond to Viva Insights fields. For specific details about each Viva Insights field, including data type and formatting requirements, refer to the [Attribute reference in Prepare organizational data](/viva/insights/advanced/admin/prepare-org-data).
 
 |Workday field|Viva Insights field|
 |----|----|
