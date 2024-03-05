@@ -46,12 +46,12 @@ Start at the home page of the Microsoft Admin Center (MAC). Navigate to **Subscr
 
 Select your active Viva Glint subscription that you want to purchase more licenses for. You are directed to the **Subscription details page.**  Select the **Buy licenses** button to purchase additional licenses for this account.
 
-:::image type="content" source="../../media/glint/setup/license-buy.png" alt-text="Screenshot of how to access the Subscriptions tab from the Microsoft Admin Center." lightbox="../../media/glint/setup/license-buy.png":::
+:::image type="content" source="../../media/glint/setup/license-buy.png" alt-text="Screenshot of the Buy Licenses button in Subscriptions within the Microsoft Admin Center." lightbox="../../media/glint/setup/license-buy.png":::
 
 In the *Buy licenses* slider window, which opens, adjust the **new quantity** to reflect the total number of licenses you want for your subscription.
 Example:  you currently have two licenses and want to purchase three more. Your total should now be five.
 
 Select **Save** to place the order. Confirm that the total number of licenses for this subscription is accurately reflected.
 
-:::image type="content" source="../../media/glint/setup/license-buy-slider-window.png" alt-text="Screenshot of how to access the Subscriptions tab from the Microsoft Admin Center." lightbox="../../media/glint/setup/license-buy-slider-window.png":::
+:::image type="content" source="../../media/glint/setup/license-buy-slider-window.png" alt-text="Screenshot of the total number of licenses assigned within the Microsoft Admin Center." lightbox="../../media/glint/setup/license-buy-slider-window.png":::
 
