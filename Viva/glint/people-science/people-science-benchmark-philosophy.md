@@ -20,8 +20,6 @@ ms.date: 02/15/2024
 
 # Viva People Science - Philosophy on appropriate use of benchmarks as comparisons
 
-:::image type="content" source="../../media/glint/reports/benchmark-cover-image.png" alt-text="Graphic that shows the Viva Glint Benchmarks Collateral page.":::
-
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they are not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
 - With nearly 10 years of experience with benchmarking, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, thus enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data* exclusively.
