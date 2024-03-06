@@ -58,7 +58,7 @@ The language dropdown menu provides options that are preset for this program.
 
 Note the following information:
 - Edits made to the survey invitation are for this program only.
-- Switching from **edit** to **preview** - and also when switching languages - automatcially saves changes.
+- Switching from **edit** to **preview** - and also when switching languages - automatically saves changes.
 - Use only plain text if customizing this invite template. URLs, HTML, and other markdown may lead to errors and subsequent mail blocking.
 
 ### Disabling the survey invitation
