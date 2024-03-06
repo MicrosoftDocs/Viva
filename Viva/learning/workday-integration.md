@@ -55,7 +55,7 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
 ![Screenshot of the MAintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
 ![Screenshot of the Security Group permissions with completed fields.](/viva/media/learning/wd-s1-5-security-group-permissions.png)
-7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies
+7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
 
 | Domain security policy | Description |
 |-----| ----- |
@@ -111,9 +111,9 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
         1. Check the **Confirm** checkbox to activate your changes.
         1. You can use the **View All Security Timestamps** report to roll back to a previous timestamp.
 
-## Create RaaS reports for catalog, user, assignment and completion data
+## Create RaaS reports for catalog, user, assignment, and completion data
 
-This section consists of steps required for enabling catalog, user, assignment and completion data sync in Workday and Viva Learning integration. 
+This section consists of steps required for enabling catalog, user, assignment, and completion data sync in Workday and Viva Learning integration. 
 Admins are required to create a custom RaaS report on the Workday portal. Once you have created integration system user of Workday portal and have provided all security access, follow these steps to create the required RaaS reports.  
 
 
@@ -143,7 +143,7 @@ This report should be created from master Admin account of Workday to avoid any 
     ![Screenshot of the Create Custom Report screen.](/viva/media/learning/wd-s2.2-1.png)
 3. Add report fields.
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
-    1. Add the fields in “Columns” as outlined schema. You see three objects for field “rating”, select the one with a hash (#) icon next to it. To handle the "Is effective" flag in Workday, you are required to create a calculated field `CatalogEffectiveDate` and add it in the catalog RaaS. Detailed steps are mentioned in this section. 
+    1. Add the fields in “Columns” as outlined schema. You see three objects for field “rating”, select the one with a hash (#) icon next to it. To handle the "Is effective" flag in Workday, you're required to create a calculated field `CatalogEffectiveDate` and add it in the catalog RaaS. Detailed steps are mentioned in this section. 
 
 | Business object| Field | Column heading override| Column heading override XML alias|
 | --- | ---- | ---- | --- |
@@ -361,7 +361,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Extract Month from Date Field | Last Functionally Updated |
     | Extract Day from Date Field | Last Functionally Updated |
 
-    1. Add following values in remaining fields of the start filter:\
+    1. Add following values in remaining fields of the start filter:
 
     | Field | Value |
     | - | - |
@@ -512,7 +512,7 @@ You can find the required Workday Web Service endpoint on the Workday Data Cente
 To enhance the security and maintain the integration, we have enabled OAuth for Workday.
 
 This avoids dependency from ISU’s username and password and handles the scenario if ISU leaves the company. Refer to below steps to generate client ID and Client secret required for configuration on admin portal. 
-OAuth access is applied at client level, so it will not impact any other sign in flow of other clients linked to Workday. To know more about OAuth, you can refer to [Workday’s OAuth documentation](https://resourcecenter.workday.com/en-us/signin.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml)
+OAuth access is applied at client level, so it will not impact any other sign in flow of other clients linked to Workday. To know more about OAuth, you can refer to [Workday’s OAuth documentation.](https://resourcecenter.workday.com/en-us/signin.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml)
 
 1. Enable OAuth for the tenant 
     1. Access the **Edit Tenant Setup - Security** task. 
@@ -534,7 +534,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
 4. After creation of API client for integration, you'll get the ClientID and client Secret. Copy the client Id and client secret. This is used on admin portal.
 
 5. Generate refresh token 
-    1. Search for task- "View API client", go to tab “API clients for integration”. It shows all clients, open the "VivaLearning" client created in previous step. 
+    1. Search for task- "View API client", go to tab “API clients for integration”. It shows all clients. Open the "VivaLearning" client created in previous step. 
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
     ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)

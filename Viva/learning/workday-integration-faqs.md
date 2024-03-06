@@ -153,11 +153,11 @@ You need to regenerate it from the Workday portal and reconfigure Workday on Viv
 
 **23. Does Viva Learning supports learning journeys or paths from Workday?**
 
-We do not support these scenarios.
+We don't support these scenarios.
 
 **24. Are permissions from Workday supported in Viva Learning?**
 
-We do not support these scenarios.
+We don't support these scenarios.
 
 Can you provide a list of the end points that Viva Learning is accessing? 
 
