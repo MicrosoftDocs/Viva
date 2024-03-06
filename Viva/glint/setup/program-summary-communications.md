@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: reminders, reminder times, additional languages, notifications 
+keywords: reminders, reminder times, additional languages, notifications, survey invite, disable survey email, disable survey invite
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,12 +15,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/22/2024
+ms.date: 03/06/2024
 ---
 
 # Communications setup in Program Summary
 
-Learn how to notify employees about upcoming surveys and the windows for taking surveys and having feedback conversations.
+Notifying employees about upcoming surveys and the windows for taking their survey is essential for improving survey participation. 
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
 
@@ -44,16 +44,31 @@ The following sections display as setup actions and each field can be edited by 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
 >[!TIP]
->When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, select the **Email Settings** option to send to company or company and personal email.
+>When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
 
-### Use the Survey invitation window
+### Editing the survey invitation
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-survey-invitation.png" alt-text="Screenshot of the Survey Invitation slider window for the Communications setup page.":::
+Select **Survey Start** to activate the Survey Invitation slider window.
 
-The email date for this program is shown. 
+Check next to **Send notification** to ensure that the send date is as expected.
 
->[!IMPORTANT]
-> At this time, no edits can be made to the Survey Invitation email message. You can, however, preview it as it is set. Select the **pencil symbol** on the **Survey Start** row to open the Survey Invitation slider window. You may also change the language and preview the message in other languages.
+Select the **pencil symbol** to edit the invite template and then the **eyeball symbol** to preview your changes. Follow on-screen guidance to make your edits.
+
+The language dropdown menu provides options that are preset for this program.
+
+Note the following:
+- Edits made to the survey invitation are for this program only.
+- Switching from **edit** to **preview** - and also when switching languages - automatcially saves changes.
+- Use only plain text if customizing this invite template. URLs, HTML or other markdown may lead to errors and subsequent mail blocking.
+
+### Disabling the survey invitation
+
+If you want to include items in your survey invitation that cannot be supported on our platform (URLs, HTML, images, videos, etc.), toggle the **Send Notification** to off. Be sure to send your own in-house survey invitation, including those items that Viva Glint cannot support. 
+
+> [!TIP]
+> Always send your people a survey invite! Participation is essential for uncovering useful feedback.
+
+:::image type="content" source="../../media/glint/setup/comms-invite-slider.png" alt-text="Screenshot of the Survey Invitation slider window for the Communications setup page.":::
 
 ### Use Reminders
 
@@ -67,16 +82,11 @@ Use the **Pencil symbol** to open the slider window and then:
 - Change reminders send dates already preset
 - Preview your reminder. At this time, the reminder message cannot be edited. You may change the language and preview the message in other languages.
 
-#### Add survey reminders
+### Add survey reminders
 
 The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, reminders display on the Communications page with an alarm symbol in a green circle.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
-
-### Use the Survey End reminder
-
->[!IMPORTANT]
-> Currently this email notification has been disabled.
 
 ## Notifications when survey results are available
 
@@ -84,12 +94,9 @@ The results notification email is a one-time notification to let users know that
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-conversation.png" alt-text="Screenshot of the Team Conversations section on the Communications setup page.":::
 
-### Editing and adding conversation reminders
+### Editing and adding feedback conversation reminders
 
 Conversation reminders are added by selecting the **Conversation Reminder** button. You may choose to include an **+Add Overdue Reminder**.
-
->[!IMPORTANT]
-> At this time, no edits can be made to the Edit Converation Start Notification email message. You can, however, preview it as it is set. Select the **pencil symbol** on the **Communication Start Notification** row to open the Survey Invitation slider window. You may also change the language and preview the message in additional languages.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-edit-conversation-start.png" alt-text="Screenshot of the Edit Conversation Start Notification slider window on the Communications setup page.":::
 
@@ -98,18 +105,17 @@ Conversation reminders are added by selecting the **Conversation Reminder** butt
 
 ## Configure Nudges
 
-Set up who in your organization will receive [Nudges](https://go.microsoft.com/fwlink/?linkid=2231015) to promote continued action on feedback results. 
+Set up who in your organization can receive [Nudges](https://go.microsoft.com/fwlink/?linkid=2231015) to promote continued action on feedback results. 
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-nudges-button.png" alt-text="Screenshot of the Configure Nudges button on the Communications setup page.":::
 
-Selecting the **Configure Nudges** button opens the **Nudges** setup page on your admin dashboard. Follow the in-platform guidance.
+Select the **Configure Nudges** button to open the **Nudges** setup page on your admin dashboard. Follow the in-platform guidance.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-nudge-configuration.png" alt-text="Screenshot of the Nudges setup page on the admin dashboard.":::
 
-## Save edits to this page
+## Final saving of communication edits 
 
-After adding and editing reminder dates as needed, select the **right facing arrow** at the bottom right side of the page and then **Save and Continue.**
-
+After adding or editing reminder dates as needed, select the **right facing arrow** at the bottom of the page and then **Save and Continue.**
 
 ## Next Step
 
