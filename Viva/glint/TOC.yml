@@ -231,7 +231,7 @@ items:
            href: setup/reporting-setup.md
          - name: Communications setup in Program Summary
            href: setup/program-summary-communications.md
-         - name: Set up Coaching page in Program Summary
+         - name: Coaching setup in Program Summary
            href: setup/program-summary-coaching.md          
      - name: Setting up Employee Lifecycle surveys
        items:
