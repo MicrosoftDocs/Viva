@@ -68,7 +68,7 @@ If you want to include items in your survey invitation that cannot be supported 
 > [!TIP]
 > Always send your people a survey invite! Participation is essential for uncovering useful feedback.
 
-:::image type="content" source="../../media/glint/setup/comms-invite-slider.png" alt-text="Screenshot of the Survey Invitation slider window for the Communications setup page.":::
+:::image type="content" source="../../media/viva/glint/setup/comms-invite-slider.png" alt-text="Screenshot of the Survey Invitation slider window for the Communications setup page.":::
 
 ### Use Reminders
 
