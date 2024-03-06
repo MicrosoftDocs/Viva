@@ -459,19 +459,10 @@ This report should be created from the primary Workday admin account to avoid an
         
         f.	Go to filter and add 2 new “And” filters and input following values:
 
-        **Learning assignments**
-        |  |  |
-        | - | - |
-        |Field | Learning Assignments|
-        | Operator | is empty |
+        
+    - f.1. Field: Learning Assignment; Operator: is empty
+    - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
 
-        **Completion Status**  
-        | | | 
-        | - | - | 
-        | Field | Completion status  |
-        | Operator | in the selection list |
-        | Comparison Type |  value specified in the filter |
-        | Comparison Value | Completed |
 
     ![Screenshot of the Workday self enrollment completion prompts.](/viva/media/learning/workday-Self-enrollment-completion-prompts.png)
 
