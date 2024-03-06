@@ -70,8 +70,8 @@ Choose your languages and construct a header and coaching content. Select a reso
 
 Two more coaching sections need to be set up for managers with Team Conversations enabled. 
 
-> - [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602)
+ - [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602)
   
-> - [Set up resource guidance for managers using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2258496)
+ - [Set up resource guidance for managers using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2258496)
 
 
