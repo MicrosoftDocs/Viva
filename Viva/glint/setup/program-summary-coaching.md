@@ -1,5 +1,5 @@
 ---
-title: Set up Coaching page in Program Summary
+title: Coaching setup in Program Summary
 description: Admins can provide coaching assistance for their managers on their Team Summary dashboard.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,23 +15,25 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/25/2024
+ms.date: 03/06/2024
 ---
 
 # Set up Coaching page in Program Summary
 
-The final setup page in Program Summary is the Coaching page. On this page, admins can provide access to coaching assistance for their managers for Team Summary and Team Conversations.  
-
+The final setup page in Program Summary is the Coaching page. On this page, admins provide access to coaching assistance for their managers for  the [Team Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231210) and [Team Conversations](https://go.microsoft.com/fwlink/?linkid=2234345)
+ 
 :::image type="content" source="../../media/glint/reports/program-summary-coaching-access.png" alt-text="Screenshot of the Coaching setup access in Program Summary.":::
 
-When Team Conversations aren't enabled, admins have only one section to set up:
+## Sections requiring admin setup
+
+Without Team Conversations enabled, admins have only one section to set up:
 - **Manager Coaching Content**
 
 When Team Conversations are enabled, admins have two *more* sections to set up:
 - **Team Conversation Presentation Guidance**
 - **Team Conversation Resource Guidance**
 
-## Coaching set up for managers not using Team Conversations 
+## Coaching for managers not using Team Conversations 
 
 :::image type="content" source="../../media/glint/reports/program-summary-coaching-without-team-conversations.png" alt-text="Screenshot of the Manager Coaching Content section on the Coaching page.":::
 
@@ -60,15 +62,16 @@ Select the **Edit** symbol to open the following slider window:
 
 :::image type="content" source="../../media/glint/reports/program-summary-coaching-top-opps.png" alt-text="Screenshot of the Top Opportunities slider window.":::
 
-Choose your languages, construct a header and coaching content. Select a resource from the dropdown menu. **Save Changes**
+Choose your languages and construct a header and coaching content. Select a resource from the dropdown menu. **Save Changes**
 
-## Coaching set up for managers using Team Conversations
+## Coaching for managers using Team Conversations
 
 :::image type="content" source="../../media/glint/reports/progam-summary-coaching-with-team-conversations.png" alt-text="Screenshot of the Coaching setup page with Team Conversations enabled.":::
 
 Two more coaching sections need to be set up for managers with Team Conversations enabled. 
 
-- [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602) 
-- [Set up resource guidance for managers using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2258496)
+> - [Team Conversations presentation kit for managers](https://go.microsoft.com/fwlink/?linkid=2231602)
+  
+> - [Set up resource guidance for managers using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2258496)
 
 
