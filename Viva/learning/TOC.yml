@@ -45,7 +45,7 @@
               href: sharepoint-permissions.md
             - name: FAQs in SharePoint
               href: sharepoint-faq.md
-        - name: Workday:
+        - name: Workday
           items:
             - name: Workday
               href: workday-integration.md
