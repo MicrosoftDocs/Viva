@@ -231,7 +231,7 @@ items:
            href: setup/reporting-setup.md
          - name: Communications setup in Program Summary
            href: setup/program-summary-communications.md
-         - name: Set up Coaching page in Program Summary
+         - name: Coaching setup in Program Summary
            href: setup/program-summary-coaching.md          
      - name: Setting up Employee Lifecycle surveys
        items:
@@ -339,6 +339,20 @@ items:
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey participants
              href: communicate/survey-taker-faq.md
+      - name: View results and take action as a Viva Glint manager
+        items:
+           - name: Viva Glint's Survey Reports overview
+             href: reports/survey-reports-overview.md
+           - name: Make the most of Viva Glint reporting features
+             href: reports/report-analytics-filtering-favorability-trending.md
+           - name: Manager Quick Guide - Confidentiality
+             href: setup/quick-guide-confidentiality.md
+           - name: Manager Quick Guide to understanding and acting on results
+             href: setup/quick-guide-manager-doc-pitfalls.md
+           - name: Viva People Science explains focus areas and action planning
+             href: people-science/people-science-explains-focus-areas.md
+           - name: Take Actions with Viva Glint Team Conversations
+             href: reports/take-action-team-conversations.md
   - name: Understand and present results
     items:
        - name: Viva Glint Do-It-Yourself Insights Review Template
