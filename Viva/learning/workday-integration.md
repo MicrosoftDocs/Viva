@@ -25,7 +25,7 @@ description: Learn how to configure and manage Workday for Microsoft Viva Learni
 This document outlines how to configure Workday as a content source in Microsoft Viva Learning. The integration is based on Workday RaaS APIs (Report as a Service). Integration supports catalog, assignment, and completions data from Workday. Catalog covers Blended Courses, Digital courses, Lesson, Program, and External provider integrated on Workday.
 
 > [!NOTE]
-> Catalog, assignments, and completion data are retrieved using RaaS. Thumbnails for Workday hosted content is retrieved using APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. Thumbnails are stored in Viva Learning as metadata. This integration is based on Workday RaaS APIs, any breach in API contract might change the user experience.
+> Catalog, assignments, and completion data are retrieved using RaaS (REST APIs). Thumbnails for Workday hosted content is retrieved SOAP APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. The Workday-hosted thumbnails are stored in Viva Learning as metadata.
 
 
 ## Configuration to enable Workday integration
@@ -48,7 +48,7 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 
 ![Screenshot of the menu of Create Integration System User with account information fields.](/viva/media/learning/wd-s1-1-create-integration-system-user.png)
 3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
-4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**.
+4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**. It doesn’t need to be the same as the ISU name. 
     ![Screenshot of the type of tenanted security group and name fields](/viva/media/learning/wd-s1-2-create-security-group.png)
 5. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
     ![Screenshot of the Edit Integration System Security Group fields. ](/viva/media/learning/wd-s1-3-edit-integration-system.png)
@@ -167,6 +167,12 @@ This report should be created from master Admin account of Workday to avoid any 
 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
 
+1. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
+
+![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogEffectiveDate.png)
+
+
+
 4. Under “Group Column Headings”, add the below fields:
 
 | Business Object | Group column heading | Group column heading XML Alias |
@@ -257,7 +263,6 @@ This report should be created from master Admin account of Workday to avoid any 
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
-    ![Screenshot of the formatted columns fields in the Edit Custom Report](/viva/media/learning/wd-s3-1.png)
 
     2. **Add filters to the report**
         1. Add following values in “Filter on Instances”. Follow the steps mentioned below for adding calculated field. 
@@ -267,7 +272,7 @@ This report should be created from master Admin account of Workday to avoid any 
         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
 
-    ![Screenshot of the filter on instance fields in the Edit Custom Report](/viva/media/learning/wd-s3-2.png)
+
 
     3. Add the Prompts: Go to Prompts. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values.  
 
@@ -327,56 +332,56 @@ This report should be created from the primary Workday admin account to avoid an
 > [!NOTE]
 > The In progress status from Workday doesn't sync to Viva Learning.
 
-    1. Under “Group Column Headings”, add below fields
+1. Under “Group Column Headings”, add below fields
 
-    | Business Object | Group Column Heading XML Alias | 
-    | - | - | 
-    | Assigned By | Assigned_By_group |
-    | Learning Assignment | Learning_Assignment_group |
-    | Learning Content | Learning_Content_group |
-    | Worker | Worker_group |
+| Business Object | Group Column Heading XML Alias | 
+| - | - | 
+| Assigned By | Assigned_By_group |
+| Learning Assignment | Learning_Assignment_group |
+| Learning Content | Learning_Content_group |
+| Worker | Worker_group |
 
-    1. Under Prompt mark “Display Prompt Values in Subtitles” and, add following prompt values. You can directly copy paste these values. In “Default Value” field for “learning Organization for Learning Assignment”, provide default value of top organization (root organization) for which you need report being pivoted. 
+1. Under Prompt mark “Display Prompt Values in Subtitles” and, add following prompt values. You can directly copy paste these values. In “Default Value” field for “learning Organization for Learning Assignment”, provide default value of top organization (root organization) for which you need report being pivoted. 
 
-    | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
-    | - | - | - | - | - | - | 
-    |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
-    | Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
+| Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
+| - | - | - | - | - | - | 
+|  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
+| Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
-    1. Add date filters to the report for delta sync. 
+1. Add date filters to the report for delta sync. 
         1. Go to “Filters”. Select “+”, In “And/Or” select And. in “Field” select “create calculated field for report”.
         1. In next screen, write “Field name” as ModifiedDate and select “Function” as Build Date. Select **OK**.
         1. In next screen, add following values under Date Fields and select **OK**.
 
-        | Field | Value |
-        | - | - | 
-        | Extract Year from Date Field | Last Functionally Updated |
-        | Extract Month from Date Field | Last Functionally Updated |
-        | Extract Day from Date Field | Last Functionally Updated |
+    | Field | Value |
+    | - | - | 
+    | Extract Year from Date Field | Last Functionally Updated |
+    | Extract Month from Date Field | Last Functionally Updated |
+    | Extract Day from Date Field | Last Functionally Updated |
 
-        1. Add following values in remaining fields of the start filter:\
+    1. Add following values in remaining fields of the start filter:\
 
-        | Field | Value |
-        | - | - |
-        | Operator | Greater than or equal to |
-        | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-        | Comparison Value | Starting Prompt | 
+    | Field | Value |
+    | - | - |
+    | Operator | Greater than or equal to |
+    | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+    | Comparison Value | Starting Prompt | 
 
-        1. Add another filter and with following values and select “OK”.
+    1. Add another filter and with following values and select “OK”.
 
-        | Field | Value |
-        | - | - | 
-        | ModifiedDate | (No specified value) |
-        | Operator | Comparison Type | 
-        Comparison Value | less than or equal to |
-        | Prompt the user for the value and ignore the filter condition if the value is blank | Ending Prompt | 
+    | Field | Value |
+    | - | - | 
+    | ModifiedDate | (No specified value) |
+    | Operator | Comparison Type | 
+    |Comparison Value | less than or equal to |
+    | Prompt the user for the value and ignore the filter condition if the value is blank | Ending Prompt | 
 
-        1. Go to **Prompts**. 
-            1. Select **Populate Undefined Prompt Defaults**. This will add the start and ending prompt for Modified date, which is defined in previous step.
-            1. Add following values in the new prompts and select **OK**.
+    1. Go to **Prompts**. 
+        1. Select **Populate Undefined Prompt Defaults**. This will add the start and ending prompt for Modified date, which is defined in previous step.
+        1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
                 - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
-        2. Go to **Advanced**. Uncheck the field **Optimized for Performance**
+    2. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
     1. Save the report. Select **OK.**
     1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
@@ -464,13 +469,15 @@ This report should be created from the primary Workday admin account to avoid an
         | Comparison Type |  value specified in the filter |
         | Comparison Value | Completed |
 
-        1. Go to **Prompts**
-            1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
-            1. Add following values in the new prompts and select “OK”.
-                - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
-                - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
-        1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
-    1. Save the field. Select OK.
+    ### Modify the prompts
+
+    1. Go to **Prompts**
+        1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
+        1. Add following values in the new prompts and select “OK”.
+            - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
+            - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+    1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
+    1. Save the field. Select **OK**.
     1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
     1. Within next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
