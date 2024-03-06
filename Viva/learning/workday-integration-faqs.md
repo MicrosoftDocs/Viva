@@ -151,3 +151,18 @@ Special characters can be added on Workday in the content title and description.
 
 You need to regenerate it from the Workday portal and reconfigure Workday on Viva Learning with new parameters. 
 
+**23. Does Viva Learning supports learning journeys or paths from Workday?**
+
+We do not support these scenarios.
+
+**24. Are permissions from Workday supported in Viva Learning?**
+
+We do not support these scenarios.
+
+Can you provide a list of the end points that Viva Learning is accessing? 
+
+- [Learning SOAP API reference](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Learning.html)
+- [Get Learning Digital Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Digital_Courses.html)
+- [Get Learning Blended Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Blended_Courses.html)
+- [Get Learning Lesson](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Lessons.html)
+- [Get Learning Programs](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Programs.html)

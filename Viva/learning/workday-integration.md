@@ -184,7 +184,14 @@ This report should be created from master Admin account of Workday to avoid any 
     1. Create a new filter condition by selecting “Create Calculated Field for Report” under Fields section.
     
     ![Screenshot of a report with a new filter condition](/viva/media/learning/wd-s2.2-4.png)
+
+    6. Add the following values to create the calculated field "ModifiedDate."
+        - Field name: **ModifiedDate**
+        - Go to calculations, under "Field type," select **Date**"
+        - For year, month, and day, select **Extract Year from Date Field**. Enter the field value as **Last Functionality Updated**.
     
+    ![Screenshot of a report](/Viva/media/learning/workday-catalog-RaaS-modifiedDate.png)
+
     1. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
         
     | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
@@ -272,8 +279,6 @@ This report should be created from master Admin account of Workday to avoid any 
         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
 
-
-
     3. Add the Prompts: Go to Prompts. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values.  
 
     | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | Don't prompt at run time| 
@@ -285,8 +290,6 @@ This report should be created from master Admin account of Workday to avoid any 
     | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | | Yes | 
     | Hire Date | Ending Prompt | End_Date | End_Date | No default value | | Yes | |
 
-    ![Screenshot of the formatted display prompts fields in the Edit Custom Report](/viva/media/learning/wd-s3-3.png)
-
     4. Go to **Advanced** and select the field `Optimized for Performance.` 
 
     4. Share the report with Integrated System User, which you created while enabling catalog sync.
@@ -295,7 +298,6 @@ This report should be created from master Admin account of Workday to avoid any 
 
     6. Once configuration is complete on Admin portal, within next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
 
-![Screenshot of saved version of the Edit Custom Report](/viva/media/learning/wd-s3-6.png)
 
 ### Create RaaS report on Workday portal for assignment by organization and their completion status
 
@@ -414,6 +416,8 @@ This report should be created from the primary Workday admin account to avoid an
     | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
     | Learning Enrollment | Record Start Date | StartDate | StartDate | 
 
+    ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
+
     1. Add the fields in “Columns” as per below schema. You see two objects for “learning Assignment”, select the one with a blue icon next to it.
 
     2. Under “Group Column Headings”, add these fields: 
@@ -469,10 +473,15 @@ This report should be created from the primary Workday admin account to avoid an
         | Comparison Type |  value specified in the filter |
         | Comparison Value | Completed |
 
+    ![Screenshot of the Workday self enrollment completion prompts.](/viva/media/learning/workday-Self-enrollment-completion-prompts.png)
+
     ### Modify the prompts
 
     1. Go to **Prompts**
         1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
+    
+        ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-Self-enrollment-completion-filters.png)
+
         1. Add following values in the new prompts and select “OK”.
             - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
             - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
