@@ -56,10 +56,10 @@ Select the **pencil symbol** to edit the invite template and then the **eyeball 
 
 The language dropdown menu provides options that are preset for this program.
 
-Note the following:
+Note the following information:
 - Edits made to the survey invitation are for this program only.
 - Switching from **edit** to **preview** - and also when switching languages - automatcially saves changes.
-- Use only plain text if customizing this invite template. URLs, HTML or other markdown may lead to errors and subsequent mail blocking.
+- Use only plain text if customizing this invite template. URLs, HTML, and other markdown may lead to errors and subsequent mail blocking.
 
 ### Disabling the survey invitation
 
@@ -75,11 +75,11 @@ If you want to include items in your survey invitation that cannot be supported 
 You may send up to three reminders during the survey window and also a final reminder.
 
 >[!TIP]
->Send 2 survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
+>Send two survey reminders per program. Survey takers will only receive reminders if they haven't completeled their survey. 
 
-Use the **Pencil symbol** to open the slider window and then:
+Use the **Pencil symbol** to open the slider window and then you'll be able to:
 
-- Change reminders send dates already preset
+- Change reminder send dates already preset.
 - Preview your reminder. At this time, the reminder message cannot be edited. You may change the language and preview the message in other languages.
 
 ### Add survey reminders
