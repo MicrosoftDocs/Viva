@@ -228,6 +228,7 @@ items:
            href: setup/program-summary-communications.md
          - name: Coaching setup in Program Summary
            href: setup/program-summary-coaching.md
+           items:
              - name: Set up resource guidance for managers using Team Conversations
                href: reports/team-conversations-resource-guidance.md
          - name: Admin setup for Team Conversations
