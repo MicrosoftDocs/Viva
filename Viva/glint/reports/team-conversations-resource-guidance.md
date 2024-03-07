@@ -22,7 +22,7 @@ ms.date: 03/07/2024
 
 ## Add resources to the Team Conversations kit from Program Summary
 
-From the **Coaching** tab, in the bottom section - *Team Conversations Resource Guidance* - enable or disable guidance by switching to **On** or **Off**. Enabling guidance allows you to select a resource from the dropdown menu. Guidance is specific to the process of conversations. Guidance doesn't correlate with the focus area a team is working on. 
+From the **Coaching** tab, in the bottom section - *Team Conversations Resource Guidance* - enable or disable guidance by switching to **On** or **Off**. Enabling guidance allows you to select a resource from the dropdown menu. Guidance is specific to the process of conversations. Guidance doesn't correlate with the focus area a team is working on. There are many, many resources to choose from!
 
 :::image type="content" source="../../media/glint/setup/team-conversations-resource-guidance.png" alt-text="Screenshot of the Team Conversation Resource Guidance section for admin configuration.":::
 
