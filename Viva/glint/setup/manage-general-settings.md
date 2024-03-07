@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: 
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 03/07/2024
 ---
 
 # Admin management of the General Settings feature in Viva Glint 
@@ -119,9 +119,23 @@ Edit the following:
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
-|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area  |
+|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around this follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that will show on the dashboard and in reporting.    |
-|**Self-Serve Mode**   |When Edit and Create is selected, this allows users with the correct user role permissions to edit and create surveys.   |  
+|**Self-Serve Mode**   |When Edit and Create is selected, this allows users with the correct user role permissions to edit and create surveys.   | 
+
+### Choosing the Focus Area privacy setting
+
+The default setting for this setting within *Features* is **Public**. 
+
+:::image type="content" source="../../media/glint/setup/general-settings-privacy-feature.png" alt-text="Screenshot of the default setting for Focus Area Privacy in General Settings.":::
+
+There are other options, in addition to the *Public* default setting:
+
+- Visible to Manager
+- Visible to Manager and Directs - If visibility is set to *Manager and Directs*, the user creating the focus area must have a manager and a direct report *who is also a manager.*
+- Visible to Manager and Full Team
+
+:::image type="content" source="../../media/glint/setup/focus-area-privacy-dropdown.png" alt-text="Screenshot of the dropdown menu for Focus Area Privacy in General Settings." lightbox="../../media/glint/focus-area-privacy-dropdown.png":::
 
 ## Set up the Technical Configuration section 
 
