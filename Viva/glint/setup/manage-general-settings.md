@@ -135,7 +135,7 @@ There are other options, in addition to the *Public* default setting:
 - Visible to Manager and Directs - The user creating the focus area must have a manager and a direct report *who is also a manager* to use this option.
 - Visible to Manager and Full Team
 
-:::image type="content" source="../../media/glint/setup/focus-area-privacy-dropdown.png" alt-text="Screenshot of the dropdown menu for Focus Area Privacy in General Settings." lightbox="../../media/glint/focus-area-privacy-dropdown.png":::
+:::image type="content" source="../../media/glint/setup/focus-area-privacy-dropdown.png" alt-text="Screenshot of the dropdown menu for Focus Area Privacy in General Settings." lightbox="../../media/glint/setup/focus-area-privacy-dropdown.png":::
 
 ## Set up the Technical Configuration section 
 
