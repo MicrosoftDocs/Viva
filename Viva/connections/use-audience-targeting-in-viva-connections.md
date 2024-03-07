@@ -81,7 +81,7 @@ Apply audience targeting to [SharePoint news posts](https://support.microsoft.co
 
 2. Select the library where the news post is located. select **Settings** again and then select **Library settings**.
 
-3. Under G**eneral settings**, select **Audience targeting settings**. Then select the checkmark box next to **Enable audience targeting** and then select **OK**.
+3. Under **General settings**, select **Audience targeting settings**. Then select the checkmark box next to **Enable audience targeting** and then select **OK**.
 
 4. Next, navigate to the news post in **Site contents**. Select the news post you want to apply audiences to and select **Page details** from the command bar.  
 
@@ -91,27 +91,29 @@ Apply audience targeting to [SharePoint news posts](https://support.microsoft.co
 
 ## Apply audience targeting to links in resources  
 
-Resources are the navigation links that display in the Resources tab in the mobile app and are inherited from the SharePoint global navigation. You can apply audience targeting to individual links for specific audiences. Global navigation can only be edited from the SharePoint home site. [Follow these instructions first if you're setting up global navigation for the first time.](sharepoint-app-bar.md)  
+Resources are the navigation links that display beneath the dashboard. You can provide another level of customization to your Resource links by applying audience targeting. Resource links that have audience targeting applied will only appear to users who are part of the selected audience.
 
-> [!NOTE]
->
-> - You must be a site owner of the [SharePoint home site](/sharepoint/home-site) to edit global navigation.
-> - When audience targeting is applied to a parent link, audience targeting also gets applied to the sub-links.  
-> - While editing the navigation, all links and sub-links become visible to the editor, including those that are targeted. When saved, the navigation shows the targeted nodes.
+For example, an organization could use audience targeting to provide a set of resource links for users working in Human Resources that would only be seen by these employees.
 
-1. Go to your organization’s SharePoint home site, select **Settings**, and then select **Global navigation**.
+1. Start by selecting **Edit** in the Resources section of your Connections experience.
 
-2. In the panel, under **Navigation source**, select **Edit global navigation**.  
+2. Hover over the resource link and select the **ellipsis**.
 
-3. Turn the **Enable site navigation audience targeting** toggle at the bottom of the global navigation pane to **On**.
+3. Select **Edit**.
 
-4. Select the ellipses **(…)** next to each navigational link and select **Edit** from the dropdown.  
+:::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
 
-5. Apply up to 10 security groups to the **Audiences to target** field. Select **OK** when you're done.  
+4. Under **Audiences to target**, enter the M365 group(s) that you want to see the resource link. Up to 10 audiences can be targeted.
 
-    :::image type="content" source="../media/connections/security-groups-target-audiences.png" alt-text="Image of security groups target audiences":::
+5. Select **Save**.
 
-6. When you're finished targeting links, select **Save** and **Republish** the SharePoint home site for audience targeting to take effect.
+:::image type="content" source="../media/connections/edit-viva-home/atr-add-at-to-existing-resources.png" alt-text="Screenshot of the resource link properties menu with the audiences to target field highlighted."lightbox="../media/connections/edit-viva-home/atr-add-at-to-existing-resources.png":::
+
+6. Links that have been targeted to specific audiences will display an audience targeting icon in the upper left of the resource link.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
+
+See [customizing resources](edit-viva-home.md#customize-resources) for more information.
 
 ### More resources
 

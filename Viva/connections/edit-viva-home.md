@@ -182,6 +182,7 @@ Create targeted, time-sensitive messages that display at the top of your Viva Co
 Change the banner image in the header and set the focal point for the image. The banner image and focal point can only be set on the desktop app but will be visible across desktop and mobile.
 
 > [!NOTE]
+>
 > - The greeting is automatically generated and cannot be customized.
 > - Depending on your organization’s license type, you may see additional dynamic information displayed in the banner.
 > - The banner image and focal point will resize when viewed via the tablet and mobile app.
@@ -197,6 +198,7 @@ To change the banner image:
 Further customize your Connections experience and SharePoint home site by applying preexisting [SharePoint themes](https://support.microsoft.com/office/320b43e5-b047-4fda-8381-f61e8ac7f59b) or a [custom theme](/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-powershell) to reflect your organizational brand colors consistently across all instances of your desktop, tablet, and mobile experiences. Users can apply themes from within their Connections experience, or SharePoint home site. Only users who have permissions to edit the Connections experience will be able to apply themes.
 
 > [!NOTE]
+>
 > - Applying themes to your Connections experience is currently available to targeted release customers only, with a full rollout to general audiences by early Q1 in 2024.
 > - If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
 
@@ -232,6 +234,7 @@ To apply a SharePoint or custom theme:
 The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard will also automatically be applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
+>
 > - If your organization already has Viva Connections set up, you’ll see your existing cards and settings displayed in the new home experience.
 > - If your organization doesn’t already have Viva Connections set up, you’ll see a set of default cards that need minimal configuration.  
 
@@ -245,22 +248,11 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources give access to the most popular portals and destinations at your organization. The Resources section displays below the dashboard of the Connections experience and can also be accessed by selecting the app’s icon in the Teams app bar from the landing experience. Links in Resources can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources). Edits made to the Resources section also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience) and [SharePoint global navigation](sharepoint-app-bar.md) when it’s enabled.
+Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Links in the Resources section can be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources) and any edits made will also impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
-> - The update to the resource section is currently available to targeted release customers, with a planned roll out to all users by the end of Q1 2024.
-> - Edits made to the Resource section won't reflect to the mobile experience at this time.
-> - The updated resource section doesn't feature audience targeting at this time, but is planned for a future update.
-> - Content in Frequent and Followed sites are dynamically displayed based on the viewers interests and activity and can't be edited.
-
-**If you have a SharePoint home site:**
-If you have already set up navigational links in the [SharePoint global navigation](sharepoint-app-bar.md), you’ll see the same content in Resources. When edits are made in Resources from Viva Connections in Teams, the same labels and links in global navigation will be edited at the same time.
-
-> [!NOTE]
-> The updated resources experience will replace the current global navigation in the resources section of the Viva Connections Desktop experience. Global navigation will still be accessible by clicking on the Connections icon in the Teams app bar. In addition, global navigation will continue to exist in other places as well in the SharePoint ecosystem, such as the SharePoint app bar and your SharePoint home site. This will allow you to access the apps and sites that you have previously pinned or frequently visited.
-
-**If you do not have a SharePoint home site:**
-Editing Resources in the Viva Connections desktop experience won't have an effect in SharePoint or any other Microsoft 365 experience.
+>
+> Global navigation can be accessed by clicking on the **Connections** icon in the Teams app bar. [Refer to this document if you're setting up global navigation for the first time.](sharepoint-app-bar.md)
 
 ### To edit Resources
 
@@ -268,14 +260,58 @@ Editing Resources in the Viva Connections desktop experience won't have an effec
 
 2. To add a new link, select **+ Add Link**.  
 
+:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing options to add a link, reorder links, or finish editing (done)."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+
 3. In the Add a Link window that opens, paste the link to the site in the **URL** field.
     - Only modern SharePoint sites and certain Microsoft 365 experiences will display in Teams. All other types of content will open in a separate browser window.
 
 4. Enter a **Display name**.
 
-5. Under Thumbnail, select to either have the icon representing the link **auto-selected** based on the URL, or to select from a list of pre-existing **icons**.
+5. Under Thumbnail, select a choice to represent your resource link:
+    - **Auto-selected**: the icon will be generated based on the URL, if applicable (a link icon will display by default if one cannot be auto-generated).
+    - **Icon**: choose an icon from a pre-existing list by selecting **edit icon**.
 
-6. Select **Save** to share with others.
+6. To apply audience targeting to this resource, enter the M365 group(s) in the **Audiences to target** field (up to 10 audiences can be targeted). Learn more about [audience targeting for resources](use-audience-targeting-in-viva-connections#apply-audience-targeting-to-links-in-resources).
+
+7. Select **Save**.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the add a link properties."lightbox="../media/connections/edit-viva-home/atr-audiences-to-target.png":::
+
+8. The new resource will appear. If audience targeting has been applied, you’ll see an icon in the upper left of the resource link.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
+
+### Edit an existing resource link
+
+1. Start by selecting **Edit** in the Resources section of your Connections experience.
+
+2. Hover over the resource link and select the **ellipsis**.
+
+3. Select **Edit** to open the resource link and change its settings.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
+
+### Delete and existing resource link
+
+1. Start by selecting **Edit** in the Resources section of your Connections experience.
+
+2. Hover over the resource link and select the **ellipsis**.
+
+3. Select **Delete**.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-delete-resource.png":::
+
+4. When asked to confirm, select **Delete**.
+
+### Reorder existing resource links
+
+1. Start by selecting **Edit** in the Resources section of your Connections experience.
+
+2. Select **Reorder**.
+
+:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+
+3. Select a resource link and drag it to its new location.
 
 ## Learn more about how to influence content in the feed
 
@@ -347,7 +383,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 
    **Example:**
 
-   Contoso’s SharePoint home site URL is https://contoso.sharepoint.com/sites/homeSite in this example.
+   Contoso’s SharePoint home site URL is <https://contoso.sharepoint.com/sites/homeSite> in this example.
 
    **To set the default landing to the SharePoint home site:**
 
@@ -358,6 +394,7 @@ If your organization already has a SharePoint home site and you want to keep it 
    `Set-SPOHomeSite -HomeSiteUrl "https://contoso.sharepoint.com/sites/homeSite" -VivaConnectionsDefaultStart $false`
 
 > [!NOTE]
+>
 > - It may take up to 15 minutes to see the updated default landing experience.
 > - If you change the SharePoint home site to a different SharePoint home site, it may take up to a week for users in Viva Connections to be directed to the new site. However, users can logout and log back in to clear the cache to view the new SharePoint home site sooner.
 
