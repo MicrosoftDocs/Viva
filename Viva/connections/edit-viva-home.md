@@ -22,7 +22,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how to customize and edit the Viva Connections home experience"
+description: "Learn how to customize and edit the Viva Connections home experience."
 ---
 
 # Customize and edit the Viva Connections experience
@@ -383,7 +383,7 @@ If your organization already has a SharePoint home site and you want to keep it 
 
    **Example:**
 
-   Contoso’s SharePoint home site URL is <https://contoso.sharepoint.com/sites/homeSite> in this example.
+   Contoso’s SharePoint home site URL is `https://contoso.sharepoint.com/sites/homeSite` in this example.
 
    **To set the default landing to the SharePoint home site:**
 

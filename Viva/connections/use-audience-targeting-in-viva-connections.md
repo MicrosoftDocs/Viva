@@ -113,7 +113,7 @@ For example, an organization could use audience targeting to provide a set of re
 
 :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
 
-See [customizing resources](edit-viva-home.md#customize-resources) for more information.
+Learn more about [customizing resources](edit-viva-home.md#customize-resources).
 
 ### More resources
 
