@@ -1,5 +1,5 @@
 ---
-title: Access to Viva Glint raw survey responses
+title: Access Viva Glint raw survey responses
 description: Admins can export employee data and raw data from Viva Glint programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 12/18/2023
 ---
 
-# Access to Viva Glint raw survey responses
+# Access Viva Glint raw survey responses
 
 ## What are raw survey responses?
 
