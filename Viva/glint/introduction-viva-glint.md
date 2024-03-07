@@ -48,7 +48,7 @@ Implementing recurring and ad-hoc Viva Glint survey programs helps your organiza
 - review data driven feedback to study employee success drivers.
 - translate insights into action and track feedback progress.
 
-## Connect and Learn with Microsoft Viva Glint
+## Connect and learn with Microsoft Viva Glint
 
 Viva Glint offers a world of resources for admins, managers, and their teams:
 
@@ -62,7 +62,36 @@ Viva Glint offers a world of resources for admins, managers, and their teams:
    :::column-end:::
    Training paths
 :::row-end:::
-   
+:::row:::
+   :::column span="3":::
+
+   :::column-end:::
+   :::column span="3":::
+  
+   :::column span="3":::
+   :::column-end:::
+  
+:::row-end:::
+:::row:::
+   :::column span="3":::
+
+   :::column-end:::
+   :::column span="3":::
+  
+   :::column span="3":::
+   :::column-end:::
+  
+:::row-end:::   
+:::row:::
+   :::column span="3":::
+
+   :::column-end:::
+   :::column span="3":::
+  
+   :::column span="3":::
+   :::column-end:::
+  
+:::row-end:::   
       
      
 
