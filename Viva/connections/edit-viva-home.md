@@ -271,7 +271,7 @@ Resources provide links to the most popular portals and destinations at your org
     - **Auto-selected**: the icon will be generated based on the URL, if applicable (a link icon will display by default if one cannot be auto-generated).
     - **Icon**: choose an icon from a pre-existing list by selecting **edit icon**.
 
-6. To apply audience targeting to this resource, enter the M365 group(s) in the **Audiences to target** field (up to 10 audiences can be targeted). Learn more about [audience targeting for resources](use-audience-targeting-in-viva-connections#apply-audience-targeting-to-links-in-resources).
+6. To apply audience targeting to this resource, enter the M365 group(s) in the **Audiences to target** field (up to 10 audiences can be targeted). Learn more about [audience targeting for resources](use-audience-targeting-in-viva-connections.md#apply-audience-targeting-to-links-in-resources).
 
 7. Select **Save**.
 
@@ -309,7 +309,7 @@ Resources provide links to the most popular portals and destinations at your org
 
 2. Select **Reorder**.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing the option to reorder links."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
 
 3. Select a resource link and drag it to its new location.
 
