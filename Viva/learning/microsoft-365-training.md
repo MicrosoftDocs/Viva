@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 training
+title: Microsoft 365 training in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo

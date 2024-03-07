@@ -1,5 +1,5 @@
 ---
-title: Microsoft Learn
+title: Microsoft Learn provider in Viva Learning
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
