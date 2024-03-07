@@ -23,7 +23,7 @@ ms.date: 03/08/2024
 
 # Introduction to Microsoft Viva Glint
 
-Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from their people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
+Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
 
 ## Watch this short video for a Viva Glint introduction 
 
@@ -31,7 +31,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 ## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint)
 
-The Microsoft Viva People Science team continually researches data to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
+The Microsoft Viva People Science team continually researches to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
 
 The Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow reimagination of the many Viva apps, including Viva Glint, to deliver exceptional and impactful experiences in the workplace.
 
@@ -47,3 +47,17 @@ Implementing recurring and ad-hoc Viva Glint survey programs helps your organiza
 - predict opportunities and risks.
 - review data driven feedback to study employee success drivers.
 - translate insights into action and track feedback progress.
+
+## Connect and Learn with Microsoft Viva Glint
+
+Viva Glint offers a world of resources for admins, managers, and their teams:
+
+:::row:::
+   :::**Viva Glint Community**="2":::
+   :::column-end:::
+   :::**Documentation**
+   :::column-end:::
+   
+      
+     
+
