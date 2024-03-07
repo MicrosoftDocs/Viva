@@ -59,7 +59,7 @@
             - name: Microsoft Learn
               href: microsoft-learn.md
             - name: Microsoft 365 training
-              href: microsoft-365-training  
+              href: microsoft-365-training.md  
             - name: Go1
               href: configure-go1-content-source.md
             - name: OpenSesame
