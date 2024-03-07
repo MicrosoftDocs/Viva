@@ -67,7 +67,7 @@ This section describes why each of the following behaviors matter and the top be
 
 Long and large meetings are costly and often a waste of manager time. Shorter and smaller meetings provide the best conditions for effective decision making.
 
-[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
+To optimize meetings:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
 * Use [Manager insights in Workplace Analytics](/viva/insights/manager-insights/introduction) to help identify ways to support team behavior.
