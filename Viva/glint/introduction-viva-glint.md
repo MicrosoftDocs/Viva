@@ -29,11 +29,11 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## [Understand how Microsoft Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint)
+## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint)
 
-The Viva People Science team continually researches data to curate survey items and develop survey templates which study the key core drivers that motivate people in the current world of work.
+The Microsoft Viva People Science team continually researches data to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
 
-The Microsoft Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow reimagination of the many Viva apps, including Viva Glint, to deliver exceptional and impactful experiences in the workplace.
+The Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow reimagination of the many Viva apps, including Viva Glint, to deliver exceptional and impactful experiences in the workplace.
 
 ### [Read Viva People Science blogs in the Viva Glint community](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog)
 
