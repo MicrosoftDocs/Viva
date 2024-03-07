@@ -1,5 +1,5 @@
 ---
-title: Changing survey item IDs for expired survey cycles
+title: Change survey item IDs for expired survey cycles
 description: Comparing survey trend is essential to tracking progress over time. When a survey is retired, you can still use the data for an item from that survey as a comparison in a new survey which uses the identical item, by changing the item ID. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/21/2024
 ---
 
-# Changing survey item IDs for expired survey cycles
+# Change survey item IDs for expired survey cycles
 
 > [!IMPORTANT]
 > The platform feature allowing admins to change survey item ID numbers releases on March 9, 2024.
