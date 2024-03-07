@@ -1,5 +1,5 @@
 ---
-ms.date: 2/27/2024
+ms.date: 3/06/2024
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -28,6 +28,8 @@ The Microsoft Copilot Dashboard (Preview) in Viva Insights helps organizations m
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level.
 
 For customers who are part of the preview, the dashboard is automatically available to select users within the Viva Insights app.
+
+To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
 :::image type="complex" source="images/copilot-dashboard-06.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dashboard-06.png":::
 Screenshot that shows the Copilot Dashboard.
@@ -166,7 +168,7 @@ The metrics on this page represent aggregations over the prior 28 days with a ty
 
 ### Sentiment
 
-This page provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
+Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
 
 **Suggested Copilot survey questions**
 
@@ -187,7 +189,7 @@ Microsoft 365 admins can upload survey results through Adoption Score in the Mic
 
 ### News & research
 
-Research around the impacts of AI on workplace productivity is evolving quickly. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
+Under the Learning tab, here you'll find research around the impacts of AI on workplace productivity. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
 
 ## FAQs
 
@@ -202,6 +204,10 @@ No, the report does not use any Viva Insights data in the process of computing t
 **The values I'm seeing are just "--," with a banner that reads, "Not enough activity data from the past 28 days to show all insights." What's happening?**
 
 To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
+
+**In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
+
+Your M365 admin has not uploaded any survey data for your organization. Use the steps above to upload it.
 
 **What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
