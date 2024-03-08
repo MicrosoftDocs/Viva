@@ -47,18 +47,18 @@ Our customer events cover a range of hot topics which are sourced from our custo
 
 ## Join a Learning Circle or customer cohort
 
-[**Learning Circles**](https:https://techcommunity.microsoft.com/t5/viva-glint/eb-p/Viva_Glint_Events) foster a collaborative learning environment to share knowledge, experiences, and challenges with your peers and grow your understanding and usage of Viva Glint products and services. There are open registration windows throughout the year to sign up for our Learning Circles. Look for notifications on Viva Glint Community, and our newsletters. 
+**Learning Circles** foster a collaborative learning environment to share knowledge, experiences, and challenges with your peers and grow your understanding and usage of Viva Glint products and services. There are open registration windows throughout the year to sign up for our Learning Circles. Look for notifications on Viva Glint Community, and our newsletters. 
 
-[**Customer cohorts**](NEED LINK)  facilitate connections between customers grouped by shared background (e.g., industry), shared purpose (e.g., culture transformation) or shared interest (e.g., AI).
+**Customer cohorts** facilitate connections between customers grouped by shared background (e.g., industry), shared purpose (e.g., culture transformation) or shared interest (e.g., AI).
 
 
 ## Provide feedback as part of our product council
 
-Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. [**Product councils**](https://learn.microsoft.com/viva/glint/setup/works-council) run quarterly in different regions.
+Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. [**Product councils**](../../viva/glint/setup/works-council) run quarterly in different regions.
 
 ## Engage with your peers through discussion posts
 
-The Viva Community provides a space to ask questions and share ideas with experts and peers. We know customers benefit by learning the best practices of others and sharing ideas. [**Use this discussion space**](NEED LINK) 
+The Viva Community provides a space to ask questions and share ideas with experts and peers. We know customers benefit by learning the best practices of others and sharing ideas.  
 
 ## Stay up to date with our recurring newsletter
 
