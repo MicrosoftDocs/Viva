@@ -27,8 +27,8 @@ Viva Glint is committed to engaging with our customers and empowering Viva Glin
 ## Go-to-websites for Viva Glint
 
 - [**Viva Glint Community**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint): One-stop-shop for all things Viva Glint – content, conversation, events, and more. 
-- [**Viva Glint Documentation**](https://learn.microsoft.com/viva/glint/introduction-viva-glint): Technical documentation for configuring and launching Viva Glint programs using our best practices. 
-- [**Viva Glint Learning Paths**](https://learn.microsoft.com/viva/glint/start/viva-glint-learning-paths-and-modules): Explore a topic through guided paths or learn to accomplish a specific task through an individual module.
+- **Viva Glint Documentation**: Technical documentation for configuring and launching Viva Glint programs using our best practices. 
+- **Viva Glint Learning Paths**: Explore a topic through guided paths or learn to accomplish a specific task through an individual module.
 - [**Viva Glint Adoption**](https://adoption.microsoft.com/viva/glint/): Use how-to guides and marketing materials to assist with your Glint deployment.
 - [**Viva Glint Support**](https://support.microsoft.com/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08): Documentation and support for Viva Glint survey takers. 
 
@@ -54,7 +54,7 @@ Our customer events cover a range of hot topics which are sourced from our custo
 
 ## Provide feedback as part of our product council
 
-Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. [**Product councils**](../../viva/glint/setup/works-council) run quarterly in different regions.
+Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. [**Product councils**](../..//glint/setup/works-council) run quarterly in different regions.
 
 ## Engage with your peers through discussion posts
 
