@@ -293,15 +293,15 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 3. Under **M365 Copilot Impact Survey data upload**, select **Start**. If you previously uploaded survey data, this new import will replace the old data.
 
-:::image type="complex" source="images/copilot-dash-upload-01.png" alt-text="Screenshot that shows the first steps to upload the survey data." lightbox="images/copilot-dash-upload-01.png":::
-Screenshot that shows the first steps to upload the survey data.
-:::image-end:::
+   :::image type="complex" source="images/copilot-dash-upload-01.png" alt-text="Screenshot that shows the first steps to upload the survey data." lightbox="images/copilot-dash-upload-01.png":::
+   Screenshot that shows the first steps to upload the survey data.
+   :::image-end:::
 
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
-:::image type="complex" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
-Screenshot that shows the final steps to upload the survey data.
-:::image-end:::
+   :::image type="complex" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
+   Screenshot that shows the final steps to upload the survey data.
+   :::image-end:::
 
 ### News & research
 
