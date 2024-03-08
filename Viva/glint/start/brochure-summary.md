@@ -54,7 +54,7 @@ Our customer events cover a range of hot topics which are sourced from our custo
 
 ## Provide feedback as part of our product council
 
-Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. [**Product councils**](../../glint/setup/works-council) run quarterly in different regions.
+Be part of a community that provides our Viva Glint teams with feedback on how we can improve our products and services. **Product councils** run quarterly in different regions.
 
 ## Engage with your peers through discussion posts
 
