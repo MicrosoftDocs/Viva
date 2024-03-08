@@ -1,6 +1,6 @@
 ---
-ms.date: 01/04/2024
-title: Introduction to Copilot in Viva Goals
+ms.date: 03/07/2024
+title: Copilot in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
 author: DefinitelyNotNitza
@@ -22,14 +22,34 @@ search.appverid:
 description: "Learn how to use Copilot in Viva Goals to create, share, manage, and summarize organizational goals."
 ---
 
-# Deploy Microsoft Copilot in Viva Goals
+# Copilot in Viva Goals
 
 Microsoft Copilot in Viva Goals lets you leverage next-gen AI to create, share, manage, and summarize your organizational goals quicker and easier than ever. It offers in-app guidance for creating and refining goals, providing a productivity boost to users regardless of their familiarity with whatever goals framework their team follows.
 
-## Prerequisites
+## Licensing requirements
 
-During the preview, the Copilot feature in Viva Goals will be disabled by default. In order for users to access Copilot in Viva Goals, the organization's tenant admin must enable Copilot in Viva Goals from the Admin portal. Tenant admins have complete control over the rollout of Copilot in Viva Goals within their organization. They can also decide which users or security groups are allowed to access Copilot. Tenant admins can access these and other Copilot admin settings by selecting the Viva Goals admin center icon in the top right and scrolling to **Who can see Viva Goals in *tenant*?** under the **General** tab.
+Customers with a *Viva Suite* or *Viva Goals Standalone* license, or a trial version of either, can activate Copilot in the Viva Goals admin center.
 
-![Screenshot that shows a view of a product team's OKRs and emphasizes the Admin portal icon.](..\media\goals\copilot\admin-portal.png)
+## Configure Copilot in Viva Goals
 
-![Screenshot that shows the Admin portal and emphasizes the setting for deciding who can see Viva Goals Copilot in the tenant.](..\media\goals\copilot\who-can-see-copilot.png)
+Microsoft 365 Global administrators have complete control over the rollout of Copilot in Viva Goals within their organization. They can access Copilot settings from the Viva Goals admin center.
+
+1. To access the Copilot settings, go to the Viva Goals [admin center](https://goals.microsoft.com/admin_center).
+
+    :::image type="content" alt-text="Screenshot that shows a view of a product team's OKRs and emphasizes the Admin portal icon." source="..\media\goals\copilot\admin-portal.png" lightbox="..\media\goals\copilot\admin-portal.png":::
+
+1. Go to **General** > **Who can see Viva Goals Copilot in *tenant*?** and choose who you want to be able to use Copilot in your organization. The "Anyone" option is selected by default, but you can disable Copilot or enable it for specific users or groups.
+
+    :::image type="content" alt-text="Screenshot that shows the Admin portal and emphasizes the setting for deciding who can see Viva Goals Copilot in the tenant." source="..\media\goals\copilot\who-can-see-copilot.png" lightbox="..\media\goals\copilot\who-can-see-copilot.png":::
+
+1. Select **Save**.
+
+## Related
+
+- [Introduction to Microsoft Copilot in Viva Goals](https://support.microsoft.com/en-us/topic/introduction-to-microsoft-copilot-in-viva-goals-a1c1a5f1-9135-495b-969a-6a6172305ecc)
+
+- [Use Copilot in Viva Goals to create, summarize, and understand goals](https://support.microsoft.com/en-us/topic/use-copilot-in-viva-goals-to-create-summarize-and-understand-goals-11bf3612-669c-49b1-99f4-93b942ba5099)
+
+- [Copilot in Viva Goals FAQ](https://support.microsoft.com/en-us/topic/copilot-in-viva-goals-faq-31e9fbac-6214-4052-958f-9e766fd8b0e3)
+
+- [Data, privacy, and security for Copilot in Viva Goals](vg-privacy-and-security.md#copilot-in-viva-goals)
