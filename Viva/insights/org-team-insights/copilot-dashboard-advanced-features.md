@@ -50,9 +50,7 @@ Let's dive in to this advanced set of features.
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-:::image type="complex" source="images/copilot-dash-scope.png" alt-text="Screenshot that shows the Scope tool." lightbox="images/copilot-dash-scope.png":::
-Screenshot that shows the Scope tool.
-:::image-end:::
+:::image type="content" source="images/copilot-dash-scope.png" alt-text="Screenshot that shows the Scope tool.":::
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
 
