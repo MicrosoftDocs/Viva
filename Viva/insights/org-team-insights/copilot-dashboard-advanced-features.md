@@ -122,8 +122,8 @@ Screenshot that shows the second group of adoption metrics.
 
 | Action | What can they do |
 |---|---|
-| View by | Default view: Team (with 20 values) <br> </br> Users can change this to view the data by other organizational attributes like Organization and Job function. |
-| Filters | Default view: No filters. <br> </br> Users can apply filters on three organizational attributes: Team, Organization, and Job function. |
+| View by | Default view: Group (with 20 values) <br> </br> Users can change this to view the data by other organizational attributes like Organization and Job function. |
+| Filters | Default view: No filters. <br> </br> Users can apply filters on three organizational attributes: Group, Organization, and Job function. |
 
 The organizational attributes described above are generated from either Microsoft Entra ID or the attributes uploaded by your Viva Insights admin. If the attributes are generated from Microsoft Entra ID, only “Organization” attribute will be populated. If you want to use other attributes like Job function, the Viva Insights admin needs to upload this data through HR upload.  
 
@@ -366,7 +366,7 @@ Here is a list of these Copilot metrics that you can use for your query:
 Employees can view the dashboard in the Viva Insights Teams or web app.
 
 **What can enabled users see in the dashboard?**
-The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across teams, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization, level designation, and job function. And, Viva Insights analysts can create custom reports based on these metrics.
+The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
 
 
 **How often is the default-on enablement updated?**
