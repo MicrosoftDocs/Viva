@@ -29,7 +29,7 @@ This feature is currently only available within person queries, but gradually we
 
 ## How to use Copilot with your query
 
-First, to access custom person queries, follow this navigation in the [advanced insights app](https://analysis.insights.viva.office.com):
+First, to access custom person queries, follow this navigation in the [advanced insights app](https://analysis.insights.cloud.microsoft):
 
 **Analysis** > **Custom queries** > **Person queries** > **Start analysis**
 
