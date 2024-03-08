@@ -56,6 +56,10 @@
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
+            - name: Microsoft Learn
+              href: microsoft-learn.md
+            - name: Microsoft 365 training
+              href: microsoft-365-training.md  
             - name: Go1
               href: configure-go1-content-source.md
             - name: OpenSesame
@@ -94,12 +98,18 @@
           href: learner-completion-records.md 
         - name: Manage academies
           href: academy.md
-        - name: Advanced Searching 
-          href: advanced-search.md
-        - name: Overview of language 
-          href: language-overview.md
-        - name: Language preferences 
-          href: language-preferences.md
+        - name: Search 
+          items: 
+          - name: Advanced searching 
+            href: advanced-search.md
+          - name: Search preferences  
+            href: search-preferences.md
+        - name: Language
+          items: 
+          - name: Overview of language 
+            href: language-overview.md
+          - name: Language preferences 
+            href: language-preferences.md
         - name: Content tagging and metadata export
           href: content-tagging.md
         - name: Reporting in Viva Learning
