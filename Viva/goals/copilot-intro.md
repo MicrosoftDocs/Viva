@@ -1,5 +1,5 @@
 ---
-ms.date: 03/07/2024
+ms.date: 03/08/2024
 title: Copilot in Viva Goals
 ms.reviewer: 
 ms.author: v-nstockwell
@@ -24,7 +24,7 @@ description: "Learn how to use Copilot in Viva Goals to create, share, manage, a
 
 # Copilot in Viva Goals
 
-Microsoft Copilot in Viva Goals lets you leverage next-gen AI to create, share, manage, and summarize your organizational goals quicker and easier than ever. It offers in-app guidance for creating and refining goals, providing a productivity boost to users regardless of their familiarity with whatever goals framework their team follows.
+Microsoft Copilot in Viva Goals lets you leverage generative AI to help set business goals and align teams to your organization’s strategic priorities. It also offers in-app guidance to users for creating, refining, and summarizing goals, as well as for sharing goals updates.
 
 ## Licensing requirements
 
@@ -32,7 +32,7 @@ Customers with a *Viva Suite* or *Viva Goals Standalone* license, or a trial ver
 
 ## Configure Copilot in Viva Goals
 
-Microsoft 365 Global administrators have complete control over the rollout of Copilot in Viva Goals within their organization. They can access Copilot settings from the Viva Goals admin center.
+Microsoft 365 Global administrators have complete control over the rollout of Copilot in Viva Goals within their organizations. They can access Copilot settings from the Viva Goals admin center.
 
 1. To access the Copilot settings, go to the Viva Goals [admin center](https://goals.microsoft.com/admin_center).
 
