@@ -4,8 +4,6 @@ items:
     items:
   - name: Get started with Viva Glint
     items:
-      - name: Four stages of a Viva Glint program
-        href: start/four-stages-glint-program.md
       - name: Viva Glint program types and associated templates
         href: start/program-types-templates.md
       - name: How People Science works with Viva Glint
