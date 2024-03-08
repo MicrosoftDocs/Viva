@@ -29,7 +29,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../glint/start/people-science-viva-glint)
+## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint)
 
 The Microsoft Viva People Science team continually researches to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
 
@@ -39,7 +39,7 @@ The Viva People Science team integrates traditional social sciences like behavio
 
 ## How does Viva Glint improve the overall health of your organization?
 
-Implementing recurring and ad-hoc Viva Glint survey programs helps your organization 
+Implementing recurring and ad-hoc survey programs helps your organization 
 
 - increase employee engagement, resulting in overall business improvement.
 - receive fast, focused people insights.
@@ -50,47 +50,42 @@ Implementing recurring and ad-hoc Viva Glint survey programs helps your organiza
 
 ## Connect and learn with Microsoft Viva Glint
 
-Viva Glint offers a world of resources for admins, managers, and their teams:
+Viva Glint offers a wide range of resources for admins, managers, and their teams. Use this section header link to deep-dive into all that is available, including:
 
 :::row:::
-   :::column span="3":::
-   Viva Glint Community
+   :::column span="2":::
+   **Viva Glint Community, sharing platform updates, blogs, and discussion spaces**
    :::column-end:::
-   :::column span="3":::
-   Documentation
-   :::column span="3":::
-   :::column-end:::
-   Training paths
+   :::column span="2":::
+   **Technical and platform guidance and training for admins and managers**
 :::row-end:::
 :::row:::
-   :::column span="3":::
-
+   :::column span="2":::
+   **Monthly 'Ask the Experts' sessions**
    :::column-end:::
-   :::column span="3":::
-  
-   :::column span="3":::
+   :::column span="2":::
+   **Hot topic events led by our teams and customers**
+:::row-end:::
+:::row:::  
+   :::column span="2":::
+   **'Ask the Experts' sessions**
    :::column-end:::
-  
+   :::column span="2":::
+   **Hot topic events led by our teams and customers**  
 :::row-end:::
 :::row:::
-   :::column span="3":::
-
+   :::column span="2":::
+   **Learning Circles program**
    :::column-end:::
-   :::column span="3":::
-  
-   :::column span="3":::
-   :::column-end:::
-  
+   :::column span="2":::
+   **Customer cohort groups**
 :::row-end:::   
 :::row:::
-   :::column span="3":::
-
+   :::column span="2":::
+   **Regional product councils**
    :::column-end:::
-   :::column span="3":::
-  
-   :::column span="3":::
-   :::column-end:::
-  
+   :::column span="2":::
+   **Viva Glint Adoption site** 
 :::row-end:::   
       
      
