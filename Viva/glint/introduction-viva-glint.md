@@ -51,7 +51,7 @@ Implementing recurring and ad-hoc survey programs helps your organization
 - review data driven feedback to study employee success drivers.
 - translate insights into action and track feedback progress.
 
-## [Connect and learn with Viva Glint]
+## Connect and learn with Viva Glint
 
 Viva Glint offers a wide range of resources for admins, managers, and their teams:
 
