@@ -27,7 +27,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
 
-## Watch this short video for a Viva Glint introduction 
+## Watch this video for a quick introduction to Viva Glint
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
