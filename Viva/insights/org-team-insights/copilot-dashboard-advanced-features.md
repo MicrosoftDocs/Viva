@@ -50,9 +50,7 @@ Let's dive in to this advanced set of features.
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-:::image type="complex" source="images/copilot-dash-scope.png" alt-text="Screenshot that shows the Scope tool." lightbox="images/copilot-dash-scope.png":::
-Screenshot that shows the Scope tool.
-:::image-end:::
+:::image type="content" source="images/copilot-dash-scope.png" alt-text="Screenshot that shows the Scope tool.":::
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
 
@@ -122,12 +120,12 @@ Screenshot that shows the second group of adoption metrics.
 
 | Action | What can they do |
 |---|---|
-| View by | Default view: Team (with 20 values) <br> </br> Users can change this to view the data by other organizational attributes like Organization and Job function. |
-| Filters | Default view: No filters. <br> </br> Users can apply filters on three organizational attributes: Team, Organization, and Job function. |
+| View by | Default view: Group (with 20 values) <br> </br> Users can change this to view the data by other organizational attributes like Organization and Job function. |
+| Filters | Default view: No filters. <br> </br> Users can apply filters on three organizational attributes: Group, Organization, and Job function. |
 
 The organizational attributes described above are generated from either Microsoft Entra ID or the attributes uploaded by your Viva Insights admin. If the attributes are generated from Microsoft Entra ID, only “Organization” attribute will be populated. If you want to use other attributes like Job function, the Viva Insights admin needs to upload this data through HR upload.  
 
-The default attributes available in the dashboard are Organization and Job function. If you need to perform an analysis using different attributes uploaded by your amin, you can [set up a custom person query](../advanced/analyst/person-query.md).
+The default attributes available in the dashboard are Organization and Job function. If you need to perform an analysis using different attributes uploaded by your admin, you can [set up a custom person query](../advanced/analyst/person-query.md).
 
 ### Impact
 
@@ -143,7 +141,7 @@ At the top of the page, you’ll see tallies for **Active Copilot users**, **Cop
 
 #### Details on the "Copilot assisted hours" metric
  
-The **Copilot assisted hours** metric is a general estimate that tries to leverage the latest research on AI and productivity to describe your employees’ use of three types of Copilot capabilities described in the table below. Copilot usage metrics are aggregated within each category, then multiplied by an assistance factor to determine hours assisted per category. The three resulting values are then added together to produce the final **Copilot assisted hours** metric. Please note that these are broad approximations based on the [best available research rather than precise calclulations](https://www.microsoft.com/research/project/the-new-future-of-work). As more research becomes available, we will update our approach.
+The **Copilot assisted hours** metric is a general estimate that tries to leverage the latest research on AI and productivity to describe your employees’ use of three types of Copilot capabilities described in the table below. Copilot usage metrics are aggregated within each category, then multiplied by an assistance factor to determine hours assisted per category. The three resulting values are then added together to produce the final **Copilot assisted hours** metric. Please note that these are broad approximations based on the [best available research rather than precise calculations](https://www.microsoft.com/research/project/the-new-future-of-work). As more research becomes available, we will update our approach.
 
 | Copilot capability | Metric(s) counted | Assistance factor | Source of assistance factor (if applicable) |
 |---|---|---|---|
@@ -295,15 +293,15 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 3. Under **M365 Copilot Impact Survey data upload**, select **Start**. If you previously uploaded survey data, this new import will replace the old data.
 
-:::image type="complex" source="images/copilot-dash-upload-01.png" alt-text="Screenshot that shows the first steps to upload the survey data." lightbox="images/copilot-dash-upload-01.png":::
-Screenshot that shows the first steps to upload the survey data.
-:::image-end:::
+   :::image type="complex" source="images/copilot-dash-upload-01.png" alt-text="Screenshot that shows the first steps to upload the survey data." lightbox="images/copilot-dash-upload-01.png":::
+   Screenshot that shows the first steps to upload the survey data.
+   :::image-end:::
 
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
-:::image type="complex" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
-Screenshot that shows the final steps to upload the survey data.
-:::image-end:::
+   :::image type="complex" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
+   Screenshot that shows the final steps to upload the survey data.
+   :::image-end:::
 
 ### News & research
 
@@ -342,14 +340,14 @@ Here is a list of these Copilot metrics that you can use for your query:
 | Copilot actions taken in Copilot chat  | The number of Copilot actions completed by active Copilot users in Copilot chat. | 10/15/2023 |
 | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
 | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook.  | 10/15/2023 |
-| Copilot actions taken in Powerpoint  | The number of Copilot actions completed by active Copilot users in Powerpoint.  | 10/15/2023 |
+| Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint.  | 10/15/2023 |
 | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams.  | 10/15/2023 |
 | Copilot actions taken in Word  | The number of Copilot actions completed by active Copilot users in Word.  | 10/15/2023 |
 | Copilot active days in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
 | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop.  | 10/15/2023 |
 |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
 |  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
-| Days of active Copilot usage in Powerpoint | The number of days the user was actively using Copilot in Powerpoint. | 10/15/2023 |
+| Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
 |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
 | Days of active Copilot usage in Word |  The number of days the user was actively using Copilot in Word.  | 10/15/2023 |
 |  Days of active Copilot usage in Copilot chat  |  The number of days the user was actively using Copilot chat.  | 10/15/2023 |
@@ -366,7 +364,7 @@ Here is a list of these Copilot metrics that you can use for your query:
 Employees can view the dashboard in the Viva Insights Teams or web app.
 
 **What can enabled users see in the dashboard?**
-The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across teams, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization, level designation, and job function. And, Viva Insights analysts can create custom reports based on these metrics.
+The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
 
 
 **How often is the default-on enablement updated?**
