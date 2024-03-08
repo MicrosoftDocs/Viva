@@ -23,13 +23,15 @@ ms.date: 03/08/2024
 
 # Introduction to Microsoft Viva Glint
 
-Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
+Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. 
+
+Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
 
 ## Watch this short video for a Viva Glint introduction 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint)
+## [Understand how Viva People Science methodology is the foundation for Viva Glint](../../start/people-science-viva-glint.md)
 
 The Microsoft Viva People Science team continually researches to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
 
@@ -48,7 +50,7 @@ Implementing recurring and ad-hoc survey programs helps your organization
 - review data driven feedback to study employee success drivers.
 - translate insights into action and track feedback progress.
 
-## Connect and learn with Microsoft Viva Glint
+## [Connect and learn with Viva Glint]
 
 Viva Glint offers a wide range of resources for admins, managers, and their teams. Use this section header link to deep-dive into all that is available, including:
 
