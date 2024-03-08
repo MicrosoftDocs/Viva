@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 03/07/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -44,15 +44,16 @@ The following learning content attributes can be used by both admins and learner
 
 |Attributes | Description|
 |-----------|-----------|
-|Title | Title of the learning content|
-|Description| Description of the learning content|
-|Author | Creator of the learning content|
-|Provider| Name of the learning content provider. For example: LinkedIn Learning|
-|Type| Type of learning content. For example: course, learning path|
-|Duration| Duration of the learning content in seconds|
-|Source| Subsource of the learning content in a provider|
-|Premium| Field indicating whether to include free or premium content designated by "True" or "False"|  
-|Language| Language of the learning content in ISO format. For example: en-us|
+|`Title` | Title of the learning content|
+|`Description`| Description of the learning content|
+|`Author` | Creator of the learning content|
+|`Provider`| Name of the learning content provider. For example: LinkedIn Learning|
+|`Type`| Type of learning content. For example: course, learning path|
+|`Duration`| Duration of the learning content in seconds|
+|`Source`| Subsource of the learning content in a provider|
+|`Premium`| Field indicating whether to include free or premium content designated by "True" or "False"|  
+|`Language`| Language of the learning content in ISO format. For example: en-us|
+|`Level` | Difficulty level of the content | 
 
 ### Admin accessible attributes 
 
@@ -60,11 +61,11 @@ The following attributes are available to Viva Learning knowledge admins. These 
 
 |Attributes | Description|
 |-----------|-----------|
-|Id | Unique ID of the learning content from the external provider|
-|LOId | Unique ID of a learning content in Viva Learning|
-|ProviderId | The unique ID of a provider when registered with Viva Learning|
-|Keywords | Set of keywords associated with a content |
-|Skills | Skill tags associated with content in Viva Learning |
+|`Id` | Unique ID of the learning content from the external provider|
+|`LOId` | Unique ID of a learning content in Viva Learning|
+|`ProviderId` | The unique ID of a provider when registered with Viva Learning|
+|`Keywords` | Set of keywords associated with a content |
+|`Skills` | Skill tags associated with content in Viva Learning |
 
 ## Operators
 
