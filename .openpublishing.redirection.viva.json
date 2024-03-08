@@ -989,6 +989,11 @@
             "source_path": "Viva/engage/badges.md",
             "redirect_url": "/Viva/engage/eac-answers-overview-set-up.md",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/glint/start/four-stages-glint-program.md",
+            "redirect_url": "/viva/glint/start/program-types-templates",
+            "redirect_document_id": false
         }
     ]
 }
