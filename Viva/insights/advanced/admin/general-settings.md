@@ -19,7 +19,7 @@ audience: Admin
 
 There are a few **General settings** you can configure to customize your Viva Insights experience.
 
-You can access them in the [advanced insights app](https://analysis.insights.viva.office.com/). On the left, under **Settings**, select **General**.  
+You can access them in the [advanced insights app](https://analysis.insights.cloud.microsoft/). On the left, under **Settings**, select **General**.  
 
 ### Analyst notification emails 
 
