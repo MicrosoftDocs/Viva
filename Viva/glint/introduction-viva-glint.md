@@ -33,8 +33,7 @@ Viva Glint knows that ongoing, frequent surveying to collect employee feedback i
 
 ## [Understand how Viva People Science methodology is the foundation for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2240415)
 
-The Microsoft Viva People Science team continual![image](https://github.com/MicrosoftDocs/Viva-pr/assets/141166658/6f021fe0-f041-40a3-b584-06955764e582)
-ly researches to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
+The Microsoft Viva People Science team continually researches to curate survey items and develop survey templates to study the key core drivers that motivate people in the current world of work.
 
 The Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow reimagination of the many Viva apps, including Viva Glint, to deliver exceptional and impactful experiences in the workplace.
 
