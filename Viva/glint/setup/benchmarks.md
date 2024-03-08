@@ -15,14 +15,14 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 03/08/2024
 ---
 
 # Use Viva Glint benchmarks  
 
 Microsoft Viva Glint believes that global benchmarks can provide useful level-setting comparisons during an initial survey, but they aren't as useful to the organization as internal and trend (historical) comparisons in subsequent surveys.  
 
-With 10 years of experience with benchmarking, Viva Glint now serves over 900 global customers from across every industry. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
+Viva Glint develops benchmarks from data gathered from over 1200 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
 
 ## Viva Glint standards are robust and aspirational 
 
