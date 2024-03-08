@@ -1,5 +1,5 @@
 ---
-title: Setting up a successful program with your Works Council
+title: Set up a successful program with your Works Council
 description: Works Councils or Unions are an essential partner when implementing a Microsoft Viva Glint employee survey program.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/08/2024
 ---
 
-# Setting up a successful program with your Works Council
+# Set up a successful program with your Works Council
 
 Works Councils or Unions are an essential partner when implementing an employee survey program. In some countries, gaining Works Council agreement before deploying new technology is a legal requirement, so plan ahead. While every organization has a unique proposition that they’ll have to present to their Works Council, there are some themes that you can start focusing on now. 
 
