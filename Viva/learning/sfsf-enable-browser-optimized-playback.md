@@ -22,7 +22,7 @@ description: Enable browser optimized playback to play SAP SuccessFactors course
 
 Viva Learning and SAP SuccessFactors integration allows a browser optimized experience.
 
-With this enhancement, learners can experience SuccessFactors content that are **online** and **instructor-led with online** within the SuccessFactors player. This opens SuccessFactors content in a browser tab without headers, footers, or navigation links.
+With this enhancement, learners can experience SuccessFactors content that is **online** and **instructor-led with online** within the SuccessFactors player. This opens SuccessFactors content in a browser tab without headers, footers, or navigation links.
 
 > [!NOTE]
 > Viva Learning launches the SuccessFactors content player in the browser. The content player is owned by SAP SuccessFactors.
