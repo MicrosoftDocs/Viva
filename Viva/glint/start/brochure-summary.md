@@ -20,7 +20,7 @@ ms.date: 03/11/2024
 
 # Microsoft Viva Glint resources at a click
 
-Feel emposered on your Viva Glint journey through guidance, learning, events, connection, conversations, and more!
+Feel empowered on your Viva Glint journey through guidance, learning, events, connection, conversations, and more!
 
 Viva Glint is committed to engaging with our customers and empowering Viva Glint admins through learning, connection, and deployment support. 
 
@@ -34,7 +34,7 @@ Viva Glint is committed to engaging with our customers and empowering Viva Glin
 
 Find guidance and learning for admins and managers:
 
-- [**Microsoft Viva Glint Learn**](../../viva/glint/introduction-viva-glint) is where you'll find technical documentation and guidance to help you through key stages of your Viva Glint journey. 
+- [**Microsoft Viva Glint Learn**](../../viva/glint/introduction-viva-glint) is where you find technical documentation and guidance to help you through key stages of your Viva Glint journey. 
 - [**Microsoft Viva Glint Training**](../../viva/glint/start/viva-glint-learning-paths-and-modules) hosts online learning paths and modules to gain deeper expertise using Viva Glint. When completing a learning path, apply for digital badges from *Credly* to showcase your learning achievements.
 
 ## Ask our Experts
@@ -51,9 +51,9 @@ This communication is full of information to help you get the most from your Viv
 
 ## Attend events to become an employee experience expert
 
-Our customer events cover a range of hot topics which are sourced from our customer feedback. Check the [**Viva Glint community events section**](https://techcommunity.microsoft.com/t5/viva-glint/eb-p/Viva_Glint_Events) for upcoming events and registration, as well as recordings from previous events. 
+Our customer events cover a range of hot topics that are sourced from our customer feedback. Check the [**Viva Glint community events section**](https://techcommunity.microsoft.com/t5/viva-glint/eb-p/Viva_Glint_Events) for upcoming events, registration, and recordings from previous events. 
 
-Want to share an experience story that you are proud of? Email us at VivaGlintCE@microsoft.com
+Want to share an experience story that you're proud of? Email us at VivaGlintCE@microsoft.com
 
 ## Read up-to-date blogs by our experts
 
@@ -64,8 +64,7 @@ Want to share an experience story that you are proud of? Email us at VivaGlintCE
 
 [**Learning Circles**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040) foster a collaborative learning environment to share knowledge, experiences, and challenges with your peers and grow your understanding and usage of Viva Glint products and services. There are open registration windows throughout the year to sign up for our Learning Circles. Look for notifications on Viva Glint Community, and our newsletters. 
 
-**Customer cohorts** facilitate connections between customers grouped by shared background (e.g., industry), shared purpose (e.g., culture transformation), or sharedinterest (e.g., AI).
-Viva Glint newsletters will provide information on how you can join customer cohorts.
+**Customer cohorts** facilitate connections between customers grouped by shared background, shared purpose, or shared interest. Viva Glint newsletters will provide information on how you can join customer cohorts.
 
 ## Engage with your peers through discussion posts
 
