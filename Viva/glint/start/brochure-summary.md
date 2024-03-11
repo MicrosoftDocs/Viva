@@ -27,15 +27,15 @@ Viva Glint is committed to engaging with our customers and empowering Viva Glin
 ## Go-to-websites for Viva Glint
 
 - [**Viva Glint Community**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint): One-stop-shop for all things Viva Glint – content, conversation, events, and more. 
-- [**Viva Glint Documentation and Learning**](/../../glint/introduction-viva-glint): Technical documentation for configuring and launching Viva Glint programs using our best practices. Admins and managers can explore topics through guided paths or learn to accomplish a specific task through an individual module.
+- [**Viva Glint Documentation and Learning**](https://learn.microsoft.com/en-us/viva/glint/introduction-viva-glint): Technical documentation for configuring and launching Viva Glint programs using our best practices. Admins and managers can explore topics through guided paths or learn to accomplish a specific task through an individual module.
 - [**Viva Glint Support**](https://support.microsoft.com/topic/viva-glint-overview-87374186-feec-4256-962a-563f99992f08): Documentation and support for Viva Glint survey takers. 
 
 ## Deploy Viva Glint
 
 Find guidance and learning for admins and managers:
 
-- [**Microsoft Viva Glint Learn**](/../../glint/introduction-viva-glint) is where you find technical documentation and guidance to help you through key stages of your Viva Glint journey. 
-- [**Microsoft Viva Glint Training**](/../../glint/start/viva-glint-learning-paths-and-modules) hosts online learning paths and modules to gain deeper expertise using Viva Glint. When completing a learning path, apply for digital badges from *Credly* to showcase your learning achievements.
+- [**Microsoft Viva Glint Learn**](https://learn.microsoft.com/en-us/viva/glint/introduction-viva-glint) is where you find technical documentation and guidance to help you through key stages of your Viva Glint journey. 
+- [**Microsoft Viva Glint Training**](/../../viva/glint/start/viva-glint-learning-paths-and-modules) hosts online learning paths and modules to gain deeper expertise using Viva Glint. When completing a learning path, apply for digital badges from *Credly* to showcase your learning achievements.
 
 ## Ask our Experts
 
