@@ -27,10 +27,12 @@ Use the following tables, including links to sample emails and resources, to bui
 
 ## Pre-survey plan
 
-|**Timing before survey start**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|**More resources**|
-|-----------|-----------|----------------|--------|-------------------------------|----------------|
-|6 weeks prior|Establish program overview, purpose, and approach - Define roles and responsibilities|Review best practices and develop rollout plan with HR and comms team - schedule company-level results reviews - schedule business until results review|Project team, HR|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-|5 weeks prior|Vision and strategy planning - Inform about resources - Discuss importance of customizing program|
+|**Timing before survey start**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
+|-----------|-----------|----------------|--------|-------------------------------|
+|6 weeks prior|<ul><li>Establish program overview</li><li>Define roles and responsibilities</li></ul>|<ul><li>Review best practices and develop rollout plan with HR and comms team </li><li> Schedule company-level results reviews </li><li> Schedule business until results review</li></ul>|Project team, HR|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
+|5 weeks prior|<ul><li>Vision and strategy planning </li><li>Inform about resources </li><li> Discuss importance of customizing program|<ul><li>Develop comms plan and messaging </li><li> Customize platform messages </li><li> Finalize rollout plan </li><li> Prep Vision and Strategy materials</li></ul>|Project team|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
+|4 weeks prior|<ul><li>Provide engagement program overview and relationship to business success using Viva Glint </li><li> Provide role expectations and timing, HR and manager resources, and training signups|<ul><li>Customize results rollout plan </li><li> Sign up for platform training</li></ul>|HR Exec, HRBPs|[HRBP prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
+|3 weeks prior|<ul><li>Continue leadership communications and training signups|<ul><li>Refine plan to share company-wide results with execs </li><li> Support HRBPs for rollout planning </li><li> Finalize rollout planning </li><li> Prepare execs to champion Viva Glint program|HR Exec, Project team, HRBPs|[Leadership prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
 
 
 
