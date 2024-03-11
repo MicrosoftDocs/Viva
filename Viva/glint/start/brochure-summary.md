@@ -60,7 +60,7 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 ## Connect with others
 
-- [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040). Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign up. Look for notifications on the Viva Glint Community and in our newsletters. 
+- [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040). Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign-up. Look for notifications on the Viva Glint Community and in our newsletters. 
 
 - Coming soon! **Customer cohorts** facilitate connections between customers grouped by shared background, shared purpose, or shared interest. We'll let you know about them soon. 
 
