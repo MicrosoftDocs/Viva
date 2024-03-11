@@ -125,7 +125,7 @@ If you have already enabled MGDC, you will need to:
 > [!IMPORTANT]
 > Make sure you have the correct Insights Analyst role. Previous users of the legacy Workplace Analytics platform might have the "Analyst" role. To complete this process, you need the "Insights Analyst" role. Use [these steps](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) to enable the Insights Analyst role.
 
-1. Open a browser and sign in to the [Advanced Insights app](https://analysis.insights.viva.office.com).
+1. Open a browser and sign in to the [Advanced Insights app](https://analysis.insights.cloud.microsoft).
 1. To run a new query, in the **Analysis** tab, select **Start analysis** on a [Power BI template](../analyst/templates/introduction-to-templates.md) or [custom query](../analyst/person-query-overview.md). (If you already have query results to export, you can skip this step.)
 1. On the left navigation menu, select **Query results**.
 1. Once query results are available for a new or existing query, select the Azure icon to mark for egress.

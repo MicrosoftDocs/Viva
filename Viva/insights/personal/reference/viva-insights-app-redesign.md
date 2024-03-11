@@ -19,7 +19,7 @@ manager: anirudhbajaj
 
 # Viva Insights app redesign
 
-To make it easier to navigate and find new features in the Viva Insights app, we're making a few changes this March. After these changes roll out, you'll continue to access Microsoft Viva Insights in your Teams app and on the web at https://insights.viva.office.com/ (https://gcc.insights.viva.office.com/ for Government Community Cloud customers). However, things will look a bit different when you get there.
+To make it easier to navigate and find new features in the Viva Insights app, we're making a few changes this March. After these changes roll out, you'll continue to access Microsoft Viva Insights in your Teams app and on the web at https://insights.cloud.microsoft/ (https://gcc.insights.viva.office.com/ for Government Community Cloud customers). However, things will look a bit different when you get there.
 
 
 ## What's changing?
