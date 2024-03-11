@@ -81,7 +81,7 @@ Follow the steps documented in the table to get the values of the required three
 
 ## Enable SAP SuccessFactors browser optimized playback
 
-![Screenshot of the Viva Learning integration with SAP SuccessFactors highlighting the browser optimized playback](/viva/media/learning/sfsf-browser-optimized-overview.png)
+:::image type="content" alt-text="Screenshot of the Viva Learning integration with SAP SuccessFactors highlighting the browser optimized playback" source="/viva/media/learning/sfsf-browser-optimized-overview.png" lightbox="/viva/media/learning/sfsf-browser-optimized-overview.png":::
 
 
 Navigate to **Manage Providers** within the Viva Learning admin tab. Select **SuccessFactors** and then enable the **browser optimized playback** toggle.
