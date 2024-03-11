@@ -89,6 +89,11 @@ Viva Glint offers a wide range of resources for admins, managers, and their team
    :::column span="2":::
    **Viva Glint Adoption site** 
 :::row-end:::   
+
+## Get started
+> [!div class="nextstepaction"]
+> [Get started with Viva Glint](../../viva/glint/start/brochure-summary.md)
+
       
      
 
