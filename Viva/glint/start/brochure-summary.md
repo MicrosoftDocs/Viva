@@ -36,6 +36,8 @@ Want to share an experience story that you're proud of? Email us at VivaGlintCE@
 
   - [**Blogs specific to Viva Glint research and platform updates**](https://techcommunity.microsoft.com/t5/viva-glint-blog/bg-p/Viva_Glint_Blog)
   
+<hr>
+
 ## Learn how to deploy Viva Glint
 Find guidance and learning for admins and managers:
 
@@ -46,11 +48,15 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 - [**Viva Glint: Ask the Experts**](https://adoption.microsoft.com/viva/glint/ask-the-experts-resources/) These live sessions are held monthly. Register to join a session or explore recordings and decks from previous sessions.
 
+<hr>
+
 ## Connect with us
 
 - [**Stay up to date by registering for our newsletter.**](https://adoption.microsoft.com/en-us/viva/glint/newsletter/). This recurring communication is full of information to help you get the most from your Viva Glint programs.  
 
 - [**Provide feedback as part of a product council**](https://techcommunity.microsoft.com/t5/viva-glint-blog/shape-the-future-of-viva-glint-by-joining-our-product-council/ba-p/4063627) Be part of a community that provides Viva Glint teams with feedback on how we can improve our products and services. Product councils run quarterly in different regions.
+
+<hr>
 
 ## Connect with others
 
