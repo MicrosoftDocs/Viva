@@ -33,8 +33,9 @@ Use the following tables, including links to sample emails and resources, to bui
 |5 weeks prior|<ul><li>Vision and strategy planning </li><li>Inform about resources </li><li> Discuss importance of customizing program|<ul><li>Develop comms plan and messaging </li><li> Customize platform messages </li><li> Finalize rollout plan </li><li> Prep Vision and Strategy materials</li></ul>|Project team|[Prelaunch email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
 |4 weeks prior|<ul><li>Provide engagement program overview and relationship to business success using Viva Glint </li><li> Provide role expectations and timing, HR and manager resources, and training signups|<ul><li>Customize results rollout plan </li><li> Sign up for platform training</li></ul>|HR Exec, HRBPs|[HRBP prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
 |3 weeks prior|<ul><li>Continue leadership communications and training signups|<ul><li>Refine plan to share company-wide results with execs </li><li> Support HRBPs for rollout planning </li><li> Finalize rollout planning </li><li> Prepare execs to champion Viva Glint program|HR Exec, Project team, HRBPs|[Leadership prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
-
-
+|2 weeks prior|<ul><li>Send comms for HRBPs training</li><li>Reinforce role expectations and timing</li><li>Send comms for manager resources and training signup</li></ul>|<ul><li>Ensure platform trainings and resources are being used</li><li>If custome comms are being used, prepare to send and host them on the intranet</li><li>Distribute printer flyers, if using</li></ul>|Project team, HRBPs|[HRBP prep email templates](/../../viva/glint/communicate/prelaunch-live-email-templates)|
+|1 week prior|<ul><li>          </li><li>      </li><li>                 </li></ul>|
+|1 day prior|<ul><li>          </li><li>      </li><li>                 </li></ul>|
 
 
 
