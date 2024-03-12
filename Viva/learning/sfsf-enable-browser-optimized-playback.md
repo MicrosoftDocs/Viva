@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: pamgreen
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/21/2023
+ms.date: 03/05/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -20,14 +20,16 @@ description: Enable browser optimized playback to play SAP SuccessFactors course
 
 # Enable browser optimized playback
 
-Viva Learning and SAP SuccessFactors integration allows seamless authentication (SSO) and browser optimized playback. 
+Viva Learning and SAP SuccessFactors integration allows a browser optimized experience.
 
-Browser optimized playback is enhanced for Teams desktop and web. It loads the SuccessFactors embedded player.
-
-SAP SuccessFactors doesn't provide support for embedded content player in mobile applications. When using the Teams mobile app, it loads the SAP SuccessFactors details page.
+With this enhancement, learners can experience SuccessFactors content that is **online** and **instructor-led with online** within the SuccessFactors player. This opens SuccessFactors content in a browser tab without headers, footers, or navigation links.
 
 > [!NOTE]
 > Viva Learning launches the SuccessFactors content player in the browser. The content player is owned by SAP SuccessFactors.
+
+SAP SuccessFactors doesn't provide support for embedded content player in mobile applications. When using the Teams mobile app, it loads the SAP SuccessFactors details page.
+
+Browser optimized playback is enhanced for Teams desktop and web. It loads the SuccessFactors embedded player.
 
 > [!IMPORTANT]
 > - Only the content classified by SAP SuccessFactors as **online** or **instructor-led with online** are enabled for browser optimized playback from Viva Learning. Content of other classifications loads the SAP SuccessFactors details page.
@@ -42,7 +44,7 @@ Ensure that the SSO configuration on Microsoft Entra and SAP SuccessFactors is t
 
 Sign in to Teams and Windows with the same user account for consumption of SAP SuccessFactors content from Viva Learning.
 
-You might encounter a "refused to connect" error or a blank screen the first time you consume SAP SuccessFactors content inline within Viva Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
+You might encounter a "refused to connect" error or a blank screen the first time you consume SAP SuccessFactors content from Learning. The content plays successfully on subsequent content launches, however. To resolve this issue, refer to the SAP Knowledge Base Article - [2169861](https://userapps.support.sap.com/sap/support/knowledge/en/2169861).
 
 > [!NOTE]
 > If the SSO on both Microsoft Entra and SAP SuccessFactors are already configured in the tenant, as described in the above documentation, then no action is required.
@@ -78,6 +80,9 @@ Follow the steps documented in the table to get the values of the required three
 | Client ID | The client ID is required to execute the API. Navigate to **System Administration** > **Configuration** > **OAuth Token Server**.|
 
 ## Enable SAP SuccessFactors browser optimized playback
+
+:::image type="content" alt-text="Screenshot of the Viva Learning integration with SAP SuccessFactors highlighting the browser optimized playback" source="/viva/media/learning/sfsf-browser-optimized-overview.png" lightbox="/viva/media/learning/sfsf-browser-optimized-overview.png":::
+
 
 Navigate to **Manage Providers** within the Viva Learning admin tab. Select **SuccessFactors** and then enable the **browser optimized playback** toggle.
 

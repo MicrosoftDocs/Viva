@@ -1,5 +1,5 @@
 ---
-title: Changing survey item IDs for expired survey cycles
+title: Change survey item IDs for expired survey cycles
 description: Comparing survey trend is essential to tracking progress over time. When a survey is retired, you can still use the data for an item from that survey as a comparison in a new survey which uses the identical item, by changing the item ID. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/21/2024
 ---
 
-# Changing survey item IDs for expired survey cycles
+# Change survey item IDs for expired survey cycles
 
 > [!IMPORTANT]
 > The platform feature allowing admins to change survey item ID numbers releases on March 9, 2024.
@@ -56,9 +56,9 @@ There are two ways to view an item ID:
 1. From the admin dashboard, select **Configure** and then **Survey Programs**.
 1. Selected the **Completed surveys** tab and then the **Questions** row to view the questions from that survey.
 1. On the *Questions* page, hover over the ellipses to display the dropdown menu. Select **Change Question ID** and a *Change Question ID* dialog box displays.
-   
-> [!IMPORTANT]
-> If your survey items are translated into different languages, export the survey details before proceeding, so you’ll have a record of your translations.
+
+   > [!IMPORTANT]
+   > If your survey items are translated into different languages, export the survey details before proceeding, so you’ll have a record of your translations.
 
 4. Be sure the **Current question type, name and ID** are as expected.
 1. Choose an item from the survey program that you want to use from the dropdown box.
