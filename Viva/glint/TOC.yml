@@ -32,7 +32,7 @@ items:
             href: setup/employee-raw-data-export.md
       - name: Collaborate with your Works Council
         href: setup/works-council.md
-  - name: Plan and administer your Viva Glint platform
+  - name: Plan and build your Viva Glint platform
     items:
       - name: Deploy Microsoft Viva Glint as an M365 Global Admin
         items:
@@ -76,28 +76,8 @@ items:
                - name: Set up Secure File Transfer Protocol (SFTP) to import employee data  
                  href: setup/set-up-sftp.md
                - name: Upload employee data to the People page  
-                 href: setup/upload-employee-attributes.md
-  - name: Microsoft Viva People Science methodology for Viva Glint programs
-    items:
-        - name: Propel action-taking through ACT conversations
-          href: people-science/propelling-action-taking.md
-        - name: Viva People Science factors for historical imports
-          href: people-science/import-external-people-science-pov.md
-        - name: Viva People Science explains focus areas and action planning
-          href: people-science/people-science-explains-focus-areas.md
-        - name: Viva People Science patient safety survey methodology
-          href: people-science/patient-safety.md
-        - name: Understand Viva Glint benchmark methodology
-          items:
-            - name: Philosophy on appropriate use of benchmarks 
-              href: people-science/people-science-benchmark-philosophy.md
-            - name: Use Viva Glint benchmarks
-              href: setup/benchmarks.md
-            - name: Choose your comparison data for Viva Glint reporting
-              href: setup/survey-comparison-data.md
-            - name: Opt into external benchmark comparisons
-              href: setup/opting-into-external-benchmarks.md         
-  - name: Admin configuration of Viva Glint features
+                 href: setup/upload-employee-attributes.md      
+  - name: Program the Viva Glint foundational features
     href: setup/platform-features-settings.md
     items: 
       - name: Manage General Settings 
@@ -305,6 +285,13 @@ items:
                 href: reports/team-summary-enable-manage.md
               - name: Managers using the Team Summary dashboard on Viva Glint
                 href: reports/managers-use-team-summary-dashboard.md
+          - name: Take action with Viva Glint Team Conversations
+            href: reports/take-action-team-conversations.md
+            items:
+              - name: Managers and teams using Viva Glint Team Conversations
+                href: reports/managers-sharing-team-conversations.md
+              - name: Team Conversations presentation kit for managers
+                href: reports/coaching-team-conversations.md           
   - name: View results and take action as a Viva Glint manager
     items:
       - name: Viva Glint's Survey Reports overview
@@ -318,16 +305,29 @@ items:
              href: setup/quick-guide-confidentiality.md
            - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
              href: setup/quick-guide-manager-doc-pitfalls.md
+  - name: Microsoft Viva People Science methodology for Viva Glint programs
+    items:
+        - name: Propel action-taking through ACT conversations
+          href: people-science/propelling-action-taking.md
+        - name: Viva People Science factors for historical imports
+          href: people-science/import-external-people-science-pov.md
+        - name: Viva People Science explains focus areas and action planning
+          href: people-science/people-science-explains-focus-areas.md
+        - name: Viva People Science patient safety survey methodology
+          href: people-science/patient-safety.md
+        - name: Understand Viva Glint benchmark methodology
+          items:
+            - name: Philosophy on appropriate use of benchmarks 
+              href: people-science/people-science-benchmark-philosophy.md
+            - name: Use Viva Glint benchmarks
+              href: setup/benchmarks.md
+            - name: Choose your comparison data for Viva Glint reporting
+              href: setup/survey-comparison-data.md
+            - name: Opt into external benchmark comparisons
+              href: setup/opting-into-external-benchmarks.md                 
       - name: Viva People Science explains focus areas and action planning
         href: people-science/people-science-explains-focus-areas.md
-      - name: Take action with Viva Glint Team Conversations
-        href: reports/take-action-team-conversations.md
-        items:
-           - name: Managers and teams using Viva Glint Team Conversations
-             href: reports/managers-sharing-team-conversations.md
-           - name: Team Conversations presentation kit for managers
-             href: reports/coaching-team-conversations.md
-  - name: Communicate and provide support for Viva Glint programs
+  - name: Communicate support for Viva Glint programs to leaders and managers 
     items:
       - name: Use Viva Glint email templates to share survey expectations within your
           organization
@@ -341,8 +341,8 @@ items:
            - name: Communicate results rollout plans for Viva Glint programs 
               templates
              href: communicate/results-rollout-templates.md
-      - name: Support survey participants during Viva Glint surveys
-        items: 
+       - name: Support survey participants during Viva Glint surveys
+         items: 
            - name: Support participants during a live Viva Glint survey
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey takers
@@ -351,21 +351,34 @@ items:
     items:
        - name: Viva Glint Do-It-Yourself Insights Review Template
          href: communicate/diy-presentation-template.md
+       - name: View results and take action as a Viva Glint manager
+         items:
+           - name: Viva Glint's Survey Reports overview
+             href: reports/survey-reports-overview.md
+           - name: Make the most of Viva Glint reporting features
+             href: reports/report-analytics-filtering-favorability-trending.md
+       - name: Share Manager Quick Guides
+         href: setup/manager-quick-guides-overview.md
+         items:
+            - name: Manager Quick Guide for data confidentiality
+              href: setup/quick-guide-confidentiality.md
+            - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
+              href: setup/quick-guide-manager-doc-pitfalls.md     
   - name: Troubleshoot
     items:
       - name: Data File Uploads
         items:
-          - name: Resolve manager hierarchy error
-            href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-          - name: Understand file upload errors and warnings
-            href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
+           - name: Resolve manager hierarchy error
+             href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Understand file upload errors and warnings
+             href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
       - name: Historical Imports
         items:
-          - name: Error "Duplicate entry"
-            href: /viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-          - name: Error "Exception date overlap"
-            href: /viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-          - name: Error "missing required field"
-            href: /viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-          - name: Error "User is not in client"
-            href: /viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Error "Duplicate entry"
+             href: /viva/troubleshoot/glint/historical-import/import-error-duplicate-entry?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Error "Exception date overlap"
+             href: /viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Error "missing required field"
+             href: /viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Error "User is not in client"
+             href: /viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
