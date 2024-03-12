@@ -285,7 +285,7 @@ When you enter prompts using Microsoft Copilot in Viva Goals, the information co
 
 #### What privacy policy does Copilot in Viva Goals use?
 
-Our privacy policy is publicly shared and available as part of the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement). Copilot in Viva Goals follows the [privacy and data compliance](#security-privacy-and-compliance-in-viva-goals) currently in place for Viva Goals.
+Copilot in Viva Goals follows the [privacy and data compliance](#security-privacy-and-compliance-in-viva-goals) currently in place for Viva Goals. Our privacy policy is publicly shared and available as part of the Microsoft Product Terms and Data Protection Addendum.
 
 ## Further reading
 
