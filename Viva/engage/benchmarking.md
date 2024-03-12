@@ -26,7 +26,7 @@ search.appverid:
 >[!IMPORTANT]
 >Viva Engage benchmark data are currently available only for private preview customers. The features described here are subject to change.
 
-Benchmarks is a Viva Engage Premium feature that shows you how your metrics perform in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
+_Benchmarks_ is a Viva Engage Premium feature that shows you how your metrics perform in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
 
 ## How we calculate benchmarks
 
