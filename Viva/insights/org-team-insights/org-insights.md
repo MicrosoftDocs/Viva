@@ -1,5 +1,5 @@
 ---
-ms.date: 02/07/2024
+ms.date: 03/12/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
