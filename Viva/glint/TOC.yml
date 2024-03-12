@@ -325,8 +325,8 @@ items:
               href: setup/survey-comparison-data.md
             - name: Opt into external benchmark comparisons
               href: setup/opting-into-external-benchmarks.md                 
-      - name: Viva People Science explains focus areas and action planning
-        href: people-science/people-science-explains-focus-areas.md
+        - name: Viva People Science explains focus areas and action planning
+          href: people-science/people-science-explains-focus-areas.md
   - name: Communicate support for Viva Glint programs to leaders and managers 
     items:
       - name: Use Viva Glint email templates to share survey expectations within your
