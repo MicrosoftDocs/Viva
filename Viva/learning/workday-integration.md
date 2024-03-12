@@ -25,7 +25,16 @@ description: Learn how to configure and manage Workday for Microsoft Viva Learni
 This document outlines how to configure Workday as a content source in Microsoft Viva Learning. The integration is based on Workday RaaS APIs (Report as a Service). Integration supports catalog, assignment, and completions data from Workday. Catalog covers Blended Courses, Digital courses, Lesson, Program, and External provider integrated on Workday.
 
 > [!NOTE]
-> Catalog, assignments, and completion data are retrieved using RaaS (REST APIs). Thumbnails for Workday hosted content is retrieved SOAP APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. The Workday-hosted thumbnails are stored in Viva Learning as metadata.
+> Catalog, assignments, and completion data are retrieved using RaaS (REST APIs). Thumbnails for Workday hosted content is retrieved using SOAP APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. The Workday-hosted thumbnails are stored in Viva Learning as metadata.
+
+## Prerequisites
+
+You need the following permissions and scenarios in place to complete the Workday configuration process:
+
+- Viva Learning Admin access
+- Workday Admin access, 
+- User mapping between Microsoft Entra ID (formerly Azure Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details).
+-  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies.
 
 
 ## Configuration to enable Workday integration
@@ -33,7 +42,7 @@ This document outlines how to configure Workday as a content source in Microsoft
 The workday integration process consists of three primary steps:
 
 1. Create an Integration System User (ISU) account and assign required security access in Workday.
-2. Create a RaaS report catalog, user, assignment, and completion data.
+2. Create four RaaS reports for catalog, user, assignment or assignment completion, and self-enrollment completion data.
 3. Once all configuration parameters are generated on Workday, you can configure Workday in the Viva Learning admin portal.
 
 
@@ -118,7 +127,7 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 
 
 > [!NOTE]
-> All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review [this example](https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report).
+> All RaaS reports (catalog, user data, LRS) should be created from same user account or a single user should be given report ownership at Workday portal. This username should be inserted under Reporting URL attribute in Viva Learning Manage Provider. Review this example: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/username/Viva_Learning_Catalog_Report.`
 
 > [!NOTE]
 > Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
@@ -168,6 +177,9 @@ This report should be created from master Admin account of Workday to avoid any 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
 
 1. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
+    a. Field name: CatalogEffectiveDate 
+    b. Go to Calculations, under “Field Type,” select **Date**. 
+    c. For year, month and day select **Extract Year from Date Field**. Enter field value as “Effective Date.” 
 
 ![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogEffectiveDate.png)
 
@@ -243,7 +255,10 @@ This report should be created from master Admin account of Workday to avoid any 
  
         1. After appending, the final URL for test tenant: `https://wd2-impl-services1.workday.com/ccx/service/customreport2/microsoft_dpt6/svasireddy/Viva_Learning_Catalog_Report` 
         1. Save the final URL, this is used as an input config parameter on Admin portal while enabling the configuration.  
-    1. Once configuration is complete on the Admin portal, within next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
+    1. Once configuration is complete on the Admin portal, within the next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
+
+> [!NOTE]
+> Assignments with the completion status “manually waived” are not shown on the Viva Learning UX. 
 
 ### Create RaaS report on Workday portal for user data sync
 
@@ -296,7 +311,7 @@ This report should be created from master Admin account of Workday to avoid any 
 
     5. Save the report. Select **OK**. 
 
-    6. Once configuration is complete on Admin portal, within next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
+    6. Once configuration is complete on Admin portal, within the next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
 
 
 ### Create RaaS report on Workday portal for assignment by organization and their completion status
@@ -387,7 +402,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     1. Save the report. Select **OK.**
     1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
-    1. Within next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+    1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
     1. The assignments with completion status “manually waived” aren't displayed. 
 
 ### Create RaaS report on the Workday portal for completion status of self-enrollment
@@ -479,7 +494,7 @@ This report should be created from the primary Workday admin account to avoid an
     1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
     1. Save the field. Select **OK**.
     1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
-    1. Within next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+    1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
 > [!NOTE]
 > Lessons are not supported in self-enrollment completion status.
