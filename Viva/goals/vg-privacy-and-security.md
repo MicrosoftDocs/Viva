@@ -283,6 +283,10 @@ Copilot in Viva Goals can access organizational goals data that individual users
 
 When you enter prompts using Microsoft Copilot in Viva Goals, the information contained within your prompts, the data retrieved when responding to the prompts, and the responses generated to the prompts all remain within the Microsoft 365 service boundary.
 
+#### What data does Copilot in Viva Goals store?
+
+Copilot in Viva Goals does not log any of the user's prompts. It follows the [same data residency protocols](#viva-goals-data-handling) currently in place for Viva Goals.
+
 #### What privacy policy does Copilot in Viva Goals use?
 
 Copilot in Viva Goals follows the [privacy and data compliance](#security-privacy-and-compliance-in-viva-goals) currently in place for Viva Goals. Our privacy policy is publicly shared and available as part of the Microsoft Product Terms and Data Protection Addendum.
