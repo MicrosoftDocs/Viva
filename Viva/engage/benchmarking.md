@@ -47,18 +47,18 @@ Verified and Network admins can turn benchmarks on and off from the Viva Engage 
 
 1. On the **Setup & Configuration** tab, select **Analytics and AI**.
 
-1. To enable benchmarks for Network analytics, go to **Network Analytics** and use the toggle to turn on **Engagement Benchmarking**.
-    When this toggle is enabled, you can see how your engagement compares to other networks that use Engage. Your network data may be included in our benchmark calculations with data from other similar-sized organizations for the purpose of comparison only.
+1. To enable benchmarks for Network analytics, go to **Network Analytics** and turn on **Engagement Benchmarking**.
+  When enabled, this feature compares your engagement against networks of similar size using Viva Engage. It may include your network data in aggregate benchmarks for comparative purposes only. 
 
-    >[!NOTE]
-    > If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities*, the Network Analytics dashboard will be unavailable.
+    >[!NOTES]
+    >If less than 50% of the network’s users are licensed for *Viva Suite* or *Employee Communications and Communities*, the Network Analytics dashboard will be unavailable. For precise percentile rankings, at least five similar-sized networks must also enable engagement benchmarks. Without this, Network Analytics will not be displayed.
 
-1. To enable benchmarks for Audience analytics, go to **Audience Analytics** and use the toggle to turn on **Engagement Benchmarking**.
-    When this toggle is enabled, you can see how your engagement compares to other leaders that use Engage in the same organization. Your audiences’ data may be included in benchmark calculations for the purpose of comparison only.
+1. To enable benchmarks for Audience analytics, go to **Audience Analytics** and turn on **Engagement Benchmarking**.
+    When enabled, this setting compares your engagement against other leaders that use Viva Engage in the same organization. It may include your audience data in aggregate benchmark calculations for comparative purposes only.
 
 ### Optimize engagement in your network
 
-Network administrators and corporate communicators can increase engagement, strengthen connections, and improve their benchmark metrics for Network Analytics by applying these best practices in their network.
+Network administrators and corporate communicators can increase engagement, strengthen connections, and improve their benchmark metrics for Network Analytics by applying best practices in their network.
 
 - Assign a peer as a [_corporate communicator_](/viva/engage/eac-key-admin-roles-permissions) to help moderate engagement across your organization.
 
