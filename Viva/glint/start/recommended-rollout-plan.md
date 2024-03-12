@@ -43,7 +43,7 @@ Use the following tables to build a rollout plan for your Viva Glint programs.
 
 |**Survey timing**| **Message to your organization**|**Key activities**|**Owner**|**Communication template links**|
 |-----------|-----------|----------------|--------|-------------------------------|
-|Live survey|<ul><li>Survey invite and reminders sent from platform</li></ul>|<ul><li>Identify themes</li><li>Esure results review trainings complete</li></ul>|Project team, HRBPs|[Senior leadership participation email templates](https://go.microsoft.com/fwlink/?linkid=2241178)|      
+|Live survey|<ul><li>Survey invite and reminders sent from platform</li></ul>|<ul><li>Identify themes</li><li>Ensure results review trainings complete</li></ul>|Project team, HRBPs|[Senior leadership participation email templates](https://go.microsoft.com/fwlink/?linkid=2241178)|      
 
 <hr>
 
