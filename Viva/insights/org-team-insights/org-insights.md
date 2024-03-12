@@ -56,7 +56,7 @@ Organization insights are more than just a dashboard—they also provide helpful
    Screenshot of the "Your organization insights" Home tab in the Viva Insights app.
 :::image-end:::
 
-In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and urgent collaboration. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
+In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and external focus. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
 
 [Learn more about these new reports for leaders](./leader-reports.md).
 
