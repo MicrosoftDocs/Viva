@@ -1,5 +1,5 @@
 ---
-title: Admins exporting Response Rates & Access report
+title: Use the Response Rates & Access report
 description: The Export Response Rate & Access report allows admins to download a spreadsheet of managers eligible to receive survey results during live or after survey cycles are completed.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 02/05/2024
 ---
 
-# Using the Response Rates & Access report
+# Use the Response Rates & Access report
 
 The Export Response Rates & Access report allows admins to download a CSV spreadsheet of managers eligible to receive survey results. The report can include those managers who are eligible, ineligible, or a combination of both. The report is available only when the confidentiality threshold is met.
 
