@@ -161,6 +161,8 @@ We don't support these scenarios.
 
 Can you provide a list of the end points that Viva Learning is accessing? 
 
+To fetch RaaS reports, Viva Learning uses REST API. The URL for this is not fixed and depends on the user and Workday account name.  The following SOAP APIs end points are used to fetch thumbnail images for Workday hosted content:
+
 - [Learning SOAP API reference](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Learning.html)
 - [Get Learning Digital Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Digital_Courses.html)
 - [Get Learning Blended Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Blended_Courses.html)
