@@ -32,7 +32,7 @@ Ensure your rollout process and communications are in sync with the business. Be
 ## Voice
 
 - For your company-wide results communications, which senior leaders have the most impact in terms of building trust and accountability? 
-- Should the same message should go to all employees or should the message be customized for roles?
+- Should the same message go to all employees or should the message be customized for roles?
 
 ## Vehicle
 
