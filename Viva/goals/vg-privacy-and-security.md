@@ -235,11 +235,11 @@ Viva Goals data is hosted in Microsoft-managed datacenters. See [Where your Micr
 
 #### Can we control where data gets stored?
 
-No. This capability is not provided currently. See [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations) to learn more about how data is stored and in which datacenters.
+No. This capability isn't provided currently. See [Where your Microsoft 365 customer data is stored](/microsoft-365/enterprise/o365-data-locations) to learn more about how data is stored and in which datacenters.
 
 #### Does Viva Goals offer local data residency?
 
-No. Local data residency within a country is not available currently.
+No. Local data residency within a country isn't available currently.
 
 ### Viva Goals Data Retention
 
@@ -267,7 +267,7 @@ As a data processor, Microsoft will ensure that our customers can meet the GDPR'
 
 #### Can Viva Goals help me be compliant with the California Customer Privacy Act (CCPA)?
 
-Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we do not "sell" personal information. To learn more, see [California Consumer Privacy Act (CCPA) Frequently Asked Questions](/compliance/regulatory/ccpa-faq).
+Microsoft has implemented GDPR-related DSR capabilities globally. Microsoft has also reviewed our third-party data sharing agreements and taken steps to establish that the necessary contractual terms are in place to ensure that we don't "sell" personal information. To learn more, see [California Consumer Privacy Act (CCPA) Frequently Asked Questions](/compliance/regulatory/ccpa-faq).
 
 ### Copilot in Viva Goals
 
@@ -285,7 +285,7 @@ When you enter prompts using Microsoft Copilot in Viva Goals, the information co
 
 #### What data does Copilot in Viva Goals store?
 
-Copilot in Viva Goals does not log any of the user's prompts. It follows the [same data residency protocols](#viva-goals-data-handling) currently in place for Viva Goals.
+Copilot in Viva Goals doesn't log any user prompts. It follows the [same data residency protocols](#viva-goals-data-handling) currently in place for Viva Goals.
 
 #### What privacy policy does Copilot in Viva Goals use?
 
