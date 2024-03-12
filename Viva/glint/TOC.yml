@@ -341,8 +341,8 @@ items:
            - name: Communicate results rollout plans for Viva Glint programs 
               templates
              href: communicate/results-rollout-templates.md
-       - name: Support survey participants during Viva Glint surveys
-         items: 
+      - name: Support survey participants during Viva Glint surveys
+        items: 
            - name: Support participants during a live Viva Glint survey
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey takers
