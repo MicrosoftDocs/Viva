@@ -63,7 +63,7 @@ The first page of the template contains instructions for building your own templ
 | **Attribute** | Demographic details about employees. They're also referred to as filters in the platform. |
 | **Attribute Header Row** | The blueprint of the Employee Attribute Template. It dictates the columns of information and the name labels for the columns. |
 | **Required Attribute** | Information about each employee in your organization that Viva Glint requires to be part of your Employee Attribute Template:<li>Status: ACTIVE or INACTIVE <li>First name <li>Last name <li>Email address <li>Employee ID |
-| **Custom Attribute** | Any employee information collected in addition to the required attributes. <br>Up to 100 custom attributes can be collected. Examples: birth year, hire date, gender, work location, department. <br><p>Viva Glint is GDPR compliant and prohibits the processing of any employee information classified as sensitive. No attributes classified as sensitive can be incorporated into an Employee Attribute Template. |
+| **Custom Attribute** | Any employee information collected in addition to the required attributes. <br>Up to 100 custom attributes can be collected. Examples: birth year, hire date, gender, work location, department. |
 | **Flat Attribute** | A category that can't be broken down further, such as age group or gender. |
 | **Optional System Attribute** | A value that indicates how and when communications are sent to an employee, such as language and time zone. |
 | **Hierarchy** | Filtering down of an employee attribute into levels from highest to lowest, largest to smallest, etc. to provide more precise insights into engagement.  <br>Example: Region > Country > State > City |
