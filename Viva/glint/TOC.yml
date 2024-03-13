@@ -331,7 +331,7 @@ items:
         href: start/recommended-rollout-plan.md
         items:
            - name: Use the communications checklist
-           - href: start/comms-checklist.md
+             href: start/comms-checklist.md
       - name: Use Viva Glint email templates to share survey expectations within your
           organization
         href: communicate/email-templates-survey-expectations.md
