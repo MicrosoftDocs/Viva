@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/07/2024
+ms.date: 03/12/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -117,30 +117,6 @@ This report is powered by the following metrics:
 |---|---|
 | External collaboration hours | Average time employees spent in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
 | Employees' contact with external partners | Number of employees in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
-
-### Urgent collaboration
-
-This report helps leaders understand how employees manage unexpected demands, and in turn shift these demands to planned work. To enable this shift, the report provides these types of insights:
-
-* Average time employees spend per week responding to urgent work requests
-
-* The percentage of employees and work weeks involved in urgent collaboration
-
-* The number of employees who worked on urgent email or meeting requests
-
-* Average time employees spend per week in unscheduled Teams calls during and outside of working hours
-
-This report identifies urgent collaboration using the following keywords in the email subject lines or meeting invitation titles:  
-
-* urgent  
-
-* immediately  
-
-* ASAP  
-
-* fire drill  
-
-* immediate action
 
 #### Privacy and engagement rates
 
