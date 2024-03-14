@@ -212,8 +212,8 @@ items:
             href: setup/preview-demo-reporting.md
           - name: Make changes to a live Viva Glint survey
             href: setup/change-live-survey.md 
-     - name: Set up Employee Lifecycle surveys
-       items:
+      - name: Set up Employee Lifecycle surveys
+        items:
           - name: Create a Viva Glint Onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
           - name: Create a Viva Glint Exit survey
