@@ -180,13 +180,11 @@ This report should be created from master Admin account of Workday to avoid any 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
 
 1. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
-    a. Field name: CatalogEffectiveDate 
-    b. Go to Calculations, under “Field Type,” select **Date**. 
-    c. For year, month and day select **Extract Year from Date Field**. Enter field value as “Effective Date.” 
+    1. Field name: CatalogEffectiveDate 
+    2. Go to Calculations, under “Field Type,” select **Date**. 
+    3. For year, month and day select **Extract Year from Date Field**. Enter field value as “Effective Date.” 
 
 ![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogEffectiveDate.png)
-
-
 
 4. Under “Group Column Headings”, add the below fields:
 
@@ -402,7 +400,7 @@ This report should be created from the primary Workday admin account to avoid an
             - f.1. Field: Learning Assignment; Operator: is empty 
             - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
     
-        ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-Self-enrollment-completion-filters.png)
+    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-Self-enrollment-completion-filters.png)
 
     **Modify the Prompts**
 
@@ -494,22 +492,22 @@ This report should be created from the primary Workday admin account to avoid an
     - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
 
 
-    ![Screenshot of the Workday self enrollment completion prompts.](/viva/media/learning/workday-Self-enrollment-completion-prompts.png)
+    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-Self-enrollment-completion-prompts.png)
 
-    ### Modify the prompts
+### Modify the prompts
 
-    1. Go to **Prompts**
-        1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
+1. Go to **Prompts**
+    1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
     
     ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-Self-enrollment-completion-filters.png)
 
-        1. Add following values in the new prompts and select “OK”.
-            - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
-            - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
-    1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
-    1. Save the field. Select **OK**.
-    1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
-    1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+    2. Add following values in the new prompts and select “OK”.
+    - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
+    - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
+1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
+1. Save the field. Select **OK**.
+1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
+1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
 > [!NOTE]
 > Lessons are not supported in self-enrollment completion status.
@@ -526,7 +524,7 @@ You can find the required Workday Web Service endpoint on the Workday Data Cente
 
 1. Now that you know your data center, fill in your information inside the {brackets} to get your URL. You need this URL for integration in your Microsoft 365 admin center. `https:// {**Production Data Center URL Prefix**}/ccx/service/{**Tenant name**}/Learning/v39.2`
  
-1.An example of a URL: `https://wd3.myworkday.com/ccx/service/yourorg/Learning/v39.2`
+An example of a URL: `https://wd3.myworkday.com/ccx/service/yourorg/Learning/v39.2`
 
 ### Enable OAuth for Workday, generate Client ID, client secret and refresh token
 
@@ -607,7 +605,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
 ![Screenshot of the Manage Providers tab in Viva Learning.](/viva/media/learning/wd-s4-1.png)
 
-1. Select **Add provider** and select **Workday**. Select **Next**.
+3. Select **Add provider** and select **Workday**. Select **Next**.
 
 4. Fill in the following required configuration details for Workday:
 
