@@ -366,7 +366,6 @@ Employees can view the dashboard in the Viva Insights Teams or web app.
 **What can enabled users see in the dashboard?**
 The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
 
-
 **How often is the default-on enablement updated?**
 To capture organizational changes, we refresh the default-on enablement on a weekly basis.
 
@@ -381,3 +380,6 @@ To protect individual privacy, you’ll only see insights when there are at leas
 
 **The values I'm seeing are just "--," with a banner that reads, "Not enough activity data to show insights." What's happening?**
 In this scenario, there are fewer than 25 employees with a Viva or Viva Insights license, and there are fewer than 25 employees with a Copilot license.
+
+**Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
+In this scenario, your Entra data is not reliable.
