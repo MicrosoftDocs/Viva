@@ -49,7 +49,8 @@ Compile a file of administrators to upload to Viva Glint with the following colu
 > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
 
 > [!CAUTION]
-> Don't add admin users as Support users. They must be uploaded with a status of ACTIVE to have all Viva Glint permissions.
+> - Don't add admin users as Support users. They must be uploaded with a status of ACTIVE to have all Viva Glint permissions.
+> - To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
 
 ### Upload administrators to Viva Glint
 
