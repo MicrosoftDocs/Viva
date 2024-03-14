@@ -266,9 +266,9 @@ items:
            items:
              - name: Viva Glint's position on expected response rates
                href: reports/expected-response-rates.md
-       - name: Dashboard experiences for Viva Glint roles
-         href: reports/dashboard-experiences.md
-         items:  
+      - name: Dashboard experiences for Viva Glint roles
+        href: reports/dashboard-experiences.md
+        items:  
           - name: Use Viva Glint's Broader Team Insights feature
             href: reports/broader-team-insights.md
             items:
@@ -290,8 +290,8 @@ items:
                 href: reports/managers-sharing-team-conversations.md
               - name: Team Conversations presentation kit for managers
                 href: reports/coaching-team-conversations.md
-     - name: Submit product feedback to Viva Glint
-       href: setup/glint-product-feedback.md           
+          - name: Submit product feedback to Viva Glint
+            href: setup/glint-product-feedback.md           
   - name: View results and take action as a Viva Glint manager
     items:
       - name: Viva Glint's Survey Reports overview
