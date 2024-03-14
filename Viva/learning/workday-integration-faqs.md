@@ -22,7 +22,7 @@ description: FAQs for how to configure and manage Workday for Microsoft Viva Lea
 
 # FAQs in Configuring Workday in Microsoft Viva Learning
 
-These are the frequently asked questions for the integration between Workday and Microsoft Viva Learning.
+This article outlines answers for frequently asked questions for the integration between Workday and Microsoft Viva Learning.
 
 **1. When will the content reflect in the Viva Learning app after configuration?**
 
@@ -161,7 +161,7 @@ We don't support these scenarios.
 
 Can you provide a list of the end points that Viva Learning is accessing? 
 
-To fetch RaaS reports, Viva Learning uses REST API. The URL for this is not fixed and depends on the user and Workday account name.  The following SOAP APIs end points are used to fetch thumbnail images for Workday hosted content:
+To fetch RaaS reports, Viva Learning uses REST API. The URL for this isn't fixed and depends on the user and Workday account name.  The following SOAP APIs end points are used to fetch thumbnail images for Workday hosted content:
 
 - [Learning SOAP API reference](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Learning.html)
 - [Get Learning Digital Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Digital_Courses.html)

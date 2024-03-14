@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 12/20/2023
+ms.date: 03/14/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -33,7 +33,7 @@ You need the following permissions and scenarios in place to complete the Workda
 
 - Viva Learning Admin access
 - Workday Admin access, 
-- User mapping between Microsoft Entra ID (formerly Azure Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details).
+- User mapping between Microsoft Entra ID (formerly Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details).
 -  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies.
 
 
@@ -74,6 +74,9 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 | Worker Data: Current staffing information | Provides information on workers' current information such as status, length of service, seniority. Includes web services. This domain policy is required for certain fields (Worker is Terminated) in User RaaS report. |
 | Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
 
+
+![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions%20-security-group.png)
+
 8. Run the **Activate Pending Security Policy Changes** task.
 9. **Advance security**: These are **optional** steps for advance security access on ISU.
 
@@ -93,12 +96,12 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
             - Job Application – External
         1. You can't combine different types of security segments in a segment-based security group.
 
-            **Example scenario:** You want a Benefits Administrator to be able to manage only benefits-related documents. You don't want them to be able to manage payroll-related documents. Workday secures access to manage all worker documents to the Worker Data: Add Worker Documents and Worker Data: Edit and Delete Worker Documents domains.   
+            **Example scenario:** You want a Benefits Administrator to be able to manage only benefits-related documents. You don't want them to be able to manage payroll-related documents. Workday secures access to manage all worker documents to the Worker Data: Add Worker Documents and Worker Data: Edit and Delete Worker Documents domains.
             You can create **Document Categories** - Benefits segment to identify benefits-related documents. You can then use the security segment to create a segment-based security group so Benefits Administrators can access only the benefits-related documents. 
 
         1. Next steps:  Users with access to a domain through both a segment-based and a non-segment-based security group have permission to access all segments. Make sure you associate non-segment-based security groups with users who have permission to access all segments by:
             - Reviewing all security groups on the policy before adding segment-based security groups. 
-            - Reviewing the included security groups in an aggregation security group.   
+            - Reviewing the included security groups in an aggregation security group.
         1. To provide security permissions: 
             - Add the security group to security policies. 
             - Activate pending security policy changes. 
@@ -358,7 +361,7 @@ This report should be created from the primary Workday admin account to avoid an
 | Learning Content | Learning_Content_group |
 | Worker | Worker_group |
 
-1. Under Prompt mark “Display Prompt Values in Subtitles” and, add following prompt values. You can directly copy paste these values. In “Default Value” field for “learning Organization for Learning Assignment”, provide default value of top organization (root organization) for which you need report being pivoted. 
+1. Under Prompt mark “Display Prompt Values in Subtitles” and, add following the prompt values. You can directly copy and paste these values. In the “Default Value” field for “learning Organization for Learning Assignment,” provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
 
 | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
 | - | - | - | - | - | - | 
@@ -380,6 +383,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     | Field | Value |
     | - | - |
+    |Field | Modified Date|
     | Operator | Greater than or equal to |
     | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
     | Comparison Value | Starting Prompt | 
@@ -388,13 +392,24 @@ This report should be created from the primary Workday admin account to avoid an
 
     | Field | Value |
     | - | - | 
-    | ModifiedDate | (No specified value) |
-    | Operator | Comparison Type | 
-    |Comparison Value | less than or equal to |
-    | Prompt the user for the value and ignore the filter condition if the value is blank | Ending Prompt | 
+    |Field | ModifiedDate|
+    | Operator | Less than or equal to | 
+    |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+    | Comparison Value | Ending Prompt | 
+
+    1. Add filters for Completion Status and Learning assignments. 
+        1. Go to filter and add 2 new “And” filter and input following values: 
+            - f.1. Field: Learning Assignment; Operator: is empty 
+            - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
+    
+        ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-Self-enrollment-completion-filters.png)
+
+    **Modify the Prompts**
 
     1. Go to **Prompts**. 
-        1. Select **Populate Undefined Prompt Defaults**. This will add the start and ending prompt for Modified date, which is defined in previous step.
+        1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for Modified date, which is defined in previous step.
+    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-Self-enrollment-completion-prompts.png)
+
         1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
                 - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
@@ -486,7 +501,7 @@ This report should be created from the primary Workday admin account to avoid an
     1. Go to **Prompts**
         1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
     
-        ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-Self-enrollment-completion-filters.png)
+    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-Self-enrollment-completion-filters.png)
 
         1. Add following values in the new prompts and select “OK”.
             - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
@@ -537,7 +552,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
 
     ![Screenshot of the Register API Client for Integrations](/viva/media/learning/wd-s3-2.png)
 
-4. After creation of API client for integration, you'll get the ClientID and client Secret. Copy the client Id and client secret. This is used on admin portal.
+4. After creation of API client for integration, you'll get the ClientID and client Secret. Copy the client ID and client secret. This is used on admin portal.
 
 5. Generate refresh token 
     1. Search for task- "View API client", go to tab “API clients for integration”. It shows all clients. Open the "VivaLearning" client created in previous step. 
