@@ -164,8 +164,8 @@ items:
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
             href: setup/patient-safety-survey.md
-     - name: Create non-templated, but commonly used survey types
-       items:
+      - name: Create non-templated, but commonly used survey types
+        items:
           - name: Set up a Microsoft Viva Glint Magnet survey
             href: setup/magnet-rn-excellence.md
      - name: Set up Program Summary for Viva Glint Engagement-type surveys
