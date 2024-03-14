@@ -33,9 +33,9 @@ Engage admins control availablility of this feature on in their Viva Engage netw
 
 The Answers Intelligent Importer settings are turned on, by default.
 
-1. Go to the Engage admin center.
-1. Select Features and Settings > Answers 
-1. Under Intelligent Importer availability, turn on **Premium Communities**.
+1. Go to [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigation menu, select **Admin center**.
+1. On the **Feature management** tab, select the **Answers** button  to open the Answers configuration options.
+1. Under **Intelligent Importer availability**, turn on **Premium Communities**.
 
 When this setting is enabled, community admins with access to premium functionalities on Engage can access and use the Intelligent Importer feature from within their specific communities.  
 
@@ -53,7 +53,7 @@ Each import action can generate 20 (maximum) question-and-answer pairs. For best
 >Embedded images without text metadata aren't processed. 
 
 
-## Import FAQs and other documents to your community
+## Import FAQs and other documents to populate question-and-answer pairs
 
 Community admins can import PDF, DOC, or TXT files (up to 5 MB) from their devices to populate communities with useful information. The Answers Intelligent Importer uses AI to extract question/answer pairs from the document.
 
