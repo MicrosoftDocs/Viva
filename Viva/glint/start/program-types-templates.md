@@ -20,15 +20,15 @@ ms.date: 02/14/2024
 
 # Viva Glint program types and associated templates
 
-Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which will deliver rich insights that translate into actionable opportunities to improve business.
+Viva Glint believes ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization's success. Viva Glint offers engagement programs as a way for customers to send short, targeted surveys to their employees which deliver rich insights. These insights translate into actionable opportunities to improve business.
 
 Engagement is the degree to which employees invest their cognitive, emotional, and behavioral energies toward positive organizational outcomes. Engagement correlates with job satisfaction, commitment, involvement, motivation, and attrition.
 
-In addition to **Engagement survey programs** , Viva Glint customers can opt into **Employee Lifecycle survey programs, and 360 Feedback programs.**
+In addition to **Engagement survey programs** , Viva Glint customers can opt into **Employee Lifecycle programs.**
 
-Our People Science team continually updates survey items and develops templates that will provide meaningful insights into the current world of work.
+Our Viva People Science team continually updates survey items and develops templates to provide meaningful insights into the current world of work.
 
-## Two categories of surveys to consider
+## Two categories of surveys 
 
 Within our survey programs, there are two overarching types to consider implementing:
 
@@ -39,19 +39,17 @@ Within our survey programs, there are two overarching types to consider implemen
 
 ## Survey frequency 
 
-Viva Glint programs are available for different cadences and can run simultaneously, when appropriate.
+Viva Glint programs are available for different cadences that you set as an admin and can run simultaneously, when appropriate.
 
-### Recurring surveys
+## Types of surveys
 
-Viva Glint offers recurring Engagement and special topic-type survey templates, in addition to a blank template from which you can create your own survey. Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence.
+|Survey type|Description|
+|---------|---------|
+|Recurring engagement or special topic|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
+|Ad hoc|Measure something out of the ordinary at an impactful time.
+|Always-On feedback|Provide feedback and suggestions anytime it feels relevant. 
 
-### Ad Hoc surveys
-
-Viva Glint uses Ad Hoc surveys to measure something out of the ordinary at an impactful time. A blank template is available if you choose to create your own Ad Hoc survey.
-
-### Always-On feedback
-
-Use Always-On feedback to provide feedback and suggestions anytime it feels relevant. A blank survey can be created for Always-On feedback, as well.
+Blank survey templates are available for all survey types, as well.
 
 ## Viva Glint preset templates
 
@@ -91,7 +89,7 @@ Leverage Viva Glint programs to create feedback habits and support continuous em
 - **Target groups for results** - All roles
 - **Feedback providers** - All roles
 
-### Culture survey template
+### [Culture survey template](https://go.microsoft.com/fwlink/?linkid=2264200)
 
 - **Purpose** - Uses Viva Glint's People Science team's identified measurable elements of current culture that are important to driving people and organizational success.
 - **Recommended frequency** - Recommended as a recurring survey launching every few years or so depending on how quickly the organization is changing
