@@ -30,7 +30,7 @@ In the **Program Roles** section, you see and set how [User Roles](https://go.mi
 
 ### View Program Roles already permissioned to see feedback 
 
-:::image type="content" source="/../../media/glint/report-question-access-added.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
+:::image type="content" source="../../media/glint/report-question-access-added.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
 
 Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
 **Select the role row** to view what is configured. Assigned permissions include:
@@ -56,14 +56,14 @@ To add User Roles to a program, select **Add Role**. The dropdown menu displays 
 >[!TIP]
 >Use the up or down arrow to view or close permissions set up for each role.
 
-:::image type="content" source="/../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature." lightbox="../../media/glint/setup/program-summary-reporting-add-role.png"::: :::
+:::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot of Program Roles and the Add Role feature." lightbox="../../media/glint/setup/program-summary-reporting-add-role.png"::: 
 
 ## Set up question access for roles
 
 >[!NOTE]
 >This feature becomes available on April 9, 2024.
 
-:::image type="content" source="/../../media/glint/report-questions-delete-add.png" alt-text="Screenshot of how to remove and add back survey questions by role."lightbox="../../media/glint/setup/report-questions-delete-add.png":::
+:::image type="content" source="../../media/glint/report-questions-delete-add.png" alt-text="Screenshot of how to remove and add back survey questions by role."lightbox="../../media/glint/setup/report-questions-delete-add.png":::
 
 ### Setting up section-level permissions by role
 
