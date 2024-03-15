@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/22/2024
+ms.date: 03/15/2024
 ---
 
 # Reporting setup in Program Summary
@@ -33,17 +33,18 @@ In the **Program Roles** section, you'll see and set how [User Roles](https://go
 Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
 **Select the row** to view what has been configured for that role. In the example below, the Manager row was previously configured and you can see what permissions have been assigned. Assigned permissions include:
 
- - **Reporting View** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
- - **Concierge Visibility** - Whether this User Role will see the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
- - **Broader Team Insights** - Whether a high-level summary of this User Role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
- - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. That can be changed by using the dropdown menu to select a different report; only one report is available if not using Team Summary.
+ - **Reporting Access** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
+ - **Concierge Visibility** - Whether this user sees the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
+ - **Broader Team Insights** - Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
+ - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available if not using Team Summary.
    
  > [!IMPORTANT]
  > Company Admin roles be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
    
- - **Report Template Access** - The individual reports this User Role can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
+ - **Report Template Access** - The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
+ - **Question Access** - 
 
-:::image type="content" source="../../media/glint/program-summary-reporting-add-manager-example.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
+:::image type="content" source="../../media/glint/reporting-question-access-added.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
 
 ### Add Program Roles to permission them to see feedback for this program
 
