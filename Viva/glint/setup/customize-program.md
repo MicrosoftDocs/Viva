@@ -20,7 +20,7 @@ ms.date: 3/15/2024
 
 # Set up and customize Viva Glint programs
 
-Use prepopulated or blank templates to begin setting up your program. Customize as you'd like. Use our best design principles and guidance to ensure you have the right program for the people you are targeting in your organization. 
+Use prepopulated or blank templates to begin setting up your feedback program. Customize as you'd like. Use our best design principles and guidance to ensure you have the right program for the people you are targeting in your organization. 
 
 ## Watch this 5-minute video on Best Practice Survey Design Principles:
 
