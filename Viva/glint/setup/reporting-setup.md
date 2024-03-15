@@ -26,16 +26,16 @@ The Reporting page allows admins to see and customize how dashboards are set up 
 
 ## View and add Program Roles
 
-In the **Program Roles** section, you'll see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) are permissioned to see survey results. 
+In the **Program Roles** section, you see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) are permissioned to see survey results. 
 
 ### View Program Roles already permissioned to see feedback 
 
 :::image type="content" source="/../../media/glint/report-question-access-added.png" alt-text="Screenshot that shows the features permissioned for a User Role.":::
 
 Roles already set up for this program are listed under the **Program Roles** row, each displaying on its own row.
-**Select the role row** to view what has been configured. Assigned permissions include:
+**Select the role row** to view what is configured. Assigned permissions include:
 
- - **Reporting Access** - Whether the manager has been granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
+ - **Reporting Access** - Whether the manager is granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
  - **Concierge Visibility** - Whether this user sees the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
  - **Broader Team Insights** - Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
  - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available if not using Team Summary.
@@ -79,19 +79,19 @@ Add a question back by selecting **Add More** and then the question to be added.
 
 #### Can the key outcome be changed?
 
-The key outcome is added to all roles by default and can't be removed. If changed, the previous key outcome should remain as previously set. You'll see this message:  
+The key outcome is added to all roles by default and can't be removed. If changed, the previous key outcome should remain as previously set. You see this message:  
 > To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
 **Accept** or **Cancel** this change and then add the new key outcome to all roles. 
 
-If required, admins must remove the previous key outcome from the roles that have permission to it.
+If necessary, admins must remove the previous key outcome from the roles that have permission to it.
 
 ## Set up reporting for this program
 There are six fields to set up.
 
 ### Aggregate Indices
 
-For most surveys, using aggregate indices is not recommended. Aggregates are groups of questions which are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, these are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
+For most surveys, using aggregate indices is not recommended. Aggregates are groups of questions that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be a part of aggregate indices.
 
 If adding an Aggregate Index:
 
@@ -102,7 +102,7 @@ If adding an Aggregate Index:
    - Select **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
      
    >[!CAUTION]
-   >If you change the calculation method, you'll need to reselect at least one question below.
+   >If you change the calculation method, you'll need to reselect at least one question.
 
    > [!NOTE]
    > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
