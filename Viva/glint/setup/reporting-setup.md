@@ -56,7 +56,7 @@ To add User Roles to a program, select **Add Role**. The dropdown menu displays 
 >[!TIP]
 >Use the up or down arrow to view or close permissions set up for each role.
 
-:::image type="content" source="../../media/glint/setup/report-question-access-added" alt-text="Screenshot of Program Roles and the Add Role feature." lightbox="../../media/glint/setup/report-question-access-added.png"::: 
+:::image type="content" source="../../media/glint/setup/report-question-access-added.png" alt-text="Screenshot of Program Roles and the Add Role feature." lightbox="../../media/glint/setup/report-question-access-added.png"::: 
 
 ## Set up question access for roles
 
