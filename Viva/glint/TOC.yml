@@ -139,12 +139,8 @@ items:
               href: setup/manage-confidentiality-thresholds.md
       - name: Delete survey data from Viva Glint
         href: setup/delete-survey-data.md
-  - name: Use Viva Glint best practices and program guidance
-    href: setup/best-practice-setup-guidance.md
-    items:
-      - name: Use best practices to design your survey program
-        href: setup/best-practice-setup-guidance.md
   - name: Set up and customize Viva Glint programs
+    href: setup/customize-program.md
     items:
       - name: Plan ahead for monthly releases and shutdowns
         href: setup/monthly-release-dates.md
