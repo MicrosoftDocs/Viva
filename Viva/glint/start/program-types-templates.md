@@ -43,6 +43,8 @@ Viva Glint programs are available for different cadences that you set as an admi
 
 ## Types of surveys
 
+Use Viva Glint programs to create feedback habits and support continuous employee and organizational development. 
+
 |Survey type|Description|
 |---------|---------|
 |Recurring engagement or special topic|Surveys should be *recurring* so that data can be compared from between cycles and *trend* can be established. Recurring surveys are set to go live at a scheduled cadence. Special topic templates include culture, manager effectiveness, and more.|
@@ -53,80 +55,17 @@ Blank survey templates are available for all survey types, as well.
 
 ## Viva Glint preset templates
 
-Leverage Viva Glint programs to create feedback habits and support continuous employee and organizational development. Viva Glint offers prescribed templates and a blank template option for each type of program.
+Viva Glint offers prescribed templates and a blank template option for each type of program.
 
-### [Engagement survey template](https://go.microsoft.com/fwlink/?linkid=2231005)
-
-- **Purpose** -  - Engagement surveys measures key drivers of engagement from Glint's research-based People Success Elements, which are critical for employees being happy and successful at work.
-- **Recommended frequency** - Recurring: Recommended quarterly as this includes all core engagement items, creating a solid engagement baseline for your organization. This program is recommended as a first introduction to Viva Glint programs within your organization and can be set to a customized cadence.
-- **Target groups for results** - Managers and teams
-- **Feedback providers** - All eligible employees
-
-## Employee Lifecycle survey templates
-
-### [Onboarding template](https://go.microsoft.com/fwlink/?linkid=2231203)
-
-- **Purpose** - Provides an opportunity to check in with newcomers and understand what is going well and any challenges with their onboarding experience
-- **Recommended frequency** - Automatically triggered at a key moment
-   > [!TIP]
-   > Recommend having at least two onboarding surveys at specific points in time (e.g. - 45 days, 60 days or 30 days, 60 days, and 90 days)
-- **Target groups for results** - Human Resource leaders and managers
-- **Feedback providers** - New hires
-
-### [Exit survey template](https://go.microsoft.com/fwlink/?linkid=2231203)
-
-- **Purpose** - Provides data for why people leave and their perceptions of the organization as they transition from the organization
-- **Recommended frequency** - Automatically triggered at a key moment
-- **Target groups for results** - Human Resource leaders and managers 
-- **Feedback providers** - Departing employees
-
-## Special topic survey templates
-
-### [Microsoft Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)
-
-- **Purpose** - Organizations can measure the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI
-- **Recommended frequency** - Recurring
-- **Target groups for results** - All roles
-- **Feedback providers** - All roles
-
-### [Culture survey template](https://go.microsoft.com/fwlink/?linkid=2264200)
-
-- **Purpose** - Uses Viva Glint's People Science team's identified measurable elements of current culture that are important to driving people and organizational success.
-- **Recommended frequency** - Recommended as a recurring survey launching every few years or so depending on how quickly the organization is changing
-- **Target groups for results** - Senior leadership and above
-- **Feedback providers** - All eligible employees
-
-### [Diversity and Inclusion template](/viva/glint/setup/diversity-inclusion)
-
-- **Purpose** - Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees
-- **Recommended frequency** - Recurring
-- **Target groups for results** - Managers and teams
-- **Feedback providers** - All eligible employees
-
-### [Patient Safety template](/viva/glint/setup/patient-safety-survey)
-
-- **Purpose** - Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.
-- **Recommended frequency** - Recurring
-- **Target groups for results** - Healthcare managers and teams
-- **Feedback providers** - All eligible employees
-
-### [Manager Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231106)
-
-- **Purpose** - Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness
-- **Recommended frequency** - Recurring
-- **Target groups for results** - Managers and teams
-- **Feedback providers** - All eligible employees
-
-### [Team Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231201)
-
-- **Purpose** - Identifies a team's unique dynamics and opportunities for improvement
-- **Recommended frequency** - Recurring
-- **Target groups for results** - Managers and teams
-- **Feedback providers** - All eligible employees
-
-### Distress survey template
-
-- **Purpose** - Assesses employee sentiment related to a specific large-scale change within the organization (e.g., M&A, major technology implementation, organizational restructuring)
-- **Recommended frequency** - Recurring or Ad-hoc
-- **Target groups for results** - Leaders of change and change management team
-- **Feedback providers** - All eligible employees
+|Template name|Type|Purpose|Recommended frequency|Target groups for results|Feedback providers
+|---------|---------|
+|[Engagement survey template](https://go.microsoft.com/fwlink/?linkid=2231005)|Recurring|Measure key drivers of engagement from research-based Viva People Success Elements, which are critical for employees being happy and successful at work.|Recurring: Recommended quarterly as this includes all core engagement items, creating a solid engagement baseline. Recommended as a first introduction to Viva Glint programs within your organization and can be set to a customized cadence.|Managers and teams|All eligible employees
+|[Onboarding template](https://go.microsoft.com/fwlink/?linkid=2231203)|Employee Lifecycle|Provides an opportunity to check in with newcomers and understand what is going well and any challenges with their onboarding experience|Automatically triggered at a key moment. Recommend having at least two onboarding surveys at specific points in time (for example, 30 days, 45 days, 60 days, and/or 90 days)|Human Resource leaders and managers|New hires|
+|[Exit survey template](https://go.microsoft.com/fwlink/?linkid=2231203)|Employee Lifecycle|Provides data for why people leave and their perceptions of the organization as they transition|Automatically triggered at a key moment|Human Resource leaders and managers|Departing employees|
+|[Microsoft Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)|Special topic|Measures the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI|Recurring|All roles|All roles|
+|[Culture survey template](https://go.microsoft.com/fwlink/?linkid=2264200)|Special topic|Uses Viva People Science team's measurable elements of current culture that are important to driving people and organizational success.|Recommended as a recurring survey launching every few years, depending on how quickly the organization is changing|Senior leadership and above|All eligible employees|
+|[Diversity and Inclusion template](/viva/glint/setup/diversity-inclusion)|Special topic|Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees|Recurring|Managers and teams|All eligible employees|
+|[Patient Safety template](/viva/glint/setup/patient-safety-survey)|Special topic|Assesses the culture of patient safety in a valid, reliable, concise, and straightforward way. Leapfrog-approved.|Recurring|Healthcare managers and teams|All eligible employees|
+|[Manager Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231106)|Special topic|Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness|Recurring|Managers and teams|All eligible employees|
+|[Team Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231201)|Special topic|Identifies a team's unique dynamics and opportunities for improvement|Recurring|Managers and teams|All eligible employees|
+|Distress survey template|Special topic|Assesses employee sentiment related to a specific large-scale change within the organization (for example, M&A, technology implementation, organizational restructuring)|Recurring or Ad-hoc|Leaders of change and change management team|All eligible employees|
