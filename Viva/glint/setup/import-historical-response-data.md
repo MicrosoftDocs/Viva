@@ -177,17 +177,13 @@ To import historical users and their responses:
 
 If you encounter issues during your import, use this guidance to troubleshoot.
 
-### Error at line 2: missing required field...
+- ### [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 
-**Issue:** The .csv files uploaded to External Import aren't UTF-8 encoded, and are likely UTF-8 with BOM encoding.
+- ### [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
 
-**Resolution:** Resave files with UTF-8 encoding and reupload.
+- ### [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
 
-### User (email address) found in user file is NOT in client
-
-**Issue:** The user email address for in your Respondent User File or Raw Score File doesn't match the email address for the user in the Viva Glint People page.
-
-**Resolution:** Update the email address for the user(s) in Viva Glint to match the email address(es) in your files uploaded to Advanced Configuration External Import.
+- ### [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## Confirm expected results in your dashboard
 
