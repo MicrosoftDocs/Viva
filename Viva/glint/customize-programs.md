@@ -28,6 +28,9 @@ Use prepopulated or blank templates to begin setting up your program. Customize 
 
 ## [Plan ahead for platform releases and shutdowns](/../../viva/glint/setup/monthly-release-dates)
 
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring “release notes” to customers provide details about what's upcoming to the Viva Glint platform. Releases include scheduled downtime for the platform. 
+The release schedule is subject to change and is updated, as appropriate.
+
 ## In this section
 
 Check the Table of Contents to find:
