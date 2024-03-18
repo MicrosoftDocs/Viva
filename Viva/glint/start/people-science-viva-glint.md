@@ -1,6 +1,6 @@
 ---
-title: How People Science works with Viva Glint
-description: Learn how People science works with Viva Glint
+title: How Viva People Science works with Viva Glint
+description: Learn how Viva People Science works with Viva Glint
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -15,14 +15,14 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/05/2024
+ms.date: 03/15/2024
 ---
 
 # How People Science works with Viva Glint
 
 The Microsoft Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow us to reimagine how Viva apps, such as Viva Glint, can deliver exceptional and impactful experiences in the workplace.
 
-We bring unique points of view based on science-backed research, people-centric perspective, and a deep understanding of customer needs to help organizations craft meaningful employee experiences. Our knowledge and extensive experience creates a product that drives employee engagement and business results.
+Viva People Science brings unique points of view based on science-backed research, people-centric perspective, and a deep understanding of customer needs to help organizations craft meaningful employee experiences. Our knowledge and extensive experience creates a product that drives employee engagement and business results.
 
 Our work is focused on enabling people to bring their best selves to work, in order to do their best work. Years of research tell us that there are **six core elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). They include:
 

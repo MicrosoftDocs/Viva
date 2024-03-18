@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/10/2024
+ms.date: 03/15/2024
 ---
 
 # Review Allowed List and supported browser information for Viva Glint
@@ -40,7 +40,7 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ### Glint survey and system emails originate from:
 
-- US and EU: [**no-reply@glint.microsoft.com**](mailto:no-reply@glint.microsoft.com)
+- US and EU: **no-reply@glint.microsoft.com** and **no-reply@glint.mail.microsoft**
 
 ## Take other steps to ensure email delivery
 

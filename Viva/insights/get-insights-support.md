@@ -29,6 +29,9 @@ Need to send feedback, ask a question, file a support ticket, or learn more abou
 |Digest emails| At the bottom of each insight card, we ask, **Is this helpful?**. Select **Yes** or **No**. To add feedback comments, select **Send feedback to Microsoft** at the bottom of the email.
 |Advanced insights app (for admins and analysts)|Select the **Feedback** icon at the top-right of the app, to the left of the **Help** icon.
 
+>[!Important]
+>Beginning at the end of March 2024, we’ll be pausing the digest email, which are typically sent twice a month. All the content from digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause).
+
 ## Get your questions answered
 
 If you have questions about Viva Insights, we have a few FAQ articles that might help: 
