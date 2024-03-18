@@ -368,7 +368,7 @@ items:
   - name: Integrate Viva Glint with other Viva apps
     items:
       - name: Integrate Viva Insights into Viva Glint
-        href: setup/integrate-insights.md
+        href: setup/insights-integrate.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
