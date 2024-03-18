@@ -43,7 +43,6 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Admin role | Can assign these roles |Assigned in|
 |------------|-------|--------|
-|Admin role |Can assign these roles| Assigned in|
 |Microsoft 365 Global Admin|Other global admins, Engage admins, Answers admins (Knowledge manager)|Microsoft Entra ID|
 |Engage Admin|Verified admins, Network admins, Corporate communicators|Microsoft Entra ID|
 |Verified Admin|Verified admins, Network admins, Corporate communicators|Yammer admin center / Viva Engage admin center|
