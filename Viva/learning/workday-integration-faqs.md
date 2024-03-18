@@ -171,8 +171,8 @@ To fetch RaaS reports, Viva Learning uses REST API. The URL for this report isn'
 **26. Which of the RaaS reports are indexed? Can reports handle large data volumes?**
 
 |RaaS report | Indexed? |
-| -- | --| 
+|--| --| 
 | Catalog RaaS | **Not indexed** | 
 | User RaaS | **Indexed** | 
 | LRS RaaS | **Not indexed**. The org ID-based report filtering is in place to handle large data sets| 
-| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report is not filterable on org ID. It is **indexed** with new completion date-based filters. | 
+| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report isn't filterable on org ID. It's **indexed** with new completion date-based filters. | 
