@@ -39,7 +39,7 @@ To perform administrative tasks and facilitate many of the premium features in V
 
 ## Who assigns roles and where?
 
-Some admins have more permissions than others and can assign Viva Engage roles to users.
+Some admins have more permissions than others and can assign Viva Engage roles to users. The following table lists admins in order of their permissions, with those having the most permissions at the top.
 
 |Admin role | Can assign these roles |Assigned in|
 |------------|-------|--------|
@@ -68,7 +68,7 @@ For details, see [Microsoft 365 admin roles].
 |------------|-----------------|
 |**Permissions** |<ul><li>Configures Viva Engage and its features for the organization, including data management and compliance, network settings</li><li>For Viva Engage core, assigns Corporate Communicator role</li><li>For Viva Engage premium, assigns additional permissions and features:<ul><li>Identify leaders and their audiences</li><li>Storylines, advanced settings, and notifications</li><li>Analytics features and data collected for metrics</li><li>Official campaign creation, management, and analytics</li><li>Answers, and badge management</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator|
-|**How to assign**| Assign the Engage admin role either in [Microsoft Entra ID](/microsoft-365/admin/add-users/assign-admin-roles) or [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-how-to-add-role-to-user|
+|**How to assign**| Assign the Engage admin role either in [Microsoft Entra ID](/microsoft-365/admin/add-users/assign-admin-roles) or [Privileged Identity Management (PIM)](/entra/id-governance/privileged-identity-management/pim-how-to-add-role-to-user)|
 
 ## Verified Administrator
 
