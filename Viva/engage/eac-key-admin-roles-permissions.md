@@ -143,20 +143,4 @@ The actions available to the corporate communicator, Engage (Yammer) admin, and 
 |**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>
  |**Who can assign this role**|Any Engage user who creates a community is automatically assigned the community admin role. Community admins can add (up to 100) and remove other community admins.<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin, who can do all community admin tasks. |
 |**How to assign this role**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
-
-## Office 365 report reader
-
-|Function |Details |
-|--------|-----------------|
-|**Permissions** |Views the activity, community, and device usage reports for Viva Engage in the Microsoft 365 Reports dashboard.|
-|**Who can assign this role**|Microsoft 365 Global administrator|
-|**How to assign this role**|In Microsoft 365, go to **Admin** > **Users** > **Active Users** and select a user.|
-
-## See also
-
-[Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide&redirectSourcePath=%252farticle%252feac4d046-1afd-4f1a-85fc-8219c79e1504&preserve-view=true)
-
-[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
-
-[Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 	
