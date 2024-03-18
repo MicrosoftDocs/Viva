@@ -223,7 +223,9 @@ items:
       - name: Viva Glint's survey reports overview
         href: reports/survey-reports-overview.md
       - name: Viva Glint aggregate grouping - trends and best practices
-        href: reports/aggregate-trending.md  
+        href: reports/aggregate-trending.md
+      - name: Report customization
+        href: reports/report-customization.md
       - name: Viva Glint admin reports
         items:
          - name: Use the Response Rates & Access report 
