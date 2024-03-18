@@ -15,18 +15,6 @@ audience: Admin
 
 # Advanced insights introduction
 
->[!Note]
->To existing customers:
->
->We’ve launched a new version of the advanced insights app, and we’re excited to have our existing Viva Insights customers try its faster, richer experience while continuing to use the legacy advanced insights app. As you make your decision to try out the new app, here’s what we want you to know:  
->
->* We’re still bringing over more specialized features.
->* If you want to use the new app and the legacy app at the same time, we recommend that you upload your organizational data in the legacy app. Uploading data in the new app while also using the legacy app can lead to data inconsistencies between the two platforms.
->
-> Otherwise, if you’re ready to start using the new advanced insights app, welcome aboard!
->
->*The link to documentation for the previous platform can be accessed in the legacy application.*
-
 Microsoft Viva Insights provides scope information and research-based behavioral insights into how  an organization gets work done—for example, whether employees maintain work-life balance, how to protect employee wellbeing, and the ways hybrid work affects the employee experience. 
 
 Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwlink/?linkid=2201482), which has advanced analysis tools for deep-diving into data that's shown both within Microsoft Teams and in the app. The advanced analysis tools available in the app include different ways of analyzing and reporting custom analysis to your company’s business leaders.
