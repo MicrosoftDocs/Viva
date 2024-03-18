@@ -24,9 +24,9 @@ ms.date: 03/18/2024
 >This integration is available beginning on April 9, 2024.
 
 Bring Viva Glint feedback scores into Viva Insights to stay on top of Viva Glint data in your everyday dashboard. Connect Copilot usage metrics and uncover insightful information about employee sentiments by sending recurring and ad-hoc survey results from Viva Glint feedback to Viva Insights Power BI.
->[**Introduction to Microsoft Viva Insights**](../../viva/insights/introduction)
+>[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
 >
->[**Connect to Viva Insights using the Power BI Connector**](../../viva/insights/advanced/analyst/power-bi-connector)
+>[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
 
 ## Understand use cases for the integration
 
