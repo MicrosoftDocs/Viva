@@ -203,7 +203,7 @@ This report should be created from master Admin account of Workday to avoid any 
         - Go to calculations, under "Field type," select **Date**"
         - For year, month, and day, select **Extract Year from Date Field**. Enter the field value as **Last Functionality Updated**.
     
-    ![Screenshot of a report](/viva/media/learning/workday-catalog-raas-modifiedDate.png)
+    ![Screenshot of a report](/viva/media/learning/workday-catalog-raas-modifieddate.png)
 
     3. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
         
