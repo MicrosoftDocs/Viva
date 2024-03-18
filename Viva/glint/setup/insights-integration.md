@@ -47,6 +47,7 @@ The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback
 1. Hover over *Manage data sharing with Glint* to open the slider window.
 1. Select **I authorize sharing Insights data with Glint**.
 2. Select **Save**.
+   
 :::image type="content" source="../../media/glint/setup/insights-consent.png" alt-text="Screenshot of Viva Glint Global admin managing data sharing with Viva Insights."lightbox="../../media/glint/setup/insights-consent.png":::
  
 :::image type="content" source="../../media/glint/setup/insights-consent-slider-window.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
