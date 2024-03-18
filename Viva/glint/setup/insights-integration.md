@@ -27,8 +27,6 @@ Bring Viva Glint feedback scores into Viva Insights to stay on top of Viva Glint
 >[**Introduction to Microsoft Viva Insights**](https://learn.microsoft.com/viva/insights/introduction)
 >
 >[**Connect to Viva Insights using the Power BI Connector**](https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector)
->
->
 
 ## Understand use cases for the integration
 
@@ -78,7 +76,7 @@ Select **Send data to Viva Insights**
 
 :::image type="content" source="../../media/glint/setup/insights-select-programs.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
 
-## [Connect to the Microsoft Copilot dashboard](../viva/insights/org-team-insights/copilot-dashboard)
+## [Connect to the Microsoft Copilot dashboard](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard)
 
 
 ## Coming soon! 
