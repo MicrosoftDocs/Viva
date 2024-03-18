@@ -27,7 +27,7 @@ To perform administrative tasks and facilitate many of the premium features in V
 
 **Select the role in the table for more details and instructions.**
 
-|Admin role | Business function |
+|Admin role|Business function|
 |------------|-------|
 |**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
 | **[Engage Administrator](#engage-administrator)**| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance. |
@@ -55,7 +55,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 :::image type="content" source="../viva/media/engage/admin/engage-admin-hierarchy.png" alt-text="Image shows the hierarchy of administrator roles in Viva Engage, with roles having the most power at the top.":::
 
 ## Microsoft 365 Global Administrator
-For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles).
+For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles).
 
 |Function |Details |
 |------------|-----------------|
