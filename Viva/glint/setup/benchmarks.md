@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/08/2024
+ms.date: 03/18/2024
 ---
 
 # Use Viva Glint benchmarks  
@@ -56,33 +56,36 @@ Updated benchmarks provide additional comparisons by standard segments, such as 
 > [!NOTE]
 > Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It is beneficial to adopt the latest benchmark suite available, but a change in benchmark should be accompanied by a thorough internal communications approach.
 
-## Editing a survey item can disqualify it from a benchmark 
+## Survey item edits that affect benchmark comparison
 
 Viva Glint has done extensive research to identify the most reliable and valid items linked to survey goals, and our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark. 
 
 > [!TIP]
-> Ensure alignment to the standard Viva Glint item text so benchmarks are truly an apples-to-apples comparison. There may be cases where slight edits to wording can be accommodated without altering the meaning; in these cases, Viva Glint will be able to apply the item to benchmark data. In cases where text is altered to sufficiently alter the item's meaning, we do not recommend keeping the benchmark. Instead, treat it as a custom item. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
+> Ensure alignment to the standard Viva Glint item text so benchmarks are truly an apples-to-apples comparison. There may be cases where slight edits don't alter the meaning and the item still applies to the benchmark. In cases where major edits alter the item's meaning, Viva Glint doesn't recommend using a standard benchmarked item. Instead, create a copy and treat it as a custom item. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
-### Examples of when to keep or discard the benchmark 
+### Examples of when to edit the standard item or make a copy
 
 1. Example 1: Matching the language of the business 
 
-   - Standard: I would recommend my manager to others.
-   - Modified: I would recommend my supervisor to others. 
-   - Recommendation: Modifying a term in the item to make it more specific to your organizational language is acceptable.  
+   - **Standard:** I would recommend my manager to others.
+   - **Modified:** I would recommend my supervisor to others. 
+   - **Recommendation:** Modifying a term in the item to make it more specific to your organizational language is acceptable. Edit the standard item without creating a copy to retain the benchmark.
 
 1. Example 2: Using synonyms 
 
-   - Standard: The recruitment process was excellent. 
-   - Modified: The recruitment process was great.  
-   - Recommendation: If the replacement word is likely to be interpreted similarly, the item change is acceptable.   
+   - **Standard:** The recruitment process was excellent. 
+   - **Modified:** The recruitment process was great.  
+   - **Recommendation:** If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.  
 
 1. Example 3: Altering the subject 
-   - Standard: I feel empowered to make decisions regarding my work. 
-   - Modified: My manager empowers me to make decisions regarding my work.  
-   - Recommendation: Altering the subject in an item changes the way people respond. 
+   - **Standard:** I feel empowered to make decisions regarding my work. 
+   - **Modified:** My manager empowers me to make decisions regarding my work.  
+   - **Recommendation:** Altering the subject in an item changes the way people respond. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
 
 1. Example 4: Altering the meaning 
-   - Standard: My manager provides me with feedback that helps me improve my performance. 
-   - Modified: My manager and I have regular conversations.   
-   - Recommendation: When the meaning of an item has been fundamentally altered, the change is not recommended.  
+   - **Standard:** My manager provides me with feedback that helps me improve my performance. 
+   - **Modified:** My manager and I have regular conversations.   
+   - **Recommendation:** When the meaning of an item has been fundamentally altered, the change is not recommended. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
+  
+> [!IMPORTANT]
+> Update translations along with edits to English when modifying a standard or copy of a standard Viva Glint item.
