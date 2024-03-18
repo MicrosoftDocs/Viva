@@ -86,7 +86,7 @@ For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/abou
 |**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or network admin|
 |**How to assign**|In the Yammer admin center, select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Network Admin**.</li></ul>|
 
-## Corporate communicator
+## Corporate Communicator
 
 |Function |Details |
 |------------|-----------------|
@@ -95,7 +95,7 @@ For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/abou
 |**How to assign**|Viva Engage admin center</li></ul>|
 
 
-## Answers administrator  
+## Answers Administrator  
 
 |Function |Details |
 |------------|-----------------|
@@ -104,7 +104,7 @@ For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/abou
 |**How to assign**|Assign a [Knowledge Manager role](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context) in Microsoft Entra ID</li></ul>|
 
 
-## Community admin
+## Community Administrator
 
 |Function |Details |
 |--------|-----------------|
