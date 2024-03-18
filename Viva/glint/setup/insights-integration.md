@@ -77,7 +77,7 @@ Select **Send data to Viva Insights**
 
 :::image type="content" source="../../media/glint/setup/insights-select-programs.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
 
-## [Connect to the Microsoft Copilot dashboard](/../viva/insights/org-team-insights/copilot-dashboard)
+## [Now,connect to the Microsoft Copilot dashboard](/../viva/insights/org-team-insights/copilot-dashboard)
 
 ## Coming soon! 
 
