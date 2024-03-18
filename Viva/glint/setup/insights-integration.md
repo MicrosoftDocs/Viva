@@ -35,10 +35,14 @@ Two prominent use cases for this data integration:
 - Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
 - Send your employee engagement survey scores to the Viva Insights Power BI template to find behavioral drivers of employee sentiments.
 
-## Which data can be sent to Viva Insights?
+## What data can be sent to Viva Insights?
 
  - Only data from recurring or ad-hoc surveys with confidentiality thresholds equal to or above the Viva Glint default of five respondents.
  - Only rating item scores. No comments data is sent.
+
+## Supported languages
+
+All languages supported for question labels and question text by Viva Glint are supported by Viva Insights Power BI.
 
 ## Prerequisites for the integration
 
@@ -67,9 +71,9 @@ Select the **Set up integration** button.
 
 > :::image type="content" source="../../media/glint/setup/insights-set-up-integration.png" alt-text="Screenshot of Set up integration button.":::
 
-The *Send data to Viva Insights* page opens. **Select the program to send data from**.
+The *Send data to Viva Insights* page opens. **Select the program to send data from**. You may select multiple programs.
 
-By selecting a program, you are sending data for every closed program cycle and setting up the program to automatically send data for future cycles. In Viva Insights, map which program data to display on the Viva Insights dashboard (available.
+By selecting a program, you are sending data for every closed program cycle and setting up the program to automatically send data for future cycles. In Viva Insights, map which program data to display on the Viva Insights dashboard.
 
 Only Viva Glint scores are available in aggregate in the Viva Insights Power BI dashboard. No comments or attributes are shared to Viva Insights. By sending data to Viva Insights, you are agreeing to have Viva Glint data sent and stored within Insights.
 
