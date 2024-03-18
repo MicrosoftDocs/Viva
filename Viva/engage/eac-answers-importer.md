@@ -22,7 +22,7 @@ search.appverid:
 
 # Generate question-and-answer pairs in Viva Engage
 
-The Answers Intelligent Importer allows community admins to upload documents for AI to generate question-and-answer pairs, transforming static information into dynamic, interactive conversations. After content is generated and posted within Answers or Communities, it follows the same rules of visibility as other content on those surfaces. The generated answers are easily retrievable and reusable, preventing them from getting lost within the depths of a document.
+Community admins can generate question-and-answer pairs in Viva Engage by uploading FAQs and other documents through the Answers Intelligent Importer. The importer uses AI to transform static information into dynamic interactive conversations, preventing valuable content from being lost in the depths of a document. Generated answers are easily retrievable and reusable, and follow the same rules as other content. Specifically, they're visible to anyone in your organization who has a Viva Suite license unless you posted them to a private community.
 
 >[!NOTE]
 >This premium feature is currently only available for communities, but will soon be accessible on the Answers page for Engage admins. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.  
