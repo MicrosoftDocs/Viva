@@ -71,7 +71,7 @@ If the sync fails, the admin can export the catalog logs for details around sync
 
 **12. How can I edit scopes in API client?**
 
-Go to the task “View API Client”. You can select on the client under “API Clients for Integration” and update the scope.
+Go to the “View API Client” task. You can select the client under “API Clients for Integration” and update the scope.
 
 ![A screenshot of the Workday API client with the option to upgrade the scope.](/viva/media/learning/workday-FAQ-1.png)
 
@@ -109,7 +109,7 @@ These are our recommendations on Workday integrations that include 3P content pr
         - Manually update the 3P content that is part of learning paths, collections, and other experiences when the connectors for 3P content are updated or removed.
     - **End user experience:** 
         - Mixed consumption experience for contents coming from LMS and 3P content providers.
-        - The “Assigned to you” tab won't show any assignments for 3P contents as they can be only recommended. 
+        - The “Assigned to you” tab doesn't show any assignments for 3P contents as they can be only recommended. 
         - The “Completed” tab won't show the history of completion status for 3P contents.
       
 > [!NOTE]
@@ -133,7 +133,7 @@ This is a required field for configuration.
 **18. What is the payload size which can be handled by RaaS reports?**
 
 For a single report API call, a maximum of 3 million records (2GBs) is returned and the maximum execution time of single API call is 30 mins. 
-You can make a maximum of 75,000 requests in a 24 hour period (15k requests per hour). Report execution timeout is 30 mins but may hit a session or http gateway timeout before that. For more information, see the [Workday support article on RaaS](https://docs.workato.com/connectors/workday/workday_raas.html).
+You can make a maximum of 75,000 requests in a 24 hour period (15k requests per hour). Report execution timeout is 30 mins but can hit a session or http gateway timeout before that time. For more information, see the [Workday support article on RaaS](https://docs.workato.com/connectors/workday/workday_raas.html).
 
 **19. What happens to the courses if `InNonSearchable` is `True` in Workday?**
 
@@ -159,12 +159,20 @@ We don't support these scenarios.
 
 We don't support these scenarios.
 
-Can you provide a list of the end points that Viva Learning is accessing? 
+**25. Can you provide a list of the end points that Viva Learning is accessing?** 
 
-To fetch RaaS reports, Viva Learning uses REST API. The URL for this isn't fixed and depends on the user and Workday account name.  The following SOAP APIs end points are used to fetch thumbnail images for Workday hosted content:
+To fetch RaaS reports, Viva Learning uses REST API. The URL for this report isn't fixed and depends on the user and Workday account name.  The following [SOAP APIs](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Learning.html) end points are used to fetch thumbnail images for Workday hosted content:
 
-- [Learning SOAP API reference](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Learning.html)
 - [Get Learning Digital Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Digital_Courses.html)
 - [Get Learning Blended Courses](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Blended_Courses.html)
 - [Get Learning Lesson](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Lessons.html)
 - [Get Learning Programs](https://community.workday.com/sites/default/files/file-hosting/productionapi/Learning/v39.2/Get_Learning_Programs.html)
+
+**26. Which of the RaaS reports are indexed? Can reports handle large data volumes?**
+
+|RaaS report | Indexed? |
+| -- | --| 
+| Catalog RaaS | **Not indexed** | 
+| User RaaS | **Indexed** | 
+| LRS RaaS | **Not indexed**. The org ID-based report filtering is in place to handle large data sets| 
+| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report is not filterable on org ID. It is **indexed** with new completion date-based filters. | 
