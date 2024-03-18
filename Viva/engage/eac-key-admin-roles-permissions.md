@@ -114,5 +114,6 @@ For details, see [Microsoft 365 admin roles].
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
 ## See also
-[Answers permissions](/viva/engage/eac-answers-admin-scenarios#permissions)
+[Answers in Viva permissions by role](/viva/engage/eac-answers-admin-scenarios#permissions)
+[Commonly used Microsoft 365 admin center roles](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles)
 	
