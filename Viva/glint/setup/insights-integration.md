@@ -27,12 +27,14 @@ Bring Viva Glint feedback scores into Viva Insights to stay on top of Viva Glint
 >[**Introduction to Microsoft Viva Insights**](../viva/insights/introduction)
 >
 >[**Connect to Viva Insights using the Power BI Connector**](../viva/insights/advanced/analyst/power-bi-connector)
+>
+>
 
 ## Understand use cases for the integration
 
 Two prominent use cases for this data integration:  
 
-- Use the M365 Copilot Impact Survey in Viva Glint to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
+- Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
 - Send your employee engagement survey scores to the Viva Insights Power BI template to find behavioral drivers of employee sentiments.
 
 ## Which data can be sent to Viva Insights?
@@ -72,7 +74,11 @@ By selecting a program, you are sending data for every closed program cycle, as 
 
 Only Viva Glint scores are available in aggregate in the Viva Insights Power BI dashboard. No comments or attributes are shared to Viva Insights. By sending data to Viva Insights, you are agreeing to have Viva Glint data sent and stored within Insights.
 
+Select **Send data to Viva Insights**
+
 ::image type="content" source="../../media/glint/setup/insights-select-programs.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
+
+## [Connect to the Microsoft Copilot dashboard](../viva/insights/org-team-insights/copilot-dashboard)
 
 
 ## Coming soon! 
