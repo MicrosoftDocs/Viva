@@ -75,7 +75,7 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 | Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
 
 
-![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions%20-security-group.png)
+![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions-security-group.png)
 
 8. Run the **Activate Pending Security Policy Changes** task.
 9. **Advance security**: These are **optional** steps for advance security access on ISU.
@@ -179,33 +179,33 @@ This report should be created from master Admin account of Workday to avoid any 
 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
 
-1. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
+4. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
     1. Field name: CatalogEffectiveDate 
     2. Go to Calculations, under “Field Type,” select **Date**. 
     3. For year, month and day select **Extract Year from Date Field**. Enter field value as “Effective Date.” 
 
-![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogEffectiveDate.png)
+    ![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogeffectivedate.png)
 
-4. Under “Group Column Headings”, add the below fields:
+5. Under “Group Column Headings”, add the below fields:
 
 | Business Object | Group column heading | Group column heading XML Alias |
 | --- | --- | --- |
 | Languages | Languages | Languages |
 | Learning content | learningContent_group | learningContent_group| 
 
-5. Add filters to the report. 
+6. Add filters to the report. 
     1. Create a new filter condition by selecting “Create Calculated Field for Report” under Fields section.
     
     ![Screenshot of a report with a new filter condition](/viva/media/learning/wd-s2.2-4.png)
 
-    6. Add the following values to create the calculated field "ModifiedDate."
+    2. Add the following values to create the calculated field "ModifiedDate."
         - Field name: **ModifiedDate**
         - Go to calculations, under "Field type," select **Date**"
         - For year, month, and day, select **Extract Year from Date Field**. Enter the field value as **Last Functionality Updated**.
     
-    ![Screenshot of a report](/Viva/media/learning/workday-catalog-RaaS-modifiedDate.png)
+    ![Screenshot of a report](/viva/media/learning/workday-catalog-raas-modifiedDate.png)
 
-    1. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
+    3. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
         
     | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
     | --- | --- |-- |----  | --- | ---- | ---|-----| 
@@ -219,7 +219,7 @@ This report should be created from master Admin account of Workday to avoid any 
 
     ![Screenshot of a report with calculated fields.](/viva/media/learning/wd-s2.2-6.png)
 
-6. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
+7. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
 
     | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | 
     | - | - | - | - | - | - | -| 
@@ -229,15 +229,15 @@ This report should be created from master Admin account of Workday to avoid any 
     |     Prompt #2  |     Start_Effective_Date  |     Start_Effective_Date  |     Specify default value  |     01/01/2024  |       |
     |     CatalogEffectiveDate  |     Prompt #3  |     End_Effective_Date  |     End_Effective_Date  |     Specify default value  |     01/01/2024  |       |
 
-    ![SCreenshot of the formatted fields for prompt values.](/viva/media/learning/wd-s2.2-7.png)
+    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/wd-s2.2-7.png)
 
-7. Go to **Advanced** and select the field **Optimized for Performance**.
+8. Go to **Advanced** and select the field **Optimized for Performance**.
 
 > [!NOTE]
 > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
 
-8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
-9. Save the report. Select **OK**. 
+9. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
+10. Save the report. Select **OK**. 
 
     ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
 
@@ -400,13 +400,13 @@ This report should be created from the primary Workday admin account to avoid an
             - f.1. Field: Learning Assignment; Operator: is empty 
             - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
     
-    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-Self-enrollment-completion-filters.png)
+    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-self-enrollment-completion-filters.png)
 
     **Modify the Prompts**
 
     1. Go to **Prompts**. 
         1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for Modified date, which is defined in previous step.
-    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-Self-enrollment-completion-prompts.png)
+    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-self-enrollment-completion-prompts.png)
 
         1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
@@ -492,14 +492,14 @@ This report should be created from the primary Workday admin account to avoid an
     - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
 
 
-    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-Self-enrollment-completion-prompts.png)
+    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
 
 ### Modify the prompts
 
 1. Go to **Prompts**
     1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
     
-    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-Self-enrollment-completion-filters.png)
+    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
 
     2. Add following values in the new prompts and select “OK”.
     - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
