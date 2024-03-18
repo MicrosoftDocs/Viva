@@ -24,9 +24,9 @@ ms.date: 03/18/2024
 >This integration is available beginning on April 9, 2024.
 
 Bring Viva Glint feedback scores into Viva Insights to stay on top of Viva Glint data in your everyday dashboard. Connect Copilot usage metrics and uncover insightful information about employee sentiments by sending recurring and ad-hoc survey results from Viva Glint feedback to Viva Insights Power BI.
->[**Introduction to Microsoft Viva Insights**](../viva/insights/introduction)
+>[**Introduction to Microsoft Viva Insights**](https://learn.microsoft.com/viva/insights/introduction)
 >
->[**Connect to Viva Insights using the Power BI Connector**](../viva/insights/advanced/analyst/power-bi-connector)
+>[**Connect to Viva Insights using the Power BI Connector**](https://learn.microsoft.com/viva/insights/advanced/analyst/power-bi-connector)
 >
 >
 
@@ -49,9 +49,9 @@ The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback
 1. Hover over *Manage data sharing with Glint* to open the slider window.
 1. Select **I authorize sharing Insights data with Glint**.
 2. Select **Save**.
-> :::image type="content" source="../../media/glint/setup/insights-consent.png" alt-text="Screenshot of Viva Glint Global admin managing data sharing with Viva Insights."lightbox="../../media/glint/setup/insights-consent.png":::
+:::image type="content" source="../../media/glint/setup/insights-consent.png" alt-text="Screenshot of Viva Glint Global admin managing data sharing with Viva Insights."lightbox="../../media/glint/setup/insights-consent.png":::
  
-> :::image type="content" source="../../media/glint/setup/insights-consent-slider-window.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
+:::image type="content" source="../../media/glint/setup/insights-consent-slider-window.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
 
 >[!NOTE!]
 >Global admins cannot include Works Council employee data in the Viva Insights integration.
