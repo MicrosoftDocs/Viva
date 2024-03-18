@@ -52,7 +52,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 ## Role hierarchy
 
-:::image type="content" source="../viva/media/engage/admin/engage-admin-hierarchy.png" alt-text="Image shows the hierarchy of administrator roles in Viva Engage, with roles having the most power at the top.":::
+:::image type="content" source="../media/engage/admin/engage-admin-hierarchy.png" alt-text="Image shows the hierarchy of administrator roles in Viva Engage, with roles having the most power at the top.":::
 
 ## Microsoft 365 Global Administrator
 For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles).
@@ -96,7 +96,7 @@ For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/abou
 |**How to assign**|Viva Engage admin center</li></ul>|
 
 
-## Answers admin  
+## Answers administrator  
 
 |Function |Details |
 |------------|-----------------|
