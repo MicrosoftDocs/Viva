@@ -39,7 +39,7 @@ To perform administrative tasks and facilitate many of the premium features in V
 
 ## Who assigns roles and where?
 
-Some admins have more permissions than others and can assign Viva Engage roles to users. The following table lists admins in order of permissions and the roles they can assign.
+Some admins have more permissions than others and can assign Viva Engage roles to users. The following table lists admins in order of their permissions, with those having the most permissions at the top.
 
 |Admin role | Can assign these roles |Assigned in|
 |------------|-------|--------|
