@@ -48,7 +48,7 @@ Viva Glint has done extensive research to identify the most reliable and valid i
    > [!TIP]
    > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid bencharmk for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
-Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](question-mapping-md.)
+Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](question-mapping.md).
 
 ## Edit items from the Question Library 
 
