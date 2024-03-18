@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 02/05/2023
+ms.date: 03/18/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -45,13 +45,13 @@ You can use feature access management to manage access to the following features
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
 |Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
-||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)*|No| Global admin|VivaInsights|
+||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Global admin, Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
 |Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin, Knowledge admin|VivaSkills| 
 
 
-\* Not yet available for all tenants. Support will be added soon.
+\* The feature or feature control might not yet be available for all tenants. Support will be added soon.
 
 > [!NOTE]
 > You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
@@ -148,15 +148,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, the following information might help:
-
-- Confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
-- If a permissioned admin is having trouble setting a policy, it may be due to restrictions on that user's account. Check the following:
-   - Whether the admin has restricted access to EWS in Exchange. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
-   - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
-   - Whether the admin has restricted access to Exchange Online organization based on [client properties or client access](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
- 
-- If a user has restricted access to EWS in Exchange, app access policies applied to their Exchange Online mailbox, or restricted access to Exchange Online organization based on client properties or client access, the user may not be able to access the Viva features in the feature table, regardless of the feature access policy set.
+If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 
 ## How access policies work in Viva
 
