@@ -30,12 +30,12 @@ To perform administrative tasks and facilitate many of the premium features in V
 |Admin role | Business function |
 |------------|-------|
 |**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
-| **[Engage Administrator](#engage-admin)**| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance. |
-| **[Verified Administrator](#verified-admin)** | Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | 
-| **[Network Administrator](#network-admin)**| Configures the Viva Engage network.|
-| **[Answers Administrator](#answers-admin)**| Configures Answers in Viva Engage, manages topics, and enables badges. |
+| **[Engage Administrator](#engage-administrator)**| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance. |
+| **[Verified Administrator](#verified-administrator)** | Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | 
+| **[Network Administrator](#network-administrator)**| Configures the Viva Engage network.|
+| **[Answers Administrator](#answers-administrator)**| Configures Answers in Viva Engage, manages topics, and enables badges. |
 | **[Corporate Communicator](#corporate-communicator)**| Creates and manages official campaigns, defines leaders, and manages content across the organization. |
-| **[Community Administrator](#community-admin)**| Manages day-to-day activity (including usage) within a community to keep it engaged and productive.| Viva Engage community page |
+| **[Community Administrator](#community-administrator)**| Manages day-to-day activity (including usage) within a community to keep it engaged and productive.| Viva Engage community page |
 
 ## Who assigns roles and where?
 
