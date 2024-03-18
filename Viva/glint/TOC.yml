@@ -364,7 +364,11 @@ items:
             - name: Manager Quick Guide for data confidentiality
               href: setup/quick-guide-confidentiality.md
             - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
-              href: setup/quick-guide-manager-doc-pitfalls.md     
+              href: setup/quick-guide-manager-doc-pitfalls.md
+  - name: Integrate Viva Glint with other Viva apps
+    items:
+      - name: Integrate Viva Insights into Viva Glint
+        href: setup/integrate-insights.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
