@@ -36,7 +36,7 @@ items:
         items:
           - name: Set up a Microsoft Viva Glint tenant
             href: setup/viva-glint-tenant-provision.md
-          - name: Set up admins in your Viva Glint instance
+          - name: Assign Viva Glint admins
             href: setup/post-provisioning-next-steps.md
             items:
               - name: Key Viva Glint role definitions
