@@ -1,5 +1,5 @@
 ---
-ms.date: 3/06/2024
+ms.date: 3/19/2024
 title: Connect to the Microsoft Copilot Dashboard (Preview)
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
@@ -76,6 +76,8 @@ For those qualifying tenants, only users who meet both of the following criteria
 * The user has a significant portion of the organization in their reporting line
 
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
+
+Admins can also enable or disable automatic access to the dashboard using PowerShell. [Learn more](../advanced/setup-maint/configure-personal-insights.md#configure-access-at-the-tenant-level).
 
 To see how many employees have automatic access to the dashboard and to manage that access, use the process below.
 
