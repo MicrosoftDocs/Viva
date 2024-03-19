@@ -33,7 +33,7 @@ Assigning roles for Viva Glint leadership is among the first tasks for the M365 
 - Assigned by the M365 global admin to have responsibility for leadership tasks within the Viva Glint platform
 - Sets up programs and surveys, distribution lists, and reporting features
 - Supports managers in all aspects of action taking
-- Best practice is not to have more than five Viva Glint admins
+- Best practice is to not have more than five Viva Glint admins
 - Trainings are available in Viva Glint Learn
 
 ## Viva Glint manager
