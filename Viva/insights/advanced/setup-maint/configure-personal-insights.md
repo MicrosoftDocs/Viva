@@ -162,7 +162,7 @@ Use PowerShell to configure access for all users in a tenant. For example, you c
 
 |Parameter| Required| Description| Default value|
 |----------|---------|---------|------|
-|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Digest-Welcome email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`
+|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Digest-Welcome email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`<li>`Copilot Dashboard auto enablement`
 |`SamplingRate`|No|Value from `0.1` to `0.7`. The sampling rate you specify here is the percentage of meetings that get checked to receive a meeting effectiveness survey. For example, `0.1` indicates 10%.
 
 Also refer to [Parameters: Set-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig#parameters).
@@ -185,17 +185,29 @@ The PowerShell command `Set-DefaultTenantMyAnalyticsFeatureConfig` can be used t
 
 ##### Enable or disable Viva Insights features
 
+Copilot Dashboard auto-enablement control: This granular feature access control allows admins to enable or disable the auto-enablement feature for the Copilot Dashboard for Viva Insights users in their tenant. 
+
+* **Default state**: Enabled, meaning that Viva Insights licensed users will be auto-enabled for access to the dashboard based on the identification criteria. [Learn more about the criteria](/viva/insights/org-team-insights/copilot-dashboard#manage-user-access-to-the-dashboard-in-viva-insights). 
+
+* **Disable or enable**: Admins can disable or enable the dashboard auto-enablement control using VFAM cmdlets. Disabling the control prevents users from getting auto-enabled for access to the dashboard.
+
+VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId  
+
+AutoCxoIdentification -Name DisableAutoCxoIdentificationForAll - 
+
+IsFeatureEnabled $false -Everyone 
+
 * Command syntax – features on or off: 
 
     ```powershell
-      Set-DefaultTenantMyAnalyticsFeatureConfig -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>
+      Set-DefaultTenantMyAnalyticsFeatureConfig -Feature <dashboard/add-in/AutoCxoIdentification/all> -isEnabled <$true/$false>
     ```
 
 * Example – features on or off:
-Running the following command disables the digest email for all users in the tenant:
+Running the following command disables the Copilot Dashboard auto-enablement for all users in the tenant:
 
     ```powershell
-       Set-DefaultTenantMyAnalyticsFeatureConfig -Feature digest-email -isEnabled $false
+       Set-DefaultTenantMyAnalyticsFeatureConfig -Feature AutoCxoIdentification -isEnabled $false
     ```
 
 * **Digest Welcome Email control**: This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant. The Digest Welcome Email is automatically sent to employees upon their assignment of a Viva Insights license. You can disable these emails using PowerShell, prior to assigning the employees their license. When you disable the Digest Welcome Email, all future Digest Emails are also disabled. If you want to send the Digest Welcome Email at a later date, remove the employee from the policy or delete the policy.
