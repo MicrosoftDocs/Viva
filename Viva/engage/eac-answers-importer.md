@@ -1,5 +1,5 @@
 ---
-title: "Import FAQs to Viva Engage communities with Answers Intelligent Importer"
+title: "Import files to generate questions and answers in Viva Engage communities"
 description: "Repurpose your organization's FAQ by importing them as question/answer pairs in Viva Engage."
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -20,9 +20,13 @@ search.appverid:
 - MET150
 ---
 
-# Generate questions and answers in Viva Engage by importing documents 
+# Import files to generate questions and answers in Viva Engage communities
 
-Community admins can generate question-and-answer pairs by uploading FAQs and other informational documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse. Generated answers follow the same rules as other content: they're visible to anyone in your organization who has a Viva Suite license, unless you posted them to a private community.
+Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
+
+## Maintain data compliance
+
+Generated question-and-answer pairs follow the same rules as other content. Files you import to a community are accessible within that community and visible to community members who have a Viva Suite license. The imported files are stored with other files from that community [on Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage).
 
 >[!NOTE]
 >Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
@@ -38,14 +42,14 @@ Engage admins can control the Answers Intelligent Importer in their Viva Engage 
 When this setting is enabled, community admins with access to premium functionalities on Engage can access and use the Intelligent Importer feature in their communities.  
 
 ## File requirements 
-
-To import a document, it must meet these requirements:
+Importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. In addition, your files must meet these requirements:
 
 - .docx, .pdf, or .txt format
 - 5 MB maximum file size
 - 2-10 pages (smaller documents provide better results)
-- Files must be stored locally
-- Each file can generate a maximum of 20 question-and-answer pairs. If your document contains more than 20 questions, break it up into smaller files.
+- Files stored locally
+
+Each file can generate a maximum of 20 question-and-answer pairs. If your document is large and you want to generate more than 20 questions and answers, consider breaking the file up into two or more files.
 
 >[!NOTE]
 >Embedded images with no textual metadata will not be processed.
