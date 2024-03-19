@@ -367,7 +367,7 @@ items:
               href: setup/quick-guide-manager-doc-pitfalls.md
   - name: Integrate Viva Glint with other Viva apps
     items:
-      - name: Integrate Viva Insights into Viva Glint
+      - name: Integrate Viva Glint into Viva Insights
         href: setup/insights-integration.md
   - name: Troubleshoot
     items:
