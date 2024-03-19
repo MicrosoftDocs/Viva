@@ -153,7 +153,7 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 
 On any card, select **Explore more** to dive into these metrics.
 
-**Actions before and after Copilot**
+##### Actions before and after Copilot
 
 See how employee behaviors have changed before and after Copilot usage.
 
