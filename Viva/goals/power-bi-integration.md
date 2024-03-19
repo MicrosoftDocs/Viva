@@ -1,6 +1,6 @@
 ---
 ms.date: 01/06/2023
-title: Power BI Integration
+title: Power BI integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
