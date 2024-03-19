@@ -35,6 +35,8 @@ Generated question-and-answer pairs follow the same rules as other content. File
 
 Engage admins can control the Answers Intelligent Importer in their Viva Engage network through these steps. The importer is on by default.
 
+:::image type="content" source="../media/engage/admin/import-access-points.png" alt-text="Screenshot shows the location on the community page that lets you import a file to generate questions and answers.":::
+
 1. Go to [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigation menu, select **Admin center**.
 1. On the **Feature management** tab, select the **Answers** button  to open the Answers configuration options.
 1. Under **Intelligent Importer availability**, turn on **Premium Communities**.
