@@ -31,6 +31,8 @@ items:
       href: vg-privacy-and-security.md 
     - name: OKR program analytics
       href: viva-goals-analytics.md
+    - name: Copilot in Viva Goals
+      href: copilot-intro.md
     
 - name: Setup
   items: 
@@ -200,13 +202,6 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
-
-- name: Copilot in Viva Goals
-  items:
-  - name: Introduction
-    href: copilot-intro.md
-  - name: Use Copilot in Viva Goals
-    href: copilot-uses.md
 
 - name: The OKR framework
   items:

@@ -85,6 +85,9 @@ You can track the current sync status, last successful sync time, next scheduled
 > The sync status, sync time stamp and export logs are only currently available for catalog sync for all providers. 
 >Sync status and sync timestamp for learner records are only available for SAP SuccessFactor. Manual sync trigger is only available for catalog in SharePoint and SAP SuccessFactor.
 
+> [!NOTE]
+> We recommend an aspect ratio of 16:9 for images to render properly in Viva Learning. 
+ 
 ## How content shows up in the My Learning page
 
 The **My Learning** tab helps users take control of their learning journey. Users are able to track assignments, recommendations, bookmarks, recent history, and completed courses on this page.

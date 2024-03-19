@@ -17,7 +17,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 35b59d6c-bb1c-4541-bf19-9f67d2f2b199
-description: "Find answers to questions about adding external participants to your Viva Engage network, including general questions or questions about permissions and security and questions about opting out of external messaging."
+description: "Find answers to questions about adding external participants to your Viva Engage network, and related questions about permissions, security, and opting out of external messaging."
 ---
 
 # External messaging in Viva Engage - Frequently asked questions
