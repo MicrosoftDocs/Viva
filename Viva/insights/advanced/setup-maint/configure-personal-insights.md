@@ -1,6 +1,6 @@
 ---
 
-ms.date: 03/1/2024
+ms.date: 03/19/2024
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
@@ -198,9 +198,22 @@ Running the following command disables the digest email for all users in the ten
        Set-DefaultTenantMyAnalyticsFeatureConfig -Feature digest-email -isEnabled $false
     ```
 
-* **Digest Welcome Email control**: This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant.
+* **Digest Welcome Email control**: This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant. The Digest Welcome Email is automatically sent to employees upon their assignment of a Viva Insights license. You can disable these emails using PowerShell, prior to assigning the employees their license. When you disable the Digest Welcome Email, all future Digest Emails are also disabled. If you want to send the Digest Welcome Email at a later date, remove the employee from the policy or delete the policy.
     * **Default state**: Enabled, meaning that users with a Viva Insights license will receive the email a few days (up to four weeks) after license assignment.
-    * **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email.
+    * **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email. See the command syntax and example code below for more details.
+
+* Command syntax – Digest Welcome Email on or off: 
+
+    ```powershell
+      Set-DefaultTenantMyAnalyticsFeatureConfig -Feature <dashboard/add-in/digest-welcome email/all> -isEnabled <$true/$false>
+    ```
+
+* Example – features on or off:
+Running the following command disables the Digest Welcome Email for all users in the tenant:
+
+    ```powershell
+       Set-DefaultTenantMyAnalyticsFeatureConfig -Feature digest-welcome email -isEnabled $false
+    ```
 
 ##### Enable or disable features
 
