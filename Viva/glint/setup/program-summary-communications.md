@@ -44,7 +44,7 @@ The following sections display as setup actions and each field can be edited by 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
 >[!TIP]
->When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991) as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
+>When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991), as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
 
 ### Editing the survey invitation
 
