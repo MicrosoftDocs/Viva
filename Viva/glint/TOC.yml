@@ -167,21 +167,21 @@ items:
         items:
           - name: Set up a Microsoft Viva Glint Magnet survey
             href: setup/magnet-rn-excellence.md
-      - name: Set up Program Summary for Viva Glint Engagement-type surveys
+      - name: Set up Program Summary for Engagement-type surveys
         href: setup/program-summary-overview.md
         items:
           - name: Understand programs and cycles
             href: setup/program-cycle-edits.md   
-          - name: Program setup in Program Summary
+          - name: Program setup 
             href: setup/program-set-up.md
-          - name: Distribution setup in Program Summary
+          - name: Distribution setup 
             href: setup/distribution-program-summary.md
-          - name: Set up Schedule page in Program Summary
+          - name: Schedule setup
             href: setup/schedule-setup.md
-          - name: Questions setup in Program Summary
+          - name: Questions setup 
             href: setup/questions-setup.md
             items:
-              - name: Add new survey items and section breaks to a Viva Glint program
+              - name: Add new survey items and section breaks to a program
                 href: setup/add-new-questions.md
               - name: Change survey item IDs for expired survey cycles
                 href: setup/change-item-id.md
@@ -191,51 +191,51 @@ items:
                 href: setup/viva-glint-display-logic.md
               - name: Recommendations for using Survey Coach and Tooltips
                 href: setup/survey-coach.md   
-          - name: Reporting setup in Program Summary
+          - name: Reporting setup 
             href: setup/reporting-setup.md
             items:
-             - name: Grant Live versus Phased access in Viva Glint reporting
+             - name: Grant Live versus Phased access
                href: setup/live-versus-phased-access.md
-          - name: Communications setup in Program Summary
+          - name: Communications setup 
             href: setup/program-summary-communications.md
-          - name: Coaching setup in Program Summary
+          - name: Coaching setup 
             href: setup/program-summary-coaching.md
             items:
              - name: Set up resource guidance for managers using Team Conversations
                href: reports/team-conversations-resource-guidance.md
           - name: Admin setup for Team Conversations
             href: reports/team-conversations-administrator-setup.md
-          - name: Preview, manage, and enable Viva Glint surveys and dashboards
+          - name: Preview, manage, and enable surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md   
-          - name: Preview pre-launch demo data in Viva Glint reporting
+          - name: Preview pre-launch demo data in reporting
             href: setup/preview-demo-reporting.md
-          - name: Make changes to a live Viva Glint survey
+          - name: Make changes to a live survey
             href: setup/change-live-survey.md 
       - name: Set up Employee Lifecycle surveys
         items:
-          - name: Create a Viva Glint Onboarding survey 
+          - name: Create an Onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
-          - name: Create a Viva Glint Exit survey
+          - name: Create an Exit survey
             href: setup/exit.survey.md
-          - name: Set up Program Summary for Viva Glint Employee Lifecycle programs
+          - name: Set up Program Summary for Employee Lifecycle programs
             href: setup/program-summary-setup-lifecycle.md
           - name: Preview and filter Employee Lifecycle programs
             href: setup/preview-filter-lifecycle-programs.md     
   - name: Use Viva Glint reports and dashboards
     items:
-      - name: Viva Glint's survey reports overview
+      - name: Survey reports overview
         href: reports/survey-reports-overview.md
-      - name: Viva Glint aggregate grouping - trends and best practices
+      - name: Aggregate grouping - trends and best practices
         href: reports/aggregate-trending.md
       - name: Report customization
         href: reports/report-customization.md
       - name: Viva Glint admin reports
         items:
-         - name: Use the Response Rates & Access report 
+         - name: Response Rates & Access report 
            href: reports/response-access.md
-         - name: Use the Viva Glint Alerts and Attrition Risk report
+         - name: Alerts and Attrition Risk report
            href: reports/alerts-report-attrition-risk.md
-         - name: Use the Manager report in Viva Glint
+         - name: Manager report 
            href: reports/manager-report.md
          - name: Multi-Attribute Export report
            href: reports/multi-attribute-export-report.md
@@ -243,26 +243,26 @@ items:
         items:
          - name: Make the most of Viva Glint's reporting features
            href: reports/report-analytics-filtering-favorability-trending.md
-         - name: Use Viva Glint's Executive Summary report
+         - name: Executive Summary report
            href: reports/executive-summary-report.md
            items:
-         - name: Understand the trend graph in a Viva Glint Employee Lifecycle program
+         - name: Understand the trend graph in an Employee Lifecycle program
            href: reports/trend-graph-lifecycle-survey.md
-         - name: Use the Viva Glint Driver Impact report
+         - name: Driver Impact report
            href: reports/driver-impact-report.md
            items:
              - name: Use Viva Glint to act on Strengths and Opportunities
                href: reports/act-strengths-opportunities.md
-         - name: Use Viva Glint's Focus Area Overview report
+         - name: Focus Area Overview report
            href: reports/focus-area-overview-report.md
-         - name: Use Viva Glint's Comments report
+         - name: Comments report
            href: reports/comments-report.md
            items:
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
              - name: Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report
                href: reports/incorporate-copilot.md
-         - name: Use the Viva Glint Response Rate report
+         - name: Response Rate report
            href: reports/response-rate-report.md
            items:
              - name: Viva Glint's position on expected response rates
@@ -270,14 +270,14 @@ items:
       - name: Dashboard experiences for Viva Glint roles
         href: reports/dashboard-experiences.md
         items:  
-          - name: Use Viva Glint's Broader Team Insights feature
+          - name: Broader Team Insights feature
             href: reports/broader-team-insights.md
             items:
               - name: Coaching for managers of small teams
                 href: reports/post-survey-coaching-small-teams.md
-          - name: Use the Manager Concierge dashboard in Viva Glint
+          - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
-          - name: The Team Summary dashboard in Viva Glint
+          - name: The Team Summary dashboard i
             href: reports/team-summary-dashboard.md
             items:
               - name: Enable and manage the Team Summary dashboard
@@ -287,7 +287,7 @@ items:
           - name: Take action with Viva Glint Team Conversations
             href: reports/take-action-team-conversations.md
             items:
-              - name: Managers and teams using Viva Glint Team Conversations
+              - name: Managers and teams using Team Conversations
                 href: reports/managers-sharing-team-conversations.md
               - name: Team Conversations presentation kit for managers
                 href: reports/coaching-team-conversations.md
@@ -297,14 +297,12 @@ items:
     items:
       - name: Viva Glint's Survey Reports overview
         href: reports/survey-reports-overview.md
-      - name: Make the most of Viva Glint reporting features
-        href: reports/report-analytics-filtering-favorability-trending.md
       - name: Share Manager Quick Guides
         href: setup/manager-quick-guides-overview.md
         items:
            - name: Manager Quick Guide for data confidentiality
              href: setup/quick-guide-confidentiality.md
-           - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
+           - name: Manager Quick Guide to understanding and acting on survey results 
              href: setup/quick-guide-manager-doc-pitfalls.md
   - name: Microsoft Viva People Science methodology for Viva Glint programs
     items:
