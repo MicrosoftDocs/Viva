@@ -93,7 +93,7 @@ Engage Copilot follows the same data residency protocols currently in place for 
 
 ### Engage Copilot, Microsoft Graph, Microsoft 365 services
 
-Engage Copilot doesn’t interact in any way with Microsoft 365 Copilot, Microsoft Graph, and other Microsoft 365 services. Engage Copilot is a separate entity contained within Viva Engage and relies solely on integrations currently in place for Viva Engage.
+Engage Copilot doesn’t interact in any way with Copilot for Microsoft 365, Microsoft Graph, and other Microsoft 365 services. Engage Copilot is a separate entity contained within Viva Engage and relies solely on integrations currently in place for Viva Engage.
 
 ### GDPR and privacy regulations
 Engage Copilot follows the same GDPR and privacy regulations as Viva Engage. For details, see [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise) and [Understand how privacy works in Microsoft Viva | Microsoft Learn](/viva/viva-privacy).
