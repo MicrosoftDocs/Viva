@@ -1,6 +1,6 @@
 ---
 title: Key roles for Viva Glint
-description: Assigning roles for Viva Glint leadership is among the first tasks for the M365 Global Admin. Using consistent terminology for all roles helps your organization support your Viva Glint programs.
+description: Assigning roles for Viva Glint leadership is among the first tasks for the M365 Global Admin. Using consistent terminology for all roles helps support your Viva Glint programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -20,26 +20,26 @@ ms.date: 03/19/2024
 
 # Key roles for Viva Glint
 
-Assigning roles for Viva Glint leadership is among the first tasks for the M365 global admin. Using consistent terminology for Viva Glint roles helps your organization support your Viva Glint programs.
+Assigning roles for Viva Glint leadership is among the first tasks for the M365 global admin. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
 
 ## Microsoft M365 global admin
 
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
 - Can access all data
-- Assigns all Viva Glint admin roles
+- Assigns Viva Glint admin roles
 
 ## Viva Glint admin
 
-- Assigned by the M365 global admin to have responsibility for specific tasks within the Viva Glint platform
-- Set up programs and surveys, distribution lists, and reporting features
-- Support managers in all aspects of action taking
+- Assigned by the M365 global admin to have responsibility for leadership tasks within the Viva Glint platform
+- Sets up programs and surveys, distribution lists, and reporting features
+- Supports managers in all aspects of action taking
 - Best practice is not to have more than five Viva Glint admins
 - Trainings are available in Viva Glint Learn
 
 ## Viva Glint manager
 
 - Organizational team leader who works directly with a Viva Glint admin to assist with survey administration
-- Has assigned reporting access and can develop action plans
+- Is assigned reporting access and can develop action plans
 
 ## Viva Glint end user
 
