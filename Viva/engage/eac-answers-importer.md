@@ -20,14 +20,14 @@ search.appverid:
 - MET150
 ---
 
-# Generate questions and answers by importing documents to Viva Engage
+# Generate questions and answers in Viva Engage by importing documents 
 
-Community admins can generate question-and-answer pairs by uploading FAQs and other documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse. Generated answers follow the same rules as other content: they're visible to anyone in your organization who has a Viva Suite license, unless you posted them to a private community.
+Community admins can generate question-and-answer pairs by uploading FAQs and other informational documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse. Generated answers follow the same rules as other content: they're visible to anyone in your organization who has a Viva Suite license, unless you posted them to a private community.
 
 >[!NOTE]
 >Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
 
-## Enable the Answers Intelligent Importer feature
+## Enable the Answers Intelligent Importer
 
 Engage admins can control the Answers Intelligent Importer in their Viva Engage network through these steps. The importer is on by default.
 
@@ -37,9 +37,9 @@ Engage admins can control the Answers Intelligent Importer in their Viva Engage 
 
 When this setting is enabled, community admins with access to premium functionalities on Engage can access and use the Intelligent Importer feature in their communities.  
 
-## Requirements for imported files
+## File requirements 
 
-Imported documents must have these characteristics:
+To import a document, it must meet these requirements:
 
 - .docx, .pdf, or .txt format
 - 5 MB maximum file size
@@ -53,7 +53,7 @@ Imported documents must have these characteristics:
 
 ## Import documents to communities
 
-Community admins can populate their communities with useful information by letting AI extract question-and-answer pairs from informational documents.
+Community admins can populate their communities with useful information by importing informational documents.
 
 1. Go to your community landing page, and select the Answers Intelligent Importer access point.
 1. When prompted, select and upload a file from your device.
