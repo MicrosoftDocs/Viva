@@ -1,5 +1,5 @@
 ---
-ms.date: 02/28/2024
+ms.date: 03/18/2024
 title: Create and manage native teams in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -16,7 +16,7 @@ ms.collection:
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to set up teams and subteams, from divisions to small functional units"
+description: "Learn how to create and manage native teams within Viva Goals."
 ---
 
 # Create and manage native teams in Viva Goals
@@ -35,9 +35,9 @@ By default, any member of an organization can create a team in that org. That sa
 
     - Team owner: Search for and designate a team owner from the Team Owner dropdown list.
 
-    - If this team is a sub-team, division, or department, select the parent team. (Optional)
+    - If this team is a subteam, division, or department, select the parent team. (Optional)
 
-    - Add any details you deem necesary. (Optional)
+    - Add any details you deem necessary. (Optional)
 
 1. Select **Create team**.
 
@@ -47,9 +47,9 @@ If you want to give your team a parent team, all of the following apply:
 
 - Your team will default to the parent team's OKR settings, such as check-in frequency and creation permissions.
 
-- Your team will show up as a sub-team under your parent team. If you want to view your parent team's other subteams, go to the parent team's page and select the sub-teams tab.
+- Your team will show up as a subteam under your parent team. If you want to view your parent team's other subteams, go to the parent team's page and select the sub-teams tab.
 
-- You cannot select a restricted Microsoft 365 group-backed team as a parent team.
+- You can't select a restricted Microsoft 365 group-backed team as a parent team.
 
 ## Create native teams in bulk
 
@@ -57,11 +57,11 @@ You can create native teams in bulk using an Excel template.
 
 1. Go to **All Teams** > **Create Team** or **Admin** > **Teams** > **Add Team**.
 
-1. Select the dropdown next to **Create Team** or **Add Team** and choose **Import teams**. <!--Editor's Note: Formatting unclear. Verify consistency with UI throughout article.-->
+1. Select the dropdown next to **Create Team** or **Add Team** and choose **Import Teams**.
 
 1. Download the Excel template from the resulting window.
 
-1. Update the Excel template with the following information about the teams you're importing. <!--Why are we saying "import" instead of "create"?-->
+1. Update the Excel template with the following information about the teams you're importing.
 
     - Team name – Give your team a name that doesn't already exist in Viva Goals.
 
@@ -73,154 +73,114 @@ You can create native teams in bulk using an Excel template.
 
     - Group  ID – Add up to five Microsoft Entra groups as members for this team. Mail-enabled security groups, mail-enabled distribution groups, and nested groups are supported. Other security groups and Microsoft 365 groups aren't supported. (Optional)
 
-        **Note:** You can find a group's ID by navigating to the group's page in [portal.azure.com](https://portal.azure.com/) and checking under **Properties**. <!--Get the right formatting for "properties."-->
+        **Note:** You can find a group's ID by navigating to the group's page in [portal.azure.com](https://portal.azure.com/) and checking under **Properties**.
 
-1. Go back to the **Import teams** page in Viva Goals and upload the completed Excel doc. The page wlil display a snapshot of the information for the teams you're importing.
+1. Go back to the **Import teams** page in Viva Goals and upload the completed Excel doc. The page will display a snapshot of the information for the teams you're importing.
 
 1. Select **Create Teams** to begin the import process and view the import tracking page.
 
 1. The import can take up to 30 minutes depending on the number of teams being imported. Feel free to close the window during this process; you can always check the import's progress by going to **Account settings** > **Preferences** > **My imports** > **My team imports**.
 
-1. Once the import is complete, you will receive an email notification. You can come back to the import tracking page to check how many teams got created and how many teams didn't.
+1. Once the import is complete, you'll receive an email notification. You can return to the import tracking page to see which teams were created and which teams weren't. If you want to know why some teams weren't created, download the import report.
 
-Download the import report to understand why some of teams weren't created.
+1. You can view the created teams by navigating to **All Teams** or by going to **Admin** > **Teams**.
 
-You can view the created teams by navigating to All Teams or Admin > Teams.
+## Add members to a native team
 
-## Add members to a team
+For both native teams and teams connected to Microsoft 365 groups, team owners can add members from within Viva Goals.
 
-For both native teams (i.e. teams which are not connected to Microsoft 365 groups) and teams which are connected to Microsoft 365 groups, team owners can add members from within Viva Goals.  
+1. Go to the team's OKRs page and select the three dots (**...**) at the top right, then choose **Team members**.
 
-To add individual users as team members, follow these steps:
+1. Select **Add members**.
 
-Go to the Team OKR page. Click on the three dots (…) button on the top right of the page. A drop down will appear.
+1. Use the search box to search for and select individual users or groups to add. Mail-enabled security groups, mali-enabled distribution groups, and Microsoft 365 groups are supported.  
 
-Select the Team Members from the drop down.
+1. Select **Add members**.
 
-Select the Add Members button on the top right of the page.
+1. There are three possibilities for what will happen next:
 
-Search for an individual user or group in the search box. You can search for either a Mail enabled security group, a distribution group or a Microsoft 365 group.  
+    - If a user or group selected is already a part of the organization, it will be added to the team instantly.  
 
-Select the user or group that you want to be added as members.
+    - If a user or group selected is not yet a member of the organization but you have the permissions necessary to add members to the org, that user or group will be added to the org and the team.
 
-4_.png
+    - If a user or group selected is not yet a member of the organization and you do not have the permissions necessary to add members to the org, that user or group will not be added to the team. Please contact the organization administrator so you can get the necessary permissions and try the above steps again.
 
-Select the Add Members button.  
+You can use the above steps to add users who are not yet a part of Viva Goals; just make sure the **Send email notification to the added members** checkbox is selected while you're adding members. This will send them an invitation to join your team in Viva Goals.
 
-There are two scenarios:  
+> [!NOTE]
+> When you set up a team, it's useful to add a second team owner to ensure that team management isn't dependent on a single user. You can also add multiple team owners as necessary.
 
-The user or group selected is already a member of the organization: In this case, they get added to the team instantly.  
+## Make a team member an owner, admin, or basic member
 
-The user or group selected is not a member of the organization yet: In this case, if you have access to add members to the organization, the user or group will be added to the organization and the team. If you do not have access to add members to the organization, you will NOT be able to add these users or groups to the team. In such a scenario, please contact the organization administrator for access to add members to the organization and try the above steps again.  
+1. Go to the team's OKRs page and select the three dots (**...**) at the top right, then choose **Team members**.
 
-To add users who have not tarted using Viva Goals yet, to your team, Use the steps mentioned above. When you click on add members, make sure that the Send invitations to users checkbox is selected. This will send them an invitation to join your team in Viva Goals.
+1. Each team member listed has a dropdown in the **Role** column. Select this dropdown, then choose **Owner**, **Member**, or **Admin** depending on the role you want the team member to have.
 
-Note: When you set up a team, it's useful to add a second team owner to make sure that team management isn't dependent on a single user. You can also select multiple team owners if required.
+## Remove a member from a native team
 
-To assign team administrator permissions to a team member, follow these steps:
+You can remove team members from teams. Individual users removed from a team lose membership access to that team but remain part of their organization.
 
-Select the Team Members tab. For every user listed, there's an Actions dropdown list (three dots) next to the user’s name.
+1. Go to the team's OKRs page and select the three dots (**...**) at the top right, then choose **Team members**.
 
-Select the Actions dropdown list, and then select Owner or admin.
+1. Each team member listed has a dropdown in the **Role** column. Select the **X** next to that team member's dropdown.
 
-5_.png
+1. Select **Remove** in the resulting dialog.
 
-You can promote or remove any team member as a team owner from the Admin menu on the Admin Dashboard page.
+## Delete, archive, or restore a native team
 
-Frequently Asked Questions (FAQs):
+Org owners and team owners have the authority to manage their teams, which includes deciding what to do when those teams are dissolved or retired due to organizational changes. When that happens, there are two options: deleting the team or archiving the team. A team can only be deleted from within Viva Goals if it has no OKRs or initiatives assigned to it. Otherwise, the team can be archived.
 
-What happens when you do not have permission to add members to the org?  
-
-If you do not have permissions to add members to the org, you will only be able to add existing organization members as team members, and will not be able to add users who are not members of the organization.  
-
-What happens to Groups added as members in native Teams?
-
-In native teams, you can add a mail-enabled security group, distribution group or Microsoft 365 group as members. Once you do that, the group members would have access to the Viva Goals team and the organization. Within the Viva Goals -> Admin -> Members, you will find these groups displayed as members. Every time, a new user is added or removed from the group, they will get access to the Viva Goals team and the organization. Likewise, when a user is removed from the group, they will lose membership access to the Viva Goals team and the organization (if they have gained access to the organization only through this group).
-
-How to manage roles and delete members in a team:  
-
-To update the role of a member, go to the Teams Members page within a team, click on the action button next to the relevant user. In the drop down, either promote them to a team owner or remove them as a team owner.  
-
-Shape Screenshot showing where you update team owners. 6_.png
-
-To remove members from a team, click on the action button next to the relevant user. In the drop down, click on remove.  
-
-If you want to assign the role to or remove members who are part of a group, search for that user in the search field and click on action button (three dots) to select the relevant action.
-
-Frequently Asked Questions (FAQs):
-
-As a team owner, when I remove a user or group from the native team, what will happen?
-
-When an individual user is removed from the team, they will continue to have access to the organization but lose membership access to the team.  
-
-What will happen when groups attached to native teams are removed from the Viva Goals organization? Once the organization owner removes the group from the organization, the group will be removed from the native teams as well. The members will lose access to the team and the org
-
-Can I make a group which is attached to my native team as owner of the team? No, groups cannot be assigned roles within native teams or the organization.  
-
-Delete, Archive and Restore Teams.  
-
-As an org owner or team owner, we give you support to manage your teams. Sometimes, teams are dissolved or retired due to an organizational change. In that case, you have the following two options in Viva Goals.
-
-Delete a team
-
-Archive a team
-
-How to delete a team
-
-In case of native teams, which are NOT connected to a Microsoft 365 group, an org owner/admin or team owner/admin can delete the team from within Viva Goals. A team can only be deleted from within Viva Goals if it has no OKRs or Projects assigned to it. If there are OKRs or projects assigned to the team, you can instead archive the team.  
+### Delete a native team
 
 To delete a native team from within Viva Goals, follow these steps:
 
-If you are an org owner or administrator:  
+If you are an org owner or administrator:
 
-Select Admin > Teams tab > Actions.
+1. Go to **Admin** > **Teams**.
 
-Select the Delete option corresponding to the team that you want to delete.
+1. For the team you want to delete, select **Actions** (**...**) > **Delete**.
 
-If you are a team owner
+If you are a team owner:
 
-Go to your Team OKRs page
+1. Go to the team's OKRs page.
 
-Visit more actions at the top and select the delete option
+1. Select the three dots (**...**) at the top right, then choose **Delete this team**.
 
-7_.png
+> [!NOTE]
+> If you want to delete a team but can't because it has OKR content, you can remove the OKRs or assign them to other teams first.
 
-Frequently Asked Questions:  
+### Archive a native team
 
-1. I want to delete my native team. However, I am not able to delete because there is OKR content? What should I do?  
+We recommend you archive teams that are no longer in service so that the collection of teams stay relevant for use. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are a part of the team. Furthermore, any subteams become independent teams in Viva Goals. It will still be possible to perform actions (such as check-ins) on OKRs previously assigned to the archived team.
 
-You can remove the OKRs from the team or un/re-assign the OKRs to another team, before trying to delete the team again.
+Even though you won't be able to see the archived team under All Teams now, you'll be able to see the assigned OKRs by expanding the parent OKRs they're aligned to. You can also view those OKRs and initiatives in the Explorer by applying the type filter and selecting the archived team's name.
 
-How to archive a team
+Once a team has been archived, it's marked as **Archived** on the **Teams** tab in the admin dashboard. It won't be visible anywhere else. Any objectives that were owned by this team will remain unchanged, but you can't assign new objectives to the team.
 
-We recommend you archive teams that are no longer in service so that the collection of teams stay relevant for use. Once a team is archived, you can no longer create OKRs and initiatives under that team, and no users are a part of the team. Additionally, any sub teams become independent teams in Viva Goals. All OKRs that were previously assigned to the archived teams will still be accessible for actions to be performed on them, such as check-ins.
+Activities related to the archived team will be halted, including the assigning of team members and any team-level notifications. To resume these activities, you would need to [restore the team](#restore-a-native-team).
 
-Even though you won't be able to see the archived team under All Teams now, you can see the assigned OKRs by expanding the parent OKRs that they're aligned to. You can also view those OKRs/initiatives in the Explorer by applying the type filter and selecting the archived team name.
+To archive a team as an org owner, org administrator, team owner, or team administrator:
 
-Once a team has been archived, it's marked as Archived on the Teams tab in the Admin console. It won't be visible anywhere else. Any objectives that were owned by this team remains unchanged. But you can't assign new objectives to the team.
+1. Go to the team's OKRs page.
 
-Activities related to the archived team are halted, including assigning team members and team-level notifications. To resume these activities, you would need to restore the team.
+1. Select the three dots (**...**) at the top right, then choose **Archive this team**.
 
-To archive a team, follow these steps:
+If you are an org owner or administrator, you can do the following instead:
 
-Org owner or administrator:  
+1. Go to **Admin** > **Teams**.
 
-Select Admin > Teams tab > Actions.
+1. For the team you want to archive, select **Actions** (**...**) > **Archive**.
 
-Select Archive for the team that you want to archive.
+## Restore a native team
 
-Both org and team owners and administrators:  
+Archiving a team isn't permanent. To restore an archived team:
 
-Go to Team OKRs page
+1. Go to **Admin** > **Teams**.
 
-Visit more actions at the top and select the archive option
+1. For the team you want to restore, select **Actions** (**...**) > **Restore**.
 
-Archiving a team isn't permanent. You can restore an archived team. To restore an archived team:
+Alternately:
 
-Select Admin > Teams tab > Actions.
+1. Go to the team's OKRs page.
 
-Select restore for the team you want to restore.
-
-Alternately, you can visit the team OKRs page and select restore option in More options.  
-
-8_.png
+1. Select the three dots (**...**) at the top right, then choose **Restore this team**.
