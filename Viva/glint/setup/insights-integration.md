@@ -23,7 +23,7 @@ ms.date: 03/19/2024
 >[!IMPORTANT]
 >This integration is available on April 6, 2024.
 
-HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics and uncover insightful information about employee sentiments by sending recurring and ad-hoc survey results from Viva Glint feedback to Viva Insights Power BI.
+HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
 >[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
 >
@@ -34,7 +34,7 @@ HR analysts and other leaders can bring Viva Glint survey scores into Viva Insig
 Two prominent use cases for this data integration:  
 
 - Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
-- Integrate your employee engagement survey scores (“how employees feel”) with your Viva Insights data (“how people work”) to understand employees’ work experience and improve key outcomes for your organization more fully.
+- Integrate your engagement survey scores (how employees feel) with your Viva Insights data (how people work) to understand employees’ work experience and improve key outcomes for your organization.
 
 ## What data can be sent to Viva Insights?
 
@@ -49,7 +49,7 @@ All languages supported for question labels and question text by Viva Glint are 
 
 The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback data before integration. Integration begins in the Microsoft 365 Admin Center (MAC).
 
-1. Hover over *Manage data sharing with Glint* to open the slider window.
+1. To open the slider window, hover over *Manage data sharing with Glint*.
 1. Select **I authorize sharing Insights data with Glint**.
 2. Select **Save**.
    
