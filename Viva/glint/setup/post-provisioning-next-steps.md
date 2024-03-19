@@ -1,6 +1,6 @@
 ---
-title: Set up admins in up Viva Glint instance
-description: Take care of a few items of business before you begin your first Viva Glint program journey.
+title: Assign Viva Glint admins
+description: Take care of assigning Viva Gkint admins before you begin your first Viva Glint program journey.
 ms.author: judithweiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 03/19/2024
 ---
 
-# Designate Viva Glint admins
+# Assign Viva Glint admins
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
