@@ -31,7 +31,7 @@ As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admi
 
 :::image type="content" source="../../media/glint/setup/glint-admins-mac.png" alt-text="Screenshot of Viva Glint in the Microsoft Admin Center.":::
 
-1. Ensure that all Glint service admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/fundamentals/how-to-manage-user-profile-info).
+1. Ensure that all Glint service admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/entra/fundamentals/how-to-manage-user-profile-info).
 
    > [!IMPORTANT]
    > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
