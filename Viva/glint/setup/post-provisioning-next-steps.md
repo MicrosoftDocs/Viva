@@ -15,67 +15,37 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2023
+ms.date: 03/19/2024
 ---
 
-# Set up admins in your Viva Glint instance
+# Designate Viva Glint admins
 
 Welcome to Microsoft Viva Glint! If you have landed on this page, you should already have your tenant provisioned.
 
 - If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
 
-## Add administrators to your Viva Glint instance
+## Assign Viva Glint admins in the Microsoft Administrator Center (MAC)
 
 As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
 
+:::image type="content" source="../../media/glint/setup/glint-admins-mac.png" alt-text="Screenshot of Viva Glint in the Microsoft Admin Center.":::
+
+1. Ensure that all Glint service admin users have their First Name, Last Name, Employee ID, and Email populated in Microsoft Entra. [Manage Entra user profile information](/fundamentals/how-to-manage-user-profile-info).
+
+   > [!IMPORTANT]
+   > To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
+
+1. Sign in to the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234). 
+1. Go to **Settings** and select **Viva**.
+2. In the list of applications, select **Viva Glint**.
+3. Select **Assign Glint service admin** and choose **Add users**.
+4. Search for and select service admin users.
+5. Select **Add** to assign users.
+6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
+
 > [!NOTE]
-> Administrators for Viva Glint are assigned within the Viva Glint product only, not through the Microsoft Administrator Center (MAC).
-
-> [!TIP]
-> Viva Glint recommends no more than five (5) administrators for your Viva Glint instance.
-
-### Collect administrator information
-
-Compile a file of administrators to upload to Viva Glint with the following columns and user information. Save as **.csv with UTF-8 encoding and a comma separator**.
-
-- **Email:** Work email address
-- **Employee ID:** ID value exactly as it appears in your HRIS
-- **First Name:** User first name
-- **Last Name:** User last name
-- **Status:** ACTIVE, in all caps
-
-> [!IMPORTANT]
-> To prevent duplication errors with future file uploads, ensure that the Employee ID values for these users match the Employee ID from the HR Information System (HRIS) that will be used to transfer data to Viva Glint.
-
-> [!CAUTION]
-> - Don't add admin users as Support users. They must be uploaded with a status of ACTIVE to have all Viva Glint permissions.
 > - To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
-
-### Upload administrators to Viva Glint
-
-Upload your administrators to Viva Glint Advanced Configuration:
-
-1. From the admin dashboard, select the **Configure** symbol, then in **Service Configuration**, choose **Advanced Configuration**.
-   1. If there is no **Advanced Configuration** option, go to your user profile and in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
-1. In the **Advanced Configuration** menu, select **Uploads**.
-1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
-1. Switch the **Incremental** toggle on.
-1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section and select **Upload**.
-1. In *Upload Job Details**, confirm that **Upload Lines Summary** shows the correct number of users to ADD in the **Lines** column.
-1. Select **Apply Upload to Database** to upload new users and select **Yes**.
-1. Go to the **Uploads** menu and confirm that the file **State** is SUCCESS and that the **Total Lines** and **Processed Lines** match the number of users in the uploaded file.
-
-### Add administrators to the Company Admin User Role
-
-When users are successfully uploaded, add them to the Company Admin User Role and grant Advanced Configuration access:
-
-1. Select the **Configure** symbol, then in the **Employees** section, choose **People**.
-1. Select each user, and on their profile under **User Roles**, select the pencil symbol to edit.
-1. In the **Customize User Role** dialog, select the checkbox for **Company Admin** and then choose **Save**.
-1. In the **Confirm Role** dialog, select **Grant All Access**.
-1. On the user profile, in the **Company Admin: Advanced Configuration Access** section, select the pencil symbol to edit.
-1. In the **Advanced Configuration Access** dialog, switch the toggle on to **Enable access** and select **Save**.
 
 ## Steps to set up your Viva Glint program instance
 
