@@ -38,6 +38,9 @@ items:
             href: setup/viva-glint-tenant-provision.md
           - name: Set up admins in your Viva Glint instance
             href: setup/post-provisioning-next-steps.md
+            items:
+              - name: Key Viva Glint role definitions
+                href: start/role-definitions.md
           - name: Viva Glint licensing
             href: setup/glint-order-teams.md
           - name: Third party notice
