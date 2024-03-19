@@ -1,6 +1,6 @@
 ---
 ms.date: 01/06/2023
-title: "Power BI Integration"
+title: Power BI Integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -17,104 +17,101 @@ ms.collection:
 - vg-integration
 search.appverid:
 - MET150
-
-description: "Learn how to integrate your Viva Goals OKRs with Power BI."
+description: "Learn how to integrate your Viva Goals OKRs and initiatives with Power BI."
 ---
 
-# Power BI Integration
+# Power BI integration
 
-Key Results and initiatives that use metrics to track completion in Viva Goals can directly connect to data from reports in Power BI using our simple point and select interface. Viva Goals will sync the data at regular intervals, ensuring your Key Results and initiative always stay up to date with the latest progress. 
+Key results and initiatives that use metrics to track completion in Viva Goals can directly connect to data from reports in Power BI. Viva Goals will sync the data at regular intervals, ensuring your key results and initiative always stay up to date with the latest progress.
 
-## How to connect your Key Result to data from Power BI 
+> [!NOTE]
+> To connect to a Power BI report, you'll need [build permissions](/power-bi/connect-data/service-datasets-build-permissions) on the dataset underlying the report.
 
-1. Add a new Key Result or open an existing Key Result for Edit.
-   
-   :::image type="content" source="../media/goals/powerbi-images/edit-kr.png" alt-text="Screenshot that shows how to edit a key result in Viva Goals." lightbox="../media/goals/powerbi-images/edit-kr.png":::    
+## Connect a key result to data from Power BI
 
-2. Under the Progress section, select **Automatically from a data source** and then from the list of Integrations, select **Power BI.** 
-   
+1. Add a new key result or edit an existing key result by selecting that key result's **More options** (**...**) > **Edit**.
+
+   :::image type="content" source="../media/goals/powerbi-images/edit-kr.png" alt-text="Screenshot that shows how to edit a key result in Viva Goals." lightbox="../media/goals/powerbi-images/edit-kr.png":::
+
+1. Under **Progress and Status**, there's a section with the text "Connect to a data source for automatic progress updates" followed by a list of integration icons. Select the **Power BI** icon.
+
    :::image type="content" source="../media/goals/powerbi-images/kr-select-power-bi.png" alt-text="Screenshot that shows how to select Power BI from the automatic check-in dropdown list." lightbox="../media/goals/powerbi-images/kr-select-power-bi.png":::
 
     > [!NOTE]
-    > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
+    > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration) below.
 
-3. The first time, you'll be presented with a screen to sign in to Power BI. Sign in with your Viva Goals credentials. A screen appears to save a new connection. Name the connection and select **Next.** 
+1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
 
    > [!IMPORTANT]
-   > Only you will have access to this connection, it will not be shared with anyone else. 
+   > Only you have access to this connection; it will not be shared with anyone else.
 
-4. Once logged in to Power BI, you can select the report you want to link data from and select **Next.**
+1. Once logged in to Power BI, choose the report you want to link data from and select **Next**.
 
    :::image type="content" source="../media/goals/powerbi-images/kr-select-report.png" alt-text="Screenshot that shows how to select a Power BI report from the list." lightbox="../media/goals/powerbi-images/kr-select-report.png":::
 
-5. Within the report, you can select a particular chart. Power BI shows you the current value of the data being linked as well as the filters being applied. To link the data, select **Connect.**
+1. Within the report, you can select a particular chart. Power BI will show you the current value of the data being linked, as well as the filters being applied. Select **Connect** to link the data.
 
    :::image type="content" source="../media/goals/powerbi-images/kr-select-metric.png" alt-text="Screenshot that shows how to select a metric from the available options." lightbox="../media/goals/powerbi-images/kr-select-metric.png":::
 
-6. Once it's connected, select **Save.**
+1. When you're done, select **Save** to finalize your changes.
 
    :::image type="content" source="../media/goals/powerbi-images/kr-save.png" alt-text="Screenshot that shows the save button." lightbox="../media/goals/powerbi-images/kr-save.png":::
 
-Your key result will now regularly synchronize data from Power BI and make check-ins on your behalf. If you have any issues, please check the Troubleshooting section below.
+The key result will now regularly synchronize data from Power BI and make check-ins on your behalf.
 
 :::image type="content" source="../media/goals/powerbi-images/kr-connected.png" alt-text="Screenshot that shows a successfully connected KR." lightbox="../media/goals/powerbi-images/kr-connected.png":::
 
-## How to connect your KPI initiative to data from Power BI
+## Connect an initiative to data from Power BI
 
-1. Add a new initiative or edit an existing initiative.
+1. Add a new initiative or edit an existing initiative by selecting that initiative's **More options** (**...**) > **Edit**.
 
    :::image type="content" source="../media/goals/powerbi-images/project-edit.png" alt-text="Screenshot that shows how to edit an initiative." lightbox="../media/goals/powerbi-images/project-edit.png":::
 
-2. Under the Outcome section, select **Add metric.**
+1. Under **Outcome**, select **Add metric**.
 
    :::image type="content" source="../media/goals/powerbi-images/project-add-metric.png" alt-text="Screenshot that shows the outcome section in the edit panel and where to locate the add metric button." lightbox="../media/goals/powerbi-images/project-add-metric.png":::
 
-3. Specify a metric.
+1. Specify a metric.
 
    :::image type="content" source="../media/goals/powerbi-images/project-enter-metric.png" alt-text="Screenshot that shows how to enter a metric." lightbox="../media/goals/powerbi-images/project-enter-metric.png":::
 
-4. Expand the Progress section and select **Automatically from a data source.**
+1. Under **Progress and Status**, there's a section with the text "Connect to a data source for automatic progress updates" followed by a list of integration icons. Select the **Power BI** icon.
 
    :::image type="content" source="../media/goals/powerbi-images/project-progress-data-source.png" alt-text="Screenshot that shows how to select  automatic data source." lightbox="../media/goals/powerbi-images/project-progress-data-source.png":::
 
-5. From the list of Integrations, select Power BI. 
-
    > [!NOTE]
-   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See **How to enable Power BI Integration** below.
+   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration )below.
 
-6. The first time, you'll be presented with a screen to sign in to Power BI. Sign in with your Viva Goals credentials. A screen appears to save a new connection. Name the connection and select **Next.**
+1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
 
-   :::image type="content" source="../media/goals/powerbi-images/project-select-powee-bi-data-source.png" alt-text="Screenshot that shows how to select Power BI from the available options." lightbox="../media/goals/powerbi-images/project-select-powee-bi-data-source.png"::: 
+   :::image type="content" source="../media/goals/powerbi-images/project-select-powee-bi-data-source.png" alt-text="Screenshot that shows how to select Power BI from the available options." lightbox="../media/goals/powerbi-images/project-select-powee-bi-data-source.png":::
 
    > [!IMPORTANT]
-   > Only you will have access to this connection, it will not be shared with anyone else.
+   > Only you have access to this connection; it will not be shared with anyone else.
 
-7. Once logged in to Power BI, you can select the report you want to link data from and select **Next.**
+1. Once logged in to Power BI, choose the report you want to link data from and select **Next**.
 
    :::image type="content" source="../media/goals/powerbi-images/kr-select-report.png" alt-text="Screenshot that shows how to select a report from a list of available options." lightbox="../media/goals/powerbi-images/kr-select-report.png":::
 
-8. Within the report, you can select a particular chart. Power BI shows you the current value of the data being linked as well as the filters being applied. To link the data, select **Connect.**
+1. Within the report, you can select a particular chart. Power BI will show you the current value of the data being linked, as well as the filters being applied. Select **Connect** to link the data.
 
    :::image type="content" source="../media/goals/powerbi-images/project-select-metric.png" alt-text="Screenshot that shows how to link the data to a report." lightbox="../media/goals/powerbi-images/project-select-metric.png":::
 
-9. Once it's connected, select **Save**.
+1. When you're done, select **Save** to finalize your changes.
 
    :::image type="content" source="../media/goals/powerbi-images/project-save.png" alt-text="Screenshot that shows how to save your update." lightbox="../media/goals/powerbi-images/project-save.png":::
 
-Your initiative will now regularly synchronize data from Power BI and make check-ins on your behalf. If you have any issues, please check the Troubleshooting section below.
+Your initiative will now regularly synchronize data from Power BI and make check-ins on your behalf.
 
 :::image type="content" source="../media/goals/powerbi-images/project-connected.png" alt-text="Screenshot of a successful initiative integration with Dynamics." lightbox="../media/goals/powerbi-images/project-connected.png":::
 
-## How to enable Power BI integration
+## Enable Power BI integration
 
-Global admins must first enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions in [Enable Integrations in Viva Goals > How to manage integrations](vg-integrations-administration-overview.md).
+Before any org members can make use of Power BI integrations, a global admin must enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions [here](vg-integrations-administration-overview.md#how-to-manage-integrations).
 
-1. Go the Viva Goals Integrations page: **Admin > Integrations**
-1. Enable Power BI integration under the Data Integrations category.
-1. You can also disable the integration at any time from the same section.
+1. Go the Viva Goals Integrations at **Admin** > **Integrations**.
 
-## FAQ (Frequently Asked Questions)
+1. Enable Power BI integration under the **Data Integrations** section.
 
-1. **What permissions do I need to connect to a Power BI report?** 
-    1. You'll need [build permissions](/power-bi/connect-data/service-datasets-build-permissions) on the dataset underlying the report.
-
+> [!NOTE]
+> You can disable the integration at any time from the same section.
