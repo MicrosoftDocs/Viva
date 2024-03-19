@@ -1,6 +1,6 @@
 ---
 title: Assign Viva Glint admins
-description: Take care of assigning Viva Gkint admins before you begin your first Viva Glint program journey.
+description: Take care of assigning Viva Glint admins before you begin your first Viva Glint program journey.
 ms.author: judithweiner
 author: JudyWeiner
 manager: MelissaBarry
