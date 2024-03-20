@@ -138,7 +138,7 @@ There are two major integration stages for which admins require specific permiss
 
     - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
-  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "MVL" partner configuration.  Note: `partners1.path` and `partners1.email` are optional properties in SuccessFactors.
+  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "MVL" partner configuration.  Note: `partners1.path` and `partners1.email` are optional properties in SuccessFactors partner extract configuration.
   
   - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
