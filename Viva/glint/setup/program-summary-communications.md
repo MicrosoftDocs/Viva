@@ -47,7 +47,7 @@ The following sections display as setup actions and each field can be edited by 
 >When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991), as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
 
 >[!IMPORTANT]
->Customizing/editing invitations, reminders, and "thank you" emails is currently a feature available for new Viva Glint customers. Customers who have migrated from our LinkedIn platform will have this capability added shortly. We anticipate this to become available in June 2024. You will be notified.
+>Customizing or editing invitations, reminders, and appreciation emails is currently a feature available for *new Viva Glint customers only*. Customers who have migrated from our LinkedIn platform will have this capability added shortly. We anticipate this to become available in June 2024. You will be notified.
 
 ### Editing the survey invitation
 
