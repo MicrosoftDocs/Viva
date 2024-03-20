@@ -117,5 +117,4 @@ Column headers|All field header or column names need to be unique.|Two or more c
 ||Required fields need to have a value for every row.|Missing {header name} column or {header name} value. {Header name} is a required field and needs a value for every row. Add {header name} value and upload the file again.|All
 |||Missing ManagerId value for new PersonId field. ManagerId is a required field. Add the corresponding ManagerId field and upload again.|All
 ||Each PersonId needs to have a unique ManagerId.|   |All
-||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.|   |All
-|||
+||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.|  
