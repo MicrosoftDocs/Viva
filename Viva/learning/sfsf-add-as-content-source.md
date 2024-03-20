@@ -114,6 +114,9 @@ There are two major integration stages for which admins require specific permiss
 
         partners1.enabled=true
 
+>[!NOTE]
+>`partners1.path` and `partners1.email` are optional properties in SuccessFactors partner extract configuration.
+
 5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable.
 
 6. Save the SuccessFactors partner configuration and come back to Viva Learning > Manage Providers to complete the Viva Learning configuration.
@@ -138,7 +141,7 @@ There are two major integration stages for which admins require specific permiss
 
     - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
-  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "MVL" partner configuration.  Note: `partners1.path` and `partners1.email` are optional properties in SuccessFactors partner extract configuration.
+  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "MVL" partner configuration.
   
   - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
