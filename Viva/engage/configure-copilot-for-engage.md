@@ -1,11 +1,11 @@
 ---
-title: "Overview and set up Copilot in Viva Engage [Public Preview] "
+title: "Set up Copilot in Viva Engage [Public Preview] "
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 03/10/2024
+ms.date: 03/24/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -24,7 +24,8 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage [Pub
 >[!IMPORTANT]
 >Copilot in Viva Engage is currently available through public preview. The features described here are subject to change.
 
-Copilot in Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](/ai/responsible-ai), to assist them to get the most out of Viva Engage. A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
+Copilot in Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](/ai/responsible-ai), to assist them to get the most out of Viva Engage. 
+A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
 
 ## Licensing requirements
 
@@ -36,9 +37,9 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
-| Data process | How it works |
+| **Data process** | **How it works** |
 |---|---|
-|**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
+|Message processing and storage for summarization| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
 |**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Manage Copilot and Summarization with feature access policies
