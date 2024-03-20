@@ -18,7 +18,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/08/2024
+ms.date: 03/20/2024
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -27,7 +27,7 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business. The world's leading brands use our programs to increase employee engagement, develop their people and culture, and improve business results.
 
-## Watch this video for a quick introduction to Viva Glint
+**Watch this video for a quick introduction to Viva Glint**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
@@ -53,42 +53,14 @@ Implementing recurring and ad-hoc survey programs helps your organization
 ## Connect and learn with Viva Glint
 
 Viva Glint offers a wide range of resources for admins, managers, and their teams:
-
-:::row:::
-   :::column span="2":::
-   **Viva Glint Community, sharing platform updates, blogs, and discussion spaces**
-   :::column-end:::
-   :::column span="2":::
-   **Technical and platform guidance and training for admins and managers**
-:::row-end:::
-:::row:::
-   :::column span="2":::
-   **Monthly 'Ask the Experts' sessions**
-   :::column-end:::
-   :::column span="2":::
-   **Hot topic events led by our teams and customers**
-:::row-end:::
-:::row:::  
-   :::column span="2":::
-   **'Ask the Experts' sessions**
-   :::column-end:::
-   :::column span="2":::
-   **Hot topic events led by our teams and customers**  
-:::row-end:::
-:::row:::
-   :::column span="2":::
-   **Learning Circles program**
-   :::column-end:::
-   :::column span="2":::
-   **Customer cohort groups**
-:::row-end:::   
-:::row:::
-   :::column span="2":::
-   **Regional product councils**
-   :::column-end:::
-   :::column span="2":::
-   **Viva Glint Adoption site** 
-:::row-end:::   
+- **Viva Glint Community - sharing platform updates, blogs, and discussion spaces**
+- **Technical and platform guidance and training for admins and managers**
+- **Monthly 'Ask the Experts' - live sessions**
+- **Hot topic events led by our teams and customers**
+- **Learning Circles program**
+- **Customer cohort groups**
+- **Regional product councils**
+- **Viva Glint Adoption site**
 
 ## Get started
 > [!div class="nextstepaction"]
