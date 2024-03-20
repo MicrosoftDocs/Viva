@@ -42,9 +42,9 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 |**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
 |**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
-## Manage Copilot and Summarization with feature access policies
+## Manage Copilot and AI Summarization with feature access policies
 
-While admins can disable Copilot and Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features, leaving features in their default enabled state in the Viva Engage admin center.  
+While admins can disable Copilot and AI Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features, leaving features in their default enabled state in the Viva Engage admin center.  
 
 Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. 
 Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
@@ -59,18 +59,18 @@ You can create feature access policies using the following enablement states.
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled, Disabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
-|**AI summarization** | Enabled| This state enables background processing for Engage threads within the tenant.|
+|**AI Summarization** | Enabled| This state enables background processing for Engage threads within the tenant.|
 | |Enabled with user opt out| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
-| |Disabled|If Summarization is disabled for the entire tenant without any accompanying any user or group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a tenant policy that enables at least one feature for each group.|
+| |Disabled|If AI Summarization is disabled for the entire tenant without any accompanying any user or group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a tenant policy that enables at least one feature for each group.|
 
-## Control Copilot and Summarization from the Engage admin center
+## Control Copilot and AI Summarization from the Engage admin center
 
 Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center.
 
 1.	Go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 1.	On the **Setup and configuration** tab, select **Manage AI and analytics**.
     :::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
-    For a description of enablement states for Copilot and Summarization, see the preceding section.
+    For a description of enablement states for Copilot and AI Summarization, see the preceding section.
 
 ## How to access Copilot
 
