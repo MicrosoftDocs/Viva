@@ -26,9 +26,9 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage [Pub
 
 Copilot in Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage. A large language model is a type of AI that can process and produce natural language text. Learn more about [responsible AI practices at Microsoft](https://www.microsoft.com/ai/responsible-ai). Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
 
-## Licensing requirements (Public preview)
+## Licensing requirements
 
-Beginning in late April 2024, Copilot in Engage will be available and enabled for all premium users as part of their [Microsoft Viva license plans](/microsoft-viva/pricing.md). AI-powered Summarization will be enabled at the same time for all users in the premium licensed tenant. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
+Beginning in late April 2024, Copilot in Engage will be available and enabled for all premium users as part of their Microsoft Viva license plans. AI-powered Summarization will be enabled at the same time for all users in the premium licensed tenant. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
 [Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-setup) is available separately.
 
@@ -48,7 +48,7 @@ While admins can disable Copilot and Summarization in the Engage admin center, w
 - Tenant policies affect all users in the tenant
 - Group/user level policies let you choose individual users and groups to be managed by the policy
 
-These policy settings apply anytime a user signs in, allowing them access only to features that haven't been disabled. Because you can set multiple access policies, a user or group might be impacted by more than one policy. For details, see [Control access to features in Viva](/viva/feature-access-management).
+Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. Because you can set multiple access policies, a user or group might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For details, see [Control access to features in Viva](/viva/feature-access-management).
 
 ## Control Copilot and Summarization in the Engage admin center
 
