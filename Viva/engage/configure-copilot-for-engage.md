@@ -28,7 +28,7 @@ Copilot in Engage is a partner for communicating in ways that create value for o
 
 ## Licensing requirements (Public preview)
 
-Beginning in late April 2024, Copilot in Engage will be available and enabled for all premium users as part of their [Microsoft Viva license plans](/microsoft-viva/pricing). AI-powered Summarization will be enabled at the same time for all users in the premium licensed tenant. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
+Beginning in late April 2024, Copilot in Engage will be available and enabled for all premium users as part of their [Microsoft Viva license plans](/microsoft-viva/pricing.md). AI-powered Summarization will be enabled at the same time for all users in the premium licensed tenant. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
 [Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-setup) is available separately.
 
