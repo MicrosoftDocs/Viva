@@ -114,6 +114,9 @@ There are two major integration stages for which admins require specific permiss
 
         partners1.enabled=true
 
+>[!NOTE]
+>`partners1.path` and `partners1.email` are optional properties in SuccessFactors partner extract configuration.
+
 5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable.
 
 6. Save the SuccessFactors partner configuration and come back to Viva Learning > Manage Providers to complete the Viva Learning configuration.
@@ -122,25 +125,25 @@ There are two major integration stages for which admins require specific permiss
 
     ![Screenshot of the checkbox indicating that you have followed the above steps.](../media/learning/sfsf-onboarding-5.png)
 
-8. Fill in the configuration details:
+1. Fill in the configuration details:
 
     ![Screenshot of the final successfactors configuration screen](../media/learning/sfsf-onboarding-config-4.png)
 
-    - **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
+- **Display Name**: Enter the display name you want to appear for the SAP SuccessFactors carousel.
 
-    - **SFTP Host URL**: Navigate to the SAP SuccessFactors portal and select **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
+ - **SFTP Host URL**: Navigate to the SAP SuccessFactors portal and select **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
 
-    - Validate SFTP url, username and password by visiting https://<sftp_url> and logging in using username and password.
+ - Validate SFTP url, username and password by visiting https://<sftp_url> and logging in using username and password.
 
-    - **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
+- **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
 
      :::image type="content" source="../media/learning/sfsf-system-config-highlighted3.png" alt-text="Screenshot of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field." lightbox="../media/learning/sfsf-system-config-highlighted3.png":::
 
     - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
-    - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property.
-
-    - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
+  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "partnerID=MVL" partner configuration.
+    
+  - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
     - **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX sign in URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
 
