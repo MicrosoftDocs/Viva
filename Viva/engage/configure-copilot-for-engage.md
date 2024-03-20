@@ -43,24 +43,24 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 
 ## Manage Copilot and Summarization with feature access policies
 
-While admins can control Copilot and Summarization in the Engage admin center, we recommend feature access policies to manage access to these features. Microsoft 365 access policies are set independently of your Engage settings and can apply to tenants or groups.
+While admins can disable Copilot and Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features. Microsoft 365 access policies are set independently of your Engage settings and can apply to tenants or groups.
 
 - Tenant policies affect all users in the tenant
 - Group/user level policies let you choose individual users and groups to be managed by the policy
 
 These policy settings apply anytime a user signs in, allowing them access only to features that haven't been disabled. Because you can set multiple access policies, a user or group might be impacted by more than one policy. For details, see [Control access to features in Viva](/viva/feature-access-management).
 
-## Configure Copilot and Summarization in the Engage admin center
+## Control Copilot and Summarization in the Engage admin center
 
-Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center. When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.  
+Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center.   
 
 1.	Go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
-1.	On the **Setup and configuration** tab, select **Manage analytics**.
+1.	On the **Setup and configuration** tab, select **Manage AI and analytics**.
     :::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
 
 #### Enable Copilot in Engage
 
-If enabled for a group, user, or tenant, Copilot in Engage is accessible to users from their home feed, storyline, community feed, and campaign pages.
+When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.  
 
 #### Enable Summarization in Engage
 
