@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 3/14/2024
+ms.date: 3/20/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metrics, with a Viva Insights subscription.
 author: zachminers
@@ -55,6 +55,9 @@ At the top left of the adoption and impact page, next to **Scope**, select the d
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
 
 ## Interpreting the data
+
+>[!Note]
+>Data in the dashboard represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
 
 ### Adoption
 
