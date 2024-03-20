@@ -52,7 +52,7 @@ Because you can set multiple access policies, targeting the tenant, groups, and 
 You can create feature access policies for the following enablement states in Engage:
 
 |**Engage feature**|**States**|**Description**|
-|:------------|:--------:|:-------------|
+|:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled, Disabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
 |**AI summarization**|Enabled, Disabled, Enabled with user opt out|Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.|
 | | Enabled| This setting enables background processing for Engage threads within the tenant.|
