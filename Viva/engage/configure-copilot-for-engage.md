@@ -44,33 +44,29 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 
 ## Manage Copilot and Summarization with feature access policies
 
-While admins can disable Copilot and Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features. Microsoft 365 access policies are set independently of your Engage settings and can apply to tenants or groups.
+While admins can disable Copilot and Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features, leaving features in their default enabled state in the Viva Engage admin center.  
 
-- Tenant policies affect all users in the tenant
-- Group/user level policies let you choose individual users and groups to be managed by the policy
+Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. 
+Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
-Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. Because you can set multiple access policies, a user or group might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For details, see [Control access to features in Viva](/viva/feature-access-management).
+You can create feature access policies for the following enablement states in Engage:
 
-## Control Copilot and Summarization in the Engage admin center
+|**Engage feature**|**States**|**Description**|
+|:------------|:--------:|:-------------|
+|**Copilot**|Enabled, Disabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
+|**AI summarization**|Enabled, Disabled, Enabled with user opt out|Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.|
+| | Enabled| This setting enables background processing for Engage threads within the tenant.|
+| |Enabled with user opt out| This setting allows users to turn off background processing from their personal analytics page in Viva Engage.|
+| |Disabled|If you disble Summarization for the entire tenant without any user/group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, admins should accompany this setting change with a tenant policy that enables at least one feature for each group.|
 
-Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center.   
+## Control Copilot and Summarization from the Engage admin center
+
+Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center.
 
 1.	Go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
 1.	On the **Setup and configuration** tab, select **Manage AI and analytics**.
     :::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
-
-#### Enable Copilot in Engage
-
-When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.  
-
-#### Enable Summarization in Engage
-
->[!NOTE]
->Both Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage require  Summarization services to be on to function. Summarization services are used for network theme extraction, summarization, and sentiment analysis.
-
-If Summarization is enabled for a group, user, or tenant, background processing is enabled for Engage threads within the tenant. If Summarization is enabled with user opt out, users can turn off background processing from their personal analytics page in Viva Engage. When Summarization is disabled for the entire tenant without any user/group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, admins should immediately accompany this setting change with a tenant policy that enables at least one feature for each group.|
-
-Depending on the volume of data represented by Engage threads in your tenant, summarization may require anywhere from a few hours to a few days to process content. If Engage threads aren’t processed, some aspects of Copilot won’t function optimally.
+    For a description of enablement states for Copilot and Summarization, see the preceding section.
 
 ## How to access Copilot
 
