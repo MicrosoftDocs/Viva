@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 3/14/2024
+ms.date: 3/20/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metrics, with a Viva Insights subscription.
 author: zachminers
@@ -55,6 +55,9 @@ At the top left of the adoption and impact page, next to **Scope**, select the d
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
 
 ## Interpreting the data
+
+>[!Note]
+>Data in the dashboard represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
 
 ### Adoption
 
@@ -153,7 +156,7 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 
 On any card, select **Explore more** to dive into these metrics.
 
-**Actions before and after Copilot**
+##### Actions before and after Copilot
 
 See how employee behaviors have changed before and after Copilot usage.
 
@@ -366,7 +369,6 @@ Employees can view the dashboard in the Viva Insights Teams or web app.
 **What can enabled users see in the dashboard?**
 The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
 
-
 **How often is the default-on enablement updated?**
 To capture organizational changes, we refresh the default-on enablement on a weekly basis.
 
@@ -381,3 +383,6 @@ To protect individual privacy, you’ll only see insights when there are at leas
 
 **The values I'm seeing are just "--," with a banner that reads, "Not enough activity data to show insights." What's happening?**
 In this scenario, there are fewer than 25 employees with a Viva or Viva Insights license, and there are fewer than 25 employees with a Copilot license.
+
+**Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
+In this scenario, your Entra data is not reliable.

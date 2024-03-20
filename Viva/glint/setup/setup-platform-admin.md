@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/12/2024
+ms.date: 03/19/2024
 ---
 
 # Set up your platform as a Viva Glint admin
@@ -27,6 +27,23 @@ Great teams build great cultures, and great cultures fuel great companies.
 ## Take 10 minutes to learn about all the goodness that Viva Glint offers 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
+
+## Explore more Viva Glint resources
+
+
+- Build skills that open doors.
+  - [Discover Viva Glint's Modern Approach to Measuring Engagement](https://go.microsoft.com/fwlink/?linkid=2239110)
+  - [See all that you can do with documentation, hands-on training, and certifications to help you get the most from Microsoft products.](https://learn.microsoft.com)
+  - Documentation: [See all you can do with resources and solutions.](https://go.microsoft.com/fwlink/?linkid=2230911)
+  - Training: [Browse the full catalog of Learning Paths](/training/browse/?terms=glint)
+- [Explore the Viva Community.](https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva)
+  - [Register for the Viva Community](https://techcommunity.microsoft.com/t5/getting-started/getting-started-on-the-tech-community/ta-p/3512627)
+  - [Sign up for the Viva Glint Customer Private User group](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/gh-p/Viva_Glint_Customer_User_Group).
+  - [Subscribe for updates to the Viva Glint Customer Private User Group blog](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/bg-p/Viva_Glint_Customer_User_Groupblog-board).
+- [Find resources to support your Viva Glint adoption.](https://adoption.microsoft.com/viva/glint/)
+- [Sign up for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411)
+
+## Begin your Viva Glint setup
 
 ### 1. Begin Viva Glint platform setup
 
