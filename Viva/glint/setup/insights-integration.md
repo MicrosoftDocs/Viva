@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/19/2024
+ms.date: 03/20/2024
 ---
 
-# Integrate Viva Insights into Viva Glint
+# Integrate Viva Glint into Viva Insights
 
 >[!IMPORTANT]
 >This integration is available on April 6, 2024.
