@@ -39,7 +39,7 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 
 | **Data process** | **How it works** |
 |---|---|
-|Message processing and storage for summarization| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
+|**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
 |**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Manage Copilot and Summarization with feature access policies
@@ -49,15 +49,19 @@ While admins can disable Copilot and Summarization in the Engage admin center, w
 Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. 
 Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
-You can create feature access policies for the following enablement states in Engage:
+### Copilot and AI Summarization states
 
-|**Engage feature**|**States**|**Description**|
+You can create feature access policies using the following enablement states.
+
+>[!IMPORTANT]
+>Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.
+
+|**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled, Disabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
-|**AI summarization**|Enabled, Disabled, Enabled with user opt out|Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.|
-| | Enabled| This setting enables background processing for Engage threads within the tenant.|
-| |Enabled with user opt out| This setting allows users to turn off background processing from their personal analytics page in Viva Engage.|
-| |Disabled|If you disble Summarization for the entire tenant without any user/group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, admins should accompany this setting change with a tenant policy that enables at least one feature for each group.|
+|**AI summarization** | Enabled| This state enables background processing for Engage threads within the tenant.|
+| |Enabled with user opt out| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
+| |Disabled|If Summarization is disabled for the entire tenant without any accompanying any user or group policies, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a tenant policy that enables at least one feature for each group.|
 
 ## Control Copilot and Summarization from the Engage admin center
 
