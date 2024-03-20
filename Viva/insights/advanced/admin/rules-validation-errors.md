@@ -118,5 +118,4 @@ Column headers|All field header or column names need to be unique.|Two or more c
 |||Missing ManagerId value for new PersonId field. ManagerId is a required field. Add the corresponding ManagerId field and upload again.|All
 ||Each PersonId needs to have a unique ManagerId.|   |All
 ||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.|   |All
-|||   |All
-|||    |All
+||| 
