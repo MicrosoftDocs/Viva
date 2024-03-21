@@ -29,7 +29,9 @@ A large language model is a type of AI that can process and produce natural lang
 
 ## Licensing requirements
 
-Beginning in late April 2024, Copilot in Engage will be available and enabled for all premium users as part of their _Microsoft Viva Suite_ or _Viva Employee Communications and Communities_ licenses. AI-powered Summarization will be enabled at the same time for all users in the premium licensed tenant. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
+At the end of April 2024, Copilot in Viva Engage will be enabled for all users assigned a premium Viva Engage license (purchased as part of Microsoft Viva Suite or Microsoft Viva Employee Communications and Communities). For more details on Microsoft Viva plans and pricing, visit: [Employee Experience Platform Plans and Pricing | Microsoft Viva](/microsoft-viva/pricing). AI-powered Summarization will also be enabled at the same time for all users in the premium licensed tenant. AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis. 
+
+Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
 [Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-setup) is available separately.
 
@@ -44,7 +46,9 @@ Beginning in late April 2024, Copilot in Engage will be available and enabled fo
 
 ## Manage Copilot and AI Summarization with feature access policies
 
-While admins can currently disable Copilot and AI Summarization in the Engage admin center, we recommend that you use feature access policies to manage access to these features, leaving features in their default enabled state in the Viva Engage admin center.  
+Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva Feature Access Management platform to control the availability of these premium features for the entire tenant and for select users/groups they deem appropriate.  
+
+Copilot and AI Summarization are controlled separately. Both provide admins with the ability to turn the features on and off. Additionally, only for Summarization, admins can create granular access policies that support a third state–-on with user opt out.
 
 Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. 
 Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
@@ -54,7 +58,7 @@ Because you can set multiple access policies, targeting the tenant, groups, and 
 You can create feature access policies using the following enablement states.
 
 >[!IMPORTANT]
->Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.
+>AI Summarization services must be enabled for Copilot and [Network analytics](/viva/engage/analytics#network-analytics) in Engage to function. Summarization services are used for network theme extraction, conversation summarization, and network sentiment analysis.
 
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
