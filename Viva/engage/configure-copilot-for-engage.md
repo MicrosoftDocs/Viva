@@ -88,7 +88,7 @@ To avoid deletion of Summarization data for all users within the tenant, admins 
 
 ## How to access Copilot
 
-Users can access Copilot anywhere they write posts. On the Engage Home page, Copilot generates proactive suggestions about what they might like to write about and where they might benefit from engaging.
+Users can access Copilot anywhere they write posts. On the Engage Home page, Copilot also generates proactive suggestions about what they might like to write about and where they might benefit from engaging.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
 
@@ -105,7 +105,9 @@ The Conversation Starters bring together information from across Viva Engage to 
 - Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
 
 - Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
-Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+
+>[!NOTE]
+>Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ### Copilot as communication partner
 
