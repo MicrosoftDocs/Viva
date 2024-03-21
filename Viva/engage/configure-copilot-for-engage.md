@@ -46,7 +46,7 @@ Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature
 
 ## Manage Copilot and AI Summarization with feature access policies
 
-Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva feature access management platform to control availability of these premium features for the entire tenant and select users or groups they deem appropriate.  
+Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva feature access management platform to control availability of these premium features for the entire tenant and users or groups they deem appropriate.  
 
 Copilot and AI Summarization are controlled separately and can be turned on or off. Additionally, for AI Summarization, admins can create granular access policies that support a third state–-on with user opt out.
 
@@ -72,9 +72,9 @@ You can create feature access policies using the following enablement states.
 
 If an admin needs to  disable Copilot only for users in Germany, they can accomplish that in feature access management using the following steps:
 
-1. Create a group access policy in feature access management using PowerShell cmdlets
+1. Create a group access policy in feature access management using PowerShell cmdlets.
 1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
-1. Set the group policy to OFF (disabled)
+1. Set the group policy to OFF (disabled).
 
 As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
 
