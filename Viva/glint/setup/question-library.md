@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/18/2024
+ms.date: 03/21/2024
 ---
 
 # Use the Viva Glint Question Library
@@ -48,7 +48,7 @@ Viva Glint has done extensive research to identify the most reliable and valid i
    > [!TIP]
    > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid bencharmk for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
-Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](question-mapping.md).
+Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](/../../glint/setup/question-mapping).
 
 ## Edit items from the Question Library 
 
@@ -99,7 +99,7 @@ Any item can be edited by hovering over and selecting the row that the item appe
 
 ## View associated programs 
 
-Use this tab to see if this item is associated with any existing program. To add it to a program, use the [Questions page in Program Summary](https://www.microsoft.com). 
+Use this tab to see if this item is associated with any existing program. To add it to a program, use the [Questions page in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231415). 
 
 ## Add new items to the Question Library 
 
@@ -168,4 +168,6 @@ Back on the **Question Library** page, select **Import Questions** from the drop
 
 1. Drag and drop or browse to find the translated file and place it in the box. 
 1. Select **Next**. 
-1. If everything looks as expected, select **Make Changes**. 
+1. If everything looks as expected, select **Make Changes**.
+
+### [Change survey item IDS for expired survey cycles](/../../glint/setup/change-item-id)
