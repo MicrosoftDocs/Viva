@@ -57,7 +57,7 @@ The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback
  
 :::image type="content" source="../../media/glint/setup/save-data-sharing.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
 
->[!NOTE!]
+>[!NOTE]
 >Global admins cannot include Works Council employee data in the Viva Insights integration.
 
 Now the Viva Insights admin contacts the Viva Glint admin.
