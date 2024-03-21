@@ -29,7 +29,7 @@ The Comments report, for those with comments permission, is accessed from the Vi
 
 ## Choose which comment sections are shown on your dashboard
 
-The Comments report is divided into sections. The *Overview* section displays by default.
+The Comments report is divided into sections. *Overview* displays by default.
 
 :::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 
