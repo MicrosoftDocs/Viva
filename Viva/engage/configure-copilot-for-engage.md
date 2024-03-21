@@ -84,7 +84,7 @@ As a result, all remaining users in the organizations (except Germany) can now u
 
 - Creating a disabled (OFF) tenant policy for Summarization will delete all history data within the tenant.
 
-    To avoid deletion of Summarization data for all users within the tenant, admins should ensure that the feature disable (OFF) tenant policy is immediately accompanied with at least 1 feature enable (ON) group policy.
+        To avoid deletion of Summarization data for all users within the tenant, admins should ensure that the feature disable (OFF) tenant policy is immediately accompanied with at least 1 feature enable (ON) group policy.
 
 ## How to access Copilot
 
@@ -106,8 +106,8 @@ The Conversation Starters bring together information from across Viva Engage to 
 
 - Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
 
->[!NOTE]
->Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+    >[!NOTE]
+    >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ### Copilot as communication partner
 
