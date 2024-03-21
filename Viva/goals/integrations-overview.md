@@ -1,5 +1,5 @@
 ---
-ms.date: 02/18/2024
+ms.date: 03/21/2024
 title: Viva Goals integrations overview
 ms.reviewer: 
 ms.author: rasanders
@@ -33,7 +33,7 @@ To activate a specific integration:
 
 1. Find the integration you want to add.
 
-1. If you haven't enabled the integration already, it will show an icon that says either **Add to \<INTEGRATION>** (for example, **Add to Teams** or **Add to Slack**) or **Get started**. Select this icon. <!--Editor's Note: Learn whether there is a difference between Add to and Get started.-->
+1. If you haven't enabled the integration already, it will show an icon that says either **Add to \<INTEGRATION>** (for example, **Add to Teams** or **Add to Slack**) or **Get started**. Select this icon.
 
 1. Follow the setup process.
 
@@ -48,7 +48,7 @@ The Integrations page offers two ways to view your available integrations:
 
 - The detail-driven **Grid** view is similar to the list view but provides a link to each integration's help article.
 
-You'll see the grid view by default. <!--Editor's Note: Is this true?--> To toggle between the two views, use the icons in the upper-right corner of the Integrations page.
+You'll see the grid view by default. To toggle between the two views, use the icons in the upper-right corner of the Integrations page.
 
 ## Create a connection
 
@@ -60,7 +60,17 @@ To create a connection for an existing integration:
 
 1. Select **New Connection** and follow the setup process.
 
-Only admins can edit connections.
+Only admins can edit connections from the Admin dashboard.
+
+If any user without admin privileges wishes to edit an existing connection, they can simply select the **Edit** icon for that connection. If such a user wishes to create a new connection, they can:
+
+1. Navigate to **Account Settings** > **Preferences** from the bottom left corner of the app.
+
+1. Go to the **My Integrations** tab.
+
+1. Select **Manage** next to the relevant integration.
+
+1. Select **New Connection** and follow the setup process.
 
 ## Make a connection public or private
 
@@ -78,10 +88,10 @@ To make a connection public (that is, usable by everyone in the organization) or
 
 ## Have Viva Goals check an integration for updated data
 
-Viva Goals checks integrations for new data about once per hour. You can also trigger a sync manually.
+Viva Goals checks integrations for new data once per hour. You can also trigger a sync manually.
 
 > [!NOTE]
-> Before you trigger a sync manually, make sure the OKR or initiative is already integrated with one of the integration tools.
+> You will see the option to trigger a manual sync only for OKRs or initiatives that are already integrated with one of the integration tools.
 
 To trigger a sync manually:
 
