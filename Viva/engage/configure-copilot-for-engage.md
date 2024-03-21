@@ -46,11 +46,11 @@ Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature
 
 ## Manage Copilot and AI Summarization with feature access policies
 
-Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva Feature Access Management platform to control the availability of these premium features for the entire tenant and for select users/groups they deem appropriate.  
+Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva feature access management platform to control availability of these premium features for the entire tenant and select users or groups they deem appropriate.  
 
-Copilot and AI Summarization are controlled separately. Both provide admins with the ability to turn the features on and off. Additionally, only for Summarization, admins can create granular access policies that support a third state–-on with user opt out.
+Copilot and AI Summarization are controlled separately and can be turned on or off. Additionally, for AI Summarization, admins can create granular access policies that support a third state–-on with user opt out.
 
-Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled. 
+Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled.
 Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
 ### Copilot and AI Summarization states
@@ -68,7 +68,7 @@ You can create feature access policies using the following enablement states.
 | |Enabled with user opt out| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
 | |Disabled|If you disable AI Summarization for the entire tenant and have no user or group access policy in place that enables the feature, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
 
-### Feature access policy example
+#### Example
 
 If an admin needs to  disable Copilot only for users in Germany, they can accomplish that in feature access management using the following steps:
 
@@ -78,7 +78,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 
 As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
 
-**Important considerations when using feature access management**
+#### Important considerations for feature access management
 
 - There can only be a maximum of 1 tenant policy per Viva Engage feature. In other words, there can only be 1 tenant policy for Copilot and only one tenant policy for Summarization.
 
