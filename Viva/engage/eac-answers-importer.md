@@ -26,7 +26,7 @@ Community admins can generate question-and-answer pairs by uploading information
 
 ## Maintain data compliance
 
-Generated question-and-answer pairs follow the same rules of visibility as other content in that community. Your imported source files are stored on Microsoft SharePoint with other files in that community and are viewable by all members of that community.
+Generated question-and-answer pairs follow the same rules of visibility as other content in that community. Your uploaded source files are stored on Microsoft SharePoint with other files in that community and are viewable by all members of that community.
 
 The imported files are stored with other files from that community [on Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage).
 
