@@ -48,7 +48,7 @@ Viva Glint has done extensive research to identify the most reliable and valid i
    > [!TIP]
    > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid bencharmk for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
-Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](../../viva/glint/setup/question-mapping).
+Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](/../../viva/glint/setup/question-mapping).
 
 ## Edit items from the Question Library 
 
@@ -75,16 +75,16 @@ Any item can be edited by hovering over and selecting the row that the item appe
 
 #### Examples of edits that retain a valid benchmark comparison
 
-|Example #|Standard|Modified|Recommendation|
+|Example|Standard|Modified|Recommendation|
 |-------|--------|-------|-------|
 |**1 - Matching the language of the business**| I would recommend my *manager* to others.|I would recommend my *supervisor* to others.| Modifying a term in the item to make it more specific to your organizational language is acceptable and doesn't affect the benchmark. Edit the standard item without creating a copy to retain the benchmark.| 
 |**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.| 
 
 #### Examples of edits that don't retain a valid benchmark comparison
 
-|Example #|Standard|Modified|Recommendation|
+|Example|Standard|Modified|Recommendation|
 |-------|--------|-------|-------|
-|**1 - Altering the subject**| *I feel empowered* to make decisions regarding my work.|*My manager empowers me* to make decisions regarding my work.|  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|
+|**1 - Altering the subject**|*I feel empowered* to make decisions regarding my work.|*My manager empowers me* to make decisions regarding my work.|  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|
 |**2 - Altering the subject**|My manager *provides me with feedback that helps me improve my performance*.|My manager and *I have regular conversations*.| When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|  
 
 ## View associated programs 
@@ -151,4 +151,4 @@ Back on the **Question Library** page, select **Import Questions** from the drop
 1. Select **Next**. 
 1. If everything looks as expected, select **Make Changes**.
 
-### [Change survey item IDS for expired survey cycles](../../viva/glint/setup/change-item-id)
+### [Change survey item IDS for expired survey cycles](/../../viva/glint/setup/change-item-id)
