@@ -16,7 +16,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 11/07/2023
+ms.date: 03/21/2024
 ---
 
 # How Viva Glint helps you protect your privacy
@@ -60,23 +60,19 @@ Even for confidential surveys, your organization's customer admin might be able 
 ## Confidential surveys which do not support raw survey responses export
 If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement will be applied to surveys. 
 
-**Example:** 
-
-Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922) describe other ways your data might be accessed and your organization's Privacy Policy also has more information.
+> Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. Microsoft Viva Glint Reporting and Confidentiality Rules describe other ways your data might be accessed and your organization's Privacy Policy also has more information.
 
 ## Confidential surveys which do support raw survey responses export
 
 If your organization has approved making raw survey responses available for a particular survey, survey takers will be informed in this statement:
 
-> Your responses are confidential and reported to [organization name@email address]in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identificable survey responses. See **Microsoft Viva Glint Reporting and Confidentiality Rules** *, which describes other ways your data may be accessed and your organization's privacy policy for more information.
->
-> * *Survey takers are sent to this Microsoft Learn page to understand how Viva Glint helps protect their privacy.*
+> Your responses are confidential and reported to [Contoso] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identificable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922), which describes other ways your data may be accessed and your organization's privacy policy for more information.
 
 ## Identifiable surveys
 
 If your organization opts to create an identifiable survey, this statement will be applied.
 
-Note that this is an identifiable survey, which means Contoso will be able to see that your survey responses came from you. See your organization's Privacy Policy for more information. Learn how Viva Glint handles survey responses in [Microsoft Viva Glint Reporting and Confidentiality Rules[(https://go.microsoft.com/fwlink/?linkid=2230922).
+> Note that this is an identifiable survey, which means Contoso will be able to see that your survey responses came from you. See your organization's Privacy Policy for more information. Learn how Viva Glint handles survey responses in [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922).
 
 > [!NOTE]
 > The Confidentiality and Comments Threshold set for the survey program will automatically become the default statement for your programs.
