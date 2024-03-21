@@ -215,7 +215,7 @@ When a Microsoft 365 license is removed from a tenant or when consent is removed
 Organizational data is stored as long as the end user is active and has a valid license and no deletion request has been made by the end user or the global admin.
 
 ### Data residency
-When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are coped to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide&preserve-view=true) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true). 
+When you upload organizational data, your .csv file is stored in your SharePoint Online site, and each end user's organizational data attributes are copied to their Microsoft 365 User Profile and stored in the user's Exchange Online mailbox. For data residency information for SharePoint Online and Exchange Online, see [Data Residency for SharePoint Online](/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide&preserve-view=true) and [Data Residency for Exchange Online](/microsoft-365/enterprise/m365-dr-workload-exo?view=o365-worldwide&preserve-view=true). 
 
 ### Manage data subject requests
 A *Data Subject Request* or DSR is a formal request by a data subject (an end user) to a controller to take an action on their personal data. To understand what data subject rights end users have, see [Office 365 Data Subject Requests Under the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-office365). 
