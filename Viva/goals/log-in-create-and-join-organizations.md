@@ -33,7 +33,7 @@ If your organization has purchased or subscribed to Viva Goals, anyone in the or
 
 1. What happens next will depend on your scenario:
 
-    * If there aren't any existing organizations for you in Viva Goals, you'll be directed to the **No organizations** page and prompted to [create an organization](create-or-join-an-organization.md).
+    * If there aren't any existing organizations for you in Viva Goals, you'll be directed to the **No organizations** page and prompted to [create an organization](#create-your-first-organization).
 
     * If you're a first-time user invited to join your organization via an invite link, you'll be taken directly to your organization's Viva Goals account.
 
