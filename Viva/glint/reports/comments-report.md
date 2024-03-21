@@ -27,20 +27,20 @@ Reviewing comments allows managers to gain further insights into their results. 
 
 The Comments report, for those with comments permission, is accessed from the Viva Glint dashboard > **Reports** > **Comments**.
 
-## Choose which comment sections to view on your dashboard
+## Choose which comment sections are shown on your dashboard
 
-The Comments report is divided into sections; the Overview section displays on the screen by default.
+The Comments report is divided into sections. The *Overview* section displays by default.
 
 :::image type="content" source="../../media/glint/reports/comments-overview.png" alt-text="Screenshot of Comments Overview default sections."
 
-- **Comments** - Total number of comments, defined by number of commenters and percentage of respondents.
-- **Continent Sentiment** - A bar graph indicating overall positive, negative, and neutral sentiments.
-- **Topics** - Topics mentioned most often appear here, including the number of mentions.
+- **Comments** - Total number of comments, defined by number of commenters and percentage of respondents
+- **Continent Sentiment** - A bar graph indicating overall positive, negative, and neutral sentiments
+- **Topics** - Topics mentioned most often, including the number of mentions
 
 ## Add additional sections to your comments report
 There are two ways to add additional sections:
 - Select the **+ Add section** button, or
-- Use the **More** dropdown menu and then choose **+ Add Section**
+- Use the **More** dropdown menu and choose **+ Add Section**
 
 Select sections by scrolling through the tabs in the slider window. Add or delete sections at any time. 
 - Select the **+ button** to add the section.
@@ -54,7 +54,7 @@ This section can be viewed in grid or table view and includes:
 
 ## Keywords section
 This section can also be viewed in keyword or table view. Keywords are words and phrases that occur most frequently across comments. 
-- The color of each keyword indicates the aggregated sentiment or favorability of related comments.
+- The color of each keyword indicates the aggregated sentiment or favorability of related comments:
 	- Blue = positive
 	- Grey = neutral
 	- Red = negative
@@ -63,15 +63,18 @@ This section can also be viewed in keyword or table view. Keywords are words and
 - Select a keyword to view all related comments.
 
 ## Topics section (or Topics cloud)
-Topics are a high-level summary of comments that generate deeper insight. This section may be viewed as a forced, directed view (cloud view) or a table view. Use this key:
-- The color of a topic bubble indicates the aggregated sentiment or favorability of related comments.
-	- Blue = positive
-	- Grey = neutral
-	- Red = negative
-- The gray lines connecting bubbles indicate related topics. The thicker the line, the stronger the relationship.
+Topics are a high-level summary of comments, which generate deeper insight. This section may be viewed as a forced, directed view (cloud view), or a table view. 
+
+The color of a topic bubble indicates the aggregated sentiment or favorability of related comments.
+- Blue = positive
+- Grey = neutral
+- Red = negative
+  
+- Gray lines, connecting bubbles, indicate related topics. The thicker the line, the stronger the relationship.
 - The *size* of a topic bubble reflects the volume of related comments.
-- Hover over a topic bubble for more information about sentiment or favorability.
-- Select the topic bubble to reveal a slider window with all related comments. 
+  
+Hover over a topic bubble for more information about sentiment or favorability.
+Select the topic bubble to reveal a slider window with all related comments. 
 
 ## Comments section
 In this section, you can view all comments or see them by category. The total number of comments shows in the box at the top and comments by category, underneath.
