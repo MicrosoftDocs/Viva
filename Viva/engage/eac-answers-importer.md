@@ -24,12 +24,12 @@ search.appverid:
 
 Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
 
+>[!NOTE]
+>Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
+
 ## Maintain data compliance
 
 Generated question-and-answer pairs follow the same rules of visibility as other content in that community. Your uploaded source files are stored on [Microsoft SharePoint](/viva/engage/get-started-with-viva-engage/file-storage) with other files in that community and are viewable by all members of that community.
-
->[!NOTE]
->Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
 
 ## Enable the Answers Intelligent Importer
 
