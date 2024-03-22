@@ -32,13 +32,13 @@ Customize Microsoft Viva Glint email content for survey invites, reminders, and 
 
 In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can configure a custom sending domain for your organization and customize your organization's theme to include your logo in survey communications:
 
-- [Set up a custom sending domain](microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize the Microsoft 365 theme for your organization](microsoft-365/admin/setup/customize-your-organization-theme)
+- [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
+- [Customize the Microsoft 365 theme for your organization](/microsoft-365/admin/setup/customize-your-organization-theme)
 
 Both items are optional steps that your organization can take to further customize the survey communication experience for your survey participants.
 
 > [!NOTE]
-> Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
+> Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
 
 ## Email sections
 
