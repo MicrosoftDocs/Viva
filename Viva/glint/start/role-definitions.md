@@ -1,6 +1,6 @@
 ---
 title: Key roles for Viva Glint
-description: Assigning roles for Viva Glint leadership is among the first tasks for the M365 Global Admin. Using consistent terminology for all roles helps support your Viva Glint programs.
+description: Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 Global Admin. Using consistent terminology for all roles helps support your Viva Glint programs.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -20,7 +20,7 @@ ms.date: 03/19/2024
 
 # Key roles for Viva Glint
 
-Assigning roles for Viva Glint leadership is among the first tasks for the M365 global admin. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
+Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 global admin. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
 
 ## Microsoft M365 global admin
 
@@ -33,8 +33,8 @@ Assigning roles for Viva Glint leadership is among the first tasks for the M365 
 - Assigned by the M365 global admin to have responsibility for leadership tasks within the Viva Glint platform
 - Sets up programs and surveys, distribution lists, and reporting features
 - Supports managers in all aspects of action taking
-- Best practice is to not have more than five Viva Glint admins
-- Trainings are available in Viva Glint Learn
+- Best practice is to assign no more than five Viva Glint admins
+- Training modules are available in Viva Glint Learn
 
 ## Viva Glint manager
 
