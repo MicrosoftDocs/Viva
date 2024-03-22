@@ -7,7 +7,9 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
+ms.collection: 
+- m365initiative-viva-insights
+- essentials-manage
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 

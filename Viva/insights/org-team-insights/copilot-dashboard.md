@@ -5,7 +5,9 @@ description: Explains how to set up and use the Microsoft Copilot Dashboard, inc
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection: 
+- viva-insights-personal
+- essentials-manage
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
