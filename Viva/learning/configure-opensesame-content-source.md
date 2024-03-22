@@ -25,7 +25,7 @@ This article shows you how to configure OpenSesame as a third-party learning con
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. OpenSesame content and any associated services are subject to OpenSesame's privacy and service terms.
 
-With more than 25,000 curated courses from over 150 publishers, OpenSesame helps companies develop productive and admired workforces. [Learn more about OpenSesame.](https://www.opensesame.com/site/lms-integrations-viva/)
+With more than 25,000 curated courses from over 150 publishers, OpenSesame helps companies develop productive and admired workforces. [Learn more about OpenSesame.](https://www.opensesame.com/site/lms-integration/microsoft-viva-lms/)
 
 ## Configure in your OpenSesame portal
 
@@ -37,7 +37,7 @@ With more than 25,000 curated courses from over 150 publishers, OpenSesame helps
 
 You need to reach out to your OpenSesame Customer Success Manager or Implementation Specialist to enable integration with Viva Learning. They'll also provide your OpenSesame Customer Integration ID, which you'll need for the next step. You can view the full details in OpenSesame’s [PDF walkthrough guide](https://resources.opensesame.com/implementations/Viva-Learning-OpenSesame-integration-walkthrough.pdf).
 
-You can [contact OpenSesame Support](mailto:support@opensesame.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can explore OpenSesame further [here](https://www.opensesame.com/site/lms-integrations-viva/).
+You can [contact OpenSesame Support](mailto:support@opensesame.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can explore OpenSesame further [here](https://www.opensesame.com/site/lms-integration/microsoft-viva-lms/).
 
 ## Configure in the Viva Learning Admin
 

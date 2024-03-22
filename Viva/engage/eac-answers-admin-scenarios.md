@@ -23,6 +23,7 @@ search.appverid:
 # Administrator scenarios for Answers in Viva Engage
 
 Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the Answers admin. To designate an Answers admin, [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
+
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
 - [Creating a role-assignable group in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible)  
 
@@ -106,7 +107,6 @@ You have options to feature or ignore the topic, which removes it from the **Rev
 
 :::image type="content" alt-text="Screenshot of the interface for reviewing a topic in Answers in Viva." source="/viva/media/engage/admin/feature-reviewed-topic.png" lightbox="/viva/media/engage/admin/feature-reviewed-topic.png":::
 
-
 **Remove topics in Answers**
 
 To remove a topic in Answers, Answers admins (knowledge managers) follow these steps:  
@@ -163,8 +163,6 @@ The following metrics are available for Global Answers analytics:
 ## See also
 
 [Answers in Viva: Frequently asked questions (FAQ)](/Viva/engage/eac-answers-faq)
-
-[Rewards and recognition in Viva Engage](/Viva/engage/badges)
 
 [Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
