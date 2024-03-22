@@ -198,6 +198,9 @@ items:
                href: setup/live-versus-phased-access.md
           - name: Communications setup 
             href: setup/program-summary-communications.md
+            items:
+             - name: Edit Viva Glint survey email content
+               href: setup/email-content-customization.md            
           - name: Coaching setup 
             href: setup/program-summary-coaching.md
             items:
