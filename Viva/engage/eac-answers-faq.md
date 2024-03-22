@@ -54,12 +54,10 @@ Yes, Answers works with or without Viva Topics for users with the Viva Engage Kn
 
 Check that your Viva Engage network meets the [technical requirements](/viva/engage/eac-answers-overview-setup), and your users have the correct license to access Answers. Your Viva Engage network must be in Native mode and have legacy Viva Engage topics migrated to Topics.
 
-### See also
+## See also
 
 [Overview and setup of Answers in Viva](/Viva/engage/eac-answers-overview-setup)
 
 [Answers admin scenarios in Viva](/Viva/engage/eac-answers-admin-scenarios)
 
 [Announcing Answers in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/announcing-answers-in-microsoft-viva/ba-p/3634288)
-
-[Rewards and recognition in Viva Engage](/Viva/engage/badges)
