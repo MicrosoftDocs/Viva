@@ -29,7 +29,7 @@ The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
 All field header or column names need to: 
 
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! _ @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported.
+* Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Other characters aren’t supported.
 * Contain a value.
 * Have no leading, middle, or trailing blank spaces, or special non-alphanumeric characters such as @, #, %, or &.
 * Be unique.
@@ -74,19 +74,16 @@ There can't be loops where:
 
 * Managers and employees report to each other.
 * Managers report back to employees.
-* People report to themselves.
 
 Let’s say Dylan is Kris’s manager. The organizational data couldn’t show:
 
 * Kris reporting to Dylan and also Dylan reporting back to Kris.
 * Dylan reporting to Kris.
-* Kris reporting to Kris.
+
 
 Both of the following hierarchies would produce errors in end-user experiences:
 
 :::image type="content" source="../images/admin-mgr-loops-1-a.png" alt-text="Screenshot that shows a manager hierarchy loop between three people.":::
-
-:::image type="content" source="../images/admin-mgr-loops-2-a.png" alt-text="Screenshot that shows a manager hierarchy loop where one employee reports to themselves.":::
 
 
 ### Example .csv export file
@@ -120,6 +117,4 @@ Column headers|All field header or column names need to be unique.|Two or more c
 ||Required fields need to have a value for every row.|Missing {header name} column or {header name} value. {Header name} is a required field and needs a value for every row. Add {header name} value and upload the file again.|All
 |||Missing ManagerId value for new PersonId field. ManagerId is a required field. Add the corresponding ManagerId field and upload again.|All
 ||Each PersonId needs to have a unique ManagerId.|   |All
-||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.<li>People report to themselves.|   |All
-|||   |All
-|||    |All
+||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.|   |All

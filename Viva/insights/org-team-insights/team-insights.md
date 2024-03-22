@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-manager
 - viva-insights-leader
+- essentials-manage
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
