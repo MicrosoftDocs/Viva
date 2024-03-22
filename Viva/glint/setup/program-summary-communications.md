@@ -55,15 +55,6 @@ Select **Survey Start** to activate the *Survey Invitation* slider window.
 
 Check **Send notification** to ensure that the send date is as expected.
 
-Select the **pencil symbol** to edit the invite template and then the **eyeball symbol** to preview your changes. Follow on-screen guidance to make edits.
-
-The language dropdown menu provides options that are preset for this program.
-
-Note the following information:
-- Edits made to the survey invitation are for this program only.
-- Switching from **edit** to **preview** - and also when switching languages - automatically saves changes.
-- Use only plain text if customizing this invite template. URLs, HTML, and other markdown may lead to errors and subsequent mail blocking.
-
 ### Disabling the survey invitation
 
 If you want to include items in your survey invitation that cannot be supported on our platform (URLs, HTML, images, videos, etc.), toggle the **Send Notification** to **Off**. Be sure to send your own in-house survey invitation, including those items that Viva Glint can't support. 
@@ -90,6 +81,13 @@ Use the **Pencil symbol** to open the slider window and then:
 The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle - so you'll know you've added them.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
+
+### Customize email content
+
+Use this email [customization guidance](email-content-customization.md) to add custom text to your Viva Glint survey emails.
+
+> [!NOTE]
+> Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
 
 ## Notifications when survey results are available
 
