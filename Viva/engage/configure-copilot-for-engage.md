@@ -29,7 +29,7 @@ A large language model is a type of AI that can process and produce natural lang
 
 ## Licensing requirements
 
-At the end of April 2024, Copilot in Viva Engage will be enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing). AI-powered Summarization will also be enabled at the same time for all users in the premium licensed tenant. AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis.
+In late April 2024, Copilot in Viva Engage will be enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing). AI-powered Summarization will also be enabled at the same time for all users in the premium licensed tenant. AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis.
 
 Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
