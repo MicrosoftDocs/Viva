@@ -22,10 +22,10 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage [Pub
 # Set up Copilot in Viva Engage (Public Preview) 
 
 >[!IMPORTANT]
->Copilot in Viva Engage is currently available through public preview. The features described here are subject to change.
+>Copilot in Viva Engage is currently available through public preview, and will be generally available on April 29th. The features described here are subject to change.
 
-Copilot in Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage.
-A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
+Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage.
+A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
 ## Licensing requirements
 
@@ -66,7 +66,7 @@ You can create feature access policies using the following enablement states.
 | | Disabled| Copilot is not available anywhere in Viva Engage|
 |**AI Summarization** | Enabled| This state enables background processing for Engage threads within the tenant.|
 | |Enabled with user opt out| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
-| |Disabled|If you disable AI Summarization for the entire tenant and have no user or group access policy in place that enables the feature, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
+| |Disabled|When you disable AI Summarization, the users' Engage threads won't be processed. If you disable AI Summarization for the entire tenant and have no user or group access policy in place that enables the feature, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
 
 #### Example
 
