@@ -92,7 +92,7 @@ Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefe
 
    Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
 
-3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see what features are available to manage using an access policy.  
+3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see the features that you can manage by using an access policy.  
 
    For example, to see which features are supported in Viva Insights, run the following cmdlet:
 
