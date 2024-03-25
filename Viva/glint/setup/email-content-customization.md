@@ -64,7 +64,7 @@ edits.
 
 ### Email macros
 
-Macros in Viva Glint emails allow your organziation to add placeholders that pull in information from your
+Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your
 employee data and from Viva Glint. Include Departments, Manager Names, or estimated minutes to complete a
 survey in email text to further customize for survey participants. To add a macro, select the plus sign icon
 email sections where it exists and choose a macro from the dropdown menu.
