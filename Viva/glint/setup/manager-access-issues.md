@@ -24,8 +24,8 @@ Microsoft Viva Glint survey programs allow your organization to collect data and
 ## Access Viva Glint
 To access your Viva Glint dashboard, use one of the following links to log in based on the region that your organization sits in.
  
-	•	US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
-	•	EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
+- US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
+- EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
 ## Phased and Live survey access
 During a live Viva Glint survey, your Glint admin team often gives managers access to past survey results only. Live survey results access is usually restricted to admins and HR only. [Learn more](live-versus-phased-access.md).
