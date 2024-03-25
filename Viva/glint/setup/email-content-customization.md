@@ -1,5 +1,5 @@
 ---
-title: Edit Viva Glint survey email content
+title: Customize Viva Glint survey email content
 description: Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications in the Communications section of Program Setup.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 03/22/2024
 ---
 
-# Edit Viva Glint survey email content
+# Customize Viva Glint survey email content
 
 Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for survey emails. To understand how to enable/disable emails and general Communications setup: Communications setup in [Program Summary](program-summary-communications.md)
 
@@ -28,17 +28,18 @@ Customize Microsoft Viva Glint email content for survey invites, reminders, and 
 > [!IMPORTANT]
 > Always-On survey programs don't include emails or a Communications section.
 
-## Custom sending domains and themes/logos
+## Custom sending domains and themes/logos (optional)
 
-In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can configure a custom sending domain for your organization and customize your organization's theme to include your logo in survey communications:
+In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can optionally configure a custom sending domain for your organization and customize your organization's theme to include your logo in survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
 - [Customize the Microsoft 365 theme for your organization](/microsoft-365/admin/setup/customize-your-organization-theme)
 
-Both items are optional steps that your organization can take to further customize the survey communication experience for your survey participants.
+Both items are **optional steps** that your organization can take to further customize the survey communication experience for your survey participants.
 
 > [!NOTE]
-> Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
+> - Custom sending domains configured in MAC can impact other M365 products. See [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products) for a full list.
+> - Viva Glint teams have access to limited email delivery metrics. Using a custom sender domain gives your organization direct access to your email delivery data.
 
 ## Email sections
 
