@@ -38,7 +38,7 @@ If you’re presented with a message stating that you don’t have access, your 
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-access.png" alt-text="Screenshot of access error in Viva Glint.":::
 
-## No User Role assigned
+## No user role assigned
 If you see a **Welcome to Viva Glint** message but don’t have access to any results, you aren't in a User Role to access reports in Viva Glint. Reach out to your Glint admin to confirm and have your User Role membership updated if needed.
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-role.png" alt-text="Screenshot of a Viva Glint dashboard for a user with no role assigned.":::
