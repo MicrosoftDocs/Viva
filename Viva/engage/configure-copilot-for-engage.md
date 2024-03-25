@@ -1,5 +1,5 @@
 ---
-title: "Set up Copilot in Viva Engage [Public Preview] "
+title: "Set up Copilot in Viva Engage "
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -16,10 +16,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Copilot in Viva Engage [Public Preview] into your organization"
+description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization"
 ---
 
-# Set up Copilot in Viva Engage (Public Preview) 
+# Set up Copilot in Viva Engage 
 
 >[!IMPORTANT]
 >Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. The features described here are subject to change.
