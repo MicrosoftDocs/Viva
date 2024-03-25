@@ -16,7 +16,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/06/2024
+ms.date: 03/21/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -51,12 +51,20 @@ Choose either the US or EU URL for Azure login to begin:
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
+On the sign-in page that appears, enter your User Principal Name (UPN) and password:
+
+:::image type="content" source="../../media/glint/start/glint-provision-signin.png" alt-text="Screenshot of Viva Glint provisioning sign-in page.":::
+
 >[!TIP]
 > If you are unsure which URL to choose, begin with the US URL.
 
 ## Complete the Welcome to Viva Glint page
 
-After logging into your preferred URL, the Welcome to Viva Glint page displays. Check the box for notification to be sent if you would like to receive email notification once your tenant provisioning is complete. Select **Continue** to begin tenant provisioning.
+After logging into your preferred URL, the Welcome to Viva Glint page displays: 
+
+:::image type="content" source="../../media/glint/start/glint-provision-welcome.png" alt-text="Screenshot of Viva Glint tenant provisioning welcome page.":::
+
+Check the box for notification to be sent and enter an email address if you would like to receive an email notification once your tenant provisioning is complete. Select **Continue** to begin tenant provisioning.
 
 >[!NOTE]
 > Tenant provisioning can only be initiated by the Tenant Global Administrator. 

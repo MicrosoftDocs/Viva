@@ -1,5 +1,5 @@
 ---
-title: "Overview and set up Copilot in Viva Engage [Public Preview] "
+title: "Set up Copilot in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
@@ -16,10 +16,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Copilot in Viva Engage [Public Preview] into your organization"
+description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization"
 ---
 
-# Set up Copilot in Viva Engage (Public Preview) 
+# Set up Copilot in Viva Engage 
 
 >[!IMPORTANT]
 >Copilot in Viva Engage is currently available through public preview. The features described here are subject to change. Administrators can enable Copilot in the Viva Engage admin center.
@@ -28,7 +28,7 @@ Copilot in Viva Engage is a partner for communicating in ways that create value 
 
 [Learn more about Copilot in Viva Engage.](https://support.microsoft.com/topic/introducing-copilot-in-viva-engage-0222cdfb-1fa3-4ec8-987a-c1b35af5c26d)
 
-## Licensing requirements (Public preview)
+## Licensing requirements
 
 Customers with a *Viva Suite* or *Communications & Communities* license, or a trial version of one of these, can opt in to activate Copilot through the Viva Engage admin center. Licensing requirements for these features may change after the preview period. Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 

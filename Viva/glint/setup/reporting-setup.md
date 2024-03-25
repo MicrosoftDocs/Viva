@@ -61,7 +61,7 @@ To add User Roles to a program, select **Add Role**. The dropdown menu displays 
 ## Set up question access for roles
 
 >[!NOTE]
->This feature becomes available on April 9, 2024.
+>This feature becomes available on April 6, 2024.
 
 :::image type="content" source="../../media/glint/setup/report-questions-delete-add.png" alt-text="Screenshot of how to remove and add back survey questions by role."lightbox="../../media/glint/setup/report-questions-delete-add.png":::
 
