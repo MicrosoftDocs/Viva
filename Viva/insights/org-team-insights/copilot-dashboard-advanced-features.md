@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 3/20/2024
+ms.date: 3/27/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metrics, with a Viva Insights subscription.
 author: zachminers
@@ -15,9 +14,6 @@ audience: user
 ---
 
 # Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
-
->[!Important]
->This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 The Microsoft Copilot Dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
@@ -40,17 +36,17 @@ Let's dive in to this advanced set of features.
 
 * At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
-### Manage access to the dashboard
+### Access and manage user access to the dashboard
 
 *Applies to: Microsoft 365 global admin or Privileged Role Administrator*
 
-[Use these steps to manage user access to the dashboard's metrics](./copilot-dashboard.md#manage-user-access-to-the-dashboard-in-viva-insights).
+[Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
 
 ### Select the Scope of your analysis
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-:::image type="content" source="images/copilot-dash-scope.png" alt-text="Screenshot that shows the Scope tool.":::
+:::image type="content" source="images/copilot-dash-scope-ga.png" alt-text="Screenshot that shows the Scope tool.":::
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
 
@@ -77,7 +73,7 @@ Now let’s look at the insights provided by this page.
 
 **Insight #1: High-level overview of Copilot usage across the organization**
 
-:::image type="complex" source="images/copilot-dash-adoption-01.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/copilot-dash-adoption-01.png":::
+:::image type="complex" source="images/copilot-dash-adoption.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/copilot-dash-adoption.png":::
 Screenshot that shows the first group of adoption metrics.
 :::image-end:::
 
@@ -167,7 +163,7 @@ See how employee behaviors have changed before and after Copilot usage.
 * **% Difference after Copilot is computed as**: (Value of the **After Copilot** metric – Value of the **Before Copilot** metric) / Value of the **Before Copilot** metric.
 
 >[!Important]
->For the comparisons described below, please note that correlation does not equal causation. The differences you see might not be driven by Copilot.
+>Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors, such as seasonality, role shifts, or organizational changes, may influence changes in these metrics.
 
 **Comparison between groups**
 
@@ -227,11 +223,9 @@ Screenshot that shows the Sentiment heat map.
 
 #### Upload survey results with the advanced insights app
 
-If you have a Viva Insights subscription and you’re a Viva Insights admin, you can upload survey results as a .csv file.
+If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file.
 
-Or, you can upload survey results in the Microsoft 365 admin center. [Learn how](/microsoft-365/admin/adoption/ai-assistance).
-
-We recommend delivering a survey to users in which you ask them to indicate the extent to which they agree with the following four statements:
+Your survey should include each of the following statements:
 
 * *Using Copilot helps improve the quality of my work or output*
 
@@ -243,7 +237,7 @@ We recommend delivering a survey to users in which you ask them to indicate the 
 
 If you upload survey results via .csv file, regardless of the format of survey responses you received, the data needs to be uploaded in a standard format that Viva Insights can understand. It’s possible that different survey tools provide outputs in different formats for the survey. Some tools might provide a 5-point scale, some may provide output as a string (“Strongly agree,” “agree,” “neutral,” “disagree,” or “strongly disagree”), and tools like Glint would provide a precalculated score as the output.
 
-Therefore, the admin must convert the survey responses to a 100-point scale to maintain consistency with Glint, with 100 representing the most positive survey response.
+Therefore, the admin must convert the survey responses to a 100-point scale, with 100 representing the most positive survey response.
 
 This is how they can convert the scores into a 100-point scale:
 
@@ -376,13 +370,10 @@ To capture organizational changes, we refresh the default-on enablement on a wee
 No. Once an admin disables a user, that setting is permanent until the admin enables them again. In the Microsoft 365 admin center, the admin can view a list of who has been disabled in the Deleted tab.
 
 **The values I'm seeing are just "--," with a banner that reads, "It looks like your organization doesn’t use Copilot in Microsoft 365 yet." What's happening?**
-In this scenario, your employees have a Viva Insights license, but they do not have a Copilot license.
+In this scenario, your employees don't have a Copilot license assigned or they haven't used Copilot yet.
 
 **For the Copilot metric reports with filters, the values I'm seeing are just "--," but I see the other data. What’s happening?**
-To protect individual privacy, you’ll only see insights when there are at least 25 employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
-
-**The values I'm seeing are just "--," with a banner that reads, "Not enough activity data to show insights." What's happening?**
-In this scenario, there are fewer than 25 employees with a Viva or Viva Insights license, and there are fewer than 25 employees with a Copilot license.
+To protect individual privacy, you’ll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
 
 **Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
 In this scenario, your Entra data is not reliable.
