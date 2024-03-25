@@ -80,7 +80,7 @@ items:
                  href: setup/upload-employee-attributes.md
       - name: Understand survey access methods
         href: setup/understand-survey-access-methods.md  
-  - name: Program the Viva Glint foundational features
+  - name: Program Viva Glint foundational features
     href: setup/platform-features-settings.md
     items: 
       - name: Manage General Settings 
@@ -307,6 +307,8 @@ items:
              href: setup/quick-guide-confidentiality.md
            - name: Manager Quick Guide to understanding and acting on survey results 
              href: setup/quick-guide-manager-doc-pitfalls.md
+      - name: Address Viva Glint access issues as a manager
+        href: setup/manager-access-issues.md      
   - name: Microsoft Viva People Science methodology for Viva Glint programs
     items:
         - name: Propel action-taking through ACT conversations

@@ -22,8 +22,8 @@ description: Configure SAP SuccessFactors as a learning content source for Micro
 
 This article shows you how to configure SAP SuccessFactors as a third-party Learning Management System for Microsoft Viva Learning. First, you need to perform steps of onboarding in Admin tab under Viva Learning and then in SuccessFactors Portal.
 
->[!NOTE]
->Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
+> [!NOTE]
+> Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. SAP SuccessFactors content and any associated services are subject to the SAP SuccessFactors privacy and service terms.
 
 ## Prerequisites
 
@@ -114,8 +114,8 @@ There are two major integration stages for which admins require specific permiss
 
         partners1.enabled=true
 
->[!NOTE]
->`partners1.path` and `partners1.email` are optional properties in SuccessFactors partner extract configuration.
+> [!NOTE]
+> `partners1.path` and `partners1.email` are optional properties in the SuccessFactors partner extract configuration and these properties can be empty.
 
 5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable.
 
@@ -125,7 +125,7 @@ There are two major integration stages for which admins require specific permiss
 
     ![Screenshot of the checkbox indicating that you have followed the above steps.](../media/learning/sfsf-onboarding-5.png)
 
-1. Fill in the configuration details:
+8. Fill in the configuration details:
 
     ![Screenshot of the final successfactors configuration screen](../media/learning/sfsf-onboarding-config-4.png)
 
@@ -139,21 +139,21 @@ There are two major integration stages for which admins require specific permiss
 
      :::image type="content" source="../media/learning/sfsf-system-config-highlighted3.png" alt-text="Screenshot of System Config screen on connectors calling out admins to not enter the password in the connector.ftp.password field." lightbox="../media/learning/sfsf-system-config-highlighted3.png":::
 
-    - **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
+- **Password**: Check with your LMS application owner for help with retrieving your password. Enter that password here.
 
-  - **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "partnerID=MVL" partner configuration.
+- **Folder Path**: Navigate to **Learning Administration** > **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**. Get the value of the `defaultFtp.path` property and join this value with the value of `partners1.path` from the "partnerID=MVL" partner configuration.
     
-  - Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
+- Validate the existence of the folder path in the SFTP server. Create the folder if it doesn't exist.
 
-    - **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX sign in URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
+- **Client's Host URL**: This is the BizX domain URL. You can get this from your BizX sign in URL. For example, if your BizX sign in URL is `organization.successfactors.com/sf/start/#/login` then the host URL is `organization.successfactors.com`.
 
-    - **Client's Learning Destination URL**: You can get this from the learning domain module URL. For example, if the learning domain URL is `organization.scdemo.successfactors.com/learning/...` then the Learning Destination URL is `organization.scdemo.successfactors.com`.
+- **Client's Learning Destination URL**: You can get this from the learning domain module URL. For example, if the learning domain URL is `organization.scdemo.successfactors.com/learning/...` then the Learning Destination URL is `organization.scdemo.successfactors.com`.
 
-    - **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
+- **Company ID**: Sign in to your SuccessFactors portal. Select your profile icon, then select **Show Version Settings**. You can view your company ID here.
 
-      ![Screenshot of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
+    ![Screenshot of the profile icon with Show Version Settings selected.](../media/learning/sf-3.png)
 
-      ![Screenshot of the version settings pane.](../media/learning/sf-1.png)
+    ![Screenshot of the version settings pane.](../media/learning/sf-1.png)
 
 9. Select **Save** to activate SuccessFactors content in Microsoft Viva Learning.
 
