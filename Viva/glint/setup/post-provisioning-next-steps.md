@@ -25,6 +25,9 @@ Welcome to Microsoft Viva Glint! If you have landed on this page, you should alr
 - If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
 
+   > [!IMPORTANT]
+   > If you’re migrating from LinkedIn Glint, your M365 admin doesn’t need to assign Glint admins in MAC. Admin users are migrated to the Company Admin role as part of your technical migration to Microsoft Viva Glint.
+
 ## Assign Viva Glint admins in the Microsoft Administrator Center (MAC)
 
 As the tenant Global Admin, you're the default Microsoft Viva Glint Service Admin. This means you have ultimate control over the subscriptions in your Viva Glint product and you can access all data. Additionally - **and importantly** - you can assign Viva Glint Service admin roles to other users.
