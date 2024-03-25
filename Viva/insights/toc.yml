@@ -70,7 +70,7 @@ items:
             href: org-team-insights/org-insights.md
           - name: Organization insights FAQ
             href: org-team-insights/org-insights-faqs.md
-          - name: Microsoft Copilot Dashboard (Preview)
+          - name: Microsoft Copilot Dashboard for M365 customers
             href: org-team-insights/copilot-dashboard.md      
       - name: Advanced insights
         items:
