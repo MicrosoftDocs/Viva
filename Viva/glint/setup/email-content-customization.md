@@ -22,8 +22,8 @@ ms.date: 03/22/2024
 
 Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications
 in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a
-company logo for survey emails. To understand how to enable/disable emails and general Communications setup:
-Communications setup in [Program Summary](program-summary-communications.md).
+company logo for survey emails. To understand how to enable/disable emails, and for more information about Communications setup,
+see [Communications setup in Program Summary](program-summary-communications.md).
 
 > [!NOTE]
 > Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
