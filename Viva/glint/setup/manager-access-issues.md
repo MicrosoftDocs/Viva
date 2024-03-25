@@ -34,29 +34,29 @@ During a live Viva Glint survey, your Glint admin team often gives managers acce
 To strive for consistent improvement, Viva Glint undergoes [monthly maintenance](monthly-release-dates.md) to release new features, enhancements, and fixes. If when attempting to access your results, you’re presented with a maintenance message, revisit your dashboard the following day.
 
 ## No Viva Glint access
-If you’re presented with a message stating that you don’t have access, your organization hasn’t granted you access to the Viva Glint application. Reach out to your Glint admin to confirm if you should be granted access to Viva Glint.
+If you’re presented with a message stating that you don’t have access, your organization didn't grant you access to the Viva Glint application. Reach out to your Glint admin to confirm if you should be granted access to Viva Glint.
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-access.png" alt-text="Screenshot of access error in Viva Glint.":::
 
 ## No User Role assigned
-If you see a **Welcome to Viva Glint** message but don’t have access to any results, you haven’t been assigned a User Role to access reports in Viva Glint. Reach out to your Glint admin to confirm and have your User Role membership updated if needed.
+If you see a **Welcome to Viva Glint** message but don’t have access to any results, you aren't in a User Role to access reports in Viva Glint. Reach out to your Glint admin to confirm and have your User Role membership updated if needed.
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-role.png" alt-text="Screenshot of a Viva Glint dashboard for a user with no role assigned.":::
 
 ## No results access
 If you see a message in your dashboard that indicates that there aren’t enough respondents to see results, it can mean that:
 
-- There aren’t enough respondents to view results (usually at least 5 respondents are required to protect [confidentiality](quick-guide-confidentiality.md)).
+- There aren’t enough respondents to view results (usually at least five respondents are required to protect [confidentiality](quick-guide-confidentiality.md)).
   - Select the **View Guide for Smaller Teams** link to view guidance on small team results.
   - If your organization uses Broader Team Insights, view a summary of your manager’s team results.
-- You haven’t been granted access to a segment of data to view results. Contact your Glint admin to confirm if your data access needs to be updated.
+- You aren't granted access to a segment of data to view results. Contact your Glint admin to confirm if your data access needs to be updated.
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-results.png" alt-text="Screenshot of a Viva Glint dashboard for a user with insufficient results.":::
 
 ## Incorrect team information
-If recent team changes don’t appear in your Viva Glint dashboard, it may mean that the HR data in place before a survey launched wasn’t up to date. For example, if some team members have left and others joined your team and this isn’t shown in your dashboard, contact your Glint admin to confirm whether they can process an update to your results data.
+If recent team changes don’t appear in your Viva Glint dashboard, it may mean that the HR data in place before a survey launched wasn’t up to date. For example, if some employees joined your team and this change doesn't show in your dashboard, contact your Glint admin to confirm whether they can process an update to your results data.
 
 ## Connection issue
-If you see a message indicating that a connection can’t be made to the Glint service, there is likely an issue with matching your information between the Viva Glint application and Microsoft Entra ID. Contact your Glint or Entra admin to confirm that your data matches between systems.
+If you see a message indicating that a connection can’t be made to the Glint service, there's likely an issue with matching your information between the Viva Glint application and Microsoft Entra ID. Contact your Glint or Entra admin to confirm that your data matches between systems.
 
 :::image type="content" source="../../media/glint/setup/glint-mgr-no-connection.png" alt-text="Screenshot of a Viva Glint error message for a connection issue.":::
