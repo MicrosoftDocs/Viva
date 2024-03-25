@@ -32,6 +32,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 > [!NOTE]
 > If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
+> [!IMPORTANT]
+> If you’re migrating from LinkedIn Glint, don’t provision a new Viva Glint tenant. This step is completed for you as part of your technical migration to Microsoft Viva Glint.
+
 ## Customers entitled for Viva Glint provisioning 
 
 - Net new Viva Glint standalone customers
