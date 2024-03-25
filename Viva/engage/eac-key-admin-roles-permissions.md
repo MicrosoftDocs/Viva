@@ -2,10 +2,11 @@
 title: "Manage admin roles in Viva Engage"
 description: "Learn about admin roles and permissions in Viva Engage and how to assign them."
 ms.reviewer: ethli
+ai-usage: AI-assisted
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 03/15/2023
+ms.date: 03/25/2023
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -29,13 +30,13 @@ To perform administrative tasks and facilitate many of the premium features in V
 
 |Admin role|Business function|
 |------------|----------------|
-|**[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)** | Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
-| **[Engage Administrator](#engage-administrator)**| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance |
-| **[Verified Administrator](#verified-administrator)** | Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | 
-| **[Network Administrator](#network-administrator)**| Configures the Viva Engage network|
-| **[Answers Administrator](#answers-administrator)**| Configures Answers in Viva Engage, manages topics, and enables badges |
-| **[Corporate Communicator](#corporate-communicator)**| Creates and manages official campaigns, defines leaders, and manages content across the organization |
-| **[Community Administrator](#community-administrator)**| Manages day-to-day activity (including usage) within a community to keep it engaged and productive|
+|[Microsoft 365 Global Administrator](#microsoft-365-global-administrator)| Manages all aspects of Microsoft 365 Entra and services that use Microsoft 365 Entra identities. This role controls admin role assignment and configuration in Viva Engage. As such, global admins have unlimited access to settings and most of its data, including subscription management.|
+|[Engage Administrator](#engage-administrator)| Configures and manages all aspects of Viva Engage including tenant settings, core and premium features, and compliance |
+|[Verified Administrator](#verified-administrator)| Configures the Viva Engage network. Performs tasks that have legal implications, such as managing security settings, monitoring keywords for appropriate use, managing data retention, and exporting data. | 
+|[Network Administrator](#network-administrator)| Configures the Viva Engage network|
+|[Answers Administrator](#answers-administrator)| Configures Answers in Viva Engage, manages topics, and enables badges |
+|[Corporate Communicator](#corporate-communicator)| Creates and manages official campaigns, defines leaders, and manages content across the organization |
+|[Community Administrator](#community-administrator)| Manages day-to-day activity (including usage) within a community to keep it engaged and productive|
 
 ## Who assigns roles and where?
 
@@ -86,15 +87,6 @@ For details, see [Microsoft 365 admin roles].
 |**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or network admin|
 |**How to assign**|In the Yammer admin center, select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Network Admin**.</li></ul>|
 
-## Corporate Communicator
-
-|Function |Details |
-|------------|-----------------|
-|**Permissions** |<ul><li>Create and manage official campaigns</li><li>Identify leaders and their audiences</li><li>Send announcements</li></ul>|
-|**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
-|**How to assign**|Viva Engage admin center</li></ul>|
-
-
 ## Answers Administrator  
 
 |Function |Details |
@@ -103,6 +95,13 @@ For details, see [Microsoft 365 admin roles].
 |**Who can assign**|A Microsoft 365 Global administrator|
 |**How to assign**|Assign a [Knowledge Manager role in Microsoft Entra ID](/entra/identity/role-based-access-control/permissions-reference)</li></ul>|
 
+## Corporate Communicator
+
+|Function |Details |
+|------------|-----------------|
+|**Permissions** |<ul><li>Create and manage official campaigns</li><li>Identify leaders and their audiences</li><li>Send announcements</li></ul>|
+|**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
+|**How to assign**|Viva Engage admin center</li></ul>|
 
 ## Community Administrator
 
