@@ -34,7 +34,7 @@ Let's dive in to this advanced set of features.
 
 * A Viva Insights license is required to view the app in Teams for leaders, and the analyst tool bench is required for custom reports. Requires Viva Insights, Workplace Analytics and Feedback, or Viva Suite SKUs.
 
-* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
+* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses. To protect individual privacy, you'll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
 
 ### Access and manage user access to the dashboard
 
@@ -48,7 +48,7 @@ At the top left of the adoption and impact page, next to **Scope**, select the d
 
 :::image type="content" source="images/copilot-dash-scope-ga.png" alt-text="Screenshot that shows the Scope tool.":::
 
-To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 users.
+To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
 
 ## Interpreting the data
 
@@ -151,16 +151,6 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 **Key insights for this page:**
 
 On any card, select **Explore more** to dive into these metrics.
-
-##### Actions before and after Copilot
-
-See how employee behaviors have changed before and after Copilot usage.
-
-* **Before Copilot** is computed as the monthly average per user for that metric over the last four weeks from the date of the user’s first activity on Copilot. The population analyzed for these metrics is defined as the users who performed any activity with Copilot at least once in the last 28 days.
-
-* **After Copilot** is computed as the recent 28-day average per user for that metric, where the population analyzed is defined as the users who performed any activity with Copilot at least once in the last 28 days.
-
-* **% Difference after Copilot is computed as**: (Value of the **After Copilot** metric – Value of the **Before Copilot** metric) / Value of the **Before Copilot** metric.
 
 >[!Important]
 >Copilot is not likely to be solely responsible for any metric differences shown in the dashboard. In addition to Copilot, multiple organizational factors, such as seasonality, role shifts, or organizational changes, may influence changes in these metrics.
