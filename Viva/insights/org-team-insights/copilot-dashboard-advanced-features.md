@@ -46,6 +46,8 @@ Let's dive in to this advanced set of features.
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
+Your Insights admin needs to upload **Organization** (required) and **Function type** (optional) Viva attributes for you to view the **Organization** and **Job function** dropdowns. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
+
 :::image type="content" source="images/copilot-dash-scope-ga.png" alt-text="Screenshot that shows the Scope tool.":::
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
@@ -207,7 +209,7 @@ Located within the Impact page, this section provides information that helps you
 
 With a Viva Insights subscription, this section of the dashboard also lets you explore the breakdown of sentiment across organizational attributes. You can use custom filters to isolate the results for specific parts of the organization or for specific employee groups. The results are shown in a “heat map.” 
 
-:::image type="complex" source="images/copilot-dash-premium-sentiment.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-premium-sentiment.png":::
+:::image type="complex" source="images/copilot-dash-sentiment-ga.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-sentiment-ga.png":::
 Screenshot that shows the Sentiment heat map.
 :::image-end:::
 
