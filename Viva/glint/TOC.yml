@@ -283,7 +283,7 @@ items:
                 href: reports/post-survey-coaching-small-teams.md
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
-          - name: The Team Summary dashboard i
+          - name: The Team Summary dashboard
             href: reports/team-summary-dashboard.md
             items:
               - name: Enable and manage the Team Summary dashboard
