@@ -20,7 +20,7 @@ ms.date: 03/26/2024
 
 # Admin setup for Viva Glint Team Conversations
 
-To learn more about Team Conversation, see [Team Conversation](https://go.microsoft.com/fwlink/linkid=2234345).
+To learn more about Team Conversation, see [Team Conversation](take-action-team-conversations.md).
 
 ## Setting up Team Conversations in Program Summary 
 
