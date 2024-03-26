@@ -69,4 +69,4 @@ In the email edit pane, after customizing English content, use the **Language** 
 
 ### Use the program content import
 
-Use this [translation guidance](language-translations.md) to import updated translations for emails after modifying English text.
+Use this [translation guidance](setup/language-translations.md) to import updated translations for emails after modifying English text.
