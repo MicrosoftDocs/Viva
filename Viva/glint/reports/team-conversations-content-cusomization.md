@@ -50,8 +50,8 @@ Add your customizations to each section and select **Save Changes** in the top r
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
->
-> ### Email macros
+
+### Email macros
 
 Macros in Viva Glint emails allow your organization to add placeholders that pull in information from your employee data and from Viva Glint. Include Departments, Manager Names, or additional Team Conversation information in email text to further customize for managers. To add a macro, select the plus sign icon email sections where it exists and choose a macro from the dropdown menu.
 
