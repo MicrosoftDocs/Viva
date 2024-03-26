@@ -69,4 +69,4 @@ In the email edit pane, after customizing English content, use the **Language** 
 
 ### Use the program content import
 
-Use this [translation guidance](viva/glint/setup/language-translations.md) to import updated translations for emails after modifying English text.
+Use this [translation guidance](https://go.microsoft.com/fwlink/?linkid=2238340) to import updated translations for emails after modifying English text.
