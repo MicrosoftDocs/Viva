@@ -208,6 +208,9 @@ items:
                href: reports/team-conversations-resource-guidance.md
           - name: Admin setup for Team Conversations
             href: reports/team-conversations-administrator-setup.md
+            items:
+             - name: Customize Viva Glint Team Conversation email content
+               href: reports/team-conversations-content-cusomization.md          
           - name: Preview, manage, and enable surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview pre-launch demo data in reporting
@@ -280,7 +283,7 @@ items:
                 href: reports/post-survey-coaching-small-teams.md
           - name: The Manager Concierge dashboard
             href: reports/manager-concierge-dashboard.md
-          - name: The Team Summary dashboard i
+          - name: The Team Summary dashboard
             href: reports/team-summary-dashboard.md
             items:
               - name: Enable and manage the Team Summary dashboard
