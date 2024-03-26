@@ -15,12 +15,12 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 03/26/2024
 ---
 
 # Admin setup for Viva Glint Team Conversations
 
-To learn more about Team Conversation, see [Team Conversation](https://go.microsoft.com/fwlink/?linkid=2234345).
+To learn more about Team Conversation, see [Team Conversation](take-action-team-conversations.md).
 
 ## Setting up Team Conversations in Program Summary 
 
@@ -65,23 +65,25 @@ Default Team Conversations email presets:
 - Reminder 1: If conversation isn't done, send seven days before due date 
 - Reminder 2: If conversation isn't done, send three days before due date 
 - Conversation Summary Notification 
-- Conversation Overdue Reminder 1: Sent three days after conversation due date 
+- Conversation Overdue Reminder 1: Sent three days after conversation due date
 
-#### Rules for editing communications 
+#### Rules for when to edit communications 
 
 Emails send if these circumstances are met:
  
 - Team Conversations is ON 
 - The cycle is closed 
-- Seven days have passed since live access 
+- Seven days have passed since live access
+- Less than 45 days have passed since the survey close date
 
 Emails won't send under these circumstances:
  
 - Team Conversations is OFF
 - The cycle is closed 
-- Seven days have passed since live access 
+- Seven days have passed since live access
+- More than 45 days have passed since the survey close date
 
-If past the conversation start date and a role are enabled for Team Conversations, emails will immediately initiate once Team Conversations is switched to **ON**. 
+If you enable Team Conversations for a User Role after the conversation start date, emails will immediately send once Team Conversations is switched to **ON**. 
 
    > [!NOTE]
    >Nudges can coexist with Team Conversations but will not send when the Team Conversation window is open.
@@ -90,14 +92,14 @@ If past the conversation start date and a role are enabled for Team Conversation
 >If Team Conversations are enabled, do not enable Nudges for that User Role.
 
 
-| **Are Team Conversations on?** | **Is the cycle Live** |**Have days passed since live access?**|**Can emails be edited?**
+| **Are Team Conversations on?** | **Is the cycle Live** |**Have 7 days passed since live access?**|**Can emails be edited?**
 |---|---|---|---|
 | Yes | Yes|N/A|Yes|
 | No | Yes|N/A|Yes|
-| Yes | No|No|Yes (after October 23. 20121)|
+| Yes | No|No|Yes |
 | Yes | No|Yes|No, emails have already sent|
 | No| No|No|Yes, Team Conversations can be turned on and emails can be edited|
-| No| No|Yes|No, but emails send it Teams Conversations is switched to ON|  
+| No| No|Yes|No, but emails send if Teams Conversations is switched to ON|  
 
 #### Editing communications 
 
@@ -132,6 +134,9 @@ Reminders begin when the User Role group gets Live access. This may be different
 - Can be edited for a specified number of days after Conversation End date. The default and Viva Glint Best Practice is three days. 
 - Can be sent in any language enabled for this survey 
 - Can be previewed 
+
+> [!NOTE]
+> Team Conversations email content customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon. [Learn more about customizing Team Conversation email content](team-conversations-content-cusomization.md).
 
 ### Coaching page 
 

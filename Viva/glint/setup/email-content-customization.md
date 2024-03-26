@@ -122,5 +122,5 @@ send yourself a sample email.
 > For email previews in other languages, select a 'preview as' user that's assigned the language code that you want to see a preview for. Learn more in the **Language** section in [Viva Glint employee attribute fundamentals](attribute-fundamentals.md).
 
 > [!NOTE]
-> - To allow for easier email review, email previews for surveys that require authentication via Entra don't include an Entra link behind the Provider Feedback button.
-> - Previews can only be sent for survey invites. Reminders and survey results notifications can be previewed in the editing pane in the platform.
+> - To allow for easier email review, email previews for surveys that require authentication via Entra don't include an Entra link behind the Provide Feedback button.
+> - Preview emails can only be sent for survey invites. Reminders and survey results notifications can be previewed in the editing pane in the platform.
