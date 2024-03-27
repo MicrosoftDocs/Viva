@@ -1,5 +1,5 @@
 ---
-ms.date: 01/10/2023
+ms.date: 03/27/2024
 title: Dynamics 365 integration
 ms.reviewer: 
 ms.author: rasanders
@@ -38,7 +38,7 @@ A tenant administrator can enable Dynamics 365 integration for all Viva Goals or
 
 1. In the left-hand navigation, select **Integrations**.
 
-1. Find the Dynamics 365 integration and toggling its status to **On**, then select **Save**.
+1. Find the Dynamics 365 integration and toggle its status to **On**, then select **Save**.
  :::image type="content" source="../media/goals/dynmaics-365-integration/tenant-admin-settings.png" alt-text="Screenshot of tenant admin settings page." lightbox="../media/goals/dynmaics-365-integration/tenant-admin-settings.png":::
 
 Once the tenant admin enables the integration, the Dynamics 365 integration will be available to all the Viva Goals organizations within the tenant.
