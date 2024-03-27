@@ -118,7 +118,7 @@ The following procedures describe how to add a group feed, my feed, or page feed
   
     1. Go to the page that you want to embed. Copy the URL to the page.
     
-    2. Edit the following script to use your Viva Engage network instead of contoso.com and to use the URL to the page that you want to discuss.
+    2. Edit the following script, replacing "contoso.com" with your Viva Engage network and the URL with the page you want.
     
        ```javascript
        <div id="embedded-feed" style="height:400px;width:500px;"></div> 
@@ -135,7 +135,7 @@ The following procedures describe how to add a group feed, my feed, or page feed
       > [!NOTE]
       > You can also change the height and width parameters to the height and width you prefer. 
 
-     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects. The list of valid object types is at [Schema \> Supported Object Types](https://go.microsoft.com/fwlink/?LinkId=525586). If you're interested in using the Viva Engage Embed widget to add Viva Engage feeds to your SharePoint pages, see [Add the Viva Engage Embed widget to a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).
+     This example shows an open graph feed for a web page, but you can create feeds for other open-graph objects. If you're interested in using the Viva Engage Embed widget to add Viva Engage feeds to your SharePoint pages, see [Add the Viva Engage Embed widget to a SharePoint page](/viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed).
     
 ### Step 3: Paste the script in, and publish the SharePoint page. 
 
