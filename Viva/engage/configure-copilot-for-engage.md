@@ -58,6 +58,7 @@ You can create feature access policies using the following enablement states.
 
 >[!NOTE]
 >AI Summarization is used by Copilot and [Network Analytics](/viva/engage/analytics#network-analytics) in Engage. Summarization services help with conversation summarization in Copilot, and theme extraction, summarization, and sentiment analysis in Network Analytics which is only available to assigned admins and corporate communicators. network theme extraction, conversation summarization, and network sentiment analys.
+
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
