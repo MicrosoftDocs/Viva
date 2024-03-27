@@ -26,7 +26,7 @@ search.appverid:
 
 To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.  
 
-**Select a role in the table to learn more about it.**
+*Select a role in the table to learn more about it.*
 
 |Admin role|Business function|
 |------------|----------------|
@@ -55,7 +55,8 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 :::image type="content" source="../media/engage/admin/engage-admin-hierarchy.png" alt-text="Image shows the hierarchy of administrator roles in Viva Engage, with roles having the most power at the top.":::
 
 ## Microsoft 365 Global Administrator
-For details, see [Microsoft 365 admin roles].
+
+For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 |Function |Details |
 |------------|-----------------|
@@ -111,8 +112,3 @@ For details, see [Microsoft 365 admin roles].
  |**Who can assign**|Any Engage user who creates a community is automatically assigned the community admin role. Community admins can add (up to 100) and remove other community admins.<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
-## See also
-[Answers in Viva permissions by role](/viva/engage/eac-answers-admin-scenarios#permissions)
-
-[Commonly used Microsoft 365 admin center roles](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles)
-	
