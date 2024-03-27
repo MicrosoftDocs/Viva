@@ -66,7 +66,7 @@ If your organization chooses to restrict the export of raw survey responses for 
 
 If your organization approved making raw survey responses available for a particular survey, survey takers are informed in this statement:
 
-> Your responses are confidential and reported to [Contoso] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identifiable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922), which describes other ways your data may be accessed and your organization's privacy policy for more information.
+> Your responses are confidential and reported to Contoso in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identifiable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922), which describes other ways your data may be accessed and your organization's privacy policy for more information.
 
 ## Identifiable surveys
 
