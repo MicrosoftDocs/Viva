@@ -55,7 +55,7 @@ This statement provides information about who can see survey takers' identifiabl
 Even for confidential surveys, your organization's customer admin might be able to access identifiable survey responses. This access might be necessary for an organization to meet its legal obligations, such as [Data Subject Rights under GDPR](/microsoft-365/admin/security-and-compliance/gdpr-compliance?view=o365-worldwide&preserve-view=true). However, your organization can choose to opt out of this access on a survey-by-survey basis using admin controls. 
 
 > [!IMPORTANT]
-> A statement is automatically selected based on your progam setup configurations.
+> A statement is automatically selected based on your program setup configurations.
 
 ## Confidential surveys that do not support raw survey responses export
 If your organization chooses to restrict the export of raw survey responses for confidential surveys, the following statement is applied to surveys. 
@@ -66,7 +66,7 @@ If your organization chooses to restrict the export of raw survey responses for 
 
 If your organization approved making raw survey responses available for a particular survey, survey takers are informed in this statement:
 
-> Your responses are confidential and reported to [Contoso] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identificable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922), which describes other ways your data may be accessed and your organization's privacy policy for more information.
+> Your responses are confidential and reported to [Contoso] in aggregate groups of 5 or more respondents. Write-in comments are reported verbatim if at least 10 people respond to a question. Take care not to identify yourself in the comments. A limited number of people at [organization name@email address] will have access to your identifiable survey responses. See [Microsoft Viva Glint Reporting and Confidentiality Rules](https://go.microsoft.com/fwlink/?linkid=2230922), which describes other ways your data may be accessed and your organization's privacy policy for more information.
 
 ## Identifiable surveys
 
@@ -112,7 +112,7 @@ The default minimum response thresholds for ratings and multiple-choice question
 
 ## Suppression thresholds add further protection
 
-In some cases, even when the minimum response threshold is met, the ability to filter reporting by responder attributes and then compare those filtered results to nonfiltered results might allow a responder to be identified. In these cases, responses are **suppressed**,—meaning they aren'treported even if the minimum response threshold is met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
+In some cases, even when the minimum response threshold is met, the ability to filter reporting by responder attributes and then compare those filtered results to nonfiltered results might allow a responder to be identified. In these cases, responses are **suppressed**,—meaning they aren't reported even if the minimum response threshold is met. The suppression threshold requires more than two responses that separate the smallest attribute group from the smallest group that meets the minimum response threshold.
 
 Consider a marketing PM from the example above, given the following:
 
