@@ -1,11 +1,11 @@
 ---
-title: "Set up Copilot in Viva Engage [Public Preview] "
+title: "Set up Copilot in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 03/22/2024
+ms.date: 03/26/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
@@ -16,10 +16,10 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Copilot in Viva Engage [Public Preview] into your organization"
+description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization"
 ---
 
-# Set up Copilot in Viva Engage (Public Preview) 
+# Set up Copilot in Viva Engage 
 
 >[!IMPORTANT]
 >Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. The features described here are subject to change.
@@ -41,7 +41,7 @@ Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature
 
 | **Data process** | **How it works** |
 |---|---|
-|**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network Analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). | 
+|**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network Analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
 |**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Manage Copilot and AI Summarization with feature access policies
@@ -58,7 +58,8 @@ Because you can set multiple access policies, targeting the tenant, groups, and 
 You can create feature access policies using the following enablement states.
 
 >[!NOTE]
->AI Summarization is used by Copilot and [Network Analytics](/viva/engage/analytics#network-analytics) in Engage. Summarization services help with conversation summarization in Copilot, and theme extraction, summarization, and sentiment analysis in Network Analytics which is only available to assigned admins and corporate communicators. network theme extraction, conversation summarization, and network sentiment analys.
+>AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
+
 
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
@@ -76,7 +77,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
 1. Set the group policy to OFF (disabled).
 
-As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
+    As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage.
 
 #### Important considerations for feature access management
 
@@ -92,6 +93,13 @@ Users can access Copilot anywhere they write posts. On the Engage Home page, Cop
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
 
+- Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
+
+- Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
+
+    >[!NOTE]
+    >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+
 ### Copilot as Viva Engage guide
 
 Copilot makes personalized suggestions of what to post on Viva Engage, and where. These suggestions, or Conversation Starters, are personalized based on the viewing user’s activity and what is trending in their organization’s network.
@@ -105,9 +113,7 @@ The Conversation Starters bring together information from across Viva Engage to 
 - Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
 
 - Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
-
-    >[!NOTE]
-    >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ### Copilot as communication partner
 
