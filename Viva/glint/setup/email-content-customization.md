@@ -59,6 +59,9 @@ Viva Glint survey invites and reminders contain multiple editable sections:
 Add your customizations to each section and select **Save Changes** in the top right to save all of your
 edits.
 
+> [!IMPORTANT]
+> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added.
+
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
 
