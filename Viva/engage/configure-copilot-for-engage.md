@@ -58,7 +58,7 @@ Because you can set multiple access policies, targeting the tenant, groups, and 
 You can create feature access policies using the following enablement states.
 
 >[!NOTE]
->AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators).
+>AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
 
 
 |**Engage feature**|**State**|**Description**|
