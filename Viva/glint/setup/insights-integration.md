@@ -20,9 +20,6 @@ ms.date: 03/20/2024
 
 # Integrate Viva Glint into Viva Insights
 
->[!IMPORTANT]
->This integration is available on April 6, 2024.
-
 HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
 >[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
@@ -31,9 +28,8 @@ HR analysts and other leaders can bring Viva Glint survey scores into Viva Insig
 
 ## Understand use cases for the integration
 
-Two prominent use cases for this data integration:  
-
-- Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
+Use case for this data integration:  
+ 
 - Integrate your engagement survey scores (how employees feel) with your Viva Insights data (how people work) to understand employees’ work experience and improve key outcomes for your organization.
 
 ## What data can be sent to Viva Insights?
