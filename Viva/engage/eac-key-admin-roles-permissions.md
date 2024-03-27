@@ -56,8 +56,6 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 ## Microsoft 365 Global Administrator
 
-For details, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
-
 |Function |Details |
 |------------|-----------------|
 |**Permissions** |<ul><li>Assigns or removes the [Microsoft 365 Global administrator role](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles)</li><li>Manages other Microsoft 365 services</li><li>Views reports in the Microsoft 365 Usage Reporting dashboard</li><li>Sets up and manages Viva Engage</li></ul>|
