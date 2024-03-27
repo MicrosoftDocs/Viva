@@ -58,7 +58,7 @@ Because you can set multiple access policies, targeting the tenant, groups, and 
 You can create feature access policies using the following enablement states.
 
 >[!NOTE]
->AI Summarization is used by Copilot and [Network Analytics](/viva/engage/analytics#network-analytics) in Engage. Summarization services help with conversation summarization in Copilot, and theme extraction, summarization, and sentiment analysis in Network Analytics which is only available to assigned admins and corporate communicators. network theme extraction, conversation summarization, and network sentiment analys.
+>AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
 
 
 |**Engage feature**|**State**|**Description**|
@@ -77,7 +77,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
 1. Set the group policy to OFF (disabled).
 
-    As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
+    As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage.
 
 #### Important considerations for feature access management
 
