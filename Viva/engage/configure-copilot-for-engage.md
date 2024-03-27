@@ -23,6 +23,7 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage into
 
 >[!IMPORTANT]
 >Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. The features described here are subject to change.
+
 Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage.
 A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
@@ -59,6 +60,7 @@ You can create feature access policies using the following enablement states.
 >[!NOTE]
 >AI Summarization is used by Copilot and [Network Analytics](/viva/engage/analytics#network-analytics) in Engage. Summarization services help with conversation summarization in Copilot, and theme extraction, summarization, and sentiment analysis in Network Analytics which is only available to assigned admins and corporate communicators. network theme extraction, conversation summarization, and network sentiment analys.
 
+
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
@@ -75,7 +77,7 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
 1. Set the group policy to OFF (disabled).
 
-As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
+    As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage. 
 
 #### Important considerations for feature access management
 
