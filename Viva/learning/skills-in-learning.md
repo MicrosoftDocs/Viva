@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/20/2024
+ms.date: 03/27/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -38,7 +38,7 @@ The following skills-based scenarios are enabled in **private preview** for Viva
 
 ## Considerations 
 
-For private preview, any "interests" the user selected in Viva Learning are cleared once admins allow skills to appear in Learning. Users lose all associated personalized experiences in Viva Learning when the interests data is no longer available. When setting up or managing their skills library, admins should only select **Allow Skills in Viva Learning** if they're ready to delete existing interest-related content and data in Viva Learning.
+For private preview, any "interests" previously selected by the user in Viva Learning are cleared once admins allow skills to appear in Learning. Users lose all associated personalized experiences in Viva Learning when the interests data is no longer available. When setting up or managing their skills library, admins should only select **Allow Skills in Viva Learning** if they're ready to delete existing interest-related content and data in Viva Learning.
 
 Once the skills library is turned on in the Microsoft 365 admin center, this is an interim period before the skills appear in Viva Learning. During this time, Learning doesn't display any skills experiences. 
 English is the only supported language for private preview. 
@@ -48,7 +48,10 @@ To ensure any existing interests are included as skills when your organization t
 1. Export your organization's current interests in Viva Learning by going to the Viva Learning **Admin** tab > **Manage interests** > **Export**. Download the file when the export is processed. 
 2. Go to **Manage skills library** in the Microsoft 365 admin center and follow these steps to import your organization's existing interests as custom skills. Once the import is complete, you need to allow skills in Viva Learning. 
 
-These personalized experiences aren't supported on mobile for private preview. 
+Skills-based experiences in Viva Learning aren't supported on mobile for private preview. 
+
+As this private preview is only supported in English (United States)
+
 
 ## Skills in Viva Learning
 
