@@ -15,6 +15,8 @@ ms.collection:
 - M365-analytics
 - viva-insights-personal
 - essentials-privacy
+- essentials-compliance
+- essentials-security
 manager: helayne
 audience: Admin
 ---

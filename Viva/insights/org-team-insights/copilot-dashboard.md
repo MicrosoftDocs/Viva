@@ -1,11 +1,13 @@
 ---
-ms.date: 3/19/2024
-title: Connect to the Microsoft Copilot Dashboard (Preview)
+ms.date: 3/27/2024
+title: Connect to the Microsoft Copilot Dashboard for M365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection: 
+- viva-insights-personal
+- essentials-manage
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
@@ -13,30 +15,25 @@ manager: anirudhbajaj
 audience: user
 ---
 
-# Connect to the Microsoft Copilot Dashboard (Preview)
-
->[!Important]
->This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+# Connect to the Microsoft Copilot Dashboard for M365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
-The Microsoft Copilot Dashboard (Preview) in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
+The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level.
 
-For customers who are part of the preview, the dashboard is automatically available to select users within the Viva Insights app.
-
 To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
-:::image type="complex" source="images/copilot-dashboard-06.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dashboard-06.png":::
+:::image type="complex" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
 Screenshot that shows the Copilot Dashboard.
 :::image-end:::
 
 >[!Note]
->The Microsoft Copilot Dashboard (Preview) is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
+>The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
 
 ## Access the dashboard in Viva Insights
 
@@ -126,21 +123,37 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
 >[!Important]
->The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard (Preview) in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required. <br> <br />
+>The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required. <br> <br />
 >If you previously downloaded the Power BI app, see the [FAQs below](#faqs) to troubleshoot any issues.
 
 ## Interpreting the data
 ### Readiness
 
-The information in this table helps you assess your organization’s overall readiness for Copilot rollout based on technical eligibility requirements and overall Microsoft 365 app usage. This tab does not provide a comprehensive summary of all readiness and eligibility requirements. For a full set of requirements see this page: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements).
+The information in this tab helps you assess your organization’s overall readiness for Copilot for Microsoft 365. The tab does not provide a comprehensive summary of all readiness and eligibility requirements. For a full set of requirements see this page: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements).
 
-Unless otherwise mentioned, all metrics on this page represent aggregations over the prior 28 day period.
+#### Copilot activation progress
+
+The metrics in this section summarize your organization’s progress towards activating Copilot for Microsoft 365 for your users. See detailed definitions in the table below.
 
 | Metric | Definition | More information |
-|---|---|---|
-| Total prerequisite licenses |  Count of licenses qualified for Copilot in Microsoft 365.  | In order to be assigned a Copilot license, users must already be assigned a license for Microsoft 365 E3 or E5. Learn more here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#license-requirements)  | 
-| Users on eligible app update channels  | Count of users who connected to Microsoft 365 Apps over the past 28 days with a device enrolled in the Current Channel or Monthly Enterprise Channel. **Note:** This information is based on usage signals for Microsoft 365 Apps and may not reflect the most recent status of users’ devices.   | User devices must be on either Current Channel or Monthly Enterprise Channel to access Microsoft 365 Copilot features. In November, Copilot will initially be available on Current Channel, and then will be made available on Monthly Enterprise Channel on December 12. Learn more here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#update-channels) | 
-| Microsoft 365 app usage  | Count of unique active users per Microsoft 365 app feature, limited to those with Copilot capabilities. **Note:** The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities. More will be added over time.  | Users must be actively using Microsoft 365 apps in order to benefit from Copilot. Learn more about specific application requirements here: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements#prerequisites) |
+|----|----|----|
+| Total Microsoft 365 licenses  | Number of prerequisite Microsoft 365 and Office 365 licenses purchased by your company. | Users must be assigned a prerequisite Microsoft 365 or Office 365 license in order to be assigned a Copilot for Microsoft 365 license. [See the full list here](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#available-plan). <br> </br> This metric represents a license count, not a user count, so the value shown here may be smaller or larger than your total employee count. The metric includes Microsoft 365 E3 and E5 Extra Features licenses in addition to standard Office 365 and Microsoft 365 licenses. |
+| Total Copilot licenses  | Number of Copilot for Microsoft 365 licenses purchased by your company. | This number may be smaller than the “Copilot licenses assigned” figure below because it's limited to Copilot for Microsoft 365 licenses, whereas the metric below may include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. |
+| Copilot licenses assigned  | Number of employees in your company who have been assigned a Copilot license. | This definition is consistent with the "assigned licenses" metric in the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center. <br> </br> This number may be larger than the number above (see explanation in row above). |
+| Active Copilot users  | Number of employees in your company who have completed at least one Copilot action over the previous 28 days. | A user is considered active if they performed an intentional action for an AI-powered capability in Copilot within Microsoft Teams, Copilot with Graph-grounded chat, Outlook, Word, Excel, PowerPoint, OneNote, or Loop. This is consistent with the definition used in [Usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 Admin Center. <br> </br> This number may exceed the number above because it counts all active users over the past 28 days, including users who have had their license removed after completing an action in Copilot, whereas the metric above is a snapshot of employees currently licensed to use Copilot for Microsoft 365. |
+
+#### How Copilot can transform your work
+
+This section of the tab summarizes how Copilot can benefit Microsoft 365 users in your organization based on [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities; more will be added over time. Metric definitions are provided in the table below.
+
+| Metric | Definition |
+|---|---|
+| Count of Teams meeting users  | Count of unique active users of Microsoft Teams meetings over the past 28 days. |
+| Count of Teams chat users | Count of unique active users of Microsoft Teams chats over the past 28 days.  |
+| Count of Outlook email users  | Count of unique active users of Outlook email capabilities over the past 28 days.  |
+| Count of Office app users  | Count of unique active users of Word, Excel, PowerPoint, and OneNote over the past 28 days.  |
+
+Microsoft 365 admins can use the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center to create a licensing plan for users based on Microsoft 365 app usage and other readiness info.
 
 ### Adoption
 
@@ -156,21 +169,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 ### Impact
 
-This page helps you assess Copilot impact by layering the results of Microsoft's quantitative and qualitative research on top of your organization's Copilot and Microsoft 365 usage patterns.
-
-The metrics on this page represent aggregations over the prior 28 days with a typical delay of 2-3 days. (For example, if you're viewing the report on a Monday, the data shown would represent the 28-day period ending on the most recent Friday or Saturday.)
-
-| Metric | Definition |
-|---|---|
-| Hours saved across Copilot users over the past 28 days  | This is a general estimate of the amount of time Copilot users in your organization saved over the past 28 days through use of Copilot features. The figure is calculated by multiplying your count of active Copilot users across apps over the past month (consistent with the definition used in the Adoption tab) by a weekly time savings multiplier derived from [Microsoft’s research on Copilot users](https://aka.ms/m365-ai-impact-research), then multiplying that number by four. This multiplier may be updated over time as Microsoft’s research progresses and Copilot features evolve.  | 
-| Teams meeting users over past 28 days   | Count of Teams meetings users across your organization over the past 28 days, including both 1:1 and group calls. This metric is not based on Copilot usage and is intended to convey the potential impact Copilot could have on users in your organization given their existing usage of Microsoft 365 apps and features. |
-| Average Teams chats sent over past 28 days | Average volume of Teams chats sent per week (including group and 1:1 chats). This metric is not based on Copilot usage and is intended to convey the potential impact Copilot could have on users in your organization given their existing usage of Microsoft 365 apps and features. |
-| Average emails sent over past 28 days | Average volume of emails sent via Exchange per week (note: these emails may not necessarily be delivered through Outlook). This metric is not based on Copilot usage and is intended to convey the potential impact Copilot could have on users in your organization given their existing usage of Microsoft 365 apps and features. |
-| Active cloud files over past 28 days  | Total count of active files in SharePoint and OneDrive over the prior month (learn more about how the SharePoint information is calculated [here](/microsoft-365/admin/activity-reports/sharepoint-site-usage-ww) and OneDrive [here](/microsoft-365/admin/activity-reports/onedrive-for-business-usage-ww)). “Active” means that a file was viewed, modified, downloaded, or shared. This metric is not based on Copilot usage and is intended to convey the potential impact Copilot could have on users in your organization given their existing usage of Microsoft 365 apps and features. |
-
-### Sentiment
-
-Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
+Located within the Impact page, the Sentiment section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page, you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from [a study of early Copilot users](https://aka.ms/m365-ai-impact-research).
 
 **Suggested Copilot survey questions**
 
