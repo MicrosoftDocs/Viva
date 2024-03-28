@@ -205,7 +205,20 @@ A6. Microsoft 365 collaboration data is updated weekly for advanced insights and
 
 ##### Q7. Why don't I see last week's data in my analyses?
 
-A8. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
+A7. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
+
+##### Q8. Why do I see decimal numbers for Meetings count metrics?
+
+A8: "Meetings" can be decimal numbers because the count is proportional to the scheduled meeting time.
+* Meetings that start before midnight and end after midnight on the cutoff date for the row. 
+    
+    * Example: You attended a meeting that started at 11:30 PM on February 1st and ended at 12:30 AM on February 2nd. In this case, you'd get 0.5 meetings for February 1st, and 0.5 meetings for February 2nd.
+* Meetings by time of day. 
+    * Example: User has a meeting between 9:30 AM and 10:30 AM. Meetings between 9:00 AM and 10:00 AM = 0.5; Meetings between 10:00 AM and 11:00 AM = 0.5.
+* Overlapping meetings. 
+    * Example: Meeting 1 from 10:00 AM to 11:00 AM and meeting 2 from 10:30 AM to 11:30 AM on the same day. Meetings = 1.5
+* Meetings that begin within the user's working hours and ends after-work hours (and vice versa). 
+    * Example: User's working hours set in Outlook are 8:00 AM to 5:00 PM. User has a meeting that begins at 4:30 PM and ends at 5:30 PM. Meetings during working hours = 0.5; Meetings during after-hours = 0.5.
 
 #### Queries  
 
