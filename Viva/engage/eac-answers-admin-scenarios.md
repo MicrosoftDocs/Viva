@@ -22,30 +22,30 @@ search.appverid:
 
 # Administrator scenarios for Answers in Viva Engage
 
-Administration of Answers is for the Microsoft 365 Global admin, the Engage admin, and the Answers admin. To designate an Answers admin, [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
+Administration of Answers is for the person assigned either a Microsoft 365 Global admin, Engage admin, or Answers admin role. To designate an Answers admin, [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
 
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
 - [Creating a role-assignable group in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible)  
 
 ## Permissions
 
-The following table shows the actions available to users and admins.
+The following table shows the actions available to users and admins. In the table, _plan_ refers to the _Microsoft Viva Engage Knowledge Service plan_.
 
-|Answers action|User not assigned Viva Engage Knowledge service plan|User assigned Viva Engage Knowledge service plan|Engage (Viva Engage) admin|Answers admin (Knowledge manager)|Microsoft 365 Global admin|
-|--------------------|-----------------|----------------|----------|------------|-----------|
-|**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|
-|**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|
-|**Ask a question**| |✓|✓|✓|✓|
-|**Create a suggested topic for Answers**| |✓|✓|✓|✓|
-|**Mark best answer**| | ✓ (own posts)|✓|✓|✓|
-|**See global insights**| | |✓|✓|✓|
-|**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|
-|**Update information panel**| | |✓|✓|✓|
-|**Feature topics**| | | |✓|✓|
-|**Remove topic from Answers**| | | |✓|✓|
-|**Approve suggested topics**| | | |✓|✓|
-|**Enable answers**| | | | |✓|
-|**Enable badges**| | |✓| |✓|
+|Answers action|User not assigned a plan|User assigned a plan|Community admin|Engage admin|Answers admin|Global admin|
+|--------------------|-----------------|----------------|----------|------------|-----------|----------|
+|**Answer, upvote, and react to a question thread**|Questions they're mentioned in |✓|✓|✓|✓|✓|
+|**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|✓|
+|**Ask a question**| |✓|✓|✓|✓|✓|
+|**Create a suggested topic for Answers**| |✓|✓|✓|✓|✓|
+|**Mark best answer**| | ✓ (own posts)|✓|✓|✓|✓|
+|**See global insights**| | | |✓|✓|✓|
+|**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|✓|
+|**Update information panel**| | | |✓|✓|✓|
+|**Feature topics**| | | | |✓|✓|
+|**Remove topic from Answers**| | | | |✓|✓|
+|**Approve suggested topics**| | | | |✓|✓| 
+|**Enable answers**| | | | | |✓|
+|**Enable badges**| | | |✓| |✓|
 
 ## Update information panel
 
