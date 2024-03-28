@@ -38,7 +38,7 @@ Let's dive in to this advanced set of features.
 
 ### Access and manage user access to the dashboard
 
-*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
+*Applies to: Microsoft 365 global admin*
 
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
 
