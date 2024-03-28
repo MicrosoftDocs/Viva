@@ -37,7 +37,7 @@ The following table shows the actions available to users and admins. In the tabl
 |**Receive notifications in the Viva Engage Teams app**|Questions they're mentioned in |✓|✓|✓|✓|✓|
 |**Ask a question**| |✓|✓|✓|✓|✓|
 |**Create a suggested topic for Answers**| |✓|✓|✓|✓|✓|
-|**Mark best answer**| | ✓ (own posts)|✓|✓|✓|✓|
+|**Mark best answer**| | ✓ (own posts)|(in their community)|✓|✓|✓|
 |**See global insights**| | | |✓|✓|✓|
 |**Delete and close posts**| | ✓ (own posts)|✓|✓|✓|✓|
 |**Update information panel**| | | |✓|✓|✓|
