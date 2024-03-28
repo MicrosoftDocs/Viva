@@ -29,7 +29,10 @@ Administration of Answers is for the person assigned either a Microsoft 365 Glob
 
 ## Permissions
 
-The following table shows the actions available to users and admins. In the table, _plan_ refers to the _Microsoft Viva Engage Knowledge Service plan_.
+The following table shows the actions available to users and admins. 
+
+>[!NOTE]
+>In the following table, _plan_ refers to the _Microsoft Viva Engage Knowledge Service plan_.
 
 |Answers action|User not assigned a plan|User assigned a plan|Community admin|Engage admin|Answers admin|Global admin|
 |--------------------|-----------------|----------------|----------|------------|-----------|----------|
