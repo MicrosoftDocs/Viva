@@ -49,7 +49,7 @@ Viva Glint Conversation Start, reminders, and summary notifications contain mult
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform ignore these paragraph edits if added.
+> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
