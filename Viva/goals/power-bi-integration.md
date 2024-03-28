@@ -1,5 +1,5 @@
 ---
-ms.date: 01/06/2023
+ms.date: 03/27/2024
 title: Power BI integration
 ms.reviewer: 
 ms.author: rasanders
@@ -84,8 +84,6 @@ The key result will now regularly synchronize data from Power BI and make check-
 
 1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
 
-   :::image type="content" source="../media/goals/powerbi-images/project-select-powee-bi-data-source.png" alt-text="Screenshot that shows how to select Power BI from the available options." lightbox="../media/goals/powerbi-images/project-select-powee-bi-data-source.png":::
-
    > [!IMPORTANT]
    > Only you have access to this connection; it will not be shared with anyone else.
 
@@ -103,7 +101,7 @@ The key result will now regularly synchronize data from Power BI and make check-
 
 Your initiative will now regularly synchronize data from Power BI and make check-ins on your behalf.
 
-:::image type="content" source="../media/goals/powerbi-images/project-connected.png" alt-text="Screenshot of a successful initiative integration with Dynamics." lightbox="../media/goals/powerbi-images/project-connected.png":::
+:::image type="content" source="../media/goals/powerbi-images/project-connected.png" alt-text="Screenshot of a successful initiative integration with Power BI." lightbox="../media/goals/powerbi-images/project-connected.png":::
 
 ## Enable Power BI integration
 
