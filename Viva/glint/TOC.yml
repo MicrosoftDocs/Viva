@@ -49,6 +49,9 @@ items:
         items:
           - name: Set up your platform as a Viva Glint Admin
             href: setup/setup-platform-admin.md
+            items:
+              - name: Register for the Viva Glint newsletter
+                href: setup/newsletter-register.md
           - name: Begin platform setup with your IT team
             items:
               - name: Review Allowed List and supported browser information for Viva Glint

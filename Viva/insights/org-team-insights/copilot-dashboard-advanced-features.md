@@ -1,5 +1,5 @@
 ---
-ms.date: 3/27/2024
+ms.date: 3/28/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metrics, with a Viva Insights subscription.
 author: zachminers
@@ -38,7 +38,7 @@ Let's dive in to this advanced set of features.
 
 ### Access and manage user access to the dashboard
 
-*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
+*Applies to: Microsoft 365 global admin*
 
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
 
@@ -61,7 +61,7 @@ To protect individual privacy, you can only view aggregated metrics for teams th
 
 After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. 
 
-The page included with an M365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
+The page included with an Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
 
 With a Viva Insights subscription, the page consists of metrics for employees who have a Viva or Viva Insights license. With this version of the dashboard, three main insights are covered.
 
@@ -79,7 +79,15 @@ Now let’s look at the insights provided by this page.
 Screenshot that shows the first group of adoption metrics.
 :::image-end:::
 
-**Insight #2: Breakdown of Copilot usage across different M365 apps**
+**Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
+
+App totals reflect the total number of adoption metrics in the following Microsoft 365 apps: Microsoft Teams, Outlook, Word, Excel, PowerPoint, OneNote, Loop, and Copilot chat (formerly Microsoft 365 Chat).
+
+Group totals reflect the sum of groups that are above the minimum group size.  
+
+* Group with less than 25 people won't show up in the breakdown and won’t be included the sum total.
+
+* When a different “View by” attribute is selected, the Group totals might show different numbers. Because there might be people who don’t report to anyone as detected by Entra, there might be people missing the organizational attributes. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
 
 :::image type="complex" source="images/copilot-dash-adoption-02.png" alt-text="Screenshot that shows the second group of adoption metrics." lightbox="images/copilot-dash-adoption-02.png":::
 Screenshot that shows the second group of adoption metrics.
@@ -136,7 +144,7 @@ At the top of the page, you’ll see tallies for **Active Copilot users**, **Cop
 
 * **Active Copilot users**: The total number of employees who performed at least one Copilot activity in the previous 28 days.
 
-* **Copilot actions taken**: The total number of actions taken using Copilot across M365 apps.
+* **Copilot actions taken**: The total number of actions taken using Copilot across Microsoft 365 apps.
 
 * **Copilot assisted hours**: This is an estimate of the total time employees were assisted by using Copilot over the past 28 days. Employees can re-invest time savings from Copilot in learning, training, skilling, and having a greater business impact. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The metric should be viewed as a general estimate based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available. See more information on the calculation below.
 
@@ -369,3 +377,10 @@ To protect individual privacy, you’ll only see insights when there are at leas
 
 **Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
 In this scenario, your Entra data is not reliable.
+
+**How long does it take for the newly assigned license to reflect within the dashboard?**
+Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
+
+:::image type="complex" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+Screenshot that shows the count of licenses.
+:::image-end:::
