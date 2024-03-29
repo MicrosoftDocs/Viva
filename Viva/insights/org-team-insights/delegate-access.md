@@ -15,7 +15,7 @@ search.appverid:
 manager: abelutk
 audience: Admin
 ---
-# Delegate access to organizational insights
+# Delegate access to organizational insights 
 As a group manager, you can delegate access to your organization insights to other people within your company.
 
 By doing so, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you do to organization insights. They can view them and operationalize business decisions based on the data and insights.
