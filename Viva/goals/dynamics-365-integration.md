@@ -76,7 +76,7 @@ After setup is complete, users within your organization can link their key resul
 1. In the **App** field, select the Dynamics 365 app of your choice to connect its metrics to the KR.
  :::image type="content" source="../media/goals/dynmaics-365-integration/app.png" alt-text="Screenshot of configuring the app." lightbox="../media/goals/dynmaics-365-integration/app.png":::
 
-1. In the **Site map entity** field, select the entity within the app that measures the metric’s progress.
+1. In the **Site map entity** field, select the entity within the app that measures the metric's progress.
  :::image type="content" source="../media/goals/dynmaics-365-integration/site-map.png" alt-text="Screenshot of configuring the site map." lightbox="../media/goals/dynmaics-365-integration/site-map.png":::
 
 1. In the **View** field, select the view you want to connect to.
