@@ -1,5 +1,5 @@
 ---
-ms.date: 02/27/2023
+ms.date: 03/29/2024
 title: Roles and permissions in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
