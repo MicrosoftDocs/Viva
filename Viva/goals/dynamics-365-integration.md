@@ -1,5 +1,5 @@
 ---
-ms.date: 03/27/2024
+ms.date: 03/28/2024
 title: Dynamics 365 integration
 ms.reviewer: 
 ms.author: rasanders
@@ -76,21 +76,21 @@ After setup is complete, users within your organization can link their key resul
 1. In the **App** field, select the Dynamics 365 app of your choice to connect its metrics to the KR.
  :::image type="content" source="../media/goals/dynmaics-365-integration/app.png" alt-text="Screenshot of configuring the app." lightbox="../media/goals/dynmaics-365-integration/app.png":::
 
-1. Select the **Entity** within the app that measures the metric’s progress.
+1. In the **Site map entity** field, select the entity within the app that measures the metric’s progress.
  :::image type="content" source="../media/goals/dynmaics-365-integration/site-map.png" alt-text="Screenshot of configuring the site map." lightbox="../media/goals/dynmaics-365-integration/site-map.png":::
 
-1. Search for the **View** you want to connect to.
+1. In the **View** field, select the view you want to connect to.
  :::image type="content" source="../media/goals/dynmaics-365-integration/view.png" alt-text="Screentshot of configuring the view." lightbox="../media/goals/dynmaics-365-integration/view.png":::
 
-1. Select the **Column** from the view you want to designate as the measure of success. The available fields will vary based on the configuration of the view you select.
+1. In the **Column** field, select the column (of the view) that you want to designate as the metric for success. The available fields will vary based on the configuration of the view you select.
  :::image type="content" source="../media/goals/dynmaics-365-integration/column.png" alt-text="Screenshot of configuring the column." lightbox="../media/goals/dynmaics-365-integration/column.png":::
 
-1. Select the **Aggregation** based on the type of KR View and how you would like to compute the progress.
+1. In the **Aggregation** field, choose an aggregation based on the type of KR view and how you want to calculate progress.
  :::image type="content" source="../media/goals/dynmaics-365-integration/aggregation.png" alt-text="Screenshot of configuring the aggregation." lightbox="../media/goals/dynmaics-365-integration/aggregation.png":::
 
 1. Select **Next** and then **Save** to finish updating your key result.
  :::image type="content" source="../media/goals/dynmaics-365-integration/post-connection.png" alt-text="Screenshot of an integrated key result." lightbox="../media/goals/dynmaics-365-integration/post-connection.png":::
 
-You should now see a Dynamics 365 icon next to the key result's progress bar. The key result will automatically sync every hour. To refresh it manually, select the Dynamics 365 icon and choose **Sync now**.
+You should now see a Dynamics 365 icon next to the key result's progress bar. The key result will automatically sync every hour. To refresh it manually, select the Dynamics 365 icon and choose **Sync**.
 
 :::image type="content" source="../media/goals/dynmaics-365-integration/integration-details.png" alt-text="Screenshot of the integration details for a key result." lightbox="../media/goals/dynmaics-365-integration/integration-details.png":::
