@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 03/29/2024
 title: Delegate access to organization insights
 description: Learn how to delegate access to organization insights in Viva Insights.
@@ -58,7 +57,7 @@ If you use this optional feature, here are a few other things to note:
 1. If you're given delegate access to organization insights, you receive an   automated message in Teams from the manager who gave you access.
 2.	On the message, select **View insights.** You are then redirected to the manager’s view of organization insights.
 
-:::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing the Leader reports page." lightbox="images/leader-reports-main.png":::
+:::image type="content" source="images/delegate-access-05.png" alt-text="Screenshot showing the Leader reports page." lightbox="images/delegate-access-05.png":::
 
 3.	On the top left of the organization insights view, you'll see a banner that says, **View insights for.** This banner lets you know which leader’s insights you’re viewing. If you're given delegate access by multiple leaders, select the banner to switch between insights for those leaders and your own.
 
