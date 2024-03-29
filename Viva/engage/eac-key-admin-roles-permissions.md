@@ -106,7 +106,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages community files and conversations, including removing posts when needed.<br> Manages Answers in communities, including setting the default post type and marking the best answers.<br>Manages community members and community admins.<br>Posts announcements.<br>
+|**Permissions** |Manages (adds and removes) community members and community admins.<br> Manages community conversations, including marking best answers and removing posts.<br> Manages community settings, such as customizing the appearance and changing the default post type.<br>Posts announcements.<br>
  |**Who can assign**|Any Engage user who creates a community is automatically assigned the community admin role. Community admins can add (up to 100) and remove other community admins.<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
