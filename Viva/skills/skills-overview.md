@@ -55,8 +55,16 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 | Microsoft 365 Global Administrator | Microsoft 365 Global Administrator has global access to most management features and data across Microsoft online services. For Skills in Viva, the Microsoft 365 Global Administrator can configure and manage your organization’s skills library related settings from the Microsoft 365 admin center.| 
 | Knowledge Administrator | The Knowledge Administrator needs to be assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
 
+## Sharing and Management of Skills Data
+
+See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for available adminstrator contros for sharing and management of Skills data.
+
+> [!NOTE]
+> When individual users confirm skills in their skills experience available at [Skills in Viva (cloud.microsoft)](https://skills.cloud.microsoft), those skills will be visible to people in your organization when they use upcoming skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501), and other Microsoft Viva products. 
+
+
 ### Next steps
 
-[Set up skills in Viva](skills-get-started.md)
+[Set up Skills in Viva](skills-get-started.md)
 
 [Manage your skills library](manage-skills-library.md)
