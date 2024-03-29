@@ -24,14 +24,14 @@ There are no changes to the metrics, aggregation, or filtering tools available t
 
 If you use this optional feature, here are a few other things to note:
 
-* You can only delegate access to people who have a Viva Insights license. 
+* You can only delegate access to people who have a Viva Insights license
 * You can delegate access to whomever you want and to as many people as you want (maximum limit of 75), so long as they are in your tenant
 * You can revoke access to whomever you want at any time
 * A delegate cannot delegate access to others
-* If you assign delegates, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
+* If you assign delegates, and you’re subsequently removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access
 
 ### How to assign a delegate
-Applies to: People enabled as group managers in Viva Insights
+*Applies to: People enabled as group managers in Viva Insights*
 
 1.	In the Viva Insights app, select the ellipses (…) at the top right. 
 2.	Select **Delegate access.**
