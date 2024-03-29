@@ -31,7 +31,7 @@ If you use this optional feature, here are a few other things to note:
 * If you assign delegates, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
 
 ### How to assign a delegate
-Applies to: Those enabled as group managers in Viva Insights
+Applies to: People enabled as group managers in Viva Insights
 
 1.	In the Viva Insights app, select the ellipses (…) at the top right. 
 2.	Select **Delegate access.**
@@ -41,7 +41,7 @@ Applies to: Those enabled as group managers in Viva Insights
 :::image type="content" source="images/delegate-access-1.png" alt-text="Screenshot showing delegate access." lightbox="images/leader-reports-main.png":::
 
 ### View delegate access settings and remove delegates
-Applies to: Those enabled as group managers in Viva Insights
+Applies to: People enabled as group managers in Viva Insights
 
 1.	In the Viva Insights app, select the ellipses (…) at the top right. 
 2.	Select **Settings.**
@@ -53,15 +53,15 @@ Applies to: Those enabled as group managers in Viva Insights
 :::image type="content" source="images/delegate-access-2.png" alt-text="Screenshot showing how to delete access." lightbox="images/leader-reports-main.png":::
 
 ### View delegated access to organization insights 
-Applies to: Those given delegate access by group managers
-1. If you are given delegate access to organization insights, you’ll receive an   automated message in Teams from the manager who gave you access.
-2.	On the message, select **View insights.** You’ll be redirected to the manager’s view of organization insights.
+Applies to: People given delegate access by group managers
+1. If you are given delegate access to organization insights, you receive an   automated message in Teams from the manager who gave you access.
+2.	On the message, select **View insights.** You are then redirected to the manager’s view of organization insights.
 
 :::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing the Leader reports page." lightbox="images/leader-reports-main.png":::
 
-3.	On the top left of the organization insights view, you’ll see a banner that says, **View insights for.** This lets you know which leader’s insights you’re viewing. If you’ve been given delegate access by multiple leaders, select the banner to switch between insights for those leaders and your own.
+3.	On the top left of the organization insights view, you can see a banner that says, **View insights for.** This banner lets you know which leader’s insights you’re viewing. If you are given delegate access by multiple leaders, select the banner to switch between insights for those leaders and your own.
 
 :::image type="content" source="images/delegate-access-4.png" alt-text="Screenshot showing the Leader reports page." lightbox="images/leader-reports-main.png":::
 
 ### Related topics
-Organization insights
+Organization insights 
