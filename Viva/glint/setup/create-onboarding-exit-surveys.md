@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/04/2024
+ms.date: 03/29/2024
 ---
 
 # Create a Viva Glint onboarding survey 
@@ -43,4 +43,4 @@ This information creates a unique opportunity for organizations to rethink their
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Follow Employee Lifecycle Program Summary guidance to set up your onboarding program](https://go.microsoft.com/fwlink/?linkid=2262631)
+> [Follow Employee Lifecycle Program Summary guidance to set up your onboarding program](/../../viva/glint/setup/program-summary-setup-lifecycle)
