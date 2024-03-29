@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/06/2024
+ms.date: 03/20/2024
 ---
 
 # Communications setup in Program Summary
@@ -46,20 +46,14 @@ The following sections display as setup actions and each field can be edited by 
 >[!TIP]
 >When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991), as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
 
+>[!IMPORTANT]
+>Customizing or editing invitations, reminders, and appreciation emails is currently a feature available for *new Viva Glint customers only*. Customers who have migrated from our LinkedIn platform will have this capability added shortly. We anticipate this to become available in June 2024. You will be notified.
+
 ### Editing the survey invitation
 
 Select **Survey Start** to activate the *Survey Invitation* slider window.
 
 Check **Send notification** to ensure that the send date is as expected.
-
-Select the **pencil symbol** to edit the invite template and then the **eyeball symbol** to preview your changes. Follow on-screen guidance to make edits.
-
-The language dropdown menu provides options that are preset for this program.
-
-Note the following information:
-- Edits made to the survey invitation are for this program only.
-- Switching from **edit** to **preview** - and also when switching languages - automatically saves changes.
-- Use only plain text if customizing this invite template. URLs, HTML, and other markdown may lead to errors and subsequent mail blocking.
 
 ### Disabling the survey invitation
 
@@ -87,6 +81,13 @@ Use the **Pencil symbol** to open the slider window and then:
 The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle - so you'll know you've added them.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
+
+### Customize email content
+
+Use this email [customization guidance](email-content-customization.md) to add custom text to your Viva Glint survey emails.
+
+> [!NOTE]
+> Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
 
 ## Notifications when survey results are available
 

@@ -15,13 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/19/2024
+ms.date: 03/20/2024
 ---
 
-# Integrate Viva Insights into Viva Glint
-
->[!IMPORTANT]
->This integration is available on April 6, 2024.
+# Integrate Viva Glint into Viva Insights
 
 HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
@@ -31,9 +28,8 @@ HR analysts and other leaders can bring Viva Glint survey scores into Viva Insig
 
 ## Understand use cases for the integration
 
-Two prominent use cases for this data integration:  
-
-- Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
+Use case for this data integration:  
+ 
 - Integrate your engagement survey scores (how employees feel) with your Viva Insights data (how people work) to understand employees’ work experience and improve key outcomes for your organization.
 
 ## What data can be sent to Viva Insights?
@@ -55,9 +51,9 @@ The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback
    
 :::image type="content" source="../../media/glint/setup/insights-consent.png" alt-text="Screenshot of Viva Glint Global admin managing data sharing with Viva Insights."lightbox="../../media/glint/setup/insights-consent.png":::
  
-:::image type="content" source="../../media/glint/setup/insights-consent-slider-window.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
+:::image type="content" source="../../media/glint/setup/save-data-sharing.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
 
->[!NOTE!]
+>[!NOTE]
 >Global admins cannot include Works Council employee data in the Viva Insights integration.
 
 Now the Viva Insights admin contacts the Viva Glint admin.

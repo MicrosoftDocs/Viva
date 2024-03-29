@@ -31,9 +31,19 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 1. In the SFTP pane that appears, review each field and enter information as needed:
    1. **SSH Public Key:** Enter the full text of your public SSH key in this field: `ssh-rsa ...` . **DO NOT** share your private key with Viva Glint. To generate a key pair: [Learn more](https://go.microsoft.com/fwlink/?linkid=2247507).
    1. **SFTP IP Addresses:** Any account that connects to SFTP must have valid public IP addresses added here. Contact your IT team or use [online tools](https://ifconfig.io/) to determine your public IP address(es).
+   > [!TIP]
+   > SFTP IP address fields support subnets, or ranges of IP addresses. Enter ranges rather than individual IP addresses in each field, if needed. For example: 1.1.1.0/24 instead of each IP address 1.1.1.0, 1.1.1.1, 1.1.1.2, ... in its own field.
    1. **Notify People:** Search for and add users that should receive file upload notification emails.
    1. **PGP Encryption:** This setting is optional. Switch toggle to **On** to enable file encryption and reveal Glint's public PGP encryption key to encrypt your employee data files.
-   1. **SFTP Credentials:** Use the credentials shown here to connect to SFTP with a dedicated FTP application and your private SSH key file. Allow at least 1 hour after entering public SSH keys and IP addresses before testing your connection.
+   1. **SFTP Credentials:** Use the credentials shown in the platform to connect to SFTP with a dedicated FTP application and your private SSH key file. Allow at least 1 hour after entering public SSH keys and IP addresses before testing your connection.
+      1. **File Protocol**: _SFTP_
+      2. **Port**: Select 1122 or 22*
+      3. **Host Name**: _Varies based on region (US or EU)_
+      4. **Username:** _Company ID_
+      5. **Password:** _Use your private SSH key file_
+
+> [!NOTE]
+> *Port 22 is available after April 6, 2024.
 
 > [!IMPORTANT]
 > Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
