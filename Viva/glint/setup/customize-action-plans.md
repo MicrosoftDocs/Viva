@@ -82,7 +82,7 @@ Many LinkedIn Learning videos are already linked to Viva Glint templates. If you
 
 **[Follow this guidance to embed LinkedIn Learning videos](https://go.microsoft.com/fwlink/?linkid=2266714).**
 
-To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
+[To become a LinkedIn Learning customer](https://learning.linkedin.com/).  
 
 ## Linking a new survey item to a Suggested Action Template 
 
