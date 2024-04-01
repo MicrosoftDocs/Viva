@@ -62,14 +62,10 @@ Macros in Viva Glint emails allow your organization to add placeholders that pul
 
 ## Manage translations
 
-Any edits made to email text in English need to be made to all other survey languages. Use either of the methods below to manage your Team Conversation email translations.
+Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your Team Conversation email translations.
 
 ### Use the language dropdown
 
 In the email edit pane, after customizing English content, use the **Language** dropdown menu to select other survey languages and add translations to each section. Select **Save Changes** in the top right to save all of your edits.
 
 :::image type="content" source="../../media/glint/setup/glint-email-language-dropdown.png" alt-text="Screenshot of the Language dropdown in the email edit pane.":::
-
-### Use the program content import
-
-Use this [translation guidance](https://go.microsoft.com/fwlink/?linkid=2238340) to import updated translations for emails after modifying English text.
