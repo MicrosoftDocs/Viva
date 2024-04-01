@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/29/2023
+ms.date: 03/31/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -41,7 +41,7 @@ To help ensure a productive private preview that enables Skills in Viva to meet 
 3. End users included in the Skills private preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
-> - Private preview will be available in English language only. Default language for Viva Learning must also be English for this private preview 
+> - Private preview is available only in the English language. The default language for Viva Learning must also be English for this private preview 
 > - All users in your tenant will lose “Interests” they have selected in Viva Learning when you enable skills.  This action is not reversible. 
 
 
@@ -57,7 +57,7 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 
 ## Sharing and Management of Skills Data
 
-See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for available adminstrator contros for sharing and management of Skills data.
+See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for available admin control for sharing and management of Skills data.
 
 > [!NOTE]
 > When individual users confirm skills in their skills experience available at [Skills in Viva (cloud.microsoft)](https://skills.cloud.microsoft), those skills will be visible to people in your organization when they use upcoming skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/en-us/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501), and other Microsoft Viva products. 
