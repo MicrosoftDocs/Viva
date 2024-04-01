@@ -80,7 +80,7 @@ Edited content must be renamed before it is saved and published. This step is re
 
 Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
 
-**[Follow this guidance to embed LinkedIn Learning videos](https://go.microsoft.com/fwlink/?linkid=2266714)**
+**[Follow this guidance to embed LinkedIn Learning videos]([https://go.microsoft.com/fwlink/?linkid=2266714).**
 
 To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
 
