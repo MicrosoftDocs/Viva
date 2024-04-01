@@ -44,11 +44,11 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Admin role | Can assign these roles |Assigned in|
 |------------|-------|--------|
-|Microsoft 365 Global Admin|Other global admins, Engage admins, Answers admins (Knowledge manager)|Microsoft Entra ID|
-|Engage Admin|Verified admins, Network admins, Corporate communicators|Microsoft Entra ID|
-|Verified Admin|Verified admins, Network admins, Corporate communicators|Yammer admin center / Viva Engage admin center|
-|Network Admin|Other network admins, Corporate Communicators|Yammer admin center / Viva Engage admin center|
-|Community Admin|Other community admins|Viva Engage community|
+|Microsoft 365 Global Administrator|Other global admins, Engage admins, Answers admins (Knowledge manager)|Microsoft Entra ID|
+|Engage Administrator|Verified admins, Network admins, Corporate communicators|Microsoft Entra ID|
+|Verified Administrator|Verified admins, Network admins, Corporate communicators|Yammer admin center / Viva Engage admin center|
+|Network Administrator|Other network admins, Corporate Communicators|Yammer admin center / Viva Engage admin center|
+|Community Administrator|Other community admins|Viva Engage community|
 
 ## Role hierarchy
 
@@ -106,7 +106,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Manages the settings for the community, including name, description, image, and header colors.<br>Manages the conversations and files in the community.<br>Manages members and community admins.<br>Posts announcements.<br>
+|**Permissions** |Manages (adds and removes) community members and community admins.<br> Manages community conversations, including marking best answers and removing posts.<br> Manages community settings, such as customizing the appearance and changing the default post type.<br>Posts announcements.<br>
  |**Who can assign**|Any Engage user who creates a community is automatically assigned the community admin role. Community admins can add (up to 100) and remove other community admins.<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
