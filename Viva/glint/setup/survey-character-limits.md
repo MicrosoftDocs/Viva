@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2023
+ms.date: 04/01/2024
 ---
 
 # Recognize survey field character limits in Viva Glint programs
@@ -59,14 +59,12 @@ The character limits for each open text area in your survey setup are given in t
 
 | **Field** | **Character limit** |
 | --- | --- |
-| Greeting | 1024 |
-| Message | 1024 |
-| Privacy Message | 1024 |
+| Subject | 3000 |
+| Greeting | 3000 |
+| Privacy Message | 3000 |
+| Title | 3000 |
+| Message | 3000 |
 | Questionnaire Button | 128 |
-| Questions | 1024 |
-| Signature | 1024 |
-| Subject | 1024 |
-| Title | 1024 |
 
 ## Fields
 
