@@ -1,6 +1,6 @@
 ---
-title: "Import files to generate questions-and-answers in Viva Engage communities"
-description: "Repurpose your organization's FAQ by importing them as question/answer pairs in Viva Engage."
+title: "Use Answers Intelligent Importer to populate Engage communities with questions and answers"
+description: "Repurpose your organization's content assets by importing them as question and answer pairs in Viva Engage."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -20,7 +20,7 @@ search.appverid:
 - MET150
 ---
 
-# Import files to generate questions-and-answers in Viva Engage communities
+# Use Answers Intelligent Importer to populate Engage communities with questions and answers
 
 Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The **Answers Intelligent Importer** uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
 
