@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/20/2024
+ms.date: 04/01/2024
 ---
 
-# Integrate Viva Glint into Viva Insights
+# Integrate Viva Glint into Viva Glint
 
 HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
@@ -26,11 +26,9 @@ HR analysts and other leaders can bring Viva Glint survey scores into Viva Insig
 >
 >[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
 
-## Understand use cases for the integration
+## Understand use case for the integration
 
-Use case for this data integration:  
- 
-- Integrate your engagement survey scores (how employees feel) with your Viva Insights data (how people work) to understand employees’ work experience and improve key outcomes for your organization.
+Use the [M365 Copilot Impact Survey in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2261039) to collect feedback from your M365 Copilot users and connect their sentiments with Copilot usage metrics on the Viva Insights Copilot dashboard.  
 
 ## What data can be sent to Viva Insights?
 
@@ -39,28 +37,12 @@ Use case for this data integration:
 
 ## Supported languages
 
-All languages supported for question labels and question text by Viva Glint are sent to Viva Insights Power BI.
-
-## Prerequisites for the integration
-
-The Viva Glint Global admin permissions Viva Insights to use Viva Glint feedback data before integration. Integration begins in the Microsoft 365 Admin Center (MAC).
-
-1. To open the slider window, hover over *Manage data sharing with Glint*.
-1. Select **I authorize sharing Insights data with Glint**.
-2. Select **Save**.
-   
-:::image type="content" source="../../media/glint/setup/insights-consent.png" alt-text="Screenshot of Viva Glint Global admin managing data sharing with Viva Insights."lightbox="../../media/glint/setup/insights-consent.png":::
- 
-:::image type="content" source="../../media/glint/setup/save-data-sharing.png" alt-text="Screenshot of Viva Glint Global admin authorizing data sharing with Viva Insights.":::
+All languages supported for question labels and question text by Viva Glint are sent to Viva Insights Power B
 
 >[!NOTE]
 >Global admins cannot include Works Council employee data in the Viva Insights integration.
 
-Now the Viva Insights admin contacts the Viva Glint admin.
-
 ## Setting up the Viva Insights integration from your admin dashboard
-
-Viva Glint data can be sent from recurring and ad-hoc surveys only. 
 
 >[!IMPORTANT]
 > By sending data to Viva Insights, you’re agreeing to have Viva Glint data sent and stored within Insights.
@@ -83,10 +65,8 @@ Select **Send data to Viva Insights**
 
 **Now, [connect to the Microsoft Copilot dashboard](/../viva/insights/org-team-insights/copilot-dashboard) or any survey data on the [Insights Power BI template.](/../viva/insights/advanced/analyst/templates/introduction-to-templates)**
 
-## In private preview! 
+## Coming soon - bring Viva Insights into Viva Glint! 
 
-If you're interested in the private preview, reach out to your CxPM or hotline assistant.
+Add Viva Insights metrics to Viva Glint to dive deeper into employee sentiment. If you're interested in the private preview - slated for June 2024 - reach out to your CxPM or hotline assistant.
 
-:::image type="content" source="../../media/glint/setup/insights-coming-soon.png" alt-text="Screenshot of Importing Viva Insights Data - coming soon!":::
-
-Add Viva Insights metrics to Viva Glint to dive deeper into employee sentiment.
+:::image type="content" source="../../media/glint/setup/insights-coming-soon.png" alt-text="Screenshot of Importing Viva Insights Data.":::
