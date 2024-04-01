@@ -98,8 +98,8 @@
           href: interests-troubleshooting.md
         - name: Download Learner Completion Records
           href: learner-completion-records.md 
-        - name: 
-          items: Academy
+        - name: Academy
+          items:
           - name: Manage academies
             href: academy.md
           - name: Microsoft Copilot Academy
