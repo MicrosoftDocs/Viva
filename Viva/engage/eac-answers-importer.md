@@ -29,7 +29,7 @@ Generated question-and-answer pairs follow the same rules of visibility as other
 >[!NOTE]
 >Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
 
-## Import documents to communities
+## Import documents using Answers Intelligent Importer
 
 Community admins can populate their communities with useful information by importing informational documents. The Answers Intelligent Importer is enabled by default.
 
@@ -40,6 +40,8 @@ Community admins can populate their communities with useful information by impor
 1. When prompted, select and upload a file from your device.
     If the import was successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
 
+    :::image type="content" source="../media/engage/admin/select-answer-pairs.png" alt-text="Screenshot shows the location on the community page that lets you import a file to generate questions and answers.":::
+
 1. Edit or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
 
 1. Select the pairs you want to import (up to 20) and select **Post**.
@@ -48,7 +50,7 @@ Content posted through this feature follows the same rules of visibility as othe
 
 ## File requirements
 
-Importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. In addition, your files must meet these requirements:
+Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. In addition, your files must meet these requirements:
 
 - .docx, .pdf, or .txt format
 - 5 MB maximum file size
