@@ -71,14 +71,18 @@ Edited content must be renamed before it is saved and published. This step is re
 
 |Column|Reference|Definition|
 |---------|--------------|----------|
-|**Shared**|**Shared**| Viva Glint standard content|
-|**Shared**|**Custom**|New or customized content|
-|**Last Modified**|**Viva Glint Admin**|Viva Glint standard content| 
-|**Last Modified**|**Your Customized Resource Name**| New or customized content|
+|**Shared**|Shared| Viva Glint standard content|
+|**Shared**|Custom|New or customized content|
+|**Last Modified**|Viva Glint Admin|Viva Glint standard content| 
+|**Last Modified**|Your Customized Resource Name| New or customized content|
 
 ## Adding LinkedIn Learning videos to content resources 
 
-Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
+Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
+
+**[Follow this guidance to embed LinkedIn Learning videos](https://go.microsoft.com/fwlink/?linkid=2266714)**
+
+To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
 
 ## Linking a new survey item to a Suggested Action Template 
 
