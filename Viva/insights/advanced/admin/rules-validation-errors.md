@@ -31,12 +31,12 @@ All source and target field header or column names need to:
 
 1. Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Special non-alphanumeric characters such as @, #, %, &, or other characters aren’t supported.
 2. Contain a value.
-3. Be unique.
+3. Be unique. 
 
 ### Rules for custom target field headers
 
- All custom target field headers or column names need to: 
-1. Have no leading, middle, or trailing blank spaces. 
+ All custom target field headers or column names need to:  
+1. Have no leading, middle, or trailing blank spaces.  
 2. Contain no system fields, which are: 
     * PeopleHistoricalId
     * StartDate
