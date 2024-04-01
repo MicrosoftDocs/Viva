@@ -69,8 +69,8 @@ All content that exists in *Content Resources* is considered **Viva Glint standa
 
 Edited content must be renamed before it is saved and published. This step is referred to as **creating a clone** and ensures that Viva Glint original content is never altered. 
 
-|Column||Reference status|Definition|
-|---------|---------|
+|Column|Reference status|Definition|
+|---------|--------------|----------|
 |**Shared**|**Shared**| Viva Glint standard content|
 |**Shared**|**Custom**|New or customized content|
 |**Last Modified**|**Viva Glint Admin**|Viva Glint standard content| 
