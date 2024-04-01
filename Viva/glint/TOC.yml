@@ -124,6 +124,9 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Customize action plans in Viva Glint
         href: setup/customize-action-plans.md
+        items:
+            - name: Embedding LinkedIn Learning videos
+              href: setup/embedding-content-resources.md
       - name: Manage language translations in Viva Glint programs
         href: setup/language-translations.md
       - name: Recognize survey field character limits in Viva Glint programs
