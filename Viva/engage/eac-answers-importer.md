@@ -40,7 +40,7 @@ Community admins can populate their communities with useful information by impor
 1. When prompted, select and upload a file from your device.
     If the import was successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
 
-    :::image type="content" source="../media/engage/admin/select-answer-pairs.png" alt-text="Screenshot shows the location on the community page that lets you import a file to generate questions and answers.":::
+    :::image type="content" source="../media/engage/admin/select-answer-pairs.png" alt-text="Screenshot shows the AI generated list of questions and answers that you can choose to edit and then import.":::
 
 1. Edit or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
 
