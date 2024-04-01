@@ -32,16 +32,16 @@ If you’d like to learn more or apply for the Skills in Viva preview, contact y
 
 ## Prerequisites 
 
-To help ensure a productive private preview that enables Skills in Viva to meet and exceed your company's goals, the following are the requirements for private preview participation: 
+To help ensure a productive preview that enables Skills in Viva to meet and exceed your company's goals, the following are the requirements for private preview participation: 
 
 1. Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
 
 2. More than 100 end users who are licensed for either Viva Suite or Viva Learning.  
 
-3. End users included in the Skills private preview program have Viva Learning deployed and available for use.
+3. End users included in the Skills preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
-> - Private preview is available only in the English language. The default language for Viva Learning must also be English for this private preview 
+> - Private preview is available only in the English language. The default language for Viva Learning must also be English for this preview 
 > - All users in your tenant will lose “Interests” they have selected in Viva Learning when you enable skills.  This action is not reversible. 
 
 
