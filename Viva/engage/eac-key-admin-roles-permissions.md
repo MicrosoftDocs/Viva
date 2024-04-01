@@ -82,7 +82,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Configures network settings, usage policy, and user profiles</li><li>Manages internal users, outside guests, and unlisted groups</li><li>Identify leaders and their audiences</li><li>Can view reports in the Microsoft 365 Usage Reporting dashboard</li></ul>|
+|**Permissions** |<ul><li>Configures network settings, usage policy, and user profiles</li><li>Manages internal users, outside guests, and unlisted groups</li><li>Can close and reopen conversations in communities and storylines on behalf of any user<li>Identify leaders and their audiences</li><li>Can view reports in the Microsoft 365 Usage Reporting dashboard</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or network admin|
 |**How to assign**|In the Yammer admin center, select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Network Admin**.</li></ul>|
 
@@ -106,7 +106,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Manages (adds and removes) community members and community admins.<br> Manages community conversations, including marking best answers and removing posts.<br> Manages community settings, such as customizing the appearance and changing the default post type.<br>Posts announcements.<br>
+|**Permissions** |Permissions apply only to the community they administer:<ul><li>Adds and removes members and community admins.</li><li>Manages conversations, including marking best answers, removing posts, and closing posts to replies.</li><li>Manages settings, such as customizing the appearance and changing the default post type.</li><li>Posts announcements.</li></ul>
  |**Who can assign**|Any Engage user who creates a community is automatically assigned the community admin role. Community admins can add (up to 100) and remove other community admins.<br>Engage admins<br><br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
 
