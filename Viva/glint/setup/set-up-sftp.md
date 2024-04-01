@@ -22,6 +22,9 @@ ms.date: 01/23/2024
 
 Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247429) to establish regular, automated imports of employee data. In Viva Glint General Settings, import SSH Public Keys and specify public IP addresses to connect, specify users that should be notified about data uploads and warnings, opt-in to PGP encryption, and view your credentials to access your SFTP account. Your IT team may need to add an IP exception or add hosts and ports to an allow list to connect to SFTP. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238617). 
 
+Learn more about how to set up SFTP with this video and the guidance in this article:
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jOMv]
+
 ## Manage SFTP in General Settings
 
 Manage SFTP settings to connect to your Viva Glint SFTP account:

@@ -96,7 +96,9 @@ items:
       href: customize-terminology.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
-    - name: Share an Update via Goals broadcast
+    - name: Sharing in Viva Goals overview
+      href: share-objectives.md
+    - name: Share an update via Goals Broadcast
       href: goals-broadcast.md
       
   - name: Integrations

@@ -1,6 +1,6 @@
 ---
-ms.date: 3/27/2024
-title: Connect to the Microsoft Copilot Dashboard for M365 customers
+ms.date: 3/28/2024
+title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
 author: zachminers
 ms.author: v-zachminers
@@ -15,7 +15,7 @@ manager: anirudhbajaj
 audience: user
 ---
 
-# Connect to the Microsoft Copilot Dashboard for M365 customers
+# Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
 >The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
@@ -208,7 +208,7 @@ To protect individual privacy, you'll only see aggregated insights when there ar
 
 **In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
 
-Your M365 admin has not uploaded any survey data for your organization. Use the steps above to upload it.
+Your Microsoft 365 admin has not uploaded any survey data for your organization. Use the steps above to upload it.
 
 **What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
