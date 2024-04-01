@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities, delete resources, delete custom content,standard content, adding resources
+keywords: strengths and opportunities, delete resources, delete custom content,standard content, adding action plan resources
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -69,7 +69,7 @@ All content that exists in *Content Resources* is considered **Viva Glint standa
 
 Edited content must be renamed before it is saved and published. This step is referred to as **creating a clone** and ensures that Viva Glint original content is never altered. 
 
-|Column|Reference status|Definition|
+|Column|Reference|Definition|
 |---------|--------------|----------|
 |**Shared**|**Shared**| Viva Glint standard content|
 |**Shared**|**Custom**|New or customized content|
