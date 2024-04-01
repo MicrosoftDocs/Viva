@@ -1,5 +1,5 @@
 ---
-title: "Import files to generate questions and answers in Viva Engage communities"
+title: "Import files to generate questions-and-answers in Viva Engage communities"
 description: "Repurpose your organization's FAQ by importing them as question/answer pairs in Viva Engage."
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -20,9 +20,9 @@ search.appverid:
 - MET150
 ---
 
-# Import files to generate questions and answers in Viva Engage communities
+# Import files to generate questions-and-answers in Viva Engage communities
 
-Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The Answers Intelligent Importer uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
+Community admins can generate question-and-answer pairs by uploading informational documents in Viva Engage. The **Answers Intelligent Importer** uses AI to transform your static documents into dynamic interactive conversations, ensuring that your organization's valuable content is easy to retrieve and reuse.
 
 >[!NOTE]
 >Currently this premium feature is only available for communities, but will soon be accessible to Engage admins on the Answers page. Viva Engage premium is included with a _Viva Suite_ or _Employee Communities and Communications_ license.
@@ -66,7 +66,7 @@ Community admins can populate their communities with useful information by impor
 
 If the import was successful, Answers Intelligent Importer generates a list of question-and-answer pairs from the content.
 
-1. Edits or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
+1. Edit or delete items in the list, as needed. You can improve future import results by using the thumbs up and thumbs down icons to provide feedback.
 
 1. Select the pairs you want to import (up to 20) and select **Post**.
 If the post is successful, it returns a confirmation message and the question-and-answer pairs appear on the community landing page. 
