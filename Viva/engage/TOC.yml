@@ -152,7 +152,7 @@
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md
-        - name: Import files to generate questions and answers
+        - name: Use Answers Intelligent Importer to populate Engage communities with questions and answers
           href: eac-answers-importer.md
       - name: Integration with Microsoft apps
         items:   
