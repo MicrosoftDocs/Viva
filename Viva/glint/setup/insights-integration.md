@@ -67,6 +67,6 @@ Select **Send data to Viva Insights**
 
 ## Coming soon - bring Viva Insights into Viva Glint! 
 
-Add Viva Insights metrics to Viva Glint to dive deeper into employee sentiment.If you're interested in the private preview - slated for June 2024 - reach out to your CxPM or hotline assistant.
+Add Viva Insights metrics to Viva Glint to dive deeper into employee sentiment. If you're interested in the private preview - slated for June 2024 - reach out to your CxPM or hotline assistant.
 
 :::image type="content" source="../../media/glint/setup/insights-coming-soon.png" alt-text="Screenshot of Importing Viva Insights Data.":::
