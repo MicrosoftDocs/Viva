@@ -26,13 +26,13 @@ LinkedIn Learning videos are selected for and attached to Viva Glint Action Plan
 
 Follow these guidelines:
 
-1.	Select the video to add. The preview screen displays.
+1.	Select the video you want to add. The preview screen displays.
     1. Select **Watch full course.**
     1.	Use the **share arrow** symbol and then select **Embed.**
     1.	Select **Unlock Video to Embed.**
     1.	Select **Copy Code.** 
 1. Paste the code into a document to save the entire URL, such as a Word or Google document.
-1. Locate this section of the URL, which will be within quotes: **https://linkedin.com/learning/embed/** 
+1. Locate this section of the URL, which is within quotes: **https://linkedin.com/learning/embed/** 
 > There won't be an embed code if the video is outdated and a newer version is available. Follow the outdated link to the video and a banner with a hyperlink directs you to the correct link.
 4. Copy just that part of the URL.
 1. Now, from your Viva Glint admin dashboard, select the **Configure symbol** and then **Content Resources.**
@@ -44,7 +44,7 @@ Follow these guidelines:
     1. In *Type*, use the dropdown menu to select **Video.**
     1. Choose the default language.
     1. Enter a description of the video content.
-    1. Paste the copied code - just that small piece - into the *Video Link* box. A video preview displays on the right.
+    1. Paste the copied code - just that small piece - into the *Video Link* box. A video preview displays.
 1.	Select **Save.**
 1.	Select **Publish.**
 
