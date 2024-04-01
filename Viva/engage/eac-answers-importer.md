@@ -50,7 +50,9 @@ Content posted through this feature follows the same rules of visibility as othe
 
 ## File requirements
 
-Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. In addition, your files must meet these requirements:
+Because the importer uses AI to generate the question-and-answer pairs, no advanced structuring is required. In fact, files that _aren't_ structured as FAQs generally yield the best results. 
+
+Imported files must meet these requirements:
 
 - .docx, .pdf, or .txt format
 - 5 MB maximum file size
