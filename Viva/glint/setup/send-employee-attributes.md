@@ -38,15 +38,21 @@ To set up your attributes in Viva Glint, your uploaded file must contain a final
 2. In **Employees,** select **People**.
 3. Choose **Get Started** to begin the four-step process.
 
+:::image type="content" source="../../media/glint/setup/glint-get-started.png" alt-text="Screenshot of the Get Started button for attribute setup on the People page.":::
+
 Follow the onscreen guidance for the following actions.
 
 ## Upload dataset
 
 Upload finalized attributes in the format you have chosen. This file format will determine the format for all future uploads. Select **Continue.**
 
+:::image type="content" source="../../media/glint/setup/setup-step1.png" alt-text="Screenshot of attribute setup step 1 to upload your attributes in a finalized file layout.":::
+
 ## Preview employee data fields
 
 Check that the attribute names and values appear as expected.
+
+:::image type="content" source="../../media/glint/setup/setup-step2.png" alt-text="Screenshot of attribute setup step 2 to preview uploaded attributes.":::
 
 1. Verify that:
      - All attributes are present in the preview.
@@ -73,13 +79,28 @@ Select your attribute from the dropdown for each required attribute:
 - Employee ID
 - Status
 
+:::image type="content" source="../../media/glint/setup/setup-step3-required.png" alt-text="Screenshot of attribute setup step 3 to map required attributes.":::
+
 ### Derived attributes
 
 Viva Glint calculates attributes based on data sent in your employee attribute file. Most organizations choose to include a managerial hierarchy. Select your option and the attribute that should be used to create it. Decide whether to include tenure groups based on hire date or age groups based on birth year.
 
+|Derived Field   |Based On   |Derived Values|
+|----------|-----------|------------|
+|Manager Hierarchy|Employee ID and Manager ID data relationship  |Up to 25 manager levels, starting with the CEO/top-level leader|
+|Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
+|Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
+
+*Tenure values for new Viva Glint customers after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+
+> [!IMPORTANT]
+> Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
+
 1. Select the section with the desired attribute.
 2. Select the desired attribute from the dropdown menu for each derived attribute.
 3. Select **Continue**.
+
+:::image type="content" source="../../media/glint/setup/setup-step3-derived.png" alt-text="Screenshot of attribute setup step 3 to map derived attributes.":::
 
 ### Optional System Attributes
 
@@ -92,8 +113,13 @@ Map attributes in your employee data to Viva Glint language, time zone, and pers
 |User Timezone|The time zone in which survey communications are sent.  |
 |Personal Email|Users' personal email addresses that can be used to survey exiting employees. Select Company and Personal Email in the Communications section of your survey program.  |
 
+:::image type="content" source="../../media/glint/setup/setup-step3-optional.png" alt-text="Screenshot of attribute setup step 3 to map optional system attributes.":::
+
 > [!IMPORTANT]
 > Send language and time zone values exactly as they appear in related tabs in the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533). Users with blank or invalid values will receive and access surveys/emails/dashboards in your organization's default selection in General Settings.
+
+> [!NOTE]
+> Optional system attributes aren't included in raw response data exported from Viva Glint survey programs.
 
 ### Hierarchy groups
 
@@ -103,6 +129,8 @@ Select your attributes from the dropdown menu for each hierarchy group.
 - To add a new hierarchy group, select **+ Add Hierarchy Group**.
 - To rename the hierarchy label, select the **pencil** symbol.
 - To delete a group or level, select the **trash can** symbol.
+
+:::image type="content" source="../../media/glint/setup/setup-step3-hierarchies.png" alt-text="Screenshot of attribute setup step 3 to map hierarchy group attributes.":::
 
 ## Review
 
@@ -116,6 +144,8 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 - Optional System Attributes Mapping
 - Hierarchy Groups Mapping
 
+:::image type="content" source="../../media/glint/setup/setup-step4-review.png" alt-text="Screenshot of attribute setup step 4 to review uploaded attribute mapping.":::
+
 > [!NOTE]
 > Viva Glint allows for up to 100 User Attributes. Required, optional system, and hierarchy attributes don't count toward this limit.
 
@@ -123,12 +153,14 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 
 1. Choose between the following two options:
 
-     - Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
+:::image type="content" source="../../media/glint/setup/setup-step5-choose-import.png" alt-text="Screenshot of attribute setup step 5 to confirm attribute and data import options.":::
+
+- Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
 
      > [!CAUTION]
      > Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
 
-     - Option 2 - Save attributes and discard employee data – Recommended to configure attributes based on your header row and then import finalized employee data later.
+- Option 2 - Save attributes and discard employee data – Recommended to configure attributes based on your header row and then import finalized employee data later.
 
      > [!TIP]
      > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.

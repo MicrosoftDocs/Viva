@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities, delete resources, delete custom content,standard content, adding resources
+keywords: strengths and opportunities, delete resources, delete custom content,standard content, adding action plan resources
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -20,11 +20,11 @@ ms.date: 04/01/2024
 
 # Customize Action Plans in Viva Glint    
 
-Suggested Action templates contain content that Microsoft Viva Glint has included as suggested resources to help managers achieve team-approved focus areas. Access Action Plan templates in **Content Resources** from *Action Taking* on your admin dashboard. 
+Suggested Action templates contain content that Microsoft Viva Glint included as suggested resources to help managers achieve team-approved focus areas. Access Action Plan templates in **Content Resources** from *Action Taking* on your admin dashboard. 
 
 ## Viva People Science explains focus areas and action planning
 
-Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience, It is designed to increase work engagement on your team and within the company.
+Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. It is designed to increase work engagement on your team and within the company.
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action taking](https://go.microsoft.com/fwlink/?linkid=2261087)
@@ -69,16 +69,20 @@ All content that exists in *Content Resources* is considered **Viva Glint standa
 
 Edited content must be renamed before it is saved and published. This step is referred to as **creating a clone** and ensures that Viva Glint original content is never altered. 
 
-|Column|Reference status|Definition|
+|Column|Reference|Definition|
 |---------|--------------|----------|
-|**Shared**|**Shared**| Viva Glint standard content|
-|**Shared**|**Custom**|New or customized content|
-|**Last Modified**|**Viva Glint Admin**|Viva Glint standard content| 
-|**Last Modified**|**Your Customized Resource Name**| New or customized content|
+|**Shared**|Shared| Viva Glint standard content|
+|**Shared**|Custom|New or customized content|
+|**Last Modified**|Viva Glint Admin|Viva Glint standard content| 
+|**Last Modified**|Your Customized Resource Name| New or customized content|
 
-## Adding LinkedIn Learning videos to content resources 
+## Adding LinkedIn Learning videos to Content Resource 
 
-Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). To become a LinkedIn Learning customer, use this [link](https://learning.linkedin.com/).  
+Many LinkedIn Learning videos are already linked to Viva Glint templates. If you’re a LinkedIn Learning customer and want to add different course content to your Viva Glint template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
+
+**[Follow this guidance to embed LinkedIn Learning videos](https://go.microsoft.com/fwlink/?linkid=2266714)**
+
+[To become a LinkedIn Learning customer](https://learning.linkedin.com/).  
 
 ## Linking a new survey item to a Suggested Action Template 
 
@@ -115,7 +119,7 @@ Most standard survey items are automatically linked to a Suggested Action templa
 
 ## Adding default action items to a Suggested Action Template 
 
-Default Action Items will automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, tap on the item and select **Move to Default**.
+Default Action Items automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, tap on the item and select **Move to Default**.
 
 ## Deleting Custom Content Resources
 
@@ -124,7 +128,7 @@ Custom content is identified within the column labeled *Shared* in *Content Reso
 :::image type="content" source="../../media/glint/reports/content-resources-shared-column.png" alt-text="Screenshot that shows whether resources are custom or the property of Viva Glint." lightbox="../../media/glint/reports/content-resources-shared-column.png":::
 
 To delete custom content, it can't be associated with any Action Plan or any other resources. 
-Select the **trash can** symbol next to the custom resource. If any dependencies exist, the name(s) of the dependency will display:
+Select the **trash can** symbol next to the custom resource. If any dependencies exist, the name of the dependency displays:
 
 :::image type="content" source="../../media/glint/reports/delete-content-resource.png" alt-text="Screenshot of the Delete Content Resource dialog box." lightbox="../../media/glint/reports/delete-content-resource.png":::
 

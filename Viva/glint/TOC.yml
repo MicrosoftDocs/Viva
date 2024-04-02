@@ -332,7 +332,7 @@ items:
           items:
             - name: Philosophy on appropriate use of benchmarks 
               href: people-science/people-science-benchmark-philosophy.md
-            - name: Use Viva Glint benchmarks
+            - name: Viva Glint benchmark collateral
               href: setup/benchmarks.md
             - name: Choose your comparison data for Viva Glint reporting
               href: setup/survey-comparison-data.md
