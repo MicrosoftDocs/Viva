@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/05/2024
+ms.date: 04/02/2024
 title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
@@ -73,6 +73,8 @@ At the top of the screen, you’ll see two cards that provide two categories of 
 Let’s now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
 
 ## Insight category #1 - Significant change in collaboration
+
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fg]
 
 ### Summary page
 
@@ -371,6 +373,8 @@ Therefore, for a given group, we average all the group size values that we have 
 | 11/1/2023 - 12/1/2023  | Engineering  | 46 *(Avg of 44, 48)*  | Product | 39 *(Avg  of 37, 41)* |
 
 ## Insight category #2 - Potential to become insular
+
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
 
 ### Summary page
 
