@@ -36,7 +36,9 @@ Users need to meet the following criteria to access Microsoft Copilot Academy:
 
 ## Configure Microsoft Copilot Academy
 
-Microsoft Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.  
+Microsoft Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
+
+Users with Microsoft Copilot and Viva Suite premium licenses will receive an in-app notification on Copilot Academy from Microsoft Teams.
 
 Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
 
