@@ -1,6 +1,6 @@
 ---
 title: "Use Answers Intelligent Importer to populate Engage communities with questions and answers"
-description: "Repurpose your organization's content assets by importing them as question and answer pairs in Viva Engage."
+description: "Repurpose your organization's content assets by importing them as question-and-answer pairs in Viva Engage."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -55,11 +55,11 @@ Because the importer uses AI to generate the question-and-answer pairs, no advan
 Imported files must meet these requirements:
 
 - .docx, .pdf, or .txt format
-- 5 MB maximum file size
+- File size is 5 MB maximum
 - 2-10 pages (smaller documents provide better results)
 - Files stored locally
 
-Each file can generate a maximum of 20 question-and-answer pairs. If your document is large and you want to generate more than 20 questions and answers, consider breaking the file up into two or more files.
+Each file can generate a maximum of 20 question-and-answer pairs. If your document is large and you want to generate more than 20 questions and answers, consider breaking up the file into two or more files.
 
 >[!NOTE]
 >Embedded images with no textual metadata will not be processed.
