@@ -20,7 +20,7 @@ ms.date: 04/02/2024
 
 # Viva Glint benchmark collateral  
 
-Microsoft Viva Glint believes that global benchmarks can provide useful level-setting comparisons during an initial surve but aren't as useful to the organization as internal and trend (historical) comparisons in future surveys.  
+Microsoft Viva Glint believes that global benchmarks provide level-setting comparisons during an initial survey. These benchmarks may not be as useful to the organization as internal and trend comparisons in future surveys.  
 
 Viva Glint develops benchmarks from data gathered from over 1,300 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
 
@@ -64,11 +64,11 @@ Viva Glint offers these benchmarks:
 |**Industry***|Finance, Healthcare, Manufacturing, Professional Service, Retail, Technology, Utilities|
 |**Country***|Australia, Brazil, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Mexico, Netherlands, Russian Federation, Singapore, Spain, Sweden, Switzerland, UAE, UK, US|
 |**Nursing Excellence (Magnet)**|Registered Nurses, Combined Ambulatory, Combined Labor and Delivery, Combined Pediatrics, Combined Surgical, Critical Care, Emergency, Home Care, Long-term Care, Med-Surg, Medical, Oncology, Operating Room, Psychiatric, Specialty Practice, Step Down|
-|* This list is based on client usage and other industry/country benchmarks are available. Please inquite about additional industries/countries if your benchmark of interest is not listed here.|
+|* This list is based on client usage and other industry/country benchmarks are available. Inquire about other industries/countries if your benchmark of interest is not listed here.|
 
 ## Considerations for choosing a benchmark 
 
-Think about the following when choosing benchmarks for your managers to use: 
+Consider the following items when choosing benchmarks for your managers: 
 
 - Where does your company compete for talent? Within industry, or across industries? 
 - Engagement practices vary—companies in the same industry can have different strategies for success (for example, low-cost vs. premium service models). 
@@ -80,14 +80,14 @@ Think about the following when choosing benchmarks for your managers to use:
 
 ## Considerations for updating benchmarks
 
-Updated benchmarks provide additional comparisons by standard segments, such as country or industry, and by added items that may be part of a customer’s survey feedback. Comparison trends provide valuable insights unavailable in Viva Glint benchmarks. For example, newly benchmarked diversity and inclusion items can help customers interpret the effectiveness of internal programs.
+Updated benchmarks provide comparisons by standard segments, such as country or industry, and by added items that may be part of a customer’s survey feedback. Comparison trends provide valuable insights unavailable in Viva Glint benchmarks. For example, newly benchmarked diversity and inclusion items can help customers interpret the effectiveness of internal programs.
 
 > [!NOTE]
-> Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It is beneficial to adopt the latest benchmark suite available, but a change in benchmark should be accompanied by a thorough internal communications approach.
+> Deploying new benchmarks will retroactively impact customer reports, action plans, etc. for past surveys. It's beneficial to adopt the latest benchmark suite available; always announce a change in benchmark with a thorough internal communications.
 
 ## Survey item edits that affect benchmark comparison
 
-Viva Glint has done extensive research to identify the most reliable and valid items linked to survey goals, and our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark. 
+Viva Glint extensive research is used to identify the most reliable and valid items linked to survey goals. Our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark. 
 
 > [!TIP]
 > Ensure alignment to the standard Viva Glint item text so benchmarks are truly an apples-to-apples comparison. There may be cases where slight edits don't alter the meaning and the item still applies to the benchmark. In cases where major edits alter the item's meaning, Viva Glint doesn't recommend using a standard benchmarked item. Instead, create a copy and treat it as a custom item. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
@@ -114,7 +114,7 @@ Viva Glint has done extensive research to identify the most reliable and valid i
 1. Example 4: Altering the meaning 
    - **Standard:** My manager provides me with feedback that helps me improve my performance. 
    - **Modified:** My manager and I have regular conversations.   
-   - **Recommendation:** When the meaning of an item has been fundamentally altered, the change is not recommended. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
+   - **Recommendation:** When the meaning of an item is fundamentally altered, the change is not recommended. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.
   
 > [!IMPORTANT]
-> Update translations along with edits to English when modifying a standard or copy of a standard Viva Glint item.
+> Update translations with edits to English when modifying a standard or a copy of a standard Viva Glint survey item.
