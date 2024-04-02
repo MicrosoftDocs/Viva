@@ -74,7 +74,7 @@ Let’s now discuss the insights provided by each category, and how you can navi
 
 ## Insight category #1 - Significant change in collaboration
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fg]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fg]
 
 ### Summary page
 
@@ -374,7 +374,7 @@ Therefore, for a given group, we average all the group size values that we have 
 
 ## Insight category #2 - Potential to become insular
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
 
 ### Summary page
 
