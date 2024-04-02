@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: global benchmark suite,benchmark cadence,
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -15,39 +15,68 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/18/2024
+ms.date: 04/02/2024
 ---
 
 # Viva Glint benchmark collateral  
 
-Microsoft Viva Glint believes that global benchmarks can provide useful level-setting comparisons during an initial survey, but they aren't as useful to the organization as internal and trend (historical) comparisons in subsequent surveys.  
+Microsoft Viva Glint believes that global benchmarks can provide useful level-setting comparisons during an initial surve but aren't as useful to the organization as internal and trend (historical) comparisons in future surveys.  
 
-Viva Glint develops benchmarks from data gathered from over 1200 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
+Viva Glint develops benchmarks from data gathered from over 1,300 customers, employing over 10 million people. Most of our customers use our standard survey questions, enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data exclusively. Viva Glint’s client-based benchmarks are among the best in the industry. 
 
 ## Viva Glint standards are robust and aspirational 
 
 We strongly urge our customers to use our standards—the overall global and high-performance benchmarks (top 10th & top 25th percentile). They're more powerful and aspirational than a custom norm (for example, industry-specific). 
 
 > [!IMPORTANT]
-> Viva Glint does not share the names of customers included in benchmark research.
+> Viva Glint doesn't share customer names included in benchmark research.
 
 ## Viva Glint’s cadence for benchmark updates 
 
-Benchmarks represent a comprehensive and current set of norms that provide accurate and relevant comparisons for customers. Benchmarks are updated annually to reflect customer needs and emerging industry interests.  
+Benchmarks represent a comprehensive and current set of norms, which provide accurate and relevant comparisons for customers. Benchmarks are updated to reflect customer needs and emerging industry interests.  
 
 > [!NOTE]
 > It is unnecessary to update benchmarks more frequently as scores rarely change more than a point or two between updates.
 
+## 2023 Global Benchmark Suite
+
+At a glance:
+ - More than 1,100 companies; over one third have at least 5,000 employees
+ - 10.6 million respondents from over 150 countries
+ - 354 million data points
+ - 206 benchmarked items
+
+### Global benchmarks
+
+Viva Glint offers these benchmarks:
+- Global (mean)
+- Top percentiles - threshold score to achieve for the respective high performing benchmarks
+  - Top 25%
+  - Top 10%
+- Employee Lifecycle
+  - Onboarding - new hires
+  - Exit
+ 
+### Benchmark options
+
+|Benchmark|Availability|
+|--------|--------|
+|**Industry***|Finance, Healthcare, Manufacturing, Professional Service, Retail, Technology, Utilities|
+|**Country***|Australia, Brazil, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Mexico, Netherlands, Russian Federation, Singapore, Spain, Sweden, Switzerland, UAE, UK, US|
+|**Nursing Excellence (Magnet)**|Registered Nurses, Combined Ambulatory, Combined Labor and Delivery, Combined Pediatrics, Combined Surgical, Critical Care, Emergency, Home Care, Long-term Care, Med-Surg, Medical, Oncology, Operating Room, Psychiatric, Specialty Practice, Step Down|
+|* This list is based on client usage and other industry/country benchmarks are available. Please inquite about additional industries/countries if your benchmark of interest is not listed here.|
+
 ## Considerations for choosing a benchmark 
 
-Think about the following when choosing the list of benchmarks for your managers to use: 
+Think about the following when choosing benchmarks for your managers to use: 
 
 - Where does your company compete for talent? Within industry, or across industries? 
 - Engagement practices vary—companies in the same industry can have different strategies for success (for example, low-cost vs. premium service models). 
 - Companies aspire to be among the top 20% in specific areas that are important to them. 
 
   > [!TIP]
-  > For large customers, use a broad benchmark like our global benchmark, not one specific to an industry. Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful from a talent acquisition and retention perspective. Then, as customers continue to survey, comparisons of scores change over time (trend) and how groups compare within the organization may become more informative than benchmarks.
+  > For large customers, use a broad benchmark like our global benchmark, not one specific to an industry. Viva Glint’s global benchmark is applicable to all parts of a business and provides a solid baseline comparison. Often talent comes from or leaves to go to organizations in a different industry, so our global benchmark may be more helpful, from a talent acquisition and retention perspective.
+  > As you continue to survey, trend scores within your organization may become more informative than benchmarks.
 
 ## Considerations for updating benchmarks
 
