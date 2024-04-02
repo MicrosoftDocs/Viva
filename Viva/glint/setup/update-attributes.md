@@ -1,6 +1,6 @@
 ---
 title: Update attributes in Viva Glint
-description: After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, and to manage dervied and optional system attributes.
+description: After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, and to manage derived and optional system attributes.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -20,7 +20,7 @@ ms.date: 04/02/2024
 
 # Update attributes in Viva Glint
 
-After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, and to manage dervied and optional system attributes. New attributes and their values will apply to future survey results only.
+After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, and to manage derived and optional system attributes. New attributes and their values will apply to future survey results only.
 
 ## Add new attributes to Viva Glint
 
@@ -29,7 +29,7 @@ To add new attributes to your Viva Glint setup from the admin dashboard:
 1. Select the **Configure** symbol and then under the **Employees** section, choose **People**.
 2. Select **Actions** and then **Manage User Attributes**.
 3. Select **Update dataset** at the top of the page.
-4. Upload your dataset with all existing attributes and the new attribute(s).
+4. Upload your dataset with all existing attributes and the new attribute.
 
      > [!NOTE]
      > Your uploaded file must contain the Attribute Header Row and at least one row of employee data that aligns with the current format.
@@ -56,7 +56,7 @@ To add new attributes to your Viva Glint setup from the admin dashboard:
      > [!TIP]
      > When adding new attributes, choose the **Save attributes and discard employee data** option to save your setup in preparation for future imports.
 
-12. Select **Save** or **Go Back** to make additional edits.
+12. Select **Save** or **Go Back** to make more edits.
 
 ## Edit attribute names
 
