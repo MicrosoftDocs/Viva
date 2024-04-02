@@ -1,5 +1,5 @@
 ---
-title: Use Viva Glint benchmarks  
+title: Viva Glint benchmark collateral  
 description: "Global benchmarks provide level-setting comparisons during an initial survey, but internal and trend comparisons provide more useful information in subsequent surveys."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 03/18/2024
 ---
 
-# Use Viva Glint benchmarks  
+# Viva Glint benchmark collateral  
 
 Microsoft Viva Glint believes that global benchmarks can provide useful level-setting comparisons during an initial survey, but they aren't as useful to the organization as internal and trend (historical) comparisons in subsequent surveys.  
 
