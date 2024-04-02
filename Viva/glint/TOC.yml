@@ -72,6 +72,8 @@ items:
              href: setup/create-employee-attribute-template.md
            - name: Set up attributes in Viva Glint
              href: setup/send-employee-attributes.md
+           - name: Update attributes in Viva Glint
+             href: setup/update-attributes.md
            - name: Choose a Viva Glint data upload method
              href: setup/choose-upload-method.md
              items:
