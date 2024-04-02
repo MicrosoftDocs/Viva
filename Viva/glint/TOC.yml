@@ -49,6 +49,9 @@ items:
         items:
           - name: Set up your platform as a Viva Glint Admin
             href: setup/setup-platform-admin.md
+            items:
+              - name: Register for the Viva Glint newsletter
+                href: setup/newsletter-register.md
           - name: Begin platform setup with your IT team
             items:
               - name: Review Allowed List and supported browser information for Viva Glint
@@ -69,6 +72,8 @@ items:
              href: setup/create-employee-attribute-template.md
            - name: Set up attributes in Viva Glint
              href: setup/send-employee-attributes.md
+           - name: Update attributes in Viva Glint
+             href: setup/update-attributes.md
            - name: Choose a Viva Glint data upload method
              href: setup/choose-upload-method.md
              items:
@@ -121,6 +126,9 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Customize action plans in Viva Glint
         href: setup/customize-action-plans.md
+        items:
+            - name: Embedding LinkedIn Learning videos
+              href: setup/embedding-content-resources.md
       - name: Manage language translations in Viva Glint programs
         href: setup/language-translations.md
       - name: Recognize survey field character limits in Viva Glint programs
@@ -326,7 +334,7 @@ items:
           items:
             - name: Philosophy on appropriate use of benchmarks 
               href: people-science/people-science-benchmark-philosophy.md
-            - name: Use Viva Glint benchmarks
+            - name: Viva Glint benchmark collateral
               href: setup/benchmarks.md
             - name: Choose your comparison data for Viva Glint reporting
               href: setup/survey-comparison-data.md

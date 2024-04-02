@@ -60,7 +60,7 @@ Add your customizations to each section and select **Save Changes** in the top r
 edits.
 
 > [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added.
+> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
@@ -76,8 +76,7 @@ email sections where it exists and choose a macro from the dropdown menu.
 
 ## Manage translations
 
-Any edits made to email text in English need to be made to all other survey languages. Use either of the
-methods below to manage your email translations.
+Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your email translations.
 
 ### Use the language dropdown
 
@@ -86,11 +85,6 @@ other survey languages and add translations to each survey section. Select **Sav
 to save all of your edits.
 
 :::image type="content" source="../../media/glint/setup/glint-email-language-dropdown.png" alt-text="Screenshot of the Language dropdown in the email edit pane.":::
-
-### Use the program content import
-
-Use this [translation guidance](language-translations.md) to import updated translations for emails after
-modifying English text. 
 
 ## Survey End Results Notification email
 

@@ -1,6 +1,6 @@
 ---
-ms.date: 04/11/2022
-title: "Share objectives"
+ms.date: 04/01/2024
+title: Share goals content in Viva Goals
 ms.reviewer: 
 ms.author: RaSanders
 author: ranjali-MS
@@ -16,32 +16,53 @@ ms.collection:
 - m365initiative-viva-goals
 search.appverid:
 - MET150
-
-description: "Learn how to have contextual discussions on OKRs with users by quickly sharing objectives with a note."
+description: "Learn how to share all kinds of goals-related content in Viva Goals."
 ---
 
-# Share objectives via email
+# Share goals content in Viva Goals
 
-When you work in Viva Goals, you may want to share an objective or a list of objectives. You might do this to:
+With Viva Goals, you can easily share your goals and related content with others to foster effective collaboration and updates. Sharing allows you to communicate your progress, collaborate with your team, and get feedback from your stakeholders.
 
-- **Provide visibility to stakeholders:** Share a quick update on the status and progress of my team's objectives to keep the everyone up to date.
+> [!NOTE]
+> If you try to share content with someone who does not have access to Viva Goals or the content you tried to share, they will see an error message when they attempt to open the content. They will also see a prompt to request access to join Viva Goals so they can view the content.
 
-- **Share a win**: Share an update on a shipped feature, closed funding, or a deal you closed directly to a stakeholder over email.
+## Share goals content
 
-- **Nudge users**: Request an update from an OKR owner.
+To share goals content, follow these steps:
 
-## How to share objectives
+1. Open the Viva Goals app from the web app or the Teams app.
 
-1. To share objectives from the OKRs page, select the share icon in the upper-right corner of the page and select **Share Summary**.
+1. Navigate to the content you want to share, such as a list of goals or initiatives, a specific goal or initiative, a check-in or update, a dashboard, an explorer view, or an update item.
 
-2. In the **recipients** field, enter email addresses of people you want to share the objectives with. Or, to share the update to all users who are following the OKRs, select the **Include followers ...** checkbox.
+1. Locate the **Share** option at the top right corner of the page or the specific item you want to share. Depending on the type and level of content, you may see different icons for the **Share** option, such as a **Share** button with a dropdown menu or a **Share** icon with three dots.
 
-3. Select **Add a personal note** if you want to add more context while sharing the summary of objectives.
+1. Select **Share** and choose the specific [way you want to share goals content](#ways-to-share-goals-content), such as by a copy link, email, Teams, or Slack.
 
-      :::image type="content" source="../media/goals/4/410/a.png" alt-text="Screenshot shows the Share objectives dialog." lightbox="../media/goals/4/410/a.png":::
+1. Depending on the method you chose, you may need to perform additional steps, such as selecting specific recipients or adding a message and subject.
 
-   > [!NOTE]
-   > To send yourself a preview of the message that will be shared, select **Send Preview**.
+1. Select **Share** to send the content. You will see a confirmation message once the content has been shared successfully.
 
-4. Select **Share**, and the objectives will be sent to the specified recipients.
+## Ways to share goals content
 
+You can share goals content using whichever of the below methods have been enabled for your organization. Copy links and email sharing are available by default.
+
+### Copy link
+
+This option allows you to copy the link of the content you want to share and paste it anywhere you want, such as an email, chat, or document. When someone clicks on the link, they will be taken to the Viva Goals app and see the content you shared.
+
+### Email
+
+This option allows you to send an email with the content you want to share to one or more recipients. Currently, email sharing is only possible with existing Viva Goals members. When the recipients open the email, they will see the content shared, along with a link to view the content in Viva Goals.
+
+### Microsoft Teams
+
+This option allows you to share the desired content to a Teams channel or chat. You can choose an existing channel or chat: alternatively, you can create a new one. You can also add a message and a subject to the post. When someone sees the post, they will see the content you shared, along with a link to view the content in Viva Goals.
+> [!NOTE]
+> The Microsoft Teams option is only available if your organization has enabled the [Teams integration](ms-teams-integration.md) for Viva Goals.
+
+### Slack
+
+This option allows you to share the desired content to a Slack channel or direct message. You can choose an existing channel or direct message: alternatively, you can create a new one. You can also add a message to the post. When someone sees the post, they will see the content you shared.
+
+> [!NOTE]
+> The Slack option is only available if your organization has enabled the [Slack integration](slack-collaborate-with-viva-goals.md) for Viva Goals.
