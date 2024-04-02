@@ -24,7 +24,7 @@ description: A guide to creating and managing Microsoft Copilot Academy
 
 Microsoft Copilot Academy is built in to develop user skills associated with Copilot usage. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
 
-![Screenshot of the Microsoft Copilot Academy home page](../media/learning/academy-copilot-home-page.png)
+![Screenshot of the Microsoft Copilot Academy home page.](../media/learning/academy-copilot-home-page.png)
 
 ## Prerequisites for Microsoft Copilot Academy
 
@@ -42,7 +42,7 @@ Users with Microsoft Copilot and Viva Suite premium licenses will receive an in-
 
 Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
 
-![Screenshot of the Manage academies page in the admin tab](../media/learning/academy-copilot-admin.png)
+![Screenshot of the Manage academies page in the admin tab.](../media/learning/academy-copilot-admin.png)
 
 ## Language support 
 
