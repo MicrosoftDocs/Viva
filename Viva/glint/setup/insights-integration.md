@@ -18,7 +18,7 @@ ms.localizationpriority: high
 ms.date: 04/01/2024
 ---
 
-# Integrate Viva Glint into Viva Glint
+# Integrate Viva Glint into Viva Insights
 
 HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
