@@ -43,14 +43,14 @@ The following skills-based scenarios are enabled in **private preview** for Viva
 
 Set the **Default Language** for Viva Learning to English-US (en-US): Go to the Viva Learning **Admin** tab and then select **Language preferences**. 
 
-- When Skills is enabled in Viva Learning, any interests that users previously selected in Viva Learning are deleted. Users lose all associated personalized experiences in Viva Learning. This applies to **both** users who are part of the private preview and those who are not part of the private preview.  
-- If EN_US interests are not included as skills then en_US interests selections will also be lost.
-To ensure users interests selection and associated personalized experience for en_US interests selection are not lost, existing “EN_US interests need to be included as **skills**.
+- When Skills is enabled in Viva Learning, any interests that users previously selected in Viva Learning are deleted. Users lose all associated personalized experiences in Viva Learning. This applies to **both** users who are part of the preview and those who aren't part of the preview.  
+- If en_US interests aren't included as skills, then en_US interests selections are also lost.
+To ensure users interests selection and associated personalized experience for en_US interests selection aren't lost, existing “EN_US interests need to be included as **skills**.
 
 > [!NOTE]
 > As the current preview is only supported for the en_US language, any non en-US interest that users previously selected in Viva Learning are deleted. Users lose all associated personalized experiences in Viva Learning. This applies to both users who are part of preview and those who are not part of the preview. 
  
-- Prior to the preview, any content that's manually tagged with interests in Viva Learning can be lost. Only the manually-tagged interests from Viva Learning are lost. Tags originating from the source remain intact. 
+- Before the preview, any content that's manually tagged with interests in Viva Learning can be lost. Only the manually tagged interests from Viva Learning are lost. Tags originating from the source remain intact. 
 - Admins should only select **Allow Skills in Viva Learning** if they're ready to delete existing interest-related content and data in line with the above information. 
 
 
@@ -58,21 +58,21 @@ To ensure users interests selection and associated personalized experience for e
 
 To ensure any existing interests in en-US are included as skills when your organization turns on skills in Viva Learning: 
 
-> [!NOTE]: 
+> [!NOTE] 
 > Skills that are not en_US are lost.
 
 - Export your organization's current interests in Viva Learning by going to the Viva Learning **Admin** tab > Manage interests > Export. Download the file when the export is processed. 
 
 - Go to **Manage skills library** in the Microsoft 365 admin center and follow these steps to import your organization's existing interests as custom skills. Once the import is complete, you need to allow skills in Viva Learning.
 
-> [!NOTE]:
+> [!NOTE]
 > During the data migration, ensure that the external code of interests in Viva Learning is the same for the skills during the custom skills import.
 
 ## Skills in Viva Learning
 
-These "manage skills" scenarios are available in private preview:
+These "manage skills" scenarios are available in preview:
 
-1. When you allow skills to be available in Viva Learning from the skills setup and management experience (Microsoft 365 admin center), the existing **Import** and **Export** buttons are hidden in the Manage Skills view. Learning will then start importing skills from your organization's skills library in the Microsoft 365 admin center to power the app's skills experiences. 
+1. When you allow skills to be available in Viva Learning from the skills setup and management experience (Microsoft 365 admin center), the existing **Import** and **Export** buttons are hidden in the Manage Skills view. Learning starts importing skills from your organization's skills library in the Microsoft 365 admin center to power the app's skills experiences. 
 
 2. Admins can view any skills and skills description with supported languages that are available in their skills library from the skills library from the **Admin** tab in Learning.
 
@@ -86,7 +86,7 @@ Learn more about [managing the interests](/viva/learning/interests) that are cur
 
 ## Learning and skill suggestions
 
-The following learning scenarios are available in private preview:
+The following learning scenarios are available in preview:
 
 1. Personalized learning suggestions on the Viva Learning home page based on a user's role and activities in Microsoft 365. The course suggestions appear in the "based on your recommended skills" section on the Viva Learning home page. 
 
@@ -99,7 +99,7 @@ The following learning scenarios are available in private preview:
 
 1. Choosing a skill provides the user with personalized learning courses on that topic. 
 
-Learn more about personalizing th elearning by managing the [interests currently available](https://support.microsoft.com/en-au/office/personalize-your-learning-with-viva-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) in Viva Learning.
+Learn more about personalizing the learning by managing the [interests currently available](https://support.microsoft.com/en-au/office/personalize-your-learning-with-viva-learning-ca774f08-6bed-441b-a74b-3aac15cd9019) in Viva Learning.
 
 - Learners can browse all the skills available in their organization alphabetically and can search for specific skills.
 
@@ -114,7 +114,7 @@ Learn more about personalizing th elearning by managing the [interests currently
 Any tags that were manually added to content prior to the current preview will be lost.
 Both auto and manual content tagging are supported only for English language in the current preview. 
 
-The following content tagging scenarios enabled for admins in the private preview:
+The following content tagging scenarios enabled for admins in the preview:
 
 - Admins can export content metadata to review the autogenerated tags for the content catalog. After review, admins can also provide consent to use autogenerated tags for improved search relevance and content recommendations. 
 
