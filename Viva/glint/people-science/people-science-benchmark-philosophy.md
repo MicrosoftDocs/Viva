@@ -15,14 +15,15 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/15/2024
+ms.date: 04/02/2024
 ---
 
 # Viva People Science - Philosophy on appropriate use of benchmarks as comparisons
 
 At Viva Glint, we believe benchmarks provide useful, level-setting comparisons during an initial survey, but they are not nearly as useful to the organization as internal and trend (historical) comparisons in subsequent surveys. 
 
-- With nearly 10 years of experience with benchmarking, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, thus enabling us to offer global, high-performing, industry, and country benchmark suites using cross-customer data* exclusively.
+- With more than 10 years of experience with benchmarking, we serve over 1,300 global customers from across nearly every industry. Most of our customers use common survey questions, thus enabling us to offer global, high-performing, industry and country benchmark suites using cross-customer data* exclusively.
+  
 - If our customers wish to use benchmarks, we strongly urge the use of our standards: The overall global and high-performance (top 10th & top 25th percentile) benchmarks, which are more robust and aspirational than a custom (for example, an industry-specific) norm.
 
 >[!NOTE]
@@ -42,8 +43,8 @@ Additionally, we review item usage across our entire taxonomy twice a year to en
 
 :::image type="content" source="../../media/glint/reports/benchmark-arrows.png" alt-text="Graph of the Viva Glint benchmark generation process.":::
 
-For industry and country benchmarks, Viva Glint takes extra steps to ensure a suite will have all core Engagement items, including:
--	Review of number of core items used by at least 15 clients
+For industry and country benchmarks, Viva Glint takes extra steps to ensure suites have all core Engagement items, including:
+-	Review of number of core items used by at least 15 clients:
  -	If fewer than 15 of the 21 core items meet the threshold, the suite is tagged as “Developing,” as we expect greater volatility of scores.
--	Using a blended score for individual items slightly below the threshold
+-	Using a blended score for individual items slightly below the threshold:
  - 	This blended score is based on relationships found with the Global benchmark, combined with the client data for the suite itself.
