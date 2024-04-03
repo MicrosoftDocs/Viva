@@ -20,22 +20,20 @@ ms.date: 04/10/2023
 
 # Prepare and upload your employee data to Viva Glint
 
-Your organizational data can appear in the Microsoft Viva Glint app through a .csv or .xlsx file that you as an admin upload.
+Microsoft Viva Glint refers to employee data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
 
-Viva Glint refers to this data as "attributes." Attributes are data about the people in your organization, which are then used to convert feedback into insightful and action-oriented intelligence to improve employee engagement and achieve business goals.
+Learn what we collect, why, how you deliver it to us, and how we use it to deliver insights:
 
-Learn what we collect, why, how you deliver it to us, and how we use it to help you improve your business:
+- [Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
 
-[Viva Glint employee attribute fundamentals](https://go.microsoft.com/fwlink/?linkid=2230738)
+- [Viva Glint's organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
 
-[Viva Glint's organizational hierarchy fundamentals](https://go.microsoft.com/fwlink/?linkid=2230861)
+- [Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230862)
 
-[Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230862)
+- [Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
 
-[Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
+- [Understand Viva Glint SFTP and data automation](https://go.microsoft.com/fwlink/?linkid=2247429)
 
-[Understand Viva Glint SFTP and data automation](https://go.microsoft.com/fwlink/?linkid=2247429)
+- [Upload your attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
 
-[Upload your attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
-
-[Understand upload errors and warnings](https://go.microsoft.com/fwlink/?linkid=2230863)
+- [Understand upload errors and warnings](https://go.microsoft.com/fwlink/?linkid=2230863)
