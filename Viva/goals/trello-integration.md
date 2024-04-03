@@ -1,5 +1,5 @@
 ---
-ms.date: 03/29/2024
+ms.date: 04/03/2024
 title: Trello integration
 ms.reviewer: 
 ms.author: rasanders
@@ -30,17 +30,19 @@ If you're an admin, follow these steps to set up a Trello integration in Viva Go
 
 1. Go to the Viva Goals integrations page:  **Admin** > **Integrations**.
 
-    :::image type="content" source="../media/goals/8/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/8/viva-goals-integrations-page.png":::
-
 1. Find Trello under the **Data Integrations** section, or use the search function to locate it.
 
-1. Next to Trello, select **Enable**. Note that if a Trello integration has already been enabled, the button will say **Manage** instead of **Enable**.
+    :::image type="content" source="../media/goals/8/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/8/viva-goals-integrations-page.png":::
 
-    :::image type="content" source="../media/goals/8/trello-enable-button.png" alt-text="Screenshot shows where you enable Trello in Viva Goals." lightbox="../media/goals/8/trello-enable-button.png":::
+1. Next to Trello, select **Enable**. Note that if a Trello integration has already been enabled, the button will say **Manage** instead of **Enable**.
 
 1. Select **New Connection**. In the dialog that follows, sign in to your Trello account. Next, configure Trello connections to link to your key results to update progress.
 
      :::image type="content" source="../media/goals/8/trello-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new Trello connection." lightbox="../media/goals/8/trello-configure-new-connection.png":::
+
+     :::image type="content" source="../media/goals/8/trello-sign-in.png" alt-text="Screenshot that shows the Connect to Trello dialog with an option to sign in to Trello." lightbox="../media/goals/8/trello-sign-in.png":::
+
+     :::image type="content" source="../media/goals/8/trello-connect-to.png" alt-text="Screenshot that shows the Connect to Trello dialog with connection options filled out." lightbox="../media/goals/8/trello-connect-to.png":::
 
 1. Select **Next** to finish setup.
 
@@ -55,7 +57,7 @@ Once setup is complete, users in your organization can link their key results to
     :::image type="content" source="../media/goals/8/trello-datasource.png" alt-text="Screenshot shows where you select Trello as the data source in Viva goals." lightbox="../media/goals/8/trello-datasource.png":::
 
 1. If you already created a Trello connection or had one shared with you by an administrator in your organization, that connection will be automatically selected for you. If you don't have access to any existing connections, Viva Goals will prompt you to add a new connection.
-<!--This is the point past which I can't yet fact-check.-->
+
 1. After you select or add a connection, select the Trello **Board** that has the cards data that you want to connect to a key result.
 
     :::image type="content" source="../media/goals/8/trello-connection-details.png" alt-text="Screenshot shows how you specify the Trello board and other details for your new connection." lightbox="../media/goals/8/trello-connection-details.png":::
@@ -72,11 +74,11 @@ Once setup is complete, users in your organization can link their key results to
     If you have the completed blogs marked as *labels* in Trello instead, you can select the label that you use to mark cards as completed from the **Labels** dropdown. You can also use labels to filter specific cards that belong to a category or subcategory.
 
     You can also filter based on completion status. You can filter cards that have due dates and that are marked as completed or not completed. To select cards with any status, choose **Any**.
-    <!--Check "percent complete/% completed/percent completed/%complete language-->
+
     **% Completed versus KPI**
 
     Viva Goals will track progress based on whether the objective was measured by KPI or percent complete. For KPI-based objectives, progress will be computed based on the number of cards that match your filters and the configuration. An objective like **Complete 10 blog posts** falls into this category.
 
     For percent complete-based objectives, Viva Goals will compute the progress based on the percentage of cards that have a **Completed** status out of the total number of cards that match the filters and the configuration. In this case, a good example would be if you had a board with a list of cards that map to an initiative, and you wanted to measure the progress of the initiative over time.
 
-1. Select **Next** to finish and save your key result. You should now see a Trello icon next to the key result. The key result syncs automatically every hour. To refresh it manually, select **refresh**.<!--Verify that.-->
+1. Select **Next** to finalize and save your key result. You should now see a Trello icon in your key result's **Last updated** column. The key result syncs automatically every hour. To refresh it manually, select the Trello icon and choose **Sync**.
