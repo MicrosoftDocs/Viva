@@ -1,5 +1,5 @@
 ---
-ms.date: 11/20/2023
+ms.date: 04/03/2024
 title: "Customize and edit the Viva Connections home experience"
 ms.reviewer: 
 ms.author: evanatkin
@@ -150,7 +150,6 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 10. **Scoped Search**: Users have the option to search within Viva Connections when using the search bar while in the Connections experience. As users type, the option to search for results within Connections (or Teams) will display.
 
     > [!NOTE]
-    > - Scoped Search is currently only available in Teams classic to all customers. A future update is planned to bring this feature to the [new Teams client](/microsoftteams/new-teams-desktop-admin).
     > - Scoped search in the new Teams client is not available for GCC and GCC High customers, and will be made available with a future update.
 
 11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
