@@ -171,3 +171,9 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 
 To add new attributes or rename attributes after your initial setup, use [Update attributes in Viva Glint](update-attributes.md) guidance.
 
+## Next step
+After setting up your attributes in Viva Glint, choose a data upload method and upload your employee data.
+
+> [!div class="nextstepaction"]
+> [Choose a data upload method](choose-upload-method.md)
+
