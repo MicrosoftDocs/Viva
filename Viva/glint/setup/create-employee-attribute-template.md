@@ -70,8 +70,8 @@ The first page of the template contains instructions for building your own templ
 | **Derivation** | Other fields configured based on employee attributes. <p>Examples: Age groups can be derived from birth year or tenure can be derived from hire date. |
 | **Schema** | The framework in our platform’s backend, which stores a mapping of your organization’s attributes. |
 
-## Next steps with your Employee Attribute Template
+## Next step
+After finalizing your attribute selections, reporting hierarchies, file and date attribute format, set up attributes in Viva Glint to create a mapping of your employee attributes and allow your data files to upload.
 
-After finalizing your attribute selections, reporting hierarchies, file and date attribute format, use the guidance here to set up attributes: [Setup attributes in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2247991).
-
-
+> [!div class="nextstepaction"]
+> [Setup attributes in Viva Glint](send-employee-attributes.md)

@@ -88,3 +88,9 @@ Four columns are needed to enter this departmental hierarchy on the Employee Att
 - Departmental Level 2 – Department (ex: IT)
 - Departmental Level 3 – Function (ex: Operations)
 - Departmental Level 4 – Subfunction (ex: User Support)
+
+## Next step
+Use Viva Glint attribute and hierarchy information to populate your Viva Glint Employee Attribute Template, which serves as a planning tool for your employee data file attributes, layout, and format.
+
+> [!div class="nextstepaction"]
+> [Viva Glint Employee Attribute Template](create-employee-attribute-template.md)
