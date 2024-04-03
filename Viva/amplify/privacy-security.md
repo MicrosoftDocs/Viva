@@ -23,10 +23,18 @@ description: Learn about privacy, security, and data storage in Microsoft Viva A
 
 # Privacy and security in Microsoft Viva Amplify
 
-Microsoft Viva Amplify follows standard Microsoft 365 privacy and security protocols. If your organization is using SharePoint, Amplify will use the same privacy and security standards.
+If your organization is using SharePoint, Amplify will use the same privacy and security standards.
+
+## Security
+
+Microsoft Viva Amplify follows Microsoft Viva security standards. [Learn more about security in Microsoft Viva](/Viva/viva-security.md).
+
+## Privacy
 
 Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting is not recommended.
 
-[Learn more about data privacy in Microsoft 365](https://www.microsoft.com/trust-center/privacy).
+[Learn more about privacy in Microsoft Viva](/viva/viva-privacy.md).
 
-[Learn more about data residency in Microsoft 365](https://www.microsoft.com/trust-center/privacy/data-location).
+## How Viva Amplify stores Approvals data
+
+Viva Amplify approval stores data in Dataverse tables following the Power Platform guidelines and policies for data storage. Approvals created using templates may store some data outside the local region. However, this is not applicable for approvals created in Viva Amplify because Viva Amplify approvals don't use templates. As a result, Viva Amplify approvals data is always stored in the local region.
