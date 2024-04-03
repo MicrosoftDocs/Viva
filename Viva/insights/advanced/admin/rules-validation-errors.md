@@ -25,16 +25,20 @@ When any data row or column has an invalid value for any attribute, the entire u
 
 The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
-### Rules for field headers
+### Rules for source and target field headers
 
-All field header or column names need to: 
+All source and target field header or column names need to: 
 
-* Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Other characters aren’t supported.
-* Contain a value.
-* Have no leading, middle, or trailing blank spaces, or special non-alphanumeric characters such as @, #, %, or &.
-* Be unique.
-* Contain no system fields, which are:
-    *  PeopleHistoricalId
+1. Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Special non-alphanumeric characters such as @, #, %, &, or other characters aren’t supported.
+2. Contain a value.
+3. Be unique. 
+
+### Rules for custom target field headers
+
+ All custom target field headers or column names need to:  
+1. Have no leading, middle, or trailing blank spaces.  
+2. Contain no system fields, which are: 
+    * PeopleHistoricalId
     * StartDate
     * EndDate
     * Domain
@@ -46,7 +50,9 @@ All field header or column names need to:
     * WeekendDays
     * InferredTeamSize
     * ObjectId
-    * Microsoft_
+    * IsActive
+    * Starting with "Microsoft_"
+    
 
 
 Required fields need to have a value for every row.
