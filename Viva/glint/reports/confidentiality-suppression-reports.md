@@ -20,7 +20,7 @@ ms.date: 04/04/2024
 
 # Understand Viva Glint confidentiality and suppression in reports
 
-Threshold settings determine how item scores, response rates, and comments display for Microsoft Viva Glint users. Use this guidance to understand each threshold and gain a better understanding of how users' confidentiality is protected in different reports based on these settings. For more information on adjusting confidentiality thresholds, see: [Manage Viva Glint confidentiality thresholds](/setup/manage-confidentiality-thresholds.md).
+Threshold settings determine how item scores, response rates, and comments display for Microsoft Viva Glint users. Use this guidance to understand each threshold and gain a better understanding of how users' confidentiality is protected in different reports based on these settings. For more information on adjusting confidentiality thresholds, see: [Manage Viva Glint confidentiality thresholds](/setup/manage-confidentiality-thresholds).
 
 ## Rated Confidentiality Threshold
 
