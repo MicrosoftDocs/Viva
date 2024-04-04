@@ -26,11 +26,15 @@ Threshold settings determine how item scores, response rates, and comments displ
 
 ### Definition
 
-The minimum number of responses required to show scores and response counts for rated items. Glint’s default Confidentiality Threshold is five (5).
+The minimum number of responses required to show scores and response counts for rated items. 
+
+### Default setting
+
+Viva Glint’s default Confidentiality Threshold is five (5).
 
 ### Related terms
 
-Insufficient: Indicates that the Confidentiality Threshold isn't met and a group’s scores don't display.
+**Insufficient:** Indicates that the Confidentiality Threshold isn't met and a group’s scores don't display.
 
 ### Example
 
@@ -46,13 +50,19 @@ Two of Ángel Valádez’s teams don’t have enough respondents to meet the rat
 
 ### Definition
 
-To protect the identity of groups whose responses are insufficient, the Suppression Threshold suppresses the next smallest group until the total responses of the insufficient groups meet this threshold. Glint’s default Suppression Threshold is two (2).
+To protect the identity of groups whose responses are insufficient, the Suppression Threshold suppresses the next smallest group until the total responses of the insufficient groups meet this threshold.
+
+### Default setting
+
+Viva Glint’s default Suppression Threshold is two (2).
 
 ### Related terms
 
-Filter suppression: To add another layer of protection, admins can enable filter suppression, which prevents users from isolating what should be suppressed groups with report filtering. To enable, go to **Configuration**, choose **Advanced Configuration**, and in the **Details** section select the checkbox next to **Enable Filter Suppression on Scores** and **Save Changes**.
+**Filter suppression:** To add another layer of protection, admins can enable filter suppression, which prevents users from isolating what should be suppressed groups with report filtering. To enable, go to **Configuration**, choose **Advanced Configuration**, and in the **Details** section select the checkbox next to **Enable Filter Suppression on Scores** and **Save Changes**.
 
 ### Examples
+
+#### Example 1
 
 Ana Bowman’s team doesn't meet the rated confidentiality of five (5) and Ángel Valádez’s directs are suppressed to protect the identity of Ana Bowman’s team respondent.
 
@@ -61,6 +71,8 @@ Ana Bowman’s team doesn't meet the rated confidentiality of five (5) and Ánge
 - **Parent Team Suppression Threshold:** 400
 
 :::image type="content" source="../../media/glint/reports/heat-map-mgr-suppressed.png" alt-text="Screenshot of a heat map report where a manager team has insufficient results and another manager team is suppressed.":::
+
+#### Example 2
 
 When a user views Department scores side by side, Executives and Support aren't displayed in reports. The Executives department doesn’t meet the rated confidentiality threshold with a respondent count of one (1). To protect the identity of the respondent for the Executives department, the next largest team, Support, is suppressed.
 
@@ -74,7 +86,11 @@ When a user views Department scores side by side, Executives and Support aren't 
 
 ### Definition
 
-This threshold acts as an exception to allow what would be suppressed data to display when the group's response count meets the threshold. Glint’s default Parent Team Suppression Threshold is 400 (200 times the Suppression Threshold).
+This threshold acts as an exception to allow what would be suppressed data to display when the group's response count meets the threshold.
+
+### Default setting
+
+Viva Glint’s default Parent Team Suppression Threshold is 400 (200 times the Suppression Threshold).
 
 ### Example
 
@@ -90,7 +106,11 @@ When a user views Department scores side by side, Executives isn't displayed in 
 
 ### Definition
 
-Response rates (percentages and counts) can't be displayed for groups smaller than this number. Glint’s default Response Rate Threshold is five (5). For a consistent reporting experience across item scores and response rates in reports, this threshold matches the Rated Confidentiality Threshold.
+Response rates (percentages and counts) can't be displayed for groups smaller than this number. For a consistent reporting experience across item scores and response rates in reports, this threshold matches the Rated Confidentiality Threshold.
+
+### Default setting
+
+Viva Glint’s default Response Rate Threshold is five (5).
 
 ### Example
 
@@ -102,7 +122,11 @@ Ana Bowman's Team is flagged as insufficient in the Response Rate report because
 
 ### Definition
 
-To avoid scenarios where comments might be tied back to the respondent, comments for groups that don't meet this survey response (not comments) threshold aren't displayed. Glint’s default Comments Confidentiality Threshold is 10.
+To avoid scenarios where comments might be tied back to the respondent, comments for groups that don't meet this survey response (not comments) threshold aren't displayed.
+
+### Default setting
+
+Viva Glint’s default Comments Confidentiality Threshold is 10.
 
 ### Example
 
@@ -114,7 +138,11 @@ Ana Bowman's team doesn't have enough responses to meet the Comments Confidentia
 
 ### Definition
 
-To avoid scenarios where comments might be tied back to the respondent, comments for filtered groups aren't visible or searchable until survey responses (not comments) meet this number. Glint’s default Comments Search Threshold is 10.
+To avoid scenarios where comments might be tied back to the respondent, comments for filtered groups aren't visible or searchable until survey responses (not comments) meet this number.
+
+### Default setting
+
+Viva Glint’s default Comments Search Threshold is 10.
 
 ### Example
 
