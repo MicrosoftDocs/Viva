@@ -161,7 +161,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 7. **Resources:** Create a list of navigational links and icons to useful sites and information.
 
-### Summary of non-customizable elements
+   ### Summary of non-customizable elements
 
    :::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
