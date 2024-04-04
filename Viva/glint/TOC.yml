@@ -243,6 +243,8 @@ items:
         href: reports/aggregate-trending.md
       - name: Report customization
         href: reports/report-customization.md
+      - name: Understand Viva Glint confidentiality and suppression
+        href: reports/confidentiality-suppression-reports.md     
       - name: Viva Glint admin reports
         items:
          - name: Response Rates & Access report 
