@@ -274,7 +274,7 @@ Daily connected hours | Daily connected hours measures time in 30-minute blocks 
 |Internal network size|Internal network size measures the number of colleagues connected to the person. Connections are based on at least two interactions in the prior four-week period, excluding very large and long interactions. 
 |Manager co-attendance rate	| Manager co-attendance rate measures what percentage of meeting hours are attended by both the person and the person’s direct manager.
 
-## Organization insights FAQs
+## FAQs
 
 ### Q1. Can I opt in or opt out of seeing organization insights?
 
