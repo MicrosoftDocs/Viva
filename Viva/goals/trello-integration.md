@@ -1,6 +1,6 @@
 ---
-ms.date: 04/17/2022
-title: "Trello Integration"
+ms.date: 04/03/2024
+title: Trello integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -17,60 +17,59 @@ ms.collection:
 - vg-integration
 search.appverid:
 - MET150
-
-description: "Learn how to use the Trello integration with your OKRs."
+description: "Learn how to integrate Trello with your key results."
 ---
 
 # Trello integration
 
-Viva Goals can integrate with boards in Trello to automatically update your objectives and key results (OKRs) in Viva Goals. 
-    
-Let's consider this example: You're a marketer who uses a Trello board to keep track of blog posts you want to publish. Use can use Trello integration to easily keep track of completed posts. Viva Goals will sync the values for you and chart your progress toward your OKR, saving time while keeping your OKRs current.
+Viva Goals can integrate with Trello board to automatically update key results in Viva Goals. For example, let's say you're a marketer who uses a Trello board to keep track of blog posts you want to publish. Integrating with Trello would let you easily keep track of which posts have been completed from within Viva Goals.
 
-## How to set up Trello integration
+## Set up a Trello integration
 
-An admin follows these steps to set up the Trello integration in Viva Goals: 
+If you're an admin, follow these steps to set up a Trello integration in Viva Goals:
 
-1. Go to Viva Goals integrations page:  **Admin** -> **Integrations**.
-    
+1. Go to the Viva Goals integrations page:  **Admin** > **Integrations**.
+
+1. Find Trello under the **Data Integrations** section, or use the search function to locate it.
+
     :::image type="content" source="../media/goals/8/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/8/viva-goals-integrations-page.png":::
 
-2. **Enable** Trello integration.
-    
-    :::image type="content" source="../media/goals/8/trello-enable-button.png" alt-text="Screenshot shows where you enable Trello in Viva Goals." lightbox="../media/goals/8/trello-enable-button.png":::
+1. Next to Trello, select **Enable**. Note that if a Trello integration has already been enabled, the button will say **Manage** instead of **Enable**.
 
-3. Select **New Connection**. In the dialog that follows, sign in to your Trello account. Next, configure Trello connections to link to your OKRs to update progress.
-    
+1. Select **New Connection**. In the dialog that follows, sign in to your Trello account. Next, configure Trello connections to link to your key results to update progress.
+
      :::image type="content" source="../media/goals/8/trello-configure-new-connection.png" alt-text="Screenshot shows where you enter a name for your new Trello connection." lightbox="../media/goals/8/trello-configure-new-connection.png":::
 
-4. Select **Next** to finish setup.
+     :::image type="content" source="../media/goals/8/trello-sign-in.png" alt-text="Screenshot that shows the Connect to Trello dialog with an option to sign in to Trello." lightbox="../media/goals/8/trello-sign-in.png":::
 
-Viva Goals lets you connect with multiple Trello accounts. Select **New connection** to add another connection. The connections are differentiated by name. These names are displayed to users when they link their OKRs to Trello boards.
+     :::image type="content" source="../media/goals/8/trello-connect-to.png" alt-text="Screenshot that shows the Connect to Trello dialog with connection options filled out." lightbox="../media/goals/8/trello-connect-to.png":::
 
-## How to use Trello integration
+1. Select **Next** to finish setup.
 
-After setup is complete, users in your organization can link their OKRs to Trello boards.
+Viva Goals lets you connect with multiple Trello accounts. Select **New Connection** to add another connection. The connections are differentiated by name. These names are displayed to users when they link their key results to Trello boards.
 
-1. When you create (or edit) an objective or key result, select **Connect data source to auto-update progress**.
+## Link a key result to a Trello board
 
-2. From the list of integrations, choose **Trello**.
-    
+Once setup is complete, users in your organization can link their key results to Trello boards.
+
+1. When you create (or edit) a key result, the **Progress and Status** dropdown will have a section with the text "Connect to a data source for automatic progress updates". Search for and select the **Trello** icon from the list of integrations.
+
     :::image type="content" source="../media/goals/8/trello-datasource.png" alt-text="Screenshot shows where you select Trello as the data source in Viva goals." lightbox="../media/goals/8/trello-datasource.png":::
 
-3. If you already created a Trello connection or an administrator in your organization shared a Trello connection with you, that connection will be automatically selected for you. If there are no connections already created or shared, Viva Goals will prompt you to add a new connection.
+1. If you already created a Trello connection or had one shared with you by an administrator in your organization, that connection will be automatically selected for you. If you don't have access to any existing connections, Viva Goals will prompt you to add a new connection.
 
-4. After you select or add a connection, select the Trello **Board** that has the cards data that you want to connect to an OKR.
-    
+1. After you select or add a connection, select the Trello **Board** that has the cards data that you want to connect to a key result.
+
     :::image type="content" source="../media/goals/8/trello-connection-details.png" alt-text="Screenshot shows how you specify the Trello board and other details for your new connection." lightbox="../media/goals/8/trello-connection-details.png":::
 
-5. After you select the Trello board, you can further filter the list of cards by selecting one or more of the following criteria:
+1. After you select the Trello board, you can further filter the list of cards by selecting one or more of the following criteria:
 
     - Cards belonging to a specific list
     - Cards assigned to a specific owner
     - Cards with a specific label
     - Cards with a specific completion status
 
-    For example, say you want to measure the number of blogs completed as a key performance indicator (KPI) in Viva Goals. If there are completed blog post cards in the **Finished** column of your Trello board, you can select **Finished** from the list of options in the **Board List** dropdown.
+    For example, let's say you want to use the number of blogs completed as a key performance indicator (KPI) in Viva Goals. If there are completed blog post cards in the **Finished** column of your Trello board, you can select **Finished** from the list of options in the **Board List** dropdown.
 
     If you have the completed blogs marked as *labels* in Trello instead, you can select the label that you use to mark cards as completed from the **Labels** dropdown. You can also use labels to filter specific cards that belong to a category or subcategory.
 
@@ -80,7 +79,6 @@ After setup is complete, users in your organization can link their OKRs to Trell
 
     Viva Goals will track progress based on whether the objective was measured by KPI or percent complete. For KPI-based objectives, progress will be computed based on the number of cards that match your filters and the configuration. An objective like **Complete 10 blog posts** falls into this category.
 
-    For percent complete-based objectives, Viva Goals will compute the progress based on the percentage of cards that have a **Completed** status to the total number of cards that match the filters and the configuration. In this case, a good example is a board with a list of cards that maps to an initiative, and you want to measure the progress of the initiative over time.
+    For percent complete-based objectives, Viva Goals will compute the progress based on the percentage of cards that have a **Completed** status out of the total number of cards that match the filters and the configuration. In this case, a good example would be if you had a board with a list of cards that map to an initiative, and you wanted to measure the progress of the initiative over time.
 
-6. Select **Next** to finish and save your OKR. You should now see a Trello icon next to the OKR/ Viva Goals will now automatically count up the finished blog posts. The OKR syncs automatically every hour. To  refresh it manually, select **refresh**. 
-    
+1. Select **Next** to finalize and save your key result. You should now see a Trello icon in your key result's **Last updated** column. The key result syncs automatically every hour. To refresh it manually, select the Trello icon and choose **Sync**.
