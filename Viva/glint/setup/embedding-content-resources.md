@@ -1,5 +1,5 @@
 ---
-title: Embedding Content Resources into Action Plans
+title: Embedding videos in Content Resources and Action Plans
 description: LinkedIn Learning videos are prepopulated into Viva Glint Action Plan templates. You can customize the template by choosing your own LinkedIn Learning video.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,10 +15,10 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/01/2024
+ms.date: 04/04/2024
 ---
 
-# Embedding Content Resources into Action Plans
+# Embedding videos into Content Resources and Action Plans
 
 LinkedIn Learning videos are selected for and attached to Viva Glint Action Plan templates. If you’re a LinkedIn Learning customer who wants to add different course content to your template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
 
@@ -26,7 +26,7 @@ LinkedIn Learning videos are selected for and attached to Viva Glint Action Plan
 
 Follow these guidelines:
 
-1.	Select the video you want to add. The preview screen displays.
+1.	Select the video to add. The preview screen displays.
     1. Select **Watch full course**.
     1.	Use the **share arrow** symbol and then select **Embed**.
     1.	Select **Unlock Video to Embed**.
@@ -34,7 +34,7 @@ Follow these guidelines:
 
 1. Paste the code into a document to save the entire URL, such as a Word or Google document.
 
-1. Locate this section of the URL, which is within quotes: **https://linkedin.com/learning/embed/** 
+1. Locate this section of the URL, which is within quotes: 'https://linkedin.com/learning/embed/' 
 
    > [!NOTE]
    > There won't be an embed code if the video is outdated and a newer version is available. Follow the outdated link to the video and a banner with a hyperlink directs you to the correct link.
