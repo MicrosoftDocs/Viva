@@ -22,6 +22,8 @@ ms.date: 03/01/2024
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable surveys for Lifecycle survey types, where the response threshold is less than three (3). [Learn more](https://go.microsoft.com/fwlink/?linkid=2238614). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
 
+For a deeper understanding of how confidentiality and suppression appear in Viva Glint reports, see: [Understand Viva Glint confidentiality and suppression in reports](/viva/glint/reports/confidentiality-suppression-reports).
+
 > [!NOTE]
 > To use Viva Glint default confidentiality thresholds, no action is needed.
 
@@ -132,7 +134,7 @@ To edit threshold values:
    > [!NOTE]
    > The survey must be in DRAFT state to make any edits. Undo the **Approved** toggle in Program Summary to make changes.
 
-   2.  Use the information in the [Understand confidentiality thresholds](#understand-confidentiality-thresholds) section to find descriptions of thresholds, default values, and impacted reports.
+   Use the information in the [Understand confidentiality thresholds](#understand-confidentiality-thresholds) section to find descriptions of thresholds, default values, and impacted reports.
 1. Select **Save Changes** at the bottom of the page.
 
 ## Identifiable surveys
