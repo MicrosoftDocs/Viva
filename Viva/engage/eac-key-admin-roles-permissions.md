@@ -76,7 +76,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 |------------|-----------------|
 |**Permissions** |<ul><li>Manages content policies, monitors keywords, data retention, security settings, and reading data in private communities</li><li>Assigns verified and network admin roles</li><li>Identify leaders and their audiences</li><li>Exports data and performs integrations with other tools</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or verified admin|
-|**How to assign**|In the [Yammer admin center]https://www.yammer.com/yammertest10.onmicrosoft.com/, select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Verified Admin**.</li></ul>|
+|**How to assign**|In the [Yammer admin center](https://www.yammer.com/yammertest10.onmicrosoft.com/), select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Verified Admin**.</li></ul>|
 
 ## Network Administrator
 
