@@ -1,5 +1,5 @@
 ---
-ms.date: 03/12/2024
+ms.date: 03/29/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -28,7 +28,8 @@ To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
 * To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [Group Manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
-* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md). 
+* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md).
+* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](./delegate-access.md).
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
@@ -45,6 +46,9 @@ Viva Insights commits that no user will discover information about another ident
 For further detail about privacy and organization insights, refer to our [privacy information](../advanced/privacy/privacy.md).
 
 ## Using organization insights
+
+>[!Note]
+>If a group manager gives you delegate access to view organization insights, you can’t see the manager’s personal insights.
 
 Organization insights are divided into two sections: **Team insights**, which are focused on your organization and teams; and **Your insights**, which are focused on your own personal working habits and productivity. Let’s start with looking at **Team insights**.
 
