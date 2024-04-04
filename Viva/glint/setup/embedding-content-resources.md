@@ -45,6 +45,8 @@ From your Viva Glint admin dashboard, select the **Configure symbol** and then *
 
 1.	Select **Ok** on the *Adding a new item adds it for all languages* message.
 
+:::image type="content" source="../../media/glint/setup/new-item-languages.png" alt-text="Screenshot of *New item languages* dialog box.":::
+
 1.	Describe and name your new resource.
     1. In the *Untitled Resource* bar, enter the *actual* video title.
     1. For *Title*, select a title that helps you easily identify the video.
@@ -84,13 +86,15 @@ From your Viva Glint admin dashboard, select the **Configure symbol** and then *
 
 3.	Delete the old Suggested Action.
 
-4.	Add the cloned copy of the Suggested Action.
+:::image type="content" source="../../media/glint/setup/delete-suggested-action.png" alt-text="Screenshot of hovering over and using the trash can symbol to delete a Suggested Action Item.":::
 
-5.	Select **Save**.
+5.	Add the cloned copy of the Suggested Action.
 
-6.	Select **Publish**.
+6.	Select **Save**.
 
-7.	Confirm the update.
+7.	Select **Publish**.
+
+8.	Confirm the update.
 
 
 
