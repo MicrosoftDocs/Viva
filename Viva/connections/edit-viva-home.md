@@ -90,21 +90,19 @@ If your organization has created [multiple Connections experiences](/viva/connec
 2. Select the **ellipsis** in the upper-right of your experience.
 3. Then select **Switch Experience**.
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted."lightbox="../media/connections/edit-viva-home/vc3-switch-experience.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted."lightbox="../media/connections/edit-viva-home/vc3-switch-experience.png":::
 
-> [!NOTE]
->
-> Only users with edit privileges will be able to see the Switch Experience option in the menu.
+   > [!NOTE]
+   > Only users with edit privileges will be able to see the Switch Experience option in the menu.
 
 4. A list of created experiences display along with their status (enabled or draft). Select an **Experience** to switch to.
 5. Select **Switch**.
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
 
-> [!NOTE]
->
-> - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-> - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. For more information about service availability, [see the list of service availability here](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+   > [!NOTE]
+   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+   > - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. For more information about service availability, [see the list of service availability here](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 #### Give permission to edit from Viva Connections in Teams
 
@@ -163,9 +161,9 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 7. **Resources:** Create a list of navigational links and icons to useful sites and information.
 
-### Summary of non-customizable elements
+   **Summary of non-customizable elements**
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
 8. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
 
@@ -283,7 +281,7 @@ Resources provide links to the most popular portals and destinations at your org
 
 2. To add a new link, select **+ Add Link**.  
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing options to add a link, reorder links, or finish editing (done)."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing options to add a link, reorder links, or finish editing (done)."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
 
 3. In the Add a Link window that opens, paste the link to the site in the **URL** field.
     - Only modern SharePoint sites and certain Microsoft 365 experiences will display in Teams. All other types of content will open in a separate browser window.
@@ -298,11 +296,11 @@ Resources provide links to the most popular portals and destinations at your org
 
 7. Select **Save**.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties."lightbox="../media/connections/edit-viva-home/atr-audiences-to-target.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties."lightbox="../media/connections/edit-viva-home/atr-audiences-to-target.png":::
 
 8. The new resource will appear. If audience targeting is active, you’ll see an icon in the upper left of the resource link.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
 
 ### Edit an existing resource link
 
@@ -312,7 +310,7 @@ Resources provide links to the most popular portals and destinations at your org
 
 3. Select **Edit** to open the resource link and change its settings.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
 
 ### Delete and existing resource link
 
@@ -322,7 +320,7 @@ Resources provide links to the most popular portals and destinations at your org
 
 3. Select **Delete**.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-delete-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-delete-resource.png":::
 
 4. When asked to confirm, select **Delete**.
 
@@ -332,7 +330,7 @@ Resources provide links to the most popular portals and destinations at your org
 
 2. Select **Reorder**.
 
-:::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing the option to reorder links."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-reorder-resources.png" alt-text="Screenshot showing the option to reorder links."lightbox="../media/connections/edit-viva-home/atr-reorder-resources.png":::
 
 3. Select a resource link and drag it to its new location.
 
