@@ -134,7 +134,7 @@ To edit threshold values:
    > [!NOTE]
    > The survey must be in DRAFT state to make any edits. Undo the **Approved** toggle in Program Summary to make changes.
 
-   2.  Use the information in the [Understand confidentiality thresholds](#understand-confidentiality-thresholds) section to find descriptions of thresholds, default values, and impacted reports.
+   Use the information in the [Understand confidentiality thresholds](#understand-confidentiality-thresholds) section to find descriptions of thresholds, default values, and impacted reports.
 1. Select **Save Changes** at the bottom of the page.
 
 ## Identifiable surveys
