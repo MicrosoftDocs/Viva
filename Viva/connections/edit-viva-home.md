@@ -84,7 +84,7 @@ If you're setting up Viva Connections for the first time, only owners of the Sha
 
 ### How to switch between multiple Viva Connections experiences
 
-If your organization has created [multiple Connections experiences](viva-connections-overview#viva-connections-allows-for-multiple-home-sites-across-multiple-experiences), you can switch between enabled and draft experiences from within Connections in order to edit them.
+If your organization has created [multiple Connections experiences](/viva-connections-overview#viva-connections-allows-for-multiple-home-sites-across-multiple-experiences), you can switch between enabled and draft experiences from within Connections in order to edit them.
 
 1. Navigate to the Viva Connections app in Teams.
 2. Select the **ellipsis** in the upper-right of your experience.
