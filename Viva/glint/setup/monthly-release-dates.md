@@ -20,14 +20,14 @@ ms.date: 02/16/2024
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
 
-Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Monthly “release notes” to all customers and provide details about what's upcoming to the Viva Glint platform. Releases include scheduled downtime for the platform.  
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the platform.  
 
 Planned release dates are provided in the table below. The release schedule is subject to change and is updated, as appropriate. 
 
-|Release number|Planned date for new feature releases and enhancements|
-|--------------|-------------------------------------------------------|
-|Release 69|March 9, 2024|
-|Release 70|April 6, 2024|
+|Release number|Planned date for new feature releases and enhancements|Read the blog|
+|--------------|-------------------------------------------------------|------------|
+|Release 69|March 9, 2024|[March newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/march-2024-viva-glint-newsletter/ba-p/4072981)|
+|Release 70|April 6, 2024|[April newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/april-2024-viva-glint-newsletter/ba-p/4100871)|
 |Release 71|May 4, 2024|
 |Release 72|June 1 2024|
 |Release 73|June 28, 2024|
