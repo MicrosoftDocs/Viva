@@ -58,7 +58,7 @@ When the **Require Azure AD for links in survey emails** setting in **General Se
 
 Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys by entering two unique pieces of employee information selected by an admin rather than authenticating in Viva Glint. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. To set up attribute-based survey access, follow the guidance in this article: [Set up attribute-based survey access in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230745).
 
-## Survey session timeouts
+## Survey session time-outs
 
 Depending on the survey access method that your organization selects, users are prompted to continue their session and have their sessions ended after different periods of inactivity. 
 
