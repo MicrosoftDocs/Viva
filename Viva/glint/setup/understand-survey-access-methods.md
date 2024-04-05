@@ -25,6 +25,9 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 > [!NOTE] 
 > Viva Glint recommends that admins enable the requirement for users to authenticate with Microsoft Entra ID as the most secure method to administer surveys. This access method also allows for participation in integrations accross other Viva applications.
 
+> [!IMPORTANT] 
+> Survey access with authentication via Entra and personalized survey links send email invites and reminders with the correct links for survey access. Admins can't copy links from the Viva Glint platform to share with users as a survey access method.
+
 <a name='set-up-survey-access-that-requires-authentication-with-azure-active-directory'></a>
 
 ## Set up survey access that requires authentication with Microsoft Entra ID
