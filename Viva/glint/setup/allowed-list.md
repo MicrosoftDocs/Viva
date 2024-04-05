@@ -58,7 +58,8 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 
 | Host | TCP port | Description |
 | --- | --- | --- |
-| sftp.us1.glint.cloud.microsoft | 1122 or 22* | Secure File Transfer Protocol |
+| sftp2.us1.glint.cloud.microsoft | 22* | Secure File Transfer Protocol |
+| sftp.us1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glintus1.azurefd.net | 443 | Viva Glint CDN |
@@ -70,7 +71,8 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 
 | Host | TCP port | Description |
 | --- | --- | --- |
-| sftp.eu1.glint.cloud.microsoft | 1122 or 22* | Secure File Transfer Protocol |
+| sftp2.eu1.glint.cloud.microsoft | 22* | Secure File Transfer Protocol |
+| sftp.eu1.glint.cloud.microsoft | 1122 | Secure File Transfer Protocol |
 | www.microsoft.com | 443 | Viva Glint Website (US and EU) |
 | techcommunity.microsoft.com | 443 | Viva Glint Community |
 | fd-glint-glinteu1.azurefd.net | 443 | Viva Glint CDN |
@@ -79,7 +81,7 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 | feedback.eu1.glint.cloud.microsoft | 443 | Viva Glint survey landing page |
 
 > [!NOTE]
-> Port 22 is available after April 6, 2024.
+> Port 22 and related hosts for US and EU servers are available after April 6, 2024.
 
 ## Explore more allowed list information
 
