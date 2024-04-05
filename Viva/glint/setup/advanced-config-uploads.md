@@ -34,7 +34,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 
 ## Perform a MANAGERS_UPLOAD
 
-When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant 1 or a few users access to custom segments of data, grant custom access from their user profile: [Learn more](https://go.microsoft.com/fwlink/?linkid=2230740).
+When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant 1 or a few users access to custom segments of data, grant custom access from their user profile: [Learn more](https://go.microsoft.com/fwlink/?linkid=2266497).
 
 ### To upload custom access for multiple users:
 
