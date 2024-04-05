@@ -31,7 +31,7 @@ Microsoft Viva Glint offers multiple survey access methods that can be used inde
 <a name='set-up-survey-access-that-requires-authentication-with-azure-active-directory'></a>
 
 ## Set up survey access that requires authentication with Microsoft Entra ID
-Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID and to grant all users access to the Viva Glint My Surveys tab so that participants can access their surveys. After selecting the Provide Feedback button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
+Use this guidance to enable survey invite links that require authentication with Microsoft Entra ID. Grant all users access to the Viva Glint **My Surveys** tab so that participants can access their surveys. After selecting the Provide Feedback button in survey emails, users with one active survey go directly to the survey landing page after authentication. Users with multiple active surveys land on the My Surveys tab to select a survey.
 
 ### To enable this survey access method:
 
@@ -52,11 +52,11 @@ Use this guidance to enable survey invite links that require authentication with
 
 ## Use a personalized survey link
 
-When the **Require Azure AD for links in survey emails** setting in **General Settings** is set to **No**, this is the survey access method for users. Survey emails contain a personalized survey link that is tied to each participant and shouldn't be forwarded. When users select this personalized link, they access an active survey with no authentication.
+When the **Require Azure AD for links in survey emails** setting in **General Settings** is set to **No**, personalized links are the survey access method for users. Survey emails contain a personalized survey link that is tied to each participant and shouldn't be forwarded. When users select this personalized link, they access an active survey with no authentication.
 
 ## Set up attribute-based survey access
 
-Viva Glint's attribute-based survey access allows users without a corporate email account to complete surveys by entering two unique pieces of employee information selected by an admin rather than authenticating in Viva Glint. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. To set up attribute-based survey access, follow the guidance in this article: [Set up attribute-based survey access in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230745).
+Viva Glint's attribute-based survey access allows users without a work email account to complete surveys in another way. Users enter two unique pieces of employee information rather than authenticating in Viva Glint through an email invite. Admins can convert the survey link into a QR code or shortened link to share with frontline workers. To set up attribute-based survey access, follow the guidance in this article: [Set up attribute-based survey access in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230745).
 
 ## Survey session time-outs
 
@@ -66,6 +66,6 @@ Depending on the survey access method that your organization selects, users are 
 
 |Survey access method   |Are you still here? prompt   |Session ends|
 |:----------|:-----------|:------------|
-|Authentication with Microsoft Entra ID     |After 20 minutes of inactivity       |After an additional 10 minutes of inactivity        |
-|Personalized link |After 20 minutes of inactivity    |After an additional 10 minutes of inactivity |
-|Attribute-based access |After 30 seconds of inactivity   |After an additional 30 seconds of inactivity|
+|Authentication with Microsoft Entra ID     |After 20 minutes of inactivity       |After another 10 minutes of inactivity        |
+|Personalized link |After 20 minutes of inactivity    |After another 10 minutes of inactivity |
+|Attribute-based access |After 30 seconds of inactivity   |After another 30 seconds of inactivity|
