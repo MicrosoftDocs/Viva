@@ -23,8 +23,7 @@ ms.date: 02/12/2024
 As your company’s data controller, Microsoft Viva Glint admins can submit a user data deletion request to comply with a General Data Protection Regulation (GDPR) data subject request. The deletion requests will be processed right away.
 
 >[!IMPORTANT]
-> - INACTIVE user data (attributes and responses) aren't automatically deleted from Viva Glint.
-> - Users deleted from Microsoft Entra ID aren't automatically deleted from Viva Glint.
+> INACTIVE user data (attributes and responses) aren't automatically deleted from Viva Glint.
 
 >[!CAUTION]
 >User data deletion in Viva Glint is an irreversible process.
