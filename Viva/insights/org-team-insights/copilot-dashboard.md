@@ -42,7 +42,8 @@ Screenshot that shows the Copilot Dashboard.
 If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard).
 
 1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
-    * If you don’t have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
+
+   If you don’t have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
 
 2. On the left navigation panel, select **Copilot Dashboard**.
 
@@ -89,8 +90,6 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 3. To see how many employees have automatic access, at the top, select **General**.
 
    :::image type="complex" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
-   Screenshot that shows how to view the number of employees with access.
-   :::image-end:::
 
 **To enable access for new report users:**
 
@@ -98,9 +97,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
-   :::image type="complex" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users." lightbox="images/copilot-dashboard-03.png":::
-   Screenshot that shows how to add new users.
-   :::image-end:::
+   :::image type="complex" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
 
 **To disable access for existing report users:**
 
@@ -108,9 +105,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Select the users from the list for whom you'd like to remove access.
 1. Select **Remove user**.
 
-   :::image type="complex" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/copilot-dashboard-04.png":::
-   Screenshot that shows how to remove users.
-   :::image-end:::
+   :::image type="complex" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
 
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
