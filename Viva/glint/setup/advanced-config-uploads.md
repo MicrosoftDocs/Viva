@@ -24,7 +24,7 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 ## Review upload types
 
 - **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk.
-- **Retroactive User Updates:** 
+- **Retroactive User Updates:** To perform an upload to user data in closed surveys.
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
 
 > [!NOTE]
