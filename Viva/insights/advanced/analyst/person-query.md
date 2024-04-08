@@ -19,7 +19,8 @@ audience: Admin
 
 >[!Tip]
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
-:::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with links to video, sample, and walk-through above Query setup":::
+>
+> :::image type="content"" alt-text="Setup help with links to video, sample, and walk-through above Query setup" source="../images/person-query-setup-help.png lightbox="../images/person-query-setup-help.png:::
 
 ## Overview
 
