@@ -58,7 +58,7 @@ Under **Query setup**:
    
 1. Set how the query is grouped. By default, custom person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
 
-Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+    Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
        
 >[!Note]
 > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
