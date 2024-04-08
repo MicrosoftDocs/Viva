@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/22/2024
+ms.date: 04/08/2024
 ---
 
 # Understand Viva Glint survey access methods
@@ -69,3 +69,28 @@ Depending on the survey access method that your organization selects, users are 
 |Authentication with Microsoft Entra ID     |After 20 minutes of inactivity       |After another 10 minutes of inactivity        |
 |Personalized link |After 20 minutes of inactivity    |After another 10 minutes of inactivity |
 |Attribute-based access |After 30 seconds of inactivity   |After another 30 seconds of inactivity|
+
+## Survey participant experiences
+
+Viva Glint survey access methods present different user experiences depending on the method admins select and how many active surveys a user is included in.
+
+### Authentication with Microsoft Entra ID
+
+- **Survey access:** Users (managers with report access or individual contributors) select the **Provide Feedback** button in survey invites and reminders.
+- **Landing page:**
+  - If the user is included in **multiple active surveys**, they're taken to the **My Surveys** tab in Viva Glint.
+  - If the user has **one (1) active survey**, they're taken directly to the survey welcome page.
+
+> [!NOTE] 
+> If admins or managers access the Viva Glint application with a dashboard link during a live survey (not with a link in an invite or reminder email), they'll go to their dashboards. Users can access live surveys by going to the **My Surveys** tab.
+
+### Personalized link
+
+- **Survey access:** Users (managers with report access or individual contributors) select the **Provide Feedback** button in survey invites and reminders.
+- **Landing page:** Users are taken directly to the survey welcome page, regardless of their number of active surveys. The personalized link is specific to each user and each survey.
+
+### Attribute-based access
+
+- **Survey access:** Users (managers with report access or individual contributors) accesses the attribute-based access survey link shared by their organization. This may be converted to a shortened link or a QR code for easy access by deskless workers.
+- **Landing page:** Users go to an access page that prompts them to enter two (2) pieces of information (for example, employee ID and email address). After entering correct information, users go to the survey welcome page.
+
