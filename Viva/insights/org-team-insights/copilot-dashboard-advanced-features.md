@@ -19,12 +19,12 @@ The Microsoft Copilot Dashboard provides actionable insights to help your organi
 
 Some of the dashboard’s metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. [Learn about these features here](./copilot-dashboard.md).
 
-But, if you have a Viva Insights subscription, the dashboard provides an additional set of metrics, filtering options, and other features.
+But, if you have a [paid Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), the dashboard provides an additional set of metrics, filtering options, and other features.
 
 With a Viva or a Viva Insights subscription, the dashboard provides the same categories of metrics as the non-subscription dashboard, but the adoption, impact, and sentiment categories provide additional metrics and filters. [There are also new features for analysts to incorporate Copilot metrics into their person queries](#add-copilot-metrics-to-your-custom-person-query).
 
 >[!Note]
->For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a Viva or Viva Insights license. And, to protect individual privacy, you’ll only see insights when there are at least 25 employees with a Viva or Viva Insights license.
+>For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a paid Viva or Viva Insights license. And, to protect individual privacy, you’ll only see insights when there are at least 25 employees with a Viva or Viva Insights license.
 
 Let's dive in to this advanced set of features.
 
@@ -42,24 +42,53 @@ Let's dive in to this advanced set of features.
 
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
 
-### Select the Scope of your analysis
+### Select the filters for your analysis in the dashboard
+
+*Applies to: Employee users*
+
+:::image type="content" source="images/copilot-dash-filters-ga.png" alt-text="Screenshot that shows the filters tool.":::
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-Your Insights admin needs to upload **Organization** (required) and **Function type** (optional) Viva attributes for you to view the **Organization** and **Job function** dropdowns. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
+By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of two ways: through Microsoft Entra ID, which is the default setting; or through an [organizational data file that your Insights admin uploads](../advanced/admin/org-data-overview.md).
 
-:::image type="content" source="images/copilot-dash-scope-ga.png" alt-text="Screenshot that shows the Scope tool.":::
+The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to populate "Your company" data and "Your group" data by default. If your Insights admin uploads a .csv file with the attribute of "ManagerID," the "Your group" data in the filter will be updated.
+
+:::image type="content" source="images/copilot-dash-scope-ga-02.png" alt-text="Screenshot that shows the scope filter options.":::
+
+The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Organization." If your Insights admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
+
+Your Insights admin needs to upload "FunctionType" Viva attributes for you to view the **Job function** dropdowns. The **Job function** filter will only show up if your Insights admin uploads a .csv file with the organizational data attribute of "FunctionType."
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
 
 ## Interpreting the data
 
+*Applies to: Employee users*
+
+### Readiness
+
 >[!Note]
->Data in the dashboard represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
+>Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
+
+Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
+
+The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
+
+:::image type="complex" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+Screenshot that shows the count of licenses.
+:::image-end:::
+
+* 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date. 
+
+* 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
+
+>[!Note]
+>Adoption and impact data underneath the filter represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
 
 ### Adoption
 
-After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. 
+After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature.
 
 The page included with an Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
 
@@ -223,6 +252,8 @@ Screenshot that shows the Sentiment heat map.
 
 #### Upload survey results with the advanced insights app
 
+*Applies to: Viva Insights admin* 
+
 If you have a Viva Insights subscription and you’re a **Viva Insights admin**, you can upload survey results as a .csv file.
 
 Your survey should include each of the following statements:
@@ -302,58 +333,15 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 ### News & research
 
+*Applies to: Employee users* 
+
 Under the Learning tab, here you’ll find research around the impacts of AI on workplace productivity. With a Viva Insights subscription, you’ll also find exclusive content. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
 
 ## Add Copilot metrics to your custom person query
 
 *Applies to: Viva Insights analyst*
 
-You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft Copilot with Microsoft 365 apps, and they’re part of your .csv output file. To include these metrics when you’re setting up your query, select **Include Microsoft 365 Copilot metrics in this query**.
-
-[Learn more about how to set up custom person queries](../advanced/analyst/person-query.md).
-
-Here is a list of these Copilot metrics that you can use for your query:
-
-| Metric | Description | Date from when the data is available and the customers can view |
-|---|---|---|
-| Meetings summarized by Copilot |  The number of meetings summarized by Copilot.  | 10/15/2023 |
-| Chat conversation summaries created by Copilot | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
-| Chat message drafts composed using Copilot  | The number of chat and channel message drafts created in Teams using Copilot. | 10/15/2023 |
-|  Email drafts generated by Copilot  |  The number email drafts users generated using Copilot.  | 11/15/2023 |
-|  Email coaching actions taken using Copilot  | Number of times users selected email coaching with Copilot.  | 11/15/2023 |
-| Email thread summaries created by Copilot  | Number of times users summarized email conversations with Copilot.  | 11/15/2023 |
-| Document drafts created by Copilot | The number of times users drafted Word documents with Copilot. | 10/15/2023 | 
-| Document summaries created by Copilot |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
-|  Presentations created by Copilot  | Number of times users created PowerPoint presentations with Copilot.  | 10/15/2023 |
-|  Rewrite text actions taken using Copilot  | Number of times users  modified Word documents with Copilot.  | 10/15/2023 |
-|  Presentation summaries created by Copilot  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
-|  Excel analysis actions taken using Copilot  | Number of times users analyzed data to show insights as charts, PivotTable objects, summaries, trends, or outliers in Excel with Copilot.  | 10/15/2023 |
-| Excel formulas created by Copilot | Number of times users generated new columns with formulas based on Excel data with Copilot.  | 10/15/2023 | 
-| Excel formatting actions taken using Copilot | Number of times each user highlighted, sorted, and filtered tables in Excel with Copilot.  | 10/15/2023 | 
-|  Meetings summarized by Copilot  | Number of meetings summarized with Copilot per user.  | 12/18/2023 |
-| Meeting hours summarized by Copilot  | The number of hours of meetings summarized by Copilot. | 12/18/2023 |
-| Chat conversations summarized by Copilot |  The number of chats and channel conversations summarized by Copilot.  | 12/18/2023 |
-| Emails sent using Copilot | The number of emails sent with assistance from Copilot. | 11/15/2023  |
-| Copilot actions taken in Copilot chat  | The number of Copilot actions completed by active Copilot users in Copilot chat. | 10/15/2023 |
-| Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
-| Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook.  | 10/15/2023 |
-| Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint.  | 10/15/2023 |
-| Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams.  | 10/15/2023 |
-| Copilot actions taken in Word  | The number of Copilot actions completed by active Copilot users in Word.  | 10/15/2023 |
-| Copilot active days in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
-| Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop.  | 10/15/2023 |
-|  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
-|  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
-| Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
-|  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
-| Days of active Copilot usage in Word |  The number of days the user was actively using Copilot in Word.  | 10/15/2023 |
-|  Days of active Copilot usage in Copilot chat  |  The number of days the user was actively using Copilot chat.  | 10/15/2023 |
-| Copilot enabled days for Copilot chat  |  The number of days the user had Copilot with Graph-grounded chat enabled.  | 10/15/2023 |
-| Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Copilot for Microsoft 365 enabled. | 10/15/2023 |
-| Copilot enabled days for productivity apps  | The number of days the user had a Microsoft Copilot apps service plan enabled.  | 10/15/2023 |
-| Copilot enabled days for Intelligent Search | The number of days the user had an Intelligent search service plan enabled.  | 10/15/2023 |
-| Copilot enabled days for Teams  | The number of days the user had a Microsoft Copilot Teams service plan enabled.  | 10/15/2023 |
-
+You can also add Microsoft 365 Copilot metrics to your custom person query. [Learn how](../advanced/analyst/person-query.md#add-metrics).
 
 ### FAQs
 
