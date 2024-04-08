@@ -1,7 +1,7 @@
 ---
-ms.date: 3/28/2024
+ms.date: 4/08/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
-description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
+description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
@@ -18,7 +18,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -123,7 +123,7 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
 >[!Important]
->The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required. <br> <br />
+>The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required. <br> <br />
 >If you previously downloaded the Power BI app, see the [FAQs below](#faqs) to troubleshoot any issues.
 
 ## Interpreting the data
@@ -194,9 +194,9 @@ Under the Learning tab, here you'll find research around the impacts of AI on wo
 
 ## FAQs
 
-**Do I need a Viva Insights subscription in order to access the report?**
+**Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
 
-No, a Viva Insights subscription is not required. The report is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise.
+No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [additional advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
 
 **Does the report use Viva Insights data to create any of the metrics?**
 

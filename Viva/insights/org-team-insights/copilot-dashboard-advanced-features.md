@@ -1,7 +1,7 @@
 ---
-ms.date: 3/28/2024
+ms.date: 4/08/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
-description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metrics, with a Viva Insights subscription.
+description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
