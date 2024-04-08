@@ -257,7 +257,7 @@ To learn more about how to utilize these types of insights and improve the way y
 
 The following table lists metrics related to organization insights. You can also access metric definitions while you're using Viva Insights—just select the (i) icon next to the organization insight card or organization insight page title.
 
-Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions.
+Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions. 
  
 |Metric	| How it’s calculated|
 |--------|--------------------|
