@@ -76,8 +76,6 @@ Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interp
 The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
 
 :::image type="complex" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
-Screenshot that shows the count of licenses.
-:::image-end:::
 
 * 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date. 
 
@@ -105,8 +103,6 @@ Now let’s look at the insights provided by this page.
 **Insight #1: High-level overview of Copilot usage across the organization**
 
 :::image type="complex" source="images/copilot-dash-adoption.png" alt-text="Screenshot that shows the first group of adoption metrics." lightbox="images/copilot-dash-adoption.png":::
-Screenshot that shows the first group of adoption metrics.
-:::image-end:::
 
 **Insight #2: Breakdown of Copilot usage across different Microsoft 365 apps**
 
@@ -119,8 +115,6 @@ Group totals reflect the sum of groups that are above the minimum group size.
 * When a different “View by” attribute is selected, the Group totals might show different numbers. Because there might be people who don’t report to anyone as detected by Entra, there might be people missing the organizational attributes. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
 
 :::image type="complex" source="images/copilot-dash-adoption-02.png" alt-text="Screenshot that shows the second group of adoption metrics." lightbox="images/copilot-dash-adoption-02.png":::
-Screenshot that shows the second group of adoption metrics.
-:::image-end:::
 
 **Key metrics for this page:**
 
@@ -247,8 +241,6 @@ Located within the Impact page, this section provides information that helps you
 With a Viva Insights subscription, this section of the dashboard also lets you explore the breakdown of sentiment across organizational attributes. You can use custom filters to isolate the results for specific parts of the organization or for specific employee groups. The results are shown in a “heat map.” 
 
 :::image type="complex" source="images/copilot-dash-sentiment-ga.png" alt-text="Screenshot that shows the Sentiment heat map." lightbox="images/copilot-dash-sentiment-ga.png":::
-Screenshot that shows the Sentiment heat map.
-:::image-end:::
 
 #### Upload survey results with the advanced insights app
 
@@ -322,14 +314,10 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 3. Under **M365 Copilot Impact Survey data upload**, select **Start**. If you previously uploaded survey data, this new import will replace the old data.
 
    :::image type="complex" source="images/copilot-dash-upload-01.png" alt-text="Screenshot that shows the first steps to upload the survey data." lightbox="images/copilot-dash-upload-01.png":::
-   Screenshot that shows the first steps to upload the survey data.
-   :::image-end:::
 
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
    :::image type="complex" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
-   Screenshot that shows the final steps to upload the survey data.
-   :::image-end:::
 
 ### News & research
 
@@ -370,5 +358,3 @@ In this scenario, your Entra data is not reliable.
 Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
 
 :::image type="complex" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
-Screenshot that shows the count of licenses.
-:::image-end:::
