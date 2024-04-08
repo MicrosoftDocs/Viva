@@ -15,14 +15,14 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/22/2024
+ms.date: 04/08/2024
 ---
 
 # Set up a Microsoft Viva Glint Patient Safety survey 
 
 Many healthcare customers use the Viva Glint Patient Safety Survey to assess and improve their patient safety culture. It is approved as a reliable measure of patient culture by Leapfrog's expert panel and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to get to healthcare leaders in real-time. 
 
-## Submitting the Viva Glint Patient Safety Survey for Leapfrog certification
+## Submitting the Patient Safety Survey for Leapfrog certification
 
 To submit the survey to Leapfrog for certification, it must include the 16 Leapfrog approved items in this *exact* order:
 1. Modeling
@@ -49,11 +49,11 @@ There are also two optional but recommended scaled items (1-2), and two comment 
 1. Safety - Stop Doing
 
 > [!NOTE]
-> The overall patient safety outcome items (i.e., Referral and Habits) are now at the end of the survey; previously they were the first items asked. 
+> The overall patient safety outcome items, Referral and Habits, are now at the end of the survey; previously they were the first items asked. 
 
 ## Admins launching the Microsoft Viva Glint Patient Safety Survey 
 
-Access the template from the **Configure** symbol on your Viva Glint admin dashboard. Select **+ New Survey** and then select the **Patient Safety Survey** card.
+Access the template from the **Configure symbol** on your Viva Glint admin dashboard. Select **+ New Survey** and then the **Patient Safety Survey** card.
 
 :::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
 
