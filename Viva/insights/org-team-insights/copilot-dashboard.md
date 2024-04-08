@@ -28,9 +28,7 @@ The dashboard covers the following categories of metrics: Readiness, adoption, i
 
 To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
-:::image type="complex" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
-Screenshot that shows the Copilot Dashboard.
-:::image-end:::
+:::image type="content" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
 
 >[!Note]
 >The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
@@ -89,7 +87,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 3. To see how many employees have automatic access, at the top, select **General**.
 
-   :::image type="complex" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
+   :::image type="content" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
 
 **To enable access for new report users:**
 
@@ -97,7 +95,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
-   :::image type="complex" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
+   :::image type="content" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
 
 **To disable access for existing report users:**
 
@@ -105,7 +103,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Select the users from the list for whom you'd like to remove access.
 1. Select **Remove user**.
 
-   :::image type="complex" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
+   :::image type="content" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
 
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
