@@ -24,13 +24,9 @@ Threshold settings determine how item scores, response rates, and comments displ
 
 ## Rated Confidentiality Threshold
 
-### Definition
-
-The minimum number of responses required to show scores and response counts for rated items. 
-
-### Default setting
-
-Viva Glint’s default Confidentiality Threshold is five (5).
+|Definition  |Default setting   |
+|:----------|:-----------|
+|The minimum number of responses required to show scores and response counts for rated items.   |Viva Glint’s default Confidentiality Threshold is five (5).       |
 
 ### Related terms
 
@@ -48,13 +44,9 @@ Two of Ángel Valádez’s teams don’t have enough respondents to meet the rat
 
 ## Suppression Threshold
 
-### Definition
-
-To protect the identity of groups whose responses are insufficient, the Suppression Threshold suppresses the next smallest group until the total responses of the insufficient groups meet this threshold.
-
-### Default setting
-
-Viva Glint’s default Suppression Threshold is two (2).
+|Definition  |Default setting   |
+|:----------|:-----------|
+|To protect the identity of groups whose responses are insufficient, the Suppression Threshold suppresses the next smallest group until the total responses of the insufficient groups meet this threshold.    |Viva Glint’s default Suppression Threshold is two (2).       |
 
 ### Related terms
 
@@ -84,13 +76,9 @@ When a user views Department scores side by side, Executives and Support aren't 
 
 ## Parent Team Suppression Threshold
 
-### Definition
-
-This threshold acts as an exception to allow what would be suppressed data to display when the group's response count meets the threshold.
-
-### Default setting
-
-Viva Glint’s default Parent Team Suppression Threshold is 400 (200 times the Suppression Threshold).
+|Definition  |Default setting   |
+|:----------|:-----------|
+|This threshold acts as an exception to allow what would be suppressed data to display when the group's response count meets the threshold.    |Viva Glint’s default Parent Team Suppression Threshold is 400 (200 times the Suppression Threshold).       |
 
 ### Example
 
@@ -104,13 +92,9 @@ When a user views Department scores side by side, Executives isn't displayed in 
 
 ## Response Rate Threshold
 
-### Definition
-
-Response rates (percentages and counts) can't be displayed for groups smaller than this number. For a consistent reporting experience across item scores and response rates in reports, this threshold matches the Rated Confidentiality Threshold.
-
-### Default setting
-
-Viva Glint’s default Response Rate Threshold is five (5).
+|Definition  |Default setting   |
+|:----------|:-----------|
+|Response rates (percentages and counts) can't be displayed for groups smaller than this number. For a consistent reporting experience across item scores and response rates in reports, this threshold matches the Rated Confidentiality Threshold.    |Viva Glint’s default Response Rate Threshold is five (5).    |
 
 ### Example
 
@@ -120,13 +104,9 @@ Ana Bowman's Team is flagged as insufficient in the Response Rate report because
 
 ## Comments Confidentiality Threshold
 
-### Definition
-
-To avoid scenarios where comments might be tied back to the respondent, comments for groups that don't meet this survey response (not comments) threshold aren't displayed.
-
-### Default setting
-
-Viva Glint’s default Comments Confidentiality Threshold is 10.
+|Definition  |Default setting   |
+|:----------|:-----------|
+|To avoid scenarios where comments might be tied back to the respondent, comments for groups that don't meet this survey response (not comments) threshold aren't displayed.   |Viva Glint’s default Comments Confidentiality Threshold is 10.    |
 
 ### Example
 
@@ -136,13 +116,9 @@ Ana Bowman's team doesn't have enough responses to meet the Comments Confidentia
 
 ## Comments Search Threshold
 
-### Definition
-
-To avoid scenarios where comments might be tied back to the respondent, comments for filtered groups aren't visible or searchable until survey responses (not comments) meet this number.
-
-### Default setting
-
-Viva Glint’s default Comments Search Threshold is 10.
+|Definition  |Default setting   |
+|:----------|:-----------|
+|To avoid scenarios where comments might be tied back to the respondent, comments for filtered groups aren't visible or searchable until survey responses (not comments) meet this number.  |Viva Glint’s default Comments Search Threshold is 10.   |
 
 ### Example
 
