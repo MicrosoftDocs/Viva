@@ -41,7 +41,7 @@ Some attributes in Viva Glint always reference the most current information and 
 
 Recurring and Ad-Hoc survey programs represent a point in time for all respondents, and updates for multiple users for one time period can be applied in bulk with Viva Glint retroactive update options. Lifecycle and Always-On survey programs, however, are ongoing. Surveys generate for individual users at many points throughout the lifetime of these surveys, making it difficult to pinpoint users' data in the past and apply updates, especially for Manager Hierarchy data.
 
-## Uploads: Retroactive USERS_UPLOAD
+## Uploads: Retroactive User Updates
 
 Upload a file of all or some users in your closed survey to apply new values to past versions of data without touching current employee information. This option is the simplest and can be used for most retroactive updates, including non-managerial reporting hierarchy updates. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
 
