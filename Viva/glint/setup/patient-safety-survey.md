@@ -60,7 +60,7 @@ Access the template from the **Configure symbol** on your Viva Glint admin dashb
 > [!div class="nextstepaction"]
 > [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
 
-## Read the Viva People Science methodololgy used to create the Patient Safety Survey
+## Read the Viva People Science methodology used to create the Patient Safety Survey
 
 The methodology used to develop the Microsoft Viva Glint Patient Safety Survey involved lengthy research and methodology. Read about it.
 
