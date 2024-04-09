@@ -42,7 +42,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new Viva Connections experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams.
 > - You must have member level permissions or higher to edit the new desktop experience.
-> - The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. See the list here for more information about[service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+> - The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. See the list here for more information about [service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## About the updated Viva Connections experience
 
@@ -101,8 +101,7 @@ If your organization has created [multiple Connections experiences](/viva/connec
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
 
    > [!NOTE]
-   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-   > - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. For more information about service availability, [see the list of service availability here](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 #### Give permission to edit from Viva Connections in Teams
 
