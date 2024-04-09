@@ -28,6 +28,36 @@ ms.custom: intro-overview
 description: "Learn how to use Viva Connections to engage and unite your organization."
 ---
 
+---
+ms.date: 01/30/2024
+title: "Overview: Viva Connections"
+ms.reviewer: evanatkin
+ms.author: evanatkin
+author: AtkinE
+manager: elizapo
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-connections
+ms.localizationpriority: high
+ms.collection:
+  - essentials-navigation
+  - essentials-overview
+  - Strat_SP_modern
+  - M365-collaboration
+  - m365initiative-viva-connections
+  - intro-overview
+  - highpri
+  - Tier1
+search.appverid:
+- SPO160
+- MET150f
+ms.custom: intro-overview
+description: "Learn how to use Viva Connections to engage and unite your organization."
+---
+
 # Overview of Viva Connections
 
 Microsoft Viva Connections is your gateway to a modern employee experience and is designed to keep everyone engaged and informed. Viva Connections is a customizable app in Microsoft Teams that gives different audiences in your organization a personalized destination to discover other Viva apps your organization is licensed for, relevant news, conversations, and the tools they need to succeed.
@@ -236,6 +266,8 @@ A tailored experience is one in which content is automatically displayed accordi
 ## Branding
 
 Matching your organizational brand is integral to your employees’ connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#customize-the-look).
+
+Currently, company branding in Viva Connections app will be disabled for users on mobile and desktop who have enabled dark mode under their Microsoft Teams Appearance and Accessibility settings.
 
 ## Localization
 
