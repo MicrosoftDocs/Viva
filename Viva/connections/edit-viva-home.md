@@ -101,8 +101,7 @@ If your organization has created [multiple Connections experiences](/viva/connec
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
 
    > [!NOTE]
-   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-   > - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. For more information about service availability, [see the list of service availability here](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 #### Give permission to edit from Viva Connections in Teams
 
