@@ -29,10 +29,6 @@ description: "Learn how to edit the Viva Connections dashboard"
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
 The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
 
-> [!NOTE]
->
-> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
-
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
 **This article includes:**
@@ -186,7 +182,7 @@ You can choose the **Card designer** option to design your own card that include
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
    > [!NOTE]
-   >If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+   > If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
 
 9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it.
 
@@ -246,7 +242,6 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
 > [!NOTE]
 >
-> - This feature will become available to all customers by the end of January 2023.
 > - Site owners managing the Viva Connections dashboard will need to request third-party apps before they are available in the card toolbox.
 > - Some third-party apps require a service plan agreement with your organization.
 
