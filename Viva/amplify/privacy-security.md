@@ -27,13 +27,13 @@ If your organization is using SharePoint, Amplify will use the same privacy and 
 
 ## Security
 
-Microsoft Viva Amplify follows Microsoft Viva security standards. [Learn more about security in Microsoft Viva](/Viva/viva-security.md).
+Microsoft Viva Amplify follows Microsoft Viva security standards. [Learn more about security in Microsoft Viva](../Viva/viva-security.md).
 
 ## Privacy
 
 Viva Amplify campaigns are set as private by default because campaigns are designed to be a private collaborative space for campaign team members to work and build their communications. Changing this setting isn't recommended.
 
-[Learn more about privacy in Microsoft Viva](/viva/viva-privacy.md).
+[Learn more about privacy in Microsoft Viva](../viva/viva-privacy.md).
 
 ## How Viva Amplify stores Approvals data
 
