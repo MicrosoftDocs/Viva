@@ -1,5 +1,5 @@
 ---
-ms.date: 01/30/2024
+ms.date: 04/09/2024
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
