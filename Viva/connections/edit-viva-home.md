@@ -42,7 +42,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new Viva Connections experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams.
 > - You must have member level permissions or higher to edit the new desktop experience.
-> - The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. See the list here for more information about[service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+> - The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. See the list here for more information about [service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## About the updated Viva Connections experience
 
