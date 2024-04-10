@@ -10,6 +10,7 @@ audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
+ms.collection: viva-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -22,7 +23,7 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage into
 # Set up Copilot in Viva Engage 
 
 >[!IMPORTANT]
->Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. The features described here are subject to change.
+>Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. When Copilot and AI Summarization are rolled out, they're on by default. To turn them off, see instructions in this article. Features described here are subject to change.
 
 Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage.
 A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.

@@ -206,13 +206,37 @@ This functionality works for roles which already have filters and/or populations
 10. To remove someone from the Excluded list, search their name and select **Remove**.
 11. Confirm list for user role and select  **Save Changes**.
 
-## Grant Custom access
+## Grant custom access
 
-Custom access is intended for users who need to have the default access overridden or are in a role that is so specific, it needs to be per user.
+Custom access is intended for users who need to have the default access overridden or are in a role that is so specific, it needs to be per user rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
-### Create Custom Team Access for Programs
+### Set up custom survey access for a user
 
-1. From your Glint dashboard, select **Configure** and then **People** and then **Select User.**
-2. Review User Roles for accuracy.
-3. Next to the survey name, select **Edit**.
-4. Customize the survey access from the dialog box that opens and select **Save**. Customized data access for that program now displays on the user profile.
+1. From your Glint dashboard, select **Configuration** and then choose **People**.
+2. Go to the User Role with users that need custom access granted.
+3. Search for a select a user.
+4. On the user's profile, next to the survey name that should have custom data access for this user, select the pencil icon to edit.
+     > [!NOTE]
+     > The User Role that this person is a member of needs to be granted access to a survey program in the survey's Reporting section for it to appear on their user profile.
+
+     :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
+    
+6. Select **+ Population** and then **+ Add Filters**.
+7. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
+
+     :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
+   
+9. Select **Save** to apply custom access for this user and survey program.
+
+### Set up custom Admin and Focus Area access for a user
+
+Users can also have their Focus Area and (if they are in a role with admin permissions) their Admin access customized to match their survey access. To grant custom Focus Area and Admin access in bulk for multiple users, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+
+1. From your Glint dashboard, select **Configuration** and then choose **People**.
+3. Search for a select a user.
+4. On the user's profile, next to **Admin Access** or **Focus Area Access**, select the pencil icon to edit.
+5. 7. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
+
+     :::image type="content" source="../../media/glint/setup/custom-focus-area-selection.png" alt-text="Screenshot of dialog with custom focus area access attribute values to be selected.":::
+
+9. Select **Save** to apply custom access for this user for **Admin Access** or **Focus Area Access**.

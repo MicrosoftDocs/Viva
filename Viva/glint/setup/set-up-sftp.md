@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/23/2024
+ms.date: 04/08/2024
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) to import employee data
@@ -40,13 +40,10 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    1. **PGP Encryption:** This setting is optional. Switch toggle to **On** to enable file encryption and reveal Glint's public PGP encryption key to encrypt your employee data files.
    1. **SFTP Credentials:** Use the credentials shown in the platform to connect to SFTP with a dedicated FTP application and your private SSH key file. Allow at least 1 hour after entering public SSH keys and IP addresses before testing your connection.
       1. **File Protocol**: _SFTP_
-      2. **Port**: Select 1122 or 22*
+      2. **Port**: Select 22 or 1122
       3. **Host Name**: _Varies based on region (US or EU)_
       4. **Username:** _Company ID_
       5. **Password:** _Use your private SSH key file_
-
-> [!NOTE]
-> *Port 22 is available after April 6, 2024.
 
 > [!IMPORTANT]
 > Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
