@@ -89,7 +89,7 @@ From your Viva Glint admin dashboard, select the **Configure symbol** and then *
 
 3.	Delete the old Suggested Action.
 
-    :::image type="content" source="../../media/glint/setup/delete-suggested-action.png" alt-text="Screenshot of hovering over and using the trash can symbol to delete a Suggested Action Item.":::
+    :::image type="content" alt-text="Screenshot of hovering over and using the trash can symbol to delete a Suggested Action Item." source="../../media/glint/setup/delete-suggested-action.png" lightbox="../../media/glint/setup/delete-suggested-action.png":::
 
 5.	Add the cloned copy of the Suggested Action.
 
