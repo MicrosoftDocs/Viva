@@ -15,12 +15,15 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2024
+ms.date: 04/10/2024
 ---
 
 # Embedding videos into Content Resources and Action Plans
 
 LinkedIn Learning videos are selected for and attached to Viva Glint Action Plan templates. If you’re a LinkedIn Learning customer who wants to add different course content to your template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
+
+>[!IMPORTANT]
+>Videos that are not the property of LinkedIn Learning can also be used as resources in your templates. Follow the LinkedIn Learning instructions as much as possible, to achieve your upload.
 
 ## Choosing a LinkedIn Learning video to add to Content Resources
 
