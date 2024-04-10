@@ -102,10 +102,6 @@ The Viva Connections dashboard enables you to create a curated experience using 
 
 The Viva Connections dashboard is available on desktop, mobile platforms (iOS, Android), and [as a web part on SharePoint sites](use-dashboard-web-part-on-home-site.md). This web part can be integrated into a SharePoint home site, which then is exposed as part of the Viva Connections for desktop experience in Teams.
 
-> [!NOTE]
->
-> The Viva Connections Desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
-
 #### Anatomy of a dashboard
 
 A dashboard is made of medium-sized and large-sized cards which users can interact with to get information or complete a task.

@@ -40,10 +40,6 @@ Start by creating the Viva Connections dashboard. Then, select settings for the 
 
 [Setting up Viva Connections](set-up-admin-center.md) creates a custom app in Microsoft Teams. Your organization’s custom app appears as a branded company app in the Microsoft Teams app center. Once the app is added, your organization’s icon appears in the Teams app bar in the desktop and mobile Microsoft Teams app. Make sure to [pin the app](set-up-admin-center.md#pin-the-viva-connections-app-in-teams) so your users can find it.
 
-> [!NOTE]
->
-> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
-
 ## Step 2: Customize the Viva Connections dashboard (if needed)
 
 The dashboard brings it all together – it provides a personalized landing experience and is designed to be the central destination where everyone can discover your organization's resources and complete daily tasks.
