@@ -20,10 +20,10 @@ ms.date: 04/10/2024
 
 # Linking a new survey item to an action template in Viva Glint
 
-Most standard survey items are automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. *This creates a new template (clone) that you'll rename.*
+Most standard survey items are automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. *This action creates a new template (clone), which needs to be renamed.*
 
 1. From the admin dashboard, select **Configure** and then **Suggested Action Templates**. 
-1. Choose the template to add an item to from the **Name** column. You see the item(s) linked to the template. An item may appear twice if the item scale was different between surveys. Hover over the item to see where the item was used and the point scale assigned to it. 
+1. Choose the template to add an item to from the **Name** column. You see the item linked to the template. An item may appear twice if the item scale was different between surveys. Hover over the item to see where the item was used and the point scale assigned to it. 
 1. Select the **pencil** symbol to edit. 
 1. Use the dropdown menu to **find the new question**. Type in the key driver or a few words from the item to search and find it.
 1. Select **Update**. The new item now shows in the *Questions* section.
@@ -66,12 +66,9 @@ Select the **trash can** symbol next to the custom resource. If any dependencies
 
 :::image type="content" source="../../media/glint/reports/delete-content-resource.png" alt-text="Screenshot of the Delete Content Resource dialog box." lightbox="../../media/glint/reports/delete-content-resource.png":::
 
-Select **Got It!** and then you've removed the custom content from the associated resources. Select the **trash can** symbol. 
+Select **Got It!** to remove the custom content from the associated resource. Select the **trash can** symbol. 
 
 When there are no dependencies, the *Are you sure?* dialog box displays. Select your appropriate answer.
 
 :::image type="content" source="../../media/glint/reports/resources-are-you-sure-dialog-box.png" alt-text="Screenshot of the Are you sure! dialog box." lightbox="../../media/glint/reports/resources-are-you-sure-dialog-box.png":::
 
-### Resources
-
-[Use this PowerPoint deck to learn how to set up a Suggested Action template](https://app.us1.glintinc.com/session/auth?RelayState=insided:SAMLRequest%3DnVNNj9owEP0rke%252F5hLLUIiAKqoq0bSNIe9jLyjjDYimxU48D9N93kpCWQ5cDp1gzb%252BbNezOZLS5V6Z3AojI6ZXEQscV8hqIqa75s3FFv4VcD6DyCaeRdImWN1dwIVMi1qAC5k3y3%252FPrMkyDitTXOSFMyb7NO2es%252BSsbw8QmmMJ6OnyaHidwXzPs5EFIFAREb2Gh0QjsKRcnIj8Z%252BHOXxBz6K%252BWgaTKPJC%252FOya%252BtPShdKv92fY9%252BDkH%252FJ88zPvu9y5q1JidLCddRH52rkYShqFbyVSlNGBtJUbSDEo7BQhK3eJLS9BwsEe1ISaIyTKsBuilRppBcJWiIl274ro7GpwO567I%252Ft8z8mROM36J%252Bpl58ELe%252B1vqcluztC4nOkjPV74J079mYB93WLYRI271T5oH2sZ%252BFNr2HB36h4s85MqeTvRxb82dhKuPfRcRB3EVX4hw7KG401SHVQnWdlac4rC8JBypxtgIXDZNerg6K7QfLUweWhG1yZqhZWYbtwuAjpBldvG69KMm0Lh0c8vguTXLatKZzR52xs0Z4wSBKWW0FeGOuum%252FnfPPM%252B944df7O3%252F%252Bn8Dw%253D%253D&isPassive=false)
