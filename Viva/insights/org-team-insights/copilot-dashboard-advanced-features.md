@@ -1,5 +1,5 @@
 ---
-ms.date: 4/08/2024
+ms.date: 4/10/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -24,7 +24,7 @@ But, if you have a [paid Viva Insights subscription](https://www.microsoft.com/m
 With a Viva or a Viva Insights subscription, the dashboard provides the same categories of metrics as the non-subscription dashboard, but the adoption, impact, and sentiment categories provide additional metrics and filters. [There are also new features for analysts to incorporate Copilot metrics into their person queries](#add-copilot-metrics-to-your-custom-person-query).
 
 >[!Note]
->For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a paid Viva or Viva Insights license. And, to protect individual privacy, you’ll only see insights when there are at least 25 employees with a Viva or Viva Insights license.
+>For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a paid Viva or Viva Insights license.
 
 Let's dive in to this advanced set of features.
 
@@ -34,7 +34,7 @@ Let's dive in to this advanced set of features.
 
 * A Viva Insights license is required to view the app in Teams for leaders, and the analyst tool bench is required for custom reports. Requires Viva Insights, Workplace Analytics and Feedback, or Viva Suite SKUs.
 
-* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses. To protect individual privacy, you'll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
+* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
 ### Access and manage user access to the dashboard
 
@@ -62,6 +62,12 @@ Your Insights admin needs to upload "FunctionType" Viva attributes for you to vi
 
 To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
 
+### Minimum group size
+
+To protect individual privacy, you can only view tenant-level aggregated metrics on the readiness page for teams that have at least 25 active employees.
+
+On the adoption and impact pages, you can view the aggregated drilldown metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
+
 ## Interpreting the data
 
 *Applies to: Employee users*
@@ -88,7 +94,7 @@ The adoption and impact pages use different calculations for their tally counts.
 
 After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature.
 
-The page included with an Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
+The page included with a Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
 
 With a Viva Insights subscription, the page consists of metrics for employees who have a Viva or Viva Insights license. With this version of the dashboard, three main insights are covered.
 
@@ -110,7 +116,7 @@ App totals reflect the total number of adoption metrics in the following Microso
 
 Group totals reflect the sum of groups that are above the minimum group size.  
 
-* Group with less than 25 people won't show up in the breakdown and won’t be included the sum total.
+* Group with less than the minimum group size your Insights admin set won’t be included the sum total.
 
 * When a different “View by” attribute is selected, the Group totals might show different numbers. Because there might be people who don’t report to anyone as detected by Entra, there might be people missing the organizational attributes. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
 
@@ -349,7 +355,9 @@ No. Once an admin disables a user, that setting is permanent until the admin ena
 In this scenario, your employees don't have a Copilot license assigned or they haven't used Copilot yet.
 
 **For the Copilot metric reports with filters, the values I'm seeing are just "--," but I see the other data. What’s happening?**
-To protect individual privacy, you’ll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
+To protect individual privacy, you’ll only see insights that meet or exceed the minimum group size. This is the minimum amount for viewing insights across groups.
+
+The minimum group size is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a "group." Viva Insights shows insights about groups in the app in Teams and on the web, in organization insights throughout the app. You'll need to set this number to at least 10. [Learn more about how to customize privacy settings](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
 
 **Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
 In this scenario, your Entra data is not reliable.
