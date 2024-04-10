@@ -131,7 +131,7 @@ From the file that has been generated:
 |Do|Don't|
 |-------|--------|
 |Keep the translated content in the same cell and columns|Don't edit, translate, or delete any bracketed text such as {user first name}, `<COMPANY_NAME>` or {{company name}}. It must stay the same for personalization coding. There's no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (one bracket at the start and one at the end, or two at the start and end).| 
-|Ensure that there are no spaces added before or after the updated content|Don't make visual, format, or other stylistic changes unless it improves clarity. Changes shouldn't alter the meaning conveyed in the original English text.|Don't add personal comments.|
+|Ensure that there are no spaces added before or after the updated content|Don't make visual, format, or other stylistic changes unless it improves clarity. Changes shouldn't alter the meaning conveyed in the original English text. Don't add personal comments.|
 |Ensure there is consistent punctuation at the end of sentences (that is, all using a period or none using a period)|Don't add personal comments.|
 |Check for grammatical errors|Don't add new or additional columns or remove columns.| 
 

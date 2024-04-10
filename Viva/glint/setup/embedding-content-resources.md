@@ -1,5 +1,5 @@
 ---
-title: Embedding Content Resources into Action Plans
+title: Embedding videos in Content Resources and Action Plans
 description: LinkedIn Learning videos are prepopulated into Viva Glint Action Plan templates. You can customize the template by choosing your own LinkedIn Learning video.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -15,37 +15,40 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/01/2024
+ms.date: 04/10/2024
 ---
 
-# Embedding Content Resources into Action Plans
+# Embedding videos into Content Resources and Action Plans
 
 LinkedIn Learning videos are selected for and attached to Viva Glint Action Plan templates. If you’re a LinkedIn Learning customer who wants to add different course content to your template, check out [LinkedIn Learning Customer Success: Course Content Corner](https://learning.linkedin.com/customer-success-center/linkedin-learning-course-content-corner?lr=1). 
 
-## Adding a LinkedIn Learning video to Content Resources
+>[!IMPORTANT]
+>Videos that are not the property of LinkedIn Learning can also be used as resources in your templates. Follow the LinkedIn Learning instructions as much as possible, to achieve your upload.
 
-Follow these guidelines:
+## Choosing a LinkedIn Learning video to add to Content Resources
 
-1.	Select the video you want to add. The preview screen displays.
+1.	Select the video to add. The preview screen displays.
     1. Select **Watch full course**.
     1.	Use the **share arrow** symbol and then select **Embed**.
     1.	Select **Unlock Video to Embed**.
     1.	Select **Copy Code.** 
 
-1. Paste the code into a document to save the entire URL, such as a Word or Google document.
-
-1. Locate this section of the URL, which is within quotes: **https://linkedin.com/learning/embed/** 
+1. Paste the code into a document to save the entire URL, such as a Word or Google document. Locate this section of the URL, which is within quotes: 'https://linkedin.com/learning/embed/' **Copy just that part of the URL.**
 
    > [!NOTE]
-   > There won't be an embed code if the video is outdated and a newer version is available. Follow the outdated link to the video and a banner with a hyperlink directs you to the correct link.
+   > There won't be an embed code if the video is outdated and a newer version is available. The outdated link directs you to the new link.
 
-4. Copy just that part of the URL.
+## Adding the new video to Content Resources
 
-1. Now, from your Viva Glint admin dashboard, select the **Configure symbol** and then **Content Resources**.
+From your Viva Glint admin dashboard, select the **Configure symbol** and then **Content Resources.**
+
+:::image type="content" source="../../media/glint/setup/content-resources.png" alt-text="Screenshot of where to access Content Resources setup from the admin dashboard.":::
 
 1. Select **+ New**.
 
 1.	Select **Ok** on the *Adding a new item adds it for all languages* message.
+
+    :::image type="content" source="../../media/glint/setup/new-item-languages.png" alt-text="Screenshot of *New item languages* dialog box.":::
 
 1.	Describe and name your new resource.
     1. In the *Untitled Resource* bar, enter the *actual* video title.
@@ -86,17 +89,15 @@ Follow these guidelines:
 
 3.	Delete the old Suggested Action.
 
-4.	Add the cloned copy of the Suggested Action.
+    :::image type="content" alt-text="Screenshot of hovering over and using the trash can symbol to delete a Suggested Action Item." source="../../media/glint/setup/delete-suggested-action.png" lightbox="../../media/glint/setup/delete-suggested-action.png":::
 
-5.	Select **Save**.
+5.	Add the cloned copy of the Suggested Action.
 
-6.	Select **Publish**.
+6.	Select **Save**.
 
-7.	Confirm the update.
+7.	Select **Publish**.
 
-
-
-
+8.	Confirm the update.
 
 
 

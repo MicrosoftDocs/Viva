@@ -1,7 +1,7 @@
 ---
-ms.date: 3/28/2024
+ms.date: 4/08/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
-description: Explains how to set up and use the Microsoft Copilot Dashboard, including admin controls, the update process, and frequently asked questions.
+description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
@@ -18,7 +18,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required.
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required.
 
 Copilot for Microsoft 365 works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -28,9 +28,7 @@ The dashboard covers the following categories of metrics: Readiness, adoption, i
 
 To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
-:::image type="complex" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
-Screenshot that shows the Copilot Dashboard.
-:::image-end:::
+:::image type="content" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
 
 >[!Note]
 >The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
@@ -42,7 +40,8 @@ Screenshot that shows the Copilot Dashboard.
 If you have access to the Copilot Dashboard, you can find it in the [Teams or web app](https://insights.cloud.microsoft/#/CopilotDashboard).
 
 1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
-    * If you don’t have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
+
+   If you don’t have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
 
 2. On the left navigation panel, select **Copilot Dashboard**.
 
@@ -82,15 +81,13 @@ To see how many employees have automatic access to the dashboard and to manage t
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
-1. Go to the setup tab and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.  
+1. Go to the Settings tab and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.  
 
 2. Under **Viva Insights in Microsoft 365**, select **Manage settings for viewing the Copilot dashboard**.  
 
 3. To see how many employees have automatic access, at the top, select **General**.
 
-   :::image type="complex" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
-   Screenshot that shows how to view the number of employees with access.
-   :::image-end:::
+   :::image type="content" source="images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="images/copilot-dashboard-02b.png":::
 
 **To enable access for new report users:**
 
@@ -98,9 +95,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
-   :::image type="complex" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users." lightbox="images/copilot-dashboard-03.png":::
-   Screenshot that shows how to add new users.
-   :::image-end:::
+   :::image type="content" source="images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
 
 **To disable access for existing report users:**
 
@@ -108,9 +103,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Select the users from the list for whom you'd like to remove access.
 1. Select **Remove user**.
 
-   :::image type="complex" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users." lightbox="images/copilot-dashboard-04.png":::
-   Screenshot that shows how to remove users.
-   :::image-end:::
+   :::image type="content" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
 
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
@@ -123,7 +116,7 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
 >[!Important]
->The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A Viva Insights license is not required. <br> <br />
+>The Copilot Dashboard in the Power BI app is no longer available to download. Customers who previously installed it can still use it for the time being but there will be no new version releases. Data refreshes will stop on April 1. Going forward, we recommend you access the dashboard in the Viva Insights app. The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. A paid Viva Insights license is not required. <br> <br />
 >If you previously downloaded the Power BI app, see the [FAQs below](#faqs) to troubleshoot any issues.
 
 ## Interpreting the data
@@ -194,9 +187,9 @@ Under the Learning tab, here you'll find research around the impacts of AI on wo
 
 ## FAQs
 
-**Do I need a Viva Insights subscription in order to access the report?**
+**Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
 
-No, a Viva Insights subscription is not required. The report is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise.
+No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [additional advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
 
 **Does the report use Viva Insights data to create any of the metrics?**
 

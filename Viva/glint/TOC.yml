@@ -72,6 +72,8 @@ items:
              href: setup/create-employee-attribute-template.md
            - name: Set up attributes in Viva Glint
              href: setup/send-employee-attributes.md
+           - name: Update attributes in Viva Glint
+             href: setup/update-attributes.md
            - name: Choose a Viva Glint data upload method
              href: setup/choose-upload-method.md
              items:
@@ -125,6 +127,8 @@ items:
       - name: Customize action plans in Viva Glint
         href: setup/customize-action-plans.md
         items:
+            - name: Linking a new survey item to an action plan template
+              href: setup/link-survey-item-action-template.md
             - name: Embedding LinkedIn Learning videos
               href: setup/embedding-content-resources.md
       - name: Manage language translations in Viva Glint programs
@@ -241,6 +245,8 @@ items:
         href: reports/aggregate-trending.md
       - name: Report customization
         href: reports/report-customization.md
+      - name: Understand Viva Glint confidentiality and suppression
+        href: reports/confidentiality-suppression-reports.md     
       - name: Viva Glint admin reports
         items:
          - name: Response Rates & Access report 
@@ -309,7 +315,13 @@ items:
     items:
       - name: Viva Glint's Survey Reports overview
         href: reports/survey-reports-overview.md
-      - name: Share Manager Quick Guides
+      - name: Understand and present results
+        items:
+           - name: Viva Glint Do-It-Yourself Insights Review Template
+             href: communicate/diy-presentation-template.md
+           - name: Make the most of Viva Glint reporting features
+             href: reports/report-analytics-filtering-favorability-trending.md
+      - name: Manager Quick Guides
         href: setup/manager-quick-guides-overview.md
         items:
            - name: Manager Quick Guide for data confidentiality
@@ -332,7 +344,7 @@ items:
           items:
             - name: Philosophy on appropriate use of benchmarks 
               href: people-science/people-science-benchmark-philosophy.md
-            - name: Use Viva Glint benchmarks
+            - name: Viva Glint benchmark collateral
               href: setup/benchmarks.md
             - name: Choose your comparison data for Viva Glint reporting
               href: setup/survey-comparison-data.md
@@ -365,23 +377,6 @@ items:
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey takers
              href: communicate/survey-taker-faq.md
-  - name: Understand and present results
-    items:
-       - name: Viva Glint Do-It-Yourself Insights Review Template
-         href: communicate/diy-presentation-template.md
-       - name: View results and take action as a Viva Glint manager
-         items:
-           - name: Viva Glint's Survey Reports overview
-             href: reports/survey-reports-overview.md
-           - name: Make the most of Viva Glint reporting features
-             href: reports/report-analytics-filtering-favorability-trending.md
-       - name: Share Manager Quick Guides
-         href: setup/manager-quick-guides-overview.md
-         items:
-            - name: Manager Quick Guide for data confidentiality
-              href: setup/quick-guide-confidentiality.md
-            - name: Manager Quick Guide to understanding and acting on survey results and avoiding pitfalls
-              href: setup/quick-guide-manager-doc-pitfalls.md
   - name: Integrate Viva Glint with other Viva apps
     items:
       - name: Integrate Viva Glint into Viva Insights

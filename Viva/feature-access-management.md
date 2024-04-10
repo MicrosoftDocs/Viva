@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 03/25/2024
+ms.date: 04/10/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -111,6 +111,9 @@ You can assign a maximum of 10 policies per feature to users and groups. Each po
 
 Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
+>[!NOTE]
+> If your feature supports user controls for opt out, make sure you set the *IsUserControlEnabled* parameter when you create the policy. If you don't, user controls for the policy uses the default state for the feature.
+
 For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
 
    ```powershell
@@ -118,6 +121,8 @@ For example, run the following to create an access policy, called *UsersAndGroup
    ```
    
 This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
+
+
 
 ### Manage access policies
 
@@ -128,6 +133,8 @@ For example, building on our last example, to update who the policy applies to, 
 ```powershell
 Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -GroupIds group1@contoso.com,group2@contoso.com
 ```
+
+Just like when you create the policy, if your policy supports user controls, include the *IsUserControlEnabled* parameter when you change the policy.
 
 > [!IMPORTANT]
 > Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. You can't update a policy for a particular user or group to include the entire tenant if a policy for the entire tenant already exists for the feature - only one tenant-wide policy is supported.

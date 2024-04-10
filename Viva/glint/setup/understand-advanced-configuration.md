@@ -161,9 +161,7 @@ Use the Uploads option to:
 #### Upload types:
 
 - **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk. [Learn more](https://go.microsoft.com/fwlink/?linkid=2247341).
-- **USERS_UPLOAD:** 
-   - To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
-   - Use the guidance in this article to perform a Retroactive USERS_UPLOAD: [Use Advanced Configuration Uploads](https://go.microsoft.com/fwlink/?linkid=2247341).
+- **Retroactive User Updates:** To perform an upload to user data in closed surveys. [Use Advanced Configuration Uploads](https://go.microsoft.com/fwlink/?linkid=2247341).
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
 
 ### Menu option - Running Jobs
