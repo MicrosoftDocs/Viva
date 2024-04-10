@@ -25,7 +25,7 @@ description: "Overview of how to plan, build, and launch Microsoft Viva Connecti
 
 # Overview of how to plan, build, and launch Viva Connections
 
-Use [Viva Connections](viva-connections-overview.md) to engage and empower different employee groups like frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they're and keeps them updated on news, announcements, and provides access to resources from a desktop or mobile device.
+Use [Viva Connections](viva-connections-overview.md) to engage and empower different employee groups like frontline workers and information workers across your organization. Viva Connections integrates Microsoft 365 apps and tools to create experiences that meet users where they are and keeps them updated on news, announcements, and provides access to resources from a desktop or mobile device.
 
 > [!NOTE]
 >
