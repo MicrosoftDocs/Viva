@@ -127,6 +127,8 @@ items:
       - name: Customize action plans in Viva Glint
         href: setup/customize-action-plans.md
         items:
+            - name: Linking a new survey item to an action plan template
+              href: setup/link-survey-item-action-template.md
             - name: Embedding LinkedIn Learning videos
               href: setup/embedding-content-resources.md
       - name: Manage language translations in Viva Glint programs
