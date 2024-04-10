@@ -111,6 +111,9 @@ You can assign a maximum of 10 policies per feature to users and groups. Each po
 
 Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
+>[!NOTE]
+> If your feature supports user controls for opt out, make sure you set the *IsUserControlEnabled* parameter when you create the policy. If you don't, user controls for the policy uses the default state for the feature.
+
 For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
 
    ```powershell
@@ -119,7 +122,7 @@ For example, run the following to create an access policy, called *UsersAndGroup
    
 This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
 
-If your feature supports user controls for opt out, make sure you set the *IsUserControlEnabled* parameter when you create the policy. If you don't, user controls for the policy uses the default state for the feature.
+
 
 ### Manage access policies
 
