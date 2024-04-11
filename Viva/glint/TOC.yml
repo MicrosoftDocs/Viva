@@ -278,8 +278,6 @@ items:
            items:
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
-             - name: Incorporate Microsoft Copilot in Viva into your Viva Glint Comments report
-               href: reports/incorporate-copilot.md
          - name: Response Rate report
            href: reports/response-rate-report.md
            items:
