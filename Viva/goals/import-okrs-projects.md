@@ -34,9 +34,9 @@ Viva Goals allows bulk importing of Objectives, Key Results and Initiatives usin
 
 **Role and Permission:**
 
-- Only organization administrators, organization owners, team owner and team administrators have this option enabled.
+- Only organization administrators, organization owners, and team owners have this option enabled.
     - **Org administrator, Org Owner** – Allowed to import OKRs and Initiatives into any team and to the organization.
-    - **Team Owner, Team Admin** – Allowed to only import OKRs and Initiatives to teams in which the user is a team administrator or team owner. 
+    - **Team Owner** – Allowed to only import OKRs and Initiatives to teams in which the user is a team owner. 
 
 ## How to import OKRs and Initiatives
 
@@ -88,11 +88,10 @@ For records that have not been imported, refer to the "reason" column in the Imp
 1. **Which users are allowed to import OKRs from an Excel file?**
     1. The user needs to have one of these roles to be eligible to see the option of OKR import: 
         1. Org administrator 
-        1. Team administrator 
         1. Team owner 
         1. Org owner 
         > [!NOTE]
-        > Note that team owners and admins can only import OKRs to teams where they are the team admin/owner and not to the Org level. 
+        > Note that team owners can only import OKRs to teams where they are the team owner and not to the Org level. 
 
 1. **How can users know OKRs didn’t import successfully and how they can reupload?**
     1. The import status Excel sheet has a dedicated column that details the issue for each OKR that failed in the import operation. 

@@ -56,16 +56,14 @@ Admins can view and revoke access of OKR creation permissions at any time by the
 
 Admins can set Create permissions at the team level to control who can create OKRs and initiatives for the team.  
 
-Similar to organization-level settings,  admins have three options to choose from:  
+Team owners have two options to choose from:
 
-1.	**Anyone in the organization:** Choose this option if the organization is small and cross-functional, where every user contributes to every team in the organization.
-1. **Team admins and Team owners:** Restricting OKR creation permissions to only the team administrators and owners is the default option as admins can maintain a structured OKR planning & creation workflow process.
-1.	**Specific people (along with team admins & team owners):** This option helps admins keep a structured OKR planning and creation workflow and assign specific people ownership of the process such as:
-    1. All members of this team (This would give access to all the users who are members of this team) 
-    1. Custom (This option provides you with the capability to search for users within this organization and grant create permissions access to these users) 
+1. **Anyone in the team:** Choose this option if the team is small and cross-functional, where every member of the team needs to create their own OKRs.
+
+1. **Team owners:** Restricting OKR creation permissions to only the team owners is the default option, as it lets team owners mantain a structured OKR planning and creation workflow process.
 
 > [!NOTE]
-> Permission options may be edited, but team admins and Team owners will always have access to create OKRs or Initiatives irrespective of the option selected. Additionally, organization admins and organization owners will maintain access to create OKRs or initiatives for all teams within the organization. 
+> Permission options may be edited, but team owners will always have access to create OKRs or Initiatives irrespective of the option selected. Additionally, organization admins and organization owners will maintain access to create OKRs or initiatives for all teams within the organization.
 
 ### Establish create permission for a team
 
@@ -79,34 +77,34 @@ Similar to organization-level settings,  admins have three options to choose fro
 
 #### Manage create permissions access for teams 
 
-Once admins have created permissions for specific users, they can view and revoke their permissions at any time by the following steps:  
+Once team owners have created permissions for specific users, they can view and revoke their permissions at any time by the following steps:  
 
-1.	Navigate to the team’s **Team settings** tab.  
+1. Navigate to the team’s **Team settings** tab.  
 1. Select **Manage Access** under **Who can create OKRs or Initiatives for this team?** 
 1. View all the users who have create permissions access. 
-1. Select **X** against the name(s) of the user(s) to revoke the access and save the setting.    
+1. Select **X** against the name(s) of the user(s) to revoke the access and save the setting.
 
 > [!NOTE]
-> By default, for all the newly created organizations the default permission setting for create permissions on team level OKRs or Initiatives would be ‘Team admins and team owners’. This permission setting can be changed later if needed. 
+> By default, newly created organizations' permission setting for create permissions on team-level OKRs and initiatives is **Team owners**. This permission setting can be changed later if needed.
 
 ## FAQ (Frequently Asked Questions)
 
 1. **Who can set the create permissions for teams?**
-    1. Organization admins, organization owner, team admins and team owner would be able to set create permissions for a team 
+    1. Organization admins, organization owners, and team owners can set create permissions for a team.
 
 1. **Who can set Create permissions for an organization?**
-    1. Organization owner and organization admin can set create permissions for organizational level OKRs or Initiatives. 
+    1. Organization owners and organization admins can set create permissions for organization-level OKRs and initiatives.
 
 1. **Can admins manage access for users when you select Anyone in the organization?**
-    1. No, you can only manage access for users when you’ve selected the **Specific people(along with team admins & team owners)** option.
+    1. No, you can only manage access for users when you’ve selected the **Specific people(along with team owners)** option.
 
 1. **What is the default permission setting when an organization is created?**
-    1.   Organizational level OKRs or Initiatives: Only organization admin and organization owner. 
-    1. Team level OKRs or Initiatives: Only team admins and team owners. 
+    1. Organization-level OKRs and initiatives: Only organization admins and organization owners.
+    1. Team-level OKRs and initiatives: Only team owners.
     1. Both the options can be changed later if needed.
 
-1. **Does create permissions apply for OKRs and Initiatives at a team and organizational level?**
-   1. Yes, create permissions at an organizational level and team level applies to OKRs and Initiatives pertaining to that entity. 
+1. **Do create permissions apply for OKRs and initiatives at a team and organization level?**
+   1. Yes, create permissions at an organization level or team level apply to OKRs and initiatives pertaining to that entity.
 
-1. **Can organization admins or team admins access to create OKRs be removed?**
-    1. No, these users would always have access to create OKRs. 
+1. **Can organization admins' or team owners' access to create OKRs be removed?**
+    1. No, these users always have access to create OKRs.
