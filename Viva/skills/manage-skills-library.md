@@ -150,6 +150,9 @@ Follow these steps to either import your custom skills library for the first tim
 > [!NOTE]
 > Reimporting custom skills library will override existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description will be treated as a deletion of the old skill and the addition of a new skill.
 
+> [!IMPORTANT]
+> When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
+
 1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
 
 2. Select **Manage skills library**.  
@@ -186,11 +189,11 @@ Follow these steps to either import your custom skills library for the first tim
   
 9. Paste the file path for both files into the Skills custom import step.
 
-10. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
+10. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
 11. Review your custom skills data.  
 
-12. Check the box to acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on. Any new skills are added, and any deleted or missing skills in the import file will be removed from your users’ experience, and all data associated with these skills will also be removed.  
+12. Check the box to acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on. Any new skills are added, and any deleted or missing skills in the import file are removed from your users’ experience, and all data associated with these skills are also be removed.  
 
 13. Select **Confirm** to import.  
 
@@ -232,7 +235,7 @@ Follow these steps to either import your custom skills library for the first tim
 
 6. Select **Delete** to confirm that you want to delete your custom skills. 
 
-    Deleting custom skills will immediately remove all of these skills from your users’ experiences and will delete all data associated with those skills. 
+    Deleting custom skills immediately removes all of these skills from your users’ experiences deletes all data associated with those skills. 
     
 > [!NOTE]
 > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
