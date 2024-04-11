@@ -15,7 +15,8 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/26/2024
+ms.date: 04/11/2024
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Incorporate Copilot in Viva Glint into your Viva Glint Comments report 
