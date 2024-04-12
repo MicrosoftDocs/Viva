@@ -224,7 +224,7 @@ The query might not have had any attendees. If no one attended a meeting, Viva I
 
 This can happen for a few reasons:
 * The organizer doesn't have a license.
-* The organizer opted out of Viva Insights. Learn more about opting out in Opt out of Viva Insights.
+* The organizer opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights.](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967)
 * The organizer isn't part of the partition.
 * The organizer's HR data hasn't been uploaded.
 
