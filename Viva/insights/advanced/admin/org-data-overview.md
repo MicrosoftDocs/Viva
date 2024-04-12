@@ -86,7 +86,9 @@ So, when you view your organizational data in the advanced insights app, you'll 
 :::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-csv-expanded.png":::
 
 >[!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID. You'll need to regularly upload .csv files to keep your organizational data current.
+> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID for the Analyst experience. You'll need to regularly upload .csv files to keep your organizational data current. 
+> 
+> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID. 
 >
 > Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 
