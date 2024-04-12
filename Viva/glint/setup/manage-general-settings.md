@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2024
+ms.date: 04/12/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -37,7 +37,7 @@ For each setting option, you see a short description so you can feel confident a
 - [Localization](#set-up-the-localization-section)
 
 >[!NOTE]
-> Any changes you make in the General Settings apply to all survey programs created in Viva Glint.
+> Any initial actions or subsequent changes you make in the General Settings apply to all survey programs created in Viva Glint.
 
 ## Set up the Company Information section 
 
@@ -56,6 +56,13 @@ Also, set up what your employees see when they open an email sharing information
 > [!IMPORTANT]
 > Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
 
+>[!TIP]
+>Best practice is to either link to your organization's privacy policy or to customize a message. Using both your company's privacy policy and a customized message may incur conflicts.
+
+:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included." lightbox="../../media/glint/setup/customized-privacy-policy.png":::
+
+:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included." lightbox="../../media/glint/setup/customized-and-org-privacy-policy.png":::
+
 ## Set up the Communications section
 
 Provide or edit the following fields: 
@@ -68,7 +75,7 @@ Provide or edit the following fields:
 
 ## Set up the Reporting section 
 
-Choose attributes and hierarchies to show in reporting and select benchmark comparisons. You will also indicate permissions and thresholds for viewing feedback. 
+Choose attributes and hierarchies to show in reporting and select benchmark comparisons. Also indicate permissions and thresholds for viewing feedback. 
 
 >[!NOTE]
 > This section is not applicable to 360 Feedback programs. 
