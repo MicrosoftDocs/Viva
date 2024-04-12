@@ -38,8 +38,8 @@ It’s easy to interpret survey results in a way that is neither helpful to you 
 |Common survey interpretation pitfalls|How to avoid pitfalls and take positive action instead|
 |:------------------------------------|:-----------------------------------------------------|
 |Rushing to action|Refrain from jumping into solution mode. Check in with your team before deciding on Focus Areas for your action plan.|
-Taking on too much at once or areas outside of your control|It’s tempting to take it all on, but you'll be more effective if you choose one, at most two, Focus Areas. You might actually see survey scores decline if you take on too many Focus Areas all at once.|
-|Analysis paralysis|Use this three-question framework to get started: <ul> <li>What's most important? <li>How am I doing? <li>What is my top priority?|</ul>
+|Taking on too much at once or areas outside of your control. | It’s tempting to take it all on, but you'll be more effective if you choose one, at most two, Focus Areas. You might actually see survey scores decline if you take on too many Focus Areas all at once.|
+|Analysis paralysis|Use this three-question framework to get started: <ul> <li>What's most important?</li> <li>How am I doing?</li> <li>What is my top priority?</li></ul>|
 |Taking results personally; getting lost in the negative, failing to celebrate the positive and explore the neutral|Stay balanced by first noting and celebrating the positives. Then explore the negatives and neutrals, regarding them as a business exercise. Remain objective and open to learning. Adopt a growth mindset - everyone can continuously learn and improve. Treat feedback like a gift.|
 |Prioritizing comments over scores|	Read the comments last, after you understand strengths and weaknesses from the scores. Use comments only to clarify what the scores are telling you.|
 |Trying to identify who said what|This breaks trust and make people fearful of giving honest feedback that will help you improve. Most companies have a zero-tolerance policy for misusing data in this way.|

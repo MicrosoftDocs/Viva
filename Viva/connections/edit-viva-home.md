@@ -29,10 +29,6 @@ description: "Learn how to customize and edit the Viva Connections home experien
 
 The new [Viva Connections](viva-connections-overview.md) desktop design serves as a new experience that centers essential job tasks, personalized content, easy access to other Viva experiences, and better aligns with the mobile experience. [Learn more about the new Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419).
 
-> [!NOTE]
->
-> The Viva Connections update is currently available to targeted release customers, with a planned roll out to all users in early Q1 2024. This includes the new News spotlight, the feed tab, branding and theming options, and the revised resources, and Viva suite footer section.
-
 Elements of the new Viva Connections experience can be customized to fit your organization’s brand and the needs of your end users. Learn more about how to customize the banner, Dashboard content, and navigational links in Resources. Then, learn how to influence content in the Feed. Finally, learn how to manage access and permissions.
 
 > [!NOTE]
@@ -42,7 +38,6 @@ Elements of the new Viva Connections experience can be customized to fit your or
 > - If you haven’t set up Viva Connections yet, the default experience includes cards on the dashboard but otherwise doesn’t impact [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 > - The new Viva Connections experience uses a similar permission model to SharePoint and can be managed from Microsoft Teams.
 > - You must have member level permissions or higher to edit the new desktop experience.
-> - The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. See the list here for more information about[service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## About the updated Viva Connections experience
 
@@ -101,8 +96,7 @@ If your organization has created [multiple Connections experiences](/viva/connec
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
 
    > [!NOTE]
-   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-   > - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. For more information about service availability, [see the list of service availability here](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 #### Give permission to edit from Viva Connections in Teams
 
@@ -140,10 +134,6 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 | [Topics](create-dashboard.md#add-a-topics-card)    | Share and contribute to your organization’s knowledge base. | Information worker          |
 
 ### Summary of customizable elements
-
-> [!NOTE]
->
-> The Viva Connections desktop update is currently available to targeted release customers, with a planned roll out to all users in early Q1 2024. This includes the news spotlight, the feed tab, branding and theming options, the revised resources section, and Viva suite footer section.
 
 :::image type="content" source="../media/connections/edit-viva-home/vc3-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be edited."lightbox="../media/connections/edit-viva-home/vc3-customizable-elements.png":::
 
@@ -189,8 +179,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 >
 > For customers with at least one F license:  
 >
-> - The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
-> - For Targeted release customers (in Ring 3.6 or higher), all users at your organization will have access to the Viva Connections app. [Use audience targeting](use-audience-targeting-in-viva-connections.md) to promote specific content to different groups until the experience becomes generally available in 2023 where you’ll have access to more than one home experience option for multiple audiences.
+> The Viva Connections app is automatically pinned in the Teams app bar. If you don’t want the app pre-pinned, either [turn off tailored apps for frontline workers](/microsoft-365/frontline/pin-teams-apps-based-on-license), change the [app settings](/microsoftteams/teams-custom-app-policies-and-settings), or [edit how apps in Teams are managed](/microsoftteams/manage-apps).
 
 Your organization’s Viva Connections app can display a custom icon and label in the Teams app bar. This customization takes place in the Teams admin center, which requires Teams admin permissions or higher. It is recommended that you also apply app settings that [pre-pin and pre-install the app](/microsoftteams/teams-app-setup-policies). Doing so will make sure people in your organization can more easily discover the Viva Connections app and start using it. Learn more about [customizing the Viva Connections icon, label, and app settings](add-viva-connections-app.md).
 
@@ -220,7 +209,6 @@ Further customize your Connections experience and SharePoint home site by applyi
 
 > [!NOTE]
 >
-> - Applying themes to your Connections experience is currently available to targeted release customers only, with a full rollout to general audiences by early Q1 in 2024.
 > - If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
 
 To apply a SharePoint or custom theme:
