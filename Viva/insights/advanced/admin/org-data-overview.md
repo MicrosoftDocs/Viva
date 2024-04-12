@@ -56,7 +56,7 @@ Microsoft Entra ID automatically syncs with the advanced insights app and provid
 
 So, including the attributes Viva Insights brings in from SMTP addresses and Outlook and Exchange settings, you'll notice five total attributes in your organizational data: **PersonId**, **ManagerId**, **Organization**, **Domain**, and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot of a diagram for Microsoft Entra ID that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-aad-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot of a diagram for Microsoft Entra ID that shows each data source on the left, arrows in the center, and each attribute on the right." lightbox="../images/admin-field-sources-aad-expanded.png":::
  
 
 ### Attributes you get from a .csv file
@@ -83,7 +83,7 @@ If you want, you can also include custom attributes that you create.
 
 So, when you view your organizational data in the advanced insights app, you'll see the attributes you included in your .csv upload plus **Domain** and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-csv-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right." lightbox="../images/admin-field-sources-csv-expanded.png":::
 
 >[!Important]
 > After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID for the Analyst experience. You'll need to regularly upload .csv files to keep your organizational data current. 
