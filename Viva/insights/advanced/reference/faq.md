@@ -26,7 +26,7 @@ In this article, we address the most commonly asked questions about the analysis
 * [Use advanced insights](#use-advanced-insights)
     * [Meeting exclusions](#meeting-exclusions)
     * [Data validation, verification, and use](#data-validation-verification-and-use)
-    * [Queries](#queries)
+    
 
 
 ## Functionality and features
