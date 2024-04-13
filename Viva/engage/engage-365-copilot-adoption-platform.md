@@ -55,11 +55,11 @@ The suggested content here aligns with content in the Viva Amplify communication
 
 -  **Conversation Starters** help drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.
 
-- **Copilot writing assistance** can help members write their posts. The Copilot writing assistant availability is controlled at the network level.
+- **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
 - **Top questions** raise visibility of the most common questions, helping users quickly see the answers they need. Top questions appear in the right sidebar for quick reference.
 
-- **Membership suggestion** dynamically grows your community by suggesting new members based on your organization’s Copilot license allocation and assignment. This helps community admins bring the right people into the community to learn and share. 
+- **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
     :::image type="content" source="../viva/media/engage/admin/engage-copilot-adoption-members.png>" alt-text="Screenshot of suggested members who have been issued a Microsoft 365 Copilot license.":::
 
