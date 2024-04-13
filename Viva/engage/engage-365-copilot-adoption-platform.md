@@ -60,7 +60,7 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 - **Top questions** raise visibility of the most common questions, helping users quickly see the answers they need. Top questions appear in the right sidebar for quick reference.
 
-- **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Copilot licenses. This helps community admins bring the right people into the community to learn and share.
+- **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
     :::image type="content" source="../media/engage/admin/engage-copilot-adoption-members.png" alt-text="Screenshot of suggested members who have been issued a Microsoft 365 Copilot license.":::
 
