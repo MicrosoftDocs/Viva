@@ -17,7 +17,7 @@ search.appverid:
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Viva Engage rolls out a Copilot adoption community to share best practices and answer employees' questions"
+description: "Viva Engage rolls out a Copilot adoption community to share best practices and answer user questions"
 ---
 
 # Microsoft 365 Copilot adoption community in Viva Engage
@@ -28,7 +28,7 @@ The **Microsoft 365 Copilot adoption community** makes it easier for users to as
 A discoverable banner in the home feed provides access for network admins and corporate communicators who have setup privileges for this feature.
 
 >[!NOTE]
->The Microsoft 365 Copilot adoption community is only available in Viva Engage premium on tenants that have Microsoft 365 Copilot licenses--specifically, Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams service plans.
+>The **Microsoft 365 Copilot adoption community** is only available in Viva Engage premium on tenants that have Microsoft 365 Copilot licenses--specifically, Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams service plans.
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
