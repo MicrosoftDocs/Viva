@@ -65,7 +65,7 @@ The suggested content here aligns with content in the Viva Amplify communication
 
 ## Fuel your Copilot adoption community with information resources
 
-To help the community grow, upskill, and share knowledge, Copilot adoption community admins can upload documents, such as Q&As and FAQs, into the community through the Answers Intelligent Importer. Intelligent Importer leverages AI to generate question-and-answer pairs from the imported content, which you can review, edit, and then post. Learn how to use [Intelligent Importer](/viva/engage/eac-answers-importer).
+To help the community grow, upskill, and share knowledge, the Copilot adoption community admin can upload documents, such as Q&As and FAQs, into the community through the Answers Intelligent Importer. Intelligent Importer leverages AI to generate question-and-answer pairs from the imported content, which you can review, edit, and then post. Learn how to use [Intelligent Importer](/viva/engage/eac-answers-importer).
 
 :::image type="content" source="../viva/media/engage/admin/engage-copilot-adoption-importer.png>" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
 
