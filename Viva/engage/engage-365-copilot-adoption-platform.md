@@ -30,11 +30,11 @@ A discoverable banner in the home feed provides access for network admins and co
 >[!NOTE]
 >The Microsoft 365 Copilot adoption community is only available in Viva Engage premium on tenants with Microsoft 365 Copilot licenses--specifically, Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams service plans.
 
-:::image type="content" source="./media/engage/admin/engage-copilot-adoption-community-access.png>" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
+:::image type="content" source="./media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
 This new community type includes onboarding prompts and a community template.  
 
-:::image type="content" source="./media/engage/admin/engage-copilot-adoption-landing-plus-modal.png>" alt-text="Screenshot shows the landing page where you can create the Microsoft 365 Copilot adoption community.":::
+:::image type="content" source="./media/engage/admin/engage-copilot-adoption-landing-plus-modal.png" alt-text="Screenshot shows the landing page where you can create the Microsoft 365 Copilot adoption community.":::
 
 ## Accept community presets for easy setup 
 
@@ -43,7 +43,7 @@ Setup follows the same process as any other community. However, this templatized
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses must be _present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator.
 
-:::image type="content" source="./media/engage/admin/engage-copilot-adoption-new-community.png>" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
+:::image type="content" source="./media/engage/admin/engage-copilot-adoption-new-community.png" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
 
 ## Explore tools to build membership, content, and engagement
 
@@ -52,7 +52,7 @@ The Copilot community experience includes the following features to help drive e
 - **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable prior to posting (or scheduling).
 The suggested content here aligns with content in the Viva Amplify communications campaign. This prebuilt campaign is available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
 
-    :::image type="content" source="./media/engage/admin/engage-copilot-adoption-sug-content.png>" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
+    :::image type="content" source="./media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
 
 - **Conversation Starters** help drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.
 
@@ -62,13 +62,13 @@ The suggested content here aligns with content in the Viva Amplify communication
 
 - **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
-    :::image type="content" source="./media/engage/admin/engage-copilot-adoption-members.png>" alt-text="Screenshot of suggested members who have been issued a Microsoft 365 Copilot license.":::
+    :::image type="content" source="./media/engage/admin/engage-copilot-adoption-members.png" alt-text="Screenshot of suggested members who have been issued a Microsoft 365 Copilot license.":::
 
 ## Fuel your Copilot adoption community with information resources
 
 To help the community grow, upskill, and share knowledge, the Copilot adoption community admin can upload documents, such as Q&As and FAQs, into the community through the Answers Intelligent Importer. Intelligent Importer leverages AI to generate question-and-answer pairs from the imported content, which you can review, edit, and then post. Learn how to use [Intelligent Importer](/viva/engage/eac-answers-importer).
 
-:::image type="content" source="./media/engage/admin/engage-copilot-adoption-importer.png>" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
+:::image type="content" source="./media/engage/admin/engage-copilot-adoption-importer.png" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
 
 ### Features available by Viva Engage role
 
