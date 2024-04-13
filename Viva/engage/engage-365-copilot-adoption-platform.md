@@ -32,7 +32,7 @@ A discoverable banner in the home feed provides access for network admins and co
 
 :::image type="content" source="./media/engage/admin/engage-copilot-adoption-community-access.png>" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
-The new Copilot community type in Viva Engage includes onboarding prompts and a community template.  
+This new community type includes onboarding prompts and a community template.  
 
 :::image type="content" source="./media/engage/admin/engage-copilot-adoption-landing-plus-modal.png>" alt-text="Screenshot shows the landing page where you can create the Microsoft 365 Copilot adoption community.":::
 
@@ -54,7 +54,7 @@ The suggested content here aligns with content in the Viva Amplify communication
 
     :::image type="content" source="./media/engage/admin/engage-copilot-adoption-sug-content.png>" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
 
--  **Conversation Starters** help drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.
+- **Conversation Starters** help drive engagement between community members. Conversation starters for this community can't be edited initially, but they can be turned off in the Community settings.
 
 - **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
