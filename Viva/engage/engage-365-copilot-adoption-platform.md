@@ -83,9 +83,9 @@ To access these community features, admins and users must have either a Viva Sui
 
 ## FAQ
 
-**Will I see this in my network?**
+**Will I see this feature in my network?**
 
-The banner in the home feed shows for all network admins and corporate communicators in tenants with Microsoft 365 Copilot licenses.
+The banner in the home feed shows for all network admins and corporate communicators in Viva Engage tenants with Microsoft 365 Copilot licenses.
 
 **Can I connect to an existing community that we've already set up for Microsoft 365 Copilot adoption?**
 
