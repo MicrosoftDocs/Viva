@@ -37,19 +37,19 @@ The new Copilot community type in Viva Engage includes onboarding prompts and a 
 
 ## Accept community presets for easy setup 
 
-Setup follows the same process as any other community. However, this templatized community removes much of the work for creation, setup, and on-going community management. Upon creation, the community includes a cover photo, description, and an onboarding checklist right out of the box. Admins can customize the community as needed.
+Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and on-going community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
 
 >[!NOTE]
-> Microsoft 365 Copilot licenses must be present in the tenant before this community can be created, but they don't need to be assigned to the network admin or corporate communicator.
+> To create this community, Microsoft 365 Copilot licenses must be present on the tenant. Those licenses need not be assigned to the network admin or corporate communicator.
 
-:::image type="content" source="../viva/media/engage/admin/engage-copilot-adoption-new-community.png>" alt-text="Screenshot shows what Copilot adoption community  page looks like.":::
+:::image type="content" source="../viva/media/engage/admin/engage-copilot-adoption-new-community.png>" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
 
 ## Explore tools to build membership, content, and engagement
 
 The Copilot community experience includes the following features to help drive engagement. Most features can be disabled following initial setup, if needed.  
 
-- **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. Suggested content is editable prior to posting (or scheduling).
-This content aligns with content generated in prebuilt communications campaign available for Viva Amplify through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
+- **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable prior to posting (or scheduling).
+The suggested content here aligns with content in the Viva Amplify communications campaign. This prebuilt campaign is available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
 
     :::image type="content" source="../viva/media/engage/admin/engage-copilot-adoption-sug-content.png>" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
 
