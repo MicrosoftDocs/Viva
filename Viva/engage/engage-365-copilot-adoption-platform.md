@@ -89,7 +89,7 @@ The banner in the home feed shows for all network admins and corporate communica
 
 **Can I connect to an existing community that we've already set up for Microsoft 365 Copilot adoption?**
 
-There's no way to connect communities at this time. 
+There's no way to connect communities at this time.
 
 **Will these features be available for other communities?**
 
