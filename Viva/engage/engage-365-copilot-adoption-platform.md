@@ -22,8 +22,8 @@ description: "Viva Engage rolls out a Copilot adoption community to share best p
 
 # Microsoft 365 Copilot adoption community in Viva Engage
 
-Viva Engage network admins and corporate communicators can now enable a new type of community built specifically to support adoption of Microsoft 365 Copilot.
-The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
+Network admins and corporate communicators can now enable a new type of community in Viva Engage specifically built to support adoption of Microsoft 365 Copilot.
+The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Microsoft Copilot.
 
 A discoverable banner in the home feed provides access for network admins and corporate communicators who have setup privileges for this feature.
 
