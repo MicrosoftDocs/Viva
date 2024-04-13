@@ -41,7 +41,7 @@ This new community type includes onboarding prompts and a community template.
 Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and on-going community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
 
 >[!NOTE]
-> To create this community, Microsoft 365 Copilot licenses must be present on the tenant. Those licenses need not be assigned to the network admin or corporate communicator.
+> To create this community, Microsoft 365 Copilot licenses must be _present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator.
 
 :::image type="content" source="./media/engage/admin/engage-copilot-adoption-new-community.png>" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
 
@@ -70,17 +70,16 @@ To help the community grow, upskill, and share knowledge, the Copilot adoption c
 
 :::image type="content" source="./media/engage/admin/engage-copilot-adoption-importer.png>" alt-text="Screenshot shows how AI turns your documents into a list of questions and answers that you can edit and import.":::
 
-### Community features available by Viva Engage role
+### Features available by Viva Engage role
 
-Both admins and users must have either a Viva Suite license or a Communications & Communities license _and_ a Microsoft 365 Copilot license.
+To access these community features, admins and users must have either a Viva Suite license or a Communications & Communities license.
 
 |**Role**|**Features**|
 |--------|------------|
 |Network admins|<ul><li>Home feed banner for setup</li><li>Network admin settings page banner</li><li>Community creation flow</li></ul>|
 |Corporate communicators|<ul><li>Home feed banner for setup</li><li>Community creation flow</li></ul>|
 |Microsoft 365 Copilot Adoption Community admin| <ul><li>Preset banner and thumbnail image</li><li>Community setup checklist</li><li>Suggested content</li><li>Suggested members</li><li>Intelligent importer</li></ul>|
-|Community members|<ul><li>Top Q&A</li><li>Conversation starters</li><li>
-Copilot writing assistance</li></ul>|
+|Community members|<ul><li>Top Q&A</li><li>Conversation starters</li><li>Copilot writing assistance</li></ul>|
 
 ## FAQ
 
