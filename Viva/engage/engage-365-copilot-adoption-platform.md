@@ -49,7 +49,7 @@ Setup follows the same process as any other community. However, this templatized
 
 The Copilot community experience includes the following features to help drive engagement. After the community is set up, most features can be disabled as needed.  
 
-- **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable prior to posting (or scheduling).
+- **Suggested content** offers a quick way to introduce Copilot capabilities and has various quick tips and tricks available for members. All content is editable prior to posting.
 The suggested content here aligns with content you'll find in the Viva Amplify communications campaign, available through the Copilot Deployment Kit. [Learn more here.](https://techcommunity.microsoft.com/t5/viva-amplify-blog/announcing-the-copilot-deployment-kit-in-viva-amplify/ba-p/4110466)
 
     :::image type="content" source="../media/engage/admin/engage-copilot-adoption-sug-content.png" alt-text="Screenshot shows suggested content that is generated on the Copilot adoption community page=.":::
