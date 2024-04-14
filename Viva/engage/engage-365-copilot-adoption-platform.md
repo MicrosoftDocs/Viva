@@ -28,7 +28,7 @@ The **Microsoft 365 Copilot adoption community** makes it easier for users to as
 A discoverable banner in the home feed provides access for network admins and corporate communicators who have setup privileges for this feature.
 
 >[!NOTE]
->The **Microsoft 365 Copilot adoption community** is only available in Viva Engage premium on tenants that have Microsoft 365 Copilot licenses--specifically, Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams service plans.
+>The **Microsoft 365 Copilot adoption community** is only available in Viva Engage premium on tenants that have Microsoft 365 Copilot licenses through one of the following [service plans](https://learn.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot): Microsoft Copilot with Graph-grounded chat, Microsoft 365 Copilot in Productivity App, or Microsoft 365 Copilot in Microsoft Teams.
 
 :::image type="content" source="../media/engage/admin/engage-copilot-adoption-community-access.png" alt-text="Screenshot shows access point for the Microsoft 365 Copilot adoption community.":::
 
