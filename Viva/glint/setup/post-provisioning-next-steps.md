@@ -56,6 +56,9 @@ To assign admins:
 
 After initial admins are assigned in the Microsoft Administrator Center, Viva Glint admins can assign and unassign users to the Company Admin role. In the Viva Glint app, admins go to **configure**, select **People**, choose a user, and edit their **User Roles** to include **Company Admin**.
 
+> [!NOTE]
+> As a Viva Glint admin, use these steps to remove the M365 global admin from the Viva Glint Company Admin role if this user shouldn't have access to survey results.
+
 ## What do I do if I need help?
 
 [Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)
