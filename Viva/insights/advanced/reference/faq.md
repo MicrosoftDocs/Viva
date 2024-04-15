@@ -27,7 +27,7 @@ In this article, we address the most commonly asked questions about the analysis
     * [Meeting exclusions](#meeting-exclusions)
     * [Data validation, verification, and use](#data-validation-verification-and-use)
     
-Refer [here](../analyst/query-results.md#faqs) for frequently asked questions and answers about queries.
+Refer [here](../analyst/query-results.md#faqs) for frequently asked questions and answers about queries. 
 
 ## Functionality and features
 
