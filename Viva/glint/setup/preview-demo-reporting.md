@@ -39,8 +39,8 @@ Demo surveys are available for engagement surveys only.
    > :::image type="content" source="../../media/glint/setup/configuration-symbol.png" alt-text="Screenshot of the configuration symbol on the admin dashboard.":::
    
 2. Select the survey in which to preview reporting. A new page opens.
-3. In the *Upcoming and Live* tab, select **Preview** from the vertical elipses dropdown menu. A *Survey Preview* dialog box opens.
-   > :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the elipses next to a survey cycle.":::
+3. In the *Upcoming and Live* tab, select **Preview** from the vertical ellipses dropdown menu. A *Survey Preview* dialog box opens.
+   > :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the ellipses next to a survey cycle.":::
  
 4. Select **Generate Report Preview** to view a one-time, randomized data survey report. An email lets you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
    
