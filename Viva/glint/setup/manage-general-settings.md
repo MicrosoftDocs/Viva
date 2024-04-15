@@ -44,7 +44,7 @@ For each setting option, you see a short description so you can feel confident a
 This section provides high-level information about your company. 
 Also, set up what your employees see when they open an email sharing information about a Viva Glint program.  
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Client UUID**   | How Viva Glint identifies your company in our system  |  
 |**Client Name**    | *Or Doing Business As (DBA) name*   | 
@@ -59,15 +59,15 @@ Also, set up what your employees see when they open an email sharing information
 >[!TIP]
 >Best practice is to either link to your organization's privacy policy or to customize a message. Using both your company's privacy policy and a customized message may incur conflicts.
 
-:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included." lightbox="../../media/glint/setup/customized-privacy-policy.png":::
+:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included.":::
 
-:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included." lightbox="../../media/glint/setup/customized-and-org-privacy-policy.png":::
+:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included.":::
 
 ## Set up the Communications section
 
 Provide or edit the following fields: 
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
@@ -82,7 +82,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 
 Provide or edit the following fields: 
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails)   |
 |**Default Comparison**   | Your preferred default comparison statistic. If left empty, it defaults to Benchmark.   |
@@ -106,7 +106,7 @@ Provide or edit the following fields:
 
 Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238341).
 
-|**Field**| **Definition and notes**|
+| Field | efinition and notes |
 |-----------|-----------|
 |**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this functionality off, a personalized survey link is sent to participants.   | 
 |**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
@@ -120,7 +120,7 @@ In this section:
   
 Edit the following fields: 
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Available Survey Questions and Program Templates**   |Deselect program types you won’t use in to delete them from your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
@@ -151,7 +151,7 @@ In this section, make selections for your Viva Glint technical setup:
 - Username and password for Single Sign On (SSO) users 
 - Employee ID 
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Attribute for SSO Authentication** |Configure the unique Employee ID. The email is set as the default employee ID. |
 |**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
@@ -169,7 +169,7 @@ In this section:
 - Indicate the default language for your dashboard. 
 - Provide the languages available for employee dashboards. 
 
-|**Field**| **Definition and notes**|
+| Field | Definition and notes |
 |-----------|-----------|
 |**Comment Analytics Language**   |The list of codes for languages to include for comment analysis. Empty value signifies English only.    |
 |**Default Survey Language**   |Provides the default language for surveys. If a preference isn't populated per employee, this language is shown as a default.     |
