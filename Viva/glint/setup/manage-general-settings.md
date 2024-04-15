@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 03/07/2024
+ms.date: 04/12/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -37,7 +37,7 @@ For each setting option, you see a short description so you can feel confident a
 - [Localization](#set-up-the-localization-section)
 
 >[!NOTE]
-> Any changes you make in the General Settings apply to all survey programs created in Viva Glint.
+> Any initial actions or subsequent changes you make in the General Settings apply to all survey programs created in Viva Glint.
 
 ## Set up the Company Information section 
 
@@ -56,6 +56,13 @@ Also, set up what your employees see when they open an email sharing information
 > [!IMPORTANT]
 > Avoid potential conflicts between your organization's message and Viva Glint's privacy statements. The application of one of the three privacy statements to the survey is dependent upon its configuration. [**Learn more**](/../../viva/glint/setup/viva-glint-survey-privacy). The company message displayed alongside standard privacy statements should refrain from stating anything that conflicts with the privacy statement applied to the survey.  Microsoft reserves the right to delete company messages if such conflicts comes to our attention.
 
+>[!TIP]
+>Best practice is to either link to your organization's privacy policy or to customize a message. Using both your company's privacy policy and a customized message may incur conflicts.
+
+:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included." lightbox="../../media/glint/setup/customized-privacy-policy.png":::
+
+:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included." lightbox="../../media/glint/setup/customized-and-org-privacy-policy.png":::
+
 ## Set up the Communications section
 
 Provide or edit the following fields: 
@@ -68,12 +75,12 @@ Provide or edit the following fields:
 
 ## Set up the Reporting section 
 
-Choose attributes and hierarchies to show in reporting and select benchmark comparisons. You will also indicate permissions and thresholds for viewing feedback. 
+Choose attributes and hierarchies to show in reporting and select benchmark comparisons. Also indicate permissions and thresholds for viewing feedback. 
 
 >[!NOTE]
 > This section is not applicable to 360 Feedback programs. 
 
-Provide or edit the following: 
+Provide or edit the following fields: 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
@@ -101,7 +108,7 @@ Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this functionality off, a personalized survey link will be sent to participants.   | 
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this functionality off, a personalized survey link is sent to participants.   | 
 |**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
 
 ## Set up the Features section 
@@ -111,11 +118,11 @@ In this section:
 - Enable or disable program templates and Focus Area visibility and privacy settings. 
 - Set limits for the number of survey cycles that show on a dashboard.  
   
-Edit the following: 
+Edit the following fields: 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Available Survey Questions and Program Templates**   |Deselect program types you won’t be using in order to delete their items from your platform. You can edit this functionality at any time.    |  
+|**Available Survey Questions and Program Templates**   |Deselect program types you won’t use in to delete them from your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
@@ -141,12 +148,12 @@ There are other options, in addition to the *Public* default setting:
 
 In this section, make selections for your Viva Glint technical setup:
 
-- Username and password for SSO users 
+- Username and password for Single Sign On (SSO) users 
 - Employee ID 
 
 |**Field**| **Definition and notes**|
 |-----------|-----------|
-|**Attribute for SSO Authentication** |Configure the unique Employee ID. The email has been set as the default employee ID. |
+|**Attribute for SSO Authentication** |Configure the unique Employee ID. The email is set as the default employee ID. |
 |**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
 
 ## Set up the Localization section 
@@ -168,4 +175,4 @@ In this section:
 |**Default Survey Language**   |Provides the default language for surveys. If a preference isn't populated per employee, this language is shown as a default.     |
 |**Supported Survey Languages**   |Lists all languages chosen by the admin to support surveys within your organization. This setting is global but can be tailored on a per-program level.     |
 |**Default Dashboard Language**   |Provides the default language for dashboards. If a preference isn't supplied/selected per employee, this language is shown as a default.      |
-|**Supported Dashboard Languages**   |These are the languages available for your dashboard. Your users can select any available language as their static, preferred view.       |
+|**Supported Dashboard Languages**   |These languages are available for your dashboard. Your users can select any available language as their static, preferred view.       |
