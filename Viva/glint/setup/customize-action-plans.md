@@ -24,7 +24,7 @@ Suggested Action templates contain content that Microsoft Viva Glint includes as
 
 Access **Suggested Action templates** from the *Action Taking* section on your admin dashboard. 
 
-:::image type="content" source="../../media/glint/setup/action-taking-resources-templates.png" alt-text="Screenshot of admin dashboard access to Content Resources and Suggested Action Templates":::
+:::image type="content" source="../../media/glint/setup/action-taking-resources-templates.png" alt-text="Screenshot of admin dashboard access to Content Resources and Suggested Action Templates.":::
 
 ## Viva People Science explains Focus Areas and action planning
 
