@@ -1,6 +1,6 @@
 ---
 title: Preview pre-launch demo data in Viva Glint reporting
-description: For training purposes and to be sure reporting is as expected, admins can use demo data to learn what reporting will look like when a survey is closed and actual reporting is released..
+description: For training purposes, admins can use demo data to learn what reporting will look like when a survey is closed and actual reporting is released.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -20,7 +20,7 @@ ms.date: 04/15/2024
 
 # Preview pre-launch demo data in Viva Glint reporting
 
-How do your employee attributes and potential survey responses look in Microsoft Viva Glint reporting? Previewing demo data enables admins to familiarize themselves with our dashboard, understand how manager hierarchy and employee data file attributes appear in reporting scenarios, and conduct manager training. 
+How do your employee attributes and potential survey responses look in Microsoft Viva Glint reporting? Previewing demo data enables admins to familiarize themselves with the Viva Glint dashboard. Previewing reporting also enables an understanding of how data file attributes appear in reporting scenarios. 
 
 Demo surveys are available for engagement surveys only.
 
@@ -42,7 +42,7 @@ Demo surveys are available for engagement surveys only.
 3. In the *Upcoming and Live* tab, select **Preview** from the vertical elipses dropdown menu. A *Survey Preview* dialog box opens.
    > :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the elipses next to a survey cycle.":::
  
-4. Select **Generate Report Preview** to view a one-time, randomized data survey report. An email will let you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
+4. Select **Generate Report Preview** to view a one-time, randomized data survey report. An email lets you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
    
    > :::image type="content" source="../../media/glint/setup/generate-report-preview.png" alt-text="Screenshot of the *Survey Preview for Engagement* dialog box from which to select **Generate Report Preview**.":::
 
@@ -56,11 +56,11 @@ Demo surveys are available for engagement surveys only.
 
 ## Can I generate a new demo data report preview after editing a survey?
 
-To *replace* a generated report, preview with newly uploaded employee attributes. , a dialog box tells you that a report preview has previously been generated. To replace this demo report with the new version, select **Generate Report Preview**. The seven-day report visibility starts over with the generation of the new report.
+To *replace* a generated report, preview with newly uploaded employee attributes. , a dialog box tells you that a report preview was previously generated. To replace this demo report with a new version, select **Generate Report Preview**. The seven-day report visibility starts over with the generation of the new report.
 
-## How long will a preview take to generate?
+## How long does a preview take to generate?
 
-Generally, preview reports for surveys with ~25 questions and <5Kk employees will generate almost immediately.
+Generally, preview reports for surveys with ~25 questions and <5Kk employees generate almost immediately.
 Surveys with ~15 questions and > 200K employees may take as long as 3.5 hours to generate.
 
 ## How do I see my demo report?
@@ -76,7 +76,7 @@ From your Viva Glint dashboard:
 :::image type="content" source="../../media/glint/setup/demo-data-expiration.png" alt-text="Screenshot of a demo data report with the expiration date posted at the top.":::
 
 >[!TIP]
-> To navigate to reports for other existing survey programs, select **Switch Program** from your demo dashboard, select your program, and navigate to **Reports**.
+> To navigate to reports for other existing survey programs, select **Switch Program** from your demo dashboard. Then select your program and navigate to **Reports**.
 
 ## What does demo data reporting include?
 
@@ -96,8 +96,8 @@ As a potential workaround, an Admin can filter to a manager team with at least ~
 
 ### Does the demo preview use items selected for the upcoming cycle or all items that exist at the program level? 
 
-The preview uses all itemss that are part of the next scheduled survey cycle.
+The preview uses all items that are part of the next scheduled survey cycle.
 
 ## Should I create Focus Areas from demo preview dashboards? 
 
-Don't do this, as this fake data then shows with other real Focus Areas. If you do create them as a training exercise, delete them afterward.
+Don't create fake focus areas as they then show with other real Focus Areas. If you do create them as a training exercise, delete them afterward.
