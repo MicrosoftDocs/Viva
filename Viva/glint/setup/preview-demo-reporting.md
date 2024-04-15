@@ -36,17 +36,20 @@ Demo surveys are available for engagement surveys only.
 > To ensure no unintended notifications are sent, Nudges or Team Conversations must be temporarily disabled before proceeding.
 
 1. From the Viva Glint admin dashboard, select the **Configuration symbol** and then **Survey Programs.**
-   > :::image type="content" source="../../media/glint/setup/configuration-symbol.png" alt-text="Screenshot of the configuration symbol on the admin dashboard.":::
+
+   :::image type="content" source="../../media/glint/setup/configuration-symbol.png" alt-text="Screenshot of the configuration symbol on the admin dashboard.":::
    
 2. Select the survey in which to preview reporting. A new page opens.
+
 3. In the *Upcoming and Live* tab, select **Preview** from the vertical ellipses dropdown menu. A *Survey Preview* dialog box opens.
-   > :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the ellipses next to a survey cycle.":::
+
+   :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the ellipses next to a survey cycle.":::
  
 4. Select **Generate Report Preview** to view a one-time, randomized data survey report. An email lets you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
    
-   > :::image type="content" source="../../media/glint/setup/generate-report-preview.png" alt-text="Screenshot of the *Survey Preview for Engagement* dialog box from which to select **Generate Report Preview**.":::
+   :::image type="content" source="../../media/glint/setup/generate-report-preview.png" alt-text="Screenshot of the *Survey Preview for Engagement* dialog box from which to select **Generate Report Preview**.":::
 
-   > :::image type="content" source="../../media/glint/setup/report-preview-generated.png" alt-text="Screenshot of the *Report Preview Generated* dialog box.":::
+   :::image type="content" source="../../media/glint/setup/report-preview-generated.png" alt-text="Screenshot of the *Report Preview Generated* dialog box.":::
 
 >[!NOTE]
 > Until you receive your email, ensure that your survey program remains in an **Approved** status. Your report will not generate successfully if your survey program is not **Approved**.
@@ -91,7 +94,7 @@ Demo data can't be generated for surveys with question targeting or excluded Dis
 ### Does the demo preview show Strengths and Opportunities? 
 
 No. Demo data previews rely on fake response data with little variation in scores that doesn’t produce Strengths and Opportunities. 
->
+
 As a potential workaround, an Admin can filter to a manager team with at least ~20-30 respondents to view a cut of data with more score variance than the company-wide data, but it's trial and error.
 
 ### Does the demo preview use items selected for the upcoming cycle or all items that exist at the program level? 
