@@ -22,7 +22,7 @@ ms.date: 03/20/2024
 
 Notifying employees about upcoming surveys and the windows for taking their survey is essential for improving survey participation. 
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary." lightbox="../../media/glint/setup/program-summary-comms-intro.png":::
 
 >[!NOTE]
 > If you're configuring an Always-On program, skip this step.
@@ -78,7 +78,7 @@ Use the **Pencil symbol** to open the slider window and then:
 
 ### Add survey reminders
 
-The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle - so you'll know you've added them.
+The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle so that you'll know you've added them.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
