@@ -50,11 +50,14 @@ To assign admins:
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 
 > [!NOTE]
-> - To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
+> To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
 
 ## Ongoing Viva Glint admin additions
 
 After initial admins are assigned in the Microsoft Administrator Center, Viva Glint admins can assign and unassign users to the Company Admin role. In the Viva Glint app, admins go to **configure**, select **People**, choose a user, and edit their **User Roles** to include **Company Admin**.
+
+> [!NOTE]
+> As a Viva Glint admin, use these steps to remove the M365 global admin from the Viva Glint Company Admin role if this user shouldn't have access to survey results.
 
 ## What do I do if I need help?
 
