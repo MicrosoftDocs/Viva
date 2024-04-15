@@ -59,9 +59,9 @@ Also, set up what your employees see when they open an email sharing information
 >[!TIP]
 >Best practice is to either link to your organization's privacy policy or to customize a message. Using both your company's privacy policy and a customized message may incur conflicts.
 
-:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included." lightbox="../../media/glint/setup/customized-privacy-policy.png":::
+:::image type="content" source="../../media/glint/setup/customized-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when a customized message around privacy is included.":::
 
-:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included." lightbox="../../media/glint/setup/customized-and-org-privacy-policy.png":::
+:::image type="content" source="../../media/glint/setup/customized-and-org-privacy-policy.png" alt-text="Screenshot of the **Hello** message that employees see when only your company's privacy policy is included.":::
 
 ## Set up the Communications section
 
