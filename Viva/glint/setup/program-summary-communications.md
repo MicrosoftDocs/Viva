@@ -91,9 +91,24 @@ Use this email [customization guidance](email-content-customization.md) to add c
 
 ## Notifications when survey results are available
 
-The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before your survey closes. 
+The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). 
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-conversation.png" alt-text="Screenshot of the Team Conversations section on the Communications setup page.":::
+> [!IMPORTANT]
+> For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the Reporting section of the survey program before your survey closes. 
+
+To set up the results notification email:
+
+1. From the admin dashboard, go to **Configuration** and choose **Survey Programs**.
+1. Select a survey and go to the **Communications** section in **Program Summary**.
+1. Select the **Edit & Preview** option on the **Survey End** email.
+   1. This email is turned off by default.
+1. In the edit pane that appears, switch **Send notification** to **On**.
+2. In the **Send** field, enter a number of days after survey end date to send the email.
+   1. The default is three (3) and the maximum is 30 days.
+1. Use the guidance in the Survey End Results Notification email section of this article to customize content of the email, if needed: [Customize Viva Glint survey email content](email-content-customization.md).
+2. Select **Save Changes** in the top right of the edit pane.
+
+:::image type="content" source="../../media/glint/setup/results-notification-email-setup.png" alt-text="Screenshot of the Survey End Results Notification email setup pane.":::
 
 ### Editing and adding feedback conversation reminders
 
