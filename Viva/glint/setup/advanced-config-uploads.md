@@ -82,8 +82,14 @@ Displays on her profile like this:
 
 When a survey has closed, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and does not touch current employee information.
 
-> [!IMPORTANT]
+> [!NOTE]
 > To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+
+> [!IMPORTANT]
+> If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
+> 1. Import an .xlsx file to the [People page](upload-employee-attributes.md).
+> 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
+> 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList.** 
 
 ### To perform a Retroactive User Updates upload:
 
