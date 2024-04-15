@@ -50,7 +50,7 @@ To assign admins:
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 
 > [!NOTE]
-> - To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
+> To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
 
 ## Ongoing Viva Glint admin additions
 
