@@ -22,7 +22,7 @@ ms.date: 03/20/2024
 
 Notifying employees about upcoming surveys and the windows for taking their survey is essential for improving survey participation. 
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary.":::
+:::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary." lightbox="../../media/glint/setup/program-summary-comms-intro.png":::
 
 >[!NOTE]
 > If you're configuring an Always-On program, skip this step.
@@ -78,7 +78,7 @@ Use the **Pencil symbol** to open the slider window and then:
 
 ### Add survey reminders
 
-The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle - so you'll know you've added them.
+The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle so that you'll know you've added them.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
@@ -91,9 +91,24 @@ Use this email [customization guidance](email-content-customization.md) to add c
 
 ## Notifications when survey results are available
 
-The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). Best practice is to make sure that roles are programmed and aligned before your survey closes. 
+The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). 
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-conversation.png" alt-text="Screenshot of the Team Conversations section on the Communications setup page.":::
+> [!IMPORTANT]
+> For all users to receive a results notification, ensure that all roles are granted access (phased or live) in the Reporting section of the survey program before your survey closes. 
+
+To set up the results notification email:
+
+1. From the admin dashboard, go to **Configuration** and choose **Survey Programs**.
+1. Select a survey and go to the **Communications** section in **Program Summary**.
+1. Select the **Edit & Preview** option on the **Survey End** email.
+   1. This email is turned off by default.
+1. In the edit pane that appears, switch **Send notification** to **On**.
+2. In the **Send** field, enter a number of days after survey end date to send the email.
+   1. The default is three (3) and the maximum is 30 days.
+1. Use the guidance in the Survey End Results Notification email section of this article to customize content of the email, if needed: [Customize Viva Glint survey email content](email-content-customization.md).
+2. Select **Save Changes** in the top right of the edit pane.
+
+:::image type="content" source="../../media/glint/setup/results-notification-email-setup.png" alt-text="Screenshot of the Survey End Results Notification email setup pane.":::
 
 ### Editing and adding feedback conversation reminders
 
