@@ -194,12 +194,68 @@ Here's an example of a results file:
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
->[!Note]
->Have a question about your query results? Our [Query results FAQ](query-results-faq.md) article might have the answer you're looking for.
+## FAQs
+We've compiled answers for some questions you might run across while viewing your query results.
+
+### General
+
+**When I download and view a query, why is the data unreadable or not shown correctly in Excel?**
+
+You probably opened the .csv file as-is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you're using Excel 2016, follow the steps in Access query results and modify existing queries. For other versions of Excel, open Help in Excel and then search for the instructions on how to import a .csv file.
+
+**Why isn't a user showing up in query results?**
+
+Licensing might be a factor. For a user to appear in query results, that user needs to have a license at the time the query is run.
+If you have questions about user licensing, contact your Microsoft 365 admin and your Insights Administrator.
+
+### Meeting queries
+**Why is a meeting's Attendee count lower than expected? Or, why are metric values listed as 0?**
+
+You might notice that more people accepted a meeting than attended it. This can happen for a few reasons:
+* Some invitees accepted the meeting but then attended another meeting without changing their response. Or, some invitees were deemed to be attending a conflicting meeting.
+* Some attendees are external or unmeasured, meaning they're not assigned a Viva Insights license, and thus aren't included in the metric calculation.
+* The query was run in a partition and the meeting had participants who aren't in the partition, and thus aren't included in the metric calculation.
+
+**Why are meetings missing from my results?**
+
+The query might not have had any attendees. If no one attended a meeting, Viva Insights removes that meeting from query results by default.
+
+**Why is data about the meeting organizer missing?**
+
+This can happen for a few reasons:
+* The organizer doesn't have a license.
+* The organizer opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights.](https://support.microsoft.com/en-us/topic/opt-out-of-viva-insights-ecfd76f9-52ef-4882-9235-be1f59c25967)
+* The organizer isn't part of the partition.
+* The organizer's HR data hasn't been uploaded.
+
+**Why is the Subject column empty for a meeting?**
+
+Your admin might have suppressed certain sensitive keywords. If a meeting title contained one of those keywords, then query results don't show that meeting title.
+
+**Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?**
+
+You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated.
+
+**Why do I see decimal numbers for Meetings count metrics?**
+
+"Meetings" can be decimal numbers because the count is proportional to the scheduled meeting time.
+* Meetings that start before midnight and end after midnight on the cutoff date for the row.
+    * Example: You attended a meeting that started at 11:30 PM on February 1st and ended at 12:30 AM on February 2nd. In this case, you'd get 0.5 meetings for February 1st, and 0.5 meetings for February 2nd.
+* Meetings by time of day.
+    * Example: You have a meeting between 9:30 AM and 10:30 AM. Meetings between 9:00 AM and 10:00 AM = 0.5; Meetings between 10:00 AM and 11:00 AM = 0.5.
+* Overlapping meetings.
+    * Example: Meeting 1 from 10:00 AM to 11:00 AM and meeting 2 from 10:30 AM to 11:30 AM on the same day. Meetings = 1.5
+* Meetings that begin within your working hours and end after work hours (and vice versa).
+    * Example: Your working hours set in Outlook are 8:00 AM to 5:00 PM. You have a meeting that begins at 4:30 PM and ends at 5:30 PM. Meetings during working hours = 0.5; Meetings during after-hours = 0.5.
+    * Example: You have a meeting between 9:30 AM and 10:30 AM. Meetings between 9:00 AM and 10:00 AM = 0.5; Meetings between 10:00 AM and 11:00 AM = 0.5.
+
+**Why don't totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?**
+
+Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly.
+
 
 ## Related topics
 
-[Query results FAQ](query-results-faq.md)
 
 [Power BI tips, FAQ, and troubleshooting](./templates/power-bi-faq-troubleshoot.md)
 
