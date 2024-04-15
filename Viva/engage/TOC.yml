@@ -14,6 +14,8 @@
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
+     - name: Provide community support for Microsoft Copilot 365 adoption
+       href: /viva/engage/engage-365-copilot-adoption-platform.md
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
