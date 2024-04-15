@@ -52,7 +52,10 @@ Refer to these articles to install, pin, and configure the app in Teams:
 
 ### How teams are built
 
-Viva Insights automatically builds teams based on organizational data uploaded or connected to the advanced insights app. If your organization uses Microsoft Entra ID to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. If your admin uploads an HR file to the advanced insights app, then we use the information provided in that file to make your team, instead.
+Viva Insights automatically builds teams based on organizational data uploaded or connected to the advanced insights app. If your organization uses Microsoft Entra ID to populate Viva Insights—which is the default setting—then we use that directory’s information to build your team. However, if your admin uploads an HR file to the advanced insights app, we use the data provided in that file to create your team. Specifically: 
+* The HR file influences the team composition only for users who have entries in the HR data file.
+* For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID.
+
 
 Your team only includes people reporting directly to you as presented in Microsoft Entra ID or the file your admin uploads. This structure means three things:
 
