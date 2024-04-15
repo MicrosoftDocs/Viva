@@ -80,6 +80,8 @@ From your Viva Glint dashboard:
 
 ## What does demo data reporting include?
 
+Commonly asked questions about demo data dashboards:
+
 ### Is preview reporting generated for a survey with question targeting?
 
 Demo data can't be generated for surveys with question targeting or excluded Distribution Lists. To generate a preview from a survey with targeting:
@@ -92,10 +94,10 @@ No. Demo data previews rely on fake response data with little variation in score
 >
 As a potential workaround, an Admin can filter to a manager team with at least ~20-30 respondents to view a cut of data with more score variance than the company-wide data, but it's trial and error.
 
-### Does the demo preview use questions selected for the upcoming cycle or all questions that exist at the program level? 
+### Does the demo preview use items selected for the upcoming cycle or all items that exist at the program level? 
 
-The preview uses all questions that are part of the next scheduled survey cycle.
+The preview uses all itemss that are part of the next scheduled survey cycle.
 
 ## Should I create Focus Areas from demo preview dashboards? 
 
-Don't do this as this fake data then shows with other real Focus Areas. If you do create them as a training exercise, delete them afterward.
+Don't do this, as this fake data then shows with other real Focus Areas. If you do create them as a training exercise, delete them afterward.
