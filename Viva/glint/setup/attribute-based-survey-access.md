@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2023
+ms.date: 04/15/2024
 ---
 
 # Set up attribute-based survey access in Viva Glint
@@ -54,4 +54,7 @@ Viva Glint uses key identifiers to uniquely identify each user. Because these us
 2. Select the survey program that users will complete with attribute-based survey access.
 3. At the top of the page, select **Copy survey link,** and then **Copy** in the dialog box.
 4. Optionally, use online tools to convert this link into a QR code or shortened link for easy participation on mobile devices.
+
+> [!NOTE]
+> If users become INACTIVE during a survey, they're still able to access surveys with attribute-based access.
 
