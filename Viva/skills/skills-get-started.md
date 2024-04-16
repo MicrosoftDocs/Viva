@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/15/2023
+ms.date: 04/16/2024
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -43,9 +43,6 @@ Choose the skills you’d like to use from the default skills library in Viva. T
 ## Import your custom skills library  
 
 Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
-
-> [!IMPORTANT]
-> When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
 
 1. Select **Download library template** and **Download mapping template**. 
 
@@ -90,6 +87,8 @@ Choose whether you’d like to import your own custom skills library. This step 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
 > - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
+> - When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
+> - Delete any "%20" strings that are present in your pasted filepaths. 
 
 ## Review your organization's skills library
 
