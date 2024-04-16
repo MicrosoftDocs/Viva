@@ -32,7 +32,9 @@ items:
       - name: Compliance in Microsoft Viva
         href: viva-compliance.md
       - name: Control access to Viva features
-        href: feature-access-management.md  
+        href: feature-access-management.md 
+      - name: Control access to Copilot in Viva
+        href: /viva/copilot-in-viva/copilot-access-management.md 
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Solutions guides for Microsoft Viva
