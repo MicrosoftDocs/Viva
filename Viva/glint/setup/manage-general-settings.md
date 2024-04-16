@@ -106,7 +106,7 @@ Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?
 
 | Field | efinition and notes |
 |-----------|-----------|
-|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn this functionality off, a personalized survey link is sent to participants.   | 
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
 |**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
 
 ### Features 
@@ -119,13 +119,13 @@ Edit the following fields:
 
 | Field | Definition and notes |
 |-----------|-----------|
-|**Available Survey Questions and Program Templates**   |Deselect program types you won’t use in to delete them from your platform. You can edit this functionality at any time.    |  
+|**Available Survey Questions and Program Templates**   |Deselect program types you won’t use to delete them from your platform. You can edit this functionality at any time.    |  
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
-|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around this follow this table.  |
+|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follows this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
-|**Self-Serve Mode**   |When Edit and Create is selected, this allows users with the correct user role permissions to edit and create surveys.   | 
+|**Self-Serve Mode**   |When Edit and Create is selected, this choice allows users with the correct user role permissions to edit and create surveys.   | 
 
 #### Choosr the Focus Area privacy setting in Features
 
