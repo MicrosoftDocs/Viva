@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 09/15/2023
+ms.date: 04/16/2024
 ---
 
 # Use Advanced Configuration Data Apps
@@ -66,19 +66,23 @@ Use these steps when manager reporting lines need to be corrected for a closed s
    > Retain all users from the survey cycle in your update file. Even users who are not directly impacted by a Manager ID change can have a reporting line impact.
 
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
-   1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the Manager ID attribute.
+   1. Delete data in all columns except for First Name, Last Name, Email, Employee ID, Status, and the Manager ID attribute.
+   2. Delete columns that Viva Glint derives (like Age Group or Tenure). To confirm which attributes are derived go to **Configuration** and choose **People**. In the **Actions** menu select **Manager User Attributes** and go to the **Derived Attributes** section.
    1. Correct values for users that should have their Manager ID updated.
-   1. Save your edited file with corrected values as a .csv file.
-1. Go to **Advanced Configuration** and select **Uploads** from the menu on the left.
-1. On the **User file uploads** page:
-   1. **Choose job type:** Select **USERS_UPLOAD**.
-   1. **Retroactive:** Leave toggle switched **off**.
-   1. **Incremental:** Switch on this toggle. This ensures that you update only the users related to your update.
-   1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
-   1. Select **Upload.**
-   1. In the **Upload Job Details** page that appears, in the **Attributes** section, confirm that the **Updated users** count is accurate for all attributes involved in your retroactive update.
-   1. Select **Apply Upload To Database** and then select **Yes** to update attribute values.
-1. After uploading your corrected data in **Uploads**, go to **Advanced Configuration** and select **Data Apps**.
+   1. Save your edited file with corrected values as a .csv or .xlsx file.
+1. Go to **Configuration** and select **People** and choose the **Import** option.
+   1. Leave the **Checking this box will update ALL employee records** setting **unselected**.
+   1. Drag your update file to this window or select the **browse to choose a file** option to select it.
+   1. Select **Import File** and select **Close** on the file processing message that appears.
+   2. Refresh the **People** page to update the file processing status at the top of the page.
+   3. When the upload completes, select **Review Upload**.
+   4. Download and review any [errors](/viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=%2Fviva%2Fglint%2Ftoc.json&bc=%2Fviva%2Fbreadcrumb%2Ftoc.json).
+   1. Select **Confirm Import**.
+
+      > [!IMPORTANT]
+      > If uploads aren't confirmed within 60 minutes, they expire and don't process.
+      
+1. After uploading your corrected data on the **People** page, go to **Advanced Configuration** and select **Data Apps**.
 1. In **Data Apps**, select **RETROACTIVE_PULSE_UPDATE**.
 1. Select parameters to update Manager ID:
    1. **surveyName:** Select **Load Values** and choose an option from the dropdown list.
