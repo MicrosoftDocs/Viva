@@ -15,18 +15,18 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 02/07/2024
+ms.date: 04/16/2024
 ---
 
 # Question mapping
 
-Once questions are selected that align to your organizational strategies, you may decide to compare trending data from previous surveys to your current survey. If you do decide to compare historical data to new items moving forward, it's vital that the previous and new questions are truly comparable. 
+Once you select items that align to your organizational strategies, you may decide to compare trending data from previous surveys to your current survey in Microsoft Viva Glint. If you do decide to compare historical data to new items moving forward, it's vital that the previous and new questions are truly comparable. 
 
-If historical data isn't aligned to new insights, results can be misinterpreted if there aren't clear connections from historical data to new insights. To ensure true comparisons between previous and new results, it's essential to **map** items accurately before proceeding to act.​ 
+Results can be misinterpreted if there aren't clear connections from historical data to new insights. To ensure true comparisons between previous and new results, it's essential to **map** items accurately before importing data to Viva Glint.​ 
 
 ## Mapping guidelines 
 
-To map, consider the wording, item intention and referents.
+To map, consider the wording, item intention, and referents.
 
 |Maps to Viva Glint taxonomy   |Same intent   |Same referent|
 |:----------|:-----------|:------------|
@@ -47,7 +47,7 @@ If items have different wording, they can still be mapped, provided the intentio
 
 ### Item referent 
 
-To gain specific insights, an item will always have a referent (for example, Company, senior leadership, direct manager, team, coworkers or even the employee themselves). If two items have similar intentions but are aimed at different referents, they can't be mapped.  
+To gain specific insights, an item always has a referent (for example, Company, senior leadership, direct manager, team, coworkers, or even the employee themselves). If two items have similar intentions but are aimed at different referents, they can't be mapped.  
 
 |Same referent   |Viva Glint item   |Historical item|
 |:----------|:-----------|:------------|
