@@ -31,7 +31,6 @@ You can control which users in your organization have access to Copilot in each 
 
 1. From your Microsoft 365 admin center, select **Copilot**.
 2. Then choose the app for which you want to control access.
-    ![Screenshot of a Viva app selected on the Copilot page.](../media/mac-copilot.png)
 3. Your **Org-wide setting** shows whether access is enabled for your entire organization.
 4. To change turn this setting on or off, choose **Manage**.
 5. Select **On** to enable access for everyone, or **Off** to disable access for everyone.
