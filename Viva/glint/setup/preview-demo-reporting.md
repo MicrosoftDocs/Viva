@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/15/2024
+ms.date: 04/16/2024
 ---
 
 # Preview pre-launch demo data in Viva Glint reporting
@@ -68,7 +68,7 @@ Surveys with ~15 questions and > 200K employees may take as long as 3.5 hours to
 
 ## How do I see my demo report?
 
-From your Viva Glint dashboard:
+**From your Viva Glint dashboard:**
 
 1. Select **Reports.**
 2. Choose **Demo Data for Engagement**.
@@ -78,8 +78,9 @@ From your Viva Glint dashboard:
 
 :::image type="content" source="../../media/glint/setup/demo-data-expiration.png" alt-text="Screenshot of a demo data report with the expiration date posted at the top.":::
 
->[!TIP]
-> To navigate to reports for other existing survey programs, select **Switch Program** from your demo dashboard. Then select your program and navigate to **Reports**.
+**Your demo report is also viewable from the program listing on your admin dashboard.** It shows in the list of your programs with the name of the program preceeded by "Demo Data." To leave that program - and remove the demo banner from the top of your screen - use **Switch Program.**
+
+:::image type="content" source="../../media/glint/setup/switch-programs.png" alt-text="Screenshot of how the Demo Data for Engagement program shows on the admin dashboard.":::
 
 ## What does demo data reporting include?
 
