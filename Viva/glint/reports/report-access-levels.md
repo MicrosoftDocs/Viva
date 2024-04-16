@@ -1,6 +1,6 @@
 ---
 title: Viva Glint report access levels
-description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
+description: Choose between live and phased report access for Viva Glint managers.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
