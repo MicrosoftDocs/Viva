@@ -30,9 +30,9 @@ To map, consider the wording, item intention and referents.
 
 |Maps to Viva Glint taxonomy   |Same intent   |Same referent|
 |:----------|:-----------|:------------|
-|<ul><li>[X] Yes</li></ul>   |<ul><li>[X] Yes</li></ul>      |<ul><li>[X] Yes</li></ul>  |
-|<ul><li>[ ] No</li></ul> |<ul><li>[X] Yes</li></ul>    |<ul><li>[ ] No</li></ul> |
-|<ul><li>[ ] No</li></ul> |<ul><li>[ ] No</li></ul>    |<ul><li>[X] Yes</li></ul> |
+|Yes  |Yes      |Yes  |
+|No |Yes  |No |
+|No |No   |Yes |
 
 ### Item intention 
 
@@ -40,10 +40,10 @@ If items have different wording, they can still be mapped, provided the intentio
 
 |Shares intent   |Viva Glint item   |Historical item|
 |:----------|:-----------|:------------|
-|<ul><li>[X] Yes</li></ul>   |My manager ***cares about me*** as a person.     |My manager ***shows sincere interest in me*** as a person. |
-|<ul><li>[X] Yes</li></ul>   |I can ***get the support*** I need from my manager.      |I can ***get the help*** I need from my manager.   |
-|<ul><li>[ ] No</li></ul> |I ***feel satisfied with the recognition*** or praise I receive for my work.   |I ***receive recognition when*** I do a good job. |
-|<ul><li>[ ] No</li></ul> |Where I work, we have ***clear priorities***.    |Where I work, we set clear ***strategic goals***. |
+|Yes   |My manager ***cares about me*** as a person.     |My manager ***shows sincere interest in me*** as a person. |
+|Yes   |I can ***get the support*** I need from my manager.      |I can ***get the help*** I need from my manager.   |
+|No |I ***feel satisfied with the recognition*** or praise I receive for my work.   |I ***receive recognition when*** I do a good job. |
+|No |Where I work, we have ***clear priorities***.    |Where I work, we set clear ***strategic goals***. |
 
 ### Item referent 
 
@@ -51,8 +51,8 @@ To gain specific insights, an item will always have a referent (for example, Com
 
 |Same referent   |Viva Glint item   |Historical item|
 |:----------|:-----------|:------------|
-|<ul><li>[X] Yes</li></ul>   |I have confidence in the ***leadership team***.     |I have confidence in the organization's ***executive leadership***. |
-|<ul><li>[X] Yes</li></ul>   |***Teams*** at this company collaborate effectively to get things done.      |***We*** cooperate well across the company to get things done.   |
-|<ul><li>[ ] No</li></ul> |This organization does a good job communicating with ***employees***.   |This organization does a good job communicating with ***me***. |
-|<ul><li>[ ] No</li></ul> |***My performance*** is evaluated fairly.    |***People*** are evaluated fairly at this organization. |
+|Yes  |I have confidence in the ***leadership team***.     |I have confidence in the organization's ***executive leadership***. |
+|Yes   |***Teams*** at this company collaborate effectively to get things done.      |***We*** cooperate well across the company to get things done.   |
+|No |This organization does a good job communicating with ***employees***.   |This organization does a good job communicating with ***me***. |
+|No |***My performance*** is evaluated fairly.    |***People*** are evaluated fairly at this organization. |
 
