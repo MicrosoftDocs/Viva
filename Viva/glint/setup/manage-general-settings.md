@@ -24,18 +24,12 @@ Details defining your Microsoft Viva Glint programs are set up and viewed by sel
 
 ## General Settings sections setup 
 
-For each setting option, you see a short prompt so you can feel confident about the choices you make. These sections require input: 
-
-- [Company information](#set-up-the-company-information-section) 
-- [Communications](#set-up-the-communications-section) 
-- [Reporting](#set-up-the-reporting-section) 
-- [Engage Survey Details](#set-up-the-engage-survey-details-section) 
-- [Features](#set-up-the-features-section) 
-- [Technical Configuration](#set-up-the-technical-configuration-section) 
-- [Localization](#set-up-the-localization-section)
+For each setting option, you see a short prompt so you can feel confident about the choices you make. 
 
 >[!NOTE]
 > Any initial actions or subsequent changes in General Settings apply to all survey programs created in Viva Glint.
+
+These sections require input: 
 
 ### Company Information 
 
