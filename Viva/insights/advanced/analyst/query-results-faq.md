@@ -1,5 +1,5 @@
 ---
-ms.date: 10/26/2023
+ms.date: 02/13/2024
 title: Query results in Viva Insights FAQs
 description: Get answers to common questions about advanced insights query results
 author: zachminers
@@ -37,6 +37,8 @@ A2. The query might not have had any attendees. If no one attended a meeting, Vi
 
 A3. This can happen for a few reasons:
 
+* The organizer doesn't have a license.
+
 * The organizer opted out of Viva Insights. Learn more about opting out in [Opt out of Viva Insights](../../personal/use/opt-out-of-mya.md).
 * The organizer isn't part of the partition.
 * The organizer's HR data hasn't been uploaded.
@@ -48,6 +50,19 @@ A4. Your admin might have suppressed certain sensitive keywords. If a meeting ti
 
 ### Q5. Why isn't a user showing up in query results?
 
-Licensing might be a factor. For a user to appear in query results, that user needs to have a license at the time the query is run.
+A5. Licensing might be a factor. For a user to appear in query results, that user needs to have a license at the time the query is run.
 
 If you have questions about user licensing, contact your Microsoft 365 admin and your Insights Administrator.
+
+### Q6. Why do I see decimal numbers for Meetings count metrics?
+
+A: "Meetings" can be decimal numbers because the count is proportional to the scheduled meeting time.
+* Meetings that start before midnight and end after midnight on the cutoff date for the row. 
+    
+    * Example: You attended a meeting that started at 11:30 PM on February 1st and ended at 12:30 AM on February 2nd. In this case, you'd get 0.5 meetings for February 1st, and 0.5 meetings for February 2nd.
+* Meetings by time of day. 
+    * Example: You have a meeting between 9:30 AM and 10:30 AM. Meetings between 9:00 AM and 10:00 AM = 0.5; Meetings between 10:00 AM and 11:00 AM = 0.5.
+* Overlapping meetings. 
+    * Example: Meeting 1 from 10:00 AM to 11:00 AM and meeting 2 from 10:30 AM to 11:30 AM on the same day. Meetings = 1.5
+* Meetings that begin within your working hours and end after work hours (and vice versa). 
+    * Example: Your working hours set in Outlook are 8:00 AM to 5:00 PM. You have a meeting that begins at 4:30 PM and ends at 5:30 PM. Meetings during working hours = 0.5; Meetings during after-hours = 0.5.

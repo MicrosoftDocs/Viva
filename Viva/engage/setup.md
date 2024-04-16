@@ -16,10 +16,11 @@ ms.localizationpriority: medium
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-get-started
 search.appverid:
 - MET150
 ---
-# Setting up Viva Engage
+# Set up Viva Engage
 
 ## Set up licensing for Viva Engage
 

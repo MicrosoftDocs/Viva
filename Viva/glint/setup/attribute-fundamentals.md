@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 01/16/2024
+ms.date: 02/20/2024
 ---
 
 # Viva Glint employee attribute fundamentals
@@ -47,9 +47,11 @@ Attribute column headers (name labels) may be customized. For example, you might
 | **Time zone** | See [Time zones](#time-zones) | No | No |
 | **Language** | See [Language](#languages) | No | No |
 | **Manager ID** | Providing the employee ID of the manager for each employee allows automatic build-out of a managerial hierarchy. | Highly recommended | Highly recommended |
-| **Hire date** | Used to derive tenure buckets.<br>Viva Glint standard values: 0-1 year, 1-2 years, 2-3 years, 3-4 years, 4-5 years, 5-7 years, 7+ years. | No | Yes, for Employee Lifecycle *Onboarding* surveys |
+| **Hire date** | Used to derive tenure buckets.<br>Viva Glint standard values: <1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years.* | No | Yes, for Employee Lifecycle *Onboarding* surveys |
 | **Birth year** | Used to derive age group buckets.<br>Viva Glint standard values: <25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, and 70+ | No | No |
 | **End date** | Employee’s termination date, off-boarding date, last day, and so on. | No | Yes, for Employee Lifecycle Exit surveys |
+
+*Tenure values for new Viva Glint customers after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
 
 ## Custom attributes
 
@@ -99,3 +101,9 @@ If you also supply language values to indicate users’ dashboard languages (for
 
 >[!NOTE]
 > Dashboards do not support languages that are read from right to left.
+
+## Next step
+Learn about Viva Glint organizational hierarchy fundamentals, including a Viva Glint calculated Manager Hierarchy and other hierarchy groups.
+
+> [!div class="nextstepaction"]
+> [Viva Glint organizational hierarchy fundamentals](hierarchy-fundamentals.md)

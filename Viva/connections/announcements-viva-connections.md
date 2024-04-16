@@ -1,5 +1,5 @@
 ---
-ms.date: 09/29/2023
+ms.date: 02/16/2024
 title: "Use announcements in Viva Connections"
 ms.reviewer: 
 ms.author: evanatkin
@@ -27,13 +27,14 @@ description: "Use announcements in Viva Connections"
 
 Announcements allow you to create and share time-sensitive messages in Viva Connections. You can set up, manage, and schedule announcements from your organization’s SharePoint home site.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a desktop and mobile device."lightbox="../media/connections/announcements-viva-connections/announcement-desktop-mobile.png":::
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot that shows what an announcement in Viva Connections looks like on a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 > [!NOTE]
 >
-> - Starting in October 2023, users will be required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
+> - Users will be required to have a Microsoft Viva suite or Viva Communications and Communities license to utilize the announcements feature. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have edit permissions or higher to your organization’s SharePoint home site or Viva Connections to author and manage announcements.
-> - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
+> - Announcements are unavailable in GCC, GCC High, and DoD environments. For more information, see the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan).
 
 ## When to use announcements
 
@@ -41,7 +42,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 **Example Scenarios:**
 
-- Remind employees in a specific role of an upcoming deadline.
+- Remind users in a specific role of an upcoming deadline.
 - Share details about open enrollment benefits for full-time employees.
 - Send a specific call to action for new employees.
 
@@ -52,7 +53,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 ### Best practices for using and writing announcements
 
 - Use announcements sparingly so that users understand their importance. Sending them too frequently can cause users to disregard the notifications.
-- Be aware that delivery time increases with the size of the targeted audience. Sending an announcement to a group of 50 users may take just a few minutes but sending one to 100,000 users may take several hours.
+- Be aware that delivery time increases with the size of the targeted audience. Sending an announcement to a group of 50 users might take just a few minutes but sending one to 100,000 users can take several hours.
 - Announcements aren’t designed for life-threatening emergencies.
 - Keep messages short with a clear call to action. Plan to link to more information for complex topics.
 - Specify which audiences need to receive the announcement to ensure the highest engagement possible.
@@ -60,21 +61,44 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 
 ## How announcements display in Viva Connections
 
-Announcements will be viewable to users using desktop, tablet, and mobile experiences through Viva Connections
+Announcements are viewable to users from mobile experiences through Viva Connections.
 
-- **In Teams**: Users get a Teams notification alerting them of a new announcement within Teams and on their mobile device’s lock screen when the user has enabled it.
+> [!NOTE]
+> 
+> Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png" alt-text="Screenshot of a Teams notification displayed in Microsoft Teams, and on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Teams-for-desktop-mobile.png":::
+- **In Teams**: Users will get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement when the user has enabled it.
 
-- **In Viva Connections**: Announcements will display towards the top of the Viva Connections experience where more details can be viewed.
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png":::
 
-:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png" alt-text="Screenshot of an announcement in Viva Connections desktop view and in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-Connections-for-desktop-mobile.png":::
+- **In Viva Connections**: Announcements will display towards the top of the Viva Connections mobile experience.
+
+:::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
+
+### Teams Channel announcements displaying in Viva Connections for frontline workers
+
+Microsoft Teams Channel announcements will also display in the Viva Connections announcements banner on desktop and mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
+
+A Teams Channel announcement is displayed in the Viva Connections experience only if:
+
+- The user has been assigned a Microsoft 365 F1 or F3 license;
+- Channel mentions are enabled under the Teams Channel notification settings; and
+- The Teams channel announcement has been tagged with an @mention  and is unread.
+
+> [!NOTE]
+>
+> - If you have authentication issues, disable the **Limited-access user permission lockdown mode** under site collection features from your SharePoint site. Learn more about [enabling or disabling site collection features](https://support.microsoft.com/office/a2f2a5c2-093d-4897-8b7f-37f86d83df04).
+> - Vanity domains are not supported. Contact your organization's support team for more information.
+> - Additional updates to an existing Teams Channel announcement will not be displayed in Viva Connections. Users will need to follow the link from the original announcement in Viva Connections to view the Teams Channel announcement.
+> - Teams Channel announcements that are deleted and then undone will show as unread.
+
+For more information, see [Sending an announcement to a channel in Microsoft Teams](https://support.microsoft.com/office/8f244ea6-235a-4dcc-9143-9c5b801b4992).
 
 ## Accessing the announcements page
 
-Owners will be able to create announcements through the Viva Connections desktop experience or from their SharePoint home site using the announcements page. To access the announcement page:
+Experience owners are able to create announcements through the Viva Connections desktop experience or from their SharePoint home site using the announcements page. To access the announcement page:
 
-- **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of Viva Connections then select **Announcements**. This will open the announcements page where users can select **+ New announcement** to begin drafting an announcement.
+- **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of Viva Connections then select **Announcements**.The announcements page will open where users can select **+ New announcement** to begin drafting an announcement.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png" alt-text="Screenshot showing a dropdown menu with announcements highlighted."lightbox="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png":::
 
@@ -85,6 +109,7 @@ Owners will be able to create announcements through the Viva Connections desktop
 >[!NOTE]
 >
 > Users can also access the announcement page in SharePoint by:
+>
 > - Selecting **Settings > Manage Viva Connections > Announcements > + New announcement**.
 > - Select **+ New** from the command bar and choose **Announcement**.
 
@@ -142,7 +167,7 @@ You can view all announcements that are active, scheduled, saved as drafts, and 
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcements-page.png" alt-text="Screenshot of the announcements page showing the status of several announcements."lightbox="../media/connections/announcements-viva-connections/announcements-page.png":::
 
-From this page you can complete the following tasks:
+From the Announcements page, you can complete the following tasks:
 
 ### Create a new announcement
 
@@ -166,4 +191,4 @@ Choose **+ New announcement** and follow the steps to [draft your announcement](
    :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/delete-announcement.png":::
 
 2. When prompted, choose **Yes, delete**.
-3. If the announcement was active, users will no longer be able to view it, but it may still be accessible through a Teams notification.
+3. If the announcement was active, users won't be able to view it, but it might still be accessible through a Teams notification.

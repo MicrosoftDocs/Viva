@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Viva glint
+keywords: Viva support, Viva Glint video, Viva Glint platform setup
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 03/19/2024
 ---
 
 # Set up your platform as a Viva Glint admin
@@ -24,11 +24,26 @@ Viva Glint is a people-driven platform that provides visibility into the health 
 
 Great teams build great cultures, and great cultures fuel great companies.
 
-Ready to get started? 
-
-## Spend short of 10 minutes watching this video about all the goodness that Viva Glint offers. 
+## Take 10 minutes to learn about all the goodness that Viva Glint offers 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1fyCz]
+
+## Explore more Viva Glint resources
+
+
+- Build skills that open doors.
+  - [Discover Viva Glint's Modern Approach to Measuring Engagement](https://go.microsoft.com/fwlink/?linkid=2239110)
+  - [See all that you can do with documentation, hands-on training, and certifications to help you get the most from Microsoft products.](https://learn.microsoft.com)
+  - Documentation: [See all you can do with resources and solutions.](https://go.microsoft.com/fwlink/?linkid=2230911)
+  - Training: [Browse the full catalog of Learning Paths](/training/browse/?terms=glint)
+- [Explore the Viva Community.](https://techcommunity.microsoft.com/t5/welcome-to-the-microsoft-viva/ct-p/Microsoft-Viva)
+  - [Register for the Viva Community](https://techcommunity.microsoft.com/t5/getting-started/getting-started-on-the-tech-community/ta-p/3512627)
+  - [Sign up for the Viva Glint Customer Private User group](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/gh-p/Viva_Glint_Customer_User_Group).
+  - [Subscribe for updates to the Viva Glint Customer Private User Group blog](https://techcommunity.microsoft.com/t5/viva-glint-customer-user-group/bg-p/Viva_Glint_Customer_User_Groupblog-board).
+- [Find resources to support your Viva Glint adoption.](https://adoption.microsoft.com/viva/glint/)
+- [Sign up for the Viva Glint newsletter](https://go.microsoft.com/fwlink/?linkid=2264411)
+
+## Begin your Viva Glint setup
 
 ### 1. Begin Viva Glint platform setup
 
@@ -64,12 +79,12 @@ Ready to get started?
 
 ## Prepare your Viva Glint communications plan
 
-The following templates are examples you can use to communicate to your organization about an upcoming Viva Glint program and steps users can take to gain the most from the experience. The templates are for all roles within your business.
+Use these example email templates to communicate to your organization about upcoming Viva Glint programs and steps users can take to gain the most from the experience. There are templates for all roles within your business.
 
 - [Introduce Viva Glint survey taking](https://go.microsoft.com/fwlink/?linkid=2238527)
 - [Communicate prelaunch and live program information](../communicate/prelaunch-live-email-templates.md)
 - [Communicate results rollout plan](https://go.microsoft.com/fwlink/?linkid=2241509)
 
-## What do I do if I need help?
+## What if I need help?
 
 [Get support from Microsoft 365](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true)

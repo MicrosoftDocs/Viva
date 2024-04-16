@@ -60,15 +60,7 @@ Depending on how frequently your organization imports data to Viva Glint, consid
 
 ### Derived attributes
 
-While your employee data uploads to Viva Glint, derived attributes and values are calculated based on selections made during your attribute setup:
-
-|Derived Field   |Based On   |Derived Values|
-|----------|-----------|------------|
-|Age Grouping     |Birth Year       |<25, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70+       |
-|Tenure* |Hire Date   |<1 Year, 1-2 Years, 2-4 Years, 4-6 Years, 6-10 Years, 10-15 Years, 15-20 Years, 20+ Years|
-|Manager Hierarchy|Employee ID and Manager ID data relationship  |Up to 25 manager levels, starting with the CEO/top-level leader|
-
-*Tenure values for files processed after January 13, 2024. Prior to this date: 0-1 Year, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-7 Years, 7+ Years.
+While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Agre Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
 
 > [!NOTE]
 > Don’t include derived attributes in your employee data file, Viva Glint creates these fields.

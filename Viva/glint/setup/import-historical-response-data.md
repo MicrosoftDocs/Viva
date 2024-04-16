@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 09/07/2023
+ms.date: 02/16/2024
 ---
 
 # Import historical response data in Viva Glint
@@ -24,7 +24,10 @@ For highly trained users, Microsoft Viva Glint Advanced Configuration offers the
 
 ## Learn about the People Science perspective
 
-It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, consider these factors: [Learn more](https://go.microsoft.com/fwlink/?linkid=2245072).
+It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, learn about the Viva People Science factors around historical imports:
+
+> [!div class="nextstepaction"]
+> [Consider Viva People Science factors for historical imports](https://go.microsoft.com/fwlink/?linkid=2245072)
 
 ## Review prerequisites
 
@@ -174,17 +177,13 @@ To import historical users and their responses:
 
 If you encounter issues during your import, use this guidance to troubleshoot.
 
-### Error at line 2: missing required field...
+- ### [Error: Duplicate entry](/viva/troubleshoot/glint/historical-import/import-error-duplicate-entry)
 
-**Issue:** The .csv files uploaded to External Import aren't UTF-8 encoded, and are likely UTF-8 with BOM encoding.
+- ### [Error: Exception date overlap](/viva/troubleshoot/glint/historical-import/import-error-exception-date-overlap)
 
-**Resolution:** Resave files with UTF-8 encoding and reupload.
+- ### [Error: Missing required field](/viva/troubleshoot/glint/historical-import/import-error-missing-required-field) 
 
-### User (email address) found in user file is NOT in client
-
-**Issue:** The user email address for in your Respondent User File or Raw Score File doesn't match the email address for the user in the Viva Glint People page.
-
-**Resolution:** Update the email address for the user(s) in Viva Glint to match the email address(es) in your files uploaded to Advanced Configuration External Import.
+- ### [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
 ## Confirm expected results in your dashboard
 
