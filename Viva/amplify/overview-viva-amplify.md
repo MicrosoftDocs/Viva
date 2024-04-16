@@ -18,6 +18,8 @@ ms.collection:
   - m365initiative-viva-amplify
   - highpri
   - Tier1
+  - essentials-navigation
+  - essentials-overview
 ms.localizationpriority: medium
 description: Learn about Microsoft Viva Amplify in your Microsoft 365 environment.
 ---
@@ -34,6 +36,10 @@ Amplify is currently only available as a web experience.
 1. Search **Amplify** or open your app launcher and choose **Explore all your Apps**.
 1. Under **Explore by category**, choose **Communication**.
 1. Select **Amplify**.
+
+## Browser compatibility
+
+Members of your organization can use Viva Amplify in different browsers, providing they have the necessary cookie settings enabled. [Learn what browser settings you need to use Viva Amplify.](https://support.microsoft.com/topic/troubleshooting-f6c53e86-15f2-4555-8317-60d2cad88fa4)
 
 ## Get started
 

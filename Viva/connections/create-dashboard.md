@@ -1,5 +1,5 @@
 ---
-ms.date: 10/27/2023
+ms.date: 02/02/2024
 title: "Add, edit, and remove cards from the Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -29,10 +29,6 @@ description: "Learn how to edit the Viva Connections dashboard"
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
 The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
 
-> [!NOTE]
->
-> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
-
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
 **This article includes:**
@@ -45,6 +41,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
 - [Add the News card](#add-the-news-card).
 - [Add the People card](#add-the-people-card).
+- [Add the Events card](#add-the-events-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
 - [Add a Topics card](#add-a-topics-card).
@@ -60,7 +57,7 @@ The Viva Connections dashboard can be edited right from Microsoft Teams. You’l
 
 ![Diagram of how to create a Viva Connections Dashboard.](../media/connections/viva-dashboard-step.png)
 
->[!NOTE]
+> [!NOTE]
 >
 > - When setting up Viva Connections for the first time, you’ll be asked to choose a set of default cards based on the intended audience.
 > - You can choose mobile and desktop views interchangeably as you’re authoring.
@@ -86,7 +83,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
 <br>
 <br>
 
->[!NOTE]
+> [!NOTE]
 >Images are an important aspect to making your cards rich and inviting. If you're a SharePoint admin, we recommend enabling a Content Delivery Network (CDN) to improve performance for getting images. Consider when storing images that /siteassets is by default a CDN source when Private CDN is enabled while /style library is the default source when the Public CDN is enabled. [Learn more about CDNs](/office365/enterprise/content-delivery-networks).  
 
 1. From the SharePoint home site, select the **Settings** gear at the top-right of the page.
@@ -102,13 +99,14 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
    |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports.     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks.     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) to manage your team's work, assign tasks, and track tasks.     |
    |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework.](/adaptive-cards/templating/)|
    |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
    |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
    |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
-   |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon.png) |   Promote news from a variety of sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-   |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
+   |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from a variety of sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+   |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
+   |[Events card](#add-the-events-card)    | ![Image of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization.     |
    |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
    |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
    |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
@@ -133,7 +131,7 @@ The Approvals card connects to [Approvals in Microsoft Teams](https://support.mi
 
 ## Add the Assigned tasks card
 
-The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f).
+The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070).
 
 ![Example of an assigned tasks card.](../media/connections/assigned-tasks-card-example.png)
 
@@ -183,8 +181,8 @@ You can choose the **Card designer** option to design your own card that include
 
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
-   >[!NOTE]
-   >If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+   > [!NOTE]
+   > If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
 
 9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it.
 
@@ -242,9 +240,8 @@ There are three ways to get third-party apps and solutions integrated with the V
 
 Third-party cards and an entry point to browse more cards in the app store will automatically display in the card toolbox. Depending on your level of permissions, you may need to request the app before it can be used on the dashboard. [Learn more about managing third-party apps](/sharepoint/use-app-catalog).
 
->[!NOTE]
+> [!NOTE]
 >
-> - This feature will become available to all customers by the end of January 2023.
 > - Site owners managing the Viva Connections dashboard will need to request third-party apps before they are available in the card toolbox.
 > - Some third-party apps require a service plan agreement with your organization.
 
@@ -266,7 +263,7 @@ You can acquire apps from third- party developers by browsing the [Microsoft App
 
 #### Option 2: Acquire the app directly from the third-party developer
 
- >[!NOTE]
+ > [!NOTE]
  > SharePoint administrative permissions are required to complete this task.
 
 You can request apps directly from the Viva Connections third-party developers and partners. Admin permissions are required to [add the app to tenant level app catalog.](/sharepoint/use-app-catalog)
@@ -293,11 +290,11 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
-2.	Select **News** from the dashboard toolbox.
+2. Select **News** from the dashboard toolbox.
 
-    ![Screenshot of the News card icon.](../media/connections/news-card-icon.png)
+    ![Screenshot of the News card icon.](../media/connections/news-card-icon-border.png)
 
-3. Select the **edit pencil** to the left of the card to open the properties pane for the News card. 
+3. Select the **edit pencil** to the left of the card to open the properties pane for the News card.
 
 4. Add a title and select a card size.
 
@@ -321,13 +318,13 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
 
-   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png"::: 
+   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
-2.	Select **People** from the dashboard toolbox.
+2. Select **People** from the dashboard toolbox.
 
-    ![Screenshot of the People card icon.](../media/connections/people-card-icon.png)
+    ![Screenshot of the People card icon.](../media/connections/people-card-icon-border.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
 
@@ -336,6 +333,56 @@ The People Search card will automatically retrieve contact information from memb
 5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
       :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
+
+## Add the Events card
+
+The events card can help your users stay informed and engaged with upcoming events in their organization, such as webinars, trainings, town halls, and celebrations. Users can view additional upcoming events or join via teams via the links on the Events card.  The card can be customized and even targeted to specific audiences so only relevant events are displayed.
+
+The Events card is tied to the SharePoint Events web part. Site owners and members will need to access their SharePoint site and use the SharePoint Events web part to add events to their site. For more information, see the article on [using the Events web part](https://support.microsoft.com/office/5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
+
+   :::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events."lightbox="../media/connections/events-card-demo.png":::
+
+> [!NOTE]
+> Recurring events are not supported, even if you manually set up a recurrence in the events list that you are using. You'll need to create a new event for each occurrence.
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Events** from the dashboard toolbox.
+
+    ![Screenshot of the Events card icon.](../media/connections/Events-card-icon-border.png)
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the Event card.
+
+4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+5. Enter a **Title** for the event card.
+
+      :::image type="content" source="../media/connections/events-card-properties.png" alt-text="Screenshot of the Events card properties pane."lightbox="../media/connections/events-card-properties.png":::
+
+6. Under Content, select a **Source** for your events: **Events list on this site**, **This site**, **This site collection**, **Select sites**, or **All sites**. If your site is connected to a hub site, you will also have an option to select **All sites in the hub** or **Select sites from the hub**.
+
+> [!NOTE]
+>
+> - When you choose **Select sites**, you can search for the site you want to add, or select one or more sites from **Frequent sites**, or **Recent sites**. You can select up to 30 sites.
+   >   - The **Select sites** option is not available in SharePoint Server, U.S. Government GCC High and DoD, and Office 365 operated by 21Vianet.
+> - If there is more than one **events list** on the site, you can select the one you want. If you don't have an existing list, the **Events** card creates an empty Events list for you, with the default settings of a Calendar list.
+> - If you choose to show events from multiple sites, and don't see all of your events displayed on the page, see [How events from multiple sites are found and displayed](https://support.microsoft.com/office/51891403-0ff7-44ab-b364-a44e86e50573).
+
+7. If your list has **categories**, you can select one by which to filter the events you show.
+
+8. Select a date range by which to filter your events in the **Date range** drop-down list. You can choose **All upcoming events** (the default), **This week**, **Next two weeks**, **This month**, or **This quarter**.
+
+      :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane."lightbox="../media/connections/events-card-content.png":::
+
+9. Under the layout section, select how many events to be shown at once from the dropdown. Up to 30 events can be shown on one event card.
+
+      :::image type="content" source="../media/connections/events-card-layout.png" alt-text="Screenshot of the layout section in the Events card properties pane."lightbox="../media/connections/events-card-layout.png":::
+
+10. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), **enable audience targeting**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+      :::image type="content" source="../media/connections/events-card-audience-targeting.png" alt-text="Screenshot of the audience targeting section in the Events card properties pane."lightbox="../media/connections/events-card-audience-targeting.png":::
+
+11. When finished with your selection, you can close the panel. Your settings will autosave.
 
 ## Add a Shifts card
 
@@ -425,8 +472,8 @@ Add a web link card when you want your users to go to an internal or external li
 2. Select the card you want to target to one or more audiences, and select the **Edit card** pencil from the toolbar on the left.
 3. In the property pane on the right, under **Audiences to target**, type or search for the audience group(s) you want to target.
 
-    >[!NOTE]
-    > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
+   > [!NOTE]
+   > If you've selected an audience group that you recently created or changed, it may take some time to see targeting applied for that group.
 
 4. When a card is successfully audience targeted, you’ll see a **people** icon in the lower-left corner of the card.
 

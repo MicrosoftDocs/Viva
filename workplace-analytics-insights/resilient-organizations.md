@@ -76,7 +76,7 @@ For more best practices and ways to protect employees' after hours, see [Best pr
 
 During periods of disruption, managers play a critical role in helping employees navigate change and preserve a sense of belonging. Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition.
 
-According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is." Ways to keep employees engaged:
+To keep employees engaged:
 
 * Use [Viva Insights](/viva/insights/privacy/privacy-and-data-access) to automatically schedule 1:1 time, receive reminders to do so, and follow up on tasks related to direct reports.
 * Require managers to meet with direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal.
@@ -87,7 +87,7 @@ For more best practices and ways to establish better manager-team connections, s
 
 Resilient organizations respond to changing demands and new opportunities by nimbly adapting and refocusing employees' time to align with new priorities.
 
-As explained in [How to finally kill the useless, recurring meeting](https://workplaceinsights.microsoft.com/digital-transformation/how-to-finally-kill-the-useless-recurring-meeting/), it's not only that the meeting provides little value or that people are multitasking; it's that "the sheer amount of time invested in these low-value interactions is a high-cost impediment to getting things done." Ways to reduce meeting time:
+To reduce meeting time:
 
 * Cancel any recurring meetings that might no longer be needed. Every quarter reassess the need for recurring meetings that consume the most time. Try cancelling some, and then add them back if they’re missed.
 * Use [personal wellbeing insights](/viva/insights/personal/use/wellbeing) to learn about your after-hours work habits and use [Inline suggestions in Outlook](/viva/insights/personal/use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours for coworkers.

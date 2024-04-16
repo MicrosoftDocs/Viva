@@ -26,14 +26,14 @@ search.appverid:
 
 Answers lets employees ask questions and connect to crowdsourced answers. Natural language processing helps match questions with available answers, and the experience rewards people who contribute to Answers.
 
-Answers works to connect employees based on their subject matter expertise captured in Topics. It helps users get their questions answered, connect with subject matter experts, and increase their learning.
+Answers helps users get their questions answered, connect with subject matter experts, and increase their learning.
 
 ## Licensing
 
 Users who are assigned the Viva Engage Knowledge service plan, which is part of the Microsoft Viva Suite and Viva Employee Communications and Communities licenses, have access to the Answers experience in the Viva Engage Teams app. These users can ask and answer questions in communities and on the Answers tab, find similar questions, and receive rewards and recognition.  
 
-Users who aren't assigned the Viva Engage Knowledge service plan access the Answers experience from the communities in which they’re a member. They can ask questions and view, vote, and respond to questions others have written. They receive notifications to questions or answers where their name is mentioned and can visit those threads.
- 
+Users who aren't assigned the Viva Engage Knowledge service plan won't have the full Answers experience, but can ask questions and view, vote, and respond to questions others have written from the communities in which they’re a member. Anytime their name is mentioned in Answers, they receive notifications to those questions and can visit those threads.
+
 For more information about permissions, see [Administrator scenarios for Answers in Viva Engage](eac-answers-admin-scenarios.md).
 
 ## Technical requirements
@@ -48,10 +48,10 @@ By default, the Answers experience is enabled for networks that meet the followi
 
    [Native Mode](overview-native-mode.md) is a state of a Viva Engage network where all users are in Microsoft Entra ID. All communities are Microsoft 365 groups and all files are stored in SharePoint Online. This setup ensures that the service can appropriately apply topic permissions and management. For details, see the [guide to migrate](native-mode-guide.md) the network to Native Mode.
 
-2. **Viva Engage uses Topics**
+2. **Viva Engage is enabled to use Viva Topics**
 
-   In the Answers experience, Topics helps to organize questions and route them to people who are knowledgeable about specific Topics. Because Topics works across services in Microsoft 365, we require that your Viva Engage network uses Topics to ensure the best experience with Answers.
-   Over the coming months, all existing Viva Engage networks will be migrated from Viva Engage topics to Topics. There's no requirement for users to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage) and [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d).
+   Viva Topics will be retired in 2025. As part of that change, Viva Engage will return to a simplified topics mode. During the transition, we will pause proactive migrations to use Viva Topics, but continue migrations that enable Viva Engage networks to use Answers by request.
+  Customers aren't required to have a paid Topics license to migrate their topics or to use Answers. Learn more about [the migration](/microsoft-365/topics/topic-experiences-viva-engage), [the Topics experience](https://support.microsoft.com/topic/viva-topics-experience-in-yammer-8e85bc0d-086e-49a2-974b-39f60129257d), and the [Topics retirement](/microsoft-365/topics/changes-coming-to-topics?view=o365-worldwide).
    
    Customers awaiting topics migration can request to get Answers enablement prioritized, which may include Native Mode support or Viva Engage Topics migration to Topics. Contact your customer account manager or Microsoft Viva Engage support to file a support ticket.
 
@@ -67,7 +67,8 @@ Owners of the backing group should ensure that Answers remains compliant with ne
 Answers data is available in [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery), so you can identify and deliver electronic information that can be used as evidence in legal cases.
 
 #### General Data Protection Regulation (GDPR)
-For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data.md). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
+
+For a GDPR user data export, verified Viva Engage admins and Engage admins can follow the [Viva Engage GDPR export guidance](/Viva/engage/eac-as-manage-data). Answers data is bundled with Viva Engage data. To comply with GDPR data subject requests, you can erase all information about a Viva Engage user. Learn [how to manage GDPR data subject requests in Viva Engage](./manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise.md).
 
 ## Configure the Answers experience
 
@@ -107,7 +108,7 @@ This option is unavailable if Answers if turned off, or if the tenant has more t
 :::image type="content" source="../media/engage/admin/answers-eac-show-exp-off.png" lightbox="../media/engage/admin/answers-eac-show-exp-off.png" alt-text="Screenshot shows that Answers must be enabled to turn off the Show Engage Experience setting.":::
 
 > [!NOTE]
-> If the Viva Engage Experience is hidden, the backing group respects the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still [export and manage their data](/rest/api/yammmer/network-data-export.md).
+> If the Viva Engage Experience is hidden, the backing group respects the [data retention policies](/microsoft-365/compliance/retention-policies-yammer?view=o365-worldwide&preserve-view=true) set by your organization. The admin can still export and manage their data.
 
 ## Option: Enable AI-suggested topics
 
@@ -131,7 +132,7 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
 
 2. On the **Feature management** tab, select **Rewards and recognition**.
 
-[![Screenshot shows the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
+   [![Screenshot shows the interface for Answers badges settings in the Viva Engage admin center.](/Viva/media/netnew/badges-settings.png)](/Viva/media/netnew/badges-settings.png#lightbox)
 
 3. Configure badges by selecting from these options:
 
@@ -140,7 +141,7 @@ By contributing to Answers in Viva, users can earn and collect up to five differ
    - **User Preference** enables badges for the organization while allowing individuals to opt out. The end user can turn off badges in Viva Engage by selecting the ellipses button on the right of their **Achievements and awards** page.
    - **Disabled** turns badges off in Answers in Viva. If you switch this control from **On** to **Disabled**, all badges earned by users are deleted and unrecoverable. Answers stops collecting user data for badges.
 
-[![Screenshot shows the Viva Engage interface where users can turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
+   [![Screenshot shows the Viva Engage interface where users can turn off Answers badges.](/Viva/media/netnew/badges-turn-off.png)](/Viva/media/netnew/badges-turn-off.png#lightbox)
 
 
 

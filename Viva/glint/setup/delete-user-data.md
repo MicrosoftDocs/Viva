@@ -15,20 +15,23 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 02/12/2024
 ---
 
 # Delete user data from Viva Glint
 
 As your company’s data controller, Microsoft Viva Glint admins can submit a user data deletion request to comply with a General Data Protection Regulation (GDPR) data subject request. The deletion requests will be processed right away.
 
->[!NOTE]
+>[!IMPORTANT]
+> INACTIVE user data (attributes and responses) aren't automatically deleted from Viva Glint.
+
+>[!CAUTION]
 >User data deletion in Viva Glint is an irreversible process.
 
 ## User data can be deleted from the People section on the admin dashboard
 
 >[!IMPORTANT]
->Deleting a user from Microsoft Entra ID does not delete the user and their information from Viva Glint. To delete user information from Viva Glint, you must complete the instructions provided below.
+>In addition to allowing an admin to delete a user within the app, deleting a user from Microsoft Entra ID has the same outcome, deleting the user and their information from Viva Glint. 
 
 1. Select **People** from the Employees section.
 2. Use the search box to select the employee whose data should be deleted. Open that employee’s page.

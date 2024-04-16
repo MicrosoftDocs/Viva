@@ -8,7 +8,7 @@ items:
   
     - name: Viva Goals trials
       items:
-      - name: Start a trial overview
+      - name: Trials overview
         href: viva-goals-trials.md
       - name: IT admin-led trials
         href: it-admin-trials.md
@@ -31,6 +31,8 @@ items:
       href: vg-privacy-and-security.md 
     - name: OKR program analytics
       href: viva-goals-analytics.md
+    - name: Copilot in Viva Goals
+      href: copilot-intro.md
     
 - name: Setup
   items: 
@@ -65,7 +67,19 @@ items:
       href: approval-workflows.md  
 
   - name: Create and edit teams
-    href: create-and-edit-teams-and-subteams.md
+    items:
+    - name: Introduction to Viva Goals teams
+      href: viva-goals-teams-intro.md
+    - name: Microsoft 365 group-connected teams
+      items:
+      - name: Create a Viva Goals team from a Microsoft 365 group
+        href: create-viva-goals-team-from-m365-group.md
+      - name: Manage members of a group-connected team
+        href: manage-group-connected-team-members.md
+      - name: Delete, archive, or restore a group-connected team
+        href: delete-archive-restore-m365-group-connected-team.md
+    - name: Viva Goals-native teams
+      href: create-and-edit-teams-and-subteams.md
 
   - name: User setup
     items:
@@ -82,7 +96,9 @@ items:
       href: customize-terminology.md
     - name: Custom embed URL widget
       href: custom-url-widget.md
-    - name: Share an Update via Goals broadcast
+    - name: Sharing in Viva Goals overview
+      href: share-objectives.md
+    - name: Share an update via Goals Broadcast
       href: goals-broadcast.md
       
   - name: Integrations
@@ -188,15 +204,6 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
-
-- name: Copilot in Viva Goals
-  items:
-  - name: Introduction
-    href: copilot-intro.md
-  - name: Use Copilot in Viva Goals
-    href: copilot-uses.md
-  - name: Frequently asked questions
-    href: copilot-faq.md
 
 - name: The OKR framework
   items:

@@ -17,6 +17,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-viva-goals
 - highpri
+- essentials-get-started
 search.appverid:
 - MET150
 description: "Learn how to get started with Viva Goals and set up a Viva Goals tenant."

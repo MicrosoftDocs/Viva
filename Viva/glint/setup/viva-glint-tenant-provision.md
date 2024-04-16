@@ -16,7 +16,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2023
+ms.date: 03/21/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -29,6 +29,12 @@ Each Microsoft Entra tenant is distinct and separate from other Microsoft Entra 
 
 When a new customer purchases Viva Glint, they're entitled to the Viva Glint product, and tenant provisioning should occur within days of the purchase. Customer instances can be hosted on Viva Glint’s US or EU server. 
 
+> [!NOTE]
+> If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
+> [!IMPORTANT]
+> If you’re migrating from LinkedIn Glint, don’t provision a new Viva Glint tenant. This step is completed for you as part of your technical migration to Microsoft Viva Glint.
+
 ## Customers entitled for Viva Glint provisioning 
 
 - Net new Viva Glint standalone customers
@@ -39,7 +45,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 > [!NOTE]
 >
 > - A Viva Glint tenant is not available for GCC/GCC H entities as it is intended for commercial services only.
-> - A minimum number of 100 active user licenses are required for tenant provisioning. Licenses requested below 100 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
+> - A minimum number of 50 active user licenses are required for tenant provisioning. Licenses requested below 50 will prompt a screen message and email to inform you to contact your Microsoft Account Manager or adjust the number of licenses purchased in the Microsoft Admin Center, if you purchased via our self-serve checkout flow. 
 
 ## Begin your Viva Glint provisioning experience
 
@@ -48,12 +54,20 @@ Choose either the US or EU URL for Azure login to begin:
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
+On the sign-in page that appears, enter your User Principal Name (UPN) and password:
+
+:::image type="content" source="../../media/glint/start/glint-provision-signin.png" alt-text="Screenshot of Viva Glint provisioning sign-in page.":::
+
 >[!TIP]
 > If you are unsure which URL to choose, begin with the US URL.
 
 ## Complete the Welcome to Viva Glint page
 
-After logging into your preferred URL, the Welcome to Viva Glint page displays. Check the box for notification to be sent if you would like to receive email notification once your tenant provisioning is complete. Select **Continue** to begin tenant provisioning.
+After logging into your preferred URL, the Welcome to Viva Glint page displays: 
+
+:::image type="content" source="../../media/glint/start/glint-provision-welcome.png" alt-text="Screenshot of Viva Glint tenant provisioning welcome page.":::
+
+Check the box for notification to be sent and enter an email address if you would like to receive an email notification once your tenant provisioning is complete. Select **Continue** to begin tenant provisioning.
 
 >[!NOTE]
 > Tenant provisioning can only be initiated by the Tenant Global Administrator. 

@@ -26,8 +26,8 @@ In this article, we address the most commonly asked questions about the analysis
 * [Use advanced insights](#use-advanced-insights)
     * [Meeting exclusions](#meeting-exclusions)
     * [Data validation, verification, and use](#data-validation-verification-and-use)
-    * [Queries](#queries)
-
+    
+Refer [here](../analyst/query-results.md#faqs) for frequently asked questions and answers about queries. 
 
 ## Functionality and features
 
@@ -205,21 +205,8 @@ A6. Microsoft 365 collaboration data is updated weekly for advanced insights and
 
 ##### Q7. Why don't I see last week's data in my analyses?
 
-A8. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
+A7. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
 
-#### Queries  
-
-##### Q1. Why don't totals for meeting hours and email hours match up with totals for working hours and after hours in person query output?
-
-A1. Because totals for working hours and after hours calculate the "time booked on your calendar" instead of "time in meetings." Calculations for total meeting hours (time in meetings) adjusts the duration time to account for double-booked meetings, where a person has two meetings scheduled at the same time or times that overlap on the calendar. A heuristic logic orders which meetings a person likely attended and assigns time accordingly.
-
-##### Q2. When I download and view a query, why is the data unreadable or not shown correctly in Excel?
-
-A2. You probably opened the .csv file as-is. For Excel to show the data correctly, you need to import the .csv file into Excel. If you're using Excel 2016, follow the steps in Access query results and modify existing queries . For other versions of Excel, open **Help** in Excel and then search for the instructions on how to import a .csv file.
-
-##### Q3. Why don’t a person’s low-quality meeting hours equal the sum of their redundant, conflicting, and multitasking meeting hours in my query?
-
-A3. You might expect the total number of redundant, conflicting, and multitasking meeting hours to equal the total number of low-quality meeting hours. However, sometimes they won’t equal because of how conflicting meeting hours are calculated.
 
 ### Error screens 
 

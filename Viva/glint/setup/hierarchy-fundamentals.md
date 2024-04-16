@@ -1,12 +1,12 @@
 ---
 title: Viva Glint organizational hierarchy fundamentals
 description: Learn how Viva Glint uses managerial hierarchy as the primary hierarchy ranking and processes the levels automatically, with a capacity of up to 10 levels.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: managerial hierarchy, locational hierarchy, departmental hierarchy
+keywords: managerial hierarchy, locational hierarchy, departmental hierarchy, matrix hierarchies
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 04/04/2023
+ms.date: 04/05/2024
 ---
 
 # Viva Glint organizational hierarchy fundamentals
@@ -57,6 +57,9 @@ The Viva Glint system automatically configures Harper's hierarchy level within t
 - Level 3 – Tate
 - Level 4 - Harper
 
+>[!IMPORTANT]
+>We strongly urge you not to include matrix hierarchies in your attribute file as they make reporting insights difficult to interpret. If you choose to use them, you must include them on your attribute file during the *initial* build and upload of your attribute file as no additional attributes can be added after the initial upload.
+
 ## Establish your locational hierarchy
 
 The size and proximity of your organization will determine if you choose to use locational hierarchies within your custom attributes. 
@@ -88,3 +91,9 @@ Four columns are needed to enter this departmental hierarchy on the Employee Att
 - Departmental Level 2 – Department (ex: IT)
 - Departmental Level 3 – Function (ex: Operations)
 - Departmental Level 4 – Subfunction (ex: User Support)
+
+## Next step
+Use Viva Glint attribute and hierarchy information to populate your Viva Glint Employee Attribute Template, which serves as a planning tool for your employee data file attributes, layout, and format.
+
+> [!div class="nextstepaction"]
+> [Viva Glint Employee Attribute Template](create-employee-attribute-template.md)

@@ -1,76 +1,105 @@
 ---
-title: "Overview and set up Copilot in Viva Engage [Public Preview] "
+title: "Set up Copilot in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 01/24/2024
+ms.date: 03/26/2024
 audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
+ms.collection: viva-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
 - MOE150
 - YAE150
 ms.assetid: 
-description: "Learn how to configure and incorporate Copilot in Viva Engage [Public Preview] into your organization"
+description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization"
 ---
 
-# Set up Copilot in Viva Engage (Public Preview) 
+# Set up Copilot in Viva Engage 
 
 >[!IMPORTANT]
->Copilot in Viva Engage is currently available through public preview. The features described here are subject to change. Administrators can enable Copilot in the Viva Engage admin center.
+>Copilot in Viva Engage is currently available through public preview, and will be generally available in late April, 2024. When Copilot and AI Summarization are rolled out, they're on by default. To turn them off, see instructions in this article. Features described here are subject to change.
 
-Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage. A large language model is a type of AI that can process and produce natural language text. Learn more about [responsible AI practices at Microsoft](https://www.microsoft.com/ai/responsible-ai). Copilot helps users get the most out of Viva Engage by suggesting where to engage and collaborating on writing communications.
+Copilot in Viva Engage is a partner for communicating in ways that create value for oneself and one’s organization. Copilot provides users access to Large Language Model (LLM) technology with Microsoft Responsible AI protections, to assist them to get the most out of Viva Engage.
+A large language model is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
-[Learn more about Copilot in Viva Engage.](https://support.microsoft.com/topic/introducing-copilot-in-viva-engage-0222cdfb-1fa3-4ec8-987a-c1b35af5c26d)
+## Licensing requirements
 
-## Licensing requirements (Public preview)
+In late April 2024, Copilot in Viva Engage will be enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing). AI-powered Summarization will also be enabled at the same time for all users in the premium licensed tenant. AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis.
 
-Customers with a *Viva Suite* or *Communications & Communities* license, or a trial version of one of these, can opt in to activate Copilot through the Viva Engage admin center. Licensing requirements for these features may change after the preview period. Teams must be in Native Mode to support feature access.
+Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
->[!NOTE]
->[Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-setup) is available separately.
+[Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-setup) is available separately.
 
-## Data processing and storage 
+## Data processing and storage
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
-| Data process | How it works |
+| **Data process** | **How it works** |
 |---|---|
-|**Message processing and storage for summarization**| The **Summarization** control starts background processing of Engage threads across the tenant network to support summarization features in Copilot. Copilot presents summaries *from only those posts to which the user already has access*. When Copilot is generally available, admin controls will allow enabling or disabling of summarization per user or group. Results from summarization and theme extraction are stored in alignment with GDPR deletion requirements. Use the [Engage Network Export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range) to export this data. | 
-|**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region). When Copilot in Engage is generally available, the system will support logging of Copilot chat input and output and admins will also have controls to enable/disable Copilot access per user group.|
+|**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network Analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
+|**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
-## Configure Copilot for Viva Engage
+## Manage Copilot and AI Summarization with feature access policies
 
-Microsoft 365 Global administrators and Engage admins can control Copilot from the Viva Engage admin center. During public preview, Copilot is off by default.
+Global admins and Engage admins can now make changes to Copilot availability and AI Summarization data processing for users in the tenant through feature access management PowerShell cmdlets. Through cmdlets, admins can use the Viva feature access management platform to control availability of these premium features for the entire tenant and users or groups they deem appropriate.  
 
-When you enable Copilot, it’s available to all users in the tenant with a premium license. Teams must be in Native Mode to support feature access. Licensing requirements for these features may change after the preview period.
+Copilot and AI Summarization are controlled separately and can be turned on or off. Additionally, for AI Summarization, admins can create granular access policies that support a third state–-on with user opt out.
+
+Policy settings apply anytime a user signs in, allowing them access to features that haven't been disabled.
+Because you can set multiple access policies, targeting the tenant, groups, and individual users, a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
+
+### Copilot and AI Summarization states
+
+You can create feature access policies using the following enablement states.
 
 >[!NOTE]
->When Copilot is generally available in 2024, admins will be able to control Copilot for users or groups and set different policies for user groups.  Additional controls for AI summarization will enable the same.
+>AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
 
-1.	To enable Copilot, go to the [Viva Engage admin center](/Viva/engage/eac-as-access-eac).
-1.	On the **Setup and configuration** tab, select **Manage analytics**.
-    :::image type="content" source="/viva/media/engage/admin/admin-center-analytics1.png" alt-text="Screen shows Analytics settings in the Viva Engage admin center.":::
-1. From the **Analytics and AI controls**, select the dropdown menu to turn on **Summarization**. Or, to allow users to turn off summarization in Viva Engage, select **On with user-level opt in/out**.
-**Summarization** must be on to enable Copilot. This control starts the background processing of Engage threads across the tenant network to support summarization features in Copilot.
-    :::image type="content" source="/viva/media/engage/admin/admin-center-copilot-crop2.png" alt-text="Screenshot shows Copilot controls within the Analytics and AI controls.":::
 
-    >[!NOTE] 
-    >Depending on the volume of data represented by Engage threads in your tenant, the summarization process may require anywhere from a few hours to a few days. If Engage threads aren’t processed, some aspects of Copilot won’t function optimally.
+|**Engage feature**|**State**|**Description**|
+|:-------------|:------------------:|:----------------------|
+|**Copilot**|Enabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
+| | Disabled| Copilot is not available anywhere in Viva Engage|
+|**AI Summarization** | Enabled| This state enables background processing for Engage threads within the tenant.|
+| |Enabled with user opt out| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
+| |Disabled|When you disable AI Summarization, the users' Engage threads won't be processed. If you disable AI Summarization for the entire tenant and have no user or group access policy in place that enables the feature, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
 
-1. Use the toggle to turn on the **Copilot** control.
+#### Example
+
+If an admin needs to  disable Copilot only for users in Germany, they can accomplish that in feature access management using the following steps:
+
+1. Create a group access policy in feature access management using PowerShell cmdlets.
+1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
+1. Set the group policy to OFF (disabled).
+
+    As a result, all remaining users in the organizations (except Germany) can now use Copilot in Viva Engage.
+
+#### Important considerations for feature access management
+
+- There can only be a maximum of 1 tenant policy per Viva Engage feature. In other words, there can only be 1 tenant policy for Copilot and only one tenant policy for Summarization.
+
+- Creating a disabled (OFF) tenant policy for Summarization will delete all history data within the tenant.
+
+    To avoid deletion of Summarization data for all users within the tenant, admins should ensure that the feature disable (OFF) tenant policy is immediately accompanied with at least 1 feature enable (ON) group policy.
 
 ## How to access Copilot
 
-Users can access Copilot from the Viva Engage Home page by selecting the Open Copilot link. 
-When Copilot is generally available in 2024, users will be available to access Copilot within Viva Engage communities, campaigns, storyline, and articles.
+Users can access Copilot anywhere they write posts. On the Engage Home page, Copilot also generates proactive suggestions about what they might like to write about and where they might benefit from engaging.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
+
+- Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
+
+- Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
+
+    >[!NOTE]
+    >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ### Copilot as Viva Engage guide
 

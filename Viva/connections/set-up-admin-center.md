@@ -1,5 +1,5 @@
 ---
-ms.date: 10/31/2023
+ms.date: 01/28/2024
 title: Set up Viva Connections in the Microsoft 365 admin center 
 ms.reviewer: 
 ms.author: evanatkin
@@ -13,6 +13,7 @@ ms.service: viva
 ms.subservice: viva-connections
 ms.localizationpriority: high
 ms.collection:
+  - essentials-get-started
   - Strat_SP_modern
   - M365-collaboration
   - m365initiative-viva-connections
@@ -33,11 +34,11 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 >
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
-> - Centralized Viva Connections administration in the Microsoft 365 Admin center and the multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
+> - Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 [Microsoft Viva Connections](viva-connections-overview.md) is an employee experience app in Microsoft Teams that brings together relevant news, conversations, resources, and tools in one place for every employee. It's built on your current Microsoft 365 ecosystem to help you engage, inform, and empower your workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
@@ -61,11 +62,15 @@ Setting up Viva Connections only takes a few steps but there are some considerat
 ## How to access Viva Connections in the Microsoft admin center
 
 1. Navigate to [admin.microsoft.com](https://admin.microsoft.com/Adminportal/Home#/homepage) and sign in with your credentials.
-2. Select **Setup** and under featured collections, select **Microsoft Viva**.
+2. Select **Settings** to expand the selection and select **Viva**.
+
+> [!NOTE]
+> If Settings does not show, select **show all** to reveal all available menu options.
+
+3. Select **Viva Connections** to open the Viva Connections admin center.
 
    :::image type="content" source="../media/connections/set-up-admin-center/microsoft-viva-option.png" alt-text="Screenshot showing how to navigate to the Microsoft Viva admin center." lightbox="../media/connections/set-up-admin-center/microsoft-viva-option.png":::
 
-3. Select **Viva Connections** to open the Viva Connections admin center.
 4. The Viva Connections admin center opens. If you already have a SharePoint home site (intranet portal), Viva Connections will display it as an experience automatically.
 
 ## Create a new Viva Connections experience

@@ -1,5 +1,5 @@
 ---
-ms.date: 12/14/2023
+ms.date: 02/02/2024
 title: File rules and validation errors
 description: View errors and solutions for validation errors in the advanced insights app
 author: zachminers
@@ -25,27 +25,34 @@ When any data row or column has an invalid value for any attribute, the entire u
 
 The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
-### Rules for field headers
+### Rules for source and target field headers
 
-All field header or column names need to: 
+All source and target field header or column names need to: 
 
-* Only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! _ @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported.
-* Contain a value.
-* Have no leading, middle, or trailing blank spaces, or special non-alphanumeric characters such as @, #, %, or &.
-* Be unique.
-* Contain no reserved keywords, which are:
-    *  PeopleHistoricalId
+1. Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Special non-alphanumeric characters such as @, #, %, &, or other characters aren’t supported.
+2. Contain a value.
+3. Be unique. 
+
+### Rules for custom target field headers
+
+ All custom target field headers or column names need to:  
+1. Have no leading, middle, or trailing blank spaces.  
+2. Contain no system fields, which are: 
+    * PeopleHistoricalId
     * StartDate
     * EndDate
     * Domain
     * PopulationType
     * TimeZone
+    * StandardTimeZone
     * WorkdayStart
     * WorkDayEnd
     * WeekendDays
     * InferredTeamSize
     * ObjectId
-    * Microsoft_
+    * IsActive
+    * Starting with "Microsoft_"
+    
 
 
 Required fields need to have a value for every row.
@@ -73,19 +80,16 @@ There can't be loops where:
 
 * Managers and employees report to each other.
 * Managers report back to employees.
-* People report to themselves.
 
 Let’s say Dylan is Kris’s manager. The organizational data couldn’t show:
 
 * Kris reporting to Dylan and also Dylan reporting back to Kris.
 * Dylan reporting to Kris.
-* Kris reporting to Kris.
 
-Both of the following hierarchies would produce an error:
+
+Both of the following hierarchies would produce errors in end-user experiences:
 
 :::image type="content" source="../images/admin-mgr-loops-1-a.png" alt-text="Screenshot that shows a manager hierarchy loop between three people.":::
-
-:::image type="content" source="../images/admin-mgr-loops-2-a.png" alt-text="Screenshot that shows a manager hierarchy loop where one employee reports to themselves.":::
 
 
 ### Example .csv export file
@@ -109,7 +113,7 @@ File and file extensions|The data file needs to be in the .csv UTF-8 format, and
 Column headers|All field header or column names need to be unique.|Two or more column headers in your file are the same. Include unique headers for each column.|All
 ||All field header or column names need to contain a value.|Header is missing in column(s) {J}. Include the header name in your selected file and upload again.|All
 ||All field header or column names need to only contain alphanumeric characters (letters and numbers, for example, **Date1**), or the following symbols: ~ ! @ # $ % ^ & * + > : < > [] ?. Other characters aren’t supported|{Header name} contains unsupported special characters. Remove the special characters and upload again.
-||All field header or column names need to contain no reserved keywords.|{header name} is a reserved keyword. Please rename {header name} so that it doesn't use a reserved keyword and upload the file again.|All
+||All field header or column names need to contain no system fields.|{header name} is a system field. Please rename {header name} so that it doesn't use a system field and upload the file again.|All
 ||After you upload your file, you can only map one column header to each Viva Insights data field.|Your file has more than one source column mapped to a data field. Make sure each source column is mapped to a unique field.|All
 |Field values|Field values need to be provided in the correct data type. Refer to [Attribute reference](./prepare-org-data.md#attribute-reference).|Invalid {header name} value. {Header name} should be an email address following the form `employee@contoso.com`.|All
 |||Invalid {header name} value. {Header name} should be a string.|All
@@ -118,7 +122,5 @@ Column headers|All field header or column names need to be unique.|Two or more c
 |||Invalid {header name} value. {Header name} should be an integer.|All
 ||Required fields need to have a value for every row.|Missing {header name} column or {header name} value. {Header name} is a required field and needs a value for every row. Add {header name} value and upload the file again.|All
 |||Missing ManagerId value for new PersonId field. ManagerId is a required field. Add the corresponding ManagerId field and upload again.|All
-||Each PersonId needs to have a unique ManagerId.|Multiple ManagerIds detected for PersonId in row {row #4}. Each PersonId should have a unique ManagerId. Please fix this error and upload your file again.|All
-||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.<li>People report to themselves.|There is a loop in the manager hierarchy in which a manager reports back to an employee. The loop contains the PersonIds and ManagerIds found in rows {rows #3,4,5}. Please fix the loop and upload your file again.|All
-|||This row contains a loop in the manager hierarchy in which managers and employees report to each other. The loop contains {X} people and starts with the PersonId in row {row #3}. Please fix the loop and upload your file again.|All
-|||PersonId in row {row #5} reports to themselves (PersonId and ManagerId is the same). Please correct this loop in the manager hierarchy and upload your file again.|All
+||Each PersonId needs to have a unique ManagerId.|   |All
+||There can't be [loops](#rules-for-values-in-the-managerid-field) where: <ul><li>Managers and employees report to each other. <li>Managers report back to employees.|   |All
