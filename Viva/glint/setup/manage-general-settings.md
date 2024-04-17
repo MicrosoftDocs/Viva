@@ -98,7 +98,7 @@ Provide or edit the following fields:
 
 Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238341).
 
-| Field | efinition and notes |
+| Field | Definition and notes |
 |-----------|-----------|
 |**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
 |**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra authentication.   |  
@@ -121,7 +121,7 @@ Edit the following fields:
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
 |**Self-Serve Mode**   |When Edit and Create is selected, this choice allows users with the correct user role permissions to edit and create surveys.   | 
 
-#### Choosr the Focus Area privacy setting in Features
+#### Choose the Focus Area privacy setting in Features
 
 The default setting for this setting within *Features* is **Public**. 
 
