@@ -49,7 +49,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 ## Begin your Viva Glint provisioning experience
 
-Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint).
+Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint&preserve-view=true).
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
