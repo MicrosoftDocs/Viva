@@ -55,5 +55,3 @@ Users with edit access for an OKR or an initiative can now grant multiple users 
     > [!NOTE]
     > For an OKR or initiative that has permission to be set as "only selected people can view and align", OKR owners and delegates are able to edit that OKR/initiative.  Check-in owners for the OKR or initiative would only be able to view the OKR or initiative.
 
-1. **Can users who have access to an OKR or initiative due to their permissions or roles be removed?**
-    1. Can users who have access to an OKR or initiative due to their permissions or roles be removed? 
