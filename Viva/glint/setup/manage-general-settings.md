@@ -117,7 +117,7 @@ Edit the following fields:
 |**Community Enabled**   |Enable to permission access to the Glint community forum for this client, regardless of role-based permissions.  |  
 |**Employee Post-Survey Action Taking**   |Enables employees to view free LinkedIn Learning videos upon completing a survey. A LinkedIn Learning license is not required.  |  
 |**Team Conversation Enabled**   |Enables Team Conversations for recurring surveys.   |  
-|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follows this table.  |
+|**Default Focus Area Privacy**   |Choose the visibility/privacy setting for users creating a new Focus Area. More instructions around focus area privacy follow this table.  |
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
 |**Self-Serve Mode**   |When Edit and Create is selected, this choice allows users with the correct user role permissions to edit and create surveys.   | 
 
