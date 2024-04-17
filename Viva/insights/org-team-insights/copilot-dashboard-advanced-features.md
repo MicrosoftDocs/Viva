@@ -1,5 +1,5 @@
 ---
-ms.date: 4/11/2024
+ms.date: 4/17/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -34,7 +34,7 @@ Let's dive in to this advanced set of features.
 
 * A Viva Insights license is required to view the app in Teams for leaders, and the analyst tool bench is required for custom reports. Requires Viva Insights, Workplace Analytics and Feedback, or Viva Suite SKUs.
 
-* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
+* At least 10 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
 ### Access and manage user access to the dashboard
 
@@ -43,8 +43,6 @@ Let's dive in to this advanced set of features.
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
 
 ### Minimum group size
-
-On the readiness page, to protect individual privacy, you can only view tenant-level aggregated metrics for teams that have at least 25 active employees.
 
 On the adoption and impact pages, you can view the aggregated drilldown metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
 
