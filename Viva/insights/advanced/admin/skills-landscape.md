@@ -24,20 +24,20 @@ With this report, you can:
 
 Before we get started, there are a few things you should know:
 * People need to have eligible licenses for both **Viva Insights** and **Skills in Viva** to be included in this report
-* The skills data will import from Skills in Viva to Viva Insights through APIs. Your Microsoft 365 admin or knowledge admin needs to provide consent in the MAC portal to confirm the connection.
+* The skills data imports from Skills in Viva to Viva Insights through APIs. Your Microsoft 365 admin or knowledge admin needs to provide consent in the MAC portal to confirm the connection.
 * Only people with Viva Insights analyst role can run and set up this report. Your Insights admin needs to assign the analyst role to enable their access.
 * For this private preview, the report is only available in English.
 * For this private preview, the report only includes the past month of skills insights. You can run the report monthly to track skill trends and changes.
 
-To populate the report in Power BI, you will need to set up and successfully run the predefined **Skills landscape** query in Viva Insights.
+To populate the report in Power BI, you need to set up, and successfully run the predefined **Skills landscape** query in Viva Insights.
 
 :::image type="content" source="../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
  
 ## Prerequisites
-Before you can run the queries and populate the report in Power BI, you’ll need to:
+Before you can run the queries and populate the report in Power BI, you need to:
 * Be assigned the role of **Insights Analyst** in Viva Insights.
 * Have the December 2022 (or newer) version of Power BI Desktop installed. If you have an earlier version of Power BI installed, uninstall it before installing the new version. Then go to [Get Power BI Desktop](https://www.microsoft.com/en-us/power-platform/products/power-bi/getting-started-with-power-bi) to download and install the latest version.
-* People must be eligible for both **Skills in Viva** and **Viva Insights** to be included in this report. **Skills data** is required for this report. Please contact your knowledge admin or Microsoft 365 admin for details.
+* People must be eligible for both **Skills in Viva** and **Viva Insights** to be included in this report. **Skills data** is required for this report. Contact your knowledge admin or Microsoft 365 admin for details.
 
 ## Report setup
 ### Run query
@@ -54,7 +54,7 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
 
 The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Month**, and you're not able to edit this field.
 
-4.	Under **Predefined template metrics**, there is one preselected metric which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics won’t be available to use in the Power BI report—they’ll just appear in your query results file.
+4.	Under **Predefined template metrics**, there is one preselected metric, which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics aren’t available to use in the Power BI report—they just appear in your query results file.
 5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](https://learn.microsoft.com/viva/insights/advanced/analyst/filters) 
 
 >[!Important]
@@ -68,7 +68,7 @@ If you notice attributes marked with yellow warnings, that attribute's quality i
 Learn more about attributes and data quality in [Data quality in the analyst experience.](https://learn.microsoft.com/viva/insights/advanced/analyst/data-quality-analyst-experience)
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
-8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
+8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
 
 ### Link report to query
 
