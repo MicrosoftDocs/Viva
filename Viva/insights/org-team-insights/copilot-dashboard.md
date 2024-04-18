@@ -8,6 +8,7 @@ ms.topic: article
 ms.collection: 
 - viva-insights-personal
 - essentials-manage
+- viva-copilot
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights

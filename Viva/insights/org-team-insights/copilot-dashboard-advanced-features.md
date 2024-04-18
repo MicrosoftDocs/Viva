@@ -6,6 +6,7 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.collection: viva-insights-personal
+- viva-copilot
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
@@ -44,7 +45,10 @@ Let's dive in to this advanced set of features.
 
 ### Minimum group size
 
-On the adoption and impact pages, you can view the aggregated drilldown metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
+On the adoption and impact pages, you can view the aggregated user-level metrics for teams that have at least 25 active employees.
+
+>[!Note]
+>Over the next few weeks, you’ll be able to see user-level aggregated metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size), which by default is 10 licensed employees.
 
 ## Interpreting the data
 

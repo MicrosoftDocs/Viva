@@ -8,6 +8,7 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
+- viva-copilot
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
