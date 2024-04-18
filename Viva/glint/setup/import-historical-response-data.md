@@ -82,9 +82,9 @@ External imports of historical data require three data files, each with their ow
 
 |File  |Description  |Email address label|Import to |Required format |
 |:----------|:-----------|:------------|:------------|:------------|
-|[User File](https://www.microsoft.com/en-us/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 encoding and comma delimited</li> **OR** <li>.xlsx </li></ul> |
-|[Raw Score File](https://www.microsoft.com/en-us/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 encoding and comma delimited |
-|[Respondent User File](https://www.microsoft.com/en-us/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 encoding and comma delimited |
+|[User File](https://www.microsoft.com/en-us/download/details.aspx?id=105693)     |All employees from a historical, external source formatted to align with your Viva Glint attribute setup       |Match with your attribute setup        |Viva Glint People page        |<ul><li>.csv with UTF-8 encoding and a comma separator</li> **OR** <li>.xlsx </li></ul> |
+|[Raw Score File](https://www.microsoft.com/en-us/download/details.aspx?id=105692)|Respondent email address + question columns populated with numeric response values   |Must be: User e-mail|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
+|[Respondent User File](https://www.microsoft.com/en-us/download/details.aspx?id=105694)|Required fields for all respondents from historical, external source: email, first name, last name, ID, status   |Must be: Email Address|Advanced Configuration: External Import|.csv with UTF-8 encoding and a comma separator |
 
 ### User File
 
