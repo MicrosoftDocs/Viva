@@ -105,7 +105,7 @@ Your initiative will now regularly synchronize data from Power BI and make check
 
 ## Enable Power BI integration
 
-Before any org members can make use of Power BI integrations, a global admin must enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions [here](vg-integrations-administration-overview.md#how-to-manage-integrations).
+Before any org members can make use of Power BI integrations, a global admin must enable the Power BI Integration for Viva Goals at the tenant level. Look for the Power BI Integration and enable it by following the instructions [here](vg-integrations-administration-overview.md#manage-integrations).
 
 1. Go the Viva Goals Integrations at **Admin** > **Integrations**.
 
