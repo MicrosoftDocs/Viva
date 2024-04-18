@@ -31,9 +31,14 @@ The Heat Map Report is useful for HRBPs, admins, or any senior leader who would 
  >[!NOTE]
 > Heat Map results are only available when confidentiality thresholds are met.
 
-Heat maps are sorted so that it’s easy to find patterns. The rows at the top typically tend to have higher scores across the majority of teams, while the teams’ columns on the left tend to have lower scores across the majority of drivers. Note that the colors only indicate high and low scores relative to the median score in the heat map.
+Heat maps are sorted so that it’s easy to find patterns. The rows at the top typically tend to have higher scores across the majority of teams, while the columns on the left represent teams with lower scores across the majority of drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
 
-For the Heat Map report, you can Click Reports and then Heat Map Report. Heat Maps are interactive and display scores for each question broken down by demographic attributes – for example -  team, location, or tenure. You can use Heat maps to quickly and easily spot patterns and outliers.
+>[!NOTE]
+> Colors only indicate high and low scores relative to the median score in the Heat Map.
+
+## Using the Heat Map Report
+
+Select the **Reports** tab on your admin dashboard and then the **Heat Map Report** card. 
 
 The heat map display defaults to show your team.
 
