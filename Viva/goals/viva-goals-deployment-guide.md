@@ -25,7 +25,7 @@ description: "Learn how to get started with Viva Goals and set up a Viva Goals t
 
 # Viva Goals setup and administration deployment guide
 
-This guide enables IT administrators to configure Viva Goals and help initial users get started using the program via the Setup and Administration guide. Additionally, it enables organization and team admins to understand how to configure their teams and organization so users can manage Objectives and Key Results (OKRs) using Viva Goals.
+This guide enables IT administrators to configure Viva Goals and help initial users get started using the program via the Setup and Administration guide. Additionally, it enables organization and team owners to understand how to configure their teams and organization so users can manage Objectives and Key Results (OKRs) using Viva Goals.
 
 ## Licensing requirements
 
@@ -263,14 +263,11 @@ As a Global or Viva Goals administrator, you can create Viva Goals Organizations
 
 ### Control default user type 
 
-Any user who joins your organization is by default considered as a member or regular user. You can choose to restrict the new users to be added as an observer instead.  
-
-To do this, go to **Admin > Settings > User types** for new users and you can choose Observer.
+Any user who joins your organization is by default considered as a member or regular user.
 
 |Role  |Description  |
 |---------|---------|
 |Members     |Members (the default role for everyone) can set up and manage their individual OKRs and view all OKRs within the organization.          |
-|Observers     |Observers, as opposed to members, can't create, edit, or own OKRs. They can view all OKRs just like members.          |
 
 For more information, visit: [Roles and Permissions](roles-permissions-in-viva-goals.md).
 
@@ -288,43 +285,43 @@ Administrators of the organization can control the team creation permission as f
 1. Under **Settings** tab, scroll down to find Team Creation and choose one or few of the following: 
     1. **Any Regular user:** Allow any regular member of the organization to create teams (This is the default selection).
     1. **Admins:** Team creation is allowed for organization administrators.
-    1. **Team Admins:** Team creation is allowed for team administrators.
+    1. **Team Owners:** Team creation is allowed for team owners.
     1. **Custom:** Chosen users have permission to create teams.
 
 ### Create or edit teams 
 
 Viva Goals supports multiple levels of hierarchy, from department level down to individual teams and functional units. To achieve this setup, you can use the teams and sub teams functionality. 
 
-Once team is created, [add team admins](create-and-edit-teams-and-subteams.md) to the team who would be responsible to manage the team and its members.  At least two admins are recommended to avoid dependency on just one admin.
+Once team is created, [add team owners](create-and-edit-teams-and-subteams.md) to the team who would be responsible to manage the team and its members.
 
 ## Configure Viva Goals team(s)
 
-**Target role(s):** Team Owner, Admins (primary). 
+**Target role(s):** Team Owner (primary). 
 
 > [!NOTE]
-> Organization admins have all the permissions of a team admin & owner but usually do not configure the teams. The owner or admin of a team is responsible for configuring and managing the team settings to help users manage team level OKRs and initiatives. More on [team admin and owners](roles-permissions-in-viva-goals.md).
+> Organization admins have all the permissions of a team owner but usually do not configure the teams. The owner of a team is responsible for configuring and managing the team settings to help users manage team level OKRs and initiatives. More on [team owners](roles-permissions-in-viva-goals.md).
 
 ### Manage team members 
 
-1. Adding [team members to a team](create-and-edit-teams-and-subteams.md) & promoting a member as admin.
+1. Adding [team members to a team](create-and-edit-teams-and-subteams.md) & promoting a member as an owner.
 
 ### Team level OKR creation permission
 
-Admins of a team can restrict the OKR and initiative creation permission by following steps:
+Owners of a team can restrict the OKR and initiative creation permission by following steps:
 
 1. Navigate to the Team and select on the button with three dots (…) on the top right corner. Choose **Team Settings**
 2. Under the heading **Who can create OKRs or Initiatives for this team?** Choose one of the following:
     1. **Anyone in <Organization_name>:** This option is the default permission for a Viva Goals Team. This allows any valid user of the Viva Goals organization to create OKRs or initiatives within the team. 
       > [!NOTE]
       > Users need not be a member of the team to create OKRs or initiatives
-    1. **Only team admins and team owner:** This option restricts the OKR or initiatives creation permission only to the admins and owner of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
+    1. **Only team owner:** This option restricts the OKR or initiatives creation permission only to the owners of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
     1. Specific people:
         1.  All members of this team:
-            1. Along with team admins and owner, all members of the team can create OKRs or initiatives.
+            1. Along with team owner, all members of the team can create OKRs or initiatives.
             > [!NOTE]
             > Users should be part of the team to let them create OKR or initiative. Know more on how to add users to a team.
         1. Custom:
-            1. Along with team owner and admins, select individuals to assign permission to create OKRs or initiatives.
+            1. Along with team owners, select individuals to assign permission to create OKRs or initiatives.
             1. Start typing the names of the users in the Add people text box and select the user from the list populated (the system would prompt if the user need to be invited to the organization if the entered user isn't found already).
             1. **NOTE**: The users need not be part of the team, but they need to be part of the organization.
 
@@ -352,7 +349,7 @@ Viva Goals allows a team to be added as a child to another existing team and to 
 1. Under **Team Settings** section, you can find the drop-down for changing the team owner.
 
     > [!NOTE]
-    > Only the current Team Owner has the permission to perform this action. Team admins do not have permission to change the team ownership.
+    > Only the current Team Owner has the permission to perform this action.
 
 5. To change the parent team, choose an existing Viva Goals team from the drop down menu under the heading Parent Team
 6. Select **Save**.
