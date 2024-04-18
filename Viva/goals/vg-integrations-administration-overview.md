@@ -1,5 +1,5 @@
 ---
-ms.date: 04/17/2024
+ms.date: 04/18/2024
 title: Enable integrations as a global admin in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -52,49 +52,50 @@ If you select this option, no integrations will be available in your tenant.
 
 Selecting this option allows global admins to choose specific integrations to be available in their tenants. O365 core service integrations, such as Excel and Planner, are available by default.
 
-To modify which integrations are available in your organization, select the enable status for each integration you want to manage.
+To modify which integrations are available in your organization, select the enable status for each integration you want to manage.<!--Check this.-->
 
 > [!IMPORTANT]
-> If you deselect an enabled integration, existing connections supported by that integrations will not continue to work.
+> If you deselect an enabled integration, existing connections supported by that integration will stop working.<!--Check this.-->
 
-## How to manage integrations
+## Manage integrations
 
-Only Global admins have permission to manage which integrations are available for the tenant.
+Only global admins have permission to manage which integrations are available for their tenants.
 
 1. Log in to your Viva Goals account.
 
-1. Select the organization from the navigation panel on the left.
+1. Select the organization from the navigation panel on the left.<!--Check this.-->
 
    :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization." lightbox="../media/goals/admin-controls/navigation-pane.png":::
 
-1. Select Create or Join organization.
+1. Select **Create or join organization**.<!--Check this.-->
 
    :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the left navigation.":::  
 
-1. From the Create or Join organizations page, select the Viva Goals admin portal option in the top right corner.
+1. Select **Viva Goals admin portal**.<!--Check this.-->
 
  :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page."lightbox="../media/goals/admin-controls/select-setting.png":::
 
-1. Select the integrations settings for your tenant and select save. If you choose the option for Selected integrations are available, select the integrations you want to manage and select save.  
+1. Configure the integrations settings for your tenant and select save. If you choose the **Selected integrations are available** option, select the integrations you want to manage and select **Save**.<!--Check this. I don't see a "save" presently-->
 
    :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integrations available for your tenant." lightbox="../media/goals/admin-controls/integrations-selections.png":::
 
 > [!NOTE]
-> Selecting **All integrations disabled** or deselecting integrations that were previously enabled disables any existing connections associated with the integration in your tenant.
+> Selecting **None available** or deselecting integrations that were previously enabled will disable any existing connections associated with the integration in your tenant.
+<!--Check this; current UI shows **None available** Opted for that over the previously written "All integrations disabled.".-->
 
 ## Integrations overview
 
-Viva Goals supports two types of integrations, which are discussed in further detail below: data integrations and collaboration integrations. Additionally, integrations can be grouped into three different categories:
+Viva Goals supports two types of integrations: [data integrations](#how-data-integrations-work) and [collaboration integrations](#how-collaboration-integrations-work). Integrations can be further grouped into three different categories:
 
-1. In-Boundary Microsoft 365 Integrations: In-boundary Microsoft 365 integrations, such as Microsoft Teams, process all data within the Microsoft 365 service boundary.  
+- **In-boundary Microsoft 365 integrations:** In-boundary Microsoft 365 integrations, such as Microsoft Teams, process all their data within their own Microsoft 365 service boundaries.  
 
-1. Cross-Boundary Integrations: Cross-boundary integrations, such as Azure Data Explorer, process data between different Microsoft service boundaries utilizing Microsoft APIs.
+- **Cross-boundary integrations:** Cross-boundary integrations, such as Azure Data Explorer, process data between different Microsoft service boundaries by utilizing Microsoft APIs.
 
-1. Third-Party Integrations: Third-party integrations utilize third party APIs to process data. Third-party APIs are not controlled or owned by Microsoft and are not governed by the Microsoft Product Terms, your organization’s volume licensing agreement, or any other Microsoft terms or agreements. Your organization’s use of third-party integrations is subject to that third-party’s terms and privacy statement. Before enabling, or allowing users within your organization to enable, an integration, you should review the third party’s terms and relevant documentation.
+- **Third-party integrations:** Third-party integrations utilize third-party APIs to process data. Third-party APIs are not controlled or owned by Microsoft and are not governed by the Microsoft Product Terms, your organization's volume licensing agreement, or any other Microsoft terms or agreements. Your organization's use of third-party integrations is subject to that third party's terms and privacy statement. Before enabling (or allowing users within your organization to enable) a third-party integration, you should review the third party's terms and relevant documentation.
 
-The table below shows which type of integrations are supported, their category, and contains links to applicable third-party terms.
+The table below features a list of supported integrations, as well as their categories, types, and links to any applicable terms.
 
-|Integration  |Category  |Type  |Terms of Use |
+|Integration  |Category  |Type  |Terms of use |
 |---------|---------|---------|---------|
 |Amazon Redshift|Third-party|Data| https://aws.amazon.com/legal/?nc1=f_cc|
 |Asana|Third-party|Data| https://asana.com/terms|
@@ -133,12 +134,12 @@ The table below shows which type of integrations are supported, their category, 
 
 ## How data integrations work
 
-Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and initiatives, enabling you to have a single source of truth for progress. For example, if you connect an initiative to Azure Dev Ops, Viva Goals will be automatically updated according to progress in Azure Dev Ops.
+Data integrations in Viva Goals enable you to create connections with data sources that will automatically update key results and initiatives, enabling you to have a single source of truth for progress. For example, if you connect an initiative to Azure DevOps, Viva Goals will automatically update that initiative when relevant progress is made in Azure DevOps.
 
 When you connect to a data source in Viva Goals, your authentication tokens are used to establish a secure connection between Viva Goals and the selected application. Once every hour, Viva Goals utilizes that connection to retrieve updates from the connected data source and reflect those updates in Viva Goals.
 
 > [!NOTE]
-> When you connect to a data source via an integration, data from that integration will flow into Viva Goals from outside of your tenant. Viva Goals utilizes public APIs to retrieve data from third-party integrations. Viva Goals does not share data from your tenant with third parties to support data integrations by default.  
+> When you connect to a data source via an integration, data from that integration will flow into Viva Goals from outside of your tenant. Viva Goals utilizes public APIs to retrieve data from third-party integrations. Viva Goals does not share data from your tenant with third parties to support data integrations by default.
 
 ## How collaboration integrations work  
 
@@ -146,6 +147,6 @@ Collaboration integrations enable users to complete their work in Viva Goals fro
 
 Control over whether Viva Goals is allowed to be installed in the collaboration platform is exercised at the tenant level via administrative tools provided by the platform. For example, the Viva Goals app can be blocked at the tenant level in the Teams Admin Center.
 
-If enabled by the tenant administrator and organizational administrator, users can install Viva Goals as an application from app stores in these collaboration applications, such as the Microsoft Teams store. Once installed, in addition to viewing Viva Goals within the collaboration application, Viva Goals uses the chat, notification and meeting capabilities of the collaboration platform to have conversations about goals.  
+If enabled by the tenant administrator and organizational administrator, users can install Viva Goals as an app within these collaboration applications from an appropriate app store (like the Microsoft Teams store). Once installed, in addition to viewing Viva Goals within the collaboration application, users can filter the collaboration platform's chat, notification, and meeting capabilities back to Viva Goals.
 
-For example, in a Teams chat or channel, a user can search for a goal and ask a question about it. Other users can then respond and react, and Viva Goals can synchronize this comment thread back to the OKR’s activity feed in Viva Goals. This means that data from Viva Goals can be shared to Teams and other collaboration integrations.
+For example, in a Teams chat or channel, a user can search for a goal and ask a question about it. Other users can then respond and react, and Viva Goals can synchronize this comment thread back to the OKR's activity feed in Viva Goals. This means that data from Viva Goals can be shared to Teams and other collaboration integrations.
