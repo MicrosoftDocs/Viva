@@ -5,7 +5,8 @@ description: Explains how to use the Microsoft Copilot Dashboard's advanced feat
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection:
+- viva-insights-personal
 - viva-copilot
 ms.localizationpriority: medium 
 ms.service: viva
