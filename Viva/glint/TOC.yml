@@ -315,7 +315,7 @@ items:
   - name: View results and take action as a Viva Glint admin
     items:
       - name: Viva Glint Do-It-Yourself Insights Review Template
-        href: communicate/diy-presentation-template.md          
+        href: communicate/diy-presentation-template.md          
   - name: View results and take action as a Viva Glint manager
     items:
       - name: Viva Glint's Survey Reports overview
