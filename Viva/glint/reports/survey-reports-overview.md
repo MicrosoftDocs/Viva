@@ -1,9 +1,9 @@
 ---
 title: Viva Glint’s Survey reports overview
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: alerts, comments, driver impact, executive summary, goals overview, heat map, overall results, manager report, response rate, team summary, report access level
@@ -40,23 +40,3 @@ Admins can assign specific reports for distinct roles.
 | Team Summary | Captures employee feedback as an easy-to-use, insightful experience, designed to empower managers to approach feedback with a growth mindset, understand the unique strengths and opportunities that drive team engagement, and to encourage the next steps in sharing results and seeking team input on Focus Areas. | All |
 |Multi-Attribute Export|Admins can deep dive into survey scores and view results of combinations for up to three attributes. The Multi-Attribute Export report is available for both engagement-type surveys and employee lifecycle surveys. | Admins|
 
-## Choose reporting access level
-
-There are two levels of reporting access you can choose for your leaders.
-
-- **Live access**: Reporting access is readily available in real time as surveys are completed. Administrators will always have Live access and can't be included in Phased access rollout.
-- **Phased access**: Recommended for managers and HRBPs (HR Business Partners) for action planning, tracking, and reviewing feedback results for *completed* surveys, excluding this role group from real-time, live survey results. Phased access is configured at the program level but occurs at the cycle level.
-
-  >[!TIP]
-  > Keep survey results classified while the survey is Live, among just a small group of leaders. Incomplete results may lead to unintended and inaccurate conclusions. *Feedback results aren't final until all results have been considered.*
-
-## Change from Live access to Phased access
-
-1. Switch to the **Completed** view and hover over the survey cycle.
-2. Select the content in the **Reporting Access** column in that row.
-3. The **Program Summary** page will display along with Reporting status.
-4. Select **Grant Access**.
-5. In **Grant Report Access**, check the box of the roles you wish to grant access to. Once access is granted, it can't be revoked.
-6. Select **Provide Access**. The message *Visible to All Reporting Roles and Release Completed* confirms the change.
-
-Once the next program cycle begins, and if the last cycle has Phased access, the access will default back to Live.

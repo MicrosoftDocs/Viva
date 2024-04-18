@@ -241,6 +241,9 @@ items:
     items:
       - name: Survey reports overview
         href: reports/survey-reports-overview.md
+        items:
+          - name: Report access levels in Viva Glint
+            href: reports/report-access-levels.md
       - name: Aggregate grouping - trends and best practices
         href: reports/aggregate-trending.md
       - name: Report customization

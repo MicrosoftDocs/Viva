@@ -1,5 +1,5 @@
 ---
-ms.date: 4/10/2024
+ms.date: 4/17/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -34,13 +34,41 @@ Let's dive in to this advanced set of features.
 
 * A Viva Insights license is required to view the app in Teams for leaders, and the analyst tool bench is required for custom reports. Requires Viva Insights, Workplace Analytics and Feedback, or Viva Suite SKUs.
 
-* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
+* At least 10 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
 ### Access and manage user access to the dashboard
 
 *Applies to: Microsoft 365 global admin*
 
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
+
+### Minimum group size
+
+On the adoption and impact pages, you can view the aggregated drilldown metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
+
+## Interpreting the data
+
+*Applies to: Employee users*
+
+### Readiness
+
+>[!Note]
+>Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
+
+Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
+
+### Adoption and impact
+
+The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
+
+:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+
+* 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date.
+
+* 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
+
+>[!Note]
+>Adoption and impact data underneath the filter represents the four complete weeks that ended on the second to last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the second to last Saturday would be March 9, and the dashboard would represent activity between Sunday, February 11 and Saturday, March 9.
 
 ### Select the filters for your analysis in the dashboard
 
@@ -59,36 +87,6 @@ The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to
 The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Organization." If your Insights admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
 
 Your Insights admin needs to upload "FunctionType" Viva attributes for you to view the **Job function** dropdowns. The **Job function** filter will only show up if your Insights admin uploads a .csv file with the organizational data attribute of "FunctionType."
-
-To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
-
-### Minimum group size
-
-To protect individual privacy, you can only view tenant-level aggregated metrics on the readiness page for teams that have at least 25 active employees.
-
-On the adoption and impact pages, you can view the aggregated drilldown metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size).
-
-## Interpreting the data
-
-*Applies to: Employee users*
-
-### Readiness
-
->[!Note]
->Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
-
-Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
-
-The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
-
-:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
-
-* 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date. 
-
-* 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
-
->[!Note]
->Adoption and impact data underneath the filter represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
 
 ### Adoption
 

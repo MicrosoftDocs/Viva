@@ -74,6 +74,8 @@ The following content provides the required steps to edit a live recurring or ad
 | --- | --- | --- |
 | All items in the *Reporting* section | Any section in the *Reporting* section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
 | Benchmark update | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain any user with live access is aware so they aren't confused by results that don't mirror what they may have seen during their last viewing. |
+| Aggregate Indices | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain any user with live access is aware so they aren't confused by results that are different their last viewing. |
+| Driver Impact Outcomes | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain any user with live access is aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ### Communications
 
