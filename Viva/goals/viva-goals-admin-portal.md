@@ -1,6 +1,6 @@
 ---
-ms.date: 03/30/2023
-title: Viva Goals Admin Portal
+ms.date: 04/18/2024
+title: Viva Goals admin portal for IT admins
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -22,33 +22,33 @@ search.appverid:
 description: "Learn how to access the admin portal for Viva Goals"
 ---
 
-# Viva Goals Admin portal for IT admins
+# Viva Goals admin portal for IT admins
 
-Global administrators and Viva Goals administrators can configure the Viva Goals policy settings for the company from the Viva Goals admin portal page.   
+Global administrators and Viva Goals administrators can configure the Viva Goals policy settings for their companies from the Viva Goals admin portal page.
 
 > [!NOTE]
-> To lean more about role and permissions available on Viva Goals, visit [Roles and Permissions in Viva Goals](roles-permissions-in-viva-goals.md)
+> To lean more about the different roles and permissions available on Viva Goals, visit [Roles and permissions in Viva Goals](roles-permissions-in-viva-goals.md)
 
 Settings that are managed from the Viva Goals admin portal include:
 
 - [Configuring who can create organizations](restrict-organization-creation-permissions.md) within Viva Goals
-- [Enabling integrations](vg-integrations-administration-overview.md) applicable for all Viva Goals organizations in the tenant
-- Controlling the URLs that can be embedded in Viva Goals Dashboards. 
+- [Configuring integrations](vg-integrations-administration-overview.md) available for all Viva Goals organizations in the tenant
+- Controlling the URLs that can be embedded in Viva Goals Dashboards
 - Creating new organizations or managing existing organizations
 
-## Accessing Viva Goals Admin Portal
+## Access the Viva Goals admin portal
 
-Only Global administrators or Viva Goals administrators can access the admin portal.
+Only global administrators and Viva Goals administrators can access the admin portal.
 
-Admins can open this admin portal by clicking on the Viva Goals admin portal option in the **Join Organization** page.
+Admins can open this admin portal by selecting **Viva Goals admin portal** on the **Join organization** page. <!--Check this.-->
 
 :::image type="content" source="../media/goals/admin-portal/launching-point.png" alt-text="Screenshot of the launch page for the admin portal." lightbox="../media/goals/admin-portal/launching-point.png":::
 
-If you are already inside the organization, you can access the admin portal by clicking on **Admin > Viva Goals admin portal** from the navigation pane.
+If you are already inside the organization, you can access the admin portal by going to **Admin** > **Viva Goals admin portal** from the navigation pane.
 
 :::image type="content" source="../media/goals/admin-portal/launch-inside-org.png" alt-text="Screenshot of launching the admin portal from Viva Goals." lightbox="../media/goals/admin-portal/launch-inside-org.png":::
 
-If you are on the Viva Goals App for Microsoft Teams, you can access the Viva Goals admin portal from the title bar.
+If you are using the Viva Goals app for Microsoft Teams, you can access the Viva Goals admin portal from the title bar.
 
 :::image type="content" source="../media/goals/admin-portal/teams.png" alt-text="Screenshot of accessing the admin portal from Teams." lightbox="../media/goals/admin-portal/teams.png":::
 
@@ -61,20 +61,20 @@ The admin portal has three sections:
 ### General
 
 - [Configure who can create organizations](restrict-organization-creation-permissions.md)
-- Approve domains that can be embedded in dashboards
+- Approve domains to be embedded in dashboards
 
 ### Integrations
 
 - [Configure integrations](vg-integrations-administration-overview.md) available for all Viva Goals organizations in the tenant
 
-### Managing organizations
+### Manage organizations
 
-As Viva Goals administrators, you can view the list of all organizations from the Organizations Tab. You can click on each record and view the organization information such as the Owner, admins, Join access, numbers of teams and members in the organization etc.  
+As a Viva Goals administrator, you can view the list of all organizations from the **Organizations** tab. Select a record to view the organization information, such as the owner, admins, join access, number of teams, and members in the organization. <!--Check this.-->
 
 :::image type="content" source="../media/goals/admin-portal/organization-page.png" alt-text="Screenshot of the organization tab in the admin portal." lightbox="../media/goals/admin-portal/organization-page.png":::
 
-- As Viva Goals administrators, you can modify the org owner or org admin for any organization from the details pane. For example, to add or remove administrators for the organization click on the admin field in the details pane, search and select the users to be assigned as the org admins. You can also assign multiple admins for the organization. However, only one owner can be assigned for an organization.
+- As a Viva Goals administrator, you can modify the org owner or org admin for any organization from the **Details** pane. For example, to add or remove administrators for an organization, select the **Admin** field in the **Details** pane, then search for and select the users you want to assign as org admins. You can assign multiple admins for an organization, but only one owner can be assigned for an organization.
 
-- As Viva Goals Administrator, you can also choose to assign yourself as an owner or admin should there be a need to directly administrate the org. This provides Viva Goals administrators with complete control to manage any organization.
+- As a Viva Goals administrator, you can assign yourself as an owner or admin should there be a need to directly administrate the org. This gives you copmlete managerial control over an organization.
 
 :::image type="content" source="../media/goals/admin-portal/organization-update-owner.png" alt-text="Screenshot of updating the organization owner." lightbox="../media/goals/admin-portal/organization-update-owner.png":::
