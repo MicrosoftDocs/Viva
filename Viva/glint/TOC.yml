@@ -260,7 +260,7 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export report
            href: reports/multi-attribute-export-report.md
-      - name: Viva Glint manager reports
+      - name: Viva Glint reports for all users
         items:
          - name: Make the most of Viva Glint's reporting features
            href: reports/report-analytics-filtering-favorability-trending.md
@@ -311,15 +311,17 @@ items:
               - name: Team Conversations presentation kit for managers
                 href: reports/coaching-team-conversations.md
           - name: Submit product feedback to Viva Glint
-            href: setup/glint-product-feedback.md           
+            href: setup/glint-product-feedback.md
+  - name: View results and take action as a Viva Glint admin
+    items:
+      - name: Viva Glint Do-It-Yourself Insights Review Template
+        href: communicate/diy-presentation-template.md          
   - name: View results and take action as a Viva Glint manager
     items:
       - name: Viva Glint's Survey Reports overview
         href: reports/survey-reports-overview.md
       - name: Understand and present results
-        items:
-           - name: Viva Glint Do-It-Yourself Insights Review Template
-             href: communicate/diy-presentation-template.md
+        items: 
            - name: Make the most of Viva Glint reporting features
              href: reports/report-analytics-filtering-favorability-trending.md
       - name: Manager Quick Guides
