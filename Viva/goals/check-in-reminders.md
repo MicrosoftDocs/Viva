@@ -39,7 +39,7 @@ In the **Notifications** tab of the **Admin** dashboard, you can set:
 
 - Disable notifications for OKRs that have had check-ins in the past X days (select number of days)
 
-Admins or managers of a team can control whether the subteams reporting to their team can set their own check-in rhythm or should follow the parent team's cadence. They can decide if the cadence they're setting should be cascaded down to the reporting teams, or is confined just to their team. 
+Team owners can control whether the subteams reporting to their team can set their own check-in rhythm or should follow the parent team's cadence. They can decide if the cadence they're setting should be cascaded down to the reporting teams, or is confined just to their team. 
 
 For instance, the Chief of Staff sets a cadence to notify the users belonging to their team every Monday at 9AM PST. They can choose to set the same rhythm across departments such as Marketing, Product, Sales, Engineering, and Customer Success in the organization. Once set, all the users belonging to these teams receive a notification for check-ins every Monday at 9AM PST. 
 
@@ -68,9 +68,9 @@ Let's consider the following scenarios to better understand the usage of these c
 
    :::image type="content" source="../media/goals/teams-same-cadence.png" alt-text="All the subteams follow the same cadence of the parent team." lightbox="../media/goals/teams-same-cadence.png":::
 
-Team Owners and Team Admins can create a custom cadence for reminders for their departments and teams in Admin > Team Settings. These cadences can differ from the organization-level cadence. 
+Team owners can create a custom cadence for reminders for their departments and teams in Admin > Team Settings. These cadences can differ from the organization-level cadence. 
 
-If teams have to follow the parent team's check-in rhythm, the team owners, and/or team admins won't be able to change the schedule. 
+If teams have to follow the parent team's check-in rhythm, the team owners won't be able to change the schedule. 
 
 :::image type="content" source="../media/goals/subteams-match-parent-cadence.png" alt-text="Subteams won't be able to change the schedule if they're configured to follow the parent team's cadence." lightbox="../media/goals/subteams-match-parent-cadence.png":::
 

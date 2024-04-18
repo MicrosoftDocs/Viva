@@ -378,10 +378,6 @@ items:
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey takers
              href: communicate/survey-taker-faq.md
-  - name: Integrate Viva Glint with other Viva apps
-    items:
-      - name: Integrate Viva Glint into Viva Insights
-        href: setup/insights-integration.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads
