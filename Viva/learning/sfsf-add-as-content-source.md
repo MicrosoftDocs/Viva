@@ -88,34 +88,34 @@ There are two major integration stages for which admins require specific permiss
 4. If #Partner1 isn't already used, update the copied Partner configuration from Viva Learning in System Configuration as shown below:
 
     ```console
-        # Partner1
+	# Partner1
 
-        # PartnerID maximum length is 10 characters
+	# PartnerID maximum length is 10 characters
 
-        partners1.partnerID=MVL
+	partners1.partnerID=MVL
 
-        # EncryptionKey is PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK
+	# EncryptionKey is PGP public encryption key, which is the entire section between BEGIN PGP PUBLIC KEY BLOCK and END PGP PUBLIC KEY BLOCK
 
-        partners1.encryptionKey=mQGLBGRU6jQBDACeXchGtcYCSnLDbnj8lygx4teNSArp0JHG4s0cQMNG6xhznrCgKQnfK3VYehddJnsN2mVpxqY4/
-        KgOPDurNgRccPKKzVXZjEt2rC1wrzOv7uM5iUTXkGzUjyJ3vwW0ztPu3eqJg0V6elK/Q9cHEeX+IiTUhBdBX7XbDbW/CRgQ9XZZ0VmbnUhpYsEJuJFfk14a2JpeyZEDIzKfpBi7K6Hd5iPxMOr0Mme/
-        UK4Sy3sh1sQ5ehNBZAKfPP029JCom9smywWCVuvbvdLtoU0Wqm7GMXZslUmxdZjksrEMPa4FYibtogUQmhoijGOhj+jmJCWrrIyVuj0SitFVvYvbeWyD0cCEnnRwjTYG2MdZdq8AOh+QhI4mHB2C+kch4hx3/
-        z1NrWOLVbPa2NbJZK15FHdmI/ERIYD+hVsbXYA6RybJl3KxK/y/EsLRxZp5qjF261+kAinpHF4RWHfX0BdDKI1/ZS6ls9WQ
-        +OH9GI26LMKBrigLNY6yrCXhRQDzBXT19FEABRO0JE1hbGFiaWthIFJveSA8bWFsYWJpa2Fyb3lAZ21haWwuY29tPokBnAQQAQIABgUCZFTqNAAKCRB1hXfnWY5lcLKfC/
-        92uaXsACn91Awp7APofGgH4XNV7KeMPWEZ8Ko3VlexYUJQJBnOBSJfBxCJAQEfDMSgnbS3bfb2NEVr6VBTK3tVEWPSoCSDn/AGgO60SFCcYMy3fz2lL8toc6rbFxfFDHyRmaQKCxIF
-        +2o4aOeRQ9oz1wAarszUNMcAHbGWbHk6j06Flu8flTfhJwqRMPTukPoCQnqXMSroNblov3gg8JCKlbauPeL64Oq7W78qdXjsIsM9gpq0Ly5PrVsSnn0+8a4Z4OYmaKLiZe9rQ
-        +rMSTg6A04Lr24KpzFzZbXVlxZhqsh6xz1UtVQYx7AqO6X+mwjrvWzInW9B5wuqZ3wydklFJmNEBA5VPsRLZiZoXxtI1LmoVFdDDOIEdInfq9TB9kZryO+xuW/xnNfrIyCnfbAARO6Qt9ks7L1mVeA3oE8NaQ3shVI9LVfxh0/
-        Edd2HIi2jjXdJ5DAAuFMV64eaucicHmxQzR5y7YiUZNFmVDgXlTR0fRgYF5s0IUaJKY2mJQ8==k/F5
+	partners1.encryptionKey=mQGLBGRU6jQBDACeXchGtcYCSnLDbnj8lygx4teNSArp0JHG4s0cQMNG6xhznrCgKQnfK3VYehddJnsN2mVpxqY4/
+	KgOPDurNgRccPKKzVXZjEt2rC1wrzOv7uM5iUTXkGzUjyJ3vwW0ztPu3eqJg0V6elK/Q9cHEeX+IiTUhBdBX7XbDbW/CRgQ9XZZ0VmbnUhpYsEJuJFfk14a2JpeyZEDIzKfpBi7K6Hd5iPxMOr0Mme/
+	UK4Sy3sh1sQ5ehNBZAKfPP029JCom9smywWCVuvbvdLtoU0Wqm7GMXZslUmxdZjksrEMPa4FYibtogUQmhoijGOhj+jmJCWrrIyVuj0SitFVvYvbeWyD0cCEnnRwjTYG2MdZdq8AOh+QhI4mHB2C+kch4hx3/
+	z1NrWOLVbPa2NbJZK15FHdmI/ERIYD+hVsbXYA6RybJl3KxK/y/EsLRxZp5qjF261+kAinpHF4RWHfX0BdDKI1/ZS6ls9WQ
+	+OH9GI26LMKBrigLNY6yrCXhRQDzBXT19FEABRO0JE1hbGFiaWthIFJveSA8bWFsYWJpa2Fyb3lAZ21haWwuY29tPokBnAQQAQIABgUCZFTqNAAKCRB1hXfnWY5lcLKfC/
+	92uaXsACn91Awp7APofGgH4XNV7KeMPWEZ8Ko3VlexYUJQJBnOBSJfBxCJAQEfDMSgnbS3bfb2NEVr6VBTK3tVEWPSoCSDn/AGgO60SFCcYMy3fz2lL8toc6rbFxfFDHyRmaQKCxIF
+	+2o4aOeRQ9oz1wAarszUNMcAHbGWbHk6j06Flu8flTfhJwqRMPTukPoCQnqXMSroNblov3gg8JCKlbauPeL64Oq7W78qdXjsIsM9gpq0Ly5PrVsSnn0+8a4Z4OYmaKLiZe9rQ
+	+rMSTg6A04Lr24KpzFzZbXVlxZhqsh6xz1UtVQYx7AqO6X+mwjrvWzInW9B5wuqZ3wydklFJmNEBA5VPsRLZiZoXxtI1LmoVFdDDOIEdInfq9TB9kZryO+xuW/xnNfrIyCnfbAARO6Qt9ks7L1mVeA3oE8NaQ3shVI9LVfxh0/
+	Edd2HIi2jjXdJ5DAAuFMV64eaucicHmxQzR5y7YiUZNFmVDgXlTR0fRgYF5s0IUaJKY2mJQ8==k/F5
 
-        # KeyOwner maps to User-ID of public key
+	# KeyOwner maps to User-ID of public key
 
-        partners1.keyOwner=John Doe<johndoe@contoso.com >
+	partners1.keyOwner=John Doe<johndoe@contoso.com >
 
-        # enabled can be "false" or "true"
+	# enabled can be "false" or "true"
 
-        partners1.enabled=true
+	partners1.enabled=true
 
-> [!NOTE]
-> `partners1.path` and `partners1.email` are optional properties in the SuccessFactors partner extract configuration and these properties can be empty.
+    > [!NOTE]
+    > `partners1.path` and `partners1.email` are optional properties in the SuccessFactors partner extract configuration and these properties can be empty.
 
 5. If #Partner1 is already used, apply the same template format while replacing partner parameter instances with #Partner2, and #Partner3 as applicable.
 
