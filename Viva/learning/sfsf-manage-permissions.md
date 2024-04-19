@@ -20,9 +20,9 @@ description: Configure SAP SuccessFactors permissions for Viva Learning integrat
 
 # Manage permissions for SAP SuccessFactors
 
-You can synchronize permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user won't be able to view, search, or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
+You can synchronize permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user isn't able to view, search, or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
 
-## Pre-requisites for catalog permissions sync
+## Prerequisites for catalog permissions sync
 
 - Viva Suite or Viva Learning license is required to set up SAP SuccessFactors integration with Viva Learning.  
 Any Microsoft 365 subscription that has Exchange Online and SharePoint Online supports groups. That includes the Business Essentials and Business Premium plans, and the Enterprise E1, E3, and E5 plan.
@@ -52,6 +52,6 @@ Once the catalog permissions toggle button is enabled/re-enabled:
 
 - Once the catalog permissions toggle button is disabled,  
 
-    - The permissions data from SF  is deleted in Viva Learning. All the users will now be able to search and view all ingested courses from SAP SuccessFactors in Viva Learning.  
+    - The permissions data from SF  is deleted in Viva Learning. All the users are able to search and view all ingested courses from SAP SuccessFactors in Viva Learning.  
 
     - Re-enabling the catalog permissions would require admins to ensure that all prerequisites are fulfilled as mentioned in the section above.
