@@ -31,7 +31,7 @@ Before we get started, there are a few things you should know:
 
 To populate the report in Power BI, you need to set up, and successfully run the predefined **Skills landscape** query in Viva Insights.
 
-:::image type="content" source="../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
+:::image type="content" source="images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
  
 ## Prerequisites
 Before you can run the queries and populate the report in Power BI, you need to:
@@ -55,7 +55,7 @@ Before you can run the queries and populate the report in Power BI, you need to:
 The **More settings** pane also contains **Group by** settings. This Power BI query is set to **Group by Month**, and you're not able to edit this field.
 
 4.	Under **Predefined template metrics**, there is one preselected metric, which appears as a gray tag. It is required to have at least one collaboration metric to run the query and you can’t remove it. You can add other metrics by selecting **Add metrics**, but these metrics don’t appear in the Power BI report—they just appear in your query results file.
-5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](https://learn.microsoft.com/viva/insights/advanced/analyst/filters) 
+5.	In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. For more details about filter and metric options, refer to [Filters.](../filters.md) 
 
 >[!Important]
 > Only people with valid **Skills in Viva** data and **Viva Insights** licenses are included in this report. The population count in **Employees with Skills in Viva** data shows the number of employees the query will measure. The query won’t run if the population count is zero.
@@ -65,7 +65,8 @@ The **More settings** pane also contains **Group by** settings. This Power BI qu
 >[!Important]
 > This Power BI query needs some specific attributes to run, including some required attributes to indicate employee skills, and we've preselected them for you. These attributes appear in gray and you can't remove them. 
 > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute.
-Learn more about attributes and data quality in [Data quality in the analyst experience.](https://learn.microsoft.com/viva/insights/advanced/analyst/data-quality-analyst-experience)
+Learn more about attributes and data quality in [Data quality in the analyst experience.](../data-quality-analyst-experience.md)
+
 
 7.	Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
 8.	When your query results are ready, go to the **Query results page** and select the **Power BI icon**. Download the Power BI template and get the partition and query identifiers. You need these identifiers later.
@@ -83,7 +84,6 @@ Learn more about attributes and data quality in [Data quality in the analyst exp
 > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
 > :::image type="content" source="../../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
 
-
 ## Report settings
 View and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
 
@@ -97,7 +97,8 @@ View and set the following parameters on the **Settings** page. You can find **S
 ### People included in this report
 
 This figure shows how many people your report is analyzing. When you adjust your filters, you'll notice different numbers here.
-To protect privacy, this report doesn't show groups with fewer than ten people. Learn more about minimum group size in our [setup documentation.](https://learn.microsoft.com/viva/insights/advanced/setup-maint/privacy-settings#minimum-group-size)
+To protect privacy, this report doesn't show groups with fewer than ten people. Learn more about minimum group size in our [setup documentation.](../../setup-maint/privacy-settings.md#minimum-group-size)
+
 
 ## About the report
 The report provides insights about the skills landscape in your organization to help you identify distribution of top skills, connections between skills, and potential skill gaps.
@@ -142,9 +143,10 @@ When people with related skills are included in the distribution, the following 
 Get definitions for key concepts introduced in this report. For more information about Skills in Viva, see [Skills in Viva Overview.](https://support.microsoft.com/office/skills-in-viva-overview-98df33d7-817b-42d2-8a07-eef3bb44e078)
 
 ## Power BI tips, FAQs, and troubleshooting
-For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting.](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/power-bi-faq-troubleshoot)
+For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting.](./power-bi-faq-troubleshoot.md)
 
 ## Related topics
-[Access query results and modify existing queries](https://learn.microsoft.com/viva/insights/advanced/analyst/query-results)
+[Access query results and modify existing queries](../query-results.md)
 
-[Filters](https://learn.microsoft.com/viva/insights/advanced/analyst/filters)
+[Filters](../filters.md)
+
