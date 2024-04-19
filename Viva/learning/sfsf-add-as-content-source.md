@@ -79,7 +79,7 @@ There are two major integration stages for which admins require specific permiss
 
 2. Get the required workflows to edit the PARTNER_EXTRACT configuration located at **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
-   :::image type="content" alt-text="Screenshot of System Configuration meny with option section in PARTNER_EXTRACT." source="../media/learning/sfsf-system-config-partner-extract.png" lightbox="../media/learning/sfsf-system-config-partner-extract.png":::
+   :::image type="content" alt-text="Screenshot of System Configuration menu with option section in PARTNER_EXTRACT." source="../media/learning/sfsf-system-config-partner-extract.png" lightbox="../media/learning/sfsf-system-config-partner-extract.png":::
 
 3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you need the **Edit System Configuration** workflow permission in SuccessFactors.
 
