@@ -1,5 +1,5 @@
 ---
-ms.date: 4/08/2024
+ms.date: 4/17/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -8,6 +8,7 @@ ms.topic: article
 ms.collection: 
 - viva-insights-personal
 - essentials-manage
+- viva-copilot
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
@@ -25,8 +26,6 @@ Copilot for Microsoft 365 works alongside you to unleash your creativity and hel
 The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize the value of Copilot for Microsoft 365. It provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level.
-
-To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
 :::image type="content" source="images/copilot-dash-readiness-ga.png" alt-text="Screenshot that shows the Copilot Dashboard." lightbox="images/copilot-dash-readiness-ga.png":::
 
@@ -194,10 +193,6 @@ No, a Viva Insights subscription is not required. The report's aggregated, tenan
 **Does the report use Viva Insights data to create any of the metrics?**
 
 No, the report does not use any Viva Insights data in the process of computing the metrics shown. The report is based on your Microsoft 365 tenant’s usage and licensing data and is made available to you as part of your Microsoft 365 or Office 365 subscription.
-
-**The values I'm seeing are just "--," with a banner that reads, "Not enough activity data from the past 28 days to show all insights." What's happening?**
-
-To protect individual privacy, you'll only see aggregated insights when there are more than 25 active users, and when the number of Copilot users meets or exceeds the minimum group size set by your organization.
 
 **In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
 

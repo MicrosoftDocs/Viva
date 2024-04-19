@@ -197,7 +197,7 @@ No. Viva Goals does not mine or sell any customer data. All data belongs to the 
 
 #### Can I export all my data?
 
-In Viva Goals, Organization Admins can designate Admins, Team Admins, or a set of specific users who are allowed to export OKR related data, along with their metadata.
+In Viva Goals, Organization Admins can designate Admins, Team Owners, or a set of specific users who are allowed to export OKR related data, along with their metadata.
 
 #### What are Viva Goals’ business continuity features / data recovery?
 

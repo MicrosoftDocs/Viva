@@ -260,28 +260,30 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export report
            href: reports/multi-attribute-export-report.md
-      - name: Viva Glint manager reports
+      - name: Viva Glint reports for all users
         items:
          - name: Make the most of Viva Glint's reporting features
            href: reports/report-analytics-filtering-favorability-trending.md
-         - name: Executive Summary report
+         - name: Executive Summary Report
            href: reports/executive-summary-report.md
            items:
-         - name: Understand the trend graph in an Employee Lifecycle program
-           href: reports/trend-graph-lifecycle-survey.md
-         - name: Driver Impact report
+             - name: Understand the trend graph in an Employee Lifecycle program
+               href: reports/trend-graph-lifecycle-survey.md
+         - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:
              - name: Use Viva Glint to act on Strengths and Opportunities
                href: reports/act-strengths-opportunities.md
+         - name: Heat Map Report
+           href: reports/heat-map.md
          - name: Focus Area Overview report
            href: reports/focus-area-overview-report.md
-         - name: Comments report
+         - name: Comments Report
            href: reports/comments-report.md
            items:
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
-         - name: Response Rate report
+         - name: Response Rate Report
            href: reports/response-rate-report.md
            items:
              - name: Viva Glint's position on expected response rates
@@ -311,15 +313,17 @@ items:
               - name: Team Conversations presentation kit for managers
                 href: reports/coaching-team-conversations.md
           - name: Submit product feedback to Viva Glint
-            href: setup/glint-product-feedback.md           
+            href: setup/glint-product-feedback.md
+  - name: View results and take action as a Viva Glint admin
+    items:
+      - name: Viva Glint Do-It-Yourself Insights Review Template
+        href: communicate/diy-presentation-template.md          
   - name: View results and take action as a Viva Glint manager
     items:
       - name: Viva Glint's Survey Reports overview
         href: reports/survey-reports-overview.md
       - name: Understand and present results
-        items:
-           - name: Viva Glint Do-It-Yourself Insights Review Template
-             href: communicate/diy-presentation-template.md
+        items: 
            - name: Make the most of Viva Glint reporting features
              href: reports/report-analytics-filtering-favorability-trending.md
       - name: Manager Quick Guides
@@ -378,10 +382,6 @@ items:
              href: communicate/support-survey-participants.md
            - name: Viva Glint FAQ template for survey takers
              href: communicate/survey-taker-faq.md
-  - name: Integrate Viva Glint with other Viva apps
-    items:
-      - name: Integrate Viva Glint into Viva Insights
-        href: setup/insights-integration.md
   - name: Troubleshoot
     items:
       - name: Data File Uploads

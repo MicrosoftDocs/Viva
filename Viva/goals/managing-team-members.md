@@ -23,11 +23,11 @@ description: "Learn how to manage users with the members’and team members page
 
 # Members page overview
 
-Viva Goals allows organization owner admins and team owner admins to view and manage members in their organization and/or teams. From these pages, you can view all the groups and individuals that have been added to an organization and/or team. You can also add or remove members (individuals and groups) and assign permissions from these pages. 
+Viva Goals allows organization owners/admins and team owners to view and manage members in their organization and/or teams. From these pages, you can view all the groups and individuals that have been added to an organization and/or team. You can also add or remove members (individuals and groups) and assign permissions from these pages. 
 
 ## Prerequisites and things to note 
 
-[**Role and Permission**](roles-permissions-in-viva-goals.md): This page can be accessed by organization owners, organization admins, team owners, team admins and team members.  
+[**Role and Permission**](roles-permissions-in-viva-goals.md): This page can be accessed by organization owners, organization admins, team owners, and team members.  
 
 **Definitions:**
 
@@ -99,10 +99,8 @@ You can view all members of an organization (individual members and groups) by n
 
 - Select on the more options button next to the user in the search results.  
 
-    - If the user is part of the organization, the more options drop down will list two options: 
+    - If the user is part of the organization, the more options drop down will list two possible options: 
         -  Make admin/remove admin 
-
-        - Make observer/regular user 
 
     - Choose the relevant role for the user. 
 
@@ -182,7 +180,7 @@ You can search for a member who is part of the team from the search bar at the t
 
 - Select on the more options button next to the user in the search results.  
 
-    - If the user is part of the team, the more options drop down will list the option to “Make team admin/remove team admin” 
+    - If the user is part of the team, the more options drop down will list the option to "Make team owner/remove team owner" 
 
     - Choose the relevant role for the user. 
 
@@ -219,7 +217,7 @@ You can search for a member who is part of the team from the search bar at the t
     1. For the individuals and groups that are part of the organization, you'll see the following attributes 
         1. Name & designation 
         1. Email 
-        1. Member type (Regular/observer for individual members, Security/Distribution for groups) 
+        1. Member type (Member for individual members, Security/Distribution for groups) 
         1. Role (Admin, Member for individuals. Groups are listed as Members by default) 
 
 3. **What happens to a member’s OKRs, projects and check-ins when they are deactivated from the organization?**
@@ -236,12 +234,10 @@ You can search for a member who is part of the team from the search bar at the t
 6. **Can I filter users in my organization in any way?**
     1. You can filter users in your organization based on their role and their status in the organization. This filter can be applied to the list of individual users and users who are part of a group.  
 
-7. **How do I remove team owners/admins from the team?**
+7. **How do I remove team owners/ains from the team?**
     1. Team owners can only be removed by the Org owner/admins and other team owners. They have to first reassign the team owner role to another individual before removing the existing team owner. 
-    
-    Team admins can be removed by organization owner/admins and team owners and other team admins. They can remove a team admin by clicking on More options button next to the member and clicking on remove. 
-    
-    When a user is assigned the role of a team owner or a team admin, they start being listed in the individual users' section. Even if an admin removes the group that a team admin belonged to, the team admin doesn't get removed. They have to be removed manually one by one. 
+        
+    When a user is assigned the role of a team owner, they start being listed in the individual users' section. Even if an admin removes the group that a team owner belonged to, the team owner doesn't get removed. They have to be removed manually one by one. 
 
 8. **What are groups in Microsoft Entra ID?**
     1. Microsoft Entra ID provides several ways to manage access to resources, applications, and tasks. With Microsoft Entra groups, you can grant access and permissions to a group of users instead of for each individual user. You can find more information on groups [here](/azure/active-directory/fundamentals/concept-learn-about-groups). 
