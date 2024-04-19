@@ -264,24 +264,26 @@ items:
         items:
          - name: Make the most of Viva Glint's reporting features
            href: reports/report-analytics-filtering-favorability-trending.md
-         - name: Executive Summary report
+         - name: Executive Summary Report
            href: reports/executive-summary-report.md
            items:
-         - name: Understand the trend graph in an Employee Lifecycle program
-           href: reports/trend-graph-lifecycle-survey.md
-         - name: Driver Impact report
+             - name: Understand the trend graph in an Employee Lifecycle program
+               href: reports/trend-graph-lifecycle-survey.md
+         - name: Driver Impact Report
            href: reports/driver-impact-report.md
            items:
              - name: Use Viva Glint to act on Strengths and Opportunities
                href: reports/act-strengths-opportunities.md
+         - name: Heat Map Report
+           href: reports/heat-map.md
          - name: Focus Area Overview report
            href: reports/focus-area-overview-report.md
-         - name: Comments report
+         - name: Comments Report
            href: reports/comments-report.md
            items:
              - name: Interpret the Keyword Cloud
                href: reports/interpret-keyword-cloud.md
-         - name: Response Rate report
+         - name: Response Rate Report
            href: reports/response-rate-report.md
            items:
              - name: Viva Glint's position on expected response rates
