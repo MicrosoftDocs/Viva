@@ -1,4 +1,5 @@
 ---
+ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/18/2024
 title: Skills landscape report
 description: Navigate the skills landscape report in Viva Insights
