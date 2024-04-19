@@ -27,7 +27,7 @@ Document library folder URLs can be collected from any SharePoint site in the or
 > The admin tab is only available for admins with a Viva Suite or Viva Learning license.
 
 > [!NOTE]
-> Only the Microsoft 365 and Mail enabled security group (MESG) group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+> Only the Microsoft 365 and Mail enabled security group (MESG) group type is supported. Viva Learning doesn't support user-based permissions. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
 
 1. Create a group by following the steps in [Create a group in the Microsoft 365 admin center](/microsoft-365/admin/create-groups/create-groups) or [Create mail-enabled security groups](/exchange/recipients/mail-enabled-security-groups).
 

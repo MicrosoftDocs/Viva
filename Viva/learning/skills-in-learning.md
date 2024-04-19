@@ -52,7 +52,7 @@ To ensure users interests selection and associated personalized experience for e
 
 - Any tags manually added to the content prior to the current preview not in en-US are lost. Follow these steps to [retain your current en-US interests as skills](#retain-your-current-interests-as-skills).
 
-- Admins should only select **Allow Skills in Viva Learning** if they're ready to delete existing interest-related content and data in line with the above information. 
+- Admins should only select **Allow Skills in Viva Learning** if they're ready to delete existing interest-related content and data in line with the above information. 
 
 
 #### Retain your current interests as skills
@@ -62,12 +62,12 @@ To ensure any existing interests in en-US are included as skills when your organ
 > [!NOTE] 
 > Skills that are not en_US are lost.
 
-- Export your organization's current interests in Viva Learning by going to the Viva Learning **Admin** tab > Manage interests > Export. Download the file when the export is processed. 
+- Export your organization's current interests in Viva Learning by going to the Viva Learning **Admin** tab > Manage interests > Export. Download the file when the export is processed. 
 
-- Go to **Manage skills library** in the Microsoft 365 admin center and follow these steps to import your organization's existing interests as custom skills. Once the import is complete, you need to allow skills in Viva Learning.
+- Go to **Manage skills library** in the Microsoft 365 admin center and follow these steps to import your organization's existing interests as custom skills. Once the import is complete, you need to allow skills in Viva Learning.
 
   > [!NOTE]
-  > During the data migration, ensure that the external code of interests in Viva Learning is the same for the skills during the custom skills import.
+  > During the data migration, ensure that the external code of interests in Viva Learning is the same for the skills during the custom skills import.
 
 ## Skills in Viva Learning
 

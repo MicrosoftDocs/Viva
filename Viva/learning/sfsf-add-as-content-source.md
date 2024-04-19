@@ -41,9 +41,9 @@ There are two major integration stages for which admins require specific permiss
 ## Onboarding
 
 1. Open the Viva Learning app either in Teams or through the web.
-2. Go to the **Admin** tab in Viva Learning and select **Manage Providers**.
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers**.
 
-3. Select **Add Provider**.  
+3. Select **Add Provider**.  
 
     ![Screenshot of the **Manage providers** dashboard with the list of configured privders and the option to add a provider](../media/learning/sfsf-onboarding-0.png)
 
@@ -205,8 +205,8 @@ The following table lists error codes and messages, when they're displayed, and 
 
 |Error code | Description | Next steps |
 |---|---|---|
-|USR_ERROR_SF_INITIAL_PACKAGE_NOT_FOUND| No new content ingested as the required package wasn't found in the SuccessFactors SFTP server.| Make sure that the SuccessFactors package is available. It may take up to seven working days to generate this package the first time you sync. If you can't find the package, contact your SuccessFactors support team.|
+|USR_ERROR_SF_INITIAL_PACKAGE_NOT_FOUND| No new content ingested as the required package wasn't found in the SuccessFactors SFTP server.| Make sure that the SuccessFactors package is available. It may take up to seven working days to generate this package the first time you sync. If you can't find the package, contact your SuccessFactors support team.|
 |USR_ERROR_SF_DELTA_PACKAGE_NOT_FOUND | No new content was ingested as the required package wasn't found in the SuccessFactors SFTP server. | Make sure that SF package is available in the configured folder path on your SF portal. If you can't find the package, contact your SuccessFactors support team.|
-|USR_ERROR_SF_COMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the compressed package size exceeded 2 GB.|Contact [Microsoft customer support](/viva/learning/help-support#) for more details.|
-|USR_ERROR_SF_UNCOMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the uncompressed package size exceeded 25 GB. |Contact Microsoft customer support for more details.|
+|USR_ERROR_SF_COMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the compressed package size exceeded 2 GB.|Contact [Microsoft customer support](/viva/learning/help-support#) for more details.|
+|USR_ERROR_SF_UNCOMPRESSED_PACKAGE_SIZE_EXCEEDED |No new content was ingested because the uncompressed package size exceeded 25 GB. |Contact Microsoft customer support for more details.|
 |PGP Keypair validation failed |Possible reasons for this failure - Incorrect values entered for fields - SF Public Key, SF Private Key, SF Private Key Pass Phrase. |Navigate to the **SuccessFactors Provider** and select **Edit** under **…** and **Renew Keys**. Copy the Partner configuration and paste it in the SuccessFactors Portal. Save the configuration. Create ticket with the SuccessFactors support team to generate new package|
