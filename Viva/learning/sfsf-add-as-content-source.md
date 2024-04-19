@@ -113,6 +113,7 @@ There are two major integration stages for which admins require specific permiss
 	# enabled can be "false" or "true"
 
 	partners1.enabled=true
+    ```
 
     > [!NOTE]
     > `partners1.path` and `partners1.email` are optional properties in the SuccessFactors partner extract configuration and these properties can be empty.
