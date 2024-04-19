@@ -142,7 +142,7 @@ When people with related skills are included in the distribution, the following 
 * Top skills that are related to the selected skill, based on the distribution in the organization
 
 ### Glossary
-Get definitions for key concepts introduced in this report. For more information about Skills in Viva, see [Skills in Viva Overview.](https://support.microsoft.com/office/skills-in-viva-overview-98df33d7-817b-42d2-8a07-eef3bb44e078)
+Get definitions for key concepts introduced in this report. For more information about Skills in Viva, see [Skills in Viva Overview.](https://support.microsoft.com/office/skills-in-viva-overview-98df33d7-817b-42d2-8a07-eef3bb44e078) 
 
 ## Power BI tips, FAQs, and troubleshooting
 For details about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ, see [Power BI tips, FAQ, and troubleshooting.](./power-bi-faq-troubleshoot.md)
