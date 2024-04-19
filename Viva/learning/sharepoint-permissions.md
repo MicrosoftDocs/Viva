@@ -71,9 +71,9 @@ Document library folder URLs can be collected from any SharePoint site in the or
    - Start typing the group name
    - If it is already present, remove it and add directly or add a different group
 
-   ![Screenshot of the course catalog check permissions window with the option to check the name of the group](../media/learning/sharepoint-permissions-course-catalog-check-1.png)
+   :::image type="content" alt-text="Screenshot of the course catalog check permissions window with the option to check the name of the group" source="../media/learning/sharepoint-permissions-course-catalog-check-1.png" lightbox="../media/learning/sharepoint-permissions-course-catalog-check-1.png":::
 
-   ![Screenshot of the course catalog check permission window with the user and group displayed below.](../media/learning/sharepoint-permissions-course-catalog-check-2.png)
+   :::image type="content" alt-text="Screenshot of the course catalog check permission window with the user and group displayed below." source="../media/learning/sharepoint-permissions-course-catalog-check-2.png" lightbox="../media/learning/sharepoint-permissions-course-catalog-check-2.png":::
 
 ## Remove unintentionally surfaced content
 

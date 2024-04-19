@@ -75,11 +75,11 @@ There are two major integration stages for which admins require specific permiss
 
 1. Enter "Learning Administration" in the search bar on the SAP SuccessFactors portal, and then select the Enter key.
 
-   ![Screenshot of SAP SuccessFactors Portal where you search for Learning Administration.](../media/learning/SFSF-admin-center-page.png)
+   :::image type="content" alt-text="Screenshot of SAP SuccessFactors Portal where you search for Learning Administration." source="../media/learning/SFSF-admin-center-page.png" lightbox="../media/learning/SFSF-admin-center-page.png":::
 
 2. Get the required workflows to edit the PARTNER_EXTRACT configuration located at **System Administration** > **Configuration** > **System Configuration** > **PARTNER_EXTRACT**.
 
-   ![Screenshot of System Configuration meny with option section in PARTNER_EXTRACT.](../media/learning/sfsf-system-config-partner-extract.png)
+   :::image type="content" alt-text="Screenshot of System Configuration meny with option section in PARTNER_EXTRACT." source="../media/learning/sfsf-system-config-partner-extract.png" lightbox="../media/learning/sfsf-system-config-partner-extract.png":::
 
 3. Fill in the following parameters in the PARTNER_EXTRACT configuration. To edit the partner extract configuration in SuccessFactors, you need the **Edit System Configuration** workflow permission in SuccessFactors.
 
