@@ -31,7 +31,8 @@ Before we get started, there are a few things you should know:
 
 To populate the report in Power BI, you need to set up, and successfully run the predefined **Skills landscape** query in Viva Insights.
 
-:::image type="content" source="images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
+:::image type="content" source="../../images/pbi-01.png" alt-text="Screenshot of run analysis to populate report.":::
+
  
 ## Prerequisites
 Before you can run the queries and populate the report in Power BI, you need to:
@@ -82,7 +83,7 @@ Learn more about attributes and data quality in [Data quality in the analyst exp
 1. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.
 > [!IMPORTANT]
 > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
-> :::image type="content" source="../../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
+> :::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab." :::
 
 ## Report settings
 View and set the following parameters on the **Settings** page. You can find **Settings** on the right panel of the introduction page. You can also adjust the report settings as you go through the report pages through the **Settings** icon.
