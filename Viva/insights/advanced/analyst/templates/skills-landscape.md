@@ -114,34 +114,34 @@ This is the total number or percentage of people in your organization who have e
 
 Use the following pages to explore the skills landscape in your organization.
 
-#### Skills overview
+### Skills overview
 This page shows how skills are clustered and connected to each other to help you:
 * Maximize learning and career advancement programs
 * Identify skills distribution based on categories that matter to your organization
 * Better allocate resources by understanding how skills complement each other
 
-### Explore your organization’s top skills
+#### Explore your organization’s top skills
 In this interactive visual, you can explore the distribution of skills in your organization and how they are connected. Start with a category of skills, you can click to see the top skills for that category in the first layer. Selecting one of these skills will then show the skills that roll up into it in the next layer. If computer science is in the first layer, and AI is in the second, this means people who may have the AI skill will also have computer science. This report shows a maximum of five layers.
 
 The connection of skills between layers is based on the parent-child skill relationship powered by Skills in Viva.
 
-### View distribution details
+#### View distribution details
 This chart provides more insight as to whether skills are confirmed or inferred by AI, and whether related skills are included in the data. 
 
 You can search for a skill to filter the distribution details to that skill.
 
-#### Skills distribution
+### Skills distribution
 This page provides insights on how skills are distributed between groups (determined by organizational attributes). You can use these insights to understand the skill profile for a group and identify potential skill gaps.
 Skills are grouped based on the same hierarchy applied in the **Skills overview** page. 
 
-#### Skills breakdown
+### Skills breakdown
 On this page, you can explore the distribution of a selected skill across your organization, and identify gaps where certain skills may be needed.
 
 When people with related skills are included in the distribution, the following insights become available. 
 * Additional population, by breakdown groups, that may have been using at least a skill that’s related to the selected skill
 * Top skills that are related to the selected skill, based on the distribution in the organization
 
-#### Glossary
+### Glossary
 Get definitions for key concepts introduced in this report. For more information about Skills in Viva, see [Skills in Viva Overview.](https://support.microsoft.com/office/skills-in-viva-overview-98df33d7-817b-42d2-8a07-eef3bb44e078)
 
 ## Power BI tips, FAQs, and troubleshooting
