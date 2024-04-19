@@ -91,7 +91,7 @@ The following learning scenarios are available in preview:
 
 1. Personalized learning suggestions on the Viva Learning home page based on a user's role and activities in Microsoft 365. The course suggestions appear in the "based on your recommended skills" section on the Viva Learning home page. 
 
-   :::image type="content" alt-text="Screenshot of the options available under the "based on your recommended skills" section in the home page." source="../media/learning/skills-recommendation.png" lightbox="../media/learning/skills-recommendation.png":::
+   :::image type="content" alt-text="Screenshot of the options available under the 'based on your recommended skills' section in the home page." source="../media/learning/skills-recommendation.png" lightbox="../media/learning/skills-recommendation.png":::
 
 1. Viewing the set of recommended skills suggestions based on their Microsoft 365 activity and role from the "Pick skills you want to learn" modal. 
 
