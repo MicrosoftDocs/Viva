@@ -40,16 +40,6 @@ Heat maps are sorted so that it’s easy to find patterns. The rows at the top t
 
 Select the **Reports** tab on your admin dashboard and then the **Heat Map Report** card. The heat map display defaults to show your team.
 
-## What does the Heat Map Report show?
-
- >[!NOTE]
-> Heat Map results are only available when confidentiality thresholds are met.
-
-Heat maps are sorted so that it’s easy to find patterns. The rows at the top typically tend to have higher scores across the majority of teams, while the columns on the left represent teams with lower scores across the majority of drivers. Heat Maps are interactive and display scores for each question broken down by demographic attributes – (for example: team, location, or tenure). Use Heat maps to quickly and easily spot patterns and outliers.
-
->[!NOTE]
-> Colors indicate high and low scores relative to the median score in the Heat Map.
-
 ## Using the Heat Map Report
 
 Select the **Reports** tab on your admin dashboard and then the **Heat Map Report** card. 
@@ -71,7 +61,7 @@ The colors in the Heat Map allow quick identification of systemic patterns and o
 
 Here's an example of that color coding:
 
-:::image type="content" source="../../media/glint/reports/color-code" alt-text="Screenshot of an example of the Heat Map Report color code key.":::
+:::image type="content" source="../../media/glint/reports/color-code.png" alt-text="Screenshot of an example of the Heat Map Report color code key.":::
 
 ## Changing the view of the Heat Map
 
@@ -93,7 +83,7 @@ In this same window, you can change your internal benchmark comparison:
 - My Teams
 - Average Question
 
-:::image type="content" source="../../media/glint/reports/heat-map-report-settings" alt-text="Screenshot of using the Settings button to open the Report Settings window."lightbox= "../../media/glint/reports/heat-map-report-settings":::
+:::image type="content" source="../../media/glint/reports/heat-map-report-settings.png" alt-text="Screenshot of using the Settings button to open the Report Settings window."lightbox= "../../media/glint/reports/heat-map-report-settings.png":::
 
 ### Changing the view by adding sections or attributes
 
@@ -101,13 +91,13 @@ Heat Maps can be generated for any of the attributes for which you have permissi
 
 Select the **More** button to open dropdown and then choose **Add section**. Within this window you can choose to view survey scores by many score options, by comments, demographic, and more.
 
-:::image type="content" source="../../media/glint/reports/heat-map-add-section" alt-text="Screenshot of using the More button to open the Add Sections window.":::
+:::image type="content" source="../../media/glint/reports/heat-map-add-section.png" alt-text="Screenshot of using the More button to open the Add Sections window.":::
 
 ### Using the Sort option
 
 By selecting the **Sort** arrow you have options to sort the questions alphabetically, by score, or by size.  
 
-:::image type="content" source="../../media/glint/reports/heat-map-sort" alt-text="Screenshot using the Sort dropdown menu.":::
+:::image type="content" source="../../media/glint/reports/heat-map-sort.png" alt-text="Screenshot using the Sort dropdown menu.":::
 
 ## Deep diving into a specific cell
 
@@ -115,15 +105,15 @@ You can select any cell to drill down into that particular key driver within a t
 
 > You want to know why Abbi's team has scored low on Work Life Balance.
 
-:::image type="content" source="../../media/glint/reports/heat-map-cell" alt-text="Screenshot of one cell in a team's key driver row.":::
+:::image type="content" source="../../media/glint/reports/heat-map-cell.png" alt-text="Screenshot of one cell in a team's key driver row.":::
 
 > Hover over the cell to see the comparisons. Here, the score for the Work Life Balance is 72, compared to 78 which is the Company score for this driver.
  
-:::image type="content" source="../../media/glint/reports/heat-map-comparison" alt-text="Screenshot of the comparison scores for a cell.":::
+:::image type="content" source="../../media/glint/reports/heat-map-comparison.png" alt-text="Screenshot of the comparison scores for a cell.":::
 
 > Now, select the cell to open a report to deep dive into all the information around that driver.
 
-:::image type="content" source="../../media/glint/reports/heat-map-deep-dive" alt-text="Screenshot of the Executive Summary of an individual team score for a specific driver."lightbox="../../media/glint/reports/heat-map-deep-dive":::
+:::image type="content" source="../../media/glint/reports/heat-map-deep-dive.png" alt-text="Screenshot of the Executive Summary of an individual team score for a specific driver."lightbox="../../media/glint/reports/heat-map-deep-dive.png":::
 
 Use the larger report to identify hot spots or low scores, outliers, and bright spots or areas to celebrate.
 
@@ -135,7 +125,7 @@ If your organization uses more than 150 columns, a message indicates that the on
 
 Select the **Export and Share** button to open the dropdown menu to choose how you want to export and share your feedback with others.
 
-:::image type="content" source="../../media/glint/reports/heat-map-export-share" alt-text="Screenshot of the Export and Share dropdown menu." lightbox="../../media/glint/reports/heat-map-export-share":::
+:::image type="content" source="../../media/glint/reports/heat-map-export-share.png" alt-text="Screenshot of the Export and Share dropdown menu." lightbox="../../media/glint/reports/heat-map-export-share.png":::
 
 
 
