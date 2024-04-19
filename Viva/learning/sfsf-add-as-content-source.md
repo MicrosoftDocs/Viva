@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/08/2023
+ms.date: 08/03/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -133,7 +133,7 @@ There are two major integration stages for which admins require specific permiss
 
  - **SFTP Host URL**: Navigate to the SAP SuccessFactors portal and select **LMS Admin Application** > **System Administration** > **Configuration** > **System Configuration** > **CONNECTORS**. Get the value of the `connector.ftp.server` property.
 
- - Validate SFTP url, username and password by visiting https://<sftp_url> and logging in using username and password.
+ - Validate SFTP url, username, and password by visiting https://<sftp_url> and logging in using username and password.
 
 - **User Name**: Follow the same steps you followed for the SFTP Host URL. Get the value of the `connector.ftp.userID` property. Ignore the password available in the configuration site.
 
