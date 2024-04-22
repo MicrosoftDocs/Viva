@@ -43,8 +43,7 @@ In addition to evidence of a strong linkage between the People Success Elements 
 
 This terminology helps you understand the Viva People Sciencee methodology for determining survey items:
 
-| **Term** | **Definition** |
-|:---|:---|
-| **Core Drivers (also referred to as Recommended Drivers)** | Items hand-picked by Viva People Science for customer use are included on templates. These items are the strongest predictors of the outcome item(s) in a survey program. We recommend customers to consider these items first when building a survey and to consider them as the best practice “short list.”  |
-| **Other Drivers** | Most Viva Glint programs have “other” drivers, too - items that are strong drivers of engagement that we want customers to be aware of but aren't part of the core/recommended driver selection for that program. |
-![image](https://github.com/MicrosoftDocs/Viva-pr/assets/141166658/1d35b452-b06c-425a-90cf-896cfba3570d)
+|Term |Definition|
+|-----|----------|
+| **Core Drivers (also referred to as Recommended Drivers)** | Items hand-picked by Viva People Science for customer use are included on templates. These items are the strongest predictors of the outcome item(s) in a survey program. We recommend customers to consider these items first when building a survey and to consider them as the best practice “short list.”|
+| **Other Drivers** | Most Viva Glint programs have “other” drivers, too - items that are strong drivers of engagement that we want customers to be aware of but aren't part of the core/recommended driver selection for that program.|
