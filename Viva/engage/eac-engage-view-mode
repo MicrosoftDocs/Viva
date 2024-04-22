@@ -1,0 +1,53 @@
+---
+title: "View-only mode in Viva Engage"
+description: "View-only mode lets you remove create and edit abilities from Viva Engage users as needed."
+ms.reviewer: ethli
+ms.author: v-bvrana
+author: Starshine89
+manager: elizapo
+ms.date: 04/30/2024
+audience: Admin
+f1.keywords:
+- NOCSH
+ms.topic: article
+ms.service: viva
+ms.subservice: viva-engage
+ms.localizationpriority: medium
+ms.collection:  
+- M365initiative-viva
+- highpri
+search.appverid:
+- MET150
+---
+
+# View-only mode in Viva Engage
+
+**View-only mode** lets Engage admins remove a user's ability to create and edit privileges from Viva Engage. Users retain read access
+ to content, receive notifications and digests as usual, and can otherwise stay informed of what's happening in the network. 
+
+
+## User experience in view-only mode 
+
+When a user is in view-only mode, an information banner appears at the top of the Viva Engage experience. 
+Publisher and creation features are disabled for the user. 
+Users can follow others, report conversations, view analytics, receive and manage notifications, and bookmark threads while in view-only mode. 
+
+Users can also consume any announcements or important communications through Engage as well as visit any Engage surface to browse content. 
+
+What a user cannot do while in view-only mode 
+
+Create new posts, comments, or replies in Viva Engage across all surfaces (web, Teams and Outlook apps, mobile apps, SharePoint, and desktop app) 
+
+Edit existing posts, comments or replies in Viva Engage across all surfaces 
+
+Share content between communities or storylines (public or private) 
+Managing users in view-only mode 
+
+Engage or global admins may return to the view-only mode destination in the Engage Admin Center to add or remove the status from selected users. 
+
+There is no set duration for view-only mode. Engage admins may add or remove a user’s view-only mode status at any time. 
+Managing users in view-only mode 
+
+Engage or global admins may return to the view-only mode destination in the Engage Admin Center to add or remove the status from selected users. 
+
+There is no set duration for view-only mode. Engage admins may add or remove a user’s view-only mode status at any time. 
