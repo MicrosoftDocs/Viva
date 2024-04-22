@@ -8,6 +8,7 @@ ms.topic: article
 ms.collection:
 - viva-insights-personal
 - viva-copilot
+- magic-ai-copilot
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
