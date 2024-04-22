@@ -373,7 +373,6 @@ Once you assign a new Copilot license to your employees, it will take up to one 
 The dashboard refreshes with updated data every Tuesday.
 
 **Who is considered a Copilot licensed employee?**
-
 Any employee who has been assigned a Copilot license, including the following service plans:
 
 * Microsoft 365 Copilot in Productivity Apps
