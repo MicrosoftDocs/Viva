@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 11/14/2023
+ms.date: 04/22/2024
 ---
 
 # Viva Glint's Quarterly Engagement Survey template
