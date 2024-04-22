@@ -325,9 +325,9 @@ items:
       - name: Manager Quick Guides
         href: setup/manager-quick-guides-overview.md
         items:
-           - name: Manager Quick Guide: Data confidentiality
+           - name: Manager Quick Guide - Data confidentiality
              href: setup/quick-guide-confidentiality.md
-           - name: Manager Quick Guide: Act on survey results 
+           - name: Manager Quick Guide - Act on survey results 
              href: setup/quick-guide-manager-doc-pitfalls.md
       - name: Address access issues
         href: setup/manager-access-issues.md      
