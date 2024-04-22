@@ -1,6 +1,6 @@
 ---
-ms.date: 11/11/2022
-title: Configure your OKR creation permissions in Viva Goals
+ms.date: 04/18/2024
+title: Organization-level permissions for creating OKRs and initiatives
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -19,94 +19,76 @@ search.appverid:
 - MET150
 description: "Learn how to configure your OKR creation rules in Viva Goals"
 ---
-# Configure OKR create permissions
 
-## Create organizational level permissions for OKRs and Initiatives
+# Organization-level permissions for creating OKRs and initiatives
 
-An administrator can set Create permissions to so the following user types, listed in greater detail below, can create OKRs and initiatives at an organization level and at a team level.   
+Organization owners can set OKR creation permissions at the organization level, and both org owners and team owners can set create permissions at the team level. These permission settings determine which members can create OKRs and initiatives at the org level and at the team level.
 
-Administrators can set permissions so the following users within an organization can create OKRs and initiative. See the FAQ for specific admin types. 
+## Organization-level OKR creation permissions
 
-1. **Anyone in the organization:** This is a good option for smaller organizations with evolving OKR needs.
-1. **Organization admins and organization owners:** Default setting. Restricting OKR creation permissions to only the organization administrators and owners is a safe option as you're able to maintain a structured OKR planning and creation workflow.
-1.	**Specific people (along with organization admins & organization owners):** This option is valuable when you want to have a structured OKR planning & creation workflow and assign to specific people to take ownership of it. 
+Organization owners configure permissions to determine who is allowed to create organization-level OKRs. They can decide to provide this permission to everyone in their org or only to specific people by choosing from the following options in the organization's settings:
 
-> [!NOTE]
-> Organization admins and organization owners will always have access to create organizational OKRs or Initiatives by default. 
+* **Anyone in ORGANIZATION:** This is a good option for smaller organizations with evolving OKR needs.
 
-### Create permissions for an organization
+* **Only team owners:** This is the default setting. Restricting OKR creation permissions to only Team owners is a safe option, as you're able to maintain a structured OKR planning and creation workflow.
 
-1.	Navigate to the organization’s OKRs page.
-1. Select the **Settings** tab that you find at the top of the page.  
-1. Under **Who can create organization OKRs or Initiatives?**, select the preferred option and select **Save**.    
-
-####  Manage “create permissions” for organizations  
-
-Admins can view and revoke access of OKR creation permissions at any time by the  following steps: 
-
-1. Navigate to the organization’s **Settings** tab.  
-1. Select **Manage Access** under **Who can create organization OKRs or Initiatives?** Admins can view all the users who have create permissions access.  
-1. Select **X** to remove the name(s) of the user(s) you want to revoke the access for. 
-1. Select **Save**.  
+* **Specific people (along with org admins & org owner):** This option is valuable when specific people or delegates are tasked with creating and managing OKRs for the organization.
 
 > [!NOTE]
-> By default, for all newly created organizations,  the default permission setting for Create permissions on organizational OKRs/Initiatives would be ‘Organization admins and organization owners’. The default permission setting can be changed, but organization admins and owners will still maintain access. 
+> Organization owners will always have the ability to create organizational OKRs and initiatives, regardless of which of the above options is selected.
 
-## Create permissions for teams 
+## Set or manage OKR creation permissions for an organization
 
-Admins can set Create permissions at the team level to control who can create OKRs and initiatives for the team.  
+1. Navigate to the organization's OKRs page.
 
-Similar to organization-level settings,  admins have three options to choose from:  
+1. Select the **Settings** tab at the top of the page.
 
-1.	**Anyone in the organization:** Choose this option if the organization is small and cross-functional, where every user contributes to every team in the organization.
-1. **Team admins and Team owners:** Restricting OKR creation permissions to only the team administrators and owners is the default option as admins can maintain a structured OKR planning & creation workflow process.
-1.	**Specific people (along with team admins & team owners):** This option helps admins keep a structured OKR planning and creation workflow and assign specific people ownership of the process such as:
-    1. All members of this team (This would give access to all the users who are members of this team) 
-    1. Custom (This option provides you with the capability to search for users within this organization and grant create permissions access to these users) 
+1. Under **Who can create organization OKR or Initiative?**, choose your preferred option and select **Save**.
+
+:::image type="content" alt-text="Screenshot showing the options for organization-level OKR permissions." source="../media/goals/configure-okr-create-permissions/who-can-create-org-okr.png" lightbox="../media/goals/configure-okr-create-permissions/who-can-create-org-okr.png":::
+
+## Team-level OKR creation permissions
+
+Organization owners and team owners can set creation permissions at the team level to control who can create OKRs and initiatives for a specific team. You can learn more about the different types of teams in Viva Goals [here](viva-goals-teams-intro.md).
+
+### Microsoft 365 group-connected teams
+
+If the team is an M365 group-connected team, team owners can choose to provide OKR creation access to either of the following member subsets from the team's settings page.  
+
+* **All team members:** Choose this option if the team is small and cross-functional, where every member of the team needs to create their own OKRs.
+
+* **Only team owners:** Restricting OKR creation permissions to only the team owners is the default option, as team owners can maintain a structured OKR planning and creation workflow process.
+
+### Native teams
+
+For teams created within Viva Goals and not connected to any existing Microsoft 365 groups, team owners have the following options to choose from for OKR creation permissions:
+
+* **Anyone in the organization:** Choose this option if the organization is small and cross-functional, where every user contributes to every team in the organization.
+
+* **Team owners:** Restricting OKR creation permissions to only the team owners is the default option, as owners can maintain a structured OKR planning and creation workflow process.
+
+* **Specific people (along with team owners):** This option helps admins keep a structured OKR planning and creation workflow by choosing specific people to have creation permissions for the team. For example:
+
+  * **All members of this team:** This gives all members of this specific team creation permissions for that team, meaning that members of other teams in the org can't create OKRs for this team.
+
+  * **Custom:** This lets you search for and select specific users anywhere in the organization and grant them the ability to create OKRs for this team.
 
 > [!NOTE]
-> Permission options may be edited, but team admins and Team owners will always have access to create OKRs or Initiatives irrespective of the option selected. Additionally, organization admins and organization owners will maintain access to create OKRs or initiatives for all teams within the organization. 
+> Team owners will always have the ability to create OKRs and initiatives for their own teams, regardless of which of the above options is selected. Additionally, organization owners have the ability to create OKRs and initiatives for all teams within their organizations.
 
-### Establish create permission for a team
+## Set or update OKR creation permissions for a team
 
-1. Navigate to the specific team you want to set the create permissions for.  
-1. Select the **Team settings** tab.
-1. Under **Who can create OKRs or Initiatives for this team?** select the preferred option.
-1. Select **Save**
+1. Navigate to the specific team you want to set creation permissions for.  
 
-> [!NOTE]
-> When a team is created and the parent team has been defined, the sub-team would default to have the parent team’s create permission setting. This setting can be changed by sub-team managers at any time.  
+1. Navigate to the team's settings by selecting the ellipsis (three dots) and choosing **Team settings**.
 
-#### Manage create permissions access for teams 
+    :::image type="content" alt-text="Screenshot showing how to access a team's settings page." source="../media/goals/configure-okr-create-permissions/team-settings.png" lightbox="../media/goals/configure-okr-create-permissions/team-settings.png":::
 
-Once admins have created permissions for specific users, they can view and revoke their permissions at any time by the following steps:  
+1. Open the **Permissions** tab and navigate to the **Who can create OKR or Initiative for this team?** section. Select your preferred option.
 
-1.	Navigate to the team’s **Team settings** tab.  
-1. Select **Manage Access** under **Who can create OKRs or Initiatives for this team?** 
-1. View all the users who have create permissions access. 
-1. Select **X** against the name(s) of the user(s) to revoke the access and save the setting.    
+    :::image type="content" alt-text="Screenshot showing the options for group-connected team-level OKR permissions.." source="../media/goals/configure-okr-create-permissions/who-can-create-team-okr.png" lightbox="../media/goals/configure-okr-create-permissions/who-can-create-team-okr.png":::
+
+1. Select **Save**.
 
 > [!NOTE]
-> By default, for all the newly created organizations the default permission setting for create permissions on team level OKRs or Initiatives would be ‘Team admins and team owners’. This permission setting can be changed later if needed. 
-
-## FAQ (Frequently Asked Questions)
-
-1. **Who can set the create permissions for teams?**
-    1. Organization admins, organization owner, team admins and team owner would be able to set create permissions for a team 
-
-1. **Who can set Create permissions for an organization?**
-    1. Organization owner and organization admin can set create permissions for organizational level OKRs or Initiatives. 
-
-1. **Can admins manage access for users when you select Anyone in the organization?**
-    1. No, you can only manage access for users when you’ve selected the **Specific people(along with team admins & team owners)** option.
-
-1. **What is the default permission setting when an organization is created?**
-    1.   Organizational level OKRs or Initiatives: Only organization admin and organization owner. 
-    1. Team level OKRs or Initiatives: Only team admins and team owners. 
-    1. Both the options can be changed later if needed.
-
-1. **Does create permissions apply for OKRs and Initiatives at a team and organizational level?**
-   1. Yes, create permissions at an organizational level and team level applies to OKRs and Initiatives pertaining to that entity. 
-
-1. **Can organization admins or team admins access to create OKRs be removed?**
-    1. No, these users would always have access to create OKRs. 
+> While the default team-level permission options are as described above, newly created teams with defined parent teams will inherit their parents' permissions as their defaults, even if the parent's permissions are different from the usual defaults.

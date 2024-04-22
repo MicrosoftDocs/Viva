@@ -60,8 +60,6 @@ The **Settings** tab lets you control general settings, such as settings related
 
 - **Who Can Join This Organization** controls who is allowed to join your instance of Viva Goals and view your organization.  
 
-- **Account Type for New Users** controls the default account type for new users. Viva Goals supports two account types: Regular user and observer. For more information on these account types, see our [roles and permissions article](roles-permissions-in-viva-goals.md). Whatever you choose can be changed later.  
-
 - **Invite Policy** controls who can add users to your Viva Goals instance.  
 
 - **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams. Using this permission setting, admins can control the users who can create teams within their organization. There are three options that can be used: 
@@ -93,7 +91,6 @@ As admin, you can use the action menu, marked by three dots, to modify the vario
 - **Edit** lets you view basic information about the employee, such as name and email, and you can assign teams from this view.  
 - **Make Admin** lets you add or remove privileges for a user.  
 - **Delete**  permanently deletes a user from Viva Goals.
-- **Change to Observer** lets you change the type of user to observer or back to a regular user.  
 
 ### Teams
 

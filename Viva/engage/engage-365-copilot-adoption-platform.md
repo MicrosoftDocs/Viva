@@ -2,6 +2,7 @@
 title: "Microsoft 365 Copilot adoption community in Viva Engage"
 f1.keywords:
 - NOCSH
+ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
@@ -16,7 +17,6 @@ search.appverid:
 - MET150
 - MOE150
 - YAE150
-ms.assetid: 
 description: "Viva Engage rolls out a Copilot adoption community to share best practices and answer user questions"
 ---
 
