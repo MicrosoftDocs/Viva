@@ -204,7 +204,7 @@ This granular feature access control allows admins to enable or disable the Dige
 
 * **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email. See the command syntax and example code below for more details.
 
-You can set this policy using the Add-VivaModuleFeaturePolicy cmdlet:
+You can set this policy using the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet:
 
 ```powershell
  ModuleId : VivaInsights
