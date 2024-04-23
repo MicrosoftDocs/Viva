@@ -24,7 +24,7 @@ After all the sections in Program Summary are set up, use the following guidance
 
 ## Approve a program 
 
-When each section of a survey is set up successfully, a blue checkmark displays to the right of the section name on the Program Summary page. These checkmarks indicates that the survey can be approved and enabled. Approving the program takes it out of draft state and displays scheduled survey cycles on the Upcoming and Live section of the page. 
+When each section of a survey is set up successfully, a blue checkmark displays to the right of the section name on the Program Summary page. These checkmarks indicate that the survey can be approved and enabled. Approving the program takes it out of draft state and displays scheduled survey cycles on the Upcoming and Live section of the page. 
 
 After a program is approved, all programs except for Employee Lifecycle and Always-On surveys must be enabled to go Live on the scheduled date. Surveys go into Live status at midnight on the day they're scheduled to go out, in your default time zone. 
 
