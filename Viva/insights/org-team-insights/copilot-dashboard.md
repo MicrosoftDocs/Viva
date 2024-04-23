@@ -129,7 +129,7 @@ This granular feature access control allows admins to enable or disable the auto
 
 * **Default state**: Enabled, meaning that Viva Insights licensed users will be auto-enabled for access to the dashboard based on the identification criteria.
 
-* **Disable or enable**: Admins can disable or enable the dashboard auto-enablement control using VFAM cmdlets. Disabling the control prevents users from getting auto-enabled for access to the dashboard.
+* **Disable or enable**: Admins can disable or enable the dashboard auto-enablement control using Viva feature access management (VFAM) cmdlets. Disabling the control prevents users from getting auto-enabled for access to the dashboard.
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 
@@ -156,7 +156,7 @@ The information in this tab helps you assess your organization’s overall readi
 
 #### Copilot activation progress
 
-The metrics in this section summarize your organization’s progress towards activating Copilot for Microsoft 365 for your users. See detailed definitions in the table below.
+The metrics in this section summarize your organization’s progress towards activating Copilot for Microsoft 365 for your users. See detailed definitions in the table.
 
 | Metric | Definition | More information |
 |----|----|----|
@@ -167,7 +167,7 @@ The metrics in this section summarize your organization’s progress towards act
 
 #### How Copilot can transform your work
 
-This section of the tab summarizes how Copilot can benefit Microsoft 365 users in your organization based on [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities; more will be added over time. Metric definitions are provided in the table below.
+This section of the tab summarizes how Copilot can benefit Microsoft 365 users in your organization based on [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The list displayed on this page does not include all Microsoft 365 apps with Copilot capabilities; more will be added over time. Metric definitions are provided in the table.
 
 | Metric | Definition |
 |---|---|
