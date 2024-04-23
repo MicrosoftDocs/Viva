@@ -52,7 +52,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
-In Viva Insights, the Copilot Dashboard is accessible in the Microsoft Teams and web app. Access controls are managed by Global admins.
+In Viva Insights, the Copilot Dashboard is accessible in the Microsoft Teams and web app. Global admins manage access controls.
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
 
@@ -68,9 +68,9 @@ For those qualifying tenants, only users who meet both of the following criteria
 
 * The user’s in the top three levels in the organization
 * The user has a significant portion of the organization in their reporting line
-* Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) will also have access to the Microsoft Copilot Dashboard
+* Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) also have access to the Microsoft Copilot Dashboard
 
-The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
+The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 Admins can also enable or disable automatic access to the dashboard using PowerShell.
 
@@ -180,7 +180,7 @@ Microsoft 365 admins can use the [Copilot Readiness report](/microsoft-365/admin
 
 ### Adoption
 
-After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 admin center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score).
+After you deploy Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature. Information is consistent with data points displayed in the Microsoft 365 admin center including the [Copilot Usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) and [Microsoft Adoption Score](/microsoft-365/admin/adoption/adoption-score).
 
 All metrics on this page represent aggregations over the past 28 days with a typical delay of 2-3 days. (For example, if you're viewing the report on a Monday, the data shown would represent the 28-day period ending on the most recent Friday or Saturday).
 
