@@ -23,7 +23,7 @@ description: "Learn how to configure and incorporate Copilot in Viva Engage into
 
 Copilot in Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
-### Licensing requirements
+## Licensing requirements
 
 Copilot in Viva Engage and AI-powered Summarization is enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis. Both features are on by default.
 
@@ -32,7 +32,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 >[!NOTE]
 >Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature access.
 
-### Data processing and storage
+## Data processing and storage
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
