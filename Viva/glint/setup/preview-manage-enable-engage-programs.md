@@ -56,7 +56,7 @@ When your survey is approved, you can preview how the survey and email invites a
    > Use the preview survey email to ensure your surveys are received by your employees and do not end up in a spam or junk folder. 
 
 5. Select **Preview Questionnaire**. 
-6. Review the email content and then select **Get Started**.  
+6. Review the email content and then select **Provide Feedback**.  
 
    > [!TIP]
    > Share the preview questionnaire with your team for approval.
