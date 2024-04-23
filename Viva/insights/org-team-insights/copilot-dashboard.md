@@ -54,11 +54,11 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 In Viva Insights, the Copilot Dashboard is accessible in the Microsoft Teams and web app. Access controls are managed by Global admins.
 
-For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on AAD Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
+For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Global admins can disable access at any time.  
 
 **How default-on access is determined**
 
-Users who are senior leaders within large teams as determined by their AAD data manager attribute can automatically view the report. Tenants must meet all of the following criteria to qualify:
+Users who are senior leaders within large teams as determined by their Entra ID data manager attribute can automatically view the report. Tenants must meet all of the following criteria to qualify:
 
 * Most users in the tenant have the Manager ID attribute assigned
 * Most users in the tenant are part of a single reporting line
@@ -80,7 +80,7 @@ To see how many employees have automatic access to the dashboard and to manage t
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
-1. Go to the Settings tab and select **Microsoft Viva**, then **Viva Insights**. You'll need to enter your credentials if you're not already signed in.  
+1. Go to the Settings tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you're not already signed in.  
 
 2. Under **Viva Insights in Microsoft 365**, select **Manage settings for viewing the Copilot dashboard**.  
 
@@ -109,7 +109,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
-You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. Note that no users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
+You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
