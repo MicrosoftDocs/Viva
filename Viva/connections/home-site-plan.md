@@ -10,8 +10,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: medium
 ms.collection:
   - Strat_SP_admin

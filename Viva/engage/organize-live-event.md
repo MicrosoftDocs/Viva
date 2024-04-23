@@ -8,8 +8,7 @@ manager: elizapo
 ms.date: 10/17/2023
 audience: Admin
 ms.topic: overview
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 ms.collection:
