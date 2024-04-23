@@ -213,13 +213,13 @@ Microsoft 365 admins can upload survey results through Adoption Score in the Mic
 
 ### News & research
 
-Under the Learning tab, here you'll find research around the impacts of AI on workplace productivity. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
+Under the Learning tab, here you find research around the impacts of AI on workplace productivity. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
 
 ## FAQs
 
 **Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
 
-No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [additional advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
+No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [other advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
 
 **Does the report use Viva Insights data to create any of the metrics?**
 
