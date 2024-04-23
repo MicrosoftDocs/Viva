@@ -11,7 +11,9 @@ audience: Admin
 ms.topic: article
 ms.service: viva
 ms.subservice: viva-engage
-ms.collection: viva-copilot
+ms.collection: 
+ - viva-copilot
+ - magic-ai-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
