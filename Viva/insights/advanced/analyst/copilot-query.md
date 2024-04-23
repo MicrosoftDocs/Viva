@@ -10,6 +10,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced 
 - viva-copilot
+- magic-ai-copilot
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
