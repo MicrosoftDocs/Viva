@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high pri
-ms.date: 04/28/2023
+ms.date: 04/23/2024
 ---
 
 # Preview, manage, and enable Viva Glint surveys and dashboards
@@ -76,12 +76,7 @@ When your survey is approved, you can preview how the survey, dashboard, and rep
 
 Admins can view how attributes and potential survey responses look in reporting before employees take a survey. This enables familiarization with Viva Glint’s dashboard, understanding of how the manager hierarchy and user attributes appear in different reporting scenarios, and allows you to conduct manager training.  
 
-To preview the dashboard and reporting: 
-
-1. Select the **vertical ellipses** next to the cycle you want to preview.  
-2. Select **Preview**. 
-3. Select **Generate Report Preview**. 
-4. You will receive an email to let you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.  
+To preview the dashboard and reporting: [Preview data in reports](setup/preview-demo-reporting.md).
 
 > [!NOTE]
 > Until you receive your email, ensure that your survey program remains in Approved status. Your report will not generate successfully if your survey program is not Approved. 
