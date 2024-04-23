@@ -9,7 +9,9 @@ ms.date: 03/26/2024
 audience: Admin
 ms.topic: article
 ms.service: viva-engage
-ms.collection: viva-copilot
+ms.collection: 
+ - viva-copilot
+ - magic-ai-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -39,7 +41,7 @@ Viva Engage must be [in Native Mode](overview-native-mode.md) to support feature
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
-| **Data process** | **How it works** |
+| Data process | How it works |
 |---|---|
 |**Message processing and storage for summarization**| **Summarization** starts background processing of Engage threads across the tenant network to support summarization features in Copilot and Network Analytics. These features present summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
 |**Processing of user commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
@@ -61,7 +63,7 @@ You can create feature access policies using the following enablement states.
 >AI Summarization is used by Copilot and Network analytics in Engage. In Copilot, summarization services help with conversation summarization. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
 
 
-|**Engage feature**|**State**|**Description**|
+| Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|Enabled|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
 | | Disabled| Copilot is not available anywhere in Viva Engage|
