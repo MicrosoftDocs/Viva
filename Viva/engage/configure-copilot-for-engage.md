@@ -19,15 +19,15 @@ ms.assetid:
 description: "Learn how to configure and incorporate Copilot in Viva Engage into your organization."
 ---
 
-# Set up Copilot in Engage 
+# Set up Copilot in Viva Engage 
 
-Copilot in Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
+Copilot in Viva Engage is your everyday AI partner, empowering you to communicate in ways that create value for you and your organization. Copilot gives users access to Large Language Model (LLM) technology with [Microsoft Responsible AI protections](https://www.microsoft.com/en-us/ai/responsible-ai). LLM is a type of AI that can process and produce natural language text. Copilot helps users get the most out of Viva Engage by collaborating on written communications and suggesting where to post.
 
-Learn more about Copilot [in this article](/viva/engage/configure-copilot-for-engage#how-to-access-copilot).
+Learn more about Copilot in Viva Engage [in this article](/viva/engage/configure-copilot-for-engage#how-to-access-copilot).
 
 ## Licensing requirements
 
-Copilot in Engage and AI-powered Summarization is enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis. Both features are on by default.
+Copilot in Viva Engage and AI-powered Summarization is enabled for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_). AI Summarization includes AI-powered summarization, theme extraction, and sentiment analysis. Both features are on by default.
 
 For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing). 
 
@@ -59,7 +59,7 @@ Copilot and AI Summarization are controlled separately and can be turned on or o
 
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
-|**Copilot**|**Enabled**|When Copilot is enabled, users can access Copilot in Engage through their home feed, storyline, community feed, and campaign pages.|
+|**Copilot**|**Enabled**|When Copilot is enabled, users can access Copilot in Viva Engage through their home feed, storyline, community feed, and campaign pages.|
 | | Disabled| Copilot isn't available anywhere in Viva Engage|
 |**AI Summarization** |**Enabled**| This state enables background processing for Engage threads within the tenant.|
 | |**Enabled with user opt out**| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
