@@ -22,7 +22,7 @@ ms.date: 04/23/2024
 
 ## Approve your program 
 
-When each section of a Viva Glint Employee Lifecycle survey has been set up successfully, a blue checkmark displays to the right of the section name on the *Program Summary* page. The survey can now be approved and enabled. 
+When each section of a Viva Glint Employee Lifecycle survey is set up successfully, a blue checkmark displays to the right of the section name on the *Program Summary* page. The survey can now be approved and enabled. 
 
 **Procedure** 
 
@@ -35,7 +35,7 @@ Once your program is approved, you can preview the survey to test the user exper
 ### Preview the survey 
 
 1. Hover over the box to the left with the survey name and select the **Preview** option. 
-2. Select the user whose survey you will preview.  
+2. Select a user to generate a survey preview.  
 3. Select **Preview Questionnaire**. 
 4. The introductory page of the program opens in a new tab, in the default language of the selected user.  
 
@@ -50,16 +50,16 @@ Once your program is approved, you can preview the survey to test the user exper
 
 ## Preview a survey invitation for an Employee Lifecycle program 
 
-Preview a survey from an invitation email. Use this preview survey email to ensure surveys will be received by your employees and do not end up in a spam or junk folder. 
+Preview a survey from an invitation email. Use this preview survey email to ensure surveys are received by your employees and do not end up in a spam or junk folder. 
 
 **Procedure** 
 
 1. Use the vertical ellipses next to the survey name to select **Preview**. 
-2. Select the user whose survey you'll preview.  
+2. Select a user to generate a survey preview and email invite.  
 3. Select **Send a sample pulse invite**.  
 4. Select **Preview Questionnaire**. 
 5. Check your email for your survey invite. 
-6. Review the email content and select **Get Started**. The introductory page of the program will open in a new tab, in the default language of the user you're previewing. 
+6. Review the email content and select **Provide Feedback**. The welcome page of the survey opens in a new tab, in the default language of the user you're previewing. 
 
 ## Enable an Employee Lifecycle program 
 
@@ -67,12 +67,13 @@ After a survey is approved, it must be enabled to go Live on the scheduled date.
 
 1. Use the vertical ellipse next to the survey name to **Enable Survey**. 
 2. Select **Enable Survey** (again).  
-3. The **Status indicator** changes to blue. If the survey is Live, the Status indicator will show green. 
+3. The **Status indicator** changes to blue. If the survey is Live, the Status indicator is green. 
 
 ## Employee Lifecycle reports are unique 
 
 Employee Lifecycle reporting behaves differently than that of Viva Glint's recurring programs. [Learn more about using the trend graph in Employee Lifecycle reports](/viva/glint/reports/trend-graph-lifecycle-survey).
-## Additional resource
+
+## Other resources
 
 [Set up Program Summary for Viva Glint Employee Lifecycle Programs](https://www.microsoft.com/).
  
