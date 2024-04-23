@@ -20,11 +20,11 @@ ms.date: 04/23/2024
 
 # Preview, manage, and enable Viva Glint surveys and dashboards
 
-After all the sections in Program Summary have been set up, use the following guidance to approve, preview, edit, and launch your Microsoft Viva Glint program. 
+After all the sections in Program Summary are set up, use the following guidance to approve, preview, edit, and launch your Microsoft Viva Glint program. 
 
 ## Approve a program 
 
-When each section of a survey has been set up successfully, a blue checkmark displays to the right of the section name on the Program Summary page. This indicates that the survey can be approved and enabled. Approving the program takes it out of draft state and displays scheduled survey cycles on the Upcoming and Live section of the page. 
+When each section of a survey is set up successfully, a blue checkmark displays to the right of the section name on the Program Summary page. These checkmarks indicates that the survey can be approved and enabled. Approving the program takes it out of draft state and displays scheduled survey cycles on the Upcoming and Live section of the page. 
 
 After a program is approved, all programs except for Employee Lifecycle and Always-On surveys must be enabled to go Live on the scheduled date. Surveys go into Live status at midnight on the day they're scheduled to go out, in your default time zone. 
 
@@ -40,13 +40,13 @@ To approve a program, change Approved to **YES**.
 
 ## Preview the survey
 
-When your survey is approved, you can preview how the survey, dashboard, and reporting will appear to end users. 
+When your survey is approved, you can preview how the survey and email invites appear to end users. 
 
 ### Procedure
 
 1. Select the **vertical ellipses** next to the cycle to be previewed.  
 2. Select **Preview**. 
-3. Select the user whose survey you'll preview.  
+3. Select a user to generate a survey preview and email invite.  
 4. To preview the survey invitation email, check **Send a sample survey invite to**.
    
     > [!NOTE]
@@ -70,16 +70,16 @@ When your survey is approved, you can preview how the survey, dashboard, and rep
    - Comments are available 
    - Items aren't skippable unless intended
    - Macros appear as values 
-   - Additional language options are available as expected 
+   - More language options are available as expected 
  
 ## Preview the dashboard and reporting permissions 
 
 Admins can view how attributes and potential survey responses look in reporting before employees take a survey. This enables familiarization with Viva Glint’s dashboard, understanding of how the manager hierarchy and user attributes appear in different reporting scenarios, and allows you to conduct manager training.  
 
-To preview the dashboard and reporting: [Preview data in reports](setup/preview-demo-reporting.md).
+To preview the dashboard and reporting: [Preview data in reports](preview-demo-reporting.md).
 
 > [!NOTE]
-> Until you receive your email, ensure that your survey program remains in Approved status. Your report will not generate successfully if your survey program is not Approved. 
+> Dashboard and report previews are only available for Recurring and Ad-doc survey types.
 
 ## Edit a cycle schedule 
 
@@ -106,12 +106,12 @@ Once enabled, surveys go live at midnight on the day they're scheduled to go out
 2. Select **Enable Survey**.  
 3. The **Status indicator** changes to blue. If the survey is Live, the Status indicator shows green. 
 
-Once the program is enabled, the following can't happen: 
+Once the program is enabled and live, the following changes can't be made: 
 
 - Survey name can't be changed 
 - Removing, adding, or editing items or text on a live survey 
 - Adding or editing distribution lists on a live survey  
-- Removing items from the dashboard. 
+- Removing items from the dashboard 
 - Removing comments 
 - Reopening a closed survey 
 
