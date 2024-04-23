@@ -1,11 +1,13 @@
 ---
-ms.date: 4/08/2024
+ms.date: 4/22/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection:
+- viva-insights-personal
+- viva-copilot
 ms.localizationpriority: medium 
 ms.service: viva
 ms.subservice: viva-insights
@@ -24,7 +26,7 @@ But, if you have a [paid Viva Insights subscription](https://www.microsoft.com/m
 With a Viva or a Viva Insights subscription, the dashboard provides the same categories of metrics as the non-subscription dashboard, but the adoption, impact, and sentiment categories provide additional metrics and filters. [There are also new features for analysts to incorporate Copilot metrics into their person queries](#add-copilot-metrics-to-your-custom-person-query).
 
 >[!Note]
->For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a paid Viva or Viva Insights license. And, to protect individual privacy, you’ll only see insights when there are at least 25 employees with a Viva or Viva Insights license.
+>For these new metrics to appear in the dashboard, the employees being analyzed must be assigned a paid Viva or Viva Insights license.
 
 Let's dive in to this advanced set of features.
 
@@ -34,13 +36,44 @@ Let's dive in to this advanced set of features.
 
 * A Viva Insights license is required to view the app in Teams for leaders, and the analyst tool bench is required for custom reports. Requires Viva Insights, Workplace Analytics and Feedback, or Viva Suite SKUs.
 
-* At least 25 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses. To protect individual privacy, you'll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
+* At least 10 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
 ### Access and manage user access to the dashboard
 
 *Applies to: Microsoft 365 global admin*
 
 [Use these steps to access the dashboard and manage user access to the dashboard's metrics](./copilot-dashboard.md#access-the-dashboard-in-viva-insights).
+
+### Minimum group size
+
+On the adoption and impact pages, you can view the aggregated user-level metrics for teams that have at least 25 active employees.
+
+>[!Note]
+>Over the next few weeks, you’ll be able to see user-level aggregated metrics for groups that meet or exceed the [minimum group size set by your Insights admin](../advanced/setup-maint/privacy-settings.md#minimum-group-size), which by default is 10 licensed employees.
+
+## Interpreting the data
+
+*Applies to: Employee users*
+
+### Readiness
+
+>[!Note]
+>Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
+
+Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
+
+### Adoption and impact
+
+The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
+
+:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+
+* 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date.
+
+* 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
+
+>[!Note]
+>Adoption and impact data underneath the filter represents the four complete weeks that ended on the second to last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the second to last Saturday would be March 9, and the dashboard would represent activity between Sunday, February 11 and Saturday, March 9.
 
 ### Select the filters for your analysis in the dashboard
 
@@ -60,35 +93,11 @@ The **Organization** filter corresponds to the Microsoft Entra ID data source fi
 
 Your Insights admin needs to upload "FunctionType" Viva attributes for you to view the **Job function** dropdowns. The **Job function** filter will only show up if your Insights admin uploads a .csv file with the organizational data attribute of "FunctionType."
 
-To protect individual privacy, you can only view aggregated metrics for teams that have at least 25 active employees with a Viva or Viva Insights license.
-
-## Interpreting the data
-
-*Applies to: Employee users*
-
-### Readiness
-
->[!Note]
->Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
-
-Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
-
-The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
-
-:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
-
-* 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date. 
-
-* 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
-
->[!Note]
->Adoption and impact data underneath the filter represents the four complete weeks that ended with the second Saturday before the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the dashboard represents activity between Sunday, February 11 and Saturday, March 9.
-
 ### Adoption
 
 After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature.
 
-The page included with an Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
+The page included with a Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
 
 With a Viva Insights subscription, the page consists of metrics for employees who have a Viva or Viva Insights license. With this version of the dashboard, three main insights are covered.
 
@@ -110,7 +119,7 @@ App totals reflect the total number of adoption metrics in the following Microso
 
 Group totals reflect the sum of groups that are above the minimum group size.  
 
-* Group with less than 25 people won't show up in the breakdown and won’t be included the sum total.
+* Group with less than the minimum group size your Insights admin set won’t be included the sum total.
 
 * When a different “View by” attribute is selected, the Group totals might show different numbers. Because there might be people who don’t report to anyone as detected by Entra, there might be people missing the organizational attributes. [Learn more about uploading organizational data](../advanced/admin/upload-org-data-subsequent.md).
 
@@ -178,8 +187,8 @@ The **Copilot assisted hours** metric is a general estimate that tries to levera
 | Copilot capability | Metric(s) counted | Assistance factor | Source of assistance factor (if applicable) |
 |---|---|---|---|
 | Meeting summaries | Meeting hours summarized by Copilot | The full duration of each meeting summarized is counted towards total assisted hours (e.g. if a user summarizes an hour-long meeting after it has ended, that counts as one assisted hour). | N/A |
-| Search and summaries | Copilot chat queries submitted <br> <br/> Email thread summaries created by Copilot <br> <br/> Document summaries generated by Copilot <br> <br/> Presentations summarized by Copilot <br> <br/> Spreadsheet analyses completed using Copilot <br> <br/> Chat threads summarized by Copilot | 6 minutes per search or summary action  | In a study of 163 knowledge workers, users were able to retrieve information across files, emails, and calendars 6 minutes faster with Copilot versus without Copilot. See study #4 in section 2 of [this blog post](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). |
-| Creation | Email coaching actions using Copilot <br> <br/> Email drafts generated by Copilot <br> <br/> Documents drafted by Copilot <br> <br/> Presentations created using Copilot <br> <br/> Rewrite text actions taken using Copilot <br> <br/> Excel formula calculations completed using Copilot <br> <br/> Excel formatting actions completed using Copilot <br> <br/> Chat messages composed using Copilot | 6 minutes per creation action  | In a study of 147 knowledge workers, people were able to complete a writing task (drafting a blog post) 6 minutes faster with Copilot versus without Copilot. See study #1 in section 2 of [this blog post](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Creation is especially difficult to summarize in a single number, so this number should be in particular understood to be a broad estimate. As research improves, we will adjust our methodology. |
+| Search and summaries | Copilot chat queries submitted <br> <br/> Email thread summaries created by Copilot <br> <br/> Document summaries generated by Copilot <br> <br/> Presentations summarized by Copilot <br> <br/> Spreadsheet analyses completed using Copilot <br> <br/> Chat threads summarized by Copilot | 6 minutes per search or summary action  | In a study of 163 knowledge workers, users were able to retrieve information across files, emails, and calendars 6 minutes faster with Copilot versus without Copilot. See study #4 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). |
+| Creation | Email coaching actions using Copilot <br> <br/> Email drafts generated by Copilot <br> <br/> Documents drafted by Copilot <br> <br/> Presentations created using Copilot <br> <br/> Rewrite text actions taken using Copilot <br> <br/> Excel formula calculations completed using Copilot <br> <br/> Excel formatting actions completed using Copilot <br> <br/> Chat messages composed using Copilot | 6 minutes per creation action  | In a study of 147 knowledge workers, people were able to complete a writing task (drafting a blog post) 6 minutes faster with Copilot versus without Copilot. See study #1 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Creation is especially difficult to summarize in a single number, so this number should be in particular understood to be a broad estimate. As research improves, we will adjust our methodology. |
 
 **Key insights for this page:**
 
@@ -348,13 +357,46 @@ No. Once an admin disables a user, that setting is permanent until the admin ena
 **The values I'm seeing are just "--," with a banner that reads, "It looks like your organization doesn’t use Copilot in Microsoft 365 yet." What's happening?**
 In this scenario, your employees don't have a Copilot license assigned or they haven't used Copilot yet.
 
-**For the Copilot metric reports with filters, the values I'm seeing are just "--," but I see the other data. What’s happening?**
-To protect individual privacy, you’ll only see insights when there are at least 25 active employees with a Viva or Viva Insights license. This is the minimum amount for viewing insights across groups.
-
 **Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
 In this scenario, your Entra data is not reliable.
 
-**How long does it take for the newly assigned license to reflect within the dashboard?**
+**After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
+To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process will take about three to five days. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md#assign-licenses).
+
+**After the dashboard is turned on with the data, if I subsequently assign *new* Viva Insights licenses, how long will it take for the new data to reflect in the dashboard?**
 Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
 
-:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+**If I assign new Copilot licenses to people with existing Viva Insights licenses, when will I see their data in the dashboard?**
+Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
+
+**If I don’t assign any new licenses, when and how often does the dashboard data update?**
+The dashboard refreshes with updated data every Tuesday.
+
+**Who is considered a Copilot licensed employee?**
+Any employee who has been assigned a Copilot license, including the following service plans:
+
+* Microsoft 365 Copilot in Productivity Apps
+* Microsoft 365 Copilot in Microsoft Teams
+* Connectors and Plugins for Microsoft 365 Copilot
+* Business Chat
+* Intelligent Search
+
+**How does data in the Copilot dashboard compare to usage reports in the admin center?**
+Both the Microsoft Copilot dashboard and the admin center usage reports leverage the same underlying data set.
+
+Differences in the data are often caused by one of the following:
+
+* Users must be assigned a Viva Insights license to be measured in the Copilot dashboard. This prerequisite is not required for the admin center report.
+* The time frame for which the analysis is being applied may be different.  
+* Data in the Copilot dashboard is aggregated to meet a minimum privacy threshold.
+
+**How long after enablement can users access the Copilot dashboard?**
+Users can access the dashboard less than 24 hours after being enabled.
+
+**How are the scope, organization, and job function filters determined?**
+
+* Scope: Scope is populated using the "ManagerID" field from Entra ID by default. If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the ManagerID from the uploaded data file is used to populate selections available for “Your group.”
+
+* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Organization" field is used in the dashboard. If the file is not uploaded, the field uses the organization field from Entra ID.
+
+* Job function: If the Insights admin uploads an [organizational data file](../advanced/admin/prepare-org-data.md), the uploaded "FunctionType" field is used in the dashboard. If the file is *not* uploaded, the field is not available as a filter in the dashboard.

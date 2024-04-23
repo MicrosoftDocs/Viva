@@ -31,7 +31,7 @@ The functionalities include:
 - Assign knowledge administrator
 - Pin Learning in Teams
 - Manage availability in Teams admin center
-- Manage additional settings in Viva Learning through the Teams app
+- Manage other settings in Viva Learning through the Teams app
 
 ![Viva learn page](/viva/media/learn-admin.png)
 

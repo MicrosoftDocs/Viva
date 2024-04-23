@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 02/26/2023
+ms.date: 10/24/2023
 audience: admin
 ms.topic: article
 ms.service: viva
@@ -30,7 +30,7 @@ Each learner has a unique attribute called **PERSON_ID_EXTERNAL** in the “PV
 
 Viva Learning synchronizes the associated learner records with the help of **PERSON_ID_EXTERNAL** data and tries to match with the **employeeID** attribute in Microsoft Entra ID.
 
-The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapped learner record information is deduced.  
+The user information from the LMS is only used for user mapping, and doesn't remain in storage. Only mapped learner record information is deduced.  
 
 
 >[!NOTE]
@@ -39,6 +39,8 @@ The user information from the LMS is only used for user mapping, and doesn't
 ## Prerequisite for learner record sync
 
 You'll need to enable inbound user provisioning with SAP SuccessFactors to ensure all users in Microsoft Entra ID have the right employeeID configured. The steps required to enable this integration may vary depending on how your Microsoft Entra tenant is configured.
+
+You need to ensure that employeeID is unique for each user in Microsoft Entra ID. If there are multiple users in Microsoft Entra ID with the same employeeId then the user mapping may match to any of the users with this employeeId. This can result in incorrectly mapped learner record for some users."
 
 Refer to the scenario table below to pick the right integration steps for your setup.
 
@@ -53,6 +55,6 @@ Refer to the scenario table below to pick the right integration steps for your s
 
 ## Steps followed for user sync
 
-After you enable user sync, the EmployeeID is synced with each LMS user synced to Microsoft Entra ID.  
+After you enable user sync, the EmployeeID is synced with each LMS user synced to Microsoft Entra ID.  
 
-Viva Learning receives this EmployeeID in a zip package in an encrypted form, which is used for StudentID matching. As this information can only be decrypted by keys provided by admins, Viva Learning has no way to access this manually. 
+Viva Learning receives this EmployeeID in a zip package in an encrypted form, which is used for StudentID matching. As this information can only be decrypted by keys provided by admins, Viva Learning has no way to access this manually. 

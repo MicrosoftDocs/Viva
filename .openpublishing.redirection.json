@@ -366,6 +366,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/advanced/analyst/query-results-faq.md",
+      "redirect_url": "/viva/insights/advanced/analyst/query-results#faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/org-insights-faqs.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights#faqs",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/use/viva-insights-my-team.md",
       "redirect_url": "/viva/insights/org-team-insights/team-insights",
       "redirect_document_id": false
@@ -1958,7 +1968,7 @@
     {
       "source_path": "viva/experience-role.md",
       "redirect_url": "/viva/microsoft-viva-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "viva/learning/sfsf-enable-inline-playback.md",

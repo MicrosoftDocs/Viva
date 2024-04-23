@@ -44,7 +44,7 @@ Use the [quick guide to set up Viva Connections](set-up-admin-center.md) or get 
 > [!NOTE]
 >
 > - A SharePoint home site is not a requirement for setting up Viva Connections, but some organizations may choose to use a SharePoint home site in addition to Viva Connections to provide a secondary landing experience that’s more focused on organizational content. **[Learn more about SharePoint home sites and how they complement Viva Connections](/viva/connections/viva-connections-overview#how-sharepoint-home-sites-and-viva-connections-work-together)**.
-> - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have an Academic (A) or Enterprise (E) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (A or E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections is not currently supported on tablet devices. Check the **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** for the status of tablet support.
 
 ## Components to Viva Connections
@@ -57,7 +57,6 @@ Viva Connections is composed of three primary components - the dashboard, the fe
 | **Dashboard**                | [The dashboard](create-dashboard.md) is the digital toolset that brings together the resources your users need whether they are on campus, at home, or on the go. The dashboard uses dynamic cards that they can interact with to do things like finding their assessment, their enrolled courses, available internships, accessing training materials, reviewing paystub information, or check and book a shuttle. It can also be used as a [web part on SharePoint home sites](use-dashboard-web-part-on-home-site.md). <br><br> Cards in the Viva Connections dashboard are based on [adaptive cards](https://adaptivecards.io/) and the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview). They provide a low-code solution to bring your line-of-business apps into the dashboard. In addition, Viva Connections desktop combined with SharePoint home sites can also be further customized and extended using [SPFx web parts and extensions](/sharepoint/dev/spfx/viva/overview-viva-connections).  |
 | **Feed**               | The Viva Connections feed delivers updates to the right people at the right time with powerful targeting and scheduling capabilities. It's tightly integrated with Viva Engage, SharePoint news, and Stream to display a personalized feed, based on post-level targeting of the groups that your users belong to. It supports both centralized organizational communication scenarios and democratized news scenarios. It's available in the Viva Connections Teams app and can also be used on SharePoint sites using the  [Viva Connections feed web part](use-feed-web-part-for-viva-connections.md). |
 | **Resources**             | The Viva Connections resources experience enables way finding across popular destinations. It uses navigation elements from the [SharePoint global navigation](sharepoint-app-bar.md) and links can be [audience targeted.](use-audience-targeting-in-viva-connections.md) |
-
 
 ### Viva Connections dashboard
 
@@ -85,7 +84,6 @@ Some cards can also reflect dynamic content that refreshes based on a user actio
 
 The dashboard experience has been designed to be consistent across mobile platform and desktop, but there are some differences:
 
-
 | Element | Mobile | Desktop |
 | :----- | :----- | :----- |
 | **Dashboard** | Displays as the default tab in the Viva Connections app in Teams. | It's prominently displayed in the desktop app and can be added to your SharePoint sites as a [web part](/viva/connections/use-dashboard-web-part-on-home-site). |
@@ -94,7 +92,6 @@ The dashboard experience has been designed to be consistent across mobile platfo
 | **Card order** | Same as in Desktop | Same as in Mobile |
 | **Card reflow** | Same as in Desktop | Same as in Mobile |
 | **How many cards are shown** | All cards without audience targeting plus audience-targeted cards where the viewer is part of the targeted audience. | The number of cards to show can be specified in the Dashboard web part settings, but which cards are shown may vary depending on audience targeting. |
-
 
 ### Dashboard authoring
 
@@ -236,14 +233,12 @@ A tailored experience is one in which content is automatically displayed accordi
 
 - **Resources (curated)**: The list of sites on the resources experience in mobile includes the global navigation defined at the organization level. The global navigation supports Microsoft Entra groups for targeting so that users in different groups will see relevant navigation items.
 
-
 | Capability name | Curated vs. Mobile | Details |
 |-----|-----|-----|
 | **SharePoint home site (optional)** | Curated | Organizations with SharePoint home sites  can control the layout, web parts, and audience targeting of content.|
 | **Dashboard** | Curated | Author selects cards to show and uses Microsoft Entra groups to [target content to specific audiences.](/viva/connections/use-audience-targeting-in-viva-connections) |
 | **Feed** | Tailored | Content is automatically prioritized and displayed based on signals associated with content from SharePoint and [Viva Engage](/viva/engage/overview). |
 | **Resources** | Curated | Target menu items in the global navigation to specific audiences by using Microsoft Entra groups. |
-
 
 ## Branding
 
