@@ -10,8 +10,7 @@ ms.collection:
 - essentials-manage
 - viva-copilot
 ms.localizationpriority: medium 
-ms.service: viva
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: user
 ---

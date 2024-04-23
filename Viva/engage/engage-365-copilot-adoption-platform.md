@@ -9,8 +9,7 @@ manager: elizapo
 ms.date: 04/12/2024
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.collection: viva-copilot
 ms.localizationpriority: medium
 search.appverid:
