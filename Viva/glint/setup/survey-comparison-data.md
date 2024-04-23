@@ -67,7 +67,7 @@ As you begin to survey more frequently, trends and internal comparisons become m
 **For managers, the internal comparison and their own team's past survey scores are better comparisons.**
 
 > [!TIP]
-> Use [Viva Glint's global benchmark offerings and methodology](https://community.glintinc.com/survey-science-55/benchmarks-glint-s-global-benchmark-offerings-and-methodology-1611) for external benchmarking comparisons.
+> Use [Viva Glint's global benchmark offerings and methodology](benchmarks.md) for external benchmarking comparisons.
 
 ### When is the "Total Company" or other internal comparison useful?
 
@@ -75,7 +75,7 @@ Managers are best served by using the internal comparison. This is most often yo
 
 After the first survey, managers should focus on their team's trend (change in scores) over time to see where progress is being made and where opportunities lie.
 
-> [!TIP!]
+> [!TIP]
 > For Employee Lifecycle surveys, internal comparisons highlight the uniqueness of employee experiences by organization, although there are external benchmarks for standard onboarding and exit items.
 
 ### When is the "My Teams" comparison useful?
