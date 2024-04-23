@@ -1,6 +1,5 @@
 ---
-
-ms.date: 03/19/2024
+ms.date: 04/23/2024
 title: Configure personal insights defaults
 description: Configuration options that Microsoft 365 administrators can make for personal insights in Microsoft Viva Insights
 author: zachminers
@@ -14,7 +13,6 @@ ms.collection:
 - viva-insights-personal
 manager: anirudhbajaj
 audience: Admin
-
 ---
 
 # Configure personal insights defaults
@@ -162,7 +160,7 @@ Use PowerShell to configure access for all users in a tenant. For example, you c
 
 |Parameter| Required| Description| Default value|
 |----------|---------|---------|------|
-|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Digest-Welcome email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`<li>`Copilot Dashboard auto enablement`
+|`Feature`| No| <ul><li>`Add-in`<li>`Dashboard`<li>`Digest-email`<li>`Digest-Welcome email`<li>`Meeting-effectiveness-survey`<li>`Schedule-send`
 |`SamplingRate`|No|Value from `0.1` to `0.7`. The sampling rate you specify here is the percentage of meetings that get checked to receive a meeting effectiveness survey. For example, `0.1` indicates 10%.
 
 Also refer to [Parameters: Set-DefaultTenantMyAnalyticsFeatureConfig](/powershell/module/exchange/set-defaulttenantmyanalyticsfeatureconfig#parameters).
@@ -183,52 +181,6 @@ Set-DefaultTenantMyAnalyticsFeatureConfig
 
 The PowerShell command `Set-DefaultTenantMyAnalyticsFeatureConfig` can be used to enable or disable Viva Insights features for all users in the tenant.
 
-##### Enable or disable Viva Insights features
-
-Copilot Dashboard auto-enablement control: This granular feature access control allows admins to enable or disable the auto-enablement feature for the Copilot Dashboard for Viva Insights users in their tenant. 
-
-* **Default state**: Enabled, meaning that Viva Insights licensed users will be auto-enabled for access to the dashboard based on the identification criteria. [Learn more about the criteria](/viva/insights/org-team-insights/copilot-dashboard#manage-user-access-to-the-dashboard-in-viva-insights). 
-
-* **Disable or enable**: Admins can disable or enable the dashboard auto-enablement control using VFAM cmdlets. Disabling the control prevents users from getting auto-enabled for access to the dashboard.
-
-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId  
-
-AutoCxoIdentification -Name DisableAutoCxoIdentificationForAll - 
-
-IsFeatureEnabled $false -Everyone 
-
-* Command syntax – features on or off: 
-
-    ```powershell
-      Set-DefaultTenantMyAnalyticsFeatureConfig -Feature <dashboard/add-in/AutoCxoIdentification/all> -isEnabled <$true/$false>
-    ```
-
-* Example – features on or off:
-Running the following command disables the Copilot Dashboard auto-enablement for all users in the tenant:
-
-    ```powershell
-       Set-DefaultTenantMyAnalyticsFeatureConfig -Feature AutoCxoIdentification -isEnabled $false
-    ```
-
-**Digest Welcome Email control**: This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant. The Digest Welcome Email is automatically sent to employees upon their assignment of a Viva Insights license. You can disable these emails using PowerShell, prior to assigning the employees their license. When you disable the Digest Welcome Email, all future Digest Emails are also disabled. If you want to send the Digest Welcome Email at a later date, remove the employee from the policy or delete the policy.
-
-* **Default state**: Enabled, meaning that users with a Viva Insights license will receive the email a few days (up to four weeks) after license assignment.
-
-* **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email. See the command syntax and example code below for more details.
-
-* Command syntax – Digest Welcome Email on or off: 
-
-    ```powershell
-      Set-DefaultTenantMyAnalyticsFeatureConfig -Feature <dashboard/add-in/digest-welcome email/all> -isEnabled <$true/$false>
-    ```
-
-* Example – features on or off:
-Running the following command disables the Digest Welcome Email for all users in the tenant:
-
-    ```powershell
-       Set-DefaultTenantMyAnalyticsFeatureConfig -Feature digest-welcome email -isEnabled $false
-    ```
-
 ##### Enable or disable features
 
 *Use for the [Mixed deployment](../../personal/setup/deployment-guide.md#mixed-deployment) rollout scenario, as explained in [Personal insights deployment guide](../../personal/setup/deployment-guide.md#choose-a-rollout-scenario)*
@@ -244,6 +196,25 @@ Running the following command disables the Digest Welcome Email for all users in
     ```powershell
     Set-DefaultTenantMyAnalyticsFeatureConfig -Feature opt-in -Feature digest-email -isEnabled $false 
     ```
+
+##### Enable or disable Digest Welcome Emails
+
+This granular feature access control allows admins to enable or disable the Digest Welcome Email for Viva Insights users in their tenant. The Digest Welcome Email is automatically sent to employees upon their assignment of a Viva Insights license. You can disable these emails using PowerShell, prior to assigning the employees their license. When you disable the Digest Welcome Email, all future Digest Emails are also disabled. If you want to send the Digest Welcome Email at a later date, remove the employee from the policy or delete the policy. This policy is for the tenant level only.
+
+* **Default state**: Enabled, meaning that users with a Viva Insights license will receive the email a few days (up to four weeks) after license assignment.
+
+* **Disable or enable**: Admins can disable or enable the Digest Welcome Email control using VFAM cmdlets. Disabling the control prevents users from receiving the email. See the command syntax and example code below for more details.
+
+You can set this policy using the Add-VivaModuleFeaturePolicy cmdlet:
+
+```powershell
+ ModuleId : VivaInsights
+ FeatureId : DigestWelcomeEmail
+ Name : DisableFeatureForAll
+ IsFeatureEnabled : false
+ Everyone
+```
+[Learn more about how to set these policies](/viva/feature-access-management).
 
 #### Confirm access for a tenant
 
