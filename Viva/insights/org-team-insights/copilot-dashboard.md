@@ -9,6 +9,7 @@ ms.collection:
 - viva-insights-personal
 - essentials-manage
 - viva-copilot
+- magic-ai-copilot
 ms.localizationpriority: medium 
 ms.service: viva-insights
 manager: anirudhbajaj
