@@ -89,8 +89,8 @@ Users can access Copilot anywhere they write posts in Engage: the home feed, sto
 
 On the home page, Copilot generates proactive, personalized suggestions about posts the user might want to create.
 
-    >[!NOTE]
-    >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+>[!NOTE]
+>Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
 
 ## Copilot as Viva Engage guide
 
