@@ -40,6 +40,8 @@ The user information from the LMS is only used for user mapping, and doesn't rem
 
 You'll need to enable inbound user provisioning with SAP SuccessFactors to ensure all users in Microsoft Entra ID have the right employeeID configured. The steps required to enable this integration may vary depending on how your Microsoft Entra tenant is configured.
 
+You need to ensure that employeeID is unique for each user in Microsoft Entra ID. If there are multiple users in Microsoft Entra ID with the same employeeId then the user mapping may match to any of the users with this employeeId. This can result in incorrectly mapped learner record for some users."
+
 Refer to the scenario table below to pick the right integration steps for your setup.
 
 | Scenario | Do you have on-premises Active Directory? | Do you have a Microsoft Entra tenant? | Are you using [Microsoft Entra Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) or [Cloud sync](/azure/active-directory/cloud-sync/what-is-cloud-sync) to sync on-premises identities to Microsoft Entra ID? | Are you synchronizing employee data from SAP SuccessFactors to on-premises Active Directory or Microsoft Entra ID? | Recommended integration steps |
