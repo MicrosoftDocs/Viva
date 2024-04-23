@@ -81,10 +81,10 @@ Any item can be edited by hovering over and selecting the row that the item appe
 
 #### Examples of edits that don't retain a valid benchmark comparison
 
-|Example|Standard|Modified|Recommendation|
+| Example | Standard | Modified | Recommendation |
 |-------|--------|-------|-------|
-|**1 - Altering the subject** | *I feel empowered* to make decisions regarding my work.|*My manager empowers me* to make decisions regarding my work.|  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|
-|**2 - Altering the subject** | My manager *provides me with feedback that helps me improve my performance*.|My manager and *I have regular conversations*.| When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|  
+| **1 - Altering the subject** | *I feel empowered* to make decisions regarding my work. | *My manager empowers me* to make decisions regarding my work. |  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
+| **2 - Altering the subject** | My manager *provides me with feedback that helps me improve my performance*. | My manager and *I have regular conversations*. | When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |  
 
 ## View associated programs 
 
