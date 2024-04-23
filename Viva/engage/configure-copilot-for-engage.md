@@ -58,14 +58,14 @@ Copilot and AI Summarization are controlled separately and can be turned on or o
 |**Engage feature**|**State**|**Description**|
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|**Enabled**|When Copilot is enabled, users can access Copilot in Viva Engage through their home feed, storyline, community feed, and campaign pages.|
-| | Disabled| Copilot isn't available anywhere in Viva Engage|
+| |**Disabled**| Copilot isn't available anywhere in Viva Engage|
 |**AI Summarization** |**Enabled**| This state enables background processing for Engage threads within the tenant.|
 | |**Enabled with user opt out**| This state allows users to turn off background processing from their personal analytics page in Viva Engage.|
-| |**Disabled|If you disable AI Summarization, it stops processing the users' Engage threads. If you disable AI Summarization for the tenant and provide no enablement policies for user or group access, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
+| |**Disabled**|If you disable AI Summarization, it stops processing the users' Engage threads. If you disable AI Summarization for the tenant and provide no enablement policies for user or group access, all historic background processing data is deleted retroactively. To avoid deletion of summarization data for all users in the tenant, accompany this setting change with a policy that enables the feature for at least each group.|
 
 #### Example
 
-If an admin needs to  disable Copilot only for users in Germany, they can accomplish that in feature access management using the following steps:
+If an admin needs to  disable Copilot only for users in Germany, they can accomplish that task with the following steps:
 
 1. Create a group access policy in feature access management using PowerShell cmdlets.
 1. Assign the Microsoft 365 group that contains all Germany users to the group policy.  
@@ -75,21 +75,19 @@ If an admin needs to  disable Copilot only for users in Germany, they can accomp
 
 ### Important considerations for feature access management
 
-- There can only be a maximum of one tenant policy per Viva Engage feature. In other words, there can only be one tenant policy for Copilot and only one tenant policy for Summarization.
+- There can be a maximum of one tenant policy per Viva Engage feature. In other words, you can set a single tenant policy for Copilot and a single tenant policy for Summarization.
 
 - Creating a disabled (OFF) tenant policy for Summarization deletes all history data within the tenant.
 
-    To avoid deletion of Summarization data for all users within the tenant, admins should immediately accompany the feature _disable_ (OFF) tenant policy with at least one feature _enable_ (ON) group policy.
+    To avoid deletion of Summarization data for all users within the tenant, admins should immediately accompany a feature _disable_ (OFF) tenant policy with at least one feature _enable_ (ON) group policy.
 
 ## Access Copilot in Viva Engage
 
-Users can access Copilot anywhere they write posts in Engage. On the  home page, Copilot generates proactive suggestions for what they might like to write about and where they might benefit from engaging.
+Users can access Copilot anywhere they write posts in Engage: the home feed, storyline, and community and campaign pages.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-home-start.png" alt-text="Screenshot shows the Open Copilot link on the Viva Engage Home page.":::
 
-- Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
-
-- Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage partnered with experts in employee experience to create a library of research-backed post suggestions. These suggestions encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
+On the home page, Copilot generates proactive, personalized suggestions about posts the user might want to create.
 
     >[!NOTE]
     >Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
@@ -102,16 +100,15 @@ Copilot makes personalized suggestions of what to post on Viva Engage, and where
 
 The Conversation Starters bring together information from across Viva Engage to help people:
 
-- Be an active voice in their Viva Engage communities. Copilot summarizes the community’s purpose and recent trending posts to help people to create posts for the audience.
+- **Be an active voice in their communities.** Copilot summarizes the community’s purpose and recent trending posts to help people to create posts for the audience.
 
-- Participate in Viva Engage campaigns. Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
+- **Participate in Viva Engage campaigns.** Copilot suggests campaigns sponsored by one's leaders and aligned with one’s interests, summarizing the campaign’s purpose and recent posts to help people contribute to these shared initiatives.
 
-- Communicate on storyline in ways that improve culture and productivity for oneself and others. Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
-Copilot AI-generated summaries are only shown to users who have access to the underlying posts.
+- **Communicate on storyline in ways that improve culture and productivity for oneself and others.** Viva Engage has partnered with experts in employee experience to create a library of research-backed post suggestions that encourage best practices like recognizing one’s teammates, sharing one's knowledge or learning goals, and communicating plans for the future.
 
 ## Copilot as communication partner
 
-Copilot also offers collaboration on writing Viva Engage posts. Users can chat with Copilot to access the power and flexibility of Large Language Models with Microsoft Responsible AI protections. Whether a writer is starting from scratch or a draft, Engage Copilot can help draft, edit, give feedback, and more, to create a post that aligns with the user’s goals.
+Copilot offers collaboration on writing Viva Engage posts. Users can chat with Copilot to access the power and flexibility of Large Language Models with Microsoft Responsible AI protections. Whether a writer is starting from scratch or a draft, Engage Copilot can help draft, edit, give feedback, and more, to create a post that aligns with the user’s goals.
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-writing-prompt.png" alt-text="Screenshot shows options you can use to have Copilot write a draft for you." lightbox="/viva/media/engage/admin/copilot-engage-writing-prompt.png":::
 
