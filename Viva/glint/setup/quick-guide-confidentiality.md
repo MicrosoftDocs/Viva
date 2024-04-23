@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva
 ms.subservice: viva-glint
 ms.localizationpriority: high
-ms.date: 12/05/2023
+ms.date: 04/23/2024
 ---
 
 # Manager Quick Guide - Confidentiality
@@ -55,7 +55,16 @@ The chart tells us that:
 > [!NOTE]
 > Dave’s team score, even with two (2) respondents, won't be shown because it still doesn't meet the confidentiality threshold. 
 
+## What to do with small team results
+
+Managers of small teams can feel that survey results don’t provide as much value, especially if they regularly connect with their team. While there is some truth in this, when teams don’t have enough responses to view their results, [Broader Team Insights (BTI)](/viva/glint/reports/broader-team-insights) is helpful in giving a sense for how the larger org is doing - including other voices and feedback.
+
+Managers can have an [ACT Conversation](/viva/glint/reports/take-action-team-conversations) with their team using roll-up (BTI) results. Throughout the Acknowledge part of an ACT conversation, the manager should talk to the team about which results might be pertinent to their smaller team.
+
+If BTI isn't enabled for managers, leaders of small teams can still hold ACT Conversation to discuss where the larger organization's results do and don't reflect their smaller group experience and what action the team can commit to in order to make improvements.
+
 ## More Resources
+
 Refer to the following pages for additional guidance:
 >**Microsoft Learn Documentation** 
 - [How Viva Glint helps you protect your data privacy](viva-glint-survey-privacy.md)
