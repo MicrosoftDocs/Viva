@@ -70,7 +70,7 @@ For those qualifying tenants, only users who meet both of the following criteria
 * The user has a significant portion of the organization in their reporting line
 * Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) will also have access to the Microsoft Copilot Dashboard
 
-The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria will gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
+The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they will not be added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 Admins can also enable or disable automatic access to the dashboard using PowerShell.
 
@@ -109,7 +109,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
-You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. Note that no users will be able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you’ll need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
+You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. Note that no users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
