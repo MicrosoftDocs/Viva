@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/19/2024
+ms.date: 04/24/2024
 ---
 
 # Key roles for Viva Glint
 
 Assigning roles for Viva Glint leadership is among the first tasks for the Microsoft 365 global admin. Using consistent terminology for Viva Glint roles helps support your Viva Glint programs.
 
-## Microsoft M365 global admin
+## Microsoft 365 global admin
 
 - Represents your organization, initiates, and controls Viva Glint product subscriptions and licenses
 - Can access all data
