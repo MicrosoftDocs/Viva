@@ -28,7 +28,7 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## Implementing Viva Glint survey programs helps your organization by
+**Implementing Viva Glint survey programs helps your organization by**
 
 - Increasing employee engagement, resulting in overall business improvement.
 - Providing fast, focused people insights.
@@ -36,11 +36,11 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 - Predicting opportunities and risks.
 - Translating insights into action and tracking feedback progress.
 
-## New to Viva Glint? Get started
+**New to Viva Glint? Get started setting up your instance**
 > [!div class="nextstepaction"]
 > [Get started with Viva Glint](../../viva/glint/start/brochure-summary.md)
 
-## Ready to set up a program? Start here
+**Ready to set up a program? Find programs and survey design here**
 > [!div class="nextstepaction"]
 > [Set up a survey](https://go.microsoft.com/fwlink/?linkid=2268788)
 
