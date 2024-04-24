@@ -28,9 +28,7 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## Viva Glint improves the overall health of your organization
-
-Implementing recurring and ad-hoc survey programs helps your organization by
+## Implementing Viva Glint survey programs helps your organization by
 
 - Increasing employee engagement, resulting in overall business improvement.
 - Providing fast, focused people insights.
@@ -44,7 +42,7 @@ Implementing recurring and ad-hoc survey programs helps your organization by
 
 ## Ready to set up a program? Start here
 > [!div class="nextstepaction"]
-> [Set up a survey](https://go.microsoft.com/fwlink/?linkid=2268788))
+> [Set up a survey](https://go.microsoft.com/fwlink/?linkid=2268788)
 
       
      
