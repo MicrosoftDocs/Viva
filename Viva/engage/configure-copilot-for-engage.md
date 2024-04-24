@@ -25,7 +25,7 @@ Copilot in Viva Engage is your everyday AI partner, empowering you to communicat
 
 ## Licensing requirements
 
-Copilot in Viva Engage is enabled by default for all Viva Engage users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_).
+Copilot in Viva Engage is enabled by default for all users assigned a premium Viva Engage license (purchased as part of _Microsoft Viva Suite_ or _Microsoft Viva Employee Communications and Communities_).
 AI Summarization (which includes AI-powered summarization, theme extraction, and sentiment analysis) is enabled for all users in the tenant, regardless of license.
 
 For details on Microsoft Viva plans and pricing, visit the [Employee Experience Platform Plans and Pricing page](https://www.microsoft.com/microsoft-viva/pricing).
