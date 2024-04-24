@@ -244,14 +244,12 @@ items:
       - name: Survey reports overview
         href: reports/survey-reports-overview.md
         items:
-          - name: Report access levels
-            href: reports/report-access-levels.md
-      - name: Aggregate trend
-        href: reports/aggregate-trending.md
-      - name: Report customization
-        href: reports/report-customization.md
-      - name: Confidentiality and suppression
-        href: reports/confidentiality-suppression-reports.md     
+          - name: Aggregate trend
+            href: reports/aggregate-trending.md
+          - name: Report customization
+            href: reports/report-customization.md
+          - name: Confidentiality and suppression
+            href: reports/confidentiality-suppression-reports.md     
       - name: Admin reports
         items:
          - name: Response Rates & Access report 
