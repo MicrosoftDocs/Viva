@@ -1,6 +1,7 @@
 ---
 title: "View-only mode in Viva Engage"
 description: "View-only mode lets you remove create and edit abilities from Viva Engage users as needed."
+ROBOTS: NOINDEX, NOFOLLOW 
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -26,11 +27,11 @@ search.appverid:
 
 [[Viva Preview guidelines:
 
-- Content should be hidden from search until GA
-- Content should NOT be added to the TOC until GA
+- Content should be hidden from search until GA - DONE
+- Content should NOT be added to the TOC until GA - DONE
 - All Public and Preview content published to LMC or SMC needs the preview alert - DONE
-- If available, add a link to public preview info such as announcement or blog
-- This disclaimer can include additional information as needed, such as whether it is available in English only.]]
+- If available, add a link to public preview info such as announcement or blog - [SPENCER?]
+- This disclaimer can include additional information as needed, such as whether it is available in English only.[SPENCER?]]]
 
 
 ## User experience in view-only mode
