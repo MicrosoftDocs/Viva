@@ -17,39 +17,34 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/23/2024
+ms.date: 04/24/2024
 ---
 
 # Introduction to Microsoft Viva Glint
 
-Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. 
-
-Viva Glint knows that ongoing, frequent surveying to collect employee feedback is essential to an organization's success. Viva Glint offers engagement, lifecycle, and other survey programs as a way to collect targeted, rich insights from your people. These insights translate into actionable opportunities to improve business.
+Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization by measuring employee engagement and guiding feedback action. 
 
 **Watch this video for a quick introduction to Viva Glint**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-### [Understand how Viva People Science methodology is the foundation for Viva Glint](https://go.microsoft.com/fwlink/?linkid=2240415)
+## Viva Glint improves the overall health of your organization
 
-The Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. These integrations allow reimagination of the many Viva apps, including Viva Glint, to deliver exceptional and impactful experiences in the workplace.
+Implementing recurring and ad-hoc survey programs helps your organization by
 
-[Read Viva People Science blogs in the Viva Glint community](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/bg-p/MicrosoftVivaBlog)
+- Increasing employee engagement, resulting in overall business improvement.
+- Providing fast, focused people insights.
+- Encouraging collaboration within teams and throughout your organization.
+- Predicting opportunities and risks.
+- Translating insights into action and tracking feedback progress.
 
-### How does Viva Glint improve the overall health of your organization?
-
-Implementing recurring and ad-hoc survey programs helps your organization 
-
-- increase employee engagement, resulting in overall business improvement.
-- receive fast, focused people insights.
-- collaborate within teams and throughout your organization with continuous conversations.
-- predict opportunities and risks.
-- review data driven feedback to study employee success drivers.
-- translate insights into action and track feedback progress.
-
-### Get started
+## New to Viva Glint? Get started
 > [!div class="nextstepaction"]
 > [Get started with Viva Glint](../../viva/glint/start/brochure-summary.md)
+
+## Ready to set up a program? Start here
+> [!div class="nextstepaction"]
+> [Set up a survey](https://go.microsoft.com/fwlink/?linkid=2268788))
 
       
      
