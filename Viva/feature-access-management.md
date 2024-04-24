@@ -4,13 +4,12 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 04/10/2024
+ms.date: 04/18/2024
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
@@ -40,7 +39,8 @@ An authorized admin (for example, a global admin) in your tenant can create, ass
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-> Only some features will have controls available for admins to provide users with the option to opt out.
+> - For information on the impact of policies on your tenant or the users in your tenant, refer to the feature documentation by using the link in the table. 
+> - Only some features have the controls available for admins to provide users with the option to opt out.
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|

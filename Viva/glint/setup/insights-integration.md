@@ -12,10 +12,10 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/03/2024
+ms.date: 04/18/2024
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Integrate Viva Glint into Viva Insights

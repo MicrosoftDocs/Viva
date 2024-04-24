@@ -4,14 +4,13 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: shirana
-ms.date: 11/02/2021
+ms.date: 01/08/2024
 audience: admin
 ms.topic: article
 ms.custom: 
 - intro-overview
 - intro-get-started
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -28,7 +27,7 @@ description: Learn about Microsoft Viva Learning in your Microsoft 365 environme
 
 Viva Learning is a centralized learning hub in Microsoft Teams that lets you seamlessly integrate learning and building skills into your day. In Viva Learning, your team can discover, share, recommend, and learn from content libraries provided by both your organization and partners. They can do all of this without leaving Microsoft Teams.
 
-   ![Screenshot of the Viva Learning homepage in Teams.](../media/learning/overview-1.png)
+   :::image type="content" alt-text="Screenshot of the Viva Learning homepage in Teams." source="../media/learning/overview-1.png" lightbox="../media/learning/overview-1.png":::
 
 Viva Learning makes it easy to create learning and growing opportunities for your organization without the need to step away from the communication tools you already use.
 

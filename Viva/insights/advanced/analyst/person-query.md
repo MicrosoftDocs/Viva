@@ -2,11 +2,14 @@
 ms.date: 04/08/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
-author: lrolason
+author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
+ms.collection: 
+- viva-insights-advanced 
+- viva-copilot
+- magic-ai-copilot
 ms.service: viva 
 ms.subservice: viva-insights 
 search.appverid: 
@@ -108,7 +111,7 @@ Under **Query setup**:
     | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint.  | 10/15/2023 |
     | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams.  | 10/15/2023 |
     | Copilot actions taken in Word  | The number of Copilot actions completed by active Copilot users in Word.  | 10/15/2023 |
-    | Copilot active days in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
+    | Days of active Copilot usage in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
     | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop.  | 10/15/2023 |
     |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
     |  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
@@ -121,6 +124,9 @@ Under **Query setup**:
     | Copilot enabled days for productivity apps  | The number of days the user had a Microsoft Copilot apps service plan enabled.  | 10/15/2023 |
     | Copilot enabled days for Intelligent Search | The number of days the user had an Intelligent search service plan enabled.  | 10/15/2023 |
     | Copilot enabled days for Teams  | The number of days the user had a Microsoft Copilot Teams service plan enabled.  | 10/15/2023 |
+    | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
+    | Total Copilot enabled days  | The number of days the user had at least one service plan for Microsoft Copilot enabled.  | 10/15/2023 |
+
 
 #### About metrics
 

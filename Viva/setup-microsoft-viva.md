@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:
   - M365-collaboration

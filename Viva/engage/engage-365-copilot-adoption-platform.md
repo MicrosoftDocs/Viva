@@ -9,9 +9,10 @@ manager: elizapo
 ms.date: 04/12/2024
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
-ms.collection: viva-copilot
+ms.service: viva-engage
+ms.collection: 
+ - viva-copilot
+ - magic-ai-copilot
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -74,7 +75,7 @@ To help the community grow, upskill, and share knowledge, the Copilot adoption c
 
 To access these community features, admins and users must have either a Viva Suite license or a Communications & Communities license.
 
-|**Role**|**Features**|
+| Role | Features |
 |--------|------------|
 |Network admins|<ul><li>Home feed banner for setup</li><li>Network admin settings page banner</li><li>Community creation flow</li></ul>|
 |Corporate communicators|<ul><li>Home feed banner for setup</li><li>Community creation flow</li></ul>|
