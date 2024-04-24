@@ -36,13 +36,9 @@ Microsoft Viva Glint is a people-driven platform that provides visibility into t
 - Predicting opportunities and risks.
 - Translating insights into action and tracking feedback progress.
 
-**New to Viva Glint? Get started setting up your instance**
-> [!div class="nextstepaction"]
-> [Get started with Viva Glint](../../viva/glint/start/brochure-summary.md)
+**New to Viva Glint?** **[Get started setting up your instance](../../viva/glint/start/brochure-summary.md)**
 
-**Ready to set up a program? Find programs and survey design here**
-> [!div class="nextstepaction"]
-> [Set up a survey](https://go.microsoft.com/fwlink/?linkid=2268788)
+**Ready to set up a program?** **[Find programs and survey design tips](https://go.microsoft.com/fwlink/?linkid=2268788)**
 
       
      
