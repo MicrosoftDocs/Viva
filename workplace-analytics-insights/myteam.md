@@ -7,11 +7,10 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
 
-ms.subservice: viva-insights
 ---
 
 # My team in Viva Insights
