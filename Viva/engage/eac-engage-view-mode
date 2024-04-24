@@ -10,8 +10,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection:  
 - M365initiative-viva
@@ -22,27 +21,39 @@ search.appverid:
 
 # View-only mode in Viva Engage
 
-When a user is in view-only mode, an information banner appears at the top of the Viva Engage experience. Publisher and creation features are disabled for the user. 
-Users can follow others, report conversations, view analytics, receive and manage notifications, and bookmark threads while in view-only mode. 
+>[!IMPORTANT]
+>Viva Engage view-only mode [[<=Is it "mode" or "status"? These are used interchangeably in this document. How is this feature being branded?]] is currently available only for [private/public] preview customers.  The features described here are subject to change. 
+
+[[Viva Preview guidelines:
+
+- Content should be hidden from search until GA
+- Content should NOT be added to the TOC until GA
+- All Public and Preview content published to LMC or SMC needs the preview alert - DONE
+- If available, add a link to public preview info such as announcement or blog
+- This disclaimer can include additional information as needed, such as whether it is available in English only.]]
+
 
 ## User experience in view-only mode
 
-Users can also consume any announcements or important communications through Engage as well as visit any Engage surface to browse content. 
+In view-only mode, an information banner appears at the top of the Viva Engage experience. Publisher and creation features are disabled for the user. Users assigned to view-only mode can continue to follow others, receive and manage notifications, view analytics, report conversations, and bookmark threads. Users can also view announcements and browse content in any Viva Engage app (desktop, web, mobile, Teams, Outlook or SharePoint).
 
-### What a user cannot do while in view-only mode 
+## Limitations of view-only mode
 
-Create new posts, comments, or replies in Viva Engage across all surfaces (web, Teams and Outlook apps, mobile apps, SharePoint, and desktop app) 
+The following features are no longer available to users in view-only mode.
 
-Edit existing posts, comments or replies in Viva Engage across all surfaces 
+- New post creation, commenting or replying to posts anywhere in Viva Engage
 
-Share content between communities or storylines (public or private) 
-Managing users in view-only mode 
+- Edit existing posts, comments or replies in Viva Engage across all surfaces
 
-Engage or global admins may return to the view-only mode destination in the Engage Admin Center to add or remove the status from selected users. 
+- Share content between communities or storylines (public or private)
 
-There is no set duration for view-only mode. Engage admins may add or remove a user’s view-only mode status at any time. 
-Managing users in view-only mode 
+## Manage users in view-only mode
 
-Engage or global admins may return to the view-only mode destination in the Engage Admin Center to add or remove the status from selected users. 
+Microsoft 365 Global admins and admins control View-only mode from the Engage admin center. [[How does it work? => "This control works by assigning specific users to view-only status. Once assigned, a user remains in view-only mode until changed at the admin's discretion. Engage admins can add or remove a user’s view-only mode status at any time."]]
 
-There is no set duration for view-only mode. Engage admins may add or remove a user’s view-only mode status at any time. 
+To control view only mode:
+
+- Go to the Viva Engage admin center.
+- [[steps here]] 
+- To add the status for a user
+- To remove the status for a user
