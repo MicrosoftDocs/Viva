@@ -998,5 +998,4 @@
 	{   "source_path": "viva/glint/reports/report-access-levels.md"
 	    "redirect_url": "/viva/glint/setup/live-versus-phased-access".
 	    "redirect_document_id": false
-    ]
-}
+	}
