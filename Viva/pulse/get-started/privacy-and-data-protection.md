@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.date: 06/19/2023
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-pulse
+ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection:
 - essentials-privacy
