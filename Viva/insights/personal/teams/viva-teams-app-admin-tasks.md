@@ -9,8 +9,7 @@ ms.collection:
 - viva-insights-manager
 - viva-insights-leader
 ms.localizationpriority: medium 
-ms.service: viva
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 
