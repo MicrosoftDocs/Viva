@@ -30,7 +30,7 @@ In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=22
 optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page?view=o365-worldwide&source=recommendations)
+- [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
 
 Both items are **optional steps** that your organization can take to further customize the survey communication experience for your survey participants.
 
@@ -69,7 +69,7 @@ Any edits made to email text in English need to be made to all other survey lang
 > [!NOTE]
 > This feature is planned to be available after May 4, 2024.
 
-Use this [translation guidance](language-translations.md) to import updated translations for emails after modifying English text.
+Use this [translation guidance](/viva/glint/setup/language-translations) to import updated translations for emails after modifying English text.
 
 ### Use the language dropdown
 
