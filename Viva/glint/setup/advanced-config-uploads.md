@@ -11,8 +11,7 @@ keywords: advanced configuration, uploads, retroactive update, bulk custom acces
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high pri
 ms.date: 02/27/2024
 ---

@@ -7,8 +7,7 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 10/24/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -39,6 +38,8 @@ The user information from the LMS is only used for user mapping, and doesn't rem
 ## Prerequisite for learner record sync
 
 You'll need to enable inbound user provisioning with SAP SuccessFactors to ensure all users in Microsoft Entra ID have the right employeeID configured. The steps required to enable this integration may vary depending on how your Microsoft Entra tenant is configured.
+
+You need to ensure that employeeID is unique for each user in Microsoft Entra ID. If there are multiple users in Microsoft Entra ID with the same employeeId then the user mapping may match to any of the users with this employeeId. This can result in incorrectly mapped learner record for some users."
 
 Refer to the scenario table below to pick the right integration steps for your setup.
 

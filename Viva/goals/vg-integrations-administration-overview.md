@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
+ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
@@ -94,8 +93,8 @@ The table below shows which type of integrations are supported, their category, 
 |---------|---------|---------|---------|
 |Amazon Redshift|Third-party|Data| https://aws.amazon.com/legal/?nc1=f_cc|
 |Asana|Third-party|Data| https://asana.com/terms|
-|Azure DevOps|Cross-boundary Microsoft|Data | https://www.microsoft.com/licensing/terms|
-|Azure Data Explorer|Cross-boundary Microsoft|Data| https://www.microsoft.com/licensing/terms|
+|Azure DevOps|Cross-boundary Microsoft|Data | https://www.microsoft.com/licensing/terms |
+|Azure Data Explorer|Cross-boundary Microsoft|Data| https://www.microsoft.com/licensing/terms |
 |BigQuery|Third-party |Data | https://cloud.google.com/product-terms/  |
 |Box      |Third-party |Data | https://www.box.com/legal/  |
 |Domo       |Third-party |Data | https://www.domo.com/company/service-terms |
