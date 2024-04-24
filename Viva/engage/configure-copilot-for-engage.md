@@ -37,7 +37,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 :::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
-| **Process** | **How it works** |
+|**Process**|**How it works**|
 |---|---|
 |**Process and store messages for summarization**| The AI Summarization feature processes Engage threads across the tenant to support summarization features in Copilot and Network Analytics. Summarization presents summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
 |**Process commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
@@ -56,7 +56,7 @@ Copilot and AI Summarization are controlled separately and can be turned on or o
 >Copilot and Network analytics both use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
 
 
-|**Engage feature**|**State**|**Description**|
+| Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
 |**Copilot**|**Enabled**|When Copilot is enabled, users can access Copilot in Viva Engage through their home feed, storyline, community feed, and campaign pages.|
 | |**Disabled**| Copilot isn't available anywhere in Viva Engage|
