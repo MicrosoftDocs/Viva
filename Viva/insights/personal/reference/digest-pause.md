@@ -7,8 +7,7 @@ author: kateylundquist
 ms.author: v-klundquist
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
