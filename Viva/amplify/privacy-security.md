@@ -7,8 +7,7 @@ ms.reviewer: smathurin
 ms.date: 09/13/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-amplify
+ms.service: viva-amplify
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -17,6 +16,7 @@ ms.collection:
   - Tier1
   - essentials-privacy
   - essentials-security
+  - essentials-compliance
 ms.localizationpriority: medium
 description: Learn about privacy, security, and data storage in Microsoft Viva Amplify.
 ---

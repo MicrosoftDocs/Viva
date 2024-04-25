@@ -12,10 +12,9 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/18/2024
+ms.date: 04/24/2024
 ---
 
 # Viva Glint’s Survey reports overview
@@ -33,7 +32,7 @@ Admins can assign specific reports for distinct roles.
 | [Driver Impact]( https://go.microsoft.com/fwlink/?linkid=2231009)| Allows managers to easily identify Strengths (areas the team should celebrate) and Opportunities (areas the team should work to improve engagement) based on key engagement driver scores. | All, but specifically managers |
 | [Executive Summary](https://go.microsoft.com/fwlink/?linkid=2231010) | Presents high-level data views for team presentations at all levels. This report resembles the overall dashboard view. | All |
 | Goals Overview | Shows the status of completion of identified goals across teams. Provides critical insights briefly, with access to more details. | Admins and managers |
-| Heat Map | Identifies high and low scoring teams on engagement and corresponding drivers. Based on permissions, these can also be filtered by demographic attributes. | Senior leaders, HRBPs, admins (anyone who would benefit from looking across multiple groups for comparisons) |
+| [Heat Map](https://go.microsoft.com/fwlink/?linkid=2269900)| Identifies high and low scoring teams on engagement and corresponding drivers. Based on permissions, these can also be filtered by demographic attributes. | Senior leaders, HRBPs, admins (anyone who would benefit from looking across multiple groups for comparisons) |
 | Overall Results | Mimics the Glint dashboard but allows data filtering and reviewing of more demographics. | All |
 | [Manager Report](https://go.microsoft.com/fwlink/?linkid=2231110)| Displays a *direct* or *role up hierarchy* view of all managers within a specific hierarchy. | Admins and managers |
 | [Response Rate Report](https://go.microsoft.com/fwlink/?linkid=2231209)| Provides a deep dive into survey response rates across hierarchies and key demographics. Displays trends and benchmark comparisons. | All |

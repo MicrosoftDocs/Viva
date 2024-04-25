@@ -8,10 +8,11 @@ manager: elizapo
 ms.date: 01/17/2024
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
-ms.collection: viva-copilot
+ms.collection: 
+ - viva-copilot
+ - magic-ai-copilot
 search.appverid:
 - MET150
 - MOE150

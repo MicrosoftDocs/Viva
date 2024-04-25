@@ -13,8 +13,7 @@ ms.collection:
  - essentials-navigation
 ms.date: 08/04/2023
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-pulse
+ms.service: viva-pulse
 ms.localizationpriority: medium
 search.appverid: MET150
 ---

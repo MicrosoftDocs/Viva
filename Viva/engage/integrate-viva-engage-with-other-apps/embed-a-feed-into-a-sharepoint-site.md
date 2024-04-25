@@ -9,8 +9,7 @@ ms.date: 01/04/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.custom: Adm_Yammer
 ms.collection: SPO_Content
 search.appverid:

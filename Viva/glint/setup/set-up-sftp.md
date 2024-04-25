@@ -12,15 +12,16 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 04/08/2024
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) to import employee data
 
-Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247429) to establish regular, automated imports of employee data. In Viva Glint General Settings, import SSH Public Keys and specify public IP addresses to connect, specify users that should be notified about data uploads and warnings, opt-in to PGP encryption, and view your credentials to access your SFTP account. Your IT team may need to add an IP exception or add hosts and ports to an allow list to connect to SFTP. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238617). 
+Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](https://go.microsoft.com/fwlink/?linkid=2247429) to establish regular, automated imports of employee data. In Viva Glint General Settings, import SSH Public Keys and specify public IP addresses to connect, specify users that should be notified about data uploads and warnings, opt-in to PGP encryption, and view your credentials to access your SFTP account.  
+
+Your IT team may need to add an IP exception or add hosts and ports to an allow list to connect to SFTP. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238617). 
 
 Learn more about how to set up SFTP with this video and the guidance in this article:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jOMv]
@@ -41,7 +42,7 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
    1. **SFTP Credentials:** Use the credentials shown in the platform to connect to SFTP with a dedicated FTP application and your private SSH key file. Allow at least 1 hour after entering public SSH keys and IP addresses before testing your connection.
       1. **File Protocol**: _SFTP_
       2. **Port**: Select 22 or 1122
-      3. **Host Name**: _Varies based on region (US or EU)_
+      3. **Host Name**: _Varies based on region (US or EU) and selected port_
       4. **Username:** _Company ID_
       5. **Password:** _Use your private SSH key file_
 
