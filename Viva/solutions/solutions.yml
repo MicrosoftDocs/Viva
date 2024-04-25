@@ -57,11 +57,3 @@ landingContent:
             url: ./viva-goals-healthy-okr-program/close-okrs-overview.md
           - text: Rhythm of Business Overview
             url: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md  
- 
-    # Card
-  - title: Incorporate learning into your organization
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Bring learning into the flow of work
-            url: incorporate-learning.md
