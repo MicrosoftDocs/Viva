@@ -16,6 +16,7 @@ ms.collection:
   - Tier1
   - essentials-privacy
   - essentials-security
+  - essentials-compliance
 ms.localizationpriority: medium
 description: Learn about privacy, security, and data storage in Microsoft Viva Amplify.
 ---
