@@ -1990,6 +1990,11 @@
       "source_path": "Viva/glint/setup/import-export-user-roles.md",
       "redirect_url":"/viva/glint/setup/export-user-roles",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/solutions/incorporate-learning.md",
+      "redirect_url":"/viva/learning",
+      "redirect_document_id": false
     }
   ]
 }
