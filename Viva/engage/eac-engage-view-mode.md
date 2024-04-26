@@ -26,7 +26,7 @@ search.appverid:
 
 ## User experience in view-only mode
 
-In view-only mode, an information banner appears at the top of the Viva Engage experience. Publisher and creation features are disabled for the user. Users assigned to view-only mode can continue to follow others, receive and manage notifications, view analytics, report conversations, and bookmark threads. Users can also view announcements and browse content in any Viva Engage app (desktop, web, mobile, Teams, Outlook or SharePoint).
+In view-only mode, an information banner appears at the top of the Viva Engage experience. Publisher and creation features are disabled for the user. Users assigned to view-only mode can continue to follow others, receive and manage notifications, view analytics, report conversations, and bookmark threads. Users can also view announcements and browse content in any Viva Engage app (desktop, web, mobile, Teams, Outlook, or SharePoint).
 
 ## Limitations of view-only mode
 
