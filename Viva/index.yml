@@ -35,9 +35,9 @@ highlightedContent:
       itemType: overview
       url: https://www.microsoft.com/microsoft-viva/overview
     # Card
-    - title: Microsoft Viva overview
-      itemType: video
-      url: https://www.youtube.com/watch?v=J3qCWxKVfFA
+    - title: Copilot in Microsoft Viva
+      itemType: whats-new
+      url: /viva/copilot/viva-copilot-overview
 
 # tools section (optional)
 tools:
@@ -116,6 +116,15 @@ additionalContent:
     - title: Key resources  # < 60 chars (optional)
       items:
         # Card
+        - title: Copilot in Viva
+          links:
+            - text: Set up Copilot in Viva Engage
+              url: /viva/engage/configure-copilot-for-engage
+            - text: Enable Copilot in Viva Goals
+              url: /viva/goals/copilot-intro
+            - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
+              url: /viva/insights/org-team-insights/copilot-dashboard
+        # Card
         - title: End user help and learning
           links:
           - text: Microsoft Viva help and learning
@@ -170,18 +179,7 @@ additionalContent:
           links:
             - text: Viva Connections
               url: /sharepoint/dev/spfx/viva/overview-viva-connections
-        # Card
-        - title: Solutions for your business
-          links:
-            - text: Use Microsoft Viva in the hybrid workplace
-              url: /viva/solutions/viva-for-the-hybrid-workplace
-            - text: Run a healthy OKR program with Viva Goals
-              url: /viva/solutions/healthy-okr-program-overview
-            - text: Solve common business problems with accelerators
-              url: /viva/solutions/introduction
-            - text: Incorporate learning into your organization
-              url: /viva/solutions/incorporate-learning
-
+        
         # Card
         - title: Troubleshooting
           links:
