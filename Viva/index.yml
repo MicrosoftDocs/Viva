@@ -99,6 +99,10 @@ additionalContent:
     - title: Create an engaged and productive workforce # < 60 chars (optional)
       items:
         # Card
+        - title: Copilot in Viva
+          summary: Copilot empowers people to be smarter, more productive, more creative, and connected to the people and things around them.
+          url: /viva/copilot/viva-copilot-overview
+
         - title: Employee communications and communities
           summary: Modernize how you communicate and engage with employees with Viva Connections, Viva Engage, and Viva Amplify. 
           url: /viva/experience-connection
