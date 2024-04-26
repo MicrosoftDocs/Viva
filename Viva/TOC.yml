@@ -36,7 +36,7 @@ items:
     - name: Copilot in Viva
       items:
       - name: Introduction to Copilot in Viva
-        href: /viva/copilot/viva-copilot-overview
+        href: copilot/viva-copilot-overview.md
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Solutions guides for Microsoft Viva
