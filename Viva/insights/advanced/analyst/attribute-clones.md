@@ -48,7 +48,7 @@ Once you have created a clone of an existing attribute, there are a few steps.
 
 4. Select **Save and close**.
 
-### Use Attribute clones
+### Use attribute clones
 
 Once you create your clone, you can immediately use it like any other attribute. The next time you create a query, you can add it by opening the attribute fly-out and finding it towards the bottom of the list, after the admin-uploaded attributes. When the query is run, the results show the new attribute value data. The data reflects the clone definition as it’s defined at query execution time.
 
