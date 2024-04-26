@@ -1,15 +1,13 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/22/2024
-title: Introducing attribute clones
-description: Learn how to create and manage attribute clones
-author: kateylundquist
-ms.author: v-klundquist
+ms.date: 05/01/2024
+title: Create and manage attribute clones
+description: Educates analysts on how to edit and customize attributes uploaded by admins to create better tailored analyses.
+author: zachminers
+ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: helayne
@@ -18,53 +16,48 @@ audience: Admin
 
 # Create and manage attribute clones
 
->[!IMPORTANT]
-> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
-
-Attribute clones allow you to create copies of your admin-uploaded attributes and modify them via rules that conditionally update the attribute value data. This feature enables you to dynamically create new ways of grouping employees, resulting in new ways to analyze your data insights. 
+Attribute clones allow analysts to duplicate their admin-uploaded attributes and customize the clone by modifying specific attribute values. This feature lets you update how you define your employee groups, ensuring your attribute data reflects the state of your business and complements your specific analyses.
 
 ### Example scenarios
-- Rename an attribute value.
-- Combine multiple attribute values into a singular value.
-- Update the value of an attribute based on the value of some other attribute.
-- And more.
+
+- Rename an attribute value
+- Combine multiple attribute values into a singular value
+- Update the value of an attribute based on the value of some other attribute
 
 ### Create a new attribute clone
-Here are some ways to create a new attribute clone:
 
-- Create a new attribute clone by navigating to the **Organizational Data tab** in the left-hand navigation panel and then selecting **Data Quality**. Here you can see all the attributes that you have available to you. You now notice that there is a vertical ellipsis next to your existing attributes. Select the ellipses and then select the option to **Clone Attribute.**
+You can create a clone of any attribute that your admin has uploaded, except for "ManagerId." Since you’re modifying only the clone, there are never any modifications made to the original admin-uploaded attributes. 
 
-    >[!Note]
-    >The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
+When you create a clone, all the attribute value data is copied from the original column. Only values that you specifically target to change are changed. Everything else remains the same.
 
-- Create a new Attribute Clone when creating a Person or Meeting query. In the final stage where you add attributes to your query, you can open up the fly-out panel. There, you'll also see the ellipses. From that location, you can clone an attribute.
-- Create a clone of any attribute that your admin uploaded. Since the clone is what is modified, there are never any modifications made to the admin-uploaded attributes. Those attributes continue to remain unchangeable by the analyst.
-- You're not able to create a clone of a clone. 
-- Define a new name for this cloned attribute. The name must contain only ASCII alphanumeric characters. It can't contain any spaces or other special characters. It must be less than 30 characters. It also must be unique. After you create a clone, the name can't be changed.
-- When you create a clone, all of the attribute value data is copied over from the original column. Only values that you specifically target to change will change. Everything else remains as default.
-- In your clone, you can keep the datatype of the original column, or you can change the datatype to a string.
-    - Keeping the same datatype is simple if it is a string or integer. You just input a string or integer, respectively, into the New Value. Maintaining a Date field can be a bit challenging since the format you need to enter isn’t clear yet. Use the date format: ‘MM-DD-YYYY’
-    - Being able to change the datatype to a string can support scenarios where you want to group a set of HireDates into buckets like “New Hires” and “Tenured Hires,” for example. When you enter a New Value, if you don’t input the datatype of the original column, you'll see a warning saying: if you continue the datatype changes to string. You can choose to ignore this warning and save the column with a string datatype.
-    - You're not able to change the datatype to anything other than string today.
+There are two locations where you can create a new attribute clone:
 
-### Use attribute clones
-Once your clone is created, you can immediately use it like any other attribute. When you add it to a query and run it, the results show the new attribute value data. When a query is run, it reflects the clone definition as it is defined at query execution time.
+* Navigate to the **Data quality** tab in the left-hand navigation panel. Here you can see all the attributes available to you. There is a vertical ellipses next to your existing attributes. Select the ellipses and then select the option to **Clone attribute**.
 
-Currently, you can add cloned attributes to both your person and meeting queries. Other query types like Cross-Collaboration and External Collaboration queries are not supported yet.
+* Or, create a new attribute clone when creating a [Person query](./person-query.md) or [Meeting query](./meeting-query.md). In the final stage where you add attributes to your query, open the fly-out panel. There, you will also see the ellipses. From that location, you can clone an attribute.
 
-After creation, you're welcome to go back and edit the clone definition. Any new query runs reflect that new definition, including any recurring queries where that clone is being used.
+Once you have created a clone of an existing attribute, there are a few steps.
 
-You can view the Data Quality of the clone within the **Organizational Data tab.** If the clone only takes input from a single column, it inherits the original column’s data quality information. If it takes input from multiple columns, the data quality information won't be available.
+1. Enter a new name for this cloned attribute. The name must only contain alphanumeric characters, underscores, no spaces, no special characters, have less than 30 characters, and be unique. After you create a clone, the name can’t be changed.
 
-Only the creator of the clone can edit the definition of the clone or delete the clone. Other analysts can use the clone in their queries and view the definition of the clone. The clone is only visible and usable in the partition in which it was created. Clones are not transferrable to other partitions today.
+2. In your clone, you can keep the datatype of the original column, or you can change the datatype to a string if it’s non-string.  Changing the datatype to a string can support scenarios where you want to categorize, for example, grouping a set of HireDates into buckets like "New Hires" and "Tenured Hires."
+
+    * To change from non-string to string, select the dropdown and select **string**. Now, you can enter string values into your new attribute clone.
+
+3. Define Rules to designate what you want to change. Select current values that exist in the original column and change them to something else by defining a New value. You can define multiple conditions per Rule and define multiple Rules per attribute clone.
+
+4. Select **Save and close**.
+
+### Use Attribute clones
+
+Once you create your clone, you can immediately use it like any other attribute. The next time you create a query, you can add it by opening the attribute fly-out and finding it towards the bottom of the list, after the admin-uploaded attributes. When the query is run, the results will show the new attribute value data. The data will reflect the clone definition as it’s defined at query execution time.
+
+You can add cloned attributes to your person and meeting queries, but other query types aren’t yet supported. After creation, you can go back and edit the clone definition. Any new query runs will reflect that new definition, including any recurring queries where that clone is used.
+
+Only the creator of the clone can edit the definition of the clone or delete the clone. Other analysts can use the clone in their queries and view the definition of the clone. The clone is only visible and usable in the partition in which it was created. Clones are not transferrable to other partitions.
 
 ### Delete attribute clones
-When you're ready to delete the clone, you can delete it from the **Data Quality** section under the **Organizational Data tab.** Only the creator of the clone can delete.
 
->[!Note]
->If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
+When you are ready to delete the clone, you can delete it from the **Data quality** tab or from the attribute fly-out panel that you can access while creating a Person or Meeting query. Only the creator of the clone can delete it.
 
-Before you delete, ensure that the clone isn’t being used in any recurring queries. If you delete a clone that is being used in active recurring queries, that query deactivates. Once you delete, the clone is removed and there's no opportunity to recover.
-
-### Known bugs
-There are no known bugs today.
+Before you delete, ensure the clone isn’t being used in any recurring queries. If you delete a clone that’s used in active recurring queries, that query will deactivate. Once you delete, the clone is removed and you can't recover it.
