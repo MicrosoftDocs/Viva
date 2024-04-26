@@ -84,13 +84,6 @@ tools:
       imageSrc: media/logos/pulse-logo.svg
       url: /viva/pulse/introduction-to-viva-pulse
 
-    # Card
-    - title: Topics in Viva
-      # imageSrc should be square in ratio with no whitespace
-      imageSrc: media/logos/topics-launch-c-64.svg
-      url: /microsoft-365/topics/
-
-
 # additionalContent section (optional)
 # Card with summary style
 additionalContent:
@@ -139,8 +132,6 @@ additionalContent:
             url: https://support.microsoft.com/office/viva-learning-preview-app-01bfed12-c327-41e0-a68f-7fa527dcc98a
           - text: Viva Pulse
             url: https://support.microsoft.com/topic/introducing-viva-pulse-34c94efe-185d-480e-94a2-27e013a5204b
-          - text: Topics in Viva
-            url: https://support.microsoft.com/office/understanding-viva-topics-5bef3020-2679-4045-81cb-bcbc37218332
 
         # Card
         - title: Learning paths
@@ -157,8 +148,6 @@ additionalContent:
               url: /training/paths/okr-leadership/
             - text: Introduction to Viva Learning
               url: /training/modules/viva-learning-introduction/
-            - text: Get started with Topics in Viva
-              url: /training/paths/m365-viva-topics/
 
         # Card
         - title: Copilot in Viva
