@@ -43,7 +43,7 @@ When a user is in view-only mode, they have **no access** to the following featu
 
 ## Manage users in view-only mode
 
-Admins can set View-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
+Admins can set view-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
 
 To set view-only mode:
 
