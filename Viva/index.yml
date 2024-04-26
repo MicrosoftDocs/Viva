@@ -100,7 +100,7 @@ additionalContent:
       items:
         # Card
         - title: Copilot in Viva
-          summary: Copilot empowers people to be smarter, more productive, more creative, and connected to the people and things around them.
+          summary: Empower people to be smarter, more productive, more creative, and connected to the people and things around them.
           url: /viva/copilot/viva-copilot-overview
 
         - title: Employee communications and communities
