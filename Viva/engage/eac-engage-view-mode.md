@@ -35,9 +35,12 @@ In view-only mode, an information banner appears at the top of the Viva Engage e
 
 When a user is in view-only mode, they have **no access** to the following features:
 
-- New post creation, commenting, or replying to posts anywhere in Viva Engage
+>[!NOTE]
+>These limitations apply throughout the Viva Engage app and on all surfaces (desktop, web, mobile, Teams, Outlook, or SharePoint).
 
-- Editing capability on existing posts, comments, or replies in Viva Engage across all surfaces
+- Creation of new posts, comments or replies to posts
+
+- Editing capability on existing posts, comments, or replies
 
 - Content sharing between storylines or communities (public or private)
 
