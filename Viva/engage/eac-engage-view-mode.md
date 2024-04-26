@@ -1,6 +1,7 @@
 ---
 title: "View-only mode in Viva Engage"
-description: "View-only mode lets you remove create and edit abilities from Viva Engage users as needed."
+description: "View-only mode lets you remove create and edit abilities from specific Viva Engage users as needed."
+ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
