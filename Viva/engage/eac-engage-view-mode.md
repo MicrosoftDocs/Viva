@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 ---
 
-# View-only mode in Viva Engage
+# View-only mode in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
 >Viva Engage view-only mode is currently available only for private preview customers.  The features described here are subject to change.
