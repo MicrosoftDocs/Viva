@@ -119,15 +119,7 @@ additionalContent:
           url: /viva/experience-growth
     - title: Key resources  # < 60 chars (optional)
       items:
-        # Card
-        - title: Copilot in Viva
-          links:
-            - text: Set up Copilot in Viva Engage
-              url: /viva/engage/configure-copilot-for-engage
-            - text: Enable Copilot in Viva Goals
-              url: /viva/goals/copilot-intro
-            - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
-              url: /viva/insights/org-team-insights/copilot-dashboard
+
         # Card
         - title: End user help and learning
           links:
@@ -167,6 +159,16 @@ additionalContent:
               url: /training/modules/viva-learning-introduction/
             - text: Get started with Topics in Viva
               url: /training/paths/m365-viva-topics/
+
+        # Card
+        - title: Copilot in Viva
+          links:
+            - text: Set up Copilot in Viva Engage
+              url: /viva/engage/configure-copilot-for-engage
+            - text: Enable Copilot in Viva Goals
+              url: /viva/goals/copilot-intro
+            - text: Connect to the Microsoft 365 Copilot Dashboard in Viva Insights
+              url: /viva/insights/org-team-insights/copilot-dashboard       
 
         # Card
         - title: Adoption
