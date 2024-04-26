@@ -24,9 +24,11 @@ search.appverid:
 >[!IMPORTANT]
 >Viva Engage view-only mode is currently available only for private preview customers.  The features described here are subject to change.
 
+Microsoft 365 Global admins and Engage admin can use view-only mode to prevent a user from contributing content on the network. 
+
 ## User experience in view-only mode
 
-In view-only mode, an information banner appears at the top of the Viva Engage experience. Publisher and creation features are disabled for the user. Users assigned to view-only mode can continue to follow others, receive and manage notifications, view analytics, report conversations, and bookmark threads. Users can also view announcements and browse content in any Viva Engage app (desktop, web, mobile, Teams, Outlook, or SharePoint).
+In view-only mode, an information banner appears at the top of the Viva Engage experience, and publisher and creation features are unavailable. Users assigned to view-only mode can continue to follow others, receive and manage notifications, view analytics, report conversations, and bookmark threads. Users can also view announcements and browse content in any Viva Engage app (desktop, web, mobile, Teams, Outlook, or SharePoint).
 
 ## Limitations of view-only mode
 
@@ -40,11 +42,11 @@ When a user is in view-only mode, they have no access to the following features:
 
 ## Manage users in view-only mode
 
-Microsoft 365 Global admins and admins can set View-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
+Admins can set View-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
 
 To set view-only mode:
 
 1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 1. Select the **Feature management tab**.
-1. Step to add a user to view-only mode. 
-1. Step to remove a user from view-only mode.
+1. _[Step to add a user to view-only mode.]_
+1. _[Step to remove a user from view-only mode.]_
