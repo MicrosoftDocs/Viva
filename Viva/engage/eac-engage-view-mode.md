@@ -38,7 +38,7 @@ When a user is in view-only mode, they have no access to the following features:
 
 - Editing capability on existing posts, comments, or replies in Viva Engage across all surfaces
 
-- Content sharing between communities or storylines (public or private)
+- Content sharing between storylines or communities (public or private)
 
 ## Manage users in view-only mode
 
