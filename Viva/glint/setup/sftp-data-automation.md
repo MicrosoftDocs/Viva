@@ -45,7 +45,7 @@ Viva Glint SFTP:
 - Derives attributes to create calculated fields during import.
 - Works best with recommended file formats.
 
-### SFTP directories
+## SFTP directories
 
 In your SFTP account, there are two (2) directories that Viva Glint monitors for files to automatically import:
 
@@ -56,38 +56,38 @@ In your SFTP account, there are two (2) directories that Viva Glint monitors for
 > - Files are automatically deleted from SFTP after 48 hours.
 > - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
-### Transfer methods
+## Transfer methods
 
 Depending on how frequently your organization imports data to Viva Glint, consider which SFTP data transfer method best meets your needs.
 
 - **Automated HRIS data feed:** Work with your employee data team to establish an automated export that is transmitted from your HRIS to SFTP directly.
 - **Manual SFTP file transfer:** Connect with an FTP application to manually place a full or incremental file on SFTP.
 
-### Derived attributes
+## Derived attributes
 
 While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
 
 > [!NOTE]
 > Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
 
-### File best practices
+## File best practices
 
 Select a file transfer frequency, format, layout, and naming convention based on your company's needs and HRIS capabilities.
 
-**Frequency:**
+### Frequency:
 
 Update your employee data at least weekly or at a regular cadence that aligns with your company's survey schedule.  
 
 If you have fewer than 10,000 employees, a daily feed of the full file should be a good frequency, and incremental files can be uploaded for one-off updates. If you have a large employee base with several attributes (50+), sending full files 1-2 times per month with daily incremental files may make more sense for your company’s needs. Discuss with your HRIS team to find out data file transfer possibilities.
 
-**Format and layout:**
+### Format and layout:
 
 Consistent file format and layout over time ensure successful file imports. Maintain the same attribute labels in your file’s header row and select one file format from Viva Glint’s options:
 
 - **.csv** with a comma separator and UTF-8 encoding. When values contain commas, enclose in double quotation marks.
 - **.xlsx** with a single tab and no password or formulas.
 
-**Naming convention:**
+### Naming convention:
 
 Viva Glint recommends the following file naming conventions, where "companyid" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 64 characters or fewer, including the file extension.
 
