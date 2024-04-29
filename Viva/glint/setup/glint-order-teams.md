@@ -26,7 +26,7 @@ Subscription plans of Viva suite or Viva Glint are required for using Microsoft 
 If the number of active users in Viva Glint exceeds the subscription purchase, you are notified via email, and you have a 45 day grace period to take one of the following actions:
 
 - Purchase extra Microsoft Viva suite or Viva Glint licenses according to the product terms; 
-- Remove excess active users from the Viva Glint instance by marking them “INACTIVE.”  
+- Remove excess active users from the Viva Glint instance by marking their status as “INACTIVE” in a [user upload](upload-employee-attributes.md).
 
 ## What happens if our grace period expires?
 

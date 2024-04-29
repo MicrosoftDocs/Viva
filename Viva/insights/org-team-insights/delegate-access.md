@@ -7,8 +7,7 @@ ms.author: v-klundquist
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: abelutk
