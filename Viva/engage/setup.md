@@ -1,5 +1,5 @@
 ---
-ms.date: 01/23/2024
+ms.date: 04/29/2024
 title: "Set up Viva Engage"
 description: "Guidance for setting up licensing and installation of Viva Engage for an organization."
 ms.reviewer: ethli
@@ -27,9 +27,10 @@ search.appverid:
 
 If you don't enforce Viva Engage licensing in your organization, users can access the Viva Engage core experience.
 <br>If you do enforce Viva Engage licensing in your tenant, each user must be assigned both:
+
 - Microsoft 365 license, *and*
 
-- Viva Engage Core Service Plan (or Yammer Enterprise Service Plan) 
+- Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
 
 >[!NOTE]
 >The Core Service plan is a foundational component of Microsoft Viva Engage and can provide essential features and capabilities to enhance employee engagement and collaboration within your organization.
@@ -42,7 +43,7 @@ Microsoft 365 Global administrator and Engage administrator roles can manage and
 - Microsoft Viva Employee Communications and Communities
 
 >[!IMPORTANT]
->Administrators don’t require a premium Viva Engage license to configure and set up premium Viva Engage and Answers experiences. Learn more about Viva Engage admin roles. 
+>Administrators don’t require a premium Viva Engage license to configure and set up premium Viva Engage and Answers experiences. Learn more about Viva Engage admin roles.
 [Manage Viva Engage licenses in Microsoft 365](/Viva/engage/manage-engage-licenses-microsoft-365).
 
 |Service plan |Enables |Comes with (SKUs)|
@@ -53,7 +54,7 @@ Microsoft 365 Global administrator and Engage administrator roles can manage and
 
 ## Configure privacy and security settings
 
-The Engage administrator (Yammer administrator) can manage the content in Viva Engage. 
+The Engage administrator (Yammer administrator) can manage the content in Viva Engage.
 For details, see [Overview of security & compliance for Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance).
 
 ## Set up Viva Engage
@@ -61,9 +62,12 @@ For details, see [Overview of security & compliance for Viva Engage](/viva/engag
 Where you set up Viva Engage is a matter of preference. Global and Engage admins (Yammer administrators in Microsoft Entra ID) can use the Microsoft 365 admin center for initial setup. Alternatively, the Viva Engage admin center provides most settings and customization options. To control some Viva features, such as Copilot in Viva Engage, you must use feature access management.
 
 From the Microsoft 365 admin center, you can:
-- Assign Engage admins 
-- Pin Viva Engage in Teams 
-- Manage other settings in Viva Engage 
+
+- Assign Engage admins
+
+- Pin Viva Engage in Teams
+
+- Manage other settings in Viva Engage
 
 ## Install Viva Engage
 
