@@ -45,7 +45,7 @@ If you are using the Viva Goals app for Microsoft Teams, you can access the Viva
 
 ## Navigating the admin portal
 
-The admin portal has three sections:
+The admin portal has three sections: General, Integrations, and Organizations.
 
 ### General
 
