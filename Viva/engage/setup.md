@@ -1,7 +1,7 @@
 ---
 ms.date: 01/23/2024
 title: "Set up Viva Engage"
-description: "Guidance for setting up licensing and installation of Viva Engage for an organzation."
+description: "Guidance for setting up licensing and installation of Viva Engage for an organization."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -25,17 +25,18 @@ search.appverid:
 
 **Viva Engage Core experience**
 
-If you don't enforce Viva Engage licensing in your tenant, users can simply access the Viva Engage core experience.
-<br>If you do enforce Viva Engage licensing in your tenant, each user must be assigned both of the following:
-<ul><li>Microsoft 365 license</li>
-<li>Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)</li></ul>
+If you don't enforce Viva Engage licensing in your organization, users can access the Viva Engage core experience.
+<br>If you do enforce Viva Engage licensing in your tenant, each user must be assigned both:
+- Microsoft 365 license, *and*
+
+- Viva Engage Core Service Plan (or Yammer Enterprise Service Plan) 
 
 >[!NOTE]
 >The Core Service plan is a foundational component of Microsoft Viva Engage and can provide essential features and capabilities to enhance employee engagement and collaboration within your organization.
 
 **Viva Engage Premium experience**
 
-Microsoft 365 Global administrator and Engage administrator roles can manage and configure premium experiences for the organization provided that the tenant has purchased either of the following premium licenses:
+Microsoft 365 Global administrator and Engage administrator roles can manage and configure premium experiences for the organization if the tenant purchased either of the following premium licenses:
 
 - Microsoft Viva Suite
 - Microsoft Viva Employee Communications and Communities
@@ -57,7 +58,7 @@ For details, see [Overview of security & compliance for Viva Engage](/viva/engag
 
 ## Set up Viva Engage
 
-Where you set up Viva Engage is a matter of preference. Global and Engage admins (Yammer administrators in Microsoft Entra ID) can use the Microsoft 365 admin center for initial setup. Alternatively, the Viva Engage admin center provides most settings and customization options.  To control some Viva features, such as Copilot in Viva Engage, you must use feature access management.
+Where you set up Viva Engage is a matter of preference. Global and Engage admins (Yammer administrators in Microsoft Entra ID) can use the Microsoft 365 admin center for initial setup. Alternatively, the Viva Engage admin center provides most settings and customization options. To control some Viva features, such as Copilot in Viva Engage, you must use feature access management.
 
 From the Microsoft 365 admin center, you can:
 - Assign Engage admins 
@@ -68,15 +69,15 @@ From the Microsoft 365 admin center, you can:
 
 ### Install Viva Engage in Teams
 
-The Microsoft Teams admin can choose to deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). Doing so allows users to easily set up Viva Engage in Teams using the following steps:
+The Microsoft Teams admin can deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). By pinning the app, users can easily set up Viva Engage in Teams using the following steps:
 
 1. Open Teams on the web or in a desktop client.
 
-2. From the left side of Teams, select Apps.
+2. From the left side of Teams, select **Apps**.
 
 3. Search for Viva Engage.
 
-4. Select the Viva Engage app, and then select Add. This adds the app to all your Teams clients, including mobile.
+4. Select the Viva Engage app, and then select **Add**. The app is added to all your Teams clients, including mobile.
 
 ## Install or access Viva Engage from other surfaces
 
@@ -89,14 +90,15 @@ You can run Viva Engage on different surfaces. To give your users the greatest n
  ## Customize the appearance for Viva Engage in the Teams store
 
  You can customize the appearance for the following properties of the Viva Engage app in the Teams app store:
+
  - app name
- - app description 
+ - app description
  - app icons
  - accent color
 
-Customizing the Viva Engage app is a good choice for companies that have customized their network branding to fit their corporate identity.
+Customizing the Viva Engage app is a good choice for companies that tailor their network branding to fit their corporate identity.
 
-**Note:** Currently, this won't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience. To learn more, see [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
+**Note:** Currently, customizations don't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience. To learn more, see [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
  
  ## Support adoption of Viva Engage
  
