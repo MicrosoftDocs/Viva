@@ -19,7 +19,7 @@ ms.date: 04/29/2024
 
 # Understand Viva Glint SFTP and data automation
 
-Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data. An automated data feed enables you to keep your HRIS data in sync with Viva Glint and allows your organization to:
+Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data. An automated data feed enables you to keep your HR Information System (HRIS) data in sync with Viva Glint and allows your organization to:
 
 - Send surveys and results to the right participants at any time.
 - Automatically trigger surveys for employees at specific points in the employee lifecycle.
@@ -49,8 +49,8 @@ Viva Glint SFTP:
 
 In your SFTP account, there are two (2) directories that Viva Glint monitors for files to automatically import:
 
-- **/files/user_full:** Use for FULL file uploads - existing employee records in the platform that are not included in your file become INACTIVE.
-- **/files/user_delta:** Use for INCREMENTAL file uploads - only the employee records in the file will be updated in the platform, all others will be unchanged.
+- **/files/user_full:** Use for FULL file uploads - existing employee records in the platform that aren't included in your file become INACTIVE.
+- **/files/user_delta:** Use for PARTIAL file uploads - only the employee records in the file are updated in the platform; all others are unchanged.
 
 > [!NOTE]
 > - Files are automatically deleted from SFTP after 48 hours.
