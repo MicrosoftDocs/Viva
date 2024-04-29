@@ -994,6 +994,10 @@
             "source_path": "viva/glint/start/four-stages-glint-program.md",
             "redirect_url": "/viva/glint/start/program-types-templates",
             "redirect_document_id": false
-        }
+        },
+	{   "source_path": "viva/glint/reports/report-access-levels.md",
+	    "redirect_url": "/viva/glint/setup/live-versus-phased-access",
+	    "redirect_document_id": false
+	}
     ]
 }

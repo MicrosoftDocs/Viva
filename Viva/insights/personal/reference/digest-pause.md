@@ -1,23 +1,22 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/27/2024
-title: Digest email pause
-description: About pausing the Digest email
+ms.date: 04/26/2024
+title: Where to find digest email insights
+description: Provides a notice about the pause of digest emails, as well as where to find digest email insights in other areas of Viva Insights.
 author: kateylundquist
-ms.author: v-klundquist
+ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
 manager: anirudhbajaj
 
 ---
-# Digest email pause
+# Where to find digest email insights
 
-At the end of March 2024, we’ll be pausing all types of digest emails, including individual contributor, manager, and welcome emails, which are typically sent twice a month. All the content from digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f)You can continue to explore and analyze your data insights seamlessly. Here are some existing scenarios and where to find the features: 
+In March of 2024, we paused all types of digest emails, including individual contributor, manager, and welcome emails, which were typically sent twice a month. However, all the content from digest emails is still available elsewhere within the [Viva Insights app in Teams or on the web](https://support.microsoft.com/en-us/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f). You can continue to explore and analyze your data insights seamlessly. Here's where to find the insights.
 
 **Explore your habits & take a deeper look:** These insights are spread across the Viva Insights app in Teams and on the web.  
 
