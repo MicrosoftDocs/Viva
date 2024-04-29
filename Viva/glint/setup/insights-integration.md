@@ -1,5 +1,5 @@
 ---
-title: Integrate Viva Glint into Viva Insights
+title: Integrate Viva Glint into Viva Insights (preview)
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,11 +14,11 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/18/2024
+ms.date: 04/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Integrate Viva Glint into Viva Insights
+# Integrate Viva Glint into Viva Insights (preview)
 
 HR analysts and other leaders can bring Viva Glint survey scores into Viva Insights to integrate how people feel (Glint) with how people work (Insights). Connect Copilot usage metrics to uncover insightful information about employee sentiments by sending survey results from Viva Glint to Viva Insights Power BI.
 
@@ -64,6 +64,16 @@ Select **Send data to Viva Insights**
 :::image type="content" source="../../media/glint/setup/insights-select-programs.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
 
 **Now, [connect to the Microsoft Copilot dashboard](/../viva/insights/org-team-insights/copilot-dashboard) or any survey data on the [Insights Power BI template.](/../viva/insights/advanced/analyst/templates/introduction-to-templates)**
+
+## Removing a program from the integration
+
+As an admin, you can stop sharing future data with Viva Insights by removing the program. Select **Manage Integration**.
+
+:::image type="content" source="../../media/glint/setup/insights-manage-integration.png" alt-text="Screenshot managing the Viva Glint and Viva Insights integration.":::
+
+Hover over the ellipses net to the program to remove to access the actions available. Select **Remove program.**
+
+:::image type="content" source="../../media/glint/setup/insights-remove-program.png" alt-text="Screenshot of  removing Viva Glint data from being sent to Viva Insights.":::
 
 ## Coming soon - bring Viva Insights into Viva Glint! 
 
