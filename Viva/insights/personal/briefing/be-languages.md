@@ -8,8 +8,7 @@ ms.topic: article
 localization_priority: normal 
 search.appverid:
 - MET150
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
