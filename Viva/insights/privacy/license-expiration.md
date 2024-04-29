@@ -8,8 +8,7 @@ ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: scott.ruble

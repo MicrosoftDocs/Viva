@@ -9,11 +9,10 @@ ms.topic: article
 ms.localizationpriority: null 
 search.appverid:
 - MET150
-ms.service: viva
+ms.service: viva-insights
 ms.collection: M365-analytics
 manager: scott.ruble
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 # Assign licenses with PowerShell
