@@ -3,7 +3,7 @@ title: Understand Viva Glint SFTP and data automation
 description: Use Microsoft Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: sftp, data transfer, data automation
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2023
+ms.date: 04/29/2024
 ---
 
 # Understand Viva Glint SFTP and data automation
@@ -38,17 +38,23 @@ In Viva Glint general settings, manage Public SSH keys, add public IP addresses,
 
 ## Understand automated data import
 
-Viva Glint SFTP allows for full and incremental data files, regularly checks for and automatically imports new files, uses derivation to create calculated attributes during import, and works best with recommended file formats.
+Viva Glint SFTP: 
+
+- Allows for full and partial data files.
+- Regularly checks for and automatically imports new files.
+- Derives attributes to create calculated fields during import.
+- Works best with recommended file formats.
 
 ### SFTP directories
 
-In your SFTP account, there are 2 directories that Viva Glint monitors for files to automatically import:
+In your SFTP account, there are two (2) directories that Viva Glint monitors for files to automatically import:
 
 - **/files/user_full:** Use for FULL file uploads - existing employee records in the platform that are not included in your file become INACTIVE.
 - **/files/user_delta:** Use for INCREMENTAL file uploads - only the employee records in the file will be updated in the platform, all others will be unchanged.
 
 > [!NOTE]
-> Files are automatically deleted from SFTP after 48 hours.
+> - Files are automatically deleted from SFTP after 48 hours.
+> - Files that cause warnings and errors can be downloaded from the **Activity Audit Log** in **General Settings** for 28 days after import.
 
 ### Transfer methods
 
@@ -59,7 +65,7 @@ Depending on how frequently your organization imports data to Viva Glint, consid
 
 ### Derived attributes
 
-While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Agre Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
+While your employee data uploads to Viva Glint, derived attributes and values are calculated for Manager Hierarchy, Tenure, and Age Groups based on selections made during your attribute setup. [Learn more](send-employee-attributes.md).
 
 > [!NOTE]
 > Don’t include derived attributes in your employee data file, Viva Glint creates these fields.
@@ -83,7 +89,7 @@ Consistent file format and layout over time ensure successful file imports. Main
 
 **Naming convention:**
 
-Viva Glint recommends the following file naming conventions, where "companyid" is your unique ID within Viva Glint. Ensure that whichever name you select is 64 characters or fewer, including the file extension.
+Viva Glint recommends the following file naming conventions, where "companyid" is your unique ID within Viva Glint, but this file name method isn't required. Ensure that whichever file name you select is 64 characters or fewer, including the file extension.
 
 - Companyid_user_full_yyyymmdd.csv
 - Companyid_user_delta_yyyymmdd.csv
@@ -91,4 +97,4 @@ Viva Glint recommends the following file naming conventions, where "companyid" i
 For example: contoso_user_delta_20230101.csv
 
 > [!IMPORTANT]
-> File extensions must reflect PGP encryption, if used. For example, an encrypted .csv file should appear as: contoso_user_full_20230101.**csv.pgp**
+> File extensions must reflect PGP encryption, if used. For example, an encrypted .csv file extension would appear as: contoso_user_full_20230101.**csv.pgp**
