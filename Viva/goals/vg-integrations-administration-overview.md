@@ -1,5 +1,5 @@
 ---
-ms.date: 04/18/2024
+ms.date: 04/29/2024
 title: Enable integrations as a global admin in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -29,59 +29,48 @@ As a global admin, you can control which integrations are available for all Viva
 
 Information about the types of integrations in Viva Goals can be found [here](#integrations-overview), while information about roles and permissions in Viva Goals can be found [here](roles-permissions-in-viva-goals.md).
 
-## Choosing which integrations are available for your tenant
-
-Global admins have three options to choose from when deciding which integrations should be available to organizations in their tenants:
-
-- All available
-- None available
-- Select integrations are available
-
-### All available
-
-If you select this option, all integrations will be available to all Viva Goals organizations in your tenant. Org owners and org administrators can exercise further management over the integrations in their particular organizations.
-
-### None available
-
-If you select this option, no integrations will be available in your tenant.
-
-> [!IMPORTANT]
-> Existing connections will stop functioning if this option is selected.
-
-### Select integrations are available
-
-Selecting this option allows global admins to choose specific integrations to be available in their tenants. O365 core service integrations, such as Excel and Planner, are available by default.
-
-To modify which integrations are available in your organization, select the enable status for each integration you want to manage.<!--Check this.-->
-
-> [!IMPORTANT]
-> If you deselect an enabled integration, existing connections supported by that integration will stop working.<!--Check this.-->
-
 ## Manage integrations
 
 Only global admins have permission to manage which integrations are available for their tenants.
 
 1. Log in to your Viva Goals account.
 
-1. Select the organization from the navigation panel on the left.<!--Check this.-->
+1. Select the **Viva Goals Admin Center** icon in the top right corner to visit the admin portal.
 
-   :::image type="content" source="../media/goals/admin-controls/navigation-pane.png" alt-text="Screenshot showing the navigation side bar and how to select the organization." lightbox="../media/goals/admin-controls/navigation-pane.png":::
+1. Once you're in the admin portal, select the **Integrations** tab on the left side of the screen.
 
-1. Select **Create or join organization**.<!--Check this.-->
-
-   :::image type="content" source="../media/goals/admin-controls/select-create-join-org.png" alt-text="Screenshot showing how to select Create or join organization from the left navigation.":::  
-
-1. Select **Viva Goals admin portal**.<!--Check this.-->
-
- :::image type="content" source="../media/goals/admin-controls/select-setting.png" alt-text="Screenshot showing where to select the settings option from the organization page."lightbox="../media/goals/admin-controls/select-setting.png":::
-
-1. Configure the integrations settings for your tenant and select save. If you choose the **Selected integrations are available** option, select the integrations you want to manage and select **Save**.<!--Check this. I don't see a "save" presently-->
-
-   :::image type="content" source="../media/goals/admin-controls/integrations-selections.png" alt-text="Screenshot showing the list of integrations available for your tenant." lightbox="../media/goals/admin-controls/integrations-selections.png":::
+1. Configure the integrations settings for your tenant and select **Save**. If you choose the **Selected integrations are available** option, toggle the **Status** slider for the integrations you want to enable (or disable) and then select **Save**.
 
 > [!NOTE]
-> Selecting **None available** or deselecting integrations that were previously enabled will disable any existing connections associated with the integration in your tenant.
-<!--Check this; current UI shows **None available** Opted for that over the previously written "All integrations disabled.".-->
+> Selecting **All integrations disabled** or disabling integrations that were previously enabled will disable any existing connections associated with the integration in your tenant.
+
+## Choosing which integrations are available for your tenant
+
+Global admins have three options to choose from when deciding which integrations should be available to organizations in their tenants:
+
+- All integrations available
+- All integrations disabled
+- Selected integrations are available
+
+### All integrations available
+
+If you select this option, all integrations will be available to all Viva Goals organizations in your tenant. Org owners and org administrators can exercise further management over the integrations in their particular organizations.
+
+### All integrations disabled
+
+If you select this option, no integrations will be available in your tenant.
+
+> [!IMPORTANT]
+> Existing connections will stop functioning if this option is selected.
+
+### Selected integrations are available
+
+Selecting this option allows global admins to choose specific integrations to be available in their tenants. O365 core service integrations, such as Excel and Planner, are available by default.
+
+To modify which integrations are available in your organization, toggle the **Status** slider for each integration you want to enable (or disable).
+
+> [!IMPORTANT]
+> If you disable a previously enabled integration, existing connections supported by that integration will stop working.
 
 ## Integrations overview
 
