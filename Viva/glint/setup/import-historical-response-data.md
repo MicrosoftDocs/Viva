@@ -3,7 +3,7 @@ title: Import historical response data in Viva Glint
 description: For highly trained users, Microsoft Viva Glint Advanced Configuration offers the ability to import external, historical response data for items that trend with items that you select for your Viva Glint survey program.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Advanced configuration, external import, historical response data, historical import
@@ -204,10 +204,22 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 - Attributes and values that exist in historical data and Viva Glint data trend as expected.
 - If comments were included, review the Comments report to confirm that counts are accurate.
 
-> [!TIP]
-> If you've disable dervied attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
-
 > [!NOTE]
 > Viva Glint’s Narrative Intelligence may take time to process large amounts of open-ended feedback. Revisit the Comments report after 24 hours if data is not fully populated.
+
+## Import current employee data
+After your historical import is complete and results appear as expected, load your current employee data to Viva Glint to overwrite historical user information. Coordinate with other teams that regularly import employee data to Viva Glint to confirm when and how to load current user information. 
+
+> [!IMPORTANT]
+> If you disabled dervied attributes to import historical users and attributes, add Tenure Groups and Age Groups to your attribute setup again on the **Manage User Attributes** page by [reselecting and remapping attributes](update-attributes.md).
+
+Choose between two upload methods:
+
+1. [Upload employee data to the People page](https://go.microsoft.com/fwlink/?linkid=2230742)
+Upload employee data directly in the Viva Glint platform on the People page.
+   
+1. [Automatically import employee data with Viva Glint SFTP](https://go.microsoft.com/fwlink/?linkid=2247429)
+Use Viva Glint Secure File Transfer Protocol (SFTP) to leverage an automated import of employee data.
+
 
    
