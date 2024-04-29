@@ -7,11 +7,10 @@ author: madehmer
 ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: null 
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
 
-ms.subservice: viva-insights
 ---
 
 # Deploy the app
