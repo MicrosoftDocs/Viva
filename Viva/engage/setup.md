@@ -87,19 +87,19 @@ You can run Viva Engage on different surfaces. To give your users the greatest n
 - [Install the Viva Engage mobile app](https://support.microsoft.com/en-us/office/set-up-viva-engage-on-your-mobile-phone-e52e65ad-14fa-4db9-b8f7-80fe3f6e25a7)
 - [Access Viva Engage on the web](https://engage.cloud.microsoft/main/feed)
 
- ## Customize the appearance for Viva Engage in the Teams store
+## Customize the appearance for Viva Engage in the Teams store
 
- You can customize the appearance for the following properties of the Viva Engage app in the Teams app store:
+You can customize the appearance for the following properties of the Viva Engage app in the Teams app store:
 
- - app name
- - app description
- - app icons
- - accent color
+- app name
+- app description
+- app icons
+- accent color
 
 Customizing the Viva Engage app is a good choice for companies that tailor their network branding to fit their corporate identity.
 
 **Note:** Currently, customizations don't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience. To learn more, see [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
  
- ## Support adoption of Viva Engage
+## Support adoption of Viva Engage
  
-Review the contents of the [Viva Engage Adoption Guide](https://adoption.microsoft.com/en-us/viva/engage/) to help you get started, train and engage your organization, build champions, and secure your environment.
+Review the contents of the [Viva Engage Adoption page](https://adoption.microsoft.com/en-us/viva/engage/) to help you get started, train and engage your organization, build champions, and secure your environment.
