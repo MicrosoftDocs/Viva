@@ -26,7 +26,7 @@ Viva Goals supports integrations with Microsoft and third-party apps and platfor
 
 As a global admin, you can control which integrations are available for all Viva Goals organizations in your tenant.
 
-Information about the types of integrations in Viva Goals can be found [here](#integrations-overview), while information about roles and permissions in Viva Goals can be found [here](roles-permissions-in-viva-goals.md).
+Information about the types of integrations in Viva Goals can be found in [Integrations overview](#integrations-overview), while information about roles and permissions in Viva Goals can be found in [Roles and permissions in Viva Goals](roles-permissions-in-viva-goals.md).
 
 ## Manage integrations
 
