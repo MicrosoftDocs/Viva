@@ -61,7 +61,7 @@ Only Viva Glint scores are available in aggregate in the Viva Insights Power BI 
 
 Select **Send data to Viva Insights**
 
-:::image type="content" source="../../media/glint/setup/insights-select-programs.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
+:::image type="content" source="../../media/glint/setup/insights-send-data.png" alt-text="Screenshot of choosing program data to send to Viva Insights.":::
 
 **Now, [connect to the Microsoft Copilot dashboard](/../viva/insights/org-team-insights/copilot-dashboard) or any survey data on the [Insights Power BI template.](/../viva/insights/advanced/analyst/templates/introduction-to-templates)**
 
@@ -71,7 +71,7 @@ As an admin, you can stop sharing future data with Viva Insights by removing the
 
 :::image type="content" source="../../media/glint/setup/insights-manage-integration.png" alt-text="Screenshot managing the Viva Glint and Viva Insights integration.":::
 
-Hover over the ellipses net to the program to remove to access the actions available. Select **Remove program.**
+Hover over the ellipses next to the program to reveal the actions available. Select **Remove program.**
 
 :::image type="content" source="../../media/glint/setup/insights-remove-program.png" alt-text="Screenshot of  removing Viva Glint data from being sent to Viva Insights.":::
 
