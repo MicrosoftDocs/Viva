@@ -6,11 +6,10 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: viva
+ms.service: viva-insights
 ms.collection: M365-analytics
 manager: anirudhbajaj
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 **[Viva Insights community](https://techcommunity.microsoft.com/t5/viva-insights/ct-p/VivaInsights)** – Visit our community to connect with other Viva Insights users and share your experiences, contribute and receive support for common questions, and stay up to date on the latest features and tools.

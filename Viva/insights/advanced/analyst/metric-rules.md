@@ -9,8 +9,7 @@ ms.localizationpriority: medium
 manager: anirudh-bajaj
 audience: Admin
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 ---
