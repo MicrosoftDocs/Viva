@@ -52,7 +52,7 @@ Microsoft 365 Global administrator and Engage administrator roles can manage and
 |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Communications) <br> *Example:* Leadership corner, AMAs, storyline announcements |Viva Suite|
 |**Viva Engage Knowledge**|Answers in Viva premium experience |Viva Suite|
 
-## Configure privacy and security settings
+## Configure and review privacy and security settings
 
 The Engage administrator (Yammer administrator) can manage the content in Viva Engage.
 For details, see [Overview of security & compliance for Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance).
