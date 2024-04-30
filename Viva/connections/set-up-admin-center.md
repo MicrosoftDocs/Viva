@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
   - essentials-get-started
@@ -34,11 +33,11 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 >
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
 > - Viva Connections does not have any requirements to get started.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
-> - Centralized Viva Connections administration in the Microsoft 365 Admin center and the multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
+> - Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 [Microsoft Viva Connections](viva-connections-overview.md) is an employee experience app in Microsoft Teams that brings together relevant news, conversations, resources, and tools in one place for every employee. It's built on your current Microsoft 365 ecosystem to help you engage, inform, and empower your workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 

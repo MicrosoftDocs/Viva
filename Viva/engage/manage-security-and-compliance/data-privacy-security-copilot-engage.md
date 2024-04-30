@@ -8,9 +8,11 @@ manager: elizapo
 ms.date: 01/17/2024
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
-ms.localizationpriority: high
+ms.service: viva-engage
+ms.localizationpriority: medium
+ms.collection: 
+ - viva-copilot
+ - magic-ai-copilot
 search.appverid:
 - MET150
 - MOE150
@@ -21,11 +23,7 @@ description: "Learn how Copilot protects your data in Viva Engage (Public Previe
 
 # Data, Privacy, and Security for Copilot in Viva Engage
 
->[!IMPORTANT]
->Copilot for Viva Engage is currently available only for public preview customers.  The features described here are subject to change.
-
-### Copilot in Engage
-Copilot in Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot in Engage provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
+Copilot in Viva Engage is your partner and coach for posting on Viva Engage in ways that support your professional goals. Copilot in Engage provides access to large language model (LLM) technology, which is a type of technology that you can ask to do language-based tasks for you, similarly to how you might ask a person. 
 
 ### Copilot capabilities
 

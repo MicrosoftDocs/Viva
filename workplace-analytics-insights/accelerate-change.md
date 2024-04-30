@@ -7,10 +7,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 # Accelerate change insights
@@ -46,7 +45,7 @@ You also might see one or more groups listed who are affected and would benefit 
 
 Leveraging the right people to promote new technology can help drive adoption at scale. Well-connected people share information efficiently, but are not always easy to identify.
 
-The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
+To leverage influencers:
 
 * Use [Microsoft Viva Insights](/viva/insights/personal/use/use-the-insights) and the [Network](/viva/insights/personal/use/network) page to see connections, top collaborators, and suggestions on how to improve connections and cultivate influence.
 * Use [Microsoft Teams channels](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive conversations.

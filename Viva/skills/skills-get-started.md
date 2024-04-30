@@ -4,11 +4,10 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/15/2023
+ms.date: 04/16/2024
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -42,7 +41,7 @@ Choose the skills you’d like to use from the default skills library in Viva. T
 
 ## Import your custom skills library  
 
-Choose whether you’d like to import your own custom skills library. This step is optional if you’ve selected skills from the default skills library in Viva.  
+Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
 
 1. Select **Download library template** and **Download mapping template**. 
 
@@ -79,7 +78,7 @@ Choose whether you’d like to import your own custom skills library. This step 
 
 5. Paste the file paths for both files into the Skills custom import step  
 
-6. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
+6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
 > [!NOTE]
 > - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
@@ -87,6 +86,8 @@ Choose whether you’d like to import your own custom skills library. This step 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
 > - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
+> - When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
+> - Delete any "%20" strings that are present in your pasted filepaths. 
 
 ## Review your organization's skills library
 
@@ -109,7 +110,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
     1. If you turn on the skills library, once the setup process is complete and you have confirmed your selections, your skills library is created and users are able to being searching for and adding skills to their profiles within a matter of minutes.  
 
-    1. If you don't turn on the skills library, your organization’s skills library will still be created upon completion of the wizard, but it will not be available to users in your organization until you choose to publish it from **Settings.**
+    1. If you don't turn on the skills library, your organization’s skills library are still created upon completion of the wizard, but it won't be available to users in your organization until you choose to publish it from **Settings.**
 
 2. For skills to appear in Viva Learning, you must also select to **Allow skills in Viva Learning**.  
 
@@ -120,7 +121,7 @@ Settings for Skills in Viva allow you to manage the availability of skills in yo
 
 3. Users receive **skill suggestions** relevant to their role on default.  
 
-    1. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
+    1. When skill suggestions are on for users, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and can only manually confirm skills from a list. 
 
     1. Skill suggestions are on for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting using PowerShell. For more information, see [control access to features in Viva](../feature-access-management.md).
     

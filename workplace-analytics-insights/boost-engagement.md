@@ -7,10 +7,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 # Boost employee engagement insights
@@ -65,7 +64,7 @@ This section describes why each of the following behaviors matter and the top be
 
 ### Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition.
 
 One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](/viva/insights/personal/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
 
@@ -86,7 +85,7 @@ For more best practices and how to define and share working hours, see [Best pra
 
 Cultivating autonomy and development are essential for employee engagement. By empowering employees to make decisions and tackle new challenges, enables managers to be more effective and reclaim time.
 
-[How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that the "key to improving individual productivity is to eliminate or delegate unimportant tasks and replace them with value-added ones." Ways to empower employees:
+To empower employees:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
 * Use [Manager insights in Workplace Analytics](/viva/insights/manager-insights/introduction) to help identify ways to support team behavior.

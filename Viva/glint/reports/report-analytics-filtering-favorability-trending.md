@@ -1,5 +1,5 @@
 ---
-title: Make the most of Viva Glint reporting features
+title: Viva Glint reporting features
 description: "Viva Glint reports can be filtered and analyzed in various combinations to surface insightful and actionable results."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -12,37 +12,27 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/06/2023
+ms.date: 03/18/2024
 ---
 
-# Make the most of Viva Glint reporting features
+# Viva Glint reporting features
 
-The following terms will help you understand Viva Glint People Science terms and ensure that you get the most useful information from all your Viva Glint reports. 
+The following terms help you understand Viva People Science terms and ensure that you get the most useful information from your Viva Glint reports. 
 
 |**Term**| **Definition**|
 |-----------|-----------|
 |Mean score | The average for all provided questions/items in a survey, transformed into a 100-point scale.|
-|Engagement score | Calculated by computing the average score for eSat (Employee Satisfaction) - or eSat and Recommend (key driver) - or a customized aggregate. The overall score has the highest correlation with the drivers of engagement, along with outcomes like productivity and retention. This overall score can help managers understand how happy their team is at work. |
+|Engagement score | Calculated by computing the average score for eSat (Employee Satisfaction) - or eSat and Recommend (key driver) - or a customized aggregate. The overall score has the highest correlation with the drivers of engagement, along with outcomes like productivity and retention. This overall score helps managers understand how happy their team is at work. |
 |Favorability | Favorability provides the distribution of responses that make up the overall average score. It’s useful to know if there's a strong consistency in responses or if the average is a result of a wide and divided range of opinions. |
 |Favorability score  | Favorability is calculated by looking at responses that fall within a specific range based on the rating scale used. <br> In Viva Glint reporting schematics: <br> - Questions scored as favorable show in blue. <br> - Questions scored as neutral show in grey. <br> - Questions scored as unfavorable show in red. <br> For items scored on a 5-point rating scale (Viva Glint’s best practice), <br> - Items scoring mostly 4 s and 5 s are considered favorable.<br> - Items scoring mostly 3 s are considered neutral. <br> - Items scoring mostly 1 s and 2 s are considered unfavorable.   |
 
-## Read People Science explained: Primary Metric of Analysis 
-
-While using the Viva Glint platform to review survey results, leaders and managers can apply two types of reporting metrics for insights: 
-
-- Average scores for each survey question/item and dimension, and 
-- Favorability distribution comprising the percentage of favorable, neutral, and unfavorable responses for each question and dimension. 
-
-Read the People Science explained article: Primary Metric of Analysis for an in-depth understanding of how these metrics provide a holistic understanding of survey scores, enabling you to easily interpret results, take action on the right areas, and monitor improvement over time. 
-
 ## Filter a Viva Glint report 
 
-Microsoft Viva Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
+Viva Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
 
-Select the filter symbol at the top of the dashboard to expand the Filters panel. Select **+ Add Filters** to select attributes available in either the *People* section or the *Question Responses* section. Select the **X** to hide the filter panel.
+Select the **filter symbol** at the top of the dashboard to expand the *Filters* panel. Select **+ Add Filters** to select attributes available in either the *People* section or the *Question Responses* section. Select **X** to hide the filter panel.
 
 ### What is advanced filtering? 
 
@@ -50,30 +40,30 @@ Advanced filtering shows how one program impacts another. For example, you can r
 
 1. Select **Advanced**.  
 2. Select **Yes, enable advanced filtering**. 
-3. Select the **+** symbol that has been added to the Filter panel. Choose the program from the dropdown menu.  
+3. Select the **+ symbol** that has been added to the Filter panel. Choose the program from the dropdown menu.  
 
 ## Understand the scores calculation overview 
 
-**The primary metric (average score):** 
+**The primary metric (average score)** 
 
 - Best demonstrates how a group rates a particular question or item 
 - Provides the strongest insight across different scenarios, including viewing scores for small populations and trends over time 
 
 The average score for each question is the average of all the responses when converted to a 0-100 rating scale.  
 
-**The favorability score:** 
+**The favorability score** 
 
 In addition to the converted 0-100 rating scale, the Viva Glint platform reports favorability in percentages. There are three categories: Unfavorable, Neutral and Favorable.  
 
 Favorability provides an understanding of the spread and variability of the scores within the average. Looking at how the favorability distribution has changed over time also lets managers know where the movement occurred.    
 
-## Why using the mean score over the favorability score is recommended 
+## Using the mean score over the favorability score is recommended 
 
 Mean scores are: 
 
-- More robust and meaningful to track over time, even for smaller teams 
-- Highly correlated with behavioral, and business outcomes 
-- Consistent with other analysis performed 
+- More robust and meaningful to track over time, even for smaller teams. 
+- Highly correlated with behavioral, and business outcomes. 
+- Consistent with other analysis performed. 
 
 Favorability helps with understanding the spread and variability of responses, but there are drawbacks: 
 
@@ -90,7 +80,7 @@ Favorability helps with understanding the spread and variability of responses, b
 
 **Color coding for Strengths and Opportunities** 
 
-All items are ranked by comparing them to an existing benchmark. The top half of the items are considered strengths exhibited by your team, and the bottom half are considered opportunities for your team to focus on. 
+All items are ranked by comparing them to an existing benchmark. The top half of the items are strengths exhibited by your team, and the bottom half are opportunities for your team to focus on. 
 
 - Red: Opportunity - Scores may be above or below benchmark, but items in red are considered opportunities. 
 - Blue: Strength - Scores may be above or below benchmark, but items in blue are considered strengths. 
@@ -118,7 +108,7 @@ The colors in the Heat Map are meant to allow quick identification of systemic p
   - Gray would be 64-68 with the other shades being in between
     *(For changes and differences, the middle gray is used for 0 change or difference. 	Dark red is used for the biggest negative difference/change, and dark blue for the 	biggest positive change, and the other color buckets are evenly spaced between the 	maximum/minimum values and 0 on either side.)* 
 
-## Understand aggregate trending 
+## [Understand aggregate trending](https://go.microsoft.com/fwlink/?linkid=2234925)
 
-Aggregate trending supplies historical data over time. There's a trend point, which reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. 
+Aggregate trending supplies historical data over time. A trend point reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. 
 

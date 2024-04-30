@@ -11,10 +11,9 @@ keywords: advanced configuration, uploads, retroactive update, bulk custom acces
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high pri
-ms.date: 09/15/2023
+ms.date: 02/27/2024
 ---
 
 # Use Advanced Configuration Uploads
@@ -24,14 +23,18 @@ For highly trained users, Microsoft Viva Glint the Advanced Configuration Upload
 ## Review upload types
 
 - **MANAGERS_UPLOAD:** To upload custom results data access for dashboard users in bulk.
-- **USERS_UPLOAD:** 
-   - To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
-   - Use the guidance in this article to perform a Retroactive USERS_UPLOAD.
+- **Retroactive User Updates:** To perform an upload to user data in closed surveys.
 - **ROLE_UPLOAD:** To upload users to a Viva Glint User Role, follow the guidance in this article: [Import and export Viva Glint User Roles](https://go.microsoft.com/fwlink/?linkid=2230866).
+
+> [!NOTE]
+> To upload employee data, follow the guidance in this article: [Upload your employee attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742).
+
+> [!CAUTION]
+> Uploads performed in Advanced Configuration do not calculate derived fields or transform date formats to yyyy/mm/dd. If data should be derived, like Tenure from Hire Date, load data through the Viva Glint People page or SFTP.
 
 ## Perform a MANAGERS_UPLOAD
 
-When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant 1 or a few users access to custom segments of data, grant custom access from their user profile: [Learn more](https://go.microsoft.com/fwlink/?linkid=2230740).
+When several users need customized data access to their Viva Glint Dashboards, use the MANAGERS_UPLOAD to update their access in bulk. To grant 1 or a few users access to custom segments of data, grant custom access from their user profile: [Learn more](https://go.microsoft.com/fwlink/?linkid=2266497).
 
 ### To upload custom access for multiple users:
 
@@ -74,16 +77,20 @@ Displays on her profile like this:
 
 :::image type="content" source="../../media/glint/setup/glint-custom-access.png" alt-text="Screenshot of a user's custom Cost Center, Manager Team, and Location access.":::
 
-## Perform a Retroactive USERS_UPLOAD
+## Perform Retroactive User Updates
 
-When a survey has closed, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive Upload to apply new values. This option applies new data to past versions of user data and does not touch current employee information.
+When a survey has closed, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and does not touch current employee information.
+
+> [!NOTE]
+> To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
 
 > [!IMPORTANT]
-> To retroactively update a Manager Hierarhcy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive USERS_UPLOAD option. [Learn more](https://go.microsoft.com/fwlink/?linkid=2245700).
+> If your organization can't save files in .csv format, Retroactive User Updates isn't an opton. Instead:
+> 1. Import an .xlsx file to the [People page](upload-employee-attributes.md).
+> 2. [Create a User Role](set-up-user-roles.md) and add these users to the role.
+> 3. Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md) and select your User Role in **roleOrDistributionList.** 
 
-### To perform a Retroactive upload:
-
-Use these steps to perform a Retroactive Upload:
+### To perform a Retroactive User Updates upload:
 
 > [!CAUTION]
 > Do not perform a retroactive update while a Viva Glint survey is live.
@@ -97,11 +104,10 @@ Use these steps to perform a Retroactive Upload:
       1. For example: To correct Department = ‘Sales’, ‘SALES’, ‘sales’, which create 3 values where there should be one in reporting, update all users to Department = ‘Sales’.
    1. Save your edited file with corrected values in.csv format.
 1. In the **Advanced Configuration** menu, select **Uploads**.
-1. In the **Choose job type** dropdown list, select **USERS_UPLOAD**.
-1. Switch on the **Retroactive** toggle.
-1. Switch on the **Incremental** toggle.
+1. In the **Choose job type** dropdown list, select **Retroactive User Updates**.
 1. In the **Survey** dropdown list, select your survey.
 1. In the **Survey Cycle** dropdown list, select your survey cycle.
+1. Switch on the **Incremental** toggle.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 1. Confirm the **File to be Uploaded** and select **Upload**.
 1. In the **Upload Job Details** page that appears, confirm that the **Attribute(s)** and **Updated users** count match the attributes and count of users in your uploaded file.

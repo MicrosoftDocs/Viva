@@ -9,8 +9,9 @@ ms.localizationpriority: medium
 ms.collection:
  - viva-insights-advanced
  - essentials-privacy
-ms.service: viva 
-ms.subservice: viva-insights
+ - essentials-compliance
+ - essentials-security
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---

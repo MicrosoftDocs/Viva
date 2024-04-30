@@ -68,10 +68,12 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
-          - name: Organization insights FAQ
-            href: org-team-insights/org-insights-faqs.md
-          - name: Microsoft Copilot Dashboard (Preview)
+          - name: Delegate access
+            href: org-team-insights/delegate-access.md
+          - name: Microsoft Copilot Dashboard for Microsoft 365 customers
             href: org-team-insights/copilot-dashboard.md      
+          - name: Microsoft Copilot Dashboard advanced features
+            href: org-team-insights/copilot-dashboard-advanced-features.md    
       - name: Advanced insights
         items:
         - name: Introduction to advanced insights
@@ -122,8 +124,6 @@ items:
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
               href: advanced/analyst/power-bi-connector.md   
-            - name: Query results FAQs
-              href: advanced/analyst/query-results-faq.md   
           - name: Templates
             items:
             - name: Introduction to templates

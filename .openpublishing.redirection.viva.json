@@ -1,6 +1,6 @@
 {
     "redirections": [
-        {
+        { 
             "source_path": "Viva/insights/azure-templates/cancel-service.md",
             "redirect_url": "/previous-versions/viva/insights/azure-templates/cancel-service",
             "redirect_document_id": false
@@ -949,6 +949,55 @@
             "source_path": "viva/engage/troubleshoot-problems/help-users-log-in-to-viva-engage-on-android-devices.md",
             "redirect_url":"/viva/troubleshoot/engage/help-users-log-in-to-viva-engage-on-android-devices",
             "redirect_document_id": false
-        }
+        },
+        {
+            "source_path": "viva/glint/reports/people-science-explains-focus-areas.md",
+            "redirect_url": "/viva/glint/people-science/people-science-explains-focus-areas",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/glint/setup/import-external-people-science-pov.md",
+            "redirect_url": "/viva/glint/people-science/import-external-people-science-pov",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/glint/setup/people-science-benchmark-philosophy.md",
+            "redirect_url": "/viva/glint/people-science/people-science-benchmark-philosophy",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/viva-engage-user-is-displayed-as-former-member.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/cannot-migrate-a-viva-engage-network-across-office-365-tenants.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/engage/troubleshoot-problems/upgrade-your-network-to-stand-alone-viva-engage.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/get-started-with-viva-engage/administrative-settings-opt-in.md",
+            "redirect_url":"/viva/troubleshoot/engage/viva-engage-welcome",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "Viva/engage/badges.md",
+            "redirect_url": "/Viva/engage/eac-answers-overview-set-up",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/glint/start/four-stages-glint-program.md",
+            "redirect_url": "/viva/glint/start/program-types-templates",
+            "redirect_document_id": false
+        },
+	{   "source_path": "viva/glint/reports/report-access-levels.md",
+	    "redirect_url": "/viva/glint/setup/live-versus-phased-access",
+	    "redirect_document_id": false
+	}
     ]
 }

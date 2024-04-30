@@ -12,10 +12,9 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/18/2023
+ms.date: 02/27/2024
 ---
 
 # Diversity and Inclusion survey program in Viva Glint
@@ -38,3 +37,17 @@ DIBS survey feedback provides:
 - Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences.
 - Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, as well as the ability to derive cross-program insights.
 
+## Admin setup for the Microsoft Copilot Impact survey template
+
+The Diversity and Inclusion template is found in the *Recurring* section on the *Create a Program* page.
+
+From the admin dashboard, select **Configure*** and then **Survey Programs**.
+Select **+ New Program**.
+Select the **Diversity and Inclusion card**.
+
+:::image type="content" source="../../media/glint/setup/diversity-inclusion-card.png" alt-text="Screenshot of where to select the Diversity and Inclusion Program template card in Create a Program."lightbox="../../media/glint/setup/diversity-inclusion-card.png":::
+
+## Next Step
+
+> [!div class="nextstepaction"] 
+> [Follow the guidance in Program Summary to set up your survey.](../../glint/setup/program-summary-overview.md)

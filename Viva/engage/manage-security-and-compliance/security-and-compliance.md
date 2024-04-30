@@ -9,8 +9,7 @@ ms.date: 01/04/2024
 audience: Admin
 ms.topic: reference
 ms.localizationpriority: medium
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.collection: essentials-security
 ms.custom: Adm_Yammer
 search.appverid:
@@ -171,9 +170,9 @@ A: Yes it is. See [Microsoft 365 Trust Center](https://go.microsoft.com/fwlink/?
 
 ### Q: Is Viva Engage security independently verified?
 
-A: Yes. [ISO27001](https://go.microsoft.com/fwlink/?LinkID=615104) is the global standard in information security. Independent auditors have verified that Viva Engage meets the rigorous set of physical, logical, process, and management controls defined by the ISO 27001 standard.
+A: Yes. [ISO27001](https://www.iso.org/standard/27001) is the global standard in information security. Independent auditors have verified that Viva Engage meets the rigorous set of physical, logical, process, and management controls defined by the ISO 27001 standard.
 
-Viva Engage participates in the [Microsoft Online Services Bug Bounty](https://go.microsoft.com/fwlink/?LinkID=615101), which allows thousands of security researchers to test Viva Engage and help make our products even safer for users.
+Viva Engage participates in the [Microsoft Online Services Bug Bounty](https://www.microsoft.com/msrc/bounty-online-services), which allows thousands of security researchers to test Viva Engage and help make our products even safer for users.
 
 ## User Management FAQs
 

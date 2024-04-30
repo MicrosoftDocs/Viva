@@ -4,11 +4,10 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 07/11/2022
+ms.date: 04/19/2024
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -20,12 +19,12 @@ description: Learn how to configure Udacity as a learning content source for Mic
 
 # Configure Udacity as a content source for Microsoft Viva Learning
 
-This article shows you how to configure Udacity as a third-party learning content source for Microsoft Viva Learning. You'll need an active Udacity license, and a Microsoft Viva Suite or Viva Learning license to add Udacity as a content source for your organization.
+This article shows you how to configure Udacity as a third-party learning content source for Microsoft Viva Learning. You need an active Udacity license, and a Microsoft Viva Suite or Viva Learning license to add Udacity as a content source for your organization.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Udacity content and any associated services are subject to Udacity's privacy and service terms.
 
-Eliminate your talent gaps in digital technologies like data science, ML, cloud, cybersecurity, and more. Create job ready talent to accelerate your most critical initiatives, unlocking innovation that fuels growth. [Learn more about Udacity](https://www.udacity.com/) and [see the full catalog here](https://enterprise.udacity.com/udacity-catalog).
+Eliminate your talent gaps in digital technologies like data science, ML, cloud, cybersecurity, and more. Create job ready talent to accelerate your most critical initiatives, unlocking innovation that fuels growth. [Learn more about Udacity](https://www.udacity.com/) and [see the full catalog](https://enterprise.udacity.com/udacity-catalog).
 
 ## Configure in your Udacity portal
 
@@ -40,18 +39,18 @@ Eliminate your talent gaps in digital technologies like data science, ML, cloud,
 6. Request your company's Customer Company ID from your Udacity Customer Success Manager.
 7. For more details, you can view [Udacity's PDF walkthrough guide](//download.microsoft.com/download/8/9/8/898ce39c-03b0-4c9b-88c0-a4da1c8435f6/EMC%20Catalog%20API-merged.pdf).
 
-You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
+You can [contact Udacity Support](mailto:strategicalliances@udacity.com) for help with getting in touch with your Customer Success Manager. If you aren't yet a customer, you can [explore Udacity further here](https://www.udacity.com/enterprise/overview).
 
 ## Configure in the Viva Learning Admin tab
 
 After you've received the required configuration details from Udacity portal by using the previous steps, the tenant admin needs to configure Udacity as a learning source in the Viva Learning Admin tab.
 
 > [!NOTE]
-> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps..
+> You'll need to have M365 admin or Knowledge manager permissions in Microsoft 365 to complete these steps.
 
-1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb)
+1. Open Viva Learning App in Teams or go to the Viva Learning [Web App](https://aka.ms/VivaLearningWeb).
 
-2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider** 
+2. Go to the **Admin** tab in Viva Learning and select **Manage Providers** on the left menu. Select **Add Provider**.
 
 3. Select **Udacity** from list and select **Next**. 
 

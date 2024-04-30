@@ -1,17 +1,16 @@
 ---
 title: "View and manage analytics in Viva Engage"
-description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor audience engagement (audience analytics), campaign engagement, and monitor engagement in Answers."
+description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor engagement across the organization."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 10/16/2023
+ms.date: 2/15/2024
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
@@ -64,7 +63,7 @@ Network analytics provide valuable insights into employee engagement and communi
 
 :::image type="content" source="../media/engage/admin/engage-network-analytics.png" alt-text="Screenshot of the Viva Engage admin center for viewing and managing Network analytics.":::
 
-Learn more about metrics featured in the Network analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/bg-p/Viva_Engage_Blog).
+Learn more about metrics featured in the Network analytics dashboard on the [Viva Engage blog](https://techcommunity.microsoft.com/t5/viva-engage-blog/network-analytics-available-now-in-viva-engage/ba-p/4030771).
 
 ## Audience analytics  
 
@@ -83,7 +82,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 - **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
 
--	**Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
+-   **Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
 
 ## Global Answers analytics
 

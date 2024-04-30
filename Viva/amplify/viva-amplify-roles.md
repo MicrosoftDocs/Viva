@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-amplify
+ms.service: viva-amplify
 search.appverid: MET150
 ms.collection:
   - enabler-strategic

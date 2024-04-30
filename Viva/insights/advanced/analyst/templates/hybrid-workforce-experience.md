@@ -1,5 +1,5 @@
 ---
-ms.date: 03/02/2023
+ms.date: 03/18/2024
 title: Hybrid Workforce Experience Power BI report
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -7,15 +7,14 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
 audience: Admin
 ---
 
-# Hybrid workforce experience report 
+# Hybrid experience report (manual)
 
 As leaders figure out their organization’s new working models, the Hybrid workforce experience Power BI report helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
 

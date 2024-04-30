@@ -9,9 +9,8 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
-localization_priority: Priority
+ms.service: viva-goals
+ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri

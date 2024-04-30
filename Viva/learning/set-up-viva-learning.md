@@ -4,11 +4,10 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/27/2021
+ms.date: 04/19/2024
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -24,18 +23,18 @@ description: Learn how to get Microsoft Viva Learning and manage it in the Teams
 
 ## Prerequisites
 
-You'll need to have Microsoft Teams deployed for your organization in order to use Viva Learning.
+You need to have Microsoft Teams deployed for your organization in order to use Viva Learning.
 
 ## Licensing
 
-Your Microsoft 365 or Office 365 Enterprise subscription includes Viva Learning with basic features. However, you'll need a Viva Learning or Viva Suite license to access premium features. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning?rtc=1).
+Your Microsoft 365 or Office 365 Enterprise subscription includes Viva Learning with basic features. However, you need a Viva Learning or Viva Suite license to access premium features. [Learn more about licensing](https://www.microsoft.com/microsoft-viva/learning?rtc=1).
 
 ## Admin roles and permissions
 
-To set up learning content sources in Viva Learning and manage individual licensing, you'll need these permissions:
+To set up learning content sources in Viva Learning and manage individual licensing, you need these permissions:
 
 - [Microsoft Teams admin](/microsoftteams/using-admin-roles)
-- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) (to configure SharePoint as a learning content source).
+- [Microsoft 365 global admin](/microsoft-365/admin/add-users/about-admin-roles) or [SharePoint admin](/sharepoint/sharepoint-admin-role) (to configure SharePoint as a learning content source)
 - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](overview-viva-learning.md).
@@ -52,7 +51,7 @@ The functionalities of the Microsoft 365 admin center include:
 - Assign knowledge administrator
 - Pin Learning in Teams
 - Manage availability in Teams admin center
-- Manage additional settings in Viva Learning through the Teams app
+- Manage other settings in Viva Learning through the Teams app
 
 ![Screenshot of the Viva learn page.](/viva/media/learn-admin.png)
 
@@ -73,6 +72,6 @@ Viva Learning is available to users from the Microsoft Teams app store. [Learn h
 
 ## Next steps
 
-[Manage content sources for Viva Learning in the Microsoft 365 admin center](content-sources-365-admin-center.md)
+[Manage content sources for Viva Learning in the Microsoft 365 admin center.](content-sources-365-admin-center.md)
 
-[Configure how content shows up in Viva Learning](use-tabs.md)
+[Configure how content shows up in Viva Learning.](use-tabs.md)

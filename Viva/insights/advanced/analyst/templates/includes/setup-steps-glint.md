@@ -3,8 +3,7 @@ ms.date: 05/19/2023
 author: zachminers
 ms.author: v-zachminers
 ms.topic: include
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 --- 
 
 3. Under **Query setup**:

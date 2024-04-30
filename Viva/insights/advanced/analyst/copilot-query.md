@@ -7,9 +7,11 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.collection: 
+- viva-insights-advanced 
+- viva-copilot
+- magic-ai-copilot
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: abelubetk
@@ -29,7 +31,7 @@ This feature is currently only available within person queries, but gradually we
 
 ## How to use Copilot with your query
 
-First, to access custom person queries, follow this navigation in the [advanced insights app](https://analysis.insights.viva.office.com):
+First, to access custom person queries, follow this navigation in the [advanced insights app](https://analysis.insights.cloud.microsoft):
 
 **Analysis** > **Custom queries** > **Person queries** > **Start analysis**
 

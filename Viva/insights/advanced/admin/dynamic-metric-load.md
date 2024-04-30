@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 1/2/2024
+ms.date: 3/1/2024
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -8,8 +8,7 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -56,7 +55,7 @@ Follow steps 1-10 outlined [here](/graph/data-connect-quickstart?source=recommen
 
 *Applies to: Application Administrator or Application Developer*
 
-Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account.
+Follow all steps outlined [here](/graph/data-connect-quickstart?source=recommendations&tabs=NewConsentFlow%2CPAMMicrosoft365%2CAzureSynapsePipeline&tutorial-step=3) to create your Storage Account. To select your region, [use these steps](/microsoft-365/enterprise/m365-dr-workload-other).
 
 After you've followed the steps above and your Storage account is set up:
 
@@ -76,7 +75,7 @@ After you've followed the steps above and your Storage account is set up:
     * **Subscription:** Select your Azure subscription
     * **Resource group:** mgdc-app-resource (or select an existing resource group)
     * **Key vault name:** mgdcdemokeyvault (or you can name and select your own)
-    * **Region:** Select region. [Pick an Azure region in the same region as your Microsoft 365 region](/graph/data-connect-datasets#regions).
+    * **Region:** Select region [using these steps](/microsoft-365/enterprise/m365-dr-workload-other).
     * **Pricing tier:** Standard
     * **Days to retain deleted vaults:** Default
     * **Purge protection:** Default
@@ -125,7 +124,7 @@ If you have already enabled MGDC, you will need to:
 > [!IMPORTANT]
 > Make sure you have the correct Insights Analyst role. Previous users of the legacy Workplace Analytics platform might have the "Analyst" role. To complete this process, you need the "Insights Analyst" role. Use [these steps](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user#assign-a-role) to enable the Insights Analyst role.
 
-1. Open a browser and sign in to the [Advanced Insights app](https://analysis.insights.viva.office.com).
+1. Open a browser and sign in to the [Advanced Insights app](https://analysis.insights.cloud.microsoft).
 1. To run a new query, in the **Analysis** tab, select **Start analysis** on a [Power BI template](../analyst/templates/introduction-to-templates.md) or [custom query](../analyst/person-query-overview.md). (If you already have query results to export, you can skip this step.)
 1. On the left navigation menu, select **Query results**.
 1. Once query results are available for a new or existing query, select the Azure icon to mark for egress.
@@ -153,7 +152,7 @@ There are a few unique steps, however, that are specific to this process for dyn
 * **Application ID**: Select your App service principal from Step 1
 * **Publish type**: Single-tenant
 
-Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**. For the static Viva Insights dataset, select **VivaInsightsDataset_PersonReport_V1**.
+Also, when you specify the datasets that the app registration needs to query, for a dynamic Viva Insights dataset, the name should be: **VivaInsightsDataset_Report_v1_[Viva Insights query name]**.
 
 > [!NOTE]
 > If you want to edit properties or datasets associated with the app, [use these steps](/graph/app-registration#update-app-registration-entry).
@@ -177,7 +176,7 @@ Also, when you specify the datasets that the app registration needs to query, fo
 
 *Applies to: Application Administrator or Application Developer, with Insights Analyst role*
 
-Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline.
+Use [these steps](/graph/data-connect-templates-overview) to generate a quick start template to set up the data pipeline. Use [these steps](/microsoft-365/enterprise/m365-dr-workload-other) to select your region.
 
 ### 9. Execute pipeline
 

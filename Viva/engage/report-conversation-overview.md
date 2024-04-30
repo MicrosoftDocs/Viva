@@ -5,13 +5,12 @@ description: "Configure conversation reporting in Viva Engage to enable people t
 ms.reviewer: ethli
 ms.author: mamiejohnson
 author: dwhitfield233
-manager: dmillerdyson
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection:  
 - M365initiative-viva

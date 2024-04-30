@@ -14,24 +14,26 @@
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
+     - name: Support Microsoft Copilot 365 adoption with prebuilt community
+       href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
-       href: eac-overview.md 
+       href: eac-overview.md
+     - name: Key concepts for Viva Engage admins
+       href: admin-key-concepts.md
+     - name: Admin roles and their functions in Viva Engage
+       href: eac-key-admin-roles-permissions.md 
      - name: Set up the Viva Engage admin center
        href: eac-get-started.md 
      - name: Access the Viva Engage admin center
        href: eac-as-access-eac.md 
      - name: Viva Engage Admin center - Frequently asked questions
        href: eac-faq.md
-     - name: Viva Engage Admin key concepts
-       href: admin-key-concepts.md
      - name: Overview of Native Mode
        href: overview-native-mode.md
      - name: Automatic Native Mode migration and network consolidation
        href: automatic-migration-native-mode.md
-     - name: Manage admin roles in Viva Engage
-       href: eac-key-admin-roles-permissions.md 
      - name: Network configuration
        items:
         - name: Configure your Viva Engage tenant
@@ -144,7 +146,7 @@
         href: analytics.md  
       - name: Rewards and recognition in Viva Engage
         href: badges.md  
-      - name: Overview and set up of Answers in Viva Engage
+      - name: Answers in Viva
         items:   
         - name: Set up Answers in Viva Engage
           href: eac-answers-overview-set-up.md
@@ -152,6 +154,8 @@
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md
+        - name: Use Answers Intelligent Importer to populate Engage communities with questions and answers
+          href: eac-answers-importer.md
       - name: Integration with Microsoft apps
         items:   
         - name: Integrate Viva Engage with other applications

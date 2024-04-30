@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+    "source_path": "Viva/glint/setup/release-dates.md",
+    "redirect_url": "/Viva/glint/setup/monthly-release-dates",
+    "redirect_document_id": false
+    },
+    {
       "source_path": "viva/learning/configure-successfactors-content-source.md",
       "redirect_url": "/viva/learning/sfsf-introduction",
       "redirect_document_id": true
@@ -358,6 +363,16 @@
     {
       "source_path": "viva/insights/use/group-insights.md",
       "redirect_url": "/viva/insights/org-team-insights/org-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/advanced/analyst/query-results-faq.md",
+      "redirect_url": "/viva/insights/advanced/analyst/query-results#faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "viva/insights/org-team-insights/org-insights-faqs.md",
+      "redirect_url": "/viva/insights/org-team-insights/org-insights#faqs",
       "redirect_document_id": false
     },
     {
@@ -1953,12 +1968,13 @@
     {
       "source_path": "viva/experience-role.md",
       "redirect_url": "/viva/microsoft-viva-overview",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "viva/learning/sfsf-enable-browser-optimized-playback.md",
-      "redirect_url": "/viva/learning/sfsf-enable-inline-playback",
+      "source_path": "viva/learning/sfsf-enable-inline-playback.md",
+      "redirect_url": "/viva/learning/sfsf-enable-browser-optimized-playback",
       "redirect_document_id": true
+      
     },
     {
       "source_path": "viva/goals/renaming-initiatives.md",
@@ -1973,6 +1989,11 @@
     {
       "source_path": "Viva/glint/setup/import-export-user-roles.md",
       "redirect_url":"/viva/glint/setup/export-user-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "Viva/solutions/incorporate-learning.md",
+      "redirect_url":"/viva/learning",
       "redirect_document_id": false
     }
   ]

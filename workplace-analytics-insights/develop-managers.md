@@ -7,10 +7,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: null 
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 # Develop effective managers insights
@@ -67,7 +66,7 @@ This section describes why each of the following behaviors matter and the top be
 
 Long and large meetings are costly and often a waste of manager time. Shorter and smaller meetings provide the best conditions for effective decision making.
 
-[The condensed guide to running meetings](https://insights.office.com/collaboration/how-to-run-effective-meetings-and-stop-wasting-time/) explains a few new ideas that can help make your meetings more effective, such as if "you want people to have the opportunity to contribute, you need to limit attendance." Ways to optimize meetings:
+To optimize meetings:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
 * Use [Manager insights in Workplace Analytics](/viva/insights/manager-insights/introduction) to help identify ways to support team behavior.
@@ -89,7 +88,7 @@ For more best practices and how to define and share working hours, see [Best pra
 
 Potential influencers are often difficult to discover within an organization. Employees who are well-connected and play an important role in sharing information throughout the organization may be effective leaders.
 
-The [Measuring your employees’ invisible forms of influence](https://insights.office.com/productivity/measuring-your-employees-invisible-forms-of-influence/) article says that "traditional organizational reporting structures limit managers’ visibility into how their employees are influencing and contributing to other teams. New workplace metrics are needed to help leaders get a more complete picture of this." Ways to leverage influencers:
+To leverage influencers:
 
 * Use personal network insights to cultivate influence and the [Network](/viva/insights/personal/use/network) page to see connections, top collaborators, and suggestions on how to improve connections.
 * Move cross-functional team collaboration to Microsoft Teams and ask influencers to create [Channels in Teams](/microsoftteams/teams-channels-overview) for cross-functional team collaboration and to drive the conversations.
@@ -99,7 +98,7 @@ For more best practices and how to identify and utilize influencers, see [Best p
 
 ### Promote coaching and development
 
-Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition. According to the research referenced in [What great managers do daily](https://insights.office.com/productivity/what-great-managers-do-daily/): "A Gallup study found that at least 70 percent of the variance in employee engagement scores is driven by who the boss is."
+Manager one-on-one (1:1) time can improve engagement and job performance, while lack of manager coaching can cause employee disengagement and attrition.
 
 One of the top best practices for promoting coaching and development is to require that managers schedule recurring 1:1 meetings with their direct reports for 30 minutes at least twice a month and hold them accountable for achieving that goal. See [Catch up with your team](/viva/insights/personal/use/use-the-insights#catch-up-with-your-team) for help with scheduling and managing your 1:1s.
 
@@ -109,7 +108,7 @@ For more best practices and how to develop a 1:1 conversation series, see [Best 
 
 Cultivating autonomy and development are essential for employee engagement. When managers empower employees to make decisions and tackle new challenges, enables them to be more effective and reclaim time.
 
-[How to boost your team’s productivity](https://insights.office.com/productivity/how-to-boost-your-teams-productivity/) explains that "helping your team manage its time well is a critical factor for its success." Ways to increase information sharing:
+To increase information sharing:
 
 * Use [Teams and OneNote](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) to share meeting notes about decisions and action items as an alternative way to keep your team informed.
 * Use [My team in Teams](/viva/insights/use/myteam) to identify ways to support team behavior.

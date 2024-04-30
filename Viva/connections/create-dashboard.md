@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
@@ -28,10 +27,6 @@ description: "Learn how to edit the Viva Connections dashboard"
 
 The Viva Connections dashboard provides fast and easy access to information and job-related tasks. Content on the dashboard can be targeted to users in specific roles, markets, and job functions.
 The dashboard consists of cards that engage viewers with existing Microsoft Teams apps, Viva apps and services, third-party apps, custom solutions using the SharePoint Framework (SPFx) framework, internal links, and external links.
-
-> [!NOTE]
->
-> The Viva Connections desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ![Screenshot that shows a Dashboard example for desktop and mobile.](../media/connections/vc-dashboard-flw.png)
 
@@ -103,7 +98,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you'll be 
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
    |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports.     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks.     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) to manage your team's work, assign tasks, and track tasks.     |
    |[Card designer](#design-your-own-card-with-a-quick-view) | ![Image of the card designer icon.](../media/connections/card-designer-card-icon.png) | Create your own cards and quick views using the [adaptive cards framework.](/adaptive-cards/templating/)|
    |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
    |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
@@ -135,7 +130,7 @@ The Approvals card connects to [Approvals in Microsoft Teams](https://support.mi
 
 ## Add the Assigned tasks card
 
-The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f).
+The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070).
 
 ![Example of an assigned tasks card.](../media/connections/assigned-tasks-card-example.png)
 
@@ -186,7 +181,7 @@ You can choose the **Card designer** option to design your own card that include
 8. Depending on the template type you’ve chosen, enter values for the properties. For example, if you have chosen the **Text and description** template type, you have to enter values for the **Heading** and **Description** properties in their respective text boxes.
 
    > [!NOTE]
-   >If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
+   > If you want a specific property to display that allows users to enter a value, but that property is not displayed, choose a different template type.
 
 9. Toggle **Enable card action** to **On** if you want the card to either go to a link or show a quick view when the user selects it.
 
@@ -246,7 +241,6 @@ Third-party cards and an entry point to browse more cards in the app store will 
 
 > [!NOTE]
 >
-> - This feature will become available to all customers by the end of January 2023.
 > - Site owners managing the Viva Connections dashboard will need to request third-party apps before they are available in the card toolbox.
 > - Some third-party apps require a service plan agreement with your organization.
 
