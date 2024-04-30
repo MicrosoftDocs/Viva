@@ -30,7 +30,7 @@ To set up Microsoft Viva Engage, you must have Microsoft 365 Global administrato
 As a foundational component of Microsoft Viva Engage, the Core Service Plan provides essential features and capabilities to enhance engagement and collaboration within your organization.
 
 - **If you don't enforce Viva Engage licensing**, users can access the Viva Engage Core experience.<br>
-- **If you do enforce Viva Engage licensing**, users can still access the Viva Engage Core experience. However, each user must be assigned:
+- **If you do enforce Viva Engage licensing**, users can still access the Viva Engage Core experience. However, each user must be assigned:<br>
 
     - a Microsoft 365 license, *and*
     - a Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
