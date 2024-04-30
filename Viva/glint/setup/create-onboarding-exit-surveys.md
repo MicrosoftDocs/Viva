@@ -12,35 +12,53 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/04/2024
+ms.date: 04/25/2024
 ---
 
 # Create a Viva Glint onboarding survey 
 
-Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization’s success. Viva Glint offers programs as a way for customers to send short, targeted surveys to their employees, which will deliver rich insights that translate into actionable opportunities to improve business.
+Microsoft Viva Glint believes that ongoing, frequent communications to solicit and collect employee feedback is crucial to an organization’s success. The Viva Glint Onboarding Employee Lifecycle survey provides data about how a new hire feels about their introduction to your organization and its culture.
 
-The Viva Glint Onboarding Employee Lifecycle survey provides data about how a new hire feels about their introduction to your organization and its culture.
-
-Our Viva People Science team continually updates Viva Glint survey templates so that they're always relevant in the current world of work.
+Our Viva People Science team continually updates Glint survey templates so that they're always relevant in the current world of work.
 
 ## Creating a people-centric organization begins with onboarding
 
-We have all been new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with new colleagues. With effective people practices, hopes can become a reality, and we can go on to become happy and successful in our new roles. Successful onboarding experiences can increase new hires’ self-efficacy, role clarity, social integration, and learning in the short-term, and can increase performance, retention, and organizational commitment.
+We're all new employees at one time or another. We start with excitement for the future, anticipation of challenges to come, and desire for belonging with our new colleagues. With effective people practices, hopes can become a reality, and we can be happy and successful in our new roles. Successful onboarding experiences can increase new hires’ role clarity, social integration, and learning and can subsequently increase performance, retention, and organizational commitment.
 
 ## Why is onboarding so important? 
 
-Research shows it typically takes 12 months for new hires to reach their full performance potential, but many organizations continue to think of onboarding as just a few events, often focusing on orientation and risk early disengagement and undesirable attrition. 
+Research shows it typically takes 12 months for new hires to reach their full performance potential, but many organizations continue to think of onboarding as just a few events. They often focus on orientation only and risk early disengagement and undesirable attrition. 
 
-- 56% of newly onboarded employees are likely to consider changing jobs within a year (Microsoft 2022 Work Trend Index) 
-- 30% of new hires have left a job in first 90 days 
-- With the “Great Reshuffle” trend, many people are rethinking where, when, and why they work 
+- 56% of newly onboarded employees are likely to consider changing jobs within a year (Microsoft 2022 Work Trend Index). 
+- 30% of new hires have left a job in first 90 days. 
+- With the “Great Reshuffle” trend, many people are rethinking where, when, and why they work. 
 
-This information creates a unique opportunity for organizations to rethink their onboarding experience to direct their new hires’ excitement and curiosity to sustainable, positive outcomes. 
+Onboarding feedback creates an opportunity for organizations to rethink their onboarding experience to direct their new hires’ excitement and curiosity to sustainable, positive outcomes. 
+
+## Viva Glint Onboarding Lifecycle program content
+
+|Item Name|Item Text|
+|---------|----------|
+|Onboarding Experience|Overall, I have had a good onboarding experience.|
+|Role Clarity|I clearly understand what is expected of me in my role.|
+|eSat|How happy are you working at [Company Name]?|
+|Job Preview|My experience so far matches the way the role was described.|
+|Resources|I have the resources I need to do my job well.|
+|Role Support|I receive the support (coaching, training, etc.) I need to perform my new role well.|
+|Authenticity|I feel comfortable being myself at work.|
+|Recruitment| The recruitment process was excellent.|
+|Consideration|My manager cares about me as a person.|
+|Awareness|I know what the different parts of [Company Name] do.|
+|Information|I have the information I need to do my job well.|
+|Team Support|I can get the help I need from my teammates and colleagues.|
+|Belonging|I feel a sense of belonging at [Company Name.]|
+|Self-efficancy|My onboarding has given me the confidence to be successful in my role.|
+|Openness|I can openly express my thoughts, questions, and ideas without fear of negative consequences.|
+|Barriers|What barriers (if any) are slowing you down right now?|
+|Reasons for joining|What were the main reasons you joined [Company Name]?|
 
 ## Next step
 
-> [!div class="nextstepaction"]
-> [Follow Employee Lifecycle Program Summary guidance to set up your onboarding program](https://go.microsoft.com/fwlink/?linkid=2262631)
+[Follow Employee Lifecycle Program Summary guidance to set up your onboarding program](https://go.microsoft.com/fwlink/?linkid=2262631).

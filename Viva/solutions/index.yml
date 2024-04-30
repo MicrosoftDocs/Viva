@@ -22,7 +22,7 @@ highlightedContent:
       url: /viva/solutions/introduction
     - title: Data lake solutions
       itemType: how-to-guide
-      url: /viva/solutions/data-lakes/viva-insights
+      url: /viva/solutions/
     - title: Data access automation
       itemType: get-started
       url: /viva/solutions/automate-exports

@@ -1,14 +1,15 @@
 ---
-ms.date: 02/07/2024
+ms.date: 03/29/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-ms.collection: viva-insights-personal
+ms.collection: 
+- viva-insights-personal
+- essentials-manage
 ms.localizationpriority: medium 
-ms.service: viva
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: user
 ---
@@ -26,7 +27,8 @@ To view organization insights:
 
 * You need to have a Viva Insights subscription (that is, a premium license).
 * To view organization insights for your team (direct and indirect reports), your Insights admin needs to assign you the [Group Manager](../advanced/setup-maint/manager-settings.md#configure-manager-settings) role in Viva Insights. And, you need to have a number of direct and indirect reports that meets or exceeds the [minimum group size](../advanced/setup-maint/privacy-settings.md#minimum-group-size) your Insights admin set.
-* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md). 
+* To view organization insights for the entire company, your Insights admin needs to assign you the [**Insights Business Leader** role](../advanced/setup-maint/assign-user-roles.md).
+* You can also view organization insights if you're given "delegate access" by a group manager. [See how delegate access works](./delegate-access.md).
 
 People in your organization also need to have a Viva Insights subscription so they can be measured in organizational insights. These employees are referred to as "measured employees." If you want to see an insight that reflects your entire company, everyone in the company needs to have a Viva Insights subscription.
 
@@ -44,6 +46,9 @@ For further detail about privacy and organization insights, refer to our [privac
 
 ## Using organization insights
 
+>[!Note]
+>If a group manager gives you delegate access to view organization insights, you can’t see the manager’s personal insights.
+
 Organization insights are divided into two sections: **Team insights**, which are focused on your organization and teams; and **Your insights**, which are focused on your own personal working habits and productivity. Let’s start with looking at **Team insights**.
 
 ### Team insights
@@ -56,7 +61,7 @@ Organization insights are more than just a dashboard—they also provide helpful
    Screenshot of the "Your organization insights" Home tab in the Viva Insights app.
 :::image-end:::
 
-In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and urgent collaboration. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
+In the Home tab, you’ll find cards for reports covering different types of trends across the groups you manage, such as new hire onboarding and external focus. Each of these cards corresponds to a broader report, which you can explore further by selecting it from the list on the left. Or you can select the card itself to dive deeper.
 
 [Learn more about these new reports for leaders](./leader-reports.md).
 
@@ -251,7 +256,7 @@ To learn more about how to utilize these types of insights and improve the way y
 
 The following table lists metrics related to organization insights. You can also access metric definitions while you're using Viva Insights—just select the (i) icon next to the organization insight card or organization insight page title.
 
-Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions.
+Refer to [Metric definitions](../advanced/reference/metrics.md) for all Viva Insights metric definitions. 
  
 |Metric	| How it’s calculated|
 |--------|--------------------|
@@ -267,3 +272,69 @@ Daily connected hours | Daily connected hours measures time in 30-minute blocks 
 |Manager 1:1 meeting hours| Manager 1:1 meeting hours measures how much time a person spends in meetings with just themselves and their direct manager. This is calculated based on a weekly average. 
 |Internal network size|Internal network size measures the number of colleagues connected to the person. Connections are based on at least two interactions in the prior four-week period, excluding very large and long interactions. 
 |Manager co-attendance rate	| Manager co-attendance rate measures what percentage of meeting hours are attended by both the person and the person’s direct manager.
+
+## FAQs
+
+###### Q1. Can I opt in or opt out of seeing organization insights?
+
+To opt out or back into seeing organizational insights, your Viva Insights administrator needs to enable or disable group manager permissions for you. They can enable these permissions by following the directions in [Manager settings](../advanced/setup-maint/manager-settings.md).
+
+###### Q2. How do I get access to organization insights?
+
+Refer to Subscriptions, roles, and access in [Organization insights](org-insights.md#subscriptions-roles-and-access).
+
+###### Q3. I see my organization insights cards, but the current week values are just “—“. What’s happening?
+
+Viva Insights only reports on activity for employees who are “active” in a week—that is, people who sent at least one message in Outlook or Teams or joined at least one meeting. This method improves accuracy by leaving out people who are away from work for an extended period, like when they're on vacation or taking a leave of absence.
+
+To protect individual privacy, you'll only see organization insights when the number of active group members meets the minimum group size your Insights admin set. Some groups might have a group size close to the minimum. In these cases, if enough people are away from work and the number of active people dips below the minimum, you won't be able to access organization insights for that week. However, you can still refer to trend charts on the **Wellbeing**, **Productivity**, and **Teamwork** tabs. These charts show results for previous weeks when your active group met the minimum privacy threshold. 
+
+###### Q4. How do organization insights handle holiday weeks?
+
+Generally, organization insights show lower activity during weeks with holidays, as the measured results aren't adjusted to make up for the holiday. If an employee takes the entire week off from work during the holiday week, they'll be excluded from the measured result. For employees who don't take the week off, Viva Insights measures the activity that *did* occur over the course of the week.
+
+As discussed in Q2, you might not see results during holiday weeks if enough of your group takes the week off from work and the active group size falls below the minimum privacy threshold.
+
+
+###### Q5. Why don’t I see cards showing peer comparison in my organization insights?
+
+To show you peer organization comparisons, Viva Insights looks for people who don’t report up to you, but do report up to your manager or skip-level manager. Viva Insights also checks the size of the peer organization group against the minimum group size to protect individual privacy. If you aren't seeing a peer comparison in your organization insights, it’s because not enough people meet the definition for a peer organization.
+
+If you're in the **Your company** view, peer comparison insights won't appear; no one's left in the measured population to compare against.
+
+###### Q6. There are data points missing from my trendline visuals. Why?
+
+To protect individual privacy when a group average appears in an organizational insight, Viva Insights checks to make sure the group is larger than the minimum group size.
+
+The measured group only counts people who are active in Outlook or Teams during the week, so the group size might be lower some weeks than others. For example, the group size is more likely to decrease during the holidays. That means that you might see a result for a particular group for one week, but not for a different week when the group size has gone below the minimum. As a result, you might sometimes see broken or incomplete trendlines.
+
+###### Q7. I don’t see all of the teams reporting to me in my organization breakdown visual. Why?
+
+To protect individual privacy when a group average appears in an organizational insight, Viva Insights checks to make sure the number of measured people active in Outlook and Teams is larger than the minimum group size. We won't show any groups smaller than the minimum group size.
+
+The [trend graph](org-insights.md#trend-graph) can show up to 20 groups that report up to you. You'll see organization insights for each group larger than the minimum group size.
+
+###### Q8. Why doesn’t the trendline chart show the most recent week of data?
+
+Viva Insights aggregates new data every week. Usually, the most recent week of data in a trendline is labeled with the first day of the last complete week. For example, if someone viewed their data on Wednesday, October 5, 2022, they'd see the most recent week of data labeled September 25, 2022. This data represents activity between September 25 and October 1.
+
+If the most recent week of data in the trendline is labeled earlier than the first day of the last complete week, it might be because:
+
+* The group size has fallen below the minimum in the most recent week.
+* If it’s early in the week, processing and aggregation of the new data may have been slightly delayed.
+
+###### Q9. What happens if I have fewer people reporting to me than I used to?
+
+If you're no longer a people manager and have no one directly or indirectly reporting to you, you won't be able to access organization insights.
+
+To be able to access organization trends, you need to have a certain number of direct and indirect reports in the most recent week of available data. This number needs to be above the minimum that your administrator set. 
+
+Here's what this means:
+
+If your *total* number of direct and indirect reports falls below this set minimum, organization insights won't be available to you. If this number seems like an error, your Insights administrator can validate your group against the organization hierarchy.
+
+Viva Insights bases your eligibility to view organization insights on the *total* size of your group, not just the number of employees in your group actively using Outlook and Teams. If the number of your direct and indirect reports who actively use  Outlook and Teams falls below the minimum in the most recent week, you'll still be able to access organization insights. The insights will just show data for the last period when your active group size was above the minimum. You won’t see insights for the week when the active group size was below the minimum. If the number of your direct and indirect reports who actively use Outlook and Teams falls below the minimum in the most recent week, you'll still be able to access organization insights. You won’t see insights for weeks when the active group size falls below the minimum.
+
+###### Q10. Can I send feedback about these features?
+
+We would love to hear from you! To send feedback, select the **Is this helpful?** link at the bottom of any page.

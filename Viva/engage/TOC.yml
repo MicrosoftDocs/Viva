@@ -14,6 +14,8 @@
        href: configure-copilot-for-engage.md 
      - name: Data, privacy, and security for Copilot in Viva Engage
        href: /viva/engage/manage-security-and-compliance/data-privacy-security-copilot-engage
+     - name: Support Microsoft Copilot 365 adoption with prebuilt community
+       href: /viva/engage/engage-365-copilot-adoption-platform
    - name: Setup and administration
      items:
      - name: Viva Engage Admin center overview 
@@ -144,7 +146,7 @@
         href: analytics.md  
       - name: Rewards and recognition in Viva Engage
         href: badges.md  
-      - name: Overview and set up of Answers in Viva Engage
+      - name: Answers in Viva
         items:   
         - name: Set up Answers in Viva Engage
           href: eac-answers-overview-set-up.md
@@ -152,6 +154,8 @@
           href: eac-answers-admin-scenarios.md
         - name: Answers in Viva Engage - Frequently asked questions
           href: eac-answers-faq.md
+        - name: Use Answers Intelligent Importer to populate Engage communities with questions and answers
+          href: eac-answers-importer.md
       - name: Integration with Microsoft apps
         items:   
         - name: Integrate Viva Engage with other applications

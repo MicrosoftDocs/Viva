@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
@@ -87,7 +86,7 @@ A Teams Channel announcement is displayed in the Viva Connections experience onl
 
 > [!NOTE]
 >
-> - If you have authentication issues, disable the **Limited-access  user permission lockdown mode** under site collection features from your SharePoint site. Learn more about [enabling or disabling site collection features](https://support.microsoft.com/office/a2f2a5c2-093d-4897-8b7f-37f86d83df04). 
+> - If you have authentication issues, disable the **Limited-access user permission lockdown mode** under site collection features from your SharePoint site. Learn more about [enabling or disabling site collection features](https://support.microsoft.com/office/a2f2a5c2-093d-4897-8b7f-37f86d83df04).
 > - Vanity domains are not supported. Contact your organization's support team for more information.
 > - Additional updates to an existing Teams Channel announcement will not be displayed in Viva Connections. Users will need to follow the link from the original announcement in Viva Connections to view the Teams Channel announcement.
 > - Teams Channel announcements that are deleted and then undone will show as unread.

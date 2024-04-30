@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 03/02/2023
+ms.date: 03/18/2024
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -8,8 +8,7 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -17,9 +16,10 @@ audience: Admin
 ---
 
 
-# Hybrid workforce experience report (preview)
+# Hybrid experience report (automated)
 
-*This experience is available only through private preview.*
+>[!Important]
+>This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 As leaders figure out their organization’s new working models, the **Hybrid workforce experience** Power BI report in Microsoft Viva Insights helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
 
@@ -27,7 +27,12 @@ As leaders figure out their organization’s new working models, the **Hybrid wo
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Microsoft Entra log-in information and employee activity on Microsoft 365 applications. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+#### About Microsoft’s ML-model to classify employees to onsite and remote
+A classification algorithm based on logs from Entra and M365 applications (Outlook, Teams, OneDrive, Sharepoint) is used to identify the work modality of licensed employees. Microsoft uses subnets of IP addresses identified by our machine learning algorithm to group network traffic from Entra/M365 applications as either belonging to an office location or not an office location. This process is done for licensed employees at a day-level, storing a Boolean value of 1 or 0 in the **Onsite days** and **Remote days** metric, depending on whether the employee is onsite or remote. Viva Insights neither stores the IP address nor subnet information of any employee. It only records the metric values (**Onsite days**, **Remote days** metrics), which is used in an aggregated fashion in the Hybrid PBI to classify into “mostly onsite," “mostly remote,” or in a “hybrid” category.
+
+The algorithm only uses three out of four octets of an IP address for the classification, and it never uses the employee’s actual physical location. Microsoft cannot infer any user's precise location, but only roughly estimate if the traffic was coming from a place where other users were co-located (in which case they are classified as “onsite”), otherwise, remote. The classification (clustering) technique to predict office vs. non-office for the data is based upon its similarity with the sample data. It assumes that data with similar traits sit together and uses distance measures at its core.
+
+This algorithm has better accuracy if employees in the tenant are not using any VPN. However, if they're using a 3rd party or a first party VPN, and split-tunneling is configured, the algorithm still works with the same accuracy, because Microsoft traffic bypasses the VPN.
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 

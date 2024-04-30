@@ -1,5 +1,5 @@
 ---
-title: Incorporate Copilot in Viva Glint into your Viva Glint Comments report 
+title: Incorporate Copilot in Viva Glint into your Viva Glint Comments report (preview)
 description: Copilot in Viva Glint provides leaders the opportunity to dig deeper into employee feedback by asking questions and receiving summaries of the comments and suggestions left by their employees in Viva Glint surveys.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -12,13 +12,16 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/26/2024
+ms.date: 04/29/2024
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Incorporate Copilot in Viva Glint into your Viva Glint Comments report 
+# Incorporate Copilot in Viva Glint into your Viva Glint Comments report (preview)
+
+>[!IMPORTANT]
+>This feature is currently availabile to preview customers only. Features described here are subject to change.
 
 Copilot in Viva Glint for comment summarization will soon be available to all Viva Glint customers at all contracting levels (standalone, Workforce Analytics and Employee Feedback mini suite, and Microsoft Viva suite customers). Copilot in Viva Glint is exclusive to the Viva Glint app.  
 

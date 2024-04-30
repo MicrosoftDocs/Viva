@@ -6,9 +6,10 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: viva-insights-advanced
-ms.service: viva 
-ms.subservice: viva-insights
+ms.collection: 
+- viva-insights-advanced
+- essentials-manage
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---
@@ -50,11 +51,11 @@ All three actions share the same two first steps:
 :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
 
 2.	The resulting page lists three options:
-    * **Update existing organizational data**
-    * **Delete fields**
-    * **Upload a new file to replace existing organizational data**.
+    * **Add or edit data**
+    * **Delete optional fields**
+    * **Replace all data**
 
-    :::image type="content" source="../images/admin-upload2-options.png" alt-text="Screenshot that shows starting data-upload process." lightbox="../images/admin-upload2-options.png":::
+    :::image type="content" source="../images/org-insights-1.png" alt-text="Screenshot that shows starting data-upload process." lightbox="../images/org-insights-1.png":::
 
     Make your selection based on what you want to do, then navigate to the corresponding section below for step 3.
 
@@ -63,8 +64,8 @@ All three actions share the same two first steps:
     |Add new employees (rows) |[Update existing organizational data](#update-and-replace-existing-data) |Your file includes needs to include all required fields (**PersonId**, **ManagerId**, and **Organization**) and other optional fields. |
     |Add new fields (columns)|[Update existing organizational data](#update-and-replace-existing-data)| Your file needs to include **PersonId** and other optional fields.|
     |Edit fields (columns)|[Update existing organizational data](#update-and-replace-existing-data)|Your file needs to include **PersonId** and other optional fields.|
-    |Delete attributes| [Delete optional fields from existing organizational data](#delete-optional-fields-from-existing-organizational-data)|You can only delete optional attributes. If you delete fields used in auto-refreshing queries, those queries will be disabled.|
-    |Replace all existing organizational data|[Replace existing data](#replace-existing-data)|This option *permanently deletes* all organizational data you’ve uploaded in the past. If your file is missing any fields, auto-refreshing queries that use those fields will be disabled.|
+    |Delete attributes| [Delete optional fields from existing organizational data](#delete-optional-fields-from-existing-organizational-data)|You can only delete optional attributes. If you delete fields used in autorefreshing queries, those queries will be disabled.|
+    |Replace all existing organizational data|[Replace existing data](#replace-existing-data)|This option *permanently deletes* all organizational data you’ve uploaded in the past. If your file is missing any fields, autorefreshing queries that use those fields will be disabled.|
 
 ## Update and replace existing data
 

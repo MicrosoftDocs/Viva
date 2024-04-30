@@ -1,5 +1,5 @@
 ---
-title: Propelling Action-taking through conversations - Viva People Science
+title: Propel Action-taking through conversations - Viva People Science
 description: The likelihood of employee feedback fueling organizational success hinges on the actions taken based on that feedback. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -12,21 +12,14 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/28/2024
 ---
 
-# Propelling Action-taking through conversations - Viva People Science
+# Propel Action-taking through conversations - Viva People Science
 
-The likelihood of employee feedback fueling organizational success
-hinges on the actions taken based on that feedback. Many companies
-build excitement and energy around taking the survey: “We want
-to hear from you!” and “Thank you for the feedback!”. However, the
-momentum often slows somewhere between “Here’s what we’re going
-to do about your feedback!” and what actually gets done to address
-issues and make positive incremental changes.
+The likelihood of employee feedback fueling organizational success hinges on the actions taken based on that feedback. Many companies build excitement and energy around taking the survey: "We want to hear from you!" and "Thank you for the feedback!". However, the momentum often slows somewhere between "Here’s what we’re going to do about your feedback!" and what actually gets done to address issues and make positive incremental changes.
 
 ## Compelling data points reveal why action taking is critical 
 

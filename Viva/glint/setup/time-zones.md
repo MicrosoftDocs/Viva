@@ -12,8 +12,7 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 12/07/2023
 ---
@@ -49,16 +48,17 @@ Set the default time zone in the **Company Information** section of **General Se
 
 Set notifications to **send in users’ time zones** in the **Communication section** of **General Settings**, found on the admin dashboard from the configuration page, in the **Service Configuration** section. Toggle to **YES** to activate and then select **Save Changes**.
 
-This setting applies to all survey programs and can’t be disabled or enabled at the survey program level. When enabled, a 24-hour buffer is added to survey start and end times to allow for users to access and submit surveys across the globe.
+This setting applies to all survey and results notification emails and can’t be disabled or enabled at the survey program level. When enabled, a 24-hour buffer is added to survey start and end times to allow for users to access and submit surveys across the globe.
 
 > For example:
 > Contoso, with a default time zone/headquarters in New York, wants to ensure that their Sydney, Australia employees receive and access their surveys at the same time in their day as the rest of their employee population. For survey invites to send to Sydney employees at 9:00 AM on March 28 in Australia/Sydney time, the survey will need to be active no later than 12:00 AM, March 27, New York time because New York is 14 hours behind Sydney.
 
 > Enabling sending in user time zone allows for invites to send to users at the appropriate time and to submit their surveys until midnight on April 12 by adding a 24-hour cushion before launch and after survey close.
 
-> |Survey activation|Survey launch|Survey close|Survey deactivation|
-> |:----------------|:------------|:-----------|-------------------|
-> |March 27, 12:00 AM|March 28, 9:00 AM|April 11, 12:00 AM|April 12, 12:00 AM|
+> | Event: |Survey activation|Survey launch|Survey close|Survey deactivation|
+> |:----------------  |:----------------|:------------|:-----------|-------------------|
+> | **Activity:** |Surveys generate/activate|Invites send|Survey ends |Surveys inactivated|
+> | **Time:** |March 27, 12:00 AM|March 28, 9:00 AM|April 11, 12:00 AM|April 12, 12:00 AM|
 
 > [!NOTE]
 > Users in any time zone can access a survey before receiving an email invite after the Survey Activation time if they have access to My Surveys in Viva Glint or with attribute-based survey access. Any results submitted appear in the dashboard at 12:00 AM on the survey launch day.

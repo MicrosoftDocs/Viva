@@ -7,11 +7,10 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium
-ms.service: viva
+ms.service: viva-insights
 ms.collection: M365-analytics, viva-insights-personal
 manager: helayne
 audience: Admin, user
-ms.subservice: viva-insights
 
 ---
 
@@ -191,7 +190,7 @@ Some Viva Insights feature descriptions start with _**Applies to**_ sections tha
 
 You can identify your _plan_ (and also your _service plan_) by following these steps:
 
-1. Open your [Home page](https://insights.viva.office.com/).
+1. Open your [Home page](https://insights.cloud.microsoft/).
 2. At the top right of the page, select your initials or picture, and then select **View account**.
 3. For **Subscriptions**, select **View subscriptions**:
 

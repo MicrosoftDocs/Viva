@@ -4,12 +4,11 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
-ms.date: 7/10/2023
+manager: elizapo
+ms.date: 8/10/2023
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
 search.appverid: 
@@ -56,7 +55,7 @@ Control how people access Viva Engage: set password policies, control external n
 
    - **Disable Related External Networks directory:** The Related Networks directory is a list of external networks to which one or more of your users belong. Selecting this box removes this directory from the External Network page.
 
-   - **Disable Our External Networks directory:** The Our External Networks directory lists all external networks attached to your Viva Engage network. Select this if you want to prevent users from viewing (and requesting to join) external networks.
+   - **Disable our External Networks directory:** The Our External Networks directory lists all external networks attached to your Viva Engage network. Select this if you want to prevent users from viewing (and requesting to join) external networks.
   
 ## Prevent intellectual property from being shared with external participants and on external networks
 

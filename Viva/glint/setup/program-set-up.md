@@ -12,8 +12,7 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/26/2024
 ---
@@ -30,7 +29,10 @@ The **Program Setup** page is the first configuration page within *Program Summa
 1. Select the administrators by searching by **Role** or entering their name into the **Search** feature.
 1. Select the **Default Language** from the dropdown menu.
 1. The list of **Additional Languages** is open and prepopulated with languages that have been set up for your organization in **General Settings**. To remove languages, select the **X** next to the language name.
-1. **Admin Notifications** To are prepopulated. Use the **Search** field to add other admins. To remove an admin, select **X** next to their name.
+1. **Admin Notifications** To are prepopulated. Use the **Search** field to add other admins. To remove an admin, select **X** next to their name. These users are notified of upcoming surveys:
+
+   :::image type="content" source="../../media/glint/setup/admin-survey-email.png" alt-text="Screenshot of the survey admin notification email for an upcoming Glint survey.":::
+
 1. Use the **Suggested Action Available** toggle to disable or enable users to create goals.
 1. Use the **Eligible for Nudges** toggle to disable or enable timely messages to managers. Refer to the [Nudges lesson for additional setup](https://www.microsoft.com).  
 1. Confidential Responses are set to YES by default.  

@@ -35,8 +35,8 @@
             href: sfsf-enable-learning-record-sync.md
           - name: Manage SAP SuccessFactors permissions
             href: sfsf-manage-permissions.md
-          - name: Enable inline playback
-            href: sfsf-enable-inline-playback.md
+          - name: Enable browser optimized playback
+            href: sfsf-enable-browser-optimized-playback.md
         - name: SharePoint
           items: 
             - name: Add SharePoint
@@ -46,9 +46,11 @@
             - name: FAQs in SharePoint
               href: sharepoint-faq.md
         - name: Workday
-          href: workday-integration.md
-        - name: Workday FAQs
-          href: workday-integration-faqs.md
+          items:
+            - name: Workday
+              href: workday-integration.md
+            - name: Workday FAQs
+              href: workday-integration-faqs.md
         - name: Cornerstone OnDemand
           href: configure-cornerstone-content-source.md
         - name: Saba
@@ -56,6 +58,10 @@
         - name: Add other content providers
           href: configure-other-content-sources.md
           items:
+            - name: Microsoft Learn
+              href: microsoft-learn.md
+            - name: Microsoft 365 training
+              href: microsoft-365-training.md  
             - name: Go1
               href: configure-go1-content-source.md
             - name: OpenSesame
@@ -92,14 +98,24 @@
           href: interests-troubleshooting.md
         - name: Download Learner Completion Records
           href: learner-completion-records.md 
-        - name: Manage academies
-          href: academy.md
-        - name: Advanced Searching 
-          href: advanced-search.md
-        - name: Overview of language 
-          href: language-overview.md
-        - name: Language preferences 
-          href: language-preferences.md
+        - name: Academy
+          items:
+          - name: Manage academies
+            href: academy.md
+          - name: Microsoft Copilot Academy
+            href: academy-copilot.md          
+        - name: Search 
+          items: 
+          - name: Advanced searching 
+            href: advanced-search.md
+          - name: Search preferences  
+            href: search-preferences.md
+        - name: Language
+          items: 
+          - name: Overview of language 
+            href: language-overview.md
+          - name: Language preferences 
+            href: language-preferences.md
         - name: Content tagging and metadata export
           href: content-tagging.md
         - name: Reporting in Viva Learning

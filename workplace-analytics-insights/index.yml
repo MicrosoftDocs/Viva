@@ -10,10 +10,9 @@ metadata:
  title: Microsoft Viva Insights
  description: Unleash your most powerful dataset by using insights from everyday work in Microsoft 365.
  ms.localizationpriority: null
- ms.service: viva
+ ms.service: viva-insights
  author: madehmer
  ms.author: helayne
- ms.subservice: viva-insights
 
 productDirectory:
  

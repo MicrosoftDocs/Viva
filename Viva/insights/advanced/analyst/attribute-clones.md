@@ -8,8 +8,7 @@ ms.author: v-klundquist
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: helayne
@@ -32,7 +31,7 @@ Attribute clones allow you to create copies of your admin-uploaded attributes an
 ### Create a new attribute clone
 Here are some ways to create a new attribute clone:
 
-- Create a new attribute clone by navigating to the Organizational Data tab in the left-hand navigation panel and then selecting Data Quality. Here you can see all the attributes that you have available to you. You now notice that there is a vertical ellipsis next to your existing attributes. Select the ellipses and then select the option to Clone Attribute.
+- Create a new attribute clone by navigating to the **Organizational Data tab** in the left-hand navigation panel and then selecting **Data Quality**. Here you can see all the attributes that you have available to you. You now notice that there is a vertical ellipsis next to your existing attributes. Select the ellipses and then select the option to **Clone Attribute.**
 
     >[!Note]
     >The Organizational Data tab is not available if you have access to a partition and not the Global partition. In this case, you must access the entry point via the query interface, explained in the next step.
@@ -54,12 +53,12 @@ Currently, you can add cloned attributes to both your person and meeting queries
 
 After creation, you're welcome to go back and edit the clone definition. Any new query runs reflect that new definition, including any recurring queries where that clone is being used.
 
-You can view the Data Quality of the Clone within the Organizational Data tab. If the Clone only takes input from a single column, it inherits the original column’s data quality information. If it takes input from multiple columns, the data quality information won't be available.
+You can view the Data Quality of the clone within the **Organizational Data tab.** If the clone only takes input from a single column, it inherits the original column’s data quality information. If it takes input from multiple columns, the data quality information won't be available.
 
 Only the creator of the clone can edit the definition of the clone or delete the clone. Other analysts can use the clone in their queries and view the definition of the clone. The clone is only visible and usable in the partition in which it was created. Clones are not transferrable to other partitions today.
 
 ### Delete attribute clones
-When you're ready to delete the clone, you can delete it from the Data Quality section under the Organizational Data tab. Only the creator of the clone can delete.
+When you're ready to delete the clone, you can delete it from the **Data Quality** section under the **Organizational Data tab.** Only the creator of the clone can delete.
 
 >[!Note]
 >If you use the workbench via a partition, the Organizational Data tab may not be available to you yet, and you won’t be able to delete. This tab should become available to you within the next few weeks.
