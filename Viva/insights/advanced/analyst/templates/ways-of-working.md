@@ -1,5 +1,5 @@
 ---
-ms.date: 02/20/2023
+ms.date: 04/30/2024
 title: Ways of working report
 description: Learn how the Ways of working PowerBI template from Microsoft Viva Insights helps you explore collaboration, meeting, wellbeing, and coaching patterns.
 author: zachminers
@@ -57,6 +57,9 @@ After the **Ways of working** report is set up and populated with Viva Insights 
 |**Select optional report filter** | To filter the measured employee population, you can filter by any selected organizational attribute, and then filter by any of the values for these attributes. If you use filters, the measured employees count will reflect a reduced number. Measured employees reflect the number of employees in the filtered population who were active during the specified time period. Active employees are those who’ve sent at least one email or Teams chat during a work week included in the current time period.|
 |**Exclusions** | Use the check boxes to: <ul><li> Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week in meetings, emails, and/or Teams calls and chats). <li>Exclude weeks that are likely holiday or paid-time-off weeks or weeks that individuals are on other types of leave.|
 |**Select the preferred language for your report** | Change the language for your report.|
+
+>[!Note]
+> Right now, the **Exclusions** listed above are not available if you choose to view the report in the browser. The **Exclusions** are only available if you download the Power BI template and open it on Power BI Desktop.
 
 After confirming the settings, check the number of measured employees to confirm this is the population you want to analyze.
 
