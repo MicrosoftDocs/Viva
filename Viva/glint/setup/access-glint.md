@@ -42,20 +42,16 @@ Glint users access surveys and dashboards with various internet browsers. Use th
 
 ## Access with a Microsoft Entra ID user account
 
-Your Entra or other IT admins choose [authentication methods in Microsoft Entra ID](/entra/identity/authentication/concept-authentication-methods) for Glint and other resources. For example: username and password + multifactor authentication with an app like Microsoft Authenticator. Select a link below based on the region that your organization's Glint tenant sits in and follow prompts to log in.
+Your Entra or other IT admins choose [authentication methods in Microsoft Entra ID](/entra/identity/authentication/concept-authentication-methods) for Glint and other resources. For example: username and password + multifactor authentication with an app like Microsoft Authenticator. Select a link based on the region that your organization's Glint tenant sits in and follow prompts to log in.
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
 
 ## Session timeout
 
-After certain periods of inactivity, you're prompted with an initial **Are you still here?** message and a Glint session ends after more inactivity.
+After 20 minutes of inactivity, you're prompted with an initial **Are you still here?** message. A Glint session ends after another 10 minutes inactivity.
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
-
-|Are you still here? prompt   |Session ends|
-|:-----------|:------------|
-|After 20 minutes of inactivity       |After another 10 minutes of inactivity        |
 
 ## Connection issue
 
