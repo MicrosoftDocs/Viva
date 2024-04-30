@@ -27,13 +27,13 @@ To set up Microsoft Viva Engage, you must have Microsoft 365 Global administrato
 
 **Core experience**
 
-As a foundational component of Microsoft Viva Engage, the Core Service Plan provides essential features and capabilities to enhance employee engagement and collaboration within your organization.
+As a foundational component of Microsoft Viva Engage, the Core Service Plan provides essential features and capabilities to enhance engagement and collaboration within your organization.
 
 - **If you don't enforce Viva Engage licensing**, users across your organization can access the Viva Engage Core experience.<br>
-- **If you do enforce Viva Engage licensing**, users can access the Viva Engage Core experience, provided each user is assigned a:
+- **If you do enforce Viva Engage licensing**, users can access the Viva Engage Core experience, if each user is assigned:
 
-    - Microsoft 365 license, *and*
-    - Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
+    - the Microsoft 365 license, *and*
+    - the Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
 
 **Premium experience**
 
@@ -72,7 +72,7 @@ From the Microsoft 365 admin center, you can:
 
 ### Install Viva Engage in Teams
 
-The Microsoft Teams admin can deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). Then, users can easily set up Viva Engage in Teams using the following steps:
+The Microsoft Teams admin can use [setup policies](/microsoftteams/teams-app-setup-policies) to deploy and pin the app for multiple users. To add the app to all your Teams clients, follow these steps:
 
 1. Open Teams on the web or in a desktop client.
 
@@ -84,7 +84,7 @@ The Microsoft Teams admin can deploy and pin the app for all users or for partic
 
 ### Install or access Viva Engage on other surfaces
 
-You can run Viva Engage on different surfaces. To give your users the greatest number of options, provide the following resources:
+You can run Viva Engage on different surfaces. To give users the greatest number of options, share the following resources:
 
 - [Install the Viva Engage desktop app](https://prod.support.services.microsoft.com/en-au/office/install-the-viva-engage-desktop-app-66ccb412-ca1d-4e43-872c-9705abf11b1b)
 - [Install Viva Engage on your iOS or Android phone](https://support.microsoft.com/en-us/office/set-up-viva-engage-on-your-mobile-phone-e52e65ad-14fa-4db9-b8f7-80fe3f6e25a7)
