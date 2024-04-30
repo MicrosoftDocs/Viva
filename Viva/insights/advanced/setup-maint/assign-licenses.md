@@ -48,6 +48,9 @@ For more information on licensing and user configuration, refer to [Configure pe
 
 After you've identified the population in scope, you as the Microsoft 365 global admin assign Viva Insights licenses to users in that population.
 
+>[!Note]
+>A minimum of 10 licenses is required to be assigned in order for data processing to kick off. Data processing takes an estimated 3-5 days from license assignment.
+
 Viva Insights licenses are assigned just like other Microsoft 365 product licenses. Assign licenses by using one of these options:
 
 >[!Note]
