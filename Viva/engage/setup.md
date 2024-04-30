@@ -37,7 +37,7 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 **Premium experience**
 
- Your organization can enjoy *premium Viva Engage experiences* if your tenant owns either of these plans:
+ Your organization can enjoy premium Viva Engage experiences if your tenant owns either of these plans:
 
 - Microsoft Viva Suite
 - Microsoft Viva Employee Communications and Communities
