@@ -99,7 +99,7 @@ You can customize the appearance for the following properties of the Viva Engage
 
 Customizing the Viva Engage app is a good choice for companies that tailor their network branding to fit their corporate identity.
 
-**Note:** Currently, customizations don't affect the Viva Engage app branding shown in the app _within_ the Viva Engage Experience. To learn more, see [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
+**Note:** Currently, customizations don't affect the Viva Engage app branding _within_ the Viva Engage Experience. To learn more, see [Customize details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
  
 ## Support adoption of Viva Engage
  
