@@ -1,12 +1,12 @@
 ---
-title: Review Allowed List and supported browser information for Viva Glint
-description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list and confirm supported internet browsers.
+title: Review allowed list information for Viva Glint
+description: Add approved domains, IPs, and ports, which can be different depending on your account's region, to your organization's allowed list.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: approved sender, allowed list, firewall, spam, browser
+keywords: approved sender, allowed list, firewall, spam
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,16 +14,16 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/15/2024
+ms.date: 04/30/2024
 ---
 
-# Review Allowed List and supported browser information for Viva Glint
+# Review allowed list information for Viva Glint
 
-## What is an Allowed List?
+## What is an allowed list?
 
-An Allowed List is a list of preapproved URL or email addresses that receive guaranteed access to your server. An Allowed List is a security feature to reduce unapproved access by allowing only trusted files, applications, and processes to be run.
+An allowed list is a list of preapproved URL or email addresses that receive guaranteed access to your server. An allowed list is a security feature to reduce unapproved access by allowing only trusted files, applications, and processes to be run.
 
-## Manage your Allowed List for Viva Glint
+## Manage your allowed list for Viva Glint
 
 Viva Glint operates in two distinct geographical regions: the United States and in the European Union. Add approved domains, IP addresses, and ports, which can be different depending on your account's region, to your organization's allowed list. Viva Glint recommends that you add **full domains,** and not the specific addresses. For example, to ensure users receive invites from [no-reply@glint.microsoft.com](mailto:no-reply@glint.microsoft.com), add **glint.microsoft.com** to your allowed list.
 
@@ -84,22 +84,3 @@ Your organization may require domains or URLs to be opened to access Viva Glint'
 Some Viva Glint applications require the use of **third-party cookies**, such as hosted learning content. Should you receive an error saying that your browser is missing an authentication cookie, take appropriate steps to allow this third-party cookie.
 
 If your organization requires the addition of an **IP exception** for Viva Glint's SFTP server, the US address is 172.174.87.0, and the EU address is 20.238.98.162.
-
-## Select a supported browser
-
-Viva Glint users access surveys and dashboards with various internet browsers. Use this information to verify that users' preferred browsers are supported for accessing Viva Glint.
-
-> [!IMPORTANT]
-> All users must access Viva Glint from a browser that supports TLS 1.2, which includes the latest versions of Microsoft Edge, Google Chrome, Safari, and Mozilla Firefox.
-
-|Browser  |Survey  |Dashboard|
-|----------|-----------|------------|
-|Microsoft Edge     |Supported       |Supported        |
-|Google Chrome   |Supported       |Supported        |
-|Safari     |Supported       |Supported        |
-|Mozilla Firefox|Supported       |Supported        |
-|iOS - Safari (Mobile)     |Supported       |Supported        |
-|Android - Chrome (Mobile)|Supported       |Supported        |
-
-> [!IMPORTANT]
-> Internet Explorer isn't a supported Viva Glint browser.
