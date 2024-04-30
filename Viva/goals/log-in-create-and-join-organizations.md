@@ -32,7 +32,7 @@ Anyone in the organization can log in to Viva Goals using their Microsoft Entra 
 
 1. Once you log in to Viva Goals, you can create or join an organization and begin creating OKRs. Choose one of the following paths to get started with an organization:
 
-    * You can use the company-wide organization, which is a default workspace that all iicensed members in the company have access to.
+    * You can use the company-wide organization, which is a default workspace that all licensed members in the company have access to.
 
     * Alternatively, you can [create a new organization](#create-your-own-organization) or [join an existing organization](#join-an-organization).
 
