@@ -32,8 +32,8 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 - **If you don't enforce Viva Engage licensing**, users can access the Viva Engage Core experience.<br>
 - **If you do enforce Viva Engage licensing**, users can access the Viva Engage Core experience--however, each user must be assigned:
 
-    - Microsoft 365 license, *and*
-    - Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
+    - a Microsoft 365 license, *and*
+    - a Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
 
 **Premium experience**
 
