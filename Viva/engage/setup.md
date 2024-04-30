@@ -23,30 +23,29 @@ search.appverid:
 
 ## Set up licensing for Viva Engage
 
-**Viva Engage Core experience**
+**Core experience**
 
-If you don't enforce Viva Engage licensing in your organization, users can access the Viva Engage core experience.
-<br>If you do enforce Viva Engage licensing in your tenant, each user must be assigned both:
+As a foundational component of Microsoft Viva Engage, the Core Service plan provides essential features and capabilities to enhance employee engagement and collaboration within your organization.
 
-- Microsoft 365 license, *and*
+- **If you don't enforce Viva Engage licensing** in your organization, users can access the Viva Engage core experience.<br>
+- **If you do enforce Viva Engage licensing** in your organization, users can access the Viva Engage core experience, provided that each user is assigned:
 
-- Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
+    - Microsoft 365 license, *and*
+    - Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
 
->[!NOTE]
->The Core Service plan is a foundational component of Microsoft Viva Engage and can provide essential features and capabilities to enhance employee engagement and collaboration within your organization.
+**Premium experience**
 
-**Viva Engage Premium experience**
-
-Microsoft 365 Global administrator and Engage administrator roles can manage and configure premium experiences for the organization if the tenant purchased either of the following premium licenses:
+Microsoft 365 Global administrator and Engage administrator roles can manage and configure *premium Viva Engage experiences* for the organization if the tenant purchased either of the following plans which include premium licenses:
 
 - Microsoft Viva Suite
 - Microsoft Viva Employee Communications and Communities
+
 
 >[!IMPORTANT]
 >Administrators don’t require a premium Viva Engage license to configure and set up premium Viva Engage and Answers experiences. Learn more about Viva Engage admin roles.
 [Manage Viva Engage licenses in Microsoft 365](/Viva/engage/manage-engage-licenses-microsoft-365).
 
-|Service plan |Enables |Comes with (SKUs)|
+|Service plan |Enables |Comes with this plan |
 |-------------------|---------|-------|
 |**Viva Engage Core**|Engage core experiences, including the Answers core experiences  <br> *Example:* Communities, storyline |Microsoft 365|
 |**Viva Engage Communities and Communications**|Engage premium experiences (Leadership & Communications) <br> *Example:* Leadership corner, AMAs, storyline announcements |Viva Suite|
@@ -73,7 +72,7 @@ From the Microsoft 365 admin center, you can:
 
 ### Install Viva Engage in Teams
 
-The Microsoft Teams admin can deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). By pinning the app, users can easily set up Viva Engage in Teams using the following steps:
+The Microsoft Teams admin can deploy and pin the app for all users or for particular departments through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). Then, users can easily set up Viva Engage in Teams using the following steps:
 
 1. Open Teams on the web or in a desktop client.
 
