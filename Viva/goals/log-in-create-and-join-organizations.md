@@ -51,7 +51,7 @@ All members in the tenant who have valid Viva Goals licenses automatically have 
 
 1. If there are no other existing organizations (and the "default organization" is turned off), you will land on the **Create Organization** page. Select **Create Organization**.
 
-1. If you are already inside an organization and want to create a new org, select your organization's name at the top of the left-hand navigation menu. Select the **Create or join organization** option at the bottom; this will take you to the **Create Organization** page.
+1. If you are already inside an organization and want to create a new org, select your organization's name at the top of the left-hand navigation menu. Select the **Create or join organization** option at the bottom to go to the **Create Organization** page.
 
 1. Enter your organization name and a brief description (optional) and select the organization type: **Public** or **Restricted**.
 
