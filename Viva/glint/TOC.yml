@@ -48,15 +48,18 @@ items:
       - name: Glint platform setup
         items:
           - name: Set up your Glint platform
-            href: setup/setup-platform-admin.md
             items:
+              - name: Access Viva Glint
+                href: setup/access-glint.md
+              - name: Set up your Glint platform
+                href: setup/setup-platform-admin.md
               - name: Newsletter registration
                 href: setup/newsletter-register.md
           - name: Start with IT
             items:
-              - name: Allowed list and supported browsers
+              - name: Allowed list
                 href: setup/allowed-list.md
-              - name: Access with Microsoft Entra ID
+              - name: Set up access with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
