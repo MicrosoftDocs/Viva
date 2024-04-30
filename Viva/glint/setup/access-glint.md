@@ -49,7 +49,7 @@ Your Entra or other IT admins choose [authentication methods in Microsoft Entra 
 
 ## Session timeout
 
-After 20 minutes of inactivity, you're prompted with an initial **Are you still here?** message. A Glint session ends after another 10 minutes inactivity.
+After 20 minutes of inactivity, you're prompted with an initial **"Are you still here?"** message. A Glint session ends after another 10 minutes of inactivity.
 
 :::image type="content" source="../../media/glint/setup/glint-inactive-session-message.png" alt-text="Screenshot of a message that appears when a user is inactive in their survey session.":::
 
