@@ -21,14 +21,14 @@ ms.date: 04/18/2024
 
 For highly trained users, Microsoft Viva Glint Advanced Configuration offers the ability to import external, historical response data for items that trend with items that you select for your Viva Glint survey program.
 
-## Learn about the People Science perspective
+## 1. Learn about the People Science perspective
 
 It’s common for an organization to spend years asking the same survey items that leaders are comfortable with. It may be time to revisit items to ensure they're aligned to your organization’s current strategy. Before undertaking an import of historical, external data, learn about the Viva People Science factors around historical imports:
 
 > [!div class="nextstepaction"]
 > [Consider Viva People Science factors for historical imports](https://go.microsoft.com/fwlink/?linkid=2245072)
 
-## Review prerequisites
+## 2. Review prerequisites
 
 Data from an external source must meet the prerequisites listed here to be eligible for import to Viva Glint. If your data don't meet these requirements, do not import via the Advanced Configuration External Import feature.
 
@@ -62,7 +62,7 @@ Complete a mapping of historical and Viva Glint items to determine exactly where
 > [!IMPORTANT]
 > As you map items from the Question Library to historical items, include the Glint question ID, which is available in Question Library exports. You will need these IDs to prepare your Raw Score File.
 
-## Set up a survey program
+## 3. Set up a survey program
 
 Set up your Viva Glint program, including items that trend with your external survey data. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
 
@@ -72,7 +72,7 @@ Set up your Viva Glint program, including items that trend with your external su
 > [!NOTE]
 > Exclusion lists and question targeting configured in your survey will not apply to an historical import.
 
-## Prepare data files
+## 4. Prepare data files
 
 External imports of historical data require three data files, each with their own requirements. Select the file name in the following table to see a sample of each file.
 
@@ -132,7 +132,7 @@ Your Respondent User File needs to contain the following fields for the survey r
 - **Employee ID:** label must match your attribute setup
 - **Status:** label must match your attribute setup
 
-## Import users
+## 5. Import users
 
 Import your prepared User File to the Viva Glint People page to establish users and attributes for historical data.
 
@@ -143,7 +143,7 @@ Import your prepared User File to the Viva Glint People page to establish users 
 - Create a Distribution List with these historical employees. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231414).
 - Update the Distribution section of your survey program with your new Distribution List. [Learn more](https://go.microsoft.com/fwlink/?linkid=2231504).
 
-## Import external data
+## 6. Import external data
 
 To complete your external, historical import, access Viva Glint’s Advanced Configuration page. If you don't have access, confirm that:
 
@@ -181,7 +181,7 @@ To import historical users and their responses:
 
    :::image type="content" source="../../media/glint/setup/glint-ext-import-complete.png" alt-text="Screenshot of successful external import.":::
 
-## Troubleshoot warnings and errors
+## 7. Troubleshoot warnings and errors
 
 If you encounter issues during your import, use this guidance to troubleshoot.
 
@@ -193,7 +193,7 @@ If you encounter issues during your import, use this guidance to troubleshoot.
 
 - ### [Error: User is not in client](/viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client)
 
-## Confirm expected results in your dashboard
+## 8. Confirm expected results in your dashboard
 
 After your External Import processes successfully in Viva Glint, go to your Dashboard and Reports to confirm that scores and data display as expected. Confirm that:
 
@@ -207,7 +207,7 @@ After your External Import processes successfully in Viva Glint, go to your Dash
 > [!NOTE]
 > Viva Glint’s Narrative Intelligence may take time to process large amounts of open-ended feedback. Revisit the Comments report after 24 hours if data is not fully populated.
 
-## Import current employee data
+## 9. Import current employee data
 After your historical import is complete and results appear as expected, load your current employee data to Viva Glint to overwrite historical user information. Coordinate with other teams that regularly import employee data to Viva Glint to confirm when and how to load current user information. 
 
 > [!IMPORTANT]
