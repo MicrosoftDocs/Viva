@@ -29,11 +29,11 @@ To set up Microsoft Viva Engage, you must have Microsoft 365 Global administrato
 
 As a foundational component of Microsoft Viva Engage, the Core Service Plan provides essential features and capabilities to enhance engagement and collaboration within your organization.
 
-- **If you don't enforce Viva Engage licensing**, users across your organization can access the Viva Engage Core experience.<br>
-- **If you do enforce Viva Engage licensing**, users can access the Viva Engage Core experience, if each user is assigned:
+- **If you don't enforce Viva Engage licensing**, users can access the Viva Engage Core experience.<br>
+- **If you do enforce Viva Engage licensing**, users can access the Viva Engage Core experience. However, each user must be assigned:
 
-    - the Microsoft 365 license, *and*
-    - the Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
+    - Microsoft 365 license, *and*
+    - Viva Engage Core Service Plan (or Yammer Enterprise Service Plan)
 
 **Premium experience**
 
@@ -47,9 +47,9 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 |Service plan |Enables |Comes with this product |
 |-------------------|---------|-------|
-|**Viva Engage Core**|Engage core experiences and the [Answers in Viva core experiences](/viva/engage/eac-answers-overview-set-up#licensing)  <br> *Example:* Communities, storyline |Microsoft 365|
+|**Viva Engage Core**|Engage core experiences and the Answers in Viva core experiences <br> *Example:* Communities, storyline |Microsoft 365|
 |**Viva Employee Communities and Communications**|Engage premium experiences <br> *Example:* Leadership corner, AMAs (Ask Me Anything), storyline announcements, delegation, analytics, campaigns |Microsoft Viva Suite|
-|**Viva Engage Knowledge**|Answers in Viva premium experience |Microsoft Viva Suite|
+|**Viva Engage Knowledge**|[Answers in Viva premium experience](/viva/engage/eac-answers-overview-set-up#licensing) |Microsoft Viva Suite|
 
 ## Configure and review privacy and security settings
 
