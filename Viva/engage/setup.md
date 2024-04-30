@@ -1,5 +1,5 @@
 ---
-ms.date: 04/29/2024
+ms.date: 04/30/2024
 title: "Set up Viva Engage"
 description: "Guidance for setting up licensing and installation of Viva Engage for an organization."
 ms.reviewer: ethli
