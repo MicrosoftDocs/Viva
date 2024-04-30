@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/14/2023
+ms.date: 04/30/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -21,20 +21,51 @@ description: Learn how to configure and manage Workday for Microsoft Viva Learni
 
 # Configure Workday in Microsoft Viva Learning
 
-This document outlines how to configure Workday as a content source in Microsoft Viva Learning. The integration is based on Workday RaaS APIs (Report as a Service). Integration supports catalog, assignment, and completions data from Workday. Catalog covers Blended Courses, Digital courses, Lesson, Program, and External provider integrated on Workday.
+This document outlines how to configure Workday as a content source in Microsoft Viva Learning. The integration is based on Workday RaaS APIs (Report as a Service). Any breach in API contract might change the user experience. 
+Integration supports catalog, assignment, and completions data from Workday. Catalog covers blended courses, digital courses, lessons, programs, and external providers integrated on Workday.
 
 > [!NOTE]
 > Catalog, assignments, and completion data are retrieved using RaaS (REST APIs). Thumbnails for Workday hosted content is retrieved using SOAP APIs, while thumbnails for third party content configured on Workday are retrieved using the RaaS report. The Workday-hosted thumbnails are stored in Viva Learning as metadata.
+
+## Supported Workday scenarios 
+
+| Scenario  | Supported/Not supported |
+|---|---|
+| Catalog types  | Viva Learning supports all catalog types from Workday, this includes following: <ul> <li> Digital courses</li> <li> Blended courses <li> Programs (equivalent to learning paths in Viva Learning) <li>  Lessons <br> In addition to this Viva Learning supports ingestion of content from other learning providers configured in Workday, such as LinkedIn Learning configured in Workday.  | 
+| Assignments on all catalog types from Workday  | Supported  | 
+| Assignment completions  | Supported   |
+| Self-enrollment completions  | Supported for all catalog types except lessons  | 
+| Single sign-on  | Supported  | 
+| Catalog Permissions from Workday  | Not supported – API not available from Workday  |  
+| In app play  | Not supported – Not supported by Workday  |  
+
 
 ## Prerequisites
 
 You need the following permissions and scenarios in place to complete the Workday configuration process:
 
 - Viva Learning Admin access
-- Workday Admin access, 
-- User mapping between Microsoft Entra ID (formerly Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details).
--  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies.
+- Workday Admin access
+- User mapping between Microsoft Entra ID (formerly Azure Active Directory) and Workday should be in place (check the RaaS report creation section for more details)
+-  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies
 
+
+### User Mapping: 
+User mapping between Workday and Viva Learning should exist before configuration.
+ 
+The default user mapping is determined by the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
+ 
+If there's any discrepancy in mapping logic used by the customer organization, please reach out to the Viva Learning product group. We have custom user mapping option available, which are controlled from the backend. The custom mapping is based on Workday attributes: Username, Email_address, and  employee_ID and corresponding AAD attributes as UPN alias, UPN, employee ID and custom AAD attributes. 
+
+If there are duplicates in Microsoft Entra (formerly Azure Active Directory) for a particular user mapper, all the duplicate records are dropped from Viva Learning.
+
+ ### Data Ingestion timelines 
+
+We're ingesting data for User RaaS from 1st Jan 1970 and catalog, assignment, and completion RaaS data from 1st Jan 2016. 
+If any user has hiring date before 1970, please reach out to the Viva Learning product group.  
+If customer has different data ingestion timelines, please reach out to the Viva Learning product group. 
+
+The mapping logic isn't case sensitive to the mapper values.
 
 ## Configuration to enable Workday integration
 
@@ -138,23 +169,23 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
 If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
-### Create RaaS report on Workday portal for catalog sync
+### Create RaaS report on the Workday portal for catalog sync
 
-This report should be created from master Admin account of Workday to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments.
+This report should be created from the primary Admin account of Workday to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments.
 
 1. Sign in to the **Workday Portal**.
     1. Sign in to Workday Portal.
     1. Search for the task “Create Custom Report.”
 2. Configure the report parameters.
-    1. Give Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
-    1. Set Report Type as “Advanced.”
+    1. Title the Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
+    1. Set the Report Type as “Advanced.”
     1. Mark checkbox “Enable as Web service.”
     1. Mark checkbox “Optimized for performance.”
-    1. In the “Data Source” field, go to “All” and select “Learning Content”. Select **OK**.
+    1. In the “Data Source” field, go to “All” and select “Learning Content.” Select **OK**.
     ![Screenshot of the Create Custom Report screen.](/viva/media/learning/wd-s2.2-1.png)
 3. Add report fields.
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
-    1. Add the fields in “Columns” as outlined schema. You see three objects for field “rating”, select the one with a hash (#) icon next to it. To handle the "Is effective" flag in Workday, you're required to create a calculated field `CatalogEffectiveDate` and add it in the catalog RaaS. Detailed steps are mentioned in this section. 
+    1. Add the fields in “Columns” as outlined in the following schema. You'll see three objects for field “rating”, select the one with a hash (#) icon next to it.
 
 | Business object| Field | Column heading override| Column heading override XML alias|
 | --- | ---- | ---- | --- |
@@ -266,14 +297,19 @@ This report should be created from master Admin account of Workday to avoid any 
 
 1. **Sign in to the Workday Portal**
     1. **Sign in** 
-    1. Search for "Create Custom Report" 
+    1. Search for the task "Create Custom Report" 
 2. Configure the report parameters 
-    1. Name the report "Viva Learning Users Report". The report name must match this string. 
+    1. Name the report "Viva Learning Catalog Report". The report name must match this string. 
+    1. Indicate report type as "Advanced."
     1. Check "Enable as Web service" 
     1. Check "Optimized for performance" 
-    1. In the "Data source," go to "All" and select "Workers for HCM reporting." Select **OK**.
-3. Add report **Fields**.
-    1. Add the fields in "Columns":
+    1. In the "Data source," go to "All" and select "Learning Content." Select **OK**.
+
+1. Add report **Fields**.
+
+Once you select OK, “Data Source” automatically takes the value “Learning Content”. For the “Data Source Filter” field, remove any existing value and add “Manageable Learning Content”. You can copy this value and paste in the field directly. 
+
+    1. Add the fields in "Columns":Note that you'll see three objects for field “rating”, select the one with a hash (#) icon next to it.  
         
     | Business Object | Field | Column Heading Override | Column Heading Override XML Alias | 
     |  - | - | - | - | 
@@ -614,7 +650,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
     c.	Client ID, Client Secret, and refresh token: These are the values you created while enabling OAuth.
 
-    d.	Org ID (only If you want to enable the LRS). Manual full sync triggering is required for co-dev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
+    d.	Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
 
 ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
 

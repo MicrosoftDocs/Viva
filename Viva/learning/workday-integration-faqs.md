@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/08/2023
+ms.date: 04/30/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -171,7 +171,11 @@ To fetch RaaS reports, Viva Learning uses REST API. The URL for this report isn'
 
 |RaaS report | Indexed? |
 |--| --| 
-| Catalog RaaS | **Not indexed** | 
+| Catalog RaaS | **Indexed** | 
 | User RaaS | **Indexed** | 
 | LRS RaaS | **Not indexed**. The org ID-based report filtering is in place to handle large data sets| 
 | Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report isn't filterable on org ID. It's **indexed** with new completion date-based filters. | 
+
+** What are the guidelines in server migration? **
+
+If the server migration is expected to change the WWS endpoint, RaaS URL, and deep links to courses, reach out to Viva Learning product team. 
