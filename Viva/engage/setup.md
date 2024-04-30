@@ -53,7 +53,7 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 ## Configure and review privacy and security settings
 
-The Engaged administrator (Yammer administrator) can manage content in Viva Engage.
+The Engage administrator (Yammer administrator) can manage Viva Engage content and security settings.
 For details, see [Overview of security & compliance for Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance).
 
 ## Set up Viva Engage
@@ -63,9 +63,7 @@ Where you set up Viva Engage is a matter of preference. Global and Engage admins
 From the Microsoft 365 admin center, you can:
 
 - Assign [Engage and Answers admins](eac-key-admin-roles-permissions.md)
-
 - Pin Viva Engage in Teams
-
 - Manage other settings in Viva Engage
 
 ## Install Viva Engage
