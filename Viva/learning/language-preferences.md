@@ -64,6 +64,7 @@ The default language is chosen based on any or all these parameters:
 >- The default language is applicable and used only in Viva Learning context. It doesn't impact any other Viva or Microsoft products or spaces.
 >- The default language doesn't override the user language. The default language is used as a fallback and displaying content along with user language.
 >- Default language application in Viva Learning features like assignments, notifications, and skills are scheduled for upcoming releases.
+>- RTL languages cannot be added as a default language as Viva Learning does not support RTL languages. Any previously added RTL language as the default language will be updated to English (United States).
 
 ## Displaying content in default and user-selected languages
 
