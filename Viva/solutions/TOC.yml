@@ -48,11 +48,11 @@
       - name: Tight vs loose alignment
         href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
     
-    - name: Check-in and track goals
+    - name: Check in and track goals
       items:
-      - name: Check-in OKRs overview
+      - name: Check in OKRs overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
-      - name: Check-in OKRs recommendations
+      - name: Check in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
    
     - name: Close and score goals
