@@ -10,21 +10,6 @@
     - name: Discover more about each Viva module
       href: /viva/discover-more-about-each-viva-module?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
 
-
- 
-  - name: Using Microsoft Viva in the hybrid workplace
-    href: viva-for-the-hybrid-workplace.md
-    items:
-    - name: Onboarding employees who are new or changing roles
-      href: viva-onboard-change-roles.md
-    - name: Frontline workers
-      href: viva-front-line-workers.md
-    - name: Work/life balance
-      href: viva-work-life-balance.md
-    - name: Leadership communications
-      href: viva-leadership-communications.md
-
-
   - name: Discover goal-setting best practices with Viva Goals
     items:
     - name: Best practices for running a healthy Viva Goals program
