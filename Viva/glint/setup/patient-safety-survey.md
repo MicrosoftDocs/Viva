@@ -1,6 +1,6 @@
 ---
 title: Set up a Microsoft Viva Glint Patient Safety Survey
-description: Many healthcare customers move to the Viva Glint patient safety survey to help assess and improve their patient safety culture. 
+description: Many healthcare customers moved to the Viva Glint patient safety survey to help assess and improve their patient safety culture. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,7 +19,7 @@ ms.date: 05/01/2024
 
 # Set up a Microsoft Viva Glint Patient Safety Survey 
 
-Many healthcare customers use the Viva Glint Patient Safety Survey to assess and improve their patient safety culture. It is approved as a reliable measure of patient culture by Leapfrog's expert panel and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to get to healthcare leaders in real-time. 
+Many healthcare customers use the Viva Glint Patient Safety Survey to assess and improve their patient safety culture. It is approved as a reliable measure of patient culture by Leapfrog's expert panel and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to provide healthcare leaders with pertinent information in real-time. 
 
 ## Submitting the Patient Safety Survey for Leapfrog certification
 
@@ -73,7 +73,7 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 |3|Safety Referral|I would recommend this organization to family and friends as a safe place to receive care.|
 |4|Psychological Safety|I can speak up about patient safety without fear of retaliation.|
 |5|Safety Habits|Ensuring patient safety is part of the way we do things around here.|
-|6|Change Willingness|Actions taken based on safety event reporting have led to positive changes here.
+|6|Change Willingness|Actions taken based on safety event reporting led to positive changes here.
 |7|Communication|There is good communication between leaders and employees here about patient safety.|
 |8|Exchange|The exchange of information between departments occurs smoothly.|
 |9|Just Response|There is a just process for handling safety-related errors here.|
@@ -82,7 +82,7 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 |12|Ownership|I feel empowered to correct potential safety hazards.|
 |13|Recognition|Employees who prioritize patient safety are appreciated here.|
 |14|Resources|We have the resources we need to keep patients safe.|
-|15|Root Cause|At this organization, we seek to solve problems permanently rather than just up with a 'quick fix'.|
+|15|Root Cause|At this organization, we seek to solve problems permanently rather than just up with a 'quick fix.'|
 |16|Teamwork|We support each other in caring for patients safely here.|
 |17|Training|The patient safety-related training I receive is effective.|
 |18|Voice|My imput about patient safety is valued here.|
