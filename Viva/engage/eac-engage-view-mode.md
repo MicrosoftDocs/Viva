@@ -58,7 +58,7 @@ Admins can set view-only mode from the Engage admin center. This control works b
 
     The user's name appears in the list of users in view-only mode with the date the status was applied and the admin who applied the status.
 
-  :::image type="content" source="../media/engage/admin/eac-viewonlymode-fullscreen.png" alt-text="Screenshot shows the View-only mode list in the Engage admin center." lightbox="../media/engage/admin/eac-view-only-mode.png"::::::
+  :::image type="content" source="../media/engage/admin/eac-viewonlymode-fullscreen.png" alt-text="Screenshot shows the View-only mode list in the Engage admin center." lightbox="../media/engage/admin/eac-view-only-mode.png":::
 
 **To unassign a user from view-only mode:**
 
