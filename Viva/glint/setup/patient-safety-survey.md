@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2024
+ms.date: 05/01/2024
 ---
 
 # Set up a Microsoft Viva Glint Patient Safety survey 
@@ -48,18 +48,9 @@ There are also two optional but recommended scaled items (1-2), and two comment 
 1. Safety - Stop Doing
 
 > [!NOTE]
-> The overall patient safety outcome items, Referral and Habits, are now at the end of the survey; previously they were the first items asked. 
+> The overall patient safety outcome items, Referral and Habits, are now at the end of the survey; previously they were the first items asked.
 
-## Admins launching the Microsoft Viva Glint Patient Safety Survey 
-
-Access the template from the **Configure symbol** on your Viva Glint admin dashboard. Select **+ New Survey** and then the **Patient Safety Survey** card.
-
-:::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
-
-> [!div class="nextstepaction"]
-> [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
-
-## Read the Viva People Science methodology used to create the Patient Safety Survey
+## Viva People Science methodology for the Patient Safety Survey
 
 The methodology used to develop the Microsoft Viva Glint Patient Safety Survey involved lengthy research and methodology. Read about it.
 
@@ -72,3 +63,39 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 
 > [!div class="nextstepaction"]
 > [Blog - Viva Glint Patient Safety Survey helps improve patient safety culture](https://techcommunity.microsoft.com/t5/viva-glint-blog/use-the-microsoft-viva-glint-patient-safety-survey-to-help/ba-p/3931710)
+
+## Viva Glint Patient Safety Survey items
+
+|Item #|Item name|Item text|
+|-------|---------|---------|
+|1|Safety - Start Doing|What should we start doing (or do more of) to make our culture here safer?|
+|2|Safety - Stop Doing|What should we stop doing to make our culture here safer?|
+|3|Safety Referral|I would recommend this organization to family and friends as a safe place to receive care.|
+|4|Psychological Safety|I can speak up about patient safety without fear of retaliation.|
+|5|Safety Habits|Ensuring patient safety is part of the way we do things around here.|
+|6|Change Willingness|Actions taken based on safety event reporting have led to positive changes here.
+|7|Communication|There is good communication between leaders and employees here about patient safety.|
+|8|Exchange|The exchange of information between departments occurs smoothly.|
+|9|Just Response|There is a just process for handling safety-related errors here.|
+|10|Learning from Mistakes|We discuss ways to prevent safety errors from happening again.|
+|11|Modeling|Leadership's actions show that patient safety is a top priority.|
+|12|Ownership|I feel empowered to correct potential safety hazards.|
+|13|Recognition|Employees who prioritize patient safety are appreciated here.|
+|14|Resources|We have the resources we need to keep patients safe.|
+|15|Root Cause|At this organization, we seek to solve problems permanently rather than just up with a 'quick fix'.|
+|16|Teamwork|We support each other in caring for patients safely here.|
+|17|Training|The patient safety-related training I receive is effective.|
+|18|Voice|My imput about patient safety is valued here.|
+|19|Employee Safety|I feel safe here as an employee.|
+|20|eSat|How happy are you working at [Company Name]?
+
+## Admins launching the Microsoft Viva Glint Patient Safety Survey 
+
+Access the template from the **Configure symbol** on your Viva Glint admin dashboard. Select **+ New Survey** and then the **Patient Safety Survey** card.
+
+:::image type="content" source="../../media/glint/setup/patient-survey-template.png" alt-text="Screenshot of the Patient Safety survey template, which is predefined but easy to customize." lightbox="../../media/glint/setup/patient-survey-template.png":::
+
+> [!div class="nextstepaction"]
+> [Follow the guidance in Program Summary for survey setup](https://go.microsoft.com/fwlink/?linkid=2231504)
+
+
