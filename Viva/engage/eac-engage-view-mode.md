@@ -37,7 +37,7 @@ When a user is in view-only mode, they have **no access** to the following featu
 >[!NOTE]
 >The limitations stated here apply throughout the Viva Engage app on all surfaces (desktop, web, mobile, Teams, Outlook, and SharePoint).
 
-- Creation of new posts, comments or replies to posts
+- Creation of new posts, comments, or replies to posts
 
 - Editing capability on existing posts, comments, or replies
 
@@ -52,7 +52,8 @@ Admins can set view-only mode from the Engage admin center. This control works b
 1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 1. From the **Governance and compliance tab**, select the **View-only mode** option.
 1. Select **Add a user**.
-1. Use the search function to find the user name you want, select it, and confirm your selection.
+1. Use the search function to find the user name you want, select it, and confirm your selection.<br>
+
     The user's name appears in the list of users in view-only mode with the date the status was applied and the admin who applied the status.
 
 :::image type="content" source="../media/engage/admin/eac-viewonlymode-fullscreen.png" alt-text="Screenshot shows the View-only mode list in the Engage admin center.":::
