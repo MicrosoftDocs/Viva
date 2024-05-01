@@ -14,19 +14,26 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/27/2024
+ms.date: 05/01/2024
 ---
 
 # Diversity and Inclusion survey program in Viva Glint
 
-Fostering a strong sense of belonging in your organization is essential. Customer data shows that those employees who feel a strong sense of belonging are over six times as likely to be engaged as those who don’t. Belonging is strong when work environments are inclusive of differences, everyone feels accepted, and can bring their best selves to work.
+Fostering a strong sense of belonging in your organization is essential. Customer data shows that employees who feel a strong sense of belonging are over six times as likely to be engaged as those who don’t. 
+
+Belonging is strong when:
+- work environments are inclusive of differences
+- everyone feels accepted
+- everyone can bring their best selves to work.
+
 Using the Microsoft Viva Glint Diversity and Inclusion approach, organizations can measure perspectives that matter, empower managers to build inclusive practices, and understand how to create an environment where all people feel they belong.
 
 > [!NOTE]
-> The Viva Glint survey strategy can incorporate domains of diversity, belonging and inclusion into any survey, voiding the need for a standalone Diversity and Inclusion measurement. For this reason, consider adding items from Glint's Diversity and Inclusion survey template to an engagement or a culture survey.
+> The Glint survey strategy can incorporate domains of diversity, belonging and inclusion into any survey, voiding the need for a standalone Diversity and Inclusion measurement. For this reason, consider adding items from Glint's Diversity and Inclusion survey template to an engagement or a culture survey.
   
-## The Viva Glint Diversity and Inclusion program (survey template) exposes fundamental insights 
-DIBS survey feedback provides:
+## The Glint Diversity and Inclusion survey template exposes fundamental insights 
+
+Diversity and Inclusion survey feedback provides:
 
 - Short research-validated survey items‌.
 - Access to intuitive and insightful data at both leader and manager levels.
@@ -36,6 +43,23 @@ DIBS survey feedback provides:
 - Actionable resources from curated content to improve teams' diversity and inclusion experience‌.
 - Powerful comment analytics to identify what groups are saying about diversity and inclusion experiences.
 - Easy integration of diversity, inclusion, and belonging items into existing agile survey programs, as well as the ability to derive cross-program insights.
+
+## Viva Glint Diversity and Inclusion survey items
+
+|Item Number|Item Name|Item Text|
+|---------- |--------|---------|
+|1|eSat|How happy are you working at [Company Name]|
+|2|Belonging|I feel a sense of belonging at [Company Name]|
+|4|Authenticity|I feel comfortable being myself at work.|
+|5|Equal Opportunity|Regardless of background, everyone at[Company Name] has an equal opportunity to succeed.|
+|8|Diversity Committment|Top leaders demonstrate a visible commitment to diversity.|
+|10|Opinion Count|My opinions seem to count.|
+|12|Acceptance|[Company Name] makes it easy for people from diverse backgrounds to be accerpted.|
+|13|Transparency|[Company Name] communicates openly and honestly.|
+|14|Valued Teammate|I am treated as a valued memober of my work group.|
+|15|Larger Purpose|Working for[Company Name] gives me a sense that I am part of something with a larger purpose.|
+|16|Best Interests - Manager|My immediate manager makes me feel they have my best interests in mind.|
+|17|DIB Changes|What should your company consider changing (doing less of, more of, or differently) in support of diversity, inclusion, and belonging?|
 
 ## Admin setup for the Microsoft Copilot Impact survey template
 
