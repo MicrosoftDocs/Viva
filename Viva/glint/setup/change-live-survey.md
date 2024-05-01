@@ -1,9 +1,9 @@
 ---
 title: Make changes to a live Viva Glint survey
 description: Viva Glint suggests changing a live survey only when necessary.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Edit live survey, edit program summary
@@ -12,12 +12,10 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 04/26/2024
 ---
-
 
 # Make changes to a live Viva Glint survey
 
@@ -25,14 +23,14 @@ While many elements of a live survey can be adjusted, only make live edits when 
 
 >[!TIP]
 > Thoroughly preview your survey before launching and follow these practices:
-
-- **Don't stop the survey**. Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.
-- **Make email and reminder edits only at the cycle level.** Many changes at the program level won't apply to a live survey.
-- **Always leave the meaning of a question intact.** You may need to fix spelling, grammatical or translation errors.
-  - The adjusted question's/item's meaning should remain the same before and after edits.
-  - Don't adjust any rating scale or multiple-choice options to ensure the integrity of the resulting survey outcomes (for example, scores and comments) is retained.
-- **Always Save and re-approve.** When making live edits, save any changes you make and *reapprove* the survey before ending your session.[Use this guidance for approving, previewing, enabling, and disabling your survey](https://go.microsoft.com/fwlink/?linkid=2230749).
-- **Be consistent across languages.** Make text changes uniformly, across all languages included in the survey.
+>
+> - **Don't stop the survey**. Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.
+> - **Make email and reminder edits only at the cycle level.** Many changes at the program level won't apply to a live survey.
+> - **Always leave the meaning of a question intact.** You may need to fix spelling, grammatical or translation errors.
+>   - The adjusted question's/item's meaning should remain the same before and after edits.
+>   - Don't adjust any rating scale or multiple-choice options to ensure the integrity of the resulting survey outcomes (for example, scores and comments) is retained.
+> - **Always Save and re-approve.** When making live edits, save any changes you make and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://go.microsoft.com/fwlink/?linkid=2230749).
+> - **Be consistent across languages.** Make text changes uniformly, across all languages included in the survey.
 
 ## Rules to edit a live recurring or ad hoc survey
 
@@ -74,6 +72,8 @@ The following content provides the required steps to edit a live recurring or ad
 | --- | --- | --- |
 | All items in the *Reporting* section | Any section in the *Reporting* section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
 | Benchmark update | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain any user with live access is aware so they aren't confused by results that don't mirror what they may have seen during their last viewing. |
+| Aggregate Indices | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain any user with live access is aware so they aren't confused by results that are different their last viewing. |
+| Driver Impact Outcomes | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain any user with live access is aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ### Communications
 
@@ -93,3 +93,20 @@ Live *Communications* edits will only apply when made at the cycle level.
 | Adding survey participants | You've discovered that an extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page \> Send Survey. |
 | Adding users not in the Distribution List | You've discovered that employees outside of the Distribution List need to be included. | Navigate to Configuration, then **People** , then **Employee** , then **Action** , then **Send Survey**. |
 | Email timing | You want to adjust the time in which emails are sent. | Do this at the cycle level only and consider the user time zones. |
+
+## Changing 360 programs while live 
+
+> [!IMPORTANT]
+> 360 feedback programs aren't currently available.
+
+You cannot:
+- Add subjects
+
+You can:
+- Remove subjects
+- Add or edit feedback providers
+- Add or edit a subject's coach
+- Edit the intro and Thank You text
+- Edit emails and reminders
+- Extend the cycle end date for a subject
+  

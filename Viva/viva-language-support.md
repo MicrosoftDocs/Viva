@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
@@ -71,12 +70,3 @@ Viva Pulse supports 40 language translations for standard content and is availab
 Content added by users (such as when a feedback author adds or edits a question or when a feedback provider enters a response for an open-ended question) is displayed in the language in which it was entered.
 
 Learn more about [language support for Viva Pulse](/Viva/pulse/get-started/supported-languages).
-
-## Topics
-**User interface**
-
-Languages in the Topics user interface are based on your organization's Microsoft 365 language preferences. See all of the [user interface supported languages](/viva/topics/topics-language-support).
-
-**Languages available for processing topics**
-
-Topics is available to customers worldwide. However, for processing and indexing content, Topics supports a limited number of languages. See [which languages are supported](/viva/topics/topics-language-support#languages-available-for-processing-topics).

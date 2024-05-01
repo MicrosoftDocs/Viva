@@ -12,8 +12,7 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 02/20/2024
 ---
@@ -101,3 +100,9 @@ If you also supply language values to indicate users’ dashboard languages (for
 
 >[!NOTE]
 > Dashboards do not support languages that are read from right to left.
+
+## Next step
+Learn about Viva Glint organizational hierarchy fundamentals, including a Viva Glint calculated Manager Hierarchy and other hierarchy groups.
+
+> [!div class="nextstepaction"]
+> [Viva Glint organizational hierarchy fundamentals](hierarchy-fundamentals.md)

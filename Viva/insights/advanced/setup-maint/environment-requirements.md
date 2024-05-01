@@ -10,8 +10,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - m365initiative-viva-insights
 - essentials-manage
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -185,6 +184,8 @@ Apple Safari and Mozilla Firefox are not preferred browsers for the advanced ins
 Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
 
 If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
+
+Service availability is consistent across environments where Viva Insights plans are generally available. See details at [Microsoft Viva Service Descriptions.](https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description)
 
 ## Related topics
 

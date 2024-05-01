@@ -13,15 +13,14 @@ ms.collection:
  - essentials-get-started
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/21/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
 
-To deploy apps that use the Microsoft platform for identity and access management, you first need access to a Microsoft Entra ID *tenant*. In the Microsoft Entra tenant, you'll register and manage your Viva Glint apps, configure their access to data and other web APIs, and enable features like Conditional Access. 
+To deploy apps that use the Microsoft platform for identity and access management, you first need access to a Microsoft Entra ID *tenant*. In the Microsoft Entra tenant, register and manage your Viva Glint apps, configure access to data and other web APIs, and enable features like Conditional Access. 
 
 A tenant represents an organization. It's a dedicated instance of the Microsoft Entra tenant that an organization or app developer receives at the beginning of a relationship with Microsoft. 
 
@@ -31,6 +30,9 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 > [!NOTE]
 > If you don't already have a Microsoft Entra user account, you can [create one for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+
+> [!IMPORTANT]
+> If you’re migrating from LinkedIn Glint, don’t provision a new Viva Glint tenant. This step is completed for you as part of your technical migration to Microsoft Viva Glint.
 
 ## Customers entitled for Viva Glint provisioning 
 
@@ -46,7 +48,7 @@ When a new customer purchases Viva Glint, they're entitled to the Viva Glint pro
 
 ## Begin your Viva Glint provisioning experience
 
-Choose either the US or EU URL for Azure login to begin:
+Choose the US or EU URL for Azure login to begin, based on the region of your tenant. [Learn more](/microsoft-365/enterprise/m365-dr-workload-other?view=o365-worldwide#viva-glint&preserve-view=true).
 
 - US - [http://app.us1.glint.cloud.microsoft](http://app.us1.glint.cloud.microsoft)
 - EU - [http://app.eu1.glint.cloud.microsoft](http://app.eu1.glint.cloud.microsoft)
@@ -69,7 +71,7 @@ Check the box for notification to be sent and enter an email address if you woul
 >[!NOTE]
 > Tenant provisioning can only be initiated by the Tenant Global Administrator. 
 
-Dependent upon whether you have chosen to receive notification, one of the following screens will open: 
+Depending on whether you choose to receive a notification, one of the following screens appear: 
 
 - With notification requested, these messages display: 
     - We’ll notify you when it’s ready.  
@@ -83,7 +85,7 @@ Dependent upon whether you have chosen to receive notification, one of the follo
 
 ### What if I run into an error?
 
-If your tenant can't be provided, you'll receive this message. Select **Request support** and a tab will open for Microsoft 365 support.
+If your tenant can't be provisioned, this message appears. Select **Request support** and a tab will open for Microsoft 365 support.
 
 :::image type="content" source="../../media/glint/start/tenant-issue.png" alt-text="Screenshot that displays Microsoft Viva Glint tenant facing an issue.":::
 
@@ -93,9 +95,12 @@ Dependent upon whether you’ve requested notification to be sent, you’ll rece
 
 :::image type="content" source="../../media/glint/start/tenant-ready.png" alt-text="Screenshot that displays Viva Glint's tenant getting ready.":::
 
+> [!NOTE]
+> It can take up to five (5) days for a tenant to be ready.
+
 ## Proceed to post-provisioning once your tenant is ready
 
-Once you receive the email notification below (if you requested notification in the earlier step), select **Get Started**. You'll automatically be taken to the Viva Glint Learn page for post-provisioning, where you'll proceed with setting up your Viva Glint program. 
+Once you receive the email notification (if you requested notification in the earlier step), select **Get Started**. You're automatically taken to the Viva Glint Learn page for post-provisioning to proceed with setting up your Viva Glint program. 
 
 You can also choose to **Open Viva Glint** from this page:
 
@@ -105,6 +110,6 @@ You can also choose to **Open Viva Glint** from this page:
 
 Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
 
-If you’ve already registered for FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
+If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
 
-To register for Microsoft FastTrack, [use this link](https://fasttrack.microsoft.com/v2/register).
+To check your eligibility for FastTrack support, [use this link](/microsoft-365/fasttrack/eligibility).

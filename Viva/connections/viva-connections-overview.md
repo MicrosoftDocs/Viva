@@ -1,5 +1,5 @@
 ---
-ms.date: 01/30/2024
+ms.date: 04/09/2024
 title: "Overview: Viva Connections"
 ms.reviewer: evanatkin
 ms.author: evanatkin
@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:
   - essentials-navigation
@@ -36,8 +35,7 @@ Microsoft Viva Connections is your gateway to a modern employee experience and i
 
 > [!NOTE]
 >
-> - The Viva Connections update is currently available to targeted release customers, with a planned roll out to all users in early Q1 2024. This includes the new news spotlight, the feed tab, branding and theming options, the revised resources section, and Viva suite apps section.
-> - Updates to the Viva Connections mobile app are planned for Q2 2024.
+> Updates to the Viva Connections mobile app are planned for Q2 2024.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png" alt-text="Screenshot of the Viva Connections app on desktop and mobile." lightbox="../media/connections/viva-connections-overview/vc3-desktop-mobile-compare.png":::
 
@@ -61,7 +59,6 @@ Viva Connections is composed of three primary components - the feed, the dashboa
 > [!NOTE]
 >
 > - Components are expected to display slightly differently between desktop and mobile devices until Q2 of 2024.
-> - The Connections feed web part is planned to be deprecated in Q1 2024.
 > - The News spotlight currently only displays updates from the home site. A future update is planned to include updates from organizational news sites.
 
 | Component                  | Description                 |
@@ -76,7 +73,6 @@ The News spotlight sits at the top of the Viva Connections experience and promot
 
 > [!NOTE]
 >
-> - The new Feed experience is currently available to targeted release customers, with a planned roll out to all users by early Q1 2024.
 > - The News spotlight currently only displays updates from the home site. A future update is planned to include updates from organizational news sites.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-feed-banner.png" alt-text="Screenshot of the News spotlight at the top of the Viva Connections experience." lightbox="../media/connections/viva-connections-overview/vc3-feed-banner.png":::
@@ -104,10 +100,6 @@ The Viva Connections dashboard enables you to create a curated experience using 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-dashboard-overview.png" alt-text="Screenshot of the dashboard in the Viva Connections experience." lightbox="../media/connections/viva-connections-overview/vc3-dashboard-overview.png":::
 
 The Viva Connections dashboard is available on desktop, mobile platforms (iOS, Android), and [as a web part on SharePoint sites](use-dashboard-web-part-on-home-site.md). This web part can be integrated into a SharePoint home site, which then is exposed as part of the Viva Connections for desktop experience in Teams.
-
-> [!NOTE]
->
-> The Viva Connections Desktop experience is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 #### Anatomy of a dashboard
 
@@ -173,8 +165,6 @@ Resources are the navigational links that are set up and customized from the Tea
 >
 > - Links that are created via in-app editing via Viva Connections will not appear in mobile for targeted release customers at this time. Updates to mobile are planned for the end of Q2 2024.
 > - Up to 48 resource links can be created in the new Resources section.
-> - Frequent and followed site links will not be available with the new Resources section, and will be phased out by Q1 2024
-> - Audience targeting is unavailable to targeted release customers using the new resources section and is planned to be implemented by the end of Q1 2024.
 
 :::image type="content" source="../media/connections/viva-connections-overview/vc3-resources-overview.png" alt-text="Screenshot of the resource section within the Viva Connections experience." lightbox="../media/connections/viva-connections-overview/vc3-resources-overview.png":::
 
@@ -237,6 +227,9 @@ A tailored experience is one in which content is automatically displayed accordi
 
 Matching your organizational brand is integral to your employees’ connection with your company's values and goals. The branding you apply in Teams to the Viva Connections desktop app – including your logo and colors – is automatically applied to the mobile app. For information on how to apply your branding in an app, review [how to customize apps in Microsoft Teams](/microsoftteams/customize-apps). The desktop app offers an opportunity for further branding by [customizing the banner image](edit-viva-home.md#customize-the-banner-image) and [customizing the theme](edit-viva-home.md#customize-the-look).
 
+> [!NOTE]
+> Company branding in the Viva Connections app is currently disabled for users on mobile and desktop who have enabled dark mode under their Microsoft Teams Appearance and Accessibility settings.
+
 ## Localization
 
 Viva Connections is available in most major languages used in Microsoft 365. Learn more about [how to set up the Viva Connections mobile experience in a specific language](viva-connections-language.md) and [how to create a dashboard in more than one language](create-multilingual-dashboard.md).
@@ -275,8 +268,7 @@ Depending on the size of your organization and the information to communicate, y
 >
 > - SharePoint home sites are now set in the Microsoft admin center and can be setup when you create a Viva Connections experience that builds off an intranet portal.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience.
-> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to ten). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
-> - Multiple Viva Connections experiences are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
+> - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 ### You can choose the default landing experience
 

@@ -9,8 +9,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced
 - essentials-manage
-ms.service: viva 
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---
@@ -56,7 +55,7 @@ Microsoft Entra ID automatically syncs with the advanced insights app and provid
 
 So, including the attributes Viva Insights brings in from SMTP addresses and Outlook and Exchange settings, you'll notice five total attributes in your organizational data: **PersonId**, **ManagerId**, **Organization**, **Domain**, and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot of a diagram for Microsoft Entra ID that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-aad-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-aad.png" alt-text="Screenshot of a diagram for Microsoft Entra ID that shows each data source on the left, arrows in the center, and each attribute on the right.":::
  
 
 ### Attributes you get from a .csv file
@@ -83,10 +82,12 @@ If you want, you can also include custom attributes that you create.
 
 So, when you view your organizational data in the advanced insights app, you'll see the attributes you included in your .csv upload plus **Domain** and **TimeZone**.
 
-:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right."lightbox="../images/admin-field-sources-csv-expanded.png":::
+:::image type="content" source="../images/admin-field-sources-csv.png" alt-text="Screenshot of a diagram for .csv that shows each data source on the left, arrows in the center, and each attribute on the right.":::
 
->[!Important]
-> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID. You'll need to regularly upload .csv files to keep your organizational data current.
+> [!Important]
+> After you upload a .csv file with organizational data, you won't be able to switch back to using Microsoft Entra ID for the Analyst experience. You'll need to regularly upload .csv files to keep your organizational data current. 
+> 
+> For Team Insights, The HR file influences the team composition only for users who have entries in the HR data file. For other users who do not appear in the HR file, we fall back to using Microsoft Entra ID. 
 >
 > Learn more about attributes and getting your organizational data file set up in [Prepare organizational data](prepare-org-data.md).
 

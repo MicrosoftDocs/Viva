@@ -12,8 +12,7 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/21/2024
 ---
@@ -78,14 +77,14 @@ Any item can be edited by hovering over and selecting the row that the item appe
 |Example|Standard|Modified|Recommendation|
 |-------|--------|-------|-------|
 |**1 - Matching the language of the business**| I would recommend my *manager* to others.|I would recommend my *supervisor* to others.| Modifying a term in the item to make it more specific to your organizational language is acceptable and doesn't affect the benchmark. Edit the standard item without creating a copy to retain the benchmark.| 
-|**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.| 
+|**2 - Using synonyms**|The recruitment process was *excellent*.|The recruitment process was *great*.|If the replacement word is likely to be interpreted similarly, the item change is acceptable. Edit the standard item without creating a copy to retain the benchmark.|
 
 #### Examples of edits that don't retain a valid benchmark comparison
 
-|Example|Standard|Modified|Recommendation|
+| Example | Standard | Modified | Recommendation |
 |-------|--------|-------|-------|
-|**1 - Altering the subject**|*I feel empowered* to make decisions regarding my work.|*My manager empowers me* to make decisions regarding my work.|  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|
-|**2 - Altering the subject**|My manager *provides me with feedback that helps me improve my performance*.|My manager and *I have regular conversations*.| When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item.|  
+| **1 - Altering the subject** | *I feel empowered* to make decisions regarding my work. | *My manager empowers me* to make decisions regarding my work. |  Altering the subject in an item changes the way people respond, and the benchmark will no longer be valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
+| **2 - Altering the subject** | My manager *provides me with feedback that helps me improve my performance*. | My manager and *I have regular conversations*. | When the meaning of an item has been fundamentally altered, the change isn't recommended, and the benchmark is no longer valid. Create a copy of the standard item and customize the copy so that there isn't an invalid benchmark tied to the edited item. |
 
 ## View associated programs 
 
@@ -131,7 +130,7 @@ From the file that has been generated:
 |Do|Don't|
 |-------|--------|
 |Keep the translated content in the same cell and columns|Don't edit, translate, or delete any bracketed text such as {user first name}, `<COMPANY_NAME>` or {{company name}}. It must stay the same for personalization coding. There's no need to translate anything in brackets. If questions containing brackets are changed, ensure brackets around the text are balanced (one bracket at the start and one at the end, or two at the start and end).| 
-|Ensure that there are no spaces added before or after the updated content|Don't make visual, format, or other stylistic changes unless it improves clarity. Changes shouldn't alter the meaning conveyed in the original English text.|Don't add personal comments.|
+|Ensure that there are no spaces added before or after the updated content|Don't make visual, format, or other stylistic changes unless it improves clarity. Changes shouldn't alter the meaning conveyed in the original English text. Don't add personal comments.|
 |Ensure there is consistent punctuation at the end of sentences (that is, all using a period or none using a period)|Don't add personal comments.|
 |Check for grammatical errors|Don't add new or additional columns or remove columns.| 
 

@@ -9,8 +9,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced
 - essentials-manage
-ms.service: viva 
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---
@@ -52,11 +51,11 @@ All three actions share the same two first steps:
 :::image type="content" source="../images/admin-upload2-start-process.png" alt-text="Screenshot that shows Edit or start new upload option.":::
 
 2.	The resulting page lists three options:
-    * **Update existing organizational data**
-    * **Delete fields**
-    * **Upload a new file to replace existing organizational data**.
+    * **Add or edit data**
+    * **Delete optional fields**
+    * **Replace all data**
 
-    :::image type="content" source="../images/admin-upload2-options.png" alt-text="Screenshot that shows starting data-upload process." lightbox="../images/admin-upload2-options.png":::
+    :::image type="content" source="../images/org-insights-1.png" alt-text="Screenshot that shows starting data-upload process." lightbox="../images/org-insights-1.png":::
 
     Make your selection based on what you want to do, then navigate to the corresponding section below for step 3.
 

@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
+ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
@@ -67,8 +66,6 @@ You can create native teams in bulk using an Excel template.
 
     - Team owner – Enter the primary email of the user who will be the team's owner.
 
-    - Team admins – Add the primary email addresses of up to five users you'd like to be admins for the team. (Optional)
-
     - Parent team – Add the name of the team you'd like to be the parent team for the team you're creating. (Optional)
 
     - Group  ID – Add up to five Microsoft Entra groups as members for this team. Mail-enabled security groups, mail-enabled distribution groups, and nested groups are supported. Other security groups and Microsoft 365 groups aren't supported. (Optional)
@@ -110,11 +107,11 @@ You can use the above steps to add users who are not yet a part of Viva Goals; j
 > [!NOTE]
 > When you set up a team, it's useful to add a second team owner to ensure that team management isn't dependent on a single user. You can also add multiple team owners as necessary.
 
-## Make a team member an owner, admin, or basic member
+## Make a team member an owner or basic member
 
 1. Go to the team's OKRs page and select the three dots (**...**) at the top right, then choose **Team members**.
 
-1. Each team member listed has a dropdown in the **Role** column. Select this dropdown, then choose **Owner**, **Member**, or **Admin** depending on the role you want the team member to have.
+1. Each team member listed has a dropdown in the **Role** column. Select this dropdown, then choose **Owner** or **Member** depending on the role you want the team member to have.
 
 ## Remove a member from a native team
 
@@ -159,7 +156,7 @@ Once a team has been archived, it's marked as **Archived** on the **Teams*
 
 Activities related to the archived team will be halted, including the assigning of team members and any team-level notifications. To resume these activities, you would need to [restore the team](#restore-a-native-team).
 
-To archive a team as an org owner, org administrator, team owner, or team administrator:
+To archive a team as an org owner, org administrator, or team owner:
 
 1. Go to the team's OKRs page.
 

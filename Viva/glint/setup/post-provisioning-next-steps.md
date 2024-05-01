@@ -12,8 +12,7 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/19/2024
 ---
@@ -24,6 +23,9 @@ Welcome to Microsoft Viva Glint! If you have landed on this page, you should alr
 
 - If you haven't already completed tenant provisioning, [set up a Microsoft Viva tenant](viva-glint-tenant-provision.md).
 - If you have completed tenant provisioning, follow these next steps to continue Viva Glint deployment:
+
+   > [!IMPORTANT]
+   > If you’re migrating from LinkedIn Glint, your M365 admin doesn’t need to assign Glint admins in MAC. Admin users are migrated to the Company Admin role as part of your technical migration to Microsoft Viva Glint.
 
 ## Assign Viva Glint admins in the Microsoft Administrator Center (MAC)
 
@@ -47,11 +49,22 @@ To assign admins:
 6. Newly assigned users appear in the Viva Glint application in the Company Admin role within minutes.
 
 > [!NOTE]
-> - To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
+> To add external users, like Partners or Viva Glint team members, use [Manage external users guidance](add-external-user.md).
 
 ## Ongoing Viva Glint admin additions
 
-After initial admins are assigned in the Microsoft Administrator Center, Viva Glint admins can assign and unassign users to the Company Admin role. In the Viva Glint app, admins go to **configure**, select **People**, choose a user, and edit their **User Roles** to include **Company Admin**.
+After initial admins are assigned in the Microsoft Administrator Center, Viva Glint admins can assign and unassign users to the Company Admin role in the Viva Glint application. 
+
+In the Viva Glint app:
+
+1. Go to **Configuration** and select **People**.
+2. Search for and select a user.
+3. On the user's profile, select the pencil icon to edit **User Roles**.
+4. Select or deselect **Company Admin** to add or remove a user from the role.
+5. Select **Save**.
+
+> [!NOTE]
+> As a Viva Glint admin, use these steps to remove the M365 global admin from the Viva Glint Company Admin role if this user shouldn't have access to survey results.
 
 ## What do I do if I need help?
 

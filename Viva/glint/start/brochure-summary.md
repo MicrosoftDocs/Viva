@@ -12,8 +12,7 @@ ms.collection:
 - selfserve 
 search.appverid: MET150 
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/11/2024
 ---
@@ -52,7 +51,7 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 ## Connect with us
 
-- [**Stay up to date by registering for our newsletter.**](https://adoption.microsoft.com/en-us/viva/glint/newsletter/). This recurring communication is full of information to help you get the most from your Viva Glint programs.  
+- [**Stay up to date by registering for our newsletter**](https://adoption.microsoft.com/en-us/viva/glint/newsletter/) This recurring communication is full of information to help you get the most from your Viva Glint programs.  
 
 - [**Provide feedback as part of a product council**](https://techcommunity.microsoft.com/t5/viva-glint-blog/shape-the-future-of-viva-glint-by-joining-our-product-council/ba-p/4063627) Be part of a community that provides Viva Glint teams with feedback on how we can improve our products and services. Product councils run quarterly in different regions.
 
@@ -60,11 +59,21 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 ## Connect with others
 
-- [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040). Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign-up. Look for notifications on the Viva Glint Community and in our newsletters. 
+- [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040) Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign-up. Look for notifications on the Viva Glint Community and in our newsletters. 
 
 - Coming soon! **Customer cohorts** facilitate connections between customers grouped by shared background, shared purpose, or shared interest. We'll let you know about them soon. 
 
-- [**Engage with your peers through discussion posts**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint). The Viva Community provides a space to ask questions and share ideas with experts and peers. We all benefit by learning the best practices of others and sharing ideas.  
+- [**Engage with your peers through discussion posts**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint). The Viva Community provides a space to ask questions and share ideas with experts and peers. We all benefit by learning the best practices of others and sharing ideas.
+
+<hr>
+
+## Leverage support resources
+
+- [**Microsoft 365 Support**](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true): Learn about different M365 support avenues, including online, phone, and small business support methods.
+
+- [**Microsoft Admin Center**](https://go.microsoft.com/fwlink/?linkid=2264234): Coordinate with your M365 global admin to submit requests in the Microsoft Admin Center (MAC) and understand [Service Level Agreements (SLAs)](/microsoft-365/admin/m365-feature-descriptions?view=o365-worldwide&tabs=Privacy).
+
+- **Documentation**: Use Microsoft Support and Learn articles to help your [survey participants](/viva/glint/communicate/support-survey-participants) and [dashboard users](/viva/glint/setup/manager-access-issues).
 
 
 

@@ -1,14 +1,16 @@
 ---
-ms.date: 08/18/2023
+ms.date: 04/08/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
-author: lrolason
+author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.collection: 
+- viva-insights-advanced 
+- viva-copilot
+- magic-ai-copilot
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: abelubetk
@@ -17,9 +19,10 @@ audience: Admin
 
 # Create a custom person query
 
->[!Tip]
+> [!Tip]
 > You can find a demo video, download sample results, and go through a **Show me how** explanation while you’re building your query. Select these options just above **Query setup**.
-:::image type="content" source="../images/person-query-setup-help.png" alt-text="Setup help with links to video, sample, and walk-through above Query setup":::
+>
+> :::image type="content" alt-text="Setup help with links to video, sample, and walk-through above Query setup." source="../images/person-query-setup-help.png" lightbox="../images/person-query-setup-help.png":::
 
 ## Overview
 
@@ -45,24 +48,25 @@ In this article, we talk about how to complete each of these steps, and also giv
 
 The following steps are optional. We describe default values below.
 
-1. Under **Query setup**:
-   1. Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
-   1. Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
-   1. Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
-   
-      >[!Note]
-      >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
-      
-   1. Type a **Description**.
-   
-   1. Set how the query is grouped. By default, custom person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+Under **Query setup**:
 
-       Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
+1. Name your query. Queries are assigned a default name, which follows this format: Query type, user ID, date, and time. Make sure the name is unique.
+1. Select a **Time period**. This field defaults to **Last 3 months**, but you can select another time period you want your query to analyze. Pick from **Last 1 year**, **Last 6 months**, **Last 1 month**, or a **Custom** date range. If you choose a **Custom** date range, use the date picker to select the range.
+1. Set the query to automatically update by selecting the **Auto-Refresh** box. When you select the auto-refresh option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people. This option is deselected by default, but you can select it on any query where the **Time period** isn’t customized.
+
+    >[!Note]
+    >If the organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), you might see an error when you run the query.
+      
+1. Type a **Description**.
+   
+1. Set how the query is grouped. By default, custom person queries are grouped by **Month**. To change this setting to **Week**, select **More Settings** beneath the **Description** box.
+
+    Selecting **More Settings** brings you to the **More Settings** pane. Along with **Group by**, this pane shows the metric rules that apply to your query. To find out more about metric rules that apply to your query, select **See metric rule details**.
        
-       >[!Note]
-       > Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
-       >
-       > To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
+>[!Note]
+> Metrics are criteria used to measure the productivity and wellbeing of employees, and metric rules are rules Viva Insights uses to improve the accuracy of your query results.
+>
+> To learn more about metrics used in Viva Insights, refer to [Metric definitions](../reference/metrics.md). To learn more about metric rules, refer to [Metric rules](./metric-rules.md).
 
 ### Add metrics 
 
@@ -75,6 +79,53 @@ The following steps are optional. We describe default values below.
    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
    
    :::image type="content" source="../images/person-query-selected-metrics-tags.png" alt-text="Select metrics section, with selected metrics appearing as tags":::
+
+3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft Copilot with Microsoft 365 apps, and they’re part of your .csv output file. To include these metrics when you’re setting up your query, select **Include Microsoft 365 Copilot metrics in this query**.
+
+    Here is a list of these Copilot metrics that you can use for your query:
+
+    | Metric | Description | Date from when the data is available and the customers can view |
+    |---|---|---|
+    | Meetings summarized by Copilot |  The number of meetings summarized by Copilot.  | 10/15/2023 |
+    | Chat conversation summaries created by Copilot | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
+    | Chat message drafts composed using Copilot  | The number of chat and channel message drafts created in Teams using Copilot. | 10/15/2023 |
+    |  Email drafts generated by Copilot  |  The number email drafts users generated using Copilot.  | 11/15/2023 |
+    |  Email coaching actions taken using Copilot  | Number of times users selected email coaching with Copilot.  | 11/15/2023 |
+    | Email thread summaries created by Copilot  | Number of times users summarized email conversations with Copilot.  | 11/15/2023 |
+    | Document drafts created by Copilot | The number of times users drafted Word documents with Copilot. | 10/15/2023 | 
+    | Document summaries created by Copilot |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
+    |  Presentations created by Copilot  | Number of times users created PowerPoint presentations with Copilot.  | 10/15/2023 |
+    |  Rewrite text actions taken using Copilot  | Number of times users  modified Word documents with Copilot.  | 10/15/2023 |
+    |  Presentation summaries created by Copilot  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
+    |  Excel analysis actions taken using Copilot  | Number of times users analyzed data to show insights as charts, PivotTable objects, summaries, trends, or outliers in Excel with Copilot.  | 10/15/2023 |
+    | Excel formulas created by Copilot | Number of times users generated new columns with formulas based on Excel data with Copilot.  | 10/15/2023 | 
+    | Excel formatting actions taken using Copilot | Number of times each user highlighted, sorted, and filtered tables in Excel with Copilot.  | 10/15/2023 | 
+    |  Meetings summarized by Copilot  | Number of meetings summarized with Copilot per user.  | 12/18/2023 |
+    | Meeting hours summarized by Copilot  | The number of hours of meetings summarized by Copilot. | 12/18/2023 |
+    | Chat conversations summarized by Copilot |  The number of chats and channel conversations summarized by Copilot.  | 12/18/2023 |
+    | Emails sent using Copilot | The number of emails sent with assistance from Copilot. | 11/15/2023  |
+    | Copilot actions taken in Copilot chat  | The number of Copilot actions completed by active Copilot users in Copilot chat. | 10/15/2023 |
+    | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
+    | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook.  | 10/15/2023 |
+    | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint.  | 10/15/2023 |
+    | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams.  | 10/15/2023 |
+    | Copilot actions taken in Word  | The number of Copilot actions completed by active Copilot users in Word.  | 10/15/2023 |
+    | Days of active Copilot usage in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
+    | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop.  | 10/15/2023 |
+    |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
+    |  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
+    | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
+    |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
+    | Days of active Copilot usage in Word |  The number of days the user was actively using Copilot in Word.  | 10/15/2023 |
+    |  Days of active Copilot usage in Copilot chat  |  The number of days the user was actively using Copilot chat.  | 10/15/2023 |
+    | Copilot enabled days for Copilot chat  |  The number of days the user had Copilot with Graph-grounded chat enabled.  | 10/15/2023 |
+    | Copilot enabled days for Power Platform connectors | The number of days the user had Power Platform Connectors in Copilot for Microsoft 365 enabled. | 10/15/2023 |
+    | Copilot enabled days for productivity apps  | The number of days the user had a Microsoft Copilot apps service plan enabled.  | 10/15/2023 |
+    | Copilot enabled days for Intelligent Search | The number of days the user had an Intelligent search service plan enabled.  | 10/15/2023 |
+    | Copilot enabled days for Teams  | The number of days the user had a Microsoft Copilot Teams service plan enabled.  | 10/15/2023 |
+    | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
+    | Total Copilot enabled days  | The number of days the user had at least one service plan for Microsoft Copilot enabled.  | 10/15/2023 |
+
 
 #### About metrics
 
