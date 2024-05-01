@@ -1995,6 +1995,121 @@
       "source_path": "Viva/solutions/incorporate-learning.md",
       "redirect_url":"/viva/learning",
       "redirect_document_id": false
-    }
+    },
+    { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/healthy-okr-program-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/healthy-okr-program-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/align-loose-vs-tight.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-loose-vs-tight",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/align-okrs-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/apply-okr-formula.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/apply-okr-formula",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/check-in-okrs-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-okrs-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/check-in-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/check-in-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/close-okrs-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/close-okrs-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/close-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/close-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/department-alignment-dashboard.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/department-alignment-dashboard",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/goal-writing-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/goal-writing-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/great-goal-writing.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/great-goal-writing",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/kr-types.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/kr-types",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/leadership-strategy-dashboard.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/leadership-strategy-dashboard",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/okr-examples.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/okr-examples",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/organization-visibility-dashboard.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/organization-visibility-dashboard",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/rhythm-of-business-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/rob-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/rob-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/team-execution-dashboard.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/team-execution-dashboard",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/write-annual-top-level-okrs.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-annual-top-level-okrs",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/write-okrs-overview.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-okrs-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/viva-goals-healthy-okr-program/write-okrs-recommendations.md",
+      "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-okrs-recommendations",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/solutions/solutions.yml",
+      "redirect_url": "/viva/microsoft-viva-overview",
+      "redirect_document_id": false
+  }
   ]
 }
