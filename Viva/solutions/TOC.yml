@@ -32,7 +32,7 @@
           href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
         - name: Improve your OKR writing
           href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
-        - name: Write OKRs recommendations
+        - name: Write OKR recommendations
           href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
         - name: Defining Key Result Types in Viva Goals
           href: ./viva-goals-healthy-okr-program/kr-types.md
@@ -43,23 +43,23 @@
       items:
       - name: Align OKRs overview
         href: ./viva-goals-healthy-okr-program/align-okrs-overview.md
-      - name: Align OKRs recommendations
+      - name: Align OKR recommendations
         href: ./viva-goals-healthy-okr-program/align-okrs-recommendations.md
       - name: Tight vs loose alignment
         href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
     
     - name: Check in and track goals
       items:
-      - name: Check in OKRs overview
+      - name: Check in OKR overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
       - name: Check in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
    
     - name: Close and score goals
       items:
-      - name: Close OKRs overview
+      - name: Close OKR overview
         href: ./viva-goals-healthy-okr-program/close-okrs-overview.md
-      - name: Close OKRs recommendations
+      - name: Close OKR recommendations
         href: ./viva-goals-healthy-okr-program/close-recommendations.md
     
     - name: Business rhythms and dashboards
