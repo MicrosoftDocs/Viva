@@ -18,8 +18,7 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-
-# View-only mode in Viva Engage (Private Preview)
+# Restrict user privileges with View-only mode in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
 >View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
@@ -50,8 +49,11 @@ Admins can set view-only mode from the Engage admin center. This control works b
 **To assign a user to view-only mode:**
 
 1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+
 1. From the **Governance and compliance tab**, select the **View-only mode** option.
+
 1. Select **Add a user**.
+
 1. Use the search function to find the user name you want, select it, and confirm your selection.<br>
 
     The user's name appears in the list of users in view-only mode with the date the status was applied and the admin who applied the status.
