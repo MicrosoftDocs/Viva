@@ -59,7 +59,7 @@ Companies that proactively manage their culture show:
 
 ## Viva Glint Culture Survey items
 
-|Item #|Item Name|Item Text|
+|Item #|Item name|Item text|
 |-----|----------|---------|
 |1|Collaboration - Across Groups|People at [Company Name] collaborate well across groups to get things done.|
 |2|Purpose - Customer Focus|People at [Company Name] make decisions with their impact on the customer in mind.|
@@ -68,10 +68,10 @@ Companies that proactively manage their culture show:
 |5|Humanity - Wellbeing|People at [Company Name] take a genuine interest in each other's wellbeing.|
 |6|Alignment - Goal Alignment|People at [Company Name] align their goals with the goals and strategy of the company.|
 |7|Integrity - Transparency|People at [Company Name] communicate openly and honestly with each other.|
-|8|Execution - Deliver Reliably|People at [Company Name] reliablyl deliver on their commitments.|
+|8|Execution - Deliver Reliably|People at [Company Name] reliably deliver on their commitments.|
 |9|Humanity - Belonging|People at [Company Name] foster an environment of belonging.|
 |10|Learning - Learn from Mistakes|People at [Company Name] take the time to learn from mistakes.|
-|11|Adaptability - Better Ways|People at [Company Name] find new and better ways od doing things.|
+|11|Adaptability - Better Ways|People at [Company Name] find new and better ways of doing things.|
 |12|Execution - Timely Decisions|People at [Company Name] make decisions in a timely manner.|
 |13|Integrity - Fair Decisions|People at [Company Name] make decisions fairly and objectively.|
 |14|Purpose - Mission Driven|People at [Company Name] make decisions that align with the mission.|
