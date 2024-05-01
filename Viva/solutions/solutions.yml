@@ -25,23 +25,6 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
-
-  # Card (optional)
-  - title: Use Microsoft Viva in the hybrid workplace
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Overview
-            url: viva-for-the-hybrid-workplace.md
-          - text: Onboarding or changing roles
-            url: viva-onboard-change-roles.md
-          - text: Frontline workers
-            url: viva-front-line-workers.md
-          - text: Work/life balance
-            url: viva-work-life-balance.md
-          - text: Leadership communications
-            url: viva-leadership-communications.md
-
   # Card
   - title: Discover goal-setting best practices with Viva Goals
     linkLists:

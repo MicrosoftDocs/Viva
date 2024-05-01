@@ -1,6 +1,31 @@
 {
     "redirections": [
         { 
+            "source_path": "Viva/solutions/viva-for-the-hybrid-workplace.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-onboard-change-roles.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-front-line-workers.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-work-life-balance.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-leadership-communications.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
             "source_path": "Viva/insights/azure-templates/cancel-service.md",
             "redirect_url": "/previous-versions/viva/insights/azure-templates/cancel-service",
             "redirect_document_id": false
