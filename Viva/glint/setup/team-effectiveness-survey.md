@@ -32,7 +32,7 @@ Setting up a Team Effectiveness Survey as a recurring, stand-alone program or as
 
 ## Viva Glint Team Effectiveness Survey items
 
-|Item #|Item Name|Item Text|
+|Item #|Item name|Item text|
 |------|---------|---------|
 |1|Inclusion|Our team has a climate in which diverse perspectives are valued.|
 |2|Communication|In our team we communicate openly and honestly with each other.|
@@ -53,4 +53,4 @@ Setting up a Team Effectiveness Survey as a recurring, stand-alone program or as
 |17|Learning|I learn from my teammates.
 
 
-## [Follow the guidance for Program Summary for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)
+***[Follow the guidance for Program Summary for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)***
