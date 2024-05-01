@@ -10,8 +10,8 @@ ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced 
 - viva-copilot
-ms.service: viva 
-ms.subservice: viva-insights 
+- magic-ai-copilot
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: abelubetk

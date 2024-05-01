@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-connections
+ms.service: viva-connections
 ms.localizationpriority: high
 ms.collection:  
 - essentials-overview

@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.date: 01/04/2024
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-pulse
+ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
 search.appverid: MET150

@@ -12,10 +12,9 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/26/2024
+ms.date: 04/24/2024
 ---
 
 # Customize Viva Glint Team Conversation email content
@@ -27,10 +26,11 @@ Customize Microsoft Viva Glint email content for Team Conversation start message
 
 ## Custom sending domains and themes/logos (optional)
 
-In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can optionally configure a custom sending domain for your organization and customize your organization's theme to include your logo in survey communications:
+In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can
+optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
-- [Customize the Microsoft 365 theme for your organization](/microsoft-365/admin/setup/customize-your-organization-theme)
+- [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
 
 Both items are **optional steps** that your organization can take to further customize the survey communication experience for your survey participants.
 
@@ -63,6 +63,13 @@ Macros in Viva Glint emails allow your organization to add placeholders that pul
 ## Manage translations
 
 Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your Team Conversation email translations.
+
+### Use the program content import
+
+> [!NOTE]
+> This feature is planned to be available after May 4, 2024.
+
+Use this [translation guidance](/viva/glint/setup/language-translations) to import updated translations for emails after modifying English text.
 
 ### Use the language dropdown
 

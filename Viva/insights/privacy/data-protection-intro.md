@@ -12,8 +12,7 @@ ms.collection:
 - viva-insights-manager
 - viva-insights-leader 
 - viva-insights-advanced
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: scott.ruble

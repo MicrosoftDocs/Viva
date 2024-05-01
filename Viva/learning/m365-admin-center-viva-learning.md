@@ -7,8 +7,7 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 11/23/2021
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:

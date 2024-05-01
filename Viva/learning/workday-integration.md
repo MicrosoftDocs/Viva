@@ -7,8 +7,7 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 03/14/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
