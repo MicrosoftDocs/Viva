@@ -25,7 +25,7 @@ As a part of Glint’s integrated employee engagement platform, Manager Effectiv
 
 Glint provides customizable survey content that covers key areas of manager performance. These areas represent industry best practices including priority setting, decision making, collaboration and communication. They also let leaders know how well managers provide motivation, recognition, career development, and feedback to their teams. Each area includes best practice content and suggested actions to help managers improve. 
 
-## Viva Glint Manager Effectiveness Survey itemstem
+## Viva Glint Manager Effectiveness Survey items
 
 |Item Number|Item Name|Item Text|
 |----------|-----------|------|
@@ -46,4 +46,4 @@ Glint provides customizable survey content that covers key areas of manager perf
 |15|Opportunities|What should your manager consider changing (doing less of, more of or differently)?|
 |16|Strengths|What should your manager keep doing?|
 
-## [Follow Program Summary guidance for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)
+***[Follow Program Summary guidance for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)***
