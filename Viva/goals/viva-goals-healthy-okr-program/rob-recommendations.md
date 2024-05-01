@@ -40,6 +40,6 @@ Looking to improve your healthy OKR program? Here are recommendations you can pe
 
 To get more clarity on how to move forward, ask your team these three questions: 
 
-1. What business rituals does your organization use today that could be evolved to leverage OKRs? 
+1. What business rituals does your organization use today that could be evolved to use OKRs? 
 1. Where are there manual data collection and reporting processes that could be automated? 
 1. In which meeting category does your organization have room to improve your approach?  
