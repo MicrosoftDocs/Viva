@@ -10,21 +10,6 @@
     - name: Discover more about each Viva module
       href: /viva/discover-more-about-each-viva-module?toc=/viva/solutions/toc.json&bc=/viva/solutions/toc.json
 
-
- 
-  - name: Using Microsoft Viva in the hybrid workplace
-    href: viva-for-the-hybrid-workplace.md
-    items:
-    - name: Onboarding employees who are new or changing roles
-      href: viva-onboard-change-roles.md
-    - name: Frontline workers
-      href: viva-front-line-workers.md
-    - name: Work/life balance
-      href: viva-work-life-balance.md
-    - name: Leadership communications
-      href: viva-leadership-communications.md
-
-
   - name: Discover goal-setting best practices with Viva Goals
     items:
     - name: Best practices for running a healthy Viva Goals program
@@ -47,7 +32,7 @@
           href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
         - name: Improve your OKR writing
           href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
-        - name: Write OKRs recommendations
+        - name: Write OKR recommendations
           href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
         - name: Defining Key Result Types in Viva Goals
           href: ./viva-goals-healthy-okr-program/kr-types.md
@@ -58,23 +43,23 @@
       items:
       - name: Align OKRs overview
         href: ./viva-goals-healthy-okr-program/align-okrs-overview.md
-      - name: Align OKRs recommendations
+      - name: Align OKR recommendations
         href: ./viva-goals-healthy-okr-program/align-okrs-recommendations.md
       - name: Tight vs loose alignment
         href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
     
-    - name: Check-in and track goals
+    - name: Check in and track goals
       items:
-      - name: Check-in OKRs overview
+      - name: Check in OKR overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
-      - name: Check-in OKRs recommendations
+      - name: Check in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
    
     - name: Close and score goals
       items:
-      - name: Close OKRs overview
+      - name: Close OKR overview
         href: ./viva-goals-healthy-okr-program/close-okrs-overview.md
-      - name: Close OKRs recommendations
+      - name: Close OKR recommendations
         href: ./viva-goals-healthy-okr-program/close-recommendations.md
     
     - name: Business rhythms and dashboards
