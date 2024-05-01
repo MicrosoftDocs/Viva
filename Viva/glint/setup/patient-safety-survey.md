@@ -1,5 +1,5 @@
 ---
-title: Set up a Microsoft Viva Glint Patient Safety survey
+title: Set up a Microsoft Viva Glint Patient Safety Survey
 description: Many healthcare customers move to the Viva Glint patient safety survey to help assess and improve their patient safety culture. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 05/01/2024
 ---
 
-# Set up a Microsoft Viva Glint Patient Safety survey 
+# Set up a Microsoft Viva Glint Patient Safety Survey 
 
 Many healthcare customers use the Viva Glint Patient Safety Survey to assess and improve their patient safety culture. It is approved as a reliable measure of patient culture by Leapfrog's expert panel and is among the most succinct Leapfrog-approved safety surveys currently available. Seamlessly integrated with Viva Glint, patient safety survey insights are designed to get to healthcare leaders in real-time. 
 
