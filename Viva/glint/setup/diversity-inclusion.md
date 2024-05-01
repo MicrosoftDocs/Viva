@@ -26,7 +26,7 @@ Belonging is strong when:
 - everyone feels accepted
 - everyone can bring their best selves to work.
 
-The Microsoft Viva Glint Diversity and Inclusion (D&I) approach helps organizations measure perspectives that matter and empower managers to build inclusive practices. The D&I approache should foster an understanding of how to create an environment where all people feel they belong.
+The Microsoft Viva Glint Diversity and Inclusion (D&I) approach helps organizations measure perspectives that matter and empower managers to build inclusive practices. The D&I approach fosters an understanding of how to create an environment where all people feel they belong.
 
 > [!NOTE]
 > The Glint survey strategy can incorporate domains of diversity, belonging and inclusion into any survey, voiding the need for a standalone Diversity and Inclusion measurement. For this reason, consider adding items from Glint's D&I survey template to an engagement or a culture survey.
@@ -65,7 +65,7 @@ Diversity and Inclusion survey feedback provides:
 
 The Diversity and Inclusion template is found in the *Recurring* section on the *Create a Program* page.
 
-From the admin dashboard, select **Configure*** and then **Survey Programs**.
+From the admin dashboard, select **Configure** and then **Survey Programs**.
 Select **+ New Program**.
 Select the **Diversity and Inclusion card**.
 
