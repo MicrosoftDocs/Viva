@@ -22,8 +22,8 @@ ms.date: 05/01/2024
 Fostering a strong sense of belonging in your organization is essential. Customer data shows that employees who feel a strong sense of belonging are over six times as likely to be engaged as those employees who don’t. 
 
 Belonging is strong when:
-- work environments are inclusive of differences
-- everyone feels accepted
+- work environments are inclusive of differences.
+- everyone feels accepted.
 - everyone can bring their best selves to work.
 
 The Microsoft Viva Glint Diversity and Inclusion (D&I) approach helps organizations measure perspectives that matter and empower managers to build inclusive practices. The D&I approach fosters an understanding of how to create an environment where all people feel they belong.
@@ -46,7 +46,7 @@ Diversity and Inclusion survey feedback provides:
 
 ## Viva Glint Diversity and Inclusion survey items
 
-|Item Number|Item Name|Item Text|
+|Item number|Item name|Item text|
 |---------- |--------|---------|
 |1|eSat|How happy are you working at [Company Name].|
 |2|Belonging|I feel a sense of belonging at [Company Name].|
@@ -54,7 +54,7 @@ Diversity and Inclusion survey feedback provides:
 |4|Equal Opportunity|Regardless of background, everyone at [Company Name] has an equal opportunity to succeed.|
 |5|Diversity Committment|Top leaders demonstrate a visible commitment to diversity.|
 |6|Opinion Count|My opinions seem to count.|
-|7|Acceptance|[Company Name] makes it easy for people from diverse backgrounds to be accerpted.|
+|7|Acceptance|[Company Name] makes it easy for people from diverse backgrounds to be accepted.|
 |8|Transparency|[Company Name] communicates openly and honestly.|
 |9|Valued Teammate|I am treated as a valued memober of my work group.|
 |10|Larger Purpose|Working for [Company Name] gives me a sense that I am part of something with a larger purpose.|
