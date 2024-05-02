@@ -513,4 +513,4 @@ When survey testing is complete, [delete your test survey](delete-survey-data.md
 
 ## Approve and enable a survey for launch
 
-After all testing and review is complete, [Approve and Enable](preview-manage-enable-engage-programs.md) your survey for launch.
+After all testing and review are complete, [Approve and Enable](preview-manage-enable-engage-programs.md) your survey for launch.
