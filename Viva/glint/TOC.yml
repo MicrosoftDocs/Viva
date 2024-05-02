@@ -153,8 +153,6 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-      - name: Delete survey data 
-        href: setup/delete-survey-data.md
   - name: Create survey programs
     href: setup/customize-program.md
     items:
@@ -236,12 +234,18 @@ items:
             items:
              - name: Customize Team Conversation email content
                href: reports/team-conversations-content-cusomization.md          
+      - name: Review surveys before launch
+        items:
+          - name: Review surveys before launch
+            href: setup/survey-qa.md    
           - name: Preview and enable surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
           - name: Make changes to a live survey
-            href: setup/change-live-survey.md     
+            href: setup/change-live-survey.md
+          - name: Delete survey data 
+            href: setup/delete-survey-data.md
   - name: Use reports and dashboards
     items:
       - name: Survey reports overview
