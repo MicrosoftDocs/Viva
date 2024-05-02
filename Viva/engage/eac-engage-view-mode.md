@@ -50,13 +50,12 @@ Admins can set view-only mode from the Engage admin center. This control works b
 
 1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
 
-1. From the **Governance and compliance tab**, select the **View-only mode** option.
+2. From the **Governance and compliance tab**, select the **View-only mode** option.
 
- :::image type="content" source="../media/engage/admin/eac-viewonlymode-fullscreen.png" alt-text="Screenshot shows the View-only mode list in the Engage admin center." lightbox="../media/engage/admin/eac-view-only-mode.png#lightbox":::
+3. Select **Add a user**.
+  :::image type="content" source="../media/engage/admin/eac-viewonlymode-fullscreen.png" alt-text="Screenshot shows the View-only mode list in the Engage admin center." lightbox="../media/engage/admin/eac-view-only-mode.png#lightbox":::
 
-1. Select **Add a user**.
-
-1. Use the search function to find and select the user name you want, and then confirm your selection.<br>
+4. Use the search function to find and select the user name you want, and then confirm your selection.<br>
 
     The user's name appears in the list of users in view-only mode with the date the status was applied and the admin who applied the status.
 
