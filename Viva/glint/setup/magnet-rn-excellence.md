@@ -25,7 +25,7 @@ Using the Viva Glint platform, organizations can view invaluable data from their
 
 Viva Glint offers the items needed for a Registered Nurse (RN) survey. The items available are approved by the American Nurses Credentialing Center (ANCC®️) for hospitals/clinics looking to attain or maintain Magnet® status in Nursing. Magnet©️ status is a prestigious honor which certifies that the RNs at that entity or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet®️-certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification. Our survey was created with the guidance and expertise of ANCC®️ analysts. The survey meets all RN Satisfaction criteria laid out by current Application Manuals, as well. 
 
-With the ANCC®️, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes. These categories are validated in the EP3EO and EP2#O Magnet Application Manuals®️ - and the EP2EO Magnet Application Manual.®️ 
+With the ANCC®️, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes. These categories are validated in the EP3EO and EP2EO Magnet Application Manuals®️. 
 
 > [!TIP]
 > Choose the **Quarterly Engagement** survey template and customize it to meet your RN Excellence/Magnet®️ needs by following the guidelines below.
@@ -52,11 +52,11 @@ Now these items are available in the Question Library and can be added to survey
 
 All survey items can be viewed and exported from the **Questions** page in *Program Summary* within the Patient Safety Survey template or downloaded from the **Question Library** on the admin dashboard. 
 
-Choose items to add to your survey template so that it resembles the 20 items in the table below, in numerical order. Follow in-platform guidance for adding items, and the images below for direction. **Always choose the item that is labeled with Magnet, if available.** In some cases, you have a choice of more items than are required; choose only the number of items required per category. 
+Choose items to add to your survey template so that it resembles the 20 items in the table below, in numerical order. Follow in-platform guidance for adding items, and the images below for direction. **Always choose the item that is labeled with Magnet®️, if available.** In some cases, you have a choice of more items than are required; choose only the number of items required per category. 
 
-Viva Glint worked collaboratively with the ANCC to create a Magnet/RN Excellence survey that includes the following core items and required ANCC categories:
+Viva Glint worked collaboratively with the ANCC®️ to create a Magnet®️/RN Excellence survey that includes the following core items and required ANCC®️ categories:
 
-|Survey items|Required ANCC Category|
+|Survey items|Required ANCC®️ Category|
 |:-----------|:----------------------|
 |1-7|Fundamentals of Quality Nursing Care|
 |8-9|Leadership Access and Responsiveness|
