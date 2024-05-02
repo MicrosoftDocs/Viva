@@ -18,7 +18,7 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-# Restrict user privileges with View-only mode in Viva Engage (Private Preview)
+# Restrict user privileges with view-only mode in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
 >View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
