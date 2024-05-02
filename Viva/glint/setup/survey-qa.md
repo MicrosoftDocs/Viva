@@ -608,7 +608,7 @@ Launch a test survey to your project team to confirm that emails arrive and the 
 
 1. From the admin dashboard, select **Configuration** and then choose **Survey Programs**.
 1. On the far right of your completed survey program, select the ellipses and choose **Duplicate** from the menu that appears.
-1. A new survey program appears titled **<survey name> Copy**.
+1. A new survey program appears titled **"survey name" Copy**.
 1. Select the copied survey and go to **Distribution**.
    1. Select a Distribution List that includes test users in the **Distribution For This Program** field.
 1. Select **Save & Continue** to go to **Schedule**.
