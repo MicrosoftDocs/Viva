@@ -1,5 +1,5 @@
 ---
-title: "Restrict user privileges with view-only mode in Viva Engage (Private Preview)"
+title: "Manage user privileges with view-only mode in Viva Engage (Private Preview)"
 description: "View-only mode is a tool admins can use to remove privileges from Viva Engage users when needed."
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -18,7 +18,7 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-# Restrict user privileges with view-only mode in Viva Engage (Private Preview)
+# Manage user privileges with view-only mode in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
 >View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
@@ -42,7 +42,7 @@ When a user is in view-only mode, they have **no access** to the following featu
 
 - Content sharing between storylines or communities (public or private)
 
-### Manage users in view-only mode
+## Manage users in view-only mode
 
 Admins can set view-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
 
