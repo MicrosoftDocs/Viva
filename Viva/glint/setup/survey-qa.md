@@ -69,6 +69,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 ## Review survey programs
 
+Choose a tab based on your survey type (for example: Recurring for an Engagement survey) and use checklists to review each section of your survey program's setup.
 
 # [Recurring](#tab/recurring)
 
