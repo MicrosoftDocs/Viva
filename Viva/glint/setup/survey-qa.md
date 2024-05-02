@@ -73,7 +73,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 # [Recurring](#tab/recurring)
 
-## Program Setup
+### Program Setup
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -93,7 +93,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
 
-## Distribution
+### Distribution
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -103,7 +103,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys
 
-## Schedule
+### Schedule
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -115,7 +115,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
 
-## Questions
+### Questions
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -132,7 +132,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
-## Reporting
+### Reporting
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -155,7 +155,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - The Team Conversations setting only appears in a Program Role when Team Conversations have been enabled in Program Setup.
 > - Aggregate Indices can't be deleted after they're setup.
 
-## Communications
+### Communications
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -168,7 +168,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
 > - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
 
-## Coaching
+### Coaching
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -186,7 +186,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 # [Lifecycle](#tab/lifecycle)
 
-## Program Setup
+### Program Setup
 
 |Item   |Confirm that...  |Impact|Editable during live survey
 |:----------|:-----------|:------------|:------------|
@@ -208,7 +208,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!NOTE]
 > **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
 
-## Distribution
+### Distribution
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -219,7 +219,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys.
 
-## Questions
+### Questions
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -236,7 +236,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
-## Reporting
+### Reporting
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -254,7 +254,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
 
-## Communications
+### Communications
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -267,7 +267,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
 > - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
 
-## Coaching
+### Coaching
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -284,7 +284,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 # [Ad-Hoc](#tab/adhoc)
 
-## Program Setup
+### Program Setup
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -303,7 +303,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
 
-## Distribution
+### Distribution
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -313,7 +313,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys
 
-## Schedule
+### Schedule
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -323,7 +323,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!TIP]
 > *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
 
-## Questions
+### Questions
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -340,7 +340,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
-## Reporting
+### Reporting
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -361,7 +361,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
 
-## Communications
+### Communications
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -374,7 +374,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
 > - **Reminder emails can be added/edited at the survey cycle level if the added reminders aren't scheduled to send for at least 24 hours. New reminders can't be added to sent the same day.
 
-## Coaching
+### Coaching
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -392,7 +392,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 
 # [Always-On](#tab/alwayson)
 
-## Program Setup
+### Program Setup
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -413,14 +413,14 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!NOTE]
 > **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
 
-## Distribution
+### Distribution
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
 |Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No        |
 |Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
 
-## Questions
+### Questions
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -437,7 +437,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
-## Reporting
+### Reporting
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
@@ -455,7 +455,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
 
-## Coaching
+### Coaching
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
