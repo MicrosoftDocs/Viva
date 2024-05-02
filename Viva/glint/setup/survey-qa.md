@@ -78,18 +78,18 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Name</li></ul>     |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|<ul><li>[ ] Administrators</li></ul> |The correct User Roles are selected as program admins.   |Low|Yes|
-|<ul><li>[ ] Default Language</li></ul> |The correct default language is selected.  |Medium|Yes|
-|<ul><li>[ ] Additional Languages</li></ul> |Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|<ul><li>[ ] Admin Notifications To</li></ul> |The correct user is selected for admin notification emails for this program.    |Medium|Yes|
-|<ul><li>[ ] Suggested Actions Available</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|<ul><li>[ ] Eligible for Nudges</li></ul> |This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
-|<ul><li>[ ] Allow Survey Resubmission</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
-|<ul><li>[ ] Enable Team Conversations</li></ul> |This setting is set to Yes or No correctly to enable or disable Team Conversations for managers to act on results with a guided, in-platform experience.  |High|Yes|
-|<ul><li>[ ] Confidential Responses</li></ul> |This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|<ul><li>[ ] Enable Export of Raw Survey Responses</li></ul> |This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|<ul><li>[ ] Company Message to Survey Participants</li></ul> |Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
+|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
+|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
+|Default Language|The correct default language is selected.  |Medium|Yes|
+|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
+|Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium|Yes|
+|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
+|Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
+|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
+|Enable Team Conversations|This setting is set to Yes or No correctly to enable or disable Team Conversations for managers to act on results with a guided, in-platform experience.  |High|Yes|
+|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
+|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
+|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
@@ -102,8 +102,8 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Distribution For This Program</li></ul>     |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|<ul><li>[ ] Exclude Groups</li></ul> |The correct Distribution lists are selected to exclude users.   |High|No|
+|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
+|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
 
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys
@@ -116,10 +116,10 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] The surveys go out every</li></ul>     |The survey frequency is correct (for example, every 4 months).       |Low        |Yes        |
-|<ul><li>[ ] Send the next survey on</li></ul> |The survey start date is accurate.   |High|Yes|
-|<ul><li>[ ] Schedule Preview</li></ul> |Upcoming survey dates are accurate based on frequency and survey start date.   |Low|Yes|
-|<ul><li>[ ] Response Window</li></ul> |The number of days the survey is open for responses is correct.   |High|Yes*|
+|The surveys go out every    |The survey frequency is correct (for example, every 4 months).       |Low        |Yes        |
+|Send the next survey on|The survey start date is accurate.   |High|Yes|
+|Schedule Preview|Upcoming survey dates are accurate based on frequency and survey start date.   |Low|Yes|
+|Response Window|The number of days the survey is open for responses is correct.   |High|Yes*|
 
 > [!TIP]
 > *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
@@ -133,14 +133,14 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Welcome text and translations</li></ul>     |Welcome text and translations are accurate.       |High        |Yes        |
-|<ul><li>[ ] Questions</li></ul> |All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|<ul><li>[ ] Questions: Order</li></ul> |Questions are in the correct order.   |High|Yes|
-|<ul><li>[ ] Questions: Text and translations</li></ul> |Customized question text and translations are accurate.   |High|No|
-|<ul><li>[ ] Questions: Targeting</li></ul> |Distribution lists selected to target questions are accurate.   |High|No|
-|<ul><li>[ ] Questions: Display Logic</li></ul> |Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|<ul><li>[ ] Sections and translations</li></ul> |Section break/header text and translations are correct.   |Medium|No|
-|<ul><li>[ ] Thank you text and translations</li></ul> |Thank you text and translations are accurate.    |High|Yes|
+|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
+|Questions: Order|Questions are in the correct order.   |High|Yes|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
+|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
+|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
+|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
 > - Section break: User scrolls and it disappears as you take the survey. 
@@ -154,20 +154,20 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Roles</li></ul>     |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|<ul><li><ol> Reporting View</li></ol></ul> |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
-|<ul><li><ol> Concierge Visibility</li></ol></ul> |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
-|<ul><li><ol> Broader Team Insights</li></ol></ul> |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
-|<ul><li><ol> Team Conversations</li></ol></ul> |This setting is set to On or Off correctly to allow managers to use in-platform Team Conversations.   |Medium|Yes|
-|<ul><li><ol> Dashboard Default</li></ol></ul> |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|<ul><li><ol> Report Template Access</li></ol></ul> |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|<ul><li><ol> Question Reporting Access</li></ol></ul> |Users in the role have access to the correct questions.   |Medium|Yes|
-|<ul><li>[ ] Aggregate Indices</li></ul> |Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|<ul><li>[ ] Key Outcome</li></ul> |The correct item or aggregate is selected.   |Medium|Yes|
-|<ul><li>[ ] Driver Impact Outcomes</li></ul> |The correct items or aggregates are selected.  |Medium|Yes|
-|<ul><li>[ ] Manager Report Defaults</li></ul> |The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|<ul><li>[ ] PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
-|<ul><li>[ ] Broader Team Insights PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
+|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
+|Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
+|Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
+|Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
+|Team Conversations |This setting is set to On or Off correctly to allow managers to use in-platform Team Conversations.   |Medium|Yes|
+|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
+|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
+|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
+|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
+|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
+|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
+|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
+|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
+|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
 > - The Team Conversations setting only appears in a Program Role when Team Conversations have been enabled in Program Setup.
@@ -182,10 +182,10 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Notification Timing</li></ul>     |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|<ul><li>[ ] Email Settings*</li></ul> |The correct email types are selected to deliver emails.   |Medium|Yes|
-|<ul><li>[ ] Configure Notifications</li></ul> |Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|<ul><li>[ ] Translations</li></ul> |Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
+|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
+|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
+|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
+|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
@@ -200,9 +200,9 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Interpretation</li></ul>     |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|<ul><li>[ ] Top Strengths</li></ul> |The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|<ul><li>[ ] Top Opportunities</li></ul> |The correct content is selected for Top Opportunities   |Medium        |Yes        |
+|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
+|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
+|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
 
 > [!TIP]
 > Save and continue without edits to keep default selections for Coaching content.
@@ -221,17 +221,17 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Name</li></ul>     |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|<ul><li>[ ] Administrators</li></ul> |The correct User Roles are selected as program admins.   |Low|Yes|
-|<ul><li>[ ] Default Language</li></ul> |The correct default language is selected.  |Medium|Yes|
-|<ul><li>[ ] Additional Languages</li></ul> |Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|<ul><li>[ ] Suggested Actions Available</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|<ul><li>[ ] Response Window</li></ul> |The correct number of days is selected.   |High|Yes**|
-|<ul><li>[ ] Waiting Period Between Surveys</li></ul> |The correct number of days is selected.   |High|Yes**|
-|<ul><li>[ ] Allow Survey Resubmission</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
-|<ul><li>[ ] Confidential Responses</li></ul> |This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|<ul><li>[ ] Enable Export of Raw Survey Responses</li></ul> |This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|<ul><li>[ ] Company Message to Survey Participants</li></ul> |Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
+|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
+|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
+|Default Language|The correct default language is selected.  |Medium|Yes|
+|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
+|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
+|Response Window|The correct number of days is selected.   |High|Yes**|
+|Waiting Period Between Surveys|The correct number of days is selected.   |High|Yes**|
+|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
+|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
+|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
+|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
@@ -247,9 +247,9 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Employee Attribute</li></ul>     |The correct date (hire or exit) is selected as a trigger date for surveys.       |High        |No        |
-|<ul><li>[ ] Distribution For This Program</li></ul>     |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|<ul><li>[ ] Exclude Groups</li></ul> |The correct Distribution lists are selected to exclude users.   |High|No|
+|Employee Attribute    |The correct date (hire or exit) is selected as a trigger date for surveys.       |High        |No        |
+|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
+|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
 
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys.
@@ -264,14 +264,14 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Welcome text and translations</li></ul>     |Welcome text and translations are accurate.       |High        |Yes        |
-|<ul><li>[ ] Questions</li></ul> |All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|<ul><li>[ ] Questions: Order</li></ul> |Questions are in the correct order.   |High|Yes|
-|<ul><li>[ ] Questions: Text and translations</li></ul> |Customized question text and translations are accurate.   |High|No|
-|<ul><li>[ ] Questions: Targeting</li></ul> |Distribution lists selected to target questions are accurate.   |High|No|
-|<ul><li>[ ] Questions: Display Logic</li></ul> |Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|<ul><li>[ ] Sections and translations</li></ul> |Section break/header text and translations are correct.   |Medium|No|
-|<ul><li>[ ] Thank you text and translations</li></ul> |Thank you text and translations are accurate.    |High|Yes|
+|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
+|Questions: Order|Questions are in the correct order.   |High|Yes|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
+|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
+|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
+|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
 > - Section break: User scrolls and it disappears as you take the survey. 
@@ -287,16 +287,16 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Roles</li></ul>     |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|<ul><li><ol> Dashboard Default</li></ol></ul> |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|<ul><li><ol> Report Template Access</li></ol></ul> |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|<ul><li><ol> Question Reporting Access</li></ol></ul> |Users in the role have access to the correct questions.   |Medium|Yes|
-|<ul><li>[ ] Aggregate Indices</li></ul> |Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|<ul><li>[ ] Key Outcome</li></ul> |The correct item or aggregate is selected.   |Medium|Yes|
-|<ul><li>[ ] Driver Impact Outcomes</li></ul> |The correct items or aggregates are selected.  |Medium|Yes|
-|<ul><li>[ ] Manager Report Defaults</li></ul> |The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|<ul><li>[ ] PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
-|<ul><li>[ ] Broader Team Insights PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
+|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
+|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
+|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
+|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
+|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
+|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
+|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
+|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
+|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
+|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
@@ -309,10 +309,10 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Notification Timing</li></ul>     |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|<ul><li>[ ] Email Settings*</li></ul> |The correct email types are selected to deliver emails.   |Medium|Yes|
-|<ul><li>[ ] Configure Notifications</li></ul> |Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|<ul><li>[ ] Translations</li></ul> |Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
+|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
+|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
+|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
+|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
@@ -326,9 +326,9 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Interpretation</li></ul>     |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|<ul><li>[ ] Top Strengths</li></ul> |The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|<ul><li>[ ] Top Opportunities</li></ul> |The correct content is selected for Top Opportunities   |Medium        |Yes        |
+|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
+|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
+|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
 
 > [!TIP]
 > Save and continue without edits to keep default selections for Coaching content.
@@ -345,17 +345,17 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Name</li></ul>     |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|<ul><li>[ ] Administrators</li></ul> |The correct User Roles are selected as program admins.   |Low|Yes|
-|<ul><li>[ ] Default Language</li></ul> |The correct default language is selected.  |Medium|Yes|
-|<ul><li>[ ] Additional Languages</li></ul> |Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|<ul><li>[ ] Admin Notifications To</li></ul> |The correct user is selected for admin notification emails for this program.    |Medium|Yes|
-|<ul><li>[ ] Suggested Actions Available</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|<ul><li>[ ] Eligible for Nudges</li></ul> |This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
-|<ul><li>[ ] Allow Survey Resubmission</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
-|<ul><li>[ ] Confidential Responses</li></ul> |This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|<ul><li>[ ] Enable Export of Raw Survey Responses</li></ul> |This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|<ul><li>[ ] Company Message to Survey Participants</li></ul> |Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
+|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
+|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
+|Default Language|The correct default language is selected.  |Medium|Yes|
+|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
+|Admin Notifications To|The correct user is selected for admin notification emails for this program.    |Medium|Yes|
+|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
+|Eligible for Nudges|This setting is set to Yes or No correctly to enable or disable Nudges for managers to act on survey results.   |High|Yes|
+|Allow Survey Resubmission|This setting is set to Yes or No correctly to allow or disallow users to reset their own surveys and resubmit during live surveys.   |High|Yes|
+|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
+|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
+|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
@@ -369,8 +369,8 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Distribution For This Program</li></ul>     |The correct Distribution Lists are selected to include users.       |High        |No*        |
-|<ul><li>[ ] Exclude Groups</li></ul> |The correct Distribution lists are selected to exclude users.   |High|No|
+|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No*        |
+|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
 
 > [!TIP]
 > *Use the Send Survey option from a user’s profile to add individual users to live surveys
@@ -384,8 +384,8 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Send the next survey on</li></ul> |The survey start date is accurate.   |High|Yes|
-|<ul><li>[ ] Response Window</li></ul> |The number of days the survey is open for responses is correct.   |High|Yes*|
+|Send the next survey on|The survey start date is accurate.   |High|Yes|
+|Response Window|The number of days the survey is open for responses is correct.   |High|Yes*|
 
 > [!TIP]
 > *Use the ellipses menu on the live survey cycle and choose Manage Schedule & Invites to make changes during a live survey.
@@ -399,14 +399,14 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Welcome text and translations</li></ul>     |Welcome text and translations are accurate.       |High        |Yes        |
-|<ul><li>[ ] Questions</li></ul> |All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|<ul><li>[ ] Questions: Order</li></ul> |Questions are in the correct order.   |High|Yes|
-|<ul><li>[ ] Questions: Text and translations</li></ul> |Customized question text and translations are accurate.   |High|No|
-|<ul><li>[ ] Questions: Targeting</li></ul> |Distribution lists selected to target questions are accurate.   |High|No|
-|<ul><li>[ ] Questions: Display Logic</li></ul> |Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|<ul><li>[ ] Sections and translations</li></ul> |Section break/header text and translations are correct.   |Medium|No|
-|<ul><li>[ ] Thank you text and translations</li></ul> |Thank you text and translations are accurate.    |High|Yes|
+|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
+|Questions: Order|Questions are in the correct order.   |High|Yes|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
+|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
+|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
+|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
 > - Section break: User scrolls and it disappears as you take the survey. 
@@ -422,19 +422,19 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Roles</li></ul>     |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|<ul><li><ol> Reporting View</li></ol></ul> |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
-|<ul><li><ol> Concierge Visibility</li></ol></ul> |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
-|<ul><li><ol> Broader Team Insights</li></ol></ul> |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
-|<ul><li><ol> Dashboard Default</li></ol></ul> |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|<ul><li><ol> Report Template Access</li></ol></ul> |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|<ul><li><ol> Question Reporting Access</li></ol></ul> |Users in the role have access to the correct questions.   |Medium|Yes|
-|<ul><li>[ ] Aggregate Indices</li></ul> |Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|<ul><li>[ ] Key Outcome</li></ul> |The correct item or aggregate is selected.   |Medium|Yes|
-|<ul><li>[ ] Driver Impact Outcomes</li></ul> |The correct items or aggregates are selected.  |Medium|Yes|
-|<ul><li>[ ] Manager Report Defaults</li></ul> |The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|<ul><li>[ ] PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
-|<ul><li>[ ] Broader Team Insights PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
+|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
+|Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
+|Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
+|Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
+|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
+|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
+|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
+|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
+|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
+|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
+|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
+|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
+|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
@@ -450,10 +450,10 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Notification Timing</li></ul>     |The correct timeframe is selected to deliver emails.       |High        |Yes        |
-|<ul><li>[ ] Email Settings*</li></ul> |The correct email types are selected to deliver emails.   |Medium|Yes|
-|<ul><li>[ ] Configure Notifications</li></ul> |Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
-|<ul><li>[ ] Translations</li></ul> |Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
+|Notification Timing    |The correct timeframe is selected to deliver emails.       |High        |Yes        |
+|Email Settings*|The correct email types are selected to deliver emails.   |Medium|Yes|
+|Configure Notifications|Survey start, reminder, and results emails follow the correct schedule.   |High|Yes**|
+|Translations|Survey start, reminder, and results emails have accurate translations.   |High|Yes**|
 
 > [!NOTE]
 > - *This setting only appears when your organization has a Personal Email Optional System Attribute set up. Personal emails are recommended for contacting exiting employees.
@@ -469,9 +469,9 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Interpretation</li></ul>     |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|<ul><li>[ ] Top Strengths</li></ul> |The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|<ul><li>[ ] Top Opportunities</li></ul> |The correct content is selected for Top Opportunities   |Medium        |Yes        |
+|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
+|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
+|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
 
 > [!TIP]
 > Save and continue without edits to keep default selections for Coaching content.
@@ -489,16 +489,16 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Name</li></ul>     |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
-|<ul><li>[ ] Administrators</li></ul> |The correct User Roles are selected as program admins.   |Low|Yes|
-|<ul><li>[ ] Default Language</li></ul> |The correct default language is selected.  |Medium|Yes|
-|<ul><li>[ ] Additional Languages</li></ul> |Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
-|<ul><li>[ ] Suggested Actions Available</li></ul> |This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
-|<ul><li>[ ] Response Window</li></ul> |The correct number of days is selected.   |High|Yes**|
-|<ul><li>[ ] Next Survey Available</li></ul> |The correct number of days is selected.   |High|Yes**|
-|<ul><li>[ ] Confidential Responses</li></ul> |This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
-|<ul><li>[ ] Enable Export of Raw Survey Responses</li></ul> |This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
-|<ul><li>[ ] Company Message to Survey Participants</li></ul> |Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
+|Program Name    |The correct value is entered and there are no spelling errors.       |Low        |Yes        |
+|Administrators|The correct User Roles are selected as program admins.   |Low|Yes|
+|Default Language|The correct default language is selected.  |Medium|Yes|
+|Additional Languages|Correct additional survey languages are selected. Languages available are based on Supported Survey Languages selected in General Settings  |Medium|Yes*|
+|Suggested Actions Available|This setting is set to Yes or No correctly to allow or disallow users to create Focus Areas based on suggestion action templates.  |High|Yes|
+|Response Window|The correct number of days is selected.   |High|Yes**|
+|Next Survey Available|The correct number of days is selected.   |High|Yes**|
+|Confidential Responses|This setting is set to Yes or No correctly. This setting can only be switched to No for Employee Lifecycle surveys.  |High|No|
+|Enable Export of Raw Survey Responses|This setting is set to Yes or No correctly to allow or disallow the export of raw respondent data for this program.   |High|No|
+|Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
 > *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
@@ -516,8 +516,8 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Distribution For This Program</li></ul>     |The correct Distribution Lists are selected to include users.       |High        |No        |
-|<ul><li>[ ] Exclude Groups</li></ul> |The correct Distribution lists are selected to exclude users.   |High|No|
+|Distribution For This Program    |The correct Distribution Lists are selected to include users.       |High        |No        |
+|Exclude Groups|The correct Distribution lists are selected to exclude users.   |High|No|
 
 
 </details>
@@ -531,14 +531,14 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Welcome text and translations</li></ul>     |Welcome text and translations are accurate.       |High        |Yes        |
-|<ul><li>[ ] Questions</li></ul> |All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
-|<ul><li>[ ] Questions: Order</li></ul> |Questions are in the correct order.   |High|Yes|
-|<ul><li>[ ] Questions: Text and translations</li></ul> |Customized question text and translations are accurate.   |High|No|
-|<ul><li>[ ] Questions: Targeting</li></ul> |Distribution lists selected to target questions are accurate.   |High|No|
-|<ul><li>[ ] Questions: Display Logic</li></ul> |Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
-|<ul><li>[ ] Sections and translations</li></ul> |Section break/header text and translations are correct.   |Medium|No|
-|<ul><li>[ ] Thank you text and translations</li></ul> |Thank you text and translations are accurate.    |High|Yes|
+|Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
+|Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
+|Questions: Order|Questions are in the correct order.   |High|Yes|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
+|Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
+|Sections and translations|Section break/header text and translations are correct.   |Medium|No|
+|Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
 > - Section break: User scrolls and it disappears as you take the survey. 
@@ -553,16 +553,16 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Program Roles</li></ul>     |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
-|<ul><li><ol> Dashboard Default</li></ol></ul> |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
-|<ul><li><ol> Report Template Access</li></ol></ul> |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
-|<ul><li><ol> Question Reporting Access</li></ol></ul> |Users in the role have access to the correct questions.   |Medium|Yes|
-|<ul><li>[ ] Aggregate Indices</li></ul> |Question aggregates are set up and labeled correctly.   |Medium|Yes|
-|<ul><li>[ ] Key Outcome</li></ul> |The correct item or aggregate is selected.   |Medium|Yes|
-|<ul><li>[ ] Driver Impact Outcomes</li></ul> |The correct items or aggregates are selected.  |Medium|Yes|
-|<ul><li>[ ] Manager Report Defaults</li></ul> |The correct items are selected to appear on the Manager report.   |Medium|Yes|
-|<ul><li>[ ] PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
-|<ul><li>[ ] Broader Team Insights PowerPoint Export Template</li></ul> |The correct template is selected.   |Low|Yes|
+|Program Roles    |Roles who should be added to the program are present and that they're granted live or phased access correctly.      |High        |Yes        |
+|Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
+|Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
+|Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
+|Aggregate Indices|Question aggregates are set up and labeled correctly.   |Medium|Yes|
+|Key Outcome|The correct item or aggregate is selected.   |Medium|Yes|
+|Driver Impact Outcomes|The correct items or aggregates are selected.  |Medium|Yes|
+|Manager Report Defaults|The correct items are selected to appear on the Manager report.   |Medium|Yes|
+|PowerPoint Export Template|The correct template is selected.   |Low|Yes|
+|Broader Team Insights PowerPoint Export Template|The correct template is selected.   |Low|Yes|
 
 > [!NOTE]
 > Aggregate Indices can't be deleted after they're setup.
@@ -577,16 +577,16 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 |Item   |Confirm that...  |Impact|Editable during live survey|
 |:----------|:-----------|:------------|:------------|
-|<ul><li>[ ] Interpretation</li></ul>     |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
-|<ul><li>[ ] Top Strengths</li></ul> |The correct content is selected for Top Strengths.    |Medium        |Yes        |
-|<ul><li>[ ] Top Opportunities</li></ul> |The correct content is selected for Top Opportunities   |Medium        |Yes        |
+|Interpretation    |The correct content is selected for the Interpretation Guide.       |Medium        |Yes        |
+|Top Strengths|The correct content is selected for Top Strengths.    |Medium        |Yes        |
+|Top Opportunities|The correct content is selected for Top Opportunities   |Medium        |Yes        |
 
 > [!TIP]
 > Save and continue without edits to keep default selections for Coaching content.
 
 </details>
 
-
+---
 
 ## Preview data in reporting
 
