@@ -1,5 +1,5 @@
 ---
-title: "View-only mode in Viva Engage (Private Preview)"
+title: "Restrict user privileges with view-only mode in Viva Engage (Private Preview)"
 description: "View-only mode is a tool admins can use to remove privileges from Viva Engage users when needed."
 ms.reviewer: ethli
 ms.author: v-bvrana
