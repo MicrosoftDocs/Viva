@@ -595,10 +595,6 @@ After reviewing your survey setup and confirming that employee data is imported 
 > [!IMPORTANT]
 > The Generate Report Preview option is only available for Recurring and Ad-Hoc survey types.
 
-### Review data for Lifecycle and Always-On
-
-
-
 ## Launch a test survey
 
 Launch a test survey to your project team to confirm that emails arrive and the survey-taking experience appears as expected. To set up a test survey:
