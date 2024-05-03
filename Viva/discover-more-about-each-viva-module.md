@@ -51,7 +51,7 @@ Each app offers special features, customization opportunities, and ways to integ
 |:-------|------------|
 |[Campaigns](https://support.microsoft.com/topic/create-a-campaign-in-microsoft-viva-amplify-fba81596-8d5c-4644-8dd1-dadc7e14d454) |Create collections of communications centered around a theme. |
 |[Publications](https://support.microsoft.com/topic/create-a-publication-in-microsoft-viva-amplify-e6500063-d189-4d2d-9c00-6bdca7ffb106) |Create and share individual communications as part of a campaign to multiple endpoints, including Outlook, SharePoint, and Teams. |
-|[Campaign brief](https://support.microsoft.com/opic/build-a-campaign-brief-in-microsoft-viva-amplify-80aff4b8-47bd-4f4d-8abc-8f9c67ff0319) |Align all publications in a campaign to your goals with a campaign brief that includes objectives and key messages. |
+|[Campaign brief](https://support.microsoft.com/topic/build-a-campaign-brief-in-microsoft-viva-amplify-80aff4b8-47bd-4f4d-8abc-8f9c67ff0319) |Align all publications in a campaign to your goals with a campaign brief that includes objectives and key messages. |
 |[Approvals](https://support.microsoft.com/topic/request-approvals-for-viva-amplify-publications-a5e16a61-caee-4701-9602-d10ec8ba45e5) |Key stakeholders can approve publications before they're sent out. |
 |[Reporting](https://support.microsoft.com/topic/use-reporting-signals-in-microsoft-viva-amplify-to-understand-campaign-performance-776ac7ec-71ef-48af-a67f-a6875f15d4e6) |Use Amplify's reporting tools to understand how your audience is engaging with your campaigns and publications. |
 
@@ -255,7 +255,7 @@ Get more information about each app and how to get started.
 
 |Viva app  |Description |Getting started resources |
 |:---------:|---------|---------|
-|**Viva Amplify** |Empower corporate communicators to communicate more effectively. |[Overview](/viva/amplify/overview-viva-amplify.md) <br> [Learn how to set it up](/viva/amplify/set-up-viva-amplify.md) |
+|**Viva Amplify** |Empower corporate communicators to communicate more effectively. |[Overview](/viva/amplify/overview-viva-amplify) <br> [Learn how to set it up](/viva/amplify/set-up-viva-amplify) |
 |**Viva Connections**    | Inform, engage, and empower - Microsoft Viva Connections is your gateway to a modern engagement experience designed to keep everyone engaged and informed.|[Overview](connections/viva-connections-overview.md) <br> [Learn how to set it up](connections/set-up-admin-center.md)|
 |**Viva Engage** |Support meaningful relationships and help your employees build valuable networks. |[Overview](/viva/engage/overview) <br> [Learn how to set it up](/viva/engage/setup) |
 |**Viva Goals** |Connect teams to your organization's strategic priorities to unite them around a shared mission and purpose. |[Overview](/viva/goals/intro-to-ms-viva-goals) <br> [Learn how to set it up](/viva/goals/navigate-admin-dashboard) |
