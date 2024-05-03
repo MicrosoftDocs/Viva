@@ -181,7 +181,7 @@ Set up the Glint application:
 
 A multitenant organization (MTO) policy already exists between multiple tenants that sync users with B2B collaboration or cross-tenant synchronization. Glint is installed on a target tenant (Tenant A) that acts as owner of the MTO policy or both tenants are the owner of the MTO policy.
 
-:::image type="content" source="../../media/glint/setup/mto-scenario-2.png" alt-text="Image of tenant B users syncing to tenant A with B2B collaboration or cross-tenant synchronization.":::
+:::image type="content" source="../../media/glint/setup/mto-scenario-3.png" alt-text="Image of tenant B users syncing to tenant A with B2B collaboration or cross-tenant synchronization.":::
 
 Since the multitenant organization is already set up, no other steps are needed. Here are the steps to set up the Glint application: 
 
