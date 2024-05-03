@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 11/17/2023
+ms.date: 5/14/2024
 title: Employee Retention Playbook for Viva Insights and Glint
 description: Introduction to the playbook on how to design, train, and interpret a predictive employee retention model using data from Viva Insights and Glint.
 author: zachminers
@@ -38,7 +38,7 @@ Losing an employee is costly because employees produce more value for the compan
 
 ### Machine learning
 
-Machine learning can be used to analyze employee data and build models that can predict voluntary employee attrition. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
+Machine learning algorithms can process and analyze employee and HR datasets to develop predictive models capable of forecasting the likelihood of voluntary attrition among employees, based on identified patterns and contributing factors. These models can help organizations take proactive measures to retain their valuable employees and reduce the costs and consequences of turnover.  
 
 Our proposed model uses historical employee data, performance metrics, engagement surveys, and other relevant indicators to proactively identify groups at higher risk of attrition to create a more stable, engaged, and productive workforce.
 
