@@ -223,12 +223,11 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Sign in to Workday Portal.
     1. Search for the task “Create Custom Report.”
 2. Configure the report parameters.
-    1. Title the Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
+    1. Title the Report Name as `Viva Learning Users Report`. The report name must exactly match this string.
     1. Set the Report Type as “Advanced.”
     1. Mark checkbox “Enable as Web service.”
     1. Mark checkbox “Optimized for performance.”
-    1. In the “Data Source” field, go to “All” and select “Learning Content.” Select **OK**.
-    ![Screenshot of the Create Custom Report screen.](/viva/media/learning/wd-s2.2-1.png)
+    1. In the “Data Source” field, go to “All” and select “Workers for HCM reporting.” Select **OK**.
 3. Add report fields.
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
     1. Add the fields in “Columns” as outlined in the following schema. You'll see three objects for field “rating”, select the one with a hash (#) icon next to it.
@@ -251,7 +250,6 @@ This report should be created from the primary Admin account of Workday to avoid
 | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
 | Language | User Language Code | Locale | Locale |
 
-![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
 
 5. Under “Group Column Headings”, add the below fields:
 
@@ -322,20 +320,18 @@ This report should be created from the primary Admin account of Workday to avoid
     1. **Sign in** 
     1. Search for the task "Create Custom Report" 
 2. Configure the report parameters 
-    1. Name the report "Viva Learning Catalog Report". The report name must match this string. 
+    1. Name the report "Viva Learning Users Report". The report name must match this string. 
     1. Indicate report type as "Advanced."
     1. Check "Enable as Web service" 
     1. Check "Optimized for performance" 
-    1. In the "Data source," go to "All" and select "Learning Content." Select **OK**.
+    1. In the "Data source," go to "All" and select "Workers for HCM reporting." Select **OK**.
 
 1. Add report **Fields**.
 
-Once you select OK, “Data Source” automatically takes the value “Learning Content”. For the “Data Source Filter” field, remove any existing value and add “Manageable Learning Content”. You can copy this value and paste in the field directly. 
-
-    1. Add the fields in "Columns." Note that you'll see three objects for field “rating”, select the one with a hash (#) icon next to it.  
+1. Add the fields in "Columns."
 
     | Business Object | Field | Column Heading Override | Column Heading Override XML Alias | 
-    |  - | - | - | - | -|
+    |  - | - | - | - |
     | Worker | Workday ID | UserId | UserId | 
     |Worker | Preferred Name – First Name | FirstName | FirstName | 
     |Worker | Preferred Name – Last Name | LastName | LastName |
@@ -365,7 +361,7 @@ Once you select OK, “Data Source” automatically takes the value “Learning 
 
     4. Go to **Advanced** and select the field `Optimized for Performance.` 
 
-    4. Share the report with Integrated System User, which you created while enabling catalog sync.
+    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the Share section in report, select the option “share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field..
 
     5. Save the report. Select **OK**. 
 

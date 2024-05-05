@@ -33,8 +33,17 @@ Our estimate 24 - 48 hours for a full sync. This is dependent on the assignment 
 
 **3.	What are the sync frequencies?**
 
-Daily delta sync is in place for all data types, including catalog, assignments, completion, and API-thumbnails. Full user RaaS sync happens every two days.
-	
+|     Data Type    |     Sync   frequency    |
+|---|---|
+|     Catalog     |     Delta   sync runs every 24 hours, capture delta for last 24 hrs    |
+|     Workday   hosted thumbnails    |     Delta   sync runs every 24 hours, capture delta for last 24 hrs    |
+|     3P   Thumbnails    |     Delta   sync runs every 24 hours, capture delta for last 24 hrs    |
+|     User RaaS    |     Full sync   every 12 hours    |
+|     Assignments    |     Delta   sync runs every 12 hours, capture delta for last 12 hrs    |
+|     Assignment   completions    |     Delta   sync runs every 12 hours, capture delta for last 12 hrs    |
+|     Self-enrolment   completions    |     Delta   sync runs every 12 hours, capture delta for last 12 hrs    |
+
+Please note that these frequencies might vary for some customers in case of any custom implementation.
 **4.	How can I trigger the manual full sync?**
 
 Admins can trigger the manual sync from the Manage Providers within the Viva Learning Admin tab. Admins require Global Admin, Knowledge Admin, and Knowledge Manager permissions. The full trigger option is available for catalog sync.
@@ -174,7 +183,7 @@ To fetch RaaS reports, Viva Learning uses REST API. The URL for this report isn'
 | Catalog RaaS | **Indexed** | 
 | User RaaS | **Indexed** | 
 | LRS RaaS | **Not indexed**. The org ID-based report filtering is in place to handle large data sets| 
-| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report isn't filterable on org ID. It's **indexed** with new completion date-based filters. | 
+| Self enrollment RaaS | **Not indexed**. Unlike the LRS RaaS, this report isn't filterable on org ID. | 
 
 ** What are the guidelines in server migration? **
 
