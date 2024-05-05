@@ -1,5 +1,5 @@
 ---
-ms.date: 07/27/2023
+ms.date: 04/30/2024
 title: Meeting effectiveness report
 description: Learn how to use the Microsoft Viva Insights Power BI template to identify whether employees practice habits that lead to more effective meetings
 author: zachminers
@@ -59,6 +59,9 @@ After the Meeting effectiveness report is set up and populated with Viva Insight
 |**View report by**|This attribute is the primary group-by attribute shown in all subsequent pages. You can change this attribute at any time; all subsequent report pages will show values grouped by the new attribute.|
 |**Optional exclusions**| Use the check boxes to: <ul><li>Exclude employees who are likely non-knowledge workers (that is, those spending less than five hours per week on average in meetings, emails, and/or Teams calls and chats).<li>Exclude weeks that are likely holiday or paid-time-off weeks, or weeks that individuals are on other types of leave.|
 |**Select the preferred language for your report**|Change the language for your report.|
+
+>[!Note]
+> Right now, the **Optional exclusions** listed above are not available if you choose to view the report in the browser. The **Optional exclusions** are only available if you download the Power BI template and open it in Power BI Desktop.
 
 ## About the report
 
@@ -128,6 +131,6 @@ Even after you leave a meeting room (whether physically or virtually), the meeti
 
 #### Glossary
 
-View the metrics and other key terms used in the report. 
+View the metrics and other key terms used in the report.
 
 [!INCLUDE [Power BI tips and troubleshooting and Related topics](includes/powerbi-tips-related-topic.md)]
