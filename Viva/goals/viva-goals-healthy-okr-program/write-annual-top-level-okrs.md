@@ -48,7 +48,7 @@ Ideally, they should also cover not just "the what", but also "the why". That’
 
 If this is your first time implementing goals, or if you’re looking for some structure to build best practices, there are five broad categories to consider.
 
-We call these the 5 Ps: 
+We call these "the 5 Ps:" 
 
 - Profit 
 - Product or Service 
@@ -164,7 +164,7 @@ Let’s look at a real world case study. Automaker Porsche was founded in 1931, 
 
 The decision to launch that vehicle wasn’t improving business as usual or refreshing their logo. It was aspirational and ambitious and dramatically changed the trajectory of the company. Many people certainly thought, “An SUV? Porsche is completely tarnishing their historic brand!” 
 
-And it’s true. One of the core benefits of setting great goals is Focus. The risk is that you’ll be distracted from your core mission. But the payoff for moon shots can be dramatic. Each year since 2015, Porsche has sold as many SUVs as all their other sports cars combined in the US.  
+And it’s true. One of the core benefits of setting great goals is Focus. The risk is that you’ll be distracted from your core mission. But the payoff for moon shots can be dramatic. Each year since 2015, Porsche sold as many SUVs as all their other sports cars combined in the US.  
 
 Let’s see a few more business examples, and paint the before and after picture for each: 
 

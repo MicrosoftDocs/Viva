@@ -17,7 +17,7 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Learn how to set KR types while creating your Key Results"
+description: "Learn how to set KR types while creating your Key Results."
 ---
 
 # Define KR Types in Viva Goals
@@ -35,11 +35,11 @@ Viva Goals allows you to create six distinct types of Key Results, which we clas
 
 Regular KR types are used when trying to achieve a specific metric.
 
-1. **Reach:** The 'Reach' metric type is useful when you're starting at zero and have a specific target that you want to achieve. For example, "Conduct 5 internal surveys" or "Gain 500 users for new community site".
+1. **Reach:** The 'Reach' metric type is useful when you're starting at zero and have a specific target that you want to achieve. For example, "Conduct 5 internal surveys" or "Gain 500 users for new community site."
 
-1. **Increase from:** When the OKR is required to track a metric, which is already at a certain number and must increase to a higher number, you can choose the 'Increase from' metric. For example, “Increase revenue from $20mn to $40mn this year”. Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
+1. **Increase from:** When the OKR is required to track a metric, which is already at a certain number and must increase to a higher number, you can choose the 'Increase from' metric. For example, “Increase revenue from $20mn to $40mn this year.” Here, the ‘from’ indicates the starting value of $20Mn and the ‘to’ indicates the target value of $40Mn.  
 
-1. **Decrease from:** Similarly, when the OKR is required to track a metric, which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. For example, “Reduce P0 bugs from 50 to 10 this quarter”. Here, the start value is the higher value of 50 and the target value is the lower value 10.  
+1. **Decrease from:** Similarly, when the OKR is required to track a metric, which is already at a certain number and must decrease further to a lower number, you can select the ‘Decrease from’ metric type. For example, “Reduce P0 bugs from 50 to 10 this quarter.” Here, the start value is the higher value of 50 and the target value is the lower value 10.  
 
 ### Control KR types (Quality) 
 
@@ -47,9 +47,9 @@ Control KR types are used when you must keep key results above or below a certai
 
 Viva Goals has two control metrics:  
 
-1. **Stay below:** The 'Stay Below' KR type is useful when a metric must remain below a certain threshold. For example, “Keep customer churn below $100k”. The only input is the target value, which acts as a threshold for success.
+1. **Stay below:** The 'Stay Below' KR type is useful when a metric must remain below a certain threshold. For example, “Keep customer churn below $100k.” The only input is the target value, which acts as a threshold for success.
 
-1. **Stay above:** The 'Stay Above' KR type is useful when a metric must remain above a certain threshold. For example, “Keep customer NPS score above 9”. The only input is the target value, which acts as a threshold for success.
+1. **Stay above:** The 'Stay Above' KR type is useful when a metric must remain above a certain threshold. For example, “Keep customer NPS score above 9.” The only input is the target value, which acts as a threshold for success.
 
 **Adding risk threshold to control metrics:**
 
@@ -62,7 +62,7 @@ Viva Goals has two control metrics:
   
 **Find a baseline:** The 'Find a baseline' KR type is useful when an organization is trying to measure a goal, which is important enough to be tracked alongside other key results, but the target value isn't yet known.
 
-For example, "Measure baseline customer retention rate", can be tracked during a time period, even though the starting or target metric isn't yet known because the metric hasn't been tracked by the organization previously, or can't be set with any degree of confidence. In such cases a baseline key result can be created where there's no need to set a target value.
+For example, "Measure baseline customer retention rate," can be tracked during a time period, even though the starting or target metric isn't yet known because the metric hasn't been tracked by the organization previously, or can't be set with any degree of confidence. In such cases a baseline key result can be created where there's no need to set a target value.
 
 ## How can you set KR types for a Key Result?
 
@@ -70,16 +70,16 @@ For example, "Measure baseline customer retention rate", can be tracked during a
 
     :::image type="content" source="../../media/goals/add-key-result.png" alt-text="Screenshot that shows how to add a key result." lightbox="../../media/goals/add-key-result.png":::
 
-3. In the 'Create Key Results' quick view page that appears, enter the title of the key result.
-4. Select **Add metric** that appears below the title.
+2. In the 'Create Key Results' quick view page that appears, enter the title of the key result.
+3. Select **Add metric** that appears below the title.
 
     :::image type="content" source="../../media/goals/add-metric-button.png" alt-text="Screenshot that shows where to find the add metric button." lightbox="../../media/goals/add-metric-button.png":::    
     
-6. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
+4. Enter the target name and choose the appropriate KR type using the **Target should** dropdown.
 
     :::image type="content" source="../../media/goals/target-should-dropdown.png" alt-text="Screenshot that shows the various KR types under the target should dropdown." lightbox="../../media/goals/target-should-dropdown.png":::
     
-8. Depending on the KR type, enter the target values and select **Create**.
+5. Depending on the KR type, enter the target values and select **Create**.
 
     :::image type="content" source="../../media/goals/create-kr-button.png" alt-text="Screenshot that shows the create button to save your changes and create your Key Result." lightbox="../../media/goals/create-kr-button.png":::
 
@@ -116,30 +116,30 @@ Let's take the example key result "Keep churn below 100k" as shown in the image 
 
 :::image type="content" source="../../media/goals/on-track-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay below KR that's on track." lightbox="../../media/goals/on-track-stay-below-kr.png":::
 
-The red dotted line indicates the border value below which the progress points must be in order to be "On Track". 
+The red dotted line indicates the border value below which the progress points must be in order to be "On Track."
 
-Similarly, if the value is greater than or equal to the threshold or target value, then the progress of the OKR is 0% and the status is set to “At Risk”.
+Similarly, if the value is greater than or equal to the threshold or target value, then the progress of the OKR is 0% and the status is set to “At Risk.”
 
-Let's take the example key result "Maintain page response time below 2 seconds". As shown in the image, the current progress or check-in made is depicted as a point in the graph.
+Let's take the example key result "Maintain page response time below 2 seconds." As shown in the image, the current progress or check-in made is depicted as a point in the graph.
 
 :::image type="content" source="../../media/goals/at-risk-stay-below-kr.png" alt-text="Screenshot that shows the progress graph for a stay below KR that's at risk." lightbox="../../media/goals/at-risk-stay-below-kr.png":::
 
-Since it's greater than the border value of 2, it lies above the red dotted line and in the shaded area that represents "At Risk". This indicates that the status of the key result is "At Risk".
+Since it's greater than the border value of 2, it lies above the red dotted line and in the shaded area that represents "At Risk." This indicates that the status of the key result is "At Risk."
 
 > [!NOTE]
 > Any check-in or progress point that lies on the red line or in the shaded grey area is "At Risk" while those that lie in the white area are **On Track.**
 
 **Stay above:**
 
-If the value is greater than the threshold value, then the progress is set to 100% and the status is “On Track”. 
+If the value is greater than the threshold value, then the progress is set to 100% and the status is “On Track.”
 
-Let's consider the key result "Ensure NPS stays above 9", where 9 is the border value represented by the red dotted line as shown in the image below. Each point in the graph represents a check-in. Since the point lies in the white area above the dotted line, the progress status is "On Track" as the white area represents "On Track".
+Let's consider the key result "Ensure NPS stays above 9." where 9 is the border value represented by the red dotted line as shown in the image below. Each point in the graph represents a check-in. Since the point lies in the white area above the dotted line, the progress status is "On Track" as the white area represents "On Track."
 
 :::image type="content" source="../../media/goals/on-track-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's on track." lightbox="../../media/goals/on-track-stay-above-kr.png":::
 
 If the value is equal to or less than the threshold value, then progress of OKR is 0% and status is set to “At Risk”. 
 
-Let's take the example of the following key result: "Maintain average FCSAT score above 8". Here, 8 is the border value represented by the red line. Since the current progress value is 7.8, which is less than the border value, the progress point is shown to be present in the shaded grey area. This area represents "At Risk" and so, the status of the key result is "At Risk".
+Let's take the example of the following key result: "Maintain average FCSAT score above 8." Here, 8 is the border value represented by the red line. Since the current progress value is 7.8, which is less than the border value, the progress point is shown to be present in the shaded grey area. This area represents "At Risk" and so, the status of the key result is "At Risk."
 
 :::image type="content" source="../../media/goals/at-risk-stay-above-kr.png" alt-text="Screenshot that shows the progress graph for a stay above KR that's at risk." lightbox="../../media/goals/at-risk-stay-above-kr.png":::
 
