@@ -59,13 +59,60 @@ If there's any discrepancy in mapping logic used by the customer organization, p
 
 If there are duplicates in Microsoft Entra (formerly Azure Active Directory) for a particular user mapper, all the duplicate records are dropped from Viva Learning.
 
- ### Data Ingestion timelines 
+The mapping logic isn't case sensitive to the mapper values.
+
+### Data Ingestion timelines 
 
 We're ingesting data for User RaaS from 1st Jan 1970 and catalog, assignment, and completion RaaS data from 1st Jan 2016. 
 If any user has hiring date before 1970, please reach out to the Viva Learning product group.  
 If customer has different data ingestion timelines, please reach out to the Viva Learning product group. 
 
-The mapping logic isn't case sensitive to the mapper values.
+## Integration recommendations
+
+Recommendations for organizations that have Workday integrated with other 3P content providers such as LinkedIn, Udemy, and Coursera for tracking user completion records.
+
+### Common Practice
+
+Organizations chose to have compliance trainings come from the learning management system (LMS) and growth, skill, and optional trainings come from digital content providers. 
+
+- Compliance trainings have to be audited and tracked, with a few exceptions based on the regional policies.
+- Growth/skill/optional trainings don't have to be tracked, but can be recommended to others.
+
+### Deciding factors
+
+These scenarious depend on Viva Learning is integrated with an LMS that includes 3P content providers or not.
+
+It’s highly recommended not to have individual connector configurations for the included 3P content providers in the LMS, so that the same content is not duplicated.
+
+### For learning management systems that include 3P content providers
+
+**Admin experience:**
+
+- Less overhead in managing only the connector for LMS.
+- Less overhead in maintaining the 3P content that are part of learning paths, collections, and other structured learning.
+
+For learning management systems that don't include 3P content providers 
+ 
+**Learner experience:**
+
+- Consistent consumption experience for both contents coming from LMS and 3P providers.
+- The **Assigned to you** tab shows the content assignment for 3P content.
+- The **Completed** tab shows the history of completion status for 3P content.
+
+**Admin experience**
+
+- Manage multiple connectors for LMS and each 3P content providers.
+- Manually update the 3P content that are part of learning paths, collections, and other structured learning, when the connectors for 3P content is updated, deleted, enabled or disabled.
+
+**Learning experience**
+
+- Mixed consumption experience for contents coming from LMS and 3P content providers.
+- The **Assigned to you** tab won't show any assignment for 3P content as it can be only recommended.
+- The **Completed** tab won't show the history of completion status for 3P content.
+
+> [!NOTE]
+> - Deleting connectors from the admin interface will remove only the courses from LMS and 3P content providers based on the connectors being deleted.  
+> - Please note that some LMS connectors must be reconfigured only after the content catalog is cleaned up. Reach out to Viva Learning support for help.
 
 ## Configuration to enable Workday integration
 
@@ -74,7 +121,6 @@ The workday integration process consists of three primary steps:
 1. Create an Integration System User (ISU) account and assign required security access in Workday.
 2. Create four RaaS reports for catalog, user, assignment or assignment completion, and self-enrollment completion data.
 3. Once all configuration parameters are generated on Workday, you can configure Workday in the Viva Learning admin portal.
-
 
 
 ## Create an integration system user (ISU) on the Workday portal and assign required security access
@@ -204,17 +250,8 @@ This report should be created from the primary Admin account of Workday to avoid
 | Learning Content | Skills | Skills | Skills |
 | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
 | Language | User Language Code | Locale | Locale |
-| Learning Content | CatalogEffectiveDate | EffectiveDate | EffectiveDate | 
-
 
 ![Screenshot of the edit custom report screen for learning content fields.](/viva/media/learning/wd-s2.2-3.png)
-
-4. To create calculated field CatalogEffectiveDate follow the below steps. Once added, add it back in the catalog RaaS.
-    1. Field name: CatalogEffectiveDate 
-    2. Go to Calculations, under “Field Type,” select **Date**. 
-    3. For year, month and day select **Extract Year from Date Field**. Enter field value as “Effective Date.” 
-
-    ![Screenshot of the create calculated field for report](/viva/media/learning/workday-catalog-raas-catalogeffectivedate.png)
 
 5. Under “Group Column Headings”, add the below fields:
 
@@ -223,28 +260,15 @@ This report should be created from the primary Admin account of Workday to avoid
 | Languages | Languages | Languages |
 | Learning content | learningContent_group | learningContent_group| 
 
-6. Add filters to the report. 
-    1. Create a new filter condition by selecting “Create Calculated Field for Report” under Fields section.
+6. Add filters to the report under "Filter section"
     
-    ![Screenshot of a report with a new filter condition](/viva/media/learning/wd-s2.2-4.png)
-
-    2. Add the following values to create the calculated field "ModifiedDate."
-        - Field name: **ModifiedDate**
-        - Go to calculations, under "Field type," select **Date**"
-        - For year, month, and day, select **Extract Year from Date Field**. Enter the field value as **Last Functionality Updated**.
-    
-    ![Screenshot of a report](/viva/media/learning/workday-catalog-raas-modifieddate.png)
-
-    3. Add following values in “Filter on Instances”. For #2 and #3, follow the steps mentioned below for adding calculated field. 
         
     | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
     | --- | --- |-- |----  | --- | ---- | ---|-----| 
     | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
-    | And | | Modified Date | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
-    | And | | Modified Date | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
-    | Or  |   `(`  |     Learning Content Type  |     exact match with the selection list  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #1  |   |     Yes  |
-    |  And  |       |     CatalogEffectiveDate  |     greater than or equal to  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #2  |       |     Yes  |
-    |     And  |       |     CatalogEffectiveDate  |     less than or equal to  |     Prompt the user for the value and ignore the filter condition if the value is blank  |     Prompt #3  |     `)`  |     Yes  |
+    | And | |  Last Updated | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
+    | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
+
 
 
     ![Screenshot of a report with calculated fields.](/viva/media/learning/wd-s2.2-6.png)
@@ -254,10 +278,9 @@ This report should be created from the primary Admin account of Workday to avoid
     | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | 
     | - | - | - | - | - | - | -| 
     | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
-    | ModifiedDate | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
-    | ModifiedDate | Prompt #3 | End_Date | End_Date | No default value | | Yes |
-    |     Prompt #2  |     Start_Effective_Date  |     Start_Effective_Date  |     Specify default value  |     01/01/2024  |       |
-    |     CatalogEffectiveDate  |     Prompt #3  |     End_Effective_Date  |     End_Effective_Date  |     Specify default value  |     01/01/2024  |       |
+    | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
+    | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
+    
 
     ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/wd-s2.2-7.png)
 
@@ -309,10 +332,10 @@ This report should be created from the primary Admin account of Workday to avoid
 
 Once you select OK, “Data Source” automatically takes the value “Learning Content”. For the “Data Source Filter” field, remove any existing value and add “Manageable Learning Content”. You can copy this value and paste in the field directly. 
 
-    1. Add the fields in "Columns":Note that you'll see three objects for field “rating”, select the one with a hash (#) icon next to it.  
-        
+    1. Add the fields in "Columns." Note that you'll see three objects for field “rating”, select the one with a hash (#) icon next to it.  
+
     | Business Object | Field | Column Heading Override | Column Heading Override XML Alias | 
-    |  - | - | - | - | 
+    |  - | - | - | - | -|
     | Worker | Workday ID | UserId | UserId | 
     |Worker | Preferred Name – First Name | FirstName | FirstName | 
     |Worker | Preferred Name – Last Name | LastName | LastName |
@@ -320,7 +343,6 @@ Once you select OK, “Data Source” automatically takes the value “Learning 
     | Worker | Worker is Terminated | Terminated | Terminated | 
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
-
 
     2. **Add filters to the report**
         1. Add following values in “Filter on Instances”. Follow the steps mentioned below for adding calculated field. 
@@ -354,8 +376,6 @@ Once you select OK, “Data Source” automatically takes the value “Learning 
 
 This report should be created from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. Here, learner record sync is abbreviated as **LRS**.
 
-> [!NOTE]
-> Currently in Viva Learning, the mapping logic of the Workday and Entra ID (formerly Azure Active Directory) user accounts is based on user’s first name, last name, and username.
  
 1. **Sign in to the Workday Portal**
     1. **Sign in**.
@@ -368,7 +388,7 @@ This report should be created from the primary Workday admin account to avoid an
     4. In the “Data Source” field, go to “All” and select "Learning Assignments Records”. Select **OK**.
 3. Add report fields.
     1. Once you select **OK**, the “Data Source” automatically sets the value as “Learning Assignment Records.” For the “Data Source Filter” field, remove any existing value and add “Assignment Records for ~Person~from Learning Organization”. You can copy this value and paste in the field directly.
-    1. 2.4.c.2.	Add the fields in “Columns” as outlined below. You see two objects for “Learning Enrollment," select the one with a blue icon next to it.
+    1. Add the fields in “Columns” as outlined below. You see two objects for “Learning Enrollment," select the one with a blue icon next to it.
     
     |Business Object | Field | Column Heading Override | Column Heading Override XML Alias| 
     | - | - | - | - | 
