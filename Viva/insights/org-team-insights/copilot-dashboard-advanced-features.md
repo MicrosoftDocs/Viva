@@ -19,7 +19,7 @@ audience: user
 
 The Microsoft Copilot Dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
-Some of the dashboard’s metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. [Learn about these features here](./copilot-dashboard.md).
+Some of the dashboard’s metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. Learn about these features in [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](./copilot-dashboard.md).
 
 But, if you have a [paid Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), the dashboard provides an additional set of metrics, filtering options, and other features.
 
@@ -240,7 +240,7 @@ This analysis helps you compare collaboration activities between employees who u
 
 ### Sentiment
 
-Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
+Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft's own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
 
 **Sentiment results by group**
 
@@ -309,7 +309,7 @@ Or, if the survey output is in a string format:
 
 The cells for the responses may contain “N/A” values for employees who did not respond to the question.
 
-For additional guidance on how to format your .csv file, [refer to this example formatted .csv here](https://go.microsoft.com/fwlink/?linkid=2260529).
+For additional guidance on how to format your .csv file, refer to this example formatted .csv: [Impact Dashboard survey sample file](https://go.microsoft.com/fwlink/?linkid=2260529).
 
 Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
@@ -335,7 +335,7 @@ Under the Learning tab, here you’ll find research around the impacts of AI on 
 
 *Applies to: Viva Insights analyst*
 
-You can also add Microsoft 365 Copilot metrics to your custom person query. [Learn how](../advanced/analyst/person-query.md#add-metrics).
+You can also add Microsoft 365 Copilot metrics to your custom person query. Learn how in [Add metrics](../advanced/analyst/person-query.md#add-metrics).
 
 ## FAQs
 
