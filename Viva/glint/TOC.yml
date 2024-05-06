@@ -11,6 +11,8 @@ items:
              href: start/viva-glint-learning-paths-and-modules.md
            - name: Badge certifications
              href: start/viva-glint-badging.md
+           - name: Customer cohorts
+             href: start/customer-cohorts.md
       - name: People Science and Viva Glint
         href: start/people-science-viva-glint.md
       - name: Survey program types
