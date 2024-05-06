@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 05/06/2024
 ---
 
-## Viva Glint's Overall Results Report
+# Viva Glint's Overall Results Report
 
 :::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
 
