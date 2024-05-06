@@ -57,7 +57,7 @@ On the adoption and impact pages, you can view the aggregated user-level metrics
 >[!Note]
 >Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
 
-Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
+Learn about readiness data in the dashboard in [Interpreting the data](./copilot-dashboard.md#interpreting-the-data).
 
 ### Adoption and impact
 
