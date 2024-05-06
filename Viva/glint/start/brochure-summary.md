@@ -14,14 +14,14 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/11/2024
+ms.date: 05/06/2024
 ---
 
 # Microsoft Viva Glint resources at a click
 
 Feel empowered on your Viva Glint journey through guidance, learning, events, connection, conversations, and more!
 
-Viva Glint is committed to engaging with our customers and empowering Viva Glint admins through learning, connection, and deployment support. 
+Glint is committed to engaging with our customers and empowering Viva Glint admins through learning, connection, and deployment support. 
 
 ## Learn with us
 
@@ -61,7 +61,7 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 - [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040) Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign-up. Look for notifications on the Viva Glint Community and in our newsletters. 
 
-- Coming soon! **Customer cohorts** facilitate connections between customers grouped by shared background, shared purpose, or shared interest. We'll let you know about them soon. 
+- [**Customer cohorts**](https://go.microsoft.com/fwlink/?linkid=2270906) facilitate connections between customers grouped by shared background, shared purpose, and shared interest. Three cohorts are available now: healthcare, retail, and manufacturing. 
 
 - [**Engage with your peers through discussion posts**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint). The Viva Community provides a space to ask questions and share ideas with experts and peers. We all benefit by learning the best practices of others and sharing ideas.
 
