@@ -1,5 +1,5 @@
 ---
-title: Viva Glint’s Survey reports overview
+title: Viva Glint's Survey reports overview
 description: Learn how Viva Glint admins establish access to a wide array of reports for each specific manager.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 05/06/2024
 ---
 
-# Viva Glint’s Survey reports overview
+# Viva Glint's Survey reports overview
 
 Admins establish access to survey reports in the Reporting step of Program Summary for each specific User Role. Defining access status is available for recurring and ad-hoc survey programs.
 
@@ -25,7 +25,7 @@ Admins establish access to survey reports in the Reporting step of Program Summa
 
 Admins can assign specific reports for distinct roles.
 
-| **Report name** | **Description** | **Intended for use by** |
+| Report name | Description | Intended for use by |
 |---|---|---|
 | [Alerts](https://go.microsoft.com/fwlink/?linkid=2231008) | Identifies statistically significant patterns, outliers, and deviations in your organization’s data, based on demographic attributes or combinations of attributes. Surface business critical issues or strengths that may not have been initially identifiable. | Admins |
 | [Comments](https://go.microsoft.com/fwlink/?linkid=2231206)| Offers insights into employee verbatim comments, providing helpful context around survey scores. Highlights key topics, topic sentiment, topic connections, and prescriptive and representative comments. | Senior leaders, HRBPs (Human Resources Business Partners), admins (anyone who would benefit from looking across multiple groups for comparisons) |
