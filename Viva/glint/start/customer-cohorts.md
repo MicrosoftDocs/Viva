@@ -19,13 +19,13 @@ ms.date: 05/06/2024
 
 # Viva Glint customer cohorts
 
-We have kicked off our Viva Glint Cohort program! Whether you are a customer new to Viva Glint or migrated to Viva Glint – all are welcome! 
+We have kicked off our Microsoft Viva Glint Cohort program! Whether you are a customer new to Viva Glint or migrated to Viva Glint – all are welcome! 
 
-The purpose of this program is to foster a collaborative learning environment where you can share knowledge, experiences, and challenges with other Viva users of a shared interest.  These opportunities will help you learn how other companies like you are developing their listening programs and how they are using Viva to solve organizational and industry challenges. We have created an online space for you to collaborate, and once a quarter, the Viva Glint cohort team will be hosting a virtual session dedicated to things like relevant topics, Q&As, open discussions, you name it!  
+The purpose of this program is to foster a collaborative learning environment where you can share knowledge, experiences, and challenges with other Glint users.  These opportunities help you learn how other like-minded companies are developing their listening programs and how they use Glint to solve organizational and industry challenges. We've created an online space for you to collaborate, and once a quarter, the Glint cohort team hosts a virtual session dedicated to relevant topics, Q&As, open discussions - you name it!  
 
 ## Sign up now!
 
-We currently have three industry cohorts available to join and plan to expand. Click on the link below to request to join the cohort group that suits you best. 
+We have three industry cohorts available to join and plan to expand this list. Click on the link below to join the cohort group that suits you best. 
 
 [Healthcare Cohort](https://go.microsoft.com/fwlink/?linkid=2269828)
 
