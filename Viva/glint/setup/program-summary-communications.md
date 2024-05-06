@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/20/2024
+ms.date: 05/03/2024
 ---
 
 # Communications setup in Program Summary
@@ -44,9 +44,6 @@ The following sections display as setup actions and each field can be edited by 
 
 >[!TIP]
 >When [personal email is set up](https://go.microsoft.com/fwlink/?linkid=2247991), as an optional system attribute, use **Email Settings** to send to *Company* or *Company and personal* email.
-
->[!IMPORTANT]
->Customizing or editing invitations, reminders, and appreciation emails is currently a feature available for *new Viva Glint customers only*. Customers who have migrated from our LinkedIn platform will have this capability added shortly. We anticipate this to become available in June 2024. You will be notified.
 
 ### Editing the survey invitation
 

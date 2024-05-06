@@ -7,9 +7,8 @@ brand: m365
 metadata:
   title: Viva Insights documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Viva Insights provides personal productivity insights about how people spend their time and who they spend it with. # Required; article description that is displayed in search results. < 160 chars.
-  ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.service: viva-insights
   ms.collection: m365initiative-viva-insights 
-  ms.subservice: viva-insights 
   search.appverid: 
   - MET150 
   ms.topic: hub-page # Required

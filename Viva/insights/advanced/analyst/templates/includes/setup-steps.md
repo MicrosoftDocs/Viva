@@ -15,7 +15,7 @@
     > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. Learn more about data-quality notifications in [Data quality in the analyst experience](../../data-quality-analyst-experience.md).
 
  1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../filters.md). If you notice a warning or error here, it's because one of your attributes is missing from your organizational data or is of low quality.
- 1. Under **Select which employee attributes you want to include in the query**, add up to seven organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
+ 1. Under **Select which employee attributes you want to include in the query**, add up to 20 organizational attributes. Once the query runs, you can use these attributes to group and filter the reports.
     > [!IMPORTANT]
     > This PowerBI query needs some specific attributes to run, and we've preselected them for you. These attributes appear in gray and you can't remove them. We might also include some attributes that help your template, but aren't required for your query to run. These attributes appear in blue and you can remove them.
     >
@@ -23,10 +23,18 @@
     >
     > Learn more about attributes and data quality in [Data quality in the analyst experience](../../data-quality-analyst-experience.md).
  1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
- 1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
 
-### Link report to query
+### Access query results 
+You can access the report in two different ways: 
+1.	View the report in the browser. Use this option if you only want to View the report.
+2.	Open the Power BI template in Power BI desktop and connect to your query results. Use this option if you want to customize the report or share it with others in your organization by publishing the report to the Power BI Service.
 
+### View report in the browser
+To view the report in the browser, go to the **Query results page** and select the eye icon in the View column. You can select **Open in new tab** if you want to keep the report in the background while doing other tasks in Advanced insights.
+
+### Open the Power BI template in Power BI Desktop
+
+1. Go to the Query results page and select the Power BI icon in the Actions column to download the Power BI template and get the query and partition identifiers. You’ll need these identifiers later.
 1. Open the downloaded template.
 1. If you're prompted to select a program, select **Power BI**.
 1. When you're prompted by Power BI:

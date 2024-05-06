@@ -9,8 +9,7 @@ ms.topic: article
 ms.localizationpriority: medium 
 search.appverid:
 - MET150
-ms.service: viva 
-ms.subservice: viva-insights
+ms.service: viva-insights
 ms.collection:
   - M365-analytics
   - viva-insights
@@ -34,7 +33,7 @@ Microsoft Viva Accelerators can help you create foundation applications and work
 
 ## Multitenant solution
 
-- [**Complex organizations and insights**](/viva/solutions/introduction.md) - Set up an Azure Data Factory pipeline to automatically pull Viva Insights query data for two tenants through OData links into an Azure storage blob location for combined analysis.
+- [**Complex organizations and insights**](/previous-versions/viva/complex-organization-insights) - Set up an Azure Data Factory pipeline to automatically pull Viva Insights query data for two tenants through OData links into an Azure storage blob location for combined analysis.
 
 ## Help and feedback
 

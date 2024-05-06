@@ -6,8 +6,7 @@ summary: Learn how to complete setup tasks for Viva Insights, including advanced
 metadata:
   title: Viva Insights setup landing page
   description: Access documentation for common tasks 
-  ms.service: viva
-  ms.subservice: viva-insights 
+  ms.service: viva-insights
   ms.topic: landing-page 
   ms.collection:
   - viva-insights-advanced
