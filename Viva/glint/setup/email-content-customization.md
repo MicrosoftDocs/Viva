@@ -21,9 +21,6 @@ ms.date: 04/24/2024
 
 Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for survey emails. To understand how to enable/disable emails, and for more information about Communications setup, see [Communications setup in Program Summary](program-summary-communications.md).
 
-> [!NOTE]
-> Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
-
 > [!IMPORTANT]
 > Always-On survey programs don't include emails or a Communications section.
 
@@ -74,9 +71,6 @@ In the email edit pane, after customizing English content, use the **Language** 
 :::image type="content" source="../../media/glint/setup/glint-email-language-dropdown.png" alt-text="Screenshot of the Language dropdown in the email edit pane.":::
 
 ### Use the program content import
-
-> [!NOTE]
-> This feature is planned to be available after May 4, 2024.
 
 Use this [translation guidance](language-translations.md) to import updated translations for emails after modifying English text.
 
