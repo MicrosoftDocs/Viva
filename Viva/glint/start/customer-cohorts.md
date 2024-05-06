@@ -1,6 +1,6 @@
 ---
-Title: Viva Glint customer cohorts
-Description: Learn how other like-minded companies develop their Viva Glint listening programs to solve challenges.
+title: Viva Glint customer cohorts
+description: Learn how other like-minded companies develop their Viva Glint listening programs to solve challenges.
 ms.author: JudithWEINER
 author: JudyWeiner
 manager: MelissaBarry
