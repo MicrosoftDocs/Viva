@@ -63,7 +63,7 @@ Learn about readiness data in the dashboard in [Interpreting the data](./copilot
 
 The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
 
-:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses.":::
 
 * 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date.
 
@@ -323,7 +323,7 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
-   :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
+   :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data.":::
 
 ### News & research
 
