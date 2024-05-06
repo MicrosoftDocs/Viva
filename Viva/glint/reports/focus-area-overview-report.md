@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 02/16/2024
 ---
 
-# Use Viva Glint's Focus Area report
+# Use Viva Glint's Focus Area Overview report
 
 The Microsoft Viva Glint Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to other details.  
 
@@ -37,17 +37,16 @@ Access is approved to the roles with **View Focus Areas Reports** within the *Re
 
 :::image type="content" source="../../media/glint/reports/reporting-view-focus-area-reports.png" alt-text="Screenshot of where to grant permissions for roles to see Focus Area reports.":::
 
-## Access the Focus Area report 
+## Access the Focus Area Overview report 
 
 From the admin dashboard, follow this procedure: 
 
 1. From the top menu bar, select the **Reports** tab. 
-1. In the left-most column of the *Reports* page, select **Focus Areas**.  
-1. Select the **Focus Area Overview** card.
+1. In the left-most column of the *Reports* page, select **Focus Area Overview**.  
 
 :::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
 
-## How leaders can use this report 
+## How leaders use this report 
 
 Leaders and admins use this report to: 
 
@@ -78,19 +77,19 @@ You can export Focus Area data from two different paths:
 ### Export data from the Focus Area Overview report 
 
 Use the **Export** menu to choose your export option. 
-- Export Focus Areas Usage to Spreadsheet, or
-- Export All Action Items to Spreadsheet.
+- **Export Focus Areas Usage to Spreadsheet**, or
+- **Export All Action Items to Spreadsheet**.
 
 :::image type="content" source="../../media/glint/reports/focus-areas-overview-export.png" alt-text="Screenshot of the download options or exporting the Focus Area report.":::
 
-### Exporting data from the admin dashboard 
+### Export data from the admin dashboard 
 
 1. In the Action Taking section, select **All Action Items Report**.
 1. The report automatically generates as a .csv file.
 
 :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
 
-### What will the Focus Area report shows? 
+## Items the Focus Area Overview report includes 
 
 - Employee email 
 - Employee first and last name 
@@ -99,7 +98,7 @@ Use the **Export** menu to choose your export option.
 - Focus Area windows and due dates 
 - Action item/description 
 - Action item/Goal status 
-- Whether the items are a Viva Glint suggested item 
+- Whether the items are a Glint suggested item 
 - Focus Area comments: Following the Suggested Action Item column, admins with permissions can see
    - The number of comments supporting a Focus Area.
    - The comment, each in its own row. 
