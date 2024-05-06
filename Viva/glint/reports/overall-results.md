@@ -1,5 +1,5 @@
 ---
-title: Viva Glint's Overall Results Report
+title:Viva Glint's Overall Results Report
 description: Viva Glint's Overall Results Report mimics the Glint dashboard but allows data filtering and reviewing of more demographics.
 ms.author: JudithWeiner
 author: JudyWeiner
