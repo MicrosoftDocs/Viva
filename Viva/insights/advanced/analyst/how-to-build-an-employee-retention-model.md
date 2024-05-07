@@ -322,13 +322,25 @@ The final step is to tune the parameters of the random forest model to find the 
 
 Some of the hyperparameters of the random forest model are:
 
-- `n_estimators`: The number of trees in the forest.
-- `max_depth`: The maximum depth of each tree.
-- `min_samples_split`: The minimum number of samples required to split a node.
-- `min_samples_leaf`: The minimum number of samples required for a leaf node.
-- `max_features`: The number of features to consider when looking for the best split.
-- `criterion`: The function to measure the quality of a split.
-- `N_estimators`: The number of trees in the forest. A higher number of trees can improve the accuracy of the model, but it also increases the computational complexity and the risk of overfitting. Therefore, we need to find the optimal number of trees that balances the trade-off between performance and efficiency.
+- `Number of trees or estimators`: The number of trees in the forest. A higher number of trees can improve the accuracy of the model, but it also increases the computational complexity and the risk of overfitting. Therefore, we need to find the optimal number of trees that balances the trade-off between performance and efficiency.
+- `Max_depth`: The maximum depth of each tree.
+- `Minimum_samples_split`: The minimum number of samples required to split a node.
+- `Minimum_samples_leaf`: The minimum number of samples required for a leaf node.
+- `Maximum_features`: The number of features to consider when looking for the best split.
+
+Since the implementations of random forest in R and Python have different hyperparameters, you may only find code examples for one language and not the other for some hyperparameters.  
+
+The table below shows which hyperparameters are available for the respective Python and R libraries:
+
+| Hyperparameters | scikit-learn  | randomForest |
+|----|----|----|
+| Number of trees | n_estimators | ntree |
+| Number of variables sampled at each split | / | mtry |
+| Maxiumum depth | max_depth | / |
+| Minimum samples split | min_samples_split | / |
+| Maximum features |   |   |
+
+The availability of these parameters might change depending on the version and the evolution of these libraries.  
 
 We use a parameter search technique to compare different values of n_estimators and select the one that minimizes the error on the validation set.
 
@@ -368,29 +380,56 @@ plt.show()
 *R:*
 
 ```R
-library(randomForest)
-library(pROC)
+# Create function to loop through hyperparameter 
 
-n_estimators <- c(1, 2, 4, 8, 16, 32, 64, 100, 200)
+tune_rf_ntree <- function(ntree){ 
 
-train_results <- c()
-test_results <- c()
+  rf <- randomForest( 
 
-for (estimator in n_estimators) {
-  rf <- randomForest(x = x_train, y = y_train, ntree = estimator, mtry = sqrt(ncol(x_train)))
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
+    formula = perform_cat ~ ., 
+    data = train_df, 
+    ntree = ntree 
+  ) 
 
-plot(n_estimators, train_results, type = "l", col = "blue", xlab = "n_estimators", ylab = "AUC score", ylim = c(0.5, 1))
-lines(n_estimators, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
+  # Predicted probabilities 
+  pred_probs_train <- predict(rf, type = "prob", newdata = train_df)[, 2] 
+  pred_probs_test <- predict(rf, type = "prob", newdata = test_df)[, 2] 
+
+  # Compute ROC curve 
+  roc_obj_train <- pROC::roc(train_df$perform_cat, pred_probs_train) 
+  roc_obj_test <- pROC::roc(test_df$perform_cat, pred_probs_test) 
+
+  # Return results 
+  data.frame( 
+   ntree = ntree, 
+   auc_train = roc_obj_train$auc %>% as.numeric(), 
+   auc_test = roc_obj_test$auc %>% as.numeric() 
+  ) 
+} 
+
+auc_ntrees <- 
+  c(1, 2, 4, 8, 16, 32, 64, 100, 200) %>% 
+  purrr::map(tune_rf_ntree) %>% 
+  bind_rows() 
+
+auc_ntrees 
+
+auc_ntrees %>% 
+
+  ggplot() + 
+
+  geom_line(aes(x = ntree, y = auc_train, colour = "Train"), linewidth = 0.8) + 
+
+  geom_line(aes(x = ntree, y = auc_test, colour = "Test"), linewidth = 0.8) + 
+
+  labs( 
+    title = "Effect of Number of Estimators on AUC Score for Random Forest Model", 
+    y = "AUC Score", 
+    x = "Number of estimators / trees" 
+  ) + 
+
+  scale_colour_manual(values = c("Train" = "red", "Test" = "blue"))
 ```
-
 :::image type="content" source="../images/retention-playbook-01.png" alt-text="Tune n_estimators.":::
 
 In the plot above we can see that as the estimators increase, it leads to overfitting. The gap between the Train AUC and Test AUC scores starts to widen as the number of estimators increases. This indicates that the model is becoming increasingly specialized to the training data, and isn't able to generalize well to the new data. Therefore, we can choose the estimators with the smallest gap to train and test AUC.
@@ -435,29 +474,6 @@ for max_depth in max_depths:
     plt.show()
 ```
 
-*R:*
-
-```R
-max_depths <- seq(1, 32, 1)
-
-train_results <- c()
-test_results <- c()
-
-for (max_depth in max_depths) {
-  rf <- randomForest(x = x_train, y = y_train, maxdepth = max_depth, ntree = 100, mtry = sqrt(ncol(x_train)))
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(max_depths, train_results, type = "l", col = "blue", xlab = "max_depth", ylab = "AUC score", ylim = c(0.5, 1))
-lines(max_depths, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
-```
-
 :::image type="content" source="../images/retention-playbook-02.png" alt-text="Tune tree depth.":::
 
 We can see that as the depth increases it leads to overfitting of the data.
@@ -499,29 +515,6 @@ plt.xlabel(‘min samples split’)
 plt.show()
 ```
 
-*R:*
-
-```R
-min_samples_splits <- seq(0.1, 1.0, length.out = 10)
-
-train_results <- c()
-test_results <- c()
-
-for (min_samples_split in min_samples_splits) {
-  rf <- randomForest(x = x_train, y = y_train, minsplit = min_samples_split)
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(min_samples_splits, train_results, type = "l", col = "blue", xlab = "min samples split", ylab = "AUC score", ylim = c(0.5, 1))
-lines(min_samples_splits, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
-```
-
 :::image type="content" source="../images/retention-playbook-03.png" alt-text="Tune minsamples split.":::
 
 We can see as the min_samples_split increase, it leads to underfitting of the data.
@@ -552,29 +545,6 @@ plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
 plt.ylabel(‘AUC score’)
 plt.xlabel(‘min samples leaf’)
 plt.show()
-```
-
-*R:*
-
-```R
-min_samples_leafs <- seq(0.1, 0.5, length.out = 5)
-
-train_results <- c()
-test_results <- c()
-
-for (min_samples_leaf in min_samples_leafs) {
-  rf <- randomForest(x = x_train, y = y_train, min.node.size = min_samples_leaf)
-  train_pred <- predict(rf, x_train)
-  train_roc <- roc(y_train, train_pred)
-  train_results <- c(train_results, auc(train_roc))
-  y_pred <- predict(rf, x_test)
-  test_roc <- roc(y_test, y_pred)
-  test_results <- c(test_results, auc(test_roc))
-}
-
-plot(min_samples_leafs, train_results, type = "l", col = "blue", xlab = "min samples leaf", ylab = "AUC score", ylim = c(0.5, 1))
-lines(min_samples_leafs, test_results, type = "l", col = "red")
-legend("bottomright", legend = c("Train AUC", "Test AUC"), col = c("blue", "red"), lty = 1)
 ```
 
 :::image type="content" source="../images/retention-playbook-04.png" alt-text="Tune minsamples leaf.":::
