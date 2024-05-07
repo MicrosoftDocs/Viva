@@ -42,7 +42,9 @@ Learners see learning content from both display and default language.
  
 - Fall back process of deciding the language of the user for Assignments 
 
-- Available languages setting  
+- Available languages setting
+
+- User language setting  
 
 Updates to **Show Learning content in default and user-selected languages** take an hour and updates to Available Language take 24 hours. Hence, updates to default language take applicable time to reflect in their impact spaces.
 
@@ -89,13 +91,9 @@ Spaces and pages not mentioned aren't impacted by this setting.
 
 Updates to this setting may take up to an hour to reflect to all users of Viva Learning after confirmation.  
 > [!NOTE]
-> If the **Show Learning Content in Default and User-selected Languages** is switched off, users may experience Viva Learning with no learning content.
-Sharepoint objects and learning paths created by admins may also not be visible to the user as the user-chosen language may be different from the language of creation.
+> If the **Show Learning Content in Default and User-selected Languages** is switched off, users may experience Viva Learning with no learning content. SharePoint objects and learning paths created by admins may also not be visible to the user as the user-chosen language may be different from the language of creation.
 
 ## Available Languages 
-
-> [!NOTE]
-> The available language feature is now under private preview. Please check with your support executive to participate in the private preview. 
 
 Admins can set all the supported languages that the organization supports in Viva Learning. Available language has two options to choose from:
 
@@ -106,7 +104,7 @@ Admins can set all the supported languages that the organization supports in Viv
 ### Impacted features of available languages
 
 
-Any changes to languages in **Available Languages** setting modify the filter options of the language filter.
+Any changes to languages in **Available Languages** setting modify the filter options of the language filter and options in **User Language setting**.
 
 Changes may take up to 24 hours to reflect for all users after confirmation. Users may clear browser cache and local storage to see the change immediately.
 
@@ -121,6 +119,19 @@ Select the languages that satisfy either one or all the below criteria:
 - Operating languages of the tenant
 
 > [!NOTE]
->
->- Available languages does not restrict the language in which user access Viva Learning as of now. This access will be restricted after User Language setting is implemented. 
->- Available languages will be used in User Language setting and Skills feature in the upcoming releases. 
+> 
+>- Available languages will be used in Skills feature in the upcoming releases. 
+
+## User Language
+
+All Viva learning Users can select their Viva Learning Language independent of the Teams/Browser's language. Users can access their language setting: Viva Learning App -> Three dots in top right of Header -> Settings -> Language -> Choose a Language -> click on "Save & Refresh". Languages selected in **Available Languages** setting will be shown in the options of User Language Settings.
+
+User language setting persists across different surfaces - Teams and Browser - for the user. At any point in time, if a tenant removes support for a language, and a user tries to access Viva Learning in that language then Viva Learning opens in Viva Learning default language and the user is notified about it.
+
+### Day 0 Experience
+
+When user accesses Viva Learning for the first time, user Language is pre-selected by default as per the language of their Teams/Browser. If the Teams/Browser languages is not supported by the tenant, then Viva Learning opens in Viva Learning default language and the user is notified about it.
+
+> [!NOTE]
+> 
+>- Viva Learning Mobile App opens in the Language of the mobile device. User Language support in mobile will be done in the upcoming releases.
