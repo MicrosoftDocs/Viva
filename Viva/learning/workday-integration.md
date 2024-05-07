@@ -80,7 +80,7 @@ Organizations chose to have compliance trainings come from the learning manageme
 
 ### Deciding factors
 
-These scenarious depend on Viva Learning is integrated with an LMS that includes 3P content providers or not.
+These scenarios depend on whether Viva Learning is integrated with an LMS that includes 3P content providers or not.
 
 It’s highly recommended not to have individual connector configurations for the included 3P content providers in the LMS, so that the same content is not duplicated.
 
