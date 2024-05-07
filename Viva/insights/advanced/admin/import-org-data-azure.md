@@ -47,7 +47,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 *Applies to: Azure contributor*
 
-1. Open a browser and sign in to your organization’s [Azure portal](https://azure.portal.com).  
+1. Open a browser and sign in to your organization’s Azure portal. 
 
 2. Under **Azure services**, select **Storage accounts**.
 
