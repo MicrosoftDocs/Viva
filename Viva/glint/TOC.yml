@@ -11,6 +11,8 @@ items:
              href: start/viva-glint-learning-paths-and-modules.md
            - name: Badge certifications
              href: start/viva-glint-badging.md
+           - name: Customer cohorts
+             href: start/customer-cohorts.md
       - name: People Science and Viva Glint
         href: start/people-science-viva-glint.md
       - name: Survey program types
@@ -281,6 +283,8 @@ items:
            items:
              - name: Strengths and Opportunities
                href: reports/act-strengths-opportunities.md
+         - name: Overall Results Report
+           href: reports/overall-results.md
          - name: Heat Map Report
            href: reports/heat-map.md
          - name: Focus Area Overview report

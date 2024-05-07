@@ -1,5 +1,5 @@
 ---
-ms.date: 04/30/2024
+ms.date: 05/06/2024
 title: Tableau integration
 ms.reviewer: 
 ms.author: rasanders
@@ -21,6 +21,9 @@ description: "Learn how to integrate your Tableau dashboard KPIs directly with V
 # Tableau integration
 
 The Viva Goals Tableau integration enables automated real-time tracking of OKR progress. For example, if you have Tableau workbooks with dashboard views that are used to visualize the sales team's close rate (quarter-to-date versus goal), you can integrate Tableau to set up a data link in Viva Goals and avoid the hassle of connecting to other source sales systems. If you've already implemented all the key performance indicator (KPI) visualizations in Tableau, Viva Goals will sync the values for you, saving you time while keeping your OKR progress up to date.
+
+> [!NOTE]
+> At present, integrations are only supported for Tableau in the cloud; they are not available for Tableau on premises.
 
 ## Enable Tableau integration
 

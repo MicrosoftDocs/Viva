@@ -156,6 +156,8 @@ items:
             href: advanced/analyst/filters.md
           - name: Metric customization
             href: advanced/analyst/custom-metrics.md
+          - name: Create and manage attribute clones
+            href: advanced/analyst/attribute-clones.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md
           - name: View and customize your general settings
