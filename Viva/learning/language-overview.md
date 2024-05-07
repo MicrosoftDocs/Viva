@@ -43,7 +43,7 @@ For more information, review the list of Viva Learning [supported languages](/vi
 
 Display language refers to the language in which Viva Learning is accessed. It refers to the language that the navigation names display. This includes **Home**, **My Learning**, and **Manage**, as well as actions like **Share**, **Add to calendar**, and **Rate it**. Notifications in Teams also display in the same language. 
 
-### In the Teams app/web app
+### In the Teams app or web app
 
 When using Viva Learning in Microsoft Teams or in the Browser. Viva Learning display language is set through the Language setting within Viva Learning.
 
