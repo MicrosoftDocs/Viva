@@ -5,7 +5,7 @@ description: List of supported languages for Briefings
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
-localization_priority: normal 
+ms.localizationpriority: normal 
 search.appverid:
 - MET150
 ms.service: viva-insights
