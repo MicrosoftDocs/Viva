@@ -36,7 +36,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
 
 1. From the *Manager Report* page, select **Add a filter.**
 
-  :::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-  text="Screenshot of the Manager Report Add a filter button.":::
+:::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-  text="Screenshot of the Manager Report Add a filter button.":::
 
 2. In the *Filter By* box, select **+ Add Filters** to open the *Select Filter Type* dropdown menu.
 3. From the dropdown box, select either **Managers** or **Respondents**. 
