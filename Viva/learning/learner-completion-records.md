@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: high
+ms.localizationpriority: high
 description: Learn how to access learner completion records in Viva Learning.
 ---
 
