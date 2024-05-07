@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
@@ -18,6 +17,7 @@ ms.collection:
 - m365solution-overview
 - highpri
 - tier1
+- essentials-privacy
 search.appverid:
 - MET150
 description: "Find Microsoft Viva privacy information."
@@ -76,11 +76,10 @@ For more information, see:
 > [!IMPORTANT]
 > We’re extending [Copilot to Microsoft Viva](https://techcommunity.microsoft.com/t5/viva-goals-blog/the-future-of-goal-setting-with-viva-goals-copilot-customized/ba-p/3800587) to help leaders boost employee engagement and improve business performance. The Copilot System combines the power of large language models (LLMs), including GPT-4, with the Microsoft 365 and Microsoft Viva apps, as well as your business data in the Microsoft Graph—and makes it accessible through natural language. <br><br>More information about additional AI capabilities in Microsoft Viva and the Viva apps will be available soon.
 
-Viva Connections uses AI to rank content in the feed, while Topics in Viva uses it to detect and identify topics. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
+Viva Connections uses AI to rank content in the feed. Microsoft's use of artificial intelligence is governed by the [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai).
 
 For more information on how Viva uses AI, see the following:
 - [Get answers to common questions about the Viva Connections Feed](connections/faqs-viva-connections-feed.md)
-- [Topic discovery and curation in Topics in Viva](topics/topic-experiences-discovery-curation.md)
 
 ## App-specific data information
 Each of the Viva apps collects and stores data in different ways, based on the intent of the app. You control your data, but how you control it differs depending on the app.
@@ -110,7 +109,7 @@ Privacy and security controls:
 |-|-|-|
 |Public announcements, private messages, posts, polls, and videos shared in communities, the inbox, and the Storyline.<br>User profiles (through Viva Engage)<br>Questions and answers<br>Rewards and recognition<br>Sentiment/usage analysis (personal analytics, audience analytics, campaign analytics, Answers analytics)|All users with a paid Microsoft or Office 365 subscription (as part of the Viva Engage license) and accessible through Microsoft Teams.<br><br>By default, private content is restricted to the participants in the content (for example, the sender and recipient of a private message); however, admins can be temporarily granted access to private content. (You'll need to manually remove this access as well.)|The Engage admin can set up and configure Viva Engage through the Engage admin center (present in the Teams app).|
 
-For more information about privacy in Viva Engage, see [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).
+For more information about privacy in Viva Engage, see [Overview of security and compliance in Viva Engage](engage/manage-security-and-compliance/security-and-compliance.md).
 
 ### Viva Goals
 For information about privacy in Viva Goals, see [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md).

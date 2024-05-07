@@ -10,8 +10,7 @@ audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
 ms.custom: Adm_Yammer
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 search.appverid:
 - MET150
 - MOE150

@@ -4,13 +4,12 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 12/15/2023
+ms.date: 05/02/2024
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
@@ -40,17 +39,23 @@ An authorized admin (for example, a global admin) in your tenant can create, ass
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-> Only some features will have controls available for admins to provide users with the option to opt out.
+> - For information on the impact of policies on your tenant or the users in your tenant, refer to the feature documentation by using the link in the table. 
+> - Only some features have the controls available for admins to provide users with the option to opt out.
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
 |-|-|-|-|-|
-|Insights|[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)*|No|Global admin<br>Insights admin|VivaInsights|
-||[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)*|No|Global admin|VivaInsights|
-|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)*|No|Global admin|VivaPulse|
-|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin<br>Knowledge admin|VivaSkills| 
+|Engage|[Copilot in Engage](/viva/engage/configure-copilot-for-engage)|No|Global admin, Engage admin|VivaEngage|
+||[AI Summarization](/viva/engage/configure-copilot-for-engage)|Yes|Global admin, Engage admin|VivaEngage|
+|Insights|[Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)|No|Global admin|VivaInsights|
+||[Copilot Dashboard Auto Enablement](/viva/insights/org-team-insights/copilot-dashboard#remove-access-to-the-dashboard-for-the-entire-tenant-with-powershell)|No|Global admin|VivaInsights|
+||[Digest Welcome Email](/viva/insights/advanced/setup-maint/configure-personal-insights#configure-access-at-the-tenant-level)|No| Global admin|VivaInsights|
+||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Global admin, Insights admin|VivaInsights|
+||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Global admin, Insights admin|VivaInsights|
+|Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
+|Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin, Knowledge admin|VivaSkills| 
 
 
-\* Not yet available for all tenants. Support will be added soon.
+\* The feature or feature control might not yet be available for all tenants. Support will be added soon.
 
 > [!NOTE]
 > You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
@@ -90,7 +95,7 @@ Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefe
 
    Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
 
-3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see what features are available to manage using an access policy.  
+3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see the features that you can manage by using an access policy.  
 
    For example, to see which features are supported in Viva Insights, run the following cmdlet:
 
@@ -107,6 +112,9 @@ You can assign a maximum of 10 policies per feature to users and groups. Each po
 
 Run the [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy) cmdlet to create a new access policy.
 
+>[!NOTE]
+> If your feature supports user controls for opt out, make sure you set the *IsUserControlEnabled* parameter when you create the policy. If you don't, user controls for the policy uses the default state for the feature.
+
 For example, run the following to create an access policy, called *UsersAndGroups*, to restrict access to the Reflection feature in Viva Insights.
 
    ```powershell
@@ -114,6 +122,8 @@ For example, run the following to create an access policy, called *UsersAndGroup
    ```
    
 This example adds a policy for the Reflection feature in Viva Insights. The policy disables the feature for the specified users and group members. If you want to disable the feature for all users, use the *-Everyone* parameter instead.
+
+
 
 ### Manage access policies
 
@@ -124,6 +134,8 @@ For example, building on our last example, to update who the policy applies to, 
 ```powershell
 Update-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -PolicyId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -GroupIds group1@contoso.com,group2@contoso.com
 ```
+
+Just like when you create the policy, if your policy supports user controls, include the *IsUserControlEnabled* parameter when you change the policy.
 
 > [!IMPORTANT]
 > Values that you specify for the *-UserIds* and *-GroupIds* parameters or the *-Everyone* parameter overwrite any existing users or groups. To preserve the existing users and groups, you need to specify those existing users or groups *and* any additional users or groups that you want to add. Not including existing users or groups in the command effectively removes those specific users or groups from the policy. You can't update a policy for a particular user or group to include the entire tenant if a policy for the entire tenant already exists for the feature - only one tenant-wide policy is supported.
@@ -147,15 +159,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, the following information might help:
-
-- Confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
-- If a permissioned admin is having trouble setting a policy, it may be due to restrictions on that user's account. Check the following:
-   - Whether the admin has restricted access to EWS in Exchange. [Learn how to control access to EWS in Exchange.](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)
-   - Whether the admin has app access policies applied to their Exchange Online mailbox. Learn more about [limiting application permissions to specific Exchange Online mailboxes](/graph/auth-limit-mailbox-access).
-   - Whether the admin has restricted access to Exchange Online organization based on [client properties or client access](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)
- 
-- If a user has restricted access to EWS in Exchange, app access policies applied to their Exchange Online mailbox, or restricted access to Exchange Online organization based on client properties or client access, the user may not be able to access the Viva features in the feature table, regardless of the feature access policy set.
+If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 
 ## How access policies work in Viva
 

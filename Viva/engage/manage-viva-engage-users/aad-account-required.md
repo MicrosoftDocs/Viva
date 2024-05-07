@@ -5,11 +5,10 @@ f1.keywords:
 ms.author: elizapo
 author: ToniSFrench
 manager: elizapo
-ms.date: 9/23/2019
+ms.date: 8/23/2023
 audience: Admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: medium
 search.appverid:
 - MET150

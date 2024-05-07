@@ -1,7 +1,7 @@
 ---
 ms.date: 10/28/2023
-title: "Viva Engage admin key concepts"
-description: "Key concepts for planning how to administer your new Viva Engage network."
+title: "Key concepts for Viva Engage administrators"
+description: "Key concepts for planning how to administer your Viva Engage network."
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -10,8 +10,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
@@ -20,9 +19,9 @@ search.appverid:
 - MET150
 ---
 
-# Viva Engage admin key concepts
+# Key concepts for Viva Engage administrators 
 
-Welcome to your Viva Engage experience! Using Viva Engage is going to change the way your company gets work done, if it hasn't already. As an admin, you have a huge role to play in helping your coworkers get comfortable with Viva Engage.
+Welcome to your Viva Engage experience! Using Viva Engage will change the way your company gets work done, if it hasn't already. As an admin, you have a huge role to play in helping your coworkers get comfortable with Viva Engage.
   
 Your best resource and the page you should add to your Favorites is [Viva Engage admin center overview](./eac-overview.md). This page has links for everything you need to set up and configure Viva Engage.
   
@@ -30,7 +29,7 @@ This article describes the key concepts you should know and key decisions you sh
   
 ## Create a plan
 
-1. Plan who will help administer Viva Engage for your organization. There are several types of admins:
+1. Identify who will help administer Viva Engage for your organization. Viva Engage has several types of admin roles:
 
     - **Engage admin** - have the most permissions and are responsible for significant decisions about how to use Viva Engage in your company. They manage security-related tasks and configure and customize Viva Engage.
 
@@ -40,7 +39,7 @@ This article describes the key concepts you should know and key decisions you sh
 
     - **Group admin** - configure and customize their groups and manage day-to-day operations for them.
 
-   For information about how to make someone an admin and a list of what each admin can do, see [Manage Viva Engage admins](/viva/engage/manage-viva-engage-users/manage-viva-engage-admins).
+   For details on how to assign an admin and the functions each admin role can do, see [Manage Viva Engage admins](/viva/engage/manage-viva-engage-users/manage-viva-engage-admins).
 
 2. Set up your Viva Engage network to match your organization's goals:
 

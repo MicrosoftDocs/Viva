@@ -1,12 +1,12 @@
 ---
 title: Introduction to Microsoft Viva Glint 
-description: Learn how Viva Glint provides visibility into the health of your organization and guides effective action. The world's leading brands use Viva Glint programs to increase employee engagement, develop their people, and improve business results. 
+description: The world's leading brands use Microsoft Viva Glint programs to increase employee engagement, develop their people and culture, and improve business results. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva glint, employee engagement, microsoft viva glint, organization health, viva glint history
+keywords: viva glint, employee engagement, organizational health, viva glint history
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -15,33 +15,33 @@ ms.collection:
  - essentials-navigation
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/24/2023
+ms.date: 04/24/2024
 ---
 
 # Introduction to Microsoft Viva Glint
 
-This article helps you to understand how Microsoft Viva Glint makes people in your organization happier and more successful at work.
+Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization by measuring employee engagement and guiding feedback action. 
 
-First, watch this 4:30 video for an easy-to-understand introduction of Viva Glint and its people success methodology:
+**Watch this video for a quick introduction to Viva Glint**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
-## Get started with Viva Glint
+**Implementing Viva Glint survey programs helps your organization by**
 
-Viva Glint is a people-driven platform that provides visibility into the health of your organization and guides effective action. The world's leading brands use our programs to increase employee engagement, develop their people, and improve business results.
+- Increasing employee engagement, resulting in overall business improvement.
+- Providing fast, focused people insights.
+- Encouraging collaboration within teams and throughout your organization.
+- Predicting opportunities and risks.
+- Translating insights into action and tracking feedback progress.
 
-Great teams build great cultures, and great cultures fuel great companies.
+### New to Viva Glint?
+[Get started setting up your instance](../../viva/glint/start/brochure-summary.md).
 
-## How does Viva Glint improve the overall health of your organization?
+### Ready to set up a program? 
+[Find programs and survey design tips](https://go.microsoft.com/fwlink/?linkid=2268788).
 
-With Viva Glint you can:
+      
+     
 
-- Increase employee engagement resulting in overall business improvement.
-- Receive faster and more focused people insights in your organization.
-- Collaborate within teams and throughout your organization with continuous conversations.
-- Predict opportunities and risk to business outcomes.
-- Review data driven feedback to study employee success drivers.
-- Translate insights into action and track the feedback progress.

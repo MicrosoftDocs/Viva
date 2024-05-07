@@ -7,8 +7,7 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 11/30/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -44,7 +43,7 @@ In Viva Learning, you can curate your personal Learning collections using learni
    ![Image of the add content option to add specific content to your learning collection.](../media/learning/learning-collections3.png)
 
 6. Add a section title and description to create sections in your collection.
-    1. Search for relevant learning content from learning providers within Viva Learning.
+    1. Search for relevant learning content from learning providers within Viva Learning or [add link to content](learning-path-add-link.md).
     1. Choose the content and select **Add**.
     1. Reorder any content by dragging the added courses.
 

@@ -9,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-suite
+ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
 ms.collection:  
@@ -18,6 +17,7 @@ ms.collection:
 - m365solution-overview
 - highpri
 - tier1
+- essentials-security
 search.appverid:
 - MET150
 description: "Find Microsoft Viva security information."

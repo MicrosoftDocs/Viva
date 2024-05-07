@@ -8,8 +8,7 @@ ms.author: helayne
 ms.topic: conceptual
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: scott.ruble
@@ -54,7 +53,7 @@ After this period has passed, you will no longer have access to Viva Insights in
 
 #### To download query results
 
-1. Open the cloud-based [advanced insights app](https://workplaceanalytics.office.com/). (If that link doesn't work, try [this link instead](https://workplaceanalytics-eu.office.com/).) If prompted, sign in with your work account.
+1. Open the cloud-based [advanced insights app](https://insights.cloud.microsoft/). If prompted, sign in with your work account.
 2. Select **Analyze** > **Query designer** > **Results**.
 3. In the row for the query results, select **Download** to download the results as a .csv file, which is archived as a .zip file.
 

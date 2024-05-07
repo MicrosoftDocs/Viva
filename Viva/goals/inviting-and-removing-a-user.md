@@ -9,13 +9,13 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
+ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - Strat_SP_modern
 - M365-collaboration
-- m365initiative-viva-goals  
+- m365initiative-viva-goals
+- essentials-manage
 search.appverid:
 - MET150
 description: "Inviting and removing a user in Viva Goals"
@@ -67,7 +67,7 @@ Now, all the members in the group are eligible to sign in. The user record will 
 
 ## How to add members to a team 
 
-Team owners and administrators can set up their team by adding team members. Members can be added to the team either by adding a Microsoft Entra group (Microsoft 365 group, mail enabled security group or distribution group), or by adding individuals in your tenant. 
+Team owners can set up their team by adding team members. Members can be added to the team either by adding a Microsoft Entra group (Microsoft 365 group, mail enabled security group or distribution group), or by adding individuals in your tenant. 
 
 To add members to your team, follow these steps: 
 
@@ -78,14 +78,14 @@ To add members to your team, follow these steps:
 1. Select the group or the individual you want to add. 
 1. After selecting the required groups or individuals, select the Add Members button. The groups or individuals are added to the team as a member.
 
-When you set up a team, it's recommended that you add one or more team administrators to make sure that the team management isn't dependent on one person. 
+When you set up a team, it's recommended that you add one or more team owners to make sure that the team management isn't dependent on one person. 
 
-To assign team administrator permissions to a team member, follow these steps:
+To assign team owner permissions to a team member, follow these steps:
 
-Navigate to the **Team Members** tab. Search for the member in the search field. The search tool returns results directly from Microsoft Entra ID. Next to the member you want to assign as the administrator, select on the more options dropdown. 
+Navigate to the **Team Members** tab. Search for the member in the search field. The search tool returns results directly from Microsoft Entra ID. Next to the member you want to assign as the owner, select on the more options dropdown. 
 
-- If the member has already been added to the team as part of a group or individually, the dropdown provides the option to **Make admin**. Clicking on this option assigns this member as the team administrator. 
-- If the member hasn't been added to the team yet, the more options button provides the option to **Add to team**. After adding the member, repeat the above process to assign this member as the team administrator. 
+- If the member has already been added to the team as part of a group or individually, the dropdown provides the option to **Make owner**. Clicking on this option assigns this member as the team owner. 
+- If the member hasn't been added to the team yet, the more options button provides the option to **Add to team**. After adding the member, repeat the above process to assign this member as the team owner. 
 
 ## Remove a user 
 

@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 03/02/2023
+ms.date: 03/18/2024
 title: Hybrid Workforce Experience Power BI report (preview)
 description: Learn how to use the Microsoft Viva Insights Power BI template to know about your organization's hybrid workforce experience
 author: zachminers
@@ -8,8 +8,7 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -17,9 +16,10 @@ audience: Admin
 ---
 
 
-# Hybrid workforce experience report (preview)
+# Hybrid experience report (automated)
 
-*This experience is available only through private preview.*
+>[!Important]
+>This feature is in private preview. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 As leaders figure out their organization’s new working models, the **Hybrid workforce experience** Power BI report in Microsoft Viva Insights helps organizations understand how hybrid work affects employees in various work modes differently. The report identifies opportunities to improve the experience of employees working in the following ways:
 
@@ -27,7 +27,12 @@ As leaders figure out their organization’s new working models, the **Hybrid wo
 * Mostly remote
 * Onsite some days of the week and remote on others (hybrid)
 
-The classification of employees in these different groups is customizable and is based on the average number of days per week the employee is detected to be working onsite (that is, from the company’s corporate network). The detection of an employee's onsite days is based on Microsoft Entra log-in information and employee activity on Microsoft 365 applications. Note that the algorithm only uses three out of four octets of an IP address for the classification of employees as either onsite or not. It never uses the employee’s actual physical location.  
+#### About Microsoft’s ML-model to classify employees to onsite and remote
+A classification algorithm based on logs from Entra and M365 applications (Outlook, Teams, OneDrive, Sharepoint) is used to identify the work modality of licensed employees. Microsoft uses subnets of IP addresses identified by our machine learning algorithm to group network traffic from Entra/M365 applications as either belonging to an office location or not an office location. This process is done for licensed employees at a day-level, storing a Boolean value of 1 or 0 in the **Onsite days** and **Remote days** metric, depending on whether the employee is onsite or remote. Viva Insights neither stores the IP address nor subnet information of any employee. It only records the metric values (**Onsite days**, **Remote days** metrics), which is used in an aggregated fashion in the Hybrid PBI to classify into “mostly onsite," “mostly remote,” or in a “hybrid” category.
+
+The algorithm only uses three out of four octets of an IP address for the classification, and it never uses the employee’s actual physical location. Microsoft cannot infer any user's precise location, but only roughly estimate if the traffic was coming from a place where other users were co-located (in which case they are classified as “onsite”), otherwise, remote. The classification (clustering) technique to predict office vs. non-office for the data is based upon its similarity with the sample data. It assumes that data with similar traits sit together and uses distance measures at its core.
+
+This algorithm has better accuracy if employees in the tenant are not using any VPN. However, if they're using a 3rd party or a first party VPN, and split-tunneling is configured, the algorithm still works with the same accuracy, because Microsoft traffic bypasses the VPN.
 
 The report has six sections, which each address different facets of the employee experience that hybrid working models may impact. Key metrics provide a deep-dive into each topic, along with a **Why it matters** interpretation and **recommended actions**.
 
@@ -48,7 +53,50 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 1. In the analyst experience in Viva Insights, select **Analysis**.
 2. Under **Power BI templates**, navigate to **Hybrid workforce experience (preview)** and select **Start analysis**. For more information about the Hybrid workforce experience template before running your analysis, select **Learn more**.
 
-[!INCLUDE [Setup steps](includes/setup-steps.md)]
+ 3. Under **Query setup**:
+    
+    1. Type a **Query name**.
+    1. Select a **Time period**. **Time period** defaults to **Last 6 months**.
+    1. Set **Auto-refresh** (optional). You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
+    
+    > [!NOTE]
+    > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
+
+4. Type a **Description** (optional).   
+
+5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. For more information about metric rules, refer to [Metric rules](../../analyst/metric-rules.md).
+   > [!NOTE]
+   > The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
+
+ 1. Under **Predefined template metrics**, view the list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. You can add other metrics by selecting **Add metrics**.
+    > [!IMPORTANT]
+    > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. Learn more about data-quality notifications in [Data quality in the analyst experience](../../analyst/data-quality-analyst-experience.md).
+
+ 1. In **Select which employees you want to include in the query**, add filters to narrow down the employees in scope for your report. Don’t remove the predefined “Is Active” filter. For more details about filter and metric options, refer to [Filters](../../analyst/filters.md). If you notice a warning or error here, it's because one of your attributes is missing from your organizational data or is of low quality.
+ 1. Under **Select which employee attributes you want to include in the query**, add up to 14 organizational attributes, including the required **Organization** and **HireDate** attributes, and the optional **LevelDesignation** attributes. Once the query runs, you can use these attributes to group and filter the reports.
+    > [!IMPORTANT]
+    > This PowerBI query needs some specific attributes to run, and we've preselected them for you. These attributes appear in gray and you can't remove them. We might also include some attributes that help your template, but aren't required for your query to run. These attributes appear in blue and you can remove them.
+    >
+    > If you notice attributes marked with yellow warnings, that attribute's quality is low. If you notice attributes marked in red and the query's **Run** button disabled, then your organizational data is missing that attribute. 
+    >
+    > Learn more about attributes and data quality in [Data quality in the analyst experience](../../analyst/data-quality-analyst-experience.md).
+ 1. Under **Select which spotlight attributes you want to include in the query**, add at least one and up to five attributes to use as a legend for insights in the report. You’ll also be able to focus on a specific group of employees in the report. Insights for this group will be highlighted.
+ 1. Under **Select an attribute that indicates the employee’s engagement score**, you can optionally select an attribute that represents how engaged employees are. 
+1. Select **Run** on the upper right side of the screen. The query might take a few minutes to run.
+ 1. When your query results are ready, go to the **Query results page** and select the Power BI icon. Download the Power BI template and get the partition and query identifiers. You’ll need these identifiers later.
+
+### Link report to query
+
+1. Open the downloaded template.
+1. If you're prompted to select a program, select **Power BI**.
+1. When you're prompted by Power BI:
+   1. Paste in the partition and query identifiers.
+   1. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data.
+   1. Select **Load** to import the query results into Power BI.
+1. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.
+    > [!IMPORTANT]
+    > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
+:::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab":::
 
 ## Report settings
 

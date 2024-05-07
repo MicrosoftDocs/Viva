@@ -12,10 +12,9 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/21/2023
+ms.date: 04/01/2024
 ---
 
 # Recognize survey field character limits in Viva Glint programs
@@ -24,7 +23,7 @@ The character limits for each open text area in your survey setup are given in t
 
 ## General and survey setup
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Customer UUID | 64 |
 | Data File Attribute Values | 64 |
@@ -33,7 +32,7 @@ The character limits for each open text area in your survey setup are given in t
 
 ## Survey Text
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Program Name | 50 |
 | Intro Text | 1024 |
@@ -44,7 +43,7 @@ The character limits for each open text area in your survey setup are given in t
 
 ## Question/item components for surveys and 360 Feedback
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Item Text | 512 |
 | Report Label | 128 |
@@ -57,20 +56,18 @@ The character limits for each open text area in your survey setup are given in t
 
 ## Communications
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
-| Greeting | 1024 |
-| Message | 1024 |
-| Privacy Message | 1024 |
+| Subject | 3000 |
+| Greeting | 3000 |
+| Privacy Message | 3000 |
+| Title | 3000 |
+| Message | 3000 |
 | Questionnaire Button | 128 |
-| Questions | 1024 |
-| Signature | 1024 |
-| Subject | 1024 |
-| Title | 1024 |
 
 ## Fields
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Rater Category name | 30 |
 | Reporting Name/Label | 128 |
@@ -78,28 +75,28 @@ The character limits for each open text area in your survey setup are given in t
 
 ## Overview content
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Headers | 50 |
 | Action Buttons | 24 |
 
 ## Rater Selection Content
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Greetings | 100 |
 | Subtext | 400 |
 
 ## Competencies
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Competency Name | 80 |
 | Competency Description | 400 |
 
 ## Content Resources
 
-| **Field** | **Character limit** |
+| Field | Character limit |
 | --- | --- |
 | Name | 100 (no spaces) |
 | Title | 2048 |

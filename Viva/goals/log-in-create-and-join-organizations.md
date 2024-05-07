@@ -1,6 +1,6 @@
 ---
-ms.date: 04/05/2022
-title: Log in, create, and join organizations in Viva Goals
+ms.date: 04/30/2024
+title: Get started with Viva Goals and organizations
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -9,96 +9,72 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
+ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals  
 search.appverid:
 - MET150
-description: "Learn how to log in, create, and join an organization in Viva Goals"
+description: "Learn how to log in to or out of Viva Goals, as well as how to create and join organizations."
 ---
 
-# Log in, create, and join organizations in Viva Goals
+# Log in to Viva Goals and get started with organizations
 
-After you purchase Viva Goals licenses for your organization, you can log into Viva Goals by using your Microsoft Entra credentials. 
+Any user with a valid Viva Goals license can log in to Viva Goals. Once you've logged in, you can join or create organizations. Organizations usually represent the higher levels of your business hierarchy: either the whole company or specific departments in cases where department autonomy or information compartmentalization is particularly important.
 
-To log in to Viva Goals, you must be logged into your Microsoft Entra ID.
+## Log in to Viva Goals
 
-## How to log in to Viva Goals 
+Anyone in the organization can log in to Viva Goals using their Microsoft Entra credentials if you have a valid Viva Goals license assigned by your admin. You don't need to log in if you're already logged in to another Microsoft 365 product or service.
 
-1. Go to the Viva Goals sign-in page: https://goals.microsoft.com/.
+1. Go to the Viva Goals sign-in page at https://goals.microsoft.com/.
 
-2. Select the Microsoft Entra credentials to log in.
+1. Use your Microsoft Entra credentials to log in.
 
-3. If there are no organizations available, you'll be directed to **No organizations** page, where you're prompted to create an organization.
+1. Once you log in to Viva Goals, you can create or join an organization and begin creating OKRs. Choose one of the following paths to get started with an organization:
 
-4. If you're a first time user and was invited to join your organization via an invite link, you'll be taken directly to your organization’s Viva Goals account. 
+    * You can use the company-wide organization, which is a default workspace that all licensed members in the company have access to.
 
-5. If you’re logging in for the first time and aren't yet part of an organization, you'll be directed to the **Join Organizations** page to select your organization from a list.  
+    * Alternatively, you can [create a new organization](#create-your-own-organization) or [join an existing organization](#join-an-organization).
 
-1. After you log in, you'll be taken to your organization.
+    * If you're a first-time user invited to join your organization via an invite link, you'll be taken directly to that organization's Viva Goals account. If you're a returning user who's already part of an organization, you'll be taken to the organization that you are a part of.
 
-## How to create your first organization in Viva Goals
+## Log out of Viva Goals
 
-1. Log in to your Viva Goals account (https://goals.microsoft.com/) with your Microsoft Entra credentials.
+To log out of Viva Goals, select the profile icon at the top and then select **Sign out**.
 
-2. You'll be prompted to create an organization. Select **Create Organization**.
+## Use the company-wide organization
 
-3. Enter your organization name and a brief description (optional) and select the organization type: **Public** or **Restricted**.
+All members in the tenant who have valid Viva Goals licenses automatically have access to the company-wide organization. A user or team can simply join Viva Goals and create their teams and OKRs under this default organization instead of having to manually create an organization. You can learn more about company-wide organizations [here](company-wide-organization.md).
 
-4. Select **Create Organization**.
+## Create your own organization
 
-As the organization administrator, you can now add users to your organization by inviting members.
+1. If there are no other existing organizations (and the "default organization" is turned off), you will land on the **Create Organization** page. Select **Create Organization**.
 
-## How to create another organization in Viva Goals
+1. If you are already inside an organization and want to create a new org, select your organization's name at the top of the left-hand navigation menu. Select the **Create or join organization** option at the bottom to go to the **Create Organization** page.
 
-If you're a part of more than one organization and need to create another organization in Viva Goals, follow these steps:
+1. Enter your organization name and a brief description (optional) and select the organization type: **Public** or **Restricted**.
 
-1. Log in to your first organization in Viva Goals.
+    > [!NOTE]
+    > A *public* organization is one that anyone in your company can join without needing approval. A *restricted* organization lets you choose which users get to join; restricted organizations are better when you want a tight-knit group of users to maintain information boundaries.
 
-2. From the menu on the left, select the organization name at the top.
+1. Select **Create Organization**.
 
-3. From the organization-switcher dropdown list that appears, select the **Create or join new organization** button.
+As the organization owner, you can now add users to your organization by inviting members.
 
-4. On the **Join organizations** page, select **Create new organization** and repeat the steps you followed to create your first organization.
+Once you're a member of multiple organizations in Viva Goals, you can use the organization switcher dropdown to switch between different organizations.
 
-Use the organization switcher dropdown to switch between different organizations.
+## Join an organization
 
-## How to join an organization in Viva Goals 
+1. Log in to Viva Goals (https://goals.microsoft.com/) using your Microsoft Entra ID.
 
-1. Log in to Viva Goals (https://goals.microsoft.com/) using Microsoft Entra ID.
+1. What happens next will depend on your scenario:
 
-2. If you're logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join Organizations** page, where you can select your organization.
+    * If you're logging in for the first time and aren't yet a part of any organization, you'll be taken to the **Join organizations** page, where you can select your organization.
 
-3. If your organization is public, you'll see a **Join** button. Select that button to go to your organization's account. 
+    * If you're already a part of an organization, select your organization's name at the top of the left-hand navigation menu, then select **Create or join organization** at the bottom of the resulting organization switcher dropdown. This will take you to the **Join organizations** page.
 
-   If your organization is restricted, you'll see a **Request to join** button. Select that button to send a join request to your organization administrator for approval.
+1. Find the organization you want to join.
 
-5. Use the organization-switcher dropdown to join your other organizations.
+    * If your organization is public, you'll see a **Join** button. Select that button to go to your organization's account.
 
-6. Select **Create or join new organization**. On the **Join Organizations** page that opens, select the organization you want to join.
-
-### FAQ (Frequently Asked Questions)
-
-1. **Are there other ways to log in to Viva Goals other than using Microsoft Entra credentials?**
-    1. Currently, you can only log into Viva Goals by using Microsoft Entra credentials.
-
-1. **Can anybody in my organization log in?**
-    1. Yes, if your organization has purchased or subscribed to Viva Goals, anybody can log in.  
-
-1. **Do I need to log in using Microsoft Entra every single time I want to access my Viva Goals account?**
-    1. If you're logged into any other Microsoft 365 product or service, you'll automatically be directed to Viva Goals without needing to log in.
-
-1. **How do I log out of my Viva Goals account?**
-    1. Select your profile name at the bottom of the left menu in Viva Goals, and then select the **Log out** button.
-
-1. **What's an *organization* in Viva Goals and when should the user create it?**
-    1. An organization in Viva Goals can mean different things to different users. You can create a single organization with all your employees in it if you have a simple hierarchy of organization-level OKRs, followed by department-level OKRs, and team-level OKRs. But in the following cases, it makes sense to create separate organizations: 
-        1. If your business unit (BU) or department wants to track a separate set of organization-level OKRs and align all the teams in that BU or department to those OKRs, you should create a separate organization for your BU or department. 
-        1. If your organization wants to maintain its own information boundary and doesn't want other department members to see its OKRs, you can create a separate organization for yourself or for those departments. 
-        1. If there's a need to administer the rollout and features separately, different departments may want to track OKRs in unique ways. You might want to turn on/off certain customizations or manage different OKR rhythms and cadences (different time periods) or permissions (transparent versus locked). In all these scenarios, it's best to create a new organization. 
-
-1. **What do the types of organizations (*public* and *restricted*) mean?**
-    1. *Public* allows anyone in your company to join your organization without approval.
-    1. *Restricted* lets you choose which users get to join your organization. Use this option when you want to keep a tight-knit group of users to maintain information boundaries.
+    * If your organization is restricted, you'll see a **Request to join** button. Select that button to send a join request to your organization administrator for approval.

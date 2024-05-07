@@ -7,14 +7,14 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 11/23/2021
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
+  - essentials-manage
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: View the new Microsoft 365 Admin Experience for Viva Learning.
@@ -30,7 +30,7 @@ The functionalities include:
 - Assign knowledge administrator
 - Pin Learning in Teams
 - Manage availability in Teams admin center
-- Manage additional settings in Viva Learning through the Teams app
+- Manage other settings in Viva Learning through the Teams app
 
 ![Viva learn page](/viva/media/learn-admin.png)
 

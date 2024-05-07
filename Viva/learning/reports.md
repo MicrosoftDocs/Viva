@@ -7,13 +7,13 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 07/24/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
+  - essentials-manage
 ms.localizationpriority: medium
 description: Learn how Viva Learning handles customer-facing reports.
 ---

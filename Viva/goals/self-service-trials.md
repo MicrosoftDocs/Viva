@@ -1,5 +1,6 @@
 ---
-title: Self-service trials
+ms.date: 01/31/2024
+title: Use a self-service trial to try out the full version of Viva Goals
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -8,8 +9,7 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-goals
+ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
 - m365initiative-viva-goals
@@ -19,68 +19,86 @@ search.appverid:
 description: "Learn how to start a trial with Viva Goals as an individual."
 ---
 
-# Self-service trials  
+# Use a self-service trial to try out the full version of Viva Goals
 
-This article describes how individuals can use self-service trials to experience Viva Goals.  
+This article describes how you can use a self-service trial to experience Viva Goals before paying for the full experience.
 
 ## Sign up for a trial
 
-Individuals can sign up for self-service trials of Viva Goals on their organization’s existing Microsoft 365 tenants with their business logins. They can try out the full functionality of the product for 60 days before requesting their IT Admins to purchase paid licenses for their business groups.  
+You can sign up for a self-service trial of Viva Goals on your organization's existing Microsoft 365 tenant using your business login. This will let you try out the full functionality of the product for 60 days, after which you will need to ask your IT admin to purchase a paid license for your business group.
 
-To sign up for a self-service trial:
+To sign up for a self-service trial, visit the [Viva Goals launch page](https://goals.microsoft.com/) and select **Start Trial**.
 
-- Visit the Viva Goals launch page at https://goals.microsoft.com/ and click “Start Trial”.
+A user or team that encounters issues when signing up for trial licenses should contact their IT department. IT admins have full control of paid subscriptions. If you're an IT admin, you can't sign up for self-service trials: you should instead see the guidance for IT admin trials [here](it-admin-trials.md).
 
-If users or teams run into any issues signing up for trial licenses, then it is recommended that they contact their IT department. There will be no requirement to input payment information when signing up for a trial. IT admins will maintain full control of paid subscriptions. IT Admins cannot sign up for self-service trials and should refer to the guidance for IT Admin trials.  
+You can only request a self-servie trial if your IT admin has enabled **AllowSelfServicePurchase**. You can find more information [here](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
-In order for users or individuals to request self-service trials, IT Admins must select “AllowSelfServicePurchase” to control if users are allowed to make self-service purchases. To see more, visit [AllowSelfServicePurchase for the MSCommerce PowerShell ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?)
+Self-service trials are available worldwide, but Government and EDU customers cannot use them.
 
-These self-service trials are available worldwide. They are not available for Government & EDU customers.
+You can sign up for a trial from the [Goals product page](https://goals.microsoft.com/) or from the Viva Goals app within Microsoft Teams. Self-service trial users can join existing paid or trial organizations in Viva Goals.
 
-Individuals can sign up for the trial from the [Goals product page](https://goals.microsoft.com/) or from the Viva Goals app within Microsoft Teams. Self-service trial users can join existing paid or trial organizations in Viva Goals.    
+Signing up for a trial will not require you to input any payment information. When you start a trial, info about the trial expiration will appear on the Viva Goals webpage.
 
-No payment information is required to start the trial. Info about the trial expiration will appear on the Viva Goals webpage.
+### Manage trial licenses as a global or billing admin
 
-### Manage trial licenses as a Global or Billing Admin 
+Self-service trials for Viva Goals don't compromise IT oversight or control. If you are an admin, you can use subscription management capabilities to oversee and manage trial licenses on the Licenses page in the Microsoft 365 admin center.
 
-The self-service trials for Viva Goals doesn’t compromise IT oversight or control.  If you are an Admin, you can use subscription management capabilities to oversee and manage trial licenses on the Licensing page in the Microsoft 365 Admin Center. 
+:::image type="content" source="../media/goals/vg-trials/vg-trial-license.png" alt-text="Screenshot of managing the Viva Goals subscription from the Licenses page in the admin center.":::
 
-:::image type="content" source="../media/goals/vg-trials/vg-trial-license.png" alt-text="Screenshot of managing the Viva Goals subscription from the licensing page in the admin center.":::
+IT admins have the option to disable self-service trials for Viva Goals in your organization. You can learn more [here](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
-IT Admins have an option to disable self-service trials for Viva Goals in your organization. Learn more about this here - Use [AllowSelfServicePurchase for the MSCommerce PowerShell module | Microsoft Learn. ](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?)
-
-## Who should be involved in a trial 
+## Who should be involved in a trial?
 
 |Role  |Activity  |
 |---------|---------|
-|Business user      |Perform knowledge manager, topic contributor, and topic consumer roles          |
-|Key OKR stakeholders      |Ensure users are creating OKRs and that business goals are realized. More about OKR stakeholder teams at [Define your team | Microsoft Learn. ](define-your-team.md)        |
+|Business user      |Create goals for their team.          |
+|Key OKR stakeholder      |Ensure users are creating OKRs and that business goals are realized. You can learn more about OKR stakeholder teams [here](define-your-team.md).        |
 
-## During a Trial 
+## During a trial
 
-The trial period should be used to evaluate the following components of Viva Goals: 
+The trial period should be used to evaluate the following components of Viva Goals:
 
-- The Objective and Key Results capabilities used to set goals, align teams and track progress. 
-- The ability of Viva Goals to work within the flow of work, including integrations into [Microsoft Teams](ms-teams-integration.md) and [other Microsoft or partner solution integrations](integrations-overview.md).  
+- The OKR and initiative capabilities used to set goals, align teams, and track progress.
+- The ways Viva Goals can operate in your workflows, such as how it can integrate into [Microsoft Teams](ms-teams-integration.md) or [other Microsoft or partner solutions](integrations-overview.md).  
 
-Individuals who are using the self-service trials should work with their IT admin to ensure continuity of service for Viva Goals after the trial has expired.  
+Individuals who are using the self-service trials can [request a paid license from their IT admin](#request-a-paid-license-from-your-it-admin) to ensure continuity of service for Viva Goals after the trial has expired.
 
-For more adoption and deployment resources, visit our Adoption page at [Viva Goals – Microsoft Adoption. ](https://adoption.microsoft.com/en-us/viva/goals/) 
+For more adoption and deployment resources, visit our adoption page [here](https://adoption.microsoft.com/en-us/viva/goals/).
 
-For Best practices and guidance on running a successful trial, check out our [Trial Checklist](trials-checklist.md). 
+For best practices and guidance on running a successful trial, check out our trial checklist [here](trials-checklist.md).
 
-## After a Trial
+## After a trial
 
-Users can find out their Trial license expiration date from the **Trial** icon.  
+Users can learn their license expiration date by selecting the **Trial** icon.  
 
 :::image type="content" source="../media/goals/vg-trials/vg-trial.png" alt-text="Screenshot of the trials icon at the top of the Viva Goals navigation bar.":::
 
-At the end of the trial period, users who would like to convert to a paid license should work with their IT admin directly to purchase licenses for themselves and/or their business groups. Purchases can be made as part of your Microsoft agreement or visiting the [Microsoft Viva Goals](https://www.microsoft.com/en-us/microsoft-viva/goals) product page. 
+At the end of the trial period, users who want to continue using paid features can [request paid licenses](#request-a-paid-license-from-your-it-admin) for themselves and/or their business groups. Purchases can be made as part of your Microsoft agreement or by visiting the Microsoft Viva Goals [product page](https://www.microsoft.com/en-us/microsoft-viva/goals).
 
-If you don't purchase licenses following the trial: 
+If you don't purchase licenses following the trial:
 
-- Users will no longer be able to access Goals  
-- The Organization Owner, Organization Admin or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
-- Organizations whose Owners are expired trial users will be deactivated after the trials expire and the orgs will be deleted in 30 days.
+- Unlicensed users will no longer be able to access Goals.
+- Organization owners, organization admins, and other regular users can assign the ownership of OKRs, dashboards, and integrations to licensed users.
+- Organizations whose owners are expired trial users will be deactivated once the trials expire, and the orgs will be deleted 30 days later.
 
-Give us feedback about your trial experience! Tell us what you think in the feedback below.
+## Request a paid license from your IT admin
+
+### Before your trial has ended
+
+1. At the top of your Viva Goals left nav, select **Trial**.
+
+1. If there are other users in your organization for whom you would like to request paid licenses, search for and add them using the **Search for users in your organization** box.
+
+1. Select **Request license**.
+
+![Screenshot that shows a dialog related to the user's expiring Viva Goals trial and the option to request a license.](..\media\goals\vg-trials\request-during-trial.png)
+
+### After your trial has ended
+
+1. If your trial has already ended, you will see a **Your trial has expired** dialog.
+
+1. If there are other users in your organization for whom you would like to request paid licenses, search for and add them using the **Search for users in your organization** box.
+
+1. Select **Request license**.
+
+![Screenshot that shows a dialog related to the user's expired Viva Goals trial and the option to request a license.](..\media\goals\vg-trials\request-after-trial.png)

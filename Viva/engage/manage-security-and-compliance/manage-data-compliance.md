@@ -4,13 +4,13 @@ f1.keywords:
 - NOCSH
 ms.author: v-bvrana
 author: Starshine89
-manager: dmillerdyson
+manager: elizapo
 ms.date: 08/08/2023
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
-ms.service: viva
-ms.custom: viva-engage
+ms.service: viva-engage
+ms.collection: essentials-compliance
 search.appverid:
 - MET150
 - MOE150

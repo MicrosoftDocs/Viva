@@ -1,9 +1,9 @@
 ---
 title: Set up Program Summary for Viva Glint Employee Lifecycle programs
 description: Viva Glint Employee Lifecycle programs measure the employee experience during key moments in the employment journey.
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: onboarding, exit surveys
@@ -12,10 +12,9 @@ ms.collection:
  - selfserve
 search-appverid: MET150
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-glint
+ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 02/26/2024
 ---
 
 # Set up Program Summary for Viva Glint Employee Lifecycle programs
@@ -70,19 +69,24 @@ Follow these steps to create an Employee Lifecycle distribution list:
 Select **My Surveys** on the admin dashboard. Choose the Onboarding or Exit survey template and then in the _Program Summary_ section, set up the following pages (note the important boxes below which are specific to Employee Lifecycle surveys only):
 
 - [Program Setup](https://go.microsoft.com/fwlink/?linkid=2238328)
+  
+ > [!IMPORTANT]
+ > Employee Lifecycle surveys often target only a few individuals. If that's the case, reducing your confidentiality threshold helps protect their privacy.
+
 - [Distribution](https://go.microsoft.com/fwlink/?linkid=2231414)
 - [Questions](https://go.microsoft.com/fwlink/?linkid=2231414)
 - [Reports](https://go.microsoft.com/fwlink/?linkid=2230977)
-     >[!IMPORTANT]
-     > The Overall Results report is recommended for viewing Employee Lifecycle surveys.
-     >
-     > Within the Viva Glint Overall Results report, data can be configured and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements for results to display. [Read about the Overall Results](https://go.microsoft.com/fwlink/?linkid=2231112)report here.
+>[!IMPORTANT]
+> The Overall Results report is recommended for viewing Employee Lifecycle surveys.
+>
+> Within the Viva Glint Overall Results report, data can be configured and customized to surface useful insights. Filters are dependent on the attributes sent to Viva Glint in your Employee Attribute File and must meet confidentiality requirements for results to display. [Read about the Overall Results](https://go.microsoft.com/fwlink/?linkid=2231112)report here.
 
-     >[!IMPORTANT]
-     > Understanding [how to interpret the trend graph](https://go.microsoft.com/fwlink/?linkid=2235307) is essential to gaining the best insight from Employee Lifecycle data.
+>[!IMPORTANT]
+> Understanding [how to interpret the trend graph](https://go.microsoft.com/fwlink/?linkid=2235307) is essential to gaining the best insight from Employee Lifecycle data.
 
-     >[!TIP]
-     > **The default** for Employee Lifecycle reports is a 90-day look-back period.
+>[!TIP]
+> **The default** for Employee Lifecycle reports is a 90-day look-back period.
+
 - [Communication](https://go.microsoft.com/fwlink/?linkid=2231342)
 - [Coaching](https://go.microsoft.com/fwlink/?linkid=2231416)
 

@@ -10,12 +10,12 @@ audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
 - highpri
+- essentials-navigation
 search.appverid:
 - MET150
 ---

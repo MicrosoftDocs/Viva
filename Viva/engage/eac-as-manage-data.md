@@ -5,13 +5,12 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 11/02/2023
+ms.date: 4/04/2024
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-engage
+ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  
 - M365initiative-viva
@@ -68,6 +67,7 @@ The data export contains the following files:
    | **request.txt** | Parameters of the export |
    | **Admins.csv** | Lists current admins, their email addresses, and corresponding roles <br>For more information on the types of admins in Viva Engage, see [Manage admin roles in Viva Engage.](/viva/engage/eac-key-admin-roles-permissions) |
    | **Answers.csv** | Lists the ID, messageId, networkId, threadId, voterID, createdAt timestamp and updatedAt timestamp of Answer Votes |
+   | **Campaigns.csv**| Provides data for campaigns including hashtag, creation date, state and so on. The scope_type attribute distinguishes official (network) campaigns versus community (group) campaigns. The scope_id attribute identifies the network or community that hosted the community campaign. Find more campaign details about the network or community in the networks.csv file or groups.csv file, respectively.|
    | **Networks.csv** | Information about your home network and any external networks, including name, URL, creation date, number of users, and whether it’s moderated or has a usage policy. |
    | **Users.csv** | Lists user data. **Properties include:** ID, name, email, job title, location, department, user ID, deletion status (date, name and ID of the person who performed the deletion), join date, suspension status (date, name, and ID of person who performed the deactivation), and the user state (active or soft_delete). A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value. Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](/rest/api/yammer/rest-api-rate-limits). |
    | **Files folder** | Contains files that are stored in Viva Engage and were created or modified during the specified time period. Files are named with their account ID and are in native format. For example, a PowerPoint presentation might be listed as 127815379.pptx. |
@@ -112,13 +112,13 @@ The data export contains the following files:
 | **Campaigns.csv**| A list of all campaigns on the network. **Properties include:** creation name, URL, hashtag, creation date, creator ID, and state.|
 | **Files.csv** | A list of file attachments that were added or modified within the date range. Files.csv doesn’t contain actual files. **Properties include:** account ID, type of file, name, description, and path to the file, and metadata that includes the group it was posted in. <br> <br>If **Include attachments** was selected, only files stored in Viva Engage are exported in native format to the **Files** folder of the zip file. <br> <br>**Note**: To download files from SharePoint, use the **download_url** column. <br>If SharePoint files have no Microsoft Entra tokens, you must [create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, use [Content search in Microsoft 365](/purview/ediscovery-content-search) to find files in SharePoint for the specified date range. <br>To identify files in the **Files** folder, use **file_ID** and **path** columns. <br> <br>**Important:** When files are stored on Viva Engage and SharePoint, delete them from Viva Engage to remove metadata from both locations.    |
 | **Groups.csv** | All groups created or modified during the specified date range. **Properties include:** account ID, name, description, privacy status, whether the group is internal or external, link to the group, who created the group, creation date, and updated date. |
-| **Messages.csv** | All messages sent or modified during the specified date range. **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, and creation and deletion information. |
+| **Messages.csv** | All messages sent or modified during the specified date range, including those created from files (using Intelligent Importer). **Properties include:** message ID, thread ID, group ID, group name, GDPR deletion URL (**gdpr_delete_url**), privacy status, sender ID, name and email, the full body of the message, attachments, creation and deletion information, and draft state. |
 | **MessageThreadsOutbound.csv** | Includes IDs of external participants in outbound messages. |
 | **MessageVersions.csv** | Includes IDs and modification information for messages that have been edited. |
 | **Networks.csv** | Lists your home network and all external networks included in the export. |
 | **Pages.csv** | Lists IDs, dates, and page owners for any page created or modified during the specified date range. |
 | **Topics.csv** | Lists creation information and a link for any article created during the specified date range. |
-| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see the [REST API](https://go.microsoft.com/fwlink/?linkid=874691). |
+| **Users.csv** | Lists data for all users who joined, or were deleted or suspended during the specified date range. **Properties include:** email address, job-title, location, department, a link to the user, and information about the user’s current state (active or soft_delete). <br>A soft_delete is: **Pending**, if accompanied by no other values; **Suspended** (deactivated), if accompanied by a suspended_at and no deleted_at value; or **Deleted**, if accompanied by a deleted_at value.<br> <br>Identify Guests by an email address that doesn't match the home network domain. <br> <br>The **api_url** provides user metadata. For more information about using the data in this field, see [the REST API](/rest/api/yammer/rest-api-rate-limits). |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
 |**VivaTopicCurationStateLogs.csv** | Applies to only Answers in Viva. <br><br/>Contains the curation state logs for topics that have been featured.<br><br/>cortex_topic_id can be used in conjunction with the content of VivaTopics.csv to retrieve other information relevant to the topic. |
 |**VivaTopics.csv** | Any topic created or updated is displayed for the date range specified (if any).<br><br/>The id refers to the Viva Topic identifier.<br><br/>The api_url is the URL used to obtain the topic metadata.|
@@ -160,7 +160,7 @@ The data export contains the following files:
 | **Files.csv** | Lists all files added or modified by the user from Viva Engage. **Properties include:** account ID, type of file, name, description, and path to the file, along with metadata including the group it was posted in. The storage_path column shows whether the file is stored in Viva Engage or SharePoint. <br> Files that are stored in Viva Engage are exported in their native format to the **Files** folder of the zip file. Files that are stored in SharePoint aren't exported. <br> To identify files in the **Files** folder, use the file_ID and path columns. <br> <br>To download files stored in SharePoint, use the download_url column. If SharePoint files have no Microsoft Entra tokens, [you must create a Microsoft Entra app](https://go.microsoft.com/fwlink/?linkid=2143320). Alternatively, find files stored in SharePoint for a specific date range with a [Content Search in Microsoft 365](/office365/securitycompliance/content-search). <br>Always delete stored files from Viva Engage to erase the file and metadata in both SharePoint and Viva Engage. Deleting a file from SharePoint retains the metadata in Viva Engage. |
 | **Groups.csv** | Lists all groups created or modified by the user. **Properties include:**  group ID, name, description, privacy status, whether internal or external, creation date, updated date, and a link to the group. <br>Additional information includes the aggregated total number of polls the user voted on, and the polls the user created. |
 | **LikedMessages.csv** | Lists all messages liked by the user.**Properties include:**  message ID, thread ID, group ID, group name, privacy status, sender ID, name and email, the full body of the message, attachments*, and creation and deletion information. A list of polls you created are also provided. For announcements, includes the title of the announcement. Along with attachments, this Open Graph Object information is exported: ID, URL, title, and description. |
-| **Messages.csv** | Lists all messages sent or modified by the user. **Properties include:** message ID, thread ID, group ID, group name, privacy status, sender ID, name and email, the full body of the message, attachments*, creation and deletion information. Also provides a list of polls the user created and titles of any posted announcements. <br>\*Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
+| **Messages.csv** | Lists all messages sent or modified by the user, including those generated from files (using Intelligent Importer). **Properties include:** message ID, thread ID, group ID, group name, privacy status, sender ID, name and email, the full body of the message, attachments, creation and deletion information, and draft state. Also provides a list of polls the user created and titles of any posted announcements. <br>Along with attachments, this Open Graph Object (OGO) information is exported: ID, URL, title, and description. |
 | **BestReplyMessages.csv** | Lists all messages marked as best reply by the user. **Properties include:** message ID, thread ID, group ID, group name, privacy status, sender ID, name and email address, the full body of the message, IDs for attachments, creation and deletion information. |
 | **Topics.csv** | Lists all topics created by the user during the specified date range, including creation information and a link to the topic. |
 |**VivaTopicApplications.csv** | For any topic applied to a post, lists information about each application for the date range specified (if any). |
@@ -191,16 +191,16 @@ If the log.txt file shows export errors for one category of data, try again. If 
 
 ## Automate your data exports
 
-To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/yammer-files-export-api)<br>
+To set up automatic recurring exports, use the API. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)<br>
 
 ## Export large file volumes with the API
 
-Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/network-data-exportd)
+Verified administrators can use the Data Export API to archive and export files in Viva Engage storage asynchronously. This API is intended for exporting large volumes of files from Viva Engage. For more information, see [Data Export API.](/rest/api/yammer/rest-api-rate-limits)
 
 ### See also
 
 [Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
 
-[Key admin roles and permissions in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
+[Manage administrator roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
 [Set up the Viva Engage admin center](/Viva/engage/eac-get-started)

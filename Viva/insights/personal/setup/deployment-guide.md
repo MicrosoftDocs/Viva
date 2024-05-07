@@ -7,8 +7,7 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
@@ -120,7 +119,7 @@ Learn how to implement this rollout scenario in [Configure personal insights def
 
 In this scenario, some users are opted in and some users are opted out of all Viva Insights surfaces. Those who are opted-in receive the digest emails, can open Viva Insights in Teams and the web, and see the Viva Insights add-in in Outlook. Those who start out as opted out see the default “off” page shown here, where they can use Settings to opt in to any of the Viva Insights surfaces.
 
-Learn how to implement this rollout scenario in [Configure personal insights defaults](../../advanced/setup-maint/configure-personal-insights.md#set-privacymode-and-enable-or-disable-features-1).
+Learn how to implement this rollout scenario in [Configure personal insights defaults](../../advanced/setup-maint/configure-personal-insights.md#enable-or-disable-features-1).
 
 ## Run a pilot rollout
 

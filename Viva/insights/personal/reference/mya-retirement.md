@@ -7,8 +7,7 @@ author: zachminers
 ms.author: v-zachminers
 ms.topic: conceptual
 ms.localizationpriority: medium 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal
@@ -30,7 +29,7 @@ The MyAnalytics dashboard, in its current form, won’t be accessible after mid-
 
 ### Redirection
 
-Right now, you access the MyAnalytics web dashboard through https://myanalytics.microsoft.com/, https://myanalytics-gcc.microsoft.com/, or through links in the Viva Digest email and Outlook add-in (like if you wanted to dive deeper into your work pattern insights). After this change, we’ll automatically redirect you to https://insights.viva.office.com/ or https://gcc.insights.viva.office.com/. You’ll also be able to find the Viva Insights web app in the Microsoft 365 app launcher on office.com.
+Right now, you access the MyAnalytics web dashboard through https://myanalytics.microsoft.com/, https://myanalytics-gcc.microsoft.com/, or through links in the Viva Digest email and Outlook add-in (like if you wanted to dive deeper into your work pattern insights). After this change, we’ll automatically redirect you to https://insights.cloud.microsoft/ or https://gcc.insights.viva.office.com/. You’ll also be able to find the Viva Insights web app in the Microsoft 365 app launcher on office.com.
 
 ### Feature availability
 

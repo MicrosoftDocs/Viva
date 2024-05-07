@@ -1,15 +1,16 @@
 ---
 
-ms.date: 12/14/2023
+ms.date: 03/19/2024
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
-ms.collection: m365initiative-viva-insights 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.collection: 
+- m365initiative-viva-insights
+- essentials-manage
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -23,6 +24,9 @@ Environment requirements vary depending on the type of insights you view in Micr
 ## Personal insights
 
 Microsoft Viva Insights provides personal insights in the [Viva Insights app in Teams and on the web](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f), [Briefing emails](../../personal/Briefing/be-overview.md), [Viva digest emails](https://support.microsoft.com/topic/digest-email-0e8b9a77-d1ce-4139-82bc-e91a3cb909c3), [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d), and [inline suggestions](https://support.microsoft.com/topic/inline-suggestions-in-outlook-064a323e-6dc7-40e9-ab1b-199de8d39db5).
+
+>[!Important]
+>Beginning at the end of March 2024, we’ll be pausing the Digest email, which is typically sent twice a month. All the content from Digest emails will still be available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause)
 
   >[!Important]
   >We've paused sending Briefing emails to make some improvements. You can still access the [Viva Insights Outlook add-in](https://support.microsoft.com/topic/about-the-viva-insights-outlook-add-in-48b73ccf-4086-4f13-9f62-dcee91a9df6d) or [Viva Insights app in Teams](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) for key functionality until this service resumes. For more information about this change, refer to [Briefing pause](../../personal/reference/briefing-pause.md).
@@ -180,6 +184,8 @@ Apple Safari and Mozilla Firefox are not preferred browsers for the advanced ins
 Microsoft provides oversight, framework, and tooling to ensure that products like Viva Insights can maintain functionality and recover from a service outage. All Microsoft 365 applications are required to have a Business Continuity and Disaster Recovery (BCDR) plan. 
 
 If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
+
+Service availability is consistent across environments where Viva Insights plans are generally available. See details at [Microsoft Viva Service Descriptions.](https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description)
 
 ## Related topics
 

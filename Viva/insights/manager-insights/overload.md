@@ -7,10 +7,9 @@ author: madehmer
 ms.author: helayne
 ms.topic: article
 ms.localizationpriority: medium 
-ms.service: viva
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
-ms.subservice: viva-insights
 ---
 
 # Best practices for avoiding email overload
@@ -23,12 +22,8 @@ Employees need time to disconnect from work. Studies show that we all need menta
 
 ## Why it matters
 
-Based on research presented in [How to spend way less time on email every day](https://insights.office.com/time-management/how-to-spend-way-less-time-on-email-every-day/):
-
 * "The average professional spends 28 percent of the work day reading and answering email, according to a McKinsey analysis. That amounts to a staggering 2.6 hours spent and 120 messages received per day."
 * "On average, professionals check their email 15 times per day, or every 37 minutes. But only 11 percent of customers/clients and 8 percent of coworkers expect a response in less than an hour. The solution is simple: turn off notifications and schedule time (about five to eight minutes) every hour to check email."
-
-Based on research presented in [Protecting company culture means having rules for email](https://insights.office.com/productivity/protecting-company-culture-from-after-hours-work/):
 
 * “Dealing with after-hours emails produces anxiety that is damaging not only to the worker, but to their family."
 * "It’s not just the amount of time taken up by reading and answering emails after work that’s stressing out employees (and their partners)."
