@@ -47,7 +47,7 @@ The Manager Report has a unique filter option, which isn't present in other repo
   
 :::image type="content" source="../../media/glint/reports/manager-report-select-filter.png" alt-text="Screenshot of the Select Filter Type button.":::
 
-4. After selecting **Managers** or **Respondents**, a new dropdown menu displays all attributes sent to Glint in your HRIS data file. Choose the attribute you want to study. As appropriate, more dropdown menus become availablle to drill down the desired attribute even further.
+4. After selecting **Managers** or **Respondents**, a new dropdown menu displays all attributes sent to Glint in your HRIS data file. Choose the attribute you want to study. As appropriate, more dropdown menus become available to drill down the desired attribute even further.
 
 5. Use the **Close Filter X** to remove the top section from your screen.
 
