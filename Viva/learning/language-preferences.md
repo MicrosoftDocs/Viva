@@ -89,11 +89,12 @@ When **Show Learning content in default and user-selected languages** is switche
 
 Spaces and pages not mentioned aren't impacted by this setting.
 
-Updates to this setting may take up to an hour to reflect to all users of Viva Learning after confirmation.  
+Updates to this setting may take up to an hour to reflect to all users of Viva Learning after confirmation. 
+
 > [!NOTE]
 > If the **Show Learning Content in Default and User-selected Languages** is switched off, users may experience Viva Learning with no learning content. SharePoint objects and learning paths created by admins may also not be visible to the user as the user-chosen language may be different from the language of creation.
 
-## Available Languages 
+## Available languages 
 
 Admins can set all the supported languages that the organization supports in Viva Learning. Available language has two options to choose from:
 
@@ -120,18 +121,18 @@ Select the languages that satisfy either one or all the below criteria:
 
 > [!NOTE]
 > 
->- Available languages will be used in Skills feature in the upcoming releases. 
+> Available languages will be used in Skills feature in the upcoming releases. 
 
-## User Language
+## User language
 
 All Viva learning Users can select their Viva Learning Language independent of the Teams/Browser's language. Users can access their language setting: Viva Learning App -> Three dots in top right of Header -> Settings -> Language -> Choose a Language -> click on "Save & Refresh". Languages selected in **Available Languages** setting will be shown in the options of User Language Settings.
 
 User language setting persists across different surfaces - Teams and Browser - for the user. At any point in time, if a tenant removes support for a language, and a user tries to access Viva Learning in that language then Viva Learning opens in Viva Learning default language and the user is notified about it.
 
-### Day 0 Experience
+### Day 0 experience
 
 When user accesses Viva Learning for the first time, user Language is pre-selected by default as per the language of their Teams/Browser. If the Teams/Browser languages is not supported by the tenant, then Viva Learning opens in Viva Learning default language and the user is notified about it.
 
 > [!NOTE]
 > 
->- Viva Learning Mobile App opens in the Language of the mobile device. User Language support in mobile will be done in the upcoming releases.
+> Viva Learning Mobile App opens in the Language of the mobile device. User Language support in mobile will be done in the upcoming releases.
