@@ -30,15 +30,13 @@ The Microsoft Viva Glint Manager Report displays a *Directs* or *Roll-up Hierarc
 |Directs|Displays data for all *managers* within a specific managerial roll-up hierarchy. It only displays data for employees that report directly to that manager.|  
 |Roll-up|Displays data for all *employees* within a manager's hierarchy. This data includes any employees that fall below a manager in the org chart, even if they don't report directly to that manager. In other words, more levels of the organizational chart. |
 
-:::image type="content" source="../../media/glint/reports/manager-report-hierarchy-example.png" alt-  text="Screenshot of the Manager Report hierarchy example.":::
-
 ## Use the Manager Report filter 
 
 The Manager Report has a unique filter option, which isn't present in other reports. 
 
 1. From the *Manager Report* page, select **Add a filter.**
 
-  :::image type="content" source="../../media/glint/reports/manager-report-add-a-filter.png" alt-  text="Screenshot of the Manager Report *Add a filter* button.":::
+  :::image type="content" source="../../media/glint/reports/manager-report-add-a-filter-button.png" alt-  text="Screenshot of the Manager Report *Add a filter* button.":::
 
 2. In the *Filter By* box, select **+ Add Filters** to open the *Select Filter Type* dropdown menu.
 3. From the dropdown box, select either **Managers** or **Respondents**. 
