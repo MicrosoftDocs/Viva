@@ -51,7 +51,7 @@ If this isn’t the first time you’re importing data from Workday, jump to [Fo
     1. Enter the Workday tenant name, username, and password.
     1. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
 1. Select the box under **Authorization status** to allow Workday to start sending data to Viva Insights.
-1. Read the acknowledgement note and select **Accept**.
+1. Read the acknowledgment note and select **Accept**.
 
 ## For subsequent imports
 
@@ -78,7 +78,7 @@ If you chose **Edit authorization or update refresh schedule**, you’ll arrive 
 1.	Enter your workday credentials: tenant name, username, and password.
 2.	If you want to turn on or off Workday’s ability to send data to Viva Insights, select or deselect the checkbox.
 3.	If you want to update how often Workday data goes to Viva Insights, use the dropdown menu beneath **Update refresh schedule**.
-4.	Read the acknowledgement note and select **Accept**.
+4.	Read the acknowledgment note and select **Accept**.
 
 ### Replace data
 
