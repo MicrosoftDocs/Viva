@@ -101,7 +101,7 @@ There are different ways to handle missing values: delete the rows or columns th
 
 ```python
 # Check for missing data
-NAs = pd.concat([train.isnull().sum()], axis=1, keys 'Train’])
+NAs = pd.concat([train.isnull().sum()], axis=1, keys 'Train'])
 
 # Filter data frame to include only columns with at least one missing value
 cols_with_missing = NAs[NAs.sum(axis=1) > 0].index
@@ -368,8 +368,8 @@ roc_auc = auc(false_positive_rate, true_positive_rate)
 test_results.append(roc_auc)from matplotlib.legend_handler 
 
 import HandlerLine2D
-line1, = plt.plot(n_estimators, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(n_estimators, test_results, ‘r’, label=”Test AUC”)
+line1, = plt.plot(n_estimators, train_results, 'b', label="Train AUC")
+line2, = plt.plot(n_estimators, test_results, 'r', label="Test AUC")
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
 plt.ylabel(‘AUC score’)
 
@@ -465,8 +465,8 @@ for max_depth in max_depths:
     test_results.append(roc_auc)
  
     from matplotlib.legend_handler import HandlerLine2D
-    line1, = plt.plot(max_depths, train_results, ‘b’, label=”Train AUC”)
-    line2, = plt.plot(max_depths, test_results, ‘r’, label=”Test AUC”)
+    line1, = plt.plot(max_depths, train_results, 'b', label="Train AUC")
+    line2, = plt.plot(max_depths, test_results, 'r', label="Test AUC")
     plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
     plt.ylabel(‘AUC score’)
 
@@ -506,12 +506,12 @@ for min_samples_split in min_samples_splits:
 
 from matplotlib.legend_handler import HandlerLine2D
 
-line1, = plt.plot(min_samples_splits, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(min_samples_splits, test_results, ‘r’, label=”Test AUC”)
+line1, = plt.plot(min_samples_splits, train_results, 'b', label="Train AUC")
+line2, = plt.plot(min_samples_splits, test_results, 'r', label="Test AUC")
 
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
-plt.xlabel(‘min samples split’)
+plt.ylabel('AUC score')
+plt.xlabel('min samples split')
 plt.show()
 ```
 
@@ -539,11 +539,11 @@ for min_samples_leaf in min_samples_leafs:
    test_results.append(roc_auc)
 
 from matplotlib.legend_handler import HandlerLine2D
-line1, = plt.plot(min_samples_leafs, train_results, ‘b’, label=”Train AUC”)
-line2, = plt.plot(min_samples_leafs, test_results, ‘r’, label=”Test AUC”)
+line1, = plt.plot(min_samples_leafs, train_results, 'b', label="Train AUC")
+line2, = plt.plot(min_samples_leafs, test_results, 'r', label="Test AUC")
 plt.legend(handler_map={line1: HandlerLine2D(numpoints=2)})
-plt.ylabel(‘AUC score’)
-plt.xlabel(‘min samples leaf’)
+plt.ylabel('AUC score')
+plt.xlabel('min samples leaf')
 plt.show()
 ```
 
