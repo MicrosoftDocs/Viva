@@ -42,7 +42,7 @@ This article covers the following information:
 
 - [Data residency](#data-residency)
 
-- [Using Microsoft Purview](#microsoft-purview)
+- [Microsoft Purview](#microsoft-purview)
 
 
 ## Shared responsibility model
@@ -86,7 +86,7 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 
 ## General Data Protection Regulation (GDPR)
 All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
-For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy)
+For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy).
 
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
@@ -96,9 +96,9 @@ For information about data residency for Viva apps, see [Microsoft Viva Privacy]
 ## Microsoft Purview 
 [Microsoft Purview](/purview/purview) is a family of data governance, risk, and compliance solutions that can help your organization govern, protect, and manage your entire data estate.
 
-Currently, certain features in Viva Engage (through Yammer) and Viva Connections (through SharePoint) are supported by Microsoft Purview.
+Currently, certain features in Viva Engage and Viva Connections (through SharePoint) are supported by Microsoft Purview.
 
-Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
+The Viva Engage features [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) are supported by Microsoft Purview; sensitivity labels and data loss prevention aren't supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
 
 Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
