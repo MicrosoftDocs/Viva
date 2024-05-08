@@ -1,5 +1,5 @@
 ---
-ms.date: 03/29/2024
+ms.date: 05/08/2024
 title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
@@ -251,6 +251,21 @@ To learn more about how to utilize these types of insights and improve the way y
 * <a name="prior-period-define"></a>**Prior period** – The prior period is the period immediately before the most recent period – usually the week before the most recent completed week. 
 * <a name="reporting-hierarchy-define"></a>**Reporting hierarchy** – Your Insights administrator manages the reporting hierarchy. This hierarchy identifies reporting relationships throughout the company: people who are managers, and the people who report to them. The reporting hierarchy might be sourced from Microsoft Entra ID or from a manual upload from your company’s HR information system. Viva Insights uses this information to identify people in your organization, your peer organization, and any organizations that might report up to you.
 * <a name="your-organization-define"></a>**Your organization** – If the insight scope selector says **Your organization**, this group includes everyone who reports to you directly or indirectly. This group is based on your organization’s reporting hierarchy, your Insights administrator manages. If the insights scope selector says **[Your company name]**, this group includes everyone who has been set up as part of the premium insights group by your Insights administrator.
+
+
+### Control access to Insights features
+
+*Applies to: Global administrators*
+
+To control access to certain Insights features, like the [Meeting Cost and Quality](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) features, Microsoft Global administrators can use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups. 
+
+Policy settings apply any time a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies -- targeting the tenant, groups, and individual users -- a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
+
+| Insights feature | State | Description |
+|----|----|----|
+|Meeting cost and quality | Enabled | When this feature is enabled, leaders can see the Meeting Cost and Quality report in the Insights app, and individual users can see the [meeting review card](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) and Outlook nudges with insights about the cost and quality of their large and long meetings. |
+|   | Disabled | These features are not available to the Insights user. |
+
 
 ## Metric definitions
 
