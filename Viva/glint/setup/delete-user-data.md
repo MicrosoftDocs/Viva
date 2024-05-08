@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 05/08/2024
 ---
 
 # Delete user data from Viva Glint
@@ -29,9 +29,6 @@ processed right away.
 > User data deletion in Viva Glint is an irreversible process.
 
 ## User data can be deleted from the People section on the admin dashboard
-
-> [!IMPORTANT]
-> In addition Viva Glint admins' ability to delete a user in the app, an M365 global admin deleting a user from Microsoft Entra ID has the same outcome: a user and their information are removed from Viva Glint. This removal includes Entra automated data deletion that may be set up by your M365 global admin. Check with your M365 global admin to see if automated data deletion is in place in Entra for your organization.  
 
 1. Select **People** from the Employees section.
 2. Use the search box to select the employee whose data should be deleted. Open that employee’s page.
