@@ -14,7 +14,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to control access to SharePoint content in Viva Learning by using Microsoft 365 Groups.
 ---
 

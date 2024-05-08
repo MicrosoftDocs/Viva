@@ -1,5 +1,5 @@
 ---
-ms.date: 01/08/2024
+ms.date: 05/07/2024
 title: Customize Viva Insights privacy settings
 description: Learn how to customize  Viva Insights privacy settings in the advanced insights app
 author: zachminers
@@ -44,7 +44,7 @@ To reclassify domains, go to the **Reclassify external domains** section. From t
 
 ## Minimum group size
 
-Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” Viva Insights shows insights about groups in the app in Teams and on the web, in organization insights throughout the app. You'll need to set this number to at least 10.
+Set the minimum group size, which is the minimum aggregation threshold for insights. In other words, this is the smallest number of people that Viva Insights considers a “group.” The minimum group size applies to data visualizations in advanced insights Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams. You'll need to set this number to at least five.
 
 To learn how team and group size differ, refer to [What’s the difference between minimum team size and minimum group size?](manager-settings.md#whats-the-difference-between-minimum-team-size-and-minimum-group-size).
 
