@@ -1,6 +1,10 @@
 {
     "redirections": [
         { 
+            "source_path": "Viva/discover-more-about-each-viva-module.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },        { 
             "source_path": "Viva/learn-how-to-combine-modules.md",
             "redirect_url": "/viva/microsoft-viva-overview",
             "redirect_document_id": false
