@@ -257,13 +257,13 @@ To learn more about how to utilize these types of insights and improve the way y
 
 *Applies to: Global administrators*
 
-To control access to certain Insights features, like the Meeting Cost and Quality features, Microsoft Global administrators can use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups. 
+To control access to certain Insights features, like the [Meeting Cost and Quality](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) features, Microsoft Global administrators can use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups. 
 
 Policy settings apply any time a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies -- targeting the tenant, groups, and individual users -- a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
 | Insights feature | State | Description |
 |----|----|----|
-|Meeting cost and quality | Enabled | When this feature is enabled, leaders can see the Meeting Cost and Quality report in the Insights app, and individual users can see the meeting review card and Outlook nudges with insights about the cost and quality of their large and long meetings. |
+|Meeting cost and quality | Enabled | When this feature is enabled, leaders can see the Meeting Cost and Quality report in the Insights app, and individual users can see the [meeting review card](https://support.microsoft.com/topic/meeting-review-card-d484f75f-ff64-4be5-86a8-597a4eebead7) and Outlook nudges with insights about the cost and quality of their large and long meetings. |
 |   | Disabled | These features are not available to the Insights user. |
 
 
