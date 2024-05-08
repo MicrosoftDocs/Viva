@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how you can enrich content metadata with interests to provide better content recommendations and search relevance for learners.
 ---
 
