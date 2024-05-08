@@ -30,7 +30,7 @@ Microsoft Viva is also covered under the [Microsoft Product Terms](https://www.m
 
 For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 
-In this article you can learn about:
+This article covers the following information:
 
 - [Shared responsibility model](#shared-responsibility-model)
 
