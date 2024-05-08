@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: high
+ms.localizationpriority: high
 description: See what LinkedIn Learning courses are available on Viva Learning without a premium LinkedIn subscription.
 ---
 
