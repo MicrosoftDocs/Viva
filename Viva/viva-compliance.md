@@ -4,7 +4,7 @@ ms.reviewer: loreenl
 ms.author: loreenl
 author: loreenla
 manager: elizapo
-ms.date: 4/20/2023
+ms.date: 5/08/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -30,7 +30,7 @@ Microsoft Viva is also covered under the [Microsoft Product Terms](https://www.m
 
 For more information, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 
-In this article you can learn about:
+This article covers the following information:
 
 - [Shared responsibility model](#shared-responsibility-model)
 
@@ -42,7 +42,7 @@ In this article you can learn about:
 
 - [Data residency](#data-residency)
 
-- [Using Microsoft Purview](#microsoft-purview)
+- [Microsoft Purview](#microsoft-purview)
 
 
 ## Shared responsibility model
@@ -81,12 +81,12 @@ A [SOC 2 report](/compliance/regulatory/offering-soc-2) is an independent assess
 | Viva Learning | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
 | Viva Engage | Covered by [Office 365 – Viva Engage – SOC 2 Type 2 (2022)](https://servicetrust.microsoft.com/DocumentPage/d38c3a33-5521-4b6d-9891-924ab1cdf6e6)
 | Viva Goals | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
-| Viva Insights Personal | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
-| Viva Insights Organizational | Covered by [Microsoft 365 Microservices T1 - SSAE 18 SOC 2 Type 1 Report (2022)](https://servicetrust.microsoft.com/DocumentPage/24a81cd0-395b-4419-b76d-fc4c6e625a6d)
+| Viva Insights | Covered by [Microsoft 365 - Microservices Type 2 - SOC 2 Report (9-30-2023)](https://servicetrust.microsoft.com/DocumentPage/0cdc6dab-db54-415b-be93-1100daefac23)
+
 
 ## General Data Protection Regulation (GDPR)
 All Viva apps built on your Microsoft 365 infrastructure support compliance with EU General Data Protection Regulation (GDPR) requirements.
-For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy)
+For detailed information, see [Microsoft Viva Privacy](/Viva/viva-privacy).
 
 ## Data residency
 Data residency refers to the geographic location where data is stored at rest. Many customers, particularly in the public sector and regulated industries, have distinct requirements around protecting personal or sensitive information.  In addition, in certain countries, customers are expected to comply with laws and regulations that explicitly govern data storage location.
@@ -96,9 +96,9 @@ For information about data residency for Viva apps, see [Microsoft Viva Privacy]
 ## Microsoft Purview 
 [Microsoft Purview](/purview/purview) is a family of data governance, risk, and compliance solutions that can help your organization govern, protect, and manage your entire data estate.
 
-Currently, certain features in Viva Engage (through Yammer) and Viva Connections (through SharePoint) are supported by Microsoft Purview.
+Currently, certain features in Viva Engage and Viva Connections (through SharePoint) are supported by Microsoft Purview.
 
-Viva Engage is supported by Microsoft Purview features through Yammer, including [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview). Sensitivity Labels and Data Loss Prevention are not supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
+The Viva Engage features [eDiscovery](/viva/engage/manage-security-and-compliance/overview-of-ediscovery) and [Data Retention](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) are supported by Microsoft Purview; sensitivity labels and data loss prevention aren't supported. Native Mode is required to take advantage of eDiscovery and the Microsoft Purview compliance portal. This functionality is unavailable for networks in non-Native mode. For more information, see [Overview of Native Mode](engage/native-mode-guide.md).
 
 Viva Connections inherits eDiscovery and [Data Retention](/microsoft-365/compliance/retention-policies-sharepoint) support from [SharePoint Online](/SharePoint/compliant-environment) for files involved in each service.
 
