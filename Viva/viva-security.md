@@ -97,4 +97,4 @@ For more information about Viva Learning, see [Microsoft Viva Learning](/viva/le
 ### Viva Pulse
 Viva Pulse enables team leads to send brief surveys using research-backed templates to get a snapshot of team sentiment and act on feedback. Additionally, Viva Pulse reporting enables analysis of results and trends so leads can pinpoint what's working well and which areas to focus on over time.
 
-Security for Viva Pulse is largely inherited from Teams. Viva Pulse also supports [feature access control](feature-access-control.md) to grant or restrict access to specific features for users and groups. For more information about access control at the feature level in Viva Pulse, see [Granular access controls for Viva Pulse](/pulse/setup-admin-access/granular-access-controls.md).
+Security for Viva Pulse is largely inherited from Teams. Viva Pulse also supports using [access control policies](feature-access-management.md) to grant or restrict access to specific features for users and groups. For more information about access control at the feature level in Viva Pulse, see [Granular access controls for Viva Pulse](Viva/pulse/setup-admin-access/granular-access-controls).
