@@ -20,7 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Integrate Viva Glint into Viva Insights (preview)
 
-HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint- along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience
+HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint- along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
 >[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
 
@@ -60,13 +60,13 @@ This guidance is for the initial data send to Insights only.
 
 2.	Select **Send data to Viva Insights.**
 
-3.	You’ll see this confirmation:
+3.	You see this confirmation:
 
 :::image type="content" source="../../media/glint/setup/glintsights-confirm.png"alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
 
 4. Select **Close.**
 
-### Send additional survey programs to Viva Insights
+### Send other survey programs to Viva Insights
 
 1.	In the **Send Data to Viva Insights** section, the button changes to read **Manage Integration**. Use that button to send more programs to Viva Insights.
 
@@ -77,7 +77,7 @@ This guidance is for the initial data send to Insights only.
 
 :::image type="content" source="../../media/glint/setup/glintsights-add-program.png"alt-text="Screenshot of how to add programs.":::
 
-4.	A message will confirm that your program or programs have been added. 
+4.	A message confirms that your program or programs have been added. 
 
 5.	Be sure that the name of the program you added now appears under Programs on the Send data to Viva Insights page.
    
@@ -87,7 +87,7 @@ This guidance is for the initial data send to Insights only.
 ### Data validation and processing
 
 After sending data from Viva Glint, the Insights app validates it and provides status messages about the import. 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/microsoft-365/admin/get-help-support?view=o365-worldwide)
+If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/microsoft-365/admin/get-help-support?view=o365-worldwide).
 
 ## Remove a program after initial setup
 
