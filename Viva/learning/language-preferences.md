@@ -125,6 +125,10 @@ Select the languages that satisfy either one or all the below criteria:
 
 ## User language
 
+> [!NOTE]
+> 
+> User language is currently in private preview. Please check with your Microsoft representative to participate in private preview. 
+
 All Viva learning Users can select their Viva Learning Language independent of the Teams/Browser's language. Users can access their language setting: Viva Learning App -> Three dots in top right of Header -> Settings -> Language -> Choose a Language -> click on "Save & Refresh". Languages selected in **Available Languages** setting will be shown in the options of User Language Settings.
 
 User language setting persists across different surfaces - Teams and Browser - for the user. At any point in time, if a tenant removes support for a language, and a user tries to access Viva Learning in that language then Viva Learning opens in Viva Learning default language and the user is notified about it.
