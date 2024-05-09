@@ -485,6 +485,8 @@ This report should be created from the primary Workday admin account to avoid an
 
 1. Add report fields.
     1. Once you select **OK**, the “Data Source” automatically sets the value as “Learning Enrollments.” Leave the “Data Source filter” field blank.
+    
+    1. Add the fields in “Columns” as per below schema. You see two objects for “learning Assignment”, select the one with a blue icon next to it.
 
     | Business Object | Field | Column Heading Override | Column Heading Override XML Alias |
     | - | - | - | - |
@@ -497,7 +499,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
 
-    1. Add the fields in “Columns” as per below schema. You see two objects for “learning Assignment”, select the one with a blue icon next to it.
+    
 
     2. Under “Group Column Headings”, add these fields: 
 
