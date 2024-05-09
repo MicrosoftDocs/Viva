@@ -361,7 +361,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     4. Go to **Advanced** and select the field `Optimized for Performance.` 
 
-    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the Share section in report, select the option “share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field..
+    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the Share section in report, select the option “share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field.
 
     5. Save the report. Select **OK**. 
 
