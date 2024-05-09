@@ -87,7 +87,7 @@ This guidance is for the initial data send to Insights only.
 ### Data validation and processing
 
 After sending data from Viva Glint, the Insights app validates it and provides status messages about the import. 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/microsoft-365/admin/get-help-support?view=o365-worldwide).
+If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/microsoft-365/admin/get-help-support).
 
 ## Remove a program after initial setup
 
