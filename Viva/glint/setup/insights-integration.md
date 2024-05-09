@@ -81,7 +81,7 @@ This guidance is for the initial data send to Insights only.
 
 5.	Be sure that the name of the program you added now appears under Programs on the Send data to Viva Insights page.
    
-> [IMPORTANT]
+> [!IMPORTANT]
 > Selecting a program sends data for every closed program cycle and automatically sends data for future cycles. In Viva Insights, you’ll be able to map which program data to display on the Viva Insights dashboard.
 
 ### Data validation and processing
