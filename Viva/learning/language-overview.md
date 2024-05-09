@@ -50,7 +50,8 @@ When using Viva Learning in Microsoft Teams or in the Browser. Viva Learning dis
 Open Viva Learning app > Select the three dots on the top right in header. Then go to **Settings** > **Language** > **Select a Language > Save & Refresh**. 
 
 > [!NOTE]
-> Languages shown in Language setting in Viva Learning are as per the [Available language setting](/viva/learning/language-preferences/#available-languages). To add/modify the language options, kindly use the Available language setting.
+> User language is currently in private preview. Languages shown in Language setting in Viva Learning are as per the [Available language setting](/viva/learning/language-preferences/#available-languages). To add/modify the language options, kindly use the Available language setting. 
+> If you are not in participating in the User language private preview, display language will be as per Microsoft Teams or Browser language.
 ## Content language
 
 Content language refers to the language of the learning content in Viva Learning.
