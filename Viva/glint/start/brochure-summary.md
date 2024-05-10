@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: customer cohorts, learning circles, Glint discussions, product council, Viva Glint support resources
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2024
+ms.date: 05/10/2024
 ---
 
 # Microsoft Viva Glint resources at a click
@@ -61,7 +61,15 @@ The Microsoft Learn training site hosts online learning paths and modules to gai
 
 - [**Join a Learning Circle**](https://techcommunity.microsoft.com/t5/viva-glint-blog/introducing-viva-glint-learning-circles/ba-p/3988040) Participate in collaborative time to share knowledge, experiences, and challenges with your peers and to grow your understanding and use of Viva Glint products and services. There are open registration windows throughout the year for sign-up. Look for notifications on the Viva Glint Community and in our newsletters. 
 
-- [**Customer cohorts**](https://techcommunity.microsoft.com/t5/viva-glint-blog/customer-cohorts-are-here/ba-p/4124682)) facilitate connections between customers grouped by shared background, shared purpose, and shared interest. Three cohorts are available now: healthcare, retail, and manufacturing. 
+- [**Customer cohorts**](https://techcommunity.microsoft.com/t5/viva-glint-blog/customer-cohorts-are-here/ba-p/4124682) foster a collaborative learning environment where you can share knowledge, experiences, and challenges with other Glint users. Learn how other like-minded companies are developing their listening programs and how they use Glint to solve organizational and industry challenges. Use this online space to collaborate and once a quarter, the Glint cohort team hosts a virtual session dedicated to relevant topics, Q&As, open discussions - you name it! We have three industry cohorts available to join and plan to expand this list. Choose the link that matches your needs to **join a cohort group:** 
+
+  - [Healthcare Cohort](https://go.microsoft.com/fwlink/?linkid=2269828)
+
+  - [Retail Cohort](https://go.microsoft.com/fwlink/?linkid=2269542)
+
+  - [Manufacturing Cohort](https://go.microsoft.com/fwlink/?linkid=2269829) 
+ 
+  We’d like to hear from you if you have suggestions for future cohorts! [Use this feedback form to share your idea.](https://forms.office.com/r/nAUSbLrhAz)
 
 - [**Engage with your peers through discussion posts**](https://techcommunity.microsoft.com/t5/viva-glint/ct-p/Viva-Glint). The Viva Community provides a space to ask questions and share ideas with experts and peers. We all benefit by learning the best practices of others and sharing ideas.
 
