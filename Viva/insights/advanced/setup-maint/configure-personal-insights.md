@@ -138,7 +138,7 @@ To connect to Exchange Online, you install prerequisites and then you install th
 3. <u>Prerequisite #2:</u> Install the Exchange Online PowerShell V2 module:
 
    ```powershell
-   Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.4
+   Install-Module -Name ExchangeOnlineManagement 
    ```
 
    For more information, see [Install-Module](/powershell/module/powershellget/install-module).
@@ -370,7 +370,7 @@ The PowerShell command [Set-MyAnalyticsFeatureConfig](/powershell/module/exchang
 ##### Command syntax - Features
 
 ```powershell
-Set-MyAnalyticsFeatureConfig -Identity \<string\> -Feature <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>`
+Set-MyAnalyticsFeatureConfig -Identity \<string\> -PrivacyMode <opt-in/opt-out> -Feature <dashboard/add-in/digest-email/all> -isEnabled <$true/$false>`
 ```
 
 > [!div class="nextstepaction"]
