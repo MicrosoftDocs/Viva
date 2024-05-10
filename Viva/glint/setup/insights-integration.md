@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/09/2024
+ms.date: 05/10/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -25,6 +25,14 @@ HR analysts and other leaders in your organization can bring Microsoft Viva Glin
 >[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
 
 >[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
+
+## Workflow overview 
+
+1. The Viva Insights admin sets up a new import in the advanced insights app. 
+
+1. The Viva Glint admin selects specific survey programs and sends the data to Viva Insights. 
+
+1. The Viva Insights admin validates and processes the data. 
 
 ## What data can be sent to Viva Insights?
 Data that can be sent:
@@ -44,7 +52,7 @@ After the Viva Insights admin sets up the import and contacts you that the proce
 
 1.	From your Glint admin dashboard, select the **Configure symbol** and then **Viva Insights** from the *Microsoft Viva Integrations* section.
 
-:::image type="content" source="../../media/glint/setup/microsoft-viva-integrations-dashboard.png"alt-text="Screenshot of accessing the Viva Insights configuration feature from the admin dashboard.":::
+:::image type="content" source="../../media/glint/setup/glintsights-integration-new.png"alt-text="Screenshot of accessing the Viva Insights configuration feature from the admin dashboard.":::
 
 2.	If you’d like, use the **Learn More** button for more information about the integration.
 
