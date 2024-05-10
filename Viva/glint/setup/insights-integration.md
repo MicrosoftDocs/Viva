@@ -44,11 +44,11 @@ After the Viva Insights admin sets up the import and contacts you that the proce
 
 1.	From your Glint admin dashboard, select the **Configure symbol** and then **Viva Insights** from the *Microsoft Viva Integrations* section.
 
-:::image type="content" source="../../media/glint/setup/microsoft-viva-integrations-dashboard.png"alt-text="Screenshot of accessing the Viva Insights configuration feature from the admin dashboard.":::
+:::image type="content" source="../../media/glint/setup/microsoft-viva-integrations-dashboard.png" alt-text="Screenshot of accessing the Viva Insights configuration feature from the admin dashboard.":::
 
 2.	If you’d like, use the **Learn More** button for more information about the integration.
 
-:::image type="content" source="../../media/glint/setup/glintsights-setup-v2.png"alt-text="Screenshot of the Learn More and Set up integration buttons.":::
+:::image type="content" source="../../media/glint/setup/glintsights-setup-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
 
 ## Sending and managing data
 
@@ -56,13 +56,13 @@ This guidance is for the initial data send to Insights only.
 
 1. On the *Send Data to Viva Insights* page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
 
-:::image type="content" source="../../media/glint/setup/glintsights-select-programs-v2.png"alt-text="Screenshot of the Send data to Viva Insights button.":::
+:::image type="content" source="../../media/glint/setup/glintsights-select-programs-v2.png" alt-text="Screenshot of the Send data to Viva Insights button.":::
 
 2.	Select **Send data to Viva Insights.**
 
 3.	You see this confirmation:
 
-:::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png"alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
+:::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png" alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
 
 4. Select **Close.**
 
@@ -70,12 +70,12 @@ This guidance is for the initial data send to Insights only.
 
 1.	In the **Send Data to Viva Insights** section, the button changes to read **Manage Integration**. Use that button to send more programs to Viva Insights.
 
-:::image type="content" source="../../media/glint/setup/glintsights-manage-integration-v2.png"alt-text="Screenshot of how to send more data to Viva Insights.":::
+:::image type="content" source="../../media/glint/setup/glintsights-manage-integration-v2.png" alt-text="Screenshot of how to send more data to Viva Insights.":::
 
 2.	Select **+ Add Programs.**
 3.	In the *Add Program* window, select any available program to add. You can select multiple programs. Select **Add** next to the program.
 
-:::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png"alt-text="Screenshot of how to add programs.":::
+:::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
 
 4.	A message confirms that your program or programs have been added. 
 
@@ -96,4 +96,4 @@ After sending data to Viva Insights, you can continue to manage your integration
 1.	Select **Manage Integration**.
 2. Hover over the ellipses next to the program to reveal the actions available. Select Remove program.
 
-:::image type="content" source="../../media/glint/setup/glintsights-remove-program-v2.png"alt-text="Screenshot of how to remove programs.":::
+:::image type="content" source="../../media/glint/setup/glintsights-remove-program-v2.png" alt-text="Screenshot of how to remove programs.":::
