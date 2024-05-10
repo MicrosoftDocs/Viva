@@ -21,9 +21,6 @@ ms.date: 04/24/2024
 
 Customize Microsoft Viva Glint email content for Team Conversation start messages and reminders in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for emails. To understand how to enable/disable emails, and for more information about Team Conversations setup, see [Admin setup for Viva Glint Team Conversations](team-conversations-administrator-setup.md).
 
-> [!NOTE]
-> Email content customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
-
 ## Custom sending domains and themes/logos (optional)
 
 In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can
@@ -65,9 +62,6 @@ Macros in Viva Glint emails allow your organization to add placeholders that pul
 Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your Team Conversation email translations.
 
 ### Use the program content import
-
-> [!NOTE]
-> This feature is planned to be available after May 4, 2024.
 
 Use this [translation guidance](/viva/glint/setup/language-translations) to import updated translations for emails after modifying English text.
 

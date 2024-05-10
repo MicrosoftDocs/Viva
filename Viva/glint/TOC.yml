@@ -11,6 +11,8 @@ items:
              href: start/viva-glint-learning-paths-and-modules.md
            - name: Badge certifications
              href: start/viva-glint-badging.md
+           - name: Customer cohorts
+             href: start/customer-cohorts.md
       - name: People Science and Viva Glint
         href: start/people-science-viva-glint.md
       - name: Survey program types
@@ -48,15 +50,18 @@ items:
       - name: Glint platform setup
         items:
           - name: Set up your Glint platform
-            href: setup/setup-platform-admin.md
             items:
+              - name: Access Viva Glint
+                href: setup/access-glint.md
+              - name: Set up your Glint platform
+                href: setup/setup-platform-admin.md
               - name: Newsletter registration
                 href: setup/newsletter-register.md
           - name: Start with IT
             items:
-              - name: Allowed list and supported browsers
+              - name: Allowed list
                 href: setup/allowed-list.md
-              - name: Access with Microsoft Entra ID
+              - name: Set up access with Microsoft Entra ID
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
@@ -150,8 +155,6 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-      - name: Delete survey data 
-        href: setup/delete-survey-data.md
   - name: Create survey programs
     href: setup/customize-program.md
     items:
@@ -233,25 +236,29 @@ items:
             items:
              - name: Customize Team Conversation email content
                href: reports/team-conversations-content-cusomization.md          
+      - name: Review surveys before launch
+        items:
+          - name: Review surveys before launch
+            href: setup/survey-qa.md    
           - name: Preview and enable surveys and dashboards
             href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
           - name: Make changes to a live survey
-            href: setup/change-live-survey.md     
+            href: setup/change-live-survey.md
+          - name: Delete survey data 
+            href: setup/delete-survey-data.md
   - name: Use reports and dashboards
     items:
       - name: Survey reports overview
         href: reports/survey-reports-overview.md
         items:
-          - name: Report access levels
-            href: reports/report-access-levels.md
-      - name: Aggregate trend
-        href: reports/aggregate-trending.md
-      - name: Report customization
-        href: reports/report-customization.md
-      - name: Confidentiality and suppression
-        href: reports/confidentiality-suppression-reports.md     
+          - name: Aggregate trend
+            href: reports/aggregate-trending.md
+          - name: Report customization
+            href: reports/report-customization.md
+          - name: Confidentiality and suppression
+            href: reports/confidentiality-suppression-reports.md     
       - name: Admin reports
         items:
          - name: Response Rates & Access report 
@@ -276,6 +283,8 @@ items:
            items:
              - name: Strengths and Opportunities
                href: reports/act-strengths-opportunities.md
+         - name: Overall Results Report
+           href: reports/overall-results.md
          - name: Heat Map Report
            href: reports/heat-map.md
          - name: Focus Area Overview report
@@ -327,7 +336,7 @@ items:
         items:
            - name: Manager Quick Guide - Data confidentiality
              href: setup/quick-guide-confidentiality.md
-           - name: Manager Quick Guide - Act on survey results 
+           - name: Manager Quick Guide - Results & Conversations 
              href: setup/quick-guide-manager-doc-pitfalls.md
       - name: Address access issues
         href: setup/manager-access-issues.md      
@@ -391,3 +400,7 @@ items:
              href: /viva/troubleshoot/glint/historical-import/import-error-missing-required-field?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Error "User is not in client"
              href: /viva/troubleshoot/glint/historical-import/import-error-user-is-not-in-client?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+      - name: Provisioning and licensing
+        items:
+           - name: Tenant provisioning and licensing errors
+             href: /viva/troubleshoot/glint/provisioning-and-licensing/tenant-provisioning-licensing-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json

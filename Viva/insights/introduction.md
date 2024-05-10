@@ -9,8 +9,7 @@ ms.collection:
 - viva-insights-leader
 - highpri
 - essentials-overview
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 author: zachminers

@@ -1,6 +1,46 @@
 {
     "redirections": [
         { 
+            "source_path": "Viva/plan-for-all-viva-modules.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },        
+        { 
+            "source_path": "Viva/discover-more-about-each-viva-module.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },        
+        { 
+            "source_path": "Viva/learn-how-to-combine-modules.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-for-the-hybrid-workplace.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-onboard-change-roles.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-front-line-workers.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-work-life-balance.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
+            "source_path": "Viva/solutions/viva-leadership-communications.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },
+        { 
             "source_path": "Viva/insights/azure-templates/cancel-service.md",
             "redirect_url": "/previous-versions/viva/insights/azure-templates/cancel-service",
             "redirect_document_id": false
@@ -993,6 +1033,15 @@
         {
             "source_path": "viva/glint/start/four-stages-glint-program.md",
             "redirect_url": "/viva/glint/start/program-types-templates",
+            "redirect_document_id": false
+        },
+	    {   "source_path": "viva/glint/reports/report-access-levels.md",
+	        "redirect_url": "/viva/glint/setup/live-versus-phased-access",
+	        "redirect_document_id": false
+	    },
+        {
+            "source_path": "Viva/engage/eac-get-started.md",
+            "redirect_url": "/viva/engage/setup",
             "redirect_document_id": false
         }
     ]

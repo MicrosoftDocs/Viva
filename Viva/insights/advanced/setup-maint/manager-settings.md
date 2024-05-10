@@ -1,5 +1,5 @@
 ---
-ms.date: 04/06/2023
+ms.date: 05/07/2024
 title: Configure manager settings
 description: Set manager settings in the advanced insights app
 author: zachminers
@@ -7,8 +7,7 @@ ms.author: v-zachminers
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.service: viva-insights
 search.appverid: 
 - MET150 
 manager: anirudhbajaj
@@ -37,7 +36,7 @@ In addition to the settings you configure below, managers need to have two thing
 
 ### Team size
 
-Only managers whose team meets or exceeds the **Minimum team size** setting can access [organization insights](../../org-team-insights/org-insights.md) in Viva Insights in Teams and on the web. This number can't be below 10.
+Only managers whose team meets or exceeds the **Minimum team size** setting can access [organization insights](../../org-team-insights/org-insights.md) in Viva Insights in Teams and on the web. This number must be at least five.
 
 The size of the team includes the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. 
 
@@ -55,7 +54,7 @@ You'll notice the following numbers on the **Manager settings** page. These numb
 ## Configure manager settings
 
 
-:::image type="content" source="../images/manager-settings.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings.png":::
+:::image type="content" source="../images/manager-settings-5-minimum.png" alt-text="Screenshot of Manager settings page." lightbox="../images/manager-settings-5-minimum.png":::
 
 To configure manager settings, follow these steps:
 
@@ -70,9 +69,9 @@ To configure manager settings, follow these steps:
         1. Create a .csv file that lists the email addresses for the select managers.
         1. Select **Upload .csv** to upload your list.
         1. Select **Download currently enabled manual upload manager list .csv** to confirm which managers now have access. If an error occurs, like an invalid email or an unlicensed manager, the .csv file will show the error for that manager.
-3. Confirm or change the **Minimum team size**. You can change this minimum to a number more than 10, which is the lowest allowed setting. This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
+3. Confirm or change the **Minimum team size**. You can change this minimum to a number more than five, which is the lowest allowed setting. This setting limits access to only those managers who have teams equal to or more than that number, which includes the manager in the team count.
 
-    ![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size.png)
+    ![Screenshot that shows Set team size option.](../images/manager-settings-set-min-team-size-5.png)
 
 4. Select **Save**.
 
@@ -83,27 +82,13 @@ To configure manager settings, follow these steps:
  
 ### Minimum team size
 
-Minimum team size determines which managers are eligible to view organization insights in the Viva Insights app. The size of the team includes the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. This number can’t be lower than 10.
-
-Here are a few examples of different reporting hierarchies. Each diagram indicates whether the manager at the top of the hierarchy would be eligible to view organization insights. In these examples, the minimum size is left at the default: 10.
-
-:::image type="complex" source="../images/setup-eligible-team-size2.png" alt-text="Diagram that shows a hierarchy where the manager is eligible to view organization insights.":::
-   Diagram with a green check badge at the top and the label, "Eligible for organization insights." It shows an organization chart. The manager at the top of the chart has four direct reports. The first direct report has one report. The second and third direct reports have two reports. The fourth direct report has one report. Every person on the chart has a license, indicated by a ribbon. A note at the bottom says, "Licensed users: 10," and "Unlicensed users: 0."
-:::image-end:::
-
-:::image type="complex" source="../images/setup-ineligible-team-size-below-min.png" alt-text="Diagram that shows a hierarchy where the manager is not eligible to view organization insights.":::
-   Diagram of an organization chart with a red "no" symbol at the top and the label, "Not eligible for organization insights." It shows an organization chart. The manager at the top of the chart has five direct reports. The first, third, and fifth direct reports have two reports. The second and fourth direct reports have no reports. Only some of the people have licenses, indicated by a ribbon. A note at the bottom says, "Licensed users: 7," and "Unlicensed users: 5."
-:::image-end:::
-
-:::image type="complex" source="../images/setup-ineligible-team-size-unlicensed.png" alt-text="Diagram that shows a hierarchy where the manager is not eligible to view organization insights due to not enough licensed users.":::
-   Diagram of an organization chart with a red "no" symbol at the top and the label, "Not eligible for organization insights." It shows an organization chart. The manager at the top of the chart has four direct reports. The first and third direct reports have no reports. The second direct report has two reports. The fourth direct report has one report. Every person on the chart has a license, indicated by a ribbon. A note at the bottom says, "Licensed users: 8," and "Unlicensed users: 0."
-:::image-end:::
+Minimum team size determines which managers are eligible to view organization insights in the Viva Insights app. The size of the team includes the manager and all the employees who directly or indirectly report to that manager within the organization's reporting hierarchy. This number can’t be lower than five.
 
 As we described earlier, managers also need to be [assigned a license](assign-licenses.md) to view these insights.
 
 ### Minimum group size
 
-Minimum group size helps protect individual privacy. Because it’s easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator can choose to increase this threshold, but it has to be at least 10. The minimum group size applies to data visualizations in advanced insights Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
+Minimum group size helps protect individual privacy. Because it’s easier to guess information about an individual based on results about a smaller group, we hide organization insights for weeks when fewer people are active in Outlook and Teams than the minimum group size. The Insights Administrator can choose to increase this threshold, but it also has to be at least five. The minimum group size applies to data visualizations in advanced insights Power BI templates as well as group comparisons in organization insights for leaders and managers in Outlook and Teams.
 
 ## Next steps
 
