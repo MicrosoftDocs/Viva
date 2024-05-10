@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/30/2024
+ms.date: 05/09/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -139,7 +139,7 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
     ![Screenshot of the Edit Integration System Security Group fields. ](/viva/media/learning/wd-s1-3-edit-integration-system.png)
 6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
 ![Screenshot of the MAintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
-![Screenshot of the Security Group permissions with completed fields.](/viva/media/learning/wd-s1-5-security-group-permissions.png)
+
 7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
 
 | Domain security policy | Description |
@@ -223,11 +223,11 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Sign in to Workday Portal.
     1. Search for the task “Create Custom Report.”
 2. Configure the report parameters.
-    1. Title the Report Name as `Viva Learning Users Report`. The report name must exactly match this string.
+    1. Title the Report Name as `Viva Learning Catalog Report`. The report name must exactly match this string.
     1. Set the Report Type as “Advanced.”
     1. Mark checkbox “Enable as Web service.”
     1. Mark checkbox “Optimized for performance.”
-    1. In the “Data Source” field, go to “All” and select “Workers for HCM reporting.” Select **OK**.
+    1. In the “Data Source” field, go to “All” and select “Learning content.” Select **OK**.
 3. Add report fields.
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
     1. Add the fields in “Columns” as outlined in the following schema. You'll see three objects for field “rating”, select the one with a hash (#) icon next to it.
@@ -250,6 +250,7 @@ This report should be created from the primary Admin account of Workday to avoid
 | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
 | Language | User Language Code | Locale | Locale |
 
+![](/Viva/media/learning/wd-s2.2-3.png)
 
 5. Under “Group Column Headings”, add the below fields:
 
@@ -268,8 +269,9 @@ This report should be created from the primary Admin account of Workday to avoid
     | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
 
 
+    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-filters-for-catalog-raas.png)
 
-    ![Screenshot of a report with calculated fields.](/viva/media/learning/wd-s2.2-6.png)
+    
 
 7. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
 
@@ -280,7 +282,7 @@ This report should be created from the primary Admin account of Workday to avoid
     | Last updated | Prompt #3 | End_Date | End_Date | No default value | | Yes |
     
 
-    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/wd-s2.2-7.png)
+    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-prompts-for-catalog-raas.png)
 
 8. Go to **Advanced** and select the field **Optimized for Performance**.
 
@@ -288,7 +290,10 @@ This report should be created from the primary Admin account of Workday to avoid
 > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
 
 9. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
-10. Save the report. Select **OK**. 
+
+![Screenshot of the Edit Custom Report window for the Catalog Report](/viva/media/learning/wd-s2.2-8.png)
+
+1. Save the report. Select **OK**. 
 
     ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
 
@@ -340,6 +345,8 @@ This report should be created from the primary Admin account of Workday to avoid
     |Worker | Public Primary Work Email Address | Email_Address | Email_Address |
     |     Worker  |     Employee ID  |     Employee_ID  |     Employee_ID  |
 
+    ![Screenshot of the table in the View Custom Report for the Viva Learning Users report.](/viva/media/learning/wd-s2.3-raas1.png)
+
     2. **Add filters to the report**
         1. Add following values in “Filter on Instances”. Follow the steps mentioned below for adding calculated field. 
     
@@ -384,7 +391,7 @@ This report should be created from the primary Workday admin account to avoid an
     4. In the “Data Source” field, go to “All” and select "Learning Assignments Records”. Select **OK**.
 3. Add report fields.
     1. Once you select **OK**, the “Data Source” automatically sets the value as “Learning Assignment Records.” For the “Data Source Filter” field, remove any existing value and add “Assignment Records for ~Person~from Learning Organization”. You can copy this value and paste in the field directly.
-    1. Add the fields in “Columns” as outlined below. You see two objects for “Learning Enrollment," select the one with a blue icon next to it.
+    1. Add the fields in “Columns” as outlined below. You see two objects for “Learning Assignment," select the one with a blue icon next to it.
     
     |Business Object | Field | Column Heading Override | Column Heading Override XML Alias| 
     | - | - | - | - | 
@@ -451,13 +458,13 @@ This report should be created from the primary Workday admin account to avoid an
             - f.1. Field: Learning Assignment; Operator: is empty 
             - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
     
-    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-self-enrollment-completion-filters.png)
+    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-filters-for-completion-raas.png)
 
     **Modify the Prompts**
 
     1. Go to **Prompts**. 
         1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for Modified date, which is defined in previous step.
-    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-self-enrollment-completion-prompts.png)
+    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-prompts-for-completion-raas.png)
 
         1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
@@ -486,7 +493,7 @@ This report should be created from the primary Workday admin account to avoid an
 1. Add report fields.
     1. Once you select **OK**, the “Data Source” automatically sets the value as “Learning Enrollments.” Leave the “Data Source filter” field blank.
     
-    1. Add the fields in “Columns” as per below schema. You see two objects for “learning Assignment”, select the one with a blue icon next to it.
+    1. Add the fields in “Columns” as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
 
     | Business Object | Field | Column Heading Override | Column Heading Override XML Alias |
     | - | - | - | - |
