@@ -68,9 +68,9 @@ This guidance is for the initial data send to Insights only.
 
 2. Select **Send data to Viva Insights.**
 
-3. You see this confirmation:
+   You see this confirmation:
 
-:::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png" alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
+   :::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png" alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
 
 4. Select **Close.**
 
@@ -81,6 +81,7 @@ This guidance is for the initial data send to Insights only.
    :::image type="content" source="../../media/glint/setup/glintsights-manage-integration-v2.png" alt-text="Screenshot of how to send more data to Viva Insights.":::
 
 2. Select **+ Add Programs.**
+
 3. In the *Add Program* window, select any available program to add. You can select multiple programs. Select **Add** next to the program.
 
    :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
@@ -102,6 +103,7 @@ If processing fails, try running the import again, and resending your survey dat
 After sending data to Viva Insights, you can continue to manage your integration. You can stop sharing future data with Viva Insights by removing the program. Return to your Viva Glint admin dashboard and follow the same instructions as you did in the initial setup. The Setup integration button now reads Manage integration.
 
 1. Select **Manage Integration**.
+
 2. Hover over the ellipses next to the program to reveal the actions available. Select Remove program.
 
    :::image type="content" source="../../media/glint/setup/glintsights-remove-program-v2.png" alt-text="Screenshot of how to remove programs.":::
