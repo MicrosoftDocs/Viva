@@ -117,7 +117,7 @@ Your Raw Score File should be in a horizontal layout and contain an email addres
     - **Key Outcome Items:** Ensure that these items are included in your Raw Score File (for example: eSat and Recommend). If Viva Glint Key Outcome items don't exist in historical data, include the Question IDs as blank columns in your Raw Score File.
     - **Rating Question Comments:** For open-ended feedback associated with rating questions, place a column to the right of the question column and add **_COMMENTS** to the question ID.
     - **Open-ended Questions:** Use the same column layout as for rating question comments but populate 0 where there's a comment and -1 where there's no comment.
-    - **Multi-select Questions:** Separate numerical response values with a colon (:). If comments are attached to responses, use the same column layout as for rating question comments.
+    - **Multi-select Questions:** Separate numerical response values with a colon (:). If importing raw data exported from Glint, convert text responses to numerical responses. For example: If a user selects response options two, three, and five, their response value should be: `2:3:5`. If comments are attached to responses, use the same column layout as for rating question comments. 
 
 > [!IMPORTANT]
 > Comments that exceed 1024 characters will be truncated.

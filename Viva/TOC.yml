@@ -6,13 +6,6 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
-    - name: Plan for Microsoft Viva 
-      href: getting-started-with-microsoft-viva.md
-      items:
-      - name: Plan for all Viva apps 
-        href: plan-for-all-viva-modules.md   
-      - name: Discover more about each Viva app    
-        href: discover-more-about-each-viva-module.md 
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
     - name: Microsoft Viva admin roles and tasks
@@ -39,8 +32,6 @@ items:
         href: copilot/viva-copilot-overview.md
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
-    - name: Solutions guides for Microsoft Viva
-      href: /viva/solutions/solutions
     - name: Self-help diagnostics for Viva administrators
       href: /viva/troubleshoot/viva-suite-administration/viva-self-help-diagnostics?toc=/viva/toc.json&bc=/viva/breadcrumb/toc.json 
   - name: Microsoft Viva Amplify
