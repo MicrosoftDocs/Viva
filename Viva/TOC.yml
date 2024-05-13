@@ -31,7 +31,7 @@ items:
       - name: Introduction to Copilot in Viva
         href: copilot/viva-copilot-overview.md
       - name: Control access to Copilot in Viva
-        href:
+        href: copilot/copilot-access-management.md
     - name: Deployment guides for Microsoft Viva
       href: deployment-guides-for-microsoft-viva.md
     - name: Self-help diagnostics for Viva administrators
