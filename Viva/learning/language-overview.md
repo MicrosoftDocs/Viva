@@ -7,8 +7,7 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 06/08/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
@@ -44,22 +43,15 @@ For more information, review the list of Viva Learning [supported languages](/vi
 
 Display language refers to the language in which Viva Learning is accessed. It refers to the language that the navigation names display. This includes **Home**, **My Learning**, and **Manage**, as well as actions like **Share**, **Add to calendar**, and **Rate it**. Notifications in Teams also display in the same language. 
 
-### In the Teams app
+### In the Teams app or web app
 
-When using Viva Learning in Microsoft Teams. Viva Learning display language is set through the Language setting in Microsoft Teams.
+When using Viva Learning in Microsoft Teams or in the Browser. Viva Learning display language is set through the Language setting within Viva Learning.
 
-Select the three dots on the top right. Then go to **Settings** > **General** > **Language** > **App Language**. 
-
-Update your Microsoft Teams language setting to use Viva Learning in a different Language.
-
-### In the web app
-
-When using Viva Learning in the browser, the Viva Learning display language is set through the **Language** setting in the browser. To use Viva Learning in a different language, update the browser language setting.
+Open Viva Learning app > Select the three dots on the top right in header. Then go to **Settings** > **Language** > **Select a Language > Save & Refresh**. 
 
 > [!NOTE]
-> Viva Learning supports 60 languages. Viva Learning may or may not support the Teams or browser language.
-> In case the user’s Teams or browser language is not supported, Viva learning falls back to the next related language as per Microsoft Corporate, External, and Legal Affairs guidelines taking language sentiments and sensitivities into consideration.
-
+> User language is currently in private preview. Languages shown in Language setting in Viva Learning are as per the [Available language setting](/viva/learning/language-preferences/#available-languages). To add or modify the language options, use the available language setting. 
+> If you're not participating in the User language private preview, the display language defaults to the Microsoft Teams or browser language.
 ## Content language
 
 Content language refers to the language of the learning content in Viva Learning.
@@ -94,7 +86,7 @@ The following spaces display content only based on user action or preference. Th
 
 ## FAQs
 
-- **Why does Viva Learning show English content at all spaces even if my Teams language is not English?**
+- **Why does Viva Learning show English content at all spaces even if my Viva learning language is not English?**
 
     By default, Viva Learning shows content from two languages: the display language and **English (US)**(default language).
 
@@ -106,10 +98,9 @@ The following spaces display content only based on user action or preference. Th
 
     For example, if a user is using Viva Learning in Deutsch (Deutschland) – (de-DE), Viva Learning loads all content having language attribute as either (de-DE) or (de).
     
- - **Viva Learning is loading in a different language of my Teams or browser. Is it expected?**
+ - **Viva Learning is loading in a different language in PC and mobile device. Is it expected?**
  
-    Viva Learning supports [60 languages](/viva/learning/viva-learning-supported-languages). If your teams or browser language isn't supported in this list, Viva Learning falls back to a more suitable supported language as per Microsoft legal guidelines.
-    If your teams or browser language is supported but Viva Learning is loading in a wrong language, please create a support ticket.
+    Viva Learning in mobile will open as per language of the mobile device. User Language setting will be implemented for mobile in the upcoming releases.
 
  - **We are not able to see a specific language content of a provider or LMS.**
     

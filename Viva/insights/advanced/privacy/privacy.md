@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 05/07/2024
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -11,8 +11,7 @@ ms.collection:
  - essentials-privacy
  - essentials-compliance
  - essentials-security
-ms.service: viva 
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---
@@ -111,7 +110,7 @@ In this example, Viva Insights calculates **After hours** and **Email hours** fo
 
 ### Minimum group size 
 
-Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won’t show results for groups with fewer than 10 people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates and organization insights for leaders and managers in Outlook and Teams. 
+Because it’s easier to guess information about an individual based on results about a smaller group, aggregated insights won’t show results for groups with fewer than five people. The Insights Administrator can choose to [increase this threshold](../setup-maint/manager-settings.md). The minimum group size applies to data visualizations in the advanced insights Power BI templates and organization insights for leaders and managers in Outlook and Teams. 
 
 ### Distribution masking 
 

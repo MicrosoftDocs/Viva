@@ -6,9 +6,8 @@ description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
 ms.author: helayne
 ms.topic: article
-localization_priority: normal 
-ms.service: viva 
-ms.subservice: viva-insights 
+ms.localizationpriority: normal 
+ms.service: viva-insights
 ms.collection: 
 - M365-analytics
 - viva-insights-personal

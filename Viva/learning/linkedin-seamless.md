@@ -7,14 +7,13 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 02/12/2024
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: high
+ms.localizationpriority: high
 description: Learn how to enable seamless login in LinkedIn Learning.
 ---
 

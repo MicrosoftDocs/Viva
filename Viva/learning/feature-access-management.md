@@ -7,15 +7,14 @@ ms.reviewer: chrisarnoldmsft
 ms.date: 11/30/2023
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
   - essentials-manage
-localization_priority: high
+ms.localizationpriority: high
 description: Learn how to provide access to nonadmins so they can manage features in Viva Learning.
 ---
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 06/21/2023
+ms.date: 05/07/2024
 title: Transferring from Workplace Analytics to the advanced insights app
 description: Learn about difference in settings between Workplace Analytics and the advanced insights app
 author: zachminers
@@ -9,8 +9,7 @@ ms.collection:
 - viva-insights-manager
 - viva-insights-leader
 ms.localizationpriority: medium 
-ms.service: viva
-ms.subservice: viva-insights
+ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
 ---
@@ -69,7 +68,7 @@ To learn how to assign roles, refer to [Assign roles](user-roles.md).
 
 The minimum group size is the minimum aggregation threshold in Viva Insights—that is, the minimum number of people Viva Insights considers a group. 
 
-In Workplace Analytics, you could set this number to at least 5. In the advanced insights app, you need to set it to at least **10** on the **Privacy settings** page.
+In Workplace Analytics, you could set this number to at least 5. In the advanced insights app, you need to set it to at least **five** on the **Privacy settings** page.
 
 This setting affects what managers and leaders see in organization insights. To protect individual privacy, managers and leaders will only see organization insights when the number of active group members meets the minimum group size your Insights admin set. Some groups might have a group size close to the minimum. In these cases, if enough people are away from work and the number of active people dips below the minimum, we won't show organization insights for that week.
 

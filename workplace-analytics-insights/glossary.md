@@ -7,12 +7,11 @@ description: Describes common terms and concepts used in Microsoft 365 Insights
 author: madehmer
 ms.author: helayne
 ms.topic: article
-localization_priority: none 
-ms.service: viva
+ms.localizationpriority: none 
+ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
 
-ms.subservice: viva-insights
 ---
 # Glossary for Microsoft 365 Insights
 

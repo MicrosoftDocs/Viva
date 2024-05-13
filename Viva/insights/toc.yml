@@ -70,8 +70,6 @@ items:
             href: org-team-insights/org-insights.md
           - name: Delegate access
             href: org-team-insights/delegate-access.md
-          - name: Organization insights FAQ
-            href: org-team-insights/org-insights-faqs.md
           - name: Microsoft Copilot Dashboard for Microsoft 365 customers
             href: org-team-insights/copilot-dashboard.md      
           - name: Microsoft Copilot Dashboard advanced features
@@ -126,8 +124,6 @@ items:
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
               href: advanced/analyst/power-bi-connector.md   
-            - name: Query results FAQs
-              href: advanced/analyst/query-results-faq.md   
           - name: Templates
             items:
             - name: Introduction to templates
@@ -160,6 +156,8 @@ items:
             href: advanced/analyst/filters.md
           - name: Metric customization
             href: advanced/analyst/custom-metrics.md
+          - name: Create and manage attribute clones
+            href: advanced/analyst/attribute-clones.md
           - name: Metric rules
             href: advanced/analyst/metric-rules.md
           - name: View and customize your general settings

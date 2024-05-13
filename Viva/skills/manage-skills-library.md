@@ -4,17 +4,16 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 04/16/2024
 audience: admin
 ms.topic: article
-ms.service: viva
-ms.subservice: viva-learning
+ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: An introduction to managing your organization's skills library. 
 ---
 
@@ -186,11 +185,11 @@ Follow these steps to either import your custom skills library for the first tim
   
 9. Paste the file path for both files into the Skills custom import step.
 
-10. Select **Next** to begin file validation. If there's a problem with the file, you'll see an error message at this step.  
+10. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
 11. Review your custom skills data.  
 
-12. Check the box to acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on. Any new skills are added, and any deleted or missing skills in the import file will be removed from your users’ experience, and all data associated with these skills will also be removed.  
+12. Check the box to acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on. Any new skills are added, and any deleted or missing skills in the import file are removed from your users’ experience, and all data associated with these skills are also be removed.  
 
 13. Select **Confirm** to import.  
 
@@ -202,7 +201,9 @@ Follow these steps to either import your custom skills library for the first tim
 > - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Name.en_US must map to SkillName filed in mapping file  
-> - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
+> - JobTitle should match user profile job titles in Microsoft Entra ID (formerly AAD) or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365.  The more accurately a title reflects a person's job, the more accurate skill suggestions will be. 
+> - When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
+> - Delete any "%20" strings that are present in your pasted filepaths. 
 
 
 ### Export custom import  
@@ -232,7 +233,7 @@ Follow these steps to either import your custom skills library for the first tim
 
 6. Select **Delete** to confirm that you want to delete your custom skills. 
 
-    Deleting custom skills will immediately remove all of these skills from your users’ experiences and will delete all data associated with those skills. 
+    Deleting custom skills immediately removes all of these skills from your users’ experiences deletes all data associated with those skills. 
     
 > [!NOTE]
 > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
