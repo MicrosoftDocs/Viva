@@ -60,7 +60,7 @@ After the Viva Insights admin sets up the import and contacts you that the proce
 
 ## Sending and managing data
 
-This guidance is for the initial data send to Insights only.
+This guidance is for the initial sending of data to Insights.
 
 1. On the *Send Data to Viva Insights* page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
 
@@ -82,7 +82,7 @@ This guidance is for the initial data send to Insights only.
 
 2. Select **+ Add Programs.**
 
-3. In the *Add Program* window, select any available program to add. You can select multiple programs. Select **Add** next to the program.
+3. In the *Add Program* window, select **Add** next to any program. You can select multiple programs.
 
    :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
 
@@ -98,7 +98,7 @@ This guidance is for the initial data send to Insights only.
 After sending data from Viva Glint, the Insights app validates it and provides status messages about the import. 
 If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](/microsoft-365/admin/get-help-support).
 
-## Glint data deletions results in Insights data deletion
+## Glint data deletions result in Insights data deletion
 
 As your company’s data controller, Microsoft Viva Glint admins can submit a user data deletion request to comply with a General Data Protection Regulation (GDPR) data subject request. 
 
