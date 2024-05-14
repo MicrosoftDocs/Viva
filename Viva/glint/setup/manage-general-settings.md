@@ -40,7 +40,7 @@ Also, set up what your employees see when they open an email sharing information
 |**Client UUID**   | How Viva Glint identifies your company in our system.  |  
 |**Client Name**    | *Or Doing Business As (DBA) name*.   | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones** is checked. [More information on customer time zones.](https://go.microsoft.com/fwlink/?linkid=2255796)   | 
-|**Top-Level Manager (Chief Executive Officer- CEO)**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
+|**Top-Level Manager (Chief Executive Officer - CEO)**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | To replace the Microsoft Privacy Statement, add a link to your organization’s privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
 |**Company Message to Survey Participants**|Enter guidance specific to your organization to be displayed at the beginning of Glint surveys and applied to new programs and scheduled surveys. Character limit: 1024|
 
@@ -96,8 +96,8 @@ Choose your survey access method. [Learn more](https://go.microsoft.com/fwlink/?
 
 | Field | Definition and notes |
 |-----------|-----------|
-|**Require Azure ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Azure Active Directory (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
-|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Azure AD authentication.   |  
+|**Require Microsoft Entra ID for links in survey emails**   | Turn this functionality on to authenticate participants for future surveys with Microsoft Entra ID (recommended). If you turn off this functionality, a personalized survey link is sent to participants.   | 
+|**Attribute-based Survey Access**   | Participants are able to retrieve survey links by entering attributes. This process doesn't authenticate participants and is less secure than surveys requiring Microsoft Entra ID authentication.   |  
 
 ## Features 
 
