@@ -1,6 +1,6 @@
 ---
 title: "Manage user privileges with view-only mode in Viva Engage (Private Preview)"
-description: "View-only mode is a tool admins can use to remove privileges from Viva Engage users when needed."
+description: "View-only mode is a tool that Viva Engage admins can use to remove content creation privileges from  users when needed."
 ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: ethli
 ms.author: v-bvrana
@@ -24,7 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
 
-Microsoft 365 Global admins and Engage admins can use view-only mode to prevent a Viva Engage user from contributing content.
+Microsoft 365 Global admins, Engage admins, and network admins can use view-only mode to prevent a user from contributing content to the Viva Engage network.
 
 ## User experience in view-only mode
 
@@ -46,6 +46,7 @@ When a user is in view-only mode, they have **no access** to the following featu
 ## Manage users in view-only mode
 
 Admins can set view-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
+When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user in any other way that their Viva Engage network access has changed. Therefore, admins must find another means of communicating this change to users, if needed.
 
 **To assign a user to view-only mode:**
 
@@ -64,3 +65,12 @@ Admins can set view-only mode from the Engage admin center. This control works b
 **To unassign a user from view-only mode:**
 
 - In the **View-only mode** list, select the trash icon next to the user's name.
+
+## Track activity in the Microsoft 365 user audit log
+
+All activity from the view-only mode feature is available through the user audit logs, including:
+
+- User ID of the user in view only mode
+- User ID of the admin who assigned the user to view-only mode or removed view-only status
+- Date and time the user was placed in view-only mode or removed status
+
