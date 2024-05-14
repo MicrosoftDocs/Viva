@@ -59,8 +59,8 @@ While view-only mode only affects the user's experience and privileges in Engage
 
     The user's name appears in the list of users in view-only mode with the date the status was applied and the admin who applied the status.
 
->[!NOTE]
->When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find a way of communicating this change to users, if needed.
+    >[!NOTE]
+    >When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find a way of communicating this change to users, if needed.
 
 **To unassign a user from view-only mode:**
 
