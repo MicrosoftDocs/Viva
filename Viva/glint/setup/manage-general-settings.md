@@ -25,10 +25,10 @@ Details defining your Microsoft Viva Glint programs are set up and viewed by sel
 
 Use the definitions and prompts on the platform so you feel confident about the choices you make. 
 
->[!NOTE]
+>[!IMPORTANT]
 > Any initial actions or subsequent changes in General Settings apply to all survey programs created in Viva Glint.
 
-These sections require input: 
+These sections require setup: 
 
 ## Company Information 
 
@@ -86,9 +86,9 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 |**Broader Team Insights PowerPoint Template**   | Customer chosen default Broader Team Insights template. If unset, it defaults to the Glint template.        |  
 |**Primary Hierarchy**   | The hierarchy your company identified as the first level for reporting, typically Manager. |  
 |**Secondary Hierarchy**   | The hierarchy your company identified as its second level for reporting, typically Location. | 
-|**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint’s best practice is to use a 5-point scale | 
+|**Rating Questions Scale**   | The defaults survey rating questions use. Viva Glint’s best practice is to use a 5-point scale. | 
 |**Suppression Threshold**   | Suppression occurs if there aren't enough respondents to meet confidentiality requirements. The Glint Suppression Threshold default is two (2) but is dependent upon the confidentiality threshold.  |  
-|**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles   |   
+|**Cross-Program Filtering**   | Turns on cross-program filtering within reports. Enables user roles to compare employee groups across different survey programs and cycles/   |   
 
 ## Engage Survey Details 
 
