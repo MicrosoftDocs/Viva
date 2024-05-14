@@ -540,7 +540,7 @@ This report should be created from the primary Workday admin account to avoid an
 
         |Field | Value|
         | - | - |
-        | Fields | ModifiedDate |
+        | Field | ModifiedDate |
         | Operator | Less than or equal to |
         | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
         | Comparison Value | Ending Prompt |
@@ -548,18 +548,23 @@ This report should be created from the primary Workday admin account to avoid an
         f.	Go to filter and add 2 new “And” filters and input following values:
 
         
-    - f.1. Field: Learning Assignment; Operator: is empty
-    - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
-
-
-    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
+        |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   Value    |     )    |     Indexed    |
+        |---|---|---|---|---|---|---|---|
+        |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
+        |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
+        |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
+        |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
+        
+        
+    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
 
 ### Modify the prompts
 
 1. Go to **Prompts**
     1. Select **Populate Undefined Prompt Defaults**. This adds the start and ending prompt for the Modified date, which is defined in previous step.
     
-    ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
+
+    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
 
     2. Add following values in the new prompts and select “OK”.
     - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
