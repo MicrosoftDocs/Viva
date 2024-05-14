@@ -37,8 +37,8 @@ Also, set up what your employees see when they open an email sharing information
 
 | Field | Definition and notes |
 |-----------|-----------|
-|**Client UUID**   | How Viva Glint identifies your company in our system  |  
-|**Client Name**    | *Or Doing Business As (DBA) name*   | 
+|**Client UUID**   | How Viva Glint identifies your company in our system.  |  
+|**Client Name**    | *Or Doing Business As (DBA) name*.   | 
 |**Client Time Zone**    | Survey and reminder emails are sent out in this time zone unless **Send surveys in users’ time zones is checked**.    | 
 |**Top-Level Manager (Chief Executive Officer- CEO)**    | This employee is used to build managerial hierarchy and is the only person in your organization that doesn't report to anyone at a higher level.| 
 |**Company Privacy Policy** | To replace the Microsoft Privacy Statement, add a link to your organization’s privacy policy. The privacy policy is displayed at the beginning of Glint surveys and in the Glint navigation bar.|
@@ -58,9 +58,9 @@ Also, set up what your employees see when they open an email sharing information
 
 | Field | Definition and notes |
 |-----------|-----------|
-|**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging  | 
+|**Enable Email Notifications for Focus Area Comments**    | Enable for comments and user tagging.  | 
 |**Hide Focus Area/Comment Text in Focus Area Emails**    | Managers may receive an email notification when someone comments on their Focus Area (goal) or a new one is cascaded to them. Enable to hide these details from these emails. Disable to allow goal title and comment text to display.    | 
-|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date | 
+|**Send Survey in Users’ Time Zones**    | Send invitations in user’s time zones on the survey start date. | 
 
 ## Reporting  
 
