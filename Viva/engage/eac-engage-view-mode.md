@@ -31,10 +31,7 @@ In view-only mode, an information banner appears at the top of the Viva Engage e
 
 ## Limitations of view-only mode
 
-When a user is in view-only mode, they have **no access** to the following features:
-
->[!NOTE]
->The limitations stated here apply throughout the Viva Engage app on all surfaces (desktop, web, mobile, Teams, Outlook, and SharePoint).
+When a user is in view-only mode, they have **no access** to the following features in Viva Engage, regardless of where they access the app (desktop, web, mobile, Teams, Outlook, and SharePoint):
 
 - Creation of new posts, comments, or replies to posts
 
