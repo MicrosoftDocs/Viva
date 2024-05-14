@@ -115,7 +115,7 @@ In this section:
 |**Maximum Number of Survey Cycles for Trend**   |Default is five (5) cycles. Applies only to recurring and ad-hoc surveys. This controls the number of cycles that show on the dashboard and in reporting.    |
 |**Self-Serve Mode**   |When Edit and Create is selected, this choice allows users with the correct user role permissions to edit and create surveys.   | 
 
-### Choose Focus Area privacy settings in Features
+## Choose Focus Area privacy settings in Features
 
 The default privacy setting within *Features* is **Public**. 
 
@@ -127,7 +127,8 @@ There are other options, in addition to the *Public* default setting:
 - Visible to Manager and Full Team
 
 :::image type="content" source="../../media/glint/setup/focus-area-privacy-dropdown.png" alt-text="Screenshot of the dropdown menu for Focus Area Privacy in General Settings." lightbox="../../media/glint/setup/focus-area-privacy-dropdown.png":::
-### Technical Configuration 
+
+## Technical Configuration 
 
 Make selections for your Viva Glint technical setup:
 - Username and password for Single Sign On (SSO) users 
@@ -138,7 +139,7 @@ Make selections for your Viva Glint technical setup:
 |**Attribute for SSO Authentication** |Configure the unique Employee ID. The email is set as the default employee ID. |
 |**SFTP Setup** |Streamline your process by automatically adding your company data into the Glint platform. [Learn more](https://go.microsoft.com/fwlink/?linkid=2238339). |
 
-### Localization 
+## Localization 
 
 English is the default language for all programs, but surveys and emails may be sent to employees in their preferred language. Viva Glint has 70+ language translations for standard content that can be set during the initial configuration or added later, until the survey is live.  
 
