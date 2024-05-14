@@ -44,6 +44,8 @@ When a user is in view-only mode, they have **no access** to the following featu
 Admins can set view-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
 When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user in any other way that their Viva Engage network access has changed. Therefore, admins must find another means of communicating this change to users, if needed.
 
+While view-only mode only affects the user's experience and privileges in Engage, users can still access linked SharePoint sites and files shared in Engage.
+
 **To assign a user to view-only mode:**
 
 1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
