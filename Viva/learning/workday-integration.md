@@ -368,7 +368,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     4. Go to **Advanced** and select the field `Optimized for Performance.` 
 
-    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the Share section in report, select the option “share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field.
+    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the **Share** section in report, select the option “s**hare with specific authorized groups and users**” and add group name and user name in Authorized Groups and **Authorized users** field.
 
     5. Save the report. Select **OK**. 
 
@@ -452,12 +452,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Operator | Less than or equal to | 
     |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
     | Comparison Value | Ending Prompt | 
-
-    1. Add filters for Completion Status and Learning assignments. 
-        1. Go to filter and add 2 new “And” filter and input following values: 
-            - f.1. Field: Learning Assignment; Operator: is empty 
-            - f.2. Field: Completion Status; Operator: in the selection list; Comparison Type: value specified in the filter; Comparison Value: completed 
-    
+   
     ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-filters-for-completion-raas.png)
 
     **Modify the Prompts**
