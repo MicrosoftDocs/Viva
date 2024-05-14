@@ -71,7 +71,7 @@ While view-only mode only affects the user's experience and privileges in Engage
 
 All activity from the view-only mode feature is available through the user audit logs, including:
 
-- User ID of the user in view only mode
+- User ID of the user in view-only mode
 - User ID of the admin who assigned the user to view-only mode or removed view-only status
 - Date and time the user was placed in view-only mode or removed status
 
