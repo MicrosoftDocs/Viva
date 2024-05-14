@@ -65,7 +65,7 @@ While view-only mode only affects the user's experience and privileges in Engage
 - In the **View-only mode** list, select the trash icon next to the user's name.
 
 >[!NOTE]
->When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find a way to communicate this change to users if needed.
+>When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find another way to communicate this change to users if needed.
 
 ## Track activity in the Microsoft 365 user audit log
 
