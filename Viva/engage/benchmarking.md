@@ -21,7 +21,7 @@ search.appverid:
 
 # Benchmarks in Viva Engage analytics
 
-The _benchmarks_ feature in Viva Engage Premium shows how your metrics perform in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
+The _benchmarks_ feature in Viva Engage Premium shows how your metrics are performing in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
 
 ## How we calculate benchmarks
 
