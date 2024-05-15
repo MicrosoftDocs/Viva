@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 03/12/2024
+ms.date: 05/15/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -16,9 +15,6 @@ audience: Admin
 ---
 
 # Use Leader reports to uncover key business outcomes
-
->[!IMPORTANT]
-> The features described below are for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Leader deep-dive reports in Viva Insights focus on customers, business operations, and agility. You can find these reports under **Team insights** in the Viva Insights app in Teams and on the web.
 
@@ -57,6 +53,9 @@ To view these reports:
 ## Overview of the Leader reports
 
 ### New hire onboarding and integration
+
+>[!Note]
+>This report requires the HireDate attribute as a column in your organizational data file. If your admin hasn't uploaded this column, you won't be able to see the report's content. [Learn more about the organization data upload process](../advanced/admin/prepare-org-data.md).
 
 The **New hire onboarding and integration** report helps leaders understand the onboarding experience of new hires as well as the transition for employees who've started out in a new role within the company. The report also identifies opportunities to improve the onboarding and professional development experience.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 4/25/2024
+ms.date: 5/6/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -19,7 +19,7 @@ audience: user
 
 The Microsoft Copilot Dashboard provides actionable insights to help your organization get ready to deploy AI, drive adoption based on how AI is transforming workplace behavior, and measure the impact of Copilot.
 
-Some of the dashboard’s metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. [Learn about these features here](./copilot-dashboard.md).
+Some of the dashboard’s metrics and functionalities are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. Learn about these features in [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](./copilot-dashboard.md).
 
 But, if you have a [paid Viva Insights subscription](https://www.microsoft.com/microsoft-viva/insights), the dashboard provides an additional set of metrics, filtering options, and other features.
 
@@ -57,13 +57,13 @@ On the adoption and impact pages, you can view the aggregated user-level metrics
 >[!Note]
 >Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
 
-Learn about readiness data in the dashboard [here](./copilot-dashboard.md#interpreting-the-data).
+Learn about readiness data in the dashboard in [Interpreting the data](./copilot-dashboard.md#interpreting-the-data).
 
 ### Adoption and impact
 
 The adoption and impact pages use different calculations for their tally counts. The illustration and explanation below describes these calculations.
 
-:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses." lightbox="images/copilot-dash-licenses.png":::
+:::image type="content" source="images/copilot-dash-licenses.png" alt-text="Screenshot that shows the count of licenses.":::
 
 * 2,518 employees who have both a Copilot license *and* a Viva Insights subscription will be measured in the dashboard. The 2,518 tally is based on the four complete weeks that ended with the second Saturday before the current date.
 
@@ -86,7 +86,7 @@ The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to
 
 :::image type="content" source="images/copilot-dash-scope-ga-02.png" alt-text="Screenshot that shows the scope filter options.":::
 
-The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Organization." If your Insights admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
+The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Department." If your Insights admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
 
 Your Insights admin needs to upload "FunctionType" Viva attributes for you to view the **Job function** dropdowns. The **Job function** filter will only show up if your Insights admin uploads a .csv file with the organizational data attribute of "FunctionType."
 
@@ -240,7 +240,7 @@ This analysis helps you compare collaboration activities between employees who u
 
 ### Sentiment
 
-Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft’s own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
+Located within the Impact page, this section provides information that helps you assess Copilot impact from the perspective of users' subjective experiences. In the main table on this page you’ll see a list of Microsoft’s recommended Copilot survey questions along with the results from your own organization’s latest survey (if an admin chooses to upload results for visualization here) and Microsoft's own benchmark results from a [study of early Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work).
 
 **Sentiment results by group**
 
@@ -309,7 +309,7 @@ Or, if the survey output is in a string format:
 
 The cells for the responses may contain “N/A” values for employees who did not respond to the question.
 
-For additional guidance on how to format your .csv file, [refer to this example formatted .csv here](https://go.microsoft.com/fwlink/?linkid=2260529).
+For additional guidance on how to format your .csv file, refer to this example formatted .csv: [Impact Dashboard survey sample file](https://go.microsoft.com/fwlink/?linkid=2260529).
 
 Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
@@ -323,7 +323,7 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
-   :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data." lightbox="images/copilot-dash-upload-02.png":::
+   :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data.":::
 
 ### News & research
 
@@ -335,39 +335,17 @@ Under the Learning tab, here you’ll find research around the impacts of AI on 
 
 *Applies to: Viva Insights analyst*
 
-You can also add Microsoft 365 Copilot metrics to your custom person query. [Learn how](../advanced/analyst/person-query.md#add-metrics).
+You can also add Microsoft 365 Copilot metrics to your custom person query. Learn how in [Add metrics](../advanced/analyst/person-query.md#add-metrics).
 
-### FAQs
+## FAQs
+
+### Setup and licenses
 
 **Where can users access the Microsoft Copilot Dashboard?**
 Employees can view the dashboard in the Viva Insights Teams or web app.
 
-**What can enabled users see in the dashboard?**
-The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
-
-**How often is the default-on enablement updated?**
-To capture organizational changes, we refresh the default-on enablement on a weekly basis.
-
-**If a user is removed, will the default-on enablement refresh impact their access settings?**
-No. Once an admin disables a user, that setting is permanent until the admin enables them again. In the Microsoft 365 admin center, the admin can view a list of who has been disabled in the Deleted tab.
-
-**The values I'm seeing are just "--," with a banner that reads, "It looks like your organization doesn’t use Copilot in Microsoft 365 yet." What's happening?**
-In this scenario, your employees don't have a Copilot license assigned or they haven't used Copilot yet.
-
-**Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
-In this scenario, your Entra data is not reliable.
-
-**After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process will take about three to five days. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md#assign-licenses).
-
-**After the dashboard is turned on with the data, if I subsequently assign *new* Viva Insights licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
-
-**If I assign new Copilot licenses to people with existing Viva Insights licenses, when will I see their data in the dashboard?**
-Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
-
-**If I don’t assign any new licenses, when and how often does the dashboard data update?**
-The dashboard refreshes with updated data every Tuesday.
+**How long after enablement can users access the Copilot dashboard?**
+Users can access the dashboard less than 24 hours after being enabled.
 
 **Who is considered a Copilot licensed employee?**
 Any employee who has been assigned a Copilot license, including the following service plans:
@@ -378,6 +356,30 @@ Any employee who has been assigned a Copilot license, including the following se
 * Business Chat
 * Intelligent Search
 
+**After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
+To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process will take about three to five days. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md#assign-licenses).
+
+**After the dashboard is turned on with the data, if I subsequently assign *new* Viva Insights licenses, how long will it take for the new data to reflect in the dashboard?**
+Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
+
+**If I assign new Copilot licenses to people with existing Viva Insights licenses, when will I see their data in the dashboard?**
+Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
+
+**If I reassign Copilot licenses to different employees who did not previously have Copilot licenses, how does that impact the measured group on each page of the dashboard?**
+The measured period includes all employees who were enabled for Copilot at any point during that time period. This means that employees who had a license that was reassigned will still be included in the metrics. 
+
+**If I don’t assign any new licenses, when and how often does the dashboard data update?**
+The dashboard refreshes with updated data every Tuesday.
+
+**What can enabled users see in the dashboard?**
+The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
+
+**How often is the default-on enablement updated?**
+To capture organizational changes, we refresh the default-on enablement on a weekly basis.
+
+**If a user is removed, will the default-on enablement refresh impact their access settings?**
+No. Once an admin disables a user, that setting is permanent until the admin enables them again. In the Microsoft 365 admin center, the admin can view a list of who has been disabled in the Deleted tab.
+
 **How does data in the Copilot dashboard compare to usage reports in the admin center?**
 Both the Microsoft Copilot dashboard and the admin center usage reports leverage the same underlying data set.
 
@@ -387,13 +389,28 @@ Differences in the data are often caused by one of the following:
 * The time frame for which the analysis is being applied may be different.  
 * Data in the Copilot dashboard is aggregated to meet a minimum privacy threshold.
 
-**How long after enablement can users access the Copilot dashboard?**
-Users can access the dashboard less than 24 hours after being enabled.
+**Why are the values for Copilot licensed users or Copilot active users different between the Readiness and Adoption pages?** This is because only Viva Insights licensed employees are included in the Adoption and Impact pages.
+
+### Missing data
+
+**The values I'm seeing are just "--," with a banner that reads, "It looks like your organization doesn’t use Copilot in Microsoft 365 yet." What's happening?**
+In this scenario, your employees don't have a Copilot license assigned or they haven't used Copilot yet.
+
+**Why can't I see my senior leadership members as a selectable option within the Scope dropdown menu?**
+In this scenario, your Entra data is not reliable, or it does not accurately reflect the reporting structure at your company. Please reach out to your global admin to see how your Entra data is set up.
+
+### Metrics
 
 **How are the scope, organization, and job function filters determined?**
 
 * Scope: Scope is populated using the "ManagerID" field from Entra ID by default. If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the ManagerID from the uploaded data file is used to populate selections available for “Your group.”
 
-* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Organization" field is used in the dashboard. If the file is not uploaded, the field uses the organization field from Entra ID.
+* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Department" field is used in the dashboard. If the file is not uploaded, the field uses the organization field from Entra ID.
 
 * Job function: If the Insights admin uploads an [organizational data file](../advanced/admin/prepare-org-data.md), the uploaded "FunctionType" field is used in the dashboard. If the file is *not* uploaded, the field is not available as a filter in the dashboard.
+
+**Which apps are the Copilot chat metrics based on?**
+Copilot chat metrics are based on use of Copilot with Graph-ground chat across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. All prompts submitted via Copilot with Graph-grounded chat are counted towards Copilot chat usage in the Copilot Dashboard, in alignment with the [Copilot Usage report in the Microsoft 365 Admin Center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage). Copilot chat metrics do *not* include usage of [Microsoft Copilot with commercial data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Copilot with Graph-grounded chat usage and thus useage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with commercial data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
+
+**Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
+The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.

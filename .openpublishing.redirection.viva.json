@@ -1,6 +1,16 @@
 {
     "redirections": [
         { 
+            "source_path": "Viva/plan-for-all-viva-modules.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },        
+        { 
+            "source_path": "Viva/discover-more-about-each-viva-module.md",
+            "redirect_url": "/viva/microsoft-viva-overview",
+            "redirect_document_id": false
+        },        
+        { 
             "source_path": "Viva/learn-how-to-combine-modules.md",
             "redirect_url": "/viva/microsoft-viva-overview",
             "redirect_document_id": false
@@ -1032,6 +1042,11 @@
         {
             "source_path": "Viva/engage/eac-get-started.md",
             "redirect_url": "/viva/engage/setup",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "viva/glint/start/customer-cohorts.md",
+            "redirect_url": "/viva/glint/start/brochure-summary",
             "redirect_document_id": false
         }
     ]
