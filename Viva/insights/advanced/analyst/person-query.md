@@ -94,7 +94,6 @@ Under **Query setup**:
     | Document drafts created by Copilot | The number of times users drafted Word documents with Copilot. | 10/15/2023 | 
     | Summarize Word document actions taken using Copilot in Word |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
     |  Presentations created by Copilot  | Number of times users created PowerPoint presentations with Copilot.  | 10/15/2023 |
-    |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
     |  Summarize presentation actions taken using Copilot in PowerPoint  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
     |  Meetings summarized by Copilot  | Number of meetings summarized with Copilot per user.  | 12/18/2023 |
     | Meeting hours summarized by Copilot in Teams | The number of hours of meetings summarized by Copilot. | 12/18/2023 |
@@ -111,6 +110,7 @@ Under **Query setup**:
     | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint.  | 10/15/2023 |
     | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams.  | 10/15/2023 |
     | Copilot actions taken in Word  | The number of Copilot actions completed by active Copilot users in Word.  | 10/15/2023 |
+    |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
     | Days of active Copilot usage in Excel | The number of days the user actively used Copilot in Excel.  | 10/15/2023 |
     | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop.  | 10/15/2023 |
     |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
