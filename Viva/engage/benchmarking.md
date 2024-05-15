@@ -30,11 +30,11 @@ Benchmarks provide percentiles that correspond to your current metrics.
 
 For **Network Analytics**, this percentile uses the _People Engaged_ metric to tell you how engagement levels in your organization compare to similarly sized networks. The number of active users within an organization define the network size sectors. Both network administrators and corporate communicators can access the Networks Analytics benchmark on the **Network Activity** card.
 
-:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/benchmark-analytics.png":::
+:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/engage-benchmark-network.png":::
 
 For **Audience Analytics**, this percentile uses the _Audience members engaged_ metric to tell you how your engagement levels compare to all audiences in the same organization. Leaders, delegate managers, and delegates can access the Audience Analytics benchmark on the **Audience Engagement** card. Learn more about [Analytics in Viva Engage](https://support.microsoft.com/en-us/topic/analytics-in-viva-engage-0d9f6fd5-6b0c-45a2-a0aa-0576ae1f6895).
 
-:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/benchmark-analytics.png":::
+:::image type="content" alt-text="Screenshot of the Network and Audience analytics tiles with benchmark percentiles." source="../media/engage/admin/engage-benchmark-audience.png":::
 
 
 ## Enable benchmarks
