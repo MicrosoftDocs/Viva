@@ -135,12 +135,12 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
 4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**. It doesn’t need to be the same as the ISU name. 
     ![Screenshot of the type of tenanted security group and name fields](/viva/media/learning/wd-s1-2-create-security-group.png)
-5. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
+4. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
     ![Screenshot of the Edit Integration System Security Group fields. ](/viva/media/learning/wd-s1-3-edit-integration-system.png)
-6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
-![Screenshot of the MAintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
+5. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
+![Screenshot of the Maintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
 
-7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
+6. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
 
 | Domain security policy | Description |
 |-----| ----- |
@@ -153,8 +153,8 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 
 ![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions-security-group.png)
 
-8. Run the **Activate Pending Security Policy Changes** task.
-9. **Advance security**: These are **optional** steps for advance security access on ISU.
+7. Run the **Activate Pending Security Policy Changes** task.
+8. **Advance security**: These are **optional** steps for advance security access on ISU.
 
     1. **Optional**: **Set up course-segmented security on Workday portal**:
     You can configure which learning content displays in Viva Learning by restricting the integration system user's access by using segmented security. You can segment security based on security categories or topics.
@@ -211,7 +211,7 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 > [!NOTE]
 > Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
 
-1. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
+9. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
 Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
 If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
@@ -250,16 +250,16 @@ This report should be created from the primary Admin account of Workday to avoid
 | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
 | Language | User Language Code | Locale | Locale |
 
-![](/Viva/media/learning/wd-s2.2-3.png)
+![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
 
-5. Under “Group Column Headings”, add the below fields:
+4. Under “Group Column Headings”, add the below fields:
 
 | Business Object | Group column heading | Group column heading XML Alias |
 | --- | --- | --- |
 | Languages | Languages | Languages |
 | Learning content | learningContent_group | learningContent_group| 
 
-6. Add filters to the report under "Filter section"
+5. Add filters to the report under "Filter section"
     
         
     | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
@@ -273,7 +273,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     
 
-7. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
+6. **Add the Prompts:** Go to **Prompts**. Mark “Display Prompt Values in Subtitles” and add following prompt values. You can directly copy paste these values. 
 
     | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | 
     | - | - | - | - | - | - | -| 
@@ -284,16 +284,16 @@ This report should be created from the primary Admin account of Workday to avoid
 
     ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-prompts-for-catalog-raas.png)
 
-8. Go to **Advanced** and select the field **Optimized for Performance**.
+7. Go to **Advanced** and select the field **Optimized for Performance**.
 
 > [!NOTE]
 > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
 
-9. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
+8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option “**share with specific authorized groups and users**” and add ISU name in the **Authorized users** field.  
 
 ![Screenshot of the Edit Custom Report window for the Catalog Report](/viva/media/learning/wd-s2.2-8.png)
 
-1. Save the report. Select **OK**. 
+9. Save the report. Select **OK**. 
 
     ![Screenshot of the final report.](/viva/media/learning/wd-s2.2-9.png)
 
@@ -408,7 +408,7 @@ This report should be created from the primary Workday admin account to avoid an
 > [!NOTE]
 > The In progress status from Workday doesn't sync to Viva Learning.
 
-1. Under “Group Column Headings”, add below fields
+4. Under “Group Column Headings”, add below fields
 
 | Business Object | Group Column Heading XML Alias | 
 | - | - | 
@@ -417,7 +417,7 @@ This report should be created from the primary Workday admin account to avoid an
 | Learning Content | Learning_Content_group |
 | Worker | Worker_group |
 
-1. Under Prompt mark “Display Prompt Values in Subtitles” and, add following the prompt values. You can directly copy and paste these values. In the “Default Value” field for “learning Organization for Learning Assignment,” provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
+5. Under Prompt mark “Display Prompt Values in Subtitles” and, add following the prompt values. You can directly copy and paste these values. In the “Default Value” field for “learning Organization for Learning Assignment,” provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
 
 | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
 | - | - | - | - | - | - | 
