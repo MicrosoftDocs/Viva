@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/14/2024
+ms.date: 05/15/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -42,7 +42,7 @@ Data that can be sent:
 
 This consent screen will display the first time you begin this integration. You must **Agree to terms** before moving forward.
 
-:::image type="content" source="../../media/glint/setup/glintsights-preview-agreement.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
+:::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
 
 > [!NOTE]
 > Global admins cannot include Works Council employee data in the Viva Insights integration.  
