@@ -21,7 +21,7 @@ search.appverid:
 
 # Benchmarks in Viva Engage analytics
 
-_Benchmarks_ is a Viva Engage Premium feature that shows you how your metrics perform in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
+The _benchmarks_ feature in Viva Engage Premium shows how your metrics perform in comparison to other customers that use Viva Engage. Only verified and network admins can enable benchmarks in Viva Engage.
 
 ## How we calculate benchmarks
 
@@ -61,9 +61,9 @@ Network administrators and corporate communicators can increase engagement, stre
 
 - Assign more [_leaders_](/viva/engage/leadership-identification). Content posted by leaders tends to have higher engagement.
 
-- Create posts about [campaigns](https://support.microsoft.com/en-us/topic/campaigns-in-viva-engage-d7b05128-f80b-4c16-b561-3ddce518eb14) on your [storyline](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0) to boost engagement.
+- Create posts about [campaigns](https://support.microsoft.com/en-us/topic/campaigns-in-viva-engage-d7b05128-f80b-4c16-b561-3ddce518eb14) on your [storyline](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0).
 
-- Create posts about popular themes on your storyline to boost engagement.
+- Create posts about popular themes on your storyline.
 
 - Manage your campaigns to increase employee engagement.
 
@@ -77,13 +77,13 @@ Leaders, delegate managers, and delegates can increase engagement, strengthen co
 
 - Check out the most [active communities](https://support.microsoft.com/en-us/office/view-community-insights-in-viva-engage-48bc648e-b567-49d7-b2b5-5fea23777c46) across your audience. Posting in these communities can increase reach.
 
-- Create [storyline posts](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0). Leadership content can generate higher engagement than average posts.
+- Create [storyline posts](https://support.microsoft.com/en-us/topic/storyline-in-viva-engage-cba3c38e-77c6-4ee6-9d5d-6c20522b1fa0). Leadership content often generates higher engagement than average posts.
 
-- Share a [storyline announcement](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248) about popular themes to show employees you’re listening.
+- Share a [storyline announcement](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248) about popular themes to demonstrate that you’re listening.
 
-- Praise an employee for their contributions to develop two-way dialog.
+- Develop a two-way dialog by praising contributions.
 
-- Make a post about active campaigns on your storyline to boost engagement.
+- Post about active campaigns on your storyline.
 
 
 ## See also
