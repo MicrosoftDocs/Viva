@@ -1,5 +1,5 @@
 ---
-ms.date: 05/14/2024
+ms.date: 05/15/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -53,6 +53,9 @@ To view these reports:
 ## Overview of the Leader reports
 
 ### New hire onboarding and integration
+
+>[!Note]
+>This report requires the HireDate attribute as a column in your organizational data file. If your admin hasn't uploaded this column, you won't be able to see the report's content. [Learn more about the organization data upload process](../advanced/admin/prepare-org-data.md).
 
 The **New hire onboarding and integration** report helps leaders understand the onboarding experience of new hires as well as the transition for employees who've started out in a new role within the company. The report also identifies opportunities to improve the onboarding and professional development experience.
 

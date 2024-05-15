@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/13/2024
+ms.date: 05/15/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -39,6 +39,10 @@ Data that can be sent:
 - Data from recurring or ad-hoc surveys with confidentiality thresholds equal to or above the Viva Glint default of five respondents.
 - Rating item scores, but no comments.
 - All Viva Glint languages supported for question labels (names) and question text are sent to Viva Insights Power BI.
+
+This consent screen will display the first time you begin this integration. You must **Agree to terms** before moving forward.
+
+:::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
 
 > [!NOTE]
 > Global admins cannot include Works Council employee data in the Viva Insights integration.  
