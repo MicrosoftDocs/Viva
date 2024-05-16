@@ -1,5 +1,5 @@
 ---
-title: "Manage user privileges with view-only mode in Viva Engage"
+title: "Manage user privileges with view-only mode in Viva Engage (Private Preview)"
 description: "View-only mode is a tool that Viva Engage admins can use to remove content creation privileges from  users when needed."
 ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: ethli
@@ -19,7 +19,10 @@ ms.collection:
 search.appverid:
 - MET150
 ---
-# Manage user privileges with view-only mode in Viva Engage
+# Manage user privileges with view-only mode in Viva Engage (Private Preview)
+
+>[!IMPORTANT]
+>View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
 
 Microsoft 365 Global admins, Engage admins, and network admins can use view-only mode to prevent a user from contributing content to the Viva Engage network.
 
