@@ -1,6 +1,6 @@
 ---
-title: Viva Glint program features and settings
-description: Follow Viva Glint guidance to make the most of your platform features and settings.
+title: Viva Glint foundational features
+description: Follow Viva Glint guidance to easily configure your platform features and settings.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -15,12 +15,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/28/2024
+ms.date: 05/15/2024
 ---
 
-# Viva Glint program features and settings
+# Viva Glint foundational features
 
-Microsoft Viva Glint offers multiple program types, reporting features, and guidance opportunities for acting on feedback. To make the most of this application designed to meet your business goals, use the following guidance while setting up your programs:
+Microsoft Viva Glint offers multiple program types, reporting features, and guidance opportunities for acting on feedback. To make the most of this application designed to meet your business goals, use the following guidance to set up your programs:
 
 [Admin management of the General Settings feature in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230744)
 

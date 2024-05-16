@@ -68,6 +68,8 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
+          - name: Leader reports
+            href: org-team-insights/leader-reports.md
           - name: Delegate access
             href: org-team-insights/delegate-access.md
           - name: Microsoft Copilot Dashboard for Microsoft 365 customers
@@ -120,6 +122,10 @@ items:
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
                 href: advanced/analyst/cross-collaboration-g2g.md               
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector
