@@ -88,7 +88,7 @@ Before you can run the ONA query and populate the report in the advanced insight
 
     For example, if you select “Internal services” and “IT operations” as focused values, you can hone in on the collaboration changes just for those groups, and the groups’ closest collaborators, in your analysis.
 
-     :::image type="content" source="../images/ona-query-setup-06.png" alt-text="Screenshot showing how identify values as focused values.":::
+     :::image type="content" source="../images/ona-query-setup-06.png" alt-text="Screenshot showing how to identify values as focused values.":::
 
     When you’re finished, at the top right, select **Save and finish**.
 
@@ -158,7 +158,7 @@ Here is the ranking system we use – from most to least important – to determ
 >[!Note]
 > To determine significant changes in existing collaboration patterns, a combined rank heuristic is used in which the absolute (without regard to sign) percent of change in collaboration and the absolute (without regard to sign) magnitude of change in collaboration between each distinct pair of groups is ranked. The values are then stack- ranked from highest to lowest. A combined rank is generated for each distinct pair of groups by summing the ranks for that pair. The generated combined rank is stacked from lowest to highest. The groups that are included in the top five combined ranks are deemed to have significant changes in collaboration behavior.
 
-Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this insight category. This view allows you drill down further into the collaboration behaviors between specific groups and subgroups for the time period you selected. To enter this view, at the bottom left of the summary page, select **Explore more**.
+Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this insight category. This view allows you to drill down further into the collaboration behaviors between specific groups and subgroups for the time period you selected. To enter this view, at the bottom left of the summary page, select **Explore more**.
 
 ### Side-by-side view
 
@@ -315,7 +315,7 @@ For the ONA analysis, however, we perform multiple levels of aggregation on top 
 
 The aggregation takes place in the order listed above, whereby aggregation across time periods happens last, based on the time filters the user provides. 
 
-Let’s take a closer look at how each of these aggregations play out.
+Let’s take a closer look at how each of these aggregations plays out.
 
 **Aggregation of directional collaboration between groups**  
 
