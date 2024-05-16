@@ -73,7 +73,7 @@ If any user without admin privileges wishes to edit an existing connection, they
 
 ## Make a connection public or private
 
-To make a connection public (that is, usable by everyone in the organization) or private:
+If you're a Viva Goals admin, you can make a connection public (that is, usable by everyone in the organization) or private by following the below steps. Non-admin users do not have the option to share connections in this way.
 
 1. Go to **Admin** > **Integrations**.
 
