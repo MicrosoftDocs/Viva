@@ -1,6 +1,7 @@
 ---
 title: "Benchmarks in Viva Engage analytics"
 description: "Benchmarks reveal how your Viva Engage metrics perform compared to those of other organizations."
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 5/17/2024
 ms.reviewer: ethli
 ms.author: v-bvrana
