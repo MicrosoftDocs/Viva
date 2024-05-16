@@ -57,7 +57,7 @@ Data from an external source must meet the prerequisites listed here to be eligi
  
 ## 3. Map historical survey items
 
-Complete a mapping of historical and Viva Glint items to determine exactly where you'll see trend in reporting. [Learn more](https://go.microsoft.com/fwlink/?linkid=2230918).
+Complete a mapping of historical and Viva Glint items to determine exactly where you'll see trend in reporting. [Learn more](question-mapping.md).
 
 > [!IMPORTANT]
 > As you map items from the Question Library to historical items, include the Glint question ID, which is available in Question Library exports. You will need these IDs to prepare your Raw Score File.
