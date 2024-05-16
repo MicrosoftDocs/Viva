@@ -73,7 +73,7 @@ After you configure the connection, the next step is to link OKRs to your GitLab
 
 1. Select the method you want to use measure progress: **percent complete** or **KPI (success metric)**. If you choose KPI, provide a metric, starting value, and target value.
 
-1. If there are multiple connectoins, select one. All *associated projects* will be available in the drop-down. Choose a **Project** and select a **Milestone**.
+1. If there are multiple connections, select one. All *associated projects* will be available in the drop-down. Choose a **Project** and select a **Milestone**.
   
     <!--:::image type="content" source="../media/goals/10/gitlab-new-connection-details.png" alt-text="Screenshot shows where you add GitLab connection details." lightbox="../media/goals/10/gitlab-new-connection-details.png":::-->
 
