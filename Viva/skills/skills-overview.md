@@ -30,11 +30,9 @@ If you’d like to learn more or apply for the Skills in Viva preview, contact y
 
 To help ensure a productive preview that enables Skills in Viva to meet and exceed your company's goals, the following are the requirements for private preview participation: 
 
-1. Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
-
-2. More than 100 end users who are licensed for either Viva Suite or Viva Learning.  
-
-3. End users included in the Skills preview program have Viva Learning deployed and available for use.
+- Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
+- More than 100 users who are licensed for either Viva Suite or Viva Learning.  
+- EnUsers included in the Skills preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
 > - Private preview is available only in English (en-US). The default language for Viva Learning must also be English (en-US) for this preview 
@@ -53,7 +51,7 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 
 ## Sharing and management of Skills data
 
-See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for available admin controls for sharing and management of Skills data.
+See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for information about sharing and management of Skills data.
 
 > [!NOTE]
 > When individual users confirm skills in their skills experience available at [Skills in Viva (cloud.microsoft)](https://skills.cloud.microsoft), those skills will be visible to people in your organization when they use upcoming skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) and other Microsoft Viva products. 

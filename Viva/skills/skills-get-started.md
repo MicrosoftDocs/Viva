@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/16/2024
+ms.date: 05/17/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -19,133 +19,70 @@ description: An introduction to setting up Skills in Viva,
 
 # Set up skills in Viva 
 
-Start setting up Skills in Viva by building your skills library with skills from the default skills library in Viva and/or importing your own custom skills. 
+Start setting up Skills in Viva by building your skills library with skills from the default skills library in Viva or importing your own custom skills. 
 
-## Get started
+## Create your skills library
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
+2. Select **Manage skills library**, and then select **Get started**.  
+3. Read the overview, then select **Next**.
+4. Choose the skills you want to use from the default skills library. The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Choose one of the following, and then select **Next**.
 
-2. Select **Manage skills library**.  
+   - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
+   - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: A minimum of 500 skills is recommended.)  
 
-3. Select **Get started** to begin building your library.  
+5. Import your custom skills library. Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
 
-4. Read the setup overview, then select **Next** to walk through each setup step.
-
-## Use the default skills library 
-
-Choose the skills you want to use from the default skills library in Viva. The more skills you include from the default library, the more specific suggestions users see in their skills profiles. 
-
-- **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
-
-- **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: a minimum of 500 skills is recommended.)  
-
-## Import your custom skills library  
-
-Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
-
-1. Select **Download library template** and **Download mapping template**. 
-
-2. Populate the templates with your skills data.  
-
-   - Library template:  
-      - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
-      - Recommended fields: Skill Description (Description.en_US)  
-      
-   - Mapping template:  
-      - Required fields: Job Title (JobTitle), Skill ID (SkillExternalCode) 
-      - Optional, for reference only: Skill Name (SkillName.en_US) 
-
-3. Save as a .csv (comma separated) file and upload to a SharePoint site.  
-
-    1. Open the SharePoint Site library.
-
-    1. Select **Upload** at the top of the documents library, and then select **Files**.  
-
-    1. Navigate to the location where you saved the .csv file. Select the file, and then select **Open**.    
-
-    Alternatively, you could use the drag and drop feature to upload files to your SharePoint site.  
-
-4. Get the file paths for your .csv files. 
-
-    1. Select the file, and then select the **ellipsis** (…).
-
-    2. Select **Details**.  
-
-    3. Scroll to find the **Path**.  
-
-    4. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
-
-5. Paste the file paths for both files into the Skills custom import step. Delete any "%20" strings in the file path.
-
-6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
-
-> [!NOTE]
-> - The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint. 
-> - A minimum of 20 skills are required to import custom skills. Each file must be under 100mb. 
-> - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
-> - **Skill ID (externalCode)** must map to **Skill ID (SkillExternalCode)** in the role to skill mapping file.  
-> - **JobTitle** should match user profile job titles in Microsoft Entra ID or Organizational Data in Microsoft 365. If your organization doesn't have fresh and complete data in this field for users, update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
-> - When saving .csv files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
-> - Delete any "%20" strings that are present in your pasted filepaths. 
-
-## Review your organization's skills library
-
-Review your organization’s skills library details and select Next. The data includes:  
-
-  - The number of skills from the default skills library in Viva  
-
-  - The number of skills and number of roles/job titles from your custom import  
-
-  - The number of duplicate skills identified in your selection.  In the case of duplicates, your organization’s custom data is prioritized and used over data from the default skills library in Viva.
-
-## Manage settings 
-
-You can use the settings for Skills in Viva to manage the availability of skills in your organization. 
-
-  > [!NOTE]
-  > While turning on the skills library for users is recommended at this step, it’s not required to complete setting up Skills in Viva. You can complete setup and create your skills library without making it available to users right away.  
-
-1. Select **Turn on skills library** to make skills available in supported Microsoft 365 and Viva experiences.  
-
-    1. If you turn on the skills library, once the setup process is complete and you have confirmed your selections, your skills library is created, and users can search for and add skills to their profiles within a matter of minutes.  
-
-    1. If you don't turn on the skills library, the skills library is still created upon completion of the wizard, but it won't be available to users in your organization until you choose to publish it from **Settings.**
-
-2. For skills to appear in Viva Learning, you must also select to **Allow skills in Viva Learning**.  
-
-   - This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills."
+   1. Select **Download library template** and **Download mapping template**. 
+   2. Populate the templates with your skills data.  
+      - Library template:  
+         - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
+         - Recommended fields: Skill Description (Description.en_US)  
+      - Mapping template:  
+         - Required fields: Job Title (JobTitle), Skill ID (SkillExternalCode) 
+         - Optional, for reference only: Skill Name (SkillName.en_US) 
+        > [!NOTE]
+  > - You need a minimum of 20 skills to import custom skills. Each file must be under 100mb. 
+   > - The following characters can't be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
+   > - **Skill ID (externalCode)** must map to **Skill ID (SkillExternalCode)** in the role to skill mapping file.  
+   > - **JobTitle** should match user profile job titles in Microsoft Entra ID or Organizational Data in Microsoft 365. If you don't have fresh and complete data in this field, update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions will be.  
+   > - When saving .csv files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
+   3. Save the templates as .csv (comma separated) files and upload them to a SharePoint site.  
+   4. Get the file paths for your .csv files. 
+       1. Select the file, and then select the ellipsis (**...**).
+       2. Select **Details**, and then scroll to find the **Path**.  
+       3. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
+   5. In the Microsoft 365 admin center, paste the file paths for both files into the paths fields. Delete any "%20" strings in the file paths.
+   6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
    > [!NOTE]
-   > This action can't be reversed. It can take up to three business days for this change to reflect In Viva Learning.  
+   > The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint. 
 
-3. Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
-   >[!NOTE]
-   > This is a premium Viva Insights scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing).
+6. Review your organization’s skills library details and select **Next**. The data includes:  
 
-4. Users receive **skill suggestions** relevant to their role on default.  
+     - The number of skills from the default skills library  
+     - The number of skills and number of roles/job titles from your custom import  
+     - The number of duplicate skills identified in your selection. If you have duplicates, your organization's custom data is prioritized over data from the default skills library in Viva.
+7. Select **Turn on the skills library** to let your users can see and access skills in supported Microsoft 365 experiences. This is an optional step - if you don't turn on skills now, your skills library is still created, but it's not visible to users. You can make skills available to your users later by publishing the skills library from **Settings**.
+8. Specify where else you want skills information to appear, and then select **Next**.
+   - Select **Allow skills in Viva Learning** to make skills information visible in Viva Learning. [Learn more about skills-based learning inViva Learning](/viva/learning/skills-in-learning).
 
-    1. When skill suggestions are *on* for users, users can turn it off for themselves in their skill settings. When skill suggestions are turned *off*, the user won't see any suggested skills and can only manually confirm skills from a list. 
+      This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills." This action can't be reversed. 
 
-    1. Skill suggestions are *on* for users by default.  If you need to disable skill suggestions for specific users, groups, or your entire tenant, you can update this setting by using an access control policy. For more information, see [control access to features in Viva](../feature-access-management.md).
+      It can take up to three business days for this change to reflect In Viva Learning.  
+   - Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
+
+      > [!NOTE]
+   >This is a premium Viva Insights scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing) Users receive **skill suggestions** relevant to their role by default. Users can control whether they see these suggestions in their skill settings. When skill suggestions are turned *off*, the user won't see any suggested skills and can only manually confirm skills from a list. 
+   >
+   - You can disable skill suggestions for specific users, groups, or your entire tenant by using an access control policy. For more information, see [control access to features in Viva](../feature-access-management.md).
     
-    - Install Exchange Online PowerShell Version 3.2.0 or later:
-    `Install-Module -Name ExchangeOnlineManagement`  
-    - Connect to Exchange Online with admin credentials: 
-    `Connect-ExchangeOnline`
-    - Create a policy to disable skill suggestions for users or groups.  
-    `Add-VivaModuleFeaturePolicy -ModuleId VivaSkills -FeatureId UserOptOutPreference -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com -UserIds user1@contoso.com,user2@contoso`
 
-    This example adds a policy that disables skills suggestions for the specified users and group members. If you want to disable skills suggestions for all users, use the `-Everyone` parameter instead. 
+10. Review your skills library and settings information. If there are any changes you want to make, go back to those steps and edit.  
 
-4. Select **Next**. 
+    When you're ready, select **Confirm**.  
 
-#### Final review and confirmation 
-
-1. Review your skills library and settings information. If there are any changes you want to make, go back to those steps and edit.  
-
-2. When you're ready to complete the setup process, select **Confirm**.  
-
-Your skills library is created, and your settings are saved.  You can now manage your library and settings on an ongoing basis.
+Your skills library is created, and your settings are saved. You can now manage your library and settings on an ongoing basis.
 
 
 ### Next Steps
