@@ -25,6 +25,8 @@ Use prepopulated or blank templates to begin setting up your feedback program. C
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17rE8]
 
+A well-designed survey asks questions that are relevant to the employee experience, align with your company's strategic priorities, and elicits candid and actionable feedback. Learn what Viva People Science has to share about creating a great survey. [Read this eBook about Microsoft Viva Glint survey design principles](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf)
+
 ## [Plan ahead for platform releases and shutdowns](/../../viva/glint/setup/monthly-release-dates)
 
 Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring update emails to customers provide details about what's upcoming to the Viva Glint platform. Releases include scheduled downtime for the platform. 
