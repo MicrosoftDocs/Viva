@@ -53,8 +53,7 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 ## Configure and review privacy and security settings
 
-The Engage administrator (Yammer administrator) can manage Viva Engage content and security settings.
-For details, see [Overview of security & compliance for Viva Engage](/viva/engage/manage-security-and-compliance/security-and-compliance).
+The Engage admin (Yammer administrator) can manage data, privacy, and security settings in Viva Engage. For details, see [Overview of security & compliance](/viva/engage/manage-security-and-compliance/security-and-compliance).
 
 ## Set up Viva Engage
 
@@ -65,12 +64,6 @@ From the Microsoft 365 admin center, you can:
 - Assign [Engage and Answers admins](eac-key-admin-roles-permissions.md)
 - Pin Viva Engage in Teams
 - Manage other settings in Viva Engage
-
-
-## Configure privacy and security settings
-
-The Engage admin (Yammer administrator) can manage data, privacy, and security settings in Viva Engage. Learn how to protect Viva Engage data and comply with evolving legal and regulatory standarts in this [overview of security & compliance](/viva/engage/manage-security-and-compliance/security-and-compliance).
-
 
 ## Install Viva Engage
 
@@ -85,7 +78,7 @@ The Microsoft Teams admin can to deploy and pin the app for all users, or for pa
 
 ### Install or access Viva Engage on other surfaces
 
-You can direct users to other installation options, such as:
+You can direct users to these other installation options:
 
 - [Install the Viva Engage desktop app](https://prod.support.services.microsoft.com/en-au/office/install-the-viva-engage-desktop-app-66ccb412-ca1d-4e43-872c-9705abf11b1b)
 - [Install Viva Engage on your iOS or Android phone](https://support.microsoft.com/en-us/office/set-up-viva-engage-on-your-mobile-phone-e52e65ad-14fa-4db9-b8f7-80fe3f6e25a7)
@@ -93,14 +86,12 @@ You can direct users to other installation options, such as:
 
 ## Customize the appearance for Viva Engage in the Teams store
 
-You can customize the appearance for the following properties of the Viva Engage app in the Teams app store:
+Customizing the Viva Engage app is a good choice for companies that tailor their network branding to fit their corporate identity. From the Teams app store, you can customize the appearance for the following Viva Engage properties:
 
 - app name
 - app description
 - app icons
 - accent color
-
-Customizing the Viva Engage app is ideal for companies that tailor their network branding to fit their corporate identity.
 
 > [!NOTE]
 > Currently, customizations don't affect the Viva Engage app branding that appears _within_ the Viva Engage Experience. Learn more about [customizing details of an app](/MicrosoftTeams/customize-apps#customize-details-of-an-app).
@@ -110,4 +101,4 @@ Customizing the Viva Engage app is ideal for companies that tailor their network
 Review the contents of the [Viva Engage Adoption page](https://adoption.microsoft.com/en-us/viva/engage/) to help you get started, train and engage your organization, build champions, and secure your environment. If you’re setting up the premium Viva Engage experience, you’ll need to assign admin roles specific to Viva Engage to ensure usage and successful adoption of its many premium features
 
 ### See also
-[Admin roles and permissions in Viva Engage](eac-key-admin-roles-permissions.md)
+[Manage administrator roles and permissions in Viva Engage](eac-key-admin-roles-permissions.md)
