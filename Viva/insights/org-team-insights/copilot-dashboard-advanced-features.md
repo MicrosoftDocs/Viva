@@ -1,5 +1,5 @@
 ---
-ms.date: 5/6/2024
+ms.date: 5/17/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -175,7 +175,7 @@ At the top of the page, you’ll see tallies for **Active Copilot users**, **Cop
 
 * **Copilot actions taken**: The total number of actions taken using Copilot across Microsoft 365 apps.
 
-* **Copilot assisted hours**: This is an estimate of the total time employees were assisted by using Copilot over the past 28 days. Employees can re-invest time savings from Copilot in learning, training, skilling, and having a greater business impact. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The metric should be viewed as a general estimate based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available. See more information on the calculation below.
+* **Copilot assisted hours**: This is an estimate of the total time employees were assisted by using Copilot over the past 28 days. Employees can re-invest time savings from Copilot in learning, training, skilling, and having a greater business impact. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [Microsoft’s research on Copilot users](https://www.microsoft.com/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). The metric should be viewed as a general estimate based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available. Select **How do we estimate this** to see a breakdown of how the total figure is calculated. See more information on the calculation below.
 
 #### Details on the "Copilot assisted hours" metric
  
@@ -405,12 +405,12 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 
 * Scope: Scope is populated using the "ManagerID" field from Entra ID by default. If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the ManagerID from the uploaded data file is used to populate selections available for “Your group.”
 
-* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Department" field is used in the dashboard. If the file is not uploaded, the field uses the organization field from Entra ID.
+* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Organization" field is used in the dashboard. If the file is *not* uploaded, the field uses the "Department" field from Entra ID.
 
 * Job function: If the Insights admin uploads an [organizational data file](../advanced/admin/prepare-org-data.md), the uploaded "FunctionType" field is used in the dashboard. If the file is *not* uploaded, the field is not available as a filter in the dashboard.
 
 **Which apps are the Copilot chat metrics based on?**
-Copilot chat metrics are based on use of Copilot with Graph-ground chat across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. All prompts submitted via Copilot with Graph-grounded chat are counted towards Copilot chat usage in the Copilot Dashboard, in alignment with the [Copilot Usage report in the Microsoft 365 Admin Center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage). Copilot chat metrics do *not* include usage of [Microsoft Copilot with commercial data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Copilot with Graph-grounded chat usage and thus useage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with commercial data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
+Copilot chat metrics are based on use of Copilot with Graph-ground chat across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. All prompts submitted via Copilot with Graph-grounded chat are counted towards Copilot chat usage in the Copilot Dashboard, in alignment with the [Copilot Usage report in the Microsoft 365 Admin Center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage). Copilot chat metrics do *not* include usage of [Microsoft Copilot with commercial data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Copilot with Graph-grounded chat usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with commercial data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
 
 **Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
