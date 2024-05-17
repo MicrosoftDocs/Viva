@@ -38,7 +38,7 @@ Let's dive in to this advanced set of features.
 
 * At least 10 licenses of Viva Insights SKUs should be assigned before the dashboard is enabled. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md). To see more meaningful insights, you should enable at least 100 licenses.
 
-### Access and manage user access to the dashboard
+## Access and manage user access to the dashboard
 
 *Applies to: Microsoft 365 global admin*
 
