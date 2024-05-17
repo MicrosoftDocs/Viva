@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/15/2024
+ms.date: 5/17/2024
 ---
 
 # Set up and customize Viva Glint programs
@@ -35,6 +35,6 @@ The release schedule is subject to change and is updated, as appropriate.
 Check the Table of Contents to find:
 
 - **Validated Viva Glint survey templates**
-- **Non-validated, but commonly used Viva Glint survey templates**
+- **Non-templated, but commonly used Viva Glint surveys**
 - **Setting up Program Summary for engagement-type surveys**
 - **Setting up Program Summary for Employee Lifecycle surveys**
