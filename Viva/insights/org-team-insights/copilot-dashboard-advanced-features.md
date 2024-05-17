@@ -1,5 +1,5 @@
 ---
-ms.date: 5/16/2024
+ms.date: 5/17/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -405,7 +405,7 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 
 * Scope: Scope is populated using the "ManagerID" field from Entra ID by default. If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the ManagerID from the uploaded data file is used to populate selections available for “Your group.”
 
-* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Department" field is used in the dashboard. If the file is not uploaded, the field uses the organization field from Entra ID.
+* Organization: If the Insights admin [uploads organizational data](../advanced/admin/prepare-org-data.md), the uploaded "Organization" field is used in the dashboard. If the file is *not* uploaded, the field uses the "Department" field from Entra ID.
 
 * Job function: If the Insights admin uploads an [organizational data file](../advanced/admin/prepare-org-data.md), the uploaded "FunctionType" field is used in the dashboard. If the file is *not* uploaded, the field is not available as a filter in the dashboard.
 
