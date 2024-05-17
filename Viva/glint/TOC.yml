@@ -156,8 +156,9 @@ items:
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
   - name: Create survey programs
-    href: setup/customize-program.md
-    items:
+    items: 
+      - name: Set up and customize programs
+        href: setup/customize-program.md
       - name: Plan for monthly releases
         href: setup/monthly-release-dates.md
       - name: Use validated templates
