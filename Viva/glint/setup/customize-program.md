@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 3/15/2024
+ms.date: 5/17/2024
 ---
 
 # Set up and customize Viva Glint programs
@@ -24,6 +24,8 @@ Use prepopulated or blank templates to begin setting up your feedback program. C
 ## Watch this 5-minute video on Best Practice Survey Design Principles:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17rE8]
+
+A well-designed survey asks questions that are relevant to the employee experience, align with your company's strategic priorities, and elicits candid and actionable feedback. Learn what Viva People Science has to share about creating a great survey. [Read this eBook about Microsoft Viva Glint survey design principles](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf)
 
 ## [Plan ahead for platform releases and shutdowns](/../../viva/glint/setup/monthly-release-dates)
 
@@ -35,6 +37,6 @@ The release schedule is subject to change and is updated, as appropriate.
 Check the Table of Contents to find:
 
 - **Validated Viva Glint survey templates**
-- **Non-validated, but commonly used Viva Glint survey templates**
+- **Non-templated, but commonly used Viva Glint surveys**
 - **Setting up Program Summary for engagement-type surveys**
 - **Setting up Program Summary for Employee Lifecycle surveys**
