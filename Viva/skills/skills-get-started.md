@@ -26,12 +26,15 @@ Start setting up Skills in Viva by building your skills library with skills from
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
 2. Select **Manage skills library**, and then select **Get started**.  
 3. Read the overview, then select **Next**.
-4. Choose the skills you want to use from the default skills library. The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Choose one of the following, and then select **Next**.
+4. Choose the skills you want to use from the default skills library. 
+   :::image type="content" source="..media/skills-default-skills-library.svg" alt-text="A screenshot that shows the screen where you choose which of the default skills you want to include in your skills library.":::
+   The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Choose one of the following, and then select **Next**.
 
    - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
    - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: A minimum of 500 skills is recommended.)  
 
 5. Import your custom skills library. Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
+   :::image type="content" source="..media/skills-custom-import.png" alt-text="A screenshot that shows the screen where you create your custom skills library.":::
 
    Select **Download library template** and **Download mapping template**. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and get the paths to those completed files.
 
@@ -51,6 +54,9 @@ Start setting up Skills in Viva by building your skills library with skills from
    If everything looks correct, select **Next**.
 7. Select **Turn on skills library** to let your users add skills to their profiles. This is an optional step - if you don't turn on skills now, your skills library is still created, but it's not visible to users. You can make skills available to your users later by publishing the skills library from **Settings**.
 8. Specify where else you want skills information to appear, and then select **Next**.
+
+   :::image type="content" source="..media/skills-manage-skills.png" alt-text="A screenshot that shows the screen where you manage the availability of skills information.":::
+
    - Select **Allow skills in Viva Learning** to make skills information visible in Viva Learning. [Learn more about skills-based learning inViva Learning](/viva/learning/skills-in-learning).
 
       This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills." This action can't be reversed. 
@@ -100,6 +106,6 @@ Before you get started, review the following information:
    2. Select **Details**, and then scroll to find the **Path**.  
    3. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
 
-### Next Steps
+### Next steps
 
 [Manage your skills library](manage-skills-library.md)
