@@ -218,23 +218,23 @@ Under the Learning tab, here you find research around the impacts of AI on workp
 
 ## FAQs
 
-**Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
+**Q1. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
 
 No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [other advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
 
-**Does the report use Viva Insights data to create any of the metrics?**
+**Q2. Does the report use Viva Insights data to create any of the metrics?**
 
 No, the report does not use any Viva Insights data in the process of computing the metrics shown. The report is based on your Microsoft 365 tenant’s usage and licensing data and is made available to you as part of your Microsoft 365 or Office 365 subscription.
 
-**In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
+**Q3. In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
 
 Your Microsoft 365 admin has not uploaded any survey data for your organization. Use the steps above to upload it.
 
-**What is the time frame for the data in the Microsoft Copilot Dashboard?**
+**Q4. What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
 The dashboard displays data for a rolling 28-day period.
 
-**I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
+**Q5. I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
 First, check in the Microsoft 365 admin center that you have one of these roles:
 
@@ -250,7 +250,7 @@ First, check in the Microsoft 365 admin center that you have one of these roles:
 
 If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID.
 
-**I’m having issues with the dataset refresh/app update during the update process in Power BI. What should I do?**
+**Q6. I’m having issues with the dataset refresh/app update during the update process in Power BI. What should I do?**
 
 Use these steps to refresh the dataset and make sure your dataset configurations are set correctly:
 
