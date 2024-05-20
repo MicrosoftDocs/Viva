@@ -1,5 +1,5 @@
 ---
-ms.date: 11/14/2022
+ms.date: 05/20/2024
 title: Security, privacy, and compliance in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
