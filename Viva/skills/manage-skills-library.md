@@ -28,6 +28,8 @@ You can manage your skills library by adding and deleting skills from the defaul
 2. Select **Manage skills library**, and then select **Settings**. 
 3. Select **Skills library** in the Settings tab to view and manage availability of skills in your organization.  
 
+   :::image type="content" source="./media/skills-manage-skills.svg" alt-text="A screenshot that the Manage Settings screen where you manage the settings for your skills library.":::
+
    1. Select **Turn on skills library** to make the skills library available in your users' profiles.
    
    Clear **Turn on skills library** to turn off skills. Users won't be able to search for and add new skills or receive skills suggestions. They'll still have access to their confirmed and dismissed skills.
