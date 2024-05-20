@@ -98,7 +98,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
    |Card Name    |Toolbox icon   | Description  |
    |:------------|:-------------:|:--------------|
    |[Approvals](#add-the-approvals-card) | ![Image of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) for vacation requests, sign off on documents, and approve expense reports.     |
-   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f) to manage your team's work, assign tasks, and track tasks.     |
+   |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](/microsoftteams/manage-planner-app) to manage your team's work, assign tasks, and track tasks.     |
    |[Card designer](#design-your-own-card-with-the-card-designer) | ![Image of the card designer icon.](../media/connections/create-dashboard/card-designer-card-icon.png) | Create your own cards or use quick views for a more interactive experience utilizing the [adaptive cards framework.](/adaptive-cards/templating/)|
    |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
    |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
@@ -226,7 +226,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 4. A preview of how the card looks on the dashboard displays to the left of the options.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-quickview-layout.png" alt-text="Screenshot selecting "show the quick view" from a dropdown of options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-quickview-layout.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-quickview-layout.png" alt-text="Screenshot selecting show the quick view from a dropdown of options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-quickview-layout.png":::
 
    > [!NOTE]
    >
@@ -278,7 +278,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 3. In the **API endpoint**, enter the REST URL endpoint you wish to use.
 
-    For example, if you wanted to retrieve the profile and photo of a specific user, you would enter the Microsoft Graph REST URL `me/photo/$value` in the **API Endpoint** field. See more [common use cases in 1.0 for Microsoft Graph REST API](/graph/api/overview?view=graph-rest-1.0&source=recommendations#common-use-cases) here.
+    For example, if you wanted to retrieve the profile and photo of a specific user, you would enter the Microsoft Graph REST URL `me/photo/$value` in the **API Endpoint** field. See more [common use cases in 1.0 for Microsoft Graph REST API](/graph/api/overview?view=graph-rest-1.0&source=recommendations#common-use-cases&preserve-view=true) here.
 
 4. The **Data JSON response preview** will open and display the code used and a preview of how the card looks on the dashboard appears to the left of the property pane.
 
@@ -308,7 +308,7 @@ The Approvals card connects to [Approvals in Microsoft Teams](https://support.mi
 
 ## Add the Assigned tasks card
 
-The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](https://support.microsoft.com/office/assign-and-track-tasks-in-teams-56014efe-3283-4f13-a57f-1157c5e25f1f).
+The Assigned tasks card enables automatic display of information to users about their assigned tasks. This information is retrieved from the [Tasks app in Teams](/microsoftteams/manage-planner-app).
 
 ![Example of an assigned tasks card.](../media/connections/assigned-tasks-card-example.png)
 
