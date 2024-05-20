@@ -153,7 +153,7 @@ The card designer has a set of card view templates that can be used to easily cr
     - **Medium**: the default card size and allows you to add one button to the Heading and Description templates.
     - **Large**: takes the space of two medium cards together and allows the use of two buttons.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-layout-and-size.png" alt-text="Screenshot showing options under the layout and size category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-layout-and-size.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-layout-and-size.png" alt-text="Screenshot showing options under the layout and size category in the properties pane.":::
 
 7. Under **Card icon** select one of the following options:
     - **Custom image**: Select **custom image** then **Change** to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
@@ -169,9 +169,10 @@ The card designer has a set of card view templates that can be used to easily cr
 9. Enter a **Heading**.
 
 10. Depending on the template type chosen, enter values for the properties corresponding to your selection below the heading field. For this example, the image template is being shown:
+
     - **Image**: Select **change** to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
 
-       :::image type="content" source="../media/connections/create-dashboard/card-designer-adding-image.png" alt-text="Screenshot showing options under the card content category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-adding-image.png":::
+       :::image type="content" source="../media/connections/create-dashboard/card-designer-adding-image.png" alt-text="Screenshot showing options under the card content category in the properties pane.":::
 
 11. Under card action, select an action to be performed when a user selects the card. Depending on the action selected, more fields will appear to customize the action.
 
@@ -200,11 +201,11 @@ The card designer has a set of card view templates that can be used to easily cr
 
     For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
 
-    :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-set-card-actions.png":::
+    :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane.":::
 
 14. Under **Audiences to target** enter one or more groups to target so only those audiences specified see the card in the dashboard. See the article on [audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections) for more information.
 
-    :::image type="content" source="../media/connections/create-dashboard/card-designer-audience-targeting.png" alt-text="Screenshot showing options under the audience targeting category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-audience-targeting.png":::
+    :::image type="content" source="../media/connections/create-dashboard/card-designer-audience-targeting.png" alt-text="Screenshot showing options under the audience targeting category in the properties pane.":::
 
 15. Select **Save** to save the updates to your card.
 
@@ -234,7 +235,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 5. In the **Template JSON** field, enter your JSON code that contains the structure of your Adaptive Card.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-template-json.png" alt-text="Screenshot showing the quick view options in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-template-json.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-template-json.png" alt-text="Screenshot showing the quick view options in the properties pane.":::
 
 6. Under **Type of Content**, select one of the following options for your data set:
     - **Static**: displays static information and must be manually updated.
@@ -436,19 +437,19 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
    - **Recommended for current user**: will display news posts for the current user from people the user works with; managers in the chain of people the user works with, mapped against the user's own chain of management and connections; the user's top 20 followed sites; and the user's frequently visited sites.
 
-        :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane."lightbox="../media/connections/news-card-properties.png":::
+        :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane.":::
 
 ## Add the People card
 
 The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
 
-   :::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
+:::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2. Select **People** from the dashboard toolbox.
 
-    ![Screenshot of the People card icon.](../media/connections/people-card-icon-border.png)
+   ![Screenshot of the People card icon.](../media/connections/people-card-icon-border.png)
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
 
@@ -456,7 +457,7 @@ The People Search card will automatically retrieve contact information from memb
 
 5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-      :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane."lightbox="../media/connections/people-card-properties.png":::
+   :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane.":::
 
 ## Add the Events card
 
@@ -464,7 +465,7 @@ The events card can help your users stay informed and engaged with upcoming even
 
 The Events card is tied to the SharePoint Events web part. Site owners and members will need to access their SharePoint site and use the SharePoint Events web part to add events to their site. For more information, see the article on [using the Events web part](https://support.microsoft.com/office/5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
-   :::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events."lightbox="../media/connections/events-card-demo.png":::
+:::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events."lightbox="../media/connections/events-card-demo.png":::
 
 > [!NOTE]
 > Recurring events are not supported, even if you manually set up a recurrence in the events list that you are using. You'll need to create a new event for each occurrence.
@@ -481,7 +482,7 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 
 5. Enter a **Title** for the event card.
 
-      :::image type="content" source="../media/connections/events-card-properties.png" alt-text="Screenshot of the Events card properties pane."lightbox="../media/connections/events-card-properties.png":::
+      :::image type="content" source="../media/connections/events-card-properties.png" alt-text="Screenshot of the Events card properties pane.":::
 
 6. Under Content, select a **Source** for your events: **Events list on this site**, **This site**, **This site collection**, **Select sites**, or **All sites**. If your site is connected to a hub site, you will also have an option to select **All sites in the hub** or **Select sites from the hub**.
 
@@ -496,15 +497,15 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 
 8. Select a date range by which to filter your events in the **Date range** drop-down list. You can choose **All upcoming events** (the default), **This week**, **Next two weeks**, **This month**, or **This quarter**.
 
-      :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane."lightbox="../media/connections/events-card-content.png":::
+   :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane."lightbox="../media/connections/events-card-content.png":::
 
 9. Under the layout section, select how many events to be shown at once from the dropdown. Up to 30 events can be shown on one event card.
 
-      :::image type="content" source="../media/connections/events-card-layout.png" alt-text="Screenshot of the layout section in the Events card properties pane."lightbox="../media/connections/events-card-layout.png":::
+   :::image type="content" source="../media/connections/events-card-layout.png" alt-text="Screenshot of the layout section in the Events card properties pane.":::
 
 10. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), **enable audience targeting**. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-      :::image type="content" source="../media/connections/events-card-audience-targeting.png" alt-text="Screenshot of the audience targeting section in the Events card properties pane."lightbox="../media/connections/events-card-audience-targeting.png":::
+    :::image type="content" source="../media/connections/events-card-audience-targeting.png" alt-text="Screenshot of the audience targeting section in the Events card properties pane.":::
 
 11. When finished with your selection, you can close the panel. Your settings will autosave.
 
