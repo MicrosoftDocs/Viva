@@ -19,35 +19,28 @@ description: An introduction to managing your organization's skills library.
 
 # Manage skills library
 
-You can manage your skills library by adding and deleting skills from the default skills library. You can also import, export, and delete skills from your custom skill library. 
+You can manage your skills library by adding and deleting skills from the default skills library. You can import, export, and delete skills from your custom skill library. You can also control whether skills are available for users.
 
 
-## Manage settings  
+## Manage where skills are available and skills suggestions
 
-1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
+2. Select **Manage skills library**, and then select **Settings**. 
+3. Select **Skills library** in the Settings tab to view and manage availability of skills in your organization.  
 
-2. Select **Manage skills library**.  
-
-3. Select the **Settings** tab.  
-
-4. Select **Skills library** in the Settings tab to view and manage availability of skills in your organization.  
-
-   - **Turn on skills library**
-        
-      - Select **Turn on skills library** to make the skills library available in your users' profiles.
-      
-      - Clear **Turn on skills library** to turn off skills in your organization. Users won't be able to search for and add new skills or receive skills suggestions. They'll still have access to their confirmed and dismissed skills.
+   1. Select **Turn on skills library** to make the skills library available in your users' profiles.
+   
+   Clear **Turn on skills library** to turn off skills. Users won't be able to search for and add new skills or receive skills suggestions. They'll still have access to their confirmed and dismissed skills.
     
-   - **Allow skills in Viva Learning**
-      - Select this option to replace "interests" in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills." 
+   2. Select **Allow skills in Viva Learning** to replace "interests" in Viva Learning with skills information. Any existing "interests" data is deleted, and users see this replaced with "skills." 
 
       > [!NOTE]
       > This action can't be reversed. It can take up to three business days for changes to reflect in Viva Learning.  
-   - **Turn on skills in Viva Insights**. Learn more about the skills landscape report in Viva Insights. Select this option to enable sending skills data to Viva Insights.
+   3. Select **Turn on skills in Viva Insights** (if available in your tenant) to send skills data to Viva Insights. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
    - 
 5. Select **Skill suggestions** to see details about the settings. Users receive **skill suggestions** relevant to their role by default.  
 
-    When skill suggestions are enabled, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, the user won't see any suggested skills and will only be able to manually confirm skills from a list. 
+    When skill suggestions are enabled, users have the option to turn it off for themselves in their skill settings. When skill suggestions are turned off, users don't see any suggested skills and can only manually confirm skills from a list. 
 
     If you need to disable skill suggestions for specific users, groups, or your entire tenant, create an access control policy. For more information, see [control access to features in Viva](../feature-access-management.md).
 
@@ -55,57 +48,25 @@ You can manage your skills library by adding and deleting skills from the defaul
 
 Your skills library is managed in two parts. You can add and delete skills you’ve selected from the default skills library in Viva, and you can reimport custom skills.  
 
-## Manage default skills library in Viva  
+### Manage default skills library in Viva  
 
 View and manage the skills you selected from the default skills library in Viva. The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Our recommendation is to use all 7,000+ skills, with a minimum of 500 skills.
 
-## View your current skill selection  
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Viva** > **Manage skills library**.  
-
-3. Select the **Skills library** tab.  
-
-4. Select **Skills library** in Viva.  
-
-5. Review the list. You can filter by domain and search by skill name.
-
-## Add skills from the default skills library 
-
-1. In the Microsoft 365 admin center, go to **Settings** > **Viva** > **Manage skills library**.  
-
-3. Select the **Skills library** tab.  
-
-4. Select **Skills library** in Viva.  
-
-5. Select **+ Add Skills**.  
-
-6. Select the skills you want to add. You can filter by domain and search by skill name.  
-
-7. Select **Add** to immediately add the skills to your library.  
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
+2. Select **Manage skills library**, and then select **Skills library**, and then **Skills library** again. 
+3. . Review the list. You can filter by domain and search by skill name.
+4. To add skills, select **+ Add Skills**. Select the skills you want to add. You can filter by domain and search by skill name. Select **Add**.  
 
    > [!NOTE]
    > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to be reflected in suggested skills for users and in Viva Learning.  
+5. To delete skills, select the skills you want to delete. You can filter by domain and search by skill name. Select **Delete skills**. Select **Delete** again to confirm you want to delete the selected skills. 
+
+  > [!NOTE]
+  > - Deleting skills will immediately remove the skills and associated skills data from your organization and from your users' experience.
+  > - If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
 
 8. Select **Done**.
-
-## Delete skills from the default skills library   
-
-1. In the Microsoft 365 admin center, go to **Settings** > **Viva** > **Manage skills library**.  
-
-3. Select the **Skills library** tab.  
-
-4. Select **Skills library** in Viva.  
-
-5. Select the skills you want to delete. You can filter by domain and search by skill name.  
-
-6. Select **Delete skills**. 
-
-7. Select **Delete** to confirm you want to delete the selected skills. 
-
-> [!NOTE]
-> - Deleting skills will immediately remove the skills and associated skills data from your organization and from your users' experience.
-> - If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
-
 
 ## Manage custom skills import 
 
