@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/19/2024
+ms.date: 05/16/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -69,6 +69,18 @@ To allow or block specific users in your organization from using Viva Learning, 
 ## Deploy Viva Learning to your users
 
 Viva Learning is available to users from the Microsoft Teams app store. [Learn how to add apps to Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+## Enable progress tracking for recommendations 
+
+You can enable and disable progress tracking for recommendations for your users.
+
+In the Microsoft Admin Center, go to: 
+
+1. **Settings** > **Viva** > **Viva Learning**.
+
+2. Select **Manage additional settings in Viva Learning**.
+
+3. Check or uncheck the following setting: **Allow users to track their recommended trainings.** 
 
 ## Next steps
 
