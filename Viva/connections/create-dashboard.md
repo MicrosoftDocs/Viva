@@ -120,7 +120,7 @@ Quick view is a powerful tool that enables the card designer to create cards tha
 >
 > To design your own cards using quick view, you should be familiar with JSON and Adaptive Card templates. For more information, see [Adaptive Cards Templating](/adaptive-cards/templating/).
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-card-example.png" alt-text="Screenshot showing an example of a large card created with the card designer for celebrating birthdays with a button to congratulate displayed."lightbox="../media/connections/create-dashboard/card-designer-card-example.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-card-example.png" alt-text="Screenshot showing an example of a large card created with the card designer for celebrating birthdays with a button to congratulate displayed." lightbox="../media/connections/create-dashboard/card-designer-card-example.png":::
 
 ### Use a card template
 
@@ -136,7 +136,7 @@ The card designer has a set of card view templates that can be used to easily cr
 
 4. As you create your card through selecting options, a preview of how the card looks will appear to the left of the options.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-properties-overview.png" alt-text="Screenshot showing an overview of the card designer properties pane."lightbox="../media/connections/create-dashboard/card-designer-properties-overview.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-properties-overview.png" alt-text="Screenshot showing an overview of the card designer properties pane." lightbox="../media/connections/create-dashboard/card-designer-properties-overview.png":::
 
 5. Under **Template type**, select one of three **templates** to apply:
     - **Heading**: Create a card with a simple heading.
@@ -227,7 +227,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 4. A preview of how the card looks on the dashboard displays to the left of the options.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-quickview-layout.png" alt-text="Screenshot selecting show the quick view from a dropdown of options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-quickview-layout.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-quickview-layout.png" alt-text="Screenshot selecting show the quick view from a dropdown of options under the actions category in the properties pane." lightbox="../media/connections/create-dashboard/card-designer-quickview-layout.png":::
 
    > [!NOTE]
    >
@@ -253,7 +253,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 3. Select **Save** to your updates.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-static-content-preview.png" alt-text="Screenshot showing static content selected with the Data JSON field displayed in the properties pane and a preview of the finished card."lightbox="../media/connections/create-dashboard/card-designer-static-content-preview.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-static-content-preview.png" alt-text="Screenshot showing static content selected with the Data JSON field displayed in the properties pane and a preview of the finished card." lightbox="../media/connections/create-dashboard/card-designer-static-content-preview.png":::
 
 #### Selecting Dynamic as the type of content with SharePoint as the data source
 
@@ -267,7 +267,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 4. In the Audiences to target field, enter any audiences you wish to target the card to.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-dynamic-sharepoint-api.png" alt-text="Screenshot showing dynamic content selected with SharePoint API as the endpoint and the Data JSON field displayed in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-dynamic-sharepoint-api.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-dynamic-sharepoint-api.png" alt-text="Screenshot showing dynamic content selected with SharePoint API as the endpoint and the Data JSON field displayed in the properties pane." lightbox="../media/connections/create-dashboard/card-designer-dynamic-sharepoint-api.png":::
 
 5. Select **Save** to save your updates to your custom card.
 
@@ -285,7 +285,7 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
 
 5. In the **Audiences to target** field, enter any audiences you wish to target the card to.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-dynamic-graph-api.png" alt-text="Screenshot showing dynamic content selected with Microsoft Graph API as the endpoint and the Data JSON field displayed in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-dynamic-graph-api.png":::
+   :::image type="content" source="../media/connections/create-dashboard/card-designer-dynamic-graph-api.png" alt-text="Screenshot showing dynamic content selected with Microsoft Graph API as the endpoint and the Data JSON field displayed in the properties pane." lightbox="../media/connections/create-dashboard/card-designer-dynamic-graph-api.png":::
 
 6. Select **Save** to save updates to your custom card.
 
@@ -443,7 +443,7 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
 The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
 
-:::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information."lightbox="../media/connections/people-card-demo.png":::
+:::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information." lightbox="../media/connections/people-card-demo.png":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
@@ -465,7 +465,7 @@ The events card can help your users stay informed and engaged with upcoming even
 
 The Events card is tied to the SharePoint Events web part. Site owners and members will need to access their SharePoint site and use the SharePoint Events web part to add events to their site. For more information, see the article on [using the Events web part](https://support.microsoft.com/office/5fe4da93-5fa9-4695-b1ee-b0ae4c981909).
 
-:::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events."lightbox="../media/connections/events-card-demo.png":::
+:::image type="content" source="../media/connections/events-card-demo.png" alt-text="Screenshot demonstrating the Events card as it displays upcoming events." lightbox="../media/connections/events-card-demo.png":::
 
 > [!NOTE]
 > Recurring events are not supported, even if you manually set up a recurrence in the events list that you are using. You'll need to create a new event for each occurrence.
@@ -497,7 +497,7 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 
 8. Select a date range by which to filter your events in the **Date range** drop-down list. You can choose **All upcoming events** (the default), **This week**, **Next two weeks**, **This month**, or **This quarter**.
 
-   :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane."lightbox="../media/connections/events-card-content.png":::
+   :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane." lightbox="../media/connections/events-card-content.png":::
 
 9. Under the layout section, select how many events to be shown at once from the dropdown. Up to 30 events can be shown on one event card.
 
