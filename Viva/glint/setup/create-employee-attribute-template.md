@@ -70,7 +70,7 @@ The first page of the template contains instructions for building your own templ
 | **Schema** | The framework in our platform’s backend, which stores a mapping of your organization’s attributes. |
 
 ## Next step
-After finalizing your attribute selections, reporting hierarchies, file and date attribute format, set up attributes in Viva Glint to create a mapping of your employee attributes and allow your data files to upload.
+After finalizing your attribute selections, reporting hierarchies, and file and date attribute formats, review your employee data with a Viva Glint checklist.
 
 > [!div class="nextstepaction"]
-> [Setup attributes in Viva Glint](send-employee-attributes.md)
+> [Review your data with a checklist](data-checklist.md)
