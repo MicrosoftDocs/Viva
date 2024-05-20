@@ -54,8 +54,8 @@ View and manage the skills you selected from the default skills library in Viva.
 
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
-2. Select **Manage skills library**, and then select **Skills library**, and then **Skills library** again. 
-3. . Review the list. You can filter by domain and search by skill name.
+2. Select **Manage skills library**. Select the **Skills library** tab, and then select **Skills library in Viva**. 
+3. Review the list. You can filter by domain and search by skill name.
 4. To add skills, select **+ Add Skills**. Select the skills you want to add. You can filter by domain and search by skill name. Select **Add**.  
 
    > [!NOTE]
@@ -63,23 +63,17 @@ View and manage the skills you selected from the default skills library in Viva.
 5. To delete skills, select the skills you want to delete. You can filter by domain and search by skill name. Select **Delete skills**. Select **Delete** again to confirm you want to delete the selected skills. 
 
   > [!NOTE]
-  > - Deleting skills will immediately remove the skills and associated skills data from your organization and from your users' experience.
+  > - Deleting skills immediately removes the skills and associated skills data from your organization and from your users' experience.
   > - If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in Viva Learning.
 
 8. Select **Done**.
 
-## Manage custom skills import 
+### Manage custom skills import 
 
 Manage your custom skills library and role-to-skills mapping import. If you didn't import custom skills as a part of your initial setup, you can add it later. This step is optional if you’ve selected skills from the default skills library in Viva.  
 
-#### View custom import details 
-
-
-1. In the Microsoft 365 admin center, go to **Settings** > **Viva** > **Manage skills library**.  
-
-3. Select the **Skills library** tab.  
-
-4. Select **Custom skills**. You can filter by role and search by skill name.  
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
+2. Select **Manage skills library**. Select the **Skills library** tab, and then select **Custom skills**. You can filter by role and search by skill name.  
 
 5. Select **View details** to see an overview of your imported files, who completed the import, and the import date.  
 
@@ -88,50 +82,39 @@ Manage your custom skills library and role-to-skills mapping import. If you didn
 Follow these steps to either import your custom skills library for the first time or to reimport with changes to your initial custom import.
 
 > [!NOTE]
-> - Reimporting custom skills library will override existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description will be treated as a deletion of the old skill and the addition of a new skill.
+> - Reimporting custom skills library overwrites existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description are treated as a deletion of the old skill and the addition of a new skill.
 > - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
 
-1. In the Microsoft 365 admin center, select **Settings** and then select **Viva**.  
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
+2. Select **Manage skills library**. Select the **Skills library** tab, and then select **New import**.  
 
-2. Select **Manage skills library**.  
-
-3. Select the **Skills library** tab.  
-
-4. Select **New import**.  
-
-5. Select **Download library template** and **Download mapping template.** 
-
-6. Populate the templates with your skills data.  
-
-   - Library template:  
-
-      - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
-      - Recommended fields: Skill Description (Description.en_US)  
-
-   - Mapping template:  
-      - Required fields: Job Title (JobTitle), Skill ID (SkillExternalCode)
-      - Optional, for reference only: Skill Name (SkillName.en_US))  
-
-3. Save as a .csv (comma separated) file and upload to a SharePoint site.  
-    1. Open the SharePoint Site library.
-    1. Select **Upload** at the top of the documents library, and then select **Files**.  
-    1. Navigate to the location where you saved the .csv file. Select the file, and then select **Open**.    
-
-    Alternatively, you could use the drag and drop feature to upload files to your SharePoint site.  
-
-4. Get the file paths for your .csv files. 
-    1. Select the file, and then select the **ellipsis** (…).
-    2. Select **Details**.  
-    3. Scroll to find the **Path**.  
-    4. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
+3. Select **Download library template** and **Download mapping template.** 
+4. Open the template files you downloaded.
+5. Add the skills for your custom skills library into the library template.   
+   - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
+   - Recommended fields: Skill Description (Description.en_US)  
+6. Add the mapping information for jobs and their corresponding skills into the mapping template.      
+   - Required fields: Job Title (JobTitle), Skill ID (SkillExternalCode) 
+   - Optional, for reference only: Skill Name (SkillName.en_US) 
   
-9. Paste the file path for both files into the Skills custom import step. Delete any "%20" strings in the file path.
+7. Save the templates as .csv (comma separated) files to a secure SharePoint location.
+   
+   Make sure you use commas as the delimiter. Your system might default to a different separator. In European countries, for example, it's often set to a semicolon `;`.
 
+8. Get the file paths for your .csv files. 
+   1. Select the file, and then select the ellipsis (**...**).
+   2. Select **Details**, and then scroll to find the **Path**.  
+   3. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
+9. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
 10. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
+
+   > [!NOTE]
+   > - The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint.
+   > - If you see a "file not found" error, try deleting "%20" strings from your pasted file paths. 
 
 11. Review your custom skills data.  
 
-12. Select the option to acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on. Any new skills are added, and any deleted or missing skills in the import file are removed from your users’ experience, and all data associated with these skills are also be removed.  
+12. Acknowledge that importing custom skills will immediately impact your users’ experience if skills is turned on.  
 
 13. Select **Confirm** to import.  
 
@@ -143,8 +126,6 @@ If your library is published for users, the changes are reflected within 24 hour
 > - The following characters cannot be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 > - Skill ID (externalCode) in the library file must map to Skill ID (SkillExternalCode) in the role to skill mapping file.  
 > - JobTitle should match user profile job titles in Microsoft Entra ID  or Organizational Data in Microsoft 365. If your organization does not have fresh and complete data in this field for users, please update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions will be. 
-> - When saving CSV files for custom imports, ensure you use the comma `,` as the delimiter (CSV comma delimited). Your system may default do a different separator. In European countries, for example, it's often set to a semicolon `;`.
-> - Delete any "%20" strings that are present in your pasted file paths. 
 
 
 ### Export custom import  
