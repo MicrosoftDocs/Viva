@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 05/02/2024
+ms.date: 05/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -58,7 +58,8 @@ You can use feature access management to manage access to the following features
 \* The feature or feature control might not yet be available for all tenants. Support will be added soon.
 
 > [!NOTE]
-> You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
+> - You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
+> - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other features generally take effect within 24 hours.
 
 ## Requirements
 
@@ -175,7 +176,7 @@ Here's how access policies work in Viva:
    2. Feature is enabled.
    3. Feature is enabled, and the user can opt out.
 - If users are in nested groups and you apply access policies to the parent group, the users in the nested groups receive the policies. The nested groups and the users in those nested groups must be created in or synchronized to Microsoft Entra ID.
-- Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature.
+- Changes to access policies take effect for the user within 24 hours, unless otherwise noted for a specific feature. Changes for Copilot in Viva Engage might take up to 48 hours.
 - When you add users to or remove them from a Microsoft Entra ID or Microsoft 365 Group, it can take 24 hours before changes to their feature access take effect.
 - When an admin removes the option for users to opt out by fully enabling or disabling the feature, the user’s opt in/out preference isn't preserved and will be reset to the default state. If an admin re-enables the option allowing a user to opt out of a feature, users will need to select to opt out of the feature again.
 - Quick changes to the enablement state for a feature in less than 24 hours after making the change may not result in the resetting of user opt in/out preferences.
