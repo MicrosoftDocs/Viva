@@ -59,7 +59,7 @@ You can use feature access management to manage access to the following features
 
 > [!NOTE]
 > - You can only control access to features that support access policies *and* that are available in your tenant. For example, if you have an EDU-based tenant, you cannot use policies to gain access to features that are not available to EDU tenants. The same applies for features that are unavailable in specific geographies. Check the documentation for the specific feature that you'd like to use for more information about its availability.
-> - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other Viva apps generally take effect within 24 hours.
+> - Changes to the Copilot in Viva Engage feature might take up to 48 hours to take effect. Changes for other features generally take effect within 24 hours.
 
 ## Requirements
 
