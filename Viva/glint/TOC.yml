@@ -193,6 +193,8 @@ items:
         items:
           - name: Set up a Microsoft Viva Glint Magnet survey
             href: setup/magnet-rn-excellence.md
+          - name: Set up a Distress Survey
+            href: setup/distress-survey.md
       - name: Set up Engagement surveys
         href: setup/program-summary-overview.md
         items:
