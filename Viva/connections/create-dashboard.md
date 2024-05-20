@@ -175,36 +175,36 @@ The card designer has a set of card view templates that can be used to easily cr
 
 11. Under card action, select an action to be performed when a user selects the card. Depending on the action selected, more fields will appear to customize the action.
 
-> [!NOTE]
->
-> The card action cannot be disabled.
+   > [!NOTE]
+   >
+   > The card action cannot be disabled.
 
-- **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
+   - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
 
-> [!NOTE]
->
-> One quick view is available for each card, which can be opened as the card action, or by using a button.
+   > [!NOTE]
+   >
+   > One quick view is available for each card, which can be opened as the card action, or by using a button.
 
-- **Go to a link**: Enter a URL that users will be directed to.
-- **Go to teams app**: the user will be directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app. See the article on how to [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id) for more information).
+   - **Go to a link**: Enter a URL that users will be directed to.
+   - **Go to teams app**: the user will be directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app. See the article on how to [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id) for more information).
 
-For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
+   For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
 
 12. Under **Link**, enter the **URL** you wish users to be directed to.
 
 13. Buttons can be toggled on and off (where available). If enabled, the same values found under card action can be selected for the **Primary** and **Secondary** buttons.
 
-> [!NOTE]
->
-> When using a medium sized card, only one button can be enabled using the heading or description template. The image template will disable the use of buttons when medium size is selected.
+    > [!NOTE]
+    >
+    > When using a medium sized card, only one button can be enabled using the heading or description template. The image template will disable the use of buttons when medium size is selected.
 
-For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
+    For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-set-card-actions.png":::
+    :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-set-card-actions.png":::
 
 14. Under **Audiences to target** enter one or more groups to target so only those audiences specified see the card in the dashboard. See the article on [audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections) for more information.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-audience-targeting.png" alt-text="Screenshot showing options under the audience targeting category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-audience-targeting.png":::
+    :::image type="content" source="../media/connections/create-dashboard/card-designer-audience-targeting.png" alt-text="Screenshot showing options under the audience targeting category in the properties pane."lightbox="../media/connections/create-dashboard/card-designer-audience-targeting.png":::
 
 15. Select **Save** to save the updates to your card.
 
@@ -240,9 +240,9 @@ To get started, follow the steps in [Use a card template](#use-a-card-template) 
     - **Static**: displays static information and must be manually updated.
     - **Dynamic**: integrates with data sources from SharePoint API or Microsoft Graph to automatically update content.
 
-> [!NOTE]
->
-> Selecting **Dynamic** content will display additional options allowing you to select the data source and API endpoint.
+   > [!NOTE]
+   >
+   > Selecting **Dynamic** content will display additional options allowing you to select the data source and API endpoint.
 
 #### Selecting Static as the type of content
 
