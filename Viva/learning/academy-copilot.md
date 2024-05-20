@@ -45,7 +45,25 @@ Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Lear
 
 ## Language support 
 
-Microsoft Copilot Academy is currently only supported in English with a planned expansion to other languages. 
+Microsoft Copilot Academy is currently available in 8 Languages: 
+
+- English (United States)
+
+- Français (France)
+
+- Deutsch (Deutschland)
+
+- Italiano (Italia)
+
+- 日本語 (日本)
+
+- Português (Brasil)
+
+- Español (España)
+
+- 中文(中国)
+
+The language of Microsoft Copilot Academy is automatically determined based on the Viva Learning language. If an unsupported language is encountered, Microsoft Copilot Academy will fall back to a related language following Microsoft Corporate, External, and Legal Affairs guidelines.
 
 ## Create your own custom academy
 
