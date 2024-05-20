@@ -69,7 +69,7 @@ From the Microsoft 365 admin center, you can:
 
 ### Install Viva Engage in Teams
 
-The Microsoft Teams admin can to deploy and pin the app for all users, or for particular departments, through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). Setup policies allows users to easily set up Viva Engage themselves, using the following steps:
+The Microsoft Teams admin can deploy and pin the app for all users, or for particular departments, through a [Teams app setup policy](/microsoftteams/teams-app-setup-policies). Setup policies allow users to easily set up Viva Engage themselves, using the following steps:
 
 1. Open Teams on the web or in a desktop client.
 2. From the left side of Teams, select **Apps**.
