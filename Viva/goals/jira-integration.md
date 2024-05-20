@@ -1,6 +1,6 @@
 ---
-ms.date: 04/17/2022
-title: "Jira Cloud Integration"
+ms.date: 05/20/2024
+title: Jira Cloud Integration
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -16,7 +16,6 @@ ms.collection:
 - vg-integration
 search.appverid:
 - MET150
-
 description: "Learn how to integrate your OKRs in Viva Goals with Jira Views."
 ---
 
@@ -38,15 +37,15 @@ Here are two scenarios where teams see the benefit of Viva Goals integration wit
 Admins follow these steps to enable integration:
 
 1. From the sidebar, go to **Admin** and select the **Integrations** tab.
-    
+
     :::image type="content" source="../media/goals/9/viva-goals-integrations-page.png" alt-text="Screenshot of the integrations page in Viva Goals." lightbox="../media/goals/9/viva-goals-integrations-page.png":::
 
 1. In Jira, you'll have an option to **Enable** the integration. If a connection was made previously or if the integration was already enabled, you'll have the option to **Manage** the enabled integration.
-    
+
     :::image type="content" source="../media/goals/9/jira-enable-button.png" alt-text="Screenshot shows where you choose to enable Jira." lightbox="../media/goals/9/jira-enable-button.png":::
 
     The integration can be **disabled** from the same section: Go to **Change** and select **Disable integration** from the dropdown.
-    
+
     :::image type="content" source="../media/goals/9/jira-disable-button.png" alt-text="Screenshot shows how to disable Jira in Viva Goals." lightbox="../media/goals/9/jira-disable-button.png":::
 
 ## How to configure the Jira connection
@@ -54,11 +53,11 @@ Admins follow these steps to enable integration:
 After you enable the integration, the first step is to configure a Jira connection:
 
 1. Select **New Connection**, and provide a name for the connection.
-    
+
    :::image type="content" source="../media/goals/9/jira-new-connection-button.png" alt-text="Screenshot shows where you name your new Jira connection." lightbox="../media/goals/9/jira-new-connection-button.png":::
 
 1. Add the **Server URL** of your Jira account.
-    
+
     :::image type="content" source="../media/goals/9/jira-configure-new-connection.png" alt-text="Screenshot shows where you configure a new Jira connection." lightbox="../media/goals/9/jira-configure-new-connection.png":::
 
 1. For Jira instances in the cloud, enter the email address and the application programming interface (API) token associated with your Jira account. See the [instructions to generate an API token for your Jira cloud account](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
@@ -72,7 +71,7 @@ In most cases, one connection is enough. But Viva Goals allows you to connect wi
 After you configure a connection, the next step is to link OKRs to stories or epics in Jira:
 
 1. When you create or edit an OKR, select **Connect data source to auto-update progress**. From the drop-down menu, select **Jira**.
-    
+
     :::image type="content" source="../media/goals/9/select-jira-datasource.png" alt-text="Screenshot shows where you select Jira as the data source." lightbox="../media/goals/9/select-jira-datasource.png":::
 
 1. If you already created a connection or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
@@ -80,15 +79,15 @@ After you configure a connection, the next step is to link OKRs to stories or ep
 1. Select the method you want to use to measure the progress of the key result, percent complete or KPI (success metric). If you choose KPI, provide a metric, starting value, and target value.
 
 1. Select a connection, and add a JQL query to match any issues that would relate to the objective or key result. Jira issues that match the query will be linked to the success of the objective or key result.
-    
+
     :::image type="content" source="../media/goals/9/jira-connection-details.png" alt-text="Screenshot shows where you add a Jira query." lightbox="../media/goals/9/jira-connection-details.png":::
-    
+
     A JQL query can be copied from Jira. Search for issues you want to link to your objective by using the filters in Jira. Next, select the **Advanced** option, and Jira automatically converts your search into a JQL query. You can copy and paste the query string into your integration with Viva Goals.
 
    The JQL query linked to the objective or key result can be edited at any time. Any edit prompts a recalculation of current progress.
 
    > [!NOTE]
-   > If you're using Jira next-gen projects, support for JQL behaves differently compared to classic Jira projects. For example, a Jira next-gen project doesn't support querying based on Epic links. For this scenarios, Jira states: 
+   > If you're using Jira next-gen projects, support for JQL behaves differently compared to classic Jira projects. For example, a Jira next-gen project doesn't support querying based on Epic links. For this scenarios, Jira states:
    >
    >*Users should query on next-gen epics using the parent =. If you want to combine Epics from both project types, an example of such a query would be: "Epic Link" = NPC-6 OR parent = NJDP-5. The Parent field can now be selected as a column in the Global Issue Navigator and exported from Jira.*
 
@@ -114,11 +113,11 @@ If you choose to track progress by KPI, you can toggle between the option to mea
 
 ## Examples of how Jira integration works  
 
-Let's look at two different examples of how JIRA integration works. 
+Let's look at two different examples of how JIRA integration works.
 
 ### Example 1
 
-A product manager, Dana, links their objective (**Ship feature Email Campaigns**) with an epic in Jira. A simple JQL query used to set up the link could be: 
+A product manager, Dana, links their objective (**Ship feature Email Campaigns**) with an epic in Jira. A simple JQL query used to set up the link could be:
 
 "Epic Link" = AE-786  
   
@@ -138,11 +137,11 @@ The following colors of the progress bar indicate the status of the objective:
 
 Viva Goals pulls in new updates from Jira every 60 minutes. However, you can also manually refresh to pull in any new changes.
 
-## How to use the integration with initiatives 
+## How to use the integration with initiatives
 
 While objectives and key results tell you what your goal is and how you'll know when you get there, the initiatives functionality helps keep teams focused on day-to-day execution to achieve key results.
 
-### What are initiatives? 
+### What are initiatives?
 
 Initiatives help you keep track of all the work your organization executes to achieve your OKRs. Like key results, initiatives can  be created under objectives and under other key results in Viva Goals, depending on which outcome they help to achieve. To create an initiative, select **Add initiative** under the objective or key result.
 
@@ -154,7 +153,7 @@ Initiatives help you keep track of all the work your organization executes to ac
 
 Initiatives are always placed after objectives and key results at each level of the hierarchy.
 
-### How to integrate initiatives in Viva Goals and Jira 
+### How to integrate initiatives in Viva Goals and Jira
 
 Initiatives in Viva Goals currently support Jira, the popular project management system. Like the current Jira integration, you can specify JQL to retrieve the list of tasks from Jira that constitute your initiative.
 
@@ -172,7 +171,7 @@ Initiatives currently have the following limitations:
 - You can't clone initiatives, and you can't perform bulk actions like changing the time period on multiple initiatives at once.
 - Initiatives can have a maximum of 200 tasks.
 
-## How to track progress via Jira story points in Viva Goals 
+## How to track progress via Jira story points in Viva Goals
 
 As an organization adds complex initiatives, and it becomes increasingly challenging for teams to meet realistic deadlines. This is where initiative estimation comes handy. The estimation process doesn't have to be onerous. When it's done right, estimation catalyzes the accomplishment of multiple initiatives.
 
@@ -202,7 +201,7 @@ When you create or edit a key result in Viva Goals, choose the method you want t
 
 1. If you already created a connection or if your administrator shared a connection with you, that connection will be selected automatically. Viva Goals will prompt you to create a new connection only if there are no connections already created or shared.
 
-1. Provide the JQL, and from the drop-down menu for tracking progress, select **Story Points**. 
+1. Provide the JQL, and from the drop-down menu for tracking progress, select **Story Points**.
 
 1. The **Count only done tickets** checkbox will be selected by default. If you want to measure the progress of the key result by story points of the completed tickets in Jira, this option is handy. However, if you want to measure the progress of the key result by story points of all the tickets pertaining to the JQL in Jira irrespective of the completion status, clear the checkbox.
 
@@ -224,13 +223,12 @@ The status of initiatives will be updated automatically depending on the story p
 
 1. Select **Next** > **Save**.
 
-### Common questions about using Jira story points in Viva Goals 
+### Common questions about using Jira story points in Viva Goals
 
-**Can I track progress by the custom fields in my Jira instance?** 
+**Can I track progress by the custom fields in my Jira instance?**
 
 Yes, you can track the progress of key results and initiatives in Viva Goals by the custom field in your Jira instance. In addition to the metrics supported by Viva Goals, you can bring any numeric custom field from Jira to measure the progress.
 
-**What's the difference between story points and story point estimates?** 
+**What's the difference between story points and story point estimates?**
 
 Jira has two types of service projects: classic and next-gen. The estimation on classic projects is story points, and the estimation on next-gen projects is story point estimates.
-
