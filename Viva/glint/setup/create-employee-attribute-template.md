@@ -51,12 +51,12 @@ The following extensions are supported for files exported by your HRIS system:
 
 The first page of the template contains instructions for building your own template. Follow the guidance on the instruction page, the following tabs, and in the following table to set up your template.
 
->[!TIP]
->Your template is only the column headers. No employee data is needed at this point.
+> [!TIP]
+> Your template is only the column headers. No employee data is needed at this point.
 
 ### Definitions for Employee Attribute Template
 
-| **Term** | **Definition** |
+| Term | Definition |
 |---|---|
 | **Employee Attribute Template** | XLSX guidance for creating your organization’s file format and data selections, before setting up attributes in our platform. |
 | **Attribute** | Demographic details about employees. They're also referred to as filters in the platform. |
@@ -70,7 +70,7 @@ The first page of the template contains instructions for building your own templ
 | **Schema** | The framework in our platform’s backend, which stores a mapping of your organization’s attributes. |
 
 ## Next step
-After finalizing your attribute selections, reporting hierarchies, file and date attribute format, set up attributes in Viva Glint to create a mapping of your employee attributes and allow your data files to upload.
+After finalizing your attribute selections, reporting hierarchies, and file and date attribute formats, review your employee data with a Viva Glint checklist.
 
 > [!div class="nextstepaction"]
-> [Setup attributes in Viva Glint](send-employee-attributes.md)
+> [Review your data with a checklist](data-checklist.md)
