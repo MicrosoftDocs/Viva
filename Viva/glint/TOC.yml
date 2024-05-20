@@ -75,6 +75,8 @@ items:
              href: setup/hierarchy-fundamentals.md
            - name: Employee Attribute Template
              href: setup/create-employee-attribute-template.md
+           - name: Employee data file checklist
+             href: setup/data-checklist.md          
            - name: Set up attributes 
              href: setup/send-employee-attributes.md
            - name: Update attributes 
