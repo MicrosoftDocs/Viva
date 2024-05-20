@@ -47,9 +47,9 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 
 |Service plan |Enables |Comes with this product |
 |-------------------|---------|-------|
-|**Viva Engage Core**|Engage core experiences and the Answers in Viva core experiences <br> *Example:* Communities, storyline |Microsoft 365|
-|**Viva Employee Communities and Communications**|Engage premium experiences <br> *Example:* Leadership corner, AMAs (Ask Me Anything), storyline announcements, delegation, analytics, campaigns |Microsoft Viva Suite|
-|**Viva Engage Knowledge**|[Answers in Viva premium experience](/viva/engage/eac-answers-overview-set-up#licensing) |Microsoft Viva Suite|
+|**Viva Engage Core or Yammer enterprise**|Engage core experiences and the Answers in Viva core experiences <br> *Example:* Communities, storyline |Microsoft 365|
+|**Viva Employee Communities and Communications**|Engage premium experiences <br> *Example:* Leadership corner, AMAs (Ask Me Anything), storyline announcements, delegation, analytics, campaigns |Microsoft Viva Suite, Microsoft Viva Employee Communications and Communities |
+|**Viva Engage Knowledge**|[Answers in Viva premium experience](/viva/engage/eac-answers-overview-set-up#licensing) |Microsoft Viva Suite, Microsoft Viva Employee Communications and Communities, Viva Topics |
 
 ## Configure and review privacy and security settings
 
