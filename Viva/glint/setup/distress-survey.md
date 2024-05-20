@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Suggested content for a Viva Glint Distress Survey
+description: Addressing societal or global events which introduce instability into natural work patterns is essential. Create a Viva Glint Distress Survey.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
