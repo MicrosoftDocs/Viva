@@ -174,7 +174,7 @@ The card designer has a set of card view templates that can be used to easily cr
 
     - **Image**: Select **change** to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
 
-      ::image type="content" source="../media/connections/create-dashboard/card-designer-adding-image.png" alt-text="Screenshot showing options under the card content category in the properties pane.":::
+      :::image type="content" source="../media/connections/create-dashboard/card-designer-adding-image.png" alt-text="Screenshot showing options under the card content category in the properties pane.":::
 
 11. Under card action, select an action to be performed when a user selects the card. Depending on the action selected, more fields will appear to customize the action.
 
