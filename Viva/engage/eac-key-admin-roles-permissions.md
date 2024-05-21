@@ -6,7 +6,7 @@ ai-usage: ai-assisted
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 05/17/2023
+ms.date: 05/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,7 +23,12 @@ search.appverid:
 
 # Manage administrator roles in Viva Engage
 
-To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.  
+To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.
+
+>[!NOTE]
+>No Viva Engage licenses are required for admins to configure Viva Engage (core or premium).
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators (also called Yammer administrators in Microsoft Entra ID) are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+Other Viva Engage admin roles can also administer premium features without being assigned a premium license.
 
 *Select a role in the table to learn more about it.*
 
@@ -97,14 +102,14 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Create and manage official campaigns</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248)</li></ul>|
+|**Permissions** |<ul><li>Send announcements</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>Create and manage official campaigns:<ul><li>Publish draft campaigns to Active and viewable to the network</li><li>Set Active campaigns to Ended</li><li>Republish recurring campaigns from **Ended** to **Active**</li><li>Delete campaigns created by mistake</li><li>Update campaign assets (such as goal tracker, cover photo, hashtag theme colors, pinned posts, pinned resources and links</li><li>View campaign analytics</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
-|**How to assign**|Viva Engage admin center</li></ul>|
+|**How to assign**|In the Viva Engage admin center, on the **Setup and configuration** tab, select **Manage corporate communicators**. Select **Add user** to search for a user by name or email ID. Assignees appear in the list of active corporate communicators in your organization.|
 
 ## Community Administrator
 
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Permissions apply only to the communities to which the admin administers:<ul><li>[Add and remove members](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) and community admins.</li><li>Manage conversations, including marking best answers, removing posts, and closing posts to replies.</li><li>Manage settings, such as [customizing the community appearance](https://support.microsoft.com/en-us/office/customize-a-viva-engage-community-d74a23a1-c3aa-4b5f-abf7-61b912138609) and changing the default post type.</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248).</li></ul>
+|**Permissions** |Community admins only have permissions in their communities:<ul><li>[Add and remove members](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) and community admins.</li><li>Manage conversations, including marking best answers, removing posts, and closing posts to replies.</li><li>Manage settings, such as [customizing the community appearance](https://support.microsoft.com/en-us/office/customize-a-viva-engage-community-d74a23a1-c3aa-4b5f-abf7-61b912138609) and changing the default post type.</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248).</li></ul>
  |**Who can assign**|Engage admins can assign community admins. Additionally, any Engage user who creates a community is automatically assigned the community admin role. Community admins can assign up to 100 other community admins.<br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
