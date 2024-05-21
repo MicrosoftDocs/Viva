@@ -51,7 +51,7 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 
 ## Sharing and management of Skills data
 
-See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for information about sharing and management of Skills data.
+See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for information about how Skills data is shared and managed.
 
 > [!NOTE]
 > When individual users confirm skills in their skills experience available at [Skills in Viva](https://skills.cloud.microsoft), those skills will be visible to people in your organization when they use upcoming skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) and other Microsoft Viva products. 

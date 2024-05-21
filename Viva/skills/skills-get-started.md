@@ -33,10 +33,10 @@ Start setting up Skills in Viva by building your skills library with skills from
    - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
    - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: A minimum of 500 skills is recommended.)  
 
-5. Import your custom skills library. Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
+5. Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
    :::image type="content" source="../media/skills-custom-skills-import.png" alt-text="A screenshot that shows the screen where you create your custom skills library.":::
 
-   Select **Download library template** and **Download mapping template**. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and get the paths to those completed files.
+   Select **Download library template** and **Download mapping template**. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and then get the paths to those completed files.
 
    5. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
    6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
@@ -65,7 +65,7 @@ Start setting up Skills in Viva by building your skills library with skills from
    - Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
 
       > [!NOTE]
-   >This is a premium Viva Insights scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing) 
+   > This is a premium Viva Insights scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing) 
 
 9. Users receive **skill suggestions** relevant to their role by default. Users can control whether they see these suggestions in their skill settings. When skill suggestions are turned *off*, the user won't see any suggested skills and can only manually confirm skills from a list. 
 
@@ -91,11 +91,11 @@ Before you get started, review the following information:
 
 1. Open the template files you downloaded.
 1. Enter the skills for your custom skills library into the library template.   
-   - Required fields: Skill ID (externalCode), Skill Name (Name.en_US) 
-   - Recommended fields: Skill Description (Description.en_US)  
+   - Required fields: **Skill ID (externalCode)**, **Skill Name (Name.en_US)** 
+   - Recommended fields: **Skill Description (Description.en_US)**  
 3. Enter the mapping information for jobs and their corresponding skills into the mapping template.      
-   - Required fields: Job Title (JobTitle), Skill ID (SkillExternalCode) 
-   - Optional, for reference only: Skill Name (SkillName.en_US) 
+   - Required fields: **Job Title (JobTitle)**, **Skill ID (SkillExternalCode)** 
+   - Optional, for reference only: **Skill Name (SkillName.en_US)** 
   
 1. Save the templates as .csv (comma separated) files to a secure SharePoint location.
    
