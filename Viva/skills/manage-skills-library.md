@@ -34,7 +34,7 @@ You can manage your skills library by adding and deleting skills from the defaul
    
       Clear **Turn on skills library** to turn off skills. Users won't be able to search for and add new skills or receive skills suggestions. They'll still have access to their confirmed and dismissed skills.
     
-   2. Select **Allow skills in Viva Learning** to replace "interests" in Viva Learning with skills information. Any existing "interests" data is deleted, and users see this replaced with "skills." [Learn more about skills-based learning inViva Learning](/viva/learning/skills-in-learning).
+   2. Select **Allow skills in Viva Learning** to replace "interests" in Viva Learning with skills information. Any existing "interests" data is deleted, and users see this replaced with "skills." [Learn more about skills-based learning in Viva Learning](/viva/learning/skills-in-learning).
 
       > [!NOTE]
       > This action can't be reversed. 
@@ -86,8 +86,10 @@ Manage your custom skills library and role-to-skills mapping import. If you didn
 Follow these steps to either import your custom skills library for the first time or to reimport with changes to your initial custom import.
 
 > [!NOTE]
-> - Reimporting custom skills library overwrites existing data.  New skills will be added to your library. Deleted skills and any data associated with those skills will be immediately removed for your organization. Any changes to skill name or skill description are treated as a deletion of the old skill and the addition of a new skill.
+> - Reimporting custom skills library overwrites existing data. New skills will be added to your library. Deleted skills and any data associated with those skills will be deleted. Any updates to skill name or skill description will be reflected in the user's experience.
 > - The admin completing custom import must have permissions to view and edit the uploaded .csv files in SharePoint. 
+
+To import customs skills into Skills for Viva:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer), select **Settings**, and then select **Viva**.  
 2. Select **Manage skills library**. Select the **Skills library** tab, and then select **New import**.  

@@ -60,7 +60,7 @@ Start setting up Skills in Viva by building your skills library with skills from
 
    :::image type="content" source="../media/skills-manage-skills.jpg" alt-text="A screenshot that shows the screen where you manage the availability of skills information.":::
 
-   - Select **Allow skills in Viva Learning** to make skills information visible in Viva Learning. [Learn more about skills-based learning inViva Learning](/viva/learning/skills-in-learning).
+   - Select **Allow skills in Viva Learning** to make skills information visible in Viva Learning. [Learn more about skills-based learning in Viva Learning](/viva/learning/skills-in-learning).
 
       This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills." This action can't be reversed. 
 
@@ -89,8 +89,12 @@ Before you get started, review the following information:
 - You need a minimum of 20 skills to import custom skills. Each file must be under 100 mb. 
  - The following characters can't be used as a prefix in any imported field '+', '-', '@', '=', '\t', '\r' 
 - **Skill ID (externalCode)** in the library file must map to **Skill ID (SkillExternalCode)** in the role to skill mapping file.  
-- **JobTitle** should match user profile job titles in Microsoft Entra ID or Organizational Data in Microsoft 365. If you don't have fresh and complete data in this field, update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions are. 
+- **JobTitle** should match user profile job titles in Microsoft Entra ID or [Organizational Data in Microsoft 365](../organizational-data.md). If you don't have fresh and complete data in this field, update the system with the latest, either through Microsoft Entra ID or Organizational Data in Microsoft 365. The more accurately a title reflects a person's job, the more accurate skill suggestions are. 
+- Save your template files as .csv (comma separated) files, with no spaces in the file name.
 
+   Make sure you use commas as the delimiter. Your system might default to a different separator. In European countries, for example, it's often set to a semicolon `;`.
+
+To create your custom skills files:
 
 1. Open the template files you downloaded.
 1. Enter the skills for your custom skills library into the library template.   
@@ -100,14 +104,12 @@ Before you get started, review the following information:
    - Required fields: **Job Title (JobTitle)**, **Skill ID (SkillExternalCode)** 
    - Optional, for reference only: **Skill Name (SkillName.en_US)** 
   
-1. Save the templates as .csv (comma separated) files, with no spaces in the name, to a secure SharePoint location.
-   
-   Make sure you use commas as the delimiter. Your system might default to a different separator. In European countries, for example, it's often set to a semicolon `;`.
+1. Save the templates as .csv files in a secure SharePoint location.
 
 4. Get the file paths for your .csv files. 
    1. Select the file, and then select the ellipsis (**...**).
    2. Select **Details**, and then scroll to find the **Path**.  
-   3. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Folder%20Name/Skills%20Library.csv`
+   3. Select the option to copy the selected file's path to the Clipboard. The file path should be formatted like this: `https://contoso.sharepoint.com/TeamAdmin/Shared%20Documents/Skills_Library.csv`
 
 ### Next steps
 
