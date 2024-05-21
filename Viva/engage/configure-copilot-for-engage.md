@@ -48,13 +48,14 @@ To control access to Copilot and AI Summarization services, Microsoft Global adm
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
+Changes to the Copilot in Viva Engage feature can take up to 48 hours to take effect. Changes to AI Summarization generally take effect within 24 hours.
+
 ### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization are controlled separately and can be turned on or off. For AI Summarization, admins can create access policies that support a third enablement state–-enabled with an option for users to opt out.
+Copilot and AI Summarization are controlled separately and can be turned on or off. For AI Summarization, admins can create access policies that support a third enablement state–-enabled with an option for users to opt out. 
 
 >[!NOTE]
 >Copilot and Network analytics both use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
-
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
