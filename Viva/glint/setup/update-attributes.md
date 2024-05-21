@@ -114,7 +114,7 @@ To edit optional system attributes after your initial setup:
 > [!NOTE]
 > This feature is planned to be available after June 1, 2024.
 
-Use the **Visibility** setting to edit whether a a custom attribute appears:
+Use the **Visibility** setting to edit whether a custom attribute appears:
 
 - On a user's profile selected from the People page.
 - In exports of users in a survey cycle.
