@@ -21,7 +21,7 @@ description: An introduction to Skills in Viva.
 
  Skills in Viva is an AI-powered service in the Microsoft Viva Suite that delivers personalized skills-based experiences throughout supported Microsoft 365 and Viva applications for employees, business leaders, and HR. 
 
-It uses data from Microsoft 365 profiles and the [Microsoft Graph](/graph/overview) combined with skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions to users, while providing you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
+It uses data from Microsoft 365 profiles and the [Microsoft Graph](/graph/overview) combined with skills from the [LinkedIn Skills Graph](https://engineering.linkedin.com/blog/2022/building-linkedin-s-skills-graph-to-power-a-skills-first-world) to predict a user’s skills and offer tailored skill suggestions to users. At the same time, Skills in Viva provides you with a better understanding of your organization’s current workforce skills distribution. Learn more about [Skills in Viva](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/introducing-ai-powered-skills-in-microsoft-viva-a-new-way-to/ba-p/3947844). 
 
 
 If you’d like to learn more or apply for the Skills in Viva preview, contact your Microsoft representative. 
@@ -35,7 +35,7 @@ To help ensure a productive preview that enables Skills in Viva to meet and exce
 - EnUsers included in the Skills preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
-> - Private preview is available only in English (en-US). The default language for Viva Learning must also be English (en-US) for this preview 
+> - Private preview is available only in English (en-US). The default language for Viva Learning must also be English (en-US) for this preview.
 > - When you enable skills, all users in your tenant lose “Interests” they have selected in Viva Learning. The interests data is deleted - users instead see skills. You cannot reverse this action.
 
 
