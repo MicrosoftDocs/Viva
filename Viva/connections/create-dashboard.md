@@ -502,7 +502,7 @@ The Events card is tied to the SharePoint Events web part. Site owners and membe
 
 8. Select a date range by which to filter your events in the **Date range** drop-down list. You can choose **All upcoming events** (the default), **This week**, **Next two weeks**, **This month**, or **This quarter**.
 
-   :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane." lightbox="../media/connections/events-card-content.png":::
+   :::image type="content" source="../media/connections/events-card-content.png" alt-text="Screenshot of the content section in the Events card properties pane.":::
 
 9. Under the layout section, select how many events to be shown at once from the dropdown. Up to 30 events can be shown on one event card.
 
