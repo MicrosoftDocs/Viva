@@ -98,7 +98,7 @@ The **My Learning** tab helps users take control of their learning journey. User
 
 - **Recommended to you**: Recommendations from your peers show up here.
 
-- **Bookmarks**: Content bookmarked by the user displays here.
+- **Bookmarks**: Content bookmarked by the user is displayed here.
 
 - **Recently viewed**: The user's 20 most recently viewed items are shown under this tab. The most recently viewed item is shown first.
 
@@ -106,6 +106,6 @@ The **My Learning** tab helps users take control of their learning journey. User
 
 ## Feature sets
 
-To create a set of featured content that displays for your users, select **Create featured set** in the top left corner. 
+To create a set of featured content that is displayed for your users, select **Create featured set** in the top left corner. 
 
 ![Screenshot of the create feature set within Viva Learning.](../media/learning/feature-set.png)
