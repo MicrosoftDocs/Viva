@@ -102,7 +102,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |------------|-----------------|
-|**Permissions** |<ul><li>Create and manage official campaigns</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248)</li></ul>|
+|**Permissions** |Send announcements<br>[Identify leaders and their audiences](/viva/engage/leadership-identification)<br>Create and manage official campaigns:<ul><li>Publish draft campaigns to Active and viewable to the network</li><li>Set Active campaigns to Ended</li><li>Republish recurring campaigns from **Ended** to **Active**</li><li>Delete campaigns created by mistake</li><li>Update campaign assets (such as goal tracker, cover photo, hashtag theme colors, pinned posts, pinned resources and links</li><li>View campaign analytics</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
 |**How to assign**|In the Viva Engage admin center, on the **Setup and configuration** tab, select **Manage corporate communicators**. Select **Add user** to search for a user by name or email ID. Assignees appear in the list of active corporate communicators in your organization.|
 
