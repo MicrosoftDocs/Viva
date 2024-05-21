@@ -43,7 +43,9 @@ As a foundational component of Microsoft Viva Engage, the Core Service Plan prov
 - Microsoft Viva Employee Communications and Communities
 
 >[!NOTE]
->Administrators do not need a premium Viva Engage license to configure premium Viva Engage and Answers experiences. Learn more about [managing licenses in Microsoft 365](/Viva/engage/manage-engage-licenses-microsoft-365).
+>Note: No Viva Engage licenses are required for admins to configure Viva Engage (core or premium).
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators (also called Yammer administrators in Microsoft Entra ID) are exempt from needing a Viva Engage Core or premium license to access the Engage website (https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+Other Viva Engage admin roles can also administer premium features without being assigned a premium license. 
 
 |Service plan |Enables |Comes with this product |
 |-------------------|---------|-------|
@@ -101,4 +103,6 @@ Customizing the Viva Engage app is a good choice for companies that tailor their
 Review the contents of the [Viva Engage Adoption page](https://adoption.microsoft.com/en-us/viva/engage/) to help you get started, train and engage your organization, build champions, and secure your environment. If you’re setting up the premium Viva Engage experience, you’ll need to assign admin roles specific to Viva Engage to ensure usage and successful adoption of its many premium features
 
 ### See also
+
 [Manage administrator roles and permissions in Viva Engage](eac-key-admin-roles-permissions.md)
+[Manage licenses in Microsoft 365](/Viva/engage/manage-engage-licenses-microsoft-365)
