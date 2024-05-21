@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/18/2024
+ms.date: 05/21/2024
 ---
 
 # Viva Glint reporting features
@@ -108,7 +108,7 @@ The colors in the Heat Map are meant to allow quick identification of systemic p
   - Gray would be 64-68 with the other shades being in between
     *(For changes and differences, the middle gray is used for 0 change or difference. 	Dark red is used for the biggest negative difference/change, and dark blue for the 	biggest positive change, and the other color buckets are evenly spaced between the 	maximum/minimum values and 0 on either side.)* 
 
-## [Understand aggregate trending](https://go.microsoft.com/fwlink/?linkid=2234925)
+## [Understand aggregate trending](https://go.microsoft.com/fwlink/?linkid=2272343)
 
 Aggregate trending supplies historical data over time. A trend point reflects matching items from one cycle to the cycle immediately preceding it. Changing items within an aggregate (group) interrupts trend. 
 
