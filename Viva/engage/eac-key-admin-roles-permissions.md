@@ -23,7 +23,12 @@ search.appverid:
 
 # Manage administrator roles in Viva Engage
 
-To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.  
+To perform administrative tasks and facilitate many of the premium features in Viva Engage, users need to be assigned specific roles. The table below describes each of the admin roles in Viva Engage and the business functions they enable.
+
+>[!NOTE]
+>No Viva Engage licenses are required for admins to configure Viva Engage (core or premium).
+Unlike Viva Engage users, Microsoft 365 Global administrators and Engage administrators (also called Yammer administrators in Microsoft Entra ID) are exempt from needing a Viva Engage Core or premium license to access the [Engage website](https://engage.cloud.microsoft), the Engage admin center, or legacy network admin center.
+Other Viva Engage admin roles can also administer premium features without being assigned a premium license.
 
 *Select a role in the table to learn more about it.*
 
@@ -99,7 +104,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 |------------|-----------------|
 |**Permissions** |<ul><li>Create and manage official campaigns</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248)</li></ul>|
 |**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
-|**How to assign**|Viva Engage admin center</li></ul>|
+|**How to assign**|In the Viva Engage admin center, on the **Setup and configuration** tab, select **Manage corporate communicators**. Select **Add user** to search for a user by name or email ID. Assignees appear in the list of active corporate communicators in your organization.|
 
 ## Community Administrator
 
