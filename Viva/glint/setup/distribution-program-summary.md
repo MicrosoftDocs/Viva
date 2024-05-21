@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/09/2024
+ms.date: 05/21/2024
 ---
 
 # Set up Distribution in Program Summary
@@ -52,4 +52,4 @@ Use the search panel to select Distribution Lists. Remember that Distribution Li
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2230977)
+> [Schedule setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231341)
