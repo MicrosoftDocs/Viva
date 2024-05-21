@@ -57,7 +57,7 @@ Adding a provider requires either a Global Admin or Knowledge Admin role. Review
 You can edit or delete an existing configured provider directly from **Manage providers**. 
 
 
-> [!NOTE]:
+> [!NOTE]
 > - There are some configuration fields you can't edit once a provider is configured. These fields are unique identifier for each provider connection.
 > - By making them non-editable, we make sure that each provider is uniquely pointed to a single data source to prevent data duplication or loss.
 > - If you are required to edit these fields, reconfigure the provider.
