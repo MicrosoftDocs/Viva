@@ -33,13 +33,16 @@ Start setting up Skills in Viva by building your skills library with skills from
    - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
    - **Select specific skills**: This option lets you choose specific domains and skills within domains to include; however, choosing a subset of skills may limit the number of skill options and suggestions available to your users. (Note: A minimum of 500 skills is recommended.)  
 
-5. Choose whether you’d like to import your own custom skills library. This step is optional if you selected skills from the default skills library in Viva.  
+5. If you want to use a custom skills library, download the template files. Select **Download library template** and **Download mapping template**.  
+
+   (This step is optional if you selected skills from the default skills library in Viva. Click **Next** to skip this step.)
+
    :::image type="content" source="../media/skills-custom-skills-import.png" alt-text="A screenshot that shows the screen where you create your custom skills library.":::
 
-   Select **Download library template** and **Download mapping template**. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and then get the paths to those completed files.
+   
+6. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and then get the paths to those completed files.
 
-   5. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. 
-   6. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
+   Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields. Select **Next** to begin file validation. If there's a problem with the file, you see an error message at this step.  
 
    > [!NOTE]
    > - The admin importing your custom skills information must have permissions to view and edit the uploaded .csv files in SharePoint.
