@@ -4,7 +4,7 @@ title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced 
