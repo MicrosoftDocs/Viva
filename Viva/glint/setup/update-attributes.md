@@ -123,13 +123,15 @@ Use the **Visibility** setting to edit whether a a custom attribute appears:
 > [!NOTE]
 > This setting doesn't affect an attribute's visibility in raw survey response exports.
 
-To edit a custom attributes visibilty:
+To edit a custom attribute's visibility:
 
 1. Select the **Configuration** symbol and then in the **Employees** section, choose **People**.
 2. Select **Actions** and then **Manage User Attributes**.
-3. In the **Active Attributes**, select the ellipses on the desired attribute and choose **Edit Attribute.**
-4. Switch the **Visibility** toggle to **On or **Off** to show or hide the attribute.
-5. Select **Save.**
+3. In the **Active Attributes** section, select the ellipses on the desired custom attribute and choose **Edit Attribute.**
+   > [!NOTE]
+   > The visibility setting isn't editable for Required or Hierarchy attributes.
+5. Switch the **Visibility** toggle to **On** or **Off** to show or hide the attribute.
+6. Select **Save.**
 
    :::image type="content" source="../../media/glint/setup/attribute-visibility.png" alt-text="Screenshot of the Edit Attribute dialog with the Visibility toggle switched to On.":::
 
