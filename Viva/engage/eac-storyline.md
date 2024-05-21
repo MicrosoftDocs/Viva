@@ -30,7 +30,7 @@ When storyline is enabled in your organization, you see the following changes in
 
 ## Set up storyline
 
-Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-as-access-eac). 
+Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). 
 
 1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
@@ -169,7 +169,7 @@ For example, to delete the cover images of a user with id 1234567890, the URL wo
 
 ## See also
 
-[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
+[Overview of the Viva Engage admin center](/Viva/engage/eac-overview)
 
 [Set up the Viva Engage admin center](/Viva/engage/eac-get-started)
 

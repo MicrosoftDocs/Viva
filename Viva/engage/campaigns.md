@@ -35,11 +35,11 @@ Use this article to create, manage, and delete official campaigns. You must have
 >[!NOTE]
 >Unlicensed admins can only access the campaign management dashboard to delete campaigns.
 
-In the Viva Engage Teams application, select the ellipses button from the top navigation menu. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+In the Viva Engage Teams application, select the ellipses button from the top navigation menu. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-overview).
 
 ## Set up a campaign
 
-In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+In the Engage Teams application, select the ellipses button from the top navigation menu to expose the admin option. Select **Admin** to go to the [Viva Engage admin center](/viva/engage/eac-overview).
 
 [![Screenshot of the entrypoint into the Viva Engage admin center.](/viva/media/engage/admin/admin-entrypoint.png)](/viva/media/engage/admin/admin-entrypoint.png#lightbox)
 

@@ -199,7 +199,7 @@ Verified administrators can use the Data Export API to archive and export files 
 
 ### See also
 
-[Access the Viva Engage admin center](/Viva/engage/eac-as-access-eac)
+[Overview of the Viva Engage admin center](/Viva/engage/eac-overview)
 
 [Manage administrator roles in Viva Engage](/Viva/engage/eac-key-admin-roles-permissions)
 
