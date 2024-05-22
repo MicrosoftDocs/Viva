@@ -131,6 +131,14 @@ After processing completes, it's either succeeded or failed. Depending on the ou
 
 When processing succeeds, you’ll see a “Success” status in the **Upload or delete history** table. At this point, the upload process is complete.
 
+Here's the typical amount of time needed for organizational data to be reflected after it's uploaded in the following experiences:
+
+* Success status shown in **Data connections > Import history**: **A few hours**  
+
+* Data quality tab, flexible queries, and Power BI templates: **One to two days**  
+
+* Leader/manager report in the Teams app: **Next weekly refresh**
+
 After you receive the “Success” status, you can:
 
 * Select the view (eye) icon to see a summary of the validation results.
