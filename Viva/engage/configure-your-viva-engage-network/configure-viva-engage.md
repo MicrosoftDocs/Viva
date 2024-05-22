@@ -21,19 +21,25 @@ description: "Use the Viva Engage admin tools to set up your Viva Engage network
 
 # Configure your Viva Engage tenant
 
-To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Microsoft Viva Engage Enterprise.
+Configuring the Viva Engage tenant requires Microsoft 365 Global administrator or Engage administrator privileges. Administrators don't need to be assigned a Viva Engage license to configure Viva Engage core or premium.
   
 As you get started with Viva Engage, review the links in the [Viva Engage admin help](../eac-overview.md) for other tasks you might want to do, such as [reviewing security and compliance settings](../manage-security-and-compliance/security-and-compliance.md).
+
+To ensure that your users have a consistent experience, complete these tenant configuration tasks in the Viva Engage admin center before inviting users to Microsoft Viva Engage Enterprise.
   
 To access the Viva Engage tenant settings:
   
 - In Viva Engage, select the settings icon and go to the admin center.
 - In the admin center, on the **Setup and configuration** tab, select **Tenant settings**.
 
+>[!NOTE]
+> Because Viva Engage is powered by Yammer technology, configuring the tenant through the Yammer admin center publishes changes to both Yammer and Viva Engage. We are working to bring these configuration options to the Viva Engage admin center as part of our admin roadmap.
+
 #### Set the tenant name
 
 > [!IMPORTANT]
 > For Microsoft 365 Viva Engage tenants, the name in the Microsoft 365 company profile overrides the tenant name setting in Viva Engage. To change the company profile settings, see [Change your organization's address, technical contact, and more](/microsoft-365/admin/manage/change-address-contact-and-more)
+
 - On the **Tenant settings** page, set the tenant name.
 
 #### Set a usage policy
