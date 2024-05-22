@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 3/1/2024
+ms.date: 05/23/2024
 title: Export Viva Insights data using MGDC
 description: Use Microsoft Graph Data Connect (MGDC) to transfer backend Viva Insights data to Azure
 author: zachminers
@@ -17,7 +16,9 @@ audience: Admin
 
 # Export Viva Insights data using MGDC
 
-*Applies to: private preview customers only*
+>[!Note]
+>This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+
 
 If you want to use and analyze Viva Insights data outside of the Viva Insights app, you can use Microsoft Graph Data Connect (MGDC) to transfer the backend data to Azure. This process allows users to export whatever subset of metrics they want from Viva Insights, which can include both system metrics and customized metrics.
 
@@ -40,6 +41,10 @@ If you want to use and analyze Viva Insights data outside of the Viva Insights a
 | 8. Deploy ARM template  |  Application Administrator or Application Developer, with Insights Analyst role  | MGDC app, App secret, Container |
 | 9. Execute pipeline  |  Application Administrator or Application Developer   | Data factory |
 | 10. Find the output of your extraction |  Application Administrator or Application Developer   | Container name  |
+
+
+>[!Note]
+>When you export Viva Insights data using MGDC, you won’t incur any additional fees unless you exceed the monthly egress data limit. Each month, you can export data for an analyzed population of up to 20 times their Viva Insights license count. For each license, you can include an employee in up to 20 queries. For example, in a tenant with 100 licenses: <br></br> * You can export 20 queries, each with data from 100 unique employees. <br></br> * Or, you can export 40 queries, each with data from 50 unique employees. <br></br> * Or, you can export 10 queries with data from 150 unique employees each and five queries with 100 unique employees each. <br></br> If your tenant exceeds the monthly limit, Microsoft may contact you to review your current needs. These specific limits described are subject to change.
 
 ## Steps
 
