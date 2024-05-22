@@ -17,7 +17,7 @@ audience: Admin
 # Export Viva Insights data using MGDC
 
 >[!Note]
->This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+>This feature is for public preview customers. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 
 If you want to use and analyze Viva Insights data outside of the Viva Insights app, you can use Microsoft Graph Data Connect (MGDC) to transfer the backend data to Azure. This process allows users to export whatever subset of metrics they want from Viva Insights, which can include both system metrics and customized metrics.
