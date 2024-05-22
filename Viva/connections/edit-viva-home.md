@@ -152,7 +152,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 ### Summary of non-customizable elements
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
 8. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
 
