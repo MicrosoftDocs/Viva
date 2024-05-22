@@ -1,5 +1,5 @@
 ---
-ms.date: 02/05/2024
+ms.date: 05/23/2024
 title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers

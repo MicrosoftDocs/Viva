@@ -1,5 +1,5 @@
 ---
-ms.date: 06/05/2023
+ms.date: 05/23/2024
 title: Upload organizational data (first upload)
 description: Learn how to first upload your data to the Viva Insights advanced insights app. 
 author: zachminers
