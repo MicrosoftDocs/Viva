@@ -72,7 +72,7 @@ Following the procedure for granting feedback access, enable Create Focus Areas 
 
 Use the **Add/Edit Employees** button to open the *Choose a way to add employees* window. Follow the on-screen guidance.
 
-:::image type="content" source="../../media/glint/setup/360-add-edit-user-roles.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
+:::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
 
 > [!TIP]
 > Within a user’s profile, use the View As feature to confirm a user’s access to a program.
