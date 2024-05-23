@@ -243,9 +243,9 @@ You can make changes to existing pinned links or rearrange the order that the pi
 
     :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-edit-item.png":::
 
-3. Make any necessary changes to the news link, title, image, or alternative text as needed. When finished, select **Update** to apply your changes.
+3. Make any necessary changes to the link, title, image, or alternative text as needed. When finished, select **Update** to apply your changes.
 
-4. To reorder a pin news item, hover your mouse over the **six vertical dots** to the left of the item. Select and drag the item to its new location within your list of news items.
+4. To reorder a pinned item, hover your mouse over the **six vertical dots** to the left of the item. Select and drag the item to its new location within your list of news items.
 
     :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-move-item.png":::
 
