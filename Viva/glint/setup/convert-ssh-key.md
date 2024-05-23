@@ -19,7 +19,7 @@ ms.date: 05/23/2024
 
 # Convert a public SSH key to OpenSSH format for Viva Glint SFTP
 
-To connect to your Microsoft Viva Glint SFTP account, the SSH key pair that your organization (or an HRIS vendor) generates needs:
+To connect to your Microsoft Viva Glint Secure File Transfer Protocol (SFTP) account, the SSH key pair that your organization (or an HRIS vendor) generates needs:
 
 - A key length of as least 2048, ideally 4096 bits.
 - To be type RSA in **OpenSSH format**.
