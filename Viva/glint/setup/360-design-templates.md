@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 In addition to the guidance linked above, there are items specific to 360 design to keep in mind. Viva People Scientists conducted an extensive study to identify 300+ unique work behaviors. This study resulted in the validated core items populated in the 360 template. Open-ended questions provide additional context and help the subject prioritize developmental opportunities.
 25 or less questions will produce the most useful data for 360 subjects.
 
-## Can a 360 program without a competency model?
+## Can a 360 program be used without a competency model?
 
 Yes. Although your org may have a competency model, it doesn’t guarantee alignment with what you consider the behaviors of a successful leader. Use the Glint 360 program to establish a competency model unique to your organization.
 
