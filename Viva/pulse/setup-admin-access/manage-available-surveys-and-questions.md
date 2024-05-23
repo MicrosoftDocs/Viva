@@ -38,7 +38,7 @@ All admins within a company see the same information and statuses. Admins can up
 * _Active_: The template is visible and available for use by all licensed users within the company
 * _Deactivated_: The template is only visible to the Viva Pulse admins within the Template management view
 
-## Survey Templates
+## Survey templates
 
 Survey templates can be viewed and managed in the **Template management** section under the **Customize templates and questions** tab, which is available to Viva Pulse Admins.
 
