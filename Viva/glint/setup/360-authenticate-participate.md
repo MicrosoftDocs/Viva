@@ -1,12 +1,12 @@
 ---
 title: Viva Glint 360 program authentication and participant experiences
-description: 
+description: Subjects and others who should have access to a subject’s 360 must first have access to Viva Glint and authenticate with Microsoft Entra ID. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 terminology
+keywords: 360 subject, 360 feedback provider
 ms.collection:  
 - m365initiative-viva
 - selfserve 
