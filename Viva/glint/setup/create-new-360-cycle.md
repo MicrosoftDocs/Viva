@@ -1,12 +1,12 @@
 ---
 title: Create a new 360 cycle
-description: 
+description: 360 programs should contain cycles that can be cloned to use on a set schedule.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: duplicating 360 cycle, copying 360 cycle, cloning 360 cycle, name new 360 cycle
 ms.collection:  
 - m365initiative-viva
 - selfserve 
