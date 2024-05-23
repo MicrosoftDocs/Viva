@@ -40,7 +40,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 ## About the updated Viva Connections experience
 
-The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & News Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
+The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
 
 > [!NOTE]
 >
@@ -52,7 +52,7 @@ The Connections experience has been redesigned to highlight news across your org
 
 **Feed:** [The Feed](viva-connections-overview.md#viva-connections-feed) now has two areas:
 
-- The News spotlight displays updates from the home site in a scrolling banner. A future update is planned to include updates from organizational news sites.
+- The spotlight dynamically displays content from the home site, news from SharePoint sites, or links to articles or sites. The spotlight can be customized to display up to 11 items.
 - The Feed tab provides access to more content that offers a personalized feed based on post-level targeting of groups that an employee belongs to, more updates and other organizational news content.
 
 **Dashboard:** [The Dashboard](viva-connections-overview.md#viva-connections-dashboard) is your employee’s digital toolset. It brings together the tools your employees need, enabling quick and easy access whether they are in the office or in the field.
@@ -165,10 +165,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 11. **Ellipses menu:** Access more information about the Connections experience depending on your level of permissions.
 
-12. **News spotlight:** Content in the banner is dynamically displayed based on content from the home site. A future update is planned to include updates from organizational news sites.
-
-    > [!NOTE]
-    > A future update is planned to make the News spotlight customizable.
+12. **Spotlight:** The banner dynamically displays content from the home site, news from SharePoint sites, or links to articles or sites. The spotlight can be customized to display up to 11 items.
 
 13. **Viva navigational bar:** The Viva navigational bar provides an opportunity to discover [more Viva experiences](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) and gets automatically generated when Viva licenses are detected.
 
@@ -204,23 +201,23 @@ To change the banner image:
 
 3. Once you're satisfied with the focal point, select **Set focal point** and then **Save**. There's no draft state for the banner image. It's displayed for all users when you select Save.
 
-## Manage news spotlight settings
+## Manage spotlight settings
 
-Experience owners and admins can dynamically populate extra content in the news spotlight by pinning links to content items or selecting SharePoint sites to automatically pull news posts from. Using the news spotlight settings allows you to curate news without needing to have SharePoint news on a home site as a prerequisite (which Experience owners can still do if they choose).
+Experience owners and admins can dynamically populate extra content in the spotlight by pinning links to content items or selecting SharePoint sites to automatically pull news posts from. Using the spotlight settings allows you to curate news without needing to have SharePoint news on a home site as a prerequisite (which Experience owners can still do if they choose).
 
 > [!NOTE]
 >
->The news spotlight has space to display up to 11 items (pinned links and news posts from SharePoint sites) at a time.
+>The spotlight has space to display up to 11 items (pinned links and news posts from SharePoint sites) at a time.
 
 ### Adding a pinned item
 
-You can add a link to any source of content (blog, post, site, etc.) to display it in the spotlight. Up to 11 links can be pinned at a time. Pinned links display first in the news spotlight before any news from SharePoint sites (if space is available).
+You can add a link to any source of content (blog, post, site, etc.) to display it in the spotlight. Up to 11 links can be pinned at a time. Pinned links display first in the spotlight before any news from SharePoint sites (if space is available).
 
-1. Select **Edit** above the News spotlight, then **Settings**.
+1. Select **Edit** above the spotlight, then **Settings**.
 
 2. In the Spotlight settings, select **Pin item**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane."lightbox="../media/connections/edit-viva-home/news-spot-spotlight-settings.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-spotlight-settings.png":::
 
 3. The **Pin an item** panel appears. In the **Link** field, enter the URL of the SharePoint news post or external source.
 
@@ -232,29 +229,29 @@ You can add a link to any source of content (blog, post, site, etc.) to display 
 
 5. Select **Add** to add your pinned item and return to the spotlight settings.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-pin-item.png" alt-text="Screenshot of the pin an item settings property pane."lightbox="../media/connections/edit-viva-home/news-spot-pin-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-pin-item.png" alt-text="Screenshot of the pin an item settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-pin-item.png":::
 
 6. Select **Save** to save your changes and close the spotlight settings pane.
 
 ### Editing a pinned item
 
-You can make changes to existing pinned news links or rearrange the order that the pinned links appear in the spotlight.
+You can make changes to existing pinned links or rearrange the order that the pinned links appear in the spotlight.
 
 1. Select **Edit** above the spotlight, then **Settings**.
 
-2. Under **Pinned items**, select the **edit icon** for the pinned news item you want to edit.
+2. Under **Pinned items**, select the **edit icon** for the pinned item you want to edit.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted."lightbox="../media/connections/edit-viva-home/news-spot-edit-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-edit-item.png":::
 
 3. Make any necessary changes to the news link, title, image, or alternative text as needed. When finished, select **Update** to apply your changes.
 
 4. To reorder a pin news item, hover your mouse over the **six vertical dots** to the left of the item. Select and drag the item to its new location within your list of news items.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted."lightbox="../media/connections/edit-viva-home/news-spot-move-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-move-item.png":::
 
 5. You can also reorder items by selecting the **three vertical dots** to the right of the item. Use the number field to indicate the new location for the item, then select **Update**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed."lightbox="../media/connections/edit-viva-home/news-spot-reorder-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed."lightbox="../media/connections/edit-viva-home/spotlight-reorder-item.png":::
 
 6. When finished making your changes, select **Save**.
 
@@ -285,7 +282,7 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 5. Select **Save** to save your changes.
 
-    :::image type="content" source="../media/connections/edit-viva-home/news-spot-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites."lightbox="../media/connections/edit-viva-home/news-spot-sharepoint-news.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites."lightbox="../media/connections/edit-viva-home/spotlight-sharepoint-news.png":::
 
 6. News from selected SharePoint sites will display after any pinned links and if there's space available.
 
