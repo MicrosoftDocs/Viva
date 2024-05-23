@@ -87,7 +87,7 @@ When a survey has a state of **Deactivated**, it's not available for authors to 
 
 Surveys that are **Company created** can be deleted and deactivated. The **Delete** option is available by clicking the **…** on the row for the desired survey template. Deleting a survey template can't be undone.
 
-## Standalone Questions
+## Standalone questions
 
 Standalone questions are shown to authors in the question library and can be added to a pulse they're preparing to send. These questions can be viewed and managed in the **Question management** section. When viewing this section, you see a table containing all the active and deactivated standalone questions in your organization. Some questions are included in both survey template(s) and the question library and must be updated independently. Updating a question in a survey doesn't impact the same question in the question library and vice versa.
 
