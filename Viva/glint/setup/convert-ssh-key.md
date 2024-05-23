@@ -39,7 +39,7 @@ An OpenSSH public key (RSA type) should look similar to this example, and always
 
 What your key file looks like:
 
-```csharp
+```
 ---- BEGIN SSH2 PUBLIC KEY ----
 Comment: "rsa-key-20240201"
 AAAAB..........vlsRMQ==
@@ -50,8 +50,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .pub file to a location on your computer with a text editor, like Notepad. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Command Prompt** and enter: `cd file location`. 
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -66,7 +66,7 @@ To convert to OpenSSH format:
 
 What your key file looks like:
 
-```csharp
+```
 -----BEGIN PUBLIC KEY-----
 MIIB..........AB
 -----END PUBLIC KEY-----
@@ -84,8 +84,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .pem file to a location on your computer with a text editor, like Notepad. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Command Prompt** and enter: `cd file location`. 
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -100,7 +100,7 @@ To convert to OpenSSH format:
 
 What your key file looks like:
 
-```csharp
+```
 -----BEGIN PUBLIC KEY-----
 xsBNBF.....L1AItI=
 -----END PUBLIC KEY-----
@@ -108,7 +108,7 @@ xsBNBF.....L1AItI=
 
 or
 
-```csharp
+```
 -----BEGIN CERTIFICATE-----
 xsBNBF.....L1AItI=
 -----END CERTIFICATE-----
@@ -118,8 +118,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .cer file to a location on your computer with a text editor, like Notepad. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Command Prompt** and enter: `cd file location`. 
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -142,8 +142,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .cer file to a location on your computer with a text editor, like Notepad. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Command Prompt** and enter: `cd file location`. 
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -164,7 +164,7 @@ To convert to OpenSSH format:
 
 What your key file looks like:
 
-```csharp
+```
 ---- BEGIN SSH2 PUBLIC KEY ----
 Comment: "rsa-key-20240201"
 AAAAB..........vlsRMQ==
@@ -175,8 +175,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .pub file to a location on your computer with a text editor, like Sublime. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Terminal** and enter: `cd file location`. 
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -191,7 +191,7 @@ To convert to OpenSSH format:
 
 What your key file looks like:
 
-```csharp
+```
 -----BEGIN PUBLIC KEY-----
 MIIB..........AB
 -----END PUBLIC KEY-----
@@ -199,7 +199,7 @@ MIIB..........AB
 
 or
 
-```csharp
+```
 -----BEGIN RSA PUBLIC KEY-----
 MIIB..........AB
 -----END RSA PUBLIC KEY-----
@@ -209,8 +209,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .pem file to a location on your computer with a text editor, like Sublime. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Terminal** and enter: `cd file location`.
 3. Replace `file location` and select enter to go to the folder where your key file is saved. 
@@ -226,7 +226,7 @@ To convert to OpenSSH format:
 
 What your key file looks like:
 
-```csharp
+```
 -----BEGIN PUBLIC KEY-----
 xsBNBF.....L1AItI=
 -----END PUBLIC KEY-----
@@ -234,7 +234,7 @@ xsBNBF.....L1AItI=
 
 or
 
-```csharp
+```
 -----BEGIN CERTIFICATE-----
 xsBNBF.....L1AItI=
 -----END CERTIFICATE-----
@@ -244,8 +244,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .cer file to a location on your computer with a text editor, like Sublime. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Terminal** and enter: `cd file location`.
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -268,8 +268,8 @@ To convert to OpenSSH format:
 
 1. Save the public key as a .cer file to a location on your computer with a text editor, like Sublime. 
 
-> [!IMPORTANT]
-> Don't include spaces in the file name.
+   > [!IMPORTANT]
+   > Don't include spaces in the file name.
 
 2. Open **Terminal** and enter: `cd file location`.
 3. Replace `file location` and select enter to go to the folder where your key file is saved.
@@ -283,7 +283,3 @@ To convert to OpenSSH format:
 11. Open the .pub file in a text editor, like Sublime. 
 12. Copy and paste the full text of the key, including `ssh-rsa`.
 13. Paste the new public key text into the **SSH Public Key** field in Viva Glint **SFTP Setup**.
-
-
-
-
