@@ -2,7 +2,7 @@ title: Configure 360 cycle settings
 description: There are five areas to set up in a new 360 cycle. Follow this guidance.
 ms.author: JudithWeiner
 author: JudyWeiner
-manager: mbarry
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: 
