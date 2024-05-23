@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: public key, SSH key, SFTP, OpenSSH, SSH
+keywords: public key, SSH key, SFTP, OpenSSH, SSH, key format
 ms.collection: 
  - m365initiative-viva
  - selfserve
