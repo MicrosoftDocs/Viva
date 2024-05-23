@@ -24,12 +24,12 @@ After choosing the Glint Manager 360 Program template or the blank template, sel
 
 1. In the *Choose a past cycle to copy from* window, select a cycle to clone. All settings copy except for schedule, reminders and subjects. Select **Create New Cycle.**
 
-:::image type="content" source="../../media/glint/setup/360-cycle-buttons.png" alt-text="Screenshot of the + New Cycle and the Create New Cycle buttons.":::
+:::image type="content" source="../../media/glint/setup/360-new-cycle-buttons.png" alt-text="Screenshot of the + New Cycle and the Create New Cycle buttons.":::
 
 2. Use the **pencil icon** to name your copied template. Give cycles unique names in order to differentiate between them. Only admins see cycle names. Cycle names don’t appear on the user interface or on reports.
 3. The new cycle displays in the *Cycle Name* column.
 
-:::image type="content" source="../../media/glint/setup/360-cycle-name-column.png" alt-text="Screenshot of an updated 360 *Cycle Name* column.":::
+:::image type="content" source="../../media/glint/setup/360-cycle-column.png" alt-text="Screenshot of an updated 360 *Cycle Name* column.":::
 
 ## Use the Actions dropdown menu
 
