@@ -48,12 +48,13 @@ To ensure that content is office‐appropriate, you may want to create a usage p
 
 #### Upload a tenant logo
 
-As an Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header. 
+As an Engage admin, network admin, or verified admin, you can choose to upload the org’s logo on the Viva Engage tenant. This logo appears on the user’s home feed and leadership corner header.
+
 - Use the **Tenant logo** setting to add an image. Only one image can be uploaded at a time.
 
 #### Choose a language for system messages
 
-The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app. For example, if you create a community, the system generates a banner message confirming that a new community was successfully created.
+The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app. 
   
  - From the **Language** setting, choose a language for system messages.
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
@@ -61,8 +62,10 @@ The system generates messages in response to user actions. These messages let th
 #### Set media configurations through the Yammer admin center
 
 To access the Yammer admin center:
--	From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Tenant settings**. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
--	From Viva Engage, select the settings icon, and select **Edit Network admin Settings**.
+
+- From the Viva Engage admin center, on the **Setup & Configuration** tab, select **Tenant settings**. On the Tenant settings page, under **Other**, select **Manage other tenant configurations through the Yammer admin center**.
+
+- From Viva Engage, select the settings icon, and select **Edit Network admin Settings**.
 
 #### Require users to confirm email messages before posting
 
