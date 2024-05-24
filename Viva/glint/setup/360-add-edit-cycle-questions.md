@@ -40,7 +40,7 @@ Use these filters:
 |Benchmark|Use the search bar|
 |More Filters| <ul><li> Whether the quetion was used in other program </li><li> Whether translations are available</li><ul>|
 
-:::image type="content" source="media/glint/setup/360-add-question.png"alt-text="Screenshot of the Survto add or edit.":::
+:::image type="content" source="media/glint/setup/360-create-question.png"alt-text="Screenshot of the Survto add or edit.":::
 
 ## Add a Glint validated question
 
