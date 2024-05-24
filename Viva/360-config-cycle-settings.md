@@ -22,7 +22,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Although *Manage Subjects* appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
 
-:::image type="content" source="../../media/glint/setup/360-settings-do-first.png" alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-cycle-settings-do-first.png" alt-text="Screenshot of the five sections to configure in Cycle Settings.":::
 
 ## Setup
 
