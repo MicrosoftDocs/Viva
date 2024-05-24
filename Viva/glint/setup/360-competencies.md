@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting-access.png" alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting-access.png" lightbox="../../media/glint/setup/360-competencies-reporting-access.png" alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
 
 ## Competencies
 
