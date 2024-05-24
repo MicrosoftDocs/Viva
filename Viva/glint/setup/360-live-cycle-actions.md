@@ -18,10 +18,10 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
+# Viva Glint 360 live cycle management
+
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
-
-# Viva Glint 360 live cycle management
 
 Microsoft Viva Glint 360 admins have access to dashboards and settings during live 360 cycles that allow them to track responses and edit some elements related to feedback providers, survey questions, competencies, schedule, and communications.
 
