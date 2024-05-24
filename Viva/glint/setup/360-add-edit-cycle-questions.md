@@ -80,4 +80,4 @@ Prepopulated or questions added to the cycle can be edited. Select the **verticl
 
 Edit the question and then select **Save Changes.**
 
-:::image type="content" source="../../media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window." lightbox="media/glint/setup/360-edit-questions-window.png":::
+:::image type="content" source="../../media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window." lightbox="../../media/glint/setup/360-edit-questions-window.png":::
