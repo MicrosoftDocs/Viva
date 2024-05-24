@@ -8,7 +8,7 @@ author: Starshine89
 manager: elizapo
 ms.date: 04/12/2024
 audience: Admin
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: viva-engage
 ms.collection: 
  - viva-copilot
