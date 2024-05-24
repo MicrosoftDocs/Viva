@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
 
-Microsoft Viva Glint 360 admins have access to dashboards and settings during live 360 cycles that allow them to track responses and edit some elements related to feedback providers, survey questions, competencies, schedule, and communications.
+Microsoft Viva Glint 360 admins have enhanced access to dashboards and settings during live 360 cycles. During live cycles, admins can track responses and edit items related to feedback providers, survey questions, competencies, schedule, and communications.
 
 ## 360 admin dashboard
 
@@ -73,7 +73,7 @@ After a subject completes their self-assessment, a 360 admin can:
 - View if the 360 report is released to the subject, manager, or coach
 - View the end date of the cycle
 - Edit or add a coach
-- Re-open and extend the end date for a subject. Use this option when a subject doesn't have enough feedback to meet thresholds to view a report.
+- Reopen and extend the end date for a subject. Use this option when a subject doesn't have enough feedback to meet thresholds to view a report.
 - If a report is generated for a subject, the admin can:
   - Download the report
   - View the online report
@@ -88,5 +88,5 @@ After a subject completes their self-assessment, a 360 admin can:
 For opted out subjects, the admin can: 
 
 - See the opt-out date
-- Re-open and extend the 360 due date
+- Reopen and extend the 360 due date
 - Delete the subject from the cycle
