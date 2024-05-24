@@ -42,7 +42,8 @@ Select **Save** when you are done configuring the page.
 
 Select up to six feedback provider categories. 
 - Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
-- Remove the Direct Reports category for individual contributor (IC) subjects or ask IC subjects to skip adding feedback providers for the Direct Reports category for 360 cycles that have a mix of managers and individual contributors.
+- Remove the Direct Reports category for individual contributor (IC) subjects,
+- **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for  cycles with both managers and ICs.
 
 >[!TIP]
 >Choose at least three feedback provider categories (in addition to Self) to ensure a true 360 view.
@@ -72,13 +73,13 @@ Confidentiality Statements
 >[!CAUTION]
 >You can increase the confidentiality threshold for some feedback provider categories but you can’t information about confidentiality follows.
 
-Depending on the user category (subject, manager, peers, custom, direct reports), Feedback Provider Response Information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
+Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
 
 ### Feedback provider response information
 
 This setting can’t be edited once a cycle is live. Choose between:
-- **On** (default): Subjects see feedback providers and whether they have responded. In reporting, subjects see which feedback providers have responded per category, but responses are not tied to individual names.
-- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reporting, they see only the number of feedback providers who have responded.
+- **On** (default): Subjects see feedback providers and if they've responded. In reporting, subjects see which feedback providers responded per category, but responses are not tied to individual names.
+- **Off**: Subjects see feedback providers but can’t see whether they've responded. In reporting, they see only the number of feedback providers who responded.
 
 :::image type="content" source="../../media/glint/setup/360-provider-response-info.png" alt-text="Screenshot of the Feedback Provider Response Information window.":::
 
