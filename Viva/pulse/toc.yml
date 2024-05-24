@@ -26,7 +26,9 @@ items:
     - name: Granular access controls for Viva Pulse
       href: setup-admin-access/granular-access-controls.md
     - name: Enable notifications for your organization
-      href: setup-admin-access/enable-notifications-for-your-organization.md  
+      href: setup-admin-access/enable-notifications-for-your-organization.md
+    - name: Manage available surveys and questions
+      href: setup-admin-access/manage-available-surveys-and-questions.md  
     - name: How users access Viva Pulse in Microsoft Teams or web
       href: setup-admin-access/access-pulse-via-teams-or-web.md
 - name: Troubleshoot
