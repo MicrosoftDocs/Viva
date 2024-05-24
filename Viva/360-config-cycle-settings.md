@@ -71,7 +71,7 @@ Edit each field as you’d like. When editing in another language that is availa
 Confidentiality Statements
 
 >[!CAUTION]
->You can increase the confidentiality threshold for some feedback provider categories but you can’t information about confidentiality follows.
+>You can increase the confidentiality threshold for some feedback provider categories but you can’t decrease the threshold below default values.
 
 Dependent on the provider category, provider response information settings, and whether your organization included a privacy policy link in General Settings, the 360 confidentiality statement users see varies. [Learn more about Viva Glint 360 privacy and confidentiality](https://go.microsoft.com/fwlink/?linkid=2230922).
 
