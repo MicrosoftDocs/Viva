@@ -1,6 +1,6 @@
 ---
 title: Add and edit 360 cycle questions
-description: Learn to add or modify Viva Glint 360 program template questions
+description: Learn to add or modify Viva Glint 360 program template questions.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -27,7 +27,7 @@ Add or modify prepopulated 360 program template questions. Add questions from ou
 :::image type="content" source="media/glint/setup/360-add-question.png"alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
 
 ## Use the Question Library 
-When the Question Library window opens, you can add or edit questions from our extensive list of validated questions or from custom questions you added to the Question Library. Locate them by using filters.
+When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to the Question Library. Locate them by using filters.
 
 ### Filter to find a question
 
@@ -58,7 +58,7 @@ If you aren’t ready to add the question because you need more information, sel
 
 From this section, to add the question, select **Add Question**.
 
-Also within the question details,choose whether questions are
+Also within the question details, choose whether questions are
 - Optional or mandatory - optional questions are recommended so that feedback providers can skip where needed.
 - The same for subjects and feedback providers within the cycle.
 - Can be prepopulated based on employee data
@@ -70,7 +70,7 @@ Also within the question details,choose whether questions are
 
 ## Edit a Glint validated question
 
-Prepopulated or questions you’ve added to the cycle can be edited. Select the **verticle ellipses** to open the dropdown menu and then select **Edit Question**.
+Prepopulated or questions added to the cycle can be edited. Select the **verticle ellipses** to open the dropdown menu and then select **Edit Question**.
 
 :::image type="content" source="media/glint/setup/360-edit-question.png"alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
 
