@@ -48,7 +48,7 @@ During a live 360 cycle, log into Viva Glint, select Feedback and then the 360 f
 ## Admins
 
 ### How do I reach out for support?
-Reach out to the Microsoft 360 Admin Center for support: [Get Support](https://learn.microsoft.com/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true).
+Reach out to the Microsoft 360 Admin Center for support: [Get Support](https://go.microsoft.com/fwlink/?linkid=2272576).
 
 ### How to I give product feedback?
 Viva Glint welcomes feedback. Submit your comments in the platform: [Submit product feedback](glint-product-feedback.md).
