@@ -18,10 +18,10 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
+# Viva Glint 360 cycle content export and import
+
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
-
-# Viva Glint 360 cycle content export and import
 
 After setting up a Microsoft Viva Glint 360 cycle and making all customizations in English, use Export and Import Cycle Content options to apply all updates to translations.
 
