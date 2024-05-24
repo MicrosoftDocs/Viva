@@ -20,6 +20,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # 360 User Roles and permissions
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 By default, people in the Viva Glint admin role have access to create and edit all Glint programs, including 360s. You may, however, choose to set up an extra user role to *only* have access to edit 360 programs. In this case, you first need to create a user role - or adjust an existing user role - to have exclusive 360 admin permissions. 
 
 More information on [Create a Viva Glint User Role](https://go.microsoft.com/fwlink/?linkid=2230740).
