@@ -42,14 +42,14 @@ To view 360 cycle reviews, from the cycle page, select **Actions** and then **Pr
 When previewing a survey, confirm that:
 
 - Intro and instruction text appear as expected
-- Rating scales are as expected ( 1-5 or 1-7)
+- Rating scales are as expected (1-5 or 1-7)
 - Rating scale labels appear as expected
 - Comments are available for rated items
 - Rated items are marked as optional (recommended)
 - Open-ended items display as expected
 - Reporting guidance is available, if enabled
 - Feedback provider category displays names
-- Compentencies are mapped
+- Competencies are mapped
 
 ## Preview the 360 report
 
