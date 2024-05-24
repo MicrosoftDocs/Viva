@@ -59,7 +59,7 @@ Procedure to map a competency to a question that is already mapped to another co
 
 ### Customizing a competency and mapping it to a question
 
-:::image type="content" source="../../media/glint/setup/360-competencies-reporting.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings."lighthouse="../../media/glint/setup/360-competencies-reporting.png":::
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.
 
 Repeat this procedure until you have mapped all competencies to at least one question:
 
