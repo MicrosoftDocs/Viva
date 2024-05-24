@@ -20,6 +20,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Add and edit 360 cycle questions
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the + symbol. 
 - You can use the **+ symbol under the question list**.
 - You can also use or **+ in the blue circle** at the bottom of the page. The + symbol in the circle takes you directly to rating and open-ended questions.
