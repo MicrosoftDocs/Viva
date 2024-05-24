@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: 360 test, QA, preview, schedule, survey review, quality assurance
 ms.collection:  
 - m365initiative-viva
 - selfserve 
