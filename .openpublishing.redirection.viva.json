@@ -1049,5 +1049,10 @@
             "redirect_url": "/viva/glint/start/brochure-summary",
             "redirect_document_id": false
         }
+        {
+            "source_path": "viva/engage/eac-as-access-eac.md",
+            "redirect_url": "/viva/engage/eac-overview",
+            "redirect_document_id": false
+        }
     ]
 }
