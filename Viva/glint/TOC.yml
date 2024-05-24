@@ -65,6 +65,8 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
+              - name: Cconvert a key to OpenSSH format
+                href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
            - name: Prepare and upload
