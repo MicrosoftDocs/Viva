@@ -31,6 +31,9 @@ To connect to your Viva Glint SFTP account, ensure that the SSH key pair:
 - Has a key length of as least 2048, ideally 4096 bits.
 - Is type RSA in OpenSSH format.
 
+> [!IMPORTANT]
+> If your organization or HRIS vendor can't generate a key pair in OpenSSH format, [convert the public SSH key to OpenSSH format](convert-ssh-key.md) before adding to Viva Glint.
+
 > [!TIP]
 > Passphrases are optional for key files. To omit, leave blank when prompted.
 
