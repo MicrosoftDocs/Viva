@@ -24,7 +24,7 @@ Add or modify prepopulated 360 program template questions. Add questions from ou
 - You can use the **+ symbol under the question list**.
 - You can also use or **+ in the blue circle** at the bottom of the page. The + symbol in the circle takes you directly to rating and open-ended questions.
 
-:::image type="content" source="media/glint/setup/360-add-question.png"alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
+:::image type="content" source="media/glint/setup/360-add-question.png" alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
 
 ## Use the Question Library 
 When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to the Question Library. Locate them by using filters.
@@ -40,7 +40,7 @@ Use these filters:
 |Benchmark|Use the search bar|
 |More Filters| <ul><li> Whether the quetion was used in other program </li><li> Whether translations are available</li><ul>|
 
-:::image type="content" source="media/glint/setup/360-create-question.png"alt-text="Screenshot of the Survto add or edit.":::
+:::image type="content" source="media/glint/setup/360-create-question.png" alt-text="Screenshot of the Create Question window.":::
 
 ## Add a Glint validated question
 
@@ -63,7 +63,8 @@ Also within the question details, choose whether questions are
 - The same for subjects and feedback providers within the cycle.
 - Can be prepopulated based on employee data
 
->[!NOTE] While there isn’t a minimum or maximum number of questions for a 360 cycle, keep in mind:
+>[!NOTE]
+>While there isn’t a minimum or maximum number of questions for a 360 cycle, keep in mind:
 > - To encourage quality feedback, a maximum of 10-20 questions - including 2-3 open-ended questions - is best.
 > -	Glint recommends a minimum of six rated questions mapped to competencies.
 > - A 360 report shows top strengths and opportunities based on the *All but Self* score of questions in competencies.
@@ -72,11 +73,11 @@ Also within the question details, choose whether questions are
 
 Prepopulated or questions added to the cycle can be edited. Select the **verticle ellipses** to open the dropdown menu and then select **Edit Question**.
 
-:::image type="content" source="media/glint/setup/360-edit-question.png"alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
+:::image type="content" source="media/glint/setup/360-edit-question.png" alt-text="Screenshot of the Edit Question option in the verticle ellipses dropdown menu.":::
 
 >[!TIP]
 > Edit questions only when absolutely necessary, as editing may impact language translations and change the intention of the question.
 
 Edit the question and then select **Save Changes.**
 
-:::image type="content" source="media/glint/setup/360-edit-questions-window.png"alt-text="Screenshot of the Edit Questions window."lightbox="media/glint/setup/360-edit-questions-window.png":::
+:::image type="content" source="media/glint/setup/360-edit-questions-window.png" alt-text="Screenshot of the Edit Questions window." lightbox="media/glint/setup/360-edit-questions-window.png":::
