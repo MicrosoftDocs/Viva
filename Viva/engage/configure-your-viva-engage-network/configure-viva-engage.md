@@ -67,11 +67,6 @@ To access the Yammer admin center:
 
 - From Viva Engage, select the settings icon, and select **Edit Network admin Settings**.
 
-#### Require users to confirm email messages before posting
-
-- From the **Configuration** page, use the **Email Settings** to require users to confirm before posting messages using email.
-For more information, see [Configure email and Viva Engage](configure-email-and-viva-engage.md).
-
 #### Turn private messages on or off
 
 You can control whether private messages are allowed on the network at any given time. When you turn this feature off, you remove all reference to private messages in the Engage Inbox and the Share menu on any conversation thread.
