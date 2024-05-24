@@ -1,5 +1,5 @@
 ---
-title: Test and launch a 360 cycle
+title: Test and launch a Viva Glint 360 feedback cycle
 description: Check every detail of a 360 feedback cycle before selecting Schedule Cycle.
 ms.author: aweixelman
 author: AliciaWeixelman
@@ -21,9 +21,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
 
-# Test and launch a 360 feedback cycle
+# Test and launch a Viva Glint 360 feedback cycle
 
-Check every detail of a 360 feedback cycle before selecting **Schedule Cycle.** Some 360 elements can't be edited once a 360 program is live, including:
+Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some 360 elements can't be edited once a 360 program is live, including:
 
 - The internal cycle name. The external cycle display name can be changed.
 - Question removals, additions, or edits.
