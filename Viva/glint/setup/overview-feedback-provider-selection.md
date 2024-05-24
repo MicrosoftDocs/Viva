@@ -28,11 +28,11 @@ Customize the experience for 360 subjects in this section of *Cycle Settings*. G
 
 Use the **+ symbol** to open the dropdown menu of macros to complete each field. Then use the **Save and Preview** button to check that everything looks as you expect.
 
-:::image type="content" source="../../media/glint/setup/360-overview-content.png"alt-text="Screenshot of the Overview Content window in Cycle Settings." lighthouse="../../media/glint/setup/360-overview-content.png":::
+:::image type="content" source="../../media/glint/setup/360-overview-content.png"alt-text="Screenshot of the Overview Content window in Cycle Settings." 
 
 ## Feedback provider selection screen *before* selection
 
-Setup what a subject will see as they get ready to select feedback providers. Use this area to help your subject make appropriate selections and explain why some may be preselected. **Edit the content**, using the **+ symbol** to show the macro dropdown box, at your discretion. **Save and Preview.**
+Setup what a subject sees as they get ready to select feedback providers. Use this area to help your subject make appropriate selections and explain why some may be preselected. **Edit the content**, using the **+ symbol** to show the macro dropdown box, at your discretion. **Save and Preview.**
 
 :::image type="content" source="../../media/glint/setup/360-provider-selection-before.png"alt-text="Screenshot of the text content to help subjects select feedback providers.":::
 
@@ -44,8 +44,8 @@ Setup what a subject will see as they get ready to select feedback providers. Us
 
 For each section on this page, selecting Manage Translations opens the Overview Translation slider window.
 
-1. Choose additional languages from the Language dropdown menu
-2. Make changes within the content as desired. Translation edits auto-save as you continue to edit for other lanugages.
-3. Make additional edits at any time.
+1. Choose other languages from the Language dropdown menu
+2. Make changes within the content as desired. Translation edits auto-save as you continue to edit for other languages.
+3. Make other edits at any time.
 
 
