@@ -18,10 +18,10 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
+# Test and launch a Viva Glint 360 feedback cycle
+
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
-
-# Test and launch a Viva Glint 360 feedback cycle
 
 Check every detail of a Microsoft Viva Glint 360 feedback cycle before selecting **Schedule Cycle.** Some 360 elements can't be edited once a 360 program is live, including:
 
