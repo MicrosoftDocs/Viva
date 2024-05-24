@@ -22,7 +22,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 In *Cycle Settings*, chooose **Survey Questions**.
 
-:::image type="content" source="../../media/glint/setup/360-cycle-survey-questions.png" alt-text="Screenshot of the second section to set up in Cycle Settings.":::
+:::image type="content" source="../../media/glint/setup/360-cycle-survey-questions.png"alt-text="Screenshot of the second section to set up in Cycle Settings.":::
 
 In the Glint Manager 360 Program template, questions are pre-populated. 
 
