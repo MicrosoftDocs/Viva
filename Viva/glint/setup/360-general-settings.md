@@ -20,6 +20,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Viva Glint 360 feedback General Settings
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 From the Glint admin dashboard, select the Configuration symbol and then General Settings. Review selections that apply to all your Viva Glint programs and confirm that 360 items are set up. [View, edit, or update the information](https://go.microsoft.com/fwlink/?linkid=2230744), focusing on these three items:
 
 </div>

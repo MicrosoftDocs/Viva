@@ -20,11 +20,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Add and edit 360 cycle questions
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 Add or modify prepopulated 360 program template questions. Add questions from our Question Library by selecting the + symbol. 
 - You can use the **+ symbol under the question list**.
 - You can also use or **+ in the blue circle** at the bottom of the page. The + symbol in the circle takes you directly to rating and open-ended questions.
 
-:::image type="content" source="../../media/glint/setup/360-add-question.png" alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
+:::image type="content" source="../../media/glint/setup/360-add-question.png" lightbox="../../media/glint/setup/360-add-question.png" alt-text="Screenshot of the Survey Questions page and the + button to add or edit.":::
 
 ## Use the Question Library 
 When the Question Library window opens, add or edit questions from our list of validated questions or from any custom questions you added to the Question Library. Locate them by using filters.

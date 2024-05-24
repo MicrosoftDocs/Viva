@@ -20,6 +20,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Viva Glint 360 feedback program overview
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 The Microsoft Viva Glint 360 feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus on improvement.
 
 ## 360 feedback process
