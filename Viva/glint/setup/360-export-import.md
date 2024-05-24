@@ -38,7 +38,7 @@ To export 360 content files from the cycle page and edit content to prepare for 
 1. Select **Actions** and choose **Export Cycle Content**.
 1. In the dialog that appears, choose the **Content Details to Include** and select **Languages** to export.
 1. Select XLSX or CSV in the **Select Content Type** dropdown menu.
-   :::image type="content" source="../../media/glint/setup/export-360-cycle-content.png" alt-text="Screenshot of the Export Cycle Content dialog with content, language, and file format selections.":::
+   :::image type="content" source="../../media/glint/setup/360-export-cycle-content.png" alt-text="Screenshot of the Export Cycle Content dialog with content, language, and file format selections.":::
 1. Folders (compressed with .zip extension) that contain files for each language download for each type of selected content
 1. Double-click each .zip folder to open and view all language files for each content type.
 2. Open and edit files in each language where customizations need to be added.
@@ -53,7 +53,7 @@ To export 360 content files from the cycle page and edit content to prepare for 
 
 1. After editing and saving exported content files in each language, select **Actions** and choose **Import Cycle Content**.
 2. Select a **Content Type** from the dropdown menu.
-   :::image type="content" source="../../media/glint/setup/import-360-cycle-content.png" alt-text="Screenshot of the Import Cycle Content dialog with content type and file upload method selections.":::
+   :::image type="content" source="../../media/glint/setup/360-import-cycle-content.png" alt-text="Screenshot of the Import Cycle Content dialog with content type and file upload method selections.":::
 4. Drag and drop or browse to choose:
    1. A single XLSX or CSV file in one language.
    2. A .zip folder of multiple XLSX or CSV files in more than one language.
