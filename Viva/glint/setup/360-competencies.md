@@ -18,10 +18,10 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
+# Viva Glint 360 competencies and reporting
+
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
-
-# Viva Glint 360 competencies and reporting
 
 This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
 
