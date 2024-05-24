@@ -41,7 +41,7 @@ From the Glint admin dashboard, select the **Configuration symbol** and then **U
 5.	Select **Manage Feedback** to allow anyone in this role to edit 360 programs.  
 6.	Select **Save Changes** and then **Save Permissions**.
 
-    :::image type="content" source="../../media/glint/setup/360-confirm-changes-permissions.png" alt-text="Screenshot of confirming changes to permissions.":::
+    :::image type="content" source="../../media/glint/setup/360-confirm-changes-permissions.png" lightbox="../../media/glint/setup/360-confirm-changes-permissions.png" alt-text="Screenshot of confirming changes to permissions.":::
 
 1.	Now, in *All Members*, add all subjects and people who will be granted access to a subject’s 360 report to that user role. Use the search bar to search employee names.
 
@@ -75,7 +75,7 @@ Following the procedure for granting feedback access, enable Create Focus Areas 
 
 Use the **Add/Edit Employees** button to open the *Choose a way to add employees* window. Follow the on-screen guidance.
 
-:::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
+:::image type="content" source="../../media/glint/setup/360-add-edit-user-role.png" lightbox="../../media/glint/setup/360-add-edit-user-role.png" alt-text="Screenshot of the Choose a way to add employees pop-up window.":::
 
 > [!TIP]
 > Within a user’s profile, use the View As feature to confirm a user’s access to a program.

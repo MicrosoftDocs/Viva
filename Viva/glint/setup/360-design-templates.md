@@ -49,6 +49,6 @@ Follow this process:
 
 New cycles are created manually using **+ New Cycle**.
 
-   :::image type="content" source="../../media/glint/setup/360-templates.png" alt-text="Screenshot of the Glint manager 360 Program template and a Blank 360 template.":::
+   :::image type="content" source="../../media/glint/setup/360-templates.png" lightbox="../../media/glint/setup/360-templates.png" alt-text="Screenshot of the Glint manager 360 Program template and a Blank 360 template.":::
 
 
