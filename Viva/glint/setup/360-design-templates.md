@@ -20,6 +20,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # 360 program design and templates
 
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
+
 [Refer to this guidance for Viva Glint best practices for customizing and setting up programs](https://go.microsoft.com/fwlink/?linkid=2240920).
 
 In addition to the guidance linked above, there are items specific to 360 design to keep in mind. Viva People Scientists conducted an extensive study to identify 300+ unique work behaviors. This study resulted in the validated core items populated in the 360 template. Open-ended questions provide additional context and help the subject prioritize developmental opportunities.
