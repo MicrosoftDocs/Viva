@@ -1,6 +1,6 @@
 ---
-title: Viva Glint 360 competencies and survey guidance
-description: 
+title: Viva Glint 360 competencies and reporting
+description: Competencies are verifiable characteristics and skills, which enable and improve the efficiency of performing work. Learn to develop your competency model.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -21,9 +21,11 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
 
-# Viva Glint 360 competencies and survey guidance
+# Viva Glint 360 competencies and reporting
 
 This section covers program competencies, survey guidance, report access and timing, and global reporting guidance. 
+
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting-access.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings.":::
 
 ## Competencies
 
@@ -57,6 +59,8 @@ Procedure to map a competency to a question that is already mapped to another co
 
 ### Customizing a competency and mapping it to a question
 
+:::image type="content" source="../../media/glint/setup/360-competencies-reporting.png"alt-text="Screenshot how to access Competencies & Reporting in Cycle Settings."lighthouse="../../media/glint/setup/360-competencies-reporting.png":::
+
 Repeat this procedure until you have mapped all competencies to at least one question:
 
 1.	In Cycle Settings, select **Competencies & Reporting**. The *Competencies & Reporting* page opens.  The Competencies section shows the number of questions mapped to each competency.
@@ -86,6 +90,18 @@ To remove a competency from a cycle:
 5.	Select **Delete** in the confirmation dialog box.
 
 ## Survey guidance
+
+Glint offers standard program and report guidance templates. 
+
+1.	Toggle Survey Guidance to **ON** to reveal the *Select a content resource* dropdown menu. 
+1.	**Key in 360 in the search bar** to access the standard templates. 
+
+:::image type="content" source="../../media/glint/setup/360-survey-guidance.png"alt-text="Screenshot of the dropdown menu to select guidance in Cycle Settings.":::
+
+>[!TIP]
+> We recommend using **360 _Survey_Guidance** for the Survey Guidance. Review and edit the guidance from within *Content Resources*. 
+
+
 
 
 
