@@ -72,6 +72,8 @@ Under **Query setup**:
 
 *Section: **Select metrics for what you want to know about your employees***
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+
 1. Under **Select metrics for what you want to know about your employees**, select the **Add metrics** button.
 
 1. The **Add metrics** button brings you to the **Select metrics** pane. Using the check marks and the tools described later in this section (filter, search, and groupings) select the metrics you want to use in the query, then select **Add to query**.
