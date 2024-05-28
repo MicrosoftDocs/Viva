@@ -21,6 +21,8 @@ audience: Admin
 
 ## Overview
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lfDg]
+
 Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
 
 >[!Note]
