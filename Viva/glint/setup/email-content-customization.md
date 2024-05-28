@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2024
+ms.date: 05/28/2024
 ---
 
 # Customize Viva Glint survey email content
@@ -49,7 +49,14 @@ Viva Glint survey invites and reminders contain multiple editable sections:
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
+> As of June 2024, Viva Glint plans to support multiple paragraphs in these survey and results notification email sections:
+> - Message
+> - Privacy Message
+> - Description
+> - Main Title
+> - Tip 1 Description
+> - Tip 2 Description
+> - Tip 3 Description
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
