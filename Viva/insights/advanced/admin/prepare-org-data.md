@@ -1,5 +1,5 @@
 ---
-ms.date: 12/11/2023
+ms.date: 05/23/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -209,7 +209,7 @@ This section contains information about the attributes that you use in the organ
 >[!Note]
 >If you share data from Viva Insights with the Organizational Data in Microsoft 365 feature, some of the attributes listed below are shared. Any attribute, however, that contains **Microsoft_** will not be available in Viva Insights. [Learn more about Organizational Data in Microsoft 365](/viva/organizational-data#data-uploaded-from-viva-insights).
 
-|Attribute (column header) | Description | Data type | Example value| Required or reserved
+| Viva Insights mapped field | Description | Data type | Example value| Required or reserved
 |--------------------------|----------|---|--------------------|----|
 |**PersonId**| Unique identifier for an employee record. It can be the employee's primary SMTP address or email alias.  | Email | `joe@contoso.com`| Required<sup>1</sup>
 |**ManagerId** | Unique identifier for an employee’s manager. It can be the manager’s primary SMTP address or email alias. For CEOs, this can be left blank. | Email| `sally@contoso.com`| Required |
