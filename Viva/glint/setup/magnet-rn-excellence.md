@@ -14,68 +14,45 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/02/2024
+ms.date: 05/29/2024
 ---
 
 # Set up a Microsoft Viva Glint RN Excellence (Magnet®️) survey
 
-Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and identify risks and opportunities in real-time. The solution can be launched as a standalone or added onto an engagement or company survey and analyzed alongside other engagement data.
+Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and satisfy the necessary RN Satisfaction requirements for the Magnet® Recognition program. The RN Excellence survey can be launched as a standalone or added onto an existing company survey.
 
 ## Get access to real-time data
 
-Viva Glint offers the items needed for a Registered Nurse (RN) survey. The items available are approved by the American Nurses Credentialing Center (ANCC®️) for hospitals/clinics looking to attain or maintain Magnet® status in Nursing. Magnet©️ status is a prestigious honor which certifies that the RNs at that entity or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet®️-certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification. Our survey was created with the guidance and expertise of ANCC®️ analysts. The survey meets all RN Satisfaction criteria laid out by current Application Manuals, as well. 
+Working collaboratively with analysts from the American Nurses Credentialing Center (ANCC®️), Viva Glint People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes in the latest Magnet® Application Manuals. It was approved by the ANCC®️ in May 2018. 
 
-With the ANCC®️, Glint’s People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes. These categories are validated in the EP3EO and EP2EO Magnet Application Manuals®️. 
+Magnet©️ status is a prestigious honor which certifies that the RNs at a hospital, clinic, or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet®️ certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification.
 
-> [!TIP]
-> Choose the **Quarterly Engagement** survey template and customize it to meet your RN Excellence/Magnet®️ needs by following the guidelines below.
+## Build the survey 
 
-## Build the survey by starting with Features in General Settings
+Choose a **blank recurring** survey template and customize it to create the RN Excellence/Magnet®️ survey by searching for and using these core survey items from our Question Library. The items must be included in your survey in this order:
 
-From the admin dashboard, select the **General Settings** feature (in the *Service Configuration* section) and then select **Features**. 
+## RN Excellence survey items
+Viva Glint worked collaboratively with the ANCC®️ to create a Magnet®️/RN Excellence survey that includes the following core items within required ANCC®️ categories:
 
-:::image type="content" source="../../media/glint/setup/general-settings-features.png" alt-text="Screenshot of the access to Features from General Settings.":::
-
-From the *Features* section, in **Available Survey Questions and Program Templates**, unselect all options other than **Nursing Excellence** and **Patient Safety**. 
-Select **Save Changes**. 
-
-:::image type="content" source="../../media/glint/setup/features-nursing-survey.png" alt-text="Screenshot of how the Features setting should look to make nursing excellence and patient safety items available.":::
-
-Now these items are available in the Question Library and can be added to surveys.
-
-:::image type="content" source="../../media/glint/setup/patient-safety-question-library.png" alt-text="Screenshot of how the items available in the Question Library feature after selections are made in General Settings.":::
-
-## Select the survey items
-
->[!IMPORTANT]
->Keep surveys short. Delete most engagement questions and replace them with the required items.
-
-All survey items can be viewed and exported from the **Questions** page in *Program Summary* within the Patient Safety Survey template or downloaded from the **Question Library** on the admin dashboard. 
-
-Choose items to add to your survey template so that it resembles the 20 items in the table below, in numerical order. Follow in-platform guidance for adding items, and the images below for direction. **Always choose the item that is labeled with Magnet®️, if available.** In some cases, you have a choice of more items than are required; choose only the number of items required per category. 
-
-Viva Glint worked collaboratively with the ANCC®️ to create a Magnet®️/RN Excellence survey that includes the following core items and required ANCC®️ categories:
-
-|Survey items|Required ANCC®️ Category|
-|:-----------|:----------------------|
-|1-7|Fundamentals of Quality Nursing Care|
-|8-9|Leadership Access and Responsiveness|
-|10-12|Autonomy|
-|13-14|Inter-professional Relationships|
-|15-16|RN-to-RN Teamwork and Collaboration|
-|17-18|Professional Development|
-|19-20|Adequacy of Resources and Staffing|
-
-:::image type="content" source="../../media/glint/setup/question-library-fundamentals.png" alt-text="Screenshot of Fundamentals items in the Question Library.":::
-
-:::image type="content" source="../../media/glint/setup/question-library-leadership.png" alt-text="Screenshot of Leadership items in the Question Library.":::
-
-:::image type="content" source="../../media/glint/setup/question-library-autonomy.png" alt-text="Screenshot of Autonomy items in the Question Library.":::
-
-:::image type="content" source="../../media/glint/setup/question-library-relationships.png" alt-text="Screenshot of Relationships items in the Question Library.":::
-
-:::image type="content" source="../../media/glint/setup/question-library-teamwork.png" alt-text="Screenshot of Teamwork items in the Question Library.":::
-
-:::image type="content" source="../../media/glint/setup/question-library-development.png" alt-text="Screenshot of Development items in the Question Library":::
-
-:::image type="content" source="../../media/glint/setup/question-library-staff.png" alt-text="Screenshot of Staff items in the Question Library.":::
+|Category|Item name|Item text|
+|-----------|----------|------------|
+|Magnet|Development-Growth|	I have good opportunities to learn and grow at [COMPANY].|
+|Magnet| Job Resources|I have the resources I need to do my job well.|
+|Autonomy| Empowered|	I feel empowered to make nursing care decisions in the clinical care of patients.|
+|Autonomy|Involved|	I feel appropriately involved in decisions about the nursing practices that affect my work.|
+|Autonomy|Outside Nursing	|I am given the autonomy to be involved in decisions outside of day-to-day nursing practices.|
+|Fundamentals|CNO Vision|Our Nursing Leadership (i.e., The CNO and his/her direct reports) has a strong vision that supports high standards for nursing practice.|
+|Fundamentals|Competence|	RNs at [COMPANY] are clinically competent.|
+|Fundamentals| Evidence	|RNs at [COMPANY] incorporate evidence-based and standard findings into the delivery of patient care.|
+|Fundamentals|Improvement|	RNs at [COMPANY] contribute to continuous quality improvement.|
+|Fundamentals|Nursing Model|The Nursing Professional Practice Model incorporates the mission, vision, philosophy, and values of [COMPANY].|
+|Fundamentals|Patient-Centered|	RNs partner with patients and families to deliver individualized patient-centered care.|
+|Fundamentals|Safety|	We promote a culture of safety here in the nurse work environment.|
+|Leadership| Responsiveness|	Our nursing leadership (i.e., the CNO and his/her direct reports) is responsive to nursing questions and concerns.|
+|Leadership| Support|	Our nursing leadership (i.e., the CNO and his/her direct reports) can be counted on to support the team.|
+|Magnet| Development| Resources	I have the resources I need to further my professional development.|
+|Relationships| Collaboration|	I collaborate well with members of all interprofessional teams (e.g., pharmacy, laboratory, radiology, physicians).|
+|Relationships| Working|	I have a good working relationship with members of all interprofessional teams (e.g., pharmacy, laboratory, radiology, physicians).|
+|Teamwork|Collaboration|	RNs at [COMPANY] collaborate effectively to get things done.|
+|Teamwork| RN Cooperation|	Teamwork and cooperation exist among RNs at [COMPANY].| 
+|Magnet|Staff Resources|	We have enough employees to get our work done.|
