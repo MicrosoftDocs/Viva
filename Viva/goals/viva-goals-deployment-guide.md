@@ -8,7 +8,7 @@ manager: Liz.Pierce
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:  
