@@ -39,7 +39,7 @@ There are two ways to begin your 360 process:
 
 - Select feedback providers from your welcome email.
   
-  - On the cycle start date, you’ll receive a welcome email letting you know that your 360 program has begun. 
+  - On the cycle start date, you receive a welcome email letting you know that your 360 program began. 
   - The email provides instructions about next steps and prompts to **Select feedback providers**.
   - Upon selecting this prompt, you’re prompted to log into Viva Glint and brought to a page to select your feedback providers.
 
@@ -64,13 +64,13 @@ You may see pre-populated feedback providers (manager, direct reports, peers). T
 
 ### What if I haven't invited enough feedback providers?
 
-You receive on-screen direction if you haven’t met your minimum. Select **Update Feedback Providers** after you have entered enough providers.
+You receive on-screen direction if your minimum isn't met. Select **Update Feedback Providers** after you have entered enough providers.
 
 ::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
 ### Feedback provider reminder
 
-If you haven’t had time yet or have forgotten to select feedback providers, you receive this email:
+If you haven’t had time or forgot to select feedback providers, you receive this email:
 
 ::image type="content" source="../../media/glint/setup/360-feedback-reminder.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
@@ -95,7 +95,7 @@ Until your cycle is complete, Step 3 shows as *Awaiting Results*
 
 :::image type="content" source="../../media/glint/setup/360-awaiting-results.png" alt-text="Screenshot Step 3 in the self-assessment journey.":::
 
-You can see this by
+You can see this from either of these sources:
  - reaccessing your initial welcome email and selecting "Select feedback providers"
  - or, from the Feedback tab on your Glint dashboard, go to **My Feedback** and then **View.**
 
@@ -104,7 +104,7 @@ You can see this by
 You’ll receive an email letting you know you can review your report. Use the button in the email or access your report directly from the Feedback tab on the Glint platform. 
 
 1.	Scroll to the *Feedback History* section to access your completed 360.
-2.	Select the report card to open the report. The card shows the number of completed participants (you included) and their initials.
+2.	Select the card to open the report. Data shows the number of completed participants (you included) and their initials.
 3.	On the toolbar, select the horizontal ellipses to review the confidentiality settings. You can also download a PDF of your report.
 4.	Choose a tab to open:
      - **Insights** – A top-level view of your 360 results
@@ -113,7 +113,7 @@ You’ll receive an email letting you know you can review your report. Use the b
 
 :::image type="content" source="../../media/glint/setup/360-subjects-feedback-tabs.png" alt-text="Screenshot of the tabs on a subject's Feedback dashboard.":::
 
-Use the lightbult symbol for guidance on how to view the report.
+Use the lightbulb symbol for guidance on how to view the report.
 
 ### View Insights
 
@@ -135,7 +135,7 @@ In this section, you can take action to better understand where others see you a
 
 #### Overall Scores
 
-Review your scores by rater category. View the average score per category and then hover over and select a row to see a visual representation into the highest, average, and lowest rating scores.
+Review your scores by rater category. To view rating scores, hover over and select a row to see a visual representation of your feedback.
 
 :::image type="content" source="../../media/glint/setup/360-overall-scores.png" alt-text="Screenshot of the Overall Scores report within Insights.":::
 
