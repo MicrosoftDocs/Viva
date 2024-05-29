@@ -48,7 +48,7 @@ While view-only mode only affects the user's experience and privileges in Engage
 
 **To assign a user to view-only mode:**
 
-1. Go to the [Viva Engage admin center](/viva/engage/eac-as-access-eac).
+1. Go to the [Viva Engage admin center](/viva/engage/eac-overview).
 
 2. From the **Governance and compliance tab**, select the **View-only mode** option.
 
