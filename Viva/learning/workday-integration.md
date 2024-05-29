@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/20/2024
+ms.date: 05/29/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -211,9 +211,11 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 > [!NOTE]
 > Admins need to create a custom report manually. This is a one time process. We are only supporting the report structure mentioned in this support article, any other changes in reports are not recommended.
 
-9. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
-Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
-If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
+1. Ensure that the **Workday to AAD user sync** is in place for your tenant.  
+2. Enable inbound user provisioning with Workday to ensure that all users in Workday are synced to Azure Active Directory (AAD).
+3. If you're already a Microsoft 365 customer, Workday to AAD user sync should be in place for your tenant. 
+
+Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
 ### Create RaaS report on the Workday portal for catalog sync
 
@@ -424,10 +426,11 @@ This report should be created from the primary Workday admin account to avoid an
 |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
 | Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
-1. Add date filters to the report for delta sync. 
-        1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
-        1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
-        1. In next screen, add following values under Date Fields and select **OK**.
+6. Add date filters to the report for delta sync. 
+        
+    1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
+    1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
+    1. In next screen, add following values under Date Fields and select **OK**.
 
     | Field | Value |
     | - | - | 
@@ -435,7 +438,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Extract Month from Date Field | Last Functionally Updated |
     | Extract Day from Date Field | Last Functionally Updated |
 
-    1. Add following values in remaining fields of the start filter:
+    d. Add following values in remaining fields of the start filter:
 
     | Field | Value |
     | - | - |
@@ -444,7 +447,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
     | Comparison Value | Starting Prompt | 
 
-    1. Add another filter and with following values and select “OK”.
+    e. Add another filter and with following values and select “OK”.
 
     | Field | Value |
     | - | - | 
@@ -453,13 +456,13 @@ This report should be created from the primary Workday admin account to avoid an
     |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
     | Comparison Value | Ending Prompt | 
    
-    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-filters-for-completion-raas.png)
+    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
 
     **Modify the Prompts**
 
     1. Go to **Prompts**. 
         1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for Modified date, which is defined in the previous step.
-    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-prompts-for-completion-raas.png)
+    ![Screenshot of the self-enrollment completion prompts](../media/learning/workday-assignment-raas-11.png)
 
         1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
@@ -467,9 +470,11 @@ This report should be created from the primary Workday admin account to avoid an
     2. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
     1. Save the report. Select **OK.**
-    1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
+    1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
     1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
-    1. The assignments with completion status "manually waived" aren't displayed. 
+
+>[!NOTE]: 
+> The assignments with completion status "manually waived" aren't displayed in the Viva Learning user experience. 
 
 ### Create RaaS report on the Workday portal for completion status of self-enrollment
 
@@ -566,8 +571,8 @@ This report should be created from the primary Workday admin account to avoid an
     - For Ending Prompt, add value EndDate in fields Label for Prompt and Label for Prompt XML Alias
 1. Go to **Advanced.** Uncheck the field **Optimized for Performance**. 
 1. Save the field. Select **OK**.
-1. Share the report with Integrated System User and respective security group, which you created while enabling content sync.
-1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
+1. Share the report with Integrated System User (ISU) and respective security group, which you created while enabling content sync. Go to the **Share** section in the report, select “Share with specific authorized groups and users” and add group name and user name in Authorized Groups and Authorized users field. 
+1. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 
 > [!NOTE]
 > Lessons are not supported in self-enrollment completion status.
