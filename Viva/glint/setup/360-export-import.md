@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 cycle content export and import
+title: Viva Glint 360 cycle content export and import (preview)
 description: Export and import translation files for 360 feedback cycles.
 ms.author: aweixelman
 author: AliciaWeixelman
