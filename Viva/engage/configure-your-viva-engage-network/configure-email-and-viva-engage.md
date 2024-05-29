@@ -45,11 +45,7 @@ Follow the best security practices in [Microsoft 365 for Business](/microsoft-36
 
 ## Email settings admins control
 
-Admins control the following settings:
-  
-- The logo on emails that Viva Engage sends to users.
-
-- Whether all users have to confirm messages posted by email. For more information, see [Configure your Viva Engage network](configure-viva-engage.md).
+Admins control the logo on emails that Viva Engage sends to users.
 
 ## Email settings users control
 
