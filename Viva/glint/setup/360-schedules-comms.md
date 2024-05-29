@@ -1,5 +1,5 @@
 ---
-title: Setup schedules and communications for a Viva Glint 360
+title: Setup schedules and communications for a Viva Glint 360 (preview)
 description: Follow this guidance to set up five sections about schedules and communications for your Microsoft Viva Glint 360 feedback program.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 5/28/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Setup schedules and communications for a Viva Glint 360
+# Setup schedules and communications for a Viva Glint 360 (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
