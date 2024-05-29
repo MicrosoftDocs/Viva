@@ -1,5 +1,5 @@
 ---
-title: Customize Viva Glint 360 email content
+title: Customize Viva Glint 360 email content (preview)
 description: 
 ms.author: aweixelman
 author: AliciaWeixelman
