@@ -18,7 +18,7 @@ ms.date: 05/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Viva Glint 360 feedback program overview
+# Viva Glint 360 feedback program overview (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
