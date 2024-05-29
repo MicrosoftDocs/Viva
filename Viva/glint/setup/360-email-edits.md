@@ -18,7 +18,7 @@ ms.date: 5/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Customize Viva Glint 360 email content
+# Customize Viva Glint 360 email content (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
