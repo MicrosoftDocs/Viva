@@ -45,7 +45,7 @@ There are two ways to begin your 360 process:
 
 Your email looks like this:
 
-::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
+:::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
 
 - Select feedback providers from your Glint dashboard
   
