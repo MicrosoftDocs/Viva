@@ -1,5 +1,5 @@
 ---
-title: 360 program design and templates
+title: 360 program design and templates (preview)
 description: Learn about 360 program design.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,10 @@ ms.date: 5/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# 360 program design and templates
+# 360 program design and templates (preview)
+
+> [!NOTE]
+> This feature is available to preview customers only. Features described here are subject to change.
 
 [Refer to this guidance for Viva Glint best practices for customizing and setting up programs](https://go.microsoft.com/fwlink/?linkid=2240920).
 
@@ -46,6 +49,6 @@ Follow this process:
 
 New cycles are created manually using **+ New Cycle**.
 
-   :::image type="content" source="../../media/glint/setup/360-templates.png" alt-text="Screenshot of the Glint manager 360 Program template and a Blank 360 template.":::
+   :::image type="content" source="../../media/glint/setup/360-templates.png" lightbox="../../media/glint/setup/360-templates.png" alt-text="Screenshot of the Glint manager 360 Program template and a Blank 360 template.":::
 
 
