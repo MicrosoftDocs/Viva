@@ -18,7 +18,7 @@ ms.date: 5/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program
+# Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
