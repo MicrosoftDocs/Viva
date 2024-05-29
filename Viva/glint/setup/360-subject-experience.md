@@ -159,7 +159,7 @@ After selecting Opt out, confirm or cancel your action in the confirmation messa
  
 If an admin reopens a cycle for a you after you have opted out, no responses are saved and the entire cycle must start over.
 
-:::image type="content" source="../../media/glint/setup/360-opt-out.png" lightbox=""../../media/glint/setup/360-opt-out.png" alt-text="Screenshot of the Opt Out option in a subject's 360 welcome email.":::
+:::image type="content" source="../../media/glint/setup/360-opt-out.png" lightbox="../../media/glint/setup/360-opt-out.png" alt-text="Screenshot of the Opt Out option in a subject's 360 welcome email.":::
 
 ### Opting out during live or closed survey status
 
