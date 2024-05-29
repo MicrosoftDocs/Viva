@@ -78,7 +78,7 @@ If you haven’t had time or forgot to select feedback providers, you receive th
 
 From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
 
-::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
+:::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
 You're taken to the first page of your self-assessment:
 
