@@ -32,11 +32,9 @@ To help ensure a productive preview that enables Skills in Viva to meet and exce
 
 - Private preview must be deployed on a production tenant where users are spending at least 80% of their time on emails, documents, and other Microsoft 365 and Viva applications. 
 - More than 100 users who are licensed for either Viva Suite or Viva Learning.  
-- Users included in the Skills preview program have Viva Learning deployed and available for use.
 
 > [!NOTE]
-> - Private preview is available only in English (en-US). The default language for Viva Learning must also be English (en-US) for this preview.
-> - When you enable skills, all users in your tenant lose “Interests” they have selected in Viva Learning. The interests data is deleted - users instead see skills. You cannot reverse this action.
+> Private preview is available only in English (en-US). 
 
 
 ## Admin roles 

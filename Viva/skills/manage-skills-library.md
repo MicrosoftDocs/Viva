@@ -68,7 +68,7 @@ View and manage the skills you selected from the default skills library in Viva.
 6. Select **Done**.
 
    > [!NOTE]
-   > If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to be reflected in suggested skills for users and in Viva Learning.  
+   > If your library is published for users, the changes are reflected within 24 hours in their experience.  
 
 ### Manage custom skills 
 
@@ -109,7 +109,7 @@ To import customs skills into Skills for Viva:
 
 13. Select **Confirm** to import.  
 
-If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to reflect in suggested skills for users and in Viva Learning.
+If your library is published for users, the changes are reflected within 24 hours in their experience. 
 
 
 #### Export custom skills
@@ -130,4 +130,4 @@ Deleting custom skills immediately removes all of these skills from your usersâ€
 1. Select **Delete** to confirm that you want to delete your custom skills. 
 
 > [!NOTE]
-> If your library is published for users, the changes are reflected within 24 hours in their experience. It may take up to 72 hours for changes to your skills library to be reflected in suggested skills for users and in Viva Learning.
+> If your library is published for users, the changes are reflected within 24 hours in their experience.
