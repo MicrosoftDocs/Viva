@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 ## Custom sending domains and branding (optional)
 
-In the [Microsoft Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your M365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
+In the [Microsoft 365 Admin Center (MAC)](https://go.microsoft.com/fwlink/?linkid=2264234), your Microsoft 365 admin can optionally configure a custom sending domain for your organization. In the [Microsoft Entra admin center](https://entra.microsoft.com/#home), customize your organization's branding to include your logo in 360 survey communications:
 
 - [Set up a custom sending domain](/microsoft-365/admin/email/select-domain-to-use-for-email-from-microsoft-365-products)
 - [Customize company branding](/microsoft-365/admin/setup/customize-sign-in-page)
@@ -55,8 +55,8 @@ To edit Viva Glint 360 email content:
 :::image type="content" source="../../media/glint/setup/360-welcome-email-edit.png" alt-text="Screenshot of editable 360 email sections in the Welcome and Feedback Provider Selection email.":::
 
 4. Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
-5. Preview edits by selecting the eye icon in the edit pane to view emails in the platform.
-6. Repeat these steps for all 360 emails that needs customizations for your organization.
+5. Preview edits by selecting the eye icon in the email edit pane to view emails in the platform.
+6. Repeat these steps for all 360 emails that need customizations for your organization.
 
 
 > [!CAUTION]
