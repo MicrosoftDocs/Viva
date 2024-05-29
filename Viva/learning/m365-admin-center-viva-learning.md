@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: chrisarnoldmsft
 ms.date: 11/23/2021
 audience: admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-learning
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
