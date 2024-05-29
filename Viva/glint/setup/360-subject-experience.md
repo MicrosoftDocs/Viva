@@ -82,7 +82,7 @@ From the Feedback tab on your Glint dashboard, select **View** for your program.
 
 You're taken to the first page of your self-assessment:
 
-::image type="content" source="../../media/glint/setup/360-first-page-self.png" alt-text="Screenshot of the first page of the self-assessment.":::
+:::image type="content" source="../../media/glint/setup/360-first-page-self.png" alt-text="Screenshot of the first page of the self-assessment.":::
 
 When finished, you see this message:
 
