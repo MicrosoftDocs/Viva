@@ -46,7 +46,10 @@ The following roles are pre-configured in Viva Glint and can't be edited. Create
 - **Active Employees**: Not intended to have data access
 - **Inactive Employees**: Not intended to have data access
 - **Managers**: Doesn't allow edits, create a new role to change permissions and attributes
-- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited 
+- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited
+
+>[!NOTE]
+> Edits to default **User Role Report Attributes** are planned to be available after June 1, 2024.
 
 ## Create User Roles
 
