@@ -41,15 +41,15 @@ There are two ways to begin your 360 process:
   
   - On the cycle start date, you’ll receive a welcome email letting you know that your 360 program has begun. 
   - The email provides instructions about next steps and prompts to **Select feedback providers**.
-  - Upon selecting this, you’re prompted to log into Viva Glint and brought to a page to select your feedback providers.
+  - Upon selecting this prompt, you’re prompted to log into Viva Glint and brought to a page to select your feedback providers.
 
-Your email will look like this:
+Your email looks like this:
 
 ::image type="content" source="../../media/glint/setup/360-subject-start-email.png" lightbox="../../media/glint/setup/360-subject-start-email.png" alt-text="Screenshot of the welcome email for 360 subjects.":::
 
 - Select feedback providers from your Glint dashboard
   
-  - From your Glint manager dashboard, in the Feedback tab, you’ll see that you have a 360 program in progress.
+  - From your Glint manager dashboard, in the Feedback tab, you see that you have a 360 program in progress.
  
 ## Step 1 - Select feedback providers
 
@@ -64,19 +64,19 @@ You may see pre-populated feedback providers (manager, direct reports, peers). T
 
 ### What if I haven't invited enough feedback providers?
 
-You’ll receive on-screen direction if you haven’t met your minimum. Select **Update Feedback Providers** after you have entered enough providers.
+You receive on-screen direction if you haven’t met your minimum. Select **Update Feedback Providers** after you have entered enough providers.
 
 ::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
 ### Feedback provider reminder
 
-If you haven’t had time yet or have forgotten to select your feedback providers, you’ll receive this email:
+If you haven’t had time yet or have forgotten to select feedback providers, you receive this email:
 
 ::image type="content" source="../../media/glint/setup/360-feedback-reminder.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
 ## Step 2 - Take your self-assessment
 
-From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 can be activated. Select the **Take Assessment** button and follow the on-screen instructions. Note that your due date for your self-assessment displays.
+From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 can be activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
 
 ::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
@@ -84,18 +84,18 @@ You're taken to the first page of your self-assessment:
 
 ::image type="content" source="../../media/glint/setup/360-first-page-self.png" alt-text="Screenshot of the first page of the self-assessment.":::
 
-When you've finished, you'll see this message:
+When finished, you see this message:
 
 :::image type="content" source="../../media/glint/setup/360-self-thanks.png" alt-text="Screenshot of the thanks for taking your self-assessment message.":::
 
 
 ## Step 3 - Review your report and reflect
 
-Until your cycle is complete, Step 3 will show as *Awaiting Results*
+Until your cycle is complete, Step 3 shows as *Awaiting Results*
 
 :::image type="content" source="../../media/glint/setup/360-awaiting-results.png" alt-text="Screenshot Step 3 in the self-assessment journey.":::
 
-You'll see this by
+You can see this by
  - reaccessing your initial welcome email and selecting "Select feedback providers"
  - or, from the Feedback tab on your Glint dashboard, go to **My Feedback** and then **View.**
 
@@ -117,11 +117,11 @@ Use the lightbult symbol for guidance on how to view the report.
 
 ### View Insights
 
-In this section you see these reports:
+In this section, you see these reports:
 
 #### Responses
 
-This report is a breakdown of who responded from those invited to give feedback.
+This report is a breakdown of who responded from those people invited to give feedback.
 
 :::image type="content" source="../../media/glint/setup/360-all-responses.png" alt-text="Screenshot of the Response report within Insights.":::
 
@@ -141,10 +141,10 @@ Review your scores by rater category. View the average score per category and th
 
 ### Visibility into your report access
 
-You have visibility about who has access to your 360 report. In the Welcome email and 360 overview page. A message appears and you can see:
+You have visibility about who has access to your 360 report via the Welcome email and from the 360 overview page. A message appears and you see:
  
 - Which users are scheduled to receive a copy of the 360 report (subject, coach and/or manager)
-- That you'll receive an email notification when admins release your 360 report, as well as when an admin removes report access for a user.
+- Notification that you receive an email when admins release your 360 report.
  
 From your 360 report, you have access to a Report Recipients section that lists all report recipients and release dates.
  
@@ -157,7 +157,7 @@ Your manager may begin a 360 feedback program on your behalf. You can opt out by
  
 After selecting Opt out, confirm or cancel your action in the confirmation message that displays. The Glint 360 admin from your organization receives an email notification should you opt out.
  
-If an admin reopens a cycle for a you after you have opted out, no responses are saved and the entire cycle must start over.
+If an admin reopens a cycle for a you after you opted out, no responses are saved and the entire cycle must start over.
 
 :::image type="content" source="../../media/glint/setup/360-opt-out.png" lightbox="../../media/glint/setup/360-opt-out.png" alt-text="Screenshot of the Opt Out option in a subject's 360 welcome email.":::
 
@@ -165,7 +165,7 @@ If an admin reopens a cycle for a you after you have opted out, no responses are
 
 You can’t opt out of a closed 360 feedback cycle. You receive an error message stating the cycle is no longer available. 
 
-Should you opt out during a cycle, any feedback already collected is deleted, and this action can’t be undone. An opt out record is retained in the subject’s *My Feedback* tab and the admin’s cycle overview. This can be overridden if an admin manually deletes the subject from the cycle.
+Should you opt out during a cycle, any feedback already collected is deleted, and this action can’t be undone. An opt out record is retained in the subject’s *My Feedback* tab and the admin’s cycle overview. This function can be overridden if an admin manually deletes the subject from the cycle.
 
 
 
