@@ -53,18 +53,18 @@ Your email looks like this:
  
 ## Step 1 - Select feedback providers
 
-You may see pre-populated feedback providers (manager, direct reports, peers). There’s no limit to the number of feedback providers you can select, but you must invite at least three.
+You may see prepopulated feedback providers (manager, direct reports, peers). There’s no limit to the number of feedback providers you can select, but you must invite at least three.
 
 ::image type="content" source="../../media/glint/setup/360-subject-step-1.png" lightbox="../../media/glint/setup/360-subject-step-1.png" alt-text="Screenshot of the first step for 360 subjects.":::
 
 1.	Follow on-screen instructions to add or remove feedback providers. 
-2.	When finished, select the Invite Feedback Providers button. 
+2.	When finished, select the **Invite Feedback Providers** button. 
 3.	A banner confirms that your feedback providers are updated. 
-4.	Feedback provider email invitations are sent within 15 minutes of you pressing the button.
+4.	Feedback provider email invitations are sent within 15 minutes of pressing the button.
 
 ### What if I haven't invited enough feedback providers?
 
-You receive on-screen direction if your minimum isn't met. Select **Update Feedback Providers** after you have entered enough providers.
+You receive on-screen notification if your minimum isn't met. Select **Update Feedback Providers** after you have entered enough providers.
 
 ::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
@@ -129,9 +129,9 @@ This report is a breakdown of who responded from those people invited to give fe
 
 View the total number of comments and the actual comments left by feedback providers.
 
-#### Top relative strengths and Top felative opportunities
+#### Top relative strengths and Top relative opportunities
 
-In this section, you can take action to better understand where others see you as effective or as an opportunity for improvement.  Select **Take action** to view these insights further.
+In this section, take action to better understand where others see you as effective or where there is an opportunity for improvement.  Select **Take action** to view these insights further.
 
 #### Overall Scores
 
@@ -155,9 +155,9 @@ From your 360 report, you have access to a Report Recipients section that lists 
 
 Your manager may begin a 360 feedback program on your behalf. You can opt out by selecting the **Opt out** button in the welcome email or overview page. 
  
-After selecting Opt out, confirm or cancel your action in the confirmation message that displays. The Glint 360 admin from your organization receives an email notification should you opt out.
+After selecting Opt out, confirm or cancel that action in the confirmation message that displays. The Glint 360 admin from your organization receives an email notification should you opt out.
  
-If an admin reopens a cycle for a you after you opted out, no responses are saved and the entire cycle must start over.
+If an admin reopens a cycle for you after you opted out, no responses are saved and the entire cycle must start over.
 
 :::image type="content" source="../../media/glint/setup/360-opt-out.png" lightbox="../../media/glint/setup/360-opt-out.png" alt-text="Screenshot of the Opt Out option in a subject's 360 welcome email.":::
 
@@ -165,7 +165,7 @@ If an admin reopens a cycle for a you after you opted out, no responses are save
 
 You can’t opt out of a closed 360 feedback cycle. You receive an error message stating the cycle is no longer available. 
 
-Should you opt out during a cycle, any feedback already collected is deleted, and this action can’t be undone. An opt out record is retained in the subject’s *My Feedback* tab and the admin’s cycle overview. This function can be overridden if an admin manually deletes the subject from the cycle.
+Should you opt out during a cycle, any feedback already collected is deleted, and this action can’t be undone. An *opt out* record is retained in the subject’s *My Feedback* tab and the admin’s cycle overview. This function can be overridden if an admin manually deletes the subject from a cycle.
 
 
 
