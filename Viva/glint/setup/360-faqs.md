@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 frequently asked questions
+title: Viva Glint 360 frequently asked questions (preview)
 description: These frequently asked questions (FAQs) address common questions that Microsoft Viva Glint 360 subjects, admins, and coaches have when interacting with 360 cycles.
 ms.author: aweixelman
 author: AliciaWeixelman
