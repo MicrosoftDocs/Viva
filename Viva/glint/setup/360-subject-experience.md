@@ -55,7 +55,7 @@ Your email looks like this:
 
 You may see prepopulated feedback providers (manager, direct reports, peers). There’s no limit to the number of feedback providers you can select, but you must invite at least three.
 
-::image type="content" source="../../media/glint/setup/360-subject-step-1.png" lightbox="../../media/glint/setup/360-subject-step-1.png" alt-text="Screenshot of the first step for 360 subjects.":::
+:::image type="content" source="../../media/glint/setup/360-subject-step-1.png" lightbox="../../media/glint/setup/360-subject-step-1.png" alt-text="Screenshot of the first step for 360 subjects.":::
 
 1.	Follow on-screen instructions to add or remove feedback providers. 
 2.	When finished, select **Invite Feedback Providers**. 
