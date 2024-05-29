@@ -1,6 +1,6 @@
 ---
 title: Viva Glint 360 feedback program - feedback provider experience
-description
+description: Be part of a Viva Glint 360 program to help your manager grow professionally by providing feedback about how they work. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: Melissa Barry
