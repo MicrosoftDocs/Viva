@@ -1,5 +1,5 @@
 ---
-title: Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program
+title: Manage subjects, feedback providers, and coaches in a Viva Glint 360 feedback program (preview)
 description: Selecting subjects, feedback providers, and coaches is done in the Manage Subjects sections of a Viva Glint 360 program.
 ms.author: JudithWeiner
 author: JudyWeiner
