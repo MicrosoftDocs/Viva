@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
 
-A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 is not a performance evaluation but is truly focused on your development.
+A Microsoft Viva Glint 360 feedback program provides insights into your strengths and opportunities. A 360 program shares different viewpoints about the way you work from the people you work with. It’s a foundational step toward professional growth and meaningful change. A 360 isn't a performance evaluation but is truly focused on your development.
 
 Your direct manager assigns you to become a 360 program subject. As a 360 subject you complete a self-assessment and request feedback from various others such as your manager, direct reports (if you’re a people manager) and other collaborators.
 
@@ -58,13 +58,13 @@ You may see prepopulated feedback providers (manager, direct reports, peers). Th
 ::image type="content" source="../../media/glint/setup/360-subject-step-1.png" lightbox="../../media/glint/setup/360-subject-step-1.png" alt-text="Screenshot of the first step for 360 subjects.":::
 
 1.	Follow on-screen instructions to add or remove feedback providers. 
-2.	When finished, select the **Invite Feedback Providers** button. 
+2.	When finished, select **Invite Feedback Providers**. 
 3.	A banner confirms that your feedback providers are updated. 
-4.	Feedback provider email invitations are sent within 15 minutes of pressing the button.
+4.	Feedback provider email invitations are sent within 15 minutes of confirming your providers.
 
 ### What if I haven't invited enough feedback providers?
 
-You receive on-screen notification if your minimum isn't met. Select **Update Feedback Providers** after you have entered enough providers.
+You receive on-screen notification if your minimum number of providers isn't met. Select **Update Feedback Providers** after correcting this issue.
 
 ::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
@@ -76,7 +76,7 @@ If you haven’t had time or forgot to select feedback providers, you receive th
 
 ## Step 2 - Take your self-assessment
 
-From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 can be activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
+From the Feedback tab on your Glint dashboard, select **View** for your program. Now Step 2 is activated. Select the **Take Assessment** button and follow the on-screen instructions. Your due date for your self-assessment displays.
 
 ::image type="content" source="../../media/glint/setup/360-take-self-assessment.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
@@ -91,17 +91,17 @@ When finished, you see this message:
 
 ## Step 3 - Review your report and reflect
 
-Until your cycle is complete, Step 3 shows as *Awaiting Results*
+Until your cycle is complete, Step 3 shows as *Awaiting Results*.
 
 :::image type="content" source="../../media/glint/setup/360-awaiting-results.png" alt-text="Screenshot Step 3 in the self-assessment journey.":::
 
-You can see this from either of these sources:
+You see this from either of these sources:
  - reaccessing your initial welcome email and selecting "Select feedback providers"
- - or, from the Feedback tab on your Glint dashboard, go to **My Feedback** and then **View.**
+ - or, from the Feedback tab on your Glint dashboard. Select **My Feedback** and then **View.**
 
 ## Access your 360 report
 
-You’ll receive an email letting you know you can review your report. Use the button in the email or access your report directly from the Feedback tab on the Glint platform. 
+You receive an email letting you know to review your report. Use the button in the email or access your report from the Feedback tab on the Glint platform. 
 
 1.	Scroll to the *Feedback History* section to access your completed 360.
 2.	Select the card to open the report. Data shows the number of completed participants (you included) and their initials.
