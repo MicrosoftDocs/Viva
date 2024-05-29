@@ -42,13 +42,13 @@ To edit Viva Glint 360 email content:
 
 1. Go to the **Schedule & Communication** section of your desired 360 cycle. 
 2. In the **360 Communication Triggers & Notifications** section, select the pencil icon on the far right of a 360 email to edit and preview content. Editable emails include:
-  - Welcome and Feedback Provider Selection
-  - Give Feedback Invitation
-  - Response Rate Email
-  - Report Ready to Subject
-  - Report Ready to Subject's Coach
-  - Report Ready to Additional Person (off by default)
-  - Report Ready to Subject's Manager
+   - Welcome and Feedback Provider Selection
+   - Give Feedback Invitation
+   - Response Rate Email
+   - Report Ready to Subject
+   - Report Ready to Subject's Coach
+   - Report Ready to Additional Person (off by default)
+   - Report Ready to Subject's Manager
 3. In the edit pane that appears, select the pencil icon to edit content.
 4. Viva Glint 360 emails and reminders contain multiple editable sections:
 
