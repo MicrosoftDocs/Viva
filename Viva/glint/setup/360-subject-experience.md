@@ -72,7 +72,7 @@ You receive on-screen notification if your minimum number of providers isn't met
 
 If you haven’t had time or forgot to select feedback providers, you receive this email:
 
-::image type="content" source="../../media/glint/setup/360-feedback-reminder.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
+:::image type="content" source="../../media/glint/setup/360-feedback-reminder.png" alt-text="Screenshot of the feedback provider selection reminder window.":::
 
 ## Step 2 - Take your self-assessment
 
