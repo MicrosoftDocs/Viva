@@ -50,7 +50,7 @@ From: [Name/Title or Team/Company]<br>
 Subject: 360 Feedback Program<br>
 Date: [Date]<br>
 
-We’re excited to launch a Viva Glint 360 feedback program on [date]. 360 programs will help our employees gain self-awareness, identify their strengths and areas for improvement, and take concrete steps to grow. They are designed to support our strategic goals at [Company Name].
+We’re excited to launch a Viva Glint 360 feedback program on [date]. 360 programs help our employees gain self-awareness, identify their strengths and areas for improvement, and take concrete steps to grow. They are designed to support our strategic goals at [Company Name].
 
 The 360 feedback process collects input from direct reports, colleagues, and an employee’s direct manager. We’ve chosen Microsoft Viva Glint, a third party, to ensure confidentiality and a great experience for all participants. Feedback is easy to give, access, and use.
 
@@ -78,7 +78,7 @@ A 360 is a tool to help employees gain insight into their strengths and their ar
 
 You may be asked to be a Rater for one of your colleagues. As a rater, you will fill out a survey about your colleague's work behaviors. Your feedback should be honest and constructive, as it will help your colleague grow and develop.
 
-The survey is administered by Microsoft Viva Glint, a third party, who will ensure confidentiality, accuracy, an easy to take survey, and one that solicits useful feedback to create a better work environment.
+The survey is administered by Microsoft Viva Glint, a third party, to ensure confidentiality, accuracy, an easy to take survey, and one that solicits useful feedback to create a better work environment.
 
 Your opinions are important and valuable. They help us build a workplace where everyone feels heard and has the opportunity to learn and grow. If you have any questions, please let us know.
 
@@ -95,9 +95,9 @@ Date: [Date]<br>
 
 Thank you for participating as a subject in the 360 feedback program that starts on [date]. This is a great opportunity for you to get a comprehensive and honest assessment of your strengths and areas for improvement from different perspectives, such as your manager, peers, direct reports, customers, and yourself.
 
-The survey will be conducted by Microsoft Viva Glint, a trusted third party that will ensure confidentiality and accuracy. The survey is easy to take and helps you understand how others perceive you in the workplace and what you can do to grow and succeed.
+The survey is conducted by Microsoft Viva Glint, a trusted third party to ensure confidentiality and accuracy. The survey is easy to take and helps you understand how others perceive you in the workplace and what you can do to grow and succeed.
 
-As a subject, you need to complete a self-assessment; it’s essential for you to receive a meaningful report. Please also encourage your feedback providers to complete the survey and then we’ll provide you with a ‘thank you’ email template to send to your feedback providers once they have submitted their survey. 
+As a subject, you need to complete a self-assessment; it’s essential for you to receive a meaningful report. Please also encourage your feedback providers to complete the survey and then we provide you with a ‘thank you’ email template to send to your feedback providers, once they have submitted their survey. 
 
 If you have any questions, please let us know.
 
@@ -131,9 +131,9 @@ Date: [Date]<br>
 
 We are excited to introduce you to the Microsoft Viva Glint 360 feedback program, a tool to help you develop and grow at [Company Name].
 
-The 360 program collects feedback from your direct reports and colleagues, as well as your supervisor, to give you a comprehensive view of your strengths and areas for improvement. This feedback helps you create actionable goals that align with our strategic objectives and foster a culture of learning and growth.
+The 360 program collects feedback from your direct reports and colleagues, as well as your supervisor, to give you a comprehensive view of your strengths and areas for improvement. This feedback helps create actionable goals which align with our strategic objectives and foster a culture of learning and growth.
 
-We have chosen Microsoft Viva Glint as our partner for the 360 program because of their confidentiality, user-friendliness, and data-driven insights. You will receive your feedback results on [date] and have access to Glint’s platform to review and act on them.
+We have chosen Microsoft Viva Glint as our partner for the 360 program because of their confidentiality standards, user-friendliness, and data-driven insights. You receive your feedback results on [date] and have access to Glint’s platform to review and act on them.
 
 We value your input and feedback and want to support your development and success at [Company Name]. 
 
@@ -154,7 +154,7 @@ We are excited to announce the Viva Glint 360 feedback program, which helps you 
 
 This program is part of [Company Name]'s commitment to foster a culture of feedback and learning. We have chosen Microsoft Viva Glint, a third party, to ensure confidentiality and a great experience for all 360 participants.
 
-The survey is easy to use, relevant, and timely. You will receive actionable insights and guidance on how to improve your performance and achieve your goals.
+The survey is easy to use, relevant, and timely. You receive actionable insights and guidance on how to improve your performance and achieve your goals.
 
 As a facilitator and coach, you have a key role in this process. You will:
 - Communicate the importance and benefits of the 360 feedback program
@@ -177,7 +177,7 @@ From: [Subject Name and Title]<br>
 Subject: Thank you!<br>
 Date: [Date]<br>
  
-Thank you for completing my 360 feedback survey. Your feedback will help me improve my managerial skills and lead our team better. [Company] values your satisfaction and growth as an employee, as well as mine. I will share my overall survey results with you by [date].
+Thank you for completing my 360 feedback survey. Your feedback helps me improve my managerial skills and lead our team better. [Company] values your satisfaction and growth as an employee, as well as mine. I will share my overall survey results with you by [date].
 
 [Salutation],
 
