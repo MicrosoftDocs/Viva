@@ -18,7 +18,7 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Viva Glint 360 frequently asked questions
+# Viva Glint 360 frequently asked questions (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
