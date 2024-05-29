@@ -18,7 +18,7 @@ ms.date: 5/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# 360 program design and templates
+# 360 program design and templates (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
