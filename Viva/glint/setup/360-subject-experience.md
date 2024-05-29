@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback program - subject experience
+title: Viva Glint 360 feedback program - subject experience (preview)
 description: A 360 feedback program is a foundational step toward professional growth and meaningful change. View the 3-step journey.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 5/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Viva Glint 360 feedback program - subject experience
+# Viva Glint 360 feedback program - subject experience (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
