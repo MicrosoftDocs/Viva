@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 feedback General Settings
+title: Viva Glint 360 feedback General Settings (preview)
 description: 
 ms.author: JudithWeiner
 author: JudyWeiner
