@@ -18,7 +18,7 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Add and edit 360 cycle questions
+# Add and edit 360 cycle questions (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
