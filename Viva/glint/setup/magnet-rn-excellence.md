@@ -23,7 +23,7 @@ Using the Viva Glint platform, organizations can view invaluable data from their
 
 ## Get access to real-time data
 
-Viva Glint People Scientists worked collaboratively with the American Nurses Credentialing Center (ANCC®️), o construct a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes in the latest Magnet® Application Manuals. The ANCC®️ approved the Viva Glint version of their Magnet©️ survey in May 2018. 
+Viva Glint People Scientists worked collaboratively with the American Nurses Credentialing Center (ANCC®️), to construct a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes in the latest Magnet® Application Manuals. The ANCC®️ approved the Viva Glint version of their Magnet©️ survey in May 2018. 
 
 Magnet©️ status is a prestigious honor which certifies that the RNs at a hospital, clinic, or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet®️ certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification.
 
