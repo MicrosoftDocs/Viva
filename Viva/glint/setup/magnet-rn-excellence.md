@@ -19,11 +19,11 @@ ms.date: 05/29/2024
 
 # Set up a Microsoft Viva Glint RN Excellence (Magnet®️) survey
 
-Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and satisfy the necessary RN Satisfaction requirements for the Magnet® Recognition program. The RN Excellence survey can be launched as a standalone or added onto an existing company survey.
+Using the Viva Glint platform, organizations can view invaluable data from their Registered Nurses (RNs) and meet the RN Satisfaction requirements for the Magnet® Recognition program. The RN Excellence survey can be launched as a standalone or added onto an existing company survey.
 
 ## Get access to real-time data
 
-Working collaboratively with analysts from the American Nurses Credentialing Center (ANCC®️), Viva Glint People Scientists constructed a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes in the latest Magnet® Application Manuals. It was approved by the ANCC®️ in May 2018. 
+Viva Glint People Scientists worked collaboratively with the American Nurses Credentialing Center (ANCC®️), o construct a survey solution that assessed the seven nursing satisfaction categories required for Exemplary Professional Practice Evidence of Outcomes in the latest Magnet® Application Manuals. The ANCC®️ approved the Viva Glint version of their Magnet©️ survey in May 2018. 
 
 Magnet©️ status is a prestigious honor which certifies that the RNs at a hospital, clinic, or system are highly skilled in terms of providing great care. There are many core criteria a hospital must meet to become Magnet®️ certified, one of which is RN satisfaction, and together with Viva Glint, the preset survey template can help with that certification.
 
