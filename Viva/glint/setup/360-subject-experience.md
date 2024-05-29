@@ -66,7 +66,7 @@ You may see prepopulated feedback providers (manager, direct reports, peers). Th
 
 You receive on-screen notification if your minimum number of providers isn't met. Select **Update Feedback Providers** after correcting this issue.
 
-::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
+:::image type="content" source="../../media/glint/setup/360-not-enough-providers.png" lightbox="../../media/glint/setup/360-not-enough-providers.png" alt-text="Screenshot of the Not Enough Feedback Providers window.":::
 
 ### Feedback provider reminder
 
