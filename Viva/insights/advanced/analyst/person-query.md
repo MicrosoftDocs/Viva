@@ -41,6 +41,8 @@ To run a person query, you'll follow five basic steps:
 
 In this article, we talk about how to complete each of these steps, and also give some important background information about how metrics, conditions, and attributes work.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYM]
+
 ## Set up your query
 
 *Section: **Query setup***
