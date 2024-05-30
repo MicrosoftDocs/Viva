@@ -24,25 +24,25 @@ description: Learn how to delete a content provider in Microsoft Viva Learning.
 
 As an admin, you can delete a provider in Viva Learning. 
 
-This is done in **Manage providers** within the Viva Learning admin tab.  
+This action is done in **Manage providers** within the Viva Learning admin tab.  
 
 When you mark a provider to be deleted, all provider data, including learner records, is immediately hidden in the Viva Learning app's user experience.
 
 This table outlines how different learning providers schedule and delete data from their database. 
 The estimated time taken for deletion also depends on the data size.  
 
-| Learning provider    | Deletion behaviour   |
+| Learning provider    | Deletion behavior   |
 |---|---|
 | LMS (Cornerstone OnDemand, Saba, SuccessFactors, Workday)    | The data from database is scheduled for deletion immediately.   |
-| Global Providers (M365 Learning, Microsoft Learn, LinkedIn Learning)  | The data from database is scheduled for deletion in 72 hours.   |
+| Global Providers (Microsoft 365 Learning, Microsoft Learn, LinkedIn Learning)  | The data from database is scheduled for deletion in 72 hours.   |
 | Other Third-party providers (such as Coursera and Go1)   | The data from database is scheduled for deletion in 72 hours   |
 | SharePoint  | The data from database is scheduled for deletion immediately.   |
 | Graph APIs   | The data from database is scheduled for deletion immediately.   |
 
-**How does deleting a provider reflect in the Viva Learning user experience? **
+**How does deleting a provider reflect in the Viva Learning user experience?**
 
-The data from a deleted provider is immediately hidden in Viva Learning app user experience. This includes, but isn't limited to: 
-- Provider catalogue
+The data from a deleted provider is immediately hidden in Viva Learning app user experience. This includes, but isn't limited to:
+- Provider catalog
 - Learner metadata, for example bookmarks
 - Learning paths
 - Collections
@@ -53,15 +53,14 @@ The provider data remains visible in Microsoft 365 search until 24 hours the aft
 
 **Can I track the completion of a provider's data deletion from the backend?**
 
-Admins can't currently view the stage of data deletion within the Viva Learning admin tab.Contact Viva Learning team to know about the data deletion stage. 
+Admins can't currently view the stage of data deletion within the Viva Learning admin tab. Contact Viva Learning team to know about the data deletion stage. 
 
-Can I track if data deletion is complete from backend?  
+**Can I track if data deletion is complete from backend?**
+Currently, there's no experience in Viva Learning admin tab to inform about the data deletion stage. Contact Viva Learning team to confirm the data deletion stage.  
 
-Currently, there is no experience in Viva Learning admin tab to inform about the data deletion stage. Please contact Viva Learning team to confirm the data deletion stage.  
+**When can I reconfigure a provider?**
 
-When can I reconfigure a provider?   
-
-You can reconfigure the learning management system  and SharePoint immediately after deletion. Viva Learning starts a full sync a once reconfigured, 
+You can reconfigure the learning management system  and SharePoint immediately after deletion. Viva Learning starts a full sync a once reconfigured.
   
->[!NOTE]
-> For other learning sources, reconfiguring the provider with the same parameters before deletion is complete can bring back the old data. Contact Viva Learning team to confirm the data deletion stage.  
+> [!NOTE]
+> For other learning sources, reconfiguring the provider with the same parameters before deletion is complete can bring back the old data. Contact Viva Learning team to confirm the data deletion stage.
