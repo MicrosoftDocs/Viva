@@ -1,5 +1,5 @@
 ---
-ms.date: 06/16/2023
+ms.date: 05/16/2024
 title: Organizational data overview
 description: This article gives an overview of the Organizational data page in the Microsoft Viva Insights advanced insights app. 
 author: zachminers
@@ -49,9 +49,11 @@ No matter whether you upload data from a .csv file or import it from Microsoft E
 
 Microsoft Entra ID automatically syncs with the advanced insights app and provides data for three attributes:
 
-* **PersonId**
-* **ManagerId**
-* **Organization**
+* **UserPrincipalName** (Entra ID source field), which maps to **PersonId**
+
+* **Manager/UserPrincipalName** (Entra ID source field), which maps to **ManagerId**
+
+* **Department** (Entra ID source field), which maps to **Organization**
 
 So, including the attributes Viva Insights brings in from SMTP addresses and Outlook and Exchange settings, you'll notice five total attributes in your organizational data: **PersonId**, **ManagerId**, **Organization**, **Domain**, and **TimeZone**.
 

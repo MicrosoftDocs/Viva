@@ -14,7 +14,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: What's New - Release Notes for Microsoft Viva Learning.
 ---
 

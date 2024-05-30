@@ -14,7 +14,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Learn how to add SharePoint as a learning content source for Microsoft Viva Learning.
 ---
 

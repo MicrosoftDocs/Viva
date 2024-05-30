@@ -5,7 +5,7 @@ title: Set up your queries using Copilot
 description: Learn how to use Microsoft Copilot while setting up your custom queries
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: 
 - viva-insights-advanced 

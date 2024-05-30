@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva-engage
-localization_priority: Priority
+ms.localizationpriority: Priority
 ms.collection:  
 - M365initiative-viva
 - highpri

@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: Enable browser optimized playback to play SAP SuccessFactors courses in Viva Learning.
 ---
 

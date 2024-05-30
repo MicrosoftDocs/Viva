@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/02/2024
+ms.date: 05/16/2024
 title: Create change management queries
 description: Learn how to use organizational network analysis or ONA to measure the impact on collaboration after a large-scale company change.
 author: zachminers
@@ -16,9 +15,6 @@ audience: Admin
 ---
 
 # Create change management queries
-
->[!IMPORTANT]
-> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 The **Change management** query uses organizational network analysis (ONA) to help you understand how collaboration and team working patterns were impacted after a major company change, such as a reorganization, an agile transformation or even a change in the working model like a move from remote to a hybrid work mode.
 
@@ -46,14 +42,61 @@ Before you can run the ONA query and populate the report in the advanced insight
 
 4. Optional: Type a **Description**.
 
-5. Under **Employee attributes and filters**, select two organizational attributes you’d like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you’d like to address with the analysis. [Learn more about organizational data](../../advanced/admin/org-data-overview.md).
+5. Under **Filters and organizational attributes**, select which employee population you want your analysis to apply to. Use filters like function type or job level to home in on the specific employee population that you want to analyze. For example: instead of analyzing your entire licensed population, you may just want to examine a subset of the licensed population. The subset of the licensed population that you would like to analyze constitutes your population scope.
 
-    >[!Note]
-    > You’ll be able to select HR attributes soon as we include more capabilities.
+### Select and customize your attributes
 
-6. Under **Which employee population do you want to analyze**, select which employee population you want your analysis to apply to. Use filters like function type or job level to home in on the specific employee population that you want to analyze. For example: instead of analyzing your entire licensed population, you may just want to examine a subset of the licensed population. The subset of the licensed population that you would like to analyze constitutes your population scope.
+6. Under **Select and prepare organizational attributes for analysis**, select up to three organizational attributes you’d like to use to factor into your analysis. These attributes control how employees are grouped in the ONA experience. Your choice of attributes depends on the specific questions you’d like to address with the analysis. For example, if you want to learn about employee collaboration across different organizational structures and assess the impact of hybrid work on collaboration, we suggest grouping employees using the attributes "Organization," "HybridWorkState," and “OnsiteDays.” You can’t select attributes that have more than 100 values. [Learn more about organizational data](../admin/org-data-overview.md).
 
-7. Now that you’ve set up the template, you’re ready to run it. At the screen’s upper right, select **Run**.
+    There are three steps to this process. First, you’ll select your attributes. Then, you’ll customize the attributes’ values to better align with the comparisons you’re looking to make. Thirdly, you’ll select attribute values as “focus” values to tailor your analysis to those values.
+
+    For this hypothetical scenario, let’s assume that the data for the attribute “Organization” has undergone significant changes between the before and after periods, and to reflect that in the analysis you’d like to rename one of its values, and combine two other values.
+
+    To begin with the first step, select **Add attributes**.
+
+7. In this scenario, you would select the attribute **Organization**.
+
+    :::image type="content" source="../images/ona-query-setup-01.png" alt-text="Screenshot showing how to select your attributes.":::
+
+    When you select your attributes, you’ll see a list of that attribute’s values in the before and after periods you set above. Due to the change event at your company or HR attribute changes, the values for the attribute might be different in the before period compared to the after period. Select **Table view** or **Node view** for a visual representation of the attribute’s values in each period. Pay close attention to the differences in values between the before and after periods. Each value has a color to signify which time period the value is present in. Purple values are only present in the before period, while teal values are only present in the after period. The color gray identifies a value as being present in *both* periods. In the next step, you’ll be able to combine the values into new groups, depending on the questions you want to address with your analysis. Combining values into new groups can help you align the analysis with the specific changes at your company, and make it easier to compare the time periods.  
+
+    For the attribute “Organization” in this scenario, you’d like to rename the group “IT-Corporate” to “IT operations.” And, you’d like to combine “Inventory Management” and “Facilities” to form the new value, “Internal services.”  
+
+    :::image type="content" source="../images/ona-query-setup-02.png" alt-text="Screenshot showing the attribute's values in the table view.":::
+
+    At the top right, select **Save and continue**.
+
+8. In the **Node view**, select the values you’d like to combine. When you combine values, the newly formed groups are applied to both the before and after time periods. We recommend as much parity as possible between the before and after periods, for reliable before/after comparisons in your analysis.  
+
+    For the attribute “Organization,” you want to make a new group comprised of the “Inventory Management” and “Facilities” values. Select those values.
+
+     :::image type="content" source="../images/query-setup-03.png" alt-text="Screenshot showing how to combine the attribute values.":::
+
+    Then, at the bottom, select **Combine**, and enter a name for the new combined group. In this scenario, let’s call it “Internal services.” The newly formed group is shown with a sparkle inside its node, and the values for the nodes that you combined are no longer visible.
+
+     :::image type="content" source="../images/ona-query-setup-04.png" alt-text="Screenshot showing the new combined group.":::
+
+    You can also rename a value without combining it. To do so, select the value “IT-Corporate.” Then, at the bottom, select **Rename**, and enter the new name for the value, such as “IT operations.”
+
+     :::image type="content" source="../images/ona-query-setup-05.png" alt-text="Screenshot showing how to rename an attribute value.":::
+
+    Once you’re done, at the top right, select **Save and continue**.
+
+### Select focused values
+
+9. Finally, if you like, you can select up to three values as focused values. This will let you focus the results of your analysis on these particular groups and the groups with which they most closely collaborate. You can select up to three of these values to focus your analysis from the query’s summary view page, described below.
+
+    For example, if you select “Internal services” and “IT operations” as focused values, you can hone in on the collaboration changes just for those groups, and the groups’ closest collaborators, in your analysis.
+
+     :::image type="content" source="../images/ona-query-setup-06.png" alt-text="Screenshot showing how to identify values as focused values.":::
+
+    When you’re finished, at the top right, select **Save and finish**.
+
+10. You’re brought back to the main query setup page. To add and customize another attribute, under **Select and prepare organizational attributes for analysis**, select **Add attributes**, and follow the same steps outlined above for that attribute.
+
+    Or, to make changes to how you’ve customized your chosen attributes, select **View or edit** next to the attribute you want to further customize. Or, to remove the attribute entirely and choose a new one, select **Remove**.
+
+    When you’re ready to run the query, at the screen’s top right, select **Run**.
 
 ## About template results
 
@@ -67,7 +110,7 @@ To view the results, find your query under **Query name**, then select the Netwo
 
 ### Explore insights in summary view
 
-At the top of the screen, you’ll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Potential to become insular**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
+At the top of the screen, you’ll see two cards that provide two categories of insights relevant to your query: **Significant change in collaboration** and **Showing signs of insularity**. These two cards provide two different types of insights and data points related to collaboration and working patterns.
 
 Let’s now discuss the insights provided by each category, and how you can navigate the ONA experience for each.
 
@@ -83,13 +126,22 @@ Let’s now discuss the insights provided by each category, and how you can navi
 
 At the top of this summary page, the **People grouped by field** will default to the first HR attribute you selected when defining the analysis. The insights surfaced within the categories and the associated key observations are controlled by the grouping attribute selected. You can also change the attribute here, which will produce different insights.
 
-:::image type="content" source="../images/ona-people-grouped-by.png#lightbox" alt-text="Screenshot showing the People grouped by field.":::
+:::image type="content" source="../images/ona-ga-people-grouped-by.png" alt-text="Screenshot showing the People grouped by field.":::
 
-Each card provides a list of **top highlights** for that particular insight category, and an accompanying visual graph of the groups you selected. Hover over each highlight to see which area of the graph it relates to.
+Each card provides a list of **top highlights** for that particular insight category, and an accompanying visual graph that encompasses groups from across the before and after time periods you selected. Hover over each highlight to see which area of the graph the group nodes are located.
 
 These highlights call out the most significant changes in group collaboration patterns following the event.
 
+On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process.  
+
+:::image type="content" source="../images/ona-ga-analysis-focused-on.png" alt-text="Screenshot showing how to select focused values for top highlights.":::
+
+Select **Your focused groups** or **All other groups** to toggle between viewing these highlights as they apply to the entire network not including the focused groups, or *just* your focused groups. 
+
 To provide these top highlights, we utilize a ranking hierarchy to determine which highlights to surface, including the order in which they’re listed. The most important highlights are listed first.
+
+>[!Note]
+> The top highlights within **Your focused groups** identifies any significant changes in collaboration from the perspective of the focal value(s) selected. If there is only one focus group selected, then the top five changes (increase/decrease) in collaboration with respect to the focus value is highlighted. If there are three focal values selected, then the top five changes (increase/decrease) in collaboration with respect to the three focal values are highlighted.
 
 Here is the ranking system we use – from most to least important – to determine these top highlights and the order in which we present them:
 
@@ -103,7 +155,10 @@ Here is the ranking system we use – from most to least important – to determ
 
 5. Groups that were completely lost following the change event
 
-Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this insight category. This view allows you drill down further into the collaboration behaviors between specific groups and subgroups for the time period you selected. To enter this view, at the bottom left of the summary page, select **Explore more**.
+>[!Note]
+> To determine significant changes in existing collaboration patterns, a combined rank heuristic is used in which the absolute (without regard to sign) percent of change in collaboration and the absolute (without regard to sign) magnitude of change in collaboration between each distinct pair of groups is ranked. The values are then stack- ranked from highest to lowest. A combined rank is generated for each distinct pair of groups by summing the ranks for that pair. The generated combined rank is stacked from lowest to highest. The groups that are included in the top five combined ranks are deemed to have significant changes in collaboration behavior.
+
+Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this insight category. This view allows you to drill down further into the collaboration behaviors between specific groups and subgroups for the time period you selected. To enter this view, at the bottom left of the summary page, select **Explore more**.
 
 ### Side-by-side view
 
@@ -117,7 +172,9 @@ Here’s how to interpret this view of nodes:
 
 * As long as 2 groups have engaged in reciprocal communication in a month and there is a row depicting that communication in the Group-to-Group cross-collaboration query output, then the groups will be surfaced in the network visualization.
 
-* A gray “other” node contains  other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes.
+* Any focused groups shown in the view are indicated with concentric circles.
+
+* A gray “other” node contains  other groups which have been filtered out of the network view in order to facilitate a more readable network visualization. You can use the **Filter groups** tool described below to display these groups as individual nodes. You can also select the gray “Other” node to see the groups it includes and incorporate them into the view.
 
 * The colors around the nodes represent how the groups are segmented, such as by employee level or geography. The segments that constitute a group is governed by the “Segment groups by” selection.
 
@@ -142,7 +199,7 @@ Here are a few ways you can interact with the network view to learn more about t
 
     :::image type="content" source="../images/ona-hotspot-1-subgroups-connect.png" alt-text="Screenshot showing the collaboration data amongst subgroup members." lightbox="../images/ona-hotspot-1-subgroups-connect.png":::
 
-    You can also select an individual subgroup node for a more focused look at how that member collaborated with members of the other uber group.  To revert back to the preview view, select one of the uber nodes, then select **Collapse group**.
+    You can also select an individual subgroup node for a more focused look at how that member collaborated with members of the other uber group.  To revert back to the previous view, select one of the uber nodes, then select **Collapse group**.
 
     :::image type="content" source="../images/ona-hotspot-1-marketing-subgroup.png#lightbox" alt-text="Screenshot showing the collaboration data for an individual subgroup member.":::
 
@@ -258,7 +315,7 @@ For the ONA analysis, however, we perform multiple levels of aggregation on top 
 
 The aggregation takes place in the order listed above, whereby aggregation across time periods happens last, based on the time filters the user provides. 
 
-Let’s take a closer look at how each of these aggregations play out.
+Let’s take a closer look at how each of these aggregations plays out.
 
 **Aggregation of directional collaboration between groups**  
 
@@ -371,19 +428,28 @@ Therefore, for a given group, we average all the group size values that we have 
 |----|----|----|----|-----|
 | 11/1/2023 - 12/1/2023  | Engineering  | 46 *(Avg of 44, 48)*  | Product | 39 *(Avg  of 37, 41)* |
 
-## Insight category #2 - Potential to become insular
+## Insight category #2 - Showing signs of insularity
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1k3fj]
 
 ### Summary page
 
-The **Potential to become insular** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
+The **Showing signs of insularity** insight category details which groups are connecting more within their own group than expected, in comparison to connecting with other groups outside their own group. This tendency toward within-group collaboration is referred to as “insularity.”
 
 An increase in insularity for a group, for instance, could mean that the group is at risk of becoming siloed from the rest of the organization, which could be a worrisome trend.
 
 [Learn more about how these insights are generated](#metrics-used-for-insight-category-2).
 
 Just like the first insight category, the card provides a list of **top highlights** for this second insight category. Hover over each highlight to see which area of the graph it relates to.
+
+On the summary page, you can also view top highlights based on the population scope you specified, or the focused values you selected during the setup process. 
+
+:::image type="content" source="../images/ona-ga-analysis-focused-on.png" alt-text="Screenshot showing how to select focused values for the top highlights.":::
+
+Select **Your focused groups** or **All other groups** to toggle between viewing these highlights as they apply to the entire network not including the focused groups, or *just* your focused groups.
+
+>[!Note]
+> Depending on the focused values you selected, it’s possible that some or all of your focused groups might not have experienced a significant change to have any top highlights associated with them.
 
 Here is the ranking system we use – from most to least important – to determine these top highlights and the order in which we present them:
 
@@ -392,6 +458,8 @@ Here is the ranking system we use – from most to least important – to determ
 2. Groups that continue to show insular collaboration patterns in the “before” and “after” time periods
 
 3. Decreases in insularity for groups; in other words, groups that collaborated more closely than expected with other groups following the change event
+
+[Learn more about how these rankings are calculated](#how-top-highlights-are-calculated).
 
 Now that you’ve got a handle on the top highlights, let’s dive in to the network view for this second insight category. Select **Explore more**.
 
@@ -406,6 +474,8 @@ Here’s how to interpret this view of nodes:
 * Groups that experienced a significant increase in insular collaboration (i.e. more than expected internal group connectivity) since the change event or groups which continue to showcase insular collaboration across both the before/after periods will also be marked with inward facing triangles, which is meant to indicate that the group is showcasing more internal focus.
 
 * Groups that were previously insular but are no longer insular and are exhibiting more external focus/connectivity in the “after” period will have outward facing triangles around the node’s circumference.
+
+* Any focused groups shown in the view are indicated with concentric circles.
 
 In the scenario below, for instance, the inward facing triangles signify that the Product Management group is exhibiting insular patterns after the change event.
 
@@ -423,7 +493,7 @@ Here are a few ways you can interact with this graph to learn more about the ins
 
 2. **See collaboration trends with other groups**. Select the connecting edge between any two nodes to see how collaboration changed between those specific groups.
 
-3. **Explore subgroups**. Select the node you want to explore further. Then select **Expand group**. The node will show the subgroups that make up the larger group; the subgroup nodes that are contributing towards the insular collaboration behavior of the overarching group will be marked with inward facing triangles. In the below scenario, for instance, Brown, Lee, Miller, Davis, and Jones are subgroups within the Product Management group who are contributing to the insular collaboration behavior of the uber Product Management group. To revert back to the preview view, select the node again, then select **Collapse group**.
+3. **Explore subgroups**. Select the node you want to explore further. Then select **Expand group**. The node will show the subgroups that make up the larger group; the subgroup nodes that are contributing towards the insular collaboration behavior of the overarching group will be marked with inward facing triangles. In the below scenario, for instance, Brown, Lee, Miller, Davis, and Jones are subgroups within the Product Management group who are contributing to the insular collaboration behavior of the uber Product Management group. To revert back to the previous view, select the node again, then select **Collapse group**.
 
     :::image type="content" source="../images/ona-hotspot-2-product-subgroups.png#lightbox" alt-text="Screenshot showing the subgroup members of the Product Management group.":::
 
@@ -443,7 +513,7 @@ The “before/after” view described above provides a quick snapshot that shows
 
 Here are a few ways you can explore this view.
 
-1. **Analyze cross-group collaboration between subgroups**. Select the edge connecting any two nodes Then select **Expand both groups** to see how members of the two uber groups collaborated with each other, just like you would in the “before/after” view described above.
+1. **Analyze cross-group collaboration between subgroups**. Select the edge connecting any two nodes. Then select **Expand both groups** to see how members of the two uber groups collaborated with each other, just like you would in the “before/after” view described above.
 
 2. **Share results**. In the top right of the view, select the camera icon to share a snapshot of the changes with a colleague.
 
@@ -457,7 +527,7 @@ Here’s how to explore the chart view.
 
 1. **Explore the chart**. At the top of any network view, under “Visualize as,” select **Chart**. The chart showcases whether a group is leaning more towards insular behavior (i.e. more than expected within-group collaboration) or if a group is more inclined towards external-ness (i.e., more than expected outside-group collaboration). For any given group, a dark blue circle indicates the “after” state whereas the lighter blue circle indicates the “before” state.
 
-2. **Circle color and movement show collaboration changes**. Movement from the right to the left (past the mid-point of the chart) illustrates more than expected within-group connectivity– or increased insularity – for that group following the change event. Movement from left to right (past the mid-point of the chart) represents an inclination towards more than expected outside of group connectivity. In the scenario below, for instance, the Sales, and G&A groups are tending towards more insular collaboration behavior, as denoted by the movement of their darker circles from right to left:
+2. **Circle color and movement show collaboration changes**. Movement from the right to the left (past the mid-point of the chart) illustrates more than expected within-group connectivity– or increased insularity – for that group following the change event. Movement from left to right (past the mid-point of the chart) represents an inclination towards more than expected outside of group connectivity. In the scenario below, for instance, the Sales, HR, and G&A groups are tending towards more insular collaboration behavior, as denoted by the movement of their darker circles from right to left:
 
     :::image type="content" source="../images/ona-hotspot-2-chart-insular.png" alt-text="Screenshot showing the chart view for several groups." lightbox="../images/ona-hotspot-2-chart-insular.png":::
 
@@ -473,7 +543,7 @@ Here’s how to explore the chart view.
 
 ### Metrics used for insight category #2
 
-The insights provided by the Potential to become insular insight category are calculated using the following three metrics:
+The insights provided by the Showing signs of insularity insight category are calculated using the following three metrics:
 
 * **Group collaboration time invested**, which determines the connecting lines between the nodes
 
@@ -548,3 +618,48 @@ Aggregating EI index scores for the same group or segment across time periods is
 | 11/1/2023 - 12/1/2023  | Engineering  | -0.23 <br /> <br /> *=((-0.27*48  -0.19*44) / 48 + 44)*  | Product | 0.24 <br /><br />  *=((0.24*41 + 0.23*37) / 41 + 37)*  |
 
 Please refer to the group size of these segments in the previous section.
+
+##### How the EI index is determined
+
+The EI index is determined based on the degree of connectivity, not the amount of collaboration, between groups. Two people, for example, are said to be connected if they have had a “reciprocal interaction.” Two employees, “A” and “B,” are said to have had a reciprocal interaction when any of the three scenarios occurs in a 4-week window:
+
+1. Person A and B had a 1:1 meeting or an unscheduled call  
+
+2. Any combination of person A performing an action “x” with person B and person B responding to person A with action “y,” whereby x and y can be:
+
+    * Chats with eight or fewer participants
+    * Emails with 18 or fewer participants, such as person A sent person B a chat and person B sent an email to person A. Or, peson A sent person B a chat and person B sent a chat to person A.  
+
+3. Both person A and B attended a meeting which lies within the meeting threshold, i.e., the meeting category for both person A and B is “Attended meeting” or “Likely attended.”
+
+#### How top highlights are calculated
+
+The top highlights section for the second insights category surfaces groups that are exhibiting increasing “insular” collaboration behavior. Insular collaboration patterns are detected using the External-Internal (EI) index which ranges between -1 and +1. Groups that have an EI Index closer to -1 are showcasing insular collaboration tendencies and could be at risk of becoming siloed. More details on the EI index can be found in the EI Index section.
+
+The top highlights section encompasses group(s) that exhibit either:
+
+1. A significant increase in insular collaboration behavior in the after period, the EI Index of the group(s) has become more negative (i.e., the EI Index is getting close to -1).
+
+2. Group(s) that continue to showcase insular collaboration tendencies (i.e. have a negative EI Index in the before/after periods). In the case where group(s) continue to display insular collaboration tendences in the before/after period, up to five groups with the lowest negative score (i.e. closer to -1) are surfaced in the top highlights section.
+
+Let’s look at two different scenarios to see how this plays out.
+
+**Scenario 1: Significant increases in insular collaboration behavior**
+
+Please see the table below and the EI index value thresholds. Ranges on the left indicate a higher tendency towards closure or insularity for that particular group. 
+
+ :::image type="content" source="../images/ei-index-table-01.png" alt-text="Screenshot showing the EI index values used to calculate insularity.":::
+
+A significant increase in insular collaboration is detected when the EI Index for a group goes up by 0.1 or more in the negative direction. For example, if the EI Index for a group is -0.25 in the before period and the EI index for the same group is -0.35 in the after period, then the group will be highlighted as an observation in the top highlights since the group is exhibiting increased insular behavior i.e. the EI Index of the group has become more negative by 0.1 or more.
+
+:::image type="content" source="../images/ei-index-table-02.png" alt-text="Screenshot showing the EI index values used to indicate increasing tendency to closure.":::
+
+**Scenario 2: Groups that continue to show insular collaboration patterns**
+
+:::image type="content" source="../images/ei-index-table-03.png" alt-text="Screenshot showing the EI index values used to calculate groups that continue to show insular collaboration patterns.":::
+
+In this scenario, there are no changes that surface an increasing tendency towards progressively more insular behavior. In other words, there is no movement in the negative direction which constitutes an increase of 0.1 or more in the “after” period as compared to the “before” period.
+
+In this case, the “top highlights” section will only surface five groups that have the lowest negative score (i.e. closer to -1) belonging to the bottom 10% (or 25%) of EI Index scores. The groups whose EI index score falls in the bottom 10% (or 25%) will be emphasized via an appropriate visual treatment within the experience.  
+
+There could be other groups that continue to show insular collaboration tendency but possess an EI Index score greater than the EI Index scores for groups in the bottom 10% (or 25%). These groups will continue to appear in the visualizations within the experience.

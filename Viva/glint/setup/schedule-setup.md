@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 05/21/2024
 ---
 
 # Set up Schedule page in Program Summary
@@ -64,4 +64,4 @@ Choose the cadence for your program. This determines your launch date(s) and how
 >
 ## Next Step
 >[!div class="nextstepaction"]
->[Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231342).
+>[Questions setup in Program Summary](https://go.microsoft.com/fwlink/?linkid=2231415)

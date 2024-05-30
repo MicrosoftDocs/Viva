@@ -1,5 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
+ms.date: 05/07/2024
 title: Import organizational data from Workday
 description: Learn how to set up a connection and import your data from Workday to the Viva Insights advanced insights app
 author: zachminers
@@ -14,7 +15,10 @@ audience: Admin
 
 # Import organizational data from Workday
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of four ways: 
+>[!IMPORTANT]
+> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of four ways:
 
 * Through Microsoft Entra ID, which is the default source
 * Through a .csv file that you as an Insights Administrator upload
@@ -47,7 +51,7 @@ If this isn’t the first time you’re importing data from Workday, jump to [Fo
     1. Enter the Workday tenant name, username, and password.
     1. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
 1. Select the box under **Authorization status** to allow Workday to start sending data to Viva Insights.
-1. Read the acknowledgement note and select **Accept**.
+1. Read the acknowledgment note and select **Accept**.
 
 ## For subsequent imports
 
@@ -74,7 +78,7 @@ If you chose **Edit authorization or update refresh schedule**, you’ll arrive 
 1.	Enter your workday credentials: tenant name, username, and password.
 2.	If you want to turn on or off Workday’s ability to send data to Viva Insights, select or deselect the checkbox.
 3.	If you want to update how often Workday data goes to Viva Insights, use the dropdown menu beneath **Update refresh schedule**.
-4.	Read the acknowledgement note and select **Accept**.
+4.	Read the acknowledgment note and select **Accept**.
 
 ### Replace data
 
@@ -88,6 +92,8 @@ After you select **Confirm**, a new full refresh of your Workday data will start
 
 When you connect Workday to Viva Insights, Workday sends over a set of predefined source columns. These columns are mapped to Viva Insights data fields. You can't change these predefined fields right now, but you'll be able to in the future.
 
+To upload additional reserved or custom fields beyond the below list, use a .csv upload in parallel with Workday to upload those fields. Data from the .csv upload will add to the data from Workday. Ensure that the.csv file contains all the EffectiveDates as Workday upload dates to prevent data overrides. You can determine the upload dates for Workday from the Import history in Data connections.
+
 #### Field mapping
 
 The following table shows how Workday fields correspond to Viva Insights fields. For specific details about each Viva Insights field, including data type and formatting requirements, refer to the [Attribute reference in Prepare organizational data](/viva/insights/advanced/admin/prepare-org-data).
@@ -97,6 +103,7 @@ The following table shows how Workday fields correspond to Viva Insights fields.
 |`responseData.worker.workerData.personalData.contactData.emailAddressData`|PersonId
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
 |`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
+| Date of upload | EffectiveDate |
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType

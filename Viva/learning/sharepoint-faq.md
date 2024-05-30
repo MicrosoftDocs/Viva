@@ -14,7 +14,7 @@ ms.collection:
   - m365initiative-viva-learning
   - highpri
   - Tier1
-localization_priority: medium
+ms.localizationpriority: medium
 description: FAQs and error codes in SharePoint.
 ---
 

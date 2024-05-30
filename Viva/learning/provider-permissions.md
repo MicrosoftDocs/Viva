@@ -13,7 +13,7 @@ ms.collection:
     - enabler-strategic
     - m365initiative-viva-learning
     - essentials-manage
-localization_priority: medium
+ms.localizationpriority: medium
 
 description: Control access to content from a provider so only certain users can discover them.
 ---

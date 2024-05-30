@@ -14,15 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2024
+ms.date: 05/28/2024
 ---
 
 # Customize Viva Glint Team Conversation email content
 
 Customize Microsoft Viva Glint email content for Team Conversation start messages and reminders in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for emails. To understand how to enable/disable emails, and for more information about Team Conversations setup, see [Admin setup for Viva Glint Team Conversations](team-conversations-administrator-setup.md).
-
-> [!NOTE]
-> Email content customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
 
 ## Custom sending domains and themes/logos (optional)
 
@@ -49,7 +46,7 @@ Viva Glint Conversation Start, reminders, and summary notifications contain mult
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
+> As of June 2024, Viva Glint plans to support multiple paragraphs in the Body Text section of Team Conversation emails.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
@@ -65,9 +62,6 @@ Macros in Viva Glint emails allow your organization to add placeholders that pul
 Any edits made to email text in English need to be made to all other survey languages. Use the guidance here to manage your Team Conversation email translations.
 
 ### Use the program content import
-
-> [!NOTE]
-> This feature is planned to be available after May 4, 2024.
 
 Use this [translation guidance](/viva/glint/setup/language-translations) to import updated translations for emails after modifying English text.
 

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/08/2024
+ms.date: 05/14/2024
 ---
 
 # Access Viva Glint raw survey responses
@@ -67,7 +67,7 @@ Opting out of response exports occurs within the *Confidentiality* section of *P
 To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint provides an alternative solution, allowing customers to fulfill DSR requests without accessing the requestors raw survey responses. Read on.
 
 > [!IMPORTANT]
-> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets *extreme circumstance* criteria. It's possible that Viva Glint will need to disclose survey feedback when we have a good faith belief that disclosure is reasonably necessary to protect your safety, the rights and safety of Viva Glint personnel or others, or to investigate, prevent or take action regarding suspected illegal activity.  [Carolyn] I think the word “activity” is missing here.  [Read more about "extreme circumstances".](https://go.microsoft.com/fwlink/?linkid=2238614)
+> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets *extreme circumstance* criteria. It's possible that Glint will need to disclose survey feedback when we have a good faith belief that disclosure is reasonably necessary to protect your safety, the rights and safety of Glint personnel or others, or to investigate, prevent or take action regarding suspected illegal activity. [Read more about "extreme circumstances".](https://go.microsoft.com/fwlink/?linkid=2238614)
 
 ## Use the People feature to export responses
 

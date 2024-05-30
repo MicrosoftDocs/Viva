@@ -14,15 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/24/2024
+ms.date: 05/28/2024
 ---
 
 # Customize Viva Glint survey email content
 
 Customize Microsoft Viva Glint email content for survey invites, reminders, and survey results notifications in the Communications section of Program Setup. Optionally, set up a custom email sending domain and a company logo for survey emails. To understand how to enable/disable emails, and for more information about Communications setup, see [Communications setup in Program Summary](program-summary-communications.md).
-
-> [!NOTE]
-> Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
 
 > [!IMPORTANT]
 > Always-On survey programs don't include emails or a Communications section.
@@ -52,7 +49,14 @@ Viva Glint survey invites and reminders contain multiple editable sections:
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!IMPORTANT]
-> Viva Glint emails don't currently support multiple paragraphs or line breaks. Previews in the platform and sent via email ignore these paragraph edits if added. The Viva Glint Product team is actively working on making the addition of multiple paragraphs available soon.
+> As of June 2024, Viva Glint plans to support multiple paragraphs in these survey and results notification email sections:
+> - Message
+> - Privacy Message
+> - Description
+> - Main Title
+> - Tip 1 Description
+> - Tip 2 Description
+> - Tip 3 Description
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
@@ -74,9 +78,6 @@ In the email edit pane, after customizing English content, use the **Language** 
 :::image type="content" source="../../media/glint/setup/glint-email-language-dropdown.png" alt-text="Screenshot of the Language dropdown in the email edit pane.":::
 
 ### Use the program content import
-
-> [!NOTE]
-> This feature is planned to be available after May 4, 2024.
 
 Use this [translation guidance](language-translations.md) to import updated translations for emails after modifying English text.
 
