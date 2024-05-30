@@ -27,7 +27,7 @@ Start setting up Skills in Viva by building your skills library with skills from
 2. Select **Manage skills library**, and then select **Get started**.  
 3. Read the overview, then select **Next**.
 4. Choose the skills you want to use from the default skills library. 
-   :::image type="content" source="../media/skills-default-skills-library.svg" alt-text="A screenshot that shows the screen where you choose which of the default skills you want to include in your skills library.":::
+   :::image type="content" source="../media/skills-default-skills-library.svg" alt-text="A screenshot that shows the screen where you choose which of the default skills you want to include in your skills library." lightbox="../media/skills-default-skills-library.svg":::
    The more skills you include from the default library, the more specific suggestions users see in their skills profiles. Choose one of the following, and then select **Next**.
 
    - **Use all skills (recommended)**: This option is highly recommended and includes all 7,000+ skills in the skills library.  
@@ -37,7 +37,7 @@ Start setting up Skills in Viva by building your skills library with skills from
 
    (This step is optional if you selected skills from the default skills library in Viva. Click **Next** to skip this step.)
 
-   :::image type="content" source="../media/skills-custom-skills-import.png" alt-text="A screenshot that shows the screen where you create your custom skills library.":::
+   :::image type="content" source="../media/skills-custom-skills-import.png" alt-text="A screenshot that shows the screen where you create your custom skills library." lightbox="../media/skills-custom-skills-import.png":::
 
    
 6. Fill out the templates as described in [Create the custom skills files](#create-the-custom-skills-files) to create the library and mapping files and then get the paths to those completed files.
@@ -58,7 +58,7 @@ Start setting up Skills in Viva by building your skills library with skills from
 7. Select **Turn on skills library** to let your users add skills to their profiles. This is an optional step - if you don't turn on skills now, your skills library is still created, but it's not visible to users. You can make skills available to your users later by publishing the skills library from **Settings**.
 8. Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
 
-   :::image type="content" source="../media/skills-manage-skills.png" alt-text="A screenshot that shows the screen where you manage the availability of skills information.":::
+   :::image type="content" source="../media/skills-manage-skills.png" alt-text="A screenshot that shows the screen where you manage the availability of skills information." lightbox="../media/skills-manage-skills.png":::
 
    > [!NOTE]
    > This is a [premium Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing).
