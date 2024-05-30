@@ -625,7 +625,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
     1. Search for task- "View API client", go to tab "API clients for integration". It shows all clients. Open the "VivaLearning" client created in previous step. 
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
-    ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
+     ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
 
     1. Select the ISU created initially during Viva Learning setup.
     
