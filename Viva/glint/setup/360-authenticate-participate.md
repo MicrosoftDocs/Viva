@@ -1,5 +1,5 @@
 ---
-title: Viva Glint 360 program authentication and participant experiences
+title: Viva Glint 360 program authentication and participant experiences (preview)
 description: Subjects and others who should have access to a subject’s 360 must first have access to Viva Glint and authenticate with Microsoft Entra ID. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 05/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Viva Glint 360 program authentication and participant experiences
+# Viva Glint 360 program authentication and participant experiences (preview)
 
 Subjects and others who should have access to a subject’s 360 must first have access to Viva Glint and authenticate with Microsoft Entra ID. 
 Feedback providers also must have access to Viva Glint and authenticate via Microsoft Entra ID to complete the survey. 
