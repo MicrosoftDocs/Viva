@@ -43,6 +43,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add the Events card](#add-the-events-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Viva Learning card](#add-a-viva-learning-card).
+- [Add a Viva Pulse card](#add-a-viva-pulse-card).
 - [Add a Topics card](#add-a-topics-card).
 - [Add a Web link card](#add-a-web-link-card).
 - [Apply audience targeting to cards](#apply-audience-targeting-to-cards).
@@ -107,6 +108,7 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 |[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
 |[Events card](#add-the-events-card)    | ![Image of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization.     |
 |[Viva Learning](#add-a-viva-learning-card)    | ![Image of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences.  |
+|[Viva Pulse](#add-a-viva-pulse-card) | ![Image of the Viva Pulse card icon.](../media/connections/create-dashboard/pulse-card-icon-nb.png) | Provide a short status of a recently sent pulse with a link to the Viva Pulse app for users to learn more. 
 |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
 |[Web link](#add-a-web-link-card)    | ![Image of the web link card icon.](../media/connections/web-link-icon.png) |  Access a site without leaving the Viva Connections app  |
 
@@ -549,6 +551,45 @@ Content in the cards is dynamic and changes according to settings in Viva Learni
    ![Image of the Viva Learning property pane.](../media/connections/create-dashboard/viva-learning-card-settings.png)
 
 4. To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+## Add a Viva Pulse card
+
+Invite managers and team leads to send requests for feedback or view feedback results using the [Viva Pulse](/viva/pulse/introduction-to-viva-pulse) card. The card provides a way for feedback authors to access and interact with active or recently closed feedback pulses providing you with a direct link to your account in the Viva Pulse Teams app.
+
+> [!NOTE]
+>
+> It’s recommended admins set up the Viva Pulse app for their organization and pin it as an app in Microsoft Teams so users can fully experience the Viva Pulse card. Refer to the article on [manage, install, and pin Viva Pulse in the Teams admin center](/viva/pulse/setup-admin-access/manage-install-pin-viva-pulse-in-teams-admin-center) for more information.
+
+Content in the card is dynamic and changes according to the [users role](/viva/pulse/introduction-to-viva-pulse#roles) in Viva Pulse and if a feedback pulse is active. The following are examples of Viva Pulse card states that display different information depending on the viewer’s role and if any active or recently closed feedback pulses are available.
+
+The Pulse card will tell feedback authors the number of responses an active or recently closed pulse has received and provides a link to feedback results in their Viva Pulse account for the recently closed pulse. When multiple feedback results are available, authors will be directed to their **Pulses sent** tab within the Viva Pulse Teams app.
+
+   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-closed-state.png" alt-text="Screenshot showing two states of the Viva Pulse card." lightbox="../media/connections/create-dashboard/pulse-card-author-closed-state.png":::
+
+When no open pulses are available the card will display **send a pulse**, which will bring the author to the Viva Pulse Teams app where they can create a new request for feedback to be sent out.
+
+   :::image type="content" source="../media/connections/create-dashboard/pulse-card-author-send-pulse.png" alt-text="Screenshot showing the send a pulse state of the Viva Pulse card." lightbox="../media/connections/create-dashboard/pulse-card-author-send-pulse.png":::
+
+> [!NOTE]
+>
+> - Viva Pulse requires a license to send pulse requests for feedback and to review results. A license is **not required** to respond to a pulse. Refer to Viva Pulse [Licensing requirements](/viva/pulse/get-started/licensing-requirements) for more information.
+> - The Viva Pulse card requires the Viva Pulse app to be enabled in Microsoft Teams for the card to display information
+
+To add the Viva Pulse card to your dashboard:
+
+1.	While in edit mode, select **+ Add a card** from the dashboard.
+
+2.	Select **Viva Pulse** from the dashboard toolbox.
+
+       :::image type="content" source="../media/connections/create-dashboard/pulse-card-icon.png" alt-text="Screenshot of the Viva Pulse card icon." lightbox="../media/connections/create-dashboard/pulse-card-icon.png":::
+
+3.	In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4.	To target your card to specific audiences (that is, only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard#apply-audience-targeting-to-cards).
+
+       :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties." lightbox="../media/connections/create-dashboard/pulse-card-properties.png":::
+
+For more information on using Viva Pulse as a feedback author or feedback recipient, refer to [the Viva Pulse documentation here](https://support.microsoft.com/topic/34c94efe-185d-480e-94a2-27e013a5204b).
 
 ## Add a Topics card
 
