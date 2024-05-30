@@ -50,7 +50,7 @@ You need the following permissions and scenarios in place to complete the Workda
 -  Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies
 
 
-### User Mapping: 
+### User mapping: 
 User mapping between Workday and Viva Learning should exist before configuration.
  
 The default user mapping is determined by the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
@@ -61,7 +61,7 @@ If there are duplicates in Microsoft Entra (formerly Azure Active Directory) for
 
 The mapping logic isn't case sensitive to the mapper values.
 
-### Data Ingestion timelines 
+### Data ingestion timelines 
 
 We're ingesting data for User RaaS from January 1, 1970 and catalog, assignment, and completion RaaS data from January 1, 2016. 
 If any user has hiring date before 1970, reach out to the Viva Learning product group.  
@@ -71,7 +71,7 @@ If customer has different data ingestion timelines, reach out to the Viva Learni
 
 Recommendations for organizations that have Workday integrated with other 3P content providers such as LinkedIn, Udemy, and Coursera for tracking user completion records.
 
-### Common Practice
+### Common practice
 
 Organizations chose to have compliance trainings come from the learning management system (LMS) and growth, skill, and optional trainings come from digital content providers. 
 
@@ -131,29 +131,33 @@ Integration system user (ISU) account is required for Microsoft Viva Learning to
 
 2. Create a username and password. Workday recommends using **ISU_Microsoft_Viva_Learning** for the username. **Note:** The username can be customized.
 
-![Screenshot of the menu of Create Integration System User with account information fields.](/viva/media/learning/wd-s1-1-create-integration-system-user.png)
+   ![Screenshot of the menu of Create Integration System User with account information fields.](/viva/media/learning/wd-s1-1-create-integration-system-user.png)
+
 3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
+   
 4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**. It doesn’t need to be the same as the ISU name. 
     ![Screenshot of the type of tenanted security group and name fields](/viva/media/learning/wd-s1-2-create-security-group.png)
-4. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
+
+5. Link your group to the integration system user. This lets Workday assign the integration system user as part of the Microsoft Viva Learning security group.
     ![Screenshot of the Edit Integration System Security Group fields. ](/viva/media/learning/wd-s1-3-edit-integration-system.png)
-5. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
-![Screenshot of the Maintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
 
-6. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
+6. You need these domains in the Integration and System functional areas: Integration Security, security Configuration. Access the **Maintain Permissions for Security Group** task to update domain security policies.
+   ![Screenshot of the Maintain Permissions window with a Source Security Group added.](/viva/media/learning/wd-s1-4-security-group-permissions.png)
 
-| Domain security policy | Description |
-|-----| ----- |
-| Reports: Learning Record  | This domain provides access to reports that display data related to the learning record. This permission is required for accessing RaaS report for Assignment and completion sync. |
-| Manage: Learning Content | This domain provides access to certain administrative tasks to manage learning content. This permission is required for accessing RaaS report for catalog sync. |
-| Worker Data: Active and Terminated Workers | This domain provides access to reporting fields and data sources that include terminated workers. This domain policy is required for certain fields (Firstname, lastname, email address, ID) in User RaaS report.  |
-| Worker Data: Current staffing information | Provides information on workers' current information such as status, length of service, seniority. Includes web services. This domain policy is required for certain fields (Worker is Terminated) in User RaaS report. |
-| Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
+7. In Domain Security Policy Permission, add **Get Only** access to the following domain security policies.
 
+   | Domain security policy | Description |
+   |-----| ----- |
+   | Reports: Learning Record  | This domain provides access to reports that display data related to the learning record. This permission is required for accessing RaaS report for Assignment and completion sync. |
+   | Manage: Learning Content | This domain provides access to certain administrative tasks to manage learning content. This permission is required for accessing RaaS report for catalog sync. |
+   | Worker Data: Active and Terminated Workers | This domain provides access to reporting fields and data sources that include terminated workers. This domain policy is required for certain fields (Firstname, lastname, email address, ID) in User RaaS report.  |
+   | Worker Data: Current staffing information | Provides information on workers' current information such as status, length of service, seniority. Includes web services. This domain policy is required for certain fields (Worker is Terminated) in User RaaS report. |
+   | Workday Accounts | This domain provides access to the management of Workday Accounts. This domain policy is required for certain fields (username) in User RaaS report. |
 
-![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions-security-group.png)
+   ![Screenshot of the maintain permissions for security group screen.](../media/learning/workday-maintain-permissions-security-group.png)
 
 7. Run the **Activate Pending Security Policy Changes** task.
+
 8. **Advance security**: These are **optional** steps for advance security access on ISU.
 
     1. **Optional**: **Set up course-segmented security on Workday portal**:
@@ -234,32 +238,32 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
     1. Add the fields in "Columns" as outlined in the following schema. You'll see three objects for field "rating", select the one with a hash (#) icon next to it.
 
-| Business object| Field | Column heading override| Column heading override XML alias|
-| --- | ---- | ---- | --- |
-| Learning content | Workday ID | LearningObjectID| Learning Object ID|
-| Learning Content | Title | Title | Title |
-| Learning Content | Description | Description | Description |
-| Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
-| Learning Content | Duration in Minutes | Duration | Duration |
-| Learning Content | Inactive Status | Inactive | Inactive |
-| Learning Content | Learning Content Type | ContentType | ContentType |
-| Learning Content | Content Provider | ContentProvider | ContentProvider |
-| Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
-| Learning Content | Rating | Rating | Rating |
-| Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
-| Learning Content | Topic | Topics | Topics |
-| Learning Content | Skills | Skills | Skills |
-| Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
-| Language | User Language Code | Locale | Locale |
+   | Business object| Field | Column heading override| Column heading override XML alias|
+   | --- | ---- | ---- | --- |
+   | Learning content | Workday ID | LearningObjectID| Learning Object ID|
+   | Learning Content | Title | Title | Title |
+   | Learning Content | Description | Description | Description |
+   | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
+   | Learning Content | Duration in Minutes | Duration | Duration |
+   | Learning Content | Inactive Status | Inactive | Inactive |
+   | Learning Content | Learning Content Type | ContentType | ContentType |
+   | Learning Content | Content Provider | ContentProvider | ContentProvider |
+   | Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
+   | Learning Content | Rating | Rating | Rating |
+   | Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
+   | Learning Content | Topic | Topics | Topics |
+   | Learning Content | Skills | Skills | Skills |
+   | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
+   | Language | User Language Code | Locale | Locale |
 
-![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
+   ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
 
 4. Under "Group Column Headings", add the below fields:
 
-| Business Object | Group column heading | Group column heading XML Alias |
-| --- | --- | --- |
-| Languages | Languages | Languages |
-| Learning content | learningContent_group | learningContent_group| 
+   | Business Object | Group column heading | Group column heading XML Alias |
+   | --- | --- | --- |
+   | Languages | Languages | Languages |
+   | Learning content | learningContent_group | learningContent_group| 
 
 5. Add filters to the report under "Filter section"
     
@@ -288,12 +292,12 @@ This report should be created from the primary Admin account of Workday to avoid
 
 7. Go to **Advanced** and select the field **Optimized for Performance**.
 
-> [!NOTE]
-> After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
+   > [!NOTE]
+   > After isEffective date changes, it is not possible to turn on optimized for performance. Considering the data volumns in hand, we can advise customers to uncheck this field.
 
 8. Share the report with Integrated System User (ISU), which you created while enabling catalog sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add ISU name in the **Authorized users** field.  
 
-![Screenshot of the Edit Custom Report window for the Catalog Report](/viva/media/learning/wd-s2.2-8.png)
+   ![Screenshot of the Edit Custom Report window for the Catalog Report](/viva/media/learning/wd-s2.2-8.png)
 
 9. Save the report. Select **OK**. 
 
@@ -407,24 +411,24 @@ This report should be created from the primary Workday admin account to avoid an
     |Learning Assignment |  Assignment Record Completion Moment | CompletionDate | CompletionDate | 
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
-> [!NOTE]
-> The In progress status from Workday doesn't sync to Viva Learning.
+   > [!NOTE]
+   > The In progress status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add below fields
 
-| Business Object | Group Column Heading XML Alias | 
-| - | - | 
-| Assigned By | Assigned_By_group |
-| Learning Assignment | Learning_Assignment_group |
-| Learning Content | Learning_Content_group |
-| Worker | Worker_group |
+   | Business Object | Group Column Heading XML Alias | 
+   | - | - | 
+   | Assigned By | Assigned_By_group |
+   | Learning Assignment | Learning_Assignment_group |
+   | Learning Content | Learning_Content_group |
+   | Worker | Worker_group |
 
 5. Under Prompt mark "Display Prompt Values in Subtitles" and, add following the prompt values. You can directly copy and paste these values. In the 'Default Value' field for "learning Organization for Learning Assignment," provide the default value of the top organization (root organization) for which you need the report that is being pivoted.
 
-| Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
-| - | - | - | - | - | - | 
-|  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
-| Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
+   | Field | Label for Prompt XML Alias | Default Type | Default value | Required | Don't Prompt at Runtime |
+   | - | - | - | - | - | - | 
+   |  Learning Organizations for Learning Assignment | Learning_Organizations_for_Learning_Assignment | No default Value | | Yes | | 
+   | Include Subordinate Organizations | Include_Subordinate_Organizations | Specify default value | Yes | Yes | Yes | 
 
 6. Add date filters to the report for delta sync. 
         
@@ -495,7 +499,7 @@ This report should be created from the primary Workday admin account to avoid an
     
     1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
 
-    | Business Object | Field | Column Heading Override | Column Heading Override XML Alias |
+    | Business object | Field | Column heading override | Column heading override XML alias |
     | - | - | - | - |
     |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
     | Learning Enrollment Participant | Workday ID | LearnerId | LearnerId |
@@ -510,7 +514,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     2. Under "Group Column Headings", add these fields: 
 
-    | Business Object | Group Column Heading XML Alias |
+    | Business object | Group column heading XML alias |
     | -- | -- | 
     | Learning Content Detail | Learning_Content_Detail_group |
     | Learning Enrollment | Learning_Enrollment_group | 
@@ -548,7 +552,7 @@ This report should be created from the primary Workday admin account to avoid an
         f.	Go to filter and add 2 new "And" filters and input following values:
 
         
-        |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   Value    |     )    |     Indexed    |
+        |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
         |---|---|---|---|---|---|---|---|
         |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
         |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
