@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Viva Overview"
 ms.reviewer:
-ms.date: 07/17/2023
+ms.date: 05/30/2024
 ms.author: loreenl
 author: LoreenLa
 manager: elizapo
@@ -33,11 +33,13 @@ As an integrated experience, administrators can use the centralized Microsoft 36
 
 Learn which Microsoft Viva features are available across Microsoft 365 plans in the [Microsoft Viva service description](/office365/servicedescriptions/microsoft-viva-service-description).
 
+[See plans, pricing, and license requirements for Microsoft Viva](https://www.microsoft.com/en-us/microsoft-viva/pricing)
+
 ## Microsoft Viva experiences
 
 | Experience | App  | App |
 |:-------:|-------------|------|
-|**Employee communications and communities**|:::image type="icon" source="media/logos/amplify-c-64.svg"::: <br> [Viva Amplify](#viva-insights) <br> Centralize campaign management, publishing, and reporting to reach and engage employees. <br><br> :::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br>[Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.<br><br>:|
+|**Employee communications and communities**|:::image type="icon" source="media/logos/amplify-c-64.svg"::: <br> [Viva Amplify](#viva-amplify) <br> Centralize campaign management, publishing, and reporting to reach and engage employees. <br><br> :::image type="icon" source="media/logos/engage-launch-c-64.svg"::: <br>[Viva Engage](#viva-engage) <br> Bring people together across the organization to connect with leaders, coworkers, and communities.|:::image type="icon" source="media/logos/connections-launch-c-64.svg"::: <br> [Viva Connections](#viva-connections) <br> Connect employees with tools, news, and resources through this customizable app in Microsoft Teams.<br><br>:|
 |**Workplace Analytics and Feedback**|:::image type="icon" source="media/logos/insights-launch-c-64.svg"::: <br> [Viva Insights](#viva-insights) <br> Improve employee productivity and well-being through data-driven insights and recommendations.<br><br>:::image type="icon" source="media/logos/pulse-logo.svg":::<br>[Viva Pulse](#viva-pulse)<br> Empower leaders and managers to seek and act on feedback when it matters. |:::image type="icon" source="media/logos/glint-logo.png":::<br>[Viva Glint](#viva-glint)<br>A "voice of the employee" solution helping organizations understand and improve employee engagement to drive business outcomes.|
 |**Learning and knowledge management**|:::image type="icon" source="media/logos/learning-launch-c-64.svg"::: <br>[Viva Learning](#viva-learning) <br> Bring enterprise learning into the flow of work by connecting content from your organization with other sources||
 |**Goal setting and management**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
@@ -45,7 +47,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 #### Viva Amplify
 Centralize campaign management, publishing, and reporting to reach and engage employees.
 
-[Get more information on Viva Amplify](/viva/amplify/overview-viva-amplify.md)
+[Get more information on Viva Amplify](/viva/amplify/overview-viva-amplify)
 
 #### Viva Connections
 Connect employees with tools, news, and resources in Microsoft Teams. Content is displayed on a dashboard and can be tailored to each individual based on their role, region, and interests.
