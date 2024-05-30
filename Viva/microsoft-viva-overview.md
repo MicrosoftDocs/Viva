@@ -45,7 +45,7 @@ Learn which Microsoft Viva features are available across Microsoft 365 plans in 
 |**Goal setting and management**|![Viva Goals logo.](media/logos/goals-launch-c-64.svg) <br> [Viva Goals](#viva-goals) <br> Align teams and employees with your organization’s strategic goals and priorities.||
 
 #### Viva Amplify
-Centralize campaign management, publishing, and reporting to reach and engage employees.
+Viva Amplify centralizes campaign management, publishing, and reporting so corporate communicators can reach and engage all employees meaningfully. By using multi-channel publishing, communicators can reach employees across channels such as Outlook, Teams, and SharePoint. Users can create and manage organization-wide campaigns to help inform organizations, create alignment, and inspire action – all from one place. Employees continue to see relevant messages in their existing preferred channels.
 
 [Get more information on Viva Amplify](/viva/amplify/overview-viva-amplify)
 
