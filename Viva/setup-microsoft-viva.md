@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2023
+ms.date: 05/30/2024
 title: "Set up Microsoft Viva"
 ms.reviewer: 
 ms.author: loreenl
