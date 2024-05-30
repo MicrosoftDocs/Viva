@@ -56,26 +56,20 @@ Start setting up Skills in Viva by building your skills library with skills from
 
    If everything looks correct, select **Next**.
 7. Select **Turn on skills library** to let your users add skills to their profiles. This is an optional step - if you don't turn on skills now, your skills library is still created, but it's not visible to users. You can make skills available to your users later by publishing the skills library from **Settings**.
-8. Specify where else you want skills information to appear, and then select **Next**.
+8. Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
 
-   :::image type="content" source="../media/skills-manage-skills.jpg" alt-text="A screenshot that shows the screen where you manage the availability of skills information.":::
+   :::image type="content" source="../media/skills-manage-skills.png" alt-text="A screenshot that shows the screen where you manage the availability of skills information.":::
 
-   - Select **Allow skills in Viva Learning** to make skills information visible in Viva Learning. [Learn more about skills-based learning in Viva Learning](/viva/learning/skills-in-learning).
-
-      This is a one-time consent to replace “interests” in Viva Learning with skills. Any existing "interests" data is deleted, and users see this replaced with "skills." This action can't be reversed. 
-
-      It can take up to three business days for this change to reflect In Viva Learning.  
-   - Select **Turn on skills in Viva Insights**, if it's available for your tenant. Learn more about the [skills landscape report in Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights).
-
-      > [!NOTE]
-      > This is a [premium Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing) 
+   > [!NOTE]
+   > This is a [premium Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) scenario. Review the [licensing requirements](https://www.microsoft.com/en-us/microsoft-viva/pricing).
 
 9. Users receive **skill suggestions** relevant to their role by default. Users can control whether they see these suggestions in their skill settings. When skill suggestions are turned *off*, the user won't see any suggested skills and can only manually confirm skills from a list. 
 
    You can disable skill suggestions for specific users, groups, or your entire tenant by using an access control policy. For more information, see [control access to features in Viva](../feature-access-management.md).
     
 
-10. Review your skills library and settings information. If there are any changes you want to make, go back to those steps and edit.  
+10. Select **Next**
+11. Review your skills library and settings information. If there are any changes you want to make, go back to those steps and edit.  
 
     When you're ready, select **Confirm**.  
 
