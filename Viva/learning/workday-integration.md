@@ -268,7 +268,7 @@ This report should be created from the primary Admin account of Workday to avoid
 5. Add filters to the report under "Filter section"
     
         
-    | And/Or | `(` | Field | Operator | Comparison Type | Comparison Value | `)` | Indexed | 
+    | And/Or | `(` | Field | Operator | Comparison type | Comparison value | `)` | Indexed | 
     | --- | --- |-- |----  | --- | ---- | ---|-----| 
     | And | | Learning Content Type | exact match with the selection list | Prompt the user for the value |  Prompt #1 || Yes | 
     | And | |  Last Updated | greater than or equal to | Prompt the user for the value | Prompt #2 | | Yes | 
@@ -281,7 +281,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
 6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values. 
 
-    | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | 
+    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
     | - | - | - | - | - | - | -| 
     | Learning Content Type | Prompt #1 | contentType | contentType | No default value | | Yes | 
     | Last updated | Prompt #2 | Start_Date | Start_Date | No default value | | Yes | 
@@ -306,11 +306,15 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Generate report URL. This URL is required as an input parameter on Viva Learning Admin tab. The same user who created the report should generate the URL.
         1. Select the report > **Web Service** > **View URLs**.
 
-        ![Screenshot of the view urls section of a custom report.](/viva/media/learning/wd-s2.2-10.png) 
+           ![Screenshot of the view urls section of a custom report.](/viva/media/learning/wd-s2.2-10.png) 
+
         1. In next window, select any contentType and any date range and select **OK**.
-    ![Screenshot of the View URLS Web Service window with the option to edit content types and dates](/viva/media/learning/wd-s2.2-11.png)
+
+           ![Screenshot of the View URLS Web Service window with the option to edit content types and dates](/viva/media/learning/wd-s2.2-11.png)
+
         1. Select **JSON**, this opens a new window.
-    ![Screenshot of the new window that opens when you select JSON.](/viva/media/learning/wd-s2.2-12.png)
+  
+            ![Screenshot of the new window that opens when you select JSON.](/viva/media/learning/wd-s2.2-12.png)
 
     1. In the next window, provide the Workday credentials and sign in. It downloads the JSON.
     1. Copy the URL from browser and append it post Viva_Learning_Catalog_Report. That is, the report name 
@@ -341,7 +345,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
 1. Add the fields in "Columns."
 
-    | Business Object | Field | Column Heading Override | Column Heading Override XML Alias | 
+    | Business object | Field | Column heading override | Column heading override XML alias | 
     |  - | - | - | - |
     | Worker | Workday ID | UserId | UserId | 
     |Worker | Preferred Name – First Name | FirstName | FirstName | 
@@ -356,14 +360,14 @@ This report should be created from the primary Admin account of Workday to avoid
     2. **Add filters to the report**
         1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
     
-        | And/Or | Field | Operator | Comparison Type | Comparison Value |
+        | And/Or | Field | Operator | Comparison type | Comparison value |
         | - | - | - | - | - |
         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
 
     3. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
 
-    | Field | Prompt Qualifier | Label for Prompt | Label for Prompt XML Alias | Default Type | Default value | Required | Don't prompt at run time| 
+    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| 
     | - | - | - | - | -| - | - | - |
     | Contingent Worker type | Contingent_Worker_Type | No default value | | | Yes |
     | Employee Type | Employee_Type | No default value | | | Yes | 
@@ -399,7 +403,7 @@ This report should be created from the primary Workday admin account to avoid an
     1. Once you select **OK**, the "Data Source" automatically sets the value as "Learning Assignment Records." For the "Data Source Filter" field, remove any existing value and add "Assignment Records for ~Person~from Learning Organization". You can copy this value and paste in the field directly.
     1. Add the fields in "Columns" as outlined below. You see two objects for “Learning Assignment," select the one with a blue icon next to it.
     
-    |Business Object | Field | Column Heading Override | Column Heading Override XML Alias| 
+    |Business object | Field | Column heading override | Column heading override XML alias| 
     | - | - | - | - | 
     | Learning Assignment | Workday ID | AssigmentId | AssigmentId
     Worker | Workday ID | LearnerId | LearnerId| 
@@ -414,9 +418,9 @@ This report should be created from the primary Workday admin account to avoid an
    > [!NOTE]
    > The In progress status from Workday doesn't sync to Viva Learning.
 
-4. Under "Group Column Headings", add below fields
+4. Under "Group Column Headings", add the following fields.
 
-   | Business Object | Group Column Heading XML Alias | 
+   | Business object | Group column heading XML alias | 
    | - | - | 
    | Assigned By | Assigned_By_group |
    | Learning Assignment | Learning_Assignment_group |
@@ -499,65 +503,65 @@ This report should be created from the primary Workday admin account to avoid an
     
     1. Add the fields in "Columns" as per below schema. You see two objects for “learning Enrollment, select the one with a blue icon next to it.
 
-    | Business object | Field | Column heading override | Column heading override XML alias |
-    | - | - | - | - |
-    |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
-    | Learning Enrollment Participant | Workday ID | LearnerId | LearnerId |
-    | Learning Content Detail | Workday ID | LearningObjectId | LearningObjectId |
-    | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
-    | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
-    | Learning Enrollment | Record Start Date | StartDate | StartDate | 
+       | Business object | Field | Column heading override | Column heading override XML alias |
+       | - | - | - | - |
+       |Learning Enrollment | Workday ID | EnrollmentId | EnrollmentId |
+       | Learning Enrollment Participant | Workday ID | LearnerId | LearnerId |
+       | Learning Content Detail | Workday ID | LearningObjectId | LearningObjectId |
+       | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
+       | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
+       | Learning Enrollment | Record Start Date | StartDate | StartDate | 
 
-    ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
+       ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
 
     
 
-    2. Under "Group Column Headings", add these fields: 
+    1. Under "Group Column Headings", add these fields: 
 
-    | Business object | Group column heading XML alias |
-    | -- | -- | 
-    | Learning Content Detail | Learning_Content_Detail_group |
-    | Learning Enrollment | Learning_Enrollment_group | 
-    | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
+       | Business object | Group column heading XML alias |
+       | -- | -- | 
+       | Learning Content Detail | Learning_Content_Detail_group |
+       | Learning Enrollment | Learning_Enrollment_group | 
+       | Learning Enrollment Participant | Learning_Enrollment_Participant_group | 
 
     1. Add filters to the report for delta sync.
         1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
         2. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
         1. In next screen, add following values under Date Fields and select **OK**.
 
-        | Field | Value |
-        | - | - |
-        | Extract Year from Date Field | Last Functionally Updated |
-        | Extract Month from Date Field | Last Functionally Updated |
-        | Extract Day from Date Field | Last Functionally Updated |
+           | Field | Value |
+           | - | - |
+           | Extract Year from Date Field | Last Functionally Updated |
+           | Extract Month from Date Field | Last Functionally Updated |
+           | Extract Day from Date Field | Last Functionally Updated |
 
         1. 	Add following values in remaining fields of the start filter:
 
-        |Field | Value|
-        | - | - |
-        | Field | ModifiedDate |
-        | Operator | Greater than or equal to |
-        | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-        | Comparison Value | Starting Prompt |
+           |Field | Value|
+           | - | - |
+           | Field | ModifiedDate |
+           | Operator | Greater than or equal to |
+           | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+           | Comparison Value | Starting Prompt |
 
         1. Add another filter and with following values and select **OK**.
 
-        |Field | Value|
-        | - | - |
-        | Field | ModifiedDate |
-        | Operator | Less than or equal to |
-        | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
-        | Comparison Value | Ending Prompt |
+           |Field | Value|
+           | - | - |
+           | Field | ModifiedDate |
+           | Operator | Less than or equal to |
+           | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
+           | Comparison Value | Ending Prompt |
         
         f.	Go to filter and add 2 new "And" filters and input following values:
 
         
-        |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
-        |---|---|---|---|---|---|---|---|
-        |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
-        |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
-        |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
-        |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
+           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
+           |---|---|---|---|---|---|---|---|
+           |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
+           |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
+           |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
+           |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
         
         
     ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
@@ -625,11 +629,11 @@ OAuth access is applied at client level, so it will not impact any other sign in
     1. Search for task- "View API client", go to tab "API clients for integration". It shows all clients. Open the "VivaLearning" client created in previous step. 
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
-     ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
+        ![Screenshot of the View API Client with the option task to manage refresh tokens for integration](/viva/media/learning/wd-s3-3.png)
 
     1. Select the ISU created initially during Viva Learning setup.
     
-    ![Screenshot of the Manage Refresh Tokens for Integration](/viva/media/learning/wd-s3-4.png)
+       ![Screenshot of the Manage Refresh Tokens for Integration](/viva/media/learning/wd-s3-4.png)
     
     1. Enable "Generate new refresh token" checkbox, select **OK**.
     1. Copy the generated refresh token. 
@@ -645,11 +649,11 @@ To generate the org IDs for a single department, please follow below steps.
 
 1. Select the ellipses (...) and select **Integration IDs** and then **View IDs**.
 
-![Screenshot of the View IDs options within the Organizations menu](/viva/media/learning/wd-s3-6.png)
+   ![Screenshot of the View IDs options within the Organizations menu](/viva/media/learning/wd-s3-6.png)
 
 1. Select the Workday ID mentioned above. Save this ID for later as this will be used as a configuration parameter.
 
-![Screenshot of the Integrations ID section with the ID highlighted](/viva/media/learning/wd-s3-7.png)
+   ![Screenshot of the Integrations ID section with the ID highlighted](/viva/media/learning/wd-s3-7.png)
 
 5. Run following report "Headcount Report" on Workday and select root org. It gives you a list of all departments under root org.
 
@@ -686,13 +690,13 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
     d.	Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
 
-![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
+   ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
 
 5. Select **Save** to activate Workday content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
 
 6. Once configured, Workday appears in the Configured providers list. You can track the sync status, sync time stamp and can download the sync logs.
 
-![Screenshot of the manage providers list that includes the configured Workday provider](/viva/media/learning/wd-s4-4.png)
+   ![Screenshot of the manage providers list that includes the configured Workday provider](/viva/media/learning/wd-s4-4.png)
 
 7. If you want to enable LRS (Learner record sync) in Assignment and Completion, enable the LRS toggle.
  
