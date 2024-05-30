@@ -271,7 +271,7 @@ This report should be created from the primary Admin account of Workday to avoid
     | And | | Last Updated | less than or equal to | Prompt the user for the value | Prompt #3 | | Yes |
 
 
-    ![Screenshot of the formatted fields for prompt values.](/viva/media/learning/workday-filters-for-catalog-raas.png)
+    ![Screenshot of the formatted fields for filter values.](/viva/media/learning/workday-filters-for-catalog-raas.png)
 
     
 
@@ -473,8 +473,8 @@ This report should be created from the primary Workday admin account to avoid an
     1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
     1. Within the next 24 hours LRS sync calls the report API and accordingly data reflect in Viva Learning, provided Admin has enabled LRS on Admin portal. Refer to this document for configuration steps on Admin portal.
 
->[!NOTE]: 
-> The assignments with completion status "manually waived" aren't displayed in the Viva Learning user experience. 
+> [!NOTE]
+> The assignments with the completion status of "manually waived" aren't displayed in the Viva Learning user experience. 
 
 ### Create RaaS report on the Workday portal for completion status of self-enrollment
 
