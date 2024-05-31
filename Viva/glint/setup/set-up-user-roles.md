@@ -67,21 +67,27 @@ Admins can specify the employee population and attributes their leaders can view
    1. Survey Programs
    
       :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
+
    1. Focus Areas and Conversations
    
       :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
+
    1. Reporting
    
       :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
+
    1. Data Management
    
       :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
+
    1. Resources
    
       :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
+
    1. Access Permissions
    
       :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
+
 1. Select **Save Changes**.
 
 1. On the **Role Settings** page, select **Report Attributes**.
@@ -92,10 +98,12 @@ Admins can specify the employee population and attributes their leaders can view
     - Standard
     - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
     - Other Reporting Hierarchies (like Location or Department Hierarchy)
-1. Select all attributes and hierarchies that this role should be allowed to view for 
+
+1. Select all attributes and hierarchies that this role should be allowed to view for:
     - Report filters
     - Report sections
     - Comment filters
+
 1. Select **Save Changes**.
 
 > [!TIP]
@@ -123,6 +131,7 @@ Add members to a User Role by choosing one of the following options:
 4. In the new display window, choose either:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
+
 5. To add users based on a filtered population, select  **I want to filter all active employees by the following populations**.
 6. Select  **+ New Population**.
 7. Select  **+ Add Filter**  to select the attribute you want to use to filter your employee list. Your attribute list is unique to your organization based on your Employee Attribute File.
@@ -143,8 +152,8 @@ When you need to assign many individuals to a specific User Role, you can mass a
 4. Open the downloaded .csv file and delete all columns except the column with email addresses.
 5. Add or delete email addresses.
 
-     > [!NOTE]
-     > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
+   > [!NOTE]
+   > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
 
 1. Save your file.
 1. Return to the **Role Settings** page and select **Import**.
@@ -169,6 +178,7 @@ This functionality works for roles which already have filters and/or populations
 4. In the new display window, choose from:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
+
 5. Add new population(s) and filter(s) as desired.
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
@@ -183,15 +193,16 @@ Custom access is intended for users who need to have the default access overridd
 2. Go to the User Role with users that need custom access granted.
 3. Search for a select a user.
 4. On the user's profile, next to the survey name that should have custom data access for this user, select the pencil symbol to edit.
-     > [!NOTE]
-     > The User Role that this person is a member of needs to be granted access to a survey program in the survey's Reporting section for it to appear on their user profile.
 
-     :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
+   > [!NOTE]
+   > The User Role that this person is a member of needs to be granted access to a survey program in the survey's Reporting section for it to appear on their user profile.
+
+   :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
     
 6. Select **+ Population** and then **+ Add Filters**.
 7. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
 
-     :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
+   :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
    
 9. Select **Save** to apply custom access for this user and survey program.
 
@@ -204,7 +215,7 @@ Users can also have their Focus Area and (if they are in a role with admin permi
 4. On the user's profile, next to **Admin Access** or **Focus Area Access**, select the pencil icon to edit.
 5. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
 
-     :::image type="content" source="../../media/glint/setup/custom-focus-area-selection.png" alt-text="Screenshot of dialog with custom focus area access attribute values to be selected.":::
+   :::image type="content" source="../../media/glint/setup/custom-focus-area-selection.png" alt-text="Screenshot of dialog with custom focus area access attribute values to be selected.":::
 
 10. Select **Save** to apply custom access for this user for **Admin Access** or **Focus Area Access**.
 
