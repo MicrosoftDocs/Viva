@@ -128,7 +128,7 @@ For more information about [deploying your frontline operational hierarchy](/mic
 
 ##### To map frontline attributes
 
-Map your attributes on the Map frontline attributes page of the [deploy frontline dynamic teams](/microsoft-365/frontline/deploy-dynamic-teams-at-scale?view=o365-worldwide) experience. Select the Microsoft Entra attribute for **Department** and **Job title** that best represents the departments and job titles in your organization. You can map one or both attributes. For more information on [setting up for targeted communications for your frontline](/microsoft-365/frontline/set-up-targeted-communications) see the linked article.
+Map your attributes on the Map frontline attributes page of the [deploy frontline dynamic teams](/microsoft-365/frontline/deploy-dynamic-teams-at-scale?view=o365-worldwide&preserve-view=true) experience. Select the Microsoft Entra attribute for **Department** and **Job title** that best represents the departments and job titles in your organization. You can map one or both attributes. For more information on [setting up for targeted communications for your frontline](/microsoft-365/frontline/set-up-targeted-communications) see the linked article.
 
 ##### Enable Regional filtering
 
@@ -140,7 +140,7 @@ To enable from Viva Connections:
 
 2. In the Settings pane, select the toggle to enable **Regional filtering**.
 
-   :::image type="content" source="../media/connections/create-dashboard/target-announcement-enable.png" alt-text="Screenshot of the regional filtering option in settings." lightbox="../media/connections/create-dashboard/target-announcement-enable.png":::
+   :::image type="content" source="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-enable.png" alt-text="Screenshot of the regional filtering option in settings." lightbox="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-enable.png":::
 
 3. Select **Save** to save your changes.
 
@@ -168,7 +168,7 @@ To create an announcement filtered by frontline worker properties, follow the st
 
 - **Job title**: enter a job title in the text field to filter down based on available choices, or select the drop-down arrows to choose multiple job titles from a list of available options.
 
-   :::image type="content" source="../media/connections/create-dashboard/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/create-dashboard/target-announcement-properties.png":::
+   :::image type="content" source="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-properties.png":::
 
 3. Continue creating your announcement until you're ready to send.
 
