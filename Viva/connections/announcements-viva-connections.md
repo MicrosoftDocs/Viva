@@ -63,7 +63,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 Announcements are viewable to users from mobile experiences through Viva Connections.
 
 > [!NOTE]
-> 
+>
 > Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
 
 - **In Teams**: Users will get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement when the user has enabled it.
@@ -92,6 +92,85 @@ A Teams Channel announcement is displayed in the Viva Connections experience onl
 > - Teams Channel announcements that are deleted and then undone will show as unread.
 
 For more information, see [Sending an announcement to a channel in Microsoft Teams](https://support.microsoft.com/office/8f244ea6-235a-4dcc-9143-9c5b801b4992).
+
+### Target announcements to frontline audiences based on department, location, and job title
+
+Managers can now send targeted announcements based on an employee’s department, location, and job title to frontline workers on a time-sensitive basis using Regional filtering.
+
+Before Regional filtering can be enabled, Dynamic Teams at Scale (DTAS) and your organizations Hierarchy will need to be set up within the Teams admin center in order for the proper information to be available to filter.
+
+> [!NOTE]
+>
+> - It is recommended to set up DTAS and your Hierarchy configuration before using this feature to avoid users receiving an error.
+> - Once DTAS and your Hierarchy has been configured, regional filtering must be enabled in Connections.
+
+#### Map frontline attributes in the admin center
+
+There is some preliminary configuration required before regional filtering can be enabled in Connections. First, your organization will need to have set up DTAS within the [Teams admin center](https://admin.teams.microsoft.com/). See the [deployment of frontline dynamic teams at scale](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) for more information and instructions.
+
+If DTAS has been set up for your organization, you will need to set up your frontline operational hierarchy through a CSV file uploaded to the Teams admin center; enabling you to map your organization’s structure of frontline teams and locations to a hierarchy. After the hierarchy is in place, you will be able to map your frontline attributes to the Microsoft Entra ID attributes that represent your organization’s departments and job titles. Your final step will be to enable regional filtering in Viva Connections.
+
+##### To get started creating your CSV hierarchy file
+
+1. In the left navigation of the [Teams admin center](https://admin.teams.microsoft.com/), choose **Teams > Manage frontline teams**.
+
+2. Go to the **Operational hierarchy tab**.
+
+3. Choose **Get Started**. The **Operational hierarchy** pane opens, and from here, you can upload your hierarchy CSV file or download a CSV template to create one.
+
+4. Select **Download the CSV template** to create your file.
+
+5. After creating the file, return to the **Operational hierarchy tab**.
+
+6. Choose **Get Started** and upload your CSV file.
+
+Refer to the article on [deploying your frontline operational hierarchy](/microsoft-365/frontline/deploy-frontline-operational-hierarchy) for more information.
+
+##### To map frontline attributes
+
+Map your attributes on the Map frontline attributes page of the [deploy frontline dynamic teams](/microsoft-365/frontline/deploy-dynamic-teams-at-scale?view=o365-worldwide) experience. Select the Microsoft Entra attribute for **Department** and **Job title** that best represents the departments and job titles in your organization. You can map one or both attributes. Refer to the article on [setting up for targeted communications for your frontline](/microsoft-365/frontline/set-up-targeted-communications) for more information.
+
+##### Enable Regional filtering
+
+After the DTAS and Hierarchy service has been configured in Microsoft Teams, enable **Regional filtering** within the Announcements page in Viva Connections (or from your SharePoint home site).
+
+To enable from Viva Connections:
+
+1. After accessing the announcements page, select **Settings** in the upper-right corner of the page.
+
+2. In the Settings pane, select the toggle to enable **Regional filtering**.
+
+   :::image type="content" source="../media/connections/create-dashboard/target-announcement-enable.png" alt-text="Screenshot of the regional filtering option in settings." lightbox="../media/connections/create-dashboard/target-announcement-enable.png":::
+
+3. Select **Save** to save your changes.
+
+To enable from a SharePoint home site:
+
+1. After accessing the announcements page, select **Settings** in the upper-right corner of the page.
+
+2. In the Settings pane, select the toggle to enable **Regional filtering**.
+
+3. Select **Save** to save your changes.
+
+#### Filter announcement by Frontline worker properties
+
+After location, department, and role values have been set up in Microsoft Teams, and regional filtering has been enabled in Viva Connections, owners and members will see options to filter their announcement based on the new set of frontline worker properties created in Microsoft Teams.
+
+To create an announcement filtered by frontline worker properties, follow the steps for [drafting your announcement](/viva/connections/announcements-viva-connections#drafting-your-announcement) up to selecting your audience:
+
+1. Select **Filter by property**.
+
+2. Select from three properties to enable announcement filtering based on the following variables:
+
+- **Location**: enter a location in the text field to filter down based on available choices or select the drop down arrows to choose multiple locations from a list of available options. Up to 10 locations can be selected.
+
+- **Department**: enter a department in the text field to filter down based on available choices or select the drop down arrows to choose multiple departments from a list of available options.
+
+- **Job title**: enter a job title in the text field to filter down based on available choices, or select the drop down arrows to choose multiple job titles from a list of available options.
+
+   :::image type="content" source="../media/connections/create-dashboard/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/create-dashboard/target-announcement-properties.png":::
+
+3. Continue creating your announcement until you are ready to send.
 
 ## Accessing the announcements page
 
