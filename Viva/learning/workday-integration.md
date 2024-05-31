@@ -238,25 +238,25 @@ This report should be created from the primary Admin account of Workday to avoid
     1. Once you select **OK**, Data Source has "Learning Content" as a value. Remove any existing value in the Data Source Filter field and add "Manageable Learning Content".
     1. Add the fields in "Columns" as outlined in the following schema. You'll see three objects for field "rating", select the one with a hash (#) icon next to it.
 
-   | Business object| Field | Column heading override| Column heading override XML alias|
-   | --- | ---- | ---- | --- |
-   | Learning content | Workday ID | LearningObjectID| Learning Object ID|
-   | Learning Content | Title | Title | Title |
-   | Learning Content | Description | Description | Description |
-   | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
-   | Learning Content | Duration in Minutes | Duration | Duration |
-   | Learning Content | Inactive Status | Inactive | Inactive |
-   | Learning Content | Learning Content Type | ContentType | ContentType |
-   | Learning Content | Content Provider | ContentProvider | ContentProvider |
-   | Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
-   | Learning Content | Rating | Rating | Rating |
-   | Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
-   | Learning Content | Topic | Topics | Topics |
-   | Learning Content | Skills | Skills | Skills |
-   | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
-   | Language | User Language Code | Locale | Locale |
+     | Business object| Field | Column heading override| Column heading override XML alias|
+     | --- | ---- | ---- | --- |
+     | Learning content | Workday ID | LearningObjectID| Learning Object ID|
+     | Learning Content | Title | Title | Title |
+     | Learning Content | Description | Description | Description |
+     | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
+     | Learning Content | Duration in Minutes | Duration | Duration |
+     | Learning Content | Inactive Status | Inactive | Inactive |
+     | Learning Content | Learning Content Type | ContentType | ContentType |
+     | Learning Content | Content Provider | ContentProvider | ContentProvider |
+     | Learning Content | Exclude from Search and Browse | IsNonSearchable | IsNonSearchable |
+     | Learning Content | Rating | Rating | Rating |
+     | Learning Content | Skill Level | DifficultyLevel | DifficultyLevel |
+     | Learning Content | Topic | Topics | Topics |
+     | Learning Content | Skills | Skills | Skills |
+     | Learning Content | Third Party Content Thumbnail Image URL | ExternalImageURL | ExternalImageURL |
+     | Language | User Language Code | Locale | Locale |
 
-   ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
+     ![Screenshot of Edit Custom Report](/Viva/media/learning/wd-s2.2-3.png)
 
 4. Under "Group Column Headings", add the below fields:
 
@@ -279,7 +279,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
     
 
-6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values. 
+6. **Add the Prompts:** Go to **Prompts**. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy and paste these values. 
 
     | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | 
     | - | - | - | - | - | - | -| 
@@ -334,7 +334,7 @@ This report should be created from the primary Admin account of Workday to avoid
 1. **Sign in to the Workday Portal**
     1. **Sign in** 
     1. Search for the task "Create Custom Report" 
-2. Configure the report parameters 
+1. Configure the report parameters 
     1. Name the report "Viva Learning Users Report". The report name must match this string. 
     1. Indicate report type as "Advanced."
     1. Check "Enable as Web service" 
@@ -357,7 +357,8 @@ This report should be created from the primary Admin account of Workday to avoid
 
     ![Screenshot of the table in the View Custom Report for the Viva Learning Users report.](/viva/media/learning/wd-s2.3-raas1.png)
 
-    2. **Add filters to the report**
+   1. **Add filters to the report**
+
         1. Add following values in "Filter on Instances". Follow the steps mentioned below for adding calculated field. 
     
         | And/Or | Field | Operator | Comparison type | Comparison value |
@@ -365,24 +366,24 @@ This report should be created from the primary Admin account of Workday to avoid
         | And | Hire Date | greater than or equal to | Prompt the user for the value | Starting Prompt | 
         |And | Hire Date | less than or equal to | Prompt the user for the value | Ending Prompt |
 
-    3. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
+    1. Add the Prompts: Go to Prompts. Mark "Display Prompt Values in Subtitles" and add following prompt values. You can directly copy paste these values.  
 
-    | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| 
-    | - | - | - | - | -| - | - | - |
-    | Contingent Worker type | Contingent_Worker_Type | No default value | | | Yes |
-    | Employee Type | Employee_Type | No default value | | | Yes | 
-    | Worker Types | Worker_Types | No default value | | | Yes | 
-    | Include Terminated workers | Include_Terminated_Workers | Specify default value | Yes | | Yes |
-    | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | | Yes | 
-    | Hire Date | Ending Prompt | End_Date | End_Date | No default value | | Yes | |
+       | Field | Prompt qualifier | Label for prompt | Label for prompt XML alias | Default type | Default value | Required | Don't prompt at run time| 
+       | - | - | - | - | -| - | - | - |
+       | Contingent Worker type | Contingent_Worker_Type | No default value | | | Yes |
+       | Employee Type | Employee_Type | No default value | | | Yes | 
+       | Worker Types | Worker_Types | No default value | | | Yes | 
+       | Include Terminated workers | Include_Terminated_Workers | Specify default value | Yes | | Yes |
+       | Hire Date | Starting Prompt | Start_Date | Start_Date | No default value | | Yes | 
+       | Hire Date | Ending Prompt | End_Date | End_Date | No default value | | Yes | |
 
-    4. Go to **Advanced** and select the field `Optimized for Performance.` 
+    1. Go to **Advanced** and select the field `Optimized for Performance.` 
 
-    4. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add group name and user name in Authorized Groups and **Authorized users** field.
+    1. Share the report with Integrated System User (ISU) and respective security group which you created while enabling content sync. Go to the **Share** section in report, select the option "share with specific authorized groups and users" and add group name and user name in Authorized Groups and **Authorized users** field.
 
-    5. Save the report. Select **OK**. 
+    1. Save the report. Select **OK**. 
 
-    6. Once configuration is complete on Admin portal, within the next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
+    1. Once configuration is complete on Admin portal, within the next 24 hours delta sync calls the report API, and accordingly data reflect in Viva Learning. Refer to this document for details on enabling integration on Admin portal. 
 
 
 ### Create RaaS report on Workday portal for assignment by organization and their completion status
@@ -448,23 +449,23 @@ This report should be created from the primary Workday admin account to avoid an
 
     d. Add following values in remaining fields of the start filter:
 
-    | Field | Value |
-    | - | - |
-    |Field | Modified Date|
-    | Operator | Greater than or equal to |
-    | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-    | Comparison Value | Starting Prompt | 
+     | Field | Value |
+     | - | - |
+     |Field | Modified Date|
+     | Operator | Greater than or equal to |
+     | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+     | Comparison Value | Starting Prompt | 
 
     e. Add another filter and with following values and select “OK”.
 
-    | Field | Value |
-    | - | - | 
-    |Field | ModifiedDate|
-    | Operator | Less than or equal to | 
-    |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-    | Comparison Value | Ending Prompt | 
+     | Field | Value |
+     | - | - | 
+     |Field | ModifiedDate|
+     | Operator | Less than or equal to | 
+     |Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+     | Comparison Value | Ending Prompt | 
    
-    ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
+     ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
 
     **Modify the Prompts**
 
@@ -475,7 +476,7 @@ This report should be created from the primary Workday admin account to avoid an
         1. Add following values in the new prompts and select **OK**.
                 - For Starting Prompt, add value `Start_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
                 - For Ending Prompt, add value `End_Date` in fields **Label for Prompt** and **Label for Prompt XML Alias**
-    2. Go to **Advanced**. Uncheck the field **Optimized for Performance**
+    1. Go to **Advanced**. Uncheck the field **Optimized for Performance**
 
     1. Save the report. Select **OK.**
     1. Share the report with Integrated System User (ISU) and the respective security group, which you created while enabling content sync.
@@ -492,7 +493,7 @@ This report should be created from the primary Workday admin account to avoid an
     1. **Sign in**.
     2. Search for "Create Custom Report."
 
-2. Configure the report parameters 
+1. Configure the report parameters 
     1. Name the report "Viva Learning Self Enrollment Report". The report name must match this string. 
     2. Set Report Type as "Advanced."
     3. Mark checkbox "Enable as Web service."
@@ -526,7 +527,7 @@ This report should be created from the primary Workday admin account to avoid an
 
     1. Add filters to the report for delta sync.
         1. Go to "Filters". Select “+”, In “And/Or” select And. in "Field" select "create calculated field for report".
-        2. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
+        1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
         1. In next screen, add following values under Date Fields and select **OK**.
 
            | Field | Value |
@@ -553,7 +554,7 @@ This report should be created from the primary Workday admin account to avoid an
           | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
           | Comparison Value | Ending Prompt |
         
-        f.	Go to filter and add 2 new "And" filters and input following values:
+        1.	Go to filter and add 2 new "And" filters and input following values:
 
         
            |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
