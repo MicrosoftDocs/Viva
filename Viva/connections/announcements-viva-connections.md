@@ -140,7 +140,7 @@ To enable from Viva Connections:
 
 2. In the Settings pane, select the toggle to enable **Regional filtering**.
 
-   :::image type="content" source="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-enable.png" alt-text="Screenshot of the regional filtering option in settings." lightbox="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-enable.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/target-announcement-enable.png" alt-text="Screenshot of the regional filtering option in settings." lightbox="../media/connections/announcements-viva-connections/target-announcement-enable.png":::
 
 3. Select **Save** to save your changes.
 
@@ -168,7 +168,7 @@ To create an announcement filtered by frontline worker properties, follow the st
 
 - **Job title**: enter a job title in the text field to filter down based on available choices, or select the drop-down arrows to choose multiple job titles from a list of available options.
 
-   :::image type="content" source="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/create-dashboard/announcements-viva-connections/target-announcement-properties.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/announcements-viva-connections/target-announcement-properties.png":::
 
 3. Continue creating your announcement until you're ready to send.
 
