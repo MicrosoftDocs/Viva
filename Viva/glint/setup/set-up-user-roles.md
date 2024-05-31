@@ -138,14 +138,16 @@ When you need to assign many individuals to a specific User Role, you can mass a
 3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
 4. Open the downloaded .csv file and delete all columns except the column with email addresses.
 5. Add or delete email addresses.
+
      > [!NOTE]
      > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
-6. Save your file.
-7. Return to the **Role Settings** page and select **Import**.
-8. Select the checkbox to indicate if you only added users.
-9. Drag and drop your file, or browse to select your file, into the area indicated.
-10. Select **Import File**.
-11. Confirm your import and then select **Confirm Import**.
+
+1. Save your file.
+1. Return to the **Role Settings** page and select **Import**.
+1. Select the checkbox to indicate if you only added users.
+1. Drag and drop your file, or browse to select your file, into the area indicated.
+1. Select **Import File**.
+1. Confirm your import and then select **Confirm Import**.
 
 ## Remove a user from a User Role
 
