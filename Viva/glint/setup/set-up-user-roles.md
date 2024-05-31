@@ -53,12 +53,16 @@ The following roles are pre-configured in Viva Glint and can't be edited. Create
 Admins can specify the employee population and attributes their leaders can view on their dashboard for each User Role. Defining roles is important for data cuts, access permissions, and program integrity.
 
 1. Select the **Configuration** symbol.
-2. In the **Employees** section, select **User Roles**.
-3. Select **+New Role**. A new **Role Settings** page appears.
-5. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
-   :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
-7. Select **Permissions** and the **Permissions and Access** page opens.
+1. In the **Employees** section, select **User Roles**.
+1. Select **+New Role**. A new **Role Settings** page appears.
+1. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
+
+   :::image type="content" source="../../media/glint/setup/user-roles-title.png"alt-text="Screenshot of the Role Settings page.":::
+
+1. Select **Permissions** and the **Permissions and Access** page opens.
+
    :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
+
 1. Make choices for the following sections based on decisions in your User Role Template:
    1. Survey Programs
    
