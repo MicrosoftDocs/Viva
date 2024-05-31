@@ -454,13 +454,13 @@ The OneDrive card (previously known as Files) will connect individuals to their 
 >
 > Office files like Word, PowerPoint, and Excel will be opened in their respective Teams app. All other file types will be opened in their respective web or local app.
 
-:::image type="content" source="../media/connections/create-dashboard/onedrive-card-demo.png" alt-text="Screenshot demonstrating the OneDrive card displaying recently accessed files." lightbox="../media/connections/create-dashboard/onedrive-card-demo.png"":::
+:::image type="content" source="../media/connections/create-dashboard/onedrive-card-demo.png" alt-text="Screenshot demonstrating the OneDrive card displaying recently accessed files." lightbox="../media/connections/create-dashboard/onedrive-card-demo.png":::
 
 1. While in edit mode, select **+ Add a card** from the dashboard.
 
 2. Select **OneDrive** from the dashboard toolbox.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot of the OneDrive card icon." lightbox="../media/connections/create-dashboard/onedrive-card-icon-boarder.png"":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-icon-border.png" alt-text="Screenshot sof the OneDrive card icon." lightbox="../media/connections/create-dashboard/onedrive-card-icon-border.png":::
 
 3. Select the **edit pencil** to the left of the card to open the properties pane for the OneDrive card.
 
@@ -468,7 +468,7 @@ The OneDrive card (previously known as Files) will connect individuals to their 
 
 5. Choose your card size from the **Card size** drop-down list.
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-card-size.png" alt-text="Screenshot showing card size options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-card-size.png"":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-card-size.png" alt-text="Screenshot showing card size options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-card-size.png":::
 
 6. Select a **Source** for files to be displayed from:
     - **Recent**: Recent files the user has accessed will display.
@@ -477,7 +477,7 @@ The OneDrive card (previously known as Files) will connect individuals to their 
 
 7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 group into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
-    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png"":::
+    :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png":::
 
 ## Add a Shifts card
 
