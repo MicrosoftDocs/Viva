@@ -55,6 +55,8 @@ Select **Collaboration between an individual and a group in your organization** 
 
 ### Add metrics, filters, and employee attributes
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
+
 1. Under **Add Metrics**, select the **Add metrics** button, then pick metrics from the **Select metrics** pane.
 1. When you're done picking metrics, select **Add to query**.
 1. Under **primary collaborator**, define your primary collaborator—that is, those whose collaboration patterns are at the center of your analysis. Select which employees you want to include as primary collaborators using filters.

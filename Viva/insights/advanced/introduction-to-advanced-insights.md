@@ -28,7 +28,9 @@ Viva Insights includes the [advanced insights app](https://go.microsoft.com/fwli
 
 #### Analysis
 
-As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a predefined Power BI query. 
+As an analyst, the **Analysis** page is your jumping-off point to view recent queries and templates, find documentation and other help, run a custom query, or run a predefined Power BI query.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l9e5]
 
 ##### Query results
 
