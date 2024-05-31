@@ -127,19 +127,18 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 :::image type="content" source="../../media/glint/setup/user-roles-import-dialog-box.png" alt-text="Screenshot of the Import Employees to Role dialog box in Role Settings.":::
 
-1. Select the **Configure** symbol.
-2. In the **Employees** section, select **User Roles**. Select the User Role you need to update.
-3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
-4. Open the downloaded .csv file and delete all columns except the column with email addresses.
-5. Add or delete email addresses.
-     > [!NOTE]
-     > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
-6. Save your file.
-7. Return to the **Role Settings** page and select **Import**.
-8. Select the checkbox to indicate if you only added users.
-9. Drag and drop your file, or browse to select your file, into the area indicated.
-10. Select **Import File**.
-11. Confirm your import and then select **Confirm Import**.
+1. From the admin dashboard, select the **Configuration** symbol.
+2. In the **Employees** section, select **User Roles** and select the User Role you need to update.
+3. Select **Add/Edit Employees** and choose **Import** in the **Choose a way to add employees** dialog.  
+4. In the **Import employees to role** dialog, select **Download CSV** in the **Download your current employee list to modify** section. 
+5. Use the downloaded file as a template and add employee email addresses in the email column. Include the header row, which is labeled differently when there are or aren't users in the role. Both column labels import successfully:
+   1. The header row label in the template file is **email** when there are already users in the **User Role**.
+   2. The header row label in the template file is **Employee Email** when there are no users in the **User Role**.
+6. After adding all email address values, save the file as .csv or .xlsx.
+7. In the **Import employees to role** dialog, drag and drop or browse to choose the file (maximum size 550 MB, maximum row count 10,000).
+8. To keep any existing users in the role, select **Preserve the employees already in this role**.
+9. Select **Import File**.
+10. The **Confirm your import** window displays. If the correct number of employees to be added and removed are correct, select **Confirm import**.
 
 ## Remove a user from a User Role
 
