@@ -25,7 +25,7 @@ The Microsoft Viva People Science team took a human-centric approach to define a
 
 Engagement survey items shouldn't be used for measuring productivity. Different employee experiences impact feeling **engaged** versus feeling **productive**. Both are needed to drive high-performance, but beyond a focus on engagement alone, employee productivity experiences help drive higher levels of productivity and achieve better businesses outcomes. 
 
-## Productivity as an Outcome
+## Productivity as an outcome
 
 Glint always proposes using the items *eSat* and *Recommend* as engagement outcome measures in surveys. Now, with recent research into productivity as an outcome, consider adding two validated productivity outcomes to your listening strategy: **Individual Productivity** and **Team Productivity**. 
 
@@ -40,6 +40,7 @@ If there is a particular organizational goal or strategy you're focusing on that
 
 Consider the productivity level (team and/or individual) you wish to improve, and use it as a guidepost for which employee experiences to focus on. Here are some examples:
 
+???? Craig, please add
 
 
 > [!div class="nextstepaction"]
@@ -57,6 +58,7 @@ Consider the productivity level (team and/or individual) you wish to improve, an
 
 ???? CRAIG...should they use eSAT, Recommend, and then the following items? Goal here is to suggest the easiest method to achieve productivity analyses.
 
+Process....Judy will add after Craig's recommendation 
 
 |Item Name|	Item Text|
 |-------|--------|
