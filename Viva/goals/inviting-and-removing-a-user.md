@@ -27,7 +27,7 @@ This article explains how to add members to your organizations and teams in Viva
 
 ## Add users to an organization
 
-### Option 1: Add users via inviation after you create an organization
+### Option 1: Add users via invitation after you create an organization
 
 1. After you create an organization, select **Continue.**
 
