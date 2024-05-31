@@ -557,12 +557,12 @@ This report should be created from the primary Workday admin account to avoid an
         1.	Go to filter and add 2 new "And" filters and input following values:
 
         
-           |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
-           |---|---|---|---|---|---|---|---|
-           |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
-           |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
-           |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
-           |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
+          |     And/Or    |     (    |     Field    |     Operator    |     Comparison   type    |     Comparison   value    |     )    |     Indexed    |
+          |---|---|---|---|---|---|---|---|
+          |     And    |          |     Modified Date    |     greater than or   equal to    |     Prompt the user   for the value    |     Starting Prompt    |          |          |
+          |     And    |          |     Modified Date    |     less than or   equal to    |     Prompt the user   for the value    |     Ending Prompt    |          |          |
+          |     And    |          |     Learning   Assignment    |     Is empty    |          |          |          |          |
+          |     And    |          |     Completion   Status    |     In the selection   list    |     Value specified   in the filter    |     Completed    |          |     Yes    |
         
         
     ![Screenshot of the self-enrollment completion filters in Workday](../media/learning/workday-self-enrollment-completion-filters.png)
