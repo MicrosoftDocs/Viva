@@ -273,7 +273,7 @@ You can manage the experience in two ways:
 
 #### Q2. How do I control access to individual features in Viva Insights?
 
-To control access to certain features, Microsoft Global adminstrators can use the Viva feature access management platform. [Learn more](../../org-team-insights/org-insights.md#control-access-to-insights-features).
+To control access to certain features, Microsoft Global administrators can use the Viva feature access management platform. [Learn more](../../org-team-insights/org-insights.md#control-access-to-insights-features).
 
 #### Q3. How can I pilot Viva Insights to a subset of users?
 
