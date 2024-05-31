@@ -84,13 +84,13 @@ Admins can specify the employee population and attributes their leaders can view
        :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
 
 1. Attributes are separated into sections:
-  - Standard
-  - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
-  - Other Reporting Hierarchies (like Location or Department Hierarchy)
+    - Standard
+    - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
+    - Other Reporting Hierarchies (like Location or Department Hierarchy)
 1. Select all attributes and hierarchies that this role should be allowed to view for 
-  - Report filters
-  - Report sections
-  - Comment filters
+    - Report filters
+    - Report sections
+    - Comment filters
 1. Select **Save Changes**.
 
 > [!TIP]
