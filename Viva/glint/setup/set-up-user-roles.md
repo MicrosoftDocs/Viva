@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 05/31/2024
 ---
 
 # Set up Viva Glint User Roles
@@ -39,7 +39,7 @@ You can use the template as a planning tool to define permissions that your User
 
 ## Default User Roles
 
-The following roles are pre-configured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
+The following roles are preconfigured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
 
 - **Company Admin**: Employees who are granted **ALL** permission; can't be edited
   - Advanced Configuration Access
@@ -97,8 +97,8 @@ Select the **Add/Edit Employees** button. The **Choose a way to add employees** 
 
 Add members to a User Role by choosing one of the following options:
 
-- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) like location or department to populate a User Role. This will dynamically change with your employee data uploads.
-- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This removes attribute rules from this User Role.
+- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) based on attributes like location or department to populate a User Role. This dynamically changes User Role membership with employee data uploads.
+- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This addition method removes attribute rules from the User Role.
 
 > [!TIP]
 > Switching from Attribute Rules to Import will remove attribute rules. Switching from Import to Attribute Rules will override any employees uploaded.
@@ -148,21 +148,26 @@ When you need to assign many individuals to a specific User Role, you can mass a
    
 ## View and edit attribute rules for a User Role
 
-This functionality works for roles which already have filters and/or populations applied to them.
+This functionality works for roles that already have filters and/or populations applied to them.
 
 1. From the **User Roles** page, select a role to view or edit.
-2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example: ***Includes: Gender: Female***)
+2. On the **Role Settings** page, the number of members in the role displays, along with the attribute rule applied. (Example: ***Includes: Gender: Female***)
 3. To change, select **Edit Attribute Rules**.
 4. In the new display window, choose from:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
-5. Add new population(s) and filter(s) as desired.
+5. Add new populations and filters as desired.
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
 
 ## Grant custom access
 
-Custom access is intended for users who need to have the default access overridden or are in a role that is so specific, it needs to be per user rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is intended for:  
+
+- Users who need to have default access overridden.
+- Users that are in a role that is so specific, it needs to have data access granted for each user rather than at the User Role level.
+
+For example, use custom access for HR Business Partners (HRBPs) who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
 ### Set up custom survey access for a user
 
@@ -204,14 +209,14 @@ For this manager to have access to the overlapping data between Cost Centres: 10
 
 :::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost centre and department values selected in one populations.":::
 
-This appears on their user profile as one population with values from both attributes:
+This data access appears on their user profile as one population with values from both attributes:
 
-:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one populations.":::
+:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one population.":::
 
 But, to grant this user access to these employee groups separately, so that they don't have access to only the overlap of these populations, add the attribute values selections in separate populations:
 
 :::image type="content" source="../../media/glint/setup/select-two-populations.png" alt-text="Screenshot of dialog with cost centre and department values selected in separate populations.":::
 
-This appears on their user profile as two populations with values from each attribute:
+This data access appears on their user profile as two populations with values from each attribute:
 
 :::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost centre and department values selected in separate populations.":::
