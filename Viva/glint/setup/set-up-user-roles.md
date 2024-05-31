@@ -61,6 +61,7 @@ Admins can specify the employee population and attributes their leaders can view
    :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
 1. Make choices for the following sections based on decisions in your User Role Template:
    1. Survey Programs
+   
       :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
    1. Focus Areas and Conversations
    
@@ -79,7 +80,9 @@ Admins can specify the employee population and attributes their leaders can view
       :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 1. Select **Save Changes**.
 1. On the **Role Settings** page, select **Report Attributes**.
-   :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
+
+       :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
+
 1. Attributes are separated into sections:
   - Standard
   - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
