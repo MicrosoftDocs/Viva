@@ -8,7 +8,7 @@ ms.date: 09/20/2023
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: get-started
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom: intro-get-started

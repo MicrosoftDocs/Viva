@@ -65,6 +65,8 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
+              - name: Cconvert a key to OpenSSH format
+                href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
            - name: Prepare and upload
@@ -75,6 +77,8 @@ items:
              href: setup/hierarchy-fundamentals.md
            - name: Employee Attribute Template
              href: setup/create-employee-attribute-template.md
+           - name: Employee data file checklist
+             href: setup/data-checklist.md          
            - name: Set up attributes 
              href: setup/send-employee-attributes.md
            - name: Update attributes 
@@ -156,8 +160,9 @@ items:
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
   - name: Create survey programs
-    href: setup/customize-program.md
-    items:
+    items: 
+      - name: Set up and customize programs
+        href: setup/customize-program.md
       - name: Plan for monthly releases
         href: setup/monthly-release-dates.md
       - name: Use validated templates
@@ -192,6 +197,8 @@ items:
         items:
           - name: Set up a Microsoft Viva Glint Magnet survey
             href: setup/magnet-rn-excellence.md
+          - name: Set up a Distress Survey
+            href: setup/distress-survey.md
       - name: Set up Engagement surveys
         href: setup/program-summary-overview.md
         items:

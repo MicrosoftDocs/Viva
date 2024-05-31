@@ -6,13 +6,6 @@ items:
     items:
     - name: Microsoft Viva overview
       href: microsoft-viva-overview.md
-    - name: Plan for Microsoft Viva 
-      href: getting-started-with-microsoft-viva.md
-      items:
-      - name: Plan for all Viva apps 
-        href: plan-for-all-viva-modules.md   
-      - name: Discover more about each Viva app    
-        href: discover-more-about-each-viva-module.md 
     - name: Set up Microsoft Viva
       href: setup-microsoft-viva.md
     - name: Microsoft Viva admin roles and tasks
