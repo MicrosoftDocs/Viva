@@ -537,21 +537,21 @@ This report should be created from the primary Workday admin account to avoid an
 
         1. 	Add following values in remaining fields of the start filter:
 
-           |Field | Value|
-           | - | - |
-           | Field | ModifiedDate |
-           | Operator | Greater than or equal to |
-           | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
-           | Comparison Value | Starting Prompt |
+          |Field | Value|
+          | - | - |
+          | Field | ModifiedDate |
+          | Operator | Greater than or equal to |
+          | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
+          | Comparison Value | Starting Prompt |
 
         1. Add another filter and with following values and select **OK**.
 
-           |Field | Value|
-           | - | - |
-           | Field | ModifiedDate |
-           | Operator | Less than or equal to |
-           | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
-           | Comparison Value | Ending Prompt |
+          |Field | Value|
+          | - | - |
+          | Field | ModifiedDate |
+          | Operator | Less than or equal to |
+          | Comparison Type |  Prompt the user for the value and ignore the filter condition if the value is blank |
+          | Comparison Value | Ending Prompt |
         
         f.	Go to filter and add 2 new "And" filters and input following values:
 
