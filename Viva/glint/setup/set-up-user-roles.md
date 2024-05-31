@@ -79,9 +79,10 @@ Admins can specify the employee population and attributes their leaders can view
    
       :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 1. Select **Save Changes**.
+
 1. On the **Role Settings** page, select **Report Attributes**.
 
-      :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
+   :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
 
 1. Attributes are separated into sections:
     - Standard
