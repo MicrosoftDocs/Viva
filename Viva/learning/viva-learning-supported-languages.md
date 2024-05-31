@@ -1,7 +1,7 @@
 ---
-title: "Supported languages in Viva Learning"
+title: Supported languages in Viva Learning
 ms.reviewer:
-ms.date: 02/17/2023
+ms.date: 05/30/2024
 ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
