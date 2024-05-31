@@ -79,7 +79,7 @@ As a Viva Goals administrator, you can use this section to:
 
 **Deactivate or delete an organization**
 
-- You can deactivate an organization in Viva Guals using the steps below. Once you deactivate an organization, members of the org will not be able to access the org or change any of its content.
+- You can deactivate an organization in Viva Goals using the steps below. Once you deactivate an organization, members of the org will not be able to access the org or change any of its content.
 :::image type="content" source="../media/goals/admin-portal/deactivate-option.png" alt-text="Screenshot showing how to deactivate an org." lightbox="../media/goals/admin-portal/deactivate-option.png":::
 :::image type="content" source="../media/goals/admin-portal/deactivation-confirmation-prompt.png" alt-text="Screenshot showing the org deactivation dialog." lightbox="../media/goals/admin-portal/deactivation-confirmation-prompt.png":::
 
