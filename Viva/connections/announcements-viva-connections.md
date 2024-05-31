@@ -52,7 +52,7 @@ Announcements are the best way to communicate targeted, time-sensitive informati
 ### Best practices for using and writing announcements
 
 - Use announcements sparingly so that users understand their importance. Sending them too frequently can cause users to disregard the notifications.
-- Be aware that delivery time increases with the size of the targeted audience. Sending an announcement to a group of 50 users might take just a few minutes but sending one to 100,000 users can take several hours.
+- Delivery time increases with the size of the targeted audience. Sending an announcement to a group of 50 users might take just a few minutes but sending one to 100,000 users can take several hours.
 - Announcements aren’t designed for life-threatening emergencies.
 - Keep messages short with a clear call to action. Plan to link to more information for complex topics.
 - Specify which audiences need to receive the announcement to ensure the highest engagement possible.
@@ -66,17 +66,17 @@ Announcements are viewable to users from mobile experiences through Viva Connect
 >
 > Announcement notifications are currently only supported on mobile experiences. A future update is planned to support announcement notifications on desktop experiences.
 
-- **In Teams**: Users will get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement when the user has enabled it.
+- **In Teams**: Users get a Teams notification displayed on the lock screen of their mobile device alerting them of a new announcement when the user has enabled it.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png" alt-text="Screenshot of a Teams notification displayed on the lock-screen of a mobile device."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-teams-for-mobile.png":::
 
-- **In Viva Connections**: Announcements will display towards the top of the Viva Connections mobile experience.
+- **In Viva Connections**: Announcements display towards the top of the Viva Connections mobile experience.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png" alt-text="Screenshot of an announcement in the Viva Connections mobile app."lightbox="../media/connections/announcements-viva-connections/display-announcement-in-connections-for-mobile.png":::
 
 ### Teams Channel announcements displaying in Viva Connections for frontline workers
 
-Microsoft Teams Channel announcements will also display in the Viva Connections announcements banner on desktop and mobile experiences for Frontline workers only.  Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
+Microsoft Teams Channel announcements also display in the Viva Connections announcements banner on desktop and mobile experiences for Frontline workers only. Frontline managers can communicate important updates from their Teams Channel by using an @mention. Frontline workers can then select the link within the announcement in Connections to be redirected to the Teams Channel where the announcement was made.
 
 A Teams Channel announcement is displayed in the Viva Connections experience only if:
 
@@ -97,7 +97,7 @@ For more information, see [Sending an announcement to a channel in Microsoft Tea
 
 Managers can now send targeted announcements based on an employee’s department, location, and job title to frontline workers on a time-sensitive basis using Regional filtering.
 
-Before Regional filtering can be enabled, Dynamic Teams at Scale (DTAS) and your organizations Hierarchy will need to be set up within the Teams admin center in order for the proper information to be available to filter.
+Before Regional filtering can be enabled, Dynamic Teams at Scale (DTAS) and your organizations Hierarchy needs to be set up within the Teams admin center in order for the proper information to be available to filter.
 
 > [!NOTE]
 >
@@ -106,9 +106,9 @@ Before Regional filtering can be enabled, Dynamic Teams at Scale (DTAS) and your
 
 #### Map frontline attributes in the admin center
 
-There is some preliminary configuration required before regional filtering can be enabled in Connections. First, your organization will need to have set up DTAS within the [Teams admin center](https://admin.teams.microsoft.com/). See the [deployment of frontline dynamic teams at scale](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) for more information and instructions.
+There's some preliminary configuration required before regional filtering can be enabled in Connections. First, your organization needs to have set up DTAS within the [Teams admin center](https://admin.teams.microsoft.com/). For more information about the [deployment of frontline dynamic teams at scale](/microsoft-365/frontline/deploy-dynamic-teams-at-scale) see the linked article.
 
-If DTAS has been set up for your organization, you will need to set up your frontline operational hierarchy through a CSV file uploaded to the Teams admin center; enabling you to map your organization’s structure of frontline teams and locations to a hierarchy. After the hierarchy is in place, you will be able to map your frontline attributes to the Microsoft Entra ID attributes that represent your organization’s departments and job titles. Your final step will be to enable regional filtering in Viva Connections.
+If DTAS has been set up for your organization, you'll need to set up your frontline operational hierarchy through a CSV file uploaded to the Teams admin center; enabling you to map your organization’s structure of frontline teams and locations to a hierarchy. After the hierarchy is in place, you'll be able to map your frontline attributes to the Microsoft Entra ID attributes that represent your organization’s departments and job titles. Your final step is to enable regional filtering in Viva Connections.
 
 ##### To get started creating your CSV hierarchy file
 
@@ -124,11 +124,11 @@ If DTAS has been set up for your organization, you will need to set up your fron
 
 6. Choose **Get Started** and upload your CSV file.
 
-Refer to the article on [deploying your frontline operational hierarchy](/microsoft-365/frontline/deploy-frontline-operational-hierarchy) for more information.
+For more information about [deploying your frontline operational hierarchy](/microsoft-365/frontline/deploy-frontline-operational-hierarchy) see the linked article.
 
 ##### To map frontline attributes
 
-Map your attributes on the Map frontline attributes page of the [deploy frontline dynamic teams](/microsoft-365/frontline/deploy-dynamic-teams-at-scale?view=o365-worldwide) experience. Select the Microsoft Entra attribute for **Department** and **Job title** that best represents the departments and job titles in your organization. You can map one or both attributes. Refer to the article on [setting up for targeted communications for your frontline](/microsoft-365/frontline/set-up-targeted-communications) for more information.
+Map your attributes on the Map frontline attributes page of the [deploy frontline dynamic teams](/microsoft-365/frontline/deploy-dynamic-teams-at-scale?view=o365-worldwide) experience. Select the Microsoft Entra attribute for **Department** and **Job title** that best represents the departments and job titles in your organization. You can map one or both attributes. For more information on [setting up for targeted communications for your frontline](/microsoft-365/frontline/set-up-targeted-communications) see the linked article.
 
 ##### Enable Regional filtering
 
@@ -154,7 +154,7 @@ To enable from a SharePoint home site:
 
 #### Filter announcement by Frontline worker properties
 
-After location, department, and role values have been set up in Microsoft Teams, and regional filtering has been enabled in Viva Connections, owners and members will see options to filter their announcement based on the new set of frontline worker properties created in Microsoft Teams.
+After location, department, and role values have been set up in Microsoft Teams, and regional filtering is enabled in Viva Connections, owners and members will see options to filter their announcement based on the new set of frontline worker properties created in Microsoft Teams.
 
 To create an announcement filtered by frontline worker properties, follow the steps for [drafting your announcement](/viva/connections/announcements-viva-connections#drafting-your-announcement) up to selecting your audience:
 
@@ -162,21 +162,21 @@ To create an announcement filtered by frontline worker properties, follow the st
 
 2. Select from three properties to enable announcement filtering based on the following variables:
 
-- **Location**: enter a location in the text field to filter down based on available choices or select the drop down arrows to choose multiple locations from a list of available options. Up to 10 locations can be selected.
+- **Location**: enter a location in the text field to filter down based on available choices or select the drop-down arrows to choose multiple locations from a list of available options. Up to 10 locations can be selected.
 
-- **Department**: enter a department in the text field to filter down based on available choices or select the drop down arrows to choose multiple departments from a list of available options.
+- **Department**: enter a department in the text field to filter down based on available choices or select the drop-down arrows to choose multiple departments from a list of available options.
 
-- **Job title**: enter a job title in the text field to filter down based on available choices, or select the drop down arrows to choose multiple job titles from a list of available options.
+- **Job title**: enter a job title in the text field to filter down based on available choices, or select the drop-down arrows to choose multiple job titles from a list of available options.
 
    :::image type="content" source="../media/connections/create-dashboard/target-announcement-properties.png" alt-text="Screenshot of the Viva Pulse properties." lightbox="../media/connections/create-dashboard/target-announcement-properties.png":::
 
-3. Continue creating your announcement until you are ready to send.
+3. Continue creating your announcement until you're ready to send.
 
 ## Accessing the announcements page
 
 Experience owners are able to create announcements through the Viva Connections desktop experience or from their SharePoint home site using the announcements page. To access the announcement page:
 
-- **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of Viva Connections then select **Announcements**.The announcements page will open where users can select **+ New announcement** to begin drafting an announcement.
+- **In Viva Connections**: Experience owners can select the **ellipsis** in the upper-right of Viva Connections then select **Announcements**.The announcements page opens where users can select **+ New announcement** to begin drafting an announcement.
 
 :::image type="content" source="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png" alt-text="Screenshot showing a dropdown menu with announcements highlighted."lightbox="../media/connections/announcements-viva-connections/viva-connections-create-announcement.png":::
 
@@ -196,13 +196,17 @@ Experience owners are able to create announcements through the Viva Connections 
 After [choosing to create a new announcement](#accessing-the-announcements-page) either from your Viva Connections experience or from the SharePoint home site, you'll be presented with the following fields for drafting your announcement.
 
 1. Add a title and message.
+
 2. Select up to 10 audiences to distribute the announcement to. Audiences can be Microsoft Entra groups, Microsoft 365 Groups, or Microsoft Entra dynamic groups.
+
 3. Select an end date and time for when the announcement should no longer appear (up to two weeks from the original posting date).
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-details.png" alt-text="Screenshot of the announcement details pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-details.png":::
 
 4. To add a link to more information, add a URL and label for the link under **More options**.
+
 5. To allow users to dismiss the announcement after viewing, toggle the **Allow users to dismiss** setting on under **More options**.
+
 6. Select **Next** to review the details of your announcement.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/create-announcement-more-options.png" alt-text="Screenshot of additional options available in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/create-announcement-more-options.png":::
@@ -217,6 +221,7 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
 ## How to schedule an announcement to send later
 
 1. Follow the steps to [access the announcement page](#accessing-the-announcements-page) and to [drafting your announcement](#drafting-your-announcement).
+
 2. Toggle on the **Schedule to send later** option and enter a date and time:
 
 > [!NOTE]
@@ -227,6 +232,7 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
    :::image type="content" source="../media/connections/announcements-viva-connections/announcement-send-later.png" alt-text="Screenshot of the Schedule to send later fields in the announcement detail pane."lightbox="../media/connections/announcements-viva-connections/announcement-send-later.png":::
 
 3. Select **Next** to review the details of your announcement.
+
 4. If the announcement is ready to be scheduled, select **Schedule announcement** and the announcement will be sent at the scheduled time.
 
    :::image type="content" source="../media/connections/announcements-viva-connections/schedule-announcement.png" alt-text="Screenshot of the announcement review pane after scheduling an announcement."lightbox="../media/connections/announcements-viva-connections/schedule-announcement.png":::
@@ -236,7 +242,9 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
 ## Save an announcement as a draft
 
 1. Follow the steps to [access the announcement page](#accessing-the-announcements-page) and to [drafting your announcement](#drafting-your-announcement).
+
 2. After writing the title and message, choose the **Save as draft** button.
+
 3. You can come back and edit the announcement later from the announcements page.
 
 ## Manage announcements from the announcements page
@@ -260,13 +268,15 @@ Choose **+ New announcement** and follow the steps to [draft your announcement](
    :::image type="content" source="../media/connections/announcements-viva-connections/edit-announcement.png" alt-text="Screenshot of the edit announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/edit-announcement.png":::
 
 2. Make any desired changes in the **Announcement details** pane.
+
 3. Choose to send or schedule drafted announcements.
 
 ### Delete an announcement
 
 1. From your **Announcements** page, select the delete (trash can) icon for the announcement that you want to delete. Deleted announcements can’t be recovered.
 
-   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the delete announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/delete-announcement.png":::
+   :::image type="content" source="../media/connections/announcements-viva-connections/delete-announcement.png" alt-text="Screenshot of the deleted announcement icon highlighted."lightbox="../media/connections/announcements-viva-connections/delete-announcement.png":::
 
 2. When prompted, choose **Yes, delete**.
+
 3. If the announcement was active, users won't be able to view it, but it might still be accessible through a Teams notification.
