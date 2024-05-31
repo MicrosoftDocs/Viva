@@ -441,13 +441,13 @@ This report should be created from the primary Workday admin account to avoid an
     1. In next screen, write "Field name" as ModifiedDate and select "Function" as Build Date. Select **OK**.
     1. In next screen, add following values under Date Fields and select **OK**.
 
-    | Field | Value |
-    | - | - | 
-    | Extract Year from Date Field | Last Functionally Updated |
-    | Extract Month from Date Field | Last Functionally Updated |
-    | Extract Day from Date Field | Last Functionally Updated |
+     | Field | Value |
+     | - | - | 
+     | Extract Year from Date Field | Last Functionally Updated |
+     | Extract Month from Date Field | Last Functionally Updated |
+     | Extract Day from Date Field | Last Functionally Updated |
 
-    d. Add following values in remaining fields of the start filter:
+    1. Add following values in remaining fields of the start filter:
 
      | Field | Value |
      | - | - |
@@ -456,7 +456,7 @@ This report should be created from the primary Workday admin account to avoid an
      | Comparison Type | Prompt the user for the value and ignore the filter condition if the value is blank |
      | Comparison Value | Starting Prompt | 
 
-    e. Add another filter and with following values and select “OK”.
+    1. Add another filter and with following values and select “OK”.
 
      | Field | Value |
      | - | - | 
@@ -467,7 +467,7 @@ This report should be created from the primary Workday admin account to avoid an
    
      ![Screenshot of the filter on instances for the self-enrollment completion fields.](../media/learning/workday-assignment-raas-10.png)
 
-    **Modify the Prompts**
+    **Modify the prompts**
 
     1. Go to **Prompts**. 
         1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for Modified date, which is defined in the previous step.
@@ -569,11 +569,12 @@ This report should be created from the primary Workday admin account to avoid an
 
 ### Modify the prompts
 
-1. Go to **Prompts**
+1. Go to **Prompts**.
+
     1. Select **Populate Undefined Prompt Defaults**. This selection adds the start and ending prompt for the Modified date, which is defined in previous step.
     
 
-    ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
+      ![Screenshot of the Workday self enrollment completion prompts.](../media/learning/workday-self-enrollment-completion-prompts.png)
 
     2. Add following values in the new prompts and select “OK”.
     - For Starting Prompt, add value StartDate in fields Label for Prompt and Label for Prompt XML Alias
@@ -677,7 +678,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 1. Sign in to your Viva Learning app
 2. Navigate to Admin tab, then select Manage providers from left navigation menu. 
 
-![Screenshot of the Manage Providers tab in Viva Learning.](/viva/media/learning/wd-s4-1.png)
+   ![Screenshot of the Manage Providers tab in Viva Learning.](/viva/media/learning/wd-s4-1.png)
 
 3. Select **Add provider** and select **Workday**. Select **Next**.
 
@@ -691,7 +692,7 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 
     d.	Org ID (only If you want to enable the LRS). Manual full sync triggering is required for codev post adding/deleting any org ID. Full sync can be triggered from Manage providers.
 
-   ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
+      ![Screenshot of the Configure Workday window with the fields for name and client info.](/viva/media/learning/wd-s4-3.png)
 
 5. Select **Save** to activate Workday content in Viva Learning. It may take up to 24 hours for the content to display in the Viva Learning app.
 
