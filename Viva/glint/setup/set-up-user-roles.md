@@ -59,31 +59,33 @@ Admins can specify the employee population and attributes their leaders can view
    :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
 6. Select **Permissions** and the **Permissions and Access** page opens.
    :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
-7. Make choices for the following sections based on decisions in your User Role Template:
+1. Make choices for the following sections based on decisions in your User Role Template:
    1. Survey Programs
-          :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
+   
+      :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
    1. Focus Areas and Conversations
-          :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
+   
+      :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
    1. Reporting
-          :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
+      :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
    1. Data Management
-          :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
+      :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
    1. Resources
-          :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
+      :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
    1. Access Permissions
-          :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
-8. Select **Save Changes**.
-9. On the **Role Settings** page, select **Report Attributes**.
+      :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
+1. Select **Save Changes**.
+1. On the **Role Settings** page, select **Report Attributes**.
    :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
-10. Attributes are separated into sections:
+1. Attributes are separated into sections:
   - Standard
   - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
   - Other Reporting Hierarchies (like Location or Department Hierarchy)
-11. Select all attributes and hierarchies that this role should be allowed to view for 
+1. Select all attributes and hierarchies that this role should be allowed to view for 
   - Report filters
   - Report sections
   - Comment filters
-12. Select **Save Changes**.
+1. Select **Save Changes**.
 
 > [!TIP]
 > Since filtering through results across too many attributes can make identifying survey respondents within reports easier, it's best to give access to only one attribute per manager role. 
