@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 02/05/2024
+ms.date: 05/16/2024
 title: Uncover network collaboration insights
 description: Introduction to large-scale collaboration analysis with the organizational network analysis or ONA query tool.
 author: zachminers
@@ -16,9 +15,6 @@ audience: Admin
 ---
 
 # Uncover network collaboration insights
-
->[!IMPORTANT]
-> This feature is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
 
 Cross-collaboration queries in Viva Insights help you learn about how parts of your organization collaborate with others. With [person-to-person](./cross-collaboration-p2p.md) or [group-to-group](./cross-collaboration-g2g.md) queries, for instance, you can see how pairs of individuals or groups interact.
 

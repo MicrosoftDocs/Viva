@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 05/20/2024
 ---
 
 # Prepare and upload your employee data to Viva Glint
@@ -29,10 +29,10 @@ Learn what we collect, why, how you deliver it to us, and how we use it to deliv
 
 - [Creating your Employee Attribute Template](https://go.microsoft.com/fwlink/?linkid=2230862)
 
+- [Review employee data with Viva Glint checklists](data-checklist.md)
+
 - [Set up your attributes](https://go.microsoft.com/fwlink/?linkid=2247991)
 
-- [Understand Viva Glint SFTP and data automation](https://go.microsoft.com/fwlink/?linkid=2247429)
-
-- [Upload your attributes to Viva Glint](https://go.microsoft.com/fwlink/?linkid=2230742)
+- [Choose a data upload method](choose-upload-method.md)
 
 - [Understand upload errors and warnings](https://go.microsoft.com/fwlink/?linkid=2230863)
