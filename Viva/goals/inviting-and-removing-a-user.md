@@ -72,7 +72,8 @@ To add members to your team, follow these steps:
 1. Go to the **Team OKR** page.
 
 1. Select the **Team members** option from the dropdown in the top right.
-:::image type="content" source="../media/goals/2/23/3-team-add-members.png" alt-text="Screenshot showing the dropdown expanded to include the Team members option." lightbox="../media/goals/2/23/3-team-add-members.png":::
+
+   :::image type="content" source="../media/goals/2/23/3-team-add-members.png" alt-text="Screenshot showing the dropdown expanded to include the Team members option." lightbox="../media/goals/2/23/3-team-add-members.png":::
 
 1. Select the **Add Members** button.
 
@@ -89,7 +90,8 @@ To assign team owner permissions to a team member, follow these steps:
 Navigate to the **Team Members** tab. Search for the member in the search field. The search tool returns results directly from Microsoft Entra ID. Next to the member you want to assign as the owner, select on the more options dropdown.
 
 - If the member has already been added to the team as part of a group or individually, the dropdown provides the option to make a user the owner. Selecting this option assigns this member as the team owner.
-:::image type="content" source="../media/goals/2/23/4-add-team-members.png" alt-text="Screenshot showing how to select different user roles." lightbox="../media/goals/2/23/4-add-team-members.png":::
+
+  :::image type="content" source="../media/goals/2/23/4-add-team-members.png" alt-text="Screenshot showing how to select different user roles." lightbox="../media/goals/2/23/4-add-team-members.png":::
 
 - If the member hasn't been added to the team yet, the more options button provides the option to **Add to team**. After adding the member, repeat the above process to assign this member as the team owner.
 
