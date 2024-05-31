@@ -29,7 +29,7 @@ Magnet©️ status is a prestigious honor which certifies that the RNs at a hosp
 
 ## Build the survey 
 
-Choose a **blank recurring** survey template and customize it to create the RN Excellence/Magnet®️ survey. Search for the core survey items in the table below in our Question Library. 
+Choose a **blank recurring** survey template and customize it to create the RN Excellence/Magnet®️ survey. Search our Question Library for the core survey items in this table: 
 
 ### RN Excellence survey items
 
