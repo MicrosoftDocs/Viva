@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/19/2024
+ms.date: 05/31/2024
 ---
 
 # Set up Viva Glint User Roles
@@ -39,7 +39,7 @@ You can use the template as a planning tool to define permissions that your User
 
 ## Default User Roles
 
-The following roles are pre-configured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
+The following roles are preconfigured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
 
 - **Company Admin**: Employees who are granted **ALL** permission; can't be edited
   - Advanced Configuration Access
@@ -97,8 +97,8 @@ Select the **Add/Edit Employees** button. The **Choose a way to add employees** 
 
 Add members to a User Role by choosing one of the following options:
 
-- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) like location or department to populate a User Role. This will dynamically change with your employee data uploads.
-- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This removes attribute rules from this User Role.
+- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) based on attributes like location or department to populate a User Role. This dynamically changes User Role membership with employee data uploads.
+- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This addition method removes attribute rules from the User Role.
 
 > [!TIP]
 > Switching from Attribute Rules to Import will remove attribute rules. Switching from Import to Attribute Rules will override any employees uploaded.
@@ -127,19 +127,18 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 :::image type="content" source="../../media/glint/setup/user-roles-import-dialog-box.png" alt-text="Screenshot of the Import Employees to Role dialog box in Role Settings.":::
 
-1. Select the **Configure** symbol.
-2. In the **Employees** section, select **User Roles**. Select the User Role you need to update.
-3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
-4. Open the downloaded .csv file and delete all columns except the column with email addresses.
-5. Add or delete email addresses.
-     > [!NOTE]
-     > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
-6. Save your file.
-7. Return to the **Role Settings** page and select **Import**.
-8. Select the checkbox to indicate if you only added users.
-9. Drag and drop your file, or browse to select your file, into the area indicated.
-10. Select **Import File**.
-11. Confirm your import and then select **Confirm Import**.
+1. From the admin dashboard, select the **Configuration** symbol.
+2. In the **Employees** section, select **User Roles** and select the User Role you need to update.
+3. Select **Add/Edit Employees** and choose **Import** in the **Choose a way to add employees** dialog.  
+4. In the **Import employees to role** dialog, select **Download CSV** in the **Download your current employee list to modify** section. 
+5. Use the downloaded file as a template and add employee email addresses in the email column. Include the header row, which is labeled differently when there are or aren't users in the role. Both column labels import successfully:
+   1. The header row label in the template file is **email** when there are already users in the **User Role**.
+   2. The header row label in the template file is **Employee Email** when there are no users in the **User Role**.
+6. After adding all email address values, save the file as .csv or .xlsx.
+7. In the **Import employees to role** dialog, drag and drop or browse to choose the file (maximum size 550 MB, maximum row count 10,000).
+8. To keep any existing users in the role, select **Preserve the employees already in this role**.
+9. Select **Import File**.
+10. The **Confirm your import** window displays. If the correct number of employees to be added and removed are correct, select **Confirm import**.
 
 ## Remove a user from a User Role
 
@@ -149,21 +148,26 @@ When you need to assign many individuals to a specific User Role, you can mass a
    
 ## View and edit attribute rules for a User Role
 
-This functionality works for roles which already have filters and/or populations applied to them.
+This functionality works for roles that already have filters and/or populations applied to them.
 
 1. From the **User Roles** page, select a role to view or edit.
-2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example: ***Includes: Gender: Female***)
+2. On the **Role Settings** page, the number of members in the role displays, along with the attribute rule applied. (Example: ***Includes: Gender: Female***)
 3. To change, select **Edit Attribute Rules**.
 4. In the new display window, choose from:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
-5. Add new population(s) and filter(s) as desired.
+5. Add new populations and filters as desired.
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
 
 ## Grant custom access
 
-Custom access is intended for users who need to have the default access overridden or are in a role that is so specific, it needs to be per user rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is intended for:  
+
+- Users who need to have default access overridden.
+- Users that are in a role that is so specific, it needs to have data access granted for each user rather than at the User Role level.
+
+For example, use custom access for HR Business Partners (HRBPs) who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
 ### Set up custom survey access for a user
 
@@ -205,14 +209,14 @@ For this manager to have access to the overlapping data between Cost Centres: 10
 
 :::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost centre and department values selected in one populations.":::
 
-This appears on their user profile as one population with values from both attributes:
+This data access appears on their user profile as one population with values from both attributes:
 
-:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one populations.":::
+:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one population.":::
 
 But, to grant this user access to these employee groups separately, so that they don't have access to only the overlap of these populations, add the attribute values selections in separate populations:
 
 :::image type="content" source="../../media/glint/setup/select-two-populations.png" alt-text="Screenshot of dialog with cost centre and department values selected in separate populations.":::
 
-This appears on their user profile as two populations with values from each attribute:
+This data access appears on their user profile as two populations with values from each attribute:
 
 :::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost centre and department values selected in separate populations.":::
