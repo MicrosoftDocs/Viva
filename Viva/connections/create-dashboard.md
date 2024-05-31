@@ -180,7 +180,7 @@ The card designer has a set of card view templates that can be used to easily cr
 
    > [!NOTE]
    >
-   > When uploading custom images for your icons, it is recommended to use PNG images between 24x24 and 32x32 pixels.
+   > When uploading custom images for your icons, we recommend using PNG images between 24x24 and 32x32 pixels.
 
 8. Enter a **Title** to be displayed at the top of your card.
 
@@ -194,32 +194,32 @@ The card designer has a set of card view templates that can be used to easily cr
 
 11. Under card action, select an action to be performed when a user selects the card. Depending on the action selected, more fields will appear to customize the action.
 
-> [!NOTE]
->
-> The card action cannot be disabled.
+    > [!NOTE]
+    >
+    > The card action cannot be disabled.
 
-   - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
+    - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
 
-> [!NOTE]
->
-> One quick view is available for each card, which can be opened as the card action, or by using a button.
+      > [!NOTE]
+      >
+      > One quick view is available for each card, which can be opened as the card action, or by using a button.
 
-   - **Go to a link**: Enter a URL that users will be directed to.
-   - **Go to teams app**: the user will be directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app. See the article on how to [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id) for more information).
+    - **Go to a link**: Enter a URL that users will be directed to.
+    - **Go to teams app**: the user will be directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app. See the article on how to [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id) for more information).
 
-   For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
+    For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
 
 12. Under **Link**, enter the **URL** you wish users to be directed to.
 
 13. Buttons can be toggled on and off (where available). If enabled, the same values found under card action can be selected for the **Primary** and **Secondary** buttons.
 
-   > [!NOTE]
-   >
-   > When using a medium sized card, only one button can be enabled using the heading or description template. The image template will disable the use of buttons when medium size is selected.
+    > [!NOTE]
+    >
+    > When using a medium sized card, only one button can be enabled using the heading or description template. The image template will disable the use of buttons when medium size is selected.
 
-   For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
+    For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
 
-   :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane.":::
+    :::image type="content" source="../media/connections/create-dashboard/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane.":::
 
 14. Under **Audiences to target** enter one or more groups to target so only those audiences specified see the card in the dashboard. See the article on [audience targeting in Viva Connections](/viva/connections/use-audience-targeting-in-viva-connections) for more information.
 
