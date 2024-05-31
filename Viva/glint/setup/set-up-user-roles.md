@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/31/2024
+ms.date: 04/19/2024
 ---
 
 # Set up Viva Glint User Roles
@@ -39,17 +39,14 @@ You can use the template as a planning tool to define permissions that your User
 
 ## Default User Roles
 
-The following roles are preconfigured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
+The following roles are pre-configured in Viva Glint and can't be edited. Create a new User Role to edit attributes and permissions.
 
 - **Company Admin**: Employees who are granted **ALL** permission; can't be edited
   - Advanced Configuration Access
 - **Active Employees**: Not intended to have data access
 - **Inactive Employees**: Not intended to have data access
 - **Managers**: Doesn't allow edits, create a new role to change permissions and attributes
-- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited
-
->[!NOTE]
-> Edits to default **User Role Report Attributes** are planned to be available after June 1, 2024.
+- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited 
 
 ## Create User Roles
 
@@ -60,22 +57,25 @@ Admins can specify the employee population and attributes their leaders can view
 3. Select **+New Role**. A new **Role Settings** page appears.
 5. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
    :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
-6. Select **Permissions** and the **Permissions and Access** page opens.
+7. Select **Permissions** and the **Permissions and Access** page opens.
    :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
 1. Make choices for the following sections based on decisions in your User Role Template:
    1. Survey Programs
-   
       :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
    1. Focus Areas and Conversations
    
       :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
    1. Reporting
+   
       :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
    1. Data Management
+   
       :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
    1. Resources
+   
       :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
    1. Access Permissions
+   
       :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
 1. Select **Save Changes**.
 1. On the **Role Settings** page, select **Report Attributes**.
@@ -99,8 +99,8 @@ Select the **Add/Edit Employees** button. The **Choose a way to add employees** 
 
 Add members to a User Role by choosing one of the following options:
 
-- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) based on attributes like location or department to populate a User Role. This dynamically changes User Role membership with employee data uploads.
-- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This addition method removes attribute rules from the User Role.
+- Attribute Rules - [Use rules](#create-an-attribute-rule-based-user-role) like location or department to populate a User Role. This will dynamically change with your employee data uploads.
+- Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This removes attribute rules from this User Role.
 
 > [!TIP]
 > Switching from Attribute Rules to Import will remove attribute rules. Switching from Import to Attribute Rules will override any employees uploaded.
@@ -129,18 +129,19 @@ When you need to assign many individuals to a specific User Role, you can mass a
 
 :::image type="content" source="../../media/glint/setup/user-roles-import-dialog-box.png" alt-text="Screenshot of the Import Employees to Role dialog box in Role Settings.":::
 
-1. From the admin dashboard, select the **Configuration** symbol.
-2. In the **Employees** section, select **User Roles** and select the User Role you need to update.
-3. Select **Add/Edit Employees** and choose **Import** in the **Choose a way to add employees** dialog.  
-4. In the **Import employees to role** dialog, select **Download CSV** in the **Download your current employee list to modify** section. 
-5. Use the downloaded file as a template and add employee email addresses in the email column. Include the header row, which is labeled differently when there are or aren't users in the role. Both column labels import successfully:
-   1. The header row label in the template file is **email** when there are already users in the **User Role**.
-   2. The header row label in the template file is **Employee Email** when there are no users in the **User Role**.
-6. After adding all email address values, save the file as .csv or .xlsx.
-7. In the **Import employees to role** dialog, drag and drop or browse to choose the file (maximum size 550 MB, maximum row count 10,000).
-8. To keep any existing users in the role, select **Preserve the employees already in this role**.
-9. Select **Import File**.
-10. The **Confirm your import** window displays. If the correct number of employees to be added and removed are correct, select **Confirm import**.
+1. Select the **Configure** symbol.
+2. In the **Employees** section, select **User Roles**. Select the User Role you need to update.
+3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
+4. Open the downloaded .csv file and delete all columns except the column with email addresses.
+5. Add or delete email addresses.
+     > [!NOTE]
+     > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
+6. Save your file.
+7. Return to the **Role Settings** page and select **Import**.
+8. Select the checkbox to indicate if you only added users.
+9. Drag and drop your file, or browse to select your file, into the area indicated.
+10. Select **Import File**.
+11. Confirm your import and then select **Confirm Import**.
 
 ## Remove a user from a User Role
 
@@ -150,26 +151,21 @@ When you need to assign many individuals to a specific User Role, you can mass a
    
 ## View and edit attribute rules for a User Role
 
-This functionality works for roles that already have filters and/or populations applied to them.
+This functionality works for roles which already have filters and/or populations applied to them.
 
 1. From the **User Roles** page, select a role to view or edit.
-2. On the **Role Settings** page, the number of members in the role displays, along with the attribute rule applied. (Example: ***Includes: Gender: Female***)
+2. On the **Role Settings** page, the number of members of this group will display and the attribute rule applied. (Example: ***Includes: Gender: Female***)
 3. To change, select **Edit Attribute Rules**.
 4. In the new display window, choose from:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
-5. Add new populations and filters as desired.
+5. Add new population(s) and filter(s) as desired.
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
 
 ## Grant custom access
 
-Custom access is intended for:  
-
-- Users who need to have default access overridden.
-- Users that are in a role that is so specific, it needs to have data access granted for each user rather than at the User Role level.
-
-For example, use custom access for HR Business Partners (HRBPs) who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
+Custom access is intended for users who need to have the default access overridden or are in a role that is so specific, it needs to be per user rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
 ### Set up custom survey access for a user
 
@@ -211,14 +207,14 @@ For this manager to have access to the overlapping data between Cost Centres: 10
 
 :::image type="content" source="../../media/glint/setup/select-one-population.png" alt-text="Screenshot of dialog with cost centre and department values selected in one populations.":::
 
-This data access appears on their user profile as one population with values from both attributes:
+This appears on their user profile as one population with values from both attributes:
 
-:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one population.":::
+:::image type="content" source="../../media/glint/setup/user-access-one-population.png" alt-text="Screenshot of user access with cost centre and department values selected in one populations.":::
 
 But, to grant this user access to these employee groups separately, so that they don't have access to only the overlap of these populations, add the attribute values selections in separate populations:
 
 :::image type="content" source="../../media/glint/setup/select-two-populations.png" alt-text="Screenshot of dialog with cost centre and department values selected in separate populations.":::
 
-This data access appears on their user profile as two populations with values from each attribute:
+This appears on their user profile as two populations with values from each attribute:
 
 :::image type="content" source="../../media/glint/setup/user-access-two-populations.png" alt-text="Screenshot of user access with cost centre and department values selected in separate populations.":::
