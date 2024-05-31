@@ -1,6 +1,6 @@
 ---
 title: Create a Viva Glint productivity survey
-description: The Viva People Science team identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. Survey employees to improve productivity.
+description: The Viva People Science team identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. Use these survey items to improve productivity.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -19,17 +19,18 @@ ms.date: 05/31/2024
 
 # Create a Viva Glint productivity survey
 
-The Viva People Science team took a human-centric approach to defining and operationalizing employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. The outcome of this research produced a clear marker:
+The Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. The outcome of this research produced a clear marker:
 
 ## Engagement and productivity are related, but distinct 
 
-Engagement survey items shouldn't be used for measuring productivity. Different employee experiences impact feeling *engaged* versus feeling *productive*. Both are needed to drive high-performance. Beyond a focus on engagement alone, focusing on employee productivity experiences can help drive higher levels of productivity and achieve better businesses outcomes. 
+Engagement survey items shouldn't be used for measuring productivity. Different employee experiences impact feeling **engaged** versus feeling **productive**. Both are needed to drive high-performance, but beyond a focus on engagement alone, employee productivity experiences help drive higher levels of productivity and achieve better businesses outcomes. 
 
 ## Productivity as an Outcome
 
-Glint always proposes using the items *eSat* and *Recommend* as engagement outcome measures in surveys. With our most recent research into productivity as an outcome, we’ve validated two new productivity outcomes to consider adding to your listening strategy: **Individual Productivity** and **Team Productivity**. 
+Glint always proposes using the items *eSat* and *Recommend* as engagement outcome measures in surveys. Now, with recent research into productivity as an outcome, consider adding two validated productivity outcomes to your listening strategy: **Individual Productivity** and **Team Productivity**. 
 
 To capture the full picture of productivity, use these survey items to create a Productivity Index:
+
 - I feel like I am productive at work.
 - I feel like my team is productive at work. 
 
@@ -42,19 +43,19 @@ Consider the productivity level (team and/or individual) you wish to improve, an
 
 
 > [!div class="nextstepaction"]
-> [Learn more: Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713))
+> [Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713))
 
 
 ## Set up a productivity survey
 
-Craig - should we suggest here to start with a blank, recurring survey template or 
+???? Craig - should we suggest here to start with a blank, recurring survey template or 
 
-- **Engagement Survey** – Continue with your existing engagement survey schedule but update it t to receive feedback which helps shape your internal response.
+- **Engagement Survey** – Continue with an existing engagement survey but update it t to receive feedback to focus on productivity.
 
 
 ## Viva Glint suggested productivity survey items
 
-CRAIG PLEASE ADD
+???? CRAIG...should they use eSAT, Recommend, and then the following items? Goal here is to suggest the easiest method to achieve productivity analyses.
 
 
 |Item Name|	Item Text|
