@@ -96,12 +96,17 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 1. Under **Assignments**, select **Users or workload identities.**
     1. Under **Include**, select **All users**.
     1. Under **Exclude**, select **Users and groups** and choose your organization's emergency access or break-glass accounts.
-    :::image type="content" source="../media/goals/assign-licenses/assign-license-02.png" alt-text="Screenshot of assignment settings with include and exclude information." lightbox="../media/goals/assign-licenses/assign-license-02.png":::
+
+       :::image type="content" source="../media/goals/assign-licenses/assign-license-02.png" alt-text="Screenshot of assignment settings with include and exclude information." lightbox="../media/goals/assign-licenses/assign-license-02.png":::
+
     1. Select **Done**.
+
 1. Under **Target Resources or Cloud apps or actions**, select the following options:
     1. Select what this policy applies to: **Cloud apps**.
     1. Include all apps. Exclude select apps and choose the Viva Goals app.
-    :::image type="content" source="../media/goals/assign-licenses/assign-license-03.png" alt-text="Screenshot of target resource settings with included and excluded apps." lightbox="../media/goals/assign-licenses/assign-license-03.png":::
+
+       :::image type="content" source="../media/goals/assign-licenses/assign-license-03.png" alt-text="Screenshot of target resource settings with included and excluded apps." lightbox="../media/goals/assign-licenses/assign-license-03.png":::
+
     1. Select **Edit filter**.
     1. Set **Configure** to **Yes**.
     1. Select the **Attribute** we created earlier called *vivagoalsca*.
@@ -219,6 +224,7 @@ As a Global or Viva Goals administrator, you can create Viva Goals Organizations
 1. Choose who can join the organization from the [organization's admin page](company-wide-organization.md):
     1. **Anyone in tenant:** Choose this option if there are no restrictions who in the tenant can join the organization and view or manage OKRs and initiatives.
     1. **Restricted:** Choose this option if you want to require users to be manually added to organizations before they can start viewing or managing OKRs and initiatives.
+
 1. Invite relevant licensed users who will be required to set up this organization and their OKRs. Viva Goals support adding individual members and user groups to the Organization. Learn more about [inviting users](inviting-and-removing-a-user.md).
 
 ### Assign more organization owners
@@ -310,14 +316,18 @@ Owners of a team can restrict the OKR and initiative creation permission by foll
 1. Navigate to the Team and select on the button with three dots (…) on the top right corner. Choose **Team Settings**
 2. Under the heading **Who can create OKRs or Initiatives for this team?** Choose one of the following:
     1. **Anyone in <Organization_name>:** This option is the default permission for a Viva Goals Team. This allows any valid user of the Viva Goals organization to create OKRs or initiatives within the team.
-      > [!NOTE]
-      > Users need not be a member of the team to create OKRs or initiatives
-    1. **Only team owner:** This option restricts the OKR or initiatives creation permission only to the owners of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
+
+       > [!NOTE]
+       > Users need not be a member of the team to create OKRs or initiatives
+ 
+   1. **Only team owner:** This option restricts the OKR or initiatives creation permission only to the owners of the team. Any other user of the organization or team can't create OKRs or initiatives if this option is selected.
     1. Specific people:
         1. All members of this team:
             1. Along with team owner, all members of the team can create OKRs or initiatives.
-            > [!NOTE]
-            > Users should be part of the team to let them create OKR or initiative. Know more on how to add users to a team.
+
+              > [!NOTE]
+              > Users should be part of the team to let them create OKR or initiative. Know more on how to add users to a team.
+
         1. Custom:
             1. Along with team owners, select individuals to assign permission to create OKRs or initiatives.
             1. Start typing the names of the users in the Add people text box and select the user from the list populated (the system would prompt if the user need to be invited to the organization if the entered user isn't found already).
