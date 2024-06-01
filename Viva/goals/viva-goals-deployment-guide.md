@@ -132,7 +132,7 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 1. Under **Attribute name**, select *vivagoalsca* and select **Done**.
 1. Select **Save**.
 
-:::image type="content" source="../media/goals/assign-licenses/assign-license-04.png" alt-text="Screenshot of adding new attributes to the custome security attributes page." lightbox="../media/goals/assign-licenses/assign-license-04.png":::
+:::image type="content" source="../media/goals/assign-licenses/assign-license-04.png" alt-text="Screenshot of adding new attributes to the custom security attributes page." lightbox="../media/goals/assign-licenses/assign-license-04.png":::
 
 ## Assign Viva Goals administrator (optional)
 
@@ -239,7 +239,7 @@ As a Global or Viva Goals administrator, you can create Viva Goals Organizations
 
 ### Configure the type of org (Restricted/Public)
 
-As an organization owner,you can configure your Viva Goals organization from the [admin dashboard](navigate-admin-dashboard.md).
+As an organization owner, you can configure your Viva Goals organization from the [admin dashboard](navigate-admin-dashboard.md).
 
 You can manage the properties of an organization from the Admin page. Select **Admin** on the left navigation bar to view and manage organization-level settings.
 
