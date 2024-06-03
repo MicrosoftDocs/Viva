@@ -27,6 +27,8 @@ Before analysts can get to work, they’ll need to be assigned the **Insights An
 * To use analyst features, an employee needs only to have the **Insights Analyst** role assigned. They don’t need to have been assigned a Viva Insights license.
 * The predefined templates available in the Analysis page require the use of the Power BI Desktop, December 2022 version or newer. You don’t need a license for Power BI Desktop; you can download it for free by going to [Getting started with Power BI](https://powerbi.microsoft.com/getting-started-with-power-bi/). If you have an earlier version of Power BI desktop installed, uninstall it before reinstalling the new version.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYT]
+
 ## Power BI reports
 
 On the **Analysis** page in Viva Insights, you'll find templates for the following Power BI reports. Select the links below to learn more about each template and to view an interactive demo.
