@@ -23,9 +23,8 @@ As your company’s data controller, Microsoft Viva Glint admins can submit a us
 processed right away.
 
 > [!IMPORTANT]
-> User data deleted from Viva Glint is automatically deleted from *any* Microsoft Viva program it had been shared with.
->
-> INACTIVE user data (attributes and responses) aren't automatically deleted from Viva Glint.
+> - User data deleted from Viva Glint is automatically deleted from *any* Microsoft Viva program it had been shared with.
+> - INACTIVE user data (attributes and responses) aren't automatically deleted from Viva Glint.
 
 > [!CAUTION]
 > User data deletion in Viva Glint is an irreversible process.
@@ -46,6 +45,10 @@ processed right away.
 5. Return to the **People** page and verify that the user doesn't appear in the list of *All, Active or Inactive* employees.
 6. Return to the admin dashboard and select **Activity Audit Log** in the *Service Configuration* section. The user deletion action should be listed in the *Event* column and its status should read "Success." The *Details* column should show "Deleted."
 7. If the deleted user is a manager, verify that all reports their team appeared in no longer include their name. The report now reads, "Deleted User’s Team."
+
+> [!IMPORTANT]
+> - Viva Glint 360 feedback responses are also deleted with these requests.
+> - Viva Glint 360s are currently available to preview customers only. Features described here related to 360 feedback programs are subject to change.
 
 > [!NOTE]
 > Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee. No previous data is stored once deleted.
