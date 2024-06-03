@@ -5,7 +5,7 @@ title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: 
 - m365initiative-viva-insights
@@ -185,7 +185,7 @@ Microsoft provides oversight, framework, and tooling to ensure that products lik
 
 If there’s an outage, Viva Insights will use a failover process to switch to a backup location. This ensures customers will continue to have access to existing reports, and all organization insights features (Manager/Leader and Analyst/Advanced Insights experience) will still be available. Users, however, won't be able to create new queries and reports until the primary region is back up and running.
 
-Service availability is consistent across environments where Viva Insights plans are generally available. See details at [Microsoft Viva Service Descriptions.](https://learn.microsoft.com/office365/servicedescriptions/microsoft-viva-service-description)
+Service availability is consistent across environments where Viva Insights plans are generally available. For details, see [Microsoft Viva Service Descriptions](/office365/servicedescriptions/microsoft-viva-service-description).
 
 ## Related topics
 
