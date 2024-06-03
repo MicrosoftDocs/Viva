@@ -22,6 +22,8 @@ audience: Admin
 
 To get the most out of the Viva Insights experience, you might want to set up a few optional controls in the **Privacy settings** page.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lhYU]
+
 ## Partitions
 
 Partitions are analyst workspaces that include only certain employee data and attributes. If you turn on partitions, going forward, all analysts assigned to Viva Insights must be manually assigned a partition to access the Viva Insights dataset. Existing analysts, however, will continue to have access to full tenant data through the global partition. 

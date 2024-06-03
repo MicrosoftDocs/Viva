@@ -10,7 +10,7 @@ f1.keywords: NOCSH
 ms.collection:
  - essentials-manage
 ms.date: 07/12/2023
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-pulse
 ms.localizationpriority: medium
 search.appverid: MET150
