@@ -1,12 +1,12 @@
 ---
-title: Viva Glint 360 feedback program overview
+title: Viva Glint 360 feedback program overview (preview)
 description: The Microsoft Viva Glint 360 Feedback program and process gives insight into a manager's strengths and opportunities with a specific, long-term focus.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 terminology
+keywords: 360 terminology, 360 email templates
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,11 +14,11 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/23/2024
+ms.date: 05/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Viva Glint 360 feedback program overview
+# Viva Glint 360 feedback program overview (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
@@ -42,6 +42,10 @@ The 360 program is a set of related measures with a specific, long-term focus. P
 A program contains at least one 360 cycle. A program could, however, include cycles focusing on a specific program theme. The number of 360 programs you can set is unlimited.
 
 Viva Glint offers a 360 Feedback program template designed for managers. 
+
+## Introduce 360 programs to your organization
+
+[Use these email templates to introduce the 360 program journey to the people in your organization](https://go.microsoft.com/fwlink/?linkid=2272784).
 
 ## 360 feedback vocabulary
 
