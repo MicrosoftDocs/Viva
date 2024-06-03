@@ -1,5 +1,5 @@
 ---
-title: 360 feedback provider selection
+title: 360 feedback provider selection (preview)
 description: Customize the feedback provider selection for each Viva Glint 360 program subject.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 5/24/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# 360 feedback provider selection
+# 360 feedback provider selection (preview)
 
 Customize the experience for 360 subjects in this section of *Cycle Settings*. Glint prepopulates standard content and allows you to preview the subject experience. Each section can be edited to align with the different stages of the 360 cycle.
 

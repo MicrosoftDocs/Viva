@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: smathurin
 ms.date: 11/28/2023
 audience: admin
-ms.topic: article
+ms.topic: overview
 ms.custom: 
 - intro-overview
 - intro-get-started
