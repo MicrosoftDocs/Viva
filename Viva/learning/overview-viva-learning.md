@@ -6,7 +6,7 @@ manager: elizapo
 ms.reviewer: shirana
 ms.date: 01/08/2024
 audience: admin
-ms.topic: article
+ms.topic: overview
 ms.custom: 
 - intro-overview
 - intro-get-started
