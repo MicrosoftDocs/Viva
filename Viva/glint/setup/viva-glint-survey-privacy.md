@@ -12,7 +12,7 @@ keywords: Thresholds, suppression, response rate, suppressed data, identifiable 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/21/2024
