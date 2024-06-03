@@ -14,34 +14,55 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/31/2024
+ms.date: 06/03/2024
 ---
 
 # Create a Viva Glint productivity survey
 
-The Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace. The outcome of this research produced a clear marker:
+More and more of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
 
-## Engagement and productivity are related, but distinct 
+## How can a productivity survey benefit your org?
 
-Engagement survey items shouldn't be used for measuring productivity. Different employee experiences impact feeling **engaged** versus feeling **productive**. Both are needed to drive high-performance, but beyond a focus on engagement alone, employee productivity experiences help drive higher levels of productivity and achieve better businesses outcomes. 
+A comprehensive listening strategy needs to incorporate every opportunity to gather feedback that helps the employee be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial, but a comprehensive view of the total work experience also includes understanding their sense of empowerment to get things done and to help the organization be high performing. This is why a focus on productivity is also important.
 
 ## Productivity as an outcome
 
-Glint always proposes using the items *eSat* and *Recommend* as engagement outcome measures in surveys. Now, with recent research into productivity as an outcome, consider adding two validated productivity outcomes to your listening strategy: **Individual Productivity** and **Team Productivity**. 
-
-To capture the full picture of productivity, use these survey items to create a Productivity Index:
+Our productivity research resulted in two validated productivity outcomes: **Individual Productivity** and **Team Productivity** to capture the full picture of productivity:
 
 - I feel like I am productive at work.
 - I feel like my team is productive at work. 
 
-If there is a particular organizational goal or strategy you're focusing on that is best suited to individual or team productivity, just use the appropriate item. Our research shows that factors that contribute to higher perceptions of **team productivity** differ from those contributing to higher perceptions of **individual productivity**. It’s important to match measurement strategy and action taking steps to the level of productivity your organization wishes to drive. For most customers starting to measure productivity, we recommend using both outcome items.
+This research also revealed important differences between employee *engagement* and *productivity*.
 
-## Instances where a productivity survey can benefit your org
+## Engagement and productivity are related, but distinct
 
-Consider the productivity level (team and/or individual) you wish to improve, and use it as a guidepost for which employee experiences to focus on. Here are some examples:
+Both outcomes are needed to drive high-performance, but beyond a focus on engagement alone, findings show that specific **employee productivity experiences** help drive higher levels of performance and achieve better businesses outcomes. 
 
-???? Craig, please add
+This chart shows that engagement and productivity are moderately correlated. They share only half of their individual top 10 employee experience drivers.
 
+*Chart key: in purple, drivers are ranked in order, by sgtrength of correlation to the two-item outcome indices.*
+
+:::image type="content" source="../../media/glint/setup/productivity-indices.png" lightbox="../../media/glint/setup/productivity-indices.png" alt-text="Screenshot of the top correlaters of engagement index and productivity index.":::
+
+## How important is productivity to your organizational strategy?
+
+If there is a particular organizational goal or strategy best suited to individual and/or team productivity, use the best item(s) for your needs. Factors that contribute to higher perceptions of **team productivity** differ from those contributing to higher perceptions of **individual productivity**. 
+
+> [!IMPORTANT]
+> Match measurement strategy and action taking steps to the level of productivity your organization wishes to drive. 
+
+## Viva Glint’s recommendation for measuring productivity sentiment 
+
+For most customers starting to measure productivity, use both productivity outcome items as overall productivity outcome measures:
+
+- I feel like I am productive at work
+- I feel like my tam is productive at work.
+
+We evaluated more than two dozen employee experience factors that impact perceptions of productivity. Analyses identified eight employee experience factors, which are statistically shown to positively impact employee perceptions of productivity. Use these top-ranked productivity driver items depending on the level (individual or team) of productivity you wish to focus on:
+
+:::image type="content" source="../../media/glint/setup/productivity-drivers.png" lightbox="../../media/glint/setup/productivity-drivers.png" alt-text="Screenshot of the top team productivity drivers and top individual productivity drivers.":::
+
+## Learn more about measuring productivity
 
 > [!div class="nextstepaction"]
 > [Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713))
@@ -54,22 +75,9 @@ Consider the productivity level (team and/or individual) you wish to improve, an
 - **Engagement Survey** – Continue with an existing engagement survey but update it t to receive feedback to focus on productivity.
 
 
-## Viva Glint suggested productivity survey items
+## Set up a productivity survey
 
-???? CRAIG...should they use eSAT, Recommend, and then the following items? Goal here is to suggest the easiest method to achieve productivity analyses.
-
-Process....Judy will add after Craig's recommendation 
-
-|Item Name|	Item Text|
-|-------|--------|
-|Team Collaboration|Teams at <COMPANY_NAME> collaborate effectively to get things done.|
-|Leadership|I have confidence in the leadership team.
-|Purpose|The work that I do at <COMPANY_NAME> is meaningful to me.
-|Role Clarity|I clearly understand what is expected of me in my role. 
-|Job Skills|I have the skills I need to do my job well.|
-|Effective Teamwork|I am confident in my team’s ability to work together effectively.|
-|High Standards|I am able to maintain high quality standards for all my work.|
-|Efficient Resources|I am as efficient as possible with the resources (time, tools, information, knowledge) I have.|
+Depending on your strategy and goals for productivity, you can set up an ad hoc productivity survey using the afore-mentioned items, or incorporate the items into your **Recurring Engagement survey** template. You may already have several of these top productivity drivers on your engagement survey so adding a few more will help to round out a robust study of productivity conditions for your employees.
 
 ## Next step
 
