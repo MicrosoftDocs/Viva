@@ -19,11 +19,11 @@ ms.date: 06/03/2024
 
 # Create a Viva Glint productivity survey
 
-More and more of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
+More of our customers are looking beyond engagement alone to create an employee experience that also helps people be more productive and higher performing. With that in mind, the Microsoft Viva People Science team took a human-centric approach to define and operationalize employee productivity. They identified the critical opinions and attitudes that best characterize the experience and feeling of high productivity in the workplace.
 
 ## How can a productivity survey benefit your org?
 
-A comprehensive listening strategy needs to incorporate every opportunity to gather feedback that helps the employee be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial, but a comprehensive view of the total work experience also includes understanding their sense of empowerment to get things done and to help the organization be high performing. This is why a focus on productivity is also important.
+A comprehensive listening strategy needs to include every opportunity to gather feedback to help employees be the best they can be and do their best work. Understanding how employees feel about their work conditions and treatment is crucial. A comprehensive view of the total work experience  includes understanding their sense of empowerment to get things done and to help the organization be high performing. This is why a focus on productivity is also important.
 
 ## Productivity as an outcome
 
@@ -46,7 +46,7 @@ This chart shows that engagement and productivity are moderately correlated. The
 
 ## How important is productivity to your organizational strategy?
 
-If there is a particular organizational goal or strategy best suited to individual and/or team productivity, use the best item(s) for your needs. Factors that contribute to higher perceptions of **team productivity** differ from those contributing to higher perceptions of **individual productivity**. 
+If there is a particular organizational goal or strategy best suited to individual and/or team productivity, use the best item(s) for your needs. Factors that contribute to higher perceptions of **team productivity** differ from factors contributing to higher perceptions of **individual productivity**. 
 
 > [!IMPORTANT]
 > Match measurement strategy and action taking steps to the level of productivity your organization wishes to drive. 
