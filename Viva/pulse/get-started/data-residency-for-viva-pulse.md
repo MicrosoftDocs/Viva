@@ -8,7 +8,7 @@ manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
 ms.date: 07/12/2023
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection:

@@ -4,7 +4,7 @@ title: Upload organizational data (subsequent upload)
 description: This article discusses how to upload your data to the Viva Insights advanced insights app after you've already uploaded data there.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: 
 - viva-insights-advanced
