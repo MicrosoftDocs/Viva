@@ -42,7 +42,7 @@ This chart shows that engagement and productivity are moderately correlated. The
 
 *Chart key: in purple, drivers are ranked in order, by strength of correlation to the two-item outcome indices.*
 
-:::image type="content" source="../../media/glint/setup/productivity-indices.png" lightbox="../../media/glint/setup/productivity-indices.png" alt-text="Screenshot of the top correlaters of engagement index and productivity index.":::
+:::image type="content" source="../../media/glint/setup/productivity-indices.png" lightbox="../../media/glint/setup/productivity-indices.png" alt-text="Screenshot of the top correlates of engagement index and productivity index.":::
 
 ## How important is productivity to your organizational strategy?
 
@@ -65,7 +65,7 @@ We evaluated more than two dozen employee experience factors that impact percept
 ## Learn more about measuring productivity
 
 > [!div class="nextstepaction"]
-> [Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713))
+> [Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713)
 
 ## Set up a productivity survey
 
