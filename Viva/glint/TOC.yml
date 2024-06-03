@@ -199,6 +199,8 @@ items:
             href: setup/magnet-rn-excellence.md
           - name: Set up a Distress Survey
             href: setup/distress-survey.md
+          - name: Set up a Viva Glint productivity survey
+            href: setup/create-productivity-survey.md
       - name: Set up Engagement surveys
         href: setup/program-summary-overview.md
         items:
@@ -241,7 +243,7 @@ items:
           - name: Set up Team Conversations
             href: reports/team-conversations-administrator-setup.md
             items:
-             - name: Customize Team Conversation email content
+             - name: Customize Team Conversations email content
                href: reports/team-conversations-content-cusomization.md          
       - name: Review surveys before launch
         items:
