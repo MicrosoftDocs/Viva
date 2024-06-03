@@ -40,7 +40,7 @@ Both outcomes are needed to drive high-performance, but beyond a focus on engage
 
 This chart shows that engagement and productivity are moderately correlated. They share only half of their individual top 10 employee experience drivers.
 
-*Chart key: in purple, drivers are ranked in order, by sgtrength of correlation to the two-item outcome indices.*
+*Chart key: in purple, drivers are ranked in order, by strength of correlation to the two-item outcome indices.*
 
 :::image type="content" source="../../media/glint/setup/productivity-indices.png" lightbox="../../media/glint/setup/productivity-indices.png" alt-text="Screenshot of the top correlaters of engagement index and productivity index.":::
 
@@ -56,9 +56,9 @@ If there is a particular organizational goal or strategy best suited to individu
 For most customers starting to measure productivity, use both productivity outcome items as overall productivity outcome measures:
 
 - I feel like I am productive at work
-- I feel like my tam is productive at work.
+- I feel like my team is productive at work.
 
-We evaluated more than two dozen employee experience factors that impact perceptions of productivity. Analyses identified eight employee experience factors, which are statistically shown to positively impact employee perceptions of productivity. Use these top-ranked productivity driver items depending on the level (individual or team) of productivity you wish to focus on:
+We evaluated more than two dozen employee experience factors that impact perceptions of productivity. Analyses identified eight employee experience factors, which are statistically shown to positively impact employee perceptions of productivity. Use these top-ranked productivity driver items, depending on the level (individual or team) of productivity you wish to focus on:
 
 :::image type="content" source="../../media/glint/setup/productivity-drivers.png" lightbox="../../media/glint/setup/productivity-drivers.png" alt-text="Screenshot of the top team productivity drivers and top individual productivity drivers.":::
 
@@ -67,17 +67,9 @@ We evaluated more than two dozen employee experience factors that impact percept
 > [!div class="nextstepaction"]
 > [Viva People Science blog: Beyond Engagement - Measuring Productivity in the Workplace](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-s-new-from-viva-people-science-beyond-engagement-measuring/ba-p/4126713))
 
-
 ## Set up a productivity survey
 
-???? Craig - should we suggest here to start with a blank, recurring survey template or 
-
-- **Engagement Survey** – Continue with an existing engagement survey but update it t to receive feedback to focus on productivity.
-
-
-## Set up a productivity survey
-
-Depending on your strategy and goals for productivity, you can set up an ad hoc productivity survey using the afore-mentioned items, or incorporate the items into your **Recurring Engagement survey** template. You may already have several of these top productivity drivers on your engagement survey so adding a few more will help to round out a robust study of productivity conditions for your employees.
+Depending on your strategy and goals for productivity, you can set up an ad hoc productivity survey using the survey items mentioned in this guidance, or incorporate the items into your **Recurring Engagement survey** template. You may already have several of these top productivity drivers on your engagement survey. Adding a few more helps to round out a robust study of productivity conditions for your employees.
 
 ## Next step
 
