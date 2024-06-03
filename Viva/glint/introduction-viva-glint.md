@@ -14,7 +14,7 @@ ms.collection:
  - essentials-get-started
  - essentials-navigation
 search-appverid: MET150
-ms.topic: article
+ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 04/24/2024
