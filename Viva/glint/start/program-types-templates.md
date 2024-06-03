@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/15/2024
+ms.date: 06/03/2024
 ---
 
 # Viva Glint program types and associated templates
@@ -58,7 +58,7 @@ Viva Glint offers prescribed templates and a blank template option for each type
 |---------|---------|-----|-----------|----------|------------------|
 |[Engagement survey template](https://go.microsoft.com/fwlink/?linkid=2231005)|Recurring|Measure key drivers of engagement from research-based Viva People Success Elements, which are critical for employees being happy and successful at work.|Recurring: Recommended quarterly as this includes all core engagement items, creating a solid engagement baseline. Recommended as a first introduction to Viva Glint programs within your organization and can be set to a customized cadence.|Managers and teams|All eligible employees
 |[Onboarding template](https://go.microsoft.com/fwlink/?linkid=2231203)|Employee Lifecycle|Provides an opportunity to check in with newcomers and understand what is going well and any challenges with their onboarding experience|Automatically triggered at a key moment. Recommend having at least two onboarding surveys at specific points in time (for example, 30 days, 45 days, 60 days, and/or 90 days)|Human Resource leaders and managers|New hires|
-|[Exit survey template](https://go.microsoft.com/fwlink/?linkid=2231203)|Employee Lifecycle|Provides data for why people leave and their perceptions of the organization as they transition|Automatically triggered at a key moment|Human Resource leaders and managers|Departing employees|
+|[Exit survey template](https://go.microsoft.com/fwlink/?linkid=2271845)|Employee Lifecycle|Provides data for why people leave and their perceptions of the organization as they transition|Automatically triggered at a key moment|Human Resource leaders and managers|Departing employees|
 |[Microsoft Copilot Impact Survey template](https://go.microsoft.com/fwlink/?linkid=2261039)|Special topic|Measures the impact of Microsoft Copilot through sentiment data, enabling IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI|Recurring|All roles|All roles|
 |[Culture survey template](https://go.microsoft.com/fwlink/?linkid=2264200)|Special topic|Uses Viva People Science team's measurable elements of current culture that are important to driving people and organizational success.|Recommended as a recurring survey launching every few years, depending on how quickly the organization is changing|Senior leadership and above|All eligible employees|
 |[Diversity and Inclusion template](/viva/glint/setup/diversity-inclusion)|Special topic|Provides an understanding of employee sentiment related to various elements necessary for building a powerful sense of belonging among employees|Recurring|Managers and teams|All eligible employees|
