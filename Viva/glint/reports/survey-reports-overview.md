@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2024
+ms.date: 05/29/2024
 ---
 
 # Viva Glint's Survey reports overview
@@ -36,6 +36,6 @@ Admins can assign specific reports for distinct roles.
 | [Overall Results](https://go.microsoft.com/fwlink/?linkid=2271108) | Mimics the Glint dashboard but allows data filtering and reviewing of more demographics. | All |
 | [Manager Report](https://go.microsoft.com/fwlink/?linkid=2231110)| Displays a *direct* or *role up hierarchy* view of all managers within a specific hierarchy. | Admins and managers |
 | [Response Rate Report](https://go.microsoft.com/fwlink/?linkid=2231209)| Provides a deep dive into survey response rates across hierarchies and key demographics. Displays trends and benchmark comparisons. | All |
-| [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231209)| Captures employee feedback as an easy-to-use and insightful experience. Empowers managers to approach feedback with a growth mindset, understand unique strengths and opportunities that drive team engagement, and to encourage the next steps in sharing results and seeking team input on Focus Areas. | All |
+| [Team Summary](https://go.microsoft.com/fwlink/?linkid=2231210)| Captures employee feedback as an easy-to-use and insightful experience. Empowers managers to approach feedback with a growth mindset, understand unique strengths and opportunities that drive team engagement, and to encourage the next steps in sharing results and seeking team input on Focus Areas. | All |
 |[Multi-Attribute Export](https://go.microsoft.com/fwlink/?linkid=2231113)|Deep dives into survey scores and view results of combinations for up to three attributes for admins. The Multi-Attribute Export report is available for engagement and employee lifecycle surveys. | Admins|
 

@@ -21,6 +21,8 @@ audience: Admin
 
 ## Overview
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lfDg]
+
 Each of these steps takes place within one section of the [advanced insights app's](https://go.microsoft.com/fwlink/?linkid=2201482) **Custom queries > Meeting query** page.
 
 >[!Note]
@@ -61,6 +63,8 @@ In this article, we talk about how to complete each of these steps, and also giv
 ## Add metrics 
 
 *Section: **Select metrics for what you want to know about your meetings***
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda0]
 
 :::image type="content" source="../images/meeting-query-section-1.png" alt-text="Screenshot that shows the Select metrics field, with an Add metrics button." lightbox="../images/meeting-query-section-1.png":::
 

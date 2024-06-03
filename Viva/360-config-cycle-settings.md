@@ -1,5 +1,5 @@
 ---
-title: Configure 360 cycle settings
+title: Configure 360 cycle settings (preview)
 description: There are five areas to set up in a new 360 cycle. Follow this guidance.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 5/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Configure 360 cycle settings
+# Configure 360 cycle settings (preview)
 
 Although *Manage Subjects* appears first on the cycle page, we recommend setting up **Cycle Settings** first. There are five areas to set up. As you move through them, a filled blue circle confirms their completion.
 
