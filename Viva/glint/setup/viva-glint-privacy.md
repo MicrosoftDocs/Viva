@@ -12,7 +12,7 @@ ms.collection:
  - self-serve
  - essentials-privacy
 search-appverid: MET150
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 04/10/2023
