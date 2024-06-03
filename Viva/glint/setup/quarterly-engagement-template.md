@@ -35,11 +35,11 @@ Item Number|Item Name|Item Text|
 |2|Recommend|I would recommend [Company Name] as a great place to work.|
 |3|Prospects|I am excited about [Company Name]'s future.|
 |4|Values| People at [Company Name] live the company values.|
-|5|Belonging|I feel a sense of belong at [Company Name].|
+|5|Belonging|I feel a sense of belonging at [Company Name].|
 |6|Communication|[Company Name] does a good job of communicating with employees.|
 |7|Continuous Improvement|[Company Name] continually improves the way work gets done.|
 |8|Inclusive Leaders|Leaders at [Company Name] value different perspectives.|
-|9|Leadership|I have confident in the leadership team.|
+|9|Leadership|I have confidence in the leadership team.|
 |10|Collaboration|Teams at [Company Name] collaborate effectively to get things done.
 |11|Feedback|[My Manager] provides me with feedback that helps me improve my performance.|
 |12|Growth|I have good opportunities to learn and grow at [Company Name]|

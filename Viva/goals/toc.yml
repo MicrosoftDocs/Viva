@@ -23,6 +23,8 @@ items:
       href: viva-goals-deployment-guide.md
     - name: Viva Goals admin portal
       href: viva-goals-admin-portal.md
+    - name: Mandate team assignment for OKRs
+      href: mandate-okr-team-assignment.md
     - name: Navigate the admin dashboard
       href: navigate-admin-dashboard.md
     - name: Viva Goals language and region support

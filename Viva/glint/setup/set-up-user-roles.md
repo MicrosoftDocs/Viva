@@ -46,47 +46,65 @@ The following roles are pre-configured in Viva Glint and can't be edited. Create
 - **Active Employees**: Not intended to have data access
 - **Inactive Employees**: Not intended to have data access
 - **Managers**: Doesn't allow edits, create a new role to change permissions and attributes
-- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited
-
->[!NOTE]
-> Edits to default **User Role Report Attributes** are planned to be available after June 1, 2024.
+- **Support Users**: External users, like Partners or Glint Support, who have advanced access; can't be edited 
 
 ## Create User Roles
 
 Admins can specify the employee population and attributes their leaders can view on their dashboard for each User Role. Defining roles is important for data cuts, access permissions, and program integrity.
 
 1. Select the **Configuration** symbol.
-2. In the **Employees** section, select **User Roles**.
-3. Select **+New Role**. A new **Role Settings** page appears.
-5. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
-   :::image type="content" source="../../media/glint/setup/user-roles-title.png" alt-text="Screenshot of the Role Settings page.":::
-7. Select **Permissions** and the **Permissions and Access** page opens.
+1. In the **Employees** section, select **User Roles**.
+1. Select **+New Role**. A new **Role Settings** page appears.
+1. Enter a role name in the **Untitled Role** field by selecting the **pencil** symbol.
+
+   :::image type="content" source="../../media/glint/setup/user-roles-title.png"alt-text="Screenshot of the Role Settings page.":::
+
+1. Select **Permissions** and the **Permissions and Access** page opens.
+
    :::image type="content" source="../../media/glint/setup/user-roles-access-permissions.png" alt-text="Screenshot of Access Permissions in Role Settings.":::
+
 1. Make choices for the following sections based on decisions in your User Role Template:
    1. Survey Programs
+   
       :::image type="content" source="../../media/glint/setup/user-roles-survey-programs.png" alt-text="Screenshot of the Survey Programs Access section in Permissions and Access.":::
+
    1. Focus Areas and Conversations
+   
       :::image type="content" source="../../media/glint/setup/user-roles-focus-areas-convos.png" alt-text="Screenshot of the Focus Areas and Conversations section in Permissions and Access.":::
+
    1. Reporting
+   
       :::image type="content" source="../../media/glint/setup/user-roles-reporting.png" alt-text="Screenshot of the Reporting section in Permissions and Access.":::
+
    1. Data Management
+   
       :::image type="content" source="../../media/glint/setup/user-roles-data-management.png" alt-text="Screenshot of the Data Management section in Permissions and Access.":::
+
    1. Resources
+   
       :::image type="content" source="../../media/glint/setup/user-roles-resources.png" alt-text="Screenshot of the Resources section in Permissions and Access.":::
+
    1. Access Permissions
+   
       :::image type="content" source="../../media/glint/setup/user-roles-access-permissions-section.png" alt-text="Screenshot of Access Permissions window.":::
+
 1. Select **Save Changes**.
-2. On the **Role Settings** page, select **Report Attributes**.
+
+1. On the **Role Settings** page, select **Report Attributes**.
+
    :::image type="content" source="../../media/glint/setup/user-roles-report-attributes.png" alt-text="Screenshot of Report access in Role Settings.":::
-3. Attributes are separated into sections:
-  - Standard
-  - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
-  - Other Reporting Hierarchies (like Location or Department Hierarchy)
-10. Select all attributes and hierarchies that this role should be allowed to view for 
-  - Report filters
-  - Report sections
-  - Comment filters
-11. Select **Save Changes**.
+
+1. Attributes are separated into sections:
+    - Standard
+    - Manager Hierarchy (select all levels, for roles with Manager Hierarchy-based access, users see only their team)
+    - Other Reporting Hierarchies (like Location or Department Hierarchy)
+
+1. Select all attributes and hierarchies that this role should be allowed to view for:
+    - Report filters
+    - Report sections
+    - Comment filters
+
+1. Select **Save Changes**.
 
 > [!TIP]
 > Since filtering through results across too many attributes can make identifying survey respondents within reports easier, it's best to give access to only one attribute per manager role. 
@@ -113,6 +131,7 @@ Add members to a User Role by choosing one of the following options:
 4. In the new display window, choose either:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
+
 5. To add users based on a filtered population, select  **I want to filter all active employees by the following populations**.
 6. Select  **+ New Population**.
 7. Select  **+ Add Filter**  to select the attribute you want to use to filter your employee list. Your attribute list is unique to your organization based on your Employee Attribute File.
@@ -132,14 +151,16 @@ When you need to assign many individuals to a specific User Role, you can mass a
 3. On the **Role Settings** page, select **Export.** Within the box that displays, make your selections and then again, select **Export**.
 4. Open the downloaded .csv file and delete all columns except the column with email addresses.
 5. Add or delete email addresses.
-     > [!NOTE]
-     > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
-6. Save your file.
-7. Return to the **Role Settings** page and select **Import**.
-8. Select the checkbox to indicate if you only added users.
-9. Drag and drop your file, or browse to select your file, into the area indicated.
-10. Select **Import File**.
-11. Confirm your import and then select **Confirm Import**.
+
+   > [!NOTE]
+   > This can be a full replacement for the existing file, so you will not need to have an Add or Remove column.
+
+1. Save your file.
+1. Return to the **Role Settings** page and select **Import**.
+1. Select the checkbox to indicate if you only added users.
+1. Drag and drop your file, or browse to select your file, into the area indicated.
+1. Select **Import File**.
+1. Confirm your import and then select **Confirm Import**.
 
 ## Remove a user from a User Role
 
@@ -157,6 +178,7 @@ This functionality works for roles which already have filters and/or populations
 4. In the new display window, choose from:
    - I want to include all active employees only, or
    - I want to filter all active employees by the following populations
+
 5. Add new population(s) and filter(s) as desired.
 6. Choose whether to include inactive employees or to exclude any employees.
 7. Select **Save Changes**.
@@ -171,15 +193,16 @@ Custom access is intended for users who need to have the default access overridd
 2. Go to the User Role with users that need custom access granted.
 3. Search for a select a user.
 4. On the user's profile, next to the survey name that should have custom data access for this user, select the pencil symbol to edit.
-     > [!NOTE]
-     > The User Role that this person is a member of needs to be granted access to a survey program in the survey's Reporting section for it to appear on their user profile.
 
-     :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
+   > [!NOTE]
+   > The User Role that this person is a member of needs to be granted access to a survey program in the survey's Reporting section for it to appear on their user profile.
+
+   :::image type="content" source="../../media/glint/setup/custom-access-dialog.png" alt-text="Screenshot of dialog that appears to let an admin edit a user's custom access.":::
     
 6. Select **+ Population** and then **+ Add Filters**.
 7. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
 
-     :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
+   :::image type="content" source="../../media/glint/setup/custom-access-selection.png" alt-text="Screenshot of dialog with custom access attribute values selected.":::
    
 9. Select **Save** to apply custom access for this user and survey program.
 
@@ -192,7 +215,7 @@ Users can also have their Focus Area and (if they are in a role with admin permi
 4. On the user's profile, next to **Admin Access** or **Focus Area Access**, select the pencil icon to edit.
 5. Select attributes and values that define the segment of employee data that this user should have access to and select **Done**.
 
-     :::image type="content" source="../../media/glint/setup/custom-focus-area-selection.png" alt-text="Screenshot of dialog with custom focus area access attribute values to be selected.":::
+   :::image type="content" source="../../media/glint/setup/custom-focus-area-selection.png" alt-text="Screenshot of dialog with custom focus area access attribute values to be selected.":::
 
 10. Select **Save** to apply custom access for this user for **Admin Access** or **Focus Area Access**.
 
