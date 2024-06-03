@@ -4,7 +4,7 @@ title: Install the Viva Insights app in Teams
 description: Install the Microsoft Viva Insights app available for Microsoft Teams
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.collection: 
 - viva-insights-manager
 - viva-insights-leader
