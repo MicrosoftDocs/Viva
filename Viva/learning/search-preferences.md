@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/21/2023
+ms.date: 05/21/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -28,9 +28,9 @@ Use the **Prioritized provider** settings to prioritize the content that users c
 
 Here are some cases in which provider prioritization enhance the learning experience:
 
-- Creating proprietary learning content in your organization for users under a specific provider
-- Prioritizing content that is important for users 
-- Prioritizing a provider that is preferred by either admins or most users
+- Creating proprietary learning content in your organization for users under a specific provider.
+- Prioritizing content that is important for users.
+- Prioritizing a provider that admins or most users prefer.
 
 ### Setting details
  
