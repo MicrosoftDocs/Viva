@@ -4,7 +4,7 @@ title: Organization insights in the Viva Insights app
 description: Find Organization insights in Microsoft Viva Insights 
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.collection: 
 - viva-insights-personal
 - essentials-manage
