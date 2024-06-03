@@ -46,17 +46,12 @@ Viva Glint survey invites and reminders contain multiple editable sections:
 
 :::image type="content" source="../../media/glint/setup/glint-email-invite-sections.png" alt-text="Screenshot of editable survey email sections in Viva Glint.":::
 
-Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
+The following invite and reminder email sections support multiple paragraphs to break up and emphasize important text:
 
-> [!IMPORTANT]
-> As of June 2024, Viva Glint plans to support multiple paragraphs in these survey and results notification email sections:
-> - Message
-> - Privacy Message
-> - Description
-> - Main Title
-> - Tip 1 Description
-> - Tip 2 Description
-> - Tip 3 Description
+- Message
+- Privacy Message
+
+Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!CAUTION]
 > Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
@@ -100,6 +95,14 @@ Sections to avoid customizing:
 
 - Links
 - Icons
+
+The following results notification email sections support multiple paragraphs to break up and emphasize important text:
+
+- Description
+- Main Title
+- Tip 1 Description
+- Tip 2 Description
+- Tip 3 Description
 
 :::image type="content" source="../../media/glint/setup/glint-survey-results-notification.png" alt-text="Screenshot of the Survey End Results Notification email.":::
 
