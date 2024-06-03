@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 06/13/2023
+ms.date: 05/30/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -15,23 +15,23 @@ ms.collection:
   - Tier1
   - essentials-manage
 ms.localizationpriority: medium
-description: Learn how to manage catalog access in Microsoft Viva Learning.
+description: Learn how to manage catalog access in Microsoft Viva Learning to restrict the ability of select users to view and discover courses.
 ---
 
 # Manage Catalog Access in Viva Learning
 
 All content available in Viva Learning is discoverable by all users in the organization by default.  
-Catalog access management allows you to restrict the ability of select users to view and discover courses. This lets your organization control whether a learning object is visible to a learner in Viva Learning.
+Catalog access management allows you to restrict the ability of select users to view and discover courses. This process lets your organization control whether a learning object is visible to a learner in Viva Learning.
 
 Depending on your integration with Viva Learning, there are two methods by which your organization can control the access permissions:
 
 ## Control permissions within the LMS
 
-Using the SAP SuccessFactors Learning Management System (LMS), organizations can set access permissions using assignment profiles. During the SuccessFactors  integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
+Organizers can use the SAP SuccessFactors Learning Management System (LMS) to set access permissions using assignment profiles. During the SuccessFactors integration with Viva Learning, you can choose to enable a sync of permissions in SuccessFactors with Viva Learning.
 Refer to the [Catalog permissions sync](configure-successfactors-content-source.md#catalog-permissions-sync) article for detailed steps and requirements.
 
 Once the sync is complete, admins can view the courses for which permissions are applied within the **Admin** tab, by clicking **Manage Permissions**. 
-Refer to the **View** permissions section below for more details.
+For more information, see the **View** permissions section.
 
 ## Create and manage permissions within Viva Learning
 
