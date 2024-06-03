@@ -10,7 +10,7 @@ ms.date: 05/20/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: high
 ms.collection:  

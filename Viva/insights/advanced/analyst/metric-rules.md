@@ -27,6 +27,8 @@ Here are a few things to keep in mind about metric rules:
 * Metric rules apply to your query's metric calculations and also to data shown within the Viva Insights app in Teams and web.
 * When you set a rule as default, it applies to all future queries and the Viva Insights app in Teams and web. Refer to [About default rules](#about-default-rules) for more information.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lfDh]
+
 ## About the metric rules page
 
 Before we get into discussing how to use rules in your queries, let’s discuss where you can find, create, and edit them: the **Metric rules** page. To get to the **Metric rules** page from the advanced insights app analyst experience, select **Metric rules** from the left pane.
