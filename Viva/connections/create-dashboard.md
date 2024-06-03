@@ -38,8 +38,8 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card).
 - [Add the Events card](#add-the-events-card).
 - [Add the News card](#add-the-news-card).
-- [Add the People card](#add-the-people-card).
 - [Add the OneDrive card](#add-the-onedrive-card).
+- [Add the People card](#add-the-people-card).
 - [Add a Shifts card](#add-a-shifts-card).
 - [Add a Teams app card](#add-a-teams-app-card).
 - [Add a third-party card or Microsoft app](#add-a-third-party-card-or-microsoft-app).
@@ -116,8 +116,8 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Image of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](/microsoftteams/manage-planner-app) to manage your team's work, assign tasks, and track tasks.     |
 |[Events card](#add-the-events-card)    | ![Image of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization.     |
 |[News card](#add-the-news-card)    | ![Image of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-|[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
 |[OneDrive card](#add-the-onedrive-card)    | ![Image of the OneDrive card icon.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png) |   View and access recent, shared, and favorite files from your OneDrive account.     |
+|[People card](#add-the-people-card)    | ![Image of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization.     |
 |[Shifts](#add-a-shifts-card)     |![Image of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams.          |
 |[Teams app card](#add-a-teams-app-card) | ![Image of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author.     |
 |[Third-party cards](#add-a-third-party-card-or-microsoft-app) | Varies |    Use cards that integrate [third-party services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
@@ -426,26 +426,6 @@ Add the News card to the Viva Connections Dashboard to promote news from a vari
 
    :::image type="content" source="../media/connections/news-card-properties.png" alt-text="Screenshot showing the News card properties pane.":::
 
-## Add the People card
-
-The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
-
-:::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information." lightbox="../media/connections/people-card-demo.png":::
-
-1. While in edit mode, select **+ Add a card** from the dashboard.
-
-2. Select **People** from the dashboard toolbox.
-
-   ![Screenshot of the People card icon.](../media/connections/people-card-icon-border.png)
-
-3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
-
-4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
-
-5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
-
-   :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane.":::
-
 ## Add the OneDrive card
 
 The OneDrive card (previously known as Files) will connect individuals to their own recent, shared, or favorite files in their OneDrive account. Users can review files they have access to from their Connections experience and open them from the OneDrive card.
@@ -478,6 +458,26 @@ The OneDrive card (previously known as Files) will connect individuals to their 
 7. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), enter one or more M365 group into the **Audience targeting** field. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png" alt-text="Screenshot showing file source and audience targeting options in the OneDrive card properties panel." lightbox="../media/connections/create-dashboard/onedrive-card-source-audience-targeting.png":::
+
+## Add the People card
+
+The People Search card will automatically retrieve contact information from members of your organization using [Microsoft Entra ID](/entra/fundamentals/new-name) (formerly Azure Active Directory). Users can access the People Search card to look up contact information and can jump into chat, email, or a call with the contact directly from the card view.
+
+:::image type="content" source="../media/connections/people-card-demo.png" alt-text="Screenshot demonstrating the People card in action looking up contact information." lightbox="../media/connections/people-card-demo.png":::
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **People** from the dashboard toolbox.
+
+   ![Screenshot of the People card icon.](../media/connections/people-card-icon-border.png)
+
+3. Select the **edit pencil** to the left of the card to open the properties pane for the People card.
+
+4. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+5. To target your card to specific audiences (only audiences you specify will see the card in the dashboard), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+   :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane.":::
 
 ## Add a Shifts card
 
