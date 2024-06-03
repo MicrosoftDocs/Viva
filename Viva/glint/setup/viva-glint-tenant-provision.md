@@ -12,7 +12,7 @@ ms.collection:
  - selfserve
  - essentials-get-started
 search-appverid: MET150
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 03/21/2024
