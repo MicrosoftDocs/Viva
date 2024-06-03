@@ -1,5 +1,5 @@
 ---
-title: Create a new 360 cycle
+title: Create a new 360 cycle (preview)
 description: 360 programs should contain cycles that can be cloned to use on a set schedule.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,7 @@ ms.date: 5/23/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Create a new 360 cycle
+# Create a new 360 cycle (preview)
 
 After choosing the Glint Manager 360 Program template or the blank template, select **+New Cycle**.
 
