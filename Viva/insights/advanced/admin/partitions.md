@@ -25,6 +25,8 @@ Or maybe you create a bucket just for employees in your company’s US offices. 
 
 Also, you might choose to assign a few analysts to the reservoir (the global partition). These analysts can access your entire company’s dataset, see all data, and run queries on all employees in the organization. We go into more detail about the global partition later on in this article.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda2]
+
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 
 :::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="../images/admin-partitions-expanded.png":::
