@@ -14,14 +14,14 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/26/2024
+ms.date: 06/4/2024
 ---
 
 # Set up Program Summary for Viva Glint Employee Lifecycle programs
 
 Employee Lifecycle programs measure the employee experience during key moments in the employee journey. They allow organizations to get a holistic understanding of the employee experience from beginning to end via automated survey invitations to new hires and exiting employees.
 
-Employee Lifecycle programs are considered "trigger events" because they use the hire or termination date to automatically be sent.
+Employee Lifecycle programs are considered "trigger events" because they use the hire or termination date to automatically send.
 
 ## Recommended cadence for Employee Lifecycle surveys
 
@@ -30,7 +30,7 @@ Viva Glint recommends this cadence:
 - Onboarding surveys for new hires: Within the first week of employment, then again at 30 days _and_ at 90 days
 - Exit surveys with voluntary terminations: As soon as possible
 
-## Distribution List setup for Employee Lifecycle surveys
+## Distribution List setup
 
 Before configuring an Employee Lifecycle program, visit the [Distribution Lists](https://go.microsoft.com/fwlink/?linkid=2230917) lesson to create new lists based on hire date for Onboarding surveys and on Termination date for Exit surveys.
 
