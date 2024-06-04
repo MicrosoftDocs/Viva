@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/21/2024
+ms.date: 06/4/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
