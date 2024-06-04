@@ -38,9 +38,6 @@ Meet with your Microsoft 365 Global Admin, IT, and HR stakeholders to determine 
 - What your Glint survey needs are across different tenants and employee populations.
 - How you currently use Glint for organizational wide surveys.
 
-> [!NOTE]
-> Your Microsoft 365 Global Admin controls which applications (non-Glint) different user groups access. For Glint, licenses are at the tenant level (not the user level) and access is validated against employee data uploaded to the Glint application.
-
 ### Requirements
 
 - All tenants use Microsoft Entra ID.
