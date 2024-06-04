@@ -16,8 +16,9 @@ ms.collection:
 - highpri  
 search.appverid:
 - MET150
-description: "Learn how to navigate the admin dashboard"
+description: "Learn how to navigate the admin dashboard."
 ---
+
 # Organization admin dashboard overview
 
 To log in to Viva Goals, visit https://goals.microsoft.com/.
