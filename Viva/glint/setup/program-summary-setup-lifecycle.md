@@ -36,7 +36,7 @@ Before configuring an Employee Lifecycle program, visit the [Distribution Lists]
 
 Follow these steps to create an Employee Lifecycle distribution list:
 
-1. Begin by selecting the **configure symbol** on the admin dashboard and then select **Distribution Lists**.
+1. Begin by selecting the **Configuration** symbol on the admin dashboard and then select **Distribution Lists**.
 2. Select **New Distribution List**.
 3. Name the new list.
 4. Select **Add/Edit Employees**.
@@ -44,7 +44,7 @@ Follow these steps to create an Employee Lifecycle distribution list:
 6. Select **I want to filter all active employees by these populations.**
 7. Select **+ New Population** and find the respective attribute value from your user data, such as "Hire Date" for Onboarding or "Termination Date" for an Exit survey.
 8. Set the date range for your distribution list window.
-9. Add additional filters if the distribution should only go to a select population.
+9. Add more filters if the distribution should only go to a select population.
 10. If the survey should include Inactive employees (Exit surveys), be sure the "Include Inactive Employees" box is marked.
 11. Select **Save Changes** and align to your respective Employee Life Cycle survey program.
 
@@ -52,7 +52,7 @@ Follow these steps to create an Employee Lifecycle distribution list:
 
 **Onboarding**
 
-- Onboarding surveys distribution list date ranges will be relative to Hire Date.
+- Onboarding surveys distribution list date ranges are relative to Hire Date.
 - If the users are to receive the survey 30 days after their hire date, then ensure you set the first value to "after 30 days". For the end value, provide enough of a window so that if someone has their hire date updated late in your user data, they can still be triggered the survey.
 - Don't make the window something too small as delayed imports might cause people to miss being included.
 - You can't use the same number of days for the beginning and end value in the distribution list, for example: "45 days after to 45 days after." The query would be unable to find any users.
@@ -66,7 +66,7 @@ Follow these steps to create an Employee Lifecycle distribution list:
 
 ## Populate the Program Summary pages in a survey template
 
-Select **My Surveys** on the admin dashboard. Choose the Onboarding or Exit survey template and then in the _Program Summary_ section, set up the following pages (note the important boxes below which are specific to Employee Lifecycle surveys only):
+Select **My Surveys** on the admin dashboard. Choose the Onboarding or Exit survey template and then in the _Program Summary_ section, set up the following pages:
 
 - [Program Setup](https://go.microsoft.com/fwlink/?linkid=2238328)
   
@@ -90,6 +90,6 @@ Select **My Surveys** on the admin dashboard. Choose the Onboarding or Exit surv
 - [Communication](https://go.microsoft.com/fwlink/?linkid=2231342)
 - [Coaching](https://go.microsoft.com/fwlink/?linkid=2231416)
 
-## Additional resource
+## Related resource
 
 [Preview and filter Employee Lifecycle programs](https://go.microsoft.com/fwlink/?linkid=2231107)
