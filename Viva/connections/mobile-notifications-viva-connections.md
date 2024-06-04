@@ -33,8 +33,8 @@ News notifications are delivered via Teams desktop, Teams mobile, and Team web i
 - News is published to a SharePoint Team or Communication site a user follows or by someone a user works closely with.
 - News is boosted.
 - Someone comments on a new News post.
-- Someone ‘Likes’ a News post.
-- Someone is @mentioned in a comment on a news post. 
+- Someone "Likes" a News post.
+- Someone is @mentioned in a comment on a news post.
 
 > [!NOTE]
 >
@@ -52,7 +52,7 @@ End-users only receive notifications when the following conditions are met:
 2. Notifications are enabled in the Teams mobile app and are enabled in the notification settings option in Teams desktop.
 3. The notification is outside of the user's configured Teams quiet hours.
 4. The user has access to the news post.
-5. If audience targeting is enabled for the news post, the user must be a part of the selected Microsoft 365 audience. 
+5. If audience targeting is enabled for the news post, the user must be a part of the selected Microsoft 365 audience.
 
 Once these conditions are met, end-users will receive a notification when news is published by someone they work closely with, or a site they follow. Authors will also receive notifications when posts they publish are liked or commented on.
 
@@ -61,16 +61,16 @@ Once these conditions are met, end-users will receive a notification when news i
 - A SharePoint news page is published to [a site you follow](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c).
 - A SharePoint news page is published by [someone you work closely with](/graph/people-insights-overview).
 - A SharePoint news page is boosted, and the user is part of the audience target.
-- You're ‘@mentioned’ in a comment left on a SharePoint news page.
+- You're "@mentioned" in a comment left on a SharePoint news page.
 
-Authors can receive additional notifications when posts they publish are liked or commented on.
+Authors can receive extra notifications when posts they publish are liked or commented on.
 
 ### Authors receive notifications when
 
 - A user 'likes' a SharePoint news page the author created.
 - A user comments on a SharePoint news page the author created.
 
-After receiving a notification of either of these type, Viva Connections will batch additional notifications of the same type.  After the first comment notification to a user, Comments are batched in 20-min intervals. After the first like to a user, likes are batched in 60-min intervals.  
+After an author receives a notification of either of these type, Viva Connections will batch additional notifications of the same type. After the first comment notification to a user, Comments are batched in 20-min intervals. After the first like to a user, likes are batched in 60-min intervals.  
 
 ## Frequently Asked Questions
 

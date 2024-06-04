@@ -4,7 +4,7 @@ title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium
 ms.collection:
  - viva-insights-advanced
