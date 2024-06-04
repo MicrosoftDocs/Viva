@@ -74,7 +74,7 @@ Select **My Surveys** on the admin dashboard. Choose the Onboarding or Exit surv
  > Employee Lifecycle surveys often target only a few individuals. If that's the case, reducing your confidentiality threshold helps protect their privacy.
 
 - [Distribution](https://go.microsoft.com/fwlink/?linkid=2231414)
-- [Questions](https://go.microsoft.com/fwlink/?linkid=2231414)
+- [Questions](questions-setup.md)
 - [Reports](https://go.microsoft.com/fwlink/?linkid=2230977)
 >[!IMPORTANT]
 > The Overall Results report is recommended for viewing Employee Lifecycle surveys.
