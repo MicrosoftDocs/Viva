@@ -110,6 +110,8 @@ You can also choose to **Open Viva Glint** from this page:
 
 Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
 
-If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
+- [Check your eligibility](/microsoft-365/fasttrack/eligibility) for Microsoft FastTrack support.
+- If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
+- If you're not registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) and select **Sign In** to complete the registration procress and submit a request for assistance.
 
-To check your eligibility for FastTrack support, [use this link](/microsoft-365/fasttrack/eligibility).
+
