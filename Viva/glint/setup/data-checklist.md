@@ -26,9 +26,12 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Item   |Check that...   |
 |:----------|:-----------|
 |File name    |There aren't special characters (like @ or %) in the name.       |
-|File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).       |
+|File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |
 
+> [!CAUTION] 
+> Ensure that .csv files are UTF-8 encoded and _**NOT** UTF-8 with BOM encoded_. UTF-8 with BOM encoding results in upload errors.
+ 
 ## Review attribute level items
 
 |Item   |Check that...   |
