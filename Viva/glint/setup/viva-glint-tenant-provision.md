@@ -112,6 +112,6 @@ Microsoft FastTrack can provide help with Microsoft Viva foundational products a
 
 - [Check your eligibility](/microsoft-365/fasttrack/eligibility) for Microsoft FastTrack support.
 - If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
-- If you're not registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) and select **Sign In** to complete the registration procress and submit a request for assistance.
+- If you're not registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) and select **Sign In** to complete the registration process and submit a request for assistance.
 
 
