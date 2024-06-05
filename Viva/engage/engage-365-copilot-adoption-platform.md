@@ -42,7 +42,7 @@ This new community type includes onboarding prompts and a community template.
 
 ## Accept community presets for easy setup 
 
-Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and on-going community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
+Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and ongoing community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
 
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses _must be present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator who's setting up the community.
