@@ -110,7 +110,7 @@ The user needs to have one of these roles to be eligible to see the option of OK
 - Org owner
 
 > [!NOTE]
-> Note that team owners can only import OKRs to teams where they are the team owner and not to the Org level.
+> Team owners can only import OKRs to teams where they are the team owner and not to the Org level.
 
 ### How can users know if OKRs didn’t import successfully, and how they can reupload?
 
