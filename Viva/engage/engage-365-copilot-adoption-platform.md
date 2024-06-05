@@ -24,7 +24,7 @@ description: "Viva Engage rolls out a Copilot adoption community to share best p
 # Microsoft 365 Copilot adoption community in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
->View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
+>This feature is currently available only for private preview customers. The features described here are subject to change.
 
 Network admins and corporate communicators can now enable a new type of Viva Engage community specifically built to support adoption of Microsoft 365 Copilot.
 The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
