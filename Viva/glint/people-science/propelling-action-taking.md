@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/28/2024
+ms.date: 06/05/2024
 ---
 
 # Propel Action-taking through conversations - Viva People Science
@@ -26,7 +26,7 @@ The likelihood of employee feedback fueling organizational success hinges on the
 Compelling data points show action taking is critical:
 
 - People who don't believe action is taken are 7x more likely to
-be disengaged than people who don't believe action is taken.
+be disengaged than people who do believe action is taken.
 
 - Teams where the manager uses action planning in the Glint
 platform show a 7% increase in scores on average.
