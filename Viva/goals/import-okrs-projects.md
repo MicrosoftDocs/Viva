@@ -40,10 +40,10 @@ Viva Goals allows bulk importing of objectives, key results, and initiatives usi
 ## How to import OKRs and Initiatives
 
 1. Go to the Team or the Organization where you want to import OKRs and Initiatives and select  the drop-down next to the **Add Objective** button and select **Import OKRs.**
-IMAGE
+:::image type="content" source="../media/goals/import-okrs-projects/import-okr-option.png" alt-text="Screenshot showing how to import OKRs." lightbox="../media/goals/import-okrs-projects/import-okr-option.png":::
 
 1. This will open the page from which you can download the import template.
-IMAGE
+:::image type="content" source="../media/goals/import-okrs-projects/template-download-page.png" alt-text="Screenshot showing the template download page." lightbox="../media/goals/import-okrs-projects/template-download-page.png":::
 
 1. Read the instructions for using the template and select the link to download the Excel template.
     - The Excel template also includes all necessary instructions in the **Read Me** sheet.  
