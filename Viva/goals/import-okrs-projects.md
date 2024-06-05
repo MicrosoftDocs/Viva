@@ -62,7 +62,7 @@ Viva Goals allows bulk importing of objectives, key results, and initiatives usi
 
 ### View import status
 
-To view the details of import status and details for imports initiated in the past 28 days, select **View Status** from the banner that appears on top, or choose **Account Settings** > **Perferences** > **My Imports** from the left pane.
+To view the details of import status and details for imports initiated in the past 28 days, select **View Status** from the banner that appears on top, or choose **Account Settings** > **Preferences** > **My Imports** from the left pane.
 
 Once the import completes, you can download the import status report from the My Import summary page to view which OKRs and Initiatives were imported successfully and which were not.
 
