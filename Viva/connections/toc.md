@@ -58,7 +58,7 @@ ms.collection:
 
 #### [Embed videos in the Viva Connections feed](video-news-links.md)
 
-#### [Viva Connections mobile News notifications](mobile-notifications-viva-connections.md)
+#### [Viva Connections News notifications](mobile-notifications-viva-connections.md)
 
 #### [Frequently asked questions about the feed](faqs-viva-connections-feed.md)
 
