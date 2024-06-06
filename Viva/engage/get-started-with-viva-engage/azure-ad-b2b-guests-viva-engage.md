@@ -75,7 +75,7 @@ To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, 
      :::image type="content" source="../../media/yammer-aad-b2b-external-community-leave.png" alt-text="Screenshot of the button that lets you leave an external community.":::
 
     > [!NOTE]
-    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 Global administrator or a Microsoft Entra administrator.
+    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft Entra administrator.
 
 ## Guest capabilities and limitations
 
