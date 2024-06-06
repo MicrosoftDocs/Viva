@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2024
+ms.date: 6/06/2024
 ---
 
 # Use the Viva Glint Culture Survey template
@@ -79,7 +79,39 @@ Companies that proactively manage their culture show:
 |16|Adaptability - Adapt to Change|People at [Company Name] adapt well to changes.|
 |17|Alignment - Balance Demands| People at [Company Name] balance short-term demands with long-term direction.|
 |18|Improve| What are some words to describe the aspects of your company's culture that can be improved upon?|
-|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strenghts?|
+|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strengths?|
+
+### Additional culture drivers to consider
+
+|Item name|Item text|
+|----------|---------|
+|eSat|How happy are you working at [Company Name]?|
+|Inclusive Leaders|Leaders at [Company Name] value different perspectives.|
+|Culture| [Company Name] has a great culture.|
+|Humanity-Respect|People at [Company Name] treat each other with respect and dignity.|
+|Inclusiveness| [Company Name] has an inclusive environment.|
+|Demonstrate Culture|People at [Company Name] demonstrate the stated culture and values at work.|
+|Collaboration-Direct Communication|People at [Company Name] interact with each other in a direct and constructive way.|
+|Integrity|People at [Company Name] behave with integrity at work.|
+|Integrity-Do What They Say|People at [Company Name] behave in a way that is consistent with what they say.|
+|Adaptability-Take Chances|People at [Company Name] behave in a way that is consistent with what they say.|
+|Collaboration-Point of View|People at [Company Name] work hard to understand others' point of view.|
+|Describe|How would you describe the culture at [Company Name] to a friend?|
+|Innovation-Culture| [Company Name] is innovative.|
+|Learning-Growth Mindset|People at [Company Name] continuously develop abilities outside their current skillset.|
+|Resilience| [Company Name] is resilient.|
+|Rewarded|What behaviors or actions get rewarded at [Company Name]?|
+|Safety| [Company Name] is a very safe place to work.|
+|Trust| [Company Name] is trustworthy.|
+|Learning-Incorporate Learning|People at [Company Name] incorporate learning into their day-to-day work.|
+|Adaptability-Change Support|People at [Company Name]> support each other in their efforts to adapt to organizational changes.|
+|Collaboration-Involve Others|People at [Company Name] get input from others when making decisions.|
+|Integrity-Equality of Ideas|People at [Company Name] judge ideas based on quality and not on who expresses them.|
+|Collaboration-Team Oriented|People at [Company Name] work in teams to get things done.|
+|Company Performance| [Company Name] is a high performing organization.|
+|Execution-Implement New Things|People at [Company Name] excel at implementing new things.|
+|Perseverance|People at [Company Name] continue to be productive during times of uncertainty or stress.|
+|Purpose-Better World|People at [Company Name] focus on making the world a better place.|
 
 ## Should our Culture Survey be combined with other Glint survey programs?
 
