@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2024
+ms.date: 06/06/2024
 ---
 
 # Diversity and Inclusion survey program in Viva Glint
@@ -60,6 +60,24 @@ Diversity and Inclusion survey feedback provides:
 |10|Larger Purpose|Working for [Company Name] gives me a sense that I am part of something with a larger purpose.|
 |11|Best Interests - Manager|My immediate manager makes me feel they have my best interests in mind.|
 |12|DIB Changes|What should your company consider changing (doing less of, more of, or differently) in support of diversity, inclusion, and belonging?|
+
+### Additional Diversity and Inclusion items to consider
+
+|Item name|Item text|
+|--------|---------|
+|Career|I have good career opportunities at [Company Name].|
+|Care|At work, I feel cared about as a person.|
+|Speak My Mind|I feel free to speak my mind without fear of negative consequences.|
+|Respectful Treatment|I am treated with respect and dignity.|
+|Inclusion|Our team has a climate in which diverse perspectives are valued.|
+|Change Adaptation|I feel supported in my efforts to adapt to organizational changes.|
+|Non-Discrimination|I work in an environment that is free from harassment and discrimination.|
+|Appreciate Differences|My workgroup has a culture in which employees appreciate the differences that people bring to the workplace.|
+|Diversity|[Company Name] hires people from a variety of different backgrounds.|
+|Expressing Opinions|While at work, I am comfortable expressing opinions that diverge from my group.|
+|Leaders Care|Leaders in my company make me feel they have my best interests in mind.|
+|Quality of Ideas|In this workgroup, people’s ideas are judged on their quality, not on the personal characteristics of those who express them.|
+|Influence|I am able to influence decisions that affect my organization.|
 
 ## Admin setup for the Microsoft Copilot Impact survey template
 
