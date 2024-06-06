@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2024
+ms.date: 06/06/2024
 ---
 
 # Set up a Viva Glint Team Effectiveness Survey
@@ -52,5 +52,24 @@ Setting up a Team Effectiveness Survey as a recurring, stand-alone program or as
 |16|Commitment|I would want to work with my current team again.|
 |17|Learning|I learn from my teammates.
 
+### Additional Team Effectiveness drivers to consider
 
-***[Follow the guidance for Program Summary for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)***
+|Item name|Item text|
+|---------|---------|
+|Belonging|I feel like I belong in our team.|
+|Feedback|In our team, we provide feedback to each other that helps us improve our performance.|
+|Celebration|In our team, we do a good job of celebrating our successes.|
+|Coaching|Our [manager/project leader] provides coaching that enables our team’s success.|
+|Authenticity|I feel comfortable being myself in our team.|
+|Execution|Our team is making good progress on our objectives this quarter.|
+|Help|Our team members help each other when needed.|
+|Resources|Our team has the resources we need to do our jobs well.|
+|Responsibilities|Every member of our team meets their responsibilities.|
+|Satisfied|I am highly satisfied with my work team.|
+|Skills|Our team collectively has the skills and knowledge to be highly successful.|
+
+### Next step
+
+> [!div class="nextstepaction"]
+> [Follow Program Summary guidance to set up your program.](../../glint/setup/program-summary-overview.md)
+
