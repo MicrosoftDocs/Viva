@@ -249,7 +249,7 @@ Temporarily disable the SharePoint app bar:
 >
 > - It can take up to an hour for the app bar to be removed on a tenant where the app bar is already showing up.
 > - Running the command without the `$false` or `$true` value will cause it to fail.
-> - You must be using the latest version of [PowerShell](https://www.microsoft.com/download/details.aspx?id=35588).
+> - You must be using the latest version of [PowerShell](/powershell/scripting/install/installing-powershell-on-windows).
 > - If you are using previous versions, uninstall the previous version and then install the most up to date version. Previous versions of PowerShell can't coexist with the most up-to-date version of PowerShell.
 
 ### Enable the SharePoint app bar
