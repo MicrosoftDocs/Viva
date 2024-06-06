@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/25/2024
+ms.date: 06/06/2024
 ---
 
 # Create a Viva Glint onboarding survey 
@@ -58,6 +58,21 @@ Onboarding feedback creates an opportunity for organizations to rethink their on
 |Openness|I can openly express my thoughts, questions, and ideas without fear of negative consequences.|
 |Barriers|What barriers (if any) are slowing you down right now?|
 |Reasons for joining|What were the main reasons you joined [Company Name]?|
+
+### Additional Onboarding Lifecycle items to consider
+
+|Item Name|Item Text|
+|---------|----------|
+|Growth|I have good opportunities to learn and grow at [Company Name].|
+|Connection|I feel connected to my colleagues.|
+|Camaraderie|I have a good working relationship with members of my team.|
+|Purpose|The work that I do at [Company Name] is meaningful to me.|
+|Role|My role is an excellent fit with my strengths.|
+|Values|My role is an excellent fit with my strengths.
+|Career Goals|My career goals can be met at [Company Name].|
+|Demonstrate Culture|People at [Company Name] demonstrate the stated culture and values at work.|
+|Reasons for Joining|What were the main reasons you joined [Company Name]?|
+|Additional Feedback|What additional feedback would you like to share about your onboarding experience?|
 
 ## Next step
 
