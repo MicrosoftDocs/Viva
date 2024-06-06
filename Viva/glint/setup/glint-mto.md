@@ -118,7 +118,7 @@ To set up multitenant organization for this scenario, complete these three tasks
    2. [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
       > [!IMPORTANT]
       > This article only describes how synced users gain access to non-Viva Glint apps. Viva Glint access is controlled by ensuring that the Microsoft Entra IDs of synced users match employee data uploaded to the Glint app. Syncing users and uploading data to the Glint app are covered in tasks two and three.
-   4. [Enable B2B external collaboration settings](/external-id/external-collaboration-settings-configure).
+   4. [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
    5. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
    1. [Configure cross-tenant access settings for B2B collaboration](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
    1. [Bulk invite guest users for B2B collaboration tutorial](/entra/external-id/tutorial-bulk-invite) 
@@ -157,7 +157,7 @@ To set up multitenant organization for this scenario, complete these three tasks
    2. [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
       > [!IMPORTANT]
       > This article only describes how synced users gain access to non-Viva Glint apps. Viva Glint access is controlled by ensuring that the Microsoft Entra IDs of synced users match employee data uploaded to the Glint app. Syncing users and uploading data to the Glint app are covered in tasks two and three.
-   3. [Enable B2B external collaboration settings](/external-id/external-collaboration-settings-configure).
+   3. [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
    4. [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview).
    1. [Configure cross-tenant synchronization](/entra/identity/multi-tenant-organizations/cross-tenant-synchronization-configure).
 1. Set up an MTO policy between Tenants A and B, and sync users.
@@ -206,7 +206,7 @@ Since the multitenant organization is already set up, no other steps are needed.
 
 - [Cross-tenant access overview](/entra/external-id/cross-tenant-access-overview), especially the **Important considerations** section.
 - [Configure B2B collaboration cross-tenant access](/entra/external-id/cross-tenant-access-settings-b2b-collaboration).
-- [Enable B2B external collaboration settings](/external-id/external-collaboration-settings-configure).
+- [Enable B2B external collaboration settings](/entra/external-id/external-collaboration-settings-configure).
 - [Plan for multitenant organizations in Microsoft 365](/microsoft-365/enterprise/plan-multi-tenant-org-overview)
 - [Configure a multitenant organization using PowerShell or Microsoft Graph API](/entra/identity/multi-tenant-organizations/multi-tenant-organization-configure-graph?tabs=ms-powershell)
 - [What is a multitenant organization in Microsoft Entra ID?](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview)
