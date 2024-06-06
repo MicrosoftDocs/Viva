@@ -79,7 +79,7 @@ Companies that proactively manage their culture show:
 |16|Adaptability - Adapt to Change|People at [Company Name] adapt well to changes.|
 |17|Alignment - Balance Demands| People at [Company Name] balance short-term demands with long-term direction.|
 |18|Improve| What are some words to describe the aspects of your company's culture that can be improved upon?|
-|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strenghts?|
+|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strengths?|
 
 ### Additional culture drivers to consider
 
@@ -99,12 +99,12 @@ Companies that proactively manage their culture show:
 |Describe|How would you describe the culture at [Company Name] to a friend?|
 |Innovation-Culture| [Company Name] is innovative.|
 |Learning-Growth Mindset|People at [Company Name] continuously develop abilities outside their current skillset.|
-|Resillence| [Company Name] is resilient.|
+|Resilience| [Company Name] is resilient.|
 |Rewarded|What behaviors or actions get rewarded at [Company Name]?|
 |Safety| [Company Name] is a very safe place to work.|
 |Trust| [Company Name] is trustworthy.|
 |Learning-Incorporate Learning|People at [Company Name] incorporate learning into their day-to-day work.|
-|Adaptability-Change Supoort|People at [Company Name]> support each other in their efforts to adapt to organizational changes.|
+|Adaptability-Change Support|People at [Company Name]> support each other in their efforts to adapt to organizational changes.|
 |Collaboration-Involve Others|People at [Company Name] get input from others when making decisions.|
 |Integrity-Equality of Ideas|People at [Company Name] judge ideas based on quality and not on who expresses them.|
 |Collaboration-Team Oriented|People at [Company Name] work in teams to get things done.|
