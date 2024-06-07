@@ -111,7 +111,7 @@ Under **Query setup**:
     | Excel formatting actions taken using Copilot | The number of times users highlighted, sorted, and filtered tables in Excel using Copilot.  | 10/15/2023 | 
     | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
     | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook. | 10/15/2023 |
-    | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in Powerpoint. | 10/15/2023 |
+    | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint. | 10/15/2023 |
     | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams. | 10/15/2023 |
     | Copilot actions taken in Word  |  The number of Copilot actions completed by active Copilot users in Word.| 10/15/2023 |
     |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
@@ -119,7 +119,7 @@ Under **Query setup**:
     | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop. | 10/15/2023 |
     |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
     |  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
-    | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in Powerpoint. | 10/15/2023 |
+    | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
     |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
     | Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
     |  Days of active Copilot chat (work) usage  |  The number of days the user was actively using Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
