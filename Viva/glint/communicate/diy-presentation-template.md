@@ -1,6 +1,6 @@
 ---
 title: Viva Glint Do-it-yourself Insights Review template
-description: If using the Viva Glint in-platform presentation method won't work for a specific situation and you need to create a presentation, use this DIY deck template to identify and summarize key insights. 
+description: Use the Viva Glint platform live when presenting results to your leaders. If you do need to create your own presentation, this deck guides you through that process and helps identify and summarize key insights. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
