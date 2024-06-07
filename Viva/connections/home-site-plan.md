@@ -38,7 +38,7 @@ A SharePoint home site provides a customized landing experience that reflects th
 > - In the latest release, the ability to set a home site will move from the SharePoint Admin Center (SPAC) to the Viva Connections admin center.
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
-> - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
+> - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
 > - Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 

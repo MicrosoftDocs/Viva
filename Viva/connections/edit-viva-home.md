@@ -453,20 +453,20 @@ If you have owner permissions or higher, you can give access to new people and c
 > [!NOTE]
 > For customers who already have Viva Connections setup, your end users will be automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
 
-If your organization already has a SharePoint home site, and you want to keep it as the landing experience for the Connections desktop experience, use the PowerShell command listed in the following section to use the SharePoint home site. Learn more about [setting up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
+If your organization already has a SharePoint home site and you want to keep it as the landing experience for the Connections desktop experience, use the PowerShell command listed in the following section to use the SharePoint home site. Learn more about [setting up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
 
 ## Choose the default landing experience for Viva Connections desktop
 
-If your organization already has a SharePoint home site and you want to keep it as the landing experience for Viva Connections desktop, use the PowerShell command listed below in this section. If you decide to change the default experience from a home site back to the Viva Connections home experience, run this command again using the `$false` parameter. To run this cmdlet, you must be a Global admin or a SharePoint admin.
+If your organization already has a SharePoint home site and you want to keep it as the landing experience for the Connections desktop experience, use the PowerShell command listed below in this section. If you decide to change the default experience from a home site back to the Viva Connections home experience, run this command again using the `$false` parameter. To run this cmdlet, you must be a SharePoint admin.
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
    > [!NOTE]
    > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
-   > - Run the command as a Global Administrator or a SharePoint Administrator.
+   > - Run the command as a SharePoint Administrator.
    > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
-2. Connect to SharePoint as a [Global Administrator](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. Refer to [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for more information.
 
 3. Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`.
 
