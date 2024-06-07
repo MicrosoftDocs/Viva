@@ -52,6 +52,7 @@ You can use feature access management to manage access to the following features
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Global admin, Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Global admin, Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
+||Team conversations in Pulse reports*|No|Global admin|VivaPulse|
 |Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Global admin, Knowledge admin|VivaSkills| 
 
 
