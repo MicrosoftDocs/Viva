@@ -1,6 +1,6 @@
 ---
 title: Viva Glint Do-it-yourself Insights Review template
-description: If using the Viva Glint in-platform presentation method won't work for a specific situation and you need to create a presentation, use this DIY deck template to identify and summarize key insights. 
+description: Use the Viva Glint platform live when presenting results to your leaders. If you do need to create your own presentation, this deck guides you through that process and helps identify and summarize key insights. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/15/2024
+ms.date: 06/07/2024
 ---
 
 # Viva Glint Do-It-Yourself Insights Review template
@@ -30,7 +30,7 @@ Use the Viva Glint platform live when presenting results to your leaders. If you
 
 ## Think like a Microsoft Viva People Science Consultant
 
-Use the guidance on slides 3 and 4 to construct the best presentation for your organization.
+Use the guidance on slides three and four to construct the best presentation for your organization.
 
 > [!TIP]
 > Yellow boxes on each slide provide guidance as you put the deck together. *Delete the yellow boxes prior to sharing the presentation!*
@@ -57,14 +57,14 @@ Use the ACT framework to outline your presentation:
 
 - Present a high-level overview of your results and then move into key themes, which are usually a deep dive on opportunities to improve. We suggest showing no more than 1-2 opportunities from your survey. 
 
-- For each survey theme, use 1-2 slides to tell your story. Pairing quantitative data (e.g. item scores, heatmaps or alerts) with comment examples brings your story to life. 
+- For each survey theme, use one or two slides to tell your story. Pairing quantitative data (like item scores, heatmaps or alerts) with comment examples brings your story to life. 
 
 - Consider using external comparisons. Visit Viva Glint's blog to incorporate aggregate data into your presentation. Wellbeing survey items are a great source of insightful and timely information. 
 
 Rather than relying only on this PowerPoint deck for your conversation, use a few slides and then move into the live platform to uncover insights with your group.
 
 > [!TIP]
-> Save reports for specific survey items with filters applied aw you go! 
+> Save reports for specific survey items with filters applied as you go! 
 
 #### Collaborate
 
