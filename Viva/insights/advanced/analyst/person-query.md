@@ -133,7 +133,7 @@ Under **Query setup**:
     | Copilot enabled days for Teams  | The number of days the user had Copilot for Microsoft 365 enabled within Microsoft Teams. | 10/15/2023 |
 
    >[!Note]
-   >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Days of active Copilot usage in Teams" might return a figure that is larger than the figure returned by "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
+   >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Days of active Copilot usage in Teams" might return a figure that's larger than the figure returned by "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
 
 
 #### About metrics
