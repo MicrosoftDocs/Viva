@@ -28,7 +28,7 @@ description: "Plan Microsoft Viva Connections for your organization"
 >
 > - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
-> - You must have Global Admin or SharePoint admin permissions to access the Microsoft 365 admin center.
+> - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 > Viva Connections is available on mobile and tablet devices in GCC, GCC High, and DoD environments with limited features. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 In this phase, build a team of stakeholders to align on the goals and primary use cases for your organization's employee experience strategy. Start by meeting requirements, and then planning for each component of the experience. In the planning phase, consider success metrics and adoption tactics to ensure Viva Connections meets the need of your organization and users.
