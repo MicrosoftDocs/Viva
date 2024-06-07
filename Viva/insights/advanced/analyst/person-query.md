@@ -1,5 +1,5 @@
 ---
-ms.date: 06/06/2024
+ms.date: 06/07/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -131,6 +131,9 @@ Under **Query setup**:
     | Copilot enabled days for Productivity App  | The number of days the user had Copilot for Microsoft 365 enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
     | Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Copilot for Microsoft 365 enabled.  | 10/15/2023 |
     | Copilot enabled days for Teams  | The number of days the user had Copilot for Microsoft 365 enabled within Microsoft Teams. | 10/15/2023 |
+
+   >[!Note]
+   >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Days of active Copilot usage in Teams" might return a figure that is larger than the figure returned by "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
 
 
 #### About metrics
