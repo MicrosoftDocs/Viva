@@ -1,6 +1,6 @@
 ---
 title: Managers using Viva Glint ACT Conversations
-description:  
+description: Viva Glint ACT conversations build quality managers who lead engaged teams.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
