@@ -37,7 +37,6 @@ description: "Learn how to set up Viva Connections in the Microsoft 365 admin ce
 > - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 > - You must have Teams administrator (or higher) permissions to pin the Viva Connections app in the Teams Admin Center.
 > - If your SharePoint home site is part of a multi-geo tenant outside of the main geo you will need to manage your permissions in the SharePoint Admin Center.
-> - Centralized Viva Connections administration in the Microsoft 365 Admin center is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 [Microsoft Viva Connections](viva-connections-overview.md) is an employee experience app in Microsoft Teams that brings together relevant news, conversations, resources, and tools in one place for every employee. It's built on your current Microsoft 365 ecosystem to help you engage, inform, and empower your workforce. The Viva Connections experience is deployed and accessed in Microsoft Teams.
 
@@ -80,8 +79,8 @@ Create an all-encompassing Connections experience for the entire organization, o
 
 > [!NOTE]
 >
-> - Organizations are limited to creating a maximum of ten Viva Connections experiences overall per tenant.
 > - A Microsoft Viva Suite license or Viva Communications and Communities license is required to create more than one Viva Connections experience. Check the [current license for your organization in billing under licenses](https://www.microsoft.com/microsoft-viva/pricing).
+> - Organizations are limited to creating a maximum of 50 Viva Connections experiences overall per tenant.
 > - You must have SharePoint admin permissions to access the MAC.
 > - If this is the first time you're setting up Viva Connections, it's recommended you pin the app in Teams.
 
