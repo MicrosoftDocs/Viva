@@ -215,8 +215,9 @@ and practical expertise on what fuels change within organizations.
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
 > Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results.
 
-## [Managers using Viva Glint ACT Conversations](https://go.microsoft.com/fwlink/?linkid=2275137)
+## [Managers using Viva Glint ACT Conversations](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf))
 > Read this article from Viva People Science for a deeper dive into the ACT conversation and how your managers can use them:
+
 > - ACT conversations create trust on teams
 > - ACT conversations help employees appreciate each other and reinforce the positive
 > - ACT conversations drive focus
