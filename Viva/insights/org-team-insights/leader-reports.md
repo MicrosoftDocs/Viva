@@ -1,5 +1,5 @@
 ---
-ms.date: 05/15/2024
+ms.date: 06/17/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -115,6 +115,33 @@ This report is powered by the following metrics:
 |---|---|
 | External collaboration hours | Average time employees spent in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
 | Employees' contact with external partners | Number of employees in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
+
+### Hybrid workplace
+
+>[!IMPORTANT]
+> The report described below is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
+The Hybrid workplace report helps leaders understand the experience of hybrid, remote, and onsite employees at their companies. The report identifies when and how employees are working in a hybrid work environment, and how the employee experience might differ depending on whether an employee works onsite, remote, or hybrid.
+
+This report can help leaders answer the following questions:  
+
+* How many and what type of employees are working onsite, remote, and hybrid, and when?
+* Are different work modes (onsite, remote, hybrid) affecting the employee experience? And, how so?
+
+This report is available to organizations who have either:  
+
+* The Remote Work Detector signal enabled
+* Or, the OnsiteDays column is populated in your organizational data file. [Learn more about the organization data upload process](../advanced/admin/prepare-org-data.md).
+
+This report is powered by the following metrics: 
+
+| Metric | Definition |
+|----|----|
+| % of organization’s employees by work mode | Percentage of your organization’s employees that work remote, hybrid, and onsite, on average.|
+| Internal network size by work mode  | Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks.  |
+| After-hours collaboration hours by work mode | Number of hours a person spent in meetings, emails, Teams chats, Teams calls, and Teams channels with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours. |
+| Percent of employees working flexible hours  | Employees with nine or fewer active hours a day, but who spend more than five hours a week outside of typical or set working hours. |
+| Meetings with manager hours | Number of hours a person spent in any meetings with their manager, including meetings with others as well as manager 1:1s. |
 
 #### Privacy and engagement rates
 
