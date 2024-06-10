@@ -1,5 +1,5 @@
 ---
-title: Managers using Viva Glint ACT Conversations
+title: How managers can use Viva Glint ACT Conversations
 description: Viva Glint ACT conversations build quality managers who lead engaged teams.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 06/10/2024
 ---
 
-# Managers using Viva Glint ACT Conversations
+# How managers can use Viva Glint ACT Conversations
 
 Research shows that having conversations in the workplace are critical to productivity and well-being. But there are lots of reasons for avoiding important conversations:
 - It’s not always clear how to facilitate a good conversation.
@@ -27,7 +27,7 @@ Research shows that having conversations in the workplace are critical to produc
 This is the reason Viva People Science developed the ACT Conversation Guide. ACT conversations serve as a simple framework for having productive conversations to foster meaningful connection and continuous improvement. The conversation framework allows managers and teams to practice the steps of a quality feedback conversation and make them a habit.
 
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
-> Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
+Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
 
 ## Why ACT works
 
@@ -73,7 +73,7 @@ Managers play the role of:
 
 - Embed ACT principles. Bite-sized feedback, dialogue, collaboration between managers and teams, and quick, targeted actions feed progress. 
 
-- ACT conversations help employees appreciate each other. **Acknowledge,**tips encourage sharing stories of positive progress. Focus on the positive, in addition to what needs to improve.
+- ACT conversations help employees appreciate each other. **Acknowledge,** tips encourage sharing stories of positive progress. Focus on the positive, in addition to what needs to improve.
 
 ## Are ACT conversations just one more thing to do?
 
