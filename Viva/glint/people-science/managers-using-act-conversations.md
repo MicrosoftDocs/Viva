@@ -63,7 +63,7 @@ Managers play the role of:
 
 ## Make ACTs work for your organization
 
-- The first step to building or changing a habit, is wanting to change the habit. At Glint, we talk about feeling accountable versus holding people accountable. When managers feel accountable for improving engagement, they are likely to invest in building good habits around action taking. 
+- The first step to building or changing a habit is wanting to change the habit. At Glint, we talk about feeling accountable versus holding people accountable. When managers feel accountable for improving engagement, they are likely to invest in building good habits around action taking. 
 
 - Integrate ACT into ongoing processes such as performance management conversations, stand-up meetings, business reviews, staff meetings, etc. Don’t add more meetings!
 
