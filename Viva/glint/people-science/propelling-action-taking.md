@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/05/2024
+ms.date: 06/10/2024
 ---
 
 # Propel Action-taking through conversations - Viva People Science
@@ -215,9 +215,9 @@ quality feedback conversation and make it a habit.
 The ACT conversation guide is built on a combination of behavioral science
 and practical expertise on what fuels change within organizations. 
 
-**Acknowledge**
-**Collaborate**
-**Take one step forward**
+- **A**cknowledge
+- **C**ollaborate
+- **T**ake one step forward
 
 ### ACT conversations create trust on teams
 
