@@ -59,7 +59,7 @@ Managers play the role of:
 
 - **Roadblock Remover**: Taking action can be tough due to organizational constraints. Managers are the first-line of escalation to help overcome roadblocks and often must navigate larger organizational structures to help their teams drive change.
 
-- **Connector**: The most important role of the manager is to have ongoing, meaningful conversations with their team that align with priorities. Managers can check-in frequently through team meetings or one-on-ones to ensure improvements are being made, then course correct as needed. Managers also connect with other groups that may be working on similar challenges.
+- **Connector**: The most important role of the manager is to have ongoing, meaningful conversations with their team that align with priorities. Managers can check in frequently through team meetings or one-on-ones to ensure improvements are being made, then course correct as needed. Managers also connect with other groups that may be working on similar challenges.
 
 ## Make ACTs work for your organization
 
