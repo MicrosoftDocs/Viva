@@ -46,7 +46,7 @@ necessary actions are unequally distributed.
 
 In some organizations, taking action on engagement results is seen as HR’s responsibility. Glint data shows that employees typically expect
 HR and leadership to own the actions that result from survey results. That result isn't unexpected as in many organizations, front-line managers don’t
-receive results for their teams. If they do receive results, they receive them weeks or months later. This is often viewed as a good practice because it gives each level ofleadership time to synthesize results and prepare responses. **Inadvertently, it signals to managers that engagement data is not theirs to own and improve.**
+receive results for their teams. If they do receive results, they receive them weeks or months later. This is often viewed as a good practice because it gives each level of leadership time to synthesize results and prepare responses. **Inadvertently, it signals to managers that engagement data is not theirs to own and improve.**
 
 **As a result, managers often shift the responsibility of acting and communicating actions to leadership and HR**. This may cause HR teams to feel responsible for addressing all feedback and that feeling is overwhelming for already stretched teams. 
 
@@ -207,7 +207,7 @@ and practical expertise on what fuels change within organizations.
 - **T**ake one step forward
 
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
-Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results.
+Share this guide with your managers to help them navigate the Glint platform and interpret and use survey results.
 
 ## [Managers using Viva Glint ACT Conversations](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf))
 Read this article from Viva People Science for a deeper dive into the ACT conversation and how your managers can use them:
@@ -221,7 +221,7 @@ Read this article from Viva People Science for a deeper dive into the ACT conver
 - Create an agile, continuous improvement mindset
 - Are ACT conversations just one more thing we have to do?
 - Should action planning be a separate meeting?
-- Work on a problem that’s unrelated to key business activities or that you can’t easily influenc
+- Work on a problem that’s unrelated to key business activities or that you can’t easily influence
 - What is the manager's role?
 - Tips for making ACT work for your organization
 
