@@ -22,7 +22,7 @@ items:
         items:
           - name: Privacy policies 
             href: setup/add-privacy-policy.md
-          - name: Advanced privacy guide
+          - name: Security and compliance for data usage
             href: setup/gdpr-special-categories.md
           - name: Confidentiality versus anonymity
             href: setup/anonymous-confidential.md
