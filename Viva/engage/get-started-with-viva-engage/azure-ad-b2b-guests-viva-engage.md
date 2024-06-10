@@ -75,7 +75,7 @@ To configure Microsoft Entra ID, Microsoft 365 Groups, and SharePoint settings, 
      :::image type="content" source="../../media/yammer-aad-b2b-external-community-leave.png" alt-text="Screenshot of the button that lets you leave an external community.":::
 
     > [!NOTE]
-    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft 365 Global administrator or a Microsoft Entra administrator.
+    > Leaving the Viva Engage community doesn't remove the guest account from your organization's directory. This must be done by a Microsoft Entra administrator.
 
 ## Guest capabilities and limitations
 
@@ -101,6 +101,7 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 ## What features aren't supported for Guests?
 
 We're working hard to bring all Viva Engage functionality to the new B2B guests in Viva Engage. Here's a list of features that are in progress:
+
 - **Personal email, non-Microsoft 365 business email, and phone number-based legacy accounts** – Users with Microsoft 365 Business email accounts can be added as guests. Email domains like Gmail and Yahoo mail aren't supported in this release.
 - **Private messages** – Private messages are disabled for B2B guests in Viva Engage.
 - **Live events** – Guests can't attend live events.
@@ -111,6 +112,7 @@ We're working hard to bring all Viva Engage functionality to the new B2B guests 
 ## FAQ
 
 **Q: Is the Microsoft Entra B2B guest experience in Viva Engage available for customers who have a Viva Engage network with EU data residency?**
+
 A: Yes!
 
 **Q: Can we invite Microsoft Entra B2B guests to Viva Engage External Networks?**
@@ -123,7 +125,7 @@ A: Yes. With Native Mode for Microsoft 365 for Viva Engage, all communities and 
 
 **Q: Can Viva Engage have dynamic membership groups include guests from a domain?**
 
-A: Yes. Admins can create dynamic membership rules for guests in a Viva Engage community through the Azure portal. An example is: **user.userType -eq "Guest"** and user.email **-contains "@xyz.com"** - this rule adds all guests from the domain xyz.com to the specified Viva Engage community.
+A: Yes. Admins can create dynamic membership rules for guests in a Viva Engage community through the Azure portal. An example is: user.userType -eq "Guest" and user.email -contains "@xyz.com" - this rule adds all guests from the domain xyz.com to the specified Viva Engage community.
 
 **Q: I don’t want to allow guests in the Viva Engage communities of our network. How do I disable external users from participating in our communities?**
 
