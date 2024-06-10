@@ -13,7 +13,8 @@ ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection:
 - m365initiative-viva-pulse 
-- essentials-privacy
+- essentials-security
+- essentials-compliance
 search.appverid: MET150
 ---
 
