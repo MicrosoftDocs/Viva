@@ -62,7 +62,7 @@ respond to every opportunity surfaced in the results. This result is more obviou
 when surveys are long, giving managers hours of work to comb through results and countless problems to fix. Instead of
 feeling empowered, they feel deflated.
 
-### Support and enablement is limited
+### Support and enablement are limited
 
 Managers play a critical role in fostering engagement and learning
 within an organization, but many lack the tools and support they need to
@@ -81,7 +81,7 @@ prioritize them when other business needs arise. This sentiment is especially tr
 surveys only occur once per year or every other year. When managers
 feel they have 12 or more months to make improvements, they’re more
 likely to overplan and overcommit. And it’s likely they lose
-momentum before they cactually start to take sustainable action!
+momentum before they actually start to take sustainable action!
 Bottom line, lengthy action plans, built into
 a silo can take months to act upon. Unless people are enabled to
 build good and simple habits around sustainable action taking, it’s likely
@@ -173,7 +173,7 @@ what’s not. Course correct along the way.
 hold each other accountable. This process can be a 30-minute check-in
 from initial results and then 10 minutes on your monthly
 weekly team meeting agenda to keep it alive. The key is not only to
-discuss action when the survey results comes out.
+discuss action when the survey results come out.
 
 ## Understand that conversations matter
 
@@ -233,4 +233,4 @@ and practical expertise on what fuels change within organizations.
 
 ## Summary
 
-Having meaningful conversations that drive connection and focus is hard. ACT conversations require skill. By providing a simple framework focused on repeating the right habits, skills are learned. Once manager understand feedback and connection, conversations become habits, which propel action and continuous improvement. And these habits won't be dependent on HR. When this culture embeds itself into an organization, people feel heard and valued, and they can thrive.
+Having meaningful conversations that drive connection and focus is hard. ACT conversations require skill. By providing a simple framework focused on repeating the right habits, skills are learned. Once managers understand feedback and connection, conversations become habits, which propel action and continuous improvement. And these habits won't be dependent on HR. When this culture embeds itself into an organization, people feel heard and valued, and they can thrive.
