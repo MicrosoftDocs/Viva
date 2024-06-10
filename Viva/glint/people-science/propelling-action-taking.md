@@ -23,8 +23,6 @@ The likelihood of employee feedback fueling organizational success hinges on the
 
 ## Compelling data points reveal why action taking is critical 
 
-Compelling data points show action taking is critical:
-
 - People who don't believe action is taken are 7x more likely to
 be disengaged than people who do believe action is taken.
 
@@ -48,32 +46,28 @@ necessary actions are unequally distributed.
 
 In some organizations, taking action on engagement results is seen as HR’s responsibility. Glint data shows that employees typically expect
 HR and leadership to own the actions that result from survey results. That result isn't unexpected as in many organizations, front-line managers don’t
-receive results for their teams. If they do receive results, they receive them weeks or months later. This is often viewed as a good practice because it gives each level of
-leadership time to synthesize results and prepare responses. Inadvertently, it signals
-to managers that engagement data is not theirs to own and improve.
-As a result, managers often shift the responsibility of acting and
-communicating actions to leadership and HR. For this reason, HR teams feel responsible for addressing all the feedback during an engagement survey and that feeling is overwhelming for already stretched teams. Finally,
-limited interaction between senior leadership and employees means that employees have less visibility into the actions being taken.
+receive results for their teams. If they do receive results, they receive them weeks or months later. This is often viewed as a good practice because it gives each level of leadership time to synthesize results and prepare responses. **Inadvertently, it signals to managers that engagement data is not theirs to own and improve.**
+
+**As a result, managers often shift the responsibility of acting and communicating actions to leadership and HR**. This may cause HR teams to feel responsible for addressing all feedback and that feeling is overwhelming for already stretched teams. 
+
+And importantly, limited interaction between senior leadership and employees means that employees have less visibility into the actions being taken.
 
 Even in organizations where ownership is shifted to
-front-line managers, challenges still exist. Managers often believe that
-they bear the entire responsibility of action-taking and that they must
-respond to every opportunity surfaced in the results. This result is more obvious
-when surveys are long, giving managers hours of work to comb through results and countless problems to fix. Instead of
-feeling empowered, they feel deflated.
+front-line managers, challenges exist. Managers often believe that
+they bear the entire responsibility of action-taking and must
+respond to every opportunity surfaced in the results. This gives managers hours of work spent combing through results and countless problems to fix. Instead of feeling empowered, they feel deflated.
 
 ### Support and enablement are limited
 
 Managers play a critical role in fostering engagement and learning
-within an organization, but many lack the tools and support they need to
+within an organization, but many lack the tools and support needed to
 contribute effectively to team performance and development. First-time
 managers on the front-line manage nearly as much as two-thirds of the
-workforce, and over half of these managers don’t get adequate training
-to prepare them for these roles.
+workforce. Over half of these managers don’t get adequate training.
 
 ### Complex action plans are unsustainable
 
-Many action-taking processes overthink on the planning instead of the actual execution.
+Many action-taking processes overthink on the planning instead of the execution.
 Creators of the Agile Manifesto know that it’s more important to respond to change than follow a plan.
 When 80% of action-taking effort is focused on developing long, detailed
 action plans, the process feels cumbersome. Cumbersome processes are easy to de-
@@ -84,14 +78,14 @@ likely to overplan and overcommit. And it’s likely they lose
 momentum before they actually start to take sustainable action!
 Bottom line, lengthy action plans, built into
 a silo can take months to act upon. Unless people are enabled to
-build good and simple habits around sustainable action taking, it’s likely
+build good, simple habits around sustainable action taking, it’s likely
 to run out of steam.
 
 ### Feedback can feel hard to act on
 
 Whether giving or receiving feedback, people shy away from being
 direct because it feels uncomfortable, especially on teams that might
-lack psychological safety. Feedback, which is
+lack [psychological safety](https://go.microsoft.com/fwlink/?linkid=2274114). Feedback, which is
 perceived as negative doesn’t always result in improvement because
 most people want to avoid it. Feedback may feel like a personal attack
 when managers see it as a reflection of their abilities. Some assume it’s their responsibility to fix all the issues while
@@ -213,7 +207,7 @@ and practical expertise on what fuels change within organizations.
 - **T**ake one step forward
 
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
-Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results.
+Share this guide with your managers to help them navigate the Glint platform and interpret and use survey results.
 
 ## [Managers using Viva Glint ACT Conversations](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf))
 Read this article from Viva People Science for a deeper dive into the ACT conversation and how your managers can use them:
@@ -227,7 +221,7 @@ Read this article from Viva People Science for a deeper dive into the ACT conver
 - Create an agile, continuous improvement mindset
 - Are ACT conversations just one more thing we have to do?
 - Should action planning be a separate meeting?
-- Work on a problem that’s unrelated to key business activities or that you can’t easily influenc
+- Work on a problem that’s unrelated to key business activities or that you can’t easily influence
 - What is the manager's role?
 - Tips for making ACT work for your organization
 
