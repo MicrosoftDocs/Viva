@@ -213,23 +213,23 @@ and practical expertise on what fuels change within organizations.
 - **T**ake one step forward
 
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
-> Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results.
+Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results.
 
 ## [Managers using Viva Glint ACT Conversations](https://adoption.microsoft.com/files/viva/glint/Microsoft-Viva-Glint-manager-quick-guide.pdf))
-> Read this article from Viva People Science for a deeper dive into the ACT conversation and how your managers can use them:
+Read this article from Viva People Science for a deeper dive into the ACT conversation and how your managers can use them:
 
-> - ACT conversations create trust on teams
-> - ACT conversations help employees appreciate each other and reinforce the positive
-> - ACT conversations drive focus
-> - ACT conversations get to the root of the behaviors that help or hinder progress
-> - ACT conversations identify individual commitment
-> - ACT conversations foster an environment of ongoing learning
-> - Create an agile, continuous improvement mindset
-> - Are ACT conversations just one more thing we have to do?
-> - Should action planning be a separate meeting?
-> - Work on a problem that’s unrelated to key business activities or that you can’t easily influenc
-> - What is the manager's role?
-> - Tips for making ACT work for your organization
+- ACT conversations create trust on teams
+- ACT conversations help employees appreciate each other and reinforce the positive
+- ACT conversations drive focus
+- ACT conversations get to the root of the behaviors that help or hinder progress
+- ACT conversations identify individual commitment
+- ACT conversations foster an environment of ongoing learning
+- Create an agile, continuous improvement mindset
+- Are ACT conversations just one more thing we have to do?
+- Should action planning be a separate meeting?
+- Work on a problem that’s unrelated to key business activities or that you can’t easily influenc
+- What is the manager's role?
+- Tips for making ACT work for your organization
 
 ## Summary
 
