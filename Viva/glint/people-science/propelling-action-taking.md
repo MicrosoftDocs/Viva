@@ -112,7 +112,7 @@ shift.
 with in a simple and delightful way.
 - **Strategy** that aligns with the priorities and flow of work in a business.
 
-Let’s unpack each of these components.
+Let’s unpack each of these components:
 
 ### People
 
@@ -194,15 +194,9 @@ the workplace are critical to productivity and well-being. Unfortunately few
 organizations fully grasp the art of having conversations that are
 meaningful and propel progress.
 
-### So what is the problem with conversations?
+### What is the problem with conversations?
 
-People give lots of excuses for avoiding important conversations. But at
-the heart of it, it’s because:
-
-- It’s not always clear how to facilitate a good conversation and
-therefore the value is unclear.
-
-- Conversations about feedback can feel awkward and/or intimidating.
+People have lots of reasons for avoiding important conversations. It’s not always clear how to facilitate a good conversation and therefore the value is unclear. Conversations about feedback can feel awkward or intimidating.
 
 ## The reason Viva People Science developed the ACT Conversation. 
 
