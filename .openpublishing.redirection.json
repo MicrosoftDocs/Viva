@@ -2110,6 +2110,26 @@
       "source_path": "Viva/solutions/solutions.yml",
       "redirect_url": "/viva/microsoft-viva-overview",
       "redirect_document_id": false
-  }
+  },
+  { 
+      "source_path": "Viva/troubleshoot/connections/cant-find-app-in-teams-mobile.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": true
+  },
+  { 
+      "source_path": "Viva/troubleshoot/connections/cant-update-app.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/troubleshoot/connections/cant-upload-package.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
+  },
+  { 
+      "source_path": "Viva/troubleshoot/connections/error-accessing-app-from-teams-desktop.md",
+      "redirect_url": "/viva/connections/viva-connections-overview",
+      "redirect_document_id": false
+  },
   ]
 }

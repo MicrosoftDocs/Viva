@@ -1,20 +1,22 @@
 ---
 title: Security and Compliance for data usage
 description: At Microsoft Viva Glint, data privacy and trust are key priorities to encourage elevated levels of honest and useful feedback. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Confidentiality, personal data, data privacy, privacy, trust, sensitive data, GDPR 
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-compliance
+ - essentials-security
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 06/10/2024
 ---
 
 # Security and compliance for data usage
