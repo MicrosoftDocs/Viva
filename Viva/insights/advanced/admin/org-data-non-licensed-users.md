@@ -1,7 +1,7 @@
 ---
 ms.date: 06/11/2024
-title: Show organizational data for non-licensed users
-description: Explains how admins can change settings in Viva Insights to show organizational data for non-licensed users in meeting query results.
+title: Show organizational data for nonlicensed users
+description: Explains how admins can change settings in Viva Insights to show organizational data for nonlicensed users in meeting query results.
 author: zachminers
 ms.author: v-zachminers
 ms.topic: concept-article
@@ -14,11 +14,11 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Show organizational data for non-licensed users
+# Show organizational data for nonlicensed users
 
-When creating a meeting query, Viva Insights analysts can select meeting organizer attributes to appear in the query output. These attributes come from the organizational data you’ve uploaded to Viva Insights. By default, Viva Insights does not show organizational data for non-licensed meeting organizers in meeting queries, but you can choose to do so.
+When creating a meeting query, Viva Insights analysts can select meeting organizer attributes to appear in the query output. These attributes come from the organizational data you’ve uploaded to Viva Insights. By default, Viva Insights doesn't show organizational data for nonlicensed meeting organizers in meeting queries, but you can choose to do so.
 
-### How to show organizational data for non-licensed users 
+### How to show organizational data for nonlicensed users 
 
 1. Go to the **Privacy settings** page in the advanced insights app.
 2. Select the box under **Show organizational data for non-licensed users**.
@@ -29,15 +29,15 @@ When creating a meeting query, Viva Insights analysts can select meeting organiz
 
 ### How it works
 
-If you choose to show organizational data for non-licensed users, meeting query results will show meeting organizer attributes for non-licensed users if their data was included in the organizational data upload. In the following table, the meeting in the second row was organized by a user whose data was included in the organizational data upload but does not have a Viva Insights license.
+If you choose to show organizational data for nonlicensed users, meeting query results show meeting organizer attributes for nonlicensed users if their data was included in the organizational data upload. In the following table, the meeting in the second row was organized by a user whose data was included in the organizational data upload but who doesn't have a Viva Insights license.
 
-:::image type="content" source="../images/non-licensed-table-01.png" alt-text="Screenshot that shows a user whose data was included in the org data upload but who does not have a Viva Insights license.":::
+:::image type="content" source="../images/non-licensed-table-01.png" alt-text="Screenshot that shows a user whose data was included in the org data upload but who doesn't have a Viva Insights license.":::
 
-By default, Viva Insights does not show organizational data for non-licensed meeting organizers. The following table shows what the output of the same query looks like by default.
+By default, Viva Insights doesn't show organizational data for nonlicensed meeting organizers. The following table shows what the output of the same query looks like by default.
 
-:::image type="content" source="../images/non-licensed-table-02.png" alt-text="Screenshot that shows what the output of a query would look like for a non-licensed user.":::
+:::image type="content" source="../images/non-licensed-table-02.png" alt-text="Screenshot that shows what the output of a query would look like for a nonlicensed user.":::
 
-Regardless of whether you decide to show organizational data for non-licensed employees or not:
+Regardless of whether you decide to show organizational data for nonlicensed employees or not:
 
 * The meeting organizer’s PersonId is never shown in meeting query results.
 * Organizational data of employees who opted out of Viva Insights is never exposed in meeting query results.
