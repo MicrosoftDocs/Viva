@@ -100,7 +100,7 @@ items:
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
-          - name: Show org data for non-licensed users
+          - name: Show org data for nonlicensed users
             href: advanced/admin/org-data-non-licensed-users.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
