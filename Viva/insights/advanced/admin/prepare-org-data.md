@@ -1,5 +1,5 @@
 ---
-ms.date: 05/23/2024
+ms.date: 06/12/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -223,6 +223,7 @@ This section contains information about the attributes that you use in the organ
 |**SupervisorIndicator**| The manager status of an employee as **IC** (individual contributor), **Mngr** (manager), or **Mngr+** (manager of managers).| String |`IC`| Reserved|
 |**OnsiteDays**| The average number of days per week an employee works from the company’s main worksite. OnsiteDays can be based on badge data or on other sources—for example, tags in the HR system showing the number of days an employee plans to work onsite.| String | `4` |Reserved|
 |**Location** | An employee’s office location.| String | `Burbank` | Reserved|
+| **CountryOrRegion** |  The country or region in which the employee works. | String | Japan | Reserved |
 | **My_Custom_attribute**<br> (example: **Campus**)| An attribute you create | String | `West` | N/A (custom)<sup>4</sup>
 
 <sup> 1. You need to include required fields. Each required field needs non-blank values for each row.  </sup>
