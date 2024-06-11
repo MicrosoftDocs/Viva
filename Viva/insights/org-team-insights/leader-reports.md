@@ -1,5 +1,5 @@
 ---
-ms.date: 05/15/2024
+ms.date: 06/11/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -115,6 +115,28 @@ This report is powered by the following metrics:
 |---|---|
 | External collaboration hours | Average time employees spent in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
 | Employees' contact with external partners | Number of employees in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
+
+### Meeting cost and quality
+
+The **Meeting cost and quality** report helps leaders understand their organization’s meeting investments. They can see how much time their team spends in meetings and what share of it goes to large or long recurring meetings. If a lot of time is spent in large or long recurring meetings, then a leader might decide that it's worthwhile to encourage reviews of these kinds of meetings, because reviewing just one or two can impact a lot of employees' time.
+
+This report can help you answer the following questions:
+
+* How much time does my group spend in time-intensive meetings?
+* What formats of meeting are consuming the most time for my team?
+* Are there any opportunities among the meetings I’ve organized to streamline the meeting format or improve the meeting quality? 
+
+This report is powered by the following metrics:
+
+| Metric | Definition |
+|---|---|
+| Time in meetings  | How much time a person spends in meetings is based on accepted meetings on their Outlook calendar and excludes calendar items that are likely non-meetings, such as appointments. |
+| Meeting cost | Meeting cost is estimated based on the total time in meetings multiplied by a flat hourly cost assumption. You can adjust the hourly cost assumption in your Viva Insights settings. The estimated cost of upcoming meetings uses the same hourly cost assumption multiplied by the meeting’s scheduled duration, frequency, and the number of required invitees who haven't declined. |
+| Large meetings | Meetings where nine or more people are invited, including the meeting’s organizer. Large meetings can be useful for sharing information, but as meeting sizes grow, it becomes more difficult to engage all participants or drive decisions and action.  |
+| Long meetings | Meeting occurrences that are scheduled for more than one hour. Does not include hour-long meetings. Long meetings can be useful for covering many topics or having a deep discussion on a single topic, but organizers should be aware that beyond an hour, tired attention spans can reduce the value of the meeting.  |
+| Recurring meetings | Meetings that are part of a series.|
+
+Optionally, some insights display the amount of time spent in meetings as a currency value. This can be useful for leaders who are thinking about their organization’s time as an investment. The conversion to currency doesn't use any individual or group’s pay information. Users can adjust the conversion rate and units, or choose to see these values as hours, in their Insights settings.
 
 #### Privacy and engagement rates
 
