@@ -1,4 +1,5 @@
 ---
+ms.date: 06/17/2024
 title: Use and configure the Admin Digest email
 description: Provides information to admins about the Viva Insights Admin Digest email, and how to unsubscribe.
 author: zachminers
