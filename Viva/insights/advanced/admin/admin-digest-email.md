@@ -27,4 +27,4 @@ The Admin digest is on by default for your tenant.   Use the following methods t
 
 4. Select **Save**.
 
-You can also access these preferences from the Unsubscribe link at the bottom of the Digest email.
+You can also access these preferences from the **Unsubscribe** link at the bottom of the Digest email.
