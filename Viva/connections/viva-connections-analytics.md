@@ -82,7 +82,6 @@ This section provides usage data on unique users, engaged users, total views, an
 >
 > A Microsoft Viva suite or Viva Communications and Communities license is required to view data on returning users. See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more information.
 
-
     :::image type="content" source="../media/connections/viva-connections-analytics/analytics-usage-report.png" alt-text="Screenshot showing data covering overall traffic." lightbox="../media/connections/viva-connections-analytics/analytics-usage-report.png":::
 
 ### Usage details
@@ -113,7 +112,7 @@ Reports can be filtered on the last seven, 30, or 90 days, or the last 12 months
 
 :::image type="content" source="../media/connections/viva-connections-analytics/analytics-filter.png" alt-text="Screenshot showing data filtered by the last 30 days." lightbox="../media/connections/viva-connections-analytics/analytics-filter.png":::
 
-Select **Download report** at the top of the analytics page to download an Excel spreadsheet that contains all the information on the analytics page across three separate tabs and sheets of data. The spreadsheet will contain all data available that the account has access to (based on license). 
+Select **Download report** at the top of the analytics page to download an Excel spreadsheet that contains all the information on the analytics page across three separate tabs and sheets of data. The spreadsheet will contain all data available that the account has access to (based on license).
 
 :::image type="content" source="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png" alt-text="Screenshot showing downloaded analytics report in a spreadsheet." lightbox="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png":::
 
@@ -140,7 +139,8 @@ Your organization might not want to see analytics data due to local data and com
 8. Enable or disable the setting by running the following command:
 
     Run `Set-SPOTenant -DisableVivaConnectionsAnalytics $True`
-8. Run `Get-SPOTenant` to confirm the setting is updated.
+
+9. Run `Get-SPOTenant` to confirm the setting is updated.
 
 ## Explanations for common report errors
 
