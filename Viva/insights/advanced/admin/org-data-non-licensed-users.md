@@ -1,5 +1,6 @@
 ---
-ms.date: 06/11/2024
+ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 06/12/2024
 title: Show organizational data for nonlicensed users
 description: Explains how admins can change settings in Viva Insights to show organizational data for nonlicensed users in meeting query results.
 author: zachminers
