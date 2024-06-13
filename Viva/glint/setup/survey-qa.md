@@ -40,7 +40,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 ### Reporting
 
-- **Attributes for Alerts:** Select attributes to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts generate**.
+- **Attributes for Alerts:** Select attributes to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts are generated**.
 - **Primary Hierarchy:** Select the primary hierarchy for default reporting views and sections (usually Manager Hierarchy).
 - **Secondary Hierarchy:** Select the secondary hierarchy for default reporting views and sections.
 
