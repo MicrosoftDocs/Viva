@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/02/2024
+ms.date: 06/13/2024
 ---
 
 # Review Viva Glint settings and survey programs before launch
@@ -40,7 +40,7 @@ Selections that admins make in [General Settings](manage-general-settings.md) la
 
 ### Reporting
 
-- **Attributes for Alerts:** Select attributes to use to generation of the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). When blank, all attributes are included.
+- **Attributes for Alerts:** Select attributes to use for populations in the [Alerts Report](/viva/glint/reports/alerts-report-attrition-risk). **When blank, no alerts generate**.
 - **Primary Hierarchy:** Select the primary hierarchy for default reporting views and sections (usually Manager Hierarchy).
 - **Secondary Hierarchy:** Select the secondary hierarchy for default reporting views and sections.
 
