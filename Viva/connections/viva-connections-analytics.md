@@ -36,7 +36,7 @@ Understand how and when users engage with components of the Viva Connections exp
 > - Usage reports are only supported for Worldwide Production Environments and for some Special Cloud deployments of Microsoft 365. Refer to the [usage report](#whats-in-the-usage-report) section for details.
 > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
-> - The analytics feature and centralized Viva Connections administration in the Microsoft 365 Admin center are unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
+> - The analytics feature is unavailable in GCC, GCC High, and DoD environments. Please refer to the [list of service availability](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government#service-availability-for-each-plan) for more information.
 
 ## How to access the report
 
@@ -112,7 +112,7 @@ Your organization might not want to see analytics data due to local data and com
    > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
    > - For tenants that are setup for more than one region, the option to access analytics will have to be disabled for each region using the PowerShell command.
 
-2. Connect to SharePoint as a [Global Administrator or SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+2. Connect to SharePoint as a [SharePoint Administrator](/sharepoint/sharepoint-admin-role) in Microsoft 365. To learn how, see [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 3. Connect to the tenant's SharePoint service by running the following command:
 

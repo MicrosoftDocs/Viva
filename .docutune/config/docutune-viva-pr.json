@@ -1,30 +1,28 @@
 {
-  "BaseConfiguration": "docutune-default.json",
   "Docsets": [
     {
       "DocsetName": "OfficeDocs-Briefing",
-      "BasePath": "/briefing"
+      "BuildSourceFolder": "Briefing"
     },
     {
       "DocsetName": "OfficeDocs-MyAnalytics",
-      "BasePath": "/myanalytics"
+      "BuildSourceFolder": "MyAnalytics"
     },
     {
       "DocsetName": "OfficeDocs-Viva",
-      "BasePath": "/viva"
+      "BuildSourceFolder": "Viva"
     },
     {
       "DocsetName": "OfficeDocs-WorkplaceAnalytics",
-      "BasePath": "/workplace-analytics"
+      "BuildSourceFolder": "WorkplaceAnalytics"
     },
     {
       "DocsetName": "teams-insights",
-      "BasePath": "/insights"
+      "BuildSourceFolder": "Teams-insights"
     },
     {
       "DocsetName": "Workplace-Analytics-Insights",
-      "BasePath": "/workplace-analytics-insights"
+      "BuildSourceFolder": "workplace-analytics-insights"
     }
-  ],
-  "MetadataMultilineValues": true
+  ]
 }

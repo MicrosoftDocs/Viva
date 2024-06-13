@@ -22,7 +22,7 @@ items:
         items:
           - name: Privacy policies 
             href: setup/add-privacy-policy.md
-          - name: Advanced privacy guide
+          - name: Security and compliance for data usage
             href: setup/gdpr-special-categories.md
           - name: Confidentiality versus anonymity
             href: setup/anonymous-confidential.md
@@ -353,6 +353,9 @@ items:
     items:
         - name: Propel action-taking
           href: people-science/propelling-action-taking.md
+          items: 
+            - name: Managers using ACT conversations
+              href: people-science/managers-using-act-conversations.md
         - name: Factors for historical imports
           href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning
