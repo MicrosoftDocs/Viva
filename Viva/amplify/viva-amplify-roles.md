@@ -25,7 +25,7 @@ You can make sure that everyone in your organization has the right permissions b
   
 ## Admin roles
 
-Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can configure the Viva Amplify experience for their end users from within the Viva Amplify admin experience. This role is assigned to users by a Microsoft 365 Global admin.  
+Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can configure the Viva Amplify experience for their end users from within the Viva Amplify admin experience.
 
 The following roles and permissions are required to set up Viva Amplify.
 
