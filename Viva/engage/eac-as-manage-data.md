@@ -149,7 +149,6 @@ When the user's account activity data is ready, a message with a link to the dat
 3. Select the link to open it.
 
 
-
 The data export contains the following files:
 
 | File | Contents |
