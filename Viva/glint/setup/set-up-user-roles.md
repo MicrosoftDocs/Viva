@@ -115,7 +115,7 @@ Select the **Add/Edit Employees** button. The *Choose a way to add employees* di
 
 Add members to a User Role by choosing from these options:
 
-- Attribute Rules - [User rules](#attribute-rule-based-user-role) like location or department to populate a User Role. This dynamically changes with your employee data uploads.
+- Attribute Rules - [User rules](#attribute-rule-based-user-roles) like location or department to populate a User Role. This dynamically changes with your employee data uploads.
 - Import - Use a CSV or XLSX file to [import employees](#import-user-roles-in-bulk) for this User Role. This removes attribute rules from this User Role.
 
 > [!TIP]
