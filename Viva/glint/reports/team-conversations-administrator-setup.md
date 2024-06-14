@@ -134,8 +134,8 @@ Reminders begin when the User Role group gets Live access. This may be different
 - Can be sent in any language enabled for this survey 
 - Can be previewed 
 
-> [!NOTE]
-> Team Conversations email content customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon. [Learn more about customizing Team Conversation email content](team-conversations-content-cusomization.md).
+#### Customize Team Conversations email content
+[Learn more about customizing Team Conversations email content](team-conversations-content-cusomization.md).
 
 ### Coaching page 
 

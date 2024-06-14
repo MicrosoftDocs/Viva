@@ -23,9 +23,9 @@ search.appverid:
 
 Campaigns are an interactive way to drive employee engagement. They provide power to build company culture, community, and belonging.
 
-Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](https://support.microsoft.com/en-us/topic/community-campaigns-in-viva-engage-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8). 
+Viva Engage offers two types of campaigns: *Official* campaigns, which are available to the entire organization, and *community* campaigns, which are exclusive to the community’s membership. Learn more how community admins can [create, manage, and delete community campaigns here](https://support.microsoft.com/en-us/topic/community-campaigns-in-viva-engage-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8).
 
-Use this article to create, manage, and delete official campaigns. You must have Microsoft 365 Global admin, Engage admin, or corporate communicator permissions to do this.
+Use this article to create, manage, and delete official campaigns. You must have Engage admin or corporate communicator permissions to do this.
 
 >[!NOTE]
 >Campaigns are only available in Viva Engage Premium. Learn more about licensing [here](manage-engage-licenses-microsoft-365.md).
@@ -114,17 +114,18 @@ Engage admin and corporate communicators have access to analytics that help moni
 
 ### Remove a post
 
-Corporate communicators and Engage admins can remove a post from an official campaign if it doesn't align with the campaign's purpose. This action removes the post from the official campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
+If a post doesn't align with an official campaign's purpose, a corporate communicator or Engage admin can remove it. This action removes the post from the official campaign landing page without affecting the original post on either the storyline or community. If you remove a post in error, you can make it reappear on the campaign page by adding a comment with the campaign hashtag to the original post.
 
 :::image type="content" alt-text="Screenshot of the post menu where you can find the Remove command." source="../media/engage/campaigns/remove-camp-post.png" lightbox="../media/engage/campaigns/remove-camp-post.png":::
 
 ### Export campaign data
 
-Engage administrators can use a network data export to get a record of all campaigns in the network. The campaigns.csv file stores attributes, such as community IDs and campaign IDs, for both official and community campaigns created on the network. For more details, see [Export network data](/viva/engage/eac-as-manage-data/#export-tenant-data-by-date-range).
+Engage admins can use a network data export to get a record of all campaigns in the network. The campaigns.csv file stores attributes, such as community IDs and campaign IDs, for both official and community campaigns created on the network. For more details, see [Export network data](/viva/engage/eac-as-manage-data/#export-tenant-data-by-date-range).
 
 ### Corporate communicator privileges
 
 Corporate communicators can perform the following functions to manage official campaigns:
+
 - Publish official campaigns as **Active** and visible to all users in the network
 - Set **Active** campaigns to **Ended** when a campaign is finished
 - Republish **Ended** campaigns as **Active** for recurring campaigns
