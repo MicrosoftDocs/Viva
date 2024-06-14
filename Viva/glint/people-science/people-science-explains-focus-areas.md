@@ -53,7 +53,7 @@ Your organization can add **custom content** to leverage its own learning resour
 >[!IMPORTANT]
 >The biggest risk for an organization is sending out a survey, collecting feedback, and failing to act upon it. Glint offers an array of support resources to ensure effective action planning, communication of progress, and a measureable boost to business outcomes.
 
-## Guidance for customizing Action Plans in Viva Glint
+## Guidance for customizing Action Plans 
 
 >[!div class="nextstepaction"]
 > [Customize Action Plans](https://go.microsoft.com/fwlink/?linkid=2230867)
