@@ -31,6 +31,7 @@ Understand how and when users engage with components of the Connections experien
 
 > [!NOTE]
 >
+> - The ability to view data for each of your organization’s Connections experiences, data on returning users, and data beyond 30 days is currently being rolled out and should be completed by the end of June 2024.
 > - Member level permissions (or higher) are required to view usage analytics for Connections.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license to create two or more experiences (up to 50). For more information, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing).
