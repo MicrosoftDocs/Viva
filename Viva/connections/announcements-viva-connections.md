@@ -216,7 +216,7 @@ After [choosing to create a new announcement](#accessing-the-announcements-page)
     :::image type="content" source="../media/connections/announcements-viva-connections/announcement-review.png" alt-text="Screenshot of the announcement review pane after creating an announcement."lightbox="../media/connections/announcements-viva-connections/announcement-review.png":::
 
 > [!NOTE]
-> Once an announcement has been sent, message details and end date can still be edited.
+> Once an announcement has been sent, message details and end date cannot be edited.
 
 ## How to schedule an announcement to send later
 
@@ -261,7 +261,7 @@ Choose **+ New announcement** and follow the steps to [draft your announcement](
 
 :::image type="content" source="../media/connections/announcements-viva-connections/announcement-page-new-announcement.png" alt-text="Screenshot of the new announcement button highlighted.":::
 
-### Edit an active, scheduled, and drafted announcement
+### Edit a scheduled and drafted announcement
 
 1. From the **Announcements** page, select the **edit** (pencil) icon for the announcement you want to make changes to.
 
