@@ -19,7 +19,7 @@ ms.date: 06/15/2024
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
 
-Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the platform. The release schedule is subject to change and is updated, as appropriate. 
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the platform. The release schedule is subject to change and is updated as appropriate. 
 
 >[!TIP]
 >Inform survey takers if this short instance of downtime occurs during a survey-taking window. In most cases, platform downtime will be less than twelve hours.
