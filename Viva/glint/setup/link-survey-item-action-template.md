@@ -1,5 +1,5 @@
 ---
-title: Linking a resource to an Action Plan template in Viva Glint
+title: Link a resource to an Action Plan template in Viva Glint
 description: Edit an existing action plan template and link new items to it to create a customized action template. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 06/14/2024
 ---
 
-# Linking a new survey item to an action template in Viva Glint
+# Link a resource to an Action Plan template in Viva Glint
 
 Most standard survey items are automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. *This action creates a new template (clone), which needs to be renamed.*
 
