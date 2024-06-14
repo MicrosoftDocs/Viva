@@ -135,9 +135,9 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Action plans
         items:
-          - name: Customize action plans 
+          - name: Customize Action Plans with Content Resources
             href: setup/customize-action-plans.md
-          - name: Link items to action plan templates
+          - name: Link resources to Action Plan templates
             href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
