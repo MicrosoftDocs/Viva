@@ -65,7 +65,7 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
-              - name: Cconvert a key to OpenSSH format
+              - name: Convert a key to OpenSSH format
                 href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
@@ -136,13 +136,14 @@ items:
               href: setup/question-mapping.md
       - name: Encourage action with Nudges
         href: communicate/communicate-with-nudges.md
-      - name: Customize action plans 
-        href: setup/customize-action-plans.md
+      - name: Action plans
         items:
-            - name: Link items to action plan templates
-              href: setup/link-survey-item-action-template.md
-            - name: Embed videos
-              href: setup/embedding-content-resources.md
+          - name: Customize Action Plans with Content Resources
+            href: setup/customize-action-plans.md
+          - name: Link resources to Action Plan templates
+            href: setup/link-survey-item-action-template.md
+          - name: Embed videos
+            href: setup/embedding-content-resources.md
       - name: Manage translations 
         href: setup/language-translations.md
       - name: Character limits
