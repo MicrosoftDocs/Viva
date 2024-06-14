@@ -25,7 +25,7 @@ When you assign user licenses as part of a bundled Microsoft 365 subscription pl
   
 The Viva Engage Core service plan also enables access to Viva Engage. This functionality ensures uninterrupted Viva Engage experiences for your users. You can block users who don't have Viva Engage Core licenses from accessing Viva Engage by turning on the security setting **Block Microsoft 365 users without Viva Engage licenses** (see [Start blocking users who don't have Viva Engage licenses](manage-engage-licenses-microsoft-365.md#StartBlocking) in this article).
   
-*You must be a Microsoft 365 Global administrator or user management administrator to do the following operations.*
+*You must be a user management administrator to do the following operations.*
   
 Users who have a Viva Engage Core license can access the Viva Engage in Teams application, provided that it was installed through the Teams admin center. Learn more about [installing Viva Engage](/viva/engage/setup).
 

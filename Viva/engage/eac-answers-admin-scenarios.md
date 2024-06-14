@@ -21,7 +21,10 @@ search.appverid:
 
 # Administrator scenarios for Answers in Viva Engage
 
-Administration of Answers requires either an Engage admin or Answers admin role. To designate an Answers admin, [add a Knowledge Manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). All Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
+Administration of Answers requires either an Engage admin or Answers admin role.
+
+>[!NOTE]
+>The Microsoft 365 Global administrator can designate an Answers admin by [adding a Knowledge manager in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal?context=%2Fazure%2Factive-directory%2Froles%2Fcontext%2Fugr-context). Knowledge managers become Answers admins and have elevated permissions over end users. To better align the experiences of Topics management and Answers administration, you can assign the same users that manage Topics to manage Answers. For more information, see:
 
 - [Assign a role to a group using Privileged Identity Management](/azure/active-directory/roles/groups-pim-eligible)
 - [Creating a role-assignable group in Microsoft Entra ID](/azure/active-directory/roles/groups-create-eligible)  
@@ -62,6 +65,7 @@ The Answers admin or Engage admin can use the information panel to provide guida
 :::image type="content" source="../media/engage/admin/ans-info-pan-end-user.png" lightbox="../media/engage/admin/ans-info-pan-end-user.png" alt-text="Screenshot of how the information panel looks to end users.":::
 
 ### Edit the information panel
+
 1. Select the edit icon from the top left corner of the information panel.
 1. Enter the content specific to your organization.
 1. Select **Save and publish** to allow all Answers users access to the information panel content.

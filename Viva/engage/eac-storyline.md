@@ -30,7 +30,7 @@ When storyline is enabled in your organization, you see the following changes in
 
 ## Set up storyline
 
-Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). 
+Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). 
 
 1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
