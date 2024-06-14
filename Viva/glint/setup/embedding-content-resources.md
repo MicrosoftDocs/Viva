@@ -82,4 +82,4 @@ From your Glint admin dashboard, select the **Configure** symbol and then **Cont
 7.	Select **Publish**.
 8.	Confirm the update.
 
-### [To become a LinkedIn Learning customer, use this link](https://learning.linkedin.com/).  
+[To become a LinkedIn Learning customer, use this link](https://learning.linkedin.com/).  
