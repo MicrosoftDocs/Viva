@@ -21,14 +21,14 @@ ms.date: 06/14/2024
 
 Suggested Action templates contain content that Microsoft Viva Glint includes as suggested resources to help managers achieve team-approved Focus Areas. Resources used in Action Plan templates must first exist in Content Resources.
 
-## Viva People Science explains Focus Areas and action planning
+## Viva People Science explains Focus Areas and Action Plans
 
-Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. It's designed to increase work engagement on your team and within your company.
+Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. It's designed to increase work engagement on your team and within your company.
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action taking](https://go.microsoft.com/fwlink/?linkid=2261087)
 
-## Understand terminology associated with Action Plans and Content Resources
+## Understand terminology associated with Content Resources and Action Plans
 
 This terminology assists with understanding how Glint sets up Action Plan templates: 
 
@@ -38,12 +38,12 @@ This terminology assists with understanding how Glint sets up Action Plan templa
 |**Suggested Action Templates**|The overall template associated with a survey item. Choosing a Focus Area from survey results directs managers to the Suggested Action Template associated with the chosen key driver|
 |**Suggested Action Items**|The components of a Suggested Action Template| 
 |**Content Resources**|Articles, images, PDFs, and videos that are available to managers in a Suggested Action Template|
+|**Standard content**|Content that is prepopulated into Glint Content Resources. Content must first exist or be added in *Content Resources* before it is attached to a Suggested Action template.|
+|**Custom content**|Content that you, as the Viva Glint customer, have uploaded to your Content Resources|
 
 ## Familiarize yourself with the Content Resources feature
 
 Access **Content Resources** from the *Action Taking* section on your admin dashboard. 
-
-All content that exists in *Content Resources* is considered **Viva Glint standard content**. Content may exist as articles, images, PDF files, or videos. Content must first exist or be added in *Content Resources* before it is attached to a Suggested Action template.
 
 :::image type="content" source="../../media/glint/setup/action-plans-content-resources.png" alt-text="Screenshot of admin dashboard access to Content Resources.":::
 
@@ -85,5 +85,5 @@ Access **Suggested Action templates** from the *Action Taking* section on your a
 
 :::image type="content" source="../../media/glint/setup/action-plans-suggested-templates.png" alt-text="Screenshot of admin dashboard access to Suggested Action Templates.":::
 
-[Follow this guidance to map Content Resources to Action Plans](https://go.microsoft.com/fwlink/?linkid=2275456)
+## [Follow this guidance to map Content Resources to Action Plans](https://go.microsoft.com/fwlink/?linkid=2275456)
 
