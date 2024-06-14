@@ -4,20 +4,18 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 03/31/2024
+ms.date: 06/14/2024
 audience: admin
-ms.topic: get-started
+ms.topic: article
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection: 
     - enabler-strategic
     - m365initiative-viva-learning
-    - essentials-get-started
+    - magic-ai-copilot
 ms.localizationpriority: medium
 description: A guide to creating and managing Microsoft Copilot Academy 
 ---
-
-
 
 # Microsoft Copilot Academy 
 
@@ -37,7 +35,7 @@ Users need to meet the following criteria to access Microsoft Copilot Academy:
 
 Microsoft Copilot Academy is enabled by default and discoverable for users who meet the criteria within their Viva Learning app under the **Academies** dropdown navigation menu.
 
-Users with Microsoft Copilot and Viva Suite premium licenses will receive an in-app notification on Copilot Academy from Microsoft Teams.
+Users with Microsoft Copilot and Viva Suite premium licenses receive an in-app notification on Copilot Academy from Microsoft Teams.
 
 Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Learning under the **Manage academies** section. 
 
@@ -45,7 +43,7 @@ Admins can disable Microsoft Copilot Academy from the **Admin** tab in Viva Lear
 
 ## Language support 
 
-Microsoft Copilot Academy is currently available in 8 Languages: 
+Microsoft Copilot Academy is currently available in eight Languages: 
 
 - English (United States)
 
@@ -63,7 +61,7 @@ Microsoft Copilot Academy is currently available in 8 Languages:
 
 - 中文(中国)
 
-The language of Microsoft Copilot Academy is automatically determined based on the Viva Learning language. If an unsupported language is encountered, Microsoft Copilot Academy will fall back to a related language following Microsoft Corporate, External, and Legal Affairs guidelines.
+The language of Microsoft Copilot Academy is automatically determined based on the Viva Learning language. If an unsupported language is encountered, Microsoft Copilot Academy falls back to a related language following Microsoft Corporate, External, and Legal Affairs guidelines.
 
 ## Create your own custom academy
 
