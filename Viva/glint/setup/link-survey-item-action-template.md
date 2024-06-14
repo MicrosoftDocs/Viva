@@ -49,7 +49,7 @@ Standard resources are most often automatically linked to a Suggested Action tem
    
 1. Choose a name that resonates with you, for ease of finding it later. Select **Done**. *Your new Suggested Action Template now appears as a Custom template*.
 
-   :::image type="content" source="../../media/glint/setup/action-plan-custom-new.png" alt-text="Screenshot of the the custom Action Plan template created by cloning.":::
+   :::image type="content" source="../../media/glint/setup/action-plan-custom-new.png" alt-text="Screenshot of the custom Action Plan template created by cloning.":::
 
    > [!NOTE]
    >Suggested Action templates update in real time. Often standard survey items are shared across multiple survey programs. Ensure the update is useful for anyone who might currently be using the Suggested Action Plan template.
