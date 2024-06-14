@@ -37,7 +37,7 @@ Standard resources are most often automatically linked to a Suggested Action tem
 1. Type in the key driver or a few words from the item to search and find it.
 1. Select **Update**.
 
-   :::image type="content" source="../../media/glint/setup/action-plan-update.png" alt-text="Screenshot of the pencil symbol used to open the menu to add more questions." lightbox="../../media/glint/setup/action-plan-update.png" :::
+   :::image type="content" source="../../media/glint/setup/action-plan-update.png" alt-text="Screenshot of the update window used to add a new question." lightbox="../../media/glint/setup/action-plan-update.png" :::
 
 1. The *new* item now shows in the *Questions* section. Select **Save**.
 
