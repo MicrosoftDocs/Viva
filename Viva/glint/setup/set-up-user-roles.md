@@ -186,4 +186,4 @@ This functionality works for roles which already have filters and/or populations
 
 Custom access is intended for users who need to have their default access overridden or are in a role that is so specific, it needs to be *per user* rather than at the User Role level. For example, use custom access for HRBPs who serve unique combinations of employee groups in your organization. To grant custom access in bulk to multiple users for survey, Focus Area, and Admin access, see: [Advanced Configuration uploads](advanced-config-uploads.md).
 
-### [Guidance to grant custom User Role access here](https://go.microsoft.com/fwlink/?linkid=2275371).
+
