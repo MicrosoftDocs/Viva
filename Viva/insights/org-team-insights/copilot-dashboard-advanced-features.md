@@ -1,5 +1,5 @@
 ---
-ms.date: 5/28/2024
+ms.date: 6/14/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -70,7 +70,7 @@ The adoption and impact pages use different calculations for their tally counts.
 * 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
 
 >[!Note]
->Adoption and impact data underneath the filter represents the four complete weeks that ended on the second to last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the second to last Saturday would be March 9, and the dashboard would represent activity between Sunday, February 11 and Saturday, March 9.
+>Adoption and impact data underneath the filter represent the four complete weeks that ended on the last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the last Saturday would be March 16, and the dashboard would represent activity between Sunday, February 18 and Saturday, March 16.
 
 ### Select the filters for your analysis in the dashboard
 
