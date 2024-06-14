@@ -124,6 +124,9 @@ items:
               href: setup/export-distribution-lists.md
       - name: Set up User Roles
         href: setup/set-up-user-roles.md
+        items:
+            - name: Custom User Roles
+              href: setup/custom-user-role.md
       - name: Set up Focus Area periods
         href: setup/focus-area-period-feature.md
       - name: Use the Question Library
