@@ -1,12 +1,12 @@
 ---
-title: Linking a new survey item to an action template in Viva Glint
+title: Linking a resource to an Action Plan template in Viva Glint
 description: Edit an existing action plan template and link new items to it to create a customized action template. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keyword: delete resources, delete custom content,standard content, adding action plan resources
+keyword: delete resources, delete custom content,standard content, add action plan resources
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2024
+ms.date: 06/14/2024
 ---
 
 # Linking a new survey item to an action template in Viva Glint
