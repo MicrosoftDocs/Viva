@@ -118,7 +118,7 @@ Use the following steps to block users who don't have Viva Engage Core licenses.
 
 ## FAQ
 
-#### Why are Viva Engage Core licenses per user?
+#### Why are Viva Engage Core licenses "per user"?
 
 Per-user licenses let you assign Viva Engage to a subset of users in your company, typically for a geographical or team-by-team rollout. Only users who have a Viva Engage Core license can see the Viva Engage tile in the Microsoft 365 app launcher and the Viva Engage application in Teams.
   
@@ -130,6 +130,6 @@ Licenses are enforced only for users who sign in with Microsoft 365 identity.
 
 You can [Enforce Office 365 identity](/viva/engage/configure-your-viva-engage-network/enforce-office-365-identity) for your legacy Yammer users.
   
-### Q: How can I tell if all of my Yammer or Viva Engage users have accounts in Microsoft 365?
+#### Q: How can I tell if all of my Yammer or Viva Engage users have accounts in Microsoft 365?
 
 A: [Export your list of users](/viva/engage/eac-as-manage-data) from Yammer or Viva Engage, and then check for users who aren't in Microsoft 365. For more information, see [Audit Viva Engage users in networks connected to Microsoft 365](/viva/engage/manage-viva-engage-users/audit-users-connected-to-office-365).

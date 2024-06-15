@@ -19,9 +19,9 @@ ms.assetid: 85516b0c-79ad-4483-8534-4477c8d26e1a
 description: "Understand the relationship between a Viva Engage network and a Microsoft 365 tenant."
 ---
 
-# Viva Networks networks and Microsoft 365 tenants
+# Viva Engage networks and Microsoft 365 tenants
 
-For the best end-user and management experience, it's required that each Microsoft 365 tenant is associated with just one Viva Engagement network. If you don't have this configuration, we strongly recommend that you [consolidate previously migrated networks](consolidate-multiple-networks.md) into a single primary network for your tenant. When you do this, you move Viva Engage into a supported state for your tenant and prevent your networks from being automatically consolidated.
+To provide the best end-user and management experience, we require each Microsoft 365 tenant to be associated with a single Viva Engagement network. If you don't have this configuration, we strongly recommend that you [consolidate previously migrated networks](consolidate-multiple-networks.md) into a single primary network for your tenant. By doing this, you move Viva Engage into a supported state for your tenant, and prevent your networks from being automatically consolidated.
   
 > [!NOTE]
 > Have you recently received a communication from Viva Engage stating that your Microsoft 365 tenant is associated with two or more Viva Engage networks? If you're wondering what that means, read this article for context, and the more detailed [blog post from Viva Engage support](https://askyammer.github.io/post/2016-04-15-your-office365-tenant-is-associated-with-two-or-more-canonical-home-yammer-networks/) for information about what actions you can take. 
@@ -149,7 +149,7 @@ Here's a list of key capabilities (related to managing Viva Engage in Microsoft 
 
 Once all users in the tenant can log in to the network with their Microsoft 365 accounts, you can manage the lifecycle of all users in Microsoft 365 and also set up Microsoft 365 single sign-on.
   
- **Administrator lifecycle management:** Administrators who belong to the Microsoft 365 Global administrator role in the Microsoft 365 tenant will be added as [Viva Engage Verified Administrators](../manage-viva-engage-users/manage-viva-engage-admins.md) to the matching network(s); after the Microsoft 365 Global administrator role is removed from their user account, they're no longer Verified Administrators on Viva Engage. In the example above, if a global admin has two emails, `admin@contoso.com` and `admin@fabrikam.com`, this administrator is added to both the `contoso.com` network and `fabrikam.com` network as Verified Administrator. But as explained in the Sign-in section, they can only sign in to one of the networks with their Microsoft 365 credentials.
+ **Administrator lifecycle management:** Administrators who belong to the Microsoft 365 Global administrator role in the Microsoft 365 tenant will be added as [Viva Engage Verified Administrators](eac-key-admin-roles-permissions.md) to the matching networks; after the Microsoft 365 Global administrator role is removed from their user account, they're no longer Verified Administrators on Viva Engage. In the example above, if a global admin has two emails, `admin@contoso.com` and `admin@fabrikam.com`, this administrator is added to both the `contoso.com` network and `fabrikam.com` network as Verified Administrator. But as explained in the Sign-in section, they can only sign in to one of the networks with their Microsoft 365 credentials.
   
  **Domain lifecycle management:** When a Microsoft 365 tenant is associated with many Viva Engage networks, you can still manage Viva Engage domains across their lifecycle in Microsoft 365.
   
