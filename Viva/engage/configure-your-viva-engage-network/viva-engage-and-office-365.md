@@ -149,7 +149,7 @@ Here's a list of key capabilities (related to managing Viva Engage in Microsoft 
 
 Once all users in the tenant can log in to the network with their Microsoft 365 accounts, you can manage the lifecycle of all users in Microsoft 365 and also set up Microsoft 365 single sign-on.
   
- **Administrator lifecycle management:** Administrators who belong to the Microsoft 365 Global administrator role in the Microsoft 365 tenant will be added as [Viva Engage Verified Administrators](../eac-key-admin-roles-permissions.md) to the matching networks; after the Microsoft 365 Global administrator role is removed from their user account, they're no longer Verified Administrators on Viva Engage. In the example above, if a global admin has two emails, `admin@contoso.com` and `admin@fabrikam.com`, this administrator is added to both the `contoso.com` network and `fabrikam.com` network as Verified Administrator. But as explained in the Sign-in section, they can only sign in to one of the networks with their Microsoft 365 credentials.
+ **Administrator lifecycle management:** Administrators who belong to the Microsoft 365 Global administrator role in the Microsoft 365 tenant will be added as [Viva Engage Verified Administrators](../eac-key-admin-roles-permissions.md#verified-administrator) to the matching networks; after the Microsoft 365 Global administrator role is removed from their user account, they're no longer Verified Administrators on Viva Engage. In the example above, if a global admin has two emails, `admin@contoso.com` and `admin@fabrikam.com`, this administrator is added to both the `contoso.com` network and `fabrikam.com` network as Verified Administrator. But as explained in the Sign-in section, they can only sign in to one of the networks with their Microsoft 365 credentials.
   
  **Domain lifecycle management:** When a Microsoft 365 tenant is associated with many Viva Engage networks, you can still manage Viva Engage domains across their lifecycle in Microsoft 365.
   
@@ -205,7 +205,7 @@ You have the following options to move out of this unsupported configuration:
   |:-----|:-----|
   |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |`Contoso.onmicrosoft.com`  <br/> `Contoso.com`  <br/> `Fabrikam.com`  <br/> |
 
-- Create separate Viva Engage networks, one per tenant. In the example above, you remove either `contoso.com` or `fabrikam.com` from the Viva Engage network, and create a new network with that domain. To remove Viva Engage domains from your network, contact the [Viva Engage Support](https://go.microsoft.com/fwlink/?LinkId=523736) team. Before removing a domain from a network, delete all the user accounts containing that domain. If needed, these users can later be invited as guests from the newly created network. At the end, you reach the following state:
+- Create separate Viva Engage networks, one per tenant. In the example above, you remove either `contoso.com` or `fabrikam.com` from the Viva Engage network, and create a new network with that domain. To remove Viva Engage domains from your network, contact the [Viva Engage Support](https://support.microsoft.com/contactus) team. Before removing a domain from a network, delete all the user accounts containing that domain. If needed, these users can later be invited as guests from the newly created network. At the end, you reach the following state:
 
   |Domains on the Microsoft 365 tenant1|Domains on the Viva Engage network|
   |:-----|:-----|
