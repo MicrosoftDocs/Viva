@@ -78,3 +78,17 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     > [Learn more about attributes and data quality](../../analyst/data-quality-analyst-experience.md).
 
 7. Select **Run** on the upper right. The query might take a few minutes to run.
+
+### Link report to query
+
+1. Open the downloaded template.
+
+2. If you're prompted to select a program, select **Power BI**.
+
+3. When you're prompted by Power BI:
+
+    1. Paste in the partition and query identifiers. 
+    2. Set the **Minimum group size** for data aggregation within this report's visualizations in accordance with your company's policy for viewing Viva Insights data. 
+    3. Select **Load** to import the query results into Power BI. 
+
+4. If prompted by Power BI, sign in using your organizational account. Power BI then loads and prepares the data. For large files, this process might take a few minutes.
