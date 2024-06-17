@@ -152,6 +152,8 @@ items:
               href: advanced/analyst/templates/manager-effectiveness.md
             - name: Meeting effectiveness
               href: advanced/analyst/templates/meeting-effectiveness.md
+            - name: Microsoft 365 Copilot adoption report
+              href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit

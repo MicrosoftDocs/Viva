@@ -120,10 +120,10 @@ View and set the following parameters on the **Settings** page. You can find
 
 The **Microsoft 365 Copilot adoption** report includes the following report pages that help you better understand and accelerate Copilot adoption across the company.
 
-#### Microsoft 365 Copilot adoption summary 
+##### Microsoft 365 Copilot adoption summary 
 Get an overview of Microsoft 365 Copilot adoption across the company. Get a baseline view of the number of employees who are actively using Microsoft 365 Copilot features and what direction adoption is trending. This page also provides a quick overview of the Microsoft 365 app in which Copilot is used as well as the top-most used Copilot feature. Lastly, it highlights the organization with the highest Copilot usage. 
 
-#### How does Copilot usage compare across groups? 
+##### How does Copilot usage compare across groups? 
 
 Gain insight into which groups in your company are leaders in Copilot adoption. Use this page to: 
 
@@ -132,24 +132,22 @@ Gain insight into which groups in your company are leaders in Copilot adoption. 
 
 Active Copilot users are defined as users who have used Copilot at least once in the selected time period. 
 
-#### How does Copilot usage compare across apps? 
+##### How does Copilot usage compare across apps? 
 Learn more about how Copilot usage differs by app across organizations and functions. The heatmap shows the share of active Copilot users in each Microsoft 365 app as a percentage of the total number of people in the respective group. Active Copilot users are defined as users who have used Copilot at least once in the selected time period.  
 
-#### What are the most frequently used Copilot features in each app? 
+##### What are the most frequently used Copilot features in each app? 
 Understand how your employees are using Copilot in each Microsoft 365 app. The cards on this page show the total number of Copilot user actions taken or the unique number of active Copilot users in each Microsoft 365 app broken out by Copilot action. Use the arrows at the bottom of the page to explore Copilot actions taken in PowerPoint and Excel.  
 
- 
-#### What is the Copilot usage trend across groups? 
+##### What is the Copilot usage trend across groups? 
 Explore how Copilot usage has changed over time for different groups in your company. Explore how Copilot usage is changing over time, using the left-side card. The trendline shows the total weekly number of Copilot user actions or unique active Copilot users in the filtered groups for the selected time period. The table on the right shows the number of unique active Copilot users per month and the month-over-month change.  
 
-#### What is the breakdown of Copilot usage across groups? 
+##### What is the breakdown of Copilot usage across groups? 
 Dive one layer deeper and explore different usage metrics at the same time for different groups in a side-by-side view. Use the metric filter at the top to select the metrics you would like to include and compare in the table. Metrics include “Active Copilot users”, “Monthly active Copilot users”, “Weekly active Copilot users”, “Percentage of active Copilot users”, “Percentage of Copilot licensed users”, “Average number of actions performed”, “Copilot licensed users” and “measured employees,” All metric definitions can be found in the glossary. 
 
- 
-#### Learn what our research says about the adoption of Copilot 
+##### Learn what our research says about the adoption of Copilot 
 Learn more about what our research says about the adoption of Copilot. The articles in this section range from practical guides on how to get started with Copilot to research findings related to the adoption and perceived impact of employees using Copilot within various Microsoft apps and services.
 
-#### Glossary
+##### Glossary
 View this report's metric definitions.
 
 ### Power BI tips, FAQs, and troubleshooting 
