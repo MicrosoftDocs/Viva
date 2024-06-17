@@ -145,7 +145,18 @@ Understand how your employees are using Copilot in each Microsoft 365 app. The c
 Explore how Copilot usage has changed over time for different groups in your company. Explore how Copilot usage is changing over time, using the left-side card. The trendline shows the total weekly number of Copilot user actions or unique active Copilot users in the filtered groups for the selected time period. The table on the right shows the number of unique active Copilot users per month and the month-over-month change.  
 
 ##### What is the breakdown of Copilot usage across groups? 
-Dive one layer deeper and explore different usage metrics at the same time for different groups in a side-by-side view. Use the metric filter at the top to select the metrics you would like to include and compare in the table. Metrics include “Active Copilot users”, “Monthly active Copilot users”, “Weekly active Copilot users”, “Percentage of active Copilot users”, “Percentage of Copilot licensed users”, “Average number of actions performed”, “Copilot licensed users” and “measured employees,” All metric definitions can be found in the glossary. 
+Dive one layer deeper and explore different usage metrics at the same time for different groups in a side-by-side view. Use the metric filter at the top to select the metrics you would like to include and compare in the table. Metrics include:
+
+* Active Copilot users
+* Monthly active Copilot users
+* Weekly active Copilot users
+* Percentage of active Copilot users
+* Percentage of Copilot licensed users
+* Average number of actions performed
+* Copilot licensed users
+* Measured employees
+
+Metric definitions can be found in the glossary. 
 
 ##### Learn what our research says about the adoption of Copilot 
 Learn more about what our research says about the adoption of Copilot. The articles in this section range from practical guides on how to get started with Copilot to research findings related to the adoption and perceived impact of employees using Copilot within various Microsoft apps and services.
