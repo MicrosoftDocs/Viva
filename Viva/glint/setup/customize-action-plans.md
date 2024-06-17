@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/14/2024
+ms.date: 06/17/2024
 ---
 
 # Customize Action Plans in Viva Glint    
@@ -85,5 +85,7 @@ Access **Suggested Action templates** from the *Action Taking* section on your a
 
 :::image type="content" source="../../media/glint/setup/action-plans-suggested-templates.png" alt-text="Screenshot of admin dashboard access to Suggested Action Templates.":::
 
-## [Follow this guidance to map Content Resources to Action Plans](https://go.microsoft.com/fwlink/?linkid=2275456)
+## Map to Content Resources
+
+[Follow this guidance to map Content Resources to Action Plans](https://go.microsoft.com/fwlink/?linkid=2275456)
 
