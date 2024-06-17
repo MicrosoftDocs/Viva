@@ -100,8 +100,12 @@ items:
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
+          - name: Use the Admin Center and dashboard
+            href: advanced/admin/admin-center.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
+          - name: Use and configure the Admin Digest email 
+            href: advanced/admin/admin-digest-email.md
         - name: Analyst
           items:
           - name: Queries
