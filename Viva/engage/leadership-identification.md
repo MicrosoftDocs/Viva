@@ -111,7 +111,7 @@ Learn more about [delegate managers in Viva Engage](https://support.microsoft.co
 
 Leadership corner provides tools so that employees in your organization can learn about their leaders and build connections with them. From leadership corner, users can catch up on leaders' posts, join their communities, and attend their AMAs.  
 
-By default, Leadership corner is turned on. But a Microsoft 365 Global administrator or Engage admin can disable it in the [Viva Engage admin center](/Viva/engage/eac-overview). Follow these steps to enable or disable leadership corner:
+By default, Leadership corner is turned on. But an Engage admin can disable it in the [Viva Engage admin center](/Viva/engage/eac-overview). Follow these steps to enable or disable leadership corner:
 
 1. Select **Leadership corner** from the **Feature management tab** in the Viva Engage admin center.
 
@@ -154,7 +154,7 @@ Identified leaders and their delegate managers can configure leaders' audiences 
 
 **Is there a way to disable leadership corner?**
 
-Yes, the Microsoft 365 Global administrator and Engage admin can turn off leadership corner in the feature management section of the Viva Engage admin center.
+Yes, the Engage admin can turn off leadership corner in the feature management section of the Viva Engage admin center.
 
 **How can I customize the company logo in leadership corner?**
 
