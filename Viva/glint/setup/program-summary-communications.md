@@ -82,9 +82,6 @@ The dropdown menu on the **Add survey Reminder** button lets admins add reminder
 
 Use this email [customization guidance](email-content-customization.md) to add custom text to your Viva Glint survey emails.
 
-> [!NOTE]
-> Email customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon.
-
 ## Notifications when survey results are available
 
 The results notification email is a one-time notification to let users know that results are available to them. The email sends to users in roles with **live** reporting access 24-hours before the email to all others (including phased access). 
