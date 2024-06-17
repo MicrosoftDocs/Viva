@@ -64,7 +64,7 @@ To access the multiple tenant organization feature for Viva Engage, your organiz
 
 ## Prepare to set up a multitenant organization
 
-*For Microsoft 365 Global administrators* 
+*For Microsoft 365 Global administrators*
 
 This task assumes that all requirements for Microsoft 365 and Viva Engage are met.
 When designing an effective multitenant organization, it’s crucial to establish a hub within the tenant where most essential communication originates. Leaders, corporate communicators, human resources, and policy makers drive most of the messaging for the organization. Therefore, these roles need to be in the hub tenant. Multitenant organization controls are available only to users internal to the hub tenant.
@@ -73,7 +73,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 |----------------|----------------|
 |A. Plan out your multitenant organization.|See [Plan for multitenant organizations](/microsoft-365/enterprise/plan-multi-tenant-org-overview).|
 |B. Determine the network configuration model for your organization.<br><br><br><br><br><br>|<ol><li>List all Microsoft Entra ID managed tenants in the organization.</li><li> Of the tenants in your organization, decide which one is the hub. Other tenants are considered spoke tenants.</li><li> For each spoke tenant, clarify the scope of users to synchronize to the Hub tenant. How you [configure multitenant organization in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/) affects which users are able to participate in each tenant.</li>|
-|C. Designate an Engage, global, or network administrator to configure the multitenant organization. This role must reside in the hub tenant.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
+|C. Designate an Engage or network administrator to configure the multitenant organization. This role must reside in the hub tenant.|If you need a new admin role, see how to [assign admin roles in Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) or [PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell).|
 
 ## Configure the multitenant organization in Microsoft 365
 
@@ -102,7 +102,7 @@ After you establish the multitenant organization in Microsoft 365, configure mul
 
 ## Configure the hub tenant for Storyline
 
-*For the Engage, global, or network admin on the hub tenant*
+*For the Engage or network admin on the hub tenant*
 
 From the hub tenant, configure Storyline settings to make announcements and leadership posts available across all tenants.
 

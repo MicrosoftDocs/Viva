@@ -21,7 +21,7 @@ ms.assetid: 9d9f9ee8-7c56-4f50-81f3-aa0a8d761e14
 
 # Manage Viva Engage domains in Microsoft 365
 
-As the Microsoft 365  Global administrator, you manage Viva Engage domains in Microsoft 365 from the **Domains** link in the Microsoft 365 admin center. When you add or remove a domain in Microsoft 365, it's automatically added to or removed from the corresponding Viva Engage network, usually within minutes.
+You can manage Viva Engage domains from the **Domains** link in the Microsoft 365 admin center. When you add or remove a domain in Microsoft 365, it's automatically added to or removed from the corresponding Viva Engage network, usually within minutes.
   
 - If you just have one domain or don't have a legacy Viva Engage network prior to using Microsoft 365, once your domain is set up in Microsoft 365, your Viva Engage network is automatically created.
 
