@@ -30,7 +30,7 @@ When storyline is enabled in your organization, you see the following changes in
 
 ## Set up storyline
 
-Microsoft 365 Global administrators and Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). 
+Engage administrators manage storyline for their organizations in the [Engage admin center](/viva/engage/eac-overview). 
 
 1. To access storyline settings, select the ellipses on the right side of the top navigation menu, and then select **Admin**.
 
@@ -51,7 +51,7 @@ The Storyline page in the Engage admin center controls the availability of story
 
 - **When you disable storyline**, Storylines doesn't appear in the left navigation pane in Viva Engage for the web, or in the top navigation in the Viva Engage app for Teams and Outlook. In addition, no Storyline tab appears in the user profile.
 
-   If a user responded to posted storyline content in the past, they have access to those conversations. Otherwise, previously posted storyline content is unavailable.Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. 
+   If a user responded to posted storyline content in the past, they have access to those conversations. Otherwise, previously posted storyline content is unavailable. Storyline content continues to be available through network data export and [through eDiscovery](eDiscovery-engage.md) for networks in Native Mode. 
     To delete previous storyline conversations after you've disabled storyline, use the same processes you use to delete other conversations in Engage.
 
 ## Advanced settings

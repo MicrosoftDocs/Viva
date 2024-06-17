@@ -109,7 +109,7 @@ A: In the Viva Engage admin center, go to **Network Admin** > **Security Setting
   
 ### Q: Can I disable Viva Engage connected to Microsoft 365 Groups?
   
-A: No, but you can [manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). These restrictions don't apply to Microsoft 365 global admins.
+A: No, but you can [manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). 
 
 ### Q: If I restrict users from creating Microsoft 365 groups for my tenant, are groups that are created by those restricted users Microsoft 365 connected?
   
@@ -195,7 +195,7 @@ A: Yes. Any new community created in Viva Engage gets the added prefix and suffi
 >[!NOTE]
 > Only Microsoft 365 groups created during migration to Native Mode to back existing communities won't follow the group-naming policy.
 
-Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage. Microsoft 365 global admins can still create communities in Viva Engage.
+Viva Engage community names can't contain the following characters: @, #, [, ], <, or >. If the naming policy includes any of these characters, regular Viva Engage users won't be able to create communities in Viva Engage.
 
 <a name='q-can-i-use-my-viva-engage-communities-connected-to-microsoft-365-groups-with-group-based-licensing-in-azure-ad'></a>
 
