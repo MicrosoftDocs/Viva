@@ -112,7 +112,7 @@ View and set the following parameters on the **Settings** page. You can find
 * **Apply filters** (optional) – Select the organizational attribute and values you want to use to filter the employees shown in this report.
 * **Customize active Copilot user definition** – Customize the usage frequency for active Copilot users. You can choose between:
     * At least one active day in the selected time period
-    * At least one active day per 4 weeks
+    * At least one active day per four weeks
     * At least one active day per week 
 
     A day is marked as active if the user took at least one action with Copilot on that respective day. 
