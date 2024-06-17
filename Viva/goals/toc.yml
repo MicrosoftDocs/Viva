@@ -59,7 +59,7 @@ items:
       href: restrict-organization-creation-permissions.md
     - name: Configure help and support for your organization
       href: configure-support.md
-    - name: Configure check-in reminders and notifications
+    - name: Configure check-in reminders, notifications, and templates
       href: check-in-reminders.md
     - name: Configure your OKR model in Viva Goals
       href: configure-okr-model.md
