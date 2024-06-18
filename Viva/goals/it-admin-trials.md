@@ -1,4 +1,5 @@
 ---
+ms.date: 06/17/2024
 title: Use an IT admin-led trial to try out the full version of Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -79,7 +80,7 @@ To ensure continuity of service, you must purchase the required number of licens
 If you don't purchase licenses following the trial: 
 
 - Users will no longer be able to access Goals  
-- The Organization Owner, Organization Admin, or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
+- The Organization Owner or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
 - Orgs whose Org Owners are trial users will be deactivated after the trials expire and the orgs are deleted in 30 days. 
 
 Give us feedback about your trial experience! Tell us what you think in the feedback below.
