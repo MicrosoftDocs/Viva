@@ -51,7 +51,16 @@ Only users assigned the Network admin role can turn analytics features on or off
 
     [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
+1.On the **Analytics settings** page, 
+
     [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
+
+
+## Manage AI Summarization in Microsoft 365
+
+When the AI Summarization service is enabled, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. AI Summarization data is used for network theme extraction, conversation summarization, and network sentiment analysis.
+
+Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment to by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/configure-copilot-for-engage#copilot-and-ai-summarization-enablement-states).
 
 ## Network analytics
 
@@ -79,7 +88,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 *Audience analytics* help leaders and delegates monitor engagement of their audiences on Viva Engage. This dashboard surfaces the most actively engaged communities within their audiences that have at least 50 members and one active member. A community is considered active if at least 5% of its members have reacted or replied to posts, while a community is considered idle if less than 5% of its members have engaged in this way.
 
-*Sentiment and theme analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts and comments from storylines and public posts. Private community posts and comments are included in the aggregate if the leader is a member of a private community (that is, the leader has permission to view private posts). Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
+*Sentiment analysis* uses Azure Cognitive Services (ACS) to aggregate and analyze posts, while _*themes*_ uses LLM (large language model) and comments from storylines and public posts. Private community posts and comments are included in the aggregate if the leader is a member of a private community (that is, the leader has permission to view private posts). Individual messages are never shown. Learn more about [Sentiment analysis in Viva Engage](https://support.microsoft.com/en-us/topic/sentiment-and-theme-analysis-in-viva-engage-065c3355-d156-4bf8-afdb-663b0724befd).
 
 - **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
 
