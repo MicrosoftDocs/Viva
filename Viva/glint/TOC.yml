@@ -282,6 +282,8 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export
            href: reports/multi-attribute-export-report.md
+         - name: Team Conversations usage report
+           href: reports/convo-usage-report.md
       - name: Viva Glint reports for all users
         items:
          - name: Reporting features
