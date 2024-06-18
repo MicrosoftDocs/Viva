@@ -21,15 +21,14 @@ ms.date: 06/18/2024
 
 As an admin, use the Microsoft Viva Glint Post-Survey Conversation Usage report to track how many leaders have completed their Team Conversations and created Focus Areas to improve their team's employee experience. To learn more about setting up Team Conversations for your organization, see: [Admin setup for Viva Glint Team Conversations](/viva/glint/reports/team-conversations-administrator-setup).
 
-## How to access the report
+The Post-Survey Conversation Usage report is available:  
 
-> [!NOTE]
-> The Post-Survey Conversation Usage report is available:  
->
-> - After the survey is closed.
-> - When Team Conversations are enabled for the survey program and for desired User Roles.
-> - When Team Conversations are generated: Seven days after User Roles are granted live access to results.
->   - Team Conversations are available immediately after survey close for User Roles that have live access while a survey is live.
+- After a survey cycle is closed.
+- When Team Conversations are enabled for the survey program and for desired User Roles.
+- When Team Conversations are generated: Seven days after User Roles are granted live access to results.
+   - Team Conversations are available immediately after survey close for User Roles that have live access while a survey is live.
+
+## How to access the report
 
 To access the Post-Survey Conversation Usage report:
 
@@ -46,16 +45,16 @@ Use this guidance to understand different items in the Post-Survey Conversation 
 
 |Section  |Item   |Description|
 |:----------|:-----------|:------------|
-|Conversation Completion     |Conversation Completion %      |Percentage of conversations completed. Completed conversations divided by the total conversations.       |
-|Conversation Statuses |Conversations not viewed  | Percentage of conversations that leaders haven't viewed yet. Conversations not viewed divided by total conversations.        |
+|**Conversation Completion**     |Conversation Completion %      |Percentage of conversations completed. Completed conversations divided by the total conversations.       |
+|**Conversation Statuses** |Conversations not viewed  | Percentage of conversations that leaders haven't viewed yet. Conversations not viewed divided by total conversations.        |
 | |Bar chart: Open  |Percentage of conversations that are still open. Open conversations divided by total conversations.        |
 |  |Bar chart: Skipped  |Percentage of conversations that are skipped. Conversations unopened after the conversation window divided by total conversations.        |
 |  |Bar chart: Complete   |Percentage of conversations that are complete. Completed conversations divided by total conversations.        |
-| Conversation Actions |Average per manager  | Average Focus Areas per manager. Unique Focus Areas divided by total conversations, rounded to the nearest whole number (usually 0).       |
-| |Added Focus Area(s)   |Conversations with a Focus Area divided by total conversations.        |
-|  |Added action item(s)   |Total action items divided by total conversations.        |
-|  |Committed to Focus Area(s)   |Focus Areas not in draft status divided by total conversations.        |
-|  |Shared conversation(s)   |Conversations that are shared via email divided by total conversations. Displays even when sharing isn't enabled.        |
+| **Conversation Actions** |Average per manager  | Average Focus Areas per manager. Unique Focus Areas divided by total conversations, rounded to the nearest whole number (usually 0).       |
+| |Added Focus Areas  |Conversations with a Focus Area divided by total conversations.        |
+|  |Added action items   |Total action items divided by total conversations.        |
+|  |Committed to Focus Areas  |Focus Areas not in draft status divided by total conversations.        |
+|  |Shared conversations   |Conversations that are shared via email divided by total conversations. Displays even when sharing isn't enabled.        |
 
 Hover over each of the bars in the Conversation Statuses bar chart to view conversation counts used to calculate percentages for each status.
 
