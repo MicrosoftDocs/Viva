@@ -1,6 +1,6 @@
 ---
 title: Viva Glint Post-Survey Conversation Usage report
-description: As an admin, use the Microsoft Viva Glint Post-Survey Conversation Usage report to track how many leaders have completed their Team Conversations and created Focus Areas to improve their team's employee experience.
+description: As an admin, use the Microsoft Viva Glint Post-Survey Conversation Usage report to track how many leaders complete their Team Conversations and create Focus Areas to improve their team's employee experience.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -19,13 +19,13 @@ ms.date: 06/18/2024
 
 # Viva Glint Post-Survey Conversation Usage report
 
-As an admin, use the Microsoft Viva Glint Post-Survey Conversation Usage report to track how many leaders have completed their Team Conversations and created Focus Areas to improve their team's employee experience. To learn more about setting up Team Conversations for your organization, see: [Admin setup for Viva Glint Team Conversations](/viva/glint/reports/team-conversations-administrator-setup).
+As an admin, use the Microsoft Viva Glint Post-Survey Conversation Usage report to track how many leaders complete their Team Conversations and create Focus Areas to improve their team's employee experience. To learn more about setting up Team Conversations for your organization, see: [Admin setup for Viva Glint Team Conversations](/viva/glint/reports/team-conversations-administrator-setup).
 
-The Post-Survey Conversation Usage report is available:  
+The Post-Survey Conversation Usage report is available when:  
 
-- After a survey cycle is closed.
-- When Team Conversations are enabled for the survey program and for desired User Roles.
-- When Team Conversations are generated: Seven days after User Roles are granted live access to results.
+- a survey cycle is closed.
+- Team Conversations are enabled for the survey program and for desired User Roles.
+- Team Conversations are generated: Seven days after User Roles are granted live access to results.
    - Team Conversations are available immediately after survey close for User Roles that have live access while a survey is live.
 
 ## How to access the report
@@ -56,7 +56,7 @@ Use this guidance to understand different items in the Post-Survey Conversation 
 |  |Committed to Focus Areas  |Focus Areas not in draft status divided by total conversations.        |
 |  |Shared conversations   |Conversations that are shared via email divided by total conversations. Displays even when sharing isn't enabled.        |
 
-Hover over each of the bars in the Conversation Statuses bar chart to view conversation counts used to calculate percentages for each status.
+To view conversation counts used to calculate percentages for each status, hover over each of the bars in the Conversation Statuses bar chart 
 
 ## Download to .csv
 
@@ -67,9 +67,9 @@ Use the **Download Full CSV** option in the Post-Survey Conversation Usage repor
 - Conversation Status
 - Conversation Shared?
 - Number of Unique People Conversation Shared With
-- Number of Focus Area(s) Selected
-- Number of Action Item(s) Added
-- Number of Focus Area(s) Committed To
+- Number of Focus Areas Selected
+- Number of Action Items Added
+- Number of Focus Areas Committed To
 - Conversation Due Date
 - Conversation Completed Date
 - Conversation Created Date
