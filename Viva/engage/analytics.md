@@ -5,7 +5,7 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 2/15/2024
+ms.date: 6/18/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -33,11 +33,11 @@ Advanced analytics capabilities in Viva Engage enable the following scenarios:
 ## Access analytics
 
 >[!NOTE]
->To view analytics, users must have Viva Engage Premium which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
+>To view premium analytics features, users must have Viva Engage Premium which is bundled with the _Viva Suite_ and _Employee Communications and Communities_ license. Conversation, live event, and some community analytics are available without a premium license. Audience analytics are only viewable by leaders that have at least one primary assigned audience and their delegates.
 
 - To open analytics, select the analytics icon on the top navigation bar in Viva Engage.
 
-Analytics data is refreshed every 24 hours. If you don’t see changes reflected immediately, check back the next day.
+Most analytics data is refreshed every 24 hours. Conversation and community analytics update in near real time. If you don’t see changes reflected immediately, check back the next day.
 
 ## Manage analytics
 
@@ -60,7 +60,7 @@ Only users assigned the Network admin role can turn analytics features on or off
 
 When the AI Summarization service is enabled, it processes Viva Engage threads in the background to provide a richer data experience for Network analytics. AI Summarization data is used for network theme extraction, conversation summarization, and network sentiment analysis.
 
-Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment to by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/configure-copilot-for-engage#copilot-and-ai-summarization-enablement-states).
+Engage admins can manage AI Summarization for their network through Viva Feature access management in the Microsoft 365 admin center. Feature access management offers a more flexible approach to deployment by allowing admins to enable or disable this service for specific users and groups in the tenant. To learn more, see [Viva Feature access management](/viva/feature-access-management) and [AI Summarization enablement states](/viva/engage/configure-copilot-for-engage#copilot-and-ai-summarization-enablement-states).
 
 ## Network analytics
 
