@@ -78,19 +78,17 @@ Copilot gives you the flexibility to roll out to one or many user roles. Conside
 
 ||Admin Release|	Selective deployment|	Full deployment|
 |-----------|----------|------------|-----|
-|Users|	Viva Glint admins only|Select group of users|	All User Roles|
-|Details|This is the default setting for Copilot in Viva Glint. You may decide that for the first deployment you don’t want to provide access beyond this group. This can be a way to test and better understand the functionality. 
-As a testing method, admins can leverage the Copilot functionality for previously closed surveys.|You may decide to deploy to a group beyond admins but not to your entire eligible population. Consider which groups (User Roles) can benefit from the feature. 
-Prioritize those with large sets of comments.|You may decide to deploy to a group beyond admins but not to your entire eligible population.Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|
+|**Users**|	Viva Glint admins only|Select group of users|	All User Roles|
+|**Details**|This is the default setting for Copilot in Viva Glint.<br><br>You may decide that for the first deployment you don’t want to provide access beyond this group. This can be a way to test and better understand the functionality.<br> <br> As a testing method, admins can leverage the Copilot functionality for previously closed surveys.|You may decide to deploy to a group beyond admins but not to your entire eligible population. <br><br> Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|You may decide to deploy to a group beyond admins but not to your entire eligible population. <br><br> Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|
 
 ### Deployment considerations
 
 Think about:
-**-Current usage** – does your rollout group have experience with Viva Glint?
-**-Comment count** – do you expect a high number of comments?
-**-Survey timing** – can you align with an upcoming survey? 
-**-Comfort with AI** – can you leverage superusers to help others with the rollout?
-**-Amount of change** – is your org already going through change? Is this the right time to add a new tool?
+- **Current usage** – does your rollout group have experience with Viva Glint?
+- **Comment count** – do you expect a high number of comments?
+- **Survey timing** – can you align with an upcoming survey? 
+- **Comfort with AI** – can you leverage superusers to help others with the rollout?
+- **Amount of change** – is your org already going through change? Is this the right time to add a new tool?
 
 ## Get the most out of Copilot in Viva Glint
 
@@ -98,10 +96,10 @@ Use our best practices to maximize the benefit from Copilot in Viva Glint:
 
 Leverage your programs and survey formats that align with the strengths and current capabilities of Copilot in Viva Glint.  
 
-**-Enable comments** – allows for more detailed feedback and context, enhancing the data's richness and usefulness for summarization purposes. This approach provides a comprehensive view of feedback, allowing the generation of accurate and insightful summaries.
-**-Ask open-ended items** – Open-ended survey items capture a wide range of feedback. They allow respondents to freely express their thoughts on topics that may not be covered by the questions. These responses are typically more detailed and can reveal rich data insights not apparent from quantitative data alone.
-**-Use relevant attribute filters** – Copilot in Viva Glint uses the attributes you send to Viva Glint to filter data. Enable filter attributes that are pertinent for the User Roles who will be interacting with Copilot to ensure that the insights and summaries are applicable and useful.
-**-Use Recurring and Ad hoc programs** - Where it makes sense, leverage Recurring and Ad hoc programs. Currently Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for on-going topics (Engagement) and Ad hoc for one-off topics (Change Management). 
+- **Enable comments** – allows for more detailed feedback and context, enhancing the data's richness and usefulness for summarization purposes. This approach provides a comprehensive view of feedback, allowing the generation of accurate and insightful summaries.
+- **Ask open-ended items** – Open-ended survey items capture a wide range of feedback. They allow respondents to freely express their thoughts on topics that may not be covered by the questions. These responses are typically more detailed and can reveal rich data insights not apparent from quantitative data alone.
+- **Use relevant attribute filters** – Copilot in Viva Glint uses the attributes you send to Viva Glint to filter data. Enable filter attributes that are pertinent for the User Roles who will be interacting with Copilot to ensure that the insights and summaries are applicable and useful.
+- **Use Recurring and Ad hoc programs** - Where it makes sense, leverage Recurring and Ad hoc programs. Currently Copilot in Viva Glint is unable to tap into Always-On and Employee Lifecycle programs. To maximize your ability to use Copilot in Viva Glint, use Recurring program setup for on-going topics (Engagement) and Ad hoc for one-off topics (Change Management). 
 
 ## Enable Copilot in Viva Glint
 
@@ -122,6 +120,8 @@ From your admin dashboard, follow this process:
 1.	Select the **configuration (cogwheel)** symbol.
 2.	In the Employees section, select **User Roles**.
 3.	Select the User Role to provide Comment Report access. In this example, we’ll select the Company Admin role.
+   
+:::image type="content" source="../../media/glint/copilot/copilot-select-user.png" alt-text="Screenshot of how to give a User Role Copilot in Viva Glint permissions."lightbox="../../media/glint/copilot/copilot-select-user.png":::
 
 
 
