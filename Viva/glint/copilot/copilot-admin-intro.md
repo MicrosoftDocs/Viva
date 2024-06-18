@@ -94,9 +94,10 @@ Think about:
 
 ## Get the most out of Copilot in Viva Glint
 
-Use our best practice to maximize the benefit from Copilot in Viva Glint:
+Use our best practices to maximize the benefit from Copilot in Viva Glint:
 
 Leverage your programs and survey formats that align with the strengths and current capabilities of Copilot in Viva Glint.  
+
 **-Enable comments** – allows for more detailed feedback and context, enhancing the data's richness and usefulness for summarization purposes. This approach provides a comprehensive view of feedback, allowing the generation of accurate and insightful summaries.
 **-Ask open-ended items** – Open-ended survey items capture a wide range of feedback. They allow respondents to freely express their thoughts on topics that may not be covered by the questions. These responses are typically more detailed and can reveal rich data insights not apparent from quantitative data alone.
 **-Use relevant attribute filters** – Copilot in Viva Glint uses the attributes you send to Viva Glint to filter data. Enable filter attributes that are pertinent for the User Roles who will be interacting with Copilot to ensure that the insights and summaries are applicable and useful.
@@ -110,7 +111,7 @@ Prerequisites to enabling Copilot:
 
 Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot from being enabled by default for any User Roles. 
 
-You must assign yourself and others using Copilot to a new User Role - create a new User Role with access to comments report enabled. Add that User Role to the survey program Reporting page, as described in Grant User Roles Comment Reports access:
+You must assign yourself and others using Copilot to a new User Role. Create a new User Role with access to the Comments Report enabled. Add that User Role to the survey program Reporting page, as described in *Grant User Roles Comment Reports access*:
 
 The first step to enable Copilot for users is to select the roles who should have Comment Report access. Users without access to the Comment Report can’t access Copilot in Viva Glint.
 
