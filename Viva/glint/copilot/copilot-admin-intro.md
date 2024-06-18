@@ -55,9 +55,8 @@ Copilot answers queries related to your comment data in Glint, such as:
 |Survey goal|	Example Copilot prompt|
 |------|-----|
 |Discover more about your opportunities|	Summarize comments related to the barriers to execution item.|
-|Understand experiences of unique sub-populations|	What are Engineers in North America saying about opportunities for growth?|
-|Uncover action people are hoping you will take|	What are people requesting leaders do
-to increase communication?|
+|Understand experiences of unique sub-populations|What are Engineers in North America saying about opportunities for growth?|
+|Uncover action people hope you take|What are people requesting leaders do to increase communication?|
 
 ## Copilot in Viva Glint can be used across roles
 
@@ -79,11 +78,10 @@ Copilot gives you the flexibility to roll out to one or many user roles. Conside
 
 ||Admin Release|	Selective deployment|	Full deployment|
 |-----------|----------|------------|-----|
-|Users|	Viva Glint admins only	|Select group of users|	All User Roles|
-|Details|This is the default setting for Copilot in Viva Glint. <br>You may decide that for the first deployment you don’t want to provide access beyond this group. This can be a way to test and better understand the functionality. 
-<br>As a testing method, admins can leverage the Copilot functionality for previously closed surveys.|You may decide to deploy to a group beyond admins but not to your entire eligible population. 
-<br>Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|You may decide to deploy to a group beyond admins but not to your entire eligible population. <br>
-Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|
+|Users|	Viva Glint admins only|Select group of users|	All User Roles|
+|Details|This is the default setting for Copilot in Viva Glint. You may decide that for the first deployment you don’t want to provide access beyond this group. This can be a way to test and better understand the functionality. 
+As a testing method, admins can leverage the Copilot functionality for previously closed surveys.|You may decide to deploy to a group beyond admins but not to your entire eligible population. Consider which groups (User Roles) can benefit from the feature. 
+Prioritize those with large sets of comments.|You may decide to deploy to a group beyond admins but not to your entire eligible population.Consider which groups (User Roles) can benefit from the feature. Prioritize those with large sets of comments.|
 
 ### Deployment considerations
 
