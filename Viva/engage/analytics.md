@@ -23,6 +23,7 @@ search.appverid:
 # View and manage analytics in Viva Engage
 
 Advanced analytics capabilities in Viva Engage enable:
+
 - Users to monitor their own engagement metrics through _personal_ and _Answers analytics_
 - Leaders and their delegates to monitor their audiences' engagement through _audience analytics_
 - Corporate communicators and campaign co-organizers to manage campaign engagement through _campaign analytics_
@@ -82,7 +83,7 @@ Access is through the analytics icon on the top navigation bar or on the leader'
 
 - **Audience-level sentiment** controls the *Sentiment* metric. When this toggle is turned off, leaders and their delegates have no access to sentiment analysis features and past data for all audiences is deleted.
 
--   **Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
+- **Theme-level sentiment** controls the *Themes* metric. When this toggle is turned off, leaders and their delegates won’t see results indicating sentiment toward frequently discussed subjects in their audience.
 
 ## Global Answers analytics
 
