@@ -47,11 +47,11 @@ Only users assigned the Network admin role can turn analytics features on or off
 
     :::image type="content" source="../media/engage/admin/web-admin-entry.png" alt-text="Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.":::
 
-1. Select the **Setup & configuration** tab, and select **Manage analytics**.
+2. Select the **Setup & configuration** tab, and select **Manage analytics**.
 
   [![Screenshot of the Viva Engage admin center for managing Analytics.](/Viva/media/engage/admin/manage-analytics-eac.png)](/Viva/media/engage/admin/manage-analytics-eac.png#lightbox)
 
-1. From the **Analytics settings** page, network admins can select the **Feature access management** link to implement AI-related features, like sentiment analysis and theme extraction in Microsoft 365. See the next section for details.
+3. From the **Analytics settings** page, network admins can select the **Feature access management** link to implement AI-related features, like sentiment analysis and theme extraction in Microsoft 365. See the next section for details.
 
   [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
