@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2024
+ms.date: 06/18/2024
 ---
 
 # Viva Glint reporting features
 
-The following terms help you understand Viva People Science terms and ensure that you get the most useful information from your Viva Glint reports. 
+The following terms help you get the most useful information from your Viva Glint reports. 
 
 |**Term**| **Definition**|
 |-----------|-----------|
@@ -30,7 +30,7 @@ The following terms help you understand Viva People Science terms and ensure tha
 
 ## Filter a Viva Glint report 
 
-Viva Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
+Glint survey reports use one process across all reports for filtering. This fixed panel identifies survey programs, attributes, and survey item subsets in which your data can be filtered for interpretation. 
 
 Select the **filter symbol** at the top of the dashboard to expand the *Filters* panel. Select **+ Add Filters** to select attributes available in either the *People* section or the *Question Responses* section. Select **X** to hide the filter panel.
 
@@ -40,9 +40,10 @@ Advanced filtering shows how one program impacts another. For example, you can r
 
 1. Select **Advanced**.  
 2. Select **Yes, enable advanced filtering**. 
-3. Select the **+ symbol** that has been added to the Filter panel. Choose the program from the dropdown menu.  
+3. Select the **+** symbol in the *Filter* panel.
+4. **Choose the program** from the dropdown menu.  
 
-## Understand the scores calculation overview 
+## Scores calculation overview 
 
 **The primary metric (average score)** 
 
@@ -53,19 +54,17 @@ The average score for each question is the average of all the responses when con
 
 **The favorability score** 
 
-In addition to the converted 0-100 rating scale, the Viva Glint platform reports favorability in percentages. There are three categories: Unfavorable, Neutral and Favorable.  
+In addition to the converted 0-100 rating scale, the Glint platform reports favorability in percentages. There are three categories: Unfavorable, Neutral, and Favorable. Favorability provides an understanding of the spread and variability of scores within the average. Looking at how the favorability distribution changes over time also lets managers know where movement occurred.    
 
-Favorability provides an understanding of the spread and variability of the scores within the average. Looking at how the favorability distribution has changed over time also lets managers know where the movement occurred.    
+## Use the mean score over the favorability score 
 
-## Using the mean score over the favorability score is recommended 
-
-Mean scores are: 
+**Mean** - or **average** - scores are: 
 
 - More robust and meaningful to track over time, even for smaller teams. 
 - Highly correlated with behavioral, and business outcomes. 
-- Consistent with other analysis performed. 
+- Consistent with other analysis performed.
 
-Favorability helps with understanding the spread and variability of responses, but there are drawbacks: 
+**Favorability** does help with understanding the spread and variability of responses, but there are drawbacks: 
 
 - The mean score isn't shown. 
 - External benchmarks aren't available for favorability scores. 
@@ -76,13 +75,45 @@ Favorability helps with understanding the spread and variability of responses, b
 - Percent favorable only shows the respondents who agree with the statement. No other information is provided (neutral or unfavorable). 
 - Percent favorable doesn't reflect changes in scores over time. 
 
+### Viva People Science recommends the average or mean score 
+
+The mean score is transformed to a 100-point scale, as the primary metric. This metric is a more accurate, reliable, and robust measure compared to the percent favorable, especially for smaller teams. 
+
+Glint reports the average score (transformed to a 100-point scale) *and* 
+favorability scores (favorable, neutral, and unfavorable) for 
+four metrics for each rating-type question and dimension. Leaders 
+and managers can drill down to see all metrics for each group or 
+subpopulation that meets the permissions and the confidentiality threshold set by your company. 
+
+The mean score metric doesn't suffer the measurement challenges posed by the percent favorable metric in situations where results are reported for smaller populations or when looking at trends during regular surveying. When looking at 
+smaller groups, percent favorable can vary significantly without any real difference in sentiment and therefore can be misleading. 
+
+Percent favorable scores don't capture differences in scores when sentiment goes from neutral to unfavorable, which is important to detect. 
+
+#### Why the favorability score is useful
+
+Leaders and managers can identify where to take targeted action by knowing 
+the distribution of favorable, neutral, and unfavorable scores. For 
+instance, a manager may decide to make efforts to convert unfavorable 
+scores to neutral or favorable. Or they might focus on getting 
+the neutrals over the fence to favorable. 
+
+When a score increases or decreases, it’s useful to know where the 
+increase or decrease in came from. Looking at how the favorability 
+distribution has changed lets managers know where the movement 
+occurred. The spread of scores is helpful for interpreting results. 
+Is there a pattern to the responses, or are the respondents polarized 
+with equal number of responses in the favorable and unfavorable 
+buckets? Your managers can get significant insight by looking at 
+how responses are distributed in terms of favorability. 
+
 ## Understand color coding in Viva Glint reports
 
 **Color coding for Strengths and Opportunities** 
 
 All items are ranked by comparing them to an existing benchmark. The top half of the items are strengths exhibited by your team, and the bottom half are opportunities for your team to focus on. 
 
-- Red: Opportunity - Scores may be above or below benchmark, but items in red are considered opportunities. 
+- Red: Opportunity - Scores may be higher or lower than the benchmark, but items in red are considered opportunities. 
 - Blue: Strength - Scores may be above or below benchmark, but items in blue are considered strengths. 
 - Gray: Items are excluded from scoring because there's no benchmark comparison, or they're low to medium impact drivers.
 
@@ -100,9 +131,9 @@ In Viva Glint reporting schematics:
 
 The colors in the Heat Map are meant to allow quick identification of systemic patterns and outliers. Color coding is relative and not absolute. To determine the relative coloring within a Heat Map, Viva Glint looks at the range of scores displayed.  
 
-- The maximum and minimum are always displayed as dark blue and dark red.  
-- All scores between the maximum and minimum are evenly bucketed in up to seven different colored buckets, with the median score being shown in the gray middle bucket.  
-- For example: If the minimum and maximum scores are 52 and 80, then Viva Glint will create 7 evenly spaced buckets between 52 and 80. 
+- The maximum and minimum scores are always displayed as dark blue and dark red.  
+- The scores between the maximum and minimum are evenly bucketed in up to seven different colored buckets - the median score shown in gray.  
+- For example: If the minimum and maximum scores are 52 and 80, then Viva Glint creates seven evenly spaced buckets between 52 and 80. 
   - Dark red would be 52-55
   - Dark blue would be 77-80
   - Gray would be 64-68 with the other shades being in between
