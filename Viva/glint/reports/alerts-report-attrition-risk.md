@@ -87,7 +87,7 @@ Configure which demographic attributes you want to include in **Alerts** from **
     - Use the Search box to add attributes.
     - Delete attributes by choosing the **X** next to those you don't want on the report.
 
- >[!TIP]
- > Select only attributes that are necessary for Alerts, such as important hierarchies, tenure, and generation. Avoid  attributes with many values that can't be grouped, such as hire date, birth date and manager email. Using all attributes doesn't surface helpful insights.
+    > [!TIP]
+    > Select only attributes that are necessary for Alerts, such as important hierarchies, tenure, and generation. Avoid  attributes with many values that can't be grouped, such as hire date, birth date and manager email. Using all attributes doesn't surface helpful insights.
 
 3. Select thresholds for the minimum population size (default is 20 respondents) and the minimum score differences (default is eight points) that qualifies for an alert. You may choose not to see alerts for populations smaller than 25 respondents or score differences smaller than 10 points. Filter the populations by size, using the slider in the Alerts report.
