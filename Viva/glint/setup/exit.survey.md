@@ -1,5 +1,5 @@
 ---
-title: Create an exit survey
+title: Create an Employee Lifecycle exit survey
 description: Long-term business success is connected to engaging and retaining capable and motivated team members. Use the Viva Glint exit survey to collect valuable insights to improve employee turnover.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/04/2024
+ms.date: 06/06/2024
 ---
 
-# Create an exit survey
+# Create an Employee Lifecycle Exit survey
 
 Your team reported great quarterly numbers; the customers are raving about your product; you're excited about the future and realize that it's all because of your employees. One day you open your inbox and read that your star performer is leaving. Could this have been prevented?
 
@@ -29,7 +29,18 @@ An employee’s exit is a critical part of your organization's employee lifecycl
 
 Exit surveys are the first step to helping organizations understand why people leave, the experience they had as they left, and even what they're willing to do for the organization after departing.  
 
-Consider that although an employee is no longer part of your team, they can still be a brand ambassador, singing your organization’s praises or tarnishing your reputation through negative feedback and reviews.  
+Consider that although an employee is no longer part of your team, they can still be a brand ambassador, singing your organization’s praises or tarnishing your reputation through negative feedback and reviews.
+
+## Viva Glint Exit survey program items
+
+|Item name|Item text|
+|--------|---------|
+|Recommend - Exit|I would recommend [Company Name] as a great place to work.|
+|Rehire|I would consider working again for [Company Name] if the situation were right.|
+|Exit Treatment|I am happy with how I've been treated with respect to my departure from [Company Name].|
+|Disengagement Duration|How long ago did you decide to start looking for a job elsewhere?|
+|Disengagement Trigger|Describe the key event(s) or circumstance(s) (if any) that influenced you to consider leaving the company.|
+|Reasons for Leaving|What were the most important factors in your decision to leave?|
 
 ## Next step
 

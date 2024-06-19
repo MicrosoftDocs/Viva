@@ -1,23 +1,25 @@
 ---
-title: Advanced privacy guide for data usage and survey item creation
+title: Security and Compliance for data usage
 description: At Microsoft Viva Glint, data privacy and trust are key priorities to encourage elevated levels of honest and useful feedback. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
 keywords: Confidentiality, personal data, data privacy, privacy, trust, sensitive data, GDPR 
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - essentials-compliance
+ - essentials-security
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/10/2023
+ms.date: 06/10/2024
 ---
 
-# Advanced privacy guide for data usage and survey item creation
+# Security and compliance for data usage
 
 Microsoft Viva Glint helps organizations measure employee engagement and experiences so they can take action to improve them. Grounded in our approach to employee [engagement](https://aka.ms/VivaGlintAModernApproach), Viva Glint offers a flexible surveying approach that enables organizations to gain a greater understanding of key experiences that shape an employee's journey, how those experiences impact engagement, and the resulting impact on individual and business outcomes.
 

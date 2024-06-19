@@ -1,5 +1,5 @@
 ---
-ms.date: 05/17/2024
+ms.date: 06/07/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -82,9 +82,9 @@ Under **Query setup**:
    
    The **Add to query** button adds these metrics into your query and takes you back to the setup screen. The metrics you selected appear as tags in the box beneath the section description. 
    
-   :::image type="content" source="../images/person-query-selected-metrics-tags.png" alt-text="Select metrics section, with selected metrics appearing as tags":::
+   :::image type="content" alt-text="Select metrics section, with selected metrics appearing as tags" source="../images/person-query-selected-metrics-tags.png" lightbox="../images/person-query-selected-metrics-tags.png":::
 
-3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft Copilot with Microsoft 365 apps, and they’re part of your .csv output file. To include these metrics when you’re setting up your query, select **Include Microsoft 365 Copilot metrics in this query**.
+3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft Copilot with Microsoft 365 apps, and they’re part of your .csv output file.
 
     Here is a list of these Copilot metrics that you can use for your query:
 
@@ -111,7 +111,7 @@ Under **Query setup**:
     | Excel formatting actions taken using Copilot | The number of times users highlighted, sorted, and filtered tables in Excel using Copilot.  | 10/15/2023 | 
     | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
     | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook. | 10/15/2023 |
-    | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in Powerpoint. | 10/15/2023 |
+    | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint. | 10/15/2023 |
     | Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams. | 10/15/2023 |
     | Copilot actions taken in Word  |  The number of Copilot actions completed by active Copilot users in Word.| 10/15/2023 |
     |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
@@ -119,7 +119,7 @@ Under **Query setup**:
     | Days of active Copilot usage in Loop | The number of days the user was actively using Copilot in Loop. | 10/15/2023 |
     |  Days of active Copilot usage in OneNote  |  The number of days the user was actively using Copilot in OneNote.  | 10/15/2023 |
     |  Days of active Copilot usage in Outlook  |  The number of days the user was actively using Copilot in Outlook.  | 10/15/2023 |
-    | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in Powerpoint. | 10/15/2023 |
+    | Days of active Copilot usage in PowerPoint | The number of days the user was actively using Copilot in PowerPoint. | 10/15/2023 |
     |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
     | Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
     |  Days of active Copilot chat (work) usage  |  The number of days the user was actively using Copilot with Graph-grounded chat (formerly called Microsoft 365 Chat). | 10/15/2023 |
@@ -131,6 +131,9 @@ Under **Query setup**:
     | Copilot enabled days for Productivity App  | The number of days the user had Copilot for Microsoft 365 enabled in the following productivity apps: Word, PowerPoint, Excel, Outlook, Loop, OneNote, Whiteboard. | 10/15/2023 |
     | Copilot enabled days for Intelligent Search | The number of days the user had Intelligent Search capabilities within Copilot for Microsoft 365 enabled.  | 10/15/2023 |
     | Copilot enabled days for Teams  | The number of days the user had Copilot for Microsoft 365 enabled within Microsoft Teams. | 10/15/2023 |
+
+   >[!Note]
+   >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Copilot actions taken in Teams" might return a figure that's larger than the sum of the metrics representing the actions employees can take with Copilot in Teams, such as "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
 
 
 #### About metrics
@@ -158,7 +161,7 @@ To find out more about a metric, hover over its information icon.
 
 1. Underneath the predefined "Is Active" filter, select the **Add condition button**, then select **Organizational data**.
 
-   :::image type="content" source="../images/person-query-add-conditions.png" alt-text="Screenshot that shows the Add condition button.":::
+   :::image type="content" alt-text="Screenshot that shows the Add condition button." source="../images/person-query-add-conditions.png" lightbox="../images/person-query-add-conditions.png":::
 
 2. Using conditions and condition groups, add one or multiple filters to narrow your analysis of employees.
 
@@ -170,7 +173,7 @@ To find out more about a metric, hover over its information icon.
 
 A condition is a statement about one attribute you want to analyze in your query. A condition only extracts rows from your organizational data that meet certain criteria, which you specify in the condition statement. For example, if your condition statement read, “Organization = Contoso.com,” the query would only extract rows that equal Contoso.com” under the **Organization** column. A condition group is a combination of conditions connected with a conjunction ("and" or "or"). In the following image, the condition group is in the block to the right of the conjunction "or."
 
-:::image type="content" source="../images/person-query-condition-group.png" alt-text="Condition group":::
+:::image type="content" alt-text="Condition group" source="../images/person-query-condition-group.png" lightbox="../images/person-query-condition-group.png":::
 
 To learn more about filters and conditions, refer to our [Filters](filters.md) article.
 

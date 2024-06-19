@@ -1,5 +1,5 @@
 ---
-ms.date: 5/28/2024
+ms.date: 6/19/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -70,7 +70,7 @@ The adoption and impact pages use different calculations for their tally counts.
 * 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
 
 >[!Note]
->Adoption and impact data underneath the filter represents the four complete weeks that ended on the second to last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the second to last Saturday would be March 9, and the dashboard would represent activity between Sunday, February 11 and Saturday, March 9.
+>Adoption and impact data underneath the filter represent the four complete weeks that ended on the last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the last Saturday would be March 16, and the dashboard would represent activity between Sunday, February 18 and Saturday, March 16.
 
 ### Select the filters for your analysis in the dashboard
 
@@ -324,6 +324,14 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
    :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data.":::
+
+#### Upload aggregated survey results through the Microsoft 365 admin center 
+*Applies to: Microsoft 365 admins*
+
+Microsoft 365 admins can also upload aggregated survey responses to enable a summary view of Copilot sentiment for the entire company. [Learn how using these steps](/microsoft-365/admin/adoption/ai-assistance#sentiment-survey-upload-experience). If you use this upload method, filters and heat maps are *not* supported.
+
+>[!Note]
+>If you upload survey data both as a .csv file *and* as aggregated results through the Microsoft 365 admin center, only the .csv survey results are shown in the dashboard. If you subsequently delete the .csv data, then the aggregated results are shown in the dashboard.
 
 ### News & research
 

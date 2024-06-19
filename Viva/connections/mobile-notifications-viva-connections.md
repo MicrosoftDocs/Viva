@@ -1,6 +1,6 @@
 ---
 ms.date: 07/14/2023
-title: "Viva Connections Mobile News Notifications"
+title: "Viva Connections News Notifications"
 ms.reviewer: 
 ms.author: evanatkin
 author: AtkinE
@@ -19,7 +19,7 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Learn how notifications are presented in Viva Connections mobile"
+description: "Learn how notifications are presented in Viva Connections across the desktop, mobile, and web environments"
 ---
 
 # Viva Connections News notifications
@@ -60,7 +60,7 @@ Once these conditions are met, end-users receive a notification when news is pub
 
 - A SharePoint news page is published to [a site you follow](https://support.microsoft.com/office/find-and-follow-sites-news-and-content-4411e38f-9bc5-4ecc-bd33-3dbe939ac84c).
 - A SharePoint news page is published by [someone you work closely with](/graph/people-insights-overview).
-- A SharePoint news page is boosted, and the user is part of the audience target.
+- A SharePoint news page is [boosted](https://support.microsoft.com/office/46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83), and the user is part of the audience target.
 - You're "@mentioned" in a comment left on a SharePoint news page.
 
 Authors can receive extra notifications when posts they publish are liked or commented on.
