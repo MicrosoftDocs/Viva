@@ -1,5 +1,5 @@
 ---
-ms.date: 6/14/2024
+ms.date: 6/19/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -324,6 +324,14 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 4. On the next page, enter an optional survey name and start and end dates. Then browse to find your .csv file, and select **Upload**.
 
    :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data.":::
+
+#### Upload aggregated survey results through the Microsoft 365 admin center 
+*Applies to: Microsoft 365 admins*
+
+Microsoft 365 admins can also upload aggregated survey responses to enable a summary view of Copilot sentiment for the entire company. [Learn how using these steps](/microsoft-365/admin/adoption/ai-assistance#sentiment-survey-upload-experience). If you use this upload method, filters and heat maps are *not* supported.
+
+>[!Note]
+>If you upload survey data both as a .csv file *and* as aggregated results through the Microsoft 365 admin center, only the .csv survey results are shown in the dashboard. If you subsequently delete the .csv data, then the aggregated results are shown in the dashboard.
 
 ### News & research
 
