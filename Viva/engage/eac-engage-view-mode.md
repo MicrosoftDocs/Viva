@@ -24,7 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >View-only mode for Viva Engage is currently available only for private preview customers. The features described here are subject to change.
 
-Microsoft 365 Global admins, Engage admins, and network admins can use view-only mode to prevent a user from contributing content to the Viva Engage network.
+Engage admins and network admins can use view-only mode to prevent a user from contributing content to the Viva Engage network.
 
 ## User experience in view-only mode
 

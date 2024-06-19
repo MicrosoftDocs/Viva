@@ -22,7 +22,7 @@ items:
         items:
           - name: Privacy policies 
             href: setup/add-privacy-policy.md
-          - name: Advanced privacy guide
+          - name: Security and compliance for data usage
             href: setup/gdpr-special-categories.md
           - name: Confidentiality versus anonymity
             href: setup/anonymous-confidential.md
@@ -65,7 +65,7 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
-              - name: Cconvert a key to OpenSSH format
+              - name: Convert a key to OpenSSH format
                 href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
@@ -124,6 +124,9 @@ items:
               href: setup/export-distribution-lists.md
       - name: Set up User Roles
         href: setup/set-up-user-roles.md
+        items:
+            - name: Custom User Roles
+              href: setup/custom-user-role.md
       - name: Set up Focus Area periods
         href: setup/focus-area-period-feature.md
       - name: Use the Question Library
@@ -133,13 +136,14 @@ items:
               href: setup/question-mapping.md
       - name: Encourage action with Nudges
         href: communicate/communicate-with-nudges.md
-      - name: Customize action plans 
-        href: setup/customize-action-plans.md
+      - name: Action plans
         items:
-            - name: Link items to action plan templates
-              href: setup/link-survey-item-action-template.md
-            - name: Embed videos
-              href: setup/embedding-content-resources.md
+          - name: Customize Action Plans with Content Resources
+            href: setup/customize-action-plans.md
+          - name: Link resources to Action Plan templates
+            href: setup/link-survey-item-action-template.md
+          - name: Embed videos
+            href: setup/embedding-content-resources.md
       - name: Manage translations 
         href: setup/language-translations.md
       - name: Character limits
@@ -278,6 +282,8 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export
            href: reports/multi-attribute-export-report.md
+         - name: Team Conversations usage report
+           href: reports/convo-usage-report.md
       - name: Viva Glint reports for all users
         items:
          - name: Reporting features
@@ -353,6 +359,9 @@ items:
     items:
         - name: Propel action-taking
           href: people-science/propelling-action-taking.md
+          items: 
+            - name: Managers using ACT conversations
+              href: people-science/managers-using-act-conversations.md
         - name: Factors for historical imports
           href: people-science/import-external-people-science-pov.md
         - name: Focus areas and action planning

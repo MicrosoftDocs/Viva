@@ -1,6 +1,6 @@
 ---
-ms.date: 03/07/2023
-title: Navigate the admin dashboard
+ms.date: 06/04/2024
+title: Organization admin dashboard overview
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
@@ -16,32 +16,32 @@ ms.collection:
 - highpri  
 search.appverid:
 - MET150
-description: "Learn how to navigate the admin dashboard"
+description: "Learn how to navigate the admin dashboard."
 ---
-# Navigate the admin dashboard
 
-To log in to Viva Goals, visit: https://goals.microsoft.com/
+# Organization admin dashboard overview
 
-Organization admins have direct access to the Microsoft Viva Goals admin dashboard. The dashboard offers settings that you can customize for your organization, which creates efficiency and confidence in Microsoft Viva Goals.
+To log in to Viva Goals, visit https://goals.microsoft.com/.
 
-Like other employees, you need to be familiar with:  
-- The OKR framework  
-- How to write great OKRs  
-- Viva Goals software training 
+Organization owners can access the admin dashboard to manage organization settings.
 
-Review the [Get Started with Viva Goals learning path](/training/paths/viva-goals-get-started) to dive deeper into these topics.  
+Before configuring your organization, you can review the [Get Started with Viva Goals learning path](/training/paths/viva-goals-get-started) to get familiar with the following:
+
+- The OKR framework
+- How to write great OKRs
+- Viva Goals software training
 
 ## How to access and use the admin dashboard
 
-To access the Viva Goals Admin Dashboard, navigate toward the bottom of the left side panel and select “Admin” next to the gear icon.
+To access the Viva Goals admin dashboard, navigate to the left side panel and select **Admin** next to the gear icon.
 
 :::image type="content" source="../media/goals/navigation-sidebar/access-use-admin.png" alt-text="Screenshot showing where to access the admin tab in the navigation sidebar." lightbox="../media/goals/navigation-sidebar/access-use-admin.png":::
 
-Organization admins configure the Viva Goals instance and have access to settings in the admin dashboard to set up users, teams, time periods, notifications, integrations, OKRs, and initiatives. 
+Organization owners have access to settings in the admin dashboard to set up users, teams, time periods, notifications, integrations, OKRs, and initiatives.
 
 Here are recommended first five steps for organization admins:  
 
-1. Navigate your settings in the admin dashboard, and configure the instance according to your business rhythms.
+1. Navigate your settings in the admin dashboard and configure the instance according to your business rhythms.
 
 1. [Invite users](inviting-and-removing-a-user.md).
 
@@ -50,46 +50,47 @@ Here are recommended first five steps for organization admins:
 1. [Add OKRs](creating-okrs.md).
 
 1. [Set up integrations](integrations-overview.md).
- 
+
 ## Overview of the tabs in the admin dashboard
 
 ### Settings
 
-The **Settings** tab lets you control general settings, such as settings related to the people and teams in your organization.  
+The **Settings** tab lets you control general settings related to the people and teams in your organization.  
 
-- **Who Can Join This Organization** controls who is allowed to join your instance of Viva Goals and view your organization.  
+- **Who can join this organization?** controls who is allowed to join your instance of Viva Goals and view your organization.  
 
-- **Invite Policy** controls who can add users to your Viva Goals instance.  
+- **Invite policy** controls who can add users to your Viva Goals instance.  
 
-- **Team Creation** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams. Using this permission setting, admins can control the users who can create teams within their organization. There are three options that can be used: 
+- **Who can create teams?** is a feature that allows you to segment your organization into different workgroups and then add employees to those groups in Viva Goals. These groups will own team-level OKRs, and this setting controls who can create teams. Using this permission setting, admins can control the users who can create teams within their organization. There are three options that can be used:
     1. Any regular user
-    1. Admins
-    1. Team admins 
-    1. Customized (Choose users and grant them access) 
-    
+    1. Only team owners
+    1. Customized (Choose users and grant them access)
+
     > [!NOTE]
-    > By default for all the newly created organizations, the default permission setting for who can teams would be set to 'Admins' and 'Team Admins'. This option can be changed if needed. 
+    > By default for all the newly created organizations, the default permission setting for who can teams would be set to 'Admins' and 'Team owners'. This option can be changed if needed.
 
-- **Tag Creation** is a feature that allows you to categorize OKRs in buckets that you can later filter in a report.  
- 
-### Users  
+- **Tag creation** is a feature that allows you to categorize OKRs in buckets that you can later filter in a report.  
 
-On the **Users** tab, you'll find a list of all the individuals that have been added to your instance. This page also serves as a report, as you can use the **export** button to download a CSV file with people information. 
+- **Help and support** lets you add custom help links and resources for your organizations.
 
-All of the information can be filtered using dropdown menus such as role, account type, status, and manager.  
+:::image type="content" source="../media/goals/2/28/general-setting-page.png" alt-text="Screenshot showing the general settings page." lightbox="../media/goals/2/28/general-setting-page.png":::
 
-For example, if one of your users isn't sure if they got an invite, you could filter for users who have a status of "Pending."  
+### Members  
 
-:::image type="content" source="../media/goals/2/28/b.png" alt-text="Screenshot showing pending users alignment." lightbox="../media/goals/2/28/b.png":::
+On the **Members** tab, you'll find a list of all the individuals that have been added to your instance. This page also serves as a report, as you can use the **export** button to download a CSV file with people information.
+
+All of the information can be filtered using dropdown menus such as role, status, and source.
+
+For example, you can find the active or deactivated users in your organization from the status filter.
+
+:::image type="content" source="../media/goals/2/28/members-page.png" alt-text="Screenshot showing the members page." lightbox="../media/goals/2/28/members-page.png":::
 
 As admin, you can use the action menu, marked by three dots, to modify the various settings.
 
-- **Cancel Invite** retracts an email that you sent.
-- **Resend Invite** resends an invitation to join your instance.
 - **Deactivate** locks a user out of Viva Goals. All their OKRs and historical information will remain, but they won't be able to log on. You might use this option for someone who has left the company. You can reactivate them if needed. You aren't billed for deactivated users.  
-- **Edit** lets you view basic information about the employee, such as name and email, and you can assign teams from this view.  
-- **Make Admin** lets you add or remove privileges for a user.  
-- **Delete**  permanently deletes a user from Viva Goals.
+- **View profile** lets you view basic information about the employee, such as their name, email, location, and the like.
+- **Make owner** and **Remove owner** let you add or remove privileges for a user.  
+- **Delete**  permanently deletes a user from the Viva Goals organization.
 
 ### Teams
 
@@ -99,7 +100,7 @@ This tab shows all the teams that you've set up, plus the team owner and members
 
 The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge.
 
-### Integrations 
+### Integrations
 
 The **Integrations** tab lets you manage integrations in three categories:  
 
@@ -127,9 +128,11 @@ You can also enable private group notifications between users and their managers
 
 As a best practice, it’s a good idea to take a crawl, walk, run approach with integrations. While it may be tempting to see our long list of options and turn several on right away, first make sure your employees are comfortable with writing OKRs and using Viva Goals. From there, it can be useful to start with one group, such as Jira for the product team, before you roll out integrations to a larger audience.
 
+:::image type="content" source="../media/goals/2/28/integrations-page.png" alt-text="Screenshot showing the integrations page." lightbox="../media/goals/2/28/integrations-page.png":::
+
 ### Time periods
 
-Viva Goals includes both annual and quarterly time periods. Typically, organizations operate on an annual planning cadence, and departments/teams operate on a quarterly planning cadence. 
+Viva Goals includes both annual and quarterly time periods. Typically, organizations operate on an annual planning cadence, and departments/teams operate on a quarterly planning cadence.
 
 Admins can manage OKR time periods and customize them for your organization's requirements. Instead of the default quarterly periods, you could use monthly periods or define a custom time period.
 
@@ -141,9 +144,19 @@ Viva Goals understands that every business has its own set of processes and lets
 
 To learn more, see [Configure your OKR model in Viva Goals](/viva/goals/configure-okr-model).
 
-### OKRs and initiatives 
+### OKRs and initiatives
 
 Admins can determine whether to allow multiple teams and OKR owners to collaborate on key objectives and initiatives. Admins can also establish [OKR approval settings](approval-workflows.md).  
 
 To learn more about initiatives, see [Initiatives](projects.md).
 
+### Custom terminology
+
+Organization owners can customize OKR terminology to suit their orgs' needs. Currently, the following terms can be customized:
+
+- **OKR** can be changed to **Goal**.
+- **Objective** can be changed to **Goal**, **Outcome**, **Theme**, or **Big Rock**.
+- **Key Result** can be changed to **Metric**, **Outcome**, or **Result**.
+- **Initiative** can be changed to **Project**, **To Do**, **Deliverable**, **Milestone**, or **Action**.
+
+You can learn more about customizing terminology [here](customize-terminology.md).
