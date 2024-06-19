@@ -70,7 +70,7 @@ Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers.
 
 ### Microsoft’s commitment to responsible AI
 
-Copilot in Viva Glint aligns with our [AI principles](https://www.microsoft.com/ai/principles-and-approach) and undergoes rigorous internal stress testing. We actively identify and address systematic issues, ensuring Copilot in Viva Glint's comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information.
+Copilot in Viva Glint aligns with our [AI principles](https://www.microsoft.com/ai/principles-and-approach) and undergoes rigorous internal stress testing. We actively identify and address systematic issues, ensuring Copilot comment summarization remains free from undesirable content or behavior such as hate speech, incitement to violence, or misinformation. We're vigilant about protecting privacy and preventing the disclosure of sensitive information.
 
 ## Choose a method to roll out Copilot in Viva Glint
 
