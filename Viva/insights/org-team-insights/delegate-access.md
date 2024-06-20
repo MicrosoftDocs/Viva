@@ -45,7 +45,7 @@ If you use this optional feature, here are a few other things to note:
 3. Under **Share with**, type in the name or names of the people you want to assign as delegates. You can also add a personal note, but it’s not required.
 4. Select **Submit**.
 
-:::image type="content" source="images/delegate-access-1.png" alt-text="Screenshot showing delegate access box for Copilot Dashboard." lightbox="images/.png":::
+:::image type="content" source="images/delegate-access-1.png" alt-text="Screenshot showing delegate access box for Copilot Dashboard." lightbox="images/delegate-access-1.png":::
 
 ## Second method for assigning delegates
 
@@ -62,7 +62,7 @@ This method not only allows you to assign delegates but add and remove delegates
 5. To add a new delegate, at the top right, select **Add new.**
 6. To revoke access for an existing delegate, select the **Delete** (trashcan) icon.
 
-:::image type="content" source="images/delegate-access-2.png" alt-text="Screenshot showing alternate method for delegating access." lightbox="images/.png":::
+:::image type="content" source="images/delegate-access-2.png" alt-text="Screenshot showing alternate method for delegating access." lightbox="images/delegate-access-2.png":::
 
 Whenever a delegate has been added, they will be notified in Team Chat of their current access status.
 
@@ -76,7 +76,7 @@ Whenever a delegate has been added, they will be notified in Team Chat of their 
 2. On the message, **select View insights**. You are then redirected to the manager’s view of the respective dashboard.  
 3. In either dashboard on the top left, you will see a banner designed to inform you of which leader’s insights you’re viewing. Select either **View insights for** or **View Copilot Dashboard for**, in respective dashboard. If you're given delegate access by multiple leaders, select the banner to switch between different dashboards.
 
-:::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing." lightbox="images/.png":::
+:::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing." lightbox="images/delegate-access-3.png":::
 
 >[!Note]
 >The View Copilot Dashboard banner is only accessible from the Copilot dashboard and can’t be viewed anywhere else in the Viva app.
