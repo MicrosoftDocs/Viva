@@ -79,14 +79,14 @@ Whenever a delegate has been added, they will be notified in Team Chat of their 
 :::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing." lightbox="images/.png":::
 
 >[!Note]
->Note: The View Copilot Dashboard banner is only accessible from the Copilot dashboard and can’t be viewed anywhere else in the Viva app.
+>The View Copilot Dashboard banner is only accessible from the Copilot dashboard and can’t be viewed anywhere else in the Viva app.
 
 ## Remove access to delegate Copilot Dashboard with Powershell
 
 [Follow these steps to manage access to the delegate feature in Microsoft 365 admin center](/viva/feature-access-management).
 
 >[!Important]
->Important: Policies to disable delegation for Copilot dashboard can only be applied for the entire tenant level at this time.
+>Policies to disable delegation for Copilot dashboard can only be applied for the entire tenant level at this time.
 
 You can set a policy to disable delegation for Copilot Dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. No users can delegate access to Copilot Dashboard until you remove or update the policy. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
@@ -105,7 +105,7 @@ You can set a policy to disable delegation for Copilot Dashboard for the tenant 
 ```
 
 >[!Note]
->Note: After disabling the delegate feature for Copilot Dashboard, it may take up to 12 hours to reflect the change.
+>After disabling the delegate feature for Copilot Dashboard, it may take up to 12 hours to reflect the change.
 
 ## Related topics
 [Organization insights](org-insights.md)
