@@ -1,5 +1,5 @@
 ---
-title: Customize Action Plans in Viva Glint   
+title: Customize Suggested Action templates in Viva Glint   
 description: "Admins can add personally selected content resources to Action Plans for their managers to use with their teams."
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,20 +17,20 @@ ms.localizationpriority: high
 ms.date: 06/17/2024
 ---
 
-# Customize Action Plans in Viva Glint    
+# Customize Suggested Action templates in Viva Glint    
 
 Suggested Action templates contain content that Microsoft Viva Glint includes as suggested resources to help managers achieve team-approved Focus Areas. Resources used in Action Plan templates must first exist in Content Resources.
 
-## Viva People Science explains Focus Areas and Action Plans
+## Viva People Science explains Focus Areas and Suggested Action templates
 
-Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. It's designed to increase work engagement on your team and within your company.
+Focused and streamlined action planning is essential. A Suggested Action plan is a written commitment to make incremental improvements to the employee experience. It's designed to increase work engagement on your team and within your company.
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action taking](https://go.microsoft.com/fwlink/?linkid=2261087)
 
 ## Understand terminology associated with Content Resources and Action Plans
 
-This terminology assists with understanding how Glint sets up Action Plan templates: 
+This terminology assists with understanding how Glint sets up Suggestion Action templates: 
 
 |Term|Definition|
 |---------|---------|
