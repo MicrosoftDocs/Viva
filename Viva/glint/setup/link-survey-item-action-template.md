@@ -1,5 +1,5 @@
 ---
-title: Link an item to an Action Plan template in Viva Glint
+title: Link an item to a Suggested Action template in Viva Glint
 description: Edit an existing action plan template and link new items to it to create a customized action template. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,15 +14,15 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/14/2024
+ms.date: 06/20/2024
 ---
 
-# Link an item to an Action Plan template in Viva Glint
+# Link an item to a Suggested Action template in Viva Glint
 
 Standard resources are most often automatically linked to a Suggested Action template by default. You can edit an existing template and link new items to it. 
 
 >[!IMPORTANT]
->A new Action Plan template, created by cloning an existing template, needs to be renamed.
+>A new Action template, created by cloning an existing template, needs to be renamed.
 
 ## Map a new question to a Suggested Action template
 
@@ -54,7 +54,7 @@ Standard resources are most often automatically linked to a Suggested Action tem
    > [!NOTE]
    >Suggested Action templates update in real time. Often standard survey items are shared across multiple survey programs. Ensure the update is useful for anyone who might currently be using the Suggested Action Plan template.
 
-## Edit a suggested action item 
+## Edit a Suggested Action item 
 
 1. From the admin dashboard, select **Configure** and then **Suggested Action**.  
 1. Select the template from the **Name** column. 
@@ -75,7 +75,7 @@ Standard resources are most often automatically linked to a Suggested Action tem
 
 Default action items automatically appear anytime a new Focus Area is created for that item. For any Suggested Action Item that your company wants users to review, select **Move to Default** next to that item.
 
-## Delete custom content resources
+## Delete custom Content Resources
 
 Custom content is identified within the column labeled *Shared* in *Content Resources* on the admin dashboard. 
 

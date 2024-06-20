@@ -69,7 +69,9 @@ Opting out of response exports occurs within the *Confidentiality* section of *P
 To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint provides an alternative solution, allowing customers to fulfill DSR requests without accessing the requestors raw survey responses. Read on.
 
 > [!IMPORTANT]
-> Even when an admin has opted out of raw survey response exports, the Viva Glint admin can still access limited data if it meets *extreme circumstance* criteria. It's possible that Glint will need to disclose survey feedback when we have a good faith belief that disclosure is reasonably necessary to protect your safety, the rights and safety of Glint personnel or others, or to investigate, prevent or take action regarding suspected illegal activity. [Read more about "extreme circumstances".](https://go.microsoft.com/fwlink/?linkid=2238614)
+> Even when an admin has opted out of raw survey response exports, the Glint admin can still access data if it meets **extreme circumstance** criteria. It's possible that Glint needs to disclose survey feedback when there is a good faith belief that disclosure is reasonably necessary to protect your safety, the rights and safety of Glint personnel or others, or to investigate, prevent or take action regarding suspected illegal activity, suspected fraud, situations involving potential threats to the physical safety of any person, or if otherwise required by law to do so.
+>
+> The privacy statement complies with GDPR notice requirements.
 
 ## Use the People feature to export responses
 
@@ -90,7 +92,7 @@ As the admin, you can export raw survey responses from an individual's profile i
 >[!TIP]
 > For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](/../../viva/glint/setup/delete-user-data)
 
-## Disabling Raw Data Export access
+## Disable Raw Data Export access
 
 **Important**: Disabling Raw Data Export (RDE) means that: 
 - Admins can't access or export this survey data unless your organization believes extreme circumstance requirements exist. In this case, a Viva Glint admin can enable the export.
