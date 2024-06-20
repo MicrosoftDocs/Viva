@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/17/2024
+ms.date: 06/20/2024
 ---
 
 # Customize Suggested Action templates in Viva Glint    
