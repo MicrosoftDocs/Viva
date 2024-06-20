@@ -14,9 +14,11 @@ manager: abelutk
 audience: Admin
 ---
 # Delegate access to organizational insights and Copilot Dashboard
-The Copilot Dashboard Delegation feature is gradually rolling out to our customers so it may not be available to everyone right away.
 
 You can delegate access to your organizational insights and Copilot Dashboard to other people within your company. In contrast to organizational insights, holding the group manager role isn’t required to delegate access to the Copilot Dashboard.  
+
+>[!Note]
+>The Copilot Dashboard Delegation feature is gradually rolling out to our customers so it might not be available to everyone right away.
 
 By granting delegate access, someone else at your company, such as your chief of staff or one of your direct reports, would have the same access you have to organizational insights. They can view them and operationalize business decisions based on the data and insights.
 
@@ -37,8 +39,9 @@ If you use this optional feature, here are a few other things to note:
 * If you assign delegates, and you’re removed as a group manager from Viva Insights, the delegates you assigned are also removed along with their access.
 
 ## How to assign a delegate
+
 ### Organizational insights & Copilot Dashboard:   
-*Applies to: People with access to [organizational insights](../org-team-insights/org-insights.md#organization-insights-in-viva-insights) or [Copilot Dashboard](../org-team-insights/copilot-dashboard-advanced-features.md).*
+*Applies to: People with access to [organizational insights](../org-team-insights/org-insights.md#organization-insights-in-viva-insights) or [Copilot Dashboard](../org-team-insights/copilot-dashboard.md)*
 
 1. Select the feature you wish to delegate access to, then select the ellipses (…) at the top right.  
 2. Select **Delegate access.**
@@ -53,7 +56,7 @@ This method not only allows you to assign delegates but add and remove delegates
 
 ### Organizational insights & Copilot Dashboard:  
 
-*Applies to: People with access to organizational insights or Copilot dashboard.*
+*Applies to: People with access to organizational insights or Copilot dashboard*
 
 1. In the Viva Insights app, select the ellipses (…) at the top right.
 2. Select **Settings.**
@@ -64,7 +67,7 @@ This method not only allows you to assign delegates but add and remove delegates
 
 :::image type="content" source="images/delegate-access-2.png" alt-text="Screenshot showing alternate method for delegating access." lightbox="images/delegate-access-2.png":::
 
-Whenever a delegate has been added, they will be notified in Team Chat of their current access status.
+Whenever a delegate has been added, they'll be notified in Teams Chat of their current access status.
 
 ## Delegate access view
 
@@ -76,7 +79,7 @@ Whenever a delegate has been added, they will be notified in Team Chat of their 
 2. On the message, **select View insights**. You are then redirected to the manager’s view of the respective dashboard.  
 3. In either dashboard on the top left, you will see a banner designed to inform you of which leader’s insights you’re viewing. Select either **View insights for** or **View Copilot Dashboard for**, in respective dashboard. If you're given delegate access by multiple leaders, select the banner to switch between different dashboards.
 
-:::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing." lightbox="images/delegate-access-3.png":::
+:::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing.":::
 
 >[!Note]
 >The View Copilot Dashboard banner is only accessible from the Copilot dashboard and can’t be viewed anywhere else in the Viva app.
@@ -92,7 +95,7 @@ You can set a policy to disable delegation for Copilot Dashboard for the tenant 
 
 1. [Connect to Exchange Online](../advanced/setup-maint/configure-personal-insights.md#connect-to-exchange-online) and when prompted, sign in with your admin credentials.
 
-2. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet:[Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy). <!--Link not working-->
+2. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet:[Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
 **Example: Turn off delegation for Copilot Dashboard for all users in your tenant.**
 
