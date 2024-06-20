@@ -131,7 +131,7 @@ From your admin dashboard, follow this process:
 
 5.	In the *Reporting* section of the Permissions and Access page, enable **View Comments**.
 
-   :::image type="content" source="../../media/glint/setup/copilot-view-comments.png" alt-text="Screenshot of the View Comments    checkbox."lightbox="../../media/glint/setup/copilot-view-comments.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-view-comments-toggle.png" alt-text="Screenshot of the View Comments    checkbox."lightbox="../../media/glint/setup/copilot-view-comments-toggle.png":::
 
 ## Grant User Roles Comment Reports access 
 
