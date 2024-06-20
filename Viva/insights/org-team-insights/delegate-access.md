@@ -2,8 +2,8 @@
 ms.date: 06/21/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
-author: kateylundquist
-ms.author: v-klundquist
+author: Laura-Pen
+ms.author: v-penlaura
 ms.topic: article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
@@ -104,7 +104,8 @@ You can set a policy to disable delegation for Copilot Dashboard for the tenant 
  Everyone
 ```
 
-Note: After disabling the delegate feature for Copilot Dashboard, it may take up to 12 hours to reflect the change.
+>[!Note]
+>Note: After disabling the delegate feature for Copilot Dashboard, it may take up to 12 hours to reflect the change.
 
 ## Related topics
 [Organization insights](org-insights.md)
