@@ -64,15 +64,15 @@
           href: /viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage
         - name: Create a dynamic group
           href: /viva/engage/manage-viva-engage-groups/create-a-dynamic-group
-        - name: All Company works like a communities
+        - name: All Company communities
           href: /viva/engage/manage-viva-engage-groups/all-company-community
      - name: Manage Viva Engage users
        items:
-        - name: Set up Viva Engage usage policy
+        - name: Set up a usage policy
           href: set-up-usage-policy.md
         - name: Set up Microsoft 365 sign-in
           href: /viva/engage/manage-viva-engage-users/office-365-sign-in
-        - name: Improve Microsoft 365 sign-in for Viva Engage with auto-acceleration policy
+        - name: Improve Microsoft 365 sign-in with auto-acceleration policy
           href: /viva/engage/manage-viva-engage-users/auto-acceleration-policy-for-signing-in
         - name: Add, block, or remove users
           href: /viva/engage/manage-viva-engage-users/add-block-or-remove-users
@@ -102,9 +102,9 @@
        href: /viva/engage/manage-security-and-compliance/viva-engage-security-settings
      - name: Manage Viva Engage with Intune
        href: /viva/engage/manage-security-and-compliance/manage-viva-engage-with-intune
-     - name: Enforce Microsoft 365 identity for Viva Engage user
+     - name: Enforce Microsoft 365 identity for users
        href: /viva/engage/configure-your-viva-engage-network/enforce-office-365-identity
-     - name: Manage Viva Engage core user licenses in Microsoft 365
+     - name: Manage core user licenses in Microsoft 365
        href: manage-engage-licenses-microsoft-365.md
      - name: Search content with eDiscovery 
        href: ediscovery-engage.md
@@ -156,7 +156,7 @@
           href: /viva/engage/integrate-viva-engage-with-other-apps/integrate-with-other-applications
         - name: Social experience options in SharePoint enterprise
           href: /viva/engage/integrate-viva-engage-with-other-apps/viva-engage-and-newsfeed
-        - name: Add a Viva Engage feed to a SharePoint page
+        - name: Add Viva Engage feed to a SharePoint page
           href: /viva/engage/integrate-viva-engage-with-other-apps/embed-a-feed-into-a-sharepoint-site
         - name: Viva Engage and Microsoft Defender
           href: /viva/engage/viva-engage-and-defender
