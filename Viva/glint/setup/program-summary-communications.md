@@ -69,12 +69,12 @@ Set up to three reminders during the survey window and also a final reminder.
 
 Use the **Penci** symbol to open the slider window and then:
 
-- Change reminder send dates which are preset.
+- Change reminder send dates, which are preset.
 - Preview your reminder. At this time, the reminder message can't be edited. You can change the language and preview the message in other languages.
 
 ### Add survey reminders
 
-The dropdown menu on the **Add survey Reminder** button lets admins add reminders. After adding additional reminders, the reminders display on the Communications page with an alarm symbol in a green circle so that you'll know you've added them.
+The dropdown menu on the **Add survey Reminder** button lets admins add reminders. Reminders display on the Communications page with an alarm symbol in a green circle.
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-add-reminder.png" alt-text="Screenshot of the Add Survey Reminder dropdown menu for the Communications setup page.":::
 
@@ -98,7 +98,6 @@ To set up the results notification email:
 1. In the edit pane that appears, switch **Send notification** to **On**.
 2. In the **Send** field, enter a number of days after survey end date to send the email.
    1. The default is three (3) and the maximum is 30 days.
-1. Use the guidance in the Survey End Results Notification email section of this article to customize content of the email, if needed: [Customize Viva Glint survey email content](email-content-customization.md).
 2. Select **Save Changes** in the top right of the edit pane.
 
 > [!IMPORTANT]
