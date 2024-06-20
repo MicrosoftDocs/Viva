@@ -42,10 +42,6 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
 
-> [!NOTE]
->
-> Audience targeting is unavailable to targeted release customers using the new resources section and is planned to be implemented by the end of Q1 2024.
-
 :::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience."lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
 
 **Announcements:** Announcements from the organization display at the top of the Viva Connections experience and convey time-sensitive information to employees.
@@ -86,16 +82,18 @@ If your organization created [multiple Connections experiences](/viva/connection
 
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted."lightbox="../media/connections/edit-viva-home/vc3-switch-experience.png":::
 
-   > [!NOTE]
-   > Only users with edit privileges will be able to see the Switch Experience option in the menu.
+> [!NOTE]
+> 
+> Only users with edit privileges will be able to see the Switch Experience option in the menu.
 
 4. A list of created experiences display along with their status (enabled or draft). Select an **Experience** to switch to.
 5. Select **Switch**.
 
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
 
-   > [!NOTE]
-   > - Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> [!NOTE]
+> 
+> Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
 
 #### Give permission to edit from Viva Connections in Teams
 
@@ -263,14 +261,13 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 2. Under SharePoint News, select a news source:
 
-- **This site**: Only displays news posts that have been posted to this SharePoint home site.
+    - **This site**: Only displays news posts that have been posted to this SharePoint home site.
+    - **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
+    - **Search all sites**: Search for a site by name or URL.
 
 > [!NOTE]
 >
-> If you created your Connections experience without a home site, this option will still show but will not allow you to save since no home site is detected.
-
-- **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
-- **Search all sites**: Search for a site by name or URL.
+> If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
 
 3. If selecting a source other than your current site, extra sources display from available SharePoint sources:
 
@@ -292,7 +289,7 @@ Further customize your Connections experience and SharePoint home site by applyi
 
 > [!NOTE]
 >
-> - If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
+> If you have never selected a theme for your home site, the default SharePoint theme will be used for the home site and Connections experience.
 
 To apply a SharePoint or custom theme:
 
@@ -308,18 +305,20 @@ To apply a SharePoint or custom theme:
 
     :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
 
-    > [!NOTE]
-    > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
-    > - Dark themes (has the property isInverted=True), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
+> [!NOTE]
+> 
+> - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+> - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
 
     The home site color theme reflects automatically in the Viva Connections desktop experience.
 
-    > [!NOTE]
-    > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
-    >
-    > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
+> [!NOTE]
+>
+> Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+>
+> :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 
 ## Customize the dashboard
 
@@ -419,17 +418,18 @@ The [Feed web part for Viva Connections](use-feed-web-part-for-viva-connections.
 
 ## Language and multilingual settings
 
-> [!NOTE]
-> Viva Connections desktop applies the users’ SharePoint preferred language but not the Microsoft Teams language setting. However, for the mobile app, Viva Connections applies the device settings.
-
 The Viva Connections experience can be set in more than one language. Learn more about how [different elements of the experience can be edited to display in more than one language](viva-connections-language.md) and [how to create a multilingual dashboard](create-multilingual-dashboard.md).
+
+> [!NOTE]
+> 
+> Viva Connections desktop applies the users’ SharePoint preferred language but not the Microsoft Teams language setting. However, for the mobile app, Viva Connections applies the device settings.
 
 ## Manage permissions
 
-The permissions model for the new Viva Connections landing experience is similar to the permissions in SharePoint. Certain levels of permission grant access to specific editing tools and the ability to manage permissions and sharing.
+The permissions model for the new Viva Connections landing experience is like the permissions in SharePoint. Certain levels of permission grant access to specific editing tools and the ability to manage permissions and sharing.
 
 > [!NOTE]
-> At least two people should be assigned to Owner level permissions.
+> At least two people should be assigned Owner level permissions.
 
 | Owner       | Member            | Visitor     |
 |:------------------- |:-------------------|:---------------|
@@ -450,10 +450,11 @@ If you have owner permissions or higher, you can give access to new people and c
 
 ## Help end users in your organization learn more
 
-> [!NOTE]
-> For customers who already have Viva Connections setup, your end users will be automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
-
 If your organization already has a SharePoint home site and you want to keep it as the landing experience for the Connections desktop experience, use the PowerShell command listed in the following section to use the SharePoint home site. Learn more about [setting up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
+
+> [!NOTE]
+> 
+> For customers who already have Viva Connections setup, your end users will be automatically routed to the new Viva Connections home experience in Teams if your organization decides to use the new design as the default experience. If your organization has a SharePoint home site, you can choose to keep it as the default home experience when the new experience is available.
 
 ## Choose the default landing experience for Viva Connections desktop
 
@@ -461,17 +462,17 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-   > [!NOTE]
-   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
-   > - Run the command as a SharePoint Administrator.
-   > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
+> [!NOTE]
+> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+> - Run the command as a SharePoint Administrator.
+> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. Refer to [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for more information.
 
 3. Run `Set-SPOHomeSite -HomeSiteUrl <homesiteURL> -VivaConnectionsDefaultStart <$true/$false>`.
 
-   - The parameter should be set to **$false** to use the new Connections desktop experience as the default landing experience.
-   - The parameter should be set to **$true** to use a SharePoint home site as the default landing experience.
+   - The parameter should be set to **`$false`** to use the new Connections desktop experience as the default landing experience.
+   - The parameter should be set to **`$true`** to use a SharePoint home site as the default landing experience.
 
    **Example:**
 
