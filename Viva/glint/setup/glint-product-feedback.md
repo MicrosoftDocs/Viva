@@ -27,7 +27,7 @@ Microsoft Viva Glint provides an easy and consistent way for customers to provid
 >We suggest enabling the following:
 >
 > - Allow users to submit feedback to Microsoft
->   - Allow users to include screenshots and attachments when the submit feedback to Microsoft
+>   - Allow users to include screenshots and attachments when they submit feedback to Microsoft
 >   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft
 
 ## Three options to provide feedback
