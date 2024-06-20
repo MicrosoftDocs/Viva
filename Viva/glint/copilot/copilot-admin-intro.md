@@ -1,5 +1,5 @@
 ---
-title: Introduction and admin setup for Copilot in Viva Glint (preview) - publish on June 29, 2024
+title: Introduction and admin setup for Copilot in Viva Glint (preview)
 description: Copilot in Viva Glint leaders and HR to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
