@@ -105,6 +105,10 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
    :::image type="content" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
 
+**Delegate access to the dashboard:**
+
+If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md).
+
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
 
