@@ -431,6 +431,6 @@ The values under the first two columns (Group 1 & Group 2) are calculated using 
 
 There are two reasons for this:
 
-1. The app total figure is the count of the total number of unique users who leverage Copilot within that app. The feature total also tallies the total number of unique users who leverage Copilot for that particular feature. Therefore, if the same person uses multiple Copilot features within a single app, they are still only counted once in the total app figure.
+1. The app total figure is the count of the total number of *unique* users who leverage Copilot within that app. The feature total also tallies the total number of unique users who leverage Copilot for that particular feature. Therefore, if the same person uses multiple Copilot features within a single app, they are still only counted once in the total app figure.
 
-2. The app total refers to the total number of unique users who are active on any Copilot feature for that app, and the list of features below the app might not include every feature.
+2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.
