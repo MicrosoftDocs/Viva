@@ -23,7 +23,7 @@ description: "Learn how to access the admin portal for Viva Goals"
 
 # Viva Goals admin portal
 
-Global administrators and Viva Goals administrators can configure the Viva Goals policy settings for their companies from the Viva Goals admin portal page.
+Viva Goals administrators can configure the Viva Goals policy settings for their companies from the Viva Goals admin portal page.
 
 > [!NOTE]
 > To lean more about the different roles and permissions available on Viva Goals, visit [Roles and permissions in Viva Goals](roles-permissions-in-viva-goals.md)
@@ -37,7 +37,7 @@ Settings that are managed from the Viva Goals admin portal include:
 
 ## Access the Viva Goals admin portal
 
-Only global administrators and Viva Goals administrators can access the admin portal. If you are an admin, you can open the admin portal by selecting the **Viva Goals Admin Center** icon in the top right corner of Viva Goals.
+Only individuals with the permissions of Viva Goals administrators can access the admin portal. If you are an admin, you can open the admin portal by selecting the **Viva Goals Admin Center** icon in the top right corner of Viva Goals.
 
 If you are using the Viva Goals app for Microsoft Teams, you can access the Viva Goals admin portal by selecting the icon on the title bar.
 

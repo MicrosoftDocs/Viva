@@ -89,7 +89,7 @@ For more information on assigning licenses, check [assigning Microsoft 365 licen
 
 ### Create a conditional access policy
 
-1. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator.
+1. Sign in to the **Azure portal** as a Conditional Access Administrator or Security Administrator.
 1. Browse to **Microsoft Entra ID > Security > Conditional Access**.
 1. Select **New policy**.
 1. Give your policy a name. We recommend that organizations create a meaningful standard for the names of their policies.
@@ -129,7 +129,7 @@ After confirming your settings using [report-only mode](/azure/active-directory/
     > [!NOTE]
     > When you don't have a service principal listed in your tenant, it can't be targeted. The Office 365 suite is an example of one such service principal.
 
-1. Sign in to the **Azure portal** as a Conditional Access Administrator, Security Administrator, or Global Administrator.
+1. Sign in to the **Azure portal** as a Conditional Access Administrator or Security Administrator.
 1. Browse to **Microsoft Entra ID > Enterprise applications**.
 1. Select the service principal you want to apply a custom security attribute to.
 1. Under **Manage > Custom security attributes (preview)**, select **Add assignment**.
@@ -141,7 +141,7 @@ After confirming your settings using [report-only mode](/azure/active-directory/
 
 ## Assign Viva Goals administrator (optional)
 
-Viva Goals Administrators are assigned by Global admins or user admins from the Microsoft 365 Admin Center or Microsoft Entra ID. These are users typically from the IT team and manage the policy settings for Viva Goals for the entire company.
+Viva Goals Administrators are assigned by user admins from the Microsoft 365 Admin Center or Microsoft Entra ID. These are users typically from the IT team and manage the policy settings for Viva Goals for the entire company.
 
 This role is optional. It provides the minimal permissions required to manage Viva Goals and can be assigned to the person tasked with deploying and administering Viva Goals. In the absence of a separate Viva Goals Administrator, the Global admin can manage the Viva Goals policy settings for the company.
 
@@ -162,7 +162,7 @@ For more information on various roles and their responsibilities on Viva Goals c
 
 ## Configure tenant settings
 
-Once the Viva Goals Administrators have been assigned, a Viva Goals Administrator (or Global Administrator) can configure the tenant. To configure the tenant, complete the following steps:
+Once the Viva Goals Administrators have been assigned, a Viva Goals Administrator can configure the tenant. To configure the tenant, complete the following steps:
 
 - Review or Manage Org Creation Permissions
 - Enable the Integrations applicable for the tenant
@@ -170,12 +170,12 @@ Once the Viva Goals Administrators have been assigned, a Viva Goals Administrato
 
 ### Sign-in to Viva Goals
 
-1. **Target role:** Viva Goals Administrator Or Global Administrator
+1. **Target role:** Viva Goals Administrator.
 1. After assigning yourself a license, sign in to Viva Goals using https://goals.microsoft.com.
 
 ### Review or manage organization creation permissions
 
-- **Target role:** Viva Goals Administrator or Global Administrator.
+- **Target role:** Viva Goals Administrator.
 
 - An Organization in Viva Goals resembles the topmost entity in an enterprise at which the organizational OKRs are set up and every team in that org aligns their OKRs with those organizational OKRs. Learn more about [Organizations in Viva Goals](understand-orgs-and-teams.md).
 
@@ -193,7 +193,7 @@ Once the Viva Goals Administrators have been assigned, a Viva Goals Administrato
 
 ### Review/enable integrations for the tenant
 
-- **Target role:** Viva Goals Administrator or Global Administrator.
+- **Target role:** Viva Goals Administrator.
 
 - Viva Goals supports integrations with Microsoft and third-party apps and platforms so that the OKR implementation process is as simple, effective, and seamless as possible.
 

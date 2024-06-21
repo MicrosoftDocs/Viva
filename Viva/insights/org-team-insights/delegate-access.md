@@ -41,7 +41,7 @@ If you use this optional feature, here are a few other things to note:
 ## How to assign a delegate
 
 ### Organizational insights & Copilot Dashboard:   
-*Applies to: People with access to [organizational insights](../org-team-insights/org-insights.md#organization-insights-in-viva-insights) or [Copilot Dashboard](../org-team-insights/copilot-dashboard.md)*
+*Applies to: People with access to [organizational insights](../org-team-insights/org-insights.md#organization-insights-in-viva-insights) or [Copilot Dashboard](../org-team-insights/copilot-dashboard-advanced-features.md)*
 
 1. Select the feature you wish to delegate access to, then select the ellipses (…) at the top right.  
 2. Select **Delegate access.**
