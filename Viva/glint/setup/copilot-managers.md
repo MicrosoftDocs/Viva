@@ -52,9 +52,9 @@ Now, access Copilot in Viva Glint in one of these ways:
    
    :::image type="content" source="../../media/glint/setup/copilot-icon.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use."lightbox="../../media/glint/setup/copilot-icon.png":::
 
-1. Review the content provided and select **Next** to reveal the Comments pane.
-1. Review the guidance and select **Next**.
-1. Now, **Try Copilot!**
+2. Review the content provided and select **Next** to reveal the Comments pane.
+3. Review the guidance and select **Next**.
+4. Now, **Try Copilot!**
 
   :::image type="content" source="../../media/glint/setup/copilot-try-button.png" alt-text="Screenshot of the Try Copilot button."lightbox="../../media/glint/setup/copilot-try-button.png":::
 
@@ -62,7 +62,7 @@ Now, access Copilot in Viva Glint in one of these ways:
 
 Use these tips to understand and act on employee feedback quickly.
 
-|Recommendation|	Benefit|	
+|Recommendation|Benefit|	
 |-----------|----------|
 |Browse ready-to-use prompts|	Prompt guide proactively suggests questions to get you started on data exploration.|
 |Experiment writing your own prompts|	Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephase it.
@@ -111,8 +111,9 @@ This example follows Copilot comment summarization on the *Comments Report*, a w
    :::image type="content" source="../../media/glint/setup/copilot-second-prompt.png" alt-text="Screenshot of the question box in Copilot."lightbox="../../media/glint/setup/copilot-second-prompt.png":::
 
 7. Repeat this step until you have the right information to help you have a meaningful ACT Conversation with your team. [Find the Manager Guide to ACT Conversations here](https://go.microsoft.com/fwlink/?linkid=2231274).
+   
   1. At any time, you can view the summarized comments or all the comments verbatim.
-  2. You can also update the report using filters. 
+  1. You can also update the report using filters. 
 
   >[!CAUTION]
   >If you enable advanced filtering, the report can’t go back to basic filtering.
