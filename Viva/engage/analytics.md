@@ -28,7 +28,9 @@ Advanced analytics capabilities in Viva Engage enable the following scenarios:
 - Leaders and their delegates can monitor engagement for their audiences through _audience analytics_
 - Corporate communicators and campaign coorganizers can manage campaign engagement through _campaign analytics_
 - Knowledge admins can monitor Answer engagement through global _Answers analytics_
-- Network admins and corporate communicators track organization-wide engagement through _network analytics_
+- Network admins and corporate communicators can track organization-wide engagement through _network analytics_
+
+Analytics features are available in [all languages that Viva Engage supports](https://support.microsoft.com/en-us/office/which-languages-is-viva-engage-available-in-14dd5886-d48d-4d6d-a583-4273a2538540).
 
 ## Access analytics
 
