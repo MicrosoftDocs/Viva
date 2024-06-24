@@ -112,8 +112,8 @@ This example follows Copilot comment summarization on the *Comments Report*, a w
 
 7. Repeat this step until you have the right information to help you have a meaningful ACT Conversation with your team. [Find the Manager Guide to ACT Conversations here](https://go.microsoft.com/fwlink/?linkid=2231274).
    
-  1. At any time, you can view the summarized comments or all the comments verbatim.
-  1. You can also update the report using filters. 
+   - At any time, you can view the summarized comments or all the comments verbatim.
+   - You can also update the report using filters. 
 
   >[!CAUTION]
   >If you enable advanced filtering, the report can’t go back to basic filtering.
