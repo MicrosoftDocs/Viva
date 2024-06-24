@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 Copilot adoption community in Viva Engage"
+title: "Microsoft 365 Copilot adoption community in Viva Engage (Private Preview)"
 f1.keywords:
 - NOCSH
 ms.reviewer: ethli
@@ -21,7 +21,10 @@ search.appverid:
 description: "Viva Engage rolls out a Copilot adoption community to share best practices and answer user questions"
 ---
 
-# Microsoft 365 Copilot adoption community in Viva Engage
+# Microsoft 365 Copilot adoption community in Viva Engage (Private Preview)
+
+>[!IMPORTANT]
+>This feature is currently available only for private preview customers. The features described here are subject to change.
 
 Network admins and corporate communicators can now enable a new type of Viva Engage community specifically built to support adoption of Microsoft 365 Copilot.
 The **Microsoft 365 Copilot adoption community** makes it easier for users to ask questions, seek support from peers and IT admins, and learn best practices for Copilot.
@@ -39,12 +42,12 @@ This new community type includes onboarding prompts and a community template.
 
 ## Accept community presets for easy setup 
 
-Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and on-going community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
+Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and ongoing community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
 
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses _must be present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator who's setting up the community.
 
-:::image type="content" source="../media/engage/admin/engage-copilot-adoption-new-community.png" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
+:::image type="content" source="../media/engage/admin/engage-top-questions-community.png" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
 
 ## Explore tools to build membership, content, and engagement
 

@@ -42,7 +42,7 @@ Next, make sure that network enforces Microsoft 365 identity. For more informati
 
 ## 2. Access the Native Mode Alignment Tool
 
-Only Engage admins and Microsoft 365 Global administrators can use the Native Mode Alignment Tool. If your account is granted these privileges on a temporary basis, it can take a few hours for your admin privileges to be reflected in Viva Engage. Once granted, temporary privileges are only required to initiate the alignment process; they don't need to be maintained the entire time the tool is running. Additionally, Privileged Identity Management (PIM) has no effect on the alignment process.
+You must be an Engage admin to use the Native Mode Alignment Tool. If your account is granted these privileges on a temporary basis, it can take a few hours for your admin privileges to be reflected in Viva Engage. Once granted, temporary privileges are only required to initiate the alignment process; they don't need to be maintained the entire time the tool is running. Additionally, Privileged Identity Management (PIM) has no effect on the alignment process.
 
 To access the Native Mode Alignment Tool after Viva Engage recognizes your admin capabilities: Sign in to Viva Engage, go to the Network Admin section, and select the **Native Mode for Microsoft 365** menu item.
 
@@ -50,6 +50,7 @@ To access the Native Mode Alignment Tool after Viva Engage recognizes your admin
 > The Alignment Tool can take a long time for processing. Most customers are able to run the tool in one to two weeks, but it can take up to 90 days in extreme circumstances.
 
 ## 3. Prepare to run the Native Mode Alignment Tool
+
 Before you run the Native Mode Alignment Tool, you should generate and review the Alignment Report for your network. To run the report from within the tool, select the **Generate Report** button in the middle of the screen. This step doesn't make any changes to your network and doesn't start the alignment process. It just outputs a list of all users and communities in your Viva Engage Network.
 
 This report comes in YML format. If you prefer to review the report as a CSV file, we provide a tool available in GitHub that converts the file.
@@ -72,7 +73,7 @@ Use the report to identify the following information:
 
   External groups aren't permitted in Native Mode. Guest access in Native Mode is only available through the Microsoft Entra B2B Guest framework. The Native Mode Alignment Tool converts all your external groups to internal groups. If you have Microsoft Entra B2B Guests in your Viva Engage network, you can reinvite your guests as Microsoft Entra B2B guests as part of the migration.
 
-- **Which communities in your network don't have any owners or have owners who lack Microsoft 365 Group Creation Rights**
+- **Which communities in your network don't have any owners or have owners who lack Microsoft 365 Group creation rights**
 
   The Native Mode Alignment Tool creates a new Microsoft 365 Group, which is authorized by using the credentials of the existing owners of the Viva Engage community. If the Viva Engage community has no owner--or if no owners are authorized to create Microsoft 365 Groups--the tool creates the group using the credentials of the admin who initiated the Alignment Tool.
 

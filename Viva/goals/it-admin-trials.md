@@ -1,4 +1,5 @@
 ---
+ms.date: 06/17/2024
 title: Use an IT admin-led trial to try out the full version of Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -45,7 +46,7 @@ The expiration date appears in the trial subscription details page within the Mi
 
 |Role  |Activity  |
 |---------|---------|
-|Microsoft 365 global admin or billing admin      |Activate the trial and assign licenses          |
+|Microsoft 365 billing admin      |Activate the trial and assign licenses          |
 |Business user      |Perform knowledge manager, topic contributor, and topic consumer roles          |
 |Key OKR stakeholders      |Ensure users are creating OKRs and that business goals are realized. More about OKR stakeholder teams at [Define your team | Microsoft Learn](define-your-team.md)         |
 
@@ -79,7 +80,7 @@ To ensure continuity of service, you must purchase the required number of licens
 If you don't purchase licenses following the trial: 
 
 - Users will no longer be able to access Goals  
-- The Organization Owner, Organization Admin, or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
+- The Organization Owner or any other regular user can assign the ownership of OKRs, Dashboards and integrations to other licensed users 
 - Orgs whose Org Owners are trial users will be deactivated after the trials expire and the orgs are deleted in 30 days. 
 
 Give us feedback about your trial experience! Tell us what you think in the feedback below.

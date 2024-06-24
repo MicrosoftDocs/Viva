@@ -25,8 +25,6 @@ items:
       href: viva-goals-admin-portal.md
     - name: Mandate team assignment for OKRs
       href: mandate-okr-team-assignment.md
-    - name: Navigate the admin dashboard
-      href: navigate-admin-dashboard.md
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
     - name: Viva Goals security, privacy, and compliance
@@ -49,6 +47,8 @@ items:
   
   - name: Organization setup
     items:
+    - name: Organization admin dashboard
+      href: navigate-admin-dashboard.md
     - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
     - name: Company-wide organizations
@@ -59,7 +59,7 @@ items:
       href: restrict-organization-creation-permissions.md
     - name: Configure help and support for your organization
       href: configure-support.md
-    - name: Configure check-in reminders and notifications
+    - name: Configure check-in reminders, notifications, and templates
       href: check-in-reminders.md
     - name: Configure your OKR model in Viva Goals
       href: configure-okr-model.md
