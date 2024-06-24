@@ -172,8 +172,8 @@ Here are a few ideas of how to use Copilot in reports:
 ## Save your Copilot summary
 Copilot is only preserved within a user session. Once you log out, Copilot summarization disappears. To save your Copilot summary:
 
-1.	Highlight the content you want to save.
-2.	Select the **Copy** symbol.
+1. Highlight the content you want to save.
+2. Select the **Copy** symbol.
 
 	:::image type="content" source="../../media/glint/setup/copilot-save-summary-2.png" alt-text="Screenshot of how to save the Copilot summary."lightbox="../../media/glint/setup/copilot-save-summary-2.png":::
 
@@ -181,7 +181,7 @@ Copilot is only preserved within a user session. Once you log out, Copilot summa
 
 Our evaluation process incorporates feedback from early adopters and customers. This ongoing process helps us continuously enhance Copilot's performance. 
 
-Allow your leaders to give feedback by enabling feedback. The feedback feature must be set for your organization by the Microsoft 365 global admin. Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center.  Without this feature enabled,  leaders don’t have access to provide feedback.
+Allow your leaders to give feedback by enabling feedback. **The feedback feature must be set for your organization by the Microsoft 365 global admin.** Enablement occurs within Policy Management in the Microsoft 365 Apps Admin Center. Without this feature enabled, leaders don’t have access to provide feedback.
 
 We suggest enabling:
 
