@@ -117,7 +117,7 @@ This example follows Copilot comment summarization on the *Comments Report*, a w
   >[!CAUTION]
   >If you enable advanced filtering, the report can’t go back to basic filtering.
 
-    :::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard."lightbox="../../media/glint/setup/copilot-view-verbatim.png":::
+''':::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access View all comments and comments used in the Copilot summary."lightbox="../../media/glint/setup/copilot-view-verbatim.png":::'''
 
   >[!IMPORTANT]
   >Copilot will not provide a response or summarization if the comment count falls below the confidentiality threshold.
@@ -174,7 +174,7 @@ Copilot is only preserved within a user session. Once you log out, Copilot summa
 1.	Highlight the content you want to save.
 2.	Select the **Copy** symbol.
 
-	:::image type="content" source="../../media/glint/setup/copilot-save-summary.png" alt-text="Screenshot of how to save the Copilot summary."lightbox="../../media/glint/setup/copilot-save-summary.png":::
+	:::image type="content" source="../../media/glint/setup/copilot-save-summary-2.png" alt-text="Screenshot of how to save the Copilot summary."lightbox="../../media/glint/setup/copilot-save-summary-2.png":::
 
 ## Give in-product feedback
 
@@ -190,7 +190,7 @@ We suggest enabling:
 
 ## More feedback resources
 
-[Submit product feedback to Microsoft](https://learn.microsoft.com/viva/glint/setup/glint-product-feedback)
-[Overview of Cloud Policy](https://learn.microsoft.com/deployoffice/admincenter/overview-cloud-policy)
-[Manage Microsoft feedback](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-feedback-ms-org?view=o365-worldwide#configure-policies)
+[Submit product feedback to Microsoft](https://go.microsoft.com/fwlink/?linkid=2276920)
+[Overview of Cloud Policy](https://go.microsoft.com/fwlink/?linkid=2276730)
+[Manage Microsoft feedback](https://go.microsoft.com/fwlink/?linkid=2276731)
 
