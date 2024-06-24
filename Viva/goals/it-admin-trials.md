@@ -46,7 +46,7 @@ The expiration date appears in the trial subscription details page within the Mi
 
 |Role  |Activity  |
 |---------|---------|
-|Microsoft 365 global admin or billing admin      |Activate the trial and assign licenses          |
+|Microsoft 365 billing admin      |Activate the trial and assign licenses          |
 |Business user      |Perform knowledge manager, topic contributor, and topic consumer roles          |
 |Key OKR stakeholders      |Ensure users are creating OKRs and that business goals are realized. More about OKR stakeholder teams at [Define your team | Microsoft Learn](define-your-team.md)         |
 

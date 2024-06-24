@@ -15,7 +15,7 @@ search-appverid: MET150
 ms.topic: install-set-up-deploy
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/4/2024
+ms.date: 06/20/2024
 ---
 
 # Set up a Microsoft Viva Glint tenant
@@ -106,6 +106,13 @@ You can also choose to **Open Viva Glint** from this page:
 
 :::image type="content" source="../../media/glint/start/viva-glint-tenant.png" alt-text="Screenshot that displays Viva Glint tenant ready to use.":::
 
+## Manage Microsoft in-app feedback
+
+Control whether users in your organization can submit in-product feedback for Viva Glint:
+
+- [Manage Microsoft feedback for your organization](/microsoft-365/admin/manage/manage-feedback-ms-org)
+- [Overview of Cloud Policy service for Microsoft 365](/deployoffice/admincenter/overview-cloud-policy)
+  
 ## Use Microsoft FastTrack for more support 
 
 Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
