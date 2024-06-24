@@ -27,7 +27,7 @@ To assign Viva Pulse admin roles:
 3.	Select **+ Add assignments** from the list of options.
 4.	Use the **Select member(s)** option and select the users you want to assign the role to.
 5.	Select **Next**.
-6.	Select **Assignment type** as **Active** and select dates if needed.
+6.	Select **Assignment type** as **Active**. If you uncheck the **Permanently eligible** option, select the **Assignment start** and **Assignment end** dates.
 7.	Select **Assign** to complete the process.
  
 Users with the Viva Pulse Administrator role can now manage Pulse settings using the in-app administration experience in Pulse.
