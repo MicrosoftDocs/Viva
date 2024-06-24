@@ -117,7 +117,7 @@ This example follows Copilot comment summarization on the *Comments Report*, a w
   >[!CAUTION]
   >If you enable advanced filtering, the report can’t go back to basic filtering.
 
-''':::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access View all comments and comments used in the Copilot summary."lightbox="../../media/glint/setup/copilot-view-verbatim.png":::'''
+   :::image type="content" source="../../media/glint/setup/copilot-view-verbatim.png" alt-text="Screenshot of how to access View all comments and comments used in the Copilot summary."lightbox="../../media/glint/setup/copilot-view-verbatim.png":::
 
   >[!IMPORTANT]
   >Copilot will not provide a response or summarization if the comment count falls below the confidentiality threshold.
