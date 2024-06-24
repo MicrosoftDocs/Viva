@@ -155,7 +155,7 @@ To complete your external, historical import, access Viva Glint’s Advanced Con
 
 To import historical users and their responses:
 
-1. From your admin dashboard, select the **Configure** symbol, then in **Service Configuration** choose **Advanced Configuration**.
+1. From your admin dashboard, select the **Configuration** symbol, then in **Service Configuration** choose **Advanced Configuration**.
 1. In the menu on the left, select **External Import**.
 2. On the **External Import** page, make selections to import your data:
    1. **Manual Mode:** Leave this toggle switched to **Off**.
