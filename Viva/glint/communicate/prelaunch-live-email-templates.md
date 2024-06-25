@@ -21,14 +21,14 @@ ms.date: 06/25/2024
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
 
-Use the pre-launch and live templates below to customize and send to the people in your organization to prepare them to participate in Viva Glint survey programs. The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate. 
+To prepare your people to participate in Viva Glint survey programs, use these pre-launch and live-window templates to customize and send to the people in your organization . The templates are for guidance only and assume a six-week launch, which may be longer than your timeline. Align your communications as appropriate. 
 
 Sample communications aren't generated in the Viva Glint platform. 
 
 Various templates are available: 
 
 - Presurvey templates for introducing various audiences to the Viva Glint survey process 
-- Presurvey templates for various times prior to survey launch 
+- Presurvey templates for various times before your survey launches
 - Templates to provide leaders to training access 
 - Survey reminder for when your survey is live 
 
@@ -36,7 +36,7 @@ Various templates are available:
 
 - Customize the content to your voice.
 - Look for placeholders, like [Company name], and insert applicable information. 
-- Adapt messages based on your organization’s familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than those who survey regularly. 
+- Adapt messages based on your organization’s familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than organizations who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
 - Consider the timing of other company-wide initiatives and communication plans. Look for opportunities to align communication and streamline employee touch points. 
 
