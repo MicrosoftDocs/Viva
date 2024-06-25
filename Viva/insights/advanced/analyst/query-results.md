@@ -193,7 +193,7 @@ Here's an example of a results file:
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
 
-### Manage updates to metrics used in existing queries
+## Manage updates to metrics used in existing queries
 
 When a metric definition changes, your existing queries that use that metric won't automatically update. You can continue to use the old definition, or update to the new one. This applies to both Microsoft-defined metrics and custom metrics created by other analysts. 
 
