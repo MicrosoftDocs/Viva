@@ -162,7 +162,7 @@ To import historical users and their responses:
    1. **Survey Name:** Select your survey from the dropdown list.
    2. **Exception Date:** This field determines the start date displayed in reporting for this survey and must be **at least one week before the current date** and **not overlap** with any scheduled surveys in this program.
       > [!CAUTION]
-      > Selecting a date three or fewer days before the current date can result in unwanted email invites sending to employees.
+      > Selecting a date three or fewer days before the current date can result in unwanted email invites sent to employees.
    4. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
    5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and does not appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
    6. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
