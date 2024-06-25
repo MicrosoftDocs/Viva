@@ -21,7 +21,7 @@ ms.date: 06/25/2024
 
 Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform the VIva Glint admin about what level of privacy users can expect when responding. 
 - Confidential surveys: scores only display with at least three (3) responses
-- Identifiable surveys for Employee Lifecycle surveys: the response threshold is less than three (3). **As of June 2024, confidentiality settings in an Always-On survey can be lowered to less than three (3) respondants in order to collect feedback at a very personal level.**   
+- Identifiable surveys for Employee Lifecycle surveys: the response threshold is less than three (3). **As of June 2024, confidentiality settings in an Always-On survey can be lowered to less than three (3) respondents in order to collect feedback at a very personal level.**   
 Use this article to [adjust confidentiality thresholds](https://go.microsoft.com/fwlink/?linkid=2238614) at the overall level or at the survey program level and understand the impact of those changes.
 
 For a deeper understanding of how confidentiality and suppression appear in Viva Glint reports: [Understand Viva Glint confidentiality and suppression in reports](/viva/glint/reports/confidentiality-suppression-reports).
