@@ -1,5 +1,5 @@
 ---
-ms.date: 5/28/2024
+ms.date: 6/21/2024
 title: Use Microsoft Copilot Dashboard advanced features with a Viva Insights subscription
 description: Explains how to use the Microsoft Copilot Dashboard's advanced features, including filters and Copilot metric breakdowns, with a Viva Insights subscription.
 author: zachminers
@@ -70,7 +70,7 @@ The adoption and impact pages use different calculations for their tally counts.
 * 3,541 Copilot licensed employees represents the tenant level total count. There’s a four day data delay from the current date.
 
 >[!Note]
->Adoption and impact data underneath the filter represents the four complete weeks that ended on the second to last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the second to last Saturday would be March 9, and the dashboard would represent activity between Sunday, February 11 and Saturday, March 9.
+>Adoption and impact data underneath the filter represent the four complete weeks that ended on the last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the last Saturday would be March 16, and the dashboard would represent activity between Sunday, February 18 and Saturday, March 16.
 
 ### Select the filters for your analysis in the dashboard
 
@@ -81,6 +81,9 @@ The adoption and impact pages use different calculations for their tally counts.
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
 By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The advanced insights app can get organizational data in one of two ways: through Microsoft Entra ID, which is the default setting; or through an [organizational data file that your Insights admin uploads](../advanced/admin/org-data-overview.md).
+
+>[!Note]
+>If you upload an organizational data file, upload data for every employee in the company. Or, if your Insights admin has limited access to organizational data, upload data for every employee in your analysis, as well as managers in the hierarchy between those being analyzed, and the top-level leader in the company. This ensures that the **Scope** filter accurately reflects the hierarchy.
 
 The **Scope** filter is based on the Microsoft Entra ID attribute "ManagerID" to populate "Your company" data and "Your group" data by default. If your Insights admin uploads a .csv file with the attribute of "ManagerID," the "Your group" data in the filter will be updated.
 
@@ -325,6 +328,14 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
    :::image type="content" source="images/copilot-dash-upload-02.png" alt-text="Screenshot that shows the final steps to upload the survey data.":::
 
+#### Upload aggregated survey results through the Microsoft 365 admin center 
+*Applies to: Microsoft 365 admins*
+
+Microsoft 365 admins can also upload aggregated survey responses to enable a summary view of Copilot sentiment for the entire company. [Learn how using these steps](/microsoft-365/admin/adoption/ai-assistance#sentiment-survey-upload-experience). If you use this upload method, filters and heat maps are *not* supported.
+
+>[!Note]
+>If you upload survey data both as a .csv file *and* as aggregated results through the Microsoft 365 admin center, only the .csv survey results are shown in the dashboard. If you subsequently delete the .csv data, then the aggregated results are shown in the dashboard.
+
 ### News & research
 
 *Applies to: Employee users* 
@@ -342,7 +353,7 @@ You can also add Microsoft 365 Copilot metrics to your custom person query. Lear
 ### Setup and licenses
 
 **Q1. How does data in the Copilot dashboard compare to usage reports in the admin center?**
-Both the Microsoft Copilot dashboard and the admin center usage reports leverage the same underlying data set, but differences in each report’s prerequisites and time periods might still cause data discrepancies.
+Both the Microsoft Copilot dashboard and the admin center usage reports leverage the same underlying data set, but they're intended for different audiences. The Copilot dashboard is intended for organizational leaders and technology decision makers, while the admin center report is intended for IT admins. Also, differences in each report’s prerequisites and time periods might cause data discrepancies.
 
 Differences in the data are often caused by at least one of the following:
 
@@ -415,3 +426,11 @@ Copilot chat metrics are based on use of Copilot with Graph-ground chat across a
 
 **Q3. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
+
+**Q4. On the adoption page, why don’t the app usage totals match the sum of the usage of the individual features below each app?**
+
+There are two reasons for this:
+
+1. The app total figure is the count of the total number of *unique* users who leverage Copilot within that app. The feature total also tallies the total number of unique users who leverage Copilot for that particular feature. Therefore, if the same person uses multiple Copilot features within a single app, they are still only counted once in the total app figure.
+
+2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 03/26/2024
+ms.date: 06/20/2024
 ---
 
 # Admin setup for Viva Glint Team Conversations
@@ -88,7 +88,7 @@ If you enable Team Conversations for a User Role after the conversation start da
    >Nudges can coexist with Team Conversations but will not send when the Team Conversation window is open.
 
 >[!TIP]
->If Team Conversations are enabled, do not enable Nudges for that User Role.
+> When Team Conversations are enabled, don't enable Nudges for that User Role.
 
 
 | **Are Team Conversations on?** | **Is the cycle Live** |**Have 7 days passed since live access?**|**Can emails be edited?**
@@ -100,11 +100,11 @@ If you enable Team Conversations for a User Role after the conversation start da
 | No| No|No|Yes, Team Conversations can be turned on and emails can be edited|
 | No| No|Yes|No, but emails send if Teams Conversations is switched to ON|  
 
-#### Editing communications 
+## Edit communications 
 
-Edit and preview by selecting **Edit**. Edits made to notifications are only for the current program. Switching from Edit to **Preview** (and languages) will automatically save changes. 
+Edit and preview by selecting **Edit**. Edits made to notifications are only for the current program. Switching from Edit to **Preview** (and languages) automatically saves changes. 
 
-#### Conversation Start Notification 
+### Conversation Start Notification 
 
 - Can be enabled or disabled 
 - Can be edited for the number of days after survey results are released 
@@ -112,33 +112,36 @@ Edit and preview by selecting **Edit**. Edits made to notifications are only for
 - Can be sent in any languages enabled for this survey 
 - Can be previewed 
 
-#### Conversation Reminders 
+### Conversation Reminders 
 
-Reminders begin when the User Role group gets Live access. This may be different if role groups are turned to Live Access at various times. The Conversation Start email can be turned on or off up until the day it's sent but not after the start of the Team Conversations. An existing Reminder email (before the Conversation End date) can be deleted or modified up until the day before the last group of users are scheduled to receive it. 
+Reminders begin when the User Role group gets Live access. This may be different if role groups are scheduled for Live Access at various times. The Conversation Start email can be turned on or off until the day it's sent but not after the start of the Team Conversations. An existing Reminder email (before the Conversation End date) can be deleted or modified until the day before the last group of users are scheduled to receive it. 
 
 - Can be sent any number of days before Conversation End date. Our default and Best Practice are to send both seven and three days before Conversation End date.  
 - Additional reminders can be added by selecting **+ Conversation Reminder**  
 - Can be sent in any language enabled for the survey 
 - Can be previewed 
 
-#### Conversation Summary Notification 
+### Conversation Summary Notification 
 
 - Can only be enabled or disabled, no date changes 
 - Broader Team Insights (BTI) links appear when appropriate 
 - Can be sent in any language enabled for the survey 
-- Can be previewed 
+- Can be previewed
 
-#### Conversation Overdue Reminder 
+:::image type="content" source="../../media/glint/setup/results-notification-email-setup.png" alt-text="Screenshot of the Survey End Results Notification email setup pane.":::
+
+### Conversation Overdue Reminder 
 
 - Can be edited for a specified number of days after Conversation End date. The default and Viva Glint Best Practice is three days. 
 - Can be sent in any language enabled for this survey 
 - Can be previewed 
 
-> [!NOTE]
-> Team Conversations email content customization is currently only available to some Viva Glint customers. All Viva Glint customers will have email content edit abilities with a new email provider soon. [Learn more about customizing Team Conversation email content](team-conversations-content-cusomization.md).
+## Customize Team Conversations email content
+
+[Learn more about customizing Team Conversations email content](team-conversations-content-cusomization.md).
 
 ### Coaching page 
 
-This is where you set up the Team Conversations presentation kit for your manager to share with their teams. As this configuration is so important for your managers, it needs its own page! See [Coaching Setup for Admins](https://www.microsoft.com). 
+This is where you set up the Team Conversations presentation kit for your manager to share with their teams. See [Coaching Setup for Admins](https://www.microsoft.com). 
 
  

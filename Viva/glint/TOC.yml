@@ -65,7 +65,7 @@ items:
                 href: setup/access-with-azure-ad.md
               - name: Create an SSH key pair
                 href: setup/sftp-ssh-key-gen.md
-              - name: Cconvert a key to OpenSSH format
+              - name: Convert a key to OpenSSH format
                 href: setup/convert-ssh-key.md
       - name: Manage employee data
         items:       
@@ -124,6 +124,9 @@ items:
               href: setup/export-distribution-lists.md
       - name: Set up User Roles
         href: setup/set-up-user-roles.md
+        items:
+            - name: Custom User Roles
+              href: setup/custom-user-role.md
       - name: Set up Focus Area periods
         href: setup/focus-area-period-feature.md
       - name: Use the Question Library
@@ -133,13 +136,14 @@ items:
               href: setup/question-mapping.md
       - name: Encourage action with Nudges
         href: communicate/communicate-with-nudges.md
-      - name: Customize action plans 
-        href: setup/customize-action-plans.md
+      - name: Focus Areas
         items:
-            - name: Link items to action plan templates
-              href: setup/link-survey-item-action-template.md
-            - name: Embed videos
-              href: setup/embedding-content-resources.md
+          - name: Customize Suggestion Action templates
+            href: setup/customize-action-plans.md
+          - name: Link Content Resources to Suggested Action templates
+            href: setup/link-survey-item-action-template.md
+          - name: Embed videos
+            href: setup/embedding-content-resources.md
       - name: Manage translations 
         href: setup/language-translations.md
       - name: Character limits
@@ -278,6 +282,8 @@ items:
            href: reports/manager-report.md
          - name: Multi-Attribute Export
            href: reports/multi-attribute-export-report.md
+         - name: Team Conversations usage report
+           href: reports/convo-usage-report.md
       - name: Viva Glint reports for all users
         items:
          - name: Reporting features
@@ -398,10 +404,16 @@ items:
     items:
       - name: Data File Uploads
         items:
-           - name: Resolve manager hierarchy error
-             href: /viva/troubleshoot/glint/data-file-upload/fix-manager-hierarchy-circular-reporting?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
-           - name: Understand file upload errors and warnings
-             href: /viva/troubleshoot/glint/data-file-upload/file-upload-errors-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json  
+           - name: Resolve upload errors related to attributes
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload errors related to derived attributes
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-derivation-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to duplicate data
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-duplicate-data-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to invalid or unexpected values
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
+           - name: Resolve upload warnings related to manager hierarchy
+             href: /viva/troubleshoot/glint/data-file-upload/fix-upload-manager-hierarchy-warnings?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json 
       - name: Historical Imports
         items:
            - name: Error "Duplicate entry"

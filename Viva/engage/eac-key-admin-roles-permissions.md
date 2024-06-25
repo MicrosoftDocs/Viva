@@ -79,7 +79,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 |Function |Details |
 |------------|-----------------|
 |**Permissions** |<ul><li>Manage content policies, monitors keywords, data retention, security settings, and reading data in private communities</li><li>Assign verified and network admin roles</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>[Export data](/viva/engage/eac-as-manage-data) and perform integrations with other tools</li></ul>|
-|**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or verified admin|
+|**Who can assign**|Engage admin or verified admin|
 |**How to assign**|In the [Yammer admin center](https://www.yammer.com/yammertest10.onmicrosoft.com/), select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Verified Admin**.</li></ul>|
 
 ## Network Administrator
@@ -87,7 +87,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 |Function |Details |
 |------------|-----------------|
 |**Permissions** |<ul><li>Configure network settings, usage policy, and user profiles</li><li>Manage internal users, [outside guests](/viva/engage/get-started-with-viva-engage/azure-ad-b2b-guests-viva-engage), and unlisted groups</li><li>[Close and reopen conversations](https://support.microsoft.com/en-gb/topic/close-pin-or-report-a-conversation-in-viva-engage-1d2489a7-925f-40f7-9f0a-b32e6a6d4f27) in communities and storylines on behalf of any user<li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>View reports in the Microsoft 365 Usage Reporting dashboard</li></ul>|
-|**Who can assign**|A Microsoft 365 Global administrator, Engage admin, or network admin|
+|**Who can assign**|Engage admin or network admin|
 |**How to assign**|In the [Yammer admin center](https://www.yammer.com/yammertest10.onmicrosoft.com/), select **Admins**.  Find and select the user's name and select **Make this user an admin**. If the user is already an admin, find their name from the Current Admins list and select **Grant Network Admin**.</li></ul>|
 
 ## Answers Administrator  
@@ -103,7 +103,7 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 |Function |Details |
 |------------|-----------------|
 |**Permissions** |<ul><li>Send announcements</li><li>[Identify leaders and their audiences](/viva/engage/leadership-identification)</li><li>Create and manage official campaigns:<ul><li>Publish draft campaigns to Active and viewable to the network</li><li>Set Active campaigns to Ended</li><li>Republish recurring campaigns from **Ended** to **Active**</li><li>Delete campaigns created by mistake</li><li>Update campaign assets (such as goal tracker, cover photo, hashtag theme colors, pinned posts, pinned resources and links</li><li>View campaign analytics</li></ul>|
-|**Who can assign**|A Microsoft 365 Global administrator or an Engage admin|
+|**Who can assign**|Engage admin|
 |**How to assign**|In the Viva Engage admin center, on the **Setup and configuration** tab, select **Manage corporate communicators**. Select **Add user** to search for a user by name or email ID. Assignees appear in the list of active corporate communicators in your organization.|
 
 ## Community Administrator
