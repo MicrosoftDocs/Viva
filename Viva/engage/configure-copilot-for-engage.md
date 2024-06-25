@@ -35,7 +35,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 ## Data processing and storage
 
-:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app ." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Illustration shows how Copilot sends and receives requests with the summarization service and the large language model to provide summaries and writing assistance within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
 |**Process**|**How it works**|
 |---|---|
