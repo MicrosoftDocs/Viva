@@ -1,5 +1,5 @@
 ---
-ms.date: 01/11/2023
+ms.date: 07/03/2024
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
@@ -192,6 +192,26 @@ Here's an example of a results file:
 6.	Select **Import** under **Data Connectivity mode**, and then select **OK**. 
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
+
+### Manage updates to metrics used in existing queries
+
+When a metric definition changes, your existing queries that use that metric won't automatically update. You can continue to use the old definition, or update to the new one. This applies to both Microsoft-defined metrics and custom metrics created by other analysts. 
+
+Whenever you create a new query, you'll use the latest metric definition. However, your existing queries, including auto-refresh queries, will continue to use the original metric definition. This preserves the consistency and accuracy of your query results.
+
+If any of your existing queries use metrics that have changed, you'll see the status, **Success (with warning)**, and a message stating the query uses metrics with updated definitions in the query results page.
+
+To update the metric definition in your query, you have two options: edit or clone. You can find these options in the **More options** ellipses. Editing your query will overwrite the existing results with the new definition. Cloning your query will create a new query with the new definition and keep the existing results.
+
+>[!Note]
+> If you want to re-run the query without updating metric definitions, select **Re-run query** in the **More options** ellipses. When asked if you want to review the query for updated metrics select **Re-run anyway!** Selecting **Review query** will open the query setup page in edit mode.
+
+In the query setup page, use these steps to update all metrics or individual metrics in your query: 
+
+* To update all metrics, select **Update all metrics** on the banner at the top of the query setup page.
+* To update individual metrics, scroll down to **Select metrics for what you want to know about your employees**, select **Add metrics**, find the metric you want to update, select the ellipsis, and select **Update**. Close the metric selection pane to return to the query setup page.
+
+After you’ve updated the metrics used in your query, select **Run**.
 
 ## FAQs
 We've compiled answers for some questions you might run across while viewing your query results.
