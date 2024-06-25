@@ -49,33 +49,41 @@ Each template below is bookmarked. Copy, paste, and customize for internal distr
 
 ### Email template for your entire organization 
 
-|**Template subject**| **Suggested timeline for sending**|
-|-----------|-----------|
-|[Upcoming survey](#email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
+|**Template #**|**Template subject**| **Suggested timeline for sending**|
+|:-----------:|-----------|-------|
+|1|[Upcoming survey](#email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
+
+<br>
 
 ### Email templates for senior leaders 
 
-|**Template subject**| **Audience**|**Suggested timeline for sending**|
-|-----------|-----------|-----------|
-|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
-|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
+|**Template #**|**Template subject**| **Audience**|**Suggested timeline for sending**|
+|:-----------:|-----------|-----------|----------|
+|2|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
+|3|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
+
+<br>
 
 ### Email templates for managers, HRBPs, and other company leaders 
 
-|**Template subject**| **Audience**|**Suggested timeline for sending**|
-|-----------|-----------|-----------|
-|[Upcoming survey](#engagement-and-upcoming-survey-for-hrbps)  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
-|[Engagement training and resources for upcoming survey](#engagement-training-for-hrbps)  | HRBPs  |Two weeks prior to launch |
-|[Upcoming survey](#engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
-|[Survey reminder](#survey-reminder)   |Managers, other leadership   |During survey window   |
+|**Template #**|**Template subject**| **Audience**|**Suggested timeline for sending**|
+|:----------:|-----------|-----------|---------------|
+|4|[Upcoming survey](#engagement-and-upcoming-survey-for-hrbps)  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
+|5|[Engagement training and resources for upcoming survey](#engagement-training-for-hrbps)  | HRBPs  |Two weeks prior to launch |
+|6|[Upcoming survey](#engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
+|7|[Survey reminder](#survey-reminder)   |Managers, other leadership   |During survey window   |
+
+<br>
 
 ### Email templates for customer stakeholders 
 
-|**Template subject**| **Suggested timeline for sending**|
-|-----------|-----------|
-|[Vision, strategy, and design prep](#vision-strategy-and-design-preparation) | Five weeks prior to launch    |
+|**Template #**|**Template subject**| **Suggested timeline for sending**|
+|:-----------:|-----------|---------|
+|8|[Vision, strategy, and design prep](#vision-strategy-and-design-preparation) | Five weeks prior to launch    |
 
-### Engagement and Upcoming Survey for All Employees 
+<br>
+
+#### Template 1 - Engagement and Upcoming Survey for All Employees 
 
 **To**: All Employees 
 
@@ -98,8 +106,9 @@ I’m eager to hear what you have to say and committed to acting on your feedbac
 **[Salutation]**, 
 
 **[Name]**
+<br>
 
-### Engagement and Upcoming Survey for Senior Leadership 
+#### Template 2 - Engagement and Upcoming Survey for Senior Leadership 
 
 **To**: Senior Leadership Team; CC: HR Leadership Team 
 **
@@ -131,8 +140,9 @@ Human Resources is here to support you throughout this process. Reach out with q
 **[Salutation]**, 
 
 **[Name]**  
+<br>
 
-## Engagement and upcoming Survey for leadership 
+#### Template 3 - Engagement and upcoming Survey for leadership 
 
 **To**: Leadership/VP  
 
@@ -167,8 +177,9 @@ Please speak with your managers about preparing for the survey launch and post-s
 **[Salutation]**, 
 
 **[Name]**
+<br>
 
-### Engagement and Upcoming Survey for HRBPs 
+#### Template 4 - Engagement and Upcoming Survey for HRBPs 
 
 **To**: Human Resources Business Partners 
 
@@ -193,8 +204,9 @@ We are here to support you throughout this process. Please reach out with questi
 **[Salutation]**, 
 
 **[Name]**
+<br>
 
-### Engagement Training for HRBPs 
+#### Template 5 - Engagement Training for HRBPs 
 
 **To**: Human Resource Business Partners 
 
@@ -215,8 +227,9 @@ We're here to support you throughout this process. Reach out with questions.
 **[Salutation]**, 
 
 **[Name]**
+<br>
 
-### Engagement and Upcoming Survey for Managers/VPs 
+#### Template 6 - Engagement and Upcoming Survey for Managers/VPs 
 
 **To**: Managers/VP 
 
@@ -249,7 +262,7 @@ Please reach out to your HRBP for support or more information. We are here to se
 
 **[Name]**
 
-### Survey reminder 
+#### Template 7 - Survey reminder 
 
 **To**: Business Units/Functional Groups 
 
@@ -273,8 +286,9 @@ I hope you’ll make the most of this opportunity to let your voice be heard.
 
 **[Name]** 
 
+<br>
 
-### Vision, strategy, and design preparation 
+### Template 8 Vision, strategy, and design preparation 
 
 **To**: Customer stakeholders participating in Vision, Strategy & Design Planning 
 
