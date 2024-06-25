@@ -35,16 +35,16 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 ## Data processing and storage
 
-:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
+:::image type="content" source="/viva/media/engage/admin/copilot-engage-dataflow.png" alt-text="Graph that shows how data flows between Copilot services while staying within the boundary of the Viva Engage app ." lightbox="/viva/media/engage/admin/copilot-engage-dataflow.png":::
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**| The AI Summarization feature processes Engage threads across the tenant to support summarization features in Copilot and Network Analytics. Summarization presents summaries *only from posts to which the user already has access*. Results from summarization are stored in alignment with GDPR deletion requirements. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
+|**Process and store messages for summarization**| Installed with Viva Engage premium, AI Summarization runs in the background and provides summarization services for Copilot and other Engage features. When enabled, AI Summarization processes conversation threads across the tenant and stores that data in compliance with GDPR deletion requirements. AI Summarization presents summaries *only from posts to which the user already has access*. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
 |**Process commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Control access to Copilot and AI Summarization services
 
-To control access to Copilot and AI Summarization services, Engage admins must use the [Viva feature access management platform](/viva/feature-access-management). This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups.  
+Engage admins must use the [Viva feature access management platform](/viva/feature-access-management) to enable both Copilot and AI Summarization. This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups.  
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
