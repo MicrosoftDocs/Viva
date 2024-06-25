@@ -31,7 +31,6 @@ Understand how and when users engage with components of the Connections experien
 
 > [!NOTE]
 >
-> - The ability to view data for each of your organization’s Connections experiences, data on returning users, and data beyond 30 days is currently being rolled out and should be completed by the end of June 2024.
 > - Member level permissions (or higher) are required to view usage analytics for Connections.
 > - Usage analytics data is aggregated and cannot be tracked to an individual user.
 > - Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license to create two or more experiences (up to 50). For more information, see [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing).
@@ -74,7 +73,7 @@ The Analytics page contains charts and graphs providing data on overall traffic,
 
 This section provides usage data on unique users, engaged users, total views, and returning users. Activity for desktop, web, and mobile usage is combined in this section, regardless of the platform.
 
-- **Unique users**: Total number of individual users regardless of how many times they’ve visited across all Connections platforms and devices.
+- **Unique users**: Total number of individual users regardless of how many times they visited across all Connections platforms and devices.
 - **Engaged users**: Total number of individual viewers who interact with Connections content types.
 - **Total views**: Total number of views across all Connections platforms and devices.
 - **Returning users**: Can view by the percentage or number of users who engaged with Connections content since the last month over a 12-month view. Select the dropdown to switch viewing data on returning users by percentage and individual user.
