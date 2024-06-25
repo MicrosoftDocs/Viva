@@ -23,7 +23,7 @@ Data privacy and trust are key priorities for Microsoft Viva Glint. Several meth
 - Confidential surveys: scores only display with at least three (3) responses
 - Identifiable surveys for Employee Lifecycle surveys: the response threshold is less than three (3).
 
-**As of June 29, 2024, confidentiality settings in an Always-On survey can be lowered to less than three (3) respondants in order to collect feedback at a very personal level.**"##-procedure-for-lowering-the-Always-On-threshold"
+[**As of June 29, 2024, confidentiality settings in an Always-On survey can be lowered to less than three (3) respondents in order to collect feedback at a very personal level.**](#procedure-for-lowering-the-always-on-threshold)
 
 Use this article to [adjust confidentiality thresholds](https://go.microsoft.com/fwlink/?linkid=2238614) at the overall level or at the survey program level and understand the impact of those changes.
 
@@ -155,6 +155,6 @@ Viva Glint Lifecycle surveys, Exit and Onboarding, can be made identifiable duri
 2. Toggle *Confidential Responses" to **No.**
    - This setting automatically updates the survey to *identifiable."
    - The survey confidentiality statement automatically updates to indicate that the survey is *identifiable.*
-3. Now, the *Confidentiality Threshold* setting can be adjusted in *Advanced Configuration" to two (2) or one (1), while maintaining the non-confidential configuration. 
+3. Now, the *Confidentiality Threshold* setting can be adjusted in *Advanced Configuration* to two (2) or one (1), while maintaining the non-confidential configuration. 
 
 :::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO to enable lowering the Always-On threshold."lightbox="../../media/glint/setup/always-on-threshold.png":::
