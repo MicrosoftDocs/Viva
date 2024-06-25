@@ -51,7 +51,7 @@ Each template below is bookmarked. Copy, paste, and customize for internal distr
 
 |**Template #**|**Template subject**| **Suggested timeline for sending**|
 |:-----------:|-----------|-------|
-|1|[Upcoming survey](#email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
+|1|[Upcoming survey](#template-1-email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
 
 <br>
 
@@ -59,8 +59,8 @@ Each template below is bookmarked. Copy, paste, and customize for internal distr
 
 |**Template #**|**Template subject**| **Audience**|**Suggested timeline for sending**|
 |:-----------:|-----------|-----------|----------|
-|2|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
-|3|[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
+|2|[Upcoming survey](#template-2-engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
+|3|[Upcoming survey](#template-3-engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
 
 <br>
 
@@ -68,10 +68,10 @@ Each template below is bookmarked. Copy, paste, and customize for internal distr
 
 |**Template #**|**Template subject**| **Audience**|**Suggested timeline for sending**|
 |:----------:|-----------|-----------|---------------|
-|4|[Upcoming survey](#engagement-and-upcoming-survey-for-hrbps)  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
-|5|[Engagement training and resources for upcoming survey](#engagement-training-for-hrbps)  | HRBPs  |Two weeks prior to launch |
-|6|[Upcoming survey](#engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
-|7|[Survey reminder](#survey-reminder)   |Managers, other leadership   |During survey window   |
+|4|[Upcoming survey](#template-4-engagement-and-upcoming-survey-for-hrbps)  | Human Resources Business Partners (HRBPs)   |Four weeks prior to launch  |
+|5|[Engagement training and resources for upcoming survey](#template-5-engagement-training-for-hrbps)  | HRBPs  |Two weeks prior to launch |
+|6|[Upcoming survey](#template-6-engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
+|7|[Survey reminder](#template-7-survey-reminder)   |Managers, other leadership   |During survey window   |
 
 <br>
 
@@ -79,7 +79,7 @@ Each template below is bookmarked. Copy, paste, and customize for internal distr
 
 |**Template #**|**Template subject**| **Suggested timeline for sending**|
 |:-----------:|-----------|---------|
-|8|[Vision, strategy, and design prep](#vision-strategy-and-design-preparation) | Five weeks prior to launch    |
+|8|[Vision, strategy, and design prep](#template-8-vision-strategy-and-design-preparation) | Five weeks prior to launch    |
 
 <br>
 
