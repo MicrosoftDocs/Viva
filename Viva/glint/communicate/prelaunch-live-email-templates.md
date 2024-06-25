@@ -42,7 +42,7 @@ Various templates are available:
 
 ## Add this snippet 
 
-Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
 ## Email template for your entire organization 
 
@@ -50,7 +50,7 @@ Copy, paste, and customize for internal distribution.
 
 |**Template #**|**Template subject**| **Suggested timeline for sending**|
 |:-----------:|-----------|-------|
-|1|Upcoming survey| 1 - 2 weeks prior to launch |
+|1|Upcoming survey| 1 - 2 weeks before launch |
 
 ### Template 1 - Engagement and upcoming survey for all employees 
 
@@ -64,11 +64,11 @@ Copy, paste, and customize for internal distribution.
 
 Dear **[First Name]**, 
 
-On **[Date]**, our organization is launching a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. Together, we'll take consistent and deliberate action to create positive change based on your input. 
+On **[Date]**, our organization is launching a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. 
 
-At **[Company Name]**, we strive to meet ambitious targets that help us stand out in the marketplace and distinguish us as an exemplary employer. To achieve these objectives, we focus on innovation and operational efficiency **[adjust based on company focus areas]** and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, and expend extra effort toward their performance. Positive behaviors make a difference to our business. 
+At **[Company Name]**, we strive to meet ambitious targets that help us stand out in the marketplace and distinguish us as an exemplary employer. To achieve these objectives, we focus on innovation and operational efficiency **[adjust based on company focus areas]** and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work. Engaged employees find a greater sense of meaning in what they do and work harder because of it.
 
-**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about your happiness at work is paramount to the success of any organization. Watch for a survey invitation and additional details in the days ahead.
+**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about your happiness at work is paramount to the success of any organization. Watch for a survey invitation and more details in the days ahead.
 
 I’m eager to hear what you have to say and committed to acting on your feedback. 
 
@@ -99,9 +99,9 @@ Copy, paste, and customize for internal distribution.
 
 Dear **[First Name]**, 
 
-Employee engagement is a key focus of our executive team. **[Update your company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, see a connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+Employee engagement is a key focus of our executive team. **[Update your company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work. They find a greater sense of meaning in what they do, seeing a connection between their strengths and their role. For this reason, they naturally work harder. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 
-Our **[Name]** Survey is live from **[date-date]** and will help us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
+Our **[Name]** Survey is live from **[date-date]** and helps us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage apply, and then together we'll take consistent action to create positive change. 
 
 **[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
 
@@ -136,13 +136,11 @@ Dear **[First Name]**,
 
 Employee engagement continues to be a key focus at **[Company Name]**. **[Update per company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work; they find a greater sense of meaning in what they do, see a stronger connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 
-Our **[Name]** Survey, which will be live from **[date-date]** helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to leverage, and together, we will take consistent action to create positive change. 
+Our **[Name]** Survey, is live from **[date-date]** and helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to build on, helping us take consistent action to create positive change. 
 
-**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
+**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provide the right people with the right data to improve our business.  
 
-You are essential to creating an environment where our people are successful and, in turn, drive business success. 
-
-You can take these actions to support your organizations, managers, and employees before, during and after the **[Name]** Survey: 
+Take these actions to support your organizations, managers, and employees before, during and after the **[Name]** Survey: 
 
 - Communicate the importance of [Name] Survey, including participation, honest feedback, and action.  
 - Take ownership of your results and use them as the basis for ongoing conversations with your team about what needs to be solved, who can help, and actions that drive forward progress. Hold your managers accountable for doing the same. 
@@ -150,7 +148,7 @@ You can take these actions to support your organizations, managers, and employee
 - Champion employee engagement as a critical element of company strategy and a key enabler of business performance; ask about people metrics whenever you ask about business metrics 
 - Review and share the Manager Quick Guide to Interpretation and Conversation and the Manager Coach to an ACT Conversation to help shape an organization-specific support and rollout plan. 
 
-Your HRBP will schedule time in the next two weeks to walk through a rollout and communications plan for your organization. Managers will receive the **[Name]** Survey prep communications by **[date]**.  
+Your HRBP will schedule time in the next two weeks to walk through a rollout and communications plan for your organization. Managers receive the **[Name]** Survey prep communications by **[date]**.  
 
 Please speak with your managers about preparing for the survey launch and post-survey activities. 
 
@@ -181,11 +179,11 @@ Date: **[Four weeks pre-survey]**
 
 Dear **[First Name]**, 
 
-Engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, see a connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+Engaged employees are absorbed in and enthusiastic about their work and find a greater sense of meaning in what they do. When people see a connection between their strengths and their role, their performance is naturally enhanced. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 
-Our **[Name]** Survey will be live from [date-date] and will help us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to leverage, and then together we will take consistent action to create positive change. 
+Our **[Name]** Survey is live from [date-date] and helps us understand and drive action to improve employee engagement. Employee feedback uncovers opportunities to improve and strengths to build upon, promoting consistent action to create positive change. 
 
-**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
+**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provide the right people with the right data to improve our business.  
 
 You play a significant role in the survey process, from emphasizing the importance of the survey to empowering post-survey action. You are essential to creating an environment where people feel heard and empowered to help drive success. 
 
@@ -233,11 +231,11 @@ We're here to support you throughout this process. Reach out with questions.
 
 Dear **[First Name]**, 
 
-Employee engagement is a key focus at **[Company Name]**. **[Update per company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, see a stronger connection between their strengths and their role, and expend discretionary effort in their performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
+Employee engagement is a key focus at **[Company Name]**. **[Update per company approach with examples of how engagement has been a key focus area or why it is now important]**. Engaged employees are absorbed in and enthusiastic about their work and find a greater sense of meaning in what they do. Positive feelings promote a strong connection between people's strengths and their roles, naturally increasing performance. These positive behaviors make a difference to our business in terms of reputation, productivity, and profitability. 
 
-Our **[Name]** Survey, which will be live from **[date-date]** helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to apply, and together, we will take consistent action to create positive change. 
+Our **[Name]** Survey, which is live from **[date-date]** helps us understand and drive action to improve employee engagement at **[Company Name]**. Employee feedback uncovers opportunities to improve and strengths to build on, promoting consistent action to create positive change. 
 
-**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, more frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys will provide the right people with the right data to improve our business.  
+**[Company Name]** has chosen Microsoft Viva Glint, a third party, to ensure confidentiality and an exceptional experience for employees providing and receiving feedback. Viva Glint believes that high quality, frequent, and insightful conversations about engagement lead to happiness and success for people at work. Short, simple feedback surveys provides the right people with the right data to improve our business.  
 
 Take these actions to support your employees before, during and after the survey: 
 
@@ -246,7 +244,7 @@ Take these actions to support your employees before, during and after the survey
 - Discuss findings with your team and commit to one focus area. Overcommitting can lead to disappointing results.  
 - Review and share the Manager Quick Guide to Interpretation and Conversation and the Manager Coach to an ACT Conversation to help shape an organization-specific support and rollout plan. 
 
-Inform your team that the **[Name]** Survey launches **[date]** and emphasizes the importance of their voice. The more meaningful feedback you collect, the greater impact you will have on your team’s success. Note that for the confidentiality and integrity of surveys, only managers whose team responses meet the minimum confidentiality threshold will receive results in the Viva Glint platform. 
+Inform your team that the **[Name]** Survey launches **[date]** and emphasizes the importance of their voice. The more meaningful feedback you collect, the greater impact you have on your team’s success. Note that for the confidentiality and integrity of surveys, only managers whose team responses meet the minimum confidentiality threshold will receive results in the Viva Glint platform. 
 
 Please reach out to your HRBP for support or more information. We are here to set up you and your team up for success with the **[Name]** Survey. 
 
@@ -270,11 +268,11 @@ Dear **[First Name or Team]**,
 
 The **[Name]** Survey is important to me. I’m looking forward to reviewing the findings for our team and learning more about what you think and feel about working at **[Company Name]**. Given the realities of day-to-day life, I don’t have enough opportunity to have meaningful conversations with most of you and it’s challenging to dig deep into the kinds of topics the [Name] survey covers. 
 
-Participating in this survey will give you the chance to communicate, challenge us, and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
+Participating in this survey gives you the chance to communicate, challenge us, and tell the truth about your experience at work. Your voice, insights, and opinions matter. 
 
-If you haven’t yet taken the **[Name]** Survey, please do so today. It’s confidential and will yield data we can use to improve our team’s engagement and the company overall. Your survey invitation will be emailed shortly. 
+If you haven’t yet taken the **[Name]** Survey, please do so today. It’s confidential and yields data to improve our team’s engagement and the company overall. Your survey invitation is emailed to you. 
 
-I hope you’ll make the most of this opportunity to let your voice be heard. 
+Please make the most of this opportunity to let your voice be heard. 
 
 **[Salutation]**, 
 
@@ -302,15 +300,15 @@ Copy, paste, and customize for internal distribution.
 
 Dear **[First Name]**, 
 
-As you know, **[Company Name]** is planning for our **[Name]** Survey, which will be live from **[date]**. Our [Name] Survey will help us understand the unique elements that motivate employees to do their best at **[Company Name]** and establish a regular cadence for conversations about what matters most. To ensure the **[Name]** Survey aligns to our company priorities, values, and culture, we invite you to share your opinion to help customize our approach and drive improvements for our people and business. 
+As you know, **[Company Name]** is planning for our **[Name]** Survey, which is live from **[date]**. Our [Name] Survey helps us understand the unique elements that motivate employees to do their best at **[Company Name]** and establish a regular cadence for conversations about what matters most. To ensure the **[Name]** Survey aligns to our company priorities, values, and culture, share your opinions to help drive improvements for our people and business. 
 
 **Vision and Strategy Planning** 
 
-To identify strategies for **[Company Name]** for increasing employee engagement, we will be collecting information on our culture, priorities, stakeholders, etc. through a comprehensive discovery process. You may be asked to share insights into existing practices, barriers that may be keeping employees from bringing their best selves to work each day, and solutions for improvement.  
+To identify strategies for **[Company Name]** for increasing employee engagement, we are collecting information on our culture, priorities, stakeholders, etc. through a comprehensive discovery process. You may be asked to share insights into existing practices, barriers that may be keeping employees from bringing their best selves to work each day, and solutions for improvement.  
 
 **Design Planning** 
 
-We will embark on a detailed design process to ensure our **[Name]** Survey is set up for success, including identifying survey questions, confidentiality expectations, benchmarks, and action plans. You will have the opportunity to provide input during this phase to ensure our final program is tailored to **[Company Name]**’s unique environment and delivers valuable and actionable insights. 
+A detailed design process is being put in place to ensure our **[Name]** Survey is set up for success - including identifying survey questions, confidentiality expectations, benchmarks, and action plans. Please use this opportunity to provide input to ensure our final program is tailored to **[Company Name]**’s unique environment and delivers valuable and actionable insights. 
 
 **Resources** 
 
@@ -318,16 +316,16 @@ You will leverage multiple resources throughout our planning process. Additional
 
 Transformation Workshop Invite (remove if not applicable) 
 
-**Objective**: Identify current and future capabilities needed within **[Company Name]** to successfully adopt practices leading to continuous employee conversations and increased employee engagement. The workshop will include activities focused on **[Company Name]** stakeholder groups (e.g., senior leaders, managers, employees, etc.) to clarify expectations and identify barriers and solutions for success. 
+**Objective**: Identify current and future capabilities needed within **[Company Name]** to successfully adopt practices leading to continuous employee conversations and increased employee engagement. The workshop includes activities focused on **[Company Name]** stakeholder groups (e.g., senior leaders, managers, employees, etc.) to clarify expectations and identify barriers and solutions for success. 
 
 **Preparation**: You have been assigned to a stakeholder group (e.g., senior leaders, managers, etc.). Each stakeholder group includes a team comprised of multiple types of stakeholders. You will be asked to be the voice of your stakeholder group by representing their perspectives throughout the day. To prepare, please consider the following questions with your stakeholders in mind: 
 
 - What is important to this stakeholder group (what they care about, their people challenges etc.) 
 - What does employee engagement mean to them? 
 - What skill set and capabilities do members of the group have today? 
-- What skill set and capabilities will they need to develop in the future to enhance employee engagement and enable continuous conversations at [Company Name]? 
+- What skill set and capabilities are needed to enhance employee engagement and enable continuous conversations at [Company Name]? 
 
-Following the workshop, the Viva Glint team will take the feedback from the day and translate it into a three-year transformation plan, including a summary of recommended themes to measure in the survey. 
+Following the workshop, the Viva Glint team takes the feedback from the day and translate it into a three-year transformation plan, including a summary of recommended themes to measure in the survey. 
 
 I'm available to support you throughout this process. Reach out with questions. 
 
