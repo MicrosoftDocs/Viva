@@ -31,7 +31,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Copilot in Viva Glint?**
 
-**A:** Copilot in Viva Glint uses the latest OpenAI LLM model, GPT 4.0 turbo, trained with data up to April, 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
+**A:** Copilot in Viva Glint uses the latest Open AI LLM model, GPT 4.0 turbo, trained with data up to April 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
 
 <br>**Q: What’s the licensing for Copilot in Viva Glint?** **Is it part of the Microsoft 365 Copilot, or Viva Glint licensing?**
 
@@ -70,7 +70,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 <br>**Q: Is there a cut-off date for the Copilot in Viva Glint private preview?**
 
-**A:** The private preview ends with the public launch on June 29, 2024.  Existing private preview customers can continue their private preview interviews after the June 29 public launch.
+**A:** The private preview ends with the public launch on June 29, 2024. Existing private preview customers can continue their private preview interviews after the June 29 public launch.
  
 <br>**Q: Does Copilot in Viva Glint work retroactively on past surveys, including those migrated from LinkedIn Glint?**
 
@@ -86,7 +86,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 <br>**Q: Can the end user see variables in summarization, based on the user's question or prompt?**
 
-**A:** Yes, Copilot shows attributes in its response so you can adjust them for your next prompt. For example, if you are filtering on a particular tenure group or location, it shows what filter attributes have been included in the summary provided.
+**A:** Yes, Copilot shows attributes in its response so you can adjust them for your next prompt. For example, when filtering a particular tenure group or location, it shows what filter attributes are included in the summary provided.
  
 <br>**Q: If I ask Copilot in Viva Glint for key topics, does it use the same topic model as Viva Glint today? If not, what did you train on?**
 
@@ -103,7 +103,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 <br>**Q: Does Copilot in Viva Glint have the ability to look across multiple surveys or just 
 one at time?**
 
-**A:** One at a time for now. Additionally, ad hoc and recurring survey programs only, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
+**A:** One at a time for now. Additionally, Ad hoc and Recurring survey programs only, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
 
 <br>**Q: Can Copilot in Viva Glint generate a PowerPoint from the results?**
 
@@ -117,22 +117,22 @@ one at time?**
 
 <br>**Q: Are new features planned for Copilot in Viva Glint?**
 
-**A:** Yes! We’ll let you know as soon as new features are available for Copilot in Viva Glint. All items mentioned as currently unavailable are on our list for consideration.
+**A:** Yes! We let you know as soon as new features are available for Copilot in Viva Glint. All items mentioned as currently unavailable are on our list for consideration.
 
 <br>**Q: Does Copilot have any limitations?**
 
 **A:** Currently, but under consideration for the future:
 - Copilot works on completed survey cycles for Recurring and Ad hoc programs only. It isn’t currently available for Employee Lifecycle, Always-On, or 360 Feedback programs. 
-- There must be at least one Recurring or Ad hoc program survey administered or closed on your Glint platform to use the feature. 
+- There must be at least one Recurring or Ad hoc program survey *administered* or *closed* on your Glint platform to use the feature. 
 - Copilot doesn’t take quantitative survey results into consideration. It can’t answer questions that require comparison scores between questions or employee groups. 
-- Any AI can make mistakes misrepresenting the information it finds. If you encounter harmful, inappropriate, or inaccurate Copilot in Viva Glint responses, immediately provide feedback or report a concern through our feedback button in Copilot in Viva Glint or in the Viva Glint app.
-- Copilot samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 1000 comments (seeded comments; they come from the same 1000 questions if the prompt is regenerated).
+- Any AI can make mistakes misrepresenting the information it finds. If you encounter harmful, inappropriate, or inaccurate responses, immediately provide feedback or report a concern through our feedback button in Copilot in Viva Glint or in the Viva Glint app.
+- Copilot samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 1000 comments (seeded comments - they come from the same 1000 questions if the prompt is regenerated).
 - Copilot doesn’t currently support cross-program filters.
 - Copilot doesn’t currently support plug-ins.
 
 <br>**Q: What languages does Copilot support for comment summarization?**
 
-**A:**  We’ll let you know when Copilot can manage language translations beyond its default English. We’re actively evaluating the accuracy of non-English language comment summarization.
+**A:**  We let you know when Copilot can manage language translations beyond its default English. We’re actively evaluating the accuracy of non-English language comment summarization.
 
 
 
