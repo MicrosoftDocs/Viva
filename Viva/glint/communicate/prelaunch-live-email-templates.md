@@ -1,12 +1,12 @@
 ---
-title: Communicate pre-launch and live Viva Glint program information using email templates 
+title: Promote Viva Glint programs and trainings
 description: "Use Viva Glint email templates to communicate survey expectations and results planning to all your stakeholders."
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+ms.author: JudithWeiner
+author: JudyWeiner
+manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: email templates, survey templates, survey emails, sample Glint communications
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 06/25/2024
 ---
 
-# Communicate pre-launch and live Viva Glint program information using email templates
+# Promote Viva Glint programs and trainings
 
 Communicating survey expectations and results is an essential part of a strong engagement program strategy. 
 
@@ -34,32 +34,33 @@ Various templates are available:
 
 ## Tips for using Viva Glint templates 
 
-- Customize the content in your voice. Look for placeholders, like [Company name], and insert applicable information. 
-- Adapt messages based on your organization’s familiarity with engagement and the survey process. Organizations new to engagement may want to include more context in messages than those who survey regularly. 
+- Customize the content to your voice.
+- Look for placeholders, like [Company name], and insert applicable information. 
+- Adapt messages based on your organization’s familiarity with surveying. Organizations new to engagement surveys may want to include more context in messages than those who survey regularly. 
 - Condense the communication cascade as much as possible. Be cautious of information overload.  
 - Consider the timing of other company-wide initiatives and communication plans. Look for opportunities to align communication and streamline employee touch points. 
 
-## Consider adding this short snippet wherever it might be helpful 
+## Add this snippet 
 
 Security, Privacy, and Compliance are core principles at Microsoft. We value, protect, and defend data privacy. We empower and defend the data privacy choices of every person who uses our products and service. The Viva Glint service is governed by the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms), and the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
+## Templates
+Each template below is bookmarked. Copy, paste, and customize for internal distribution. 
 
-Each template in the tables below is bookmarked on this page. Copy, paste, and customize for internal distribution. 
-
-## Email template for your entire organization 
+### Email template for your entire organization 
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
 |[Upcoming survey](#email-template-for-your-entire-organization) | 1 - 2 weeks prior to launch |
 
-## Email templates for senior leaders 
+### Email templates for senior leaders 
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
 |[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership)  | Senior and Human Resources (HR) leadership  |six weeks prior to launch |
 |[Upcoming survey](#engagement-and-upcoming-survey-for-senior-leadership) | Senior and HR leadership |three weeks prior to launch |
 
-## Email templates for managers, HRBPs, and other company leaders 
+### Email templates for managers, HRBPs, and other company leaders 
 
 |**Template subject**| **Audience**|**Suggested timeline for sending**|
 |-----------|-----------|-----------|
@@ -68,14 +69,13 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 |[Upcoming survey](#engagement-and-upcoming-survey-for-managersvps)  |Managers, other leadership   |One week prior to launch  |
 |[Survey reminder](#survey-reminder)   |Managers, other leadership   |During survey window   |
 
-## Email templates for customer stakeholders 
+### Email templates for customer stakeholders 
 
 |**Template subject**| **Suggested timeline for sending**|
 |-----------|-----------|
 |[Vision, strategy, and design prep](#vision-strategy-and-design-preparation) | Five weeks prior to launch    |
-|[Discovery Workbook prep](#discovery-workbook-preparation)  | Five weeks prior to launch    |
 
-## Engagement and Upcoming Survey for All Employees 
+### Engagement and Upcoming Survey for All Employees 
 
 **To**: All Employees 
 
@@ -87,7 +87,7 @@ Each template in the tables below is bookmarked on this page. Copy, paste, and c
 
 Dear **[First Name]**, 
 
-On **[Date]**, we'll launch a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. Together, we'll take consistent and deliberate action to create positive change based on your input. 
+On **[Date]**, our organization is launching a global employee survey, the **[Name]** Survey. This is a valuable opportunity for everyone to provide open, honest, and confidential feedback about what it’s like to work at **[Company Name]**. Together, we'll take consistent and deliberate action to create positive change based on your input. 
 
 At **[Company Name]**, we strive to meet ambitious targets that help us stand out in the marketplace and distinguish us as an exemplary employer. To achieve these objectives, we focus on innovation and operational efficiency **[adjust based on company focus areas]** and create an environment where our people find success and exhibit elevated levels of engagement. Research shows that engaged employees are absorbed in and enthusiastic about their work, find a greater sense of meaning in what they do, and expend extra effort toward their performance. Positive behaviors make a difference to our business. 
 
@@ -99,7 +99,7 @@ I’m eager to hear what you have to say and committed to acting on your feedbac
 
 **[Name]**
 
-## Engagement and Upcoming Survey for Senior Leadership 
+### Engagement and Upcoming Survey for Senior Leadership 
 
 **To**: Senior Leadership Team; CC: HR Leadership Team 
 **
@@ -168,7 +168,7 @@ Please speak with your managers about preparing for the survey launch and post-s
 
 **[Name]**
 
-## Engagement and Upcoming Survey for HRBPs 
+### Engagement and Upcoming Survey for HRBPs 
 
 **To**: Human Resources Business Partners 
 
@@ -194,7 +194,7 @@ We are here to support you throughout this process. Please reach out with questi
 
 **[Name]**
 
-## Engagement Training for HRBPs 
+### Engagement Training for HRBPs 
 
 **To**: Human Resource Business Partners 
 
@@ -216,7 +216,7 @@ We're here to support you throughout this process. Reach out with questions.
 
 **[Name]**
 
-## Engagement and Upcoming Survey for Managers/VPs 
+### Engagement and Upcoming Survey for Managers/VPs 
 
 **To**: Managers/VP 
 
@@ -249,7 +249,7 @@ Please reach out to your HRBP for support or more information. We are here to se
 
 **[Name]**
 
-## Survey reminder 
+### Survey reminder 
 
 **To**: Business Units/Functional Groups 
 
@@ -274,7 +274,7 @@ I hope you’ll make the most of this opportunity to let your voice be heard.
 **[Name]** 
 
 
-## Vision, strategy, and design preparation 
+### Vision, strategy, and design preparation 
 
 **To**: Customer stakeholders participating in Vision, Strategy & Design Planning 
 
@@ -320,27 +320,6 @@ I'm available to support you throughout this process. Reach out with questions.
 **[Name]** 
 
 
-## Discovery workbook preparation 
-
-**To**: Customer stakeholders participating in Vision, Strategy & Design Planning 
-
-**From**: **[First and Last Name]**, Survey Project Lead 
-
-**Subject**: Discovery Workbook Preparation 
-
-**Date**: **[Five weeks pre-survey]** 
-
-Dear **[First Name]**, 
-
-As a prerequisite for the Viva Glint Vision, Strategy and Design Preparation, work with your team to complete the attached Discovery Workbook. The purpose of the Discovery Workbook is to help you gather and document information about your company strategy and **[Name]** Survey objectives and constraints. This information is used to inform design decisions for this upcoming survey. 
-
-Detailed instructions for completing the workbook are found on the first tab.  
-
-**[Salutation]**, 
-
-**[Name]** 
-
-**Attachment**: Discovery workbook 
 
  
 
