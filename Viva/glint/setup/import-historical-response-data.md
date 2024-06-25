@@ -13,7 +13,7 @@ ms.collection:
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
-ms.localizationpriority: high pri
+ms.localizationpriority: high
 ms.date: 06/24/2024
 ---
 
@@ -160,12 +160,14 @@ To import historical users and their responses:
 2. On the **External Import** page, make selections to import your data:
    1. **Manual Mode:** Leave this toggle switched to **Off**.
    1. **Survey Name:** Select your survey from the dropdown list.
-   2. **Exception Date:** This field determines the start date displayed in reporting for this survey and must be **at least three days in the past** and **not overlap** with any scheduled surveys in this program.
-   3. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
-   4. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and does not appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
-   5. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
-   6. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
-   7. **Extra Options menu:** Leave collapsed, not applicable.
+   2. **Exception Date:** This field determines the start date displayed in reporting for this survey and must be **at least one week before the current date** and **not overlap** with any scheduled surveys in this program.
+      > [!CAUTION]
+      > Selecting a date three or fewer days before the current date can result in unwanted email invites sent to employees.
+   4. **Raw Score File:** Select **Choose File** and browse to select your **Raw Score File**.
+   5. **New Distribution List Name:** Enter a name for a Distribution List that is used for historical import only and does not appear in your **Distribution List** page. Recommended: External-import-yyyymmdd.
+   6. **User File:** Select **Choose File** and browse to select your **Respondent User File**.
+   7. **Are you looking to append data to a survey cycle?:** Leave this toggle switched to **Off**.
+   8. **Extra Options menu:** Leave collapsed, not applicable.
 1. Select **Preview** and review the **Totals**, **Warnings**, and **Counts per Question** that appear.
 
    :::image type="content" source="../../media/glint/setup/glint-ext-import-preview.png" alt-text="Screenshot of the import preview with warnings and counts.":::
