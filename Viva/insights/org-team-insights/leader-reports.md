@@ -1,5 +1,5 @@
 ---
-ms.date: 06/17/2024
+ms.date: 06/24/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -38,7 +38,7 @@ To add more organizations to your trend graph, under **Show trend**, select the 
 
 You can sort by any of the headers in the **Groups within your organization** table.
 
-:::image type="content" source="images/leader-reports-main.png" alt-text="Screenshot showing the Leader reports page." lightbox="images/leader-reports-main.png":::
+:::image type="content" source="images/leader-reports-main.png" alt-text="Screenshot showing the Leader reports page.":::
 
 ### Prerequisites 
 
@@ -142,6 +142,9 @@ Optionally, some insights display the amount of time spent in meetings as a curr
 
 >[!IMPORTANT]
 > The report described below is for private preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader public release.
+
+>[!Note]
+>To access this report, you must be assigned the **Group Manager** role.
 
 The Hybrid workplace report helps leaders understand the experience of hybrid, remote, and onsite employees at their companies. The report identifies when and how employees are working in a hybrid work environment, and how the employee experience might differ depending on whether an employee works onsite, remote, or hybrid.
 
