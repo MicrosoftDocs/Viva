@@ -39,13 +39,13 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**| The AI Summarization service processes conversation threads across the tenant to provide summarization for Copilot and other Engage features. AI Summarization presents summaries *only from posts to which the user already has access*. The processed data is stored in compliance with GDPR deletion requirements and can be exported using [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
+|**Process and store messages for summarization**| The AI Summarization service processes conversation threads across the tenant. When Copilot requests summarized data, AI Summarization presents summaries *only from posts to which the user already has access*. The processed data is stored in compliance with GDPR deletion requirements and can be exported using [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
 |**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
-## Control access to Copilot and AI Summarization services
-
 >[!NOTE]
->Both Copilot and Network analytics use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) are only available to network admins and corporate communicators.
+>Both Copilot and Network analytics use the AI Summarization service, included with Viva Engage premium. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) are only available to network admins and corporate communicators.
+
+## Control access to Copilot and AI Summarization services
 
 Both Viva Engage features are managed individually through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets, providing a more flexible and scalable approach to deployment.
 
