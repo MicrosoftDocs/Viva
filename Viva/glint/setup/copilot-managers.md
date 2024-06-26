@@ -50,13 +50,13 @@ Now, access Copilot in Viva Glint in one of these ways:
 
 1.	Select the **Copilot** symbol.
    
-   :::image type="content" source="../../media/glint/setup/copilot-icon.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use."lightbox="../../media/glint/setup/copilot-icon.png":::
+   :::image type="content" source="../../media/glint/setup/copilot-symbol.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use."lightbox="../../media/glint/setup/copilot-symbol.png":::
 
 2. Review the content provided and select **Next** to reveal the Comments pane.
 3. Review the guidance and select **Next**.
 4. Now, **Try Copilot!**
 
-  :::image type="content" source="../../media/glint/setup/copilot-try-button.png" alt-text="Screenshot of the Try Copilot button."lightbox="../../media/glint/setup/copilot-try-button.png":::
+  :::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button."lightbox="../../media/glint/setup/copilot-try.png":::
 
 ## Copilot quick tips for managers
 
