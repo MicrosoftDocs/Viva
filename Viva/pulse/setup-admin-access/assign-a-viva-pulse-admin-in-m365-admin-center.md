@@ -22,6 +22,9 @@ A Microsoft Privileged Role Administrator can assign a user as a Viva Pulse admi
 ## Assign a Viva Pulse admin in the Microsoft Entra admin center ##
 To assign Viva Pulse admin roles:
 1.	Sign in to the Microsoft Entra admin center and go to **Roles & admins**.
+
+    :::image type="content" alt-text="Screenshot of the Entra admin center." source="/viva/media/pulse/entra-admin-pulse-step1.png" lightbox="viva/media/pulse/entra-admin-pulse-step1.png":::
+
 2. Select the [**Roles & admins**](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles) tab. 
 2.	Select the **Viva Pulse Administrator role** from the list.  
 3.	Select **+ Add assignments** from the list of options.
