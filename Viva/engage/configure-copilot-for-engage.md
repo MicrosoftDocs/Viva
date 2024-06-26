@@ -39,12 +39,15 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**| Installed with Viva Engage premium, AI Summarization runs in the background and provides summarization services for Copilot and other Engage features. When enabled, AI Summarization processes conversation threads across the tenant and stores that data in compliance with GDPR deletion requirements. AI Summarization presents summaries *only from posts to which the user already has access*. To export this data, use the [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
-|**Process commands to Copilot**|User interactions with Copilot during chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
+|**Process and store messages for summarization**| The AI Summarization service processes conversation threads across the tenant to provide summarization for Copilot and other Engage features. AI Summarization presents summaries *only from posts to which the user already has access*. The processed data is stored in compliance with GDPR deletion requirements and can be exported using [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
+|**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 ## Control access to Copilot and AI Summarization services
 
-Engage admins must use the [Viva feature access management platform](/viva/feature-access-management) to enable both Copilot and AI Summarization. This platform provides a flexible approach to deployment by letting you enable or disable individual premium features through multiple access policies for the tenant, users, and groups.  
+>[!NOTE]
+>Both Copilot and Network analytics use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) are only available to network admins and corporate communicators.
+
+Both Viva Engage features are managed individually through the [Viva feature access management platform](/viva/feature-access-management). Feature access management allows admins to create three types of access policies (tenant, users, and groups) for each feature through PowerShell commandlets, providing a more flexible and scalable approach to deployment.
 
 Policy settings apply anytime a user signs in, allowing the user access to all enabled features. Because you can set multiple access policies--targeting the tenant, groups, and individual users--a user might be impacted by more than one policy. Individual user and group level policies always take priority over a tenant-level policy. For instructions, see [Control access to features in Viva](/viva/feature-access-management).
 
@@ -52,10 +55,7 @@ Changes to the Copilot in Viva Engage feature can take up to 48 hours to take ef
 
 ### Copilot and AI Summarization enablement states
 
-Copilot and AI Summarization are controlled separately and can be turned on or off. For AI Summarization, admins can create access policies that support a third enablement state–-enabled with an option for users to opt out. 
-
->[!NOTE]
->Copilot and Network analytics both use AI Summarization services. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) is  only available to network admins and corporate communicators.
+Copilot and AI Summarization have separate controls which can be turned on or off. AI Summarization supports a third enablement state–-enabled with an option for users to opt out.
 
 | Engage feature | State | Description |
 |:-------------|:------------------:|:----------------------|
