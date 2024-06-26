@@ -29,7 +29,7 @@ To assign Viva Pulse admin roles:
     :::image type="content" alt-text="Screenshot of the Entra admin page where you select a role" source="/viva/media/pulse/entra-admin-landing.png":::
 
 1. Select **+ Add assignments** from the list of options.
-1. 
+
     :::image type="content" alt-text="Screenshot of the Entra admin center" source="/viva/media/pulse/entra-pulse-admin.png":::
 
 1. Use the **Select member(s)** option and select the users you want to assign the role to.
