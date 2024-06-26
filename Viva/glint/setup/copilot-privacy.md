@@ -54,7 +54,7 @@ Copilot in Viva Glint follows the same privacy practices employed by Viva Glint.
 
 ## More information
 
-- [Security and privacy for data usage in Viva Glint](/../../viva/glintsetup/gdpr-special-categories)
+- [Security and privacy for data usage in Viva Glint](/../../viva/glint/setup/gdpr-special-categories)
 - [Microsoft compliance – Viva Glint](/../../viva/viva-compliance)
 - [Learn how managers can use Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274072)
 - [Find answers to technical FAQs](https://go.microsoft.com/fwlink/?linkid=2274071)
