@@ -48,13 +48,13 @@ Copilot in Viva Glint can interact with other non-Copilot integrations your orga
 
 ## How does Copilot in Viva Insights comply with GDPR and other privacy regulations? 
 
-Copilot in Viva Glint follows the same privacy practices employed by Viva Glint. For details, see [Delete user data from Viva Glint](https://learn.microsoft.com/en-us/viva/glint/setup/delete-user-data) and [Understand how privacy works in Microsoft Viva](https://learn.microsoft.com/viva/viva-privacy).
+Copilot in Viva Glint follows the same privacy practices employed by Viva Glint. For details, see [Delete user data from Viva Glint](/../../viva/glint/setup/delete-user-data) and [Understand how privacy works in Microsoft Viva](https://learn.microsoft.com/viva/viva-privacy).
  - See also [GDPR and Generative AI: A Guide for Public Sector Organizations](https://wwps.microsoft.com/blog/GDPR-GenAI). 
- - [Read our publicly shared privacy policy](https://learn.microsoft.com/viva/glint/setup/viva-glint-privacy).
+ - [Read our publicly shared privacy policy](/../../viva/glint/setup/viva-glint-privacy).
 
 ## More information
 
-- [Security and privacy for data usage in Viva Glint](https://learn.microsoft.com/viva/glint/setup/gdpr-special-categories)
+- [Security and privacy for data usage in Viva Glint](/../../viva/glintsetup/gdpr-special-categories)
 - [Microsoft compliance – Viva Glint](https://learn.microsoft.com/viva/viva-compliance)
 - [Learn how managers can use Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274072)
 - [Find answers to technical FAQs](https://go.microsoft.com/fwlink/?linkid=2274071)
