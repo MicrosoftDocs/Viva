@@ -39,8 +39,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 
 |**Process**|**How it works**|
 |---|---|
-|**Process and store messages for summarization**| The AI Summarization service processes conversation threads across the tenant. When Copilot requests summarized data, AI Summarization presents summaries *only from posts to which the user already has access*. The processed data is stored in compliance with GDPR deletion requirements and can be exported using [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range). |
-|**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
+|**Process and store messages for summarization**| The AI Summarization service processes conversation threads across the tenant. When user interaction requires summarized data, the AI Summarization service returns summaries relevant to the user’s prompt *from posts to which the user already has access*. Processed (summarized) data is stored in compliance with GDPR deletion requirements and can be exported using [Engage network export feature](/Viva/engage/eac-as-manage-data#export-tenant-data-by-date-range).|**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 >[!NOTE]
 >Both Copilot and Network analytics use the AI Summarization service, included with Viva Engage premium. In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis. [Network analytics](/viva/engage/analytics) are only available to network admins and corporate communicators.
