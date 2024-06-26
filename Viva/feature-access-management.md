@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 06/17/2024
+ms.date: 06/26/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -39,7 +39,7 @@ An authorized admin in your tenant can create, assign, and manage access policie
 You can use feature access management to manage access to the following features:
 
 > [!NOTE]
-> - For information on the impact of policies on your tenant or the users in your tenant, refer to the feature documentation by using the link in the table. 
+> - Some features may not support user/group policies. In addition, polices for one app can have an impact on the entire tenant or users in your tenant. For more information, refer to the feature documentation by using the link in the table.
 > - Only some features have the controls available for admins to provide users with the option to opt out.
 
 |App|Feature|Control for user opt-out?|Who can manage access|ModuleID|
@@ -52,7 +52,7 @@ You can use feature access management to manage access to the following features
 ||[Meeting cost and quality](https://aka.ms/meetingcostandqualitypost)|No|Insights admin|VivaInsights|
 ||[Reflection](https://support.microsoft.com/topic/reflect-in-viva-insights-55379cb7-cf2a-408d-b740-2b2082eb3743)|No|Insights admin|VivaInsights|
 |Pulse|[Customization](/viva/pulse/setup-admin-access/set-up-in-app-pulse-experience#customization)|No|Global admin|VivaPulse|
-||Team conversations in Pulse reports*|No|Global admin|VivaPulse|
+||Team conversations in Pulse reports*|No|Viva Pulse admin|VivaPulse|
 |Skills|[Skill suggestions](/viva/skills/skills-overview)*|Yes|Knowledge admin|VivaSkills| 
 
 
@@ -70,7 +70,7 @@ Before you can create an access policy in Viva, you need:
 - Access to [Exchange Online PowerShell Version 3.2.0](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.2.0) or later
 - User accounts created in or synchronized to Microsoft Entra ID
 - Microsoft 365 groups, Microsoft Entra security groups created in or synchronized to Microsoft Entra ID, or distribution groups. Groups must be mail-enabled (have an associated email address). The membership type can be either dynamic or assigned.
-- The [role required for the specific app and feature](#features-available-for-feature-access-management).
+- The global administrator role in Microsoft Entra ID or [the role required for the specific app and feature](#features-available-for-feature-access-management).
 
 
 > [!IMPORTANT]
@@ -95,7 +95,7 @@ Use the [**Get-VivaModuleFeature**](/powershell/module/exchange/get-vivamodulefe
    Connect-ExchangeOnline
    ```
 
-   Complete the authentication as the role required for the specific feature you're creating the policy for.
+   Complete the authentication as either a global administrator or the role required for the specific feature you're creating the policy for.
 
 3. Run the [Get-VivaModuleFeature](/powershell/module/exchange/get-vivamodulefeature) cmdlet to see the features that you can manage by using an access policy.  
 
@@ -161,7 +161,7 @@ Remove-VivaModuleFeaturePolicy -ModuleId VivaInsights -FeatureId Reflection -Pol
 ```
 ### Troubleshooting
 
-If you have issues creating or using access policies for Viva app features, confirm the feature you're trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
+If you have issues creating or using access policies for Viva app features, confirm the feature you are trying to set a policy for is listed in the [feature table](#features-available-for-feature-access-management) and is available to your tenant.
 
 ## How access policies work in Viva
 
