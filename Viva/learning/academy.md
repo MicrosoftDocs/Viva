@@ -28,7 +28,9 @@ Creating and editing academies involves managing featured sets and learning path
 
 ## Prerequisites 
 
-Existing Microsoft 365 admins, knowledge admins, and knowledge managers can create and manage academies.
+Creating and managing an academy requires a **premium license** for Viva Learning or Viva Suite.
+
+Existing **Microsoft 365 admins**, **knowledge admins**, and **knowledge managers** can create and manage academies.
 
 
 ## Set up an academy

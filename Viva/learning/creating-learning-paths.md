@@ -23,10 +23,12 @@ A learning path is a collection of learning objects or a sequence of learning ac
 
 In Viva Learning, you can curate a learning path using learning content from different learning providers enabled for your organization. 
 
+## Prerequisites
 
-> [!NOTE]
-> Creating a learning path requires a premium license for Viva Learning or Viva Suite.
-> You also need admin or knowledge manager permissions to create a learning path in Viva Learning.
+Creating a learning path requires a **premium license** for Viva Learning or Viva Suite.
+
+You also need **admin** or **knowledge manager** permissions to create a learning path in Viva Learning.
+
 ## Create a Learning path
 
 1. Go to the **Admin** tab in Viva Learning and click on **Learning path** on the left menu.
