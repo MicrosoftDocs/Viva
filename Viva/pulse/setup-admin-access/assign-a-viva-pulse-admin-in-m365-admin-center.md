@@ -19,19 +19,16 @@ search.appverid: MET150
 
 A Microsoft Privileged Role Administrator can assign a user as a Viva Pulse admin.
 
-## Assign a Viva Pulse admin in the Microsoft Entra admin center ##
 To assign Viva Pulse admin roles:
-1.	Sign in to the Microsoft Entra admin center and go to **Roles & admins**.
 
-    :::image type="content" alt-text="Screenshot of the Entra admin center." source="/viva/media/pulse/entra-admin-pulse-step1.png" lightbox="viva/media/pulse/entra-admin-pulse-step1.png":::
+1. Sign in to the Microsoft Entra admin center and go to **Roles & admins**.
+    :::image type="content" alt-text="Screenshot of the Entra admin center" source="/viva/media/pulse/entra-admin-pulse-step1.png":::
 
-2. Select the [**Roles & admins**](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles) tab. 
-2.	Select the **Viva Pulse Administrator role** from the list.  
-3.	Select **+ Add assignments** from the list of options.
-4.	Use the **Select member(s)** option and select the users you want to assign the role to.
-5.	Select **Next**.
-6.	Select **Assignment type** as **Active**. If you uncheck the **Permanently eligible** option, select the **Assignment start** and **Assignment end** dates.
-7.	Select **Assign** to complete the process.
- 
-Users with the Viva Pulse Administrator role can now manage Pulse settings using the in-app administration experience in Pulse.
- 
+2. Select the [**Roles & admins**](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles) tab.
+3. Select the **Viva Pulse Administrator role** from the list.  
+4. Select **+ Add assignments** from the list of options.
+5. Use the **Select member(s)** option and select the users you want to assign the role to.
+6. Select **Next**.
+7. Select **Assignment type** as **Active**. If you uncheck the **Permanently eligible** option, select the **Assignment start** and **Assignment end** dates.
+8. Select **Assign** to complete the process.
+9. Users with the Viva Pulse Administrator role can now manage Pulse settings using the in-app administration experience in Pulse.
