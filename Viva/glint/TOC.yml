@@ -187,7 +187,7 @@ items:
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
             href: setup/patient-safety-survey.md
-      - name: Set up Viva Glint Employee Lifecycle surveys
+      - name: Set up Employee Lifecycle surveys
         items:
           - name: Create an onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
