@@ -186,7 +186,7 @@ Allow your leaders to give feedback by enabling feedback. **The feedback feature
 We suggest enabling:
 
 - Allow users to submit feedback to Microsoft
-  - Allow users to include screenshots and attachments when the submit feedback to Microsoft
+  - Allow users to include screenshots and attachments when they submit feedback to Microsoft
   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft
 
 ## More feedback resources
