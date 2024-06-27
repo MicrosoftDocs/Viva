@@ -206,6 +206,8 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+    - name: Troubleshoot AAD errors
+      href: integration-aad-errors.md
 
 - name: The OKR framework
   items:
