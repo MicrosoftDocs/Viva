@@ -101,6 +101,42 @@ This report identifies calendar events as learning-related by using these keywor
 
 * brownbag
 
+### Suggested actions
+
+Leaders will now be able to use the Pulse suggested action card to access the Pulse app and complete the following actions:  
+
+* Send requests for feedback to follow-up on their report results using a tailored Pulse template for the Recent Hire Insights.
+
+* Finish drafts of open feedback requests (previously created through the Insights app Pulse card).
+
+* See the status of an open Pulse request following up on their report.
+
+* Access successfully completed Pulse requests.
+
+The goal of this card and set of deep link actions is to enable leaders to gather more information on their Insights reports – particularly the Recent Hires Onboarding report – through a follow-up Pulse survey.
+
+#### Creating a Pulse survey
+
+To create a survey from the new hire onboarding scenario page:
+
+Navigate to the **Send a pulse survey** action card, then select the **Get Started** button. The template will open in the Pulse app.
+
+:::image type="content" source="images/leader-reports-2.png" alt-text="Screenshot showing the send a pulse action card.":::
+
+#### Tracking a Pulse survey
+
+The Recent pulse survey card features two statuses:
+
+* In-Progress
+
+* Survey Closed
+
+Navigate to the **Recent pulse survey** card and select either **Open survey** for the **In-Progress status** or **Review results** for the **Survey Closed** status.
+
+:::image type="content" source="images/leader-reports-3.png" alt-text="Screenshot showing the In-Progress and Survey Closed statuses for the Recent Pulse action card.":::
+
+You will find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
+
 ### External focus
 
 This report helps leaders understand how employees are managing external relationships, and how different parts of the company may have been impacted by business shifts.
