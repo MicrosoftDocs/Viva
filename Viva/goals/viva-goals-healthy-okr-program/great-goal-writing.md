@@ -59,13 +59,13 @@ As an employee, understand the benefits of goal setting for you:
 
 ## 2. Just get started
 
-Some organizations might hesitate to elevate their goal-planning process because they don’t want to make a mistake. But the bigger mistake is to keep waiting until everything is perfect before starting, or worse, not get started at all.
+Some organizations might hesitate to elevate their goal-planning process because they don’t want to make a mistake. But the bigger mistake is to keep waiting until everything is perfect before starting, or worse, to not get started at all.
 
-Whether it’s starting at just the leadership level or letting your goal program take a grassroots approach and grow from the bottom up with a few ambitious teams, the important thing is to simply get started. You’ll quickly learn what’s working and where you need adjustments. Plus, you might be surprised how quickly progress can be made when even just a few enthusiastic users start seeing the benefits.
+Whether it’s starting at just the leadership level or letting your goal program take a grassroots approach and grow from the bottom up with a few ambitious teams, the important thing is simply to get started. You’ll quickly learn what’s working and where you need adjustments. Plus, you might be surprised how quickly progress can be made when even just a few enthusiastic users start seeing the benefits.
 
 ## 3. Keep things simple
 
-If your organization has struggled setting or achieving goals in the past, it’s probably because you set too many goals or made things too complicated. Here’s how you should view a goal:
+If your organization struggles to set or achieving goals, it’s probably because you set too many goals or make things too complicated. Here’s how you should view a goal:
 
 ***An ambitious, aspirational target, tied to a measurable outcome***
 
