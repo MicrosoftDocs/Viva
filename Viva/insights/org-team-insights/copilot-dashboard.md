@@ -91,7 +91,6 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 **To enable access for new report users:**
 
-1. Select **Add users**.
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
