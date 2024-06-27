@@ -113,7 +113,7 @@ You can use the Pulse suggested action card to access the Pulse app and complete
 
 * Access successfully completed Pulse requests
 
-This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, designed for the Recent Hires Onboarding report.
+This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, specifically the Recent Hires Onboarding report.
 
 #### Create a Pulse survey
 
@@ -135,7 +135,7 @@ Navigate to the **Recent pulse survey** card and select either **Open survey** f
 
 :::image type="content" source="images/leader-reports-3.png" alt-text="Screenshot showing the In-Progress and Survey Closed statuses for the Recent Pulse action card.":::
 
-You will find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
+You'll find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
 
 ### External focus
 
