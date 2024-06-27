@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2024
+ms.date: 06/26/2024
 ---
 
 # Set up a Viva Glint Manager Effectiveness Survey
@@ -24,6 +24,9 @@ Microsoft Viva Glint’s Manager Effectiveness Survey helps develop stronger man
 As a part of Glint’s integrated employee engagement platform, Manager Effectiveness surveys lay the foundation for seamless assessment, analytics, and action planning across the complete manager experience.
 
 Glint provides customizable survey content that covers key areas of manager performance. These areas represent industry best practices including priority setting, decision making, collaboration and communication. They also let leaders know how well managers provide motivation, recognition, career development, and feedback to their teams. Each area includes best practice content and suggested actions to help managers improve. 
+
+> [!div class="nextstepaction"]
+> [Blog - The power of management](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-power-of-manager-engagement-a-proven-strategy-for-business/ba-p/4118952)
 
 ## Viva Glint Manager Effectiveness Survey items
 
@@ -46,4 +49,4 @@ Glint provides customizable survey content that covers key areas of manager perf
 |15|Opportunities|What should your manager consider changing (doing less of, more of or differently)?|
 |16|Strengths|What should your manager keep doing?|
 
-***[Follow Program Summary guidance for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)***
+**[Follow Program Summary guidance for setup.](https://go.microsoft.com/fwlink/?linkid=2231504)**
