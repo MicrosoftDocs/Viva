@@ -57,7 +57,8 @@ Admins can't currently view the stage of data deletion within the Viva Learning 
 
 Contact the Viva Learning team to know about the data deletion stage. 
 
-**Can I track if data deletion is complete from backend?**
+**Can I track if data deletion is complete from the backend?**
+
 Currently, there's no experience in Viva Learning admin tab to inform about the data deletion stage. Contact Viva Learning team to confirm the data deletion stage.  
 
 **When can I reconfigure a provider?**
