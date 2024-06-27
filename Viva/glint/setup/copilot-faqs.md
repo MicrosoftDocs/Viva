@@ -18,7 +18,7 @@ ms.date: 06/29/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Introduction and admin setup for Copilot in Viva Glint (preview)
+# Copilot in Viva Glint FAQs (preview)
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
