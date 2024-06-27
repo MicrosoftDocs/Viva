@@ -38,6 +38,7 @@ To assign Viva Pulse admin roles:
 
 1. Select **Next**.
 1. Select **Assignment type** as **Active**. If you uncheck the **Permanently eligible** option, select the **Assignment start** and **Assignment end** dates.
+
     :::image type="content" alt-text="Screenshot of the Entra admin center where you choose assignment type" source="/viva/media/pulse/pulse-role-assign-complete.png":::
 
 1. Select **Assign** to complete the process.
