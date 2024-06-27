@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # How managers use Copilot in Viva Glint (preview)
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
 
 Managers with Copilot in Viva Glint have access to comment summarization.  Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](https://go.microsoft.com/fwlink/?linkid=2234345).
 Copilot suggests items that are relevant to your data set and helps you explore and dig deeper. In-platform prompts provide multiple options for generating data summaries.
