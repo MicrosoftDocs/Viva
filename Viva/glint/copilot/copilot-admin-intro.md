@@ -21,7 +21,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 # Introduction and admin setup for Copilot in Viva Glint (preview)
 
 > [!NOTE]
-> This feature is available to preview customers only. Features described here are subject to change.
+> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
 
 HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
@@ -171,7 +171,7 @@ From your admin dashboard, follow this process:
 
 ## More Resources
 
-[**Learn how manager can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
+[**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
 <br>
 [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
 <br>
