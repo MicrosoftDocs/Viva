@@ -26,6 +26,7 @@ To assign Viva Pulse admin roles:
 2. Select the [**Roles & admins**](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/RolesManagementMenuBlade/~/AllRoles) tab.
 
 1. Select the **Viva Pulse Administrator role** from the list.
+
     :::image type="content" alt-text="Screenshot of the Entra admin page where you select a role" source="/viva/media/pulse/entra-admin-landing.png":::
 
 1. Select **+ Add assignments** from the list of options.
