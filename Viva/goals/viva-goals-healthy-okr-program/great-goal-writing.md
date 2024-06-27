@@ -150,3 +150,4 @@ Because the list is getting long, we decide that increasing our social media vie
 ## Summary
 
 The essence of great goal writing lies in clarity of purpose and measurable outcomes. It’s about starting with a clear "why," simplifying to focus on the most impactful objectives, and engaging the entire team in a process that fosters ownership and alignment. By asking the right questions and embracing the process, organizations can inspire their teams to achieve amazing results.
+
