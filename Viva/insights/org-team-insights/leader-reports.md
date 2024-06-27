@@ -103,19 +103,19 @@ This report identifies calendar events as learning-related by using these keywor
 
 ### Suggested actions
 
-Leaders will now be able to use the Pulse suggested action card to access the Pulse app and complete the following actions:  
+You can use the Pulse suggested action card to access the Pulse app and complete the following actions:  
 
-* Send requests for feedback to follow-up on their report results using a tailored Pulse template for the Recent Hire Insights.
+* Send feedback requests to follow up on your report results using a tailored Pulse template for the Recent Hire Insights
 
-* Finish drafts of open feedback requests (previously created through the Insights app Pulse card).
+* Finish drafts of open feedback requests (previously created through the Insights app Pulse card)
 
-* See the status of an open Pulse request following up on their report.
+* See the status of an open Pulse request following up on their report
 
-* Access successfully completed Pulse requests.
+* Access successfully completed Pulse requests
 
-The goal of this card and set of deep link actions is to enable leaders to gather more information on their Insights reports – particularly the Recent Hires Onboarding report – through a follow-up Pulse survey.
+This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, designed for the Recent Hires Onboarding report.
 
-#### Creating a Pulse survey
+#### Create a Pulse survey
 
 To create a survey from the new hire onboarding scenario page:
 
@@ -123,7 +123,7 @@ Navigate to the **Send a pulse survey** action card, then select the **Get Start
 
 :::image type="content" source="images/leader-reports-2.png" alt-text="Screenshot showing the send a pulse action card.":::
 
-#### Tracking a Pulse survey
+#### Track a Pulse survey
 
 The Recent pulse survey card features two statuses:
 
