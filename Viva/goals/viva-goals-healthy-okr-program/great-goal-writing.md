@@ -65,7 +65,7 @@ Whether it’s starting at just the leadership level or letting your goal progra
 
 ## 3. Keep things simple
 
-If your organization struggles to set or achieving goals, it’s probably because you set too many goals or make things too complicated. Here’s how you should view a goal:
+If your organization struggles to set or achieve goals, it’s probably because you set too many goals or make things too complicated. Here’s how you should view a goal:
 
 ***An ambitious, aspirational target, tied to a measurable outcome***
 
