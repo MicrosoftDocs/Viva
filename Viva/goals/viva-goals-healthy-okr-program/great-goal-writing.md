@@ -51,7 +51,7 @@ We like to break down a great goal into three parts:
 
     Connecting the results you want to achieve to the actions that need to be done ensures that your goals don’t become “set it and forget it.” Team members should come to work each week and be able to say “I understand the focused tasks needed to be done in order to achieve our goals. 
 
-## Benefits of effective goal-setting
+## Benefits of effective goal setting
 
 - **Visibility** 
 
