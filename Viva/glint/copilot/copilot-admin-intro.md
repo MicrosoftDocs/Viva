@@ -172,9 +172,7 @@ From your admin dashboard, follow this process:
 ## More Resources
 
 [**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
-<br>
 [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
-<br>
 [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
 
