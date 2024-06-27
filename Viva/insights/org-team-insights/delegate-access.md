@@ -86,7 +86,7 @@ Whenever a delegate has been added, they'll be notified in Teams Chat of their c
 
 ## Remove access to delegate Copilot Dashboard with Powershell
 
-[Learn more on using policies to control access to features in Viva](/viva/feature-access-management).
+[Learn more about using policies to control access to features in Viva](/viva/feature-access-management).
 
 >[!Important]
 >Policies to disable delegation for Copilot dashboard can only be applied for the entire tenant level at this time.
