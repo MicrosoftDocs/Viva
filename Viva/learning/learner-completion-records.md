@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 08/16/2023
+ms.date: 06/28/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -20,7 +20,7 @@ description: Learn how to access learner completion records in Viva Learning.
 # Download Learner Completion Records 
 
 
-As an admin, you can export the learner's course completion records available in Viva Learning. This will include all completion records synced into Viva Learning from the content sources as well as courses marked complete by the learner in Viva Learning.
+As an admin, you can export the learner's course completion records available in Viva Learning. This includes all completion records synced into Viva Learning from the content sources and courses marked complete by the learner in Viva Learning.
 
 1. Find a user by inputting their name or email ID in the search box. 
 
@@ -39,11 +39,11 @@ The following table describes the columns and values within the exported file.
 | Content provider name| The name of the content provider that the content is ingested into Viva Learning from.| 
 | External ID of the content | The unique identifier shared by the content provider for each content.|
 | Completion status  | An indication of completion of the content.|
-|Source of progress information| If the completion signal is coming from the provider, then this shows the name of the provider. If the completion is on account of the learner marking a content **Completed** in Viva learning, then we show **Viva Learning**.|
+|Source of progress information| If the completion signal is coming from the provider, then this shows the name of the provider. If the completion is on account of the learner marking a content **Completed** in Viva Learning, then we show **Viva Learning**.|
 | Last Sync Date (UTC) | The date on which the Content provider last synced with Viva Learning. Any completions after this date will appear in Viva Learning in the next sync.|
 | Type of Assignment or Recommendation | The assignment type, such as mandatory or optional. This is applicable only when the content provider has multiple assignment types and is synced to Viva Learning. |
-| External id of  Assignment or Recommendation | The unique id as shared by the content provider for the assignment or recommendation.|
-| Due Date (UTC) | The due date for the assignment or due date for the recommendation created in Viva learning.|
+| External ID of  Assignment or Recommendation | The unique ID as shared by the content provider for the assignment or recommendation.|
+| Due Date (UTC) | The due date for the assignment or due date for the recommendation created in Viva Learning.|
 | Recommender name (for Viva Learning Recommendation) | The name of the recommender who recommended the content to the learner in Viva Learning.|
 |Recommender email ID| The email ID of the recommender who recommended the content to the learner in Viva Learning.| 
 |Date of Recommendation/Assignment (UTC) | The date of creation of the assignment that displays if the date is synched from the content provider. The date of the creation of the recommendation by the recommender in Viva Learning.| 
