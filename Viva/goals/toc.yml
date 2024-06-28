@@ -232,6 +232,10 @@ items:
         items:
         - name: Guide to great goal writing
           href: ./viva-goals-healthy-okr-program/great-goal-writing.md
+        - name: Pitfalls and best practices
+          href: ./viva-goals-healthy-okr-program/goal-setting-pitfalls.md
+        - name: Goal-setting frameworks
+          href: ./viva-goals-healthy-okr-program/goal-setting-frameworks.md
         - name: Goal writing recommendations
           href: ./viva-goals-healthy-okr-program/goal-writing-recommendations.md
         - name: Write annual, organizational goals using the 5 Ps
