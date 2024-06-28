@@ -344,7 +344,7 @@ After creating or editing cards on the Dashboard, make sure you preview the expe
 
 ## Customize resources
 
-Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Operators and members can import navigational links from a SharePoint home site or global navigation bar, or create their own links, which can all be [targeted to specific audiences](use-audience-targeting-in-viva-connections). Any edits made to the resource section will also show in [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+Resources provide links to the most popular portals and destinations at your organization and can be found below the dashboard of the Connections experience. Operators and members can import navigational links from a SharePoint home site or global navigation bar, or create their own links, which can all be [targeted to specific audiences](use-audience-targeting-in-viva-connections.md). Any edits made to the resource section will also show in [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
 >
