@@ -1,6 +1,6 @@
 ---
 
-ms.date: 03/06/2023
+ms.date: 06/28/2024
 title: Viva Goals regional support
 ms.reviewer: 
 ms.author: rasanders
@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva-goals
-ms.localizationpriority: priority
+ms.localizationpriority: High
 ms.collection:  
 - m365initiative-viva-goals  
 search.appverid:
