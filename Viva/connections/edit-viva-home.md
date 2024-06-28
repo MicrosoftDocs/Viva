@@ -42,7 +42,7 @@ Elements of the new Viva Connections experience can be customized to fit your or
 
 The Connections experience has been redesigned to highlight news across your organization and still provide easy access to the top tasks, tools, and resources that help people in your organization get their jobs done. The updated design prominently features the following key elements to the [Viva Connections experience](https://support.microsoft.com/topic/introducing-microsoft-viva-3c1012cb-6c85-4d49-bd7f-b18a6e7873e0) - Announcements, Feed & Spotlight, Dashboard, Resources, and Viva suite footer. Content for some of these elements can be filtered [using audience targeting to create a personalized experience](use-audience-targeting-in-viva-connections.md).
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience."lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png" alt-text="Screenshot of the full page Connections experience." lightbox="../media/connections/edit-viva-home/vc3-at-a-glance-desktop.png":::
 
 **Announcements:** Announcements from the organization display at the top of the Viva Connections experience and convey time-sensitive information to employees.
 
@@ -140,7 +140,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 ### Summary of customizable elements
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be edited."lightbox="../media/connections/edit-viva-home/vc3-customizable-elements.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be edited." lightbox="../media/connections/edit-viva-home/vc3-customizable-elements.png":::
 
 1. **App icon and label in the Teams app bar:** Customize the app name and label in the [Teams admin center](add-viva-connections-app.md).
 
@@ -158,7 +158,7 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 ### Summary of noncustomizable elements
 
-:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited."lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
+:::image type="content" source="../media/connections/edit-viva-home/vc3-non-customizable-elements.png" alt-text="Screenshot of the full page Connections experience with labels that explain which parts can be further edited." lightbox="../media/connections/edit-viva-home/vc3-non-customizable-elements.png":::
 
 8. **Shared Viva navigation:** Helps viewers navigate between Viva experiences. Viva apps will automatically display in this menu when Viva licenses are detected.
 
