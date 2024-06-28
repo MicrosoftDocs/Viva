@@ -84,9 +84,9 @@ If your organization created [multiple Connections experiences](/viva/connection
 
    :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted.":::
 
-> [!NOTE]
->
-> Only users with edit privileges will be able to see the Switch Experience option in the menu.
+   > [!NOTE]
+   >
+   > Only users with edit privileges will be able to see the Switch Experience option in the menu.
 
 4. A list of created experiences display along with their status (enabled or draft). Select an **Experience** to switch to.
 
@@ -266,13 +266,13 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 2. Under SharePoint News, select a news source:
 
-    - **This site**: Only displays news posts that have been posted to this SharePoint home site.
-    - **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
-    - **Search all sites**: Search for a site by name or URL.
+   - **This site**: Only displays news posts that have been posted to this SharePoint home site.
+   - **Select sites**: Display all available SharePoint sites within the organization that an owner or admin has access to.  
+   - **Search all sites**: Search for a site by name or URL.
 
-> [!NOTE]
->
-> If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
+   > [!NOTE]
+   >
+   > If you created your Connections experience without a home site, the **this site** option will still show but will not allow you to save since no home site is detected.
 
 3. If selecting a source other than your current site, extra sources display from available SharePoint sources:
 
@@ -305,25 +305,26 @@ To apply a SharePoint or custom theme:
 2. Select **Theme**.
 
 3. Make a selection from the list of available themes.
-    - Themes from your organization can't be customized.
-    - SharePoint themes from Microsoft can be customized.
 
-    :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
+   - Themes from your organization can't be customized.
+   - SharePoint themes from Microsoft can be customized.
 
-> [!NOTE]
->
-> - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
-> - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-themes.png" alt-text="Screenshot showing examples of organization created themes and Microsoft default themes.":::
+
+   > [!NOTE]
+   >
+   > - If an end user has selected dark mode on their mobile or tablet device, the dashboard and other Connections components will render in dark mode with the default color and will not apply the theme colors.
+   > - Dark themes (has the property `isInverted=True`), won’t be applied to the mobile experience. If the dark theme is selected, mobile will continue showing Connections with the user’s selected mode (light or dark) and the default colors.
 
 4. Select **Save**.
 
-    The home site color theme reflects automatically in the Viva Connections desktop experience.
+   The home site color theme reflects automatically in the Viva Connections desktop experience.
 
-> [!NOTE]
->
-> Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
->
-> :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
+   > [!NOTE]
+   >
+   > Using [accent colors under the app customization feature](/microsoftteams/customize-apps) will only apply to the app icon outline color on the Teams chrome, and will not apply all colors to the Connections experience. For consistency of theming, it is a best practice to set the accent color same as the theme primary color from SharePoint.
+   >
+   > :::image type="content" source="../media/connections/edit-viva-home/vc3-teams-chrome.png" alt-text="Screenshot showing how accent colors will apply.":::
 
 ## Customize the dashboard
 
@@ -496,10 +497,10 @@ If your organization already has a SharePoint home site and you want to keep it 
 
 1. [Download the latest SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251).
 
-> [!NOTE]
-> - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
-> - Run the command as a SharePoint Administrator.
-> - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
+   > [!NOTE]
+   > - If you installed a previous version of SharePoint Online Management Shell, go to Add, or Remove programs and uninstall "SharePoint Online Management Shell".
+   > - Run the command as a SharePoint Administrator.
+   > - This command allows you to choose the default experience for the desktop app and doesn't impact the mobile experience.
 
 2. Connect to SharePoint as a [SharePoint Administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) in Microsoft 365. Refer to [Getting started with SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online) for more information.
 
