@@ -101,13 +101,49 @@ This report identifies calendar events as learning-related by using these keywor
 
 * brownbag
 
+### Suggested actions
+
+You can use the Pulse suggested action card to access the Pulse app and complete the following actions:  
+
+* Send feedback requests to follow up on your report results using a tailored Pulse template for the Recent Hire Insights
+
+* Finish drafts of open feedback requests (previously created through the Insights app Pulse card)
+
+* See the status of an open Pulse request following up on their report
+
+* Access successfully completed Pulse requests
+
+This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, specifically the Recent Hires Onboarding report.
+
+#### Create a Pulse survey
+
+To create a survey from the new hire onboarding scenario page:
+
+Navigate to the **Send a pulse survey** action card, then select the **Get Started** button. The template will open in the Pulse app.
+
+:::image type="content" source="images/leader-reports-2.png" alt-text="Screenshot showing the send a pulse action card.":::
+
+#### Track a Pulse survey
+
+The Recent pulse survey card features two statuses:
+
+* In-Progress
+
+* Survey Closed
+
+Navigate to the **Recent pulse survey** card and select either **Open survey** for the **In-Progress status** or **Review results** for the **Survey Closed** status.
+
+:::image type="content" source="images/leader-reports-3.png" alt-text="Screenshot showing the In-Progress and Survey Closed statuses for the Recent Pulse action card.":::
+
+You'll find the **Recent pulse survey** card on the corresponding scenario page. Only the most current survey will display on the **new hire onboarding** page. The **In-Progress** status will remain until either the survey is closed or updated with the latest one. The **Survey Closed** status will display for up to six months after the closing date.
+
 ### External focus
 
 This report helps leaders understand how employees are managing external relationships, and how different parts of the company may have been impacted by business shifts.
 
 Despite business changes, it’s important to ensure that relationships with customers, partners, and vendors stay strong. In times of change, internal demands can take precedence over time previously spent with external contacts. Those external contacts might also be refocusing their own priorities, and might not have time to meet with your organization.
 
-This report can help leaders improve their strategies for communicating and collaborating with external groups. And for groups with *increased* external engagement, these insights can help leaders ensure these engagements don’t come at the expense of increased after-hours work.
+This report can help you improve your strategies for communicating and collaborating with external groups. And for groups with *increased* external engagement, these insights can help you ensure these engagements don’t come at the expense of increased after-hours work.
 
 This report is powered by the following metrics:
 
@@ -118,7 +154,7 @@ This report is powered by the following metrics:
 
 ### Meeting cost and quality
 
-The **Meeting cost and quality** report helps leaders understand their organization’s meeting investments. They can see how much time their team spends in meetings and what share of it goes to large or long recurring meetings. If a lot of time is spent in large or long recurring meetings, then a leader might decide that it's worthwhile to encourage reviews of these kinds of meetings, because reviewing just one or two can impact a lot of employees' time.
+The **Meeting cost and quality** report helps you understand your organization’s meeting investments. You can see how much time your team spends in meetings and what share of it goes to large or long recurring meetings. If a lot of time is spent in large or long recurring meetings, then you might decide that it's worthwhile to encourage reviews of these kinds of meetings, because reviewing just one or two can impact a lot of employees' time.
 
 This report can help you answer the following questions:
 
@@ -136,7 +172,7 @@ This report is powered by the following metrics:
 | Long meetings | Meeting occurrences that are scheduled for more than one hour. Does not include hour-long meetings. Long meetings can be useful for covering many topics or having a deep discussion on a single topic, but organizers should be aware that beyond an hour, tired attention spans can reduce the value of the meeting.  |
 | Recurring meetings | Meetings that are part of a series.|
 
-Optionally, some insights display the amount of time spent in meetings as a currency value. This can be useful for leaders who are thinking about their organization’s time as an investment. The conversion to currency doesn't use any individual or group’s pay information. Users can adjust the conversion rate and units, or choose to see these values as hours, in their Insights settings.
+Optionally, some insights display the amount of time spent in meetings as a currency value. This can be useful for you when evaluating your organization’s time as an investment. The conversion to currency doesn't use any individual or group’s pay information. You can adjust the conversion rate and units, or choose to see these values as hours, in Insights settings.
 
 ### Hybrid workplace
 
