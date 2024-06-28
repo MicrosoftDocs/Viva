@@ -82,7 +82,7 @@ If your organization created [multiple Connections experiences](/viva/connection
 
 3. Then select **Switch Experience**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted."lightbox="../media/connections/edit-viva-home/vc3-switch-experience.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience.png" alt-text="Screenshot showing additional options with switch experience highlighted.":::
 
 > [!NOTE]
 >
@@ -92,7 +92,7 @@ If your organization created [multiple Connections experiences](/viva/connection
 
 5. Select **Switch**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status."lightbox="../media/connections/edit-viva-home/vc3-switch-experience-list.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/vc3-switch-experience-list.png" alt-text="Screenshot showing three available experiences and their status.":::
 
 > [!NOTE]
 >
@@ -220,7 +220,7 @@ You can add a link to any source of content (blog, post, site, etc.) to display 
 
 2. In the Spotlight settings, select **Pin item**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-spotlight-settings.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-spotlight-settings.png" alt-text="Screenshot of the spotlight settings property pane.":::
 
 3. The **Pin an item** panel appears. In the **Link** field, enter the URL of the SharePoint news post or external source.
 
@@ -232,7 +232,7 @@ You can add a link to any source of content (blog, post, site, etc.) to display 
 
 5. Select **Add** to add your pinned item and return to the spotlight settings.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-pin-item.png" alt-text="Screenshot of the pin an item settings property pane."lightbox="../media/connections/edit-viva-home/spotlight-pin-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-pin-item.png" alt-text="Screenshot of the pin an item settings property pane.":::
 
 6. Select **Save** to save your changes and close the spotlight settings pane.
 
@@ -244,17 +244,17 @@ You can make changes to existing pinned links or rearrange the order that the pi
 
 2. Under **Pinned items**, select the **edit icon** for the pinned item you want to edit.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-edit-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-edit-item.png" alt-text="Screenshot of the pinned items property pane with the edit icon highlighted.":::
 
 3. Make any necessary changes to the link, title, image, or alternative text as needed. When finished, select **Update** to apply your changes.
 
 4. To reorder a pinned item, hover your mouse over the **six vertical dots** to the left of the item. Select and drag the item to its new location within your list of news items.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted."lightbox="../media/connections/edit-viva-home/spotlight-move-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-move-item.png" alt-text="Screenshot of the pinned items property pane with the move icon highlighted.":::
 
 5. You can also reorder items by selecting the **three vertical dots** to the right of the item. Use the number field to indicate the new location for the item, then select **Update**.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed."lightbox="../media/connections/edit-viva-home/spotlight-reorder-item.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-reorder-item.png" alt-text="Screenshot of the pinned items property pane with the reorder icon highlighted and number field displayed.":::
 
 6. When finished making your changes, select **Save**.
 
@@ -284,7 +284,7 @@ SharePoint news sources will display in the spotlight section after any pinned l
 
 5. Select **Save** to save your changes.
 
-    :::image type="content" source="../media/connections/edit-viva-home/spotlight-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites."lightbox="../media/connections/edit-viva-home/spotlight-sharepoint-news.png":::
+    :::image type="content" source="../media/connections/edit-viva-home/spotlight-sharepoint-news.png" alt-text="Screenshot of the spotlight settings property pane listing available SharePoint news sites.":::
 
 6. News from selected SharePoint sites will display after any pinned links and if there's space available.
 
@@ -373,11 +373,11 @@ Resources provide links to the most popular portals and destinations at your org
 
 7. Select **Save**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties."lightbox="../media/connections/edit-viva-home/atr-audiences-to-target.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audiences-to-target.png" alt-text="Screenshot showing the 'add a link' properties.":::
 
 8. The new resource appears. If audience targeting is active, you’ll see an icon in the upper left of the resource link.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link."lightbox="../media/connections/edit-viva-home/atr-audience-targeting-icon.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-audience-targeting-icon.png" alt-text="Screenshot of the audience targeting icon shown in the upper left of the resource link.":::
 
 9. Continue editing your resource links. When finished, select **Save** to confirm your changes.
 
@@ -396,7 +396,7 @@ You can import navigational links from a SharePoint home site and the SharePoint
 
 6. Select **Import**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-import-sharepoint-links.png" alt-text="Screenshot of the Import properties panel."lightbox="../media/connections/edit-viva-home/atr-import-sharepoint-links.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-import-sharepoint-links.png" alt-text="Screenshot of the Import properties panel.":::
 
 7. The selected links are added to your resources.
 
@@ -410,7 +410,7 @@ You can import navigational links from a SharePoint home site and the SharePoint
 
 3. Select **Edit** to open the resource link and change its settings.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted."lightbox="../media/connections/edit-viva-home/atr-edit-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-edit-resource.png" alt-text="Screenshot of the resource link drop-down menu with the edit option highlighted.":::
 
 4. When finished editing the resource link, select **Save** in the edit link window.
 
@@ -424,7 +424,7 @@ You can import navigational links from a SharePoint home site and the SharePoint
 
 3. Select **Delete**.
 
-   :::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted."lightbox="../media/connections/edit-viva-home/atr-delete-resource.png":::
+   :::image type="content" source="../media/connections/edit-viva-home/atr-delete-resource.png" alt-text="Screenshot of the resource link drop-down menu with the delete option highlighted.":::
 
 4. When asked to confirm, select **Delete**.
 
