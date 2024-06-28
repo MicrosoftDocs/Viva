@@ -1,12 +1,12 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 07/10/2020
+ms.date: 06/28/2024
 title: Data privacy with Insights
 description: About how personal data is kept private in Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
-ms.localizationpriority: null 
+ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble
 audience: Admin
