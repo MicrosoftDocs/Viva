@@ -25,7 +25,7 @@ description: "Learn to write great goals for a healthy goal setting program."
 
 Great business goals provide the roadmap for achieving amazing business results. Whether that means earning record revenue or building a thriving team culture, the goals you set help you fulfill the mission and purpose of your organization.
 
-Conversely, lacking clear goals is a barrier to productivity. Both both leaders and employees pay the price, leaving them ill equipped to succeed in today’s uncertain business climate.
+Conversely, lacking clear goals is a barrier to productivity. Both leaders and employees pay the price, leaving them ill equipped to succeed in today’s uncertain business climate.
 
 But while setting great goals is critically important, it doesn’t have to be difficult. Here are our recommendations for writing great goals.
 
@@ -150,4 +150,3 @@ Because the list is getting long, we decide that increasing our social media vie
 ## Summary
 
 The essence of great goal writing lies in clarity of purpose and measurable outcomes. It’s about starting with a clear "why," simplifying to focus on the most impactful objectives, and engaging the entire team in a process that fosters ownership and alignment. By asking the right questions and embracing the process, organizations can inspire their teams to achieve amazing results.
-
