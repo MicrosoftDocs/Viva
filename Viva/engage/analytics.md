@@ -125,3 +125,7 @@ In the **Manage analytics** interface, the Engage admin can enable or disable th
 [Set up and manage campaigns in Viva Engage](/viva/engage/campaigns)
 
 [Manage administrator roles in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
+
+[Monitor engage in Viva Engage with analytics](https://support.microsoft.com/en-us/office/view-insights-about-questions-and-answers-in-viva-engage-fcde33cf-ee3f-4cc8-aa47-c6d0f3fc5dc0?storagetype=live)
+
+[Measure success in Viva Engage](https://support.microsoft.com/en-us/office/measure-success-in-viva-engage-f6047dff-8dc3-4d1e-a939-617e02211f3e?storagetype=live)
