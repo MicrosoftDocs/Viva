@@ -1,12 +1,12 @@
 ---
 
-ms.date: 10/19/2021
+ms.date: 06/28/2024
 title: Headspace meditation with the Briefing email
 description: Learn how to access the Headspace feature from the Briefing email
 author: madehmer
 ms.author: helayne
 ms.topic: article
-ms.localizationpriority: normal 
+ms.localizationpriority: Medium 
 ms.service: viva-insights
 ms.collection: 
 - M365-analytics
