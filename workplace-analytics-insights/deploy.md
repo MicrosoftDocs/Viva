@@ -1,12 +1,12 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 09/07/2021
+ms.date: 06/28/2024
 title: Deploy steps for Viva insights
 description: Deploy steps for Microsoft Viva Insights
 author: madehmer
 ms.author: helayne
 ms.topic: conceptual
-ms.localizationpriority: null 
+ms.localizationpriority: Low 
 ms.service: viva-insights
 manager: scott.ruble
 audience: Admin

@@ -65,11 +65,11 @@ Lastly, Initiatives are actions that help the team achieve outcomes. They are fo
 
 ## Benefits of OKRs
 
-Because OKRs are simply a framework for goal-setting in general, the same benefits apply: [Benefits of effective goal setting](great-goal-writing.md#benefits-of-effective-goal-setting)
+Because OKRs are simply a framework for goal-setting in general, the same benefits apply: [Benefits of effective goal setting](great-goal-writing.md)
 
 ## Common pitfalls and best practices
 
-Because OKRs are simply a framework for goal-setting in general, the same pitfalls apply: [Goal setting pitfalls and best practices](great-goal-writing.md#goal-setting-pitfalls-and-best-practices)
+Because OKRs are simply a framework for goal-setting in general, the same pitfalls apply: [Goal setting pitfalls and best practices](goal-setting-pitfalls.md)
 
 ## Formula for writing great OKRs
 
