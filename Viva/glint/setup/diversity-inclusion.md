@@ -56,7 +56,7 @@ Diversity and Inclusion survey feedback provides:
 |6|Opinion Count|My opinions seem to count.|
 |7|Acceptance|[Company Name] makes it easy for people from diverse backgrounds to be accepted.|
 |8|Transparency|[Company Name] communicates openly and honestly.|
-|9|Valued Teammate|I am treated as a valued memober of my work group.|
+|9|Valued Teammate|I am treated as a valued member of my work group.|
 |10|Larger Purpose|Working for [Company Name] gives me a sense that I am part of something with a larger purpose.|
 |11|Best Interests - Manager|My immediate manager makes me feel they have my best interests in mind.|
 |12|DIB Changes|What should your company consider changing (doing less of, more of, or differently) in support of diversity, inclusion, and belonging?|

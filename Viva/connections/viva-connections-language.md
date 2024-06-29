@@ -119,7 +119,7 @@ Announcement posts in the [All-company group in Viva Engage](/viva/engage/manage
 The resources experience displays intranet resources from [global navigation in the SharePoint app bar](sharepoint-app-bar.md) and can be configured from the SharePoint home site.
 
 > [!NOTE]
-> Global navigation and a dashbaord can only be enabled and customized from the [SharePoint home site](home-site-plan.md) and required site owner (or higher) permissions. The default language of that site should already be English.
+> Global navigation and a dashboard can only be enabled and customized from the [SharePoint home site](home-site-plan.md) and required site owner (or higher) permissions. The default language of that site should already be English.
 
 ![Image of where to specify the language for the global navigation.](../media/connections/vc-language-global-nav.png)
 

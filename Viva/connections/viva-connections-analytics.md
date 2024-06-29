@@ -116,7 +116,7 @@ Select **Download report** at the top of the analytics page to download an Excel
 
 :::image type="content" source="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png" alt-text="Screenshot showing downloaded analytics report in a spreadsheet." lightbox="../media/connections/viva-connections-analytics/vc-analytics-spreadsheet.png":::
 
-## How to to disable analytics features
+## How to disable analytics features
 
 Your organization might not want to see analytics data due to local data and compliance regulations or other reasons. Use the following steps to disable the Connections analytics feature using PowerShell. For tenants that are set up for more than one region, the option to access analytics needs to be disabled for each region using the PowerShell command.
 

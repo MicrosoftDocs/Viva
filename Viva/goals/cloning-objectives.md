@@ -75,5 +75,5 @@ You can edit the cloned objective to reflect the leftover portion of the goal in
       :::image type="content" source="../media/goals/3/33/c.jpg" alt-text="Screenshot showing where you clone multiple objectives." lightbox="../media/goals/3/33/c.jpg":::
 
 >[!NOTE]
->The cloning operation happens asynchronously without blocking you from performing other actions in Viva Goals. The time to complete cloning depends on the number of OKRs you're cloning. If you try to to clone multiple times during the process, you'll end up with multiple clones. 
+>The cloning operation happens asynchronously without blocking you from performing other actions in Viva Goals. The time to complete cloning depends on the number of OKRs you're cloning. If you try to clone multiple times during the process, you'll end up with multiple clones. 
 

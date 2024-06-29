@@ -135,7 +135,7 @@ The Insights bulk license script uses the Azure AD PowerShell module to make the
 
 The Insights bulk license script uses a .csv reference file as input. The script references each address listed in the .csv file and attempts to assign Insights license to all users.
 
-Each user who is already assigned a license retains all current licensing. New users will receive a Insights license. The .csv input must have a single column with the header "Email" that contains all email addresses.
+Each user who is already assigned a license retains all current licensing. New users will receive an Insights license. The .csv input must have a single column with the header "Email" that contains all email addresses.
 
 #### Example .csv export file
 

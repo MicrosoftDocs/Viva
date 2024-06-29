@@ -26,7 +26,7 @@ You can include people outside of your Viva Engage network in your conversations
 Find answers to frequently asked questions about external participants in this article.
  
 >[!NOTE] 
->External messaging, including exernal networks, external groups, and external participants, is not available for Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md).
+>External messaging, including external networks, external groups, and external participants, is not available for Viva Engage Enterprise networks in the [EU Geo](../manage-security-and-compliance/data-residency.md).
     
 ## General questions
 <a name="General"> </a>

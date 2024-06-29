@@ -79,7 +79,7 @@ After setup is complete, users within your organization can link their key resul
  :::image type="content" source="../media/goals/dynmaics-365-integration/site-map.png" alt-text="Screenshot of configuring the site map." lightbox="../media/goals/dynmaics-365-integration/site-map.png":::
 
 1. In the **View** field, select the view you want to connect to.
- :::image type="content" source="../media/goals/dynmaics-365-integration/view.png" alt-text="Screentshot of configuring the view." lightbox="../media/goals/dynmaics-365-integration/view.png":::
+ :::image type="content" source="../media/goals/dynmaics-365-integration/view.png" alt-text="Screenshot of configuring the view." lightbox="../media/goals/dynmaics-365-integration/view.png":::
 
 1. In the **Column** field, select the column (of the view) that you want to designate as the metric for success. The available fields will vary based on the configuration of the view you select.
  :::image type="content" source="../media/goals/dynmaics-365-integration/column.png" alt-text="Screenshot of configuring the column." lightbox="../media/goals/dynmaics-365-integration/column.png":::

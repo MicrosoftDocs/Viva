@@ -25,7 +25,7 @@ From the admin dashboard, in the *Survey* section, you'll find the **Question Li
 >[Use this Learn guidance to understand question mapping](question-mapping.md).
 
 >[!NOTE]
->Not all items in the Question Library are posed in question format. Many library items are statements for the survery taker to rate on a given scale. For this reason, note that the term "items" is often used to refer to the contents of the Question Library.
+>Not all items in the Question Library are posed in question format. Many library items are statements for the survey taker to rate on a given scale. For this reason, note that the term "items" is often used to refer to the contents of the Question Library.
 
 From the Question Library you can: 
 
@@ -45,7 +45,7 @@ From the Question Library you can:
 Viva Glint has done extensive research to identify the most reliable and valid items linked to survey goals, and our benchmarks are created using the exact text from these items. Even a slight change to a question or statement can alter the meaning enough to invalidate a comparison to the benchmark.  
 
    > [!TIP]
-   > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid bencharmk for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
+   > **In cases where text is altered to sufficiently alter the item's meaning, the benchmark comparison is no longer valid.** For major item changes, create a copy of the standard item to customize so that it isn't tied to an invalid benchmark for comparison. While losing a benchmark might seem like a disadvantage, using items that are most relevant to your organizational needs and measuring progress over time are more impactful.
 
 Customized standard survey items may not map to external benchmarks. If making a change to our standard survey items, we recommend duplicating the question and creating a customized version. [Read about question mapping](/../../viva/glint/setup/question-mapping).
 

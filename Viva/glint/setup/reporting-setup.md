@@ -97,7 +97,7 @@ If adding an Aggregate Index:
 1. Select **+ Add Aggregate Index** to open the *Create Aggregate* slider window.
 2. In the new window, enter an aggregate name of your choosing. 
 3. For **Calculation Method**, choose from:
-   - Select **Average** - Recommended. Select from all rating questions. Qverage score = (a+b+...+n)/n, with the range from 0 to 100.  
+   - Select **Average** - Recommended. Select from all rating questions. Average score = (a+b+...+n)/n, with the range from 0 to 100.  
    - Select **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
      
    >[!CAUTION]

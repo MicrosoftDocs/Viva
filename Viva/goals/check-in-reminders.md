@@ -102,7 +102,7 @@ If you're a team owner, you can set a check-in template by performing the follow
 
 1. Under the **Check-ins** tab, enable the **Check-in note template** slider.
 
-1. Viva Goals provides a default template, but you can edit it to your prefrences. Select **Save**.
+1. Viva Goals provides a default template, but you can edit it to your preferences. Select **Save**.
 
 Now, every time a goal is checked in, users will see the recommended template.
 

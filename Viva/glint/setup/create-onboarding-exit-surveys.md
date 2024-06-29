@@ -54,7 +54,7 @@ Onboarding feedback creates an opportunity for organizations to rethink their on
 |Information|I have the information I need to do my job well.|
 |Team Support|I can get the help I need from my teammates and colleagues.|
 |Belonging|I feel a sense of belonging at [Company Name.]|
-|Self-efficancy|My onboarding has given me the confidence to be successful in my role.|
+|Self-efficiency|My onboarding has given me the confidence to be successful in my role.|
 |Openness|I can openly express my thoughts, questions, and ideas without fear of negative consequences.|
 |Barriers|What barriers (if any) are slowing you down right now?|
 |Reasons for joining|What were the main reasons you joined [Company Name]?|

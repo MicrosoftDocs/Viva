@@ -38,7 +38,7 @@ From here, you can select the organization you want to search within.
 You can surface specific OKRs and initiatives within your Teams chats to add more context to your conversations. You can discuss progress, proactively identify and resolve blockers, and use Viva Goals to focus on the work that needs your attention. With the Microsoft Teams messaging extension, you can also make updates to your OKRs without leaving your chat.
 
 > [!NOTE]
-> To proceed with these steps, you you need a Viva Goals account.
+> To proceed with these steps, you need a Viva Goals account.
 
 Follow these steps to insert an OKR/initiative in your textbox:
 

@@ -27,7 +27,7 @@ Research shows that having conversations in the workplace are critical to produc
 This is the reason Viva People Science developed the ACT Conversation Guide. ACT conversations serve as a simple framework for having productive conversations to foster meaningful connection and continuous improvement. The conversation framework allows managers and teams to practice the steps of a quality feedback conversation and make them a habit.
 
 ## [Manager Quick Guide to Results and Conversations](https://go.microsoft.com/fwlink/?linkid=2270009)
-Share this guide with your managaers to help them navigate the Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
+Share this guide with your managers to help them navigate the Glint platform and interpret and use survey results. ACT conversations build quality managers who lead engaged teams.
 
 ## Why ACT works
 
