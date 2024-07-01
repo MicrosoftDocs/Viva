@@ -127,8 +127,6 @@ items:
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
-      - name: Set up Focus Area periods
-        href: setup/focus-area-period-feature.md
       - name: Use the Question Library
         href: setup/question-library.md
         items:
@@ -138,6 +136,10 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Focus Areas
         items:
+          - name: Set up Focus Area periods
+            href: setup/focus-area-period-feature.md
+          - name: Managers creating Focus Areas
+            href: setup/focus-areas-managers-creating.md
           - name: Customize Suggestion Action templates
             href: setup/customize-action-plans.md
           - name: Link Content Resources to Suggested Action templates
@@ -268,6 +270,8 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Manager reporting access when changing team or role
+            href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
           - name: Confidentiality and suppression

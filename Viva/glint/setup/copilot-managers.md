@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/29/2024
+ms.date: 07/01/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -169,8 +169,8 @@ Here are a few ideas of how to use Copilot in reports:
   - Summarize your data by managerial or organizational hierarchy.
   - Summarize by core driver.
 
-## Save your Copilot summary
-Copilot is only preserved within a user session. Once you log out, Copilot summarization disappears. To save your Copilot summary:
+## Copy your Copilot summary to your clipboard
+Copilot is only preserved within a user session. Once you log out, Copilot summarization disappears. To save your Copilot summary to your clipboard:
 
 1. Highlight the content you want to save.
 2. Select the **Copy** symbol.
