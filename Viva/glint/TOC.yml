@@ -143,9 +143,9 @@ items:
           - name: Managers creating Focus Areas
             href: setup/focus-areas-managers-creating.md
       - name: Suggestion Action templates
-         href: setup/customize-action-plans.md
+        href: setup/customize-action-plans.md
       - name: Link Content Resources to Suggested Action templates
-         href: setup/link-survey-item-action-template.md
+        href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
       - name: Manage translations 
