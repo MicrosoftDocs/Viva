@@ -136,14 +136,17 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Focus Areas
         items:
+          - name: Retroactive trend updates for employees
+            href: setup/retro-trend-updates.md
           - name: Set up Focus Area periods
             href: setup/focus-area-period-feature.md
           - name: Managers creating Focus Areas
             href: setup/focus-areas-managers-creating.md
-          - name: Customize Suggestion Action templates
-            href: setup/customize-action-plans.md
-          - name: Link Content Resources to Suggested Action templates
-            href: setup/link-survey-item-action-template.md
+      - name: Suggestion Action templates
+        href: setup/customize-action-plans.md
+      - name: Link Content Resources to Suggested Action templates
+        href: setup/link-survey-item-action-template.md
+        items:
           - name: Embed videos
             href: setup/embedding-content-resources.md
       - name: Manage translations 

@@ -30,7 +30,7 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 |Release 70|April 6, 2024|[April newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/april-2024-viva-glint-newsletter/ba-p/4100871)|
 |Release 71|May 4, 2024|[May newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/may-4-2024-viva-glint-release-update/ba-p/4127426)|
 |Release 72|June 1 2024|[June newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/june-2024-viva-glint-release-update/ba-p/4157334)|
-|Release 73|June 29, 2024|
+|Release 73|June 29, 2024|[July newsletter](https://techcommunity.microsoft.com/t5/viva-glint-blog/july-2024-viva-glint-release-updates/ba-p/4180459)|
 |Release 74|July 27, 2024|
 |Release 75|August 24, 2024|
 |Release 76|September 21, 2024|
