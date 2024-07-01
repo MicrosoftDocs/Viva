@@ -65,7 +65,7 @@ Trend for employee **Ben**
 
 ### Trend example: Manager hierarchy - manager
 
-:::image type="content" source="../../media/glint/setup/manager-hierarchy-manager.png" alt-text="Screenshot of a Manager hierarchy, manager trend example.":::
+:::image type="content" source="../../media/glint/setup/manager-hierarchy-manager.png" alt-text="Screenshot of a Manager hierarchy, manager in new role trend example.":::
 
 Trend for manager **David**
 
@@ -86,7 +86,7 @@ Trend for manager **David**
 
 ### Trend example: Manager hierarchy
 
-:::image type="content" source="../../media/glint/setup/manager-hierarchy-3.png" alt-text="Screenshot of a Manager hierarchy, manager trend example.":::
+:::image type="content" source="../../media/glint/setup/manager-hierarchy-3.png" alt-text="Screenshot of a Manager hierarchy, new manager trend example.":::
 
 **Survey 1**
 - Caroline is the manager for Team HR.
