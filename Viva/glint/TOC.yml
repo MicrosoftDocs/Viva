@@ -146,6 +146,7 @@ items:
         href: setup/customize-action-plans.md
       - name: Link Content Resources to Suggested Action templates
         href: setup/link-survey-item-action-template.md
+        items:
           - name: Embed videos
             href: setup/embedding-content-resources.md
       - name: Manage translations 
