@@ -1,5 +1,5 @@
 ---
-title: Manager trending in new role or team 
+title: Manager reporting access when changing team or role
 description: Viva Glint uses a "data follows the manager" approach. If a manager moves to a different team, recent survey scores go with them until the first survey cycle for their new team is available.
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,7 +16,7 @@ ms.localizationpriority: high
 ms.date: 07/01/2024
 ---
 
-# Manager trending in new role or team 
+# Manager reporting access when changing team or role
 
 Viva Glint uses a "data follows the manager" approach. If a manager moves to a different team, their recent survey scores go with them until the first survey cycle for their new team is available.
 
