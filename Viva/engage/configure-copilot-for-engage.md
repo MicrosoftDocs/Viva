@@ -43,7 +43,7 @@ For details on Microsoft Viva plans and pricing, visit the [Employee Experience 
 |**Process commands to Copilot**|User interactions with Copilot through chat collaboration are currently processed, but not stored, with services aligned to Data center regional elections (US/EU Region).|
 
 >[!NOTE]
->AI Summarization is a background service in Viva Engage premium which provides summarization services for Copilot and [Network analytics](/viva/engage/analytics#network-analytics). In Copilot, summarization services enhance its capabilities, such as conversation starters. In Network analytics, summarization services are used in network theme extraction, conversation summarization, and network sentiment analysis.
+>AI Summarization is a background service in Viva Engage premium which provides summarization services for Copilot and [Network analytics](/viva/engage/analytics#network-analytics). In Copilot, AI Summarization enhances certain capabilities, such as conversation starters. In Network analytics, AI Summarization is used in network theme extraction, conversation summarization, and network sentiment analysis.
 
 ## Control access to Copilot and AI Summarization services
 
