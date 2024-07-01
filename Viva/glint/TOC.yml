@@ -268,6 +268,8 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Manager reporting access when changing team or role
+            href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
           - name: Confidentiality and suppression
