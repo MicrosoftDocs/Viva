@@ -20,7 +20,7 @@ ms.date: 07/01/2024
 # Retroactive updates for employee trend reporting
 
 For data to follow the employee, a retroactive update needs to be applied to the previous program cycle. Scores are updated either at an attribute or global level to reflect today’s organizational structure. Considerations include:
- - Retroactive updates are not reversible.
+ - **Retroactive updates are not reversible and impact trend.**
  - Applies the current version of your HRIS attributes to the past surveys. *Exception: a change in an employees' status (ACTIVE to INACTIVE) doen't remove or update participation, headcount, or score. If someone is invited to take the survey, they are always part of that survey data.
 - If an employee participated in a survey cycle but is no longer ACTIVE for the current cycle, their response isn'tremoved. This 
 response still rolls up to their same manager from that cycle. 
@@ -28,7 +28,6 @@ response still rolls up to their same manager from that cycle.
 - Retroactive updates move all data to current hierarchical structures.  
 - In some cases, leaders may inherit lower scores; communication is recommended.
 - Past Action Plan recommendations aren't automatically updated based on the new data set.
-- Data is only visible when thresholds are met within a program cycle. Retroactive updates impact this rule when response data is shifted to a manager from past surveys.
 
 ## Retroactive update examples:
 
