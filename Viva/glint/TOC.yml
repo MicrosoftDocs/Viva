@@ -127,8 +127,6 @@ items:
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
-      - name: Set up Focus Area periods
-        href: setup/focus-area-period-feature.md
       - name: Use the Question Library
         href: setup/question-library.md
         items:
@@ -138,10 +136,17 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Focus Areas
         items:
-          - name: Customize Suggestion Action templates
-            href: setup/customize-action-plans.md
-          - name: Link Content Resources to Suggested Action templates
-            href: setup/link-survey-item-action-template.md
+          - name: Retroactive trend updates for employees
+            href: setup/retro-trend-updates.md
+          - name: Set up Focus Area periods
+            href: setup/focus-area-period-feature.md
+          - name: Managers creating Focus Areas
+            href: setup/focus-areas-managers-creating.md
+      - name: Suggestion Action templates
+        href: setup/customize-action-plans.md
+      - name: Link Content Resources to Suggested Action templates
+        href: setup/link-survey-item-action-template.md
+        items:
           - name: Embed videos
             href: setup/embedding-content-resources.md
       - name: Manage translations 
@@ -268,6 +273,8 @@ items:
         items:
           - name: Aggregate trend
             href: reports/aggregate-trending.md
+          - name: Manager reporting access when changing team or role
+            href: setup/manager-changing-team-role.md
           - name: Report customization
             href: reports/report-customization.md
           - name: Confidentiality and suppression
