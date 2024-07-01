@@ -21,20 +21,20 @@ ms.date: 06/28/2024
 
 Review your [Top Strengths and Top Opportunities](https://go.microsoft.com/fwlink/?linkid=2231207), suggested action templates and their resources before meeting with your team. Preparing for your team meeting is the best way to solicit insightful and productive Focus Areas to act on. 
 
->[!TIP]
->Work on one Focus Area at a time in order to ensure the maximum effort toward taking one step forward.
+> [!TIP]
+> Work on one Focus Area at a time in order to ensure the maximum effort toward taking one step forward.
 
 ## Prep for your team conversation
 
->[!NOTE]
->Admins can customize the names of terms such as “Focus Areas.” Your company may, for example, opt for this tab to read “Actions” or "Goals." Be aware that you may not see exactly the same wording on your tabs, section names, and text snippets as described in this guidance.
+> [!NOTE]
+> Admins can customize the names of terms such as “Focus Areas.” Your company may, for example, opt for this tab to read “Actions” or "Goals." Be aware that you may not see exactly the same wording on your tabs, section names, and text snippets as described in this guidance.
 
 There are two ways to enter the Focus Areas section:
 
 - From your Glint dashboard - Select the **Focus Areas** tab from the top menu bar and then **My Focus Areas** on the page that opens. 
 - From your [Manager Concierge](https://go.microsoft.com/fwlink/?linkid=2231115) timeline, if enabled. In Step 4 - Select **Choose a Focus Area.**  ​​​​​​
 
-**Review the Manager Quick Guide to Results and Conversation](https://go.microsoft.com/fwlink/?linkid=2273507).**
+**Review the [Manager Quick Guide to Results and Conversation](https://go.microsoft.com/fwlink/?linkid=2273507).**
 
 ### Select Focus Areas with your team
 
