@@ -102,6 +102,4 @@ Trend for manager **David**
 |----|------|
 |Scores stay intact for organizations and leaders|New Organizations don't trend|
 |Allows for accurate comparison from survey to survey. The scores represent a snapshot in time|Organizational restructure doesn't allow trend.| 
-|Manager hierarchy keeps historical trending 
-intact. If a manager joins another team, they take their 
-scores with them.||
+|Manager hierarchy keeps historical trending intact. If a manager joins another team, they take their scores with them.||
