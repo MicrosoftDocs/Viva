@@ -1,5 +1,5 @@
 ---
-title: Manager access in new role or team 
+title: Manager trending in new role or team 
 description: Viva Glint uses a "data follows the manager" approach. If a manager moves to a different team, recent survey scores go with them until the first survey cycle for their new team is available.
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,7 +16,7 @@ ms.localizationpriority: high
 ms.date: 07/01/2024
 ---
 
-# Manager access in new role or team 
+# Manager trending in new role or team 
 
 Viva Glint uses a "data follows the manager" approach. If a manager moves to a different team, their recent survey scores go with them until the first survey cycle for their new team is available.
 
@@ -33,6 +33,14 @@ A manager *changing* teams is automatically updated in the platform to their cur
 
 When data follows the manager, the data is always preserved within that survey cycle. The cycle is always available for review,
 regardless of organizational changes. Responses roll-up through the manager hierarchy so a manager's upline always sees the roll-up of all responses.
+
+>[!TIP]
+> Viva Glint recommends that trend follows the manager because:
+> - Survey results are frozen and apply the current organization and manager hierarchy during the survey window.
+> - When data follows the manager, the data is preserved. In the reporting platform, you can toggle to a previous program cycle and view the exact scores the manager saw. 
+in that time period regardless of future organizational changes.
+> - Historical scores stay the same for managers, reducing the potential for confusion. 
+> - If a retroactive update is applied, the previous data is no longer available.
 
 **When a manager views trend, it's based on any scores previously collected.**
 
@@ -96,10 +104,5 @@ Trend for manager **David**
 - Changes in organizational levels don't appear in data.
 - The new HR manager doesn't inherit Caroline's trend
 
-#### Pros and cons for trend following managers
 
-|Pros|Cons|
-|----|------|
-|Scores stay intact for organizations and leaders|New Organizations don't trend|
-|Allows for accurate comparison from survey to survey. The scores represent a snapshot in time|Organizational restructure doesn't allow trend.| 
-|Manager hierarchy keeps historical trending intact. If a manager joins another team, they take their scores with them.||
+
