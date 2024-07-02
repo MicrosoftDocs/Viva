@@ -203,8 +203,8 @@ items:
             href: setup/distress-survey.md
           - name: Set up a Viva Glint productivity survey
             href: setup/create-productivity-survey.md
-     - name: Set up recurring Engagement surveys
-       items:
+      - name: Set up recurring Engagement surveys
+        items:
           - name: Program Summary setup 
             href: setup/program-summary-overview.md
             items:
