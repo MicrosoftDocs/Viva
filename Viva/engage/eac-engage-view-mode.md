@@ -37,6 +37,8 @@ When a user is in view-only mode, they have **no access** to the following featu
 
 - Content sharing between storylines or communities (public or private)
 
+View-only mode applies to delegators and their delegates. If the delegator is in view-only mode, their delegates won't see the information banner.
+
 ## Manage users in view-only mode
 
 Admins can set view-only mode from the Engage admin center. This control works by assigning specific users to view-only mode. Once assigned, a user remains in view-only mode until removed at the admin's discretion. Engage admins can add or remove view-only mode for a user at any time.
@@ -60,6 +62,8 @@ While view-only mode only affects the user's experience and privileges in Engage
 **To unassign a user from view-only mode:**
 
 - In the **View-only mode** list, select the trash icon next to the user's name.
+
+View-only mode doesn't apply to Viva Engage admin roles. Consider removing a user’s admin role prior to activating view-only mode.
 
 >[!NOTE]
 >When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find another way to communicate this change to users if needed.
