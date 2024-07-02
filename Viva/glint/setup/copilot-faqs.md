@@ -15,7 +15,6 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 06/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Copilot in Viva Glint FAQs (preview)
