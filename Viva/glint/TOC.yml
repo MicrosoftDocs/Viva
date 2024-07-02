@@ -227,19 +227,19 @@ items:
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic
                     href: setup/viva-glint-display-logic.md
-             - name: Reporting setup
-               href: setup/reporting-setup.md
-               items:
-                 - name: Grant Live versus Phased access
-                   href: setup/live-versus-phased-access.md
-             - name: Communications setup 
-               href: setup/program-summary-communications.md
-               items:
-                 - name: Customize survey email content
-                   href: setup/email-content-customization.md            
-             - name: Coaching setup 
-               href: setup/program-summary-coaching.md
-               items:         
+              - name: Reporting setup
+                href: setup/reporting-setup.md
+                items:
+                  - name: Grant Live versus Phased access
+                    href: setup/live-versus-phased-access.md
+              - name: Communications setup 
+                href: setup/program-summary-communications.md
+                items:
+                  - name: Customize survey email content
+                    href: setup/email-content-customization.md            
+              - name: Coaching setup 
+                href: setup/program-summary-coaching.md
+                items:         
                   - name: Team Conversations resource guidance
                     href: reports/team-conversations-resource-guidance.md  
       - name: Set up Employee Lifecycle surveys
