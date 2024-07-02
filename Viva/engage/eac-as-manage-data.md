@@ -88,9 +88,7 @@ This data export doesn't include:
 ## Export tenant data by date range
 
 >[!IMPORTANT]
->If you're on a large network (10,000 or more users) and experience time-out errors, we recommend that you take the following steps when running a network export job: 
-- Choose hours outside of standard operating hours.
-- Limit the date range to no more than one month.
+>If you're on a large network (10,000 or more users) and experience time-out errors when running a network export job, we recommend that you: choose hours outside of standard operating hours to export, and limit the date range to no more than one month.
 
 1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
