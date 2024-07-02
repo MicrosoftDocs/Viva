@@ -175,6 +175,8 @@ items:
         href: setup/customize-program.md
       - name: Plan for monthly releases
         href: setup/monthly-release-dates.md
+      - name: Survey Coach and Tooltips
+        href: setup/survey-coach.md   
       - name: Use validated templates
         items:
           - name: People Science template design
@@ -217,15 +219,14 @@ items:
               - name: Questions setup 
                 href: setup/questions-setup.md
                 items:
-                 - name: Add items and sections
-                   href: setup/add-new-questions.md
-                 - name: Change item IDs
-                   href: setup/change-item-id.md
-                 - name: Target survey items
-                   href: setup/targeted-survey-items.md
-                 - name: Add item Display Logic
-                   href: setup/viva-glint-display-logic.md
-                 - name: Survey Coach and Tooltips
+                  - name: Add items and sections
+                    href: setup/add-new-questions.md
+                  - name: Change item IDs
+                    href: setup/change-item-id.md
+                  - name: Target survey items
+                    href: setup/targeted-survey-items.md
+                  - name: Add item Display Logic
+                    href: setup/viva-glint-display-logic.md
              - name: Reporting setup
                href: setup/reporting-setup.md
                items:
@@ -239,8 +240,6 @@ items:
              - name: Coaching setup 
                href: setup/program-summary-coaching.md
                items:         
-                  - name: Survey Coach and Tooltips
-                    href: setup/survey-coach.md
                   - name: Team Conversations resource guidance
                     href: reports/team-conversations-resource-guidance.md  
       - name: Set up Employee Lifecycle surveys
