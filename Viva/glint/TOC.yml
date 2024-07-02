@@ -94,10 +94,10 @@ items:
                  href: setup/upload-employee-attributes.md
       - name: Survey access methods
         href: setup/understand-survey-access-methods.md  
-  - name: Establish foundational features
+  - name: Platform features
     href: setup/platform-features-settings.md
     items: 
-      - name: Manage General Settings 
+      - name: General Settings 
         href: setup/manage-general-settings.md
         items: 
             - name: Attribute-based survey access
@@ -106,7 +106,7 @@ items:
               href: setup/time-zones.md
             - name: Post-survey learning
               href: setup/post-survey-learnings.md
-      - name: People page features
+      - name: People page
         href: setup/people-page.md
         items:  
             - name: Manage external users 
@@ -115,43 +115,46 @@ items:
               href: setup/export-user-roles.md
             - name: Delete user data 
               href: setup/delete-user-data.md
-      - name: Set up Distribution Lists 
+      - name: Distribution Lists 
         href: setup/set-up-distribution-lists.md
         items:
             - name: Import users
               href: setup/import-members-distribution-lists.md
             - name: Export users
               href: setup/export-distribution-lists.md
-      - name: Set up User Roles
+      - name: User Roles
         href: setup/set-up-user-roles.md
         items:
             - name: Custom User Roles
               href: setup/custom-user-role.md
-      - name: Use the Question Library
+      - name: Question Library
         href: setup/question-library.md
         items:
             - name: Question mapping
               href: setup/question-mapping.md
-      - name: Encourage action with Nudges
+      - name: Nudges
         href: communicate/communicate-with-nudges.md
       - name: Focus Areas
         items:
-          - name: Set up Focus Area periods
-            href: setup/focus-area-period-feature.md
           - name: Managers creating Focus Areas
             href: setup/focus-areas-managers-creating.md
+          - name: Set up Focus Area periods
+            href: setup/focus-area-period-feature.md
+          - name: Retroactive trend updates for employees
+            href: setup/retro-trend-updates.md
       - name: Suggestion Action templates
         href: setup/customize-action-plans.md
-      - name: Link Content Resources to Suggested Action templates
-        href: setup/link-survey-item-action-template.md
+      - name: Content Resources
         items:
+          - name: Link Content Resources to Suggested Action templates
+            href: setup/link-survey-item-action-template.md
           - name: Embed videos
             href: setup/embedding-content-resources.md
       - name: Manage translations 
         href: setup/language-translations.md
       - name: Character limits
         href: setup/survey-character-limits.md
-      - name: Use Advanced Configuration
+      - name: Advanced Configuration
         href: setup/understand-advanced-configuration.md
         items: 
             - name: Import historical data 
@@ -175,6 +178,8 @@ items:
         href: setup/customize-program.md
       - name: Plan for monthly releases
         href: setup/monthly-release-dates.md
+      - name: Survey Coach and Tooltips
+        href: setup/survey-coach.md   
       - name: Use validated templates
         items:
           - name: People Science template design
@@ -193,16 +198,6 @@ items:
             href: setup/manager-effectiveness-survey.md
           - name: Patient safety survey
             href: setup/patient-safety-survey.md
-      - name: Set up Employee Lifecycle surveys
-        items:
-          - name: Create an onboarding survey 
-            href: setup/create-onboarding-exit-surveys.md
-          - name: Create an exit survey
-            href: setup/exit.survey.md
-          - name: Set up Employee Lifecycle surveys
-            href: setup/program-summary-setup-lifecycle.md
-          - name: Preview and filter a Lifecycle survey
-            href: setup/preview-filter-lifecycle-programs.md 
       - name: Set up non-templated surveys
         items:
           - name: Set up a Microsoft Viva Glint Magnet survey
@@ -211,50 +206,67 @@ items:
             href: setup/distress-survey.md
           - name: Set up a Viva Glint productivity survey
             href: setup/create-productivity-survey.md
-      - name: Set up Engagement surveys
-        href: setup/program-summary-overview.md
+      - name: Set up recurring Engagement surveys
         items:
-          - name: Understand programs and cycles
-            href: setup/program-cycle-edits.md   
-          - name: Program setup 
-            href: setup/program-set-up.md
-          - name: Distribution setup 
-            href: setup/distribution-program-summary.md
-          - name: Schedule setup
-            href: setup/schedule-setup.md
-          - name: Questions setup 
-            href: setup/questions-setup.md
+          - name: Program Summary setup 
+            href: setup/program-summary-overview.md
             items:
-              - name: Add items and sections
-                href: setup/add-new-questions.md
-              - name: Change item IDs
-                href: setup/change-item-id.md
-              - name: Target survey items
-                href: setup/targeted-survey-items.md
-              - name: Add item Display Logic
-                href: setup/viva-glint-display-logic.md
-              - name: Survey Coach and Tooltips
-                href: setup/survey-coach.md   
-          - name: Reporting setup
-            href: setup/reporting-setup.md
+              - name: Understand programs and cycles
+                href: setup/program-cycle-edits.md   
+              - name: Program setup 
+                href: setup/program-set-up.md
+              - name: Distribution setup 
+                href: setup/distribution-program-summary.md
+              - name: Schedule setup
+                href: setup/schedule-setup.md
+              - name: Questions setup 
+                href: setup/questions-setup.md
+                items:
+                  - name: Add items and sections
+                    href: setup/add-new-questions.md
+                  - name: Change item IDs
+                    href: setup/change-item-id.md
+                  - name: Target survey items
+                    href: setup/targeted-survey-items.md
+                  - name: Add item Display Logic
+                    href: setup/viva-glint-display-logic.md
+              - name: Reporting setup
+                href: setup/reporting-setup.md
+                items:
+                  - name: Grant Live versus Phased access
+                    href: setup/live-versus-phased-access.md
+              - name: Communications setup 
+                href: setup/program-summary-communications.md
+                items:
+                  - name: Customize survey email content
+                    href: setup/email-content-customization.md            
+              - name: Coaching setup 
+                href: setup/program-summary-coaching.md
+                items:         
+                  - name: Team Conversations resource guidance
+                    href: reports/team-conversations-resource-guidance.md  
+      - name: Set up Employee Lifecycle surveys
+        items:
+          - name: Program Summary for Employee Lifecycle surveys
+            href: setup/program-summary-setup-lifecycle.md
+          - name: Create an onboarding survey 
+            href: setup/create-onboarding-exit-surveys.md
+          - name: Create an exit survey
+            href: setup/exit.survey.md
+          - name: Preview and filter a Lifecycle survey
+            href: setup/preview-filter-lifecycle-programs.md 
+      - name: Set up Team Conversations
+        href: reports/team-conversations-administrator-setup.md
+        items:
+          - name: The ACT framework and Team Conversations
+            href: reports/take-action-team-conversations.md
             items:
-             - name: Grant Live versus Phased access
-               href: setup/live-versus-phased-access.md
-          - name: Communications setup 
-            href: setup/program-summary-communications.md
-            items:
-             - name: Customize survey email content
-               href: setup/email-content-customization.md            
-          - name: Coaching setup 
-            href: setup/program-summary-coaching.md
-            items:
-             - name: Team Conversations resource guidance
-               href: reports/team-conversations-resource-guidance.md
-          - name: Set up Team Conversations
-            href: reports/team-conversations-administrator-setup.md
-            items:
-             - name: Customize Team Conversations email content
-               href: reports/team-conversations-content-cusomization.md          
+              - name: Use Team Conversations
+                href: reports/managers-sharing-team-conversations.md
+              - name: Team Conversations presentation kit
+                href: reports/coaching-team-conversations.md
+              - name: Customize Team Conversations email content
+                href: reports/team-conversations-content-cusomization.md 
       - name: Review surveys before launch
         items:
           - name: Review surveys before launch
@@ -339,13 +351,7 @@ items:
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
-          - name: The ACT framework and Team Conversations
-            href: reports/take-action-team-conversations.md
-            items:
-              - name: Use Team Conversations
-                href: reports/managers-sharing-team-conversations.md
-              - name: Team Conversations presentation kit
-                href: reports/coaching-team-conversations.md
+          
           - name: Submit product feedback
             href: setup/glint-product-feedback.md
   - name: Take action as an admin
