@@ -30,7 +30,7 @@ The **Mute user** option doesn’t prevent the user from creating content, nor d
 
 ## How does the user’s experience change?
 
-When a user’s account is in muted status, the user receives no notification of this change. Their posted thread starters are removed from the Home feed, storylines feed, and email digests. Their posted comments and replies remain in these locations.
+When a user’s account is in muted status, the user receives no notification of this change. Their posted thread starters are removed from the Home feed, storylines feed, and email digests. Any posted comments and replies they have in these locations will remain.
 
 Followers of the muted user’s account continue to get notifications of the muted user’s posts and see their thread starters in the Home feed, storylines feed, and email digests. All other users (nonfollowers) can only see a muted user’s content by visiting the muted user’s storyline or the communities they belong to.
 
