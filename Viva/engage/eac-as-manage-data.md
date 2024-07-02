@@ -23,7 +23,7 @@ search.appverid:
 
 ## Export Data
 
-As an Engage administrator, you often need to export data to manage users and content. This article explains the different options available to help you manage usage, compliance, and discovery.
+Engage administrator often need to export data to manage users and content. This article explains the different options available to help you manage usage, compliance, and discovery.
 
 >[!NOTE]
 >To migrate data between Viva Engage tenants, [learn about migrating content](/viva/engage/configure-your-viva-engage-network/add-basic-domains-to-office-365).
@@ -88,7 +88,9 @@ This data export doesn't include:
 ## Export tenant data by date range
 
 >[!IMPORTANT]
->We recommend that customers with large networks (approximately 5000 or more users) choose hours outside of standard business hours and limit the date range to one month maximum (or both) when running a data export job to prevent time-out and other errors.
+>If you're on a large network (10,000 or more users) and experience time-out errors, we recommend that you take the following steps when running a network export job: 
+- Choose hours outside of standard operating hours.
+- Limit the date range to no more than one month.
 
 1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
