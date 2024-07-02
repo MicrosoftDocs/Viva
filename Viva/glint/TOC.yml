@@ -136,8 +136,6 @@ items:
         href: communicate/communicate-with-nudges.md
       - name: Focus Areas
         items:
-          - name: Retroactive trend updates for employees
-            href: setup/retro-trend-updates.md
           - name: Set up Focus Area periods
             href: setup/focus-area-period-feature.md
           - name: Managers creating Focus Areas
@@ -160,6 +158,9 @@ items:
               href: setup/import-historical-response-data.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
+              items: 
+                - name: Retroactive trend updates for employees
+                  href: setup/retro-trend-updates.md
             - name: Use Data Apps
               href: setup/glint-data-apps.md
             - name: Use Uploads
