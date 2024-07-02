@@ -15,7 +15,6 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 06/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Data, privacy, and security compliance for Copilot in Viva Glint (preview)
