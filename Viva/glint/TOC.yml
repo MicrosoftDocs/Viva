@@ -161,6 +161,9 @@ items:
               href: setup/import-historical-response-data.md
             - name: Update data in reports
               href: setup/update-glint-reporting-data.md
+              items: 
+                - name: Retroactive trend updates for employees
+                  href: setup/retro-trend-updates.md
             - name: Use Data Apps
               href: setup/glint-data-apps.md
             - name: Use Uploads
