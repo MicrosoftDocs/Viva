@@ -88,7 +88,7 @@ This data export doesn't include:
 ## Export tenant data by date range
 
 >[!IMPORTANT]
->We recommend that customers with large networks with 5000 or more users run export jobs outside of business hours or limit the date range to one month maximum (or both) to prevent errors.
+>We recommend that customers with large networks (approximately 5000 or more users) choose hours outside of standard business hours and limit the date range to one month maximum (or both) during data export to prevent time-out and other errors.
 
 1. On the Data export page, select **Export tenant data**.
 2. Specify a date range and other options.
