@@ -9,13 +9,14 @@ f1.keywords: NOCSH
 keywords: 
 ms.collection:  
 - m365initiative-viva
-- selfserve 
+- selfserve
+- viva-copilot
+- magic-ai-copilot
 search.appverid: MET150 
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 06/29/2024
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Copilot in Viva Glint FAQs (preview)
