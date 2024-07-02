@@ -22,9 +22,9 @@ description: "Engage admins can reduce the number of places where a user's post 
 # Reduce visibility of a user's posts in Viva Engage (Private Preview)
 
 >[!IMPORTANT]
->The Mute user option in Viva Engage is currently available only for private preview customers. The features described here are subject to change.
+>This Viva Engage feature is currently available only for private preview customers. The features described here are subject to change.
 
-The **Mute user** option lets Engage admins and network admins remove a user’s thread starters from a Viva Engage network's Home feed and storylines feed, and from future email digests. A *thread starter* is defined as the original post (question, conversation, article, poll, or praise) that a user publishes in Viva Engage.
+Engage admins and network admins can use the Viva Engage **Mute user** option to remove a user’s thread starters from the network's Home feed and storylines feed, and from future email digests. A *thread starter* is defined as the original post (question, conversation, article, poll, or praise) that a user publishes in Viva Engage.
 
 The **Mute user** option doesn’t prevent the user from creating content, nor does it hide the user’s content from communities or storylines. Muting simply reduces the user’s visibility by removing thread starters from discovery surfaces.
 
