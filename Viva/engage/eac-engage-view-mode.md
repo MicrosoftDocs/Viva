@@ -1,7 +1,6 @@
 ---
 title: "Manage user privileges with view-only mode in Viva Engage"
 description: "View-only mode lets Viva Engage admins remove content creation privileges from users when the need arises."
-ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
@@ -66,7 +65,7 @@ While view-only mode only affects the user's experience and privileges in Engage
 View-only mode doesn't apply to Viva Engage admin roles. Consider removing a user’s admin role prior to activating view-only mode.
 
 >[!NOTE]
->When you add or remove a user to view-only mode, the feature doesn't send a notification or inform the user that their Viva Engage network access has changed. Therefore, admins must find another way to communicate this change to users if needed.
+>When you set a user's account to view-only mode, the user isn't notified that their Viva Engage network access has changed. Therefore, admins must find another way to communicate this change to users, if needed.
 
 ## Track activity in the Microsoft 365 user audit log
 
