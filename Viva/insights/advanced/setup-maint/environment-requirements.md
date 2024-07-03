@@ -1,6 +1,6 @@
 ---
 
-ms.date: 03/19/2024
+ms.date: 07/03/2024
 title: Environment requirements for Viva Insights
 description: Describes the environment requirements for using Microsoft Viva Insights
 author: zachminers
@@ -155,11 +155,9 @@ Other channels such as Cloud Solution Provider (CSP) don't support the addition 
 
 |  Type  | Notes |  
 |---- | ---- |
-|Government | Government Community Cloud (GCC) supports personal insights only. |
 |Education | Supported only for the analysis of faculty at this time, not for students. |
 |Commercial | You can add Viva Insights with commercial enrollments. |
 |Non-profit | Viva Insights can be used by nonprofits but non-profit pricing isn't available. |
-|First-line workers | Viva Insights doesn't support analysis of first-line workers that use Microsoft Firstline Worker SKUs (F1, F3, F5) at this time. |
 
 ## Tenant environments
 
