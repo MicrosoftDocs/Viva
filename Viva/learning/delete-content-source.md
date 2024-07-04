@@ -63,7 +63,7 @@ Currently, there's no experience in Viva Learning admin tab to inform about the 
 
 **When can I reconfigure a provider?**
 
-You can reconfigure the learning management system  and SharePoint immediately after deletion. Viva Learning starts a full sync once reconfigured.
+You can reconfigure the learning management system immediately after deletion. Viva Learning starts a full sync once reconfigured.
   
 > [!NOTE]
 > For other learning sources, reconfiguring the provider with the same parameters before deletion is complete can bring back the old data. Contact Viva Learning team to confirm the data deletion stage.
