@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/29/2024
+ms.date: 07/02/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -240,7 +240,7 @@ This report should be created from the primary Admin account of Workday to avoid
 
      | Business object| Field | Column heading override| Column heading override XML alias|
      | --- | ---- | ---- | --- |
-     | Learning content | Workday ID | LearningObjectID| Learning Object ID|
+     | Learning content | Workday ID | LearningObjectId | LearningObjectId|
      | Learning Content | Title | Title | Title |
      | Learning Content | Description | Description | Description |
      | Learning Content | Link to Learning content | DeepLinkUrl | DeepLinkUrl |
@@ -511,7 +511,6 @@ This report should be created from the primary Workday admin account to avoid an
        | Learning Content Detail | Workday ID | LearningObjectId | LearningObjectId |
        | Learning Enrollment | Completion Status | CompletionStatus | CompletionStatus |
        | Learning Enrollment | Completion Date | CompletionDate | CompletionDate |
-       | Learning Enrollment | Record Start Date | StartDate | StartDate | 
 
        ![Screenshot of the Workday self enrollment report](/Viva/media/learning/workday-self-enrollment-report.png)
 
