@@ -3,7 +3,7 @@ title: Manage Viva Glint confidentiality thresholds
 description: Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: privacy, confidentiality threshold, survey threshold, overall threshold, suppression
@@ -140,7 +140,7 @@ To edit threshold values:
 
 Viva Glint Always-On and Lifecycle surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
 
-## Lower thresholds for identifiable surveys
+### Lower thresholds for identifiable surveys
 
 > [!IMPORTANT]
 > Admins need to make these edits **before** a survey launches.
