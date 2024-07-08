@@ -19,6 +19,9 @@ audience: Admin
 
 # Microsoft 365 Copilot impact report
 
+>[!Important]
+>This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+
 The **Microsoft 365 Copilot impact** report helps leaders understand the impact of Copilot usage among employees across their organization. The insights can help you evaluate the relationship between Copilot adoption and collaboration patterns. It also spotlights the total number of hours employees were “assisted” by Copilot in their daily work.
 
 The report summary page provides an overview of the total number of active Copilot users, the total number of Copilot actions taken, and the number of Copilot assisted hours. From here the user can dive deeper into the following five sections:  
