@@ -47,7 +47,7 @@ Setup follows the same process as any other community. However, this templatized
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses _must be present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator who's setting up the community.
 
-:::image type="content" source="../media/engage/admin/engage-copilot-adoption-new-community.png" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
+:::image type="content" source="../media/engage/admin/engage-top-questions-community.png" alt-text="Screenshot shows what Copilot adoption community page looks like.":::
 
 ## Explore tools to build membership, content, and engagement
 

@@ -11,7 +11,9 @@ ms.date: 1/22/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
-ms.collection: m365initiative-viva-pulse  
+ms.collection:
+- m365initiative-viva-pulse
+- essentials-security  
 search.appverid: MET150
 ---
 
