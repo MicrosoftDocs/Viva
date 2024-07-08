@@ -138,7 +138,7 @@ To edit threshold values:
 
 ## Identifiable surveys
 
-Viva Glint Always-On and Lifecycle surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for this survey type, which has typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
+Viva Glint Always-On and Lifecycle surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
 
 ## Lower thresholds for identifiable surveys
 
