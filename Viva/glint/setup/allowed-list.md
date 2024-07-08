@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/30/2024
+ms.date: 07/08/2024
 ---
 
 # Review allowed list information for Viva Glint
@@ -33,13 +33,13 @@ Viva Glint emails come from one of the domains listed here. Add the following do
 
 ### United States (US) and European Union (EU):
 
-- glint.microsoft.com - Survey Notifications
+- glint.microsoft.com and glint.mail.microsoft.com - Survey Notifications
 - microsoft.com - Microsoft Email Communications
 - email1.microsoft.com - Newsletter and Product Updates
 
 ### Glint survey and system emails originate from:
 
-- US and EU: **no-reply@glint.microsoft.com** and **no-reply@glint.mail.microsoft**
+- US and EU: **no-reply@glint.microsoft.com** and **no-reply@glint.mail.microsoft.com**
 
 ## Take other steps to ensure email delivery
 

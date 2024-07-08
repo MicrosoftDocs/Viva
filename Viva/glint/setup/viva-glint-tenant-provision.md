@@ -113,9 +113,9 @@ Control whether users in your organization can submit in-product feedback for Vi
 - [Manage Microsoft feedback for your organization](/microsoft-365/admin/manage/manage-feedback-ms-org)
 - [Overview of Cloud Policy service for Microsoft 365](/deployoffice/admincenter/overview-cloud-policy)
   
-## Use Microsoft FastTrack for more support 
+## Use Microsoft FastTrack for deployment support 
 
-Microsoft FastTrack can provide help with Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
+Microsoft FastTrack can provide help with deployment of Microsoft Viva foundational products and capabilities - at no extra cost for the life of your eligible subscription. 
 
 - [Check your eligibility](/microsoft-365/fasttrack/eligibility) for Microsoft FastTrack support.
 - If you’re already registered for Microsoft FastTrack and need support, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva).
