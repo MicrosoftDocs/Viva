@@ -66,7 +66,7 @@ Access **Content Resources** from the *Action Taking* section on your admin dash
 1. From the admin dashboard, select **Configuration** and then in **Action Taking,** choose **Content Resources**. 
 1. Select **+ New**. 
 1. Select **OK** to confirm that you understand that adding a new resource adds it for all program languages.
-   1. To modify text for translations, select each lanuage from the dropdown menu in the Content Resource.
+   1. To modify text for translations, select each language from the dropdown menu in the Content Resource.
 1. Add a title in the **Untitled Resource** and **Title** sections. 
 1. In the **Resource Type** dropdown menu, select **Rich Text**.
 2. Add a short summary of the resource in the **Description** section.
