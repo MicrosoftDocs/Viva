@@ -63,13 +63,18 @@ Access **Content Resources** from the *Action Taking* section on your admin dash
 
 :::image type="content" source="../../media/glint/setup/add-content-resource.png" alt-text="Screenshot of the **+ New** button for access to add new content resources.":::
 
-1. From the admin dashboard, select **Configure** and then **Content Resources**. 
+1. From the admin dashboard, select **Configuration** and then in **Action Taking,** choose **Content Resources**. 
 1. Select **+ New**. 
-1. Select **OK** to indicate that you understand that adding a new resource, adds it for all program languages. 
-1. Add a title in the *Untitled Resource* section.
-1. select the **Resource Type** from the dropdown menu, and add a description. 
-1. Follow on-screen guidance for adding the resource. 
-1. Select **Save**.
+1. Select **OK** to confirm that you understand that adding a new resource adds it for all program languages.
+   1. To modify text for translations, select each lanuage from the dropdown menu in the Content Resource.
+1. Add a title in the **Untitled Resource** and **Title** sections. 
+1. In the **Resource Type** dropdown menu, select **Rich Text**.
+2. Add a short summary of the resource in the **Description** section.
+1. In the **Rich Text** field, select **External Link** from the **Insert** dropdown menu. 
+1. Enter the link in the **Url** field and enter a **Label** and **Title**.
+2. Select **OK**.
+3. Preview the link in the right edit pane and ensure that the right page appears when the link is selected.
+2. Select **Save** and then select **Publish**.
 
 :::image type="content" source="../../media/glint/setup/resource-identify-custom.png" alt-text="Screenshot of the window that opens to name and identify a new content resource.":::
 
