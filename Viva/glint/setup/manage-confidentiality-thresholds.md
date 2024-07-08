@@ -28,7 +28,7 @@ For a deeper understanding of how confidentiality and suppression appear in Viva
 
 ## Understand confidentiality thresholds
 
-Threshold settings determine how items scores, response rates, and comments display in Glint reporting. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds for confidential surveys where the default threshold to display scores is five (5) but can be adjusted ((to as low as three (3)responses.))
+Threshold settings determine how items scores, response rates, and comments display in Glint reporting. Read threshold descriptions to understand each setting and determine if and how to adjust thresholds for confidential surveys where the default threshold to display scores is five (5) but can be adjusted (to as low as three (3) responses.)
 
 ### Rated question scores
 
