@@ -146,7 +146,10 @@ The rest of the summary page presents a set of five cards with the total number 
 The structure of each of these pages is the same for the deep dive into meetings, email, Teams chat, Documents, and Copilot work (chat), but the types of Copilot and behavioral metrics shown differs. In the next section we will walk through the structure of each of these pages.
 
 ##### Compare Copilot usage and collaboration behavior after Copilot adoption 
-This page shows the impact of Copilot usage on employees’ collaboration behavior. In the meetings section, for example, you can evaluate the number and duration of meetings that were summarized with Copilot. You can also learn how meeting behavior has changed for employees after adopting Copilot. For this analysis, it’s important that your query includes the time period in which employees in your company first started using Copilot.
+This page shows the impact of Copilot usage on employees’ collaboration behavior. In the meetings section, for example, you can evaluate the number and duration of meetings that were summarized with Copilot. You can also learn how meeting behavior has changed for employees after adopting Copilot.
+
+>[!Important]
+>To accurately capture the first time employees began using Copilot in different apps, make sure your query includes the time period in which your company first started using Copilot. For example, if your company enabled Copilot in January 2024, make sure data going back to January 2024 is included in the query.
 
 ##### Compare collaboration behavior between Copilot and non-Copilot users across groups 
 This page compares meeting behavior between users who have a Copilot license and use Copilot features, and those who don’t use any Copilot features or don’t have a Copilot license. Specifically, the following types of employee segments can be selected and compared across groups:
