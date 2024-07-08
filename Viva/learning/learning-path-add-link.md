@@ -28,6 +28,9 @@ Viva Learning supports the following document types, when adding content from Sh
 - [Linked objects](#add-linked-objects)
 
 > [!NOTE]
+> Due to ongoing product issue Viva Learning is unable to support video (.avi) document type. Post resolution of the issue the documnet type will continue to be supported.
+
+> [!NOTE]
 > - You need a Viva Suite or Viva Learning license to add link to content.   
 > - This content isn't searchable in Viva Learning. 
 > - The default language for this content is the one set by your organization's admin.  
