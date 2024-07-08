@@ -59,7 +59,7 @@ Use the following information to edit a live survey. The information is broken o
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. |Survey item rephrasing propogates to future programs only. A live program is not affected by any edit.|
+| Question text | The phrasing of a question needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
 | Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
 | Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
 
