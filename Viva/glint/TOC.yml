@@ -172,6 +172,16 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
+  - name: Copilot in Viva Glint
+    items:
+      - name: Intro and admin setup
+        href: copilot/copilot-admin-intro.md
+      - name: Copilot data, privacy, and security
+        href: setup/copilot-privacy.md
+      - name: Managers using Copilot
+        href: setup/copilot-managers.md
+      - name: Copilot FAQs
+        href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
       - name: Set up and customize programs
