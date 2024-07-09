@@ -24,55 +24,52 @@ HR analysts and other leaders in your organization can bring Microsoft Viva Glin
 
 >[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
 
->[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
-
-## Workflow overview 
-
-1. The Viva Insights admin sets up a new import in the advanced insights app. 
-
-1. The Viva Glint admin selects specific survey programs and sends the data to Viva Insights. 
-
-1. Viva Insights validates and processes the data. 
-
 ## What data can be sent to Viva Insights?
-Data that can be sent:
-- Data from recurring or ad-hoc surveys with confidentiality thresholds equal to or above the Viva Glint default of five respondents.
-- Rating item scores, but no comments.
-- All Viva Glint languages supported for question labels (names) and question text are sent to Viva Insights Power BI.
+
+>[!IMPORTANT]
+>By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within Microsoft Viva Insights.
 
 This consent screen will display the first time you begin this integration. You must **Agree to terms** before moving forward.
 
 :::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
 
+Data that can be sent:
+- Data from recurring or ad-hoc surveys with [confidentiality thresholds[(https://go.microsoft.com/fwlink/?linkid=2270865) equal to or above the Viva Glint default of five respondents.
+- Rating item scores, but no comments.
+- All Viva Glint languages supported for question labels (names) and question text are sent to Viva Insights Power BI.
+
 > [!NOTE]
 > Global admins cannot include Works Council employee data in the Viva Insights integration.  
 
-> [!IMPORTANT]
-> By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within Microsoft Viva Insights.
+## Workflow overview 
+
+1. The Viva Insights admin sets up a new import in the advanced insights app. 
+1. The Viva Glint admin selects specific survey programs and sends the data to Viva Insights. 
+1. Viva Insights validates and processes the data. 
 
 ## Set up the Viva Insights integration from your admin dashboard
 
-After the Viva Insights admin sets up the import and contacts you that the process is ready for you to share Viva Glint survey data, follow these steps:
+The Viva Insights admin sets up the import and contacts you to verify that the process is ready for you to share Glint survey data.
 
 1. From your Glint admin dashboard, select the **Configure symbol** and then **Viva Insights** from the *Microsoft Viva Integrations* section.
 
    :::image type="content" source="../../media/glint/setup/microsoft-viva-integrations-dashboard.png" alt-text="Screenshot of accessing the Viva Insights configuration feature from the admin dashboard.":::
 
-2. If you’d like, use the **Learn More** button for more information about the integration.
+2. Use the **Learn More** button for more information about the integration.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-setup-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
+3. Select **Set up integration** from the **Send Data to Viva Insights** section.
 
+  :::image type="content" source="../../media/glint/setup/glintsights-setup-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
+   
 ## Sending and managing data
 
-This guidance is for the initial sending of data to Insights.
+This guidance is for the initial sending of data to Insights only.
 
-1. On the *Send Data to Viva Insights* page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
+1. On the **Send Data to Viva Insights** page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
 
    :::image type="content" source="../../media/glint/setup/glintsights-select-programs-v2.png" alt-text="Screenshot of the Send data to Viva Insights button.":::
 
-2. Select **Send data to Viva Insights.**
-
-   You see this confirmation:
+2. Select **Send data to Viva Insights.** You see this confirmation:
 
    :::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png" alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
 
@@ -92,15 +89,16 @@ This guidance is for the initial sending of data to Insights.
 
 4. A message confirms that your program or programs have been added. 
 
-5. Be sure that the name of the program you added now appears under Programs on the Send data to Viva Insights page.
+5. Be sure that the name of the program you added appears under **Programs** on the **Send data to Viva Insights** page.
    
 > [!IMPORTANT]
-> Selecting a program sends data for every closed program cycle and automatically sends data for future cycles. In Viva Insights, you’ll be able to map which program data to display on the Viva Insights dashboard.
+> Selecting a program sends data for every closed program cycle and automatically sends data for future cycles. In Viva Insights, map which program data to display on the Viva Insights dashboard.
 
 ### Data validation and processing
 
-After sending data from Viva Glint, the Insights app validates it and provides status messages about the import. 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](/microsoft-365/admin/get-help-support).
+After sending data from Viva Glint, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors.](https://go.microsoft.com/fwlink/?linkid=2271038), 
+
+f processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-support?view=o365-worldwide).
 
 ## Glint data deletions result in Insights data deletion
 
@@ -117,3 +115,7 @@ After sending data to Viva Insights, you can continue to manage your integration
 2. Hover over the ellipses next to the program to reveal the actions available. Select Remove program.
 
    :::image type="content" source="../../media/glint/setup/glintsights-remove-program-v2.png" alt-text="Screenshot of how to remove programs.":::
+
+
+
+>[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
