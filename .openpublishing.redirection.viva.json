@@ -1041,7 +1041,7 @@
 	    },
         {
             "source_path": "Viva/engage/eac-get-started.md",
-            "redirect_url": "/viva/engage/setup",
+            "redirect_url": "/viva/engage/eac-overview",
             "redirect_document_id": false
         },
         {
@@ -1053,6 +1053,11 @@
             "source_path": "viva/glint/setup/retro-trend-updates.md",
             "redirect_url": "setup/manager-changing-team-role",
             "redirect_document_id": false
-        }   
+        },   
+        {
+            "source_path": "viva/engage/eac-as-access-eac.md",
+            "redirect_url": "/viva/engage/eac-overview",
+            "redirect_document_id": false
+        }
     ]
 }

@@ -8,7 +8,7 @@ ms.date: 01/08/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:

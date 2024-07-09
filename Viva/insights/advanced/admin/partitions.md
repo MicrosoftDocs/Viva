@@ -15,6 +15,8 @@ audience: Admin
 
 # Partitions in Viva Insights
 
+*Applies to: Insights Administrator*
+
 Partitions are analyst workspaces that only contain certain employee data and attributes. In a partition, analysts can only create queries based on the data in that partition.
 
 You can think of partitions like buckets. Each bucket (partition) contains a certain scoop of data from the reservoir (your entire dataset, also known as the **global partition**). For example, one bucket might only contain data from employees who work in your company’s marketing division.
@@ -24,6 +26,8 @@ As the Insights Administrator (admin), you assign analysts to one or more bucket
 Or maybe you create a bucket just for employees in your company’s US offices. Let’s say you assign Analyst 2 to this bucket. When Analyst 2 goes to run their queries, they’ll only see data from US-based employees. If you created another bucket for employees in Europe, but didn’t assign Analyst 2 to that bucket, Analyst 2 wouldn’t be able to see any data from employees in Europe.
 
 Also, you might choose to assign a few analysts to the reservoir (the global partition). These analysts can access your entire company’s dataset, see all data, and run queries on all employees in the organization. We go into more detail about the global partition later on in this article.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1lda2]
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 

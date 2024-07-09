@@ -68,7 +68,9 @@ items:
             href: org-team-insights/team-insights.md
           - name: Organization insights
             href: org-team-insights/org-insights.md
-          - name: Delegate access
+          - name: Leader reports
+            href: org-team-insights/leader-reports.md
+          - name: Delegate access to organizational insights and Copilot Dashboard
             href: org-team-insights/delegate-access.md
           - name: Microsoft Copilot Dashboard for Microsoft 365 customers
             href: org-team-insights/copilot-dashboard.md      
@@ -88,6 +90,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Export Viva Insights data using MGDC
+            href: advanced/admin/dynamic-metric-load.md
           - name: Create partitions
             href: advanced/admin/partitions.md
           - name: File rules and validation errors  
@@ -96,8 +100,12 @@ items:
             href: advanced/admin/domain-suppression.md  
           - name: Keyword suppression
             href: advanced/admin/keyword-suppression.md
+          - name: Use the Admin Center and dashboard
+            href: advanced/admin/admin-center.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
+          - name: Use and configure the Admin Digest email 
+            href: advanced/admin/admin-digest-email.md
         - name: Analyst
           items:
           - name: Queries
@@ -120,6 +128,10 @@ items:
                 href: advanced/analyst/cross-collaboration-p2g.md
               - name: Collaboration between groups (group-to-group)
                 href: advanced/analyst/cross-collaboration-g2g.md               
+            - name: Uncover network collaboration insights
+              href: advanced/analyst/network-collaboration-insights.md 
+            - name: Create change management queries
+              href: advanced/analyst/change-management-queries.md 
             - name: Access query results and modify existing queries
               href: advanced/analyst/query-results.md 
             - name: Connect your data to Power BI using the Power BI connector

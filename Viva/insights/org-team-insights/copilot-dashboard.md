@@ -4,7 +4,7 @@ title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.collection: 
 - viva-insights-personal
 - essentials-manage
@@ -91,7 +91,6 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 **To enable access for new report users:**
 
-1. Select **Add users**.
 1. Search for the people you'd like to add, and select them from the list.
 1. At the bottom, select **Add**.
 
@@ -104,6 +103,10 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 1. Select **Remove user**.
 
    :::image type="content" source="images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
+
+**Delegate access to the dashboard:**
+
+If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md).
 
 >[!Note]
 >Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
@@ -218,23 +221,23 @@ Under the Learning tab, here you find research around the impacts of AI on workp
 
 ## FAQs
 
-**Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
+**Q1. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level insights?**
 
 No, a Viva Insights subscription is not required. The report's aggregated, tenant-level insights are available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise. However, the dashboard includes [other advanced features](./copilot-dashboard-advanced-features.md) for customers who *do* have a Viva Insights subscription.
 
-**Does the report use Viva Insights data to create any of the metrics?**
+**Q2. Does the report use Viva Insights data to create any of the metrics?**
 
 No, the report does not use any Viva Insights data in the process of computing the metrics shown. The report is based on your Microsoft 365 tenant’s usage and licensing data and is made available to you as part of your Microsoft 365 or Office 365 subscription.
 
-**In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
+**Q3. In the Sentiment section I only see metrics related to changes in employee behavior after using Copilot, but no survey responses. Why?**
 
 Your Microsoft 365 admin has not uploaded any survey data for your organization. Use the steps above to upload it.
 
-**What is the time frame for the data in the Microsoft Copilot Dashboard?**
+**Q4. What is the time frame for the data in the Microsoft Copilot Dashboard?**
 
 The dashboard displays data for a rolling 28-day period.
 
-**I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
+**Q5. I’m receiving an error at the time of connecting my data with the dashboard in Power BI. What should I do?**
 
 First, check in the Microsoft 365 admin center that you have one of these roles:
 
@@ -250,7 +253,7 @@ First, check in the Microsoft 365 admin center that you have one of these roles:
 
 If you don’t, request this access from your administrator. Then, ensure you’re using the correct Microsoft 365 tenant ID.
 
-**I’m having issues with the dataset refresh/app update during the update process in Power BI. What should I do?**
+**Q6. I’m having issues with the dataset refresh/app update during the update process in Power BI. What should I do?**
 
 Use these steps to refresh the dataset and make sure your dataset configurations are set correctly:
 

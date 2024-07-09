@@ -23,8 +23,10 @@
           href: content-sources-365-admin-center.md
         - name: Manage how content displays
           href: use-tabs.md
-        -  name: Add learning management systems
-           href: configure-lms.md
+        - name: Add learning management systems
+          href: configure-lms.md
+        - name: Delete learning content sources
+          href: delete-content-source.md
         - name: SAP SuccessFactors
           items:
           - name: Overview of SAP SuccessFactors

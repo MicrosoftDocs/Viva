@@ -23,8 +23,8 @@ items:
       href: viva-goals-deployment-guide.md
     - name: Viva Goals admin portal
       href: viva-goals-admin-portal.md
-    - name: Navigate the admin dashboard
-      href: navigate-admin-dashboard.md
+    - name: Mandate team assignment for OKRs
+      href: mandate-okr-team-assignment.md
     - name: Viva Goals language and region support
       href: viva-goals-language-support.md
     - name: Viva Goals security, privacy, and compliance
@@ -47,6 +47,8 @@ items:
   
   - name: Organization setup
     items:
+    - name: Organization admin dashboard
+      href: navigate-admin-dashboard.md
     - name: Understand organizations and teams
       href: understand-orgs-and-teams.md
     - name: Company-wide organizations
@@ -57,7 +59,7 @@ items:
       href: restrict-organization-creation-permissions.md
     - name: Configure help and support for your organization
       href: configure-support.md
-    - name: Configure check-in reminders and notifications
+    - name: Configure check-in reminders, notifications, and templates
       href: check-in-reminders.md
     - name: Configure your OKR model in Viva Goals
       href: configure-okr-model.md
@@ -204,6 +206,8 @@ items:
         href: zapier-integration.md 
       - name: Zendesk integration
         href: zendesk-integration.md
+    - name: Troubleshoot AAD errors
+      href: integration-aad-errors.md
 
 - name: The OKR framework
   items:
@@ -228,6 +232,10 @@ items:
         items:
         - name: Guide to great goal writing
           href: ./viva-goals-healthy-okr-program/great-goal-writing.md
+        - name: Pitfalls and best practices
+          href: ./viva-goals-healthy-okr-program/goal-setting-pitfalls.md
+        - name: Goal-setting frameworks
+          href: ./viva-goals-healthy-okr-program/goal-setting-frameworks.md
         - name: Goal writing recommendations
           href: ./viva-goals-healthy-okr-program/goal-writing-recommendations.md
         - name: Write annual, organizational goals using the 5 Ps
