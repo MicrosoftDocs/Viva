@@ -15,7 +15,7 @@ audience: Admin
 ---
 # Assign roles
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
+![global admin](../images/applies-to-m365-admin.png)*Applies to: Privileged Role Administrator*
 
 :::image type="content" source="../images/setup-roles-1.png" alt-text="Image alt text." lightbox="../images/setup-roles-1.png":::
 
@@ -27,7 +27,7 @@ For specific information about what each role can do with Viva Insights, refer t
 
 ## Assign Viva Insights roles
 
-People can work with Microsoft Viva Insights only after the Microsoft 365 global admin or Privileged Role Administrator assigns them one of these roles: **Insights Administrator**, **Insights Analyst**, or **Insights Business Leader**.
+People can work with Microsoft Viva Insights only after the Privileged Role Administrator assigns them one of these roles: **Insights Administrator**, **Insights Analyst**, or **Insights Business Leader**.
 
 The Microsoft 365 admin assigns roles through the Microsoft admin center, unless your organization uses Privileged Identity Management (PIM). In that case, your organization might choose to have the Privileged Role Administrator assign roles with Microsoft Entra PIM.
 
