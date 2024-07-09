@@ -104,15 +104,17 @@ f processing fails, try running the import again, and resending your survey data
 
 As your company’s data controller, Microsoft Viva Glint admins can submit a user data deletion request to comply with a General Data Protection Regulation (GDPR) data subject request. 
 
-User data is deleted from the *People* section on the Viva Glint admin dashboard. Any data deleted from Glint is deleted from Insights, as well. [Data deletion instructions here.](https://go.microsoft.com/fwlink/?linkid=2236554).
+User data is deleted from the *People* section on the Viva Glint admin dashboard. Any data deleted from Glint is deleted from Insights, as well. [Find data deletion instructions here.](https://go.microsoft.com/fwlink/?linkid=2236554).
 
 ## Remove a program after initial setup
 
-After sending data to Viva Insights, you can continue to manage your integration. You can stop sharing future data with Viva Insights by removing the program. Return to your Viva Glint admin dashboard and follow the same instructions as you did in the initial setup. The Setup integration button now reads Manage integration.
+After sending data to Viva Insights, you can continue to manage your integration. You can stop sharing future data with Viva Insights by removing the program. 
+
+1. Return to your Viva Glint admin dashboard and follow the initial setup instructions. The Setup integration button now reads Manage integration.
 
 1. Select **Manage Integration**.
 
-2. Hover over the ellipses next to the program to reveal the actions available. Select Remove program.
+1. Hover over the ellipses next to the program to reveal the actions available. Select **Remove program.**
 
    :::image type="content" source="../../media/glint/setup/glintsights-remove-program-v2.png" alt-text="Screenshot of how to remove programs.":::
 
