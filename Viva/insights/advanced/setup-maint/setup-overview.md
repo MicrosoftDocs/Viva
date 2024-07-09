@@ -28,8 +28,8 @@ This setup checklist, along with related articles, helps coordinate tasks betwee
 
 >[!div class="checklist"]
 >
->* Assign Viva Suite/Insights licenses (Microsoft 365 global admin or Exchange admin)
->* Assign admin and analyst roles (Microsoft 365 global admin or Privileged Role Administrator)
+>* Assign Viva Suite/Insights licenses (Exchange admin)
+>* Assign admin and analyst roles (Privileged Role Administrator)
 >* Assign manager and leader permissions (Insights Administrator)
 >* Optional – Manage Viva Insights app defaults (Microsoft 365 admin)
 >* Optional – Set up and deploy the Teams app (Teams Service Administrator)
