@@ -227,4 +227,4 @@ If you would like to find the metadata, go to your **Azure portal**. In your Sto
   :::image type="content" source="../images/dynamic-metric-load-step1003.png" lightbox="../images/dynamic-metric-load-step1003.png" alt-text="Screenshot that shows how to update the file path":::
 
 > [!NOTE]
-> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Microsoft Entra Application owner with Insights Analyst role, or Global Administrator.)*
+> If you want to delete an app registration entry, [use these steps](/graph/app-registration#delete-an-app-registration-entry). *(Applies to Microsoft Entra Application owner with Insights Analyst role)*

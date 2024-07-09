@@ -65,7 +65,7 @@ Viva Insights licenses are assigned just like other Microsoft 365 product licens
 
 ### If mailboxes are not fully migrated to Microsoft 365 Exchange Online
 
-If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Global Admin](/azure/active-directory/roles/permissions-reference#global-administrator) or [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online. 
+If your organization hasn't fully migrated to Microsoft 365 Exchange Online, you might encounter mailboxes that are hosted using Exchange on-premises. Your Microsoft Entra ID [Exchange admin](/azure/active-directory/roles/permissions-reference#exchange-administrator) can help to determine if you will encounter this scenario, and assist you with migrating these mailboxes to Microsoft 365 Exchange Online.
 
 ## When newly licensed users show up in data
 
@@ -93,4 +93,4 @@ Let's say an employee was licensed from January 1 through March 31. Here are thr
 > [!div class="nextstepaction"]
 > [Assign user roles](./assign-user-roles.md)
 
-*Applies to: Microsoft 365 global admin or Privileged Role Administrator*
+*Applies to: Microsoft 365 Privileged Role Administrator*
