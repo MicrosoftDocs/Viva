@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/28/2024
+ms.date: 07/09/2024
 ---
 
 # Customize Viva Glint survey email content
