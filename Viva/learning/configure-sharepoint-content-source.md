@@ -247,7 +247,7 @@ If a description column is already present, you can delete it and add a new one 
 
 ### Provide your own organization's content
 
-Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries are learning content in Viva Learning.
+Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries is learning content in Viva Learning.
 
 1. In Viva Learning, select the ellipses (**...**), and then select **Settings**.
   
