@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/15/2024
+ms.date: 07/09/2024
 ---
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
