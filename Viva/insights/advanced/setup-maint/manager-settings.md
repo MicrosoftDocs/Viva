@@ -118,4 +118,4 @@ Minimum group size helps protect individual privacy. Because it’s easier to gu
 > [Configure personal insights defaults
 ](configure-personal-insights.md)
 
-*Applies to: Microsoft 365 global admin, Exchange admin, Insights Administrator*
+*Applies to: Exchange admin, Insights Administrator*

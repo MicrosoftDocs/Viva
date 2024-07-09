@@ -16,7 +16,7 @@ audience: Admin
 
 # Configure personal insights defaults
 
-![global admin](../images/applies-to-m365-admin.png)*Applies to: Microsoft 365 global admin or Exchange Online admin*
+![global admin](../images/applies-to-m365-admin.png)*Applies to: Exchange Online admin*
 
 :::image type="content" source="../../advanced/images/setup-app-default-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-app-default-1.png":::
 
@@ -42,7 +42,7 @@ For information on how to assign a license, refer to:
 
 #### Admin permissions
 
-You need to be a Microsoft 365 global admin or an Exchange Online (EXO) admin role to configure users for Viva Insights in PowerShell.
+You need to be an Exchange Online (EXO) admin role to configure users for Viva Insights in PowerShell.
 
 ### Defaults 
 
@@ -67,7 +67,7 @@ Refer to the [Privacy guide](../../personal/Overview/privacy-guide-users.md) to 
 Through the Microsoft admin center, you can configure access to Viva Insights elements for all users in your organization.
 
 >[!Important]
->You need to have a Global admin or an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
+>You need to have an Exchange Online admin role to configure tenant-level settings in the admin center. Make sure you're signed in to the Microsoft admin center as a Global or Exchange Online admin before configuring settings.
 
 ### To manage availability for the Viva Insights app in Teams
 
@@ -376,4 +376,4 @@ Set-MyAnalyticsFeatureConfig -Identity \<string\> -Feature <opt-in/opt-out> -Fea
 > [!div class="nextstepaction"]
 > [Configure Teams app settings](teams-admin-setup.md)
 
-*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
+*Applies to: Teams Service Administrator and Exchange Online admin*

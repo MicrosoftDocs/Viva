@@ -39,7 +39,7 @@ landingContent:
     linkLists:
       - linkListType: quickstart
         links:
-          - text: Set up personal insights app defaults - Microsoft 365 global admin or Exchange Online admin
+          - text: Set up personal insights app defaults - Exchange Online admin
             url: configure-personal-insights.md          
           - text: Configure optional settings for the app in Teams - Teams Service Administrator
             url: teams-admin-setup.md
@@ -55,15 +55,15 @@ landingContent:
         links:
           - text: Assign licenses - Microsoft 365 global admin
             url: assign-licenses.md
-          - text: Assign roles - Microsoft 365 global admin or Privileged Role Administrator
+          - text: Assign roles - Privileged Role Administrator
             url: assign-user-roles.md
           - text: Configure manager and leader permissions - Insights Administrator
             url: manager-settings.md
-          - text: Set up personal insights app defaults - Microsoft 365 global admin or Exchange Online admin
+          - text: Set up personal insights app defaults - Exchange Online admin
             url: configure-personal-insights.md              
           - text: Configure optional settings for the app in Teams - Teams Service Administrator
             url: teams-admin-setup.md
-          - text: Set up personal insights app defaults - Microsoft 365 global admin or Exchange Online admin
+          - text: Set up personal insights app defaults - Exchange Online admin
             url: configure-personal-insights.md  
           - text: Customize Viva Insights privacy settings - Insights Administrator
             url: privacy-settings.md
