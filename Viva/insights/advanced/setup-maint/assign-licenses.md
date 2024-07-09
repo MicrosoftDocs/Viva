@@ -18,8 +18,6 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png) *Applies to: Microsoft 365 global admin*
 
-:::image type="content" source="../images/setup-licenses-1.png" alt-text="Image alt text." lightbox="../images/setup-licenses-1.png":::
-
 >[!Note]
 >Viva Insights is licensed as an add-on to existing Microsoft 365 subscriptions. For more details, refer to [Environment requirements](environment-requirements.md).
 

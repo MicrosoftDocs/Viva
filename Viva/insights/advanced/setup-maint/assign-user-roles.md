@@ -17,8 +17,6 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Privileged Role Administrator*
 
-:::image type="content" source="../images/setup-roles-1.png" alt-text="Image alt text." lightbox="../images/setup-roles-1.png":::
-
 >[!Note]
 >This article covers how to assign the Insights Administrator, Insights Analyst, and Insights Business Leader roles to users.
 For specific information about what each role can do with Viva Insights, refer to [Roles in Viva Insights](../../use/user-roles.md).
