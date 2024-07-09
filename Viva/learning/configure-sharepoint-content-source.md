@@ -42,6 +42,9 @@ Viva Learning supports the following document types:
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 > [!NOTE]
+> Viva Learning is currently unable to support video (.avi) document type due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
+
+> [!NOTE]
 > You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
 > [!NOTE]
@@ -244,7 +247,7 @@ If a description column is already present, you can delete it and add a new one 
 
 ### Provide your own organization's content
 
-Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries are learning content in Viva Learning.
+Knowledge admins can access their organization's Learning App Content Repository in SharePoint where they can provide references to cross-organization document libraries. Content within these libraries is learning content in Viva Learning.
 
 1. In Viva Learning, select the ellipses (**...**), and then select **Settings**.
   
