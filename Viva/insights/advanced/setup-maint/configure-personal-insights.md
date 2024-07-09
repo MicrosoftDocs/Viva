@@ -18,8 +18,6 @@ audience: Admin
 
 ![global admin](../images/applies-to-m365-admin.png)*Applies to: Exchange Online admin*
 
-:::image type="content" source="../../advanced/images/setup-app-default-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-app-default-1.png":::
-
 To configure settings for personal insights, you have a few options:
 
 * At the tenant level, you can use the [Microsoft 365 admin center](#configure-access-at-the-tenant-level-through-the-admin-center) or [PowerShell](#configure-access-at-the-tenant-level).
