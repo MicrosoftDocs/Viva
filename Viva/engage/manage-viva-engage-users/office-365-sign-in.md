@@ -47,7 +47,7 @@ You can choose to enforce Microsoft 365 sign-in for Viva Engage for all users in
   
 ## Use Viva Engage with other Microsoft 365 services
 
-Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e?ui=en-us&rs=en-us&ad=us) with other users using Viva Engage. 
+Viva Engage integrates seamlessly with other services in Microsoft 365. For example, you can share [Stream or Microsoft 365 Video](https://techcommunity.microsoft.com/t5/microsoft-stream-blog/microsoft-stream-the-future-of-video-in-microsoft-365/ba-p/3969156) and [Group and share documents in Delve](https://support.microsoft.com/en-us/office/group-and-share-documents-in-delve-da0c5804-01ef-4edd-8b87-e576b19bef3e) with other users using Viva Engage. 
   
 ## Make Viva Engage the default enterprise social network in SharePoint
 
