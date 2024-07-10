@@ -14,8 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/11/2024
-ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 07/10/2024
 ---
 
 # Export Viva Glint survey results to Viva Insights (preview)
@@ -82,13 +81,13 @@ This guidance is for the initial sending of data to Insights only.
 
 1. In the **Send Data to Viva Insights** section, the button changes to read **Manage Integration**. Use that button to send more programs to Viva Insights.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-manage-integration-v2.png" alt-text="Screenshot of how to send more data to Viva Insights.":::
+   :::image type="content" source="../../media/glint/setup/glintsights-manage-integration-v2.png" alt-text="Screenshot of how to send more data to Viva Insights." lightbox="../../media/glint/setup/glintsights-manage-integration-v2.png":::
 
 2. Select **+ Add Programs.**
 
 3. In the *Add Program* window, select **Add** next to any program. You can select multiple programs.
 
-   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs.":::
+   :::image type="content" source="../../media/glint/setup/glintsights-add-program-v2.png" alt-text="Screenshot of how to add programs." lightbox="../../media/glint/setup/glintsights-add-program-v2.png":::
 
 4. A message confirms that your program or programs are added. 
 
