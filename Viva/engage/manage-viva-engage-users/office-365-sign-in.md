@@ -54,7 +54,7 @@ Viva Engage integrates seamlessly with other services in Microsoft 365. For exam
 By default, when users select **Conversations** in SharePoint, they see their SharePoint newsfeed (Outlook groups), rather than Viva Engage conversations. You can make Viva Engage the default enterprise social network in SharePoint. With this, when users select **Conversations** in SharePoint, they see their Viva Engage conversations, rather than the SharePoint newsfeed (Outlook groups).
   
 > [!NOTE]
-> You must be an Microsoft 365 global administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide&redirectSourcePath=%252farticle%252fDA585EEA-F576-4F55-A1E0-87090B6AAA9D). 
+> You must be an Microsoft 365 global administrator to make this change. For more information about permissions levels, see [About Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles). 
   
 1. In Microsoft 365, go to **Admin** \> **SharePoint**.
     
