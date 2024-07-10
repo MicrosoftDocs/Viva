@@ -146,6 +146,8 @@ items:
               href: advanced/analyst/templates/introduction-to-templates.md
             - name: Business resilience
               href: advanced/analyst/templates/business-resilience.md
+            - name: Glint and organizational insights
+              href: advanced/analyst/templates/glint.md
             - name: Growth, inclusion and engagement
               href: advanced/analyst/templates/growth-inclusion-engagement.md
             - name: Hybrid workforce experience
