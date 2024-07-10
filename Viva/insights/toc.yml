@@ -92,6 +92,10 @@ items:
             href: advanced/admin/upload-org-data-subsequent.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
+          - name: Import survey data from Viva Glint
+            items:
+            - name: Import survey results
+              href: advanced/admin/import-surveys-glint-to-insights.md
           - name: Create partitions
             href: advanced/admin/partitions.md
           - name: File rules and validation errors  
