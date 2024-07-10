@@ -29,13 +29,14 @@ Microsoft 365 sign-in lets users access Viva Engage with their Microsoft 365 ide
   
 ## How it works
 
-When Microsoft 365 users visit Viva Engage for the first time from Microsoft 365, Viva Engage tries to connect their Microsoft 365 account to their existing Viva Engage account, if available. For the connection to be successful, the email address of the Microsoft 365 user account must match the email address for the existing Viva Engage account. When a user signs in with Microsoft 365, Viva Engage first tries to map the Microsoft 365 user's primary email, then proxy emails, and then the user principal name (UPN). If there are no matches, a new Viva Engage user is created.
+**If a Microsoft 365 user visits Viva Engage for the first time from Microsoft 365** Viva Engage tries to connect their Microsoft 365 account to their existing Viva Engage account, if available. For the connection to be successful, the email addresses must match. When a user signs in with Microsoft 365, Viva Engage first tries to map the Microsoft 365 user's primary email, then proxy emails, and then the user principal name (UPN). If there are no matches, a new Viva Engage user is created.
   
-If the user visits Viva Engage through https://engage.cloud.microsoft, Viva Engage checks whether the user has successfully signed in to Microsoft 365 at least once. This check ensures that Microsoft 365 credentials have been provided to the user. It also prevents users from being locked out of an existing Viva Engage network if a Microsoft 365 deployment is underway. If the user hasn't signed in to Microsoft 365, they'll continue to use their legacy Viva Engage identity to access Viva Engage. A delay of a few hours often occurs between the time the user successfully signed in and the time Viva Engage can detect it. If you want to instantly use Microsoft 365 sign-in for Viva Engage, have users first sign in to Microsoft 365, and then access Viva Engage from the tile on the app launcher.
+**If a user visits Viva Engage through https://engage.cloud.microsoft**, Viva Engage checks whether the user has successfully signed in to Microsoft 365 at least once. This check ensures that the user has Microsoft 365 credentials and prevents the user from being locked out of an existing Viva Engage network if a Microsoft 365 deployment is underway. 
+
+If the user hasn't signed in to Microsoft 365, they'll continue to use their legacy Viva Engage identity to access Viva Engage. A delay of a few hours often occurs between the time the user successfully signed in and the time Viva Engage can detect it. If you want to instantly use Microsoft 365 sign-in for Viva Engage, have users first sign in to Microsoft 365, and then access Viva Engage from the tile on the app launcher.
   
-This is how it works:
-  
-After a user is connected and using Microsoft 365 sign-in for Viva Engage, the user can no longer use their previous legacy Viva Engage identity to sign in. At this point, you'll need to manage the lifecycle of this user from Microsoft 365.
+>[!NOTE]
+> After a user is connected and using Microsoft 365 sign-in for Viva Engage, the user can no longer use their previous legacy Viva Engage identity to sign in. At this point, you'll need to manage the lifecycle of this user from Microsoft 365.
   
 ## How do I enable Microsoft 365 sign-in for Viva Engage?
 
