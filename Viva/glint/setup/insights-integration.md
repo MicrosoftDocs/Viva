@@ -33,7 +33,7 @@ HR analysts and other leaders in your organization can bring Microsoft Viva Glin
 
 This consent screen displays the first time you begin this integration. You must **Agree to terms** before moving forward.
 
-:::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Learn More and Set up integration buttons.":::
+:::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Preview agreement.":::
 
 Data that can be sent:
 - Data from recurring or ad-hoc surveys with [confidentiality thresholds[(https://go.microsoft.com/fwlink/?linkid=2270865) equal to or above the Viva Glint default of five respondents.
