@@ -101,7 +101,7 @@ This guidance is for the initial sending of data to Insights only.
 
 After the Glint admin sends data, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors.](https://go.microsoft.com/fwlink/?linkid=2271038), 
 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](https://learn.microsoft.com/microsoft-365/admin/get-help-support).
+If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](/../../microsoft-365/admin/get-help-support).
 
 ## Glint data deletions result in Insights data deletion
 
