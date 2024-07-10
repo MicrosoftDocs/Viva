@@ -1,5 +1,5 @@
 ---
-ms.date: 06/24/2024
+ms.date: 07/10/2024
 title: Use Leader reports to uncover key business outcomes
 description: Learn how to use Leader reports in Viva Insights to view metrics and suggested actions focused on specific business outcomes.
 author: zachminers
@@ -77,6 +77,10 @@ This report is powered by the following metrics:
 | Calendared learning time  | Number of hours blocked in a person’s calendar for learning activities. An appointment or meeting is considered a learning activity based on keywords that appear in the subject line. | 
 | Meeting hours with manager 1:1 for new hires | Number of meeting hours involving only the new hire and their manager. |
 
+>[!Note]
+>By default, the benchmark filter for this report is set to the prior four weeks and values will only show in the table. If you change the benchmark setting to **Peer** or **Your company**, the filter displays data for the prior 12 weeks in both the table and the line chart.
+
+
 **About learning-related keywords**
 
 This report identifies calendar events as learning-related by using these keywords from meeting and appointment titles in Outlook:
@@ -113,7 +117,7 @@ You can use the Pulse suggested action card to access the Pulse app and complete
 
 * Access successfully completed Pulse requests
 
-This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, specifically the Recent Hires Onboarding report.
+This card and set of deep link actions lets you gather more information on Insights reports through a follow-up Pulse survey, specifically the Recent Hires Onboarding report.
 
 #### Create a Pulse survey
 
@@ -151,6 +155,9 @@ This report is powered by the following metrics:
 |---|---|
 | External collaboration hours | Average time employees spent in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
 | Employees' contact with external partners | Number of employees in meetings, emails, Teams calls, and Teams chats with at least one other person outside the company. |
+
+>[!Note]
+>By default, the benchmark filter for this report is set to the prior four weeks and values will only show in the table. If you change the benchmark setting to **Peer** or **Your company**, the filter displays data for the prior 12 weeks in both the table and the line chart.
 
 ### Meeting cost and quality
 
