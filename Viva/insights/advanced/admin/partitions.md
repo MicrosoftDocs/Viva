@@ -21,7 +21,7 @@ Partitions are analyst workspaces that only contain certain employee data and at
 
 You can think of partitions like buckets. Each bucket (partition) contains a certain scoop of data from the reservoir (your entire dataset, also known as the **global partition**). For example, one bucket might only contain data from employees who work in your company’s marketing division.
 
-As the Insights Administrator (admin), you assign analysts to one or more buckets. When those analysts run queries, they can only pull from the data in their assigned buckets. Let’s say you assign Analyst 1 to your bucket that contains data from employees in the marketing division. When Analyst 1 sets up a query, they’ll only see and pick from this marketing-division data.
+As the Insights Administrator, you assign analysts to one or more buckets. When those analysts run queries, they can only pull from the data in their assigned buckets. Let’s say you assign Analyst 1 to your bucket that contains data from employees in the marketing division. When Analyst 1 sets up a query, they’ll only see and pick from this marketing-division data.
 
 Or maybe you create a bucket just for employees in your company’s US offices. Let’s say you assign Analyst 2 to this bucket. When Analyst 2 goes to run their queries, they’ll only see data from US-based employees. If you created another bucket for employees in Europe, but didn’t assign Analyst 2 to that bucket, Analyst 2 wouldn’t be able to see any data from employees in Europe.
 
@@ -31,9 +31,7 @@ Also, you might choose to assign a few analysts to the reservoir (the global par
 
 Here’s a visual representation of how partitions work. In this scenario, the admin set up three partitions. Notice that some analysts are assigned to multiple partitions, some are assigned to the global partition, and some are only assigned to a single partition.
 
-:::image type="complex" source="../images/admin-partitions.png" alt-text="<alt text>"lightbox="../images/admin-partitions-expanded.png":::
-   Diagram that shows a Global partition, represented as a cylinder, with five arrows. The first three, top-level arrows point to buckets labeled "Partition 1," "Partition 2," "Partition 3." Each bucket has three second-level arrows leading down to analysts, represented as employee badges. The second two top-level arrows from the global partition point directly to two analysts. 
-:::image-end:::
+:::image type="content" source="../images/admin-partitions.png" alt-text="Diagram that shows a Global partition, represented as a cylinder, with five arrows. The first three, top-level arrows point to buckets labeled Partition 1, Partition 2, Partition 3. Each bucket has three second-level arrows leading down to analysts, represented as employee badges. The second two top-level arrows from the global partition point directly to two analysts. "lightbox="../images/admin-partitions-expanded.png":::
 
 ## Row and column data
 
@@ -117,6 +115,11 @@ Create as many partitions as you want by following these steps:
     >[!Note]
     >You can assign analysts to any number of partitions.
     
+7. Select which dataset to include in the partition, such as Glint survey data. All filters and attributes you selected in the previous steps apply to this dataset.
+
+    >[!Note]
+    >If you disable access to Glint data, this will not delete your past reports. It will only disable future reports from accessing the Glint dataset. 
+
 Your new partition won’t immediately appear in the partition switcher—you’ll need to refresh the page.
 
 ### About required attributes in partitions
