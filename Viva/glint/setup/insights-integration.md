@@ -1,5 +1,5 @@
 ---
-title: Import survey results from Viva Glint into Viva Insights (preview)
+title: Export Viva Glint survey results to Viva Insights (preview)
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -18,7 +18,10 @@ ms.date: 07/11/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Import survey results from Viva Glint into Viva Insights (preview)
+# Export Viva Glint survey results to Viva Insights (preview)
+
+>[!IMPORTANT]
+>This feature is currently availabile to preview customers only. Features described here are subject to change.
 
 HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint - along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
