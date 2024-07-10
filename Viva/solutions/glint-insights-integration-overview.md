@@ -40,13 +40,13 @@ To send data from Viva Glint surveys to Viva Insights, the survey data must meet
 
 Now that you understand the benefits of integrating Viva Glint and Viva Insights, you’re ready to set up the integration. Use these links:
 
-- Admin: [Import survey results from Viva Glint into Viva Insights](https://learn.microsoft.com/viva/insights/introduction)
+- Admin: [Import survey results from Viva Glint into Viva Insights](/../../viva/insights/introduction)
 
 - Admin: [Export Viva Glint survey results to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
 
-- Admin: [Partitions in Viva Insights](https://learn.microsoft.com/viva/insights/introduction)
+- Admin: [Partitions in Viva Insights](/../../viva/insights/introduction)
 
-- Analyst: [Glint and organizational insights report](https://learn.microsoft.com/viva/insights/introduction)
+- Analyst: [Glint and organizational insights report](/../../viva/insights/introduction)
 
 
  
