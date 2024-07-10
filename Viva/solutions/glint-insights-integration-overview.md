@@ -42,7 +42,7 @@ Now that you understand the benefits of integrating Viva Glint and Viva Insights
 
 - [Import survey results from Viva Glint into Viva Insights](https://learn.microsoft.com/en-us/viva/insights/introduction)
 
-- [Export Viva Glint survey reseults to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
+- [Export Viva Glint survey results to Viva Insights](https://go.microsoft.com/fwlink/?linkid=2280104)
 
 - [Glint and organizational insights report](https://learn.microsoft.com/en-us/viva/insights/introduction)
 
