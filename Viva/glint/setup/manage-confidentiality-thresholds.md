@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/08/2024
+ms.date: 07/09/2024
 ---
 
 # Manage Viva Glint confidentiality thresholds
 
-Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding to surveys. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable surveys for Lifecycle and Always-On survey types, where the response threshold is less than three (3). [Learn more](https://go.microsoft.com/fwlink/?linkid=2238614). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
+Data privacy and trust are key priorities for Microsoft Viva Glint. Several methods are used to inform you, as the Glint Admin, about what level of privacy users can expect when responding to surveys. Viva Glint offers confidential surveys, where scores only display with at least three (3) responses, and identifiable Lifecycle surveys, where the response threshold is less than three (3). [Learn more](https://go.microsoft.com/fwlink/?linkid=2238614). Use the guidance in this article to adjust confidentiality thresholds at the overall level or at the survey program level and understand the impact of those changes.
 
 For a deeper understanding of how confidentiality and suppression appear in Viva Glint reports: [Understand Viva Glint confidentiality and suppression in reports](/viva/glint/reports/confidentiality-suppression-reports).
 
@@ -138,7 +138,7 @@ To edit threshold values:
 
 ## Identifiable surveys
 
-Viva Glint Always-On and Lifecycle surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
+Viva Glint Lifecycle surveys can be made identifiable during [program setup](https://go.microsoft.com/fwlink/?linkid=2238328) with the **Confidential Responses** setting, which automatically updates thresholds at the survey level. Consider this confidentiality level for these survey types, which have typically lower respondent counts and may lead to follow-up with individual employees based on their experiences.
 
 ### Lower thresholds for identifiable surveys
 
@@ -147,10 +147,6 @@ Viva Glint Always-On and Lifecycle surveys can be made identifiable during [prog
 
 1. In **Program Summary**, go to **Program Setup**.
 2. Toggle **Confidential Responses** to **No.**
-   - This setting automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
-3. Now, confidentiality threshold settings can be adjusted in **Advanced Configuration** to two (2) or one (1), while maintaining the non-confidential configuration.
-4. From the admin dashboard, select **Configuration**, then in **Service Configuration**, choose **Advanced Configuration**.
-5. In the menu on the left, select **Surveys** and choose a survey from the list.
-6. On the **Survey Details** page, enter new values in each threshold field for rated question scores, response rates, and comments.
+3. This setting automatically updates the survey and its confidentiality statement to indicate that it's identifiable.
 
-:::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO to enable lowering the Always-On threshold."lightbox="../../media/glint/setup/always-on-threshold.png":::
+:::image type="content" source="../../media/glint/setup/always-on-threshold.png" alt-text="Screenshot of toggling Confidential Responses to NO."lightbox="../../media/glint/setup/always-on-threshold.png":::

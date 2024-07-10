@@ -15,6 +15,8 @@ audience: Admin
 
 # Partitions in Viva Insights
 
+*Applies to: Insights Administrator*
+
 Partitions are analyst workspaces that only contain certain employee data and attributes. In a partition, analysts can only create queries based on the data in that partition.
 
 You can think of partitions like buckets. Each bucket (partition) contains a certain scoop of data from the reservoir (your entire dataset, also known as the **global partition**). For example, one bucket might only contain data from employees who work in your company’s marketing division.
