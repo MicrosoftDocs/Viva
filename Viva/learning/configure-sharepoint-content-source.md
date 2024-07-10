@@ -42,7 +42,7 @@ Viva Learning supports the following document types:
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 > [!NOTE]
-> Viva Learning is currently unable to support video (.avi) document type due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
+> Viva Learning is currently unable to support video (.avi) document type in the standalone web app due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
 
 > [!NOTE]
 > You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
