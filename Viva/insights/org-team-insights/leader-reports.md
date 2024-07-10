@@ -117,7 +117,7 @@ You can use the Pulse suggested action card to access the Pulse app and complete
 
 * Access successfully completed Pulse requests
 
-This card and set of deep link actions lets you gather more information on Insights reports through a follow up Pulse survey, specifically the Recent Hires Onboarding report.
+This card and set of deep link actions lets you gather more information on Insights reports through a follow-up Pulse survey, specifically the Recent Hires Onboarding report.
 
 #### Create a Pulse survey
 
