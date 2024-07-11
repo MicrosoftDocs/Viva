@@ -36,7 +36,7 @@ This consent screen displays the first time you begin this integration. You must
 :::image type="content" source="../../media/glint/setup/glintsights-preview-agreement-v2.png" alt-text="Screenshot of the Preview agreement.":::
 
 Data that can be sent:
-- Data from recurring or ad-hoc surveys with [confidentiality thresholds]([(https://go.microsoft.com/fwlink/?linkid=2275271) is equal to or above the Viva Glint default of five respondents.
+- Data from recurring or ad-hoc surveys with [confidentiality thresholds](https://go.microsoft.com/fwlink/?linkid=2275271) is equal to or above the Viva Glint default of five respondents.
 - Rating item scores, but no comments.
 - All Viva Glint languages supported for question labels (names) and question text are sent to Viva Insights Power BI.
 
