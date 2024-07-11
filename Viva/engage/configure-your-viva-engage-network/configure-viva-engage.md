@@ -100,7 +100,7 @@ Choose from these three options:
 > [!NOTE]
 > When files are stored in Viva Engage, there is no virus check. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process.
 >
-> For Microsoft 365 connected Viva Engage groups that store files in SharePoint, virus checking occurs when the file is uploaded. For more information, see [Virus dectection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo).
+> For Microsoft 365 connected Viva Engage groups that store files in SharePoint, virus checking occurs when the file is uploaded. For more information, see [Virus detection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo).
 
 > [!TIP]
 > Community admins can delete files posted to the groups they manage. Other admins can delete any file.

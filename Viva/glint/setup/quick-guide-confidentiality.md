@@ -60,7 +60,7 @@ Managers of small teams can feel that survey results don’t provide as much val
 
 Managers can have an [ACT Conversation](/viva/glint/reports/take-action-team-conversations) with their team using roll-up (BTI) results. Throughout the Acknowledge part of an ACT conversation, the manager should talk to the team about which results might be pertinent to their smaller team.
 
-If BTI isn't enabled for managers, leaders of small teams can still hold ACT Conversation. Managers can discuss where the larger organization's results do and don't reflect their smaller group experience and what action the team can commit to to make improvements.
+If BTI isn't enabled for managers, leaders of small teams can still hold ACT Conversation. Managers can discuss where the larger organization's results do and don't reflect their smaller group experience and what action the team can commit to make improvements.
 
 ## More Resources
 

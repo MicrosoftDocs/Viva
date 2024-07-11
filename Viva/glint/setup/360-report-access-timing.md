@@ -38,7 +38,7 @@ If access is turned to **ON**, a dropdown menu lets you choose report access tim
 
 Global Reporting Guidance
 
-:::image type="content" source="../../media/glint/setup/360-resource-guidance.png"alt-text="Screenshot of the the search bar for choosing resource guidance.":::
+:::image type="content" source="../../media/glint/setup/360-resource-guidance.png"alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
 Glint offers standard program and report guidance templates. 
 

@@ -56,7 +56,7 @@ After setup is complete, users in your organization can link the success of thei
 
 3. Search for the report you want to connect to. If you have multiple Salesforce connections, select the connection that your report is associated with before you search for the report.
   
-    :::image type="content" source="../media/goals/9/salesforce-report-selection.png" alt-text="Screnshot shows where you select a Salesforce report in Viva Goals." lightbox="../media/goals/9/salesforce-report-selection.png":::  
+    :::image type="content" source="../media/goals/9/salesforce-report-selection.png" alt-text="Screenshot shows where you select a Salesforce report in Viva Goals." lightbox="../media/goals/9/salesforce-report-selection.png":::  
 
 4. Select the field you want to designate as the measure of success. The available fields will vary based on the configuration of the report you select.
   

@@ -52,7 +52,7 @@ To create a Domo client ID and secret, visit [https://developer.domo.com/new-cli
 
 ## How to set up the Domo data link
 
-After the connection is configurated, users can **Edit** their Viva Goals OKRs to set up a Data Link to directly track progress from their Domo datasets.  
+After the connection is configured, users can **Edit** their Viva Goals OKRs to set up a Data Link to directly track progress from their Domo datasets.  
 
 > [!NOTE]
 > Domo integration is available only for the **KPI (success metric)** method of measuring OKR success, not for the **% completion** method.

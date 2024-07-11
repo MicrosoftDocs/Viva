@@ -85,7 +85,7 @@ Many healthcare customers have moved to the Viva Glint patient safety survey to 
 |15|Root Cause|At this organization, we seek to solve problems permanently rather than just up with a 'quick fix.'|
 |16|Teamwork|We support each other in caring for patients safely here.|
 |17|Training|The patient safety-related training I receive is effective.|
-|18|Voice|My imput about patient safety is valued here.|
+|18|Voice|My input about patient safety is valued here.|
 |19|Employee Safety|I feel safe here as an employee.|
 |20|eSat|How happy are you working at [Company Name]?
 

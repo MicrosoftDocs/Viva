@@ -79,7 +79,7 @@ The key result will now regularly synchronize data from Power BI and make check-
    :::image type="content" source="../media/goals/powerbi-images/project-progress-data-source.png" alt-text="Screenshot that shows how to select  automatic data source." lightbox="../media/goals/powerbi-images/project-progress-data-source.png":::
 
    > [!NOTE]
-   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration )below.
+   > If Power BI is disabled, your Viva Goals administrator will need to enable it for your organization. See [Enable Power BI integration](#enable-power-bi-integration ) below.
 
 1. If you haven't already signed in to Power BI or created a connection, you'll be given the chance to do so. Sign in with your Viva Goals credentials. A screen for the new connection will appear. Name the connection and select **Next**. <!--Editor's Note: I can't verify this one myself because the dummy account has done this before.-->
 

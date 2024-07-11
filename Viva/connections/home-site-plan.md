@@ -170,6 +170,6 @@ Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/micro
 
 [Creating and launching a healthy SharePoint portal](/sharepoint/portal-health)
 
-Use and customize the [The Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book
+Use and customize the [Landing template](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) from the SharePoint look book
 
 [Design a SharePoint home site for Viva Connections](create-sharepoint-home-site-for-viva-connections.md)

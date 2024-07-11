@@ -40,7 +40,7 @@ In addition to evidence of a strong linkage between the People Success Elements 
 
 ## Terminology of survey items
 
-This terminology helps you understand the Viva People Sciencee methodology for determining survey items:
+This terminology helps you understand the Viva People Science methodology for determining survey items:
 
 |Term |Definition|
 |-----|----------|

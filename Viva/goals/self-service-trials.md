@@ -31,7 +31,7 @@ To sign up for a self-service trial, visit the [Viva Goals launch page](https://
 
 A user or team that encounters issues when signing up for trial licenses should contact their IT department. IT admins have full control of paid subscriptions. If you're an IT admin, you can't sign up for self-service trials: you should instead see the guidance for IT admin trials [here](it-admin-trials.md).
 
-You can only request a self-servie trial if your IT admin has enabled **AllowSelfServicePurchase**. You can find more information [here](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
+You can only request a self-service trial if your IT admin has enabled **AllowSelfServicePurchase**. You can find more information [here](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell).
 
 Self-service trials are available worldwide, but Government and EDU customers cannot use them.
 

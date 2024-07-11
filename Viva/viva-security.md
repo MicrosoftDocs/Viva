@@ -62,7 +62,7 @@ When you’re setting up Viva Connections, be sure to [confirm who has access to
 For more information about Viva Connections, see [Overview of Viva Connections](connections/viva-connections-overview.md).
 
 ### Viva Engage
-The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them an [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
+The admin tools in Viva Engage help protect your Engage data and determine who can access your Engage network, along with controlling access, managing users, providing secure access on mobile devices via Microsoft Intune, [assigning roles](engage/eac-key-admin-roles-permissions.md), and limiting file uploads. The Engage admin can set up and configure Engage for your organization and manage data, network-related settings, and the various core or premium features within the application. To make someone an Engage admin, make them a [Viva Engage administrators](/microsoft-365/admin/add-users/assign-admin-roles) in Microsoft Entra ID.
 
 For more information about security in Viva Engage, see 
 [Configure and review privacy and security settings](engage/setup.md#configure-and-review-privacy-and-security-settings).

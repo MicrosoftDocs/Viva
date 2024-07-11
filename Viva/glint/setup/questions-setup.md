@@ -69,7 +69,7 @@ There is lots to do here! You may edit the following fields:
 - Consider if the **Question Text** is as it should be - The wording for this item appears verbatim. The **+ button** allows you to edit the question. 
   
    >[!IMPORTANT]
-   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequently affect the accuracy of the benchmark tied to the question.
 
 - Consider providing **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
 - Consider providing **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized

@@ -67,7 +67,7 @@ Here's an example of that color coding:
 ### Changing the view by score comparisons
 
 The Heat Map defaults to a **Scores view**. You can change your view of the data by selecting the **Settings** button.
-In the *Report Settings* windown that opens, use the *Show* dropdown menu to choose from:
+In the *Report Settings* window that opens, use the *Show* dropdown menu to choose from:
 
 - Scores
 - Changes

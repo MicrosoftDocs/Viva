@@ -28,7 +28,7 @@ There are two methods of working with guests, depending on how your organization
 
 ## Comparison of guest experiences
 
-| Viva Engage community aligned to Native Mode <br/> | Viva Engage community NOT not aligned to Native Mode <br/> |
+| Viva Engage community aligned to Native Mode <br/> | Viva Engage community NOT aligned to Native Mode <br/> |
 |:-----|:-----|
 |Guests are powered by the AzureAD-B2B guest framework |Guests are powered by the Viva Engage guest framework. |
 | External users can be added as guests to any Viva Engage community. |External users can be added as guests only in external communities |

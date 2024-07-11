@@ -65,7 +65,7 @@ If you want to include items in your survey invitation that cannot be supported 
 Set up to three reminders during the survey window and also a final reminder.
 
 >[!TIP]
->Send two survey reminders per program. Survey takers only receive reminders if they haven't completeled their survey. 
+>Send two survey reminders per program. Survey takers only receive reminders if they haven't completed their survey. 
 
 Use the **Penci** symbol to open the slider window and then:
 
