@@ -95,7 +95,7 @@ items:
           - name: Import survey data from Viva Glint
             items:
             - name: Import survey results
-              href: advanced/admin/import-surveys-glint-to-insights.md
+              href: advanced/admin/import-survey-glint.md
           - name: Create partitions
             href: advanced/admin/partitions.md
           - name: File rules and validation errors  

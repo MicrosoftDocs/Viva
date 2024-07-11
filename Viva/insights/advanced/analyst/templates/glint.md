@@ -14,10 +14,10 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Glint and organizational insights report
+# Glint and organizational insights report (preview)
 
 >[!IMPORTANT]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+> This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 The **Glint and organizational insights** report lets you explore the relationship between behaviors measured in Viva Insights and Viva Glint survey responses, to better understand employee sentiment at your company.  
 
