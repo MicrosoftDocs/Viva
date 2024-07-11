@@ -79,7 +79,7 @@ When designing an effective multitenant organization, it’s crucial to establis
 
 *For Microsoft 365 Global administrators*
 
-This process requires that you use Microsoft Graph API, an API with separate [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
+Configuring the multitenant organization in Microsoft 365 requires Microsoft Graph API, which has its own [requirements and prerequisites](/entra/identity/multi-tenant-organizations/multi-tenant-organization-overview). Learn more about [the Microsoft Graph API](https://techcommunity.microsoft.com/t5/intune-customer-success/support-tip-getting-started-with-microsoft-graph-api/ba-p/364257).
 
 |Task description|Instructions|
 |----------------|----------------|
