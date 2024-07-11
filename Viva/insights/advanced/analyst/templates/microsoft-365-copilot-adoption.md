@@ -35,7 +35,7 @@ To populate the report in Power BI, you’ll need to set up and successfully run
 
 ## Demonstration
 
-The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.
+The following demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report specific to your organization's unique data.<br/><br/>
 
 > [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiMmVmOTk3ZTEtNDgzZS00NTI4LWEyZDQtZjYxY2NhNjY0ZjlmIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
