@@ -1,5 +1,5 @@
 ---
-ms.date: 04/07/2022
+ms.date: 06/24/2024
 title: Manage OKRs in Viva Goals
 ms.reviewer: 
 ms.author: rasanders
@@ -25,7 +25,7 @@ description: "Learn how to manage OKRs"
 
 ## How to manage OKR contribution
 
-The Viva Goals OKR contribution feature gives objective creators and owners flexibility and customizability in specifying weights and measuring progress. Users can now define and control contribution at the parent level. 
+The Viva Goals OKR contribution feature gives objective creators and owners flexibility and customizability in specifying weights and measuring progress. Users can now define and control contribution at the parent level.
 
 All the contributions add up to a total of 100 percent, and objective owners/creators can mark a child’s contribution as "fixed." This feature is available only for OKRs that have progress mode set to **Updated via roll-up from key results**.
 
@@ -56,11 +56,11 @@ You can set or edit your OKRs' contributions from the **More actions** dropdown 
 
 - To reset all the custom contributions to the default, select the **Reset to default** option.
 
-## How to share OKRs with multiple teams and owners 
+## How to share OKRs with multiple teams and owners
 
 The Shared OKRs/initiatives feature in Viva Goals is a great method for multiple teams and owners to collaborate on their key initiatives with equal ownership and ensure alignment.
 
-### When to create shared OKRs/initiatives 
+### When to create shared OKRs/initiatives
 
 - When an OKR is a key priority for two or more functional teams and the team leads need to have shared accountability as the exact contribution can't be proportioned or separately broken down between them.
 
@@ -70,20 +70,20 @@ The Shared OKRs/initiatives feature in Viva Goals is a great method for multiple
 
 OBJECTIVE: Enhance the onboarding strategy.
 
-KEY RESULT: Implement a new program to increase the repeat rate of first-time bookers. 
-   
+KEY RESULT: Implement a new program to increase the repeat rate of first-time bookers.
+
 TEAM(S): CRM Team and Marketing Team
-   
+
 OWNER(s): CRM Lead and Marketing lead
-    
-**Example #2:** 
+
+**Example #2:**
 
 OBJECTIVE: Build a world class engineering org.
-   
+
 KR/INITIATIVE: Invest in two training & development sessions and capstone projects for all four engineering teams this quarter
-   
+
 TEAM(S): Engineering Department
-   
+
 OWNER(S): VP of engineering and all engineering managers
 
 The Viva Goals flexible shared OKR models ensure that you don't have to create duplicate and redundant OKRs for every team or individual when they're going to be commonly owned, worded, and measured.
@@ -103,7 +103,7 @@ OKR administrators can turn on the "Shared OKRs" feature from the **OKR & Initia
 ### How to create shared OKRs for multiple teams
 
 1. Log in to Viva Goals and create a new OKR.
-1. After you enter the objective/key result and are ready to share it with another team, select **Team** from the dropdown list under **Type**. 
+1. After you enter the objective/key result and are ready to share it with another team, select **Team** from the dropdown list under **Type**.
 1. Scroll down or search via the search bar for the team of choice.
 1. Select the team and save the objective/key result. You'll start sharing the OKR with that team.
 
@@ -115,11 +115,11 @@ Users can also assign multiple teams to initiatives by implementing this procedu
 1. After you enter the objective/key result and are ready to share it with another individual, select **Owners** from dropdown list under **Owners**. Here, you can assign multiple owners for the OKR.
 1. After you select the new owner, save the objective/key result. You'll start sharing the OKR with that individual, and the user who you assigned as the owner will receive an in-app notification of the assignation.
 
-### How to assign check-in responsibility for OKRs with multiple owners 
+### How to assign check-in responsibility for OKRs with multiple owners
 
-If there's just one owner or multiple owners assigned to an OKR and you want a user within the organization to check in and update the progress of the OKR, you can use the "check-in responsibility" feature. 
+If there's just one owner or multiple owners assigned to an OKR and you want a user within the organization to check in and update the progress of the OKR, you can use the "check-in responsibility" feature.
 
-The check-in owner will be able to check in on the OKR (manual check-in) and set up a data link on the OKR (to auto check in). 
+The check-in owner will be able to check in on the OKR (manual check-in) and set up a data link on the OKR (to auto check in).
 
 This user will get the check-in reminders. If there are multiple owners, only the user set as "check-in responsible owner" will get the reminders.
 
@@ -131,7 +131,7 @@ This user will get the check-in reminders. If there are multiple owners, only th
 
 By default, the owner, or the first owner if there are multiple owners, is set as the person responsible for check-ins.
 
-## How to reorder OKRs with drag and drop 
+## How to reorder OKRs with drag and drop
 
 **To drag and drop an objective, follow these steps:**
 
@@ -148,5 +148,4 @@ To make an objective become a key result, drag the cursor to the **+ Add key res
 You can as easily drag a key result out from under an objective to make it become an objective itself.
 
 > [!NOTE]
-> Drag-and-drop functionality is available at the organizational, team, and individual levels. 
-
+> Drag-and-drop functionality is available at the organizational, team, and individual levels.

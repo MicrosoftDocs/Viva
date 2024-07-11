@@ -5,13 +5,13 @@ ms.reviewer: ethli
 ms.author: v-bvrana
 author: Starshine89
 manager: elizapo
-ms.date: 03/27/2024
+ms.date: 06/28/2024
 audience: Admin
 f1.keywords:
 - NOCSH
 ms.topic: article
 ms.service: viva-engage
-ms.localizationpriority: Priority
+ms.localizationpriority: High
 ms.collection:  
 - M365initiative-viva
 - highpri
