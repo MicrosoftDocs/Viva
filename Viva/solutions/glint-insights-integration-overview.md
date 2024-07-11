@@ -20,7 +20,7 @@ ms.date: 07/11/2024
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
 
 >[!IMPORTANT]
->This feature is currently availabile to preview customers only. Features described here are subject to change.
+>On July 17, this new feature becomes available to preview customers only. Features described here are subject to change.
 
 Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience.   
 
