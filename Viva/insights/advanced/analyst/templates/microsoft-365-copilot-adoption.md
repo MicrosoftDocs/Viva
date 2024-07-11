@@ -58,14 +58,18 @@ Before you can run the queries and populate the report in Power BI, you’ll nee
     1. Type a **Query name**.
     1. Select a **Time period**. **Time period** defaults to **Last 6 months**.
     1. Set **Auto-refresh** (optional). You can set the query to automatically update by checking the **Auto-refresh** box. When you select the **Auto-refresh** option, your query automatically runs and computes a new result every time Viva Insights gets updated collaboration data for licensed people.
+
        > [!NOTE]
        > If organizational data used in an auto-refreshing query changes (for example, an attribute name is altered or an attribute is removed), the query might stop auto-refreshing.
+
      4. Type a **Description** (optional).   
      5. Change the metric rule (optional). To set a new metric rule, select **More settings**. Then, pick a new rule from the list. [Learn more about metric rules](../../analyst/metric-rules.md).
+
         > [!NOTE]
         > The **More settings** pane also contains **Group by** settings. Power BI queries are set to **Group by Week**, and you're not able to edit this field.
 
 4. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. However, you can add other metrics by selecting **Add metrics**.
+
     > [!IMPORTANT]
     > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. [Learn more about data quality notifications](../../analyst/data-quality-analyst-experience.md).
 
@@ -111,11 +115,12 @@ View and set the following parameters on the **Settings** page. You can find
 * **Group by** – Select the primary group-by attribute shown in all the report pages. You can change this attribute at any time and all report pages will show group values by the new attribute.
 * **Apply filters** (optional) – Select the organizational attribute and values you want to use to filter the employees shown in this report.
 * **Customize active Copilot user definition** – Customize the usage frequency for active Copilot users. You can choose between:
-    * At least one active day in the selected time period
-    * At least one active day per four weeks
-    * At least one active day per week 
 
-    A day is marked as active if the user took at least one action with Copilot on that respective day. 
+  * At least one active day in the selected time period
+  * At least one active day per four weeks
+  * At least one active day per week 
+
+  A day is marked as active if the user took at least one action with Copilot on that respective day. 
 
 * **Report language** – Change the language for your report.
 
@@ -123,7 +128,8 @@ View and set the following parameters on the **Settings** page. You can find
 
 The **Microsoft 365 Copilot adoption** report includes the following report pages that help you better understand and accelerate Copilot adoption across the company.
 
-##### Microsoft 365 Copilot adoption summary 
+##### Microsoft 365 Copilot adoption summary
+
 Get an overview of Microsoft 365 Copilot adoption across the company. Get a baseline view of the number of employees who are actively using Microsoft 365 Copilot features and what direction adoption is trending. This page also provides a quick overview of the Microsoft 365 app in which Copilot is used as well as the top-most used Copilot feature. Lastly, it highlights the organization with the highest Copilot usage. 
 
 ##### How does Copilot usage compare across groups? 
@@ -135,16 +141,20 @@ Gain insight into which groups in your company are leaders in Copilot adoption. 
 
 Active Copilot users are defined as users who have used Copilot at least once in the selected time period. 
 
-##### How does Copilot usage compare across apps? 
+##### How does Copilot usage compare across apps?
+
 Learn more about how Copilot usage differs by app across organizations and functions. The heatmap shows the share of active Copilot users in each Microsoft 365 app as a percentage of the total number of people in the respective group. Active Copilot users are defined as users who have used Copilot at least once in the selected time period.  
 
-##### What are the most frequently used Copilot features in each app? 
+##### What are the most frequently used Copilot features in each app?
+
 Understand how your employees are using Copilot in each Microsoft 365 app. The cards on this page show the total number of Copilot user actions taken or the unique number of active Copilot users in each Microsoft 365 app broken out by Copilot action. Use the arrows at the bottom of the page to explore Copilot actions taken in PowerPoint and Excel.  
 
 ##### What is the Copilot usage trend across groups? 
+
 Explore how Copilot usage has changed over time for different groups in your company. Explore how Copilot usage is changing over time, using the left-side card. The trendline shows the total weekly number of Copilot user actions or unique active Copilot users in the filtered groups for the selected time period. The table on the right shows the number of unique active Copilot users per month and the month-over-month change.  
 
 ##### What is the breakdown of Copilot usage across groups? 
+
 Dive one layer deeper and explore different usage metrics at the same time for different groups in a side-by-side view. Use the metric filter at the top to select the metrics you would like to include and compare in the table. Metrics include:
 
 * Active Copilot users
@@ -159,15 +169,18 @@ Dive one layer deeper and explore different usage metrics at the same time for d
 Metric definitions can be found in the glossary. 
 
 ##### Learn what our research says about the adoption of Copilot 
+
 Learn more about what our research says about the adoption of Copilot. The articles in this section range from practical guides on how to get started with Copilot to research findings related to the adoption and perceived impact of employees using Copilot within various Microsoft apps and services.
 
 ##### Glossary
+
 View this report's metric definitions.
 
 ### Power BI tips, FAQs, and troubleshooting 
+
 [Learn more](./power-bi-faq-troubleshoot.md) about how to share the report and other Power BI tips, troubleshoot any issues, or review the FAQ.
 
 ### Related topics
-[Access query results and modify existing queries](../query-results.md)
 
-[Filters](../filters.md)
+- [Access query results and modify existing queries](../query-results.md)
+- [Filters](../filters.md)
