@@ -14,7 +14,7 @@ audience: Admin
 # Import survey results from Viva Glint into Viva Insights (preview)
 
 >[!IMPORTANT]
-> This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 *Applies to: Viva Insights admin, Viva Glint admin*
 
