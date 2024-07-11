@@ -1,5 +1,5 @@
 ---
-ms.date: 06/19/2024
+ms.date: 07/11/2024
 title: Microsoft 365 Copilot impact report
 description: Learn how to use the Microsoft 365 Copilot impact Power BI template to understand the effects of Copilot usage among employees across your organization.
 author: zachminers
@@ -17,10 +17,10 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Microsoft 365 Copilot impact report
+# Microsoft 365 Copilot impact report (preview)
 
 >[!Important]
->This feature is in public preview. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+>This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 The **Microsoft 365 Copilot impact** report helps leaders understand the impact of Copilot usage among employees across their organization. The insights can help you evaluate the relationship between Copilot adoption and collaboration patterns. It also spotlights the total number of hours employees were “assisted” by Copilot in their daily work.
 

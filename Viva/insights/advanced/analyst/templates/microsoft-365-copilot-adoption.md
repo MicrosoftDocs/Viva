@@ -1,5 +1,5 @@
 ---
-ms.date: 06/19/2024
+ms.date: 07/11/2024
 title: Microsoft 365 Copilot adoption report
 description: Learn how to use the Microsoft 365 Copilot adoption Power BI template to understand Copilot employee usage across an organization.
 author: zachminers
