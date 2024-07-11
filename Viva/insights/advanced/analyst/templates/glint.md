@@ -36,7 +36,7 @@ Before we get started, you should know:
 
 This demonstration uses sample data that’s only representative of this report and might not be exactly what you see in a live report, which is specific to your organization's unique data.
 
-> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGM3NmEyYTAtMjlmNC00ZDg0LTkyYTItYmVmNjM3OGVlYzE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
+> [!VIDEO https://msit.powerbi.com/groups/me/apps/8a15d72a-6083-4c18-8d96-e1bf761752f9/reports/c0f549c9-c7f2-4605-8a3c-f5e420c031c7]
 
 ### Prerequisites 
 
