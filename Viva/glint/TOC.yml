@@ -177,6 +177,12 @@ items:
         href: setup/copilot-managers.md
       - name: Copilot FAQs
         href: setup/copilot-faqs.md
+  - name: Viva Glint and Viva Insights integration
+    items:
+       - name: Overview
+          href: viva/solutions/glint-insights-integration-overview.md
+       - name: Export Viva Glint survey results to Viva Insights 
+          href: setup/insights-integration.md
   - name: Create survey programs
     items: 
       - name: Set up and customize programs
