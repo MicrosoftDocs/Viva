@@ -10,6 +10,7 @@ audience: Admin
 ms.topic: article
 ms.service: viva-engage
 ms.localizationpriority: medium
+ms.collection: essentials-compliance
 search.appverid:
 - MET150
 - MOE150
