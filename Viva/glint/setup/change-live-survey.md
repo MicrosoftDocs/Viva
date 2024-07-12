@@ -14,24 +14,24 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/21/2024
+ms.date: 07/08/2024
 ---
 
 # Make changes to a live Viva Glint survey
 
-While many elements of a live survey can be adjusted, only make live edits when necessary.
+While some elements of a live survey can be adjusted, only make live edits when necessary.
 
-Preview your survey before launching and follow these practices:
+Preview your survey before launching. Follow these practices:
 
  - **Don't stop the survey**. Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.
- - **Make email and reminder edits only at the cycle level.** Changes at the program level don't apply to a live survey.
- - **Always leave the meaning of a question intact.** You may need to fix spelling, grammatical or translation errors.
+ - **Make email and reminder edits only at the cycle level.** Program level changes don't apply to a live survey.
+ - **Leave the meaning of a question intact.** If you need to fix spelling, grammatical or translation errors:
    - The adjusted question's/item's meaning should remain the same before and after edits.
    - To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.
  - **Always Save and re-approve.** When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://go.microsoft.com/fwlink/?linkid=2230749).
  - **Be consistent across languages.** Make text changes uniformly, across all languages included in the survey.
 
-The following content provides the required steps to edit a live survey. The information is broken out across ***Program Summary*** setup pages.
+Use the following information to edit a live survey. The information is broken out across ***Program Summary*** setup pages.
 
 ## Program Setup
 
@@ -59,7 +59,7 @@ The following content provides the required steps to edit a live survey. The inf
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. | [Use this guide](https://go.microsoft.com/fwlink/?linkid=2230918). Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Question text | The phrasing of a question needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
 | Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
 | Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
 
