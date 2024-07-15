@@ -31,12 +31,12 @@ These People Success Elements are embedded throughout the Viva research and deve
 
 |People Success Element|Core driver|Employee reflection|
 |----------|----------|-------------------|
-|**Wellbeing**| *Safety* and Wellness*| I am respected and feel safe, secure and equitably treated. I am entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
+|**Wellbeing**| *Safety* and Wellness*| I', respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
 |**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.​|
 |**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I am on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
-|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools and resources to work effectively. I am trusted to make decisions, take risks, and try new approaches in my work.​|
+|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
 |**Growth**|*Competence* and *Impact*| I maximize my strengths, take on challenging work, learn new skills, and diversify my experience to expand my impact and my opportunities.|
-|**Purpose**|*Meaning* and *Fulfillment*|I see how I am part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
+|**Purpose**|*Meaning* and *Fulfillment*|I see how I'm part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
 
 ## More resources
 
