@@ -31,7 +31,7 @@ These People Success Elements are embedded throughout the Viva research and deve
 
 |People Success Element|Core driver|Employee reflection|
 |----------|----------|-------------------|
-|**Wellbeing**| *Safety* and Wellness*| I', respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
+|**Wellbeing**| *Safety* and *Wellness*| I', respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
 |**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.​|
 |**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I am on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
 |**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
