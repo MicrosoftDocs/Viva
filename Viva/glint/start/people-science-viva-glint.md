@@ -29,7 +29,7 @@ Ultimately, Viva People Science is focused on enabling people to bring their bes
 
 These People Success Elements are embedded throughout the Viva research and development process and across Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
 
-||People Success Element|Employee experience outcomes|Employee critical needs being met|
+| |People Success Element|Employee experience outcomes|Employee critical needs being met|
 |-----|----------|----------|-------------------|
 |:::image type="icon" source="/office/media/icons/heart-blue.png" :::|**Purpose**|*Meaning* and *Fulfillment*|I see how I'm part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
 |:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png" :::|**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I'm on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
