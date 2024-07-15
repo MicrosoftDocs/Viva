@@ -29,16 +29,14 @@ Ultimately, Viva People Science is focused on enabling people to bring their bes
 
 These People Success Elements are embedded throughout the Viva research and development process and across Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
 
-|People Success Element|Employee experience outcomes|Employee critical needs being met|
-|----------|----------|-------------------|
-|**Purpose**|*Meaning* and *Fulfillment*|I see how I'm part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
-|**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I am on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
-|**Growth**|*Competence* and *Impact*| I maximize my strengths, take on challenging work, learn new skills, and diversify my experience to expand my impact and my opportunities.|
-|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
-|**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.|
-|**Wellbeing**| *Safety* and *Wellness*| I'm respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
-
-
+||People Success Element|Employee experience outcomes|Employee critical needs being met|
+|-----|----------|----------|-------------------|
+|:::image type="icon" source="/office/media/icons/heart-blue.png" :::|**Purpose**|*Meaning* and *Fulfillment*|I see how I'm part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
+|:::image type="icon" source="/office/media/icons/lightbulb-idea-capture-blue.png" :::|**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I'm on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
+|:::image type="icon" source="/office/media/icons/blocks-blue.png" :::|**Growth**|*Competence* and *Impact*| I maximize my strengths, take on challenging work, learn new skills, and diversify my experience to expand my impact and my opportunities.|
+|:::image type="icon" source="/office/media/icons/certificate-blue.png" :::|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
+|:::image type="icon" source="/office/media/icons/meeting.png" :::|**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.|
+|:::image type="icon" source="/office/media/icons/health-blue.png" :::|**Wellbeing**| *Safety* and *Wellness*| I'm respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
 
 ## More resources
 
