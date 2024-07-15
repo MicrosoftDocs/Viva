@@ -25,7 +25,7 @@ Viva People Science brings unique points of view based on science-backed researc
 
 Glint work is focused on enabling people to bring their best selves to work, in order to do their best work. Years of People Science research tell us that there are **six core elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). 
 
-## Viva People Science - The People Success Elements
+## The People Success Elements
 
 These People Success Elements are embedded throughout the Viva research and development process and within Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
 
