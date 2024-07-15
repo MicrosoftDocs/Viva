@@ -1,5 +1,5 @@
 ---
-title: How Viva People Science works with Viva Glint
+title: How Viva People Science supports Viva Glint
 description: Learn how Viva People Science works with Viva Glint to drive engagement, productivity, and performance.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,26 +17,28 @@ ms.localizationpriority: high
 ms.date: 07/15/2024
 ---
 
-# How Viva People Science works with Viva Glint
+# How Viva People Science supports Viva Glint
 
 The Microsoft Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. Integrations allow us to reimagine how Viva apps can deliver exceptional and impactful experiences in the workplace.
 
-Viva People Science brings unique points of view based on science-backed research, people-centric perspective, and a deep understanding of customer needs to help organizations craft meaningful employee experiences. Our knowledge and extensive experience creates a product that drives employee engagement and business results.
+Viva People Science brings unique points of view based on science-backed research, people-centric perspective, and a deep understanding of customer needs to help organizations deliver meaningful employee experiences. Our knowledge and extensive experience creates a product that drives employee engagement and business results.
 
-Glint work is focused on enabling people to bring their best selves to work, in order to do their best work. Years of People Science research tell us that there are **six core elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). 
+Ultimately, Viva People Science is focused on enabling people to bring their best selves to work, in order to do their best work. Years of People Science research tell us that there are **six foundational elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). 
 
 ## The People Success Elements
 
-These People Success Elements are embedded throughout the Viva research and development process and within Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
+These People Success Elements are embedded throughout the Viva research and development process and across Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
 
-|People Success Element|Core driver|Employee reflection|
+|People Success Element|Employee experience outcomes|Employee critical needs being met|
 |----------|----------|-------------------|
-|**Wellbeing**| *Safety* and *Wellness*| I'm respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
-|**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.​|
-|**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I am on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
-|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
-|**Growth**|*Competence* and *Impact*| I maximize my strengths, take on challenging work, learn new skills, and diversify my experience to expand my impact and my opportunities.|
 |**Purpose**|*Meaning* and *Fulfillment*|I see how I'm part of something bigger than myself – how the work I do has a meaningful impact on others and helps drive organization success.​|
+|**Clarity**|*Focus* and *Adaptability*|I know what success looks like and how to prioritize. I know when I am on track, and I get regular feedback that helps me change course as needed and make progress towards my goals.​|
+|**Growth**|*Competence* and *Impact*| I maximize my strengths, take on challenging work, learn new skills, and diversify my experience to expand my impact and my opportunities.|
+|**Empowerment**|*Autonomy* and *Trust*| I have access to the information, people, tools, and resources to work effectively. I'm trusted to make decisions, take risks, and try new approaches in my work.​|
+|**Connection**|*Inclusion* and *Belonging*|I feel a sense of belonging as a uniquely valued, trusted, and integral member of a diverse community of people who appreciate my contributions. I have collaborative and high-quality relationships with my colleagues.|
+|**Wellbeing**| *Safety* and *Wellness*| I'm respected and feel safe, secure, and equitably treated. I'm entrusted with the flexibility to best direct my talents, time, and energy to maintain my health and happiness.​|
+
+
 
 ## More resources
 
