@@ -70,7 +70,7 @@ A SharePoint home site is the front door to your organization’s intranet and a
 
    ![Image of Viva Connections desktop.](../media/connections/viva-connections-desktop.png)
 
-Start small by identifying a handful of resources and functions that the SharePoint home site can serve. Consider using a [customizable site template from the SharePoint look book called The Landing](https://lookbook.microsoft.com/details/c9300e94-6e83-471a-b767-b7878689e97e) to quickly get your SharePoint home site up and running. Optionally, turn your SharePoint home site into a [SharePoint hub site](/sharepoint/planning-hub-sites) to add an extra layer of navigation and increase the search scope.
+Start small by identifying a handful of resources and functions that the SharePoint home site can serve. Consider using a [customizable site template from the SharePoint look book called The Landing](https://adoption.microsoft.com/sharepoint-look-book/) to quickly get your SharePoint home site up and running. Optionally, turn your SharePoint home site into a [SharePoint hub site](/sharepoint/planning-hub-sites) to add an extra layer of navigation and increase the search scope.
 
 Learn more about [how to plan your SharePoint home site](/sharepoint/home-site-plan) and [how to launch healthy SharePoint sites](/sharepoint/portal-health).
 
