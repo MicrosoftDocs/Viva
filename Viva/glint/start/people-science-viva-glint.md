@@ -22,12 +22,12 @@ ms.date: 07/16/2024
 People Science is a research-backed and people-centric approach to the study and practice of happiness and success at work. It combines fields of study like 
 - industrial-organizational psychology,
 - organizational development,
-- and occupational psychology
+- occupational psychology
 
 with increasingly relevant fields like
 - data science,
 - product management,
-- and design.
+- design.
 
 These combinations allow reimagination of the employee experience to drive better individual and organizational outcomes.  
 
