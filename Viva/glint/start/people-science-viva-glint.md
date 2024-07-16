@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: Microsoft Viva Glint, People science
+keywords: Microsoft Viva Glint, People Science, Viva experts, Glint consultants
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -19,13 +19,17 @@ ms.date: 07/15/2024
 
 # How Viva People Science supports Viva Glint
 
-The Microsoft Viva People Science team integrates traditional social sciences like behavioral and organizational psychology with advances in data science, product management, and design. Integrations allow us to reimagine how Viva apps can deliver exceptional and impactful experiences in the workplace.
+People Science is a research-backed and people-centric approach to the study and practice of happiness and success at work. It integrates fields of study like industrial-organizational psychology, organizational development, and occupational psychology with increasingly relevant fields like data science, product management, and design to reimagine an employee experience that drives better individual and organizational outcomes.  
 
-Viva People Science brings unique points of view based on science-backed research, people-centric perspective, and a deep understanding of customer needs to help organizations deliver meaningful employee experiences. Our knowledge and extensive experience creates a product that drives employee engagement and business results.
+## Who are People Science experts?
 
-Ultimately, Viva People Science is focused on enabling people to bring their best selves to work, in order to do their best work. Years of People Science research tell us that there are **six foundational elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). 
+As People Science experts, we are consultants, researchers, analysts, content authors, product consultants, and customer advocates with deep expertise in engagement and employee experience. We're a product team which scales and reaches to improve the lives of millions of people at work.
+
+[Read What is People Scienc](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-is-people-science/ba-p/3946621) by Jaime Gonzles, leader of the Viva People Science Research & Development team.
 
 ## The People Success Elements
+
+Ultimately, Viva People Science is focused on enabling people to bring their best selves to work, in order to do their best work. Years of People Science research tell us that there are **six foundational elements** that organizations should use to build effective cultures, people-centric leaders, and engaged employees. We refer to these six core elements as the [People Success Elements](https://techcommunity.microsoft.com/t5/viva-glint-blog/the-elements-of-people-success/ba-p/3791765). 
 
 These People Success Elements are embedded throughout the Viva research and development process and across Viva Glint survey programs, guidance, resources, and training materials. They help drive engagement, productivity, and performance.
 
