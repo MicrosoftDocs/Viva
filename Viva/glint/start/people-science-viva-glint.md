@@ -14,18 +14,28 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/15/2024
+ms.date: 07/16/2024
 ---
 
 # How Viva People Science supports Viva Glint
 
-People Science is a research-backed and people-centric approach to the study and practice of happiness and success at work. It integrates fields of study like industrial-organizational psychology, organizational development, and occupational psychology with increasingly relevant fields like data science, product management, and design to reimagine an employee experience that drives better individual and organizational outcomes.  
+People Science is a research-backed and people-centric approach to the study and practice of happiness and success at work. It combines fields of study like 
+- industrial-organizational psychology,
+- organizational development,
+- and occupational psychology
+
+with increasingly relevant fields like
+- data science,
+- product management,
+- and design.
+
+These combinations allow reimagination of the employee experience to drive better individual and organizational outcomes.  
 
 ## Who are People Science experts?
 
-As People Science experts, we are consultants, researchers, analysts, content authors, product consultants, and customer advocates with deep expertise in engagement and employee experience. We're a product team which scales and reaches to improve the lives of millions of people at work.
+As People Science experts, we're consultants, researchers, analysts, content authors, product consultants, and customer advocates with deep expertise in engagement and employee experience. We're a product team that scales and reaches to improve the lives of millions of people at work.
 
-[Read What is People Scienc](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-is-people-science/ba-p/3946621) by Jaime Gonzles, leader of the Viva People Science Research & Development team.
+[Read What is People Science](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/what-is-people-science/ba-p/3946621) by Jaime Gonzales, leader of the Viva People Science Research & Development team.
 
 ## The People Success Elements
 
