@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: viva strengths and opportunities
+keywords: language codes, language IDs
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/28/2023
+ms.date: 07/16/2024
 ---
 
 # Manage language translations in Viva Glint programs 
 
-English is the default language for all Microsoft Viva Glint programs, but surveys and email communications should be sent to employees in their preferred language. Viva Glint provides customers with more than 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Exporting a file that includes the default language and all relevant translations allows reviewing, adding, or editing translations to happen in one place. 
+English is the default language for all Microsoft Viva Glint programs, but surveys and email communications should be sent to employees in their preferred language. Glint provides customers with about 70 language translations for standard program content. Language translations are set during the initial survey configuration or added later as needed. Exporting a file that includes the default language and all relevant translations allows reviewing, adding, or editing translations to happen in one place. 
 
 Translations may be needed for email communications and survey content such as single-item questions, statements, multiple-choice questions, rating labels, and text snippets.  
 
@@ -28,7 +28,10 @@ There are four steps for making language translations:
 1. Export content from the Viva Glint program into a *.csv* or *.xlsx* file 
 2. Translate content 
 3. Review translations 
-4. Import content back into the Viva Glint program 
+4. Import content back into the Viva Glint program
+
+> [!TIP]
+> [Language codes](https://www.codetwo.com/admins-blog/list-of-office-365-language-id) can be found on this Microsoft 365 page. Not all languages listed are available for Glint programs. Use this comprehensive list to find codes for languages permissioned on your Glint platform.
 
 ## Export survey and email text 
 
