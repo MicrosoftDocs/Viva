@@ -22,7 +22,7 @@ ms.date: 07/16/2024
 
 # Introduction to Microsoft Viva Glint
 
-Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization by measuring employee engagement and translating insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint).
+Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization. Create a people-science based measurement strategy to assess employee engagement and translate insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint).
 
 ### Get started
 
@@ -61,7 +61,6 @@ Use Viva Glint learning paths and modules to gain badges and deepen your underst
 |:::image type="icon" source="/office/media/icons/notebook-blue.png" ::: | **Learning paths and modules** | <ul><li>[Courses for admins](https://go.microsoft.com/fwlink/?linkid=2275357)</li> <li>[Courses for Managers](https://go.microsoft.com/fwlink/?linkid=2275358)</li></ul>|
 |:::image type="icon" source="/office/media/icons/certificate-blue.png" ::: | **Badge certifications** | <ul><li>[Viva Glint Foundations badge](https://go.microsoft.com/fwlink/?linkid=2275359)</li> <li>[Viva Glint Manager badge](https://go.microsoft.com/fwlink/?linkid=2275437)</li></ul>|
 
-
 ### Get support
 
 Find support for technical, product, deployment, or authentication issues.
@@ -69,10 +68,5 @@ Find support for technical, product, deployment, or authentication issues.
 | :::image type="icon" source="/office/media/icons/help.png" ::: |Support type | Avenues|
 |:---|:---|:---|
 |:::image type="icon" source="/office/media/icons/headset-blue.png" ::: | Technical or product questions| <ul><li>[Microsoft 365 support](https://go.microsoft.com/fwlink/?linkid=2272576)</li></ul> |
-|:::image type="icon" source="/office/media/icons/walkthrough-map-blue.png" ::: | Microsoft FastTrack deployment support | <ul><li>[Check eligibility](/microsoft-365/fasttrack/eligibility)</li> <li>If you're registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) to request support</li> <li>[Register here](https://www.microsoft.com/fasttrack/microsoft-viva) by selecting Sign In and submitting a request</li></ul>|
+|:::image type="icon" source="/office/media/icons/walkthrough-map-blue.png" ::: | Microsoft FastTrack deployment support | <ul><li>[Check eligibility](/microsoft-365/fasttrack/eligibility)</li> <li>If registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) to request support</li> <li>[Register here](https://www.microsoft.com/fasttrack/microsoft-viva) by selecting Sign In and submitting a request</li></ul>|
 |:::image type="icon" source="/office/media/icons/authentication.png" ::: | Authentication and identity/access management questions | <ul><li>[Microsoft Entra ID support](/entra/fundamentals/how-to-get-support)</li></ul>|
-
-
-      
-     
-
