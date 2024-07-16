@@ -77,7 +77,7 @@ For more best practices and how to set team meeting rules and policy, see [Best 
 
 Pressure to "always be on" and long hours can lead to burnout. The amount of time managers spend collaborating outside of business hours is an indicator of burnout risk.
 
-Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support wellbeing:
+Here are some ways to support employee wellbeing:
 
 * Use [personal wellbeing data](/viva/insights/personal/Use/wellbeing) about after-hours activity and encourage them to disconnect.
 * Use the [Inline suggestions in Outlook](/viva/insights/personal/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with coworkers' configured working hours.
