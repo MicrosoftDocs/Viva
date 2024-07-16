@@ -63,7 +63,7 @@ This section describes why each of the following behaviors matter and the top be
 
 Rapid shifts in ways of working can blur the line between 'home' and 'work'. One indicator of burnout risk is the amount of time employees spend collaborating outside of standard business hours.
 
-Based on research presented in the [Why unplugging from work is more work than we think](https://insights.office.com/productivity/unplugging/): "New research and our growing understanding about human behavior tell us two things for certain: that unplugging is more necessary than ever, and that true unplugging is not a single action but a social agreement — a culture shift that employees and companies must create together." Ways to support employee wellbeing:
+Here are some ways to support employee wellbeing:
 
 * Use [personal wellbeing insights](/viva/insights/personal/use/wellbeing) to learn about your after-hours work habits and to encourage you to disconnect and recharge.
 * Utilize [Inline suggestions in Outlook](/viva/insights/personal/Use/mya-notifications#delay-delivery) to automatically delay email delivery to align with configured working hours of coworkers.
@@ -98,7 +98,7 @@ For more best practices and ways to establish 'meeting-free' periods, see [Best 
 
 Rapidly changing conditions require swift decision making. Managers with poor calendar management habits become obstacles to team goal attainment and create bottlenecks in decision making.
 
-According to [Five ways to empower your team to make decisions](https://insights.office.com/management-strategy/five-ways-to-empower-your-team-to-make-decisions/): “Employee empowerment is directly tied to results. A study by Zenger Folkman found 4 percent of employees are willing to put in more effort when empowerment is low, while 67 percent are willing to go above and beyond when empowerment is high.” Other ways to empower decision making:
+Here are some ways to empower employee decision making:
 
 * Provide wide access to [Teams meeting recordings](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24) and [meeting notes](https://support.microsoft.com/office/add-a-onenote-notebook-to-teams-0ec78cc3-ba3b-4279-a88e-aa40af9865c2) in public channels whenever possible to increase the rate of information sharing.
 * Use [Teams channels](/microsoftteams/teams-channels-overview) to share information as it emerges both formally through notes and files and informally through chats.
