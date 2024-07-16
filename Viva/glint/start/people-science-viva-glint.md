@@ -56,5 +56,5 @@ These People Success Elements are embedded throughout the Viva research and deve
 
 Specifically for Viva Glint, the Viva People Science team compiled foundational research on 
 - How to [define a measurement strategy](https://adoption.microsoft.com/files/viva/glint/Defining-a-measurement-strategy.pdf) in the modern world of work
-- How to [effectively design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf) that best drive business results
+- How to [effectively design a survey](https://adoption.microsoft.com/files/viva/glint/Survey-design-principles-with-Microsoft-Viva-Glint.pdf) that best drives business results
 - How to [propel action taking through conversations](https://adoption.microsoft.com/files/viva/glint/Propel-action-taking-through-conversations-with-Microsoft-Viva-Glint.pdf)
