@@ -94,6 +94,8 @@ items:
             href: advanced/admin/dynamic-metric-load.md
           - name: Import survey data from Viva Glint
             items:
+            - name: Integrate Viva Glint and Viva Insights
+              href: /viva/solutions/glint-insights-integration-overview.md
             - name: Import survey results
               href: advanced/admin/import-survey-glint.md
           - name: Create partitions
