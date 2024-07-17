@@ -165,7 +165,7 @@ The following steps you through how to automate the export of Workplace Analytic
 13. In **Set Properties**, enter a name and create a new linked service.
 14. In **New linked service (Odata)**, enter a name and description for the query data you’re linking to.
 15. In **Connect via integration runtime**, select **AutoResolveIntegrationRuntime**.
-16. In Viva Insights in [Workplace Analytics](https://workplaceanalytics.office.com), select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
+16. In Viva Insights in Workplace Analytics, select **Analyze** > **Query designer** > **Results**, and then copy the OData link for the query data you want to connect to Azure.
 
     >[!Important]
     >For automatically refreshed data, you must link to a query that uses the Auto-refresh option. For static query results, you’ll need to enter a new OData link each time to update the query data in the connected Azure data store.
