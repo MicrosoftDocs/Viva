@@ -108,6 +108,8 @@ items:
             href: advanced/admin/keyword-suppression.md
           - name: Use the Admin Center and dashboard
             href: advanced/admin/admin-center.md
+          - name: Manage settings for the Copilot Dashboard
+            href: advanced/admin/manage-settings-copilot-dashboard.md
           - name: View and customize your general settings
             href: advanced/admin/general-settings.md
           - name: Use and configure the Admin Digest email 
