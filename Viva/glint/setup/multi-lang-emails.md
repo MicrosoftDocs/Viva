@@ -46,8 +46,8 @@ Or you may want to use triple language emails to send users survey emails that c
 
 In dual and triple language emails, when a survey participant selects any Provide Feedback button:
 
-- They're taken to the survey welcome page in the survey language code tied to their user profile.
-- They're taken to the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile.
+- They're taken to the survey welcome page in the survey language code tied to their user profile and can select a different language from the dropdown menu.
+- They're taken to the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile and can select a different language from the dropdown menu.
 
 ### Confirm that your organization uses a language attribute
 
