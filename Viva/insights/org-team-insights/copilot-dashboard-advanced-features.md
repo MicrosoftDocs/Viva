@@ -97,7 +97,7 @@ Your Insights admin needs to upload "FunctionType" Viva attributes for you to vi
 
 After you've deployed Copilot in your organization, this page allows you to track user adoption trends per Microsoft 365 app and Copilot feature.
 
-The page included with a Microsoft 365 subscription displays aggregate metrics at the tenant level. [Learn about these metrics](./copilot-dashboard.md#adoption).  
+The page included with a Microsoft 365 subscription displays aggregate metrics at the tenant level.
 
 With a Viva Insights subscription, the page consists of metrics for employees who have a Viva or Viva Insights license. With this version of the dashboard, three main insights are covered.
 
