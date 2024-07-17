@@ -31,7 +31,6 @@ Use emails with two or three unique language sections in Microsoft Viva Glint to
 > [!NOTE]
 > - Multiple language emails are for survey communications only and aren’t supported for Team Conversations emails.
 > - Multiple language emails don’t currently support multiple paragraphs/paragraph breaks.
-> - Multiple language emails don’t support right to left languages.
 
 ## How multiple language emails work
 
@@ -45,7 +44,10 @@ Or you may want to use triple language emails to send users survey emails that c
 
 :::image type="content" source="../../media/glint/setup/three-lang-preview.png" alt-text="Screenshot of an email preview for a triple language email with sections in English, Spanish, and French.":::
 
-In dual and triple language emails, a survey participant can select the desired Provide Feedback button to go to the survey in their preferred language.
+In dual and triple language emails, when a survey participant selects any Provide Feedback button:
+
+- They're taken to the survey welcome page in the survey language code tied to their user profile.
+- They're taken to the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile.
 
 ### Confirm that your organization uses a language attribute
 
