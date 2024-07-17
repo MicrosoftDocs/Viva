@@ -1,6 +1,6 @@
 ---
 ms.date: 07/18/2024
-title: View and customize your general settings
+title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
 ms.author: v-zachminers
@@ -59,10 +59,10 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home
 
 **Delegate access to the dashboard:**
 
-If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md).
+If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../../org-team-insights/delegate-access.md).
 
 >[!Note]
->Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../insights/advanced/setup-maint/setup-overview.md) (it is on by default).
+>Employees can view the dashboard in the Viva Insights Teams or web app. To install the Teams app, please use [these instructions](../../advanced/setup-maint/setup-overview.md) (it is on by default).
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
