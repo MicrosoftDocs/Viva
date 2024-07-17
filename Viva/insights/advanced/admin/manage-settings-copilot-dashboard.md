@@ -227,3 +227,7 @@ You can access this feature in the [Microsoft 365 Admin Center](https://admin.mi
 To add or remove users from the list, upload a .csv file or select an Azure Active Directory (AAD) group. The CSV file should have one column with the header "PersonId” and the values should be the email addresses for the users you want excluded. You can append or replace the existing list with the new upload.
 
 You can also validate, confirm, view, and undo the upload in the admin center. This feature doesn’t affect other Viva Insights scenarios, such as the personal dashboard or the manager dashboard. This feature is subject to data validations and formatting rules to ensure the accuracy and quality of the data.
+
+## Related topic
+
+[Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](../../org-team-insights/copilot-dashboard.md)
