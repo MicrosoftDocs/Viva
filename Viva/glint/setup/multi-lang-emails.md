@@ -1,6 +1,6 @@
 ---
 title: Use multiple languages in Viva Glint survey emails (preview)
-description: Use emails with two or three unique language sections in Microsoft Viva Glint to ensure that your global employee population receives communications that they can understand.
+description: To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
@@ -23,7 +23,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!NOTE]
 > This feature is available to preview customers only. Features described here are subject to change.
 
-Use emails with two or three unique language sections in Microsoft Viva Glint to ensure that your global employee population receives communications that they can understand. Use cases include:
+To ensure that your global employee population receives communications that they can understand, use emails with two or three unique language sections in Microsoft Viva Glint. Use cases include:
 
 - Adherence to local guidelines that require organizations to communicate in multiple languages.
 - Unreliable language preference information in employee data.
@@ -44,10 +44,10 @@ Or you may want to use triple language emails to send users survey emails that c
 
 :::image type="content" source="../../media/glint/setup/three-lang-preview.png" alt-text="Screenshot of an email preview for a triple language email with sections in English, Spanish, and French.":::
 
-In dual and triple language emails, when a survey participant selects any Provide Feedback button:
+In dual and triple language emails, when a survey participant selects a Provide Feedback button in any language section:
 
-- They're taken to the survey welcome page in the survey language code tied to their user profile and can select a different language from the dropdown menu.
-- They're taken to the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile and can select a different language from the dropdown menu.
+- They land on the survey welcome page in the survey language code tied to their user profile. Participants can select a different language from the dropdown menu.
+- They land on the survey welcome page in the default survey language when there's an invalid or blank language code tied to their user profile. Participants can select a different language from the dropdown menu.
 
 ### Confirm that your organization uses a language attribute
 
