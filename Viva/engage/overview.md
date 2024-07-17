@@ -16,6 +16,7 @@ ms.collection:
 - M365initiative-viva
 - highpri
 - essentials-navigation
+- essentials-overview
 search.appverid:
 - MET150
 ---
