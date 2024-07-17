@@ -442,7 +442,7 @@ Once you’ve formatted the .csv file accordingly, use these steps to upload it:
 
 Under the Learning tab, here you find research around the impacts of AI on workplace productivity. Use this page to stay up to speed on the latest findings from Microsoft’s own AI research teams.
 
-## Add Copilot metrics to your custom person query
+### Add Copilot metrics to your custom person query
 
 *Applies to: Viva Insights analyst*
 
