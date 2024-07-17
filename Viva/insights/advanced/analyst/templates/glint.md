@@ -118,7 +118,7 @@ See an overview about the survey you're analyzing:
 
 View the four survey questions with the strongest relationships to Viva Insights metrics. These questions and metrics are presented on cards that contain this information:
 
-* Glint survey score for the question, averaged from all respondents 
+* Glint survey score for the question averaged from all respondents 
 * Question text
 * Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
 * Name of the related Viva Insights metric
