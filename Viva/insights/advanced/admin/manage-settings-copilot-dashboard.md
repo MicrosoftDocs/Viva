@@ -66,7 +66,7 @@ If you have access to the dashboard, you can also delegate access to the dashboa
 
 ### Remove access to the dashboard for the entire tenant with Powershell
 
-You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
+You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
@@ -82,7 +82,7 @@ You can set a policy to disable the dashboard for the tenant using Powershell cm
 ```
 ### Turn off dashboard auto-enablement with Powershell 
 
-This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. Note that this control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies.  [Learn more about how to set these policies](/viva/feature-access-management).
+This feature access control allows Global admins to enable or disable the auto-enablement feature for the Copilot Dashboard in their tenant. This control supports tenant-level policies only, not user or group-level policies. You can set tenant polices using PowerShell cmdlets. Learn more about how to set these policies.  [Learn more about how to set these policies](/viva/feature-access-management).
 
 * **Default state**: Enabled, meaning that eligible users will be auto-enabled for access to the dashboard based on the identification criteria.
 
@@ -125,7 +125,7 @@ There are two ways you can upload Organizational data:
 
 2. Your Microsoft 365 Global admin can upload data through the admin center using [these steps](/viva/organizational-data).
 
-If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data will not show in the dashboard.
+If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
 
 Below are the attributes that are used in the Copilot dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
 
@@ -181,7 +181,7 @@ You can upload a list of users for cohort analysis in the [Microsoft 365 Admin C
 
 2. Select **Manage non-Copilot users**. 
 
-3. Select **Import users**. Then choose the upload mode: **Add to existing users** or **Replace all existing with new users**. **Add to existing users** will add the new users to the existing list, while **Replace all existing with new users** will overwrite the existing list with the new users.
+3. Select **Import users**. Then choose the upload mode: **Add to existing users** or **Replace all existing with new users**. **Add to existing users** adds the new users to the existing list, while **Replace all existing with new users** overwrites the existing list with the new users.
 
     :::image type="content" source="../images/cohort-upload-01.png" alt-text="Screenshot that shows how import new Copilot users.":::
 
@@ -189,9 +189,9 @@ You can upload a list of users for cohort analysis in the [Microsoft 365 Admin C
 
     :::image type="content" source="../images/cohort-upload-02.png" alt-text="Screenshot that shows how import new users from a csv file.":::
 
-5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and allow you to download a detailed report or fix the errors in the file. 
+5. Validate the list of users: Before you upload the list, you can validate the data to ensure that it’s accurate and compliant with the formatting rules. The validation checks for errors such as missing or invalid attributes, duplicate or conflicting records, or unsupported characters. The validation results show the number of errors, warnings, and successful records, and allows you to download a detailed report or fix the errors in the file. 
 
-6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allow you to download the full list or undo the upload.
+6. Confirm the list of users: After you upload the list, you can confirm the data and view a summary of the upload status, such as the number of users added, removed, or updated, the upload mode, and the upload date and time. The confirmation also shows a sample of the uploaded data and allows you to download the full list or undo the upload.
 
 #### Cohort upload scenarios based on Viva Insights licenses
 
@@ -220,7 +220,7 @@ When the tenant purchases Viva Insights licenses allocated to non-Copilot users,
 
 Your organization may want to exclude certain employees’ collaboration data from being measured in the dashboard for various reasons, such as legal compliance or ethical concerns.  
 
-The exclusion list feature lets Global admins honor these requests and allows Global admins to exclude specific employeesfrom having their collaboration data analyzed and displayed in the dashboard. 
+The exclusion list feature lets Global admins honor these requests and allows Global admins to exclude specific employees from having their collaboration data analyzed and displayed in the dashboard. 
 
 You can access this feature in the [Microsoft 365 Admin Center](https://admin.microsoft.com) under the **Copilot Dashboard** section. 
 
