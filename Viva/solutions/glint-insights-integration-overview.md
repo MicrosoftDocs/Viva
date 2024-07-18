@@ -15,7 +15,6 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.date: 07/17/2024
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
