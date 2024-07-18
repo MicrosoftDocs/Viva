@@ -29,8 +29,10 @@ To ensure that your global employee population receives communications that they
 - Unreliable language preference information in employee data.
 
 > [!NOTE]
-> - Multiple language emails are for survey communications only and aren’t supported for Team Conversations emails.
-> - Multiple language emails don’t currently support multiple paragraphs/paragraph breaks.
+> - Multiple language emails: 
+>   - are for survey communications only and aren’t supported for Team Conversations emails.
+>   - don’t currently support multiple paragraphs/paragraph breaks.
+>   - don't currently support right to left languages.
 
 ## How multiple language emails work
 
