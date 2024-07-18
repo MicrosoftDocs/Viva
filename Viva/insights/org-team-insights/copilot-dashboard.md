@@ -344,7 +344,7 @@ This analysis helps you compare collaboration activities between employees who u
 | Category | Metric | Definition |
 |---|---|---|
 | Meetings | Conflicting meeting hours | The number of meeting hours where employees had overlapping meetings on their calendar. The count includes only the amount of time that overlaps. |
-|   | Attended meetings | The number of meetings employeesusers attended in Teams which had two or more attendees. |
+|   | Attended meetings | The number of meetings users attended in Teams that had two or more attendees. |
 |  | Meeting hours | The number of hours employees spent in meetings with at least one other person during and outside of working hours. |
 |   | Total meetings | The number of meetings an employee organized, accepted, or joined. |
 |   | Multitasking meeting hours | The number of hours employees spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or Teams call.|
