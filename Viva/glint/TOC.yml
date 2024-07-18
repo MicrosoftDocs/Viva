@@ -186,9 +186,9 @@ items:
        - name: Import survey results from Viva Glint into Viva Insights (preview)
          href: ../insights/advanced/admin/import-survey-glint.md
        - name: Glint and organizational insights report (preview)
-         href: ../viva/insights/advanced/analyst/templates/glint.md
+         href: ../insights/advanced/analyst/templates/glint.md
        - name: Partitions in Viva Insights
-         href: ../viva/insights/advanced/admin/partitions.md
+         href: ../insights/advanced/admin/partitions.md
   - name: Create survey programs
     items: 
       - name: Set up and customize programs
