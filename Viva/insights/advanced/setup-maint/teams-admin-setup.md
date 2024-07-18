@@ -26,6 +26,9 @@ The Viva Insights app is automatically installed in Teams once the admin enables
 >
 >To pin or uninstall the app, users can follow the instructions in [Discover and pin the Viva Insights app](https://support.microsoft.com/topic/discover-and-pin-the-viva-insights-app-3b8db3ff-17b7-4d41-b2eb-f593530abfc7).
 
+>[!Important]
+>Headspace functionality in Viva Insights will no longer be available beginning July 25, 2024.
+
 ## Prerequisites
 
 Before people in your organization can use the Viva Insights app, they need to have:

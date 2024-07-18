@@ -17,6 +17,9 @@ audience: Admin
 
 # Admin tasks for Viva Insights
 
+>[!Important]
+>Headspace functionality in Viva Insights will no longer be available beginning July 25, 2024.
+
 As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can deploy and pin the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 ## Prerequisites
