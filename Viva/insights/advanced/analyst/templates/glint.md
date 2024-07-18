@@ -34,7 +34,7 @@ Before we get started, you should know:
 
 [!INCLUDE [Demonstration](includes/demonstration.md)]
 
-> [!VIDEO https://aka.ms/vi-pbi-demos]
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGM3NmEyYTAtMjlmNC00ZDg0LTkyYTItYmVmNjM3OGVlYzE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
 
 ### Prerequisites 
 
