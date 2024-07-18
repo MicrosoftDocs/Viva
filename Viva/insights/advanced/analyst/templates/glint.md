@@ -32,6 +32,10 @@ Before we get started, you should know:
 * Your survey data imports from Glint to Viva Insights through an API. [Your admin needs to set up this connection](..//../admin/import-survey-glint.md).
 * To populate the report in Power BI, you’ll need to set up and successfully run the predefined **Glint and organizational** query in Viva Insights. 
 
+[!INCLUDE [Demonstration](includes/demonstration.md)]
+
+> [!VIDEO https://msit.powerbi.com/view?r=eyJrIjoiZGM3NmEyYTAtMjlmNC00ZDg0LTkyYTItYmVmNjM3OGVlYzE5IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9]
+
 ### Prerequisites 
 
 Before you can run the queries and populate the report in Power BI, you’ll need to:
