@@ -19,9 +19,6 @@ audience: Admin
 
 # Environment requirements for Viva Insights
 
->[!Important]
->Headspace functionality in Viva Insights will no longer be available beginning July 25, 2024.
-
 Environment requirements vary depending on the type of insights you view in Microsoft Viva Insights. The types of insights are: personal insights, manager insights or leader insights in Microsoft Teams, and advanced insights in the web-based service.
 
 ## Personal insights

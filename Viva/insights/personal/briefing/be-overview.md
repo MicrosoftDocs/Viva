@@ -19,9 +19,6 @@ manager: helayne
 # Briefing email overview
 
 >[!Important]
->Headspace functionality in Viva Insights will no longer be available beginning July 25, 2024.
-
->[!Important]
 >We're pausing sending Briefing emails starting January 15, 2023, to make some improvements. You can still access the [Viva Insights Outlook add-in](../use/add-in.md) or [Viva Insights app in Teams](../teams/introduction.md) for key functionality until this service resumes. For more information about this change, see [Briefing pause](../reference/briefing-pause.md).
 
 
