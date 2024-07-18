@@ -23,7 +23,7 @@ audience: Admin
 
 *Applies to: Microsoft 365 global admins and Viva Insights admins* 
 
-As a Microsoft 365 global admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
+As a Microsoft 365 global admin or Viva Insights admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
 
 ### Manage access for individual users
 
