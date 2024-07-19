@@ -36,21 +36,21 @@ Your configuration experience with Organizational Data in Microsoft 365 and Micr
 
 The first time you (as a tenant admin) open Organizational Data in Microsoft 365, you see a message about checking your licensing. Once your license is verified, the feature is provisioned - this can take up to one hour, at which point you can upload custom organization data.
 
-:::image type="content" source="media/orgdata-copilot-1.jpg" alt-text="A screenshot of the Organizational Data landing page the first time you access it.":::
+:::image type="content" source="media/orgdata-copilot-1.jpg" lightbox="media/media/orgdata-copilot-1.jpg" alt-text="A screenshot of the Organizational Data landing page the first time you access it.":::
 
 After the experience has been provisioned and loaded, you see the following screen: 
 
-:::image type="content" source="media/orgdata-copilot-2.jpg" alt-text="A screenshot of the data attributes landing page without any data.":::
+:::image type="content" source="media/orgdata-copilot-2.jpg" lightbox="media/orgdata-copilot-2.jpg" alt-text="A screenshot of the data attributes landing page without any data.":::
 
 By default, because this is your first time using Organizational Data in Microsoft 365 (meaning you haven't already imported your org's data), you see data from Microsoft Entra ID. (But this can take up to seven days post-provisioning.)
 
 Until you import org data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the org data page indicates the source for the Copilot Dashboard data.
 
-:::image type="content" source="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
+:::image type="content" source="media/orgdata-copilot-3.jpg" lightbox="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
 
 To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data imports** tab to import your org data.
 
-:::image type="content" source="media/orgdata-copilot-4.png" alt-text="A screenshot of the Data imports page.":::
+:::image type="content" source="media/orgdata-copilot-4.png" lightbox="media/orgdata-copilot-4.png" alt-text="A screenshot of the Data imports page.":::
 
 You must include the **Microsoft_ManagerEmail** and **Microsoft_Organization** attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
 
@@ -60,7 +60,7 @@ For the best experience using the Copilot dashboard, it’s recommended that you
 
 It can take up to seven days to process, validate, and load your data into the Copilot dashboard. Once the data is validated, you can see the uploaded data in the data over section as follows:  
 
-:::image type="content" source="media/orgdata-copilot-5.jpg" alt-text="A screenshot of the data attributes page with the tenant's org data.":::
+:::image type="content" source="media/orgdata-copilot-5.jpg" lightbox="media/orgdata-copilot-5.jpg" alt-text="A screenshot of the data attributes page with the tenant's org data.":::
 
 
 If importing your data fails, you see a warning message in the portal. Try the upload again.
@@ -68,7 +68,7 @@ If importing your data fails, you see a warning message in the portal. Try the u
 ## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
 If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads aren't immediately used to power the Copilot Dashboard. The first time you see the Copilot Dashboard, it defaults to using Microsoft Entra ID data (and can take up to seven days to show any data). If you want to use your organizational data instead of the Microsoft Entra ID data in the dashboard, reimport your org data. 
 
-:::image type="content" source="media/orgdata-copilot-6.jpg" alt-text="A screenshot of the Data imports page with a message to reimport data.":::
+:::image type="content" source="media/orgdata-copilot-6.jpg" lightbox="media/orgdata-copilot-6.jpg" alt-text="A screenshot of the Data imports page with a message to reimport data.":::
 
 ## Customers with both Viva Insights or Viva Suite *and* Copilot licenses  
 
