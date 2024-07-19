@@ -67,54 +67,22 @@ Toggle to **all uploaded attributes** to see the same subset of data,
 If importing your data fails, you'll see a warning message in the portal. Try the upload again.
 
 ## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
-If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads will not be immediately used to power Copilot Dashboard. On your first seeing Copilot Dashboard, it will default to using Entra data and can take up to 7 days to reflect. If you want data uploaded via Organizational Data in M365 to surface in Copilot Dashboard, perform another upload. That upload will then be surfaced in your Copilot Dashboard  
+If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads aren't immediately used to power the Copilot Dashboard. THe first time you see the Copilot Dashboard, it defaults to using Entra ID data (and can take up to 7 days to show andy data). If you want to use your organizational data instead of the Entra ID data in the dashboard, reimport your org data. 
 
- 
+## Customers with both Viva Insighsts or Viva Suite *and* Copilot licenses  
 
- 
+If you have both a Viva Insights or Viva Suite license and a Copilot license, when you upload org data, it's shared with Viva Insights to use in the Copilot dashboard. See [File rules and validation errors](/insights/advanced/admin/rules-validation-errors.md) for information about the rules and validation errors for this upload.
 
-## Customers with both VI/VS and Co-Pilot licenses  
+## Details about your org data
 
-If you choose to upload data from MODIS, it will be sent to Viva Insights for usage in the Copilot dashboard. The rules and validation errors for this upload are documented at File rules and validation errors | Microsoft Learn. For customers with Viva Insights licenses and Co-pilot licenses please see the following for more details: Import and use Organizational Data in Microsoft 365-5.9.24.docx 
+You can view the following quality information about your org data on the **Data overview** tab. 
 
-Data Quality 
+|Data quality attribute|Meaning|
+|-|-|
+|Imported attributes|Names of your imported attributes as they appear in Microsoft 365| 
+|Copilot dashboard attributes|These attributes will appear in your Copilot dashboard| 
+|Quality score|% of rows in an upload that contain data and aren’t blank| 
+|Employee with this field|# of employees who have had data uploaded for the field|  
+|Unique values|This shows the number of different options within each attribute field| 
+|Last updated|Date of last upload of attribute| 
 
-There are 6 headers for data quality 
-
-Data Quality headers 
-
-Meaning  
-
-Imported attributes 
-
-Names of your imported attributes as they appear in Microsoft 365 
-
-Copilot dashboard attributes 
-
-These attributes will appear in your copilot dashboard 
-
-Quality score  
-
-% of rows in an upload that contain data and aren’t blank.  
-
-Employee with this field 
-
-# of employees who have had data uploaded for the field  
-
-Unique values 
-
-This shows the number of different options within each attribute field 
-
-Last updated  
-
-Date of last upload of attribute 
-
- 
-
- 
-
-Things to add/unsure where to add or if to add 
-
-To learn more about switching back to entra data see page 11: Import and use Organizational Data in Microsoft 365-5.9.24.docx 
-
- 
