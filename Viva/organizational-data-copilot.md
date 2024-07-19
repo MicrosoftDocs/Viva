@@ -48,9 +48,9 @@ Until you import org data, the Copilot Dashboard uses the data from Microsoft En
 
 :::image type="content" source="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
 
-To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data Import** tab to import your org data.
+To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data imports** tab to import your org data.
 
-:::image type="content" source="media/orgdata-copilot-4.png" alt-text="A screenshot of the data import page.":::
+:::image type="content" source="media/orgdata-copilot-4.png" alt-text="A screenshot of the Data imports page.":::
 
 You must include the Microsoft_ManagerEmail and Microsoft_Organization attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
 
@@ -68,7 +68,7 @@ If importing your data fails, you see a warning message in the portal. Try the u
 ## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
 If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads aren't immediately used to power the Copilot Dashboard. The first time you see the Copilot Dashboard, it defaults to using Microsoft Entra ID data (and can take up to seven days to show any data). If you want to use your organizational data instead of the Microsoft Entra ID data in the dashboard, reimport your org data. 
 
-:::image type="content" source="media/orgdata-copilot-6.jpg" alt-text="A screenshot of the data import landing page with a message to reimport data.":::
+:::image type="content" source="media/orgdata-copilot-6.jpg" alt-text="A screenshot of the Data imports page with a message to reimport data.":::
 
 ## Customers with both Viva Insights or Viva Suite *and* Copilot licenses  
 
