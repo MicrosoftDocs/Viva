@@ -52,9 +52,9 @@ To make sure you have the highest quality and freshest data to power your Copilo
 
 :::image type="content" source="media/orgdata-copilot-4.png" alt-text="A screenshot of the Data imports page.":::
 
-You must include the Microsoft_ManagerEmail and Microsoft_Organization attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
+You must include the **Microsoft_ManagerEmail** and **Microsoft_Organization** attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
 
-On subsequent uploads if you choose to upload *either* Microsoft_ManagerEmail or Microsoft_Organization, at least 95% of your users must include data for those attributes. If not, the upload fails. If you choose to *omit* those two attributes, the upload succeeds and you see the new data in the Copilot Dashboard. 
+On subsequent uploads if you choose to upload *either* **Microsoft_ManagerEmail** or **Microsoft_Organization**, at least 95% of your users must include data for those attributes. If not, the upload fails. If you choose to *omit* those two attributes, the upload succeeds and you see the new data in the Copilot Dashboard. 
 
 For the best experience using the Copilot dashboard, it’s recommended that you upload ManagerID and Organization for all your employees. 
 
