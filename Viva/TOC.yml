@@ -15,7 +15,7 @@ items:
     - name: Use Organizational Data in Microsoft 365
       href: organizational-data.md
     - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
-      href: glint-insights-integration-overview.md   
+      href: /viva/solutions/glint-insights-integration-overview.md   
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview
