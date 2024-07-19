@@ -23,7 +23,7 @@ description: "Use organizational data in the Microsoft Copilot dashboard"
 ---
 # Use Organizational Data in Microsoft Copilot and Microsoft 365
 
-If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the Copilot dashboard(as long as you've got the correct license). Use the following information to configure and manage organizational data for the Copilot dashboard.
+If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the Copilot dashboard (as long as you've got the correct license). Use the following information to configure and manage organizational data for the Copilot dashboard.
 
 ## Licensing
 To access your organizational data in the Copilot dashboard, you need one of the following license:
