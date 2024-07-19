@@ -166,10 +166,6 @@ If you have issues creating or using access policies for Viva app features, conf
 
 ## How access policies work in Viva
 
-Here's how access policies work in Viva:
-
-:::image type="content" source="./media/vfam-workflow.png" alt-text="Workflow diagram that shows the steps for applying a feature access policy." lightbox="./media/vfam-workflow.png":::
-
 - When a user signs in and accesses Viva, a check is immediately made to see if there’s a policy that applies to the user.
 - If the user is assigned to a policy directly or is a member of a Microsoft Entra group or Microsoft 365 group with an assigned policy, then the policy setting is applied.
 - If the user isn’t assigned a policy directly or isn’t a member of a Microsoft Entra group or Microsoft 365 group that is assigned a policy, then the global default policy is applied. If there is no global default policy, the default enablement state for the feature is applied.
