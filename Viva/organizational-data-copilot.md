@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 7/18/2024
+ms.date: 7/19/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -23,10 +23,10 @@ description: "Use Organizational Data in Microsoft Copilot and Microsoft 365"
 ---
 # Use Organizational Data in Microsoft Copilot and Microsoft 365
 
-If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in Copilot (as long as you've got the correct license). Use the following information to configure and manage organizational data in Copilot.
+If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the Copilot dashboard(as long as you've got the correct license). Use the following information to configure and manage organizational data for the Copilot dashboard.
 
 ## Licensing
-To access your organizational data in Copilot, you need one of the following license:
+To access your organizational data in the Copilot dashboard, you need one of the following license:
 - Microsoft 365 Copilot
 - Viva Insights or Viva Suite
 
@@ -44,7 +44,7 @@ After the experience has been provisioned and loaded, you see the following scre
 
 By default, because this is your first time using Organizational Data in Microsoft 365 (meaning you haven't already imported your org's data), you see data from Microsoft Entra ID. (But this can take up to seven days post-provisioning.)
 
-Until you import org data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the org data page indicates the source for the Copilot Dashboard data.
+Until you import org data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the org data page indicates the source for the Copilot Dashboard data. See [Prepare and import your organizational data](organizational-data.md#prepare-and-import-your-organizational-data) for the steps to import your data.
 
 :::image type="content" source="media/orgdata-copilot-3.jpg" lightbox="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
 
