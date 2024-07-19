@@ -13,6 +13,7 @@ ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection:
 - essentials-privacy
+- essentials-security
 search.appverid: MET150
 ---
 

@@ -19,8 +19,6 @@ audience: Admin
 
 ![Teams service admin icon](../images/applies-to-teams-admin.png)*Applies to: Teams Service Administrator, Microsoft 365 global admin, and Exchange Online admin*
 
-:::image type="content" source="../images/setup-teams-1.png" alt-text="Image alt text." lightbox="../../advanced/images/setup-teams-1.png":::
-
 The Viva Insights app is automatically installed in Teams once the admin enables the app on managed apps. As a [Teams Service Administrator](/microsoftteams/using-admin-roles#teams-roles-and-capabilities), you can pin and manage access for the Microsoft Viva Insights app in Microsoft Teams for all the users or for specific groups in your organization [through custom policies](/microsoftteams/teams-app-setup-policies).
 
 >[!Note]
@@ -71,7 +69,7 @@ As the admin, you can configure the meeting effectiveness surveys for your organ
 
 Confirm the following before configuring access:
 
-* **Admin role** - You need to have a Global admin or an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin, a Global admin, or an Insights admin role.
+* **Admin role** - You need to have an Exchange Online admin role to configure users for meeting effectiveness surveys in the Microsoft 365 admin center. To configure individual users through PowerShell, you need to have an Exchange Online admin or an Insights admin role.
 * **Understand data privacy** - See the [Privacy guide](../../personal/overview/privacy-guide-admins.md) to understand how privacy is built into meeting effectiveness surveys and to learn what you can configure to address your organization's specific privacy requirements.
 
 #### Tenant-level configuration
