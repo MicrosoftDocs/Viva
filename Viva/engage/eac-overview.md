@@ -44,8 +44,6 @@ To access the Viva Engage admin center, you must have one of the following admin
 
 ### See also
 
-[Set up the Viva Engage admin center](/viva/engage/eac-get-started)
-
 [Manage administrator roles and permissions in Viva Engage](/viva/engage/eac-key-admin-roles-permissions)
 
 [Manage data in the Viva Engage admin center](/viva/engage/eac-as-manage-data)
