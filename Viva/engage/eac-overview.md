@@ -36,11 +36,13 @@ In the admin center you can:
 To access the Viva Engage admin center, you must have one of the following admin roles assigned to you: Microsoft 365 Global admin, Engage admin, Answers admin, network admin, verified admin, or corporate communicator.
 
 - To open the admin center, go to [Viva Engage admin center on the web](http://engage.cloud.microsoft/main/admin), and from the gear icon at the top navigation menu, select **Admin center**.
-[![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
 
-    >[!TIP]
-    >To access the admin center in Viva Engage on Teams, select the ellipses icon in the top navigation menu and select **Admin center**.
-    >[![Screenshot shows the entry point to the Viva Engage admin center on Teams.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
+  [![Screenshot shows the entry point to the Viva Engage admin center on the web at engage.cloud.microsoft/main/admin.](/viva/media/engage/admin/web-admin-entry.png)](/viva/media/engage/admin/web-admin-entry.png#lightbox)
+
+  > [!TIP]
+  > To access the admin center in Viva Engage on Teams, select the ellipses icon in the top navigation menu and select **Admin center**.
+  > 
+  > [![Screenshot shows the entry point to the Viva Engage admin center on Teams.](/viva/media/engage/admin/admin-entry-point.png)](/viva/media/engage/admin/admin-entry-point.png#lightbox)
 
 ### See also
 
