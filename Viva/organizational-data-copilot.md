@@ -19,7 +19,7 @@ ms.collection:
 - tier1
 search.appverid:
 - MET150
-description: "Use Organizational Data in Microsoft Copilot and Microsoft 365"
+description: "Use organizational data in the Microsoft Copilot dashboard"
 ---
 # Use Organizational Data in Microsoft Copilot and Microsoft 365
 
