@@ -36,7 +36,7 @@ Your configuration experience with Organizational Data in Microsoft 365 and Micr
 
 The first time you (as a tenant admin) open Organizational Data in Microsoft 365, you see a message about checking your licensing. Once your license is verified, the feature is provisioned - this can take up to one hour, at which point you can upload custom organization data.
 
-:::image type="content" source="media/orgdata-copilot-1.jpg" lightbox="media/media/orgdata-copilot-1.jpg" alt-text="A screenshot of the Organizational Data landing page the first time you access it.":::
+:::image type="content" source="media/orgdata-copilot-1.jpg" lightbox="media/orgdata-copilot-1.jpg" alt-text="A screenshot of the Organizational Data landing page the first time you access it.":::
 
 After the experience has been provisioned and loaded, you see the following screen: 
 
