@@ -15,8 +15,8 @@ items:
     - name: Use Organizational Data in Microsoft 365
       href: organizational-data.md  
       items:
-      - name: Organizational data in the Copilot dashboard
-        href: orgdata-copilot.md    
+      - name: Use organizational data in the Copilot dashboard
+        href: organizational-data-copilot.md    
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview
