@@ -50,7 +50,7 @@ Until you import org data, the Copilot Dashboard uses the data from Microsoft En
 
 To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data Import** tab to import your org data.
 
-:::image type="content" source="media/orgdata-copilot-4.jpg" alt-text="A screenshot of the data import page.":::
+:::image type="content" source="media/orgdata-copilot-4.png" alt-text="A screenshot of the data import page.":::
 
 You must include the Microsoft_ManagerEmail and Microsoft_Organization attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
 
@@ -72,7 +72,7 @@ If you’ve previously uploaded organization data and now have access to the Cop
 
 ## Customers with both Viva Insights or Viva Suite *and* Copilot licenses  
 
-If you have both a Viva Insights or Viva Suite license and a Copilot license, when you upload org data, it's shared with Viva Insights to use in the Copilot dashboard. See [File rules and validation errors](/insights/advanced/admin/rules-validation-errors.md) for information about the rules and validation errors for this upload.
+If you have both a Viva Insights or Viva Suite license and a Copilot license, when you upload org data, it's shared with Viva Insights to use in the Copilot dashboard. See [File rules and validation errors](insights/advanced/admin/rules-validation-errors.md) for information about the rules and validation errors for this upload.
 
 ## Details about your org data
 
