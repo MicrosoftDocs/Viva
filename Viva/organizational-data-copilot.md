@@ -46,33 +46,75 @@ By default, because this is your first time using Organizationl Data in Microsof
  
 Until you import org data, the Copilot Dashboard uses the data from Entra ID. A yellow banner on the org data page indicates the source for the Copilot Dashboard data.
 
-To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. To do this:
+To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data Import** tab to import your org data.
 
+[LP - data import screenshot]
 
-When it’s an admins first time entering and using Copilot Dashboard, the data source will default to Entra. It is recommended that an Admin performs a new data upload to provide higher quality and fresher data to power Copilot Dashboard reports. To perform an upload navigate to the Data imports tab, where if you have not performed an upload before you will see the following screen: 
+You must include the Microsoft_ManagerEmail and Microsoft_Organization attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
 
-A screenshot of a computer
+On subsequent uploads if you choose to upload *either* Microsoft_ManagerEmail or Microsoft_Organization, at least 95% of your users must include data for those attributes. If not, the upload fails. If you choose to *omit* those two attributes, the upload succeeds and you'll see the new data in the Copilot Dashboard. For details see: File rules and validation errors | Microsoft Learn 
 
-Description automatically generated 
+For the best experience using the Copilot dashboard, it’s recommended that you upload ManagerID and Organization for all your employees. 
 
-Here admins can upload Organizational data to support M365, Copilot Dashboard, and Viva experiences. For non-copilot tenants Microsoft_ManagerEmail and Microsoft_Organization are not needed as a part of the upload to start using data in M#65 and Viva apps. However for Copilot an upload must have Microsoft_ManagerEmail and Microsoft_Organization attributes for the copilot report to show.  
+It can take up to 7 days to process, validate, and load your data into the Copilot dashboard. Once the data is validated, you can see the uploaded data in the data over section as follows:  
 
-For an admins first upload, the Microsoft_ManagerEmail and Microsoft_Organization attributes must be populated for all users for data to be used as a part of Copilot dashboard reports 
+[LP - insert screenshot]
 
-On subsequent uploads if you choose to upload either Microsoft_ManagerEmail or Microsoft_Organization, those fields must have data for 95% of users or greater. If not the upload will fail. If you choose to omit those two attributes the upload will succeed and be reflected in the Copilot Dashboard. For details see: File rules and validation errors | Microsoft Learn 
+Toggle to **all uploaded attributes** to see the same subset of data,
 
-For the best experience using Copilot dashboard, it’s recommended that you upload ManagerID and Organization for all your employees. 
+[LP - insert screenshot]
+ 
+If importing your data fails, you'll see a warning message in the portal. Try the upload again.
 
-After an admin uploads data, it can take up to 7 days for the data to process, be validated, and then be loaded in the copilot dashboard. Once the data is validated admins will be able to see their uploaded data in the data over section as follows:  
-
-They will also be able to toggle to “all uploaded attributes” and see the same subset of dataA screenshot of a computer
-
-Description automatically generated 
+## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
+If you’ve previously uploaded organization data and now have access to the Copilot Dashboard, your previous uploads will not be immediately used to power Copilot Dashboard. On your first seeing Copilot Dashboard, it will default to using Entra data and can take up to 7 days to reflect. If you want data uploaded via Organizational Data in M365 to surface in Copilot Dashboard, perform another upload. That upload will then be surfaced in your Copilot Dashboard  
 
  
 
-If an Ingestion fails Admins may see a warning as below, in which case you should reattempt upload.A screenshot of a computer
+ 
 
-Description automatically generated 
+## Customers with both VI/VS and Co-Pilot licenses  
 
-## Existing Organizational Data in Microsoft 365 customers who've added a Copilot license
+If you choose to upload data from MODIS, it will be sent to Viva Insights for usage in the Copilot dashboard. The rules and validation errors for this upload are documented at File rules and validation errors | Microsoft Learn. For customers with Viva Insights licenses and Co-pilot licenses please see the following for more details: Import and use Organizational Data in Microsoft 365-5.9.24.docx 
+
+Data Quality 
+
+There are 6 headers for data quality 
+
+Data Quality headers 
+
+Meaning  
+
+Imported attributes 
+
+Names of your imported attributes as they appear in Microsoft 365 
+
+Copilot dashboard attributes 
+
+These attributes will appear in your copilot dashboard 
+
+Quality score  
+
+% of rows in an upload that contain data and aren’t blank.  
+
+Employee with this field 
+
+# of employees who have had data uploaded for the field  
+
+Unique values 
+
+This shows the number of different options within each attribute field 
+
+Last updated  
+
+Date of last upload of attribute 
+
+ 
+
+ 
+
+Things to add/unsure where to add or if to add 
+
+To learn more about switching back to entra data see page 11: Import and use Organizational Data in Microsoft 365-5.9.24.docx 
+
+ 
