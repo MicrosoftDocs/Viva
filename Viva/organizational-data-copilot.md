@@ -23,12 +23,10 @@ description: "Use organizational data in the Microsoft Copilot dashboard"
 ---
 # Use organizational data in the Microsoft Copilot dashboard
 
-If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the Copilot dashboard (as long as you've got the correct license). Use the following information to configure and manage organizational data for the Copilot dashboard.
+If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the [Copilot dashboard](insights/org-team-insights/delegate-access.md) (as long as you've got a Microsoft Copilot license). Use the following information to configure and manage organizational data for the Copilot dashboard.
 
-## Licensing
-To access your organizational data in the Copilot dashboard, you need the following licenses:
-- Microsoft 365 Copilot
-- Viva Insights or Viva Suite
+> [!NOTE]
+> To see data in the Copilot dashboard, you need either 100 Microsoft Copilot licenses or 10 Viva Insights license.
 
 Your configuration experience with Organizational Data in Microsoft 365 and Microsoft Copilot depends on whether you're configuring organizational data for the first time or if you've previously set it up and are now adding Copilot into your infrastructure.
 
@@ -50,15 +48,13 @@ Until you import org data, the Copilot Dashboard uses the data from Microsoft En
 
 To make sure you have the highest quality and freshest data to power your Copilot Dashboard reports, upload your organization's data. Go to the **Data imports** tab to import your org data.
 
-:::image type="content" source="media/orgdata-copilot-4.png" lightbox="media/orgdata-copilot-4.png" alt-text="A screenshot of the Data imports page.":::
+The first time that you upload organization data, you *must* include the **Microsoft_ManagerEmail** and **Microsoft_Organization** attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.) 
 
-You must include the **Microsoft_ManagerEmail** and **Microsoft_Organization** attributes for all users for data to be used as a part of Copilot dashboard reports (These attributes are optional for tenants without Copilot.)
-
-On subsequent uploads if you choose to upload *either* **Microsoft_ManagerEmail** or **Microsoft_Organization**, at least 95% of your users must include data for those attributes. If not, the upload fails. If you choose to *omit* those two attributes, the upload succeeds and you see the new data in the Copilot Dashboard. 
+On subsequent uploads if you choose to upload *either* **Microsoft_ManagerEmail** or **Microsoft_Organization**, at least 95% of your users must have data for those attributes. If not, the upload fails. If you choose to *omit* those two attributes, the upload succeeds, and you see the new data in the Copilot Dashboard. 
 
 For the best experience using the Copilot dashboard, it’s recommended that you upload ManagerID and Organization for all your employees. 
 
-It can take up to seven days to process, validate, and load your data into the Copilot dashboard. Once the data is validated, you can see the uploaded data in the data over section as follows:  
+It can take up to seven days to process, validate, and load your data into the Copilot dashboard. Once the data is validated, you can see the uploaded data in the **Data overview** section as follows:  
 
 :::image type="content" source="media/orgdata-copilot-5.jpg" lightbox="media/orgdata-copilot-5.jpg" alt-text="A screenshot of the data attributes page with the tenant's org data.":::
 
@@ -72,7 +68,7 @@ If you’ve previously uploaded organization data and now have access to the Cop
 
 ## Customers with both Viva Insights or Viva Suite *and* Copilot licenses  
 
-If you have both a Viva Insights or Viva Suite license and a Copilot license, when you upload org data, it's shared with Viva Insights to use in the Copilot dashboard. See [File rules and validation errors](insights/advanced/admin/rules-validation-errors.md) for information about the rules and validation errors for this upload.
+If you have both a Viva Insights or Viva Suite license and a Copilot license, when you upload org data, it's [shared with Viva Insights to use in the Copilot dashboard](insights/org-team-insights/copilot-dashboard.md). See [File rules and validation errors](insights/advanced/admin/rules-validation-errors.md) for information about the rules and validation errors for this upload.
 
 ## Details about your org data
 

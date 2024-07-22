@@ -17,6 +17,8 @@ items:
       items:
       - name: Use organizational data in the Copilot dashboard
         href: organizational-data-copilot.md    
+      - name: Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+        href: /viva/solutions/glint-insights-integration-overview
     - name: Microsoft Viva privacy, security, and compliance
       items:
       - name: Overview

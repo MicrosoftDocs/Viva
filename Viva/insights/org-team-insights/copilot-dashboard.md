@@ -64,7 +64,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 3. To learn more about the data in the dashboard, refer to [Interpreting the dashboard data](#interpreting-the-data).
 
 
-### Delegate access to the dashboard: 
+### Delegate access to the dashboard 
 
 If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md). 
 
@@ -87,6 +87,11 @@ For those qualifying tenants, only users who meet both of the following criteria
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 Global admins can also enable or disable automatic access to the dashboard using PowerShell. If you’re a Microsoft 365 global admin, [learn more about how to manage access to the dashboard](../advanced/admin/manage-settings-copilot-dashboard.md).
+
+## Manage settings for the Copilot dashboard
+
+As a Microsoft 365 global admin or Viva Insights admin, you can configure several features of the Microsoft Copilot Dashboard. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md).
+
 
 ## Interpreting the data
 ### Readiness
