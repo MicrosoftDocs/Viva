@@ -93,7 +93,7 @@ Microsoft Viva supports several partner integrations to give you access to indus
 
 **Viva Connections**: Qualtrics, ServiceNow, UKG, Talentsoft, StandOut by ADP, Adobe Sign, Moveworks, Lifeworks, Limeade, Tribute, Blue Yonder, Zebra-Reflexis
 
-**Viva Insights**: Qualtrics and Headspace
+**Viva Insights**: Qualtrics and Headspace (Headspace available until July 25, 2024)
 
 **Viva Goals**: This app has dozens of partner integrations. [Find the latest list here](/viva/goals/integrations-overview).
 
