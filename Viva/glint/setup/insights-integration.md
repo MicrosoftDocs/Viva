@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/17/2024
+ms.date: 07/22/2024
 ---
 
 # Export Viva Glint survey results to Viva Insights (preview)
@@ -24,12 +24,10 @@ ms.date: 07/17/2024
 
 HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel – Glint - along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
->[**Introduction to Microsoft Viva Insights**](/../viva/insights/introduction)
-
 ## What data can be sent to Viva Insights?
 
 >[!IMPORTANT]
->By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within Microsoft Viva Insights.
+>By sending data to Viva Insights, you agree to have Microsoft Viva Glint data sent and stored within [Microsoft Viva Insights](/../viva/insights/introduction).
 
 This consent screen displays the first time you begin this integration. You must **Agree to terms** before moving forward.
 
