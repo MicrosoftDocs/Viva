@@ -45,9 +45,7 @@ You have two options for creating a Copilot adoption community in Viva Engage.
 
 :::image type="content" source="../media/engage/admin/adoption-launch-options.png" alt-text="Screenshot shows the landing page where you can create a Microsoft 365 Copilot adoption community or bring Copilot adoption features to an existing community.":::
 
-
-Update the image for this section and next step (something like this) 
-Setup follows the same process as any other community. However, this templatized community removes much of the work for setup and ongoing community management. Upon creation, the community includes a cover photo, description, and onboarding checklist right out of the box. Admins can customize the community however needed.
+Setup is similar to creating any other community, only simpler. The templatized community removes much of the work for setup and ongoing community management. At completion, the community includes a cover photo, description, and onboarding checklist. Admins can add customizations as needed.
 
 >[!NOTE]
 > To create this community, Microsoft 365 Copilot licenses _must be present_ on the tenant. However, those licenses don't need to be assigned to the network admin or  corporate communicator who's setting up the community.
@@ -67,7 +65,8 @@ The suggested content here aligns with content you'll find in the Viva Amplify c
 
 - **Copilot writing assistance** can help members write their posts. Availability for the Copilot writing assistant is controlled at the network level.
 
-- **Top questions** raise visibility of the most common questions, helping users quickly see the answers they need. Top questions appear in the right sidebar for quick reference.
+- **Top questions** raise visibility of the most common questions for the community. When you’re considering whether to join a community, this tile can give you good idea of the community's focus and concerns. Expand this list to see all questions posted in the last 90 days.
+
 
 - **Membership suggestion** dynamically grows your community by suggesting new members as your organization allots or assigns Microsoft 365 Copilot licenses. This helps community admins bring the right people into the community to learn and share.
 
